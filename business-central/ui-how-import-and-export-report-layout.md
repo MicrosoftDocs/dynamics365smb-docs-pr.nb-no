@@ -1,21 +1,21 @@
 ---
-title: Importere og eksportere en rapport og et dokumentoppsett | Microsoft-dokumentasjon
+title: Importer og eksporter en rapport og et dokumentoppsett
 description: Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som en fil til og fra en plassering på datamaskinen og nettverket.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 01/13/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8ec498030368aa2e6378068c88910b787c3632f8
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.search.form: 9652, 9650
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: cb929e1e18d6e0711fd23ae12255220fdae1080d
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2954050"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101350"
 ---
 # <a name="import-and-export-custom-report-layouts"></a>Importere og eksportere en egendefinert rapportoppsett
 Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som en fil til og fra en plassering på datamaskinen og nettverket. Du kan for eksempel eksportere et rapportoppsett og deretter sende filen til en annen person som skal endre det. Vedkommende kan deretter gjøre endringer i oppsettet og returnere filen til deg slik at du kan importere den tilbake.  
@@ -25,7 +25,7 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
 
 ### <a name="to-export-a-report-layout-to-a-file"></a>Slik eksporterer du et rapportoppsett til en fil  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
 
 2.  Velg raden for rapporten som inneholder det egendefinerte rapportoppsettet du vil eksportere, og velg deretter handlingen **Egendefinerte oppsett**.  
 
@@ -39,7 +39,7 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
 
      En Word-rapportoppsettfil må filen ha filtypen DOCX. En RDLC-rapportoppsettfil må filen ha filtypen RDLC eller RDL.  
 
-2.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
+2.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
 
 3.  Velg raden for rapporten du vil importere rapportoppsettet til, og velg deretter handlingen **Egendefinerte oppsett**.  
 
@@ -51,7 +51,11 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også  
- [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)   
- [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md)  
- [Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)    
+## <a name="see-also"></a>Se også
+
+[Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)   
+[Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md)  
+[Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)    
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

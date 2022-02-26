@@ -1,23 +1,25 @@
 ---
-title: Kjøpe varer som er på salg ved å opprette kjøpsfakturaer | Microsoft dokumenter
+title: Kjøpe varer for salg
 description: Du kan opprette en faktura for en leverandør fra en salgsfaktura for å kjøpe produkter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supply planning, sales demand, replenish
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 1b723eaa62ef51fb6cacd42c29a4e2709a3228e6
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 50, 51, 56, 9308
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 46057027e89a087105ca52969c8d5f40a2c0cd26
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312487"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953412"
 ---
-# <a name="purchase-items-for-a-sale"></a>Kjøpe varer for salg
+# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Kjøpe varer som er på salg ved å opprette kjøpsfakturaer
+
 I ordrer og på salgsfakturaer kan du bruke funksjoner til raskt å opprette kjøpsdokumenter for manglende vareantall som kreves av salget. Du kan bruke to ulike funksjoner, avhengig av dokumenttypen.
 
 > [!Note]
@@ -31,7 +33,7 @@ I ordrer og på salgsfakturaer kan du bruke funksjoner til raskt å opprette kj�
 ## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Opprette én eller flere bestillinger fra en ordre
 Hvis du vil opprette en bestilling for hvert utilgjengelige vareantall i ordren, bruker du funksjonen **Opprett bestillinger**.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
 2. Åpne en ordre du vil kjøpe varer for.
 3. Velg handlingen **Opprett bestillinger**.
 
@@ -54,7 +56,7 @@ Hvis du vil opprette én kjøpsfaktura for én eller flere linjer i et salgsdoku
 > [!NOTE]  
 >   Denne funksjonen oppretter en kjøpsfaktura for det nøyaktige vareantallet i det valgte salgsdokumentet. Hvis du vil endre kjøpsantallet, må du redigere kjøpsfakturaen etter at den er opprettet.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
 2. Åpne en salgsfaktura du vil kjøpe varer for.
 3. Velg én eller flere salgsfakturalinjer du vil bruke på kjøpsfakturaen. Hvis du vil bruke alle salgsfakturalinjene, merker du dem alle eller ingen av dem.
 4. Velg handlingen **Opprett kjøpsfaktura**.
@@ -69,4 +71,7 @@ Hvis du vil opprette én kjøpsfaktura for én eller flere linjer i et salgsdoku
 [Registrere kjøp](purchasing-how-record-purchases.md)  
 [Fakturere salg](sales-how-invoice-sales.md)  
 [Registrere nye leverandører](purchasing-how-register-new-vendors.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

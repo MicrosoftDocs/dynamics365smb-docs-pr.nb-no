@@ -1,50 +1,69 @@
 ---
-title: Definere kontoplanen
-description: Du kan endre standardkontoene i kontoplanen, og du kan legge til nye kontoer.
+title: Definere kontoplanen (inneholder video)
+description: Kontoplanen viser finanskontoene som lagrer dine økonomiske data. Du kan endre standardkontoene i kontoplanen, og du kan legge til nye kontoer.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: COA, cha of acc
-ms.date: 04/01/2020
+ms.search.form: 16, 17, 18, 118, 386, 391
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 1241ff479019d0aa0223dbb374b3ad568a7157d0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: aad8d76b248aa2cabd84598c4a97a6989c7ee170
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182759"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970940"
 ---
 # <a name="setting-up-or-changing-the-chart-of-accounts"></a>Definere eller endre kontoplanen
-Kontoplanen viser finanskontoene som lagrer dine økonomiske data. [!INCLUDE[d365fin](includes/d365fin_md.md)] inneholder en standard kontoplan som er klar til å støtte forretningsvirksomheten din.
+
+Kontoplanen viser finanskontoene som lagrer dine økonomiske data. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en standard kontoplan som er klar til å støtte forretningsvirksomheten din.
 Du kan imidlertid endre standardkontoene, og du kan legge til nye kontoer.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-
 ## <a name="adding-or-changing-accounts"></a>Legge til eller endre kontoer
-For hver kontoplan kan du åpne finanskontoen og legge til eller endre innstillinger.
 
-> [!NOTE]  
->   Du kan slette en finanskonto. Før du sletter den, må imidlertid følgende være oppfylt:  
->  
->   * Saldo på kontoen må være null.  
->   * Feltet **Tillat sletting av finanskto. før** må være satt på siden **Finansoppsett**, og kontoen kan ikke ha finansposter på eller etter denne datoen.  
->   * Hvis feltet **Kontroller finanskontobruk** er valgt på siden **Finansoppsett**, må ikke kontoen brukes i bokføringsgrupper eller bokføringsoppsett.  
+For hver kontoplan kan du åpne finanskontoen og legge til eller endre innstillinger. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] hindrer deg i å slette en finanskonto som lagrer data som er nødvendige i kontoplanen.  
+Hvis det er nødvendig kan du bruke mer enn én linje for et finanskontonavn. På siden **Finanskontokort**, i gruppen **Konto** velger du **Utvidede tekster** og fyller inn en eller flere linjer med tekst som skal kopieres, og kontonavnet.  
+
+Når det gjelder konti av typen **Total** må du fylle ut feltet **Sammentelling**. På konti av typen **Til-sum**, fylles dette feltet ut automatisk av funksjonen Innrykking. Når du har definert alle kontiene, velger du handlingen **Behandle** og velger **Innrykk kontoplan**.  
+
+> [!IMPORTANT]
+> Hvis du har angitt definisjoner i feltet **Sammentelling** for konti av typen **Til-sum** før du utfører innrykkingen, må du skrive dem inn på nytt fordi funksjonen overskriver verdiene i alle **Til-sum**-feltene.
+
+## <a name="deleting-accounts"></a>Sletting av konti
+
+Du kan slette en finanskonto. Før du sletter den, må imidlertid følgende være oppfylt:  
+
+* Saldo på kontoen må være null.  
+* Feltet **Tillat sletting av finanskto. før** må være satt på siden **Finansoppsett**, og kontoen kan ikke ha finansposter på eller etter denne datoen.  
+* Hvis feltet **Kontroller finanskontobruk** er valgt på siden **Finansoppsett**, må ikke kontoen brukes i bokføringsgrupper eller bokføringsoppsett.  
+
+[!INCLUDE[prod_short](includes/prod_short.md)] hindrer deg i å slette en finanskonto som lagrer data som er nødvendige i kontoplanen.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
+
 [Finans og kontoplanen](finance-general-ledger.md)  
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  
 [Arbeide med dimensjoner](finance-dimensions.md)  
 [Importere data fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Arbeide med kontoskjemaer](bi-how-work-account-schedule.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Lukk resultatregnskapskonti i den franske versjonen](LocalFunctionality/France/how-to-close-income-statement-accounts.md)  
+[Skriv ut resultatregnskap i den australske versjonen](LocalFunctionality/Australia/how-to-print-income-statements.md)  
+[Skriv ut resultatregnskap i versjonen for New Zealand](LocalFunctionality/NewZealand/how-to-print-income-statements.md)  
+[Definer og lukk resultatregnskapssaldi i den spanske versjonen](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)  
+[Rykk inn og valider kontoplanen i den spanske versjonen](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

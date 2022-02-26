@@ -1,28 +1,28 @@
 ---
-title: Elektroniske dokumenter i Business Central | Microsoft-dokumentasjon
-description: Innføring i å sende og motta elektroniske dokumenter i Business Central.
+title: Elektroniske dokumenter i Business Central
+description: Dette er en oversikt over hvordan du bruker rammeverket for datautveksling til å utveksle data i forretningsdokumenter som bankfiler og valutakurser.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 01/30/2020
-ms.author: sgroespe
-ms.openlocfilehash: ac4060caf413245720c01d55e7ebf809d973a647
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
+ms.date: 06/10/2021
+ms.author: edupont
+ms.openlocfilehash: 3f67cf78444e263932897948f93c8ece028989d8
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999834"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588379"
 ---
 # <a name="exchanging-data-electronically"></a>Utveksle data elektronisk
 Du kan bruke rammeverket for datautveksling til å utveksle forretningsdokumenter, bankfiler, valutakurser og andre datafiler med forretningspartnerne.
 
-I standardversjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)] brukes rammeverket for datautveksling i funksjoner, for eksempel elektroniske dokumenter, import/eksport av bankfiler og oppdatering av valutakurser. Hvis du vil ha mer informasjon, se [Rammeverket for datautveksling](across-about-the-data-exchange-framework.md).
+I standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] brukes rammeverket for datautveksling i prosesser, for eksempel utveksling av elektroniske dokumenter, import og eksport av bankfiler og oppdatering av valutakurser. Hvis du vil ha mer informasjon, se [Rammeverket for datautveksling](across-about-the-data-exchange-framework.md).
 
-Som administrator eller Microsoft-partner kan du bruke rammeverket i nye integrasjonsfunksjoner ved å definere hvilke data som skal utveksles, og hvordan. Hvis du vil ha mer informasjon, kan du se [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)
+Som administrator eller Microsoft-partner kan du bruke rammeverket i nye integrasjonsfunksjoner ved å angi dataene som skal utveksles, og hvordan de skal utveksles. Hvis du vil ha mer informasjon, kan du se [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)
 
 Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.  
 
@@ -39,3 +39,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 [Utveksle data](across-exchange-data.md)  
 [Inngående dokumenter](across-income-documents.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

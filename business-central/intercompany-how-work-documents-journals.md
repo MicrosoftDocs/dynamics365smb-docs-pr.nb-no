@@ -1,21 +1,22 @@
 ---
-title: Bokføre konserninterne dokumenter og kladder | Microsoft-dokumentasjon
-description: Bruke konserninterne dokumenter til å bokføre transaksjoner med de konserninterne partnerne.
+title: Bokføre konserninterne dokumenter og kladder
+description: Dette emnet forklarer hvordan du bruker konserninterne dokumenter eller kladder til å bokføre transaksjoner med de konserninterne partnerne.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 55f7e0f58634ad56d88d6e826f42eafdc92c6a6a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 610
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 903a0b1770bb29cb744f2aa8dc9510541ca7539c
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182423"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029407"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Arbeide med konserninterne dokumenter og kladder
 Du bruker konserninterne dokumenter eller kladder til å bokføre transaksjoner med de konserninterne partnerne. Når du bokfører et konserninternt dokument eller en kladdelinje i selskapet, opprettes det et tilsvarende dokument eller kladdelinje i den konserninterne utboksen som du kan overføre til partneren. Partneren kan deretter bokføre den tilsvarende transaksjonen i selskapet sitt, uten å måtte registrere dataene på nytt.
@@ -29,7 +30,7 @@ Du kan sende ordrer, bestillinger og returordrer før bokføring. Fakturaer og k
 
 Fremgangsmåten nedenfor beskriver hvordan du fyller ut og sender en konsernintern ordre. Den samme fremgangsmåten gjelder for konserninterne bestillinger og returordrer og for bokførte konserninterne fakturaer og kreditnotaer.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 2. Velg **Ny** for å opprette en ny ordre. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Kointroller at kunden er en konsernintern partner.
@@ -41,7 +42,7 @@ Fremgangsmåten nedenfor beskriver hvordan du fyller ut og sender en konserninte
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Slik fyller du ut og bokfører en konsernintern kladd
 Når du bokfører en konsernintern kladdelinje i selskapet, opprettes det en tilsvarende kladdelinje i den konserninterne utboksen som du kan overføre til partneren. Partneren kan deretter bokføre den tilsvarende transaksjonen i selskapet sitt, uten å måtte registrere dataene på nytt.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konserninterne finanskladder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konsernintern finanskladder**, og velg deretter den relaterte koblingen.  
 2. Åpne den relevante kjørselen for kladden. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
 3. Fyll ut feltene etter behov.
 4. I feltet **Finanskontonr. for KI-partner** angir du nummeret til den konserninterne finanskontoen der beløpet skal bokføres i partnerens selskap.
@@ -57,4 +58,7 @@ De involverte postene bokføres i selskapet ditt, og en kladd med tilhørende po
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

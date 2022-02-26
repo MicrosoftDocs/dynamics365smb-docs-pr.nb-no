@@ -1,25 +1,24 @@
 ---
-title: Plukke varer | Microsoft-dokumentasjon
-description: Lageraktiviteten med å plukke varer før de er leveres eller forbrukes, utføres på ulike måter avhengig av hvordan lagerstyringsfunksjonene er satt opp. [Oppsettets](../configure-warehouse-processes.md) kompleksitet kan variere fra ingen lagerfunksjoner, via grunnleggende lagerkonfigurasjoner der bestilling for bestilling behandles ved hjelp av bare en eller flere aktiviteter, til avanserte oppsett der alle lageraktiviteter utføres i en styrt arbeidsflyt.
-services: project-madeira
-documentationcenter: ''
+title: Plukke varer
+description: Aktiviteten med å plukke varer før de er leveres eller forbrukes, utføres på ulike måter avhengig av hvordan lagerstyringsfunksjonene er satt opp.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 23c01374b7b044c8f497126ef6409bf27b80dffe
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 5779, 5798, 7343, 7345, 7357, 7359, 7377, 7392, 7395, 7397, 9313, 9316, 9344
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 10b5c682fa5237aa49152306698c17dad247e664
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313835"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970755"
 ---
 # <a name="pick-items"></a>Plukke varer
+
 Lageraktiviteten med å plukke varer før de er leveres eller forbrukes, utføres på ulike måter avhengig av hvordan lagerstyringsfunksjonene er satt opp. Kompleksiteten kan variere fra ingen lagerfunksjoner, via grunnleggende lagerkonfigurasjoner der bestilling for bestilling behandles ved hjelp av bare en eller flere aktiviteter, til avanserte oppsett der alle lageraktiviteter utføres i en styrt arbeidsflyt. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).
 
 Hvis du velger å organisere og registrere plukkingsaktivitet med lagerdokumenter, setter du en hake i feltet **Plukk nødv.** på lokasjonskortet. Dette angir at når du har varer som skal plukkes for et utgående kildedokument, vil du at systemet skal kontrollere plukkingen av disse varene. Et utgående kildedokument kan være en ordre, en bestillingsretur, en utgående overføringsordre, en serviceordre eller en produksjonsordre som det skal plukkes komponenter til.
@@ -49,7 +48,10 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 ## <a name="see-also"></a>Se også  
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
-[Definere lagerstyring](warehouse-setup-warehouse.md)     
-[Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Definere Warehouse Management](warehouse-setup-warehouse.md) 
+[Monteringsstyring](assembly-assemble-items.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

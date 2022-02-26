@@ -1,30 +1,30 @@
 ---
-title: Sette opp remitteringsavtaler
-description: Du må undertegne en avtale om remittering med banken når du oppretter elektroniske betalinger. Du kan sette opp mer enn én remitteringsavtale hvis du har en avtale med to eller flere banker.
+title: Sett opp remitteringsavtaler [NO]
+description: Du må undertegne en avtale om remittering med banken når du oppretter elektroniske betalinger.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 22a1d80fa6d66bc73fd09401a67c0c9e7f7e08aa
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/21/2021
+ms.author: edupont
+ms.openlocfilehash: d2a337bdf86aac5f4fbc3d16202c909b2f1b74fb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181018"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443316"
 ---
-# <a name="set-up-remittance-agreements"></a>Sette opp remitteringsavtaler
+# <a name="set-up-remittance-agreements-in-the-norwegian-version"></a>Sett opp remitteringsavtaler i den norske versjonen
 Du må undertegne en avtale om remittering med banken når du oppretter elektroniske betalinger. Du kan sette opp mer enn én remitteringsavtale hvis du har en avtale med to eller flere banker. For hver avtale må du spesifisere én eller flere kontoer som betalingen skal utføres fra. Du må opprette en remitteringskonto for hver konto. For mer informasjon, se [Sette opp remitteringskontoer](how-to-create-remittance-accounts.md).  
 
 ## <a name="to-set-up-a-remittance-agreement"></a>Slik setter du opp en remitteringsavtale  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Remitteringsavtaleoversikt**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Remitteringsavtaleoversikt**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  I hurtigfanen **Generelt** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -98,3 +98,6 @@ Du må undertegne en avtale om remittering med banken når du oppretter elektron
  [Remitteringsfeil](remittance-errors.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

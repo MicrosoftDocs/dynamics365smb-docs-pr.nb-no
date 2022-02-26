@@ -1,21 +1,21 @@
 ---
-title: Angi data i Business Central | Microsoft Docs
-description: Lære om generelle funksjoner som kan hjelpe deg med å registrere data i feltene.
-author: SorenGP
+title: Skrive inn data i Business Central
+description: Det finnes flere generelle funksjoner som hjelper deg å registrere data raskere, enklere og mer nøyaktig. De grunnleggende prinsippene og de avanserte funksjonene beskrives her.
+author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/03/2020
-ms.author: sgroespe
-ms.openlocfilehash: f3af601f0de00445a42c88bb47053084b05fc14b
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.search.keywords: decimal separator, data entry, focus
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 1e6dbdd5880902c7b649464ad967f01cc599f37f
+ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262145"
+ms.lasthandoff: 10/01/2021
+ms.locfileid: "7588960"
 ---
 # <a name="entering-data"></a>Skrive inn data
 
@@ -24,7 +24,7 @@ Det finnes flere generelle funksjoner som hjelper deg å registrere data raskere
 Eksemplene i denne artikkelen bruker demonstrasjonsdataene.
 
 ## <a name="working-with-editable-fields"></a>Arbeide med felter som kan redigeres
-Felter [!INCLUDE[d365fin](includes/d365fin_md.md)] kan inneholde ulike data som kan redigeres, som tekst eller valutabeløp. Redigerbare felter viser vanligvis en inndataboks der du kan skrive eller velge en verdi. Felter som ikke kan redigeres, vises vanligvis med en grå bakgrunn.   
+Felter [!INCLUDE[prod_short](includes/prod_short.md)] kan inneholde ulike data som kan redigeres, som tekst eller valutabeløp. Redigerbare felter viser vanligvis en inndataboks der du kan skrive eller velge en verdi. Felter som ikke kan redigeres, vises vanligvis med en grå bakgrunn.   
 
 Enkelte redigerbare felter har en velger som hjelper deg med å angi en verdi.  
 
@@ -36,7 +36,6 @@ Enkelte redigerbare felter har en velger som hjelper deg med å angi en verdi.
 |Bryter eller avmerkingsboks|Enkelte felter gir en et enkelt valg med *Ja*- eller *Nei*-verdier. Bryteren brukes til å angi denne verdien og vises alltid som en avmerkingsboks i lister|
 |Redigeringshjelp       |Enkelte felter gir egendefinerte velgere som er egnet til å slå opp og velge den beste verdien for det feltet, som et popup-vindu|
 
-
 ### <a name="modifying-a-field-value"></a>Endre en feltverdi
 
 For å endre verdien i et felt må du først sette fokus på feltet. Du setter fokus ved å gjøre følgende handling:
@@ -44,7 +43,7 @@ For å endre verdien i et felt må du først sette fokus på feltet. Du setter f
 - Bruk **Tab**-tasten. Handlingen velger hele verdien.
 - Venstreklikk med musen eller en lignende inndataenhet. Denne handlingen vil bare velge hele feltverdien hvis feltet er i en liste.  
 
-Når du samhandler med felt i brukergrensesnitt, velger [!INCLUDE[d365fin](includes/d365fin_md.md)] ofte hele feltverdien for å gjøre det enklere for deg å erstatte verdien.
+Når du samhandler med felt i brukergrensesnitt, velger [!INCLUDE[prod_short](includes/prod_short.md)] ofte hele feltverdien for å gjøre det enklere for deg å erstatte verdien.
 
 Når hele feltverdien velges:
 - Erstatt verdien ved å bare skrive for å angi en ny verdi. Hvis felter har en velger, kan du aktivere den ved å bruke **Alt + pil ned**-tastatursnarveien.
@@ -58,7 +57,6 @@ Når markøren vises på slutten av feltverdien:
 
 > [!NOTE]
 > Når du angir en verdi, vil Business Central bare kontrollere at den er gyldig etter at du klikker utenfor feltet eller setter fokus til et annet element, som det neste feltet.  
-
 
 ## <a name="keyboard-shortcuts"></a>Hurtigtaster
 
@@ -85,7 +83,7 @@ Listen nedenfor inneholder litt informasjon om å bruke Hurtigoppføring.
 - Det er tilgjengelig for alle redigerbare felt.
 - Den fungerer også i kolonner og rader.
 - Det hindrer ikke tilgang til andre elementer på en side, som handlinger. Disse elementene kan fremdeles nås ved å bruke Tab og Skift + Tab.  
-- Det er ikke nødvendig at FastTabs er utvidet for at Hurtigoppføring skal fungere. Hvis det neste Hurtigoppføring-feltet er plasser i en skjult FastTab, utvides den FastTab-en automatisk og fokuserer på det valgte feltet. [!INCLUDE[d365fin](includes/d365fin_md.md)] husker at FastTab skal ekskluderes neste gang du besøker siden.  
+- Det er ikke nødvendig at FastTabs er utvidet for at Hurtigoppføring skal fungere. Hvis det neste Hurtigoppføring-feltet er plasser i en skjult FastTab, utvides den FastTab-en automatisk og fokuserer på det valgte feltet. [!INCLUDE[prod_short](includes/prod_short.md)] husker at FastTab skal ekskluderes neste gang du besøker siden.  
 - Hurtigoppføring fungerer uansett om felter er obligatoriske. Det kan derfor være lurt å sørge for at obligatoriske felt er inkludert i Hurtigoppføring.
 - Som standard inkluderes de fleste feltene automatisk i Hurtigoppføring. Så i starten vil oppgaven din sannsynligvis eksludere felt fra Hurtigoppføring.
 
@@ -93,7 +91,7 @@ Listen nedenfor inneholder litt informasjon om å bruke Hurtigoppføring.
 
 Du bruker tilpasning til å konfigurere Hurtigoppføring på felt.
 
-1. Start tilpasningen ved å velge ikonet ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter"), og deretter **Tilpasse**-handlingen.
+1. Start tilpasning ved å velge ikonet ![Innstillinger.](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter") og deretter **Tilpass**-handlingen.
 2. Velg et felt du vil endre. I lister velger du tilsvarende kolonneoverskrift. Velg deretter enten **Inkludert i Hurtigoppføring** eller **Ekskludert fra Hurtigoppføring**.
 
 Hvis du vil ha mer informasjon om tilpasning, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
@@ -120,7 +118,7 @@ Du kan kopiere én eller flere rader fra en liste eller fra ett felt på en side
 
 Trykk på F8 i listen for å kopiere feltet i den samme kolonnen i raden over, og lim det inn i den gjeldende raden.
 
-Hvis du vil ha mer informasjon, kan du se [Vanlige spørsmål om kopiere og lime inn](ui-copy-paste.md).
+Hvis du vil ha mer informasjon, kan du se [Vanlige spørsmål om kopiere og lime inn](faq-copy-paste.yml).
 
 ## <a name="filtering-line-items"></a>Filtrere linjeelementer
 
@@ -136,9 +134,9 @@ Det er særlig nyttig når du arbeider med store linjeelementlister og du vil re
 
 ### <a name="switching-the-focus-on-and-off"></a>Bytte fokus på og av
 
-Når du skal fokusere på linjeelementer, velger du hvor som helst i linjeelementdelen og velger deretter ![Fokusmodusikon](media/focus-mode.png "Fokusmodusikon") øverst til høyre, eller trykk på Ctrl+Skift+F12.
+Hvis du vil fokusere på linjeelementer, velger du hvor som helst i linjeelementdelen, og deretter velger du ![Fokusmodusikon.](media/focus-mode.png "Fokusmodusikon") øverst i høyre hjørne, eller trykk på CTRL + SKIFT + F12.
 
-Hvis du vil gå tilbake til den normale visningen, kan du velge ![Fokusmodusikon](media/focus-mode.png "Fokusmodusikon"), eller trykk på Ctrl+Skift+F12 på nytt.
+Hvis du vil gå tilbake til normal visning, velger du ![Fokusmodusikon.](media/focus-mode.png "Fokusmodusikon") eller trykker på CTRL + SKIFT + F12 på nytt.
 
 ## <a name="multitasking-across-multiple-pages"></a>Multitaske på tvers av flere sider
 
@@ -148,21 +146,21 @@ Du kan åpne et kort eller en dokumentside i et nytt vindu. Ved å åpne i et ny
 - administrere avbrudd for gjeldende oppgave, som å besvare et innkommende anrop
 - holde et vindu åpent for en pågående oppgave mens du starter eller fullfører en annen oppgave i vinduer
 
-Hvis du vil åpne det gjeldende kortet eller dokumentet i et nytt vindu, velger du ![Åpne nytt vindu](media/open-new-window-icon.png "Åpne i nytt vindu-ikon") i øvre høyre hjørne eller trykker på Alt+Skift+W.
+Hvis du vil åpne det gjeldende kortet eller dokumentet i et nytt vindu, velger du ![Åpne nytt vindu.](media/open-new-window-icon.png "Åpne i nytt vindu-ikon") øverst i høyre hjørne, eller trykk på ALT + SKIFT + W.
 
 <!--
 When working on multiple tasks at a time or when managing interruptions to the current task, such as taking an incoming call, you can open a card or document page in a new window. This allows you to keep a window open for an ongoing task while you start or complete another task in one or more other windows.
 -->
-Hvis du vil åpne det gjeldende kortet eller dokumentet i et nytt vindu, velger du ![Åpne nytt vindu](media/open-new-window-icon.png "Åpne i nytt vindu-ikon") i øvre høyre hjørne eller trykker på Alt+Skift+W.
+Hvis du vil åpne det gjeldende kortet eller dokumentet i et nytt vindu, velger du ![Åpne nytt vindu.](media/open-new-window-icon.png "Åpne i nytt vindu-ikon") øverst i høyre hjørne, eller trykk på ALT + SKIFT + W.
 
 > [!NOTE]
-> Når du åpner andre sider fra et kort eller dokument som er åpnet i et nytt vindu, åpnes disse sidene i et nytt vindu selv om du ikke velger ![Åpne i nytt vindu](media/open-new-window-icon.png "Åpne i nytt vindu-ikon").
+> Når du åpner andre sider fra et kort eller dokument som er åpnet i et nytt vindu, åpnes disse sidene i et nytt vindu selv om du ikke velger ![Åpne i nytt vindu.](media/open-new-window-icon.png "Åpne i nytt vindu-ikon").
 
 > [!NOTE]
 > Hvis du arbeider i Safari-leseren, kan en popup-blokkering føre til at det nye vinduet ikke åpnes. Hvis dette er tilfellet, angir du produkt-URL-adressen som et tillatt webområde. Hvis du vil ha mer informasjon, kan du se [Endre innstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
-> Det kan skje i andre lesere, for eksempel Firefox. Se [Innstillinger for popup-blokkering i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400) for mer informasjon.  
+> Det samme kan skje i andre nettlesere, for eksempel Firefox. Se [Innstillinger for popup-blokkering i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400) hvis du vil ha mer informasjon.  
 
-En annen måte å kjøre gjøremål på, er å åpne [!INCLUDE[d365fin](includes/d365fin_md.md)] i to eller flere webleserkategorier. Når du gjør det på denne måten, bør du opprette en ny fane og kopiere / lime inn URL-adressen til den opprinnelige fanen i den nye fanen. Dette oppretter en ny økt.   
+En annen måte å kjøre gjøremål på, er å åpne [!INCLUDE[prod_short](includes/prod_short.md)] i to eller flere webleserkategorier. Når du gjør det på denne måten, bør du opprette en ny fane og kopiere / lime inn URL-adressen til den opprinnelige fanen i den nye fanen. Dette oppretter en ny økt.   
 
 > [!NOTE]
 > Ikke bruk **Dupliser**-funksjonen i nettleseren til å opprette den nye fanen, siden dette kan forårsake at handlinger på én fane blokkerer handlinger på andre faner fordi de er en del av den samme økten.
@@ -203,7 +201,7 @@ Du kan angi datoer og klokkeslett i alle feltene som er tilordnet datoer (datofe
 
 ### <a name="entering-dates"></a>Sette inn datoer
 
-Du kan bruke enten datovelgeren til å velge en dato fra kalenderen, eller du kan angi datoer manuelt. Denne delen inneholder en kort oversikt over hvordan du angir datoer. Se [Arbeider med kalenderdatoer og klokkeslett](ui-enter-date-ranges.md) hvis du vil ha mer informasjon.
+Du kan enten bruke datovelgeren til å velge en dato fra en kalender, eller du kan angi datoer manuelt. Denne delen inneholder en kort oversikt over hvordan du angir datoer. Se [Arbeider med kalenderdatoer og klokkeslett](ui-enter-date-ranges.md) hvis du vil ha mer informasjon.
 
 For manuell datoregistrering kan du angi to, fire, seks eller åtte tall:  
 
@@ -242,34 +240,9 @@ Tabellen nedenfor viser forskjellige måter som klokkeslett kan angis på, og hv
 
  Du angir to tall for hver tidsenhet hvis du ikke angir et skilletegn.  
 
-## <a name="entering-datetimes"></a>Angi datoer og klokkeslett
+## <a name="entering-combined-datetimes"></a>Angi kombinerte datoer og klokkeslett
 
-Når du angir datoer og klokkeslett, må du angi et mellomrom mellom datoen og klokkeslettet.  
-
-Tabellen nedenfor viser forskjellige måter som du kan angi datoer og klokkeslett på, og hvordan de tolkes.  
-
-|Angivelse|Tolkning|  
-|---------------|------------------------|  
-|`131202` 132455|13.12.02 13.24.55|  
-|1-12-02 10|01.12.02 10:00:00|  
-|1.12.02 5|01.12.02 05:00:00|  
-|1.12.02|01.12.02 00.00.00|  
-|11 12|11.nneværende måned.inneværende år 12.00.00|  
-|1112 12|11.12.inneværende år 12.00.00|  
-|d eller i dag|dagens dato 00:00:00|  
-|d klokkeslett|dagens dato og klokkeslett|  
-|d 10.30|dagens dato 10:30:00|  
-|d 3.3.3|dagens dato 03.03.03|  
-|a eller arbeidsdag|arbeidsdatoen 00.00.00|  
-|m eller mandag|mandag i inneværende uke 00.00.00|  
-|ti eller tirsdag|tirsdag i inneværende uke 00:00:00|  
-|o eller onsdag|onsdag i inneværende uke 00.00.00|  
-|to eller torsdag|torsdag i inneværende uke 00.00.00|  
-|f eller fredag|fredag i inneværende uke 00.00.00|  
-|l eller lørdag|lørdag i inneværende uke 00.00.00|  
-|s eller søndag|søndag i inneværende uke 00.00.00|  
-|ti 10.30|tirsdag i inneværende uke 10:30:00|  
-|ti 3.3.3|tirsdag i inneværende uke 03.03.03|  
+[!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Angi varighet
 
@@ -292,6 +265,16 @@ Her er noen eksempler.
 
  Tallet 5 konverteres til 5 timer hvis enheten er timer.  
 
-## <a name="see-also"></a>Se også  
- [Sortere, søke etter og filtrere oversikter](ui-enter-criteria-filters.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Angi desimalskilletegnet som brukes av numeriske tastaturer
+
+Når du bruker desimalskilletegn for numerisk tastatur til å skrive inn data, bestemmes det faktiske desimalskilletegnet som er angitt i feltet, av områdeinnstillingen for Business Central. Du angir området i Business Central på siden **Mine innstillinger**.
+
+La oss for eksempel anta at du bruker et numerisk tastatur som bruker et punktum (.) som desimalskilletegn. Du registrerer imidlertid data for et regionalt språk som bruker komma (**,**) som desimalskilletegn, for eksempel dansk (Danmark) eller fransk (Frankrike). Du vil derfor at desimaler skal settes til 1.23 angis som 1,23. I dette tilfellet kan du gå til siden **Mine innstillinger** og angir **Område** på det regionale språket, for eksempel **dansk (Danmark)** eller **fransk (Frankrike)**. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md#region).
+
+## <a name="see-also"></a>Se også
+
+[Sortere, søke etter og filtrere oversikter](ui-enter-criteria-filters.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

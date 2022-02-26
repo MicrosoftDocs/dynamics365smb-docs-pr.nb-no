@@ -5,26 +5,26 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ac0b0013897e1e0cb31b1be564d7d51d2886fc01
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 1e30e28144ef8db041d8951d1dde12c9bc39cae7
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181036"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439940"
 ---
 # <a name="create-manual-remittance-payments"></a>Opprette manuelle remitteringsoppdrag
 Betalinger opprettes vanligvis automatisk i utbetalingskladden ved hjelp av remitteringsforslagfunksjonen. Du kan imidlertid også opprette en betaling manuelt, enten som en betaling for en eksisterende faktura, eller som en betaling som ikke er knyttet til en eksisterende faktura, for eksempel betaling til en leverandør.  
 
 ## <a name="to-create-a-manual-remittance-payment"></a>Slik oppretter du manuelle remitteringsoppdrag:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Betalingsinformasjon**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Betalingsinformasjon**, og velg deretter den relaterte koblingen.  
 2.  På siden **Betalingsinformasjon** velger du handlingen **Initialiser betalingsinformasjon**.  
 
     Hvis betalingen er knyttet til en eksisterende leverandørpost, overføres informasjonen fra posten. Hvis betalingen ikke er knyttet til en leverandørpost, opprettes bare noe av informasjonen.  
@@ -47,3 +47,6 @@ Betalinger opprettes vanligvis automatisk i utbetalingskladden ved hjelp av remi
  [Remitteringsfeil](remittance-errors.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

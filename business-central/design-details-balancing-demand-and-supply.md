@@ -1,21 +1,21 @@
 ---
-title: Designdetaljer – Balansere behov og forsyning | Microsoft-dokumentasjon
-description: For å forstå hvordan planleggingssystemet fungerer, er det nødvendig å forstå de prioriterte målene i planleggingssystemet, og det viktigste er å sikre at behov oppfylles med tilstrekkelig forsyning og at eventuell forsyning har et formål.
+title: Designdetaljer – Balansere behov og forsyning
+description: For å forstå hvordan planleggingssystemet fungerer, er det nødvendig å forstå de prioriterte målene i planleggingssystemet oppnådd ved å balansere behov med etterspørsel..
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: a1e55d983abae5f85807039da6dd4d846c3e40b3
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 8ff08e03196aac03a9e57519f47a37e284e8c9ff
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185711"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6442513"
 ---
 # <a name="design-details-balancing-demand-and-supply"></a>Designdetaljer: Balansere behov og forsyning
 For å forstå hvordan planleggingssystemet fungerer, er det nødvendig å forstå de prioriterte målene i planleggingssystemet, og det viktigste er å sikre at følgende oppfylles:  
@@ -43,7 +43,7 @@ For å forstå hvordan planleggingssystemet fungerer, er det nødvendig å forst
 
    Formålet med planleggingsmekanismen er å utligne behovet for og forsyningen av en vare for å sikre at forsyningen samsvarer med behovet, og å gjøre dette på en passende måte som defineres av planleggingsparameterne og -reglene.  
 
-   ![Oversikt over balansering mellom forsyningen og behov](media/nav_app_supply_planning_2_balancing.png "Oversikt over balansering mellom forsyningen og behov")
+   ![Oversikt over balansering mellom forsyningen og behov.](media/nav_app_supply_planning_2_balancing.png "Oversikt over balansering mellom forsyningen og behov")
 
 ## <a name="dealing-with-orders-before-the-planning-starting-date"></a>Håndtere ordrer før den planlagte startdatoen
 For å unngå at en leveringsplan viser umulige og dermed ubrukelige forslag, regner planleggingssystemet perioden frem til den planlagte startdatoen som en frossen sone der ingenting er planlagt. Følgende regel gjelder den frosne sonen:  
@@ -291,3 +291,6 @@ Med dette avsluttes beskrivelsene av hvordan behov og forsyning lastes, priorite
  [Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)   
  [Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)   
  [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

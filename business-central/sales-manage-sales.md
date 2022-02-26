@@ -1,21 +1,22 @@
 ---
-title: Oversikt over oppgaver for å håndtere salg | Microsoft-dokumentasjon
-description: Beskriver hvordan du håndterer salgsaktiviteter.
+title: Oversikt over oppgaver for å håndtere salg
+description: Les alt om hvordan du bruker Business Centrals tjenester til å administrere salgsaktiviteter med kunder med salgsfakturaer, ordrer, tilbud og mer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell
-ms.date: 04/27/2020
-ms.author: sgroespe
-ms.openlocfilehash: c7b1d4b82d82b4957d7bd0d295182189ede60a79
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.search.form: 253
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 815c9240c9c81129009f70f050c869df4eea9b3a
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324369"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101006"
 ---
 # <a name="sales"></a>Salg
 Du kan opprette en salgsfaktura eller ordre for å registrere avtalen med en kunde om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser.
@@ -26,7 +27,7 @@ Du kan forhandle med kunden ved først å opprette et tilbud, som du kan konvert
 
 Du kan enkelt korrigere eller annullere en bokført salgsfaktura før den er betalt. Dette er praktisk hvis du vil rette en skrivefeil, eller hvis kunden ber om en endring tidlig i ordreprosessen. Hvis den bokførte salgsfakturaen er betalt, må du opprette en salgskreditnota eller ordreretur for å reversere salget.
 
-God salgs- og markedsføringspraksis handler om å ta de rette avgjørelsene til rett tid. Markedsføringsfunksjoner i [!INCLUDE[d365fin](includes/d365fin_md.md)] gir deg en nøyaktig oversikt over kontaktinformasjonen når du har behov for den, slik at du kan ta deg av potensielle kunder på en mer effektiv måte, og øke kundetilfredsheten. Hvis du vil ha mer informasjon, kan du se [Forbindelser](marketing-relationship-management.md).
+God salgs- og markedsføringspraksis handler om å ta de rette avgjørelsene til rett tid. Markedsføringsfunksjoner i [!INCLUDE[prod_short](includes/prod_short.md)] gir deg en nøyaktig oversikt over kontaktinformasjonen når du har behov for den, slik at du kan ta deg av potensielle kunder på en mer effektiv måte, og øke kundetilfredsheten. Hvis du vil ha mer informasjon, kan du se [Forbindelser](marketing-relationship-management.md).
 
 Hvis du bruker Dynamics 365 Sales for Customer Engagement, kan du dra nytte av sømløs integrering i kundeemne-til-kontanter-prosessen med Business Central for serverdelaktiviteter som å behandle bestillinger, håndtere lager og gjøre finansene. Hvis du vil ha mer informasjon, kan du se [Bruke Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md).
 
@@ -55,7 +56,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Selg monteringsvarer som ikke er tilgjengelige for øyeblikket, ved å opprette koblet monteringsordre for å levere hele eller en del av ordreantallet.|[Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md)|
 |Fakturer en kunde én gang for flere leveringer ved å kombinere følgesedler på én faktura.|[Kombinere leveringer på én faktura](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Informer kundene om ordreleveringsdatoer ved å beregne første mulige forsendelsesdato eller tilgjengelig for ordre-datoen.|[Beregne ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)|
-|Registrer overslagene for fremtidig salg, spesifisert etter vare og etter periode, for å fungere hovedsakelig som inndata til produksjonsplanlegging.|[Opprette en prognose](production-how-to-create-a-forecast.md)|
 |Løs forvirring når det finnes to eller flere poster for samme kunde.|[Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/sell-items-services-dynamics-365-business-central/)
@@ -66,7 +66,10 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Prosjektstyring](projects-manage-projects.md)    
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

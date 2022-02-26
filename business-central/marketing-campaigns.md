@@ -3,19 +3,19 @@ title: Sette opp markedsføringskampanjer i Business Central| Microsoft-dokument
 description: Beskriver hvordan du kan sette opp og kjøre markedsføringskampanjer i Business Central for å identifisere og trekke til deg prospekter og beholde kunder.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a51fc3a0fdd4ea1e622f3f69f2e6faf9902178bc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 5e9ed545daaa9600beb96ebb19aaeb36fb3a518c
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181655"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5780735"
 ---
 # <a name="managing-marketing-campaigns"></a>Administrere markedsføringskampanjer
 Ved å ha en solid markedsføringsplan kan du identifisere, trekke til deg og beholde kunder. En markedsføringsplan består av forskjellige kampanjer og andre samhandlinger i forbindelse med salgs- og markedsføringsaktiviteter. Når du planlegger en kampanje, må du bestemme deg for hvilke kontakter du skal rette deg mot, hvilken type kampanje du vil kjøre (for eksempel salgsmesse eller direktereklame), og hvilke selgere som skal utføre hver oppgave.
@@ -51,3 +51,6 @@ Kampanjer utføres av selgere, og du må opprette aktiviteter for å representer
 [Håndtere segmenter](marketing-segments.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Arbeide med Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

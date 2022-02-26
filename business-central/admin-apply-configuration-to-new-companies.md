@@ -1,21 +1,21 @@
 ---
-title: Bruke konfigurasjon ny selskaper | Microsoft-dokumentasjon
-description: Når du har opprettet en konfigurasjonspakke, er neste trinn å distribuere pakken til kunden for implementering. Du bruker konfigurasjonen for et nytt, tomt selskap.
+title: Bruke konfigurasjon for nye selskaper
+description: Når du har opprettet en konfigurasjonspakke, kan du distribuere pakken til kunden for implementering. Du bruker konfigurasjonen for et nytt, tomt selskap.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 56190be2caf1c31cf7c78d1a452d03ba7deea58e
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 8eaffa61361a9cbcc01af3585090dc0939eaa4d8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187487"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6324103"
 ---
 # <a name="apply-configurations-to-new-companies"></a>Bruke konfigurasjoner for nye selskaper
 Når du har opprettet en konfigurasjonspakke, er neste trinn å distribuere pakken til kunden for implementering. Du jobber med konfigurasjonspakken i et nytt, tomt selskap.  
@@ -33,3 +33,6 @@ Når du har opprettet en konfigurasjonspakke, er neste trinn å distribuere pakk
 ## <a name="see-also"></a>Se også  
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

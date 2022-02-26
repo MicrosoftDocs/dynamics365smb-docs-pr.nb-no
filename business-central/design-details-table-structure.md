@@ -3,19 +3,19 @@ title: Designdetaljer – Tabellstruktur | Microsoft-dokumentasjon
 description: For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er det viktig å forstå tabellstrukturen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 04e9fda4d784f8e1fa049455ddcab989691e821c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 6d418633eb884f0b8cfca2f46fc69103a8fabdb2
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184628"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215731"
 ---
 # <a name="design-details-table-structure"></a>Designdetaljer: Tabellstruktur
 For å forstå hvordan dimensjonsoppføringer lagres og bokføres, er det viktig å forstå tabellstrukturen.  
@@ -181,8 +181,7 @@ Felt 480 finnes i følgende buffertabeller.
 |5637|**Aktivafinansbokf.buffer**|  
 |7136|**Buffer for varebudsjett**|  
 
-## <a name="see-also"></a>Se også  
- [Designdetaljer: Dimensjonssettposter](design-details-dimension-set-entries.md)   
- [Dimensjonssettposter – oversikt](design-details-dimension-set-entries-overview.md)   
- [Designdetaljer: Søke etter dimensjonskombinasjoner](design-details-searching-for-dimension-combinations.md)   
- 
+## <a name="see-also"></a>Se også
+
+[Dimensjonssettposter – oversikt](design-details-dimension-set-entries-overview.md)  
+[Designdetaljer: Søke etter dimensjonskombinasjoner](design-details-searching-for-dimension-combinations.md)   

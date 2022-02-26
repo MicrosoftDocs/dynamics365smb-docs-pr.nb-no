@@ -1,22 +1,22 @@
 ---
-title: Definere aktiva | Microsoft-dokumentasjon
+title: Definer aktiva
 description: Få informasjon om sekvensen av oppgaver du må gjøre for å definere aktiva, for eksempel maskiner eller bygninger.
-documentationcenter: ''
-author: SorenGP
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: be5e86776d440763d069cecb9f45d0e6daeaeede
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 5607
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 874c1c18611f0aa165a8537642324334e8e0798a
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184175"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029539"
 ---
 # <a name="setting-up-fixed-assets"></a>Definere aktiva
 Før du kan arbeide med aktiva, må du definere et par ting:  
@@ -40,9 +40,14 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Aktivere forsikring av aktiva, definere generelle forsikringsopplysninger, et forsikringskort per polise, og forberede kladder for bokføring av forsikringskostnader. |[Definere aktivaforsikring](fa-how-setup-insurance.md) |
 | Aktivere vedlikehold av aktiva, definere generell vedlikeholdsinformasjon, definere kontoer for postering av vedlikehold, og definere typer av vedlikeholdsarbeid. |[Definere aktivavedlikehold](fa-how-setup-maintenance.md) |
 | Lær mer om ulike avskrivningsmetoder for aktiva. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
+| Lær mer om hvordan du bruker brukerdefinerte avskrivningsmetoder. |[Slik definerer du brukerdefinerte avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
+
 
 ## <a name="see-also"></a>Se også
-[Anleggsmidler](fa-manage.md)  
+[Aktiva](fa-manage.md)  
 [Finans](finance.md)  
-[Komme i gang](product-get-started.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,22 @@
 ---
-title: Definere lager| Microsoft-dokumentasjon
+title: Definere lager
 description: Beskriver hvordan du definerer vare- og lagerprosesser, inkludert overføringsruter og lokasjoner, for eksempel lagre.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: warehouse, stock
-ms.date: 04/01/2020
-ms.author: SorenGP
-ms.openlocfilehash: 14d98f971bcb075a94396ed59b560e5420100413
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 30, 461
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 870bcf2e7980ccf5717cbb93ada44087afe95c4d
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181775"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059460"
 ---
 # <a name="setting-up-inventory"></a>Definere lager
 Før du kan håndtere lageraktiviteter og beholdning og kostberegning, må du konfigurere regler og verdier som definerer selskapets beholdningspolicyer.
@@ -38,12 +37,17 @@ Når du har definert beholdningen, kan du administrere forskjellige prosesser re
 |Som et supplement til varekort kan du registrere opplysninger om varer for en bestemt lokasjon eller en bestemt variantkode.|[Definere lagerføringsenheter](inventory-how-to-set-up-stockkeeping-units.md)|
 | Tilordne varer til kategorier, og gi dem attributter for å hjelpe deg og kunder med å finne varer. |[Kategorisere varer](inventory-how-categorize-items.md) |
 |Importer flere varebilder samtidig fra en zip-fil, der filene har fått navn i samsvar med varenumre.|[Importere flere varebilder](inventory-how-import-item-pictures.md)|
+|Angi standardrapporter som skal brukes for ulike dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
+
 [Håndtere lager](inventory-manage-inventory.md)  
 [Håndtere kjøp](purchasing-manage-purchasing.md)  
 [Håndtere salg](sales-manage-sales.md)    
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

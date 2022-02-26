@@ -3,26 +3,26 @@ title: Definere gjentakelsesgrupper
 description: I feltet Kode for gjentakelsesgruppe på Rammebestillinger-siden defineres datoformler som kan brukes både som mal og til å opprette salgsordrer basert på datointervaller.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0e4ae2fec7636072d2b27f1ecac0d1057a19b938
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 88825fb59fe6d109a3e58c21b38d23b7f4898a31
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181020"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437523"
 ---
 # <a name="set-up-recurring-groups"></a>Opprette gjentakelsesgrupper
 I feltet **Kode for gjentakelsesgruppe** på **Rammebestillinger**-siden defineres datoformler som kan brukes både som mal og til å opprette salgsordrer basert på datointervaller. Du må opprette gjentakelsesgrupper før du kan opprette gjentakelsesordrer.  
 
 ## <a name="to-set-up-recurring-groups"></a>Slik oppretter du gjentakelsesgrupper:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Gjentakelsesgrupper**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Gjentakelsesgrupper**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  I hurtigfanen **Generelt** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
@@ -52,3 +52,6 @@ I feltet **Kode for gjentakelsesgruppe** på **Rammebestillinger**-siden definer
  [Gjentakelsesordrer](recurring-orders.md)   
  [Definere gjentakelsesordrer](how-to-set-up-recurring-orders.md)   
  [Opprett gjentakelsesordrer](how-to-create-recurring-orders.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

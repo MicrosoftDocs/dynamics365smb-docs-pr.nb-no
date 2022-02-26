@@ -1,21 +1,21 @@
 ---
-title: Designdetaljer – Strukturen til bokføringsmotoren | Microsoft-dokumentasjon
-description: Bokføringsgrensesnittet og enkelte andre funksjoner i kodeenhet 12 bruker bokføringsmotorfunksjoner til å klargjøre og sette inn finansposter og mva-poster. Bokføringsmotoren er også ansvarlig for opprettelse av finansjournal.
+title: Designdetaljer – Strukturen til bokføringsmotoren
+description: Bokføringsgrensesnittet bruker bokføringsmotorfunksjoner til å klargjøre og sette inn finansposter og mva-poster.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3e49d9c521ebfb73caeae6987472c5123ab54eba
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 68375a306983551a51a59ac448b4f0bfa7ad6917
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185471"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6318411"
 ---
 # <a name="design-details-posting-engine-structure"></a>Designdetaljer: Strukturen til bokføringsmotoren
 Bokføringsgrensesnittet og enkelte andre funksjoner i kodeenhet 12 bruker bokføringsmotorfunksjoner til å klargjøre og sette inn finansposter og mva-poster. Bokføringsmotoren er også ansvarlig for opprettelse av finansjournal.  
@@ -39,3 +39,5 @@ Bokføringsgrensesnittet og enkelte andre funksjoner i kodeenhet 12 bruker bokf�
   
 ## <a name="see-also"></a>Se også  
  [Designdetaljer: Strukturen til bokføringsgrensesnittet](design-details-posting-interface-structure.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

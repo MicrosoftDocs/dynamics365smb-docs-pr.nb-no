@@ -1,167 +1,242 @@
 ---
-title: Koble til Dynamics 365 Sales | Microsoft Docs
-description: Du kan integrere med Dynamics 365 Sales.
+title: Koble til Microsoft Dataverse (inneholder video)
+description: Konfigurer en kobling mellom Business Central og Dataverse. Selskaper oppretter vanligvis tilkoblingen for å integrere data med en annen Dynamics 365-forretningsapp.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.search.forms: 7200, 7201
+ms.date: 09/30/2021
 ms.author: bholtorf
-ms.openlocfilehash: 73607d238e31cc42680fae008cfdf0ee143d08f3
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: bbe27c46562fa7550619283cb85cd1d7dcc76a3c
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910739"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059547"
 ---
-# <a name="set-up-a-connection-to-dynamics-365-sales"></a>Konfigurere en kobling til Dynamics 365 Sales
-Dette emnet beskriver hvordan du setter opp en tilkobling mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
-<br><br>  
+# <a name="connect-to-microsoft-dataverse"></a>Koble til Microsoft Dataverse
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085501]
+
+
+Dette emnet beskriver hvordan du setter opp en tilkobling mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Vanligvis oppretter selskaper tilkoblingen for å integrere og synkronisere data med en annen Dynamics 365-forretningsapp, for eksempel [!INCLUDE[crm_md](includes/crm_md.md)].  
 
 ## <a name="before-you-start"></a>Før du begynner
-Før du oppretter tilkoblingen, er det noen få opplysninger å ha klar:  
 
-* En URL-adresse til [!INCLUDE[crm_md](includes/crm_md.md)]-appen. En rask måte å hente URL-adressen er å åpne [!INCLUDE[crm_md](includes/crm_md.md)], kopiere URL-en, og deretter lime den inn i feltet **URL-adresse for Dynamics 365 Sales** i [!INCLUDE[d365fin](includes/d365fin_md.md)]. [!INCLUDE[d365fin](includes/d365fin_md.md)] løser formateringen for deg.  
-* Et brukernavn og passord til en brukerkonto som bare brukes for integrasjonen.  
-* Brukernavnet og passordet på kontoen som har administratorrettigheter.  
+Før du oppretter tilkoblingen, er det noen få opplysninger du må ha klar:  
+
+* URL-adressen til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-miljøet du vil koble til. Hvis du bruker den assisterte oppsettsveiledningen for **Konfigurasjon for Dataverse-tilkobling** til å opprette tilkoblingen, finner du miljøene, men du kan også angi URL-adressen til et annet miljø i leieren.  
+* Brukernavnet og passordet for en konto som har administratorrettigheter i [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
+* Hvis du har en lokal [!INCLUDE[prod_short](includes/prod_short.md)] 2020 lanseringsbølge 1, versjon 16.5, kan du lese artikkelen [Noen kjente problemer](/dynamics365/business-central/dev-itpro/upgrade/known-issues#wrong-net-assemblies-for-external-connected-services). Du må fullføre den beskrevne løsningen før du kan opprette tilkoblingen til [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+* Den lokale valutaen for selskapet i [!INCLUDE[prod_short](includes/prod_short.md)] må være den samme som standardtransaksjonsvalutaen i [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Etter at en standardtransaksjon er angitt i [!INCLUDE[cds_long_md](includes/cds_long_md.md)], kan den ikke endres. Hvis du vil ha mer informasjon, kan du se [Enheten Transaksjonsvaluta (valuta)](/powerapps/developer/data-platform/transaction-currency-currency-entity). Dette betyr at alle [!INCLUDE[prod_short](includes/prod_short.md)]-selskaper du kobler til en [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-organisasjon, må bruke samme valuta.
+
+> [!IMPORTANT]
+> [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-miljøet ditt må ikke være i administrasjonsmodus. Administrasjonsmodus vil føre til at tilkoblingen mislykkes fordi integrasjonsbrukerkontoen for tilkoblingen ikke har administratortilgang. Se også [Administrasjonsmodus](/power-platform/admin/admin-mode) for mer informasjon.
 
 > [!Note]
-> Følgende trinn beskriver fremgangsmåten for den elektroniske versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)].
+> Følgende trinn beskriver fremgangsmåten for [!INCLUDE[prod_short](includes/prod_short.md)] på nett.
+> Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt og ikke bruker Azure Active Directory-kontoen til å koble til [!INCLUDE [cds_long_md](includes/cds_long_md.md)], må du også angi brukernavn og passord for en brukerkonto for integrasjonen. Denne kontoen kalles kontoen for "integrasjonsbruker". Hvis du bruker en Azure Active Directory-konto, er ikke brukerkontoen for integrasjon nødvendig eller vist. Brukeren for integrasjon konfigureres automatisk og krever ikke en lisens.
 
-## <a name="set-up-test-and-enable-a-connection-to-crm_md"></a>Konfigurere, teste og aktivere en tilkobling til [!INCLUDE[crm_md](includes/crm_md.md)]  
-For andre godkjenningstyper enn Office 365-godkjenning definerer du en tilkobling til Dynamics 365 Sales på siden **Tilkoblingsoppsett for Microsoft Dynamics 365 Sales**. For Office 365-godkjenning kan du også bruke den assisterte oppsettsveiledningen **Konfigurere en Dynamics 365 Sales-tilkobling**, som hjelper deg med å angi den nødvendige informasjonen.
+## <a name="set-up-a-connection-to-cds_long_md"></a>Konfigurere en kobling til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
-### <a name="to-use-an-assisted-setup-guide"></a>Slik bruker du en assistert oppsettsveiledning
-Den assisterte oppsettsveiledningen **Tilkoblingsoppsett for Dynamics 365 Sales** hjelper deg med å definere tilkoblingen og angi om du vil aktivere avanserte funksjoner, for eksempel kobling mellom poster.
+For andre godkjenningstyper enn Microsoft 365-godkjenning definerer du en tilkobling til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på siden **Tilkoblingsoppsett for Dataverse**. For Microsoft 365-godkjenning anbefales det å bruke den assisterte oppsettsveiledningen for **Konfigurasjon for Dataverse-tilkobling**. Veiledningen gjør det enklere å opprette tilkoblingen og angi avanserte funksjoner, for eksempel eierskapsmodell og første synkronisering.  
 
-1. Velg **Oppsett og utvidelser**, og velg deretter **Assistert oppsett**.
-2. Velg **Tilkoblingsoppsett for Dynamics 365 Sales** for å starte den assisterte oppsettsveiledningen.
+> [!IMPORTANT]
+> Under oppsettet av tilkoblingen til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] blir administrator bedt om å gi følgende tillatelse til å registrere et Azure-program kalt [!INCLUDE[prod_short](includes/prod_short.md)]-integrering til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]:
+>
+> * Tillatelsen **Gå til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] som deg** kreves, slik at [!INCLUDE[prod_short](includes/prod_short.md)] kan, på vegne av administratoren, automatisk opprette en ikke-lisensiert, ikke-interaktiv [!INCLUDE[prod_short](includes/prod_short.md)] Integration-appbruker, tilordne sikkerhetsroller til denne brukeren og distribuere [!INCLUDE[prod_short](includes/prod_short.md)] Integration-løsningen til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Denne tillatelsen brukes bare én gang under oppsett av kobling til [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
+> * Tillatelse for å **ha full tilgang til Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]** kreves, slik at den automatisk opprettede programbrukeren for [!INCLUDE[prod_short](includes/prod_short.md)]-integrering har tilgang til [!INCLUDE[prod_short](includes/prod_short.md)]-data som skal synkroniseres.  
+> * Tillatelse for å **logge på og lese profilen din** kreves for å bekrefte at brukeren som logger på, faktisk har sikkerhetsrollen for systemansvarlig tilordnet i [!INCLUDE[cds_long_md](includes/cds_long_md.md)].  
+>
+> Ved å gi samtykke på vegne av organisasjonen, gir administrator det registrerte Azure-programmet som kalles [!INCLUDE[prod_short](includes/prod_short.md)]-integrering med [!INCLUDE[cds_long_md](includes/cds_long_md.md)], rett til å synkronisere data ved hjelp av automatisk opprettet legitimasjon for programbruker for [!INCLUDE[prod_short](includes/prod_short.md)]-integrering.
+
+### <a name="to-use-the-dataverse-connection-setup-assisted-setup-guide"></a>Slik bruker du den assisterte oppsettsveiledningen for Konfigurasjon for Dataverse-tilkobling
+Oppsettveiviseren for konfigurasjon av Dataverse-tilkobling kan gjøre det enklere å koble til programmene, og kan til og med hjelpe deg med å kjøre en innledende synkronisering. Hvis du velger å kjøre innledende synkronisering, vil [!INCLUDE[prod_short](includes/prod_short.md)] se gjennom dataene i begge programmene og gi anbefalinger for hvordan innledende synkronisering skal utføres. Tabellen nedenfor beskriver anbefalingene.
+
+|Anbefaling  |Beskrivelse  |
+|---------|---------|
+|**Full synkronisering**|Dataene finnes bare i [!INCLUDE[prod_short](includes/prod_short.md)] eller bare i [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Anbefalingen er å synkronisere alle data fra tjenesten som har de, til den andre tjenesten.|
+|**Ingen synkronisering**|Dataene finnes i begge programmene, og det vil duplisere dataene ved å kjøre full synkronisering. Anbefalingen er å koble poster.|
+|**Avhengighet ikke tilfredsstilt**|Dataene finnes i begge programmene, men raden eller tabellen kan ikke synkroniseres, fordi den avhenger av en rad eller tabell som har anbefaling om ingen synkronisering. Hvis for eksempel kundene ikke kan synkroniseres, kan heller ikke data for kontakter som er avhengige av kundedata, synkroniseres.|
+
+> [!IMPORTANT]
+> Vanligvis bruker du bare full synkronisering når du integrerer programmene for første gang, og bare ett program inneholder data. Full synkronisering kan være nyttig i et demonstrasjonsmiljø fordi det automatisk oppretter og kobler poster i hvert program, noe som gjør det raskere å begynne å arbeide med synkroniserte data. Du må derimot bare utføre en full synkronisering hvis du vil ha én rad i [!INCLUDE[prod_short](includes/prod_short.md)] for hver rad i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] for de gitte tabelltilordningene. Hvis ikke kan resultatet være dupliserte poster.
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Assistert oppsett** og velger den relaterte koblingen.
+2. Velg **Konfigurer en tilkobling til Microsoft Dataverse** for å starte assistert oppsettsveiledning.
 3. Fyll ut feltene etter behov.
-4. Det finnes også avanserte innstillinger som kan forbedre sikkerheten og aktivere [!INCLUDE[crm_md](includes/crm_md.md)] flere muligheter, for eksempel ordrebehandling og visning av lagernivåer. Tabellen nedenfor beskriver avanserte innstillinger.  
 
-|Felt|Beskrivelse|
-|-----|-----|
-|**Importer Dynamics 365 Sales-løsning**|Aktiver dette for å installere og konfigurere integreringsløsningen i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, se [Om Business Central-integrasjonsløsningen](admin-prepare-dynamics-365-for-sales-for-integration.md#about-the-business-central-integration-solution).|
-|**Publiser webtjenesten Varetilgjengelighet**|Aktiver brukere som har [!INCLUDE[crm_md](includes/crm_md.md)], til å vise tilgjengeligheten av varer (produkter) på lageret i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette krever [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukerkontoen med tilgangsnøkkel for webtjenester. Tilordning av nøkkelen er en totrinnsprosess. I brukerkontoen i [!INCLUDE[d365fin](includes/d365fin_md.md)] må du velge **Endre webtjenestenøkkel**-handlingen. I den assisterte oppsettguiden Tilkoblingsoppsett for Dynamics 365 Sales må du angi URL-adresse for webtjenesten OData for Dynamics 365 Business Central og angi [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukerlegitimasjon for å få tilgang til tjenesten. Hvis du vil ha mer informasjon, kan du se [OData-webtjenester](/dynamics365/business-central/dev-itpro/webservices/odata-web-services).|
-|**URL-adresse for webtjenesten OData for Dynamics 365 Business Central**|Hvis du aktiverer webtjenesten Varetilgjengelighet, angis URL-adressen for webtjenesten OData for deg.|
-|**Brukernavn for webtjenesten OData for Dynamics 365 Business Central**|Navnet på [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukerkontoen som [!INCLUDE[crm_md](includes/crm_md.md)] bruker til å hente informasjon om varedisposisjonen i [!INCLUDE[d365fin](includes/d365fin_md.md)] via OData-webtjenesten.|
-|**Tilgangsnøkkel for webtjenesten OData for Dynamics 365 Business Central**|Tilgangsnøkkelen for brukerkontoen som [!INCLUDE[crm_md](includes/crm_md.md)] bruker til å hente informasjon om varedisposisjonen fra [!INCLUDE[d365fin](includes/d365fin_md.md)] via OData-webtjenesten. Nøkkelen tilordnes til brukeren som er valgt i feltet **Brukernavn for webtjenesten OData for Dynamics 365 Business Central**. Hvis du vil ha nøkkelen, kan du velge knappen **Oppslagsverdi** ved siden av brukernavn, velge brukeren, **Administrer** og deretter klikke på **Rediger**. På kortet velger du **Handlinger**, **Godkjenning** og deretter **Endre webtjenestenøkkel**.|
-|**Aktiver ordreintegrering**|Når brukerne oppretter ordrer i [!INCLUDE[crm_md](includes/crm_md.md)] og oppfyller ordrer i [!INCLUDE[d365fin](includes/d365fin_md.md)], integreres prosessen i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, se [Aktivere ordrebehandlingsintegrering](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration). Dette krever at du oppgir rettigheter til en systemansvarligbrukerkonto i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, kan du se [Håndtere ordredata](marketing-integrate-dynamicscrm.md#handling-sales-order-data).|
-|**Aktiver Dynamics 365 for Sales-tilkobling**|Aktiver tilkoblingen til [!INCLUDE[crm_md](includes/crm_md.md)].|
-|**Dynamics 365 SDK-versjon**|Dette er bare relevant hvis du integrerer med en lokal versjon av [!INCLUDE[crm_md](includes/crm_md.md)]. Dette er Dynamics 365 SDK-versjonen (også kalt Xrm) du bruker til å koble [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]. Versjonen må være kompatibel med SDK-versjonen som brukes av [!INCLUDE[crm_md](includes/crm_md.md)], og er lik eller nyere enn versjonen som brukes av [!INCLUDE[crm_md](includes/crm_md.md)].|
-
-> [!Note]
-> Assistert oppsett-veiledningen **Tilkoblingsoppsett for Dynamics 365 Sales** tilordner automatisk sikkerhetsrollene **Integrasjonsadministrator** og **Integrasjonsbruker** til brukerkontoen som brukes til integrasjon.
+> [!NOTE]
+> Hvis du ikke blir bedt om å logge på med administratorkontoen, skyldes det trolig at popup-vinduer er blokkert. Hvis du vil logge på, må du tillate popup-vinduer fra `https://login.microsoftonline.com`.
 
 ### <a name="to-create-or-maintain-the-connection-manually"></a>Opprette eller vedlikeholde tilkoblingen manuelt
-Følgende fremgangsmåte beskriver hvordan du fyller ut feltene på siden **Tilkoblingsoppsett for Microsoft Dynamics 365 Sales** manuelt. Dette er også siden der du kan håndtere innstillingene for integrasjonen.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjon for Microsoft Dynamics 365-tilkobling**, og velg deretter den relaterte koblingen.
-2. Skriv inn følgende informasjon for tilkoblingen fra [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)].
+Følgende fremgangsmåte beskriver hvordan du konfigurerer tilkoblingen manuelt på siden **Konfigurasjon for Dataverse-tilkobling**. Dette er også siden der du kan håndtere innstillingene for integrasjonen.
 
-|Felt|Beskrivelse|
-|-----|-----|
-|**URL-adresse for Dynamics 365 Sales**|URL-adressen for forekomsten av [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil hente URL-adressen, åpne [!INCLUDE[crm_md](includes/crm_md.md)], koper URL-adressen fra adressefeltet i webleseren, og lim inn URL-adressen i feltet. [!INCLUDE[d365fin](includes/d365fin_md.md)] sørger for at formatet er riktig.|
-|**Brukernavn** og **Passord**|Legitimasjon for brukerkontoen som er reservert for integreringen. Hvis du vil ha mer informasjon, kan du se [Sette opp brukerkontoer for integrasjon med Dynamics 365 Sales](admin-setting-up-integration-with-dynamics-sales.md).|
-|**Aktivert**|Begynn å bruke integrasjonen. Hvis du ikke aktiverer tilkoblingen nå, lagres tilkoblingsinnstillingene, men brukerne vil ikke ha tilgang til [!INCLUDE[crm_md](includes/crm_md.md)]-data fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Du kan gå tilbake til denne siden og aktivere tilkoblingen senere.  |
-|**Dynamics 365 SDK-versjon**|Hvis du integrerer med en lokal versjon av [!INCLUDE[crm_md](includes/crm_md.md)], er dette Dynamics 365 SDK-pakken (også kalt Xrm) du bruker til å koble [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]. Versjonen du velger, må være kompatibel med SDK-versjonen som brukes av [!INCLUDE[crm_md](includes/crm_md.md)]. Denne versjonen må være lik eller nyere enn versjonen som brukes av [!INCLUDE[crm_md](includes/crm_md.md)].|
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Dataverse-tilkoblingsoppsett** og velger den relaterte koblingen.
+2. Skriv inn følgende informasjon for tilkoblingen fra [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-> [!Note]
-> Hvis du kobler en lokal versjon av [!INCLUDE[d365fin](includes/d365fin_md.md)] til [!INCLUDE[crm_md](includes/crm_md.md)], og du vil konfigurere en forbindelse til en [!INCLUDE[crm_md](includes/crm_md.md)]-forekomst med en bestemt godkjenningstype, fyller du ut feltene i hurtigfanen **Detaljer for godkjenningstype**. Hvis du vil ha mer informasjon, se [Bruke tilkoblingsstrenger i XRM-verktøy for å koble til Dynamics 365](https://go.microsoft.com/fwlink/?linkid=843055). Dette trinnet er ikke nødvendig ved tilkobling av en elektronisk versjon av [!INCLUDE[d365fin](includes/d365fin_md.md)].
+    |Felt|Beskrivelse|
+    |-----|-----|
+    |**URL-adresse for miljø**|Hvis du eier miljøer i [!INCLUDE[cds_long_md](includes/cds_long_md.md)], finner vi de for deg når du kjører installasjonsveiledningen. Hvis du vil koble til et annet miljø i en annen leier, kan du angi administratorlegitimasjon for miljøet slik at vi kan finne disse. |
+    |**Aktivert**|Begynn å bruke integrasjonen. Hvis du ikke aktiverer tilkoblingen nå, lagres tilkoblingsinnstillingene, men brukerne vil ikke ha tilgang til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-data fra [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan gå tilbake til denne siden og aktivere tilkoblingen senere.  |
 
-3. Skriv inn følgende informasjon for tilkoblingen fra [!INCLUDE[crm_md](includes/crm_md.md)] til [!INCLUDE[d365fin](includes/d365fin_md.md)].
+3. I feltet **Eierskapsmodell** velger du om du vil ha en teamtabell i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] til egne nye poster, eller én eller flere bestemte brukere. Hvis du velger **Person**, må du angi hver bruker. Hvis du velger **Team**, vil standard forretningsenhet vises i feltet **Koblet konsern**.
 
-|Felt|Beskrivelse|
-|-----|-----|
-|**URL-adresse for webklient for Dynamics 365 Business Central**|URL-adressen for [!INCLUDE[d365fin](includes/d365fin_md.md)]-forekomsten din. Dette gjør det mulig for brukere i [!INCLUDE[crm_md](includes/crm_md.md)] å åpne tilhørende poster i [!INCLUDE[d365fin](includes/d365fin_md.md)] fra poster i [!INCLUDE[crm_md](includes/crm_md.md)], for eksempel en konto eller et produkt. [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster åpnes i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Sett dette feltet til URL-adressen til [!INCLUDE[d365fin](includes/d365fin_md.md)]-forekomsten du vil bruke.<br /><br /> For å tilbakestille feltet til standard nettadresse for [!INCLUDE[d365fin](includes/d365fin_md.md)] velger du **Tilbakestill URL-adresse for webklient**.<br /><br /> Dette feltet er aktuelt hvis [!INCLUDE[d365fin](includes/d365fin_md.md)]-integrasjonsløsningen er installert i [!INCLUDE[crm_md](includes/crm_md.md)].|
-|**Webtjenesten Varetilgjengelighet er aktivert**|Aktiver brukere som har [!INCLUDE[crm_md](includes/crm_md.md)], til å vise tilgjengeligheten av varer (produkter) på lageret i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du aktiverer dette, må du også angi et brukernavn og en tilgangsnøkkel for [!INCLUDE[crm_md](includes/crm_md.md)] for å spørre OData-webtjeneste etter tilgjengelighet for varer (produkter). Hvis du vil ha mer informasjon, kan du se [OData-webtjenester](/dynamics365/business-central/dev-itpro/webservices/odata-web-services.md).|
-|**URL-adresse for webtjenesten OData for Dynamics 365 Business Central**|Hvis du aktiverer webtjenesten Varetilgjengelighet, angis URL-adressen for webtjenesten OData for deg.|
-|**Brukernavn for webtjenesten OData for Dynamics 365 Business Central**|Navnet på brukerkontoen som [!INCLUDE[crm_md](includes/crm_md.md)] bruker til å hente informasjon om varedisposisjonen fra [!INCLUDE[d365fin](includes/d365fin_md.md)] via OData-webtjenesten.|
-|**Tilgangsnøkkel for webtjenesten OData for Dynamics 365 Business Central**|Tilgangsnøkkelen for brukerkontoen som [!INCLUDE[crm_md](includes/crm_md.md)] bruker til å hente informasjon om varedisposisjonen fra [!INCLUDE[d365fin](includes/d365fin_md.md)] via OData-webtjenesten. Nøkkelen tilordnes til brukeren som er valgt i feltet **Brukernavn for webtjenesten OData for Dynamics 365 Business Central**. Hvis du vil ha nøkkelen, kan du velge knappen **Oppslagsverdi** ved siden av brukernavn, velge brukeren, **Administrer** og deretter klikke på **Rediger**. På kortet velger du **Handlinger**, **Godkjenning** og deretter **Endre webtjenestenøkkel**.|
+    <!--Need to verify the details in this table, are these specific to Sales maybe?  IK: No they are not and no longer relevant 
+    Enter the following advanced settings.-->
 
-4. Angi følgende innstillinger for [!INCLUDE[crm_md](includes/crm_md.md)].
-
-|Felt|Beskrivelse|
-|-----|-----|
-|**Ordreintegrasjon er aktivert**|Gjør det mulig for brukerne å sende ordrer og aktiverte tilbud i [!INCLUDE[crm_md](includes/crm_md.md)] og deretter vise og behandle dem i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Dette integrerer prosessen i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, se [Aktivere ordrebehandlingsintegrering](/dynamics365/customer-engagement/sales-enterprise/developer/enable-sales-order-processing-integration).|
-|**Opprett ordrer automatisk**|Opprett en ordre i [!INCLUDE[d365fin](includes/d365fin_md.md)] når en bruker oppretter og sender en i [!INCLUDE[crm_md](includes/crm_md.md)].|
-|**Behandle salgstilbud automatisk**|Behandle et tilbud i [!INCLUDE[d365fin](includes/d365fin_md.md)] når en bruker oppretter og aktiverer et i [!INCLUDE[crm_md](includes/crm_md.md)].|
-
-5. Angi følgende avanserte innstillinger.
-
-|Felt|Beskrivelse|
-|-----|-----|
-|**[!INCLUDE[d365fin](includes/d365fin_md.md)]-brukere må samordne med Dynamics 365 Sales-brukere**|Angi om [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukerkontoer må ha en samsvarende brukerkonto i [!INCLUDE[crm_md](includes/crm_md.md)]. **E-postadresse for godkjenning for Office 365** for [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukeren må være den samme som **Primær-e-postadresse** til [!INCLUDE[crm_md](includes/crm_md.md)]-brukeren.<br /><br /> Hvis du angir verdien til **Ja**, vil [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukere som ikke har en tilsvarende [!INCLUDE[crm_md](includes/crm_md.md)]-brukerkonto, ikke ha [!INCLUDE[d365fin](includes/d365fin_md.md)]-integrasjonsfunksjonene i brukergrensesnittet. Tilgang til [!INCLUDE[crm_md](includes/crm_md.md)]-data direkte fra [!INCLUDE[d365fin](includes/d365fin_md.md)] er utført på vegne av [!INCLUDE[crm_md](includes/crm_md.md)]-brukerkontoen.<br /><br /> Hvis du angir verdien til **Nei**, vil alle [!INCLUDE[d365fin](includes/d365fin_md.md)]-brukere ha [!INCLUDE[crm_md](includes/crm_md.md)]-integrasjonsfunksjonene i brukergrensesnittet. Tilgang til [!INCLUDE[crm_md](includes/crm_md.md)]-data gjøres på vegne av [!INCLUDE[crm_md](includes/crm_md.md)]-tilkoblings(integrerings)bruker.|
-|**Gjeldende Business Central-bruker er tilordnet til en Dynamics 365 Sales-bruker**|Angir om brukerkontoen er tilordnet til en konto i [!INCLUDE[crm_md](includes/crm_md.md)]|
-
-6. For å teste tilkoblingsinnstillingene kan du velge **Test tilkobling**.  
+    <!-- |Field|Description|
+    |-----|-----|
+    |**[!INCLUDE[prod_short](includes/prod_short.md)] Users Must Map to CDS Users**|If you are using the Person ownership model, specify whether [!INCLUDE[prod_short](includes/prod_short.md)] user accounts must have a matching user accounts in [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. The **Microsoft 365 Authentication Email** of the [!INCLUDE[prod_short](includes/prod_short.md)] user must be the same as the **Primary Email** of the [!INCLUDE[crm_md](includes/crm_md.md)] user.<br /><br /> If you set the value to **Yes**, [!INCLUDE[prod_short](includes/prod_short.md)] users who do not have a matching [!INCLUDE[crm_md](includes/crm_md.md)] user account will not have [!INCLUDE[prod_short](includes/prod_short.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data directly from [!INCLUDE[prod_short](includes/prod_short.md)] is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] user account.<br /><br /> If you set the value to **No**, all [!INCLUDE[prod_short](includes/prod_short.md)] users will have [!INCLUDE[crm_md](includes/crm_md.md)] integration capabilities in the user interface. Access to [!INCLUDE[crm_md](includes/crm_md.md)] data is done on behalf of the [!INCLUDE[crm_md](includes/crm_md.md)] connection (integration) user.|
+    |**Current Business Central Salesperson is Mapped to a User**|Indicates whether your user account is mapped to an account in [!INCLUDE[crm_md](includes/crm_md.md)] double check the name of this field|-->
+4. Hvis du vil teste tilkoblingsinnstillingene, velger du **Tilkobling** og deretter **Test tilkobling**.  
 
     > [!NOTE]  
-    >  Hvis datakryptering ikke er aktivert i [!INCLUDE[d365fin](includes/d365fin_md.md)], får du bli spurt om du vil aktivere den. Hvis du vil aktivere datakryptering, velger du **Ja** og angir nødvendig informasjon. Ellers velger du **Nei**. Du kan aktivere datakryptering senere. Hvis du vil ha mer informasjon, kan du se [Kryptere data i Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) i hjelpen for utviklere og IT-eksperter.  
-
-7. Hvis [!INCLUDE[crm_md](includes/crm_md.md)]-synkronisering ikke allerede er satt opp, vil du bli spurt om du vil bruke standard synkroniseringsoppsett. Avhengig av om du vil beholde postene som er justert i [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[d365fin](includes/d365fin_md.md)], velger du **Ja** eller **Nei**.
-
-> [!Note]
-> Tilkobling til Dynamics 365 Sales ved hjelp av siden **Tilkoblingsoppsett for Microsoft Dynamics 365 Sales** kan kreve at du tilordner sikkerhetsrollene Integrasjonsadministrator og Integrasjonsbruker til kontoen som brukes for integrasjon. Hvis du vil ha mer informasjon, kan du se [Tilordne en sikkerhetsrolle til en bruker](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user).
-
-
-> [!Note]
-> Tilkobling til Dynamics 365 Sales ved hjelp av siden **Tilkoblingsoppsett for Microsoft Dynamics 365 Sales** kan kreve at du [tilordner **Integrasjonsadministrator**- og **Integrasjonsbruker**-sikkerhetsrollene](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#assign-a-security-role-to-a-user) til brukerkontoen som brukes for integrasjon.
-
-
-### <a name="to-disconnect-from-crm_md"></a>For å koble fra [!INCLUDE[crm_md](includes/crm_md.md)]  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Tilkoblingsoppsett for Microsoft Dynamics 365 Sales**, og velg deretter den relaterte koblingen.
-2. På siden **Tilkoblingsoppsett for Microsoft Dynamics 365 Sales** fjerner du merket for **Aktivert**.  
-
-<!--## Install the [!INCLUDE[d365fin](includes/d365fin_md.md) Integration Solution
-[!INCLUDE[d365fin](includes/d365fin_md.md)] includes a solution that enables users to access coupled records, such as customers and items, from records in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts and products. The solution adds a link to the pages in [!INCLUDE[crm_md](includes/crm_md.md)] to open the coupled [!INCLUDE[d365fin](includes/d365fin_md.md)] record. The solution also displays information from [!INCLUDE[d365fin](includes/d365fin_md.md)]on certain entities in [!INCLUDE[crm_md](includes/crm_md.md)], such as accounts. Installing this solution is optional. <!--"Solution" sounds old school. Is it an app, or an add-in, or an extension?
-
-
-1.  From [!INCLUDE[d365fin](includes/d365fin_md.md)] installation media \(DVD\), copy the DynamicsNAVIntegrationSolution.zip file to your computer.  
-
-     The DynamicsNAVIntegrationSolution.zip file is located in the **CrmCustomization** folder. This file is the solution package.   
-
-2.  In [!INCLUDE[crm_md](includes/crm_md.md)], import the DynamicsNAVIntegrationSolution.zip as a solution.  
-
-     This step adds the **[!INCLUDE[d365fin](includes/d365fin_md.md) Connection** entity and **[!INCLUDE[d365fin](includes/d365fin_md.md) Account Statistics** entity in the system and additional items such as [!INCLUDE[d365fin](includes/d365fin_md.md)] integration security roles.  
-
-     For more information about how to manage solutions in [!INCLUDE[crm_md](includes/crm_md.md)], [https://go.microsoft.com/fwlink/?LinkID=616519](https://go.microsoft.com/fwlink/?LinkID=616519).  
-
-3.  Optional: Set up the **[!INCLUDE[d365fin](includes/d365fin_md.md) Connection** entity to display in the **Settings** area of [!INCLUDE[crm_md](includes/crm_md.md)].  
-
-     This enables [!INCLUDE[crm_md](includes/crm_md.md)] users who are assigned the **[!INCLUDE[d365fin](includes/d365fin_md.md) Admin** role to modify the entity in [!INCLUDE[crm_md](includes/crm_md.md)]. For more information about how to modify entities in [!INCLUDE[crm_md](includes/crm_md.md)], see [View or edit entity information](https://go.microsoft.com/fwlink/?LinkID=616521).  
-
-4.  Assign the **[!INCLUDE[d365fin](includes/d365fin_md.md) Integration Administrator** role to the user account for the connection to [!INCLUDE[d365fin](includes/d365fin_md.md)].  
-
-5.  Assign the **Business Central Integration User** role to all users who will use the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution.  
-
-If you install the [!INCLUDE[d365fin](includes/d365fin_md.md)] integration solution after you have set up the connection to [!INCLUDE[crm_md](includes/crm_md.md)] in [!INCLUDE[d365fin](includes/d365fin_md.md)], you must modify the connection setup to point to the URL.-->
-
-<!--of the [!INCLUDE[nav_web_md](../developer/includes/nav_web_md.md)]. For more information, see [Set Up a Microsoft Dynamics 365 Sales Connection]() -->
+    > Hvis datakryptering ikke er aktivert i [!INCLUDE[prod_short](includes/prod_short.md)], får du bli spurt om du vil aktivere den. Hvis du vil aktivere datakryptering, velger du **Ja** og angir nødvendig informasjon. Ellers velger du **Nei**. Du kan aktivere datakryptering senere. Hvis du vil ha mer informasjon, kan du se [Kryptere data i Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-encrypting-data) i hjelpen for utviklere og administrasjon.  
+5. Hvis [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-synkronisering ikke allerede er satt opp, vil du bli spurt om du vil bruke standard synkroniseringsoppsett. Avhengig av om du vil beholde postene som er justert i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)], velger du **Ja** eller **Nei**.
 
 <!--
-# View Item Availability - Support Matrix
-For most versions of [!INCLUDE[d365fin](includes/d365fin_md.md) and Dynamics 365 Sales, you can view availability figures for items across the integrated products. The following table shows which version combinations support viewing item availability.
+## Show Me the Process
 
-| |Dynamics 365 Sales version|2015/Update 1/Online|2016/Update 1/Online|Dynamics 365 Sales|
-|-|---------------------|---------------------|--------------------------|-----------------|
-|**Dynamics NAV version**|
-|**2016**||Not supported|Not supported|Not supported|
-|**2017**||Not supported - Install from 2016|Supported|Supported|
-|**Dynamics 365 for Financials**||Not supported - Install from 2016|Supported|Supported|
-
-
-> [Note]
-> You can obtain item availability support for combinations of Dynamics CRM 2015 and Business Central by running the DynamicsNAVIntegrationSolution.zip file on the Business Central product DVD.
-
-For more information, see [System Requirements for Business Central](../deployment/system-requirement-business-central.md).
+The following video shows the steps to connect [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. <br>
+  
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4ArlP]
 
 -->
 
-## <a name="see-also"></a>Se også  
+## <a name="customize-the-match-based-coupling"></a>Tilpass samsvarsbasert kobling
+
+Fra og med lanseringsbølge 2 for 2021 kan du koble poster i [!INCLUDE [prod_short](includes/prod_short.md)] og [!INCLUDE [cds_long_md](includes/cds_long_md.md)] basert på samsvarskriterier som er definert av administratoren.  
+
+Algoritmen for samsvarende poster kan startes fra følgende steder i [!INCLUDE [prod_short](includes/prod_short.md)]:
+
+* Vis sider som viser poster som er synkronisert med [!INCLUDE [cds_long_md](includes/cds_long_md.md)], for eksempel sidene Kunder og Varer.  
+
+    Velg flere poster, og velg deretter **Relatert**-handling, velg **Dataverse**, velg **Kobling** og velg deretter lik **Samsvartbasert kobling**.
+
+    Når den samsvarsbaserte koblingsprosessen startes fra en hoveddatakilde, blir en koblingsjobb planlagt rett etter at du har valgt koblingskriteriene.  
+* Siden **Gjennomgang av full synkronisering for Dataverse**.  
+
+    Når den fullstendige synkroniseringsprosessen oppdager at du har poster som ikke er koblet, både i [!INCLUDE [prod_short](includes/prod_short.md)] og i [!INCLUDE [cds_long_md](includes/cds_long_md.md)], vises en **Velg koblingskriterier**-kobling for den relevante integreringstabellen.  
+
+    Du kan starte prosessen **Kjør full synkronisering** fra sidene **Tilkoblingsoppsett for Dataverse** og **Tilkoblingsoppsett for Dynamics 365**, og den kan startes som et trinn i den assisterte oppsettveiviseren **Konfigurer en tilkobling til Dataverse** når du velger å fullføre installasjonen og kjøre fullstendig synkronisering på slutten.  
+
+    Når den samsvarsbaserte koblingsprosessen startes fra siden **Gjennomgang av full synkronisering for Dataverse**, blir en koblingsjobb planlagt rett etter at du har fullført oppsettet.  
+* Listen **Tilordninger for integreringstabell**.  
+
+    Velg en tilordning, velg **Kobling**-handlingen, og velg deretter **Samsvarsbasert kobling**.
+
+    Når den samsvarende koblingsprosessen startes fra en tilordning for integreringstabell, kjøres en koblingsjobb for alle ikke-koblede poster i denne tilordningen. Hvis den ble kjørt for et sett med valgte poster fra listen, vil den bare kjøres for de merkede, ikke-koblede postene.
+
+I alle tre tilfeller åpnes siden **Velg koblingskriterier**, slik at du kan definere relevante koblingskriterier. På denne siden tilpasser du koblingen med følgende oppgaver:
+
+* Velg hvilke felter som skal samsvare med [!INCLUDE [prod_short](includes/prod_short.md)]-poster og [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-enheter, og velg også om samsvaret i det feltet skal ta skille mellom store og små bokstaver.  
+
+* Angi om det skal kjøres en synkronisering etter kobling av poster, og om posten bruker toveistilordning. Velg også hva som skal skje hvis det er konflikter på listen på siden **Løs oppdateringskonflikter**.  
+
+* Prioriter rekkefølgen du søker etter poster i, ved å angi en *samsvarsprioritet* for de relevante tilordningsfeltene. Samsvarsprioritetene gjør at algoritmen søker etter et treff i flere gjentakelser, som angitt i **Samsvarsprioritet**-feltverdiene i stigende rekkefølge. En tom verdi i feltet **Samsvarsprioritet** blir tolket som prioritet 0, slik at felt som har dette verdi fyllet, vurderes først.  
+
+* Angi om det skal opprettes en ny enhetsforekomst i [!INCLUDE [cds_long_md](includes/cds_long_md.md)] i tilfelle det ikke finnes unikt, ikke-koblet samsvar ved å bruke samsvarskriteriene. Hvis du vil aktivere denne funksjonen, velger du **Opprett ny hvis det ikke finnes et samsvar**-handling.  
+
+### <a name="view-the-results-of-the-coupling-job"></a>Vis resultatene av koblingsjobben
+
+Hvis du vil vise resultatene av koblingsjobben, åpner du siden **Tilordninger for integreringstabell**, velger den relevante tilordningen, velger handlingen **Kobling** og velger handlingen **Logg for koblingsjobb for integrering**.  
+
+Hvis det finnes poster som ikke er koblet, kan du drille ned på verdien i Mislyktes-kolonnen, slik at det åpnes en liste over feil som angir hvorfor postene ikke ble koblet.  
+
+Mislykket kobling skjer ofte i følgende tilfeller:
+
+* Ingen samsvarende kriterier ble definert
+
+    I dette tilfellet kjører du den samsvarsbaserte koblingen på nytt, men husk å definere koblingskriterier.
+
+* Fant ingen treff for flere poster, basert på valgte samsvarende felter
+
+    I dette tilfellet gjentar du koblingen med andre samsvarende felter.
+
+* Fant flere treff for flere poster, basert på valgte samsvarende felter  
+
+    I dette tilfellet gjentar du koblingen med andre samsvarende felter.
+
+* Fant ett treff, men den samsvarende posten er allerede koblet med en annen post i [!INCLUDE [prod_short](includes/prod_short.md)]  
+
+    I dette tilfellet gjentar du koblingen med andre samsvarende felter, eller undersøker hvorfor [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-enheten er koblet med den andre posten i [!INCLUDE [prod_short](includes/prod_short.md)].
+
+> [!TIP]
+> Hvis du vil ha hjelp til å få en oversikt over fremdriften til koblingen, viser feltet **Koblet til Dataverse** om en bestemt post er koblet til en [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-enhet eller ikke. Du kan filtrere listen over poster som synkroniseres med [!INCLUDE [cds_long_md](includes/cds_long_md.md)] av dette feltet.
+
+## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Oppgrader tilkoblinger fra Business Central Online for å bruke sertifikatbasert godkjenning
+> [!NOTE]
+> Denne delen er bare relevant for [!INCLUDE[prod_short](includes/prod_short.md)] online-leiere som kjører på Microsoft. Online-leietakere som kjører på ISV-er, og lokale installasjoner, påvirkes ikke.
+
+I april 2022 avskriver [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Office365-godkjenningstypen (brukernavn/passord). Hvis du vil ha mer informasjon, kan du se [Avskriving av Office365-godkjenningstypen](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse). I mars 2022 avskriver [!INCLUDE[prod_short](includes/prod_short.md)] i tillegg bruken av klienthemmelighetsbasert tjeneste-til-tjeneste-godkjenning for online-leietakere og kommer til å kreve bruk av sertifikatbasert tjeneste-til-tjeneste-godkjenning for tilkoblinger til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. [!INCLUDE[prod_short](includes/prod_short.md)]-nettleietakere som driftes av ISV-er og lokale installasjoner, kan fortsette å bruke klienthemmeliggodkjenning til å koble til [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+
+For å unngå å forstyrrende integreringer _må du oppgradere_ tilkoblingen for å kunne bruke sertifikatbasert godkjenning. Selv om endringen er planlagt i mars, 2022, anbefaler vi på det sterkeste at du oppgraderer så snart som mulig. Følgende trinn beskriver hvordan du oppgraderer til sertifikatbasert godkjenning. 
+
+### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Slik oppgraderer du tilkoblinger for Business Central online til å bruke sertifikatbasert godkjenning
+
+> [!NOTE]
+> Sertifikatbasert godkjenning er tilgjengelig i Business Central 2021, lanseringsbølge 1 og senere. Hvis du bruker en tidligere versjon, må du planlegge en oppdatering for Business Central 2021 lanseringsbølge 1 før mars, 2022. Hvis du vil ha mer informasjon, kan du se [Planlegging av oppdateringer](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline#scheduling-updates). Hvis du får problemer, kontakter du partneren eller kundestøtten.
+
+1. I [administrasjonssenteret for Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center) kontrollerer du at du bruker lanseringsbølge 1 for 2021 for Business Central eller nyere (versjon 18 eller nyere).
+2. Avhengig av om du integrerer med Dynamics 365 Sales, gjør du et av følgende:
+   * Hvis du gjør det, åpner du siden **Tilkoblingsoppsett for Microsoft Dynamics 365**.
+   * Hvis du ikke gjør det, åpner du siden **Tilkoblingsoppsett for Dataverse**.
+3. Velg **Tilkobling** og deretter **Bruk sertifikatgodkjenning** for å oppgradere tilkoblingen til å bruke sertifikatbasert godkjenning.
+4. Logg på med administratorlegitimasjon for Dataverse. Pålogging skal ta under ett minutt.
+
+> [!NOTE]
+> Du må gjenta disse trinnene i hvert [!INCLUDE[prod_short](includes/prod_short.md)]-miljø, for eksempel både produksjons- og sandkassemiljøer, og i hvert selskap der du er koblet til i [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
+
+## <a name="connecting-on-premises-versions"></a>Koble til lokale versjoner
+
+Hvis du vil koble [!INCLUDE[prod_short](includes/prod_short.md)] lokalt til [!INCLUDE[cds_long_md](includes/cds_long_md.md)], må du angi informasjon på siden **Tilkoblingsoppsett for Dataverse**.
+
+Hvis du vil koble til ved hjelp av en Azure Active Directory-konto (Azure AD), må du registrere et program i Azure AD og angi program-ID, hemmelighet for nøkkelhvelv og nettadressen som skal brukes til omdirigering. Nettadressen for omdirigering er forhåndsutfylt og skal fungere for de fleste installasjoner. Du må konfigurere installasjonen til å bruke HTTPS. Hvis du vil ha mer informasjon, kan du se [Konfigurere SSL for å sikre nettklienttilkoblingen for Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Hvis du konfigurerer serveren slik at den har en annen hjemmeside, kan du endre nettadressen når som helst. Klienthemmeligheten vil bli lagret som en kryptert streng i databasen. 
+
+### <a name="prerequisites"></a>Forutsetninger
+
+Dataverse må bruke én av følgende godkjenningstyper:
+
+* Office365 (eldre)
+
+  > [!IMPORTANT]
+  > Gjelder fra april 2022, Office365 (eldre) vil ikke lenger være støttet. Hvis du vil ha mer informasjon, kan du se [Viktige endringer (avskrivninger) som kommer inn Power Apps, Power Automate og Customer Engagement-apper](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse).
+* Office365 (moderne, basert på OAuth2-klienthemmelighet)
+* OAuth
+
+### <a name="to-register-an-application-in-azure-ad-for-connecting-from-business-central-to-dataverse"></a>Slik registrerer du et program i Azure AD for tilkobling fra Business Central til Dataverse
+
+Fremgangsmåten nedenfor forutsetter at du bruker Azure AD til å administrere identiteter og tilgang. Hvis du vil ha mer informasjon om hvordan du registrerer et program i Azure AD, kan du se [Hurtigstart: Registrere et program i Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app). 
+
+1. Velg **Godkjenning** i Azure-portalen under **Behandle** i navigasjonsruten.  
+2. Under **nettadresser for omdirigering** legger du til nettadressen for omdirigering som foreslås på siden **Tilkoblingsoppsett for Dataverse** i [!INCLUDE[prod_short](includes/prod_short.md)].
+3. Velg **API-tillatelser** under **Behandle**.
+4. Under **Konfigurerte tillatelser** velger du **Legg til tillatelse**, og deretter legger du til delegerte tillatelser i kategorien **Microsoft API-er** på følgende måte:
+    * For Business Central legger du til tillatelsene **Financials.ReadWrite.All**.
+    * For Dynamics CRM legger du til tillatelsene **user_impersonation**.  
+
+    > [!NOTE]
+    > Navnet på Dynamics CRM-API-et kan endres.
+
+5. Under **Behandle** velger du **Sertifikater og hemmeligheter**, og deretter oppretter du en ny hemmelighet for appen. Du bruker hemmeligheten i [!INCLUDE[prod_short](includes/prod_short.md)], i feltet **Klienthemmelighet** på siden **Tilkoblingsoppsett for Dataverse**, eller du lagrer på en sikker lagringsplass og angir det i et hendelsesabonnent, som beskrevet tidligere i dette emnet.
+6. Velg **Oversikt**, og finn deretter verdien **ID (klient) for programmet**. Dette er klient-ID-en for programmet. Du må angi den på siden **Tilkoblingsoppsett for Dataverse** i feltet **Klient-ID**, eller lagre den på en sikker lagringsplass og angi den i et hendelsesabonnent.
+7. I [!INCLUDE[prod_short](includes/prod_short.md)], på siden **Tilkoblingsoppsett for Dataverse** i feltet **Nettadresse for miljø**, angir du nettadressen for [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-miljøet.
+8. Hvis du vil aktivere tilkoblingen til [!INCLUDE[cds_long_md](includes/cds_long_md.md)], aktiverer du alternativet **Aktivert**.
+9. Logg på med administratorkontoen din for Azure Active Directory (denne kontoen må ha en gyldig lisens for [!INCLUDE[cds_long_md](includes/cds_long_md.md)] og være administrator i ditt [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-miljø). Når du har logget på, blir du bedt om å tillate at det registrerte programmet kan logge på [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på vegne av organisasjonen. Du må gi samtykke for å fullføre oppsettet.
+
+   > [!NOTE]
+   > Hvis du ikke blir bedt om å logge på med administratorkontoen, skyldes det trolig at popup-vinduer er blokkert. Hvis du vil logge på, må du tillate popup-vinduer fra `https://login.microsoftonline.com`.
+
+### <a name="to-disconnect-from-cds_long_md"></a>For å koble fra [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Dataverse-tilkoblingsoppsett** og velger den relaterte koblingen.
+2. På siden **Konfigurasjon for Dataverse-tilkobling** deaktiverer du alternativet **Aktivert**.  
+
+## <a name="see-also"></a>Se også
+
 [Vise statusen for en synkronisering](admin-how-to-view-synchronization-status.md)  
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

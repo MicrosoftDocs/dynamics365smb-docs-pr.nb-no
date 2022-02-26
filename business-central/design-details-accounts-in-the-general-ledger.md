@@ -3,19 +3,19 @@ title: Designdetaljer – Konti i Finans | Microsoft-dokumentasjon
 description: Hvis du vil avstemme lager- og kapasitetsposter med Finans, bokføres de tilknyttede verdipostene på ulike konti i finans.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6e6af3c9afe8e0d63d5ec2bcfe4905be0a7997df
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 41b94d44ba374ecbcad64a2b1da100fcf3e1a2ab
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185879"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215581"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Designdetaljer: Konti i Finans
 Hvis du vil avstemme lager- og kapasitetsposter med Finans, bokføres de tilknyttede verdipostene på ulike konti i finans. Hvis du vil ha mer informasjon, se [Designdetaljer: Avstemming med konti i Finans](design-details-reconciliation-with-the-general-ledger.md).  
@@ -99,4 +99,7 @@ Tabellen nedenfor viser hvordan beløpene som skal bokføres i finans, beregnes 
  [Designdetaljer: Bokføre forventet kost](design-details-expected-cost-posting.md)  
  [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

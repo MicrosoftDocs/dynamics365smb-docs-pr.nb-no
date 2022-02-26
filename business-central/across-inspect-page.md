@@ -5,20 +5,23 @@ ms.custom: na
 ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
-ms.topic: article
+ms.topic: conceptual
 ms.service: dynamics365-business-central
 author: jswymer
-ms.date: 04/01/2020
-ms.openlocfilehash: 7790548828595838e6c2f626194d59260ef4e8ab
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.author: jswymer
+ms.date: 04/01/2021
+ms.openlocfilehash: 99dd133c3f3ab05806976c5fe840f81dcd8e1403
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187775"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440902"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Kontrollere sider i Business Central
 
 Sideinspeksjonsfunksjonen gjør det mulig å få opplysninger om en side ved å gi innsikt i sideutformingen, de ulike elementene som utgjør siden, og kilden bak dataene som vises. Sideninspeksjon er spesielt utviklet for administratorer, avanserte brukere, støttepersonell og utviklere. Den er ideell for å lære datamodellen bak en side og feilsøking. Hvis du har et problem på en side, kan du bruke sideninspeksjon til å få informasjon som kan videresendes til systemansvarlig eller servicepersonell.
+
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)]
 
 ## <a name="working-with-page-inspection"></a>Arbeide med sideinspeksjon
 
@@ -26,7 +29,7 @@ Startsideinspeksjonen fra **Hjelp og støtte**-siden. Velg spørsmålstegnet øv
 
 Ruten **Sideninspeksjon** åpnes på siden. Følgende figur viser ruten **Sideninspeksjon** på siden **Ordre**.
 
-![Sideinspeksjon](media/page-inspection-example.png)
+![Sideinspeksjon.](media/page-inspection-example.png)
 
 Når ruten **Sideinspeksjon** åpnes for første gang, vises informasjon som gjelder hovedobjektet på siden.
 
@@ -44,4 +47,7 @@ Brukere som ikke har tilgang til **Systemobjekt 5330**, har fremdeles tilgang ti
 
 ## <a name="see-also"></a>Se også
 
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

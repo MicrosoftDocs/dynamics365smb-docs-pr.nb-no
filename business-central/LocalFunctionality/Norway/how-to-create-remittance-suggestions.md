@@ -5,19 +5,19 @@ services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 149cbd14db228bdcf0e415bee3bd15e6dee997dc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: dd2bda42e0ddedb31912a03aea25c366e4555e66
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181033"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435721"
 ---
 # <a name="create-remittance-suggestions"></a>Opprette remitteringsforslag
 Du kan opprette et remitteringsforslag slik at betalingsforslag sendes til leverandører som skal motta remitteringsoppdrag. Én betalingstransaksjon per bokføringsdato overføres til banken for hver leverandør.  
@@ -27,7 +27,7 @@ Du kan opprette et remitteringsforslag slik at betalingsforslag sendes til lever
 
 ## <a name="to-create-a-remittance-suggestion"></a>Slik oppretter du et remitteringsforslag:  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Utbetalingskladder**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladder** og velg den relaterte koblingen.  
 2.  Velg handlingen **Remitteringsforslag**.  
 3.  Fyll ut feltene som beskrevet i tabellen nedenfor, i hurtigfanen **Alternativer** på siden **Remitteringsforslag**.  
 
@@ -36,7 +36,7 @@ Du kan opprette et remitteringsforslag slik at betalingsforslag sendes til lever
     |**Siste betalingsdato**|Angi den siste betalingsdatoen.|  
     |**Søk etter kontantrabatter**|Velg dette alternativet hvis du vil søke etter poster med kontantrabatter.|  
     |**Bruk leverandørprioritet**|Velg dette alternativet hvis leverandørprioritet skal brukes til å søke i poster.|  
-    |**Disponibelt beløp (NOK)**|Angi betalingene for totalsummer som er mindre enn eller lik det angitte beløpet.|  
+    |**Disponibelt beløp (LV)**|Angi betalingene for totalsummer som er mindre enn eller lik det angitte beløpet.|  
     |**Bokføringsdato**|Angi en bokføringsdato.|  
     |**Erstatt bokføringsdato med forfallsdato**|Velg for å sette inn forfallsdatoen for posten som bokføringsdato for betalingene.|  
     |**Sjekk bilagstype**|Angi hvilke av følgende bilagstyper som skal sjekkes for betaling:<br /><br /> -   **Alle** - alle bilagstyper sjekkes.<br />-   **Faktura/kreditnota** - Bare faktura- eller kreditnotaposter sjekkes.|  
@@ -60,3 +60,6 @@ Du kan opprette et remitteringsforslag slik at betalingsforslag sendes til lever
  [Remitteringsfeil](remittance-errors.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,204 +1,80 @@
 ---
-title: Aktivere forretningsdata for Power BI| Microsoft Docs
-description: Få innsikt, forretningsintelligens og KPI-er fra Business Central-dataene på en enkel måte med Business Central-apper for Power BI.
-author: bmeier90
+title: Innføring i Business Central og Power BI
+description: Få en oversikt over hvordan du bruker Power BI til å få innsikt, forretningsanalyse og KPI-er fra Business Central-data.
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
+ms.search.form: 6316, 6317
 ms.reviewer: edupont
-ms.date: 04/01/2020
-ms.author: bmeier
-ms.openlocfilehash: 0625197f9feb0c12daa45b183973316df52b0672
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: jswymer
+ms.openlocfilehash: d4414e8ada47667d85e250689654552ea426c551
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186888"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011627"
 ---
-# <a name="enabling-your-business-data-for-power-bi"></a>Aktivere forretningsdata for Power BI
+# <a name="prod_short-and-power-bi"></a>[!INCLUDE[prod_short](includes/prod_short.md)] og Power BI
 
-Få innsikt i [!INCLUDE[prodshort](includes/prodshort.md)]-dataene på en enkel måte med [!INCLUDE[prodshort](includes/prodshort.md)]-appene for Power BI. Power BI henter dataene, og deretter bygger du et forhåndskonfigurert instrumentbord og rapporter basert på dataene.  
+Det er enkelt å få innsikt i [!INCLUDE[prod_short](includes/prod_short.md)]-dataene med [Power BI](https://powerbi.microsoft.com) – et datavisualiseringssystem fra Microsoft. Power BI henter [!INCLUDE[prod_short](includes/prod_short.md)]-data, slik at du kan bygge instrumentbord og rapporter basert på disse dataene. Power BI gir deg et fleksibelt alternativ til rapporter som er bygget i [!INCLUDE[prod_short](includes/prod_short.md)], slik at du kan drille ned og tilpasse visualiseringen og til og med slå sammen data fra ulike selskaper i [!INCLUDE[prod_short](includes/prod_short.md)]. Noen Power BI-rapporter kan også bygges inn i Business Central og vises uten å forlate systemet. Mer komplekse instrumentbord er bedre å oppleve fra Power BI-nettstedet.
 
-Du må ha en gyldig konto med [!INCLUDE[prodshort](includes/prodshort.md)] og med Power BI. Du må også laste ned [Power BI Desktop](https://powerbi.microsoft.com/desktop/) hvis du vil opprette et egne Power BI-rapporter. Power BI-apper krever tilgang til tabellene der opplysningene hentes fra. Du finner mer informasjon om kravene nedenfor.  
+![Power BI og Business Central.](media/power-bi-intro.png)
 
-> [!IMPORTANT]
-> Power BI-appene som er beskrevet i denne artikkelen, er utformet for å bruke Azure Active Directory som godkjenningsmekanisme med mindre annet er angitt. Du trenger i tillegg en [Power BI Pro-lisens](/power-bi/service-features-license-type) for å dele innholdet ditt samt personene du deler det med. Ellers må innholdet være på et arbeidsområde i en [Premium-kapasitet](/power-bi/service-premium-what-is). Hvis du vil ha mer informasjon, kan du se [Måter å dele arbeidet på i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
+## <a name="what-you-can-do-with-power-bi-and-prod_short"></a>Det du kan gjøre med Power BI og [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE [prodlong](includes/prodlong.md)] har publisert følgende apper for Power BI:
+Det finnes ulike funksjoner for å arbeide med [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI. Du kan gjøre enkelte ting fra Power BI, mens andre ting gjør du fra [!INCLUDE[prod_short](includes/prod_short.md)]. I tillegg er noen funksjoner bare tilgjengelige i [!INCLUDE[prod_short](includes/prod_short.md)] Online, ikke i den lokale versjonen. Du får en oversikt i tabellen nedenfor.
 
-- [!INCLUDE [prodlong](includes/prodlong.md)] – CRM  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – Finance  
-- [!INCLUDE [prodlong](includes/prodlong.md)] – Sales  
+|Funksjon|Beskrivelse|Online|Lokalt|Mer informasjon|
+|-------|-----------|--------------|-----------|----------------|
+|Vis [!INCLUDE[prod_short](includes/prod_short.md)] data i Power BI.|Du kan vise dataene fra [!INCLUDE[prod_short](includes/prod_short.md)] i rapporter i Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] Online omfatter noen forhåndsdefinerte Power BI-rapporter. Det kan også hende at organisasjonen har gjort enkelte egendefinerte rapporter tilgjengelige for deg.|![Fungerer online.](media/check.png)|![Fungerer lokalt](media/check.png)|[Se ...](across-working-with-business-central-in-powerbi.md)|
+|Vis Power BI-rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]-klienten.| Power BI-rapporter som viser [!INCLUDE[prod_short](includes/prod_short.md)]-data, kan bygges inn direkte i deler på [!INCLUDE[prod_short](includes/prod_short.md)]-sider. Du kan bytte del for å vise enhver rapport som er gjort tilgjengelig for deg. |![fungerer online.](media/check.png)|![Fungerer lokalt](media/check.png)<sup>[*](#onprem)</sup>|[Se ...](across-working-with-powerbi.md)|
+|Opprett rapporter og instrumentbord i Power BI som viser [!INCLUDE[prod_short](includes/prod_short.md)]-dataene.|Bruk Power BI Desktop til å opprette egne rapporter og instrumentbord. Du kan publisere rapportene til din egen Power BI-tjeneste eller dele dem med andre i organisasjonen.|![Fungerer online.](media/check.png)|![fungerer lokalt](media/check.png)|[Se ...](across-how-use-financials-data-source-powerbi.md)
+|[!INCLUDE[prod_short](includes/prod_short.md)]-apper i Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publiserer tre apper for Power BI på Microsoft AppSource. Disse appene oppretter detaljerte rapporter og instrumentbord i Power BI-tjenesten for å vise [!INCLUDE[prod_short](includes/prod_short.md)]-data. Tilgjengelige apper omfatter følgende: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] – CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Sales </li></ul>  |![Fungerer online.](media/check.png)||[Se ...](across-powerbi-business-central-apps.md)
 
-## <a name="using-the-prodshort-dashboards-in-power-bi"></a>Bruke [!INCLUDE [prodshort](includes/prodshort.md)]-instrumentbordene i Power BI
+<a name="onprem"><sup>*</sup></a> Denne funksjonen krever et registrert program for Business Central i Microsoft Azure. Hvis du vil ha mer informasjon, kan du se [Registrere Business Central lokalt i Azure AD for integrering med andre tjenester](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-Hver app inneholder rapporter som du kan se på:
+## <a name="getting-ready-to-use-power-bi"></a>Gjøre klart til bruk av Power BI
 
-- Velg hvilken som helst visning på instrumentbordet for å hente frem en av de underliggende rapportene.  
-- Filtrere rapporten eller legg til felt som du vil overvåke.  
-- Fest denne tilpassede visningen på instrumentbordet for å fortsette sporing.  
-  Du kan oppdatere dataene manuelt, og kan du definere en oppdateringstidsplan. Hvis du vil ha mer informasjon, se [Konfigurere planlagt oppdatering](/power-bi/refresh-scheduled-refresh).  
+Det er noen få oppgaver du må gjøre før du kan begynne å bruke Power BI med [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> Oppgavene avhenger av din rolle i organisasjonen, og hva du vil gjøre med Power BI:
 
-Appene er utformet for å fungere med data fra et hvilket som helst selskap du har i [!INCLUDE[prodshort](includes/prodshort.md)]. Når du installerer Power BI-appen, angir du én eller flere parametere du vil koble til [!INCLUDE [prodshort](includes/prodshort.md)].  
+- Som en *forretningsbruker* ønsker du å vise Power BI-rapporter, enten i Power BI-tjenesten eller i Business Central
+- Som *administrator* er du ansvarlig for å administrere innstillingene for hele organisasjonen, som styrer hvordan Business Central og Power BI fungerer.
+- Som en *rapportoppretter* vil du lage egendefinerte Power BI-rapporter som du kan dele med andre brukere.
 
-> [!NOTE]
-> Du kan også lage dine egne rapporter og instrumentbord i Power BI basert på [!INCLUDE[d365fin](includes/d365fin_md.md)]-dataene dine. Hvis du vil ha mer informasjon, kan du se [Koble forretningsdata til Power BI](across-how-use-financials-data-source-powerbi.md).  
+|Oppgave|Forretningsbruker|Administrator|Rapportoppretter|Mer informasjon|
+|----|-------------|-------------|-----------------------|----------------|
+|Få deg en Power BI-konto.|![enda en ny hake.](media/check.png)|![det er en hake](media/check.png)|![igjen en hake](media/check.png)|Gå til [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Du registrerer deg for en konto ved å bruke e-postadressen og passordet for jobben din. <br /><br/>Registreringen krever at du har en lisens, men i de fleste tilfeller skal du allerede ha en gratis lisens. Hvis du vil ha mer informasjon, kan du se [Power BI-lisens](admin-powerbi-setup.md#license).|
+|Skaff deg Power BI Desktop|||![igjen en hake.](media/check.png)|Hvis du vil laste ned, går du til [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Hvis du vil ha mer informasjon, kan du se [Få Power BI Desktop](/power-bi/fundamentals/desktop-get-the-desktop).
+|Eksponer Business Central-data til Power BI||![det er en hake.](media/check.png)|![igjen en hake](media/check.png)|[Eksponer data gjennom API-sider eller OData-nettjenester](admin-powerbi-setup.md#exposedata)
+|Aktiver Power BI-integrering<br />(bare lokalt)||![det er en hake.](media/check.png)||[Konfigurer Business Central lokalt for Power BI-integrering](admin-powerbi-setup.md#setup)|
 
-### <a name="to-connect-your-data-in-power-bi"></a>Slik kobler du sammen dataene i Power BI
 
-1. Åpne leseren, naviger til https://powerbi.microsoft.com, og logg deg på kontoen din.
-2. Velg **Hent data** nederst i navigasjonsruten til venstre.  
+<!--
 
-    ![Navigere til Hent data](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
-    Du kan også starte fra [!INCLUDE [prodshort](includes/prodshort.md)]. Fra startsiden navigerer du til **Rapportvalg** i Power BI-delen. Velg enten **Service** eller **Min organisasjon** på båndet. Når en av disse handlingene er valgt, kommer du enten til organisasjonsgalleriet i Power BI eller til Microsoft AppSource, som også filtreres for å bare vise apper knyttet til [!INCLUDE[prodshort](includes/prodshort.md)].
 
-3. I **Tjenester**-boksen velger du **Hent**. Dette åpner en side som viser **AppSource** og **Apper for Power BI**.  
+1. If you're using [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, make sure your deployment meets the requirements outlined in [Set up [!INCLUDE[prod_short](includes/prod_short.md)] on-premises for Power BI integration](admin-powerbi-setup.md#setup). This task is typically an administrative task.
 
-<!--    ![Choose apps from online services that you use.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-online-services-get.png)-->
-4. Velg **Apper** fra fanen **Apper for Power BI**, velg **Microsoft Dynamics 365 Business Central**-appen du vil bruke, og velg deretter **Få det nå**.  
-<!--    ![Select Dynamics 365 Business Central and select Get it now](./media/across-how-to-connect-powerbi-d365-content-packspowerbi-dynamics365-for-financials-get-it-now.png)/-->
-5. Når du blir spurt, skriver du inn navnet på miljøet og selskapet i [!INCLUDE[prodshort](includes/prodshort.md)]-appen du vil koble til. Hvis du ikke har opprettet flere miljøer, angir du **Produksjon**. Pass på at du angir navnet og ikke visningsnavnet for selskapsparameteren. Du finnner selskapsnavnet på siden **Selskap** i [!INCLUDE[prodshort](includes/prodshort.md)]-forekomsten.  
+2. Expose Business Central data through API pages or published web services.
 
-    > [!NOTE]
-    > Hvis du kobler til [!INCLUDE [prodshort](includes/prodshort.md)] lokalt, må du angi parameteren for *Nettadresse for webtjeneste*. Finn denne på siden **Webtjenester** i [!INCLUDE [prodshort](includes/prodshort.md)]. [!INCLUDE [server](includes/server.md)]-forekomsten må være konfigurert for enkel godkjenning, og du må angi en bruker og nettilgangsnøkkelen til denne brukeren som passord. I eksemplet nedenfor erstatt *myserver:7048* med [!INCLUDE [server](includes/server.md)]-navnet ditt og *CRONUS%20US* med selskapsnavnet ditt.  
-    > ```https://myserver:7048/BC140/ODataV4/Company('CRONUS%20US')/```
+    Business Central online automatically included several pages as APIs. For more information, see [Business Central API V2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/). Application developers for Business Central online can create custom API pages that you can then consume in reports. For more information, see [Developing a Custom API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
 
-6. Ved tilkobling legges det til et instrumentbord og rapporter i Power BI-arbeidsområdet. Når du er ferdig, vises dataene fra [!INCLUDE[prodshort](includes/prodshort.md)]-selskapet.
+   Codeunit, page, and query objects can be published as OData web services. There are many web services published by default. An easy way to find the web services is to search for *web services* in [!INCLUDE[prod_short](includes/prod_short.md)]. For more information about publishing web services, see [Publish a Web Service](across-how-publish-web-service.md).
 
-    ![Velg Dynamics 365 Business Central, og velg Få det nå](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+3. Get a Power BI account.
 
-### <a name="what-now"></a>Hva nå?
+   To do anything with Power BI and [!INCLUDE[prod_short](includes/prod_short.md)], whether you're an administrator or just a consumer, you'll need Power BI service account. To get an account, go to [https://powerbi.microsoft.com](https://powerbi.microsoft.com). To sign up for an account, use your work email address and password. Sign-up requires that you have a license, but in most cases you should already have a free license. For more information, see [Power BI Licensing](admin-powerbi-setup.md#license).
 
-- Prøv [å stille et spørsmål i spørsmål og svar-boksen](/power-bi/service-q-and-a-tips) øverst i instrumentbordet.
-- [Endre flisene](/power-bi/service-dashboard-edit-tile) i instrumentbordet.  
-- [Velge en flis](/power-bi/service-dashboard-tiles) for å åpne den underliggende rapporten.  
-- Som standard er ikke datasettet ditt satt til å oppdatere. Du kan endre oppdateringsplanen eller prøve å oppdatere det ved behov ved hjelp av **Oppdater nå**. Hvis du vil ha mer informasjon, se [Konfigurere planlagt oppdatering](/power-bi/refresh-scheduled-refresh).
+4. If you want to create your own Power BI reports, get Power BI Desktop.
 
-## <a name="power-bi-in-prodshort"></a>Power BI i [!INCLUDE [prodshort](includes/prodshort.md)]
+   You can download [Power BI Desktop](https://powerbi.microsoft.com/desktop/). For more information, see [Get Power BI Desktop](/power-bi/fundamentals/desktop-get-the-desktop).
 
-Startsiden i [!INCLUDE [prodshort](includes/prodshort.md)] kan inneholde et Power BI-kontrollelement som kan konfigureres til å vise Power BI-rapporter på startsiden.
-
-> [!IMPORTANT]
-> Du må ha en gyldig konto med [!INCLUDE [prodshort](includes/prodshort.md)] og med Power BI. Hvis du vil endre noen av rapportene, må du også laste ned Power BI Desktop. Hvis du vil ha mer informasjon, kan du se [Bruke Business Central som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md).  
-
-### <a name="on-first-login"></a>Ved første pålogging
-
-Når du logger på [!INCLUDE [prodshort](includes/prodshort.md)] første gang, vil du legge merke til en tom Power BI-del på startsiden. Hvis du vil vise rapportene, må du først koble til Power BI ved å velge koblingen *Kom i gang med Power BI*.
-
-[!INCLUDE [prodshort](includes/prodshort.md)] kommuniserer deretter med Power BI-tjenesten for å finne ut om du har en gyldig Power BI-konto. Når lisensen er kontrollert, vises standard Power BI-rapporter på startsiden din.
-
-### <a name="selecting-power-bi-reports"></a>Velge Power BI-rapporter
-
-Power BI-kontrollen på startsiden kan vise en hvilken som helst Power BI-rapport. Hvis du vil vise en eksisterende rapport, velger du **Velg rapport**-handlingen fra Power BI-rullegardinkommandolisten.  
-
-Rapportsiden viser en oversikt over alle Power BI-rapportene du har tilgang til. Denne listen er hentet fra Power BI-arbeidsområdet. Aktiver hver rapport du vil vise på startsiden, og klikk deretter OK. Du kommer tilbake til startsiden, og den siste rapporten du aktiverte, vises. Ved hjelp av rullegardinmenyen bruker du forrige eller neste kommando til å navigere mellom rapporter.  
-
-### <a name="get-reports"></a>Hente rapporter
-
-Hvis du ikke ser noen rapporter på Velg rapporter-siden eller ikke ser rapporten du vil bruke. Du kan velge å få rapporter fra *Min organisasjon* eller fra *Tjenester*.
-Velg *Min organisasjon* for å gå til Power BI-tjenestene der du kan vise rapportene i organisasjonen som du har tilgang til å vise, og legg dem til i arbeidsområdet. Velg *Tjenester* for å gå til Microsoft AppSource, der du kan installere Power BI-apper.  
-
-Du kan også velge å opprette nye Power BI-rapporter. Når disse rapportene er publisert på Power BI-arbeidsområdet, vil de vises på denne siden.  
-
-### <a name="managing-reports"></a>Administrere rapporter
-
-I Power BI-inndelingen på startsiden kan du velge **Behandle rapport**-handlingen fra rullegardinlisten, slik at du kan endre rapporten som var i fokus i rollesenteret.  
-
-Endringer kan gjøres i rapporten og lagres.  Eventuelle endringer som gjøres i rapporten, vil bli endret for alle brukere denne rapporten deles med, siden du endrer rapporten som er lagret i Power BI-tjenesten.  
-
-Velg Lagre når du har fullført endringene. Hvis dette er en delt rapport, bør du velge Lagre som for å unngå å gjøre endringer for alle brukere.
-Gå tilbake til rollesenteret, så vil du se den oppdaterte rapporten. Hvis du valgte Lagre som-kommandoen, må du åpne siden Velg rapport og aktivere den nye rapporten.
-
-### <a name="uploading-reports"></a>Laste opp rapporter
-
-Du kan laste opp nye Power BI-rapporter og dele dem med alle brukerne av [!INCLUDE [prodshort](includes/prodshort.md)]. Rapportene deles i hvert selskap i [!INCLUDE [prodshort](includes/prodshort.md)].  
-
-For å laste opp en rapport velger du handlingen **Last opp rapport** fra rullegardinkommandolisten. Deretter kan du laste opp en pbix-fil som definerer rapportene du vil dele. Du kan endre standardnavnet på filen.  
-
-Når rapporten er lastet opp til Power BI-arbeidsområdet, blir det automatisk lastet opp til Power BI-arbeidsområdene til alle andre brukere i selskapet neste gang de logger på [!INCLUDE [prodshort](includes/prodshort.md)].
-
-## <a name="system-requirements"></a>Systemkrav
-
-Hvis du vil importere [!INCLUDE[prodshort](includes/prodshort.md)]-data til Power BI, må du ha tilgang til webtjenestene som brukes for å hente data. Webtjenestene som kreves for hver Power BI-app, inneholder:
-
-### <a name="microsoft-dynamics-365-business-central--crm"></a>Microsoft Dynamics 365 Business Central – CRM
-
-- Salgsmuligheter
-- Excel-mal – Vis selskapsinformasjon
-- Power BI-rapportetiketter
-
-### <a name="microsoft-dynamics-365-business-central--finance"></a>Microsoft Dynamics 365 Business Central – Finance
-
-- PowerBIFinance
-- Excel-mal – Vis selskapsinformasjon
-- Power BI-rapportetiketter
-
-### <a name="microsoft-dynamics-365-business-central---sales"></a>Microsoft Dynamics 365 Business Central – Sales
-
-- Varesalg etter kunde
-- Instrumentbord for salg
-- Excel-mal – Vis selskap
-- Power BI-rapportetiketter
-
-> [!NOTE]
-> [!INCLUDE [prodshort](includes/prodshort.md)] lokalt bruker samme webtjenesteendepunkt som [!INCLUDE [prodshort](includes/prodshort.md)] online.
-
-## <a name="web-services"></a>Webtjenester
-
-Det er enkelt å finne webtjenestene ved å søke etter *webtjenester* i [!INCLUDE[prodshort](includes/prodshort.md)]. På siden **Webtjenester** kontrollerer du at **Publiser**-feltet er valgt for webtjenestene som er oppført over.
-
-## <a name="troubleshooting"></a>Feilsøking
-
-Power BI-instrumentbordet er avhengig av de publiserte webtjenestene som er nevnt ovenfor, og du vil se data fra demoselskapet eller ditt eget selskap hvis du importerer data fra din gjeldende økonomiløsning. Hvis noe går galt, vil denne delen imidlertid gir en løsning for de vanligste problemene.  
-
-### <a name="you-do-not-have-a-power-bi-account"></a>Du har ikke Power BI-konto
-
-En Power BI-konto er ikke satt opp. For at du skal kunne ha gyldig Power BI-konto, må du ha en lisens, og du må ha logget på Power BI tidligere for at Power BI-arbeidsområdet skal kunne opprettes.  
-
-### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Melding: Det finnes ingen aktiverte rapporter. Klikk Velg rapport for å se en liste over rapporter du kan vise.
-
-Denne meldingen vil vises hvis standardrapporten ikke ble distribuert til Power BI-arbeidsområdet, eller rapporten ble distribuert, men ble ikke oppdatert. Hvis dette skjer, navigerer du til rapporten i Power BI-arbeidsområdet, velger **Datasett**, **Innstillinger** og deretter oppdaterer legitimasjonen manuelt. Når datasettet er oppdatert, går du tilbake til Business Central og velger rapporten fra **Velg rapporter**-siden manuelt.
-
-### <a name="you-need-a-power-bi-pro-license-to-install-the-prodshort-app-in-power-bi"></a>Du trenger en Power BI Pro-lisens for å installere [!INCLUDE [prodshort](includes/prodshort.md)]-appen i Power BI
-
-Du trenger en [Power BI Pro-lisens](/power-bi/service-features-license-type) for å dele innholdet ditt samt personene du deler det med. Ellers må innholdet være på et arbeidsområde i en [Premium-kapasitet](/power-bi/service-premium-what-is). Hvis du vil ha mer informasjon, kan du se [Måter å dele arbeidet på i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
-
-### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>"Parametervalidering mislyktes, du må kontrollere at alle parametrene er gyldige"
-
-Denne feilen angir at en av parameterne ikke er gyldige.
-
-- Den angitte miljøparameteren samsvarer ikke med eksisterende [!INCLUDE [prodshort](includes/prodshort.md)]-produksjon eller sandkassemiljø.
-- Den angitte selskapsparameteren samsvarer ikke med eksisterende [!INCLUDE [prodshort](includes/prodshort.md)]-selskaper. Kontroller selskapsnavnet på **Selskap**-siden i [!INCLUDE [prodshort](includes/prodshort.md)].
-- Hvis du kobler til [!INCLUDE [prodshort](includes/prodshort.md)] lokalt. Du har skrevet inn en ugyldig URL-adresse. Du kan bekrefte URL-adressen på **Webtjenester**-siden i [!INCLUDE [prodshort](includes/prodshort.md)]  
-- En port er ikke åpen for å tillate at forespørselen din går gjennom brannmuren.
-
-### <a name="cannot-sign-in"></a>Kan ikke logge på
-
-Hvis du får en "påloggingen mislyktes"-feil etter at du bruker [!INCLUDE [prodshort](includes/prodshort.md)]-legitimasjonen din for å logge på, kan dette skyldes et av følgende problemer:
-
-- Kontoen du bruker, har ikke tillatelse til å hente [!INCLUDE [prodshort](includes/prodshort.md)]-dataene fra kontoen din. Kontroller at du har tilgang til de nødvendige dataene i [!INCLUDE [prodshort](includes/prodshort.md)], og prøv på nytt.
-- Du har valgt en annen godkjenningstype enn Enkel hvis du kobler til [!INCLUDE [prodshort](includes/prodshort.md)] lokalt.
-- Du har ikke skrevet inn et gyldig brukernavn eller passord.
-
-### <a name="incorrect-company-name"></a>Feil selskapsnavn
-
-En vanlige feil er angi visningsnavnet for selskapet i stedet for selskapsnavnet. Søk etter **Selskaper** for å finne selskapsnavnet. Bruk **Navn**-feltet når du angir selskapsnavnet.
-
-### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Nøkkelen samsvarer ikke med noen rader i tabellen
-
-Hvis du angir et ugyldige selskapsnavn under tilkoblingen, kan du få du feilmeldingen Nøkkelen samsvarer ikke med en rad i tabellen. Angi riktig selskapsnavn, og prøv å koble til på nytt.
-
-### <a name="historical-data-appears-to-be-missing"></a>Historisk data ser ut til å mangle
-
-Når Power BI-appen er installert og dataene vises i Power BI, oppdager du kanskje at ikke alle dataene vises. Datasettene filtreres for å returnere bare de forrige 365 dagene med data. Denne standarden er på plass til å gjøre rapportene raskere.  
-
-### <a name="i-only-see-data-for-a-single-company"></a>Jeg ser bare data for ett selskap
-
-Power BI-appen viser bare data fra [!INCLUDE [prodshort](includes/prodshort.md)]-selskapet som ble definert da Power BI-appen ble installert. Data fra andre selskaper kan legges til i rapportene ved å legge til nye spørringer som bruker ulike selskaper som datakilde.  
+-->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
@@ -209,11 +85,14 @@ Power BI-appen viser bare data fra [!INCLUDE [prodshort](includes/prodshort.md)]
 [Hurtigstart: Koble til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI-dokumentasjon](/power-bi/)  
 [Forretningsintelligens](bi.md)  
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
-[Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
-[Ved hjelp av [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
+[Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
+[Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
+[Ved hjelp av [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

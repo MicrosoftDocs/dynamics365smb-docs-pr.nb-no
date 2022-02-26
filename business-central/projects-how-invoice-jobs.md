@@ -1,21 +1,22 @@
 ---
-title: Opprette en salgsfaktura for prosjekt for å fakturere et prosjekt | Microsoft-dokumentasjon
-description: Beskriver hvordan du kan fakturere kunder for prosjektutgifter etter hvert som et prosjekt skrider frem.
+title: Opprette en salgsfaktura for prosjekt for å fakturere et prosjekt
+description: Beskriver hvordan du kan fakturere kunder for prosjektutgifter etter hvert som et prosjekt skrider frem og kostnader akkumuleres.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project invoice
-ms.date: 05/25/2020
-ms.author: sgroespe
-ms.openlocfilehash: 3cf465be4d168baf586dd44df1357482b9651e66
-ms.sourcegitcommit: d4a77522859c5561c1f3dc43178d45657ffa31b5
+ms.search.form: 1002, 1007,
+ms.date: 06/22/2021
+ms.author: edupont
+ms.openlocfilehash: 444ecd4ea765983d2cd4c7c80962f8d2e66a737e
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/26/2020
-ms.locfileid: "3402482"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973787"
 ---
 # <a name="invoice-jobs"></a>Fakturere prosjekter
 I løpet av prosjektet kan det akkumuleres prosjektkostnader fra ressursforbruk, materiale og prosjektrelaterte kjøp. Under fremdriften til prosjektet blir disse transaksjonene bokført til prosjektkladden. Det er viktig at alle kostnader blir registrert i prosjektkladden før du fakturerer kunden.
@@ -33,7 +34,7 @@ Du kan opprette en faktura for et prosjekt eller for én eller flere prosjektopp
 
 Følgende fremgangsmåte viser hvordan du bruker en satsvis jobb til å fakturere flere prosjekter.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Opprett salgsfaktura for prosjekt**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Opprett salgsfaktura for prosjekt**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Angi filtre hvis du vil begrense prosjektene som kjørselen skal behandle.
 4. Velg **OK** for å opprette fakturaene.  
@@ -46,7 +47,7 @@ Du kan gå gjennom og bokføre opprettede fakturaer i **Salgsfakturaer**-vinduet
 ## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Slik oppretter og bokfører du prosjektsalgsfaktura fra prosjektplanleggingslinjer
 Du kan opprette en faktura fra en prosjektplanleggingslinje og samtidig angi antallet for varen, ressursen eller finanskontoen som du vil fakturere.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.
 2. Åpne et relevant prosjekt.
 3. Velg en prosjektoppgave der feltet **Prosjektoppgavetype** inneholder **Bokføring**, og velg deretter handlingen **Prosjektplanleggingslinjer**.  
 4. På en prosjektplanleggingslinjer, i feltet **Ant. som skal overføres til faktura** angir du antallet av varen, ressursen, finanskontotypen du vil fakturere.  
@@ -61,25 +62,13 @@ Du kan opprette en faktura fra en prosjektplanleggingslinje og samtidig angi ant
 > [!NOTE]  
 >   Fremgangsmåten ovenfor er identisk for å opprette, gå gjennom og bokføre en prosjektrelatert salgskreditnota.
 
-## <a name="to-calculate-and-post-job-completion-entries"></a>Slik beregner og bokfører du prosjektferdiggjørelsesposter
-Når du har fullført alle aktiviteter for et prosjekt, inkludert bokføring og fakturering, må du oppdatere prosjektet for å sette **Status** til **Ferdig**. Deretter må du reversere alle VIA-er som er bokført i finans.
-
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Prosjekter**, og velg deretter den relaterte koblingen.  
-2. Merk et åpent prosjekt, og velg handlingen **Rediger**.
-3. I feltet **Status** velger du **Fullført**.
-4. Følg hjelpetrinnene for å beregne og bokføre VIA. Alternativt følger du trinn 5 og 6 hvis du vil gjøre dette manuelt.  
-5. Velg handlingen **Beregn VIA**.
-6. På siden **Beregn VIA for prosjekt** fyller du ut feltene etter behov.  
-
-     VIA-postene for prosjekt du oppretter ved å kjøre kjørselen, vil ha en avmerking i **Prosjekt ferdig**-boksen for å angi at de er ferdiggjørelsesposter.  
-7. Velg handlingen **Bokfør VIA i Finans for prosjekt**.
-8. Fyll ut feltene etter behov på siden **Bokfør VIA i Finans for prosjekt**.  
-
-     VIA-finanspostene for prosjekt som du oppretter ved å kjøre kjørselen, vil ha en avmerking i **Prosjekt ferdig**-boksen for å angi at de er ferdiggjørelsesposter.
 
 ## <a name="see-also"></a>Se også
 [Administrere prosjekter](projects-manage-projects.md)  
 [Finans](finance.md)  
 [Innkjøp](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)      
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

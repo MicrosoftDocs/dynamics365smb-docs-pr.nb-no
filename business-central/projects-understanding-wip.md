@@ -1,30 +1,30 @@
 ---
-title: VIA-metoder for å beregne og registrere prosjektfremdrift | Microsoft-dokumentasjon
+title: VIA-metoder for å beregne og registrere prosjektfremdrift
 description: Beskriver de forskjellige VIA-metodene (varer i arbeid) du kan bruke til å bokføre, overvåke og beregne økonomiske opplysninger for prosjekter som pågår.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: work in process, work in progress, calculate project WIP
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 24dc65182bba549f624f8a66e7eecb1341f1aee1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 1010
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: d7fbe8faa3fc4d75f068ad585faddeb1b5186e70
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192798"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970888"
 ---
-# <a name="understanding-wip-methods"></a>Forstå VIA-metoder
+# <a name="understanding-wip-methods-in-project-management"></a>Forstå VIA-metoder i prosjektstyring
+
 Under fremdriften av et prosjekt forbrukes materialer, ressurser og andre utgifter som må bokføres til prosjektet. Med funksjonen Varer i arbeid (VIA) kan du beregne den økonomiske verdien av prosjekter i Finans mens prosjektene pågår. I mange tilfeller vil du kanskje bokføre utgifter for et prosjekt før du fakturerer et prosjekt. Når bare utgifter er bokført, vil årsregnskapet bli unøyaktig.
 
 Hvis du vil spore verdien i Finans, kan du beregne VIA og bokføre verdien i Finans. Hvis du vil ha mer informasjon, se [Overvåke prosjektfremdrift og -ytelse](projects-how-monitor-progress-performance.md).
 
-[!INCLUDE[d365fin](includes/d365fin_md.md)] støtter følgende måter å beregne og registrere verdien av varer i arbeid på.
+[!INCLUDE[prod_short](includes/prod_short.md)] støtter følgende måter å beregne og registrere verdien av varer i arbeid på.
 
 | VIA-metode | Beregningsformel | Beskrivelse av beregning |
 | --- | --- | --- |
@@ -35,8 +35,12 @@ Hvis du vil spore verdien i Finans, kan du beregne VIA og bokføre verdien i Fin
 | Ved avslutning |VIA-beløp = VIA-kostbeløp = Forbruk (kostbeløp)<br /><br /> VIA-salgsbeløp = fakturerbar (fakturert pris) |Ved avslutning fører ikke inntekt og kost før prosjektet er ferdig. Det kan hende du ønsker å gjøre dette når det er stor usikkerhet rundt overslagene for kost og inntekt for prosjektet.<br /><br /> Alt forbruk bokføres i VIA-forbrukskontoen (aktiva), og alt fakturert salg bokføres i VIA-kontoen for fakturert salg (gjeld) til prosjektet er ferdig. |
 
 ## <a name="see-also"></a>Se også
+
 [Prosjektstyring](projects-manage-projects.md)  
 [Finans](finance.md)  
-[Innkjøp](purchasing-manage-purchasing.md)         
-[Salg](sales-manage-sales.md)      
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Innkjøp](purchasing-manage-purchasing.md)  
+[Salg](sales-manage-sales.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

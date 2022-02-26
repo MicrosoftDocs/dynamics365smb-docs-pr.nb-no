@@ -1,29 +1,29 @@
 ---
-title: Microsoft Pay-standard | Microsoft-dokumentasjon
-description: Gir informasjon om Microsoft Pay-utvidelsen.
+title: Microsoft Pay-standard
+description: Microsoft Pay-utvidelsen legger til en Microsoft Pay-kobling i salgsdokumenter slik at kundene kan enkelt betale med Microsoft Pay.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/08/2020
-ms.author: sgroespe
-ms.openlocfilehash: 336aa735b703d7924914f4180ce46fd00ea23479
-ms.sourcegitcommit: 70fe73040126960c813804d001b646f81cbf2f38
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 574ebae554b21c5184a5e1c2bcd5ae9b0d34f817
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "2943286"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6322930"
 ---
 # <a name="the-microsoft-pay-extension"></a>Microsoft Pay-utvidelsen
 
 > [!IMPORTANT]
-> Fra og med 8. februar 2020 vil endringer i Microsoft Pay-tjenesten påvirke Microsoft Pay-filtypen i Microsoft [!INCLUDE[d365fin](includes/d365fin_long_md.md)]. På grunn av endringene vil **Betal nå**-betalingskoblinger som Microsoft Pay-utvidelsen genererer for fakturaer i [!INCLUDE[d365fin](includes/d365fin_md.md)], ikke åpne Microsoft Pay etter 8. februar. Kunder som bruker utvidelsen, bør endre oppsettet for Betalingstjenester for å begynne å bruke PayPal-utvidelsen i stedet.<br /></br>
+> Fra og med 8. februar 2020 vil endringer i Microsoft Pay-tjenesten påvirke Microsoft Pay-filtypen i Microsoft [!INCLUDE[prod_short](includes/prod_long.md)]. På grunn av endringene vil **Betal nå**-betalingskoblinger som Microsoft Pay-utvidelsen genererer for fakturaer i [!INCLUDE[prod_short](includes/prod_short.md)], ikke åpne Microsoft Pay etter 8. februar. Kunder som bruker utvidelsen, bør endre oppsettet for Betalingstjenester for å begynne å bruke PayPal-utvidelsen i stedet.<br /></br>
 >
-> Fra 8. januar vises det et varsel i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Varselet vil inneholde en kobling til innstillingene du må endre, og til mer informasjon. Etter 8. februar vil Microsoft Pay-utvidelsen ikke lenger være tilgjengelig i [!INCLUDE[d365fin](includes/d365fin_md.md)].<br /></br>
+> Fra 8. januar vises det et varsel i [!INCLUDE[prod_short](includes/prod_short.md)]. Varselet vil inneholde en kobling til innstillingene du må endre, og til mer informasjon. Etter 8. februar vil Microsoft Pay-utvidelsen ikke lenger være tilgjengelig i [!INCLUDE[prod_short](includes/prod_short.md)].<br /></br>
 >
 > Endringene påvirker følgende versjoner av Business Central:
 > - Microsoft Dynamics 365 Business Central, oktober 2018
@@ -42,9 +42,12 @@ Microsoft Pay-utvidelsen gir følgende fordeler:
 - Microsoft Pay-koblingen kan inkluderes automatisk på alle fakturadokumenter eller av brukeren.
 - Ettersom denne funksjonen er bygd som en utvidelse, får du full kontroll og kan aktivere den når og hvis forretningsprosessene trenger dette.
 
-Aktiverer utvidelser for betaling-tjenesten er gratis i [!INCLUDE[d365fin](includes/d365fin_md.md)], men du må kontakte tjenesten for å få en konto. Hvis du vil ha mer informasjon, kan du se [Aktivere kundebetalinger gjennom betalingstjenester](sales-how-enable-payment-service-extensions.md).
+Aktiverer utvidelser for betaling-tjenesten er gratis i [!INCLUDE[prod_short](includes/prod_short.md)], men du må kontakte tjenesten for å få en konto. Hvis du vil ha mer informasjon, kan du se [Aktivere kundebetalinger gjennom betalingstjenester](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Se også
-[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)] ved hjelp av utvidelser](ui-extensions.md)  
+[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Sette opp salg](sales-setup-sales.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

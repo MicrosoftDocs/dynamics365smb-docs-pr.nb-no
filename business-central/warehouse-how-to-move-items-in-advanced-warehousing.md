@@ -1,21 +1,21 @@
 ---
-title: Flytte varer i avanserte lageroppsett | Microsoft-dokumentasjon
-description: I avanserte lageroppsett, det vil si lokasjoner med lagerstyring, utføres lagerflyttinger mellom hyller av en overordnet ansatt som klargjør lagerflyttinger i flytteforslaget, og deretter oppretter lagerflyttingene som ansatte på lageret utfører.
+title: Flytte varer i avanserte lageroppsett
+description: Dette emnet forklarer hvordan en senioransatt kan ordne flytting av varer i avanserte lageroppsett – gjelder lokasjoner med lagerstyring.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 0aab4a7ffd693ca8edaa3765228715b5496f0b2f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: cba0ff7da725d4113ed17f9121caabd2e6b54ce5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193062"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439288"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Flytte varer i avanserte lageroppsett
 I avanserte lageroppsett, det vil si lokasjoner med lagerstyring, utføres lagerflyttinger mellom hyller av en overordnet ansatt som klargjør lagerflyttinger i flytteforslaget, og deretter oppretter lagerflyttingene som ansatte på lageret utfører.  
@@ -23,12 +23,12 @@ I avanserte lageroppsett, det vil si lokasjoner med lagerstyring, utføres lager
 ## <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Flytte varer med lagerflytteforslaget
 **Flytteforslag**-siden har to funksjoner som kan hjelpe til med automatisk utfylling på linjene. Den første er funksjonen **Beregn etterfylling av hylle**. Denne funksjonen bruker hylleprioriteringene til å foreslå etterfylling til høyt prioriterte hyller fra hyller med lav prioritering. Den andre er funksjonen **Hent hylleinnhold**, som fyller ut forslagslinjene med hele hylleinnholdet i hyllen eller hyllene du angir.
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Flytteforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Flytteforslag**, og velg deretter den relaterte koblingen.  
 2.  Skriv inn aktuelle opplysninger om lagerflyttingen på forslagslinjene.  
 3. Velg handlingen **Opprett flytting** for å opprette et lagerflyttingsdokument som deretter kan registreres når lagerflyttingen er ferdig.  
 
 ### <a name="to-register-the-warehouse-movement"></a>Slik registrerer du lagerflyttingen  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Flyttinger**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Flyttinger**, og velg deretter den relaterte koblingen.  
 2.  Åpne lagerflyttingen du vil behandle.  
 3.  På linjer av handlingstype **Plasser** angir du hvor, hvilke, og når den aktuelle varen skal flyttes ved å redigere feltene **Sonekode**, **Hyllekode**, **Ant. som skal håndt.** eller **Forfallsdato**.  
 
@@ -43,7 +43,7 @@ I avanserte lageroppsett, det vil si lokasjoner med lagerstyring, utføres lager
 ## <a name="to-register-the-movement-of-an-item-that-has-already-occurred"></a>Slik registrerer du vareflytting som allerede har funnet sted  
 Hvis lokasjonen bruker lagerstyring og du trenger å flytte varer til andre hyller uten at det finnes en eksisterende plassering, plukking eller flytting, kan du registrere den riktige plasseringen av varene i lageret ved hjelp av **Lagerreklassifiseringskladd**.
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerreklassifiseringskladd**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerreklassifiseringskladd** og velg den relaterte koblingen.  
 2.  Fyll ut feltene **Varenr.**, **Fra sone-kode**, **Fra hylle-kode**, **Til sone-kode**, **Til hylle-kode**.  
 3.  Velg handlingen **Registrer**.  
 
@@ -53,4 +53,7 @@ Hvis lokasjonen bruker lagerstyring og du trenger å flytte varer til andre hyll
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

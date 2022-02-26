@@ -1,21 +1,21 @@
 ---
-title: Betalingstoleranse og toleransegrense for kontantrabatt | Microsoft-dokumentasjon
+title: Betalingstoleranse og Toleransegrense for kontantrabatt
 description: Du kan konfigurere betalingstoleranse til å lukke en faktura når betalingen ikke fullt ut dekker fakturabeløpet.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 42f89bc4f62cdcb4b2abcd9c919006a65451330b
-ms.sourcegitcommit: 8a4e66f7fc8f9ef8bdf34595e0d3983df4749376
+ms.search.form: 118, 314, 395
+ms.date: 10/29/2021
+ms.author: edupont
+ms.openlocfilehash: fa9e4abb37788b7aa8261ab0a5a705edef27e3c4
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "3262241"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7972489"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt
 Du kan konfigurere en betalingstoleranse for å lukke en faktura når betalingen ikke fullt ut dekker fakturabeløpet. For eksempel er betalingstoleranse vanligvis for små beløp som vil koste mer å korrigere enn å bare godta det. Du kan definere en kontantrabattoleranse til å gi rabatt etter at kontantrabattdatoen er passert.  
@@ -45,40 +45,40 @@ Hvis du vil ha mer informasjon, kan du se [Slik aktiverer eller deaktiverer du a
 Med toleransegrenser for dager og beløp kan du lukke en faktura selv om betalingen ikke fullt ut dekker fakturabeløpet. Dette gjelder også for refusjoner og kreditnotaer.  
 
 Når du skal definere toleranse, må du definere forskjellige toleransebeløp, angi både toleransegrense for kontantrabatt og bokføringsmetode for betalingstoleranse, og kjøre kjørselen **Endre betalingstoleranse**.  
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
 2. På siden **Generelt bokføringsoppsett** definerer du en debet- og kredittoleransekonto for kontantbetaling ved salg, og en debet- og kreditkonto for kontantbetaling ved kjøp.  
-3. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokføringsgrupper - kunde**, og velg deretter den relaterte koblingen.    
+3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokføringsgrupper – kunde**, og velg deretter den relaterte koblingen.    
 4. På siden **Bokføringsgrupper - kunde** definerer du en betalingstoleransekonto for debet og kredit. Hvis du vil ha mer informasjon, kan du se [Definere bokføringsgrupper](finance-posting-groups.md).  
-5. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokføringsgruppe – leverandør**, og velg deretter den relaterte koblingen.  
+5. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokføringsoppsett – leverandør**, og velg deretter den relaterte koblingen.  
 6. På siden **Bokføringsgrupper - leverandør** definerer du en betalingstoleransekonto for debet og kredit.  
-7. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
+7. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
 8. Åpne **Finansoppsett**-siden.  
-9. På hurtigfanen **Utligning** fyller du ut feltene **Bokf. av kont.rab.toleranse**, **Respittid for kontantrabatt** og **Betalingstoleransebokføring**.   
+9. På hurtigfanen **Utligning** fyller du ut feltene **Bokføring av kontantrabattoleranse**, **Respittid for kontantrabatt** og **Betalingstoleransebokføring**.   
 10. Velg **Endre betalingstoleranse**-handlingen.
 11. På siden **Endre betalingstoleranse** fyller du ut feltene **Betalingstoleransepst.** og **Maks. betalingstoleransebeløp**, og deretter velger du **OK**-knappen.
 
 > [!IMPORTANT]  
->  Du har nå definert bare toleranser for den lokale valutaen. Hvis du vil at [!INCLUDE[d365fin](includes/d365fin_md.md)] skal behandle betalingstoleranser for betalinger, kreditnotaer og refusjoner for fremmede valutaer, må du kjøre kjørselen **Endre betalingstoleranse** med en verdi i **Valutakode**-feltet.  
+>  Du har nå definert bare toleranser for den lokale valutaen. Hvis du vil at [!INCLUDE[prod_short](includes/prod_short.md)] skal behandle betalingstoleranser for betalinger, kreditnotaer og refusjoner for fremmede valutaer, må du kjøre kjørselen **Endre betalingstoleranse** med en verdi i **Valutakode**-feltet.  
 
 > [!NOTE]  
 >  Hvis du vil motta en betalingstoleranseadvarsel hver gang du bokfører en utligning innenfor toleransen, må du aktivere betalingstoleranseadvarselen. Hvis du vil ha mer informasjon, kan du se delen [Slik aktiverer eller deaktiverer du advarsler om betalingstoleranse](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
 >  Hvis du vil deaktivere toleranse for en kunde eller en leverandør, må du sperre for toleranser på det aktuelle kunde- eller leverandørkortet. Hvis du vil ha mer informasjon, kan du se delen [Slik sperrer du for betalingstoleranse for kunder](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  Når du definerer toleranse, kontrollerer [!INCLUDE[d365fin](includes/d365fin_md.md)] også om det er noen åpne poster, og beregner toleranse for disse postene.
+>  Når du definerer toleranse, kontrollerer [!INCLUDE[prod_short](includes/prod_short.md)] også om det er noen åpne poster, og beregner toleranse for disse postene.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Slik aktiverer eller deaktiverer du advarsler om betalingstoleranse
 Melding om betalingstoleranse vises når du bokfører en utligning som har en saldo innenfor tillatt toleranse. Deretter kan du velge hvordan du vil bokføre og dokumentere saldoen.    
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
 2. På siden **Finansoppsett**, på hurtigfanen **Utligning**, slå du på **Betalingstoleranse - advarsel** for å aktivere advarselen. Hvis du vil deaktivere advarselen, slår du av vekslebryteren.  
 
 > [!NOTE]  
->  Standardalternativet for siden **Betalingstoleranse - advarsel** er **La saldoen stå som restbeløp**. Standardalternativet for siden **Kont.rab.toleranse - advarsel** er **Ikke godta den forsinkede kontantrabatten**.
+>  Standardalternativet for siden **Betalingstoleranse - advarsel** er **La saldoen stå som restbeløp**. Standardalternativet for siden **Kontantrabattoleranse – advarsel** er **Ikke godta den forsinkede kontantrabatten**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Slik sperrer du for betalingstoleranse for kunder  
 Standardinnstillingen for betalingstoleranse er tillatt. For å avvise bruk av betalingstoleranse for en bestemt kunde eller leverandør, må du sperre for toleranse på det respektive kunde- eller leverandørkortet. Nedenfor beskrives det hvordan du gjør det for en kunde. Trinnene er de samme for en leverandør.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunde** eller **Leverandør**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kunde** eller **Leverandør** og velg den relaterte koblingen.  
 2. På hurtigfanen **Betalinger** merker du av for **Sperr for betalingstoleranse**.  
 
 > [!NOTE]  
@@ -96,23 +96,23 @@ Scenarier med alternativ A eller B representerer følgende:
 - **A** – I dette tilfellet er advarselen om rabattoleranse deaktivert, ELLER brukeren har advarselen aktivert og har valgt å tillate kontantrabatten ved sen betaling (bokføre saldoen som betalingstoleranse).  
 - **B** – I dette tilfellet har brukeren aktivert advarselen og har valgt ikke å tillate kontantrabatt ved sen betaling (la saldoen stå som restbeløp).  
 
-|—|Fakt.|Kont.rabatt|Maks. betalingstoleranse|Kont.rabattdato|Kont.rab.toler. Dato|Betalingsdato|Bet.|toleransetype|Alle poster lukket|Kont.rab.toler. GL/CL|Bet.toleranse Finans|  
+|—|Fakt.|Kontantrabatt|Maks betalingstoleranse|Kontantrabattdato|Dato for toleransegrense for kontantrabatt|Betalingsdato|Betaling|toleransetype|Alle poster lukket|Toleransegrense for kontantrabatt GL/CL|Betalingstoleranse finans|  
 |-------|----------|----------------|-----------------------|---------------------|--------------------------|------------------|----------|--------------------|------------------------|------------------------------|----------------------------|  
-|1|1 000|20|5|15.01.03|20.01.03|<=15.01.03|985|Bet.toleranse|Ja|0|-5|  
+|1|1 000|20|5|15.01.03|20.01.03|<=15.01.03|985|PaymentTolerance|Ja|0|-5|  
 |2|**1,000**|**20**|**5**|**15.01.03**|**20.01.03**|**<=15.01.03**|**980**|**Ingen**|**Ja**|**0**|**0**|  
-|3|1 000|20|5|15.01.03|c|<=15.01.03|975|Bet.toleranse|Ja|0|5|  
-|4A|1 000|20|5|15.01.03|20.01.03|16.01.03 – 20.01.03|1005|Kont.rab.tol.|Nei, 25 på Bet.|20/-20|0|  
-|5A|1 000|20|5|15.01.03|20.01.03|16.01.03 – 20.01.03|1000|Kont.rab.tol.|Nei, 20 på Bet.|20/-20|0|  
-|6A|1 000|20|5|15.01.03|20.01.03|16.01.03 – 20.01.03|995|Kont.rab.tol.|Nei, 15 på Bet.|20/-20|0|  
-|4B|1 000|20|5|15.01.03|20.01.03|16.01.03 – 20.01.03|1005|Bet.toleranse|Ja|0|-5|  
+|3|1 000|20|5|15.01.03|a|<=15.01.03|975|PaymentTolerance|Ja|0|5|  
+|4A|1 000|20|5|15.01.03|20.01.03|16.01.03 – 20.01.03|1005|PaymentDiscountTolerance|Nei, 25 på betalingen|20/-20|0|  
+|5A|1 000|20|5|15.01.03|20.01.03|16.01.03 – 20.01.03|1000|PaymentDiscountTolerance|Nei, 20 på betalingen|20/-20|0|  
+|6A|1 000|20|5|15.01.03|20.01.03|16.01.03 – 20.01.03|995|PaymentDiscountTolerance|Nei, 15 på betalingen|20/-20|0|  
+|4B|1 000|20|5|15.01.03|20.01.03|16.01.03 – 20.01.03|1005|PaymentTolerance|Ja|0|-5|  
 |**5B**|**1,000**|**20**|**5**|**15.01.03**|**20.01.03**|**16.01.03 – 20.01.03**|**1000**|**Ingen**|**Ja**|**0**|**0**|  
-|6B|1 000|20|5|15.01.03|20.01.03|16.01.03 – 20.01.03|995|Bet.toleranse|Ja|0|5|  
-|7|1 000|20|5|15.01.03|20.01.03|16.01.03 – 20.01.03|985|Kont.rab.tol. & Bet.tol.|Ja|20/-20|-5|  
-|8|1 000|20|5|15.01.03|20.01.03|16.01.03 – 20.01.03|980|Kont.rab.tol.|Ja|20/-20|0|  
-|9|1 000|20|5|15.01.03|20.01.03|16.01.03 – 20.01.03|975|Kont.rab.tol. & Bet.tol.|Ja|20/-20|5|  
-|10|1 000|20|5|15.01.03|20.01.03|>20.01.03|1005|Bet.toleranse|Ja|0|-5|  
+|6B|1 000|20|5|15.01.03|20.01.03|16.01.03 – 20.01.03|995|PaymentTolerance|Ja|0|5|  
+|7|1 000|20|5|15.01.03|20.01.03|16.01.03 – 20.01.03|985|PaymentDiscountTolerance & PaymentTolerance|Ja|20/-20|-5|  
+|8|1 000|20|5|15.01.03|20.01.03|16.01.03 – 20.01.03|980|PaymentDiscountTolerance|Ja|20/-20|0|  
+|9|1 000|20|5|15.01.03|20.01.03|16.01.03 – 20.01.03|975|PaymentDiscountTolerance & PaymentTolerance|Ja|20/-20|5|  
+|10|1 000|20|5|15.01.03|20.01.03|>20.01.03|1005|PaymentTolerance|Ja|0|-5|  
 |**11**|**1,000**|**20**|**5**|**15.01.03**|**20.01.03**|**>20.01.03**|**1000**|**Ingen**|**Ja**|**0**|**0**|  
-|12|1 000|20|5|15.01.03|20.01.03|>20.01.03|995|Bet.toleranse|Ja|0|5|  
+|12|1 000|20|5|15.01.03|20.01.03|>20.01.03|995|PaymentTolerance|Ja|0|5|  
 |13|1 000|20|5|15.01.03|20.01.03|>20.01.03|985|Ingen|Nei, 15 på fakturaen|0|0|  
 |14|1 000|20|5|15.01.03|20.01.03|>20.01.03|980|Ingen|Nei, 20 på fakturaen|0|0|  
 |15|1 000|20|5|15.01.03|20.01.03|>20.01.03|975|Ingen|Nei, 25 på fakturaen|0|0|  
@@ -125,7 +125,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for én betalingstoleranse 1](media/singlePmtTolRules(Pre1503).gif "Regler for én betalingstoleranse 1")  
+![Regler for én betalingstoleranse 1.](media/singlePmtTolRules_Pre1503.gif "Regler for én betalingstoleranse 1")  
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -136,7 +136,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for én betalingstoleranse 2](media/singlePmtTolRules(GracePeriod).gif "Regler for én betalingstoleranse 2")  
+![Regler for én betalingstoleranse 2.](media/singlePmtTolRules_GracePeriod.gif "Regler for én betalingstoleranse 2")  
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -147,7 +147,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for én betalingstoleranse 3](media/singlePmtTolRules(Post0120).gif "Regler for én betalingstoleranse 3")  
+![Regler for én betalingstoleranse 3.](media/singlePmtTolRules_Post0120.gif "Regler for én betalingstoleranse 3")  
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -167,38 +167,38 @@ Scenarier med alternativ A, B, C eller D representerer følgende:
 - **C** - I dette tilfellet har brukeren varslet påslått, og har valgt å tillate kontantrabatt ved sen betaling, for første faktura, men ikke den neste.  
 - **D** – I dette tilfellet har brukeren varslet påslått, og har valgt å ikke tillate kontantrabatt ved sen betaling, for første faktura, men tillate det for den neste.  
 
-|—|Fakt.|Kont.rab.|Maks. betalingstoleranse|Kont.rabattdato|Kont.rab.toler. Dato|Betalingsdato|Bet.|toleransetype|Alle poster lukket|Kont.rab.toler. GL/CL|Bet.toleranse Finans|  
+|—|Fakt.|Kontantrabatt|Maks betalingstoleranse|Kontantrabattdato|Dato for toleransegrense for kontantrabatt|Betalingsdato|Betaling|toleransetype|Alle poster lukket|Toleransegrense for kontantrabatt GL/CL|Betalingstoleranse finans|  
 |-------|----------|---------------|-------------------|---------------------|--------------------------|------------------|---------|--------------------|------------------------|------------------------------|------------------------|  
-|1|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|<=15.01.03|1920|Bet.toleranse|Ja|0<br /><br /> 0|-5 <br />-5|  
+|1|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|<=15.01.03|1920|PaymentTolerance|Ja|0<br /><br /> 0|-5 <br />-5|  
 |**2**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.01.03** <br />**01/17/03**|**20.01.03** <br />**01/22/03**|**<=15.01.03**|**1910**|**Ingen**|**Ja**|**0**<br /><br /> **0**|0 <br />0|  
-|3|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|<=15.01.03|1900|Bet.toleranse|Ja|0<br /><br /> 0|5 <br />5|  
-|4B|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|16.01.03 – 17.01.03|1980|Bet.toleranse|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
+|3|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|<=15.01.03|1900|PaymentTolerance|Ja|0<br /><br /> 0|5 <br />5|  
+|4B|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|16.01.03 – 17.01.03|1980|PaymentTolerance|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
 |**5B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.01.03** <br />**01/17/03**|**20.01.03** <br />**01/22/03**|**16.01.03 – 17.01.03**|**1970**|**Ingen**|**Ja**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|6B|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|16.01.03 – 17.01.03|1960|Bet.toleranse|Ja|0<br /><br /> 0|5<br /><br /> 5|  
-|7A|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|16.01.03 – 17.01.03|1920|Kont.rab.tol. & Bet.tol.|Ja|60/60<br /><br /> 0/0|-5 <br />-5|  
-|8A|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|16.01.03 – 17.01.03|1910|Kont.rab.tol.|Ja|60/60<br /><br /> 0/0|0 <br />0|  
-|9A|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|16.01.03 – 17.01.03|1900|Kont.rab.tol. & Bet.tol.|Ja|60/60|5 <br />5|  
-|10B|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|2010|Bet.toleranse|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
+|6B|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|16.01.03 – 17.01.03|1960|PaymentTolerance|Ja|0<br /><br /> 0|5<br /><br /> 5|  
+|7A|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|16.01.03 – 17.01.03|1920|PaymentDiscountTolerance & PaymentTolerance|Ja|60/60<br /><br /> 0/0|-5 <br />-5|  
+|8A|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|16.01.03 – 17.01.03|1910|PaymentDiscountTolerance|Ja|60/60<br /><br /> 0/0|0 <br />0|  
+|9A|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|16.01.03 – 17.01.03|1900|PaymentDiscountTolerance & PaymentTolerance|Ja|60/60|5 <br />5|  
+|10B|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|2010|PaymentTolerance|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
 |**11B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.01.03** <br />**01/17/03**|**20.01.03** <br />**01/22/03**|**18.01.03 – 20.01.03**|**2000**|**Ingen**|**Ja**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|12B|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1990|Bet.toleranse|Ja|0<br /><br /> 0|5<br /><br /> 5|  
-|13D|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1980|Kont.rab.tol. & Bet.tol.|Ja|0/0<br /><br /> 30/-30|-5 <br />-5|  
-|14D|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1970|Kont.rab.tol.|Ja|0/0<br /><br /> 30/-30|0 <br />0|  
-|15D|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1960|Kont.rab.tol. & Bet.tol.|Ja|0/0<br /><br /> 30/-30|5 <br />5|  
-|16D|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1950|Kont.rab.tol. & Bet.tol.|Ja|60/-60<br /><br /> 0/0|-5 <br />-5|  
-|17D|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1940|Kont.rab.tol.|Ja|60/-60<br /><br /> 0/0|0 <br />0|  
-|18D|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1930|Kont.rab.tol. & Bet.tol.|Ja|60/-60<br /><br /> 0/0|5 <br />5|  
-|19A|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1920|Kont.rab.tol. & Bet.tol.|Ja|60/-60<br /><br /> 30/-30|-5 <br />-5|  
-|20A|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1910|Kont.rab.tol.|Ja|60/-60<br /><br /> 30/-30|0 <br />0|  
-|21A|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1900|Kont.rab.tol. & Bet.tol.|Ja|60/-60<br /><br /> 30/-30|5 <br />5|  
-|22B|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|21.01.03 – 22.01.03|2010|Bet.toleranse|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
+|12B|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1990|PaymentTolerance|Ja|0<br /><br /> 0|5<br /><br /> 5|  
+|13D|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1980|PaymentDiscountTolerance & PaymentTolerance|Ja|0/0<br /><br /> 30/-30|-5 <br />-5|  
+|14D|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1970|PaymentDiscountTolerance|Ja|0/0<br /><br /> 30/-30|0 <br />0|  
+|15D|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1960|PaymentDiscountTolerance & PaymentTolerance|Ja|0/0<br /><br /> 30/-30|5 <br />5|  
+|16D|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1950|PaymentDiscountTolerance & PaymentTolerance|Ja|60/-60<br /><br /> 0/0|-5 <br />-5|  
+|17D|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1940|PaymentDiscountTolerance|Ja|60/-60<br /><br /> 0/0|0 <br />0|  
+|18D|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1930|PaymentDiscountTolerance & PaymentTolerance|Ja|60/-60<br /><br /> 0/0|5 <br />5|  
+|19A|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1920|PaymentDiscountTolerance & PaymentTolerance|Ja|60/-60<br /><br /> 30/-30|-5 <br />-5|  
+|20A|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1910|PaymentDiscountTolerance|Ja|60/-60<br /><br /> 30/-30|0 <br />0|  
+|21A|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|18.01.03 – 20.01.03|1900|PaymentDiscountTolerance & PaymentTolerance|Ja|60/-60<br /><br /> 30/-30|5 <br />5|  
+|22B|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|21.01.03 – 22.01.03|2010|PaymentTolerance|Ja|0<br /><br /> 0|-5<br /><br /> -5|  
 |**23B**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.01.03** <br />**01/17/03**|**20.01.03** <br />**01/22/03**|**21.01.03 – 22.01.03**|**2000**|**Ingen**|**Ja**|**0**<br /><br /> **0**|**0**<br /><br /> **0**|  
-|24B|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|21.01.03 – 22.01.03|1990|Bet.toleranse|Ja|0<br /><br /> 0|5<br /><br /> 5|  
-|25A|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|21.01.03 – 22.01.03|1980|Kont.rab.tol. & Bet.tol.|Ja|0/0<br /><br /> 30/30|-5 <br />-5|  
-|26A|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|21.01.03 – 22.01.03|1970|Kont.rab.tol.|Ja|0/0<br /><br /> 30/30|0 <br />0|  
-|27A|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|21.01.03 – 22.01.03|1960|Kont.rab.tol. & Bet.tol.|Ja|0/0<br /><br /> 30/30|5 <br />5|  
-|28|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|>22.01.03|2010|Bet.toleranse|Ja|0|-5|  
+|24B|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|21.01.03 – 22.01.03|1990|PaymentTolerance|Ja|0<br /><br /> 0|5<br /><br /> 5|  
+|25A|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|21.01.03 – 22.01.03|1980|PaymentDiscountTolerance & PaymentTolerance|Ja|0/0<br /><br /> 30/30|-5 <br />-5|  
+|26A|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|21.01.03 – 22.01.03|1970|PaymentDiscountTolerance|Ja|0/0<br /><br /> 30/30|0 <br />0|  
+|27A|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|21.01.03 – 22.01.03|1960|PaymentDiscountTolerance & PaymentTolerance|Ja|0/0<br /><br /> 30/30|5 <br />5|  
+|28|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|>22.01.03|2010|PaymentTolerance|Ja|0|-5|  
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.01.03** <br />**01/17/03**|**20.01.03** <br />**01/22/03**|**>22.01.03**|**2000**|**Ingen**|**Ja**|**0**|**0**|  
-|30|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|>22.01.03|1990|Bet.toleranse|Ja|0|5|  
+|30|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|>22.01.03|1990|PaymentTolerance|Ja|0|5|  
 
 ### <a name="payment-range-diagrams"></a>Betalingsseriediagrammer  
 I forhold til scenariet ovenfor, er diagrammene for betalingsserier slik:  
@@ -208,7 +208,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for flere betalingstoleranser 1](media/multiplePmtTolRules(Pre1503).gif "Regler for flere betalingstoleranser 1")  
+:::image type="content" source="media/multiplePmtTolRules_Pre1503.gif" alt-text="Regler for flere betalingstoleranser 1a":::
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -219,7 +219,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for flere betalingstoleranser 2](media/multiplePmtTolRules(GracePeriodInv1-2).gif "Regler for flere betalingstoleranser 2")  
+:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv1-2.gif" alt-text="Regler for flere betalingstoleranser 2":::
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -230,7 +230,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for flere betalingstoleranser 3](media/multiplePmtTolRules(GracePeriodInv1).gif "Regler for flere betalingstoleranser 3")  
+:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv1.gif" alt-text="Regler for flere betalingstoleranser 3":::
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -241,7 +241,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for flere betalingstoleranser 4](media/multiplePmtTolRules(GracePeriodInv2).gif "Regler for flere betalingstoleranser 4")  
+:::image type="content" source="media/multiplePmtTolRules_GracePeriodInv2.gif" alt-text="Regler for flere betalingstoleranser 4":::
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -252,7 +252,7 @@ Restbeløp per
 
 Vanlige utligningsregler  
 
-![Regler for flere betalingstoleranser 5](media/multiplePmtTolRules(Post0122).gif "Regler for flere betalingstoleranser 5")  
+:::image type="content" source="media/multiplePmtTolRules_Post0122.gif" alt-text="Regler for flere betalingstoleranser 5":::
 
 (1) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes med eller uten toleranse.  
 
@@ -262,4 +262,7 @@ Vanlige utligningsregler
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

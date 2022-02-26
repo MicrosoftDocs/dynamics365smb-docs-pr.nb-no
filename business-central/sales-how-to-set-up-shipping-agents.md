@@ -1,21 +1,21 @@
 ---
-title: Definere transportører | Microsoft-dokumentasjon
-description: Du kan definere en kode for hver enkelt transportør og angi opplysninger om dem.
+title: Definere transportører
+description: Lær hvordan du definerer en kode for hver enkelt transportør og angir beskrivende informasjon om hver av dem og hvilke tjenester de tilbyr.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: d6a4bac4d540a65cc164029b23b063c8c9dbc1fb
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 1e74be125909db7f7d1c4301a33da1b12648e70a
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192660"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6440231"
 ---
 # <a name="set-up-shipping-agents"></a>Definere transportører
 Du kan definere en kode for hver enkelt transportør og angi opplysninger om dem.  
@@ -28,7 +28,7 @@ Du kan definere et ubegrenset serviceantall for hver transportør, og angi en le
 Når du har tilordnet en transportørservice til en ordrelinje, tas leveringstiden for servicen med i beregningen av ordrebekreftelsen for denne linjen. Hvis du vil ha mer informasjon, kan du se [Beregne ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md).
 
 ## <a name="to-set-up-a-shipping-agent"></a>Slik definerer du transportører  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Transportører**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Transportører**, og velg deretter den relaterte koblingen.  
 2.  Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Velg handlingen **Transportørservice**.
 4. I vinduet **Transportørservice** fyller du ut feltene etter behov.
@@ -44,4 +44,7 @@ Når du har tilordnet en transportørservice til en ordrelinje, tas leveringstid
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,29 +1,64 @@
 ---
-title: Bruke arbeidsflyter | Microsoft-dokumentasjon
-description: Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn.
+title: Bruke arbeidsflyter
+description: Du kan opprette og bruke arbeidsflyter som kobler sammen forretningsprosessoppgaver som automatisk bokføring eller forespørsel om å gi godkjenning for nye poster.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 91596f82b929f6fd9654114405571498750cc921
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/11/2021
+ms.author: edupont
+ms.openlocfilehash: 51079e65deda165869d946b5efc11da85fb720e4
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187607"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6446522"
 ---
 # <a name="using-workflows"></a>Bruke arbeidsflyter
-Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn.  
+
+En arbeidsflyt er en sekvens av oppgaver som utløses av en handling, en betingelse eller en regel. Arbeidsflyter er vanligvis implementert for å integrere forretningslogikk i en organisasjon, for eksempel separasjon av oppgaver, innsamlingsprosesser eller for å øke tillit og ansvar.  
+
+Arbeidsflytene er utformet for å opprette forespørsler om godkjenning av en ny verdi og beholde den gamle verdien i tilfelle forespørselen ikke godkjennes. Den nye verdien blir ikke implementert før den siste forespørselen er godkjent.  
+
+Forretningslogikken kan være godkjenning av:
+
+- Nye hoveddata som finanskonti, kunder, leverandører eller varer
+- Endringer i felt i eksisterende poster med sensitive opplysninger, for eksempel **Leverandørs bankkontonr.** eller **Kundekredittgrense**
+- Endringer i felt i eksisterende poster med forretningskritisk informasjon, for eksempel **Varesalgspriser**
+- Nye brukere eller endringer i brukertillatelser
+- Kjøpsdokumenter
+- Salgsdokumenter
+- Inngående dokumenter
+- Finansjournaler før bokføring
+
+Følgende illustrasjon viser et eksempel på en arbeidsflyt med sekvensiell godkjenning utløst av en bruker. Ved å utløse arbeidsflyten opprettes det en godkjenningsforespørsel for den første godkjenneren.  
+
+![Bilde av en arbeidsflyt med sekvensiell godkjenning.](media/Workflows/approval-flow.png)
+
+I dette eksemplet må forespørselen godkjennes av den første godkjenneren før forespørselen sendes til neste godkjenner. Hvis forespørselen ikke godkjennes av den første godkjenneren, går ikke forespørselen videre til neste godkjenner.  
+
+Ruten som er hentet fra den første utløseren for arbeidsflyten, kan variere avhengig av godkjenningstypen.  
+
+Illustrasjonen nedenfor viser en parallell godkjenning som utløses av brukeren. Ved å utløse arbeidsflyten sendes en forespørsel om godkjenning til alle godkjennerne samtidig.  
+
+![Bilde av en arbeidsflyt med parallell godkjenning.](media/Workflows/approval-flow-2.png)
+
+Arbeidsflyten godkjennes imidlertid ikke før alle forespørsler er godkjent av godkjennerne, som vist i følgende illustrasjon:  
+
+![Bilde av en avvist arbeidsflyt med parallell godkjenning.](media/Workflows/approval-flow-3.png)
+
+> [!NOTE]  
+> Det er ikke mulig å opprette en arbeidsflyt med flere godkjennere og forvente at hele arbeidsflyten godkjennes etter at den første forespørselen er godkjent. Alle forespørsler må godkjennes for at arbeidsflyten skal bli godkjent.
+
+Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere. Det er også mulig å opprette samme arbeidsflyt mer enn én gang. Hver arbeidsflyt som utløses av en hendelse, bruker forskjellige filtre. Dette er nyttig hvis en godkjenningsforespørsel i én avdeling må godkjennes av én godkjenner, der godkjenningsforespørsler i andre avdelinger må godkjennes av en annen godkjenner. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn.  
 
  Før du kan begynne å bruke arbeidsflyter, må du konfigurere brukere av arbeidsflyt, opprette arbeidsflytene, potensielt med foranstilt tilpasset kode, og angi hvordan brukere mottar varsler. Hvis du vil ha mer informasjon, kan du se [Konfigurere arbeidsflyter](across-set-up-workflows.md).  
 
 > [!NOTE]  
->  Vanlige arbeidsflyttrinn er om brukere som ber om godkjenning av oppgaver og godkjennere som godkjenner eller avviser forespørsler om godkjenning. Mange emner om hvordan du bruker arbeidsflyter, refererer derfor til godkjenninger.  
+> Vanlige arbeidsflyttrinn er om brukere som ber om godkjenning av oppgaver og godkjennere som godkjenner eller avviser forespørsler om godkjenning. Mange emner om hvordan du bruker arbeidsflyter, refererer derfor til godkjenninger.  
 
  Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.  
 
@@ -38,4 +73,7 @@ Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som
 ## <a name="see-also"></a>Se også  
 [Konfigurere arbeidsflyter](across-set-up-workflows.md)   
 [Arbeidsflyt](across-workflow.md)   
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

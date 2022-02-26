@@ -1,26 +1,26 @@
 ---
 title: Elektroniske banktjenester i Norge
-description: Forbedringer i den norske versjonen omfatter elektroniske banktjenester.
+description: Dette emnet beskriver forbedringene i den norske Business Central for håndtering av elektroniske banktjenester med flere operasjoner.
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 257aabd82cc27bfbb39fcd85c98fb8ed2ae519d9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/18/2021
+ms.author: edupont
+ms.openlocfilehash: f8230655af4295d4153d1265ffc6def43d4691af
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181045"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320800"
 ---
 # <a name="electronic-banking-in-norway"></a>Elektroniske banktjenester i Norge
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] omfatter forbedringer i den norske versjonen for elektroniske banktjenester. Denne funksjonaliteten kan brukes til å utføre følgende operasjoner:  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] omfatter forbedringer i den norske versjonen for elektroniske banktjenester. Denne funksjonaliteten kan brukes til å utføre følgende operasjoner:  
 
 - Motta elektroniske betalinger basert på en OCR-betalings-ID (optisk tegngjenkjenning).  
 - Skrive ut kunde-ID-numre (KID) på salgsdokumenter.  
@@ -50,3 +50,6 @@ ms.locfileid: "3181045"
  [Importere og bokføre OCR-betalinger](how-to-import-and-post-ocr-payments.md)   
  [Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)   
  [Skrive ut rapporten OCR-kladd - test](how-to-print-the-ocr-journal-test-report.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

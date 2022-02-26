@@ -1,24 +1,26 @@
 ---
-title: Prosjektoppgaver ved hjelp av ressurser og timelister | Microsoft-dokumentasjon
-description: Beskriver hvordan du bruker ressurser, timelister og jobber til å administrere prosjekter.
+title: Prosjektstyring
+description: Dette emnet beskriver hvordan du bruker ressurser, timelister og prosjekter til å administrere prosjekter og budsjetter.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 10/01/2019
+ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: aa3158789f22cbb3a534bda2a83e2def209f9826
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.openlocfilehash: 2c53179960fc6b9ebd7a77193b13d271f22fe1b1
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312655"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101272"
 ---
 # <a name="project-management"></a>Prosjektstyring
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan du utføre vanlige prosjektbehandlingsoppgaver, for eksempel å konfigurere et prosjekt og planlegge en ressurs, samt å angi informasjonen som trengs for å behandle budsjetter og overvåke fremdriften. Du kan spore ansattes arbeidstid og maskindriftstid for prosjektet ved hjelp av timelister. Som prosjektleder har du god oversikt over individuelle prosjekter, men også over fordelingen av ansatte, maskiner og andre ressurser som brukes i alle prosjekter.
 
-Før du kan bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] til å administrere prosjekter, må du definere ressurser, timelister og prosjekter. Du finner mer informasjon under [Konfigurere prosjektstyring](projects-setup-projects.md).  
+I [!INCLUDE[prod_short](includes/prod_short.md)] kan du utføre vanlige prosjektbehandlingsoppgaver, for eksempel å konfigurere et prosjekt og planlegge en ressurs, samt å angi informasjonen som trengs for å behandle budsjetter og overvåke fremdriften. Du kan spore ansattes arbeidstid og maskindriftstid for prosjektet ved hjelp av timelister. Som prosjektleder har du god oversikt over individuelle prosjekter, men også over fordelingen av ansatte, maskiner og andre ressurser som brukes i alle prosjekter.
+
+Før du kan bruke [!INCLUDE[prod_short](includes/prod_short.md)] til å administrere prosjekter, må du definere ressurser, timelister og prosjekter. Du finner mer informasjon under [Konfigurere prosjektstyring](projects-setup-projects.md).  
 
 Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.
 
@@ -36,7 +38,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 
 ## <a name="get-started-with-projects"></a>Komme i gang med prosjekter
 
-Prosjektstyring er komplisert nok i seg selv, og det å lære hvordan du oppretter prosjekter og håndterer varer i arbeid i et nytt verktøy, kan være nok en utfordring. For å hjelpe deg med å komme i gang med prosjektstyring i [!INCLUDE [prodshort](includes/prodshort.md)] kan du se [en video om oppretting av jobber](https://www.youtube.com/watch?v=VqaPWr7BWmw) på [!INCLUDE [prodshort](includes/prodshort.md)] YouTube-kanalen.  
+Prosjektstyring er komplisert nok i seg selv, og det å lære hvordan du oppretter prosjekter og håndterer varer i arbeid i et nytt verktøy, kan være nok en utfordring. For å hjelpe deg med å komme i gang med prosjektstyring i [!INCLUDE[prod_short](includes/prod_short.md)] kan du se [en video om oppretting av jobber](https://www.youtube.com/watch?v=VqaPWr7BWmw) på [!INCLUDE[prod_short](includes/prod_short.md)] YouTube-kanalen.  
 
 ## <a name="see-also"></a>Se også
 
@@ -46,6 +48,9 @@ Prosjektstyring er komplisert nok i seg selv, og det å lære hvordan du opprett
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

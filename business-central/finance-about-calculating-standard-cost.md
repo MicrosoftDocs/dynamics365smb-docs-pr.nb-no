@@ -1,21 +1,20 @@
 ---
-title: Om beregning av standardkost | Microsoft-dokumentasjon
-description: En standard kostprissystem bestemmer lagerenhetskosten basert på noen rimelige historiske eller forventede kostnader. Undersøkelser av tidligere og anslåtte fremtidige kostdata danner grunnlaget for standardkost.
+title: Om beregning av standardkost
+description: En standard kostprissystem bestemmer lagerenhetskosten basert på rimelige historiske eller forventede kostnader.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 208f07fe68fac326d5cc444b498d9cca09fd231b
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 5841
+ms.author: edupont
+ms.openlocfilehash: 6b0b531c1a41d2f19941578f8f381d56e554cb96
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184271"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973703"
 ---
 # <a name="about-calculating-standard-cost"></a>Om beregning av standardkost
 Mange produksjonsselskaper bruke standardkost som verdisettingsgrunnlag. Dette gjelder også for selskaper som utfører lett produksjon, for eksempel montering og kitting. En standard kostprissystem bestemmer lagerenhetskosten basert på noen rimelige historiske eller forventede kostnader. Undersøkelser av tidligere og anslåtte fremtidige kostdata danner grunnlaget for standardkost. Disse kostnadene fryses til det tas en beslutning om å endre dem. Den faktiske kostnaden for å produsere et produkt kan avvike fra de beregnede standardkostnadene. Når det gjelder administrasjonskontroll, sammenlignes faktisk kostnad med standardkostnad for en bestemt vare, og forskjeller, eller *avvik*, identifiseres og analyseres.  
@@ -33,22 +32,23 @@ Siden standardkostbeløpet for en produsert eller montert vare kan bestå av fle
 
 Regnskapsoppgaven for et vareproduksjonsselskap som bruker standardkostberegning, er følgende:  
 
--   Beregne et standardkostbeløp for den ferdige varen og definere det på varekortet.  
--   Registrere og fordele faktisk kost for nøkkelkostelementene, og å gjøre greie for avvik.  
+- Beregne et standardkostbeløp for den ferdige varen og definere det på varekortet.  
+- Registrere og fordele faktisk kost for nøkkelkostelementene, og å gjøre greie for avvik.  
 
 For å fastsette direkte kostnad for en ferdig vare må alle komponentkostbeløpene summeres. En montert eller produsert vare kan inkludere halvfabrikater, som også består av flere komponenter.  
 
 Følgende nøkkelkostelementer utgjør den totale direkte kostnaden for en ferdigbehandlet vare:  
 
--   Materialkost.  
--   Kapasitetskostnad  
--   Underleverandørkost bare for produserte varer.  
+- Materialkost.  
+- Kapasitetskostnad  
+- Underleverandørkost bare for produserte varer.  
 
-### <a name="material-costs"></a>Materialkost  
- Materialkost er kostnader som er knyttet til delmonteringer og kjøpte råvarer. Materialenhetskost kan bestå av direkte og indirekte kostelementer.  
+### <a name="material-costs"></a>Materialkost
 
--   Direkte materialkost representerer et fakturert beløp for kjøpte råmaterialer eller behandlingskost for en halvfabrikat.  
--   Indirekte materialkost, eller *indirekte kostnader*, kan for eksempel representere elementer som lagerføringskost for den ferdige varen etter at den er produsert.  
+Materialkost er kostnader som er knyttet til delmonteringer og kjøpte råvarer. Materialenhetskost kan bestå av direkte og indirekte kostelementer.  
+
+- Direkte materialkost representerer et fakturert beløp for kjøpte råmaterialer eller behandlingskost for en halvfabrikat.  
+- Indirekte materialkost, eller *indirekte kostnader*, kan for eksempel representere elementer som lagerføringskost for den ferdige varen etter at den er produsert.  
 
 Defineringen av materialkost for kjøpte varer som påvirker direkte og indirekte kost, avhenger av lagermetoden du har valgt for den angitte varen. Du definerer kostnadsinformasjonen for hver lagemetode på varekortet. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
 
@@ -66,13 +66,13 @@ Kapasitetskostnader er kostnader som er knyttet til internt arbeid og maskinkost
 
 Oppsettet for kapasitetskost for monterte varer består av følgende elementer:  
 
--   Direkte og indirekte enhetskost for ressursen.  
--   Fast eller direkte ressursbrukstype.  
+- Direkte og indirekte enhetskost for ressursen.  
+- Fast eller direkte ressursbrukstype.  
 
 Oppsettet for kapasitetskost for produserte varer består av følgende elementer:  
 
--   Direkte og indirekte enhetskost for produksjonsressursen eller arbeidssenteret.  
--   Oppsett av tid og partistørrelse.  
+- Direkte og indirekte enhetskost for produksjonsressursen eller arbeidssenteret.  
+- Oppsett av tid og partistørrelse.  
 
 For å beregne standard kapasitetskost må du opprette standardtidssatser som er nødvendige for å utføre operasjoner på produksjonsressurser og arbeidssentre. Samlet tid for å fullføre en operasjon består vanligvis av oppstillings-/operasjonstid samt ventetid og transporttid.  
 
@@ -97,7 +97,7 @@ Prosessen med å oppdatere eller beregne standardkostnader vanligvis består av 
 
 1.  Oppdatere kost på komponent- og kapasitetsnivået. Hvis du vil ha mer informasjon, se kjørslene **Foreslå standardkost for vare** og **Foreslå standardkost for kapasitet**.  
 2.  Konsolidere og opprullere komponent- og kapasitetskost for å beregne samlet monterings- eller produksjonskost for varene. Hvis du vil ha mer informasjon, kan du se [Slik beregner du standardkosten for en monteringsvare](inventory-how-work-boms.md#to-calculate-the-standard-cost-of-an-assembly-item).  
-3.  Implementere standardkostnadene som angis når du kjører de forrige kjørslene. Standardkostnadene trer ikke i kraft før de blir implementert. Hvis du vil ha mer informasjon, se kjørselen **Implementer endringer i standardkost**.  
+3.  Implementere standardkostnadene som angis når du kjører de forrige kjørslene. Standardkostnadene trer ikke i kraft før de blir implementert. Bruk kjørselen **Implementer standard kostendringer** som oppdaterer endringene i standardkostnad på varene med de i tabellen Standardkost – forslag.  
 4.  Implementere endringene for å oppdatere **Enhetskost**-feltet på varekortet og utføre revaluering av lager. Hvis du vil ha mer informasjon, kan du se [Revaluere beholdning](inventory-how-revalue-inventory.md).
 
 ## <a name="see-also"></a>Se også  
@@ -105,3 +105,6 @@ Prosessen med å oppdatere eller beregne standardkostnader vanligvis består av 
  [Arbeide med stykklister](inventory-how-work-BOMs.md)   
  [Oppdatere standardkost](finance-how-to-update-standard-costs.md)   
  [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

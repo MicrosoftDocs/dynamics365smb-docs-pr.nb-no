@@ -1,40 +1,46 @@
 ---
-title: Plassere produksjonsavgang | Microsoft-dokumentasjon
-description: Hvordan du plasserer avgang fra produksjon, avhenger av hvordan lageret er definert som lokasjon.
+title: Plasser produksjonsavgang
+description: 'Hvordan du plasserer avgang fra produksjon, avhenger av hvordan lageret er definert som lokasjon. Lagerplassering kan utføres på følgende måter:'
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e0acb1a8c1710b0b096c461f14f817957e4ee3af
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 87c0a1cb86d94b673c3c4ee21ce0d62d59eeb753
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192870"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438135"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Plassere produksjonsavgang eller monteringsavgang
+
 Hvordan du plasserer avgang fra produksjon, avhenger av hvordan lageret er definert som lokasjon. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).  
 
-I grunnleggende lageroppsett hvor lokasjonen krever plasseringsbehandling, men ikke mottaksbehandling, bruker du dokumentet **Lagerplassering** til å organisere og registrere plasseringen av avgang.  
+I grunnleggende lageroppsett hvor lokasjonen krever plasseringsbehandling, bruker du dokumentet **Lagerplassering** til å bokføre produksjonsavgang og registrere plasseringen av avgang.  
+
+> [!NOTE]  
+> Lagerplassering støttes ikke for samlingsprosesser. Du bokfører en monteringsordre for å registrere avgang. Hvis du bruker hyller, kan du flytte varer mellom hyller senere. Hvis du vil ha mer informasjon, kan du se [Flytte varer ad hoc i enkle lageroppsett](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).  
 
 I avanserte lageroppsett hvor lokasjonen krever både plasserings- og mottaksbehandling, kan du opprette enten et internt plasseringsdokument eller et flyttedokument for å plassere avgangen.  
 
+## <a name="to-put-away-production-output-with-an-inventory-put-away"></a>Slik plasseres produksjonsavgang med lagerplassering
+
 Det første trinnet ved opprettelse av plasseringsavgang, er å opprette den inngående lagerforespørselen. Denne forespørselen informerer lageret om at produksjons- eller monteringsordreavgangen er klar til å plasseres.
 
-## <a name="to-create-the-inbound-warehouse-request"></a>Slik oppretter du den inngående lagerforespørselen  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Frigitt produksjonsordre**, og velg deretter den relaterte koblingen.  
+### <a name="to-create-the-inbound-warehouse-request"></a>Slik oppretter du den inngående lagerforespørselen  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Frigitt produksjonsordre**, og velg deretter den relaterte koblingen.  
 2.  På produksjonsordren som er klar til plassering, velger du handlingen **Opprett inngående lagerforespørsel**.  
 
 > [!NOTE]  
->  Du kan også opprette den inngående lagerforespørselen ved å merke av for **Opprett inngående foresp.** når du fornyer produksjonsordren. Hvis du vil ha mer informasjon, se [Fornye eller planlegge produksjonsordrer på nytt](production-how-to-replan-refresh-production-orders.md).  
+> Du kan også opprette den inngående lagerforespørselen ved å velge feltet **Opprett inngående foresp.** når du fornyer produksjonsordren. Hvis du vil ha mer informasjon, se [Fornye eller planlegge produksjonsordrer på nytt](production-how-to-replan-refresh-production-orders.md).  
 
-## <a name="to-put-output-away-with-an-inventory-put-away"></a>Slik plasseres varer med lagerplassering  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerplassering**, og velg deretter den relaterte koblingen.  
+### <a name="to-put-output-away-with-an-inventory-put-away"></a>Slik plasseres varer med lagerplassering  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerplassering** og velg den relaterte koblingen.  
 2.  Opprett en ny lagerplassering. Hvis du vil ha mer informasjon, kan du se [Plassere varer med lagerplasseringer](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
 3.  Du får tilgang til produksjonsordreavgang ved å velge handlingen **Hent kildedokumenter** og deretter velge den frigitte produksjonsordren.  
 4.  Fyll ut plasseringslinjene.
@@ -46,30 +52,18 @@ Når du bokfører en lagerplassering, antas det at alle operasjonene bokføres i
 
 Hvis du bare trenger å bokføre oppsett eller kjøretid i den siste operasjonen, kan du sette avgangsantallet i den siste operasjonen til 0. Du kan også velge ikke å bokføre den siste linjen i det hele tatt ved å slette den.  
 
-## <a name="to-put-output-away-with-a-warehouse-internal-put-away"></a>Slik plasserer du avgang med intern plassering eller flytting
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Intern plassering**, og velg deretter den relaterte koblingen.  
-2. Velg handlingen **Ny**.
-3. Fyll ut hodet til den nye interne plasseringen med minst feltet **Lokasjonskode**.  
-4. Fyll ut en linje for hver vare du vil flytte til lageret. Du trenger bare å fylle ut feltene **Varenr.** og **Antall**.  
+## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>Slik plasserer du monterings- og produksavgang i avanserte lagerkonfigurasjoner
+Når du bokfører avgangen for produksjons- eller monteringsordrer i lageret som er definert til å bruke dirigert plassering og plukking, plasseres avgangen i hyllen som er definert i produksjons- eller monteringsordren. 
 
-    > [!NOTE]  
-    >  Når du velger feltet **Varenr.**, åpnes **Hylleinnholdsoversikt** i stedet for **Vareoversikt**. Det kommer av at du ønsker å plassere varer som er i en bestemt hylle (et hylleinnhold), ikke bare en vare, og du vet allerede hvilken hylle varen skal tas fra.  
+Tabellen nedenfor beskriver ulike måter å flytte varer på i lageret med avanserte konfigurasjoner der alle lageraktiviteter må utføres i en styrt arbeidsflyt. 
 
-4.  Hvis du vil fylle ut forslagslinjene med hele hylleinnholdet eller det filtrerte hylleinnholdet i hyller i lokasjonen, velger du handlingen **Hent hylleinnhold**.  
-5.  Velg handlingen **Opprett plassering**. Varene du vil flytte ut av produksjon, er nå i plasseringsinstruksjoner og venter på å bli lagret i lageret.  
+|**Hvis du vil**|**Se**|  
+|------------|-------------|  
+|Flytt varer med lagerflytteforslaget.|[Flytte varer i avanserte lageroppsett](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet)|  
+|Opprett en intern plassering for å plassere produserte eller monterte varer i et avansert lageroppsett.|[Opprett en intern plassering](warehouse-how-to-create-put-aways-from-internal-put-aways.md#to-create-an-internal-put-away)|
 
 > [!NOTE]  
->  Når lagerlokasjonen er definert til å bruke lagerstyring, er lageret koblet til produksjonsfunksjonen gjennom standardproduksjonshyllene: Dette er de inngående, utgående og åpne produksjonshyllene, som alle defineres på hurtigfanen **Hyller** på lokasjonskortet. Når du bokfører avgangen til en produksjonsordre, plasseres avgangen i den **utgående produksjonshyllen**. Du følger samme fremgangsmåte som den beskrevet ovenfor, til å plassere produksjonsavgangen, bortsett fra at i stedet for å bruke varens standardhylle vil du flytte eller plassere varene fra den **utgående produksjonshyllen** til varens standardhylle.  
-
-## <a name="to-manually-specify-a-bin-to-store-items-from-production-output"></a>Angi en hylle for plassering av varer fra produksjonsavgang manuelt  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Flytteforslag**, og velg deretter den relaterte koblingen.  
-2.  Fyll ut hodet, og opprett en linje for hver vare du vil flytte til lageret.  
-3.  Fyll ut både feltet **Fra hylle-kode** og feltet **Til hylle-kode**, og angi antallet i feltet **Antall**.  
-4.  Hvis du vil fylle ut forslagslinjene med hele hylleinnholdet eller det filtrerte hylleinnholdet i hyller i lokasjonen, velger du handlingen **Hent hylleinnhold**.  
-5. Velg handlingen **Opprett flytting**. Lagerflyttingsinstruksjonene opprettes med Hent- og Plasser-linjer som de lageransatte skal utføre.  
-
-> [!NOTE]  
->  Du kan ikke angi kildedokumentnummeret, for eksempel produksjonsordrenummeret, i dokumentene for intern plassering, plukking eller plassering for noen av disse prosedyrene.  
+> Du kan ikke angi kildedokumentnummeret, for eksempel produksjonsordrenummeret, i dokumentene for intern plassering, plukking eller plassering for noen av disse prosedyrene.  
 
 ## <a name="see-also"></a>Se også  
 [Lagerstyring](warehouse-manage-warehouse.md)  
@@ -77,4 +71,7 @@ Hvis du bare trenger å bokføre oppsett eller kjøretid i den siste operasjonen
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

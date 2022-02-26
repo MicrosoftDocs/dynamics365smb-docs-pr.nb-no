@@ -3,35 +3,38 @@ title: Utligne finansposter i lukkede perioder
 description: Du kan bokføre postene etter at en bokføringsperiode er lukket, selv om ingen bokføringer ble utført i den perioden.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: add06139442013dc33edcdb9e1833d7bfa71650c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: ae25b45bcae36e881f49ffb766deab18b275f4c5
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181038"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437826"
 ---
 # <a name="apply-general-ledger-entries-in-closed-periods"></a>Utligne finansposter i lukkede perioder
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)] du kan bokføre postene etter at en bokføringsperiode er lukket, selv om ingen bokføringer ble utført i den perioden. Du kan også velge brukerne som lager disse postene.  
+[!INCLUDE[prod_short](../../includes/prod_short.md)] du kan bokføre postene etter at en bokføringsperiode er lukket, selv om ingen bokføringer ble utført i den perioden. Du kan også velge brukerne som lager disse postene.  
 
 ## <a name="to-apply-an-entry-in-a-closed-period"></a>Slik utligner du en post i en lukket periode  
 
-1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
 2.  På hurtigfanen **Generelt** merker du av for **Utligning alltid tillatt** for å utligne poster utenfor tillatt bokføringsperiode.  
 
     > [!NOTE]  
     >  Som standard er det ikke merket av for **Utligning alltid tillatt**.  
 
 3.  Velg **OK**-knappen.  
-4.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Brukeroppsett**, og velg deretter den relaterte koblingen.  
+4.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukeroppsett** og velg den relaterte koblingen.  
 5.  På **Brukeroppsett**-siden merker du av for **Utligning alltid tillatt** for hver bruker som kan utligne poster i en lukket periode.  
 6.  Velg **OK**-knappen.  
 
 ## <a name="see-also"></a>Se også  
 [Funksjonalitet som er spesifikk for norske brukere](norway-local-functionality.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

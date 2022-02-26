@@ -1,24 +1,24 @@
 ---
-title: Dimensjonssettposter – oversikt | Microsoft-dokumentasjon
-description: Dette emnet beskriver hvordan dimensjonssettposter lagres og bokføres i Dynamics 365.
+title: Dimensjonssettposter – oversikt
+description: I denne artikkelen får du en oversikt over hvordan dimensjonssettposter lagres som dimensjonssettposter, og hvordan de bokføres.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dimension
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f35184a6a69ed0fa1ccd504525a19af6bd9c5955
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 8196cf08b5e4bf410d9682a30e714cb8c4522e17
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185519"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011682"
 ---
 # <a name="dimension-set-entries-overview"></a>Dimensjonssettposter – oversikt
-Dette emnet beskriver hvordan dimensjonssettposter lagres og bokføres i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Dette emnet beskriver hvordan dimensjonssettposter lagres og bokføres i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="dimension-sets"></a>Dimensjonssett  
 Et dimensjonssett er en unik kombinasjon av dimensjonsverdier. Det lagres som dimensjonssettposter i databasen. Hver dimensjonssettpost representerer én enkelt dimensjonsverdi. Dimensjonssettet identifiseres av en felles dimensjonssett-ID som tilordnes hver dimensjonssettpost som tilhører dimensjonssettet.  
@@ -34,7 +34,7 @@ Eksempelet nedenfor viser et dimensjonssett som har tre dimensjonssettposter. Di
 ## <a name="dimension-set-entries"></a>Dimensjonssettposter  
 Dimensjonssett lagres i tabellen med **Dimensjonssettpost** som dimensjonssettposter med samme ID for dimensjonssett.  
 
-![Flyt for dimensjonssettposter](media/dimensionentrynav7.png "Flyt for dimensjonssettposter")  
+![Flyt for dimensjonssettposter.](media/dimensionentrynav7.png "Flyt for dimensjonssettposter")  
 
 Når du oppretter en ny kladdelinje, et nytt dokumenthode eller en ny dokumentlinje, kan du angi en kombinasjon av dimensjonsverdier. I stedet for at hver dimensjonsverdi lagres eksplisitt i databasen, tilordnes en dimensjonssett-ID til kladdelinjen, dokumenthodet eller dokumentlinjen for å angi dimensjonssettet.  
 
@@ -46,7 +46,10 @@ Codeunit 408, dimensjonsbehandling, er et funksjonsbibliotek som håndterer vanl
 ## <a name="performance-improvement"></a>Ytelsesforbedring  
 Ved å lagre dimensjonssett én gang i databasen beholdes databaseplassen, og den generelle ytelsen blir forbedret.  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
 [Designdetaljer: Søke etter dimensjonskombinasjoner](design-details-searching-for-dimension-combinations.md)   
 [Designdetaljer: Tabellstruktur](design-details-table-structure.md)   
 [Designdetaljer: Dimensjonssettposter](design-details-dimension-set-entries.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

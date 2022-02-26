@@ -1,30 +1,29 @@
 ---
-title: Oversikt over oppgaver for å konfigurere salgsprosesser | Microsoft-dokumentasjon
-description: Gir en oversikt over oppgaver for å definere regler og verdier som definerer salgsprinsipper og -prosesser.
-services: project-madeira
-documentationcenter: ''
+title: Oversikt over oppgaver for å konfigurere salgsprosesser
+description: Oversikt over oppgaver som kreves for å definere regler og verdier som definerer salgspolicyer og prosesser, inkludert generelt oppsett og finansrelatert salgsoppsett.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: trade, sell, configure
-ms.date: 01/13/2020
-ms.author: sgroespe
-ms.openlocfilehash: d19d02cb770efb32441d4b1282789a92deea41a0
-ms.sourcegitcommit: ead69ebe5b29927876a4fb23afb6c066f8854591
+ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 63d9357d29fbfdc3c230c69602fd370c5d73f21b
+ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "2953398"
+ms.lasthandoff: 02/12/2022
+ms.locfileid: "8115453"
 ---
 # <a name="setting-up-sales"></a>Sette opp salg
 Før du kan håndtere salgsprosesser, må du konfigurere regler og verdier som definerer selskapets salgsprinsipper.
 
-Du må definere det generelle oppsettet, for eksempel hvilke salgsdokumenter som kreves, og hvordan dokumentenes verdier skal bokføres. Dette generelle oppsettet foretas vanligvis én gang under den første implementeringen.
+Du må definere det generelle oppsettet på **Salg**-siden, for eksempel hvilke salgsdokumenter som kreves, hvordan deres verdier bokføres, og hvilken type linjer som skal opprettes som standard. Dette generelle oppsettet foretas vanligvis én gang under den første implementeringen.
 
-En egen rekke oppgaver relatert til registrering av nye kunder er å registrere alle spesialpris eller rabattavtaler som du har med hver kunde.
+En egen rekke oppgaver relatert til registrering av nye kunder er å registrere alle spesialpris eller rabattavtaler som du har med hver kunde. Hvis du vil ha mer informasjon, kan du se [Registrer spesielle salgspriser og rabatter](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Finansrelatert salgsoppsett, for eksempel betalingsmåte og valutaer, beskrives i avsnittet Finansoppsett. Hvis du vil ha mer informasjon, kan du se [Konfigurere finans](finance-setup-finance.md).
 
@@ -39,9 +38,13 @@ Finansrelatert salgsoppsett, for eksempel betalingsmåte og valutaer, beskrives 
 |Bruke en EU-webtjeneste for å bekrefte kundens organisasjonsnummer.|[Bekrefte organisasjonsnumre](finance-setup-vat.md)|
 |Definer de ulike incoterms-vilkårene som du tilbyr kunder eller som leverandører tilbyr deg.|[Sette opp leveringsmåter](sales-how-set-up-shipment-methods.md)|
 |Angi informasjon om de ulike transportørene du benytter, inkludert en kobling til pakkesporingstjenesten.|[Sett opp transportører](sales-how-to-set-up-shipping-agents.md)|
+|Angi standardrapporter som skal brukes for ulike dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

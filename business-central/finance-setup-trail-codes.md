@@ -1,21 +1,22 @@
 ---
-title: Definere spor for revisjonsspor | Microsoft Docs
+title: Definer koder for revisjonsspor
 description: Finn ut mer om oppgavene for å konfigurere kildespor og årsaksspor som du kan bruke til å spore revisjonsspor.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 05/12/2020
+ms.search.form: 257, 259, 279
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eac9b5268cda8671a7189a429dedd9eb3cbfbc53
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.openlocfilehash: c6327be4cdcd1e51096a8e19601556305b772011
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372690"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7971943"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Definere kildespor og årsaksspor for revisjonsspor
 
@@ -33,7 +34,7 @@ Når du bokfører eller starter en kjørsel, knyttes det riktige kildesporet til
 
 ### <a name="to-define-source-codes"></a>Slik definerer du kildespor
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kildespordefinisjon**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport") og angir **Kildespordefinisjon** og velger den relaterte koblingen.  
 
 2. I vinduet **Kildespordefinisjon** angir du det aktuelle kildesporet for hver enkelt bokføringstype og kjørsel.  
 
@@ -45,7 +46,7 @@ Noen ganger kan det være nødvendig å endre et kildespor. Du vil for eksempel 
 
 ### <a name="to-change-source-codes"></a>Slik endrer du kildespor
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Kildespor**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport") og angi **Kildespor**, og velg deretter den relaterte koblingen.
 
 2. På linjen med kildesporet som skal endres, velger du et spor i feltet **Spor**.
 
@@ -59,7 +60,7 @@ Alle nye poster som bokføres fra finanskladden får det nye kildesporet.
 
 ### <a name="to-set-up-reason-codes"></a>Slik setter du opp årsaksspor
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Årsaksspor**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport")  og angi **Årsaksspor**, og velg deretter den relaterte koblingen.
 
 2. Angi den første koden i **Spor**-feltet i **Årsaksspor**-vinduet. I feltet **Beskrivelse** skriver du inn en forklarende tekst.
 
@@ -69,7 +70,7 @@ Følgende fremgangsmåte viser hvordan du legger til et årsaksspor i en kladdem
 
 ### <a name="to-assign-reason-codes-to-journal-templates"></a>Slik tilordner du årsaksspor til kladdemaler
 
-1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Finanskladdemaler**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport")  og angi **Finanskladdmaler**, og velg deretter den relaterte koblingen.
 
 2. På linjen med den valgte kladdemalen setter du inn ønsket spor i **Årsaksspor**-feltet.
 
@@ -94,6 +95,9 @@ Når fakturaen er bokført, overføres årsakssporet til hver finans-, kunde- og
 [Arbeide med dimensjoner](finance-dimensions.md)  
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Analysere kontantstrømmen i firmaet](finance-analyze-cash-flow.md)  
-[Arbeide med [!INCLUDE[prodshort](includes/prodshort.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

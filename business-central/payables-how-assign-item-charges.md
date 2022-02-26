@@ -1,23 +1,22 @@
 ---
-title: Tilordne varegebyr til salg og kjøp | Microsoft-dokumentasjon
-description: Hvis du vil at lagervarene skal bære ekstra kostnader, for eksempel frakt, fysisk håndtering, forsikring og transport, som du pådrar deg når du kjøper eller selger varer, kan du bruke funksjonen Varegebyr.
-services: project-madeira
-documentationcenter: ''
+title: Tilordne varegebyr til salg og kjøp (inneholder video)
+description: Tilordne varegebyr når du trenger at lagervarene skal bære ekstra kostnader, for eksempel frakt og fysisk håndtering som du pådrar deg når du kjøper eller selger varer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: transportation, added cost, landed cost
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: a113573ca1732472f5ec926f78273cdb4b94f989
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 5709, 5800, 5805, 5814
+ms.date: 06/22/2021
+ms.author: edupont
+ms.openlocfilehash: c49b529bcb93544aef8393a5440b142e722efd1c
+ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878141"
+ms.lasthandoff: 01/10/2022
+ms.locfileid: "7953237"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Bruke varegebyr til å gjøre rede for ekstra handelskostnader
 For å sikre riktig verdisetting må lagervarene bære eventuelle ekstra kostnader, for eksempel frakt, fysisk håndtering, forsikring og transport, som du pådrar deg når du kjøper eller selger varer. Når det gjelder kjøp, består netto innkjøpspris for en vare av innkjøpsprisen fra leverandøren samt alle direkte tilleggsvaregebyr som kan tilordnes enkeltstående mottak eller returforsendelser. Når det gjelder salg, kan det være like viktig for selskapet ditt å være klar over kostnaden ved å levere solgte varer som netto innkjøpspris for kjøpte varer.
@@ -40,19 +39,19 @@ Du kan tilordne et varegebyr på to måter for både kjøps- og salgsdokumenter:
 ## <a name="example"></a>Eksempel
 Denne videoen viser hvordan du håndterer en ekstra leveringskostnad som del av lageretterkalkulering.
 <br><br>  
-> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
 ## <a name="to-set-up-item-charge-numbers"></a>Definere varegebyrnumre
 Du bruker varegebyrnumre til å skille mellom de ulike typene varegebyr som brukes i selskapet.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varegebyrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varegebyr** og velg den relaterte koblingen.
 2. Velg handlingen **Ny** på **Varegebyr**-siden for å opprette en ny linje.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Tilordne et varegebyr direkte til kjøpsfakturaen for varen
 Hvis du vet varegebyret når du bokfører en kjøpsfaktura for varen, følger du denne fremgangsmåten.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.
 2. Opprett en ny kjøpsfaktura. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).
 3. Kontroller at kjøpsfakturaen har én eller flere linjer av typen Vare.
 4. Velg **Gebyr (vare)** i **Type**-feltet på en ny linje.
@@ -85,4 +84,7 @@ Varegebyret på den separate kjøpsfakturaen er nå tilordnet til varen på det 
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Registrere kjøp](purchasing-how-record-purchases.md)  
 [Fakturere salg](sales-how-invoice-sales.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

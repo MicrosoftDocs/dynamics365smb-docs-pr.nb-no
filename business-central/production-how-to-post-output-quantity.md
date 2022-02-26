@@ -1,49 +1,59 @@
 ---
-title: Slik massebokfører du produksjonsavgang og operasjonstider | Microsoft-dokumentasjon
-description: Avgangsantallet representerer arbeidsframdriften i form av det ferdige antallet.
+title: Massebokføre produksjonsavgang og operasjonstider
+description: Avgangsantallet representerer arbeidsfremdriften i form av ferdig antall og brukt kapasitet for arbeidssenter eller produksjonsressurs.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: a0eeb0a944a0feaee27fcb6d5891f83151499940
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 99000773, 99000778, 99000823, 99000827
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: d5adb9f1f4eb1edefdeb15b6f716458247b4ebf9
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2877787"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7970430"
 ---
 # <a name="batch-post-output-and-run-times"></a>Bokføre avgang og operasjonstid
-Avgangsantallet representerer arbeidsframdriften i form av det ferdige antallet.  
+Avgangsantallet representerer arbeidsfremdriften i form av ferdig antall og brukt kapasitet for arbeidssenter eller produksjonsressurs.
+
+Du kan bruke ferdigmeldingskladden til å:
+
+* Justere lagerbeholdningen i forbindelse med avgang av ferdige varer fra produksjonen.
+* Registrere antall og vrak for hver operasjon i produksjonsrutingen.
+* Registrere oppsett og kjøretid for arbeidssentre og produksjonsressurser.
 
 > [!NOTE]
-> Bare når du bokfører avgangsantall i den siste operasjonen, oppdateres beholdningen automatisk.  
+> Hvis produksjonsruting brukes, oppdateres lageret bare når du bokfører avgangsantall i den siste operasjonen.
 
-## <a name="to-post-output-quantities-for-one-or-more-production-order-lines"></a>Slik bokfører du avgangsantall for en eller flere produksjonsordrelinjer
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ferdigmeldingskladd**, og velg deretter den relaterte koblingen.  
-2. Fyll ut feltene med produksjonsordre- og avgangsdata. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+I vinduet **Produksjonskladd** kan du utføre de samme oppgavene som i vinduet **Ferdigmeldingskladd**, og du kan utføre de relaterte forbruksbokføringsoppgavene samtidig. Hvis du vil ha mer informasjon, kan du se [Registrere forbruk og avgang for én frigitt produksjonsordrelinje](production-how-to-register-consumption-and-output.md).
+
+## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Slik bokfører du avgangsantall og/eller registrerer kjøretider for en eller flere produksjonsordrelinjer
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ferdigmeldingskladd** og velg den relaterte koblingen.  
+2. Fyll ut feltene med produksjonsordre- og avgangsdata og/eller kjøretid. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+  
+    Du kan bruke funksjonen **Utfold rute** til å generere kladdelinjer fra produksjonsordrer.
+  
 3. Hvis operasjonen er fullført, velger du **Ferdig**-feltet.  
+4. Velg handlingen **Bokfør** for å bokføre operasjonene. 
 
-    Hvis lagerlokasjonen der varene skal plasseres bruker hyller, men ikke krever plasseringsbehandling, tildeler du en hyllekode til kladdelinjen for å angi hvor varene skal lagres på lageret Hvis du vil ha mer informasjon, kan du se [Plassere produksjonsavgang eller monteringsavgang](warehouse-how-to-put-away-production-output.md).  
+Kapasitetsposter oppdateres for det brukte arbeidssenteret eller produksjonsressursene med informasjon om tid og antall av avgang og vrak.  
 
-4. Velg **Bokfør** for å bokføre operasjonene. Avgangsantallet bokføres. Varen kan nå leveres.  
+Hvis du bokførte den siste operasjonen, blir varen lagt til i lageret.  
 
-## <a name="to-post-run-times-for-one-or-more-production-order-lines"></a>Slik bokfører du kjøretid for en eller flere produksjonsordrelinjer
-Operasjonstiden representerer arbeidsframdrift i form av nødvendig arbeidstid.    
+## <a name="see-also"></a>Se også
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ferdigmeldingskladd**, og velg deretter den relaterte koblingen.  
-2. Fyll ut feltene med produksjonsordre- og avgangsdata.  
-3.  Hvis operasjonen er fullført, velger du **Ferdig**-feltet.  
-4. Velg **Bokfør**-handlingen for å bokføre tiden som brukes per operasjon. Kapasitetsposter oppdateres for brukte arbeids- eller produksjonsressurser.
-
-## <a name="see-also"></a>Se også  
-[Produksjon](production-manage-manufacturing.md)    
-[Definere produksjon](production-configure-production-processes.md)  
-[Planlegging](production-planning.md)      
+[Bokføre vrak manuelt](production-how-to-post-scrap.md)
+[Tilbakeføre utgående bokføring](production-how-to-reverse-output-posting.md)
+[Produksjon](production-manage-manufacturing.md)
+[Definer produksjon](production-configure-production-processes.md)  
+[Planlegging](production-planning.md)  
 [Lager](inventory-manage-inventory.md)  
-[Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

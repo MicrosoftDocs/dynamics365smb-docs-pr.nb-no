@@ -1,36 +1,71 @@
 ---
-title: Bruke Business Central på mobilenheten din | Microsoft-dokumentasjon
-description: Du kan vise og redigere Business Central-dataene på telefonen eller nettbrettet.
-author: edupont04
+title: Få Business Central på mobilenheten din (inneholder video)
+description: Dette emnet beskriver de ulike måtene du kan vise og redigere Business Central-data på, sende til Excel og mer på telefonen eller nettbrettet.
+author: jswymer
 ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: phone, tablet
-ms.date: 04/01/2020
-ms.author: edupont
-ms.openlocfilehash: 62626d7ff081da64d64299cafb4b5e8c5483f182
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.keywords: desktop, Windows, app
+ms.date: 10/01/2021
+ms.author: jswymer
+ms.openlocfilehash: 31f9a34d2fc14ddca146ff00d8b4b678e0b97d99
+ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182495"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7940079"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Få Business Central på mobilenheten din
-Få tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)]-data fra mobilenheten. Du kan navigere gjennom forretningsdataene, bruk funksjoner som å sende til Excel eller Office 365, vise oppdaterte diagrammer og KPI-er, sende tilbud og fakturaer i e-post, og ta og legge ved bilder med kameraet. Følg fremgangsmåten nedenfor for å laste ned appen og komme i gang.
 
-## <a name="to-get-the-app-on-my-mobile-device"></a>Få appen på mobilenheten
-1. Installer [!INCLUDE[d365fin](includes/d365fin_md.md)]-appen på mobilenheten ved å laste ned appen fra Windows Store, App Store eller Google Play.  
-[![Windows Store](./media/install-mobile-app/windowsstore.png)](https://go.microsoft.com/fwlink/?LinkId=734848)
-[![App Store](./media/install-mobile-app/appstore.png)](https://go.microsoft.com/fwlink/?LinkId=734847) [![Google Play](./media/install-mobile-app/googleplay.png)](https://go.microsoft.com/fwlink/?LinkId=734849)  
+Få tilgang til [!INCLUDE[prod_short](includes/prod_short.md)]-data fra mobilenheten. Du kan navigere gjennom forretningsdataene, bruk funksjoner som å sende til Excel eller Microsoft 365, vise oppdaterte diagrammer og KPI-er, sende tilbud og fakturaer i e-post, og ta og legge ved bilder med kameraet. Følg fremgangsmåten nedenfor for å laste ned appen og komme i gang.
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4Arje?rel=0]
+
+> [!TIP]
+> Vil du ha en app på et Windows- eller macOS-datamaskinskrivebord? Se [Hent Business Central-skrivebordsappen](install-desktop-app.md).
+
+## <a name="get-the-app-on-my-mobile-device"></a>Få appen på mobilenheten
+
+1. Installer [!INCLUDE[prod_short](includes/prod_short.md)]-appen på mobilenheten ved å laste ned appen fra App Store eller Google Play.  
+   - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
+   - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
 2. Start appen fra mobilenheten.
-3. Angi brukernavnet og passordet du opprettet under registrering for [!INCLUDE[d365fin](includes/d365fin_md.md)], og følg instruksjonene på skjermen.
+3. Angi brukernavnet og passordet du opprettet under registrering for [!INCLUDE[prod_short](includes/prod_short.md)], og følg instruksjonene på skjermen.
 
-Du har nå tilgang til [!INCLUDE[d365fin](includes/d365fin_md.md)], og kan vise og redigere data.
+    Hvis [!INCLUDE [prod_short](includes/prod_short.md)] har mer enn ett produksjonsmiljø, blir du bedt om å velge miljøet du vil ha tilgang til (krever Business Central 2020, lanseringsbølge 2 og nyere).
+
+Du har nå tilgang til [!INCLUDE[prod_short](includes/prod_short.md)], og kan vise og redigere data.  
+
+> [!TIP]
+> Hvis du vil koble appen til et sandkassemiljø, velger du **Avanserte alternativer**, og deretter velger du påloggingsalternativet **Skysandkasse**. Deretter, hvis du har mer enn ett sandkassemiljø, velger du det relevante miljøet.
+
+## <a name="using-business-central-on-premises"></a>Bruker du Business Central lokalt?
+
+Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan du også dra nytte av fordelene med mobilappen. Installasjonen ligner, men med noen få unntak.
+
+1. Installer [!INCLUDE[prod_short](includes/prod_short.md)]-appen på mobilenheten ved å laste ned appen fra App Store eller Google Play.  
+
+   - [App Store](https://go.microsoft.com/fwlink/?LinkId=734847)
+   - [Google Play](https://go.microsoft.com/fwlink/?LinkId=734849)
+2. Start appen fra mobilenheten.
+3. I stedet for å skrive inn en e-postadresse på **velkomstsiden**, velger du knappen **Avanserte alternativer**, og deretter velger du påloggingsalternativet **Lokalt**.
+4. På neste side i boksen **Tjenestenavn** skriver du inn nettadressen du vil bruke til å åpne [!INCLUDE[prod_short](includes/prod_short.md)], for eksempel *https://mybusinesscentral:443/BC170*. Hvis du ikke er sikker, spør du systemansvarlig.
+5. Deretter angir du brukernavn og passord for å få tilgang til Business Central.
+
+   Når du er ferdig, åpnes Business Central-appen.
+
+> [!NOTE]
+> Hvis du har problemer med å få appen til å fungere som den skal, kontakter du systemansvarlig. Det kan være en manglende forutsetning eller en ufullstendig konfigurasjon. Hvis du vil ha mer informasjon, kan du se [Klargjøre miljøet for mobilappen](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app#prereqs) eller [Feilsøke  lokale mobilappen for Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-troubleshooting-the-mobile-app).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
-[Komme i gang](product-get-started.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+
+[Vanlige spørsmål om mobilapper](ui-mobile-faq.yml)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,80 +1,31 @@
 ---
-title: Planlegge jobber til å kjøre automatisk | Microsoft-dokumentasjon
+title: Planlegge jobber til å kjøre automatisk
 description: Planlagte aktiviteter administreres av jobbkøen. Disse jobbene kjører rapporter og kodeenheter. Du kan angi at jobbene skal kjøre én gang, eller gjentas flere ganger.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.search.form: 672, 673, 674, 671
+ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: b8470fa559d8a640e1c05cc6e03ca4caf3a9827e
-ms.sourcegitcommit: 1c286468697d403b9e925186c2c05e724d612b88
+ms.openlocfilehash: 46759304a312e0376e8b309b29d5e0491b34a69f
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "2999786"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012238"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Bruke jobbkøer til å planlegge oppgaver
-Med jobbkøer i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan brukere planlegge og kjøre bestemte rapporter og kodeenheter. Du kan angi at jobbene skal kjøre én gang, eller gjentas flere ganger. Det kan for eksempel være at du vil kjøre rapporten **Selger - salgsstatistikk** ukentlig for å spore salg etter selger hver uke, eller du vil kanskje kjøre kodeenheten **Behandle e-postkø - service** daglig, for å sørge for at ventende e-postmeldinger angående serviceordrer sendes ut til kundene i rett tid.
+
+Med jobbkøer i [!INCLUDE[prod_short](includes/prod_short.md)] kan brukere planlegge og kjøre bestemte rapporter og kodeenheter. Du kan angi at jobbene skal kjøre én gang, eller gjentas flere ganger. Du ønsker kanskje å kjøre rapporten **Selger - salgsstatistikk** hver uke for å spore salg etter selger hver uke, eller kanskje du ønsker å kjøre kodeenheten **Deleger godkjenningsforespørsler** daglig for å unngå at dokumenter hoper seg opp eller på andre måter blokkerer arbeidsflyten.
 
 Siden **Poster i jobbkø** viser alle eksisterende jobber. Hvis du vil legge til en jobbkøpost du vil planlegge, må du angi informasjon om objekttypen du vil kjøre, for eksempel en rapport eller kodeenhet, og navnet og objekt-IDen for objektet du vil kjøre. Du kan også legge til parametere for å spesifisere hva jobbkøposten skal gjøre. Du kan for eksempel legge til en parameter for å sende bare bokførte ordrer. Du må ha tillatelse til å kjøre den aktuelle rapporten eller kodeenheten, ellers vises det en feilmelding når jobbkøen kjøres.  
+> [!IMPORTANT]  
+> Hvis du bruker SUPER-tillatelsessettet som følger med [!INCLUDE[prod_short](includes/prod_short.md)], har du og brukerne tillatelse til å kjøre alle objektene i lisensen. Det er fremdeles ikke nok for delegert administrator eller brukere med enhetslisens, som ikke kan opprette jobbkøen.
 
 En jobbkø kan ha mange oppføringer, som er jobbene som køen håndterer og kjører. Informasjonen i posten angir hvilken kodeenhet eller rapport som kjøres, når og hvor ofte posten kjøres, i hvilken kategori jobben kjøres, og hvordan den kjører.  
-
-## <a name="to-set-up-background-posting-with-job-queues"></a>Konfigurere bokføring i bakgrunnen med jobbkøer
-Jobbkøer er et effektivt verktøy til å planlegge kjøring av forretningsprosesser i bakgrunnen, for eksempel når flere brukere prøver å bokføre ordrer, men bare én kan behandles om gangen. Du kan også planlegge bokføringer for timer når det passer for din organisasjon. I din virksomhet kan det for eksempel være fornuftig å kjøre visse rutiner etter at det meste av dagens dataregistrering er gjort.
-
-Du kan oppnå dette ved å angi at jobbkøen skal kjøre ulike massebokføringsrapporter, for eksempel rapportene **Massebokfør ordrer**, **Massebokfør salgsfakturaer**, **Massebokfør ordrereturer** og **Massebokfør salgskreditnotaer**. Hvis du vil ha mer informasjon, se [Opprette en jobbkøpost for ordrebokføringen i bakgrunnen](admin-job-queues-schedule-tasks.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).  
-
-[!INCLUDE[d365fin](includes/d365fin_md.md)] støtter ordrebokføring i bakgrunnen for alle salgs-, kjøps- og servicedokumenter.
-
-> [!NOTE]
-> Noen av jobbene endrer samme data og bør ikke kjøres samtidig, fordi dette kan forårsake konflikter. Bakgrunnsjobber for salgsdokumenter vil for eksempel prøve å endre de samme dataene samtidig. Jobbkøkategorier bidrar til å forhindre denne typen konflikter ved å sørge for at et annet prosjekt som tilhører samme jobbkøkategori, ikke blir kjørt før den er ferdig. Et prosjekt som for eksempel tilhører en jobbkøkategori for salg, vil vente til alle andre salgsrelaterte jobber er utført. Du angir en jobbkøkategori på hurtigfanen **Bakgrunnsbokføring** på siden **Salgsoppsett**. 
-> 
-> [!INCLUDE[d365fin](includes/d365fin_md.md)] gir jobbkøkategorier for salg, kjøp og finansbokføring. Vi anbefaler at én av disse eller en du oppretter, alltid angis. Hvis det oppstår feil på grunn av konflikter, kan du vurdere å definere en kategori for all bakgrunnsbokføring av salg, kjøp og finans.
-
-Fremgangsmåten nedenfor forklarer hvordan du konfigurerer ordrebokføring i bakgrunnen. Trinnene er de samme for kjøp og service.  
-
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
-2. På siden **Salgsoppsett** merker du av for **Bokfør med jobbkø**.
-3. Hvis du vil filtrere på jobbkøposter for ordrebokføring, velger du feltet **Kategorikode for jobbkø** og deretter **Salgsbokf**.
-
-    Et jobbkøobjekt, codeunit 88 **Salgspost via jobbkø**, opprettes. Fortsett med å aktivere den på siden **Poster i jobbkø**.
-4. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Poster i jobbkø**, og velg deretter den relaterte koblingen.
-5. På siden **Poster i jobbkø** velger du **Ny**-handlingen.
-6. I feltet **Objekttype som skal kjøres** velger du **Codeunit**.  
-7. I feltet **Objekt-ID som skal kjøres** velger du **88**. Feltene Beskrivelse og Objektoverskrift som skal kjøres viser Salgspost via jobbkø.
-
-    Ingen andre felt er relevante for denne situasjonen.
-8. Velg **Sett status til Klar**-handlingen.
-9. Hvis du vil kontrollere at jobbkøen fungerer som forventet, bokfører du en ordre. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).
-10. Se på siden **Loggposter for jobbkø** hvis ordren ble bokført. Hvis du vil ha mer informasjon, se [Vise status eller feil i jobbkøen](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
-
-Hvis du også vil at salgsdokumenter skal skrives ut når de bokføres, merker du av for **Bokfør og skriv ut med jobbkø** på siden **Salgsoppsett**.  
-
-> [!IMPORTANT]  
-> Hvis du konfigurerer en jobb som bokfører og skriver ut dokumenter, og skriveren viser en dialogboks, for eksempel en forespørsel om legitimasjon eller en advarsel om lavt skriverblekk, blir dokumentet bokført, men ikke skrevet ut. Den tilsvarende jobbkøposten blir til slutt tidsavbrutt, og **Status**-feltet settes til **Feil**. Vi anbefaler derfor at du ikke bruker et skriveroppsett som krever samhandling med visningen av dialogbokser for skriveren i forbindelse med bakgrunnsbokføring.
-
-## <a name="to-create-a-job-queue-entry-for-batch-posting-of-sales-orders"></a>Opprette en jobbkøpost for massebokføring av ordrer
-Følgende fremgangsmåte viser hvordan du konfigurerer rapporten **Massebokfør ordrer** til å automatisk bokføre frigitte ordrer kl. 16:00 i ukedager.  
-
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Poster i jobbkø**, og velg deretter den relaterte koblingen.  
-2. Velg handlingen **Ny**.  
-3. I feltet **Objekttype som skal kjøres** velger du **Rapport**.  
-4. I feltet **Objekt-ID som skal kjøres** velger du 296, **Massebokfør ordrer**.
-5. Merk av for **Rapportforespørselsside**.
-6. På forepørselssiden **Massebokfør ordrer** må du definere hva som skal tas med ved automatisk bokføring av ordrer, og deretter velge **OK**-knappen.
-7. Merk av i alle bokser fra **Kjør på mandager** til **Kjør på fredager**.
-8. I feltet **Starttidspunkt** angir du 16:00.
-9. Velg **Sett status til Klar**-handlingen.
-
-Ordrer som er klar til å bokføres, skal nå bokføres hver ukedag kl. 16: 00.
-
-> [!NOTE]
-> Hvis jobbkøen ikke kan bokføre ordren, endres statusen til **Feil**, og ordren legges til i listen over ordrer som brukeren må håndtere manuelt. Hvis du vil ha mer informasjon, se [Vise status eller feil i jobbkøen](admin-job-queues-schedule-tasks.md#to-view-status-or-errors-in-the-job-queue).
 
 Når jobbkøer er satt opp og kjører, kan statusen endres på følgende måte i hver gjentakende periode:
 
@@ -86,41 +37,78 @@ Når jobbkøer er satt opp og kjører, kan statusen endres på følgende måte i
 
 Etter at en jobb er fullført, fjernes den fra listen over jobbkøposter med mindre den er en gjentakende jobb. Hvis det er en gjentakende jobb, justeres feltet **Tidligste starttidspunkt** til å vise neste gang jobben er forventet å kjøre.  
 
-## <a name="to-view-status-or-errors-in-the-job-queue"></a>Vise status eller feil i jobbkøen
-Data som genereres ved kjøring av en jobbkø, lagres i databasen, slik at du kan feilsøke jobbkøfeil.
+## <a name="monitor-status-or-errors-in-the-job-queue"></a>Overvåk status eller feil i jobbkøen
+
+Data som genereres ved kjøring av en jobbkø, lagres i databasen, slik at du kan feilsøke jobbkøfeil.  
+
+For hver jobbkøpost kan du vise og endre statusen. Når du oppretter en jobbkøpost, er statusen for posten satt til **Avvent**. Du kan for eksempel sette statusen til **Klar** og tilbake til **Avvent**. Ellers oppdateres statusinformasjon automatisk.
+
+Tabellen nedenfor beskriver verdiene i feltet **Status**.
+
+| Status | Beskrivelse |
+|--|--|
+| Klar | Angir at jobbkøposten er klar til å kjøres. |
+| I arbeid | Angir at jobbkøposten er pågår. Dette feltet oppdateres mens jobbkøen kjører. |
+| Avvent | Standard. Angir statusen for jobbkøposten når den opprettes. Velg handlingen **Sett status til Klar** for å endre statusen til **Klar**. Velg handlingene **Satt på vent** eller **Avbryt** for endre statusen tilbake til **Avvent**. |
+| Feil | Angir at det finnes en feil. Velg **Vis feil** for å vise feilmeldingen. |
+| Ferdig | Angir at jobbkøposten er fullført. |
 
 ### <a name="to-view-status-for-any-job"></a>Slik viser du statusen for en jobb
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Poster i jobbkø**, og velg deretter den relaterte koblingen.
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Jobbkøposter**, og velg deretter den relaterte koblingen.
 2. På siden **Poster i jobbkø** velger du en jobbkøpost og deretter **Loggposter**-handlingen.  
 
-### <a name="to-view-status-from-a-sales-or-purchase-document"></a>Slik viser du status fra et salgs- eller kjøpsdokument
-1. Fra dokumentet som du har prøvd å bokføre med jobbkøen, velger du feltet **Jobbkøstatus**, som inneholder **Feil**.
-2. Les feilmeldingen og løs problemet.
+> [!TIP]
+> Du kan også vise statusen for jobbkøposter ved å bruke Application Insights i Microsoft Azure for mer detaljert analyse basert på telemetri. Hvis du vil ha mer informasjon, kan du se [Overvåke og analysere telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) og [Analysere telemetri for jobbkølivsyklus](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) i utvikler- og administrasjonsinnholdet for [!INCLUDE [prod_short](includes/prod_short.md)].
+
+## <a name="view-scheduled-tasks"></a>Vis planlagte oppgaver
+
+Siden **Planlagte oppgaver** i [!INCLUDE [prod_short](includes/prod_short.md)] viser hvilke oppgaver som er klare til å kjøres i jobbkøen. Siden viser også informasjon om selskapet som hver oppgave er definert til å kjøre i. Bare oppgaver som er merket som tilhører gjeldende miljø, kan imidlertid kjøres.  
+
+Hvis for eksempel gjeldende selskap er i et miljø som er en kopi av et annet miljø, blir alle planlagte oppgaver automatisk stoppet. Bruk siden **Planlagte oppgaver** til å angi oppgaver som klare til å kjøres i jobbkøen.  
+
+> [!NOTE]
+> Interne administratorer og brukere kan planlegge oppgaver som skal kjøres. Delegerte administratorer kan ikke det.
 
 ## <a name="the-my-job-queue-part"></a>Delen Min jobbkø
-Delen **Min jobbkø** viser i rollesenteret ditt viser jobbkøpostene som du har startet, men som ennå ikke er fullført. Som standard er delen ikke synlig, så du må legge den til i rollesenteret. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).  
+
+Delen **Min jobbkø** viser i rollesenteret ditt viser jobbkøpostene som du har startet, men som ennå ikke er fullført. Som standard er delen ikke synlig, så du må legge den til i rollesenteret. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).  
 
 Delen viser hvilke dokumenter med din ID i feltet **Tilordnet bruker-ID** som behandles eller er i kø, inkludert de som er relatert til bokføring i bakgrunnen. Delen kan på et øyeblikk fortelle deg om det har oppstått en feil i posteringen av et dokument, eller om det er feil i en jobbkøpost. Delen gjør det også mulig å avbryte en dokumentpostering hvis den ikke kjører.
 
 ### <a name="to-view-an-error-from-the-my-job-queue-part"></a>Slik viser du en feil fra delen Min jobbkø:
+
 1. I en oppføring med statusen **Feil** velger du **Vis feil**-handlingen.
 2. Les feilmeldingen og løs problemet.
 
-## <a name="security"></a>Sikkerhet  
-Jobbkøposter kjører basert på tillatelser. Disse tillatelsene må tillate kjøring av rapporten eller kodeenheten.  
+## <a name="examples-of-what-can-be-scheduled-using-job-queue"></a>Eksempler på hva som kan planlegges ved hjelp av jobbkø
 
-Når en jobbkø aktiveres automatisk, kjører den med legitimasjonen for brukeren. Når en jobbkø aktiveres som en plalagt oppgave, kjører den med legitimasjon for serverforekomsten. Når en jobb kjøres, kjører den med legitimasjon for jobbkøen som aktiverer den. Brukeren som opprettet denne jobbkøposten, må imidlertid også ha tillatelser. Når en jobb er "Kjør i brukerøkt" (for eksempel under bakgrunnsbokføring), kjører den med legitimasjonen til brukeren som opprettet jobben.  
+### <a name="schedule-reports"></a>Planlegg rapporter
 
-> [!IMPORTANT]  
->  Hvis du bruker SUPER-tillatelsessettet som følger med [!INCLUDE[d365fin](includes/d365fin_md.md)], har du og brukerne tillatelse til å kjøre alle objektene. I dette tilfellet er tilgang for hver bruker bare begrenset av tillatelser til data.  
+Du kan planlegge at en rapport eller satsvis jobb skal kjøres på en bestemt dato og et bestemt klokkeslett. Planlagte rapporter og satsvise jobber legges i jobbkøen og behandles på det planlagte tidspunktet, på samme måte som andre jobber. Du velger alternativet **Planlegg** etter at du har valgt handlingen **Send til**, og deretter angir du informasjon som skriver, dato og klokkeslett, gjentakelse.  
 
-## <a name="using-job-queues-effectively"></a>Bruke jobbkøer effektivt  
-Jobbkøposten inneholder mange felt som har som formål å sende parametere til en kodeenhet som du har angitt for kjøring sammen med en jobbkø. Dette betyr også at kodeenheter som skal kjøres via jobbkøen må angis med prosjektkøposten som en parameter i **OnRun**-utløseren. Dette gir et ekstra lag av sikkerhet, siden det forhindrer brukere fra å kjøre tilfeldige kodeenheter via jobbkøen. Hvis brukeren må sende parametere til en rapport, kan dette bare gjøres ved å wrappe rapportutførelsen i en kodeenhet, som deretter analyserer inndataparameterne og setter dem inn i rapporten før den utfører den.  
+Hvis du vil ha mer informasjon, kan du se [Planlegge en rapport for kjøring](ui-work-report.md#ScheduleReport)
 
-## <a name="scheduling-synchronization-between-d365fin-and-crm_md"></a>Planlegge synkronisering mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)]
-Hvis du har integrert [!INCLUDE[d365fin](includes/d365fin_md.md)] med [!INCLUDE[crm_md](includes/crm_md.md)], kan du bruke jobbkøen til å planlegge når du vil synkronisere data for de postene du har kombinert i de to forretningsprogrammene. Avhengig av retningslinjer og regler du har definert for integrasjonen, kan synkroniseringsjobbene også opprette nye poster i målappen for å samsvare med kilden. Hvis for eksempel en selger oppretter en ny kontakt i [!INCLUDE[crm_md](includes/crm_md.md)], kan synkroniseringsjobben opprette denne kontakten for den koblede selgeren i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, se [Planlegge en synkronisering mellom Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
+### <a name="schedule-synchronization-between-prod_short-and-prod_short"></a>Planlegg synkronisering mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-## <a name="see-also"></a>Se også  
+Hvis du har integrert [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[prod_short](includes/cds_long_md.md)], kan du bruke jobbkøen til å planlegge når du vil synkronisere data for de postene du har kombinert i de to forretningsprogrammene. Avhengig av retningen og reglene du har definert for integrasjonen, kan synkroniseringsjobbene også opprette nye poster i målappen for å samsvare med kilden. Hvis for eksempel en selger oppretter en ny kontakt i [!INCLUDE[crm_md](includes/crm_md.md)], kan synkroniseringsjobben opprette denne kontakten for den koblede selgeren i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Planlegge en synkronisering mellom Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
+
+### <a name="schedule-the-posting-of-sales-and-purchase-orders"></a>Planlegg bokføring av ordrer og bestillinger
+
+Jobbkøer er et effektivt verktøy til å planlegge kjøring av forretningsprosesser i bakgrunnen, for eksempel når flere brukere prøver å bokføre ordrer, men bare én kan behandles om gangen.  
+
+Hvis du vil ha mer informasjon, kan du se [Konfigurere bokføring i bakgrunnen med jobbkøer](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
+
+## <a name="monitor-the-job-queue-with-telemetry"></a>Overvåk jobbkøen med telemetri
+
+Som administrator kan du bruke [Application Insights](/azure/azure-monitor/app/app-insights-overview) til å samle og analysere telemetri som du kan bruke til å identifisere problemer. Hvis du vil ha mer informasjon, kan du se [Overvåke og analysere telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) i utvikler- og administrasjonsinnholdet.  
+
+## <a name="see-also"></a>Se også
+
 [Administrasjon](admin-setup-and-administration.md)  
 [Definere Business Central](setup.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
+[Analysere telemetri for sporing av jobbkølivssyklus](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Definere økonomiske prosesser | Microsoft-dokumentasjon
-description: Få informasjon om oppgavene for å konfigurere finans i virksomheten slik at alle regnskaps-, revisjons- og bokføringsbehov dekkes.
+title: Definere økonomiske prosesser
+description: Få informasjon om oppgavene som kreves for å konfigurere finans i virksomheten slik at alle regnskaps-, revisjons- og bokføringsbehov dekkes.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: b7a272d916182fda7815e04bb314a5c29942ca98
-ms.sourcegitcommit: b9264b4ed650feca18776892ec23f2aa7ec43e20
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: d2763e42ae6c31a4f631457ea16b6a5bdcad40db
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/13/2020
-ms.locfileid: "3372571"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6327016"
 ---
 # <a name="setting-up-finance"></a>Konfigurere finans
 Før du kan begynne å drive selskapet, må du angi regler og standarder for hvordan du vil administrere økonomiprosessene for dette selskapet. Du starter ved å definere de viktigste regnskapspostene i selskapet - kontoplanen. Deretter definerer du bokføringsgrupper, som gjør prosessen ved å tilordne standard bokføringsfinanskonti til kunder, leverandører og varer mer effektiv.
@@ -30,15 +30,17 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 
 | Hvis du vil | Se |
 | --- | --- |
-| Velg hvordan du betaler dine leverandører. |[Definere betalingsmåter](finance-payment-methods.md) |
+| Angi hvordan du vil betales av kunder, og hvordan du vil betale leverandørene. |[Definer betalingsmåter](finance-payment-methods.md) |
+| Definer betalingsbetingelser for å håndtere forfallsdatoer og beregne mulige kontantrabatter.|[Definere betalingsbetingelser](finance-payment-terms.md) |
 | Angi bokføringsgruppene som tilordner enheter som kunder, leverandører, varer, ressurser og salgs- og kjøpsdokumenter til finanskonti. |[Definere bokføringsgrupper](finance-posting-groups.md)|
 |Opprette kontoskjemaer og definere kontokategorier for å angi innholdet i økonomiske diagrammer og rapporter, for eksempel balanse- og resultatregnskapsrapporter.|[Klargjøre finansrapportering med kontoskjemaer og kontokategorier](bi-how-work-account-schedule.md)|
 |Definer en toleranse som avslutter systemet en faktura etter, selv om betalingen, inkludert alle rabatter, ikke fullt ut dekker beløpet på fakturaen.|[Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Definere regnskapsperioder. |[Arbeide med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md) |
+|Definer purrebetingelser som hjelper deg med å samle inn forfalte betalinger.|[Definer betingelser og grader for purringer](finance-setup-reminders.md)|
 | Definere hvordan du rapporterer merverdiavgiftsbeløp du har innkrevd for salg, til skattemyndighetene. |[Definere merverdiavgift (mva)](finance-setup-vat.md)|
 |Klargjør for å håndtere urealisert mva i forbindelse med kontantbaserte regnskapsmetoder.|[Definere urealisert merverdiavgift for kontantbasert regnskap](finance-setup-unrealized-vat.md)|
 | Angi funksjoner for salg og kjøp til å håndtere betalinger i fremmed valuta.|[Aktivere utligning av kundeposter i forskjellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md)
-|Definer én eller flere flere valutaer, slik at beløpene rapporteres automatisk i både NOK og en tilleggsrapporteringsvaluta i hver finanspost og andre poster.|[Definere en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md)|
+|Definer én eller flere flere valutaer, slik at beløpene rapporteres automatisk i både LV og en tilleggsrapporteringsvaluta i hver finanspost og andre poster.|[Definere en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md)|
 |Juster tilleggsvalutaangivelser periodisk for å utligne varierende valutakurser.|[Oppdatere valutakurser](finance-how-update-currencies.md)|
 |Definer flere rentesatser som skal brukes for forskjellige perioder for forsinkede betalinger handelstransaksjoner.|[Angi flere rentesatser.](finance-how-to-set-up-multiple-interest-rates.md)|
 |Klargjør for å runde av fakturabeløp automatisk når du oppretter fakturaer.|[Definere rakturaavrunding](finance-set-up-invoice-rounding.md)|
@@ -48,6 +50,10 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 | Definere Intrastat-rapportering, og send inn rapporten til myndighetene | [Konfigurere og rapportere Intrastat](finance-how-setup-report-intrastat.md)|
 |Sørg for at en post i en finanskladd fordeles til flere forskjellige konti når du bokfører kladden, enten antall, prosent eller beløp.|[Bruke fordelingsnøkler i finanskladder](ui-how-use-allocation-keys-general-journals.md)|
 |Definere kildekoder og årsakskoder som du kan bruke til å spore revisjonsspor|[Definere kildespor og årsaksspor for revisjonsspor](finance-setup-trail-codes.md)|
+|Angi standardrapporter som skal brukes for ulike dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
+
+> [!TIP]
+> Avhengig av den geografiske plasseringen din kan enkelte sider inneholde felt som ikke er beskrevet i artiklene som er oppført her, fordi de gjelder for lokale funksjoner eller tilpasninger. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
 
@@ -58,6 +64,9 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 [Arbeide med dimensjoner](finance-dimensions.md)  
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Analysere kontantstrømmen i firmaet](finance-analyze-cash-flow.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

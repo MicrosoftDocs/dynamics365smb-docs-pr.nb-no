@@ -1,21 +1,21 @@
 ---
-title: Forberede kundedatamigrering med maler | Microsoft Docs
-description: Finn ut hvordan du bruker konfigurasjonsmaler til å strukturere eksisterende kundedata før du overfører dataene til det nye selskapet i Business Central.
+title: Klargjør kundedataoverføring med maler
+description: Finn ut hvordan du bruker konfigurasjonsmaler til å strukturere eksisterende kundedata før du overfører hoveddataene til det nye selskapet i Business Central.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/06/2020
-ms.author: sgroespe
-ms.openlocfilehash: 273d7a0b15684f7cd97874d4dba818b9a289e2a7
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 49ea877d2a6a213a1559b7269bc4b70f660745d7
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535925"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649890"
 ---
 # <a name="prepare-to-migrate-customer-data-with-templates"></a>Klargjøre for å flytte kundedata med maler
 
@@ -28,7 +28,7 @@ Du oppretter vanligvis datamaler for følgende hoveddatatabeller:
 - **Vare**  
 - **Leverandør**  
 
-Du kan imidlertid opprette en malstruktur og bruke den på en hvilken som helst tabell i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Du kan imidlertid opprette en malstruktur og bruke den på en hvilken som helst tabell i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 > [!TIP]  
 > Du kan også bruke datamaler for daglige operasjoner for å opprette nye poster som er basert på maler. Disse datamalene fungerer bare for de støttede hoveddatatabellene. Hvis du vil ha mer informasjon, kan du for eksempel se [Registrere nye varer](inventory-how-register-new-items.md).  
@@ -47,7 +47,7 @@ Når du velger en eksisterende datamal, må du vurdere om malene som du opprette
 > [!TIP]  
 > Du kan også bruke datamaler til raskt å opprette nye poster. Bruk dem til å opprette data raskere og mer nøyaktig. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsmaler**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsmaler**, og velg deretter den relaterte koblingen.  
 2. På siden **Konfigurasjonsmaler** velger du en datamal fra oversikten, og velger deretter **Rediger**-handlingen.  
 
 Hvis standardmalene ikke oppfyller dine behov, kan du opprette nye maler eller legge til felt i en eksisterende mal. Hvis standardmalene er tilstrekkelige, kan du bruke dem til å opprette poster basert på maler for hoveddata.
@@ -87,7 +87,7 @@ Tabell-ID-en, tabellnavnet og linjene i den eksisterende datamalen settes inn i 
 3. Angi en aktuell verdi i **Standardverdi**-feltet. I noen tilfeller vil du kanskje bruke en verdi som ikke finnes i databasen. I dette tilfellet kan du merke av for **Hopp over relasjonskontroll**, slik at du kan bruke data uten å få feil.
 
     > [!TIP]  
-    > Siden **Standardverdi**-feltet ikke har et oppslag for tilsvarende [!INCLUDE[d365fin](includes/d365fin_md.md)]-feltalternativer, kopierer du verdien du vil bruke fra den tilknyttede siden og limer den inn i malen.
+    > Siden **Standardverdi**-feltet ikke har et oppslag for tilsvarende [!INCLUDE[prod_short](includes/prod_short.md)]-feltalternativer, kopierer du verdien du vil bruke fra den tilknyttede siden og limer den inn i malen.
 
 4. Merk av for **Obligatorisk** hvis brukere må fylle ut det aktuelle feltet.
 
@@ -98,9 +98,9 @@ Tabell-ID-en, tabellnavnet og linjene i den eksisterende datamalen settes inn i 
 
 ## <a name="to-export-to-a-template-in-excel"></a>Slik eksporterer du til en mal i Excel:
 
-Du kan opprette en Excel-arbeidsbok som skal fungere som en mal som er basert på strukturen i en eksisterende databasetabell. Deretter kan du bruke malen til å samle kundedata i et konsekvent format for senere import til [!INCLUDE[d365fin](includes/d365fin_md.md)].
+Du kan opprette en Excel-arbeidsbok som skal fungere som en mal som er basert på strukturen i en eksisterende databasetabell. Deretter kan du bruke malen til å samle kundedata i et konsekvent format for senere import til [!INCLUDE[prod_short](includes/prod_short.md)].
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.
 2. Legg til en tabell i listen, eller velg en eksisterende tabell. Hvis du vil ha mer informasjon, se [Behandle selskapskonfigurasjon i et forslag](admin-how-to-manage-company-configuration-in-a-worksheet.md).
 3. Velg handlingen **Vis felt** for å definere feltene fra tabellen som du vil inkludere i malen.
 4. Velg **Eksporter til mal**-handlingen.
@@ -122,7 +122,8 @@ Når du bruker data fra en Excel-mal i en tabell som også har en tilknyttet kon
 Enhver post der dataene er brukt på denne måten, er fullført fordi den består av data som er angitt av en bruker i Excel, i tillegg til standardverdiene som er angitt av konfigurasjonsmalen.
 
 > [!NOTE]
-> Hvis dataene i tabellene i konfigurasjonspakken inneholder datoer, for eksempel bokføringsdatoer på fakturaer, tas datoene med i tidssonen som er angitt i [!INCLUDE[d365fin](includes/d365fin_md.md)]. 
+> Hvis dataene i tabellene i konfigurasjonspakken inneholder datoer, for eksempel bokføringsdatoer på fakturaer, tas datoene med i tidssonen som er angitt i [!INCLUDE[prod_short](includes/prod_short.md)]. 
+
 
 ## <a name="to-create-a-record-from-a-configuration-template"></a>Slik oppretter du en post fra en konfigurasjonsmal:
 
@@ -130,17 +131,26 @@ Du kan bruke strukturen i data som datamalene inneholder, til å enkeltvis konve
 
 Trinnene nedenfor viser hvordan du oppretter et varekort fra en varedatamal. Du kan opprette en post fra en hvilken som helst datamal ved å bruke den samme fremgangsmåten.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsmaler**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsmaler**, og velg deretter den relaterte koblingen.  
 2. Velg **Vare**-malen, og velg deretter handlingen **Rediger**. Hvis du vil ha mer informasjon, se [Slik oppretter du en datamal](admin-use-templates-to-prepare-customer-data-for-migration.md#to-create-a-new-data-template).
 3. Velg handlingen **Opprett forekomst**. Et varekort opprettes.  
 4. Velg **OK**.  
-5. For å gå gjennom det nye varekortet velger du ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Varer**, og velger deretter den relaterte koblingen.  
+5. Hvis du vil gå gjennom det nye varekortet, velger du ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
 6. Åpne det nye varekortet.  
 7. Utvid ulike hurtigfaner, og kontroller at informasjonen er opprettet på riktig måte på dem.  
 
+## <a name="to-use-conversion-templates"></a>Slik bruker du konverteringsmaler
+
+Du kan konvertere kontakter til kunder, leverandører og ansatte. 
+
+### <a name="to-convert-a-contact-into-a-customer-vendor-or-employee"></a>Slik konverterer du en kontakt til en kunde, leverandør eller ansatt
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kontakter**, og velg deretter riktig kontakt. 
+2. Velg **Handlinger** på kontaktkortet og velg deretter **Funksjoner** og **Opprett som kunde, leverandør, bank eller ansatt**.
+
+
 ## <a name="to-use-a-configuration-template-on-a-record"></a>Slik bruker du en konfigurasjonsmal på en post:
 
-Du kan bruke en datamal for en hvilken som helst post i [!INCLUDE[d365fin](includes/d365fin_md.md)] og bruke denne teknikken til å endre eller modifisere en post. Når du gjør dette, skriver du imidlertid over eksisterende verdier i posten med de som er i malen. Du bør derfor være forsiktig når du bruker en mal i eksisterende poster.
+Du kan bruke en datamal for en hvilken som helst post i [!INCLUDE[prod_short](includes/prod_short.md)] og bruke denne teknikken til å endre eller modifisere en post. Når du gjør dette, skriver du imidlertid over eksisterende verdier i posten med de som er i malen. Du bør derfor være forsiktig når du bruker en mal i eksisterende poster.
 
 > [!WARNING]  
 > **Bruk mal**-funksjonen overskriver eksisterende data i en post. Hvis denne funksjonen brukes i flytting av hoveddata, overskriver den de importerte dataene når du oppretter poster.
@@ -153,8 +163,14 @@ Følgende fremgangsmåte er basert på et nytt kundekort.
 
 Standardverdiene fra den valgte kundemalen settes inn på kundekortet.
 
+> [!NOTE]
+> Du kan ikke bruke vinduet Bruk mal til å fylle ut felter på kunder, leverandører og lignende. I stedet må du bruke funksjonen **Rediger i Excel**. Hvis du vil ha mer informasjon, kan du se [Rediger i Excel](across-work-with-excel.md#edit-in-excel).
+
 ## <a name="see-also"></a>Se også
 
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)  
 [Registrere nye kunder](sales-how-register-new-customers.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

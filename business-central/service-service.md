@@ -1,27 +1,27 @@
 ---
-title: Servicehåndtering | Microsoft-dokumentasjon
-description: Lær å bruke funksjonene som er utformet for å støtte serviceoperasjoner på verkstedet og ute hos kunder.
+title: Servicehåndtering
+description: Lær hvordan du bruker funksjoner i Business Central til å administrere og spore tjenester som støtter verksted- og feltserviceoperasjoner.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6490ad13833c97c79c232b6433b4b2f51e51bc4f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 4e3f85ae3bc5f8672f148ad04388e5810cefb45f
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192366"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6320084"
 ---
 # <a name="service-management"></a>Servicehåndtering
 > [!NOTE]
 > Funksjonaliteten som er beskrevet i dette emnet og underemner, vises bare i brukergrensesnittet hvis du har **Premium**-opplevelsen. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).
 
-Det å kunne yte kontinuerlig service til kunder er viktig for alle bedrifter og kan bidra til kundetilfredshet, lojalitet og inntekt. Det er imidlertid ikke alltid enkelt å behandle og spore service, og [!INCLUDE[d365fin](includes/d365fin_md.md)] har et sett med verktøy som kan være til hjelp. Disse verktøyene er utviklet for å støtte serviceoperasjoner på verkstedet og ute hos kunder og kan brukes i forretningsscenarioer som for eksempel komplekse distribusjonssystemer for kundeservice, industrielle servicemiljøer med stykklister, og fordeling av et stort antall oppgaver på serviceteknikere med behov for reservedelsstyring.  
+Det å kunne yte kontinuerlig service til kunder er viktig for alle bedrifter og kan bidra til kundetilfredshet, lojalitet og inntekt. Det er imidlertid ikke alltid enkelt å behandle og spore service, og [!INCLUDE[prod_short](includes/prod_short.md)] har et sett med verktøy som kan være til hjelp. Disse verktøyene er utviklet for å støtte serviceoperasjoner på verkstedet og ute hos kunder og kan brukes i forretningsscenarioer som for eksempel komplekse distribusjonssystemer for kundeservice, industrielle servicemiljøer med stykklister, og fordeling av et stort antall oppgaver på serviceteknikere med behov for reservedelsstyring.  
 
  Med disse verktøyene kan du oppnå følgende:  
 
@@ -46,6 +46,9 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 ## <a name="see-also"></a>Se også  
 [Håndtere fordringer](receivables-manage-receivables.md)   
 [Prosjekter](projects-how-create-jobs.md)   
-[Velkommen til [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)] ](index.md)
+[Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

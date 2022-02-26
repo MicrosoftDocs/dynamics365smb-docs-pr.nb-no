@@ -1,21 +1,21 @@
 ---
-title: Klargjøre en konfigurasjonspakke | Microsoft-dokumentasjon
-description: Finn ut nå hvordan du konfigurerer en RapidStart-konfigurasjonspakke som kan hjelpe deg med å sette opp nye selskaper basert på eksisterende data.
-author: SorenGP
+title: Klargjøre en konfigurasjonspakke
+description: Finn ut nå hvordan du klargjør en RapidStart-konfigurasjonspakke som kan hjelpe deg med å sette opp nye selskaper basert på eksisterende data.
+author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/06/2020
-ms.author: sgroespe
-ms.openlocfilehash: f2550f9df9e2eda87e2f5b3de9f6be00d4758b7a
-ms.sourcegitcommit: 7d05fc049d81cae9b2b711101cdaea037b7ba61f
+ms.date: 07/23/2021
+ms.author: bholtorf
+ms.openlocfilehash: b3b8b7792363d8d44cdfea563b422748ad39de90
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/06/2020
-ms.locfileid: "3535975"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660234"
 ---
 # <a name="prepare-a-configuration-package"></a>Klargjøre en konfigurasjonspakke
 
@@ -30,6 +30,12 @@ Det er noen ting du bør vurdere før du oppretter en konfigurasjonspakke, fordi
 ### <a name="tables-that-contain-posted-entries"></a>Tabeller som inneholder bokførte poster
 
 Du kan ikke importere data til tabeller som inneholder bokførte poster, for eksempel tabellene for kunde-, leverandør- og vareposter, så du bør ikke ta med disse dataene i konfigurasjonspakken. Du kan legge til oppføringer i disse tabellene når du har importert konfigurasjonspakken ved hjelp av journaler for å bokføre postene. Hvis du vil ha mer informasjon, kan du se [Bokføre dokumenter og kladder](ui-post-documents-journals.md).
+
+### <a name="table-names-that-contain-special-characters"></a>Tabellnavn som inneholder spesialtegn
+
+Vær forsiktig hvis du har tabeller eller felt som har samme temporale navn, men som skilles med spesialtegn, for eksempel %, &, <, >, ( og ). Tabellen XYZ kan for eksempel inneholde feltene "Felt 1" og "Felt 1%".
+
+XML-prosessoren godtar bare noen spesialtegn, og vil fjerne tegn som ikke godtas. Hvis du fjerner et spesialtegn, for eksempel %-tegnet i "Felt 1%", vil det føre til to eller flere tabeller eller felt får samme navn, og det vil oppstå en feil når du eksporterer eller importerer en konfigurasjonspakke. 
 
 ### <a name="licensing"></a>Lisensiering
 
@@ -50,14 +56,14 @@ Du kan importere en konfigurasjonspakke som har blitt eksportert fra en database
 
 ## <a name="to-create-a-configuration-package"></a>Slik oppretter du en konfigurasjonspakke:
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. På hurtigfanen **Generelt** fyller du ut feltene riktig. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Hvis du vil utelate konfigurasjonsspørreskjemaene, konfigurasjonsmalene og konfigurasjonforslagstabellene fra pakken, merker du av for **Utelat konfigurasjonstabeller**. Ellers vil disse tabellene automatisk legges til i listen over pakketabeller når du eksporterer pakken.  
 5. Velg handlingen **Hent tabeller**. Kjørselssiden **Hent pakketabeller** åpnes.  
 6. Velg feltet **Velg tabeller**. Siden **Konfig. valg** åpnes.  
 7. Velg handlingen **Merk alt** for å legge til alle tabeller i pakken, eller du merker avmerkingsboksen **Valgt** for hver tabell i listen som du vil legge til.
-8. Velg **OK**-knappen. Antall tabeller du har valgt, er angitt i feltet **Velg tabeller**. Angi flere alternativer, og velg deretter **OK**-knappen. [!INCLUDE[d365fin](includes/d365fin_md.md)] tabeller legges til i linjene på **Konfig.pakke**-siden.  
+8. Velg **OK**-knappen. Antall tabeller du har valgt, er angitt i feltet **Velg tabeller**. Angi flere alternativer, og velg deretter **OK**-knappen. [!INCLUDE[prod_short](includes/prod_short.md)] tabeller legges til i linjene på **Konfig.pakke**-siden.  
 
     > [!NOTE]  
     >  Du kan også gjøre dette i konfigurasjonsforslaget. Velg tabellene du vil inkludere i pakken, og velg deretter handlingen **Tilordne pakke**.
@@ -68,8 +74,20 @@ Angi hvilke felt som er inkludert i pakken. Alle feltene er inkludert som standa
     - Hvis du bare vil velge felt du vil inkludere, velger du handlingen **Fjern inkludert**. Hvis du vil legge til alle felt, velger du handlingen **Sett inkludert**.  
     - Hvis du vil angi at feltdataene ikke skal valideres, fjerner du merket for **Valider felt** for feltet.  
 
-10. Finn ut om du har introdusert mulige feil ved å velge handlingen **Valider pakke**. Dette kan skje når du ikke tar med tabeller som konfigurasjonen avhenger av.  
-11. Velg **OK**-knappen.  
+10. Hvis du vil bruke behandlingsfiltre på tabelldata eller legge til en codeunit med koden du vil inkludere i pakken, velger du linjen for den aktuelle tabellen og velger handlingen **Behandlingsregler**.
+
+    1. Fyll ut feltene på siden **Konfig. tabellbehandlingsregler**. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+
+        - Hvis du vil bruke filtre på data, angir du den aktuelle handlingen i feltet **Handling**, velger handlingen **Behandlingsfiltre** og fyller ut feltene.  
+
+            Microsofts konfigurasjonspakker for evalueringsselskapene definerer for eksempel behandlingsfiltre i tabellene **Salgshode** og **Bestillingshode**.
+        - Hvis du vil legge til en codeunit for behandlings, angir du den i feltet **ID for egendefinert behandlede codeunit**.
+
+          > [!NOTE]
+          > Codeunit må gjøre tabell 8614 *Konfig.pakkepost* som en parameter for `OnRun`-metoden.
+    2. Lukk siden.
+11. Finn ut om du har introdusert mulige feil ved å velge handlingen **Valider pakke**. Dette kan skje når du ikke tar med tabeller som konfigurasjonen avhenger av.  
+12. Velg **OK**-knappen.  
 
 Når du har fornyet listen over felt som skal inkluderes fra en tabell, kan du se resultatene i Excel.  
 
@@ -101,7 +119,7 @@ Du kan lagre filen med et navn som gir mening for deg, men du kan ikke endre fil
 
 Når du har opprettet en pakke som dekker de fleste behovene, kan du bruke den som grunnlag for å opprette lignende pakker. Dette kan forkorte implementeringstiden og forbedrer gjentakelse for RapidStart Services.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 2. Velg en pakke fra listen, og velg deretter handlingen **Kopier pakke**.  
 3. Angi en kode for den nye pakken i feltet **Ny pakkekode**.  
 4. Merk av for **Kopier Data** hvis du også vil kopiere databasedata fra den eksisterende pakken.  
@@ -111,7 +129,7 @@ Når du har opprettet en pakke som dekker de fleste behovene, kan du bruke den s
 
 Bruk konfigurasjonsforslaget til å samle inn og kategorisere informasjon du vil bruke til å konfigurere et nytt selskap, og til å ordne tabeller på en logisk måte. Formatering i forslaget er basert på et enkelt hierarki: områder inneholder grupper, som i sin tur inneholder tabeller. Områder og grupper er valgfrie, men nødvendige for å vise en oversikt over konfigurasjonsprosessen i rollesenteret for RapidStart Services.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
 2. Velg **Område** i **Linjetype**-feltet. Skriv inn et beskrivende navn i **Navn**-feltet.  
 3. Velg **Gruppe** i **Linjetype**-feltet. Skriv inn et beskrivende navn i **Navn**-feltet.  
 4. Velg **Tabell** i **Linjetype**-feltet. Velg tabellen du vil ta med i forslaget, i **Tabell-ID**-feltet.  
@@ -130,7 +148,7 @@ Når du har definert tabellene du vil skal behandles som en del av konfigurasjon
 > [!NOTE]  
 > Du kan også opprette en pakke direkte, og legge til tabeller i den. Hvis du vil ha mer informasjon, se [Slik oppretter du en konfigurasjonspakke](admin-how-to-prepare-a-configuration-package.md#to-create-a-configuration-package).
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.
 2. Velg en linje eller gruppe med linjer i konfigurasjonsforslaget som du vil tilordne til konfigurasjonspakke, og velg deretter handlingen **Tilordne pakke**.  
 3. Velg en pakke fra listen, eller velg handlingen **Ny** for å opprette en ny pakke, og velg deretter **OK**.  
 
@@ -141,11 +159,11 @@ Når du har definert tabellene du vil skal behandles som en del av konfigurasjon
 
 Når du oppretter en konfigurasjonpakke for en løsning, kan du vise og tilpasse de tilgjengelige databasedataene etter kundens behov. Databasetabellen må ha en tilknyttet side.  
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.
 2. Finn tabellene i konfigurasjonsforslaget som inneholder dataene du vil vise eller tilpasse.  
 
     > [!NOTE]  
-    >  Kontroller at hver tabell er tilordnet en side-ID. For standard [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller, fylles denne verdien ut automatisk. For egendefinerte tabeller må du angi ID-en.
+    >  Kontroller at hver tabell er tilordnet en side-ID. For standard [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller, fylles denne verdien ut automatisk. For egendefinerte tabeller må du angi ID-en.
 
 3. Velg handlingen **Databasedata**. Siden for den relaterte siden åpnes.
 4. Se gjennom informasjonen som er tilgjengelig. Endre den etter behov ved å slette poster som ikke er relevante eller ved å legge til nye.  
@@ -155,7 +173,7 @@ Når du oppretter en konfigurasjonpakke for en løsning, kan du vise og tilpasse
 Når du har sett gjennom og testet all oppsettsinformasjon, kan du fortsette med å kopiere dataene til ditt produksjonsmiljø. Du oppretter et nytt selskap i samme database.
 
 1. Åpne og start det nye selskapet.  
-2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
+2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
 3. Velg handlingen **Kopier data fra selskap**.  
 4. Velg **Kopier fra**-feltet på siden **Kopier selskapsdata**. **Selskaper**-siden åpnes.  
 5. Velg selskapet du vil kopiere data fra, og velg deretter **OK**. En liste over tabellene som er valgt i konfigurasjonsforslaget, åpnes. Det er bare tabeller som inneholder poster som er inkludert i denne listen.
@@ -168,3 +186,7 @@ Når du har sett gjennom og testet all oppsettsinformasjon, kan du fortsette med
 [Definere selskapskonfigurasjon](admin-set-up-company-configuration.md)  
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)  
+[Analysere sporingstelemetri for konfigurasjonspakke](/dynamics365/business-central/dev-itpro/administration/telemetry-configuration-package-trace)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

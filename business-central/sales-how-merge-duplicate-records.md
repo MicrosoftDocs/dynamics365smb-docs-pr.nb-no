@@ -1,23 +1,21 @@
 ---
-title: Slå sammen dupliserte kunde- eller leverandørposter | Microsoft Docs
-description: Beskriver hvordan du oppretter et kundekort for å registrere informasjon om hver nye kunde eller klient du selger til.
-services: project-madeira
-documentationcenter: ''
+title: Slå sammen dupliserte kunde- eller leverandørposter
+description: Beskriver hvordan du konsoliderer informasjon om kunder eller leverandører når du har duplikate poster om noen av dem.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 1fb7f049e253e70e9170c257848b3738dec9d176
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 336c10e93a50e7fb880f9bf5856c85b44daef266
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2312175"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6436854"
 ---
 # <a name="merge-duplicate-records"></a>Slå sammen dupliserte poster
 Siden ulike brukere oppretter nye kunde-, leverandør- eller kontaktkort over tid eller de nye postene opprettes automatisk under overføringen, kan en kunde, leverandør eller kontakt være representert i systemet med mer enn én post. I så fall kan du bruke siden **Slå sammen duplikat** fra kortet til posten du vil beholde. Siden siden gir deg en oversikt over dupliserte feltverdier og inneholder funksjoner for å velge hvilke verdier du vil beholde eller forkaste når du slår sammen to poster til én.
@@ -30,7 +28,7 @@ Siden ulike brukere oppretter nye kunde-, leverandør- eller kontaktkort over ti
 
 Følgende fremgangsmåte er basert på et kundekort. Trinnene er de samme for en leverandør og kontaktkort.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.
 2. Angi kunden som du vet eller mistenker at det finnes en duplisert post for, og velg deretter **Rediger**-handlingen.
 3. På siden **Kundekort** velger du handlingen **Slå sammen med**.
 4. På siden **Slå sammen duplikat** i feltet **Slå sammen med** velger du kunden som du mener er et duplikat av kunden du har åpnet, som er angitt i feltet **Gjeldende**.
@@ -67,4 +65,7 @@ Følgende fremgangsmåte er basert på et kundekort. Trinnene er de samme for en
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Definere kontakter](marketing-setup-contacts.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

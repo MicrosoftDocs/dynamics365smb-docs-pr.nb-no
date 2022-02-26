@@ -1,25 +1,25 @@
 ---
-title: Funksjonalitet som er spesifikk for norske brukere
-description: Emnene nedenfor beskriver den lokale funksjonaliteten i den norske versjonen av Business Central.
+title: Funksjonalitet som er spesifikk for norske brukere [NO]
+description: Emnene nedenfor beskriver all den lokale funksjonaliteten i den norske versjonen av Business Central.
 author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/09/2020
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 6d7447db84c025c2d1d0c45ad28496eea0bad10e
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.openlocfilehash: f31a3550fc639afa37d0c916ae109758182cfcf8
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454350"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6325806"
 ---
-# <a name="norway-local-functionality"></a>Funksjonalitet som er spesifikk for norske brukere
+# <a name="norway-local-functionality-in-the-norwegian-version"></a>Norge Lokal funksjonalitet i den norske versjonen
 
-Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prodshort](../../includes/prodshort.md)].  
+Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
 ## <a name="feature-availability"></a>Funksjonstilgjengelighet
 
@@ -78,12 +78,14 @@ Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske v
   [EHF Electronic Invoicing in Norway](ehf-electronic-invoicing-in-norway.md)  
   [Electronic Banking in Norway](electronic-banking-in-norway.md)  
   [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)  
-  [Norwegian Sales Documents](norwegian-sales-documents.md)  
   [Norwegian VAT Reporting](norwegian-vat-reporting.md)  
  [Recurring Orders](recurring-orders.md)  
  -->
 
 ## <a name="see-also"></a>Se også
 
-[Arbeide med [!INCLUDE[prodshort](../../includes/prodshort.md)]](../../ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,23 +1,23 @@
 ---
-title: Opprette samhandlinger på kontakter og segmenter | Microsoft-dokumentasjon
+title: Opprette samhandlinger på kontakter og segmenter
 description: Beskriver hvordan du kan opprette samhandlinger for kommunikasjon du har med kontaktene og segmentene i Business Central, for eksempel direktereklame.
-services: project-madeira
 documentationcenter: ''
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.date: 04/01/2020
+ms.search.forms: 5077, 5078, 5074, 5076, 5186, 5075, 5079
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 79b92b3e7be6f226fb6c32a55e2ec37a4ac6a363
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 73e8b515b62ac1334b6c156ff4330fc46b7a7414
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3181559"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8059807"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Opprette samhandlinger på kontakter og segmenter
 Du kan opprette samhandlinger hvis du vil registrere all samhandling og kommunikasjon med kontaktene og segmentene, for eksempel utsendinger.
@@ -38,7 +38,7 @@ Før du kan opprette samhandlinger, må du definere samhandlingsmaler. Hvis du v
 3. Velg samhandlingen du vil fullføre, og velg deretter handlingen **Fortsett**.
 
 ## <a name="to-create-an-interaction-on-a-segment"></a>Opprette en samhandling på et segment
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Segmenter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Segmenter**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene i inndelingen **Samhandling** på **Segment**-siden for å angi hvilken samhandling du vil tilordne segmentet.
 
     Etter at du har tilordnet en samhandling til segmentet, kan du tilpasse samhandlingen for hver enkelt kontakt i segmentet, for eksempel ved å velge en annen samhandlingsmal på linjene på siden **Segment**.  
@@ -54,3 +54,6 @@ Hvis du har merket av for **Opprett oppfølgingssegment**, opprettes et nytt seg
 [Administrere kontakter](marketing-contacts.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Arbeide med Business Central](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,37 +1,48 @@
 ---
-title: Opprette produksjonsordrer fra ordrer | Microsoft-dokumentasjon
-description: Du kan opprette produksjonsordrer fra ordrer i avdelingen Salg og markedsføring.
-services: project-madeira
-documentationcenter: ''
+title: Opprette produksjonsordrer fra ordrer
+description: Lær de ulike måtene for å opprette produksjonsordrer for produserte varer direkte fra ordrer.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: d1851131512f194f708f7873978a201d85a9e248
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.search.form: 99000883, 99000884
+ms.date: 06/22/2021
+ms.author: edupont
+ms.openlocfilehash: 493d47e13d9ad1d7a2424dec4cd3691e92068d73
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2314147"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973365"
 ---
 # <a name="create-production-orders-from-sales-orders"></a>Opprette produksjonsordrer fra ordrer
 Du kan opprette produksjonsordrer for produserte varer direkte fra ordrer.  
 
 ## <a name="to-create-a-production-order-from-a-sales-order"></a>Slik oppretter du en produksjonsordre fra en ordre  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") ikonet, angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg ordren du vil opprette en produksjonsordre for.  
 3.  Velg handlingen **Planlegging**. På **Ordreplanlegging**-siden kan du se tilgjengeligheten til ordrevaren.  
 4.  Velg handlingen **Opprett prod.ordre**.  
 5.  Angi status og ordretype.  
-6.  Velg **Ja**-knappen for å opprette produksjonsordren.
+6.  Velg knappen **Ja** for å opprette en eller flere produksjonsordrer for linjene med **Prod.ordre** i feltet **Etterfyllingssystem**.
 
-Du kan også opprette en prosjektproduksjonsordre. Hvis du vil ha mer informasjon, kan du se [Planlegge prosjektordrer](production-how-to-plan-project-orders.md).   
+
+> [!NOTE]  
+> Behovslinjer i den opprettede produksjonsordren som har **Prod.ordre** i feltet **Etterfyllingssystem**, representerer underliggende produksjonsordrer. Når du har generert disse produksjonsordrene, må du huske å identifisere eventuelle komponentbehov som ikke er oppfylt, for dem ved å bruke siden **Ordreplanlegging** eller funksjonen **Planlegg på nytt** fra opprettede ordrer. 
+
+## <a name="order-type"></a>Ordretype  
+Du kan velge mellom to måter å opprette produksjonsordrer på, som beskrevet i tabellen nedenfor.
+
+|Alternativ|Beskrivelse|
+|------|-----------|
+|Vareordre|Det opprettes en produksjonsordre for hver nødvendige ordre for produksjonsordren som representeres av en linje i **Ordreplanlegging**-vinduet.|
+|Prosjektordre|Det opprettes en produksjonsordre for alle nødvendige ordrer for produksjonsordren som representeres av linjer i **Ordreplanlegging**-vinduet. |
+
+Når du bruker prosjektordrer, inneholder feltet **Kildetype** i produksjonsordren **Salgshode**, og ordren har flere linjer, en for hver salgslinjevare som må produseres.  
+
 
 ## <a name="see-also"></a>Se også  
 [Definere produksjon](production-configure-production-processes.md)  
@@ -40,4 +51,7 @@ Du kan også opprette en prosjektproduksjonsordre. Hvis du vil ha mer informasjo
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
 [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

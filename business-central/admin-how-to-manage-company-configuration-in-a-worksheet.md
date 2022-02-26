@@ -1,34 +1,34 @@
 ---
-title: Behandle selskapskonfigurasjon i et forslag | Microsoft-dokumentasjon
-description: Konfigurasjonsforslaget er den sentrale plasseringen der du kan planlegge, spore og utføre konfigurasjonsarbeidet ditt. Du kan opprette et forslag for hvert selskap du arbeider med, eller du kan opprette et standard konfigurasjonsforslag som kan brukes til å konfigurere flere identiske selskaper.
+title: Behandle selskapskonfigurasjon i et forslag
+description: Konfigurasjonsforslaget er den sentrale plasseringen der du kan planlegge, spore og utføre selskapskonfigurasjonsarbeidet ditt.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: ab8b53ec5f913e07b80cc04a44805d77b10ffe86
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: 34d21b0daca39c1b7895800a5f7fbc48485c6c20
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187127"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6437965"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Behandle selskapskonfigurasjon i et forslag
 Konfigurasjonsforslaget er den sentrale plasseringen der du kan planlegge, spore og utføre konfigurasjonsarbeidet ditt. Du kan opprette et forslag for hvert selskap du arbeider med, eller du kan opprette et standard konfigurasjonsforslag som kan brukes til å konfigurere flere identiske selskaper.  
 
-Det første trinnet for klargjøring av en konfigurasjonspakke er å velge et selskap som du allerede har definert og endret i henhold til løsningsbehovene dine. Dette selskapet fungerer som grunnlag for konfigurasjon av nye selskaper. I forslaget angir du tabellene du vil at konfigurasjonen skal kontrollere og håndtere. Siden de fleste tabeller i [!INCLUDE[d365fin](includes/d365fin_md.md)] har relasjoner og avhengigheter til andre tabeller, bør du også inkludere disse relaterte tabellene etter behov. Sammen fungerer disse tabellene som strukturen du bygger et nytt selskap rundt. De etterfølgende trinnene hjelper deg med å pakke og distribuere konfigurasjonen.  
+Det første trinnet for klargjøring av en konfigurasjonspakke er å velge et selskap som du allerede har definert og endret i henhold til løsningsbehovene dine. Dette selskapet fungerer som grunnlag for konfigurasjon av nye selskaper. I forslaget angir du tabellene du vil at konfigurasjonen skal kontrollere og håndtere. Siden de fleste tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] har relasjoner og avhengigheter til andre tabeller, bør du også inkludere disse relaterte tabellene etter behov. Sammen fungerer disse tabellene som strukturen du bygger et nytt selskap rundt. De etterfølgende trinnene hjelper deg med å pakke og distribuere konfigurasjonen.  
 
 For å forenkle sporing og gjennomgang av arbeidet bruker du faktaboksen **Konfig.pakketabell** til å vise informasjon om poster. Bruk av faktaboksen **Konfig.relatert tabeller** for å overvåke tabellrelasjoner.  
 
 Fremgangsmåtene nedenfor viser hvordan du legger til og tilpasser tabellinformasjon for konfigurasjonen.  
 
 ## <a name="to-open-the-configuration-worksheet"></a>Åpne konfigurasjonsforslaget  
-1.  Åpne selskapet som er grunnlaget for konfigurasjonen i [!INCLUDE[d365fin](includes/d365fin_md.md)], og åpne deretter rollesenteret for RapidStart Services-implementerer.  
-2.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
+1.  Åpne selskapet som er grunnlaget for konfigurasjonen i [!INCLUDE[prod_short](includes/prod_short.md)], og åpne deretter rollesenteret for RapidStart Services-implementerer.  
+2.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Legge til en tabell i forslaget  
 1.  På siden **Konfigurer forslag** velger du **Rediger oversikt**-handlingen.  
@@ -62,7 +62,7 @@ Fremgangsmåtene nedenfor viser hvordan du legger til og tilpasser tabellinforma
     |**Inkluder bare lisensierte tabeller**|Velg avmerkingsboksen for å bare inkludere tabeller som lisensen du oppretter regnearket under gir deg tilgang til.|
 
 3. På hurtigfanen **Objekt** definerer du filtre etter behov for å angi hvilke tabelltyper du vil inkludere eller ekskludere.  
-4. Velg **OK**-knappen. [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller legges til i regnearket. Hver post i listen har linjetypen **Tabell**.  
+4. Velg **OK**-knappen. [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller legges til i regnearket. Hver post i listen har linjetypen **Tabell**.  
 5. Du kan fjerne duplisert tabellinformasjon, som kan skyldes bruk av handlingen **Hent tabeller**, ved å velge handlingen **Slett dupliserte linjer**. Dermed fjernes like tabeller som har samme pakkekode.  
 6. Du kan legge til tabeller i forslaget som er relatert til en tabell du har valgt. Se gjennom opplysningene i faktaboksen **Relaterte tabeller** for å se om det er manglende tabeller. Hvis du vil legge til relaterte tabeller for en bestemt tabell, velger du tabellen i listen. Deretter velger du handlingen **Hent relaterte tabeller**.  
 
@@ -97,7 +97,7 @@ Følgende fremgangsmåte beskriver hvordan du legger til område- og gruppebeteg
 4. Velg **Gruppe** i **Linjetype**-feltet. Angi et navn for området i feltet **Navn**. Gruppenavnet rykkes inn automatisk.  
 5. Hvis du vil flytte tabeller til den aktuelle kategorien, velger du tabellen du vil flytte, og deretter velger du handlingen **Flytt opp** eller **Flytt ned**. Du kan også slette en forslagslinje og sette inn tabellen på nytt på den påkrevde plasseringen.  
 
-Noen [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller er standard, og dataene i dem endrer seg sannsynligvis ikke fra implementering til implementering. For å hjelpe kunden med å fokusere kan du derfor fjerne disse tabellene fra forslaget etter at du har inkludert dem i konfigurasjonspakken. Når tabellene er lagt til, forblir de en del av konfigurasjonspakken.  
+Noen [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller er standard, og dataene i dem endrer seg sannsynligvis ikke fra implementering til implementering. For å hjelpe kunden med å fokusere kan du derfor fjerne disse tabellene fra forslaget etter at du har inkludert dem i konfigurasjonspakken. Når tabellene er lagt til, forblir de en del av konfigurasjonspakken.  
 
 ## <a name="to-remove-a-standard-table-in-the-worksheet"></a>Fjerne en standardtabell i regnearket  
 Når du har lagt til alle nødvendige tabeller i en konfigurasjonspakke, kan du bestemme hvilke tabeller som ikke vil kreve kundens oppmerksomhet.  
@@ -114,11 +114,11 @@ Når du oppretter en konfigurasjonpakke for en løsning, kan du vise og tilpasse
 1.  På siden **Konfigurasjonsforslag** identifiserer du tabellene med data som du vil vise eller tilpasse.  
 
     > [!NOTE]  
-    >  Kontroller at hver tabell er tilordnet en side-ID. For standard [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabeller, fylles denne verdien ut automatisk. For egendefinerte tabeller må du oppgi ID\-en.  
+    >  Kontroller at hver tabell er tilordnet en side-ID. For standard [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller, fylles denne verdien ut automatisk. For egendefinerte tabeller må du oppgi ID\-en.  
 
 2.  Velg handlingen **Databasedata**.  
 
-     Siden [!INCLUDE[d365fin](includes/d365fin_md.md)] for siden åpnes.  
+     Siden [!INCLUDE[prod_short](includes/prod_short.md)] for siden åpnes.  
 
 3.  Se gjennom informasjonen som er tilgjengelig. Endre den etter behov ved å slette poster som ikke er relevante eller ved å legge til nye.
 
@@ -126,3 +126,6 @@ Når du oppretter en konfigurasjonpakke for en løsning, kan du vise og tilpasse
 [Definere selskapskonfigurasjon](admin-set-up-company-configuration.md)  
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

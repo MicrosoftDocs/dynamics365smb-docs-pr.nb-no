@@ -1,21 +1,21 @@
 ---
-title: Konfigurere arbeidsflytbrukere | Microsoft-dokumentasjon
-description: Før du kan opprette arbeidsflyter, må du definere brukerne som deltar i arbeidsflyter. Det er for eksempel nødvendig å angi hvem som skal varsles om å utføre en handling på et arbeidsflyttrinn.
+title: Konfigurere arbeidsflytbrukere
+description: Før du kan opprette arbeidsflyter, må du definere brukerne som deltar i dem på siden Arbeidsflytbrukergruppe.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 06/08/2020
-ms.author: sgroespe
-ms.openlocfilehash: ba6508c9679923836092ba4df9d3453a39f7fd9b
-ms.sourcegitcommit: 0b5f8f68b1c9526288bfcce1a3bdc988d2910040
+ms.date: 06/11/2021
+ms.author: edupont
+ms.openlocfilehash: 2a6ee1b7fd7a65dba36bae95c8981657b6307bfb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/15/2020
-ms.locfileid: "3454274"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439923"
 ---
 # <a name="set-up-workflow-users"></a>Konfigurere arbeidsflytbrukere
 
@@ -32,7 +32,7 @@ Arbeidsflytbrukere som fungerer som godkjenningsbrukere, både bestillere for go
 
 ## <a name="to-set-up-a-workflow-user"></a>Slik konfigurerer du en arbeidsflytbrukere
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Brukergrupper for arbeidsflyt**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Arbeidsflytbrukergrupper**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Siden **Brukergruppe for arbeidsflyt** åpnes.  
 3. I **Kode**-feltet angir du maksimalt 20 tegn for å identifisere arbeidsflyten.  
 4. I **Beskrivelse**-feltet beskriver du arbeidsflyten.  
@@ -52,3 +52,6 @@ Arbeidsflytbrukere som fungerer som godkjenningsbrukere, både bestillere for go
 [Bruke arbeidsflyter](across-use-workflows.md)  
 [Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Arbeidsflyt](across-workflow.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

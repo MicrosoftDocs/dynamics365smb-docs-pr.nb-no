@@ -1,35 +1,35 @@
 ---
-title: Opprette arbeidsflyter fra arbeidsflytmaler | Microsoft-dokumentasjon
-description: For å spare tid når du oppretter nye arbeidsflyter, kan du opprette arbeidsflyter fra arbeidsflytmaler.
+title: Opprette arbeidsflyter fra arbeidsflytmaler
+description: Hvis du vil spare tid når du oppretter nye arbeidsflyter, kan du opprette ikke-redigerbare arbeidsflyter fra arbeidsflytmaler som inneholder "MS".
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6b4d09ae0bd0f2def940e2516bdc54bc04f300ca
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/11/2021
+ms.author: edupont
+ms.openlocfilehash: 4c3c8011802d9deb1b7a3804758333f08fc2403b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3188399"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438435"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Opprette arbeidsflyter fra arbeidsflytmaler
 For å spare tid når du oppretter nye arbeidsflyter, kan du opprette arbeidsflyter fra arbeidsflytmaler.  
 
- Arbeidsflytmaler er ikke-redigerbare arbeidsflyter som finnes i den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)]. Kodene for arbeidsflytmaler som er lagt inn av Microsoft, har prefikset "MS-".  
+ Arbeidsflytmaler er ikke-redigerbare arbeidsflyter som finnes i den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)]. Kodene for arbeidsflytmaler som er lagt inn av Microsoft, har prefikset "MS-".  
 
- En annen måte å raskt opprette en arbeidsflyt på er å importere en eksisterende arbeidsflyt som du har på en fil utenfor [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du vil ha mer informasjon, kan du se [Importere og eksportere arbeidsflyter](across-how-to-export-and-import-workflows.md).  
+ En annen måte å raskt opprette en arbeidsflyt på er å importere en eksisterende arbeidsflyt som du har på en fil utenfor [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Importere og eksportere arbeidsflyter](across-how-to-export-and-import-workflows.md).  
 
 På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse, endret av hendelsesbetingelsene, og et arbeidsflytsvar, endret av svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter](across-how-to-create-workflows.md).  
 
 ## <a name="to-create-a-workflow-from-workflow-template"></a>Slik oppretter du en arbeidsflyt fra arbeidsflytmaler  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Opprett arbeidsflyt fra mal**. Siden **Arbeidsflytmaler** åpnes.  
 3.  Velg en arbeidsflytmal, og velg deretter **OK**.  
 
@@ -45,3 +45,6 @@ På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involv
  [Konfigurere arbeidsflyter](across-set-up-workflows.md)   
  [Bruke arbeidsflyter](across-use-workflows.md)   
  [Arbeidsflyt](across-workflow.md)   
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

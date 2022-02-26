@@ -1,136 +1,129 @@
 ---
-title: Sette opp brukerkontoer for integrasjon med Dynamics 365 Sales | Microsoft Docs
+title: Sette opp brukerkontoer for integrasjon med Microsoft Dataverse | Microsoft Docs
 description: Lær hvordan du definerer brukerkontoene som appene bruker til å utveksle data, og som brukes til å få tilgang til og synkronisere data i appene.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 64dd9d1e4645b845c02872a8bc09f0925f4fa33c
-ms.sourcegitcommit: 3d128a00358668b3fdd105ebf4604ca4e2b6743c
+ms.openlocfilehash: e0bc05375930c506dc0ef9a7f1ea0263f47c1ad7
+ms.sourcegitcommit: 1508643075dafc25e9c52810a584b8df1d14b1dc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "2910564"
+ms.lasthandoff: 01/28/2022
+ms.locfileid: "8049695"
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-dynamics-365-sales"></a>Sette opp brukerkontoer for integrasjon med Dynamics 365 Sales
-Denne artikkelen gir en oversikt over hvordan du definerer brukerkontoene som er nødvendige for å integrere [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Sette opp brukerkontoer for integrasjon med Microsoft Dataverse
 
-> [!VIDEO https://go.microsoft.com/fwlink/?linkid=2085500]
 
-## <a name="setting-up-the-administrator-user-account-in-sales"></a>Sette opp administratorbrukerkontoen i Sales
-Du må legge til brukerkontoen for administrator for [!INCLUDE[d365fin](includes/d365fin_md.md)] som en bruker i [!INCLUDE[crm_md](includes/crm_md.md)], og deretter forfremme brukeren til administrator i [!INCLUDE[crm_md](includes/crm_md.md)]. Brukerkontoen for administrator må også ha rollen Systemtilpasser og minst én annen ikke-administrativ brukerrolle, for eksempel Salgssjef, i [!INCLUDE[crm_md](includes/crm_md.md)].
+Denne artikkelen gir en oversikt over hvordan du definerer brukerkontoene som er nødvendige for å integrere [!INCLUDE[prod_short](includes/cds_long_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="setting-up-the-user-account-for-the-integration"></a>Konfigurere brukerkontoen for integrasjonen
-Du må opprette en dedikert brukerkonto i Office 365-abonnement som både [!INCLUDE[d365fin](includes/d365fin_md.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] kan bruke til å synkronisere data. Denne brukerkontoen må kunne logge på [!INCLUDE[crm_md](includes/crm_md.md)], noe som betyr at denne brukeren må ha lisens for [!INCLUDE[crm_md](includes/crm_md.md)] og minst én sikkerhetsrolle tilordnet til den i [!INCLUDE[crm_md](includes/crm_md.md)], slik det er beskrevet [her](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-user-account). Hvis du vil ha mer informasjon om hvordan du oppretter brukere i [!INCLUDE[crm_md](includes/crm_md.md)], kan du se [Håndtere sikkerhet, brukere og team](https://go.microsoft.com/fwlink/?LinkID=616518). Når tilkoblingen er konfigurert, tilordner [!INCLUDE[d365fin](includes/d365fin_md.md)] brukerkontoen sikkerhetsrollene den trenger for [!INCLUDE[d365fin](includes/d365fin_md.md)], og denne kontoen kan settes til [ikke-interaktiv tilgangsmodus](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account) i [!INCLUDE[crm_md](includes/crm_md.md)]
+## <a name="setting-up-the-administrator-user-account"></a>Sette opp administratorbrukerkontoen
+Du må legge til administratorkontoen din for [!INCLUDE[prod_short](includes/prod_short.md)] som en bruker i [!INCLUDE[prod_short](includes/cds_long_md.md)]. Når du konfigurerer tilkoblingen mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)], vil denne kontoen bli brukt én gang til å installere og konfigurere noen nødvendige komponenter. 
 
-![Assistert oppsettsveiledning viser sted for å angi brukerlegitimasjon for synkronisering](media/sync-user-setup.png "Veiviserside for assistert oppsett for visualisering viser sted for å angi brukerlegitimasjon for synkronisering")
+## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Tillatelser og sikkerhetsroller for brukerkontoer i [!INCLUDE[prod_short](includes/cds_long_md.md)]
+Når du installerer grunnleggende løsningen for CDS-integrering, konfigureres tillatelser for integrasjonsbrukerkontoen. Hvis disse tillatelsene endres manuelt, kan du tilbakestille dem. Dette kan du gjøre ved å installere den grunnleggende løsningen for CDS-integrering på nytt ved å velge **Distribuer integreringsløsning på nytt** på siden **Tilkoblingsoppsett for Common Data Service**. Sikkerhetsrollen CDS-integrasjon for Business Central blir distribuert.
 
-> [!IMPORTANT]  
-> Ikke bruk administratorkontoen for [!INCLUDE[crm_md](includes/crm_md.md)] til synkronisering. Når du gjør det, brytes synkroniseringen.
-> I tillegg, for å unngå konstant synkronisering, endringer i data som utførtes av integreringsbrukerkontoen, synkroniseres ikke. <!--What changes would this account make?--> Når tilkoblingen er opprettet, anbefales det å angi tilgangsmodus for brukerkontoen for integrering til ikke-interaktivt modus i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, se [Opprette en ikke-interaktiv brukerkonto](/dynamics365/customer-engagement/admin/create-users-assign-online-security-roles#create-a-non-interactive-user-account).
+<!--
+The following tables list the minimum permissions for the user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-## <a name="setting-up-accounts-for-salespeople"></a>Definere kontoer for selgerne
-Du må opprette kontoer i [!INCLUDE[crm_md](includes/crm_md.md)] for selgerne fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. For å gjøre det enklere tilbyr Microsoft 365-administrasjonssenteret en Excel-mal du kan bruke. På siden **Aktive brukere** velger du **Mer**, og deretter klikker du på **Importer flere brukere**. Velg **Last ned en CSV-fil med bare topptekst**, og deretter angir du opplysninger for selgeren. Hvis du vil se et eksempel kan du velge **Last ned en CSV-eksempelfil med topptekst og eksempelbrukerinformasjon**. Når du har angitt informasjon om brukerne, er neste trinn i importprosessen å tilordne brukerlisensene til Dynamics 365 Customer Engagement-planen.  
+### Minimum Permissions for the Administrator
+The following table displays the minimum permissions on each tab for each security role that is required for the administrator user.
 
-Når du importerer brukere og tilordner dem lisenser for Dynamics 365 Customer Engagement, må du tilordne brukerne til rollen **Selger** i [!INCLUDE[crm_md](includes/crm_md.md)].
-
-![Koble selgere til brukere i Dynamics 365 Sales](media/couple-salespeople.png "Visualisering av kobling av selgere til brukere i Dynamics 365 Sales")
-
-## <a name="minimum-permissions-for-user-accounts-in-crm_md"></a>Minimumstillatelser for brukerkontoer i [!INCLUDE[crm_md](includes/crm_md.md)]
-Når du installerer integrasjonsløsningen, konfigureres tillatelser for integrasjonsbrukerkontoen i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis disse tillatelsene endres, er det mulig at du må tilbakestille dem. Dette kan du gjøre ved å installere integrasjonsløsningen på nytt eller ved å tilbakestille tillatelsene manuelt. Følgende tabeller inneholder en oversikt over minimumstillatelsene for brukerkontoene i [!INCLUDE[crm_md](includes/crm_md.md)].
-
-### <a name="integration-administrator"></a>Integrasjonsadministrator
-Tabellen nedenfor viser minimumstillatelsene i hver fane for hver sikkerhetsrolle som kreves for administratorbrukeren.
-
-##### <a name="customization"></a>Tilpasning
-|Sikkerhetsrolle|Tilgangsnivå|Dynamics NAV 2018 og tidligere|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+##### Customization
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Modelldrevet app|Global|||Les|
-|Plugin-enhet|Global|Les|Les|Les|
-|Plugin-type|Global|Les|Les|Les|
-|Forbindelser|Global|||Les|
-|SDK-melding|Global|Les|Les|Les|
-|Behandlingstrinn for SDK-melding|Global|Les|Les|Les|
-|Behandlingstrinn for SDK-melding – bilde|Global|Les|Les|Les|
-|System fra|Global|||Skriv|
+|Model Driven App|Global|||Read|
+|Plugin Assembly|Global|Read|Read|Read|
+|Plugin Type|Global|Read|Read|Read|
+|Relationship|Global|||Read|
+|SDK Message|Global|Read|Read|Read|
+|SDK Message Proessing Step|Global|Read|Read|Read|
+|SDK Message Proessing Step Image|Global|Read|Read|Read|
+|System From|Global|||Write|
 
-##### <a name="custom-entities"></a>Egendefinerte enheter
-|Sikkerhetsrolle|Tilgangsnivå|Dynamics NAV 2018 og tidligere|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+##### Custom Entities
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2020|
 |----|----|-----|----|----|
-|Business Central-kontostatistikk|Global|Les|Les|Les|
-|Business Central-tilkobling|Global|Opprett, Les, Skriv, Slett|Opprett, Les, Skriv, Slett|Opprett, Les, Skriv, Slett|
-|Konfigurasjon av post|Global|||Skriv|
+|Business Central Account Statistics|Global|Read|Read|Read|
+|Business Central Connection|Global|Create, Read, Write, Delete|Create, Read, Write, Delete|Create, Read, Write, Delete|
+|Post Configuration|Global|||Write|
 
-#### <a name="integration-user"></a>Integrasjonsbruker
-Tabellen nedenfor viser minimumstillatelsene i hver fane for hver sikkerhetsrolle som kreves for integrasjonsbrukeren.
+### Minimum Permissions for automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user
+The following table displays the minimum permissions on each tab for each security role that is required for the automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user.
 
-##### <a name="core-records"></a>Kjerneposter
-|Sikkerhetsrolle|Tilgangsnivå|Dynamics NAV 2018 og tidligere|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+##### Core Records
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Konto|Global|Opprett, Les, Skriv, Tilføy, Tilføy i, Tilordne|Opprett, Les, Skriv, Tilføy, Tilføy i, Tilordne|Opprett, Les, Skriv, Tilføy, Tilføy i, Tilordne|
-|Handlingskort|Global||Les|Les|
-|Tilkobling|Global|Les|Les|Les|
-|Kontakt|Global|Opprett, Les, Skriv, Tilføy, Tilføy i|Opprett, Les, Skriv, Tilføy, Tilføy i|Opprett, Les, Skriv, Tilføy, Tilføy i|
-|Merk|Global|||Opprett, Les, Skriv, Slett, Tilføy, Tilordne|
-|Salgsmulighet|Global||Opprett, Les, Skriv, Tilføy, Tilføy i|Opprett, Les, Skriv, Tilføy, Tilføy i|
-|Post|Global|||Opprett, Les, Tilføy i|
-|Brukerenhetsgrensesnitt|Bruker|Opprett, Les, Skriv|Opprett, Les, Skriv|Opprett, Les, Skriv|
+|Account|Global|Create, Read, Write, Append, Append To, Assign|Create, Read, Write, Append, Append To, Assign|Create, Read, Write, Append, Append To, Assign|
+|Action Card|Global||Read|Read|
+|Connection|Global|Read|Read|Read|
+|Contact|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Note|Global|||Create, Read, Write, Delete Append, Assign|
+|Opportunity|Global||Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Post|Global|||Create, Read, Append To|
+|User Entity UI|User|Create, Read, Write|Create, Read, Write|Create, Read, Write|
 
-##### <a name="sales"></a>Salg
-|Sikkerhetsrolle|Tilgangsnivå|Dynamics NAV 2018 og tidligere|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+##### Sales
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Fakturere|Global|Opprett, Les, Skriv, Tilføy, Tilføy i|Opprett, Les, Skriv, Tilføy, Tilføy i|Opprett, Les, Skriv, Tilføy, Tilføy i|
-|Bestilling|Global|Les, Skriv, Tilføy i|Les, Skriv, Tilføy i|Les, Skriv, Tilføy, Tilføy i, Tilordne|
-|Produkt|Global|Opprett, Les, Skriv, Tilføy, Tilføy i|Opprett, Les, Skriv, Tilføy, Tilføy i|Opprett, Les, Skriv, Tilføy, Tilføy i|
-|Egenskap|Global|Les|Les|Les|
-|Egenskapstilknytning|Global|Les|Les|Les|
-|Angi element for egenskapsalternativ|Global|Les|Les|Les|
-|Tilbud|Global|Les|Les|Les|
+|Invoice|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Order|Global|Read, Write, Append To|Read, Write, Append To|Read, Write, Append, Append To, Assign|
+|Product|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|Property|Global|Read|Read|Read|
+|Property Association|Global|Read|Read|Read|
+|Property Option Set Item|Global|Read|Read|Read|
+|Quote|Global|Read|Read|Read|
 
-##### <a name="service"></a>Tjeneste
-|Sikkerhetsrolle|Tilgangsnivå|Dynamics NAV 2018 og tidligere|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+##### Service
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Tilfelle|Global|Les|Les|Les|
+|Case|Global|Read|Read|Read|
 
-##### <a name="business-management"></a>Bedriftsadministrasjon
-|Sikkerhetsrolle|Tilgangsnivå|Dynamics NAV 2018 og tidligere|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+##### Business Management
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Valuta|Global|Opprett, Les, Skriv|Opprett, Les, Skriv|Opprett, Les, Skriv|
-|Organisasjon|Global|Les, Skriv|Les, Skriv|Les, Skriv|
-|Sikkerhetsrolle|Global|||Les|
-|Bruker|Global|Opprett, Les, Skriv, Tilføy, Tilføy i|Opprett, Les, Skriv, Tilføy, Tilføy i|Opprett, Les, Skriv, Tilføy, Tilføy i|
-|Brukerinnstillinger|Global|Opprett, Les, Skriv, Slett, Tilføy i|Opprett, Les, Skriv, Slett, Tilføy i|Opprett, Les, Skriv, Slett, Tilføy i|
-|Handle på vegne av en annen bruker|Global|Ja|Ja|Ja|
+|Currency|Global|Create, Read, Write|Create, Read, Write|Create, Read, Write|
+|Organization|Global|Read, Write|Read, Write|Read, Write|
+|Security Role|Global|||Read|
+|User|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
+|User Settings|Global|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|
+|Act on Behalf of Another User|Global|Yes|Yes|Yes|
 
-##### <a name="customization"></a>Tilpasning
-|Sikkerhetsrolle|Tilgangsnivå|Dynamics NAV 2018 og tidligere|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+##### Customization
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Felt|Global||Les|Les|
-|Plugin-enhet|Global|Les|Les|Les|
-|Plugin-type|Global|Les|Les|Les|
-|SDK-melding|Global|Les|Les|Les|
-|Behandlingstrinn for SDK-melding|Global|Les|Les|Les|
-|Nettressurs|Global|Les|Les|Les|
+|Field|Global||Read|Read|
+|Plug-in Assembly|Global|Read|Read|Read|
+|Plug-in Type|Global|Read|Read|Read|
+|SDK Message|Global|Read|Read|Read|
+|SDK Message Processing Step|Global|Read|Read|Read|
+|Web Resource|Global|Read|Read|Read|
 
-##### <a name="custom-entities"></a>Egendefinerte enheter
-|Sikkerhetsrolle|Tilgangsnivå|Dynamics NAV 2018 og tidligere|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+##### Custom Entities
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Dynamics 365 Business Central-kontostatistikk|Global|Opprett, Les, Skriv, Tilføy i|Opprett, Les, Skriv, Tilføy i|Opprett, Les, Skriv, Tilføy i|
-|Dynamics 365 Business Central-tilkobling|Global|Les|Les|Les|
+|Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
+|Dynamics 365 Business Central Connection|Global|Read|Read|Read|
 
-### <a name="product-availability-user"></a>Produkttilgjengelighetsbruker
-Du la selgere vise lagernivåer for varene de selger, ved å gi dem tillatelsene som er beskrevet i tabellen nedenfor.
+### Product Availability User
+You can allow sales people to view inventory levels for the items they sell by granting them the permissions described in the following table.
 
-##### <a name="custom-entities"></a>Egendefinerte enheter
-|Sikkerhetsrolle|Tilgangsnivå|Dynamics NAV 2018 og tidligere|Business Central <br> Oktober 2018|Business Central <br> April 2019|
+##### Custom Entities
+|Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
-|Dynamics 365 Business Central-kontostatistikk|Global|Opprett, Les, Skriv, Tilføy i|Opprett, Les, Skriv, Tilføy i|Opprett, Les, Skriv, Tilføy i|
-|Dynamics 365 Business Central-tilkobling|Global|Les|Les|Les|
+|Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
+|Dynamics 365 Business Central Connection|Global|Read|Read|Read|
+
+-->
 
 ## <a name="see-also"></a>Se også  
+[Integrere med Microsoft Dataverse](admin-common-data-service.md)  
 [Integrere med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

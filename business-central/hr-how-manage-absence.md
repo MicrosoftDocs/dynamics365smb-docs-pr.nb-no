@@ -1,22 +1,21 @@
 ---
-title: Håndtere ansattes fravær | Microsoft-dokumentasjon
-description: Beskriver hvordan du kan registrere ansattes fravær og analysere statistikk.
-services: project-madeira
-documentationcenter: ''
+title: Håndtere ansattes fravær
+description: Beskriver hvordan du registrerer de ansattes fravær og analyserer fraværsstatistikk ved hjelp av sidene for fraværsregistrering og ansattes fravær.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2020
-ms.author: SorenGP
-ms.openlocfilehash: d976ad8644df20821143a9ab31349a77a58eb73a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 5212, 5211, 5200
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 4b1ba11875ebd9a8ea9e2733f3f2dd6c0e876d86
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182591"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101402"
 ---
 # <a name="manage-employee-absence"></a>Håndtere ansattes fravær
 For å kunne håndtere fraværet til en ansatt må du registrere fraværet på siden **Fraværsregistrering**. Det kan deretter vises på forskjellige måter for analyse og rapportering.
@@ -71,5 +70,8 @@ Du kan registrere fraværet daglig eller etter et annet intervall som oppfyller 
 ## <a name="see-also"></a>Se også
 [Administrere personale](hr-manage-human-resources.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

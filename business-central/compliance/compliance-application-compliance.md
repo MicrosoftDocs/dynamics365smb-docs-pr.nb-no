@@ -1,43 +1,50 @@
 ---
-title: Programsamsvar | Microsoft-dokumentasjon
-description: Dette innholdet omfatter informasjon om programsamsvar i tilknytning til Business Central.
+title: Programsamsvar
+description: Dette emnet forklarer programsamsvar i forhold til Business Central, for eksempel de internasjonale økonomisk rapporteringsstandardene, lokal funksjonalitet og GDPR.
 author: sorenfriisalexandersen
 documentationcenter: ''
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: bc55e2ec51285f540c117983af51704f7059abd9
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 2631307db3975eeb406662caac2edf2f9d83238c
+ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3185975"
+ms.lasthandoff: 02/08/2022
+ms.locfileid: "8101455"
 ---
 # <a name="application-compliance"></a>Programsamsvar
-Dette innholdet inneholder informasjon om programsamsvar i forhold til [!INCLUDE[d365fin](../includes/d365fin_md.md)], for eksempel de internasjonale økonomisk rapporteringsstandardene, lokal funksjonalitet, GDPR og så videre. Konfidens i en forretningsadministrasjonsløsning er viktig for å drive et effektiv firma. Med Business Central har selskaper muligheten til å strømlinjeforme forretningsprosesser og samtidig kosteffektivt overholde økte regulerings- og rapporteringskrav.
 
-## <a name="data-privacy"></a>Datavern  
+Dette innholdet inneholder informasjon om programsamsvar i forhold til [!INCLUDE[prod_short](../includes/prod_short.md)], for eksempel de internasjonale økonomisk rapporteringsstandardene, lokal funksjonalitet, GDPR og så videre. Konfidens i en forretningsadministrasjonsløsning er viktig for å drive et effektiv firma. Med Business Central har selskaper muligheten til å strømlinjeforme forretningsprosesser og samtidig kosteffektivt overholde økte regulerings- og rapporteringskrav.
+
+## <a name="data-privacy"></a>Datavern
+
 Business Central støtter datapersonverninitiativ som General Data Protection Regulation (GDPR), som ble iverksatt 25. mai 2018. Les mer om hvordan [Business Central støtter GDPR](../admin-responding-to-requests-about-personal-data.md).  
 
 Hvis du er utvikler for Business Central-utvidelser, du må kjenne til klassifisering av data. Se [denne siden](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).
 Hvis du vil ha mer informasjon om GDPR fra et mer omfattende Dynamics 365-perspektiv, kan du se [listen over hvitbøker](/dynamics365/get-started/gdpr/).
 
-## <a name="accounting-processes-and-controls-to-aid-compliance"></a>Regnskapsprosesser og -kontroller til hjelp ved samsvar  
+## <a name="accounting-processes-and-controls-to-aid-compliance"></a>Regnskapsprosesser og -kontroller til hjelp ved samsvar
+
 Selskaper står overfor økte økonomiske regnskaputfordringer hvert år. Avhengig av bransjen, markeder, geografisk plassering og økonomiske behov kan en organisasjon være underlagt lokale, vanlige regnskapsprinsipper (GAAP) og én eller flere av:
+
 - The Sarbanes-Oxley Act (SOX), en USA-lov vedtatt 2002 for å beskytte investorer ved å forbedre korrektheten og datapåliteligheten av firmafremleggelser.
 - Delen om de internasjonale økonomisk rapporteringsstandardene i EUs internasjonale regnskapsstandarder (IAS/IFRS), som trådte i kraft 2005 og angir internasjonale regnskapsstandarder for anerkjennelse, måling, konsolideringen og rapportering.
 - The New Basel Accord (Basel II) vedtatt i 2006 for å løse problemer knyttet til finansinstitusjonsrisiko og fremme større stabilitet i det samlede økonomiske systemet.
 
 ## <a name="good-practices-with-technology"></a>Gode fremgangsmåter for teknologi
+
 Samsvar avhenger ikke bare av nøyaktig informasjon og riktige regnskapsprosesser, men også av personene som konfigurerer og administrerer disse prosessene. En effektiv forretningsadministrasjonsløsning kan forenkle samsvar ved å administrere gyldig og tilgjengelig informasjon gjennom gjennomsiktige prosesser som er opprettet i samsvar med bransjen og lovmessige standarder.
 
-## <a name="realize-the-benefits-of-an-integrated-business-management-solution"></a>Realisere fordelene til en integrert forretningsadministrasjonsløsning  
+## <a name="realize-the-benefits-of-an-integrated-business-management-solution"></a>Realisere fordelene til en integrert forretningsadministrasjonsløsning
+
 Business Central leverer integrert drifts- og økonomiinformasjon i sanntid fra hele organisasjonen, slik at du kan:
+
 - Spore finansdata gjennom egendefinerte kontoskjemaer for kontantstrøm, inntekter, balanse, aktiva, finansieringsanalyse, viktige ytelsesindikatorer og mer.
 - Bidra til å beskytte nøyaktigheten med rollebasert sikkerhet og konfigurerbare programkontroller som hindrer ugyldig eller duplisert dataregistrering.
 - Raskt og enkelt generere finansrapporter i henhold til gjeldende lovmessige standarder.
@@ -66,10 +73,10 @@ Lever integrert informasjon, justerte prosesser og lettvinte verktøy som kan hj
 - Planlegg manuelle eller automatiske sikkerhetskopieringer for å beskytte informasjonen mot elektroniske feil
 
 ### <a name="comply-quickly-with-discovery-requests-and-reporting-demands"></a>Overholde oppdagelsesforespørsler og rapporteringbehov raskt
+
 - Spar tid når du oppretter standardrapporter som bruker vanlige firmaparametere og -kriterier til å utføre vanlige rapporteringsbehov, fra ordresummeringer til eldre kortsiktige fordringer.
 - Utfør sammensatte gjennomganger med grunnleggende eller avanserte forretningsanalysefunksjoner.
 - Opprett tilpassede rapporter og vis i produktet og ved å bruke integrering i Microsoft PowerBI.
-- Øk hastigheten ved overføring av økonomisk informasjon til kunder, aksjonærer, offentlige kontorer og offentligheten med XML-baserte XBRL-dokumenter som støtter utveksling av økonomisk informasjon på tvers av ulik programvare og teknologi, inkludert Internett.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Sikre tydelige revisjonsspor
 
@@ -79,10 +86,11 @@ Lever integrert informasjon, justerte prosesser og lettvinte verktøy som kan hj
 - Øk transparensen og brukervennligheten til revisjonsspor, og øk informasjonstilgangen for tredjepartsrevisorer med neddrilling, oppslag, filtrering, register og navigasjon.
 
 ## <a name="compliance-and-local-functionality"></a>Samsvar og lokal funksjonalitet
-Microsoft lager lokaliserte versjoner av Business Central for noen land. Disse lokaliseringene fokuserer først og fremst på lovmessige funksjoner i avgifts- og finansområdet, men kan også omfatte også andre deler av programmet. Hvis du vil se hva er bygd inn i de lokaliserte landsversjonene av Business Central, se **Lokal funksjonalitet** på menyen, og velg et land for å lære mer om landsspesifikk funksjonalitet.
+
+Microsoft bygger lokaliserte versjoner av Business Central for et begrenset antall markeder. Disse lokaliseringene fokuserer først og fremst på lovmessige funksjoner i avgifts- og finansområdet, men kan også omfatte også andre deler av programmet. Hvis du vil se hva som er bygd inn i Microsofts lokaliserte versjoner av Business Central, se **Lokal funksjonalitet** på menyen på denne websiden, og velg et land for å lære mer om lokal funksjonalitet. Hvis du vil ha mer informasjon, kan du se [Lokal funksjonalitet](../about-localization.md).  
 
 > [!NOTE]  
->  **Sarbanes-Oxley: Validere data og prosesser**  
+> **Sarbanes-Oxley: Validere data og prosesser**  
 > Sarbanes-Oxley-loven fastsetter standarder for alle styrer i USAs offenlige selskaper og offentlige regnskapsfirmaer, inkludert evaluering og utlevering av tilstrekkeligheten av selskapets interne kontroller for finansrapportering. Dokumentering og testing av kritiske manuelle og automatiserte kontroller utgjør en stor forpliktelse knyttet til tid og ressurser for selskaper. Business Central egner seg spesielt for datterselskaper i større organisasjoner og kan støtte små til mellomstore bedrifter slik at de overholder Sarbanes-Oxley.
 
 > [!NOTE]  
@@ -99,5 +107,8 @@ Microsoft lager lokaliserte versjoner av Business Central for noen land. Disse l
 [Servicesamsvar](compliance-service-compliance.md)  
 [Sertifiseringer](compliance-certifications.md)  
 
- ## [!INCLUDE[d365fin](../includes/free_trial_md.md)]  
+ ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

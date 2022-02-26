@@ -1,21 +1,21 @@
 ---
-title: Håndtere lager- og produksjonskost | Microsoft-dokumentasjon
-description: Selv om mange av funksjonene for kostredegjøring er uttrykt i underliggende prosesser uten brukerhandling, for eksempel postutligning og automatisk kostjustering, er mange felt, sider og rapporter rettet inn mot brukere som direkte eller indirekte håndterer vare- eller driftskost.
+title: Håndtere lager- og produksjonskost
+description: Lær hvordan en rekke felter, sider og rapporter er rettet mot brukere som direkte eller indirekte administrerer kostnadene for varer eller operasjoner.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: e61174dd162111f6e7580026c5e91454b2ffa918
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 82221de7c57e6130a3259ae7cf7be095e3c0571e
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3183743"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6323343"
 ---
 # <a name="handling-inventory-and-manufacturing-costs"></a>Håndtere lager- og produksjonskost
 Selv om mange av funksjonene for kostredegjøring er uttrykt i underliggende prosesser uten brukerhandling, for eksempel postutligning og automatisk kostjustering, er mange felt, sider og rapporter rettet inn mot brukere som direkte eller indirekte håndterer vare- eller driftskost.  
@@ -38,3 +38,6 @@ Selv om mange av funksjonene for kostredegjøring er uttrykt i underliggende pro
 ## <a name="see-also"></a>Se også  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)
 [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

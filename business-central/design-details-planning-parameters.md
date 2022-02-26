@@ -1,24 +1,24 @@
 ---
-title: Designdetaljer – Planleggingsparametere | Microsoft-dokumentasjon
-description: Dette emnet beskriver de ulike planleggingsparameterne du kan bruke i Business Central.
+title: Designdetaljer – Planleggingsparametere
+description: Dette emnet beskriver de ulike planleggingsparameterne du kan bruke og hvordan de påvirker planleggingssystemet.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: planning, design
-ms.date: 04/20/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8f988be119132765fb02287c3935495e98f29b31
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.date: 07/21/2021
+ms.author: edupont
+ms.openlocfilehash: 8d797d88930930d2cc1123a0068e44d0de3035df
+ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3272041"
+ms.lasthandoff: 07/22/2021
+ms.locfileid: "6649815"
 ---
 # <a name="design-details-planning-parameters"></a>Designdetaljer: Planleggingsparametere
-Dette emnet beskriver de ulike planleggingsparameterne du kan bruke i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
+Dette emnet beskriver de ulike planleggingsparameterne du kan bruke i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Måten planleggingssystemet kontrollerer vareforsyning på, fastsettes av ulike innstillinger på varekortet eller LFEen og innstillinger i produksjonsoppsettet. Tabellen nedenfor viser hvordan disse parameterne brukes til planlegging.  
 
@@ -82,25 +82,25 @@ For å få en rasjonell forsyningsplan finjusterer en planlegger planleggingspar
 
 Tidsberegningen av periode for ny planlegging, avdempingsperiode og akkumuleringsperiode for parti er basert på en forsyningsdato. Tidsperioden er basert på den planlagte startdatoen, som vist i illustrasjonen nedenfor.  
 
-![Tidsperiodeelementer](media/supply_planning_5_time_bucket_elements.png "Tidsperiodeelementer")  
+![Tidsperiodeelementer.](media/supply_planning_5_time_bucket_elements.png "Tidsperiodeelementer")  
 
 I eksemplene nedenfor representerer svarte piler eksisterende forsyning (opp) og behov (ned). Røde, grønne og oransje piler er planleggingsforslag.  
 
 **Eksempel 1**: Den endrede datoen er utenfor perioden for ny planlegging, noe som fører til at eksisterende forsyning avbrytes. En ny forsyning blir foreslått for å dekke behovet i akkumuleringsperioden for partiet.  
 
-![Periode for ny planlegging og akkumuleringsperiode](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Periode for ny planlegging og akkumuleringsperiode")  
+![Periode for ny planlegging og akkumuleringsperiode.](media/supply_planning_5_recheduling_period_lot_accumulation_period.png "Periode for ny planlegging og akkumuleringsperiode")  
 
 **Eksempel 2**: Den endrede datoen er i perioden for ny planlegging, noe som fører til at eksisterende forsyning planlegges på nytt. En ny forsyning blir foreslått for å dekke behovet utenfor akkumuleringsperioden for partiet.  
 
-![Periode for ny planlegging, akkumuleringsperiode og ny planlegging](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Periode for ny planlegging, akkumuleringsperiode og ny planlegging")  
+![Periode for ny planlegging, akkumuleringsperiode og ny planlegging.](media/supply_planning_5_recheduling_period_lot_accum_period_reschedule.png "Periode for ny planlegging, akkumuleringsperiode og ny planlegging")  
 
 **Eksempel 3**: Det er et behov i avdempingsperioden, og forsyningsantallet i akkumuleringsperioden for parti samsvarer med forsyningsantallet. Det neste behovet er ikke dekket, og en ny forsyning foreslås.  
 
-![Avdempingsperiode og akkumuleringsperiode](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Avdempingsperiode og akkumuleringsperiode")  
+![Avdempingsperiode og akkumuleringsperiode.](media/supply_planning_5_dampener_period_lot_accumulation_period.png "Avdempingsperiode og akkumuleringsperiode")  
 
 **Eksempel 4**: Det er et behov i avdempingsperioden, og forsyningen forblir på samme dato. Gjeldende forsyningsantall er imidlertid ikke nok til å dekke behovet i akkumuleringsperioden for partiet, slik at det foreslås en handling for antallsendring for den eksisterende forsyningsordren.  
 
-![Avdempingsperiode, akkumuleringsperiode for parti og endre antall](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Avdempingsperiode, akkumuleringsperiode for parti og endre antall")  
+![Avdempingsperiode, akkumuleringsperiode for parti og endre antall.](media/supply_planning_5_dampener_period_lot_accum_period_change_qty.png "Avdempingsperiode, akkumuleringsperiode for parti og endre antall")  
 
 **Standardverdier:** Standardverdien for feltet **Tidsperiode** og de tre feltene for gjenbestillingsperiode er tomme. For alle felt, bortsett fra feltet **Avdempingsperiode**, betyr dette 0D (null dager). Hvis **Avdempingsperiode**-feltet er tomt, brukes den globale verdien i feltet **Standard avdempingsperiode** på siden **Produksjonsoppsett**.  
 
@@ -114,9 +114,32 @@ Alternativet **Produksjonsprinsipp** angir hvilke ytterligere ordrer MRP-beregni
 
 Hvis alternativet **Produser til lager** brukes, vil ordrene bare gjelde den aktuelle varen.  
 
-Hvis alternativet **Produser til ordre** brukes, vil g planleggingssystemet analysere produksjonsstykklisten for varen og opprette flere koblede ordreforslag for disse varene på lavere nivå, som også er angitt som Produser til ordre. Dette fortsetter så lenge det finnes produser-til-ordre-varer i de synkende stykklistestrukturene.  
+Hvis alternativet **Produser til ordre** brukes, vil g planleggingssystemet analysere produksjonsstykklisten for varen og opprette flere koblede ordreforslag for disse varene på lavere nivå, som også er angitt som Produser til ordre. Dette fortsetter så lenge det finnes produser-til-ordre-varer i de synkende stykklistestrukturene.
+
+## <a name="use-low-level-codes-to-manage-derived-demand"></a>Bruk lavnivåkoder til å styre avledet behov
+
+Bruk lavnivåkoder til å opprette avledet behov for komponenter som går gjennom til de lavere nivåene i stykklisten. Hvis du vil ha en mer forklaring om dette, kan du se [Vareprioritet/lavnivåkode](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
+
+Du kan tilordne en lavnivåkode til hver enhet i produktstrukturen eller den innrykkede stykklisten. Det øverste og siste monteringsnivået kalles nivå 0 – sluttvaren: Jo høyere nummeret på nivåkoden er, jo lavere er varen i hierarkiet. Sluttvarer for eksempel, har nivåkoden 0, og vareenhetene som inngår i monteringen av sluttvaren, har nivåkodene 1, 2, 3, og så videre. Resultatet er at planleggingen av komponentenheter koordineres med behovet til alle enhetsnumre på høyere nivå. Når du beregner en plan, utfoldes stykklisten i planleggingsforslaget, og bruttobehovet for nivå 0 går i arv i planleggingsnivåene som bruttobehov for det neste planleggingsnivået.
+
+Velg feltet **Dynamisk lavnivåkode** for å angi om du umiddelbart vil tilordne og beregne lavnivåkoder for hver komponent i produktstrukturen. Hvis du har store mengder data, kan denne funksjonen ha en negativ effekt på programmets ytelse, for eksempel ved automatisk kostjustering. Vær oppmerksom på at dette ikke er en tilbakevirkende funksjon, og du bør derfor vurdere å bruke denne funksjonen på forhånd.
+
+Som et alternativ til den automatiske beregningen som skjer dynamisk når feltet er valgt, kan du kjøre den satsvise jobben **Beregn lavnivåkode** fra **Produksjon**-menyen ved å klikke på **Produktutforming**, **Beregn lavkodenivå**.
+
+> [!IMPORTANT]
+> Hvis du ikke velger feltet **Dynamisk lavnivåkode**, må du kjøre kjørselen **Beregn lavnivåkode** før du beregner en forsyningsplan (kjørselen **Beregn plan**).  
+
+> [!NOTE]
+> Selv om feltet **Dynamisk lavnivåkode** er valgt, endres ikke lavnivåkodene for komponentvarer dynamisk hvis en overordnet stykkliste blir slettet eller satt til ikke-sertifisert. Dette kan gjøre det vanskelig å legge til nye varer på slutten av produktstrukturen fordi det kan overskride det maksimale antallet lavnivåkoder. Det anbefales derfor at du for store produktstrukturer som når grensen for lavnivåkoder, kjører kjørselen **Beregn lavnivåkode** ofte for å opprettholde strukturen.  
+
+### <a name="optimize-low-level-code-calculation"></a>Optimaliser beregning av lavnivåkode
+
+Velg feltet **Optimaliser beregning av lavnivåkode** for å angi at du vil bruke den nye, raskeste måten med beregning av lavnivåkode. Legg merke til at den nye beregningen gjøres forskjellig, og at det ødelegger bruken av utvidelser som bruker den eksisterende metoden. Den nye beregningsmetoden erstatter den gjeldende metoden i en fremtidig frigivelse.
 
 ## <a name="see-also"></a>Se også  
 [Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -3,22 +3,22 @@ title: Sette opp servicehåndtering | Microsoft-dokumentasjon
 description: Oversikt over oppgaver for oppsett av servicehåndtering som er tilpasset måten organisasjonene håndterer tjenestene på.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, service items, repairs, maintenance, fix
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: c26a10e7597731ccafdd88f99f8e7dd2fda644b1
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 8bd4d28dd5d77c998cf2404594da115e9c95077f
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192304"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5778101"
 ---
 # <a name="setting-up-service-management"></a>Konfigurere servicehåndtering
-Før du kan begynne å bruke funksjonene for servicehåndtering i [!INCLUDE[d365fin](includes/d365fin_md.md)], er det et par ting du må konfigurere. Du kan for eksempel opprette koding for standard service-, symptom- og feilkoder og servicevarer og servicevaretyper som selskapets kundeservice trenger.  
+Før du kan begynne å bruke funksjonene for servicehåndtering i [!INCLUDE[prod_short](includes/prod_short.md)], er det et par ting du må konfigurere. Du kan for eksempel opprette koding for standard service-, symptom- og feilkoder og servicevarer og servicevaretyper som selskapets kundeservice trenger.  
 
 Når du setter opp servicehåndtering, må du fastsette hvilke servicetyper du vil tilby kundene, og planen for disse servicetypene. En service er en type arbeid som utføres av én eller flere ressurser, for en kunde. En service kan for eksempel være reparasjon av en datamaskin. En servicevare er utstyret eller varen som trenger service, for eksempel en datamaskin hos en bestemt kunde. Du kan definere servicetyper som en del av en gruppe relaterte reparasjons- eller vedlikeholdsvarer.  
   
@@ -42,5 +42,8 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Lag et fundament for opprettelse av servicekontrakter og kontrakttilbud. |[Definere servicekontrakter](service-how-setup-service-contracts.md) |
 
 ## <a name="see-also"></a>Se også
-[Servicehåndtering](service-service.md)  
-[Komme i gang](product-get-started.md)  
+[Servicebehandling](service-service.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

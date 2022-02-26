@@ -1,21 +1,21 @@
 ---
-title: Servicestatistikk | Microsoft-dokumentasjon
-description: Få en rask oversikt over innholdet i servicedokumenter, som ordrer, tilbud, fakturaer eller kreditnotaer, detaljene i bestemte servicelinjer og servicevarene.
+title: Servicestatistikk
+description: Få en rask oversikt over innholdet og statistikken i servicedokumenter, som ordrer, tilbud, fakturaer, kreditnotaer, servicelinjer med mer.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0e1c6fe7b5a830e17d693bcd4d48921947b0509d
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: eaec4f99ea07e84b1a328be3022005fac01de38d
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192390"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438260"
 ---
 # <a name="viewing-service-statistics"></a>Vise servicestatistikk
 Du kan bruke statistikk til å analysere servicedokumenter og bestemme hvor godt du administrerer serviceprosessene. Du kan analysere servicekontrakter, varer, tilbud, ordrer, fakturaer og kreditnotaer ved å velge handlingen **Statistikk**. For servicevarer og kontrakter kan du også bruke vinduet **Servicevare - Trendscape** eller **Kontrakt - Trendscape** for å vise en oversikt over bokførte serviceposter for en bestemt servicevare.   
@@ -84,7 +84,7 @@ En kontraktresultatpost genereres når et kontrakttilbud konverteres til en serv
 |**Kontraktresultat (årsaker)**|Slik viser du kontraktresultat etter årsakskode.|  
 |**Kontraktresultat (ansv.sent)**|Slik viser du kontraktresultat etter ansvarssenter.|  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi navnet på siden som skal vises, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi navnet på siden som skal vises, og velg deretter den relaterte koblingen.  
 2. Fyll ut filtervilkårene du vil bruke. Velg for eksempel en verdi for **Filter for årsaksspor** på siden **Kontraktresultat (årsaker)**.  
 3. Velg handlingen **Vis matrise**.
 
@@ -112,3 +112,6 @@ Du kan bruke siden **Statistikk for salgskreditnota (service)** til å få en st
 [Opprette serviceordrer](service-how-to-create-service-orders.md)   
 [Opprette servicevarer](service-how-to-create-service-items.md)   
 [Planlegge service](service-plan-service.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

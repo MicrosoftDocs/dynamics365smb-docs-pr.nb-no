@@ -1,23 +1,24 @@
 ---
-title: Angi fargede indikatorer for å tilpasse visuelle signaler om aktiviteten for et bunke-ikon for selskapet eller individuelle brukere | Microsoft-dokumentasjon
+title: Konfigurer egendefinerte fargeindikatorer for et bunke-ikons aktivitet
 description: Som administrator kan du definere bunke-ikoner med en indikator som endrer farge basert på dataverdiene i bunke-ikonene. Du kan gjøre dette for bunke-ikoner som vises i rollesentrene for brukerne.
 author: jswymer
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.search.form: 9701, 9702
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 0411e080aa5304b47ec64a9248368fc8385d4ee5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: 8dfd2a4c731ebc9663f3916694903ad8ac010ca5
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187343"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012448"
 ---
 # <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Definere en farget indikator for bunke-ikoner for selskapet eller enkeltbrukere
+
 Som administrator kan du definere bunke-ikoner med en indikator som endrer farge basert på dataverdiene i bunke-ikonene. Du kan gjøre dette for bunke-ikoner som vises i rollesentrene for brukerne.  
 
 Indikatoren vises som en farget linje langs øverste kant av bunkeflisen. Den gir et visuelt signal om statusen for aktiviteten for bunke-ikonet, som kan angi fordelaktige eller ufordelaktige tilstander som ber brukeren om å gjøre noe. Hvis det for eksempel vises pågående salgsfakturaer på et bunke-ikon, kan du angi at indikatoren skal være grønn (fordelaktig) når antall pågående salgsfakturaer er under 10, og at den skal være rød (ufordelaktig) når det totale antallet er over 20.  
@@ -27,7 +28,7 @@ Du bruker siden **Oppsett for bunke-ikon** til å definere indikatorer for alle 
 Hvis du vil definere indikatoren, kan du angi opptil to terskelverdier som definerer tre områder med dataverdier (lav, middels og høy) som du kan bruke en annen farge (eller stil) med.  
 
 ### <a name="to-set-up-colored-indicators-on-cues"></a>Slik definerer du fargede indikatorer for bunke-ikoner  
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Oppsett for bunke-ikon**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Oppsett for bunke-ikon** og velger den relaterte koblingen.  
 
      Siden **Oppsett for bunke-ikon** vises. Siden viser indikatorer som er definert for bunker. Indikatorer som gjelder for alle brukere i firmaet, har et tomt **Brukernavn**-felt. Indikatorene som gjelder for en bestemt bruker, inkluderer brukernavnet i **Brukernavn**-feltet.  
 
@@ -64,3 +65,6 @@ Hvis du vil definere indikatoren, kan du angi opptil to terskelverdier som defin
     |**Underordnet**|Grå|  
 
 ## <a name="see-also"></a>Se også
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

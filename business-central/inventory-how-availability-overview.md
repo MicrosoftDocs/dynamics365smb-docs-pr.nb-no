@@ -1,37 +1,38 @@
 ---
-title: Få en oversikt over tilgjengelighet | Microsoft-dokumentasjon
-description: Du kan få informasjon om tilgjengeligheten av varer eller beholdning på tvers av lokasjoner, per salg eller kjøpshendelser, etter en tidsperiode eller etter varens posisjon i en monterings- eller produksjonsstykkliste.
+title: Få en oversikt over tilgjengelighet
+description: Du kan få informasjon om tilgjengeligheten av varer eller beholdning på tvers av lokasjoner, per salg eller kjøpshendelser med mer.
 documentationcenter: ''
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: stock
-ms.date: 04/01/2020
-ms.author: SorenGP
-ms.openlocfilehash: f95544f2090185512d94e9a8ce10975304f0ec2f
-ms.sourcegitcommit: 7d54d8abe52e0546378cf760f5082f46e8441b90
+ms.search.form: 908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390
+ms.date: 06/16/2021
+ms.author: edupont
+ms.openlocfilehash: 01efc9191cad10414c344b4fe3a28ae2cef63ef9
+ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "3324249"
+ms.lasthandoff: 01/31/2022
+ms.locfileid: "8060119"
 ---
 # <a name="view-the-availability-of-items"></a>Vise tilgjengeligheten av varer
 Fra konteksten for en forretningsoppgave kan du få avansert informasjon om når og hvor en vare er tilgjengelig, for eksempel når du snakker med en kunde om en leveringsdato.
 
-Du kan vise tilgjengeligheten for alle varer per lokasjon, og du kan vise tilgjengeligheten av hver vare etter hendelse, periode eller lokasjon. En hendelse er alle planlagte varetransaksjoner, for eksempel en følgeseddel eller mottak av inngående overføring.
+Du kan vise tilgjengeligheten for alle varer per lokasjon, og du kan vise tilgjengeligheten av hver vare etter hendelse eller etter periode. En hendelse er alle planlagte varetransaksjoner, for eksempel en følgeseddel eller mottak av inngående overføring.
 
 > [!NOTE]  
 >   Tilgjengelighetsvisninger etter lokasjon krever at du har beholdning på mer enn én lokasjon. Hvis du vil ha mer informasjon, kan du se [Definere lokasjoner](inventory-how-setup-locations.md).
 
 Hvis du bruker lagerfunksjonalitet, varierer tilgjengelighet avhengig av tildelinger på hyllenivå når det oppstår lageraktiviteter som plukking og flytting, og når lagerreservasjonssystemet bruker begrensninger som må overholdes. En ganske komplisert algoritme bekrefter at alle betingelsene er oppfylt før tildeling av antall i plukk for utgående flyter. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md).
 
-I [!INCLUDE[d365fin](includes/d365fin_md.md)] vises tilgjengelighetstallene vanligvis i to forskjellige felt, hver med en forskjellig definisjon:
+I [!INCLUDE[prod_short](includes/prod_short.md)] vises tilgjengelighetstallene vanligvis i to forskjellige felt, hver med en forskjellig definisjon:
 
 * **Beholdning**-feltet, som kalles **Lager** enkelte steder, viser det faktiske antallet i dag i henhold til bokførte vareposter.
-* Feltet **Beregnet disponibel beholdning** beregnes og viser antallet på lager pluss planlagte mottak minus bruttobehov. (I [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderer planlagte mottak antall bestillinger og inngående overføringsordrer. Bruttobehov inkluderer antall på salgsordrer og utgående overføringsordrer.)
+* Feltet **Beregnet disponibel beholdning** beregnes og viser antallet på lager pluss planlagte mottak minus bruttobehov. (I [!INCLUDE[prod_short](includes/prod_short.md)] inkluderer planlagte mottak antall bestillinger og inngående overføringsordrer. Bruttobehov inkluderer antall på salgsordrer og utgående overføringsordrer.)
 
 > [!TIP]  
 >   Beregnet disponibel saldo er spesielt relevant å vise på sidene **Varetilgjengelighet per periode** og **Varetilgjengelighet per hendelse** fordi de inneholder datodimensjonen.  
@@ -42,7 +43,7 @@ I [!INCLUDE[d365fin](includes/d365fin_md.md)] vises tilgjengelighetstallene vanl
 ## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Slik viser du tilgjengeligheten for en vare i henhold til når den blir mottatt eller levert
 Du viser tilgjengeligheten for en vare i henhold til planlagte varetransaksjoner på siden **Tilgjengelighet per hendelse**.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Åpne kortet for en vare som du vil vise varetilgjengelighet for.
 3. Velg handlingen **Varetilgjengelighet per**, og velg deretter **Hendelse**-handlingen.
 
@@ -52,7 +53,7 @@ Du viser tilgjengeligheten for en vare i henhold til planlagte varetransaksjoner
 ## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Slik viser du tilgjengeligheten for en vare i forskjellige perioder
 Du viser tilgjengeligheten for en vare over tid for bestemte tidsperioder på siden **Varetilgjengelighet per periode**.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Åpne kortet for en vare som du vil vise varetilgjengelighet for.
 3. Velg handlingen **Varetilgjengelighet per**, og velg deretter **Periode**-handlingen.
 
@@ -62,7 +63,7 @@ Du viser tilgjengeligheten for en vare over tid for bestemte tidsperioder på si
 ## <a name="to-view-the-availability-of-an-item-at-the-locations-where-it-is-stored"></a>Slik viser du tilgjengeligheten for en vare på lokasjonene der den er lagret
 Du viser tilgjengeligheten for en vare på de forskjellige lokasjonene der den er lagret, på siden **Varetilgjengelighet per lokasjon**.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Åpne kortet for en vare som du vil vise varetilgjengelighet for.
 3. Velg handlingen **Varetilgjengelighet per**, og velg deretter **Lokasjon**-handlingen.
 
@@ -73,7 +74,7 @@ Du viser tilgjengeligheten for en vare på de forskjellige lokasjonene der den e
 ## <a name="to-view-the-availability-of-all-items-by-the-location-where-they-are-stored"></a>Slik viser du tilgjengeligheten for alle varer på lokasjonen der de er lagret
 Du kan vise tilgjengeligheten til alle varer på tvers av alle lokasjoner på siden **Varer per lokasjon**.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Velg handlingen **Varer per lokasjon**.
 
     Siden **Varer per lokasjon** vises for alle varer hvor mange som er tilgjengelig på hver lokasjon.
@@ -129,3 +130,6 @@ Hvis én eller flere monteringskomponenter ikke er tilgjengelige, gjenspeiles de
 [Selge produkter](sales-how-sell-products.md)      
 [Arbeide med Business Central](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

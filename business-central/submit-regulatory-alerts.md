@@ -1,19 +1,19 @@
 ---
-title: Sende forskriftsmessige varsler | Microsoft Docs
-description: Hvis du vet om ny lovgivning som du tror krever funksjonsstøtte i Business Central, kan du følge denne veiledningen for å sende et forskriftsmessig varsel til produktteamet.
+title: Sende forskriftsmessige varsler
+description: Hvis du vet om ny lovgivning som krever funksjonsstøtte i Business Central, kan du følge denne veiledningen for å sende et forskriftsmessig varsel til produktteamet.
 author: sorenfriisalexandersen
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: 349c930a5103814d6d7befc3a4e8135bc92081b0
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: dc993a446219c5dcb28cd9a90756c0355ba30a16
+ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192150"
+ms.lasthandoff: 06/30/2021
+ms.locfileid: "6319984"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Sende varsler om lands-/regionsspesifikke forskriftsmessige funksjoner
 
@@ -52,7 +52,7 @@ Vi anbefaler at du bruker Microsoft Dynamics Lifecycle Services (LCS) til å sen
         |Description  | Angi en kort oversikt av loven. Beskrivelsen må fokusere på problemer som er relevante for ERP-aktiviteter, slik at brukere kan forstå kravene på høyt nivå uten å måtte lese lovgivningen først.|
         |Land  | Angi landet eller regionen lovgivningen gjelder for.|
         |Bransje| Angi bransje hvis behovet bare gjelder for bestemte bransjer. Velg for eksempel **Offentlig sektor**, **Detaljhandel**, eller **Produksjon**.|
-        |Funksjonsreferanse  | Dette er relevant for Dynamics 365 Business Central, men du kan angi en funksjonsreferanse hvis du kjenner den. Listen over funksjoner for det bestemte landet finner du i [Lokaliseringsportal](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC) på CustomerSource-området. |
+        |Funksjonsreferanse  | Dette er relevant for Dynamics 365 Business Central, men du kan angi en funksjonsreferanse hvis du kjenner den. Listen over funksjoner for det bestemte landet finner du i [Lokaliseringsportal](/dynamics/s-e/) på området CustomerSource. |
         |Dato for håndhevelse av lov  | Angi datoen når berørte kunder må begynne å overholde loven.|
         |Offentlig kunngjøringsdato  | Angi datoen myndighetene skal kunngjøre endringen.|
         |Siste registreringsdato  | Velg fristen for den første sendingen av den nye eller endrede rapporten.|
@@ -74,9 +74,12 @@ Vi anbefaler at du bruker Microsoft Dynamics Lifecycle Services (LCS) til å sen
 
 ## <a name="see-also"></a>Se også
 
-[Lokal funksjonalitet i [!INCLUDE[d365fin_long](includes/d365fin_long_md.md)]](about-localization.md)  
+[Lokal funksjonalitet i [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Endre språk og nasjonal innstilling](about-locale-language.md)  
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Velkommen til Business Central](index.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

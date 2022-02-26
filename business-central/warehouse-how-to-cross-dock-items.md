@@ -3,19 +3,19 @@ title: Kryssoverføre varer| Microsoft-dokumentasjon
 description: Kryssoverføringsfunksjonalitet er tilgjengelig hvis du har definert lokasjonen slik at den krever lagermottaksbehandling og plasseringsbehandling.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f07b287a177aae24f383a54a48bf5a0fa8cf8b77
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 6090a1b259dfc456f331118a30f0e25fbc712b6f
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3193158"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445825"
 ---
 # <a name="cross-dock-items"></a>Kryssoverføringsvarer
 Kryssoverføringsfunksjonalitet er tilgjengelig hvis du har definert lokasjonen slik at den krever lagermottaksbehandling og plasseringsbehandling.  
@@ -41,14 +41,14 @@ Programmet har ikke separate poster om varer som er kryssoverført, men det regi
 
     Hvis du bruker soner, oppretter du en sone for kryssoverføringshyllene og velger feltet **Kryssoverføringshyllesone**. Hvis du vil ha mer informasjon, kan du se [Definere lokasjoner slik at de bruker hyller](warehouse-how-to-set-up-locations-to-use-bins.md).  
 
-2.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjon**, og velg deretter den relaterte koblingen.  
+2.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Lokasjon**, og velg deretter den relaterte koblingen.  
 3.  Velg lokasjonen der du vil definere lageret for kryssoverføring, på siden **Lokasjon**, og velg deretter **Rediger**-handlingen.  
 4.  På hurtigfanen **Lager**, merker du av for **Bruk kryssoverføring** og fyller ut feltet **Kryssoverføring forfallsdatoberegn.** med tidspunktet for å søke etter kryssoverføringsmuligheter.
 
     Alternativet **Bruk kryssoverføring** er bare tilgjengelig hvis feltene **Mottak nødv.**, **Levering nødv.**, **Plukk nødv.** og **Plassering nødv.** er valgt.  
 
 5.  Hvis du bruker hyller, fyller du ut feltet **Hyllekode for kryssoverføring** på hurtigfanen **Hyller** med koden for hyllen du vil bruke som standard kryssoverføringshylle.  
-6.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerføringsenhet**, og velg deretter den relaterte koblingen.  
+6.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Lagerføringsenhet**, og velg deretter den relaterte koblingen.  
 7.  For hver vare eller lagerføringsenhet du ønsker å kunne kryssoverføre, velger du varen og deretter **Rediger**-handlingen.
 8. På siden **Lagerføringsenhetskort** merker du av for **Bruk kryssoverføring**.  
 
@@ -56,11 +56,11 @@ Programmet har ikke separate poster om varer som er kryssoverført, men det regi
 >  Kryssoverføring er mulig bare hvis du har definert lokasjonen til å kreve lagermottaksbehandling og plasseringsbehandling.  
 
 ## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Slik kryssoverfører du varer uten å vise mulighetene  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagermottak**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagermottak** og velg den relaterte koblingen.  
 2.  Opprett et lagermottak for en vare som er ankommet, og som kanskje kan kryssoverføres. Hvis du vil ha mer informasjon, kan du se [Motta varer](warehouse-how-receive-items.md).  
 3.  Fyll ut feltet **Motta (antall)**, og velg deretter **Beregn kryssoverføring**-handlingen.  
 
-    Utgående kildedokumenter som ber om varene som er planlagt å skulle forlate lageret innefor datoformelens tidsperiode, identifiseres.  [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner antall slik at du kan kryssoverføre så mye som mulig og unngå å plassere varene, uten å samle opp for mange varer i kryssoverføringsområdet. Verdien i feltet **Ant. som skal kryssoverf** blir derved den minste av enten summen av alle de utgående linjene som ber om varen innenfor beregningstiden minus det antallet varer som allerede er plassert i kryssoverføringsområdet, eller verdien i feltet **Motta (antall)** på mottakslinjen. Du kan ikke kryssoverføre mer enn du har mottatt.  
+    Utgående kildedokumenter som ber om varene som er planlagt å skulle forlate lageret innefor datoformelens tidsperiode, identifiseres.  [!INCLUDE[prod_short](includes/prod_short.md)] beregner antall slik at du kan kryssoverføre så mye som mulig og unngå å plassere varene, uten å samle opp for mange varer i kryssoverføringsområdet. Verdien i feltet **Ant. som skal kryssoverf** blir derved den minste av enten summen av alle de utgående linjene som ber om varen innenfor beregningstiden minus det antallet varer som allerede er plassert i kryssoverføringsområdet, eller verdien i feltet **Motta (antall)** på mottakslinjen. Du kan ikke kryssoverføre mer enn du har mottatt.  
 
 4.  Hvis du vil kryssoverføre det antallet som blir foreslått, bokfører du mottaket. Du kan også bestemme deg for å endre antallet som skal kryssoverføres til en høyere eller lavere verdi, og deretter bokføre mottaket.  
 
@@ -73,7 +73,7 @@ Programmet har ikke separate poster om varer som er kryssoverført, men det regi
 7.  Velg **Registrer**-handlingen for å registrere de kryssoverførte varene som plassert og tilgjengelig for plukking.  
 
 ## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Slik kryssoverfører du varer etter å ha vist mulighetene  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagermottak**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagermottak** og velg den relaterte koblingen.  
 2.  Opprett et lagermottak for en vare som er ankommet, og som kanskje kan kryssoverføres. Hvis du vil ha mer informasjon, kan du se [Motta varer](warehouse-how-receive-items.md).  
 
     Du vil vise kildedokumentlinjer som ber om varen, før du bokfører mottaket.  
@@ -104,4 +104,7 @@ Hvis du ikke bruker hyller, må du huske å kontrollere kryssoverføringsområde
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

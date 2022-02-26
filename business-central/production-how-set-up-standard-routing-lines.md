@@ -1,43 +1,51 @@
 ---
-title: Definere standardoppgaver for operasjoner | Microsoft-dokumentasjon
-description: Du kan skrive inn beskrivelser for standardoppgaver.
+title: Definere standardoppgaver for operasjoner
+description: Lær mer om hvordan du definerer standardoppgaver og legger til standardoppgaver i operasjoner for å forenkle vedlikeholdet av ruter.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: a967136064b59cb0ff8ef7bdd9a3e8b684e54a8f
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.search.form: 99000799, 99000803, 99000804, 99000805, 99000807
+ms.date: 06/22/2021
+ms.author: edupont
+ms.openlocfilehash: 7e6cc29c2968111cc581f8e615007ff70985e24c
+ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2878026"
+ms.lasthandoff: 01/14/2022
+ms.locfileid: "7973018"
 ---
 # <a name="set-up-standard-routing-lines"></a>Definere standard rutelinjer
+
 Standardoppgaver forenkler oppretting og vedlikehold av ruter. De brukes til å knytte tilleggsinformasjon raskt til gjentakende operasjoner.
 
 ## <a name="to-set-up-a-standard-task"></a>Slik definerer du en standardoppgave
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Standardoppgaver**, og velg deretter den relaterte koblingen.
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Standardoppgaver**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-4. Velg **Verktøy**, **Personell**, **Beskrivelse**, eller **Verktøy**.
-5. Beskriv den aktuelle standardoppgaven på siden som åpnes.
+4. Velg handlingen **Verktøy**, **Personell**, **Beskrivelse** eller **Verktøy**, og legg deretter til den relevante oppføringen på siden som åpnes.
 
 ## <a name="to-add-a-standard-task-to-an-operation"></a>Slik legger du til en standardoppgave i en operasjon
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ruter**, og velg deretter den relaterte koblingen.
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ruter**, og velg deretter den relaterte koblingen.
 2. Åpne den aktuelle ruten.
 3. Velger en aktuell rutelinje, velg **Operasjon** , og velg deretter **Verktøy**, **Personell**, **Beskrivelse** eller **Verktøy**.
 
-## <a name="see-also"></a>Se også  
+Når du skriver ut rutearket, kan du velge å inkludere elementene fra standardoppgaven du la til rutelinjene.
+
+## <a name="see-also"></a>Se også
+
 [Opprette ruter](production-how-to-create-routings.md)  
-[Opprette produksjonsstykklister](production-how-to-create-production-boms.md)     
-[Definere produksjon](production-configure-production-processes.md)   
-[Produksjon](production-manage-manufacturing.md)    
-[Planlegging](production-planning.md)   
+[Opprette produksjonsstykklister](production-how-to-create-production-boms.md)  
+[Definere produksjon](production-configure-production-processes.md)  
+[Produksjon](production-manage-manufacturing.md)  
+[Planlegging](production-planning.md)  
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

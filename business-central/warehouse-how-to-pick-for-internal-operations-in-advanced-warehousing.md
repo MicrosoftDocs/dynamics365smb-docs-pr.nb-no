@@ -1,21 +1,21 @@
 ---
-title: Plukke for interne operasjoner i avansert lageroppsett | Microsoft-dokumentasjon
-description: I avansert lageroppsett der lokasjonen er definert slik at plukking og levering brukes, kan du plukke komponenter for produksjons- og monteringsaktiviteter ved å bruke **Plukk**-siden.
+title: Plukk for interne operasjoner i avansert lageroppsett
+description: Hvis lokasjonene bruker plukking i tillegg til levering, plukker du komponenter for produksjons- og monteringsaktiviteter på siden Lagerplukking.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: f14033311acdca8819d6dcb585195018ebea6c0f
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 5ef90e4c99a567e6abe18f06b8a9be29365323bb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192977"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6445775"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Plukke for montering eller produksjon i avanserte lageroppsett
 I avansert lageroppsett der lokasjonen er definert slik at plukking og levering brukes, kan du plukke komponenter for produksjons- og monteringsaktiviteter ved å bruke **Plukk**-siden.  
@@ -40,7 +40,7 @@ Hvis du vil opprette plukkforespørsler, må de aktuelle kildedokumentene frigis
 |Monteringsordre|Endre status til Frigitt.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>Slik plukker du komponenter ved hjelp av plukkforslaget  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plukkforslag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Plukkforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Hent lagerdokumenter**, og velg deretter komponentlinjene fra den frigitte produksjonsordren.  
 3.  Inspiser linjene, sorter dem for å sikre en effektiv plukkrunde, og slå dem sammen med andre forslagslinjer om nødvendig for å utnytte arbeidstiden best mulig.  
 4.  Velg handlingen **Opprett plukk**.  
@@ -52,7 +52,7 @@ Hvis det interne operasjonsområdet, for eksempel en produksjon, er opprettet me
 ## <a name="filling-the-consumption-bin"></a>Fylle forbrukshyllen
 Dette flytdiagrammet viser hvordan **Hyllekode**-feltet på produksjonsordrekomponentlinjer fylles ut i henhold til lokasjonsoppsettet.
 
-![Flytskjema for hylle](media/binflow.png "BinFlow")  
+![Flytskjema for hylle.](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>Se også
 [Lagerstyring](warehouse-manage-warehouse.md)  
@@ -60,4 +60,7 @@ Dette flytdiagrammet viser hvordan **Hyllekode**-feltet på produksjonsordrekomp
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Servicebokføring | Microsoft-dokumentasjon
-description: Ved hjelp av funksjonaliteten for servicebokføring kan du behandle dokumenter effektivt og ha et vellykket kundeserviceopplegg. Du kan opprette og oppdatere bokførte dokumenter, og du kan opprette poster både i serviceområdet og i andre moduler for å sikre korrekt oppdatering.
+title: Servicebokføring
+description: Ved hjelp av funksjonaliteten for servicebokføring kan du behandle dokumenter effektivt og ha et vellykket kundeserviceopplegg.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 6ecf6b203b7dd3264c3499f8b60bbdb29698e647
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: 8bdfb6986f16c580cef6e1fc7bdde2ef25dab14b
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192462"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443032"
 ---
 # <a name="service-posting"></a>Servicebokføring
 Ved hjelp av funksjonaliteten for servicebokføring kan du behandle dokumenter effektivt og ha et vellykket kundeserviceopplegg. Du kan opprette og oppdatere bokførte dokumenter, og du kan opprette poster både i serviceområdet og i andre moduler for å sikre korrekt oppdatering.  
@@ -26,7 +26,7 @@ Ved hjelp av funksjonaliteten for servicebokføring kan du behandle dokumenter e
 >  I en lokasjon som ikke er definert slik at lagerhåndtering kreves, kan du utføre bokføringshandlingene direkte fra **Servicelinjer**-siden. På lokasjoner som omfatter lagerhåndtering, utføres de nevnte bokføringshandlingene, unntatt Lever og Forbruk, indirekte gjennom ulike lagerleveringsfunksjoner, avhengig av oppsettet. Hvis du vil ha mer informasjon, kan du se [Plukke varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md).  
 
 ## <a name="ship"></a>Levere  
-Ved hjelp av leveringsalternativet kan du registrere relevante varer og tiden som er angitt i linjene i en serviceordre når du har fullført servicen. En bokført følgeseddel opprettes og oppdateringer forekommer i Lager-modulen og andre moduler i [!INCLUDE[d365fin](includes/d365fin_md.md)] for å gjenspeile at varene er tatt ut av lageret og sendt til kunden. Nærmere bestemt opprettes vareposter, verdiposter, serviceposter og garantiposter.  
+Ved hjelp av leveringsalternativet kan du registrere relevante varer og tiden som er angitt i linjene i en serviceordre når du har fullført servicen. En bokført følgeseddel opprettes og oppdateringer forekommer i Lager-modulen og andre moduler i [!INCLUDE[prod_short](includes/prod_short.md)] for å gjenspeile at varene er tatt ut av lageret og sendt til kunden. Nærmere bestemt opprettes vareposter, verdiposter, serviceposter og garantiposter.  
 
 Hvis lokasjonen er definert slik at lagerhåndtering kreves, fungerer levering og flytting av servicelinjevarer på samme måte som for andre kildedokumenter. Den eneste forskjellen er at servicelinjevarer kan forbrukes eksternt eller internt, noe som krever to forskjellige frigivelsesfunksjoner.
 
@@ -49,7 +49,7 @@ Når du bokfører en servicefaktura, servicefølgeseddel eller servicekreditnota
 
 Følgende fremgangsmåte tar utgangspunkt i en bokført servicefaktura, men du kan bruke samme fremgangsmåte for bokførte servicefølgesedler og bokførte kreditnotaer.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokført servicefaktura**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokført servicefaktura**, og velg deretter den relaterte koblingen.  
 2. Åpne den bokførte servicefakturaen du vil vise.  
 3. Hvis du vil ha en oversikt over den bokførte fakturaen, velger du handlingen **Statistikk**.  
 
@@ -58,3 +58,6 @@ Følgende fremgangsmåte tar utgangspunkt i en bokført servicefaktura, men du k
 ## <a name="see-also"></a>Se også  
 [Postere serviceordrer](service-how-to-post-service-orders.md)   
 [Opprette serviceordrer](service-how-to-create-service-orders.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

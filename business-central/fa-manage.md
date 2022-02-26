@@ -1,30 +1,30 @@
 ---
-title: Administrere aktiva | Microsoft-dokumentasjon
-description: Les om aktivafunksjonaliteten, og få en oversikt over hvordan du arbeider med aktiva.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
+title: Administrere aktiva (inneholder video)
+description: Les om aktivafunksjonaliteten, og få en oversikt over hvordan du arbeider med aktiva og administrere aktiva.
+author: edupont04
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: machinery, buildings
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8b332e50d722ff56625fce45a9617ea67ec2201a
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5634, 5649, 5622, 5650
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: e7b40c1d4809193a22367157fd69cacbd9b27105
+ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184199"
+ms.lasthandoff: 01/26/2022
+ms.locfileid: "8029381"
 ---
-# <a name="fixed-assets"></a>Anleggsmidler
-Aktivafunksjonene i [!INCLUDE[d365fin](includes/d365fin_md.md)] gir en oversikt over hvilke aktiva du har, og hjelper deg med å utføre riktig periodisk avskrivning. De hjelper deg dessuten med å styre vedlikeholdskostnadene, håndtere forsikringspoliser, bokføre aktivatransaksjoner og generere forskjellige rapporter og statistikker.
+# <a name="managing-fixed-assets"></a>Administrer aktiva
+
+Aktivafunksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] gir en oversikt over hvilke aktiva du har, og hjelper deg med å utføre riktig periodisk avskrivning. De hjelper deg dessuten med å styre vedlikeholdskostnadene, håndtere forsikringspoliser, bokføre aktivatransaksjoner og generere forskjellige rapporter og statistikker.
 
 For hvert enkelt aktiva må du definere et kort som inneholder opplysninger om aktivaet. Du kan definere bygninger eller produksjonsutstyr som hovedaktiva i en komponentoversikt, og du kan gruppere dem på forskjellige måter, som etter klasse, avdeling eller lokasjon. Deretter kan du begynne å kjøpe, vedlikeholde og selge aktiva. Du kan også definere budsjetterte aktiva. Dette gjør det mulig å ta med eventuelle forventede anskaffelser og salg i rapporter.
 
-Hvis du vil holde rede på aktivaavskrivninger samt andre finansielle transaksjoner knyttet til aktiva, definerer du ett eller flere avskrivningstablåer for hvert aktiva i firmaet. Avskrivning gjøres ved å kjøre en rapport for å beregne periodiske avskrivninger og fylle ut en kladd med de resulterende postene, klare til å bokføres. [!INCLUDE[d365fin](includes/d365fin_md.md)] støtter flere ulike avskrivningsmetoder. Hvis du vil ha mer informasjon, kan du se [Avskrivningsmetoder](fa-depreciation-methods.md). Du kan definere flere avskrivningstablåer per aktiva for ulike formål, for eksempel ett for mva-rapportering og et annet for intern rapportering.
+Hvis du vil holde rede på aktivaavskrivninger samt andre finansielle transaksjoner knyttet til aktiva, definerer du ett eller flere avskrivningstablåer for hvert aktiva i firmaet. Avskrivning gjøres ved å kjøre en rapport for å beregne periodiske avskrivninger og fylle ut en kladd med de resulterende postene, klare til å bokføres. [!INCLUDE[prod_short](includes/prod_short.md)] støtter flere ulike avskrivningsmetoder. Hvis du vil ha mer informasjon, kan du se [Avskrivningsmetoder](fa-depreciation-methods.md). Du kan definere flere avskrivningstablåer per aktiva for ulike formål, for eksempel ett for mva-rapportering og et annet for intern rapportering.
 
 For hvert enkelt aktiva kan du registrere vedlikeholdskostnader og dato for neste service. Det kan være viktig å holde oversikt over vedlikeholdsutgifter i forbindelse med budsjettering og dessuten når det gjelder avgjørelser om utskiftning av aktiva.
 
@@ -48,12 +48,20 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Bokføre salgstransaksjoner, vise salgsposter og bokføre delvise salg. |[Avhending eller tilbaketrekking av aktiva](fa-how-dispose-retire.md) |
 | Administrere aktivabudsjetter, og budsjettere anskaffelseskostnader, salg av aktiva og avskrivninger. |[Behandle budsjetter for aktiva](fa-how-manage-budgets.md) |
 
+## <a name="video-overview"></a>Videooversikt
+Følgende video dekker det grunnleggende ved aktiva:
+
+> [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
+
 ## <a name="see-also"></a>Se også
 [Definere aktiva](fa-setup.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
 [Finans](finance.md)  
-[Komme i gang](product-get-started.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

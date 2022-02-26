@@ -1,45 +1,49 @@
 ---
-title: Oppgradere en integrasjon med Dynamics 365 Sales | Microsoft Docs
-description: Lær hvordan du klargjør Dynamics 365 Business Central for integrering med Dynamics 365 Sales.
-services: project-madeira
-documentationcenter: ''
+title: Oppgradere en integrasjon med Dynamics 365 Sales
+description: Dette emnet forteller deg hvordan du kan flytte Dynamics 365 Business Central-integrasjonen med Dynamics 365 Sales til den nyeste versjonen.
 author: bholtorf
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
-ms.date: 10/01/2019
+ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 2a5f58ac904ea05f4410ac9e1b804df1cb01c609
-ms.sourcegitcommit: 4545bb597dd9dc4c563b30af762977ee1d815497
+ms.openlocfilehash: c6405326890b8f33b399f880e54d0fcf14db1650
+ms.sourcegitcommit: a486aa1760519c380b8cdc8fdf614bed306b65ea
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/29/2020
-ms.locfileid: "3410671"
+ms.lasthandoff: 07/13/2021
+ms.locfileid: "6543023"
 ---
 # <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Oppgradere en integrasjon med Dynamics 365 Sales
-[!INCLUDE[d365fin](includes/d365fin_md.md)] kan integreres med [!INCLUDE[d365fin](includes/cds_long_md.md)], som gjør det enkelt å koble til og synkronisere data med andre Dynamics 365-apper, for eksempel [!INCLUDE[crm_md](includes/crm_md.md)] eller til og med apper du lager selv. Hvis du integrerer for første gang, anbefales det at du gjør det via [!INCLUDE[d365fin](includes/cds_long_md.md)]. Hvis du vil ha mer informasjon, kan du se [Integrasjon med Common Data Service](admin-common-data-service.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] kan integreres med [!INCLUDE[prod_short](includes/cds_long_md.md)], som gjør det enkelt å koble til og synkronisere data med andre Dynamics 365-apper, for eksempel [!INCLUDE[crm_md](includes/crm_md.md)] eller til og med apper du lager selv. Hvis du integrerer for første gang, anbefales det at du gjør det via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Hvis du vil ha mer informasjon, kan du se [Integrasjon med Dataverse](admin-common-data-service.md).
 
-Hvis du allerede har integrert [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[d365fin](includes/d365fin_md.md)], kan du fortsette å synkronisere data ved hjelp av konfigurasjonen. Hvis du imidlertid oppgraderer [!INCLUDE[d365fin](includes/d365fin_md.md)] eller slår av [!INCLUDE[crm_md](includes/crm_md.md)]-integreringen, må du slå den på igjen ved å koble til via [!INCLUDE[d365fin](includes/cds_long_md.md)]. 
+Hvis du allerede har integrert [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)], kan du fortsette å synkronisere data ved hjelp av konfigurasjonen. Hvis du imidlertid oppgraderer [!INCLUDE[prod_short](includes/prod_short.md)] eller slår av [!INCLUDE[crm_md](includes/crm_md.md)]-integreringen, må du slå den på igjen ved å koble til via [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
 
 > [!NOTE]
-> Når du kobler til på nytt via [!INCLUDE[d365fin](includes/cds_long_md.md)], brukes standard synkroniseringsinnstillinger, og eventuelle konfigurasjoner blir overskrevet. Standard tabelltilordninger vil for eksempel bli brukt.
+> Når du kobler til på nytt via [!INCLUDE[prod_short](includes/cds_long_md.md)], brukes standard synkroniseringsinnstillinger, og eventuelle konfigurasjoner blir overskrevet. Standard tabelltilordninger vil for eksempel bli brukt.
 
-## <a name="to-upgrade-your-connection-to-use-common-data-service"></a>Slik oppgraderer du tilkoblingen for å bruke Common Data Service
-1. Åpne siden **Konfigurere Microsoft Dynamics 365-tilkobling** og velg **Aktiver** for å slå av den eksisterende tilkoblingen til [!INCLUDE[crm_md](includes/crm_md.md)].
-2. Åpne siden **Tilkoblingsoppsett for Common Data Service** og velg **Aktiver** for å slå på tilkoblingen.
+## <a name="to-upgrade-your-connection-to-use-dataverse"></a>Slik oppgraderer du tilkoblingen for å bruke Dataverse
+1. Åpne siden **Konfigurasjon for Microsoft Dynamics 365-tilkobling** og deaktiver du alternativet **Aktivert**. Lukk deretter siden for å koble fra [!INCLUDE[crm_md](includes/crm_md.md)].
+2. Åpne siden **Dataverse-tilkoblingsoppsett**, og velg **Person** i feltet **Eierskapsmodell**. Velg deretter **Aktivert** for å aktivere tilkoblingen til [!INCLUDE[prod_short](includes/cds_long_md.md)].
   
-   Når du har aktivert CDS-tilkoblingen, er den grunnleggende løsningen for CDS-integrering for Business Central distribuert til Common Data Service.
-3. Avinstallere Microsoft Dynamics 365 Business Central-integreringsløsningen fra Dynamics 365 Sales ved å følge [Avinstallere eller slette en løsning-emnet](/powerapps/developer/common-data-service/uninstall-delete-solution) 
-
-4. Åpne siden Konfigurere Microsoft Dynamics 365-tilkobling og velg Aktiver for å slå på tilkoblingen til [!INCLUDE[crm_md](includes/crm_md.md)].
+   > [!NOTE]
+   > Når du har aktivert tilkoblingen, er Business Central-integreringsløsningen distribuert til Dataverse.
+4. På siden **Microsoft Dynamics 365-tilkoblingsoppsett** velger du **Distribuer integreringsløsning** for å installere Business Central-integreringsløsningen på nytt.
+5. Veksle bryteren til **Aktivert** for å koble til [!INCLUDE[crm_md](includes/crm_md.md)] på nytt.
   
-   Når du har aktivert Sales-tilkoblingen, er løsningen for Business Central-integrasjon distribuert til Sales. Dette gjør det mulig å integrere med enheter som er spesifikke for [!INCLUDE[crm_md](includes/crm_md.md)], for eksempel ordrer, tilbud og fakturaer.
-5. Velg **Distribuer integreringsløsning på nytt** for å installere og konfigurere den oppgraderte løsningen for Business Central-integrasjon.
+   > [!NOTE]
+   > Når du har aktivert tilkoblingen, er Business Central-integreringsløsningen distribuert til [!INCLUDE[prod_short](includes/prod_short.md)]. Dette gjør det mulig å integrere med tabeller som er spesifikke for [!INCLUDE[crm_md](includes/crm_md.md)], for eksempel ordrer, tilbud og fakturaer.
 6. På siden **Tilkoblingsoppsett for Sales** velger du **Bruk standard synkroniseringsoppsett** til å initialisere integrasjonstabelltilordninger for [!INCLUDE[crm_md](includes/crm_md.md)].
+
+   > [!IMPORTANT]
+   > Hvis du bruker handlingen **Bruk standard synkroniseringsoppsett**, brukes standard integrasjonstabelltilordninger. Alle egendefinerte tilordninger blir overskrevet. Hvis du har egendefinerte tilordninger du vil beholde, anbefaler vi at du eksporterer dem til Excel eller snakker med Microsoft-partneren om andre måter å beholde de egendefinerte tilordningene på.    
 
 ## <a name="see-also"></a>Se også
 [Integrere med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
-[Integrere med Common Data Service](admin-common-data-service.md)
+[Integrere med Microsoft Dataverse](admin-common-data-service.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

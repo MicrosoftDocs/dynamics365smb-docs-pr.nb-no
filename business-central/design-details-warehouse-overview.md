@@ -1,21 +1,21 @@
 ---
-title: Designdetaljer – Lageroversikt | Microsoft-dokumentasjon
-description: For å støtte den fysiske håndteringen av varer på sone- og hyllenivå må all informasjon spores for hver transaksjon eller flytting på lageret. Dette håndteres i **Lagerpost**-tabellen. Hver transaksjon lagres i en lagerjournal.
+title: Designdetaljer – Lageroversikt
+description: For å støtte den fysiske håndteringen av varer på sone- og hyllenivå må all informasjon spores for hver transaksjon eller flytting på lageret.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 41f18acde6140ca67050391273e9ace61f48fbb5
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 49c25082d8f43210011cc7f482c4f4af330c1a19
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3184583"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8011601"
 ---
 # <a name="design-details-warehouse-overview"></a>Designdetaljer: Lageroversikt
 For å støtte den fysiske håndteringen av varer på sone- og hyllenivå må all informasjon spores for hver transaksjon eller flytting på lageret. Dette håndteres i **Lagerpost**-tabellen. Hver transaksjon lagres i en lagerjournal.  
@@ -28,10 +28,10 @@ Når varebokføringer skjer utenfor lagermodulen, brukes en standard justeringsh
 
 Illustrasjonen nedenfor gir en oversikt over vanlig lagerflyter.  
 
-![Oversikt over lagerprosesser](media/design_details_warehouse_management_overview.png "Oversikt over lagerprosesser")  
+![Oversikt over lagerprosesser.](media/design_details_warehouse_management_overview.png "Oversikt over lagerprosesser")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Grunnleggende eller avanserte lagerstyring  
-Lagerfunksjonaliteten i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan implementeres på ulike kompleksitetsnivåer, avhengig av rutiner og ordrevolum i et selskap. Hovedforskjellen er at aktiviteter utføres ordre for ordre i grunnleggende lagerstyring, mens de konsolideres for flere ordrer i avansert lagerstyring.  
+Lagerfunksjonaliteten i [!INCLUDE[prod_short](includes/prod_short.md)] kan implementeres på ulike kompleksitetsnivåer, avhengig av rutiner og ordrevolum i et selskap. Hovedforskjellen er at aktiviteter utføres ordre for ordre i grunnleggende lagerstyring, mens de konsolideres for flere ordrer i avansert lagerstyring.  
 
  For å skille mellom de ulike kompleksitetsnivåene henviser denne dokumentasjonen til to generelle betegnelser, grunnleggende og avansert lagerstyring. Denne enkle differensieringen dekker flere ulike kompleksitetsnivåer, som defineres av produktgranuler og lokasjonsoppsettet, der hvert nivå støttes av ulike grensesnittdokumenter. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Lagerstyringsoppsett](design-details-warehouse-setup.md).  
 
@@ -69,7 +69,7 @@ Lagerfunksjonaliteten i [!INCLUDE[d365fin](includes/d365fin_md.md)] kan implemen
 Hvis du vil ha mer informasjon om hvert dokument, kan du se de respektive emnene for siden.  
 
 ### <a name="terminology"></a>Terminologi  
-Lagerdokumentasjonen for [!INCLUDE[d365fin](includes/d365fin_md.md)] henviser til følgende termer for vareflyt på lageret, slik at den passer med de økonomiske begrepene om kjøp og salg.  
+Lagerdokumentasjonen for [!INCLUDE[prod_short](includes/prod_short.md)] henviser til følgende termer for vareflyt på lageret, slik at den passer med de økonomiske begrepene om kjøp og salg.  
 
 |Begrep|Beskrivelse|  
 |----------|---------------------------------------|  
@@ -79,3 +79,6 @@ Lagerdokumentasjonen for [!INCLUDE[d365fin](includes/d365fin_md.md)] henviser ti
 
 ## <a name="see-also"></a>Se også  
  [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,41 +1,43 @@
 ---
-title: Administrative oppgaver i Business Central | Microsoft-dokumentasjon
+title: Administrative oppgaver i Business Central
 description: Enkelte oppgaver i Business Central krever sentral administrasjon og oppsett. Se hva de er, og finn ut hva som må gjøres.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 9094d2f77dff8372ece8bd5a5b434f63042d3adc
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 07/23/2021
+ms.author: edupont
+ms.openlocfilehash: 959a56e4bb7fcaac57b05d30dca4939ed2f8576d
+ms.sourcegitcommit: e904da8dc45e41cdd1434111c15e2a9d9edd3fa2
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3186647"
+ms.lasthandoff: 07/23/2021
+ms.locfileid: "6660134"
 ---
 # <a name="administration"></a>Administrasjon
+
 Sentrale administrasjonsoppgaver utføres vanligvis av én rolle i selskapet. Omfanget av disse oppgavene kan avhenge av selskapets størrelse og administrators jobbansvar. Disse oppgavene kan omfatte administrasjon av databasesynkronisering for jobb- og e-postkøer, oppsett av brukere og tilpassing av brukergrensesnittet.  
 
-Det å angi riktige oppsettverdier for begynnelsen av er viktig for suksessen til all ny forretningsprogramvare. [!INCLUDE[d365fin](includes/d365fin_md.md)] inkluderer flere oppsettveiledninger som hjelper deg med å konfigurere kjernedata. Hvis du vil ha mer informasjon, kan du se [Definere Business Central](setup.md).
+Det å angi riktige oppsettverdier for begynnelsen av er viktig for suksessen til all ny forretningsprogramvare. [!INCLUDE[prod_short](includes/prod_short.md)] inkluderer flere oppsettveiledninger som hjelper deg med å konfigurere kjernedata. Hvis du vil ha mer informasjon, kan du se [Definere Business Central](setup.md).
+
+> [!NOTE]
+> Du kan opprette et nytt selskap i [!INCLUDE[prod_short](includes/prod_short.md)] med RapidStart Services. RapidStart Services er et verktøy som er utviklet for å forkorte distribusjonstiden, forbedre kvaliteten på implementeringen, introdusere en implementeringsmetode som kan gjentas og øke produktiviteten ved å automatisere og forenkle regelmessige oppgaver. Hvis du vil ha mer informasjon, kan du se [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
 Enten du bruker RapidStart Services til å implementere oppsettsverdier eller du angir dem manuelt i det nye selskapet, kan du støtte opp om oppsettsbeslutningene dine ved å følge noen generelle anbefalinger for utvalgte oppsettsfelt som er kjent for å redusere løsningens effektivitet hvis de defineres feil.  
 
 En superbruker eller en administrator kan opprette et rammeverk for datautveksling slik at brukere kan eksportere og importere data i bank- og lønnsfiler, for eksempel for forskjellige bankstyringsprosesser. Hvis du vil ha mer informasjon, kan du se [Utveksle data elektronisk](across-data-exchange.md).
 
-> [!NOTE]
-> Du kan opprette et nytt selskap i [!INCLUDE[d365fin](includes/d365fin_md.md)] med RapidStart Services. RapidStart Services er et verktøy som er utviklet for å forkorte distribusjonstiden, forbedre kvaliteten på implementeringen, introdusere en implementeringsmetode som kan gjentas og øke produktiviteten ved å automatisere og forenkle regelmessige oppgaver. Hvis du vil ha mer informasjon, kan du se [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
-
-Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.   
+Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artiklene som beskriver dem.  
 
 |**Hvis du vil**|**Se**|  
-|------------|-------------|  
-|Definer hvem som kan logge på [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å opprette brukere på administrasjonssenteret for Microsoft 365 i henhold til produktlisensene.|[Opprette brukere i henhold til lisenser](ui-how-users-permissions.md)|
+|------------|-------------|
+|Definer hvem som kan logge på [!INCLUDE[prod_short](includes/prod_short.md)] ved å opprette brukere på administrasjonssenteret for Microsoft 365 i henhold til produktlisensene.|[Opprette brukere i henhold til lisenser](ui-how-users-permissions.md)|
 |Tilordne tillatelser til brukerne, endre tillatelsessett, og gruppere brukere for enkel behandling av tillatelser.|[Tilordne tillatelser til brukere og grupper](ui-how-users-permissions.md)|
 |Legg til brukere, behandle tillatelser og tilgang til data, tilordne roller.|[Administrere profiler](admin-users-profiles-roles.md)|
+|Behandle brukerinnstillinger, for eksempel firma, rolle, språk, region og tidssone.|[Brukerinnstillinger](admin-manage-user-settings-preferences.md)|
 |Konfigurer skrivere, og angi hvilke rapporter som skal skrives ut på hvilke skrivere.|[Konfigurere skrivere](ui-specify-printer-selection-reports.md)|
 |Klassifisere datafølsomheter for feltene slik at du kan svare på forespørsler fra dataobjekter relatert til personlig informasjon.|[Klassifisere datasensitivitet](admin-classifying-data-sensitivity.md)|
 |Svare på forespørsler fra dataobjekter relatert til personlig informasjon.|[Svare på forespørsler om personopplysninger](admin-responding-to-requests-about-personal-data.md)|
@@ -44,17 +46,32 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 |Legge inn enkeltstående eller gjentakende forespørsler om å kjøre rapporter eller kodeenheter.|[Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md)|  
 |Administrere, slette eller komprimere dokumenter|[Slette dokumenter](admin-manage-documents.md)|  
 |Vis sider, kodeenheter og spørringer som web-tjenester.|[Publisere en webtjeneste](across-how-publish-web-service.md)|
-|Som en del av å opprette Connect apps mellom [!INCLUDE[d365fin](includes/d365fin_md.md)] og tredjepartløsninger gjennom REST-API-er, må du definere maler som brukes til å fylle ut tomme egenskaper på en enhet når du oppretter en POST-handling gjennom et API.|[Konfigurere API-maler](admin-configuring-api-template.md)|
-|Krypter data på [!INCLUDE[d365fin](includes/d365fin_md.md)]-serveren ved å generere nye eller importere eksisterende krypteringsnøkler som du aktiverer på serveren.|[Administrere datakryptering](admin-manage-data-encryption.md)|
-|Koble Dynamics 365 Sales med [!INCLUDE[d365fin](includes/d365fin_md.md)] for å få en sømløs integrasjon mellom kunderelasjoner og ordrebehandling i interessent-til-kontanter-prosessen.|[Integrere med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
-|Endre hvilke felt og handlinger som skal vises i brukergrensesnittet, slik at det passer ditt selskaps forretningsprosesser, og utvid løsningen med apper.|[Tilpasse [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-customizing-overview.md)|
+|Som en del av å opprette Connect apps mellom [!INCLUDE[prod_short](includes/prod_short.md)] og tredjepartløsninger gjennom REST-API-er, må du definere maler som brukes til å fylle ut tomme egenskaper på en enhet når du oppretter en POST-handling gjennom et API.|[Konfigurere API-maler](admin-configuring-api-template.md)|
+|Krypter data på [!INCLUDE[prod_short](includes/prod_short.md)]-serveren ved å generere nye eller importere eksisterende krypteringsnøkler som du aktiverer på serveren.|[Administrere datakryptering](admin-manage-data-encryption.md)|
+|Koble Dynamics 365 Sales med [!INCLUDE[prod_short](includes/prod_short.md)] for å få en sømløs integrasjon mellom kunderelasjoner og ordrebehandling i interessent-til-kontanter-prosessen.|[Integrere med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
+|Endre hvilke felt og handlinger som skal vises i brukergrensesnittet, slik at det passer ditt selskaps forretningsprosesser, og utvid løsningen med apper.|[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
+
+## <a name="administration-in-the-admin-center"></a>Administrasjon i administrasjonssenteret
+
+Interne og delegerte administratorer har tilgang til [!INCLUDE [prod_short](includes/prod_short.md)]-administrasjonssenteret der de kan konfigurere, overvåke og feilsøke [!INCLUDE [prod_short](includes/prod_short.md)]-miljøer. Tabellen nedenfor beskriver noen av hovedoppgavene, og har koblinger til artiklene som beskriver dem.  
+
+|**Hvis du vil**|**Se**|  
+|------------|-------------|
+|Finn ut om verktøyene som kan hjelpe deg å feilsøke.|[Teknisk støtte](/dynamics365/business-central/dev-itpro/technical-support)|
+|Overvåk bruk og feilsøk økter|[Miljøtelemetri i administrasjonssenteret for Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-telemetry)|
+|Behandle brukerøkter, inkludert avbryte en økt, hvis brukeren er blokkert.|[Behandle økter](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#managing-sessions)|
+|Konfigurer leieren til å sende telemetridata til Azure Application Insights for bedre analyse og feilsøking.|[Aktiver sending av telemetri til Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
+
 [Forretningsfunksjoner](across-business-functionality.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
-[Komme i gang](product-get-started.md)    
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,21 +1,21 @@
 ---
-title: Plukke varer for lagerlevering | Microsoft-dokumentasjon
-description: Når lokasjonen er satt opp til å bruke plukkbehandling og i tillegg lagerleveringsbehandling, kan du bruke plukkdokumentene til å opprette og behandle plukkopplysningene før lagerleveringen bokføres.
+title: Plukke varer for lagerlevering
+description: Lær mer om hvordan du bruker lagerplukkdokumenter til å opprette og behandle plukkinformasjon før du bokfører lagerleveringen.
 author: SorenGP
 ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: fe91ed57af6a93f874ead85f53c97358068e0b4c
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: b5b92c04fea101959c32775c768bbbaab22a7c3e
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3192972"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6441863"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Plukke varer for lagerlevering
 Når lokasjonen er satt opp til å bruke plukkbehandling og i tillegg lagerleveringsbehandling, kan du bruke plukkdokumentene til å opprette og behandle plukkopplysningene før lagerleveringen bokføres.  
@@ -38,7 +38,7 @@ Du kan også opprette lagerplukkdokumenter på en push-måte på siden **Lagerle
 >  Hvis du vil ha informasjon om plukking av komponenter for monteringsordrer generelt, inkludert situasjoner der monteringsvaren ikke forfaller på en følgeseddel, kan du se [Plukke for produksjon eller montering](warehouse-how-to-pick-for-production.md).  
 
 ## <a name="to-pick-items-for-warehouse-shipment"></a>Plukke varer for lagerlevering  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Plukking**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Plukking** og velger den relaterte koblingen.  
 
     Hvis du skal arbeide med en bestem plukking, velger du plukkingen fra oversikten eller filtrerer oversikten for å finne plukkingene som er tilordnet spesielt til deg. Åpne kortet for plukkingen.  
 2.  Hvis feltet **Tilordnet bruker-ID** er tomt, angir du om nødvendig IDen for å identifisere deg selv.  
@@ -79,4 +79,7 @@ Når lagerleveringen er bokført, oppdateres forskjellige felt på ordrelinjen f
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]
