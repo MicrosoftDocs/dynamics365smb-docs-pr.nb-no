@@ -2,7 +2,6 @@
 title: Tildele ressurser | Microsoft-dokumentasjon
 description: Du kan endre årlig beløp i servicekontrakten eller kontrakttilbudet for å rette beløpet som skal faktureres hvert år.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4b84f2521e0b1c9e6026975b42db20947821b0db
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ba3571eac4e26646507db2c67f0c2f77207a4566
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436433"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143065"
 ---
 # <a name="allocate-resources"></a>Tildele ressurser
 Det viktigste elementet innen service er personene som utfører servicen. Du kan definere [!INCLUDE[prod_short](includes/prod_short.md)] for å tildele de aktuelle personene til de aktuelle prosjektene. Tilordningen kan være basert på servicesoner der personene befinner seg, eller der servicen skjer. I tillegg kan du samle ressurser i grupper når du svarer på serviceforespørsler. Hvis du vil ha mer informasjon, kan du se [Definere ressurstildeling](service-how-setup-resource-allocation.md).

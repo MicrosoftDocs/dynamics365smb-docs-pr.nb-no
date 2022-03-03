@@ -2,7 +2,6 @@
 title: Konfigurering av datautveksling for å sende og motta filer
 description: 'Konfigurer rammeverket for datautveksling for å kunne utveksle data med eksterne filer: sende og motta elektroniske dokumenter eller importere og eksportere bankfiler.'
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 0b94d258a07ba65c81f329144d12a8b4e10093a9
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 9736a1ea6c0da0381a14c8e77eabaaf752ea9f34
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325096"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133281"
 ---
 # <a name="setting-up-data-exchange"></a>Definere datautveksling
 Før du kan sende og motta elektroniske dokumenter eller importere og eksportere bankfiler, må du definere rammeverket for datautveksling til å behandle filer som er involvert. I tillegg må du definere tilknyttede områder, for eksempel kundene du sender elektroniske fakturaer til, eller utvidelsen AMC Banking 365 Fundamentals hvis du bruker den eksterne tjenesteleverandøren til å konvertere bankfilene. Hvis du vil ha mer informasjon, kan du se [Utveksle data elektronisk](across-data-exchange.md).  

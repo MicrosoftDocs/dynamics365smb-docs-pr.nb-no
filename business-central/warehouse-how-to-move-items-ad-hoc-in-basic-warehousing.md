@@ -2,7 +2,6 @@
 title: Flytte varer ad hoc i enkle lageroppsett
 description: Dette emnet forklarer ad hoc-flyttinger som utføres når du skal flytte varer mellom interne hyller uten et bestemt behov fra et kildedokument.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 11377c1944f47723b97fad9b5ffc699fa8255a4f
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1dd408f93a7111b6d389ae1c532bd7b1ec70d7bb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444105"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140056"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Flytte varer ad hoc i enkle lageroppsett
 Av og til kan det være nødvendig å flytte varer mellom interne hyller, hyller som ikke er mottakshyller eller leveringshyller, uten et bestemt behov fra et kildedokument. Du kan utføre disse ad hoc-flyttingene for eksempel for å omorganisere lageret, for å hente varer til et kontrollområde eller for å flytte tilleggsvarer til og fra et produksjonsområde uten et systemforhold til kildedokumentet for produksjonsordren.  

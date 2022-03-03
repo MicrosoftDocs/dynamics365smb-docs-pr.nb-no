@@ -3,7 +3,6 @@ title: Forstå elementtyper
 description: Du kan justere lagerverdien for en vare med lagermetoden FIFO eller Gjennomsnitt, når varekost endres av andre årsaker enn transaksjoner.
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.search.keywords: ''
 ms.search.form: 9297, 5845, 30,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: acb6ab4436f32760d905701348a242a4374b6b2d
-ms.sourcegitcommit: 189bf08d7ddf6c8b7ef2c09058c6847aa6e590d3
+ms.openlocfilehash: e902068398a636b5e205fa7d808066861059b901
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/31/2022
-ms.locfileid: "8059625"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131694"
 ---
 # <a name="about-item-types"></a>Om varetyper
 I **Type**-feltet på **Varekort**-siden kan du velge hva varen brukes til i virksomheten din, som påvirker i hvilken grad du kan administrere varen på lageret. Tabellen nedenfor viser og beskriver de tre varetypene som er tilgjengelige.

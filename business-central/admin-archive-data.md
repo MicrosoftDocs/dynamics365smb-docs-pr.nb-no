@@ -2,7 +2,6 @@
 title: Dataarkiv-utvidelsen
 description: Når du arkiverer data, opprettes en lavkostnads sikkerhetskopi av postene.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 630
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4070ff5658ad4aa976c181a3df377155080f1e3b
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: e2df40494f72260a1ce7e66f57ea1c96fb35b301
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012080"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130829"
 ---
 # <a name="the-data-archive-extension"></a>Dataarkiv-utvidelsen
 Over tid vil bedriften samle en vesentlig mengde data, og som administrator kan det være lurt å ha en strategi for arkivering av data. Hvis du har store mengder data, kan du redusere hastigheten, for eksempel at det tar litt lengre tid å generere rapporter, eller til og med låse poster. I tillegg kan store mengder data føre til økte lagringskostnader.

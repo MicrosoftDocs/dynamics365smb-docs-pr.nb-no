@@ -2,7 +2,6 @@
 title: Bruke Salgs- og lagerprognose-utvidelsen til lagerstyring | Microsoft-dokumentasjon
 description: Utvidelsen bidrar til å forutsi salg, få en klar oversikt over forventet tomt lager, og hjelper deg til og med å opprette etterfyllingsforespørsler til leverandører.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, budget
 ms.date: 12/20/2021
 ms.author: edupont
-ms.openlocfilehash: 615212ee648993136aaa75c7cb1ab798615899ab
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 4341abd51fa87e36394109dd71452b38df5062e1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940154"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140374"
 ---
 # <a name="the-sales-and-inventory-forecast-extension"></a>Utvidelsen Salgs- og lagerprognose
 Lagerstyring er en avveining mellom kundeservice og håndtering av kostnader. På den ene siden krever en lav beholdning mindre arbeidskapital, men på den annen side kan tomme lagre føre til tapt salg. Salgs- og lagerprognose-utvidelsen forutsier mulig salg ved hjelp av historiske data og gir en tydelig oversikt over forventet tomt lager. Basert på prognosen hjelper utvidelsen med å opprette etterfyllingsforespørsler til leverandørene og sparer deg for tid.  

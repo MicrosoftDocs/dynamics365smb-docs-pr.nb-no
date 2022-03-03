@@ -2,7 +2,6 @@
 title: Definere selskapskonfigurasjon
 description: Som partner kan du få Business Central konfigurert riktig til kunden med standardkonfigurasjoner eller kundespesifikke konfigurasjoner som du gjør i konfigurasjonspakker.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5baef81f22e260fa6f582b536dcf356d3ae25d25
-ms.sourcegitcommit: ecbabd2d0fdf2566cea4a05a25b09ff6ca6256c6
+ms.openlocfilehash: 841d57ec0e5897ee0395e498ed24dc19b4fcbaea
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/22/2021
-ms.locfileid: "6649715"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143937"
 ---
 # <a name="set-up-company-configuration"></a>Definere selskapskonfigurasjon
 Implementeringsprosessen begynner med Microsoft-partneren. Som en partneren er du ansvarlig for å tenke gjennom konfigurasjonsdetaljer og lage en pakke som kunden enkelt kan bruke. Før du oppretter et nytt selskap i [!INCLUDE [prod_short](includes/prod_short.md)] lokalt, bør du planlegge hvordan det skal konfigureres. Du må vurdere grunnleggende oppsettsdata og hvilke typer data [!INCLUDE[prod_short](includes/prod_short.md)]-løsningen vil kreve. Du grupperer all denne informasjonen i konfigurasjonspakker.

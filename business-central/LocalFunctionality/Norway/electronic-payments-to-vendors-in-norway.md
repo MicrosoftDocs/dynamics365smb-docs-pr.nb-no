@@ -4,7 +4,6 @@ description: Norske forbedringer omfatter automatisk betaling til leverandører 
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: ff1a02bc6737ba5c13f42df8a18043741c663da9
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: b6b5e735bf541007ea968c1841135dd96679628a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320798"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138131"
 ---
 # <a name="electronic-payments-to-vendors-in-norway"></a>Elektroniske betalinger til leverandører i Norge
 [!INCLUDE[prod_short](../../includes/prod_short.md)]inkluderer forbedringer i den norske versjonen for automatisk betaling til leverandører. Dette reduserer sjansen for at feil skal oppstå på grunn av manuell registrering av data. Denne funksjonaliteten kan brukes til å utføre følgende operasjoner:  

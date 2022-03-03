@@ -2,7 +2,6 @@
 title: Konfigurere e-post i Business Central (inneholder video)
 description: Beskriver hvordan du kobler e-postkontoer til Business Central, slik at du kan sende utgående meldinger uten å måtte åpne en annen app.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7e71694e59dcd17072bb7616324953ca02117a89
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: dfeb85bae0329059d4dda9b5edc302b4d0e908e6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115069"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142552"
 ---
 # <a name="set-up-email"></a>Konfigurer e-post
 Personer i bedrifter sender informasjon og dokumenter, for eksempel ordrer og bestillinger og fakturaer, per e-post hver dag. Systemansvarlige kan gjøre det enklere å gjøre ved å koble én eller flere e-postkontoer til [!INCLUDE[prod_short](includes/prod_short.md)], slik at du kan sende dokumenter uten å måtte åpne en e-postapp. Du kan lage hver enkelt melding individuelt med grunnleggende formateringsverktøy, for eksempel skrifter, stiler, farger og så videre, og legge til vedlegg på opptil 100 MB. Administratorer kan også definere rapportoppsett som bare omfatter nøkkelinformasjon fra dokumenter. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md).

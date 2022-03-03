@@ -2,7 +2,6 @@
 title: Servicestatistikk
 description: Få en rask oversikt over innholdet og statistikken i servicedokumenter, som ordrer, tilbud, fakturaer, kreditnotaer, servicelinjer med mer.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: eaec4f99ea07e84b1a328be3022005fac01de38d
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2d6d9cfd03971a7adec509babff9ad8cd90af4cb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438260"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142935"
 ---
 # <a name="viewing-service-statistics"></a>Vise servicestatistikk
 Du kan bruke statistikk til å analysere servicedokumenter og bestemme hvor godt du administrerer serviceprosessene. Du kan analysere servicekontrakter, varer, tilbud, ordrer, fakturaer og kreditnotaer ved å velge handlingen **Statistikk**. For servicevarer og kontrakter kan du også bruke vinduet **Servicevare - Trendscape** eller **Kontrakt - Trendscape** for å vise en oversikt over bokførte serviceposter for en bestemt servicevare.   

@@ -3,7 +3,6 @@ title: Bruke OCR til å gjøre PDF om til e-fakturaer | Microsoft-dokumentasjon
 description: Beskriver hvordan du kan bruke en OCR-tjeneste til å konvertere inngående PDF-filer til elektroniske dokumenter.
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a5defde47d21492c104c767f21165573221a1e51
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 5464f2770ca603a67b825ff8b5908cb7ac255d9b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7587533"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141544"
 ---
 # <a name="use-ocr-to-turn-pdf-and-image-files-into-electronic-documents"></a>Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter
 Fra PDF- eller bildefiler som du mottar fra handelspartnere, kan du få en ekstern OCR-tjeneste (optisk tegngjenkjenning) til å generere elektroniske dokumenter som kan konverteres til dokumentposter i [!INCLUDE[prod_short](includes/prod_short.md)]. Når du for eksempel mottar en faktura i PDF-format fra leverandøren, kan du sende den til OCR-tjenesten fra siden **Inngående dokumenter**. Dette er beskrevet i første fremgangsmåte.

@@ -2,7 +2,6 @@
 title: Designdetaljer – Bokføre produksjonsordre | Microsoft-dokumentasjon
 description: De forbrukte komponentene og den brukte maskintiden konverteres og avgis som den produserte varen når produksjonsordren er ferdig, på lignende måte som ved bokføring av monteringsordrer.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 98dee9205b2d2f66365d111608cd69c151951ca2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 21dfc90e25c33c26bc739ff32274d0a5088a6e2f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442363"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146569"
 ---
 # <a name="design-details-production-order-posting"></a>Designdetaljer: Bokføre produksjonsordre
 De forbrukte komponentene og den brukte maskintiden konverteres og avgis som den produserte varen når produksjonsordren er ferdig, på lignende måte som ved bokføring av monteringsordrer. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md). Kostnadsflyten for monteringsordrer er imidlertid mindre komplisert, spesielt fordi bokføring av monteringskost bare forekommer én gang og derfor ikke genererer lager for varer i arbeid.

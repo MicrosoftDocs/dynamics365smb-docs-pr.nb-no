@@ -2,22 +2,23 @@
 title: Remitteringsfeil [NO]
 description: Remitteringsfeil for betalinger kan oppstå ved overføring av data etter at betalingene er sendt til banken. Disse feilene rapporteres på siden Returfeil.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: c9b61043ccd8fb9c8753ba802bd983898f61b907
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: d3494832f9bb80097908ae1b0ab19152c18274f6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320788"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144154"
 ---
 # <a name="remittance-errors-in-the-norwegian-version"></a>Remitteringsfeil i den norske versjonen
+
 Remitteringsfeil for betalinger kan oppstå ved overføring av data og etter at betalingene er sendt til banken. Begge typer feil rapporteres på siden **Returfeil**.  
 
 Remitteringssystemet håndterer alle feilkoder som kan sendes via returfiler. Det er ikke nødvendig å utføre manuelle annulleringer av betalinger som er avvist av banken.  

@@ -1,25 +1,24 @@
 ---
-title: Opprette remitteringsforslag
+title: Opprette remitteringsforslag [NO]
 description: Du kan opprette et remitteringsforslag slik at betalingsforslag sendes til leverandører som skal motta remitteringsoppdrag.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dd2bda42e0ddedb31912a03aea25c366e4555e66
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ecdec5afff242f9030f9bf231ed66567a43e5f3a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435721"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147336"
 ---
-# <a name="create-remittance-suggestions"></a>Opprette remitteringsforslag
+# <a name="create-remittance-suggestions-in-the-norwegian-version"></a>Opprett remitteringsforslag i den norske versjonen
+
 Du kan opprette et remitteringsforslag slik at betalingsforslag sendes til leverandører som skal motta remitteringsoppdrag. Én betalingstransaksjon per bokføringsdato overføres til banken for hver leverandør.  
 
 > [!NOTE]  

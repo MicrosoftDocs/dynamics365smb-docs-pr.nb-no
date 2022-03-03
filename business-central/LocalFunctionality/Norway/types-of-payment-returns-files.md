@@ -1,23 +1,21 @@
 ---
 title: Typer betalingsreturfiler [NO]
-description: Forbedringer i den norske versjonen omfatter to typer importerbare betalingsreturfiler – mottaksreturer og avregningsreturer.
-services: project-madeira
-documentationcenter: ''
+description: Forbedringer i den norske versjonen omfatter to typer betalingsreturfiler som kan importeres i Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 1a1e67373f9a15a93f620ec22489ce7c6d0bf148
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 039bf8fe5604a0d2727a61a694567b35e50282aa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320786"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132219"
 ---
 # <a name="types-of-payment-returns-files-in-the-norwegian-version"></a>Typer betalingsreturfiler i den norske versjonen
 [!INCLUDE[prod_short](../../includes/prod_short.md)]omfatter to typer importerbare betalingsreturfiler:  

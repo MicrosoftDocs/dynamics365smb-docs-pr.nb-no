@@ -2,7 +2,6 @@
 title: Kontrollere automatisk utlignede betalinger og utligne betalinger på nytt manuelt | Microsoft-dokumentasjon
 description: Etter at betalingene er utlignet automatisk, kan du se gjennom alle postene for en betaling og manuelt utligne de som ble uriktig utlignet, på nytt.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: payment process, reconcile payment, expenses, cash receipts
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dce6cdfdf70d968ae06c88ad4d567ad5cde803dd
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c2844c7fc1969e2159c67f8783481fbbc143a39a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443244"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144908"
 ---
 # <a name="review-and-apply-payments-manually-after-automatic-application"></a>Se gjennom og utligne betalinger manuelt etter automatisk utligning
 For hver kladdelinje som representerer en betaling på siden **Betalingsavstemmingskladd**, kan du åpne siden **Betalingsutligning** hvis du vil vise alle åpne kandidatposter for betalingen og detaljert informasjon for hver post om datasamsvaret som en betalingsutligning er basert på. Her kan du manuelt utligne betalinger som ble utlignet automatisk mot feil oppføring, eller utligne betalinger på nytt. Hvis du vil ha mer informasjon om automatisk utligning, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).

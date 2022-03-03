@@ -2,7 +2,6 @@
 title: Definere lokasjoner slik at de bruker hyller
 description: Hyller representerer den enkle lagerstrukturen og brukes til å komme med forslag om plasseringen av og lokasjonen til varer.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 29ee70ffa50b018073b8f44a66588df3d822b5cc
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 06693ce5e02256e7f0b8d54788849c146ed9dcb1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442957"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129495"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Definere lokasjoner slik at de bruker hyller
 Hyller representerer den enkle lagerstrukturen og brukes til å komme med forslag om plasseringen av varer. Når du har opprettet hyllene, kan du definere det innholdet du vil plassere i hver hylle, svært spesifikt, eller hyllen kan fungere som en mobil hylle uten angitt innhold.  

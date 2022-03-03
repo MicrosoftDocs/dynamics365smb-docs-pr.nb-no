@@ -2,7 +2,6 @@
 title: Designdetaljer – Varesporingstilgjengelighet
 description: Sidene Varesporingslinjer og Varesporingssummering inneholder dynamisk tilgjengelighetsinformasjon for serie- eller partinumre, noe som øker gjennomsiktigheten for brukere.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 707adc254b955ce80bbdb9efc2b22a0fb116d9d5
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 4fd66e1b6e5aff71ee10b0e24d9f25b81eb85887
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320866"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138625"
 ---
 # <a name="design-details-item-tracking-availability"></a>Designdetaljer: Varesporingstilgjengelighet
 Sidene **Varesporingslinjer** og **Varesporingssummering** inneholder dynamisk tilgjengelighetsinformasjon for serie- eller partinumre. Hensikten med dette er å gjøre utgående dokumenter, for eksempel ordrer, klarere for brukere ved å vise dem serienumrene eller antallet partinumre som for øyeblikket er tilordnet i andre åpne dokumenter. Dette reduserer usikkerhet som skyldes doble tildelinger og vekker tillit hos ordrebehandlere om at varesporingsnumrene og datoene de bekrefter på ikke-bokførte ordrer, kan oppfylles. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Side for varesporingslinjer](design-details-item-tracking-lines-window.md).  

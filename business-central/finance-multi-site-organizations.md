@@ -2,7 +2,6 @@
 title: Business Central for organisasjoner med flere lokasjoner og internasjonale organisasjoner | Microsoft Docs
 description: Business Central har funksjoner som støtter en nav-og-eiker-forretningsmodell.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: c6821a8e542b27338ee6f9ce0c14875896019449
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a135499b12ed04ecf179f1cb5691c97ecc0f1aaf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437369"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141102"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central for organisasjoner med flere lokasjoner og internasjonale organisasjoner
 Organisasjoner med flere lokasjoner bruker ofte en nav-og-eiker-forretningsmodell der et moderselskap, eller hovedkontor, håndterer den generelle driften av virksomheten, mens hver lokasjon fungerer som en frittstående enhet. Lokasjoner er ofte geografisk spredt og har ulike behov for å dele informasjon med moderselskapet. Lokasjoner trenger vanligvis ikke samme grad av kompleksitet og har ofte ikke ressursene til å opprettholde et stort system.

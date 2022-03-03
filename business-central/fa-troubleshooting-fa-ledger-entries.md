@@ -3,7 +3,6 @@ title: Utvidelsen for feilsøking av aktivaposter
 description: Det er enklere å arbeide med hele tall. Bruk denne utvidelsen til å runde av beløp for aktiva i aktivaposten.
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 39bfc61cf928b6556a3c54625c8b6f9221553c93
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: bad9c995f87a3a4dfc598989e68b8e2b047a7d5d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865581"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142318"
 ---
 # <a name="the-troubleshooting-fa-ledger-entries-extension"></a>Utvidelsen for feilsøking av aktivaposter
 Bruk utvidelsen for feilsøking av aktivaposter til å runde av avskrivnings- og anskaffelsesbeløp i aktivaposter til hele numre. Du kan for eksempel avrunde et beløp på 30 000,44 til 30 000. Vanlige årsaker til avrundingsfeil er dataoverføring, plutselig bokføring av beløp i finans, eller tilpasninger du har gjort i [!INCLUDE[prod_short](includes/prod_short.md)].

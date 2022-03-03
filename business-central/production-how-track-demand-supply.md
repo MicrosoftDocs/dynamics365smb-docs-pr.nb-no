@@ -2,7 +2,6 @@
 title: Spore relasjoner mellom behov og forsyning
 description: Dette emnet forklarer de forskjellige måtene å spore relasjoner mellom behov og forsyning, for eksempel sporing av koblede varer og håndtering av ikke-sporede planleggingselementer.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 5830, 9101, 99000822, 99000855
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ed1dbf03838b478cc8ff9c5f2e357c5873e30703
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 27dce308070eb72ae7699bae084b6bedb0324ba7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7972700"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146371"
 ---
 # <a name="track-relations-between-demand-and-supply"></a>Spore relasjoner mellom behov og forsyning
 

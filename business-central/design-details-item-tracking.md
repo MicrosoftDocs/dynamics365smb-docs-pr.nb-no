@@ -2,7 +2,6 @@
 title: Designdetaljer – Varesporing
 description: Varesporingssystemet gir enkel håndtering av serie- og partinumre, som kan være nødvendig for å oppfylle juridiske krav eller bistå med garantihåndtering.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 788d003324ccf7314d316f201cc561e0a2877933
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 55e8463e788e222265a0ec837196c55726caf53e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320292"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146621"
 ---
 # <a name="design-details-item-tracking"></a>Designdetaljer: Varesporing
 Etter hvert som flyt av varer i dagens forsyningskjede blir mer og mer komplisert, er muligheten til å holde oversikt over varer stadig viktigere for involverte selskaper. Overvåking av en vares transaksjonsflyt er et juridisk krav i bransjer for medisinske og kjemiske produkter, men andre bedrifter vil kanskje også overvåke produkter med garantier eller utløpsdatoer av med hensyn til kundeservice.  

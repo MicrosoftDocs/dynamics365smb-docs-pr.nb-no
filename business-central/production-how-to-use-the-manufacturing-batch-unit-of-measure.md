@@ -2,7 +2,6 @@
 title: Bruk produksjonsbunkeenheten
 description: Dette emnet gir en oversikt over hvordan du arbeider med produksjonsbunkeenheter i Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d0fed17c296932afd5f976d5cceb7a4b83c79dae
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 6e7d188adceffbc6044162e14de5cbb141c21b54
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6321244"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137500"
 ---
 # <a name="work-with-manufacturing-batch-units-of-measure"></a>Arbeide med produksjonsbunkeenhet
 Hvis en vare lagerføres i én enhet, men produseres i en annen, opprettes en produksjonsordre som bruker en produksjonsbunkeenhet til å beregne riktig antall komponenter mens kjørselen **Forny produksjonsordre** kjøres. Ett eksempel på beregning med produksjonsbunkeenhet er når en produsert vare lagerføres i stykker, men produseres i tonn.  

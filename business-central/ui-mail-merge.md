@@ -2,7 +2,6 @@
 title: Bruke Word-maler til massekommunikasjon | Microsoft-dokumentasjon
 description: Word-maler kan gjøre det enkelt å opprette dokumenter som er tilpasset for bestemte enheter.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c624d718d27de607aed49a82a506f81eec57247c
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 9e87e86ea4f267bea0e636f16fab55ae485ee8cf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7588910"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145319"
 ---
 # <a name="using-word-templates-for-bulk-communication"></a>Bruke Word-maler til massekommunikasjon
 Microsoft Word-maler kan gjøre det enklere å massekommunisere på trykk eller e-post med enheter som kontakter, kunder og leverandører. Du kan for eksempel opprette brosjyrer for å varsle kunder om en salgskampanje, brev til å informere leverandører om en ny kjøpspolicy, eller invitasjoner til å tiltrekke kontakter til et kommende arrangement.

@@ -2,7 +2,6 @@
 title: Rammeverket for datautveksling
 description: Dette emnet forklarer hvordan du bruker rammeverket for datautveksling til å håndtere utvekslingen av data i forretningsdokumenter som fakturaer med forretningspartnere.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: Data exchange framework, data files, data exchange, electron
 ms.search.form: 189,
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 4779bc3d2139ad6ea25df94a844198b6500dbcc6
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: c48d6a304e0938bbae70e61545b4a4e8d72fbdde
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012292"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134385"
 ---
 # <a name="about-the-data-exchange-framework"></a>Rammeverket for datautveksling
 

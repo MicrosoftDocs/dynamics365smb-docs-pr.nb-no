@@ -2,7 +2,6 @@
 title: Beregne dato for salg
 description: Programmet beregner automatisk datoen du må bestille en vare på for å ha den på lager på en bestemt dato og tilgjengelig for plukking.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 221580cebab85be781cd56d461e9d75bb321c15b
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: bee576ce77411e15710e9f09ccbc6ef457f80728
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6320209"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145449"
 ---
 # <a name="date-calculation-for-sales"></a>Beregne dato for salg
 [!INCLUDE[prod_short](includes/prod_short.md)] beregner automatisk hvilken dato en vare på en ordrelinje tidligst kan leveres på.

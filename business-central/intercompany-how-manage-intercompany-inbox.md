@@ -2,7 +2,6 @@
 title: Administrere den konserninterne innboksen og utboksen
 description: Konserninterne transaksjoner du mottar fra de konserninterne partnerne dine, er oppført i den konserninterne innboksen der du behandler dem manuelt eller automatisk.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: incoming document
 ms.search.form: 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2678d6b31a630d088a747464444fed76ee98a277
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 2e8959900cedbf538a289447ad57c2e64b51c55b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029433"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141076"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Administrere den konserninterne innboksen og utboksen
 Alle de konserninterne transaksjonene du mottar elektronisk fra de konserninterne partnerne, er oppført i den konserninterne innboksen.  

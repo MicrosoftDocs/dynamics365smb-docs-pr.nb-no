@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: ff8d69a96fb34deb5a196067d553d72efb7f0813
-ms.sourcegitcommit: 8a968e9176a913635e47e5170c66962e485e6689
+ms.openlocfilehash: fc1788acfb1b11a90327ac72ce83d7fa4981e602
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/10/2022
-ms.locfileid: "8105888"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143351"
 ---
 Du kan bruke purringer til å minne kunder på forfalte beløp. Du kan også bruke purringer til å beregne renter eller gebyrer og inkludere dem i purringen.
 

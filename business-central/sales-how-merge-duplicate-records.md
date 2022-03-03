@@ -2,7 +2,6 @@
 title: Slå sammen dupliserte kunde- eller leverandørposter
 description: Beskriver hvordan du konsoliderer informasjon om kunder eller leverandører når du har duplikate poster om noen av dem.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 336c10e93a50e7fb880f9bf5856c85b44daef266
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: bc68aba329f391333dfddc9e6ba5ce8c59212c74
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436854"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130127"
 ---
 # <a name="merge-duplicate-records"></a>Slå sammen dupliserte poster
 Siden ulike brukere oppretter nye kunde-, leverandør- eller kontaktkort over tid eller de nye postene opprettes automatisk under overføringen, kan en kunde, leverandør eller kontakt være representert i systemet med mer enn én post. I så fall kan du bruke siden **Slå sammen duplikat** fra kortet til posten du vil beholde. Siden siden gir deg en oversikt over dupliserte feltverdier og inneholder funksjoner for å velge hvilke verdier du vil beholde eller forkaste når du slår sammen to poster til én.

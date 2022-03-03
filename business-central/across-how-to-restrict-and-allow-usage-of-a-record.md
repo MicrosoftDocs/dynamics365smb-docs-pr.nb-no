@@ -2,7 +2,6 @@
 title: Begrense og tillate bruk av en post
 description: Hvis du vil hindre at en post brukes, kan du innlemme to arbeidsflytsvar i en arbeidsflyt som styrer bruken av posten.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: bd7382730a70295693a9feb70ff67d9fb6344717
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5382a05668e3dfcb02534788de607473494bafd2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438310"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134281"
 ---
 # <a name="restrict-and-allow-usage-of-a-record"></a>Begrense og tillate bruk av en post
 Hvis du vil hindre at en post brukes i bestemte aktiviteter, for eksempel før oppføringen er godkjent, kan du innlemme to arbeidsflytsvar i en arbeidsflyt som styrer bruken av posten. Ett arbeidsflytsvar vil begrense bruken av posten som definert av arbeidsflythendelsen og -betingelsene. Et nytt arbeidsflytsvar vil tillate bruken av posten som definert av arbeidsflythendelsen og -betingelsene. Det finnes to svar i den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] for dette formålet: **Begrens bruk av en post.** og **Tillat bruk av en post.**.

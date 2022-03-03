@@ -1,25 +1,24 @@
 ---
-title: Eksporter remitteringsoppdrag [NO]
-description: Dette emnet forklarer hvordan du kan bruke funksjonen for eksport av remitteringsoppdrag til å eksportere betalingsfilen til datamaskinen din.
-services: project-madeira
-documentationcenter: ''
+title: Eksportere remitteringsoppdrag [NO]
+description: Dette emnet forklarer hvordan du kan bruke funksjonen for eksport av remitteringsoppdrag til å eksportere betalingsfilen til datamaskinen din i den norske versjonen av Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: d5d75a5c02974c042761a50f1dca3ad652634830
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 3c72f2634dd2d357b352bea61e62b3f447490e7a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435718"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145074"
 ---
 # <a name="export-remittance-payments-in-the-norwegian-version"></a>Eksporter remitteringsoppdrag i den norske versjonen
+
 Du kan bruke funksjonen for eksport av remitteringsoppdrag til å eksportere betalingsfilen til datamaskinen din. Deretter kan du overføre remitteringsoppdragene til banken.  
 
 > [!IMPORTANT]  

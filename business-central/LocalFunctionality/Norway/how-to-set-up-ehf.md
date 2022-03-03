@@ -2,20 +2,20 @@
 title: Konfigurer EHF [NO]
 description: Du må definere en lokasjon for lagring av EHF-filer (Elektronisk Handelsformat) når du oppretter elektroniske dokumenter, for eksempel fakturaer og kreditnotaer.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 459, 5919
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 87ad548c6ec377d25f3ffffdc2a3adfd543e50e6
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: d493ea0c39fc8c01b7cb6d62d5986d26e727e53e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8028950"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144168"
 ---
 # <a name="set-up-ehf-in-the-norwegian-version"></a>Konfigurer EHF i den norske versjonen
 Du må definere en lokasjon for lagring av EHF-filer (Elektronisk Handelsformat) når du oppretter elektroniske dokumenter, for eksempel fakturaer og kreditnotaer. Du må også definere betalingsmåter og definere aktuelle kunder for EHF.  

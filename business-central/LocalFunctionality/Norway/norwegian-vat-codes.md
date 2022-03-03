@@ -2,19 +2,20 @@
 title: Norske mva-koder
 description: I den norske versjonen av Business Central kan mva-behandlingsinformasjon enkelt defineres ved hjelp av standard norske mva-koder.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: ''
+ms.search.form: 10602, 10697, 10698, 10604, 315, 472, 473, 471, 317
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2f054f988da278021eca805e07f52192875eb5d2
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 73c43c1b2863e4c8bb170f55157185b9b07407ab
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775238"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144160"
 ---
 # <a name="norwegian-vat-codes"></a>Norske mva-koder
+
 I [!INCLUDE[prod_short](../../includes/prod_short.md)] kan mva-behandlingsinformasjon enkelt defineres ved hjelp av norske standard mva-koder.. Tabellen nedenfor viser norske standard mva-koder.  
 
 |**Kode**|**Beskrivelse**|  

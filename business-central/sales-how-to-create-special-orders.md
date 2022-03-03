@@ -2,7 +2,6 @@
 title: Opprette spesialbestillinger
 description: Lær hvordan du kan opprette en spesialbestilling for en bestemt katalogvare som skal leveres til en bestemt kunde.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 80c26420a4a8e90a2a2b076169f6af505343ad76
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d879e8cfb556ca0c7fc496f72ec653826e8d7db9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440256"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128716"
 ---
 # <a name="create-special-orders"></a>Opprette spesialbestillinger
 Du kan opprette en spesialbestilling for en bestemt katalogvare som skal leveres til en bestemt kunde. Leverandøren din leverer varen til lageret ditt, og du kan deretter sende bare denne varen videre til kunden eller sammen med andre varer i en annen ordre.  

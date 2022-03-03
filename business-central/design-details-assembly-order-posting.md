@@ -2,7 +2,6 @@
 title: Designdetaljer – Bokføre monteringsordre
 description: Monteringsordrebokføring er basert på de samme prinsippene som ved bokføring av lignende aktiviteter for salgsordrer og produksjonsforbruk/-avgang.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 155fbf64c5ca0dcffce22f16f7ffbfc6375250f1
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 2ec7e242bd174f3a825a29923b33642d035ec4ca
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6442563"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132116"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetaljer: Bokføre monteringsordre
 Monteringsordrebokføring er basert på de samme prinsippene som ved bokføring av lignende aktiviteter for salgsordrer og produksjonsforbruk/-avgang. Prinsippene kombineres imidlertid slik at monteringsordrer har sine egne brukergrensesnitt for bokføring, som for salgsordrer, mens den faktiske bokføringen skjer i bakgrunnen som direkte vare- og ressurskladdbokføringer, som for produksjonsforbruk, avgang og kapasitet.  

@@ -2,7 +2,6 @@
 title: Funksjonalitet som er spesifikk for norske brukere [NO]
 description: Emnene nedenfor beskriver all den lokale funksjonaliteten i den norske versjonen av Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: f31a3550fc639afa37d0c916ae109758182cfcf8
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: fa18d271afce09aaff4ba1f9f0cabfa68d1cc60e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6325806"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140011"
 ---
 # <a name="norway-local-functionality-in-the-norwegian-version"></a>Norge Lokal funksjonalitet i den norske versjonen
 

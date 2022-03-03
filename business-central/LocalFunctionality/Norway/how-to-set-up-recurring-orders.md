@@ -4,7 +4,6 @@ description: Når du har opprettet en gjentakelsesgruppe, kan du definere gjenta
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f9cd6eda6d0728cc52ef65f5c00e9b91872087e2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4a699fb9bd02cba67e8e22249b51d95881b8eeb2
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445762"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145067"
 ---
 # <a name="set-up-recurring-orders"></a>Definere gjentakelsesordrer
 Når du har opprettet en gjentakelsesgruppe, kan du definere gjentakelsesordrer for rammeordren ved å legge til gruppen i ordren. Hvis du vil ha mer informasjon, kan du se [Opprette rammeordrer](how-to-set-up-recurring-groups.md).  

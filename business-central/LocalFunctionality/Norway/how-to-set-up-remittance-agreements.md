@@ -1,25 +1,24 @@
 ---
-title: Sett opp remitteringsavtaler [NO]
-description: Du må undertegne en avtale om remittering med banken når du oppretter elektroniske betalinger.
-services: project-madeira
-documentationcenter: ''
+title: Sette opp remitteringsavtaler [NO]
+description: Du må undertegne en avtale om remittering med banken når du oppretter elektroniske betalinger i den norske versjonen av Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: d2a337bdf86aac5f4fbc3d16202c909b2f1b74fb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 84ea18c64927b4ea5e51fea933ea2d60704c65fd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6443316"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142646"
 ---
 # <a name="set-up-remittance-agreements-in-the-norwegian-version"></a>Sett opp remitteringsavtaler i den norske versjonen
+
 Du må undertegne en avtale om remittering med banken når du oppretter elektroniske betalinger. Du kan sette opp mer enn én remitteringsavtale hvis du har en avtale med to eller flere banker. For hver avtale må du spesifisere én eller flere kontoer som betalingen skal utføres fra. Du må opprette en remitteringskonto for hver konto. For mer informasjon, se [Sette opp remitteringskontoer](how-to-create-remittance-accounts.md).  
 
 ## <a name="to-set-up-a-remittance-agreement"></a>Slik setter du opp en remitteringsavtale  

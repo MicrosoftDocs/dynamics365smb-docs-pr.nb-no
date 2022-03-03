@@ -2,7 +2,6 @@
 title: Konfigurere ny selskaper | Microsoft-dokumentasjon
 description: Du kan konfigurere og tilpasse et nytt selskap som du har opprettet. Hvis du vil finjustere implementeringen, fortsetter du i tre faser for å fullføre konfigurasjonen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b7a71e6611d78555d4be266e2b972152e5c43857
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f0964028b7d6e711e48e1361950d1ec6b4e14425
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439688"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130803"
 ---
 # <a name="configure-new-companies"></a>Konfigurere nye selskaper
 Hvis du vil konfigurere et nytt selskap i løsningsimplementeringen, følger du vanligvis tre faser. I den første fasen importerer du konfigurasjonspakken, som er en .rapidstart-fil med konfigurasjonsinformasjon. I den andre fasen endrer du konfigurasjonsinformasjonen og bruker den deretter på det nye selskapet. Du ser gjennom og retter eventuelle feil i siste fase.  

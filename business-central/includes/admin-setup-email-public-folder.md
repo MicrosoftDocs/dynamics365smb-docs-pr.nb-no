@@ -1,20 +1,19 @@
 ---
 author: edupont04
-ms.service: dynamics365-accountant
 ms.topic: include
-ms.date: 09/02/2021
+ms.date: 02/15/2022
 ms.author: edupont
-ms.openlocfilehash: 5bb0e2d4ec0dfe20ecb6668a6d01ba4e8a174b8e
-ms.sourcegitcommit: 04055135ff13db551dc74a2467a1f79d2953b8ed
+ms.openlocfilehash: c947d843a17c46323febee83a01c80a574982bbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/08/2021
-ms.locfileid: "7482300"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142500"
 ---
 > [!NOTE]
 > Delene nedenfor forutsetter at du har administratortilgang for Exchange Online.
 
-Før du kan opprette e-postpålogging må du klargjøre Office 365 med [fellesmapper](/exchange/collaboration-exo/public-folders/public-folders?preserve-view=true). Du kan gjøre dette i [Administrasjonssenter for Exchange](/exchange/exchange-admin-center?preserve-view=true), eller du kan bruke [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true).
+Før du kan opprette e-postpålogging må du klargjøre Office 365 med [fellesmapper](/exchange/collaboration-exo/public-folders/public-folders). Du kan gjøre dette i [Administrasjonssenter for Exchange](/exchange/exchange-admin-center?preserve-view=true), eller du kan bruke [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&?preserve-view=true).
 
 > [!TIP]
 > Hvis du vil bruke [Exchange Online PowerShell](/powershell/exchange/exchange-online-powershell?view=exchange-ps&preserve-view=true), kan du finne inspirasjon for hvordan du konfigurerer skriptet i et eksempelskript som vi publiserte i [BCTech repo](https://github.com/microsoft/BCTech/tree/master/samples/EmailLogging).
@@ -31,7 +30,7 @@ Opprett en administratorrollegruppe for fellesmapper basert på informasjonen i 
 |Valgte roller  |Fellesmapper            |
 |Valgte brukere  |E-postadressen til brukerkontoen som Business Central bruker til å kjøre loggføringsjobben for e-post|
 
-Hvis du vil ha mer informasjon, kan du se [Administrer rollegrupper i Exchange Online](/exchange/permissions-exo/role-groups?preserve-view=true).
+Hvis du vil ha mer informasjon, kan du se [Administrer rollegrupper i Exchange Online](/exchange/permissions-exo/role-groups).
 
 ### <a name="create-a-new-public-folder-mailbox"></a>Opprett en ny postboks for fellesmapper
 
@@ -41,7 +40,7 @@ Opprett en ny postboks for fellesmapper basert på informasjonen i følgende tab
 |----------------|--------------------------|
 |Name            |Fellespostboks            |
 
-Hvis du vil ha mer informasjon, kan du se [Opprette en postboks for fellesmapper](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox?preserve-view=true).
+Hvis du vil ha mer informasjon, kan du se [Opprette en postboks for fellesmapper](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
 ### <a name="create-new-public-folders"></a>Opprette nye fellesmapper
 
@@ -51,7 +50,7 @@ Hvis du vil ha mer informasjon, kan du se [Opprette en postboks for fellesmapper
     - `\Email Logging\Queue\`
     - `\Email Logging\Storage\`
 
-Hvis du vil ha mer informasjon, kan du se [Opprett en fellesmappe](/exchange/collaboration-exo/public-folders/create-public-folder?preserve-view=true).
+Hvis du vil ha mer informasjon, kan du se [Opprett en fellesmappe](/exchange/collaboration-exo/public-folders/create-public-folder).
 
 ### <a name="set-public-folder-ownership"></a>Angi eierskap for fellesmappe
 
@@ -61,7 +60,7 @@ Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til fellesmapper
 
 ### <a name="mail-enable-the-queue-public-folder"></a>Aktiver e-post for fellesmappen *Kø*
 
-  Hvis du vil ha mer informasjon, kan du se [Aktiver eller deaktiver e-post for en fellesmappe](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder?preserve-view=true).
+  Hvis du vil ha mer informasjon, kan du se [Aktiver eller deaktiver e-post for en fellesmappe](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
 ### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>Aktiver sending av e-post til fellesmappen *Kø*
 

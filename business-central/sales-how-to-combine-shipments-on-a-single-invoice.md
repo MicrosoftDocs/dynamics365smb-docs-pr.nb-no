@@ -2,7 +2,6 @@
 title: Kombinere leveringer på én faktura | Microsoft-dokumentasjon
 description: Hvis du vil fakturere mer enn én følgeseddel av gangen, kan du bruke funksjonen for samling av følgesedler.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: e111c08dc9251898ccecff4e65f768984b123c15
-ms.sourcegitcommit: 088bb19634f60891a12736c034ab3e86bdb91891
+ms.openlocfilehash: a55d0d32873783adf049b44d90cc12b6e66080a4
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7929583"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144778"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Kombinere leveringer på én faktura
 Hvis du vil fakturere mer enn én følgeseddel av gangen, kan du bruke funksjonen for samling av følgesedler.  

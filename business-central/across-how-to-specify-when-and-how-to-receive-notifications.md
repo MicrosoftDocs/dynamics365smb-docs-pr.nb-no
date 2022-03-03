@@ -2,7 +2,6 @@
 title: Angi når og hvor du kan motta arbeidsflytvarsler
 description: Når du definerer brukere i arbeidsflyt for godkjenning, kan du angi hvordan og når hver godkjenningsbruker mottar varsler.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 6812fa270066b03fa64a7d8c664ef4df8d28eff0
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: 3f663ca22cdcfde38b42ac0285eaf403a9e0982d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8102502"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129170"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Angi når og hvor du kan motta arbeidsflytvarsler
 Når du definerer godkjenningsbrukere i arbeidsflytprosesser der du vil at noen skal godkjenne endringer, for eksempel når nye poster opprettes, eller når noen ber om en godkjenning, må du angi hvordan og når godkjenningsbrukeren skal varsles. Du kan for eksempel angi at en godkjenningsbruker umiddelbart skal motta en e-post når noen oppretter en ny kunde. Du kan også planlegge at varsler skal leveres for eksempel ukentlig eller månedlig.

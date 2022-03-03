@@ -2,7 +2,6 @@
 title: Bokføre serviceordrer
 description: Når du har opprettet en serviceordre, fylt ut alle nødvendige opplysninger og foretatt eventuelle endringer, kan du bokføre serviceordren.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 08dba596c53186d734a9f30a760f1c69ef635f8b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a03fe49eac925022dc169746db35a51a3f522d3f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446100"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139238"
 ---
 # <a name="post-service-orders-and-credit-memos"></a>Bokføre serviceordrer og kreditnotaer
 Når du har opprettet en serviceordre, fylt ut alle nødvendige opplysninger og foretatt eventuelle endringer, kan du bokføre serviceordren. Ordren må inneholde minst én servicevarelinje og én servicelinje før du kan bokføre den. Hvis ordren inneholder mer enn én servicelinje, bokføres alle linjene samtidig.  

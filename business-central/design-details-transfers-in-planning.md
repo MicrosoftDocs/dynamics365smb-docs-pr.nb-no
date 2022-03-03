@@ -2,7 +2,6 @@
 title: Designdetaljer – Overføringer i planlegging | Microsoft-dokumentasjon
 description: Dette emnet beskriver hvordan du bruker overføringsordrer som en kilde for forsyning når du planlegger lagernivåer.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, transfer, sku, locations, warehouse
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: d2c51e5851fec0c451c058fcb7330ce456d4525c
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: e937c6f261c3fe2249a066b9c3f8819424f3d2f0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439588"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141284"
 ---
 # <a name="design-details-transfers-in-planning"></a>Designdetaljer: Overføringer i planlegging
 Overføringsordrer er også en kilde til forsyning når du arbeider på LFE-nivået. Når flere lokasjoner (lagre) brukes, kan Overfør angis for LFE-etterfyllingssystemet, som betyr at lokasjonen etterfylles ved å overføre varer fra en annen lokasjon. I en situasjon med flere lagre kan selskaper ha en kjede av overføringer der forsyning til GRØNN lokasjon overføres fra GUL, forsyning til GUL overføres fra RØD og så videre. I begynnelsen av kjeden finnes etterfyllingssystemet Prod.ordre. eller Kjøp.  

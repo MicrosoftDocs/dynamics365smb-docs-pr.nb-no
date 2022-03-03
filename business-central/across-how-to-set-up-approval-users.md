@@ -2,7 +2,6 @@
 title: Konfigurere godkjenningsbrukere
 description: Før du kan opprette arbeidsflyter som omfatter godkjenningstrinn, må du definere arbeidsflytbrukerne som er involvert i godkjenningsprosessen med Brukeroppsett for godkjenning.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 44b3eea21fdf26433fec70588859f710235e7dc5
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 7602481a357a9b9e362a7b6fc0d605de04f44537
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012604"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129210"
 ---
 # <a name="set-up-approval-users"></a>Konfigurere godkjenningsbrukere
 

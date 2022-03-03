@@ -2,7 +2,6 @@
 title: Behandle selskapskonfigurasjon i et forslag
 description: Konfigurasjonsforslaget er den sentrale plasseringen der du kan planlegge, spore og utføre selskapskonfigurasjonsarbeidet ditt.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 34d21b0daca39c1b7895800a5f7fbc48485c6c20
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 23a999ab500512a4aaed2aaab7e205629b5954b7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437965"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141362"
 ---
 # <a name="manage-company-configuration-in-a-worksheet"></a>Behandle selskapskonfigurasjon i et forslag
 Konfigurasjonsforslaget er den sentrale plasseringen der du kan planlegge, spore og utføre konfigurasjonsarbeidet ditt. Du kan opprette et forslag for hvert selskap du arbeider med, eller du kan opprette et standard konfigurasjonsforslag som kan brukes til å konfigurere flere identiske selskaper.  

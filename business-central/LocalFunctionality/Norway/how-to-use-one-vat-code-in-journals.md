@@ -2,20 +2,20 @@
 title: Bruke én mva-kode i kladder
 description: I Norge kan du bruke funksjonen for én mva-kode i en kladd, slik at du kan bokføre mva ved hjelp av ett enkelt felt, Mva-kode.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 10602, 10697, 10698, 10604, 315, 472, 473, 471, 317
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3b8dc848fd639587d8749b7a6722b2690be14474
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f69ed9a2455179d307a469e4efd169b0d367b525
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437195"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140016"
 ---
 # <a name="use-one-vat-code-in-journals"></a>Bruke én mva-kode i kladder
 I Norge kan du bruke funksjonen for én mva-kode i en kladd, slik at du kan bokføre mva ved hjelp av ett enkelt felt, **Mva-kode**. Når én mva-kode er konfigurert, er dette en rask måte å fylle ut mva-felt som brukes ofte.  
@@ -31,7 +31,7 @@ Mva-satsen beregnes fra kombinasjonen av mva-firmabokføringsgrupper, kjøperinf
 3.  Angi opplysninger i feltet **Kode**, **Bokføringstype** og **Beskrivelse** for hver mva-kode.  
 4.  Velg **OK**-knappen for å lukke siden **Mva-koder**.  
 
- Fremgangsmåten nedenfor beskriver mva-bokføringsoppsettet.  
+Fremgangsmåten nedenfor beskriver mva-bokføringsoppsettet.  
 
 ## <a name="to-set-up-vat-posting"></a>Slik definerer du mva-bokføring:  
 
@@ -39,12 +39,12 @@ Mva-satsen beregnes fra kombinasjonen av mva-firmabokføringsgrupper, kjøperinf
 2.  Velg handlingen **Ny**.  
 3.  I kortet **Mva-bokføringsoppsett** må du fylle ut følgende felt:  
 
-    - **Mva-bokføringsgruppe - firma**  
-    - **Mva-bokføringsgruppe - vare**  
-    - **Mva-type**  
-    - **Mva-prosent**  
-    - **Utgående mva-konto**  
-    - **Inngående mva-konto**  
+- **Mva-bokføringsgruppe - firma**  
+- **Mva-bokføringsgruppe - vare**  
+- **Mva-type**  
+- **Mva-prosent**  
+- **Utgående mva-konto**  
+- **Inngående mva-konto**  
 
 4.  I feltet **Mva-kode** velger du en kode fra listen.  
 

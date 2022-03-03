@@ -1,25 +1,24 @@
 ---
-title: Opprett remitteringskontoer [NO]
-description: Følgende emne forklarer hvordan du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres.
-services: project-madeira
-documentationcenter: ''
+title: Opprette remitteringskontoer [NO]
+description: Følgende emne forklarer hvordan du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres i den norske versjonen av Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 854063888fd5fd1275030b37b9d8aadc8533b3a2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 22e6e761146ee5303c052eaa50aeaad219c6dd04
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435724"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141797"
 ---
 # <a name="create-remittance-accounts-in-the-norwegian-version"></a>Opprett remitteringskonti i den norske versjonen
+
 Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres. Hvis en konto brukes til å utføre betalinger til både innenlandske og utenlandske leverandører, må denne kontoen opprettes to ganger: én gang for betalinger innland og én gang for betalinger utland.  
 
 > [!NOTE]  

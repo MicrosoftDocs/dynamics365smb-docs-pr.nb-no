@@ -2,7 +2,6 @@
 title: Håndtere partistørrelser
 description: Dette emnet beskriver ulike måter å håndtere partistørrelser på.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 05e592d1f4ecd281b71ab4f182c5c535faa611a1
-ms.sourcegitcommit: 2ab6709741be16ca8029e2afadf19d28cf00fbc7
+ms.openlocfilehash: 6d6316fbe214512f5d42622c47502a4361ce604e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/14/2022
-ms.locfileid: "7973917"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135753"
 ---
 # <a name="handling-lot-sizes-in-production"></a>Håndtere partistørrelser i produksjon
 Når det gjelder antall, kan det hende at antall varer du produserer i en produksjonsoperasjon, ikke koordineres til hvordan de selges. Du kan for eksempel produsere hundrevis av varer i et enkelt parti, men selge hver vare individuelt. Når du konfigurerer produksjonsrutene og stykklistene, er det noen få nyanser du bør ta hensyn til når det gjelder partistørrelser. Dette emnet beskriver hvordan partistørrelser påvirker kostnadsberegninger og ressursplanlegging.

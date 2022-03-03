@@ -2,7 +2,6 @@
 title: Plukk for interne operasjoner i avansert lageroppsett
 description: Hvis lokasjonene bruker plukking i tillegg til levering, plukker du komponenter for produksjons- og monteringsaktiviteter på siden Lagerplukking.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5ef90e4c99a567e6abe18f06b8a9be29365323bb
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5df764b1ca184d1f70dd67c08abf0505833dc2aa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445775"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139134"
 ---
 # <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Plukke for montering eller produksjon i avanserte lageroppsett
 I avansert lageroppsett der lokasjonen er definert slik at plukking og levering brukes, kan du plukke komponenter for produksjons- og monteringsaktiviteter ved å bruke **Plukk**-siden.  

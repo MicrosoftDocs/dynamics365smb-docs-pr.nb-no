@@ -2,7 +2,6 @@
 title: Legge til felt i et Word-rapportoppsett
 description: Dette emnet beskriver hvordan du legger til felt i et rapportdatasett i et eksisterende Word-rapportoppsett for en rapport.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 11/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 5c87d107cde4d0327d1147ffce78aadc88b241ca
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: 036b6964b8a0e468bdfc4d2f3e44824b3daac9ee
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865341"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144726"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Legge til felt i et Word-rapportoppsett
 Et rapportdatasett kan bestå av felt som viser etiketter, data og bilder. Dette emnet beskriver fremgangsmåten for å legge til felt i et rapportdatasett i et eksisterende Word-rapportoppsett for en rapport. Du legger til felt ved hjelp av den egendefinerte XML-delen for Word for rapporten og ved å legge til innholdskontroller som tilordnes til feltene i rapportdatasettet. Når du skal legge til feltene, må du ha noe kjennskap til rapportens datasett, slik at du kan identifisere hvilke felt du vil legge til i oppsettet.  

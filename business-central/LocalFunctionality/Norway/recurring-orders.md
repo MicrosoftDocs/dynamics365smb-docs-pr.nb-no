@@ -4,7 +4,6 @@ description: Du kan bruke gjentakelsesordrer til å opprette rammeordremaler sli
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 07547c68bc0941803569b09646f595dce6572b35
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 315d9e552bb09ee690d268a4887b6ac2fe4e8168
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775230"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132221"
 ---
 # <a name="recurring-orders"></a>Gjentakelsesordrer
 Du kan bruke gjentakelsesordrer til å opprette rammeordremaler slik at salgsordrer kan opprettes basert på datointervallene du definerer. Hvis du for eksempel leverer den samme salgsordren annenhver uke, kan du bruke en rammeordre til å opprette gjentakelsesordrer.  

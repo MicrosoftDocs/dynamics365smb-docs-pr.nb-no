@@ -2,7 +2,6 @@
 title: Tilordne varegebyr til salg og kjøp (inneholder video)
 description: Tilordne varegebyr når du trenger at lagervarene skal bære ekstra kostnader, for eksempel frakt og fysisk håndtering som du pådrar deg når du kjøper eller selger varer.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.search.form: 5709, 5800, 5805, 5814
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: c49b529bcb93544aef8393a5440b142e722efd1c
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: 6cfebffb12eb2cd7ffa84e12a07c01968c429069
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953237"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145605"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Bruke varegebyr til å gjøre rede for ekstra handelskostnader
 For å sikre riktig verdisetting må lagervarene bære eventuelle ekstra kostnader, for eksempel frakt, fysisk håndtering, forsikring og transport, som du pådrar deg når du kjøper eller selger varer. Når det gjelder kjøp, består netto innkjøpspris for en vare av innkjøpsprisen fra leverandøren samt alle direkte tilleggsvaregebyr som kan tilordnes enkeltstående mottak eller returforsendelser. Når det gjelder salg, kan det være like viktig for selskapet ditt å være klar over kostnaden ved å levere solgte varer som netto innkjøpspris for kjøpte varer.

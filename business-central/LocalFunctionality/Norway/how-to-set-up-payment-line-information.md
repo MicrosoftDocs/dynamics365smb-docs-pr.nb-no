@@ -2,7 +2,6 @@
 title: Definer betalingslinjeinformasjon [NO]
 description: Les om hvordan utbetalingskladdelinjeinformasjon for remitteringsoppdraget angis på siden Betalingsinformasjon.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 1b24d3c28ee52aef16f75534d9954745d4c090e7
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: c5ea99e6d5fbfdaafee6871060c90608c669cc9f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437525"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145069"
 ---
 # <a name="set-up-payment-line-information-in-the-norwegian-version"></a>Definer betalingslinjeinformasjon i den norske versjonen
 Utbetalingskladdelinjeinformasjon for remitteringsoppdraget angis på siden **Betalingsinformasjon**.  

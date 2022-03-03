@@ -3,7 +3,6 @@ title: Lønnsdatadefinisjoner [NO]
 description: Utvidelsen Lønnsdatadefinisjoner gjør det enkelt å utveksle data med lønnstjenesteleverandøren i Norge.
 author: edupont04
 manager: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: c6c809c9cc2d4b957c4d3d953f9a1dd1c45ea236
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9057a16af1c216305e62bf557714dcd64dc0adba
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6440056"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144152"
 ---
 # <a name="the-payroll-data-definitions-extension-in-the-norwegian-version"></a>Utvidelsen Lønnsdatadefinisjoner i den norske versjonen
 

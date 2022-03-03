@@ -1,23 +1,21 @@
 ---
 title: Sette opp kunder for EHF
-description: Hvis du vil opprette dokumenter i Elektronisk Handelsformat (EHF) for kunder i offentlig sektor, må du legge til EHF-informasjon for de aktuelle kundene.
-services: project-madeira
-documentationcenter: ''
+description: Hvis du vil opprette dokumenter i Elektronisk Handelsformat (EHF) for kunder i offentlig sektor i Norge, må du legge til EHF-informasjon for de aktuelle kundene.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 21, 459
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7a4c552ea0eef3f0ce93774a501f4e17724af9f9
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 53ec1f14252677b9685d0935314012c39f5a6fed
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438974"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146022"
 ---
 # <a name="set-up-customers-for-ehf"></a>Sette opp kunder for EHF
 Hvis du vil opprette dokumenter i Elektronisk Handelsformat (EHF) for kunder i offentlig sektor, må du legge til EHF-informasjon for de aktuelle kundene.  

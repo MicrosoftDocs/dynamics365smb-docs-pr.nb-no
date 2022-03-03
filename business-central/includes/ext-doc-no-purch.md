@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: edupont
-ms.openlocfilehash: 59376b96dcd6f755040b07784ceca53e157bcf14
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: f1c6ead7a776d11ccc8917944c3752ec6ac43c66
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115982"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132657"
 ---
 I kjøpsdokumenter og kladder kan du angi et dokumentnummer som viser til leverandørens nummereringssystem. Bruk dette feltet til å registrere nummeret som leverandøren har knyttet til ordren, fakturaen eller kreditnotaen. Du kan deretter bruke nummeret senere hvis du trenger å søke etter den bokførte oppføring ved hjelp av dette nummeret.
 

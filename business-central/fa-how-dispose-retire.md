@@ -2,7 +2,6 @@
 title: Avhende eller trekke tilbake aktiva
 description: Når du selger eller på annen måte avhender et aktiva, må salgsverdien bokføres for å beregne og registrere tap eller vinning.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: scrap
 ms.search.form: 5628, 5610, 5611
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 1f3a593b96f311cf742fa4edf510d4b2e930b05d
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: 4d8018ca3cbb7b04fc2ba35a2eb095a0f29d48a3
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029303"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132969"
 ---
 # <a name="dispose-of-or-retire-fixed-assets"></a>Avhending eller tilbaketrekking av aktiva
 

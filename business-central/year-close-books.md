@@ -2,7 +2,6 @@
 title: Oversikt over oppgavene for lukking av tablåer
 description: Finn ut hvordan du lukker tablåene for et regnskapsår eller en regnskapsperiode, og hva som skjer etter at du har lukket ved utgangen av året.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 224d1886987184e6ebdb3cc1434c64454d383678
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 242868f88883c6e62a9b43ca949289deb0cdf2fe
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011338"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142753"
 ---
 # <a name="closing-the-books"></a>Lukke tablåene
 Når du har kontrollert at alle kontiene er oppdatert og har fordelt kost og inntekt, kan du lukke tablåene for et regnskapsår eller en periode.

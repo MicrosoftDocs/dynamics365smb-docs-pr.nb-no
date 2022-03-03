@@ -2,7 +2,6 @@
 title: Definere feilsøkingsprosesser | Microsoft-dokumentasjon
 description: Finn ut hvordan du konfigurerer prosessene som kan hjelpe kundeservicerepresentanter med å identifisere og løse problemer med servicevarer.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: service, service item, troubleshoot, repairs, maintenance
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5dbef8bda307a38b25e3c84776da0a50e2daced5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ba3a265f94221388fb539d3c5b90a3327440b37a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436504"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134876"
 ---
 # <a name="setting-up-troubleshooting-for-service-items"></a>Definere feilsøking av servicevarer
 Du kan definere retningslinjer for feilsøking for teknikere som bidrar til å løse problemer ved service. Retningslinjene kan for eksempel være en oversikt over trinn for å utføre en reparasjon eller en serie med spørsmål å stille om varene. Når du har definert retningslinjene for feilsøking, kan du tilordne dem til servicevaregrupper, servicevarer eller varer. Det finnes et arvehierarki for retningslinjer. Hvis du tilordner dem til en servicevaregruppe, vil varene i gruppen arver retningslinjene med mindre du angir dem for varene. På samme måte arver servicevarer retningslinjene fra varer.  

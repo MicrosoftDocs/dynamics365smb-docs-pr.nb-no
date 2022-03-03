@@ -1,15 +1,14 @@
 ---
 author: edupont04
-ms.service: dynamics365-accountant
 ms.topic: include
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: fa7e5a51696c149e66da0d76cf1042c5e8f7e7e3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 045f3cc062c3ffec74177f7c7bc41c3bb96c9b8c
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5776399"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129711"
 ---
 Personer støtter noen ganger mer enn ett selskap, og det er enkelt å gå fra arbeidet i ett selskap til et annet i [!INCLUDE [prod_short](prod_short.md)]. Det kan for eksempel hende at en bedrift har salgskontorer i byer og flere land, så det har opprettet en separat forretningsenhet for hvert kontor. Kontorene som er i samme land, defineres som separate selskaper i et delt miljø. Andre kontorer opprettes som selskaper i separate miljøer fordi de er i geografisk plassert i andre land.<br><br>  
 

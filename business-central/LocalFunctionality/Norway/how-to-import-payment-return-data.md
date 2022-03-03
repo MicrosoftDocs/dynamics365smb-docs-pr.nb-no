@@ -2,7 +2,6 @@
 title: Importer betalingsreturdata [NO]
 description: Dette emnet forklarer hvordan mottaks- og avregningsreturer importeres på siden Remitteringsoppdrag - les inn.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 1de602135366c466b74849273af6435bb1b7fd9a
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: d5286829553fe05d0b8bfdfaa14ae63b610a89af
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435714"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142651"
 ---
 # <a name="import-payment-return-data-in-the-norwegian-version"></a>Importer betalingsreturdata i den norske versjonen
 Mottaks- og avregningsreturer importeres på siden **Remitteringsoppdrag - les inn**. Hvis det oppstår feil under innlesingen av avregningsreturer, kan du vise denne informasjonen på siden **Avregningsopplysninger**.  

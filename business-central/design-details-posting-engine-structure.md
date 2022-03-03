@@ -2,7 +2,6 @@
 title: Designdetaljer – Strukturen til bokføringsmotoren
 description: Bokføringsgrensesnittet bruker bokføringsmotorfunksjoner til å klargjøre og sette inn finansposter og mva-poster.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 68375a306983551a51a59ac448b4f0bfa7ad6917
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: ff1b8330bf804fa89bafa18bf5a3c30471d94afe
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6318411"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8131954"
 ---
 # <a name="design-details-posting-engine-structure"></a>Designdetaljer: Strukturen til bokføringsmotoren
 Bokføringsgrensesnittet og enkelte andre funksjoner i kodeenhet 12 bruker bokføringsmotorfunksjoner til å klargjøre og sette inn finansposter og mva-poster. Bokføringsmotoren er også ansvarlig for opprettelse av finansjournal.  

@@ -2,7 +2,6 @@
 title: Definer salgspriser og rabatter for kunder | Microsoft-dokumentasjon
 description: Beskriver hvordan du definerer og bruker pris- og rabattavtaler for salgsdokumenter.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 1345, 7002, 7007, 7015, 7016, 7023
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5d03e3c567ed6a2932691cee58685e522814a03f
-ms.sourcegitcommit: a6000804ad9a176de5750372d3951547ddb71006
+ms.openlocfilehash: b62fd6f0c8bb7351b873ebe4a3f257406a827d79
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/25/2021
-ms.locfileid: "7865549"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137032"
 ---
 # <a name="record-sales-prices-and-discounts"></a>Registrer salgspriser og rabatter
 > [!NOTE]
@@ -233,7 +232,7 @@ Når du har bestemt hvilke kunder som skal gis fakturarabatter, angir du faktura
 Nå kan du definere nye betingelser for salgsfakturarabatt.
 
 1. På siden **Kunder** velger du handlingen **Fakturarabatter**. Siden **Kundefakturarabatter** åpnes.
-2. I feltet **Valutakode** angir du koden til en valuta som fakturarabattbetingelsene på linjen gjelder for. La feltet stå tomt for å definere betingelser for fakturarabatt i NOK.
+2. I feltet **Valutakode** angir du koden til en valuta som fakturarabattbetingelsene på linjen gjelder for. La feltet stå tomt for å definere betingelser for fakturarabatt i LV.
 3. I **Minimumsbeløp**-feltet angir du hva som er minstebeløpet for at det skal gis rabatt i en faktura.
 4. I **Rabatt-%**-feltet angir du fakturarabatten prosentvis av fakturabeløpet.
 5. Gjenta trinn 5 til 7 for hver valuta som kunden vil motta en forskjellig fakturarabatt for.

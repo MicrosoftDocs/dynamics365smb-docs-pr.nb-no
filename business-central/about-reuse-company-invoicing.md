@@ -2,7 +2,6 @@
 title: Bruke fakturering og Business Central | Microsoft-dokumentasjon
 description: Løsning for å få tilgang til Microsoft Invoicing når du har registrert deg for Dynamics 365 Business Central.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ea59fa49889cd6bfc53f727123f259448242c79b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 8c492b42c1b9c864f44707bebc4b61538e93b7d0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6439150"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134411"
 ---
 # <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Bruke samme Microsoft 365-konto i [!INCLUDE[prod_short](includes/prod_long.md)] og Microsoft Invoicing
 Når du registrerer deg for en prøveversjon med [!INCLUDE[prod_short](includes/prod_short.md)], kan du flytte over til en 30 dager evalueringsfase, du kan du starte et abonnement eller du kan slutte å bruke [!INCLUDE[prod_short](includes/prod_short.md)]. I alle tilfeller kan du på et eller annet ha sett noe kalt **Microsoft Invoicing** og klikket på det. Dette var en app som var en del av det som nå er Microsoft 365 Business Standard, og ble tidligere kalt Microsoft 365 Business Premium-abonnement, så det er ikke alle som har sett denne flisen i Microsoft 365-opplevelsen.  
@@ -25,7 +24,7 @@ Microsoft Invoicing er ikke lenger tilgjengelig, men hvis du må logge deg på I
 Det vises en lignende melding hvis du installerer mobilappen for fakturering.  
 
 ## <a name="workaround"></a>Løsning
-Fakturering og [!INCLUDE[prod_short](includes/prod_short.md)] har en delt plattform. Dette innebærer at du gjenkjennes som en eksisterende bruker av [!INCLUDE[prod_short](includes/prod_short.md)] når du klikker på fakturering i Microsoft 365-administrasjonssenteret. Årsaken er at fakturering ikke kan bruke det samme selskapet som [!INCLUDE[prod_short](includes/prod_short.md)].  
+Fakturering og [!INCLUDE[prod_short](includes/prod_short.md)] har en delt plattform. Dette innebærer at du gjenkjennes som en eksisterende bruker av [!INCLUDE[prod_short](includes/prod_short.md)] når du klikker på fakturering i administrasjonssenteret for Microsoft 365. Årsaken er at fakturering ikke kan bruke det samme selskapet som [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Så du må logge på [!INCLUDE[prod_short](includes/prod_short.md)] og gi nytt navn til det eksisterende selskapet ditt, og deretter opprette et nytt selskap som du deretter kan bruke i Fakturering. Ingen data flyttes eller overskrives i denne løsningen.
 

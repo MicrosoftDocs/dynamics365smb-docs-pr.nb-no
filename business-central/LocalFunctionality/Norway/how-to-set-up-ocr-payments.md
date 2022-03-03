@@ -1,23 +1,21 @@
 ---
-title: Opprette OCR-betalinger
-description: Du kan behandle elektroniske betalinger fra kunder i henhold til en forhåndsdefinert betalings-ID. Dette blir ofte referert til som en OCR-betaling (optisk tegngjenkjenning).
-services: project-madeira
-documentationcenter: ''
+title: Konfigurer OCR-betalinger [NO]
+description: Du kan behandle elektroniske betalinger fra kunder i henhold til en forhåndsdefinert betalings-ID i den norske versjonen. Dette blir ofte referert til som en OCR-betaling (optisk tegngjenkjenning).
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 15000100
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 930ce3372a1ad9c37d24018b88d7957d7611fb58
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 9384e2dfc81c87a68a761148b12e0bc798db0368
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444328"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142645"
 ---
 # <a name="set-up-ocr-payments"></a>Opprette OCR-betalinger
 Du kan behandle elektroniske betalinger fra kunder i henhold til en forhåndsdefinert betalings-ID. Dette blir ofte referert til som en OCR-betaling (optisk tegngjenkjenning). Betalings-ID-en brukes med elektroniske betalingstransaksjoner. Kunder kan vise til denne ID-en når de foretar betalinger. Betalings-IDen brukes også til å identifisere importerte betalingstransaksjoner og anvende importerte betalingsdata automatisk.  

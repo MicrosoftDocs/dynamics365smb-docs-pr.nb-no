@@ -2,7 +2,6 @@
 title: Hurtigstart for innkjøp (inneholder video)
 description: Lær hvordan du fyller ut de første kritiske feltene om leverandører i Business Central, slik at du kan starte innkjøp av produkter og tjenester.
 author: jill-kotel-andersson
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: quickstart
 ms.search.form: 26, 27, 50, 56
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 58476145830438b85e70c03958b2bf997640e2c7
-ms.sourcegitcommit: e008b3d7003c256475d6c606e5f7c9866a6bbb72
+ms.openlocfilehash: d5ec92099a7439bfb9a059105b0f1ce377534117
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7953112"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128742"
 ---
 # <a name="procurement-quick-start"></a>Hurtigstart for innkjøp
 

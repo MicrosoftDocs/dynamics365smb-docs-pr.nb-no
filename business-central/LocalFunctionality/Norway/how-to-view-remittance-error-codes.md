@@ -1,23 +1,24 @@
 ---
-title: Vise remitteringsfeilkoder
-description: Hvis det oppstår en remitteringsfeil, vil feilkoden fra banken samt en forklaring på feilen vises for betalingen på siden Ventekladd.
+title: Vise remitteringsfeilkoder [NO]
+description: Hvis det oppstår en remitteringsfeil, vil feilkoden fra banken samt en forklaring på feilen vises for betalingen på siden Ventekladd i den norske versjonen av Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 94936e464a65c84ec42399bc3d74683084b01a06
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: a111b0a4c8162d2f25012e7bbc9f62de62bfaeb5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6444090"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140009"
 ---
-# <a name="view-remittance-error-codes"></a>Vise remitteringsfeilkoder
+# <a name="view-remittance-error-codes-in-the-norwegian-version"></a>Vis remitteringsfeilkoder i den norske versjonen
+
 Hvis det oppstår en remitteringsfeil, vil feilkoden fra banken samt en forklaring på feilen vises for betalingen på siden **Ventekladd**.  
 
 ## <a name="to-view-error-codes"></a>Slik viser du feilkoder:  

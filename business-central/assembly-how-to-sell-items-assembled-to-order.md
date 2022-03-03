@@ -2,7 +2,6 @@
 title: Selge varer som er montert til ordre
 description: Hvis varen er definert for Monter til ordre, forventes varen ikke å være på lager, og den må monteres spesifikt for en ordre.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting, substitute items
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 05060eaf315ac85f50509aec3df46ec3e9319deb
-ms.sourcegitcommit: e891484daad25f41c37b269f7ff0b97df9e6dbb0
+ms.openlocfilehash: e32af0659ec78ae178dd0b49b18582beb66ba100
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/27/2021
-ms.locfileid: "7440619"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146907"
 ---
 # <a name="sell-items-assembled-to-order"></a>Selge varer som er montert til ordre
 Hvis **Monteringsprinsipp**-feltet på varekortet for en monteringsvare er **Monter til ordre**, forventes varen ikke å være på lager, og den må monteres spesifikt for en ordre. Når du angir varen på en ordrelinje, blir en monteringsordre automatisk opprettet og koblet til ordren.  

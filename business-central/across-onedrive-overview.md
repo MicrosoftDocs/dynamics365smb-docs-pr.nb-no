@@ -2,18 +2,17 @@
 title: Business Central og OneDrive for Business-integrering
 description: Du kan bruke OneDrive for Business til å lagre, behandle og dele filer, for eksempel rapporter eller filvedlegg.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8965fe1c0f04c3b12fef984e71b7f2643f7f11c2
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: f2c8efa4a32ef18ee4db25919c7e4405649d54bb
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012578"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141466"
 ---
 # <a name="business-central-and-onedrive-for-business-integration"></a>Business Central og OneDrive for Business-integrering
 OneDrive for Business er en skylagringstjeneste som er inkludert i Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] gjør det enkelt å lagre, behandle og dele filer med andre personer via OneDrive. Når en fil befinner seg i OneDrive, kan du se de omfattende samarbeidsopplevelsene fra nettversjonene av Microsoft-produkter, for eksempel Word, Excel og PowerPoint. Du kan for eksempel dele et Word-dokument, og deretter kan du og kollegene redigere det sammen i sanntid. Med OneDrive kan du også åpne andre filtyper, for eksempel PDF-filer. 

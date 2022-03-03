@@ -2,7 +2,6 @@
 title: Monteringsstyring
 description: Støtt selskaper som leverer produkter til kundene sine ved å kombinere komponenter i enkle prosesser uten behov for produksjonsfunksjonalitet.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: kit, kitting
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d149ed0da02124a442668bb67a659c0dde36dad3
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: d1b879eeabfb42298bb1bf8a10d3b53870da3aa7
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6326366"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130647"
 ---
 # <a name="assembly-management"></a>Monteringsstyring
 For å kunne støtte selskaper som leverer produkter til kundene ved å kombinere komponenter i enkle prosesser, uten behov for produksjonsfunksjonalitet, har [!INCLUDE[prod_short](includes/prod_short.md)] funksjoner for å montere varer som integreres med eksisterende funksjoner, for eksempel salg, planlegging, reservasjoner og lagerstyring.  

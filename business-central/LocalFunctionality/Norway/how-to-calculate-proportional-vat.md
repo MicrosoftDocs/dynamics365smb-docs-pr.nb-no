@@ -1,23 +1,21 @@
 ---
-title: Beregne forholdsmessig mva. [NO]
-description: Du kan bruke forholdsmessig MVA til å beregne MVA når både fradragsberettiget og ikke-fradragsberettiget MVA forekommer.
-services: project-madeira
-documentationcenter: ''
+title: Beregn forholdsmessig mva. [NO]
+description: Du kan bruke forholdsmessig mva. til å beregne mva. når både fradragsberettiget og ikke-fradragsberettiget mva. forekommer i den norske versjonen av Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 472
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: bcf39ea982acaddb56c953604a0b7dbca4f57fb2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1d95b7f4d597d3fd01edb1cb0fdb3abe300a4ce1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445067"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142657"
 ---
 # <a name="calculate-proportional-vat-in-the-norwegian-version"></a>Beregne forholdsmessig mva. i den norske versjonen
 Du kan bruke forholdsmessig MVA til å beregne MVA når både fradragsberettiget og ikke-fradragsberettiget MVA forekommer. Siden det er vanskelig å vite hvor og hvordan varen blir brukt, må du ta kontakt med norske skattemyndigheter for å finne ut om en angitt prosentandel MVA kan gå til fradrag basert på historiske data.  

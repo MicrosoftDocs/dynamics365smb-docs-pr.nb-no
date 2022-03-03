@@ -1,21 +1,21 @@
 ---
-title: Importere og bokføre OCR-betalinger
-description: Før du kan motta OCR-betalinger (optisk tegngjenkjenning), må du gjøre noen forberedelser.
+title: Importere og bokføre OCR-betalinger [NO]
+description: Før du kan motta OCR-betalinger (optisk tegngjenkjenning), må du gjøre noen forberedelser i den norske versjonen av Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 15000100, 255
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b7bbd218e71f489ea32773bd63feef4d8cf34d85
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4012881976f01a1e50501d122d3491731e82e81b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435716"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142653"
 ---
 # <a name="import-and-post-ocr-payments"></a>Importere og bokføre OCR-betalinger
 Før du kan motta OCR-betalinger (optisk tegngjenkjenning), må du gjøre følgende forberedelser:  
