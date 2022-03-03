@@ -1,22 +1,21 @@
 ---
 title: Tilpasse Business Central
 description: Les om de forskjellige måtene å tilpasse Business Central på, for å forbedre tilgang til funksjonalitet og funksjoner du trenger mest for det daglige arbeidet.
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 7294eeb0c03dc1c494ce88e6d4e366b491070acf
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 6eea88cf254b4d1b299a54c47d0e87774f0b21ae
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8012764"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335298"
 ---
 # <a name="customize-business-central"></a>Tilpasse Business Central
 Det finnes ulike metoder for å tilpasse programmet slik at du og kollegene dine får tilgang til funksjonene, funksjonaliteten og dataen du trenger, på en måte som passer til dine daglige arbeidsoppgaver. I denne tabellen beskrives hvem som ser endringene, avhengig av hva du gjør.

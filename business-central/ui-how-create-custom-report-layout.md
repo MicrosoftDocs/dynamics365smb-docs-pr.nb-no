@@ -2,7 +2,6 @@
 title: Lag og endre egendefinerte oppsett for rapporter og dokumenter
 description: Finn ut hvordan du lager egendefinerte oppsett for å tilpasse utseendet på en rapport når den vises, skrives ut eller lagres.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a3e16ff82492c3331be901c5be5d30de6d302787
-ms.sourcegitcommit: f4b32ba1f926a2a712400c36305616f320757723
+ms.openlocfilehash: 0b4642f6ca4c7701cbb49e8441debccfbd32b9be
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/08/2022
-ms.locfileid: "8101058"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134720"
 ---
 # <a name="create-and-modify-custom-report-layouts"></a>Opprette og endre et egendefinert rapportoppsett
 
@@ -56,7 +55,7 @@ Når egendefinerte rapportoppsett er definert, kan du velge dem fra kunde- og le
 Det egendefinerte oppsettet er opprettet. Du kan nå endre det egendefinerte oppsettet etter behov.
 
 > [!TIP]
-> Du kan eksportere rapportresultatene til en Excel-fil for å vise hele datasettet, inkludert alle kolonner, men uten oppsettet. Excel-filen kan hjelpe deg med å validere at rapporten returnerer de forventede dataene eller diagnostisere problemer. Hvis du vil ha mer informasjon, kan du se [Arbeide med rapporter – send til Excel](ui-work-report.md#send-to-excel).
+> Du kan eksportere rapportresultatene til en Excel-fil for å vise hele datasettet, inkludert alle kolonner, men uten oppsettet. Excel-filen kan hjelpe deg med å validere at rapporten returnerer de forventede dataene eller diagnostisere problemer. Hvis du vil ha mer informasjon, kan du se [Analyser rapportdata med Excel](report-analyze-excel.md).
 
 ## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Endre et egendefinert oppsett
 

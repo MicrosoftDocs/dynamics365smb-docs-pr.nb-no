@@ -2,19 +2,18 @@
 title: Prøveversjoner og abonnementer
 description: Lær hvordan du får en prøveversjon av Business Central, hvordan du arbeider med sandkassemiljøer, og hvordan du registrerer deg for et abonnement.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 09/29/2021
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 01bdfbd52db384176defb5383470346b086fe293
-ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
+ms.openlocfilehash: 4b31d6d4ca0a7fba8376437fb37f3678f607f7b3
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/19/2022
-ms.locfileid: "8011549"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335529"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversjoner og abonnementer
 
@@ -38,7 +37,7 @@ Hvis du bestemmer deg for ikke å bruke [!INCLUDE [prod_short](includes/prod_sho
 
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Legg til egne data i et tomt prøveversjonsselskap
 
-Hvis du vil prøve [!INCLUDE[prod_short](includes/prod_short.md)] med dine egne data, kan du bytte til en gratis 30 dagers prøveversjon med et tomt selskap. Den assisterte oppsettsveiledningen **Konfigurere mitt selskap** kan hjelpe deg med å angi grunnleggende informasjon om bedriften din. Du kan eventuelt importere data fra den eksisterende løsningen for forretningsadministrasjon, slik at du kan evaluere [!INCLUDE[prod_short](includes/prod_short.md)] med dine egne data. Det anbefales imidlertid at du ikke bruker en gratis prøveversjon for å kjøre bedriften din. Kontakt [en videresalgspartner](/dynamics365/business-central/across-faq#findpartner) for å finne ut mer om hvordan du kommer i gang med [!INCLUDE[prod_short](includes/prod_short.md)].  
+Hvis du vil prøve [!INCLUDE[prod_short](includes/prod_short.md)] med dine egne data, kan du bytte til en gratis 30 dagers prøveversjon med et tomt selskap. Den assisterte oppsettsveiledningen **Konfigurere mitt selskap** kan hjelpe deg med å angi grunnleggende informasjon om bedriften din. Du kan eventuelt importere data fra den eksisterende løsningen for forretningsadministrasjon, slik at du kan evaluere [!INCLUDE[prod_short](includes/prod_short.md)] med dine egne data. Det anbefales imidlertid at du ikke bruker en gratis prøveversjon for å kjøre bedriften din. Kontakt [en videresalgspartner](/dynamics365/business-central/across-faq#findpartner) for å finne ut mer om hvordan du kommer i gang med [!INCLUDE[prod_short](includes/prod_short.md)]. Partneren kan også hjelpe deg med å overføre dataene til [!INCLUDE [prod_short](includes/prod_short.md)] elektronisk.  
 
 Hvis det ikke er nok med 30 dager til å ta en avgjørelse, kan du forlenge prøveperioden. Hvis du vil ha mer informasjon, se [Trenger mer tid til å avgjøre om du vil abonnere?](admin-extend-trial.md).  
 
@@ -105,6 +104,7 @@ Administratoren av [!INCLUDE[prod_short](includes/prod_short.md)] og partneren f
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Vanlige spørsmål](across-faq.yml)  
 [Hvordan finner jeg en partner for videresalg?](/dynamics365/business-central/across-faq#findpartner)  
+[Overfør data](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Velge Dynamics 365 Business Central Development-sandkassemiljø](/dynamics365/business-central/dev-itpro/developer/devenv-sandbox-overview?toc=/dynamics365/business-central/toc.json)  
 [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Utvide prøveversjoner (som administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  

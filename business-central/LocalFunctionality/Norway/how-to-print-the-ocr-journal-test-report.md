@@ -1,21 +1,21 @@
 ---
 title: Skrive ut rapporten OCR-kladd - test
-description: Du kan skrive ut rapporten OCR-kladd - test for å teste de importerte betalingstransaksjonene i innbetalingskladden.
+description: Du kan skrive ut rapporten OCR-kladd – test for å teste de importerte betalingstransaksjonene i innbetalingskladden i den norske versjonen.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 15000100, 255
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c0313da8b9a7dfce0c8aa0e714706f81134d11d2
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: ac0b6765e6deed574cef296ff4d2d775794fa6f6
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438976"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142643"
 ---
 # <a name="print-the-ocr-journal---test-report"></a>Skrive ut rapporten OCR-kladd - test
 Du kan skrive ut rapporten **OCR-kladd - test** for å teste de importerte betalingstransaksjonene i innbetalingskladden. Du kan også vise potensielle advarsler og løse konflikter før betalingene bokføres i kladden.  

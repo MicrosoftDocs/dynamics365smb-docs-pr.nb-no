@@ -2,7 +2,6 @@
 title: Bruk rapporter i daglig arbeid
 description: Gir en oversikt over alle Business Intelligence- og rapporteringsfunksjonene som støttes i Business Central-produktet.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: edupont
-ms.openlocfilehash: a85ba6d47600a4958ee2b46b47e0915097ec6a5b
-ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
+ms.openlocfilehash: e96ccd4ab5f64776379b7c70a0d7f58f5f56ce05
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/09/2022
-ms.locfileid: "8104121"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144856"
 ---
 # <a name="use-reports-in-daily-work"></a>Bruk rapporter i daglig arbeid
 

@@ -1,23 +1,24 @@
 ---
-title: Slett remitteringsoppdrag [NO]
+title: Slette remitteringsoppdrag [NO]
 description: Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avsluttet regnskapsår.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 0ddfe441cb411e61d04fd4848414c908ae6a5cec
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 94b87a160ca00f3469426b686bf1b9fd3fa5438f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6435720"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147332"
 ---
 # <a name="delete-remittance-payment-orders-in-the-norwegian-version"></a>Slett remitteringsoppdrag i den norske versjonen
+
 Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avsluttet regnskapsår. En ordre er fullstendig ferdigbehandlet hvis ingen av betalingene på siden **Ventekladd** har statusen **Sendt** eller **Godkjent**.  
 
 ## <a name="to-delete-a-remittance-payment-order"></a>Slik sletter du et remitteringsoppdrag  

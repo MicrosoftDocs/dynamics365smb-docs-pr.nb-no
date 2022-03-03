@@ -1,23 +1,21 @@
 ---
 title: Forretningsintelligens
 description: Business Central inneholder en rekke funksjoner som hjelper deg med å samle, analysere og dele verdifulle firmadata for forretningsanalyse og beslutningstaking.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
+ms.search.form: 103, 198, 490
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 866cfa9c35e7af7abb17ba9c9171244e2107de4d
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 994ae303d46e2e3d290ca297038a3bca6fc21d44
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6323746"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335451"
 ---
 # <a name="business-intelligence"></a>Forretningsintelligens
 Selskaper fanger opp store datamengder gjennom de daglige aktivitetene. Disse dataene, som gjenspeiler ting som organisasjonens salgstall, kjøp, driftsutgifter, lønn til ansatte og budsjetter, kan bli verdifull informasjon, eller forretningsintelligens, for beslutningstakere. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en rekke funksjoner som hjelper deg å samle, analysere og dele selskapsdata.

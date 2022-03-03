@@ -2,18 +2,17 @@
 title: Spore pakker
 description: Bruk sporingstjenesten for transportører på Internett til å spore kolli og følge fremdriften i en levering.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: rfq
-ms.search.form: 103, 142, 800, 806
+ms.search.form: 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 8c05c4a86e0bf9ace996dfc879b719324dc99593
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: b5a819c1aeea44b39f7c8497420e08af3c0ae2ab
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752369"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334489"
 ---
 # <a name="track-packages"></a>Spore pakker
 De fleste transportører har en nettjeneste der du kan spore status for pakkene mens de er i rute. Disse opplysningene kan være nyttige i mange forretningsprosesser, for eksempel når du gir kundeservice. Hvis du bruker en eller flere slike transportør, kan du angi noe grunnleggende informasjon om dem, og deretter bruke pakkesporingstjenesten direkte fra sidene Bokførte salgsforsendelser, Bokførte salgsfakturaer, Bokførte salgskreditnotaer og Bokført returseddel. Hvis du vil ha mer informasjon, kan du se [Definere transportører](sales-how-to-set-up-shipping-agents.md). 

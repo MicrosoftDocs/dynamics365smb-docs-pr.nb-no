@@ -2,7 +2,6 @@
 title: Bli klar til å gjøre forretninger
 description: Skisserer de assisterte oppsettsveiledningene, videoene, hjelpeemnene og sidene og sidene du bruker til å bli klar til å gjøre forretninger i Business Central.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: ba9039d637dcdee7f42302d1f1260b1224414677
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: b75381cd5153294ec65878c3e6726b9a3e4821de
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589135"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335034"
 ---
 # <a name="getting-ready-for-doing-business"></a>Bli klar til å gjøre forretninger
 
@@ -94,6 +93,7 @@ Basert på de overførte dataene kan du nå fortsette å opprette ny salgs- og k
 [Søk i hjelperuten](product-help-and-support.md#search-in-the-help-pane)  
 [Ressurser for hjelp og støtte](product-help-and-support.md)  
 [Microsoft Learn-område](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Overfør data](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

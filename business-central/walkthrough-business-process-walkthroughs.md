@@ -2,7 +2,6 @@
 title: Gjennomgang av forretningsprosesser
 description: Dette utvalget av gjennomganger gir fullstendige fremgangsmåter for forretningsprosesser som du kan utføre ved å bruke demonstrasjonsselskapet CRONUS.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 0ca067f8b9ca7a8d6838b6099ae330ab8ddbf66b
-ms.sourcegitcommit: 428ba6385cb27475e8803c2a8967daa22cfe8879
+ms.openlocfilehash: 3d3c7aad6205ad92515dd81542eae209d0f45540
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/29/2021
-ms.locfileid: "7724665"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129530"
 ---
 # <a name="business-process-walkthroughs"></a>Gjennomgang av forretningsprosesser
 

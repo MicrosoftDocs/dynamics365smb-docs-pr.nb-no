@@ -2,24 +2,23 @@
 title: Flytte kundedata
 description: Du kan overføre eksisterende kundedata fra et eksisterende system til Business Central ved å bruke RapidStart Services – eller bare skrive det direkte inn i selskapet.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.form: 1799, 1807, 8632, 1800, 1340
+ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: 38e2062566d77d539b1280bdc4829f55bace386b
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6437469"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335373"
 ---
 # <a name="migrate-customer-data"></a>Flytte kundedata
 
-Du kan flytte eksisterende kundedata fra et eksisterende ERP-system til [!INCLUDE[prod_short](includes/prod_short.md)] ved å bruke verktøyene for dataflytting i RapidStart Services. Du kan bruke Excel-filer som databærer. Du kan også flytte dataene manuelt ved å skrive dem inn direkte i selskapet.
+Du kan flytte eksisterende kundedata fra et eksisterende ERP-system til [!INCLUDE[prod_short](includes/prod_short.md)] ved å bruke verktøyene for dataflytting i RapidStart Services. Du kan bruke Excel-filer som databærer. Du kan også flytte dataene manuelt ved å skrive dem inn direkte i selskapet. Du kan også bruke veiledningen **Skyoverføring** til å flytte data. Hvis du vil ha mer informasjon, kan du se [Overfør data](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administratorinnholdet.
 
 > [!NOTE]
 > Felt av typen blob kan ikke eksporteres/importeres i Excel.

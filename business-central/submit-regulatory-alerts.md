@@ -2,18 +2,17 @@
 title: Sende forskriftsmessige varsler
 description: Hvis du vet om ny lovgivning som krever funksjonsstøtte i Business Central, kan du følge denne veiledningen for å sende et forskriftsmessig varsel til produktteamet.
 author: sorenfriisalexandersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: soalex
-ms.openlocfilehash: dc993a446219c5dcb28cd9a90756c0355ba30a16
-ms.sourcegitcommit: e562b45fda20ff88230e086caa6587913eddae26
+ms.openlocfilehash: 7601f1bef58ed914385957ef70ad8b924c4499a0
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/30/2021
-ms.locfileid: "6319984"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335113"
 ---
 # <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Sende varsler om lands-/regionsspesifikke forskriftsmessige funksjoner
 
@@ -21,7 +20,7 @@ Vi anbefaler at du bruker Microsoft Dynamics Lifecycle Services (LCS) til å sen
 
 ## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Sende forskriftsmessig varsel i LCS
 
-1. Gå til https://lcs.dynamics.com og logg på  
+1. Gå til [https://lcs.dynamics.com](https://lcs.dynamics.com) og logg på  
 
     Du vil se prosjektene du har tilgang til.
 

@@ -2,7 +2,6 @@
 title: Vanlige spørsmål om OneDrive for Business
 description: Få svar på enkelte vanlige spørsmål om å arbeide med OneDrive for Business og Business Central.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: OneDrive, integration, share, browser
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3d9058b3b0f751729d5538f36454bd8244a3594f
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: f54e8b6290e9dd653180b3ea05246255b84dc2ae
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589478"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144053"
 ---
 # <a name="onedrive-for-business-faq"></a>Vanlige spørsmål om OneDrive for Business
 
@@ -29,7 +28,7 @@ Ja. Du kan åpne filer i OneDrive fra [!INCLUDE[prod_short](includes/prod_short.
 
 ## <a name="is-onedrive-the-same-as-sharepoint-for-storing-files"></a>Er OneDrive det samme som SharePoint for lagring av filer?
 
-Som en del av Microsoft 365-abonnementet ditt, gir organisasjonen deg OneDrive-fillagringen i skyen. OneDrive er privat som standard, der du organiserer innholdet og velger hvilke filer eller mapper som skal deles og med hvem. I SharePoint gir imidlertid et filbasert repositorium i skyen som deles med andre i organisasjonen.  
+Som en del av Microsoft 365-abonnementet ditt, gir organisasjonen deg OneDrive, din fillagring i skyen. OneDrive er privat som standard, der du organiserer innholdet og velger hvilke filer eller mapper som skal deles og med hvem. I SharePoint gir imidlertid et filbasert repositorium i skyen som deles med andre i organisasjonen.  
 
 ## <a name="does-prod_short-support-consumer-onedrive"></a>Støtter [!INCLUDE[prod_short](includes/prod_short.md)] OneDrive for forbruker?
 

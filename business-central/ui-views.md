@@ -2,20 +2,19 @@
 title: Lagre og tilpasse listevisninger
 description: Lær hvordan du oppretter egne visninger for filtrerte lister, og hvordan du lagrer, gir nytt navn til og administrerer disse visningene.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6ac3489151d9e4e0ebf0867b94b59678bba0f35e
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5cfc08a7a4f8645bc8657477819cdacc9d147d88
+ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445354"
+ms.lasthandoff: 02/17/2022
+ms.locfileid: "8322879"
 ---
 # <a name="save-and-personalize-list-views"></a>Lagre og tilpasse listevisninger
 Når du har definert et filter i en liste og vil beholde filteret til senere bruk, kan du lagre det som en visning. Hvis du vil ha mer informasjon om filtrering av lister, se [Definere filtre på oversikter](ui-enter-criteria-filters.md#setting-filters-on-lists).

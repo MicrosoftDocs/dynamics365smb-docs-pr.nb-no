@@ -2,7 +2,6 @@
 title: Utformingsdetaljer – Endre lagermetode for varer
 description: Finn ut hvordan du tilordner en annen lagermetode til en vare selv om du allerede har brukt varen i transaksjoner.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: costing methods, costing, item cost
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
-ms.openlocfilehash: 732bbc50f46573484682104e3beb71fbce1f5894
-ms.sourcegitcommit: c05806689d289d101bd558696199cefbd989473e
+ms.openlocfilehash: 5e7bbb28b35f31e21904006b6c595896bdca3f61
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/12/2022
-ms.locfileid: "8115479"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148623"
 ---
 # <a name="design-details-change-the-costing-method-for-items"></a>Utformingsdetaljer: Endre lagermetode for varer
 

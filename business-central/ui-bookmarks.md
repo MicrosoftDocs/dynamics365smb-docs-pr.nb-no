@@ -2,20 +2,20 @@
 title: Bokmerke kobling til en side eller rapport i rollesenteret
 description: Ved hjelp av det nye bokmerkeikonet kan du legge til en handling som åpner en side eller en rapport fra navigasjonsmenyen i rollesenteret.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: ec89d35da258020ce08710d3eafc4bce32cf81a8
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 5cc5f6039a25161267127f40f4f3077725c5d0bc
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6446025"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8334931"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Bokmerke en side eller rapport i rollesenteret
 Ved hjelp av det nye bokmerkeikonet kan du legge til en handling som åpner en side eller en rapport fra navigasjonsmenyen i rollesenteret. Med bokmerker kan du komme raskt i kontakt med favorittinnhold eller forretningsoppgaver. Du legger til bokmerket fra målsiden eller rapporten, som betyr skjermbildet du vil at koblingen i rollesenteret skal åpne.

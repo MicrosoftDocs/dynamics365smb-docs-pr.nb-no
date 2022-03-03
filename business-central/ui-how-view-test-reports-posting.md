@@ -1,22 +1,20 @@
 ---
-title: Se gjennom en kontrollrapport før du bokfører et salgs- eller kjøpsdokument | Microsoft-dokumentasjon
+title: Vis en kontrollrapport før du bokfører et salgs- eller kjøpsdokument
 description: Før du bokfører et dokument, for eksempel en ordre eller kreditnota, kan du teste og gå gjennom det for å se etter feil som kan blokkere bokføringen.
-services: project-madeira
-documentationcenter: ''
 author: SusanneWindfeldPedersen
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 96e4ef52bc896cd02f0e6b38a470d16a00284c66
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 1f7154c438437aacb3788c91ad9c17bba8673477
+ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6445428"
+ms.lasthandoff: 02/23/2022
+ms.locfileid: "8335347"
 ---
 # <a name="view-test-reports-before-posting"></a>Vise testrapporter før bokføring
 Når du er klar til å bokføre et dokument, for eksempel en ordre, faktura eller kreditnota, kan du teste dokumentet for å sikre at det ikke foreligger problemer som vil sperre bokføringen.

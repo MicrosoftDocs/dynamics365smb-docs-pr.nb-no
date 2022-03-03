@@ -2,7 +2,6 @@
 title: Definer varer og lokasjoner for lagerstyring
 description: Konfigurer lagerlokasjoner for til å bruke lagerstyring, som gir deg ny funksjonalitet bidrar til å sikre at du styrer lageret mest mulig effektivt.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 0c7a49208216b12c234c0b40576b26f4f39e9ab5
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: 4e83df2350ef8419a6de4e0fde9bf140660b943e
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6438035"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8145215"
 ---
 # <a name="set-up-items-and-locations-for-directed-put-away-and-pick"></a>Definere varer og lokasjoner for lagerstyring
 Når du definerer en lagerlokasjon til å bruke lagerstyring, får du tilgjengelig en ny funksjonalitet som hjelper deg å styre lageret mest mulig effektivt. For å kunne utnytte denne funksjonaliteten fullt ut må du angi tilleggsopplysninger om varene, noe som i neste omgang hjelper å utføre de nødvendige beregningene for å foreslå de mest effektive og praktiske måtene å utføre lageraktiviteter på. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Lagerstyringsoppsett](design-details-warehouse-setup.md).
