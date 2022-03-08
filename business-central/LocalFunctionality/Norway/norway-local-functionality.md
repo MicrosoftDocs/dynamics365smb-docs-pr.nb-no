@@ -1,29 +1,28 @@
 ---
-title: Funksjonalitet som er spesifikk for norske brukere [NO]
-description: Emnene nedenfor beskriver all den lokale funksjonaliteten i den norske versjonen av Business Central.
+title: Funksjonalitet som er spesifikk for norske brukere
+description: Emnene nedenfor beskriver den lokale funksjonaliteten i den norske versjonen av Business Central.
 author: edupont04
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/21/2021
+ms.date: 04/01/2019
 ms.author: edupont
-ms.openlocfilehash: fa18d271afce09aaff4ba1f9f0cabfa68d1cc60e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d92d0c55fbb403066832301bf0c52bb3e234b96e
+ms.sourcegitcommit: bf5f89dfaf5ad9f8f9902941cf3dac3e9f3553e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140011"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1594148"
 ---
-# <a name="norway-local-functionality-in-the-norwegian-version"></a>Norge Lokal funksjonalitet i den norske versjonen
-
-Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+# <a name="norway-local-functionality"></a>Funksjonalitet som er spesifikk for norske brukere
+Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prodshort](../../includes/prodshort.md)].  
 
 ## <a name="feature-availability"></a>Funksjonstilgjengelighet
 
 * Merverdiavgift
-    * [Administrere SAF-T (norsk standard revisjonsfil – avgift)](ui-extensions-setup-and-generate-saf-t-files-no.md) **Tilgjengelig nå**
     * [Norsk mva-rapportering](norwegian-vat-reporting.md) **Tilgjengelig nå**
     * [Norske mva-koder](norwegian-vat-codes.md) **Tilgjengelig nå**  
     * [Bruke én mva-kode i kladder](how-to-use-one-vat-code-in-journals.md) **Tilgjengelig nå**
@@ -77,14 +76,10 @@ Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske v
   [EHF Electronic Invoicing in Norway](ehf-electronic-invoicing-in-norway.md)  
   [Electronic Banking in Norway](electronic-banking-in-norway.md)  
   [Electronic Payments to Vendors in Norway](electronic-payments-to-vendors-in-norway.md)  
+  [Norwegian Sales Documents](norwegian-sales-documents.md)  
   [Norwegian VAT Reporting](norwegian-vat-reporting.md)  
  [Recurring Orders](recurring-orders.md)  
  -->
 
 ## <a name="see-also"></a>Se også
-
-[Arbeide med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
-[Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[prodshort](../../includes/prodshort.md)]](../../ui-work-product.md)    

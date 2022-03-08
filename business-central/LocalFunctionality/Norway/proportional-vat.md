@@ -1,21 +1,23 @@
 ---
 title: Forholdsmessig MVA
 description: Forbedringer i den norske versjonen gjør det mulig for deg å beregne MVA når både fradragsberettiget og ikke-fradragsberettiget MVA forekommer.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 10602, 10697, 10698, 10604, 315, 472, 473, 471, 317
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 932745da328332652ef4cd1a63663769fd698e8c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 94e904983377da73bf967056e8b5a4911c38b1dd
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144156"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752445"
 ---
 # <a name="proportional-vat"></a>Forholdsmessig MVA
 [!INCLUDE[prod_short](../../includes/prod_short.md)] gjør det mulig for deg å beregne MVA når både fradragsberettiget og ikke-fradragsberettiget MVA forekommer. Siden det er vanskelig å vite hvor og hvordan varen blir brukt, må du ta kontakt med norske skattemyndigheter for å finne ut om en angitt prosentandel MVA kan gå til fradrag basert på historiske data.  
@@ -39,6 +41,3 @@ Dette vil også fungere hvis transaksjonen med denne mva-kombinasjonen bokføres
 ## <a name="see-also"></a>Se også  
  [Beregne forholdsmessig MVA](how-to-calculate-proportional-vat.md)   
  [Norsk mva-rapportering](norwegian-vat-reporting.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

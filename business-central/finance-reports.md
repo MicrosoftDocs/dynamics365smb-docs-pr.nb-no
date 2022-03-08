@@ -1,17 +1,18 @@
 ---
 title: Finansrapporter og analyser
-description: Se hvilke finansrapporter og analyser som er tilgjengelige i standardversjonen av Business Central, slik at du kan holde oversikt over virksomheten. Bruk rapport 38 for resultatrapportering.
+description: Se hvilke finansrapporter og analyser som er tilgjengelige i standardversjonen av Business Central, slik at du kan holde oversikt over virksomheten.
 author: edupont04
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.date: 04/12/2021
 ms.author: edupont
-ms.openlocfilehash: c31914e1c251f4cf04cd3b990c2570b51e1717f5
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: 5488ba8331494ba662960e84d4907de76a68e72b
+ms.sourcegitcommit: 2c972dfc94d27245eaa99efcf638d030dedafb22
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311209"
+ms.lasthandoff: 02/09/2022
+ms.locfileid: "8102346"
 ---
 # <a name="financial-reports-and-analytics-in-business-central"></a>Finansrapporter og analyser i Business Central
 

@@ -2,6 +2,7 @@
 title: Installer Business Central-appen i Microsoft Teams
 description: Hvordan du installerer Business Central-appen for Microsoft Teams.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: e19db53137980b986dabc933ae56d33a5a768350
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1552a804db7dab86dccfcab99f098578bd930ad2
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141518"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012212"
 ---
 # <a name="install-the-prod_short-app-for-microsoft-teams"></a>Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams
 

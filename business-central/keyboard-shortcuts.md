@@ -2,19 +2,20 @@
 title: Hurtigtaster
 description: Den fullstendige listen over hurtigtastkombinasjoner for å arbeide effektivt med data.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 04/01/2021
+ms.date: 11/26/2020
 ms.author: bholtorf
-ms.openlocfilehash: 490fbd0abb7bf6769e580c34f0958ec9babbe141
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 23ab336997bdc89e6de617676e2c2f5e2bd689e5
+ms.sourcegitcommit: cb06aa973f5c767df774b0e1e199c6fbe0e85b88
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135266"
+ms.lasthandoff: 02/17/2021
+ms.locfileid: "5470490"
 ---
 # <a name="keyboard-shortcuts"></a>Hurtigtaster
 
@@ -24,7 +25,7 @@ Hvis du vil ha en oversikt over de mest populære hurtigtastene, se [Tastatursna
 
 > [!TIP]
 > Hvis du vil ha en grafisk visning av de mest brukte snarveiene, velger du følgende bilde og laster ned PDF-filen.  
-> [ ![Ikon for PDF-filen.](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Ikon som åpner en PDF-fil")
+> [ ![Ikon for PDF-filen](media/keyboard_shortcut_inline.png) ](media/keyboard_shortcuts.pdf "Ikon som åpner en PDF-fil")
 
 ## <a name="overview"></a>Oversikt
 
@@ -36,7 +37,7 @@ Hurtigtaster bedrer tilgjengeligheten og gjør det enklere og mer effektivt å n
 De fleste av snarveiene er de samme om operativsystemet er Windows eller macOS. Noen snarveier er imidlertid forskjellige for macOS. Disse snarveiene angis med hakeparenteser i avsnittene nedenfor.
 
 > [!NOTE]
-> I tillegg til de globale hurtigtastene som er beskrevet i denne artikkelen, er det en rekke tilgjengelige forretningsspesifikke snarveier. For eksempel i den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] bokfører F9 et dokument, og Ctrl+F7 viser finanspostene for en post når du åpner posten i et kort. Denne artikkelen inneholder noen av de mer vanlige forretningsspesifikke snarveiene som vises i kursiv. Vær oppmerksom på at de faktiske snarveiene kan være forskjellige i løsningen. I brukergrensesnittet vises hurtigtasten i verktøytipet for den aktuelle handlingen.
+> I tillegg til de globale hurtigtastene som er beskrevet i dette emnet, er det en rekke tilgjengelige forretningsspesifikke snarveier. For eksempel i den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] bokfører F9 et dokument, og Ctrl+F7 viser finanspostene for en post når du åpner posten i et kort. (Dette kan være annerledes i løsningen du har.) Hurtigtasten vises i verktøytipet for den aktuelle handlingen.
 
 ##  <a name="general-keyboard-shortcuts"></a><a name="Keyboard"></a> Generelle hurtigtaster
 
@@ -54,7 +55,7 @@ Tabellen nedenfor beskriver tastatursnarveier for å navigere i og få tilgang t
 |Alt+N |Åpne en side for å opprette en ny post. (Som ligner på å velge **Ny** og **+**-handlinger.)|
 |Alt+Skift+N |Lukk en nylig opprettet side, og åpne en ny for å opprette en ny post. På samme måte vil Alt+F9 bokføre et dokument og opprette et nytt.|
 |Alt+T|Åpne siden **Innstillinger**.|
-|Alt + Pil høyre|Slå opp tilleggsinformasjon eller underliggende verdier for et felt som inneholder knappen ![AssistEdit.](media/assist-edit-icon.png "AssistEdit-knapp"). . Dette brukes når den vanlige rullegardinknappen (Alt + Pil ned) i samme felt brukes til et annet formål.|
+|Alt + Pil høyre|Slå opp tilleggsinformasjon eller underliggende verdier for et felt som inneholder knappen ![AssistEdit](media/assist-edit-icon.png "AssistEdit-knapp"). Dette brukes når den vanlige rullegardinknappen (Alt + Pil ned) i samme felt brukes til et annet formål.|
 |Ctrl+Alt+Skift+C|Vise informasjon i selskapsmerket.|
 |Ctrl+Alt+F1|Åpne og lukk sideinspeksjonsruten. Sideinspeksjonsruten viser informasjon om siden, som den tilhørende kildetabellen, felt, filtre, utvidelser og mer.<br /><br />Hvis du vil ha mer informasjon, kan du se [Kontrollere sider](across-inspect-page.md).|
 |Ctrl+C |Kopier verdien til feltet. Hvis feltet er i fokus og du ikke har valgt tekst i feltet, kopierer dette hele verdien. Hvis du har valgt tekst i feltet, vil det kopiere bare merket tekst.|
@@ -82,36 +83,28 @@ Tabellen nedenfor beskriver hurtigtastene som du kan bruke på en listeside. Hur
 |--------------------------------|-------------------------|--------------------------|
 |Alt+F7 |Sorter valgt kolonne i stigende eller synkende rekkefølge.|Ikke i bruk.|
 |Alt+N|Sett inn en ny linje i en redigerbar liste, for eksempel **Finansbudsjetter**-siden.|Samme.|
-|Shift+F9|Bokfør og skriv ut et dokument.|Samme.|
 |Shift+F10 |Åpne et menyalternativ som finnes for den valgte raden.|Samme.|
-|Alt + D|Åpne dimensjonssettpostene.|Samme.|
-|Ctrl+F7|Åpne poster, loggposter, kostnadsposter og så videre.|
-|Ctrl+F9|Frigi dokument.|Samme.|
-|*F7*|Åpne statistikk.|Samme.|
-|*F9*|Bokfør, utsted, registrer eller tilbakefør dokument.|Samme.|
-|*Shift + Ctrl + F*|Send foreslåtte linjer på forslagssiden for kontantstrømmen.|Ikke i bruk.|
-|*Shift + Ctrl + I*|Vis serie- og partinumre som er tildelt linjevaren i dokumentet eller på kladden.|Ikke i bruk.|
 
 ### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigere mellom rader og kolonner
 
 Rutenett som inneholder rader og kolonner finnes på mange sidetyper i [!INCLUDE[prod_short](includes/prod_short.md)], for eksempel lister og **Linjer** i dokumenter. Flytting fra én celle til en annen i et rutenett er tastaturaktivert.
 
-| Trykk på disse tastene<br />(i macOS) | Hvis du vil gjøre dette i en listevisning | Hvis du vil gjøre dette i en flisvisning |
-|--|--|--|
-| Ctrl+Home<br />(Fn + Ctrl + Pil venstre) | Merk den første raden i listen, fokus forblir i samme kolonne. | Flytt til den første flisen i den første raden. |
-| Ctrl+End<br />(Fn + Ctrl + Pil høyre) | Merk den siste raden i listen, fokus forblir i samme kolonne. | Flytt til den siste flisen i den siste raden. |
-| Startside<br />(Fn + Pil venstre) | Flytte til det første feltet i raden. | Flytte til den første flisen i raden. |
-| End<br />(Fn + Pil høyre) | Flytte til det første feltet i raden. | Flytte til den siste flisen i raden. |
-| Angi | Åpner posten som er knyttet til dette feltet.<br /><br />Bare aktuelt hvis en kortside er tilknyttet posten. | Åpner posten.<br /><br />Bare aktuelt hvis en kortside er tilknyttet posten. |
-| Ctrl+Enter | Flytte fokus til neste element utenfor listen. | Flytte fokus til neste element utenfor listen. |
-| PgUp<br />(Fn + Pil opp) | Rulle for å vise de angitte radene over de gjeldende radene i visningen. | Ruller for å vise settet med fliser over de gjeldende flisene i visningen. |
-| En side ned<br />(Fn + Pil ned) | Rulle for å vise de angitte radene under de gjeldende radene i visningen. | Rulle for å vise settet med fliser under de gjeldende flisene i visningen. |
-| Pil ned | Flytte i samme kolonne til feltet i raden nedenfor. | Flytte i samme kolonne til flisen i raden nedenfor. |
-| Pil opp | Flytte i samme kolonne til feltet i raden ovenfor. | Flytte i samme kolonne til flisen i raden ovenfor. |
-| Pil høyre | I en skrivebeskyttet liste flytter du i samme rad til neste felt til høyre.<br /><br />I en redigerbar liste flytter du til høyre i det gjeldende feltet. | Flytte i samme rad til neste flis til høyre. |
-| Pil venstre | I en skrivebeskyttet liste flytter du i samme rad til forrige felt til venstree. <br /><br />I en redigerbar liste flytter du til venstre i det gjeldende feltet. | Flytte i samme rad til forrige flis til venstre. |
-| Tab | I en redigerbar liste flytter du i samme rad til neste felt til høyre. | Ikke i bruk. | 
-| Skift+TAB | I en redigerbar liste flytter du i samme rad til forrige felt til venstre. | Ikke i bruk. |
+|Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette i en listevisning |Hvis du vil gjøre dette i en flisvisning |
+|--------------------------------|--------------------------|--------------------------|
+|Ctrl+Home<br />(Fn + Ctrl + Pil venstre)|Merk den første raden i listen, fokus forblir i samme kolonne.|Flytt til den første flisen i den første raden. |
+|Ctrl+End<br />(Fn + Ctrl + Pil høyre)|Merk den siste raden i listen, fokus forblir i samme kolonne.|Flytt til den siste flisen i den siste raden.|
+|Startside<br />(Fn + Pil venstre)|Flytte til det første feltet i raden.|Flytte til den første flisen i raden.|
+|End<br />(Fn + Pil høyre)|Flytte til det første feltet i raden.|Flytte til den siste flisen i raden.|
+|Angi|Åpner posten som er knyttet til dette feltet.<br /><br />Bare aktuelt hvis en kortside er tilknyttet posten.|Åpner posten.<br /><br />Bare aktuelt hvis en kortside er tilknyttet posten.|
+|Ctrl+Enter|Flytte fokus til neste element utenfor listen.|Flytte fokus til neste element utenfor listen.|
+|PgUp<br />(Fn + Pil opp)|Rulle for å vise de angitte radene over de gjeldende radene i visningen. |Ruller for å vise settet med fliser over de gjeldende flisene i visningen. |
+|En side ned<br />(Fn + Pil ned)|Rulle for å vise de angitte radene under de gjeldende radene i visningen.|Rulle for å vise settet med fliser under de gjeldende flisene i visningen.|
+|Pil ned|Flytte i samme kolonne til feltet i raden nedenfor. |Flytte i samme kolonne til flisen i raden nedenfor. |
+|Pil opp|Flytte i samme kolonne til feltet i raden ovenfor.| Flytte i samme kolonne til flisen i raden ovenfor.  |
+|Pil høyre|I en skrivebeskyttet liste flytter du i samme rad til neste felt til høyre.<br /><br />I en redigerbar liste flytter du til høyre i det gjeldende feltet.| Flytte i samme rad til neste flis til høyre. |
+|Pil venstre|I en skrivebeskyttet liste flytter du i samme rad til forrige felt til venstree. <br /><br />I en redigerbar liste flytter du til venstre i det gjeldende feltet.| Flytte i samme rad til forrige flis til venstre. |
+|Tab|I en redigerbar liste flytter du i samme rad til neste felt til høyre.|Ikke i bruk.||
+|Skift+TAB|I en redigerbar liste flytter du i samme rad til forrige felt til venstre. | Ikke i bruk. |
 
 ### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Velge, kopiere og lime inn
 
@@ -149,9 +142,7 @@ Følgende hurtigtaster er tilgjengelige på kortsider, for eksempel **Kundekort*
 
 |Trykk på disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
 |--------------------------------|----------|
-|Alt + D|Åpne dimensjonssettpostene.|
 |Alt+F6|Bytt mellom vis/skjul for gjeldende hurtigfane eller del (underordnet side).|
-|Alt+F9|Opprett nytt dokument og bokfør det.|
 |Alt+G|Åpner **Søk etter poster**-siden for å finne poster som er knyttet til det bokførte dokumentet. Fungerer i lister også.|
 |Alt+N |Åpne en side for å opprette en ny post, på samme måte som å velge **Ny**-handlingen. |
 |Alt+Skift+N |Velg en side, og åpne en ny for å opprette en ny post, på samme måte som å velge **OK og Ny**-handlingen. |
@@ -161,15 +152,9 @@ Følgende hurtigtaster er tilgjengelige på kortsider, for eksempel **Kundekort*
 |CTRL+PIL OPP |Åpne forrige post for en enhet.|
 |Ctrl+Insert |Sett inn en ny linje i dokumenter.|
 |Ctrl+Delete |Slett linjen i dokumenter, kladder og forslag.|
-|Ctrl+F7|Åpne poster, loggposter, kostnadsposter og så videre.|
-|Ctrl+F9|Frigi dokument.|
 |Ctrl+Shift+F12 |Maksimer linjeelementdelen på en dokumentside. Trykk på tastene på nytt for å gå tilbake til vanlig visning. Hvis du vil ha mer informasjon, se [Fokusere på linjeelementer](ui-enter-data.md#Focus).|
 |F6|Flytt til neste hurtigfane eller del (underordnet side).|
-|*F7*|Åpne statistikk.|
-|*F9*|Bokfør, utsted, registrer eller tilbakefør dokument.|
-|*Shift + Ctrl + F9*|Bokfør, skriv ut og plasser lagermottaket.|
 |Shift+F6|Flytte til forrige hurtigfane eller del (underordnet side).|
-|*Shift + F9*|Bokfør og skriv ut et dokument.|
 
 ## <a name="quick-entry-shortcuts-for-fields"></a><a name="QuickEntry"></a>Hurtigtaster for hurtigoppføring for felt
 
@@ -244,9 +229,9 @@ Rolleutforsker gir deg en oversikt og rask tilgang til alle forretningsfunksjone
 
 [Hurtigreferanse for tastatursnarveier – bare PC](keyboard-shortcuts-cheatsheet.md)  
 [Hjelpefunksjoner](ui-accessibility.md)  
-[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
+[Komme i gang](product-get-started.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Vanlige spørsmål](across-faq.yml)  
+[Vanlige spørsmål](across-faq.md)  
 [Søk etter poster](ui-find-entries.md)  
 
 

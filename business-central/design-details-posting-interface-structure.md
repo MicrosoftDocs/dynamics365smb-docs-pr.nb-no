@@ -1,23 +1,24 @@
 ---
-title: Designdetaljer – Strukturen til bokføringsgrensesnittet
-description: Dette emnet gir en oversikt over de globale fremgangsmåtene og designdetaljene i strukturen til bokføringsgrensesnittet.
+title: Designdetaljer – Strukturen til bokføringsgrensesnittet | Microsoft-dokumentasjon
+description: Dette emnet gir en oversikt over de globale fremgangsmåtene i strukturen til bokføringsgrensesnittet.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting, interface, design
-ms.date: 06/15/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: ed590455c9edbe5b8727988d4300172223bd2056
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1e80b905d96fc2204b61b03c0970257755b9e105
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131928"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787349"
 ---
 # <a name="design-details-posting-interface-structure"></a>Designdetaljer: Strukturen til bokføringsgrensesnittet
-I strukturen til bokføringsgrensesnittet i [!INCLUDE[prod_short](includes/prod_short.md)] er det flere globale prosedyrer der samme struktur brukes:  
+I strukturen til bokføringsgrensesnittet i [!INCLUDE[d365fin](includes/d365fin_md.md)] er det flere globale prosedyrer der samme struktur brukes:  
   
 * RunWithCheck og RunWithoutCheck kaller prosedyrekode – generisk bokføringsgrensesnitt for finanskladdelinje.  
 * CustPostApplyCustLedgEntry – bokfør kundeutligning, kalles fra kodeenhet 226 Kundepost – utlign bokførte poster.  
@@ -27,5 +28,3 @@ I strukturen til bokføringsgrensesnittet i [!INCLUDE[prod_short](includes/prod_
   
 ## <a name="see-also"></a>Se også  
 [Designdetaljer: Strukturen til bokføringsmotoren](design-details-posting-engine-structure.md)
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

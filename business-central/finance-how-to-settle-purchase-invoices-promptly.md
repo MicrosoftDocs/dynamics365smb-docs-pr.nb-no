@@ -2,16 +2,17 @@
 title: Gjøre opp kjøpsfakturaer omgående
 description: Hvis du må betale leverandøren kontant eller med sjekk, kan du utføre den nødvendige bokføringen når du bokfører selve fakturaen.
 author: bholtorf
-ms.topic: conceptual
-ms.search.form: 51, 9308
-ms.date: 04/01/2021
+ms.service: dynamics365-business-central
+ms.topic: article
+ms.search.keywords: ''
+ms.date: 10/06/2020
 ms.author: bholtorf
-ms.openlocfilehash: f44aa85b0a9990038df3cf49b1ba0f24e24df354
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fb442c7b1e9e7bdcb727ca6de157657e370e254f
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141216"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4746844"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Gjøre opp kjøpsfakturaer omgående
 
@@ -22,7 +23,7 @@ Hvis du må betale leverandøren kontant eller med sjekk, kan du bokføre betali
 
 ## <a name="to-settle-purchase-invoices-promptly"></a>Slik gjør du opp kjøpsfakturaer omgående
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. Hvis du vil betale enten med kontanter eller med giro, angir du nummeret på kassekontoen eller bankkontoen i feltet **Motkontonr.**.  
 
@@ -36,6 +37,3 @@ Hvis du må betale leverandøren kontant eller med sjekk, kan du bokføre betali
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

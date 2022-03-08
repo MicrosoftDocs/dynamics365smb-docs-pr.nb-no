@@ -2,20 +2,20 @@
 title: Definere detaljerte tillatelser
 description: Dette emnet beskriver hvordan du definerer detaljerte tillatelser ved å gi bestemte brukere tilgang til objekter og tilordne tillatelsessett til dem.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 1, 119, 9807, 9808, 9830, 9831
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: c0dedf8ba397bb1a50f81de0435abf5e4e726404
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3a3025e94fa05d3e0c0bf49e9afd1f13a55a60fb
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146127"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6443720"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilordne tillatelser til brukere og grupper
 
@@ -159,9 +159,6 @@ I hvert av de fem tilgangstypefeltene, **Lesetillatelse**, **Innsettingstillatel
 |**Indirekte**|Brukeren kan utføre handlingen for det aktuelle objektet, men bare via et annet tilknyttet objekt som brukeren har full tilgang til. Hvis du vil ha mer informasjon om indirekte tillatelser, kan du se [Tillatetlser-egenskapen](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) i hjelpen for utviklere og IT-eksperter.|Nest høyeste|
 |**Tom**|Brukeren kan ikke utføre handlingen for det aktuelle objektet.|Laveste|
 
-> [!IMPORTANT]
-> Vær forsiktig når du tilordner **innsettingstillatelse** eller **endringstillatelse** til gruppen **9001 brukergruppemedlem** eller **9003 gruppetillatelsessett for bruker**. Alle brukere som er tilordnet tillatelsessettet, kan potensielt tilordne seg selv til andre brukergrupper, som i sin tur kan gi dem utilsiktede tillatelser.
-
 ### <a name="example---indirect-permission"></a>Eksempel - indirekte tillatelse
 
 Du kan tilordne en indirekte tillatelse til å bruke et objekt, bare via et annet objekt.
@@ -264,7 +261,7 @@ Du kan konfigurere at [!INCLUDE[prod_short](includes/prod_short.md)] skal sende 
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Administrasjon](admin-setup-and-administration.md)  
-[Legge til brukere i Microsoft 365 for business](/microsoft-365/admin/add-users/add-users)  
+[Legge til brukere i Microsoft 365 for bedrifter](/microsoft-365/admin/add-users/add-users)  
 [Sikkerhet og beskyttelse i Business Central](/dynamics365/business-central/dev-itpro/security/security-and-protection) i hjelpen for utviklere og IT-eksperter
 
 

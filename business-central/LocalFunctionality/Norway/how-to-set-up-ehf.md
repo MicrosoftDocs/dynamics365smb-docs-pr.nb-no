@@ -1,28 +1,30 @@
 ---
-title: Konfigurer EHF [NO]
-description: Du må definere en lokasjon for lagring av EHF-filer (Elektronisk Handelsformat) når du oppretter elektroniske dokumenter, for eksempel fakturaer og kreditnotaer.
+title: Sette opp EHF
+description: Du må definere en lokasjon for lagring av EHF-filer (Elektronisk Handelsformat) når du oppretter elektroniske dokumenter, for eksempel fakturaer og kreditnotaer. Du må også definere betalingsmåter og definere aktuelle kunder for EHF.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 459, 5919
-ms.date: 06/21/2021
-ms.author: edupont
-ms.openlocfilehash: d493ea0c39fc8c01b7cb6d62d5986d26e727e53e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: b5d72ef7e432bccc308ded562dd3231e434bab15
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144168"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301230"
 ---
-# <a name="set-up-ehf-in-the-norwegian-version"></a>Konfigurer EHF i den norske versjonen
+# <a name="set-up-ehf"></a>Angi EHF
 Du må definere en lokasjon for lagring av EHF-filer (Elektronisk Handelsformat) når du oppretter elektroniske dokumenter, for eksempel fakturaer og kreditnotaer. Du må også definere betalingsmåter og definere aktuelle kunder for EHF.  
 
 ## <a name="to-set-up-ehf-file-locations-for-sales-and-receivables"></a>Slik definerer du EHF-filplasseringer for salg:  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgsoppsett**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Salgsoppsett**, og velg deretter den relaterte koblingen.  
 2.  På siden **Salgsoppsett**-vinduet på **E-faktura**-hurtigfanen i **Utdatabaner**-delen, fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  
@@ -36,7 +38,7 @@ Du må definere en lokasjon for lagring av EHF-filer (Elektronisk Handelsformat)
 
 ## <a name="to-set-up-ehf-file-locations-for-service-management"></a>Slik definerer du EHF-filplasseringer for servicestyring:  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Serviceoppsett**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Serviceoppsett**, og velg deretter den relaterte koblingen.  
 2.  På **Serviceoppsett**-siden på **E-faktura**-hurtigfanen i **Utdatabaner**-delen, fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  
@@ -49,6 +51,3 @@ Du må definere en lokasjon for lagring av EHF-filer (Elektronisk Handelsformat)
 ## <a name="see-also"></a>Se også  
  [Sette opp kunder for EHF](how-to-set-up-customers-for-ehf.md)   
  [EHF – Elektronisk fakturering i Norge](ehf-electronic-invoicing-in-norway.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

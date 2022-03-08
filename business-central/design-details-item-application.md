@@ -2,19 +2,20 @@
 title: Designdetaljer – Vareutligning | Microsoft-dokumentasjon
 description: Dette emnet beskriver hvor lagerantallet og verdien registreres når du bokfører en lagertransaksjon.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, items, ledger entries, posting, inventory
-ms.date: 06/08/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 581ffdce943844d466adc6320fe32aaaa29138b6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b0b73731584ee844706180d2127c65369fe74e82
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143559"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5380634"
 ---
 # <a name="design-details-item-application"></a>Designdetaljer: Vareutligning
 
@@ -93,8 +94,8 @@ Hvis du vil opprette en fast utligning, bruker du feltet **Utligningsvarepost** 
 ### <a name="example--fixed-application-in-purchase-return"></a>Eksempel – fast utligning i bestillingsretur  
 Følgende eksempel, som illustrerer resultatet av fast utligning av en bestillingsretur for en vare som bruker lagermetoden FIFO, er basert på følgende scenario:  
 
-1. Brukeren bokfører et kjøp med en kostnad på LV 10,00 i oppføring 1.  
-2. Brukeren bokfører et kjøp med en kostnad på LV 20,00 i oppføring 2.  
+1. Brukeren bokfører et kjøp med en kostnad på NOK 10,00 i oppføring 1.  
+2. Brukeren bokfører et kjøp med en kostnad på NOK 20,00 i oppføring 2.  
 3. I oppføring 3 bokfører brukeren en bestillingsretur. Brukeren foretar en fastsatt utligning mot det andre kjøpet ved å skrive inn varepostnummeret i feltet **Utligningsvarepost** på bestillingsreturlinjen.  
 
 Tabellen nedenfor viser varepostene som er et resultat av scenariet.  
@@ -105,7 +106,7 @@ Tabellen nedenfor viser varepostene som er et resultat av scenariet.
 |05.01.20|Kjøp|10|20.00|2|  
 |06.01.20|Kjøp (retur)|-10|-20,00|3|  
 
-Fordi en fastsatt utligning skjer fra bestillingsretur til den andre kjøpsposten, returneres varene med riktig kost. Hvis brukeren ikke hadde utført den faste utligningen, ville den returnerte varen ha feilverdien LV 10,00, fordi avkastningen ville bli brukt på den første kjøpsposten i henhold til FIFO-prinsippet.  
+Fordi en fastsatt utligning skjer fra bestillingsretur til den andre kjøpsposten, returneres varene med riktig kost. Hvis brukeren ikke hadde utført den faste utligningen, ville den returnerte varen ha feilverdien NOK 10,00, fordi avkastningen ville bli brukt på den første kjøpsposten i henhold til FIFO-prinsippet.  
 
 Tabellen nedenfor viser vareutligningsposten som blir resultatet av den faste utligningen.  
 
@@ -113,14 +114,14 @@ Tabellen nedenfor viser vareutligningsposten som blir resultatet av den faste ut
 |------------------|----------------------------------------------|-----------------------------------------------|--------------|---------------------------------------------|  
 |06.01.20|2|3|10|3|  
 
-Kostbeløpet for det andre kjøpet, LV 20,00, blir deretter korrekt sendt til bestillingsreturen.  
+Kostbeløpet for det andre kjøpet, NOK 20,00, blir deretter korrekt sendt til bestillingsreturen.  
 
 ### <a name="example--fixed-application-with-average-cost"></a>Eksempel – fast utligning med gjennomsnittskost  
 Følgende eksempel, som illustrerer resultatet av fast utligning, er basert på følgende scenario for en vare som bruker lagermetoden Gjennomsnitt:  
 
-1. I løpenummer 1 og 2 legger brukeren inn to kjøpsfakturaer. Den andre fakturaen har en direkte enhetskost på LV 1 000,00, som er feil.  
+1. I løpenummer 1 og 2 legger brukeren inn to kjøpsfakturaer. Den andre fakturaen har en direkte enhetskost på NOK 1 000,00, som er feil.  
 2. I løpenummer 3 legger brukeren inn en kjøpskreditnota med en fast utligning for kjøpsposten med feil direkte enhetskost. Summen i feltet **Kostbeløp (faktisk)** for de to fast utlignede verdipostene blir 0,00.  
-3. I løpenummer 4 legger brukeren inn en annen kjøpsfaktura med den riktige direkte enhetskosten LV 100,00  
+3. I løpenummer 4 legger brukeren inn en annen kjøpsfaktura med den riktige direkte enhetskosten NOK 100,00  
 4. I løpenummer 5 bokfører brukeren en salgsfaktura.  
 5. Lagerantallet er 0, og lagerverdien er også 0,00.  
 
@@ -202,8 +203,8 @@ Når en vare overføres fra én lokasjon til en annen i selskapets lager, oppret
 ### <a name="example--average-costing-method"></a>Eksempel – lagermetoden Gjennomsnitt  
 Følgende eksempel, som illustrerer hvordan overføringsposter utlignes, er basert på følgende scenario for en vare som bruker lagermetoden Gjennomsnitt og gjennomsnittskostperioden Dag.  
 
-1. Brukeren kjøper varen for LV 10,00.  
-2. Brukeren kjøper varen på nytt for LV 20,00.  
+1. Brukeren kjøper varen for NOK 10,00.  
+2. Brukeren kjøper varen på nytt for NOK 20,00.  
 3. Brukeren overfører varen fra ØST til VEST lokasjon.  
 
 Følgende tabell viser resultatet av overføringen i varens verdiposter.  
@@ -218,8 +219,8 @@ Følgende tabell viser resultatet av overføringen i varens verdiposter.
 ### <a name="example--standard-costing-method"></a>Eksempel – lagermetoden Standard  
 Følgende eksempel, som illustrerer hvordan overføringsposter utlignes, er basert på følgende scenario for en vare som bruker lagermetoden Standard og gjennomsnittskostperioden Dag.  
 
-1. Brukeren kjøper varen for LV 10,00, som er standardkost.  
-2. Brukeren overfører varen fra ØST til VEST lokasjon for en standardkost på LV 12,00.  
+1. Brukeren kjøper varen for NOK 10,00, som er standardkost.  
+2. Brukeren overfører varen fra ØST til VEST lokasjon for en standardkost på NOK 12,00.  
 
 Følgende tabell viser resultatet av overføringen i varens verdiposter.  
 
@@ -229,7 +230,7 @@ Følgende tabell viser resultatet av overføringen i varens verdiposter.
 |01.02.20|Overfør|ØST|-1|10,00|2|  
 |01.02.20|Overfør|VEST|1|10,00|3|  
 
-Siden verdien til den opprinnelige lagerøkningen er LV 10,00, får overføringen denne verdien, ikke LV 12,00.  
+Siden verdien til den opprinnelige lagerøkningen er NOK 10,00, får overføringen denne verdien, ikke NOK 12,00.  
 
 ## <a name="reapplication"></a>Utligne på nytt  
 På grunn av måten som enhetskostbeløpet for en vare beregnes på, kan en feil vareutligning føre til en skjev gjennomsnittskost og enhetskost. Følgende scenarier kan føre til uriktige vareutligninger, som krever at du angrer vareutligninger og utligner vareposter på nytt:  

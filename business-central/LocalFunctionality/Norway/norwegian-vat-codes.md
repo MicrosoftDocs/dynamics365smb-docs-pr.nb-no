@@ -2,21 +2,20 @@
 title: Norske mva-koder
 description: I den norske versjonen av Business Central kan mva-behandlingsinformasjon enkelt defineres ved hjelp av standard norske mva-koder.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.search.keywords: ''
-ms.search.form: 10602, 10697, 10698, 10604, 315, 472, 473, 471, 317
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 73c43c1b2863e4c8bb170f55157185b9b07407ab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 66665fabf6341d9357be746068b2ce4300f9604f
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144160"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301212"
 ---
 # <a name="norwegian-vat-codes"></a>Norske mva-koder
-
-I [!INCLUDE[prod_short](../../includes/prod_short.md)] kan mva-behandlingsinformasjon enkelt defineres ved hjelp av norske standard mva-koder.. Tabellen nedenfor viser norske standard mva-koder.  
+I [!INCLUDE[d365fin](../../includes/d365fin_md.md)] kan mva-behandlingsinformasjon enkelt defineres ved hjelp av norske standard mva-koder.. Tabellen nedenfor viser norske standard mva-koder.  
 
 |**Kode**|**Beskrivelse**|  
 |--------------|-------------------------------------------|  
@@ -63,7 +62,7 @@ Vanligvis når du angir mva-oppsettsinformasjon på en kladdelinje, må feltet *
 Hvis du bruker norske standard mva-koder, kan du angi **Mva-kode 3** for den innenlandske mva-bokføringsoppsettsinformasjonen, og **Mva-kode 1** for den internasjonale mva-bokføringsoppsettsinformasjonen. Dermed kan du velge mellom mva-bokføringsoppsettsinformasjonen ved hjelp av bare ett felt og de kjente norske mva-standardkodene.  
 
 ### <a name="example-restricting-the-use-of-vat-codes"></a>Eksempel: Begrense bruken av mva-koder  
-Standard norsk **mva-kode 3** brukes for salg inklusiv mva. Med mindre du begrenser bruken av denne mva-koden, kan den brukes for både salg og kjøp i [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+Standard norsk **mva-kode 3** brukes for salg inklusiv mva. Med mindre du begrenser bruken av denne mva-koden, kan den brukes for både salg og kjøp i [!INCLUDE[d365fin](../../includes/d365fin_md.md)].  
 
 Du kan definere feltet **Bokføringstype** som et salg i **Finanskonto (analysevisning)**-tabellen. Denne generelle bokføringstypen vil brukes sammen med **Mva-kode 3**.  
 
@@ -71,11 +70,8 @@ Bokføringstypen behandles på to måter, avhengig av verdien i feltet **Test bo
 
 |Alternativ|Description|  
 |-----------------------------------------|-------------------------------------------|  
-|**Obligatorisk**|Bokføringstypen settes automatisk til **Salg** på kladdelinjer. Før du bokfører, verifiserer [!INCLUDE[prod_short](../../includes/prod_short.md)] om bokføringstypen er angitt, men det er ingen kontroll av om feltet settes til **Salg**.<br /><br /> **Mva-kode 3** kan brukes for både salgs- og kjøpsdokumenter.|  
-|**Samme**|Bokføringstypen settes automatisk til **Salg** på kladdelinjer. Før du bokfører verifiserer [!INCLUDE[prod_short](../../includes/prod_short.md)] om bokføringstypen er satt til **Salg**.<br /><br /> **Mva-kode 3** kan brukes for salgsdokumenter, men ikke på kjøpsdokumenter.<br /><br /> Dette gjør det mulig å begrense bruken av mva-koder til forhåndsdefinerte bokføringstyper.|  
+|**Obligatorisk**|Bokføringstypen settes automatisk til **Salg** på kladdelinjer. Før du bokfører, verifiserer [!INCLUDE[d365fin](../../includes/d365fin_md.md)] om bokføringstypen er angitt, men det er ingen kontroll av om feltet settes til **Salg**.<br /><br /> **Mva-kode 3** kan brukes for både salgs- og kjøpsdokumenter.|  
+|**Samme**|Bokføringstypen settes automatisk til **Salg** på kladdelinjer. Før du bokfører verifiserer [!INCLUDE[d365fin](../../includes/d365fin_md.md)] om bokføringstypen er satt til **Salg**.<br /><br /> **Mva-kode 3** kan brukes for salgsdokumenter, men ikke på kjøpsdokumenter.<br /><br /> Dette gjør det mulig å begrense bruken av mva-koder til forhåndsdefinerte bokføringstyper.|  
 
 ## <a name="see-also"></a>Se også  
  [Norsk mva-rapportering](norwegian-vat-reporting.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

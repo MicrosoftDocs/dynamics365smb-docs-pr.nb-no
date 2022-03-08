@@ -1,20 +1,21 @@
 ---
 title: Svare på forespørsler om personopplysninger
-description: Dette emnet forteller deg hvordan du svarer på forespørsler om personopplysninger. Dette kalles en dataemneforespørsel.
+description: Du må svare på forespørsler fra dataemner.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.author: bholtorf
 ms.custom: na
-ms.date: 06/14/2021
+ms.date: 04/01/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: 0d1ead6fc36df5b06f9ab995bbc30ce04d24c622
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b7762f9da2a6e3acfbd57a4b5af4806ead710c9d
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148853"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5777384"
 ---
-# <a name="responding-to-requests-about-users-personal-data"></a>Svare på forespørsler om brukers personopplysninger  
+# <a name="responding-to-requests-about-personal-data"></a>Svare på forespørsler om personopplysninger  
 Dataemner kan be om flere typer handlinger med hensyn til sine personopplysninger. For eksempel under EUs personvernforordning (GDPR) har innbyggere i EU rett til å be om eksport, sletting og endring av personlig informasjon. Dette kalles *dataemneforespørsel*. Hvis du har klassifisert følsomhetsnivået for dataene og er sikker på at de er riktige, kan en administrator svare på forespørsler ved hjelp av alternativene under kategorien **Datavern** i rollesenteret **IT-sjef**. Hvis du vil ha mer informasjon om klassifisering av data og klassifisering av datasensitivitet i [!INCLUDE[prod_long](includes/prod_long.md)], kan du se [Klassifisere data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Klassifisere datasensitivitet](admin-classifying-data-sensitivity.md).  
 
 ## <a name="types-of-requests"></a>Typer forespørsler

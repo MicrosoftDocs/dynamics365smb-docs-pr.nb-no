@@ -1,20 +1,21 @@
 ---
 title: Aktivere Power BI-integrering med Business Central
-description: Lær hvordan du konfigurerer tilkoblingen til Power BI. Med Power BI-rapporter kan du få innsikt, forretningsanalyse og nøkkelindikatorer fra Business Central-dataene.
+description: Lær hvordan du konfigurerer tilkoblingen til Power BI, slik at du får innsikt, forretningsintelligens og KPI-er fra Business Central-data med Business Central-appene for Power BI.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Power BI, setup, analysis, reporting, financial report, business intelligence, KPI
+ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 52cd83406b302965c553856f89a9a436882f008b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4b8fbdb89f47a05d4265751fddc10ab208901831
+ms.sourcegitcommit: c11ad91a389ed72532f5513654fdc7909b20aed9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130581"
+ms.lasthandoff: 04/22/2021
+ms.locfileid: "5935114"
 ---
 # <a name="enabling-power-bi-integration-with-prod_short"></a>Aktivere Power BI-integrering med [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -26,39 +27,10 @@ Med [!INCLUDE[prod_short](includes/prod_short.md)] får brukere en gratis Power 
 
 |Power-lisens|Vise rapporter|Opprette rapporter|Dele rapporter|Oppdatere rapporter| [!INCLUDE[prod_short](includes/prod_short.md)]-apper|
 |-------------|--------||
-|Power BI free|![en hake.](media/check.png)|![en ny hake](media/check.png)|(begrenset)|(begrenset)||
-|Power BI Pro|![enda en ny hake.](media/check.png)|![det er en hake](media/check.png)|![igjen en hake](media/check.png)|(omfattende)|![siste hake](media/check.png)|
+|Power BI free|![en hake](media/check.png)|![en ny hake](media/check.png)|(begrenset)|(begrenset)||
+|Power BI Pro|![enda en ny hake](media/check.png)|![det er en hake](media/check.png)|![igjen en hake](media/check.png)|(omfattende)|![siste hake](media/check.png)|
 
 Hvis du vil ha mer informasjon, kan du se [Lisensiere Power BI-tjenesten for brukere i organisasjonen](/power-bi/admin/service-admin-licensing-organization) eller [Registrere deg for Power BI-tjenesten som enkeltperson](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
-
-## <a name="expose-data-through-api-pages-or-odata-web-services"></a><a name="exposedata"></a>Eksponer data gjennom API-sider eller OData-nettjenester
-
-Business Central tilbyr to måter å vise data på som kan forbrukes av Power BI-rapporter: API-sider og nettjenester for åpne dataprotokoller (OData).
-
-### <a name="api-pages"></a>API-sider
-
-> **GJELDER:** bare Business Central Online 
-
-En API-side er en bestemt sidetype opprettet i AL-kode som gir tilgang til databasetabeller via en webhook-støttet, OData v4-aktivert REST-service. Denne sidetypen kan ikke vises i brukergrensesnittet, men er ment for å utvikle pålitelige integrasjonstjenester.
-
-Business Central online leveres med et sett med innebygde API-er, som du kan bruke til å hente data for de mest vanlige forretningsenhetene, for eksempel kunder, varer, ordrer og så videre. Ekstra arbeid eller oppsett er ikke nødvendig for å bruke disse API-ene som en datakilde for Power BI-rapporter. Se [Business Central API v 2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) hvis du vil ha mer informasjon om disse API-ene.
-
-Business Central online støtter også egen definerte API-er. Programutviklere for Business Central-løsninger kan opprette egne API-sider og pakke dem i utvidelser. Du installerer deretter utvidelsene i leietakeren. Når den er installert, kan du bruke API-sidene for Power BI-rapportene, på samme måte som med de innebygde API-ene (v 2.0). Hvis du vil ha mer informasjon om hvordan du oppretter API-sider, kan du se [Utvikle en egendefinert API](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api).
-
-> [!IMPORTANT]
-> Fra og med februar 2022 blir Power BI-rapporter for [!INCLUDE[prod_short](includes/prod_short.md)] online hentet fra en sekundær, skrivebeskyttet databasereplika for ytelsesårsaker. I følge tilfeller bør AL-utviklere unngå å utforme API-sider som gjør databaseendringer mens sidene åpnes eller laster inn poster. Tenk særlig på koden på AL-utløserne: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord og OnAfterGetCurrRecord. Disse databaseendringene kan i noen tilfeller forårsake ytelsesproblemer og forhindre at rapporten oppdaterer data. Hvis du vil ha mer informasjon, kan du se [Ytelsesartikler for utviklere](/dynamics365/business-central/dev-itpro/performance/performance-developer?branch=main#writing-efficient-web-services) i utviklingshjelpen for Business Central.
->
-> I sjeldne tilfeller vil virkemåten føre til en feil når en bruker prøver å hente data fra API-siden for en rapport i Power BI Desktop. Hvis databaseendringer er nødvendige på den egendefinerte API-siden, kan Power BI Desktop-brukerne imidlertid fremtvinge virkemåten. Hvis du vil ha mer informasjon, kan du se [Bygg Power BI-rapporter for å vise Business Central-data](across-how-use-financials-data-source-powerbi.md#fixing-problems).
-
-### <a name="odata-web-services"></a>OData-nettjenester
-
-Du kan publisere Business Central-programobjekter, for eksempel codeunit, sider og spørringer, som [OData-nettjenester](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). Med Business Central online blir det publisert mange nettjenester som standard. Det er enkelt å finne webtjenestene ved å søke etter *webtjenester* i [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Webtjenester** kontrollerer du at **Publiser**-feltet er valgt for webtjenestene som er oppført ovenfor. Hvis du vil ha mer informasjon om publisering av webtjenester, kan du se [Publisere en webtjeneste](across-how-publish-web-service.md).
-
-Hvis du vil vite mer om hva du kan gjøre for å sikre den beste ytelsen til webtjenester, sett fra Business Central-serveren (endepunktet) og fra forbrukeren (klienten), kan du lese [Skrive effektive webtjenester](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
-
-### <a name="choosing-whether-to-use-api-pages-or-odata-web-services"></a>Velg om du vil bruke API-sider eller OData-nettjenester
-
-Når det er mulig, oppfordrer vi til å bruke API-sider i stedet for OData-nettjeneste. API-sider er generelt raskere ved innlasting av data i Power BI-rapporter enn OData-nettjenester. I tillegg er de mer fleksible fordi de lar deg hente data fra tabellfelter som ikke er definert i et sideobjekt.
 
 ## <a name="set-up-prod_short-on-premises-for-power-bi-integration"></a><a name="setup"></a>Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] lokalt for Power BI-integrering
 
@@ -80,7 +52,7 @@ Denne delen forklarer kravene til integrering av en distribusjon av [!INCLUDE[pr
 
     <!--
     > [!IMPORTANT]
-    > With [!INCLUDE[prod_short](../developer/includes/prod_short.md)] online, the use of access keys (Basic Auth) for web service authentication is [deprecated](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#accesskeys). We recommend that you use OAuth2 instead. For more information, see [Using OAuth to Authorize Business Central Web Services](/dynamics365/business-central/dev-itpro/webservices/authenticate-web-services-using-oauth).-->
+    > With [!INCLUDE[prod_short](../developer/includes/prod_short.md)] online, the use of access keys (Basic Auth) for web service authentication is [deprecated](../upgrade/deprecated-features-w1.md#accesskeys). We recommend that you use OAuth2 instead. For more information, see [Using OAuth to Authorize Business Central Web Services](../webservices/authenticate-web-services-using-oauth.md).-->
 
 4. Opprett en programregistrering for [!INCLUDE[prod_short](includes/prod_short.md)] i Microsoft Azure.
 
@@ -96,6 +68,14 @@ Denne delen forklarer kravene til integrering av en distribusjon av [!INCLUDE[pr
 
     For å opprette den første tilkoblingen må du åpne [!INCLUDE[prod_short](includes/prod_short.md)] og kjøre **Kom i gang med Power BI** fra rollesenteret. Denne handlingen leder deg gjennom samtykkeprosessen og kontrollerer Power BI-lisensen. Logg deg på med en Azure-administratorkonto når du blir bedt om det. Hvis du vil ha mer informasjon, kan du se [Koble til Power BI – kun én gang](across-working-with-powerbi.md#connect).
 
+## <a name="publish-data-as-web-services"></a>Publisere data som webtjenester
+
+Kodeenheter, sider og spørringer du vil bruke som datakilden i Power BI-rapporter, må publiseres som webtjenester. Mange webtjenester er publisert som standard. Det er enkelt å finne webtjenestene ved å søke etter *webtjenester* i [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Webtjenester** kontrollerer du at **Publiser**-feltet er valgt for webtjenestene som er oppført ovenfor. Denne oppgaven er vanligvis en administrativ oppgave.
+
+Hvis du vil ha mer informasjon om publisering av webtjenester, kan du se [Publisere en webtjeneste](across-how-publish-web-service.md).
+
+> [!TIP]
+> Hvis du vil vite mer om hva du kan gjøre for å sikre den beste ytelsen til webtjenester, sett fra Business Central-serveren (endepunktet) og fra forbrukeren (klienten), kan du lese [Skrive effektive webtjenester](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 

@@ -2,6 +2,7 @@
 title: Overfør Data fra en QuickBooks-app
 description: Du kan overføre data, for eksempel kunder, leverandører, varer og finanskonti, fra QuickBooks-apper til Business Central.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +11,12 @@ ms.search.keywords: app, import, migrate, data, transfer, QuickBooks, customize
 ms.search.form: 1808
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9e8f24712efe1c6902d83e3c454d5c90209629c3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 76a53a828fb953210cb9094cad07434d4f7906dc
+ms.sourcegitcommit: 8464b37c4f1e5819aed81d9cfdc382fc3d0762fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134048"
+ms.lasthandoff: 01/19/2022
+ms.locfileid: "8012526"
 ---
 # <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Endre fra en QuickBooks-app til Dynamics 365 Business Central
 Bedrifter i vekst går mer og mer over fra finansapper som QuickBooks Desktop og QuickBooks Online som er utviklet for oppstart og andre små virksomheter, til [!INCLUDE[prod_short](includes/prod_short.md)], som også støtter større og mer komplekse organisasjoner. 

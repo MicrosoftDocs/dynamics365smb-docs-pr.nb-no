@@ -1,20 +1,21 @@
 ---
-title: Designdetaljer – Utgående lagerflyt
-description: Dette emnet viser sekvensen for utgående lagerflyt fra frigitte kildedokumenter til varer som er klare til levering.
+title: Designdetaljer – Utgående lagerflyt | Microsoft-dokumentasjon
+description: Den utgående flyten på lageret begynner med en forespørsel fra frigitte kildedokumenter om å sende varene ut av lagerlokasjonen, for å leveres til en ekstern part eller en annen selskapslokasjon. Fra lagringsområdet utførers lageraktiviteter på ulike kompleksitetsnivåer for å hente varer ut til leveringsområdene.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.date: 07/07/2020
 ms.author: edupont
-ms.openlocfilehash: 282c6533d7ac8b769c1ec74c42d4808ebc5da380
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: aa12b250f404f149d790b0768560cad958c26d31
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139706"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3787424"
 ---
 # <a name="design-details-outbound-warehouse-flow"></a>Designdetaljer: Utgående lagerflyt
 
@@ -36,7 +37,7 @@ I tillegg finnes følgende interne kildedokumenter som fungerer som utgående ki
 
  Prosesser og dokumenter for brukergrensesnitt i utgående lagerflyter er forskjellige for grunnleggende og avanserte lagerkonfigurasjoner. Hovedforskjellen er at aktiviteter utføres ordre for ordre i grunnleggende lagerkonfigurasjoner, og de konsolideres for flere ordrer i avanserte lagerkonfigurasjoner. Hvis du vil ha mer informasjon om ulike kompleksitetsnivåer for lageret, kan du se [Designdetaljer: Lageroversikt](design-details-warehouse-setup.md).  
 
- I [!INCLUDE[prod_short](includes/prod_short.md)] kan de utgående prosessene for plukking og levering utføres på fire måter ved hjelp av forskjellige funksjoner, avhengig av kompleksitetsnivået til lageret.  
+ I [!INCLUDE[d365fin](includes/d365fin_md.md)] kan de utgående prosessene for plukking og levering utføres på fire måter ved hjelp av forskjellige funksjoner, avhengig av kompleksitetsnivået til lageret.  
 
 |Prinsipp|Utgående prosess|Hyller|Plukking|Følgesedler|Kompleksitetsnivå (se [Designdetaljer: Lageroppsett](design-details-warehouse-setup.md))|  
 |------|----------------|----|-----|---------|-------------------------------------------------------------------------------------|  
@@ -53,7 +54,7 @@ I tillegg finnes følgende interne kildedokumenter som fungerer som utgående ki
 
  Diagrammet nedenfor illustrerer utgående lagerflyter etter dokumenttype i grunnleggende lagerkonfigurasjoner. Tallene i diagrammet svarer til trinnene nedenfor diagrammet.  
 
- ![Utgående flyt i grunnleggende lageroppsett.](media/design_details_warehouse_management_outbound_basic_flow.png "Utgående flyt i grunnleggende lageroppsett")  
+ ![Utgående flyt i grunnleggende lageroppsett](media/design_details_warehouse_management_outbound_basic_flow.png "Utgående flyt i grunnleggende lageroppsett")  
 
 ### <a name="1-release-source-document--create-inventory-pick-or-movement"></a>1: Frigi kildedokumentet / opprette lagerplukk eller flytting
 
@@ -80,7 +81,7 @@ I tillegg finnes følgende interne kildedokumenter som fungerer som utgående ki
 
  Diagrammet nedenfor illustrerer utgående lagerflyter etter dokumenttype i avanserte lagerkonfigurasjoner. Tallene i diagrammet svarer til trinnene nedenfor diagrammet.  
 
- ![Utgående flyt i avansert lageroppsett.](media/design_details_warehouse_management_outbound_advanced_flow.png "Utgående flyt i avansert lageroppsett")  
+ ![Utgående flyt i avansert lageroppsett](media/design_details_warehouse_management_outbound_advanced_flow.png "Utgående flyt i avansert lageroppsett")  
 
 ### <a name="1-release-source-document"></a>1: Frigi kildedokument
 
@@ -133,6 +134,3 @@ I tillegg finnes følgende interne kildedokumenter som fungerer som utgående ki
 ## <a name="see-also"></a>Se også
 
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,20 +1,21 @@
 ---
-title: Administrere lagerkostnader
-description: Kostandshåndtering handler om å registrere og rapportere kostnader for forretningskostnader og omfatter rapportering av produksjonskost og lagerkost.
+title: Administrere lagerkostnader | Microsoft-dokumentasjon
+description: Kostnadsstyring, også kalt "kostredegjøring", handler om å registrere og rapportere kostnader ved forretningsdrift. Det inkluderer rapportering av produksjonskost og lagerkost, det vil si verdien av varene.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 79498fe0e29a633f7d17a7940148728f544cb2d0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 888eb525aafcd0f7fdd41e846b7aa5b0d60fb39d
+ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138521"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "2879564"
 ---
 # <a name="managing-inventory-costs"></a>Administrere lagerkostnader
 Kostnadsstyring, også kalt "kostredegjøring", handler om å registrere og rapportere kostnader ved forretningsdrift. Det inkluderer rapportering av produksjonskost og lagerkost, det vil si verdien av varene.   
@@ -25,8 +26,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Lese diverse begrepsmessig informasjon for å forstå prinsippene og definisjonene som styrer funksjonene for lagerkostregnskap i [!INCLUDE[prod_short](includes/prod_short.md)].|[Om lagerkost](finance-learn-about-costing.md)|  
-|Sikre at du vet hva leverte varer koster, ved å tilordne ekstra varekost, for eksempel frakt, fysisk håndtering, forsikring og transport, som du pådrar deg etter salg.|[Bruke varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md)|
+|Lese diverse begrepsmessig informasjon for å forstå prinsippene og definisjonene som styrer funksjonene for lagerkostregnskap i [!INCLUDE[d365fin](includes/d365fin_md.md)].|[Om lagerkost](finance-learn-about-costing.md)|  
 |Lær om alle mekanismene i kostsystemet.|[Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)|
 |Lese hvordan lagerperioder hjelper et selskap med å styre lagerverdi over tid ved å definere kortere perioder som kan lukkes for bokføring underveis i regnskapsåret.|[Arbeide med lagerperioder](finance-how-to-work-with-inventory-periods.md)|
 |Lese hvorfor standardkost ofte brukes som verdisettingsgrunnlag for komponenter og sluttvarer i produksjonsselskaper.|[Om beregning av standardkost](finance-about-calculating-standard-cost.md)|
@@ -37,14 +37,10 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Oppdater regelmessig standardkostnadene for komponenter, i monterings- eller produksjonsstykklister, og oppruller de nye kostnadene til den overordnede varen.|[Oppdatere standardkost](finance-how-to-update-standard-costs.md)|
 |Vis og manuelt endre bestemte vareutligningsposter som opprettes automatisk under lagertransaksjoner.|[Fjerne varefinansposter og utligne dem på nytt](finance-how-to-remove-and-reapply-item-entries.md)|
 |Utføre kontroll- og rapporteringsoppgaver ved periodeslutt, for eksempel beregne lagerverdien og bokføre kost til Finans.|[Rapportere kostnader og avstemme med Finans](finance-report-costs-and-reconcile-with-the-general-ledger.md)|
-|Finn ut hvordan du kan bruke jobbkøen til å flytte aktivitetene for å justere lagerkost eller avstemme den sammen med Finans til bakgrunnen.|[Juster og avstem lagerkost med finans med jobbkø](finance-manage-inventory-costs.md)|
 
 ## <a name="see-also"></a>Se også  
  [Finans](finance.md)  
  [Lager](inventory-manage-inventory.md)   
  [Salg](sales-manage-sales.md)   
  [Innkjøp](purchasing-manage-purchasing.md)  
- [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

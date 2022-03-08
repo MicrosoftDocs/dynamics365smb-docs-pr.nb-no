@@ -1,22 +1,23 @@
 ---
-title: Administrer samhandlinger med kontaktene dine
+title: Administrere samhandlinger med kontaktene dine | Microsoft-dokumentasjon
 description: Du kan administrere alle typer kommunikasjon eller samhandlinger mellom selskapet og kontaktene dine, for eksempel brev, telefonsamtaler, møter og så videre.
+services: project-madeira
 documentationcenter: ''
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5082,
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 464940f091356f1a0eaa0b160e2850aded545487
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d72025a95f6d12ab64ba6ec29de754bb9c318ab0
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131382"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6435800"
 ---
 # <a name="record-interactions-with-contacts"></a>Registrere samhandlinger med kontakter
 Konfigurasjon av programmet til å registrere samhandlinger består av disse oppgavene:

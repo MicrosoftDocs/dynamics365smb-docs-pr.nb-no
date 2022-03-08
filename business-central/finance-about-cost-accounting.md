@@ -1,20 +1,21 @@
 ---
-title: Om kostregnskap
-description: Kostregnskap kan hjelpe deg med å forstå kostnadene ved å drive et selskap. Informasjon i kostregnskap er utformet for å analysere ulike problemer.
+title: Om kostregnskap | Microsoft-dokumentasjon
+description: Kostregnskap kan hjelpe deg med å forstå kostnadene ved å drive et selskap.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1101, 1103, 1105, 1108, 1111, 1112, 1124
-ms.date: 06/16/2021
+ms.search.keywords: ''
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 52138687b0959c80711495e4c1a8b608184ba211
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d8628953230b27ae84ee363d41c43873c81cb11c
+ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145741"
+ms.lasthandoff: 10/01/2020
+ms.locfileid: "3919556"
 ---
 # <a name="about-cost-accounting"></a>Om kostregnskap
 Kostregnskap kan hjelpe deg med å forstå kostnadene ved å drive et selskap. Informasjon i kostregnskap er utformet for å analysere:  
@@ -36,7 +37,7 @@ Kostregnskap har følgende hovedkomponenter:
 
 Følgende diagram viser arbeidsflyten i kostregnskap.  
 
-![Oversikt over kostregnskap.](media/costaccountingoverview.png "CostAccountingOverview")  
+![Oversikt over kostregnskap](media/costaccountingoverview.png "CostAccountingOverview")  
 
 ## <a name="cost-types-cost-centers-and-cost-objects"></a>Kosttyper, kostsentre og kostobjekter  
 Du definerer kosttyper, kostsentre og kostobjekter for å analysere hva kostnadene er, hvor kostnadene kommer fra og hvem som skal bære kostnadene.  
@@ -71,7 +72,4 @@ De fleste rapporter og statistikker er basert på bokførte kostposter. Du kan a
  [Gjøre rede for kostnader](finance-manage-cost-accounting.md)  
  [Finans](finance.md)   
  [Terminologi i kostregnskap](finance-terminology-in-cost-accounting.md)  
- [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+ [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

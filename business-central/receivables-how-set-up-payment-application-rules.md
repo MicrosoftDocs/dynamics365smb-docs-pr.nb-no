@@ -1,24 +1,29 @@
 ---
-title: Regler for automatisk utligning av betalinger
-description: Les mer om hvordan du definerer regler for den automatiske utligning av betalinger på siden Betalingsutligningsregler.
+title: Definere regler for automatisk utligning av betalinger
+description: På siden Betalingsutligningsregler definerer du regler for å styre hvordan betalinger/banktransaksjoner skal utlignes automatisk mot de relaterte åpne finanspostene, når du bruker funksjonen Utlign automatisk på siden Betalingsavstemmingskladd.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 44e1868529d2f0852c0f21b7279f7d75df174efa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 07/23/2020
+ms.author: sgroespe
+ms.openlocfilehash: b655032a17aa617ccbaba2ac3dfd5413d4ca4326
+ms.sourcegitcommit: 7b5c927ea9a59329daf1b60633b8290b552d6531
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137214"
+ms.lasthandoff: 07/23/2020
+ms.locfileid: "3617576"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Definere regler for automatisk utligning av betalinger
 
-På siden **Betalingsutligningsregler** definerer du regler for å styre hvordan betalingstekst (på banktransaksjoner) utlignes automatisk med teksten på relaterte åpne (ubetalte) fakturaer, kreditnotaer eller andre oppføringer når du bruker funksjonen **Utlign automatisk** på siden **Betalingsavstemmingskladd**. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
+På siden **Betalingsutligningsregler** kan du definere regler for å styre hvordan betalingstekst (på en banktransaksjon) automatisk samsvarer med teksten i åpne poster, i følgende to prosesser:
+
+- Utligne automatisk betalinger mot tilknyttede åpne (ubetalte) fakturaer, kreditnotaer eller andre poster når du bruker funksjonen **Utlign automatisk** på siden **Betalingsavstemmingskladd**. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
+
+- Avstem automatisk banktransaksjoner med relaterte, interne bankkontoposter når du velger handlingen **Avstem automatisk** på siden **Bankkontoavstemming**. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md).
 
 Du kan definere nye utligningsregler for betaling ved å velge hvilke typer data i en kladdelinje for betalingsavstemming som må samsvare med data i én eller flere åpne poster, før den relaterte betalingen automatisk utlignes mot de åpne postene. Kvaliteten på hver automatiske utligning vises som verdien **Lav** til **Høy** i feltet **Konfidensintervall** på siden **Betalingsavstemmingskladd** i henhold til utligningsregelen for betaling som ble brukt.
 
@@ -35,7 +40,7 @@ I tillegg til søkekriteriene gjelder følgende med hensyn til fortegnet for bet
 - For positive beløp blir det først avstemt mot åpne poster som representerer leverandørfakturaer og deretter mot kundekreditnotaer.
 
 ## <a name="to-set-up-a-payment-application-rule"></a>Slik definerer du en utligningsregel for betaling
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Betalingsutligningsregler** og velge den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsutligningsregler**, og velg deretter den relaterte koblingen.
 2. Definer en ny eller redigert utligningsregel for betaling ved å fylle ut feltene på en linje, som beskrevet i tabellen nedenfor.
 
 |Felt|Beskrivelse|
@@ -45,12 +50,11 @@ I tillegg til søkekriteriene gjelder følgende med hensyn til fortegnet for bet
 |**Treff på relatert part**|Angir hvor mye informasjon om kunden eller leverandøren, for eksempel adresse, stedsnavn og bankkontonummer, på kladdelinjen for betalingsavstemming som må samsvare med informasjonen om den åpne posten før utligningsregelen brukes til å utligne betalingen automatisk mot den åpne posten.|
 |**Treff på dok.nr. / ekst. dok.nr.**|Angir om teksten på linjen for betalingsavstemmingskladd må samsvare med verdien i feltet **Bilagsnr.** eller feltet **Eksterndokumentnr.** i den åpne posten før utligningsregelen blir brukt til å utligne betalingen til den åpne posten automatisk.|
 |**Treff på beløp inkludert toleranse**|Angir hvor mange poster for en kunde eller leverandør som må samsvare med beløpet inklusive betalingstoleranse før utligningsregelen brukes til å utligne en betaling automatisk mot den åpne posten.|
-|**Gjennomgang obligatorisk**|Angir om den automatiske betalingsutligningen anbefales for manuell gjennomgang av brukeren før postering. Hvis du velger feltet **Linjer som skal gjennomgås** på siden **Betalingsutligningskladd**, startes en veiledet opplevelse der du enkelt kan gå gjennom flere utligninger i rekkefølge, på siden **Se gjennom betalingsutligning**.|
 
-Tabellen nedenfor beskriver standardreglene for betalingsutligning i [!INCLUDE[prod_short](includes/prod_short.md)].
+Tabellen nedenfor viser hvilke utligningsregler for betaling som er satt opp i den generelle versjonen av [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 > [!Important]
-> Utligningsreglene for betaling kan være annerledes i din implementering av [!INCLUDE[prod_short](includes/prod_short.md)].
+> Utligningsreglene for betaling kan være annerledes i din implementering av [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 | Konfidensintervall | Prioritet | Treff på relatert part | Treff på dok.nr. / ekst. dok.nr.   | Treff på beløp inkludert toleranse |
 |------------------|----------|-----------------------|--------------------------------|--------------------------------|
@@ -85,7 +89,4 @@ Tabellen nedenfor beskriver standardreglene for betalingsutligning i [!INCLUDE[p
 [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

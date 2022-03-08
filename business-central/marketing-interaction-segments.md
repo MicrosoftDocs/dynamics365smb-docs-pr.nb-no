@@ -1,22 +1,23 @@
 ---
-title: Hold rede på segmenter og relaterte samhandlinger
+title: Holde rede på segmenter og relaterte samhandlinger | Microsoft-dokumentasjon
 description: Finn ut hvordan du oppretter segmenter for å definere grupper med kontakter og angi samhandlinger for segmenter.
+services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
-ms.search.forms: 5139,
-ms.date: 04/01/2021
+ms.date: 10/01/2019
 ms.author: jswymer
-ms.openlocfilehash: 792b2172a96287732e9ae81c8af5fd6ba5aeccf7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d30294d3d164ebbb6ea8b79ca38f23274900de5e
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131408"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2308983"
 ---
 # <a name="manage-interactions-for-segments"></a>Administrere samhandlinger for segmenter
 Siden **Segment** er en type forslag der du kan:
@@ -51,6 +52,3 @@ På siden **Loggførte segmenter** kan du avgjøre om du vil opprette et oppføl
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Opprette og administrere kontakter](marketing-contacts.md)  
 [Arbeide med Business Central](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

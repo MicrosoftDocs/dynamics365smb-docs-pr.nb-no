@@ -1,27 +1,28 @@
 ---
-title: Endre årlig beløp på servicekontrakter eller kontrakttilbud
+title: Endre årlig beløp på servicekontrakter eller kontrakttilbud | Microsoft-dokumentasjon
 description: Du kan endre beløpet som vil bli fakturert årlig for servicekontrakten eller servicekontrakttilbud.
 author: bholtorf
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2019
 ms.author: bholtorf
-ms.openlocfilehash: c131e7b93a73bbcc0a7977f11e70518961b77134
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f34aec769a1b850eb14dcc9a5310274e0b82b375
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134954"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2311743"
 ---
 # <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Endre årlig beløp på servicekontrakter eller kontrakttilbud
 Du kan endre årlig beløp i servicekontrakten eller kontrakttilbudet for å rette beløpet som skal faktureres hvert år.  
 
 ## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Slik endrer du årlig beløp på servicekontrakten eller kontrakttilbudet  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Servicekontrakter** eller **Servicekontrakttilbud**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicekontrakter** eller **Servicekontrakttilbud**, og velg deretter den relaterte koblingen.  
 2. Velg kontrakten eller kontrakttilbudet.  
 3. Velg handlingen **Åpne kontakt** for å åpne kontrakten eller kontrakttilbudet for redigering.  
 4. Merk av for **Tillat beløp som ikke er i balanse** hvis du vil endre årlig beløp og fordele differansen i årlig beløp manuelt på kontraktlinjene. Hvis ikke, fjerner du merket for å fordele differansen i årlig beløp automatisk på kontraktlinjene når du har endret årlig beløp.  
@@ -79,7 +80,45 @@ Hvis du endrer årlig beløp på servicekontrakten eller kontrakttilbudet, vil d
     * Linjerabatt-% = Linjerabattbeløp / Linjeverdi * 100.  
     * Fortjeneste = Linjebeløp - Linjekostnad  
 
+### <a name="distribution-based-on-line-amount"></a>Distribusjon basert på linjebeløp
+Hvis du endrer årlig beløp på servicekontrakten eller kontrakttilbudet, vil du kanskje fordele differansen mellom det nye og det beregnede beløpet på kontraktlinjene. Fordeling basert på linjebeløp er en automatiske metode som kan hjelpe deg å fordele differansen mellom nytt og beregnet årlig beløp, på linjebeløpene på kontraktlinjene. Denne fordelingen utføres proporsjonalt med linjebeløpsandelen i det beregnede årlige beløpet. Følgende oversikt over fordelingsbehandlingen for hver kontraktlinje, beskriver hovedtanken bak denne metoden:  
+
+1. Prosentfordeling etter linjebeløp beregnes slik: Innholdet i feltet **Linjebeløp** divideres med summen av feltverdiene i **Beregnet årlig beløp** på alle kontraktlinjer.  
+2. Feltverdien i **Linjebeløp** oppdateres ved addisjon av differansen mellom det nye årlige beløpet og det beregnede årlige beløpet. Deretter multipliseres det med prosentfordelingen for linjebeløp.  
+3. Innholdet i feltene **Linjerabattbeløp**, **Linjerabatt-%** og **Bruttofortjeneste** oppdateres i henhold til den nye verdien i feltet **Linjerabattbeløp**, på følgende måte:  
+
+    * Linjerabattbeløp = Linjeverdi - Linjebeløp  
+    * Linjerabatt-% = Linjerabattbeløp / Linjeverdi * 100.  
+    * Fortjeneste = Linjebeløp - Linjekostnad  
+
 Trinnene gjentas for hver kontraktlinje.  
+
+#### <a name="example"></a>Eksempel  
+Det er ikke merket av for **Tillat beløp som ikke er i balanse** i servicekontrakten som har tre kontraktlinjer med slik informasjon.  
+
+|Vare|Linjekostnad|Linjeverdi|Linjerabatt-%|Linjerabattbeløp|Linjebeløp|Bruttofortjeneste|  
+|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
+|Vare 1|15,00|17,00|3,00|0,51|25,00|1,49|  
+|Vare 2|20,00|23,00|Ingen|0,00|55,10|3,00|  
+|Vare 3|24,00|27,00|3,00|0,81|112,70|2,19|  
+
+Verdien i feltet **Årlig beløp** er lik den i feltet **Beregnet årlig beløp**, som alltid er lik summen av linjebeløpene. I dette tilfellet er det lik følgende: 16,49 + 23,00 + 26,19 = 65,68.  
+
+Hvis du endrer **Årlig beløp** til 60, beregnes prosentfordelingen av bruttofortjenesten for hver kontraktlinje:  
+
+* Vare 1 – 5 / (5 + 5,1 +12,7) = 0,2193 %  
+* Vare 2 – 5,1 / (5 + 5,1 + 12,7) = 0,2237  
+* Vare 3 – 12.7 / (5 + 5,1 +12,7) = 0,557 %  
+
+Verdien i feltet **Linjebeløp** oppdateres på hver kontraktlinje ved bruk av følgende formel: Linjebeløp = Linjebeløp + differansen mellom nytt og beregnet årlig beløp * Prosentfordeling. Deretter oppdateres feltverdiene i **Linjerabattbeløp**, **Linjerabatt-%** og **Bruttofortjeneste** ved bruk av formelen som er beskrevet i fremgangsmåten ovenfor.  
+
+Til slutt viser kontraktlinjene disse dataene.  
+
+|Vare|Linjekostnad|Linjeverdi|Linjerabatt-%|Linjerabattbeløp|Linjebeløp|Bruttofortjeneste|  
+|----------|---------------|----------------|---------------------|--------------------------|-----------------|------------|  
+|Vare 1|15,00|17,00|11,41|1,94|15,06|0,06|  
+|Vare 2|20,00|23,00|8.65|1.99|21.01|1.01|  
+|Vare 3|24.00|27.00|11.37|3.07|23.93|-0,07|  -   Linjerabatt-% = Linjerabattbeløp / Linjeverdi * 100.  
 
 #### <a name="example"></a>Eksempel  
 Det er ikke merket av for **Tillat beløp som ikke er i balanse** i servicekontrakten som har tre kontraktlinjer med slik informasjon.  
@@ -149,6 +188,3 @@ Til slutt viser kontraktlinjene disse dataene.
 ## <a name="see-also"></a>Se også  
 [Opprette servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

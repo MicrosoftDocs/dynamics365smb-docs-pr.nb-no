@@ -2,19 +2,20 @@
 title: Gjøre rede for kostnader | Microsoft-dokumentasjon
 description: Kostregnskap brukes til å hjelpe deg med å forstå kostnadene ved å drive et selskap. Se følgende emner for å komme i gang med kostregnskap.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: c22248b9f81837cfaf52717314d7981a64ede8c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 69f39226c5fcca8adf9843bad42a2f060e7386d8
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148639"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3781063"
 ---
 # <a name="accounting-for-costs"></a>Gjøre rede for kostnader
 Kostregnskap brukes til å hjelpe deg med å forstå kostnadene ved å drive et selskap. Se følgende emner for å komme i gang med kostregnskap.  
@@ -34,7 +35,4 @@ Kostregnskap brukes til å hjelpe deg med å forstå kostnadene ved å drive et 
 ## <a name="see-also"></a>Se også  
 [Finans](finance.md)  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

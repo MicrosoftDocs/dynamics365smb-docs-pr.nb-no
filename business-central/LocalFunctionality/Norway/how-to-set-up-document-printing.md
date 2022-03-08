@@ -2,19 +2,20 @@
 title: Definere dokumentutskrift
 description: I Business Central kan du skrive ut salgsrapportene som bruker de nødvendige girospesifikasjonene, ved bruk av forskjellige papirtyper og -skuffer.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 648023ff9b5ea82e81ba7944a1c29b993a992356
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cecdc4bc748d2d96f9d46e8d53755780eaec2404
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148890"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4752451"
 ---
 # <a name="set-up-document-printing"></a>Definere dokumentutskrift
 I [!INCLUDE[prod_short](../../includes/prod_short.md)] kan du skrive ut salgsrapportene som bruker de nødvendige girospesifikasjonene, ved bruk av forskjellige papirtyper og -skuffer.  
@@ -40,7 +41,7 @@ Den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)] inn
 
 ## <a name="to-set-up-paper-trays"></a>Slik definerer du papirskuffer:  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Skrivervalg**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Skrivervalg**, og velg deretter den relaterte koblingen.  
 2.  Velg rapporten.  
 3.  Velg handlingen **Salgsdok.arkskuff - oppsett**.  
 4.  Velg en papirkilde i **Første side - papirkilde**-feltet.  
@@ -56,6 +57,3 @@ Den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)] inn
 ## <a name="see-also"></a>Se også  
   [Norsk giro og OCR-B-skrift](norwegian-giro-and-ocr-b-font.md)   
  [Opprette KID-numre på salgsdokumenter](how-to-set-up-kid-numbers-on-sales-documents.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

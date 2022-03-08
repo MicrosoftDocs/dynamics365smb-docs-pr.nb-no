@@ -1,24 +1,24 @@
 ---
-title: Flytte kundedata
-description: Du kan overføre eksisterende kundedata fra et eksisterende system til Business Central ved å bruke RapidStart Services – eller bare skrive det direkte inn i selskapet.
+title: Flytte kundedata | Microsoft-dokumentasjon
+description: Du kan flytte eksisterende kundedata fra et eksisterende ERP-system til Business Central ved å bruke RapidStart Services. Du kan bruke Excel XLSX-filer som databærer. Du kan også flytte dataene manuelt ved å skrive dem inn direkte i selskapet.
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1799, 1807, 8632, 1800, 1340
-ms.date: 02/18/2022
+ms.search.keywords: ''
+ms.date: 04/01/2020
 ms.author: edupont
-ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 33d5caec7086d12b9a2450fc36224987c5a97642
+ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335373"
+ms.lasthandoff: 09/09/2020
+ms.locfileid: "3783529"
 ---
 # <a name="migrate-customer-data"></a>Flytte kundedata
-
-Du kan flytte eksisterende kundedata fra et eksisterende ERP-system til [!INCLUDE[prod_short](includes/prod_short.md)] ved å bruke verktøyene for dataflytting i RapidStart Services. Du kan bruke Excel-filer som databærer. Du kan også flytte dataene manuelt ved å skrive dem inn direkte i selskapet. Du kan også bruke veiledningen **Skyoverføring** til å flytte data. Hvis du vil ha mer informasjon, kan du se [Overfør data](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administratorinnholdet.
+Du kan flytte eksisterende kundedata fra et eksisterende ERP-system til [!INCLUDE[d365fin](includes/d365fin_md.md)] ved å bruke verktøyene for dataflytting i RapidStart Services. Du kan bruke Excel-filer som databærer. Du kan også flytte dataene manuelt ved å skrive dem inn direkte i selskapet.
 
 > [!NOTE]
 > Felt av typen blob kan ikke eksporteres/importeres i Excel.
@@ -41,7 +41,7 @@ Før du begynner, må du kontrollere at du har tillatelse til å kjøre RapidSta
 > Tabeller som har forskjellige primærnøkler og felt med ulike datatyper, blir heller ikke importert. Hvis konfigurasjonspakken inneholder en tabell, for eksempel **50000-kunden**, som har primærnøkkelen **Kode20**, og databasen du importerer pakken til, som inneholder tabellen **Bankkonto for 50000-kunde**, som har primærnøkkelen **Kode20 + Kode20**, importeres ikke dataene.  
 
 1. Åpne det nye selskapet.  
-2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
+2. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 3. Velg handlingen **Importer pakke**. Gå til .rapidstart-pakkefilen du vil importere, og velg deretter den **Åpne**-handlingen. Under import dekomprimeres innholdet i pakken og pakkeposten opprettes.  
 
     Når importen er fullført, kan du se hvor mange konfigurasjonstabeller som er importert, i feltet **Antall tabeller**.  
@@ -62,7 +62,7 @@ Du kan opprette nye dataoverføringsfiler og tilpasse dem for å støtte forretn
 > [!TIP]
 > En fil kan bare brukes til å flytte et felt der **Normal** er angitt for **FieldClass**-egenskapen.  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonspakke**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakke**, og velg deretter den relaterte koblingen.  
 2. Velg og åpne pakken som du vil bruke til å flytte data, og velger deretter **Hent tabeller**-handlingen. Siden **Hent pakketabeller** åpnes.  
 3. Skriv inn et tabellnummer i **Tabell-ID**-feltet, eller velg en tabell fra listen, for eksempel tabell 18, **Kunde**. Feltet **Tabellnavn** fylles ut automatisk.  
 4. Velg den nye flyttingsstabellen, og deretter, i fanen **Tabeller**, velger du **Felt**-handlingen. Siden **Flyttingsfelt** åpnes.  
@@ -78,7 +78,7 @@ Det opprettes en ny flyttingstabell.
 ## <a name="to-export-data-migration-files"></a>Slik eksporterer du dataflyttingsfiler:
 Når du har bestemt hvilke tabeller du vil overføre kundedata til, eksporterer du filene.  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 2. Velg og åpne pakken du vil bruke til eksport.
 3. Velg tabellen eller tabellene som du vil eksportere, og velg deretter den **Eksporter til Excel**-handlingen.
 4. Lagre den eksporterte Excel-filen.  
@@ -87,19 +87,19 @@ Når du har bestemt hvilke tabeller du vil overføre kundedata til, eksporterer 
 Hvis tabellen er tom, den resulterende dataflyttingsfilen inneholder tomme celler for feltene du valgte da du valgte eller opprettet flyttingstabeller for det nye selskapet. Hvis den valgte dataflyttingstabellen inneholder data, eksporteres de.  
 
 ## <a name="to-map-values-to-be-used-during-import"></a>Tilordne verdiene som skal brukes under import
-Når du bruker data som du har importert fra Excel eller fra en RapidStart-pakke, vil [!INCLUDE[prod_short](includes/prod_short.md)] behandle og håndtere tilordningen basert på tabellrelasjoner:  
+Når du bruker data som du har importert fra Excel eller fra en RapidStart-pakke, vil [!INCLUDE[d365fin](includes/d365fin_md.md)] behandle og håndtere tilordningen basert på tabellrelasjoner:  
 
-- Hvis du definerer en tilordning direkte for et felt i en tabell, brukes denne tilordningen i [!INCLUDE[prod_short](includes/prod_short.md)].  
+- Hvis du definerer en tilordning direkte for et felt i en tabell, brukes denne tilordningen i [!INCLUDE[d365fin](includes/d365fin_md.md)].  
 
-- Hvis feltet har en relasjon til en annen tabell, søker [!INCLUDE[prod_short](includes/prod_short.md)] etter tilordningen som er definert for primærnøkkelfeltet i den relaterte tabellen. Den relaterte tabellen må imidlertid være en del av konfigurasjonspakken.  
+- Hvis feltet har en relasjon til en annen tabell, søker [!INCLUDE[d365fin](includes/d365fin_md.md)] etter tilordningen som er definert for primærnøkkelfeltet i den relaterte tabellen. Den relaterte tabellen må imidlertid være en del av konfigurasjonspakken.  
 
-- Hvis tilordningsinformasjon er definert begge steder, for feltet direkte og for primærnøkkelen i den relaterte tabellen, søker [!INCLUDE[prod_short](includes/prod_short.md)] etter tilordningen begge steder.  
+- Hvis tilordningsinformasjon er definert begge steder, for feltet direkte og for primærnøkkelen i den relaterte tabellen, søker [!INCLUDE[d365fin](includes/d365fin_md.md)] etter tilordningen begge steder.  
 
 - Hvis de samme tilordningene er definert direkte for et felt og i den relaterte tabellen, men har ulike nye verdier, prioriteres tilordningen som er definert direkte for feltet, fremfor tilordningen som er definert for tabellen som feltet refererer til.  
 
-I fremgangsmåtene nedenfor bør du på forhånd se gjennom hvilke verdier du vil beholde under overføringsprosessen. Hvis du vil utføre følgende fremgangsmåte, trenger du dataflyttingsfiler (XLSX) som du har eksportert fra [!INCLUDE[prod_short](includes/prod_short.md)]. Se [Slik eksporterer du dataflyttingsfiler](admin-migrate-customer-data.md#to-export-data-migration-files).
+I fremgangsmåtene nedenfor bør du på forhånd se gjennom hvilke verdier du vil beholde under overføringsprosessen. Hvis du vil utføre følgende fremgangsmåte, trenger du dataflyttingsfiler (XLSX) som du har eksportert fra [!INCLUDE[d365fin](includes/d365fin_md.md)]. Se [Slik eksporterer du dataflyttingsfiler](admin-migrate-customer-data.md#to-export-data-migration-files).
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.
 2. Åpne pakken for det aktuelle selskapet.  
 3. Velg tabellen du vil tilordne verdier for, og velg deretter fanen **Tabeller** og **Felt**-handlingen.  
 4. For hvert felt du vil tilordne velger du **Tilordning**-handlingen.  
@@ -110,16 +110,16 @@ I fremgangsmåtene nedenfor bør du på forhånd se gjennom hvilke verdier du vi
 9. Hvis du vil bruke tilordningen som du har definert, kan du velge **Bruk Data**-handlingen.  
 
 ### <a name="mapping-example"></a>Eksempel på tilordning  
-Følgende eksempel illustrerer hvordan [!INCLUDE[prod_short](includes/prod_short.md)] implementerer tilordningsdefinisjoner.  
+Følgende eksempel illustrerer hvordan [!INCLUDE[d365fin](includes/d365fin_md.md)] implementerer tilordningsdefinisjoner.  
 
 1. Opprett en konfigurasjonstabell som har tabellen **Selger/innkjøper**. Definer en tilordning for **Kode**-feltet.  
 2. Legg til flere tabeller i pakken, for eksempel **Kunde** og **Leverandør**. Begge disse tabellene refererer til tabellen **Selger/innkjøper** via henholdsvis feltet **Selgerkode** og **Innkjøperkode**.  
 3. Når du bruker data, blir det også tatt hensyn til tilordningen du har angitt for **Kode**-feltet i tabellen **Selger/innkjøper**, under behandlingen av feltene **Selgerkode** og **Innkjøperkode**.
 
-## <a name="to-add-additional-values-to-prod_short"></a>Legge til flere verdier i [!INCLUDE[prod_short](includes/prod_short.md)]  
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
+## <a name="to-add-additional-values-to-d365fin"></a>Legge til flere verdier i [!INCLUDE[d365fin](includes/d365fin_md.md)]  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konfigurasjonspakker**, og velg deretter den relaterte koblingen.  
 2. Velg tabellen du vil legge til flere verdier for, og velg deretter fanen **Tabeller** og **Felt**-handlingen.  
-3. Merk av for **Opprett manglende koder** for feltene som [!INCLUDE[prod_short](includes/prod_short.md)] skal tillate ytterligere verdier for under overføringen.  
+3. Merk av for **Opprett manglende koder** for feltene som [!INCLUDE[d365fin](includes/d365fin_md.md)] skal tillate ytterligere verdier for under overføringen.  
 4. Importer kundedataene. Hvis du vil ha mer informasjon, kan du se [Slik importerer du kundedata](admin-migrate-customer-data.md#to-import-customer-data).
 
 ## <a name="to-clean-up-and-process-data-before-applying-data"></a>Rydde og behandle data før du bruker data
@@ -142,7 +142,7 @@ Hvis du trenger hjelp med XML, aktiverer du fanen **Utvikler** på Excel-båndet
 Følgende fremgangsmåte er basert på et Excel-regneark som du har opprettet for overføring. Se [Slik eksporterer du dataflyttingsfiler](admin-migrate-customer-data.md#to-export-data-migration-files).
 
 > [!IMPORTANT]  
-> Ikke endre kolonnene i Excel-regnearkene. Hvis du flytter, endrer eller sletter dem, kan ikke regnearket importeres til [!INCLUDE[prod_short](includes/prod_short.md)].
+> Ikke endre kolonnene i Excel-regnearkene. Hvis du flytter, endrer eller sletter dem, kan ikke regnearket importeres til [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Åpne den eksporterte datafilen i Excel. Det finnes et forslag med tabellnavnet.
 2. Gi nytt navn til Ark1 for å indikere at regnearket skal brukes til å transformere dataene. Kopier overskriftsraden uten formateringen fra den eksporterte tabellen til det nye forslaget.
@@ -151,10 +151,10 @@ Følgende fremgangsmåte er basert på et Excel-regneark som du har opprettet fo
 5. Når du har tilordnet alle dataene, kan du kopiere dataområdet til tabellregnearket.
 6. Lagre filen og kontroller at du ikke endrer filtypen.
 
-Du er nå klar til å importere dataoverføringsfilene som inneholder eldre kundedata, til [!INCLUDE[prod_short](includes/prod_short.md)].
+Du er nå klar til å importere dataoverføringsfilene som inneholder eldre kundedata, til [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 ## <a name="to-import-customer-data"></a>Slik importerer du kundedata
-Når kundedataene er angitt i dataoverføringsfilene i Excel, importerer du filene til [!INCLUDE[prod_short](includes/prod_short.md)].
+Når kundedataene er angitt i dataoverføringsfilene i Excel, importerer du filene til [!INCLUDE[d365fin](includes/d365fin_md.md)].
 
 1. Åpne siden **Konfigurer pakkekort**.
 2. Velg tabellen du vil importere verdier for, og velg deretter fanen **Tabeller** og **Importer fra Excel**-handlingen.
@@ -167,7 +167,7 @@ Når kundedataene er angitt i dataoverføringsfilene i Excel, importerer du file
 Data fra filen importeres til konfigurasjonspakketabellene. I feltet **Antall pakkeposter** kan du se hvor mange databaseposter som er importert. I tillegg kan du vise antall feil under flyttingen.
 
 ## <a name="to-validate-customer-data"></a>Slik bekrefter du kundedata:
-Kundedata må valideres før du utligner postene i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen.  
+Kundedata må valideres før du utligner postene i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
 
 > [!NOTE]  
 >  I de fleste tilfeller opprettes ikke ugyldige data i databasen. Programmet kan imidlertid av og til blokkeres hvis en importert flyttingstabell inneholder feil.  
@@ -184,7 +184,7 @@ Når du foretar en korrigering, fjernes posten fra listen over poster på siden 
 Du er nå klar til å bruke kundens data i databasen.  
 
 ## <a name="to-apply-customer-data"></a>Slik bruker du kundedata:
-Når du har importert alle dataoverføringsposter som er gyldige og ikke inneholder feil, kan du bruke postene i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen.  
+Når du har importert alle dataoverføringsposter som er gyldige og ikke inneholder feil, kan du bruke postene i [!INCLUDE[d365fin](includes/d365fin_md.md)]-databasen.  
 
 1. Åpne siden **Konfigurasjonspakker**.  
 2. Velg tabellen for dataoverføringsfilen du vil bruke, og velg deretter handlingen **Bruk data**.
@@ -196,6 +196,3 @@ Kundens firmadatabasen er nå konfigurert, og grunnleggende data er importert. N
 ## <a name="see-also"></a>Se også  
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]

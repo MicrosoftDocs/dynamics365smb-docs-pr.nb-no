@@ -1,21 +1,23 @@
 ---
-title: Analysere data etter dimensjoner
-description: Dette emnet beskriver hvordan du analyserer ulike forretningsdata etter dimensjoner. Dimensjoner gir deg større innsikt i bedriften din, slik at du kan vurdere informasjon.
-author: edupont
-ms.topic: conceptual
+title: Analysere data etter dimensjoner | Microsoft-dokumentasjon
+description: Beskriver hvordan du analyserer ulike forretningsdata etter dimensjoner.
+services: project-madeira
+documentationcenter: ''
+author: SorenGP
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bi, power BI, analysis, KPI
-ms.search.form: 555, 556, 557, 558, 9372, 9370, 9371
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: ca377898f9dd49a55ec9113fc020054288c33910
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 59624b1308d8a8d4fda78d440a48d4138a687691
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335061"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1247539"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysere data etter dimensjoner
 I finansanalyse er en dimensjon data du kan legge til i en post som et slags merke. Disse dataene brukes til å gruppere poster med de samme egenskapene, for eksempel kunder, regioner, produkter og selgere, og på en enkel måte få tak i disse gruppene i analyser. Dimensjoner kan brukes på poster i kladder, dokumenter og budsjetter. Begrepet dimensjon beskriver hvordan analyser utføres. En todimensjonal analyse er for eksempel salg per område. Hvis du imidlertid bruker mer enn to dimensjoner når du oppretter en post, kan du utføre en mer omfattende analyse, for eksempel salg per salgskampanje per kundegruppe per område. Hvis du vil ha mer informasjon, kan du se [Arbeide med dimensjoner](finance-dimensions.md).
@@ -25,13 +27,10 @@ Analyse av data etter dimensjoner gir deg større innsikt i forretningsdriften, 
 > [!TIP]
 > Som en rask måte å analysere transaksjonsdata etter dimensjoner, kan du filtrere totalene i kontoplanen og postene i alle **Poster**-sider per dimensjon. Se etter handlingen **Angi dimensjonsfilter**.
 
-> [!NOTE]
-> Hvis du oppdager at en feil dimensjon er blitt brukt i bokførte finansposter, kan du korrigere dimensjonsverdiene og oppdatere analysevisningene. Hvis du vil ha mer informasjon, kan du se [Feilsøke og korrigere dimensjoner](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
-
 ## <a name="to-set-up-an-analysis-view"></a>Slik setter du opp en analysevisning  
 En analyse per dimensjoner viser et utvalg kombinasjoner av dimensjoner. Du kan lagre og hente fram hver analyse du har opprettet. Informasjonen som brukes til å definere en analyse, er lagret på et **Analysevisning**-kort for å forenkle fremtidige analyser.  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Analysevisninger**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Analysevisninger**, og velg deretter den relaterte koblingen.  
 2. På siden **Analysevisningsoversikt** velger du handlingen **Ny**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Hvis du vil legge til flere dimensjonskoder i tillegg til de fire kodene i hurtigfanen **Dimensjoner**, velger du handlingen **Filtrer**, og deretter velger du **OK**.  
@@ -40,7 +39,7 @@ En analyse per dimensjoner viser et utvalg kombinasjoner av dimensjoner. Du kan 
 ## <a name="to-analyze-by-dimensions"></a>Analysere etter dimensjoner
 Du kan bruke matrisen **Analyse per dimensjon** til å vise beløpene i Finans ved å bruke analysevisningene du allerede har definert. Du fyller ut på siden **Analyse per dimensjon** for å definere hva som skal vises i matrisen, og deretter velger du handlingen **Vis matrise** for å vise matrisen.  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Analysevisninger**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Analysevisninger**, og velg deretter den relaterte koblingen.  
 2. Velg den relevante analysevisningen, og velg deretter handlingen **Analyse per dimensjon**.
 3. På siden **Analyse per dimensjon** fyller du ut feltene for å definere dataene som skal vises, og hvordan.
 4. Velg handlingen **Vis matrise** for å åpne den respektive matrisesiden for den definerte analysevisningen.
@@ -63,7 +62,7 @@ Beløpene som vises på siden **Analyse per dimensjon**, gir deg oversikt over s
 
 Følgende fremgangsmåte gjelder hvis du vil oppdatere en analysevisning fra siden **Analyse per dimensjoner**. Fremgangsmåten ligner den fra sidene **Analysevisningskort** og **Analysevisningsoversikt**.  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Analysevisninger**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Analysevisninger**, og velg deretter den relaterte koblingen.
 2. Velg den relevante analysevisningen, og velg deretter handlingen **Analyse per dimensjon**.
 2. På siden **Analyse per dimensjon** velger du feltet **Analysevisningskode**.  
 3. Velg linjen med den relevante analysevisningen.  
@@ -75,15 +74,10 @@ Følgende fremgangsmåte gjelder hvis du vil oppdatere en analysevisning fra sid
 > [!NOTE]  
 >   Hvis du vil oppdatere noen av eller alle analysevisningene samtidig, må du bruke kjørselen **Oppdater analysevisninger**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index)
-
 ## <a name="see-also"></a>Se også
 [Forretningsintelligens](bi.md)  
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Finans og kontoplanen](finance-general-ledger.md)  
 [Arbeide med dimensjoner](finance-dimensions.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

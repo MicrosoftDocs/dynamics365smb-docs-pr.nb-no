@@ -2,6 +2,7 @@
 title: Optimalisering av Outlook for innboks for virksomheten
 description: Lær om ting du kan gjøre for å forbedre opplevelsen med innboksen for virksomhet i Microsoft Outlook.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +10,12 @@ ms.workload: na
 ms.search.keywords: Outlook, Microsoft 365, inbox, business inbox, WebView2, Edge, addin, add-in
 ms.date: 05/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 1726162e25b3a488df0d179c702c9c99afcc5c91
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2fee1782057d0f45319e4d12d715c2e1e0d3d4a6
+ms.sourcegitcommit: 61e279b253370cdf87b7bc1ee0f927e4f0521344
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143975"
+ms.lasthandoff: 05/19/2021
+ms.locfileid: "6064859"
 ---
 # <a name="optimizing-outlook-for-your-business-inbox"></a>Optimalisering av Outlook for innboks for virksomheten 
 
@@ -49,7 +50,7 @@ Hvis du vil kontrollere om du har Microsoft Edge WebView2 installert på en data
 
 Fra Start-menyen:
 
-1. Velg **Start** ![Windows-start.](media/windows-start-icon.png "Windows Start-ikon") > **Innstillinger** ![Windows-innstillinger](media/windows-settings-icon.png "Ikon for Windows-innstillinger") > **Apper og funksjoner**.
+1. Velg **Start** ![Windows Start](media/windows-start-icon.png "Windows Start-ikon") > **Innstillinger** ![Windows-innstillinger](media/windows-settings-icon.png "Ikon for Windows-innstillinger") > **Apper og funksjoner**.
 2. Skriv inn **WebView2** i søkefeltet. Hvis Microsoft Edge WebView2 er installert, vises en oppføring kalt **Microsoft Edge WebView2 Runtime**.
 
 Fra kontrollpanel:

@@ -2,19 +2,20 @@
 title: Send remitteringsønske-utvidelsen | Microsoft-dokumentasjon
 description: Beskriver Send remitteringsønske-utvidelsen, som tillater at remitteringsønsker sendes via e-post og sendes på nytt fra utbetalingskladden og leverandørposter.
 author: edupont04
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, add-in, manifest, customize, stream, remittance, advice
-ms.date: 07/06/2021
+ms. search.keywords: app, add-in, manifest, customize, stream, remittance, advice
+ms.date: 10/01/2020
 ms.author: edupont
-ms.openlocfilehash: 256744599bcf30a6386ed5ef74b815e959b3b2bb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ae8d131b714b0d7ffb60727d1a991cd6e4ab692
+ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132501"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4757070"
 ---
 # <a name="send-remittance-advice"></a>Sende remitteringsønske
 
@@ -33,14 +34,4 @@ Du kan sende remitteringsønske på to ulike måter:
 [Betalingsforslag - leverandør](payables-how-suggest-vendor-payments.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Send dokumenter i e-post](ui-how-send-documents-email.md)  
-[Elektronisk pengeoverføring (EFT) i den australske versjonen](localfunctionality/australia/electronic-funds-transfer-eft-.md)  
-[Foreta elektroniske betalinger (CA)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
-[Elektronisk pengeoverføring (EFT) i versjonen for New Zealand](localfunctionality/newzealand/electronic-funds-transfer-eft-.md)  
-[Lokal funksjonalitet for New Zealand](localfunctionality/newzealand/new-zealand-local-functionality.md)  
-[Lokal funksjonalitet for Storbritannia i den britiske versjonen](localfunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
-[Skriv ut remitteringsoppdrag i den britiske versjonen](localfunctionality/unitedkingdom/how-to-print-remittance-advice.md)  
-[Foreta elektroniske betalinger (USA)](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  
-  
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Sende dokumenter i e-post](ui-how-send-documents-email.md)  

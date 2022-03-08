@@ -1,20 +1,21 @@
 ---
-title: Legge til felt i et Word-rapportoppsett
-description: Dette emnet beskriver hvordan du legger til felt i et rapportdatasett i et eksisterende Word-rapportoppsett for en rapport.
+title: Legge til felt i et Word-rapportoppsett | Microsoft-dokumentasjon
+description: Beskriver hvordan du legger til felt i et rapportdatasett i et eksisterende Word-rapportoppsett for en rapport.
 author: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 11/25/2021
+ms.date: 10/01/2020
 ms.author: jswymer
-ms.openlocfilehash: 036b6964b8a0e468bdfc4d2f3e44824b3daac9ee
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8dc64aeb028fdbc964bb7124f578014d3e6f0cde
+ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144726"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5393882"
 ---
 # <a name="add-fields-to-a-word-report-layout"></a>Legge til felt i et Word-rapportoppsett
 Et rapportdatasett kan bestå av felt som viser etiketter, data og bilder. Dette emnet beskriver fremgangsmåten for å legge til felt i et rapportdatasett i et eksisterende Word-rapportoppsett for en rapport. Du legger til felt ved hjelp av den egendefinerte XML-delen for Word for rapporten og ved å legge til innholdskontroller som tilordnes til feltene i rapportdatasettet. Når du skal legge til feltene, må du ha noe kjennskap til rapportens datasett, slik at du kan identifisere hvilke felt du vil legge til i oppsettet.  
@@ -30,11 +31,11 @@ Et rapportdatasett kan bestå av felt som viser etiketter, data og bilder. Dette
   
 2.  Vis fanebladet **Utvikler** på båndet i Microsoft Word.  
   
-     Fanebladet **Utvikler** vises som standard ikke på båndet. Hvis du vil ha mer informasjon, kan du se [Vise fanebladet Utvikler på båndet](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
+     Fanebladet **Utvikler** vises som standard ikke på båndet. Hvis du vil ha mer informasjon, kan du se [Vise fanebladet Utvikler på båndet](https://go.microsoft.com/fwlink/?LinkID=389631).  
   
 3.  Velg **XML-tilordningsrute** i fanebladet **Utvikler**.  
   
-4.  I ruten **XML-tilordning**, i **Tilpass XML-del**-nedtrekkslisten, velger du den egendefinerte XML-delen for [!INCLUDE[prod_short](includes/prod_short.md)]-rapporten, som vanligvis er den siste i listen. Navnet på den egendefinerte XML-delen har følgende format:  
+4.  I ruten **XML-tilordning** i rullegardinlisten **Egendefinert XML-del** velger den egendefinerte XML-delen for ADD INCLUDE-rapporten,<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> som vanligvis er sist i oversikten. Navnet på den egendefinerte XML-delen har følgende format:  
   
      urn:microsoft-dynamics-nav/reports/*rapportnavn*/*ID*  
   
@@ -77,7 +78,7 @@ Et rapportdatasett kan bestå av felt som viser etiketter, data og bilder. Dette
  Bilder justeres etter øvre venstre hjørne i innholdskontrollen og får størrelsen endret automatisk slik at de passer i rammen rundt innholdskontrollen.  
   
 > [!IMPORTANT]  
->  Du kan bare legge til bilder som har et format som støttes av Word, for eksempel filtypene BMP, JPEG og PNG. Hvis du legger til et bilde med et format som ikke støttes av Word, får du en feilmelding når du kjører rapporten fra [!INCLUDE[prod_short](includes/prod_short.md)]-klienten.  
+>  Du kan bare legge til bilder som har et format som støttes av Word, for eksempel filtypene BMP, JPEG og PNG. Hvis du legger til et bilde med et format som ikke støttes av Word, får du en feilmelding når du kjører rapporten fra ADD INCLUDE<!--[!INCLUDE[prod_short](../../includes/prod_short.md)]--> -klienten.  
   
 #### <a name="to-add-an-image"></a>Legge til et bilde  
   
@@ -104,13 +105,13 @@ Tabellen nedenfor gir en forenklet oversikt over XML-filen for en egendefinert X
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Avsluttende element.|  
   
 ### <a name="custom-xml-part-in-word"></a>Egendefinert XML-del i Word  
- Åpne den egendefinerte XML-delen i ruten **XML-tilordning** i Word, og bruk deretter ruten til å tilordne elementer til innholdskontroller i Word-dokumentet. Ruten **XML-tilordning** er tilgjengelig i fanebladet **Utvikler**. (Hvis du vil ha mer informasjon, kan du se [Vise fanebladet Utvikler på båndet](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
+ Åpne den egendefinerte XML-delen i ruten **XML-tilordning** i Word, og bruk deretter ruten til å tilordne elementer til innholdskontroller i Word-dokumentet. Ruten **XML-tilordning** er tilgjengelig i fanebladet **Utvikler**. (Hvis du vil ha mer informasjon, kan du se [Vise fanebladet Utvikler på båndet](https://go.microsoft.com/fwlink/?LinkID=389631)).  
   
- Elementene i **XML-tilordning**-ruten vises i en struktur som ligner på XML-kilden. Etikettfelt er gruppert under et felles **Etiketter**-element, og dataelementer og kolonner er ordnet i en hierarkisk struktur som svarer til XML-kilden, med kolonner i alfabetisk rekkefølge. Elementer identifiseres ved kolonnenavn i henhold til rapportens datasett i AL-kode. Hvis du vil ha mer informasjon, kan du se [Definering av et rapportdatasett](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).  
+ Elementene i **XML-tilordning**-ruten vises i en struktur som ligner på XML-kilden. Etikettfelt er gruppert under et felles **Etiketter**-element, og dataelementer og kolonner er ordnet i en hierarkisk struktur som svarer til XML-kilden, med kolonner i alfabetisk rekkefølge. Elementer identifiseres ved navn i henhold til egenskapen Name i Report Dataset Designer i ADD INCLUDE<!--[!INCLUDE[nav_dev_short](../../includes/nav_dev_short_md.md)]-->.  
   
  Den følgende illustrasjonen viser den egendefinerte XML-delen fra forrige inndeling i **XML-tilordning**-ruten i et Word-dokument.  
   
- ![Klipp av ruten XML-tilordning i Word.](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
+ ![Klipp av ruten XML-tilordning i Word](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
 -   Hvis du vil legge til en etikett eller et felt i oppsettet, setter du inn en innholdskontroll som tilordnes til elementet i **XML-tilordning**-ruten.  
   

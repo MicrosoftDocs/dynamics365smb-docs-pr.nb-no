@@ -2,23 +2,22 @@
 title: Angi leverandører for remittering [NO]
 description: Norske forbedringer omfatter automatisk betaling til leverandører for å redusere feil som oppstår fra manuell dataregistrering.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 20b78d6fab737c4bfb4ff602e0bc3b8d52dea841
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 48bc0c007698356cf6acf2421eee6c28e6930532
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145065"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6438972"
 ---
 # <a name="set-up-vendors-for-remittance-in-the-norwegian-version"></a>Sett opp leverandører for remittering i den norske versjonen
-
 [!INCLUDE[prod_short](../../includes/prod_short.md)] inkluderer forbedringer i den norske versjonen for automatisk betaling til leverandører. Dette reduserer sjansen for at feil skal oppstå på grunn av manuell registrering av data. Du må angi leverandørinformasjon for å betale leverandører ved hjelp av remitteringssystemet.  
 
 ## <a name="to-set-up-a-vendor-for-remittance"></a>Slik angir du en leverandør for remittering  

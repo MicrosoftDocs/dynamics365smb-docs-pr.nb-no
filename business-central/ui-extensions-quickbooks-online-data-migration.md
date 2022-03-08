@@ -1,20 +1,21 @@
 ---
-title: Utvidelsen QuickBooks Online-datamigrering
+title: Utvidelsen QuickBooks Online-migrering | Microsoft Docs
 description: Beskriver hvordan du bruker utvidelsen til å overføre kunder, leverandører, varer og konti fra QuickBooks Online til Business Central.
 author: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms. search.keywords: extension, migrate, data, QuickBooks, import
-ms.date: 06/24/2021
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 235c3050eac4dac983f486f66fe9e837e9594c57
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6481eeb46116d02240c6f6a0201cb633f572822a
+ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146049"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5785013"
 ---
 # <a name="the-quickbooks-online-data-migration-extension"></a>Utvidelsen QuickBooks Online-datamigrering
 
@@ -53,7 +54,7 @@ Hvis transaksjoner i QuickBooks Online har mva-beløp, må du definere en mva-ko
 
 Det er enkelt å komme i gang. Alt du trenger å gjøre, er å kjøre den assisterte oppsettsveiledningen **Datamigrering**. Slik gjør du det:
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Assistert oppsett**, og velg deretter **Overfør forretningsdata**.
+1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Assistert oppsett**, og velg deretter **Overfør forretningsdata**.
 2. Følg instruksjonene for hvert trinn i den assisterte oppsettsveiledningen.
 
 ## <a name="what-do-i-do-after-i-migrate-data"></a>Hva gjør jeg etter at jeg har overført dataene?

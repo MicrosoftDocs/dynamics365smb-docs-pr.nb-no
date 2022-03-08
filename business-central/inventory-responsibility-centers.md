@@ -2,20 +2,20 @@
 title: Arbeid med ansvarssentre
 description: Ansvarssenter som administrative sentre hjelper selskaper med å sette opp brukerspesifikke visninger av salgs- og kjøpsdokumenter eksklusivt til hvert senter.
 author: SorenGP
+ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.forms: 5714, 5715
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 7ff1a7e75131a5a444acff796da339ec526c48c9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 62cfc68f8c5cfca3a152aa1de7054f872c47f911
+ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142032"
+ms.lasthandoff: 07/08/2021
+ms.locfileid: "6439388"
 ---
 # <a name="work-with-responsibility-centers"></a>Arbeide med ansvarssentre
 

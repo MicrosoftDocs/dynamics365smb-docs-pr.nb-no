@@ -1,23 +1,25 @@
 ---
-title: Registrer forbruksavgang for produksjonsordre
-description: Dette emnet forklarer hvordan du registrerer forbruk og avgang for en frigitt produksjonsordrelinje som vises på siden Produksjonskladd.
+title: Registrere forbruk og avgang for én produksjonsordre | Microsoft-dokumentasjon
+description: Denne kjøringsoppgaven utføres på **Produksjonskladd**-siden. Kladden kombinerer funksjonene fra separate forbrukskladder og ferdigmeldingskladder i én kladd. Den kombinerte kladden åpnes direkte fra en frigitt produksjonsordre. Hovedformålet er manuell bokføring av komponentforbruk, antall produserte sluttvarer og tiden som brukes på operasjoner.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5510
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 7fbb0d2c064df2b99fcbb58dde278ed8848f949f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.search.keywords: ''
+ms.date: 04/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: 640e04a51fe16fb531d533a8ff43710421fa6cb4
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137526"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1253059"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrere forbruk og avgang for én frigitt produksjonsordrelinje
-
 Denne kjøringsoppgaven utføres på **Produksjonskladd**-siden. Kladden kombinerer funksjonene fra separate forbrukskladder og ferdigmeldingskladder i én kladd. Den kombinerte kladden åpnes direkte fra en frigitt produksjonsordre. Hovedformålet er manuell bokføring av komponentforbruk, antall produserte sluttvarer og tiden som brukes på operasjoner. Verdiene bokføres i poster under den frigitte produksjonsordren. Forbruksantall bokføres som negative vareposter, avgangsantall bokføres som positive poster, og tidsforbruk bokføres som kapasitetsposter. Slike bokførte verdier kan også vises nederst i kladden som faktisk antall.  
 
 > [!NOTE]  
@@ -27,7 +29,7 @@ Denne kjøringsoppgaven utføres på **Produksjonskladd**-siden. Kladden kombine
 >  Komponenter uten rutekoblingskoder står oppført først i kladden.  
 
 ## <a name="to-register-consumption-and-output"></a>Slik registrerer du forbruk og avgang  
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Frigitte produksjonsordrer** og velg den relaterte koblingen.  
+1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Frigitte prod.ordrer**, og velg deretter den relaterte koblingen.  
 2.  Åpne en frigitt produksjonsordrelinje som er klar for registrering. På hurtigfanen **Linjer** velger du **Linje**-handlingen, og deretter velger du handlingen **Produksjonskladd**.  
 
     **Produksjonskladd**-siden åpnes med kladdelinjer for produksjonsordrelinjen i henhold til sidene **Prod.ordrekomponent** og **Prod.ordrerute**. Disse linjene stammer fra produksjonsstykklisten og ruten som er tilordnet varen som blir produsert. Hvis du vil ha mer informasjon, kan du se [Opprette produksjonsstykklister](production-how-to-create-routings.md).  
@@ -37,15 +39,15 @@ Denne kjøringsoppgaven utføres på **Produksjonskladd**-siden. Kladden kombine
     > [!NOTE]  
     >  Bokføringsdatoer som er angitt på individuelle linjer, vil overstyre dette feltet.  
 
-4.  I feltet **Filter for trekkmetode** øverst i kladden kan du også velge å vise forbruk og avgang som er bokført automatisk i henhold til trekkmetodene som er definert for henholdsvis varen og ressursen. Hvis du vil ha mer informasjon, kan du se [Aktivere lagertrekk av komponenter i henhold til operasjonsavgang](production-how-to-flush-components-according-to-operation-output.md).   
+4.  I feltet **Filter for trekkmetode** øverst i kladden kan du også velge å vise forbruk og avgang som er bokført automatisk i henhold til trekkmetodene som er definert for henholdsvis varen og ressursen.  
 
-5.  Fortsett med å angi det relevante forbruks- og avgangsantallet i de redigerbare feltene.  
-  
     For hver linjetype i kladden vises bare relevante felt. Resten er tomme og skrivebeskyttet.  
 
     Når kladden åpnes, er den forhåndsdefinert med antallene som skal bokføres. Hvis ingenting er bokført så langt, vil alle antallsfeltene som standard vise de forventede antallene fra produksjonsordren. Hvis delvise bokføringer er foretatt, vil antallsfeltene på linjene vise de gjenstående antallene. Antallene og tidene som allerede er bokført for ordren, vises som faktiske poster nederst i kladden.  
 
     Når det gjelder antallene i **Avgangsantall**-feltet, kan du definere hvilke verdier som skal forhåndsdefineres første gang kladden åpnes. Det gjør du fra **Produksjonsoppsett**-siden, hurtigfanen **Generelt**, i feltet **Forhåndsdefinert avgangsantall**.
+
+5.  Fortsett med å angi det relevante forbruks- og avgangsantallet i de redigerbare feltene.  
 
     > [!NOTE]  
     >  Bare avgangsmengden på den siste kladdelinjen for posttypen **Avgang** vil justere lagernivået ved bokføring av kladden. Derfor må du ikke bokføre kladden med det forventede avgangsantallet forhåndsdefinert på den siste avgangslinjen, før alle sluttvarene faktisk er produsert.  
@@ -56,7 +58,7 @@ Denne kjøringsoppgaven utføres på **Produksjonskladd**-siden. Kladden kombine
 Hvis det gjenstår verdier som skal bokføres, inneholder kladden de gjenstående verdiene neste gang den åpnes. Bokførte verdier vises som faktiske verdier nederst i kladden.  
 
 > [!NOTE]  
->  Hvis en vare som forbrukes, blir sperret, vil ikke kladden bokføre forbruksantall for varen. Hvis en maskin eller et arbeidssenter blir sperret, vil ikke kladden bokføre avgangsantall eller behandlingstider for den aktuelle avgangslinjen.  
+>   Hvis en vare som forbrukes, blir sperret, vil ikke kladden bokføre forbruksantall for varen. Hvis en maskin eller et arbeidssenter blir sperret, vil ikke kladden bokføre avgangsantall eller behandlingstider for den aktuelle avgangslinjen.  
 
 > [!NOTE]  
 >  Hvis du lukker kladden uten bokføring, vil endringene gå tapt.  
@@ -70,7 +72,4 @@ Hvis det gjenstår verdier som skal bokføres, inneholder kladden de gjenståend
 [Planlegging](production-planning.md)      
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

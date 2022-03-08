@@ -1,20 +1,21 @@
 ---
-title: Designdetaljer – Lageroversikt
-description: For å støtte den fysiske håndteringen av varer på sone- og hyllenivå må all informasjon spores for hver transaksjon eller flytting på lageret.
+title: Designdetaljer – Lageroversikt | Microsoft-dokumentasjon
+description: For å støtte den fysiske håndteringen av varer på sone- og hyllenivå må all informasjon spores for hver transaksjon eller flytting på lageret. Dette håndteres i **Lagerpost**-tabellen. Hver transaksjon lagres i en lagerjournal.
 author: SorenGP
-ms.topic: overview
+ms.service: dynamics365-business-central
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/15/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 95e6e88f1f448546a7c1b0e4e49d33e54c642932
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f1ecd1324df2433d31ff1480316a9e281ad5c5df
+ms.sourcegitcommit: 0953171d39e1232a7c126142d68cac858234a20e
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141258"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6215681"
 ---
 # <a name="design-details-warehouse-overview"></a>Designdetaljer: Lageroversikt
 For å støtte den fysiske håndteringen av varer på sone- og hyllenivå må all informasjon spores for hver transaksjon eller flytting på lageret. Dette håndteres i **Lagerpost**-tabellen. Hver transaksjon lagres i en lagerjournal.  
@@ -27,7 +28,7 @@ Når varebokføringer skjer utenfor lagermodulen, brukes en standard justeringsh
 
 Illustrasjonen nedenfor gir en oversikt over vanlig lagerflyter.  
 
-![Oversikt over lagerprosesser.](media/design_details_warehouse_management_overview.png "Oversikt over lagerprosesser")  
+![Oversikt over lagerprosesser](media/design_details_warehouse_management_overview.png "Oversikt over lagerprosesser")  
 
 ## <a name="basic-or-advanced-warehousing"></a>Grunnleggende eller avanserte lagerstyring  
 Lagerfunksjonaliteten i [!INCLUDE[prod_short](includes/prod_short.md)] kan implementeres på ulike kompleksitetsnivåer, avhengig av rutiner og ordrevolum i et selskap. Hovedforskjellen er at aktiviteter utføres ordre for ordre i grunnleggende lagerstyring, mens de konsolideres for flere ordrer i avansert lagerstyring.  

@@ -1,29 +1,30 @@
 ---
-title: Slette remitteringsoppdrag [NO]
-description: Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avsluttet regnskapsår.
+title: Slette remitteringsoppdrag
+description: Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avsluttet regnskapsår. En ordre er fullstendig ferdigbehandlet hvis ingen av betalingene på siden Ventekladd har statusen Sendt eller Godkjent.
+services: project-madeira
+documentationcenter: ''
 author: SorenGP
-ms.topic: conceptual
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
-ms.date: 06/18/2021
-ms.author: edupont
-ms.openlocfilehash: 94b87a160ca00f3469426b686bf1b9fd3fa5438f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/01/2019
+ms.author: sgroespe
+ms.openlocfilehash: e011f5db3227c5c0dfcc67691182dc69dc10684b
+ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147332"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "2301235"
 ---
-# <a name="delete-remittance-payment-orders-in-the-norwegian-version"></a>Slett remitteringsoppdrag i den norske versjonen
-
+# <a name="delete-remittance-payment-orders"></a>Slette remitteringsoppdrag
 Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avsluttet regnskapsår. En ordre er fullstendig ferdigbehandlet hvis ingen av betalingene på siden **Ventekladd** har statusen **Sendt** eller **Godkjent**.  
 
 ## <a name="to-delete-a-remittance-payment-order"></a>Slik sletter du et remitteringsoppdrag  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Slett remitteringsoppdrag**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Søk etter side eller rapport](../../media/ui-search/search_small.png "Søk etter side eller rapport"), angi **Slette remitteringsoppdrag**, og velg deretter den relaterte koblingen.  
 2.  På siden **Slett remitteringsoppdrag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Description|  
@@ -49,6 +50,3 @@ Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avslu
  [Remitteringsfeil](remittance-errors.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

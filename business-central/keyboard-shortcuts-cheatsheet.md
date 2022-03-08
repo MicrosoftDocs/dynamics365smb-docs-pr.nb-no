@@ -1,94 +1,29 @@
 ---
-title: Hurtigreferanse for tastatursnarveier for PC
-description: Et utskriftsvennlig referanseark som inneholder de mest vanlige tastatursnarveiene for PC-brukere.
-author: bholtorf
-ms.topic: conceptual
+title: Hurtigreferanse for tastatursnarveier
+description: Et utskriftsvennlig referanseark som inneholder de mest vanlige tastatursnarveiene.
+author: jswymer
+ms.service: dynamics365-business-central
+ms.topic: article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2021
-ms.author: bholtorf
-ms.openlocfilehash: 0e605470c312b93d7ebe7afde1c673bd57fb3615
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 04/01/2019
+ms.author: jswymer
+ms.openlocfilehash: f06e032aa1d16deb0dc312d02b88115c2c1c5399
+ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135240"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "1238098"
 ---
-# <a name="keyboard-quick-reference---pc-only"></a>Hurtigreferanse for tastatursnarveier – bare PC
+# <a name="pc-keyboard-shortcuts"></a>Tastatursnarveier for PC
 
-#### <a name="general"></a>Generelt
-
-|Trykk på disse tastene|Hvis du vil gjøre dette|  
-|-|-|
-|Alt+F2|Vis og skjul faktaboksruten|
-|Alt+N|Opprett en ny post|
-|Alt+Skift+N|Lukk en nylig opprettet post, og opprett en ny|
-|Alt+O|Legg til et nytt notat for den valgte posten|
-|Alt+Q|Åpne **Fortell meg**|
-|ALT+OPP|Åpne verktøytips eller valideringsfeil|
-|Alt+Pil ned|Åpne en rullegardinmeny eller slå opp|
-|Alt+T|Åpne siden **Mine innstillinger**|
-|Alt+Skift+W|Åpne gjeldende kort eller dokument i et nytt vindu|
-|Ctrl+Insert|Sett inn en ny linje i et dokument|
-|Ctrl-Delete|Slett linjen i et dokument, kladd og forslag.|
-|Ctrl+Shift+F12|Maksimer linjeelementdelen på en dokumentside|
-|Ctrl+F1|Åpne hjelpen for siden<br />Navigere når du tilpasser og egendefinerer|
-|Ctrl + klikk|Navigere når du tilpasser og egendefinerer|
-|Shift+F12|Åpne rolleutforskeren, en oversikt over funksjoner|
-|F5/Ctrl+F5|Oppdatere / laste inn side på nytt|
-|Tab/Skift+Tab|Flytte fokus til neste/forrige element|
-|F6/Skift+F6|Flytt til neste hurtigfane/del|
-
-#### <a name="navigate--select-rows"></a>Navigere og velge rader
-
-|Trykk på disse tastene|Hvis du vil gjøre dette|
-|-|-|
-|Home/End|Gå til første/siste felt|
-|Ctrl+Home/End |Gå til første/siste rad|
-|Ctrl+Opp/Ned|Navigere uten å tape merkingen|
-|Ctrl+A |Merke alt|
-|Ctrl+Mellomrom|Radvalg på/av|
-|Ctrl+Skift+Klikk|Legge til raden(e) i utvalget|
-|Skift+Opp/Ned|Legge til rad over/under utvalget|
-|Skift+PgUp/PgDn|Velge synlige rader over/under|
-|Ctrl+Enter|Fokuserer ut fra listen|
-
-#### <a name="copy--paste"></a>Kopier og lim inn
-
-|Trykk på disse tastene|Hvis du vil gjøre dette|
-|-|-|
-|Ctrl+C/V|Kopier / lim inn rader|
-|F8|Kopiere feltet over til gjeldende rad|
-
-#### <a name="search-filter--sort"></a>Søk, filtrer og sorter
-
-|Trykk på disse tastene|Hvis du vil gjøre dette|
-|-|-|
-|Alt+F7|Sorter kolonne i stigende/synkende rekkefølge|
-|F3|Slå søk på/av|
-|Shift+F3|Vise/skjule filtreringsruten. fokusere på feltfiltre|
-|Alt+F3|Filtrere på den valgte celleverdien|
-|Shift+Alt+F3|Legg til filter for valgt felt|
-|Ctrl+Alt+Skift+F3|Tilbakestill filtre|
-
-#### <a name="quick-entry"></a>Hurtigoppføring
-
-|Trykk på disse tastene|Hvis du vil gjøre dette|
-|-|-|
-|Ctrl+Skift+Enter|Gå til neste hurtigoppføringsfelt utenfor en liste|
-|Enter/Skift+Enter|Gå til neste/forrige hurtigoppføringsfelt|
-##### <a name="report-preview"></a>Forhåndsvisning av rapport
-
-|Trykk på disse tastene|Hvis du vil gjøre dette|
-|-|-|
-|Ctrl+Home/End|Gå til den første/siste siden|
-
-> [!TIP]
-> Hvis du vil ha en grafisk, utskriftsvennlig versjon, velger du følgende bilde og laster ned PDF-filen.
->
-> [![Ikon som åpner en PDF-fil.](media/keyboard_shortcut_inline.png)](media/keyboard_shortcuts.pdf)
-
-
-[!INCLUDE[footer-include](includes/footer-banner.md)]
+||||  
+|----------------|-----------|----------------|
+|**Generelt**|Alt+Q<br />ALT+OPP<br />Alt+Pil ned<br />Alt + Pil høyre<br />Ctrl+Alt+F1<br />Ctrl+F1<br />ESC<br />F5/Ctrl+F5<br />Tab/Skift+Tab<br />|Åpne **Fortell meg**<br />Åpne verktøytips eller valideringsfeil<br />Åpne en rullegardinmeny eller slå opp<br />Se transaksjonene for beregnet verdi<br />Inspisere siden<br />Åpne hjelpen for siden<br />Lukke den gjeldende siden eller rullegardinlisten<br />Oppdatere / laste inn side på nytt<br />Flytte fokus til neste/forrige element|
+|**Navigere og<br />velge rader**| Home/End<br />Ctrl+Home/End <br />Ctrl+Opp/Ned<br />Ctrl+A <br />Ctrl+Mellomrom<br />Ctrl+Skift+Klikk<br />Ctrl+Skift+Home/End<br />Skift+Opp/Ned<br />Skift+Page Up/Down<br />Ctrl+Enter| Gå til første/siste felt<br />Gå til første/siste rad<br />Navigere uten å tape merkingen<br />Merke alt<br />Radvalg på/av<br /> Legge til raden(e) i utvalget<br />Utvider valget til første/siste rad<br />Legge til rad over/under utvalget<br />Velge synlige rader over/under <br />Fokuserer ut fra listen|
+|**Kopier og lim inn**|Ctrl+C<br />Ctrl+V<br />F8|Kopiere rader<br />Lim inn rader<br />Kopiere feltet over til gjeldende rad|
+|**Søk, filtrer <br />og sorter**|F3<br />Shift+F3<br />Ctrl+Shift+F3<br />Alt+F3<br />Shift+Alt+F3<br />Ctrl+Alt+Skift+F3|Slå søk på/av<br />Vise/skjule filtreringsruten. fokusere på feltfiltre<br />Vise/skjule filtreringsruten; fokusere på totalfiltre<br />Filtrere på den valgte celleverdien<br />Legg til filter for valgt felt<br />Tilbakestill filtre|
+|**Hurtigoppføring**|Ctrl+Skift+Enter<br />Enter/Skift+Enter|Gå til neste hurtigoppføringsfelt utenfor en liste<br />Gå til neste/forrige hurtigoppføringsfelt|
+|**Forhåndsvisning av rapport**|Opp/Ned<br />Høyre/Venstre<br />Ctrl+Home/End<br />Page Up/Down|Rulle opp og ned på siden<br />Bla til høyre/venstre <br />Gå til den første/siste siden<br />Gå til den forrige/neste siden|
