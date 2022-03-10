@@ -1,24 +1,27 @@
 ---
 title: Håndtere manglende alternativverdier
-description: Finn ut hvordan du kan hindre at full synkronisering mislykkes fordi alternativene er forskjellige i tilordnede felt.
+description: Finn ut hvordan du kan hindre at full synkronisering mislykkes fordi alternativene er forskjellige i tilordnede felt. Denne prosessen krever hjelp av en utvikler.
 author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
-ms.service: dynamics365-business-central
-ms.topic: article
-ms.date: 10/01/2020
-ms.openlocfilehash: 9148217400da88506e41b460157fe00be596a7c5
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.topic: conceptual
+ms.date: 06/14/2021
+ms.openlocfilehash: 34d1583ac7e844a7d7acad82f202c37be0b99c47
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3911674"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133969"
 ---
 # <a name="handling-missing-option-values"></a>Håndtere manglende alternativverdier
-[!INCLUDE[d365fin](includes/cds_long_md.md)] inneholder bare tre alternativsettfelt som inneholder alternativverdier som du kan tilordne til [!INCLUDE[d365fin](includes/d365fin_md.md)]-felt av typen Alternativ<!-- Option type, not enum? @Onat can you vertify this? --> for automatisk synkronisering. Under synkroniseringen ignoreres ikke-tilordnede alternativer, og de manglende alternativene legges til i den relaterte [!INCLUDE[d365fin](includes/d365fin_md.md)]-tabellen og legges til i systemtabellen **Tilordning av CDS-alternativ** for å behandles manuelt senere. Det kan for eksempel være å legge til de manglende alternativene i hvert produkt og deretter oppdatere tilordningen. Dette avsnittet beskriver hvordan det fungerer.
 
-Siden **Tilordning for integreringstabell** inneholder tre tilordninger for felt som inneholder én eller flere tilordnede alternativverdier. Etter en full synkronisering inneholder siden **Tilordning av CDS-alternativ** de ikke-tilordnede alternativene i respektive tre felt.
+
+Dette emnet er ment for en teknisk målgruppe. Prosessene som beskrives, krever hjelp av en utvikler.
+
+[!INCLUDE[prod_short](includes/cds_long_md.md)] inneholder tre alternativsettfelt som inneholder verdier du kan tilordne til [!INCLUDE[prod_short](includes/prod_short.md)]-felt av typen Alternativ for automatisk synkronisering. Under synkroniseringen ignoreres ikke-tilordnede alternativer, og de manglende alternativene legges til i den relaterte [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen og legges til i systemtabellen **Tilordning av Dataverse-alternativ** for å behandles manuelt senere. Det kan for eksempel være å legge til de manglende alternativene i hvert produkt og deretter oppdatere tilordningen.
+
+Siden **Tilordning for integreringstabell** inneholder tre felt som inneholder én eller flere tilordnede alternativverdier. Etter en full synkronisering inneholder siden **Tilordning av Dataverse-alternativ** de ikke-tilordnede alternativene i de tre feltene.
 
 |         Post             | Alternativverdi | Tittel for alternativverdi |
 |----------------------------|--------------|----------------------|
@@ -36,7 +39,7 @@ Siden **Tilordning for integreringstabell** inneholder tre tilordninger for felt
 | Transportør: FULLLOAD   | 6            | Full Load            |
 | Transportør: WILLCALL   | 7            | Will Call            |
 
-Innholdet på siden **Tilordning av CDS-alternativ** er basert på opplistingsverdier i tabellen **CDS-konto**. I [!INCLUDE[d365fin](includes/cds_long_md.md)] blir følgende felt i kontoenheten tilordnet til felt i kunde- og leverandørpostene:
+Innholdet på siden **Tilordning av Dataverse-alternativ** er basert på opplistingsverdier i tabellen **CRM-konto**. I [!INCLUDE[prod_short](includes/cds_long_md.md)] blir følgende felt i kontotabellen tilordnet til felt i kunde- og leverandørpostene:
 
 - **Adresse 1: Fraktvilkår** for datatypen Opplisting, der verdier defineres som følger:
 
@@ -53,7 +56,6 @@ enum 5335 "CDS Shipment Method Code"
 - **Adresse 1: Leveringmåte** for datatypen Opplisting, der verdier defineres som følger:
 
 ```
-enum 5336 "CDS Shipping Agent Code"
 enum 5336 "CDS Shipping Agent Code"
 {
     Extensible = true;
@@ -82,9 +84,9 @@ enum 5334 "CDS Payment Terms Code"
 }
 ```
 
-Alle opplistingene i [!INCLUDE[d365fin](includes/d365fin_md.md)] ovenfor tilordnes til alternativsett i [!INCLUDE[d365fin](includes/cds_long_md.md)].
+Alle opplistingene i [!INCLUDE[prod_short](includes/prod_short.md)] ovenfor tilordnes til alternativsett i [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="extending-option-sets-in-d365fin"></a>Utvide alternativsett i [!INCLUDE[d365fin](includes/d365fin_md.md)]
+### <a name="extending-option-sets-in-prod_short"></a>Utvide alternativsett i [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Opprett en ny AL-utvidelse.
 
 2. Legg til en opplistingsutvidelse for alternativene du vil utvide. Sørg for at du bruker samme verdi. 
@@ -98,18 +100,18 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 ```
 
 > [!IMPORTANT]  
-> Du må bruke de samme ID-verdiene for alternativ fra [!INCLUDE[d365fin](includes/cds_long_md.md)] når du utvider opplistingen i [!INCLUDE[d365fin](includes/d365fin_md.md)]. Ellers mislykkes synkroniseringen.
+> Du må bruke de samme ID-verdiene for alternativ fra [!INCLUDE[prod_short](includes/cds_long_md.md)] når du utvider opplistingen i [!INCLUDE[prod_short](includes/prod_short.md)]. Ellers mislykkes synkroniseringen.
 
 > [!IMPORTANT]  
-> Ikke bruk tegnet «,» i opplistingsverdiene og bildetekstene. Dette støttes for øyeblikket ikke av [!INCLUDE[d365fin](includes/d365fin_md.md)]-kjøretiden.
+> Ikke bruk tegnet «,» i opplistingsverdiene og bildetekstene. Dette støttes for øyeblikket ikke av [!INCLUDE[prod_short](includes/prod_short.md)]-kjøretiden.
 
 > [!NOTE]
 > De første ti tegnene i navnene på og tekstene for de nye alternativverdiene må være unike. To alternativer, for eksempel Overføring av 20 virkedager og Overføring av 20 kalenderdager, vil forårsake feil fordi begge har de samme 10 første tegnene ("Overføring"). Gi dem for eksempel navnet "Ovf 20 vrk" og "Ovf 20 kad".
 
-### <a name="update-d365fin-option-mapping"></a>Oppdater Tilordning av [!INCLUDE[d365fin](includes/cds_long_md.md)]-alternativ
-Nå kan du gjenopprette tilordningen mellom [!INCLUDE[d365fin](includes/cds_long_md.md)]-alternativer og [!INCLUDE[d365fin](includes/d365fin_md.md)]-poster.
+### <a name="update-prod_short-option-mapping"></a>Oppdater Tilordning av [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativ
+Nå kan du gjenopprette tilordningen mellom [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativer og [!INCLUDE[prod_short](includes/prod_short.md)]-poster.
 
-På siden **Tilordning for integreringstabell** velger du linjen for tilordningen **Betalingsbetingelser**, og deretter velger du handlingen **Synkroniser endrede poster**. Siden **Tilordning av CDS-alternativ** oppdateres med tilleggspostene nedenfor.
+På siden **Tilordning for integreringstabell** velger du linjen for tilordningen **Betalingsbetingelser**, og deretter velger du handlingen **Synkroniser endrede poster**. Siden **Tilordning av Dataverse-alternativ** oppdateres med tilleggspostene nedenfor.
 
 |         Post                 | Alternativverdi   | Tittel for alternativverdi |
 |--------------------------------|----------------|----------------------|
@@ -120,7 +122,7 @@ På siden **Tilordning for integreringstabell** velger du linjen for tilordninge
 | **Betalingsbetingelser: CASH PAYME**  | **779800001**  | **Cash Payment**     |
 | **Betalingsbetingelser: TRANSFER**    | **779800002**  | **Overføring**         |
 
-Tabellen **Betalingsbetingelser** i [!INCLUDE[d365fin](includes/d365fin_md.md)] viser da nye poster for [!INCLUDE[d365fin](includes/cds_long_md.md)]-alternativene. I følgende tabell er det nye alternativer med fet skrift. Rader i kursiv representerer alle alternativer som nå kan synkroniseres. Gjenstående rader representerer alternativer som ikke er i bruk og vil bli ignorert under synkronisering. Du kan fjerne eller utvide CDS-alternativer med samme navn.)
+Tabellen **Betalingsbetingelser** i [!INCLUDE[prod_short](includes/prod_short.md)] viser da nye poster for [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativene. I følgende tabell er det nye alternativer med fet skrift. Rader i kursiv representerer alle alternativer som nå kan synkroniseres. Gjenstående rader representerer alternativer som ikke er i bruk og vil bli ignorert under synkronisering. Du kan fjerne eller utvide Dataverse-alternativer med samme navn.)
 
 |  - kode       | Beregning av forfallsdato | Beregning av kontantrabattdato | Rabattprosent | Beregn kontantrab. for kred.nota | Beskrivelse       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
@@ -143,3 +145,6 @@ Tabellen **Betalingsbetingelser** i [!INCLUDE[d365fin](includes/d365fin_md.md)] 
 | ***TRANSFER*** |                      |                           | 0.         | USANN                         |                   |
 
 ## <a name="see-also"></a>Se også
+[Tilordne tabellene og feltene som skal synkroniseres](admin-how-to-modify-table-mappings-for-synchronization.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

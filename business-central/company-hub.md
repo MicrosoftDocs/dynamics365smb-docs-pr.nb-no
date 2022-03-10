@@ -2,17 +2,17 @@
 title: Administrere arbeid på tvers av flere selskaper i selskapshuben
 description: Lær om selskapshuben i Dynamics 365 Business Central som du bruker til å håndtere arbeidet i flere selskaper.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: accountant, accounting, financial report
+ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: acc1bf44ddf3886d57729fb28ba81c6e7580ce40
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 410e3166674354499e76b9bc5483d66c037c4969
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5775187"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132058"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Administrere arbeid på tvers av flere selskaper i selskapshuben
 
@@ -30,7 +30,7 @@ Hvis du bruker rollen **Selskapshub**, viser hjemmesiden en liste over selskaper
 > [!TIP]
 > Hvis du vil ha tilgang til et bestemt selskap i [!INCLUDE [prod_short](includes/prod_short.md)], velger du navnet på selskapet eller velger menyelementet **Gå til selskap**, og du logges inn automatisk i en ny nettleserkategori.
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Handlinger for et selskap som er oppført i selskapshuben":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Handlinger for et selskap som er oppført i selskapshuben.":::
 
 Du kan legge til nye selskaper, for eksempel når du får en ny klient, eller når bedriften legger til et nytt datterselskap. Hvis du vil ha mer informasjon, kan du se [Legge til selskaper i selskapshuben](company-hub-add-company.md).  
 

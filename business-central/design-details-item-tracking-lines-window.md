@@ -1,23 +1,20 @@
 ---
-title: Designdetaljer – Side for varesporingslinjer | Microsoft-dokumentasjon
-description: Les om hvordan du administrerer flyten av serie- og partinumre i lageret.
-services: project-madeira
-documentationcenter: ''
+title: Designdetaljer – Side for varesporingslinjer
+description: Les om hvordan du administrerer flyten av serie- og partinumre i lageret ved å bruke siden Varesporingslinjer.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: design, inventory, item, tracking, serial number, lot number
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 0ddfa9b2d981f81f649240a08c26e8cca845bd1f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/15/2021
+ms.author: edupont
+ms.openlocfilehash: 43c6c6dedbc7a1b35e5aa05d0ed42fb986c01f3f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246132"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146652"
 ---
 # <a name="design-details-item-tracking-lines-page"></a>Designdetaljer: Side for varesporingslinjer
 Varesporings- og reservasjonsposter opprettes i reservasjonssystemet, og tilgjengeligheten beregnes dynamisk. Data som skrives inn på siden **Varesporingslinjer**, behandles i en midlertidig versjon av tabellen **Sporingsspesifikasjon**. Når siden lukkes, lagres de aktive dataene i **Reservasjonspost**-tabellen, og historiske dataene lagres i **Sporingsspesifikasjon**-tabellen. Hvis du vil ha mer informasjon, se [Designdetaljer: Aktive kontra historiske varesporingsposter](design-details-active-versus-historic-item-tracking-entries.md).  
@@ -34,3 +31,5 @@ Reglene for registrering av data på siden **Varesporingslinjer** støtter også
   
 ## <a name="see-also"></a>Se også  
 [Designdetaljer: Varesporing](design-details-item-tracking.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

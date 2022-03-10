@@ -1,21 +1,20 @@
 ---
-title: Selge varer som er montert til ordre | Microsoft-dokumentasjon
-description: Hvis varen er definert for Monter til ordre, forventes varen ikke å være på lager, og den må monteres spesifikt for en ordre. Når du angir varen på en ordrelinje, blir en monteringsordre automatisk opprettet og koblet til ordren.
+title: Selge varer som er montert til ordre
+description: Hvis varen er definert for Monter til ordre, forventes varen ikke å være på lager, og den må monteres spesifikt for en ordre.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: kit, kitting
-ms.date: 10/01/2020
+ms.search.keywords: kit, kitting, substitute items
+ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: 54d7a5526a916e426d8e915e3b44dc2af16f2dba
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: e32af0659ec78ae178dd0b49b18582beb66ba100
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386577"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146907"
 ---
 # <a name="sell-items-assembled-to-order"></a>Selge varer som er montert til ordre
 Hvis **Monteringsprinsipp**-feltet på varekortet for en monteringsvare er **Monter til ordre**, forventes varen ikke å være på lager, og den må monteres spesifikt for en ordre. Når du angir varen på en ordrelinje, blir en monteringsordre automatisk opprettet og koblet til ordren.  
@@ -29,7 +28,7 @@ I denne fremgangsmåten behandler du salget av en vare som skal monteres i henho
 >  Følgende fremgangsmåte omfatter ikke standardtrinnene for ordrer før trinnet der du angir montere-til-ordre-varen på en ordrelinje.  
 
 ## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Selge en vare som er montert til ordre  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Opprett en ordre. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).  
 3.  I feltet **Nr.** -feltet angir du en vare som er definert for å monteres til ordre.  
 4.  Definer hvilken lokasjon varen skal selges fra, i **Lokasjonskode**-feltet. Monteringsprosessen vil skje på den lokasjonen.  
@@ -57,12 +56,15 @@ I denne fremgangsmåten behandler du salget av en vare som skal monteres i henho
 10. På ordren velger du **Frigi** for å varsle monteringsavdelingen om at monteringsprosessen kan starte.  
 11. Utfør trinnene for montering av varer som selges i denne fremgangsmåten, i monteringsavdelingen. Hvis du vil ha mer informasjon, kan du se [Montere varer](assembly-how-to-assemble-items.md).  
 
+> [!NOTE]  
+> Vær oppmerksom på at vareerstatninger ikke automatisk fører til at en vare erstattes av en annen vare, for eksempel når du oppretter en ordre eller i en stykkliste. I stedet blir du varslet om at en erstatning er tilgjengelig for deg.
+
 ## <a name="see-also"></a>Se også  
 [Monteringsstyring](assembly-assemble-items.md)  
 [Arbeide med stykklister](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Registrere nye varer](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

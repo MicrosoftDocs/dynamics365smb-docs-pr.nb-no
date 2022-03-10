@@ -1,21 +1,22 @@
 ---
-title: Prosjektoppgaver ved hjelp av ressurser og timelister | Microsoft-dokumentasjon
-description: Beskriver hvordan du bruker ressurser, timelister og jobber til å administrere prosjekter.
+title: Prosjektstyring
+description: Dette emnet beskriver hvordan du bruker ressurser, timelister og prosjekter til å administrere prosjekter og budsjetter.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: projects
-ms.date: 04/01/2021
+ms.search.form: 89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015
+ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 2dbe4a82f6cc2e9f28fbd06a3f235d9630a75cca
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: af4801956ce27bc282356400513fc22a03860784
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5780335"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146257"
 ---
 # <a name="project-management"></a>Prosjektstyring
+
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du utføre vanlige prosjektbehandlingsoppgaver, for eksempel å konfigurere et prosjekt og planlegge en ressurs, samt å angi informasjonen som trengs for å behandle budsjetter og overvåke fremdriften. Du kan spore ansattes arbeidstid og maskindriftstid for prosjektet ved hjelp av timelister. Som prosjektleder har du god oversikt over individuelle prosjekter, men også over fordelingen av ansatte, maskiner og andre ressurser som brukes i alle prosjekter.
 
 Før du kan bruke [!INCLUDE[prod_short](includes/prod_short.md)] til å administrere prosjekter, må du definere ressurser, timelister og prosjekter. Du finner mer informasjon under [Konfigurere prosjektstyring](projects-setup-projects.md).  

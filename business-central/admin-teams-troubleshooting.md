@@ -2,26 +2,48 @@
 title: Feilsøke Microsoft Teams-integrering
 description: Finn ut hva du kan gjøre som administrator for å styre Microsoft Teams-integreringen.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
-ms.date: 01/20/2021
+ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 10612a3e5e257969b2daf0839ea0826316a956ee
-ms.sourcegitcommit: 36a32c997b201ff32ed8c1cff8179b36e2468c47
+ms.openlocfilehash: 7bea8e591b92666c6d92ce34b0849ad774dcc35a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5046535"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147011"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Feilsøke Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Denne artikkelen inneholder informasjon om hvordan du kan identifisere og løse problemer som kan oppstå når du bruker Microsoft Teams sammen med [!INCLUDE [prod_short](includes/prod_short.md)], som en vanlig bruker eller administrator.
+
+## <a name="the-sign-in-link-doesnt-work"></a>Påloggingskoblingen fungerer ikke
+
+Hvis du prøver å logge på [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams umiddelbart etter at du har installert appen, og påloggingskoblingen ikke tillater det, kan det være fordi appen ikke fullstendig er fullstendig installert. Du kan prøve å løse problemet ved å logge av Teams-klienten og deretter logge på igjen.
+
+## <a name="the-settings-page-is-empty"></a>Siden Innstillinger er derfor tom
+
+Du må først logge på for å komme til innstillingene. Hvis du vil logge på appen, må du enten lime inn en kobling til en [!INCLUDE [prod_short.md](includes/prod_short.md)]-oppføring eller prøve å søke etter kontakter. Begge disse handlingene leder deg gjennom en registreringsprosess, og deretter kan du bruke siden **Innstillinger**.
+
+## <a name="i-changed-company-but-it-didnt-seem-to-work"></a>Jeg endret selskap, men det ser ikke ut til å fungere
+
+Når du har endret selskapet på siden **Innstillinger**, vil du kanskje legge merke til at rullegardinlisten i kommandoboksen angir at du fortsatt søker i det forrige selskapet. Dette problemet oppstår når du åpner siden **Innstillinger** direkte fra kommandoboksen. I dette tilfellet er selskapet endret, og du får faktisk søk i selskapet du byttet til. Problemet er at rullegardinlisten for kommandoen bare ikke har blitt oppdatert ennå. Lukk eller løsne fra kommandoboksen for rullegardinlisten for å vise selskapet du skal søke i, lukker eller løsner du [!INCLUDE [prod_short.md](includes/prod_short.md)] fra kommandoboksen, og åpner deretter appen på nytt.
+
+
+<!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->
+
+## <a name="something-went-wrong-error-when-searching-for-contacts"></a>Feil meldingen "Noe gikk galt" under Søk etter kontakter
+
+Du kan oppleve denne feilen når du søker i et selskap som ikke er initialisert, eller som ikke svarer. Du kan for eksempel ikke søke i et nytt prøveselskap som ennå ikke har godtatt vilkårene for bruk. Du kan løse dette problemet ved å prøve å logge på [!INCLUDE [prod_short.md](includes/prod_short.md)]-webklienten og utføre eller forkaste eventuelle oppstartsdialogbokser som vises.
+
+## <a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a>Feilmeldingen «Finner ikke API-en for kontakten/kontaktsammendraget» når du søker etter kontakter
+
+Dette problemet kan skyldes tilpassinger eller bransjeløsninger som påvirker eller endrer [!INCLUDE [prod_short.md](includes/prod_short.md)], eller at de ikke har en API for kontakt eller kontaktsammendrag. Hvis problemet vedvarer, kontakter du systemansvarlig eller kundestøttepartneren.
 
 ## <a name="none-of-my-links-expand-into-a-card"></a>Ingen av koblingene utvides til et kort 
 
@@ -36,7 +58,7 @@ Her er noen ting du kan prøve hvis du får dette problemet:
 
 2. Kontroller deretter at du har logget på med riktig identitet.
 
-    Gå til en chat i Teams, og velg [!INCLUDE [prod_short](includes/prod_short.md)]-ikonet under meldingsboksen. Når vinduet vises, må du kontrollere om brukeren den sier at du er tilkoblet som, samsvarer med den du bruker til å koble deg til [!INCLUDE [prod_short](includes/prod_short.md)].
+    Gå til en chat i Teams, høyreklikk [!INCLUDE [prod_short](includes/prod_short.md)]-ikonet under meldingsboksen, og velg deretter **Innstillinger**. Når vinduet vises, må du kontrollere om brukeren den sier at du er tilkoblet som, samsvarer med den du bruker til å koble deg til [!INCLUDE [prod_short](includes/prod_short.md)].
 
 3. Kontroller at codeunit 2718 **Page Summary Provider** publiseres som en nettjeneste.
 
@@ -48,9 +70,8 @@ Her er noen ting du kan prøve hvis du får dette problemet:
 
 En kobling utvides ikke til et kort i følgende situasjoner:
 
-- Koblingen er rettet mot en side av en type som ikke representerer en post. Det kan for eksempel være en kobling til rollesenteret for [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan kontrollere sidetypen ved hjelp av sideinspeksjonsruten i nettklienten i [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon om sideinspeksjon, kan du se [Inspisere sider](across-inspect-page.md).
-- Koblingen er rettet mot en side som (på et teknisk nivå) ikke er koblet til en kildetabell i [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan kontrollere om en side har en kildetabell ved hjelp av sideinspeksjonsruten i nettklienten i [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon om sideinspeksjon, kan du se [Inspisere sider](across-inspect-page.md). 
-- Teams støtter ikke koblingsforhåndsvisninger i enkelte funksjoner. Når du for eksempel skal løsne en chat, er du på et møte eller du er en gjest til en annen organisasjon.
+- Koblingen er rettet mot en side som (på et teknisk nivå) ikke er koblet til en kildetabell i [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan kontrollere om en side har en kildetabell ved hjelp av sideinspeksjonsruten i nettklienten i [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon om sideinspeksjon, kan du se [Inspisere sider](across-inspect-page.md).
+- Teams støtter ikke koblingsforhåndsvisninger i enkelte av sine funksjoner. Når du for eksempel skal løsne en chat, eller du er en gjest hos en annen organisasjon.
 - Teams forlater lydløst forsøk på å vise kortet etter 15 sekunder, for eksempel på grunn av nettverksproblemer.
 - Teams kan ikke utvide koblingen hvis du allerede har limt inn en kobling i samme meldingsboks og slettet kortet.
 
@@ -66,10 +87,6 @@ Eksempel:
 `https://businesscentral.dynamics.com/?environmentname=Production&company=CRONUS%20USA%2C%20Inc.&page=21&dc=0&bookmark=21%3bEgAAAAJ7BTEAMAAwADAAMA%3d%3d`
 
 Du finner tekniske detaljer om [!INCLUDE [prod_short](includes/prod_short.md)]-URL-adresser i [Nettklientens URL-adresse](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls)i hjelpen for [!INCLUDE [prod_short](includes/prod_short.md)]-utviklere og IT-eksperter.
-
-## <a name="the-card-is-displayed-in-the-message-compose-box-but-selecting-the-details-button-does-nothing"></a>Kortet vises i meldingsboksen, men når du velger Detaljer-knappen, skjer det ingenting 
-
-Når en kobling blir utvidet til et kort i meldingsboksen, må du sende meldingen til chatten før du kan bruke **Detaljer**-knappen.
 
 ## <a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a>Detaljer-vinduet åpnes, men viser en feil før detaljene vises
 
@@ -89,7 +106,7 @@ Dette problemet kan skyldes et par ting: manglende tillatelser i [!INCLUDE [prod
 
     Hvis du vil ha mer informasjon om minimumskrav til nettlesere, kan du se [Minimumskrav for å bruke [!INCLUDE [prod_short](includes/prod_short.md)]](product-requirements.md#browsers) 
 
-## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Jeg har problemer med kameraet eller plasseringen i Teams 
+## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Jeg har problemer med kameraet eller plasseringen i Teams
 
 Når du bruker [!INCLUDE [prod_short](includes/prod_short.md)]-funksjoner i detaljvinduet som krever tilgang til plasseringen eller enhetskameraet, må du først gi samtykke til at Teams får tilgang til disse enhetsegenskapene.  
 
@@ -103,7 +120,7 @@ Hvis du trenger hjelp til å endre disse innstillingene, kan du se at [Kameraet 
 
 Med noen nettlesere, som nye Microsoft Edge, kan du velge hvilket enhetskamera som skal brukes når enheten støtter flere kameraer. 
 
-## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams viser blandede språk for kort og kortdetaljer 
+## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams viser blandede språk for kort og kortdetaljer
 
 Hvis kort og kortdetaljer skal vise samme språk i Teams, må språket for Teams-klienten og språket du bruker i [!INCLUDE [prod_short](includes/prod_short.md)]-nettklienten, samsvare.
 
@@ -117,11 +134,39 @@ Hvis du vil ha mer informasjon om hvordan språk fungerer mellom Teams og [!INCL
 
 Endringer du gjør i et felt i detaljvinduene, lagres automatisk når du forlater feltet. Før du lukker vinduet etter at du har endret et felt, trykker du Tab-tasten eller klikker/trykker utenfor feltet.
 
+## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>En ny flis ble vist i appstarteren. Hvordan fjerner jeg den?
+
+Når du viser appene på Office 365-hjemmesiden (https://home.office.com) eller i appstarteren, vises en ny flis med navnet "Business Central Teams Integration Service Connector" når du har installert [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Teams. Denne flisen har ingen verdi i seg selv, og kan trygt skjules.
+
+Som en administrator, som har Azure Active Directory-administratorrettigheter, kan du skjule flisen ved å gjøre følgende:
+
+1. Logg på [Azure Active Directory-administrasjonssenteret](https://aad.portal.azure.com/).
+2. Velg **Enterprise-apper**, og velg deretter **Business Central Teams Integration Service Connector**.
+3. Velg **Egenskaper**, og sett deretter bryteren **Synlig for brukere** til **Nei**.
+4. Velg **Lagre**.
+
+> [!NOTE]
+> Det tar en liten stund før endringen trer i kraft.
+
+## <a name="duplicate-text-in-the-share-to-teams-window"></a>Dupliser tekst i vinduet Del til Teams
+
+Når du limer inn tekst i meldingsboksen i vinduet **Del til Teams**, dupliseres teksten. Dette problemet er kjent for Microsoft og vil bli håndtert i en senere oppdatering. 
+
+## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Kan ikke logge på vinduet Del til Teams 
+
+Dette problemet kan skyldes en rekke årsaker. Identiteten du bruker til å logge på, må for eksempel ha tilgang til Microsoft Teams, for eksempel via et Microsoft 365-abonnement.
+
 ## <a name="see-also"></a>Se også
 
 [Oversikt over [!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams-integrering](across-teams-overview.md)  
-[Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  
+[Installer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  
+[Søke etter kunder, leverandører og andre kontakter fra Microsoft Teams](across-search-contacts-teams.md)  
+[Dele poster i Microsoft Teams](across-working-with-teams.md)  
 [Vanlige spørsmål om Teams](teams-faq.md)  
+[Endre selskap og andre innstillinger i Teams](across-teams-settings.md)  
 [Utvikle for Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 ## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -2,23 +2,23 @@
 title: Vise statusen for synkroniseringsjobber (inneholder video)
 description: Bruk siden Feil ved synkronisering av koblede data for å vise statusen til synkroniseringsjobber som har blitt kjørt for koblede poster i integreringer.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize
+ms.search.form: 6250
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5db6ec05e8497dd3c3bac9b17ccb5dc673f11add
-ms.sourcegitcommit: 4c97f38fc53c1c1ec534054a4a100d8cfb73175b
+ms.openlocfilehash: 357e6f92bc960b1fcd58c5be78d28985b389bb2a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/20/2021
-ms.locfileid: "7940654"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130699"
 ---
 # <a name="view-the-status-of-synchronization-jobs"></a>Vise statusen til synkroniseringsjobber
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Bruk siden **Feil ved synkronisering av koblede data** for å vise statusen til synkroniseringsjobber som har blitt kjørt for koblede poster i en Dataverse- eller [!INCLUDE[crm_md](includes/crm_md.md)]-integrasjon. Dette inkluderer jobber som ble kjørt fra jobbkøen, og manuelle synkroniseringsjobber som kjørte på poster fra [!INCLUDE[prod_short](includes/prod_short.md)]. Det kan for eksempel være nyttig å vise statusen deres når du feilsøker, fordi det gir deg tilgang til detaljer om feil relatert til koblede poster. Vanligvis er disse feiltypene forårsaket av brukerhandlinger, for eksempel når følgende er tilfelle:  
 

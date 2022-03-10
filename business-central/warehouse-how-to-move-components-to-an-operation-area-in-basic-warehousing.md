@@ -2,20 +2,19 @@
 title: Flytte komponenter til et operasjonsområde i enkle lageroppsett
 description: Hvis det forekommer varebehandlingsoperasjoner på lagerlokasjonen, må du kanskje flytte elementer mellom interne hyller for å reagere på interne kildedokumenter.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7812bc0675563b30805f345331423d800645b3ea
-ms.sourcegitcommit: 311e86d6abb9b59a5483324d8bb4cd1be7949248
+ms.openlocfilehash: 1059e6c5bf0a308382951fd19606dbaf0ef14425
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/15/2021
-ms.locfileid: "5014103"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141954"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytte komponenter til et operasjonsområde i enkle lageroppsett
 Hvis det forekommer varebehandlingsoperasjoner på lagerlokasjonen, må du kanskje flytte elementer mellom interne hyller for å reagere på interne kildedokumenter, for eksempel produksjon, montering eller serviceordrer på lokasjonen.  
@@ -47,7 +46,7 @@ En lagermedarbeider kan også opprette den ved å peke på den aktuelle frigitte
 Denne fremgangsmåten viser hvordan du oppretter en lagerflytting fra siden **Lagerflytting** ved å referere til en frigitt monteringsordre som et kildedokument. Fremgangsmåten er den samme når du flytter komponenter for produksjonsordrer og serviceordrer.  
 
 ## <a name="to-move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytte komponenter til et operasjonsområde i enkle lageroppsett  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerflytting**, og velg deretter den relevante koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Lagerflytting**, og velg deretter den relaterte koblingen.  
 2.  På hurtigfanen **Generelt** fyller du ut **Nr.**-feltet . Du kan trykke ENTER for å velge fra nummerserien.  
 3.  Angi lokasjonen der flyttingen finner sted, i **Lokasjonskode**-feltet.  
 4.  Velg handlingen **Hent kildedokumenter**. Du kan også fylle ut feltet **Kildedokument** og deretter velge **AssistEdit**-knappen i feltet **Kildenr.**  
@@ -77,3 +76,6 @@ Denne fremgangsmåten viser hvordan du oppretter en lagerflytting fra siden **La
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

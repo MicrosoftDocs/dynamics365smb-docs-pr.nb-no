@@ -1,28 +1,27 @@
 ---
-title: Opprette fakturaer eller kreditnotaer for servicer | Microsoft-dokumentasjon
-description: Finn ut hvordan du oppretter fakturaer, slik at du kan få betalt for servicen.
+title: Opprette fakturaer eller kreditnotaer for servicer
+description: Lær hvordan du bruker Business Central til å opprette kreditfakturaer og kreditnotaer på en sømløs måte.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 201138673bdc085d6097117b947359802ec17921
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 47ff02006af6182752ed110464b4c8aa493060c5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4748083"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143091"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Opprette servicefakturaer eller kreditnotaer
 Enkel fakturering av serviceordrene er en viktig funksjon i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan også sette opp [!INCLUDE[prod_short](includes/prod_short.md)] slik at en servicetekniker ute hos kunden kan opprette en faktura for en tjeneste som ikke er knyttet til en kontrakt eller ordre. Du kan også sette opp [!INCLUDE[prod_short](includes/prod_short.md)] slik at du fakturerer servicekontrakter regelmessig. Fakturaperioden for hver enkelt kontrakt angir hvor ofte du fakturerer den.
 
 ## <a name="to-invoice-several-service-contracts"></a>Fakturere flere servicekontrakter
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Opprett servicekontraktfakturaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Opprett servicekontraktfakturaer**, og velg deretter den relaterte koblingen.  
 2. Angi hvilke filtre du vil bruke.  
 3. I feltet **Bokføringsdato** angir du datoen som du vil bruke som bokføringsdato på servicefakturaene.  
 4. I feltet **Fakturer t.o.m. dato** angir du datoen som du vil fakturere kontrakter frem til. Kjørselen inkluderer kontraktene med neste fakturadato frem til denne datoen.  
@@ -32,7 +31,7 @@ Enkel fakturering av serviceordrene er en viktig funksjon i [!INCLUDE[prod_short
 Du kan også fakturere en servicekontrakt direkte fra **Servicekontrakt**-siden hvis neste faktureringsdato på kontrakten er tidligere enn arbeidsdatoen.
 
 ## <a name="to-invoice-a-service-contract-from-the-service-contract-page"></a>Fakturere en servicekontrakt fra siden Servicekontrakt   
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicekontrakter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Servicekontrakter**, og velg deretter den relaterte koblingen.  
 2. Velg servicekontrakten du vil fakturere, og åpne kontraktkortet.  
 3. Velg handlingen **Opprett servicefaktura**. 
 4. Velg **Ja** for å opprette servicefakturaene.  
@@ -43,7 +42,7 @@ Du kan også fakturere en servicekontrakt direkte fra **Servicekontrakt**-siden 
 ## <a name="to-post-an-invoice-from-a-service-order"></a>Slik bokfører du en faktura fra en serviceordre  
 Følgende fremgangsmåte beskriver hvordan du definerer delen av service som kunden skal betale for.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Serviceordrer**, og velg deretter den relaterte koblingen.  
 2. Velg serviceordren du vil fakturere, og åpne ordrekortet.  
 3. Velg handlingen **Servicelinjer**.  
 4. Finn de nødvendige postene, og angi deretter antallene som kunden skal betale for i feltet **Fakturer (antall)**.  
@@ -62,7 +61,7 @@ Følgende fremgangsmåte beskriver hvordan du definerer delen av service som kun
 ## <a name="to-create-a-service-invoice-manually"></a>Opprette en servicefaktura manuelt  
 Når du bokfører en serviceordre med alternativet **Fakturer** eller **Lever og fakturer**, bokføres vanligvis en servicefaktura automatisk. Du kan likevel få behov for å utstede en faktura som ikke er koblet til verken en servicekontrakt eller en serviceordre. Denne fremgangsmåten beskriver hvordan du utsteder en faktura samtidig som kunden mottar service.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicefakturaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Servicefakturaer**, og velg deretter den relaterte koblingen.  
 2. Opprett en ny servicefaktura.  
 3. Fyll ut feltet **Nr.** .  
   
@@ -80,7 +79,7 @@ Når du bokfører en serviceordre med alternativet **Fakturer** eller **Lever og
 ## <a name="to-create-an-invoice-that-combines-posted-shipment-lines-from-one-or-more-service-orders"></a>Slik oppretter du en faktura som kombinerer bokførte følgeseddellinjer fra én eller flere serviceordrer 
 Du må kanskje opprette en servicefaktura for service som allerede er levert, enten fra én eller flere serviceordrer, men ennå ikke fakturert eller forbrukt. Du kan fylle ut fakturalinjene automatisk med de valgte bokførte følgeseddellinjene for en bestemt kunde.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Servicefakturaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Servicefakturaer**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene på linjen etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 3. Opprett fakturalinjer for service som er levert, men ikke fakturert. Du kan også bruke handlingen **Hent følgeseddellinjer** for å legge til bokførte leveringslinjer i fakturaen.  
 4. Bokfør servicefakturaen.  
@@ -90,7 +89,7 @@ Du må kanskje opprette en servicefaktura for service som allerede er levert, en
 ## <a name="to-create-a-service-credit-memo"></a>Slik oppretter du en servicekreditnota  
 Et servicekreditnotadokument brukes vanligvis når en kunde returnerer varer, men kan også brukes til å kompensere en kunde eller til å korrigere feilaktige fakturaer.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Service – kreditnotaer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Servicekreditnotaer**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene på linjen etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Feltene **Bokføringsdato** og **Bilagsdato** viser arbeidsdatoen. Du kan endre dette ved behov.    
 4. På kreditnotalinjene angir du opplysninger om varene som er returnert eller fjernet, eller kompensasjonen som skal gis til kunden.  
@@ -99,3 +98,6 @@ Et servicekreditnotadokument brukes vanligvis når en kunde returnerer varer, me
 [Bokføre servicefakturaer](service-how-to-post-service-orders.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  
 [Servicebokføring](service-service-posting.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

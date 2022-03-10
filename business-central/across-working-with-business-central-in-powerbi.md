@@ -2,24 +2,23 @@
 title: Arbeide med Business Central-data i Power BI | Microsoft Docs
 description: Få innsikt, forretningsanalyse og KPI-er fra Business Central-dataene ved å bruke Power BI.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 99628b761a3d5f79941a78c00a999a5b8131869e
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: d8cd59f77230fe7d7593510f0abfc24bf9c29a2a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3927225"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142578"
 ---
-# <a name="working-with-prodshort-data-in-power-bi"></a>Arbeide med [!INCLUDE [prodshort](includes/prodshort.md)]-data i Power BI
+# <a name="working-with-prod_short-data-in-power-bi"></a>Arbeide med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI
 
-I denne artikkelen får du grunnleggende informasjon om å arbeide med rapporter og instrumentbord i Power BI som bruker [!INCLUDE [prodshort](includes/prodshort.md)] som datakilde. Artikkelen tar for seg noen aspekter som hjelper deg å komme i gang som [!INCLUDE[prodshort](includes/prodshort.md)]-bruker. Når det gjelder generelle retningslinjer og instruksjoner for hvordan du bruker Power BI, kan du se [Power BI-dokumentasjon for forbrukere](https://review.docs.microsoft.com/en-us/power-bi/consumer).
+I denne artikkelen får du grunnleggende informasjon om å arbeide med rapporter og instrumentbord i Power BI som bruker [!INCLUDE [prod_short](includes/prod_short.md)] som datakilde. Artikkelen tar for seg noen aspekter som hjelper deg å komme i gang som [!INCLUDE[prod_short](includes/prod_short.md)]-bruker. Når det gjelder generelle retningslinjer og instruksjoner for hvordan du bruker Power BI, kan du se [Power BI-dokumentasjon for forbrukere](/power-bi/consumer).
 
 ## <a name="get-ready"></a>Gjøre deg klar
 
@@ -31,13 +30,13 @@ Når du har en Power BI-konto, kan du logge deg på på [https://powerbi.microso
 
 Power BI-tjenesten er vert for alle rapportene som er tilgjengelige for deg. Velg **Mitt arbeidsområde** > **Rapporter** for å vise rapporten. Deretter velger du bare rapporten du vil vise.
 
-Med [!INCLUDE[prodshort](includes/prodshort.md)] Online får du automatisk et sett med standardrapporter på arbeidsområdet. Hvis du vil opprette egne rapporter, kan du bruke Power BI Desktop til å opprette dem og deretter publisere dem på arbeidsområdet ditt. Hvis du vil ha mer informasjon, kan du se [Komme i gang med å bygge rapporter i Power BI Desktop for å vise [!INCLUDE [prodlong](includes/prodlong.md)]-data](across-how-use-financials-data-source-powerbi.md).
+Med [!INCLUDE[prod_short](includes/prod_short.md)] Online får du automatisk et sett med standardrapporter på arbeidsområdet. Hvis du vil opprette egne rapporter, kan du bruke Power BI Desktop til å opprette dem og deretter publisere dem på arbeidsområdet ditt. Hvis du vil ha mer informasjon, kan du se [Komme i gang med å bygge rapporter i Power BI Desktop for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md).
 
-Hvis du bruker [!INCLUDE[prodshort](includes/prodshort.md)] lokalt, må du starte fra grunnen av ved å bruke Power BI Desktop. Alternativt kan Power BI-rapporter distribueres som filer du kan laste opp.
+Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, må du starte fra grunnen av ved å bruke Power BI Desktop. Alternativt kan Power BI-rapporter distribueres som filer du kan laste opp.
 
 ## <a name="get-the-latest-data"></a>Få de nyeste dataene
 
-Hver Power BI-rapport er basert på et datasett som henter data fra [!INCLUDE[prodshort](includes/prodshort.md)]-kildene. Du må sørge for at dataene i Power BI-rapportene er oppdatert med dataene i [!INCLUDE[prodshort](includes/prodshort.md)]. Dette begrepet omtales som *oppdatering*.  Det kan hende at oppdatering ikke skjer automatisk, avhengig av hvordan organisasjonen har konfigurert Power BI. Du kan oppdatere data på to måter: manuelt eller ved å planlegge en oppdatering. Manuell oppdatering utføres etter behov. Planlagt oppdatering lar deg oppdatere automatisk ved angitte tidsintervaller.
+Hver Power BI-rapport er basert på et datasett som henter data fra [!INCLUDE[prod_short](includes/prod_short.md)]-kildene. Du må sørge for at dataene i Power BI-rapportene er oppdatert med dataene i [!INCLUDE[prod_short](includes/prod_short.md)]. Dette begrepet omtales som *oppdatering*.  Det kan hende at oppdatering ikke skjer automatisk, avhengig av hvordan organisasjonen har konfigurert Power BI. Du kan oppdatere data på to måter: manuelt eller ved å planlegge en oppdatering. Manuell oppdatering utføres etter behov. Planlagt oppdatering lar deg oppdatere automatisk ved angitte tidsintervaller.
 
 ### <a name="refresh-manually"></a>Oppdatere manuelt
 
@@ -65,7 +64,7 @@ Hvis du vil ha mer informasjon, kan du se [Laste opp rapporten til tjenesten](/p
 > Du må ha et arbeidsområdet i en [Premium-kapasitet](/power-bi/service-premium-what-is) for å kunne laste opp en rapport. Hvis du vil ha mer informasjon, kan du se [Administrere Premium-kapasiteter](/power-bi/admin/service-premium-capacity-manage). 
 
 > [!TIP]
-> Hvis du bruker [!INCLUDE[prodshort](includes/prodshort.md)] Online, kan du også laste opp en rapport fra [!INCLUDE[prodshort](includes/prodshort.md)]. Hvis du vil ha mer informasjon, kan du se [Arbeide med Power BI-rapporter i [!INCLUDE [prodshort](includes/prodshort.md)] – laste opp rapporter](across-working-with-powerbi.md#upload).
+> Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] Online, kan du også laste opp en rapport fra [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Arbeide med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)] – laste opp rapporter](across-working-with-powerbi.md#upload).
 
 ## <a name="share-reports-with-others"></a><a name="share"></a>Dele rapporter med andre
 
@@ -81,19 +80,22 @@ Hvis du vil dele en rapport, velger du **Del** i en liste over rapporter eller i
 ## <a name="see-also"></a>Se også
 
 [Business Central og Power BI](admin-powerbi.md)  
-[Bygge Power BI-rapporter for å vise [!INCLUDE [prodlong](includes/prodlong.md)]-data](across-how-use-financials-data-source-powerbi.md)  
-[Oversikt over komponent og arkitektur for Power BI-integrering for [!INCLUDE[prodshort](includes/prodshort.md)]](admin-powerbi-overview.md)  
-[Arbeide med Power BI-rapporter i [!INCLUDE [prodshort](includes/prodshort.md)]](across-working-with-powerbi.md)  
+[Bygge Power BI-rapporter for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md)  
+[Oversikt over komponent og arkitektur for Power BI-integrering for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
+[Arbeide med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]](across-working-with-powerbi.md)  
 [Power BI for forbrukere](/power-bi/consumer/end-user-consumer)  
 [Nytt utseende på Power BI-tjenesten](/power-bi/service-new-look)  
 [Hurtigstart: Koble til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI-dokumentasjon](/power-bi/)  
 [Forretningsintelligens](bi.md)  
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[Konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)]](setup.md)  
-[Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
-[Bruke [!INCLUDE[d365fin](includes/d365fin_md.md)] som en Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
-[Ved hjelp av [!INCLUDE[d365fin](includes/d365fin_md.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
+[Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
+[Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
+[Ved hjelp av [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[d365fin](includes/free_trial_md.md)]  
+
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

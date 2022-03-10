@@ -1,21 +1,21 @@
 ---
-title: Lukke en regnskapsperiode og regnskapsperioder | Microsoft-dokumentasjon
+title: Lukk en regnskapsår og regnskapsperioder
 description: Gir en oversikt over oppgavene for å lukke for eksempel et regnskapsår eller en regnskapsperiode og sørge for at dokumenter og kladder er bokført, og for å kontrollere banksaldoer.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 3dba46a74fb5f0f6f13c4a6f0fa2c93f5d2ba372
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: f5edc0985c9397aa15bd01ec590d6e35324f5ace
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5773314"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129399"
 ---
 # <a name="closing-years-and-periods"></a>Avslutte år og perioder
 

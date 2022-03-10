@@ -1,19 +1,18 @@
 ---
-title: Bruk av OneDrive for Business med Business Central
-description: Du kan bruke OneDrive for Business til å lagre, behandle og dele filer, for eksempel rapporter eller filvedlegg.
+title: Åpne Business Central-filer i OneDrive
+description: Finn ut hvordan du kan dele Business Central-data via OneDrive for Business.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: 92896af6888ef5c39288d511e61d343d3e384a83
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 449fac4cf8d8a19caed8093019e9a804a08d1aaf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589470"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147193"
 ---
 # <a name="opening-business-central-files-in-onedrive"></a>Åpne Business Central-filer i OneDrive
 [!INCLUDE[prod_short](includes/prod_short.md)] gjør det enkelt å lagre, behandle og dele filer med andre personer via OneDrive for Business. På de fleste sider der filer er tilgjengelige, for eksempel rapportinnboksen eller filer som er knyttet til poster, finner du en **Åpen i OneDrive**-handling.

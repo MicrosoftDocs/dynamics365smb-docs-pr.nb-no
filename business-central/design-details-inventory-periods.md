@@ -1,21 +1,20 @@
 ---
-title: Designdetaljer – Lagerperioder | Microsoft-dokumentasjon
-description: Tilbakedaterte transaksjoner eller kostnadsjusteringer påvirker ofte saldoer og lagerverdier for regnskapsperioder som kan anses som avsluttet. Dette kan ha en negativ virkning på nøyaktig rapportering, særlig i globale selskaper. Du kan bruke Lagerperioder-funksjonen til å unngå slike problemer, ved å åpne eller lukke lagerperioder for å begrense bokføring i en angitt tidsperiode.
+title: Designdetaljer – Beholdningsperioder
+description: Lagerperioder bidrar til å unngå problemer med saldoer og lagerverdier ved å åpne eller lukke lagerperioder for å begrense bokføring i en angitt tidsperiode.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 1f06b8a47b36bb85aca69030ace4f8b220c5bc24
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 77348fbf2ef37320b0bfa0ea56a0d395f9b4b142
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787749"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133891"
 ---
 # <a name="design-details-inventory-periods"></a>Designdetaljer: Beholdningsperioder
 Tilbakedaterte transaksjoner eller kostnadsjusteringer påvirker ofte saldoer og lagerverdier for regnskapsperioder som kan anses som avsluttet. Dette kan ha en negativ virkning på nøyaktig rapportering, særlig i globale selskaper. Du kan bruke Lagerperioder-funksjonen til å unngå slike problemer, ved å åpne eller lukke lagerperioder for å begrense bokføring i en angitt tidsperiode.  
@@ -30,6 +29,12 @@ Tilbakedaterte transaksjoner eller kostnadsjusteringer påvirker ofte saldoer og
 
  Når du lukker en lagerperiode, opprettes en lagerperiode ved hjelp av nummeret på den siste varejournalen i lagerperioden. I tillegg registreres klokkeslett, dato og brukerkode i lagerperiodeposten for brukeren som lukker perioden. Ved hjelp av denne informasjonen med siste varejournalen for forrige periode, kan du se hvilke lagertransaksjonene som bokført i lagerperioden. Det er også mulig å åpne lagerperioder på nytt hvis du må bokføre i en lukket periode. Når du åpner en lagerperiode på nytt, blir det opprettet en lagerperiodepost.  
 
-## <a name="see-also"></a>Se også  
- [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md) [Administrere lagerkostnader](finance-manage-inventory-costs.md) [Finans](finance.md)  
- [Arbeide med Business Central](ui-work-product.md)
+## <a name="see-also"></a>Se også
+
+[Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)  
+[Administrere lagerkostnader](finance-manage-inventory-costs.md)  
+[Finans](finance.md)  
+[Arbeide med Business Central](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

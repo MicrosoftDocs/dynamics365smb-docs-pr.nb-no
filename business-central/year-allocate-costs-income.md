@@ -1,24 +1,23 @@
 ---
-title: Oversikt over oppgaver for å fordele kostnader og inntekter | Microsoft-dokumentasjon
+title: Oversikt over oppgaver for å fordele kostnader og inntekter
 description: Skisserer oppgavene for å fordele en post i en finanskladd på flere forskjellige konti når du bokfører kladden.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 10/01/2020
+ms.search.form: 283
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 303d84e317814e4baeb686d190037194794bfb50
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 3380c66c5204c85b9d26f4a9f8e8943f2f7b5275
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3909983"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129425"
 ---
 # <a name="allocate-costs-and-income"></a>Fordele kostnader og inntekter
+
 Du kan fordele en post i en finanskladd på flere forskjellige konti når du bokfører kladden. Fordelingen kan gjøres med tre ulike metoder:
 
 * Antall
@@ -31,8 +30,10 @@ Fordelingsfunksjonen kan brukes i forbindelse med gjentakende finanskladder og i
 De følgende fremgangsmåtene viser hvordan du forbereder deg på å fordele kost i en gjentakende finanskladd ved å definere fordelingsnøkler. Når fordelingsnøkler er definert, fyller du ut og bokfører kladden som en hvilken som helst annen gjentakende finanskladd. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
 
 ## <a name="to-set-up-allocation-keys"></a>Definere fordelingsnøkler
-Du kan fordele en post i en gjentakende finanskladd på flere forskjellige konti når du bokfører kladden. Fordelingen kan gjøres etter antall, prosent eller beløp.
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Gjentakende finanskladd**, og velg deretter den relaterte koblingen.
+
+Du kan fordele en post i en gjentakende finanskladd på flere forskjellige konti når du bokfører kladden. Fordelingen kan gjøres etter antall, prosent eller beløp.  
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Gjentakende finanskladd** og velg den relaterte koblingen.
 2. Velg feltet **Bunkenavn** for å åpne siden **Finanskladder**.
 3. Du kan endre fordelinger på en eksisterende bunke i listen, eller du kan opprette en ny bunke med tildelinger.
    * Hvis du vil opprette en ny bunke, velger du handlingen **Ny** og går til neste trinn.
@@ -47,7 +48,7 @@ Du kan fordele en post i en gjentakende finanskladd på flere forskjellige konti
 11. Bokfør kladden.
 
 ## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Slik endrer du en fordelingsnøkkel som allerede er definert
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Gjentakende finanskladd**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Gjentakende finanskladd** og velg den relaterte koblingen.
 2. Velg kladden med fordelingen, på siden **Finansgjentak.kladd**.
 3. Velg linjen med fordelingen, og velg deretter handlingen **Fordelinger**.
 4. Endre de relevante feltene, og velg deretter **OK**.
@@ -56,4 +57,7 @@ Du kan fordele en post i en gjentakende finanskladd på flere forskjellige konti
 [Avslutte år og perioder](year-close-years-periods.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)    
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)    
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

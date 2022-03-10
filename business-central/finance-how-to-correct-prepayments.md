@@ -1,21 +1,20 @@
 ---
-title: Slik korrigerer du forskudd | Microsoft-dokumentasjon
-description: Du kan foreta en korrigering i en ordre etter at du har bokført en forskuddsfaktura for ordren. Du kan legge til nye linjer på en ordre etter at du har utstedt et forskudd, og deretter kan du bokføre en ny forskuddsfaktura, men du kan ikke slette en linje fra en ordre etter at et forskudd er fakturert for linjen.
+title: Korrigere forskudd
+description: Du kan korrigere en ordre etter at du har bokført en forskuddsfaktura for ordren og legge til nye linjer på en ordre etter at du har utstedt et forskudd.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.form: 44, 48, 42, 50, 52, 9305, 9307
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0ed9bed71ca73e25197869f1f670251ae523648c
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 47ff4066e41cc225f7d02556b5e30f9f6d9eaa5d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783537"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138547"
 ---
 # <a name="correct-prepayments"></a>Korrigere forskudd
 
@@ -28,7 +27,7 @@ Du kan foreta en korrigering i en ordre etter at du har bokført en forskuddsfak
 
 Følgende fremgangsmåte viser hvordan du utsteder en forskuddskreditnota som kansellerer alle fakturerte forskudd for en ordre.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 2. Åpne den aktuelle ordren.
 3. Velg **Forskuddsbetaling**, og velg deretter **Bokfør kreditnota for forskudd** eller **Bokfør og skriv ut forskuddsfaktura**.  
 4. På siden **Salgskreditnota** fortsette med å korrigere de aktuelle postene, for en salgskreditnota. Hvis du vil ha mer informasjon, kan du se [Behandle ordrereturer eller annulleringer](sales-how-process-sales-returns-cancellations.md).  

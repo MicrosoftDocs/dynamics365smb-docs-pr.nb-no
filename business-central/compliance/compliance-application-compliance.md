@@ -1,22 +1,21 @@
 ---
-title: Programsamsvar | Microsoft-dokumentasjon
-description: Dette innholdet omfatter informasjon om programsamsvar i tilknytning til Business Central.
+title: Programsamsvar
+description: Dette emnet forklarer programsamsvar i forhold til Business Central, for eksempel de internasjonale økonomisk rapporteringsstandardene, lokal funksjonalitet og GDPR.
 author: sorenfriisalexandersen
 documentationcenter: ''
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: cc95787d17affb1291ad963b5e69b303a579f1e7
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 7d264ae88d1f9743d7e30994ee0e39f19a5febbd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752008"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139862"
 ---
 # <a name="application-compliance"></a>Programsamsvar
 
@@ -77,7 +76,6 @@ Lever integrert informasjon, justerte prosesser og lettvinte verktøy som kan hj
 - Spar tid når du oppretter standardrapporter som bruker vanlige firmaparametere og -kriterier til å utføre vanlige rapporteringsbehov, fra ordresummeringer til eldre kortsiktige fordringer.
 - Utfør sammensatte gjennomganger med grunnleggende eller avanserte forretningsanalysefunksjoner.
 - Opprett tilpassede rapporter og vis i produktet og ved å bruke integrering i Microsoft PowerBI.
-- Øk hastigheten ved overføring av økonomisk informasjon til kunder, aksjonærer, offentlige kontorer og offentligheten med XML-baserte XBRL-dokumenter som støtter utveksling av økonomisk informasjon på tvers av ulik programvare og teknologi, inkludert Internett.
 
 ### <a name="help-ensure-clear-audit-trails"></a>Sikre tydelige revisjonsspor
 
@@ -110,3 +108,6 @@ Microsoft bygger lokaliserte versjoner av Business Central for et begrenset anta
 
  ## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

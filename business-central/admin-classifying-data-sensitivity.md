@@ -5,17 +5,17 @@ author: bholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
-ms.service: dynamics365-business-central
-ms.topic: article
-ms.date: 10/01/2019
-ms.openlocfilehash: 7578cdff40111adcbf2401e6bed33ddf47641107
-ms.sourcegitcommit: cfc92eefa8b06fb426482f54e393f0e6e222f712
+ms.topic: conceptual
+ms.search.form: 1752
+ms.date: 06/14/2021
+ms.openlocfilehash: 4ec4e6cd24c620829b35b7e3e25a27d4f127e045
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "2880979"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8136429"
 ---
-# <a name="classifying-data-sensitivity"></a>Klassifisere datasensitivitet
+# <a name="classifying-data-sensitivity-fields"></a>Felter for å klassifisere datasensitivitet
 Hvis du vil klassifisere feltene som inneholder sensitive opplysninger eller personopplysninger, kan en Microsoft-partner angi ```DataClassification```-egenskapen for felt. Dette krever tilgang til databasetabellene via utviklingsmiljø eller ved å kjøre et Windows PowerShell-skript. Hvis du vil ha mer informasjon, kan du se [Klassifisere data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Du kan som kunde legge til et sekundært klassifiseringsnivå ved å angi sensitivitetsnivåer for opplysninger du lagrer i standardfelt eller egendefinerte felt. Klassifisering av datasensitivitet sikrer at du vet hvor personopplysninger lagres i systemet, og dette gjør det lettere å svare på forespørsler fra dataemner. For eksempel hvis en kontakt eller kunden ber deg om å eksportere personopplysningene. Hvis du vil ha mer informasjon, kan du se [Svare på forespørsler om personopplysninger](admin-responding-to-requests-about-personal-data.md).
@@ -50,3 +50,6 @@ Dataklassifiseringsforslag lar deg for eksempel gjøre følgende:
 ## <a name="see-also"></a>Se også
 
 [Klassifisere data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

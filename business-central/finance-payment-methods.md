@@ -1,21 +1,21 @@
 ---
-title: Definer betalingsmåter
+title: Definere betalingsmåter (inneholder video)
 description: Du bruker betalingsmåter, for eksempel sjekk, bankoverføring, kontanter eller PayPal, til å definere hvordan salgs- og kjøpsfakturaer skal betales.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: check, bank transfer, cash, PayPal
-ms.date: 01/21/2021
+ms.search.form: 427
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 78e754998c7adc871b57347ff0bed714db8cc83f
-ms.sourcegitcommit: adf1a87a677b8197c68bb28c44b7a58250d6fc51
+ms.openlocfilehash: d911a3a0afc01a55d24ae570383f7dfa035d736f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/21/2021
-ms.locfileid: "5035359"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135344"
 ---
 # <a name="set-up-payment-methods"></a>Definer betalingsmåter
 
@@ -33,14 +33,14 @@ Kreditnotaer for returer er imidlertid unntak fordi penger flyter i motsatte ret
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inneholder noen betalingsmåter som bedrifter bruker ofte. Du kan imidlertid legge til så mange du trenger.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Betalingsmåter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Betalingsmåter**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 Du kan eventuelt legge til betalingsbetingelser til betalingsmåten. Hvis du vil ha mer informasjon, kan du se [Definer betalingsbetingelser](finance-payment-terms.md).  
 
 ## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Slik tilordner du en betalingsmåte til en kunde eller leverandør
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kunde** eller **Leverandør**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kunde** eller **Leverandør** og velg den relaterte koblingen.
 2. I **Betalingsmåte - kode**-feltet velger du metoden som skal brukes som standard for kunden eller leverandøren.
 
 ## <a name="see-also"></a>Se også
@@ -49,3 +49,6 @@ Du kan eventuelt legge til betalingsbetingelser til betalingsmåten. Hvis du vil
 [Definer betalingsbetingelser](finance-payment-terms.md)  
 [Finans](finance.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

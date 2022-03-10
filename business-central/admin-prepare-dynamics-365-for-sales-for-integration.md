@@ -2,7 +2,6 @@
 title: Integrere med Dynamics 365 Sales.
 description: Lær hvordan du gjør Dynamics 365 Business Central klar til å integrere med Dynamics 365 Sales for å se hva som skjer på serverdelen.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,15 +9,15 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, integrating
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5aa6849ebb591622828eed1cd40f5bd7be58262d
-ms.sourcegitcommit: 641d7018f7ee21345a67651bfa4603e6dd2c4bab
+ms.openlocfilehash: c0c1d4504a75a07ead734ad74e67567129e43dd5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/27/2021
-ms.locfileid: "7865724"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130673"
 ---
 # <a name="integrating-with-dynamics-365-sales"></a>Integrere med Dynamics 365 Sales.
-[!INCLUDE[prod_short](includes/cc_data_platform_banner.md)]
+
 
 Selgerrollen regnes ofte som den mest synlige jobben i et konsern. Det kan imidlertid være nyttig for selgere å kunne se innover i konsernet, og se hva som skjer internt. Ved å integrere [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[crm_md](includes/crm_md.md)] kan du gi selgerne innsikt ved at de kan se informasjon i [!INCLUDE[prod_short](includes/prod_short.md)] når de arbeider i [!INCLUDE[crm_md](includes/crm_md.md)]. For eksempel, når du forbereder et tilbud, kan det være nyttig å vite om du har tilstrekkelig lagerbeholdning til å oppfylle ordren. Hvis du vil ha mer informasjon, kan du se [Bruke Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md).
 

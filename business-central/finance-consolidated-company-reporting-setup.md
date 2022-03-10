@@ -2,20 +2,20 @@
 title: Konfigurere selskapskonsolidering
 description: Lær hvordan du kan konfigurere hvordan data fra ulike selskaper i Business Central rapporteres til et konsolideringsselskap.
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: consolidation, subsidiaries, consolidate
-ms.date: 10/01/2020
+ms.search.form: 1826, 1827
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5f51e65930303cf3600edf54c2056b2bd938e718
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 2f28ea1822677e1690f5cf3b5fb68afca221b9f8
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5381041"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8149078"
 ---
 # <a name="set-up-company-consolidation"></a>Konfigurere selskapskonsolidering
 
@@ -30,6 +30,7 @@ Det finnes to måter å definere konsolideringen på, avhengig av forretningenes
 
 ## <a name="simple-consolidation-setup"></a>Enkelt konsolideringsoppsett
 
+[!INCLUDE [2021_releasewave1](includes/2021_releasewave1.md)]
 Hvis konsolideringen er enkel, for eksempel fordi du er eneeier av konsernene som skal konsolideres, vil veiledningen **Selskapskonsolidering** med assistert oppsett hjelpe deg gjennom følgende trinn:
 
 * Velg om du vil opprette et nytt konsolidert selskap eller om du vil konsolidere dataene i et selskap som allerede er opprettet for konsolidering. Selskapet kan ikke inneholde transaksjoner.
@@ -73,7 +74,7 @@ Følgende oversikt illustrerer viktige aspekter ved det konsoliderte selskapet.
 [!INCLUDE[prod_short](includes/prod_short.md)] lar deg sette opp en liste over konsern som skal konsolideres, bekrefte regnskapsdataene før du konsoliderer dem, importere filer og generere konsolideringsrapporter.  
 
 1. Logg deg på det konsoliderte selskapet.
-2. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsern**, og velg deretter den relaterte koblingen.  
+2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konsern**, og velg deretter den relaterte koblingen.  
 3. Velg **Ny**, og fyll deretter ut de obligatoriske feltene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
     > [!IMPORTANT]
@@ -88,7 +89,7 @@ Kontoplanen for et selskap som skal konsolideres, må angi kontoer for konsolide
 
 Hvis kontoplanen i konsernet er forskjellig fra det konsoliderte selskapet, må du klargjøre finanskonti for konsolidering. Du kan angi kontiene for å bokføre debet og kredit og metoden som skal brukes til å oversette valutaer i det konsoliderte selskapet. Dette er for eksempel nyttig hvis du kjører rapporten ofte.
 
-1. I hvert konserns [!INCLUDE [prod_short](includes/prod_short.md)] velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Kontoplan**, og velger deretter den relaterte koblingen.  
+1. I hvert konserns [!INCLUDE [prod_short](includes/prod_short.md)] velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kontoplan** og velger deretter den relaterte koblingen.  
 2. Åpne kortet for kontoen, og deretter fyller du ut feltene på **Konsolidering**-hurtigfanen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="specify-exchange-rates-for-consolidations"></a><a name="exchrates"></a>Angi valutakurser for konsolideringer
@@ -108,7 +109,7 @@ Tabellen nedenfor beskriver valutakursmetodene du kan bruke for kontoer.
 
 Du kan angi valutakurser for konserner ved å gjøre følgende:
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsern**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konsern**, og velg deretter den relaterte koblingen.  
 2. På siden **Konsernoversikt** velger du konsernet og velger deretter **Gjennomsnittskurs (manuell)**.  
 3. På siden **Endre valutakurs** har innholdet i feltet **Tilhørende valutakursbeløp** blitt kopiert fra **Valutakurs**-tabellen, men du kan endre det. Lukk siden.  
 4. Velg handlingen **Sluttkurs**.  

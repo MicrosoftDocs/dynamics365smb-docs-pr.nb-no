@@ -1,21 +1,20 @@
 ---
-title: Forstå montere til ordre og montere til lager | Microsoft-dokumentasjon
+title: Forstå montere til ordre og montere til lager
 description: Monteringsvarer kan leveres ved å montere dem når de bestilles, eller ved å montere dem og beholde dem på lageret før de er nødvendig i en ordre.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 04/01/2020
+ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: a8b5ab66b680b6c49226e308e6f2e17a0c2604f9
-ms.sourcegitcommit: 6200a08e91d507bab01d1d5b805fe8ea3f44a58a
+ms.openlocfilehash: 1f90e732f71e59f37aa4e81bd87101979ef8aa0b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/22/2020
-ms.locfileid: "3496803"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128954"
 ---
 # <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Forstå montere til ordre og montere til lager
 Monteringsvarer kan leveres i følgende to prosesser:  
@@ -72,20 +71,32 @@ Når du angir en montere-til-ordre-vare på en salgslinje, blir det automatisk o
 
  Tabellen nedenfor forklarer reglene som definerer minimums- og maksimumsverdiene som du kan angi i feltet **Antall å montere** for å avvike fra standardverdien i et kombinasjonsscenario. Tabellen viser et kombinasjonsscenario der feltet **Levere (antall)** i den koblede ordrelinjen er endret fra 7 til 4, og **Antall å montere** er derfor som standard satt til 4.  
 
-||Ordrelinje|Monteringsordrehode|  
-|-|----------------------|---------------------------|  
-||**Antall**|**Levere (antall)**|**Ant. som skal monteres til ordre**|**Levert (antall)**|**Antall**|**Antall å montere**|**Montert antall**|**Restantall**|  
-|Første|10|7|7|0|7|7|0|7|  
-|Endre||4||||4 (satt inn som standard)|||  
+- Ordrelinje
 
- Basert på situasjonen ovenfor kan du bare endre feltet **Antall å montere** som vist nedenfor:  
+    |                | **Antall** | **Levere (antall)** | **Ant. som skal monteres til ordre** | **Levert (antall)** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Opprinnelig verdi**| 10          | 7                | 7                             | 0                    |
+    |**Endring**      |              | 4                |                               |                      |
 
--   Minimumsantallet du kan angi, er 1. Dette er fordi du må montere minst én enhet for å kunne selge fire enheter, forutsatt at de gjenværende tre er tilgjengelig i lageret.  
--   Maksimumsantallet du kan angi, er 4. Dette sikrer at du ikke monterer flere montere-til-varer enn det som trengs på salget.  
+- Monteringsordrehode
 
-## <a name="see-also"></a>Se også  
+    |                | **Antall** | **Levere (antall)** | **Ant. som skal monteres til ordre** | **Levert (antall)** |
+    |----------------|--------------|------------------|-------------------------------|----------------------|
+    |**Opprinnelig verdi**| 7           | 7                | 0                             | 7                    |
+    |**Endring**      |              | 4 (satt inn som standard)|                         |                      |
+
+Basert på dette eksempelet ovenfor kan du bare endre feltet **Antall å montere** som vist nedenfor:  
+
+- Minimumsantallet du kan angi, er 1. Dette er fordi du må montere minst én enhet for å kunne selge fire enheter, forutsatt at de gjenværende tre er tilgjengelig i lageret.  
+- Maksimumsantallet du kan angi, er 4. Dette sikrer at du ikke monterer flere montere-til-varer enn det som trengs på salget.  
+
+## <a name="see-also"></a>Se også
+
 [Monteringsstyring](assembly-assemble-items.md)  
 [Arbeide med stykklister](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

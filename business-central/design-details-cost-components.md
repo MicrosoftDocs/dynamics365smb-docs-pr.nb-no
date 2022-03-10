@@ -2,20 +2,19 @@
 title: Designdetaljer – Kostkomponenter | Microsoft-dokumentasjon
 description: Kostkomponenter er ulike typer kostnader som utgjør verdien av en lagerøkning eller -reduksjon.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: c44ca651417bb9f2b66c009bf3cd51f4f3dc5ca8
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: ef7f0d170c76dc79627123ce76e036729b4d0bd0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5783875"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8143663"
 ---
 # <a name="design-details-cost-components"></a>Designdetaljer: Kostkomponenter
 Kostkomponenter er ulike typer kostnader som utgjør verdien av en lagerøkning eller -reduksjon.  

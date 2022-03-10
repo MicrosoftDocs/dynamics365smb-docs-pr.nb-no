@@ -2,26 +2,28 @@
 title: Norsk mva-rapportering [NO]
 description: Forbedringer i den norske versjonen av Business Central gjør det mulig for deg å beregne og rapportere mva. til de norske skattemyndighetene.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 737, 738, 10601, 10604
-ms.date: 01/25/2022
+ms.date: 01/31/2022
 ms.author: edupont
-ms.openlocfilehash: a215c79e822b4c5f146380a3a313228e8269a360
-ms.sourcegitcommit: 66c78f6f04bfca6c0794b3299241ed65037b1c08
+ms.openlocfilehash: e1ef6f81934d2bbfe05bcbef178e45e97f2439e1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 01/26/2022
-ms.locfileid: "8029528"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144158"
 ---
 # <a name="norwegian-vat-reporting-in-the-norwegian-version"></a>Norsk mva-rapportering i den norske versjonen
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] har funksjoner i den norske versjonen som gjør at du kan beregne og rapportere omsetningsoppgaver til de norske skattemyndighetene.  
 
 Dette emnet forklarer de vanlige trinnene du skal følge når du rapporterer norsk mva.  
+
+> [!IMPORTANT]
+> Denne artikkelen antar at du har definert mva-rapportering. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift](../../finance-setup-vat.md) og [Rapporter mva. til skattemyndigheter](../../finance-how-report-vat.md).
 
 ## <a name="set-up-business-central-to-generate-and-submit-electronic-vat-returns"></a>Konfigurere Business Central for å generere og sende inn elektroniske omsetningsoppgaver
 
@@ -128,7 +130,7 @@ Du kan vise informasjon om utlignede perioder på siden **Utlignet mva-periode**
 
 ## <a name="tradesettlement-report"></a>Rapport for omsetningsoppgave
 
-Før januar 2022 brukte du rapporten **Omsetningsoppgave** til å rapportere mva. Denne rapporten er ikke lenger beskrevet i denne artikkelen, men du kan lese om den i [Dynamics NAV 2018-dokumentasjonen](/previous-versions/dynamicsnav-2016/dn283106(v=nav.90)).  
+Før januar 2022 brukte du rapporten **Omsetningsoppgave** til å rapportere mva. Denne rapporten er ikke lenger beskrevet i denne artikkelen, men du kan lese om den i [Dynamics NAV 2016-dokumentasjonsarkivet](/previous-versions/dynamicsnav-2016/dn283106(v=nav.90)).  
 
 ## <a name="see-also"></a>Se også
 

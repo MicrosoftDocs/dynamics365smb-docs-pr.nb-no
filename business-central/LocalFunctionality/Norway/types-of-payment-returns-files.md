@@ -1,26 +1,24 @@
 ---
-title: Typer betalingsreturfiler
-description: 'Forbedringer i den norske versjonen omfatter to typer importerbare betalingsreturfiler:'
-services: project-madeira
-documentationcenter: ''
+title: Typer betalingsreturfiler [NO]
+description: Forbedringer i den norske versjonen omfatter to typer betalingsreturfiler som kan importeres i Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
+ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 67378fa23bb92fa42a758645a88ee0bb4cb9424b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: 039bf8fe5604a0d2727a61a694567b35e50282aa
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3777885"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132219"
 ---
-# <a name="types-of-payment-returns-files"></a>Typer betalingsreturfiler
-[!INCLUDE[d365fin](../../includes/d365fin_md.md)]omfatter to typer importerbare betalingsreturfiler:  
+# <a name="types-of-payment-returns-files-in-the-norwegian-version"></a>Typer betalingsreturfiler i den norske versjonen
+[!INCLUDE[prod_short](../../includes/prod_short.md)]omfatter to typer importerbare betalingsreturfiler:  
 
 - Mottaksreturer  
 - Avregningsreturer  
@@ -46,9 +44,9 @@ Følgende skjer når avregningsreturen leses inn:
 ## <a name="exchange-rates-by-settlement"></a>Valutakurser ved oppgjør  
 Ved oppgjør håndteres valutakurser på følgende måter:  
 
-- Betaling fra en konto i lokal valuta - Hvis en betaling i en annen valuta utføres fra en konto i NOK, flagger banken avregningsreturen med en advarsel om hvilken vekslingskurs som benyttes mellom NOK og valutaen som benyttes for betalingen.  
+- Betaling fra en konto i lokal valuta – Hvis en betaling i en annen valuta utføres fra en konto i LV, flagger banken avregningsreturen med en advarsel om hvilken vekslingskurs som benyttes mellom LV og valutaen som benyttes for betalingen.  
 
-- Betaling fra en valutakonto - Hvis betalingen utføres fra en valutakonto, benyttes vekslingskursen for denne valutaen og NOK. Dette fordi banken ikke informerer systemet om valutakursen.  
+- Betaling fra en valutakonto – Hvis betalingen utføres fra en valutakonto, benyttes vekslingskursen for denne valutaen og LV. Dette fordi banken ikke informerer systemet om valutakursen.  
 
 ## <a name="warnings-on-settlement-returns"></a>Advarsler i avregningsreturer  
 Det kan forekomme advarsler når avregningsreturen leses inn. Innbetalingskladdelinjer med advarsler er merket med et symbol. Hvis du vil vite mer om advarselen, kan du åpne siden **Avregningsopplysninger**.  
@@ -69,3 +67,6 @@ Det kan forekomme advarsler når avregningsreturen leses inn. Innbetalingskladde
  [Remitteringsfeil](remittance-errors.md)   
  [Vise remitteringsfeilkoder](how-to-view-remittance-error-codes.md)   
  [Annullere betalinger](how-to-cancel-payments.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

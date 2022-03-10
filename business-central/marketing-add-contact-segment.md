@@ -4,26 +4,25 @@ description: Når du har opprettet et segment, kan du legge til kontakter i segm
 services: project-madeira
 documentationcenter: ''
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: marketing, campaign, promo, prospect, contact, client, customer
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 14fcd5059bf270a3845cf9f96762c424c372323c
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 975a6e769bbba3a32451fc1e9fda54da9cad401b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4749883"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8135214"
 ---
 # <a name="add-contacts-to-segments"></a>Legge til kontakter i segmenter
 Etter at du har opprettet et segment og angitt grunnleggende opplysninger om segmentet, kan det være du vil legge til kontakter i segmentet. Dette kan du gjøre ved å fylle ut linjene manuelt på siden **Segment**, men det enkleste og raskeste er å bruke handlingen **Legg til kontakter**.
 
 ## <a name="to-add-a-contact-to-a-segment"></a>Slik legger du til en kontakt i et segment:
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Segmenter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Segmenter**, og velg deretter den relaterte koblingen.  
 2. Velg segmentet, og velg deretter handlingen **Legg til kontakter**. Siden for kjørselen **Legg til kontakter** åpnes.
 3. I inndelingen **Kontakt** definerer du filtre for å angi opplysningene du vil velge kontakter etter.
 
@@ -58,3 +57,6 @@ Du kan redusere et segment så mange ganger du vil. Velg handlingen **Gå tilbak
 [Håndtere segmenter](marketing-segments.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

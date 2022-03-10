@@ -1,30 +1,29 @@
 ---
-title: Sette opp remitteringsavtaler
-description: Du må undertegne en avtale om remittering med banken når du oppretter elektroniske betalinger. Du kan sette opp mer enn én remitteringsavtale hvis du har en avtale med to eller flere banker.
-services: project-madeira
-documentationcenter: ''
+title: Sette opp remitteringsavtaler [NO]
+description: Du må undertegne en avtale om remittering med banken når du oppretter elektroniske betalinger i den norske versjonen av Business Central.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
+ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: e6e765175959b2b195d5c13405f61680858d64d7
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 84ea18c64927b4ea5e51fea933ea2d60704c65fd
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5770992"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142646"
 ---
-# <a name="set-up-remittance-agreements"></a>Sette opp remitteringsavtaler
+# <a name="set-up-remittance-agreements-in-the-norwegian-version"></a>Sett opp remitteringsavtaler i den norske versjonen
+
 Du må undertegne en avtale om remittering med banken når du oppretter elektroniske betalinger. Du kan sette opp mer enn én remitteringsavtale hvis du har en avtale med to eller flere banker. For hver avtale må du spesifisere én eller flere kontoer som betalingen skal utføres fra. Du må opprette en remitteringskonto for hver konto. For mer informasjon, se [Sette opp remitteringskontoer](how-to-create-remittance-accounts.md).  
 
 ## <a name="to-set-up-a-remittance-agreement"></a>Slik setter du opp en remitteringsavtale  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Remitteringsavtaleoversikt**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Remitteringsavtaleoversikt**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  I hurtigfanen **Generelt** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 

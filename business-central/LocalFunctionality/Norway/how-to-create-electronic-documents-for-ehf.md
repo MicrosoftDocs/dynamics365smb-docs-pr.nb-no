@@ -2,20 +2,19 @@
 title: Opprette elektroniske dokumenter for EHF
 description: Når du selger varer eller tjenester til en kunde i offentlig sektor, må du sende dokumenter elektronisk.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c98c2970ba63b85a961f0e4ca14f01f2982f4c0a
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 4aaff44495f4442ca5d99ba80c6c0de8a655c238
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5383534"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142655"
 ---
 # <a name="create-electronic-documents-for-ehf"></a>Opprette elektroniske dokumenter for EHF
 Når du selger varer eller tjenester til en kunde i offentlig sektor, må du sende dokumenter elektronisk.  I [!INCLUDE[prod_short](../../includes/prod_short.md)] kan du opprette elektroniske dokumenter for fakturaer, kreditnotaer, purringer og rentenotaer. Før du kan opprette elektroniske dokumenter, må du angi filplasseringen og opplysninger om kundene. Hvis du vil ha mer informasjon, kan du se [Sette opp EHF](how-to-set-up-ehf.md) og [Sette opp kunder for EHF](how-to-set-up-customers-for-ehf.md).
@@ -27,7 +26,7 @@ Du kan bare opprette elektroniske dokumenter etter at et dokument er bokført el
 
 ## <a name="to-post-a-sales-invoice"></a>Slik bokfører du en salgsfaktura:  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
 2.  Velg salgsfakturaen du vil bokføre, og velg deretter **Rediger**.  
 3.  På **Generelt**-hurtigfanen kontrollerer du at disse feltene inneholder verdier:  
 
@@ -54,7 +53,7 @@ Du kan bare opprette elektroniske dokumenter etter at et dokument er bokført el
 
 ## <a name="to-create-an-electronic-sales-invoice"></a>Slik oppretter du en elektronisk salgsfaktura:  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](../../media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Bokførte salgsfakturaer**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokførte salgsfakturaer**, og velg deretter den relaterte koblingen.  
 2.  Velg den aktuelle salgsfakturaen.  
 3.  Velg handlingen **Opprett elektronisk faktura**.  
 

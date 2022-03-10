@@ -1,1 +1,1 @@
-Dette er tidlig versjonsfunksjonalitet som vi fremdeles arbeider på. Funksjonaliteten og innhold på denne siden er kan endres. Hvis du vil lære om hva som kommer, kan du se [Microsoft Dynamics 365 Business Central-utgivelsesplan](https://go.microsoft.com/fwlink/?linkid=2047422).
+Dette er tidlig versjonsfunksjonalitet som vi fremdeles arbeider på. Funksjonaliteten og innhold på denne siden er kan endres. Hvis du vil lære om hva som kommer, kan du se [Microsoft Dynamics 365 Business Central-utgivelsesplanen](/dynamics365/release-plans/).

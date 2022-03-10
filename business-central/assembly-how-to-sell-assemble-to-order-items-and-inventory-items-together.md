@@ -1,23 +1,20 @@
 ---
-title: Selge montere-til-ordre-varer og lagervarer sammen | Microsoft-dokumentasjon
-description: Hvis en monteringsvare er definert for Monter til lager, forutsetter standard ordreprosess at varen allerede er montert og kan plukkes fra lager, hvis den er tilgjengelig. Men hvis det er en del av (eller hele) antallet som ikke er tilgjengelig, må du å opprette en monteringsordre for det gjenværende antallet direkte.
-services: project-madeira
-documentationcenter: ''
+title: Selge montere til ordre-varer og lagervarer sammen
+description: Hvis det er en del av en monteringsvare er konfigurert for montere-til-lager ikke er tilgjengelig, må du å opprette en monteringsordre for det gjenværende antallet.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: kit, kitting
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 95feecd98debfe6595ca66b23bf38085f245f025
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/14/2021
+ms.author: edupont
+ms.openlocfilehash: f94f18c93bb2b204b798f7709d0b062851d61989
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2304121"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148749"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Selge montere til ordre-varer og lagervarer sammen
 Hvis **Monteringsprinsipp**-feltet på varekortet for en monteringsvare inneholder **Monter til lager**, forutsetter standard ordreprosess at varen allerede er montert og kan plukkes fra lager, hvis den er tilgjengelig. Ingen monteringsordre blir derfor automatisk opprettet og koblet til ordrelinjen. Hvis en del av (eller hele) antallet imidlertid ikke er tilgjengelig, kan du opprette en monteringsordre for restantallet ved å fylle ut feltet **Ant. som skal monteres til ordre** på ordrelinjen. Slik kan du montere varen til ordre selv om den er definert slik at den monteres til lager som standard.  
@@ -45,4 +42,7 @@ Det finnes en lignende fleksibilitet når du selger varer som skal monteres til 
 [Arbeide med stykklister](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

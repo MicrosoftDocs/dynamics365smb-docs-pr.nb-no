@@ -2,20 +2,19 @@
 title: Designdetaljer – Lagerbokføring | Microsoft-dokumentasjon
 description: Hver lagertransaksjon, for eksempel et kjøpsmottak eller en følgeseddel, bokfører to postene av forskjellige typer.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/19/2020
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: f95d82b3dc73b50f310fe2d4932d78a450f9b21b
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: edff39ccb01cc7da7e8a0387a4737088b0be231d
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3787724"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138651"
 ---
 # <a name="design-details-inventory-posting"></a>Designdetaljer: Lagerbokføring
 
@@ -32,13 +31,13 @@ Hver lagertransaksjon, for eksempel et kjøpsmottak eller en følgeseddel, bokf�
 
  Med jevne mellomrom vil verdiposter som opprettes i vareopptellingen, bli bokført til finans for å avstemme de to postene for økonomisk styring. Hvis du vil ha mer informasjon, se [Designdetaljer: Avstemming med konti i Finans](design-details-reconciliation-with-the-general-ledger.md).  
 
- ![Postflyt ved avstemming av lager med finans](media/design_details_inventory_costing_1_entry_flow.png "Postflyt ved avstemming av lager med finans")  
+ ![Postflyt ved avstemming av lager med finans.](media/design_details_inventory_costing_1_entry_flow.png "Postflyt ved avstemming av lager med finans")  
 
 ## <a name="example"></a>Eksempel
 
 Følgende eksempel viser hvordan vareposter, verdiposter og vareutligningsposter resulterer i finansposter.  
 
- Du bokfører en bestilling som mottatt og fakturert for 10 varer med en direkte enhetskost på NOK 7 og en sats for indirekte kostnader på NOK 1. Bokføringsdatoen er 01-01-20. Følgende poster opprettes:  
+ Du bokfører en bestilling som mottatt og fakturert for 10 varer med en direkte enhetskost på LV 7 og en sats for indirekte kostnader på LV 1. Bokføringsdatoen er 01-01-20. Følgende poster opprettes:  
 
 ### <a name="item-ledger-entries-1"></a>Vareposter (1)
 
@@ -134,4 +133,7 @@ Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføre monteringsor
  [Designdetaljer: Konti i Finans](design-details-accounts-in-the-general-ledger.md)  
  [Designdetaljer: Kostkomponenter](design-details-cost-components.md) [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

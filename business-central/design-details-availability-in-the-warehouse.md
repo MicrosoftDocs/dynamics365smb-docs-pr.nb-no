@@ -1,23 +1,20 @@
 ---
 title: Designdetaljer – Tilgjengelighet i lageret | Microsoft-dokumentasjon
 description: Systemet må holde konstant kontroll over varedisposisjon på lageret, slik at utgående ordrer kan flyte effektivt og gi optimale leveringer.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 67e30773683fbf8497a1668e1c4ca3d176e0781e
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/08/2021
+ms.author: edupont
+ms.openlocfilehash: 670fbfc0f7e576f92ef26e31418d0d44f6262eec
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2303799"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132084"
 ---
 # <a name="design-details-availability-in-the-warehouse"></a>Designdetaljer: Tilgjengelighet i lageret
 Systemet må holde konstant kontroll over varedisposisjon på lageret, slik at utgående ordrer kan flyte effektivt og gi optimale leveringer.  
@@ -49,7 +46,7 @@ Hvis én eller flere betingelser ikke er oppfylt, kan forskjellige feilmeldinger
 
  Diagrammet nedenfor viser de ulike elementene i beregningen.  
 
- ![Disponibelt for plukking med reservasjonsoverlapping](media/design_details_warehouse_management_availability_2.png "Disponibelt for plukking med reservasjonsoverlapping")  
+ ![Disponibelt for plukking med reservasjonsoverlapping.](media/design_details_warehouse_management_availability_2.png "Disponibelt for plukking med reservasjonsoverlapping")  
 
 ## <a name="quantity-available-to-reserve"></a>Antall tilgjengelig for reservasjon  
  Siden konsepter for hylleinnhold og reservasjon sameksisterer, må antall varer som er tilgjengelige for reservasjon, justeres etter tildelinger til utgående lagerdokumenter.  
@@ -74,8 +71,11 @@ Hvis én eller flere betingelser ikke er oppfylt, kan forskjellige feilmeldinger
 
  Diagrammet nedenfor viser de ulike elementene i beregningen.  
 
- ![Disponibelt for reservering per lagerlokasjon](media/design_details_warehouse_management_availability_3.png "Disponibelt for reservering per lagerlokasjon")  
+ ![Disponibelt for reservering per lagerlokasjon.](media/design_details_warehouse_management_availability_3.png "Disponibelt for reservering per lagerlokasjon")  
 
 ## <a name="see-also"></a>Se også  
  [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
- [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md)
+ [Vis tilgjengeligheten av varer](inventory-how-availability-overview.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

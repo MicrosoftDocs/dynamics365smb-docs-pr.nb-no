@@ -1,21 +1,20 @@
 ---
-title: Definere lokasjoner slik at de bruker hyller | Microsoft-dokumentasjon
-description: Hyller representerer den enkle lagerstrukturen og brukes til å komme med forslag om plasseringen av varer. Når du har opprettet hyllene, kan du definere det innholdet du vil plassere i hver hylle, svært spesifikt, eller hyllen kan fungere som en mobil hylle uten angitt innhold.
+title: Definere lokasjoner slik at de bruker hyller
+description: Hyller representerer den enkle lagerstrukturen og brukes til å komme med forslag om plasseringen av og lokasjonen til varer.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3d4dbe699877715416795a943f461bf5dde244be
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: 06693ce5e02256e7f0b8d54788849c146ed9dcb1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755970"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129495"
 ---
 # <a name="set-up-locations-to-use-bins"></a>Definere lokasjoner slik at de bruker hyller
 Hyller representerer den enkle lagerstrukturen og brukes til å komme med forslag om plasseringen av varer. Når du har opprettet hyllene, kan du definere det innholdet du vil plassere i hver hylle, svært spesifikt, eller hyllen kan fungere som en mobil hylle uten angitt innhold.  
@@ -26,7 +25,7 @@ Når du skal bruke hyllen funksjonelt på en lokasjon, må du først aktivere fu
 >  Før du kan angi hyllekoder på lokasjonskortet, må hyllekodene være opprettet. Hvis du vil ha mer informasjon, kan du se [Opprette hyller](warehouse-how-to-create-individual-bins.md).  
 
 ## <a name="to-set-up-a-location-to-use-bins"></a>Sette opp en lokasjon til å bruke hyller  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Velg lokajonen der du vil bruke hyller.  
 3.  Velg handlingen **Rediger**.  
 4.  På hurtigfanen **Lager** merker du av for **Hylle obligatorisk**.  
@@ -41,7 +40,7 @@ Når du skal bruke hyllen funksjonelt på en lokasjon, må du først aktivere fu
 ## <a name="filling-the-consumption-bin"></a>Fylle forbrukshyllen
 Dette flytdiagrammet viser hvordan **Hyllekode**-feltet på produksjonsordrekomponentlinjer fylles ut i henhold til lokasjonsoppsettet.
 
-![Flytskjema for hylle](media/binflow.png "BinFlow")  
+![Flytskjema for hylle.](media/binflow.png "BinFlow")  
 
 ## <a name="see-also"></a>Se også
 [Lagerstyring](warehouse-manage-warehouse.md)  
@@ -50,3 +49,6 @@ Dette flytdiagrammet viser hvordan **Hyllekode**-feltet på produksjonsordrekomp
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

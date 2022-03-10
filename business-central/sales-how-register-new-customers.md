@@ -1,21 +1,21 @@
 ---
-title: Registrer nye kunder ved å opprette et kundekort
+title: Registrere nye kunder ved å opprette et kundekort (inneholder video)
 description: Beskriver hvordan du oppretter et kundekort for å registrere informasjon om hver nye kunde eller klient du selger til.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: client, customer, credit
-ms.date: 04/01/2021
+ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
+ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: bb323a5cceb4988035d442d6bc8347125f927bf4
-ms.sourcegitcommit: a7cb0be8eae6ece95f5259d7de7a48b385c9cfeb
+ms.openlocfilehash: f1b37df909e482f9f4102eab70ce82cdef999a12
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/08/2021
-ms.locfileid: "6436754"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137006"
 ---
 # <a name="register-new-customers"></a>Registrere nye kunder
 
@@ -26,25 +26,18 @@ Før du kan registrere nye kunder, må du definere forskjellige salgskoder som d
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Legge til nye kunder
+Du kan legge til nye kunder manuelt ved å fylle ut feltene på siden **Kundekort**, eller du kan bruke maler som inneholder forhåndsdefinert informasjon. Du kan for eksempel opprette maler for ulike typer kundeprofiler. Når du bruker maler, sparer du tid når du legger til nye kunder og bidrar til å sikre at informasjonen er riktig hver gang. Hvis du oppretter maler for mer enn én kundetype, kan du velge hvilken mal du vil bruke når du legger til en kunde. Hvis du oppretter bare én mal, brukes den for alle nye kunder. Når du har opprettet en mal, kan du bruke handlingen **Bruk mal** til å bruke den på en eller flere utvalgte kunder. Når du skal opprette en mal, fyller du ut informasjonen du vil bruke på nytt på siden Kundekort, og deretter lagrer du den som en mal. Hvis du vil ha mer informasjon, kan du se delen [Slik lagrer du kundekortet som en mal](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
-Hvis du vil registrere en ny kunde, må du fylle ut et kundekort. Du kan opprette maler for ulike kundeprofiler, eller du kan legge til kunder uten maler. Du kan også opprette en kunde fra en kontakt. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du en kontakt, leverandør, ansatt eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
+> [!TIP]
+> Det kan være nyttig å tilpasse siden **Kundemal** når du oppretter en mal. Det kan for eksempel hende at du vil legge til feltet **Kredittgrense** i en mal. Hvis du vil ha mer informasjon, kan du se [Tilpass arbeidsområdet](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-> [!NOTE]  
-> Hvis det finnes kundemaler for ulike kundetyper, vises en side når du oppretter et nytt kundekort der du kan velge en passende mal. Hvis det bare finnes én kundemal, brukes alltid denne malen i nye kundekort.  
+Du kan også opprette en kunde fra en kontakt. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du en kontakt, leverandør, ansatt eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
 ### <a name="to-create-a-new-customer-card"></a>Opprette et nytt kundekort
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.  
-2. På siden **Kunder** velger du handlingen **Ny**.
+[!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
-    Hvis det bare finnes én kundemal, åpnes et nytt kundekort med noen felt som er fylt ut med informasjon fra malen.
-
-    Hvis det finnes mer enn én kundemal, åpnes en side der du kan velge en kundemal. I det tilfellet følger du de to neste trinnene.
-3. På siden **Velg en mal for en ny kunde** velger du malen som du vil bruke for det nye kundekortet.
-4. Velg **OK**. Det åpnes et nytt kundekort med noen felt som er fylt ut med informasjon fra malen.  
-5. Fortsette med å fylle ut eller endre feltet på kundekortet etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-
-I hurtigfanen **Salgspriser** kan du vise spesialpriser eller rabatter som skal gis til kunden hvis bestemte kriterier oppfylles, for eksempel vare, minimumsordreantall eller sluttdato. Hver rad representerer en spesialpris eller linjerabatt. Hver kolonne representerer et vilkår som må brukes for å garantere spesialprisen du angir i feltet **Enhetspris**, eller linjerabatten du angir i feltet **Linjerabatt-%**. Hvis du vil ha mer informasjon, kan du se [Registrere avtaler om salgspris, rabatt og betaling](sales-how-record-sales-price-discount-payment-agreements.md).
+Handlingen **Priser og rabatter** gir alternativer for å administrere spesialpriser eller rabatter for kunden når en bestilling oppfyller bestemte kriterier. Kriteriene kan for eksempel være når de kjøper en bestemt vare, bestiller et minimumsantall eller kjøper før en dato, for eksempel når en kampanje avsluttes. Hvis du vil ha mer informasjon, kan du se [Registrere avtaler om salgspris, rabatt og betaling](sales-how-record-sales-price-discount-payment-agreements.md).
 
 Kunden er nå registrert, og kundekortet er klart til å brukes på salgsdokumenter.
 

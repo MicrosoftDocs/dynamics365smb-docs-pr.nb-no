@@ -1,21 +1,20 @@
 ---
-title: Anbefalte fremgangsmåter for oppsett -– forsyningsplanlegging | Microsoft-dokumentasjon
-description: Forsyningsplanlegging er et viktig forretningsområde. Når forsyningsplanlegging konfigureres og brukes på rett måte, kan det hjelpe et selskap med å unngå at det blir tomt for en vare på lager, og både bestillingskostnader og lagerkostnader kan reduseres.
+title: Anbefalte fremgangsmåter for oppsett – Forsyningsplanlegging
+description: Når forsyningsplanlegging konfigureres og brukes på rett måte, kan det hjelpe et selskap med å unngå at det blir tomt for en vare på lager, og både bestillingskostnader og lagerkostnader kan reduseres.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 852e0f7aa023d29fe21a2c2573f9fafef0062522
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: eb2ae1ab65a777ab928d38ee62de56f9995e9554
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5388127"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8132553"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging
 Forsyningsplanlegging er et viktig forretningsområde. Når forsyningsplanlegging konfigureres og brukes på rett måte, kan det hjelpe et selskap med å unngå at det blir tomt for en vare på lager, og både bestillingskostnader og lagerkostnader kan reduseres.  

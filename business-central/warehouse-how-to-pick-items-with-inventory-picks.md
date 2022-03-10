@@ -1,21 +1,20 @@
 ---
-title: Plukke varer med lagerplukk | Microsoft-dokumentasjon
-description: Hvis en lokasjon er definert til å kreve plukkbehandling, men ikke leveringsbehandling, bruker du lagerplukkdokumentene til å registrere og bokføre plukkings- og leveringsopplysninger for kildedokumentene.
+title: Plukke varer med lagerplukk
+description: Hvis en lokasjon er definert til å kreve plukkbehandling, men ikke levering, bruker du lagerplukkdokumentene til å registrere og bokføre plukkings- og leveringsopplysninger for kildedokumentene.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/25/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e07f50396e0bf892c78484f16c23bd76c1a45398
-ms.sourcegitcommit: a80afd4e5075018716efad76d82a54e158f1392d
+ms.openlocfilehash: b0f0bf09670620a36ee696fdc9d1483a2c33f77b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2020
-ms.locfileid: "3779464"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144336"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Plukke varer med lagerplukk
 
@@ -36,7 +35,7 @@ Du kan opprette lagerplukk på tre måter:
 
 Når det gjelder ordrer, bestillingsreturer og utgående overføringsordrer, oppretter du lagerforespørselen ved å frigi ordren. Fremgangsmåten nedenfor beskriver hvordan dette gjøres fra en ordre.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Ordrer**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
 2. Velg ordren som skal frigis, og velg deretter **Frigi**-handlingen.
 
 Når det gjelder produksjonsordrer, oppretter du automatisk lagerforespørselen for plukking av komponenter, som kalles *trekk*, når produksjonsordrestatus endres til **Frigitt** eller når den frigitte produksjonsordren opprettes. Hvis du vil ha mer informasjon, kan du se [Plukke for produksjon eller montering](warehouse-how-to-pick-for-production.md).
@@ -47,7 +46,7 @@ Når lagerforespørselen er opprettet, kan lageransatte som er tilordnet arbeide
 
 Nå som forespørselen er opprettet, kan den lageransatte opprette et nytt lagerplukk basert på det frigitte kildedokumentet.
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerplukk**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerplukk**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
     Pass på at **Nr.** -feltet i hurtigfanen **Generelt** er fylt ut.
 3. Velg hvilken type kildedokument du plukker for, i **Kildedokument**-feltet.  
@@ -63,7 +62,7 @@ Nå som forespørselen er opprettet, kan den lageransatte opprette et nytt lager
 
 ## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Slik oppretter du flere lagerplukk med en kjørsel:
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Opprett plassering/plukk for lager**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Opprett plassering/plukk for lager**, og velg deretter den relaterte koblingen.  
 2. På hurtigfanen **Lagerforespørsel** bruker du filtrene **Kildedokumentet** og **Kildenr.** for å filtrere etter bestemte dokumenttyper eller dokumentnummerintervaller. Du kan for eksempel bare opprette plukk for ordrer.  
 3. Merk av for **Opprett lagerplukking** på hurtigfanen **Alternativer**.
 4. Velg **OK**. De angitte lagerplukkingene blir opprettet.
@@ -75,7 +74,7 @@ Nå som forespørselen er opprettet, kan den lageransatte opprette et nytt lager
 
 ## <a name="to-record-the-inventory-picks"></a>Slik registrerer du lagerplukk
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerplukk**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Lagerplukk**, og velg deretter den relaterte koblingen.  
 2. I **Hyllekode**-feltet på plukklinjene foreslås hyllen som varene skal plukkes fra, per varens standardhylle. Du kan endre hylle på denne siden hvis det er nødvendig.  
 3. Utfør plukkingen, og angi opplysninger om det faktiske plasseringsantallet i feltet **Ant. som skal håndt**.
 
@@ -99,7 +98,7 @@ Hvis varer på lagerplukkingen ikke er tilgjengelige, kan du slette disse lagerp
 
 Varer som skal leveres er ikke fysisk til stede i en hylle før de er montert og bokført som avgang til en hylle i monteringsområdet. Dette betyr at plukking av monter-til-ordre-varer til levering følger en spesiell flyt. Lagermedarbeidere tar monteringsvarene fra en hylle til leveringssonen og bokfører deretter lagerplukkingen. Det bokførte lagerplukket bokfører deretter monteringsavgangen, komponentforbruket og følgeseddelen.
 
-Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til å automatisk opprette en lagerflytting når lagerplukkingen for monteringsvaren opprettes. Hvis du vil aktivere dette, må du velge feltet **Opprett flyttinger automatisk** på siden **Monteringsoppsett**. Hvis du vil ha mer informasjon, kan du se [Flytte komponenter til et operasjonsområde i grunnleggende lagerstyring](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til å automatisk opprette en lagerflytting når lagerplukkingen for monteringsvaren opprettes. Hvis du vil aktivere dette, må du velge feltet **Opprett flyttinger automatisk** på siden **Monteringsoppsett**. Hvis du vil ha mer informasjon, kan du se [Flytte komponenter til et operasjonsområde i grunnleggende lagerstyring](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 
 Lagerplukklinjer for salgsvarer opprettes på forskjellige måter avhengig av om ingen, noen eller alle salgslinjeantallene er montert til ordre.
 
@@ -121,4 +120,7 @@ I kombinasjonsscenarier, der en del av antallet først må monteres og en annen 
 [Monteringsstyring](assembly-assemble-items.md)  
 [Gjennomgang: Plukking og levering i grunnleggende lageroppsett](walkthrough-picking-and-shipping-in-basic-warehousing.md)  
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

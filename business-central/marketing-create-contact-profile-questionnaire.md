@@ -1,21 +1,20 @@
 ---
 title: Bruke profiler til å klassifisere kontakter
-description: Konfigurere profilspørreskjemaer til å klassifisere forretningskontaktene
+description: Les om hvordan du definerer profilspørreskjemaer for å bidra til å klassifisere forretningskontaktenes profiler.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: contacts, profiles
 ms.author: edupont
-ms.date: 10/01/2020
-ms.openlocfilehash: 65c27bee86d273c467709f1e238b996829d73f37
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.date: 06/22/2021
+ms.openlocfilehash: 42ef7c92d138d717f10eb98a7fa9208eaf73ef54
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4755445"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140868"
 ---
 # <a name="use-profile-questionnaires-to-classify-business-contacts"></a>Bruke profilspørreskjemaer til å klassifisere forretningskontakter
 Du kan definere profilspørreskjemaer du vil bruke når du angir opplysninger om profiler for kontaktene. Du kan definere de ulike spørsmålene du vil spørre kontaktene om, i hvert enkelt spørreskjema.  
@@ -23,7 +22,7 @@ Du kan definere profilspørreskjemaer du vil bruke når du angir opplysninger om
 Du kan også kjøre spørreskjemaet for å besvare noen av spørsmålene automatisk basert på data om kontakter, kunder eller leverandører.  
 
 ## <a name="to-add-a-profile-questionnaire"></a>Slik legger du til et profilspørreskjema:
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Spørreskjemaoppsett**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Spørreskjemaoppsett**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
@@ -49,112 +48,36 @@ Du kan klassifisere kontaktene automatisk etter opplysninger om kunde, leverand�
 Etter at du har definert automatisk besvaring av profilspørsmål, tilordner [!INCLUDE[prod_short](includes/prod_short.md)] automatisk riktige svar for en kontakt hvis du tilordner profilspørreskjemaet som inneholder disse spørsmålene, til kontakten.  
 
 ## <a name="example"></a>Eksempel
+
 Du kan klassifisere kontakter etter hvor mye de handler:
 
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Svar</strong></th>
-<th><strong>Gjelder</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>A</p></td>
-<td><p>kontakter som kjøpte for NOK 500 000 eller mer</p></td>
-</tr>
-<tr class="even">
-<td><p>B</p></td>
-<td><p>kontakter som kjøpte for NOK 100 000 til 499 999</p></td>
-</tr>
-<tr class="odd">
-<td><p>U</p></td>
-<td><p>kontakter som kjøpte for NOK 99 999 eller mindre</p></td>
-</tr>
-</tbody>
-</table>
+|Svar|Gjelder|
+|--- |--- |
+|A|kontakter som kjøpte for LV 500 000 eller mer|
+|B|kontakter som kjøpte for LV 100 000 til 499 999|
+|U|kontakter som kjøpte for LV 99 999 eller mindre|
 
 Du gjør dette ved å fylle ut siden **Profilspørreskjema - oppsett** slik:
 
-
-<table>
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Type</strong></th>
-<th><strong>Beskrivelse</strong></th>
-<th><strong>Automatisk klassifisering</strong></th>
-<th><strong>Fra verdi</strong></th>
-<th><strong>Til verdi</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Spørsmål</p></td>
-<td><p>ABC-klassifisering</p></td>
-<td><p>Klikk for å sette en hake</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-</tr>
-<tr class="even">
-<td><p>Svar</p></td>
-<td><p>A</p></td>
-<td><p> </p></td>
-<td><p>500,000</p></td>
-<td><p> </p></td>
-</tr>
-<tr class="odd">
-<td><p>Svar</p></td>
-<td><p>B</p></td>
-<td><p> </p></td>
-<td><p>100,000</p></td>
-<td><p>499,999</p></td>
-</tr>
-<tr class="even">
-<td><p>Svar</p></td>
-<td><p>U</p></td>
-<td><p> </p></td>
-<td><p> </p></td>
-<td><p>99,999</p></td>
-</tr>
-</tbody>
-</table>
+| Type     | Beskrivelse        | Automatisk klassifisering     | Fra verdi | Til verdi |
+|----------|--------------------|------------------------------|------------|----------|
+| Spørsmål | ABC-klassifisering | Klikk for å sette en hake |            |          |
+| Svar   | A                  |                              | 500,000    |          |
+| Svar   | B                  |                              | 100,000    | 499,999  |
+| Svar   | U                  |                              |            | 99,999   |
 
 Fyll deretter ut siden **Profilspørsmålsopplysninger** på følgende måte:
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><strong>Felt</strong></th>
-<th><strong>Verdi</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Kundeklassifiseringsfelt</strong></td>
-<td><emphasis>Salg (NOK)</emphasis></td>
-</tr>
-<tr>
-<td><strong>Klassifiseringsmåte</strong></td>
-<td><emphasis>Definert verdi</emphasis></td>
-</tr>
-</tbody>
-</table>
+
+| Felt                         | Verdi         |
+|-------------------------------|---------------|
+| Kundeklassifiseringsfelt | Salg (LV)   |
+| Klassifiseringsmåte         | Definert verdi |
 
 Når du tilordner profilspørreskjemaet som inneholder dette spørsmålet, til en kontakt, angir programmet automatisk riktig svar for denne kontakten på profillinjene på kontaktkortet.
 
 ## <a name="see-also"></a>Se også
+
 [Opprette kontakter](marketing-create-contact-companies.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

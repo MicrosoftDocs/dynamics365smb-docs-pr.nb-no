@@ -1,23 +1,22 @@
 ---
-title: Planlegge serviceprosesser | Microsoft-dokumentasjon
-description: Gir en oversikt over oppgaver for å definere regler og verdier som definerer serviceprinsipper og -prosesser.
+title: Planlegge serviceprosesser
+description: Dette emnet gir en oversikt over ulike oppgaver for å definere regler og verdier som definerer serviceprinsipper og -prosesser.
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: service, work hours, configure, price, pricing
-ms.date: 04/01/2021
+ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: eaf6f55e807ef9630d9e8f50c71676e86c296b8d
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 98cd4b41a8e47f045c89ebc31813a07e9f3a46bf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5778175"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134798"
 ---
 # <a name="planning-services"></a>Planlegge servicer
 Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du definere standardoppgaver som er nødvendige for å oppfylle kundeservicekravene. For å gjøre dette må du fastsette hvilke tilbud av servicevarer som serviceorganisasjon støtter og til hvilken pris.   

@@ -2,20 +2,19 @@
 title: Designdetaljer – Bokføre produksjonsordre | Microsoft-dokumentasjon
 description: De forbrukte komponentene og den brukte maskintiden konverteres og avgis som den produserte varen når produksjonsordren er ferdig, på lignende måte som ved bokføring av monteringsordrer.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: b64fc6117ce1b241152a94e0c0006c1dbe66c542
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 21dfc90e25c33c26bc739ff32274d0a5088a6e2f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5390728"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146569"
 ---
 # <a name="design-details-production-order-posting"></a>Designdetaljer: Bokføre produksjonsordre
 De forbrukte komponentene og den brukte maskintiden konverteres og avgis som den produserte varen når produksjonsordren er ferdig, på lignende måte som ved bokføring av monteringsordrer. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md). Kostnadsflyten for monteringsordrer er imidlertid mindre komplisert, spesielt fordi bokføring av monteringskost bare forekommer én gang og derfor ikke genererer lager for varer i arbeid.
@@ -58,11 +57,11 @@ Bokføring av produksjonsordrer i VIA-beholdningen omfatter avgang, forbruk og k
 
 Diagrammet nedenfor viser de involverte bokføringsrutinene i kodeenhet 22.  
 
-![Bokføringsrutiner for produksjonsordrer](media/design_details_inventory_costing_14_production_posting_1.png "Bokføringsrutiner for produksjonsordrer")  
+![Bokføringsrutiner for produksjonsordrer.](media/design_details_inventory_costing_14_production_posting_1.png "Bokføringsrutiner for produksjonsordrer")  
 
 Diagrammet nedenfor viser tilknytningene mellom de resulterende postene og kostobjektene.  
 
-![Produksjonspostflyt](media/design_details_inventory_costing_14_production_posting_2.png "Produksjonspostflyt")  
+![Produksjonspostflyt.](media/design_details_inventory_costing_14_production_posting_2.png "Produksjonspostflyt")  
 
 Kapasitetsposten beskriver kapasitetsforbruket i tidsenheter, mens den tilknyttede verdiposten beskriver verdien til det bestemte kapasitetsforbruket.  
 

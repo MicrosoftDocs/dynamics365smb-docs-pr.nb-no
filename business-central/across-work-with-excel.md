@@ -1,56 +1,76 @@
 ---
-title: Vise og redigere i Excel fra Business Central | Microsoft-dokumenter
+title: Vise og redigere i Excel fra Business Central (inneholder video)
 description: Lær om hvordan du åpner sidene i Microsoft Excel fra Business Central for bedre dataanalyser.
 author: jswymer
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
-ms.date: 04/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2c6600ac7fe9f6e0aa44554883209039faabbd99
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.openlocfilehash: d27ad94c21325808d92b8f71e97a5bb8a484ded5
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3187511"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142604"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Vise og redigere i Excel fra Business Central
 
-Med sider som viser en oversikt over poster i rader og kolonner, som en liste over kunder, ordrer eller fakturaer, kan du også vise poster ved hjelp av Microsoft Excel. Du har to alternative måter å gjøre dette på. Du kan enten velge **Åpne i Excel**-handling eller **Rediger i Excel**-handlingen på siden. Forskjellene mellom de to handlingen er følgende:  
+Med sider som viser en oversikt over poster i rader og kolonner, som en liste over kunder, ordrer eller fakturaer, kan du også eksportere listen til Microsoft Excel og vise den der. Avhengig av hvilken side du har, kan du vise to alternativer i Excel. Begge alternativene er tilgjengelige fra **Del**-ikonet ![Del en side i en annen app.](media/share-icon.png) øverst på en side. Du kan enten velge **Åpne i Excel**-handling eller **Rediger i Excel**-handlingen på siden. Denne artikkelen forklarer forskjellen mellom de to handlingene.
 
 ## <a name="open-in-excel"></a>Åpne i Excel
 
-- Med denne handlingen respekterer Excel filtre på siden som avgrenser postene som vises. Dette betyr at Excel-arbeidsboken inneholder de samme radene og kolonnene som vises på siden i [!INCLUDE[prodshort](includes/prodshort.md)].
+Med handlingen **Åpne i Excel** kan du gjøre endringer i postene i Excel, men du kan ikke publisere endringene tilbake til [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan bare lagre endringene i Excel-filen, uten at det påvirker dataene i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-- Du kan gjøre endringer i postene i Excel, men du kan ikke publiserer endringene tilbake til [!INCLUDE[prodshort](includes/prodshort.md)]. Du kan bare lagre endringene til Excel-filen på datamaskinen din.
+- Med denne handlingen respekterer Excel filtre på siden som avgrenser postene som vises. Excel-arbeidsboken inneholder de samme radene og kolonnene som vises på siden i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - Denne handlingen fungerer både i Windows- og macOS.
 
+- Fra og med oppdatering 18.3 kan du også vise lister som vises i sidedeler, for eksempel linjene i en ordre. 
+
 > [!NOTE]
-> For [!INCLUDE[prodshort](includes/prodshort.md)] lokalt er handlingen **Åpne i Excel** tilgjengelig som standard. Hvis du konfigurerer [!INCLUDE [prodshort](includes/prodshort.md)] lokalt for redigering av data i Excel, erstattes handlingen **Åpne i Excel** med handlingen **Rediger i Excel**.
+> For [!INCLUDE[prod_short](includes/prod_short.md)] lokalt er handlingen **Åpne i Excel** tilgjengelig som standard. Hvis du konfigurerer [!INCLUDE[prod_short](includes/prod_short.md)] lokalt for redigering av data i Excel, erstattes handlingen **Åpne i Excel** med handlingen **Rediger i Excel**.
+
+[!INCLUDE [send-report-excel](includes/send-report-excel.md)]  
 
 ## <a name="edit-in-excel"></a>Rediger i Excel
 
-- Med denne handlingen respekterer Excel de fleste filtre på siden som avgrenser postene som vises. Dette betyr at Excel-arbeidsboken inneholder nesten de samme postene og kolonnene.
+Handlingen **Rediger i Excel** er tilgjengelig i de fleste listene, men ikke alle. Med handlingen **Rediger i Excel** kan du gjøre endringer i postene i Excel og deretter publisere endringene tilbake til [!INCLUDE[prod_short](includes/prod_short.md)]. Når Excel åpnes, vises ruten for **Excel-tillegg** til høyre.
 
-- Fordelen med **Rediger i Excel**-handlingen er at den lar deg gjøre endringer i poster i Excel og deretter publiserer endringene tilbake til [!INCLUDE[prodshort](includes/prodshort.md)].
+- Med denne handlingen respekterer Excel de fleste filtre på siden som begrenser postene som vises, slik at Excel-arbeidsboken vil inneholde nesten de samme postene og kolonnene.
 
-- Den fungerer bare i Windows, ikke i macOS.
+- Du får de siste dataene fra [!INCLUDE[prod_short](includes/prod_short.md)] ved å velge **Oppdater** i ruten Excel-tillegg.
 
-- Du kan bytte ut selskapet du arbeider med. Dette gjør du ved å velge ikonet **Alternativer** under ![Alternativer for Excel-tillegg](media/cogwheel.png "Alternativer for Excel-tillegg") i ruten Excel-tillegg, og deretter velger du selskapet fra **Selskap**-feltet. 
+- Du kan bytte ut selskapet du arbeider med. Hvis du vil bytte selskap, velger du ikonet **Alternativer** ![Alternativer for Excel-tillegg.](media/cogwheel.png "Alternativer for Excel-tillegg") i ruten Excel-tillegg og velger selskapet fra feltet **Selskap**.  
 
     > [!IMPORTANT]
     > Når du endrer firmaet, må du sørge for at **Miljø**-feltet ikke er tomt. Hvis det er det, setter du det til ett av de tilgjengelige alternativene. Hvis ikke, vil ikke tillegget fungere som det skal.  
 
-Excel-tillegget ble forbedret i utgivelsesplan 2 i 2019. Hvis du vil ha mer informasjon, se [Forbedringer i Excel-integrasjon](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration).
+Hvis du gjør endringer i tillegget, må du laste det inn på nytt for å oppdatere tilkoblingen. Du kan laste inn på nytt ved å bruke menyen for ![tillegg i Excel](media/excel-addin-menu.png "Meny for Excel-tillegg") øverst til høyre for tillegget. Hvis du ikke kan laste inn tillegget, kontakter du systemansvarlig. Hvis du er administrator, kan du se [Hent Business Central-tillegget for Excel](admin-deploy-excel-addin.md).
 
 > [!NOTE]
-> For [!INCLUDE[prodshort](includes/prodshort.md)] lokalt er handlingen **Rediger i Excel** bare tilgjengelig hvis Excel-tillegget er konfigurert av systemansvarlig, og den er bare tilgjengelig for webklienten. For administratorer, hvis du vil vite hvordan du installerer Excel-tilleggskomponenten, se [Definere Excel-tillegget for redigering av Business Central-data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin). For [!INCLUDE[prodshort](includes/prodshort.md)] lokalt.
+> Tillegget fungerer med Excel for nettet (online) fra alle enheter så lenge du bruker en nettleser som støttes. Det fungerer også med Excel-appen for Windows (PC), men ikke for macOS.
+>
+> For [!INCLUDE[prod_short](includes/prod_short.md)] lokalt er handlingen **Rediger i Excel** bare tilgjengelig hvis Excel-tillegget er konfigurert av systemansvarlig, og den er bare tilgjengelig for webklienten. For administratorer, hvis du vil vite hvordan du installerer Excel-tilleggskomponenten, se [Definere Excel-tillegget for redigering av Business Central-data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
-### <a name="see-the-differences-between-the-options"></a>Se forskjellene mellom alternativene
+
+<!-- Note for later: here we're immediately jumping to pretty advanced topics like changing company or reloading the addin. Fine to keep them for now. In the future, we will first need to explain in more detail the actual functionality of the addin, primarily these sub-sections:
+
+Refreshing record data in Excel
+Editing and publishing back to Business Central
+Creating new records from Excel
+Crafting your own editable Excel.
+Point (4) is where it gets interesting for changing/specifying company, environment and other connection settings-->
+
+### <a name="first-time-sign-in"></a>Første pålogging
+
+Handlingen **Rediger i Excel** krever at Business Central-tillegget er installert i Excel. I noen tilfeller har administratoren kanskje ordnet det slik at tillegget installeres automatisk. I dette tilfellet må du bare logge deg på Business Central i ruten **Excel-tillegg** med brukernavn og passord. Ellers åpnes ruten **Ny Office-tillegg**. Hvis du vil installere tillegget, velger du **Klarer dette tillegget**, noe som installerer tillegget direkte fra Office store.
+
+Hvis tillegget av en eller annen grunn ikke blir installert, kontakter du administratoren eller prøver å installere det manuelt. Hvis du vil ha mer informasjon, kan du se [Installer tillegget manuelt for egen bruk](admin-deploy-excel-addin.md#install).
+
+## <a name="see-the-differences-between-the-options"></a>Se forskjellene mellom alternativene
 <br><br>  
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
@@ -58,4 +78,10 @@ Excel-tillegget ble forbedret i utgivelsesplan 2 i 2019. Hvis du vil ha mer info
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
+
+[Analysere årsregnskap i Microsoft Excel](finance-analyze-excel.md)  
 [Arbeide med Business Central](ui-work-product.md)  
+[Forbedringer i Excel-integrasjon i 2019 Release Wave 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

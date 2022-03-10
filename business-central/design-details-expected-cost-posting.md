@@ -1,23 +1,20 @@
 ---
-title: Designdetaljer – Bokføring av forventet kost | Microsoft-dokumentasjon
+title: Designdetaljer – Bokføring av forventet kost
 description: Forventede kostnader representerer for eksempel overslaget for kjøpspris for en vare du registrerer, før du faktisk mottar fakturaen for varen.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: c1ecbbc42fcc5ccf5cb6f0d39c908da36cc8c918
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 07/20/2021
+ms.author: edupont
+ms.openlocfilehash: edf08dfd87596da0a2c052651e323963ff13ce6a
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1246527"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8128892"
 ---
 # <a name="design-details-expected-cost-posting"></a>Designdetaljer: Bokføre forventet kost
 Forventede kostnader representerer for eksempel overslaget for kjøpspris for en vare du registrerer, før du faktisk mottar fakturaen for varen.  
@@ -31,10 +28,22 @@ Forventede kostnader representerer for eksempel overslaget for kjøpspris for en
 
  For å støtte avstemming og sporing viser den fakturerte verdiposten det forventede kostbeløpet som er bokført på motkonti og midlertidige konti.  
 
-## <a name="example"></a>Eksempel  
- Følgende eksempel viser forventede kostnader hvis det er merket av for **Automatisk kostbokføring** og **Bokf. av forventet kost i Finans** er valgt på siden **Lageroppsett**.  
+## <a name="prerequisites-for-posting-expected-costs"></a>Forutsetninger for bokføring av forventede kostnader
 
- Du bokfører en bestilling som mottatt. Forventet kostnad er NOK 95,00.  
+Du må gjøre følgende for å gjøre det mulig å bokføre forventede kostnader:
+1. På siden **Lageroppsett** velger du avmerkingsboksen **Automatisk kostbokføring** og **Bokf. av forventet kost i finans**.
+2. Definer midlertidige konti som skal brukes i forbindelse med bokføringsprosessen for forventet kostnad.  
+
+  På siden **Lagerbokføringsoppsett** bekrefter du **lagerkontoen** og feltene **Lagerkonto (midlertidig)** for **Lokasjonskode og koden for lagerbokføringsgruppe** for varen som skal kjøpes. Hvis du vil ha mer informasjon om disse kontiene, kan du se [Designdetaljer: Konti i finans](design-details-accounts-in-the-general-ledger.md).
+3. På siden **Generelt bokføringsoppsett** kontrollerer du feltet **Forv. lagerjust.kto. (midl.)** for feltet **Bokføringsgruppe – firma** og **Bokføringsgruppe – vare** du vil bruke.
+4. Når du oppretter en bestilling, er standardverdien feltet **Leverandørs fakturanr.** er obligatorisk. Du må deaktivere denne funksjonen på siden **Kjøpsoppsett** ved å fjerne merket for feltet **Obligatorisk nr. for eksternt dokument**.
+
+## <a name="example"></a>Eksempel  
+
+> [!NOTE]  
+> Kontonumrene som brukes i dette eksemplet, er bare til referanse og vil være forskjellige i systemet. Definer dem som angitt i forutsetningene ovenfor.
+
+Du bokfører en bestilling som mottatt. Forventet kostnad er LV 95,00.  
 
  **Verdiposter**  
 
@@ -56,7 +65,7 @@ Forventede kostnader representerer for eksempel overslaget for kjøpspris for en
 |01.01.20|Forventet lagerjusteringskonto (midlertidig)|5530|-95,00|2|  
 |01.01.20|Lagerkonto (midlertidig)|2131|95,00|1|  
 
- Senere bokfører du bestillingen som fakturert. Fakturert kost er NOK 100,00.  
+ Senere bokfører du bestillingen som fakturert. Fakturert kost er LV 100,00.  
 
  **Verdiposter**  
 
@@ -75,7 +84,7 @@ Forventede kostnader representerer for eksempel overslaget for kjøpspris for en
 
  **Finansposter**  
 
-|Bokføringsdato|Finanskonto|Kontonummer (En-US-demo)|Beløp|Løpenr.|  
+|Bokføringsdato|Finanskonto|Kontonr. (bare eksempler!)|Beløp|Løpenr.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
 |15.01.20|Forventet lagerjusteringskonto (midlertidig)|5530|95,00|4|  
 |15.01.20|Lagerkonto (midlertidig)|2131|-95,00|3|  
@@ -90,4 +99,7 @@ Forventede kostnader representerer for eksempel overslaget for kjøpspris for en
  [Designdetaljer: Avvik](design-details-variance.md)  
  [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,58 +1,69 @@
 ---
-title: Plukke for produksjon i enkle lageroppsett | Microsoft-dokumentasjon
-description: Når lagerlokasjonen krever plukkbehandling, men ikke krever leveringsbehandling, bruker du siden **Lagerplukk** til å organisere og registrere plukking av komponenter.
+title: Plukk produksjon eller montering i grunnleggende lager
+description: Når lagerlokasjonen krever plukkbehandling, men ikke leveringsbehandling, bruker du siden Lagerplukk til å organisere og registrere plukking av komponentene.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a772ae65768bbc5c363c11266a2a0bcaf18b472d
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b824cec7e6169f20d3da6bf853828a103b3c2928
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910008"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8144362"
 ---
 # <a name="pick-for-production-or-assembly-in-basic-warehouse-configurations"></a>Plukke for montering eller produksjon i enkle lageroppsett
 Hvordan du plasserer plukkomponenter for produksjons- eller monteringsordrer avhenger av hvordan lageret er definert som lokasjon. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).
 
-I enkle lageroppsett der lokasjonen krever plukkbehandling, men ikke leveringsbehandling, bruker du siden **Lagerplukk** til å organisere og registrere plukking av komponenter.  
 
-I grunnleggende lageroppsett må du plukke for monteringsorder ved å bruke **Lagerflytting**-siden. Hvis du vil ha mer informasjon, kan du se [Håndtere montere-til-ordre-varer i lagerplukk](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
+## <a name="pick-for-production-in-basic-warehouse-configurations"></a>Plukke komponenter for produksjon i grunnleggende lageroppsett.
+Trekkmetoden påvirker også flyten av komponenter i produksjon. Hvis du vil ha mer informasjon, kan du se [Lagertrekke komponenter i henhold til operasjonsavgang](production-how-to-flush-components-according-to-operation-output.md).
 
-I avanserte lageroppsett der lokasjoner krever både plukk og leveringer, bruker du **Plukk**-siden til å bringe komponenter til produksjons- eller monteringsordrer. Hvis du vil ha mer informasjon, se [Plukke for montering eller produksjon i avansert lageroppsett](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
+I avanserte lagerkonfigurasjoner der lokasjoner krever både plukkinger og leveringer, må du bruke siden **Lagerplukk** til å hente komponenter som har trekkmetode satt til *Manuell*, *Plukk + Fremover* eller *Plukk + Bakover*, til produksjonsordrer. Hvis du vil ha mer informasjon, se [Plukke for montering eller produksjon i avansert lageroppsett](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
+
+I enkle lageroppsett der lokasjonen krever plukkbehandling, men ikke leveringsbehandling, kan du også bruke siden **Lagerplukk** til å organisere og registrere plukking av komponenter med trekkmetoden satt til *Manuell*. Når du registrerer en lagerplukking for en intern operasjon, for eksempel produksjon, bokføres forbruket av de plukkede komponentene samtidig. Du kan også bruke **Lagerflytting** med referanse til et kildedokument for å hente komponenter som har trekkmetoden er satt til *Manuell*, *Plukk + Fremover* eller *Plukk + Bakover*, til produksjonsordrer.
+
+Når produksjonsoperasjoner er integrert med lagerprosesser, enten via hyller eller via lagerstyring, vil hyllen som komponentene tas fra, være hyllen som er definert på hver produksjonsordrekomponentlinje. Alle obligatoriske komponenter må være tilgjengelig i denne hyllen. Ellers stoppes den manuelle eller trukkede forbruksbokføringen for den komponenten.
+
+**Lagerflytting** med referanser til kildedokumentet og **Lagerplukk**, kan ikke brukes til å plukke komponenter med trekkmetodene *Fremover* og *Bakover*. **Lagerplukk** kan bare brukes til å plukke komponenter med trekkmetoden *Manuell*. Hvis du vil behandle de gjenværende komponentene, bruker du **Lagerflytting** uten referanse til et kildedokument. Hvis du vil ha mer informasjon, kan du se [Flytte komponenter til et operasjonsområde i enkle lageroppsett](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
 
 > [!NOTE]  
 >  Følgende viktige forskjeller finnes mellom lagerplukkinger og lagerflyttinger:  
 >   
 >  -   Når du registrerer en lagerplukking for en intern operasjon, for eksempel produksjon, bokføres forbruket av de plukkede komponentene samtidig. Når du registrerer en lagerflytting for en intern operasjon, registrerer du bare den fysiske flyttingen av de nødvendige komponentene til en hylle i operasjonsområdet, uten å bokføre forbruket.  
-> -   Når du bruker lagerplukk, definerer feltet **Hyllekode** på en produksjonsordrekomponentlinje hvilken *Hent*-hylle komponentene reduseres fra ved bokføring av forbruk. Når du bruker lagerflyttinger, definerer **Hyllekode**-feltet på produksjonsordrekomponentlinjer *Plasser*-hyllen i operasjonsområdet der lagermedarbeideren må plassere komponentene.  
+> -   Når du bruker lagerplukk, definerer feltet **Hyllekode** på en produksjonsordrekomponentlinje hvilken *Hent*-hylle komponentene reduseres fra ved bokføring av forbruk. Når du bruker lagerflyttinger, definerer feltet **Hyllekode** på produksjonsordrekomponentlinjer hyllen *Plasser* i operasjonsområdet der lagermedarbeideren må plassere komponentene.  
 
 En systemforutsetning for plukking, eller flytting, av komponenter for kildedokumenter er at det finnes en utgående lagerforespørsel for å varsle lagerområdet om komponentbehovet. Den utgående lagerforespørselen opprettes når produksjonsordrestatusen endres til Frigitt eller når en frigitt produksjonsordre opprettes.  
 
-## <a name="to-pick-components-in-basic-warehouse-configurations"></a>Plukke komponenter i enkle lageroppsett
+## <a name="to-pick-production-components-in-basic-warehouse-configurations-using-inventory-pick"></a>Slik plukker du produksjonskomponenter i grunnleggende lagerkonfigurasjoner med Lagerplukk
 I enkle lageroppsett der lokasjonen er definert slik at bare plukking brukes, kan du plukke komponenter for produksjonsaktiviteter ved å bruke **Lagerplukk**-siden. Hvis du vil ha mer informasjon, kan du se [Plukke varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md).
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Lagerplukk**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerplukk**, og velg deretter den relaterte koblingen.  
 2.  Du får tilgang til produksjonsordrekomponentene ved å velge handlingen **Hent kildedokumenter** og deretter velge den frigitte produksjonsordren.  
-3.  Utfør plukkingen, og registrer deretter den aktuelle plukkinformasjonen i vinduet **Plukket ant.**.  
+3.  Utfør plukkingen, og registrer deretter den aktuelle plukkinformasjonen i feltet **Ant. som skal håndt.**.  
 4.  Når linjene er klare for bokføring, velger du handlingen **Bokfør**. Bokføringen oppretter de nødvendige lagerpostene og bokfører forbruket av varene.  
 
-Du kan også opprette en **Lagerplukk** direkte fra den frigitte produksjonsordren. Velg handlingen **Opprett lagerplassering/-plukking**, merk av for **Opprett lagerplukking**, og velg deretter **OK**-knappen.
+Du kan også opprette en **Lagerplukk** direkte fra den frigitte produksjonsordren. Velg handlingen **Opprett lagerplassering/-plukking/-flytting**, merk av for **Opprett lagerplukking**, og velg deretter **OK**-knappen.
 
-Du kan også bruke siden **Lagerflytting** til å flytte varer mellom hyller ad hoc, noe som betyr uten referanse til et kildedokument.
-Hvis du vil ha mer informasjon, kan du se [Flytte komponenter til et operasjonsområde i enkle lageroppsett](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).
+Du kan også bruke **Lagerflytting** med referanse til kildedokumentet for å flytte varer mellom hyller. Du vil måtte registrere forbruket separat. Hvis du vil ha mer informasjon, kan du se [Massebokføre produksjonsforbruk](production-how-to-post-consumption.md)
 
-### <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Håndtere montere-til-ordre-varer med lagerplukk
+## <a name="pick-for-assembly-in-basic-warehouse-configurations"></a>Plukke for montering i grunnleggende lagerkonfigurasjoner
+I avanserte lageroppsett der lokasjoner krever både plukk og leveringer, må du bruke siden **Lagerplukk** til å bringe komponenter til monteringsordrer. Hvis du vil ha mer informasjon, se [Plukke for montering eller produksjon i avansert lageroppsett](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).
+
+I grunnleggende lageroppsett kan du også plukke for monteringsorder ved å bruke siden **Lagerflytting**. 
+
+I grunnleggende lagerkonfigurasjoner der lokasjonen krever plukkbehandling, men ikke leveringsbehandling, brukes siden **Lagerplukk** også til å plukke, samle og levere for salgsordrer der varer må monteres før de kan leveres. Hvis du vil ha mer informasjon, kan du se [Håndtere montere-til-ordre-varer i lagerplukk](warehouse-how-to-pick-for-production.md#handling-assemble-to-order-items-with-inventory-picks).  
+
+## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Håndtere montere-til-ordre-varer med lagerplukk
 **Lagerplukk**-siden brukes også til å plukke og levere for salg der varer må monteres før de kan leveres. Hvis du vil ha mer informasjon, kan du se [Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md).
 
 Varer som skal leveres er ikke fysisk til stede i en hylle før de er montert og bokført som avgang til en hylle i monteringsområdet. Dette betyr at plukking av monter-til-ordre-varer til levering følger en spesiell flyt. Lagermedarbeidere tar monteringsvarene fra en hylle til leveringssonen og bokfører deretter lagerplukkingen. Det bokførte lagerplukket bokfører deretter monteringsavgangen, komponentforbruket og følgeseddelen.
 
-Du kan konfigurere [!INCLUDE[d365fin](includes/d365fin_md.md)] til å automatisk opprette en lagerflytting når lagerplukkingen for monteringsvaren opprettes. Hvis du vil aktivere dette, må du velge feltet **Opprett flyttinger automatisk** på siden **Monteringsoppsett**. Hvis du vil ha mer informasjon, kan du se [Flytte komponenter til et operasjonsområde i grunnleggende lagerstyring](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til å automatisk opprette en lagerflytting når lagerplukkingen for monteringsvaren opprettes. Hvis du vil aktivere dette, må du velge feltet **Opprett flyttinger automatisk** på siden **Monteringsoppsett**. Hvis du vil ha mer informasjon, kan du se [Flytte komponenter til et operasjonsområde i grunnleggende lagerstyring](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
 
 Lagerplukklinjer for salgsvarer opprettes på forskjellige måter avhengig av om ingen, noen eller alle salgslinjeantallene er montert til ordre.
 
@@ -69,7 +80,7 @@ I kombinasjonsscenarier, der en del av antallet først må monteres og en annen 
 ## <a name="filling-the-consumption-bin"></a>Fylle forbrukshyllen
 Dette flytdiagrammet viser hvordan **Hyllekode**-feltet på produksjonsordrekomponentlinjer fylles ut i henhold til lokasjonsoppsettet.
 
-![Flytskjema for hylle](media/binflow.png "BinFlow")
+![Flytskjema for hylle.](media/binflow.png "BinFlow")
 
 ## <a name="see-also"></a>Se også
 [Lagerstyring](warehouse-manage-warehouse.md)  
@@ -77,4 +88,7 @@ Dette flytdiagrammet viser hvordan **Hyllekode**-feltet på produksjonsordrekomp
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

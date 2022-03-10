@@ -1,23 +1,22 @@
 ---
-title: Administrere databasetilgangsformål i Business Central | Microsoft Docs
+title: Administrer databasetilgangsformål i Business Central
 description: Endre databasetilgangsformålet for rapporter, API-sider og spørringer.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.search.form: 9880
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 502add82d2f70f6ffd13ae04f7eb6d214105fb63
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: 66473480ac2db86bc35adc7e60d7fcd2cafc7212
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5378601"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142526"
 ---
-# <a name="managing-database-access-intent"></a>Administrere databasetilgangsformål 
+# <a name="managing-database-access-intent"></a>Administrere databasetilgangsformål
 
 Som superbruker eller administrator kan du endre databasetilgangsformålet i rapporter, sider av typen API og spørringer for å forbedre tjenestens ytelse.
 
@@ -33,7 +32,7 @@ I databasevilkårene kalles denne funksjonen vanligvis *leseutskalering*. Hvis d
 
 ## <a name="to-change-the-database-access-intent"></a>Slik endrer du databasetilgangsformålet
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Liste over databasetilgangsformål**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Liste over databasetilgangsformål**, og velg deretter den relaterte koblingen.
 
     Siden viser alle rapporter, sider og spørringer. Kolonnen **Tilgangsformål** inneholder én av følgende verdier:
 
@@ -56,7 +55,7 @@ I databasevilkårene kalles denne funksjonen vanligvis *leseutskalering*. Hvis d
 [Forretningsfunksjoner](across-business-functionality.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Komme i gang](product-get-started.md)    
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

@@ -1,23 +1,21 @@
 ---
-title: Behandle inngående og utgående KI-transaksjoner | Microsoft-dokumentasjon
+title: Administrere den konserninterne innboksen og utboksen
 description: Konserninterne transaksjoner du mottar fra de konserninterne partnerne dine, er oppført i den konserninterne innboksen der du behandler dem manuelt eller automatisk.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 652ad700a4e2d979620560f1f5ba543d07f08832
-ms.sourcegitcommit: 88e4b30eaf6fa32af0c1452ce2f85ff1111c75e2
+ms.search.form: 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 2e8959900cedbf538a289447ad57c2e64b51c55b
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "3182471"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8141076"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Administrere den konserninterne innboksen og utboksen
 Alle de konserninterne transaksjonene du mottar elektronisk fra de konserninterne partnerne, er oppført i den konserninterne innboksen.  
@@ -51,14 +49,14 @@ Du kan bruke feltet **Vis transaksjonskilde** til å filtrere siden **Konsernint
 
  > [!NOTE]  
  > Hvis de konserninterne partnerne er i samme database, overføres transaksjoner uten å måtte filen eller e-post. Se feltet **Overføringstype** på siden **Konsernintern partner**. <br /><br />
-I så fall kan du konfigurere systemet til å hoppe over innboksen og utboksen ved å merke av for henholdsvis **Godta transaksjoner automatisk** på siden **Konsernintern partner** og **Send transaksjoner automatisk** på siden **Konserninternt oppsett**.
+I så fall kan du konfigurere systemet til å hoppe over innboksen og utboksen ved å merke av for henholdsvis **Godta transaksjoner automatisk** på siden **Konsernintern partner** og **Send transaksjoner automatisk** på siden **Konserninternt oppsett**. Inngående konserninterne transaksjoner kan bare godtas automatisk hvis oppgaveplanlegging er aktivert. Hvis du vil ha mer informasjon, kan du se [Konfigurere Business Central Server – Oppgaveplanleggingsinnstillinger](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
 
 ## <a name="to-import-intercompany-transactions-from-a-file"></a>Slik importerer du konserninterne transaksjoner fra en fil  
 Hvis du har en konsernintern partner som ikke er i samme database som selskapet ditt, kan du motta konserninterne transaksjoner fra partneren i en XML-fil. Deretter må du importere transaksjonene til innboksen.  
 
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.
 2. Lagre filen på lokasjonen du har angitt i feltet **Detaljer om konsernintern innboks** på siden **Selskapsopplysninger**.  
-3. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konserninterne inngående transaksjoner**, og velg deretter den relaterte koblingen.
+3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konserninterne inngående transaksjoner**, og velg deretter den relaterte koblingen.
 4. På siden **Konserninterne inngående transaksjoner** velger du **Importer transaksjonsfil**.  
 5. På siden som vises, velger du XML-filen som inneholder transaksjonene, og deretter velger du **Åpne**-knappen.  
 
@@ -67,7 +65,7 @@ Transaksjonene importeres til innboksen, og du kan nå behandle dem.
 ## <a name="to-process-incoming-intercompany-transactions"></a>Slik behandler du inngående konserninterne transaksjoner  
 Når de konserninterne partnerne sender deg konserninterne transaksjoner, ender transaksjonene opp i den konserninterne innboksen. Du må vurdere hver transaksjon i innboksen og utføre de nødvendige handlingene.  
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konserninterne inngående transaksjoner**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konserninterne inngående transaksjoner**, og velg deretter den relaterte koblingen.  
 2. På siden **Konserninterne inngående transaksjoner** velger du en linje og velger en handling som **Godta**, for å behandle linjen.
 3. På siden **Fullfør KI-innbokshandling** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg **OK**.  
@@ -81,7 +79,7 @@ For linjer du behandlet med **Returnert av partner**-handlingen, må du nå bokf
 ## <a name="to-process-outgoing-intercompany-transactions"></a>Slik behandler du utgående konserninterne transaksjoner  
 Når du bokfører konserninterne kladder eller bilag eller sender en konsernintern bestillingsbekreftelse, sendes transaksjonene til den konserninterne utboksen. Du må åpne utboksen og behandle dem for at de skal bli sendt videre til de konserninterne partnerne.  
 
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konserninterne utgående transaksjoner**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konserninterne utgående transaksjoner**, og velg deretter den relaterte koblingen.  
 2. På siden **Konserninterne utgående transaksjoner** velger du en linje og velger en handling som **Gå tilbake til innboks**, for å behandle linjen.
 
 Linjene som du behandlet med **Send til konsernintern partner**-handlingen, vil bli sendt til innboksen til den relevante partneren.
@@ -95,7 +93,7 @@ Noen ganger vil du kanskje opprette en transaksjon på nytt i innboksen eller ut
 
 Følgende fremgangsmåte beskriver hvordan du oppretter innbokstransaksjoner på nytt, men de samme trinnene gjelder også for utboksen.
 
-  1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Håndterte inngående KI-transaksjoner**, og velg deretter den relaterte koblingen.  
+  1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Håndterte inngående KI-transaksjoner**, og velg deretter den relaterte koblingen.  
 
   2.  På siden **Håndterte inngående KI-transaksjoner** velger du linjen med transaksjonen du vil opprette på nytt i innboksen, og velger deretter **Opprett inngående transaksjon på nytt**.  
 
@@ -104,4 +102,7 @@ Følgende fremgangsmåte beskriver hvordan du oppretter innbokstransaksjoner på
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeide med finanskladder](ui-work-general-journals.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

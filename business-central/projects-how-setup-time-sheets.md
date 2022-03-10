@@ -1,32 +1,35 @@
 ---
 title: Definer timelister og godkjenningen av dem
-description: Du definerer timelister for å spore tiden som brukes på prosjekter, og bruk av ressurser. Dette er til hjelp ved prosjektstyring, bemanning og kapasitet.
+description: Du definerer timelister for å spore tiden som brukes på oppgaver og prosjekter, og dette er til hjelp ved prosjektstyring, bemanning og kapasitet
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheet
-ms.date: 10/01/2021
+ms.search.form: 977, 462, 76, 77
+ms.date: 12/13/2021
 ms.author: edupont
-ms.openlocfilehash: 72618aaeddae0a72a0c699f19a04a388ced0b9c1
-ms.sourcegitcommit: 6ad0a834fc225cc27dfdbee4a83cf06bbbcbc1c9
+ms.openlocfilehash: 3eca8e42a6b57e4a78ffd3f2dace885ba66c3ddf
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2021
-ms.locfileid: "7589210"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8147547"
 ---
 # <a name="set-up-time-sheets"></a>Definere timelister
 
-Timelister i [!INCLUDE[prod_short](includes/prod_short.md)] håndterer tidsregistrering i ukentlige intervaller på sju dager. Du kan bruke dem til å spore tiden som brukes på prosjekter, og du kan bruke dem til å registrere enkel registrering av ressurstid. Før du kan bruke timelister, må du angi hvordan du vil at de skal settes opp og konfigureres.
+Timelister i [!INCLUDE[prod_short](includes/prod_short.md)] håndterer tidsregistrering i ukentlige intervaller på sju dager. Du kan bruke dem til å spore tiden som brukes på prosjekter, og du kan bruke dem til å registrere enkel registrering av ressurstid. Før du kan bruke timelister, må du angi hvilke brukere som skal sende timelister, og hvordan du vil konfigurere timelister.  
 
-Når du har definert hvordan organisasjonen vil bruke timelister, kan du angi om og hvordan timelister er godkjent. Avhengig av behovene i organisasjonen, kan du angi:
+> [!TIP]
+> I [!INCLUDE [prod_short](includes/prod_short.md)] er brukerne av timelister *ressurser*. På denne måten kan du for eksempel bruke timelister til å spore arbeidet på ikke-ansatte. For å kunne spore arbeidet til de ansatte eller bruke timelister til å spore ansattfravær må du knytte *ressurser* til *ansatte* i oppsettveiledningen.  
+
+Du kan eventuelt angi om og hvordan timelister skal godkjennes. Avhengig av behovene i organisasjonen, kan du angi:
 
 * En eller flere brukere som administrator for timeliste og godkjenning for alle timelister.
 * En godkjenner av timelister for hver ressurs.
 
-Når du har definert timelister, kan du opprette timelister for ressurser, tilordne dem til planleggingslinjer og bokføre timelistelinjer. Hvis du vil ha mer informasjon, kan du se [Bruke timelister](projects-how-use-time-sheets.md).  
+Når du har definert timelister, kan du opprette timelister for ressurser, og ressursene kan bokføre timelistelinjer. Alternativt kan du tilordne timelister til prosjektplanleggingslinjer. Hvis du vil ha mer informasjon, kan du se [Bruke timelister](projects-how-use-time-sheets.md).  
 
 ## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Definer timelister med den assisterte oppsettveiledningen
 
@@ -39,9 +42,13 @@ Fra lanseringsbølge 2 for 2021 kan du bruke en veiledning for assistert oppsett
 >
 > Den samme funksjonen gjør det også enkelt å behandle timelister på en mobil enhet.
 
+Åpne veiledningen for assistert oppsett **Definer timelister** fra siden [Assistert oppsett](https://businesscentral.dynamics.com/?page=1801).
+
 I veiledningen for assistert oppsett går du gjennom følgende fremgangsmåte:
 
 1. Konfigurer deltakerne i timelisteprosessene
+
+    Den første siden i guiden viser hvor mange brukere som er i bruk i [!INCLUDE [prod_short](includes/prod_short.md)]. Den viser også annen obligatorisk og valgfri informasjon.  
 2. Angi den første dagen i en arbeidsuke i denne organisasjonen
 
     Den første dagen i en arbeidsuke vil være standard første dag for alle timelister.
@@ -50,10 +57,7 @@ I veiledningen for assistert oppsett går du gjennom følgende fremgangsmåte:
     Denne personen kan redigere og slette alle timelister. Du kan også legge til samme rolle på siden **Brukeroppsett**.
 4. Definer ressursene som skal bruke timelister, og hvem som skal godkjenne timelistene
 
-    > [!NOTE]
-    > For prosjekter og jobber er brukerne av timelister *ressurser*, ikke ansatte. For å kunne spore arbeidet til de ansatte må du knytte ressurser til ansatte i oppsettveiledningen.
-
-På slutten av oppsettveiledningen kan du velge å la [!INCLUDE [prod_short](includes/prod_short.md)] opprette timelister basert på konfigurasjonen din. Du kan eventuelt kjøre den assisterte oppsettveiledningen på nytt eller fullføre oppsettet manuelt.  
+På slutten av oppsettveiledningen kan du velge å la [!INCLUDE [prod_short](includes/prod_short.md)] opprette timelister basert på konfigurasjonen din. Vis de nye timelistene på siden **Timelister**, som du kan åpne [her](https://businesscentral.dynamics.com/?page=951). Du kan eventuelt kjøre den assisterte oppsettveiledningen på nytt eller fullføre oppsettet manuelt.  
 
 ## <a name="set-up-time-sheets-manually"></a>Definer timelister manuelt
 
@@ -94,7 +98,7 @@ Følgende deler beskriver hvordan du definerer timelister hvis du ikke bruker de
 
 [Bruke timelister for prosjekter](projects-how-use-time-sheets.md)  
 [Slik oppretter du timelister:](projects-how-use-time-sheets.md#to-create-time-sheets)  
-[Registrer forbruk eller forbruk for prosjekter](projects-how-record-job-usage.md)  
+[Registrere forbruk eller bruk for prosjekter](projects-how-record-job-usage.md)  
 [Konfigurere prosjektstyring](projects-setup-projects.md)  
 [Prosjektstyring](projects-manage-projects.md)  
 [Finans](finance.md)  

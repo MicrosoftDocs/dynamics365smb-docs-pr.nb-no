@@ -1,22 +1,20 @@
 ---
-title: Revaluere aktiva| Microsoft-dokumentasjon
+title: Revaluere aktiva
 description: Finn ut hvordan du justerer verdien av aktiva, registrerer nye beløp som en nedskrivning eller oppskrivning, og bokfører flere anskaffelseskostnader.
-services: project-madeira
-documentationcenter: ''
-author: SorenGP
-ms.service: dynamics365-business-central
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 5628
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c17aec818a65aef9e298b40301142cbb40715306
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 9ee87cdaf52664af2037f6ee276d7898a67436da
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5782333"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139654"
 ---
 # <a name="revalue-fixed-assets"></a>Revaluere aktiva
 Revaluering av aktiva kan bestå av oppskrivinger, nedskrivninger eller generelle verdijusteringer.
@@ -28,7 +26,7 @@ Når verdien for et aktiva har sunket, kan du bokføre en kladdelinje med et lav
 Indeksregulering brukes til å justere flere aktivaverdier, for eksempel i henhold til generelle prisendringer. Du bruker kjørselen **Indeksreg. aktiva** til å endre forskjellige beløp, for eksempel nedskrivingsbeløp og oppskrivningsbeløp.
 
 ## <a name="to-post-an-appreciation-from-the-fixed-asset-gl-journal"></a>Slik bokfører du en oppskrivning fra aktivafinanskladden:
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.  
 2. Opprett en innledende kladdelinje, og fyll ut feltene etter behov.
 3. I feltet **Aktivabokf.type** velger du **Revaluering**.
 4. Velg **Sett inn aktivamotkonto**. En ny kladdelinje opprettes for motkontoen som er satt opp for oppskrivingsbokføring.
@@ -38,7 +36,7 @@ Indeksregulering brukes til å justere flere aktivaverdier, for eksempel i henho
 5. Velg handlingen **Bokfør**.
 
 ## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Slik bokfører du en nedskrivning fra aktivafinanskladden:
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.  
 2. Opprett en innledende kladdelinje, og fyll ut feltene etter behov.
 3. I feltet **Aktivabokf.type** velger du **Nedskriving**.
 4. Velg **Sett inn aktivamotkonto**. En ny kladdelinje opprettes for motkontoen som er satt opp for nedskrivingsbokføring.
@@ -50,12 +48,12 @@ Indeksregulering brukes til å justere flere aktivaverdier, for eksempel i henho
 ## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Slik utfører du generell revaluering av aktiva:
 Indeksregulering brukes til å justere flere aktivaverdier, for eksempel i henhold til generelle prisendringer. Du bruker kjørselen **Indeksreg. aktiva** til å endre forskjellige beløp, for eksempel nedskrivingsbeløp og oppskrivningsbeløp. **Tillat indeksreg.** på **Avskrivningstablå**-siden må merkes av.
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Indeksreg. aktiva**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Indeksreg. aktiva**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
 3. Velg **OK**.
 
     Revalueringslinjer opprettes i henhold til innstillingene i trinn 2. Linjene opprettes i aktivakladden eller aktivafinanskladden, avhengig av malen og kladdeoppsettet på **Aktivakladdoppsett**-siden. Hvis du vil ha mer informasjon, kan du se [Definere generell aktivainformasjon](fa-how-setup-general.md).
-4. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.  
+4. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.  
 5. Velg kladden med aktivaene du vil revaluere, og velg deretter **Poster**.  
 6. Kontroller postene som er opprettet, og velg deretter **Bokfør** for å bokføre kladden.
 

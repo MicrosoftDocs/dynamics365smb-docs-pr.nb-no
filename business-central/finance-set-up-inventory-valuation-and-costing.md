@@ -1,25 +1,24 @@
 ---
-title: Definere lagerverdisetting og kostberegning | Microsoft-dokumentasjon
-description: Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.
+title: Definere lagerverdisetting og kostberegning
+description: For å sikre at lagerkost registreres riktig, må du definere ulike felt og sider før du begynner å opprette varetransaksjoner.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 524ed44ed305fc219ea15afc061994dbe3050503
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: 8dd8b86e7ff07b9500c094bd2e570dbb6a371754
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910733"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8142084"
 ---
 # <a name="setting-up-inventory-valuation-and-costing"></a>Definere lagerverdisetting og kostberegning
 
 For å sikre at lagerkost registreres riktig, må du definere ulike felt og sider før du begynner å opprette varetransaksjoner. Vanligvis velger bedrifter en bestemt lagermetode og bruker den på lagervarer, for eksempel for å hjelpe dem med å spore verdien av varer på lager.  
 
 > [!TIP]
-> Hvis du vil ha en innføring i kostberegning i [!INCLUDE [prodshort](includes/prodshort.md)], se [Om lagerkost](finance-learn-about-costing.md).
+> Hvis du vil ha en innføring i kostberegning i [!INCLUDE [prod_short](includes/prod_short.md)], se [Om lagerkost](finance-learn-about-costing.md).
 
 Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.
 
@@ -47,3 +46,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 [Utformingsdetaljer: Endre lagermetode for varer](design-details-changing-costing-methods.md)  
 [Arbeide med Business Central](ui-work-product.md)  
 [Finans](finance.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

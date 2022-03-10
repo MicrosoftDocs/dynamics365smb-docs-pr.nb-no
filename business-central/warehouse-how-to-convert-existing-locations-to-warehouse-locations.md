@@ -2,20 +2,19 @@
 title: Konvertere eksisterende lokasjoner til lagerlokasjoner | Microsoft-dokumentasjon
 description: Du kan definere at en eksisterende lokasjon skal bruke soner og hyller, og at den skal fungere som en lagerlokasjon.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 95198789cd0fa4f00999c57ae9b6431dae8c9243
-ms.sourcegitcommit: ff2b55b7e790447e0c1fcd5c2ec7f7610338ebaa
+ms.openlocfilehash: d8c87884b359c02815187ab6b5c994ebccce119f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5386777"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140114"
 ---
 # <a name="convert-existing-locations-to-warehouse-locations"></a>Konvertere eksisterende lokasjoner til lagerlokasjoner
 Du kan definere at en eksisterende lokasjon skal bruke soner og hyller, og at den skal fungere som en lagerlokasjon.  
@@ -28,7 +27,7 @@ Du kan opprette soner og hyller før eller etter konverteringen. Den eneste hyll
 >  Når du skal tømme all negativ beholdning og eventuelle åpne lagerdokumenter før du konverterer lokasjonen for lagerhåndtering, kjører du en rapport for å identifisere varene med negativ beholdning og åpne lagerdokumenter for lokasjonen. Du finner mer informasjon under Kontroll for negativ beholdning.  
 
 ## <a name="to-enable-an-existing-location-to-operate-as-a-warehouse-location"></a>Slik definerer du en eksisterende lokasjon som lagerlokasjon  
-1.  Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Opprett lagerlokasjon**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Opprett lagerlokasjon** og velg den relaterte koblingen.  
 2.  Angi lokasjonen du vil aktivere for lagerbehandling, i **Lokasjonskode**-feltet.  
 3.  Angi hyllen i lokasjonen der usynkroniserte lagerposter lagres, i feltet **Hyllekode for justering**. Hvis du vil ha mer informasjon, kan du se [Slik synkroniserer du de justerte lagerpostene med de tilhørende varepostene](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).  
 

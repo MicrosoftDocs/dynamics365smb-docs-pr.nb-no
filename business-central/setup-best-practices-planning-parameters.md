@@ -1,21 +1,20 @@
 ---
-title: Anbefalte fremgangsmåter for oppsett -– planleggingsparametre | Microsoft-dokumentasjon
-description: Hurtigfanen Planlegging på varekortet er kjernen i et selskaps forsyningskjede. Det er svært viktig for kostnadseffektiv lagerkontroll og god kundeservice å angi riktige planleggingsparametre.
+title: Anbefalte fremgangsmåter for oppsett – Planleggingsparametere
+description: Dette emnet beskriver de beste fremgangsmåtene for å definere valgte planleggingsparameterfelter med hurtigfanen Planlegging på varekortet.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2020
-ms.author: sgroespe
-ms.openlocfilehash: 8ff874a076aa1a0bba09e1277cb19ee6553eaa8b
-ms.sourcegitcommit: 99915b493a7e49d12c530f2f9fda1fcedb518b6e
+ms.date: 06/23/2021
+ms.author: edupont
+ms.openlocfilehash: b491a986e3936389fa228fdb1bfc000627368b82
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "3271921"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129991"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Anbefalte fremgangsmåter for oppsett: Planleggingsparametere
 Hurtigfanen **Planlegging** på varekortet er kjernen i et selskaps forsyningskjede. Det er svært viktig for kostnadseffektiv lagerkontroll og god kundeservice å angi riktige planleggingsparametre.  
@@ -45,4 +44,7 @@ Hurtigfanen **Planlegging** på varekortet er kjernen i et selskaps forsyningskj
  [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
  [Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)  
  [Designdetaljer: Behov på tom lokasjon](design-details-demand-at-blank-location.md)  
- [Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+ [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

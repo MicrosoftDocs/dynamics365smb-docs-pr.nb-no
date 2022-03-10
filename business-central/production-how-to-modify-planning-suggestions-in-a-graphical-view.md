@@ -1,101 +1,107 @@
 ---
-title: Endre planleggingsforslag i en grafisk visning | Microsoft-dokumentasjon
-description: En typisk planleggingsaktivitet er å endre eller legge til planleggingsforslagslinjer for å endre de foreslåtte forsyningsordrene før du utfører dem, ved å kjøre funksjonen **Utfør handlingsmelding**. Et alternativ til å gjøre dette i planleggingsforslaget er å bruke en grafisk visning.
-services: project-madeira
-documentationcenter: ''
+title: Endre planleggingsforslag i en grafisk visning
+description: En typisk planleggingsaktivitet – endre eller legge til planleggingsforslagslinjer for å endre de foreslåtte forsyningsordrene før du utfører kjøring av funksjonen Utfør handlingsmelding.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 10/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 3aea6aa1aab6b5006bdc548b99bfa037e995de32
-ms.sourcegitcommit: 02e704bc3e01d62072144919774f1244c42827e4
+ms.date: 06/25/2021
+ms.author: edupont
+ms.openlocfilehash: 08c685e37ccc6ee1fa3d4503cc40bd054b4a4ca1
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "2313375"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8146369"
 ---
 # <a name="modify-planning-suggestions-in-a-graphical-view"></a>Endre planleggingsforslag i en grafisk visning
-En typisk planleggingsaktivitet er å endre eller legge til planleggingsforslagslinjer for å endre de foreslåtte forsyningsordrene før du utfører dem, ved å kjøre funksjonen **Utfør handlingsmelding**. Et alternativ til å gjøre dette i planleggingsforslaget er å bruke en grafisk visning.
 
-På siden **Varetilgjengelighet per tidslinje** kan du endre visse forsyningsordrer og forslag ved å dra elementer på x-aksen for å endre antallet eller på y-aksen for å endre forfallsdatoen.  
+En typisk planleggingsaktivitet er å endre eller legge til planleggingsforslagslinjer for å endre de foreslåtte forsyningsordrene før du utfører dem, ved å kjøre funksjonen **Utfør handlingsmelding**. Et alternativ til å gjøre dette i planleggingsforslaget er å bruke en grafisk visning. Dette støttes imidlertid ikke i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
- På siden **Varetilgjengelighet per tidslinje** og siden **Planleggingsforslag** kan du gjøre følgende endringer:  
+<!--On the **Item Availability by Timeline** page, you can modify certain supply orders and suggestions by dragging elements on the x-axis to change quantity or dragging elements on the y-axis to change due date.  
 
--   Endre en foreslått forsyningsordre som bare eksisterer som en planleggingslinje.  
--   Endre en eksisterende forsyningsordre som planleggingssystemet foreslår å endre.  
--   Opprett en ny foreslått forsyningsordre, og endre den.  
+When you open the **Item Availability by Timeline** page from the **Planning Worksheet** page, you can make the following changes:  
 
-Hvis du vil ha mer informasjon om planleggingslinjetypene som vises, kan du se feltet Beskrivelse på hurtigfanen **Hendelsesendringer**.  
+- Modify a suggested supply order that only exists as a planning line.  
+- Modify an existing supply order that the planning system suggests to change.  
+- Create a new suggested supply order and modify it.  
 
-Når du velger **Lagre endringer** på siden **Varetilgjengelighet per tidslinje**, kopieres endringene du har gjort til planleggings- eller bestillingsforslaget. Du kan nå velge å implementere dem ved hjelp av funksjonen **Utfør handlingsmeldingplanen**.  
+For more information about the planning line types that are shown, see the Description field on the **Event Changes** FastTab.  
 
-Følgende fremgangsmåte viser hvordan du endrer forsyningsforslag ved hjelp av dra og slipp. Som et alternativ kan du endre feltene **Forfallsdato** og **Antall** på hurtigfanen **Hendelsesendringer** og umiddelbart se endringene grafisk på hurtigfanen **Tidslinje** på siden **Planleggingsforslag**.  
+When you choose **Save Changes** on the **Item Availability by Timeline** page, the modifications that you have made are copied to the planning or requisition worksheet. You can now implement them using the **Carry Out Action Msg.-Plan.** function.  
 
-## <a name="to-modify-suggested-supply-orders-in-the-graphical-view"></a>Endre foreslåtte forsyningsordrer i den grafiske visningen  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Varetilgjengelighet per tidslinje**, og velg deretter den relaterte koblingen.  
+The following procedure shows how to modify supply suggestions by drag and drop. As an alternative, you can change the **Due Date** and **Quantity** fields on the **Event Changes** FastTab and immediately see the changes graphically on the **Timeline** FastTab on the **Planning Worksheet** page.  
 
-    Siden **Varetilgjengelighet per tidslinje** åpnes med varenummeret, lokasjonen og varianten av varen på den valgte planleggingslinjen forhåndsutfylt på hurtigfanen **Alternativer**. Hurtigfanen **Tidslinje** viser en grafisk fremstilling av varens beregnede beholdning, inkludert planleggingsforslag.  
+## To modify suggested supply orders in the graphical view
 
-2.  Kontroller at feltet **Inluder planleggingsforslag** er valgt.  
-3.  Finn den foreslåtte forsyningsordren du vil endre. Den grønne sirkelen og diskikonet identifiserer elementer som kan endres. Hvis du vil ha mer informasjon om ulike symboler, kan du se [Symboler og ikoner på hurtigfanen Tidslinje](production-how-to-modify-planning-suggestions-in-a-graphical-view.md#symbols-and-icons-on-the-timeline-fasttab).  
-4.  Plasser pekeren over den grønne sirkelen til den forstørres og pekeren endres til Flytt figur (fire piler).  
-5.  Trykk og hold museknappen nede mens du drar pekeren opp elle ned for å endre antallet. Trykk og hold museknappen nede mens du drar pekeren til venstre eller høyre for å endre forfallsdatoen.  
-6.  I tillegg til å flytte elementer ved å dra og slippe kan du endre planleggingsforslag ved å bruke flere ulike funksjoner på rullegardinmenyen. Åpne rullegardinmenyen på den grønne sirkelen til en foreslått forsyning og velg én av følgende funksjoner  
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Planning Worksheet**, and then choose the related link.  
 
-    |Funksjon|Beskrivelse|  
+2. Choose the line that you want to see item availability for, choose **Item Availability by**, and then choose **Timeline**.
+
+    The **Item Availability by Timeline** page opens with the item number, location, and variant of the item on the selected planning line prefilled in the **Options** FastTab. The **Timeline** FastTab shows a graphical representation of the item’s projected inventory, including planning suggestions.  
+
+<!--3. Make sure that the **Include Planning Suggestions** field is selected.  
+3. Find the suggested supply order that you want to modify. You can identify modifiable elements by the green circle and the disk icon. For more information about the different symbols, see [Symbols and Icons on the Timeline FastTab](#symbols-and-icons-on-the-timeline-fasttab).  
+4. Place the pointer over the green circle until it enlarges and the pointer changes to Move shape (four arrows).  
+5. Press and hold the mouse button while you drag the pointer up or down to modify the quantity. Press and hold the mouse button while you drag the pointer left or right to modify the due date.  
+6. In addition to moving elements by drag and drop, you can modify planning suggestions by using a number of drop-down menu functions. Access the drop-down menu for the green circle of a suggested supply element and select one the following functions  
+
+    |Function|Description|  
     |--------------|---------------------------------------|  
-    |**Opprett ny forsyning**|Oppretter et nytt elementpunkt der du åpner rullegardinmenyen, som representerer en ny foreslått forsyningsordre. Det blir en ny linje i planleggingsforslaget når du velger **Lagre endringer**.<br /><br /> **OBS!** Hvis feltene **Lokasjonsfilter** eller **Variantfilter** på hurtigfanen **Alternativer** er tomt eller har flere filterverdier, blir den nye forsyningen opprettet og senere lagret i planleggings- eller bestillingsforslaget med følgende koder:<br /><br /> * Hvis filterfeltet er tomt, opprettes den nye forsyningen uten en lokasjons- eller variantkode.<br /><br /> * Hvis flere filterverdier er definert, opprettes den nye forsyningen for første filterverdi i henhold til sorteringsmetoden.<br /><br /> Hvis du vil bruke en annen variant- eller lokasjonskode, må du endre den manuelt på den nye planleggingslinjen.|  
-    |**Autojuster forsyning**|Optimaliserer en ny forsyning som du har opprettet i diagrammet ved å sørge for at den resulterer i nullager til neste forsyning.|  
-    |**Slett forsyning**|Sletter elementet på hurtigfanen **tidslinje** og sletter planleggingslinjen når du velger **Lagre endringer**. Ikonet endres til en disk med et rødt kryss når forsyningen er slettet.<br /><br /> **OBS!** Du kan bare slette en forsyning med en handlingsmelding av typen **Ny**. Når du velger **Lagre endringer**, må du manuelt slette den aktuelle planleggingslinjen i planleggings- eller bestillingsforslaget.|  
+    |**Create New Supply**|Creates a new element point where you access the drop-down menu, which represents a new suggested supply order. It becomes a new line in the planning worksheet when you choose **Save Changes**.<br /><br /> **NOTE:** If the **Location Filter** or **Variant Filter** fields on the **Options** FastTab are empty or have more than one filter value, then the new supply is created and later saved to the planning or requisition worksheet with the following codes:<br /><br /> * If the filter field is empty, then the new supply is created without a location or variant code.<br /><br /> * If more than one filter value is defined, then the new supply is created for the first filter value according to the sorting method.<br /><br /> If you want another variant or location code, then you must manually change it on the new planning line.|  
+    |**Auto-Adjust Supply**|Optimizes a new supply that you have created in the graph by making sure that it results in zero inventory before the next supply.|  
+    |**Delete Supply**|Deletes the element in the **Timeline** FastTab and deletes the planning line when you choose **Save Changes**. The icon changes to a disk that has a red cross when the supply has been deleted.<br /><br /> **NOTE:** You can only delete a supply of action message type **New**. After you choose **Save Changes**, you must manually delete the planning line in question in the planning or requisition worksheet.|  
 
-7.  Velg handlingen **Last inn på nytt** hvis du vil tilbakestille alle endringene du har gjort siden du sist åpnet siden **Varetilgjengelighet per tidslinje** eller valgte **Last inn på nytt**.  
-8. Når elementene er plassert der du vil ha dem i diagrammet, kan du velge **Lagre endringer** for å kopiere endrede antall og datoendringer til planleggings- eller forslagslinjer som representerer de grafiske elementene.  
+7. Choose the **Reload** action if you want to reset all the changes that you have made after you last opened the **Item Availability by Timeline** page or selected **Reload**.  
+8. When the elements are placed where you want them in the diagram, choose **Save Changes** to copy modified quantity and date changes to the planning or requisition lines that represent the graphical elements.  
 
-Hvis du vil implementere forsyningsplanendringene, må du følge de resulterende handlingsmeldingene fra planleggings- eller bestillingsforslaget. Hvis du vil ha mer informasjon, se Utfør handlingsmeldingplaner..
+To implement the supply plan changes, you must follow the resulting action messages from the planning or requisition worksheet. For more information, see Carry Out Action Msg.-Plan..
 
-## <a name="symbols-and-icons-on-the-timeline-fasttab"></a>Symboler og ikoner på hurtigfanen Tidslinje
- |Symbol/ikon|Beskrivelse|  
+## Symbols and Icons on the Timeline FastTab
+ |Symbol/Icon|Description|  
  |------------------|---------------------------------------|  
- |Svart kryss|Bestillinger (både forsyning og behov).<br /><br /> -   Kan ikke endres.<br />-   Vises når feltet **Vis beregnet beholdning** er valgt (oransje graf).|  
- |Rød sirkel|Eksisterende forsyningsordrer som ikke finnes i planleggingsforslag.<br /><br /> -   Kan ikke endres.<br />-   Vises når feltet **Vis beregnet beholdning** er valgt (oransje graf).|  
- |Gul stjerne|Prognosekrav.<br /><br /> -   Kan ikke endres.<br />-   Vises når **Prognosenavn**-feltet har en verdi.<br /><br /> Når det er merket av for både **Vis beregnet beholdning** og **Inkluder planleggingsforslag**, har hver gule stjerne et tilknyttet motstykke i diagrammet rett overfor. Dette illustrerer hvordan en foreslått forsyning oppfyller prognostisert behov.|  
- |Grønn sirkel med et ikon som er formet som en disk med et rødt kryss|Foreslått forsyningsordre med handlingsmeldingen *Avbryt*.<br /><br /> -   Kan ikke endres.<br />-   Vises når feltet **Inkluder planleggingsforslag** er valgt (grønn graf).|  
- |Grønn sirkel med et ikon som er formet som en disk med en stjerne|Foreslåtte forsyningsordrer med handlingsmeldingen *Ny*.<br /><br /> -   Kan endres.<br />-   Vises når feltet **Inkluder planleggingsforslag** er valgt (grønn graf).|  
- |Grønn sirkel med et ikon som er formet som en disk med én eller to piler|Foreslåtte forsyningsordrer med handlingsmeldingen *Tidsplanlegg på nytt*, *Endre ant.* eller *Tidsplanl. på nytt og endre ant.*<br /><br /> -   Kan endres.<br />-   Vises når feltet **Inkluder planleggingsforslag** er valgt (grønn graf).<br /><br /> Pilene gjenspeiler retningen for planleggingsforslaget. En venstrepil sammen med en oppoverpil gjenspeiler for eksempel handlingsmeldingen *Tidsplanl. på nytt og endre ant.*, som består av en ny planlegging bakover og en økning i antall.|  
+ |Black cross|Orders (both supply and demand).<br /><br /> -   Cannot be modified.<br />-   Visible when the **Show Projected Inventory** field is selected (orange graph).|  
+ |Red circle|Existing supply orders that are not in planning suggestions.<br /><br /> -   Cannot be modified.<br />-   Visible when the **Show Projected Inventory** field is selected (orange graph).|  
+ |Yellow star|Forecast demand.<br /><br /> -   Cannot be modified.<br />-   Visible when the **Forecast Name** field has a value.<br /><br /> When both the **Show Projected Inventory** and the **Include Planning Suggestions** fields are selected, then each yellow star has a linked counterpart in the opposite graph. This illustrates how a suggested supply fulfills the forecasted demand.|  
+ |Green circle with an icon shaped as a disk that has a red cross|Suggested supply order with action message *Cancel*.<br /><br /> -   Cannot be modified.<br />-   Visible when the **Include Planning Suggestions** field is selected (green graph).|  
+ |Green circle with an icon shaped as a disk that has a star|Suggested supply orders with action message *New*.<br /><br /> -   Can be modified.<br />-   Visible when the **Include Planning Suggestions** field is selected (green graph).|  
+ |Green circle with an icon shaped as a disk that has one or two arrows|Suggested supply orders with action message *Reschedule*, *Change Qty.*, or *Resched. and Chg. Qty.*<br /><br /> -   Can be modified.<br />-   Visible when the **Include Planning Suggestions** field is selected (green graph).<br /><br /> The arrows reflect the direction of the planning suggestion. For example, a left arrow together with an up arrow reflects a *Resched. and Chg. Qty.* action message that consists of a backward rescheduling and a quantity increase.|  
+-->
+<!--When you access the drop-down menu for the **Timeline** FastTab, the following functions appear depending what you choose  
 
-Når du åpner rullegardinmenyen for hurtigfanen **Tidslinje**, vises følgende funksjoner avhengig av hva du velger:  
-
- |Funksjon|Beskrivelse|  
+ |Function|Description|  
  |--------------|---------------------------------------|  
- |**Opprett ny forsyning**|Oppretter et nytt element på punktet der du åpner rullegardinmenyen, som representerer en ny foreslått forsyningsordre. Det blir en ny linje i planleggingsforslaget når du velger **Lagre endringer** på fanebladet **Prosess**.<br /><br /> Alle filterverdier som er definert i feltene **Lokasjonsfilter** eller **Variantfilter** i hurtigfanen **Alternativer**, vil bli brukt i den nye forsyningsordren. **Obs!** Hvis filterfeltene er tomme eller har flere filterverdier, opprettes den nye forsyningsordren ved hjelp av følgende koder. <ul><li>Hvis filterfeltet er tomt, opprettes den nye forsyningen uten en lokasjons- eller variantkode.</li><li>Hvis flere filterverdier er definert, opprettes den nye forsyningen ved hjelp av første filterverdi i henhold til sorteringsrekkefølgen.</li></ul> Hvis du vil bruke en annen variant- eller lokasjonskode i den nye forsyningsordren, må du endre den manuelt på den nye planleggingslinjen.|  
- |**Autojuster forsyning**|Optimaliserer en ny forsyning som du har opprettet i diagrammet ved å sørge for at de ligger på nullager til neste forsyning.|  
- |**Slett forsyning**|Sletter elementet på hurtigfanen **Tidslinje** og sletter planleggingslinjen når du velger **Lagre endringer** i kategorien **Prosess**. Ikonet endres til en plate som har et rødt kryss når forsyningen er slettet. **Obs!** Du kan bare slette en forsyning med en handlingsmelding av typen *Ny*. Når du velger **Lagre endringer** i fanebladet **Prosess**, må du manuelt slette den aktuelle planleggingslinjen i planleggings- eller bestillingsforslaget.|  
- |**Vis dokument**|Åpner ordren, planleggingslinjen eller prognosen som elementet representerer.|  
- |**Zoom ut (Ctrl++)**|Gjør skalaen på x-aksen større, slik at færre dager vises. **Obs!** Du kan også gjøre dette ved å trykke Ctrl + rulle på musehjulet.|  
- |**Zoom inn (Ctrl+-)**|Gjør skalaen på x-aksen mindre, slik at flere dager vises. **Obs!** Du kan også gjøre dette ved å trykke Ctrl + rulle på musehjulet.|  
- |**Tilbakestill zoom (Ctrl+0)**|Tilbakestiller skalaen på x-aksen til den som ble brukt før du zoomet.|  
+ |**Create New Supply**|Creates a new element on the point where you access the drop-down menu, which represents a new suggested supply order. It becomes a new line in the planning worksheet when you choose **Save Changes** on the **Process** tab.<br /><br /> Any filter values that are defined in the **Location Filter** or **Variant Filter** fields on the **Options** FastTab will be applied to the new supply order. **Note:**  If the filter fields are empty or have more than one filter value, then the new supply order is created by using the following codes: <ul><li>If the filter field is empty, then the new supply is created without a location or variant code.</li><li>If more than one filter value is defined, then the new supply is created by using the first filter value according to the sorting order.</li></ul> If you want another variant or location code in the new supply order, then you must manually change it on the new planning line.|  
+ |**Auto-Adjust Supply**|Optimizes a new supply that you have created in the graph by making sure that it creates zero inventory before the next supply.|  
+ |**Delete Supply**|Deletes the element in the **Timeline** FastTab and deletes the planning line when you choose **Save Changes** on the **Process** tab. The icon changes to a disk that has a red cross when the supply has been deleted. **Note:**  You can only delete a supply of action message type *New*. After you choose **Save Changes** on the **Process** tab, you must manually delete the planning line in question in the planning or requisition worksheet.|  
+ |**Show Document**|Opens the order, planning line, or forecast that the element represents.|  
+ |**Zoom Out (Ctrl++)**|Makes the scale of the x-axis larger, so that fewer days are shown. **Note:**  You can also do this by pressing Ctrl + scroll mouse wheel.|  
+ |**Zoom In (Ctrl+-)**|Makes the scale of the x-axis smaller, so that more days are shown. **Note:**  You can also do this by pressing Ctrl + scroll mouse wheel.|  
+ |**Reset Zoom (Ctrl+0)**|Reverts the scale of the x-axis to what was used before you zoomed.|  
+-->
+<!--In addition to the keyboard actions that were mentioned earlier, you can also use the following keyboard actions in the **TimeLine** FastTab.  
 
-I tillegg til tastaturhandlingene som ble nevnt tidligere, kan du også bruke følgende tastaturhandlinger på hurtigfanen **Tidslinje**.  
-
- |Tastaturhandling|Beskrivelse|  
+ |Keyboard Action|Description|  
  |---------------------|---------------------------------------|  
- |CTRL+Rull hjulet på musen|Endrer skalaen på x-aksen.|  
- |Velg et element og trykk deretter SKIFT + PIL|Flytter elementet i pilens retning.|  
- |TAB|Flytter til neste element.|  
- |Skift+TAB|Flytter til forrige element.|  
- |Trykk på Esc mens du flytter et element.|Kansellerer flyttingen. **Obs!** Fungerer ikke hvis du har sluppet museknappen.|
+ |Ctrl + scroll mouse wheel|Changes the scale of the x-axis.|  
+ |Select an element, then press Shift+Arrow|Moves the element in the direction of the arrow stroke.|  
+ |Tab|Moves to the next element.|  
+ |Shift+Tab|Moves to the previous element.|  
+ |While moving an element, press Esc.|Cancels the move. **Note:**  Does not work if you have released the mouse button.|
+-->
 
-## <a name="see-also"></a>Se også  
-[Planlegging](production-planning.md)   
+## <a name="see-also"></a>Se også
+
+[Planlegging](production-planning.md)  
 [Definere produksjon](production-configure-production-processes.md)  
-[Produksjon](production-manage-manufacturing.md)    
+[Produksjon](production-manage-manufacturing.md)  
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
+[Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)  
 [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

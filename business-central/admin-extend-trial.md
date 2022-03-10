@@ -1,36 +1,62 @@
 ---
-title: Utvide prøveversjonen | Microsoft Docs
-description: Hvis du trenger mer tid til å avgjøre om du skal abonnere, kan du utvide prøveversjonen.
-services: project-madeira
-documentationcenter: ''
+title: Utvid prøveversjonen av Business Central
+description: Hvis du trenger mer tid til å avgjøre om du skal abonnere på Dynamics 365 Business Central, kan du utvide prøveversjonen én gang. Finn ut mer om alternativene.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f41cdfb90ab7ef6cff74205edfa4393c7da5f3d2
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.openlocfilehash: 571b71ed67a14151d668fa6e1b37a837a989a693
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239938"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8129111"
 ---
 # <a name="need-more-time-to-decide-whether-to-subscribe"></a>Trenger mer tid til å avgjøre om du vil abonnere?
-Det er viktig å ta de rette avgjørelsene når du velger en forretningsapplikasjon, og vi vet at det kan ta tid å utforske alle detaljene ved [!INCLUDE[d365fin](includes/d365fin_md.md)]. Hvis du trenger flere tid til å fullføre evalueringen, kan du utvide prøveperioden i ytterligere 30 dager. Når utløpsdatoen for prøveperioden nærmer seg, viser vi en melding som skal varsle deg når du logger deg på. Meldingen inneholder en kobling til **Forleng prøveperiode**-guiden, som du kan bruke til å utvide din prøveperiode. De ekstra 30 dagene starter når du velger **Forleng prøveperiode** i veiledningen.
 
-Men utvidelse av prøveperioden kan bare gjøres én gang. Du kan ikke utvide to ganger, i hvert fall ikke selv. Hvis du allerede har utvidet perioden, kan Microsoft-partneren din utvide den for deg igjen. Det er også en enkeltstående ting. Hvis du ikke allerede jobber med en partner, hjelper følgende kobling deg med å finne en: [Kontakte en partner](https://go.microsoft.com/fwlink/?linkid=2038439).
+Det er viktig å ta de rette avgjørelsene når du velger en forretningsapplikasjon, og vi vet at det kan ta tid å utforske alle detaljene ved [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du trenger flere tid til å fullføre evalueringen, kan du utvide prøveperioden i ytterligere 30 dager. Når utløpsdatoen for prøveperioden nærmer seg, viser vi en melding som skal varsle deg når du logger deg på. Meldingen inneholder en kobling til **Forleng prøveperiode**-guiden, som du kan bruke til å utvide din prøveperiode. De ekstra 30 dagene starter når du velger **Forleng prøveperiode** i veiledningen.
 
-## <a name="what-happens-if-my-trial-period-is-expired"></a>Hva skjer hvis prøveperioden min er utløpt?
-Hvis den første 30-dagers prøveperioden er utløpt, kan du utvide den selv, og ting går sin vante gang. Bare logg på demoselskapet og start veiledningen **Forleng prøveperiode** fra meldingen. Hvis du har opprettet ditt eget selskap, logger du av og deretter på igjen med legitimasjon for selskapet. Hvis den forlengede prøveperioden er utgått, kan du [abonnere](https://go.microsoft.com/fwlink/?linkid=828659) på [!INCLUDE[d365fin](includes/d365fin_md.md)] innnen 90 dager og fortsette å jobbe i selskapet du har opprettet. Etter 90 dager sletter vi selskapet og dataene dine. 
+Men utvidelse av prøveperioden kan bare gjøres én gang. Du kan ikke utvide to ganger, i hvert fall ikke selv. Hvis du allerede har utvidet perioden, kan Microsoft-partneren din utvide den for deg igjen. Det er også en enkeltstående ting. Hvis du ikke allerede arbeider med en partner, kan du [Hvordan finner jeg en partner for videresalg?](/dynamics365/business-central/across-faq#findpartner).  
 
 ## <a name="to-extend-your-trial-period"></a>Slik forlenger du prøveperioden
-1. Logg på [!INCLUDE[d365fin](includes/d365fin_md.md)].
+
+1. Logg på [!INCLUDE[prod_short](includes/prod_short.md)] på [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
+
+    Logg på med e-postkontoen du brukte da du registrerte deg for prøveversjonen.  
+
+    Hvis du registrerte deg for en e-postkonto fra en [30-dagers prøveversjon av Microsoft 365](/microsoft-365/commerce/sign-up-for-office-365-trial), må du først utvide prøveversjonen av Microsoft 365 eller kjøpe et Microsoft 365-abonnement. Hvis du vil ha mer informasjon, kan du se [Utvide prøveversjonen av Microsoft 365 for bedrifter](/microsoft-365/commerce/extend-your-trial).
 2. Velg varselet øverst i arbeidsområdet, og velg **Forleng prøveperiode**.
 
+    Hvis du forkastet varslingen, må du logge av og deretter på igjen.
+
+> [!TIP]
+> Hvis du ikke kan se varslingen, kan du tvinge [!INCLUDE [prod_short](includes/prod_short.md)] til å kjøre den assisterte oppsettsveiledningen **Forlenget prøveperiode** ved å legge til ```?page=1828```-parameteren i URL-adressen, som i følgende eksempel: [https://businesscentral.dynamics.com/?page=1828](https://businesscentral.dynamics.com/?page=1828)
+
+## <a name="what-happens-if-my-trial-period-is-expired"></a>Hva skjer hvis prøveperioden min er utløpt?
+
+Hvis den første 30-dagers prøveperioden er utløpt, kan du utvide den selv, som beskrevet ovenfor, og ting går sin vante gang. Bare logg på demoselskapet og start veiledningen **Forleng prøveperiode** fra meldingen.  
+
+Hvis du har opprettet ditt eget selskap, logger du av og deretter på igjen med legitimasjon for selskapet.  
+
+Hvis organisasjonen har etablert et forhandlerforhold med en partner, kan partene logge på [!INCLUDE[prod_short](includes/prod_short.md)] som delegert administrator og kjøre veiledningen **Forleng prøveperiode**. Hvis du vil ha mer informasjon, kan du se [Utvide prøveversjoner (som administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials).  
+
+Etter denne andre utvidelsen som har gitt organisasjonen din opptil 90 dagers prøveperiode, må du imidlertid enten abonnere på [!INCLUDE[prod_short](includes/prod_short.md)] eller forlate [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du ikke fortsetter, anbefales det at du eksporterer alle data du er avhengig av virksomheten.
+
+Når den forlengede prøveperioden er utgått, kan du [abonnere](https://go.microsoft.com/fwlink/?linkid=828659) på [!INCLUDE[prod_short](includes/prod_short.md)] innen 90 dager og fortsette å jobbe i selskapet du har opprettet. 90 dager etter at den utvidede prøveperioden utløper, vil vi slette selskapet og data med mindre du abonnerer.  
+
+[!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
+
 ## <a name="see-also"></a>Se også
-[Opprette nye selskaper](about-new-company.md)  
-[Tilgang til en forhåndsvisning](across-preview.md)  
+
+[Opprette nye seleskaper](about-new-company.md)  
+[Prøveversjoner og abonnementer](across-preview.md)  
+[Hvordan finner jeg en partner for videresalg?](/dynamics365/business-central/across-faq#findpartner)  
+[Utvide prøveversjoner (som administrator)](/dynamics365/business-central/dev-itpro/administration/tenant-administration#extending-trials)  
+[Komme i gang som en forhandler for Business Central Online](/dynamics365/business-central/dev-itpro/administration/get-started-online)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

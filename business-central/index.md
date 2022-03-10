@@ -2,25 +2,24 @@
 title: Velkommen til Microsoft Dynamics 365 Business Central
 description: Finn ut mer om funksjoner og arbeidsscenarioer i Business Central som hjelper selskaper med å administrere virksomheten, inkludert finans, produksjon, salg, levering, prosjektstyring, tjenester med mer.
 author: edupont04
-ms.service: dynamics365-business-central
 ms.topic: landing-page
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/01/2021
+ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 9042f49795f5ee6bb9e0bced2b8ba48ba1e093b4
-ms.sourcegitcommit: f9a190933eadf4608f591e2f1b04c69f1e5c0dc7
+ms.openlocfilehash: 95f54be520c439984343fbe9413570dc18097db9
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/28/2021
-ms.locfileid: "6115264"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8138495"
 ---
 # <a name="welcome-to-prod_long"></a>Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner som automatiserer og strømlinjeformer forretningsprosesser og gjør det enklere å drive bedriften. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder svært fleksible og rikholdige funksjoner som gir selskaper mulighet til å håndtere forretningsvirksomheten, inkludert finans, produksjon, salg, levering, prosjektstyring, service og mer. Det er enkelt å legge til funksjonalitet som er relevant for driftsområdet, og som også kan tilpasses for spesialiserte bransjer.  
 
-Hvis du allerede har [!INCLUDE[prod_short](includes/prod_short.md)], kan du logge på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Hvis ikke [henter du oversikten](https://dynamics.microsoft.com/business-central/overview/), [tar den veiledende gjennomgangen](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) og [starter en gratis prøveversjon](https://go.microsoft.com/fwlink/?linkid=847861). Hvis du vil ha mer informasjon om introduksjon til [!INCLUDE[prod_short](includes/prod_short.md)], kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
+Hvis du allerede har [!INCLUDE[prod_short](includes/prod_short.md)], kan du logge på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Hvis ikke [henter du oversikten](https://dynamics.microsoft.com/business-central/overview/), [tar den veiledende gjennomgangen](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) og [starter en gratis prøveversjon](https://go.microsoft.com/fwlink/?linkid=847861). Les [hurtigstartartiklene](quick-start-business-central.md) for å få hjelp til å bli kjent med [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon om introduksjon til [!INCLUDE[prod_short](includes/prod_short.md)], kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
 
 > [!TIP]
 > Kom du hit fra [!INCLUDE [prod_short](includes/prod_short.md)]? Hvis du ikke er sikker på hvor du finner det du leter etter, kan du **filtrere etter titler** i navigasjonsruten til venstre, eller du kan bruke **Søk**-feltet øverst i nettleservinduet.  
@@ -88,11 +87,16 @@ Du kan også vise videoer med nye og vanlig brukte funksjoner i videobiblioteket
 - [Microsoft Dynamics 365 Business Central-veikart](https://dynamics.microsoft.com/roadmap/business-central/)
 - [Microsoft Partner Network \(krever Microsoft Partner Network-medlemskapskonto\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)|  
 
+## <a name="get-notified-about-changes-through-an-rss-feed"></a>Få varsel om endringer gjennom en RSS-feed
+
+[!INCLUDE [ua-rss](includes/ua-rss.md)]  
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 
 ## <a name="see-also"></a>Se også
 
 [Dynamics 365 Business Central på Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
+[Hurtigstart for Business Central](quick-start-business-central.md)  
 [Komme i gang med Business Central](ui-get-ready-business.md)  
 [Gå til videobiblioteket vårt](across-videos.md)  
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
@@ -109,7 +113,5 @@ Du kan også vise videoer med nye og vanlig brukte funksjoner i videobiblioteket
 [Innføring i docs.microsoft.com (opprinnelig blogginnlegg)](/teamblog/introducing-docs-microsoft-com)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
-
-<!--comment out for 3 days[![RSS Subscription](/dynamics365-release-plan/media/feed-icon.png "RSS Subscription")](https://go.microsoft.com/fwlink/?linkid=2161350) Updates to Dynamics 365 Business Central documentation-->
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

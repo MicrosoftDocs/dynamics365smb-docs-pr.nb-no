@@ -2,20 +2,19 @@
 title: Tildelingsstatus og reparasjonsstatus | Microsoft-dokumentasjon
 description: Finn ut mer om forholdet mellom reparasjonsstatusen til servicevarer og tildelingsstatusen til tildelingspostene for dem.
 author: bholtorf
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: resources, allocation, status, repairs
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ba066e9d40959b48901792d7ceff8589525c6d7a
-ms.sourcegitcommit: ddbb5cede750df1baba4b3eab8fbed6744b5b9d6
+ms.openlocfilehash: b8cc2b6dafb5217d652f398b1fc03db6870a7e8f
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3910408"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8148281"
 ---
 # <a name="allocation-status-and-repair-status-of-service-items"></a>Tildelingsstatusen og reparasjonsstatusen til servicevarene
 Reparasjonsstatusen til servicevarer og tildelingsstatusen til tildelingsposter for servicevarene har en bestemt forbindelse i Service. Tildelingsstatusen endres når du endrer reparasjonsstatusen til servicevaren til **Ferdig** eller **Delvis vedlikeholdt**, og når du konverterer et servicetilbud til en serviceordre. Reparasjonsstatusen til servicevaren endres når du avbryter servicevaretildelingen eller tildeler servicevaren på nytt til en annen ressurs. Du kan vise reparasjonsstatusen til servicevarer på siden **Serviceoppgaver**, og du kan oppdatere reparasjonsstatusen i feltet **Reparasjonsstatuskode** på siden **Arbeidsordre**. Du kan vise tildelingsstatus i feltet **Status** på siden **Ressurstildelinger**.  
@@ -38,7 +37,7 @@ Når du konverterer et servicetilbud til en serviceordre, oppdateres serviceordr
 * Det søkes etter tildelingsposter for alle servicevarene i serviceordren, med status **Aktiv**. Hvis det blir funnet slike tildelingsposter, endres tildelingsstatusen fra **Aktiv** til **Ny tildeling nødvendig**.  
   
 ## <a name="canceling-allocations"></a>Avbryte tildelinger  
-Når du avbryter en tildeling for en servicevare, oppdaterer [!INCLUDE[d365fin](includes/d365fin_md.md)] tildelingsstatusen til den tilhørende tildelingsposten fra **Aktiv** til **Ny tildeling nødvendig**.
+Når du avbryter en tildeling for en servicevare, oppdaterer [!INCLUDE[prod_short](includes/prod_short.md)] tildelingsstatusen til den tilhørende tildelingsposten fra **Aktiv** til **Ny tildeling nødvendig**.
 
 Reparasjonsstatusen til servicevaren i tildelingsposten oppdateres på følgende måter:  
   
@@ -70,3 +69,6 @@ Det opprettes en ny tildelingspost som inneholder den nye ressursen, og som har 
 [Definere ressurstildelinger](service-how-setup-resource-allocation.md)  
 [Tildele ressurser](service-how-to-allocate-resources.md)  
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,23 +1,20 @@
 ---
 title: Konfigurere et selskap med RapidStart-veiviseren | Microsoft-dokumentasjon
 description: Du kan raskt konfigurere et nytt selskap du har opprettet, ved hjelp av konfigurasjonsveiviseren for RapidStart Services.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 3784b8e0cc0c0c07300895ce448ff82f9acc91c9
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 04/01/2021
+ms.author: edupont
+ms.openlocfilehash: 1b29412d166bd5b2225d780a0b0cee476874dcd0
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1239915"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8130855"
 ---
 # <a name="configure-a-company-with-the-rapidstart-wizard"></a>Konfigurere et selskap med RapidStart-veiviseren
 Du kan raskt konfigurere et nytt selskap du har opprettet, ved hjelp av konfigurasjonsveiviseren for RapidStart Services.
@@ -41,7 +38,7 @@ I fremgangsmåten nedenfor har du gitt kunden konfigurasjonspakken, som deretter
     >  Ikke endre rollesenteret ditt før du har fullført konfigurasjonen av selskapet. Hvis du har flere oppsettdetaljer å vurdere og endre, bruker du først konfigurasjonsforslaget til å fortsette arbeidet. Gå deretter tilbake til veiviseren for å oppdatere rollesenterprofilen din, eller velg handlingen **Fullfør konfigurasjon**.
 
 7. Velg **OK**-knappen.  
-8. Hvis du vil bekrefte at konfigurasjonsinformasjonen er brukt på det nye selskapet, velger du ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angir **Selskapsopplysninger** og velger deretter den relaterte koblingen.
+8. Du kan kontrollere at konfigurasjonsinformasjonen er brukt på det nye selskapet ved å velge ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.
 
 Siden **Informasjon om selskapet** inneholder informasjon som du har angitt.   
 
@@ -51,3 +48,6 @@ Du har nå konfigurert selskapet og brukt data i det.
 [Bruke konfigurasjoner for nye selskaper](admin-apply-configuration-to-new-companies.md)  
 [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)  
 [Administrasjon](admin-setup-and-administration.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

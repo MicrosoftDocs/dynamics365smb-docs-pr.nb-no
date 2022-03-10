@@ -2,17 +2,17 @@
 title: Legge til selskaper i selskapshuben
 description: Lær hvordan du legger til selskaper fra andre Business Central-miljøer i selskapshuben, slik at du kan håndtere arbeid på tvers av miljøer.
 author: edupont04
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.search.keywords: accountant, accounting, company hub
-ms.date: 10/29/2020
+ms.search.form: 1151, 1155, 1166, 1165
+ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a1832ae903af633756dd7fc2301e8a7ac21924de
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: c6cc06c45856f1e7c10b1ac82382dae799aef409
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4752108"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8139810"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Legge til selskaper i selskapshuben
 
@@ -29,7 +29,7 @@ En miljøkobling er et kort der du angir [!INCLUDE [prod_short](includes/prod_sh
 
 Koblingen brukes når du velger firmaet i firmahuben.  
 
-:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Handlinger for et selskap som er oppført i selskapshuben":::
+:::image type="content" source="media/company-hub-company-list-actions.png" alt-text="Handlinger for et selskap som er oppført i selskapshuben.":::
 
 > [!TIP]
 > Hvis du arbeider i en gratis prøveversjon av [!INCLUDE [prod_short](includes/prod_short.md)], er det enkelt å legge til selskapene i leieren. Du kan finne miljøkoblingen ved å kopiere Azure Active Directory-ID-en fra **Feilsøking**-delen på siden Hjelp og støtte. Miljønavnet er sannsynligvis standardverdien PRODUKSJON. Legg til denne informasjonen i feltet **Miljøkobling**, for eksempel ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```, og velg deretter **Test tilkoblingen**. Evalueringsselskapet blir lagt til i listen.
@@ -47,3 +47,6 @@ Når du har lagt til miljøene, vises selskapene automatisk. Hvis du imidlertid 
 
 [Administrere arbeid på tvers av flere selskaper i selskapshuben](company-hub.md)  
 [Ressurser for hjelp og støtte](product-help-and-support.md)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

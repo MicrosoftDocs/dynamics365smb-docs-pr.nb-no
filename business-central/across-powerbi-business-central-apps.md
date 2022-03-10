@@ -2,20 +2,19 @@
 title: Bruke Business Central-apper i Power BI | Microsoft Docs
 description: Få innsikt, forretningsintelligens og KPI-er fra Business Central-dataene på en enkel måte med Business Central-apper for Power BI.
 author: jswymer
-ms.service: dynamics365-business-central
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 10/01/2020
+ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 479fa9897d817075aec8d2d6fd9431dbe49ab162
-ms.sourcegitcommit: 2e7307fbe1eb3b34d0ad9356226a19409054a402
+ms.openlocfilehash: e61e4561c4227eba4c518e6e5ec0582c5ebe7d70
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4754320"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8134151"
 ---
 # <a name="using-the-prod_short-apps-in-power-bi"></a>Bruke [!INCLUDE [prod_short](includes/prod_short.md)]-appene i Power BI
 
@@ -63,7 +62,7 @@ Registrer deg for Power BI-tjenesten. Hvis du ikke allerede har registrert deg, 
 1. Åpne nettleseren, naviger til [https://powerbi.microsoft.com](https://powerbi.microsoft.com), og logg deg på kontoen din.
 2. Velg **Hent data** nederst i navigasjonsruten til venstre.  
 
-    ![Navigere til Hent data](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
+    ![Naviger til Hent data.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-get-data.png)
 
     Du kan også starte fra [!INCLUDE [prod_short](includes/prod_short.md)]. Fra startsiden navigerer du til **Rapportvalg** i Power BI-delen. Velg enten **Service** eller **Min organisasjon** på båndet. Organisasjonsgalleriet i Power BI eller Microsoft AppSource åpnes, filtrert slik at bare apper som er knyttet til [!INCLUDE[prod_short](includes/prod_short.md)], vises.
 
@@ -89,7 +88,7 @@ Registrer deg for Power BI-tjenesten. Hvis du ikke allerede har registrert deg, 
 5. Når du blir bedt om det, skriver du inn brukernavn og passord for å logge på [!INCLUDE[prod_short](includes/prod_short.md)].
 6. Ved tilkobling legges det til et instrumentbord og rapporter i Power BI-arbeidsområdet. Når du er ferdig, vises dataene fra [!INCLUDE[prod_short](includes/prod_short.md)]-selskapet.
 
-    ![Velg Dynamics 365 Business Central, og velg Få det nå](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
+    ![Velg Dynamics 365 Business Central, og velg Få det nå.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
 ## <a name="fixing-problems"></a>Løse problemer
 
@@ -164,11 +163,14 @@ Power BI-appen viser bare data fra [!INCLUDE[prod_short](includes/prod_short.md)
 [Hurtigstart: Koble til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI-dokumentasjon](/power-bi/)  
 [Forretningsintelligens](bi.md)  
-[Komme i gang](product-get-started.md)  
+[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
 [Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
 [Ved hjelp av [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

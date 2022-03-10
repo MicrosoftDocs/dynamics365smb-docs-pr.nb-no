@@ -1,23 +1,20 @@
 ---
-title: Opprette plasseringer fra interne plasseringer | Microsoft-dokumentasjon
-description: Når varer er plassert, og før de blir plukket for å oppfylle behovene i en produksjonsordre eller følgeseddel, blir de lagret i lageret som en del av tilgjengelig lager.
-services: project-madeira
-documentationcenter: ''
+title: Opprett plasseringer fra interne plasseringer
+description: Dette emnet dekker hvordan du kan plukke og plassere uten et kildedokument, både hvordan du oppretter en intern plukking, og hvordan du oppretter en intern plassering.
 author: SorenGP
-ms.service: dynamics365-business-central
-ms.topic: article
+ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2019
-ms.author: sgroespe
-ms.openlocfilehash: 0807c425b4951cacf19724db78aa4ae5920f1f2f
-ms.sourcegitcommit: 60b87e5eb32bb408dd65b9855c29159b1dfbfca8
+ms.date: 06/24/2021
+ms.author: edupont
+ms.openlocfilehash: 609564faa1e0d5b1e7c364360315ca71b9ba3d06
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "1248896"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8140088"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Plukke og plassere uten et kildedokument
 Når varer er plassert, og før de blir plukket for å oppfylle behovene i en produksjonsordre eller følgeseddel, blir de lagret i lageret som en del av tilgjengelig lager.  
@@ -36,16 +33,22 @@ Med **Intern plassering** kan du utføre plasseringer uten å måtte referere ti
 >  Når lokasjonen bruker lagerstyring, og derfor bruker hylletyper, kan du ikke manuelt flytte varer til eller fra en hylle av hylletypen RECEIVE, fordi varer som er i en slik hylle må registreres som plassert før de blir en del av det tilgjengelige lageret.  
 
 ## <a name="to-create-an-internal-pick"></a>Opprette en intern plukking  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Intern plukk**, og velg deretter den relaterte koblingen.  
-2.  Fyll ut feltet **Nr.** feltet og feltet **Til hylle-kode** i hurtigfanen **Generelt**. Feltet **Til hylle-kode** angir hyllen som du vil hente varene fra. Til produksjonsformål ville denne hyllen være den inngående produksjonshyllen eller den åpne produksjonshyllen. Til andre formål velger du en Til hylle-kode for en hylletype som ikke brukes til plukking, sannsynligvis en hylle for oppsamling, levering eller spesielle formål.  
-3.  Velg en vare i feltet **Varenr.**, og fyll ut antallene du vil plukke.  
-4. Velg handlingen **Opprett plukk**. En plukkinstruksjon er nå klar til utføring av en lageransatt.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Intern plukk**, og velg deretter den relaterte koblingen.  
+2. Velg handlingen **Ny**.
+3. Fyll ut feltet **Nr.** feltet **Lokasjonskode** og **Til hylle-kode** i hurtigfanen **Generelt**. Feltet **Til hylle-kode** angir hyllen der du vil plassere de plukkede varene. Til produksjonsformål ville denne hyllen være den inngående produksjonshyllen eller den åpne produksjonshyllen. Til andre formål velger du en hyllekode for en hylletype som ikke brukes til plukking, sannsynligvis en hylle for oppsamling, levering eller spesielle formål.  
+4.  Velg en vare i feltet **Varenr.**, og fyll ut antallene du vil plukke.  
+5. Velg handlingen **Opprett plukk**. En plukkinstruksjon er nå klar til utføring av en lageransatt. Du kan også velge **Frigi**-handlingen og opprette lagerplukk ved hjelp av **Plukk-forslaget**. Hvis du vil ha mer informasjon, kan du se [Planlegge plukkinger i forslaget](warehouse-how-to-plan-picks-in-worksheets.md)
 
 ## <a name="to-create-an-internal-put-away"></a>Opprette en intern plassering  
-1.  Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Intern plassering**, og velg deretter den relaterte koblingen.  
-2.  Fyll ut feltet **Nr.** og **Fra hylle-kode** i hurtigfanen **Generelt**. Feltet **Fra hylle-kode** angir hyllen der varene som blir returnert til lageret, kanskje fra produksjon, er plassert.  
-3.  Fyll ut varenumrene og antallene på linjene.  
-4.  Velg handlingen **Opprett plassering**. En plasseringsinstruksjon er nå klar til utføring av en lageransatt.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Intern plassering**, og velg deretter den relaterte koblingen.  
+2. Velg handlingen **Ny**.
+3. Fyll ut hodet til den nye interne plasseringen med minst feltet **Nr.**. og **Lokasjonskode**.
+4. Fyll ut en linje for hver vare du vil flytte til lageret. Du trenger bare å fylle ut feltene **Varenr.** og **Antall**.
+
+  > [!NOTE]  
+  > Når du velger feltet **Varenr.**, åpnes **Hylleinnholdsoversikt** i stedet for **Vareoversikt**. Det kommer av at du ønsker å plassere varer som er i en bestemt hylle – *hylleinnhold* – ikke bare en vare, og du vet allerede hvilken hylle varen skal tas fra.  <!--If you filled in **From Bin Code** in the header, the bin content will be filtered by value defined in the **From Bin Code**.-->
+5. Hvis du vil fylle ut linjene med hele hylleinnholdet eller det filtrerte hylleinnholdet i hyller i lokasjonen, velger du handlingen **Hent hylleinnhold**.  
+6. Velg handlingen **Opprett plassering**. En plasseringsinstruksjon er nå klar til utføring av en lageransatt. Du kan også velge **Frigi**-handlingen og opprette lagerplasseringer ved hjelp av **Plasser-forslaget**. Hvis du vil ha mer informasjon, kan du se [Planlegge plasseringer i forslag](warehouse-how-to-plan-put-aways-in-worksheets.md).
 
 ## <a name="see-also"></a>Se også  
 [Lagerstyring](warehouse-manage-warehouse.md)  
@@ -53,4 +56,7 @@ Med **Intern plassering** kan du utføre plasseringer uten å måtte referere ti
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

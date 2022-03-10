@@ -2,7 +2,6 @@
 title: Fakturere salg
 description: Beskriver hvordan du oppretter en sluttseddel, eller en salgsfaktura eller ordre, for å registrere avtalen med en kunde om å selge produkter i samsvar med bestemte betingelser.
 author: SorenGP
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +10,12 @@ ms.search.keywords: bill, sale, invoice, order
 ms.search.form: 42, 43, 48, 9301, 9305
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 125d28f1621e23f14cda9ce57a935a7da71e43cb
-ms.sourcegitcommit: a9e2aaee735870af566db68532cfa697347d68e0
+ms.openlocfilehash: 0667c06af3fdd90da5b1b68dba2ae0e5ab21d1ab
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7752471"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8133617"
 ---
 # <a name="invoice-sales"></a>Fakturere salg
 
@@ -28,7 +27,7 @@ Det er et par scenarier der du må bruke en ordre i stedet for en salgsfaktura:
 * Hvis du leverer varer etter at du har bokført de tilhørende salgsfakturaene.
 * Hvis du selger varer som leverandøren gir deg direkte til kunden, kjent som direkte levering. Hvis du vil ha mer informasjon, kan du se [Foreta direkte leveringer](sales-how-drop-shipment.md).  
 
-I alle andre henseender fungerer ordrer og salgsfakturaer på samme måte. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).
+I alle andre henseender fungerer ordrer og salgsfakturaer på samme måte. Hvis du vil ha mer informasjon om hvordan du bruker ordrer, kan du se [Selge produkter](sales-how-sell-products.md).
 
 Du kan forhandle med kunden ved først å opprette et tilbud, som du kan konvertere til en salgsfaktura når dere blir enige om salget. Hvis du vil ha mer informasjon, kan du se [Gi salgstilbud](sales-how-make-offers.md).
 

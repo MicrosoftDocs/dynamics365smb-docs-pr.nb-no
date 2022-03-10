@@ -4,7 +4,6 @@ description: Finn ut hvordan mva-innstillinger for kunder og leverandører kontr
 services: project-madeira
 documentationcenter: ''
 author: bholtorf
-ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -12,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 471a5151314645f21f163a8f9044b168ac5a8bb3
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: fc11979fb6e21feba85c883b83ca7a3dcc5d8772
+ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5786326"
+ms.lasthandoff: 02/15/2022
+ms.locfileid: "8137916"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Fordel kost til konserninterne partnere
 Når du bruker konserninterne bokføringer til å overføre dokumenter mellom partnerselskaper, kontrollerer mva-relaterte innstillinger (primært mva-bokføringsgruppen for firma) som er tilordnet kunde- eller leverandørkontiene (tilknyttet den konserninterne partneren) om og hvordan mva. beregnes og registreres. Du kan også utføre kostnadsdistribusjoner direkte fra en bestilling til partnerselskaper. Hvis du for eksempel registrerer en kjøpsfaktura fra en ekstern leverandør og vil distribuere noen av eller alle kostnadene til én eller flere konserninterne partnere.
@@ -30,7 +29,7 @@ Du kan fordele kost til én eller flere konserninterne partnere ved å bruke fø
 ## <a name="to-allocate-costs-using-an-intercompany-general-journal"></a>Slik fordeles kost ved hjelp av en konsernintern finanskladd
 Følg denne fremgangsmåten for å angi en linje i en konsernintern finanskladd. 
 
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Konsernintern finanskladd**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konsernintern finans**, og velg deretter den relaterte koblingen.
 2. Hvis det er nødvendig, angir du angir du dokumentnummeret på fakturaen fra leverandøren i feltet **Eksternt dokumentnr.**.
 3. I feltet **Dokumenttype** velger du **Faktura**.
 4. Velg **Leverandør** i **Kontotype**-feltet.
@@ -57,7 +56,7 @@ Følgende fremgangsmåte viser hvordan du fordeler kostnader ved hjelp av en kj�
 > [!NOTE]
 > Du må tilpasse siden **Kjøpsfaktura** ved å legge til feltene **KI-partnerkode**, **Referansetype for KI-partner** og **KI-partner**. Hvis du vil ha mer informasjon, kan du se [Slik tilpasser du en side med Tilpasse-banneret](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
-1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Kjøpsfaktura**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpsfaktura**, og velg deretter den relaterte koblingen.
 2. Velg **Finankonto** i **Type**-feltet.
    
    Finanskonto er det eneste alternativet du kan bruke til å fordele kostnader.  
@@ -70,7 +69,7 @@ Følgende fremgangsmåte viser hvordan du fordeler kostnader ved hjelp av en kj�
 1. Du bokfører bestillingen ved å velge **Bokfør**.
 
 ## <a name="to-send-the-allocated-costs-to-intercompany-partners"></a>Slik sender du fordelte kostnader til konserninterne partnere
-1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utgående KI-transaksjoner**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **KI-utbokstransaksjoner**, og velg deretter den relaterte koblingen.
 2. Velg linjer som skal sendes, og velg deretter handling **Send til KI-partner**. 
 3. Du fordeler kostnadene ved å velge handlingen **Fullfør linjehandlinger**.
 
