@@ -1,14 +1,14 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 04/01/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 0bfe45574f3f209ac5ee310546cd2ef0998ab417
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5a3e15669bfc590d663b7774fba84017ae842521
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334542"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372024"
 ---
 Tabellen nedenfor beskriver noen av nøkkelrapportene i produksjonsrapportering.
 
@@ -22,6 +22,7 @@ Tabellen nedenfor beskriver noen av nøkkelrapportene i produksjonsrapportering.
 | [Sammenligningsoversikt for varestykkliste](https://businesscentral.dynamics.com?report=99000758)|Denne rapporten gir deg muligheten til å sammenligne lignende endelige produkter som gjelder kostnadene. Det vises en oversikt over alle komponenter og kostnader i tillegg til de nødvendige antallene. Beregningsdatoen settes vanligvis til arbeidsdatoen. |99000758|
 | [Produksjonsordrestatistikk](https://businesscentral.dynamics.com?report=99000791)|Angir de ulike kostbeløpene som er akkumulert for den valgte produksjonsordren.<br>Innholdet i rapporten er veldig lik siden **Produksjonsordrestatistikk**.<br>Når det gjelder produksjonsordrer som bruker produksjonsprinsippet *Produser til ordre*, vises bare material- og kapasitetskostnader for varer på øverste stykklistenivå i vinduet.|99000791|
 | [Oversikt over kapasitetsoppg.](https://businesscentral.dynamics.com?report=99000780)|Viser hvilke produksjonsordrer som venter på å bli behandlet ved arbeidssentrene og produksjonsressursene. Utskrifter skrives ut for kapasiteten i arbeidssenteret eller produksjonsressursen. Rapporten tar med opplysninger som start- og sluttidspunkt, dato per produksjonsordre og tilgangsantall.|99000780|
-| [Arbeidssenterbelastning](https://businesscentral.dynamics.com?report=99000783)|Begge rapportene viser en oversikt over belastningen for et arbeid eller en produksjonsressurs. Belastningen i et arbeid eller en produksjonsressurs er summen av ønsket antall ganger alle planlagte og faktiske ordrer kjøres i arbeidssenteret i en bestemt periode.|99000783|
-| [Produksjonsressursbelastning](https://businesscentral.dynamics.com?report=99000784)|Begge rapportene viser en oversikt over belastningen for et arbeid eller en produksjonsressurs. Belastningen i et arbeid eller en produksjonsressurs er summen av ønsket antall ganger alle planlagte og faktiske ordrer kjøres i arbeidssenteret i en bestemt periode.|99000784|
+| [Arbeidssenterbelastning](https://businesscentral.dynamics.com?report=99000783)|Viser en oversikt over belastningen for et arbeidssenter. Belastningen i et arbeidssenter er summen av ønsket antall ganger alle planlagte og faktiske ordrer kjøres i arbeidssenteret i en bestemt periode.|99000783|
+| [Produksjonsressursbelastning](https://businesscentral.dynamics.com?report=99000784)|Viser en oversikt over belastningen for en produksjonsressurs. Belastningen for en produksjonsressurs er summen av ønsket antall ganger alle planlagte og faktiske ordrer kjøres på arbeidssenteret i en bestemt periode.|99000784|
 | [Prod.ordre – mankoliste](https://businesscentral.dynamics.com?report=99000788)|Denne rapporten kan brukes til å vise alle komponenter som ikke er tilgjengelige på grunn av manglende beholdning. Denne oversikten kan for eksempel brukes til å se om tidslinjen for en planlagt eller frigitt produksjonsordre, hvis planlagt tidspunkt kan beholdes.|99000788|
+|[Prod.ordre – beregning](https://businesscentral.dynamics.com?report=99000767)|Viser en liste over produksjonsordrene og kostnadene. Den omfatter forventet operasjonskost, forventet komponentkost og totale kostnader.|99000767|

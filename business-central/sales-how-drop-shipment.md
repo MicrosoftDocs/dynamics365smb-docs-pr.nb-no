@@ -1,5 +1,5 @@
 ---
-title: Knytte en ordre til en bestilling for direkte levering (inneholder video) | Microsoft Docs
+title: Foreta direkte leveringer (inneholder video)
 description: Beskriver hvordan du oppretter en ordre som er koblet til en bestilling, for å sikre levering direkte fra leverandøren til kunden.
 author: SorenGP
 ms.topic: conceptual
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19bfb28494a6ee5a4650f32fd2794c0254eff561
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fe45eb6403798a7e64b9604321440a2fff38c3f
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144830"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372046"
 ---
 # <a name="make-drop-shipments"></a>Foreta direkte leveringer
 
@@ -40,12 +40,12 @@ For å klargjøre en direkte levering angir du på bestilling at den må leveres
 2. I **Forsendelsesadresse**-feltet velger du **Kundeadresse**.
 3. I **Kunde**-feltet velger du kunden som du selger til.
 4. Velg **Direkte levering**-handlingen, og velg deretter **Hent ordre**-handlingen.
-5. På siden **Salgsliste** merker du ordren som du har forberedt i [Slik oppretter du en ordre med direkte levering](sales-how-drop-shipment.md#to-create-a-sales-order-for-drop-shipment).
+5. På siden **Salgsliste** merker du ordren som du har forberedt i [Slik oppretter du en ordre med direkte levering](#to-create-a-sales-order-for-drop-shipment).
 6. Velg **OK**.
 
 Linjeinformasjonen fra ordren settes inn på bestillingslinjene.
 
-Nå kan du angi at leverandøren skal levere varene til kunden, for eksempel, ved å sende bestillingen på e-post som en PDF-fil.     
+Nå kan du angi at leverandøren skal levere varene til kunden, for eksempel, ved å sende bestillingen på e-post som en PDF-fil. Hvis leverandøren oppgir et sporingsnummer eller liknende informasjon, kan du velge å registrere informasjonen på en bestillingslinje av typen *Merknad*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Slik oppretter du flere bestillinger med direkte leveringer
 

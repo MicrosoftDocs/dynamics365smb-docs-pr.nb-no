@@ -1,8 +1,7 @@
 ---
 title: Utvidelsen for mva-gruppestyring
 description: Du kan samarbeide med andre bedrifter for å danne en mva-gruppe, og opptre enten som medlem eller representant for gruppen ved rapportering av mva.
-author: bholtorf
-manager: annbe
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +9,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 470b8af1322fa0f3b295f566244af44c3183c2fe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f385cd6dc2186a2e492eb7c045639ec34185237c
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132449"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382560"
 ---
 # <a name="the-vat-group-management-extension"></a>Utvidelsen for mva-gruppestyring
 
@@ -84,9 +83,9 @@ Konfigurer mva-gruppemedlemmet ved å starte assistert oppsettsveiledning for **
 5. Velg **Godkjenningstype**, velg **OAuth2**, og velg deretter **Neste**.
 6. Skriv inn ID-en som er angitt av mva-grupperepresentanten, i feltet **Klient-ID**.
 7. I feltet **Klienthemmelighet angitt av mva-grupperepresentant** skriver du inn hemmeligheten fra mva-grupperepresentanten.
-8. I feltet **Godkjenningsendepunkt for OAuth 2.0** angir du *https://login.microsoftonline.com/common/oauth2*.
-9. I feltet **Ressursnettadresse for OAuth 2.0** angir du *https://api.businesscentral.dynamics.com/*.
-10. I feltet **Omdirigeringsnettadresse for OAuth 2.0** angir du *https://businesscentral.dynamics.com/OAuthLanding.htm*. 
+8. I feltet **Godkjenningsendepunkt for OAuth 2.0** angir du `https://login.microsoftonline.com/common/oauth2`.
+9. I feltet **Ressursnettadresse for OAuth 2.0** angir du `https://api.businesscentral.dynamics.com/`.
+10. I feltet **Omdirigeringsnettadresse for OAuth 2.0** angir du `https://businesscentral.dynamics.com/OAuthLanding.htm`. 
 11. Når du har angitt de ulike feltene, velger du **Neste**, og skriv deretter inn brukerlegitimasjonen som ble gitt av mva-grupperepresentanten.
 12. Velg konfigurasjonen for mva-rapporten du bruker til å rapportere mva til myndighetene i landet.
 
@@ -94,7 +93,7 @@ Konfigurer mva-gruppemedlemmet ved å starte assistert oppsettsveiledning for **
 
 ## <a name="using-the-vat-group-management-features"></a>Bruke funksjonene for mva-gruppestyring
 
-Mva-gruppemedlemmer bruker standardprosessene til å forberede omsetningsoppgaver. Den eneste forskjellen er å velge rapportversjonen **MVA-GRUPPE**, som sender omsetningsoppgaven til mva-grupperepresentanten i stedet for myndighetene. Hvis du vil ha mer informasjon, kan du se [Om rapporten Omsetningsoppgave](finance-how-report-vat.md#about-the-vat-return-report).
+Mva-gruppemedlemmer bruker standardprosessene til å forberede omsetningsoppgaver. Den eneste forskjellen er å velge rapportversjonen **MVA-GRUPPE**, som sender omsetningsoppgaven til mva-grupperepresentanten i stedet for myndighetene. Hvis du vil ha mer informasjon, kan du se [Om rapporten Omsetningsoppgave](finance-how-report-vat.md#vatreturn).
 
 Følgende deler beskriver oppgavene som mva-grupperepresentanter må utføre.
 

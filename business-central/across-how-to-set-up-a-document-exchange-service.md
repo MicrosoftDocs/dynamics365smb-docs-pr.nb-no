@@ -1,7 +1,7 @@
 ---
 title: Konfigurere en dokumentutvekslingstjeneste | Microsoft-dokumentasjon
 description: Du bruker en ekstern tjenesteleverandør til å utveksle elektroniske dokumenter med handelspartnere.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 8804b9bb7f7b8112e54e8a9953198db8686f768d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cc0bda1808e33db7ea54aac2a1afdb932c01f629
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133385"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382980"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Konfigurere en dokumentutvekslingstjeneste
 Som en del av rammeverket for datautveksling kan du utveksle salgs- og kjøpsdokumenter med handelspartnere uten ekstra trinn, for eksempel knytte sammen dokumenter til e-postmeldinger som PDF-filer. Når du for eksempel er klar til å fakturere en kunde, kan du bokføre fakturaen og sende den til betaling som en fil som kunden kan motta i forretningsadministrasjonsprogrammet. Hvis du vil ha mer informasjon, kan du se [Utveksle data elektronisk](across-data-exchange.md).

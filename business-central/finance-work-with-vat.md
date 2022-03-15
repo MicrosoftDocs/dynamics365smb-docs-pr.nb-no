@@ -1,7 +1,7 @@
 ---
 title: Arbeid med mva. på kjøp og salg
 description: Dette emnet beskriver de ulike måtene å arbeide med mva. både manuelt og med automatisk oppsett, slik at du kan overholde spesifikke forskrifter.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: ed3cbe00aac1faf920df6954ee1694bdabce9835
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7543c60455794d9f004ea11b2baccf81264b9886
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133787"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382102"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeide med mva på kjøp og salg
 Hvis landet eller regionen din krever at du beregner merverdiavgift (mva) i salgs- og kjøpstransaksjoner, slik at du kan rapportere beløpene til en skattemyndighet, kan du sette opp [!INCLUDE[prod_short](includes/prod_short.md)] til å beregne mva automatisk på salgs- og kjøpsdokumenter. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md).

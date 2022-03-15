@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: remove, delete
-ms.date: 04/01/2021
+ms.date: 02/23/2022
 ms.author: edupont
-ms.openlocfilehash: 7c02bc46895c211748b8200c1490b08e54f0eb94
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f6586423ed8fa0254c84d2cd8737d1104f1ecea4
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138098"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366965"
 ---
 # <a name="unsubscribe-or-remove-prod_short"></a>Avbryte eller fjerne [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -26,7 +26,7 @@ Hvis du har registrert deg for gratis prøveversjon og ikke vil fortsette med [!
 
 Du må be Microsoft 365-administratoren om å fjerne prøveabonnementet fra selskapets konto i [Microsoft 365-administrasjonssenteret](https://admin.microsoft.com/).  
 
-Hvis du registrerte deg for [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av en annen konto enn en Microsoft 365-bedriftskonto, har du ikke en Microsoft 365-administrator. Du må i stedet si opp abonnementet ved å kontakte [!INCLUDE[prod_short](includes/prod_short.md)]-teamet ved å sende en e-postmelding til [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). Du må inkludere navnet på [!INCLUDE[prod_short](includes/prod_short.md)]-leietakeren i meldingen, slik at vi kan identifisere deg. Du finner denne informasjonen på siden **Hjelp og støtte**. Hvis du vil ha mer informasjon, kan du se [Ressurser for hjelp og støtte](product-help-and-support.md).  
+Hvis du registrerte deg for [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av en annen konto enn en Microsoft 365-bedriftskonto, har du ikke en Microsoft 365-administrator. Du må i stedet si opp abonnementet ved å kontakte [!INCLUDE[prod_short](includes/prod_short.md)]-oppsigelsesteamet ved å sende en e-postmelding til [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). Du må inkludere navnet på [!INCLUDE[prod_short](includes/prod_short.md)]-leietakeren i meldingen, slik at vi kan identifisere deg. Du finner denne informasjonen på siden **Hjelp og støtte**. Hvis du vil ha mer informasjon, kan du se [Ressurser for hjelp og støtte](product-help-and-support.md).  
 
 ## <a name="unsubscribing-by-removing-prod_short-from-your-microsoft-365-experience"></a>Stopp abonnementet ved å fjerne [!INCLUDE[prod_short](includes/prod_short.md)] fra Microsoft 365-opplevelsen
 

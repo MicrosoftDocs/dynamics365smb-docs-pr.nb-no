@@ -1,7 +1,7 @@
 ---
 title: Opprette fakturaer eller kreditnotaer for servicer
 description: Lær hvordan du bruker Business Central til å opprette kreditfakturaer og kreditnotaer på en sømløs måte.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 47ff02006af6182752ed110464b4c8aa493060c5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6802f145d0312339080cff0d58e9e784dca51088
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143091"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381807"
 ---
 # <a name="create-service-invoices-or-credit-memos"></a>Opprette servicefakturaer eller kreditnotaer
 Enkel fakturering av serviceordrene er en viktig funksjon i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan også sette opp [!INCLUDE[prod_short](includes/prod_short.md)] slik at en servicetekniker ute hos kunden kan opprette en faktura for en tjeneste som ikke er knyttet til en kontrakt eller ordre. Du kan også sette opp [!INCLUDE[prod_short](includes/prod_short.md)] slik at du fakturerer servicekontrakter regelmessig. Fakturaperioden for hver enkelt kontrakt angir hvor ofte du fakturerer den.

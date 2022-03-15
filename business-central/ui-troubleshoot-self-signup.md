@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: aaf3a30be1c04d1f5f30c157b20a1f10c51170a3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cb917d1d54d66e02315e82ef6596a8fef65fb077
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145267"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366193"
 ---
 # <a name="troubleshooting-self-service-sign-up"></a>Feilsøke registrering for Self-Service
 Registrering for [!INCLUDE[prod_short](includes/prod_short.md)] er enkelt og kan gjøres svært raskt. Du kan opprette en gratis konto selv om du er en eksisterende organisasjon. Denne artikkelen beskriver problemer som kan oppstå under registrering.
@@ -43,6 +43,8 @@ For en oversikt over markeder som støttes på tvers av Dynamics 365, kan du se 
 
 ## <a name="see-also"></a>Se også
 
+[Registrer deg for en Dynamics 365 Business Central-prøveversjon](trial-signup.md)  
+[Vanlige spørsmål om prøversjonen av Dynamics 365 Business Central](trial-faq.md)  
 [Velkommen til [!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Lokal funksjonalitet](about-localization.md)  

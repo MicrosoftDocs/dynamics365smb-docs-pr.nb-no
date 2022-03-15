@@ -1,20 +1,21 @@
 ---
-title: Gjøre rede for kostnader | Microsoft-dokumentasjon
-description: Kostregnskap brukes til å hjelpe deg med å forstå kostnadene ved å drive et selskap. Se følgende emner for å komme i gang med kostregnskap.
+title: Oversikt over å gjøre rede for kostnader
+description: Kostregnskap hjelper deg med å forstå kostnadene ved å drive et selskap. Denne artikkelen inneholder koblinger til andre artikler med mer informasjon.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 1123
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c22248b9f81837cfaf52717314d7981a64ede8c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5add5fb45af8e12b86dbe72e12d0e38649b31464
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148639"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366805"
 ---
 # <a name="accounting-for-costs"></a>Gjøre rede for kostnader
 Kostregnskap brukes til å hjelpe deg med å forstå kostnadene ved å drive et selskap. Se følgende emner for å komme i gang med kostregnskap.  

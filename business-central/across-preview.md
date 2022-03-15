@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
-ms.date: 02/18/2022
+ms.date: 02/22/2022
 ms.author: edupont
-ms.openlocfilehash: 4b31d6d4ca0a7fba8376437fb37f3678f607f7b3
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 48d8ee794c9259a19b22dfcb7c6203f489bf3534
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335529"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366239"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversjoner og abonnementer
 
@@ -21,9 +21,9 @@ ms.locfileid: "8335529"
 
 Hvis du ikke allerede arbeider med en partner, kan du [Hvordan finner jeg en partner for videresalg?](/dynamics365/business-central/across-faq#findpartner).  
 
-## <a name="getting-started-with-a-trial"></a>Komme i gang med en prøveversjon
+## <a name="get-started-with-a-trial"></a>Kom i gang med en prøveversjon
 
-Du kan registrere deg for en gratis prøveversjon [her](https://go.microsoft.com/fwlink/?linkid=847861). Det anbefales at du arbeider med [en videresalgspartner](/dynamics365/business-central/across-faq#findpartner) for å hjelpe organisasjonen med å komme i gang med [!INCLUDE[prod_short](includes/prod_short.md)].  
+Du kan registrere deg for en gratis prøveversjon [her](https://go.microsoft.com/fwlink/?linkid=847861). Det anbefales at du arbeider med [en videresalgspartner](/dynamics365/business-central/across-faq#findpartner) for å hjelpe organisasjonen med å komme i gang med [!INCLUDE[prod_short](includes/prod_short.md)]. Se også artikkelen [Registrer deg for en Dynamics 365 Business Central-prøveversjon](trial-signup.md) for å komme i gang.  
 
 Avhengig av landet eller regionen inkluderer prøveversjonen språkene og funksjonaliteten som landet eller regionen krever. Hvis du vil ha mer informasjon, se [Endre språk og nasjonal innstilling](about-locale-language.md).  
 
@@ -37,11 +37,11 @@ Hvis du bestemmer deg for ikke å bruke [!INCLUDE [prod_short](includes/prod_sho
 
 ### <a name="add-your-own-data-to-an-empty-trial-company"></a>Legg til egne data i et tomt prøveversjonsselskap
 
-Hvis du vil prøve [!INCLUDE[prod_short](includes/prod_short.md)] med dine egne data, kan du bytte til en gratis 30 dagers prøveversjon med et tomt selskap. Den assisterte oppsettsveiledningen **Konfigurere mitt selskap** kan hjelpe deg med å angi grunnleggende informasjon om bedriften din. Du kan eventuelt importere data fra den eksisterende løsningen for forretningsadministrasjon, slik at du kan evaluere [!INCLUDE[prod_short](includes/prod_short.md)] med dine egne data. Det anbefales imidlertid at du ikke bruker en gratis prøveversjon for å kjøre bedriften din. Kontakt [en videresalgspartner](/dynamics365/business-central/across-faq#findpartner) for å finne ut mer om hvordan du kommer i gang med [!INCLUDE[prod_short](includes/prod_short.md)]. Partneren kan også hjelpe deg med å overføre dataene til [!INCLUDE [prod_short](includes/prod_short.md)] elektronisk.  
+Hvis du vil prøve [!INCLUDE[prod_short](includes/prod_short.md)] med dine egne data, kan du bytte til en gratis 30 dagers prøveversjon uten eksempeldata. Den assisterte oppsettsveiledningen **Konfigurere mitt selskap** kan hjelpe deg med å angi grunnleggende informasjon om bedriften din. Du kan eventuelt importere data fra den eksisterende løsningen for forretningsadministrasjon, slik at du kan evaluere [!INCLUDE[prod_short](includes/prod_short.md)] med dine egne data. Det anbefales imidlertid at du ikke bruker en gratis prøveversjon for å kjøre bedriften din. Kontakt [en videresalgspartner](/dynamics365/business-central/across-faq#findpartner) for å finne ut mer om hvordan du kommer i gang med [!INCLUDE[prod_short](includes/prod_short.md)]. Partneren kan også hjelpe deg med å overføre dataene til [!INCLUDE [prod_short](includes/prod_short.md)] elektronisk.  
 
 Hvis det ikke er nok med 30 dager til å ta en avgjørelse, kan du forlenge prøveperioden. Hvis du vil ha mer informasjon, se [Trenger mer tid til å avgjøre om du vil abonnere?](admin-extend-trial.md).  
 
-### <a name="setting-up-your-company-in-prod_short"></a>Sette opp selskapet ditt i [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="set-up-your-company-in-prod_short"></a>Konfigurere selskapet i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Artiklene om [hurtigstart](quick-start-business-central.md) kan hjelpe deg med å ta de første trinnene for å konfigurere [!INCLUDE [prod_short](includes/prod_short.md)] i organisasjonen. I [!INCLUDE [prod_short](includes/prod_short.md)] viser siden **Assistert oppsett** veiledningene for assistert oppsett som kan hjelpe deg. Avhengig av rolle og land eller region viser siden forskjellige retningslinjer for assistert oppsett, som illustrert i følgende tabell:
 
@@ -70,9 +70,9 @@ Hvis du har lagt til data i den gratis prøveversjonen av [!INCLUDE[prod_short](
 > [!IMPORTANT]
 > Når du deler [!INCLUDE[prod_short](includes/prod_short.md)] med andre personer fra din organisasjon, må du passe på at andre ikke er logget på når du sletter selskapet.  
 
-## <a name="getting-started-with-a-subscription"></a>Komme i gang med et abonnement
+## <a name="get-started-with-a-subscription"></a>Kom i gang med et abonnement
 
-Hver gang du logger på under prøveperioden, viser en melding i en blå linje på toppen tiden som gjenstår. Hvis du vil abonnere, kan du finne en [!INCLUDE[prod_short](includes/prod_short.md)]-partner her. Hvis du vil ha mer informasjon, kan du se [Hvordan finner jeg en partner for videresalg?](/dynamics365/business-central/across-faq#findpartner). Videresalgspartneren kan hjelpe deg med oppsettet av [!INCLUDE[prod_short](includes/prod_short.md)], slik at det passer til din virksomhet, inkludert å importere dataene fra det tidligere systemet. Du kan også tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved å legge til apper fra [den kommersielle markedsplassen for Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Hver gang du logger på under prøveperioden, viser en melding på en blå linje på toppen tiden som gjenstår. Hvis du vil abonnere, kan du finne en [!INCLUDE[prod_short](includes/prod_short.md)]-partner her. Hvis du vil ha mer informasjon, kan du se [Hvordan finner jeg en partner for videresalg?](/dynamics365/business-central/across-faq#findpartner). Videresalgspartneren kan hjelpe deg med oppsettet av [!INCLUDE[prod_short](includes/prod_short.md)], slik at det passer til din virksomhet, inkludert å importere dataene fra det tidligere systemet. Du kan også tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved å legge til apper fra [den kommersielle markedsplassen for Microsoft](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 [!INCLUDE[prod_short](includes/prod_short.md)] på nettet bruker Microsoft 365. Hvis selskapet ditt bruker en annen type e-postoppsett, kan partneren for videresalg hjelpe deg med å bestemme hvordan du skal migrere, eller om du skal bruke [!INCLUDE[prod_short](includes/prod_short.md)] lokalt.  
 
@@ -83,7 +83,7 @@ Du kan også kontakte [[!INCLUDE[prod_short](includes/prod_short.md)]-salgsteame
 
 Hvis du vil ha mer informasjon om hva du kan gjøre med [!INCLUDE [prod_short](includes/prod_short.md)], kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md) og [Forretningsfunksjoner](across-business-functionality.md).  
 
-## <a name="getting-started-with-sandboxes"></a>Komme i gang med sandkasser
+## <a name="get-started-with-sandboxes"></a>Kom i gang med sandkasser
 
 Du kan bruke sandkassemiljøer til å få trening med [!INCLUDE[prod_short](includes/prod_short.md)]. Tenk på en sandkasse som et ikke-produksjonsmiljø som du kan bruke i tillegg til produksjonsforekomsten av [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du for eksempel vil ta nettopplæring fra [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs), kan administratoren [opprette et sandkassemiljø](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-sandbox-environment). På denne måten kan du og kollegene dine øve på et trygt sted i stedet for i produksjonsmiljøet.  
 
@@ -98,6 +98,8 @@ Administratoren av [!INCLUDE[prod_short](includes/prod_short.md)] og partneren f
 
 ## <a name="see-also"></a>Se også
 
+[Registrer deg for en Dynamics 365 Business Central-prøveversjon](trial-signup.md)  
+[Vanlige spørsmål om prøversjonen av Dynamics 365 Business Central](trial-faq.md)  
 [Hurtigstart for Business Central](quick-start-business-central.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Utvide prøveversjonen](admin-extend-trial.md)  

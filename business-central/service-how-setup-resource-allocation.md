@@ -1,7 +1,7 @@
 ---
 title: Definere ressurstildeling | Microsoft-dokumentasjon
 description: Finn ut hvordan systemet kan sørge for at du tilordner en person som ikke har de nødvendige kompetansen til å yte service.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: resource, skill, service, zones
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a1455e315cf575d7ac7549113770d5cafa5012c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9f98a4079140020382edb505e0dcf0f9470808ea
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139316"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383456"
 ---
 # <a name="set-up-resource-allocation"></a>Definere ressurstildeling
 For å sikre at en serviceoppgave utføres tilfredsstillende, er det viktig å finne en ressurs som er kvalifisert for å gjøre arbeidet. Du kan definere [!INCLUDE[prod_short](includes/prod_short.md)], slik at det er enkelt å tildele en person som har riktig kompetansen for prosjektet. I [!INCLUDE[prod_short](includes/prod_short.md)] kaller vi dette _ressurstildeling_. Du kan tildele ressurser basert på kompetanse, tilgjengelighet eller om de er i samme servicesone som kunden. 

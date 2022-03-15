@@ -1,7 +1,7 @@
 ---
 title: Sende mva-rapporter til skattemyndighetene
 description: Finn ut hvordan du lager rapporter med oversikt over mva fra salg i en periode, eller fra salg og kjøp, og sender inn rapporten til skattemyndighetene.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,21 +10,25 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 11d9b165c598cbb17f870044763e8b0bdca1723b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b927faed205e64088ce399a9a973d7fcea0d1eda
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141180"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383808"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportere mva til skattemyndighetene
 
-Dette emnet beskriver rapportene i [!INCLUDE[prod_short](includes/prod_short.md)] som du kan bruke til å legge inn informasjon om merverdiavgiftsbeløp (mva) for salg og kjøp til skattemyndighetene i regionen. 
+Dette emnet beskriver rapportene i [!INCLUDE[prod_short](includes/prod_short.md)] som du kan bruke til å legge inn informasjon om merverdiavgiftsbeløp (mva) for salg og kjøp til skattemyndighetene i regionen. Avhengig av det bestemte landet, kan rapportene inneholde bestemt informasjon, eller det kan være andre rapporter du må sende inn. Se artiklene for ditt land i delen [Lokal funksjonalitet](about-localization.md).  
 
-Du kan bruke følgende rapporter:
+Du kan bruke følgende innebygde rapporter:
 
-* Den **EU-salg -oversikt** europeisk gruppen (EU) Salgsoversikt viser verdien som er lagt til mva-beløp som du har samlet for salg til mva-registrerte kunder i EU-land.  
-* Rapporten **Omsetningsoppgave** inkluderer mva for salg og kjøp for kunder og leverandører i alle land som bruker mva.  
+* Rapporten **EU-salg – oversikt**  
+
+    Rapporten over salg i EU viser verdien som er lagt til mva-beløp som du har samlet for salg til mva-registrerte kunder i EU-land.  
+* Rapporten **Omsetningsoppgave**  
+
+    Rapporten Omsetningsoppgave inkluderer mva for salg og kjøp for kunder og leverandører i alle land som bruker mva.  
 
 I begge tilfeller beregnes mva. på grunnlag av mva-bokføringsoppsettet og mva-bokføringsgruppene du har definert.
 
@@ -33,7 +37,7 @@ Hvis du vil vise en fullstendig historikk over mva-poster, for hver bokføring s
 > [!NOTE]
 > Hvert [!INCLUDE[prod_short](includes/prod_short.md)]-miljø er ment å håndtere samsvarsrapporter i ett enkelt land. Den nederlandske versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] håndterer for eksesmpel mva-rapportering i Nederland, men ikke i andre land. På samme måte håndterer USA-versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] 1099-rapportering i USA og støtter ikke mva-rapportering i andre land, med mindre via en utvidelse som leveres av partnerøkosystemet eller en kundespesifikk kodeendring.
 
-## <a name="about-the-ec-sales-list-report"></a>Om rapporten EU-salg - oversikt
+## <a name="about-the-ec-sales-list-report"></a><a name="ecsaleslist"></a>Om rapporten EU-salg – oversikt
 
 I EU og Storbritannia må alle selskapene som selger varer og tjenester til mva-registrerte kunder, inkludert kunder i andre EU-land, sende en elektronisk versjon av rapporten til kundene og skattemyndighetene. **Rapporten EU-salg – oversikt** fungerer bare for land i EU.
 
@@ -47,7 +51,11 @@ Rapporten inneholder én linje for hver type transaksjon med kunden og viser det
 
 Når skattemyndigheten har sett gjennom rapporten, sender de en e-postmelding til kontaktpersonen for selskapet. I [!INCLUDE[prod_short](includes/prod_short.md)] er kontaktpersonen angitt på siden **Selskapsopplysninger**. Før du sender inn rapporten, kontrollerer du at du har valgt en kontaktperson.  
 
-## <a name="about-the-vat-return-report"></a>Om rapporten Omsetningsoppgave
+### <a name="submit-an-ec-sales-list-report"></a>Send rapporten EU-salg – oversikt
+
+[!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
+
+## <a name="about-the-vat-return-report"></a><a name="vatreturn"></a>Om rapporten Omsetningsoppgave
 
 Bruk denne rapporten til å sende inn mva for salg og kjøpsdokumenter, for eksempel innkjøp og ordrer, fakturaer og kreditnotaer. Informasjonen i rapporten vises i samme format som i deklarasjonen fra toll- og avgiftsmyndighetene.  
 

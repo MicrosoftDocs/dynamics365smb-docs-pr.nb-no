@@ -1,7 +1,7 @@
 ---
 title: Definere utlånsobjekter | Microsoft-dokumentasjon
 description: Du kan definere utlånsobjekter som du kan låne ut til kunder for å erstatte servicevarer mens de får service.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 252696484a8c7d90bac90628cf74896240889ba9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c4fda37826295491db4445ec78103013149d2aa0
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132631"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383034"
 ---
 # <a name="set-up-a-loaner-program"></a>Konfigurere et program for utlånsobjekter
 Av og til må du tilby kunder utlånsobjekter som de kan bruke mens reparasjonen utføres. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du definere et program for utlånsobjekter, låne ut varer til kundene og spore mottak når kunder returnerer varene. Du kan og legge til merknader om utlånsobjektene på to måter:  

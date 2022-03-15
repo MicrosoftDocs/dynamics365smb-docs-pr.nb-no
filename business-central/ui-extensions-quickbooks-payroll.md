@@ -3,7 +3,7 @@ title: Bruke utvidelsen QuickBooks Payroll-filimport | Microsoft-dokumentasjon
 description: Dette emnet beskriver hvordan du bruker utvidelsen til å importere lønn og lønnstransaksjoner fra QuickBooks.
 services: project-madeira
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +11,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, salary, wage
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b40ede6ed0ebd5e4082b52f9645d26deb3d745c1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f855080c2e26e7d7ddf4a012164ec91477387e2f
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134746"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381143"
 ---
 # <a name="the-quickbooks-payroll-file-import-extension"></a>Utvidelsen QuickBooks Payroll-filimport
 Bruk QuickBooks Payroll-filimportutvidelsen til å importere lønnstransaksjoner fra QuickBooks til finanskonti i [!INCLUDE[prod_short](includes/prod_short.md)]. Dette er for eksempel nyttig når du går fra QuickBooks til [!INCLUDE[prod_short](includes/prod_short.md)], eller hvis outsourcer lønn, men også vil holde oversikt over den i [!INCLUDE[prod_short](includes/prod_short.md)].

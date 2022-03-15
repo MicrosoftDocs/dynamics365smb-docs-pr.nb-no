@@ -1,7 +1,7 @@
 ---
-title: Bruke fakturering og Business Central | Microsoft-dokumentasjon
+title: Bruk fakturering og Business Central
 description: Løsning for å få tilgang til Microsoft Invoicing når du har registrert deg for Dynamics 365 Business Central.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Invoicing, Microsoft 365
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8c492b42c1b9c864f44707bebc4b61538e93b7d0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3c570f15d13f7a1dbb2a040f09f34b619b01a5f3
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134411"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382718"
 ---
 # <a name="using-the-same-microsoft-365-account-in-prod_short-and-microsoft-invoicing"></a>Bruke samme Microsoft 365-konto i [!INCLUDE[prod_short](includes/prod_long.md)] og Microsoft Invoicing
 Når du registrerer deg for en prøveversjon med [!INCLUDE[prod_short](includes/prod_short.md)], kan du flytte over til en 30 dager evalueringsfase, du kan du starte et abonnement eller du kan slutte å bruke [!INCLUDE[prod_short](includes/prod_short.md)]. I alle tilfeller kan du på et eller annet ha sett noe kalt **Microsoft Invoicing** og klikket på det. Dette var en app som var en del av det som nå er Microsoft 365 Business Standard, og ble tidligere kalt Microsoft 365 Business Premium-abonnement, så det er ikke alle som har sett denne flisen i Microsoft 365-opplevelsen.  

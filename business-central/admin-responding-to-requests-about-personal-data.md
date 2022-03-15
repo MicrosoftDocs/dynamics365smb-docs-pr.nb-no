@@ -1,18 +1,18 @@
 ---
 title: Svare på forespørsler om personopplysninger
 description: Dette emnet forteller deg hvordan du svarer på forespørsler om personopplysninger. Dette kalles en dataemneforespørsel.
-author: bholtorf
+author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.date: 06/14/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: 0d1ead6fc36df5b06f9ab995bbc30ce04d24c622
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8c37617355582748658d20dfac9578bbf4b33d1d
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148853"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382128"
 ---
 # <a name="responding-to-requests-about-users-personal-data"></a>Svare på forespørsler om brukers personopplysninger  
 Dataemner kan be om flere typer handlinger med hensyn til sine personopplysninger. For eksempel under EUs personvernforordning (GDPR) har innbyggere i EU rett til å be om eksport, sletting og endring av personlig informasjon. Dette kalles *dataemneforespørsel*. Hvis du har klassifisert følsomhetsnivået for dataene og er sikker på at de er riktige, kan en administrator svare på forespørsler ved hjelp av alternativene under kategorien **Datavern** i rollesenteret **IT-sjef**. Hvis du vil ha mer informasjon om klassifisering av data og klassifisering av datasensitivitet i [!INCLUDE[prod_long](includes/prod_long.md)], kan du se [Klassifisere data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Klassifisere datasensitivitet](admin-classifying-data-sensitivity.md).  

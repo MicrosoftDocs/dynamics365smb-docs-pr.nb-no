@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 5703, 7352
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 82b0625cf36b0c304a28c1196aa76289d5711c15
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f16fb21773a519edc77fca615d679e106b397af8
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144466"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382770"
 ---
 # <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Aktivere automatisk samlet oppbryting med lagerstyring og plukk
 For lokasjoner som bruker lagerstyring kan [!INCLUDE[prod_short](includes/prod_short.md)] i enkelte situasjoner utføre automatisk anbrekk, det vil si konvertere en større enhet til mindre enheter når det oppretter lagerinstruksjoner som oppfyller behovene fra kildedokumenter, produksjonsordrer eller interne plukk og plasseringer. Anbrekk betyr også noen ganger å samle mindre enheter, hvis det er nødvendig for å imøtekomme utgående forespørsler. Det vil si å konvertere de større enhetene i kildedokumentet eller produksjonsordren til de mindre enhetene som er tilgjengelig i lageret.   
@@ -46,9 +47,9 @@ Du kan vise resultatene av prosessen med konvertering fra én enhet til en annen
 ## <a name="see-also"></a>Se også  
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
-[Definere lagerstyring](warehouse-setup-warehouse.md)     
-[Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
+[Definer Warehouse Management](warehouse-setup-warehouse.md) 
+[Monteringsstyring](assembly-assemble-items.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -1,7 +1,7 @@
 ---
 title: Designdetaljer – Kostmetoder
 description: Dette emnet beskriver hvordan lagermetoden påvirker hvordan de faktiske og budsjetterte verdiene kapitaliseres og brukes i kostnadsberegningen.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 30, 31, 8645
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6c52c6399beae37b65627e00a96dfc16e665a4e4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c7c8106ff5e38efd35b361fcccc8ebd88602a475
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139784"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383350"
 ---
 # <a name="design-details-costing-methods"></a>Designdetaljer: Kostmetoder
 

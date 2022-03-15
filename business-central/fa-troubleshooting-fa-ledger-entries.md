@@ -2,7 +2,7 @@
 title: Utvidelsen for feilsøking av aktivaposter
 description: Det er enklere å arbeide med hele tall. Bruk denne utvidelsen til å runde av beløp for aktiva i aktivaposten.
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: machinery, buildings
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: bad9c995f87a3a4dfc598989e68b8e2b047a7d5d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8ce484583ef5eddc8e6aee675715487c3bd4e974
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142318"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382474"
 ---
 # <a name="the-troubleshooting-fa-ledger-entries-extension"></a>Utvidelsen for feilsøking av aktivaposter
 Bruk utvidelsen for feilsøking av aktivaposter til å runde av avskrivnings- og anskaffelsesbeløp i aktivaposter til hele numre. Du kan for eksempel avrunde et beløp på 30 000,44 til 30 000. Vanlige årsaker til avrundingsfeil er dataoverføring, plutselig bokføring av beløp i finans, eller tilpasninger du har gjort i [!INCLUDE[prod_short](includes/prod_short.md)].

@@ -88,13 +88,15 @@
 ##### [Designdetaljer: Strukturen til bokføringsmotoren](design-details-posting-engine-structure.md)  
 
 ## Prøv
+### [Registrer deg for en Dynamics 365 Business Central-prøveversjon](trial-signup.md)
+### [Vanlige spørsmål om prøversjonen av Dynamics 365 Business Central](trial-faq.md)
 ### [Prøveversjoner og abonnementer](across-preview.md)
 ### [Bli klar til å gjøre forretninger](ui-get-ready-business.md)
 ### [Feilsøke registrering for Self-Service](ui-troubleshoot-self-signup.md)
 ### [Utvide prøveversjonen](admin-extend-trial.md)
 ### [Avbryte eller fjerne Business Central](admin-cancel.md)
 ## Kjøp
-### [Komme i gang med et abonnement](across-preview.md#getting-started-with-a-subscription)
+### [Kom i gang med et abonnement](across-preview.md#get-started-with-a-subscription)
 ### [Bli klar til å gjøre forretninger](ui-get-ready-business.md)
 
 ## Hurtigstartveiledninger
@@ -557,7 +559,7 @@
 #### [Fjerne varefinansposter og utligne dem på nytt](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Lukke åpne vareposter som er resultat av fast utligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
 #### Rapportere kostnader og avstemme med Finans
-##### [Rapportere kostnader](finance-report-costs-and-reconcile-with-the-general-ledger.md)
+##### [Rapporter kostnader](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)
 ##### [Avstemme lagerkost med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Overvåke prosjektfremdrift og -ytelse](projects-how-monitor-progress-performance.md)
 #### [Juster og avstem lagerkost med finans med jobbkø](finance-adjust-reconcile-inventory-cost-job-queue.md)

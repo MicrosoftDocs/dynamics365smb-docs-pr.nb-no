@@ -1,5 +1,5 @@
 ---
-title: Utligne betalinger mot ubetalte salgsdokumenter | Microsoft-dokumentasjon
+title: Utlign betalinger mot ubetalte salgsdokumenter
 description: Du utligner beløp betalt av kunder mot relaterte salgsdokumenter og bokfører betalingen for å oppdatere kunde-, finans- og bankposter.
 author: SorenGP
 ms.topic: conceptual
@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: payment process, cash receipts, customer payment
+ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: dab5042a6a72426453f92c67e2763d370ce8dff1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d611a245797fd20382f79deb35d8d598a8fe3565
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139486"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382954"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Avstemme kundebetalinger fra en liste over ubetalte salgsdokumenter
 Når kundene har utført betalinger til nettbankkontoen din, må du utligne hvert beløp betalt til det tilknyttede salgsdokumentet, og deretter bokføre betalingen for å oppdatere postene for kunde, finans og bank. Avhengig av forretningsbehovene kan du få betalt og registrere betalingen på ulike måter: manuelt, automatisk og via betalingstjenester.  

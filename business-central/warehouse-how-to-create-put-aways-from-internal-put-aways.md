@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 7354, 7356, 7357, 7358, 7359, 7361
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 609564faa1e0d5b1e7c364360315ca71b9ba3d06
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9e0eae31f29e726c15add24ef9d4b48b81b3d299
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140088"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383646"
 ---
 # <a name="pick-and-put-away-without-a-source-document"></a>Plukke og plassere uten et kildedokument
 Når varer er plassert, og før de blir plukket for å oppfylle behovene i en produksjonsordre eller følgeseddel, blir de lagret i lageret som en del av tilgjengelig lager.  
@@ -53,8 +54,8 @@ Med **Intern plassering** kan du utføre plasseringer uten å måtte referere ti
 ## <a name="see-also"></a>Se også  
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
-[Definere lagerstyring](warehouse-setup-warehouse.md)     
-[Monteringsstyring](assembly-assemble-items.md)    
+[Definere lagerstyring](warehouse-setup-warehouse.md)  
+[Monteringsstyring](assembly-assemble-items.md)  
 [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

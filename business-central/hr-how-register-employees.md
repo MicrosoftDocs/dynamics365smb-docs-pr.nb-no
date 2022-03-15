@@ -1,32 +1,32 @@
 ---
-title: Definere ansatte og endre informasjon
+title: Registrer ansatte og endre informasjon
 description: Beskriver hvordan du bruker Personal-funksjonaliteten til å registrere nye ansatte eller redigere ansattinformasjon for eksisterende ansatte.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personnel, people, employee, staff, HR
-ms.search.form: 5200, 5201
+ms.search.form: 5200, 5201, 5204, 5206, 5208, 5209, 5211, 5221, 5228
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 99add650ec16fcb62d9cdc27962bd83c9c71b794
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b76ce1b15dde904ad3257b6f849e3629f293206c
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137942"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372055"
 ---
 # <a name="register-employees"></a>Registrere ansatte
+
 Hvis du vil bruke Human Resources-funksjonaliteten, må du først legge til hver ansatt ved å fylle ut feltene på siden **Ansattkort**.
 
-## <a name="adding-new-customers"></a>Legge til nye kunder
+## <a name="adding-new-employees"></a>Legg til nye ansatte
+
 Du kan legge til nye ansatte manuelt ved å fylle ut feltene på siden **Ansattkort**, eller du kan bruke maler som inneholder forhåndsdefinert informasjon. Du kan for eksempel opprette maler for ulike typer ansattprofiler. Når du bruker maler, sparer du tid når du legger til nye ansatte og bidrar til å sikre at informasjonen er riktig hver gang. Hvis du oppretter maler for mer enn én ansattype, kan du velge hvilken mal du vil bruke når du legger til en ansatt. Hvis du oppretter bare én mal, brukes den for alle nye ansatte. Når du har opprettet en mal, kan du bruke handlingen **Bruk mal** til å bruke den på en eller flere utvalgte ansatte. Når du skal opprette en mal, fyller du ut informasjonen du vil bruke på nytt på siden Ansattkort, og deretter lagrer du den som en mal.
 
 > [!TIP]
-> Det kan være nyttig å tilpasse siden **Ansattmal** når du oppretter en mal. Det kan for eksempel hende at du vil legge til et felt som ikke allerede vises på siden. Hvis du vil ha mer informasjon, kan du se [Tilpass arbeidsområdet](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
+> Det kan være nyttig å tilpasse siden **Ansattmal** når du oppretter en mal. Det kan for eksempel hende at du vil legge til et felt som ikke allerede vises på siden. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
 Du kan når som helst endre detaljene for en ansatt. Du forenkler personelloppgaver ved å sørge for oppdaterte ansattposter. Hvis for eksempel adressen til en ansatt endres, kan du registrere denne på siden Ansattkort.
 
@@ -34,11 +34,13 @@ Du kan når som helst endre detaljene for en ansatt. Du forenkler personelloppga
 > Du kan refundere ansatte for utgifter under forretningsaktiviteter. Til dette formålet må du fylle ut feltene på hurtigfanen **Betalinger** på siden **Ansattkort**. Hvis du vil ha mer informasjon, kan du se [Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md).
 
 ## <a name="to-set-up-an-employee"></a>Slik konfigurerer du ansatte
+
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ansatte**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. På siden **Ansattkort** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-insert-a-picture-of-an-employee"></a>Slik setter du inn et bilde av en ansatt
+
 Hvis du har et bilde av en ansatt, kan du legge det inn på kortet til den ansatte.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ansatte**, og velg deretter den relaterte koblingen.
@@ -50,6 +52,7 @@ Hvis du har et bilde av en ansatt, kan du legge det inn på kortet til den ansat
 Bildet settes inn i faktaboksen **Bilde av ansatt**.
 
 ## <a name="to-register-various-information-about-an-employee"></a>Slik registrerer du informasjon om en ansatt
+
 På ansattkortet kan du definere opplysninger, for eksempel fagforeningsmedlemskap, pårørende og kontrakter for den ansatte. I det følgende beskrives hvordan du definerer en alternativ adresse. Fremgangsmåten er lik for alle andre opplysninger som du kan definere fra et ansattkort.
 
 Du kan bruke alternative adresser til å holde orden på hvor de ansatte til enhver tid befinner seg, for eksempel om de er stasjonert i utlandet, er på lengre forretningsreiser eller har sommerferie.
@@ -61,6 +64,7 @@ Du kan bruke alternative adresser til å holde orden på hvor de ansatte til enh
 5. Gjenta trinn 4 for hver alternative adresse.
 
 ## <a name="see-also"></a>Se også
+
 [Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)  
 [Finans](finance.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

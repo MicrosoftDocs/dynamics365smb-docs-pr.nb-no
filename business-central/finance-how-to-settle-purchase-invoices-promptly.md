@@ -1,17 +1,17 @@
 ---
 title: Gjøre opp kjøpsfakturaer omgående
 description: Hvis du må betale leverandøren kontant eller med sjekk, kan du utføre den nødvendige bokføringen når du bokfører selve fakturaen.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.form: 51, 9308
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f44aa85b0a9990038df3cf49b1ba0f24e24df354
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 39361f09520f17ab659ddc35e49fe4cd39d35354
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141216"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381944"
 ---
 # <a name="settle-purchase-invoices-promptly"></a>Gjøre opp kjøpsfakturaer omgående
 

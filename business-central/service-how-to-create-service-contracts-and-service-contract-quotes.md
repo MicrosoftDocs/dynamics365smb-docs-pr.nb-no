@@ -1,7 +1,7 @@
 ---
 title: Arbeide med servicekontrakter og servicekontrakttilbud | Microsoft-dokumentasjon
 description: Du kan opprette servicekontrakter manuelt eller fra et servicekontrakttilbud. Du kan opprette en kontrakt basert på et servicekontrakttilbud.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0a9e90f19584e3586bac0cc80dac3b2cc0d9ce74
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: dcd6ec21880a2f4e8fa9cf3fdd04be1eb4dd191b
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134902"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8383536"
 ---
 # <a name="work-with-service-contracts-and-service-contract-quotes"></a>Arbeide med servicekontrakter og servicekontrakttilbud
 Du kan opprette servicekontrakter manuelt eller fra et servicekontrakttilbud. Du kan bruke et servicekontrakttilbud som en forløper til en servicekontrakt der selskapet kommer med et tilbud overfor kunden, og som får godkjenning fra kunden før du kan konvertere tilbudet til en servicekontrakt. Prosedyrene for oppretting av servicekontrakt og servicekontrakttilbud er like.  

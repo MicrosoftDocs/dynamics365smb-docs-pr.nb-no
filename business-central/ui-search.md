@@ -1,7 +1,7 @@
 ---
 title: Finne funksjoner og informasjon (inneholder video)
 description: Dette emnet beskriver hvordan du bruker søk til å finne handlinger, sider, rapporter, dokumentasjon og data, i tillegg til andre programmer og konsulenttjenester.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -10,12 +10,12 @@ ms.search.keywords: find
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: c11b0b82d0c6634fc69b09b8995046bf194a3838
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 841e964408750ec60e406262cacd53c2320d3d8e
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323199"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381688"
 ---
 # <a name="finding-pages-and-information-with-tell-me"></a>Finne sider og informasjon med Fortell meg  
 Dette emnet beskriver hvordan Fortell meg kan hjelpe deg med å raskt gå til ting som handlinger, sider eller rapporter, finne informasjon om hvordan du fullfører en bestemt oppgave, og oppdage flere apper og konsulenttjenester for [!INCLUDE[prod_short](includes/prod_short.md)].  

@@ -3,7 +3,7 @@ title: Fordel kost til konserninterne partnere| Microsoft Docs
 description: Finn ut hvordan mva-innstillinger for kunder og leverandører kontrollerer om og hvordan mva. beregnes.
 services: project-madeira
 documentationcenter: ''
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fc11979fb6e21feba85c883b83ca7a3dcc5d8772
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a4abd45046beb70376490dbd4209f33debf6b573
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137916"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382062"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Fordel kost til konserninterne partnere
 Når du bruker konserninterne bokføringer til å overføre dokumenter mellom partnerselskaper, kontrollerer mva-relaterte innstillinger (primært mva-bokføringsgruppen for firma) som er tilordnet kunde- eller leverandørkontiene (tilknyttet den konserninterne partneren) om og hvordan mva. beregnes og registreres. Du kan også utføre kostnadsdistribusjoner direkte fra en bestilling til partnerselskaper. Hvis du for eksempel registrerer en kjøpsfaktura fra en ekstern leverandør og vil distribuere noen av eller alle kostnadene til én eller flere konserninterne partnere.

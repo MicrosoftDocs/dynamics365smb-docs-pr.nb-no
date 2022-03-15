@@ -1,7 +1,7 @@
 ---
 title: Feilsøke synkroniseringsfeil
 description: Dette emner gir veiledning for identifisering, feilsøking og løsning av synkroniseringsfeil.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 0c2252c194b611753e3a84cec42d685a3c561a68
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a7490c896daabd05ef0b0bb7d125e15963d83320
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143819"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381489"
 ---
 # <a name="troubleshooting-synchronization-errors"></a>Feilsøke synkroniseringsfeil
 

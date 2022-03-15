@@ -8,16 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: 95f54be520c439984343fbe9413570dc18097db9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 398f9a221dbdbdf2889d847b2d26db7faec23ff0
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138495"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8367205"
 ---
 # <a name="welcome-to-prod_long"></a>Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner som automatiserer og strømlinjeformer forretningsprosesser og gjør det enklere å drive bedriften. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder svært fleksible og rikholdige funksjoner som gir selskaper mulighet til å håndtere forretningsvirksomheten, inkludert finans, produksjon, salg, levering, prosjektstyring, service og mer. Det er enkelt å legge til funksjonalitet som er relevant for driftsområdet, og som også kan tilpasses for spesialiserte bransjer.  
+
+[Finn ut hvordan du får en prøveversjon her](trial-signup.md).  
 
 Hvis du allerede har [!INCLUDE[prod_short](includes/prod_short.md)], kan du logge på [https://businesscentral.dynamics.com](https://businesscentral.dynamics.com). Hvis ikke [henter du oversikten](https://dynamics.microsoft.com/business-central/overview/), [tar den veiledende gjennomgangen](https://dynamics.microsoft.com/en-us/guidedtour/dynamics/business-central/1/1) og [starter en gratis prøveversjon](https://go.microsoft.com/fwlink/?linkid=847861). Les [hurtigstartartiklene](quick-start-business-central.md) for å få hjelp til å bli kjent med [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon om introduksjon til [!INCLUDE[prod_short](includes/prod_short.md)], kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
 

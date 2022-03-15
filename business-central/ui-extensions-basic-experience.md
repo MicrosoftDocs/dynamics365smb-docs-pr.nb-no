@@ -1,7 +1,7 @@
 ---
 title: Grunnleggende opplevelse-utvidelsen | Microsoft Docs
 description: Denne utvidelsen er et moderne alternativ til Microsoft Dynamics C5.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: C5, financials, extension
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b423ce61a5bc8a7f5c580d0b4f3348792c4b02ab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1ddb4468bda648b0368551ecb8cdbc6167cf4778
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132475"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381675"
 ---
 # <a name="the-basic-experience-extension"></a>Grunnleggende opplevelse-utvidelsen
 Hvis du har brukt Microsoft Dynamics C5, kan Microsoft-partnere hjelpe deg med å gå over til en mer moderne løsning som er basert på [!INCLUDE[prod_short](includes/prod_short.md)], slik at du kan fortsette å nyte de samme strømlinjeformede funksjonene som Dynamics C5.

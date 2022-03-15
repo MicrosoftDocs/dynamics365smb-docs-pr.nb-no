@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
-ms.date: 12/13/2021
+ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: 6cb8789b75350b3879fb0179759498394b6e22d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f19e37752385d276683d4ce924883629cb7d086c
+ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134980"
+ms.lasthandoff: 03/02/2022
+ms.locfileid: "8372135"
 ---
 # <a name="use-time-sheets"></a>Bruk timelister
 
@@ -32,7 +32,7 @@ Før du kan bruke timelister, må du definere generell informasjon og angi admin
 
 ## <a name="to-create-time-sheets"></a>Slik oppretter du timelister
 
-Du kan bruke kjørselen **Opprett timelister** til å angi timelister for et angitt antall tidsperioder eller uker. Deretter kan eieren av timelisten åpne den og registrere tid som er brukt på en aktivitet.  
+Du kan bruke kjørselen **Opprett timelister** til å angi timelister for et angitt antall tidsperioder eller uker. Deretter kan eieren av timelisten åpne den og registrere tid som er brukt på en aktivitet. Du kan også [planlegge kjørselen til å kjøres autoamtisk](ui-work-report.md#ScheduleReport).  
 
 > [!IMPORTANT]
 > Du må ha tillatelser for å kunne opprette timelister. Hvis du vil ha mer informasjon, kan du se [Definer timelister](projects-how-setup-time-sheets.md).
@@ -43,7 +43,9 @@ Du kan bruke kjørselen **Opprett timelister** til å angi timelister for et ang
 
     > [!NOTE]  
     > Feltene **Bruk timeliste** og **Bruker-ID for eier av timeliste** må fylles ut på kortet for ressursen i timelisten.
-4. Velg **OK**.  
+
+    Hvis du vil, kan du velge handlingen **Planlegg** for å angi hvor ofte oppgaven skal kjøres automatisk. Hvis du for eksempel vil konfigurere at oppgaven kjøres ukentlig i fire uker, angir du feltet **Datoformel for neste kjøring** til **4U** på siden *Planlegg en rapport – opprett timelister*. Hvis du vil ha mer informasjon, kan du se [Planlegg en rapport for kjøring](ui-work-report.md#ScheduleReport).  
+4. Velg **OK**-knappen.  
 
 Du kan vise timelistene som du har opprettet, på siden **Timelister**. Hver time liste består av én eller flere linjer som definerer tiden du vil sende til godkjenning. Tabellen nedenfor beskriver hvilke typer av linjer du kan legge til i timelisten.
 

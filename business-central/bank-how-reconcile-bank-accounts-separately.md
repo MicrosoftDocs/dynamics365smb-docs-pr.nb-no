@@ -1,21 +1,21 @@
 ---
 title: Avstemme bankkontoer
 description: Dette emnet beskriver hvordan du avstemmer transaksjonene i de interne bankkontiene med transaksjonene i kontoutdrag fra banken.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: bank account balance, bank statement
-ms.search.form: 379, 388, 1290, 10124
+ms.search.form: 379, 388, 389, 1290, 10124
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: 89fc1b881ce738d50ae40088be265d3944491f21
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1ebc2680aea583410a0f1bab8f4ff1d35989eb36
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129002"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8381091"
 ---
 # <a name="reconcile-bank-accounts"></a>Avstemme bankkontoer
 
@@ -88,7 +88,7 @@ Ruten **Bankkontoutdragslinjer** fylles ut i henhold til fakturaer i [!INCLUDE[p
 
 Siden **Bankkontoavstemming** inneholder automatisk samsvarsfunksjonalitet basert på samsvar av tekst på en bankkontoutdragslinje (venstre rute) med tekst på én eller flere bankkontoposter (høyre rute). Merk at du kan overskrive foreslått automatisk samsvar, og du kan velge ikke å bruke automatisk samsvar i det hele tatt. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkontoutdragslinjer med bankkontoposter manuelt](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
-Automatisk avstemming avstemmer oppføringer basert på et sett med regler for betalingsprogram. Hvis du vil ha mer informasjon, kan du se [Definere regler for automatisk utligning av betalinger](receivables-how-set-up-payment-application-rules.md). Du kan undersøke grunnlaget for avstemming ved å bruke handlingen **Avstemmingsdetaljer**. Detaljene vil for eksempel omfatte navnene på feltene som inneholder samsvarende verdier.  
+Du kan undersøke grunnlaget for avstemming ved å bruke handlingen **Avstemmingsdetaljer**. Detaljene vil for eksempel omfatte navnene på feltene som inneholder samsvarende verdier.  
 
 1. På siden **Bankkontoavstemming** velger du handlingen **Avstem automatisk**. Siden **Avstem bankposter** åpnes.
 2. I feltet **Toleranse for transaksjonsdato (dager)** angir du antall dager før og etter bankkontopostens bokføringsdato som funksjonen søker innenfor etter samsvarende transaksjonsdatoer i bankkontoutdraget.

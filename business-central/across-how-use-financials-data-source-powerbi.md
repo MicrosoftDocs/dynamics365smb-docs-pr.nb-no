@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 471847e62911ba1dc274a0d02ffbd66968d0b7ca
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 51fb5e0f818974ed421b7f2bf282ad1c35c2eb0a
+ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141570"
+ms.lasthandoff: 03/01/2022
+ms.locfileid: "8366346"
 ---
 # <a name="building-power-bi-reports-to-display-prod_long-data"></a>Bygge Power BI-rapporter for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
@@ -40,7 +40,7 @@ Denne artikkelen beskriver hvordan du kommer i gang med Power BI Desktop for å 
 
   - OData URL-adressen for [!INCLUDE[prod_short](includes/prod_short.md)].
   
-    Denne URL-adressen har vanligvis formatet `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, for eksempel `https://localhost:7048/BC160/ODataV4`. Hvis du har en distribusjon med flere leietakere, tar du med leietakeren i URL-adressen, for eksempel `https://localhost:7048/BC160/ODataV4?tenant=tenant1`.
+    Denne nettadressen har vanligvis formatet `http[s]://[computer]:[port]/[serverinstance]/ODataV4`, for eksempel `https://localhost:7048/BC190/ODataV4`. Hvis du har en distribusjon med flere leietakere, tar du med leietakeren i nettadressen, for eksempel `https://localhost:7048/BC190/ODataV4?tenant=tenant1`.
   - Et brukernavn og en tilgangsnøkkel for webtjeneste for en [!INCLUDE[prod_short](includes/prod_short.md)]-konto.
 
     Power BI bruker enkel godkjenning til å hente data fra [!INCLUDE[prod_short](includes/prod_short.md)]. Så du trenger et brukernavn og en tilgangsnøkkel for webtjeneste for å koble til. Kontoen kan være din egen brukerkonto, eller organisasjonen kan ha en bestemt konto for dette formålet.

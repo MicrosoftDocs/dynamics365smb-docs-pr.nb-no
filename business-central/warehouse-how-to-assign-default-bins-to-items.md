@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 7371, 7374, 7379
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e4f3d103c5bfdcedfef6fa3571f4ca56aa2ccb9a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6802009029d8eea434e7c5096f4efb591ee4993b
+ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134668"
+ms.lasthandoff: 03/04/2022
+ms.locfileid: "8382744"
 ---
 # <a name="assign-default-bins-to-items"></a>Tilordne standardhyller til varer
 Hvis du bruker hyller i en lokasjon, kan du tilordne standardhyller til varene for å gjøre levering, mottak og flytting av varene enklere. Når en standardhylle tilordnes en vare, foreslås denne hyllen hver gang du oppretter en transaksjon for denne varen. Standardhyller defineres på siden **Hylleinnhold**.  
@@ -28,7 +29,7 @@ Hvis du bruker hyller i en lokasjon, kan du tilordne standardhyller til varene f
 >  Hvis en vare ikke er tilordnet en standardhylle når den plasseres, vil hyllen der varen plasseres, tilordnes som standardhylle.  
 
 ## <a name="to-change-the-default-bin-for-an-item"></a>Slik endrer du standardhyllen for en vare  
-Det kan hende du må endre tilordningen av standardhylle for en vare eller tilordne en standardhylle til en ny vare.    
+Det kan hende du må endre tilordningen av standardhylle for en vare eller tilordne en standardhylle til en ny vare.
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Hylleinnhold** og velg den relaterte koblingen.  
 2.  I feltet **Lokasjonsfilter** velger du den riktige lokasjonskoden.  
 3.  Finn den gjeldende posten med standard hylleinnhold for varen, og fjern avmerkingen for **Standardhylle**.  
@@ -40,9 +41,9 @@ Det kan hende du må endre tilordningen av standardhylle for en vare eller tilor
 ## <a name="see-also"></a>Se også  
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
-[Definere lagerstyring](warehouse-setup-warehouse.md)     
-[Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
+[Definer Warehouse Management](warehouse-setup-warehouse.md) 
+[Monteringsstyring](assembly-assemble-items.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
