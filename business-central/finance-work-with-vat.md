@@ -7,18 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, sales, purchases
-ms.search.form: 118, 130, 142, 459, 460, 525
+ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7543c60455794d9f004ea11b2baccf81264b9886
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ea32a78ec191d335fb772a7040ed81db6753b196
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382102"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417522"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeide med mva på kjøp og salg
-Hvis landet eller regionen din krever at du beregner merverdiavgift (mva) i salgs- og kjøpstransaksjoner, slik at du kan rapportere beløpene til en skattemyndighet, kan du sette opp [!INCLUDE[prod_short](includes/prod_short.md)] til å beregne mva automatisk på salgs- og kjøpsdokumenter. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md).
+Hvis landet eller området krever at du beregner og rapporterer merverdiavgift (mva.) i salgs- og kjøpstransaksjoner, kan du definere [!INCLUDE[prod_short](includes/prod_short.md)] for å beregne mva. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md).
 
 Det er imidlertid enkelte mva-relaterte oppgaver som du kan gjøre manuelt. For eksempel kan det hende du må korrigere et bokført beløpet hvis du oppdager at en leverandør bruker forskjellige Avrundingsmetode.  
 
@@ -26,31 +26,44 @@ Det er imidlertid enkelte mva-relaterte oppgaver som du kan gjøre manuelt. For 
 > Du kan la [!INCLUDE[prod_short](includes/prod_short.md)] bekrefte organisasjonsnumre og andre selskapsopplysninger når du oppretter eller oppdaterer dokumenter. Hvis du vil ha mer informasjon, kan du se [Validering av organisasjonsnumre](finance-how-validate-vat-registration-number.md).
 
 ## <a name="calculating-and-displaying-vat-amounts-in-sales-and-purchase-documents"></a>Beregne og vise mva-beløp i salgs- og kjøpsdokumenter  
-Du kan beregne og vise mva-beløp i salgs- og kjøpsdokumenter på forskjellig måte, avhengig av hvilken type kunde eller leverandør du handler med. Du kan også overstyre det beregnede mva-beløpet, slik at det tilsvarer med mva-beløpet leverandøren har beregnet for en gitt transaksjon.  
+Når du velger et varenummer i **Nr.**- feltet på et salgs- eller kjøpsdokument, fyller [!INCLUDE[prod_short](includes/prod_short.md)] ut feltene **Enhetspris** og **Linjebeløp**. Salgsprisen kommer fra **varekortet** eller fra salgsprisene som er tillatt for varen og kunden. [!INCLUDE[prod_short](includes/prod_short.md)] beregner linjebeløpet bare når du angir en mengde for linjen.  
 
-### <a name="unit-price-and-line-amount-includingexcluding-vat-on-sales-documents"></a>Salgspris og linjebeløp med/uten mva på salgsdokumenter  
-Når du velger et varenummer i **Nr.**- feltet i et salgsdokument, blir også **Salgspris**-feltet fylt ut i [!INCLUDE[prod_short](includes/prod_short.md)]. Salgsprisen kommer fra **varekortet** eller fra salgsprisene som er tillatt for varen og kunden. [!INCLUDE[prod_short](includes/prod_short.md)] beregner **linjebeløpet** bare når du angir en mengde for linjen.  
+Hvis du vil at enhetsprisene og linjebeløpene skal inkludere mva., for eksempel hvis du selger til detaljhandelsforbrukere, merker du av for **Priser inkl. mva.** i dokumentet. Hvis du vil ha mer informasjon, kan du se [Inkluder eller ekskluderv mva. i priser og linjebeløp](#including-or-excluding-vat-in-prices-and-line-amounts). 
 
-Hvis du selger til detaljistkunder, vil du kanskje at priser på salgsdokumenter skal inkludere mva. Dette gjør du ved å merke av for **Priser inkl. mva.** for dokumentet.  
+Du kan beregne og vise mva-beløp i salgs- og kjøpsdokumenter på forskjellig måte, avhengig av hvilken type kunde eller leverandør du handler med. Du kan også endre det beregnede mva-beløpet manuelt, slik at det for eksempel samsvarer mva-beløpet beregnet av leverandøren på en gitt transaksjon.
 
-### <a name="including-or-excluding-vat-on-prices"></a>Med eller uten mva i priser
-Hvis det er merket av for **Priser inkl. mva.** i et salgsdokument, oppdateres feltene **Salgspris** og **Linjebeløp** slik at de inkluderer mva, og feltnavnene vil også gjenspeile dette. Som standard er mva ikke inkludert i disse feltene.  
+### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>Inkluder eller ekskluder mva. i priser og linjebeløp
+Hvis du merker av for **Priser inkl. mva.** i et salgsdokument, oppdateres feltene **Enhetspris** og **Linjebeløp** slik at de inkluderer mva. Som standard er ikke mva. inkludert i disse feltene. Navnene på feltene gjenspeiler om priser er inkludert mva.  
 
-Hvis dette feltet ikke er valgt, blir feltene **Salgspris** og **Linjebeløp** fylt ut uten mva, og feltnavnene vil gjenspeile dette.  
-
-Du kan definere standardinnstillingen for **Priser inkl. mva** for alle salgsdokumenter for en kunde i feltet **Priser inkl. mva.** på **Kunde**-kortet. Du kan også definere at salgspriser skal ha med mva eller ikke. Salgspriser på varekortet vil vanligvis være prisen uten mva. Informasjonen fra feltet **Pris inkl. mva.** på **Vare**-kortet brukes til å fastsette salgsprisbeløpet for salgsdokumenter.  
+Du kan definere standardinnstillingen for **Priser inkl. mva** for alle salgsdokumenter for en kunde i feltet **Priser inkl. mva.** på **Kunde**-kortet. Du kan også definere at salgspriser skal ha med mva eller ikke. Vanligvis vil priser på varekortet ekskludere mva. 
 
 Tabellen nedenfor inneholder en oversikt over hvordan salgsprisbeløpene beregnes for et salgsdokument når du ikke har definert priser på **Salgspris**-siden:  
 
-|**Feltet Pris inkl. mva. på varekortet**|**Feltet Priser inkl. mva. i salgshodet**|**Utført handling**|  
+|**Feltet Pris inkl. mva. på varekortet**|**Priser inkl. mva.-felt**|**Utført handling**|  
 |-----------------------------------------------|----------------------------------------------------|--------------------------|  
-|Ingen avmerking|Ingen avmerking|**Salgsprisen** på varekortet kopieres til feltet **Salgspris Ekskl. mva.** på salgslinjene.|  
-|Ingen avmerking|Avmerking|Mva-beløpet per enhet beregnes og legges til i **enhetsprisen** på varekortet. Den totale salgsprisen angis deretter i feltet **Salgspris Inkl. mva.** på salgslinjene.|  
-|Avmerking|Ingen avmerking|Mva-beløpet i **Salgspris** på varekortet beregnes ved hjelp av mva-prosenten som er knyttet til kombinasjonen av mva-bokføringsgruppe for firma (pris) og mva-bokføringsgruppe for vare. **Salgsprisen** på varekortet, redusert med mva-beløpet, angis deretter i feltet **Salgspris Ekskl. mva.** på salgslinjene.|  
-|Avmerking|Avmerking|**Salgsprisen** på varekortet kopieres til feltet **Salgspris Inkl. mva.** på salgslinjene.|
+|Ikke aktivert|Ikke aktivert|**Salgsprisen** på varekortet kopieres til feltet **Salgspris Ekskl. mva.** på salgslinjene.|  
+|Ikke aktivert|Aktivert|Mva-beløpet per enhet beregnes og legges til i **enhetsprisen** på varekortet. Den totale enhetsprisen angis deretter i feltet **Enhetspris inkl. mva.** på salgslinjene.|  
+|Aktivert|Ikke aktivert|Mva-beløpet i **Enhetspris**-feltet på **varekortet** beregnes ved hjelp av mva-prosenten som er knyttet til kombinasjonen av mva-bokføringsgruppe for firma (pris) og mva-bokføringsgruppe for vare. **Salgsprisen** på varekortet, redusert med mva-beløpet, angis deretter i feltet **Salgspris Ekskl. mva.** på salgslinjene. Hvis du vil ha mer informasjon, kan du se [Bruk mva-bokføringsgrupper for firma og kundeprisgrupper](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups).|  
+|Aktivert|Aktivert|**Salgsprisen** på varekortet kopieres til feltet **Salgspris Inkl. mva.** på salgslinjene.|
+
+#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a>Bruk mva-bokføringsgrupper for firma og kundeprisgrupper 
+Hvis du vil at priser skal inkludere mva., kan du bruke mva-bokføringsgrupper for firma til å beregne beløpet på bakgrunn av mva-bokføringsoppsettet for gruppen. Hvis du vil ha mer informasjon, kan du se [Definer mva-bokføringsgrupper](finance-setup-vat.md#set-up-vat-business-posting-groups).
+
+Avhengig av hva du vil gjøre, kan du tildele en mva-bokføringsgruppe for firma til kunder eller salgsdokumenter på følgende måter:
+
+* Hvis du vil bruke samme mva-sats for alle kunder, kan du velge en gruppe i feltet **Mva-bokføringsgruppe for firma (pris)** på siden **Salgsoppsett**.
+* Hvis du vil bruke en mva-sats for en bestemt kunde, kan du velge en gruppe i feltet **Mva-bokføringsgruppe for firma (pris)** på siden **Kundekort**. 
+* Hvis du vil bruke en mva-sats for en bestemt kunde, kan du velge en gruppe i feltet **Mva-bokføringsgruppe for firma (pris)** på siden **Kundeprisgruppe**. Dette er for eksempel nyttig når du vil at en pris skal gjelde alle kunder i et bestemt geografisk område eller en bestemt bransje.
+* For alle salgsdokumenter i feltet **Mva-bokføringsgruppe for firma**. Mva-beløpet som er angitt for gruppen, brukes bare for det dokumentet du arbeider på nå.
+
+> [!NOTE]
+> Hvis du ikke angir en gruppe i feltet **Mva-bokføringsgruppe for firma (pris)**, er ikke mva. inkludert i priser.
+
+#### <a name="examples"></a>Eksempler
+Faktorer som landet eller området du selger til, eller bransjetypen du selger til, kan påvirke det mva-beløpet du må ta med i beregningen. En restaurant kan for eksempel ta 6 % mva for måltider som spise inne, og 17 % for takeaway. For å gjøre det må du opprette en mva-bokføringsgruppe for firma (pris) for internt og en for takeaway.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Korrigere mva-beløp manuelt i salgs- og kjøpsdokumenter  
-Du kan foreta korrigeringer i bokførte mva-poster. Dette gjør at du kan endre de totale mva-beløpene for salg eller kjøp uten å endre mva-grunnlaget. Dette kan være nødvendig hvis du for eksempel mottar en faktura fra en leverandør som har beregnet mva. feil.  
+Du kan korrigere mva-poster som er bokført slik at du kan endre de samlede inngående eller utgående mva-beløpene uten å endre mva-basen. Hvis du for eksempel mottar en faktura fra en leverandør med feil mva-beløp.  
 
 Selv om du kan ha satt opp én eller flere kombinasjoner for å håndtere import-mva, må du definere minst én mva-produktbokføringsgruppe. Du kan for eksempel kalle den **KORRIGER** og bruke den til korreksjonsformål, med mindre du kan bruke den samme finanskontoen i feltet **Inngående mva-konto** på linjen for mva-bokføringsoppsett. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md).
 

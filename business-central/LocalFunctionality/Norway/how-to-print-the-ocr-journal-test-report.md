@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 15000100, 255
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ac0b6765e6deed574cef296ff4d2d775794fa6f6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 016fb75032b8df040ab082e6e70d2beb1b92382c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142643"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513223"
 ---
 # <a name="print-the-ocr-journal---test-report"></a>Skrive ut rapporten OCR-kladd - test
 Du kan skrive ut rapporten **OCR-kladd - test** for å teste de importerte betalingstransaksjonene i innbetalingskladden. Du kan også vise potensielle advarsler og løse konflikter før betalingene bokføres i kladden.  
@@ -37,7 +37,7 @@ Du kan skrive ut rapporten **OCR-kladd - test** for å teste de importerte betal
  [Opprette KID-numre på salgsdokumenter](how-to-set-up-kid-numbers-on-sales-documents.md)   
  [Opprette OCR-betalinger](how-to-set-up-ocr-payments.md)   
  [Importere og bokføre OCR-betalinger](how-to-import-and-post-ocr-payments.md)   
- [Arbeide med finanskladder](../../ui-work-general-journals.md)
+ [Arbeid med finanskladder](../../ui-work-general-journals.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

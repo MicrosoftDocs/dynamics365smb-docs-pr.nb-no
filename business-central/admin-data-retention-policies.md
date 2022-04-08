@@ -10,12 +10,12 @@ ms.search.keywords: delete, data, retention, policy, policies
 ms.search.form: 3903, 3901
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1abd02f7c70e8fe624e7d8b18ec7b7cb8b7c2c9e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a6fee7aedd8fca20e032bc3ac67e5f9e26d1fb22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383942"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517085"
 ---
 # <a name="define-retention-policies"></a>Definere oppbevaringspolicyer
 Administratorer kan definere oppbevaringspolicyer for å angi hvor ofte de vil at [!INCLUDE[prod_short](includes/prod_short.md)] skal slette foreldede data i tabeller som inneholder loggoppføringer og arkiverte poster. Hvis loggposter ryddes, kan det for eksempel bli enklere å arbeide med dataene som faktisk er relevante. Policyer kan omfatte alle data i tabellene som har passert utløpsdatoen, eller du kan legge til filterkriterier som bare inkluderer bestemte utgåtte data i policyen. 
@@ -106,7 +106,7 @@ Når en utvikler har lagt til tabeller i listen, kan en administrator inkludere 
 [Analysere sporingstelemetri for oppbevaringspolicy](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Revidere endringer i Business Central](across-log-changes.md)  
 [Filtrering](ui-enter-criteria-filters.md#filtering)  
-[Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

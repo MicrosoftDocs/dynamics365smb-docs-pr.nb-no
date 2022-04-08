@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: API, extension, Cognitive Services, image, computer vision, attribute, tag, recognition
 ms.date: 05/19/2021
 ms.author: bholtorf
-ms.openlocfilehash: 65ec760458f1a30ef4810acdff01ebd9e0a699b2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8fd9a592ab0d827fb1866eec80a0771f85d91a38
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140426"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512839"
 ---
 # <a name="the-image-analyzer-extension"></a>Image Analyzer-utvidelsen
 
@@ -121,7 +121,7 @@ Du kan vise hvor mange analyser du har gjort, og hvor mange du fortsatt kan gjø
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Servicetilkoblinger**, og deretter velger du **Oppsett for bildeanalyse**.  
 2. Fjern merket for **Aktiver Image Analyzer**.  
 
-Du kan eventuelt avinstallere utvidelsen fullstendig. Du kan alltids hente den tilbake fra AppSource. Hvis du vil ha mer informasjon, kan du se [Installere og avinstallere utvidelser i Business Central](ui-extensions-install-uninstall.md#uninstalling-an-extension).  
+Du kan eventuelt avinstallere utvidelsen fullstendig. Du kan alltids hente den tilbake fra AppSource. Hvis du vil ha mer informasjon, kan du se [Installere og avinstallere utvidelser i Business Central](ui-extensions-install-uninstall.md#uninstall-an-extension).  
 
 ## <a name="see-also"></a>Se også
 

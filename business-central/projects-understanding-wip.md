@@ -10,12 +10,12 @@ ms.search.keywords: work in process, work in progress, calculate project WIP
 ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bfae06855a633642ebc8032578f4f4c1bf4e35d3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 43c2cb1e8f3e672eb265b9abfa87dee07e7ed532
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131252"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520867"
 ---
 # <a name="understanding-wip-methods-in-project-management"></a>Forstå VIA-metoder i prosjektstyring
 
@@ -37,9 +37,9 @@ Hvis du vil spore verdien i Finans, kan du beregne VIA og bokføre verdien i Fin
 
 [Prosjektstyring](projects-manage-projects.md)  
 [Finans](finance.md)  
-[Innkjøp](purchasing-manage-purchasing.md)  
-[Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Innkjøp](purchasing-manage-purchasing.md)         
+[Salg](sales-manage-sales.md)      
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

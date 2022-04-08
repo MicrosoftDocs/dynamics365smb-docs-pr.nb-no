@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 841d57ec0e5897ee0395e498ed24dc19b4fcbaea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e142f8aef14ea82d67de0c51a996e4f6a6b43dbf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143937"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513177"
 ---
-# <a name="set-up-company-configuration"></a>Definere selskapskonfigurasjon
+# <a name="set-up-company-configuration-with-rapidstart-services"></a>Definere selskapskonfigurasjon med RapidStart Services
+
 Implementeringsprosessen begynner med Microsoft-partneren. Som en partneren er du ansvarlig for å tenke gjennom konfigurasjonsdetaljer og lage en pakke som kunden enkelt kan bruke. Før du oppretter et nytt selskap i [!INCLUDE [prod_short](includes/prod_short.md)] lokalt, bør du planlegge hvordan det skal konfigureres. Du må vurdere grunnleggende oppsettsdata og hvilke typer data [!INCLUDE[prod_short](includes/prod_short.md)]-løsningen vil kreve. Du grupperer all denne informasjonen i konfigurasjonspakker.
 
 RapidStart Services gir deg også verktøy som du vil bruke til å overføre eldre data, for eksempel kunder og leverandører.  

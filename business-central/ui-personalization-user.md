@@ -10,12 +10,12 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 95ed69baac51d4c343c639e8ddcea2db29520340
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: a862cb514145d50d1a86816bbd3758055b41a872
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334661"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512735"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse arbeidsområdet
 Du kan tilpasse arbeidsområdet slik at det passer til arbeidet og preferansene, ved å endre sider slik at de bare viser informasjon du trenger, der du trenger den. Tilpasningsendringene som du utfører, påvirker bare hva du ser, ikke hva andre brukere ser.
@@ -142,8 +142,8 @@ Nedenfor følger noen tips som hjelper deg med å forstå tilpasning bedre.
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
-[Tilpasse sider for profiler](ui-personalization-manage.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Tilpass sider for profiler](ui-personalization-manage.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
 

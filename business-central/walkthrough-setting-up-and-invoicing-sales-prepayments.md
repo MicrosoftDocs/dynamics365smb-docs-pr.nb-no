@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: b21a0dcd4122eb37cdac8f3acf33cf27e6c66414
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2fcc04c05274922a13131178d16c3e27e0b18da1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140192"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518734"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Gjennomgang: konfigurere og fakturere salgsforskudd
 
@@ -236,7 +236,7 @@ Med funksjonene for forskuddsbetaling i [!INCLUDE[prod_short](includes/prod_shor
 
 [Fakturere forskuddsbetalinger](finance-invoice-prepayments.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)
 
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: a9da38bf023ff378a20daa373bdd1963380e9928
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 219c99e10e274bf2eeb99607b4499a4f94102237
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131825"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517631"
 ---
 # <a name="design-details-revaluation"></a>Designdetaljer: Revaluering
 Du kan revaluere lageret basert på verdisettingsgrunnlaget som mest nøyaktig gjenspeiler lagerverdien. Du kan også tilbakedatere en revaluering, slik at solgte varers kost (VAREFORBRUK) oppdateres riktig for varer som allerede er solgt. Varer som bruker lagermetoden Standard, og som ikke er fullstendig fakturert, kan også revalueres.  
@@ -180,7 +180,7 @@ VIA-beholdning kan revalueres så lenge revalueringsdatoen ikke kommer etter bok
  [Designdetaljer: Kostmetoder](design-details-costing-methods.md)   
  [Designdetaljer: Lagerverdisetting](design-details-inventory-valuation.md) [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

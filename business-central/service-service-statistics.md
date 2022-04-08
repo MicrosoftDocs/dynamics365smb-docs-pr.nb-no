@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: c88081d9489e66979e4cfc757a9f5ed317a85b8e
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 37bd1ae61aae45a988ab38f1e25be3f870814f77
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382666"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512891"
 ---
 # <a name="viewing-service-statistics"></a>Vise servicestatistikk
 Du kan bruke statistikk til å analysere servicedokumenter og bestemme hvor godt du administrerer serviceprosessene. Du kan analysere servicekontrakter, varer, tilbud, ordrer, fakturaer og kreditnotaer ved å velge handlingen **Statistikk**. For servicevarer og kontrakter kan du også bruke vinduet **Servicevare - Trendscape** eller **Kontrakt - Trendscape** for å vise en oversikt over bokførte serviceposter for en bestemt servicevare.   
@@ -62,7 +62,7 @@ For hver posttype kan du vise fakturert beløp, forbruk (beløp), kostbeløp, an
 
 * (Fakturert beløp - Bruk (Kostnader)) x 100 / Fakturert beløp  
 
-## <a name="using-trendscapes"></a>Bruke Trendscapes
+## <a name="use-trendscapes"></a>Bruk Trendscapes
 For servicevarer og servicekontrakter inneholder sidene **Servicevare - Trendscape** eller **Servicekontrakt - Trendscape** en rulleoversikt over serviceposter i en periode for en bestemt servicevare eller kontrakt. Hvis du vil vise trendscape, åpner du servicevaren eller servicekontrakten, velger handlingen **Statistikk** og deretter **Trendscape**.
 
 Når du ruller i listen, beregnes beløpene i lokal valuta i henhold til det angitte tidsintervallet. Beløpene beregnes alle beløp fra serviceposter, det vil si poster som opprettes når du bokfører serviceordrer eller servicefakturaer.

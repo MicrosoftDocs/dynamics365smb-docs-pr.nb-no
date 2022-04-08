@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: decimal separator, data entry, focus
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 03/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 9fb5df3e4b73b23b469185c46235170d6cebdde2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 8212dd5d85ee826bb0147a0d09d623c3af14071b
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323035"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528551"
 ---
 # <a name="entering-data"></a>Skrive inn data
 
@@ -23,7 +23,8 @@ Det finnes flere generelle funksjoner som hjelper deg å registrere data raskere
 
 Eksemplene i denne artikkelen bruker demonstrasjonsdataene.
 
-## <a name="working-with-editable-fields"></a>Arbeide med felter som kan redigeres
+## <a name="work-with-editable-fields"></a>Arbeid med felter som kan redigeres
+
 Felter [!INCLUDE[prod_short](includes/prod_short.md)] kan inneholde ulike data som kan redigeres, som tekst eller valutabeløp. Redigerbare felter viser vanligvis en inndataboks der du kan skrive eller velge en verdi. Felter som ikke kan redigeres, vises vanligvis med en grå bakgrunn.   
 
 Enkelte redigerbare felter har en velger som hjelper deg med å angi en verdi.  
@@ -57,6 +58,8 @@ Når markøren vises på slutten av feltverdien:
 
 > [!NOTE]
 > Når du angir en verdi, vil Business Central bare kontrollere at den er gyldig etter at du klikker utenfor feltet eller setter fokus til et annet element, som det neste feltet.  
+
+[!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
 
 ## <a name="keyboard-shortcuts"></a>Hurtigtaster
 
@@ -108,9 +111,9 @@ Selv om et felt er obligatorisk, må du ikke fylle ut feltet før du fortsetter 
 
  Mange felt har en pil-ned-knapp som du kan velge. Du velger pilen for å få frem en liste over data som kan settes inn i feltet. Knappen har to funksjoner, avhengig av felttype:  
 
--   Oppslag - viser informasjon fra en annen tabell som du kan sette inn i feltet. Du kan velge én datadel om gangen.  
+- Oppslag - viser informasjon fra en annen tabell som du kan sette inn i feltet. Du kan velge én datadel om gangen.  
 
--   Rullegardin - viser settet med alternativer som finnes for feltet. Du kan bare velge ett av alternativene.  
+- Rullegardin - viser settet med alternativer som finnes for feltet. Du kan bare velge ett av alternativene.  
 
 ## <a name="copying-and-pasting-faq-fields-and-lines"></a>Vanlige spørsmål om kopiere og lime inn felt og linjer
 
@@ -160,7 +163,7 @@ Hvis du vil åpne det gjeldende kortet eller dokumentet i et nytt vindu, velger 
 > Hvis du arbeider i Safari-leseren, kan en popup-blokkering føre til at det nye vinduet ikke åpnes. Hvis dette er tilfellet, angir du produkt-URL-adressen som et tillatt webområde. Hvis du vil ha mer informasjon, kan du se [Endre innstillinger i Safari](https://go.microsoft.com/fwlink/?LinkId=2102965).<br /><br />
 > Det samme kan skje i andre nettlesere, for eksempel Firefox. Se [Innstillinger for popup-blokkering i Firefox](https://go.microsoft.com/fwlink/?LinkId=2116400) hvis du vil ha mer informasjon.  
 
-En annen måte å kjøre gjøremål på, er å åpne [!INCLUDE[prod_short](includes/prod_short.md)] i to eller flere webleserkategorier. Når du gjør det på denne måten, bør du opprette en ny fane og kopiere / lime inn URL-adressen til den opprinnelige fanen i den nye fanen. Dette oppretter en ny økt.   
+En annen måte å kjøre gjøremål på, er å åpne [!INCLUDE[prod_short](includes/prod_short.md)] i to eller flere nettleserkategorier. Når du gjør det på denne måten, bør du opprette en ny fane og kopiere / lime inn URL-adressen til den opprinnelige fanen i den nye fanen. Dette oppretter en ny økt.   
 
 > [!NOTE]
 > Ikke bruk **Dupliser**-funksjonen i nettleseren til å opprette den nye fanen, siden dette kan forårsake at handlinger på én fane blokkerer handlinger på andre faner fordi de er en del av den samme økten.
@@ -171,26 +174,26 @@ Når du setter inn tall i antallfelt, for eksempel **Antall**-feltet på en vare
 
 ### <a name="examples"></a>Eksempler  
 
--   Hvis du skriver inn 19+19, beregnes feltet til 38.  
+- Hvis du skriver inn 19+19, beregnes feltet til 38.  
 
--   Hvis du skriver inn 41-9, beregnes feltet til 32.  
+- Hvis du skriver inn 41-9, beregnes feltet til 32.  
 
--   Hvis du skriver inn 12*4, beregnes feltet til 48.  
+- Hvis du skriver inn 12*4, beregnes feltet til 48.  
 
--   Hvis du skriver inn 12/4, beregnes feltet til 3.  
+- Hvis du skriver inn 12/4, beregnes feltet til 3.  
 
 ## <a name="entering-negative-numbers"></a>Skrive inn negative tall
 
 Du kan angi negative tall på to måter. Tallet -20,5 kan angis som:  
 
--   -20,5  
+- -20,5  
 
-    eller
--   20,5-  
+  eller
+- 20,5-  
 
- I begge tilfeller registreres beløpet som -20,5.  
+I begge tilfeller registreres beløpet som -20,5.  
 
- Hvis det siste tegnet i uttrykket er en **++** eller en **--**, blir hele uttrykket registrert med dette tegnet. Eksempel: **10-20+** resulterer i 10 og ikke -10.  
+Hvis det siste tegnet i uttrykket er en **++** eller en **--**, blir hele uttrykket registrert med dette tegnet. Eksempel: **10-20+** resulterer i 10 og ikke -10.  
 
 ## <a name="entering-dates-and-times"></a>Angi datoer og klokkeslett
 
@@ -201,15 +204,18 @@ Du kan angi datoer og klokkeslett i alle feltene som er tilordnet datoer (datofe
 
 ### <a name="entering-dates"></a>Sette inn datoer
 
-Du kan enten bruke datovelgeren til å velge en dato fra en kalender, eller du kan angi datoer manuelt. Denne delen inneholder en kort oversikt over hvordan du angir datoer. Se [Arbeider med kalenderdatoer og klokkeslett](ui-enter-date-ranges.md) hvis du vil ha mer informasjon.
+Du kan enten bruke datovelgeren til å velge en dato fra en kalender, eller du kan angi datoer manuelt. Denne delen inneholder en kort oversikt over hvordan du angir datoer. Se [Arbeid med kalenderdatoer og klokkeslett](ui-enter-date-ranges.md) hvis du vil ha mer informasjon.
 
 For manuell datoregistrering kan du angi to, fire, seks eller åtte tall:  
 
--   To sifre tolkes som dagen. Det legger til måneden og året i arbeidsdatoen.  
+- To sifre tolkes som dagen. Det legger til måneden og året i arbeidsdatoen.  
 
--   Fire sifre tolkes som dagen og måneden. Det legger til året i arbeidsdatoen.  
+- Fire sifre tolkes som dagen og måneden. Det legger til året i arbeidsdatoen.  
 
--   Hvis datoen du ønsker, er i området 01.01.1930 til 31.12.2029, angir du året med to tall. Hvis ikke angir du året med fire tall.  
+- Hvis datoen du ønsker, er i området 01.01.1950 til 31.12.2049, angir du året med to tall. Hvis ikke angir du året med fire tall.
+
+  > [!NOTE]
+  > Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan årstallsområdet med to sifre være forskjellige. Administratorer kan endre området ved å endre innstillingen **CalendarTwoDigitYearMax** på [!INCLUDE[prod_short](includes/prod_short.md)]-serveren. Hvis du vil ha mer informasjon, kan du se [Konfigurere Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
 
 Du kan også angi en dato som en ukedag etterfulgt av et ukenummer. Eller du kan angi et år. For eksempel Man25 eller man25 betyr mandag i uke 25.  
 
@@ -267,14 +273,17 @@ Her er noen eksempler.
 
 ## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Angi desimalskilletegnet som brukes av numeriske tastaturer
 
-Når du bruker desimalskilletegn for numerisk tastatur til å skrive inn data, bestemmes det faktiske desimalskilletegnet som er angitt i feltet, av områdeinnstillingen for Business Central. Du angir området i Business Central på siden **Mine innstillinger**.
+Når du bruker desimalskilletegn på et numerisk tastatur til å skrive inn data, bestemmes det faktiske desimalskilletegnet som er angitt i feltet, av områdeinnstillingen for Business Central. De fleste områder bruker punktum (.) eller komma (,) som skilletegn for desimalverdier, som du vanligvis ser i valutabeløp. Desimaltasten på tastaturet tilpasses området. Den er ofte forskjellig fra punktum- eller kommatastene på resten av tastaturet. Du angir området i Business Central på siden **Mine innstillinger**.
 
-La oss for eksempel anta at du bruker et numerisk tastatur som bruker et punktum (.) som desimalskilletegn. Du registrerer imidlertid data for et regionalt språk som bruker komma (**,**) som desimalskilletegn, for eksempel dansk (Danmark) eller fransk (Frankrike). Du vil derfor at desimaler skal settes til 1.23 angis som 1,23. I dette tilfellet kan du gå til siden **Mine innstillinger** og angir **Område** på det regionale språket, for eksempel **dansk (Danmark)** eller **fransk (Frankrike)**. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md#region).
+La oss for eksempel anta at du bruker et numerisk tastatur som bruker et punktum (.) som desimalskilletegn. Du registrerer imidlertid data for et regionalt språk som bruker komma (**,**) som desimalskilletegn, for eksempel fransk (Frankrike). Du vil derfor at desimaler skal settes til 1.23 angis som 1,23. I dette tilfellet kan du gå til siden **Mine innstillinger** og angir **Område** på det regionale språket til **fransk (Frankrike)**. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md#region).
+
+> [!TIP]
+> Det kan være tilfeller der du vil bruke desimalskilletegnet til å angi et punktum (.). La oss for eksempel anta at du skulle sette inn et datointervall i et filter, som `01/01/2022..04/01/2022` eller noe som krever et punktum. Du kan tilpasse dette tilfellet ved å trykke på tastene Alt + desimalskilletegn på det numeriske tastaturet. Denne tastekombinasjonen bytter desimalskilletegn mellom hver gang et punktum og desimalskilletegnet angis av **Område**-innstillingen.
 
 ## <a name="see-also"></a>Se også
 
 [Sortere, søke etter og filtrere oversikter](ui-enter-criteria-filters.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

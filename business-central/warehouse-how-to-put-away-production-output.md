@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: e93c4d5abd6b6c3136e95838d10895a8fb1b2b90
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4b6f6a19787f1fd2630cf3bc3a6882dc17f0d6bb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134549"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514312"
 ---
 # <a name="put-away-production-or-assembly-output"></a>Plassere produksjonsavgang eller monteringsavgang
 
@@ -69,8 +69,8 @@ Tabellen nedenfor beskriver ulike måter å flytte varer på i lageret med avans
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

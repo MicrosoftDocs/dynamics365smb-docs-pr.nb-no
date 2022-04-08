@@ -9,15 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 829ff2a07464d1c456b6776eef542914601c0a18
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: db90358fcca87bc7217d48efa7577e8d4a835c58
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141635"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521361"
 ---
 # <a name="field-mapping-when-importing-sepa-camt-files"></a>Felttilordning ved import av SEPA CAMT-filer
-[!INCLUDE[prod_short](includes/prod_short.md)] støtter de regionale SEPA-standardene (Single Euro Payments Area) for import av SEPA-bankkontoutdrag (CAMT-format). Hvis du vil ha mer informasjon, kan du se [Bruke AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] støtter de regionale SEPA-standardene (Single Euro Payments Area) for import av SEPA-bankkontoutdrag (CAMT-format). Hvis du vil ha mer informasjon, kan du se [Bruk AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md).  
 
  SEPA CAMT-standarden har også lokale variasjoner. Derfor må du kanskje endre den generiske datautvekslingsdefinisjonen (angitt med **SEPA CAMT**-koden på siden **Definisjoner av bokføringsutveksling**) for å tilpasse det til en lokal variant av standarden. Tabellene nedenfor viser til element-til-felt-tilordningen for tabell 81, 273 og 274 i implementeringen av SEPA CAMT i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -64,7 +64,7 @@ ms.locfileid: "8141635"
 ## <a name="see-also"></a>Se også  
 [Definere datautveksling](across-set-up-data-exchange.md)  
 [Utveksle data elektronisk](across-data-exchange.md)  
-[Bruke utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
+[Bruk utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
 [Bruke XML-skjemaer til å klargjøre datautvekslingsdefinisjoner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md)  
 

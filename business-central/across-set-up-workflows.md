@@ -9,22 +9,22 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d9cf7f41f399d2747b554f3784c40b51fb9d71da
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c07a3cfc9807ddcb78a97dc342013ff6e498fee7
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133255"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518444"
 ---
 # <a name="set-up-workflows"></a>Konfigurere arbeidsflyter
 
-Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn. Hvis du vil ha mer informasjon, kan du se [Bruke arbeidsflyter](across-use-workflows.md).  
+Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn. Hvis du vil ha mer informasjon, kan du se [Bruk arbeidsflyter](across-use-workflows.md).  
 
  Før du begynner å bruke arbeidsflyter, må du konfigurere brukere av arbeidsflyt og godkjenning, angi hvordan brukere motta varsler om trinn i arbeidsflyten, og deretter opprette arbeidsflyter, potensielt med foranstilt tilpasset kode.  
 
  På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse, endret av hendelsesbetingelsene, og et arbeidsflytsvar, endret av svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden.  
 
- Hvis et forretningsscenario krever en arbeidsflythendelse eller et arbeidsflytsvar som ikke støttes, må en Microsoft-partner implementere dem via kode, eller du kan konfigurere en arbeidsflyt ved å bruke Power Automate. Hvis du vil ha mer informasjon, kan du se [Bruke [!INCLUDE[prod_short](includes/prod_short.md)] i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md) eller [Hendelse i AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) i hjelpen for utviklere.
+ Hvis et forretningsscenario krever en arbeidsflythendelse eller et arbeidsflytsvar som ikke støttes, må en Microsoft-partner implementere dem via kode, eller du kan konfigurere en arbeidsflyt ved å bruke Power Automate. Hvis du vil ha mer informasjon, kan du se [Bruk [!INCLUDE[prod_short](includes/prod_short.md)] i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md) eller [Hendelse i AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) i hjelpen for utviklere.
 
  Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.  
 
@@ -48,10 +48,10 @@ Denne videoen viser hvordan du konfigurerer en arbeidsflyt som krever at noen be
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
 ## <a name="see-also"></a>Se også  
- [Bruke arbeidsflyter](across-use-workflows.md)   
+ [Bruk arbeidsflyter](across-use-workflows.md)   
  [Arbeidsflyt](across-workflow.md)   
- [Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
- [Arbeide med Business Central](ui-work-product.md)
+ [Gjennomgang: Definer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+ [Arbeid med Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

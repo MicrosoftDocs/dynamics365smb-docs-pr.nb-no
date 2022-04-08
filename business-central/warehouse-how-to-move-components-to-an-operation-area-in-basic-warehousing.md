@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7351, 7382, 9330
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 2a9f24087303cd4570adad5124c996e84204dc97
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: da2f937c50e5634a5f4e3abe6d1eae9064916f52
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382262"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513266"
 ---
 # <a name="move-components-to-an-operation-area-in-basic-warehouse-configurations"></a>Flytte komponenter til et operasjonsområde i enkle lageroppsett
 Hvis det forekommer varebehandlingsoperasjoner på lagerlokasjonen, må du kanskje flytte elementer mellom interne hyller for å reagere på interne kildedokumenter, for eksempel produksjon, montering eller serviceordrer på lokasjonen.  
@@ -74,8 +74,8 @@ Denne fremgangsmåten viser hvordan du oppretter en lagerflytting fra siden **La
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

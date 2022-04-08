@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 00b2cd6f4e0b7a141bd6c31dc61ceac909407376
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4afda1c307f0f327196ad3dc0d53d74842bf3d9f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140296"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523077"
 ---
 # <a name="walkthrough-conducting-a-sales-campaign"></a>Gjennomgang: kjøre en salgskampanje
 
@@ -202,7 +202,7 @@ Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/searc
 ## <a name="see-also"></a>Se også  
 [Forbindelser](marketing-relationship-management.md)  
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
- [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

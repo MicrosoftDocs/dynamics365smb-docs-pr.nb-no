@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9880
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 66473480ac2db86bc35adc7e60d7fcd2cafc7212
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ca69d95ae40965c83df56e1454ca9984a448cbb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142526"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510982"
 ---
 # <a name="managing-database-access-intent"></a>Administrere databasetilgangsformål
 
@@ -54,7 +54,7 @@ I databasevilkårene kalles denne funksjonen vanligvis *leseutskalering*. Hvis d
 ## <a name="see-also"></a>Se også
 [Forretningsfunksjoner](across-business-functionality.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)    
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

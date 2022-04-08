@@ -9,12 +9,12 @@ ms.workload: na
 ms.date: 06/24/2021
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.author: edupont
-ms.openlocfilehash: 13c2639ab416fd472850fef5161f0f374024bb51
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5aa00f32bbe3fe35c2f860c37c7b1849c7f7a1c6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335581"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513448"
 ---
 # <a name="posting-documents-and-journals"></a>Bokføre dokumenter og kladder
 Bokføring representerer regnskapshandlingen for registrering av forretningstransaksjoner i de ulike selskapspostene.
@@ -28,14 +28,14 @@ Tabellen nedenfor beskriver relaterte oppgaver, og du finner koblinger til emnen
 | Finn ut mer om hvordan du bokfører kjøpsdokumenter. |[Bokføre kjøp](ui-post-purchases.md) |
 | Finn ut mer om hvordan du bokfører salgsdokumenter. |[Bokføre salg](ui-post-sales.md) |
 | Bokføre flere salgs- eller kjøpsdokumenter sammen, umiddelbart eller som planlagt.|[Bokføre flere dokumenter samtidig](ui-batch-posting.md)|
-| Finn ut mer om hvordan du bokfører finanskladder. |[Arbeide med finanskladder](ui-work-general-journals.md) |
+| Finn ut mer om hvordan du bokfører finanskladder. |[Arbeid med finanskladder](ui-work-general-journals.md) |
 | Forhåndsvis postene som blir opprettet når du bokfører, på en side. |[Forhåndsvise bokføringsresultater](ui-how-preview-post-results.md) |
 | Forhåndsvis i en rapport postene som blir opprettet når du bokfører. |[Vise testrapporter før bokføring](ui-how-view-test-reports-posting.md) |
 
 ## <a name="see-also"></a>Se også
 [Redigere bokførte dokumenter](across-edit-posted-document.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

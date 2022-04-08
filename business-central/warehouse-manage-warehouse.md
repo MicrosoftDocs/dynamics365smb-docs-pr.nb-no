@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5774, 5776, 5777, 5785, 5793, 5797, 7318, 7364, 7401, 8909, 9000, 9008, 9009, 9050, 9053, 9056
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b2f3d9bfb509c1b24f67403b7b97f21f089dc2f4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d8cc547aa5187c270228a1e2dcd562eeb7f1cbb3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141902"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511973"
 ---
 # <a name="warehouse-management"></a>Lagerstyring
 
@@ -42,10 +42,10 @@ De lagerrelaterte oppgavene med å telle, justere og reklassifisere varene kan o
 ## <a name="see-also"></a>Se også
 
 [Lager](inventory-manage-inventory.md)  
-[Definere Warehouse Management](warehouse-setup-warehouse.md) 
+[Definer Warehouse Management](warehouse-setup-warehouse.md) 
 [Monteringsstyring](assembly-assemble-items.md)
 [Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

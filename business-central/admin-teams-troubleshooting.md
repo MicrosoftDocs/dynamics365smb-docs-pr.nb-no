@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 7bea8e591b92666c6d92ce34b0849ad774dcc35a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9d6d5ca853d11a08c2933dd6abcbc82d0ff4dbc4
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147011"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528478"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Feilsøke Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -155,6 +155,10 @@ Når du limer inn tekst i meldingsboksen i vinduet **Del til Teams**, dupliseres
 ## <a name="unable-to-sign-into-the-share-to-teams-window"></a>Kan ikke logge på vinduet Del til Teams 
 
 Dette problemet kan skyldes en rekke årsaker. Identiteten du bruker til å logge på, må for eksempel ha tilgang til Microsoft Teams, for eksempel via et Microsoft 365-abonnement.
+
+## <a name="my-cards-no-longer-have-a-popout-button"></a>Kortene mine har ikke lenger popout-knapp
+
+Fra april 2022 vil ikke koblinger fra kompakte kort i Teams lenger inneholde **Popout**- knappen. Hvis du vil åpne kortet i et eget vindu, velger du **Detaljer**-knappen, og deretter velger du **Åpne i nettleser** fra ellipsemenyen (**...**) i øvre høyre hjørne av vinduet.
 
 ## <a name="see-also"></a>Se også
 

@@ -8,12 +8,12 @@ ms.search.keywords: project management
 ms.search.form: 211, 463, 1012
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d4880f91c53e8618db9be5e0bcdbfa396cbf21fd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e150dfec7471ad755ce6e0f69a224a36f24fc6f3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137448"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514911"
 ---
 # <a name="set-up-jobs-prices-and-job-posting-groups"></a>Konfigurere prosjekter, priser og prosjektbokføringsgrupper
 
@@ -67,7 +67,6 @@ Tabellen nedenfor viser hvordan opplysningene i de valgfrie feltene vil bli bruk
 |**Prosjektvarer**|Feltene **Prosjektoppgavenr.**, **Valutakode** og **Linjerabatt-%**. Verdien i feltet **Salgspris** for varen blir brukt på prosjektplanleggingslinjene og i prosjektkladder når du angir denne varen. Merk at denne prisen overstyrer alltid den vanlige kundeprisen (funksjonen for "beste pris") for varer. Hvis du vil bruke de vanlige kundeprismekanismene, må du ikke opprette prosjektvarepriser for prosjektet.|
 |**Finanskonti**|Informasjonen i feltene **Prosjektoppgavenr.**, **Arbeidstype**, **Valutakode**, **Linjerabatt-%** og **Enhetskost** blir brukt på prosjektplanleggingslinjene og i prosjektkladdene når denne finanskontoen angis og legges til i et prosjekt. Verdien i feltet **Salgspris** for finansprosjektutgiften blir brukt på prosjektplanleggingslinjene og i prosjektkladder når denne finanskontoen angis.|
 
----
 #### <a name="new-experience"></a>[Ny opplevelse](#tab/new-experience)
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
 2. Velg det aktuelle prosjektet, og velg deretter handlingen **Salgsprislister**.
@@ -109,7 +108,7 @@ Ett aspekt ved prosjektplanlegging er å bestemme hvilke bokføringskontoer som 
 [Finans](finance.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

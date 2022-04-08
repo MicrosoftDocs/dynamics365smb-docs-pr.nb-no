@@ -11,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5150, 5142, 5140, 5141, 5144, 5091, 5143, 5093, 5092
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: c107a9ae74343663eea6a97fb0360852b49ecd05
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ff214627aa1486d818d02e632e6b0be293313f6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130287"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519651"
 ---
 # <a name="managing-segments"></a>Håndtere segmenter
 Du oppretter segmenter for å velge en gruppe med kontakter i henhold til bestemte kriterier. Et segment kan for eksempel være bransjen der kontaktene hører til, eller forretningsforholdet ditt med kontaktene. Du kan opprette et segment for å velge kontaktene du vil rette deg inn mot med en kampanje.
@@ -37,7 +37,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 ## <a name="see-also"></a>Se også
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Administrere kontakter](marketing-contacts.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: item, finished good, component, raw material, assembly item,
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: a2d64fe3a04109246540a463597dbf49684b8913
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 83ebbe21771c8836e6998747733b82f5e4999c83
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148593"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522043"
 ---
 # <a name="register-new-items"></a>Registrere nye varer
 
@@ -133,7 +133,7 @@ Hvis du vil ha eksempler på hvordan du kan bruke feltene på hurtigfanen **Plan
 [Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)  
 [Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md)  
 [Designdetaljer: Planleggingsparametere](design-details-planning-parameters.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

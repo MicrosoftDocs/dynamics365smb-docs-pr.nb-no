@@ -8,17 +8,19 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: incoming document
 ms.search.form: 600, 605, 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611
-ms.date: 04/01/2021
+ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: d0f52d1debe40eb57ac0deb914d0e6bc32f0a5a1
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 868f07b2b56ccaefb4c56e26be72c27b941d950c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366378"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522121"
 ---
 # <a name="manage-the-intercompany-inbox-and-outbox"></a>Administrere den konserninterne innboksen og utboksen
 Alle de konserninterne transaksjonene du mottar elektronisk fra de konserninterne partnerne, er oppført i den konserninterne innboksen.  
+
+Avhengig av hvordan det konserninterne selskapet er definert for selskapet, blir imidlertid enkelte transaksjoner automatisk replikert til de relevante konserninterne partnerne. Fra lanseringsbølge 1 for 2022 kan du definere selskapet for automatisk oppretting av mottatte konserninterne transaksjoner fra konserninterne partnere, bokført gjennom den konserninterne finanskladden. Hvis du vil ha mer informasjon, kan du se [Slik fyller du ut og bokfører en konsernintern kladd](intercompany-how-work-documents-journals.md#to-fill-in-and-post-an-intercompany-journal).  
 
 ## <a name="organizing-the-inbox"></a>Ordre innboksen  
  Du kan bruke filterfeltene øverst på innbokssiden til å bestemme hvilke transaksjoner som skal vises på siden. Hvis du for eksempel bare vil se på transaksjoner som en bestemt partner har opprettet, kan du angi filtre i filtrene for **transaksjonskilde** og **kode for konsernintern partner**.  
@@ -51,14 +53,16 @@ Du kan bruke feltet **Vis transaksjonskilde** til å filtrere siden **Konsernint
  > Hvis de konserninterne partnerne er i samme database, overføres transaksjoner uten å måtte filen eller e-post. Se feltet **Overføringstype** på siden **Konsernintern partner**. <br /><br />
 I så fall kan du konfigurere systemet til å hoppe over innboksen og utboksen ved å merke av for henholdsvis **Godta transaksjoner automatisk** på siden **Konsernintern partner** og **Send transaksjoner automatisk** på siden **Konserninternt oppsett**. Inngående konserninterne transaksjoner kan bare godtas automatisk hvis oppgaveplanlegging er aktivert. Hvis du vil ha mer informasjon, kan du se [Konfigurere Business Central Server – Oppgaveplanleggingsinnstillinger](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Task).
 
-## <a name="to-import-intercompany-transactions-from-a-file"></a>Slik importerer du konserninterne transaksjoner fra en fil  
+## <a name="to-import-intercompany-transactions-from-a-file"></a>Slik importerer du konserninterne transaksjoner fra en fil
+
+[!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
+
 Hvis du har en konsernintern partner som ikke er i samme database som selskapet ditt, kan du motta konserninterne transaksjoner fra partneren i en XML-fil. Deretter må du importere transaksjonene til innboksen.  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.
-2. Lagre filen på lokasjonen du har angitt i feltet **Detaljer om konsernintern innboks** på siden **Selskapsopplysninger**.  
-3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konserninterne inngående transaksjoner**, og velg deretter den relaterte koblingen.
-4. På siden **Konserninterne inngående transaksjoner** velger du **Importer transaksjonsfil**.  
-5. På siden som vises, velger du XML-filen som inneholder transaksjonene, og deretter velger du **Åpne**-knappen.  
+1. Lagre filen på lokasjonen du har angitt i feltet **Detaljer om konsernintern innboks** når du konfigurerer konserninternt selskap.  
+2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konserninterne inngående transaksjoner**, og velg deretter den relaterte koblingen.
+3. På siden **Konserninterne inngående transaksjoner** velger du **Importer transaksjonsfil**.  
+4. På siden som vises, velger du XML-filen som inneholder transaksjonene, og deretter velger du **Åpne**-knappen.  
 
 Transaksjonene importeres til innboksen, og du kan nå behandle dem.
 
@@ -101,8 +105,8 @@ Følgende fremgangsmåte beskriver hvordan du oppretter innbokstransaksjoner på
 [Behandle konserninterne transaksjoner](intercompany-manage.md)  
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
-[Arbeide med finanskladder](ui-work-general-journals.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med finanskladder](ui-work-general-journals.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

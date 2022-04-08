@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.form: 1393, 1394
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2ce238ea11f7bbe04639de64e6529ebe8c6ff2e9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: af522d05f007959552f59922c52e2526a1a7e2b1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139030"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517716"
 ---
-# <a name="using-pre-closing-reports"></a>Bruke forhåndslukking av rapporter
+# <a name="use-pre-closing-reports"></a>Bruk forhåndslukking av rapporter
 
 Det finnes mange standardrapporter du kan bruke til å bekrefte nøyaktigheten av kontiene før du lukker tablåene ved utgangen av et år eller en periode. Du kan for eksempel bruke rapporten **Kunde – saldoliste** til å bekrefte at saldoen for en bokføringsgruppe for kunde er lik saldoen på den tilsvarende finanskontoen på en bestemt dato.
 
@@ -39,7 +39,7 @@ Hvis du vil se en rapport, velger du ikonet ![Lyspære som åpner funksjonen For
 ## <a name="see-also"></a>Se også
 
 [Avslutte år og perioder](year-close-years-periods.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 

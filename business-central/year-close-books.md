@@ -10,12 +10,12 @@ ms.search.keywords: year closing, close accounting period, close fiscal year, ba
 m.search.form: 100
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 242868f88883c6e62a9b43ca949289deb0cdf2fe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2c959f3c3c0aad3a44ea2ebfa60aed395720f562
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142753"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511895"
 ---
 # <a name="closing-the-books"></a>Lukke tablåene
 Når du har kontrollert at alle kontiene er oppdatert og har fordelt kost og inntekt, kan du lukke tablåene for et regnskapsår eller en periode.
@@ -54,7 +54,7 @@ Du kan bokføre i et tidligere regnskapsår, selv etter at resultatkontoene er a
 ## <a name="see-also"></a>Se også
 
 [Arbeide med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

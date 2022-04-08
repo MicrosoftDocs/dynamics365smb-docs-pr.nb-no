@@ -10,12 +10,12 @@ ms.search.keywords: reconcile
 ms.search.form: 377, 378, 165, 1284
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: a533a49e3a34d33242d556758ebe5cb68165c0bb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 2903e6d8564a48464c1ae5ce493270f3b46781a1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139966"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516372"
 ---
 # <a name="manage-and-reconcile-your-bank-accounts"></a>Administrer og avstem bankkontiene
 
@@ -48,7 +48,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 [Overføre bankkapital](bank-how-transfer-bank-funds.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
 
 

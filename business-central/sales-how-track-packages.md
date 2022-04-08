@@ -7,12 +7,12 @@ ms.search.keywords: rfq
 ms.search.form: 142, 800, 806
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b5a819c1aeea44b39f7c8497420e08af3c0ae2ab
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 8124aa575b7cc1883ce4509834583651c6746b2b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334489"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518942"
 ---
 # <a name="track-packages"></a>Spore pakker
 De fleste transportører har en nettjeneste der du kan spore status for pakkene mens de er i rute. Disse opplysningene kan være nyttige i mange forretningsprosesser, for eksempel når du gir kundeservice. Hvis du bruker en eller flere slike transportør, kan du angi noe grunnleggende informasjon om dem, og deretter bruke pakkesporingstjenesten direkte fra sidene Bokførte salgsforsendelser, Bokførte salgsfakturaer, Bokførte salgskreditnotaer og Bokført returseddel. Hvis du vil ha mer informasjon, kan du se [Definere transportører](sales-how-to-set-up-shipping-agents.md). 
@@ -36,7 +36,7 @@ Følgende fremgangsmåte viser hvordan du sporer en pakke fra en bokført følge
 [Salg](sales-manage-sales.md)  
 [Sette opp salg](sales-setup-sales.md)  
 [Send dokumenter i e-post](ui-how-send-documents-email.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

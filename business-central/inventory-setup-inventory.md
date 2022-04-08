@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.form: 30, 461
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4e5c1ef77c9053bb47ab3f800b3524bf24b6a7be
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 90d0a563fa9be14bcc2aaa5a3dceb4d05bcff840
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148463"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512943"
 ---
 # <a name="setting-up-inventory"></a>Definere lager
 Før du kan håndtere lageraktiviteter og beholdning og kostberegning, må du konfigurere regler og verdier som definerer selskapets beholdningspolicyer.
@@ -45,7 +45,7 @@ Når du har definert beholdningen, kan du administrere forskjellige prosesser re
 [Håndtere lager](inventory-manage-inventory.md)  
 [Håndtere kjøp](purchasing-manage-purchasing.md)  
 [Håndtere salg](sales-manage-sales.md)    
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
 
 

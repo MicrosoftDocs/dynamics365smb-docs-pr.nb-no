@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3b7251b17796994eeb74bd6ce9823b65782012eb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d9460bb8a972f3cd9ab812b14ef7f5a9e89f8ef4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134333"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523175"
 ---
 # <a name="manage-many-incoming-document-records"></a>Håndtere mange inngående dokumentposter
 Når du oppretter eller behandle inngående dokumentposter, kan antall linjer på siden **Inngående dokumenter** øke så mye at du mister oversikten. Derfor kan du sette inngående dokumentposter til Behandlet for å fjerne dem fra standardvisningen. Når du velger handlingen **Vis alle**, kan du vise både behandlede og ubehandlede poster.
@@ -55,7 +55,7 @@ Alle inngående dokumentposter vises, inkludert dem som det ikke er merket av fo
 [Behandle inngående dokumenter](across-process-income-documents.md)  
 [Inngående dokumenter](across-income-documents.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

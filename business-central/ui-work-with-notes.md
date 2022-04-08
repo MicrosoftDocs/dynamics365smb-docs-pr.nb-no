@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ROBOTS: NOINDEX,NOFOLLOW
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a641c8e411b14df7097299b696d74fc56f68bd92
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: dde082a69ff9074dc0afd86e6b4e71f0d68d5cbd
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129555"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511947"
 ---
 # <a name="add-and-view-notes-on-records"></a>Legge til og vise merknader i poster
  Du <!--OnPrem and your colleagues -->kan legge til merknader i poster i programmet. Mange sider, spesielt de som viser en oversikt over poster som **Ordrer**-siden, inkluderer **Merknader**-handlingen eller **Merknader**-faktaboksen. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
@@ -47,7 +47,7 @@ ms.locfileid: "8129555"
 <!--OnPrem
 3.  Choose the **OK** button.  -->
 ## <a name="see-also"></a>Se også
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

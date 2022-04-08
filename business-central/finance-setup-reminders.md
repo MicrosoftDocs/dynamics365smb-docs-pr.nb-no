@@ -10,12 +10,12 @@ ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
 ms.search.form: 431, 432, 436, 478
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: 81c86841bd4000cab881e06783fd521ae18d1cbf
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9456123c29b26c964acf974163ca31daa1e1b7c1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132839"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523374"
 ---
 # <a name="set-up-reminder-terms-and-levels"></a>Definer betingelser og grader for purringer
 
@@ -94,7 +94,7 @@ Hvis du oppretter flere purringer enn du har definert grader for, brukes betinge
     Hvis du for eksempel skriver **Du skylder %9 %7, som forfaller den %2.**, vil den resulterende påminnelsen inneholde følgende tekst: **Du skylder 1 200,50 LV, som forfaller 02-02-2014.**
 
     > [!NOTE]
-    > Forfallsdatoen beregnes i henhold til datoformelen som du angir. Hvis du vil ha mer informasjon, kan du se [Bruke datoformler](ui-enter-date-ranges.md#using-date-formulas).
+    > Forfallsdatoen beregnes i henhold til datoformelen som du angir. Hvis du vil ha mer informasjon, kan du se [Bruk datoformler](ui-enter-date-ranges.md#use-date-formulas).
 
 Når du har definert purrebetingelsene (med tilleggsgrader og tekst), registrerer du én av kodene på hvert kundekort. Hvis du vil ha mer informasjon, kan du se [Registrere nye kunder](sales-how-register-new-customers.md).  
 

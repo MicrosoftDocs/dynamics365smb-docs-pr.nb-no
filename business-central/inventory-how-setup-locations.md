@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0a2d5234a78daf6243591cc478ab7b19957a196a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130345"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515514"
 ---
 # <a name="set-up-locations"></a>Definer lokasjoner
 
@@ -75,6 +75,9 @@ Hvis du vil strukturere hyllene under soner, kan du gjøre det på siden **Soner
 
 Du kan også velge å definere bare en sone og organisere lageret bare ut fra hyllene. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).  
 
+## <a name="default-dimensions-for-locations"></a>Standarddimensjoner for lokasjoner
+Du angir standarddimensjoner for en lokasjon på siden **Lokasjonskort** ved å velge **Lokasjon** og deretter **Dimensjoner**. Lokasjonens standarddimensjoner kopieres til kladder og dokumenter når du angir lokasjonen på en linje, men du kan slette eller endre dimensjonen på linjen hvis det er nødvendig. Du kan kreve at brukerne angir dimensjoner for bestemte lokasjoner før de kan bokføre en post. Du kan også inkludere lokasjonsdimensjonsverdier i **Standard dimensjonsprioriteter** og **Dimensjonskombinasjoner** for kombinasjoner av prioritets- og dimensjonsregler.
+
 ## <a name="see-also"></a>Se også
 
 [Håndtere lager](inventory-manage-inventory.md)  
@@ -82,7 +85,7 @@ Du kan også velge å definere bare en sone og organisere lageret bare ut fra hy
 [Opprette hyller](warehouse-how-to-create-individual-bins.md)  
 [Definere hylletyper](warehouse-how-to-set-up-bin-types.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
 

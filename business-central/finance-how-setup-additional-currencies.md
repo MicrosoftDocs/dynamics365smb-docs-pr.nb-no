@@ -10,12 +10,12 @@ ms.search.keywords: multiple currencies, foreign exchange rates
 ms.search.form: 5, 16,118, 483, 495
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 3df39a6054a73fb44c18c4893a253bfcd358f318
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 43933346f68fef474dc1f68c7eadbe295732bad8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132917"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515040"
 ---
 # <a name="set-up-an-additional-reporting-currency"></a>Definere en tilleggsrapporteringsvaluta
 
@@ -136,7 +136,7 @@ I tillegg vil alle fremtidige poster av samme type få beløpene registrert i b�
 
 [Oppdatere valutakurser](finance-how-update-currencies.md)  
 [Avslutte år og perioder](year-close-years-periods.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

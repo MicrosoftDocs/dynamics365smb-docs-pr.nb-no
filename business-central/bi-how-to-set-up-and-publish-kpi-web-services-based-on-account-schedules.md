@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: b02b8fe9aeee685f65cf82ad66c9492d241c6711
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: d8d3e9b37abe5e8d24e1d01eacfdff96df94da45
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381289"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514098"
 ---
 # <a name="set-up-and-publish-kpi-web-services-based-on-account-schedules"></a>Konfigurere og publisere KPI-webtjenester basert på kontoskjemaer
 På siden **Oppsett av KPI-webtjeneste for kontoskjema** definerer du hvordan du vil vise kontoskjemaets KPI-data og hvilke bestemte kontoplaner KPI-ene skal baseres på. Når du velger **Publiser webtjeneste**, legges kontoskjemaets angitte KPI-data til i listen over publiserte webtjenester i vinduet over publiserte webtjenester på siden **Webtjenester**.  
@@ -57,7 +57,7 @@ På siden **Oppsett av KPI-webtjeneste for kontoskjema** definerer du hvordan du
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Finans og kontoplanen](finance-general-ledger.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,5 +1,5 @@
 ---
-title: Forholdsmessig MVA
+title: Forholdsmessig mva. [NO]
 description: Forbedringer i den norske versjonen gjør det mulig for deg å beregne MVA når både fradragsberettiget og ikke-fradragsberettiget MVA forekommer.
 author: SorenGP
 ms.topic: conceptual
@@ -7,17 +7,17 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 10602, 10697, 10698, 10604, 315, 472, 473, 471, 317
+ms.search.form: 10602, 10697, 10698, 10604
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 932745da328332652ef4cd1a63663769fd698e8c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9b939bc35b1629b662300f19113b237bae9e817d
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144156"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417715"
 ---
-# <a name="proportional-vat"></a>Forholdsmessig MVA
+# <a name="proportional-vat-in-norway"></a>Forholdsmessig mva. i Norge
 [!INCLUDE[prod_short](../../includes/prod_short.md)] gjør det mulig for deg å beregne MVA når både fradragsberettiget og ikke-fradragsberettiget MVA forekommer. Siden det er vanskelig å vite hvor og hvordan varen blir brukt, må du ta kontakt med norske skattemyndigheter for å finne ut om en angitt prosentandel MVA kan gå til fradrag basert på historiske data.  
 
 ## <a name="example"></a>Eksempel  

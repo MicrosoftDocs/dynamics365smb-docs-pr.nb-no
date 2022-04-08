@@ -10,12 +10,12 @@ ms.search.keywords: non-inventoriable
 ms.search.forms: 5725, 5726, 5732
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8f8d97f10904664dc68bec6ccb85823a765a58aa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 1051b36f70eeb5d86aef04e7faf200660117232d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137890"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516164"
 ---
 # <a name="work-with-catalog-items"></a>Arbeide med katalogvarer
 Du kan tilby bestemte varer til kundene for å gjøre det mer bekvemmelig for dem, som du ikke vil administrere i systemet før du begynner å selge dem. Når du vil begynne å administrere slike varer i systemet, kan du konvertere dem til vanlige varekort på to måter.
@@ -71,7 +71,7 @@ Du kan deretter fylle ut eller redigere felt på det nye varekortet etter behov.
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Opprette spesialbestillinger](sales-how-to-create-special-orders.md)|  
 [Lager](inventory-manage-inventory.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

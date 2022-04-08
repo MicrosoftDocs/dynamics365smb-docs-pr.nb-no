@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting, substitute items
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: ab94626b300a1f022b95770fe8e83fd8d80c9885
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 9860ebc2ce7260f450dbda928ee6339c0560e0a7
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381515"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521127"
 ---
 # <a name="sell-items-assembled-to-order"></a>Selge varer som er montert til ordre
 Hvis **Monteringsprinsipp**-feltet på varekortet for en monteringsvare er **Monter til ordre**, forventes varen ikke å være på lager, og den må monteres spesifikt for en ordre. Når du angir varen på en ordrelinje, blir en monteringsordre automatisk opprettet og koblet til ordren.  
@@ -62,10 +62,10 @@ I denne fremgangsmåten behandler du salget av en vare som skal monteres i henho
 
 ## <a name="see-also"></a>Se også  
 [Monteringsstyring](assembly-assemble-items.md)  
-[Arbeide med stykklister](inventory-how-work-BOMs.md)  
+[Arbeid med stykklister](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Registrere nye varer](inventory-how-register-new-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

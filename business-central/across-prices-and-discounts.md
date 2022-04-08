@@ -10,12 +10,12 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3a6d6b680ebfb89c376872d2dcd5cb6fb535d4a3
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: c4ea2854ccc287b95c42bf942389d4dbfb2fd2e3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383298"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523608"
 ---
 # <a name="set-up-prices-and-discounts"></a>Konfigurer priser og rabatter
 > [!NOTE]
@@ -99,7 +99,7 @@ Denne fremgangsmåten varierer avhengig av om systemansvarlig har aktivert funks
 
 ---
 
-## <a name="working-with-invoice-discounts-and-service-charges"></a>Arbeide med fakturarabatter og servicegebyrer
+## <a name="work-with-invoice-discounts-and-service-charges"></a>Arbeid med fakturarabatter og servicegebyrer
 Når du bruker fakturarabatter, er det størrelsen på fakturabeløpet som fastsetter størrelsen på rabatten som gis. På siden **Fakturarabatter** kan du også legge til et gebyr i fakturaer som overstiger et bestemt beløp.  <!--The Invoice Discounts page is hard to find.-->
 
 Før du kan bruke fakturarabatter i forbindelse med salg, må du angi bestemte opplysninger i programmet. Du må bestemme hvilke kunder som skal få denne typen rabatt, og hvilke rabattprosenter du vil bruke.  
@@ -198,4 +198,4 @@ Når du har registrert spesielle priser og linjerabatter for salg og innkjøp, s
 ## <a name="see-also"></a>Se også
 [Sette opp salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)

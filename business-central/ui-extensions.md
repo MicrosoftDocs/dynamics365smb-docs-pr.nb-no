@@ -1,29 +1,30 @@
 ---
-title: Installere utvidelser for å tilpasse Business Central
+title: Tilpasse Business Central Online med utvidelser
 description: Finn ut alt hvordan du legger til funksjoner og tilpasser Business Central ved å installere utvidelser her.
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: app, add-in, manifest, customize
-ms.date: 08/25/2021
+ms.search.form: 2500, 2502
+ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: 7839c4364f299619707b0a346b9b5d0db07e627b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 56c564274e396d9699286b18d882c2a21f8721ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132423"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510690"
 ---
 # <a name="customizing-business-central-online-using-extensions"></a>Tilpasse Business Central Online med utvidelser
 
 Du kan endre [!INCLUDE[prod_short](includes/prod_short.md)] Online ved å installere utvidelser som for eksempel legger til funksjonalitet, endrer virkemåte eller gir deg tilgang til nye elektroniske tjenester.
 
 > [!NOTE]
-> Du må ha de rette tillatelsene for å installere eller avinstallere utvidelser fra AppSource eller legge til utvidelser per leietaker. Du må enten være et medlem av ADMINISTRASJON AV UTVIDELSE - ADMINISTRATOR-brukergruppen, eller du må ha UTVIDELSE UTVIDELSE - ADMINISTRATOR-tillatelsessettet. Hvis du er administrator, kan du tilordne brukergrupper og -tillatelser til andre brukere i selskapet.
+> Du må ha de rette tillatelsene for å installere eller avinstallere utvidelser fra AppSource eller legge til utvidelser per leietaker. Du må enten være medlem av **Adm. av D365-utv.**-brukergruppen eller ha tillatelsessettet **ADMINISTRASJON AV UTVIDELSE – ADMINISTRATOR** eksplisitt. Hvis du er administrator, kan du tilordne brukergrupper og -tillatelser til andre brukere i selskapet. Hvis du vil ha mer informasjon, se [Opprette brukere i henhold til lisenser](ui-how-users-permissions.md).  
 >
 > Hvis du vil bruke funksjonaliteten fra en utvidelse, for eksempel åpne sider, kjøre rapporter, velge handlinger og så videre, må du være tilordnet tillatelsessettene som er installert som en del av utvidelsen.
 
-> [!NOTE]  
-> Tillatelsessettet **ADMINISTRASJON AV UTVIDELSE – ADMINISTRATOR** ble introdusert i lanseringsbølge 1 for Business Central 2021 som erstatning for tillatelsessettet **ADMINISTRASJON AV D365-UTVIDELSE** angitt i tidligere versjoner.
+<!-- [!NOTE]  
+> The **EXTEN. MGT. - ADMIN** permission set was introduced in 2021 release wave 1 as a replacement for the **D365 EXTENSION MGT** permission set in earlier versions.-->
 
 > [!IMPORTANT]  
 > Det er ikke støtte for opplasting av per leier-utvidelser og installasjon av AppSource-utvidelser fra **Administrasjon av utvidelse**-siden for lokale installasjoner. Du kan ikke installere AppSource-utvidelser lokalt, inkludert i Docker-baserte distribusjoner.
@@ -84,6 +85,7 @@ Microsoft-partnere og -forhandlere kan opprette en utvidelse som de kan bruke ti
 
 ## <a name="see-also"></a>Se også
 
+[Installer og avinstaller utvidelser](ui-extensions-install-uninstall.md)  
 [Tilpasse Business Central](ui-customizing-overview.md)  
 [Business Central-utvidelser fra andre leverandører](ui-extensions-other.md)  
 [Konfigurere Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md)  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: fe612bb6366647ca031b38122de30fc96cc66853
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3e04e348c55fa487f8a7776c0f197210c3cacb49
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130465"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519755"
 ---
 # <a name="get-business-central-desktop-app"></a>Hent Business Central-skrivebordsappen
 
@@ -78,7 +78,7 @@ Forskjellen er når du har flere leietakere. I motsetning til [!INCLUDE[prod_sho
 
 [Vanlige spørsmål om mobilapper](ui-mobile-faq.yml)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -6,17 +6,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 48efb839720832ffdcfdb390aed64108c032704b
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 0f5910932e0a6bccaf31629fc182e5c451ec9f43
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323061"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516513"
 ---
-# <a name="working-with-prod_short"></a>Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-prod_short"></a>Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Når du utfører forretningsoppgaver, arbeider du interaktivt med data på forskjellige måter, for eksempel for å opprette poster og skrive inn data, sortere og filtrere data, skrive merknader og skrive data til andre programmer.
 
@@ -43,7 +43,7 @@ Tabellen nedenfor inneholder noen av de generelle funksjonene med koblinger til 
 | Filtrere data i visninger, rapporter og funksjoner ved å bruke spesielle symboler og tegn. |[Sortere, søke etter og filtrere oversikter](ui-enter-criteria-filters.md) |
 |Lær de mange generelle funksjonene som du kan bruke til å skrive inn data raskt og enkelt.|[Skrive inn data](ui-enter-data.md)|
 |Lær hvordan du raskt kopierer og limer inn dataene inkludert ved hjelp av tastatursnarveier.|[Vanlige spørsmål for Kopiere og lime inn](faq-copy-paste.yml)|
-| Vise eller prosessen data i et bestemt tidsrom. |[Arbeide med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md) |
+| Vise eller prosessen data i et bestemt tidsrom. |[Arbeid med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md) |
 | Se hvilke felt som må fylles ut. |[Registrere obligatoriske felt](ui-mandatory-fields.md) |
 |Forstå hvordan datamaskinens regionale innstillinger påvirker brukergrensesnittet og hvordan du kan endre språket.|[Endre språk og nasjonal innstilling](about-locale-language.md)|
 |Lær hvordan du samhandler med Excel fra nesten hvor som helst i [!INCLUDE[prod_short](includes/prod_short.md)]|[Vise og redigere i Excel](across-work-with-excel.md)|
@@ -51,7 +51,7 @@ Tabellen nedenfor inneholder noen av de generelle funksjonene med koblinger til 
 | Endre grunnleggende innstillinger, for eksempel firma, arbeidsdato eller rollesenter. |[Endre grunnleggende innstillinger](ui-change-basic-settings.md) |
 |Bli varslet om bestemte hendelser eller endringer i statusen, for eksempel når du skal fakturere en kunde som har en forfalt saldo.|[Behandle varsler](ui-smart-notifications.md)|
 | Endre hvilke og hvor grensesnittelementer skal vises for å etterkomme dine behov.|[Tilpasse arbeidsområdet](ui-personalization-user.md) |
-|Definer, forhåndsvis, skriv ut eller lagre rapporter, og definer og utfør kjørsler.|[Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)|
+|Definer, forhåndsvis, skriv ut eller lagre rapporter, og definer og utfør kjørsler.|[Arbeid med rapporter, satsvise jobber og XMLport-er](ui-work-report.md)|
 | Administrere innhold og format av rapporter og dokumenter, blant annet hvilke datafelt i et rapportdatasett som skal vises i rapporten, hvordan de er ordnet, samt tekststil, bilder og mer.|[Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md) |
 |Lære om funksjoner som gjør [!INCLUDE[prod_short](includes/prod_short.md)] lett tilgjengelig for personer med funksjonshemminger.|[Tilgjengelighet og hurtigtaster](ui-accessibility.md)|
 

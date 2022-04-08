@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff, resource, time sheets
 ms.search.form: 950, 951, 973
 ms.date: 03/01/2022
 ms.author: edupont
-ms.openlocfilehash: f19e37752385d276683d4ce924883629cb7d086c
-ms.sourcegitcommit: 865b390b5571b08084bde93b539ec9898e201933
+ms.openlocfilehash: 1ed54a63f3747d9ea5a1010206f4faac74fa90b0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/02/2022
-ms.locfileid: "8372135"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510858"
 ---
 # <a name="use-time-sheets"></a>Bruk timelister
 
@@ -224,7 +224,7 @@ Når du har bokført timelister, kan du arkivere dem for fremtidig referanse. Al
 [Finans](finance.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 02d3f8dca5381ecebac7cb2d980841a2e5897846
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 190a3925cfc692331e21e3cd2a2b41c68cc02d6f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138157"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511418"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Plassere varer med lagerplasseringer
 Hvis lokasjonen er definert for å kreve lagerplasseringsbehandling, men ikke mottaksbehandling, bruker du dokumentet **Lagerplassering** til å registrere og bokføre plasserings- og mottaksopplysninger for kildedokumentet. Det inngående kildedokument kan være en bestilling, en ordreretur, en inngående overføringsordre eller en monterings- eller produksjonsordre med avgang som er klar til å plasseres.  
@@ -75,8 +75,8 @@ Bokføringsprosessen bokfører mottaket, eller avgang for produksjonsordrer, av 
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

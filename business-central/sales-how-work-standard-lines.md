@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 6039739825964ce059a4f76d1e92f32b581c60a7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fe6f144b8513f651293f56e10ecf3020c1d0760
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144752"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517742"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Opprette gjentakende salgs- og kjøpslinjer
 Hvis du ofte må opprette salgs- og kjøpslinjer med lignende informasjon, kan du definere standardlinjer du deretter kan sette inn på gjentakende salgs- og kjøpsdokumenter, for eksempel for gjentakende etterfyllingsordrer.  
@@ -78,7 +78,7 @@ Salgsfakturaer blir opprettet for kunder med angitt standard kundesalgskode og e
 ## <a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

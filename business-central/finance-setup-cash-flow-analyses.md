@@ -10,12 +10,12 @@ ms.search.keywords: money flow, expense and income, liquidity, cash receipts min
 ms.search.form: 846, 847, 849, 851, 855, 862, 869, 1818
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 21a9fb4f38b6960389ec216e638cf06694eca07a
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a79299d835b7a5af06edf16119f037cdaf610311
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381409"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515618"
 ---
 # <a name="setting-up-cash-flow-analysis"></a>Definere kontantstrømanalyse
 Hvis du vil ha hjelp til å avgjøre hva du skal gjøre med din kontanter, kan du ta en titt på diagrammene i rollesenteret regnskapsfører:  
@@ -128,9 +128,9 @@ Du kan også opprette din egen prediktive webtjeneste basert på en felles model
 
 ## <a name="see-also"></a>Se også
 
-[Analysere kontantstrømmen i firmaet](finance-analyze-cash-flow.md)  
+[Analyser kontantstrømmen i firmaet](finance-analyze-cash-flow.md)  
 [Konfigurere finans](finance-setup-finance.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

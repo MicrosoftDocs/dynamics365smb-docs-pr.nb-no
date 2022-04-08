@@ -11,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5082,
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 464940f091356f1a0eaa0b160e2850aded545487
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ea1460810e24d2e78a7d4791aaaaf8a09a4c056c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131382"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517950"
 ---
 # <a name="record-interactions-with-contacts"></a>Registrere samhandlinger med kontakter
 Konfigurasjon av programmet til å registrere samhandlinger består av disse oppgavene:
@@ -54,7 +54,7 @@ Du kan slette samhandlingsposter som er annullert. Hvis du vil slette samhandlin
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
-[Arbeide med Business Central](ui-work-product.md)  
+[Arbeid med Business Central](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

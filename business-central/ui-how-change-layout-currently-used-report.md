@@ -1,23 +1,25 @@
 ---
 title: Endre utseendet på en rapport ved å velge et annet oppsett
 description: Du kan bruke ulike oppsett for en rapport og bytte mellom oppsett for å endre utseendet på den.
-author: SorenGP
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: c02f1e2083ef47d5aeee5831b042128c065c411f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 03/07/2022
+ms.author: jswymer
+ms.openlocfilehash: af90fd2361a42c06f8af360119bb391efb184de5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144648"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515306"
 ---
-# <a name="change-the-current-report-layout"></a>Endre gjeldende rapportoppsett
+# <a name="legacy-set-the-layout-used-by-a-report"></a>(Eldre) Definer oppsettet som brukes av en rapport
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 En rapport kan defineres med flere rapportoppsett, som du deretter kan bytte mellom etter behov.
 
@@ -30,9 +32,13 @@ Når egendefinerte rapportoppsett er definert, kan du velge dem fra kunde- og le
 
 ## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Slik endrer du hvilket rapportoppsett som skal brukes i en rapport eller et dokument
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
-   Siden **Rapportoppsettsvalg** viser alle rapportene som er tilgjengelige for selskapet som er angitt i feltet **Selskap** øverst på siden. Feltet **Valgt oppsett** angir oppsettet som brukes i rapporten for øyeblikket.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.
+  
+   Siden **Rapportoppsettsvalg** viser alle rapportene som er tilgjengelige for selskapet som er angitt i feltet **Selskap** øverst på siden. **Beskrivelse av oppsettet** <!-- **Selected Layout** -->-feltet angir rapportoppsettet som brukes i rapporten for øyeblikket.
 2. Sett feltet **Selskap** øverst på siden til selskapet som inkluderer rapporten.
+
+   Med dette feltet kan du angi et annet oppsett for samme rapport i ulike selskaper.
+
 3. Hvis du vil endre oppsettet som brukes av en rapport, angir du ett av følgende alternativer for feltet **Valgt oppsett** i raden for rapporten:
    * **RDLC (innebygd)**: Bruker det innebygde RDLC-rapportoppsettet i rapporten.
    * **Word (innebygd)**: Bruker det innebygde Word-rapportoppsettet i rapporten.
@@ -44,6 +50,7 @@ Når egendefinerte rapportoppsett er definert, kan du velge dem fra kunde- og le
 Hvis du valgte et innebygd RDLC- eller Word-rapportoppsett, kreves ingen ytterligere handling, og oppsettet brukes neste gang rapporten kjøres.
 
 ## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Slik endrer du det egendefinerte rapportoppsettet som skal brukes for et rapportoppsett
+
 Det kan også hende du vil endre det egendefinerte oppsettet som brukes. Hvis du vil ha mer informasjon, kan du se [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md).
 
 Alle egendefinerte rapportoppsett som finnes for rapportoppsett i et selskap, vises på siden **Egendefinerte rapportoppsett**. På siden **Rapportoppsettsvalg** kan du se hvilke egendefinerte oppsett som er tilgjengelige for hver rapporten i faktaboksen **Egendefinerte oppsett**.
@@ -59,7 +66,7 @@ Nå kan du gå til kunde- og leverandørkortene for å angi hvilke oppsett som s
 
 ## <a name="see-also"></a>Se også
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

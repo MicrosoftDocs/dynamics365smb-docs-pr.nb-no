@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4e9bd9e44a92c952fe01636b1ef724491e479cf1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f7127569153ee98aaadcbb807432d852a4f22d0d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145241"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518708"
 ---
 # <a name="walkthrough-planning-supplies-manually"></a>Gjennomgang: planlegge forsyninger manuelt
 
@@ -55,7 +55,7 @@ Denne gjennomgangen viser hvordan du planlegger forsyningsordrer for å dekke ny
 ## <a name="setting-up-the-sample-data"></a>Konfigurere eksempeldataene  
  Det standard demonstrasjonsselskapet CRONUS har for tiden et stort behov som ikke er planlagt. I løpet av de ulike planleggingsoppgavene i denne gjennomgangen må du avvike fra den realistiske forretningsflyten ved å ignorere behov med nære forfallsdatoer og i stedet bruke behov med senere forfall.  
 
-## <a name="using-the-order-planning-page"></a>Bruke siden Ordreplanlegging  
+## <a name="use-the-order-planning-page"></a>Bruk siden Ordreplanlegging  
 
 Du får tilgang til **Ordreplanlegging**-siden fra flere ulike steder:  
 

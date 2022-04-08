@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d429b5acce6520b86a1272620379265fb01b1462
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 038494ebd8442c20239bc2426754389117ed95c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147271"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521335"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Opprette arbeidsflyter fra arbeidsflytmaler
 For å spare tid når du oppretter nye arbeidsflyter, kan du opprette arbeidsflyter fra arbeidsflytmaler.  
@@ -40,9 +40,9 @@ På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involv
  [Importere og eksportere arbeidsflyter](across-how-to-export-and-import-workflows.md)   
  [Vise arkiverte forekomster av arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md)   
  [Slette arbeidsflyter](across-how-to-delete-workflows.md)   
- [Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Gjennomgang: Definer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Konfigurere arbeidsflyter](across-set-up-workflows.md)   
- [Bruke arbeidsflyter](across-use-workflows.md)   
+ [Bruk arbeidsflyter](across-use-workflows.md)   
  [Arbeidsflyt](across-workflow.md)   
 
 

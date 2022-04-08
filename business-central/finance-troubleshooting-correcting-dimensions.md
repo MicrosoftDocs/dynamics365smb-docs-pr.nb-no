@@ -10,12 +10,12 @@ ms.search.keywords: dimension, correction, correct, business intelligence
 ms.search.form: 116, 540, 2588
 ms.date: 09/27/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1a5647045e3b7aff1b709096b8b856485ce762e9
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 497daecd0834b2651e52131df809d12d45b18d48
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381726"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519124"
 ---
 # <a name="troubleshooting-and-correcting-dimensions"></a>Feilsøke og korrigere dimensjoner
 
@@ -103,7 +103,7 @@ Hvis handlingen Angre ikke er tilgjengelig, for eksempel fordi du har foretatt m
 
 Vær forsiktig når du korrigerer store sett med poster, for eksempel sett som inkluderer mer enn 10 000 poster. Hvis du kan, anbefales det at du bruker filtrene til å kjøre korrigeringene på mindre datasett. Det kan også være lurt å kjøre korrigeringer utenfor normal arbeidstid. 
 
-### <a name="using-analysis-views-with-dimension-corrections"></a>Bruke analysevisninger med dimensjonskorrigeringer
+### <a name="use-analysis-views-with-dimension-corrections"></a>Bruk analysevisninger med dimensjonskorrigeringer
 
 Hvis **Oppdatering ved bokføring** er aktivert for en analysevisning, kan [!INCLUDE[prod_short](includes/prod_short.md)] vise visningen når dokumenter og kladder bokføres. Du kan også oppdatere visninger med denne innstillingen aktivert med resultater for dimensjonskorrigeringer. Dette gjør du ved å aktivere **Oppdater analysevisninger**. Når du oppdaterer analysevisninger, kan det påvirke ytelsen, spesielt for store datasett, så det anbefales at du oppdaterer analysevisninger bare for små datasett.  
 
@@ -118,7 +118,7 @@ Hvis en korrigering ikke blir fullført, vises det en advarsel på korrigeringsk
 > [!NOTE]
 > Tilbakestilling av en ufullstendig korrigering påvirker ikke oppdateringer for analysevisninger, ettersom de skjer på slutten av korrigeringsprosessen.
 
-### <a name="using-cost-accounting-with-corrected-gl-entries"></a>Bruke kostnadsregnskap med korrigerte finansposter
+### <a name="use-cost-accounting-with-corrected-gl-entries"></a>Bruk kostnadsregnskap med korrigerte finansposter
 
 Når du har korrigert dimensjoner, vil dataene for kostnadsregnskap være usynkronisert. Kostnadsregnskap bruker dimensjoner til å aggregere beløp for kostsentre og kostobjekter, og til å kjøre kostnadsfordelinger. Når du endrer dimensjoner for finansposter, betyr det sannsynligvis at du må kjøre kostnadsregnskapsmodellene på nytt. Enten du bare trenger å slette noen få kostposter og kjøre tildelinger på nytt, eller hvis du skal slette alt og kjøre alle modellene på nytt, er avhengig av hvilke data som er oppdatert og hvordan dine kostnadsregnskapsfunksjoner er definert. Du må manuelt identifisere hvor dimensjonskorrigeringer vil påvirke kostnadsregnskap og hvor nødvendige oppdateringer er nødvendig. [!INCLUDE[prod_short](includes/prod_short.md)] har for øyeblikket ikke noen automatisert måte å gjøre dette på.
 

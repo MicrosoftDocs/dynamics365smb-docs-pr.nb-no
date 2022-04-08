@@ -10,12 +10,12 @@ ms.search.keywords: supply planning, sales demand, replenish
 ms.search.form: 50, 51, 56, 9308
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f77234135fe1b7b0b3120c9b839c1873bdcb8b09
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b7fe34b7edcba01d25107ead47dc917dabde07a5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131190"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514858"
 ---
 # <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Kjøpe varer som er på salg ved å opprette kjøpsfakturaer
 
@@ -70,7 +70,7 @@ Hvis du vil opprette én kjøpsfaktura for én eller flere linjer i et salgsdoku
 [Registrere kjøp](purchasing-how-record-purchases.md)  
 [Fakturere salg](sales-how-invoice-sales.md)  
 [Registrere nye leverandører](purchasing-how-register-new-vendors.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

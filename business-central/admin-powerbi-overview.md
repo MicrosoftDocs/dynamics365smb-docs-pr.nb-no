@@ -10,12 +10,12 @@ ms.search.keywords: account schedule, analysis, reporting, financial report, bus
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b4f48182e6d4356e9621dc5a041945700f5d7599
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3469abf51165af7dcbdeb9c97e867829fe97ff22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143928"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513151"
 ---
 # <a name="power-bi-integration-component-and-architecture-overview-for-prod_short"></a>Oversikt over komponent og arkitektur for Power BI-integrering for [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -76,11 +76,11 @@ Diagrammet nedenfor viser den grunnleggende arbeidsflyten for brukere når du ko
 [Power BI-dokumentasjon](/power-bi/)  
 [Forretningsintelligens](bi.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
-[Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
+[Importer forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
-[Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
-[Ved hjelp av [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
+[Bruk [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
+[Bruk [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
+[Bruk [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 99271ea5f97bed9faca795f19a863977f8b0e6e4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8f938adf6a7629c4f9aedde32c4f8f10cb6f20e6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148099"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513396"
 ---
 # <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Gjennomgang: Plukking og levering i enkle lageroppsett
 
@@ -153,7 +153,7 @@ På siden **Lagerplukk** kan du håndtere alle utgående lageraktiviteter for et
 [Flytte varer ad hoc i enkle lageroppsett](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)  
 [Designdetaljer: Utgående lagerflyt](design-details-outbound-warehouse-flow.md)  
 [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

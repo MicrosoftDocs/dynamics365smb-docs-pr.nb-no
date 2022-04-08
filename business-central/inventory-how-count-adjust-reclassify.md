@@ -10,12 +10,12 @@ ms.search.keywords: adjustment, negative, positive, increase, decrease
 ms.search.forms: 1327, 393, 392, 390, 7381, 7380, 7319, 7324, 7326, 7365
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b25851a01a5687da3055a6b8e32becf8e6e9f018
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c683e2ff5960ce03f9c2083954c8250e2e6b39e1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131616"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518054"
 ---
 # <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder
 Minst én gang hvert regnskapsår må du utføre en vareopptelling, det vil si telle alle varer på lager, for å se om antallet som er registrert i databasen, er det samme som det faktiske antallet i lageret. Når det faktiske antallet er funnet, må det bokføres i Finans som en del av verdifastsettelsen av lageret ved periodens avslutning.
@@ -174,7 +174,7 @@ Du kan også bruke funksjonen **Juster lagerbeholdning** til enkel plassering av
 ### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>Slik justerer du lagerantall for flere varer i enkle lageroppsett
 På siden **Varekladd** kan du bokføre varetransaksjoner direkte for å justere lagerbeholdningen i forbindelse med kjøp, salg og positive eller negative justeringer, uten å bruke dokumenter.
 
-Hvis du ofte bruker varekladden til å bokføre identiske eller lignende kladdelinjer, for eksempel i forbindelse med materialforbruk, kan du bruke siden **standardvarekladden** til å forenkle dette gjentakende arbeidet. Hvis du vil ha mer informasjon, kan du se [Arbeide med standardkladder](ui-work-general-journals.md#working-with-standard-journals).
+Hvis du ofte bruker varekladden til å bokføre identiske eller lignende kladdelinjer, for eksempel i forbindelse med materialforbruk, kan du bruke siden **standardvarekladden** til å forenkle dette gjentakende arbeidet. Hvis du vil ha mer informasjon, kan du se [Arbeid med standardkladder](ui-work-general-journals.md#work-with-standard-journals).
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varekladder** og velg den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -223,7 +223,7 @@ Hvis du vil ha informasjon om overføring av varer med full kontroll over antall
 [Lagerstyring](warehouse-manage-warehouse.md)    
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -5,12 +5,12 @@ author: edupont04
 ms.topic: conceptual
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9b881ee5a4a98e30af3da572600747702a3ebca5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 75ba3591c676089fd971886fa32284b5aec5715e
+ms.sourcegitcommit: 521735f8e27d8bff2d2dfbe94d240c09dcdaec29
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137630"
+ms.lasthandoff: 03/15/2022
+ms.locfileid: "8419315"
 ---
 # <a name="warnings-and-error-messages-in-dynamics-365-business-central"></a>Advarsler og feilmeldinger i Dynamics 365 Business Central
 
@@ -20,7 +20,7 @@ I løpet av arbeidsdagen kan du se meldinger i [!INCLUDE [prod_short](includes/p
 
 Standardversjonen av [!INCLUDE [prod_short](includes/prod_short.md)] omfatter beskrivelser for de fleste feltene, kolonnene og handlingene du får tilgang til når du velger navnet. I kombinasjon med læringstips for viktige sider, beskrivende tekster og instruksjonstekster, er disse verktøytipsene, eller bildeforklaringene, vår nåværende implementering av *innebygd brukerstøtte*, som er et viktig prinsipp i dagens programvaredesign.  
 
-Hvis du har spørsmål om et felt eller et annet element i brukergrensesnittet, velger du navnet, og du får frem en kort beskrivelse. Velg *Lær mer*-koblingen hvis det ikke er nok.  
+Hvis du har spørsmål om et felt eller et annet element i brukergrensesnittet, velger du navnet, og du får frem en kort beskrivelse. Velg *Lær mer*-koblingen hvis det ikke er nok. Du kan også bruke hjelperuten i produktet til å finne svar på spørsmålene dine.  
 
 Hvis du vil ha mer informasjon, kan du se [Brukerstøttemodell for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/user-assistance) i administrasjonsinnholdet for [!INCLUDE [prod_short](includes/prod_short.md)].  
 

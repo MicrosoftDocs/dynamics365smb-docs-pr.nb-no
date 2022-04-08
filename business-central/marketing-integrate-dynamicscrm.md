@@ -11,14 +11,14 @@ ms.search.keywords: integration, synchronize, map, Sales
 ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 6868ec9cc77efa19090bc2325414b4c9976a8db7
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a25fdcf9760d5677885c3927cb07d20cfa7e8387
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383890"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520997"
 ---
-# <a name="using-dynamics-365-sales-from-business-central"></a>Bruke Dynamics 365 Sales fra Business Central
+# <a name="use-dynamics-365-sales-from-business-central"></a>Bruk Dynamics 365 Sales fra Business Central
 Hvis du bruker Dynamics 365 Sales for Customer Engagement, kan du dra nytte av sømløs integrering i kundeemne-til-kontanter-prosessen med [!INCLUDE[prod_short](includes/prod_short.md)] for serverdelaktiviteter som å behandle bestillinger, håndtering av lager og gjøre finansene.
 
 Før du kan bruke integrasjonsfunksjonene, må systemansvarlig sette opp tilkoblingen og definere brukere i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, kan du se [Integrere med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
@@ -139,9 +139,9 @@ Du kan synkronisere prislister på siden **Salgsprisliste** ved å velge **Relat
 ## <a name="see-also"></a>Se også
 [Integrere med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Forbindelser](marketing-relationship-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
-[Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md)    
+[Tildel tillatelser til brukere og grupper](ui-define-granular-permissions.md)    
 [Oversikt over salg og salgshub](/dynamics365/customer-engagement/sales-enterprise/overview)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

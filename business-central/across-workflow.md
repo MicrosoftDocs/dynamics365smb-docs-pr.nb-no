@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 02f03c3b3423de2b78aea7f4e61c65c968290341
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 9cfdcc9bbf8e24675c6894b8ca2efbf10129d990
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130882"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511184"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Arbeidsflyter i Dynamics 365 Business Central
 
@@ -24,11 +24,11 @@ Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som
 
  Standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] omfatter en rekke forhåndskonfigurerte arbeidsflyter representert av arbeidsflytmaler som du kan kopiere for å opprette arbeidsflyter. Koden for arbeidsflytmaler som er lagt inn av Microsoft, har prefikset "MS-". Hvis du vil ha mer informasjon, kan du se listen over arbeidsflytmaler på siden Arbeidsflytmaler.  
 
- Hvis et forretningsscenario krever en arbeidsflythendelse eller et arbeidsflytsvar som ikke støttes, kan du bruke Power Automate eller samarbeide med en Microsoft-partner for å tilpasse programkoden. Hvis du vil ha mer informasjon, kan du se [Bruke [!INCLUDE[prod_short](includes/prod_short.md)] i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md).
+ Hvis et forretningsscenario krever en arbeidsflythendelse eller et arbeidsflytsvar som ikke støttes, kan du bruke Power Automate eller samarbeide med en Microsoft-partner for å tilpasse programkoden. Hvis du vil ha mer informasjon, kan du se [Bruk [!INCLUDE[prod_short](includes/prod_short.md)] i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md).
 
-Alle arbeidsflytmaler du oppretter med Power Automate, legges til i listen over arbeidsflytmaler i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, se [Bruke Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md).  
+Alle arbeidsflytmaler du oppretter med Power Automate, legges til i listen over arbeidsflytmaler i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, se [Bruk Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md).  
 
- Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.  
+ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.  
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
@@ -40,7 +40,7 @@ Alle arbeidsflytmaler du oppretter med Power Automate, legges til i listen over 
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Administrere prosjekter](projects-manage-projects.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

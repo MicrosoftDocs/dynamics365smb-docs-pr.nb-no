@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 1f7154c438437aacb3788c91ad9c17bba8673477
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 16da8facc119a9cacf86b0603baef24bf819558a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335347"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522461"
 ---
 # <a name="view-test-reports-before-posting"></a>Vise testrapporter før bokføring
 Når du er klar til å bokføre et dokument, for eksempel en ordre, faktura eller kreditnota, kan du teste dokumentet for å sikre at det ikke foreligger problemer som vil sperre bokføringen.
@@ -31,7 +31,7 @@ Alle deler av kjøpsfakturaen testes, og resultatet presenteres i en rapport. Hv
 
 ## <a name="see-also"></a>Se også
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

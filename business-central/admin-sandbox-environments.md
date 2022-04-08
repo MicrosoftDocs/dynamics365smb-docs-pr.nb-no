@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: 1a80e5ba3fb54d618334f65de452984dc3c1c356
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 20637dcced16fe695d64c2b4d858483882c64f7a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142474"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518288"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Sandkassemiljøer i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -66,13 +66,13 @@ When the assisted setup guide completes, you can start exploring the new company
 
 I et sandkassemiljø finner du **Designer** aktivert. Du kan aktivere Designer ved å velge designikonet ![Designer.](./media/across-sandbox/sandbox-inclient-design-icon.png) på en side, eller ved å velge **Designer**-menyelementet på ![Innstillinger](media/ui-experience/settings_icon_small.png) menyen Innstillinger.  
 
-Hvis du vil ha mer informasjon, kan du se [Bruk av utformingen](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) i innholdet for utviklere og administratorer (bare på engelsk).  
+Hvis du vil ha mer informasjon, kan du se [Bruk utformingen](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) i innholdet for utviklere og administratorer (bare på engelsk).  
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
 ## <a name="see-also"></a>Se også
 
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversjoner og abonnementer](across-preview.md)  
 [Behandle miljøer i administrasjonssenteret for Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Produksjons- og sandkassemiljøer](/dynamics365/business-central/dev-itpro/administration/environment-types)  

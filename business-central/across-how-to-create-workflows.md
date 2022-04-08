@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: d7dc36d95a458e6edfa303540c97c2f4fb57da78
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: eb733e1d157e509ce7bbe4ee2fa4db682dae3980
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131011"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521283"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Opprett arbeidsflyter for å koble til forretningsprosessoppgaver
 
@@ -104,7 +104,7 @@ For begge hendelsestypene er hendelsene system definert. Nye hendelser må legge
     >  Du kan bare endre innrykket for et trinn som ikke har et senere trinn.  
 
 12. Gjenta trinn 7 til 11 for å legge til flere arbeidsflyttrinn, enten før eller etter trinnet du nettopp opprettet.  
-13. Merk av for **Aktivert** for å angi at arbeidsflyten starter så snart hendelsen på det første trinnet av typen **Innpunkt** inntreffer. Hvis du vil ha mer informasjon, kan du se [Bruke arbeidsflyter](across-use-workflows.md).  
+13. Merk av for **Aktivert** for å angi at arbeidsflyten starter så snart hendelsen på det første trinnet av typen **Innpunkt** inntreffer. Hvis du vil ha mer informasjon, kan du se [Bruk arbeidsflyter](across-use-workflows.md).  
 
 > [!NOTE]  
 > Ikke aktiver en arbeidsflyt før du er sikker på at arbeidsflyten er fullført og at de involverte arbeidsflyttrinnene kan starte.  
@@ -186,7 +186,7 @@ Nå må du teste arbeidsflyten ved å åpne en eksisterende leverandør og endre
 [Konfigurere arbeidsflytvarsler](across-setting-up-workflow-notifications.md)  
 [Vise arkiverte forekomster av arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md)  
 [Slette arbeidsflyter](across-how-to-delete-workflows.md)  
-[Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Gjennomgang: Definer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Konfigurere arbeidsflyter](across-set-up-workflows.md)  
 [Bruke arbeidsflyter](across-use-workflows.md)  
 [Arbeidsflyt](across-workflow.md)  

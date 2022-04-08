@@ -10,12 +10,12 @@ ms.search.keywords: incoterms
 ms.search.form: 11, 130
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7f83c8e3e001fe1b92e975d165d40a353ece032a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4f55e4ac7aaad445a2db606fcbc46856f4800f18
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134928"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517768"
 ---
 # <a name="set-up-shipment-methods"></a>Sette opp leveringsmåter
 
@@ -40,8 +40,8 @@ Du definerer beskrivelsen og koden for hver leveringsmåte på siden **Leverings
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)  
 [Monteringsstyring](assembly-assemble-items.md)  
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Incoterms på iccwbo.org](https://iccwbo.org/resources-for-business/incoterms-rules)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

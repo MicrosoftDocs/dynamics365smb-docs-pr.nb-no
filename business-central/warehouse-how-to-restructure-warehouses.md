@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 9813, 9814
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 97a8ff2971ca8cc6e34fb89cd5edbb092ac264a8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ccac5101c5b28d81021a7229fe576f4eb7129746
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144284"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513240"
 ---
 # <a name="restructure-warehouses"></a>Omstrukturere lagre
 Du ønsker kanskje å omstrukturere lageret med nye hyllekoder og nye hylleegenskaper. Dette er en aktivitet du ikke utfører så ofte, men det kan oppstå situasjoner der det er nødvendig med en omklassifisering for å oppnå eller vedlikeholde en mer effektiv drift. Eksempel:  
@@ -86,8 +86,8 @@ Hvis du ønsker å gi nytt navn til en hylle, slik at alle postene som er tilkny
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

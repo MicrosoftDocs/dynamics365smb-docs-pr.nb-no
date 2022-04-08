@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: 0ec67d201d89b01b38b86edbeb6dcd3ea0148153
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f9cd8d837d94e9f90e48f84d4209bc3427d0b922
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147651"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523400"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt
 Du kan konfigurere en betalingstoleranse for å lukke en faktura når betalingen ikke fullt ut dekker fakturabeløpet. For eksempel er betalingstoleranse vanligvis for små beløp som vil koste mer å korrigere enn å bare godta det. Du kan definere en kontantrabattoleranse til å gi rabatt etter at kontantrabattdatoen er passert.  
@@ -261,7 +261,7 @@ Vanlige utligningsregler
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

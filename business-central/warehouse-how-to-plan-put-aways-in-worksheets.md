@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: b7bd6481c6347cfb9c8d02ba58f38101802a6caa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 109ebfef1650c365cb383aac56cf51ab9ee8231b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131122"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518550"
 ---
 # <a name="plan-put-aways-in-worksheets"></a>Planlegge plasseringer i forslag
 Hvis lokasjonen krever både plasserings- og mottaksbehandling og du vil planlegge plasseringsinstruksjoner for et antall mottak i stedet for at de ansatte skal følge instruksjonene som programmet oppretter for hvert enkelt bokførte mottak, kan du bruke plasseringsforslaget.  
@@ -66,8 +66,8 @@ Hvis du ikke velger dette feltet, vil programmet automatisk opprette plasserings
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

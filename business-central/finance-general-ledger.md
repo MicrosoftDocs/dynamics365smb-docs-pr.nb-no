@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
-ms.search.form: 17, 18, 20, 21, 37, 65, 99, 118, 312, 313, 314, 395, 552, 569, 570, 634, 790, 791, 1158
-ms.date: 12/03/2021
+ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
+ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 5f168132dc747e76c514ae1bd78e8d2f86a7b609
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 1834cfe7bbbc933a1aebddbc94ea6dfe09523605
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366748"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510875"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Forstå Finans og Kontoplan
 
@@ -23,21 +23,28 @@ ms.locfileid: "8366748"
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Finansoppsett og generelt bokføringsoppsett
 
-Oppsettet av finans er i kjernen av økonomiske prosesser fordi den definerer hvordan du kan legge inn data.  
+Oppsettet av finans er i kjernen av økonomiske prosesser fordi den definerer hvordan du kan legge inn data. To sider spiller en viktig del av konfigurasjonen av økonomiprosessene:  
 
-På siden **Finansoppsett** angir du hvordan du håndterer bestemte regnskapssaker i firmaet, for eksempel:  
+* Siden **Finansoppsett**
 
-* Detaljopplysninger om fakturaavrunding  
-* Adresseformater  
-* Finansrapportering  
+    På siden **Finansoppsett** angir du hvordan du håndterer bestemte regnskapssaker i firmaet, for eksempel:  
 
-> [!TIP]
-> Siden **Finansoppsett** inneholder generelle felt og felt som er spesifikke for ditt land eller din region. Hvis du ikke er sikker på betydningen av et felt, foreslår vi at du arbeider med regnskapsføreren for å finne ut om det er av relevans for organisasjonen.  
+    * Detaljopplysninger om fakturaavrunding  
+    * Adresseformater  
+    * Finansrapportering  
 
-På siden **Generelt bokføringsoppsett** angir du hvordan du vil definere kombinasjoner av firma- og varebokføringsgrupper. Bokføringsgrupper tilordner enheter som kunder, leverandører, varer, ressurser og salgs- og kjøpsdokumenter til finanskonti. Fyll ut en linje for hver kombinasjon av firma- og varebokføringsgrupper. Men du kan også åpne hver linje i et eget bokføringsoppsettskort. Hvis du vil ha mer informasjon, kan du se [Oppsett av bokføringsgrupper](finance-posting-groups.md).  
+    > [!TIP]
+    > Siden **Finansoppsett** inneholder generelle felt og felt som er spesifikke for ditt land eller din region. Hvis du ikke er sikker på betydningen av et felt, foreslår vi at du arbeider med regnskapsføreren for å finne ut om det er av relevans for organisasjonen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-> [!TIP]
-> Hvis du ikke kan se feltene du leter etter, på siden **Generelt bokføringsoppsett**, bruker du det vannrette rullefeltet nederst på siden til å bla til høyre.  
+    Åpne siden [her](https://businesscentral.dynamics.com/?page=118)
+* Siden **Generelt bokføringsoppsett**
+
+    På siden **Generelt bokføringsoppsett** angir du hvordan du vil definere kombinasjoner av firma- og varebokføringsgrupper. Bokføringsgrupper tilordner enheter som kunder, leverandører, varer, ressurser og salgs- og kjøpsdokumenter til finanskonti. Fyll ut en linje for hver kombinasjon av firma- og varebokføringsgrupper. Men du kan også åpne hver linje i et eget bokføringsoppsettskort. Hvis du vil ha mer informasjon, kan du se [Oppsett av bokføringsgrupper](finance-posting-groups.md).  
+
+    > [!TIP]
+    > Hvis du ikke kan se feltene du leter etter, på siden **Generelt bokføringsoppsett**, bruker du det vannrette rullefeltet nederst på siden til å bla til høyre.  
+
+    Åpne siden [her](https://businesscentral.dynamics.com/?page=314)
 
 ## <a name="the-chart-of-accounts"></a>Kontoplanen
 
@@ -49,7 +56,7 @@ Kontoplanen viser alle finanskontoer. Fra kontoplanen kan du gjøre ting som:
 * Vise en liste over bokføringsgrupper som du posterer til kontoen.
 * Vise separate debet- og kreditsaldoer for én konto  
 
-Du kan legge til, endre eller slette finanskontoer. For å unngå avvik kan du imidlertid ikke slette en finanskonto hvis dataene fra den er brukt i kontoplanen.  
+Du kan legge til, endre eller slette finanskontoer. For å unngå avvik kan du imidlertid ikke slette en finanskonto hvis dataene fra den er brukt i kontoplanen. I tillegg kan du fra lanseringsbølge 2 for 2022 også blokkere utilsiktet sletting av kontoer i sensitive perioder. Hvis du vil ha mer informasjon, kan du se [Slett kontoer](finance-setup-chart-accounts.md#delete-accounts).  
 
 ## <a name="account-categories"></a>Kontokategorier
 
@@ -69,14 +76,14 @@ Standard saldoutdrag har for eksempel en underkategori for *kontanter* under *gj
 
     * en for håndkasse  
     * en for sjekkontoen  
-2. Angi den ekstra rapportdefinisjonen **Kontantkontoer** for disse underkategoriene.  
+2. Angi den andre rapportdefinisjonen **Kontantkontoer** for disse underkategoriene.  
 3. Rykk inn dem under **Kontanter**-underkategori.  
 
 Neste gang du genererer kontoskjemaer, vil utdraget vise en total saldo for kontanter og to linjer med saldoer for håndkasse og sjekkontoen.  
 
-## <a name="getting-a-quick-overview"></a>Få en rask oversikt
+## <a name="get-a-quick-overview"></a>Få en rask oversikt
 
-Kontoplan-siden viser konti i en hierarkisk liste som gir rask tilgang til viktig informasjon for hver konto. Listen er imidlertid statisk, og hvis du har mange konti, må du kanskje rulle litt for å vise informasjon for ulike konti. Hvis du bare vil ha en rask oversikt over det grunnleggende, for eksempel bevegelser og saldoer, er siden **Kontoplanoversikt** et nyttig alternativ. Kolonneoppsettet på siden er nå det samme som du finner på kontoplansiden (det er bare færre av dem), så du trenger ikke å orientere deg på nytt, og du kan vise eller skjule de hierarkiske nivåene for å få en kompakt visning. For at det skal bli enkelt å bytte mellom sidene er siden **Kontoplanoversikt** tilgjengelig fra Kontoplan-siden.
+**Kontoplan**-siden viser konti i en hierarkisk liste som gir rask tilgang til viktig informasjon for hver konto. Listen er imidlertid statisk, og hvis du har mange kontoer, må du kanskje rulle litt for å vise informasjon for ulike kontoer. Hvis du bare vil ha en rask oversikt over det grunnleggende, for eksempel bevegelser og saldoer, er siden **Kontoplanoversikt** et nyttig alternativ. Kolonneoppsettet på siden er nå det samme som du finner på **kontoplansiden** (det er bare færre av dem), så du trenger ikke å orientere deg på nytt, og du kan vise eller skjule de hierarkiske nivåene for å få en kompakt visning. For at det skal bli enkelt å bytte mellom sidene er siden **Kontoplanoversikt** tilgjengelig fra **Kontoplan**-siden.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Tilgang til å opprette og redigere konti og kontokategorier
 
@@ -85,7 +92,7 @@ I en liten organisasjon, for eksempel CRONUS-demoselskapet, kan de fleste bruker
 ## <a name="see-also"></a>Se også
 
 [Finans](finance.md)  
-[Definere eller endre kontoplanen](finance-setup-chart-accounts.md)  
+[Definer eller endre kontoplanen](finance-setup-chart-accounts.md)  
 [Forretningsintelligens](bi.md)  
 [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md)  
 

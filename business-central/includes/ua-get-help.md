@@ -1,13 +1,13 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 09/27/2021
+ms.date: 01/28/2022
 ms.author: edupont
-ms.openlocfilehash: 59b9cd9f5db84d499f1bc1355d25634fec6ad712
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d3f8091f1c90ef1260ccfb8bb9851ad4a24d3345
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132289"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513552"
 ---
-[!INCLUDE[prod_short](prod_short.md)] inneholder verktøytips for felt og handlinger, og opplæringstips for noen av de viktigste sidene som kan hjelpe deg gjennom de ulike forretningsprosessene. I hvert verktøytips og læringstips kan du velge koblingen **Lær mer** for å åpne hjelpen for den aktuelle siden. På alle sider kan du bruke *Ctrl+F1* på tastaturet til å åpne hjelpen for den aktuelle siden. På alle enheter kan du bruke spørsmålstegnet i øvre høyre hjørne for å komme til siden **Hjelp og støtte** og produkthjelpen.  
+[!INCLUDE[prod_short](prod_short.md)] inkluderer verktøytips for felter og handlinger som kan hjelpe deg gjennom ulike forretningsprosesser. Noen av de viktigste sidene har også tips og innføringer som hjelper deg. I hvert verktøytips og læringstips kan du velge koblingen **Lær mer** for å åpne hjelperuten og finner informasjonen om den aktuelle siden. På alle sider kan du bruke *Ctrl+F1* på tastaturet til å åpne hjelperuten. På alle enheter kan du bruke spørsmålstegnet i øvre høyre hjørne for å komme til Hjelp.  

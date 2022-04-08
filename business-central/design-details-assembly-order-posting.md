@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2ec7e242bd174f3a825a29923b33642d035ec4ca
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 33d8c3a36340c997a12f879f8770e17045a88aa2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132116"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521049"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetaljer: Bokføre monteringsordre
 Monteringsordrebokføring er basert på de samme prinsippene som ved bokføring av lignende aktiviteter for salgsordrer og produksjonsforbruk/-avgang. Prinsippene kombineres imidlertid slik at monteringsordrer har sine egne brukergrensesnitt for bokføring, som for salgsordrer, mens den faktiske bokføringen skjer i bakgrunnen som direkte vare- og ressurskladdbokføringer, som for produksjonsforbruk, avgang og kapasitet.  
@@ -114,7 +114,7 @@ Bokføring av ordrelinjer der en del er lagerantall og en annen del er montere-t
  [Designdetaljer: Kostmetoder](design-details-costing-methods.md)  
  [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

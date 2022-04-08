@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 0f305c6284a617594202ac8e38ce786d7019f489
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fe66a7341045058f2d5d5b5313d122cf442d3117
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139061"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514676"
 ---
 # <a name="closing-income-statement-accounts"></a>Lukking av resultatregnskapskonti
 Når et regnskapsår er over, må du lukke periodene som utgjør regnskapsåret. Hvis du vil gjøre dette, kjører du den satsvise jobben **Lukk resultatregnskapet**. Denne jobben overfører årets resultat til en konto i balansen og lukke resultatregnskapskontoene. Dette gjør du ved å opprette linjer i en kladd som du deretter kan bokføre.
@@ -38,7 +38,7 @@ Den satsvise jobben **Lukk resultatregnskapet** kan brukes flere ganger. Du kan 
 [Avslutte tablåer](year-close-books.md)  
 [Bokføre avslutningsposten for årsslutt](year-how-post-year-end-close-entry.md)  
 [Arbeide med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

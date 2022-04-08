@@ -1,6 +1,6 @@
 ---
 title: Kopiere data til nye selskaper
-description: Du kan kopiere de mest brukte verdiene fra et eksisterende selskap til et nytt, så lenge begge selskapene er i samme database.
+description: Hvis du bruker RapidStart Services, kan du kopiere de mest brukte verdiene fra et eksisterende selskap til et nytt, så lenge begge selskapene er i samme database.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 96a4b18cd68edc972211ee31b99f3f01f91b3dda
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7ae73d23732f81994fc2553da00bdd73f0e2ba0a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132129"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518366"
 ---
-# <a name="copy-data-to-new-companies"></a>Kopiere data til nye selskaper
+# <a name="copy-data-to-new-companies-with-rapidstart-services"></a>Kopier data til nye selskaper med RapidStart Services
 Du kan kopiere de mest brukte verdiene fra et eksisterende selskap til et nytt, så lenge begge selskapene er i samme database. Hvis du for eksempel har en standardliste over symptomkoder som er felles for alle serviceimplementeringene, kan du enkelt kopiere kodene fra ett firma til et annet.  
 
 ## <a name="to-copy-data-to-a-new-company-using-rapidstart-services"></a>Slik kopierer du data til et nytt selskap ved hjelp av RapidStart Services  

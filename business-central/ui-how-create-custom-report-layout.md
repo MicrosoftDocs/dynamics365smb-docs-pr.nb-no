@@ -10,14 +10,16 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b4642f6ca4c7701cbb49e8441debccfbd32b9be
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d629b2639325b95ab90db8aaf8ac9a3e5d51fc33
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134720"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511444"
 ---
-# <a name="create-and-modify-custom-report-layouts"></a>Opprette og endre et egendefinert rapportoppsett
+# <a name="legacy-create-and-modify-custom-report-layouts"></a>(Eldre) Opprette og endre et egendefinert rapportoppsett
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 En rapport har som standard et innebygd rapportoppsett, som kan være et RDLC-rapportoppsett, et innebygd Word-rapportoppsett eller i noen tilfeller begge typer. Du kan ikke endre innebygde oppsett. Du kan imidlertid opprette egendefinerte oppsett der du kan endre utseendet på rapporten når den vises, skrives ut eller lagres. Du kan opprette flere egendefinerte rapportoppsett for samme rapport og deretter bytte oppsettet som brukes av en rapport, etter behov.
 
@@ -63,56 +65,56 @@ Når du skal endre et rapportoppsett, du må først eksportere rapportoppsettet 
 
 ### <a name="to-modify-a-custom-layout"></a>Endre et egendefinert oppsett
 
-1.  Du kan eksportere et egendefinert oppsett fra **Egendefinerte rapportoppsett**-siden. Hvis siden ikke allerede er åpen, kan du søke etter og åpne **Rapportoppsettsvalg**-siden, velge rapporten som har oppsettet du vil endre, og deretter velge handlingen **Egendefinerte oppsett**.  
-2.  På siden **Egendefinerte rapportoppsett** velger du oppsettet som du vil endre, velger **Eksporter oppsett**-handlingen og velger deretter **Lagre** eller **Lagre som** for å lagre rapportoppsettsdokumentet på et sted på datamaskinen eller nettverket.  
+1. Du kan eksportere et egendefinert oppsett fra **Egendefinerte rapportoppsett**-siden. Hvis siden ikke allerede er åpen, kan du søke etter og åpne **Rapportoppsettsvalg**-siden, velge rapporten som har oppsettet du vil endre, og deretter velge handlingen **Egendefinerte oppsett**.  
+2. På siden **Egendefinerte rapportoppsett** velger du oppsettet som du vil endre, velger **Eksporter oppsett**-handlingen og velger deretter **Lagre** eller **Lagre som** for å lagre rapportoppsettsdokumentet på et sted på datamaskinen eller nettverket.  
+3. Åpne rapportoppsettdokumentet du lagret, og gjør deretter endringene.
 
-3.  Åpne rapportoppsettdokumentet du lagret, og gjør deretter endringene.
+   Hvis du endrer et Word-oppsett, kan du åpne oppsettsdokumentet i Word. Hvis du vil ha redigeringsdetaljer, kan du se [Arbeid med Word-oppsett](ui-how-add-fields-word-report-layout.md)<!--the next section [Making Changes to the Report Layout](ui-how-create-custom-report-layout.md#MakeChangesToLayout)-->.
 
-      Hvis du endrer et Word-oppsett, kan du åpne oppsettsdokumentet i Word. Se neste del [Endre rapportoppsettet](ui-how-create-custom-report-layout.md#MakeChangesToLayout) hvis du vil ha mer informasjon om redigering.
+   RDLC-rapportoppsett er mer avansert enn Word-rapportoppsett. Hvis du vil ha mer informasjon om hvordan du endrer et RDLC-rapportoppsett, kan du se [Utforme RDLC-rapportoppsett](/dynamics-nav/Designing-RDLC-Report-Layouts).
 
-      RDLC-rapportoppsett er mer avansert enn Word-rapportoppsett. Hvis du vil ha mer informasjon om hvordan du endrer et RDLC-rapportoppsett, kan du se [Utforme RDLC-rapportoppsett](/dynamics-nav/Designing-RDLC-Report-Layouts).
+   Husk å lagre endringene når du er ferdig.
 
-      Husk å lagre endringene når du er ferdig.
-
-4.  Gå tilbake til **Egendefinerte rapportoppsett**-siden, velg rapportoppsettet som du har eksportert eller endret, og velg deretter **Importer oppsett**-handlingen.  
+4. Gå tilbake til **Egendefinerte rapportoppsett**-siden, velg rapportoppsettet som du har eksportert eller endret, og velg deretter **Importer oppsett**-handlingen.  
 
 5. I dialogboksen **Importer** velger du **Velg** for å finne og velge rapportoppsettdokumentet som er endret, og velger deretter **Åpne**.
 
 > [!IMPORTANT]
 > Husk å importere rapportoppsettdokumentet du endret. Hvis ikke vil ikke det nye rapportoppsettet være tilgjengelig.
 
-##  <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a> Opprette og endre et egendefinert rapportoppsett
+<!--
+##  <a name="MakeChangesToLayout"></a> Create and Modify Custom Report Layouts
 
-For å foreta generelle formaterings- og oppsettsendringer, for eksempel endre skrift, legge til eller endre en tabell eller fjerne et datafelt, bruker du bare de grunnleggende redigeringsfunksjonene i Word, som du gjør med et Word-dokument.
+To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word, like you do with any Word document.
 
-Hvis du utformer et Word-rapportoppsett fra grunnen av eller legger til nye datafelt, begynner du med å legge til en tabell som inneholder rader og kolonner som omsider skal inneholde datafeltene.
+If you're designing a Word report layout from scratch or adding new data fields, then start by adding a table that includes rows and columns that will eventually hold the data fields.
 
 > [!TIP]  
-> Vis tabellrutenettet, slik at du kan se cellegrensene i tabellen. Husk å skjule rutenettet når du er ferdig å redigere. Hvis du vil vise eller skjule tabellrutenett, merker du tabellen. Under **Oppsett** i kategorien **Tabell** velger du deretter **Vis rutenettlinjer**.
+> Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you're done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.
 
-### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Bygge inn skrifter i Word-oppsett for konsekvens
+### Embedding Fonts in Word Layouts for Consistency
 
-Hvis du vil sikre at rapporter alltid vises og skrives ut med de tiltenkte skriftene, uansett hvor brukere åpner eller skriver ut rapporter, kan du bygge inn skrifter i Word-dokumentet. Innebygde skrifter kan imidlertid øke størrelsen på Word-filer betydelig. Hvis du vil ha mer informasjon om innebygging av skrifter i Word, se [Bygge inn skrifter i Word, PowerPoint eller Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
+To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. For more information about embedding fonts in Word, see [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-###  <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a> Fjerne etikett- og datafelt i Word-oppsett
+###  <a name="RemoveField"></a> Removing Label and Data Fields in Word Layouts
 
- Etikett- og datafelt i en rapport er i innholdskontroller i Word. Den følgende illustrasjonen viser en innholdskontroll når den er valgt i Word-dokumentet.  
+ Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
 
- ![Innholdskontroll for felt i Word-rapportoppsett.](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
+ ![Content control for field in Word report layout.](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
 
- Navnet på etiketten eller datafeltnavnet vises i innholdskontrollen. I dette eksemplet er feltnavnet CompanyAddr1.  
+ The name of the label or data field name displays in the content control. In the example, the field name is CompanyAddr1.  
 
-### <a name="to-remove-a-label-or-data-field"></a>Fjerne en etikett eller et datafelt  
+### To remove a label or data field  
 
-1. Høyreklikk feltet som du vil slette, og velg deretter **Fjern innholdskontroll**.  
+1. Right-click the field that you want to delete, and then choose **Remove Content Control**.  
 
-     Innholdskontrollen fjernes, men feltnavnet blir stående som tekst.  
+     The content control is removed, but the field name remains as text.  
 
-2. Slett den gjenstående teksten etter behov.  
+2. Delete the remaining text as needed.  
 
-### <a name="adding-data-fields"></a>Legge til datafelt
+### Adding data fields
 
-Å legge til datafelt fra et rapportdatasett er mer avansert og krever noe kjennskap til rapportdatasettet. Hvis du vil ha informasjon om å legge til felt for data, etiketter og bilder, kan du se [Legge til felt i et Word-rapportoppsett](ui-how-add-fields-word-report-layout.md).  
+Adding data fields from a report dataset is a more advanced and requires some knowledge of the report dataset. For information about adding fields for data, labels, data, and images, see [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
@@ -121,10 +123,10 @@ Hvis du vil sikre at rapporter alltid vises og skrives ut med de tiltenkte skrif
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  
 [Endre gjeldende rapportoppsett](ui-how-change-layout-currently-used-report.md)  
 [Importere og eksportere en egendefinert rapport eller et egendefinert dokumentoppsett](ui-how-import-and-export-report-layout.md)  
-[Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)  
+[Arbeid med rapporter, satsvise jobber og XMLport-er](ui-work-report.md)  
 [Klargjøre Financial Reporting med kontoskjemaer og kontokategorier](bi-how-work-account-schedule.md) 
 [Forretningsintelligens](bi.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

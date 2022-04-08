@@ -9,12 +9,12 @@ ms.reviewer: na
 ms.suite: na
 ms.tgt_pltfrm: na
 ms.topic: conceptual
-ms.openlocfilehash: c484be64a252ae8f565bf04215b9a2191e572875
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5c5693b05d8590e569e0fb1b80993e35550c5ed5
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138209"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518812"
 ---
 # <a name="troubleshooting-accessing-camera-and-location"></a>Feilsøking: Få tilgang til kamera og plassering
 
@@ -46,7 +46,7 @@ Kamera- og plasseringsegenskaper er bare tilgjengelig når du har tilgang til ne
 Det eneste unntaket er å koble til `http://localhost`, som brukes til formål for utvikling og testing.
 
 
-## <a name="working-with-virtualization-technologies"></a>Arbeide med visualiseringsteknologier
+## <a name="work-with-virtualization-technologies"></a>Arbeid med visualiseringsteknologier
 
 Når du kobler til [!INCLUDE[prod_short](includes/prod_short.md)] via Eksternt skrivebord eller en annen virtualisering, kan det hende tilgang til kamera og plassering ikke er tilgjengelig. I dette tilfellet bruker du det fysiske systemet i stedet.
 

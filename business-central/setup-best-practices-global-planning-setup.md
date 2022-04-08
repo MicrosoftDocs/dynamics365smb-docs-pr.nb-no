@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0220502f0c338ead004f5ed7ce704508a780a9f5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a611abd26fd643e75d01aeaefb22a4d0083d5003
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146153"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510639"
 ---
 # <a name="setup-best-practices-global-planning-setup"></a>Anbefalte fremgangsmåter for oppsett: Oppsett for global planlegging
 Hurtigfanen **Planlegging** på siden **Produksjonsoppsett** inneholder flere felt som definerer globale regler for forsyningsplanlegging.  
@@ -33,7 +33,7 @@ Hurtigfanen **Planlegging** på siden **Produksjonsoppsett** inneholder flere fe
  [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)   
  [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
  [Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)  
- [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

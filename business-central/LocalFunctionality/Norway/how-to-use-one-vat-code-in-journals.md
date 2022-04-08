@@ -1,5 +1,5 @@
 ---
-title: Bruke én mva-kode i kladder
+title: Bruk én mva-kode i kladder [NO]
 description: I Norge kan du bruke funksjonen for én mva-kode i en kladd, slik at du kan bokføre mva ved hjelp av ett enkelt felt, Mva-kode.
 author: SorenGP
 ms.topic: conceptual
@@ -7,17 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.search.form: 10602, 10697, 10698, 10604, 315, 472, 473, 471, 317
+ms.search.form: 10602, 10697, 10698, 10604
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f69ed9a2455179d307a469e4efd169b0d367b525
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 747bace753b5f8a9033974a1c58b625ea4108d07
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140016"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417600"
 ---
-# <a name="use-one-vat-code-in-journals"></a>Bruke én mva-kode i kladder
+# <a name="use-one-vat-code-in-journals-in-norway"></a>Bruk én mva-kode i kladder i Norge
+
 I Norge kan du bruke funksjonen for én mva-kode i en kladd, slik at du kan bokføre mva ved hjelp av ett enkelt felt, **Mva-kode**. Når én mva-kode er konfigurert, er dette en rask måte å fylle ut mva-felt som brukes ofte.  
 
 For å angi mva-koden for bestillinger og ordrer, må de tilsvarende mva-bokføringsgruppene for firma og mva-bokføringsgruppene for varer defineres.  

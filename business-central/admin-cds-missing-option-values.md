@@ -1,21 +1,22 @@
 ---
 title: Håndtere manglende alternativverdier
-description: Finn ut hvordan du kan hindre at full synkronisering mislykkes fordi alternativene er forskjellige i tilordnede felt. Denne prosessen krever hjelp av en utvikler.
+description: Finn ut hvordan du kan hindre at full synkronisering mislykkes fordi alternativene er forskjellige i tilordnede felt. Denne prosessen krever hjelp fra en utvikler.
 author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
-ms.date: 06/14/2021
-ms.openlocfilehash: 1735b1e3d04b9b35653047b19587f84234389735
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.date: 03/23/2022
+ms.openlocfilehash: a726d182babca26525e2931ea2b487171b470bcc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383376"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512493"
 ---
 # <a name="handling-missing-option-values"></a>Håndtere manglende alternativverdier
-
+> [!NOTE]
+> I 2022 lanseringsbølge 1 kan du opprette egne alternativ tildelinger. Se [Tilpass alternativtildelinger med Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping) for mer informasjon. De nye funksjonene krever at administratoren aktiverer **Funksjonsoppdatering: Tildel alternativsett i Dataverse uten kode** på siden **Funksjonsbehandling**. Hvis du vil ha mer informasjon, kan du se [Aktivering av kommende funksjoner på forhånd](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Dette emnet er ment for en teknisk målgruppe. Prosessene som beskrives, krever hjelp av en utvikler.
 

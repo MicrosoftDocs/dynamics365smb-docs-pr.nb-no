@@ -10,12 +10,12 @@ ms.search.keywords: project management, capacity, staff
 ms.search.form: 72, 76, 77, 203, 204
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08d73d46283908a811fd9690b6e4ea43e35d5118
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 65f656dac8ec1588872b8a9458da7a8ffdcaf857
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137422"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520893"
 ---
 # <a name="set-up-resources-for-projects"></a>Definer ressurser for prosjekter
 
@@ -27,7 +27,9 @@ Du angir standardbeløpet per time når ressursen opprettes. Hvis du for eksempe
 
 > [!NOTE]
 > Du kan kjøpe eksterne ressurser, for eksempel for å fakturere en leverandør for arbeid som er levert. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).<br /><br />
-> I det tilfellet anbefales det at du gir navn til eller grupperer slike eksterne ressurser slik at de angir formålet, slik at de ikke blir forvirret med de interne ressursene.
+> For eksterne ressurser anbefaler vi at du gir navn til eller grupperer dem slik at de angir forveksles med de interne ressursene.
+>  
+> Hvis du bokfører konserninterne transaksjoner, selv om du kan gi en ressurs til en linje på en salgsordre, hvis du konverterer salgsordren til en bestilling på mottakersiden, inkluderes ikke ressursen. Hvis du vil bruke ressurser i konserninterne transaksjoner, bruker du feltet **Finanskontonr. for KI-partnerkjøp** på ressurskortet for å angi hvilken konto utgiftene skal bokføres til.
 
 ## <a name="to-set-up-a-resource"></a>Slik konfigurerer du en ressurs
 Opprette et kort for hver ressurs du vil bruke i prosjekter.
@@ -79,7 +81,7 @@ I tillegg til prisen som er angitt på ressurskortet, kan du definere alternativ
 [Finans](finance.md)  
 [Innkjøp](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)      
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

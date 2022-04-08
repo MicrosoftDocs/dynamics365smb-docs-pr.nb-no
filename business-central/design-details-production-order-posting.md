@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 21dfc90e25c33c26bc739ff32274d0a5088a6e2f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 51d04edb267ba2d75b4ed57d1587b40994f009cc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146569"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511704"
 ---
 # <a name="design-details-production-order-posting"></a>Designdetaljer: Bokføre produksjonsordre
 De forbrukte komponentene og den brukte maskintiden konverteres og avgis som den produserte varen når produksjonsordren er ferdig, på lignende måte som ved bokføring av monteringsordrer. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md). Kostnadsflyten for monteringsordrer er imidlertid mindre komplisert, spesielt fordi bokføring av monteringskost bare forekommer én gang og derfor ikke genererer lager for varer i arbeid.
@@ -108,7 +108,7 @@ I standardkostmiljøer er kostberegning for en produksjonsordre basert på følg
  [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)   
  [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md)  
  [Administrere lagerkostnader](finance-manage-inventory-costs.md) [Finans](finance.md)  
- [Arbeide med Business Central](ui-work-product.md)
+ [Arbeid med Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

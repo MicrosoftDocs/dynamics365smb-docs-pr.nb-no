@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 5cfc08a7a4f8645bc8657477819cdacc9d147d88
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 05cd41ffea6b2c78747112925d4da1e8a74c67b6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322879"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518786"
 ---
 # <a name="save-and-personalize-list-views"></a>Lagre og tilpasse listevisninger
 Når du har definert et filter i en liste og vil beholde filteret til senere bruk, kan du lagre det som en visning. Hvis du vil ha mer informasjon om filtrering av lister, se [Definere filtre på oversikter](ui-enter-criteria-filters.md#setting-filters-on-lists).
@@ -46,7 +46,7 @@ Etter hvert som antall visninger på en side vokser, kan det hende du trenger me
 ## <a name="see-also"></a>Se også
 [Vanlige spørsmål om listevisninger](ui-views-faq.yml)  
 [Tilpasse arbeidsområdet](ui-personalization-user.md)    
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
 

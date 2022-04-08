@@ -10,12 +10,12 @@ ms.reviewer: edupont
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 27cefa04aef99b548a40afdfabbbb1c1ceffb234
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 9ae67b1ec8b989f0bd66360b9f5a2c8b76077d0b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334879"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520659"
 ---
 # <a name="posting-purchases"></a>Bokføre kjøp
 I et kjøpsdokument kan du velge mellom følgende bokføringshandlinger:
@@ -61,7 +61,7 @@ Du kan redigere bestemte felt på bokførte kjøpsdokumenter, for eksempel felte
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)  
 [Korrigere eller annullere ubetalte kjøpsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Finne sider og informasjon med Fortell meg](ui-search.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

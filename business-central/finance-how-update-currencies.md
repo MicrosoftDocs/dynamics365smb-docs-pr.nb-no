@@ -1,117 +1,39 @@
 ---
 title: Oppdatere valutakurser (inneholder video)
-description: Spor beløp i ulike valutaer ved hjelp av valutakoder, la Business Central hjelpe deg med å justere FX-valutakurser for bokførte poster med en ekstern service.
-author: SorenGP
+description: Hvis du sporer beløp i ulike valutaer, kan du la Business Central hjelpe deg med å justere FX-valutakurser for bokførte poster med en ekstern service.
+author: edupont04
 ms.topic: conceptual
 ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
-ms.date: 02/17/2022
+ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 04f96b269b842045c1a804f976ffddfd5348befc
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 45926cc094234a6b75f3e8a1ca997fc89506ef28
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323269"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523478"
 ---
 # <a name="update-currency-exchange-rates"></a>Oppdatere valutakurser
 
-Ettersom selskaper har drift i stadig flere land/regioner, blir det viktigere at de kan handle og rapportere finansinformasjon i mer enn én valuta. Den lokale valutaen (LV) er definert på siden **Finansoppsett** som beskrevet i artikkelen [Konfigurer finans](finance-setup-finance.md). Når den lokale valutaen (LV) er definert, vises den som en tom valuta, så når feltet **Valuta** er tomt, betyr det at valutaen er i LV.  
-
-Deretter må du definere valutakoder for hver valuta du bruker, hvis du kjøper eller selger i andre valutaer enn den lokale valutaen (LV). Bankkonti kan også opprettes ved hjelp av valutaer. Det er mulig å registrere finanstransaksjoner i ulike valutaer, men finanstransaksjonen vil alltid bokføres i lokal valuta (LV).
-
-> [!Important]
-> Du må ikke opprette den lokale valuta koden **Finansoppsett** og på siden **Valutaer**. Dette vil skape forvirring mellom den tomme valutaen og den lokale valutakoden i valutatabellen, og bankkonti, kunder eller leverandører kan opprettes ved en feiltakelse, noen med den tomme valutaen og noen med den lokale valutakoden.
-
-Finans er definert til å bruke den lokale valutaen (LV), men du kan definere at den skal bruke en annen valuta med en valutakurs tilordnet. Når du angir en ny valuta som en såkalt tilleggsrapporteringsvaluta, registrerer [!INCLUDE[prod_short](includes/prod_short.md)] beløp automatisk i både LV og denne tilleggsrapporteringsvalutaen i alle finansposter og andre poster, for eksempel mva-poster. Hvis du vil ha mer informasjon, se [Sette opp en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md). Tilleggsrapporteringsvalutaen brukes oftest til å gjøre det enklere å tilrettelegge finansrapportering til eiere som bor i land/områder som bruker andre valutaer enn den lokale valutaen (LV).  
-
-> [!IMPORTANT]
-> Hvis du vil bruke en tilleggsrapporteringsvaluta for finansrapportering, må du kontrollere at du har forstått begrensningene. Hvis du vil ha mer informasjon, se [Sette opp en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md).
-
-> [!NOTE]  
-> Når du bokfører i finans ved hjelp av en valutakode, for eksempel for å bokføre en utgift i en finanskladd ved hjelp av en valutakode, omregnes transaksjonen til LV ved hjelp av valutakursen for bokføringsdatoen. Finansposten vil ikke inneholde informasjon om hvilken valuta som er brukt, bare verdien i LV. Hvis du vil holde oversikt over den opprinnelige valutaen, for eksempel for en faktura, må du bruke salgs- og kjøpsdokumenter i tillegg til bankkontoer som lagrer valutakodeinformasjon for postene.
+Du kan definere forskjellige valutaer i [!INCLUDE [prod_short](includes/prod_short.md)], for eksempel hvis du handler i andre valutaer enn din lokale valuta. Hvis du vil hjelpe deg med å holde oversikt over endringer i valutakurser, kan du håndtere valutaene manuelt, eller du kan definere en valutakurstjeneste.
 
 ## <a name="currencies"></a>Valutaer
 
-> [!NOTE]  
+> [!TIP]  
 > Hvis du ser etter sanntidsinformasjon om utenlandsk valutakurser (FX) eller historiske kurser i [!INCLUDE[prod_short](includes/prod_short.md)], finner du den referert til som valuta. I tillegg til denne artikkelen kan du også se [Definer en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md).
 
-Du angir valutakodene i **Valutar**, inkludert tilleggsinformasjon og innstillinger som er nødvendige for hver valutakode.
+[!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
-> [!TIP]
-> Opprett valutaene med den internasjonale ISO-koden som kode for å forenkle arbeidet med valutaen i fremtiden.
-
-|Felt|Beskrivelse|  
-|---------------------------------|---------------------------------------|  
-|**Kode**|Identifikatoren for valutaen.|
-|**Beskrivelse**|En fritekstbeskrivelse av valutaen.|
-|**ISO-kode**|Den internasjonale koden som består av tre bokstav koden, til valutaen som er definert i ISO 4217.|
-|**Numerisk ISO-kode**|Den internasjonale numeriske referansen til valutaen som er definert i ISO 4217.|
-|**Valutakursdato**|Den seneste datoen for den faktiske valutakursen.|
-|**ØMU-valuta**|Angir om valutaen er en ØUM-valuta (Economic and Monetary Union), for eksempel EUR.|
-|**Konto for realisert agio**|Kontoen der den faktiske fortjenesten skal bokføres når du mottar betaling for salg eller registrerer den faktiske valutakursen for betalinger til leverandører. Hvis du vil ha et eksempel på en valutatransaksjon, kan du se eksemplet under denne tabellen. |
-|**Konto for realisert disagio**|Kontoen der det faktiske tapet skal bokføres når du mottar betaling for salg eller registrerer den faktiske valutakursen for betalinger til leverandører. Hvis du vil ha et eksempel på en valutatransaksjon, kan du se eksemplet under denne tabellen. |
-|**Konto for urealisert agio**|Kontoen der den teoretiske vinningen blir postert når du utfører en valutajustering.|
-|**Konto for urealisert disagio**|Kontoen der det teoretiske tapet blir postert når du utfører en valutajustering.|
-|**Avrundingspresisjon, beløp**|Noen valutaer har andre formater for fakturabeløp enn det som er definert på siden **Finansoppsett**. Hvis du endrer avrundingspresisjonen for en valuta, blir alle fakturabeløp i den valutaen avrundet med den oppdaterte presisjonen.|
-|**Beløp, antall desimaler**|Noen valutaer har andre formater for fakturabeløp enn det som er definert på siden **Finansoppsett**. Hvis du endrer antall desimaler for en valuta, blir alle fakturabeløp i valutaen avrundet med de oppdaterte desimalene|
-|**Fakturaavrundingstype**|Angir metoden som skal brukes hvis beløpene må avrundes. Alternativene er **Nærmest**, **Opp** og **Ned**.|
-|**Avrundingspresisjon, pris**|Noen valutaer har andre formater for priser enn det som er definert på siden **Finansoppsett**. Hvis du endrer prisavrundingspresisjonen for en valuta, blir alle priser i den valutaen avrundet med den oppdaterte presisjonen.|
-|**Pris, antall desimaler**|Noen valutaer har andre formater for priser enn det som er definert på siden **Finansoppsett**. Hvis du endrer antall desimaler for pris for en valuta, blir alle priser i valutaen avrundet med de oppdaterte desimalene.|
-|**Avrundingspresisjon, utligning**|Angir størrelsen på intervallet som er tillatt som avrundingsdifferanse når du utligner poster i ulike valutaer med hverandre.|
-|**Konvertering av LV-avrunding – debetkonto**|Angir konverteringsinformasjon som også må inneholde en debetkonto, hvis du vil sette inn korreksjonslinjer for avrundingsdifferanser i finanskladdene ved hjelp av handlingen **Sett inn konv.avrund.linjer – LV**.|
-|**Konvertering av LV-avrunding – kreditkonto**|Angir konverteringsinformasjon som også må inneholde en kreditkonto, hvis du vil sette inn korreksjonslinjer for avrundingsdifferanser i finanskladdene ved hjelp av handlingen **Sett inn konv.avrund.linjer – LV**.|
-|**Justert den**|Datoen for den siste valutajusteringen.|
-|**Endret den**|Datoen for endringen av valutaens oppsett.|
-|**Betalingstoleranse %**|Maksimum betalingstoleranseprosent som er angitt for denne valutaen. Hvis du vil ha mer informasjon, kan du se [Betalingstoleranse og toleransegrense for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md). |
-|**Maks. betalingstoleransebeløp**|Maksimum betalingstoleransebeløp som er angitt for denne valutaen. Hvis du vil ha mer informasjon, kan du se [Betalingstoleranse og toleransegrense for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md). |
-|**Valutafaktor**|Angir forholdet mellom valutaen og den lokale valutaen som bruker den faktiske valutakursen.|
-|**Kto. for real. agio - t.val.**|Angir finanskontoen som brukes til å bokføre agio for kursjusteringer mellom den lokale valutaen (LV) og tilleggsrapporteringsvalutaen. Agio beregnes når den satsvise jobben Juster valutakurser kjøres for å justere finanskonti. Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
-|**Kto. for real. disagio - t.val**|Angir finanskontoen som brukes til å bokføre disagio for kursjusteringer mellom den lokale valutaen (LV) og tilleggsrapporteringsvalutaen. Agio beregnes når den satsvise jobben Juster valutakurser kjøres for å justere finanskonti. Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
-|**Konto for restagio**|Angir finanskontoen som brukes til å bokføre restagiobeløp (avrundingsdifferanser) når en tilleggsrapporteringsvaluta brukes i modulen Finans. Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
-|**Konto for restdisagio**|Angir finanskontoen som brukes til å bokføre restdisagiobeløp (avrundingsdifferanser) når en tilleggsrapporteringsvaluta brukes i modulen Finans. Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
-|**Maks. tillatte mva-differanse**|Maksimumsbeløpet som er tillatt for mva-forskjeller i denne valutaen. Hvis du vil ha mer informasjon, kan du se [Korriger mva-beløp manuelt i salgs- og kjøpsdokumenter](finance-work-with-vat.md#correcting-vat-amounts-manually-in-sales-and-purchase-documents). Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
-|**Mva-avrundingstype**|Angir avrundingsmetoden for å korrigere mva-beløp manuelt i salgs- og kjøpsdokumenter. Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
+Du angir valutakodene i **Valutaer**-listen, inkludert tilleggsinformasjon og innstillinger som er nødvendige for hver valutakode. Hvis du vil ha mer informasjon, kan du se [Valutaer](finance-set-up-currencies.md#curr)
 
 ### <a name="example-of-a-receivable-currency-transaction"></a>Eksempel på en kundevalutatransaksjon
 
-Når du mottar en faktura fra et selskap i utenlandsk valuta, er det ganske enkelt å beregne den lokale valutaverdien (LV) for fakturaen basert på dagens valutakurs. Fakturaen leveres imidlertid ofte med betalingsbetingelser, slik at du kan forsinke betalingen til en senere dato, som innebærer en mulig annen valutakurs. Dette problemet i kombinasjon med at valutakurser alltid avviker fra de offisielle valutakursene gjør det umulig å forutse det nøyaktige beløpet i den lokale valutaen (LV) som kreves for å dekke fakturaen. Hvis fakturaens forfallsdato går til neste måned, må du kanskje også revaluere det lokale valutabeløpet (LV) på slutten av måneden. Du må definere valutajusteringen fordi den nye LV-verdien som kreves for å dekke fakturabeløpet, kan være forskjellig, og selskapets gjeld for leverandøren er muligens endret. Det nye beløpet i LV kan være høyere eller lavere enn det forrige beløpet, og representerer derfor en gevinst eller et tap. Men siden fakturaen ikke er betalt ennå, regnes gevinst eller som *urealisert*. Senere betales fakturaen, og banken har returnert den med den faktiske valutakursen for betalingen. Det er ikke før nå *realisert* gevinst eller tap er beregnet. Urealisert gevinst eller tap tilbakeføres deretter, og faktisk gevinst eller tap bokføres i stedet.
-
-I eksemplet nedenfor er en faktura mottatt den 1. januar med valutabeløpet på 1 000. På tidspunktet er valutakursen er 1,123.
-
-|Dato|Handling|Valutabeløp|Dokumentsats|LV-beløp på dokument|Justeringssats|Beløp for urealisert agio|Betalingssats|Beløp for realisert disagio|  
-|-----|----------|------------|-----------|---------|-----------|-------------|---------|---------|
-|1/1|**Fakturering**|1000|1,123|1123|||||
-|1/31|**Justering**|1000||1125|1,125|2|||
-|2/15|**Justeringstilbakeføring på betaling**|1000||||-2|||
-|2/15|**Betaling**|1000||1120|||1,120|–3|
-
-På slutten av måneden utføres det en valutajustering der justeringsvalutakursen er satt til 1,125, som utløser en urealisert agio på 2.
-
-På betalingstidspunktet viser den faktiske valutakursen som er registrert på banktransaksjonen, en valutakurs på 1,120.
-
-Her finnes en urealisert transaksjon, og derfor blir den tilbakeført sammen med betalingen.
-
-Til slutt registreres betalingen, og det faktiske tapet blir postert til kontoen for realisert disagio.
-
-## <a name="available-currency-functions"></a>Tilgjengelige valutafunksjoner
-
-Følgende tabell beskriver nøkkelhandlinger på siden **Valutaer**. Noen av handlingene forklares i de neste avsnittene.  
-
-|Meny|Handling|Beskrivelse|
-|-------------|--------------|------------------------------|
-|**Behandle**|**Foreslå konti**|Bruk konti fra andre valutaer. De mest brukte kontiene blir satt inn.|
-||Endre betalingstoleranse|Endre én av eller både den maksimale betalingstoleransen eller betalingstoleranseprosenten og filter etter valuta. Hvis du vil ha mer informasjon, kan du se [Betalingstoleranse og toleransegrense for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md)|
-||**Valutakurser**|Vis oppdaterte valutakurser for valutaene du bruker.|
-||**Juster valutakurser**|Juster finans-, kunde-, leverandør- og bankkontoposter slik at de gjenspeiler en mer oppdatert saldo hvis valutakursen har endret seg siden postene ble bokført.|
-||**Journal for justering av valutakurs**|Vis resultatet av å kjøre den satsvise jobben **Juster valutakurser**. Det opprettes én linje for hver valuta eller hver kombinasjon av valuta og bokføringsgruppe som er med i justeringen.|
-|**Valutakurstjeneste**|**Valutakurstjenester**|Vis eller rediger oppsettet av tjenestene som er konfigurert til å hente oppdaterte valutakurser når du velger handlingen **Oppdater valutakurser**.|
-||**Oppdater valutakurser**|Få de siste valutakursene fra en tjenesteleverandør.|
-|**Rapporter**|**Valutaoppgjør**|Vis saldoene for alle kunder og leverandører i både utenlandsk og lokal valuta (LV). Rapporten viser to saldoer i LV. Den ene er valutaoppgjøret konvertert til LV med gjeldende kurs på transaksjonstidspunktet. Den andre er saldo for fremmed valuta omgjort til LV med gjeldende kurs på arbeidsdatoen.|
+[!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
 ## <a name="exchange-rates"></a>Valutakurser
 
-Valutakursene er verktøyet for å beregne den lokale valutaverdien (LVk) for hver valutatransaksjon. Siden **Valutakurser** inneholder følgende felter:
+Valutakursene er verktøyet for å beregne den lokale valutaverdien (LV) for hver valutatransaksjon. Siden **Valutakurser** inneholder følgende felter:
 
 |Felt|Beskrivelse|  
 |---------------------------------|---------------------------------------|  
@@ -203,9 +125,12 @@ Verdien i **Valutakurs**-feltet på **Valutaer**-siden oppdateres med den nyeste
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/use-multiple-currencies-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
-[Definere en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md)  
+
+[Valutaer i Business Central](finance-currencies.md)  
+[Definer valutaer](finance-set-up-currencies.md)  
+[Definer en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md)  
 [Avslutte år og perioder](year-close-years-periods.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

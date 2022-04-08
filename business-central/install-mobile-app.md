@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: desktop, Windows, app
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9c550c5e62b025d59c451aed83a6dbf6f0e1e11b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35d2c97f888905584010c75c7529b4b66fec51c0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138469"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515592"
 ---
 # <a name="getting-business-central-on-your-mobile-device"></a>Få Business Central på mobilenheten din
 
@@ -40,7 +40,7 @@ Du har nå tilgang til [!INCLUDE[prod_short](includes/prod_short.md)], og kan vi
 > [!TIP]
 > Hvis du vil koble appen til et sandkassemiljø, velger du **Avanserte alternativer**, og deretter velger du påloggingsalternativet **Skysandkasse**. Deretter, hvis du har mer enn ett sandkassemiljø, velger du det relevante miljøet.
 
-## <a name="using-business-central-on-premises"></a>Bruker du Business Central lokalt?
+## <a name="use-business-central-on-premises"></a>Bruker du Business Central lokalt?
 
 Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan du også dra nytte av fordelene med mobilappen. Installasjonen ligner, men med noen få unntak.
 
@@ -64,7 +64,7 @@ Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan du ogs
 
 [Vanlige spørsmål om mobilapper](ui-mobile-faq.yml)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

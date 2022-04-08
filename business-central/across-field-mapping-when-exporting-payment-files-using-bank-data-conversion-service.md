@@ -9,15 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 46664dac24f5da8eab714f1be303e4fb7241496d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 31f6c59f13bed6fdb62624b56ad732824af77230
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131037"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519332"
 ---
 # <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Felttilordning ved eksport av betalingsfiler ved hjelp av utvidelsen AMC Banking 365 Fundamentals
-Når du eksporterer betalingsfiler ved hjelp av utvidelsen AMC Banking 365 Fundamentals, eksponeres dataene du eksporterer, til tjenesteleverandøren. Tjenesteleverandøren er ansvarlig for personvernet vedrørende disse dataene. Hvis du vil ha mer informasjon om utvidelsen AMC Banking 365 Fundamentals, kan du se [Bruke utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
+Når du eksporterer betalingsfiler ved hjelp av utvidelsen AMC Banking 365 Fundamentals, eksponeres dataene du eksporterer, til tjenesteleverandøren. Tjenesteleverandøren er ansvarlig for personvernet vedrørende disse dataene. Hvis du vil ha mer informasjon om utvidelsen AMC Banking 365 Fundamentals, kan du se [Bruk utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
 >  Når du eksporterer betalingsfiler ved hjelp av utvidelsen AMC Banking 365 Fundamentals, blir noen av forretningsdataene dine eksponert for leverandøren av tjenesten. Tjenesteleverandøren, AMC Consult A/S, er ansvarlig for personvernet vedrørende disse dataene. Hvis du vil ha mer informasjon, kan du se [personvernpolicyen for AMC](https://go.microsoft.com/fwlink/?LinkId=510158).  
@@ -72,7 +72,7 @@ Tabellen nedenfor inneholder en oversikt over feltene i [!INCLUDE[prod_short](in
 ## <a name="see-also"></a>Se også  
 [Definere datautveksling](across-set-up-data-exchange.md)  
 [Utveksle data elektronisk](across-data-exchange.md)
-[Bruke utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
+[Bruk utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   
 [Betale med utvidelsen AMC Banking 365 Fundamentals eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)   
 
 

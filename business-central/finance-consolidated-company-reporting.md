@@ -10,12 +10,12 @@ ms.search.keywords: consolidation, subsidiaries, consolidate
 ms.search.form: 1826, 1827
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c1873d8b5b4da7958fdab052bc587d004b06c7c6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5e6e633155131c7a397a4214d9d22d9464b0847d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136117"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518158"
 ---
 # <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidere finansielle data fra flere selskaper
 
@@ -118,8 +118,8 @@ De eksporterte postene inneholder følgende felt: **Kontonr.**, **Bokføringsdat
 
 [Konfigurere selskapskonsolidering](finance-consolidated-company-reporting-setup.md)  
 [Behandle konserninterne transaksjoner](intercompany-manage.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Eksportere forretningsdataene til Excel](about-export-data.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Eksporter forretningsdataene til Excel](about-export-data.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: eb2ae1ab65a777ab928d38ee62de56f9995e9554
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cb54a1baee3a6b7fc63a1f9db15bb79cddb0c108
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132553"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516539"
 ---
 # <a name="setup-best-practices-supply-planning"></a>Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging
 Forsyningsplanlegging er et viktig forretningsområde. Når forsyningsplanlegging konfigureres og brukes på rett måte, kan det hjelpe et selskap med å unngå at det blir tomt for en vare på lager, og både bestillingskostnader og lagerkostnader kan reduseres.  
@@ -33,7 +33,7 @@ Forsyningsplanlegging er et viktig forretningsområde. Når forsyningsplanleggin
  [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
  [Designdetaljer: Planleggingsparametere](design-details-planning-parameters.md)   
  [Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)  
- [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

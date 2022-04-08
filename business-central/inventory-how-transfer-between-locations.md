@@ -10,12 +10,12 @@ ms.search.keywords: move, warehouse
 ms.search.forms: 5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 5741, 5742, 5757, 5748, 5747, 9285, 5756, 5755
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b51bd44099c85ae16498e2f40abc86db7134cb1b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 347550073fc4efad89c41f180c3a48747b91d7a7
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148501"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511626"
 ---
 # <a name="transfer-inventory-between-locations"></a>Overføre beholdning mellom lokasjoner
 Du kan overføre lagervarer mellom lokasjoner ved å opprette overføringsordrer. Du kan også bruke varereklassifiseringskladden.
@@ -63,7 +63,7 @@ Hvis du vil overføre varer, må lokasjoner og overføringsruter defineres. Hvis
 ## <a name="see-also"></a>Se også
 [Håndtere lager](inventory-manage-inventory.md)  
 [Definer lokasjoner](inventory-how-setup-locations.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
 

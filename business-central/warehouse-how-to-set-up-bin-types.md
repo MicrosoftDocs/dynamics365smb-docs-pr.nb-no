@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: f45908cf5a1d4352039cf83ab1db2719caca8a53
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 8fb409e9ca0a8540fa2ea997faae790f78086d6e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334593"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520051"
 ---
 # <a name="set-up-bin-types"></a>Definere hylletyper
 Du kan dirigere vareflyten gjennom hyller som du har definert for bestemte lageraktiviteter. Du gir hver hylle de grunnleggende flytaktivitetene, og du definerer måten en hylles skal brukes på ved å tilordne den en hylletype.  
@@ -47,8 +47,8 @@ Nedenfor finner du en liste over de hylletypene du kan opprette.
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

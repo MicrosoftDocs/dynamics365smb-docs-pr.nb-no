@@ -7,14 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.date: 09/29/2021
+ms.search.form: 1,
+ms.date: 03/14/2022
 ms.author: edupont
-ms.openlocfilehash: beaca5bec31c0ba4877245cade5363dad21fe05a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bf7435f7d11e05cbe517208ffacd173a73ba1fd6
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133657"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417616"
 ---
 # <a name="company-information-quick-start"></a>Hurtigstart for selskapsopplysninger
 
@@ -25,19 +26,14 @@ Du kan angi alle relevante data på siden **Selskapsinformasjon** når du oppret
 ## <a name="to-set-up-company-information"></a>Slik konfigurerer du selskapsopplysninger  
 
 1. Velg ikonet ![tannhjulikonet for å åpne Innstillinger-menyen.](media/ui-experience/settings_icon_small.png) og velg handlingen **Selskapsopplysninger**.
-2. Angi opplysningene i hurtigfanene som beskrevet i tabellen nedenfor.
+2. Angi opplysningene i hurtigfanene som beskrevet i tabellen nedenfor. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-    |Felt|Beskrivelse|  
-    |-------------|---------------------------------------|  
-    |**Generelt**|Skriv inn generell informasjon om selskapet, inkludert en logo siden den vises på dokumenter med mot kundene, for eksempel fakturaer du sender ut. |  
-    |**Kommunikasjon**|Angi informasjon om den grunnleggende kontaktinformasjonen for selskapet, for eksempel telefonnummer og e-postadresse.|  
-    |**Betalinger**| Fyll ut de aktuelle bankopplysningene for å være sikker på at kundene kan betale deg.|  
-    |**Levering**|Fylle ut de aktuelle leveringsopplysningene slik at du kan sende og motta varer fra og til selskapet.|  
-    |**Avgift**|Avhengig av landet du bor i, er kanskje hurtigfanen Avgift tilgjengelig for deg. Hvis den er tilgjengelig, fyller du den ut.|  
+    [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 
 Når du er ferdig med å fylle ut informasjonen, kan du lukke siden.  
 
 ## <a name="see-also"></a>Se også  
 
+[Oversikt over selskapsinformasjon](admin-company-information.md)  
+[Konfigurer firmainformasjon i Italia](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
 [Hurtigstart for Business Central](quick-start-business-central.md)  
-[Konfigurere firmainformasjon](LocalFunctionality/Italy/how-to-set-up-company-information.md)  

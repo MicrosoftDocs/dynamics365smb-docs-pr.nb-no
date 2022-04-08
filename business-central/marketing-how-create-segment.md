@@ -1,22 +1,21 @@
 ---
-title: Opprette segmenter | Microsoft-dokumentasjon
+title: Opprette segmenter.
 description: Beskriver hvordan du oppretter et segment for eksempel for en gruppe med kontakter i Business Central, for å sende direktereklame til flere kontakter.
-services: project-madeira
-documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: relationship, prospect
+ms.search.form: 5091, 5093
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a6aaabb50d3bb24036d7f94c413103348134f9a4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 018b0519378c5066173aa00a285b2b26a9967c65
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131437"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522957"
 ---
 # <a name="create-segments"></a>Opprette segmenter.
 Du kan opprette segmenter for å velge en gruppe kontakter, hvis du for eksempel vil opprette en samhandling med flere kontakter, blant annet utsendinger.
@@ -34,7 +33,7 @@ Nå kan du legge til koblinger i segmentet. Hvis du vil ha mer informasjon, kan 
 ## <a name="see-also"></a>Se også
 [Håndtere segmenter](marketing-segments.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

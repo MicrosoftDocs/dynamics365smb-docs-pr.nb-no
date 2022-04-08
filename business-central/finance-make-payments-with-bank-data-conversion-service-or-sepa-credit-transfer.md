@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 256, 1205, 1206, 1209, 10810, 10811
 ms.date: 07/06/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7ca67e062f2ea6720d0aa7cbf196fd2c6e612159
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: be2f6e3efdfd34d59c55a3addeefb5646454b3bb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382631"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516268"
 ---
 # <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Betale med AMC Banking 365 Fundamentals-utvidelsen eller SEPA-kredittoverføring
 
@@ -31,7 +31,7 @@ Nå kan du behandle betalinger til leverandører på siden **Betalingskladd** ve
 
 ## <a name="setting-up-the-amc-banking-365-fundamentals-extension"></a>Konfigurere AMC Banking 365 Fundamentals-utvidelsen
 
-Aktiver utvidelsen AMC Banking 365 Fundamentals for å konvertere en kontoutdragsfil til et format du kan importere, eller konvertere den eksporterte betalingsfilen til formatet som banken krever. Hvis du vil ha mer informasjon, kan du se [Bruke AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md).
+Aktiver utvidelsen AMC Banking 365 Fundamentals for å konvertere en kontoutdragsfil til et format du kan importere, eller konvertere den eksporterte betalingsfilen til formatet som banken krever. Hvis du vil ha mer informasjon, kan du se [Bruk AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md).
 
 ## <a name="setting-up-sepa-credit-transfer"></a>Definere SEPA-kredittoverføring
 
@@ -93,7 +93,7 @@ Når du er klar til å utføre betalinger til leverandører eller refusjoner til
 AMC Banking 365 Fundamentals-utvidelsen er tilgjengelig i den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)]. I Nord-Amerika-versjoner kan den samme utvidelsen brukes til å sende betalingsfiler som elektronisk pengeoverføring (EFT), men med en litt annen prosess. Se trinn 6 i [Slik eksporterer du betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#to-export-payments-to-a-bank-file).
 
 > [!NOTE]  
-> Før du kan eksportere betalingsfiler fra betalingsjournalen, må du angi det elektroniske formatet for bankkontoen som er involvert, og du må aktivere AMC Banking 365 Fundamentals-utvidelsen. Hvis du vil ha mer informasjon, kan du se [Konfigurere bankkonti](bank-how-setup-bank-accounts.md) og [Bruke AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md). I tillegg må du merke av for **Tillat betalingseksport** på siden **Finanskladder**. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
+> Før du kan eksportere betalingsfiler fra betalingsjournalen, må du angi det elektroniske formatet for bankkontoen som er involvert, og du må aktivere AMC Banking 365 Fundamentals-utvidelsen. Hvis du vil ha mer informasjon, kan du se [Konfigurere bankkontoer](bank-how-setup-bank-accounts.md) og [Bruk AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md). I tillegg må du merke av for **Tillat betalingseksport** på siden **Finanskladder**. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
 
 Du bruker siden **Kredittoverføringsregistre** til å vise betalingsfilene som er eksportert fra betalingskladden. Fra denne siden kan du også eksportere betalingsfiler på nytt ved tekniske feil eller endringer. Vær oppmerksom på at eksporterte EFT-filer vises ikke på denne siden, og kan ikke være eksportert på nytt.  
 
@@ -156,10 +156,10 @@ Bokfør betalingene når den elektroniske betalingen er behandlet av banken. Hvi
 
 ## <a name="see-also"></a>Se også
 
-[Bruke AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md)  
+[Bruk utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  
-[Arbeide med finanskladder](ui-work-general-journals.md)  
-[Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)  
+[Arbeid med finanskladder](ui-work-general-journals.md)  
+[Innkrev betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

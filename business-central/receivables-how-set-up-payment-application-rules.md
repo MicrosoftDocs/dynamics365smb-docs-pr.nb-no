@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 1290, 1294, 1287
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ce44487a4c40e3997e95f883ac3cdf3a396e0d4b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 4d910826249f7a5e799a02c229bbb7875020df51
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382928"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514806"
 ---
 # <a name="set-up-rules-for-automatic-application-of-payments"></a>Definere regler for automatisk utligning av betalinger
 
@@ -86,7 +86,7 @@ Tabellen nedenfor beskriver standardreglene for betalingsutligning i [!INCLUDE[p
 [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

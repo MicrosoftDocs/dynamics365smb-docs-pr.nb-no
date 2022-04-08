@@ -10,12 +10,12 @@ ms.search.keywords: delimit, FlowFilter, totals, limit, advanced
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9f5eda0056c4c449a46f9f04064c3f2764087007
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: b59e6fc824f9c386c12030163f51ef09622f74a0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335013"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519599"
 ---
 # <a name="sorting-searching-and-filtering"></a>Sortere, søke etter og filtrere
 
@@ -132,7 +132,7 @@ Du kan angi et enkelt filter direkte i en liste ved hjelp av filtreringsruten, d
 
 ### <a name="setting-filters-in-reports-batch-jobs-and-xmlports"></a>Definere filtre i rapporter, kjørsler og XMLport-er
 
-For rapporter og XMLport-er vises filtrene direkte på forespørselssiden. På forespørselssiden vises de sist brukte filtrene i henhold til valget i feltet **Bruk standardverdi fra**. Hvis du vil ha mer informasjon, kan du se [Bruke lagrede innstillinger](ui-work-report.md#SavedSettings).
+For rapporter og XMLport-er vises filtrene direkte på forespørselssiden. På forespørselssiden vises de sist brukte filtrene i henhold til valget i feltet **Bruk standardverdi fra**. Hvis du vil ha mer informasjon, kan du se [Bruk lagrede innstillinger](ui-work-report.md#SavedSettings).
 
 Hoveddelen for **Filter** viser standardfilterfeltene du bruker til å avgrense hvilke poster som skal tas med i rapporten eller XMLport. Hvis du vil legge til et filter, velger du **+ Filter**-handlingen. Skriv deretter inn navnet på feltet du vil filtrere etter, eller velg et felt fra rullegardinlisten.
 
@@ -154,7 +154,7 @@ Kolonner som allerede har filtre, angis av ikonet ![filterikon](media/ui-search/
 Når du angir kriterier, kan du bruke alle tallene og bokstavene du normalt kan bruke i feltet. Men det er også et sett med spesialtegn du kan bruke som operatorer, til å filtrere resultatene ytterligere. Følgende avsnitt beskriver disse symbolene og hvordan de brukes som operatorer i filtre.
 
 > [!TIP]
-> Hvis du vil ha mer informasjon om filtrering av datoer og klokkeslett, kan du se [Arbeide med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md).
+> Hvis du vil ha mer informasjon om filtrering av datoer og klokkeslett, kan du se [Arbeid med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md).
 
 > [!IMPORTANT]
 > - Det kan oppstå situasjoner der verdien du vil filtrere på, inneholder et symbol som er en operator. Hvis du vil ha mer informasjon om hvordan du håndterer disse situasjonene, kan du se [Filtrere etter verdier som inneholder symboler](#symbols) for å få mer informasjon om hvordan du håndterer denne situasjonen.
@@ -171,7 +171,10 @@ Når du angir kriterier, kan du bruke alle tallene og bokstavene du normalt kan 
 |`P8..`|Opplysninger for regnskapsperiode 8 og fremover|  
 |`..23`|Fra startdatoen til 23. i inneværende måned og inneværende år 23.59.59|  
 |`23..`|Fra 23. i inneværende måned og inneværende år 00.00.00 til slutten av tid|  
-|`22..23`|Fra 23. i inneværende måned og inneværende år 0.00.00 til 23. i inneværende måned og inneværende år 23.59.59|  
+|`22..23`|Fra 23. i inneværende måned og inneværende år 0.00.00 til 23. i inneværende måned og inneværende år 23.59.59| 
+
+> [!TIP]
+> Hvis du bruker et numerisk tastatur, kan det hende at tasten for desimalskilletegn sender et annet tegn enn et punktum (.). For å bytte til et punktum trykker du på tastene Alt + desimalskilletegn på det numeriske tastaturet. Når du vil bytte tilbake, trykker du på Alt + desimalskilletegnet igjen. Se [Angi desimalskilletegnet som brukes av numeriske tastaturer](ui-enter-data.md#decimal) for mer informasjon.
 
 #### <a name="124-eitheror"></a>(&#124;) Enten/eller
 
@@ -307,7 +310,7 @@ Bruk `%myvendors` i leverandørens **Nummer**-felt for å vise alle postene for 
 
 [Vanlige spørsmål om søk og filtrering](ui-search-filter-faq.yml)  
 [Lagre og tilpasse listevisninger](ui-views.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

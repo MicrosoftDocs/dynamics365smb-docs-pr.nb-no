@@ -7,12 +7,12 @@ ms.search.keywords: profiles, users
 ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: fa9bd31f0f9ff1705f9caa7f21d9f376febdb712
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b17a4f5a375e4fa1ad067d2679b37bb3d0f5da95
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133125"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514150"
 ---
 # <a name="manage-user-profiles"></a>Administrer brukerprofiler
 
@@ -85,7 +85,7 @@ Når du oppretter en profil, kan du velge ulike avmerkingsbokser som definerer o
     - **Vis i Rolletforsker** for å angi om handlinger til forretningsfunksjoner som er inkludert i profilen, vises i utvidet visning av rolleutforskeren, en funksjonsoversikt. Hvis du vil ha mer informasjon, se [Finne sider med rolleutforskeren](ui-role-explorer.md).
 
 ## <a name="to-export-profiles"></a>Slik eksporterer du profiler
-Du kan eksportere profiler fra [!INCLUDE[prod_short](includes/prod_short.md)], for eksempel for å bruke dem på nytt i en annen leier. Profilene blir eksportert til en ZIP-fil som inneholder AL-filer som kan brukes på nytt til å utvikle utvidelser. Hvis du vil ha mer informasjon, se [Bruke klienten til å opprette profiler og sidetilpasninger](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
+Du kan eksportere profiler fra [!INCLUDE[prod_short](includes/prod_short.md)], for eksempel for å bruke dem på nytt i en annen leier. Profilene blir eksportert til en ZIP-fil som inneholder AL-filer som kan brukes på nytt til å utvikle utvidelser. Hvis du vil ha mer informasjon, se [Bruk klienten til å opprette profiler og sidetilpasninger](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
 * På siden **Profiler (roller)** velger du handlingen **Eksporter profiler**.
 

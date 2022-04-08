@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 7bd357f10509040afb8b64ec19fecda4e8769dfe
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 927e90a5e25205873a3d0784c7065b9735dc7b24
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142006"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515462"
 ---
 # <a name="process-sales-opportunities"></a>Behandle salgsmuligheter
 Når du oppretter en salgsmulighet, er det flere funksjoner for å behandle salgsmuligheten og fullføre den.
@@ -86,7 +86,7 @@ Hvis en salgsmulighet følger en salgssyklus, kan du flytte den fremover eller b
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Opprette og administrere kontakter](marketing-contacts.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

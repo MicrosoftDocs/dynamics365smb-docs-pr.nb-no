@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: 29cfec8ea605209aed7e7005dfcfa1c10d54b7b6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141414"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518418"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Hent Business Central-tillegget for Excel
 
@@ -79,13 +79,13 @@ Du arbeider i både [!INCLUDE[prod_short](includes/prod_short.md)] og administra
     4. Gå gjennom **Godta tillatelsesforespørsler** og velg **Neste** > **Fullfør distribusjon**.
     5. Vent til det grønne avmerkingsmerket ved siden av **Distribuert** vises for tillegget, og velg deretter **Ferdig**. <!--Select **Deploy** and wait til successful, then **Next** > **Continue**.-->
 
-       Tillegget vises på siden **Tillegg**. Hvis du vil ha mer informasjon om hvordan du distribuerer tillegg i administrasjonssenteret for Microsoft 365, kan du se [Distribuer tillegg i administrasjonssenteret](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+       Tillegget vises på siden **Tillegg**. Hvis du vil ha mer informasjon om hvordan du distribuerer tillegg i administrasjonssenteret for Microsoft 365, kan du se [Distribuer tillegg i administrasjonssenteret](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 4. Gå tilbake til det assisterte oppsettet **Excel-tillegget Sentralisert distribusjon** i [!INCLUDE[prod_short](includes/prod_short.md)] og velg **Neste**.
 5. Aktiver **Bruk av sentralisert distribusjon** og velg **Fullfør**.
 
     Hvis du ikke slår på denne bryteren, henter [!INCLUDE[prod_short](includes/prod_short.md)] tillegget direkte fra Office Store.
 
-Når du er ferdig, kan du alltids endre distribusjonen i Microsoft 365-administrasjonssenteret, for eksempel tilordne flere brukere. Hvis du vil ha mer informasjon om hvordan du distribuerer tillegg i administrasjonssenteret, kan du se [Distribuer tillegg i administrasjonssenteret](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Når du er ferdig, kan du alltids endre distribusjonen i Microsoft 365-administrasjonssenteret, for eksempel tilordne flere brukere. Hvis du vil ha mer informasjon om hvordan du distribuerer tillegg i administrasjonssenteret, kan du se [Distribuer tillegg i administrasjonssenteret](/power-platform/admin/use-service-admin-role-manage-tenant?azure-portal=true).
 
 > [!IMPORTANT]
 > Hvis du har mer enn ett miljø, må du kjøre det assisterte oppsettet **Excel-tillegget Sentralisert distribusjon** for hvert miljø der du vil bruke sentralisert distribusjon. Du trenger imidlertid ikke konfigurere den sentraliserte distribusjonen i Microsoft 365 på nytt. Det eneste du må gjøre, er å slå på bryteren **Bruk sentralisert distribusjon** i det assisterte oppsettet. 
@@ -170,8 +170,8 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 
 ## <a name="see-also"></a>Se også
 
-[Analysere årsregnskap i Microsoft Excel](finance-analyze-excel.md)  
-[Arbeide med Business Central](ui-work-product.md)  
+[Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md)  
+[Arbeid med Business Central](ui-work-product.md)  
 [Forbedringer i Excel-integrasjon i 2019 Release Wave 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
 
 

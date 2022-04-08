@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7351
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 06b9b770a94a12a5e6f473259c943a52de713e19
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 02a96b48049207d2272c62b008148c000cf676e0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384049"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520581"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Flytte varer i avanserte lageroppsett
 I avanserte lageroppsett, det vil si lokasjoner med lagerstyring, utføres lagerflyttinger mellom hyller av en overordnet ansatt som klargjør lagerflyttinger i flytteforslaget, og deretter oppretter lagerflyttingene som ansatte på lageret utfører.  
@@ -51,8 +51,8 @@ Hvis lokasjonen bruker lagerstyring og du trenger å flytte varer til andre hyll
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: document, mail, merge, Word, template, email
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: fe9717f871fdc1db782ceeda4cbad267abddca90
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: afc3391712ca33ae01d916dc4f9ed2421a0451f0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383430"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519521"
 ---
-# <a name="using-word-templates-for-bulk-communication"></a>Bruke Word-maler til massekommunikasjon
+# <a name="use-word-templates-for-bulk-communication"></a>Bruk Word-maler til massekommunikasjon
 Microsoft Word-maler kan gjøre det enklere å massekommunisere på trykk eller e-post med enheter som kontakter, kunder og leverandører. Du kan for eksempel opprette brosjyrer for å varsle kunder om en salgskampanje, brev til å informere leverandører om en ny kjøpspolicy, eller invitasjoner til å tiltrekke kontakter til et kommende arrangement.
 
 > [!NOTE]
@@ -55,7 +55,7 @@ Når Word-malen er klar, kan du velge **Bruk** på siden **Word-maler** for å g
 
 Du kan bruke maler på en eller flere av den samme enhetstypen, for eksempel en kontakt, direkte i konteksten til denne siden, eller fra siden for Word-maler for å bruke malen på alle enheter av denne typen.
 
-## <a name="using-word-templates-with-email"></a>Bruk Word-maler med e-post
+## <a name="use-word-templates-with-email"></a>Bruk Word-maler med e-post
 Du kan bruke Word-maler til å legge til innhold i e-postmeldinger. Når du skriver en e-postmelding, kan du velge handlingen **Bruk Word-mal** for å bruke innholdet i en mal på meldingen. Dette forutsetter at du har opprettet en eller flere maler for enheten. Du kan bruke én mal om gangen, og når du bytter mellom maler, endres meldingen for å gjenspeile innholdet fra den valgte malen.
 
 I tillegg kan du bruke handlingen **Legg til fil fra Word-mal** til å knytte innholdet i malen til e-postmeldingen som en fil. Filen bruker formatet som er angitt for utdataene i malen.

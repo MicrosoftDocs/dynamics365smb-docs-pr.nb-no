@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f6f4966a1132c4e389cb3b37f31d9dcc883d27b5
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7496c21745e2a27271db8ccb37c9607040e5259b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8384205"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511600"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Hurtigreferanse for tastatursnarveier – bare PC
 
@@ -79,11 +79,18 @@ ms.locfileid: "8384205"
 |-|-|
 |Ctrl+Skift+Enter|Gå til neste hurtigoppføringsfelt utenfor en liste|
 |Enter/Skift+Enter|Gå til neste/forrige hurtigoppføringsfelt|
+
 ##### <a name="report-preview"></a>Forhåndsvisning av rapport
 
 |Trykk på disse tastene|Hvis du vil gjøre dette|
 |-|-|
 |Ctrl+Home/End|Gå til den første/siste siden|
+
+#### <a name="numeric-keypad"></a>Numerisk tastatur
+
+|Trykk på disse tastene|Hvis du vil gjøre dette|  
+|-|-|
+|Alt + desimalskilletegn|Aktiver eller deaktiver desimalskilletegntasten på numerisk tastatur|
 
 > [!TIP]
 > Hvis du vil ha en grafisk, utskriftsvennlig versjon, velger du følgende bilde og laster ned PDF-filen.

@@ -8,21 +8,22 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: numbers, numbering
 ms.search.form: 456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31
-ms.date: 04/01/2021
+ms.date: 03/24/2022
 ms.author: edupont
-ms.openlocfilehash: e95b60af569511a8a95154a53f80bcc235f883f5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad82c9aa86210c5f89e24fcced0af70751788ef8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140478"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510600"
 ---
 # <a name="create-number-series"></a>Opprette nummerserier
 
 For hvert selskap som opprettes, må du tilordne unike identifikasjonskoder til elementer som for eksempel hovedbokkontoer, kunde- og leverandørkontoer, fakturaer og andre dokumenter. Nummerering er ikke bare viktig for identifikasjonsformål. Med et godt utformet nummereringssystem er det enklere å styre og analysere selskapet, og antall feil som forekommer ved dataregistrering reduseres.
 
 > [!Important]
-> Som standard er det ikke tillatt med mellomrom i nummerserier, fordi den nøyaktige historikken for finanstransaksjoner må være tilgjengelige for revisjon, i henhold til lovgivningen, og må derfor følge en ubrutt sekvens uten slettede numre.<br /><br />
+> Som standard er det ikke tillatt med mellomrom i nummerserier, fordi den nøyaktige historikken for finanstransaksjoner må være tilgjengelige for revisjon, i henhold til lovgivningen, og må derfor følge en ubrutt sekvens uten slettede numre.
+> 
 > Hvis du vil tillate hull i visse nummerserier, må du først rådføre deg med revisor eller regnskapssjefen for å være sikker på at du overholder de juridiske kravene i landet/regionen din. Hvis du vil ha mer informasjon, kan du se delen [Tomrom i nummerserier](#gaps-in-number-series).
 
 > [!NOTE]  
@@ -41,11 +42,14 @@ Hvis du vil bruke mer enn én nummerseriekode for én type hoveddata - det vil s
 Ikke alle poster du oppretter i [!INCLUDE[prod_short](includes/prod_short.md)], er finanstransaksjoner som må bruke sekvensiell nummerering. Kundekort, tilbud og lageraktiviteter er eksempler på poster som tilordnes et nummer fra en nummerserie, men som ikke er underlagt revisjon og/eller kan slettes. For slike nummerserier kan du merke av for **Tillat tomrom i nr.** på siden **Nr.serielinjer**. Denne innstillingen kan også endres etter at du har opprettet nummerserien. Hvis du vil ha mer informasjon, kan du se [Opprette en ny nummerserie](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Virkemåte for feltet Nr. på dokumenter og kort
-På salgs-, kjøps- og overføringsdokumenter og på alle kort kan **Nr.** fylles ut automatisk fra en nummerserie eller manuelt, og det kan settes opp til å være usynlig.
+
+På salgs-, kjøps- og overføringsdokumenter og på alle kort kan **Nr.** feltet kan fylles ut automatisk fra en forhåndsdefinert nummerserie, eller du kan legge den til manuelt. Under visse omstendigheter er feltet **Ant.** er usynlig for å hindre deg i å redigere det.  
 
 **Nr.** -feltet kan fylles ut på tre måter:
 
-1. Hvis det bare finnes én nummerserie for dokumenttypen eller kortet, der det er merket av for **Standardnr.** og ikke merket av for **Manuelle nr.**, fylles feltet ut automatisk med neste nummer i serien, og feltet **Nr.** vises ikke.
+1. Hvis det bare finnes én nummerserie for dokumenttypen eller kortet, og feltet **Standardnr.** er valgt og feltet **Manuelle nr**. er ikke valgt for nummerserien, fylles feltet ut automatisk med neste nummer i serien. **Nr.** -feltet vil ikke være synlig på kortet eller dokumentet.  
+
+    Selv om du definerer maler med forskjellige nummerserier for kunder, hvis nummerserien som er definert i siden **Salgsoppsett** er definert på denne måten, er feltet **Nr.** usynlig på kundekortet, uansett hvilken mal du bruker. Det samme gjelder andre typer kort og dokumenter.  
 
     > [!NOTE]  
     > Hvis nummerserien ikke fungerer, for eksempel fordi den er tom for numre, vil feltet **Nr.** vises, og du kan angi et nummer manuelt eller løse problemene på siden **Nummerserie**.
@@ -71,7 +75,7 @@ Når du åpner et nytt dokument eller kort som det finnes en nummerserie for, å
 > [!TIP]
 > Hvis du vil tillate at brukere angir numre manuelt når de registrerer en ny kunde eller leverandør, kan du for eksempel velge feltet **Manuelle nr.** på selve nummerserien. Hvis du ikke vil tillate manuelt nummer, fjerner du merket i feltet.
 
-Du kan knytte nummerserier til malene du har definert for de ulike typene kunder og leverandører som selger og innkjøpere oftest legger til i [!INCLUDE [prod_short](includes/prod_short.md)]. I dette tilfellet kan du definere de aktuelle nummerseriene, knytte dem til relasjoner og deretter legge til den første nummerserien i den relevante relasjonen på den relevante oppsettsiden.  
+Du kan knytte nummerserier til malene du har definert for de ulike typene kunder og leverandører som selger og innkjøpere oftest legger til i [!INCLUDE [prod_short](includes/prod_short.md)]. I dette tilfellet kan du definere de aktuelle nummerseriene, knytte dem til relasjoner og deretter legge til den første nummerserien i den relevante relasjonen på den relevante oppsettsiden. Når en bruker deretter oppretter en kunde, velger de den relevante malen, og den nye kunden får tildelt et nummer fra nummerserien som er definert for denne malen.  
 
 ## <a name="to-create-relationships-between-number-series"></a>Slik oppretter du forbindelser mellom nummerserier
 
@@ -100,7 +104,7 @@ Det valgte nummeret skal nå brukes til å fylle ut feltet **Nr.** på kortet el
 
 ## <a name="see-also"></a>Se også
 [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

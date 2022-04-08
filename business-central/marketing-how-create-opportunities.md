@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 06/22/2021
 ms.author: jswymer
-ms.openlocfilehash: 174840f390145724181c37c60f040dce75232e91
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 719bd9ca6e536b11ec7c8584e1956d91c7fe8017
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135857"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520971"
 ---
 # <a name="create-sales-opportunities"></a>Opprette salgsmuligheter
 Du kan opprette salgsmuligheter for de salgsmulighetene du har med kontaktene. Alle salgsmulighetene må tilordnes en selger eller en innkjøper, og må ha en kontakt.
@@ -44,7 +44,7 @@ Før du kan opprette salgsmuligheter, må du definere salgssykluser for salgsmul
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Opprette og administrere kontakter](marketing-contacts.md)  
-[Arbeide med Business Central](ui-work-product.md)
+[Arbeid med Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

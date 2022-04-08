@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 5c9a0c61b2f02e3f3750c3d8c23153df2634299d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 35151e830c44cb3edd28988887f86b8abf7a3b51
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132709"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514884"
 ---
 # <a name="date-calculation-for-purchases"></a>Beregne dato for kjøp
 
@@ -34,7 +34,7 @@ Hvis det finnes en ønsket mottaksdato på bestillingslinjen, brukes denne datoe
 Hvis du angir en ønsket mottaksdato i bestillingshodet, kopieres denne datoen til tilsvarende felt på alle linjene. Du kan endre denne datoen på hvilken som helst av linjene, eller du kan fjerne datoen fra linjen.  
 
 > [!NOTE]
-> Hvis prosessen er basert på beregning bakover, for eksempel hvis du bruker ønsket mottaksdato til å hente den planlagte ordredatoen, anbefaler vi at du bruker datoformler som har faste varigheter, for eksempel "5D" i fem dager eller "1U" for én uke. Datoformler uten faste varigheter, for eksempel "GU" for gjeldende uke eller GM for gjeldende måned, kan resultere i feil datoberegninger. Hvis du vil ha mer informasjon om datoformler, kan du se [Arbeide med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md).
+> Hvis prosessen er basert på beregning bakover, for eksempel hvis du bruker ønsket mottaksdato til å hente den planlagte ordredatoen, anbefaler vi at du bruker datoformler som har faste varigheter, for eksempel "5D" i fem dager eller "1U" for én uke. Datoformler uten faste varigheter, for eksempel GU for gjeldende uke eller GM for gjeldende måned, kan resultere i feil datoberegninger. Hvis du vil ha mer informasjon om datoformler, kan du se [Arbeid med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md).
 
 ## <a name="calculating-without-a-requested-delivery-date"></a>Beregne uten en ønsket leveringsdato
 
@@ -58,7 +58,7 @@ Verdien for leveringstid på leverandørkortet brukes imidlertid bare hvis det i
 
 [Beregne dato for salg](sales-date-calculation-for-sales.md)   
 [Beregne ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

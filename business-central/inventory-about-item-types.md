@@ -11,12 +11,12 @@ ms.search.keywords: ''
 ms.search.form: 9297, 5845, 30,
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: e902068398a636b5e205fa7d808066861059b901
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8beaa37b20acbbad54b46e231a5c60694f7a7d75
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131694"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518080"
 ---
 # <a name="about-item-types"></a>Om varetyper
 I **Type**-feltet på **Varekort**-siden kan du velge hva varen brukes til i virksomheten din, som påvirker i hvilken grad du kan administrere varen på lageret. Tabellen nedenfor viser og beskriver de tre varetypene som er tilgjengelige.
@@ -55,7 +55,7 @@ Kundenes varer som du utfører service på, for eksempel en skriver, kalles serv
 [Definere lager](inventory-setup-inventory.md)  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Lager](inventory-manage-inventory.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 6774, 6775, 6776
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 7d64cb9cdba21d3a023c86fbb39e802a78945c2b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 502ac0d10379166426014ea3bda0eedb1f6d601c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144206"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511999"
 ---
 # <a name="set-up-basic-warehouses-with-operations-areas"></a>Opprette grunnleggende lagre med operasjonsområder
 Hvis det finnes interne operasjonsområder, for eksempel produksjon eller montering, i enkle lageroppsett der lokasjoner bruker oppsettsfeltet **Hylle obligatorisk** og muligens oppsettsfeltene **Plukk nødv.** og **Plassering nødv.**, kan du bruke følgende grunnleggende lagerdokumenter til å registrere lageraktivitetene for interne operasjonsområder:  
@@ -139,8 +139,8 @@ Dedikering av hyller gir lignende funksjonalitet som bruk av hylletyper, som bar
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)  
 [Monteringsstyring](assembly-assemble-items.md)  
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

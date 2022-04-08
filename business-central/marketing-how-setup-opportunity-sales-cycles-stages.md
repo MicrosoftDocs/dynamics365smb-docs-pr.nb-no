@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5122, 5121, 5120, 5175, 5119
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 5eb180d1190e56dc7a43354b5aef2637500a38be
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bc42d30cfbfd664ec3d60576f21f4e7cbf3967e8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148437"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522931"
 ---
 # <a name="set-up-opportunity-sales-cycles-and-cycle-stages"></a>Definere salgssykluser for salgsmuligheter og syklusfaser
 Før du kan begynne å bruke salgsmuligheter, må du definere salgssykluser og salgssyklusfaser. En salgssyklus består av en serie med faser som går fra den første kontakten til avslutningen av et salg. Hver fase kan ha bestemte krav som må oppfylles, for eksempel at et tilbud er påkrevd, før en salgsmulighet kan gå til neste fase. Du kan også angi om en fase kan utelates. Du kan definere så mange salgssykluser du trenger, og du kan definere så mange salgssyklusfaser som nødvendig i en salgssyklus.
@@ -65,7 +65,7 @@ Når du har definert en oppgave, kan du tilordne den til en salgsmulighet og der
 ## <a name="see-also"></a>Se også
 [Behandle salgsmuligheter](marketing-processing-sales-opportunities.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

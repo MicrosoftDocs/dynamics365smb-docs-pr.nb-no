@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: customization, personalization
 ms.date: 12/21/2021
 ms.author: edupont
-ms.openlocfilehash: 0534e2e5d54102d85a7cf49f20fb0a1700ff2012
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 901f3899ef164d3d24dbc5c4e2226b840c97c945
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137188"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522645"
 ---
 # <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Behandle lagrede innstillinger for rapporter og satsvise jobber
 
-Når en rapport skal kjøres, ser brukere vanligvis en side der de kan velge alternativer og angi filtre for å endre dataene som er inkludert i den genererte rapporten. Denne siden kalles *forespørselssiden*. En rapport kan inneholde en eller flere *lagrede innstillinger* som brukere kan bruke på rapporten fra forespørselssiden. *Lagrede innstillinger* er i hovedsak forhåndsdefinerte alternativer og filtre. Lagrede innstillinger er en rask, pålitelig og konsekvent metode for å generere rapporter som inneholder de riktige dataene. Hvis du vil ha mer informasjon, kan du se [Bruke standardverdier – forhåndsdefinerte innstillinger](ui-work-report.md#SavedSettings).
+Når en rapport skal kjøres, ser brukere vanligvis en side der de kan velge alternativer og angi filtre for å endre dataene som er inkludert i den genererte rapporten. Denne siden kalles *forespørselssiden*. En rapport kan inneholde en eller flere *lagrede innstillinger* som brukere kan bruke på rapporten fra forespørselssiden. *Lagrede innstillinger* er i hovedsak forhåndsdefinerte alternativer og filtre. Lagrede innstillinger er en rask, pålitelig og konsekvent metode for å generere rapporter som inneholder de riktige dataene. Hvis du vil ha mer informasjon, kan du se [Bruk lagrede innstillinger](ui-work-report.md#SavedSettings).
 
 > [!NOTE]
 > Dette emnet refererer til *rapporter*, men lignende informasjon gjelder for *kjørsler*.
@@ -57,6 +57,7 @@ Fra siden **Rapportinnstillinger**-siden kan du:
 
 ## <a name="see-also"></a>Se også
 
-[Arbeide med rapporter, satsvise jobber og XMLport-er](ui-work-report.md)  
+[Arbeid med rapporter, satsvise jobber og XMLport-er](ui-work-report.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

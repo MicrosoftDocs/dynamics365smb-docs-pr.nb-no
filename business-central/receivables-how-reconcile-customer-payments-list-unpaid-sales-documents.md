@@ -10,12 +10,12 @@ ms.search.keywords: payment process, cash receipts, customer payment
 ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d611a245797fd20382f79deb35d8d598a8fe3565
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 6fa22b84284d05d77bd04919403435d99050cded
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382954"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517794"
 ---
 # <a name="reconcile-customer-payments-from-a-list-of-unpaid-sales-documents"></a>Avstemme kundebetalinger fra en liste over ubetalte salgsdokumenter
 Når kundene har utført betalinger til nettbankkontoen din, må du utligne hvert beløp betalt til det tilknyttede salgsdokumentet, og deretter bokføre betalingen for å oppdatere postene for kunde, finans og bank. Avhengig av forretningsbehovene kan du få betalt og registrere betalingen på ulike måter: manuelt, automatisk og via betalingstjenester.  
@@ -186,7 +186,7 @@ Hvis du ikke bokfører kladdelinjen, øker verdien i feltet **Ikke-bokført sald
 ## <a name="see-also"></a>Se også
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

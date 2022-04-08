@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 375c333bf6fc56d4dac5a59be0dbf905c8339ec5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3e86bf736bb25a9270bec93fcabfa683a6f4ae5f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137578"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516061"
 ---
 # <a name="flush-components-according-to-operation-output"></a>Lagertrekke komponenter i henhold til operasjonsavgang
 Du kan definere forskjellige lagerstrategier for å automatisere registrering av forbruk av komponenter. 
@@ -126,6 +126,6 @@ Tabellen nedenfor beskriver de tilgjengelige alternativene for trekkmetode som d
 [Planlegging](production-planning.md)  
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

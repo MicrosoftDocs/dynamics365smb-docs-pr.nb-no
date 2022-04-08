@@ -7,22 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 9245, 99000919, 99000921, 99000922
-ms.date: 06/22/2021
+ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 2992aaf0d28f6d46bdd942465659760f0622ac0b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5f734667385dcc1e26a4ace4903a88414ff12348
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140946"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512917"
 ---
 # <a name="create-a-demand-forecast"></a>Opprette en behovsprognose
 
-Du kan opprette salgs- og produksjonsprognoser på **Behovsprognose**-siden.  
+Du kan opprette salgs- og produksjonsprognoser på **Behovsprognoser**-listesiden. Deretter angir du ulike innstillinger for prognosene på siden **Oversikt over behovsprognose**.  
 
-Prognosefunksjonalitet brukes til å opprette forventet behov. Faktisk behov opprettes basert på ordrer og produksjonsordrer. Under oppretting av MPS (Master Production Schedule) nettoberegnes prognosen mot salgs- og produksjonsordrer. *Komponenten*-alternativet på prognosen bestemmer hvilken kravtype som skal tas i betraktning i nettoavregningsprosessen. Hvis prognosen er for en salgsvare, nettoberegnes prognosen bare mot ordrer. Hvis det er for komponenter, nettoberegnes prognosen bare mot produksjonsordrekomponenter.  
+Prognosefunksjonalitet brukes til å opprette forventet behov. Faktisk behov opprettes basert på ordrer og produksjonsordrer. Under oppretting av MPS (Master Production Schedule) nettoberegnes prognosen mot salgs- og produksjonsordrer. Feltet **Prognosetype** på prognosen bestemmer hvilken kravtype som skal tas i betraktning i nettoavregningsprosessen. Hvis prognosen er for en *salgsvare*, nettoberegnes prognosen bare mot ordrer. Hvis det er for *komponenter*, nettoberegnes prognosen bare mot produksjonsordrekomponenter.  
 
 Prognoser gir selskapet muligheten til å lage "hva om"-scenarier og å planlegge for og dekke behov effektivt og kostnadseffektivt. Nøyaktige prognoser kan være av avgjørende betydning for nivået av kundetilfredshet når det gjelder ordrebekreftelsesdatoer og punktlig levering.  
+
+Med lanseringsbølge 1 for 2022 kan du også definere det riktige detaljnivået i feltene **Prognoser per lokasjon** og **Prognose per variant** på siden **Oversikt over behovsprognose**. Filtre og andre innstillinger lagres i tabellen **navn på behovsprognose**. Slik at du lett kan stoppe og fortsette arbeidet senere. Hvis organisasjonen din er oppdatert til lanseringsbølge 1 for 2022, må du bytte til den nye opplevelsen på siden [Funksjonsbehandling](admin-feature-management.md).  
 
 ## <a name="sales-forecasts-and-production-forecasts"></a>Salgsprognoser og produksjonsprognoser
 
@@ -33,7 +35,10 @@ Prognosefunksjonaliteten i programmet kan brukes til å opprette salgs- eller pr
 
 I de fleste tilfeller endrer produksjonsplanleggeren salgsprognosen slik at den passer til produksjonsbetingelsene, men fortsatt oppfyller salgsprognosen.  
 
-Du oppretter prognoser manuelt på siden **Behovsprognose**. Det kan finnes flere prognoser i systemet, og de skilles med navn og type. Du kan kopiere og redigere prognoser etter behov. Merk at bare én prognose er gyldig for planleggingsformål om gangen.  
+Du oppretter prognoser manuelt på siden **Behovsprognose**. Det kan finnes flere prognoser i systemet, og de skilles med navn og type. Du kan kopiere og redigere prognoser etter behov. 
+
+> [!NOTE]
+> Bare én prognose er gyldig for planleggingsformål om gangen.
 
 Prognosen består av poster med varenummer, prognosedato og prognoseantall. Prognosen for en vare dekker en periode, som defineres av prognosedatoen og prognosedatoen til den neste (senere) prognoseposten. Fra en planleggingssynsvinkel må prognoseantallet være tilgjengelig ved begynnelsen av behovsperioden.  
 
@@ -113,7 +118,7 @@ Deretter oppretter du en ordre med et antall på 12 på lokasjon VEST. Planleggi
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
 [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

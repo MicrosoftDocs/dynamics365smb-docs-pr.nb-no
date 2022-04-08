@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 5cc5f6039a25161267127f40f4f3077725c5d0bc
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 5da6070b00d635cba1aa2cbd7bb282d226d96023
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8334931"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521705"
 ---
 # <a name="bookmark-a-page-or-report-on-your-role-center"></a>Bokmerke en side eller rapport i rollesenteret
 Ved hjelp av det nye bokmerkeikonet kan du legge til en handling som 책pner en side eller en rapport fra navigasjonsmenyen i rollesenteret. Med bokmerker kan du komme raskt i kontakt med favorittinnhold eller forretningsoppgaver. Du legger til bokmerket fra m책lsiden eller rapporten, som betyr skjermbildet du vil at koblingen i rollesenteret skal 책pne.
@@ -83,7 +83,7 @@ N책r du legger til en ny handling, brukes oversatt tekst som var tilgjengelig p�
 
 ## <a name="see-also"></a>Se ogs책
 [Tilpasse arbeidsomr책det](ui-personalization-user.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
 

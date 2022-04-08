@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: d27ad94c21325808d92b8f71e97a5bb8a484ded5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f03e67b0205af92fcdbb731a74ffe7f4507c39d3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142604"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511262"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Vise og redigere i Excel fra Business Central
 
@@ -79,9 +79,9 @@ Hvis tillegget av en eller annen grunn ikke blir installert, kontakter du admini
 
 ## <a name="see-also"></a>Se også
 
-[Analysere årsregnskap i Microsoft Excel](finance-analyze-excel.md)  
-[Arbeide med Business Central](ui-work-product.md)  
-[Forbedringer i Excel-integrasjon i 2019 Release Wave 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
+[Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md)  
+[Arbeid med Business Central](ui-work-product.md)  
+[Forbedringer i Excel-integrasjon i 2019 lanseringsbølge 2](/dynamics365-release-plan/2019wave2/dynamics365-business-central/enhancements-excel-integration)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,89 +9,127 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 11/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 036b6964b8a0e468bdfc4d2f3e44824b3daac9ee
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8effef3436575529a4bff82f60ec7922f1fd9bd6
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144726"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513526"
 ---
-# <a name="add-fields-to-a-word-report-layout"></a>Legge til felt i et Word-rapportoppsett
+# <a name="work-with-word-layouts"></a>Arbeid med Word-oppsett
+
+Et oppsett i et Word-rapport angir innholdet i og formatet for en rapport når den forhåndsvises og skrives ut fra Business Central. Du oppretter og endrer disse oppsettene i Microsoft Word.
+
+[![Eksempel på et Word-rapportoppsettsdokument for Business Central.](media/word-layout.png)](media/word-layout.png#lightbox) 
+
+Når du endrer et Word-rapportoppsett, kan du angi feltene i datasettet i rapporten som skal tas med i rapporten, og hvordan feltene er ordnet. Du definerer også det generelle formatet for rapporten, for eksempel skrifttype, størrelse, marger og bakgrunnsbilder. Du skal vanligvis ordne innholdet i rapporten ved å legge til tabeller i oppsettet.
+
+For å foreta generelle formaterings- og oppsettsendringer, for eksempel endre skrift, legge til eller endre en tabell eller fjerne et datafelt, bruker du bare de grunnleggende redigeringsfunksjonene i Word, som du gjør med et Word-dokument.
+
+Hvis du utformer et Word-rapportoppsett fra grunnen av eller legger til nye datafelt, begynner du med å legge til en tabell som inneholder rader og kolonner som omsider skal inneholde datafeltene.
+
+> [!TIP]  
+> Vis tabellrutenettet, slik at du kan se cellegrensene i tabellen. Husk å skjule rutenettet når du er ferdig å redigere. Hvis du vil vise eller skjule tabellrutenett, merker du tabellen. Under **Oppsett** i kategorien **Tabell** velger du deretter **Vis rutenettlinjer**.
+
+## <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Bygge inn skrifter i Word-oppsett for konsekvens
+
+Hvis du vil sikre at rapporter alltid vises og skrives ut med de tiltenkte skriftene, uansett hvor brukere åpner eller skriver ut rapporter, kan du bygge inn skrifter i Word-dokumentet. Innebygde skrifter kan imidlertid øke størrelsen på Word-filer betydelig. Hvis du vil ha mer informasjon om innebygging av skrifter i Word, se [Bygge inn skrifter i Word, PowerPoint eller Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
+
+## <a name="adding-data-fields"></a>Legge til datafelt
+
 Et rapportdatasett kan bestå av felt som viser etiketter, data og bilder. Dette emnet beskriver fremgangsmåten for å legge til felt i et rapportdatasett i et eksisterende Word-rapportoppsett for en rapport. Du legger til felt ved hjelp av den egendefinerte XML-delen for Word for rapporten og ved å legge til innholdskontroller som tilordnes til feltene i rapportdatasettet. Når du skal legge til feltene, må du ha noe kjennskap til rapportens datasett, slik at du kan identifisere hvilke felt du vil legge til i oppsettet.  
   
 > [!NOTE]  
 >  Du kan ikke endre innebygde rapportoppsett<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-##  <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a> Åpne den egendefinerte XML-delen for rapporten i Word  
+###  <a name="to-open-the-custom-xml-part-for-the-report-in-word"></a><a name="OpenXMLPart"></a> Åpne den egendefinerte XML-delen for rapporten i Word  
   
-1.  Åpne Word-rapportoppsettdokumentet i Word hvis det ikke allerede er åpent.  
+1. Åpne Word-rapportoppsettdokumentet i Word hvis det ikke allerede er åpent.  
   
      Hvis du vil ha mer informasjon, kan du se [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md).  
   
-2.  Vis fanebladet **Utvikler** på båndet i Microsoft Word.  
+2. Vis fanebladet **Utvikler** på båndet i Microsoft Word.  
   
      Fanebladet **Utvikler** vises som standard ikke på båndet. Hvis du vil ha mer informasjon, kan du se [Vise fanebladet Utvikler på båndet](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon).  
   
-3.  Velg **XML-tilordningsrute** i fanebladet **Utvikler**.  
+3. Velg **XML-tilordningsrute** i fanebladet **Utvikler**.  
   
-4.  I ruten **XML-tilordning**, i **Tilpass XML-del**-nedtrekkslisten, velger du den egendefinerte XML-delen for [!INCLUDE[prod_short](includes/prod_short.md)]-rapporten, som vanligvis er den siste i listen. Navnet på den egendefinerte XML-delen har følgende format:  
+4. I ruten **XML-tilordning**, i **Tilpass XML-del**-nedtrekkslisten, velger du den egendefinerte XML-delen for [!INCLUDE[prod_short](includes/prod_short.md)]-rapporten, som vanligvis er den siste i listen. Navnet på den egendefinerte XML-delen har følgende format:  
   
-     urn:microsoft-dynamics-nav/reports/*rapportnavn*/*ID*  
-  
-     *rapportnavn* er navnet som er tilordnet til rapporten<!--OnPrem as specified by the report's [Name Property-duplicate](../FullExperience/nav_dev_long_md.md)]-->.  
-  
-     *ID* er identifikasjonsnummeret til rapporten.  
+     `urn:microsoft-dynamics-nav/reports/<report_name>/<ID>`  
+
+     `<report_name>` er navnet som er tilordnet til rapporten 
+
+     `<ID>` er identifikasjonsnummeret til rapporten.  
   
      Når du har valgt den egendefinerte XML-delen, vises etikettene og feltkontrollene som er tilgjengelige for rapporten, i ruten XML-tilordning.  
   
 ### <a name="to-add-a-label-or-data-field"></a>Legge til en etikett eller et datafelt  
   
-1.  Plasser markøren i dokumentet der du vil legge til kontrollen.  
+1. Plasser markøren i dokumentet der du vil legge til kontrollen.  
   
-2.  Høyreklikk kontrollen du vil legge til, i ruten **XML-tilordning**. Velg **Sett inn innholdskontroll**, og velg deretter **Ren tekst**.  
+2. Høyreklikk kontrollen du vil legge til, i ruten **XML-tilordning**. Velg **Sett inn innholdskontroll**, og velg deretter **Ren tekst**.  
   
     > [!NOTE]  
     >  Du kan ikke legge til et felt ved å skrive inn navnet på datasettet manuelt i innholdskontrollen. Du må bruke **XML-tilordning**-ruten for å tilordne feltene.  
   
 ### <a name="to-add-repeating-rows-of-data-fields-to-create-a-list"></a>Legge til gjentatte rader med datafelt til å opprette en liste  
   
-1.  Legg til en tabellrad som inneholder en kolonne for hvert felt du vil gjenta, i en tabell.  
+1. Legg til en tabellrad som inneholder en kolonne for hvert felt du vil gjenta, i en tabell.  
   
-     Denne raden vil fungere som en plassholder for gjentatte felt.  
+   Denne raden vil fungere som en plassholder for gjentatte felt.  
   
-2.  Merk hele raden.  
+2. Merk hele raden.  
   
-3.  Høyreklikk kontrollen som svarer til rapportdataelementet som inneholder feltene du vil gjenta, i ruten **XML-tilordning**. Velg **Sett inn innholdskontroll**, og velg deretter **Gjentatt**.  
+3. Høyreklikk kontrollen som svarer til rapportdataelementet som inneholder feltene du vil gjenta, i ruten **XML-tilordning**. Velg **Sett inn innholdskontroll**, og velg deretter **Gjentatt**.  
   
-4.  Legg til gjentatte felt i raden slik:  
+4. Legg til gjentatte felt i raden slik:  
   
-    1.  Plasser pekeren i en kolonne.  
+    1. Plasser pekeren i en kolonne.  
   
-    2.  Høyreklikk kontrollen du vil legge til, i ruten **XML-tilordning**. Velg **Sett inn innholdskontroll**, og velg deretter **Ren tekst**.  
+    2. Høyreklikk kontrollen du vil legge til, i ruten **XML-tilordning**. Velg **Sett inn innholdskontroll**, og velg deretter **Ren tekst**.  
   
-    3.  Gjenta trinn a og b for hvert felt.  
+    3. Gjenta trinn a og b for hvert felt.  
   
-## <a name="adding-image-fields"></a>Legge til bildefelter  
- En datasettrapport kan ha et felt som inneholder et bilde, for eksempel en firmalogo eller et bilde av en vare. Hvis du vil legge til et bilde fra rapportdatasettet, setter du inn en **Bilde**-innholdskontroll.  
+## <a name="adding-image-fields"></a>Legg til bildefelter
+
+En datasettrapport kan ha et felt som inneholder et bilde, for eksempel en firmalogo eller et bilde av en vare. Hvis du vil legge til et bilde fra rapportdatasettet, setter du inn en **Bilde**-innholdskontroll.  
   
- Bilder justeres etter øvre venstre hjørne i innholdskontrollen og får størrelsen endret automatisk slik at de passer i rammen rundt innholdskontrollen.  
+Bilder justeres etter øvre venstre hjørne i innholdskontrollen og får størrelsen endret automatisk slik at de passer i rammen rundt innholdskontrollen.  
   
 > [!IMPORTANT]  
->  Du kan bare legge til bilder som har et format som støttes av Word, for eksempel filtypene BMP, JPEG og PNG. Hvis du legger til et bilde med et format som ikke støttes av Word, får du en feilmelding når du kjører rapporten fra [!INCLUDE[prod_short](includes/prod_short.md)]-klienten.  
+> Du kan bare legge til bilder som har et format som støttes av Word, for eksempel filtypene BMP, JPEG og PNG. Hvis du legger til et bilde med et format som ikke støttes av Word, får du en feilmelding når du kjører rapporten fra [!INCLUDE[prod_short](includes/prod_short.md)]-klienten.  
   
-#### <a name="to-add-an-image"></a>Legge til et bilde  
+### <a name="to-add-an-image"></a>Legge til et bilde  
   
-1.  Plasser pekeren i dokumentet der du vil legge til kontrollen.  
+1. Plasser pekeren i dokumentet der du vil legge til kontrollen.  
   
-2.  Høyreklikk kontrollen du vil legge til, i ruten **XML-tilordning**. Velg **Sett inn innholdskontroll**, og velg deretter **Bilde**.  
+2. Høyreklikk kontrollen du vil legge til, i ruten **XML-tilordning**. Velg **Sett inn innholdskontroll**, og velg deretter **Bilde**.  
   
-3.  Hvis du vil øke eller redusere bildestørrelsen, kan du dra et skaleringshåndtak bort fra eller mot midten av innholdskontrollen.  
+3. Hvis du vil øke eller redusere bildestørrelsen, kan du dra et skaleringshåndtak bort fra eller mot midten av innholdskontrollen.  
+
+##  <a name="removing-label-and-data-fields"></a><a name="RemoveField"></a> Fjern etikett- og datafelter
+
+Etikett- og datafelt i en rapport er i innholdskontroller i Word. Den følgende illustrasjonen viser en innholdskontroll når den er valgt i Word-dokumentet.  
+
+![Innholdskontroll for felt i Word-rapportoppsett.](media/nav_wordreportlayouts_contentcontrol.png "NAV_WordReportLayouts_ContentControl")  
+
+Navnet på etiketten eller datafeltnavnet vises i innholdskontrollen. I dette eksemplet er feltnavnet CompanyAddr1.  
+
+### <a name="to-remove-a-label-or-data-field"></a>Fjerne en etikett eller et datafelt  
+
+1. Høyreklikk feltet som du vil slette, og velg deretter **Fjern innholdskontroll**.  
+
+     Innholdskontrollen fjernes, men feltnavnet blir stående som tekst.  
+
+2. Slett den gjenstående teksten etter behov.
 
 ## <a name="custom-xml-part-overview"></a>Oversikt over tilpassing av XML-del
+
 Word-rapportoppsett er bygd på *egendefinerte XML-deler*. En egendefinert XML-del for en rapport består av elementer som svarer til dataelementer, kolonner og etiketter som utgjør rapportens datasett. <!--OnPrem The data as defined in the Report Dataset Designer in Microsoft Dynamics NAV Development Environment. -->Den egendefinerte XML-delen brukes til å tilordne dataene til en rapport når rapporten kjøres.
 
-  
-### <a name="xml-structure-of-custom-xml-part"></a>XML-struktur for egendefinert XML-del  
+### <a name="xml-structure-of-custom-xml-part"></a>XML-struktur for egendefinert XML-del
+
 Tabellen nedenfor gir en forenklet oversikt over XML-filen for en egendefinert XML-del.  
   
 |XML-elementer|Beskrivelse|  
@@ -103,7 +141,8 @@ Tabellen nedenfor gir en forenklet oversikt over XML-filen for en egendefinert X
 |`....<DataItem2>`<br /><br /> `......<DataItem2Column1>DataItem2Column1</DataItem2Column1>`<br /><br /> `....</DataItem2>`<br /><br /> `....<DataItem3>`<br /><br /> `......<DataItem3Column1>DataItem3Column1</DataItem3Column1>`<br /><br /> `....</DataItem3>`|Dataelementer og kolonner som er nestet i dataelementet på øverste nivå. Kolonner er oppført i alfabetisk rekkefølge under det respektive dataelementet.|  
 |`..</DataItem1>`<br /><br /> `</WordReportXmlPart>`|Avsluttende element.|  
   
-### <a name="custom-xml-part-in-word"></a>Egendefinert XML-del i Word  
+### <a name="custom-xml-part-in-word"></a>Egendefinert XML-del i Word
+
  Åpne den egendefinerte XML-delen i ruten **XML-tilordning** i Word, og bruk deretter ruten til å tilordne elementer til innholdskontroller i Word-dokumentet. Ruten **XML-tilordning** er tilgjengelig i fanebladet **Utvikler**. (Hvis du vil ha mer informasjon, kan du se [Vise fanebladet Utvikler på båndet](/visualstudio/vsto/how-to-show-the-developer-tab-on-the-ribbon)).  
   
  Elementene i **XML-tilordning**-ruten vises i en struktur som ligner på XML-kilden. Etikettfelt er gruppert under et felles **Etiketter**-element, og dataelementer og kolonner er ordnet i en hierarkisk struktur som svarer til XML-kilden, med kolonner i alfabetisk rekkefølge. Elementer identifiseres ved kolonnenavn i henhold til rapportens datasett i AL-kode. Hvis du vil ha mer informasjon, kan du se [Definering av et rapportdatasett](/dynamics365/business-central/dev-itpro/developer/devenv-report-dataset).  
@@ -112,16 +151,17 @@ Tabellen nedenfor gir en forenklet oversikt over XML-filen for en egendefinert X
   
  ![Klipp av ruten XML-tilordning i Word.](media/nav_reportlayout_xmlmappingpane.png "NAV_ReportLayout_XMLMappingPane")  
   
--   Hvis du vil legge til en etikett eller et felt i oppsettet, setter du inn en innholdskontroll som tilordnes til elementet i **XML-tilordning**-ruten.  
+* Hvis du vil legge til en etikett eller et felt i oppsettet, setter du inn en innholdskontroll som tilordnes til elementet i **XML-tilordning**-ruten.  
   
--   Hvis du vil opprette gjentagende rader med kolonner, kan du sette inn en **gjentagende** innholdskontroll for det overordnede dataelementet og deretter legge til innholdskontrollen for kolonnene.  
+* Hvis du vil opprette gjentagende rader med kolonner, kan du sette inn en **gjentagende** innholdskontroll for det overordnede dataelementet og deretter legge til innholdskontrollen for kolonnene.  
   
--   Når det gjelder etiketter, er den faktiske teksten som vises i den genererte rapporten, verdien til egenskapen **Caption** for feltet i dataelementtabellen (hvis etiketten er knyttet til kolonnen i rapportdatasettet), eller en etikett i Report Label Designer (hvis etiketten ikke er knyttet til en kolonne i datasettet).  
+* Når det gjelder etiketter, er den faktiske teksten som vises i den genererte rapporten, verdien til egenskapen **Caption** for feltet i dataelementtabellen (hvis etiketten er knyttet til kolonnen i rapportdatasettet), eller en etikett i Report Label Designer (hvis etiketten ikke er knyttet til en kolonne i datasettet).  
   
--   Språket på etiketten som vises når du kjører rapporten, avhenger av språkinnstillingen for rapportobjektet.  
+* Språket på etiketten som vises når du kjører rapporten, avhenger av språkinnstillingen for rapportobjektet.  
   
-## <a name="see-also"></a>Se også  
- [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)   
+## <a name="see-also"></a>Se også
+
+[Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)   
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

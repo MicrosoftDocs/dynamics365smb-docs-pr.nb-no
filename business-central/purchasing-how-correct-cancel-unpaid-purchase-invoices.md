@@ -10,12 +10,12 @@ ms.search.keywords: undo, credit memo, return
 ms.search.form: 138, 140, 146
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8689425ebb2bfb20791a731aa37892faa692c233
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 568f9f4424eefb249176fc56cbc515fc03a9af24
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143445"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517345"
 ---
 # <a name="correct-or-cancel-unpaid-purchase-invoices"></a>Korrigere eller annullere ubetalte kjøpsfakturaer
 
@@ -57,7 +57,7 @@ Hvis annulleringen er knyttet til en delvis fakturabokføring, oppdateres den op
 ## <a name="see-also"></a>Se også
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Registrere kjøp](purchasing-how-record-purchases.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

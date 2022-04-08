@@ -1,30 +1,32 @@
 ---
-title: Analyser rapportdata med Excel
-description: Finn ut hvordan du bruker Excel til å analysere et rapportdatasett.
+title: Analyser rapportdata med Excel og XML
+description: Finn ut hvordan du bruker Excel og XML til å analysere et rapportdatasett.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
-ms.date: 02/09/2022
+ms.date: 03/16/2022
 ms.author: jswymer
-ms.openlocfilehash: f3996c051eed69974de9511aa570f232e44764fa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 46831a7b5c4672dd3d65142803aa77bbf2fce807
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145475"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521809"
 ---
-# <a name="analyzing-report-data-with-excel"></a>Analyser rapportdata med Excel
+# <a name="analyzing-report-data-with-excel-and-xml"></a>Analyser rapportdata med Excel og XML
 
 [!INCLUDE[2021_releasewave2](includes/2021_releasewave2.md)]
 
-Som utvikler eller avansert bruker bidrar det til å kontrollere dataene som genereres for et gitt rapportdatasett mens du oppretter nye rapporter eller endrer eksisterende rapporter. For å støtte denne funksjonen kan du eksportere et rapportdatasett som rådata til et Excel-regneark – direkte fra rapportforespørselssiden i klienten. I Excel kan du deretter foreta ad hoc-analysere av dataene og diagnostisere problemer.
+Som utvikler eller avansert bruker bidrar det til å kontrollere dataene som genereres for et gitt rapportdatasett mens du oppretter nye rapporter eller endrer eksisterende rapporter. For å støtte denne funksjonen kan du eksportere et rapportdatasett som rådata til et Excel-regneark eller XML-fil – direkte. I Excel kan du for eksempel foreta ad hoc-analysere av dataene og diagnostisere problemer.
 
 ## <a name="get-started"></a>Kom i gang
 
-Hvis du vil eksportere et rapportdatasett til Excel, åpner du rapporten i klienten og velger **Send til** > **Microsoft Excel-dokument (bare data)** på forespørselssiden. 
+Hvis du vil eksportere et rapportdatasett til et Excel-arbeidsbok eller XLM-fil, åpner du rapporten i klienten og velger **Send til** > **Microsoft Excel-dokument (bare data)** eller **XML-dokument**. Filen lastes ned til enheten.
+
+## <a name="more-about-excel-data-only"></a>Mer om Excel (bare data)
 
 Alternativet **Microsoft Excel-dokument (bare data)** eksporterer rapportresultatene og kriteriene som ble brukt til å generere dem, men de inneholder ikke rapportoppsettet. Excel-filen vil inneholde hele datasettet, som rådata, ordnet i rader og kolonner. Alle datakolonnene i datasettet til rapporten inkluderes, uavhengig av om de brukes i rapportoppsettet.
 

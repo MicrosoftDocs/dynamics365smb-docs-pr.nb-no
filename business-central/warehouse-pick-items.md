@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5779, 5798, 7343, 7345, 7357, 7359, 7377, 7392, 7395, 7397, 9313, 9316, 9344
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 9933982018e274b2ea84d568d56fee0d3aee73d3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 028fb8d63045964fdb4e48cbbe3a6372677512d1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139073"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520554"
 ---
 # <a name="pick-items"></a>Plukke varer
 
@@ -47,10 +47,10 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 ## <a name="see-also"></a>Se også  
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
-[Definere Warehouse Management](warehouse-setup-warehouse.md) 
+[Definer Warehouse Management](warehouse-setup-warehouse.md) 
 [Monteringsstyring](assembly-assemble-items.md)
 [Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

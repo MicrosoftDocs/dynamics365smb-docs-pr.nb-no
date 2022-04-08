@@ -10,12 +10,12 @@ ms.search.keywords: print check, vendor payment, creditor, debt, balance due, AP
 ms.search.form: 254, 256, 1190, 1191, 1227, 1228, 1229
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6cda8910fdd2f0bdaa3e79a193cae5274d6f9ba8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ba8b80508fbab49fddb4d9927d47af3ae1d9708a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137760"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520919"
 ---
 # <a name="making-payments"></a>Utføre betalinger
 
@@ -33,7 +33,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 
 | Til | Se |
 | --- | --- |
-|Forstå grunnleggende funksjoner på siden **Utbetalingskladd**, som er basert på finanskladden, for å klargjøre for bokføring av betalinger til leverandører eller ansatte.|[Arbeide med finanskladder](ui-work-general-journals.md)|
+|Forstå grunnleggende funksjoner på siden **Utbetalingskladd**, som er basert på finanskladden, for å klargjøre for bokføring av betalinger til leverandører eller ansatte.|[Arbeid med finanskladder](ui-work-general-journals.md)|
 |Bokfør betalinger til leverandører eller ansatte og refusjoner til kunder og eventuelt utligne betalingene til de relaterte ubetalte fakturaene/kreditnotaene for å lukke dem som betalt.|[Registrere betalinger og refusjoner](payables-how-post-payments-refunds.md)|
 | Bruk en funksjon på **Utbetalingskladd**-siden til å foreslå leverandørbetalinger i henhold til valgte kriterier som forfallsdato, rabattberettigelse og din likviditet. |[Betalingsforslag - leverandør](payables-how-suggest-vendor-payments.md) |
 | Utstede sjekker for leverandørbetalinger eller kunderefusjoner, enten som utskrifter eller maskinelle sjekker. Kansellere sjekker før eller etter bokføring. |[Foreta sjekkbetalinger](payables-how-work-checks.md) |
@@ -45,7 +45,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

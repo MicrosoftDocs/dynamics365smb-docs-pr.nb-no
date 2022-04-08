@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 393, 7382
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 965a87d731a2e1d9cb2ae390add4536c77c6824c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: aa3c8b246d83ac222b4ceeb43124c835ca955850
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381039"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520607"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Flytte varer ad hoc i enkle lageroppsett
 Av og til kan det være nødvendig å flytte varer mellom interne hyller, hyller som ikke er mottakshyller eller leveringshyller, uten et bestemt behov fra et kildedokument. Du kan utføre disse ad hoc-flyttingene for eksempel for å omorganisere lageret, for å hente varer til et kontrollområde eller for å flytte tilleggsvarer til og fra et produksjonsområde uten et systemforhold til kildedokumentet for produksjonsordren.  
@@ -74,8 +74,8 @@ I stedet for å bruke lagerflyttingsdokumenter kan du registrere flytting av var
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

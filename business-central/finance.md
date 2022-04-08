@@ -10,12 +10,12 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 1151, 1166, 9027, 9004
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 44c7475921c679cc03ee25e8c05ffa78d04592f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3ef243581ddd0df9b546e3f2a40b2f1d666f73dc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135961"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515644"
 ---
 # <a name="financial-management"></a>Økonomistyring
 
@@ -35,8 +35,8 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Analyser kostbeløpene for å kjøre bedriften ved å tildele faktiske og budsjetterte kostbeløpe for operasjoner, avdelinger, produkter og prosjekter til kostsentre.|[Gjøre rede for kostnader](finance-manage-cost-accounting.md)|
 |Håndtere lager- og produksjonskost, rapportere kost og avstemme kost mot Finans.|[Administrere lagerkostnader](finance-manage-inventory-costs.md)|
 | Forstå Finans og kontoplanen. |[Forstå Finans og kontoplanen](finance-general-ledger.md) |
-|Kombinere finansposter fra flere selskaper i ett virtuelt konsolidert selskap for finansanalyse.|[Konsolidere finansielle data fra flere selskaper](finance-consolidated-company-reporting.md)|
-| Legg til dimensjoner for bedre forretningsintelligens. |[Arbeide med dimensjoner](finance-dimensions.md) |
+|Kombinere finansposter fra flere selskaper i ett virtuelt konsolidert selskap for finansanalyse.|[Konsolider finansielle data fra flere selskaper](finance-consolidated-company-reporting.md)|
+| Legg til dimensjoner for bedre forretningsintelligens. |[Arbeid med dimensjoner](finance-dimensions.md) |
 | Opprette finansbudsjetter for å prognostisere ulike økonomiske aktiviteter og tilordne dimensjoner for forretningsanalyseformål. |[Opprette finansbudsjetter](finance-how-create-budgets.md) |
 |Registrere inntekt eller utgifter direkte i Finans, uten å bokføre dedikerte forretningsdokumenter.|[Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md)|
 |Bokfør tilbakeføringsposter hvis du vil angre verdibokføringer i finanskladden eller antallsbokføringer i salgs- og kjøpsdokumenter. |[Tilbakeføre kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)|
@@ -69,8 +69,8 @@ Denne videoen introduserer noen av nøkkelfunksjonene for økonomistyring. <br><
 [Avslutte regnskapsperioder](year-close-years-periods.md)  
 [Administrere prosjekter](projects-manage-projects.md)  
 [Importere data fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[Arbeide med finanskladder](ui-work-general-journals.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med finanskladder](ui-work-general-journals.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

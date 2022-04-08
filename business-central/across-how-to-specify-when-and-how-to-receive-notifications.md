@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 3f663ca22cdcfde38b42ac0285eaf403a9e0982d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 261e2908f7f7ed3a47a337b2c3f49d7c633f1cce
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129170"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522355"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Angi når og hvor du kan motta arbeidsflytvarsler
 Når du definerer godkjenningsbrukere i arbeidsflytprosesser der du vil at noen skal godkjenne endringer, for eksempel når nye poster opprettes, eller når noen ber om en godkjenning, må du angi hvordan og når godkjenningsbrukeren skal varsles. Du kan for eksempel angi at en godkjenningsbruker umiddelbart skal motta en e-post når noen oppretter en ny kunde. Du kan også planlegge at varsler skal leveres for eksempel ukentlig eller månedlig.

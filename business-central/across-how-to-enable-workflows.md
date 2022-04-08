@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ec39dfd6a8b9c209060fbd5d17ba429c56a6f92f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6ff238b213de72210908c89eae1da180a1a10fb1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136481"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519306"
 ---
 # <a name="enable-workflows"></a>Aktivere arbeidsflyter
 Når du har opprettet en arbeidsflyt og du er sikker på at den er klar til å starte, må du aktivere arbeidsflyten.  
@@ -31,8 +31,8 @@ Når du har opprettet en arbeidsflyt og du er sikker på at den er klar til å s
  [Vise arkiverte forekomster av arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md)   
  [Slette arbeidsflyter](across-how-to-delete-workflows.md)   
  [Konfigurere arbeidsflyter](across-set-up-workflows.md)   
- [Bruke arbeidsflyter](across-use-workflows.md)   
- [Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
+ [Bruk arbeidsflyter](across-use-workflows.md)   
+ [Gjennomgang: Definer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
  [Arbeidsflyt](across-workflow.md)   
 
 

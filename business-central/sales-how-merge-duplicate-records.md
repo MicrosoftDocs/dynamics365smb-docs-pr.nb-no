@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bc68aba329f391333dfddc9e6ba5ce8c59212c74
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3068a64df18b184df1cefe42b7a268f5f633a596
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130127"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510664"
 ---
 # <a name="merge-duplicate-records"></a>Slå sammen dupliserte poster
 Siden ulike brukere oppretter nye kunde-, leverandør- eller kontaktkort over tid eller de nye postene opprettes automatisk under overføringen, kan en kunde, leverandør eller kontakt være representert i systemet med mer enn én post. I så fall kan du bruke siden **Slå sammen duplikat** fra kortet til posten du vil beholde. Siden siden gir deg en oversikt over dupliserte feltverdier og inneholder funksjoner for å velge hvilke verdier du vil beholde eller forkaste når du slår sammen to poster til én.
@@ -64,7 +64,7 @@ Følgende fremgangsmåte er basert på et kundekort. Trinnene er de samme for en
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Definere kontakter](marketing-setup-contacts.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

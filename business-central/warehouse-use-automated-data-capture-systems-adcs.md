@@ -10,12 +10,12 @@ ms.search.keywords: barcode
 ms.search.form: 7700, 7703, 7704, 7706, 7707, 7710, 9813, 9814
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 88f0fdefa640cb96316e0958279513211f6abf4d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cf0ac9f90efe234b73d4509e50502ca37dcf458e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144258"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514702"
 ---
 # <a name="use-automated-data-capture-systems-adcs"></a>Bruk ADCS (Se automatisk datahentesystem)
 
@@ -120,8 +120,8 @@ Når du har opprettet en miniform, er de neste trinnene å opprette funksjoner o
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

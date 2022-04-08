@@ -1,6 +1,6 @@
 ---
-title: Konfigurere ny selskaper | Microsoft-dokumentasjon
-description: Du kan konfigurere og tilpasse et nytt selskap som du har opprettet. Hvis du vil finjustere implementeringen, fortsetter du i tre faser for å fullføre konfigurasjonen.
+title: Konfigurere nye selskaper
+description: Du kan konfigurere og tilpasse et nytt selskap som du har opprettet med RapidStart Services. Hvis du vil finjustere implementeringen, fortsetter du i tre faser for å fullføre konfigurasjonen.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f0964028b7d6e711e48e1361950d1ec6b4e14425
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8b3bdea227d5314d4b4f218fed59906db1995180
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130803"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515774"
 ---
-# <a name="configure-new-companies"></a>Konfigurere nye selskaper
+# <a name="configure-new-companies-with-rapidstart-services"></a>Konfigurere nye selskaper med RapidStart Services
 Hvis du vil konfigurere et nytt selskap i løsningsimplementeringen, følger du vanligvis tre faser. I den første fasen importerer du konfigurasjonspakken, som er en .rapidstart-fil med konfigurasjonsinformasjon. I den andre fasen endrer du konfigurasjonsinformasjonen og bruker den deretter på det nye selskapet. Du ser gjennom og retter eventuelle feil i siste fase.  
 
 Fremgangsmåtene nedenfor forutsetter at du har opprettet og lagret en konfigurasjonspakke. Hvis du vil ha mer informasjon, kan du se [Klargjøre en konfigurasjonspakke](admin-how-to-prepare-a-configuration-package.md).  

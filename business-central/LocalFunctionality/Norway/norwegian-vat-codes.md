@@ -4,15 +4,15 @@ description: I den norske versjonen av Business Central kan mva-behandlingsinfor
 author: SorenGP
 ms.topic: conceptual
 ms.search.keywords: ''
-ms.search.form: 10602, 10697, 10698, 10604, 315, 472, 473, 471, 317
+ms.search.form: 10602, 10697, 10698, 10604
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 73c43c1b2863e4c8bb170f55157185b9b07407ab
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b86ac6c93eb226bd8535bd36b75754db2cda4f57
+ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144160"
+ms.lasthandoff: 03/14/2022
+ms.locfileid: "8417605"
 ---
 # <a name="norwegian-vat-codes"></a>Norske mva-koder
 

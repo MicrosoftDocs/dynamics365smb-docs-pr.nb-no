@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 79a02ba516c1359863ac552e66fce03287519a65
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7ac4d66671d7eeb78c5fead20e7a43844c5d03c0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144079"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517060"
 ---
-# <a name="using-business-central-without-outlook"></a>Bruke Business Central uten Outlook
+# <a name="use-business-central-without-outlook"></a>Bruk Business Central uten Outlook
 [!INCLUDE[prod_short](includes/prod_short.md)] har en tett integrasjon med Microsoft 365, og du kan bruke [!INCLUDE[prod_short](includes/prod_short.md)] som innboks for virksomheten i Outlook. Hvis du ikke har Outlook, kan du arbeide med [!INCLUDE[prod_short](includes/prod_short.md)] i nettleseren eller på mobilenheten.  
 
 ## <a name="sending-email"></a>Sende e-post
@@ -25,7 +25,7 @@ Du kan sende dokumenter som e-post, for eksempel fakturaer, ved hjelp av e-posta
 
 ## <a name="see-also"></a>Se også
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
-[Bruke Business Central som forretningsinnboksen i Outlook](admin-outlook.md)  
+[Bruk Business Central som forretningsinnboks i Outlook](admin-outlook.md)  
 [Få Business Central på mobilenheten](install-mobile-app.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)
 

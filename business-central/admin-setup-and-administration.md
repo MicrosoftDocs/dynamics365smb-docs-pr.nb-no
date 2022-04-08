@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 07/23/2021
 ms.author: edupont
-ms.openlocfilehash: 26e675073dde5cae0b14f0f3ee3526ba44e4200f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b7a20d6f116a383332b5daab6aa059839f608276
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143871"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521179"
 ---
 # <a name="administration"></a>Administrasjon
 
@@ -42,7 +42,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 |Svare på forespørsler fra dataobjekter relatert til personlig informasjon.|[Svare på forespørsler om personopplysninger](admin-responding-to-requests-about-personal-data.md)|
 |Konfigurere et nytt konsern ved hjelp av maler|[Opprette nye selskaper](about-new-company.md)|
 |Spore alle direkte endringer som brukere gjør i data i databasen, for å finne ut hvor feil og dataendringer oppstår.|[Logge endringer](across-log-changes.md)|  
-|Legge inn enkeltstående eller gjentakende forespørsler om å kjøre rapporter eller kodeenheter.|[Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md)|  
+|Legge inn enkeltstående eller gjentakende forespørsler om å kjøre rapporter eller kodeenheter.|[Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md)|  
 |Administrere, slette eller komprimere dokumenter|[Slette dokumenter](admin-manage-documents.md)|  
 |Vis sider, kodeenheter og spørringer som web-tjenester.|[Publisere en webtjeneste](across-how-publish-web-service.md)|
 |Som en del av å opprette Connect apps mellom [!INCLUDE[prod_short](includes/prod_short.md)] og tredjepartløsninger gjennom REST-API-er, må du definere maler som brukes til å fylle ut tomme egenskaper på en enhet når du oppretter en POST-handling gjennom et API.|[Konfigurere API-maler](admin-configuring-api-template.md)|
@@ -67,7 +67,7 @@ Interne og delegerte administratorer har tilgang til [!INCLUDE [prod_short](incl
 
 [Forretningsfunksjoner](across-business-functionality.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

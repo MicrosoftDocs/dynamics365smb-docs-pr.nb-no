@@ -8,12 +8,12 @@ ms.search.keywords: preview, trial, sandbox, subscription
 ms.search.form: 1803, 1801
 ms.date: 02/22/2022
 ms.author: edupont
-ms.openlocfilehash: 48d8ee794c9259a19b22dfcb7c6203f489bf3534
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: ce516bc49fce32c969097fbf17bb2a927f3db491
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366239"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511299"
 ---
 # <a name="prod_long-trials-and-subscriptions"></a>[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversjoner og abonnementer
 
@@ -103,7 +103,7 @@ Administratoren av [!INCLUDE[prod_short](includes/prod_short.md)] og partneren f
 [Hurtigstart for Business Central](quick-start-business-central.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Utvide prøveversjonen](admin-extend-trial.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Vanlige spørsmål](across-faq.yml)  
 [Hvordan finner jeg en partner for videresalg?](/dynamics365/business-central/across-faq#findpartner)  
 [Overfør data](/dynamics365/business-central/dev-itpro/administration/migrate-data)  

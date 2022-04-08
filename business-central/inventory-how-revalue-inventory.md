@@ -11,12 +11,12 @@ ms.search.keywords: costing, inventory cost, value entries
 ms.search.forms: 5803,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4abfe521684fd6e0e4d8d519248919b0628dc1fb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: edad8dcc23a204f4dcfabfa43a9c83918f63f416
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8135935"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511549"
 ---
 # <a name="revalue-inventory"></a>Revaluere beholdning
 Hvis du vil endre lagerverdien for en vare eller en bestemt varepost, må du bruke revalueringskladden.
@@ -38,7 +38,7 @@ Nye verdiposter opprettes nå for å gjenspeile revalueringer som du har bokfør
 [Lager](inventory-manage-inventory.md)  
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

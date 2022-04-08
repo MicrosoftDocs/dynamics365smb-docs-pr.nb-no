@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 4b417c689c02a0252e3967379e33a88386ad694f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cbd0fbea2e1567875dd7bda556271f693234a502
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147469"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510742"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Definere dokumentoppsett for kunder og leverandører
 Når egendefinerte rapportoppsett er definert, kan du velge dem fra kunde- og leverandørkortene for å angi hvilke oppsett som skal brukes for ulike typer dokumenter du oppretter for den aktuelle kunden eller leverandøren. Verdien i feltet **Bruk** definerer hvilken prosess dokumentoppsettet skal brukes til, for eksempel **Purring**, **Levering** og **Bekreftelse**.
@@ -57,10 +57,10 @@ E-postadressen til kontakten settes nå inn på dokumentoppsettlinjen, slik at d
 [Oppdatere egendefinerte rapportoppsett](ui-update-report-layouts.md)  
 [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)  
 [Importere og eksportere en egendefinert rapport eller et egendefinert dokumentoppsett](ui-how-import-and-export-report-layout.md)  
-[Sende dokumenter i e-post](ui-how-send-documents-email.md)  
+[Send dokumenter i e-post](ui-how-send-documents-email.md)  
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  
-[Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)  
-[Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)  
+[Arbeid med rapporter, satsvise jobber og XMLport-er](ui-work-report.md)  
+[Arbeid med rapporter, satsvise jobber og XMLport-er](ui-work-report.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

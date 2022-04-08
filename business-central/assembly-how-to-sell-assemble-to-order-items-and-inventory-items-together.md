@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9409c33858f32628c9f8a85fe6d19fd5afb5986f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 34bbdae60f2e9e17cdd6f006f4af432658ee9dbe
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381886"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519869"
 ---
 # <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Selge montere til ordre-varer og lagervarer sammen
 Hvis **Monteringsprinsipp**-feltet på varekortet for en monteringsvare inneholder **Monter til lager**, forutsetter standard ordreprosess at varen allerede er montert og kan plukkes fra lager, hvis den er tilgjengelig. Ingen monteringsordre blir derfor automatisk opprettet og koblet til ordrelinjen. Hvis en del av (eller hele) antallet imidlertid ikke er tilgjengelig, kan du opprette en monteringsordre for restantallet ved å fylle ut feltet **Ant. som skal monteres til ordre** på ordrelinjen. Slik kan du montere varen til ordre selv om den er definert slik at den monteres til lager som standard.  
@@ -40,10 +40,10 @@ Det finnes en lignende fleksibilitet når du selger varer som skal monteres til 
 
 ## <a name="see-also"></a>Se også  
 [Monteringsstyring](assembly-assemble-items.md)  
-[Arbeide med stykklister](inventory-how-work-BOMs.md)  
+[Arbeid med stykklister](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

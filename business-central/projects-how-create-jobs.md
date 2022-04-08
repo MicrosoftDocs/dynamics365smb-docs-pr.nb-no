@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ebfbdf04b577f60e20da899e0ba3512571ed5189
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 70bfd81f6fd331018fe6cafd6793ae1f1501f159
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140764"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519625"
 ---
 # <a name="create-jobs"></a>Opprette prosjekter
 Når du starter et nytt prosjekt, må du opprette et prosjektkort med integrerte prosjektoppgaver og prosjektplanleggingslinjer, strukturert i to lag.  
@@ -26,6 +26,8 @@ Lagstrukturen gjør det mulig å dele prosjektet inn i mindre oppgaver, slik at 
 
 > [!TIP]
 > Velg **Nytt prosjekt**-handlingen i rollesenteret **Prosjektleder** for å starte en assistert oppsettveiledning som veileder deg gjennom trinnene for å opprette et prosjekt med integrerte oppgaver og planleggingslinjer. Følgende prosedyre beskriver hvordan du utfører trinnene manuelt. For et eksempel på hvordan du oppretter et prosjekt manuelt, kan du se [Video: Opprette et prosjekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
+
+Av og til er det en del av den som mottar en tjeneste, forskjellig fra parten som betaler regningen. På **Prosjekter**-siden kan du angi kunden som skal dra nytte av prosjektet i **Salg til**-feltene, og parten til å fakturere i **Faktura til**-feltene. Du kan også angi hvor arbeidet skal skje ved å velge fra en liste over leveringsadresser til kunden, legge til informasjon om eksterne referanser for å forenkle kommunikasjonen om prosjektet, og overskrive standard finansvilkår for prosjektet.
 
 ## <a name="to-create-a-job-card"></a>Slik oppretter du et prosjektkort
 Du oppretter et prosjektkort og deretter prosjektoppgavelinjer og prosjektplanleggingslinjer for prosjektet.
@@ -73,7 +75,7 @@ En prosjektplanleggingslinje kan være én av følgende typer.
 [Finans](finance.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

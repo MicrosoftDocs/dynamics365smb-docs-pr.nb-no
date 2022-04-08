@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize, stream, bank account link
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c19278d2d01ae6018e93b7856800ba6b06118278
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 54871f5a9aac3fe84e769d278fc21138a118ebb0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144674"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511470"
 ---
 # <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Envestnet Yodlee Bank Feeds-utvidelsen
 
@@ -47,7 +47,7 @@ Hvis du vil ha mer informasjon, kan du se [Konfigurere Envestnet Yodlee Bank Fee
 ## <a name="see-also"></a>Se også
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)    
 [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

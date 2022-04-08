@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7328, 7348
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 668b34e011ec103689b45bdc864a7e726d4d8082
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7c04e2e81876628a8b6fe9534bb7ecdbb960bcc8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141928"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511320"
 ---
 # <a name="set-up-warehouse-employees"></a>Definere lageransatte
 
@@ -33,10 +33,10 @@ Hver bruker som utfører lageraktiviteter, må defineres som en lageransatt tilo
 
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
-[Definere Warehouse Management](warehouse-setup-warehouse.md) 
+[Definer Warehouse Management](warehouse-setup-warehouse.md) 
 [Monteringsstyring](assembly-assemble-items.md)
 [Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

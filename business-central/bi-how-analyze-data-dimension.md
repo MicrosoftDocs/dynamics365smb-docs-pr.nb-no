@@ -10,15 +10,15 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 545, 555, 556, 557, 558, 9372, 9370, 9371
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 799d4adbfb0cf67513b0d65c735c377a8d58d914
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 5578a67baf1f6036c1a9f8804a9618f446e34006
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366603"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512442"
 ---
 #  <a name="analyze-data-by-dimensions"></a>Analysere data etter dimensjoner
-I finansanalyse er en dimensjon data du kan legge til i en post som et slags merke. Disse dataene brukes til å gruppere poster med de samme egenskapene, for eksempel kunder, regioner, produkter og selgere, og på en enkel måte få tak i disse gruppene i analyser. Dimensjoner kan brukes på poster i kladder, dokumenter og budsjetter. Begrepet dimensjon beskriver hvordan analyser utføres. En todimensjonal analyse er for eksempel salg per område. Hvis du imidlertid bruker mer enn to dimensjoner når du oppretter en post, kan du utføre en mer omfattende analyse, for eksempel salg per salgskampanje per kundegruppe per område. Hvis du vil ha mer informasjon, kan du se [Arbeide med dimensjoner](finance-dimensions.md).
+I finansanalyse er en dimensjon data du kan legge til i en post som et slags merke. Disse dataene brukes til å gruppere poster med de samme egenskapene, for eksempel kunder, regioner, produkter og selgere, og på en enkel måte få tak i disse gruppene i analyser. Dimensjoner kan brukes på poster i kladder, dokumenter og budsjetter. Begrepet dimensjon beskriver hvordan analyser utføres. En todimensjonal analyse er for eksempel salg per område. Hvis du imidlertid bruker mer enn to dimensjoner når du oppretter en post, kan du utføre en mer omfattende analyse, for eksempel salg per salgskampanje per kundegruppe per område. Hvis du vil ha mer informasjon, kan du se [Arbeid med dimensjoner](finance-dimensions.md).
 
 Analyse av data etter dimensjoner gir deg større innsikt i forretningsdriften, slik at du kan evaluere informasjon om hvor godt ting fungerer, hva som er bra og hva som er dårlig, og hvor det er behov for flere ressurser.
 
@@ -82,8 +82,8 @@ Følgende fremgangsmåte gjelder hvis du vil oppdatere en analysevisning fra sid
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
 [Finans og kontoplanen](finance-general-ledger.md)  
-[Arbeide med dimensjoner](finance-dimensions.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med dimensjoner](finance-dimensions.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

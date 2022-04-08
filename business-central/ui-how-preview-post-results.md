@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
 ms.author: solsen
-ms.openlocfilehash: 0b367c59b3d9be298fa7f42fe0b94018d99c94a5
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 28c9d8c9f24158f119ffffaeddd92590bee906cb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148229"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515930"
 ---
 # <a name="preview-posting-results"></a>Forhåndsvise bokføringsresultater
 I alle dokumenter og kladder som kan bokføres, kan du velge **Forhåndsvis bokføring**-knappen for å se gjennom de forskjellige posttypene som opprettes når du bokfører dokumentet eller kladden.
@@ -27,7 +27,7 @@ I alle dokumenter og kladder som kan bokføres, kan du velge **Forhåndsvis bokf
 
 ## <a name="see-also"></a>Se også
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
 
 

@@ -10,17 +10,17 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 198, 490
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 994ae303d46e2e3d290ca297038a3bca6fc21d44
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: be92e23a1dece6225a0700dc4fb3b718481367cb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335451"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523140"
 ---
 # <a name="business-intelligence"></a>Forretningsintelligens
 Selskaper fanger opp store datamengder gjennom de daglige aktivitetene. Disse dataene, som gjenspeiler ting som organisasjonens salgstall, kjøp, driftsutgifter, lønn til ansatte og budsjetter, kan bli verdifull informasjon, eller forretningsintelligens, for beslutningstakere. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en rekke funksjoner som hjelper deg å samle, analysere og dele selskapsdata.
 
-Dimensjoner-funksjonen spiller en viktig rolle i forretningsintelligens. En dimensjon er data du kan legge til i en post som et slags merke. Disse dataene brukes til å gruppere poster med de samme egenskapene, for eksempel kunder, regioner, produkter og selgere, og på en enkel måte få tak i disse gruppene i analyser. Blant annet bruker du dimensjoner når du definerer analysevisninger, og når du oppretter kontoskjemaer for rapportering. Hvis du vil ha mer informasjon, kan du se [Arbeide med dimensjoner](finance-dimensions.md).
+Dimensjoner-funksjonen spiller en viktig rolle i forretningsintelligens. En dimensjon er data du kan legge til i en post som et slags merke. Disse dataene brukes til å gruppere poster med de samme egenskapene, for eksempel kunder, regioner, produkter og selgere, og på en enkel måte få tak i disse gruppene i analyser. Blant annet bruker du dimensjoner når du definerer analysevisninger, og når du oppretter kontoskjemaer for rapportering. Hvis du vil ha mer informasjon, kan du se [Arbeid med dimensjoner](finance-dimensions.md).
 
 > [!TIP]
 > Som en rask måte å analysere transaksjonsdata etter dimensjoner, kan du filtrere totalene i kontoplanen og postene i alle **Poster**-sider per dimensjon. Se etter handlingen **Angi dimensjonsfilter**.  
@@ -39,10 +39,10 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 
 ## <a name="see-also"></a>Se også
 [Finans](finance.md)    
-[Bruke Business Central som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
+[Bruk Business Central som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
 [Avslutte regnskapsperioder](year-close-years-periods.md)  
 [Importere data fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

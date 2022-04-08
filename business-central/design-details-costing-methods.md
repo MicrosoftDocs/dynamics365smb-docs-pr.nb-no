@@ -1,20 +1,20 @@
 ---
-title: Designdetaljer – Kostmetoder
+title: Designdetaljer Lagermetoder
 description: Dette emnet beskriver hvordan lagermetoden påvirker hvordan de faktiske og budsjetterte verdiene kapitaliseres og brukes i kostnadsberegningen.
-author: brentholtorf
+author: bholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 30, 31, 8645
-ms.date: 06/14/2021
+ms.search.keywords: ''
+ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: c7c8106ff5e38efd35b361fcccc8ebd88602a475
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2bf45ab89aaeb9aa9560fd1e1d9ff94bf47cc453
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383350"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519807"
 ---
 # <a name="design-details-costing-methods"></a>Designdetaljer: Kostmetoder
 
@@ -35,7 +35,7 @@ Følgende metoder støttes i [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 Bildet nedenfor viser hvordan kost flyter gjennom lageret for hver lagermetode.  
 
- ![Lagermetoder.](media/design_details_inventory_costing_7_costing_methods.png "Lagermetoder")  
+![Lagermetoder visualisert.](media/design_details_inventory_costing_7_costing_methods.png "Lagermetoder visualisert")  
 
 Lagermetodene varierer med hensyn til hvordan de verdisetter lagerreduksjoner og om de bruker faktiske kostnad eller standard kostnad som verdisettingsgrunnlag. Tabellen nedenfor forklarer de ulike egenskapene. (LIFO-metoden er utelukket fordi den er veldig lik FIFO-metoden.)  
 
@@ -64,31 +64,17 @@ Tabellen nedenfor viser lagerøkningene og -reduksjonene som eksemplene er baser
 > [!NOTE]  
 > Det resulterende antallet på lageret er null. Lagerverdien må derfor være null, uavhengig av lagermetoden.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Virkningen økes av lagermetoder på verdisetting av lagerbeholdning
+### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Virkningen økes av lagermetoder på verdisetting av lagerbeholdning  
 
-- **FIFO**/**LIFO**/**Gjennomsnitt**/**Serienummer**  
-
-    Lagerøkninger verdisettes som varens anskaffelseskost for varer som bruker andre lagermetoder som verdisettingsgrunnlag (**FIFO**, **LIFO**, **Gjennomsnitt** eller **Spesifikk**).  
-
-    Tabellen nedenfor viser hvordan lagerøkninger verdisettes for alle lagermetoder unntatt **Standard**.  
-
-    |Bokføringsdato|Antall|Kostbeløp (faktisk)|Løpenr.|  
-    |------------------|--------------|----------------------------|---------------|  
-    |01.01.20|1|10,00|1|  
-    |01.01.20|1|20,00|2|  
-    |01.01.20|1|30,00|3|  
+Lagerøkninger verdisettes som varens anskaffelseskost for varer som bruker andre lagermetoder som verdisettingsgrunnlag (**FIFO**, **LIFO**, **Gjennomsnitt** eller **Spesifikk**).  
 
 - **Standard**  
 
     Når det gjelder varer som bruker lagermetoden **Standard**, verdisettes lagerøkningene til varens gjeldende standardkost.  
 
-    Tabellen nedenfor viser hvordan lagerøkninger verdisettes for lagermetoden **Standard**.  
+#### <a name="standard"></a>Standard  
 
-    |Bokføringsdato|Antall|Kostbeløp (faktisk)|Løpenr.|  
-    |------------------|--------------|----------------------------|---------------|  
-    |01.01.20|1|15,00|1|  
-    |01.01.20|1|15,00|2|  
-    |01.01.20|1|15,00|3|  
+Når det gjelder varer som bruker lagermetoden **Standard**, verdisettes lagerøkningene til varens gjeldende standardkost.  
 
 ### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Virkningen reduseres av lagermetoder på verdisetting av lagerbeholdning
 
@@ -96,9 +82,9 @@ Tabellen nedenfor viser lagerøkningene og -reduksjonene som eksemplene er baser
 
     Varer som bruker **FIFO**-lagermetode og som ble kjøpt først, selges alltid første (løpenumrene 3, 2 og 1 i dette eksemplet) . Lagerreduksjoner verdisettes derfor ved å fastsette verdien på de første lagerøkningene.  
 
-    VAREFORBRUK beregnes ved hjelp av verdien i de første lageranskaffelsene.  
+     VAREFORBRUK beregnes ved hjelp av verdien i de første lageranskaffelsene.  
 
-    Tabellen nedenfor viser hvordan lagerreduksjoner verdisettes for lagermetoden **FIFO**.  
+     Tabellen nedenfor viser hvordan lagerreduksjoner verdisettes for lagermetoden **FIFO**.  
 
     |Bokføringsdato|Antall|Kostbeløp (faktisk)|Løpenr.|  
     |------------------|--------------|----------------------------|---------------|  
@@ -110,12 +96,12 @@ Tabellen nedenfor viser lagerøkningene og -reduksjonene som eksemplene er baser
 
     Varer som bruker **LIFO**-lagermetode og som ble kjøpt sist, selges alltid første (løpenumrene 3, 2 og 1 i dette eksemplet) . Lagerreduksjoner verdisettes derfor ved å fastsette verdien på de siste lagerøkningene.  
 
-    VAREFORBRUK beregnes ved hjelp av verdien i de nyeste lageranskaffelsene.  
+     VAREFORBRUK beregnes ved hjelp av verdien i de nyeste lageranskaffelsene.  
 
-    Tabellen nedenfor viser hvordan lagerreduksjoner verdisettes for lagermetoden **LIFO**.  
+     Tabellen nedenfor viser hvordan lagerreduksjoner verdisettes for lagermetoden **LIFO**.  
 
     |Bokføringsdato|Antall|Kostbeløp (faktisk)|Løpenr.|  
-    |------------------|--------------|----------------------------|---------------|  
+    |------------|--------|--------------------|---------|  
     |01.02.20|-1|-30,00|4|  
     |01.03.20|-1|-20,00|5|  
     |01.04.20|-1|-10,00|6|  
@@ -124,13 +110,13 @@ Tabellen nedenfor viser lagerøkningene og -reduksjonene som eksemplene er baser
 
     Når det gjelder varer som bruker lagermetoden **Gjennomsnitt**, verdisettes lagerreduksjoner ved å beregne et avveid gjennomsnitt av restbeholdningen den siste dagen i gjennomsnittskostperioden som lagerreduksjonen ble bokført i. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Gjennomsnittskost](design-details-average-cost.md).  
 
-    Tabellen nedenfor viser hvordan lagerreduksjoner verdisettes for lagermetoden **Gjennomsnitt**.  
+     Tabellen nedenfor viser hvordan lagerreduksjoner verdisettes for lagermetoden **Gjennomsnitt**.  
 
-    |Bokføringsdato|Antall|Kostbeløp (faktisk)|Løpenr.|  
-    |------------------|--------------|----------------------------|---------------|  
-    |01.02.20|-1|-20,00|4|  
-    |01.03.20|-1|-20,00|5|  
-    |01.04.20|-1|-20,00|6|  
+    | Bokføringsdato | Antall | Kostbeløp (faktisk) | Løpenr. |
+    |--|--|--|--|
+    | 01.02.20 | -1 | -20,00 | 4 |
+    | 01.03.20 | -1 | -20,00 | 5 |
+    | 01.04.20 | -1 | -20,00 | 6 |
 
 - **Standard**  
 
@@ -160,13 +146,13 @@ Tabellen nedenfor viser lagerøkningene og -reduksjonene som eksemplene er baser
 
 ## <a name="see-also"></a>Se også
 
-[Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)   
-[Designdetaljer: Avvik](design-details-variance.md)   
-[Designdetaljer: Gjennomsnittskost](design-details-average-cost.md)   
-[Designdetaljer: Vareutligning](design-details-item-application.md)  
-[Administrere lagerkostnader](finance-manage-inventory-costs.md)  
-[Finans](finance.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)   
+ [Designdetaljer: Avvik](design-details-variance.md)   
+ [Designdetaljer: Gjennomsnittskost](design-details-average-cost.md)   
+ [Designdetaljer: Vareutligning](design-details-item-application.md)  
+ [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
+ [Finans](finance.md)  
+ [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

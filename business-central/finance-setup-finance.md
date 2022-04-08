@@ -1,27 +1,27 @@
 ---
 title: Definere økonomiske prosesser
 description: Få informasjon om oppgavene som kreves for å konfigurere finans i virksomheten slik at alle regnskaps-, revisjons- og bokføringsbehov dekkes.
-author: SorenGP
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
-ms.date: 06/16/2021
+ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: 7c6f7574a227d2901c8989db50d6f4c75528429f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f0112cfb60321a44d833ad6a51db209a71494bf1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147599"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513942"
 ---
 # <a name="setting-up-finance"></a>Konfigurere finans
 Før du kan begynne å drive selskapet, må du angi regler og standarder for hvordan du vil administrere økonomiprosessene for dette selskapet. Du starter ved å definere de viktigste regnskapspostene i selskapet - kontoplanen. Deretter definerer du bokføringsgrupper, som gjør prosessen ved å tilordne standard bokføringsfinanskonti til kunder, leverandører og varer mer effektiv.
 
-Noen finansoppsett kan utføres automatisk med assisterte oppsettsveiledninger, og noen må gjøres manuelt. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).
+Noen finansoppsett kan utføres automatisk med assisterte oppsettsveiledninger, og noen må gjøres manuelt. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md). Siden **Finansoppsett** angir hvordan du håndterer mange ulike regnskapssaker i firmaet. Du kan for eksempel bruke siden til å angi detaljopplysninger om fakturaavrunding, valutakode for lokal valuta, adresseformater, og om du vil bruke en tilleggsrapporteringsvaluta. Hvis du vil ha mer informasjon, kan du se [Forstå finans og kontoplanen](finance-general-ledger.md).  
 
-Du kan bruke dimensjoner for å legge til forskjellige typer informasjon for hver transaksjon. Du kan definere selskapets grunnleggende dimensjoner, for eksempel prosjekter og avdelinger. Senere kan du legge til flere dimensjoner når du trenger dem, og du kan definere midlertidige dimensjoner for bruk under et begrenset tidsrom, for eksempel i forbindelse med en salgskampanje. Hvis du vil ha mer informasjon, kan du se [Arbeide med dimensjoner](finance-dimensions.md).
+Du kan bruke dimensjoner for å legge til forskjellige typer informasjon for hver transaksjon. Du kan definere selskapets grunnleggende dimensjoner, for eksempel *prosjekter* og *avdelinger*. Senere kan du legge til flere dimensjoner når du trenger dem, og du kan definere midlertidige dimensjoner for bruk under et begrenset tidsrom, for eksempel i forbindelse med en salgskampanje. Hvis du vil ha mer informasjon, kan du se [Arbeide med dimensjoner](finance-dimensions.md).
 
 Mange av konfigureringsoppgavene må fullføres før du kan å registrere finanstransaksjoner, men de fleste innstillingene kan endres på et senere tidspunkt. Noen av oppsettsoppgavene er valgfrie. Du kan for eksempel bare definere konserninterne bokføringer og konsolideringer hvis du arbeider med flere selskaper. Noen oppsettsoppgaver, for eksempel angivelse av perioden der bokføring er tillatt, må kanskje gjentas med jevne mellomrom.  
 
@@ -29,15 +29,17 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 
 | Hvis du vil | Se |
 | --- | --- |
+|Vis eller rediger finanskontoene som alle finansposter bokføres til|[Definere eller endre kontoplanen](finance-setup-chart-accounts.md)|
 | Angi hvordan du vil betales av kunder, og hvordan du vil betale leverandørene. |[Definer betalingsmåter](finance-payment-methods.md) |
 | Definer betalingsbetingelser for å håndtere forfallsdatoer og beregne mulige kontantrabatter.|[Definere betalingsbetingelser](finance-payment-terms.md) |
-| Angi bokføringsgruppene som tilordner enheter som kunder, leverandører, varer, ressurser og salgs- og kjøpsdokumenter til finanskonti. |[Definere bokføringsgrupper](finance-posting-groups.md)|
+| Angi bokføringsgruppene som tilordner enheter som kunder, leverandører, varer, ressurser og salgs- og kjøpsdokumenter til finanskonti. |[Definer bokføringsgrupper](finance-posting-groups.md)|
 |Opprette kontoskjemaer og definere kontokategorier for å angi innholdet i økonomiske diagrammer og rapporter, for eksempel balanse- og resultatregnskapsrapporter.|[Klargjøre finansrapportering med kontoskjemaer og kontokategorier](bi-how-work-account-schedule.md)|
 |Definer en toleranse som avslutter systemet en faktura etter, selv om betalingen, inkludert alle rabatter, ikke fullt ut dekker beløpet på fakturaen.|[Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Definere regnskapsperioder. |[Arbeide med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md) |
 |Definer purrebetingelser som hjelper deg med å samle inn forfalte betalinger.|[Definer betingelser og grader for purringer](finance-setup-reminders.md)|
 | Definere hvordan du rapporterer merverdiavgiftsbeløp du har innkrevd for salg, til skattemyndighetene. |[Definere merverdiavgift (mva)](finance-setup-vat.md)|
 |Klargjør for å håndtere urealisert mva i forbindelse med kontantbaserte regnskapsmetoder.|[Definere urealisert merverdiavgift for kontantbasert regnskap](finance-setup-unrealized-vat.md)|
+|Definere utenlandsk valuta du kan handle med eller rapportere transaksjoner i.|[Definer valutaer](finance-set-up-currencies.md)|
 | Angi funksjoner for salg og kjøp til å håndtere betalinger i fremmed valuta.|[Aktivere utligning av kundeposter i forskjellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md)
 |Definer én eller flere flere valutaer, slik at beløpene rapporteres automatisk i både LV og en tilleggsrapporteringsvaluta i hver finanspost og andre poster.|[Definere en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md)|
 |Juster tilleggsvalutaangivelser periodisk for å utligne varierende valutakurser.|[Oppdatere valutakurser](finance-how-update-currencies.md)|
@@ -60,10 +62,10 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 
 [Finans](finance.md)  
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  
-[Arbeide med dimensjoner](finance-dimensions.md)  
-[Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[Analysere kontantstrømmen i firmaet](finance-analyze-cash-flow.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med dimensjoner](finance-dimensions.md)  
+[Importer forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
+[Analyser kontantstrømmen i firmaet](finance-analyze-cash-flow.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

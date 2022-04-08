@@ -1,7 +1,7 @@
 ---
-title: Egendefinerte og innebygde oppsett for rapporter og dokumenter
+title: Administrere rapport- og dokumentoppsett
 description: Bruk rapportoppsett til å tilpasse dokumenter, for eksempel tilpasse skriften, logoen eller sideinnstillingene for PDF-filer du sender til kunder.
-author: SorenGP
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,63 +9,132 @@ ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: d150d656371f67d6cfe04668e504f481cf9cc213
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.author: jswymer
+ms.openlocfilehash: 5fed722bb5929da100c1c92e63aebb1f10cf53d0
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129841"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520685"
 ---
-# <a name="managing-report-and-document-layouts"></a>Administrere rapport- og dokumentoppsett
+# <a name="report-and-document-layouts-overview"></a>Oversikt over rapport- og dokumentoppsett
+
 Et rapportoppsett styrer innholdet og formatet for rapporten, blant annet hvilke datafelt i et rapportdatasett som skal vises i rapporten, hvordan de er ordnet, samt tekststil, bilder og mer. Fra [!INCLUDE[prod_short](includes/prod_short.md)] kan du endre oppsettet som skal brukes i en rapport, opprette nytt oppsett eller endre eksisterende oppsett.
 
 > [!NOTE]  
->   I [!INCLUDE[prod_short](includes/prod_short.md)] dekker betegnelsen «rapport» også eksternt rettede dokumenter, for eksempel salgsfakturaer og ordrebekreftelser som du sender til kunder som PDF-filer.
+> I [!INCLUDE[prod_short](includes/prod_short.md)] dekker betegnelsen «rapport» også eksternt rettede dokumenter, for eksempel salgsfakturaer og ordrebekreftelser som du sender til kunder som PDF-filer.
 
-Et rapportoppsett brukes især til å konfigurere følgende:
+## <a name="introduction"></a>Introduksjon
+
+Et rapportoppsett brukes især til å konfigurere følgende ting:
 
 * Etikett- og datafeltene som skal tas med fra datasettet for [!INCLUDE[prod_short](includes/prod_short.md)]-rapporten.
 * Tekstformatet, for eksempel skrifttype, størrelse og farge.
 * Selskapets logo og plasseringen.
 * Generelle sideinnstillinger, for eksempel marger og bakgrunnsbilder.
 
-En rapport kan defineres med flere rapportoppsett, som du kan bytte mellom etter behov. Du kan bruke ett av de innebygde rapportoppsettene, eller du kan opprette egendefinerte rapportoppsett og tilordne dem til rapportene etter behov. Hvis du vil ha mer informasjon, kan du se [Opprette en egendefinert rapport eller et egendefinert dokumentoppsett](ui-how-create-custom-report-layout.md).
+En rapport kan defineres med flere rapportoppsett, som du kan bytte mellom etter behov. 
 
-Det finnes to typer rapportoppsett som du kan bruke i rapporter: Word og RDLC.
+<!--You can use one of the built-in report layouts or you can create custom report layouts and assign them to your reports as needed. For more information, see [Create a Custom Report or Document Layout](ui-how-create-custom-report-layout.md).-->
 
-## <a name="word-report-layout-overview"></a>Oversikt over rapportoppsett for Word
-Et Word-rapportoppsett er basert på et Word-dokument (DOCX-filtypen). Rapportoppsett for Word lar deg utforme rapportoppsett ved hjelp av Microsoft Word. Et rapportoppsettet for Word bestemmer rapportens innhold – kontrollere hvordan innholdselementer ordnes og hvordan de ser ut. I et Word-rapportoppsettdokument brukes vanligvis tabeller til å ordne innhold, der cellene kan inneholde datafelt, tekst eller bilder.
+Det finnes to viktige sider ved rapportoppsett som påvirker hvordan du arbeider med dem: *oppsettstypen* og *oppsettskilden*. Oppsettstypen angir typen fil som oppsettet er basert på. Kildetypen angir oppsettets opprinnelse.
 
- ![Eksempel på et rapportoppsettsdokument for NAV.](media/nav_wordreportlayout_edit_in_word_example.png "NAV_WordReportLayout_Edit_In_Word_Example")  
+## <a name="layout-types"></a>Oppsettstype
 
-## <a name="rdlc-layout-overview"></a>Oversikt over RDLC-oppsett
-RDLC-oppsett er basert på oppsett for rapportdefinisjon for klient (filtypen RDLC eller RDL). Disse oppsettene er opprettet og endret ved hjelp av SQL Server Report Builder. Konseptet for utforming for RDLC ligner på Word-oppsett, der oppsettet definerer det generelle formatet for rapporten og bestemmer feltene fra datasettet som skal inkluderes. Å utforme RDLC-oppsett er en mer avansert oppgave enn å utforme Word-oppsett. Hvis du vil ha mer informasjon, kan du se [Utforme RDLC-rapportoppsett](/dynamics-nav/Designing-RDLC-Report-Layouts).
+Det finnes fire typer oppsett som du kan bruke i rapporter: Word, RDLC, Excel og eksternt.
 
-## <a name="built-in-and-custom-report-layouts"></a>Innebygde og egendefinerte rapportoppsett
-[!INCLUDE[prod_short](includes/prod_short.md)] inneholder flere innebygde oppsett. Innebygde oppsett er forhåndsdefinerte oppsett som er utformet for bestemte rapporter. [!INCLUDE[prod_short](includes/prod_short.md)]-rapporter har en innebygget utforming som et RDLC-rapportoppsett, Word-rapportoppsett, eller i noen tilfeller begge. Du kan ikke endre innebygde rapportoppsett fra [!INCLUDE[prod_short](includes/prod_short.md)], men du bruker dem som et utgangspunkt for å lage egendefinerte rapportoppsett.
+### <a name="word"></a>Word
 
-Egendefinerte oppsett er rapportoppsett du utformer for å endre utseendet på en rapport. Vanligvis oppretter du et egendefinert oppsett basert på et innebygd oppsett, men du kan opprette dem fra grunnen av eller fra en kopi av et eksisterende egendefinert oppsett. Egendefinerte oppsett gjør at du kan ha flere oppsett for samme rapport som du kan bytte mellom etter behov. Du kan for eksempel ha ulike oppsett for hvert selskap i [!INCLUDE[prod_short](includes/prod_short.md)], eller du kan ha ulike oppsett for samme selskap for bestemte anledninger eller hendelser, for eksempel en kampanje eller julehøytiden.
+Word-oppsett er basert på et Word-dokumenter (DOCX-filtypen). Oppsett for Word lar deg utforme rapportoppsett ved hjelp av Microsoft Word. Et oppsettet for Word bestemmer rapportens innhold – kontrollere hvordan innholdselementer ordnes og hvordan de ser ut. I et Word-oppsettdokument brukes vanligvis tabeller til å ordne innhold, der cellene kan inneholde datafelt, tekst eller bilder.
 
-## <a name="deciding-whether-to-use-a-word-or-rdlc-report-layout"></a>Avgjøre om du skal bruke et Word- eller RDLC-rapportoppsett
-Et rapportoppsett kan være basert på et Word-dokument eller en RDLC-fil. Når du skal velge mellom et Word-rapportoppsett og et RDLC-rapportoppsett, avhenger valget av hvordan du vil at den genererte rapporten skal se ut, og hvor god kjennskap du har til Word og SQL Server Report Builder.
+[![Eksempel på et Word-rapportoppsettsdokument for Business Central.](media/word-layout-overview.png)](media/word-layout-overview.png#lightbox) 
 
-Generelle utformingskonsepter for Word og RDLC oppsett er svært like. Hver type har imidlertid visse utformingsfunksjoner som påvirker hvordan den genererte rapporten vises i [!INCLUDE[prod_short](includes/prod_short.md)]. Dette betyr at Word-rapportoppsettet og RDLC-rapportoppsettet kan gi ulike utseender i samme rapport.
+<!--![Example of a word report layout document for Business Central.](media/nav_wordreportlayout_edit_in_word_example.png) -->
 
-Prosessen for å definere Word-rapportoppsett og RDLC-rapportoppsett i rapporter er den samme. Den viktigste forskjellen er måten du endrer oppsett på. Word-rapportoppsettene er vanligvis enklere å opprette og endre enn RDLC-rapportoppsett, fordi du kan bruke Word. RDLC-rapportoppsett endres ved hjelp av SQL Server Report Builder, der målgruppen er mer erfarne brukere.
+Hvis du vil ha mer informasjon, kan du se [Arbeid med Word-oppsett](ui-how-add-fields-word-report-layout.md).
 
-Hvis du vil ha informasjon om hvordan du endrer hvilket oppsett du vil bruke, kan du se [Endre gjeldende rapportoppsett](ui-how-change-layout-currently-used-report.md).
+### <a name="excel"></a>Excel
+
+Oppsett for Excel er basert på Microsoft Excel-arbeidsbøker (XLSX-filtyper). De gjør det mulig å opprette rapporter ved hjelp av velkjente Excel-funksjoner for oppsummering, analyse og presentasjon av data med verktøy for eksempel formler, pivottabeller, pivotdiagrammer med mer.
+
+[![Viser et eksempel på et Excel-oppsett.](media/excel-layout-2.png)](media/excel-layout-2.png#lightbox)
+
+Hvis du vil ha mer informasjon, kan du se [Arbeid med Excel-oppsett](ui-excel-report-layouts.md).
+
+### <a name="rdlc"></a>RDLC
+
+RDLC-oppsett er basert på oppsettsfiler for rapportdefinisjon for klient (filtypen RDLC eller RDL). Disse oppsettene er opprettet og endret ved hjelp av SQL Server Report Builder eller Microsoft RDLC Report Designer. Utformingskonseptet for RDLC-oppsett ligner på Word-oppsett, der oppsettet bestemmer hvilke felter som skal vises, og hvordan de skal organiseres. Å utforme RDLC-oppsett er imidlertid en mer avansert oppgave enn å utforme Word-oppsett.
+
+[![Viser et eksempel på et RDLC-oppsett.](media/rdlc-layout-overview.png)](media/rdlc-layout-overview.png#lightbox)
+
+Hvis du vil ha mer informasjon, kan du se [Arbeid med RDLC-oppsett](ui-rdlc-report-layouts.md).
+
+### <a name="external"></a>Eksternt
+
+En ekstern oppsettstype viser til en avansert type som er spesiallaget for bestemte rapporter. Rapportene og oppsettene leveres vanligvis av partnere, ikke Microsoft. Den faktiske filtypen for oppsettet vil variere avhengig av leverandøren.
+
+Hvis du vil ha mer informasjon, kan du se [Utvikle en egendefinert rapportgjengivelse](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
+
+## <a name="layout-sources"></a>Oppsettskilder
+
+I tillegg til typen er oppsett ytterligere inndelt i tre kategorier, basert på kilden eller opprinnelsen.
+
+* Utvidelsesoppsett
+
+   Utvidelsesoppsett er oppsett som er en del av en utvidelse som er installert på miljøet. Disse oppsettene er vanligvis standardoppsett av Microsoft, for eksempel i basisprogrammet. De kan eventuelt være oppsett som er inkludert i utvidelser fra andre programvareleverandører. Du kan gjenkjenne utvidelsesoppsett på siden **Rapportoppsett** fordi utvidelsesnavnet og utgiveren vises i kolonnen **Utvidelse**.
+
+* Brukerdefinert oppsett
+
+   Den andre kilden til oppsett er sluttbrukeren. I Business Central kan en bruker med riktige tillatelser legge til nye oppsett på ulike måter. Du kan for eksempel starte fra et eksisterende utvidelsesoppsett eller et annet brukerdefinert oppsett. På **Rapportoppsett** vil det brukerdefinerte oppsettet være en tom **Utvidelse**-kolonne.
+
+   Hvis du vil ha mer informasjon, kan du se [Kom i gang med å opprette rapportoppsett](ui-get-started-layouts.md).
+
+* Egendefinerte oppsett
+
+  Egendefinerte oppsett er også oppsett som opprettes av brukere. Forskjellen er at disse oppsettene blir opprettet fra en eldre **Egendefinerte rapportoppsett**-side for egendefinerte rapporter, og de kan bare være Word- og RDLC-type. Selv om du fortsatt kan opprette egendefinerte oppsett, blir de gjort om til fordel for brukerdefinerte oppsett.
+
+  Hvis du vil ha mer informasjon, kan du se [(Eldre) Opprett og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md).
+
+Hvis du vil ha mer informasjon om hvordan du avgjør hvilken type som er best, kan du se [Angi hvilken type oppsett du ønsker](ui-get-started-layouts.md#decide).
+
+> [!IMPORTANT]
+> Det er viktig å huske at du ikke kan endre utvidelsesoppsett fra Business Central-klienten. Du kan for eksempel ikke endre oppsettsnavnet eller -typen, eller du kan laste opp og erstatte det med en annen versjon. Hvis du prøver, får du en feilmelding. Du må opprette et brukerdefinert eller egendefinert oppsett basert på utvidelsesoppsettet i stedet.
+
+<!--
+### Built-in and custom report layouts
+
+
+
+[!INCLUDE[prod_short](includes/prod_short.md)] includes several built-in layouts. Built-in layouts are predefined layouts that are designed for specific reports. [!INCLUDE[prod_short](includes/prod_short.md)] reports will have a built-in layout as either an RDLC report layout, Word report layout, or in some cases both. You can’t modify a built-in report layout from [!INCLUDE[prod_short](includes/prod_short.md)] but you use them as a starting point for building your own custom report layouts.
+
+Custom layouts are report layouts that you design to change the appearance of a report. You typically create a custom layout based on a built-in layout, but you can create them from scratch or from a copy of an existing custom layout. Custom layouts enable you to have multiple layouts for the same report, which you switch among as needed. For example, you can have different layouts for each [!INCLUDE[prod_short](includes/prod_short.md)] company, or you can have different layouts for the same company for specific occasions or events, like a special campaign or holiday season.
+
+
+Deciding on whether to use a Word, Excel, or RDLC layout type will depend on how you want the generated report to look and your knowledge of tools for creating the layouts, like Word, Excel, and SQL Server Report Builder.
+
+* The general design concepts for Word and RDLC layouts are similar. However each type has certain design features that affect how the generated report appears in [!INCLUDE[prod_short](includes/prod_short.md)]. This means that the same report might look different when using the Word report layout compared to the RDLC report layout.
+
+* The process for setting up Word, Excel, and RDLC report layouts on reports is the same. The main difference is in the way you modify the layouts. Word and especially Excel layouts are typically easier to create and modify than RDLC report layouts because you use Word and Excel. RDLC report layouts are modified by using SQL Server Report builder, which targets more advanced users.
+
+* Not all reports and document have a dataset that is optimized for use with an Excel layout. For example, aggregations and complex calculations work best with RDLC or Word layouts. The same is true for documents.
+
+For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
+
+-->
+
+
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
+
 [Oppdatere egendefinerte rapportoppsett](ui-update-report-layouts.md)  
 [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)  
 [Importere og eksportere en egendefinert rapport eller et egendefinert dokumentoppsett](ui-how-import-and-export-report-layout.md)  
 [Definere spesielle dokumentoppsett for kunder og leverandører](ui-define-customer-vendor-document-layouts.md)  
-[Sende dokumenter i e-post](ui-how-send-documents-email.md)  
-[Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Send dokumenter i e-post](ui-how-send-documents-email.md)  
+[Arbeid med rapporter, satsvise jobber og XMLport-er](ui-work-report.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

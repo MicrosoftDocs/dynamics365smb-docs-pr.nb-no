@@ -1,23 +1,23 @@
 ---
-title: Installere og avinstallere utvidelser i Business Central | Microsoft Docs
+title: Installer og avinstaller utvidelser
 description: Finn ut hvordan du installerer og avinstallerer utvidelser i Business Central.
-documentationcenter: ''
 author: SusanneWindfeldPedersen
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
-ms.date: 06/03/2021
+ms.search.form: 2500
+ms.date: 03/25/2022
 ms.author: solsen
-ms.openlocfilehash: 7868e0dc10c3ec0f81f39b714b8d517fcf3c5f06
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140400"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514754"
 ---
-# <a name="installing-and-uninstalling-extensions-in-business-central"></a>Installere og avinstallere utvidelser i Business Central
+# <a name="install-and-uninstall-extensions-in-business-central"></a>Installer og avinstaller utvidelser i Business Central
 
 Du kan endre [!INCLUDE[prod_short](includes/prod_short.md)] ved å installere utvidelser som for eksempel legger til funksjonalitet, endrer virkemåten eller gir deg tilgang til nye elektroniske tjenester. Hvis du vil ha mer informasjon, kan du se [Tilpasse Business Central med utvidelser](ui-extensions.md).
 
@@ -29,7 +29,7 @@ Du kan endre [!INCLUDE[prod_short](includes/prod_short.md)] ved å installere ut
 > [!NOTE]  
 > Tillatelsessettet **ADMINISTRASJON AV UTVIDELSE – ADMINISTRATOR** ble introdusert i lanseringsbølge 1 for Business Central 2021 som erstatning for tillatelsessettet **ADMINISTRASJON AV D365-UTVIDELSE** angitt i tidligere versjoner.
 
-## <a name="installing-an-extension"></a>Installere en utvidelse
+## <a name="install-an-extension"></a><a name="install"></a>Installere en utvidelse
 
 Du administrerer utvidelser på siden **Administrasjon av utvidelse**. Du kan gå til denne siden fra Hjem. Du kan ogs å velge ikonet **Søk etter side eller rapport** ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi i øvre høyre hjørne **Utvidelse**, og deretter velger du den relaterte koblingen.  
 
@@ -75,14 +75,13 @@ Microsoft tilbyr følgende utvidelser:
 * [GetAddress.io UK Postcodes-utvidelsen](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA – Send remitteringsønske](ui-extensions-send-remittance-advice.md)
 
-
-## <a name="uploading-a-per-tenant-extension-pte"></a>Last opp en per leietaker-utvidelse (PTE)
+## <a name="upload-a-per-tenant-extension-pte"></a>Last opp en per leietaker-utvidelse (PTE)
 
 Du laster opp en PTE med siden **Utvidelsesbehandling**. På siden **Utvidelsesbehandling** går du til **Administrer** og velger **Last opp utvidelse**. På **siden Last opp og distribuer utvidelse** angir du .app-filen som skal lastes opp. Hvis du vil fortsette, velger du **Godta**-knappen og deretter **Distribuer**-knappen. Dette starter prosessen med å distribuere PTE-en.
 
-Hvis PTE inneholder endringer i skiftede skjemaer, er det mulig å *fremtvinge* en opplasting av det. Dette gjør du ved å velge alternativet **Fremtving** i **Synkroniseringsmodus for skjema**. Du får en bekreftelsesdialogboks for å godta før du fortsetter. 
+Hvis PTE inneholder endringer i skiftede skjemaer, er det mulig å *fremtvinge* en opplasting av det. Dette gjør du ved å velge alternativet **Fremtving** i **Synkroniseringsmodus for skjema**. Du får en bekreftelsesdialogboks for å godta før du fortsetter.  
 
-## <a name="uninstalling-an-extension"></a>Avinstallere en utvidelse
+## <a name="uninstall-an-extension"></a>Avinstaller en utvidelse
 
 Du avinstallerer en utvidelse ved å bruke siden **Administrasjon av utvidelse**. Hvis du avinstallerer en utvidelse og deretter ombestemmer deg, kan du installere utvidelsen på nytt. Når du avinstallerer en utvidelse du har brukt, beholdes dataene som standard, slik at hvis du installerer den på nytt, er dataene fremdeles tilgjengelige. Du kan i stedet velge å slette dataene med utvidelsen. Du kontrollerer dette med alternativet **Slett utvidelsesdata**. Denne alternativet er som standard *ikke aktivert*.
 

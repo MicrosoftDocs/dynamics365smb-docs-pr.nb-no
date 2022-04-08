@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: incoming document
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: a4abd45046beb70376490dbd4209f33debf6b573
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: a9118614872559a9b2c321e7869f1b013266d92b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382062"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522147"
 ---
 # <a name="allocate-costs-to-intercompany-partners"></a>Fordel kost til konserninterne partnere
 Når du bruker konserninterne bokføringer til å overføre dokumenter mellom partnerselskaper, kontrollerer mva-relaterte innstillinger (primært mva-bokføringsgruppen for firma) som er tilordnet kunde- eller leverandørkontiene (tilknyttet den konserninterne partneren) om og hvordan mva. beregnes og registreres. Du kan også utføre kostnadsdistribusjoner direkte fra en bestilling til partnerselskaper. Hvis du for eksempel registrerer en kjøpsfaktura fra en ekstern leverandør og vil distribuere noen av eller alle kostnadene til én eller flere konserninterne partnere.
@@ -90,7 +90,7 @@ Når du bruker et dokument til å distribuere kostnader til konserninterne partn
 [Behandle konserninterne transaksjoner](intercompany-manage.md)  
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
-[Arbeide med finanskladder](ui-work-general-journals.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med finanskladder](ui-work-general-journals.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

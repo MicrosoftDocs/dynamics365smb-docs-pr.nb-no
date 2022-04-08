@@ -1,5 +1,5 @@
 ---
-title: Arbeide med rapporter, satsvise jobber og XML-porter
+title: Kjør og skriv ut rapporter
 description: Finn ut hvordan du legger en rapport i en jobbkø og planlegger at den skal behandles på en bestemt dato og et bestemt klokkeslett.
 author: jswymer
 ms.topic: conceptual
@@ -8,16 +8,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: task, process, report, print, schedule, save, Excel, PDF, Word, dataset
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
-ms.date: 02/09/2022
+ms.date: 03/24/2022
 ms.author: jswymer
-ms.openlocfilehash: 9a5866db05b4ef78e751996f59ea56d9f4b75d27
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: fade19b2ecb4d2c17b5d5775074f2f715496a908
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322958"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512683"
 ---
-# <a name="working-with-reports-batch-jobs-and-xmlports"></a>Arbeide med rapporter, satsvise jobber og XML-porter
+# <a name="run-and-print-reports"></a>Kjør og skriv ut rapporter
 
 En rapport samler informasjon basert på et angitt sett med kriterier. Den organiserer og presenterer informasjonen i et leservennlig format som du kan skrive ut eller lagre som en fil. Det finnes mange tilgjengelige rapporter i programmet. Rapportene inneholder informasjon i forhold til konteksten på siden du er på. **Kunde**-siden inneholder for eksempel rapporter for de 10 beste kundene, salgsstatistikk og mer.
 
@@ -26,7 +26,7 @@ Satsvise jobber og XML-porter utfører mer eller mindre det samme som rapporter,
 > [!NOTE]
 > Dette emnet dreier seg hovedsakelig om "rapport", men lignende informasjon gjelder kjørsler og XML-porter.
 
-## <a name="getting-started"></a>Komme i gang
+## <a name="get-started"></a>Kom i gang
 
 Du finner rapporter i fanen **Rapporter** på utvalgte sider, eller du kan bruke søket ![Lyspære som åpner Fortell meg-funksjonen.](media/ui-search/search_small.png "Fortell hva du vil gjøre") til å finne rapporter etter navn.
 
@@ -43,7 +43,7 @@ Feltet **Bruk standardverdi fra** gir en rask, pålitelig og konsekvent metode f
 >[!NOTE]
 > De forhåndsdefinerte innstillingene konfigureres og administreres vanligvis av en administrator. Hvis du vil lære mer, se [Behandle lagrede innstillinger for rapporter og satsvise jobber](reports-saving-reusing-settings.md).
 
-## <a name="specifying-the-data-to-include-in-reports"></a>Spesifisere dataene som skal inkluderes i rapporter
+## <a name="specifying-the-data-to-include-in-a-report"></a>Spesifisere dataene som skal inkluderes i en rapport
 
 Bruk feltene under **Alternativer** og **Filtre** for å endre avgrensningen av informasjon du ønsker i rapporten. Du kan definere filtre i en rapport mer eller mindre på samme måte som du angir filtre for oversikter. Hvis du vil ha mer informasjon, kan du se [Filtrering](ui-enter-criteria-filters.md#filtering).
 
@@ -63,7 +63,7 @@ Hvis du vil forhåndsvise en rapport, velger du **Forhåndsvis** eller **Forhån
 > [!NOTE]
 > Hvis du bruker lanseringsbølge 1 eller tidligere for Business Central 2020, er det bare en **Forhåndsvisning**-knapp, som lukker forespørselssiden ved forhåndsvisning, som beskrevet for **Forhåndsvis & lukk**.
 
-### <a name="working-with-the-preview"></a>Arbeide med forhåndsvisningen
+### <a name="work-with-the-preview"></a>Arbeid med forhåndsvisningen
 
 I forhåndsvisningen bruker du menylinjen i rapportforhåndsvisningen for å:
 
@@ -82,11 +82,13 @@ I forhåndsvisningen bruker du menylinjen i rapportforhåndsvisningen for å:
 
 ## <a name="saving-a-report-to-a-file"></a>Lagre en rapport i en fil
 
-Du kan lagre en rapport i et PDF-dokument, Microsoft Word-dokument eller Microsoft Excel-regneark ved å velge knappen **Send til** og deretter gjøre et valg.
+Du kan lagre en rapport i et PDF-dokument, Microsoft Word-dokument, Microsoft Excel-regneark eller XML-dokument ved å velge knappen **Send til** og deretter gjøre et valg.
 
-### <a name="about-sending-to-excel"></a>Om sending til Excel
-
-Du kan arbeide med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Excel for ytterligere analyse. Hvis du vil ha mer informasjon, kan du se [Analyser rapportdata med Excel](report-analyze-excel.md).  
+> [!TIP]
+> Alternativene **Microsoft Excel-dokument (bare data)** og **XML-dokumenter** er mest for avanserte formål. Du bruker vanligvis disse alternativene til å foreta detaljert dataanalyse. Hvis du vil ha mer informasjon, kan du se [Analyser rapportdata med Excel og XML](report-analyze-excel.md).
+>
+> Du kan også bruke **Microsoft Excel-dokument (bare data)** til å opprette nye Excel-oppsett for en gitt rapport. Hvis du vil ha mer informasjon, kan du se [Arbeid med Excel-oppsett](ui-excel-report-layouts.md).  
+  
 <!--
 ### About sending to Word
 
@@ -97,17 +99,19 @@ Use the **Microsoft Word Document** option to generate a report as a Word docume
 
 -->
 
-## <a name="scheduling-a-report-to-run"></a><a name="ScheduleReport"></a> Planlegge en rapport for kjøring
+## <a name="scheduling-a-report-to-run-later"></a><a name="ScheduleReport"></a> Planlegg en rapport for kjøring senere
 
 Du kan planlegge at en rapport eller satsvis jobb skal kjøres på en bestemt dato og et bestemt klokkeslett. Planlagte rapporter og satsvise jobber legges i jobbkøen og behandles på det planlagte tidspunktet, på samme måte som andre jobber. Du velger alternativet **Planlegg** etter at du har valgt knappen **Send til**, og deretter angir du informasjon som skriver, dato og klokkeslett. Rapporten legges deretter til i jobbkøen og kjøres på angitt tidspunkt. Når rapporten er behandlet, fjernes elementet fra jobbkøen. Hvis du vil ha mer informasjon, kan du se [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).  
 
-Når du planlegger å kjøre en rapport, kan du for eksempel angi at den må kjøre hver torsdag ved å sette feltet **Datoformel for neste kjøring** til *D4*. Hvis du vil ha mer informasjon, kan du se [Bruke datoformler](ui-enter-date-ranges.md#using-date-formulas).  
+Når du planlegger å kjøre en rapport, kan du for eksempel angi at den må kjøre hver torsdag ved å sette feltet **Datoformel for neste kjøring** til *D4*. Hvis du vil ha mer informasjon, kan du se [Bruk datoformler](ui-enter-date-ranges.md#use-date-formulas).  
 
 Du kan velge å lagre rapporten som en fil (for eksempel en Excel-, Word- eller PDF-fil), skrive den ut eller bare generere rapporten. Hvis du lagrer rapporten i en fil, sendes den behandlede rapporten til området **Rapportinnboks** på Rollesenteret, der du kan vise den.  
 
-## <a name="printing-a-report"></a><a name="PrintReport"></a>Skrive ut en rapport
+## <a name="printing-a-report"></a><a name="PrintReport"></a>Skriv ut en rapport
 
 Hvis du vil skrive ut en rapport, velger du **Skriv ut** på forespørselssiden eller på menylinjen på siden **Forhåndsvisning**.
+
+Når en rapport bruker et Excel-oppsett, ser du ikke feltet **Skriver**, **Skriv ut**-knapp eller **Forhåndsvis**-knappen. Det finnes en **Last ned**-knapp i stedet. Du skriver ut ved å velge **Last ned** og åpne den nedlastede filen i Excel og skrive ut derfra.
 
 ### <a name="printer"></a><a name="Printer"></a>Skriver
 
@@ -119,15 +123,15 @@ Hvis du vil skrive ut en rapport, velger du **Skriv ut** på forespørselssiden 
 > [!TIP]
 > Skriveren som er valgt som standard, konfigureres på siden **Skrivervalg**. Hvis du vil ha informasjon om hvordan du endrer standardskriver, kan du se [Slik velger du hvilke skrivere som skriver ut hvilke rapporter](ui-specify-printer-selection-reports.md#default).
 
-### <a name="printing-reports-in-thai"></a>Skrive ut rapporter på thai
+### <a name="printing-reports-in-thai"></a>Skrive ut rapporter på thailandsk
 
 Spesielt for den thailandske versjonen av [!INCLUDE[prod_short](includes/prod_short.md)], kan ikke **Utskrift**-knappen skrive ut rapporter riktig på grunn av begrensninger i tjenesten som genererer den utskrivbare PDF-filen. Du kan i stedet åpne rapporten i Word og deretter lagre den som en utskrivbar PDF.  
 
 Du kan også be systemansvarlig om å opprette et Word-rapportoppsett for de mest brukte rapportene. Hvis du vil ha mer informasjon, kan du se [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md).  
 
-## <a name="changing-report-layouts"></a>Endre rapportoppsett
+## <a name="switching-the-report-layout"></a>Bytt rapportoppsettet
 
-Et rapportoppsett styrer hva som skal vises i en rapport, hvordan det er ordnet og stilen som brukes. Hvis du vil bytte til et annet oppsett, kan du se [Endre gjeldende rapportoppsett](ui-how-change-layout-currently-used-report.md). Hvis du vil tilpasse ditt eget rapportoppsett, kan du se [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md).
+Et rapportoppsett styrer hva som skal vises i en rapport, hvordan det er ordnet og stilen som brukes. Hvis du vil bytte til et annet oppsett, kan du se [Angi oppsettet som brukes av en rapport](ui-set-report-layout.md). Hvis du vil tilpasse ditt eget rapportoppsett, kan du se [Kom i gang med å opprette oppsett](ui-get-started-layouts.md).
 
 ## <a name="advanced-options"></a>Avanserte alternativer
 
@@ -145,9 +149,9 @@ Feltene under **Avansert** setter begrensninger på den genererte rapporten for 
 ## <a name="see-also"></a>Se også
 
 [Konfigurere skrivere](ui-specify-printer-selection-reports.md)  
-[Arbeide med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md)  
+[Arbeid med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md)  
 [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

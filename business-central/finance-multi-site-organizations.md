@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: hub-and-spoke, multi-site, headquarter, sites
 ms.date: 10/01/2020
 ms.author: bholtorf
-ms.openlocfilehash: ec650016000d8f6007a3abfa839cea7f1422de7b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 88877f719ec969fbca6dfd5928faf185b447bb42
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382048"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520363"
 ---
 # <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central for organisasjoner med flere lokasjoner og internasjonale organisasjoner
 Organisasjoner med flere lokasjoner bruker ofte en nav-og-eiker-forretningsmodell der et moderselskap, eller hovedkontor, håndterer den generelle driften av virksomheten, mens hver lokasjon fungerer som en frittstående enhet. Lokasjoner er ofte geografisk spredt og har ulike behov for å dele informasjon med moderselskapet. Lokasjoner trenger vanligvis ikke samme grad av kompleksitet og har ofte ikke ressursene til å opprettholde et stort system.
@@ -66,7 +66,7 @@ Rett inn organisasjonen etter forretningsmålene ved å sørge for en felles for
 
 | **Forretningsbehov** | **Hvordan Business Central støtter det** | **Finn ut mer** |
 |-------------------------|-------------------------|-------------------------|
-| Del innsikt med lokasjoner uten omfattende IT-støtte. | Opprett KPI-er og instrumentbord for forretningsanalyse i Power BI basert på dataene. | [Arbeide med Business Central Data i Power BI](across-working-with-business-central-in-powerbi.md) |
+| Del innsikt med lokasjoner uten omfattende IT-støtte. | Opprett KPI-er og instrumentbord for forretningsanalyse i Power BI basert på dataene. | [Arbeid med Business Central-data i Power BI](across-working-with-business-central-in-powerbi.md) |
 | Utvikle egendefinerte finansrapporter. | Generer parameterbaserte finansrapporter. | [Forretningsintelligens](bi.md) |
 | Bli enige om faktaene. | Generer, vis og del rapporter med interne og eksterne interessenter. | [Finansrapporter](finance-reports.md) |
 | Analyser data i Excel. | Undersøk faktaene, feilsøk og foreta adhocanalyser i Microsoft Excel. | [Analysere årsregnskaper i Excel](finance-analyze-excel.md) |
@@ -83,7 +83,7 @@ API-er og XMLport-er gjør det enklere å koble sammen forekomster av [!INCLUDE[
 | Bokfør og importer XML-dokumenter. | Kodeenheter kan vises som ubundne handlinger for å støtte bokføring og inntak av XML-dokumenter. XMLport-er kan brukes ved behandling av XML-dokumenter. Ubundne handlinger kan også generere et XML- eller JSON-dokument. | [XMLport-objekter](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-object) |
 | Gjør vedlikehold enklere via elektronisk datautveksling. | Det går an å legge til en elektronisk datautvekslingsløsning som fungerer som et integreringslag mellom moderselskapet og lokasjonene. | [Rammeverket for datautveksling](across-about-the-data-exchange-framework.md) |
 | Utveksle data mellom ulike systemer. | Bruk XMLport-er til å opprette XML-dokumenter, som deretter kan utveksles mellom et moderselskap som bruker ett system og lokasjoner som bruker Business Central. | [Oversikt over XMLport](/dynamics365/business-central/dev-itpro/developer/devenv-xmlport-overview) |
-| Iverksett komplekse datautvekslinger. | Bruk en kombinasjon av XMLport-er med Business Central og Microsoft BizTalk Server til å oppfylle unike behov på lokasjonene.</br>Når det gjelder komplekse behov, bruker du en elektronisk datautvekslingsløsning basert på BizTalk Server og Commerce Gateway i Business Central sammen med XMLport-ene. | [Arbeide med rapporter, satsvise jobber og XMLport-er](ui-work-report.md) |
+| Iverksett komplekse datautvekslinger. | Bruk en kombinasjon av XMLport-er med Business Central og Microsoft BizTalk Server til å oppfylle unike behov på lokasjonene.</br>Når det gjelder komplekse behov, bruker du en elektronisk datautvekslingsløsning basert på BizTalk Server og Commerce Gateway i Business Central sammen med XMLport-ene. | [Arbeid med rapporter, satsvise jobber og XMLport-er](ui-work-report.md) |
 | Koble til tredjepartsløsninger og -tjenester. | API-er oppretter en punkt-til-punkt-forbindelse mellom Business Central og tredjepartsløsninger og -tjenester. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
@@ -105,11 +105,11 @@ Moderselskapet må kunne reagere raskt på forretningsendringer på hver lokasjo
 | **Forretningsbehov** | **Hvordan Business Central støtter det** | **Finn ut mer** |
 |-------------------------|-------------------------|-------------------------|
 | Generer e-postvarsler automatisk. | Konfigurer varsler i Power Automate som genererer e-postmeldinger med informasjon om kritiske forretningsforhold på lokasjoner eller hos forsyningskjedepartnere. | [Business Central og Power BI](admin-powerbi.md) |
-| Bruk standard eller egendefinerte varsler. | Bruk tolv ulike maler som er inkludert for Business Central, eller konfigurer dine egne varsler som er tilpasset virksomheten. | [Bruke Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md) |
+| Bruk standard eller egendefinerte varsler. | Bruk tolv ulike maler som er inkludert for Business Central, eller konfigurer dine egne varsler som er tilpasset virksomheten. | [Bruk Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md) |
 
 ## <a name="see-also"></a>Se også
 [Administrasjon av Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

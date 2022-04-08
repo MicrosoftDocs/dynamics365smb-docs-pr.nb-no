@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: ae490b4694aaa852962968cb80fef9f770767a57
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f4fedcf64f560cef7e4b2f96d5baf884161fd75e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141050"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511561"
 ---
 # <a name="set-up-item-tracking-with-serial-lot-and-package-numbers"></a>Konfigurer varesporing med serie-, parti- og pakkenumre
 
@@ -93,6 +93,6 @@ Hvis du vil aktivere varesporing, må du først tilordne varesporingskodene til 
 [Designdetaljer: Varesporing](design-details-item-tracking.md)  
 [Designdetaljer: Varesporing og reservasjoner](design-details-item-tracking-and-reservations.md)  
 [Reservere varer](inventory-how-to-reserve-items.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

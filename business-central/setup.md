@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: configure, initialize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 38aaf6b77defd6afcc9cbe2bda7b56d71c139699
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 10b9483d46caa9fff156a80f5301521ae9c36d63
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128639"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510768"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Oversikt over oppgaver for å definere [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -45,9 +45,9 @@ Noe funksjonalitet, både generell eller for bestemte forretningsprosesser, kan 
 |Lese beste rutiner for å angi varene for beholdning og kostpris og forsyningsplanlegging.|[Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)|
 |Forbedre kvaliteten på implementering og forkort distribusjonstiden ved hjelp av et verktøysettet for å opprette et nytt selskap ved hjelp av veivisere, maler, forslag og kundespørreskjemaer.|[Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md)|
 |Overfør informasjon om kunder, leverandører, lager og bankkonti fra et annet system til [!INCLUDE[prod_short](includes/prod_short.md)]|[Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md).|
-|Bruk Outlook-tillegg for Business Central til å se økonomiske data relatert til kunder og leverandører, eller opprett og send økonomiske dokumenter, for eksempel tilbud og fakturaer.|[Bruke Business Central som forretningsinnboksen i Outlook](admin-outlook.md)|
+|Bruk Outlook-tillegg for Business Central til å se økonomiske data relatert til kunder og leverandører, eller opprett og send økonomiske dokumenter, for eksempel tilbud og fakturaer.|[Bruk Business Central som forretningsinnboks i Outlook](admin-outlook.md)|
 |Få innsikt i Business Central-data med Power BI- og Business Central-innholdspakker.|[Aktivere forretningsdata for Power BI](admin-powerbi.md)|
-|Bruke Business Central-data som en del av en arbeidsflyt i Power Automate.|[Bruke Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md)|
+|Bruke Business Central-data som en del av en arbeidsflyt i Power Automate.|[Bruk Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md)|
 |Gjør Business Central-data tilgjengelige som en datakilde i Power Apps.|[Koble til Business Central-dataene for å utvikle en forretningsapp ved hjelp av Power Apps](across-how-use-financials-data-source-powerapps.md)|
 |Bruk dedikerte Quickbooks-migreringsveiledninger.|[Endre fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)|
 |Få tilgang til Business Central-data fra mobilenheten.|[Få Business Central på mobilenheten din](install-mobile-app.md)|
@@ -63,6 +63,7 @@ Noen områder krever at du er administrator i [!INCLUDE[prod_short](includes/pro
 
 ## <a name="see-also"></a>Se også
 
+[Oversikt over selskapsinformasjon](admin-company-information.md)  
 [Administrasjon](admin-setup-and-administration.md)  
 [Finans](finance.md)  
 [Salg](sales-manage-sales.md)  
@@ -73,7 +74,7 @@ Noen områder krever at du er administrator i [!INCLUDE[prod_short](includes/pro
 [Monteringsstyring](assembly-assemble-items.md)  
 [Produksjon](production-manage-manufacturing.md)  
 [Lagerstyring](warehouse-manage-warehouse.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Opprette nye seleskaper i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Hurtigstart for Business Central](quick-start-business-central.md)  

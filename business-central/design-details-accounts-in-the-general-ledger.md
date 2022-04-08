@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: b1b3620234901c3b2a1eba5f5af7eb0e79449dc4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b67dd40723f28cb4d59818deb302a1d35c7420e4
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146803"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521075"
 ---
 # <a name="design-details-accounts-in-the-general-ledger"></a>Designdetaljer: Konti i Finans
 Hvis du vil avstemme lager- og kapasitetsposter med Finans, bokføres de tilknyttede verdipostene på ulike konti i finans. Hvis du vil ha mer informasjon, se [Designdetaljer: Avstemming med konti i Finans](design-details-reconciliation-with-the-general-ledger.md).  
@@ -98,7 +98,7 @@ Tabellen nedenfor viser hvordan beløpene som skal bokføres i finans, beregnes 
  [Designdetaljer: Bokføre forventet kost](design-details-expected-cost-posting.md)  
  [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
- [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+ [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

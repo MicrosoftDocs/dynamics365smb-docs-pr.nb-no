@@ -11,12 +11,12 @@ ms.search.keywords: Posted document, editable, posted sales shipment, posted pur
 ms.search.form: 130, 138, 142, 146, 6660, 6662, 6650, 6652
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 09b6180606ba92c6f5fbaeeb5aca6a0ce7c70a7f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3c8e4dde3ddf684f9402b98634cbc74c34058933
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136559"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519947"
 ---
 # <a name="edit-posted-documents"></a>Redigere bokførte dokumenter
 
@@ -54,7 +54,7 @@ Den bokførte følgeseddelen oppdateres.
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

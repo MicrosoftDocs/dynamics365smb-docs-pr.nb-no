@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: extension, bank, formats
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9e0d924270134e940fb4102dbf1fd0a9a58655dd
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2b2ca286540ceca0d881b9e9928dd275583472c3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381065"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510562"
 ---
 # <a name="the-payments-and-reconciliations-dk-extension"></a>Utvidelsen Betalinger og avstemminger (Danmark)
 
@@ -106,7 +106,7 @@ Tabellen nedenfor viser kombinasjoner av FIK og GIRO betalingsmåter som støtte
 
 [Tilpasse Business Central for [!INCLUDE[prod_short](includes/prod_short.md)]med utvidelser](ui-extensions.md)  
 [Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)  
-[Arbeide med finanskladder](ui-work-general-journals.md)  
+[Arbeid med finanskladder](ui-work-general-journals.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

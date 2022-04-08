@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: bf748b94ec2a53eb92464a94c1172dd6971c8389
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 7cdd6e49f4d7cb4d63f70312a89266d020025b4f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134546"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518524"
 ---
 # <a name="put-items-away-with-warehouse-put-aways"></a>Plassere varer med lagerplasseringer
 Når lokasjonen er definert til å bruke plasseringsbehandling og lagermottaksbehandling, må du bruke funksjonen for plasseringsdokumenter til å styre plasseringen av varene.  
@@ -76,8 +76,8 @@ Hylleprioriteringen trer i kraft hvis det er flere enn én hylle som er i samsva
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: feature overview, functionality
 ms.search.form: 9020, 9022, 9027, 9018
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 36edd01c369e83e2020f43ff914b4cc693cba4e3
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 5f8cfbef682b2a039c5a52483a09380452fba4b9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8322853"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513604"
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunksjoner
 [!INCLUDE[prod_short](includes/prod_short.md)] gir dedikert funksjonalitet for vanlige forretningsområder, for eksempel finans og salg. Hvis du vil ha mer informasjon, kan du se [Forretningsfunksjoner](across-business-functionality.md).
@@ -23,7 +23,7 @@ ms.locfileid: "8322853"
 For å støtte disse områdespesifikke forretningsoppgavene kan du bruke en rekke generelle forretningsfunksjoner, for eksempel å definere utvidet tekst for dokumentlinjer og organisere tilhørende forretningsoppgaver i arbeidsflyter.
 
 > [!NOTE]
-> Du kan bruke generelle grensesnittfunksjoner hver dag for å samhandle med systemet, i tillegg til de forretningsrelaterte funksjonene som er beskrevet i denne delen. Hvis du vil ha mer informasjon, kan du se [Arbeide med Business Central](ui-work-product.md).
+> Du kan bruke generelle grensesnittfunksjoner hver dag for å samhandle med systemet, i tillegg til de forretningsrelaterte funksjonene som er beskrevet i denne delen. Hvis du vil ha mer informasjon, kan du se [Arbeid med Business Central](ui-work-product.md).
 
 Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til emnene som beskriver dem.
 
@@ -40,7 +40,7 @@ Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til e
 |Bokføre flere salgs- eller kjøpsdokumenter sammen, umiddelbart eller som planlagt.|[Bokføre flere dokumenter samtidig](ui-batch-posting.md)|  
 |Se resultatet av bokføringen før du bokfører.|[Forhåndsvise bokføringsresultater](ui-how-preview-post-results.md)|
 |Rediger valgte felt på bokførte salgs- eller kjøpsdokumenter.|[Redigere bokførte dokumenter](across-edit-posted-document.md)|
-|Finn ut hvordan du arbeider med finanskladder, som brukes til å bokføre til finanskonti og andre konti, for eksempel bank-, kunde-, leverandør- og aktivakonti. |[Arbeide med finanskladder](ui-work-general-journals.md) |
+|Finn ut hvordan du arbeider med finanskladder, som brukes til å bokføre til finanskonti og andre konti, for eksempel bank-, kunde-, leverandør- og aktivakonti. |[Arbeid med finanskladder](ui-work-general-journals.md) |
 | Planlegg at en rapport skal kjøres på en bestemt dato og et bestemt klokkeslett. |[Planlegge en rapport for kjøring](ui-work-report.md#ScheduleReport) |
 |Systemet kan hjelpe deg med å fullføre oppgaver raskere og mer riktig ved å forhåndsutfylle felt eller hele linjer med data som du ellers måtte beregne og skrive inn selv.|[La Business Central foreslå verdier](ui-let-system-suggest-values.md)|
 |Registrere eksterne dokumenter, inkludert filvedlegg, og deretter opprette de relaterte dokumentene manuelt eller konvertere filene til elektroniske dokumenter automatisk.|[Inngående dokumenter](across-income-documents.md)|
@@ -48,7 +48,7 @@ Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til e
 | Definer datautvekslingsdefinisjoner så du kan sende og motta elektroniske dokumenter. |[Utveksle data elektronisk](across-data-exchange.md) |
 
 ## <a name="see-also"></a>Se også
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Administrasjon](admin-setup-and-administration.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

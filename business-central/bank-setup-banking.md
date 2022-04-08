@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
 ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 21665191cc2b6dbedc09321fd165ef2fab098fc3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 95455b4100aa2628fe6f1e2eefdce8c8117f1166
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139933"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516398"
 ---
 # <a name="setting-up-banking"></a>Konfigurere banktjenester
 
@@ -27,7 +27,7 @@ Hvis du vil bruke elektroniske banktjenester til å importere bankkontoutdrag og
 | --- | --- |
 | Definere bankkort for hver av bankkontiene, slik at du kan holde oversikt over banktransaksjoner. |[Opprette bankkonti](bank-how-setup-bank-accounts.md) |
 | Konfigurer en ekstern tjeneste som lar deg importere bankkontoutdrag som bankfeeder for betalingsutligning og bankavstemming. |[Konfigurere Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md) |
-| Konfigurer en ekstern tjeneste som lar deg eksportere betalinger til banken for behandling og importere bankkontoutdrag som bankfiler for betalingsutligning og bankavstemming. |[Bruke AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md) |
+| Konfigurer en ekstern tjeneste som lar deg eksportere betalinger til banken for behandling og importere bankkontoutdrag som bankfiler for betalingsutligning og bankavstemming. |[Bruk utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md) |
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
@@ -36,7 +36,7 @@ Hvis du vil bruke elektroniske banktjenester til å importere bankkontoutdrag og
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

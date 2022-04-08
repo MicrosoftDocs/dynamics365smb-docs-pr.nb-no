@@ -10,12 +10,12 @@ ms.search.keywords: categories, search words, facets
 ms.search.forms: 7507, 7509, 7506, 7505, 7503, 7502, 7510, 7504, 7501, 7500, 9110, 5734, 7508
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 73ee4d6e2c8a2630e75ff2ccb1210c46c58b4ba3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cb907b4574126c23292e4b164505606a5ac404dd
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130375"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516190"
 ---
 # <a name="work-with-item-attributes"></a>Arbeide med vareattributter
 Når en kunde sender en forespørsel om en vare, enten i korrespondanse eller i en integrert nettbutikk, kan kunden spørre om eller søke etter i henhold til egenskaper, for eksempel høyde og modellår. Hvis du vil levere denne kundeservicen, kan du tilordne varen attributtverdier av forskjellige typer, som deretter kan brukes ved søk etter varer.
@@ -79,7 +79,7 @@ Varene på siden **Varer** er filtrert etter de angitte verdiene for vareattribu
 [Kategorisere varer](inventory-how-categorize-items.md)    
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Lager](inventory-manage-inventory.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -11,12 +11,12 @@ ms.search.keywords: relationship, prospect
 ms.search.forms: 5077, 5078, 5074, 5076, 5186, 5075, 5079
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 273df19ec77f54e923b552b75986237635c40600
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f0e0660d1a93e462af3a7a74ccd1d6420ef86c3d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131460"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522905"
 ---
 # <a name="create-interactions-on-contacts-and-segments"></a>Opprette samhandlinger på kontakter og segmenter
 Du kan opprette samhandlinger hvis du vil registrere all samhandling og kommunikasjon med kontaktene og segmentene, for eksempel utsendinger.
@@ -52,7 +52,7 @@ Hvis du har merket av for **Opprett oppfølgingssegment**, opprettes et nytt seg
 [Registrere samhandlinger](marketing-interactions.md)  
 [Administrere kontakter](marketing-contacts.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
-[Arbeide med Business Central](ui-work-product.md)
+[Arbeid med Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

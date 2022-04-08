@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ee0720c6fe8f7b64e99344fc277a5c42a0243b9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c3e8fea25e921288db80b993ff2911dc7b473fb1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148151"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523296"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Gjennomgang: beregne varer i arbeid for et prosjekt
 
@@ -162,7 +162,7 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
  [Gjennomgang: prosjektstyring](walkthrough-managing-projects-with-jobs.md)   
  [Forstå VIA-metoder](projects-understanding-wip.md)   
  [Overvåke fremdrift og prestasjon](projects-how-monitor-progress-performance.md)  
- [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

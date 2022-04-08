@@ -4,29 +4,54 @@ description: Finn produkthjelp, veiledning, feilsøkingstips og støtte, og finn
 author: edupont04
 ms.reviewer: na
 ms.topic: conceptual
+ms.search.form: HelpAndSupport
 ms.author: edupont
-ms.date: 10/26/2021
-ms.openlocfilehash: aa472df02891c6de1a786a9a4c3321c461a45395
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 03/21/2022
+ms.openlocfilehash: d97911cd7c3556e8ee447102e22b3764548b6f13
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145553"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516929"
 ---
 # <a name="resources-for-help-and-support"></a>Ressurser for hjelp og støtte
 
-I [!INCLUDE[prod_long](includes/prod_long.md)] for du tilgang til siden Hjelp-menyelementet (spørsmålstegnet øverst til høyre), som gir deg tilgang til en hjelperute som kan hjelpe deg med å finne svar på spørsmålene dine.  
+Tips og veiledning for hvordan du kan bruke [!INCLUDE[prod_long](includes/prod_long.md)], hvordan du får fjernet blokkering, hvor du kan lære mer, og hvordan du finner teknisk informasjon er tilgjengelig fra [!INCLUDE [prod_short](includes/prod_short.md)]. Denne artikkelen beskriver hvordan du søker.  
+
+## <a name="in-product-tips"></a>Tips om produktkatalog
+
+[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Disse koblingene har også tilgang til innhold som publiseres til andre nettsteder, for eksempel nettstedene til leverandører av apper som er installert i [!INCLUDE [prod_short](includes/prod_short.md)].  
+
+## <a name="help-pane"></a>Hjelperute
+
+[!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
+
+I [!INCLUDE [prod_short](includes/prod_short.md)] for du tilgang til siden Hjelp-menyelementet (spørsmålstegnet øverst til høyre), som gir deg tilgang til en hjelperute som kan hjelpe deg med å finne svar på spørsmålene dine. Hjelperuten har forskjellig innhold, avhengig av hvordan du åpner den. Følgende oversikt beskriver kort som alltid eller nesten alltid, som finnes:  
+
+[!INCLUDE [ua-help-pane-links-default](includes/ua-help-pane-links-default.md)]
+
+Følgende liste beskriver hvordan du får tilgang til hjelperuten og om det er lagt til kort i den:
+
+- Velg koblingen *Finn ut mer* på et verktøytips for et felt
+
+  Følgende kort legges til i hjelperuten:
+
+  - Feltets verktøytips
+- Velg koblingen *Finn ut mer* på et verktøytips for en handling
+- Velg Hjelp-menyelementet (spørsmålstegnet øverst til hjørne)
+- Bruk hurtigtasten Ctrl + F1 fra hvor som helst
+
+> [!TIP]
+> Når du velger en kobling, åpnes målartikkelen i en ny nettleserfane. Du kan velge å oppheve forankringen av nettleserfanen, slik at du kan vise relevant informasjon side om side med [!INCLUDE [prod_short](includes/prod_short.md)]. Ruten forblir åpen mens du navigerer gjennom [!INCLUDE [prod_short](includes/prod_short.md)], slik at innholdet du søker etter, forblir synlig.  
 
 ## <a name="search-in-the-help-pane"></a>Søk i hjelperuten
 
 [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
-2021 lanseringsbølge 2 inneholder en ny hjelperute som har en søkefane. Bruk søkefeltet til å søke etter veiledning om hvordan du bruker produktet, innebygde funksjoner og tilgjengelige opplæringsmoduler. Avhengig av søkevilkårene viser ruten fem eller flere koblinger med en kort beskrivelse. Velg en kobling, eller begrens søkeordene. Når du velger en kobling, åpnes målartikkelen i en ny nettleserfane. Du kan velge å oppheve forankringen av nettleserfanen, slik at du kan vise relevant informasjon side om side med [!INCLUDE [prod_short](includes/prod_short.md)]. Ruten forblir åpen mens du navigerer gjennom [!INCLUDE [prod_short](includes/prod_short.md)], slik at innholdet du søker etter, forblir synlig.  
+Bruk søkefeltet øverst i hjelperuten til å søke etter veiledning om hvordan du bruker produktet, innebygde funksjoner og tilgjengelige opplæringsmoduler. Avhengig av søkevilkårene viser ruten fem eller flere koblinger med en kort beskrivelse. Velg en kobling, eller begrens søkeordene. Når du velger en kobling, åpnes målartikkelen i en ny nettleserfane. Du kan velge å oppheve forankringen av nettleserfanen, slik at du kan vise relevant informasjon side om side med [!INCLUDE [prod_short](includes/prod_short.md)]. Ruten forblir åpen mens du navigerer gjennom [!INCLUDE [prod_short](includes/prod_short.md)], slik at innholdet du søker etter, forblir synlig.  
 
 > [!NOTE]
-> I gjeldende versjon av [!INCLUDE [prod_short](includes/prod_short.md)] vil søkefeltet i hjelperuten bare gjelde innhold som er publisert på nettstedet docs.microsoft.com.
-
-[!INCLUDE [ua-get-help](includes/ua-get-help.md)] Disse koblingene har også tilgang til innhold som publiseres til andre nettsteder, for eksempel nettstedene til leverandører av apper som er installert i [!INCLUDE [prod_short](includes/prod_short.md)].  
+> I gjeldende versjon av [!INCLUDE [prod_short](includes/prod_short.md)] vil søkefeltet i hjelperuten bare gjelde innhold som er publisert på nettstedet [Docs.microsoft.com](/dynamics365/business-central).
 
 ## <a name="help--support-page"></a>Hjelp og støtte-siden
 
@@ -35,7 +60,7 @@ Fra hjelperuten kan du få tilgang til siden **Hjelp og støtte** i [!INCLUDE [p
 Denne delen viser ressursene som er tilgjengelige i de forskjellige delene av **Hjelp og støtte**-siden som er vist i følgende liste.
 
 - [Finn svar](#find-answers)  
-- [Produkthjelp](#product-help)  
+- [Hjelp](#product-help)  
 - [Fellesskap](#community)  
 - [Blogg](#blog)  
 - [Funksjoner som kommer snart](#capabilities-coming-soon)  
@@ -59,9 +84,10 @@ Delen **Finn den** inneholder to koblinger til produkthjelpen:
 - Hjelp om siden du nettopp viste i [!INCLUDE[prod_short](includes/prod_short.md)]  
 
   Denne kobloingen genereres automatisk. Hvis [!INCLUDE[prod_short](includes/prod_short.md)] ikke kan finne den relevante koblingen, vises [Docs.microsoft.com](index.md) for standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis siden for eksempel var en del av en app som ikke har lagt til kontekst avhengig hjelp tilordning til [!INCLUDE[prod_short](includes/prod_short.md)], settes koblingen *Lær* til målsiden som standard.  
+  
 - Hjelp-målside for [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Funksjonene i standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] er beskrevet i området [Docs.microsoft.com](/dynamics365/business-central). Hvis du vil ha mer informasjon, kan du se delen [Bruke nettstedet docs.microsoft.com til å finne ut mer](#use-the-docsmicrosoftcom-site-to-learn-more). Du kan også utvide og tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] med apper fra AppSource. Alle apper inneholder koblinger til relevant hjelp, slik at du alltid kan finne hjelp for de ulike arbeidsflytene i din versjon av [!INCLUDE[prod_short](includes/prod_short.md)].  
+  Funksjonene i standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] er beskrevet i området [Docs.microsoft.com](/dynamics365/business-central). Hvis du vil ha mer informasjon, kan du se delen [Bruk nettstedet docs.microsoft.com til å finne ut mer](#use-the-docsmicrosoftcom-site-to-learn-more). Du kan også utvide og tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] med apper fra AppSource. Alle apper inneholder koblinger til relevant hjelp, slik at du alltid kan finne hjelp for de ulike arbeidsflytene i din versjon av [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 #### <a name="community"></a>Gruppe
 

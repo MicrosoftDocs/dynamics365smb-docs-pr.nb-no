@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 07/08/2021
 ms.author: edupont
-ms.openlocfilehash: 7f25c192c43823c1f3594f21097fe7bd7081f889
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 6b82557463633959e62b4d2fed9484c8e2412b22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383562"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520259"
 ---
 # <a name="create-contacts"></a>Opprette kontakter
 
@@ -120,7 +120,7 @@ Det er tre måter du kan aktivere datasynkronisering på mellom kontakter og kun
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  
 [Konfigurere kontakter](marketing-setup-contacts.md)  
-[Arbeide med Business Central](ui-work-product.md)
+[Arbeid med Business Central](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

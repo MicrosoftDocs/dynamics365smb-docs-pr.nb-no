@@ -10,12 +10,12 @@ ms.search.keywords: cost accounting
 ms.search.form: 283, 284
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: f5270acb437ca600e145d0060b34b16f9b20a009
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a803a9a7533de5ff94bbb41e73cc1877a25044af
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140348"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512233"
 ---
 # <a name="use-allocation-keys-in-general-journals"></a>Bruke fordelingsnøkler i finanskladder
 Du kan fordele en post i en finanskladd på flere forskjellige konti når du bokfører kladden. Fordelingen kan gjøres etter antall, prosent eller beløp.
@@ -42,9 +42,9 @@ Du kan fordele en post i en finanskladd på flere forskjellige konti når du bok
 4. Endre de relevante feltene, og velg deretter **OK**.
 
 ## <a name="see-also"></a>Se også
-[Arbeide med finanskladder](ui-work-general-journals.md)  
+[Arbeid med finanskladder](ui-work-general-journals.md)  
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

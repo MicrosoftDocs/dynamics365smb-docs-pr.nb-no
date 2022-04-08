@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records
 ms.date: 05/19/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d8ca98d4e13d50bcf58f4a66956c33b1d0996f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d663f3099f90f5eccff3ab5acefc97f8b27629b2
+ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147115"
+ms.lasthandoff: 04/01/2022
+ms.locfileid: "8528452"
 ---
 # <a name="sharing-business-central-records-and-page-links-in-microsoft-teams"></a>Deling av Business Central-oppføringer og sidekoblinger i Microsoft Teams
 
@@ -45,7 +45,7 @@ Følgende avsnitt beskriver de ulike måtene mer detaljert.
 
 Med Business Central-appen for Teams kan du kopiere en kobling fra en hvilken som helst Business Central-oppføring, for eksempel en kunde eller ordre, og lime inn koblingen i en Teams-samtale. Appen kobler Microsoft Teams til forretningsdataene i [!INCLUDE [prod_short](includes/prod_short.md)]\. Den utvider deretter koblingen til et kompakt, interaktivt kort som viser informasjon om posten. Når du er i samtalen, kan du og kollegaene dine vise flere detaljer om posten, redigere data og utføre handlinger uten å forlate Teams.
 
-[![Teams-integrering med Business Central.](media/teams-intro-v3.png)](media/teams-intro-v3.png#lightbox)
+[![Teams-integrering med Business Central.](media/teams-intro-vBC20.png)](media/teams-intro-vBC20.png#lightbox)
 
 ### <a name="prerequisites"></a>Forutsetninger
 
@@ -60,38 +60,36 @@ Med Business Central-appen for Teams kan du kopiere en kobling fra en hvilken so
 1. Logg på [!INCLUDE [prod_short](includes/prod_short.md)] ved å bruke leseren.
 2. Åpne posten du vil dele.
 
-    Appen er utformet for å vise korttypesider fra [!INCLUDE [prod_short](includes/prod_short.md)]\. Så åpne en side som viser én enkelt post, for eksempel en vare, kunde eller ordre. Du kan ikke bruke den til rollesentre eller sider som viser flere poster i en liste.
+    Appen er utformet for å vise et kort for nesten alle typer [!INCLUDE [prod_short](includes/prod_short.md)]-sider. Men den gir best opplevelse når det brukes for sider som viser én enkelt post, for eksempel en vare, kunde eller ordre.
+3. Kopier koblingen til siden.
 
-3. Kopier hele URL-adressen fra adresselinjen i nettleseren.
+    Det finnes to måter å kopiere koblingen på. Den enkleste og foretrukne måten er å velge **Del** ![Del-ikon i Business Central](media/share-icon.png) > **Kopier kobling**. Den andre måten er å kopiere hele nettadressen fra adresselinjen i nettleseren.
 
-   ![Kopier URL-adressen for Business Central fra nettleseren.](media/teams-url-v2.png)
+    [![Kopier nettadressen for Business Central fra nettleseren.](media/teams-copy-link.png)](media/teams-copy-link.png#lightbox)
 4. Gå til Teams og start en samtale, som kan være en chat med en person, gruppe med personer eller en teamkanal.
+5. Lim inn nettadressen i meldingsboksen der du skriver en melding.
 
-    <!--Teams imposes a few limitations here eg. you cannot unfurl a link during a Voice/Video call :/ We should probably only mention this in a Troubleshooting section (and i hope it will also be fixed soon)-->
-5. Lim inn URL-adressen i meldingsboksen der du skriver en melding.
+    ![Lim inn URL-adresse for Business Central i Teams.](media/teams-paste-url-v2.png)
 
-   ![Lim inn URL-adresse for Business Central i Teams.](media/teams-paste-url-v2.png)
+    > [!TIP]
+    > Hvis du får en melding som denne: *Business Central ønsker å forhåndsvise denne koblingen.*, betyr det at du ikke har Business Central-appen for Teams installert. Hvis du vil installere appen, velger du **Vis forhåndsvisning** og følger instruksjonene.
 6. Første gang du limer inn en kobling i en samtale, blir du bedt om å logge på [!INCLUDE [prod_short](includes/prod_short.md)] og gi samtykke til at appen kan hente data. Bare følg instruksjonene på skjermen.
 
     > [!NOTE]
     > Du trenger bare å utføre dette trinnet én gang.
-
 7. Vent et øyeblikk mens et kort genereres i meldingsboksen.
-
 8. Når kortet vises, kan du se nøye gjennom innholdet på kortet for eventuell sensitiv informasjon før du sender meldingen. Dette trinnet er viktig fordi når du sender meldingen, kan alle i samtalen se kortet.
-
 9. Hvis kortet ser bra ut, velger du **Send** for å sende det til samtalen.
 
     > [!TIP]
     > Når kortet vises, og før du velger **Send**, kan du slette den innlimte URL-adressen hvis du vil det.
-
 10. Hvis du vil vise flere detaljer eller gjøre endringer i posten som vises på kortet, velger du **Detaljer**. Hvis du vil ha mer informasjon, kan du se neste avsnitt.
 
 ### <a name="view-card-details"></a>Vis kortdetaljer
 
-Når et kort er sendt til en samtale, kan alle deltakerne med de [riktige tillatelsene](admin-teams-integration.md#permissions) velge **Detaljer** for å åpne et vindu som viser mer informasjon om posten, og eventuelt gjøre endringer i posten. Det spiller ingen rolle om du er den som sender kortet, eller den som mottar kortet. **Detaljer**-funksjonen er spesielt nyttig for mottakere fordi den raskt gir dem konsis, målrettet informasjon om posten, i motsetning til å måtte skanne hele posten.
+Når et kort er sendt til en samtale, kan alle deltakerne med de [riktige tillatelsene](admin-teams-integration.md#permissions) velge **Detaljer** for å åpne et vindu som viser mer informasjon om posten, og eventuelt gjøre endringer i posten. Det spiller ingen rolle om du er den som sender kortet, eller den som mottar kortet. **Detaljer**-funksjonen er spesielt nyttig for mottakere fordi den raskt gir dem konsis, målrettet informasjon om posten.
 
-Detaljvinduet ligner på det du ser i [!INCLUDE [prod_short](includes/prod_short.md)]-posten. Men den er noe trimmet for Teams. Når du er ferdig med å vise og gjøre endringer, lukker du vinduet for å gå tilbake til Teams-samtalen.
+Detaljer-vinduet ligner på det du ser i [!INCLUDE [prod_short](includes/prod_short.md)], men det er fokusert på siden eller posten som kortet handler om. Når du er ferdig med å vise og gjøre endringer, lukker du vinduet for å gå tilbake til Teams-samtalen.
 
 Her er noen ting du må huske på når du arbeider med kortdetaljene:
 

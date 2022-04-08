@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d879e8cfb556ca0c7fc496f72ec653826e8d7db9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: d263be575b6f4102c25ff1b7fe2aa288058cbd22
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128716"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518916"
 ---
 # <a name="create-special-orders"></a>Opprette spesialbestillinger
 Du kan opprette en spesialbestilling for en bestemt katalogvare som skal leveres til en bestemt kunde. Leverandøren din leverer varen til lageret ditt, og du kan deretter sende bare denne varen videre til kunden eller sammen med andre varer i en annen ordre.  
@@ -47,7 +47,7 @@ En bestilling som er opprettet som en spesialbestilling for en salgsordre, blir 
 [Salg](sales-manage-sales.md)  
 [Foreta direkte leveringer](sales-how-drop-shipment.md)   
 [Designdetaljer: Gjenbestillingsprinsipper](design-details-reservation-order-tracking-and-action-messaging.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

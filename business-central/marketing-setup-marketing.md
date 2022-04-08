@@ -10,12 +10,12 @@ ms.search.keywords: relationship, prospect, client, customer, campaign, promo
 ms.search.forms: 5172, 5173, 5170, 5094, 429
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8f43e37b540c9e3b3a89299f8609af7aea8398e9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a91592818e5e486f58857da07d5d9dc0390d5fba
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130332"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517924"
 ---
 # <a name="setting-up-relationship-management"></a>Sette opp forbindelser
 
@@ -30,9 +30,9 @@ Noen opplysninger om kontaktselskaper er identiske med opplysningene om kontaktp
 
 Når du endrer ett av disse feltene på kortet for kontaktselskapet, endres automatisk feltet på kortet for kontaktpersonen (med mindre du har endret feltet manuelt på dette kortet).
 
-Hvis du vil ha mer informasjon, kan du se [Opprette kontakter](marketing-create-contact-companies.md).
+Hvis du vil ha mer informasjon, kan du se [Opprett kontakter](marketing-create-contact-companies.md).
 
-## <a name="using-predefined-defaults-on-new-contacts"></a>Bruke forhåndsdefinerte standarder på nye kontakter
+## <a name="use-predefined-defaults-on-new-contacts"></a>Bruk forhåndsdefinerte standarder på nye kontakter
 Du kan angi at hver gang du oppretter en ny kontakt, skal det automatisk tilordnes en bestemt språkkode, distriktskode, selgerkode og lands-/regionkode som standard. Du kan også angi en standard salgssykluskode som automatisk tilordnes hver nye salgsmulighet du oppretter.
 
 Arv av felt overskriver standardverdiene du har definert. Hvis du for eksempel har definert norsk som standardspråk, men ett av kontaktselskapene bruker tysk, tildeles automatisk tysk som språkkode for de kontaktpersonene som står registrert for dette selskapet.
@@ -59,7 +59,7 @@ Du kan angi at programmet skal foreta automatisk søk etter duplikater hver gang
 
 ## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

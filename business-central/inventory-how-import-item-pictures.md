@@ -10,12 +10,12 @@ ms.search.keywords: product, image
 ms.search.form: 30, 461
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: c70bddd0e901a529035f7cd9056243d24c5710ef
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 44a3689c59a25b6c0aca25f69896e86beb71ea6c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131564"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522069"
 ---
 # <a name="import-multiple-item-pictures"></a>Importere flere varebilder
 Du kan importere flere varebilder på én gang. Bare gi bildefilene navn som svarer til dine varenumre, komprimer dem til en zip-fil, og bruk Importer varebilder-siden til å behandle hvilke varebilder som skal importeres.
@@ -53,7 +53,7 @@ Feltet **Importer status** oppdateres for å vise om bildeimporten ble hoppet ov
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

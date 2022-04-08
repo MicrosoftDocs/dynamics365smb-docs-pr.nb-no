@@ -9,14 +9,17 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 03d92e13adc9208ec98eda57cfc1d6b6e93ab028
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f8f0af4e34f57ebe64f454901e7f9e237fe7018c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148307"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512761"
 ---
-# <a name="import-and-export-custom-report-layouts"></a>Importere og eksportere en egendefinert rapportoppsett
+# <a name="legacy-import-and-export-custom-report-layouts"></a>(Eldre) Importere og eksportere en egendefinert rapportoppsett
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
+
 Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som en fil til og fra en plassering på datamaskinen og nettverket. Du kan for eksempel eksportere et rapportoppsett og deretter sende filen til en annen person som skal endre det. Vedkommende kan deretter gjøre endringer i oppsettet og returnere filen til deg slik at du kan importere den tilbake.  
 
 > [!IMPORTANT]  
@@ -54,7 +57,7 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
 
 [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)   
 [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md)  
-[Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)    
+[Arbeid med rapporter, satsvise jobber og XMLport-er](ui-work-report.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

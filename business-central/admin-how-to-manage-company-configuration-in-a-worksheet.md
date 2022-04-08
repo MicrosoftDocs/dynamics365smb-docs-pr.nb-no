@@ -1,22 +1,24 @@
 ---
 title: Behandle selskapskonfigurasjon i et forslag
-description: Konfigurasjonsforslaget er den sentrale plasseringen der du kan planlegge, spore og utføre selskapskonfigurasjonsarbeidet ditt.
+description: Hvis du bruker RapidStart Services, er konfigurasjonsforslaget den sentrale plasseringen der du kan planlegge, spore og utføre selskapskonfigurasjonsarbeidet ditt.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 8632
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 23a999ab500512a4aaed2aaab7e205629b5954b7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c678d48b202043110627a2c8b29ae12be045d38d
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141362"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514203"
 ---
-# <a name="manage-company-configuration-in-a-worksheet"></a>Behandle selskapskonfigurasjon i et forslag
+# <a name="manage-company-configuration-in-a-worksheet-with-rapidstart-services"></a>Behandle selskapskonfigurasjon i et forslag med RapidStart Services
+
 Konfigurasjonsforslaget er den sentrale plasseringen der du kan planlegge, spore og utføre konfigurasjonsarbeidet ditt. Du kan opprette et forslag for hvert selskap du arbeider med, eller du kan opprette et standard konfigurasjonsforslag som kan brukes til å konfigurere flere identiske selskaper.  
 
 Det første trinnet for klargjøring av en konfigurasjonspakke er å velge et selskap som du allerede har definert og endret i henhold til løsningsbehovene dine. Dette selskapet fungerer som grunnlag for konfigurasjon av nye selskaper. I forslaget angir du tabellene du vil at konfigurasjonen skal kontrollere og håndtere. Siden de fleste tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] har relasjoner og avhengigheter til andre tabeller, bør du også inkludere disse relaterte tabellene etter behov. Sammen fungerer disse tabellene som strukturen du bygger et nytt selskap rundt. De etterfølgende trinnene hjelper deg med å pakke og distribuere konfigurasjonen.  
@@ -25,8 +27,9 @@ For å forenkle sporing og gjennomgang av arbeidet bruker du faktaboksen **Konfi
 
 Fremgangsmåtene nedenfor viser hvordan du legger til og tilpasser tabellinformasjon for konfigurasjonen.  
 
-## <a name="to-open-the-configuration-worksheet"></a>Åpne konfigurasjonsforslaget  
-1.  Åpne selskapet som er grunnlaget for konfigurasjonen i [!INCLUDE[prod_short](includes/prod_short.md)], og åpne deretter rollesenteret for RapidStart Services-implementerer.  
+## <a name="to-open-the-configuration-worksheet"></a>Åpne konfigurasjonsforslaget
+
+1.  I [!INCLUDE[prod_short](includes/prod_short.md)] åpner du selskapet som er grunnlinjen for konfigurasjonen.  
 2.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjonsforslag**, og velg deretter den relaterte koblingen.  
 
 ## <a name="to-add-a-table-to-the-worksheet"></a>Legge til en tabell i forslaget  
@@ -40,9 +43,9 @@ Fremgangsmåtene nedenfor viser hvordan du legger til og tilpasser tabellinforma
     > [!NOTE]  
     > Relaterte tabeller legges ikke til med handlingen **Hent relaterte tabeller** hvis noe av det følgende gjelder:
     > - Relasjonen er betinget.  
-    > Eksempel: Hvis du får relaterte tabeller for **Kunde**-tabellen, blir ikke **Lokasjon**-tabellen lagt til siden den bare er betinget relatert til **Kunder**-tabellen, nemlig hvis feltet **Lokasjonskode** i **Kunder**-tabellen er fylt ut.  
+    >     Eksempel: Hvis du får relaterte tabeller for **Kunde**-tabellen, blir ikke **Lokasjon**-tabellen lagt til siden den bare er betinget relatert til **Kunder**-tabellen, nemlig hvis feltet **Lokasjonskode** i **Kunder**-tabellen er fylt ut.  
     > - Den tilknyttede tabellen filtreres.  
-    > Eksempel: Et felt i den relaterte tabellen har en WHERE-setningsdel. Årsaken til dette er at den involverte relasjonsinformasjon er lagret i systemtabellen **Felt**, som ikke er fullstendig tilgjengelig for programmet.  
+    >     Eksempel: Et felt i den relaterte tabellen har en WHERE-setningsdel. Årsaken til dette er at den involverte relasjonsinformasjon er lagret i systemtabellen **Felt**, som ikke er fullstendig tilgjengelig for programmet.  
     > Du må legge til slike tabelltyper manuelt ved å følge trinn 4 i denne fremgangsmåten.  
 
 8.  Hvis du vil endre listen over tabeller, merker du en tabell som du vil fjerne, og deretter velger du handlingen **Slett**.  

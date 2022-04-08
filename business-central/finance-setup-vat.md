@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 01/31/2022
+ms.date: 03/04/2022
 ms.author: bholtorf
-ms.openlocfilehash: 80264ff085ab9d88a2d6a32d8f0f1189b3622832
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383674"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519228"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Definer beregninger og bokføringsmetoder for merverdiavgift
 
@@ -31,7 +31,7 @@ Du kan definere mva-beregninger manuelt, men som kan være vanskelig og tidkreve
 > [!NOTE]  
 > Du kan bare bruke veiledningen hvis du har opprettet et Mitt selskap og ikke har bokført transaksjoner som inkluderer mva. Det ville ellers være svært enkelt å bruke forskjellige mva-satser ved en feiltakelse, og gjøre mva-relaterte rapporter unøyaktige.  
 
-Hvis du vil definere mva-beregninger selv, eller bare vil lære mer om hvert trinn, inneholder dette emnet beskrivelser av hvert trinn.  
+Hvis du vil definere mva-beregninger selv, eller bare vil lære mer om hvert trinn, inneholder denne artikkelen beskrivelser av hvert trinn.  
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
@@ -44,6 +44,14 @@ Hvis du vil oppsettguiden, gjør du følgende:
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Assistert oppsett**.  
 2. Velg **Angi MVA**, og fullfør trinnene.
 3. Når du har fullført det assisterte oppsettet, kan du gå til siden **Mva-bokføringsoppsett** og se om du må fylle ut flere felter i henhold til de lokale kravene i din versjon av [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Lokal funksjonalitet i Business Central](about-localization.md).  
+
+### <a name="check-the-vat-posting-setup"></a>Kontroller mva-bokføringsoppsettet
+
+For å støtte deg i å komme raskt i gang viser [!INCLUDE [prod_short](includes/prod_short.md)] deg varsler hvis du mangler finanskontoer i bokføringsgrupper eller bokføringsoppsett, for eksempel siden **Mva-bokføringsoppsett**. Du kan slå denne meldingstypen på eller av ved hjelp av varslingen *Finanskontoer mangler i bokføringsgruppe eller -oppsett* på siden **Mine varslinger**. Gå til siden **Mine innstillinger** og velg *Endre når jeg mottar varsler.* kobling.  
+
+Hvis du velger et slikt varsel, oppretter [!INCLUDE [prod_short](includes/prod_short.md)] automatisk disse bokføringsoppsettene basert på bokføringsgruppene i dokumentet eller kladden du for øyeblikket arbeider med.  
+
+På dette stadiet kan du bare fylle ut de manglende finanskontoene. Senere, når du begrenser oppsettet ytterligere, kan det hende du oppdager at dette ikke er riktig. [!INCLUDE [prod_short](includes/prod_short.md)] tillater ikke sletting av mva-bokføringsoppsett og generelle bokføringsoppsett når poster opprettes basert på slike konfigurasjoner. Fra 2022 lanseringsbølge 1 kan du bruke feltet **Sperret** på siden **Mva-bokføringsoppsett** for å hindre at brukere ved en feiltakelse bruker et oppsett som ikke lenger er relevant for nye bokføringer.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Definere organisasjonsnumre for landet eller området ditt
 
@@ -94,7 +102,7 @@ Du kan definere så mange kombinasjoner du vil. Hvis du vil gruppere kombinasjon
 Hvis du vil kombinere mva-bokføringsoppsett, følger du denne fremgangsmåten:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 5.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.
-2. Fyll ut feltene etter behov.
+2. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="assign-vat-posting-groups-by-default-to-multiple-entities"></a>Tilordne mva-bokføringsgrupper som standard til flere enheter
 

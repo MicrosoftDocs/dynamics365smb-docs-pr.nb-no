@@ -11,12 +11,12 @@ ms.search.form: 283
 ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
-ms.openlocfilehash: cf990ec5de639054a79e98275be76cb0aed989d1
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 96a4330b880ecfe760c146d4b7ae5778716725ef
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128794"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513916"
 ---
 # <a name="work-with-recurring-revenue-in-prod_short"></a>Arbeide med gjentakelsesomsetning i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -29,11 +29,11 @@ En gjentakelseskladd er en finanskladd med spesifikke felt for håndtering av tr
 
 ### <a name="why-use-this-option"></a>Hvorfor bruke dette alternativet
 
-Med dette alternativet kan du definere fleksible faktureringsperioder med [datoformler](ui-enter-date-ranges.md#using-date-formulas).
+Med dette alternativet kan du definere fleksible faktureringsperioder med [datoformler](ui-enter-date-ranges.md#use-date-formulas).
 
 Med dette alternativet kan du imidlertid ikke skrive ut og sende fakturaer i standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Hvis du vil ha mer informasjon, kan du se [Arbeide med gjentakelseskladder](ui-work-general-journals.md#working-with-recurring-journals).  
+Hvis du vil ha mer informasjon, kan du se [Arbeid med gjentakelseskladder](ui-work-general-journals.md#work-with-recurring-journals).  
 
 ## <a name="create-multiple-invoices-based-on-a-recurring-job-journal"></a>Opprette flere fakturaer basert på en gjentakende prosjektkladd
 
@@ -111,8 +111,8 @@ På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du få utvid
 
 ## <a name="see-also"></a>Se også
 
-[Datoformler](ui-enter-date-ranges.md#using-date-formulas)  
-[Arbeide med gjentakelseskladder](ui-work-general-journals.md#working-with-recurring-journals)  
+[Datoformler](ui-enter-date-ranges.md#use-date-formulas)  
+[Arbeid med gjentakelseskladder](ui-work-general-journals.md#work-with-recurring-journals)  
 [Opprett prosjektkladdelinjer](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
 [Opprette flere salgsfakturaer for prosjekt](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
 [Opprette gjentakende salgs- og kjøpslinjer](sales-how-work-standard-lines.md)  

@@ -1,6 +1,6 @@
 ---
 title: Bruke konfigurasjon for nye selskaper
-description: Når du har opprettet en konfigurasjonspakke, kan du distribuere pakken til kunden for implementering. Du bruker konfigurasjonen for et nytt, tomt selskap.
+description: Når du har opprettet en konfigurasjonspakke, kan du distribuere pakken til kunden for implementering. Du bruker konfigurasjonen for et nytt, tomt selskap hvis du bruker RapidStart Services.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 439a717b37d5936c221992bcd7f85bb1d1db42eb
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 14b97b1f635fab5671c478106680c2b723ca86c2
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141492"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522277"
 ---
-# <a name="apply-configurations-to-new-companies"></a>Bruke konfigurasjoner for nye selskaper
+# <a name="apply-configurations-to-new-companies-with-rapidstart-services"></a>Bruk konfigurasjoner for nye selskaper med RapidStart Services
 Når du har opprettet en konfigurasjonspakke, er neste trinn å distribuere pakken til kunden for implementering. Du jobber med konfigurasjonspakken i et nytt, tomt selskap.  
 
  Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emner som beskriver dem.

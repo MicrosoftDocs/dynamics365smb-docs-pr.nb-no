@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: dfae531d49166d3a95c841cfc27e7f73e181072d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383140"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515748"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Tilordne tabellene og feltene som skal synkroniseres
 
@@ -85,7 +85,7 @@ SELGERE – Dynamics 365 Sales-synkroniseringsjobben bruker for eksempel tabellt
 
 2.  I tabelltilordningsoppføringen i listen fjerner du **Synkroniser bare koblede poster**-feltet.  
 
-## <a name="using-configuration-templates-on-table-mappings"></a>Bruke konfigurasjonsmaler på tabelltilordninger
+## <a name="use-configuration-templates-on-table-mappings"></a>Bruk konfigurasjonsmaler på tabelltilordninger
 Du kan tilordne konfigurasjonsmaler til tabelltilordninger til bruk for nye poster eller rader som er opprettet i [!INCLUDE[prod_short](includes/prod_short.md)] eller [!INCLUDE[prod_short](includes/cds_long_md.md)]. For hver tabelltilordning kan du angi en konfigurasjonsmal som skal brukes for nye [!INCLUDE[prod_short](includes/prod_short.md)]-poster, og en annen mal for å bruke nye [!INCLUDE[prod_short](includes/cds_long_md.md)]-rader.  
 
 Hvis du installerer standard synkroniseringsoppsett, vil to konfigurasjonsmaler vanligvis bli opprettet automatisk og brukes på tabelltilordningen for [!INCLUDE[prod_short](includes/prod_short.md)]-kunder og [!INCLUDE[crm_md](includes/crm_md.md)]-kontoer: **CDSCUST** og **CDSACCOUNT**.  

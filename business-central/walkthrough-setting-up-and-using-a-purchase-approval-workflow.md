@@ -9,19 +9,19 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 1d3e30185d4e5486c6e56941d08cc1586b2c554f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f921a6da2bb963d7cb53f062f32db7af6169020c
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138183"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520077"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning
 
 Du kan automatisere prosessen med å godkjenne nye eller endrede poster, for eksempel dokumenter, kladdelinjer og kundekort, ved å opprette arbeidsflyter med trinnene for godkjenninger som er aktuelle. Før du oppretter arbeidsflyter for godkjenning, må du definere en godkjenner og stedfortredende godkjenner for hver bruker for godkjenning. Du kan også angi godkjenneres beløpsgrenser for å definere hvilke salgs- og kjøpsposter de er kvalifisert til å godkjenne. Forespørsler om godkjenning og andre meldinger kan sendes som e-post eller intern merknad. For hvert brukeroppsett for godkjenning kan du også definere når de mottar meldinger.
 
 > [!NOTE]
-> I tillegg til arbeidsflytfunksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] kan du bruke Power Automate til å definere arbeidsflyter for hendelser i [!INCLUDE[prod_short](includes/prod_short.md)]. Legg merke til at selv om de er to separate arbeidsflytsystemer, legges en flytmal som du oppretter med Power Automate, til i listen over arbeidsflytmaler i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, se [Bruke Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md).  
+> I tillegg til arbeidsflytfunksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] kan du bruke Power Automate til å definere arbeidsflyter for hendelser i [!INCLUDE[prod_short](includes/prod_short.md)]. Legg merke til at selv om de er to separate arbeidsflytsystemer, legges en flytmal som du oppretter med Power Automate, til i listen over arbeidsflytmaler i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, se [Bruk Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md).  
 
  Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn. Hvis du vil ha mer informasjon, kan du se [Arbeidsflyt](across-workflow.md).  
 
@@ -92,7 +92,7 @@ Opprett arbeidsflyten for godkjenning av innkjøp ved å kopiere trinnene fra ar
     **Arbeidsflyt**-siden åpnes for en ny arbeidsflyt som inneholder all informasjon for den valgte malen. Verdien i **Kode**-feltet utvides med *-01* for å angi at dette er den første arbeidsflyten som er opprettet fra arbeidsflytmalen **Arbeidsflyt for bestillingsgodkjenning**.  
 4. Merk av for **Aktivert** i hodet på **Arbeidsflyt**-siden.  
 
-## <a name="using-the-approval-workflow"></a>Bruke arbeidsflyten for godkjenning
+## <a name="use-the-approval-workflow"></a>Bruk arbeidsflyten for godkjenning
 
 Bruk den nye arbeidsflyten for bestillingsgodkjenning ved først å logge på [!INCLUDE[prod_short](includes/prod_short.md)] som Charlotte for å be om godkjenning av en bestilling. Deretter logger du på som deg selv, viser notatet i rollesenteret, følger koblingen til forespørsel om godkjenning og godkjenner deretter forespørselen.  
 
@@ -119,7 +119,7 @@ Den generiske versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] inneho
 
 Du kan definere variasjoner i arbeidsflyter ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter](across-how-to-create-workflows.md).  
 
-Hvis et forretningsscenario krever en arbeidsflythendelse eller et arbeidsflytsvar som ikke støttes, må en Microsoft-partner implementere dem via kode, eller du kan konfigurere en arbeidsflyt ved å bruke Power Automate. Hvis du vil ha mer informasjon, kan du se [Bruke [!INCLUDE[prod_short](includes/prod_short.md)] i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md) eller [Hendelse i AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) i hjelpen for utviklere.
+Hvis et forretningsscenario krever en arbeidsflythendelse eller et arbeidsflytsvar som ikke støttes, må en Microsoft-partner implementere dem via kode, eller du kan konfigurere en arbeidsflyt ved å bruke Power Automate. Hvis du vil ha mer informasjon, kan du se [Bruk [!INCLUDE[prod_short](includes/prod_short.md)] i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md) eller [Hendelse i AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) i hjelpen for utviklere.
 
 ## <a name="see-also"></a>Se også
 
@@ -128,7 +128,7 @@ Hvis et forretningsscenario krever en arbeidsflythendelse eller et arbeidsflytsv
 [Opprette arbeidsflyter](across-how-to-create-workflows.md)  
 [Bruke arbeidsflyter for godkjenning](across-how-use-approval-workflows.md)  
 [Arbeidsflyt](across-workflow.md)  
-[Bruke Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md)  
+[Bruk Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

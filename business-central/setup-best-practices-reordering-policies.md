@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e6c76729d5b8ecf2a42b0b749a951ee05cef96f3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c67e185ba8994bd20712ca4606df0b5dd7c7682b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142882"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516565"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Anbefalte fremgangsmåter for oppsett: Gjenbestillingsprinsipper
 **Gjenbestillingsprinsipp**-feltet på varekortene tilbyr fire forskjellige planleggingsmetoder som bestemmer hvordan individuelle planleggingsparameter samhandler.  
@@ -44,7 +44,7 @@ Tabellen nedenfor inneholder anbefalte fremgangsmåter for å velge mellom de fi
  [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)   
  [Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)   
  [Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)  
- [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

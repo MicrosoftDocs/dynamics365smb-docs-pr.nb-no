@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: fbb85d69cdd7844bbc63e6367ea962897ab30478
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 09b9f0d4d707da3872ae4b085f1405a99f69a9bc
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144310"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515202"
 ---
 # <a name="plan-picks-in-worksheets"></a>Planlegge plukkinger i forslaget
 
@@ -58,8 +58,8 @@ Du kan sortere linjer etter vare, hyllenummer, kildedokument, forfallsdato eller
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)  
 [Monteringsstyring](assembly-assemble-items.md)  
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

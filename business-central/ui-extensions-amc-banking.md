@@ -9,14 +9,14 @@ ms.workload: na
 ms. search.keywords: bank, format, data
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 277842528290f3d3974c7e4b22030fa33e237dbd
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ec7ba151f94a7209e81f8e695b3053885d0fcc24
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381169"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510535"
 ---
-# <a name="using-the-amc-banking-365-fundamentals-extension"></a>Bruke utvidelsen AMC Banking 365 Fundamentals
+# <a name="use-the-amc-banking-365-fundamentals-extension"></a>Bruk utvidelsen AMC Banking 365 Fundamentals
 Utvidelsen AMC Banking 365 Fundamentals gjør det enklere og mer nøyaktig å sende data til banker. Utvidelsen kobler [!INCLUDE[prod_short](includes/prod_short.md)] sammen med tjenesten AMC Banking 365 Fundamentals for Microsoft Dynamics 365 Business Central, som kan konvertere bankdata fra [!INCLUDE[prod_short](includes/prod_short.md)] til formater som kreves av over 600 banker over hele verden. Dette gjør det for eksempel enklere å overføre betalinger og kreditter til leverandører ved å registrere innbetalingene i [!INCLUDE[prod_short](includes/prod_short.md)], og deretter laste dem opp til banken. Formatene kan også forenkle bankavstemmingsprosesser. Hvis du vil ha mer informasjon, kan du se [AMC Banking for Microsoft Dynamics 365 Business Central](https://www.amcbanking.com/bc-fundamentals/).
 
 > [!Note]
@@ -25,7 +25,7 @@ Utvidelsen AMC Banking 365 Fundamentals gjør det enklere og mer nøyaktig å se
 > [!NOTE]
 > I den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] er det konfigurert og koblet til en global tjenesteleverandør for å konvertere bankdata til hvilket som helst format banken krever. I versjonene for Nord-Amerika kan den samme servicen brukes til å sende betalingsfiler som elektronisk pengeoverføring (EFT), for eksempel det ofte brukte ACH-nettverket (Automated Clearing House), men med en litt annerledes prosess.
 
-## <a name="using-our-demonstration-account"></a>Bruke vår demonstrasjonskonto
+## <a name="use-our-demonstration-account"></a>Bruk demonstrasjonskontoen
 [!INCLUDE[prod_short](includes/prod_short.md)] leveres med en demonstrasjonskonto som lar deg prøve ut utvidelsen AMC Banking 365 Fundamentals. Vi gir standardinnstillinger for tilkobling til AMC Banking, med angivelse av bankkontoer som data skal hentes fra i [!INCLUDE[prod_short](includes/prod_short.md)], i tillegg til noen få datautvekslingsdefinisjoner. Du kan vise tilkoblingsinnstillingene på siden **AMC Banking-oppsett**. For bankkonto bruker utvidelsen verdier i feltene **Banknavn**, **Numre på kredittoverføringsmeldinger**, **Importformat for bankkontoutdrag** og **Betalingseksportformat**.
 
 Vi tilbyr innstillingene, men hvis du vil prøve ut utvidelsen, må du kjøre veiledningen assistert oppsett for å bruke dem. På siden **AMC Banking-oppsett** velger du handlingen **Assistert oppsett** for å kjøre veiledningen.
@@ -63,7 +63,7 @@ For hvert nye tillatelsessett gir du bare **Lese**-tillatelsen for **AMC Banking
 4. I feltet **Numre på kredittoverføringsmeldinger** velger du nummerserien som skal brukes for meldinger som følger med betalingene.
 5. I feltene **Importformat for bankkontoutdrag** og **Betalingseksportformat** velger du datautvekslingsdefinisjonene som banken krever.
 
-## <a name="using-the-extension"></a>Bruke utvidelsen
+## <a name="use-the-extension"></a>Bruk utvidelsen
 Bruk av denne utvidelsen er bare et spørsmål om å eksportere data på **Betalingskladder**-siden, og deretter laste dem opp til bankens webtjeneste. Hvis du vil ha mer informasjon, se [Betale med tjenesten for bankdatakonvertering eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).
 
 > [!Note]

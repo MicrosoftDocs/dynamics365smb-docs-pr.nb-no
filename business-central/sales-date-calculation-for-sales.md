@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: bee576ce77411e15710e9f09ccbc6ef457f80728
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: e195e6658bc495b5d06764114d971c9fc4b7b484
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145449"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522619"
 ---
 # <a name="date-calculation-for-sales"></a>Beregne dato for salg
 [!INCLUDE[prod_short](includes/prod_short.md)] beregner automatisk hvilken dato en vare på en ordrelinje tidligst kan leveres på.
@@ -32,7 +32,7 @@ Hvis du angir en ønsket leveringsdato på ordren, blir denne datoen som utgangs
 Hvis varene er tilgjengelige for plukking på forsendelsesdatoen, kan salgsprosessen fortsette. Hvis ikke, vises en advarsel om tomt lager.
 
 > [!Note]
-> Hvis prosessen er basert på beregning bakover, for eksempel hvis du bruker ønsket leveringsdato til å hente den planlagte forsendelsesdatoen, anbefaler vi at du bruker datoformler som har faste varigheter, for eksempel "5D" i fem dager eller "1U" for én uke. Datoformler uten faste varigheter, for eksempel "GU" for gjeldende uke eller GM for gjeldende måned, kan resultere i feil datoberegninger. Hvis du vil ha mer informasjon om datoformler, kan du se [Arbeide med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md).
+> Hvis prosessen er basert på beregning bakover, for eksempel hvis du bruker ønsket leveringsdato til å hente den planlagte forsendelsesdatoen, anbefaler vi at du bruker datoformler som har faste varigheter, for eksempel "5D" i fem dager eller "1U" for én uke. Datoformler uten faste varigheter, for eksempel "GU" for gjeldende uke eller GM for gjeldende måned, kan resultere i feil datoberegninger. Hvis du vil ha mer informasjon om datoformler, kan du se [Arbeid med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md).
 
 ## <a name="calculating-the-earliest-possible-delivery-date"></a>Beregne den tidligste mulige leveringsdatoen
 Hvis du ikke angir en ønsket leveringsdato på ordrelinjen, eller hvis ønsket leveringsdato ikke kan innfris, beregnes datoen som varene tidligst er tilgjengelige på. Denne datoen angis deretter i feltet Forsendelsesdato på linjen, og datoen du planlegger å sende og levere varene til kunden på beregnes også ved hjelp av følgende formler.
@@ -44,7 +44,7 @@ Hvis du ikke angir en ønsket leveringsdato på ordrelinjen, eller hvis ønsket 
 ## <a name="see-also"></a>Se også  
  [Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)   
  [Beregne ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
- [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: transportation, added cost, landed cost
 ms.search.form: 5709, 5800, 5805, 5814
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 6cfebffb12eb2cd7ffa84e12a07c01968c429069
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd8485bf4d679e740f60c8cc38e5912953b5b0bb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145605"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522827"
 ---
 # <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Bruke varegebyr til å gjøre rede for ekstra handelskostnader
 For å sikre riktig verdisetting må lagervarene bære eventuelle ekstra kostnader, for eksempel frakt, fysisk håndtering, forsikring og transport, som du pådrar deg når du kjøper eller selger varer. Når det gjelder kjøp, består netto innkjøpspris for en vare av innkjøpsprisen fra leverandøren samt alle direkte tilleggsvaregebyr som kan tilordnes enkeltstående mottak eller returforsendelser. Når det gjelder salg, kan det være like viktig for selskapet ditt å være klar over kostnaden ved å levere solgte varer som netto innkjøpspris for kjøpte varer.
@@ -83,7 +83,7 @@ Varegebyret på den separate kjøpsfakturaen er nå tilordnet til varen på det 
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Registrere kjøp](purchasing-how-record-purchases.md)  
 [Fakturere salg](sales-how-invoice-sales.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

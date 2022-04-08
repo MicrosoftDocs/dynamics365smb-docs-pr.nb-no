@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 7371, 7374, 7379
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 6802009029d8eea434e7c5096f4efb591ee4993b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: ac50c7cf8aaf68ab0846a79788bb13e63a3c8b50
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382744"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513370"
 ---
 # <a name="assign-default-bins-to-items"></a>Tilordne standardhyller til varer
 Hvis du bruker hyller i en lokasjon, kan du tilordne standardhyller til varene for å gjøre levering, mottak og flytting av varene enklere. Når en standardhylle tilordnes en vare, foreslås denne hyllen hver gang du oppretter en transaksjon for denne varen. Standardhyller defineres på siden **Hylleinnhold**.  
@@ -44,7 +44,7 @@ Det kan hende du må endre tilordningen av standardhylle for en vare eller tilor
 [Definer Warehouse Management](warehouse-setup-warehouse.md) 
 [Monteringsstyring](assembly-assemble-items.md)
 [Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: payment process, cash receipts
 ms.search.form: 1290, 1294, 1287
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7f4dd9269b4d34de4fd206205d0bb628a40750ad
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: e3d573643467dd9d850d78fed9a23b7ea60bdfaf
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8380981"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520763"
 ---
 # <a name="reconcile-payments-that-cannot-be-applied-automatically"></a>Avstemme betalinger som ikke kan utlignes automatisk
 Noen ganger må du å håndtere betalinger til din bankkonto som ikke kan utlignes mot en relatert åpen kunde-, leverandør- eller bankkontopost. Årsakene kan være at det ikke finnes dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)] som betalingen kan utlignes mot, eller at det tilknyttede dokumentet i [!INCLUDE[prod_short](includes/prod_short.md)] har et annet beløp enn transaksjonsbeløpet, for eksempel på grunn av valutaveksling. På siden **Betalingsavstemmingskladd** vises alle transaksjonsbeløp for betalinger som ennå ikke er utlignet i **Differanse** -feltet, inkludert beløp som ikke kan brukes på grunn av årsaker som nevnt ovenfor.
@@ -51,7 +51,7 @@ Hvis verdien i **Differanse**-feltet var lavere enn verdien i **Transaksjonsbel�
 ## <a name="see-also"></a>Se også
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

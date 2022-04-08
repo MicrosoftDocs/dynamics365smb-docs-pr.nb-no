@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 42, 50, 9305, 9307
 ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: c1374929790c27bd84733e506866a1e54cea9ffd
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: db06612ed644f8db52d8c9e8247b6cc7fe9df339
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136065"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519176"
 ---
 # <a name="create-prepayment-invoices"></a>Opprette forskuddsfakturaer
 
@@ -74,8 +74,8 @@ Du kan utstede flere forskuddsfakturaer for ordren. Dette gjør du ved å øke f
 [Fakturere forskuddsbetalinger](finance-invoice-prepayments.md)  
 [Gjennomgang: konfigurere og fakturere salgsforskudd](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Tilpasse arbeidsområdet](ui-personalization-user.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Tilpass arbeidsområdet](ui-personalization-user.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: project invoice
 ms.search.form: 1002, 1007,
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: d2d2437028c5d7e7f8ad4bc613e4f6bf1dc06de3
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 792b5a3640693b7d1be76b319dfc4e713085106f
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146309"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516617"
 ---
 # <a name="invoice-jobs"></a>Fakturere prosjekter
 I løpet av prosjektet kan det akkumuleres prosjektkostnader fra ressursforbruk, materiale og prosjektrelaterte kjøp. Under fremdriften til prosjektet blir disse transaksjonene bokført til prosjektkladden. Det er viktig at alle kostnader blir registrert i prosjektkladden før du fakturerer kunden.
@@ -27,6 +27,8 @@ Du kan fakturere hele prosjektet fra siden **Prosjektoppgavelinjer** eller bare 
 
 > [!NOTE]  
 > Hvis du velger **Fakturerbar** i feltet **Prosjektlinjetype** i kjøpsdokumentene for prosjektrelaterte kjøp, opprettes prosjektplanleggingslinjer som er klare til å bli fakturert til kunden. Hvis du vil ha mer informasjon, kan du se [Administrere prosjektforsyninger](projects-how-manage-project-supplies.md).
+
+Du kan også fakturere et selskap som ikke er sluttkunden. Av og til er parten som et prosjekt er for, forskjellig fra parten som betaler regningen. På **Prosjekter**-siden kan du angi kunden som skal dra nytte av prosjektet i **Salg til**-feltene, og parten til å fakturere i **Faktura til**-feltene. 
 
 ## <a name="to-create-multiple-job-sales-invoices"></a>Opprette flere salgsfakturaer for prosjekt
 Du kan opprette en faktura for et prosjekt eller for én eller flere prosjektoppgaver for en kunde enten når arbeidet som skal faktureres, er fullført, eller når faktureringsdatoen som er basert på et faktureringsestimat, er nådd.
@@ -67,7 +69,7 @@ Du kan opprette en faktura fra en prosjektplanleggingslinje og samtidig angi ant
 [Finans](finance.md)  
 [Innkjøp](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)      
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

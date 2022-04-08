@@ -10,12 +10,12 @@ ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 395af6b23c85c3f78eb970b9e2d9603bf336d34d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f00062efdb2e2489c911e531d7a9c8236034a110
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146205"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8520789"
 ---
 # <a name="setting-up-purchasing"></a>Definere kjøp
 Før du kan håndtere kjøpsprosesser, må du konfigurere regler og verdier som definerer selskapets kjøpsprinsipper.
@@ -46,7 +46,7 @@ Finansrelatert kjøpsoppsett, for eksempel betalingsmåte og valutaer, beskrives
 ## <a name="see-also"></a>Se også
 
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

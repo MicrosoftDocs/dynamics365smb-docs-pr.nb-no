@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
 ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
 ms.date: 08/13/2021
 ms.author: jswymer
-ms.openlocfilehash: 007d23bcb1d257402e33689ebe3ac57db10b84c2
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323205"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518340"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Hent Business Central-tillegget for Outlook
 
@@ -39,7 +39,7 @@ Business Central-tillegget for Outlook består av to mindre tillegg:
 
     Når en e-post henviser til et forretningsdokumentnummer i brødteksten i e-posten, gir dette tillegget en direkte, innebygd kobling fra brødteksten i e-posten til det aktuelle forretningsdokumentet i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Hvis du vil ha mer informasjon om hva du gjør med tilleggene, kan du se [Bruk av Business Central som innboks for bedriften i Outlook](work-outlook-addin.md).
+Hvis du vil ha mer informasjon om hva du gjør med tilleggene, kan du se [Bruk Business Central som innboks for bedriften i Outlook](work-outlook-addin.md).
 
 Hvert tillegg leveres som en XML-fil, kalt et *manifest*, som må installeres i Outlook av alle som ønsker denne funksjonaliteten. Disse filene beskriver hvordan du aktiverer tilleggene og kobler til Business Central når de brukes i Outlook. Arbeid med disse filene utføres vanligvis en administrator. Som vanlig bruker trenger du i de fleste tilfeller ikke å håndtere disse filene direkte. Administratoren konfigurerer tillegget slik at det installeres automatisk, eller du bruker det innebygde assisterte oppsettet til å håndtere installasjonen.
 
@@ -84,7 +84,7 @@ Sentralisert distribusjon er en funksjon i administrasjonssenteret for Microsoft
 > [!IMPORTANT]
 > Det vises en grønn hake når tillegget er distribuert til administrasjonssenteret. Det kan imidlertid ta opptil 24 timer før brukere ser tillegget i Outlook-appen. Det kan også hende at brukerne må starte Outlook på nytt.
 
-Når du er ferdig, kan du alltids endre distribusjonen i Microsoft 365-administrasjonssenteret, for eksempel tilordne flere brukere. Hvis du vil ha mer informasjon om hvordan du distribuerer tillegg i administrasjonssenteret, kan du se [Distribuer tillegg i administrasjonssenteret](/microsoft-365/admin/manage/manage-deployment-of-add-in).
+Når du er ferdig, kan du alltids endre distribusjonen i Microsoft 365-administrasjonssenteret, for eksempel tilordne flere brukere. Hvis du vil ha mer informasjon om hvordan du distribuerer tillegg i administrasjonssenteret, kan du se [Distribuer tillegg i administrasjonssenteret](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
 ## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installer tillegget for eget bruk
 
@@ -130,7 +130,7 @@ Du er nå klar til å begynne å bruke tillegget i Outlook.
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Minimumskrav for Outlook](product-requirements.md#outlook)  
-[Bruke tillegg i Outlook på Internett](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
+[Bruk tillegg i Outlook på Internett](https://support.office.com/article/Using-Add-ins-in-Outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce?appver=OWB150)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

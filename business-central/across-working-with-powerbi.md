@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 54271ce12ed5b71266511a85ab7a10516092be36
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b51aa003aa37ed95545d4f9d94e3c34d25d02270
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147167"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8510925"
 ---
-# <a name="working-with-power-bi-reports-in-prod_short"></a>Arbeide med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="work-with-power-bi-reports-in-prod_short"></a>Arbeid med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
 
 I denne artikkelen får du grunnleggende informasjon om hvordan du viser Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -65,7 +65,7 @@ Tilkoblingen til Power BI fra [!INCLUDE [prod_short](includes/prod_short.md)] er
 
 Når du er tilkoblet, kan du velge en rapport fra Power BI-delen på sider.
 
-## <a name="working-with-power-bi-reports"></a>Arbeide med Power BI-rapporter
+## <a name="work-with-power-bi-reports"></a>Arbeid med Power BI-rapporter
 
 ### <a name="show-reports-on-list-pages"></a>Vise rapporter på listesider
 
@@ -109,11 +109,11 @@ For å laste opp en rapport velger du handlingen **Last opp rapport** fra rulleg
 Når rapporten lastes opp til Power BI-arbeidsområdet ditt, lastes den også automatisk opp til andre brukeres Power BI-arbeidsområder.
 
 > [!NOTE]
-> Du må ha SUPER-brukertillatelser i [!INCLUDE[prod_short](includes/prod_short.md)] for å kunne laste opp en rapport. Du kan i tillegg ikke laste opp rapporter med [!INCLUDE [prod_short](includes/prod_short.md)] lokalt. Med den lokale versjonen laster du opp rapporter direkte til Power BI-arbeidsområdet. Hvis du vil ha mer informasjon, kan du se [Arbeide med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md).
+> Du må ha SUPER-brukertillatelser i [!INCLUDE[prod_short](includes/prod_short.md)] for å kunne laste opp en rapport. Du kan i tillegg ikke laste opp rapporter med [!INCLUDE [prod_short](includes/prod_short.md)] lokalt. Med den lokale versjonen laster du opp rapporter direkte til Power BI-arbeidsområdet. Hvis du vil ha mer informasjon, kan du se [Arbeid med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md).
 
 ## <a name="fixing-problems"></a>Løse problemer
 
-Hvis noe går galt, vil denne delen imidlertid gir en løsning for de vanligste problemene.  
+Hvis noe går galt, vil denne delen imidlertid gi en løsning for de vanligste problemene.  
 
 ### <a name="you-dont-have-a-power-bi-account"></a>Du har ikke en Power BI-konto
 
@@ -134,18 +134,18 @@ Dette skjer sannsynligvis fordi navnet på rapporten ikke inneholder navnet på 
 [Business Central og Power BI](admin-powerbi.md)  
 [Bygge Power BI-rapporter for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md)  
 [Oversikt over komponent og arkitektur for Power BI-integrering for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
-[Arbeide med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md)  
+[Arbeid med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md)  
 [Power BI for forbrukere](/power-bi/consumer/end-user-consumer)  
 [Nytt utseende på Power BI-tjenesten](/power-bi/service-new-look)  
 [Hurtigstart: Koble til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
 [Power BI-dokumentasjon](/power-bi/)  
 [Forretningsintelligens](bi.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
-[Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
+[Importer forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
-[Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
-[Ved hjelp av [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
+[Bruk [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
+[Bruk [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
+[Bruk [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
 
 

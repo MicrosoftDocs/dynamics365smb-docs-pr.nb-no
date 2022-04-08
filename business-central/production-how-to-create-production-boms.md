@@ -1,17 +1,17 @@
 ---
 title: Opprette produksjonsstykklister
 description: Lær hvordan du oppretter en produksjonsstykkliste, nye versjoner av en produksjonsstykkliste, og hvordan du bruker antallsberegningsformelen.
-author: SorenGP
+author: bholtorf
 ms.topic: conceptual
 ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: ff4e2068d8ba588b6d92839538df6bfd2ecade24
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 07563e285e6806a1a2010446d4da65fd52c9ed16
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130257"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516903"
 ---
 # <a name="create-production-boms"></a>Opprette produksjonsstykklister
 
@@ -85,6 +85,10 @@ Sammenhengen mellom de enkelte komponentene defineres av beregningsformelen. Fø
 - **Lengde x Bredde** - Antall = Antall per * Lengde x Bredde  
 - **Lengde x Bredde x Dybde** - Antall = Antall per x Lengde x Bredde x Dybde  
 - **Wekt** - Antall = Antall per x Weight  
+- **Fast antall** – Antall = Antall per
+
+> [!NOTE]
+> Beregningsformelen **Fast antall** sørger for at forbruket av en komponent er den samme, uavhengig av svinn eller avgangsantallet. For produksjonsordrekomponenter, når feltet **Beregningsformel** er angitt til **Fast antall**, er feltet **Forventet antall** er alltid lik feltet **Antall per**. Svinnprosenten som er definert på samme linje, ignoreres. Fast antall blir respektert av rapporten **Tilgjengelighet etter stykkliste**. Rapporten vil vise varen som flaskehals hvis det tilgjengelige antallet er mindre enn antallet i feltet **Antall per overordnet**. Feltene **Kan lage overordnet** og **Kan lage toppvare** er alltid tomme uavhengig av tilgjengelighetsantallet. Fast antall er også inkludert i beregninger for standardkostnader. Partistørrelsen for den produserte varen påvirker kostnadene som er tildelt én vare.
 
 ### <a name="example"></a>Eksempel
 
@@ -98,7 +102,7 @@ I en produksjonsstykkliste kreves det sytti metalldeler med dimensjonslengde = 0
 [Planlegging](production-planning.md)   
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

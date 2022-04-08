@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b0f0bf09670620a36ee696fdc9d1483a2c33f77b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: edb133005292c0309de09273b6a2c5c43669eeed
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144336"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514728"
 ---
 # <a name="pick-items-with-inventory-picks"></a>Plukke varer med lagerplukk
 
@@ -119,8 +119,8 @@ I kombinasjonsscenarier, der en del av antallet først må monteres og en annen 
 [Definere lagerstyring](warehouse-setup-warehouse.md)  
 [Monteringsstyring](assembly-assemble-items.md)  
 [Gjennomgang: Plukking og levering i grunnleggende lageroppsett](walkthrough-picking-and-shipping-in-basic-warehousing.md)  
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

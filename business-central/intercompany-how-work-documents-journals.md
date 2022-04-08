@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 600, 610
-ms.date: 06/16/2021
+ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: a258ea2039c69449d4743b62943395abb7c1d430
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 0d0b4404df9f322c9d642fb06c08e912c24f9fd3
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367179"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519729"
 ---
 # <a name="work-with-intercompany-documents-and-journals"></a>Arbeide med konserninterne dokumenter og kladder
 Du bruker konserninterne dokumenter eller kladder til å bokføre transaksjoner med de konserninterne partnerne. Når du bokfører et konserninternt dokument eller en kladdelinje i selskapet, opprettes det et tilsvarende dokument eller kladdelinje i den konserninterne utboksen som du kan overføre til partneren. Partneren kan deretter bokføre den tilsvarende transaksjonen i selskapet sitt, uten å måtte registrere dataene på nytt.
@@ -39,7 +39,8 @@ Fremgangsmåten nedenfor beskriver hvordan du fyller ut og sender en konserninte
 > Hvis du utfører trinn 4, blir ordren flyttet til den konserninterne utboksen der du kan sende den senere. Hvis du vil ha mer informasjon, se [Administrere den konserninterne innboksen og utboksen](intercompany-how-manage-intercompany-inbox.md).
 
 ## <a name="to-fill-in-and-post-an-intercompany-journal"></a>Slik fyller du ut og bokfører en konsernintern kladd
-Når du bokfører en konsernintern kladdelinje i selskapet, opprettes det en tilsvarende kladdelinje i den konserninterne utboksen som du kan overføre til partneren. Partneren kan deretter bokføre den tilsvarende transaksjonen i selskapet sitt, uten å måtte registrere dataene på nytt.
+
+Når du bokfører en konsernintern kladdelinje i selskapet, opprettes det en tilsvarende kladdelinje i den konserninterne utboksen som du kan overføre til partneren. Med lanseringsbølge 1 for 2022 kan du også definere selskapet for automatisk oppretting av mottatte konserninterne transaksjoner fra konserninterne partnere, bokført gjennom den konserninterne finanskladden. Partneren kan deretter bokføre den tilsvarende transaksjonen i selskapet sitt, uten å måtte registrere dataene på nytt.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konsernintern finanskladder**, og velg deretter den relaterte koblingen.  
 2. Åpne den relevante kjørselen for kladden. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
@@ -53,11 +54,12 @@ Når du bokfører en konsernintern kladdelinje i selskapet, opprettes det en til
 De involverte postene bokføres i selskapet ditt, og en kladd med tilhørende poster opprettes i den konserninterne utboksen som du kan sende til partnerselskapet. Hvis du vil ha mer informasjon, se [Administrere den konserninterne innboksen og utboksen](intercompany-how-manage-intercompany-inbox.md).
 
 ## <a name="see-also"></a>Se også
+
 [Behandle konserninterne transaksjoner](intercompany-manage.md)  
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  
-[Arbeide med finanskladder](ui-work-general-journals.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med finanskladder](ui-work-general-journals.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: project budget, forecast
 ms.search.form: 1002, 1007
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3334044617e72c08c11cea0d898ebaf6604028f0
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c34a4dd34ab34c7d1a5b02686618ab5f95957cbd
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148359"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513890"
 ---
 # <a name="manage-job-budgets"></a>Administrere prosjektbudsjetter
 Du kan opprette et budsjett for hvert prosjekt. Budsjettet brukes til å planlegge ressursene du tildeler til et prosjekt. Budsjettet kan enten være generelt med få poster, eller det kan inneholde mange poster som er oppdelt i aktivitetsnivåer. Deretter kan du sammenligne de budsjetterte beløpene med det faktiske forbruket slik det er registrert i prosjektkladden. Ved å overvåke forskjeller mellom faktisk bruk og budsjettert bruk kan du kontrollere et pågående prosjekt og forbedre kvaliteten på fremtidige prosjekter ved å redusere risikoen for å underestimere kostnader.
@@ -53,7 +53,7 @@ Hvis du vil ha informasjon om registrering av budsjetterte sammenlignet med fakt
 [Finans](finance.md)  
 [Innkjøp](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)      
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 7fbb0d2c064df2b99fcbb58dde278ed8848f949f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 01e62e4a767ac26967e228ef27a2dadcc0e3ff03
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137526"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516086"
 ---
 # <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrere forbruk og avgang for én frigitt produksjonsordrelinje
 
@@ -70,7 +70,7 @@ Hvis det gjenstår verdier som skal bokføres, inneholder kladden de gjenståend
 [Planlegging](production-planning.md)      
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

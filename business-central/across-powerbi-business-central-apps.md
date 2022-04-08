@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: e61e4561c4227eba4c518e6e5ec0582c5ebe7d70
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cd29453c816eabd8e9475ac7e818c120bd589f3b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134151"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519188"
 ---
-# <a name="using-the-prod_short-apps-in-power-bi"></a>Bruke [!INCLUDE [prod_short](includes/prod_short.md)]-appene i Power BI
+# <a name="use-the-prod_short-apps-in-power-bi"></a>Bruk [!INCLUDE [prod_short](includes/prod_short.md)]-appene i Power BI
 
 > **GJELDER:** [!INCLUDE [prod_long](includes/prod_long.md)] Online 
 
@@ -156,7 +156,7 @@ Power BI-appen viser bare data fra [!INCLUDE[prod_short](includes/prod_short.md)
 
 [Business Central og Power BI](admin-powerbi.md)  
 [Oversikt over komponent og arkitektur for Power BI-integrering for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
-[Arbeide med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md)  
+[Arbeid med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md)  
 [Bygge Power BI-rapporter for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md)  
 [Power BI for forbrukere](/power-bi/consumer/end-user-consumer)  
 [Nytt utseende på Power BI-tjenesten](/power-bi/service-new-look)  
@@ -164,11 +164,11 @@ Power BI-appen viser bare data fra [!INCLUDE[prod_short](includes/prod_short.md)
 [Power BI-dokumentasjon](/power-bi/)  
 [Forretningsintelligens](bi.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
-[Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
+[Importer forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
-[Bruke [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
-[Ved hjelp av [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
+[Bruk [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
+[Bruk [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
+[Bruk [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 
 
 

@@ -10,12 +10,12 @@ ms.search.keywords: crm, sales, couple, decouple, synchronize
 ms.search.form: 6250
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4caf32bb0c7b4471809d8af3b899329c571d144f
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2bc46e165018d29684b116f7aac3745c9d533c42
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381593"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517605"
 ---
 # <a name="coupling-and-synchronizing-records-between-dataverse-and-business-central"></a>Kobling og synkronisering av poster mellom Dataverse og Business Central
 
@@ -66,7 +66,7 @@ Du kan angi hvilke data som skal synkroniseres for en enhet, for eksempel en kun
 Du kan slette én eller flere poster fra listesider eller siden **Feil ved synkronisering av koblede data** ved å velge én eller flere linjer og velge **Slett kobling**. Du kan også fjerne alle koblingene for én eller flere tabelltilordninger på siden **Tilordninger for integreringstabell**.
 
 ## <a name="see-also"></a>Se også  
-[Bruke Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md)
+[Bruk Dynamics 365 Sales fra Business Central](marketing-integrate-dynamicscrm.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

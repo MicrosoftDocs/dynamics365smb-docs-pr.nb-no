@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: fa18d271afce09aaff4ba1f9f0cabfa68d1cc60e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 98064fe1bb76345801c41cbf96362aa2be739f12
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140011"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521404"
 ---
 # <a name="norway-local-functionality-in-the-norwegian-version"></a>Norge Lokal funksjonalitet i den norske versjonen
 
@@ -83,7 +83,7 @@ Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske v
 
 ## <a name="see-also"></a>Se også
 
-[Arbeide med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  
 
 

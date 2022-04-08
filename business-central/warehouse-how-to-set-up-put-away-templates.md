@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7312, 7313, 7314, 7321, 7322, 7323, 7329
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 0498ac73900c151bab10ad10ac7bbf85ebdd8526
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3c663da3b9f16860dd3e490d01c8f3f78928e9e8
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8129477"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519443"
 ---
 # <a name="set-up-put-away-templates"></a>Definere plasseringsmaler
 
@@ -43,8 +43,8 @@ Du kan opprette forskjellige plasseringsmaler og deretter bruke dem slik det pas
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)  
 [Monteringsstyring](assembly-assemble-items.md)  
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

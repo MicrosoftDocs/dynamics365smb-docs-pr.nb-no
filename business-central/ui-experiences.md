@@ -10,12 +10,12 @@ ms.search.keywords: essential, basic, user interface, application area, experien
 ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0c1950fb828dc6a45c35eb6503ff1702cfb3fd71
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b3e053bf59a9019b9f736e24936f0e9a68a5daab
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130018"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521679"
 ---
 # <a name="change-which-features-are-displayed"></a>Endre hvilke funksjoner som vises
 [!INCLUDE[prod_short](includes/prod_short.md)] er utformet for å hjelpe deg med å drive bedriften din uavhengig av størrelse og kompleksitet. I kjernen av produktet finner du viktige funksjoner, for eksempel regnskapsrapporter, salg, kjøp og lagerstyring. Etter hvert som bedriftskompleksiteten øker, kan du f.eks. aktivere funksjonaliteten for produksjons- og servicestyring.
@@ -62,9 +62,9 @@ Alle funksjonsbeskrivelser i brukerdokumentasjonen for [!INCLUDE[prod_short](inc
 [Tilpasse arbeidsområdet](ui-personalization-user.md)  
 [Tilpasse Business Central](ui-customizing-overview.md)  
 [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md)  
-[Opprette nye seleskaper](about-new-company.md)  
+[Opprette nye selskaper](about-new-company.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Lisensveiledning for [!INCLUDE[prod_short](includes/prod_short.md)]](https://go.microsoft.com/fwlink/?LinkId=871590&clcid=0x409)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

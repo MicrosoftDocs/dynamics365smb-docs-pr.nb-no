@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: design, reconciliation, general ledger, inventory
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: f3781169dcf91eacaa8c0988a49d908f7f947f02
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 4e76e76fe97f3d4ca5dbe17c5d699cb64bbe5833
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145839"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513021"
 ---
 # <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetaljer: Avstemming med konti i Finans
 Når du bokfører lagertransaksjoner, for eksempel følgesedler, produksjonsavgang eller nedjusteringer, registreres endringene i antall og verdi på lageret i henholdsvis varepostene og verdipostene. Det neste trinnet i denne fremgangsmåten er å bokføre lagerverdier i lagerkontiene i Finans.  
@@ -122,7 +122,7 @@ Hvis du vil ha mer informasjon om relasjonen mellom kontotyper og ulike typer ve
 [Designdetaljer: Kostjustering](design-details-cost-adjustment.md)
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

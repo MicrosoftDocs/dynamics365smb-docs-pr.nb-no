@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, stock
 ms.search.form: 30, 456, 461
 ms.date: 07/28/2021
 ms.author: edupont
-ms.openlocfilehash: ae5b49a9397dad9b512432a0bb221a1be189df95
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 0cf56049c5c7d5b31cb75185bb26f9619317d9e1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381541"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522017"
 ---
 # <a name="set-up-general-inventory-information"></a>Definere generell informasjon om lagerbeholdning
 
@@ -40,9 +40,9 @@ Hvis du vil at inngående lagerhåndteringstid skal tas med i beregningen av ord
 ## <a name="see-also"></a>Se også
 
 [Definere lager](inventory-setup-inventory.md)  
-[Designdetaljer: Kostmetoder](design-details-costing-methods.md)  
+[Designdetaljer: Lagermetoder](design-details-costing-methods.md)  
 [Håndtere lager](inventory-manage-inventory.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 

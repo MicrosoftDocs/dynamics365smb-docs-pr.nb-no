@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7335c388efc48f3c9a04238e7727817f28a7757f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 5d46916a96a55cf71c6b018fc66b4165c742b632
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128489"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8518578"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Plukke varer for lagerlevering
 Når lokasjonen er satt opp til å bruke plukkbehandling og i tillegg lagerleveringsbehandling, kan du bruke plukkdokumentene til å opprette og behandle plukkopplysningene før lagerleveringen bokføres.  
@@ -77,8 +77,8 @@ Når lagerleveringen er bokført, oppdateres forskjellige felt på ordrelinjen f
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

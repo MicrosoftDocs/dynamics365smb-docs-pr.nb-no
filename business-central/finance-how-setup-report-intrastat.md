@@ -10,12 +10,12 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 01/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: bcf0e27710c66e71dd95710790af2c2ffd4ab5e0
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 2530b6a5d562cfd22abd8ae097408388034a5711
+ms.sourcegitcommit: 4a57fb5b88b9ebbb61fdd1b25e1fd4ba0013c8e5
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381462"
+ms.lasthandoff: 03/25/2022
+ms.locfileid: "8485006"
 ---
 # <a name="set-up-and-report-intrastat"></a>Konfigurere og rapportere Intrastat
 
@@ -27,7 +27,7 @@ Før du kan bruke Intrastat-kladden til å rapportere Intrastat-informasjon, må
 * **Oppsett - Intrastat**: Siden Oppsett - Intrastat brukes til å aktivere Intrastat-rapportering og angi standarder for den. Du kan angi om du må rapportere Intrastat fra forsendelser (utsendelser), mottak (ankomster) eller begge deler, avhengig av terskler som er angitt i dine lokale forskrifter. Du kan også angi standard transaksjonstyper for vanlige dokumenter og returdokumenter, som brukes til transaksjonsrapportering.
 * **Intrastat-kladdemaler**: Du må konfigurere Intrastat-kladdemalene og kjørslene du vil bruke. Siden Intrastat blir rapportert månedlig, må du opprette 12 kjørsler for Intrastat-kladder som er basert på den samme malen.  
 * **Varekoder**: Toll- og skattemyndighetene har laget numeriske koder som klassifiserer varer og tjenester. Du angie disse kodene for varene.
-* **Koder for type transaksjon**: Land og regioner har forskjellige koder for Intrastat-transaksjonstyper, for eksempel vanlig kjøp, salg, utveksling av returnerte varer og utveksling av ikke-returnerte varer. Definer alle kodene som gjelder for landet/regionen. Du bruker disse kodene på salgs- og kjøpsdokumenter, og når du behandler returer. 
+* **Koder for type transaksjon**: Land og regioner har forskjellige koder for Intrastat-transaksjonstyper, for eksempel vanlig kjøp, salg, utveksling av returnerte varer og utveksling av ikke-returnerte varer. Definer alle kodene som gjelder for landet/regionen. Du bruker disse kodene på hurtigfanen **Utenrikshandel** på salgs- og kjøpsdokumenter, og når du behandler returer. 
 
     > [!NOTE]
     > Fra og med januar 2022 krever Intrastat forskjellig transaksjonskode for fordeling til private enkeltpersoner eller ikke-mva-registrerte selskaper og mva-registrerte selskaper. For å overholde dette kravet anbefaler vi at du ser gjennom eller legger til nye transaksjonskoder på siden **Transaksjonstyper** i henhold til kravene i ditt land. Du bør se gjennom og oppdatere feltet **Partnertype** til *Personer* for private eller ikke-mva-selskapers kunder på den relevante **Kunde**-siden. Hvis du er usikker på hvilken partnertype eller transaksjonstype som er riktig å bruke, anbefaler vi at du spør en ekspert i landet eller området ditt. 

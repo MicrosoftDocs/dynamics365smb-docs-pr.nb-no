@@ -1,7 +1,7 @@
 ---
 title: Oppdatere egendefinerte rapportoppsett
 description: Lær hvordan du oppdaterer et egendefinert rapportoppsett som brukes i en rapport når det for eksempel finnes utformingsendringer i rapportens datasett.
-author: SorenGP
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,14 +9,16 @@ ms.workload: na
 ms.search.form: 9652, 9650
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: d04b6b37573c81c3eef43fd2077b42bd7f5e1884
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 76e4b2351e3df740871b5f79e6086c1a70079023
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144622"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517215"
 ---
-# <a name="update-custom-report-layouts"></a>Oppdatere egendefinerte rapportoppsett
+# <a name="legacy-update-custom-report-layouts"></a>(Eldre) Oppdater egendefinerte rapportoppsett
+
+[!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
 Noen ganger må du kanskje oppdatere et egendefinert rapportoppsett som brukes i en rapport. Dette er nødvendig når det er en endring i utformingen av rapportens datasett, for eksempel hvis et felt som brukes i oppsettet, er fjernet fra rapportdatasettet. Hvis et rapportoppsett må oppdateres, får du en feilmelding når du prøver å forhåndsvise, skrive ut eller lagre rapporten.  
 
@@ -28,9 +30,9 @@ Ikke alle endringer i rapportdatasettet kan oppdateres automatisk i et rapportop
 
 ## <a name="to-update-one-or-more-custom-report-layouts"></a>Slik oppdaterer du én eller flere egendefinerte rapportoppsett  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rapportoppsett**, og velg deretter den relaterte koblingen.  
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
 
-2.  Hvis du vil oppdatere en bestemt rapport, velger du oppsettet fra listen på siden **Rapportoppsett**, og velger deretter **Oppdater oppsett**. Hvis du vil oppdatere alle egendefinerte rapportoppsett for selskapet, velger du **Oppdater alle oppsett**-handlingen.  
+2.  Hvis du vil oppdatere en bestemt rapport, velger du oppsettet fra listen på siden **Valg av rapportoppsett**, og velger deretter **Oppdater oppsett**. Hvis du vil oppdatere alle egendefinerte rapportoppsett for selskapet, velger du **Oppdater alle oppsett**-handlingen.  
 
 Hvis det ikke oppstår noen feil, brukes oppdateringene på rapportoppsettene. Hvis det oppstår feil, vises en melding som inneholder feilene. Du må deretter manuelt redigere det egendefinerte rapportoppsettet for å rette opp feilen. Hvis du vil ha mer informasjon, kan du se [Rette feil](ui-update-report-layouts.md#FixErrors).  
 
@@ -66,7 +68,7 @@ Når du har endret oppsettet, kan du prøve å oppdatere det på nytt.
 
 ## <a name="see-also"></a>Se også  
  [Håndtere rapportoppsett](ui-manage-report-layouts.md)  
- [Arbeide med rapporter, satsvise jobber og XML-porter](ui-work-report.md)  
+ [Arbeid med rapporter, satsvise jobber og XMLport-er](ui-work-report.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

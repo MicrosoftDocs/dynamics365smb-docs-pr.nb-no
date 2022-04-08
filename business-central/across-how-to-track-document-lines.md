@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 6560, 42, 50, 507, 509
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 6a71c817570dd1a784995bbc41f095f0ce799c6f
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 831087c068a75d37c30533e18f345d8a4de6129a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138833"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522329"
 ---
 # <a name="track-document-lines"></a>Spore dokumentlinje
 Du kan vise dokumenter som er relatert til ordrelinjer og bestillingslinjer, herunder fra arkiverte ordrelinjer. Dokumenter som du kan spore, inkluderer forespørsler, følgesedler, mottak og rammeordrer. Dette hjelper deg med å identifisere dokumenter som er brukt til å behandle ordrer.  
@@ -33,7 +33,7 @@ Fremgangsmåten nedenfor beskriver hvordan du sporer fra salgsordrelinjer. Fremg
 ## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

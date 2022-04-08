@@ -9,14 +9,14 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 2cbf60577e7c0c4f95fcb623fb448f8cb5bd7960
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 8fc4dc464e6562684db6b4ae67422f59cb641927
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138703"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511210"
 ---
-# <a name="using-workflows"></a>Bruke arbeidsflyter
+# <a name="use-workflows"></a>Bruk arbeidsflyter
 
 En arbeidsflyt er en sekvens av oppgaver som utløses av en handling, en betingelse eller en regel. Arbeidsflyter er vanligvis implementert for å integrere forretningslogikk i en organisasjon, for eksempel separasjon av oppgaver, innsamlingsprosesser eller for å øke tillit og ansvar.  
 
@@ -72,7 +72,7 @@ Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som
 ## <a name="see-also"></a>Se også  
 [Konfigurere arbeidsflyter](across-set-up-workflows.md)   
 [Arbeidsflyt](across-workflow.md)   
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -10,12 +10,12 @@ ms.search.keywords: payment process, direct payment posting, reconcile payment, 
 ms.search.form: 1290, 1291, 1293, 1294
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9eb37571da51c0bab1fed0f6f62170208e7ee8c6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f19f2a449e90476ed77d144c1faf715f21777f5e
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146179"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8522697"
 ---
 # <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Utligne betalinger automatisk og avstemme bankkonti
 Du må regelmessig avstemme bankkontoene og samlekontoene for kunder og leverandører ved å utligne betalinger som er registrert på bankkontoen, mot de tilknyttede åpne (ubetalte) fakturaene og kreditnotaene eller andre åpne poster i [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -31,7 +31,7 @@ Hvis du vil importere bankkontoutdrag som en bankfeed, må du først konfigurere
 > [!TIP]
 > Du kan også importere bankkontoutdragsfiler i komma- eller semikolondelt format (.CSV). Bruk veiviseren **Definer et filformat for bankkontoutdrag** for assistert installasjon til å definere importformater for bankkontoutdrag og knytte formatet til en bankkonto. Du kan deretter bruke disse formatene når du importerer bankkontoutdrag på siden **Bankkontoavstemming**.
 
-Du kan også bruke utvidelsen AMC Banking 365 Fundamentals til å konvertere en bankkontoutdragsfil fra hvilket som helst format, til en datastrøm du kan importere til [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Bruke AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md).  
+Du kan også bruke utvidelsen AMC Banking 365 Fundamentals til å konvertere en bankkontoutdragsfil fra hvilket som helst format, til en datastrøm du kan importere til [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Bruk AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md).  
 
 Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.  
 
@@ -49,7 +49,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 [Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

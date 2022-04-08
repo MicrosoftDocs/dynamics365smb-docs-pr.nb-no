@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: migration, Excel
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5c6dc9d386bde8e4f8496f086141589ea4c89c73
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f2918b554cf578baa0636f0a18bbbbf2fc8a4692
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136455"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516476"
 ---
 # <a name="importing-business-data-from-other-finance-systems"></a>Importere forretningsdata fra andre økonomisystemer
 
@@ -40,7 +40,7 @@ For å importere varebilder kan du bruke en egen funksjon på siden **Lageroppse
 > [!NOTE]  
 >   Arbeide med konfigurasjonspakker er avanserte funksjoner, og vi anbefaler at du kontakter systemansvarlig. For mer informasjon, se [Importere data fra eldre regnskapsprogramvare ved hjelp av en konfigurasjonspakke](across-import-data-configuration-packages.md).
 
-## <a name="working-with-data-in-excel"></a>Arbeide med data i Excel
+## <a name="work-with-data-in-excel"></a>Arbeid med data i Excel
 Når du eksporterer standard konfigurasjonspakke til Excel, inneholder generert arbeidsboken et regneark for hver tabell i pakken. Du kan forenkle oppgavene ved å bruke verktøyene for XML-manipulering i Excel. Du kan også bruke innebygde Excel-funksjoner for å få hjelp med dataformatering og plassering av data i riktig celle. Du kan for eksempel legge til et tomt regneark og kopiere de gamle dataene til det. Lag deretter en Excel-formel til å tilordne data i transformasjonsregnearket mellom feltene i det eksporterte regnearket og eldre kundedata. Når du har tilordnet alle dataene, kan du kopiere dataområdet til tabellforslaget.  
 
 > [!IMPORTANT]  

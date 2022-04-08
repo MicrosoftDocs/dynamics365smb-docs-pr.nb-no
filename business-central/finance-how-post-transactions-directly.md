@@ -10,12 +10,12 @@ ms.search.keywords: direct posting, general ledger
 ms.search.form: 39, 251
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 26fb9695778d3a8a63c740a6e4303bfd001ab707
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: cf61b53db298f4c133a3e733e4bb95d3506af05a
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132943"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8517527"
 ---
 # <a name="post-transactions-directly-to-the-general-ledger"></a>Bokføre transaksjoner direkte i Finans
 
@@ -43,11 +43,11 @@ I motsetning til poster som bokføres med dokumenter, som krever en kreditnotapr
 
 ## <a name="see-also"></a>Se også
 
-[Arbeide med finanskladder](ui-work-general-journals.md)  
+[Arbeid med finanskladder](ui-work-general-journals.md)  
 [Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)  
 [Tilbakeføre kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

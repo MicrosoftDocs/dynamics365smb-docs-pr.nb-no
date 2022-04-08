@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales rep
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 8c4cca41beb49c05568d6e0c1c21946bb493e30b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 6046562a16bd1f9736bd10bea5c4bda397d99df1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145397"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512182"
 ---
 # <a name="set-up-salespeople"></a>Definere selgere
 Mange selskaper har behov for å kunne følge de enkelte medarbeidernes prestasjoner som et grunnlag for beregning av salgsprovisjon eller bonus. Se for eksempel rapporten **Provisjon for selgere**. Det kan også hende at et selskap vil knytte en selger til hver kontakt.
@@ -32,7 +32,7 @@ Du kan bruke selgere i diverse arbeid vedrørende håndtering av kunderelasjoner
 ## <a name="see-also"></a>Se også
 [Sette opp salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

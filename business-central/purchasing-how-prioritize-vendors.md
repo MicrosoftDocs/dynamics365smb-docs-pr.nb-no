@@ -10,12 +10,12 @@ ms.search.keywords: supplier, payment priority
 ms.search.form: 26, 27
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 41977fdf7d90082094e3cc9ff025a56b878a6b2c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 411163798b5af49a154e19243e556c010bffd5ee
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131226"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8513786"
 ---
 # <a name="prioritize-vendors"></a>Prioritere leverandører
 [!INCLUDE[prod_short](includes/prod_short.md)] kan foreslå ulike utbetalinger til leverandører, for eksempel betalinger som snart forfaller eller betalinger hvor en rabatt er tilgjengelig. Hvis du vil ha mer informasjon, kan du se [Betalingsforslag – leverandør](payables-how-suggest-vendor-payments.md).
@@ -36,7 +36,7 @@ Hvis du ikke vil prioritere en leverandør, lar du feltet **Prioritet** stå tom
 ## <a name="see-also"></a>Se også
 [Definere kjøp](purchasing-setup-purchasing.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

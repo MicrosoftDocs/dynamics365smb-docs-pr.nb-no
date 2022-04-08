@@ -11,12 +11,12 @@ ms.workload: na
 ms.search.keywords: relationship, prospect
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 33bb659621fe31d096020c52906915c9697e6a60
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ad7cb81559b27ffe1bb715cac30a4286d77f47da
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137838"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8516112"
 ---
 # <a name="set-up-contacts"></a>Definere kontakter
 Når du oppretter kontakter, kan du legge inn spesifikk informasjon, for eksempel bransjen der kontakten hører til, og forretningsforholdet ditt med kontaktene.
@@ -140,7 +140,7 @@ Når du endrer ett av disse feltene på kortet for kontaktselskapet, oppdateres 
 
 Hvis du vil ha mer informasjon, kan du se [Opprette kontakter](marketing-create-contact-companies.md).
 
-## <a name="using-predefined-defaults-on-new-contacts"></a>Bruke forhåndsdefinerte standarder på nye kontakter
+## <a name="use-predefined-defaults-on-new-contacts"></a>Bruk forhåndsdefinerte standarder på nye kontakter
 Du kan angi at hver gang du oppretter en ny kontakt, skal det automatisk tilordnes en bestemt språkkode, distriktskode, selgerkode og lands-/regionkode som standard. Du kan også angi en standard salgssykluskode som automatisk tilordnes hver nye salgsmulighet du oppretter. Du definere dette i **Standardverdier**-hurtigfanen på **Markedsføringsoppsett**-siden
 
 Arv av felt overskriver standardverdiene du har definert. Hvis du for eksempel har definert norsk som standardspråk, men ett av kontaktselskapene bruker tysk, tildeles automatisk tysk som språkkode for de kontaktpersonene som står registrert for dette selskapet.
@@ -159,7 +159,7 @@ Når du har funnet en duplisert kontakt, kan du bruke siden **Slå sammen duplik
 [Administrere kontakter](marketing-contacts.md)  
 [Opprette kontakter](marketing-create-contact-companies.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

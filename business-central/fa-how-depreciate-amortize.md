@@ -10,12 +10,12 @@ ms.search.keywords: write down
 ms.search.form: 5610, 5611, 5629, 5633, 5659, 5660, 5663, 5619, 5666
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 0badc89eaf2cce78d175077301dc242786bd4d10
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 3202fb5906328da08eed10ad722b914eb5b5afcb
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366491"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8511080"
 ---
 # <a name="depreciate-or-amortize-fixed-assets"></a>Avskrive eller amortisere aktiva
 Avskrivning brukes til å fordele aktivakostnader, for eksempel maskiner og utstyr, over den avskrivningsberettigede levetiden til aktivaet. Du må definere hvordan du vil at hvert enkelt aktiva skal avskrives.  
@@ -117,7 +117,7 @@ De kopierte linjene opprettes enten i aktivafinanskladden eller i aktivakladden,
 [Aktiva](fa-manage.md)  
 [Definere aktiva](fa-setup.md)  
 [Finans](finance.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

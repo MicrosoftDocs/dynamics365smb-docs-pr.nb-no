@@ -9,12 +9,12 @@ ms.workload: na
 ms. search.keywords: VAT, value added tax, report
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: f385cd6dc2186a2e492eb7c045639ec34185237c
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7d040289fbcf85b67c32147e56f13797e3bd5447
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382560"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8519573"
 ---
 # <a name="the-vat-group-management-extension"></a>Utvidelsen for mva-gruppestyring
 
@@ -91,7 +91,7 @@ Konfigurer mva-gruppemedlemmet ved å starte assistert oppsettsveiledning for **
 
   I Storbritannia blir for eksempel konfigurasjonen av mva-rapporten definert til å rapportere mva til HMRC. Utvidelsen for mva-gruppestyring kopierer dette oppsettet, men erstatter codeuniten for sending med en som støtter sending til mva-grupperepresentanten i stedet for skattemyndighetene. Codeuniten leveres av Microsoft. Velg **Neste** når du er ferdig.
 
-## <a name="using-the-vat-group-management-features"></a>Bruke funksjonene for mva-gruppestyring
+## <a name="use-the-vat-group-management-features"></a>Bruk funksjonene for mva-gruppestyring
 
 Mva-gruppemedlemmer bruker standardprosessene til å forberede omsetningsoppgaver. Den eneste forskjellen er å velge rapportversjonen **MVA-GRUPPE**, som sender omsetningsoppgaven til mva-grupperepresentanten i stedet for myndighetene. Hvis du vil ha mer informasjon, kan du se [Om rapporten Omsetningsoppgave](finance-how-report-vat.md#vatreturn).
 

@@ -6,14 +6,15 @@ metadata:
   ms.topic: faq
   ms.reviewer: edupont04
   ms.search.keywords: keyboarding, productivity, how do i, filter pane
+  ms.search.form: TellMe
   ms.date: 04/01/2021
   ms.author: mikebc
-  ms.openlocfilehash: 58c0e15d418bdf8743acdbbe14eb01243bd30a14
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: efce99fd19b1416396f529e6435ec11775959034
+  ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
   ms.translationtype: HT
   ms.contentlocale: nb-NO
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8138235"
+  ms.lasthandoff: 03/31/2022
+  ms.locfileid: "8515878"
 title: Vanlige spørsmål om søk og filtrering
 summary: Denne artikkelen svarer på vanlige spørsmål du måtte ha om søking og filtrering i Business Central.
 sections:
@@ -45,7 +46,7 @@ sections:
       Filtrene og justeringene dine i forhåndsdefinerte filtre huskes gjennom økten (mens du er logget på), selv om du navigerer bort fra siden. Du kan lagre filtre permanent som en navngitt visning av listen ved å velge ikonet ![Lagre visning](media/save_view_icon.png "Lagre visning") i filtreringsruten. Hvis du vil ha mer informasjon, kan du se [Vanlige spørsmål om listevisninger](ui-views-faq.yml). I motsetning til filtre blir ikke søketeksten husket når du navigerer bort fra en side, og lagres ikke når du lagrer en visning.
 
 
-      På rapportforespørselssider kan du også lagre filtre eller bruke forhåndsdefinerte filtre. Hvis du vil ha mer informasjon, kan du se [Bruke lagrede innstillinger](ui-work-report.md#SavedSettings).
+      På rapportforespørselssider kan du også lagre filtre eller bruke forhåndsdefinerte filtre. Hvis du vil ha mer informasjon, kan du se [Bruk lagrede innstillinger](ui-work-report.md#SavedSettings).
   - question: >
       Er dette det samme som Avanserte filtre og Begrens totaler i Microsoft Dynamics NAV?
     answer: "[!INCLUDE[prod_short](includes/prod_short.md)] bygger på disse populære funksjonene og gir deg en moderne og brukervennlig opplevelse for å finne og analysere data. Med flere hurtigtaster og innføringen av Søk overgår [!INCLUDE[prod_short](includes/prod_short.md)] funksjonaliteten i Dynamics NAV.  \n"
@@ -68,4 +69,8 @@ sections:
       Vil Microsoft utvide filtreringsruteopplevelsen?
     answer: >
       Hos Microsoft hører vi konstant på tilbakemelding fra våre mange brukere og agerer på de mest populære forslagene. Hvis du er interessert i å utvide filtreringsturen til flere formfaktorer og flere typer oversikter eller har en god idé om hvordan du kan forbedre den, kan du legge til en idé eller stemme på eksisterende idéer på [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas).
+  - question: >
+      Hvordan endrer jeg utdataene for desimalskilletegnet på det numeriske tastaturet?
+    answer: >
+      Som standard bestemmes utgangstegnet for desimalskilletegnet av områdeinnstillingen for Business Central, som du angir på **Mine innstillinger**-siden. Du kan bytte til et punktum (.) midlertidig ved å trykke tasten Alt + desimalskilletegn på tastaturet. Trykk Alt + desimalskilletegnet igjen for å bytte tilbake. Se [Angi desimalskilletegnet som brukes av numeriske tastaturer](ui-enter-data.md#decimal) for mer informasjon.
 additionalContent: "\n## <a name=\"see-also\"></a>Se også\n   [Sortere, søke etter og filtrere](ui-enter-criteria-filters.md)  \n   [Finne sider og informasjon med Fortell meg](ui-search.md)  \n   [Finne sider med rolleutforskeren](ui-role-explorer.md)  \n   [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  \n        \n        \n   [!INCLUDE[footer-include](includes/footer-banner.md)]"

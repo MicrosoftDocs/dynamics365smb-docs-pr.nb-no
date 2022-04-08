@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: personalize, add-in, extend, customize
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 2500, 2502, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 6eea88cf254b4d1b299a54c47d0e87774f0b21ae
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: fa658877b3ed1c04532083788320403edbebce69
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335298"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8512865"
 ---
 # <a name="customize-business-central"></a>Tilpasse Business Central
 Det finnes ulike metoder for å tilpasse programmet slik at du og kollegene dine får tilgang til funksjonene, funksjonaliteten og dataen du trenger, på en måte som passer til dine daglige arbeidsoppgaver. I denne tabellen beskrives hvem som ser endringene, avhengig av hva du gjør.
@@ -33,7 +33,7 @@ Det finnes ulike metoder for å tilpasse programmet slik at du og kollegene dine
 > Alle funksjonsbeskrivelser i brukerdokumentasjonen for [!INCLUDE[prod_short](includes/prod_short.md)] forutsetter **Premium**-opplevelsen, det vil si at beskrivelsene dekker hele omfanget av grensesnittelementer. Derfor kan brukere som har **Essential**-opplevelsen i enkelte emner lese om funksjoner og grensesnittelementer som ikke vises i brukergrensesnittet. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).
 
 ## <a name="see-also"></a>Se også
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

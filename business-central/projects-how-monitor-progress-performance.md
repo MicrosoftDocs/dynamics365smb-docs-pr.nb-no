@@ -10,12 +10,12 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.search.form: 89, 92, 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f79829b3f227b6a5dcc94c95aa1aaf9826b3d7ce
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f53a98d0574bfd324249b85b0b75de5f5e4997e9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131288"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8514936"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Overvåke prosjektfremdrift og -ytelse
 Under fremdriften av et prosjekt forbrukes materialer, ressurser og andre utgifter som må bokføres til prosjektet. Med funksjonen Varer i arbeid (VIA) kan du beregne den økonomiske verdien av prosjekter i Finans mens prosjektene pågår. I mange tilfeller vil du kanskje bokføre utgifter for et prosjekt før du fakturerer et prosjekt. Når bare utgifter er bokført, vil årsregnskapet bli unøyaktig. Hvis du vil ha mer informasjon, kan du se [Forstå VIA-metoder](projects-understanding-wip.md).
@@ -99,7 +99,7 @@ På siden **Prosjektposter** kan du gå gjennom postene som er knyttet til et pr
 [Finans](finance.md)  
 [Innkjøp](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)      
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

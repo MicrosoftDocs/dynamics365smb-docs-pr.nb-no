@@ -1,24 +1,26 @@
 ---
 title: Flytte kundedata
-description: Du kan overføre eksisterende kundedata fra et eksisterende system til Business Central ved å bruke RapidStart Services – eller bare skrive det direkte inn i selskapet.
-author: SorenGP
+description: Du kan flytte eksisterende kundedata fra et eksisterende ERP-system til Business Central ved å bruke en veiledning for assistert oppsett. Du kan også bruke Excel og RapidStart Services.
+author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 1799, 1807, 8632, 1800, 1340
+ms.search.form: 1799, 1807, 8632, 1800, 1340, 8614, 8615
 ms.date: 02/18/2022
 ms.author: edupont
-ms.openlocfilehash: f339e5c878d64cb243c34c97f6711629389bfa0e
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 492ec993dfbf33f90fc601b1d6f8f27319ee39c9
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335373"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8515722"
 ---
 # <a name="migrate-customer-data"></a>Flytte kundedata
 
-Du kan flytte eksisterende kundedata fra et eksisterende ERP-system til [!INCLUDE[prod_short](includes/prod_short.md)] ved å bruke verktøyene for dataflytting i RapidStart Services. Du kan bruke Excel-filer som databærer. Du kan også flytte dataene manuelt ved å skrive dem inn direkte i selskapet. Du kan også bruke veiledningen **Skyoverføring** til å flytte data. Hvis du vil ha mer informasjon, kan du se [Overfør data](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administratorinnholdet.
+Du kan flytte eksisterende kundedata fra et eksisterende ERP-system til den nettbaserte versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] ved å bruke verktøyene for skyoverføring for støttede versjoner. Du kan også overføre til den lokale versjonen av [!INCLUDE [prod_short](includes/prod_short.md)] ved hjelp av dataoverføringsverktøyene til RapidStart Services, og deretter bytte til skyen. Hvis du vil ha mer informasjon, kan du se [Overfør lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrasjonsinnholdet (bare på engelsk).  
+
+I denne artikkelen ser vi på konfigurasjonsfilene du kan eksportere fra og importere til [!INCLUDE [prod_short](includes/prod_short.md)]. Innholdet ble skrevet med lokale distribusjoner i tankene.  
 
 > [!NOTE]
 > Felt av typen blob kan ikke eksporteres/importeres i Excel.

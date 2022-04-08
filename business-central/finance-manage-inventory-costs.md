@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 1b3e724a3dd0f6f8dadd0e6c233fd41795bcbfd9
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 49cc2e9c461974dcdb6fa0612aa9abc11629bd9b
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366291"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8523426"
 ---
 # <a name="managing-inventory-costs"></a>Administrere lagerkostnader
 Kostnadsstyring, også kalt "kostredegjøring", handler om å registrere og rapportere kostnader ved forretningsdrift. Det inkluderer rapportering av produksjonskost og lagerkost, det vil si verdien av varene.   
@@ -44,7 +44,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
  [Lager](inventory-manage-inventory.md)   
  [Salg](sales-manage-sales.md)   
  [Innkjøp](purchasing-manage-purchasing.md)  
- [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

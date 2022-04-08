@@ -10,12 +10,12 @@ ms.search.keywords: analysis, reporting, financial report, business intelligence
 ms.search.form: 9901, 9018, 9020, 9022, 9027
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 3161c51160790b2fcc4e702866025e501167b644
-ms.sourcegitcommit: cdb57f14960f58b1d36a1b373fbf35dfed5fad9e
+ms.openlocfilehash: 912309636020923e522ea3060abf814c179dcbb1
+ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/23/2022
-ms.locfileid: "8335607"
+ms.lasthandoff: 03/31/2022
+ms.locfileid: "8521387"
 ---
 # <a name="exporting-your-business-data-to-excel"></a>Eksportere forretningsdataene til Excel
 Hvis du vil arbeide med dataene fra [!INCLUDE[prod_short](includes/prod_short.md)] i Excel, kan du åpne alle lister i Excel og arbeide med dem der. På samme måte, hvis du vil avbryte abonnementet på [!INCLUDE[prod_short](includes/prod_short.md)], kan du eksportere dataene til Excel, slik at du kan ta dem med deg.
@@ -78,10 +78,10 @@ Hvis du vil ha mer informasjon, kan du se [For å få en oversikt over en bruker
 ## <a name="see-also"></a>Se også
 [Avbryte abonnementet på [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
 [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[Analysere årsregnskap i Microsoft Excel](finance-analyze-excel.md)  
+[Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md)  
 [Finans](finance.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
-[Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
