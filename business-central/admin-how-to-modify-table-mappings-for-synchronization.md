@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: sales, crm, integration, sync, synchronize, table mapping
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: b0d7382cbc831ff856dc8d75bb776fc9f9ee022a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e6e7d42af64db3c1725e9f4b54ba7ca4e4b16320
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515748"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557408"
 ---
 # <a name="mapping-the-tables-and-fields-to-synchronize"></a>Tilordne tabellene og feltene som skal synkroniseres
 
@@ -28,6 +28,9 @@ Når du oppretter tilkoblingen mellom appene, definerer [!INCLUDE[prod_short](in
 
 > [!Note]
 > Hvis du bruker en lokal versjon av [!INCLUDE[prod_short](includes/prod_short.md)], er integrasjonstabelltilordningene lagret i tabellen 5335 Tilordninger for integreringstabell, der du kan vise og redigere tilordningene. Avanserte tilordninger og synkroniseringsregler er definert i codeunit 5341. 
+
+### <a name="additional-mappings"></a>Tilleggstildelinger 
+Betalingsbetingelser, leveringsmåter og transportører kan endres, og det kan være viktig å kunne justere dem. Hvis du aktiverer funksjonen **Funksjonsoppdatering: Tildel til alternativsett i Dataverse uten kode** på siden [Funksjonsstyring](https://businesscentral.dynamics.com/?page=2610), kan du manuelt legge til integreringstabelltildelinger for betalingsbetingelser (BETALINGSBETINGELSER), leveringsmåter (LEVERINGSMÅTE) og transportører (TRANSPORTØR). Denne tildelingen kan bidra til å sikre at policyene er de samme for disse oppsettene i [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
 ### <a name="synchronization-rules"></a>Synkroniseringsregler
 En integreringstabelltilordning inneholder også regler som styrer hvordan integrasjonssynkroniseringsjobber synkroniserer poster i en [!INCLUDE[prod_short](includes/prod_short.md)]-tabell og en tabell i [!INCLUDE[prod_short](includes/cds_long_md.md)]. <!--For examples of rules for an integration with Sales, see [Synchronization Rules](admin-synchronizing-business-central-and-sales.md#synchronization-rules). need to verify link -->

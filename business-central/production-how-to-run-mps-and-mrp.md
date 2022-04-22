@@ -1,6 +1,6 @@
 ---
 title: Kjøre full planlegging, MPS eller MRP
-description: Planleggingssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning) ved forespørsel, eller begge samtidig.
+description: Planleggingssystemet kan beregne enten MPS (Master Production Schedule) eller MRP (Material Requirements Planning) ved forespørsel, eller begge samtidig.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.form: 99000852, 99000860
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b8a9f648030e0a307ccd1a086c681ba8492cf357
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 35263f54400865c88694a483bda195957a8f8db4
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516669"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557252"
 ---
 # <a name="run-full-planning-mps-or-mrp"></a>Kjøre full planlegging, MPS eller MRP
 
-Uttrykket "kjøre planleggingsforslaget" eller "kjøre MRP" henviser til beregningen av hovedproduksjonsplanen og materialbehovene basert på faktisk og prognostisert behov. Planleggingssystemet kan beregne enten MPS (Master Planning Schedule) eller MRP (Material Requirements Planning) ved forespørsel, eller det kan beregne begge samtidig.  
+Uttrykket "kjøre planleggingsforslaget" eller "kjøre MRP" henviser til beregningen av hovedproduksjonsplanen og materialbehovene basert på faktisk og prognostisert behov. Planleggingssystemet kan beregne enten MPS (Master Production Schedule) eller MRP (Material Requirements Planning) ved forespørsel, eller det kan beregne begge samtidig.  
 
 -   MPS er beregningen av en hovedproduksjonsplan basert på faktisk behov og behovsprognosen. MPS-beregningen brukes for sluttvarer som har en prognose- og/eller ordrelinje. Disse varene kalles MPS-varer og identifiseres dynamisk når beregningen starter.  
 -   MRP er beregningen av materialbehov basert på faktisk behov for komponenter og behovsprognosen på komponentnivå. MRP beregnes bare for varer som ikke er MPS-varer. Formålet med MRP er å lage formelle planer med tidsfaser, etter vare, for å kunne levere det riktige antallet av riktig vare til riktig sted på rett tidspunkt.  

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 99000762
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 52f84c4c4b30aa09094806e238fe4f72232f5e62
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 639a0a8cc8c7c3efa9e7331a1db45dc031f4515b
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517898"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557226"
 ---
 # <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbeidssentre og produksjonsressurser
 
@@ -39,18 +39,19 @@ I det følgende beskrives først og fremst hvordan du definerer et arbeidssenter
 2. Velg handlingen **Ny**.  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg eventuelt ressursgruppen på et høyere nivå som arbeidssenteret er organisert under, i feltet **Arbeidssentergruppe**. Velg **Ny**-handlingen i rullegardinlisten.  
-5. Velg **Sperret**-feltet hvis du vil hindre at arbeidssenteret brukes i behandling. Dette betyr at det ikke kan bokføres avgang for en vare som er produsert ved arbeidssenteret. Hvis du vil ha mer informasjon, kan du se [Bokføre produksjonsutgang](production-how-to-post-output-quantity.md).
-6. I feltet **Direkte enhetskost** registrerer du kostnaden av å produsere én enhet ved dette arbeidssenteret, ekskludert andre kostnadselementer. Denne kostnaden kalles ofte *direkte lønnssats*.  
-7. I feltet **Indirekte kost-%** angir du de generelle operasjonskostnadene som løper ved bruk av arbeidssenteret, som en prosentandel av den direkte enhetskostnaden. Denne prosentandelen legges til i direktekostnaden i beregningen av enhetskostnaden.  
-8. I feltet **Sats for indirekte kostnader** registrerer du ikke-operasjonelle kostnader, for eksempel vedlikeholdsutgifter, for arbeidssenteret som et absolutt beløp.  
+5. I feltet **Alternativt arbeidssenter** velger du arbeidssenteret som skal brukes hvis dette arbeidssenteret ikke er tilgjengelig, eller når behovet overskrider kapasiteten. Det alternative arbeidssenteret er bare til informasjonsbruk og tas ikke automatisk med i planleggingsprosessene.
+6. Velg **Sperret**-feltet hvis du vil hindre at arbeidssenteret brukes i behandling. Dette betyr at det ikke kan bokføres avgang for en vare som er produsert ved arbeidssenteret. Hvis du vil ha mer informasjon, kan du se [Bokføre produksjonsutgang](production-how-to-post-output-quantity.md).
+7. I feltet **Direkte enhetskost** registrerer du kostnaden av å produsere én enhet ved dette arbeidssenteret, ekskludert andre kostnadselementer. Denne kostnaden kalles ofte *direkte lønnssats*.  
+8. I feltet **Indirekte kost-%** angir du de generelle operasjonskostnadene som løper ved bruk av arbeidssenteret, som en prosentandel av den direkte enhetskostnaden. Denne prosentandelen legges til i direktekostnaden i beregningen av enhetskostnaden.  
+9. I feltet **Sats for indirekte kostnader** registrerer du ikke-operasjonelle kostnader, for eksempel vedlikeholdsutgifter, for arbeidssenteret som et absolutt beløp.  
 
     **Enhetskost**-feltet inneholder den beregnede enhetskostnaden for å produsere én enhet ved dette arbeidssenteret, inkludert alle kostnadselementer slik:  
 
     Enhetskostnad = Direkte enhetskostnad + (Direkte enhetskostnad x Indirekte kostnad-%) + Sats for indirekte kostnader.  
 
-9. I feltet **Beregning av enhetskost** definerer du om beregningen ovenfor skal baseres på medgått tidt:  **Tid**, eller på antall produserte enheter:  **Enheter**.  
-10. Velg feltet **Bestemt enhetskost** hvis du vil definere arbeidssenterets kostnad på rutelinjen der den brukes. Dette kan være relevant for operasjoner med en totalt forskjellig kapasitetskostnad enn det som ville vært normalt ved arbeidssenteret.  
-11. I **Trekkmetode**-feltet velger du om avgangsbokføring ved dette arbeidssenteret skal beregnes og bokføres manuelt eller automatisk ver hjelp av en av de følgende metoder.
+10. I feltet **Beregning av enhetskost** definerer du om beregningen ovenfor skal baseres på medgått tidt:  **Tid**, eller på antall produserte enheter:  **Enheter**.  
+11. Velg feltet **Bestemt enhetskost** hvis du vil definere arbeidssenterets kostnad på rutelinjen der den brukes. Dette kan være relevant for operasjoner med en totalt forskjellig kapasitetskostnad enn det som ville vært normalt ved arbeidssenteret.  
+12. I **Trekkmetode**-feltet velger du om avgangsbokføring ved dette arbeidssenteret skal beregnes og bokføres manuelt eller automatisk ver hjelp av en av de følgende metoder.
 
     |Alternativ|Beskrivelse|
     |------|-----------|
@@ -61,17 +62,17 @@ I det følgende beskrives først og fremst hvordan du definerer et arbeidssenter
     > [!NOTE]
     > Om nødvendig kan trekkmetoden som velges her, overstyres for individuelle operasjoner ved å endre innstillingen på rutelinjene
 
-12. I **Enhetskode**-feltet registrerer du tidsenheten som arbeidssenterets kostnadsberegning og kapasitetsplanlegging beregnes i.
+13. I **Enhetskode**-feltet registrerer du tidsenheten som arbeidssenterets kostnadsberegning og kapasitetsplanlegging beregnes i.
     Du må først definere en enhetsmetode for å kunne kontrollere forbruk konstant. Enhetene du angir, er basisenheter. Behandlingstiden, for eksempel, beregnes i timer og minutter.
 
     > [!NOTE]  
     > Hvis du velger å bruke Dager, må du huske at én dag = 24 timer, og ikke åtte (arbeidstimer).
 
-13. I **Kapasitet**-feltet definerer du om arbeidssenteret har mer enn én maskin eller person som arbeider samtidig. Hvis Produksjonsressurs-funksjonaliteten ikke inngår i din installasjon av [!INCLUDE[prod_short](includes/prod_short.md)], må verdien i dette feltet være **1**.  
-14. I **Effektivitet**-feltet registrerer du prosentandelen for den forventede standardavgangen som dette arbeidssenteret faktisk produserer. Hvis du skriver inn **100**, betyr det at arbeidssenteret har en faktisk avgang som er den samme som standardavgangen.  
-15. Merk av for **Konsolidert kalender** hvis du også bruker produksjonsressurser. Dette sikrer at kalenderposter blir opprullert på bakgrunn av produksjonsressurskalendere.  
-16. Velg en produksjonskalender i feltet **Produksjonskalenderkode**. Hvis du vil ha mer informasjon, kan du se [Opprette produksjonskalendere](production-how-to-create-work-center-calendars.md).  
-17. I **Køtid**-feltet angir du en fast tidsrom som må forløpe før tilordnet arbeid kan begynne ved dette arbeidssenteret. 
+14. I **Kapasitet**-feltet definerer du om arbeidssenteret har mer enn én maskin eller person som arbeider samtidig. Hvis Produksjonsressurs-funksjonaliteten ikke inngår i din installasjon av [!INCLUDE[prod_short](includes/prod_short.md)], må verdien i dette feltet være **1**.  
+15. I **Effektivitet**-feltet registrerer du prosentandelen for den forventede standardavgangen som dette arbeidssenteret faktisk produserer. Hvis du skriver inn **100**, betyr det at arbeidssenteret har en faktisk avgang som er den samme som standardavgangen.  
+16. Merk av for **Konsolidert kalender** hvis du også bruker produksjonsressurser. Dette sikrer at kalenderposter blir opprullert på bakgrunn av produksjonsressurskalendere.  
+17. Velg en produksjonskalender i feltet **Produksjonskalenderkode**. Hvis du vil ha mer informasjon, kan du se [Opprette produksjonskalendere](production-how-to-create-work-center-calendars.md).  
+18. I **Køtid**-feltet angir du en fast tidsrom som må forløpe før tilordnet arbeid kan begynne ved dette arbeidssenteret. 
 
 > [!NOTE]
 > Bruk køtid til å angi en buffer mellom tiden som en komponent ankommer ved en produksjonsressurs eller arbeidssenter, og når operasjonen faktisk starter. En del leveres for eksempel til en produksjonsressurs på 10:00, men det tar en time å montere den på maskinen, slik at operasjonen ikke starter før 11,00. For å ta med denne timen vil køtiden være én time. Verdien i feltet **Køtid** på et produksjonsressurskort eller arbeidssenterkortet, pluss summen av verdiene i feltene **Oppstillingstid**, **Operasjonstid**, **Ventetid** og **Transporttid** på varerutelinjen slås sammen for å få leveringstiden for varen. Dette bidrar til å gi nøyaktig total produksjonstid.  

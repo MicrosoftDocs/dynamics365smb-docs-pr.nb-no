@@ -7,12 +7,12 @@ ms.search.keywords: multiple currencies, adjust exchange rates, FX rates
 ms.search.form: 5, 118
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 45926cc094234a6b75f3e8a1ca997fc89506ef28
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 54aed7a30225d074ab6651df63771924c7c1cd97
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523478"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557356"
 ---
 # <a name="update-currency-exchange-rates"></a>Oppdatere valutakurser
 
@@ -62,12 +62,18 @@ Justeringsvalutakursen eller den tilhørende valutakursen blir brukt til å oppd
 
 ## <a name="adjusting-exchange-rates"></a>Justere valutakurser
 
-Ettersom valutakursene varierer konstant, må tilleggsvalutaangivelser i systemet justeres jevnlig. Hvis disse justeringene ikke utføres, kan beløp som er regnet om fra utenlandske valutaer (eller tilleggsvalutaer) og bokført i LV i Finans, være villedende. I tillegg må daglige poster som bokføres før en daglig valutakurs angis i programmet, oppdateres etter at informasjonen om den daglige valutakursen er angitt.
+Ettersom valutakursene varierer konstant, må tilleggsvalutaangivelser i systemet justeres jevnlig. Hvis disse justeringene ikke utføres, kan beløp som er regnet om fra utenlandske valutaer (eller tilleggsvalutaer) og bokført i NOK i Finans, være villedende. I tillegg må daglige poster som bokføres før en daglig valutakurs angis i programmet, oppdateres etter at informasjonen om den daglige valutakursen er angitt.
 
 Kjørselen **Juster valutakurser** brukes til å justere valutakursene manuelt for bokførte kunde-, leverandør- og bankkontoposter. Den kan også oppdatere tilleggsrapporteringsvalutabeløp i finansposter.  
 
 > [!TIP]
 > Du kan bruke en tjeneste til å oppdatere valutakurser i systemet automatisk. Hvis du vil ha mer informasjon, kan du se [Slik konfigurerer du en valutakurstjeneste](finance-how-update-currencies.md#to-set-up-a-currency-exchange-rate-service). Dette justerer imidlertid ikke valutakursene i transaksjoner som allerede er bokført. Hvis du vil oppdatere valutakurser i bokførte poster, bruker du kjørselen **Juster valutakurser**.
+
+Du kan forhåndsvise effekten som en justering vil ha ved bokføring, før du faktisk bokfører ved å velge **Forhåndsvis** på siden **Juster valutakurser**. I tillegg kan du velge om finansbokføringen skal være detaljert (per post) eller summert (per valuta) ved å velge **Summer poster**. Du kan også angi hvordan du vil håndtere dimensjoner for urealiserte tap- og gevinstbokføringer ved å velge ett av følgende alternativer i feltet **Overfør dimensjonsverdier**:  
+
+- **Kildepost**: Finansposter for urealisert agio og disagio vil få dimensjonsverdier overført fra den justerte posten.
+- **Etter finanskonto**: Finansposter for urealisert agio og disagio vil ha dimensjonsverdier overført fra postens kildeinnstilling for finanskontoens urealisert agio og disagio.
+- **Ingen overføring**: Finansposter for urealisert agio og disagio har ikke dimensjonsverdier.
 
 ### <a name="effect-on-customers-and-vendors"></a>Innvirkning på kunder og leverandører
 

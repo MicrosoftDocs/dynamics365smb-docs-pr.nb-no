@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 70bfd81f6fd331018fe6cafd6793ae1f1501f159
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6996c82ee184db980879ea98a6f2cbdca1b10852
+ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519625"
+ms.lasthandoff: 04/08/2022
+ms.locfileid: "8557196"
 ---
 # <a name="create-jobs"></a>Opprette prosjekter
 Når du starter et nytt prosjekt, må du opprette et prosjektkort med integrerte prosjektoppgaver og prosjektplanleggingslinjer, strukturert i to lag.  
@@ -27,7 +27,11 @@ Lagstrukturen gjør det mulig å dele prosjektet inn i mindre oppgaver, slik at 
 > [!TIP]
 > Velg **Nytt prosjekt**-handlingen i rollesenteret **Prosjektleder** for å starte en assistert oppsettveiledning som veileder deg gjennom trinnene for å opprette et prosjekt med integrerte oppgaver og planleggingslinjer. Følgende prosedyre beskriver hvordan du utfører trinnene manuelt. For et eksempel på hvordan du oppretter et prosjekt manuelt, kan du se [Video: Opprette et prosjekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).
 
-Av og til er det en del av den som mottar en tjeneste, forskjellig fra parten som betaler regningen. På **Prosjekter**-siden kan du angi kunden som skal dra nytte av prosjektet i **Salg til**-feltene, og parten til å fakturere i **Faktura til**-feltene. Du kan også angi hvor arbeidet skal skje ved å velge fra en liste over leveringsadresser til kunden, legge til informasjon om eksterne referanser for å forenkle kommunikasjonen om prosjektet, og overskrive standard finansvilkår for prosjektet.
+Av og til er det en del av den som mottar en tjeneste, forskjellig fra parten som betaler regningen. På **Prosjekter**-siden kan du angi kunden som skal dra nytte av prosjektet i **Salg til**-feltene, og parten til å fakturere i **Faktura til**-feltene. Du kan også angi følgende informasjon: 
+
+* Hvor arbeidet vil skje ved å velge fra en liste over lever til-adresser for kunden.
+* Legg til informasjon om eksterne referanser for å forenkle kommunikasjon med prosjektet.
+* Overskriv standard regnskapsbetingelsene for prosjektet.
 
 ## <a name="to-create-a-job-card"></a>Slik oppretter du et prosjektkort
 Du oppretter et prosjektkort og deretter prosjektoppgavelinjer og prosjektplanleggingslinjer for prosjektet.
@@ -40,7 +44,7 @@ Du oppretter et prosjektkort og deretter prosjektoppgavelinjer og prosjektplanle
 >   Hvis du bruker timelister for prosjektet, må du også angi en person med ansvar for disse. Denne personen kan godkjenne timelister for ansattoppgavene som er knyttet til jobben. Hvis du vil ha mer informasjon, kan du se [Definere timelister](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Slik oppretter du oppgaver for et prosjekt:
-En viktig del av å opprette et prosjekt er å angi de ulike oppgavene i prosjektet. Dette gjør du ved å legge til nye linjer i hurtigfanen **Oppgaver** på siden **Prosjektkort** med én oppgave per linje. Hvert prosjekt må ha minst én oppgave.
+En viktig del av å opprette et prosjekt er å angi de ulike oppgavene i prosjektet. Du angir oppgaver ved å opprette én linje per oppgave på hurtigfanen **Oppgaver** på siden **Prosjektkort**. Hvert prosjekt må ha minst én oppgave.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.
 2. Åpne prosjektkortet for det aktuelle prosjektet.
@@ -50,7 +54,7 @@ En viktig del av å opprette et prosjekt er å angi de ulike oppgavene i prosjek
 6. Hvis du vil angi prosjektoppgavene med informasjon om andre prosjektoppgaver, kan du velge handlingen **Kopier prosjektoppgaver fra**, fylle ut feltene etter behov, og deretter velge **OK**-knappen.
 
 ## <a name="to-create-planning-lines-for-a-job"></a>Slik oppretter du planleggingslinjer for et prosjekt
-Du kan tilpasse dine nye prosjektoppgaver på prosjektplanleggingslinjer. En planleggingslinje kan brukes til å registrere informasjon du vil spore for et prosjekt. Du kan bruke planleggingslinjer til å legge til informasjon, for eksempel hvilke ressurser som kreves, eller til å registrere hvilke varer som trengs for å utføre prosjektet. Du kan for eksempel opprette en oppgave for å innhente kundens godkjenning for et prosjekt. Denne oppgaven kan du knytte til planleggingslinjer for varer eller andre elementer, for eksempel møter med kunden og tilordning av en ressurs.  
+Du kan tilpasse dine nye prosjektoppgaver på prosjektplanleggingslinjer. En planleggingslinje kan registrere informasjonen du vil spore for et prosjekt. Du kan for eksempel spore hvilke ressurser jobben krever, eller hvilke varer som er nødvendige. Du har for eksempel en oppgave å få en kunde til å godkjenne en jobb. Du knytter oppgaven til planleggingslinjer for varer eller andre elementer, for eksempel møter med kunden og tildeling av en ressurs.  
 
 En prosjektplanleggingslinje kan være én av følgende typer.  
 
@@ -60,13 +64,31 @@ En prosjektplanleggingslinje kan være én av følgende typer.
 | **Fakturerbar** |Angir beregnet fakturering av kunden, vanligvis i et prosjekt basert på fast pris. |
 | **Både Budsjett og Fakturerbar** |Angir budsjettert forbruk lik det som skal faktureres. |
 
-**Merk**. Etter hvert som du angir informasjon på prosjektplanleggingslinjer, fylles kostinformasjon automatisk ut. Kost, pris og rabatt for ressurser og varer er i utgangspunktet basert på for eksempel informasjonen som er definert på ressurs- og varekortene.
+> [!NOTE]
+> Mens du angir informasjon på prosjektplanleggingslinjer, fylles kostinformasjon automatisk ut. Kost, pris og rabatt for ressurser og varer er basert på for eksempel informasjonen som er definert fra ressurs- og varekortene. 
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.
 2. Åpne et aktuelt prosjektkort.
 3. Velg en prosjektoppgave der feltet **Prosjektoppgavetype** inneholder **Bokføring**, og velg deretter handlingen **Prosjektplanleggingslinjer**.  
 4. På siden **Prosjektplanleggingslinjer** på en ny linje fyller du ut feltene etter behov.
 5. Gjenta trinn 3 og 4 for alle planleggingslinjene du trenger for prosjektoppgaven.
+
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Opprett lager- og lagerplukkdokumenter for et prosjekt
+Hvis du vil opprette lager- og lagerplukkdokumenter for prosjekter, må administratoren aktivere **Funksjonsoppdatering: Aktiver lager og lagerplugg fra prosjekter** på **Funksjonsstyring**-siden.
+
+Funksjonen legger til handlingene **Opprett lagerplukk** og **Opprett lagerplukk** i **prosjektkortet**. Når du skal opprette eller registrere et plukkdokument, bruker du handlingene **Plassering/plukklinjer/flyttingslinjer** eller **Registrerte plukklinjer**.
+
+Du kan bruke handlingene under følgende betingelser:
+* **Statusen** for jobben er **åpen**.
+* **Linjetypen** på prosjektplanleggingslinjen er **Budsjettert** eller både **Budsjettert og fakturerbart**.
+* **Typen** prosjektplanleggingslinje er **vare**.
+* **Plukk nødv.** må være aktivert for den tilknyttede lokasjonen.
+* **Bruk Lagerstyring** er deaktivert.
+
+> [!NOTE] 
+> Selv om innstillingen er kalt **Plukk nødv.**, kan du likevel bokføre forbruk direkte fra prosjektkladdelinjen for lokasjonen. Hvis lokasjonen er definert for å kreve plukkbehandling, men ikke leveringsbehandling, bruker du siden **Lagerplukk** til å organisere og skrive ut plukkinformasjonen. Du kan også bruke siden til å angi og bokføre resultatet av plukkingen, som igjen bokfører forbruket av varene. 
+> 
+> Hvis du har definert lokasjonen til å kreve både plukk- og leveringsbehandling, det vil si at du har valgt både feltene **Plukk nødv.** og **Levering nødv.** på siden **Lokasjonskort**, bruker du siden **Plukk** til å håndtere plukkingen. Plukkinger ligner på lager lagerplukk. Forskjellen er at i stedet for å bokføre plukkinformasjonen, registrerer du plukkingen. Denne registreringen bruker ikke forbruk, den bare gjør varene tilgjengelige for bokføring. Som lagerleder kan du bruke plukkforslag til å organisere opplysninger om plukking før du oppretter de enkelte plukkinstruksjonene
 
 ## <a name="see-also"></a>Se også
 
