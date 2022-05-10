@@ -7,21 +7,23 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: company, setup wizard
-ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: bef90a9dab30391f310458cb0dde58cc4fac5268
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519358"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654971"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Opprett nye selskaper i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kalles beholderen for forretningsdataene som hører til en konsern eller juridisk enhet et *selskap*. Når du registrerer deg for [!INCLUDE[prod_short](includes/prod_short.md)], får du et demoselskap og et tomt selskap, *Mitt selskap*. Bytte mellom selskaper er enkelt: simpelthen gå til **Mine innstillinger**, og bytt til det andre selskapet. Du kan også opprette nye selskaper i [!INCLUDE[prod_short](includes/prod_short.md)], avhengig av forretningsbehovene.  
 
 Når du oppretter et nytt selskap, gir en guide for assistert oppsett deg det grunnleggende. Deretter kan du importere aktuelle data fra det gamle systemet eller et annet selskap i [!INCLUDE[prod_short](includes/prod_short.md)].  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="choose-the-right-template"></a>Velg riktig mal
 
@@ -54,9 +56,9 @@ På siden **Selskaper** kan du bruke **Kopier**-handlingen til å opprette et an
 
 Når du logger deg på et nytt selskap, kjøres veiviseren **Selskapsoppsett** automatisk og hjelper deg med å komme i gang. Du blir bedt om informasjon om selskapet, for eksempel adressen, bankdetaljer og lagerkostmetoden. Vi ber om opplysningene fordi de brukes som grunnlag for mange områder i [!INCLUDE[prod_short](includes/prod_short.md)], som du ikke kan definere senere manuelt.  
 
-For eksempel firmaadressen er inkludert i fakturaer og andre dokumenter, bankinformasjonen brukes i betalinger og kostmetoden brukes til å beregne priser og lagerverdisetting.  
+[!INCLUDE [prod_short](includes/prod_short.md)] omfatter for eksempel selskapsadressen i fakturaer og andre dokumenter og bankinformasjonen i betalinger. Etterkalkuleringsmetoden brukes til å beregne priser og lagerverdisetting.  
 
-Når du har det grunnleggende på plass, kan du definere gjenstående kjerneområder. Deretter er du klar til å legge til forretningsdataene, for eksempel kunder og leverandører. Hvis du vil ha mer informasjon, kan du se [Definer [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
+Når du har det grunnleggende på plass, kan du definere gjenstående kjerneområder. Deretter er du klar til å legge til forretningsdataene, for eksempel kunder og leverandører. Hvis du vil ha mer informasjon, kan du se [Konfigurer [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
 ## <a name="companies-and-environments"></a>Selskaper og miljøer
 

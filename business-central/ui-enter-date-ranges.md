@@ -7,26 +7,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 010d130801dd68023eca4c3b65d716fa3ddcc8e8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b3e68fcd3eb33ee0885ae3ae5b0bee46017ed409
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518864"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655101"
 ---
 # <a name="work-with-calendar-dates-and-times"></a>Arbeid med datoer og klokkeslett i kalenderen
 
-[!INCLUDE[prod_short](includes/prod_long.md)] tilbyr flere måter å angi datoer og klokkeslett på, inkludert avanserte funksjoner som fremskynder dataregistrering eller hjelper deg med å skrive sammensatte kalenderuttrykk. Det finnes ulike steder i programmet der du kan angi dato og klokkeslett i feltene. Du kan for eksempel angi leveringsdatoen på en ordre. Når du filtrerer lister eller rapportdata, kan du angi datoer og klokkeslett for å finne dataene du er interessert i.
+Du kan angi datoer og klokkeslett på flere måter. [!INCLUDE[prod_short](includes/prod_long.md)] omfatter avanserte funksjoner som fremskynder dataregistrering eller hjelper deg med å skrive sammensatte kalenderuttrykk. Det finnes ulike steder i programmet der du kan angi dato og klokkeslett i feltene. Du kan for eksempel angi leveringsdatoen på en ordre. Når du filtrerer lister eller rapportdata, kan du angi datoer og klokkeslett for å finne dataene du er interessert i.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="check-your-region-and-language-settings"></a>Kontrollere innstillinger for region og språk
+
 Siden **Mine innstillinger** angir **Område** og **Språk** du bruker i programmet. Disse innstillingene påvirker hvordan du angir dato og klokkeslett.
 
--   **Område**-innstillingen bestemmer hvordan datoer, klokkeslett, numre og valutaer vises eller formateres.
+- **Område**-innstillingen bestemmer hvordan datoer, klokkeslett, numre og valutaer vises eller formateres.
 
--   For datomønstre som involverer ord, må ordene du bruker, samsvare med **Språk**-innstillingen.
+- For datomønstre som involverer ord, må ordene du bruker, samsvare med **Språk**-innstillingen.
 
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_long.md)] bruker det gregorianske kalendersystemet.
@@ -37,9 +40,13 @@ The following sections describe how you can enter dates, times, datetimes, durat
 
 ## <a name="entering-dates"></a>Sette inn datoer
 
-I et datofelt kan du angi en dato med standardformatet for regionsinnstillingen. Ulike regioner kan bruke ulike skilletegn mellom dager, måneder og år. Enkelte regioner bruker for eksempel streker (mm-dd-åååå) og andre bruker skråstreker (mm/dd/åååå). Du kan imidlertid bruke alle skilletegn, også mellomrom, og datoen endres automatisk til skilletegnene som samsvarer med din region.
+I et datofelt kan du angi en dato med standardformatet for regionsinnstillingen. Ulike regioner kan bruke ulike skilletegn mellom dager, måneder og år. Enkelte regioner bruker for eksempel streker (mm-dd-åååå) og andre bruker skråstreker (mm/dd/åååå).  
 
-Merk at ut formatet for å vise datoer i trykte rapporter eller dokumenter sendt via e-post, ikke påvirkes av ditt personlige valg av regioninnstilling.
+> [!TIP]
+> Du kan bruke alle skilletegn, også mellomrom, og datoen endres automatisk til skilletegnene som samsvarer med din region.
+
+> [!NOTE]
+> Formatet for å vise datoer i trykte rapporter eller dokumenter sendt via e-post, påvirkes ikke av ditt personlige valg av regioninnstilling.
 
 Hvis du vil arbeide mer effektivt med datoer og klokkeslett, kan du bruke metodene eller formatene som er beskrevet nedenfor.
 
@@ -55,7 +62,7 @@ Se også [Hurtigtaster i kalenderdatovelgeren](keyboard-shortcuts.md#calendarsho
 
 Du kan angi en dato som en ukedag etterfulgt av et ukenummer og eventyelt et år. For eksempel Man25 eller man25 betyr mandag i uke 25. Hvis du ikke angir et år, brukes året i arbeidsdatoen.
 
-I stedet for å angi hele ordet for ukedagen, kan du angi en del av ord fra begynnelsen. Hvis det oppstår konflikter (som med t som kan være tirsdag eller torsdag), evalueres dagene i henhold til regioninnstillingen. Inndataene vurderes først mot arbeidsdato samt i dag, så husk dette når du forkorter. For eksempel t betyr allerede dagens, og kan dermed ikke bety tirsdag eller torsdag.
+I stedet for å angi hele ordet for ukedagen, kan du angi en del av ord fra begynnelsen. Hvis det oppstod konflikter (som med t som kan være tirsdag eller torsdag), evalueres dagene i henhold til regioninnstillingen. Inndataene vurderes først mot arbeidsdato samt i dag, som du må huske dette når du forkorter. For eksempel _t_ betyr allerede dagens, og kan dermed ikke bety tirsdag eller torsdag.
 
 Ukenummererplanen er alltid ISO 8601, der uke 1 er uken med 4 januar i seg, eller uken med den første torsdagen i året.
 
@@ -78,7 +85,7 @@ Skriv inn ordet for _i dag_, på språket som er angitt på **Mine innstillinger
 
 ### <a name="period"></a>Periode
 
-For å filtrere på en bestemt regnskapsperiode, angi bokstaven p eller ordet periode i datofeltet, etterfulgt av et nummer som identifiserer regnskapsperioden, som p2 eller periode4. Regnskapsperioden er relativ til regnskapsåret for gjeldende arbeidsdato som er angitt i ditt rollesenter. Hvis arbeidsdatoen for eksempel er **21.03.22**, filtreres p1 eller bare p på den første regnskapsperioden i regnskapsåret 2022 (for eksempel 01.01.22–31.01/22). p15 filtrerer på den femtende regnskapsperioden fra starten av regnskapsåret 2022 (for eksempel 01.03.23–31.03.23).
+For å filtrere på en bestemt regnskapsperiode, angi bokstaven p eller ordet periode i datofeltet, etterfulgt av et nummer som identifiserer regnskapsperioden, som p2 eller periode4. Regnskapsperioden er relativ til regnskapsåret for gjeldende arbeidsdato som er angitt i ditt rollesenter. Hvis arbeidsdatoen for eksempel er **21.03.22**, filtreres _p1_ eller bare _p_ på den første regnskapsperioden i regnskapsåret 2022 (for eksempel 01.01.22–31.01/22). _p15_ filtrerer på den 15. regnskapsperioden fra starten av regnskapsåret 2022 (for eksempel 01.03.23–31.03.23).
 
 Regnskapsperioden er definert på **Regnskapsperioder**-siden. Hvis du vil vise eller endre regnskapsperiodene, åpner du siden [her](https://businesscentral.dynamics.com/?page=100).
 
@@ -94,7 +101,7 @@ Hvis du ikke har angitt en arbeidsdato, brukes dagens dato. Se også [Endre grun
 
 Når du avslutter et regnskapsår, kan du bruke avslutningsdatoer til å indikere at en post er en avslutningspost. En avslutningsdato ligger teknisk sett mellom to datoer, for eksempel mellom 31. desember og 1. januar.
 
-Hvis en dato skal være en avslutningsdato, setter du A rett foran datoen, for eksempel A123101. Dette kan brukes sammen alle datomønstre.
+Hvis en dato skal være en avslutningsdato, setter du A rett foran datoen, for eksempel A123101. Bruk dette formatet sammen med alle datomønstre.
 
 ### <a name="examples"></a>Eksempler
 
@@ -134,18 +141,19 @@ I lister, totaler eller rapporter kan du definere filtre på datoer, klokkeslett
 Du kan bruke ethvert gyldig format i datointervallfiltre. For eksempel man14 3..t 4p brukt på en dato- og klokkeslettfelt resulterer i et filter fra 03:00 mandag i uke 14 i det gjeldende arbeidsdatoåret, inkludert til dagens dato klokken 16:00.
 
 ## <a name="use-date-formulas"></a>Bruk datoformler
+
 En datoformel er en kort, forkortet kombinasjon av bokstaver og tall som angir hvordan det skal beregne datoer. Du kan angi datoformler i forskjellige datoberegningsfelt eller filtre.
 
 > [!NOTE]
->  Én dag tas med automatisk i alle datoformelfelt for å angi at perioden starter i dag. Hvis du for eksempel angir 1U, blir perioden på samme måte faktisk åtte dager fordi dagens dato er inkludert. Hvis du vil angi en periode på sju dager \(én sann uke\), inkludert periodens startdato, må du angi 6D eller 1U-1D.
+> Én dag tas med automatisk i alle datoformelfelt for å angi at perioden starter i dag. Hvis du for eksempel angir 1U, blir perioden på samme måte faktisk åtte dager fordi dagens dato er inkludert. Hvis du vil angi en periode på sju dager \(én sann uke\), inkludert periodens startdato, må du angi 6D eller 1U-1D.
 
 Her kommer det noen eksempler på hvordan datoformler kan brukes:
 
--   Datoformelen i det gjentakende intervallfeltet i gjentakende kladder bestemmer hvor ofte posten på kladdelinjen skal bokføres.
+- Datoformelen i det gjentakende intervallfeltet i gjentakende kladder bestemmer hvor ofte posten på kladdelinjen skal bokføres.
 
--   Datoformelen i feltet **Respittid** for en bestemt purringsgrad angir hvor lang tid som må gå fra forfallsdatoen \(eller fra forrige purringsdato\) før det kan opprettes en purring.
+- Datoformelen i feltet **Respittid** for en bestemt purringsgrad angir hvor lang tid som må gå fra forfallsdatoen \(eller fra forrige purringsdato\) før det kan opprettes en purring.
 
--   Datoformelen i feltet **Beregning av forfallsdato** angir hvordan forfallsdatoen i purringen beregnes.
+- Datoformelen i feltet **Beregning av forfallsdato** angir hvordan forfallsdatoen i purringen beregnes.
 
 Datoformelen kan inneholde opptil 20 tegn, både tall og bokstaver. Du kan bruke følgende bokstaver, som er forkortelser for kalenderenheter:
 
@@ -223,15 +231,15 @@ Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
->  In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, for example, if you enter **1W**, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter **6D** or **1W\-1D**.
+> In all data formula fields, one day is automatically included to cover today as the day when the period starts. Accordingly, for example, if you enter **1W**, then the period is actually eight days because today is included. To specify a period of seven days (one true week) including the period starting date, then you must enter **6D** or **1W\-1D**.
 
 Here are some examples of how date formulas can be used:
 
--   The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.
+- The date formula in the recurring frequency field in recurring journals determines how often the entry on the journal line will be posted.
 
--   The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date (or from the due date of the previous reminder) before a reminder will be created.
+- The date formula in the **Grace Period** field for a specified reminder level determines the period of time that must pass from the due date (or from the due date of the previous reminder) before a reminder will be created.
 
--   The date formula in the **Due Date Calculation** field determines how to calculate the due date on the reminder.
+- The date formula in the **Due Date Calculation** field determines how to calculate the due date on the reminder.
 
 The date calculation formula can contain a maximum of 20 characters, both numbers and letters. You can use the following letters, which are abbreviations for time specifications.
 
@@ -280,16 +288,17 @@ The following example shows how you can use a minus sign to indicate a date in t
 |-1Y|1 year ago from today|
 
 > [!IMPORTANT]
->  If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, **1W**  means seven working days.
+> If the location uses a base calendar, then the date formula that you enter in, for example, the **Shipping Time** field is interpreted according to the calendar working days. For example, **1W**  means seven working days.
 
 -->
 
 ## <a name="entering-times"></a>Angi klokkeslett
-Når du angir tidspunkt, kan du sette inn alle skilletegn (ikke mellomrom) mellom enheter, men hvis du bruker doble sifre for hver enhet opptil millisekunder, er det ikke nødvendig.
+
+Når du angir klokkeslett, kan du sette i et skilletegn som ikke er mellomrom, som du ønsker mellom enhetene. Hvis du bruker doble sifre for hver enhet opptil millisekunder, er det ikke nødvendig.
 
 Du trenger bare skrive de største enheter som du vil ha; resten settes til null. Du kan eventuelt utelate AM-PM-indikatoren.
 
-Tabellen nedenfor viser en oversikt over ulike måter å angi tidsinnstillinger på, og hvordan de tolkes. Det antar regioninnstillinger som formaterer tidspunkt i henhold til: **Timer:Minutter:Sekunder.Millisekunder.** og bruker AM- og PM-indikatorer for henholdsvis "AM" og "PM".
+Tabellen nedenfor viser forskjellige måter som klokkeslett kan angis på, og hvordan de tolkes. Det antar regioninnstillinger som formaterer tidspunkt i henhold til: **Timer:Minutter:Sekunder.Millisekunder.** og bruker AM- og PM-indikatorer for henholdsvis "AM" og "PM".
 
 |**Angivelse**      |**Tolkning**      |
 |---------------|------------------------|
@@ -308,9 +317,11 @@ Tabellen nedenfor viser en oversikt over ulike måter å angi tidsinnstillinger 
 |5:30:5,50|05:30:05.5|
 |053005050|05:30:05.05|
 
-Vær oppmerksom på at millisekunder tolkes som desimalformat. Derfor betyr både 3, 30 og 300 altså 300 millisekunder, mens 03 betyr 30 og 003 betyr 3 millisekunder.
+> [!NOTE]
+> Millisekunder tolkes som desimalformat. Derfor betyr både 3, 30 og 300 altså 300 millisekunder, mens 03 betyr 30 og 003 betyr 3 millisekunder.
 
-Du kan ikke bruke 24:00 til å angi midnatt eller bruke en verdi som er større enn 24:00.
+> [!IMPORTANT]
+> Du kan ikke bruke 24:00 til å angi midnatt eller bruke en verdi som er større enn 24:00.
 
 Ordet for tidspunkt på språket som brukes av [!INCLUDE[prod_short](includes/prod_long.md)], evalueres etter gjeldende dato og klokkeslett på datamaskinen eller mobilenheten. Du kan angi en del av ordet, fra begynnelsen, som for eksempel t eller TIM.
 
@@ -334,11 +345,12 @@ Her er noen eksempler.
 
 Du kan også angi et tall, som blir automatisk konvertert til et tidsintervall. Tallet du angir, konverteres i henhold til standardenheten som er angitt for feltet Varighet.
 
-Hvis du vil se hvilken enhet som er brukt i et varighetsfelt, kan du angi et tall og se hvilken enhet programmet er konvertert det til.
+Hvis du vil se hvilken enhet som brukes i et varighetsfelt, skriver du inn et tall. Deretter kan du se hvilken enhet det konverteres til.
 
 Tallet 5 konverteres for eksempel til 5 timer hvis enheten er timer.
 
 ## <a name="see-also"></a>Se også
+
 [Arbeid med [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)  
 [Angi vilkår i filtre](ui-enter-criteria-filters.md)  

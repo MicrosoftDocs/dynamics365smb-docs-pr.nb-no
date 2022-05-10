@@ -4,15 +4,15 @@ description: Hvis du arbeider for flere organisasjoner, kan du raskt bytte mello
 author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: environments, companies, tenants, organization
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1190a09a1e4cb67cb5a7f75732a18980f0aff4aa
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7a874890fe88b32668b309edb43563f8d11e7555
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514364"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655387"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Bytte til et annet selskap eller miljø
 
@@ -24,6 +24,8 @@ ms.locfileid: "8514364"
 > Hvis du ofte bytter mellom selskaper eller arbeider med [!INCLUDE[prod_short](includes/prod_short.md)] fra en annen app, som Microsoft Teams, kan det være lett å miste oversikten over hvor du er. For å hjelpe deg med å holde oversikt kan du legge til et merke som viser selskapsnavnet, slik at du raskt kan kontrollere at du er på riktig sted. Hvis du vil ha mer informasjon, kan du se [Vise et selskapsmerke for rask tilgang til selskapsinformasjon](ui-change-basic-settings.md#badge).
 
 Avhengig av hvilken nettleser du har, kan du også feste de forskjellige selskapene til favoritterstolpen.  
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="switch-to-another-environment"></a>Bytte til et annet miljø
 

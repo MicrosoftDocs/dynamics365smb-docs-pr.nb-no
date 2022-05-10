@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: accounting, auditing, bookkeeping
 ms.date: 01/21/2022
 ms.author: edupont
-ms.openlocfilehash: f0112cfb60321a44d833ad6a51db209a71494bf1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6026f9ea7a0adeb66f6c543365cf7caeb91a7628
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513942"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654945"
 ---
 # <a name="setting-up-finance"></a>Konfigurere finans
 Før du kan begynne å drive selskapet, må du angi regler og standarder for hvordan du vil administrere økonomiprosessene for dette selskapet. Du starter ved å definere de viktigste regnskapspostene i selskapet - kontoplanen. Deretter definerer du bokføringsgrupper, som gjør prosessen ved å tilordne standard bokføringsfinanskonti til kunder, leverandører og varer mer effektiv.

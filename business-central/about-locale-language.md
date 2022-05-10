@@ -7,36 +7,39 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: language, locale, localization, culture, region, regional settings
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5187d4f98360d7cf43300f86eda9e99dcbda4063
-ms.sourcegitcommit: 75a388b1d8917e2bbd49398ef76cf86cf37e6767
+ms.openlocfilehash: cdac371269e523f30712d4cb0be1087e07e70d5e
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/17/2022
-ms.locfileid: "8323139"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655517"
 ---
 # <a name="changing-language-and-region"></a>Endre språk og område
 
-[!INCLUDE[prod_short](includes/prod_short.md)] er tilgjengelig i en rekke markeder og språk over hele verden. I markedene der [!INCLUDE[prod_short](includes/prod_short.md)] er tilgjengelig, er et sett med lovmessige funksjoner tilgjengelige for å hjelpe selskaper med samsvar med lovgivning. [!INCLUDE[prod_short](includes/prod_short.md)] kan vises på forskjellige språk, og du kan endre språket som brukes til å vise tekster, og endringen skjer umiddelbart, når du har blitt automatisk registrert ut og i gang. Innstillingen gjelder for deg og ikke alle andre i bedriften.  
+[!INCLUDE[prod_short](includes/prod_short.md)] er tilgjengelig i mange markeder og språk over hele verden. I markedene der [!INCLUDE[prod_short](includes/prod_short.md)] er tilgjengelig, er lovmessige funksjoner tilgjengelige for å hjelpe selskaper med samsvar med lovgivning. [!INCLUDE[prod_short](includes/prod_short.md)] kan vises på forskjellige språk. Du kan også endre språket som brukes til å vise tekster. Endringen er umiddelbar når du har blitt automatisk logget av og på igjen. Innstillingen gjelder for deg og ikke alle andre i bedriften.  
 
-Hvis du for eksempel bruker den kanadiske versjonen av [!INCLUDE[prod_short](includes/prod_short.md)], vises brukergrensesnittet på engelsk, tysk, fransk eller et annet språk, men det er likevel den kanadiske versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] i alle andre henseender. Det er ikke det samme som [!INCLUDE[prod_short](includes/prod_short.md)] i Storbritannia, der funksjonaliteten er tilpasset kravene i dette markedet.  
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
+
+Du bruker for eksempel den kanadiske versjonen av [!INCLUDE[prod_short](includes/prod_short.md)]. Det betyr at du kan se bruker grensesnittet på engelsk, tysk, fransk eller annet språk, men det er likevel den kanadiske versjonen av [!INCLUDE[prod_short](includes/prod_short.md)]. Det er ikke det samme som [!INCLUDE[prod_short](includes/prod_short.md)] i Tyskland, der funksjonaliteten er tilpasset kravene i dette markedet.  
 
 Hvis du vil endre språk i brukergrensesnittet, går du til **Mine innstillinger**-siden. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md#language). 
 
 > [!NOTE]  
 > Valget av språk tilbakestilles til innstillingen i Microsoft 365-profilen hvis administrator synkroniserer brukere fra Microsoft 365 til [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Endring av tekst som er lagret som applikasjonsdata inngår imidlertid ikke i denne flerspråklige funksjonaliteten. Dette er et spørsmål om utforming av applikasjonen. Eksempler på slike tekster er navn på lagervarer eller merknader til en kunde. Denne type tekst blir med andre ord ikke oversatt.  
+Du kan ikke endre tekstene som er lagret som appdata. Eksempler på slike tekster er navn på lagervarer eller merknader til en kunde. Denne type tekst blir med andre ord ikke oversatt.  
 
 > [!NOTE]  
-> [!INCLUDE[prod_short](includes/prod_short.md)] støtter bare ett tegnsett for data. Det kan derfor forekomme at enkelte tegn ikke støttes i miljøet ditt, noe som kan føre til at det oppstår problemer når du henter data som ble registrert med et annet tegnsett. Det kan for eksempel hende at miljøet bare støtter engelske og russiske tegn, og hvis du registrerer data på et annet språk, blir de kanskje ikke lagret på riktig måte. Du må kontakte systemansvarlig for å være sikker på at du forstår hvilke språk som støttes i [!INCLUDE[prod_short](includes/prod_short.md)].  
+> [!INCLUDE[prod_short](includes/prod_short.md)] støtter bare ett tegnsett for data. Det kan derfor forekomme at enkelte tegn ikke støttes i miljøet ditt, noe som kan føre til at det oppstår problemer når du henter data som ble registrert med et annet tegnsett. Miljøet støtter for eksempel kanskje bare engelske og russiske tegn. Hvis du skriver inn data på et annet språk, lagres de derfor kanskje ikke som de skal. Du må kontakte systemansvarlig for å være sikker på at du forstår hvilke språk som støttes i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 ## <a name="changing-your-region-setting"></a>Endre områdeinnstillingen
-Område er forskjellig fra både språket og de juridiske kravene i lokale markeder. Område bestemmer hvordan dataene vises når det gjelder komma justert til venstre eller høyre og visse andre innstillinger. Området bestemmer også noen systemelementer i nettleseren, for eksempel handlingen til å opprette et nytt element i en liste.  
 
-Du kan endre området i nettleserenkategorien som du bruker til å arbeide i [!INCLUDE[prod_short](includes/prod_short.md)]. Endringen gjelder bare for deg og ikke for andre brukere i selskapet.  Valget av område tilbakestilles til innstillingen i Microsoft 365-profilen hvis administrator synkroniserer brukere fra Microsoft 365 til [!INCLUDE[prod_short](includes/prod_short.md)].
+Område er forskjellig fra både språket og de juridiske kravene i lokale markeder. Område bestemmer hvordan dataene vises, for eksempel desimaltegnet og hvordan teksten justeres til venstre eller høyre. Området bestemmer også noen systemelementer i nettleseren, for eksempel handlingen til å opprette et nytt element i en liste.  
+
+Du kan endre området i nettleserfanen som du bruker til å arbeide i [!INCLUDE[prod_short](includes/prod_short.md)]. Endringen gjelder bare for deg og ikke for andre brukere i selskapet.  Valget av område tilbakestilles til innstillingen i Microsoft 365-profilen hvis administrator synkroniserer brukere fra Microsoft 365 til [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!IMPORTANT]  
 > Når du endrer området, vises en lang liste over språk og områder. Språket påvirkes imidlertid ikke av områdevalget.  
@@ -44,6 +47,7 @@ Du kan endre området i nettleserenkategorien som du bruker til å arbeide i [!I
 Hvis du vil endre område, går du til **Mine innstillinger**-siden. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).  
 
 ## <a name="changing-the-region-setting-for-customers-contacts-and-vendors"></a>Endre områdeinnstillingen for kunder, kontakter og leverandører
+
 Enkelte bedrifter bruker en ekstern tjeneste som validerer adresseinformasjon i landet eller området. Når du må oppdatere adresseinformasjon, er det imidlertid ikke sikkert at den strukturerte fremgangsmåten som disse tjenestene bruker, alltid er det som er riktig for enkelte scenarioer. Business Central tilbyr en mer fleksibel måte å angi adresseinformasjon på.
 
 Hvis du aktiverer feltet **Krev land-/områdekode i adressen** på siden **Finansoppsett**, tilbakestilles endringer i feltet **Land-/områdekode** for adresser til kunder, kontakter eller leverandører til verdiene i andre adressefelter.
@@ -54,7 +58,7 @@ På siden **Hjelp og støtte** kan du se versjonen av [!INCLUDE[prod_short](incl
 
 ## <a name="languages-of-the-prod_short-help"></a>Språkene i Hjelpen for [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Innholdet i hjelpen for kjernefunksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] publiseres til området Microsoft-dokumentasjon og er tilgjengelig på flere ulike språk. Hvis du har tilgang til dokumentasjonen fra [!INCLUDE[prod_short](includes/prod_short.md)], vises innholdet på ditt eget språk. Hvis en bestemt side ikke ennå er tilgjengelig på ditt eget språk, vises den i norsk.
+Hjelpeinnholdet for standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] publiseres på Microsoft Docs-nettstedet. Innholdet er tilgjengelig på forskjellige språk. Hvis du har tilgang til dokumentasjonen fra [!INCLUDE[prod_short](includes/prod_short.md)], vises innholdet på ditt eget språk. Hvis en bestemt side ikke ennå er tilgjengelig på ditt eget språk, vises den som standard på engelsk.
 
 ### <a name="how-do-i-change-the-language-of-the-microsoft-docs-site"></a>Hvordan endrer jeg språket for Microsoft Docs-området?
 

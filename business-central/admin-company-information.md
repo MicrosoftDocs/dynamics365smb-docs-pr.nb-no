@@ -3,15 +3,15 @@ title: Oversikt over selskapsinformasjon
 description: Siden Selskapsopplysninger angir grunnleggende informasjon om en forretningsenhet, for eksempel navn, adresser og leveringsinformasjon.
 author: edupont04
 ms.topic: conceptual
-ms.search.form: 1,
-ms.date: 03/14/2022
+ms.search.form: 1
+ms.date: 04/20/2022
 ms.author: edupont
-ms.openlocfilehash: d9f8c6e831cae4efd53df435ffda0c6a96b0bc49
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
+ms.openlocfilehash: 1adf94a191b2e0514f7a7435ac1807ca19498b14
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417819"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626242"
 ---
 # <a name="company-information-overview"></a>Oversikt over selskapsinformasjon
 
@@ -21,14 +21,24 @@ Hvis selskapets lager befinner seg på en annen adresse enn selskapets hovedkvar
 
 For hvert selskap du konfigurerer, må du fylle ut siden **Selskapsopplysninger** sammen med siden **Finansoppsett**. Du må også definere hvert område i [!INCLUDE [prod_short](includes/prod_short.md)], for eksempel siden **Salgsoppsett** for hvert selskap. Se [Oversikt over oppgaver for å definere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md) for mer informasjon.  
 
-**Selskapsopplysninger**-siden inneholder forskjellige felter og hurtigfaner, avhengig av landet. Følgende tabell beskriver de mest brukte hurtigfanene.
+**Selskapsopplysninger**-siden inneholder forskjellige felter og hurtigfaner, avhengig av landet. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Følgende tabell beskriver de mest brukte hurtigfanene.
 
 [!INCLUDE [admin-company-info-fasttabs](includes/admin-company-info-fasttabs.md)]
 
 Når du er ferdig med å fylle ut informasjonen, kan du lukke siden.  
+
+## <a name="work-with-multiple-companies"></a>Arbeid med flere selskaper
+
+Hvis [!INCLUDE [prod_short](includes/prod_short.md)] har flere selskaper, kan det være at brukerne ønsker å bruke *selskapskort* til å holde oversikt over hvilket selskap de arbeider med for øyeblikket. Hvis du vil ha mer informasjon, kan du se [Vis et selskapsmerke for rask tilgang til selskapsinformasjon](ui-change-basic-settings.md#badge).  
+
+## <a name="experience"></a>Opplevelse
+
+Standard brukeropplevelse i en [!INCLUDE [prod_short](includes/prod_short.md)]-prøveversjon viser ikke alle funksjonene. Du kan bytte til full opplevelser på siden **Selskapsopplysninger**. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).  
 
 ## <a name="see-also"></a>Se også
 
 [Oversikt over oppgaver for å definere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Hurtigstart for selskapsopplysninger](quick-start-company-information.md)  
 [Konfigurer firmainformasjon i Italia](LocalFunctionality/Italy/how-to-set-up-company-information.md)  
+[Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
+[Endre hvilke funksjoner som vises](ui-experiences.md)  

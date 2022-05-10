@@ -7,19 +7,19 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, Outlook
-ms.search.form: 1831, 1832, 9020, 9022, 9027, 9030, 9004, 9005, 9018, 9006, 9007, 9010
-ms.date: 08/13/2021
+ms.search.form: 1831, 1832
+ms.date: 04/27/2022
 ms.author: jswymer
-ms.openlocfilehash: 619d815fa9697671be9d1db9b7975c2ab7d93920
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a2c0754aed38d80fc4a088ab7dccec81cb0141e0
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518340"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8654919"
 ---
 # <a name="get-the-business-central-add-in-for-outlook"></a>Hent Business Central-tillegget for Outlook
 
-Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du behandle forretningssamhandlinger med kunder og leverandører direkte i Microsoft Outlook. Med [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-tillegget kan du se økonomiske data knyttet til kunder og leverandører. Du kan også opprette og sende økonomiske dokumenter, for eksempel tilbud og fakturaer.  
+Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du behandle forretningssamhandlinger med kunder og leverandører direkte i Microsoft Outlook. Med [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-tillegget ser du økonomiske data knyttet til kunder og leverandører. Du kan også opprette og sende økonomiske dokumenter, for eksempel tilbud og fakturaer.  
 
 Du kan få tak i Business Central-tillegget for Outlook installert på to måter, avhengig av hvilken rolle du har i organisasjonen:
 
@@ -42,6 +42,9 @@ Business Central-tillegget for Outlook består av to mindre tillegg:
 Hvis du vil ha mer informasjon om hva du gjør med tilleggene, kan du se [Bruk Business Central som innboks for bedriften i Outlook](work-outlook-addin.md).
 
 Hvert tillegg leveres som en XML-fil, kalt et *manifest*, som må installeres i Outlook av alle som ønsker denne funksjonaliteten. Disse filene beskriver hvordan du aktiverer tilleggene og kobler til Business Central når de brukes i Outlook. Arbeid med disse filene utføres vanligvis en administrator. Som vanlig bruker trenger du i de fleste tilfeller ikke å håndtere disse filene direkte. Administratoren konfigurerer tillegget slik at det installeres automatisk, eller du bruker det innebygde assisterte oppsettet til å håndtere installasjonen.
+
+> [!IMPORTANT]
+> Arbeide med flere miljøer? Business Central-tillegget for Outlook er utviklet for å fungere med ett enkelt Business Central-miljø. Når tillegget er installert, inkluderes navnet på miljøet i manifestet for tillegget. Denne konfigurasjonen betyr at tilleggsprogrammet bare vil koble til miljøet det ble installert fra. Hvis du vil bruke tillegget med et annet miljø, åpner du miljøet og installerer tillegget på nytt.
 
 ## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Distribuer tillegget ved hjelp av sentralisert distribusjon som en administrator
 

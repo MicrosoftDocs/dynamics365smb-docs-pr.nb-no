@@ -1,40 +1,44 @@
 ---
 title: Eksporter Business Central-dataene til Excel
-description: Du kan eksportere finansrapporter og forretningsintelligensdata fra Business Central til Excel, eller du kan åpne Business Central-dataene i Excel.
+description: Du kan eksportere finansrapporter og forretningsintelligensdata fra Business Central til Excel, eller du kan åpne dataene i Excel.
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
-ms.search.form: 9901, 9018, 9020, 9022, 9027
+ms.search.form: 9901
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 912309636020923e522ea3060abf814c179dcbb1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 02493bee3940bf1416c2485b0b45016edbca9baa
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521387"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655179"
 ---
-# <a name="exporting-your-business-data-to-excel"></a>Eksportere forretningsdataene til Excel
-Hvis du vil arbeide med dataene fra [!INCLUDE[prod_short](includes/prod_short.md)] i Excel, kan du åpne alle lister i Excel og arbeide med dem der. På samme måte, hvis du vil avbryte abonnementet på [!INCLUDE[prod_short](includes/prod_short.md)], kan du eksportere dataene til Excel, slik at du kan ta dem med deg.
+# <a name="export-your-business-data-to-excel"></a>Eksporter forretningsdataene til Excel
+
+Excel er et kraftig verktøy når du skal arbeide med data. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du åpne alle lister i Excel. Du kan til og med endre data i Excel og deretter sende dem tilbake til [!INCLUDE [prod_short](includes/prod_short.md)]. Samme funksjon gjør det enkelt for deg å ta med deg dataene hvis du bestemmer deg for å avslutte abonnementet.
 
 ## <a name="opening-lists-in-excel"></a>Åpne lister i Excel
+
 Du kan åpne data i Excel fra alle alle journaler, lister eller forslag. Du bare åpner siden som du ønsker, og deretter velger du **Åpne i Excel**. Åpne for eksempel en oversikt over kunder (Søk etter **kunder**), og velg deretter **Åpne i Excel**. Nettleseren ber deg om å åpne eller lagre Microsoft Excel-arbeidsboken som er generert.  
 
 > [!NOTE]
 > Bruk dette alternativet hvis du ikke vil endre og publisere disse endringene til [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-Hver liste inneholder flere kolonner, og eksport til Excel vil inkludere alle kolonner som er i den gjeldende visningen. Hvis du vil legge til eller fjerne kolonner før du åpner listen i Excel, kan du ganske enkelt åpne hurtigmenyen for en kolonne og deretter angir du hvilke kolonner du vil vise. Denne listen over kolonner er forskjellig for de fleste lister, og den reflekterer strukturen i databasen der dataene er lagret. Hvis du ikke er sikker på hvilken type data som inneholder en bestemt kolonne, kan du legge den til din visning og deretter bestemmer deg for om du vil fjerne den på nytt.  
+Hver liste inneholder noen kolonner. Eksporten til Excel inkluderer alle kolonner i nåværende visning. Endre kolonnene ved å åpne hurtigmenyen for en kolonne, og angi deretter hvilke kolonner du vil vise. Listen med kolonner er forskjellig for de fleste lister. Kolonnene gjenspeiler strukturen i databasen som lagrer dataene. Hvis du ikke er sikker på hvilken datatype en bestemt kolonne inneholder, legger du den til i visningen. Du kan alltids fjerne den igjen.  
 
 ### <a name="edit-data-in-excel"></a>Rediger data i Excel
+
 [!INCLUDE[prod_short](includes/prod_short.md)]-opplevelsen inneholder et tillegg til Excel, slik at du kan redigere data i Excel. Hvis du vil ha mer informasjon, se [Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="exporting-data-to-other-finance-systems"></a>Eksportere data til andre økonomisystemer
+
 Hvis du vil avbryte abonnementet på [!INCLUDE[prod_short](includes/prod_short.md)], kan du eksportere dataene til Excel, slik at du kan ta dem med deg til det neste økonomisystemet.  
 
-Du kan eksportere alle sider, selvsagt, men det kan være mer enn det du virkelig trenger. Derfor bør du vurdere å eksportere følgende viktige sider, og husk å legge til alle kolonner som beskrevet tidligere:  
+Du kan eksportere alle sider, men det kan være mer enn det du virkelig trenger. Derfor bør du vurdere å eksportere følgende viktige sider, og husk å legge til alle kolonner som beskrevet tidligere:  
 
 * Kontoplan  
 * Kunder  
@@ -68,8 +72,9 @@ Vi anbefaler at du også vurdere å eksportere dataene fra de følgende sidene:
 
 > [!NOTE]
 > Du må ha minst én av følgende tillatelser for å åpne eller redigere data i Excel:
->    - Tillatelsessett *D365 Excel-eksporthandling*  
->    - Systemtillatelse 6110 *Tillat handlingseksport til Excel*.  
+>
+> * Tillatelsessett *D365 Excel-eksporthandling*  
+> * Systemtillatelse 6110 *Tillat handlingseksport til Excel*.  
 
 Hvis du vil ha mer informasjon, kan du se [For å få en oversikt over en brukers tillatelser](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 

@@ -7,26 +7,28 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: video, library, how to
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9004, 9005, 9018, 9006, 9007, 9010, 9016, 9017
+ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/11/2021
 ms.author: bholtorf
-ms.openlocfilehash: a87b28c49aa2c6e532755abe760e5aa1af39c6e3
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: df32f9823a84165e27c592a7a02caede6a2e0480
+ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382340"
+ms.lasthandoff: 04/29/2022
+ms.locfileid: "8655127"
 ---
 # <a name="visit-our-video-library"></a>Gå til videobiblioteket vårt
 
-Vi vet at noen personer foretrekker å se på innholdet i stedet for å lese det. Vi lager derfor korte og enkle videoer som enten står alene eller utfyller brukerhjelpen vår.  
+Du fant dokumentasjonen vår. Men noen personer foretrekker å se på innholdet i stedet for å lese det. Derfor produserer vi korte og lettfordøyelige videoer. De fleste videoer er et tillegg til brukerhjelpen, og noen av dem kan ses på separat.  
 
 Hvis du ikke er kjent med [!INCLUDE[prod_short](includes/prod_short.md)], kan du starte introduksjonsvideoene fra velkomstsiden som vises. Hvis du allerede arbeider i [!INCLUDE[prod_short](includes/prod_short.md)], g\kan du gå til biblioteker fra rollesentrene **Forretningsleder** og **Regnskapsfører** ved å velge flisen **Produktvideoer**.  
 
-Du kan også vise instruksjonsvideoene våre, i tillegg til mye annet innhold, på YouTube-spillelisten vi har opprettet for [!INCLUDE[prod_short](includes/prod_short.md)]. Gå til videoene nå ved å [klikke her](https://go.microsoft.com/fwlink/?linkid=851533).
+Du kan også vise instruksjonsvideoene våre, i tillegg til mye annet innhold, på YouTube-spillelisten vi har opprettet for [!INCLUDE[prod_short](includes/prod_short.md)]. Gå til videoene nå ved å [se her](https://go.microsoft.com/fwlink/?linkid=851533).
 
 > [!Tip]  
 > Videoer i biblioteket vises i en ramme som kan virke litt liten. Hvis du vil at rammen skal bli større, velger du ikonet med dobbeltpil øverst til høyre. Etter det vil videoene vises i en større ramme til du gjør den liten igjen.
+
+[!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## <a name="see-also"></a>Se også
 

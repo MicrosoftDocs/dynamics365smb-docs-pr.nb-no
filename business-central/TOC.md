@@ -1569,6 +1569,7 @@
 ##### [Synkroniser med kontakter i Outlook](admin-synchronize-outlook-contacts.md)
 ##### [Optimaliser Outlook](admin-outlook-optimize.md)
 ##### [Bruk Business Central uten Outlook](admin-no-outlook.md)
+##### [Vanlige spørsmål](ui-outlook-addin-faq.yml)
 ### Konfigurer rapporter
 #### [Rapportvalg](across-report-selections.md)
 ### Konfigurer tilkoblinger
@@ -1611,6 +1612,7 @@
 #### [Endre fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)
 #### [Massefakturering for Microsoft Bookings](finance-bookings.md)
 #### [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)
+### [Selskapsinformasjon](admin-company-information.md)
 ### [Opprette nummerserier](ui-create-number-series.md)
 ### [Definere hovedkalendere](across-how-to-assign-base-calendars.md)
 ### [Konfigurere skrivere](ui-specify-printer-selection-reports.md)

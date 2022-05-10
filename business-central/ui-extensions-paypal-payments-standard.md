@@ -11,17 +11,17 @@ ms.workload: na
 ms. search.keywords: app, add-in, manifest, customize
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 78ecb3147ef31bb2ced29aa3c316f9bd5c05ee0b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8350b6e2ce73d1f210bcb62a393ac8a76f7d297e
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518838"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8625529"
 ---
 # <a name="the-paypal-payments-standard-extension"></a>PayPal Payments Standard-utvidelsen
 Kundene krever kontinuerlig bedre kundeservice, både når det gjelder produktkvalitet, men også når det gjelder leverings- og betalingsalternativer. PayPal Payments Standard-tjenesten hjelper deg med å forbedre din kundeservice.
 
-Som et alternativ til å samle inn betalinger via bankoverføring eller kredittkort, kan du tilby kundene å betale du gjennom sin PayPal-konto. Når du sender en salgsfaktura eller ordre i e-post, er det en PayPal-kobling i brødteksten i e-posten og i det vedlagte PDF-dokumentet. Når kunden velger PayPal-koblingen, vises tjenestesiden deres for PayPal-kontoen med betalingsdetaljer for salget. Kunden kan deretter betale fakturaen på samme måte som andre PayPal-betalinger.
+Som et alternativ til å samle inn betalinger via bankoverføring eller kredittkort, kan du tilby kundene å betale du gjennom sin PayPal-konto. Når du sender en salgsfaktura i e-post, er det en PayPal-kobling i brødteksten i e-posten og i det vedlagte PDF-dokumentet. Når kunden velger PayPal-koblingen, vises tjenestesiden deres for PayPal-kontoen med betalingsdetaljer for salget. Kunden kan deretter betale fakturaen på samme måte som andre PayPal-betalinger.
 
 PayPal Payments Standard-tjenesten gir følgende fordeler:
 

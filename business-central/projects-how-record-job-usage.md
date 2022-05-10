@@ -10,12 +10,12 @@ ms.search.keywords: project management, consumption
 ms.search.form: 89, 92, 201, 1007, 1014
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b5030646d04e31983025e054992fa0fb71cf5b4e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 04ef2fdd1020444711257230688fea927332ed83
+ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513864"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626268"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Registrere forbruk eller forbruk for prosjekter
 
@@ -69,6 +69,23 @@ Dermed kan du spore og sammenligne opprinnelige estimater med faktiske resultate
 4. Oppdater journalen med eventuelle endringer som kreves.  
 5. Velg **Bokfør**.
 
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Opprett lager- og lagerplukkdokumenter for et prosjekt
+
+Hvis du vil opprette lager- og lagerplukkdokumenter for prosjekter, må administratoren aktivere **Funksjonsoppdatering: Aktiver lager og lagerplugg fra prosjekter** på **Funksjonsstyring**-siden.
+
+Funksjonen legger til handlingene **Opprett lagerplukk** og **Opprett lagerplukk** i **prosjektkortet**. Når du skal opprette eller registrere et plukkdokument, bruker du handlingene **Plassering/plukklinjer/flyttingslinjer** eller **Registrerte plukklinjer**. Hvis du vil ha mer informasjon om plukk, kan du se [Plukke varer](warehouse-pick-items.md)
+
+Du kan bruke handlingene under følgende betingelser:
+* **Statusen** for jobben er **åpen**.
+* **Linjetypen** på prosjektplanleggingslinjen er **Budsjettert** eller både **Budsjettert og fakturerbart**.
+* **Typen** prosjektplanleggingslinje er **vare**.
+* **Plukk nødv.** må være aktivert for den tilknyttede lokasjonen.
+* **Bruk Lagerstyring** er deaktivert.
+
+> [!NOTE] 
+> Selv om innstillingen er kalt **Plukk nødv.**, kan du likevel bokføre forbruk direkte fra prosjektkladdelinjen for lokasjonen. Hvis lokasjonen er definert for å kreve plukkbehandling, men ikke leveringsbehandling, bruker du siden **Lagerplukk** til å organisere og skrive ut plukkinformasjonen. Du kan også bruke siden til å angi og bokføre resultatet av plukkingen, som igjen bokfører forbruket av varene. 
+> 
+> Hvis du har definert lokasjonen til å kreve både plukk- og leveringsbehandling, det vil si at du har valgt både feltene **Plukk nødv.** og **Levering nødv.** på siden **Lokasjonskort**, bruker du siden **Plukk** til å håndtere plukkingen. Plukkinger ligner på lager lagerplukk. Forskjellen er at i stedet for å bokføre plukkinformasjonen, registrerer du plukkingen. Denne registreringen bruker ikke forbruk, den bare gjør varene tilgjengelige for bokføring. Som lagerleder kan du bruke plukkforslag til å organisere opplysninger om plukking før du oppretter de enkelte plukkinstruksjonene
 
 
 ## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Slik går du gjennom planleggingslinjene for en prosjektpost
