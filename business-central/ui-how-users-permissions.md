@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
-ms.date: 03/23/2022
+ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: 52d8c0fb735bb0667f2219f5ed73e914e236014a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 77a58c9e4cfc5e9a744d66d0f6b62c06cb430d6b
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512155"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729804"
 ---
 # <a name="create-users-according-to-licenses"></a>Opprette brukere i henhold til lisenser
 
@@ -28,9 +28,9 @@ Hvis du vil ha mer informasjon om de ulike typene lisenser og hvordan lisensieri
 
 ## <a name="manage-users-and-licenses-in-online-tenants"></a>Behandle brukere og lisenser i nettleietakere
 
-I den nettbaserte versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] definerer abonnementet antall brukere du er tillatt. Brukere legges til i leietakeren din i Microsoft Partner Center, vanligvis av Microsoft-partneren. Hvis du vil ha mer informasjon, se [Legge til en ny kunde](/partner-center/add-a-new-customer) og [Opprette eller avbryte kundeabonnementer](/partner-center/create-a-new-subscription) i hjelpen for Microsoft Partner Center.
+Abonnementet på [!INCLUDE[prod_short](includes/prod_short.md)] på nettet definerer antall brukere du er tillatt. Brukere legges til i leietakeren din i Microsoft Partner Center, vanligvis av Microsoft-partneren. Hvis du vil ha mer informasjon, kan du se [Administrasjon av Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
 
-Hvis du vil definere hvem som kan logge på [!INCLUDE[prod_short](includes/prod_short.md)], må du tildele produktlisenser til brukere i henhold til arbeidet de gjør i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan tildele lisenser på flere måter:
+Du tildeler produktlisenser til brukere i henhold til arbeidet hver bruker skal gjøre i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan tildele lisenser på flere måter:
 
 - Selskapets Microsoft 365-administrator kan gjøre dette i [administrasjonssenteret for Microsoft 365](https://admin.microsoft.com). Hvis du vil ha mer informasjon, kan du se [Legge til brukere individuelt eller gruppevis i Microsoft 365](/microsoft-365/admin/add-users/add-users).  
 - En Microsoft-partner kan tilordne lisenser i administrasjonssenteret for Microsoft 365 eller i Microsoft Partner Center. Hvis du vil ha mer informasjon, se [Brukerbehandlingoppgaver for kundekonti](/partner-center/assign-licenses-to-users) i hjelpen for Microsoft Partner Center.
@@ -39,10 +39,14 @@ Hvis du vil ha mer informasjon, kan du se [Administrasjon av Business Central On
 
 > [!NOTE]
 > Når du har lagt til brukere i Microsoft 365-administrasjonssenteret, anbefaler vi at du oppdaterer bruker opplysningene i [!INCLUDE[prod_short](includes/prod_short.md)] så raskt som mulig. Det er enkelt å holde brukerinformasjon oppdatert, og det bidrar til å sikre at personer alltid kan logge seg på. Se [Slik legger du til brukere eller oppdaterer brukerinformasjon og lisenstilordninger i Business Central](#adduser) for mer informasjon.<br>
-> 
-> Det er spesielt viktig å oppdatere brukerinformasjon hvis du har egendefinerte tillatelsessett for lisensen. Hvis en ny bruker prøver å logge seg på [!INCLUDE[prod_short](includes/prod_short.md)] før du har lagt til vedkommende, er det ikke sikkert de kan logges seg på. Hvis du vil ha mer informasjon, kan du se [Konfigurer tillatelser basert på lisenser](#licensespermissions). 
-> 
+>
+> Det er spesielt viktig å oppdatere brukerinformasjon hvis du har egendefinerte tillatelsessett for lisensen. Hvis en ny bruker prøver å logge seg på [!INCLUDE[prod_short](includes/prod_short.md)] før du har lagt til vedkommende, er det ikke sikkert de kan logges seg på. Hvis du vil ha mer informasjon, kan du se [Konfigurer tillatelser basert på lisenser](#licensespermissions).
+>
 > Brukere som opplever dette problemet, blir ikke faktisk sperret. De kan enten bruke handlingen **Gå tilbake til startsiden** eller ganske enkelt logge seg på igjen for å løse problemet.
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
+
+Hvis du vil ha mer informasjon, kan du se [Delegert administratortilgang til Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
 ### <a name="configure-permissions-based-on-licenses"></a><a name="licensespermissions"></a>Konfigurer tillatelser basert på lisenser
 
@@ -50,7 +54,7 @@ Hvis du vil ha mer informasjon, kan du se [Administrasjon av Business Central On
 
 Administratorer kan konfigurere tillatelsessett og brukergrupper basert på de forskjellige lisenstypene.<!--Note to translators: The names in *italics* or capitalized in this section must not be translated.-->  
 
-Den vanligste lisensen, *Dynamics 365 Business Central-teammedlem* defineres for eksempel som standard slik at brukergruppene *D365-teammedlem* og *Excel-eksporthandling* pluss følgende tillatelsessett:
+Den vanligste lisensen, *Dynamics 365 Business Central-teammedlem* har brukergruppene *D365-teammedlem* og *Excel-eksporthandling* pluss følgende tillatelsessett som standard:
 
 - D365 LESE
 - D365-TEAMMEDLEM
@@ -58,9 +62,9 @@ Den vanligste lisensen, *Dynamics 365 Business Central-teammedlem* defineres for
 - EKSPORTER RAPPORT EXCEL
 - LOKAL
 
-Hvis dette ikke er riktig oppsett for en bestemt leietaker, kan administratoren endre konfigurasjonen. Egendefinerte tillatelser vil imidlertid bare påvirke nye brukere som er tildelt lisensen. Tillatelser for eksisterende brukere som er tildelt lisensen, påvirkes ikke.  
+Hvis denne standarddefinisjonen ikke er riktig oppsett for en bestemt leietaker, kan administratoren endre konfigurasjonen. Egendefinerte tillatelser vil imidlertid bare påvirke nye brukere som er tildelt lisensen. Tillatelser for eksisterende brukere som er tildelt lisensen, påvirkes ikke.  
 
-1. Logg på [!INCLUDE[prod_short](includes/prod_short.md)] ved å bruke en administratorkonto.  
+1. Logg deg på [!INCLUDE[prod_short](includes/prod_short.md)] ved å bruke en administratorkonto.  
 2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lisenskonfigurasjon**, og velg deretter den relaterte koblingen.  
 
     Hvis du allerede er på siden **Brukere**, kan du kjøre funksjonen **Oppdater brukere fra Microsoft 365**-veiledningen, og deretter velge koblingen **Konfigurer tillatelser per lisens** på første side i veiledningen.  
@@ -73,13 +77,14 @@ Hvis dette ikke er riktig oppsett for en bestemt leietaker, kan administratoren 
 > Denne tilpasningen av tillatelser trer bare i kraft for nye brukere som du tildeler den aktuelle lisensen til. Eksisterende brukere oppdateres ikke. Vi anbefaler at du tilpasser tillatelsene før du begynner å tildeler brukerlisenser i Microsoft 365-administrasjonssenteret.
 
 ### <a name="to-add-users-or-update-user-information-and-license-assignments-in-business-central"></a><a name="adduser"></a>Slik legger du til brukere eller oppdaterer brukerinformasjon og lisenstilordninger i Business Central
-Når du har lagt til brukere eller endret brukerinformasjon i administrasjonssenteret for Microsoft 365, kan du raskt importere brukerinformasjonen til [!INCLUDE[prod_short](includes/prod_short.md)]. Importen omfatter lisenstildelinger. 
+
+Når du har lagt til brukere eller endret brukerinformasjon i administrasjonssenteret for Microsoft 365, kan du raskt importere brukerinformasjonen til [!INCLUDE[prod_short](includes/prod_short.md)]. Importen omfatter lisenstildelinger.  
 
 1. Logg deg på [!INCLUDE[prod_short](includes/prod_short.md)] ved å bruke en administratorkonto.
 2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukere**, og velg deretter den relaterte koblingen.  
 3. Velg **Oppdater brukere fra Microsoft 365**.
 
-Når du legger til nye brukere, er det neste trinnet å tildele brukergrupper og -tillatelser. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md). Hvis du oppdaterer brukerinformasjon, og oppdateringen omfatter en lisensendring, blir brukerne tildelt til den aktuelle brukergruppen, og tilhørende tillatelsessett blir oppdatert. Hvis du vil ha mer informasjon, kan du se [Administrere tillatelser gjennom brukergrupper](ui-define-granular-permissions.md).  
+for nye brukere er det neste trinnet å tildele brukergrupper og -tillatelser. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md). Hvis du oppdaterer brukerinformasjon, og oppdateringen omfatter en lisensendring, blir brukerne tildelt til den aktuelle brukergruppen, og tilhørende tillatelsessett blir oppdatert. Hvis du vil ha mer informasjon, kan du se [Administrere tillatelser gjennom brukergrupper](ui-define-granular-permissions.md).  
 
 > [!NOTE]
 > Alle brukere i et miljø må tilordnes til den samme lisensen, enten Essential eller Premium. Hvis du vil ha mer informasjon, kan du se lisensveiledningen for Microsoft Dynamics 365 Business Central. Veiledningen er tilgjengelig for nedlasting på [Business Central](https://dynamics.microsoft.com/business-central/overview/)-nettstedet.
@@ -91,7 +96,7 @@ Hvis du vil ha mer informasjon om å synkronisere brukerinformasjon med Microsof
 
 ### <a name="to-remove-a-users-access-to-the-system"></a>Fjerne en brukers tilgang til systemet
 
-I nettbaserte distribusjoner kan du fjerne en brukers tilgang til [!INCLUDE[prod_short](includes/prod_short.md)]. Alle referanser til brukeren beholdes. Brukeren kan imidlertid ikke logge seg på og aktive økter for brukeren stoppes.
+Du kan fjerne en brukers tilgang til [!INCLUDE[prod_short](includes/prod_short.md)] på nettet. Alle referanser til brukeren beholdes. Brukeren kan imidlertid ikke logge seg på og aktive økter for brukeren stoppes.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukere**, og velg deretter den relaterte koblingen.
 2. Åpne siden **Brukerkort** for den aktuelle brukeren, og velg deretter **Deaktivert** i feltet **Status**.

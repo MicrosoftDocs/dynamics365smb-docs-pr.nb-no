@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 03/04/2022
+ms.date: 04/12/2022
 ms.author: bholtorf
-ms.openlocfilehash: 285f0f224853837e2aac6553c34d366afb09f08a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
+ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519228"
+ms.lasthandoff: 05/11/2022
+ms.locfileid: "8740314"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Definer beregninger og bokføringsmetoder for merverdiavgift
 
@@ -218,13 +218,22 @@ Du må definere informasjon om hvordan skattemyndighetene i ditt land eller omr�
 
 ## <a name="see-also"></a>Se også
 
-[Definere mva-oppgavemaler og mva-oppgavenavn](finance-how-setup-vat-statement.md)  
-[Definere urealisert merverdiavgift](finance-setup-unrealized-vat.md)  
+[Definer mva-oppgavemaler og mva-oppgavenavn](finance-how-setup-vat-statement.md)  
+[Definer urealisert merverdiavgift](finance-setup-unrealized-vat.md)  
 [Rapportere mva til skattemyndighetene](finance-how-report-vat.md)  
 [Arbeide med mva på kjøp og salg](finance-work-with-vat.md)  
 [Arbeide med verktøyet for endring av mva-sats](finance-how-use-vat-rate-change-tool.md)  
 [Bekrefte organisasjonsnumre](finance-how-validate-vat-registration-number.md)  
 [Lokal funksjonalitet i Business Central](about-localization.md)  
+[Mva-rapportering i den tyske versjonen](LocalFunctionality/Germany/vat-reporting.md)  
+[Belgisk mva](LocalFunctionality/Belgium/belgian-vat.md)  
+[Italiensk mva](LocalFunctionality/Italy/italian-vat.md)  
+[Definere elektroniske mva- og ICP-deklareringer i den nederlandske versjonen](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)  
+[Mva-rapporter i den spanske versjonen](LocalFunctionality/Spain/vat-reports.md)  
+[Definer mva-postering for varer og tjenester i den australske versjonen](LocalFunctionality/Australia/how-to-set-up-goods-and-service-tax-posting.md)  
+[Mva i den tsjekkiske versjonen](LocalFunctionality/Czech/finance-vat.md)  
+[Mva-rapportering i den norske versjonen](LocalFunctionality/Norway/norwegian-vat-reporting.md)  
+[Rapporter avgift for varer/tjenester og harmonisert merverdiavgift i Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
 

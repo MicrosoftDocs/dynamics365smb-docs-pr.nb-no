@@ -1,0 +1,49 @@
+---
+title: Kjør oppgaver i bakgrunnen
+description: Konfigurer synkronisering av data mellom Business Central og Shopify i bakgrunnen.
+ms.date: 05/11/2022
+ms.topic: article
+ms.service: dynamics365-business-central
+ms.reviewer: solsen
+author: edupont04
+ms.author: andreipa
+ms.openlocfilehash: f353edb4c505fd7b3eb498392abca3ce481b6009
+ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.translationtype: HT
+ms.contentlocale: nb-NO
+ms.lasthandoff: 05/18/2022
+ms.locfileid: "8768135"
+---
+# <a name="run-tasks-in-the-background"></a>Kjør oppgaver i bakgrunnen
+
+Det er effektivt å kjøre enkelte oppgaver samtidig og på en automatisk måte. Du kan utføre slike oppgaver i bakgrunnen og kan også angi en tidsplan når du vil at disse oppgavene skal kjøres automatisk. To moduser er støttet for å kjøre oppgaver i bakgrunnen:
+
+- Manuelt utløste oppgaver planlegges umiddelbart via **jobbkøposter**
+- Regelmessige aktiviteter planlegges i **jobbkøposter**
+
+## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Kjør oppgaver i bakgrunnen for en bestemt butikk
+
+1. Gå til søkeikonet ![Lyspære som åpner funksjonen Fortell meg.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn navnet på **Shopify-butikken**. Velg butikknavnet fra oversikten.
+2. Velg butikken du vil synkronisere varer med for å åpne siden **Shopify-butikkort**.
+3. Aktiver vekslebryteren **Tillat bakgrunnssynkroniseringer**.
+
+Når synkroniseringshandlingen utløses, blir du bedt om å vente i stedet for en oppgave som kjører i forgrunnen. Når det er fullført, kan du fortsette til neste handling. Oppgaven er opprettet som **jobbkøpost** og starter direkte i en ikke-blokkerende måte.
+
+## <a name="to-schedule-recurring-tasks"></a>Slik planlegger du regelmessige oppgaver
+
+Du kan planlegge at følgende regelmessige aktiviteter skal utføres på en automatisk måte. Hvis du vil ha mer informasjon om planlegging av oppgaver, kan du se [Jobbkø](../admin-job-queues-schedule-tasks.md).
+
+|Oppgave|Objekt|
+|------|------------|
+|**Synkroniser ordrer fra Shopify**|Rapport 30104 Synkroniser ordrer fra Shopify|
+|**Behandle Shopify-ordrer**|Rapport 30103 Shopify opprett salgsordrer|
+|**Synkroniser leveringer til Shopify**|Rapport 30109 Synkroniser forsendelse til Shopify|
+|**Synkroniser produkter eller priser**|Rapport 30108 Shopify synkroniser produkter|
+|**Synkroniser lager**|Rapport 30102 Synkroniser lager til Shopify|
+|**Synkroniser bilder**|Rapport 30107 Shopify synkroniser bilder|
+|**Synkroniser kunder**|Rapport 30100 Shopify synkroniser kunder|
+|**Synkroniser betalinger**|Rapporter 30105 Shopify synkroniser betalinger|
+
+## <a name="see-also"></a>Se også
+
+[Kom i gang med koblingen for Shopify](get-started.md)  

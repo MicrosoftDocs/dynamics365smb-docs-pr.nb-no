@@ -237,21 +237,9 @@
 ##### [Finne bokførte dokumenter uten innkommende dokumentposter](across-how-find-posted-documents-without-income-document-records.md)
 ##### [Håndter mange inngående dokumentposter](across-how-manage-many-income-document-records.md)
 
-### Arbeidsflyt
+### Arbeidsflyter
 #### [Oversikt over arbeidsflyt](across-workflow.md)
-#### Konfigurere arbeidsflyter
-##### [Konfigurere arbeidsflyter](across-set-up-workflows.md)
-##### [Konfigurere arbeidsflytbrukere](across-how-to-set-up-workflow-users.md)
-##### [Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)
-##### [Arbeidsflytvarslinger](across-setting-up-workflow-notifications.md)
-##### [Angi når og hvor du kan motta varsler](across-how-to-specify-when-and-how-to-receive-notifications.md)
-##### [Opprett og endre oppsett](ui-get-started-layouts.md)
-<!--##### [Create and Modify Custom Report Layouts](ui-how-create-custom-report-layout.md)-->
-##### [Konfigurere e-post](admin-how-setup-email.md)
-##### [Opprette arbeidsflyter](across-how-to-create-workflows.md)
-##### [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md)
-##### [Importere og eksportere arbeidsflyter](across-how-to-export-and-import-workflows.md)
-##### [Gjennomgang: definer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+#### [Bruk Business Central i Power Automate-flyter](across-how-use-financials-data-source-flow.md)
 #### Bruk arbeidsflyter
 ##### [Bruke arbeidsflyter](across-use-workflows.md)
 ##### [Aktivere arbeidsflyter](across-how-to-enable-workflows.md)
@@ -259,7 +247,7 @@
 ##### [Begrense og tillate bruk av en post](across-how-to-restrict-and-allow-usage-of-a-record.md)
 ##### [Vise arkiverte forekomster av arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md)
 ##### [Slette arbeidsflyter](across-how-to-delete-workflows.md)
-
+<!--data exchange-->
 ### Utveksle data elektronisk
 #### [Oversikt over OData-utveksling](across-data-exchange.md)
 #### [Rammeverket for datautveksling](across-about-the-data-exchange-framework.md)
@@ -672,8 +660,18 @@
 #### [Servicebokføring](service-service-posting.md)
 #### [Bokføre serviceordrer og kreditnotaer](service-how-to-post-service-orders.md)
 #### [Låne ut og mottar utlånsobjekter](service-how-to-lend-receive-loaners.md)
+<!--Shopify-->
+## Nettbutikk med Shopify
+### [Kom i gang med Shopify-koblingen](shopify/get-started.md)
+### [Synkroniser varer med Shopify](shopify/synchronize-items.md)
+### [Synkroniser kunder med Shopify](shopify/synchronize-customers.md)
+### [Synkroniser og oppfyll salgsordrer med Shopify](shopify/synchronize-orders.md)
+### [Kjør oppgaver i bakgrunnen](shopify/background.md)
+### [Feilsøk Shopify-koblingen](shopify/troubleshoot.md)
+### [Vanlige spørsmål for Shopify-koblingen](shopify/shopify-faq.md)
+
 <!--Company Hub-->
-## Selskapshub
+## Selskapssenter
 ### [Administrere arbeid på tvers av selskaper med selskapshuben](company-hub.md)
 ### [Legge til selskaper i selskapshuben](company-hub-add-company.md)
 ### [Feilsøk selskapssenteret](company-hub-troubleshooting.md)
@@ -770,6 +768,7 @@
 ##### [Bedriftsnumre og filialnumre](LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers.md)
 ##### [Begrense bokføringsperioden](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Angi arbeidsdato som bokføringsdato](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
+##### [Gjør kladdemaler obligatoriske](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
 
 ### Canada
 #### [Lokal funksjonalitet i den kanadiske versjonen](LocalFunctionality/Canada/canada-local-functionality.md)
@@ -820,9 +819,10 @@
 
 ### Danmark
 #### [Lokal funksjonalitet i den danske versjonen](LocalFunctionality/Denmark/denmark-local-functionality.md)
-#### Merverdiavgift
+#### MVA
 ##### [Skrive ut MVA-avstemmingsrapporter](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [EU-mva-rapportering](LocalFunctionality/Denmark/vat-vies-reporting.md)
+##### [Oppsett av mva-registreringsnummer for Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
 #### Banktjenester og betalinger
 ##### [FIK-detaljer i betalingsavstemmingskladd](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [Utvidelsen Betalinger og avstemminger (Danmark)](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -1329,6 +1329,7 @@
 ##### [Cartera-modulen for salg](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Cartera-modulen for betalinger](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - faktura- og kreditnotatyper i salgs- og kjøpsdokumenter](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
+##### [Konfigurer SII for mva-rapportering](LocalFunctionality/Spain/sii-setup.md)
 #### Kjerneøkonomi
 ##### [Definere og lukke resultatregnskapssaldi](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Rykke inn og validere kontantstrømkontoplan](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
@@ -1572,6 +1573,17 @@
 ##### [Vanlige spørsmål](ui-outlook-addin-faq.yml)
 ### Konfigurer rapporter
 #### [Rapportvalg](across-report-selections.md)
+### Konfigurer godkjenningsarbeidsflyter basert på maler
+#### [Konfigurer godkjenningsarbeidsflyter](across-set-up-workflows.md)
+#### [Konfigurere arbeidsflytbrukere](across-how-to-set-up-workflow-users.md)
+#### [Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)
+#### [Arbeidsflytvarslinger](across-setting-up-workflow-notifications.md)
+#### [Angi når og hvor du kan motta arbeidsflytvarsler](across-how-to-specify-when-and-how-to-receive-notifications.md)
+#### [Opprette arbeidsflyter](across-how-to-create-workflows.md)
+#### [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md)
+#### [Importere og eksportere arbeidsflyter](across-how-to-export-and-import-workflows.md)
+#### [Gjennomgang: definer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
+<!--Connectors-->
 ### Konfigurer tilkoblinger
 #### [Hent Business Central-tillegget for Excel](admin-deploy-excel-addin.md)
 #### Bruk Business Central som forretningsinnboks i Outlook 
@@ -1606,7 +1618,8 @@
 ###### [Bruk Business Central-appene i Power BI](across-powerbi-business-central-apps.md)
 ##### [Vanlige spørsmål](power-bi-faq.md)
 #### Bruk Power Automate med Business Central
-##### [Bruk Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md)
+##### [Bruk Business Central i Power Automate-flyter](across-how-use-financials-data-source-flow.md)
+##### [Feilsøk automatiserte arbeidsflyter](across-flow-troubleshoot.md)  
 #### Bruk Power Apps med Business Central
 ##### [Koble til Business Central-dataene for å utvikle en forretningsapp ved hjelp av Power Apps](across-how-use-financials-data-source-powerapps.md)
 #### [Endre fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)
@@ -1760,23 +1773,6 @@
 ### [Klassifiser datasensitivitet](admin-classifying-data-sensitivity.md)
 ### [Svar på forespørsler om personopplysninger](admin-responding-to-requests-about-personal-data.md)
 ### [Opprett nye selskaper](about-new-company.md)
-### Konfigurer et selskap med RapidStart Services
-#### [Oversikt over RapidStart](admin-set-up-a-company-with-rapidstart.md)
-#### Definere selskapskonfigurasjon
-##### [Oversikt over selskapskonfigurasjon](admin-set-up-company-configuration.md)
-##### [Behandle selskapskonfigurasjon i et forslag](admin-how-to-manage-company-configuration-in-a-worksheet.md)
-##### [Klargjøre en konfigurasjonspakke](admin-how-to-prepare-a-configuration-package.md)
-#### Bruke konfigurasjoner for nye selskaper
-##### [Bruke konfigurasjoner for nye selskaper](admin-apply-configuration-to-new-companies.md)
-##### [Opprett et nytt selskap.](admin-how-to-create-a-new-company.md)
-##### [Konfigurere nye selskaper](admin-how-to-configure-new-companies.md)
-##### [Konfigurere et selskap med RapidStart-veiviseren](admin-how-to-configure-a-company-with-the-rapidstart-wizard.md)
-##### [Kopiere data til nye selskaper](admin-how-to-copy-data-to-new-companies.md)
-##### [Opprette inngående balanser for kladd](admin-how-to-create-journal-opening-balances.md)
-#### [Samle dataverdier for kunde](admin-gather-customer-setup-values.md)
-#### [Klargjøre for å flytte kundedata med maler](admin-use-templates-to-prepare-customer-data-for-migration.md)
-#### [Flytte kundedata](admin-migrate-customer-data.md)
-#### [Tips og triks: RapidStart Services](admin-tips-and-tricks-rapidstart-services.md)
 ### [Loggendringer](across-log-changes.md)
 ### [Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md)
 ### [Behandle lagring ved å komprimere data eller slette dokumenter](admin-manage-documents.md)

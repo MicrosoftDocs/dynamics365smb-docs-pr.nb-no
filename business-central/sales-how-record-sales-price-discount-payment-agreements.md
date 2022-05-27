@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: special price, alternate price, pricing
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 67536b129986343d67c2bc52cc3db8450e177d67
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5ff042e1dec609b568c36967f56a8cd3673b9558
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520156"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729844"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrere spesielle salgspriser og rabatter
 > [!NOTE]
@@ -95,7 +95,14 @@ Når du aktiverer funksjonsoppdateringen **Ny salgsprisopplevelse** på siden **
 > [!NOTE]
 > Hvis priser bare er angitt for vare- eller ressurskort, vil ikke standard prislister bli fylt ut med disse prisene under funksjonsdataoppdatering. Du kan imidlertid åpne en hvilken som helst av standard prislister eller på siden Prisforslag og bruke handlingen **Foreslå linjer** til å legge til prisene angitt på vare- eller ressurskort. 
 
-* Hvis du vil bruke salgsprislister, deaktiverer du den. Eksisterende priser blir konvertert til en ny prisliste for hver kombinasjon av kunde, kundegruppe eller kampanje, og start- og sluttdatoer og valuta. Hvis du har mange kombinasjoner, vil du ha mange prislister.
+* Hvis du vil bruke salgsprislister, deaktiverer du den. Eksisterende priser konverteres til en ny prisliste for hver kombinasjon av følgende ting: 
+
+* Kunde
+* Kundegruppe eller -kampanje
+* Start- og sluttdatoer
+* Valutaer 
+
+Hvis du har mange kombinasjoner, vil du ha mange prislister.
 
 Hvis du allerede har aktivert den nye prisopplevelsen, kan du opprette standard prislister manuelt eller angi en eksisterende prisliste som standard. Hvis du vil angi en eksisterende prisliste som standard, aktiverer du alternativet **Tillat oppdatering av standardverdier** på prislisten. Angi prislisten som standard på sidene **Salgsoppsett**, **Kjøpsoppsett** eller **Prosjektoppsett**.
 
@@ -129,13 +136,14 @@ Hvis du vil kopiere salgspriser, for eksempel salgsprisen for en enkelt kunde so
    > Denne kjørselen oppretter forslag, men implementerer ikke de foreslåtte endringene. Hvis du er tilfreds med forslagene og vil implementere dem, det vil si legge dem inn på siden **Salgspriser**, velger du handlingen **Implementer prisendringer** på siden **Salgsprisforslag**.
 
 #### <a name="new-experience"></a>[Ny opplevelse](#tab/new-experience/)  
+Du kan angi om den nye prislisten skal bruke innstillingene fra overskriften på listen du kopierer, eller innstillingene fra den nye listen du kopierer til. Hvis du vil bruke innstillingene fra prislisten du kopierer priser til, slår du på vekslebryteren **Bruk standarder fra mål**.
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsprislister**, og velg deretter den relaterte koblingen. 
 2. Velg prislisten du vil kopiere, og velg deretter **Kopier linjer**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
    > [!NOTE]
-   > Du kan ikke ha to linjer som har samme innstillinger, men forskjellige priser. Hvis dette skjer, vises en melding når du aktiverer en prisliste. Du kan velge hvilken pris som skal brukes, ved å åpne listen og slette den uriktige prisen.  
+   > Du kan ikke ha to elementer som har samme innstillinger, men forskjellige priser. Hvis dette skjer, vises en melding når du aktiverer prislisten. Du kan velge hvilken pris som skal brukes, ved å åpne listen og slette den uriktige prisen.  
   
 ---
 
@@ -146,8 +154,8 @@ Denne fremgangsmåten varierer avhengig av om systemansvarlig har aktivert funks
 
 Hvis du vil oppdatere varepriser satsvis, for eksempel øke alle priser med en bestemt prosentdel, kan du fylle ut siden Enhetsprisforslag ved å bruke følgende satsvise jobber:
 
-* **Foreslå salgspris i forslag** foreslår endringer ved å bruke en justeringsfaktor på eksisterende salgspriser, eller ved å kopiere eksisterende salgsprisavtaler til andre kunde, kundeprisgrupper eller salgskampanjer.
-* **Foreslå varepris i forslag** foreslår endringer ved å bruke en justeringsfaktor på eksisterende salgspriser på varekort, eller ved å foreslå priser for nye kombinasjoner av valuta, enheter og så videre. Enhetsprisene på varer endres ikke av denne kjørselen.  
+* **Foreslå salgspris i forslag** foreslår endringer på en av to måter. enten ved å bruke en justeringsfaktor på eksisterende salgspriser, eller ved å kopiere eksisterende salgsprisavtaler til andre kunde, kundeprisgrupper eller salgskampanjer.
+* **Foreslå varepris i forslag** foreslår endringer på en av to måter. enten ved å bruke en justeringsfaktor på eksisterende salgspriser på varekort, eller ved å foreslå priser for nye kombinasjoner av valuta, enheter og så videre. Enhetsprisene på varer endres ikke av denne kjørselen.  
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Salgsprisforslag**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Foreslå varepris i forslag** .  
@@ -168,9 +176,9 @@ Hvis du vil oppdatere priser for flere varer, må du opprette en ny prisliste og
 ---
 
 ## <a name="best-price-calculation"></a>Beregning av beste pris
-Når du har registrert spesialpriser og linjerabatter for salg og kjøp, sørger [!INCLUDE[d365fin](includes/d365fin_md.md)] for at overskuddet alltid er optimalt. Den beregner den beste prisen i salgs- og kjøpsdokumenter og på prosjekt- og varekladdelinjer.
+Når du registrerer spesialpriser og linjerabatter for kjøp og salg, beregner [!INCLUDE[d365fin](includes/d365fin_md.md)] den beste prisen for salgs- og kjøpsdokumenter og på prosjekt- og varekladdelinjer.
 
-Den beste prisen er den lavest tillatte prisen med den størst tillatte linjerabatten på denne en gitt dato. [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner beste priser når det setter inn salgsprisen og linjerabattprosenten for varer på nye dokument- og kladdelinjer.
+Den beste prisen er den lavest prisen med den størst linjerabatten tillatt på denne en gitt dato. [!INCLUDE[d365fin](includes/d365fin_md.md)] beregner beste priser når det legger til enhetspriser og linjerabattprosentene på dokument- og kladdelinjer.
 
 > [!NOTE]  
 > Det følgende beskriver hvordan den beste prisen beregnes for salg. Beregningen er den samme for kjøp.
@@ -199,7 +207,7 @@ Før du kan bruke fakturarabatter i forbindelse med salg, må du angi bestemte o
 
 Hvis du vil at fakturarabatter skal beregnes automatisk, slår du på vekslebryteren **Beregn fak.rabatt** på siden **Salgsoppsett**.  
 
-For hver kunde kan du angi om du vil gi fakturarabatter når en faktura oppfyller visse kriterier. Når for eksempel faktura beløpet er stort nok. Fakturarabatter kan være i lokal valuta for innenlandske kunder eller i utenlandsk valuta for utenlandske kunder.  
+Du kan angi om du vil gi fakturarabatter når en faktura oppfyller visse kriterier for hver kunde. Når for eksempel faktura beløpet er stort nok. Fakturarabatter kan være i lokal valuta for innenlandske kunder eller i utenlandsk valuta for utenlandske kunder.  
 
 Du knytter rabattprosentene til bestemte fakturabeløp på siden **Kundefakturarabatter** for hver kunde. Du kan angi den prosentsatsen du vil ha. Hver kunde kan ha en egen side, eller du kan knytte flere kunder til den samme siden.  
 

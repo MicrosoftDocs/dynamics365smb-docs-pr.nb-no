@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ca22eaadb8ba4054ce22782881b487cab6bd5c4
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bc6530a17e98d36a3f26e68e6231306aebfdda1d
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521783"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729778"
 ---
 # <a name="make-drop-shipments"></a>Foreta direkte leveringer
 
@@ -30,7 +30,10 @@ Når en ordre er merket for direkte levering, og du oppretter en bestilling for 
 Hvis du vil klargjøre en direkte levering, kan du opprette en ordre og vise på salgslinjen at salget krever direkte levering.
 
 1. Opprett en ordre for en vare. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).
-2. På ordrelinjen for direkte levering, merker du av for **Direkte levering**. Bruk funksjonen **Velg kolonner** hvis feltet ikke er synlig. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
+2. På ordrelinjen for direkte levering, merker du av for **Direkte levering**. 
+
+> [!TIP]
+> Avmerkingsboksen for direktelevering er som standard ikke tilgjengelig på linjene. Hvis ikke kan du legge til den ved å tilpasse inndelingen på siden som inneholder linjene. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
 
 ## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Slik oppretter du bestillingen med direkte levering:
 
@@ -45,11 +48,15 @@ For å klargjøre en direkte levering angir du på bestilling at den må leveres
 
 Linjeinformasjonen fra ordren settes inn på bestillingslinjene.
 
-Nå kan du angi at leverandøren skal levere varene til kunden, for eksempel, ved å sende bestillingen på e-post som en PDF-fil. Hvis leverandøren oppgir et sporingsnummer eller liknende informasjon, kan du velge å registrere informasjonen på en bestillingslinje av typen *Merknad*.  
+Nå kan du be leverandøren om å sende varene direkte til kunden. Du kan for eksempel sende dem bestillingen via e-post. 
+
+Hvis leverandøren oppgir et sporingsnummer eller liknende informasjon, kan du legge til informasjonen på en bestillingslinje av typen *Merknad*.  
 
 ## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Slik oppretter du flere bestillinger med direkte leveringer
 
-Du kan også bruke bestillingsforslaget til å opprette bestillingen for leverandøren. Fordelen med å bruke bestillingsforslaget er at det kan opprette bestillinger for alle utestående direkte leveringer, slik at du ikke trenger å opprette hver enkelt individuelt.
+Du kan også bruke bestillingsforslaget til å opprette bestillingen for leverandøren. 
+
+Fordelen med å bruke bestillingsforslaget er at det kan opprette bestillinger for alle utestående direkte leveringer. Det betyr at du ikke trenger å opprette hver enkelt.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Bestillingsforslag**, og velg deretter den relaterte koblingen.
 2. Velg **Direkte levering**-handlingen, og velg deretter **Hent ordre**-handlingen.

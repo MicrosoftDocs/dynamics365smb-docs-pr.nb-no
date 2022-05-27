@@ -1,36 +1,40 @@
 ---
 title: Definere detaljerte tillatelser
-description: Dette emnet beskriver hvordan du definerer detaljerte tillatelser ved å gi bestemte brukere tilgang til objekter og tilordne tillatelsessett til dem.
+description: Denne artikkelen beskriver hvordan du definerer detaljerte tillatelser og tildeler hver bruker tillatelsessettet vedkommende trenger for å gjøre jobben.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 1, 119, 8930, 9807, 9808, 9830, 9831
-ms.date: 03/24/2022
+ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831
+ms.date: 05/09/2022
 ms.author: edupont
-ms.openlocfilehash: ca0373fc55fb14d43dae9ce5bc51c0063c88a2af
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 26dbf7e47c0159429aebd34e9167d9c3e7490ec6
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522515"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729832"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilordne tillatelser til brukere og grupper
 
-Administratorer bruker [!INCLUDE[prod_short](includes/prod_short.md)]-sikkerhetssystemet til å kontrollere hvilke objekter en bruker har tilgang til i hver database eller hvert miljø, sammen med de tilordnede lisensene. Du kan angi for hver bruker om de kan lese, endre eller angi data i de valgte databaseobjektene. Hvis du vil ha mer informasjon, se [Datasikkerhet](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i utvikler- og administrasjonsinnholdet for [!INCLUDE[prod_short](includes/prod_short.md)].
+[!INCLUDE[prod_short](includes/prod_short.md)]-sikkerhetssystemet styrer hvilke objekter en bruker har tilgang til i hver database eller hvert miljø, sammen med brukerens lisens. Du kan angi for hver bruker om de kan lese, endre eller angi data i de valgte databaseobjektene. Hvis du vil ha mer informasjon, se [Datasikkerhet](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i utvikler- og administrasjonsinnholdet for [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Før du tilordner tillatelser til brukere og brukergrupper, må du definere hvem som kan logge på ved å opprette brukere i henhold til lisensen som er definert i administrasjonssenteret for Microsoft 365. Hvis du vil ha mer informasjon, se [Opprette brukere i henhold til lisenser](ui-how-users-permissions.md).
+Før du tilordner tillatelser til brukere og brukergrupper, må du definere hvem som kan logge på ved å opprette brukere i henhold til lisensen. Hvis du vil ha mer informasjon, se [Opprette brukere i henhold til lisenser](ui-how-users-permissions.md).
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] finnes det to nivåer med tillatelser til databaseobjekter:
 
 - Generelle tillatelser i henhold til lisensen, også kalt rettighet.
 
   Lisensene inkluderer standard tillatelsessett. Fra lanseringsbølge 1 for 2022 kan administratorer tilpasse disse standardtillatelsene for de aktuelle lisenstypene. Hvis du vil ha mer informasjon, kan du se [Konfigurer tillatelser basert på lisenser](ui-how-users-permissions.md#licensespermissions).  
+
 - Mer detaljerte tillatelser som tildelt fra [!INCLUDE[prod_short](includes/prod_short.md)].
 
   Denne artikkelen beskriver hvordan du kan definere og bruker tillatelser i [!INCLUDE [prod_short](includes/prod_short.md)] til å endre standardkonfigurasjonen.  
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]  
+Hvis du vil ha mer informasjon, kan du se [Delegert administratortilgang til Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] online inneholder standard brukergrupper som tildeler brukere automatisk basert på lisensen. Du kan endre standardkonfigurasjonen ved å endre eller legge til brukergrupper, tillatelsessett og tillatelser. Følgende tabell beskriver nøkkelscenarioer for å endre standardtillatelsene.  
 
@@ -54,7 +58,7 @@ Brukergrupper hjelper deg med å håndtere tillatelsessett i hele selskapet. [!I
 
 Du starter med å opprette en brukergruppe. Deretter tilordner du tillatelsessett til gruppen for å definere hvilke objekter brukere av gruppen har tilgang til. Når du legger til en bruker i gruppen, vil tillatelsessettene som er definert for gruppen, gjelde for brukeren.
 
-Tillatelsessett som tilordnes en bruker gjennom en brukergruppe, forblir synkronisert slik at en endring i brukergruppens tillatelser automatisk overføres til brukeren. Hvis du fjerner en bruker fra en brukergruppe, tilbakekalles de aktuelle tillatelsene automatisk.
+Tillatelsessett som tildeles en bruker gjennom en brukergruppe, forblir synkronisert. En endring i brukergruppetillatelsene overføres automatisk til brukerne. Hvis du fjerner en bruker fra en brukergruppe, tilbakekalles de aktuelle tillatelsene automatisk.
 
 ### <a name="to-add-users-to-a-user-group"></a>Slik legger du til brukere i en brukergruppe
 
@@ -94,16 +98,16 @@ Fremgangsmåten nedenfor beskriver hvordan du kan tildele tillatelsessett til en
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukere**, og velg deretter den relaterte koblingen.
 2. På siden **Brukere** velger du den aktuelle brukeren, og velger deretter handlingen **Tillatelsessett etter brukergruppe**.
-3. På siden **Tillatelsessett etter brukergruppe** merker du av for **[brukergruppenavn]** for en linje for det aktuelle tillatelsessettet for å tilordne settet til brukergruppen.
+3. På siden **Tillatelsessett etter brukergruppe** velger du feltet **[brukergruppenavn]** for en linje for det aktuelle tillatelsessettet for å tilordne settet til brukergruppen.
 4. Merk av for **Alle brukergrupper** for å tilordne tillatelsessettet til alle brukergrupper.
 
 Du kan også tildele tillatelsessett direkte til en bruker.
 
 ## <a name="to-assign-permission-sets-to-users"></a>Slik tilordner du tillatelsessett til brukere
 
-Et tillatelsessett er en samling tillatelser for bestemte databaseobjekter. Alle brukere må være tilordnet ett eller flere tillatelsessett før de kan åpne [!INCLUDE[prod_short](includes/prod_short.md)]. 
+Et tillatelsessett er en samling tillatelser for bestemte databaseobjekter. Alle brukere må være tilordnet ett eller flere tillatelsessett før de kan åpne [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-En [!INCLUDE[prod_short](includes/prod_short.md)]-løsning inneholder vanligvis et antall forhåndsdefinerte tillatelsessett som legges til av Microsoft eller løsningsleverandøren. Du kan også legge til nye tillatelsessett som er skreddersydd for å dekke behovene i organisasjonen. Hvis du vil ha mer informasjon, kan du se delen [Slik oppretter eller viser du et tillatelsessett](#to-create-or-modify-a-permission-set).
+En [!INCLUDE[prod_short](includes/prod_short.md)]-løsning inneholder forhåndsdefinerte tillatelsessett som legges til av Microsoft eller løsningsleverandøren. Du kan også legge til nye tillatelsessett som er skreddersydd for å dekke behovene i organisasjonen. Hvis du vil ha mer informasjon, kan du se delen [Slik oppretter eller viser du et tillatelsessett](#to-create-or-modify-a-permission-set).
 
 > [!NOTE]
 > Hvis du ikke vil begrense brukerens tilgang mer enn det som allerede er definert av lisensen, kan du tilordne et spesielt tillatelsessett som kalles SUPER for brukeren. Dette tillatelsessettet sikrer at brukeren har tilgang til alle objektene som er angitt i lisensen.
@@ -159,7 +163,7 @@ Eventuelle tillatelsessett som allerede er tilordnet til brukeren, vises i fakta
 
 ### <a name="security-filters-limit-a-users-access-to-specific-records-in-a-table"></a>Sikkerhetsfiltre begrenser brukerens tilgang til bestemte poster i en tabell
 
-For sikkerhet på postnivå i [!INCLUDE[prod_short](includes/prod_short.md)] bruker du sikkerhetsfiltrene til å begrense en brukers tilgang til data i en tabell. Du oppretter sikkerhetsfiltre på tabelldata. Et sikkerhetsfilter beskriver et sett med poster i en tablle som en bruker har tilgang til. Du kan for eksempel angi at en bruker bare kan lese poster som inneholder informasjon om en bestemt kunde. Dette betyr at brukeren ikke har tilgang til postene som inneholder informasjon om andre kunder. Hvis du vil ha mer informasjon, kan du se [Bruk sikkerhetsfiltre](/dynamics365/business-central/dev-itpro/security/security-filters) i administrasjonsinnholdet.
+For sikkerhet på postnivå i [!INCLUDE[prod_short](includes/prod_short.md)] bruker du sikkerhetsfiltrene til å begrense en brukers tilgang til data i en tabell. Du oppretter sikkerhetsfiltre på tabelldata. Et sikkerhetsfilter beskriver et sett med poster i en tablle som en bruker har tilgang til. Du kan for eksempel angi at en bruker bare kan lese poster som inneholder informasjon om en bestemt kunde. På denne måten har ikke brukeren tilgang til postene som inneholder informasjon om andre kunder. Hvis du vil ha mer informasjon, kan du se [Bruk sikkerhetsfiltre](/dynamics365/business-central/dev-itpro/security/security-filters) i administrasjonsinnholdet.
 
 
 ## <a name="to-create-or-modify-a-permission-set"></a>Opprette eller endre et tillatelsessett
@@ -186,28 +190,31 @@ Du kan også bruke en kopieringsfunksjon til å overføre alle tillatelser i et 
 
 1. På siden **Tillatelsessett** merker du linjen for et tillatelsessett du vil kopiere, og velger deretter handlingen **Kopier tillatelsessett**.
 2. På siden **Kopier tillatelsessett** angir du navnet på det nye tillatelsessettet, og velg deretter **OK**-knappen.
-3. Merk av for **Varsle ved endret tillatelsessett** hvis du vil opprettholde en kobling mellom det opprinnelige og det kopierte tillatelsessettet. Koblingen brukes deretter til å varsle deg om navnet eller innholdet i det opprinnelige tillatelsessettet endres i en en fremtidig versjon som løsningen oppgraderes til senere.
+3. Merk av for **Varsle ved endret tillatelsessett** hvis du vil opprettholde en kobling mellom det opprinnelige og det kopierte tillatelsessettet. På denne måten får du beskjed hvis navnet eller innholdet i det opprinnelige tillatelsessettet endres i en fremtidig versjon.
 
-Det nye tillatelsessettet, som inneholder alle tillatelsene i det kopierte tillatelsessettet, legges til som en ny linje på siden **Tillatelsessett**. Nå kan du endre tillatelser i det nye tillatelsessettet. Legg merke til at linjene sorteres alfabetisk innen hver type.
+Det nye tillatelsessettet, som inneholder alle tillatelsene i det kopierte tillatelsessettet, legges til som en ny linje på siden **Tillatelsessett**. Nå kan du endre tillatelser i det nye tillatelsessettet. 
+
+> [!TIP]
+> Linjene sorteres alfabetisk innen hver type.
 
 ### <a name="to-export-and-import-a-permission-set"></a>Slik eksporterer og importerer du et tillatelsessett
 
 Hvis du vil definere tillatelser raskt, kan du importere tillatelsessett du har eksportert fra en annen [!INCLUDE[prod_short](includes/prod_short.md)]-leietaker.
 
-I miljøer med mange leietakere importeres et tillatelsessett til en spesiell leietaker, det vil si at omfanget av importen er Leietaker.
+I miljøer med mange leietakere importeres et tillatelsessett til en spesiell leietaker. Med andre ord er omfanget av importen *Leier*.
 
 1. I leietaker 1 på siden **Tillatelsessett** merker du linjen eller linjene for tillatelsessettene du vil eksportere, og velger deretter handlingen **Eksporter tillatelsessett**.
 
-    En XML-fil opprettes i nedlastingsmappen på maskinen. Som standard kalles den Eksporter tillatelsessett.XML
+    En XML-fil opprettes i nedlastingsmappen på maskinen. Som standard kalles den *Eksporter tillatelsessett.XML*.
 
 2. I leietaker 2 på **Tillatelsessett**-siden velger du handlingen **Importer tillatelsessett**.
 3. På siden **Importer tillatelsessett** må du vurdere om du vil slå sammen eksisterende tillatelsessett med nye tillatelsessett i XML-filen.
 
-    Hvis du merker av for **Oppdater eksisterende tillatelser**, slås eksisterende tillatelsessett med samme navn som de som finnes i XML-filen, sammen med de importerte tillatelsessettene.
+    Hvis du merker av for **Oppdater eksisterende tillatelser**, slås eksisterende tillatelsessett med samme navn som i XML-filen, sammen med de importerte tillatelsessettene.
 
-    Hvis du ikke merker av for **Oppdater eksisterende tillatelser**, blir eksisterende tillatelsessett med samme navn som de som finnes i XML-filen, hoppet over under importen. I dette tilfellet blir du varslet om tillatelsessett som hoppes over.
+    Hvis du ikke merker av for **Oppdater eksisterende tillatelser**, blir eksisterende tillatelsessett med samme navn i XML-filen, hoppet over under importen. I dette tilfellet blir du varslet om tillatelsessett som hoppes over.
 
-4. Fra siden **Importer** finner og velger du filen som skal importeres, og velger handlingen **Åpne**.
+4. Fra siden **Importer** finner og velger du XML-filen som skal importeres, og velger handlingen **Åpne**.
 
 Tillatelsessettene importeres.
 
@@ -235,9 +242,9 @@ I hvert av de fem tilgangstypefeltene, **Lesetillatelse**, **Innsettingstillatel
 ### <a name="example---indirect-permission"></a>Eksempel - indirekte tillatelse
 
 Du kan tilordne en indirekte tillatelse til å bruke et objekt, bare via et annet objekt.
-En bruker kan for eksempel ha tillatelse til å kjøre kodeenhet 80, Sales-Post. Kodeenheten Sales-Post utfører mange oppgaver, inkludert å endre tabell 37, salgslinjen. Når du bokfører et salgsdokument, codeunit Sales-Post, kontrollerer [!INCLUDE[prod_short](includes/prod_short.md)] om brukeren har tillatelse til å endre Salgslinje-tabellen. Hvis ikke kan ikke kodeenheten fullføre oppgavene, og brukeren får en feilmelding. Hvis dette er tilfelle, kjører kodeenheten uten problemer.
+En bruker kan for eksempel ha tillatelse til å kjøre kodeenhet 80, Sales-Post. Kodeenheten Sales-Post utfører mange oppgaver, inkludert å endre tabell 37, salgslinjen. Når du bokfører et salgsdokument, codeunit Sales-Post, kontrollerer [!INCLUDE[prod_short](includes/prod_short.md)] om brukeren har tillatelse til å endre Salgslinje-tabellen. Hvis ikke kan ikke codeunit fullføre oppgavene, og brukeren får en feilmelding. Hvis dette er tilfelle, kjører kodeenheten uten problemer.
 
-Brukeren trenger imidlertid ikke full tilgang til tabellen Salgslinje for å kunne kjøre kodeenheten. Hvis brukeren har indirekte tillatelse til Salgslinje-tabellen, kjører codeunit Sales-Post uten problemer. Når en bruker har indirekte tillatelse, kan vedkommende bare endre tabellen Salgslinje ved å kjøre kodeenheten Sales-Post eller et annet objekt som har tillatelse til å endre tabellen Salgslinje. Brukeren kan bare endre Salgslinje-tabellen når det gjøres fra moduler som støttes. Brukeren kan ikke kjøre funksjonen ved en feiltakelse eller med onde hensikter ved hjelp av andre metoder.
+Brukeren trenger imidlertid ikke full tilgang til tabellen Salgslinje for å kunne kjøre codeunit. Hvis brukeren har indirekte tillatelse til Salgslinje-tabellen, kjører codeunit Sales-Post uten problemer. Når en bruker har indirekte tillatelse, kan vedkommende bare endre tabellen Salgslinje ved å kjøre kodeenheten Sales-Post eller et annet objekt som har tillatelse til å endre tabellen Salgslinje. Brukeren kan bare endre Salgslinje-tabellen når det gjøres fra moduler som støttes. Brukeren kan ikke kjøre funksjonen ved en feiltakelse eller med onde hensikter ved hjelp av andre metoder.
 
 ## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Slik oppretter eller endrer du tillatelser ved å angi registrere handlingene
 
@@ -249,7 +256,7 @@ Brukeren trenger imidlertid ikke full tilgang til tabellen Salgslinje for å kun
 4. Velg handlingen **Tillatelser**.
 5. På **Tillatelser**-siden velger du **Registrer tillatelser**-handlingen, og velg deretter **Start**-handlingen.
 
-    Dette starter en innspillingsprosess som fanger opp alle handlingene dine i brukergrensesnittet.
+    En innspillingsprosess starter og fanger opp alle handlingene dine i brukergrensesnittet.
 6. Gå til de ulike sidene og aktivitetene i [!INCLUDE[prod_short](includes/prod_short.md)] som du vil at brukere med dette tillatelsessettet skal få tilgang til. Du må utføre oppgaver som du vil registrere tillatelser for.
 7. Når du vil avslutte opptaket, gå tilbake til **Tillatelser**-siden, og velg deretter **Stopp**-handlingen.
 8. Velg **Ja**-knappen for å legge til registrerte rettigheter til det nye tillatelsessettet.
@@ -261,19 +268,23 @@ Brukeren trenger imidlertid ikke full tilgang til tabellen Salgslinje for å kun
 
 ## <a name="to-set-up-user-time-constraints"></a>Slik definerer du tidsbegrensninger for brukere:
 
-Administratorer kan definere hvor lenge angitte brukere skal kunne bokføre, og også angi om systemet skal logge hvor lenge brukere er logget på. Administratorer kan også tilordne ansvarssentre til brukere. Hvis du vil ha mer informasjon, kan du se [Arbeide med ansvarssentre](inventory-responsibility-centers.md).
+Administratorer kan definere tidsperioder som de bestemte brukerne kan bokføre. Administratorer kan også angi om system logger hvor lang tid brukere er logget på. Administratorer kan også tildele ansvarssentre til brukere. Hvis du vil ha mer informasjon, kan du se [Arbeide med ansvarssentre](inventory-responsibility-centers.md).
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukeroppsett** og velg den relaterte koblingen.
 2. På siden **Brukeroppsett** velger du handlingen **Ny**.
 3. I feltet **Bruker-ID** angir du ID-en for en bruker eller velger feltet for å vise alle gjeldende Windows-brukere i systemet.
 4. Fyll ut feltene etter behov.
 
-## <a name="viewing-permission-changes-telemetry"></a>Vise telemetri ved tillatelsesendringer 
+## <a name="viewing-permission-changes-telemetry"></a>Vise telemetri ved tillatelsesendringer
 
-Du kan konfigurere at [!INCLUDE[prod_short](includes/prod_short.md)] skal sende endringer som er gjort i tillatelsen, til en Application Insights-ressurs i Microsoft Azure. Deretter kan du bruke Azure Monitor til å opprette rapporter og konfigurere varsler for de innsamlede dataene. Hvis du vil ha mer informasjon, kan du se følgende artikler i Hjelp for utviklere og IT-eksperter for [!INCLUDE[prod_short](includes/prod_short.md)]:
+Du kan konfigurere at [!INCLUDE[prod_short](includes/prod_short.md)] skal sende endringer som er gjort i tillatelsen, til en Application Insights-ressurs i Microsoft Azure. Deretter kan du bruke Azure Monitor til å opprette rapporter og konfigurere varsler for de innsamlede dataene. Hvis du vil ha mer informasjon, kan du se følgende artikler i Hjelp for utviklere og administratorer for [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 - [Overvåke og analysere telemetri – aktivere Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-overview#enable)
 - [Analysere telemetri for feltovervåking](/dynamics365/business-central/dev-itpro/administration/telemetry-permission-changes-trace)
+
+## <a name="delegated-admin-users"></a>Delegerte administratorbrukere
+
+[!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]
 
 ## <a name="see-also"></a>Se også
 

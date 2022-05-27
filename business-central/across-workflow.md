@@ -1,34 +1,46 @@
 ---
 title: Arbeidsflyter i dynamisk 365 Business Central
-description: Bruk arbeidsflyter til å koble forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som arbeidsflyttrinn.
+description: Bruk de innebygde funksjonene i arbeidsflyten til å definere godkjenningsarbeidsflyter til å supplere automatiserte arbeidsflyter basert på Power Automate. Du kan konfigurere trinn for å tildele oppgaver til forskjellige personer som en del av de ulike forretningsprosessoppgavene.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: 9cfdcc9bbf8e24675c6894b8ca2efbf10129d990
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 84d4a87a0edab18be342b9ed5732de0350a31645
+ms.sourcegitcommit: bc645e7ecb1940a85b2c433aa894d3494c9b10df
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511184"
+ms.lasthandoff: 05/12/2022
+ms.locfileid: "8743674"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Arbeidsflyter i Dynamics 365 Business Central
 
 Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn.  
 
- På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse, endret av hendelsesbetingelsene, og et arbeidsflytsvar, endret av svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden.  
+Standardversjonen av [!INCLUDE [prod_short](includes/prod_short.md)] støtter tre typer arbeidsflyter:
 
- Standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] omfatter en rekke forhåndskonfigurerte arbeidsflyter representert av arbeidsflytmaler som du kan kopiere for å opprette arbeidsflyter. Koden for arbeidsflytmaler som er lagt inn av Microsoft, har prefikset "MS-". Hvis du vil ha mer informasjon, kan du se listen over arbeidsflytmaler på siden Arbeidsflytmaler.  
+* Automatisert godkjenningsarbeidsflyt basert på innebygde arbeidsflytmaler  
 
- Hvis et forretningsscenario krever en arbeidsflythendelse eller et arbeidsflytsvar som ikke støttes, kan du bruke Power Automate eller samarbeide med en Microsoft-partner for å tilpasse programkoden. Hvis du vil ha mer informasjon, kan du se [Bruk [!INCLUDE[prod_short](includes/prod_short.md)] i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md).
+  På siden **Arbeidsflytmaler** kan du se alle tilgjengelige arbeidsflyter. Prøveversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] omfatter en rekke forhåndskonfigurerte arbeidsflyter representert av arbeidsflytmaler som du kan kopiere for å opprette arbeidsflyter. Når du åpner en arbeidsflytmal fra siden **Arbeidsflytmaler**, og arbeidsflytens navn starter med *MS-*, legges arbeidsflytmalen til av Microsoft.  
+* Automatiserte flyter du konfigurerer selv  
 
-Alle arbeidsflytmaler du oppretter med Power Automate, legges til i listen over arbeidsflytmaler i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, se [Bruk Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md).  
+  Alle arbeidsflytmaler du oppretter med Power Automate, legges til i listen over arbeidsflytmaler i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Bruk Business Central i Power Automate-flyter](across-how-use-financials-data-source-flow.md).  
+* Manuelt utløste flyter fra handlingen **Automatiser** (bare [!INCLUDE [prod_short](includes/prod_short.md)] på nettet). Hvis du vil ha mer informasjon, kan du se [Manuelle direkteflyter](across-how-use-financials-data-source-flow.md#manual-instant-flows).  
 
- Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.  
+## <a name="power-automate-flows"></a>Power Automate-flyter
+
+For [!INCLUDE [prod_short](includes/prod_short.md)] på nettet kan du registrere deg for Power Automate og deretter bygge kraftige automatiserte flyter som du kan kjøre fra [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Bruk [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate-flyter](across-how-use-financials-data-source-flow.md).  
+
+## <a name="automated-approval-workflows"></a>Automatiserte godkjenningsarbeidsflyter
+
+Du kan opprette en godkjenningsarbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse, endret av hendelsesbetingelsene, og et arbeidsflytsvar, endret av svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden.  
+
+Hvis et forretningsscenario krever en arbeidsflythendelse eller et svar som ikke støttes i standardversjonen, registrerer du deg for Power Automate. Hvis du vil ha mer informasjon, kan du se [Bruk [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate-flyter](across-how-use-financials-data-source-flow.md). Du kan også få tak i en app eller arbeide med en Microsoft-partner for å tilpasse programkoden.  
+
+Se følgende artikler for å konfigurere og bruke arbeidsflyter som ikke er definert, i Power Automate:  
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
@@ -41,6 +53,7 @@ Alle arbeidsflytmaler du oppretter med Power Automate, legges til i listen over 
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Administrere prosjekter](projects-manage-projects.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Bruk [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate-flyter](across-how-use-financials-data-source-flow.md)  
+[Feilsøk automatiserte arbeidsflyter for [!INCLUDE[prod_short](includes/prod_short.md)]](across-flow-troubleshoot.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

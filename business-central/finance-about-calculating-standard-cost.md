@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5841
 ms.author: edupont
-ms.openlocfilehash: cdb1ff4581e8e2b79f9e2dd015426ee9719e38e6
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: c7be7f69c2b5d2c71b54ac3046900474e0c86f5f
+ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149156"
+ms.lasthandoff: 05/09/2022
+ms.locfileid: "8729914"
 ---
 # <a name="about-calculating-standard-cost"></a>Om beregning av standardkost
 Mange produksjonsselskaper bruke standardkost som verdisettingsgrunnlag. Dette gjelder også for selskaper som utfører lett produksjon, for eksempel montering og kitting. En standard kostprissystem bestemmer lagerenhetskosten basert på noen rimelige historiske eller forventede kostnader. Undersøkelser av tidligere og anslåtte fremtidige kostdata danner grunnlaget for standardkost. Disse kostnadene fryses til det tas en beslutning om å endre dem. Den faktiske kostnaden for å produsere et produkt kan avvike fra de beregnede standardkostnadene. Når det gjelder administrasjonskontroll, sammenlignes faktisk kostnad med standardkostnad for en bestemt vare, og forskjeller, eller *avvik*, identifiseres og analyseres.  
@@ -78,7 +78,7 @@ For å beregne standard kapasitetskost må du opprette standardtidssatser som er
 Du definerer satsene for hver av disse tidstypene for hver produksjonsressurs eller arbeidssenter i en individuell rute.  
 
 > [!NOTE]  
->  Mens operasjonstidssatser gjelder for hver vareenhet som produseres, gjelder oppstillingstidssatsene for hvert parti. Derfor må du fordele ruteoppstillingstiden for hver operasjon proporsjonalt over partistørrelsen. Du angir partistørrelsen i det tilsvarende feltet i hurtigfanen **Bestilling** på varekortet.  
+>  Mens operasjonstidssatser gjelder for hver vareenhet som produseres, gjelder oppstillingstidssatsene for hvert parti. Derfor må du fordele ruteoppstillingstiden for hver operasjon proporsjonalt over partistørrelsen. Du angir partistørrelsen i det tilsvarende feltet i hurtigfanen **Etterfylling** på siden **Varekort**.  
 
 Hvis du vil angi oppstillingstid i ruten for planlegging, men ikke inkludere denne utgiften i standardkostberegningen, tømmer du feltet **Kost inkl. oppstilling** på siden **Produksjonsoppsett**.  
 
