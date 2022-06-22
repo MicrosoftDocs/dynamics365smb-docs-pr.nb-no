@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, mail, Microsoft 365, setup, wizard, experience
-ms.date: 09/29/2021
+ms.date: 05/25/2022
 ms.author: edupont
-ms.openlocfilehash: 7f9d04f5437ab37273fd02f8c40b3f44b3247b9c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 26c988bcfce774dfa05b77c52347cfcf83106309
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513578"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805129"
 ---
 # <a name="get-ready-for-doing-business"></a>Bli klar til å gjøre forretninger
 
@@ -77,6 +77,28 @@ Når brukere opprettes i Microsoft 365, kan de importeres til **Brukere**-siden 
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Hvis du vil ha mer informasjon, kan du se [Ressurser for hjelp og støtte](product-help-and-support.md).  
 
+### <a name="set-up-your-company-in-prod_short"></a>Konfigurere selskapet i [!INCLUDE[prod_short](includes/prod_short.md)]
+
+Artiklene om [hurtigstart](quick-start-business-central.md) kan hjelpe deg med å ta de første trinnene for å konfigurere [!INCLUDE [prod_short](includes/prod_short.md)] i organisasjonen. I [!INCLUDE [prod_short](includes/prod_short.md)] viser siden **Assistert oppsett** veiledningene for assistert oppsett som kan hjelpe deg. Avhengig av rolle og land eller region viser siden forskjellige retningslinjer for assistert oppsett, som illustrert i følgende tabell:
+
+| Assistert oppsett | Beskrivelse |
+| -------------- | ----------- |
+| Konfigurere Mitt selskap |Oppretter et nytt prøvefirma der du kan skrive inn data og prøve [!INCLUDE[prod_short](includes/prod_short.md)]. |
+| Konfigurere arbeidsflyter for godkjenning |Definerer muligheten til å varsle en godkjenner automatisk når en bruker prøver å opprette eller endre bestemte verdier i dokumenter, kladdelinjer eller kort. Du kan for eksempel definere at beløp over en bestemt grense blir godkjent. |
+| Konfigurer e-post |Hjelper deg i gang med å sende e-postmeldinger direkte fra for eksempel salgsordrer eller kontakter i [!INCLUDE[prod_short](includes/prod_short.md)]. |
+| Konfigurer forretningsinnboksen i Outlook |Gjør deg klar for å behandle forretningssamhandlinger med kunder og leverandører direkte i Microsoft Outlook. |
+| Overfør forretningsdata |Lar deg importere eksisterende firmadata, for eksempel leverandører, kunder og varer, fra Excel eller Quickbooks. |
+| Konfig. loggføring av e-post |Konfigurerer muligheten til å logge på e-postkorrespondanse i [!INCLUDE[prod_short](includes/prod_short.md)] for å følge opp samhandlinger. |
+| Konfigurere en arbeidsflyt for varegodkjenning |Konfigurerer muligheten til å sende en melding til en godkjenner når en bruker endrer eller oppretter et element. |
+| Konfigurere en arbeidsflyt for kundegodkjenning |Konfigurerer muligheten til å automatisk varsle en godkjenner når en bruker prøver å opprette eller endre et kundekort. |
+| Konfigurere en arbeidsflyt for godkjenning av utbetaling |Konfigurerer muligheten til å sende et varsel til en godkjenner når en bruker sender utbetalingskladdelinjer til godkjenning. |
+| Konfigurere en Dynamics 365 Sales-tilkobling |Konfigurerer en tilkobling til Dynamics 365 Sales, som lar deg synkronisere data, for eksempel informasjon om kontakter og ordre. |
+| Konfigurer kontantstrømprognose |Setter opp kontantstrømprognosediagrammet, slik at du kan vise predikert flytting av kontanter inn og ut av bedriften din. Diagrammet er tilgjengelig i **rollesenter for regnskapsfører**. |
+| Konfigurere rapporteringsdata|Konfigurerer datasett som du kan bruke til å bygge kraftige rapporter ved hjelp av Excel eller Power BI, for eksempel. |
+| Invitere ekstern regnskapsfører |Hvis du bruker en ekstern regnskapsfører til å administrere regnskap og finansrapportering, kan du invitere regnskapsføreren til [!INCLUDE[prod_short](includes/prod_short.md)], slik at vedkommende kan arbeide med regnskapsdataene. |
+
+Siden **Assistert oppsett** kan inneholde andre oppføringer. Når du går gjennom et oppsett, merkes konfigurasjonen som **Fullført**. Du kan definere andre områder i selskapet ved hjelp av manuelt oppsett. Hvis du vil ha mer informasjon, kan du se [Definer [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
+
 ## <a name="next-steps"></a>Neste trinn
 
 Basert på de overførte dataene kan du nå fortsette å opprette ny salgs- og kjøpsdokumenter. Bruk delen **Handlinger** på startsiden til raskt å opprette en nytt tilbud, en ny salgsfaktura, ordre, kjøpsfaktura eller betalingsregistrering. Les artiklene for [hurtigstart](quick-start-business-central.md) for å få en oversikt over de første trinnene.  
@@ -88,13 +110,13 @@ Basert på de overførte dataene kan du nå fortsette å opprette ny salgs- og k
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Oversikt over selskapsinformasjon](admin-company-information.md)  
 [Tilgjengelighet og hurtigtaster](ui-accessibility.md)  
-[Prøveversjoner og abonnementer](across-preview.md)  
 [Forretningsfunksjoner](across-business-functionality.md)  
 [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md)  
 [Søk i hjelperuten](product-help-and-support.md#search-in-the-help-pane)  
 [Ressurser for hjelp og støtte](product-help-and-support.md)  
 [Microsoft Learn-område](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 [Overfør data](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
+[Prøveversjoner og abonnementer](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

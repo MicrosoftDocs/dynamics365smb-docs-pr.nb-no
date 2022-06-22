@@ -7,27 +7,27 @@ ms.search.keywords: setup, reporting
 ms.search.form: 306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917
 ms.date: 03/11/2022
 ms.author: edupont
-ms.openlocfilehash: 35cd5f86eeee3eecd24f63d37f8d43191dbd9be8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9106b1ac3f6b179e26c8dfb01212b88e92b694fe
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512456"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950202"
 ---
 # <a name="report-selection-in-business-central"></a>Rapportvalg i Business Central
 
-Du kan konfigurere standardrapporter som skal brukes til å skrive ut forskjellige salgs- og kjøpsdokumenter, for eksempel ordrer, tilbud/forespørsler, fakturaer og kreditnotaer. Hvis du for eksempel har et bestemt oppsett for salgsfakturaer, kan du angi denne rapporten på siden **Rapportvalg – salg** slik at den blir brukt til å sende eller skrive ut salgsfakturaer.  
+Du kan definere standard rapporter som skal brukes til å skrive ut dokumenter for salg og kjøp, for eksempel ordrer, tilbud og fakturaer. Hvis du for eksempel har et bestemt oppsett for salgsfakturaer, kan du angi denne rapporten på siden **Rapportvalg – salg** slik at den blir brukt til å sende eller skrive ut salgsfakturaer.  
 
-Siden **Rapportvalg** angir hvilken rapport som skal skrives ut i forskjellige situasjoner. [!INCLUDE [prod_short](includes/prod_short.md)] inkluderer standardkonfigurasjoner, men du kan selvsagt endre disse standardverdiene. Du kan også legge til rapporter i sidene **Rapportvalg** hvis du for eksempel vil skrive ut mer enn én rapport per dokumenttype.  
+Siden **Rapportvalg** angir hvilken rapport som skal skrives ut i forskjellige situasjoner. [!INCLUDE [prod_short](includes/prod_short.md)] gir standardkonfigurasjoner, men du kan endre dem om nødvendig. Du kan også legge til rapporter i sidene **Rapportvalg** hvis du for eksempel vil skrive ut mer enn én rapport per dokumenttype.  
 
 ## <a name="available-report-selections"></a>Tilgjengelige rapportvalg
 
-[!INCLUDE [prod_short](includes/prod_short.md)] inneholder forskjellige sider for **rapportvalg** for forskjellige områder. Følgende tabeller beskriver hvor du kan finne informasjon om de forskjellige sidene.  
+[!INCLUDE [prod_short](includes/prod_short.md)] inneholder forskjellige sider for **rapportvalg** for forskjellige områder. Følgende tabell beskriver hvor du kan finne informasjon om de forskjellige sidene.  
 
 |Område eller oppgave  |Finn ut mer|
 |--------------|----------|
 |Eksempel på hvordan rapportvalg fungerer (salg)|[Rapportvalg for salgsdokumenter](#example-report-selection-for-sales-documents)|
-|Standardoppsett for e-poster med salgs- og kjøpsdokumenter  |[Konfigurer gjenbrukbare e-posttekster og -oppsett for salgs- og kjøpsdokumenter](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents) |
+|Standardoppsett for e-poster med salgs- og kjøpsdokumenter  |[Konfigurer gjenbrukbare e-posttekster og -oppsett for salgs- og kjøpsdokumenter](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts) |
 |Definer sjekkoppsett     |[Velg et sjekkoppsett](finance-how-define-check-layouts.md) |
 |Definer rapporter for mva-rapportering (Tyskland)|[Sette opp rapporter for mva og Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md) |
 
@@ -51,19 +51,19 @@ Siden **Rapportvalg – salg** definerer standardrapportene som skal brukes i ul
 
 [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-Enkelte dokumenttyper kan sendes som e-postvedlegg, og andre kan ikke. Hver **Rapportvalg**-side viser flere felter hvis typen støtter e-post som standard.  
+Enkelte dokumenttyper kan sendes som e-postvedlegg, og andre kan ikke. Hvis en dokumenttype kan sendes via e-post, inneholder siden for **Rapportvalg** ekstra felter.  
 
 På sidene **Rapportvalg – salg** og **Rapportvalg – kjøp** hjelper følgende felter deg med å konfigurere e-post:
 
-|Feltnavn |Beskrivelse  |
+|Feltnavn |Description  |
 |-----------|-------------|
-|**Bruk for brødtekst i e-post**| Angir at sammendragsinformasjon, for eksempel fakturanummer, forfallsdato og kobling til betalingstjeneste, blir satt inn i tekstdelen i e-posten du sender.        |
-|**Bruk for e-postvedlegg**| Angir at det relaterte dokumentet blir lagt ved i e-posten.|
-|**Oppsettbeskrivelse for brødtekst i e-post**|Angir oppsettet for e-postbrødtekst som brukes, vanligvis et egendefinert rapportoppsett. |
+|**Bruk for brødtekst i e-post**| Sett inn summert informasjon, for eksempel fakturanummer, forfallsdato og betalingstjenestekobling, i en e-post.        |
+|**Bruk for e-postvedlegg**| Knytt det relaterte dokumentet til e-posten.|
+|**Oppsettbeskrivelse for brødtekst i e-post**|Angi oppsett for brødtekst i e-post som skal brukes. Oppsettet er vanligvis et egendefinert rapportoppsett. |
 
 ## <a name="see-also"></a>Se også
 
-[Konfigurer gjenbrukbare e-posttekster og -oppsett for salgs- og kjøpsdokumenter](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts-for-sales-and-purchase-documents)  
+[Definer gjenbrukbare e-posttekster og -oppsett](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Velg et sjekkoppsett](finance-how-define-check-layouts.md)  
 [Sette opp rapporter for mva og Intrastat (Tyskland)](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
 [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md)  

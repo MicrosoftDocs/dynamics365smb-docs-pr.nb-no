@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: API templates, configuring templates
 ms.search.form: 5469
-ms.date: 04/01/2021
+ms.date: 06/07/2022
 ms.author: solsen
-ms.openlocfilehash: f5c91eb303d26f88af56613790ce0d5aa5d7854a
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: e38c8143cfad1fc4b0c7bbc4bd2995e0e48d264f
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740260"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950411"
 ---
 # <a name="configure-api-templates"></a>Konfigurer API-maler
 
@@ -30,6 +30,9 @@ Hvis du vil bruke maler med API-biblioteket, må du først konfigurere og define
 ## <a name="assign-the-template-to-an-api"></a>Tilordne malen til et API
 
 Hvis du vil tilordne en mal til et API, må du gå gjennom fremgangsmåten nedenfor.
+
+> [!NOTE]  
+> API-maler kan bare opprettes med følgende API-sider: kontakter, countriesRegions, valutaer, kunder, ansatte, itemCategories, paymentMethods, paymentTerms, shipmentMethods, unitsOfMeasure og leverandører.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **API-oppsett**, og velg den relaterte koblingen.
 2. Velg **Ny**, og velg deretter **Rekkefølge**-verdien for posten.  

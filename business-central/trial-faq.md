@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 ms.author: edupont
 ms.date: 02/23/2022
-ms.openlocfilehash: 6cb42322383506a7b6633952cb171cb7c6602339
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: 368ed714fb7b8367ff1876cb5be83e422860b684
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367300"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805155"
 ---
 # <a name="dynamics-365-business-central-trial-faq"></a>Vanlige spørsmål om prøversjonen av Dynamics 365 Business Central
 
@@ -19,11 +19,11 @@ ms.locfileid: "8367300"
 
 ### <a name="can-i-convert-the-trial-to-a-paid-license"></a>Kan jeg konvertere prøveversjonen til en betalt lisens?
 
-Ja, det kan du! Hvis du vil ha mer informasjon, kan du se [Kom i gang med et abonnement](across-preview.md#get-started-with-a-subscription).  
+Ja, det kan du! Hvis du vil ha mer informasjon, kan du se [Kom i gang med et abonnement](trial-signup.md#get-started-with-a-subscription).  
 
 ### <a name="what-are-the-trial-limits-and-quotas"></a>Hva er begrensningene og kvotene for prøveversjonen?
 
-Prøveversjonen inkluderer eksempeldata. Hvis du vil prøve Business Central med dine egne data, kan du bytte til en 30 dagers prøveversjon med et tomt selskap. Hvis du vil ha mer informasjon, kan du se [Prøveversjoner og abonnementer for [!INCLUDE[prod_long](includes/prod_long.md)]](across-preview.md).  
+Prøveversjonen inkluderer eksempeldata. Hvis du vil prøve Business Central med dine egne data, kan du bytte til en 30 dagers prøveversjon med et tomt selskap. Administratoren kan finne ut mer om prøveversjoner og abonnementer [her](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
 ### <a name="how-do-i-start-using-the-trial"></a>Hvordan begynner jeg å bruke prøveversjonen?
 
@@ -54,4 +54,4 @@ Du kan ikke det. Hvis du sletter eksempeldata ved et uhell, må du be administra
 [Registrer deg for en Dynamics 365 Business Central-prøveversjon](trial-signup.md)  
 [Vanlige spørsmål om å bruke Business Central](across-faq.yml)  
 [Feilsøke registrering for Self-Service](ui-troubleshoot-self-signup.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversjoner og abonnementer](across-preview.md)  
+[Prøveversjoner og abonnementer for [!INCLUDE[prod_long](includes/prod_long.md)]](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

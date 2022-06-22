@@ -1,20 +1,20 @@
 ---
 author: edupont04
 ms.topic: include
-ms.date: 02/23/2022
+ms.date: 06/08/2022
 ms.author: edupont
-ms.openlocfilehash: 8f46c780d88df95264137814f0f49d72dd17bc75
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
+ms.openlocfilehash: fd1448c9fd32b359bf40a02b90a3ee6a66a5d685
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8367307"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950258"
 ---
 ## <a name="sign-up"></a>Registrer deg
 
 ### <a name="which-email-address-i-should-use-to-sign-up"></a>Hvilken e-postadresse skal jeg bruke til å registrere meg?
 
-Bruk e-postadressen for jobb eller skole. Vi etablerer prøveversjonen på organisasjonens konto. Du kan ikke bruke e-postadresser oppgitt av forbruker-e-posttjenester eller telekommunikasjonsleverandører, som outlook.com, hotmail.com, gmail.com og andre.  
+Bruk e-postadressen for jobb eller skole. Vi etablerer prøveversjonen på organisasjonens konto. Du kan ikke bruke e-postadresser oppgitt av forbruker-e-posttjenester eller telekommunikasjonsleverandører, som *outlook.com*, *hotmail.com*, *gmail.com* og andre.  
 
 ### <a name="what-are-the-system-requirements-for-the-trial"></a>Hva er systemkravene for prøveversjonen?
 
@@ -39,7 +39,7 @@ Når du registrerer deg for prøveversjonen, mottar du en e-postmelding med info
 
 ### <a name="how-do-i-add-more-users-to-a-trial"></a>Hvordan legger jeg til flere brukere i en prøveversjon?
 
-Hvis du vil legge til brukere, ber du administratoren om å gå til [Microsoft 365-administrasjonssenteret](https://admin.microsoft.com). Der kan de følge [administratorsenterveiledningen](/microsoft-365/admin/add-users/add-users) for å legge til brukere opptil lisensgrensen for prøveversjoner. Hvis brukeren du legger til, allerede har en Microsoft 365-konto, tildeler du brukeren den aktuelle lisensen. Hvis du vil ha mer informasjon, kan du se [Tildel lisenser til brukere](/microsoft-365/admin/manage/assign-licenses-to-users) i Microsoft 365-innholdet.
+Administratoren må gå til [Microsoft 365-administrasjonssenteret](https://admin.microsoft.com) for å legge til brukere. Deretter kan vedkommende følge [administrasjonssenterveiledningen](/microsoft-365/admin/add-users/add-users) for å legge til brukere opptil lisensgrensen for prøveversjonen. Hvis brukeren du legger til, allerede har en Microsoft 365-konto, tildeler du brukeren den aktuelle lisensen. Hvis du vil ha mer informasjon, kan du se [Tildel lisenser til brukere](/microsoft-365/admin/manage/assign-licenses-to-users) i Microsoft 365-innholdet.
 
 ### <a name="how-many-users-can-i-add-to-my-trial-environment"></a>Hvor mange brukere kan jeg legge til i prøvemiljøet?
 
@@ -47,11 +47,9 @@ Du kan legge til et ubegrenset antall brukere i prøveversjonsmiljøet.
 
 ### <a name="how-do-i-reset-the-trial-environment"></a>Hvordan tilbakestiller jeg prøveversjonsmiljøet?
 
-Du kan ikke tilbakestille prøveversjonsmiljøet. Administratoren kan imidlertid opprette nye sandkassemiljøer der du kan prøve de forskjellige funksjonene. Hvis du vil ha mer informasjon, kan du se [Produktsjons- og sandkassemiljøer](/dynamics365/business-central/dev-itpro/administration/environment-types) i administratorinnholdet.  
+Du kan ikke tilbakestille prøveversjonsmiljøet. Be administratoren imidlertid om å opprette et nytt sandkassemiljø slik at du kan prøve de forskjellige funksjonene. Hvis du vil ha mer informasjon, kan du se [Produktsjons- og sandkassemiljøer](/dynamics365/business-central/dev-itpro/administration/environment-types) i administratorinnholdet.  
 
 Hvis du vil si opp [!INCLUDE [prod_short](prod_short.md)] i løpet av prøveperioden, må du be Microsoft 365-administratoren om å fjerne prøveabonnementet fra selskapets konto i [Microsoft 365-administrasjonssenteret](https://admin.microsoft.com/). Se også [Stopp abonnement eller fjern [!INCLUDE[prod_short](prod_short.md)]](../admin-cancel.md).  
-
-Hvis du registrerte deg for Dynamics 365 Business Central ved hjelp av en annen konto enn en Microsoft 365-bedriftskonto, har du ikke en Microsoft 365-administrator. Hvis du vil si opp abonnementet, kontakter du [!INCLUDE[prod_short](prod_short.md)]-oppsigelsesteamet ved å sende en e-postmelding til [cancelbusinesscentra@microsoft.com](mailto:cancelbusinesscentra@microsoft.com). Du må inkludere navnet på [!INCLUDE[prod_short](prod_short.md)]-leietakeren i meldingen, slik at vi kan identifisere deg. Du finner disse opplysningene på siden **Hjelp og støtte** som du kan få tilgang til fra **?** meny. Hvis du vil ha mer informasjon, kan du se [Ressurser for hjelp og støtte](../product-help-and-support.md).  
 
 ## <a name="trial-expiration-and-extension"></a>Utløp og forlengelse av prøveversjonen
 

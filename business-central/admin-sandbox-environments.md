@@ -10,12 +10,12 @@ ms.workload: na
 ms.search.keywords: sandbox, demo, develop
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: 20637dcced16fe695d64c2b4d858483882c64f7a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 93855d8c5fe1dfd292791cfec0c57aae25a740c1
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518288"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805025"
 ---
 # <a name="sandbox-environments-in-prod_short"></a>Sandkassemiljøer i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -73,7 +73,7 @@ Hvis du vil ha mer informasjon, kan du se [Bruk utformingen](/dynamics365/busine
 ## <a name="see-also"></a>Se også
 
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[[!INCLUDE[prod_long](includes/prod_long.md)] Prøveversjoner og abonnementer](across-preview.md)  
+[Prøveversjoner og abonnementer for [!INCLUDE[prod_long](includes/prod_long.md)]]((/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
 [Behandle miljøer i administrasjonssenteret for Business Central](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Produksjons- og sandkassemiljøer](/dynamics365/business-central/dev-itpro/administration/environment-types)  
 

@@ -1,18 +1,18 @@
 ---
 title: Synkroniser kunder
 description: Importer kunder fra eller eksporter til Shopify
-ms.date: 05/11/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 92ac46e9f7e69204b4c7edee4aa430a8786b6c0b
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 75c4de7736572ff923c74464dc33b218d0665e3f
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768159"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808866"
 ---
 # <a name="synchronize-customers"></a>Synkroniser kunder
 
@@ -25,8 +25,8 @@ Når en ordre importeres fra Shopify, er informasjonen om kunden nødvendig for 
 
 *Import ordre fra Shopify*-funksjonen prøver å velge kunde i følgende rekkefølge:
 
-1. Hvis **Standard kundenr.** er definert i **Shopify-kundemalen** for det tilsvarende landet, brukes deretter **Standard kundenr.** uavhengig av innstillingene i **Kundeimport fra Shopify** og **Kundetildeling**.
-2. Hvis **Kundeimport fra Shopify** og **Standard kundenr.** er definert, brukes **Standard kundenr.** .
+1. Hvis **Standard kundenr.** feltet er definert i **Shopify-kundemalen** for det tilsvarende landet, brukes deretter **Standard kundenr.** uavhengig av innstillingene i **Kundeimport fra Shopify** og **Kundetildeling**. Hvis du vil ha mer informasjon, kan du se delen [Kundemal per land](synchronize-customers.md#customer-template-per-country)
+2. Hvis **Kundeimport fra Shopify** er angitt til *Ingen* og **Standard kundenr.** er definert i **Shopify-butikkortet**, brukes **Standard kundenr.** .
 
 Neste trinn avhenger av **Kundetildelingstype**.
 
@@ -76,7 +76,7 @@ Eksisterende kunder kan eksporteres til Shopify samtidig. Resultatet er at en ku
 
 ### <a name="populate-customer-information-in-shopify"></a>Fyll ut kundeinformasjon i Shopify
 
-En kunde i Shopify har fornavn, etternavn, e-post eller telefonnummer. Du kan fylle ut fornavnet og etternavnet basert på dataene fra kundekortet i [!INCLUDE[prod_short](../includes/prod_short.md)].
+En kunde i Shopify har fornavn, etternavn, e-post eller telefonnummer. Du kan fylle ut fornavnet og etternavnet fra kundekortet i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 |Prioritet|Felt i kundekort|Description|
 |------|------|-----------|
@@ -100,6 +100,8 @@ For adresser der land/område brukes, velger du *Kode* eller *Navn* i feltet **L
 3. Velg handlingen **Synkroniser kunder**.
 
 Du kan også bruke handlingen **Start kundesynkronisering** i vinduet **Shopify-kunder** eller søk etter den satsvise jobben **Synkroniser kunder**.
+
+Du kan planlegge at oppgaven skal utføres på en automatisk måte. Hvis du vil ha mer informasjon, kan du se [Planlegg gjentakende oppgaver](background.md#to-schedule-recurring-tasks).
 
 ## <a name="see-also"></a>Se også
 

@@ -10,12 +10,12 @@ ms.search.keywords: company, setup wizard
 ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 40acd79a66452b99d3b6990f05ccfa5e5d3d326e
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 843de26d836e8cf16f1f4f79d4ec697c481eebc0
+ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654971"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8805231"
 ---
 # <a name="create-new-companies-in-prod_short"></a>Opprett nye selskaper i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -32,11 +32,11 @@ Hvis du vil legge til et selskap til din [!INCLUDE[prod_short](includes/prod_sho
 Veiviseren for oppsett har to maler og et tomt alternativ:
 
 - **Evaluering - eksempeldata**  
-    Dette oppretter et selskap som ligner på demoselskapet, med eksempeldata og oppsettsdata. Denne typen selskap er tilgjengelig for deg uten å bytte til [en 30-dagers prøveperiode](across-preview.md#add-your-own-data-to-an-empty-trial-company), som de andre typene har.  
+    Dette oppretter et selskap som ligner på demoselskapet, med eksempeldata og oppsettsdata. Denne typen selskap er tilgjengelig for deg uten å bytte til en 30-dagers prøveperiode, som de andre typene har.  
 - **Produksjon - bare oppsettsdata**  
-    Dette oppretter et selskap som ligner på **Mitt selskap**, med oppsettsdata, men uten eksempeldata. Du kan bruke dette selskapet i en [30-dagers prøveperiode](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Dette oppretter et selskap som ligner på **Mitt selskap**, med oppsettsdata, men uten eksempeldata. Du kan bruke dette selskapet i en 30-dagers prøveperiode.  
 - **Opprett nytt- ingen data**  
-    Dette oppretter et tomt selskap uten oppsettsdata. Du kan bruke dette selskapet i en [30-dagers prøveperiode](across-preview.md#add-your-own-data-to-an-empty-trial-company).  
+    Dette oppretter et tomt selskap uten oppsettsdata. Du kan bruke dette selskapet i en 30-dagers prøveperiode.  
 
 Hvis du ønsker å begynne med et nytt selskap, må du velge **Produksjon - Bare oppsettsdata** og deretter importere egne forretningsdata, for eksempel kunder, varer og leverandører. Velg **Ny**-malen hvis du vil definere alt fra begynnelsen. I så fall kan du bruke veiviseren **Selskapsoppsett** med assistert oppsettsveiledning for å komme i gang med grunnleggende oppsettsdata.  
 
@@ -44,6 +44,8 @@ Hvis du ønsker å begynne med et nytt selskap, må du velge **Produksjon - Bare
 > Når du oppretter et nytt selskap, tar litt tid før du kan bruke det i [!INCLUDE[prod_short](includes/prod_short.md)]. Statusen for oppsettet på siden **Selskaper** viser når det nye selskapet er klart. Deretter du kan bytte til et nytt selskap ved hjelp av **Mine innstillinger**.  
 
 Du kan opprette så mange nye selskaper under 30 dagers prøveperioden, men de er bare tilgjengelige under prøveperioden. Ta kontakt med din [!INCLUDE[prod_short](includes/prod_short.md)]-partner for mer informasjon. Se også artikkelen [Vanlige spørsmål om prøveversjonen av Dynamics 365 Business Central](trial-faq.md).  
+
+Administratoren kan finne ut mer om prøveversjoner og abonnementer [her](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
 ## <a name="copy-a-company"></a>Kopier et selskap
 
@@ -84,7 +86,6 @@ Contoso Coffee-appen tilbyr demonstrasjonsdata som kan hjelpe deg med å finne a
 [Importer forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
-[Prøveversjoner og abonnementer](across-preview.md)  
 [Forstå infrastrukturen til Business Central Online (bare på engelsk)](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

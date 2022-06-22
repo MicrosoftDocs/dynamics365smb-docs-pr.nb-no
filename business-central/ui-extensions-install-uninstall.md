@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: app, add-in, manifest, customize, install, uninstall
 ms.search.form: 2500
-ms.date: 03/25/2022
+ms.date: 05/24/2022
 ms.author: solsen
-ms.openlocfilehash: fcdfe843071bc416973b7411e5702a690e7e377d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a70ea442ffb9d6e5f131e4d720da57f033474e16
+ms.sourcegitcommit: 6eeac924d8e211080316ce5068e3d4fb5a2d5ed9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514754"
+ms.lasthandoff: 05/25/2022
+ms.locfileid: "8804659"
 ---
 # <a name="install-and-uninstall-extensions-in-business-central"></a>Installer og avinstaller utvidelser i Business Central
 
@@ -38,14 +38,14 @@ Du kan få nye utvidelser fra markedsplassen på [AppSource.microsoft.com](https
 > [!NOTE]  
 > Logg på [AppSource.microsoft.com](https://appsource.microsoft.com/) ved å bruke e-postkontoen du bruker med [!INCLUDE[prod_short](includes/prod_short.md)]. Bruk samme e-postkonto for andre tjenester og produkter for en problemfri opplevelse.  
 
-Du kan også gå til markedsplassen fra [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Administrasjon av utvidelse** kan du se utvidelsene som er installert, og du kan åpne **Markedsplass for utvidelser**-siden som viser [!INCLUDE[prod_short](includes/prod_short.md)]-utvidelsene som for øyeblikket er tilgjengelige i AppSource. Hvis du velger *Flere apper*-koblingen, kommer du til [AppSourceAppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
+Du kan også gå til markedsplassen fra [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Administrasjon av utvidelse** kan du se utvidelsene som er installert, og du kan åpne **Markedsplass for utvidelser**-siden som viser [!INCLUDE[prod_short](includes/prod_short.md)]-utvidelsene som for øyeblikket er tilgjengelige i AppSource. Hvis du velger *Flere apper*-koblingen, kommer du til [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).  
 
 Hvis du velger en utvidelse, kan du lese om hva utvidelsen gjør, og du kan få tilgang til hjelp for utvidelsen for å finne ut mer. Når du skaffer en utvidelse, må du godta vilkårene for bruk. Hvis du får utvidelsen fra webområdet for AppSource, logges du på [!INCLUDE[prod_short](includes/prod_short.md)] for å fullføre installasjonen.  
 
 Når du installerer en utvidelse, må du kanskje konfigurere den, for eksempel angi en konto for bruk med utvidelsen **PayPal Payment Standard for [!INCLUDE[prod_short](includes/prod_short.md)]**.
 Andre utvidelser legger for eksempel ganske enkelt til felt på en eksisterende side, eller de legger til en ny side.
 
-Hvis du avinstallerer en utvidelse og du deretter ombestemmer deg, kan du installere den på nytt. Når du avinstallerer en utvidelse som du har brukt, beholdes dataene, slik at hvis du installerer utvidelsen på nytt, er dataene fremdeles tilgjengelige. Det er nødvendig med noen utvidelser. Du nektes å avinstallere disse fra siden for **Administrasjon av utvidelse**. Hvis du prøver, vises en feilmelding.
+Hvis du avinstallerer en utvidelse og du deretter ombestemmer deg, kan du installere den på nytt. Når du avinstallerer en utvidelse som du har brukt, beholdes dataene, slik at hvis du installerer utvidelsen på nytt, er dataene fremdeles tilgjengelige. Det er nødvendig med noen utvidelser. Du nektes å avinstallere disse utvidelsene fra siden for **Administrasjon av utvidelse**. Hvis du prøver, vises en feilmelding.
 
 Noen utvidelser leveres av Microsoft, og andre utvidelser leveres av [andre selskaper](ui-extensions-other.md). Alle utvidelser testes før de blir gjort tilgjengelige for deg, men vi anbefaler at du går til de angitte koblingene som følger med hver utvidelse, for å finne ut mer om utvidelsen før du velger å installere den.
 
@@ -83,11 +83,15 @@ Hvis PTE inneholder endringer i skiftede skjemaer, er det mulig å *fremtvinge* 
 
 ## <a name="uninstall-an-extension"></a>Avinstaller en utvidelse
 
-Du avinstallerer en utvidelse ved å bruke siden **Administrasjon av utvidelse**. Hvis du avinstallerer en utvidelse og deretter ombestemmer deg, kan du installere utvidelsen på nytt. Når du avinstallerer en utvidelse du har brukt, beholdes dataene som standard, slik at hvis du installerer den på nytt, er dataene fremdeles tilgjengelige. Du kan i stedet velge å slette dataene med utvidelsen. Du kontrollerer dette med alternativet **Slett utvidelsesdata**. Denne alternativet er som standard *ikke aktivert*.
+Du avinstallerer en utvidelse ved å bruke siden **Administrasjon av utvidelse**. Hvis du vil avinstallere en utvidelse, merker du den på siden og velger deretter handlingen **Avinstaller**. Hvis du avinstallerer en utvidelse og deretter ombestemmer deg, kan du installere utvidelsen på nytt.
+
+Når du avinstallerer en utvidelse du har brukt, beholdes dataene som standard hvis du installerer utvidelsen på nytt. Du kan i stedet velge å slette dataene med utvidelsen. Denne operasjonen styres av bryteren **Slett utvidelsesdata**. Denne bryteren er **av** som standard. Når du prøver å aktivere bryteren **Slett utvidelsesdata**, får du en bekreftelsesdialogboks, og du må velge **Ja** for å aktivere den. Når bryteren **Slett utvidelsesdata** er aktivert, kan du avinstallere utvidelsen. Du blir da bedt om å bekrefte på nytt at du vil avinstallere utvidelsen og slette dataene.
 
 > [!IMPORTANT]  
-> Hvis du merker av for alternativet **Slett utvidelsesdata**, vises en bekreftelsesdialogboks der du må velge **OK**. Når det er merket av for **Slett utvidelsesdata**, kan du nå avinstallere utvidelsen. Du blir da bedt om å bekrefte på nytt at du vil avinstallere utvidelsen og slette dataene. Du kan ikke angre denne handlingen.
-Noen utvidelser er nødvendige. Du nektes å avinstallere disse fra siden for **Administrasjon av utvidelse**. Hvis du prøver, vises en feilmelding.  
+> - Det kan være andre utvidelser som krever eller er avhengige av utvidelsen du vil avinstallere, for å kunne fungere. Disse andre utvidelsene kalles *avhengigheter*. Du kan ikke avinstallere en utvidelse med mindre avhengighetene også avinstalleres.
+> - Når du velger å avinstallere en utvidelse som har en eller flere avhengigheter, vises en bekreftelsesdialogboks med en oversikt over avhengighetene, og du blir spurt om du vil avinstallere utvidelsen og alle tilhørende avhengighetene. Du må velge **Ja** for å fortsette.
+> - Hvis du aktiverer bryteren **Slett utvidelsesdata**, vil avinstallasjon av utvidelsen slette alle data for utvidelsen **pluss** data for alle avhengige utvidelser. Du kan ikke angre denne handlingen.
+> - Noen utvidelser er nødvendige. Du nektes å avinstallere disse fra siden for **Administrasjon av utvidelse**. Hvis du prøver, vises en feilmelding.  
 
 ## <a name="see-also"></a>Se også
 

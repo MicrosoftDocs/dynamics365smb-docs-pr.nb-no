@@ -1,20 +1,20 @@
 ---
 title: Hurtigtaster
 description: Den fullstendige listen over hurtigtastkombinasjoner for å arbeide effektivt med data.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding, keys
-ms.date: 01/27/2022
-ms.author: bholtorf
-ms.openlocfilehash: 3d8b49c34bee069c10fdd2713de9ed0cd3c3fb72
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 0e5ad41e6109d53a998f1c3ad8280b92a602a50e
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517976"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799693"
 ---
 # <a name="keyboard-shortcuts"></a>Hurtigtaster
 
@@ -51,14 +51,15 @@ Tabellen nedenfor beskriver tastatursnarveier for å navigere i og få tilgang t
 |Alt+Skift+F2|Skift mellom **Detaljer** og **Vedlegg** i Faktaboks-ruten.|
 |Alt+O|Legg til et nytt notat for den valgte posten, selv om Faktaboks-ruten ikke er åpen.|
 |Alt+Q<br />(Ctrl+Tilvalg+Q)|Åpne **Fortell meg**-vinduet. Hvis du vil ha mer informasjon, se [Finne sider og informasjon med Fortell meg](ui-search.md).|
+|Ctrl+Alt+Q<br />(Ctrl+Tilvalg+Cmd+Q)|Åpne **Søk etter poster**-siden for å finne dokumenter og poster som er knyttet til hverandre basert på felles informasjon, for eksempel dokumentnummer eller bokføringsdato. Hvis du vil ha mer informasjon, kan du se [Søk etter relaterte poster for bokførte dokumenter ](ui-find-entries.md)|
 |Alt+N |Åpne en side for å opprette en ny post. (Som ligner på å velge **Ny** og **+**-handlinger.)|
 |Alt+Skift+N |Lukk en nylig opprettet side, og åpne en ny for å opprette en ny post. På samme måte vil Alt+F9 bokføre et dokument og opprette et nytt.|
 |Alt+T|Åpne siden **Innstillinger**.|
-|Alt + Pil høyre|Slå opp tilleggsinformasjon eller underliggende verdier for et felt som inneholder knappen ![AssistEdit.](media/assist-edit-icon.png "AssistEdit-knapp"). . Dette brukes når den vanlige rullegardinknappen (Alt + Pil ned) i samme felt brukes til et annet formål.|
+|Alt + Pil høyre|Slå opp tilleggsinformasjon eller underliggende verdier for et felt som inneholder knappen ![AssistEdit.](media/assist-edit-icon.png "AssistEdit-knapp"). . Brukes når den vanlige rullegardinknappen (Alt + Pil ned) i samme felt brukes til et annet formål.|
 |Ctrl+Alt+Skift+C|Vise informasjon i selskapsmerket.|
 |Ctrl+Alt+F1|Åpne og lukk sideinspeksjonsruten. Sideinspeksjonsruten viser informasjon om siden, som den tilhørende kildetabellen, felt, filtre, utvidelser og mer.<br /><br />Hvis du vil ha mer informasjon, kan du se [Kontrollere sider](across-inspect-page.md).|
 |Ctrl+C |Kopier verdien til feltet. Hvis feltet er i fokus og du ikke har valgt tekst i feltet, kopierer dette hele verdien. Hvis du har valgt tekst i feltet, vil det kopiere bare merket tekst.|
-|Ctrl+F1|Åpne Business Central-hjelpen for siden.|
+|Ctrl+F1|Åpne [hjelperuten](product-help-and-support.md#help-pane) eller en Business Central-hjelpeartikkel på [Microsoft Docs](/dynamics365/business-central/), avhengig av hvilken Business Central-versjon du har.|
 |Ctrl+F12|Bytte mellom bred og smal oppsettvisning.|
 |Ctrl + klikk|Naviger under egendefinering eller tilpassing når handlingen er uthevet med en pilspiss. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).|  
 |Ctrl+F5|Last inn [!INCLUDE[prod_short](includes/prod_short.md)]-programmet på nytt. (På lignende måte som å velge oppdater / last inn på nytt i webleseren.)|

@@ -1,20 +1,20 @@
 ---
 title: Hurtigreferanse for tastatursnarveier for PC
 description: Et utskriftsvennlig referanseark som inneholder de mest vanlige tastatursnarveiene for PC-brukere.
-author: brentholtorf
+author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: accessibility, shortcuts, keyboarding
-ms.date: 04/01/2021
-ms.author: bholtorf
-ms.openlocfilehash: 7496c21745e2a27271db8ccb37c9607040e5259b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.date: 05/23/2022
+ms.author: jswymer
+ms.openlocfilehash: 399dd54ea89937dc29def09831688642a9889742
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511600"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799536"
 ---
 # <a name="keyboard-quick-reference---pc-only"></a>Hurtigreferanse for tastatursnarveier – bare PC
 
@@ -27,6 +27,7 @@ ms.locfileid: "8511600"
 |Alt+Skift+N|Lukk en nylig opprettet post, og opprett en ny|
 |Alt+O|Legg til et nytt notat for den valgte posten|
 |Alt+Q|Åpne **Fortell meg**|
+|Ctrl+Alt+Q|Åpne **Søk etter poster**|
 |ALT+OPP|Åpne verktøytips eller valideringsfeil|
 |Alt+Pil ned|Åpne en rullegardinmeny eller slå opp|
 |Alt+T|Åpne siden **Mine innstillinger**|
@@ -34,9 +35,9 @@ ms.locfileid: "8511600"
 |Ctrl+Insert|Sett inn en ny linje i et dokument|
 |Ctrl-Delete|Slett linjen i et dokument, kladd og forslag.|
 |Ctrl+Shift+F12|Maksimer linjeelementdelen på en dokumentside|
-|Ctrl+F1|Åpne hjelpen for siden<br />Navigere når du tilpasser og egendefinerer|
+|Ctrl+F1|Åpne hjelperuten eller en hjelpeartikkel|
 |Ctrl + klikk|Navigere når du tilpasser og egendefinerer|
-|Shift+F12|Åpne rolleutforskeren, en oversikt over funksjoner|
+|Skift+F12|Åpne rolleutforskeren, en oversikt over funksjoner|
 |F5/Ctrl+F5|Oppdatere / laste inn side på nytt|
 |Tab/Skift+Tab|Flytte fokus til neste/forrige element|
 |F6/Skift+F6|Flytt til neste hurtigfane/del|

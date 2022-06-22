@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: beb7a01986d12458e0615918608b44a6d90c269c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e8229b1d911b51e065b3d5a94fff1a0253bd5e26
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518418"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950094"
 ---
 # <a name="get-the-business-central-add-in-for-excel"></a>Hent Business Central-tillegget for Excel
 
@@ -130,8 +130,7 @@ Noen ganger støter brukere på problemer med Excel-tillegget. Denne delen inneh
 |Data kan ikke publiseres tilbake til [!INCLUDE [prod_short](includes/prod_short.md)].|Test tilkoblingen ved å åpne arbeidsboken i Excel i en nettleser. |Noen ganger kan en utvidelse blokkere publiseringsjobben. Hvis siden er utvidet eller tilpasset, fjerner du utvidelsene og prøver på nytt.|
 |Datoene er feil  |Excel kan vise klokkeslett og datoer i et annet format enn [!INCLUDE [prod_short](includes/prod_short.md)]. Denne betingelsen gjør dem ikke feil, og dataene i [!INCLUDE [prod_short](includes/prod_short.md)] blir ikke forstyrret.|         |
 |For enkelte listesider vil redigering av flere linjer i Excel konsekvent forårsake feil. Denne betingelsen kan oppstå hvis OData-oppkall inkluderer FlowFields og felter utenfor repeater-kontrollen.|På siden **Nettjenester** merker du av for **Utelat ikke-redigerbare FlowFields** og **Utelat felter utenfor repeater** for den publiserte siden. Hvis du merker av i disse avmerkingsboksene, utelates ikke-redigerbare FlowFields og felt fra beregningen av eTag. |Disse avmerkingsboksene er skjult som standard. Hvis du vil se dem på siden **Nettjenester**, bruker du [tilpasning](/dynamics365/business-central/ui-personalization-user). |
-
-
+|Brukere kan ikke lenger logge seg på tillegget. Når de prøver å logge seg på, stopper prosessen uten å fullføres.| Dette problemet kan skyldes en oppdatering som vi gjorde med tillegget, en gang i juli 2022. Hvis du vil ha mer informasjon og en feilretting, kan du se [Endre konfigurasjonen for Excel-tillegget for å støtte oppdateringen fra juli 2022](/dynamics365/business-central/dev-itpro/administration/update-excel-addin-configuration).|Gjelder bare lokal versjon av [!INCLUDE [prod_short](includes/prod_short.md)]|
 
 <!--
 ## Deploy the Excel add-in for Business Central online

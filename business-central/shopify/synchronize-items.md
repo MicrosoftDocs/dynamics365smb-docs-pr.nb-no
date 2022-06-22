@@ -1,18 +1,18 @@
 ---
 title: Synkroniser varer og lager
 description: Konfigurer og kjør synkroniseringer av varer mellom Shopify og Business Central
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: fac1a3df12070a2030d6d2d8dfd5e740d8cca4f9
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: ad69d58a84926041df1125809f748b9129cc64e2
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768144"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808962"
 ---
 # <a name="synchronize-items-and-inventory"></a>Synkroniser varer og lager
 
@@ -23,7 +23,7 @@ ms.locfileid: "8768144"
 
 Disse to scenarioene er alltid aktivert.
 
-Et annet scenario er når data håndteres i Shopify og du vil importere disse elementene samtidig til [!INCLUDE[prod_short](../includes/prod_short.md)]. Dette scenarioet kan være nyttig for dataoverføringshendelser når en eksisterende nettbutikk må kobles til et nytt [!INCLUDE[prod_short](../includes/prod_short.md)].
+Et tredje scenario er å behandle data i Shopify, men importere disse varene i bulk til [!INCLUDE[prod_short](../includes/prod_short.md)]. Dette scenarioet kan være nyttig for dataoverføringshendelser når du vil koble en eksisterende nettbutikk med et nytt [!INCLUDE[prod_short](../includes/prod_short.md)]-miljø.
 
 ## <a name="to-define-item-synchronizations"></a>Slik definerer varesynkroniseringer
 
@@ -32,9 +32,9 @@ Et annet scenario er når data håndteres i Shopify og du vil importere disse el
 
 |Alternativ|Description|
 |------|-----------|
-|**Tom**| Produkter importeres sammen med import av ordrer. Produkter eksporteres til Shopify hvis brukeren kjører **Legg til vare**-handling fra vinduet **Shopify-produkter**. Dette er standard virkemåte. |
-|**Til Shopify**| Velg dette alternativet hvis du planlegger å oppdatere produkter manuelt ved å bruke **Synkroniser produkt**-handling eller via jobbkø for regelmessige oppdateringer etter første synkronisering som er utløst av **Legg til vare**-handling. Husk å aktivere feltet **Kan oppdatere Shopify-produkt**. Hvis alternativet ikke er aktivert, er alternativet bare **tomt**. |
-|**Fra Shopify**| Velg dette alternativet hvis du har tenkt å importere produkter fra Shopify samtidig, enten manuelt ved hjelp av **Synkroniser produkt**-handling eller via jobbkø for regelmessige oppdateringer. Hvis alternativet ikke er valgt, er det lik **tomt** alternativ.|
+|**Tom**| Produkter importeres sammen med import av ordrer. Produkter eksporteres til Shopify hvis en bruker kjører **Legg til vare**-handlingen fra siden **Shopify-produkter**. Denne prosessen er standard virkemåte. |
+|**Til Shopify**| Velg dette alternativet hvis du planlegger å oppdatere produkter manuelt ved å bruke **Synkroniser produkt**-handling eller via jobbkø for regelmessige oppdateringer etter første synkronisering som er utløst av **Legg til vare**-handling. Husk å aktivere feltet **Kan oppdatere Shopify-produkt**. Hvis alternativet ikke er aktivert, er alternativet bare **tomt**. Hvis du vil ha mer informasjon, kan du se [Eksporter varer til Shopify](synchronize-items.md#export-items-to-shopify)|
+|**Fra Shopify**| Velg dette alternativet hvis du har tenkt å importere produkter fra Shopify samtidig, enten manuelt ved hjelp av **Synkroniser produkt**-handling eller via jobbkø for regelmessige oppdateringer. Hvis alternativet ikke er valgt, er det lik **tomt** alternativ. Hvis du vil ha mer informasjon om import av varer, kan du se [Importer varer fra Shopify](synchronize-items.md#import-items-from-shopify)|
 
 ## <a name="import-items-from-shopify"></a>Importer varer fra Shopify
 
@@ -42,9 +42,9 @@ Enten du importerer varer fra Shopify samtidig eller sammen med import av ordrer
 
 |Felt|Description|
 |------|-----------|
-|**Opprett ukjente varer automatisk**|Når Shopify-produkter og -varianter importeres til [!INCLUDE[prod_short](../includes/prod_short.md)], prøver [!INCLUDE[prod_short](../includes/prod_short.md)]-funksjonen alltid å finne tilsvarende post i varelisten først. **SKU-tildeling** påvirker hvordan samsvaret utføres og oppretter ny vare eller varevariant. Hvis du vil ha mer informasjon, kan du se [Produkttildeling](synchronize-items.md#). Aktiver dette alternativet hvis du vil opprette en ny vare eller når det ikke finnes en samsvarende post. Den nye varen blir opprettet ved hjelp av importerte data og **varemalkode**. Hvis dette alternativet ikke er aktivert, må du opprette en vare manuelt og bruke **Produkttildeling**-handlingen fra siden **Shopify-produkter**.|
+|**Opprett ukjente varer automatisk**|Når Shopify-produkter og -varianter importeres til [!INCLUDE[prod_short](../includes/prod_short.md)], prøver [!INCLUDE[prod_short](../includes/prod_short.md)]-funksjonen alltid å finne tilsvarende post i varelisten først. **SKU-tildeling** påvirker hvordan samsvaret utføres og oppretter ny vare eller varevariant. Aktiver dette alternativet hvis du vil opprette en ny vare eller når det ikke finnes en samsvarende post. Den nye varen blir opprettet ved hjelp av importerte data og **varemalkode**. Hvis dette alternativet ikke er aktivert, må du opprette en vare manuelt og bruke **Produkttildeling**-handlingen fra siden **Shopify-produkter**.|
 |**Varemalkode**|Brukes sammen med **Opprett ukjente kunder automatisk**. <br> Velg malen som skal brukes for automatisk opprettede varer.|
-|**SKU-tilordning**|Velg hvordan du vil bruke **SKU**-verdien som er importert fra Shopify, under vare/variant-tildeling og -oppretting. Hvis du vil ha mer informasjon, kan du se [Hvordan SKU og strekkode definert i Shopify-produkt påvirker tildeling og oppretting av varer og varianter](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
+|**SKU-tilordning**|Velg hvordan du vil bruke **SKU**-verdien som er importert fra Shopify, under vare/variant-tildeling og -oppretting. Hvis du vil ha mer informasjon, kan du se [Hvordan SKU og strekkode definert i Shopify-produkt påvirker tildeling og oppretting av varer og varianter](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
 |**SKU-skilletegn**|Brukes sammen med **SKU-tildeling** angitt til alternativet **Varenr. + variantkode**.<br> Definer et skilletegn som skal brukes til å dele SKU. <br>Hvis du for eksempel oppretter varianten med SKU-en 1000/001 i Shopify, skriver du inn / i feltet **SKU-skilletegn** for å hente varenummeret i [!INCLUDE[prod_short](../includes/prod_short.md)] som 1000 og varevariantkoden som 001.
 |**Variantprefiks**|Brukes sammen med **SKU-tildeling** satt til **Variantkode** eller alternativene **Varenr. + variantkode** som en reservestrategi når SKU-en som kommer fra Shopify, er tom.<br>Hvis du vil opprette varevarianten i [!INCLUDE[prod_short](../includes/prod_short.md)] automatisk, må du angi en verdi i **Kode**. Som standard brukes verdien som er definert i SKU-feltet som ble importert fra Shopify. Hvis SKU er tom, vil det imidlertid generere en kode som begynner med definert variantprefiks og 001.|
 |**Shopify kan oppdatere vare**| Velg dette alternativet hvis du vil oppdatere varer eller varianter automatisk.|
@@ -100,10 +100,10 @@ Ved hjelp av disse innstillingene kan du behandle prosessen med å eksportere va
 |SEO-sidetittel|Korriger verdi: tom, se [Ad hoc-oppdateringer av Shopify-produkter](synchronize-items.md#ad-hock-updates-of-shopify-products). |Ikke i bruk.|
 |SEO-metabeskrivelse|Korriger verdi: tom, se [Ad hoc-oppdateringer av Shopify-produkter](synchronize-items.md#ad-hock-updates-of-shopify-products). |Ikke i bruk.|
 |Medium|**Bilde**, se [Synkroniser varebilder](synchronize-items.md#sync-item-images) hvis du vil ha mer informasjon|**Bilde**|
-|Pris|Sluttkundepris beregnes i forhold til vareprisgruppe, varerabattgruppe, valutakode og kundemalkode. |Ikke i bruk.|
-|Sammenlign i prisen|Pris uten rabatt beregnes i forhold til vareprisgruppe, varerabattgruppe, valutakode og kundemalkode. |Ikke i bruk.|
+|Pris|Beregningen av sluttkundepris omfatter vareprisgruppe, varerabattgruppe, valutakode og kundemalkode. |Ikke i bruk.|
+|Sammenlign i prisen|Beregningen av sluttkundepris uten rabatt omfatter vareprisgruppe, varerabattgruppe, valutakode og kundemalkode. |Ikke i bruk.|
 |Kostnad per vare|**Enhetskost**|**Enhetskost**|
-|LFE|Se **SKU-tildeling** i [Eksporter varer til Shopify](synchronize-items.md#export-items-to-shopify)| Se [Hvordan SKU og strekkode definert i Shopify-produkt påvirker tildeling og oppretting av varer og varianter](synchronize-items.md#how-sku-and-barcode-defined-in-shopify-product-impact-mapping-and-creation-of-items-and-variants-in-business-central)|
+|LFE|Se **SKU-tildeling** i [Eksporter varer til Shopify](synchronize-items.md#export-items-to-shopify)| Se [Hvordan SKU og strekkode definert i Shopify-produkt påvirker tildeling og oppretting av varer og varianter](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
 |Strekkode|**Varereferanser** av strekkodetype|**Varereferanser** av strekkodetype|
 |Spor antall|I henhold til **lageret som er sporet** på **Shopify-butikkortet**. Hvis du vil ha mer informasjon, kan du se [Lager](synchronize-items.md#sync-inventory-to-shopify).|Ikke i bruk.|
 |Fortsett å selge når tomt på lager|I henhold til **Standard lagerpolicy** på **Shopify-butikkortet**. Ikke importert.|Ikke i bruk.|
@@ -115,7 +115,7 @@ Ved hjelp av disse innstillingene kan du behandle prosessen med å eksportere va
 
 ### <a name="tags"></a>Koder
 
-Importerte koder kan gjennomgås i faktaboksen **Koder** i **Shopify-produktet**. Velg handlingen **Koder** på siden **Shopify-produkt** for å redigere koder.
+Gå gjennom de importerte kodene i **Koder**-faktaboksen på siden **Shopify-produkt**. Velg handlingen **Koder** på siden **Shopify-produkt** for å redigere koder.
 Hvis alternativet **Til Shopify** er valgt i feltet **Synkroniser vare**, eksporteres tildelte koder til Shopify ved neste synkronisering.
 
 ## <a name="run-item-synchronization"></a>Kjør varesynkronisering
@@ -139,6 +139,8 @@ De resulterende varene opprettes automatisk i Shopify med priser, men bilder og 
 3. Velg handlingen **Synkroniser produkter**.
 
 Du kan også bruke handlingen **Synkroniser produkter** i vinduet **Shopify-produkter** eller søk etter den satsvise jobben **Synkroniser produkter**.
+
+Du kan planlegge at oppgaven skal utføres på en automatisk måte. Hvis du vil ha mer informasjon, kan du se [Planlegg gjentakende oppgaver](background.md#to-schedule-recurring-tasks).
 
 ### <a name="ad-hock-updates-of-shopify-products"></a>Ad hoc-oppdateringer av Shopify-produkter
 
@@ -195,8 +197,8 @@ Priser kan eksporteres for synkroniserte varer på måtene som er beskrevet nede
 
 ### <a name="price-calculation-remarks"></a>Prisberegningsmerknader
 
-* Ved prisberegning er det viktig å ha en verdi i feltet **Standard kundemal**.
-* Husk å angi en **valutakode** hvis nettbutikken bruker annen valuta enn LV.
+* Ved prisberegning er det viktig å ha en verdi i feltet **Standard kundemal**. [!INCLUDE[prod_short](../includes/prod_short.md)] bruker verdien i feltet **Mva- firmabokføringsgruppe** til å beregne prisen inkl. mva. Du vil kanskje opprette en kundeprisgruppe der du velger feltet **Pris inkl. mva.** og angir den relevante verdien i feltet **Mva-bokføringsgruppe for firma (pris)**.
+* Angi en **valutakode** hvis nettbutikken bruker annen valuta enn LV. Den angitte valutaen må ha valutakurser konfigurert. Hvis nettbutikken bruker samme valuta som [!INCLUDE[prod_short](../includes/prod_short.md)], lar du feltet stå tomt.
 * Når du skal fastsette en pris, bruker [!INCLUDE[prod_short](../includes/prod_short.md)] laveste pris-logikk. Det betyr at hvis enhetspris som er definert på varekortet, er lavere enn det som er angitt i prisgruppen, brukes enhetsprisen fra varekortet.
 
 ## <a name="sync-inventory-to-shopify"></a>Synkroniser lager til Shopify

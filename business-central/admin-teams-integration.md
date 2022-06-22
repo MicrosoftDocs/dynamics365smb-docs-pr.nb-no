@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 4d6e329dbf6c8d5badfcb317261db18d8432d303
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 03e283bc2664b1f73a56c48fefdde9cba78918d2
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147037"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799774"
 ---
 # <a name="managing-microsoft-teams-integration-with-prod_short"></a>Administrere Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -30,16 +30,18 @@ Denne delen beskriver minimumskravene for at [!INCLUDE [prod_short](includes/pro
 
 - Nødvendige lisenser
 
-    Denne tabellen gir deg en oversikt over nødvendige lisenser for at [!INCLUDE [prod_short](includes/prod_short.md)]-appfunksjonene skal fungere i Teams.
+    [!INCLUDE[prod_short](includes/prod_short.md)]-appen krever en Teams-lisens gjennom et Microsoft 365 Business- eller Enterprise-abonnement. Frittstående Teams-abonnementer, for eksempel Microsoft Teams (kostnadsfritt) eller Microsoft Teams Essentials, støttes ikke.
 
-    |Hva|Teams-lisens|[!INCLUDE [prod_short](includes/prod_short.md)]-lisens|
-    |----|---|---|
-    |Søk etter [!INCLUDE [prod_short](includes/prod_short.md)]-kontakter.|![avmerking.](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")|
-    |Lim inn en kobling til en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale, og send den som et kort.|![avmerking](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")|
-    |Del en kobling fra en side i [!INCLUDE [prod_short](includes/prod_short.md)] til Teams-samtale.|![avmerking](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")|
-    |Vis et kort for en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale.|![avmerking](media/check.png "avmerking")||
-    |Vis flere detaljer i kort for en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale.|![avmerking](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")|
-    |Åpne en sidekobling i [!INCLUDE [prod_short](includes/prod_short.md)] fra en samtale.|![avmerking](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")|
+    De fleste funksjoner i [!INCLUDE[prod_short](includes/prod_short.md)]-appen for Teams krever også en [!INCLUDE [prod_short](includes/prod_short.md)]-lisens, som vist i tabellen nedenfor.
+
+    |Hva|[!INCLUDE [prod_short](includes/prod_short.md)]-lisens|
+    |----|---|
+    |Søk etter [!INCLUDE [prod_short](includes/prod_short.md)]-kontakter.|![avmerking](media/check.png "avmerking")|
+    |Lim inn en kobling til en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale, og send den som et kort.|![avmerking](media/check.png "avmerking")|
+    |Del en kobling fra en side i [!INCLUDE [prod_short](includes/prod_short.md)] til Teams-samtale.|![avmerking](media/check.png "avmerking")|
+    |Vis et kort for en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale.||
+    |Vis flere detaljer i kort for en [!INCLUDE [prod_short](includes/prod_short.md)]-post i en samtale.|![avmerking](media/check.png "avmerking")|
+    |Åpne en sidekobling i [!INCLUDE [prod_short](includes/prod_short.md)] fra en samtale.|![avmerking](media/check.png "avmerking")|
 
 - Tillat URL-forhåndsvisninger
 

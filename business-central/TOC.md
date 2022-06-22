@@ -101,13 +101,13 @@
 ## Prøv
 ### [Registrer deg for en Dynamics 365 Business Central-prøveversjon](trial-signup.md)
 ### [Vanlige spørsmål om prøversjonen av Dynamics 365 Business Central](trial-faq.md)
-### [Prøveversjoner og abonnementer](across-preview.md)
+### [Prøveversjoner og abonnementer (bare på engelsk)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)
 ### [Bli klar til å gjøre forretninger](ui-get-ready-business.md)
 ### [Feilsøk registrering for Self-Service](ui-troubleshoot-self-signup.md)
 ### [Utvid prøveversjonen](admin-extend-trial.md)
 ### [Avbryte eller fjerne Business Central](admin-cancel.md)
 ## Kjøp
-### [Kom i gang med et abonnement](across-preview.md#get-started-with-a-subscription)
+### [Kom i gang med et abonnement](trial-signup.md#get-started-with-a-subscription)
 ### [Bli klar til å gjøre forretninger](ui-get-ready-business.md)
 
 ## Hurtigstartveiledninger
@@ -358,6 +358,7 @@
 #### [Om lagerkost](finance-learn-about-costing.md)
 #### [Bruke varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md)
 #### [Om beregning av standardkost](finance-about-calculating-standard-cost.md)
+#### [Om beregning av enhetskost](finance-about-calculating-unit-cost.md)
 #### [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)
 #### [Arbeide med lagerperioder](finance-how-to-work-with-inventory-periods.md)
 #### [Definer lagerverdisetting og kostberegning](finance-set-up-inventory-valuation-and-costing.md)
@@ -1424,6 +1425,7 @@
 ##### [Amerikansk salgsmva](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Rapportering av salgsmva i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Rapportere transaksjoner som 1099-pliktige i USA](LocalFunctionality/UnitedStates/tax-1099.md)  
+##### [Konfigurer og bruk IRS 1099-skjemaet](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Definere amerikansk mva. og innkjøpsavgift](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Definere urealisert salgs-mva og kontantrabatter for salg](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Banktjenester og betalinger
@@ -1474,6 +1476,7 @@
 #### [Aktivere kundebetalinger gjennom betalingstjenester](sales-how-enable-payment-service-extensions.md)
 #### [Registrer spesielle salgspriser og rabatter](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Definer kundeprisgrupper](sales-how-to-set-up-customer-price-groups.md)
+#### [Konfigurer kunderabattgrupper](sales-how-to-set-up-customer-discount-groups.md)
 #### [Definere selgere](sales-how-setup-salespeople.md)
 #### [Definere en profil for dokumentsending](sales-how-setup-document-send-profiles.md)
 #### [Send dokumenter i e-post](ui-how-send-documents-email.md)
@@ -1811,12 +1814,12 @@
 #### [QuickBooks Online-datamigrering](ui-extensions-quickbooks-online-data-migration.md)
 #### [Quickbooks Payroll-filimport](ui-extensions-quickbooks-payroll.md)
 #### [Salgs- og lagerprognose](ui-extensions-sales-forecast.md)
-#### [Mva-gruppestyring](ui-extensions-vat-group.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [Dansk – C5 datamigrering](ui-extensions-c5-data-migration.md)
 #### [Dansk – Betalinger og avstemminger](ui-extensions-payments-reconciliation-formats-dk.md)
 #### [Dansk – TAX-filformat](ui-extensions-tax-file-formats-dk.md)
 #### [Storbritannia – GetAddress.io UK Postcodes](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
+#### [Storbritannia – Mva-gruppestyring](ui-extensions-vat-group.md)
 #### [US/CA/UK/AU/NZ/ZA – Send remitteringsønske](ui-extensions-send-remittance-advice.md)
 #### [Business Central-utvidelser fra andre leverandører](ui-extensions-other.md)
 ## Integrer med Dynamics 365 Sales

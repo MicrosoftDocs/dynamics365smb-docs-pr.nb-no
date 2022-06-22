@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 6cb63f5fcc6f3fcf4262214c8fb162a6835b0c50
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d8be2d8c3b9602c1a3e78f6cc4ba495af93730d3
+ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513656"
+ms.lasthandoff: 06/12/2022
+ms.locfileid: "8950176"
 ---
 # <a name="setup-best-practices-planning-parameters"></a>Anbefalte fremgangsmåter for oppsett: Planleggingsparametere
 Hurtigfanen **Planlegging** på varekortet er kjernen i et selskaps forsyningskjede. Det er svært viktig for kostnadseffektiv lagerkontroll og god kundeservice å angi riktige planleggingsparametre.  
@@ -24,7 +24,7 @@ Hurtigfanen **Planlegging** på varekortet er kjernen i et selskaps forsyningskj
 |Oppsettfelt|Anbefalt fremgangsmåte|Merknad|  
 |-----------------|-------------------|-------------|  
 |Gjenbestillingsprinsipp||Hvis du vil ha mer informasjon, kan du se [Anbefalte fremgangsmåter for oppsett: Gjenbestillingsprinsipper](setup-best-practices-reordering-policies.md).|  
-|Reserver|Velg **Aldri** når varen planlegges ved hjelp av et gjenbestillingspunkt.<br /><br /> Velg **Aldri** i produksjon, slik at planleggingssystemet kan dekke alle behov.<br /><br /> Velg **Valgfritt** for varene det kan hende du vil reservere for kunder med topp prioritet.<br /><br /> Velg **Alltid** for ikke-unike varer, for eksempel varer av typen diverse som er inngående for bestemte behov.|Reservasjoner motvirker vanligvis formålet med planlegging, som er å få behov og forsyning i balanse. Varer som er definert for planlegging skal derfor vanligvis ikke reserveres.<br /><br /> Hvis brukeren reserverer et lagerantall for fremtidig behov, forstyrres planleggingsgrunnlaget, og det kan hende at gjenbestillingspunktet ikke virker som det skal. Selv om prosjekterte lagernivået er akseptabelt når det gjelder gjenbestillingspunktet, er antallene kanskje ikke tilgjengelige på grunn av reservasjonen.|  
+|Reserver|Velg **Aldri** når varen planlegges ved hjelp av et gjenbestillingspunkt.<br /><br /> Velg **Aldri** i produksjon, slik at planleggingssystemet kan dekke alle behov.<br /><br /> Velg **Valgfritt** for varene det kan hende du vil reservere for kunder med topp prioritet.<br /><br /> Velg **Alltid** for unike varer (varer av typen ikke-standard), for eksempel varer av typen diverse som er inngående for bestemte behov.|Reservasjoner motvirker vanligvis formålet med planlegging, som er å få behov og forsyning i balanse. Varer som er definert for planlegging skal derfor vanligvis ikke reserveres.<br /><br /> Hvis brukeren reserverer et lagerantall for fremtidig behov, forstyrres planleggingsgrunnlaget, og det kan hende at gjenbestillingspunktet ikke virker som det skal. Selv om prosjekterte lagernivået er akseptabelt når det gjelder gjenbestillingspunktet, er antallene kanskje ikke tilgjengelige på grunn av reservasjonen.|  
 |Avdempingsperiode|Angi i forhold til leverandørens fleksibilitet.<br /><br /> Ved hjelp av en kortere periode kan du redusere arbeidskapitalen ved å unngå mye lager, men det kan også forårsake at flere handlinger må planlegges på nytt.|Hvis leverandøren godtar endringer i siste øyeblikk i ordrer, bruker du en kortere periode, men vær forberedt på flere handlinger med ny planlegging. Hvis leverandøren krever fast planlegging, forlenger du perioden så mye som mulig.<br /><br /> Hvis du vil ha informasjon om **Avdempingsperiode**-feltet, kan du se [Designdetaljer: Planleggingsparametere](design-details-planning-parameters.md).|  
 |Ta med lagerbeholdning|Velg alltid dette når du bruker gjenbestillingsprinsippet Parti for parti.|Ingen valg bare i spesielle situasjoner, for eksempel når varer på lager er ikke er salgbare.|  
 |Sikkerhetsleveringstid|Velg mellom 1D og 6D.<br /><br /> Angi en sikkerhetsleveringstid på minst én dag for å kontrollere at forsyninger er tilgjengelige dagen før de trengs.<br /><br /> Hvis du bruker en ny leverandør, definerer du en lengre tid til du blir kjent med leveringsprestasjonen deres.<br /><br /> I produksjon definerer du lengre sikkerhetsleveringstider for kritiske komponenter.|Forsyning som planlegges av systemet for å unngå tomt lager, ankommer på samme dag som lageret blir tomt. Dette kan være flere timer for sent hvis behovet for eksempel er nødvendig om morgenen, og forsyningen ankommer om ettermiddagen. **Obs!** Feltet **Sikkerhetsleveringstid** bruker hovedkalenderen. 14D er derfor ikke nødvendigvis to uker.|  

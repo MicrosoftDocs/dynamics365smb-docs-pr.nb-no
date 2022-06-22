@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 01ff5ab1c5e6f132098f914f6bfe97e097cc88b0
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: ff2e4aca52f479e461dab0d9d0f0ce4958d19353
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768164"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8808869"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Feilsøking av Shopify- og Business Central-synkronisering
 
@@ -56,9 +56,8 @@ Hvis [!INCLUDE[prod_short](../includes/prod_short.md)] ikke kan koble til Shopif
 
 1. Gå til søkeikonet ![Lyspære som åpner funksjonen Fortell meg.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Shopify-butikk**. Velg den relaterte koblingen.
 2. Velg butikken du vil hente tilgangstokenet for for å åpne siden **Shopify-butikkort**.
-3. I feltet **Kode** angir du koden.  
-4. Velg handlingen **Be om tilgang**.
-5. Hvis du blir bedt om å logge deg på Shopify-kontoen.
+3. Velg handlingen **Be om tilgang**.
+4. Hvis du blir bedt om det, logger du deg på Shopify-kontoen.
 
 ## <a name="see-also"></a>Se også
 

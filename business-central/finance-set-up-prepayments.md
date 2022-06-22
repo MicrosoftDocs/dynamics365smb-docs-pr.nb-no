@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: c2bfe2f10440921c95a7d20f3c601389030813e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1b771425c2a70f62dcfebeb4619c0f2f5445de3
+ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516216"
+ms.lasthandoff: 05/24/2022
+ms.locfileid: "8799615"
 ---
 # <a name="set-up-prepayments"></a>Definerer forskudd
 
@@ -92,6 +92,19 @@ En ordre kan ha en forskuddsprosent på salgshodet og en annen prosent for varen
 4. Forskuddsprosenten i salgs- eller bestillingshodet.  
 
 Forskuddsprosenten på kundekortet gjelder med andre ord bare hvis det ikke er satt opp noen forskuddsprosent for varen. Hvis du imidlertid endrer innholdet i feltet **Forskuddsprosent** i salgs- eller bestillingshodet etter at du har opprettet linjene, oppdateres forskuddsprosenten på alle linjene. Dette gjør det enkelt å opprette en ordre med en fast forskuddsprosent uavhengig av prosenten som er satt opp for varene.
+
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Slik frigir du ordrer automatisk når forskuddsbetalinger brukes
+
+Du kan spare tid ved å opprette en jobbkøpost som automatisk frigir ordrer som krever forskuddsbetaling, etter at betalinger er utlignet. Når du automatiserer prosessen, sparer du trinnet ved å frigi ordren.
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
+2. I feltet **Hyppighet for automatisk oppdatering av forskudd** angir hvor ofte du vil at jobbkøen skal kjøres.
+
+> [!TIP]
+> Mens du er her, kan du vurdere å legge til beskyttelse mot levering eller fakturering av ordrer som har ubetalte forskuddsbeløp. Hvis du aktiverer alternativet **Kontroller forskudd ved bokføring**, hindrer [!INCLUDE[prod_short](includes/prod_short.md)] at personer bokfører ordrer med utestående forskuddsbeløp.
+
+3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Jobbkøposter**, og velg deretter den relaterte koblingen.
+4. Konfigurer jobbkøposten **Oppdater ventende forskuddssalg**, for eksempel ved å bruke innstillingene i hurtigfanen **Regelmessighet** til å planlegge hvor ofte den skal kjøres. Hvis du vil ha mer informasjon, kan du se [Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).
 
 ## <a name="see-also"></a>Se også  
 

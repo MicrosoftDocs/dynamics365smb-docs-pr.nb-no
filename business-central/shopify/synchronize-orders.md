@@ -1,18 +1,18 @@
 ---
 title: Synkroniser og oppfyll salgsordrer
 description: Definer og kjør import og behandling av salgsordre fra Shopify.
-ms.date: 05/16/2022
+ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: e7c54cc620011d238942c093a05918e2f4e57c7d
-ms.sourcegitcommit: f071aef3660cc3202006e00f2f790faff849a240
+ms.openlocfilehash: 4e8d640f6de61d642037a55fdfeb09e32f197a96
+ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/18/2022
-ms.locfileid: "8768140"
+ms.lasthandoff: 05/27/2022
+ms.locfileid: "8809016"
 ---
 # <a name="synchronize-and-fulfill-sales-orders"></a>Synkroniser og oppfyll salgsordrer
 
@@ -27,7 +27,7 @@ En vanlig Shopify-ordre kan ha ekstra beløp øverst, for eksempel leveringskost
 - **Tipskonto**  
 
 Aktiver **Opprett ordrer automatisk** for å opprette salgsdokumenter automatisk i [!INCLUDE[prod_short](../includes/prod_short.md)] når Shopify-ordren importeres.
-Salgsdokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)] inneholder en kobling til Shopify-ordren. Hvis du aktiverer **Shopify-ordrenr. på dok.linje**, gjentas denne informasjonen på salgslinje av typen *Merknad*.
+Salgsdokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)] inneholder en kobling til Shopify-ordren. Hvis du velger feltet **Shopify-ordrenr. på dok.linje**, gjentas denne informasjonen på salgslinjer av typen *Merknad*.
 
 I feltet **Mva-områdekode** kan du definere prioritet for hvordan du velger mva-områdekode eller mva-bokføringsgruppe for firma basert på adresse. Dette trinnet er relevant for land med merverdiavgift, men kan brukes for mva-land. Hvis du vil ha mer informasjon, kan du se [Avgiftsmerknader](synchronize-orders.md#tax-remarks).
 
@@ -71,16 +71,20 @@ Fremgangsmåten nedenfor beskriver hvordan du importerer og oppdaterer ordrer.
 
 Du kan eventuelt søke etter den satsvise jobben **Synkroniser ordrer fra Shopify**.
 
-Når importen er fullført, kan du utforske Shopify-ordren og finne all relatert informasjon, for eksempel betalingstransaksjoner, leveringskostnader, oppfyllelser, risikonivå. Du kan også se ordrebekreftelsen som sendes til kunden ved å velge handlingen **Shopify-statusside**.
+Du kan planlegge at oppgaven skal utføres på en automatisk måte. Hvis du vil ha mer informasjon, kan du se [Planlegg gjentakende oppgaver](background.md#to-schedule-recurring-tasks).
+
+## <a name="review-imported-orders"></a>Se gjennom importerte ordrer
+
+Når importen er fullført, kan du utforske Shopify-ordren og finne all relatert informasjon. Finn for eksempel betalingstransaksjoner, leveringskostnader, risikonivå eller oppfyllelse hvis ordren allerede er oppfylt i Shopify. Du kan også se eventuell ordrebekreftelse som er sendt til kunden, ved å velge handlingen **Shopify-statusside**.
 
 > [!NOTE]  
 > Du kan navigere til vinduet **Shopify-ordre**, og du ser ordrer med statusen *åpen* fra alle butikker. Hvis du vil se på fullførte ordrer, må du åpne siden **Shopify-ordrer** fra det bestemte vinduet **Shopify-butikkort**.
 
-## <a name="create-sales-document-in-business-central"></a>Opprett salgsdokument i Business Central
+## <a name="create-sales-documents-in-business-central"></a>Opprett salgsdokumenter i Business Central
 
-Hvis veksleknappen **Opprett ordrer automatisk** er aktivert på **Shopify-butikkortet**, prøver [!INCLUDE[prod_short](../includes/prod_short.md)] å opprette et salgsdokument når ordren er importert. Når prosessen støter på problemer, for eksempel hvis en kunde eller et produkt mangler, må du løse problemet og forsøke å opprette ordrer på nytt.
+Hvis veksleknappen **Opprett ordrer automatisk** er aktivert på **Shopify-butikkortet**, prøver [!INCLUDE[prod_short](../includes/prod_short.md)] å opprette et salgsdokument når ordren er importert. Hvis prosessen støter på problemer, for eksempel hvis en kunde eller et produkt mangler, må du løse problemet. Deretter kan du forsøke å opprette ordren på nytt.
 
-### <a name="to-create-sales-document"></a>Slik oppretter du et salgsdokument
+### <a name="to-create-sales-documents"></a>Slik oppretter du salgsdokumenter
 
 1. Gå til søkeikonet ![Lyspære som åpner funksjonen Fortell meg.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Shopify-butikk**. Velg den relaterte koblingen.
 2. Velg butikken du vil synkronisere ordrer med for å åpne siden **Shopify-butikkort**.
@@ -88,7 +92,7 @@ Hvis veksleknappen **Opprett ordrer automatisk** er aktivert på **Shopify-butik
 4. Velg ordren du vil opprette et salgsdokument for, og velg handlingen **Opprett salgsdokumenter**.
 5. Velg **Ja**.
 
-Hvis Shopify-ordren krever oppfyllelse, opprettes **ordren** for oppfylte Shopify-ordrer. Det kan for eksempel være opprettet en **salgsfaktura** for de som bare inneholder gavekort.
+Hvis Shopify-ordren krever oppfyllelse, opprettes **ordren**. For fullstendig oppfylte Shopify-ordrer, for eksempel ordrer som bare inneholder et gavekort, eller som allerede er håndtert i Shopify, blir det opprettet en **salgsfaktura**.
 
 Et salgsdokument er nå opprettet og kan håndteres ved hjelp av standard [!INCLUDE[prod_short](../includes/prod_short.md)]-funksjoner.
 
@@ -102,7 +106,7 @@ Hvis innstillingene forhindrer at du oppretter en kunde automatisk og det ikke f
 
 ### <a name="tax-remarks"></a>Avgiftsmerknader
 
-Når den importerte Shopify-ordren inneholder informasjon om avgifter, beregnes avgiftene på nytt når du oppretter salgsdokumenter. Det er derfor viktig at mva-/avgiftsinnstillingene er riktige i [!INCLUDE[prod_short](../includes/prod_short.md)].
+Når den importerte Shopify-ordren inneholder informasjon om avgifter, beregnes avgiftene på nytt når du oppretter salgsdokumentet. Det omberegningen gjør det viktig at mva-/avgiftsinnstillingene er riktige i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 - Flere produktavgifter/mva-satser. Noen produktkategorier er for eksempel ansvarlig for reduserte mva-satser. Disse varene må finnes i [!INCLUDE[prod_short](../includes/prod_short.md)] og tildeles til Shopify-produkter. Hvis ikke, med automatisk oppretting av manglende varer, brukes mva-bokføringsgruppen for produkt.
 
