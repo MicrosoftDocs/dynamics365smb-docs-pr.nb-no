@@ -1,5 +1,5 @@
 ---
-title: Arbeide med innkommende dokumenter | Microsoft-dokumentasjon
+title: Arbeid med innkommende dokumenter
 description: Du kan behandle innkommende eksterne forretningsdokumenter, for eksempel kvitteringer eller PDF-filer, behandle OCR-oppgaver og konvertere filer til elektroniske dokumenter og poster.
 author: SorenGP
 ms.topic: conceptual
@@ -7,46 +7,72 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
-ms.date: 04/01/2021
+ms.date: 06/14/2022
 ms.author: edupont
-ms.openlocfilehash: 4fa3b78aec171e4ffabede85245beb83b47f5f4a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8853de8000e1e4b08604a9f620a2d920ca7d558f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523634"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076713"
 ---
 # <a name="incoming-documents"></a>Inngående dokumenter
 
-Noen forretningstransaksjoner er ikke registrert i [!INCLUDE[prod_short](includes/prod_short.md)] fra starten. I stedet sendes et eksternt forretningsdokument til selskapet ditt som et e-postvedlegg eller en kopi som du skanner til fil. Dette er vanlig for kjøp, hvor slike innkommende dokumentfiler representerer kvitteringer for utgifter eller små innkjøp.
-
-Fra PDF- eller bildefiler som representerer innkommende dokumenter, kan du få en ekstern OCR-tjeneste (optisk tegngjenkjenning) til å generere elektroniske dokumenter som deretter kan konverteres til dokumentposter i [!INCLUDE[prod_short](includes/prod_short.md)]. Velg en tjenestepakke som passer for organisasjonen og/eller landet/området. Du kan også opprette poster manuelt for å representere de eksterne dokumentene.  
+Eksterne forretningsdokumenter kan komme til selskapet ditt som et e-postvedlegg eller en kopi som du skanner til fil. Dette scenarioet er vanlig for kjøp, hvor slike innkommende dokumentfiler representerer kvitteringer for utgifter eller små innkjøp.
 
 På siden **Inngående dokumenter** kan du bruke forskjellige funksjoner til å se gjennom utgiftskvitteringer, behandle OCR-oppgaver og konvertere inngående dokumentfiler, manuelt eller automatisk, til de aktuelle dokumentene eller kladdelinjene. De eksterne filene kan tilknyttes på et hvilket som helst tidspunkt i prosessen, inkludert bokførte dokumenter og resulterende leverandør, kunde- og finansposter.
+
+## <a name="usage-scenario"></a>Bruksscenario
+
+Du kan registrere filer eller papirkopier som er mottatt fra handelspartnerne, i [!INCLUDE[prod_short](includes/prod_short.md)] og opprette en dokumentpost. Det kan for eksempel være en kjøps- eller salgsfaktura, en kreditnota eller en kladdelinje.
+
+Last opp de mottatte filene, eller bruk enhetskameraet til å ta et bilde – og opprett poster som skal representere de eksterne dokumentene. Med PDF- eller bildefiler som representerer innkommende dokumenter, kan du også få en ekstern OCR-tjeneste (optisk tegngjenkjenning) til å generere elektroniske dokumenter som deretter kan konverteres til poster i [!INCLUDE[prod_short](includes/prod_short.md)].
+
+> [!NOTE]
+> OCR-funksjonen tilbys av eksterne leverandører. Velg en tjenestepakke som passer for organisasjonen og/eller landet/området. Finn tjenester som er kompatible med [!INCLUDE[prod_short](includes/prod_short.md)] og detaljer om tilgjengelige funksjoner ved [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646).
+
+Når du for eksempel mottar en faktura i PDF-format fra leverandøren, kan du sende den til OCR-tjenesten fra siden **Inngående dokumenter**. Noen OCR-leverandører har også muligheten til å behandle filer videresendt til en egen e-postadresse, som deretter oppretter en relatert, innkommende dokumentpost automatisk. Etter noen sekunder vil du motta filen tilbake fra OCR-tjenesten som en elektronisk faktura som kan konverteres til en kjøpsfaktura for leverandøren.
+
+> [!TIP]
+> Opprett innkommende dokumentposter i [!INCLUDE[prod_short](includes/prod_short.md)] direkte fra e-poster sendt av leverandører ved hjelp av Outlook-tillegget. Hvis du vil ha mer informasjon, kan du se [Bruk Business Central som innboks for virksomheten i Outlook](work-outlook-addin.md).
+
+## <a name="incoming-document-features"></a>Funksjoner for innkommende dokument
 
 Prosessen for inngående dokumenter kan bestå av følgende hovedaktiviteter:
 
 * Registrere de eksterne dokumentene i [!INCLUDE[prod_short](includes/prod_short.md)] ved å opprette linjer på siden **Inngående dokumenter** på én av følgende måter:
-  * Manuelt, ved å bruke enkle funksjoner fra en PC eller en mobil enhet, på en av følgende måter:
-    * Bruk **Opprett fra fil**-knappen, og fyll deretter ut aktuelle felt på siden **Inngående dokument**. Filen legges ved automatisk.  
-    * Bruk **Ny**-knappen, og fyll deretter ut aktuelle felt på siden **Inngående dokument**, og legg manuelt ved den relaterte filen.
-    * Fra et nettverk eller en telefon kan du bruke **Opprett fra kamera**-knappen til å opprette en ny innkommende dokumentpost, og deretter sende bildet til OCR-tjenesten, for eksempel.
-  * Automatisk, ved å motta dokumentet fra OCR-tjenesten som et elektronisk dokument etter at du har sendt den relaterte PDF- eller bildefilen til OCR-tjenesten. Hurtigfanen **Økonomisk informasjon** fylles ut automatisk på siden **Inngående dokument**.
-* Bruk OCR-tjenesten for å konvertere PDF- eller bildefiler til elektroniske dokumenter som kan konverteres til dokumentposter i [!INCLUDE[prod_short](includes/prod_short.md)].
+  * Manuelt, fra en PC eller en mobilenhet, på en av følgende måter:
+    * Bruk **Opprett fra fil**-knappen, last opp en fil, og fyll deretter ut aktuelle felter på siden **Innkommende dokument**.
+    * Bruk **Ny**-knappen, og fyll deretter ut aktuelle felter på siden **Innkommende dokument**, og legg manuelt ved den relaterte filen.
+    * Fra et nettverk eller en telefon kan du bruke **Opprett fra kamera**-knappen til å opprette en ny innkommende dokumentpost ved å bruke enhetens innebygde kamera.
+  * Automatisk, ved å motta dokumentet fra OCR-tjenesten som et elektronisk dokument etter at du har lastet opp eller sendt den relaterte PDF- eller bildefilen til en OCR-tjeneste. Hurtigfanen **Økonomisk informasjon** fylles ut automatisk på siden **Inngående dokument**.
+* Bruk en ekstern OCR-tjeneste til å konvertere PDF- eller bildefiler til elektroniske dokumenter som kan konverteres til dokumentposter i [!INCLUDE[prod_short](includes/prod_short.md)].
 * Opprett nye dokumenter eller finanskladdelinje for inngående dokumentposter ved å skrive inn informasjonen mens du leser den fra inngående dokumentfiler.
 * Knytte inngående dokumentfiler til salgs- og kjøpsdokumenter med en hvilken som helst status, inkludert til leverandør, kunde- og finansposter som resultat av bokføring.
 * Vise innkommende dokumentposter og tilhørende vedlegg fra alle kjøps- og salgsdokument eller oppføringer, eller søke etter alle finansposter uten innkommende dokumentposter fra siden **Kontoplan**.
 
+> [!NOTE]
+> Filer som er knyttet til kort og dokumenter på fanen **Vedlegg**, tas ikke med på siden **Innkommende dokumenter**. Se [Behandle vedlegg, koblinger og merknader på kort og dokumenter](ui-how-add-link-to-record.md) hvis du vil ha mer informasjon.
+
 | Til | Se |
 | --- | --- |
-| Definere funksjonen for inngående dokumenter og OCR-tjenesten. |[Konfigurere inngående dokumenter](across-how-setup-income-documents.md) |
-| Opprett innkommende dokumentposter, legg ved filer eller bruk OCR til å konvertere PDF-filer til elektroniske dokumenter, konverter elektroniske dokumenter til dokumentposter, overvåk innkommende dokumentposter og bokførte salgs- og kjøpsdokumenter. |[Behandle inngående dokumenter](across-process-income-documents.md) |
+| Definere funksjonen for **innkommende dokumenter** og OCR-tjenesten. |[Konfigurere inngående dokumenter](across-how-setup-income-documents.md) |
+| Opprett poster for inngående dokument manuelt eller automatisk ved for eksempel å ta et bilde av en papirkvittering. |[Opprette innkommende dokumentposter](across-how-create-income-document-records.md) |
+| Bruk for eksempel en OCR-tjeneste til å gjøre om PDF- og bildefiler til elektroniske dokumenter som kan konverteres til kjøpsfakturaer i [!INCLUDE[prod_short](includes/prod_short.md)]. Lære opp OCR-tjenesten for å unngå feil i neste gang den behandler liknende data. |[Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md) |
+| Tilknytte eller fjerne inngående dokumentposter for alle ikke-bokførte salgs- eller kjøpsdokumenter og til en hvilken som helst kunde, leverandør eller finanspost fra dokumentet eller posten. |[Opprette innkommende dokumentposter direkte fra dokumenter og poster](across-how-connect-disconnect-income-document-records.md) |
+| Fra sidene **Kontoplan** og **Finansposter** bruker du søkefunksjonen til å finne finansposter for bokførte dokumenter som ikke har innkommende dokumentposter, og deretter sentralt koble eksisterende poster eller opprette nye med vedlagte dokumentfiler. |[Finne bokførte dokumenter uten innkommende dokumentposter](across-how-find-posted-documents-without-income-document-records.md) |
+| Få en bedre oversikt ved å sette inngående dokumentposter til *Behandlet* for å fjerne dem fra standardvisningen. |[Håndter mange inngående dokumentposter](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/index)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 
 [Innkjøp](purchasing-manage-purchasing.md)  
+[Redigering av bokførte dokumenter](across-edit-posted-document.md)  
+[Utveksle data elektronisk](across-data-exchange.md)  
+[Business Central og OneDrive for Business-integrering](across-onedrive-overview.md)  
+[Bruk Business Central som forretningsinnboks i Outlook](work-outlook-addin.md)  
+[Send dokumenter og e-poster](ui-how-send-documents-email.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

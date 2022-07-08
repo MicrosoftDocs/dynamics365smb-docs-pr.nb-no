@@ -7,15 +7,14 @@ ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.date: 06/14/2021
-ms.openlocfilehash: f7c39cc06a84da212b6d3045eeb9c3cb8087046a
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 251376700e140043705ce05fcf47f7ebbb0dcd4b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382900"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079613"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Integrere med Microsoft Dataverse
-
 
 Forretningsapper bruker ofte data fra mer enn én kilde. [!INCLUDE[prod_short](includes/cds_long_md.md)] kombinerer data til et logisk sett som gjør det enklere å koble andre Dynamics 365-apper, for eksempel [!INCLUDE[crm_md](includes/crm_md.md)] eller din egen app som er bygget på toppen av [!INCLUDE[prod_short](includes/cds_long_md.md)], til [!INCLUDE[prod_short_md](includes/prod_short.md)]. Hvis du vil ha mer informasjon om [!INCLUDE[prod_short](includes/cds_long_md.md)], kan du se [Hva er Dataverse?](/powerapps/maker/common-data-service/data-platform-intro)
 
@@ -31,12 +30,15 @@ Følgende fremgangsmåte gir en oversikt over hvordan du integrerer [!INCLUDE[pr
 3. Synkronisere data mellom apper. Hvis du vil ha mer informasjon, kan du se [Synkronisere Business Central og Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
 ## <a name="getting-started-with-prod_short"></a>Komme i gang med [!INCLUDE[prod_short](includes/cds_long_md.md)]
+
 Hvis du vil komme i gang med [!INCLUDE[prod_short](includes/cds_long_md.md)], trenger du en Microsoft Power Apps-konto. Hvis du ikke allerede har en Power Apps-konto, kan du få en kostnadsfritt ved å gå til [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) og klikke koblingen **Komme i gang vederlagsfritt**. Hvis du vil ha mer informasjon om hvordan du kommer i gang med [!INCLUDE[prod_short](includes/cds_long_md.md)], kan du se modulen [Komme i gang med Dataverse](/learn/modules/get-started-with-powerapps-common-data-service/) fra Microsoft Learn.
 
 ## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Toveis eller enveis datasynkronisering
+
 Avhengig av forretningsbehovene kan du konfigurere integreringen til å synkronisere data til eller fra én Dynamics 365-forretningsapp til en annen, eller i begge retninger i nær sanntid via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Hvis du for eksempel integrerer [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[crm_md](includes/crm_md.md)] via [!INCLUDE[prod_short](includes/cds_long_md.md)], kan en selger opprette en salgsordre i [!INCLUDE[crm_md](includes/crm_md.md)], og ordren vil bli synkronisert til [!INCLUDE[prod_short](includes/prod_short.md)]. I [!INCLUDE[crm_md](includes/crm_md.md)] kan selgeren i motsetning vise informasjon fra [!INCLUDE[prod_short](includes/prod_short.md)] om tilgjengeligheten av varen i ordren. 
 
 ## <a name="standard-and-custom-entities"></a>Standard og egendefinerteenheter
+
 [!INCLUDE[prod_short](includes/cds_long_md.md)] lagrer data på en sikker måte i et sett med tabeller. Dette er sett med poster som ligner på hvordan en tabell lagrer data i en database. [!INCLUDE[prod_short](includes/cds_long_md.md)] inneholder et grunnleggende sett med standardtabeller som dekker vanlige scenarier, men du kan også opprette egendefinerte tabeller som er spesifikke for organisasjonen. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du vise standard og egendefinerte tabeller som synkroniseres på siden Tilordninger for integreringstabell.
 
 ## <a name="about-the-business-central-base-integration-solution"></a>Om den grunnleggende integreringsløsningen for Business Central
@@ -60,12 +62,12 @@ Hvis du vil ha detaljert informasjon om hver rolle, for eksempel tillatelsene og
 
 Under tilkoblingsoppsettet opprettes integreringstabelltilordninger som er nødvendige for å synkronisere data. Enheter i [!INCLUDE[prod_short](includes/cds_long_md.md)] blir tilordnet til tabeller og tabell felt i Business Central via integreringstabeller. Hvis du vil ha mer informasjon, kan du se [Standard enhetstilordning for synkronisering](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/use-model-driven-apps-common-data-service/)
+
 ## <a name="see-also"></a>Se også
+
 [Dataeierskapsmodeller](admin-cds-company-concept.md)  
 <!--needs to be removed as this is moved to dev-itpro docs[Walkthrough: Customizing an Integration with Dataverse](\dynamics365\business-central\dev-itpro\administration\administration-custom-cds-integration) -->
-
-
-
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

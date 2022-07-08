@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1112, 1113, 1122
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9cfb46221098869f41b67c5365f14265b34017c0
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ceba015b16e990bc71e0217ed2f8ee85ca6ae1ec
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520337"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074877"
 ---
 # <a name="setting-up-cost-accounting"></a>Definere kostregnskap
 
@@ -141,7 +141,8 @@ Kostobjekter er et selskaps prosjekter, produkter eller tjenester. Diagrammet me
 * Overfør dimensjonsverdier i finans til diagrammet med kostobjekter. Du kan foreta alle nødvendige justeringer etter overføringen.  
 * Opprett et nytt kostobjektdiagram som er uavhengig av finans, eller legg til et nytt kostobjekt i et eksisterende kostobjektdiagram. Du må opprette hvert enkelt kostobjekt individuelt.  
 
-### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Slik overfører du dimensjonsverdier fra finans til diagrammet med kostobjekter:  
+### <a name="to-transfer-dimension-values-from-the-general-ledger-to-the-chart-of-cost-objects"></a>Slik overfører du dimensjonsverdier fra finans til diagrammet med kostobjekter:
+
 1.  Angi en dimensjon som kostobjektdimensjon på siden **Oppdatere KR-dimensjoner**. Det er bare verdier fra denne dimensjonen som overføres.  
 2.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 3.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Diagram med kostobjekter** og velg deretter den relaterte koblingen.  
 3.  Velg **Hent kostobjekter fra dimensjon** for å overføre dimensjonsverdier til kostobjektdiagrammet. Funksjonen overfører dimensjonsverdiene som du definerte i trinn 1.  
@@ -151,7 +152,8 @@ Kostobjekter er et selskaps prosjekter, produkter eller tjenester. Diagrammet me
 
 Diagrammet med kostobjektene inneholder nå alle angitte dimensjonsverdier fra finans og inkluderer titler og delsummer.  
 
-### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Slik oppretter du nye kostobjekter på siden Diagram med kostobjekter:  
+### <a name="to-create-new-cost-objects-in-the-chart-of-cost-objects-page"></a>Slik oppretter du nye kostobjekter på siden Diagram med kostobjekter:
+
 Du kan definere og vedlikeholde kostobjekter i kortet **Kostobjektkort** eller siden **Diagram med kostobjekter**. I denne fremgangsmåten definerer objekter på siden **Diagram med kostobjekter**.  
 
 1.  Åpne siden **Diagram med kostobjekter** i redigeringsmodus.  
@@ -169,9 +171,11 @@ Du kan definere og vedlikeholde kostobjekter i kortet **Kostobjektkort** eller s
 >  Hvis du har angitt definisjoner i feltene **Total fra/til** for **Til-sum**-kostobjekter før du kjører innrykksfunksjonen, må du angi dem på nytt. Funksjonen overskriver verdiene i alle **Til-sum**-felt.
 
 ## <a name="defining-cost-centers-and-cost-objects-for-chart-of-accounts"></a>Definere kostsentre og kostobjekter for kontoplanen
+
 Du kan automatisk overføre utgifts- og inntektspostene fra finans til kostregnskap enten for hver finansbokføring eller sammen med en kjørsel. Når du foretar overføringen, overfører [!INCLUDE[prod_short](includes/prod_short.md)] bare postene som allerede er koblet til et kostsenter eller et kostobjekt. Hvis du vil opprette en meningsfull overføring, må du kontrollere at kostsentre og kostobjekter er riktig definert.  
 
-### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Definere standard dimensjonsverdier for finanskontoer  
+### <a name="defining-default-dimension-values-for-general-ledger-accounts"></a>Definere standard dimensjonsverdier for finanskontoer
+
 For hver finanskonto kan du definere standarddimensjonsverdier i **Standarddimensjon**-tabellen. Eksempelet nedenfor viser hvordan du definerer at det alltid skal finnes et kostsenter for AVDELING, men aldri et kostobjekt for PROSJEKT, ved bokføring til en finanskonto.  
 
 |**Dimensjonskode**|**Verdibokføring**|  
@@ -179,7 +183,8 @@ For hver finanskonto kan du definere standarddimensjonsverdier i **Standarddimen
 |Avdeling|Obligatorisk kode|  
 |Prosjekt|Ingen kode|  
 
-### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Definere dimensjonsverdier for indirekte kostnader og direkte kostnader  
+### <a name="defining-dimension-values-for-overhead-costs-and-direct-costs"></a>Definere dimensjonsverdier for indirekte kostnader og direkte kostnader
+
  Du kan overføre indirekte kostnader til et kostsenter og direkte kostnader til et kostobjekt. Følgende tabell viser den optimale kombinasjonen av dimensjonsoppsettsverdier.  
 
 |Overfør til|Kostsenterbokføring|Bokføring av kostobjekt|  
@@ -190,9 +195,12 @@ For hver finanskonto kan du definere standarddimensjonsverdier i **Standarddimen
 > [!NOTE]  
 >  For å sørge for at det forhåndsdefinerte kostsenteret og kostobjekt som du setter opp i finans, overføres automatisk til kostregnskapet, kan du merke av for **Kontroller finansbokføringer** på siden Kostregnskapsoppsett.
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/cost-accounting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se også
+
 [Gjøre rede for kostnader](finance-manage-cost-accounting.md)  
-[Overføre og bokføre kostposter](finance-transfer-and-post-cost-entries.md)   
+[Overføre og bokføre kostposter](finance-transfer-and-post-cost-entries.md)  
 [Definere og fordele kostnader](finance-define-and-allocate-costs.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

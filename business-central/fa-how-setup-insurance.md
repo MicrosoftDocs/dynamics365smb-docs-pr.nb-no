@@ -10,29 +10,33 @@ ms.search.keywords: policy, coverage
 ms.search.form: 5607, 5648, 5644, 5651
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1378a3090db4bfaa958a371c31416c98f887e73e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e5d22e409ec2b9dcd24b210d92a7c87df8df5380
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511030"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075580"
 ---
 # <a name="set-up-fixed-asset-insurance"></a>Definere aktivaforsikring
+
 Hvis du vil behandle forsikringsdekning for aktiva, må du først sette opp noen generelle forsikringsopplysninger og et forsikringskort per polise.
 
 ## <a name="to-set-up-general-insurance-information"></a>Slik definerer du generelle forsikringsopplysninger
+
 Hvis du vil bruke forsikringsfunksjoner i [!INCLUDE[prod_short](includes/prod_short.md)], må du angi noen generelle forsikringsopplysninger.  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivaoppsett**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
 ## <a name="to-set-up-insurance-types"></a>Slik definerer du forsikringstyper
+
 Du kan gruppere forsikringspoliser i kategorier, for eksempel tyveriforsikring og brannforsikring. Forsikringstypene brukes på forsikringskortet.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Forsikringstyper**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
 
 ## <a name="to-set-up-insurance-cards"></a>Slik definerer du forsikringskort
+
 Du kan samle opplysninger om hver enkelt forsikringspolise på forsikringskortet.  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Forsikring**, og velg deretter den relaterte koblingen.  
@@ -40,12 +44,14 @@ Du kan samle opplysninger om hver enkelt forsikringspolise på forsikringskortet
 3. Fyll ut feltene etter behov.
 
 ## <a name="to-set-up-insurance-journal-templates"></a>Slik definerer du forsikringskladdemaler
+
 [!INCLUDE[prod_short](includes/prod_short.md)] oppretter automatisk en forsikringskladdemal første gang du åpner **Forsikringskladd**-siden, men du kan definere flere kladdemaler. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Forsikringskladdemaler**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
 
 ## <a name="to-set-up-insurance-journal-batches"></a>Slik definerer du forsikringskladder
+
 Du kan definere kladder i en forsikringskladdemal. Verdiene i kladden brukes som standardverdier hvis ikke feltene på kladdelinjene er fylt ut. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md)  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Forsikringskladdemaler**, og velg deretter den relaterte koblingen.  
@@ -55,8 +61,11 @@ Du kan definere kladder i en forsikringskladdemal. Verdiene i kladden brukes som
 > [!NOTE]  
 >   Tall har en bestemt funksjon i kladdenavn. Hvis en kladdemal eller et kladdenavn inneholder et tall, øker tallet automatisk med én hver gang du bokfører en kladd. Hvis for eksempel HH1 er angitt i feltet **Navn**, endres kladdenavnet til HH2 etter at kladden HH1 er bokført.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
+
 ## <a name="see-also"></a>Se også
-[Definere aktiva](fa-setup.md)  
+
+[Definer aktiva](fa-setup.md)  
 [Aktiva](fa-manage.md)  
 [Finans](finance.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  

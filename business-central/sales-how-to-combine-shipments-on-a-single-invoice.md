@@ -9,19 +9,21 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/16/2021
 ms.author: edupont
-ms.openlocfilehash: 0301e17b0082c2ac7be37670757065e4ff6fcaf7
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9308412e7b1bfc19cb11187e22ae1b2d2f6c339b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513734"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077583"
 ---
 # <a name="combine-shipments-on-a-single-invoice"></a>Kombinere leveringer på én faktura
+
 Hvis du vil fakturere mer enn én følgeseddel av gangen, kan du bruke funksjonen for samling av følgesedler.  
 
 Før du kan opprette samlefakturaer, må du bokføre mer enn én følgeseddel for den samme kunden i én og samme valuta. Du må med andre ord opprette minst to ordrer og bokføre disse ordrene som levert, men ikke fakturert. 
 
-## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Kombinere leveringer på én faktura manuelt  
+## <a name="to-manually-combine-shipments-on-a-single-invoice"></a>Kombinere leveringer på én faktura manuelt
+
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Hvis du vil ha mer informasjon, kan du se [Fakturere salg](sales-how-invoice-sales.md).
 3. I feltet **Salg til-kundenr.** angir du kunden som skal motta fakturaen for de leverte varene.  
@@ -37,7 +39,8 @@ Før du kan opprette samlefakturaer, må du bokføre mer enn én følgeseddel fo
 > [!TIP]  
 > Hvis du har levert ordrer der feltet **Salg til-kundenr.** er forskjellig fra **Faktura til-kundenr.**, vises ikke disse linjene i rapporten **Hent følgeseddellinjer**. Bruk tilpassing hvis du vil legge til feltet **Salg til-kunde** på siden og fjerne filteret. Nå kan du legge til leveringslinjer i fakturaen uavhengig av verdien i feltet **Salg til-kundenr.**, så lenge feltet **Faktura til-kundenr.** på leveringslinjene samsvarer med verdien på salgsfakturaen.  
 
-## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Slik kombinerer du leveringer på én enkelt faktura automatisk:  
+## <a name="to-automatically-combine-shipments-on-a-single-invoice"></a>Slik kombinerer du leveringer på én enkelt faktura automatisk:
+
 [!INCLUDE[prod_short](includes/prod_short.md)] velger bare ordrer der **Opprett samlefaktura** er valgt. 
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kombiner leveringer**, og velg deretter den relaterte koblingen. Forespørselen for satsvis jobb åpnes.  
@@ -48,7 +51,8 @@ Før du kan opprette samlefakturaer, må du bokføre mer enn én følgeseddel fo
 > [!NOTE]  
 >  Du må bokføre fakturaene manuelt hvis det ikke var merket av for alternativet **Bokfør fakturaer** for kjørselen.  
 
-## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Fjerne åpne ordrer etter kombinert leveringsbokføring 
+## <a name="to-remove-open-sales-orders-after-combined-shipment-posting"></a>Fjerne åpne ordrer etter kombinert leveringsbokføring
+
 Når du oppretter og bokfører en samlefaktura, opprettes en bokført salgsfaktura for fakturalinjene. **Fakturert (antall)**-feltet på den opprinnelige rammeordren eller ordren oppdateres ut fra det fakturerte antallet.  
 
 Når du fakturerer følgesedler på denne måten, eksisterer fortsatt ordrene som følgesedlene ble bokført fra, selv om de er fullstendig levert og fakturert.   
@@ -61,7 +65,10 @@ Du kan også slette individuelle ordrer manuelt.
 
 Gjenta trinn 1 til 3 for eventuelle andre berørte dokumenter, for eksempel ordrer.
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/invoicing-customers-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se også
+
 [Salg](sales-manage-sales.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

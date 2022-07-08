@@ -10,12 +10,12 @@ ms.search.keywords: vendor payment, creditor, debt, balance due, AP
 ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ab9844f52f74e79283daafbe02f8cc2139c3ac9d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 1360d4189bfeb8ca446e4a372613bed9f14284a4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522801"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075398"
 ---
 # <a name="suggest-vendor-payments"></a>Betalingsforslag - leverandør
 
@@ -33,12 +33,14 @@ Hvis du vil dra nytte fullstendig av betalingsforslag, må du prioritere leveran
     * Åpne leverandørposter som kvalifiserer for kontantrabatter, sortert etter leverandørnummer.  
 
 ## <a name="to-use-the-suggest-vendor-payments-function"></a>Bruke funksjonen Betalingsforslag - leverandør
+
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladder** og velg den relaterte koblingen.  
 2. Åpne den aktuelle kladden, og velg deretter handlingen **Betalingsforslag - leverandør**.  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Velg **OK**.  
 
 ## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Sette inn forfallsdato som bokføringsdato på betalingskladdelinjer
+
 Når du bruker kjørselen **Betalingsforslag - leverandør** til å opprette betalingslinjer for leverandørene, kan du fylle ut to spesialfelt for å sikre at de genererte linjene bruker forfallsdatoen til å beregne bokføringsdatoen. Disse feltene er **Beregn bokføringsdato fra forfallsdato for utligningsbilag** og **Forskyvning av forfallsdato for utligningsbilag**.  
 
 > [!IMPORTANT]  
@@ -51,7 +53,10 @@ Du kan også opprette betalingslinjer manuelt ved å bruke forfallsdatoen til å
 > [!NOTE]  
 >   Hvis kjøpsfakturaen er forfalt, vil bokføringsdatoen bli satt til arbeidsdatoen, og skriftfargen på linjen blir rød.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/suggest-vendor-payments-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
+
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Utføre betalinger](payables-make-payments.md)  
 [Arbeid med finanskladder](ui-work-general-journals.md)  

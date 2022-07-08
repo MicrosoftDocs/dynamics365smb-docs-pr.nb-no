@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 10/13/2021
 ms.author: edupont
-ms.openlocfilehash: 09b9f0d4d707da3872ae4b085f1405a99f69a9bc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 24e19eb56bf28b7871ec18f254dc5dbbaa0b290a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515202"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078339"
 ---
 # <a name="plan-picks-in-worksheets"></a>Planlegge plukkinger i forslaget
 
@@ -33,6 +33,7 @@ På siden **Plukkforslag** kan du opprette plukklister som hjelper ansatte med �
 > Hvis du vil ha informasjon om plukking av komponenter for monteringsordrer generelt, inkludert situasjoner der monteringsvaren ikke forfaller på en følgeseddel, kan du se [Plukke for montering eller produksjon i avanserte lageroppsett](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
 ## <a name="sorting-lines-on-a-pick-worksheet"></a>Sortering av linjer i et plukkforslag
+
 Du kan sortere linjer etter vare, hyllenummer, kildedokument, forfallsdato eller mål. Her kommer det noen eksempler på hvor nyttig sortering kan være.
 
 * Hvis du sorterer etter forfallsdato, kan du velge å slette alle linjer unntatt de som trenger umiddelbar oppmerksomhet. Linjer som ikke haster så mye, blir ikke virkelig slettet, men bare sendt tilbake til **Plukkutvalg**-forslaget. Når du oppretter plukkingen, er linjene allerede sortert etter forfallsdato, og du kan velge å tilordne plukkingen til en ansatt.
@@ -52,11 +53,13 @@ Du kan sortere linjer etter vare, hyllenummer, kildedokument, forfallsdato eller
 8. Velg handlingen **Skriv ut** hvis du vil skrive ut plukkinstruksjonene.  
 9. Når du har fullført plukkingen, velger du handlingen **Registrer**.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+
 ## <a name="see-also"></a>Se også
 
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
-[Definere lagerstyring](warehouse-setup-warehouse.md)  
+[Definer lagerstyring](warehouse-setup-warehouse.md)  
 [Monteringsstyring](assembly-assemble-items.md)  
 [Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

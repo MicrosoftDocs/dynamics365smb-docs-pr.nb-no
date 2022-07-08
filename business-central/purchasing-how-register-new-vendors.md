@@ -10,12 +10,12 @@ ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
 ms.date: 09/29/2021
 ms.author: edupont
-ms.openlocfilehash: eaa10e4ed7890dd1e6cc8fb2fe76be7770689b75
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 2c6b1b37398d0121c5c79bb0c9d9786abe14120f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521861"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074617"
 ---
 # <a name="register-new-vendors"></a>Registrere nye leverandører
 
@@ -32,6 +32,7 @@ Leverandørkort inneholder informasjon som er nødvendig for å kjøpe produkter
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
 ## <a name="adding-new-vendors"></a>Legge til nye leverandører
+
 Du kan legge til nye leverandører manuelt ved å fylle ut feltene på siden **Leverandørkort**, eller du kan bruke maler som inneholder forhåndsdefinert informasjon. Du kan for eksempel opprette maler for ulike typer leverandørprofiler. Når du bruker maler, sparer du tid når du legger til nye leverandører og bidrar til å sikre at informasjonen er riktig hver gang. Hvis du oppretter maler for mer enn én leverandørtype, kan du velge hvilken mal du vil bruke når du legger til en leverandør. Hvis du oppretter bare én mal, brukes den for alle nye leverandører. Når du har opprettet en mal, kan du bruke handlingen **Bruk mal** til å bruke den på en eller flere utvalgte leverandører. Når du skal opprette en mal, fyller du ut informasjonen du vil bruke på nytt på siden Leverandørkort, og deretter lagrer du den som en mal. Hvis du vil ha mer informasjon, kan du se delen [Slik lagrer du siden Leverandørkort som en mal](purchasing-how-register-new-vendors.md#to-save-the-vendor-card-as-a-template).
 
 > [!TIP]
@@ -57,7 +58,6 @@ Du kan når som helst redigere informasjonen på leverandørkort. Hvis du imidle
 > [!TIP]
 > Du kan endre IBAN-nummer på en leverandørbankkonto uten at endringen påvirker historiske registeroppføringer for kredittoverføring. Registreringsoppføringer for kreditoverføring lagrer mottakerens IBAN-nummer, mottakerens bankkontonummer som er angitt i feltene Leverandørbankkonto og Mottakernavn på siden Leverandørkort når postene ble opprettet.
 
-
 ## <a name="to-save-the-vendor-card-as-a-template"></a>Lagre leverandørkortet som en mal
 
 1. På siden **Leverandørkort** velger du handlingen **Lagre som mal**. **Leverandørmal**-siden åpnes og viser leverandørkortet som en mal.
@@ -67,6 +67,8 @@ Du kan når som helst redigere informasjonen på leverandørkort. Hvis du imidle
 5. Når du har fullført den nye leverandørmalen, kan du velge **OK**-knappen.  
    Leverandørmalen legges til i listen over leverandørmaler, slik at du kan bruke den til å opprette nye leverandørkort.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
 
 [Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)  
@@ -74,5 +76,6 @@ Du kan når som helst redigere informasjonen på leverandørkort. Hvis du imidle
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Registrere kjøp](purchasing-how-record-purchases.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

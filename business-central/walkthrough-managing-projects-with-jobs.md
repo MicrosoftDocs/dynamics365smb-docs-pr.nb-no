@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: a4be92935903c1572e43af0f035e101fe0567772
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 6f46b07a33e49830944b1bdea9b13f241a7b2332
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513422"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076750"
 ---
 # <a name="walkthrough-managing-projects-with-jobs"></a>Gjennomgang: prosjektstyring
 
@@ -24,54 +24,63 @@ I denne gjennomgangen får du en innføring i prosjektstyringsfunksjoner i prosj
 
  Denne gjennomgangen tar for seg oppsett av et nytt prosjekt i tillegg til noen vanlige oppgaver, for eksempel håndtering av faste priser, betaling i avdrag, bokføring av fakturaer fra prosjekter og kopiering av prosjekter.  
 
-## <a name="about-this-walkthrough"></a>Denne gjennomgangen  
+## <a name="about-this-walkthrough"></a>Denne gjennomgangen
+
  Denne gjennomgangen viser følgende oppgaver:  
 
-### <a name="setting-up-a-job"></a>Konfigurere et prosjekt  
+### <a name="setting-up-a-job"></a>Konfigurere et prosjekt
+
  Opprettelse av et prosjekt blir enkelt når du har definert budsjettstrukturen for prosjekter. Denne gjennomgangen omhandler følgende prosedyrer:  
 
 - Opprette prosjektoppgavelinjer og planleggingslinjer.  
 - Opprette prosjektspesifikke priser for varer, ressurser og finanskonti.  
 - Fakturering fra et prosjekt  
 
-### <a name="handling-fixed-prices"></a>Håndtere faste priser  
+### <a name="handling-fixed-prices"></a>Håndtere faste priser
+
  I prosjektmodulen kan du håndtere faste priser og priser på tjenester og varer som er avtalt med kunder på forhånd. I denne gjennomgangen kan du gjøre følgende:  
 
 - Vise hvordan kontraktverdier og fakturaverdier fastsettes.  
 - Tillate ekstra arbeid i estimatet som ikke er fakturert.  
 
-### <a name="copying-a-job"></a>Kopiere et prosjekt  
+### <a name="copying-a-job"></a>Kopiere et prosjekt
+
  Denne delen av gjennomgangen fokuserer på hvordan du kopierer deler av et prosjekt eller hele prosjektet for å redusere manuell registrering av data og forbedre korrektheten. Det inkluderer følgende:  
 
 - Kopiering av deler av et prosjekt til et nytt prosjekt  
 - Kopiering av prosjektspesifikke priser  
 - Kopiering av planleggingslinjer  
 
-### <a name="making-payment-by-installment"></a>Foreta betaling i avdrag  
+### <a name="making-payment-by-installment"></a>Foreta betaling i avdrag
+
  Når et stort, kostbart prosjekt varer lenge, gjør kunden ofte en avtale med selskapet om å betale i avdrag. Dette scenariet viser hvordan du definerer betaling i avdrag, og tar for seg følgende:  
 
 - Opprette betaling i avdrag for et prosjekt.  
 - Fakturering av kunder  
 - Redegjørelse for bruk i et prosjekt konfigurert for betaling i avdrag.  
 
-## <a name="roles"></a>Roller  
+## <a name="roles"></a>Roller
+
  Denne gjennomgangen omfatter oppgaver for følgende roller:  
 
 - Prosjektleder  
 - Medlem i prosjektgruppen  
 
-## <a name="prerequisites"></a>Forutsetninger  
+## <a name="prerequisites"></a>Forutsetninger
+
  Før du kan utføre oppgavene i gjennomgangen, må du gjøre følgende:  
 
 - Installer CRONUS-demonstrasjonsdatabasen.
 - Opprett eksempeldata ved å bruke fremgangsmåten i neste del.  
 
-## <a name="story"></a>Hovedscenario  
+## <a name="story"></a>Hovedscenario
+
 Denne gjennomgangen fokuserer på CRONUS, et design- og konsulentfirma som designer og innreder nye infrastrukturer, for eksempel konferanserom og kontorer, med møbler, tilbehør og reoler. Mesteparten av arbeidet er prosjektorientert. Florian er en prosjektleder hos CRONUS. Han bruker prosjekter til å få en oversikt over alle pågående prosjekter som CRONUS har startet, samt ferdige prosjekter. Han er den som vanligvis utarbeider avtaler med kunder og registrerer kjernen av prosjektet, som er oppgave- og planleggingslinjer samt priser, i [!INCLUDE[prod_short](includes/prod_short.md)]. Han synes det er enkelt å opprette, vedlikeholde og gå gjennom informasjon. Florian liker også hvordan [!INCLUDE[prod_short](includes/prod_short.md)] gjør det mulig å kopiere prosjekter og betale i avdrag.
 
  Marie, som er medlem i prosjektgruppen og rapporterer til Florian, har ansvaret for den daglige overvåkingen av prosjektet. Hun angir sitt eget arbeid i tillegg til arbeidet som utføres av teknikerne på hver oppgave. Hun registrerer varene som de har brukt og de påløpte kostnadene.  
 
-## <a name="preparing-sample-data"></a>Klargjøre eksempeldata  
+## <a name="preparing-sample-data"></a>Klargjøre eksempeldata
+
  Hvis du vil forberede denne gjennomgangen, må du legge til Tricia som en ny ressurs.  
 
 ### <a name="to-prepare-the-sample-data"></a>Slik klargjør du eksempeldataene:  
@@ -109,7 +118,8 @@ I neste fremgangsmåte kan du opprette en prosjektkladd for Marie for å bokfør
 
 4.  Velg **OK**-knappen for å lagre endringene.
 
-## <a name="setting-up-a-job"></a>Konfigurere et prosjekt  
+## <a name="setting-up-a-job"></a>Konfigurere et prosjekt
+
  I dette scenariet har CRONUS fått i oppdrag av en kunde, Progressive Home Furnishings, å designe et konferanserom og en spisesal. Kunden er basert i USA, og prosjektet krever spesialprogramvare. Prosjektlederen inngår en avtale med kunden og oppretter et prosjekt som er i tråd med avtalen.  
 
 ### <a name="to-set-up-a-job"></a>Slik konfigurerer du et prosjekt:  
@@ -202,7 +212,8 @@ I neste fremgangsmåte kan du opprette en prosjektkladd for Marie for å bokfør
 
 4. Lukk siden. Totalene oppdateres på siden **Prosjektoppgavelinjer**.  
 
-## <a name="calculating-remaining-usage"></a>Beregne gjenstående forbruk  
+## <a name="calculating-remaining-usage"></a>Beregne gjenstående forbruk
+
  Marie, medlemmet i prosjektgruppen, har arbeidet på prosjektet en stund og vil registrere timene og forbruket på prosjektet. Hun har ikke arbeidet flere timer enn det som ble avtalt med kunden på forhånd. Hun bruker kjørselen **Beregn gjenstående forbruk** til å beregne gjenstående forbruk for prosjektet i en prosjektkladd. For hver oppgave beregner kjørselen differansen mellom planlagt forbruk av varer, ressurser og finansutgifter og det faktiske forbruket som er bokført i prosjektposter. Det gjenstående forbruket vises deretter i prosjektkladden, som hun kan bokføre det fra.  
 
 ### <a name="to-calculate-remaining-usage"></a>Slik beregner du gjenstående forbruk:  
@@ -219,7 +230,8 @@ I neste fremgangsmåte kan du opprette en prosjektkladd for Marie for å bokfør
 
 Linjene er nå bokført.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Opprette og bokføre en salgsfaktura for prosjekt  
+## <a name="creating-and-posting-a-job-sales-invoice"></a>Opprette og bokføre en salgsfaktura for prosjekt
+
  Marie kan deretter opprette en ny faktura for hele prosjektet eller for deler av et prosjekt. Hun kan også knytte fakturaen til en annen faktura for samme kunde og samme prosjekt. I dette tilfellet fakturerer hun for hele prosjektet siden det nå er fullført.  
 
 ### <a name="to-create-a-job-sales-invoice"></a>Slik oppretter du en salgsfaktura for prosjekt:  
@@ -252,7 +264,8 @@ Linjene er nå bokført.
 2.  Velg handlingen **Statistikk**. Du kan se gjennom detaljert informasjon om prosjektprisene, kostbeløpene og fortjenesten i både lokal og utenlandsk valuta.  
 3.  Velg **Lukk**-knappen for å lukke siden **Prosjektstatistikk**.  
 
-## <a name="handling-fixed-prices"></a>Håndtere faste priser  
+## <a name="handling-fixed-prices"></a>Håndtere faste priser
+
  CRONUS har fått i oppdrag å sette opp konferanserom. Som prosjektleder trenger Prakash en god oversikt over oppgavene som kreves i prosjektet, sammen med de tilknyttede budsjetterte og påløpte kostbeløpene for hver oppgave. I tillegg vil han vite salgsbeløpet for prosjektet og beløpet som er fakturert hittil. Han har inngått en avtale med kunden når det gjelder fast pris for prosjektet.  
 
 ### <a name="to-manage-fixed-pricing-in-jobs"></a>Slik håndterer du faste priser i prosjekter  
@@ -443,15 +456,18 @@ Fremgangsmåtene nedenfor viser hvordan du oppretter en ny jobb, angir prissetti
 2.  Angi dagens dato som bokføringsdato på siden **Opprett salgsfaktura**, angi **Per oppgave**, og klikk **OK** for å opprette en faktura med standardinformasjon. Velg **OK**-knappen for å lukke bekreftelsessiden.  
 3.  Velg handlingen **Salgsfaktura/kreditnota**. I salgsfakturaen kan du se at det bare er avdraget som er tatt med i fakturaen. Du kan nå sende denne til kunden som avtalt.  
 
-## <a name="next-steps"></a>Neste trinn  
+## <a name="next-steps"></a>Neste trinn
+
  Denne gjennomgangen har vist deg noen av de grunnleggende trinnene for å arbeide med prosjekter i [!INCLUDE[prod_short](includes/prod_short.md)]. Du har lært hvordan du oppretter et nytt prosjekt, hvordan du kopierer et prosjekt og hvordan du håndterer betalinger. Du har også sett en demonstrasjon av hvordan du sporer timer og oppretter fakturaer.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/create-jobs/)
 
 ## <a name="see-also"></a>Se også
 
- [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)   
- [Konfigurere prosjektstyring](projects-setup-projects.md)   
- [Bruke ressurser](projects-how-use-resources.md)   
- [Overvåke fremdrift og prestasjon](projects-how-monitor-progress-performance.md)   
+ [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
+ [Konfigurer prosjektstyring](projects-setup-projects.md)  
+ [Bruk ressurser](projects-how-use-resources.md)  
+ [Overvåke fremdrift og prestasjon](projects-how-monitor-progress-performance.md)  
  [Fakturere prosjekter](projects-how-invoice-jobs.md)  
  [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

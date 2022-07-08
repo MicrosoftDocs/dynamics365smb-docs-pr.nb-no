@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1103, 1104, 1108, 1113, 1135
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: fcff82e597a47541c5077de47594bb9916a40d67
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: f3743e49795f8673bc8fe24e9def11686863954f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136013"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078077"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Overføre og bokføre kostposter
 
@@ -26,6 +26,7 @@ Før du definerer kostfordelinger, må du forstå hvordan kostposter kommer fra 
 - Overføring av budsjettposter til faktiske.
 
 ## <a name="criteria-for-transferring-general-ledger-entries-to-cost-entries"></a>Kriterier for overføring av finansposter til kostposter
+
 Det er viktig å forstå kriteriene for overføring av finansposter til kostposter. Under overføringen bruker kjørselen **Overfør finansposter til KR** følgende kriterier for å avgjøre om og hvordan finanspostene er overført.  
 
 Finansposter overføres hvis følgende er tilfelle:  
@@ -46,6 +47,7 @@ Finansposter overføres ikke hvis følgende er tilfelle:
 - Postene er bokført med en avslutningsdato. Dette er vanligvis poster som tilbakestiller saldoen i resultatregnskapet på slutten av året.
 
 ## <a name="transferring-general-ledger-entries-to-cost-entries"></a>Overføring av finansposter til kostposter
+
 Du kan overføre finansposter til kostposter.  
 
 Før du kjører prosessen for overføring av finansposter til kostposter, må du klargjøre overføringen for å unngå manuell korrigeringsbokføring.  
@@ -60,13 +62,15 @@ Før du kjører prosessen for overføring av finansposter til kostposter, må du
 6.  For hver relevant finanskonto på **Finanskort-siden** kontrollerer du at **Kosttypenr.** -feltet er riktig tilknyttet en kostnadstype. Hvis du vil ha mer informasjon, kan du se [Definere kostregnskap](finance-set-up-cost-accounting.md).  
 7.  Kontroller at alle relevante finansposter har dimensjonsverdier som svarer til et kostsenter og et kostobjekt.  
 
-### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a>Slik overfører du finansposter til kostposter:  
+### <a name="to-transfer-general-ledger-entries-to-cost-entries"></a>Slik overfører du finansposter til kostposter:
+
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Overfør finansposter til KR**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ja**-knappen for å starte overføringen. Prosessen overfører alle finansposter som ikke allerede er overført.  
 
 Under overføringen oppretter prosessen forbindelser i postene i tabellen **Kostpost** og i tabellen **Kostjournal**. Dette gjør det mulig å spore kilden til kostposter.
 
 ## <a name="automatic-transfer-and-combined-entries"></a>Automatisk overføring og sammensatte poster
+
 I kostnadsregnskap kan du overføre finansposter til en kosttype ved å bruke en kombinert bokføring. Du kan angi om en kosttype mottar kombinerte poster i feltet **Kombiner poster** i kosttypedefinisjonen. Tabellen nedenfor beskriver de ulike alternativene.  
 
 |Kombiner poster|Description|  
@@ -79,12 +83,15 @@ I kostnadsregnskap kan du overføre finansposter til en kosttype ved å bruke en
 >  Hvis du har merket av for **Overfør automatisk fra Finans** på siden **Kostregnskapsoppsett**, oppdaterer [!INCLUDE[prod_short](includes/prod_short.md)] kostregnskapet etter hver bokføring i finans. Kombinerte poster er ikke mulig.
 
 ## <a name="results-of-transferring-general-ledger-entries-to-cost-entries"></a>Resultater av overføring av finansposter til kostposter
+
 Under overføring av finansposter til kostposter oppretter [!INCLUDE[prod_short](includes/prod_short.md)] forbindelser i postene i tabellen **Finanspost**, **Kostpri.** og **Kostjournal** for å gjøre det mulig å spore forbindelsene mellom kostposter og finansposter.  
 
-### <a name="general-ledger-entries"></a>Finansposter  
+### <a name="general-ledger-entries"></a>Finansposter
+
 For hver finanspost som overføres til kostregnskap, fyller [!INCLUDE[prod_short](includes/prod_short.md)] ut feltet **Postnr.**-feltet for kost.  
 
-### <a name="cost-entries"></a>Kostposter  
+### <a name="cost-entries"></a>Kostposter
+
 For hver kostpost lagrer [!INCLUDE[prod_short](includes/prod_short.md)] postnummeret for tilsvarende finanspost i feltet **Finansløpenr.** i tabellen **Kostpri.**  
 
 For kombinerte kostposter lagrer [!INCLUDE[prod_short](includes/prod_short.md)] postnummeret på den siste finansposten, som er posten med det høyeste postnummeret.  
@@ -93,13 +100,17 @@ Feltet **Finanskonto** i tabellen **Kostpri.**-tabellen inneholder nummeret på 
 
 Når det gjelder enkeltkostposter, overfører [!INCLUDE[prod_short](includes/prod_short.md)] bokføringsteksten fra finansposten til **Beskrivelse**-tekstfeltet. Når det gjelder kombinerte poster, viser tekstfeltet at disse postene overføres som kombinerte poster. For en kombinert post for oktober i 2013 kan for eksempel teksten være **Kombinerte poster, oktober 2013**.  
 
-### <a name="cost-register"></a>Kostjournal  
+### <a name="cost-register"></a>Kostjournal
+
 I **Kostjournal**-tabellen oppretter [!INCLUDE[prod_short](includes/prod_short.md)] en post med kildeoverføringen fra finans. Posten registrerer det første og det siste løpenummeret for finanspostene som overføres, i tillegg til det første og det siste løpenummeret for kostpostene som opprettes.
 
-## <a name="see-also"></a>Se også  
- [Om kostregnskap](finance-about-cost-accounting.md)   
- [Definere kost.regnskap](finance-set-up-cost-accounting.md)   
- [Definere og fordele kostnader](finance-define-and-allocate-costs.md)   
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/transfer-gl-entries-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se også
+
+ [Om kostregnskap](finance-about-cost-accounting.md)  
+ [Definere kostregnskap](finance-set-up-cost-accounting.md)  
+ [Definere og fordele kostnader](finance-define-and-allocate-costs.md)  
  [Gjøre rede for kostnader](finance-manage-cost-accounting.md)
 
 

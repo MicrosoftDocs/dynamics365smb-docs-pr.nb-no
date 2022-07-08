@@ -10,14 +10,15 @@ ms.search.keywords: machinery, buildings
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 17e478464d49424d2eb929a297033605c91c25ba
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 9ec826560a44908b0635bf7698040b1c0e088b04
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516346"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076646"
 ---
 # <a name="setting-up-fixed-assets"></a>Definere aktiva
+
 Før du kan arbeide med aktiva, må du definere et par ting:  
 
 * Hvordan du forsikrer, vedlikeholder og avskriver aktiva.  
@@ -41,8 +42,10 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Lær mer om ulike avskrivningsmetoder for aktiva. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
 | Lær mer om hvordan du bruker brukerdefinerte avskrivningsmetoder. |[Slik definerer du brukerdefinerte avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also"></a>Se også
+
 [Aktiva](fa-manage.md)  
 [Finans](finance.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  

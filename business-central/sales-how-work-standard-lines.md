@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: trade, sell, replenishment
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 3fe6f144b8513f651293f56e10ecf3020c1d0760
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 91a7b43265dbf4027c88f6fac7b79d4340f22ce1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517742"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078495"
 ---
 # <a name="create-recurring-sales-and-purchase-lines"></a>Opprette gjentakende salgs- og kjøpslinjer
+
 Hvis du ofte må opprette salgs- og kjøpslinjer med lignende informasjon, kan du definere standardlinjer du deretter kan sette inn på gjentakende salgs- og kjøpsdokumenter, for eksempel for gjentakende etterfyllingsordrer.  
 
 Fremgangsmåtene nedenfor viser hvordan du arbeider med standardlinjer på en salgsfaktura. Den fungerer på lignende måte for alle andre salgsdokumenter og alle kjøpsdokumenter.  
@@ -66,6 +67,7 @@ Hvis det finnes gjentakende salgslinjer for kunden, kan du sette dem inn eller f
 5. Velg **OK** for å sette inn de standard salgslinjene på fakturaen, der du kan bruke informasjonen på nytt som den er eller redigere den.
 
 ## <a name="to-create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Opprette flere salgsfakturaer basert på gjentakende salgslinjer
+
 Du kan bruke kjørselen **Opprett gjentakende salgsfakturaer** til å opprette salgsfakturaer i henhold til standard salgslinjer som er tilordnet til kundene, og med bokføringsdatoer innenfor gyldig-fra- og gyldig til-datoer du angir på standardsalgslinjene.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Opprett gjentakende salgsfakturaer**, og velg deretter den relaterte koblingen.
@@ -74,6 +76,8 @@ Du kan bruke kjørselen **Opprett gjentakende salgsfakturaer** til å opprette s
 4. Velg **OK**.
 
 Salgsfakturaer blir opprettet for kunder med angitt standard kundesalgskode og eventuell angitt avtalegiroinformasjon, for bokføring på den angitte datoen.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

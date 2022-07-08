@@ -10,12 +10,12 @@ ms.search.keywords: online printing, email printing, cloud printing, Universal P
 ms.search.form: 8900
 ms.date: 06/24/2021
 ms.author: jswymer
-ms.openlocfilehash: e9c7cc2166581c318ff8febcf112765b4f78923c
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 86f808aca7223115a3124d24dfc517ed6f96ae33
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655287"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075658"
 ---
 # <a name="set-up-printers"></a>Konfigurere skrivere
 
@@ -269,11 +269,14 @@ Du eller administratoren kan også bruke siden **Skrivervalg** til å definere a
 > Flere spesifikke skrivervalg har forrang over et mer generelt skrivervalg. Et skrivervalg som har verdier i feltene **Bruker-ID**, **Rapport-ID** og **Skrivernavn**, har for eksempel forrang over et skrivernavn som har tomme poster i feltene **Bruker-ID** eller **Rapport-ID**.
 
 ### <a name="choosing-the-printer-when-running-a-report"></a>Velg skriveren når du kjører en rapport
+
 I stedet for å bruke standardskriveren når du kjører en rapport, kan du overstyre denne innstillingen fra forespørselssiden. Velg ganske enkelt hvilken skriver du vil bruke til denne aktiveringen av rapporten, på rullegardinmenyen **Skriver**.
 
 ### <a name="sizing-print-jobs"></a>Endre størrelse på utskriftsjobber
 
 Skyutskrifter er utformet for dokumenter med en fornuftig størrelse. De fleste skytjenester, inkludert PrintNode og HP ePrint, har en grense på 10 MB per jobb. Hvis du må skrive ut store rapporter, må du kanskje dele dem opp i flere utskrifter.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

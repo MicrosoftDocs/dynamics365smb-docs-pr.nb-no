@@ -10,12 +10,12 @@ ms.search.keywords: dates, reporting, filter, calendar, shorthand, range
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: b3e68fcd3eb33ee0885ae3ae5b0bee46017ed409
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: ba8dc155f3f25aa69907a729b1e235606a5268f9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655101"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076802"
 ---
 # <a name="work-with-calendar-dates-and-times"></a>Arbeid med datoer og klokkeslett i kalenderen
 
@@ -330,6 +330,7 @@ Ordet for tidspunkt på språket som brukes av [!INCLUDE[prod_short](includes/pr
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
 ## <a name="entering-duration"></a>Angi varighet
+
 Noen av feltene i programmet representerer en varighet eller mengden som er gått, i stedet for en bestemt dato eller klokkeslett. Du angir en varighet som et tall etterfulgt av enheten.
 
 Her er noen eksempler.
@@ -348,6 +349,8 @@ Du kan også angi et tall, som blir automatisk konvertert til et tidsintervall. 
 Hvis du vil se hvilken enhet som brukes i et varighetsfelt, skriver du inn et tall. Deretter kan du se hvilken enhet det konverteres til.
 
 Tallet 5 konverteres for eksempel til 5 timer hvis enheten er timer.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

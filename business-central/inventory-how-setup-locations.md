@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9de6580971f25d092de474c0720b86fab420bbf8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515514"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077270"
 ---
 # <a name="set-up-locations"></a>Definer lokasjoner
 
@@ -27,6 +27,7 @@ Deretter kan du opprette dokumentlinjer for en bestemt lokasjon, vise tilgjengel
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
 ## <a name="location-cards"></a>Lokasjonskort
+
 Du angir opplysninger om en lokasjon, for eksempel et lager eller distribusjonssenter, på siden **Lokasjonskort**. Du gir hver lokasjon et navn og en kode som representerer lokasjonen. Deretter kan du angi lokasjonskoden i andre deler av programmet når du vil registrere transaksjoner for en gitt lokasjon.  
 
 Du kan angi opplysninger om hyller og lagerprinsipper for hver lokasjon. Basert på lagerprinsippet du velger, kan du bruke alternativene i hurtigfanen **Hyller** til å definere hyllene som skal brukes som standardhyller når du foretar transaksjoner. Hvis du bruker lagerstyring, bruker du de fleste av disse alternativene i hurtigfanen **Hylleprinsipp** til å definere hvordan du vil bruke de forskjellige avanserte lagerfunksjonene.  
@@ -76,7 +77,10 @@ Hvis du vil strukturere hyllene under soner, kan du gjøre det på siden **Soner
 Du kan også velge å definere bare en sone og organisere lageret bare ut fra hyllene. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Standarddimensjoner for lokasjoner
+
 Du angir standarddimensjoner for en lokasjon på siden **Lokasjonskort** ved å velge **Lokasjon** og deretter **Dimensjoner**. Lokasjonens standarddimensjoner kopieres til kladder og dokumenter når du angir lokasjonen på en linje, men du kan slette eller endre dimensjonen på linjen hvis det er nødvendig. Du kan kreve at brukerne angir dimensjoner for bestemte lokasjoner før de kan bokføre en post. Du kan også inkludere lokasjonsdimensjonsverdier i **Standard dimensjonsprioriteter** og **Dimensjonskombinasjoner** for kombinasjoner av prioritets- og dimensjonsregler.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

@@ -9,21 +9,23 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d263be575b6f4102c25ff1b7fe2aa288058cbd22
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 3f9cb0690bf21c3b4571ff65486038499af010e9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518916"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078547"
 ---
 # <a name="create-special-orders"></a>Opprette spesialbestillinger
+
 Du kan opprette en spesialbestilling for en bestemt katalogvare som skal leveres til en bestemt kunde. Leverandøren din leverer varen til lageret ditt, og du kan deretter sende bare denne varen videre til kunden eller sammen med andre varer i en annen ordre.  
 
 Spesialbestillinger betyr at bestillingen og ordren er knyttet til hverandre for å sikre at den bestemte katalogvaren plukkes og leveres til kunden.  
 
 Før du kan bruke denne funksjonen, må du først konfigurere kunden, leverandøren og de varekortene som kreves for ordren.  
 
-## <a name="to-create-a-special-order"></a>Slik oppretter du en spesialbestilling  
+## <a name="to-create-a-special-order"></a>Slik oppretter du en spesialbestilling
+
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordre**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Opprett og fyll ut en  ordre for varen. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).
 3.  På hurtigfanen **Linjer** fyller du inn salgslinjen. Velg en kjøpskode som **Spesialbestilling**-feltet er valgt for, i **Kjøpskode**-feltet.
@@ -42,7 +44,10 @@ En bestilling som er opprettet som en spesialbestilling for en salgsordre, blir 
 > [!NOTE]  
 >  Du kan ikke bruke funksjonen for spesialbestilling hvis varen allerede er reservert. For varer som selges på spesialbestilling, må du derfor passe på at feltet **Reserver** på varekortet ikke er satt til **Alltid**.  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se også
+
 [Arbeide med katalogvarer](inventory-how-work-nonstock-items.md)  
 [Salg](sales-manage-sales.md)  
 [Foreta direkte leveringer](sales-how-drop-shipment.md)   

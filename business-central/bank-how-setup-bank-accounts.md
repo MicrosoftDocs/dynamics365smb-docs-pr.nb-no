@@ -10,12 +10,12 @@ ms.search.keywords: Yodlee, feed, stream
 ms.search.form: 370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280
 ms.date: 01/24/2022
 ms.author: edupont
-ms.openlocfilehash: fc0c01281b4a4fb1bccee4196917b4357413e4cf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: af48197d84407fc16e103991852f98fa0338bf9e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514124"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078781"
 ---
 # <a name="set-up-bank-accounts"></a>Opprette bankkonti
 
@@ -157,6 +157,7 @@ The following table explains key fields.
 -->
 
 ## <a name="entering-an-opening-balance"></a>Angi en startsaldo
+
 For å kunne fylle ut **Saldo**-feltet med en inngående balanse, må du bokføre en bankkontopost med det aktuelle beløpet. Du kan gjøre dette ved å utføre en bankkontoavstemming. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md).  
 >
 > Du kan eventuelt også implementere den inngående balansen som en del av en generell dataoppretting i nye selskaper ved hjelp av den assisterte oppsettveiledningen **Overfør forretningsdata**. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
@@ -165,6 +166,7 @@ For å kunne fylle ut **Saldo**-feltet med en inngående balanse, må du bokfør
 > Det er viktig at du ikke bokfører åpningssaldoen direkte i finans. Når du har poster i finanskontoen som er direkte bokført på finanskontoen, fører dette til at du ikke kan avstemme bankkontoen, eller for bankkontoer med utenlandsk valuta, noe som akkumuleres når du bokfører flere bankavstemminger. Ofte bokfører du åpningssaldoen direkte til bankkontoen, og beløpet ender deretter opp i finanskontoen. Alternativt kan du tilbakeføre det senere mot finanskontoen som du bruker til å balansere den åpne finanssaldoen. I begge tilfeller må du balansere eventuell direkte bokføring til finanskontoen før du starter den første bankavstemmingen, og spesielt hvis bankkontoen er i en utenlandsk valuta.
 
 ## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Opprette din bankkonto for import eller eksport av bankfilene
+
 Feltene som er knyttet til import og eksport av bankfeeder og -filer, er på hurtigfanen **Overføring** på siden **Bankkontokort**. Hvis du vil ha mer informasjon, kan du se [Bruke AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md) og [Konfigurere Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md).
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bankkonti**, og velg deretter den relaterte koblingen.
@@ -239,6 +241,8 @@ Når du har opprettet den nye bankkontoen, må du også opprette en ny bankbokf�
 > Husk at bankkontoinformasjonen på åpne salgsfakturaer fortsatt viser den opprinnelige bankkontoen. Det betyr at betalinger fortsatt bokføres til denne kontoen. Vi anbefaler at du lar begge kontoene være aktive i en periode etter endringen.
 
 Hvis du vil ha en mer kompakt visning av kontantkontiene i finansrapportering, kan du bruke fra kontiene **Fra-sum** og **Til-sum** i kontoplanen, radene **Sammentelling** i kontoplaner eller finanskontokategorier. Hvis du vil ha mer informasjon, kan du se delen [Business Intelligence og Financial Reporting](bi.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

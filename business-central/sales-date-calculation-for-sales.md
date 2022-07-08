@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: e195e6658bc495b5d06764114d971c9fc4b7b484
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 401deb016122100f86142cb2314c18e3b481bccd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522619"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077869"
 ---
 # <a name="date-calculation-for-sales"></a>Beregne dato for salg
+
 [!INCLUDE[prod_short](includes/prod_short.md)] beregner automatisk hvilken dato en vare på en ordrelinje tidligst kan leveres på.
 
 Hvis en kunde har bedt om en bestemt leveringsdato, beregnes datoen varene må være tilgjengelige for plukking, for at leveringsdatoen skal kunne innfris.
@@ -24,6 +25,7 @@ Hvis en kunde har bedt om en bestemt leveringsdato, beregnes datoen varene må v
 Hvis kunden ikke ber om en bestemt leveringsdato, beregnes datoen varene kan leveres på, fra og med den datoen varene er tilgjengelige for plukking.
 
 ## <a name="calculating-a-requested-delivery-date"></a>Beregne en ønsket leveringsdato
+
 Hvis du angir en ønsket leveringsdato på ordren, blir denne datoen som utgangspunkt for følgende beregninger.
 
 - ønsket leveringsdato - leveringstid = planlagt forsendelsesdato
@@ -32,17 +34,20 @@ Hvis du angir en ønsket leveringsdato på ordren, blir denne datoen som utgangs
 Hvis varene er tilgjengelige for plukking på forsendelsesdatoen, kan salgsprosessen fortsette. Hvis ikke, vises en advarsel om tomt lager.
 
 > [!Note]
-> Hvis prosessen er basert på beregning bakover, for eksempel hvis du bruker ønsket leveringsdato til å hente den planlagte forsendelsesdatoen, anbefaler vi at du bruker datoformler som har faste varigheter, for eksempel "5D" i fem dager eller "1U" for én uke. Datoformler uten faste varigheter, for eksempel "GU" for gjeldende uke eller GM for gjeldende måned, kan resultere i feil datoberegninger. Hvis du vil ha mer informasjon om datoformler, kan du se [Arbeid med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md).
+> Hvis prosessen er basert på beregning bakover, for eksempel hvis du bruker ønsket leveringsdato til å hente den planlagte forsendelsesdatoen, anbefaler vi at du bruker datoformler som har faste varigheter, for eksempel "5D" i fem dager eller "1U" for én uke. Datoformler uten faste varigheter, for eksempel GU for gjeldende uke eller GM for gjeldende måned, kan resultere i feil datoberegninger. Hvis du vil ha mer informasjon om datoformler, kan du se [Arbeid med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md).
 
 ## <a name="calculating-the-earliest-possible-delivery-date"></a>Beregne den tidligste mulige leveringsdatoen
+
 Hvis du ikke angir en ønsket leveringsdato på ordrelinjen, eller hvis ønsket leveringsdato ikke kan innfris, beregnes datoen som varene tidligst er tilgjengelige på. Denne datoen angis deretter i feltet Forsendelsesdato på linjen, og datoen du planlegger å sende og levere varene til kunden på beregnes også ved hjelp av følgende formler.
 
 - forsendelsesdato + utgående lagerhåndteringstid = forsendelsesdato
 - planlagt forsendelsesdato + leveringstid = planlagt leveringsdato
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/promising-sales-order-delivery-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også  
- [Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)   
+## <a name="see-also"></a>Se også
+
+ [Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)  
  [Beregne ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
  [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1102, 1105, 1106, 1107, 1109, 1114
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 11d979329860d72476a6c2ae2ad6fcf57bd2485e
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 78dd79ab8a0f2b966b60dd9d75e95a521b83f4a2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8149130"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075554"
 ---
 # <a name="defining-and-allocating-costs"></a>Definere og fordele kostnader
 
@@ -143,12 +143,14 @@ Dette emnet viser et eksempel på hvordan du kan definere fordelinger ved hjelp 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] bruker forrige års salgstall til å beregne en andel av 1596,50 LV med 100 prosent for IT-UTSTYR-pakker. Dette betyr at alle varene som er solgt det siste året vil bli fordelt til kostobjektet IT-UTSTYR.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/allocate-costs-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
 
- [Definere kost.regnskap](finance-set-up-cost-accounting.md)   
- [Overføre og bokføre kostposter](finance-transfer-and-post-cost-entries.md)   
- [Gjøre rede for kostnader](finance-manage-cost-accounting.md)   
- [Terminologi i kostregnskap](finance-terminology-in-cost-accounting.md)   
+ [Definer kostregnskap](finance-set-up-cost-accounting.md)  
+ [Overfør og bokfør kostposter](finance-transfer-and-post-cost-entries.md)  
+ [Gjøre rede for kostnader](finance-manage-cost-accounting.md)  
+ [Terminologi i kostregnskap](finance-terminology-in-cost-accounting.md)  
  [Om kostregnskap](finance-about-cost-accounting.md)
 
 

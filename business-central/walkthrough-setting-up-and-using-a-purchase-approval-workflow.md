@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: f921a6da2bb963d7cb53f062f32db7af6169020c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d4d2134945f0beb15853bc9cca227cde74285c9d
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520077"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074515"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning
 
@@ -121,9 +121,11 @@ Du kan definere variasjoner i arbeidsflyter ved å fylle ut felt på arbeidsflyt
 
 Hvis et forretningsscenario krever en arbeidsflythendelse eller et arbeidsflytsvar som ikke støttes, må en Microsoft-partner implementere dem via kode, eller du kan konfigurere en arbeidsflyt ved å bruke Power Automate. Hvis du vil ha mer informasjon, kan du se [Bruk [!INCLUDE[prod_short](includes/prod_short.md)] i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md) eller [Hendelse i AL](/dynamics365/business-central/dev-itpro/developer/devenv-events-in-al) i hjelpen for utviklere.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/use-approval-workflows/)
+
 ## <a name="see-also"></a>Se også
 
-[Konfigurere godkjenningsbrukere](across-how-to-set-up-approval-users.md)  
+[Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)  
 [Konfigurere arbeidsflytvarsler](across-setting-up-workflow-notifications.md)  
 [Opprette arbeidsflyter](across-how-to-create-workflows.md)  
 [Bruke arbeidsflyter for godkjenning](across-how-use-approval-workflows.md)  

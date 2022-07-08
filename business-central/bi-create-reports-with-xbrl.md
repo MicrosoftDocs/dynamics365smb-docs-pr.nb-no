@@ -1,8 +1,6 @@
 ---
 title: Opprette rapporter med XBRL
 description: XBRL er et XML-basert språk for merking av økonomiske data, slik at selskaper kan behandle og dele data på en effektiv og nøyaktig måte.
-services: project-madeira
-documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: d25637f00d8b7e6641d994a13e135a78bd72a215
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b282ea2aeec8e28b36bdadfdb57065e8c9e0c727
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511756"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075059"
 ---
 # <a name="create-reports-with-xbrl"></a>Opprette rapporter med XBRL
 

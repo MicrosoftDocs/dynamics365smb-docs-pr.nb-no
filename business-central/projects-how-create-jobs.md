@@ -8,14 +8,15 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5f75b1b7e4f08af7ff02c43ec30ec39c234f7704
-ms.sourcegitcommit: cfe4e924af2c89c09250270245e7a1eef1184bfc
+ms.openlocfilehash: 667cc445ed48bc7cf7d9af67567138a35a730934
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626398"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074695"
 ---
 # <a name="create-jobs"></a>Opprette prosjekter
+
 Når du starter et nytt prosjekt, må du opprette et prosjektkort med integrerte prosjektoppgaver og prosjektplanleggingslinjer, strukturert i to lag.  
 
 Det første laget består av prosjektoppgaver. Du må opprette minst én prosjektoppgave per prosjekt fordi all postering refererer til en prosjektoppgave. Ved å ha minst én prosjektoppgave i prosjektet kan du definere planleggingslinjer og bokføre forbruket i prosjektet.
@@ -34,6 +35,7 @@ Av og til er det en del av den som mottar en tjeneste, forskjellig fra parten so
 * Overskriv standard regnskapsbetingelsene for prosjektet.
 
 ## <a name="to-create-a-job-card"></a>Slik oppretter du et prosjektkort
+
 Du oppretter et prosjektkort og deretter prosjektoppgavelinjer og prosjektplanleggingslinjer for prosjektet.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
@@ -44,6 +46,7 @@ Du oppretter et prosjektkort og deretter prosjektoppgavelinjer og prosjektplanle
 >   Hvis du bruker timelister for prosjektet, må du også angi en person med ansvar for disse. Denne personen kan godkjenne timelister for ansattoppgavene som er knyttet til jobben. Hvis du vil ha mer informasjon, kan du se [Definere timelister](projects-how-setup-time-sheets.md).
 
 ## <a name="to-create-tasks-for-a-job"></a>Slik oppretter du oppgaver for et prosjekt:
+
 En viktig del av å opprette et prosjekt er å angi de ulike oppgavene i prosjektet. Du angir oppgaver ved å opprette én linje per oppgave på hurtigfanen **Oppgaver** på siden **Prosjektkort**. Hvert prosjekt må ha minst én oppgave.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.
@@ -54,6 +57,7 @@ En viktig del av å opprette et prosjekt er å angi de ulike oppgavene i prosjek
 6. Hvis du vil angi prosjektoppgavene med informasjon om andre prosjektoppgaver, kan du velge handlingen **Kopier prosjektoppgaver fra**, fylle ut feltene etter behov, og deretter velge **OK**-knappen.
 
 ## <a name="to-create-planning-lines-for-a-job"></a>Slik oppretter du planleggingslinjer for et prosjekt
+
 Du kan tilpasse dine nye prosjektoppgaver på prosjektplanleggingslinjer. En planleggingslinje kan registrere informasjonen du vil spore for et prosjekt. Du kan for eksempel spore hvilke ressurser jobben krever, eller hvilke varer som er nødvendige. Du har for eksempel en oppgave å få en kunde til å godkjenne en jobb. Du knytter oppgaven til planleggingslinjer for varer eller andre elementer, for eksempel møter med kunden og tildeling av en ressurs.  
 
 En prosjektplanleggingslinje kan være én av følgende typer.  
@@ -72,6 +76,8 @@ En prosjektplanleggingslinje kan være én av følgende typer.
 3. Velg en prosjektoppgave der feltet **Prosjektoppgavetype** inneholder **Bokføring**, og velg deretter handlingen **Prosjektplanleggingslinjer**.  
 4. På siden **Prosjektplanleggingslinjer** på en ny linje fyller du ut feltene etter behov.
 5. Gjenta trinn 3 og 4 for alle planleggingslinjene du trenger for prosjektoppgaven.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/create-new-job/)
 
 ## <a name="see-also"></a>Se også
 

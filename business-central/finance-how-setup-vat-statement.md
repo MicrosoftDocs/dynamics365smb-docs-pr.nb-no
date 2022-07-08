@@ -10,12 +10,12 @@ ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 317, 318, 320, 474
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: 356eb4fd32eff269b166767ae3b6cb3df6b67f1b
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: bda2bc95c78f5cc2119a6725b7dd57491938d67b
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8383700"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075528"
 ---
 # <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Definer mva-oppgavemaler og mva-oppgavenavn
 
@@ -45,10 +45,12 @@ Når du har definert en mva-oppgave, kan du forhåndsvise den for å sikre at de
 4. På linjene hvor **Type**-feltet inneholder **Mva-postsammentelling**, kan du se en oversikt over mva-poster ved å velge beløpet i **Kolonnebeløp**-feltet.
 5. Du kan bruke tilpasning til å vise flere felt på linjene. Det kan for eksempel være urealisert grunnlagsbeløp og urealisert mva-beløp hvis du bruker urealisert mva.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
 
 [Definere merverdiavgift (mva)](finance-setup-vat.md)  
-[Definere urealisert merverdiavgift](finance-setup-unrealized-vat.md)      
+[Definere urealisert merverdiavgift](finance-setup-unrealized-vat.md)  
 [Rapportere mva til skattemyndighetene](finance-how-report-vat.md)  
 [Arbeide med mva på kjøp og salg](finance-work-with-vat.md)  
 [Lokal funksjonalitet i Business Central](about-localization.md)

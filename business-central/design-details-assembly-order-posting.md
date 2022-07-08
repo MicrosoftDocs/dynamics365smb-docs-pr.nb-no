@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 33d8c3a36340c997a12f879f8770e17045a88aa2
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 01c8b40b5217faccabc93e931472ad3aad64b7a1
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521049"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075606"
 ---
 # <a name="design-details-assembly-order-posting"></a>Designdetaljer: Bokføre monteringsordre
 Monteringsordrebokføring er basert på de samme prinsippene som ved bokføring av lignende aktiviteter for salgsordrer og produksjonsforbruk/-avgang. Prinsippene kombineres imidlertid slik at monteringsordrer har sine egne brukergrensesnitt for bokføring, som for salgsordrer, mens den faktiske bokføringen skjer i bakgrunnen som direkte vare- og ressurskladdbokføringer, som for produksjonsforbruk, avgang og kapasitet.  
@@ -107,6 +107,13 @@ Vareposten som er et resultat av bokføring av et montere-til-ordre-salg, blir f
 Vareposter av typen Salg som stammer fra bokføring av montere-til-ordre-antallet, er merket med **Ja** i feltet **Monter til ordre**.  
 
 Bokføring av ordrelinjer der en del er lagerantall og en annen del er montere-til-ordre-antall fører til separate vareposter, én for lagerantallet og én for montere-til-ordre-antallet.  
+
+### <a name="posting-dates"></a>Bokføringsdatoer
+
+Bokføringsdatoer kopieres fra en salgsordre til den koblede monteringsordren. Bokføringsdatoen i monteringsordren oppdateres automatisk når du endrer bokføringsdatoen i salgsordren direkte eller indirekte, for eksempel hvis du endrer bokføringsdatoen i lagerleveringen, lagerplukk eller som en del av en massebokføring.
+
+Du kan endre bokføringsdatoen i monteringsordren manuelt. Det kan imidlertid ikke være senere enn bokføringsdato i den tilknyttede salgsordren. Systemet beholder denne datoen med mindre du oppdaterer bokføringsdatoen i salgsordren.
+
 
 ## <a name="see-also"></a>Se også  
  [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)   

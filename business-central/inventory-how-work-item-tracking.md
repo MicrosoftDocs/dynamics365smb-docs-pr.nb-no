@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 6503, 6515, 6513, 6512, 6502, 6506, 6501, 6510, 6507, 6500, 6505, 6508, 9126, 6526, 6516, 6511, 6504, 6509, 163, 6550,
 ms.date: 08/31/2021
 ms.author: edupont
-ms.openlocfilehash: 883a2d75b2d12f87a49eb84a6b545da30310274c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f458f1dca9f2aa23fcc7942ad6556b1d86848b5f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518002"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074825"
 ---
 # <a name="track-items-with-serial-lot-and-package-numbers"></a>Spore varer med serie-, parti- og pakkenumre
 
@@ -225,6 +225,8 @@ Du kan ikke endre serie- eller partinumre eller antall. Du må reklassifisere de
 
 8. Hvis du vil endre den eksisterende informasjonen for parti- eller serienummeret, kan du registrere parti- eller serienummerinformasjon.  
 9. Bokfør kladden for å knytte de nye varesporingsnumrene eller utløpsdatoene til den tilhørende vareposten
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/prepare-item-tracking/)
 
 ## <a name="see-also"></a>Se også
 

@@ -1,8 +1,6 @@
 ---
 title: Oversikt over oppgavene som oppfyller servicekontrakter
 description: Beskriver oppgaver som er involvert i å oppfylle servicekontrakter med kundene, for eksempel å sette opp standard kontraktsavtaler med maler som kan tilpasses, med mer.
-services: project-madeira
-documentationcenter: ''
 author: brentholtorf
 ms.topic: overview
 ms.devlang: na
@@ -11,12 +9,12 @@ ms.workload: na
 ms.search.keywords: contract, agreement, configure
 ms.date: 06/23/2021
 ms.author: bholtorf
-ms.openlocfilehash: 9ef8d123e8ad16916b12b62328e737e0a36e95ff
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: bb80db794dfab85628ce5e9a8c99e397cc20064c
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382848"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076334"
 ---
 # <a name="fulfilling-service-contracts"></a>Oppfylle servicekontrakter 
 Én måte å sette opp en servicevirksomhet på er å ha standardavtaler mellom virksomheten og kundene som beskriver servicenivået og forventningene til servicen. Du kan opprette kontraktmaler som inneholder nødvendige opplysninger, for eksempel kunde, startdato for kontrakten og fakturaperiode.  

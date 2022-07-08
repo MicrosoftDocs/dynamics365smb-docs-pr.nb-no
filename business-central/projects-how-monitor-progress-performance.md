@@ -10,14 +10,15 @@ ms.search.keywords: project management, KPI, work in process, work in progress
 ms.search.form: 89, 92, 1010
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f53a98d0574bfd324249b85b0b75de5f5e4997e9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ee69503fa830d21ed433e88c3d8f55a42a4ec1bb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514936"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074669"
 ---
 # <a name="monitor-job-progress-and-performance"></a>Overvåke prosjektfremdrift og -ytelse
+
 Under fremdriften av et prosjekt forbrukes materialer, ressurser og andre utgifter som må bokføres til prosjektet. Med funksjonen Varer i arbeid (VIA) kan du beregne den økonomiske verdien av prosjekter i Finans mens prosjektene pågår. I mange tilfeller vil du kanskje bokføre utgifter for et prosjekt før du fakturerer et prosjekt. Når bare utgifter er bokført, vil årsregnskapet bli unøyaktig. Hvis du vil ha mer informasjon, kan du se [Forstå VIA-metoder](projects-understanding-wip.md).
 
 Hvis du vil spore verdien i Finans, kan du beregne VIA og bokføre verdien i Finans.
@@ -33,6 +34,7 @@ Du kan beregne VIA basert på følgende:
 Hvis du vil vise resultatet ved å bruke en annen metode, kan du endre metoden og beregne VIA på nytt. Det er ingen begrensning på antall ganger du kan beregne VIA. VIA beregnes bare, det bokføres ikke i Finans. Når du har beregnet VIA, kan du bokføre i Finans.
 
 ## <a name="to-create-a-job-wip-method"></a>Slik oppretter du en VIA-metode for prosjekt
+
 Du kan opprette en VIA-metode for prosjekt som gjenspeiler behovene i organisasjonen. Når du har opprettet den, kan du angi den som standardmetoden for beregning av prosjekt-VIA som skal brukes i organisasjonen.  
 
 > [!NOTE]
@@ -45,6 +47,7 @@ Du kan opprette en VIA-metode for prosjekt som gjenspeiler behovene i organisasj
 5. Velg metoden fra listen i feltet **Standard VIA-metode**.
 
 ## <a name="to-define-a-wip-method-for-a-job"></a>Slik definerer du en VIA-metode for et prosjekt:
+
 Når du oppretter en nytt prosjekt, må du angi hvilken VIA-metode for prosjekt som gjelder. I enkelte tilfeller er VIA-metoden for prosjekt som du kan bruke, definert for deg som en standard.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.
@@ -52,6 +55,7 @@ Når du oppretter en nytt prosjekt, må du angi hvilken VIA-metode for prosjekt 
 3. På siden **Prosjektkort** i feltet **VIA-metode** velger du en VIA-metode fra listen. Hvis en standardmetode er definert, kan du velge et annet alternativ etter behov.  
 
 ## <a name="to-calculate-wip"></a>Slik beregner du VIA:
+
 Du kan fastsette VIA-beløpet som skal bokføres på balansekonti for rapportering ved periodeslutt. Du bruker kjørselen **Beregn VIA for prosjekt** til å gjøre dette.  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Beregn VIA for prosjekt**, og velg deretter den relaterte koblingen.  
@@ -63,6 +67,7 @@ Du kan fastsette VIA-beløpet som skal bokføres på balansekonti for rapporteri
 >   Kjørselen beregner bare VIA. De bokføres ikke i finans. Hvis du vil gjøre det, må du kjøre kjørselen **Bokfør VIA i Finans** når du har beregnet VIA. Hvis du vil ha mer informasjon, kan du se følgende fremgangsmåte:
 
 ## <a name="to-post-wip"></a>Slik bokfører du VIA
+
 Når du har beregnet VIA, kan du bokføre VIA i balansekonti for rapporteringen ved periodens slutt. Du bruker kjørselen **Bokfør VIA i Finans for prosjekt** til å gjøre dette.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokfør VIA i Finans for prosjekt**, og velg deretter den relaterte koblingen.  
@@ -70,6 +75,7 @@ Når du har beregnet VIA, kan du bokføre VIA i balansekonti for rapporteringen 
 3. Velg **OK**-knappen.
 
 ## <a name="to-calculate-and-post-job-completion-entries"></a>Slik beregner og bokfører du prosjektferdiggjørelsesposter
+
 Når du har fullført alle aktiviteter for et prosjekt, inkludert bokføring og fakturering, må du oppdatere prosjektet for å sette **Status** til **Ferdig**. Deretter må du reversere alle VIA-er som er bokført i finans.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
@@ -86,6 +92,7 @@ Når du har fullført alle aktiviteter for et prosjekt, inkludert bokføring og 
      VIA-finanspostene for prosjekt som du oppretter ved å kjøre kjørselen, vil ha en avmerking i **Prosjekt ferdig**-boksen for å angi at de er ferdiggjørelsesposter.
 
 ## <a name="to-view-job-ledger-entries"></a>Slik viser du prosjektposter
+
 Alle prosjektrelaterte poster registreres i prosjektjournaler og nummereres fortløpende og starter med 1. I prosjektjournalen kan du få en oversikt over alle prosjektpostene.    
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektjournaler**, og velg deretter den relaterte koblingen.
@@ -93,12 +100,15 @@ Alle prosjektrelaterte poster registreres i prosjektjournaler og nummereres fort
 
 På siden **Prosjektposter** kan du gå gjennom postene som er knyttet til et prosjekt.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
+
 ## <a name="see-also"></a>Se også
-[Administrere prosjekter](projects-manage-projects.md)
-[Administrere lagerkostnader](finance-manage-inventory-costs.md)   
+
+[Administrere prosjekter](projects-manage-projects.md)  
+[Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Finans](finance.md)  
-[Innkjøp](purchasing-manage-purchasing.md)         
-[Salg](sales-manage-sales.md)      
+[Innkjøp](purchasing-manage-purchasing.md)  
+[Salg](sales-manage-sales.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -7,12 +7,12 @@ ms.search.keywords: profiles, users
 ms.search.form: 9171
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: b17a4f5a375e4fa1ad067d2679b37bb3d0f5da95
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a44338ca10dee37bba6d78ec1c73cb7b156bd2b3
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514150"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079275"
 ---
 # <a name="manage-user-profiles"></a>Administrer brukerprofiler
 
@@ -145,9 +145,12 @@ Du kan som administrator for [!INCLUDE[prod_short](includes/prod_short.md)] onli
 
 For lokal [!INCLUDE[prod_short](includes/prod_short.md)] kan du for eksempel behandle økter som bruker SQL Server Management Studio. Hvis du vil ha mer informasjon, kan du se [teknisk dokumentasjon for SQL Server](/sql/sql-server).  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/users-security-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se også
+
 [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md)  
-[Tilpasse sider for profiler](ui-personalization-manage.md)  
+[Tilpass sider for profiler](ui-personalization-manage.md)  
 [Tilpasse arbeidsområdet](ui-personalization-user.md)  
 
 

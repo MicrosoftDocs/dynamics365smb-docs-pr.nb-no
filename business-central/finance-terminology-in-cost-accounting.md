@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 1123
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 6e5f1e99daea56fda5a1a36e0e2b1fb69c332dc5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 92f44504f97c4203585486fc937ed3bb560ad5d4
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519150"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076542"
 ---
 # <a name="terminology-in-cost-accounting"></a>Terminologi i kostregnskap
 
@@ -49,8 +49,11 @@ Dette emnet definerer de viktigste begrepene som brukes i kostregnskap.
 |Variabel kostnad|Variable kostnader er utgifter som endres i forhold til aktiviteten i en virksomhet. Variable kostnader er summen av grensekostnader over alle enheter som er produsert. Faste og variable kostnader utgjør de to komponentene i totale kostnader.|  
 |Variant|En variant brukes som en valgfri brukerdefinert etikett for tildelinger. Formålet med etiketten er å filtrere grupper av tildeling.|  
 
-## <a name="see-also"></a>Se også  
- [Om kostregnskap](finance-about-cost-accounting.md)   
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/use-cost-accounting-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se også
+
+ [Om kostregnskap](finance-about-cost-accounting.md)  
  [Gjøre rede for kostnader](finance-manage-cost-accounting.md)  
  [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

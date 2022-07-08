@@ -7,12 +7,12 @@ ms.search.keywords: administration, admin, key, optional, feature management, ea
 ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
-ms.openlocfilehash: a3cc650067c18da1594e2381413f8dd76966ab3a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: ca23cb79f3ef95db1cb7c9528805d37a7560fc8a
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141388"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077661"
 ---
 # <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Aktivere nye og kommende funksjoner på forhånd
 
@@ -21,6 +21,8 @@ Noen nye funksjoner kan aktiveres på forhånd, slik at du kan dra nytte av dem 
 Når Microsoft utgir funksjoner eller forbedringer i funksjonsutformingen som en del av mindre oppdateringer, er noen av funksjonene ikke umiddelbart aktivert. Administratorer kan aktivere hver funksjon på siden **Funksjonsstyring**. Når en funksjon er aktivert, blir den tilgjengelig for alle brukere i miljøet, uansett hvordan de har tilgang til [!INCLUDE[prod_short](includes/prod_short.md)]. Funksjoner kan trygt deaktiveres på nytt. Disse funksjonene er bare valgfrie en liten stund.
 
 Finn ut mer om [Funksjonsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management).  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

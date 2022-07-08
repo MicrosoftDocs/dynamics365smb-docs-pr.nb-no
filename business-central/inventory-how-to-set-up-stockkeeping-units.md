@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.forms: 5704, 5700, 5702, 5701
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 320a5315f569deeec8c86ce8246497f171fbb853
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5271203a9936f268e23df9b8e38a2373d875e5f9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517397"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076490"
 ---
 # <a name="set-up-stockkeeping-units"></a>Definere lagerføringsenheter
+
 Du kan bruke lagerføringsenheter til å registrere opplysninger om varer for en bestemt lokasjon eller en variantkode.  
 
 Lagerføringsenheter er et tillegg til varekort. De erstatter dem ikke, selv om de er knyttet til dem. Med lagerføringsenheter kan du skille mellom opplysninger om en vare for en bestemt lokasjon (for eksempel et lager eller et distribusjonssenter) eller en bestemt variant (for eksempel ulike hyllenumre og ulike opplysninger om etterfylling), for den samme varen.  
@@ -39,9 +40,12 @@ Hvis du vil opprette flere lagerføringsenheter for en vare, bruker du kjørsele
 > Hvis LFE angis via produksjon, brukes ikke **Kostpris (standard)**-feltet når faktisk kost for den produserte varen faktureres og justeres. I stedet brukes **Kostpris (standard)**-feltet på det underliggende varekortet, og eventuelle avvik beregnes mot kostandelene for denne varen.<br /><br />
 > Siden produksjonsstykklister og ruting ikke kan tilordnes til LFEer, er heller ikke opprulling av enhetskost og den relaterte beregningen av kostandeler tilgjengelig på LFEer. Hvis du vil ha mer informasjon, kan du se [Om beregning av standardkost](finance-about-calculating-standard-cost.md).
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/control-inventory-multiple-locations/)
+
+## <a name="see-also"></a>Se også
+
 [Registrere nye varer](inventory-how-register-new-items.md)  
-[Definere lagerstyring](warehouse-setup-warehouse.md)  
+[Definer lagerstyring](warehouse-setup-warehouse.md)  
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
 [Monteringsstyring](assembly-assemble-items.md)    

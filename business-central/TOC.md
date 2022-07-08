@@ -229,13 +229,11 @@
 ### Inngående dokumenter
 #### [Oversikt over inngående dokumenter](across-income-documents.md)
 #### [Konfigurere inngående dokumenter](across-how-setup-income-documents.md)
-#### Behandle inngående dokumenter
-##### [Behandle inngående dokumenter](across-process-income-documents.md)
-##### [Opprette innkommende dokumentposter](across-how-create-income-document-records.md)
-##### [Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md)
-##### [Opprette innkommende dokumentposter direkte fra dokumenter og poster](across-how-connect-disconnect-income-document-records.md)
-##### [Finne bokførte dokumenter uten innkommende dokumentposter](across-how-find-posted-documents-without-income-document-records.md)
-##### [Håndter mange inngående dokumentposter](across-how-manage-many-income-document-records.md)
+#### [Opprette innkommende dokumentposter](across-how-create-income-document-records.md)
+#### [Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md)
+#### [Opprette innkommende dokumentposter direkte fra dokumenter og poster](across-how-connect-disconnect-income-document-records.md)
+#### [Finne bokførte dokumenter uten innkommende dokumentposter](across-how-find-posted-documents-without-income-document-records.md)
+#### [Håndter mange inngående dokumentposter](across-how-manage-many-income-document-records.md)
 
 ### Arbeidsflyter
 #### [Oversikt over arbeidsflyt](across-workflow.md)
@@ -1424,8 +1422,8 @@
 #### Avgift
 ##### [Amerikansk salgsmva](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Rapportering av salgsmva i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)  
-##### [Rapportere transaksjoner som 1099-pliktige i USA](LocalFunctionality/UnitedStates/tax-1099.md)  
 ##### [Konfigurer og bruk IRS 1099-skjemaet](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
+##### [Endringer og detaljer for forskriftsmessig 1099-format](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Definere amerikansk mva. og innkjøpsavgift](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Definere urealisert salgs-mva og kontantrabatter for salg](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
 #### Banktjenester og betalinger

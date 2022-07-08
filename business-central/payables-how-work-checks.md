@@ -10,12 +10,12 @@ ms.search.keywords: payment journal, print check, vendor payment, creditor, debt
 ms.search.form: 256, 404,
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1b4d3f152f74e1bba9f30e7da45e1b910301b4df
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f9b819205fe3292e7a3de5e8de232616a511ca24
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520233"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077193"
 ---
 # <a name="make-check-payments"></a>Foreta sjekkbetalinger
 
@@ -37,6 +37,7 @@ Du kan betale med to typer sjekker. For begge disse typene må feltet **Motkonto
 Du kan skrive ut opptil 10 fakturaer på en side for en blankett. Hvis en sjekk gjelder for flere enn 10 fakturaer, kansellerer vi sjekken på den første siden og skrive ut ordet KANSELLER på sjekken når du skriver ut blanketten. Vi skriver deretter ut resten av fakturaene og det totale sjekkbeløpet på den andre siden.
 
 ## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Slik betaler du en leverandørfaktura med en maskinell sjekk
+
 Nedenfor beskrives hvordan du betaler en leverandør med sjekk. Fremgangsmåten er lik refusjon til kunde med sjekk.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladder** og velg den relaterte koblingen.
@@ -56,6 +57,7 @@ Fullstendig utlignede leverandørposter og bankposter opprettes.
 > Hvis du vil skrive ut og betale sjekker i flere valutaer fra forskjellige bankkonti, må du utføre kjørselen **Skriv ut sjekk** separat for hver enkelt valuta og angi riktig bankkonto.
 
 ## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Kansellere utskrevne sjekker som ikke er bokført
+
 Du kan kansellere ikke-bokførte sjekker etter at de er skrevet ut, ved hjelp av handlingen **Kanseller sjekk** på siden **Betalingskladd**.
 
 1. På siden **Betalingskladd** velger du **Kanseller sjekk**, og deretter velger du hvilke sjekker som skal kanselleres.
@@ -74,11 +76,15 @@ Når sjekkbetaliner er bokført, kan du bare kansellere (void) sjekker fra de re
 5. Velg **OK**.
 
 ## <a name="to-view-a-summary-of-posted-checks"></a>Slik viser du et sammendrag av bokførte sjekker
+
 Hvis du vil gå gjennom bokførte sjekker, for eksempel for å kontrollere flere sjekker som er betalt til én leverandør, kan du bruke rapporten **Bankkonto - sjekkopplysninger**.
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") angi **Bankkontoavstemming – sjekkopplysninger**, og velg deretter den relaterte koblingen.
 2. Angi filtre som er relevante, og velg deretter **Forhåndsvisning**-knappen.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/use-checks-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
+
 [Utføre betalinger](payables-make-payments.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Konfigurere banktjenester](bank-setup-banking.md)  

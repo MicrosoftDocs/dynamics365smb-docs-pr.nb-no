@@ -9,17 +9,19 @@ ms.workload: na
 ms.search.forms: 36, 5872, 5870, 5874, 911, 917, 912
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 6f2ac75c4a00804c0fef47dfb7885fa2d50fbf19
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: d538ea3e1bb00772a3a3183c09c2220893380058
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515488"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079561"
 ---
 # <a name="work-with-bills-of-material"></a>Arbeide med stykklister
+
 Du bruker stykklister til å strukturere overordnede varer som må monteres eller produseres av ressurser eller produksjonsressurser fra komponenter. En monteringsstykkliste kan også brukes til å selge en overordnet vare som et sett som består av dens komponenter.
 
 ## <a name="assembly-boms-or-production-boms"></a>Monteringsstykklister eller produksjonsstykklister
+
 Du bruker monteringsordrer for å produsere sluttvarer fra komponenter i en enkel prosess som kan utføres av én eller flere grunnleggende ressurser, som ikke er produksjonsressurser eller arbeidssentre, eller uten noen ressurser. En monteringsprosess kan for eksempel være å plukke to flasker vin og én kaffepose og deretter pakke dem som en gave.  
 
 En monteringsstykkliste er hoveddataene som definerer hvilke komponentvarer som inngår i en montert sluttvare, og hvilke ressurser som brukes til å montere monteringselementet. Når du angir en monteringsvare og et antall i hodet i en ny monteringsordre, fylles monteringsordrelinjene automatisk ut i henhold til monteringsstykklisten, med én monteringsordrelinje per komponent eller ressurs. Hvis du vil ha mer informasjon, se [Monteringsstyring](assembly-assemble-items.md).
@@ -35,6 +37,7 @@ Konseptet med ressurser i produksjon er mye mer avansert enn i monteringsstyring
 Både monteringsordrer og produksjonsordrer kan kobles direkte til salgsordrer. Du kan imidlertid bare bruke monteringsordrer til å tilpasse sluttvaren direkte for en kundeforespørsel med ordren.
 
 ## <a name="to-create-an-assembly-bom"></a>Slik oppretter du en monteringsstykkliste:
+
 Hvis du vil definere en overordnet vare som består av andre varer, og potensielt av ressursene som kreves for å sette sammen den overordnede varen, må du opprette en monteringsstykkliste.  
 
 Monteringsstykklister inneholder vanligvis varer, men kan også inneholde en eller flere ressurser som trengs for å sette monteringsvaren sammen.
@@ -54,6 +57,7 @@ Oppretting av en monteringsstykkliste foregår i to trinn:
 3. Fyll ut feltene etter behov på siden **Monteringsstykkliste**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-edit-assembly-boms"></a>Slik redigerer du monteringsstykklister
+
 Du kan når som helst redigere linjene i en monteringsstykkliste. Vær oppmerksom på at stykklisten kan være i bruk på pågående salg eller sammenstillinger av den overordnede, noe som kan påvirkes av endringen. Velg **Inngår i**-handlingen for å se hvilke varer den brukes i, og deretter om ordre-eller monteringsordrer kan påvirkes.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
@@ -61,6 +65,7 @@ Du kan når som helst redigere linjene i en monteringsstykkliste. Vær oppmerkso
 3. På siden **Monteringsstykkliste** velger du **Rediger liste**-handlingen, og deretter endrer du felt etter behov.
 
 ## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Vise komponentene og ressursene som er rykket inn i henhold til stykklistestrukturen
+
 Fra siden **Monteringsstykkliste** kan du åpne en egen side som viser komponentene og ressurser som er rykket inn, i henhold til deres stykklisteposisjon under monteringsvaren.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
@@ -69,6 +74,7 @@ Fra siden **Monteringsstykkliste** kan du åpne en egen side som viser komponent
 4. På siden **Monteringsstykkliste** velger du handlingen **Vis stykkliste**.
 
 ## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Slik erstatter du monteringsvaren med dens komponenter i dokumentlinjer
+
 Du kan bruke en spesiell funksjon erstatte linjen for varen samlingen med nye linjer for komponentene fra en salgs- og kjøpsdokument som inneholder en vare i produksjonen. Denne funksjonen er nyttig for eksempel hvis du vil selge komponentene som et sett med samlingen varen.
 
 Handlingen **Utfold stykkliste** er også tilgjengelig på siden **Monteringsstykkliste** som en måte å vise underordnede monteringsvarer på en monteringsstykkliste på.
@@ -113,9 +119,12 @@ Enhetskosten for en monteringsstykkliste er alltid lik totalsummen for enhetskos
 
 Kostnadene for varer som utgjør monteringsstykklisten kopieres fra komponentvarekortene. Hver varekostnad multipliseres med antallet, og kostbeløpet vises i feltet **Enhetskost** på varekortet.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/set-up-assembly-items-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
+
 [Registrere nye varer](inventory-how-register-new-items.md)  
-[Vise tilgjengeligheten av varer](inventory-how-availability-overview.md)     
+[Vis tilgjengeligheten av varer](inventory-how-availability-overview.md)  
 [Lager](inventory-manage-inventory.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 12/03/2021
 ms.author: edupont
-ms.openlocfilehash: aa5e24755b44b2ce7b36a9a6062bf0168c5ddb89
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 0aa467b636be3be75c38c87b2592a69b70440c11
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799562"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075217"
 ---
 # <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Gjennomgang: konfigurere og fakturere salgsforskudd
 
@@ -231,6 +231,8 @@ Denne gjennomgangen har ledet deg gjennom trinnene for å konfigurere [!INCLUDE[
 Du har også bokført en forskuddsfaktura, opprettet en ekstra forskuddsfaktura når ordren har blitt endret, og bokført den endelige fakturaen for restbeløpet.  
 
 Med funksjonene for forskuddsbetaling i [!INCLUDE[prod_short](includes/prod_short.md)] blir det enkelt å konfigurere og håndheve forskuddsregler for kunder og varer, og du kan bokføre hver betaling mot en faktura.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

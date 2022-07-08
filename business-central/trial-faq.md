@@ -6,12 +6,12 @@ ms.topic: get-started
 ms.custom: template-trial-faq
 ms.author: edupont
 ms.date: 02/23/2022
-ms.openlocfilehash: 368ed714fb7b8367ff1876cb5be83e422860b684
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: 995d7277d67b3db4360210e80b417b8a62d6b1a8
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805155"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077088"
 ---
 # <a name="dynamics-365-business-central-trial-faq"></a>Vanlige spørsmål om prøversjonen av Dynamics 365 Business Central
 
@@ -49,9 +49,14 @@ Bytt til prøveversjonen på 30 dager, og legg deretter til dine egne data. Hvis
 
 Du kan ikke det. Hvis du sletter eksempeldata ved et uhell, må du be administrator om å opprette et nytt sandkassemiljø. Hvis du vil ha mer informasjon, kan du se [Produktsjons- og sandkassemiljøer](/dynamics365/business-central/dev-itpro/administration/environment-types) i administratorinnholdet (bare på engelsk).  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/trial-dynamics-365-business-central/)
+
 ## <a name="see-also"></a>Se også
 
 [Registrer deg for en Dynamics 365 Business Central-prøveversjon](trial-signup.md)  
 [Vanlige spørsmål om å bruke Business Central](across-faq.yml)  
 [Feilsøke registrering for Self-Service](ui-troubleshoot-self-signup.md)  
 [Prøveversjoner og abonnementer for [!INCLUDE[prod_long](includes/prod_long.md)]](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

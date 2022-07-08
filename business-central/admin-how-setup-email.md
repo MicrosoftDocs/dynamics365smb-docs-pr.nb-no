@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: 8357659f42976c7e3bc9b64a3c0aa10fe5b32364
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: df98aeba310bdc1e111834277b28c4c8edc9085b
+ms.sourcegitcommit: 0513051fd4a3b804188e7404569e802ec327cf84
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950465"
+ms.lasthandoff: 06/22/2022
+ms.locfileid: "9041429"
 ---
 # <a name="set-up-email"></a>Konfigurer e-post
 Personer i bedrifter sender informasjon og dokumenter, for eksempel ordrer og bestillinger og fakturaer, per e-post hver dag. Administratoren kan koble en eller flere e-postkontoer til [!INCLUDE[prod_short](includes/prod_short.md)], slik at du kan sende dokumenter uten å måtte åpne en e-postapp. Du kan lage hver enkelt melding individuelt med grunnleggende formateringsverktøy, for eksempel skrifter, stiler, farger og så videre, og legge til vedlegg på opptil 100 MB. Med rapportoppsett kan administratorer ta med bare nøkkelinformasjonen fra dokumenter. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md).
@@ -44,7 +44,7 @@ Følgende tabell beskriver e-postutvidelsene som er tilgjengelige som standard.
 |**SMTP-kobling**|Bruk SMTP-protokoll til å sende e-poster.|Tillat kommunikasjon via SMTP-e-postserveren. |
 
 > [!NOTE]
-> Utvidelsene **Microsoft 365-kobling** og **Nåværende bruker-kobling** bruker de kontoene du konfigurerte for brukere i administrasjonssenteret for Microsoft 365 for Microsoft 365-abonnementet. Brukere må ha en gyldig lisens for Exchange Online for å sende e-post med utvidelsene. I tillegg krever disse utvidelsene at innstillingen **Tillat HttpClient-forespørsler** er aktivert. Du kan kontrollere om det er aktivert for disse utvidelsene ved å gå til siden **Utvidelsesbehandling**, velge utvidelsen og deretter velge alternativet **Konfigurer**.
+> Utvidelsene **Microsoft 365-kobling** og **Nåværende bruker-kobling** bruker de kontoene du konfigurerte for brukere i administrasjonssenteret for Microsoft 365 for Microsoft 365-abonnementet. Brukere må ha en gyldig lisens for Exchange Online for å sende e-post med utvidelsene. I tillegg krever disse utvidelsene at innstillingen **Tillat HttpClient-forespørsler** er aktivert i sandkassemiljøer. Du kan kontrollere om det er aktivert for disse utvidelsene ved å gå til siden **Utvidelsesbehandling**, velge utvidelsen og deretter velge alternativet **Konfigurer**.
 
 > Eksterne brukere, for eksempel delegerte administratorer og eksterne regnskapsførere, kan ikke bruke disse utvidelsene til å sende e-postmeldinger fra [!INCLUDE[prod_short](includes/prod_short.md)].
 

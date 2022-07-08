@@ -10,19 +10,21 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 385003db0d0fe8b121e6512257f0ed448596225e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 92ebe1881a143986ef4775e269211f0fb7279f3f
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519703"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079587"
 ---
 # <a name="reserve-items"></a>Reservere varer
+
 Du kan reservere varer for ordrer, bestillinger, serviceordrer, monteringsordrer og produksjonsordrer. Du kan reservere varer på lager eller inngående på åpne dokument- eller kladdelinjer. Du utfører arbeidet på **Reservasjon**-siden.
 
 Hver linje på **Reservasjon**-siden, som du åpner for å reservere varer, viser informasjon om én type linje (salg, kjøp, kladd) eller lagerpost. Linjene beskriver hvor mange varer som kan reserveres fra hver linje- eller posttype.
 
 ## <a name="to-reserve-items-for-sales"></a>Slik reserverer du varer for salg
+
 Fremgangsmåten nedenfor beskriver hvordan du reserverer varer fra en ordre. Fremgangsmåten er lignende for kjøps- service- og monteringsordrer.  
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  I en ordre, i hurtigfanen **Linjer** velger du **Reserver**-handlingen. **Reservasjon**-siden åpnes.  
@@ -38,7 +40,8 @@ Fremgangsmåten nedenfor beskriver hvordan du reserverer varer fra en ordre. Fre
 > [!NOTE]  
 >  Hvis det finnes varesporingslinjer for ordren, blir du ledet gjennom spesielle trinn i reservasjonssystemet: Hvis du vil ha mer informasjon, kan du se [Reservere et spesifikt serie- eller partinummer](inventory-how-to-reserve-items.md#to-reserve-a-specific-serial-or-lot-number).  
 
-## <a name="to-reserve-an-item-for-a-production-order-line"></a>Slik reserverer du varer for produksjonsordrelinjer  
+## <a name="to-reserve-an-item-for-a-production-order-line"></a>Slik reserverer du varer for produksjonsordrelinjer
+
 Du kan reservere varer for produksjonsordrer. Du må skille mellom produksjonsordrelinjer, som betyr den overordnede varen, og produksjonsordrekomponenter.
 
 I fremgangsmåten nedenfor brukes det en fast planlagt produksjonsordre.   
@@ -50,7 +53,8 @@ I fremgangsmåten nedenfor brukes det en fast planlagt produksjonsordre.
 
 Antallet du angav på den fast planlagte produksjonsordrelinjen, er nå reservert.
 
-## <a name="to-reserve-items-for-production-order-components"></a>Slik reserverer du varer for produksjonsordrekomponenter  
+## <a name="to-reserve-items-for-production-order-components"></a>Slik reserverer du varer for produksjonsordrekomponenter
+
 Du kan reservere varer for produksjonsordrer. Du må skille mellom produksjonsordrelinjer, som betyr den overordnede varen, og produksjonsordrekomponenter.
 
 I fremgangsmåten nedenfor brukes det en fast planlagt produksjonsordre.    
@@ -64,21 +68,24 @@ I fremgangsmåten nedenfor brukes det en fast planlagt produksjonsordre.
 
 Antallet du angav på den fast planlagte produksjonskomponentlinjen, er nå reservert.
 
-## <a name="to-change-a-reservation"></a>Slik endrer du en reservasjon  
+## <a name="to-change-a-reservation"></a>Slik endrer du en reservasjon
+
 Noen ganger kan det hende du vil endre en varereservasjon.   
 1. Fra dokumentlinjen som du har reservert fra, på hurtigfanen **Linjer**, velger du **Reserver**-handlingen.  
 2. På **Reservasjon**-siden velger du handlingen **Reservasjonsposter**.
 3. På siden **Reservasjonsposter** oppdaterer du **Antall**-feltet på linjen du vil endre.
 4. Bekreft meldingen som vises, ved å velge **OK**-knappen.
 
-## <a name="to-cancel-a-reservation"></a>Slik kansellerer du en reservasjon  
+## <a name="to-cancel-a-reservation"></a>Slik kansellerer du en reservasjon
+
 Noen ganger kan det hende du vil kansellere en varereservasjon.   
 1. Fra dokumentlinjen som du ønsker å avbryte en reservasjon fra, på hurtigfanen **Linjer**, velger du **Reserver**-handlingen.  
 2. På **Reservasjon**-siden velger du handlingen **Reservasjonsposter**.  
 3.  På **Reservasjon**-siden velger du handlingen **Kanseller reservasjon**.  
 4.  Bekreft meldingen som vises, ved å velge **OK**-knappen.  
 
-## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Reservere et spesifikt serie- eller partinummer  
+## <a name="to-reserve-a-specific-serial-or-lot-number"></a>Reservere et spesifikt serie- eller partinummer
+
 Fra utgående dokumenter for varesporede varer, for eksempel ordrer eller produksjonskomponentlister, kan du reservere bestemte serie- eller partinumre. Dette kan for eksempel være relevant hvis du trenger produksjonskomponenter fra et bestemt parti for å sikre konsekvens med tidligere produksjonspartier, eller fordi en kunde har bedt om et bestemt serienummer. Hvis du vil ha mer informasjon, kan du se [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md).
 
 Dette kalles en spesifikk reservasjon, fordi du reserverer fra antallet av varen X som tilhører partiet X. Hvis du bare reserverer fra antall av varen X, er dette en normal, ikke-spesifikk reservasjon. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Varesporing og reservasjoner](design-details-item-tracking-and-reservations.md).
@@ -93,7 +100,10 @@ Følgende fremgangsmåte er basert på en ordre.
 7. Velg **OK**-knappen for å åpne siden **Reservasjon**, som bare viser det angitte varesporingsnummeret. Hvis det finnes ikke-spesifikke reservasjoner for noen av varesporingsnumrene du har angitt for denne linjen, får du beskjed om antallet som allerede er reservert.  
 8. Velg **Auto-reserver** eller **Reserver fra gjeldende linje** for å opprette reservasjonen for de spesifikke varesporingsnumrene.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/manage-outbound-serial-lot-numbers/)
+
 ## <a name="see-also"></a>Se også
+
 [Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md)  
 [Designdetaljer: Varesporing og reservasjoner](design-details-item-tracking-and-reservations.md)  

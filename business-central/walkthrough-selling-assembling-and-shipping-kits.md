@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 8fd48bd5134fcd42ccee67cbc54eb32b3d8c5a63
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3c0ce6cc58d5876f99d82a0c177cb760bfdd9468
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148047"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075268"
 ---
 # <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gjennomgang: Selge, montere og levere sett
 
@@ -26,16 +26,19 @@ Det finnes spesiell funksjonalitet for å styre leveringen av monter-til-ordre-a
 
 I grunnleggende lageroppsett bokfører den overordnede lagermedarbeideren en lagerplukking for ordrelinjene når et montere-til-ordre-antall er klart til å leveres. Deretter blir det opprettet en lagerflytting for komponentene, og monteringsavgangen og ordreforsendelsen blir bokført. Hvis du vil ha mer informasjon, kan du se [Håndtere montere-til-ordre-varer i lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
-## <a name="about-this-walkthrough"></a>Denne gjennomgangen  
+## <a name="about-this-walkthrough"></a>Denne gjennomgangen
+
 Denne gjennomgangen viser følgende oppgaver:  
 
-### <a name="setting-up-assembly-items"></a>Definere monteringsvarer  
+### <a name="setting-up-assembly-items"></a>Definere monteringsvarer
+
 Monteringsvarer kjennetegnes av etterfyllingssystemet og monteringsstykklisten. Varens monteringsprinsipp kan enten være montere-til-ordre (ATO) eller montere-til-lager (ATS). Denne delen dekker følgende oppgaver:  
 
 -   Angi riktig etterfyllingssystem og monteringsprinsipp på et nytt monteringsvarekort.  
 -   Opprette en monteringsstykkliste som viser monteringskomponentene og ressursen som inngår i monteringsvaren.  
 
-### <a name="selling-customized-assembly-items"></a>Selge tilpassede monteringsvarer  
+### <a name="selling-customized-assembly-items"></a>Selge tilpassede monteringsvarer
+
 [!INCLUDE[prod_short](includes/prod_short.md)] gir deg fleksibilitet til å angi et både lagerantall og et montere-til-ordre-antall på én salgsordrelinje. Denne delen dekker følgende oppgaver:  
 
 -   Opprette en ren ATO-ordrelinje der det fullstendige antallet er utilgjengelig og må være montert før levering.  
@@ -44,20 +47,23 @@ Monteringsvarer kjennetegnes av etterfyllingssystemet og monteringsstykklisten. 
 -   Opprette en blandet ordrelinje der deler av salgsantallet kommer fra lageret, og der den gjenstående delen må være montert før levering.  
 -   Forstå advarsler om ATO-tilgjengelighet.  
 
-### <a name="planning-for-assembly-items"></a>Planlegge for monteringsvarer  
+### <a name="planning-for-assembly-items"></a>Planlegge for monteringsvarer
+
 Monteringsbehov og -forsyning håndteres av planleggingssystemet, akkurat som for kjøp, overføring og produksjon. Denne delen dekker følgende oppgaver:  
 
 -   Kjøre en replanlegging for varer med salgsbehov for montert forsyning.  
 -   Genererer en monteringsordre for å innfri salgslinjeantallet innen behovsdatoen for leveringen.  
 
-### <a name="assembling-items"></a>Montere varer  
+### <a name="assembling-items"></a>Montere varer
+
 Monteringsordrer virker på lignende måte som produksjonsordrer, bortsett fra at forbruket og avgagnen registreres og bokføres direkte fra ordren. Når varene er montert til lager, har monteringsarbeideren full tilgang til alle hode- og linjefelt. Når varene monteres til en ordre der det er gitt løfter om antall og dato til kunden, kan ikke bestemte felt på monteringsordren redigeres. I dette tilfellet utføres monteringsbokføringen fra lagerleveringen for den tilknyttede ordren. Denne delen dekker følgende oppgaver.  
 
 -   Registrere og bokføre monteringsforbruk og avgang til lager.  
 -   Tilgang til en lagerfølgeseddellinje fra en ATO-monteringsordre for å registrere monteringsarbeid.  
 -   Tilgang til en ATO-monteringsordre fra en lagerfølgeseddellinje for å gå gjennom automatisk registrerte data.  
 
-### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Levering av monteringsvarer, fra lager og montert til ordre  
+### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Levering av monteringsvarer, fra lager og montert til ordre
+
 Det finnes spesiell funksjonalitet for å styre leveringen av monter-til-ordre-antall. Denne delen dekker følgende oppgaver:  
 
 -   Opprette et lagerplukk for monteringsvarer på lager og for monteringskomponenter som skal monteres før levering.  
@@ -66,7 +72,8 @@ Det finnes spesiell funksjonalitet for å styre leveringen av monter-til-ordre-a
 -   Levering av montere-til-ordre-antall.  
 -   Levering av monteringsvare på lager.  
 
-## <a name="roles"></a>Roller  
+## <a name="roles"></a>Roller
+
 Denne gjennomgangen viser oppgaver som utføres av følgende brukerroller:  
 
 -   Ordrebehandler  
@@ -75,7 +82,8 @@ Denne gjennomgangen viser oppgaver som utføres av følgende brukerroller:
 -   Plukker  
 -   Ansvarlig for forsendelse  
 
-## <a name="prerequisites"></a>Forutsetninger  
+## <a name="prerequisites"></a>Forutsetninger
+
 Før du kan utføre oppgavene i gjennomgangen, må du gjøre følgende:  
 
 -   Installere [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -108,7 +116,8 @@ Fjern standard leveringstid for interne prosesser ved å følge disse trinnene:
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
-## <a name="story"></a>Hovedscenario  
+## <a name="story"></a>Hovedscenario
+
 Den 23. januar tar ordrebehandleren Susanna en ordre fra Lydeksperten på tre enheter av sett B, som er en ATO-vare. Alle de tre enhetene er tilpasset, og de må inneholde sterke grafikkort og en ekstra RAM-blokk. Diskstasjonene er oppgradert til DWD fordi CD-stasjonene ikke er tilgjengelige. Heidi vet at enhetene kan monteres med en gang, så hun beholder den foreslåtte leveringsdatoen på 23. januar.  
 
 Samtidig bestiller kunden femten enheter av sett A med en spesiell forespørsel om at fem enheter tilpasses til å inneholde det kraftige grafikkortet. Selv om sett A vanligvis er en monter til lager-vare, kombinerer ordrebehandleren salgslinjeantallene for å selge ti enheter fra lageret og montere fem tilpassede enheter til ordren. De ti enhetene i sett A er utilgjengelige og må først forsynes til lager ved hjelp av en monteringsordre i samsvar med varenes monteringsprinsipp. Heidi informeres fra monteringsavdelingen om at sett A-enheter ikke kan fullføres i den gjeldende uken. Hun angir den andre salgsordrelinjens leveringsdato, for det blandede ATO- og lagerantallet, til 27. januar og informerer kunden om at 15 enheter av sett A blir levert fire dager senere enn de tre enhetene av sett B. For å signalisere til transportavdelingen at denne ordren krever monteringsbehandling, oppretter Susanna lagerfølgeseddelen fra ordren.  
@@ -135,7 +144,7 @@ Sammy pakker ti ATS enheter med de fem ATO-enhetene som Jorunn monterte tidliger
 
 Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de tilknyttede monteringsordrene.  
 
-## <a name="prepare-sample-data"></a>Klargjøre eksempeldata  
+## <a name="prepare-sample-data"></a>Klargjøre eksempeldata
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagervarekladder** og velg den relaterte koblingen.  
 2.  Velg feltet **Bunkenavn**, og velg deretter standardkladden.  
@@ -433,7 +442,10 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Når Lydeksperten betaler for mottaket av 18 datamaskiner fra CRONUS, fjernes ordren og de tilknyttede monteringsordrene.  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/assemble-items-dynamics-365-business-central/)
+
+## <a name="see-also"></a>Se også
+
  [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md)   
  [Montere elementer](assembly-how-to-assemble-items.md)   
  [Plukke varer for lagerlevering](warehouse-how-to-pick-items-for-warehouse-shipment.md)   

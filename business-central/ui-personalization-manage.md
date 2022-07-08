@@ -7,14 +7,15 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9171
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: eb00a19bd5d61e8ed465e3765ef38561ce058554
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: bbb912f0e9e6718ba625fba4dc05fae19f4f2ebb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521523"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076204"
 ---
 # <a name="customize-pages-for-profiles"></a>Tilpasse sider for profiler
+
 Brukere kan tilpasse sider som utgjør arbeidsområdet, slik at de passer til deres egne behov. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
 
 Administratorer kan tilpasse sider for en profil, for eksempel i henhold til den tilknyttede forretningsrollen eller avdelingen, slik at alle brukerne som er tilordnet profilen, får se det tilpassede sideoppsettet. Administratoren kan tilpasse sider ved å bruke samme funksjonalitet som brukere gjør når de tilpasser sider.
@@ -25,6 +26,7 @@ Administratorer kan tilpasse sider for en profil, for eksempel i henhold til den
 Sidetilpassing starter fra siden **Profiler (roller)**, administratorens startpunkt for administrering av brukerprofiler på individuelle profilkort. I tillegg til å tilpasse sideoppsettet styrer du ulike innstillinger for profiler på siden **Profil (rolle)** for hver profil. Hvis du vil ha mer informasjon, kan du se [Administrere profiler](admin-users-profiles-roles.md).
 
 ## <a name="to-customize-pages-for-a-profile"></a>Tilpasse sider for en profil
+
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Profiler (roller)**, og velg deretter den relaterte koblingen.
 2. Velg linjen for profilen du vil tilpasse sidene for, og velg deretter handlingen **Slett**.
 3. Velg handlingen **Tilpass sider**.
@@ -50,6 +52,7 @@ Du kan få en oversikt over hvilke sider som er tilpasset for en profil, for eks
 På siden **Tilpassede sider** kan du slette tilpasninger, og du kan feilsøke ved å skanne etter mulige problemer.  
 
 ## <a name="to-delete-all-customizations-for-a-profile"></a>Slette alle tilpasninger for en profil
+
 Du kan avbryte alle tilpasninger du har gjort for en profil. Tilpasninger som er innført med en utvidelse, og personlige tilpasninger gjort av en bruker, slettes ikke. Du kan slette alle personlige tilpasninger med en annen handling. Hvis du vil ha mer informasjon, kan du se [Slette alle tilpasninger som er gjort av en bruker](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
 - På siden **Profil (rolle)** for en tilpasset profil velger du handlingen **Fjern tilpassede sider**.
@@ -57,12 +60,15 @@ Du kan avbryte alle tilpasninger du har gjort for en profil. Tilpasninger som er
 Oppsettet på sider for profilen tilbakestilles til standardoppsettet.  
 
 ## <a name="to-delete-customization-for-specific-pages-for-a-profile"></a>Slette tilpasninger for bestemte sider for en profil
+
 Du kan slette individuelle sidetilpasninger som du har gjort for en profil. Tilpasninger som er innført med en utvidelse, og personlige tilpasninger gjort av en bruker, slettes ikke. Du kan slette spesifikke sidetilpasninger med en annen handling. Hvis du vil ha mer informasjon, se [Slette personlige tilpasninger for en bestemt side](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
 1. På siden **Profil (rolle)** velger du handlingen **Administrer tilpassede sider**.
 2. På siden **Tilpassede sider** velger du én eller flere linjer for sidetilpasninger du vil slette, og deretter velger du handlingen **Slett**.
 
 Oppsettet på de valgte sidene justeres til endringene du har gjort.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also"></a>Se også
 

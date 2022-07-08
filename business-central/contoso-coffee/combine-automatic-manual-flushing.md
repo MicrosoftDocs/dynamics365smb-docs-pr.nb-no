@@ -6,12 +6,12 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 6b128f79cb8e629147bdd5ae77f2545ad0f7025c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: c5552d81dc612070b5dd5512222806527e18ce7e
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525179"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078755"
 ---
 # <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Gjennomgang: Kombiner automatisk og manuell trekking
 
@@ -23,7 +23,9 @@ Du er produksjonsplanleggeren hos Contoso Coffee. Du må opprette en ny produksj
 
 ## <a name="steps"></a>Trinn
 
-1. Opprett en fast planlagt produksjonsordre for fem enheter av varen **SP-SCM1004, AutoDrip**. For veiledning kan du se [Gjennomgang: Opprett en fast planlagt produksjonsordre og endre den](create-firm-planned-production-order-change.md).  
+> [Obs!] Husk å justere lageret ved å postere varekladd med åpningssaldoer.
+
+1. Opprett en fast planlagt produksjonsordre for fem enheter av varen **SP-SCM1004, AutoDrip** på lokasjonen *NORD*. For veiledning kan du se [Gjennomgang: Opprett en fast planlagt produksjonsordre og endre den](create-firm-planned-production-order-change.md).  
 
 2. Frigi produksjonsordren.
 

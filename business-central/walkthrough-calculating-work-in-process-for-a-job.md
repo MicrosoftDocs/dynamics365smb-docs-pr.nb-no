@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c3e8fea25e921288db80b993ff2911dc7b473fb1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 16adda82dbc45bcff61934d57de7a4e46f8477cf
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523296"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075294"
 ---
 # <a name="walkthrough-calculating-work-in-process-for-a-job"></a>Gjennomgang: beregne varer i arbeid for et prosjekt
 
@@ -22,7 +22,8 @@ ms.locfileid: "8523296"
 
 Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på de ulike kostnadene som er knyttet til ressursene i et bestemt prosjekt. Prosjekter omfatter forbruk av ansattes arbeidstid, maskindriftstid, lagervarer og andre typer forbruk som må spores etter hvert som et prosjekt går fremover. Hvis et prosjekt varer i en lang periode, vil du kanskje overføre disse kostene til en VIA-konto (varer i arbeid) i balansen mens prosjektet fullføres. Du kan deretter føre kost og salg i resultatregnskapskontiene når det blir aktuelt.  
 
-## <a name="about-this-walkthrough"></a>Denne gjennomgangen  
+## <a name="about-this-walkthrough"></a>Denne gjennomgangen
+
  Denne gjennomgangen tar for seg følgende oppgaver:  
 
 -   Beregning av VIA  
@@ -33,16 +34,20 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
  I hvert trinn av fremgangsmåten blir verdien av prosjekttransaksjonene beregnet, og deretter blir de flyttet til Finans. Beregnings- og bokføringstrinnene atskilles for å gjøre det enklere å se gjennom dataene og foreta endringer før bokføring i Finans. Derfor bør du sørge for at all informasjon er riktig etter at du har kjørt beregningskjørslene, og før du kjører bokføringskjørslene.  
 
-## <a name="roles"></a>Roller  
+## <a name="roles"></a>Roller
+
  I denne gjennomgangen brukes Marie (medlem i prosjektgruppen) som rollefiguren.  
 
-## <a name="prerequisites"></a>Forutsetninger  
+## <a name="prerequisites"></a>Forutsetninger
+
  Før du kan utføre oppgavene i gjennomgangen, må [!INCLUDE[prod_short](includes/prod_short.md)] være installert på datamaskinen.  
 
-## <a name="story"></a>Hovedscenario  
+## <a name="story"></a>Hovedscenario
+
  Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma som designer og innreder nye infrastrukturer, for eksempel konferanserom og kontorer, med møbler, tilbehør og reoler. Mesteparten av arbeidet i CRONUS er prosjektorientert og Marie, et prosjektgruppemedlem, bruker prosjekter til å ha oversikt over hvert pågående prosjekt som CRONUS har startet, og også prosjekter som er fullført. Noen av prosjektene kan være svært lange og kan kjøre over måneder. Marie kan bruke en VIA-konto til å registrere varer i arbeid og spore kostnadene i hele prosjektet.  
 
-## <a name="calculating-wip"></a>Beregne VIA  
+## <a name="calculating-wip"></a>Beregne VIA
+
  CRONUS har tatt på seg et langvarig prosjekt som nå har strukket seg over rapporteringsperioder. Marie, et medlem i prosjektgruppen, beregner varene i arbeid (VIA) for å sikre at regnskapet for selskapet blir nøyaktig.  
 
  I løpet av denne fremgangsmåten skal Marie velge en bestemt gruppe oppgaver som skal tas med i VIA-beregningen. Hun kan angi disse linjene i kolonnen **VIA-sum** på siden **Prosjektoppgavelinjer**.  
@@ -109,7 +114,8 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 > [!NOTE]  
 >  Varer i arbeid og føring blir bare beregnet. De bokføres ikke i finans. Hvis du vil gjøre det, må du kjøre kjørselen **Bokfør VIA i Finans** når du har beregnet VIA og føring.
 
-## <a name="posting-wip-to-general-ledger"></a>Bokføre VIA i Finans  
+## <a name="posting-wip-to-general-ledger"></a>Bokføre VIA i Finans
+
  Nå som Marie har beregnet VIA for dette prosjektet, kan hun bokføre VIA i Finans.  
 
 ### <a name="to-post-wip-to-general-ledger"></a>Slik bokfører du VIA i Finans  
@@ -132,7 +138,8 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 10. Legg merke til at **Ført finanskostbeløp** nå er fylt ut i kolonnen **Bokført** på hurtigfanen **VIA og føring**, noe som indikerer at VIA er bokført i finans.  
 11. Velg **OK**-knappen for å lukke kortet.  
 
-## <a name="reversing-a-wip-posting"></a>Tilbakeføre en VIA-bokføring  
+## <a name="reversing-a-wip-posting"></a>Tilbakeføre en VIA-bokføring
+
  Marie fastslår at prosjektoppgavene som ble utelatt fra beregningen av VIA, skulle ha vært beregnet i VIA. Hun kan tilbakeføre feil bokføringer uten å måtte bokføre nye VIA-bokføringer.  
 
 ### <a name="to-reverse-a-wip-posting"></a>Slik tilbakefører du en VIA-bokføring:  
@@ -154,13 +161,17 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
     > [!NOTE]  
     >  Anta at Marie har beregnet og bokført VIA for et prosjekt med feil datoer. Når hun følger metoden som ble diskutert tidligere, kan hun tilbakeføre uriktige bokføringer, rette datoene og bokføre i Finans på nytt.  
 
-## <a name="next-steps"></a>Neste trinn  
+## <a name="next-steps"></a>Neste trinn
+
  Denne gjennomgangen har vist deg trinnene for å beregne VIA i [!INCLUDE[prod_short](includes/prod_short.md)]. På større prosjekter kan det være praktisk å overføre kost til en VIA-kontoen mens prosjektet fullføres. Denne gjennomgangen har vist deg hvordan du utelater oppgavelinjer fra en beregning. Det viser deg også når du vil måtte beregne på nytt. Til slutt viser denne gjennomgangen hvordan du bokfører VIA til finans. Et eksempel på hvordan du tilbakefører en VIA-bokføring til finans, er også inkludert.  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/calculate-post-job-wip/)
+
+## <a name="see-also"></a>Se også
+
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
- [Gjennomgang: prosjektstyring](walkthrough-managing-projects-with-jobs.md)   
- [Forstå VIA-metoder](projects-understanding-wip.md)   
+ [Gjennomgang: prosjektstyring](walkthrough-managing-projects-with-jobs.md)  
+ [Forstå VIA-metoder](projects-understanding-wip.md)  
  [Overvåke fremdrift og prestasjon](projects-how-monitor-progress-performance.md)  
  [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

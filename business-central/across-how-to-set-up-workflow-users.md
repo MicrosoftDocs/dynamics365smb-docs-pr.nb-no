@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 3026ab37ced1f1529d2a9fee2e22aeccce557c53
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 57d106918230007484f37979b416d44277c86035
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522381"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075137"
 ---
 # <a name="set-up-workflow-users"></a>Konfigurere arbeidsflytbrukere
 
@@ -43,6 +43,8 @@ Arbeidsflytbrukere som fungerer som godkjenningsbrukere, både bestillere for go
     |**Sekvensnummer**|Angi rekkefølgen som arbeidsflytbrukeren deltar i en arbeidsflyt i forhold til andre brukere. Dette feltet kan for eksempel brukes til å angi når brukeren godkjenner i forhold til andre godkjennere når du bruker **Brukergruppe for arbeidsflyt**-alternativet i **Godkjennertype**-feltet på relaterte arbeidsflytsvar. **Tips!**  For å definere at en godkjenningsforespørsel ikke er godkjent før flere like godkjennere har godkjent den, uavhengig av et hierarki, kan du sette opp en flat brukergruppe for arbeidsflyt ved å tilordne samme sekvensnummeret til de aktuelle godkjennerne.|  
 6. Gjenta trinn 5 for å legge til flere arbeidsflytbrukere for brukergruppen.  
 7. Gjenta trinn 2 til 6 for å legge til flere brukergrupper for arbeidsflyt.  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/create-workflows/)
 
 ## <a name="see-also"></a>Se også
 

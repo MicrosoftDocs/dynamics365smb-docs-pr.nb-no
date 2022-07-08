@@ -10,14 +10,15 @@ ms.search.keywords: ''
 ms.search.form: 393, 7382
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: aa3c8b246d83ac222b4ceeb43124c835ca955850
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 08e8d8a0f8507f1b67d5209d8e76a5f1268d2548
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520607"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078443"
 ---
 # <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Flytte varer ad hoc i enkle lageroppsett
+
 Av og til kan det være nødvendig å flytte varer mellom interne hyller, hyller som ikke er mottakshyller eller leveringshyller, uten et bestemt behov fra et kildedokument. Du kan utføre disse ad hoc-flyttingene for eksempel for å omorganisere lageret, for å hente varer til et kontrollområde eller for å flytte tilleggsvarer til og fra et produksjonsområde uten et systemforhold til kildedokumentet for produksjonsordren.  
 
 I grunnleggende lageroppsett, det vil si lokasjoner som bruker oppsettsfeltet **Hylle obligatorisk** og muligens oppsettsfeltene **Plukk nødv.** og **Plassering nødv.**, kan du registrere ad hoc-flyttinger uten kildedokumenter på følgende måter:  
@@ -28,7 +29,8 @@ I grunnleggende lageroppsett, det vil si lokasjoner som bruker oppsettsfeltet **
 > [!NOTE]  
 >  I avanserte lageroppsett, det vil si lokasjoner der oppsettsfeltet **Bruk Lagerstyring** brukes, bruker du siden **Flytteforslag** eller sidene **Intern plukk** og **Intern plassering** til å flytte varer ad hoc mellom hyller.  
 
-## <a name="to-move-items-as-an-internal-movement"></a>Flytte varer som en intern flytting  
+## <a name="to-move-items-as-an-internal-movement"></a>Flytte varer som en intern flytting
+
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Intern flytting**, og velg deretter den relaterte koblingen.  
 2.  På hurtigfanen **Generelt** fyller du ut **Nr.**-feltet enten ved å la det stå eller ved å velge **AssistEdit** for å velge fra nummerserien.  
 3.  Angi lokasjonen der flyttingen finner sted, i **Lokasjonskode**-feltet.  
@@ -36,7 +38,7 @@ I grunnleggende lageroppsett, det vil si lokasjoner som bruker oppsettsfeltet **
     Hvis lokasjonen er definert som standardlokasjonen for deg som lageransatt, settes lokasjonskoden inn automatisk.  
 4.  Angi en kode for hyllen som du vil flytte elementet til, i feltet **Til hylle-kode**. Til produksjonsformål kan dette for eksempel være den åpne produksjonshyllekoden, som definert på lokasjonskortet eller i arbeidssenteret.  
 5.  Angi datoen flyttingen må fullføres innen, i **Forfallsdato**-feltet.  
-6.  På hurtigfanen **Linjer** velger du **Varenr.**-feltet for å åpne siden **Hylleinnhold - oversikt** og velger deretter varen du vil flytte basert på tilgjengeligheten i hyllene. Du kan også velge handlingen **Hent hylleinnhold** for å fylle ut de interne flyttelinjene basert på filtrene dine. Hvis du vil ha mer informasjon, kan du se verktøytipset for handlingen **Hent hylleinnhold**.   
+6.  På hurtigfanen **Linjer** velger du **Varenr.**-feltet for å åpne siden **Hylleinnhold - oversikt** og velger deretter varen du vil flytte basert på tilgjengeligheten i hyllene. Du kan også velge handlingen **Hent hylleinnhold** for å fylle ut de interne flyttelinjene basert på filtrene dine. Hvis du vil ha mer informasjon, kan du se verktøytipset for handlingen **Hent hylleinnhold**.  
 
     Når du har valgt varen, blir feltet **Fra hylle-kode** automatisk fylt ut i henhold til det valgte hylleinnholdet, men du kan endre det til en hvilken som helst annen hylle der varen er tilgjengelig.  
 
@@ -57,7 +59,9 @@ I grunnleggende lageroppsett, det vil si lokasjoner som bruker oppsettsfeltet **
     Du utfører resten av ad hoc-flyttingen på siden **Lagerflytting** på samme måte som for en flytting basert på kildedokumenter. Hvis du vil ha mer informasjon, kan du for eksempel se [Flytte komponenter til et operasjonsområde i enkle lageroppsett](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
 
 ## <a name="to-move-items-with-the-item-reclassification-journal"></a>Flytte varer med varereklassifiseringskladden
-I stedet for å bruke lagerflyttingsdokumenter kan du registrere flytting av varer ved å reklassifisere hyllekodene. Hvis du vil ha mer informasjon, se [Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder](inventory-how-count-adjust-reclassify.md)   
+
+I stedet for å bruke lagerflyttingsdokumenter kan du registrere flytting av varer ved å reklassifisere hyllekodene. Hvis du vil ha mer informasjon, se [Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder](inventory-how-count-adjust-reclassify.md)
+
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagervarereklassif.kladd** og velg den relaterte koblingen.  
 2.  På hver kladdelinje kan du definere hyllene du vil flytte elementer til og fra ved å fylle ut feltene **Hyllekode** og **Ny hyllekode**.  
 
@@ -69,11 +73,14 @@ I stedet for å bruke lagerflyttingsdokumenter kan du registrere flytting av var
     > [!NOTE]  
     >  I motsetning til flyttedokumenter oppretter ikke en flytting som bokføres i reklassifiseringskladden, en lagerforespørsel om å utføre den fysiske oppgaven.  
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+
+## <a name="see-also"></a>Se også
+
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
-[Definere lagerstyring](warehouse-setup-warehouse.md)     
-[Monteringsstyring](assembly-assemble-items.md)    
+[Definer lagerstyring](warehouse-setup-warehouse.md)  
+[Monteringsstyring](assembly-assemble-items.md)  
 [Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

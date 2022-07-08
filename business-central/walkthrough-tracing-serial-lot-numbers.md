@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: bholtorf
-ms.openlocfilehash: 611a182a7f2b2202dd03e709da22183f762fe351
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: b7e2ae55e231cdadf02a0a8e91f6d3ad066a0cb5
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382822"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075227"
 ---
 # <a name="walkthrough-tracing-seriallot-numbers"></a>Gjennomgang: spore serie-/partinumre
 
@@ -189,7 +189,8 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
     Deretter selger du racersykler. Selg først racersykkelen med SN1 til Møbelhandleren A/S.  
 
-### <a name="to-sell-the-end-items"></a>Selge sluttvarer  
+### <a name="to-sell-the-end-items"></a>Selge sluttvarer
+
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg **Ny**-handlingen og opprett deretter en ordre ved å fylle ut feltene nedenfor.  
 
@@ -228,10 +229,12 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
     Nå har du fullført klargjøringen av dataene som skal brukes til å vise funksjonene Varesporing og Søk etter poster.  
 
-## <a name="tracing-from-usage-to-origin"></a>Spore fra forbruk til opprinnelse  
+## <a name="tracing-from-usage-to-origin"></a>Spore fra forbruk til opprinnelse
+
  Kvalitetskontrolløren vet, på grunnlag av informasjon fra salgsavdelingen, at den returnerte racersykkelen, vare 1002, har serienummeret SN1. Ved hjelp av denne enkle informasjonen kan han finne ut hvor den ferdige racersykkelen sist ble brukt, i dette tilfellet på følgeseddelen til Møbelhandleren A/S. Kvalitetskontrolløren må deretter søke bakover til den tidligste opprinnelsen for å bestemme hvilket partinummer den defekte racersykkelrammen kom fra og hvilken leverandør som leverte den.  
 
-### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Slik finner du ut hvilket parti den defekte rammen var i, og hvem som leverte den:  
+### <a name="to-determine-which-lot-included-the-faulty-frame-and-who-supplied-it"></a>Slik finner du ut hvilket parti den defekte rammen var i, og hvem som leverte den:
+
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varesporing** og velg den relaterte koblingen.  
 2.  Angi **SN1** i feltet **Serienr.filter** på siden **Varesporing**, og angi deretter **1002** i **Varefilter**-feltet.  
 3.  Behold standardinnstillingen **Bare varesporet** i **Vis komponenter**-feltet, og behold standard sporingsmetode **Forbruk – Opprinnelse** i **Sporingsmetode**.  
@@ -257,7 +260,8 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
      Nå har du fullført første oppgave i defekthåndteringen ved å bruke **Varesporing**-siden. Kvalitetskontrolløren må nå finne ut om racersykkelrammer fra PARTI1 har vært behandlet i andre bokførte dokumenter.  
 
-## <a name="tracing-from-origin-to-usage"></a>Spore fra opprinnelse til forbruk  
+## <a name="tracing-from-origin-to-usage"></a>Spore fra opprinnelse til forbruk
+
  Kvalitetskontrolløren har funnet ut at de defekte racersykkelrammene kom fra PARTI1. Han må nå finne eventuelle andre racersykler som har racersykkelrammer fra det defekte partiet, slik at disse syklene kan bli stoppet eller tilbakekalt.  
 
  Én metode for å klargjøre denne sporingsoppgaven på siden **Varesporing** er å angi PARTI1 manuelt i feltet **Partinr.filter** og 2000 i **Varefilter**-feltet. Denne gjennomgangen bruker funksjonen **Spor motsatt - fra linje**.  
@@ -280,7 +284,8 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
     Nå har du fullført andre oppgave i defekthåndteringen ved å bruke **Varesporing**-siden til defekthåndtering. Siden **Varesporing**-siden er basert på bare bokførte poster, må kvalitetskontrolløren gå videre til **Søk etter poster**-siden for å sikre at PARTI1 ikke brukes i dokumenter som ikke er bokført.  
 
-## <a name="finding-all-records-of-a-seriallot-number"></a>Søke etter alle poster for et serie-/partinummer  
+## <a name="finding-all-records-of-a-seriallot-number"></a>Søke etter alle poster for et serie-/partinummer
+
  Kvalitetskontrolløren brukte **Varesporing**-siden til å finne ut at PARTI1 inneholdt de defekte racersykkelrammene, hvem som leverte dem, og hvilken bokført transaksjon de er brukt i. Han må nå finne ut om PARTI1 finnes i noen åpne dokumenter ved å integrere fra sporingsresultatet til **Søk etter poster**-siden der han kan foreta et søk gjennom alle databaseposter.  
 
 ### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders"></a>Slik finner du alle forekomster av PARTI1 i poster som ikke er bokført, for eksempel åpne ordrer:  
@@ -298,12 +303,14 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
  Nå har du fullført gjennomgangen av hvordan du bruker **Søk etter poster**-siden til defekthåndtering sammen med **Varesporing**-siden.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/use-serial-lot-numbers/)
+
 ## <a name="see-also"></a>Se også
+
 [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md)  
 [Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md)  
 [Søk etter poster](ui-find-entries.md)  
 [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
-
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

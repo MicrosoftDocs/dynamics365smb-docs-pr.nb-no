@@ -9,23 +9,26 @@ ms.workload: na
 ms.search.form: 5623, 5615, 5661, 5662, 5627, 5616, 5620, 5629, 5633, 5609, 5631, 5630, 5617, 5612, 5613, 5608, 5609, 5635, 9277
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9532dad89e3d88acf60e5c56af6c75ff9fc24fd1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8053112fb80c2d90725103bccc6cd335ad825dc0
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523504"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9074955"
 ---
 # <a name="set-up-general-fixed-assets-information"></a>Definere generell aktivainformasjon
+
 Før du kan behandle aktiva, må du definere standard finanskonti, fordelingsnøkler, kladdemaler og kladder for aktivabokføring og -reklassifisering, og du kan klassifisere aktiva i klasser, for eksempel materielle og immaterielle.
 
 ## <a name="to-set-up-general-default-values-for-fixed-assets"></a>Slik definerer du generelle standardverdier for aktiva
+
 Du definerer den generelle virkemåten eller aktivafunksjonaliteten og bilagsnummerserien på **Aktivaoppsett**-siden.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Aktivaoppsett** og velger den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 ## <a name="to-set-up-fixed-asset-posting-groups"></a>Slik definerer du bokføringsgrupper for aktiva:
+
 Du bokfører grupper for å definere aktivagrupper. Poster for disse bokføringsgruppene bokføres på de samme finanskontiene.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Bokføringsgrupper – aktiva**, og velg deretter den relaterte koblingen.  
@@ -39,6 +42,7 @@ Du bokfører grupper for å definere aktivagrupper. Poster for disse bokførings
 Hvis du vil ha mer informasjon om hvordan du bruker handlingen **Sett inn aktivamotkonto** på aktivafinanskladdelinjer, kan du for eksempel se [Revaluere aktiva](fa-how-revalue.md).
 
 ## <a name="to-set-up-fixed-asset-allocation-keys"></a>Slik definerer du aktivafordelingsnøkler:
+
 Ved hjelp av brukerdefinerte fordelingsnøkler kan du fordele transaksjoner på ulike avdelinger eller prosjekter. Du kan for eksempel definere en fordelingsnøkkel som fordeler avskrivningskostnader på biler med 35 prosent til administrasjonsavdelingen og 65 prosent til salgsavdelingen. Hvis du vil ha mer informasjon, kan du se [Fordele kostnader og inntekter](year-allocate-costs-income.md).
 
 Fordelingsnøkler gjelder for aktivaklasser, ikke for individuelle aktiva.
@@ -49,6 +53,7 @@ Fordelingsnøkler gjelder for aktivaklasser, ikke for individuelle aktiva.
 4. Gjenta trinn 2 og 3 for bokføringstypene du vil definere fordelingsnøkler for.
 
 ## <a name="to-set-up-fixed-asset-journal-templates"></a>Slik definerer du aktivakladdemaler:
+
 En mal er et forhåndsdefinert oppsett for en kladd. Malen inneholder opplysninger om sporingskoder, rapporter og nummerserier. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
 
 [!INCLUDE[prod_short](includes/prod_short.md)] oppretter automatisk en aktivakladdemal første gang du åpner **Aktivakladd**-siden, men du kan definere flere kladdemaler.  
@@ -57,6 +62,7 @@ En mal er et forhåndsdefinert oppsett for en kladd. Malen inneholder opplysning
 2. Fyll ut feltene etter behov.
 
 ## <a name="to-set-up-fixed-asset-journal-batches"></a>Slik definerer du aktivakladder:
+
 Du kan definere flere kladder, som vil si individuelle kladder for hver enkelt kladdemal. Ansatte kan for eksempel ha egne kladder der initialene til de ansatte brukes som kladdenavn. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Aktivakladdemaler**, og velg deretter den relaterte koblingen.  
@@ -64,12 +70,14 @@ Du kan definere flere kladder, som vil si individuelle kladder for hver enkelt k
 3. På siden **Aktivakladder** fyller du ut feltene etter behov.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-templates"></a>Slik definerer du aktivareklassifiseringskladdemaler:
+
 Du kan bruke dedikerte reklassifiseringskladder når du skal overføre, dele opp og knytte sammen aktiva. [!INCLUDE[prod_short](includes/prod_short.md)] oppretter automatisk en aktivareklassifiseringskladdemal første gang du åpner **Aktivareklass.kladd**-siden, men du kan definere flere reklassifiseringskladdemaler. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kladdemaler for aktivareklassifisering**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
 
 ## <a name="to-set-up-fixed-asset-reclassification-journal-batches"></a>Slik definerer du aktivareklassifiseringskladder:
+
 Du kan definere flere kladder, som vil si individuelle kladder for hver reklassifiseringskladd. Ansatte kan for eksempel ha egne kladder for reklassifisering der initialene til den ansatte brukes som reklassifiseringskladdenavn. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kladdemaler for aktivareklassifisering**, og velg deretter den relaterte koblingen.  
@@ -77,24 +85,28 @@ Du kan definere flere kladder, som vil si individuelle kladder for hver reklassi
 3. På siden **Aktivareklass.kladder** fyller du ut feltene etter behov.
 
 ## <a name="to-set-up-fixed-asset-class-codes"></a>Slik definerer du aktivaklassekoder:
+
 Aktivaklassekoder kan brukes til å gruppere aktiva, for eksempel i materielle og immaterielle aktiva.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivaklasser**, og velg deretter den relaterte koblingen.
 2. Angi koder og navn for klassene du vil opprette.
 
 ## <a name="to-set-up-fixed-asset-subclass-codes"></a>Slik definerer du aktivaunderklassekoder:
+
 Du bruker aktivaunderklassekodene til å gruppere aktiva i kategorier, for eksempel bygninger, kjøretøy, møbler eller maskiner.  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivaunderklasser**, og velg deretter den relaterte koblingen.
 2. Angi koder og navn for klassene du vil opprette.
 
 ## <a name="to-set-up-fixed-asset-location-codes"></a>Slik definerer du aktivalokasjonskoder:
+
 Du bruker aktivalokasjonskoder til å registrere aktivalokasjonen, for eksempel salgsavdeling, resepsjon, administrasjon, produksjon eller lager. Denne informasjonen er nyttig for forsikrings- og lagerformål.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivalokasjoner**, og velg deretter den relaterte koblingen.
 2. Angi koder og navn for aktivalokasjonene du vil opprette.
 
 ## <a name="to-register-opening-entries"></a>Slik registrerer du åpningsposter
+
 Hvis du bruker aktiva i [!INCLUDE[prod_short](includes/prod_short.md)] for første gang, må du først definere modulen Finans før du kan definere aktiva. Hvordan du gjør dette, avhenger av om aktiva er integrert med finans.  
 
  Bruk følgende fremgangsmåte hvis aktivatransaksjoner skal bokføres i Finans.  
@@ -117,8 +129,11 @@ Hvis du bruker aktiva i [!INCLUDE[prod_short](includes/prod_short.md)] for førs
 
 Hvis ikke aktivaene er integrert med Finans, hopper du over trinn 6 og 8.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/set-up-fixed-assets-management/)
+
 ## <a name="see-also"></a>Se også
-[Definere aktiva](fa-setup.md)  
+
+[Definer aktiva](fa-setup.md)  
 [Aktiva](fa-manage.md)  
 [Finans](finance.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  

@@ -9,14 +9,15 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 5d46916a96a55cf71c6b018fc66b4165c742b632
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 730308e265f7a3fef3ad4a8069ea3f5c6bf0a7d2
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518578"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9078391"
 ---
 # <a name="pick-items-for-warehouse-shipment"></a>Plukke varer for lagerlevering
+
 Når lokasjonen er satt opp til å bruke plukkbehandling og i tillegg lagerleveringsbehandling, kan du bruke plukkdokumentene til å opprette og behandle plukkopplysningene før lagerleveringen bokføres.  
 
 Du kan ikke opprette et lagerplukkdokument fra grunnen av fordi en plukkaktivitet alltid er en del av en arbeidsflyt, enten i et pull- eller push-scenario.  
@@ -36,7 +37,8 @@ Du kan også opprette lagerplukkdokumenter på en push-måte på siden **Lagerle
 >   
 >  Hvis du vil ha informasjon om plukking av komponenter for monteringsordrer generelt, inkludert situasjoner der monteringsvaren ikke forfaller på en følgeseddel, kan du se [Plukke for produksjon eller montering](warehouse-how-to-pick-for-production.md).  
 
-## <a name="to-pick-items-for-warehouse-shipment"></a>Plukke varer for lagerlevering  
+## <a name="to-pick-items-for-warehouse-shipment"></a>Plukke varer for lagerlevering
+
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Plukking** og velger den relaterte koblingen.  
 
     Hvis du skal arbeide med en bestem plukking, velger du plukkingen fra oversikten eller filtrerer oversikten for å finne plukkingene som er tilordnet spesielt til deg. Åpne kortet for plukkingen.  
@@ -54,6 +56,7 @@ Personen som er ansvarlig for leveringen, kan nå hente varene til leveringssone
 I tillegg til å plukke for kildedokumenter, som beskrives i dette emnet, kan du hente og plassere varer mellom hyller uten å referere til kildedokumenter. Hvis du vil ha mer informasjon, kan du se [Plukke og plassere uten et kildedokument](warehouse-how-to-create-put-aways-from-internal-put-aways.md).  
 
 ## <a name="handling-assemble-to-order-items-in-warehouse-shipments"></a>Håndtere montere-til-ordre-varer i lagerleveringer
+
 I montere-til-ordre-scenarier brukes feltet **Levere (antall)** på lagerleveringslinjer til å registrere hvor mange enheter som monteres. Det angitte antallet bokføres deretter som monteringsavgang når lagerleveringen er bokført.
 
 Når det gjelder andre lagerfølgeseddellinjer, er verdien i feltet **Levere (antall)** null fra starten.
@@ -72,7 +75,10 @@ Når lagerleveringen er bokført, oppdateres forskjellige felt på ordrelinjen f
 
 > I dette tilfellet håndteres montere-til-ordre-antallet som beskrevet i dette emnet, og lagerantallet håndteres som alle andre vanlige lagerleveringslinjer. Hvis du vil ha mer informasjon om Kombinasjonsscenarier, kan du se [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-also"></a>Se også  
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/pick-ship-items-warehouse/)
+
+## <a name="see-also"></a>Se også
+
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)     

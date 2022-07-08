@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: eb733e1d157e509ce7bbe4ee2fa4db682dae3980
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: fe69109b512ea0e37c4564e08e1d35eb82e898c9
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521283"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9077739"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Opprett arbeidsflyter for å koble til forretningsprosessoppgaver
 
@@ -179,10 +179,12 @@ Illustrasjonen nedenfor gir en oversikt over resultatet av denne prosedyren.
 
 Nå må du teste arbeidsflyten ved å åpne en eksisterende leverandør og endre navnet. Bekreft at det gjøres en godkjenningsforespørsel om å endre leverandørnavnet.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/create-workflows/)
+
 ## <a name="see-also"></a>Se også
 
 [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md)  
-[Konfigurere godkjenningsbrukere](across-how-to-set-up-approval-users.md)  
+[Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)  
 [Konfigurere arbeidsflytvarsler](across-setting-up-workflow-notifications.md)  
 [Vise arkiverte forekomster av arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md)  
 [Slette arbeidsflyter](across-how-to-delete-workflows.md)  

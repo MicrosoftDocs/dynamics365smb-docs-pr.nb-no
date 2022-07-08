@@ -10,12 +10,12 @@ ms.search.keywords: client, customer, credit
 ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
 ms.date: 09/24/2021
 ms.author: edupont
-ms.openlocfilehash: e0bd4ae513428cb951e4b8cc23fe46b91dd1f683
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 80544cf5d3e2f9e55fcf22037c7d44df98f22635
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520129"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9076880"
 ---
 # <a name="register-new-customers"></a>Registrere nye kunder
 
@@ -26,6 +26,7 @@ Før du kan registrere nye kunder, må du definere forskjellige salgskoder som d
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
 ## <a name="adding-new-customers"></a>Legge til nye kunder
+
 Du kan legge til nye kunder manuelt ved å fylle ut feltene på siden **Kundekort**, eller du kan bruke maler som inneholder forhåndsdefinert informasjon. Du kan for eksempel opprette maler for ulike typer kundeprofiler. Når du bruker maler, sparer du tid når du legger til nye kunder og bidrar til å sikre at informasjonen er riktig hver gang. Hvis du oppretter maler for mer enn én kundetype, kan du velge hvilken mal du vil bruke når du legger til en kunde. Hvis du oppretter bare én mal, brukes den for alle nye kunder. Når du har opprettet en mal, kan du bruke handlingen **Bruk mal** til å bruke den på en eller flere utvalgte kunder. Når du skal opprette en mal, fyller du ut informasjonen du vil bruke på nytt på siden Kundekort, og deretter lagrer du den som en mal. Hvis du vil ha mer informasjon, kan du se delen [Slik lagrer du kundekortet som en mal](sales-how-register-new-customers.md#to-save-the-customer-card-as-a-template)
 
 > [!TIP]
@@ -79,6 +80,8 @@ Du kan velge å ikke motta advarsler om at kundens kredittgrense er overskredet,
     |**Kredittgrense**|Verdien i feltet **Kredittgrense** på kundekortet sammenlignes med kundens saldo, og det vises en advarsel hvis kundens saldo overskrider dette beløpet.|
     |**Forfalt beløp**|Feltet **Forfalt beløp** er merket av på kundekortet, og det vises en advarsel hvis kunden har en forfalt saldo.|
     |**Ingen advarsel**|Det vises ingen advarsler om kundens status.|
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

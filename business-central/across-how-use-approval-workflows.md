@@ -7,12 +7,12 @@ ms.workload: na
 ms.search.keywords: reject, delegate, request
 ms.date: 09/28/2021
 ms.author: edupont
-ms.openlocfilehash: b97b4fb9c09c646a69c78747079e7fde3fdae7dc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 46c81fa887af70e7a2f516df38ec003392b1dabd
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517657"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9079353"
 ---
 # <a name="use-approval-workflows"></a>Bruke arbeidsflyter for godkjenning
 
@@ -83,9 +83,11 @@ Funksjonen **Send varsler om forfalte godkjenninger** kontrolleres om det finnes
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Forfalte godkjenningsforespørsler**, og velg deretter den relaterte koblingen.
 2. På siden **Forfalte godkjenningsforespørsler** velger du handlingen **Send varsler for forfalte godkjenning**.
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/use-approval-workflows/)
+
 ## <a name="see-also"></a>Se også
 
-[Konfigurere godkjenningsbrukere](across-how-to-set-up-approval-users.md)  
+[Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)  
 [Salg](sales-manage-sales.md)  
 [Inngående dokumenter](across-income-documents.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  

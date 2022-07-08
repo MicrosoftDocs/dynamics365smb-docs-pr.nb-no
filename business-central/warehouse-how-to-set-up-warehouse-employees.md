@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7328, 7348
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7c04e2e81876628a8b6fe9534bb7ecdbb960bcc8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: f0018b5ad58644783b24d2c3b3fd82ae83d132fb
+ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511320"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9075164"
 ---
 # <a name="set-up-warehouse-employees"></a>Definere lageransatte
 
@@ -29,12 +29,14 @@ Hver bruker som utfører lageraktiviteter, må defineres som en lageransatt tilo
 5. Merk av for **Standard** for å definere lokasjonen som den eneste lokasjonen der den ansatte kan utføre lageraktiviteter.  
 6. Gjenta disse trinnene for å tilordne andre ansatte til lokasjoner, eller for å tilordne ikke-standardlokasjoner til eksisterende lageransatte.  
 
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/get-started-warehouse-management/)
+
 ## <a name="see-also"></a>Se også
 
 [Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
-[Definer Warehouse Management](warehouse-setup-warehouse.md) 
-[Monteringsstyring](assembly-assemble-items.md)
+[Definer lagerstyring](warehouse-setup-warehouse.md)  
+[Monteringsstyring](assembly-assemble-items.md)  
 [Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
