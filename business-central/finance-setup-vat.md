@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 1877, 470, 471, 472
-ms.date: 04/12/2022
+ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 98a190594dbd2b37f949bdc51e7f810dd739b769
-ms.sourcegitcommit: 4853614c85beb347091c5c4c1ea8d974dec887fc
+ms.openlocfilehash: 60943e508e382bbbaa46d92a102a96ad70fed432
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/11/2022
-ms.locfileid: "8740314"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130122"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Definer beregninger og bokføringsmetoder for merverdiavgift
 
@@ -171,6 +171,21 @@ Du kan endre eller slette en mva-setning, og endringene gjenspeiles i genererte 
 2. Velg handlingen **Oversettelser**.  
 3. I feltet **Språkkode** velger du hvilket språk du skal oversette til.  
 4. I feltene **Beskrivelse** og **Beskrivelse 2** skriver du inn oversettelsen av beskrivelsene. Denne teksten vises i de oversatte mva-rapportdokumentene.  
+
+### <a name="to-specify-extended-text-for-vat-clauses"></a>For å angi utvidet tekst for mva-setninger
+
+> [!NOTE]  
+> Hvis landet eller området krever lengre tekst for mva-setningene enn standardversjonen støtter, kan du angi den lengre teksten for mva-setningene som *utvidet tekst* slik at den blir skrevet ut på salgs- og kjøpsrapportene.  
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 11.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-setninger** og velg deretter den relaterte koblingen.  
+2. Velg handling for **Utvidede tekster**.  
+3. Fyll ut feltene **Kode** og **Beskrivelse**.  
+3. Velg handlingen **Ny**.  
+4. Velg eventuelt **Alle språkkoder** eller spesifiser det relevante språket i **Språkkode**-feltet hvis du bruker språkkoder.  
+5. Fyll ut feltene **Startdato** og **Sluttdato** hvis du vil begrense perioden for bruk av den utvidete teksten.  
+6. Skriv den utvidede teksten for mva-setningene i **tekstlinjene**.  
+7. Velg de relevante feltene for de aktuelle dokumenttypene du vil at de utvidete tekstene skal skrives ut på.  
+8. Lukk siden.  
 
 ## <a name="create-a-vat-posting-setup-to-handle-import-vat"></a>Opprette et mva-bokføringsoppsett for å håndtere import-mva
 

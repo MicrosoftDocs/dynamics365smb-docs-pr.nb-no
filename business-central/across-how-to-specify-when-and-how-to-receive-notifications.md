@@ -9,36 +9,36 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 261e2908f7f7ed3a47a337b2c3f49d7c633f1cce
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 5c6f480bff2244fac66b996a81ada8e3e318c150
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522355"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130041"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Angi når og hvor du kan motta arbeidsflytvarsler
+
 Når du definerer godkjenningsbrukere i arbeidsflytprosesser der du vil at noen skal godkjenne endringer, for eksempel når nye poster opprettes, eller når noen ber om en godkjenning, må du angi hvordan og når godkjenningsbrukeren skal varsles. Du kan for eksempel angi at en godkjenningsbruker umiddelbart skal motta en e-post når noen oppretter en ny kunde. Du kan også planlegge at varsler skal leveres for eksempel ukentlig eller månedlig.
 
 Personer kan også endre sine varslingsoppsett ved å velge kappen **Endre varslingsinnstillinger** i et varsel.  
 
 > [!NOTE]
-> Varslinger leveres i henhold til varslingsinnstillingene for mottakeren, ikke avsenderen. Det er et viktig skille fordi det betyr at når noen ber om en godkjenning som en del av en arbeidsflyt, sendes ikke nødvendigvis forespørselen umiddelbart. I stedet leveres den i henhold til varslingsplanen som er angitt i godkjennerens varslingsinnstillinger. 
+> Varslinger leveres i henhold til varslingsinnstillingene for mottakeren, ikke avsenderen. Det er et viktig skille fordi det betyr at når noen ber om en godkjenning som en del av en arbeidsflyt, sendes ikke nødvendigvis forespørselen umiddelbart. I stedet leveres den i henhold til varslingsplanen som er angitt i godkjennerens varslingsinnstillinger.
 
 Før du kan angi varslingsinnstillinger for en godkjenningsbruker, må du må du konfigurere brukeren som en godkjenningsbruker. Hvis du vil ha mer informasjon, kan du se [Konfigurere godkjenningsbrukere](across-how-to-set-up-approval-users.md).  
-
-Du kan definere oppsettet for e-postvarsler ved å tilpasse rapport 1320, E-postvarsling. Hvis du vil ha mer informasjon, kan du se [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md).  
 
 > [!NOTE]
 > Hvis du vil bruke e-post som varslingsmetode, må du konfigurere e-post for både avsenderen og mottakeren i [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Konfigurer e-post](admin-how-setup-email.md).
 
-## <a name="steps-in-workflows"></a>Trinn i arbeidsflyt 
+## <a name="steps-in-workflows"></a>Trinn i arbeidsflyt
+
 Mange trinn i arbeidsflyten for godkjenning omhandler å varsle brukere om at det har skjedd en hendelse de må gjøre noe med. På ett arbeidsflyttrinn kan for eksempel hendelsen være at bruker 1 ber om godkjenning av en ny post. Det relaterte svaret er at det er sendt en varsling til bruker 2, godkjenneren. På det neste arbeidsflyttrinnet kan hendelsen være at bruker 2 godkjenner posten. Det relaterte svaret er at det er sendt en varsling til bruker 3 om å starte en prosess med den godkjente posten. Hver varsling er knyttet til en godkjenningspost for arbeidsflyttrinn som omhandler godkjenning. Hvis du vil ha mer informasjon, kan du se [Arbeidsflyt](across-workflow.md).  
 
 ## <a name="specify-when-and-how-users-receive-notifications"></a>Angi når og hvor brukere mottar varsler  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukeroppsett for godkjenning**, og velg deretter den relaterte koblingen.  
-2.  Velg linjen for brukeren du vil konfigurere varslingsinnstillinger for, og velg deretter **Oppsett av varsling**.  
-3.  På siden **Oppsett av varsling** fyller du ut feltene som beskrevet i tabellen nedenfor.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukeroppsett for godkjenning**, og velg deretter den relaterte koblingen.  
+2. Velg linjen for brukeren du vil konfigurere varslingsinnstillinger for, og velg deretter **Oppsett av varsling**.  
+3. På siden **Oppsett av varsling** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     > [!NOTE]
     > Hvis du åpner siden **Oppsett av varsling** fra siden **Brukeroppsett for godkjenning**, er varslingsoppsettet tilknyttet godkjenningsbrukeren. Godkjenningsbrukeren vil alltid motta arbeidsflytvarsler i henhold til varslingsoppsettet. Hvis du bruker Fortell meg til å åpne **Oppsett av varsling**-siden, gjelder varslingsoppsettet for alle brukere.  
@@ -52,8 +52,8 @@ Mange trinn i arbeidsflyten for godkjenning omhandler å varsle brukere om at de
 
     Du har nå angitt hvor brukeren mottar varslinger. Fortsett med å angi når brukeren mottar varslinger.  
 
-4.  Velg handlingen **Tidsplan for varsling**.  
-5.  På siden **Tidsplan for varsling** fyller du ut feltene som beskrevet i tabellen nedenfor.  
+4. Velg handlingen **Tidsplan for varsling**.  
+5. På siden **Tidsplan for varsling** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
@@ -64,16 +64,18 @@ Mange trinn i arbeidsflyten for godkjenning omhandler å varsle brukere om at de
     |**Dato i måned**|Angi om brukeren mottar varsler på først, siste, eller en bestemt dato i måneden.|  
     |**Dato for månedlig varsel**|Angi datoen i måneden brukeren mottar varsler når verdien i feltet **Dato i måned** er **Egendefinert**.|  
 
-## <a name="change-when-and-how-you-receive-notifications"></a>Endre når og hvor du mottar varsler  
-1.  I et av varslene som du har mottatt, enten som e-post eller notat, velger du knappen **Endre varslingsinnstillinger**.  
-2.  På siden **Oppsett av varsling** endre du varslingsinnstillinger, som beskrevet i den forrige fremgangsmåten.  
+## <a name="change-when-and-how-you-receive-notifications"></a>Endre når og hvor du mottar varsler
 
-## <a name="see-also"></a>Se også  
- [Konfigurere godkjenningsbrukere](across-how-to-set-up-approval-users.md)   
- [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)   
- [Konfigurere arbeidsflytvarsler](across-setting-up-workflow-notifications.md)   
- [Konfigurere arbeidsflyter](across-set-up-workflows.md)   
- [Bruke arbeidsflyter](across-use-workflows.md)
+1. I et av varslene som du har mottatt, enten som e-post eller notat, velger du knappen **Endre varslingsinnstillinger**.  
+2. På siden **Oppsett av varsling** endre du varslingsinnstillinger, som beskrevet i den forrige fremgangsmåten.  
+
+## <a name="see-also"></a>Se også
+
+[Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)  
+[Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)  
+[Konfigurere arbeidsflytvarsler](across-setting-up-workflow-notifications.md)  
+[Konfigurere arbeidsflyter](across-set-up-workflows.md)  
+[Bruke arbeidsflyter](across-use-workflows.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

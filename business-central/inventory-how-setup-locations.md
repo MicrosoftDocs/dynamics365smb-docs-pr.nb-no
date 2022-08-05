@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 870effafbd38cdee0733097fa6fb0c0340fa77b8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 9ed3bc15f8f8b94e842d8c01415b04018e4fc6ec
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077270"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129680"
 ---
 # <a name="set-up-locations"></a>Definer lokasjoner
 
@@ -77,8 +77,7 @@ Hvis du vil strukturere hyllene under soner, kan du gjøre det på siden **Soner
 Du kan også velge å definere bare en sone og organisere lageret bare ut fra hyllene. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).  
 
 ## <a name="default-dimensions-for-locations"></a>Standarddimensjoner for lokasjoner
-
-Du angir standarddimensjoner for en lokasjon på siden **Lokasjonskort** ved å velge **Lokasjon** og deretter **Dimensjoner**. Lokasjonens standarddimensjoner kopieres til kladder og dokumenter når du angir lokasjonen på en linje, men du kan slette eller endre dimensjonen på linjen hvis det er nødvendig. Du kan kreve at brukerne angir dimensjoner for bestemte lokasjoner før de kan bokføre en post. Du kan også inkludere lokasjonsdimensjonsverdier i **Standard dimensjonsprioriteter** og **Dimensjonskombinasjoner** for kombinasjoner av prioritets- og dimensjonsregler.
+Du angir standarddimensjoner for en lokasjon på siden **Lokasjonskort** ved å velge **Dimensjoner**. Etterpå tildeles lokasjonens standarddimensjoner til dokumenter når du velger lokasjon på en linje. Du kan slette eller endre dimensjonene på linjen etter behov. I feltet **Verdipostering** kan du kreve at brukerne angir dimensjoner for bestemte lokasjoner før de kan bokføre en post. Hvis du vil at brukerne bare skal kunne velge bestemte dimensjonsverdier, kan du angi dem i feltet **Tillatt verdifilter**. Du kan også inkludere lokasjonsdimensjonsverdier på siden **Standard dimensjonsprioriteter** og for kombinasjoner av prioritets- og dimensjonsregler på siden **Dimensjonskombinasjoner**.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 

@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: b7e6574567e07b42187d3e33cfbf7f99e13096f8
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 4f66b334df678ff27e094858dd0cec44c1bb8e75
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077374"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130230"
 ---
 # <a name="use-workflows"></a>Bruk arbeidsflyter
 
@@ -52,21 +52,21 @@ Arbeidsflyten godkjennes imidlertid ikke før alle forespørsler er godkjent av 
 > [!NOTE]  
 > Det er ikke mulig å opprette en arbeidsflyt med flere godkjennere og forvente at hele arbeidsflyten godkjennes etter at den første forespørselen er godkjent. Alle forespørsler må godkjennes for at arbeidsflyten skal bli godkjent.
 
-Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere. Det er også mulig å opprette samme arbeidsflyt mer enn én gang. Hver arbeidsflyt som utløses av en hendelse, bruker forskjellige filtre. Dette er nyttig hvis en godkjenningsforespørsel i én avdeling må godkjennes av én godkjenner, der godkjenningsforespørsler i andre avdelinger må godkjennes av en annen godkjenner. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn.  
+Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere. Det er også mulig å opprette samme arbeidsflyt mer enn én gang. Hver arbeidsflyt kan utløses av en hendelse ved å bruke forskjellige filtre. Dette er nyttig hvis en godkjenningsforespørsel i én avdeling må godkjennes av én godkjenner, der godkjenningsforespørsler i andre avdelinger må godkjennes av en annen godkjenner. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn.  
 
- Før du kan begynne å bruke arbeidsflyter, må du konfigurere brukere av arbeidsflyt, opprette arbeidsflytene, potensielt med foranstilt tilpasset kode, og angi hvordan brukere mottar varsler. Hvis du vil ha mer informasjon, kan du se [Konfigurere arbeidsflyter](across-set-up-workflows.md).  
+Før du kan begynne å bruke arbeidsflyter, må du konfigurere brukere av arbeidsflyt, opprette arbeidsflytene, potensielt med foranstilt tilpasset kode, og angi hvordan brukere mottar varsler. Hvis du vil ha mer informasjon, kan du se [Konfigurere arbeidsflyter](across-set-up-workflows.md).  
 
 > [!NOTE]  
 > Vanlige arbeidsflyttrinn er om brukere som ber om godkjenning av oppgaver og godkjennere som godkjenner eller avviser forespørsler om godkjenning. Mange emner om hvordan du bruker arbeidsflyter, refererer derfor til godkjenninger.  
 
- Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.  
+ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artiklene som beskriver dem.  
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
 |Angi at en arbeidsflyt skal starte når den første innpunkthendelsen oppstår.|[Aktivere arbeidsflyter](across-how-to-enable-workflows.md)|  
 |Be om godkjenning for en oppgave, som godkjenner, godkjenn, avvis eller deleger godkjenning, og send eller vis godkjenningsmeldinger.|[Bruke arbeidsflyter for godkjenning](across-how-use-approval-workflows.md)|  
 |Opprett trinn i arbeidsflyten som forhindrer at en bestemt oppføringstype brukes før en bestemt hendelse inntreffer, for eksempel at oppføringen er godkjent.|[Begrense og tillate bruk av en post](across-how-to-restrict-and-allow-usage-of-a-record.md)|  
-|Vise forekomster av arbeidsflyttrinn med statusen Fullført.|[Vise arkiverte forekomster av arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md)|  
+|Vise forekomster av arbeidsflyttrinn med statusen **Fullført**.|[Vis arkiverte forekomster av arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md)|  
 |Slette en arbeidsflyt du er sikker på ikke lenger vil bli brukt.|[Slette arbeidsflyter](across-how-to-delete-workflows.md)|  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/create-workflows/)

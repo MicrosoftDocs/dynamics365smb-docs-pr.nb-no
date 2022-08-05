@@ -440,7 +440,7 @@
 ### [Selge produkter](sales-how-sell-products.md)
 ### [Skriv ut plukklisten](sales-how-print-picking-list.md)
 ### [Bokfør salg](ui-post-sales.md)
-### [Opprette gjentakende salgs- og kjøpslinjer](sales-how-work-standard-lines.md)
+### [Opprett gjentakende salgslinjer](sales-how-work-standard-lines.md)
 ### [Foreta direkte leveringer](sales-how-drop-shipment.md)
 ### [Opprette spesialbestillinger](sales-how-to-create-special-orders.md)
 ### [Behandle ordrereturer eller annulleringer](sales-how-process-sales-returns-cancellations.md)
@@ -472,7 +472,7 @@
 ### [Arbeide med rammebestillinger](sales-how-to-create-blanket-sales-orders.md)
 ### [Eksterne dokumentnumre i kjøpsdokumenter](purchasing-ext-doc-no.md)
 ### [Angi eksterne dokumentnumre](across-enter-external-document-numbers.md)
-
+### [Opprett gjentakende kjøpslinjer](purchasing-how-work-recurring-purchase-lines.md)
 
 ## Lager
 ### [Oversikt over lager](inventory-manage-inventory.md)
@@ -1472,6 +1472,7 @@
 #### [Definere salg](sales-setup-sales.md)
 #### [Registrere nye kunder](sales-how-register-new-customers.md)
 #### [Aktivere kundebetalinger gjennom betalingstjenester](sales-how-enable-payment-service-extensions.md)
+#### [Konfigurer priser og rabatter](across-prices-and-discounts.md)
 #### [Registrer spesielle salgspriser og rabatter](sales-how-record-sales-price-discount-payment-agreements.md)
 #### [Definer kundeprisgrupper](sales-how-to-set-up-customer-price-groups.md)
 #### [Konfigurer kunderabattgrupper](sales-how-to-set-up-customer-discount-groups.md)
@@ -1483,9 +1484,11 @@
 ### Definer kjøp
 #### [Definer kjøp](purchasing-setup-purchasing.md)
 #### [Registrere nye leverandører](purchasing-how-register-new-vendors.md)
-#### [Registrere spesielle kjøpspriser og rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Konfigurer leverandørbankkontoer](purchasing-how-set-up-vendors-bank-accounts.md)
 #### [Prioritere leverandører](purchasing-how-prioritize-vendors.md)
 #### [Definere innkjøpere](purchasing-how-setup-purchasers.md)
+#### [Konfigurer priser og rabatter](across-prices-and-discounts.md)
+#### [Registrere spesielle kjøpspriser og rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 ### Definer lager
 #### [Definere lager](inventory-setup-inventory.md)
 #### [Definere generell informasjon om lagerbeholdning](inventory-how-setup-general.md)
@@ -1772,6 +1775,7 @@
 ### [Behandle brukerinnstillinger og innstillinger](admin-manage-user-settings-preferences.md)
 ### [Konfigurere skrivere](ui-specify-printer-selection-reports.md)
 ### [Klassifiser datasensitivitet](admin-classifying-data-sensitivity.md)
+### [Status for personvernerklæringer](privacy-notices-status.md)
 ### [Svar på forespørsler om personopplysninger](admin-responding-to-requests-about-personal-data.md)
 ### [Opprett nye selskaper](about-new-company.md)
 ### [Loggendringer](across-log-changes.md)

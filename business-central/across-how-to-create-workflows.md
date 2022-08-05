@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/30/2021
 ms.author: edupont
-ms.openlocfilehash: fe69109b512ea0e37c4564e08e1d35eb82e898c9
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 301856bcf246f7546992de588472459e1bbec378
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077739"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130095"
 ---
 # <a name="create-workflows-to-connect-business-process-tasks"></a>Opprett arbeidsflyter for å koble til forretningsprosessoppgaver
 
@@ -22,9 +22,9 @@ Du kan opprette arbeidsflyter som kobler forretningsprosessoppgaver som utføres
 
 På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse endret av hendelsesbetingelsene og et arbeidsflytsvar med svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden.  
 
-Når du oppretter arbeidsflyter, kan du kopiere trinnene fra eksisterende arbeidsflyter eller arbeidsflytmaler. Arbeidsflytmaler representerer ikke-redigerbare arbeidsflyter som finnes i den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)]. Koden for arbeidsflytmaler som er lagt inn av Microsoft, har prefikset "MS-", som i "MS PIW". Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md).  
+[!INCLUDE[workflow](includes/workflow.md)]
 
-Hvis forretningsscenarioet krever arbeidsflythendelser eller svar som ikke støttes, må en Microsoft-partner implementere dem ved å opprette en utvidelse som implementerer den relevante arbeidsflythendelsen.  
+Når du oppretter arbeidsflyter, kan du kopiere trinnene fra eksisterende arbeidsflyter eller arbeidsflytmaler. Arbeidsflytmaler representerer ikke-redigerbare arbeidsflyter som finnes i den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)]. Koden for arbeidsflytmaler som er lagt inn av Microsoft, har prefikset "MS-", som i "MS PIW". Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md).  
 
 > [!NOTE]  
 > Alle varsler om arbeidsflyttrinn sendes via en jobbkø. Kontroller at jobbkøen gjenspeiler dine forretningsbehov. Hvis du vil ha mer informasjon, kan du se [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).  
@@ -33,15 +33,18 @@ Hvis forretningsscenarioet krever arbeidsflythendelser eller svar som ikke støt
 
 Arbeidsflyten er delt inn i tre deler:
 
-1) **Når hendelse** Det er der utløseren velges.
-    Eksempler på utløser kan være:
-    - En hoveddataoppføring endres
-    - En kladdelinje opprettes
-    - et innkommende dokument opprettes eller frigis
-    - Det er bedt om godkjenning av et dokument
+1. **Når hendelse**  
+   Det er der utløseren velges.  
+   Eksempler på utløser kan være:
+   * En hoveddataoppføring endres
+   * En kladdelinje opprettes
+   * Et innkommende dokument opprettes eller frigis
+   * Det er bedt om godkjenning av et dokument
 
-2) **Under forutsetning av** **Betingelsene** er knyttet til hendelsen og åpnes for å opprette filtre når hendelsen utløses
-3) **Så svar** **Svarene** svarer på hva det neste trinnet i arbeidet er.
+2. **Ved betingelse**  
+   **Betingelsene** er knyttet til hendelsen og åpnes for å opprette filtre når hendelsen utløses.
+3. **Så svar**  
+   **Svarene** svarer på hva de neste trinnene i arbeidet er.
 
 For begge hendelsestypene er hendelsene system definert. Nye hendelser må legges til gjennom utviklingen av en utvidelse.
 
@@ -50,13 +53,13 @@ For begge hendelsestypene er hendelsene system definert. Nye hendelser må legge
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Siden **Arbeidsflyt** åpnes.  
 3. I **Kode**-feltet angir du maksimalt 20 tegn for å identifisere arbeidsflyten.  
-4. For å opprette en arbeidsflyt fra en arbeidsflytmal, velg **Opprett arbeidsflyt fra mal** på **Arbeidsflyter**-siden. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md).  
+4. For å opprette en arbeidsflyt fra en arbeidsflytmal, velg **Ny arbeidsflyt fra mal** på **Arbeidsflyter**-siden. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md).  
 5. I **Beskrivelse**-feltet beskriver du arbeidsflyten.  
 6. I feltet **Kategori**, angi hvilken kategori arbeidsflyten tilhører.  
 7. I **Når hendelse**-feltet angir du hendelsen som må inntreffe for å starte arbeidsflyttrinnet.  
 
-    Når du velger feltet, åpnes siden **Arbeidsflythendelser**, der du kan velge fra alle arbeidsflythendelser som finnes.  
-8. I feltet **Betingelse** angir du én eller flere betingelser som må oppfylles før hendelsen i feltet **Når hendelse** kan forekomme.  
+    Når du velger feltet, åpnes siden **Arbeidsflythendelser**, der du kan velge fra alle tilgjengelige arbeidsflythendelser.  
+8. I feltet **Ved forutsetning av** angir du én eller flere betingelser som må oppfylles før hendelsen i feltet **Når hendelse** kan forekomme.  
 
     Når du velger feltet, åpnes siden **Hendelsesbetingelser** der du velger fra en liste over filterfelt som er aktuelle som betingelser for den aktuelle hendelsen. Du kan legge til nye filterfelt som du vil bruke som vilkår for hendelsen. Du kan angi filtre for hendelsesbetingelse på samme måte som du angir filtre på rapportforespørselssider.  
 
@@ -66,7 +69,7 @@ For begge hendelsestypene er hendelsene system definert. Nye hendelser må legge
     2. I **Operator**-feltet velger du enten **Redusert**, **Økt** eller **Endret**.  
 9. I feltet **Så svar** angir du svaret som skal følge når arbeidsflythendelsen inntreffer.  
 
-     Når du velger feltet, åpnes siden **Arbeidsflytsvar**, der du kan velge fra alle arbeidsflytsvar som finnes, og angi svaralternativer for det valgte svaret.  
+     Når du velger feltet, åpnes siden **Arbeidsflytsvar**, der du kan velge fra alle tilgjengelige arbeidsflytsvar, og angi svaralternativer for det valgte svaret.  
 10. På hurtigfanen **Alternativer for det valgte svaret** angir du alternativer for arbeidsflytsvaret ved å velge verdier i ulike felt som vises, på følgende måte:  
 
     1. Hvis du vil angi alternativer for et arbeidsflytsvar som involverer sending av en melding, fyller du ut feltene som beskrevet i følgende tabell.  
@@ -74,9 +77,9 @@ For begge hendelsestypene er hendelsene system definert. Nye hendelser må legge
         |Felt|Beskrivelse|  
         |-----|-----------|  
         |**Varsle avsender**|Angi om godkjenningsanmoderen skal varsles i stedet for mottakeren av godkjenningsforespørselen. Hvis du setter en hake i avmerkingsboksen, deaktiveres feltet **Bruker-ID for mottaker**, fordi godkjenningsanmoderen, avsenderen, blir varslet i stedet. Navnet på arbeidsflytsvarendringene endres i henhold til dette til **Opprett varsel for &lt;avsender&gt;**. Hvis det ikke er merket av i avmerkingsboksen, er navnet på arbeidsflytsvaret **Opprett varsel for &lt;Bruker&gt;**.
-        |**Bruker-ID for mottaker**|Angi brukeren som meldingen må sendes til. **Obs!** Dette alternativet er bare tilgjengelig for arbeidsflytsvar med en plassholder for en bestemt bruker. For arbeidsflytsvar uten plassholdere for brukere er varslingsmottakeren vanligvis definert av brukeroppsettet for godkjenning.|  
+        |**Bruker-ID for mottaker**|Angi brukeren som meldingen må sendes til. **Obs!** Dette alternativet er bare tilgjengelig for arbeidsflytsvar med en plassholder for en bestemt bruker. For arbeidsflytsvar uten plassholdere for brukere er varslingsmottakeren vanligvis definert av **Brukeroppsett for godkjenning**.|  
         |**Posttype for varsling**|Angir om arbeidsflytvarslingen utløses av en postendring, en godkjenningsforespørsel eller en forfalt data.|
-        |**Kobling til målside**|Angi en annen side som koblingen i meldingen åpner i stedet for standardsiden. Merk at siden må ha samme kildetabell som den aktuelle posten.|
+        |**Kobling til målside**|Angi en annen side som koblingen i meldingen åpner i stedet for standardsiden. Siden må ha samme kildetabell som den aktuelle posten.|
         |**Egendefinert kobling**|Angi URL-adressen til en kobling som legges til i meldingen i tillegg til koblingen til en side.|  
 
     2. Hvis du vil angi alternativer for et arbeidsflytsvar som involverer oppretting av en godkjenningsforespørsel, fyller du ut feltene som beskrevet i følgende tabell.  
@@ -87,7 +90,7 @@ For begge hendelsestypene er hendelsene system definert. Nye hendelser må legge
         |**Deleger etter**|Angi om og når en forespørsel om godkjenning skal delegeres automatisk til relevant stedfortreder. Du kan velge å automatisk delegere en, to, eller fem dager etter datoen da godkjenningen ble forespurt.|
         |**Godkjennertype**|Angi hvem godkjenneren er, i henhold til oppsettet for godkjenningsbrukere og arbeidsflytbrukere. Når feltet er angitt til **Selger/innkjøper** angir innstillingen at brukeren som er definert i feltet **Selger/innkjøper - kode** på siden **Brukeroppsett for godkjenning**, bestemmer godkjenneren. Godkjenningsforespørselsposter blir deretter opprettet i henhold til verdien i feltet **Godkjennergrensetype**. Hvis du vil ha mer informasjon, kan du se [Konfigurere godkjenningsbrukere](across-how-to-set-up-workflow-users.md).|
         |**Vis bekreftelsesmelding**|Angi om en bekreftelsesmelding skal vises til brukere når de ber godkjenning.|
-        |**Godkjennergrensetype**|Angi hvordan godkjenneres godkjenningsgrenser påvirker når godkjenningsforespørselsposter opprettes for dem. En kvalifisert godkjenner er en godkjenner med en godkjenningsgrense som er høyere enn verdien på forespørselen. Du har følgende alternativer: <ol><li>**Godkjennerkjede** angir at godkjenningsforespørselsposter er opprettet for alle bestillerens godkjennere opptil og inkludert den første kvalifiserte godkjenneren</li><li>**Direkte godkjenner** angir at en godkjenningsforespørselspost bare opprettes for anmoderens umiddelbare godkjenner, uavhengig av godkjennerens godkjenningsgrense</li><li>**Første kvalifiserte godkjenner** angir at en godkjenningsforespørselspost bare opprettes for anmoderens første kvalifiserte godkjenner.</li></ol>|
+        |**Godkjennergrensetype**|Angi hvordan godkjenneres godkjenningsgrenser påvirker når godkjenningsforespørselsposter opprettes for dem. En kvalifisert godkjenner er en godkjenner med en godkjenningsgrense som er høyere enn verdien på forespørselen. Følgende alternativer finnes: <ol><li>**Godkjennerkjede** angir at godkjenningsforespørselsposter er opprettet for alle bestillerens godkjennere opptil og inkludert den første kvalifiserte godkjenneren</li><li>**Direkte godkjenner** angir at en godkjenningsforespørselspost bare opprettes for anmoderens umiddelbare godkjenner, uavhengig av godkjennerens godkjenningsgrense</li><li>**Første kvalifiserte godkjenner** angir at en godkjenningsforespørselspost bare opprettes for anmoderens første kvalifiserte godkjenner.</li></ol>|
     3. Hvis du vil angi alternativer for et arbeidsflytsvar som involverer oppretting av kladdelinjer, fyller du ut feltene som beskrevet i følgende tabell.  
 
         |Felt|Beskrivelse|  
@@ -104,7 +107,7 @@ For begge hendelsestypene er hendelsene system definert. Nye hendelser må legge
     >  Du kan bare endre innrykket for et trinn som ikke har et senere trinn.  
 
 12. Gjenta trinn 7 til 11 for å legge til flere arbeidsflyttrinn, enten før eller etter trinnet du nettopp opprettet.  
-13. Merk av for **Aktivert** for å angi at arbeidsflyten starter så snart hendelsen på det første trinnet av typen **Innpunkt** inntreffer. Hvis du vil ha mer informasjon, kan du se [Bruk arbeidsflyter](across-use-workflows.md).  
+13. Slå på vekslebryteren **Aktivert** for å angi at arbeidsflyten starter så snart hendelsen på det første trinnet av typen **Innpunkt** inntreffer. Hvis du vil ha mer informasjon, kan du se [Bruk arbeidsflyter](across-use-workflows.md).  
 
 > [!NOTE]  
 > Ikke aktiver en arbeidsflyt før du er sikker på at arbeidsflyten er fullført og at de involverte arbeidsflyttrinnene kan starte.  
@@ -139,7 +142,7 @@ I eksemplet nedenfor lages det en ny arbeidsflyt for å godkjenne endringer i na
     Hvis du vil ha mer informasjon, kan du se [Konfigurere godkjenningsbrukere](across-how-to-set-up-approval-users.md).  
     6. Legg til et tredje svar, *Send godkjenningsforespørsler for posten, og opprett et varsel.*  
     7. Legg til et fjerde svar, *Vis melding %1*, og angi deretter **En godkjenningsforespørsel er sendt** i Melding-feltet under **Alternativer for det valgte svaret**.  
-    8. Velg OK-knappen for å gå tilbake til arbeidsflyttrinnet.  
+    8. Velg **OK**-knappen for å gå tilbake til arbeidsflyttrinnet.  
 
 5. I den neste linjen legger du til et nytt arbeidsflyttrinn for hendelsen *En godkjenningsforespørsel er godkjent.* .  
 
@@ -149,7 +152,7 @@ I eksemplet nedenfor lages det en ny arbeidsflyt for å godkjenne endringer i na
 
       Resultatet av dette trinnet er at betingelsen leses som *Venter på godkjenning:0* for å angi at dette er den siste godkjenneren.  
     4. I feltet **Så svar** velger du **Velg svar**-koblingen, og deretter velger du svaret **Send godkjenningsforespørsel for posten og opprett et varsel** på siden **Arbeidsflytsvar** i feltet *Velg svar*.  
-    5. Velg OK-knappen.  
+    5. Velg **OK**-knappen.  
 6. I den neste linjen legger du til enda et arbeidsflyttrinn for hendelsen *En godkjenningsforespørsel er godkjent*.  
 
     1. Angi **En godkjenningsforespørsel er godkjent** i feltet *Når hendelse*.
@@ -157,27 +160,27 @@ I eksemplet nedenfor lages det en ny arbeidsflyt for å godkjenne endringer i na
 
       Resultatet av dette trinnet er at betingelsen leses som *Venter på godkjenning:>0* for å angi at dette *ikke* er den siste godkjenneren.  
     3. I feltet **Så svar** velger du **Velg svar**-koblingen, og deretter velger du svaret **Send godkjenningsforespørsel for posten og opprett et varsel** på siden **Arbeidsflytsvar** i feltet *Velg svar*.  
-    4. Velg OK-knappen.  
-7. I den neste linjen legger du til et arbeidsflyttrinn for hendelsen *En godkjenningsforespørsel er avvist*.  
+    4. Velg **OK**-knappen.  
+7. I den neste linjen legger du til et arbeidsflyttrinn for hendelsen *En godkjenningsforespørsel er delegert*.  
+
+    1. Angi **En godkjenningsforespørsel er delegert** i feltet *Når hendelse*.  
+    2. I **Ved forutsetning av**-feltet lar du verdien være *Alltid*.  
+    3. I feltet **Så svar** velger du **Velg svar**-koblingen, og deretter velger du svaret **Send godkjenningsforespørsel for posten og opprett et varsel** på siden **Arbeidsflytsvar** i feltet *Velg svar*.  
+    4. Velg **OK**-knappen.  
+8. I den neste linjen legger du til enda et arbeidsflyttrinn for hendelsen *En godkjenningsforespørsel er avvist*.  
 
     1. Angi **En godkjenningsforespørsel er avvist** i feltet *Når hendelse*.  
     2. I **Ved forutsetning av**-feltet lar du verdien være *Alltid*.  
     3. I feltet **Så svar** velger du **Velg svar**-koblingen, og deretter velger du svaret **Forkast de nye verdiene** på siden **Arbeidsflytsvar** i feltet *Velg svar*.  
     4. Velg koblingen **Legg til flere svar**, og legg deretter til en oppføring for svaret *Avvis godkjenningsforespørselen for posten og opprett et varsel*.
-    5. Velg OK-knappen.  
-8. I den neste linjen legger du til enda et arbeidsflyttrinn for hendelsen *En godkjenningsforespørsel er avvist*.  
-
-    1. Angi **En godkjenningsforespørsel er avvist** i feltet *Når hendelse*.  
-    2. I **Ved forutsetning av**-feltet lar du verdien være *Alltid*.  
-    3. I feltet **Så svar** velger du **Velg svar**-koblingen, og deretter velger du svaret **Send godkjenningsforespørsel for posten og opprett et varsel** på siden **Arbeidsflytsvar** i feltet *Velg svar*.  
-    4. Velg OK-knappen.  
-9. Du aktiverer arbeidsflyten ved å velge **Aktivert**-feltet.  
+    5. Velg **OK**-knappen.  
+9. For å aktivere arbeidsflyten må du slå på vekslebryteren **Aktivert**.  
 
 Illustrasjonen nedenfor gir en oversikt over resultatet av denne prosedyren.  
 
 :::image type="content" source="media/Workflows/workflow-example-2.png" alt-text="Bilde av godkjenningsarbeidsflyten for leverandørnavn.":::
 
-Nå må du teste arbeidsflyten ved å åpne en eksisterende leverandør og endre navnet. Bekreft at det gjøres en godkjenningsforespørsel om å endre leverandørnavnet.
+Nå tester du arbeidsflyten ved å åpne en eksisterende leverandørkort og endre navnet. Bekreft at det sendes en godkjenningsforespørsel om å endre leverandørnavnet.
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/create-workflows/)
 

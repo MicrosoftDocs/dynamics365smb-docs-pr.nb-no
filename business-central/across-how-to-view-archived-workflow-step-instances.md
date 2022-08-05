@@ -1,6 +1,6 @@
 ---
 title: Vise arkiverte forekomster av arbeidsflyttrinn
-description: Alle fullførte forekomster for arbeidsflyttrinn lagres på siden **Arkiverte forekomster for arbeidsflyttrinn**. Hvert trinn består av en arbeidsflythendelse og et arbeidsflytssvar.
+description: Alle fullførte forekomster for arbeidsflyttrinn lagres på siden Arkiverte forekomster for arbeidsflyttrinn. Hvert trinn består av en arbeidsflythendelse og et arbeidsflytssvar.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,36 +9,39 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 99f6507eccebc91c9f530e05ad95ae4b23d5e1e1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: a1913b943cd899fe0903d64da6214225787b002a
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8523102"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129879"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Vise arkiverte forekomster av arbeidsflyttrinn
+
 Alle fullførte forekomster for arbeidsflyttrinn lagres på siden **Arkiverte forekomster for arbeidsflyttrinn**.  
 
- På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse, endret av hendelsesbetingelsene, og et arbeidsflytsvar, endret av svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter](across-how-to-create-workflows.md).  
+På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse, endret av hendelsesbetingelsene, og et arbeidsflytsvar, endret av svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter](across-how-to-create-workflows.md).  
 
-## <a name="to-view-archived-workflow-step-instances"></a>Slik viser du arkiverte forekomster av arbeidsflyttrinn:  
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
-2.  Åpne arbeidsflyten du vil vise alle arkiverte forekomster av arbeidsflyttrinn for.  
-3.  På **Arbeidsflyt**-siden velger du **Arkiverte forekomster for arbeidsflyttrinn**.  
+## <a name="to-view-archived-workflow-step-instances"></a>Slik viser du arkiverte forekomster av arbeidsflyttrinn:
 
-    Siden **Arkiverte forekomster for arbeidsflyttrinn** åpnes med de arkiverte forekomstene av arbeidsflyttrinn for den valgte arbeidsflyten.  
-4.  Du kan også velge ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Arkiverte forekomster for arbeidsflyttrinn**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
+2. Åpne arbeidsflyten du vil vise alle arkiverte forekomster av arbeidsflyttrinn for.  
+3. På **Arbeidsflyt**-siden velger du **Arkiverte forekomster for arbeidsflyttrinn**.  
 
-Siden **Arkiverte forekomster for arbeidsflyttrinn** åpnes og viser alle arkiverte forekomster for arbeidsflyttrinn. I feltet **Arbeidsflytkode** kan du se hvilken arbeidsflyt den arkiverte forekomsten av arbeidsflyttrinn tilhørte.  
+   Siden **Arkiverte forekomster for arbeidsflyttrinn** åpnes med de arkiverte forekomstene av arbeidsflyttrinn for den valgte arbeidsflyten.  
+4. Du kan også velge ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Arkiverte forekomster for arbeidsflyttrinn**, og velg deretter den relaterte koblingen.  
 
-## <a name="see-also"></a>Se også  
- [Slette arbeidsflyter](across-how-to-delete-workflows.md)   
- [Opprette arbeidsflyter](across-how-to-create-workflows.md)   
- [Aktivere arbeidsflyter](across-how-to-enable-workflows.md)   
- [Gjennomgang: Definer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)   
- [Konfigurere arbeidsflyter](across-set-up-workflows.md)   
- [Bruk arbeidsflyter](across-use-workflows.md)   
- [Arbeidsflyt](across-workflow.md)
+   Siden **Arkiverte forekomster for arbeidsflyttrinn** åpnes og viser alle arkiverte forekomster for arbeidsflyttrinn. I feltet **Arbeidsflytkode** kan du se hvilken arbeidsflyt den arkiverte forekomsten av arbeidsflyttrinn tilhørte.  
+
+## <a name="see-also"></a>Se også
+
+[Slette arbeidsflyter](across-how-to-delete-workflows.md)  
+[Opprette arbeidsflyter](across-how-to-create-workflows.md)  
+[Aktivere arbeidsflyter](across-how-to-enable-workflows.md)  
+[Gjennomgang: Definer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
+[Konfigurere arbeidsflyter](across-set-up-workflows.md)  
+[Bruke arbeidsflyter](across-use-workflows.md)  
+[Arbeidsflyt](across-workflow.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

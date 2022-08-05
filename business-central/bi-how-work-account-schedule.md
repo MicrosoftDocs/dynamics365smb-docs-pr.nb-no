@@ -10,28 +10,28 @@ ms.search.keywords: bi, power BI, analysis, KPI
 ms.search.form: 103, 104, 197, 196, 195, 198, 490, 764, 765, 766
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 32ca89daf15485057cf9ef8b86ff9090bb12d037
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 8984d007f2082c6a21a3d2226a20f2ad585b131a
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512363"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9129736"
 ---
 # <a name="prepare-financial-reporting-with-account-schedules-and-account-categories"></a>Klargjøre Financial Reporting med kontoskjemaer og kontokategorier
 
-Du kan bruke kontoskjemaer til å få innsikt i de økonomiske dataene som er lagret i kontoplanen. Kontoskjemaer analyserer tall på finanskonti og sammenligner faktiske finansposter med finansbudsjettposter. Resultatet vises i diagrammer i rollesenteret, for eksempel ut Kontantstrøm-diagrammet, og i rapporter, for eksempel rapporten Resultatregnskap og Balanse.
+Du kan bruke kontoskjemaer til å få innsikt i de økonomiske dataene som er lagret i kontoplanen. Kontoskjemaer analyserer tall på finanskonti og sammenligner faktiske finansposter med finansbudsjettposter. Resultatet vises i diagrammer og rapporter i rollesenteret, for eksempel ut Kontantstrøm-diagrammet og rapportene Resultatregnskap og Balanse.
 
 Du får tilgang til disse to rapportene for eksempel med handlingen **Årsregnskap** i rollesentrene for forretningsleder og regnskapsfører.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] inneholder et par eksempler på kontoskjemaer som du kan bruke med én gang, eller du kan definere dine egne rader og kolonner for å angi tallene som skal sammenlignes. Du kan for eksempel opprette kontoskjemaer for å beregne fortjenestemarginer for dimensjoner som avdelinger eller kundegrupper. Du kan opprette så mange egendefinerte regnskapsrapporter du vil.  
+[!INCLUDE[prod_short](includes/prod_short.md)] inneholder eksempelkontoskjemaer som du kan bruke umiddelbart. Du kan også opprette dine egne rader og kolonner for å angi tallene som skal sammenlignes. Du kan for eksempel opprette kontoskjemaer for å beregne fortjenestemarginer for dimensjoner som avdelinger eller kundegrupper. Antall egendefinerte regnskapsrapporter du kan opprette, er ubegrenset.  
 
-Oppretting av kontoskjemaer krever en forståelse av de økonomiske dataene i kontoplanen. Du kan for eksempel vise finansposter som en prosentandel av budsjettpostene. Dette krever at budsjetter opprettes. Hvis du vil ha mer informasjon, kan du se [Opprette finansbudsjetter](finance-how-create-budgets.md).
+Oppretting av kontoskjemaer krever en forståelse av de økonomiske dataene i kontoplanen. Du kan for eksempel vise finansposter som en prosentandel av budsjettpostene, men det krever at du har opprettet budsjetter. Hvis du vil ha mer informasjon, kan du se [Opprette finansbudsjetter](finance-how-create-budgets.md).
 
 ## <a name="account-schedules"></a>Kontoskjemaer
 
-Kontoskjemaer brukes til å organisere konti som er oppført i kontoplanen, på måter som egner seg for å presentere informasjon om disse kontiene. Du kan definere ulike oppsett for å velge hvilken informasjon du vil trekke ut fra kontoplanen. En av hovedfunksjonene med kontoskjemaer er å tilby et sted for beregninger som ikke kan gjøres direkte i kontoplanen, for eksempel oppretting av delsummer for kontogrupper, som kan inkluderes i nye summer og deretter brukes i andre totalsummer. Brukere kan for eksempel opprette kontoskjemaer for å beregne fortjenestemarginer for dimensjoner som avdelinger eller kundegrupper. I tillegg kan finansposter og finansbudsjettposter filtreres, for eksempel etter bevegelse eller debetbeløp.
+Kontoskjemaer ordner kontoer fra kontoplanen din på måter som gjør det enkelt å presentere data. Du kan definere ulike oppsett for å velge hvilken informasjon du vil trekke ut fra kontoplanen. Kontoskjemaer gir et sted for beregninger som ikke kan utføres direkte i kontoplanen. Du kan for eksempel opprette delsummer for kontogrupper og deretter inkludere denne summen i andre totaler. Et annet eksempel er å beregne fortjenestemarginer for dimensjoner som avdelinger eller kundegrupper. I tillegg kan du filtrere finansposter og finansbudsjettposter, for eksempel etter bevegelse eller debetbeløp.
 
-Du kan også sammenligne to eller flere kontoskjemaer og kolonneoppsett ved hjelp av formler. Denne typen sammenligning gir muligheter for følgende:
+Du kan også sammenligne to eller flere kontoskjemaer og kolonneoppsett ved hjelp av formler, som lar deg utføre følgende handlinger:
 
 * Opprette tilpassede finansrapporter.
 * Opprette så mange kontoskjemaer som nødvendig, med unike navn.
@@ -50,28 +50,33 @@ Du kan bruke finanskontokategoriene til å endre oppsettet for regnskapsoppgjør
 
 Du bruker kontoskjemaer til å analysere tall på finanskonti eller til å sammenligne faktiske finansposter med finansbudsjettposter. Du kan for eksempel vise finansposter som en prosentandel av budsjettpostene.
 
-Kontoskjemaene i standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] er grunnlaget for standard finansrapporter som kanskje ikke oppfylle kravene til virksomheten. Hvis du raskt vil opprette dine egne finansrapporter, kan du begynne med å kopiere et eksisterende kontoskjema. Se trinn 3 nedenfor.
+Kontoskjemaene i standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] er grunnlaget for standard finansrapporter som kanskje ikke oppfylle kravene til virksomheten. Hvis du raskt vil opprette dine egne finansrapporter, kan du begynne med å kopiere et eksisterende kontoskjema, som beskrevet i trinn 3.
 
-Siden **Kto.skjemaoversikt** er der du kan forhåndsvise den økonomiske rapporten som kontoskjemaet definerer. I det følgende er det viktig å forstå at det du definerer som kontoskjemarader og -kolonner, bare kan ses og valideres på siden **Kto.skjemaoversikt**, som du åpner fra et kontoskjema ved å velge **Oversikt**-handlingen. Selve **Kontoskjema**-siden er bare et oppsettsområde.  
+> [!TIP]
+> Når du har opprettet et kontoskjema, kan du bruke siden **Oversikt over kontoskjema** til å forhåndsvise og validere regnskapsrapporten som kontoskjemaet definerer. Velg handlingen **Oversikt** for å åpne siden.  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kontoskjemaer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny** på siden **Kontoskjemaer** for å opprette et nytt kontoskjemanavn.
-3. Du kan også velge handlingen **Kopier kontoskjema**, fylle ut de to feltene, og deretter velge **OK**.
+3. Hvis du vil bruke innstillinger fra et eksisterende kontoskjema på nytt, velger du handlingen **Kopier kontoskjema**.
 4. Fyll ut feltene etter behov. I feltet **Standard kolonneoppsett** velger du et eksisterende oppsett. Det kan endres senere om du vil.
 
-    Du bruker kolonneoppsett til å definere kolonner for ulike parametere som finansielle data i radene vises etter. Du kan for eksempel utforme et kolonneoppsett for å sammenligne bevegelse og saldo for samme periode i år og i fjor, med fire kolonner. Hvis du vil ha mer informasjon, kan du se [Redigere et kolonneoppsett](bi-how-work-account-schedule.md#to-edit-a-column-layout).
+    Kolonneoppsett definerer kolonner for parameterne som finansielle data i radene vises etter. Et kolonneoppsett kan for eksempel inneholde fire kolonner der du kan sammenligne bevegelse og saldo for samme periode i år og i fjor. Hvis du vil ha mer informasjon, kan du se [Redigere et kolonneoppsett](bi-how-work-account-schedule.md#to-edit-a-column-layout).
 
 5. Velg handlingen **Rediger kontoskjema**.
-6. Opprett en rad for hvert økonomiske element som du vil skal vises i rapporten, for eksempel en rad for gjeldende aktiva og en ny rad for aktiva. For inspirasjon kan du se eksisterende kontoskjemaer i demoselskapet CRONUS.
+6. Avhengig av hva du vil analysere, velger du handlingene **Sett inn finanskontoer**, **Sett inn CF-kontoer** og **Sett inn kostnadstyper** for å opprette en rad for hvert finanselement. Du kan for eksempel ha én rad for aktuelle aktiva og en annen rad for aktiva. For inspirasjon kan du se kontoskjemaene i demoselskapet CRONUS.
+
+    > [!NOTE]
+    > Feltet **Radnr.** viser de ti første tegnene i en identifikator, for eksempel et kontonummer. Hvis du legger til elementer med identifikatorer som begynner med de samme ti tegnene, vil du ha duplikater fra felte **Radnr.** . Du kan om nødvendig redigere identifikatorer manuelt etter at du har satt inn elementene. De fullstendige identifikatorene vises i feltet **Sammentelling**.
+
 7. Velg handlingen **Oversikt** for å se den resulterende økonomiske rapporten.
 8. På siden **Kto.skjemaoversikt** i feltet **Navn på kolonneoppsett** velger du et annet kolonneoppsett for å vise økonomiske data etter andre parametere.
-9. Velg **OK**.
+9. Velg **OK**-knappen.
 
 Du har nå definert grunnlaget for kontoskjemaet, radene med økonomiske data som skal vises, og et eksisterende kolonneoppsett for å vise dataene i radene per ulike parametere. Hvis standardkolonneoppsettet du valgte i trinn 4, ikke dekker behovet ditt, følger du fremgangsmåten nedenfor.
 
 ### <a name="to-edit-a-column-layout"></a>Redigere et kolonneoppsett
 
-Du bruker kolonneoppsett til å angi hvilke kolonner som skal være med i den resulterende rapporten. Du kan for eksempel sammenligne bevegelse og saldo for samme periode i år og i fjor. Du kan ha opptil 15 kolonner. Dette er nyttig hvis du for eksempel vil vise budsjetter for tolv måneder og inkludere en kolonne som viser totalen.
+Du bruker kolonneoppsett til å angi hvilke kolonner som skal være med i den resulterende rapporten. Du kan for eksempel sammenligne bevegelse og saldo for samme periode i år og i fjor. Du kan ha opptil 15 kolonner, som være nyttig for visning av budsjetter for tolv måneder, med en kolonne som viser totalen.
 
 > [!NOTE]
 > En utskrifts-/forhåndsvisnings-/lagret versjon av et kontoskjema kan vise maksimalt fem kolonner. Hvis kontoskjemaet bare er beregnet for analyse på siden **Kto.skjemaoversikt**, kan du opprette så mange kolonner du vil.
@@ -86,7 +91,7 @@ Du bruker kolonneoppsett til å angi hvilke kolonner som skal være med i den re
 
 ### <a name="to-create-a-column-that-calculates-percentages"></a>Slik oppretter du en kolonne som beregner prosentdeler
 
-Noen ganger vil du kanskje ta med en kolonne i et kontoskjema for å beregne prosentdeler av en sum. Hvis du for eksempel har et antall rader som bryter ned salg etter dimensjon, vil du kanskje ta med en kolonne som angir hvor stor prosentdel av totalt salg hver rad representerer.
+Noen ganger vil du kanskje ta med en kolonne i et kontoskjema for å beregne prosentdeler av en sum. Hvis du for eksempel har rader som bryter ned salg etter dimensjon, vil du kanskje ta med en kolonne som angir hvor stor prosentdel av totalt salg i hver rad.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 2.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kontoskjemaer**, og velg deretter den relaterte koblingen.
 2. Velg et kontoskjema på siden **Kontoskjemanavn**.  
@@ -110,8 +115,8 @@ Du kan bruke et kontoskjema til å opprette en oppgave som sammenligner finansta
 
     Kontiene settes nå inn i kontoskjemaet. Hvis du vil, kan du også endre kolonneoppsettet.  
 7. Velg handlingen **Oversikt**.  
-8. På hurtigfanen **Dimensjonsfiltre** på **Kto.skjemaoversikt**-siden setter du budsjettfilteret til ønsket filternavn.  
-9. Velg **OK**.  
+8. På hurtigfanen **Dimensjonsfiltre** på **Kto.skjemaoversikt**-siden setter du budsjettfilteret til filternavnet du vil bruke.  
+9. Velg **OK**-knappen.  
 
 Du kan nå kopiere og lime inn budsjettoppgaven i et regneark.  
 
@@ -119,9 +124,9 @@ Du kan nå kopiere og lime inn budsjettoppgaven i et regneark.
 
 Kontoskjemaet kan sammenligne resultatene av ulike regnskapsperioder, for eksempel inneværende måned og samme måned i fjor. Dette gjør du ved å åpne **Kolonneoppsett**-siden og tilpasse den ved å legge til feltet **Formel - periodesammenligning** som en kolonne. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md). Deretter kan du sette dette feltet til en periodeformel.  
 
-En regnskapsperiode trenger ikke å sammenfalle med kalenderen, men regnskapsåret må ha samme antall regnskapsperioder, selv om hver periode kan variere i lengde.  
+En regnskapsperiode trenger ikke å samsvare med kalenderen. Regnskapsåret må imidlertid ha samme antall regnskapsperioder, selv om hver periode kan variere i lengde.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] bruker periodeformelen til å beregne beløpet fra sammenligningsperioden, i forhold til perioden som er angitt i datofilteret i rapportforespørselen. Sammenligningsperioden er basert på perioden for startdatoen i datofilteret. Periodene forkortes slik:
+[!INCLUDE[prod_short](includes/prod_short.md)] bruker periodeformelen til å beregne beløpet fra sammenligningsperioden, i forhold til perioden som er angitt i datofilteret i rapporten. Sammenligningsperioden er basert på perioden for startdatoen i datofilteret. Periodene forkortes slik:
 
 | Forkortelse | Beskrivelse                                                                           |
 | ------------ | ------------------------------------------------------------------------------------- |
@@ -150,7 +155,7 @@ Hvis du vil beregne etter regelmessige perioder, må du angi en formel i feltet 
 Hvis du vil ha mer informasjon om datoformler, kan du se [Arbeid med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md).  
 
 ## <a name="import-or-export-account-schedules"></a>Importer eller eksporter kontoskjemaer
-Du kan importere og eksportere kontoskjemaer som RapidStart-konfigurasjonspakker. Dette er for eksempel nyttig for deling med andre selskaper. Pakken opprettes i en .rapidstart-fil, som leverer innholdet i pakken i et komprimert format.
+Du kan importere og eksportere kontoskjemaer som RapidStart-konfigurasjonspakker. Konfigurasjonspakker er for eksempel nyttig for deling med andre selskaper. Pakken opprettes i en .rapidstart-fil, som leverer innholdet i pakken i et komprimert format.
 
 ### <a name="to-import-and-export-account-schedules"></a>Slik importerer og eksporterer du kontoskjemaer
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 4.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kontoskjemaer**, og velg deretter den relaterte koblingen.

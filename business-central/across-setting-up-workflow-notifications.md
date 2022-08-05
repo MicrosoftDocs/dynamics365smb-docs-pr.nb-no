@@ -1,28 +1,30 @@
 ---
 title: Konfigurering av arbeidsflytvarsler
-description: Dette emnet forteller deg hvordan du konfigurerer arbeidsflytvarsler for å varsle en bruker om at det har oppstått en hendelse som de må reagere på. Det kreves et arbeidsflytsvar.
+description: Denne artikkelen forteller deg hvordan du konfigurerer arbeidsflytvarsler for å varsle en bruker om at det har oppstått en hendelse som de må reagere på. Det kreves et arbeidsflytsvar.
 author: SorenGP
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: a41dcc291fb46173533f6552b6c64de35d28bc01
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 99c08769429eef51a1d52e142d455ccd227781c7
+ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8134021"
+ms.lasthandoff: 07/09/2022
+ms.locfileid: "9130014"
 ---
 # <a name="workflow-notifications"></a>Arbeidsflytvarslinger
 
-Konfigurere arbeidsflytene slik at de automatisk varsler brukere når de må det må utføres handlinger for et trinn i arbeidsflyten. Mange arbeidsflytsvar omhandler å varsle brukere om at det har skjedd en hendelse de må gjøre noe med. I ett arbeidsflyttrinn kan hendelsen for eksempel være at bruker 1 ber om godkjenning av en ny post, og svaret er at det er sendt en melding til bruker 2, godkjenneren. I det neste arbeidsflyttrinnet kan hendelsen være at bruker 2 godkjenner posten, og svaret er at det er sendt en melding til bruker 3 om å starte en relatert behandling av den godkjente posten. Hver varsling er knyttet til en godkjenningspost for arbeidsflyttrinn som omhandler godkjenning. Hvis du vil ha mer informasjon, kan du se [Arbeidsflyt](across-workflow.md).  
+Konfigurere arbeidsflytene slik at de automatisk varsler brukere når de må det må utføres handlinger for et trinn i arbeidsflyten. Mange arbeidsflytsvar omhandler å varsle brukere om at det har skjedd en hendelse de må gjøre noe med.
+
+Du kan for eksempel angi at bruker 2, godkjenningsbrukeren, mottar et varsel hver gang bruker 1 ber om godkjenning for en ny post. I neste arbeidsflyttrinn varsles bruker 3 etter at bruker 2 godkjenner posten for å starte en relatert behandling av posten. Med arbeidsflyttrinn for godkjenning er hvert varsel knyttet til en godkjenningsoppføring. Hvis du vil ha mer informasjon, kan du se [Arbeidsflyt](across-workflow.md).  
 
 > [!NOTE]  
-> Den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] støtter varsler som e-post og interne merknader.  
+> Standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] støtter varsler som e-post og interne merknader.  
 
 > [!IMPORTANT]  
-> Alle arbeidsflytvarsler sendes via en jobbkø. Kontroller at jobbkøen i installasjonen er definert til å håndtere arbeidsflytvarsler, og at det er merket av for **Start automatisk fra server**. Hvis du vil ha mer informasjon, kan du se [Bruke jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).
+> Alle arbeidsflytvarsler sendes via en jobbkø. Kontroller at jobbkøen i installasjonen er definert til å håndtere arbeidsflytvarsler, og at det er merket av for **Start automatisk fra server**. Hvis du vil ha mer informasjon, kan du se [Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).
 
 ## <a name="set-up-notifications"></a>Konfigurer varslinger
 
@@ -32,7 +34,7 @@ Du kan definere ulike aspekter ved arbeidsflytvarsler på følgende steder:
 
     For arbeidsflyter for godkjenning angir du mottakerne av arbeidsflytvarsler ved å fylle en linje på siden **Brukeroppsett for godkjenning** for hver bruker som tar del i arbeidsflyten.  
 
-    Hvis for eksempel bruker 2 er angitt i **Godkjenner-ID**-feltet på linjen for bruker 1, sendes varselet om godkjenningsforespørsel til bruker 1. Hvis du vil ha mer informasjon, kan du se [Konfigurere godkjenningsbrukere](across-how-to-set-up-approval-users.md).  
+    Hvis for eksempel bruker 2 er angitt i **Godkjenner-ID**-feltet på linjen for bruker 1, sendes varselet om godkjenningsforespørsel til bruker 2. Hvis du vil ha mer informasjon, kan du se [Konfigurere godkjenningsbrukere](across-how-to-set-up-approval-users.md).  
 * Tidsplaner for varsling
 
     Du kan angi når og hvordan brukere skal motta arbeidsflytvarsler, ved å fylle ut siden **Tidsplan for varsling** for hver arbeidsflytbruker. Hvis du vil ha mer informasjon, kan du se [Angi når og hvor du kan motta varsler](across-how-to-specify-when-and-how-to-receive-notifications.md).  
@@ -45,15 +47,17 @@ Du kan definere ulike aspekter ved arbeidsflytvarsler på følgende steder:
 
 * Svaralternativer
 
-    Du definerer det bestemte innholdet og reglene for et arbeidsflytvarsel når du oppretter den aktuelle arbeidsflyten. Dette gjør du ved å velge alternativer på siden **Alternativer for arbeidsflytsvar** for arbeidsflytsvaret som representerer varslingen. Hvis du vil ha mer informasjon, kan du se trinn 9 i [Opprette arbeidsflyter](across-how-to-create-workflows.md).  
+    Du definerer det bestemte innholdet og reglene for et arbeidsflytvarsel når du oppretter den aktuelle arbeidsflyten. Velg tilpasningsalternativene på siden **Arbeidsflytsvar** for arbeidsflytsvaret som representerer varslingen. Hvis du vil ha mer informasjon, kan du se trinn 9 i [Opprette arbeidsflyter](across-how-to-create-workflows.md#to-create-a-workflow).  
 
 * Varsle avsender
 
-    For arbeidsflyter for godkjenning legger du til et trinn for arbeidsflytsvar for å varsle avsenderen når forespørselen er godkjent eller avvist. Hvis du vil ha mer informasjon, kan du se trinn 9 i [Opprette arbeidsflyter](across-how-to-create-workflows.md).  
+    For arbeidsflyter for godkjenning legger du til et trinn for arbeidsflytsvar for å varsle avsenderen når forespørselen er godkjent eller avvist. Hvis du vil ha mer informasjon, kan du se trinn 9 i [Opprette arbeidsflyter](across-how-to-create-workflows.md#to-create-a-workflow).  
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/create-workflows/)
 
 ## <a name="see-also"></a>Se også
 
-[Konfigurere godkjenningsbrukere](across-how-to-set-up-approval-users.md)  
+[Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)  
 [Konfigurere arbeidsflytbrukere](across-how-to-set-up-workflow-users.md)  
 [Angi når og hvor du kan motta varsler](across-how-to-specify-when-and-how-to-receive-notifications.md)  
 [Opprette arbeidsflyter](across-how-to-create-workflows.md)  
