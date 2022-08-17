@@ -6,16 +6,16 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 9dba05469b75d513ea4928b49e8aaf8d188591b5
-ms.sourcegitcommit: 7a6efcbae293c024ca4f6622c82886decf86c176
+ms.openlocfilehash: 93c30d401cd5b9f689f757621b12a09dfd73b4b4
+ms.sourcegitcommit: 902da19b0ab7a3fbc051cd69ab2802f30d0f378f
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/02/2022
-ms.locfileid: "8841963"
+ms.lasthandoff: 08/01/2022
+ms.locfileid: "9213666"
 ---
 # <a name="faq-for-technical-details"></a>Vanlige spørsmål for tekniske detaljer
 
-Denne artikkelen inneholder en liste over vanlige spørsmål for Shopify-koblingen.
+Denne artikkelen svarer på vanlige spørsmål om Shopify-koblingen.
 
 ## <a name="what-is-shopify"></a>Hva er Shopify? 
 
@@ -23,29 +23,31 @@ Shopify er en abonnementsbasert programvare som gjør det mulig for alle å oppr
 
 ## <a name="what-is-the-microsoft-dynamics-365-business-central-shopify-connector"></a>Hva er Microsoft Dynamics 365 Business Central Shopify-koblingen? 
 
-Shopify-koblingen gir kunder muligheten til å koble til Shopify-butikken (eller butikkene) sammen med [!INCLUDE[prod_short](../includes/prod_short.md)] for å maksimere produktiviteten. Ved å bruke Shopify-koblingen kan de administrere og vise innsikt fra virksomheten og Shopify-nettbutikken som én enhet. 
+Med Shopify-koblingen kan virksomheter koble Shopify-butikken (eller butikkene) sammen med [!INCLUDE[prod_short](../includes/prod_short.md)] for å maksimere produktiviteten. Ved å bruke Shopify-koblingen kan de administrere og vise innsikt fra virksomheten og Shopify-nettbutikken som én enhet. 
 
 ## <a name="why-did-microsoft-and-shopify-form-this-partnership"></a>Hvorfor har Microsoft og Shopify laget dette partnerskapet? 
 
-[!INCLUDE[prod_short](../includes/prod_long.md)] slår seg sammen med Shopify for å hjelpe kundene med å skape en bedre handleopplevelse. Shopify tilbyr forhandlere en brukervennlig handelsløsning, og [!INCLUDE[prod_short](../includes/prod_short.md)] tilbyr omfattende administrasjon på tvers av økonomi, salg, service og drift i ett brukervennlig program. Effektiv forbindelse mellom de to systemene synkroniserer ordre-, børs- og kundeopplysninger for å sikre at forhandlere kan oppfylle ordrer raskere og bedre betjene kunder.
+[!INCLUDE[prod_short](../includes/prod_long.md)] slår seg sammen med Shopify for å hjelpe kundene med å skape en bedre handleopplevelse. Shopify tilbyr forhandlere en brukervennlig handelsløsning, og [!INCLUDE[prod_short](../includes/prod_short.md)] tilbyr omfattende administrasjon på tvers av økonomi, salg, service og drift i ett brukervennlig program. Effektiv forbindelse mellom de to systemene synkroniserer ordre-, børs- og kundeopplysninger slik at forhandlere kan oppfylle ordrer raskere og bedre betjene kunder.
 
-## <a name="availability"></a>Disponibelt
+## <a name="what-microsoft-products-is-the-shopify-connector-available-for"></a>Hvilke Microsoft-produkter er Shopify-koblingen tilgjengelig for?
 
-Denne funksjonen er bare tilgjengelig for nettversjonen av [!INCLUDE[prod_short](../includes/prod_short.md)], fra og med versjon 20.1. Den er ikke tilgjengelig for lokale distribusjoner. Appen med koblingen er forhåndsinstallert for nye miljøer. Organisasjoner med eksisterende miljøer kan laste ned og installere appen fra AppSource. Organisasjonen må ha både en Business Central-lisens og en Shopify-lisens for å kunne bruke koblingen. Hvis du vil ha mer informasjon om støttede land, språk og utgaver av [!INCLUDE[prod_short](../includes/prod_short.md)], kan du se [Shopify-kobling på AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
+Denne funksjonen er bare tilgjengelig for nettversjonen av [!INCLUDE[prod_short](../includes/prod_short.md)], fra og med versjon 20.1. Den er ikke tilgjengelig for lokale distribusjoner. Appen med koblingen er forhåndsinstallert for nye miljøer. Organisasjoner med eksisterende miljøer kan laste ned og installere appen fra AppSource. Organisasjonen må ha både en Business Central-lisens og en Shopify-lisens for å kunne bruke koblingen. Finn ut mer om støttede land, språk og utgaver av [!INCLUDE[prod_short](../includes/prod_short.md)] på [Shopify-kobling i AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
 
-## <a name="support"></a>Støtte
+Shopify-koblingen fungerer ikke for [innebygd app](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), der nettadressen for klienten har formatet: `https://[application name].bc.dynamics.com`. 
 
-Shopify-koblingen er dekket av nåværende støttemodell. Hvis du vil ha mer informasjon, kan du se [Teknisk støtte](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (bare på engelsk). 
+## <a name="what-support-is-offered-for-the-shopify-connector"></a>Hva slags støtte tilbys for Shopify-koblingen?
 
-For å få hjelp med Shopify starter du med [Generelt Shopify-hjelpesenter](https://help.shopify.com/) eller [Døgnstøtte for butikken som Shopify-forhandler](https://help.shopify.com/questions#/).
+Shopify-koblingen er dekket av nåværende støttemodell. Finn ut mer på [Teknisk støtte](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (bare på engelsk). 
 
-## <a name="extensibility"></a>Utvidelsesmulighet
+Få hjelp med Shopify ved å starte med [Generelt Shopify-hjelpesenter](https://help.shopify.com/) eller [Døgnstøtte for butikken som Shopify-forhandler](https://help.shopify.com/questions#/).
 
-For øyeblikket er denne appen ikke-utvidbar. Vi forventer å gjøre den utvidbar en gang i fremtiden, som ikke er bestemt akkurat nå.
+## <a name="is-the-shopify-connector-extensible"></a>Kan Shopify-koblingen utvides?
 
-## <a name="contribution"></a>Bidrag
+Denne appen kan ikke utvides for øyeblikket med planer for å gjøre den utvidbar på et tidspunkt (som ennå ikke er bestemt) i fremtiden.
 
-Denne utvidelsen er åpen for bidrag av fellesskapet. Du finner [kildekoden](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) i tilleggsrepositoriet for Microsoft Al-programmer.
+## <a name="is-the-shopify-connector-open-for-contribution"></a>Er Shopify-koblingen åpen for bidrag
+
+Ja, denne utvidelsen er åpen for bidrag av fellesskapet. Du finner [kildekoden](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) i tilleggsrepositoriet for Microsoft Al-programmer.
 
 
 

@@ -6,14 +6,14 @@ ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
-ms.date: 04/01/2021
+ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 667cc445ed48bc7cf7d9af67567138a35a730934
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 8d70c11aa3d467ada4f7aae3a1cf3efa1603bbe4
+ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074695"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9227476"
 ---
 # <a name="create-jobs"></a>Opprette prosjekter
 
@@ -43,7 +43,15 @@ Du oppretter et prosjektkort og deretter prosjektoppgavelinjer og prosjektplanle
 3. Hvis du vil angi prosjektet med informasjon om andre prosjekter, kan du velge handlingen **Kopier prosjekt**, fylle ut feltene etter behov, og deretter velge **OK**-knappen.
 
 > [!NOTE]  
->   Hvis du bruker timelister for prosjektet, må du også angi en person med ansvar for disse. Denne personen kan godkjenne timelister for ansattoppgavene som er knyttet til jobben. Hvis du vil ha mer informasjon, kan du se [Definere timelister](projects-how-setup-time-sheets.md).
+> Hvis du bruker timelister for prosjektet, må du også angi en person med ansvar for disse. Denne personen kan godkjenne timelister for ansattoppgavene som er knyttet til jobben. Hvis du vil ha mer informasjon, kan du se [Definer timelister](projects-how-setup-time-sheets.md).
+
+Du kan eventuelt merke handlinger på prosjektet som sperret, ved hjelp av feltet **Sperret**. tabellen nedenfor beskriver effekten av alternativene for dette feltet.
+
+|Alternativ  |Description  |
+|---------|---------|
+|Tom |Alle handlinger er tillatt.|
+|Bokføring    |Du kan arbeide med planleggingslinjer, men prosjektet er sperret for bokføring. Hvis du velger dette alternativet, kan du ikke bokføre forbruk eller salg i prosjektet.|
+|Alle  |Alle handlinger er sperret.|
 
 ## <a name="to-create-tasks-for-a-job"></a>Slik oppretter du oppgaver for et prosjekt:
 

@@ -1308,6 +1308,7 @@
 ##### [Rapport 349](LocalFunctionality/Spain/report-349.md)  
 ##### [Opprette rapport 349](LocalFunctionality/Spain/how-to-create-report-349.md)  
 ##### [Opprette 340-rapporter for småbedrifter](LocalFunctionality/Spain/how-to-set-up-340-reports-for-small-businesses.md)
+##### [Konfigurer SII for mva-rapportering](LocalFunctionality/Spain/sii-setup.md)
 ##### [Opprette maler for telematiske mva-oppgaver i tekstfilformat](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-text-file-format.md)
 ##### [Opprette maler for telematikk-mva-oppgaver i XML-format](LocalFunctionality/Spain/how-to-create-templates-for-telematic-vat-statements-in-xml-file-format.md)
 ##### [Eksportere mva-oppgaver i XML-format](LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format.md)  
@@ -1328,7 +1329,6 @@
 ##### [Cartera-modulen for salg](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Cartera-modulen for betalinger](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII - faktura- og kreditnotatyper i salgs- og kjøpsdokumenter](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
-##### [Konfigurer SII for mva-rapportering](LocalFunctionality/Spain/sii-setup.md)
 #### Kjerneøkonomi
 ##### [Definere og lukke resultatregnskapssaldi](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Rykke inn og validere kontantstrømkontoplan](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
