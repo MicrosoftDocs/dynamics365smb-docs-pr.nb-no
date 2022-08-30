@@ -665,6 +665,7 @@
 ### [Synkroniser varer med Shopify](shopify/synchronize-items.md)
 ### [Synkroniser kunder med Shopify](shopify/synchronize-customers.md)
 ### [Synkroniser og oppfyll salgsordrer med Shopify](shopify/synchronize-orders.md)
+### [Definere avgifter for Shopify-tilkobling](shopify/setup-taxes.md)
 ### [Kjør oppgaver i bakgrunnen](shopify/background.md)
 ### [Feilsøk Shopify-koblingen](shopify/troubleshoot.md)
 ### [Vanlige spørsmål for Shopify-koblingen](shopify/shopify-faq.md)

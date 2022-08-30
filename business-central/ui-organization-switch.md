@@ -7,18 +7,20 @@ ms.search.keywords: environments, companies, tenants, organization
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/04/2021
 ms.author: bholtorf
-ms.openlocfilehash: 7a874890fe88b32668b309edb43563f8d11e7555
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 0f8c8bf1f9f9c56f1790bf8fd6727eab6977ad3c
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655387"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317358"
 ---
 # <a name="switching-to-another-company-or-environment"></a>Bytte til et annet selskap eller miljø
 
 [!INCLUDE [prod_short](includes/prod_short.md)] er tilgjengelig i mange forskjellige land og støtter mange forskjellige typer organisasjoner. Det kan hende at organisasjonen er konfigurert [!INCLUDE [prod_short](includes/prod_short.md)] slik at du må forstå begrepene *selskap* og *miljøet*.  
 
-[!INCLUDE [company_environment](includes/company_environment.md)] Hvis du vil ha mer informasjon, kan du se [Opprette nye selskaper i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
+[!INCLUDE [company_environment](includes/company_environment.md)]
+
+Hvis du vil ha mer informasjon, kan du se [Opprette nye selskaper i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  
 
 > [!TIP]
 > Hvis du ofte bytter mellom selskaper eller arbeider med [!INCLUDE[prod_short](includes/prod_short.md)] fra en annen app, som Microsoft Teams, kan det være lett å miste oversikten over hvor du er. For å hjelpe deg med å holde oversikt kan du legge til et merke som viser selskapsnavnet, slik at du raskt kan kontrollere at du er på riktig sted. Hvis du vil ha mer informasjon, kan du se [Vise et selskapsmerke for rask tilgang til selskapsinformasjon](ui-change-basic-settings.md#badge).
@@ -32,8 +34,11 @@ Avhengig av hvilken nettleser du har, kan du også feste de forskjellige selskap
 Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], er miljøene du har tilgang til, tilgjengelige på Office.com.  
 
 1. Velg **Appstarter**-ikonet ![Appstarter.](media/app-launcher-icon.png "Appstarteren gir tilgang til flere funksjoner").
-2. Hvis du ikke ser en app for [!INCLUDE[prod_short](includes/prod_short.md)] i ruten som åpnes, velger du deretter **Office 365**. Deretter angir du **Business Central** i **søkefeltet** eller velger **Alle apper** > **Forretningsapper**.  
-3. Det vises én [!INCLUDE[prod_short](includes/prod_short.md)]-app for hver miljøtype, for eksempel produksjon og sandkasse. Hvis du vil bytte til et annet miljø, velger du [!INCLUDE[prod_short](includes/prod_short.md)]-appen for miljøtypen det er. Hvis det er mer enn ett miljø av en bestemt type, blir du bedt om å velge miljøet du vil ha tilgang til.
+2. I ruten som åpnes ser du etter og velger [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du ikke ser [!INCLUDE[prod_short](includes/prod_short.md)], velger du **Alle apper**, og deretter angir du **Business Central** i **Søk**-boksen.
+
+   :::image type="content" source="media/app-launcher-bc-tile.png" alt-text="Microsoft 365-appstarteren viser Business Central-flisen.":::  
+
+3. Hvis det er mer enn ett miljø, blir du bedt om å velge miljøet du vil ha tilgang til.
 
 <!--
 The following image shows tiles for accessing production and sandbox environments on the Dynamics 365 Home page.

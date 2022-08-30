@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9ed56b0724b19d971b8dc98ea79807423403fd83
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 081f900836f97d6630608aade4251272ee1a1ff1
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129769"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317438"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Bruke jobbkøer til å planlegge oppgaver
 
-Med jobbkøer kan brukere planlegge og kjøre bestemte rapporter og kodeenheter. Du kan angi at jobbene skal kjøre én gang, eller gjentas flere ganger. Du ønsker kanskje å kjøre rapporten **Selger * salgsstatistikk** hver uke for å spore salg etter selger hver uke eller kjøre codeunit **Deleger godkjenningsforespørsler** daglig for å unngå at dokumenter hoper seg opp.
+Med jobbkøer kan brukere planlegge og kjøre bestemte rapporter og kodeenheter. Du kan angi at jobbene skal kjøre én gang, eller gjentas flere ganger. Du ønsker kanskje å kjøre rapporten **Selger - salgsstatistikk** hver uke for å spore salg etter selger hver uke eller kjøre codeunit **Deleger godkjenningsforespørsler** daglig for å unngå at dokumenter hoper seg opp.
 
 Siden **Poster i jobbkø** viser alle eksisterende jobber. Hvis du legger til en ny jobbkø du vil planlegge, må du angi noen opplysninger. Eksempel:
 * Typen objekt du vil kjøre, for eksempel en rapport eller codeunit. Du må ha tillatelse til å kjøre den bestemte rapporten eller codeunit.

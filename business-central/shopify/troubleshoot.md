@@ -1,18 +1,18 @@
 ---
 title: Feilsøking av Shopify- og Business Central-synkronisering
 description: Lær hva du gjør hvis noe går galt under synkroniseringen av data mellom Shopify og Business Central
-ms.date: 05/16/2022
+ms.date: 08/19/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: bebdf73fd1b01a3c750a3d91496a8f5bb87f8db4
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 4ccbe8ac97eba568ff82d965f24b86ab58c95f81
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129644"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317249"
 ---
 # <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Feilsøking av Shopify- og Business Central-synkronisering
 
@@ -86,6 +86,16 @@ De følgende fremgangsmåtene beskriver hvordan du roterer tilgangstokenet som b
 2. Velg butikken du vil rotere tilgangstokenet for for å åpne siden **Shopify-butikkort**.
 3. Velg handlingen **Be om tilgang**.
 4. Hvis du blir bedt om det, logger du deg på Shopify-kontoen, ser gjennom personvern og tillatelser, og deretter velger du knappen **Installer app**.
+
+## <a name="known-issues"></a>Kjente problemer
+
+### <a name="gen-bus-posting-group-must-have-a-value-in-customer-it-cannot-be-zero-or-empty"></a>Finans- Bokførings gruppe må ha en verdi hos kunden. Den kan ikke være null eller tom.
+
+Fyll ut feltet **Kundemalkode** i vinduet **Shopify-butikkortet** med malen som har **Bokføringsgruppe - firma** fylt ut. Kundemal brukes ikke bare til oppretting av kunder, men også for beregning av salgspris og oppretting av salgsdokumenter.
+
+### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>Import av data til Shopify-butikk er ikke aktivert. Gå til butikkortet for å aktivere det.
+
+I vinduet **Shopify-butikkort** aktiverer du veksleknappen **Tillat datasynkronisering til Shopify**.  Denne vekslingen er ment å beskytte nettbutikken fra å motta demodata fra [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ## <a name="see-also"></a>Se også
 

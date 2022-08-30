@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: c5a77e5258f4d70a35a1751ff01dc210210b3a6e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0c1402c4f41f108b504ad31829ede5a1095b6ce4
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077791"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317330"
 ---
 # <a name="synchronize-customers"></a>Synkroniser kunder
 
@@ -47,7 +47,7 @@ Enten du importerer kunder fra Shopify samtidig eller sammen med importen av ord
 |**Kundetildelingstype**|Definer hvordan du vil at koblingen skal utføre tildelingen.<br>- **Via e-post/telefon** hvis du vil at koblingen skal tildele importert Shopify-kunde til eksisterende kunde i [!INCLUDE[prod_short](../includes/prod_short.md)] via e-post og telefon.</br>- **Etter faktura til-informasjon** hvis du vil at koblingen skal tildeles importert Shopify-kunden til en eksisterende kunde i [!INCLUDE[prod_short](../includes/prod_short.md)] ved å bruke adresseinformasjon for parten som mottar fakturaen.</br>Velg **Ta alltid med standard kunde** hvis du vil at systemet skal bruke en kunde fra **Standard kundenr.** . |
 |**Shopify kan oppdatere kunder**| Velg om du vil at koblingen skal oppdatere kunder som blir funnet, når alternativene **Via e-post/telefon** eller **Etter faktura til-informasjon** er valgt i feltet **Kundetildelingstype**.|
 |**Opprett ukjente kunder automatisk**| Velg om du vil at koblingen skal opprette manglende kunder som blir funnet, når alternativene **Via e-post/telefon** eller **Etter faktura til-informasjon** er valgt i feltet **Kundetildelingstype**. En ny kunde opprettes ved hjelp av importerte data og **Kundemalkode** som er definert på sidene **Shopify-butikkort** eller **Shopify-kundemal**. Legg merke til at Shopify-kunden må ha minst én adresse. Hvis dette alternativet ikke er aktivert, må du opprette en kunde manuelt og knytte det til Shopify-kunden. Du kan alltid starte oppretting av en kunde manuelt fra siden **Shopify-ordre**.|
-|**Kundemalkode**|Brukes sammen med **Opprett ukjente kunder automatisk**.<br> Velg standardmalen som skal brukes for automatisk opprettede kunder. Kontroller at den valgte malen inneholder de obligatoriske feltene, for eksempel **Bokføringsgruppe – firma**, **Bokføringsgruppe – kunde**, mva- eller avgiftsrelaterte felter.<br> Du kan definere maler per land/område på siden **Shopify-kundemaler**, som er nyttig for å kunne foreta en riktig beregning av mva. Hvis du vil ha mer informasjon, kan du se [Avgiftsmerknader](synchronize-orders.md#tax-remarks).|
+|**Kundemalkode**|Brukes sammen med **Opprett ukjente kunder automatisk**.<br> Velg standardmalen som skal brukes for automatisk opprettede kunder. Kontroller at den valgte malen inneholder de obligatoriske feltene, for eksempel **Bokføringsgruppe – firma**, **Bokføringsgruppe – kunde**, mva- eller avgiftsrelaterte felter.<br> Du kan definere maler per land/område på siden **Shopify-kundemaler**, som er nyttig for å kunne foreta en riktig beregning av mva. <br>Hvis du vil ha mer informasjon, kan du se [Mva-oppsett](setup-taxes.md).|
 
 ### <a name="customer-template-per-country"></a>Kundemal per land
 
@@ -57,7 +57,8 @@ Enkelte innstillinger kan defineres på nivået land/område, eller på nivået 
 
 1. Angi **Standard kundenr.**, som har høyere prioritet over det som er valgt i feltene **Kundeimport fra Shopify** og **Kundetildelingstype**. Den brukes i den importerte ordren.
 2. Definere **kundemalkoden**, som brukes til å opprette manglende kunder, hvis **Opprett ukjente kunder automatisk** er aktivert. Hvis **kundemalkoden** er tom, bruker funksjonen **kundemalkoden** som er definert på **Shopify-butikkort**.
-3. I noen tilfeller er ikke **kundemalkode** definert for land nok til å sikre riktig beregning av mva. Det kan for eksempel være land med merverdiavgift. I dette tilfellet kan **mva-områdene** være et nyttig tillegg.
+3. Definere om priser skal inngå i avgift/mva for importerte ordrer.
+4. I noen tilfeller er ikke **kundemalkode** definert for land nok til å sikre riktig beregning av mva. Det kan for eksempel være land med merverdiavgift. I dette tilfellet kan **mva-områdene** være et nyttig tillegg.
 
 > [!NOTE]  
 > Landkodene er ISO 3166-1 for alpha-2-landkoder. Se [Landkode](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode) for mer informasjon.
@@ -68,7 +69,7 @@ Eksisterende kunder kan eksporteres til Shopify samtidig. Resultatet er at en ku
 
 |Felt|Description|
 |------|-----------|
-|**Eksporter kunder til Shopify**|Velg hvis du har tenkt å eksportere alle kunder med en gyldig e-postadresse fra [!INCLUDE[prod_short](../includes/prod_short.md)] til Shopify samtidig, enten manuelt ved hjelp av **Synkroniser kunder**-handlingen eller via en jobbkø for regelmessige oppdateringer.|
+|**Eksporter kunder til Shopify**|Velg hvis du har tenkt å eksportere alle kunder med en gyldig e-postadresse fra [!INCLUDE[prod_short](../includes/prod_short.md)] til Shopify samtidig, enten manuelt ved hjelp av **Synkroniser kunder**-handlingen eller via en jobbkø for regelmessige oppdateringer.<br> Når du eksporterer kunder med provinser/stater, må du passe på at **ISO-koden** er fylt ut for land/regioner.|
 |**Kan oppdatere Shopify-kunder**|Brukes sammen med innstillingen **Eksporter kunde til Shopify**. Aktiver den hvis du vil generere oppdateringer senere [!INCLUDE[prod_short](../includes/prod_short.md)] for kunder som allerede finnes i Shopify.|
 
 > [!NOTE]  

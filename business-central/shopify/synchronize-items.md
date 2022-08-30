@@ -7,12 +7,12 @@ ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: ad69d58a84926041df1125809f748b9129cc64e2
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: c7aea0d0b3d9a8902e704a2d390d6a244e8cbbef
+ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808962"
+ms.lasthandoff: 08/19/2022
+ms.locfileid: "9317303"
 ---
 # <a name="synchronize-items-and-inventory"></a>Synkroniser varer og lager
 
@@ -89,6 +89,8 @@ Ved hjelp av disse innstillingene kan du behandle prosessen med å eksportere va
 |**Lager sporet**|Velg hvordan systemet skal fylle ut feltet **Spor lager** for produkter som er eksportert til Shopify. Du kan oppdatere tilgjengelighetsinformasjon fra [!INCLUDE[prod_short](../includes/prod_short.md)] for produkter i Shopify der spor lager er aktivert. Hvis du vil ha mer informasjon, kan du se [Lager](synchronize-items.md#sync-inventory-to-shopify).|
 |**Standard lagerpolicy**|Velg *Avslå* for å unngå negativ beholdning av Shopify-siden. |
 |**Kan oppdatere Shopify-produkter**|Definer hvis [!INCLUDE[prod_short](../includes/prod_short.md)] kan bare opprette varer eller kan oppdatere varer også. Velg dette alternativet hvis du planlegger å oppdatere produkter manuelt ved å bruke **Synkroniser produkt**-handling eller via jobbkø for regelmessige oppdateringer etter første synkronisering som er utløst av **Legg til vare**-handling. Husk å velge **Til Shopify** i feltet **Varesynkronisering**.|
+|**Kundemalkode**|Velg standardmalen som skal brukes under prisberegningen. Hvis du vil ha mer informasjon, kan du se [salgsavgifter](setup-taxes.md).|
+
 
 ### <a name="fields-mapping-overview"></a>Oversikt over felttildeling
 
@@ -100,7 +102,7 @@ Ved hjelp av disse innstillingene kan du behandle prosessen med å eksportere va
 |SEO-sidetittel|Korriger verdi: tom, se [Ad hoc-oppdateringer av Shopify-produkter](synchronize-items.md#ad-hock-updates-of-shopify-products). |Ikke i bruk.|
 |SEO-metabeskrivelse|Korriger verdi: tom, se [Ad hoc-oppdateringer av Shopify-produkter](synchronize-items.md#ad-hock-updates-of-shopify-products). |Ikke i bruk.|
 |Medium|**Bilde**, se [Synkroniser varebilder](synchronize-items.md#sync-item-images) hvis du vil ha mer informasjon|**Bilde**|
-|Pris|Beregningen av sluttkundepris omfatter vareprisgruppe, varerabattgruppe, valutakode og kundemalkode. |Ikke i bruk.|
+|Pris|Beregningen av sluttkundepris omfatter vareprisgruppe, varerabattgruppe, valutakode og kundemalkode. |**Enhetspris**|
 |Sammenlign i prisen|Beregningen av sluttkundepris uten rabatt omfatter vareprisgruppe, varerabattgruppe, valutakode og kundemalkode. |Ikke i bruk.|
 |Kostnad per vare|**Enhetskost**|**Enhetskost**|
 |LFE|Se **SKU-tildeling** i [Eksporter varer til Shopify](synchronize-items.md#export-items-to-shopify)| Se [Hvordan SKU og strekkode definert i Shopify-produkt påvirker tildeling og oppretting av varer og varianter](synchronize-items.md#how-skus-and-barcodes-defined-in-shopify-product-affects-mapping-and-creation-of-items-and-variants-in-business-central)|
@@ -111,7 +113,7 @@ Ved hjelp av disse innstillingene kan du behandle prosessen med å eksportere va
 |Leverandør|**Navn** på leverandør fra **Leverandørnr.** |**Leverandørnr.**-tildeling etter navn.|
 |Vekt|**Bruttovekt**.|Ikke i bruk.|
 |Avgiftspliktig|Fast verdi: aktivert.|Ikke i bruk.|
-|Avgiftskoder|**Mva-gruppekode**. Bare relevant for merverdiavgift. Hvis du vil ha mer informasjon, kan du se [avgifter](synchronize-orders.md#tax-remarks). |Ikke i bruk.|
+|Avgiftskoder|**Mva-gruppekode**. Bare relevant for merverdiavgift. Hvis du vil ha mer informasjon, kan du se [salgsavgifter](setup-taxes.md). |Ikke i bruk.|
 
 ### <a name="tags"></a>Koder
 
@@ -197,7 +199,7 @@ Priser kan eksporteres for synkroniserte varer på måtene som er beskrevet nede
 
 ### <a name="price-calculation-remarks"></a>Prisberegningsmerknader
 
-* Ved prisberegning er det viktig å ha en verdi i feltet **Standard kundemal**. [!INCLUDE[prod_short](../includes/prod_short.md)] bruker verdien i feltet **Mva- firmabokføringsgruppe** til å beregne prisen inkl. mva. Du vil kanskje opprette en kundeprisgruppe der du velger feltet **Pris inkl. mva.** og angir den relevante verdien i feltet **Mva-bokføringsgruppe for firma (pris)**.
+* Ved prisberegning er det viktig å ha en verdi i feltet **Standard kundemal**. Hvis du vil ha mer informasjon, kan du se [salgsavgifter](setup-taxes.md).
 * Angi en **valutakode** hvis nettbutikken bruker annen valuta enn LV. Den angitte valutaen må ha valutakurser konfigurert. Hvis nettbutikken bruker samme valuta som [!INCLUDE[prod_short](../includes/prod_short.md)], lar du feltet stå tomt.
 * Når du skal fastsette en pris, bruker [!INCLUDE[prod_short](../includes/prod_short.md)] laveste pris-logikk. Det betyr at hvis enhetspris som er definert på varekortet, er lavere enn det som er angitt i prisgruppen, brukes enhetsprisen fra varekortet.
 
