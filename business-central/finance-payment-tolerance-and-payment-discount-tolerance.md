@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 118, 314, 395
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: 6619789b38cc8dc33e7985f35d77075df4914ad2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 3d7162b3035188539fba92a677659dd7803c340f
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074929"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362025"
 ---
 # <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt
 
@@ -30,7 +30,7 @@ Et enkelt dokument har den samme betalingstoleransen enten det utlignes for seg 
 
 *kontantrabattdato < betalingsdato på den valgte posten <= betalingstoleransedato*  
 
-Denne regelen gjelder også for å avgjøre om du vil vise advarsler når du bruker betalingstoleranse med flere dokumenter. Advarsel om betalingstoleranse vises for hver post som oppfyller datokriteriene. Hvis du vil ha mer informasjon, kan du se [Eksempel 2 – toleranseberegninger for flere dokumenter](finance-payment-tolerance-and-payment-discount-tolerance.md#example-2---tolerance-calculations-for-multiple-documents).
+Denne regelen avgjør også om du vil vise advarsler når du bruker betalingstoleranse med flere dokumenter. Advarsel om betalingstoleranse vises for hver post som oppfyller datokriteriene. Hvis du vil ha mer informasjon, kan du se [Eksempel 2 – toleranseberegninger for flere dokumenter](finance-payment-tolerance-and-payment-discount-tolerance.md#example-2---tolerance-calculations-for-multiple-documents).
 
 Du kan velge å vise en advarsel som er basert på ulike toleransesituasjoner.  
 
@@ -44,7 +44,7 @@ Hvis du vil ha mer informasjon, kan du se [Slik aktiverer eller deaktiverer du a
 
 ## <a name="to-set-up-tolerances"></a>Slik definerer du toleranser
 
-Med toleransegrenser for dager og beløp kan du lukke en faktura selv om betalingen ikke fullt ut dekker fakturabeløpet. Dette gjelder også for refusjoner og kreditnotaer.  
+Med toleransegrenser for dager og beløp kan du lukke en faktura selv om betalingen ikke fullt ut dekker fakturabeløpet. Siden forfallsdatoen for kontantrabatten er overskredet, er for eksempel varer trukket fra, eller på grunn av en mindre feil. Dette gjelder også for refusjoner og kreditnotaer.  
 
 Når du skal definere toleranse, må du definere forskjellige toleransebeløp, angi både toleransegrense for kontantrabatt og bokføringsmetode for betalingstoleranse, og kjøre kjørselen **Endre betalingstoleranse**.  
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
@@ -57,17 +57,21 @@ Når du skal definere toleranse, må du definere forskjellige toleransebeløp, a
 8. Åpne **Finansoppsett**-siden.  
 9. På hurtigfanen **Utligning** fyller du ut feltene **Bokføring av kontantrabattoleranse**, **Respittid for kontantrabatt** og **Betalingstoleransebokføring**.   
 10. Velg **Endre betalingstoleranse**-handlingen.
+
+    > [!NOTE]
+    > Når du velger **Saldo** i feltet **Utlignings metode** på en **Kundekort**-side, bokfører ikke [!INCLUDE[prod_short](includes/prod_short.md)] betalingstoleranse automatisk, selv om de er innenfor terskelverdiene som er angitt på siden **Finansoppsett**. [!INCLUDE[prod_short](includes/prod_short.md)] antar at innstillingen Saldo angir at kunden (eller du som en kunde hos leverandøren) har en konto med deg hvor de betaler saldoen regelmessig. Derfor bør ikke restbeløp fjernes ved å bokføre en betalingstoleransepost.
+
 11. På siden **Endre betalingstoleranse** fyller du ut feltene **Betalingstoleransepst.** og **Maks. betalingstoleransebeløp**, og deretter velger du **OK**-knappen.
 
 > [!IMPORTANT]  
->  Du har nå definert bare toleranser for den lokale valutaen. Hvis du vil at [!INCLUDE[prod_short](includes/prod_short.md)] skal behandle betalingstoleranser for betalinger, kreditnotaer og refusjoner for fremmede valutaer, må du kjøre kjørselen **Endre betalingstoleranse** med en verdi i **Valutakode**-feltet.  
+> Du har nå definert bare toleranser for den lokale valutaen. Hvis du vil at [!INCLUDE[prod_short](includes/prod_short.md)] skal behandle betalingstoleranser for betalinger, kreditnotaer og refusjoner for fremmede valutaer, må du kjøre kjørselen **Endre betalingstoleranse** med en verdi i **Valutakode**-feltet.  
 
 > [!NOTE]  
->  Hvis du vil motta en betalingstoleranseadvarsel hver gang du bokfører en utligning innenfor toleransen, må du aktivere betalingstoleranseadvarselen. Hvis du vil ha mer informasjon, kan du se delen [Slik aktiverer eller deaktiverer du advarsler om betalingstoleranse](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
+> Hvis du vil motta en betalingstoleranseadvarsel hver gang du bokfører en utligning innenfor toleransen, må du aktivere betalingstoleranseadvarselen. Hvis du vil ha mer informasjon, kan du se delen [Slik aktiverer eller deaktiverer du advarsler om betalingstoleranse](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings).  
 >   
->  Hvis du vil deaktivere toleranse for en kunde eller en leverandør, må du sperre for toleranser på det aktuelle kunde- eller leverandørkortet. Hvis du vil ha mer informasjon, kan du se delen [Slik sperrer du for betalingstoleranse for kunder](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
+> Hvis du vil deaktivere toleranse for en kunde eller en leverandør, må du sperre for toleranser på det aktuelle kunde- eller leverandørkortet. Hvis du vil ha mer informasjon, kan du se delen [Slik sperrer du for betalingstoleranse for kunder](finance-payment-tolerance-and-payment-discount-tolerance.md#to-block-payment-tolerance-for-customers).  
 >   
->  Når du definerer toleranse, kontrollerer [!INCLUDE[prod_short](includes/prod_short.md)] også om det er noen åpne poster, og beregner toleranse for disse postene.
+> Når du definerer toleranse, kontrollerer [!INCLUDE[prod_short](includes/prod_short.md)] også om det er noen åpne poster, og beregner toleranse for disse postene.
 
 ## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Slik aktiverer eller deaktiverer du advarsler om betalingstoleranse
 
@@ -76,7 +80,7 @@ Melding om betalingstoleranse vises når du bokfører en utligning som har en sa
 2. På siden **Finansoppsett**, på hurtigfanen **Utligning**, slå du på **Betalingstoleranse - advarsel** for å aktivere advarselen. Hvis du vil deaktivere advarselen, slår du av vekslebryteren.  
 
 > [!NOTE]  
->  Standardalternativet for siden **Betalingstoleranse - advarsel** er **La saldoen stå som restbeløp**. Standardalternativet for siden **Kontantrabattoleranse – advarsel** er **Ikke godta den forsinkede kontantrabatten**.
+> Standardalternativet for siden **Betalingstoleranse - advarsel** er **La saldoen stå som restbeløp**. Standardalternativet for siden **Kontantrabattoleranse – advarsel** er **Ikke godta den forsinkede kontantrabatten**.
 
 ## <a name="to-block-payment-tolerance-for-customers"></a>Slik sperrer du for betalingstoleranse for kunder
 
@@ -86,7 +90,7 @@ Standardinnstillingen for betalingstoleranse er tillatt. For å avvise bruk av b
 2. På hurtigfanen **Betalinger** merker du av for **Sperr for betalingstoleranse**.  
 
 > [!NOTE]  
->  Hvis kunden eller leverandøren har åpne poster, må du først fjerne betalingstoleranse fra poster som for øyeblikket er åpne.
+> Hvis kunden eller leverandøren har åpne poster, må du først fjerne betalingstoleranse fra poster som for øyeblikket er åpne.
 
 ## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Eksempel 1 - toleranseberegninger for ett dokument
 
@@ -164,7 +168,7 @@ Vanlige utligningsregler
 
 ## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Eksempel 2 - toleranseberegninger for flere dokumenter
 
-Nedenfor følger noen eksempelscenarier som viser de forventede toleranseberegningene og bokføringene som forekommer i forskjellige situasjoner. Eksemplene er begrenset til bare scenarier som resulterer i at alle poster i utligningen blir lukket.  
+Nedenfor følger noen eksempelscenarier som viser de forventede toleranseberegningene og bokføringene som forekommer i forskjellige situasjoner. Eksemplene er begrenset til scenarioer som resulterer i at alle poster i utligningen blir lukket.  
 
 Siden **Finansoppsett** inneholder følgende oppsett:
 - Respittid for kontantrabatt    5D  

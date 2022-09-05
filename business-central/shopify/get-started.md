@@ -5,14 +5,15 @@ ms.date: 05/27/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.reviewer: solsen
+ms.search.form: 30100, 30101, 30102, 30103, 30104, 30135,
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 64fae9efdda832f14593564b9a19101d120c9712
-ms.sourcegitcommit: fb43bc843be4ea9c0c674a14945df727974d9bb9
+ms.openlocfilehash: e59dd0dcf757fbcf76d4068756adfe7bc9475f54
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/27/2022
-ms.locfileid: "8808936"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361559"
 ---
 # <a name="get-started-with-the-shopify-connector"></a>Kom i gang med Shopify-koblingen
 
@@ -26,26 +27,26 @@ Shopify-koblingen inneholder følgende funksjoner:
 - Toveissynkronisering av varer eller produkter  
 
   - Koblingen synkroniserer bilder, varevarianter, strekkoder, leverandørvarenumre, utvidede tekster og koder.  
-  - Eksporter vareattributter til Shopify.  
-  - Bruk valgte kundeprisgrupper og rabatter til å definere priser som er eksportert til Shopify.  
-  - Angi om varer kan opprettes automatisk, eller bare tillat oppdateringer av eksisterende produkter.  
+  -    Eksporter vareattributter til Shopify.  
+  -    Bruk valgte kundeprisgrupper og rabatter til å definere priser som er eksportert til Shopify.  
+  -    Angi om varer kan opprettes automatisk, eller bare tillat oppdateringer av eksisterende produkter.  
 - Synkronisering av lagernivåer  
 
-  - Velg noen av eller alle de tilgjengelige lokasjonene i [!INCLUDE [prod_short](../includes/prod_short.md)].  
-  - Oppdater lagernivåer på flere lokasjoner i Shopify.  
+  -    Velg noen av eller alle de tilgjengelige lokasjonene i [!INCLUDE [prod_short](../includes/prod_short.md)].  
+  -    Oppdater lagernivåer på flere lokasjoner i Shopify.  
 - Toveissynkronisering av kunder  
 
-  - Kartlegg kunder smart per telefon og e-post.  
-  - Bruk landspesifikke maler når du oppretter kunder, noe som bidrar til å sikre at avgiftsinnstillingene er riktige.  
+  -    Kartlegg kunder smart per telefon og e-post.  
+  -    Bruk landspesifikke maler når du oppretter kunder, noe som bidrar til å sikre at avgiftsinnstillingene er riktige.  
 - Import av ordrer fra Shopify  
 
-  - Under importen kan du automatisk opprette kunder i [!INCLUDE [prod_short](../includes/prod_short.md)] eller velge å håndtere kundene i Shopify.  
-  - Ta med ordrer som er opprettet i andre kanaler, for eksempel Shopify-salgssted eller Amazon.  
-  - Leveringskostnader, gavekort, tips, leverings- og betalingsmåter, transaksjoner og risiko for svindel.  
+  -    Under importen kan du automatisk opprette kunder i [!INCLUDE [prod_short](../includes/prod_short.md)] eller velge å håndtere kundene i Shopify.  
+  -    Ta med ordrer som er opprettet i andre kanaler, for eksempel Shopify-salgssted eller Amazon.  
+  -    Leveringskostnader, gavekort, tips, leverings- og betalingsmåter, transaksjoner og risiko for svindel.  
   - Motta utbetalingsopplysninger fra Shopify Payments.  
 - Enkel sporing av oppfyllelsesinformasjon  
 
-  - Du kan eventuelt velge å skrive varesporingsinformasjon fra [!INCLUDE [prod_short](../includes/prod_short.md)] til Shopify.  
+  -    Du kan eventuelt velge å skrive varesporingsinformasjon fra [!INCLUDE [prod_short](../includes/prod_short.md)] til Shopify.  
 
 For å bruke Shopify med [!INCLUDE [prod_short](../includes/prod_short.md)] er det et par ting du må gjøre først. Denne artikkelen fungerer som en veiledning for å fullføre integreringen av Shopify-butikken med [!INCLUDE [prod_short](../includes/prod_short.md)].
 

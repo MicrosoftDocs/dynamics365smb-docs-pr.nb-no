@@ -5,31 +5,40 @@ author: edupont04
 ms.topic: overview
 ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 9027
-ms.date: 04/01/2021
+ms.date: 08/23/2022
 ms.author: edupont
-ms.openlocfilehash: db9701317d43464378ccf557dd6a77c41a681bd8
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 43b5a4181b50da65f25be3f3fc73a0e01fd885af
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516955"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361765"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysere årsregnskap i Microsoft Excel
 
-I [!INCLUDE [prod_short](includes/prod_short.md)] kan du se ytelsesindikatorer og få en oversikt over selskapets økonomiske tilstand. Du kan også åpne lister i Excel og analysere dataene der. Men du kan også eksportere tunge årsregnskap, for eksempel balansen eller resultatregnskapet til Excel, analysere data og skrive ut rapportene.  
+[!INCLUDE [prod_short](includes/prod_short.md)] gir KPI-er og får oversikt over firmaets økonomi. Følgende er eksempler på hvordan du kan analysere KPI-er og oversikter i Excel:
 
-I rollesentrene for forretningsleder og regnskapsfører kan du velge hvilke årsregnskap som skal vises i Excel, fra en rullegardinmeny i Rapporter-delen på båndet. Når du velger et regnskap, åpnes det i Excel eller Excel Online. Et tillegg kobler dataene til [!INCLUDE [prod_short](includes/prod_short.md)]. Du må imidlertid logge på med den samme kontoen som du bruker med [!INCLUDE [prod_short](includes/prod_short.md)].  
+* Åpne lister i Excel og analyser dataene. 
+* Eksporter tunge årsregnskap, for eksempel balansen eller resultatregnskapet til Excel, analysere data og skrive ut rapportene.  
+
+> [!TIP]
+> Som standard er rapportene du kan vise i Excel, utformet for å hjelpe deg med å analysere inneværende år. Rapporten Resultatregnskap er imidlertid et unntak. Med denne rapporten kan du filtrere dataene slik at de omfatter tidligere år i analysene.
 
 ## <a name="getting-the-overview-and-the-details-in-excel"></a>Få oversikten og detaljene i Excel
 
-Velg den aktuelle Excel-rapporten på båndet, og la den åpne slik at du får oversikten du søker etter. I denne versjonen av [!INCLUDE [prod_short](includes/prod_short.md)] tilbyr vi følgende Excel-rapporter:
+I rollesentrene for forretningsleder og regnskapsfører får kan du velg årsregnskaper du vil vise i Excel, med handlingen **Rapporter**. Når du velger et regnskap, åpnes det i Excel eller Excel Online. Et tillegg kobler dataene til [!INCLUDE [prod_short](includes/prod_short.md)]. Du må imidlertid logge på med den samme kontoen som du bruker med [!INCLUDE [prod_short](includes/prod_short.md)]. Tabellen nedenfor inneholder en oversikt over rapportene og hvor de er tilgjengelige.  
 
-- Balanse  
-- Resultatregnskap  
-- Kontantstrømutdrag  
-- Kontoutdrag for fri egenkapital  
-- Aldersfordelt saldoliste - leverandør  
-- Aldersford. saldoliste - kunde  
+
+|Rapporter  |Rollesenter  |
+|---------|---------|
+|Balanse                 | Forretningsleder, revisor |
+|Resultatregnskap              | Forretningsleder, revisor |
+|Kontantstrømutdrag       | Forretningsleder, revisor |
+|Kontoutdrag for fri egenkapital| Forretningsleder, revisor |
+|Salgsmva. innkrvd – ikke Norge         | Forretningsleder, revisor |
+|Kontoutdrag           | Forretningsleder, revisor |
+|Aldersfordelt saldoliste – leverandør         | Revisor |
+|Aldersfordelt saldoliste – kunde      | Revisor |
 
 La oss si at du vil se nærmere på kontantstrømmen din. Du kan åpne **Kontantstrømutdrag**-rapporten i Excel fra firma lederen eller regnskapsføreren rollesenter, men hva som skjer faktisk er vi eksportere dataene relevante for deg, og oppretter en Excel-arbeidsbok basert på en forhåndsdefinert mal. Avhengig av webleseren må du kanskje skal åpnes eller lagres arbeidsboken.  
 
@@ -39,13 +48,13 @@ I Excel ser du en fane der dataene er ordnet du første forslaget. Data som ble 
 
 De forhåndsdefinerte Excel-rapportene er basert på dataene i det gjeldende firmaet. Demonstrasjonsselskapet har for eksempel definert kontoplanen til å vise tre kontantkontoer under *Omløpsmidler*: 10100 **sjekkonto**, 10200 **sparekonto** og 10300 **håndkasse**. Kontoene har feltet **Kontounderkategori** satt til *Kontanter*, og det er det kombinerte beløpet som vises som *Kontanter* i Excel-rapporten **Balanse**.  
 
-Flere ark i Excel-arbeidsboken viser dataene bak rapporten. Hvis du vil finne ut hva som skjules bak grupperingene i Excel-rapportene, kan det for eksempel hende du må gå tilbake til [!INCLUDE [prod_short](includes/prod_short.md)] og bruke filtre på listene.  
+Andre ark i Excel-arbeidsboken viser dataene bak rapporten. Du må kanskje filtrere listene i [!INCLUDE [prod_short](includes/prod_short.md)] for å finne ut hva som er bak grupperingene i Excel-rapportene.  
 
 ## <a name="the-prod_short-excel-add-in"></a>[!INCLUDE [prod_short](includes/prod_short.md)] Excel-tillegget
 
-Din [!INCLUDE [prod_short](includes/prod_short.md)]-opplevelse inneholder et tillegg til Excel. Avhengig av abonnementet er du logget på automatisk, eller du må angi samme pålogging som du bruker for [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Vise og redigere i Excel fra Business Central](across-work-with-excel.md).  
+Din [!INCLUDE [prod_short](includes/prod_short.md)]-opplevelse inneholder et tillegg til Excel. Avhengig av abonnementet er du logget på automatisk, eller du må angi samme påloggingsinformasjon for [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Vise og redigere i Excel fra Business Central](across-work-with-excel.md).  
 
-Med tillegget kan du få ferske data fra [!INCLUDE [prod_short](includes/prod_short.md)], og du kan overføre endringer i [!INCLUDE [prod_short](includes/prod_short.md)]. Muligheten til å legge inn data tilbake til databasen deaktiveres imidlertid for Excel-årsregnskap i listen ovenfor.  
+Med tillegget kan du få ferske data fra [!INCLUDE [prod_short](includes/prod_short.md)], og du kan overføre endringer tilbake til [!INCLUDE [prod_short](includes/prod_short.md)]. Muligheten til å legge inn data tilbake til databasen er ikke tilgjengelig for årsregnskap du kan vise i Excel.  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 

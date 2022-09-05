@@ -296,6 +296,7 @@
 #### [Sperre kunder](receivables-how-block-customers.md)
 #### [Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Utvidelsen Prognose for forsinket betaling](ui-extensions-late-payment-prediction.md)
+#### [Merverdiavgift i standardversjonen av Business Central](sales-tax-concept.md)
 
 ### Administrer skyldige beløp
 #### [Oversikt over skyldige beløp](payables-manage-payables.md)

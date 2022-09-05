@@ -7,16 +7,18 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: C5, financials, extension
+ms.search.form: 20600,
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 1ddb4468bda648b0368551ecb8cdbc6167cf4778
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 4304a42f865086de3337deb3a49b1f1512e0e201
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381675"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362225"
 ---
 # <a name="the-basic-experience-extension"></a>Grunnleggende opplevelse-utvidelsen
+
 Hvis du har brukt Microsoft Dynamics C5, kan Microsoft-partnere hjelpe deg med å gå over til en mer moderne løsning som er basert på [!INCLUDE[prod_short](includes/prod_short.md)], slik at du kan fortsette å nyte de samme strømlinjeformede funksjonene som Dynamics C5.
 
 Denne utvidelsen er beregnet for små bedrifter og kan støtte opptil tre brukere. Hvis du trenger flere brukere, må du oppgradere til en [!INCLUDE[prod_short](includes/prod_short.md)]-lisens og avinstallere denne utvidelsen.
@@ -25,6 +27,7 @@ Denne utvidelsen er beregnet for små bedrifter og kan støtte opptil tre bruker
 > Per nå er denne utvidelsen bare tilgjengelig for kunder i Danmark og Island. 
 
 ## <a name="whats-available"></a>Hva som er tilgjengelig
+
 Tabellen nedenfor beskriver funksjonene som er tilgjengelige hvis du installerer den grunnleggende opplevelsesutvidelsen.
 
 |Distrikt  |Funksjonalitet  |
@@ -36,6 +39,7 @@ Tabellen nedenfor beskriver funksjonene som er tilgjengelige hvis du installerer
 |**Lager** |Grunnleggende lager, vareerstatninger, varekryssreferanse |
 
 ## <a name="getting-started"></a>Komme i gang
+
 Denne utvidelsen er litt annerledes enn de fleste, og du vil trenge hjelp fra en Microsoft-partner for å installere og konfigurere den. Slik at du vet hva du kan forvente, får du her en overordnet oversikt over hva Microsoft-partneren vil gjøre.
 
 1. Opprett en ny [!INCLUDE[prod_short](includes/prod_short.md)]-leietaker. Dette kan være enten en prøveversjon eller en CSP-versjon.
@@ -45,10 +49,12 @@ Denne utvidelsen er litt annerledes enn de fleste, og du vil trenge hjelp fra en
 5. Legg til **Demo RapidStart**-pakken. <!--what does the pockage contain?-->
 6. Last ned og installer utvidelsen for grunnleggende opplevelse fra AppSource.
 
-## <a name="migrating-data"></a>Migrere data
+## <a name="migrating-data"></a>Overføring av data
+
 Ta med Dynamics C5-dataene dine. Når Microsoft-partneren har installert den grunnleggende opplevelsesutvidelsen, vil du ha et tomt selskap. En enkel måte å flytte dataene fra Dynamics C5 til grunnleggende opplevelse er å bruke dataoverføringsutvidelsen i C5, som er inkludert i [!INCLUDE[prod_short](includes/prod_short.md)]. Utvidelsen migrerer kunder, leverandører, varer og finanskontoer og tilhørende poster.
 
 ## <a name="see-also"></a>Se også
-[Utvidelsen C5-datamigrering](ui-extensions-c5-data-migration.md)
+
+[Utvidelsen C5-datamigrering](ui-extensions-c5-data-migration.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

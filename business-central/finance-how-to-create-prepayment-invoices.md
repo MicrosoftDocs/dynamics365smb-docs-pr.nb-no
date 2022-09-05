@@ -9,20 +9,20 @@ ms.workload: na
 ms.search.form: 42, 50, 9305, 9307
 ms.date: 12/02/2021
 ms.author: edupont
-ms.openlocfilehash: 97e2e4e63d1a0d694cf881ed1fff8523d50fbb46
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 620a1af0deff6f9615b38706dd3f53f3db285008
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077635"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362071"
 ---
 # <a name="create-prepayment-invoices"></a>Opprette forskuddsfakturaer
 
-Hvis du krever at kundene skal betale før du leverer en ordre til dem, kan du bruke funksjonen for forskudd. Det samme gjelder hvis leverandøren krever at du sender betaling før de leverer en ordre til deg.  
+Hvis du krever at kundene skal betale før du leverer ordren, kan du bruke forskuddsfunksjonene. Det samme gjelder hvis leverandøren krever at du betaler før de leverer en ordre til deg.  
 
-Du kan starte betalingsprosessen når du oppretter en ordre eller bestilling. Hvis du har en standard forskuddsprosent for en gitt vare på bestillingen eller for kunden eller leverandøren, vil det automatisk bli inkludert i den resulterende forskuddsfakturaen. Du kan også angi en forskuddsprosent for hele dokumentet.
+Du kan starte betalingsprosessen når du oppretter en ordre eller bestilling. Hvis du har en standard forskuddsprosent for en vare på bestillingen eller for kunden eller leverandøren, blir prosenten inkludert i forskuddsfakturaen. Du kan også angi en forskuddsprosent for hele dokumentet.
 
-Når du har opprettet en ordre eller bestilling, kan du opprette en forskuddsfaktura. Du kan bruke standardprosentene for hver salgslinje eller bestillingslinje, eller du kan justere beløpet etter behov. Du kan for eksempel angi et totalbeløp for hele ordren.  
+Når du har opprettet en ordre eller bestilling, kan du opprette en forskuddsfaktura for den. Bruk standardprosentene for hver salgslinje eller bestillingslinje, eller juster beløpet. Du kan for eksempel angi et totalbeløp for hele ordren.  
 
 Fremgangsmåten nedenfor beskriver hvordan du fakturerer et forskudd for en ordre. Trinnene er de samme for bestillinger.  
 
@@ -55,26 +55,30 @@ Fremgangsmåten nedenfor beskriver hvordan du fakturerer et forskudd for en ordr
 
     Hvis feltet **Priser inkl. mva.** er valgt, kan du redigere feltet **Forskuddsbeløp inkl. mva**.  
 
-    Hvis du endrer verdien i **Forskuddsbeløp**-feltet, blir beløpet fordelt proporsjonalt mellom alle linjene, unntatt de som har **0** i **Forskuddsprosent**-feltet.  
+    Hvis du endrer verdien i **Forskuddsbeløp**-feltet, blir beløpet fordelt proporsjonalt mellom alle linjene, unntatt linjer som har **0** i **Forskuddsprosent**-feltet.  
 
 5. Hvis du vil skrive ut en testrapport før du bokfører forskuddsfakturaen, velger du **Forskuddsbetaling** og velger deretter **Testrapport for forskudd**.  
 6. Hvis du vil bokføre forskuddsfakturaen, velger du **Forskuddsbetaling** og velger deretter **Bokfør forskuddsfaktura**.  
 
     Hvis du vil bokføre og skrive ut forskuddsfakturaen, velger du handlingen **Bokfør og skriv ut forskuddsfaktura**.  
 
-Du kan utstede flere forskuddsfakturaer for ordren. Dette gjør du ved å øke forskuddsbeløpet på én eller flere linjer, justere dokumentdatoen om nødvendig, og bokføre forskuddsfakturaen. Det opprettes en ny faktura for differansen mellom forskuddsbeløpene som er fakturert hittil, og det nye forskuddsbeløpet.  
+Du kan utstede andre forskuddsfakturaer for ordren. Hvis du vil utstede en ny faktura, må du øke forskuddsbeløpet på en eller flere linjer, justere dokumentdatoen om nødvendig, og bokføre forskuddsfakturaen. Det opprettes en ny faktura for differansen mellom forskuddsbeløpene som er fakturert hittil, og det nye forskuddsbeløpet.  
 
 > [!NOTE]  
 > Hvis du befinner deg i Nord-Amerika, kan du ikke endre forskuddsprosenten når den forskuddsbetalte fakturaen er bokført. Dette er ikke tillatt i Nord-Amerika-versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] fordi beregningen av merverdiavgift ellers blir feil.  
 
  Når du er klar til å bokføre resten av fakturaen, bokfører du den som en hvilken som helst annen faktura, og forskuddsbeløpet blir automatisk trukket fra forfallsbeløpet.  
 
+## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Oppdater statusen for forhåndsbetalte bestillinger og fakturaer automatisk
+
+Du kan øke bestillings- og fakturabehandlingen ved å definere jobbkøposter som automatisk oppdaterer statusen for disse dokumentene. Når en forskuddsfaktura betales, kan jobbkøposter automatisk endre dokumentstatusen fra **Venter på forskudd** til **Frigitt**. Når du definerer jobbkøpostene, er codeunits du trenger å bruke, **383 Oppdater ventende forskuddssalg** og **383 Oppdater ventende forskuddskjøp**. Vi anbefaler at du planlegger at postene skal kjøre ofte, for eksempel hvert minutt. Hvis du vil ha mer informasjon, kan du se [Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).
+
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 
 [Fakturere forskuddsbetalinger](finance-invoice-prepayments.md)  
-[Gjennomgang: konfigurere og fakturere salgsforskudd](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
+[Gjennomgang: Konfigurer og fakturer salgsforskudd](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finans](finance.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Tilpasse arbeidsområdet](ui-personalization-user.md)  

@@ -6,14 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
+ms.search.form: 1080, 1081, 1083, 1085, 1087, 1089
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e538d6ddef44948785c76bd1cf55b9bdd80c111c
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ae7499827c03a6b67b507c0145e6553018b46108
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076256"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362057"
 ---
 # <a name="the-microsoft-pay-extension"></a>Microsoft Pay-utvidelsen
 
@@ -29,7 +30,7 @@ ms.locfileid: "9076256"
 
 Kundene krever kontinuerlig bedre kundeservice, både når det gjelder produktkvalitet, men også når det gjelder leverings- og betalingstjenester. Microsoft Pay-tjenesten hjelper deg med å forbedre din kundeservice.
 
-Microsoft Pay-utvidelsen legger til en Microsoft Pay-kobling i salgsdokumenter slik at kundene kan enkelt betale med Microsoft Pay. Du kan sende dokumenter via e-post for å gi bedre kundeservice og korte ned tiden det tar for kundens betalinger å komme inn på bankkontoen din.
+Microsoft Pay-utvidelsen legger til en Microsoft Pay-kobling i salgsdokumenter slik at kundene kan enkelt betale med Microsoft Pay. Du kan sende dokumenter via e-post for å gi bedre kundeservice og korte ned tiden det tar for kundenes betalinger å komme inn på bankkontoen din.
 
 Microsoft Pay-utvidelsen gir følgende fordeler:
 - Kundebetalinger kommer raskere inn på bankkontoen din.
@@ -42,9 +43,9 @@ Microsoft Pay-utvidelsen gir følgende fordeler:
 Aktiverer utvidelser for betaling-tjenesten er gratis i [!INCLUDE[prod_short](includes/prod_short.md)], men du må kontakte tjenesten for å få en konto. Hvis du vil ha mer informasjon, kan du se [Aktivere kundebetalinger gjennom betalingstjenester](sales-how-enable-payment-service-extensions.md).
 
 ## <a name="see-also"></a>Se også
+
 [Tilpass [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Sette opp salg](sales-setup-sales.md)  
-[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

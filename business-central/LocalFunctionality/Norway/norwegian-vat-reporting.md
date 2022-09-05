@@ -6,15 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 737, 738, 743, 10601, 10604
+ms.search.form: 737, 738, 743, 10601, 10604, 10692 ,10696
 ms.date: 05/12/2022
 ms.author: edupont
-ms.openlocfilehash: c79e5998e1f874c7cba03d77a6ab7623f5b3f5ed
-ms.sourcegitcommit: bc645e7ecb1940a85b2c433aa894d3494c9b10df
+ms.openlocfilehash: c7233ce7fab2651e73e91004c8e4181b5b0df874
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/12/2022
-ms.locfileid: "8743635"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9361822"
 ---
 # <a name="norwegian-vat-reporting-in-the-norwegian-version"></a>Norsk mva-rapportering i den norske versjonen
 
@@ -75,7 +75,7 @@ Når du har registrert selskapet i ID-porten, er neste trinn å opprette et inte
 
 :::image type="content" source="../../media/nor-vat-return-integration-point.png" alt-text="Innstillinger for integrasjonspunkt for norsk mva":::
 
-### <a name="set-up-electronic-vat-reporting"></a>Konfigurere elektronisk mva-rapportering
+### <a name="set-up-electronic-vat-reporting"></a>Konfigurer elektronisk mva-rapportering
 
 For å gjøre det enklere å konfigurere mva-rapportering har [!INCLUDE[prod_short](../../includes/prod_short.md)] den assisterte oppsettsveiledningen **Konfigurer en elektronisk mva-sending**. 
 
@@ -117,7 +117,7 @@ For å gjøre det enklere å konfigurere mva-rapportering har [!INCLUDE[prod_sho
 6. På hurtigfanene **Returperiode** og **Mva-gruppestyring** angir du relevant informasjon.  
 7. Velg **OK**-knappen.  
 
-## <a name="create-and-submit-a-vat-return"></a>Opprette og sende en omsetningsoppgave
+## <a name="create-and-submit-a-vat-return"></a>Opprett og send en mva-retur
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Omsetningsoppgaver**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
@@ -135,7 +135,7 @@ For å gjøre det enklere å konfigurere mva-rapportering har [!INCLUDE[prod_sho
    > [!NOTE]
    > Hvis du har valgt alternativet **Rapporter mva-merknad** på siden **Mva-rapportoppsett**, er **Merknad**-feltet synlig og kan redigeres på siden **Mva-retur**. Brukerne kan angi fritekst der. Verdien i **Merknad**-feltet blir tatt med i meldingen som sendes.  
 
-## <a name="troubleshoot-your-connection-to-id-porten"></a>Feilsøke tilkoblingen til ID-porten
+## <a name="troubleshoot-your-connection-to-id-porten"></a>Feilsøk tilkoblingen til ID-porten
 
 Hvis du ikke får noe svar etter at du har sendt inn oppgaven, for eksempel innen 24 timer, kontakter du ID-porten og ber dem om bekrefte at de har mottatt oppgaven din. Hvis du vil hjelpe dem å identifisere oppgaven, kan du sende verdien fra feltet Meldings-ID. Feltet er skjult som standard, men du kan bruke sideinspeksjon til å hente verdien. Hvis du vil ha mer informasjon, kan du se [Kontrollere sider i Business Central](../../across-inspect-page.md).  
 

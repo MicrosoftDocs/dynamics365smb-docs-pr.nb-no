@@ -8,18 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: analysis, history, track
 ms.search.form: 18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158
-ms.date: 01/21/2022
+ms.date: 08/23/2022
 ms.author: edupont
-ms.openlocfilehash: bb94f725c57f538f9d8704ba66e3d66e120d41d2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 29f66fae0413bb0f8a757cfceedce8e0504e8686
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079145"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362279"
 ---
 # <a name="understanding-the-general-ledger-and-the-chart-of-accounts"></a>Forstå Finans og Kontoplan
 
-Økonomimodulen lagrer dine økonomiske data, og kontoplanen viser kontoene som alle finansposter bokføres til. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en standard kontoplan som er klar til å støtte forretningsvirksomheten din.
+Finans lagrer finansdata. Kontoplanene viser kontoene som finanspostene bokføres til. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en standard kontoplan som er klar til å støtte forretningsvirksomheten din.
 
 ## <a name="general-ledger-setup-and-general-posting-setup"></a>Finansoppsett og generelt bokføringsoppsett
 
@@ -27,14 +27,14 @@ Oppsettet av finans er i kjernen av økonomiske prosesser fordi den definerer hv
 
 * Siden **Finansoppsett**
 
-    På siden **Finansoppsett** angir du hvordan du håndterer bestemte regnskapssaker i firmaet, for eksempel:  
+  På siden **Finansoppsett** angir du hvordan du håndterer bestemte regnskapssaker i firmaet, for eksempel:  
 
-    * Detaljopplysninger om fakturaavrunding  
-    * Adresseformater  
-    * Finansrapportering  
+  * Detaljopplysninger om fakturaavrunding  
+  * Adresseformater  
+  * Finansrapportering  
 
-    > [!TIP]
-    > Siden **Finansoppsett** inneholder generelle felt og felt som er spesifikke for ditt land eller din region. Hvis du ikke er sikker på betydningen av et felt, foreslår vi at du arbeider med regnskapsføreren for å finne ut om det er av relevans for organisasjonen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+  > [!TIP]
+  > Siden **Finansoppsett** inneholder generelle felt og felt som er spesifikke for ditt land eller din region. Hvis du ikke er sikker på betydningen av et felt, foreslår vi at du arbeider med regnskapsføreren for å finne ut om det er av relevans for organisasjonen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
     Åpne siden [her](https://businesscentral.dynamics.com/?page=118)
 * Siden **Generelt bokføringsoppsett**
@@ -56,7 +56,7 @@ Kontoplanen viser alle finanskontoer. Fra kontoplanen kan du gjøre ting som:
 * Vise en liste over bokføringsgrupper som du posterer til kontoen.
 * Vise separate debet- og kreditsaldoer for én konto  
 
-Du kan legge til, endre eller slette finanskontoer. For å unngå avvik kan du imidlertid ikke slette en finanskonto hvis dataene fra den er brukt i kontoplanen. I tillegg kan du fra lanseringsbølge 2 for 2022 også blokkere utilsiktet sletting av kontoer i sensitive perioder. Hvis du vil ha mer informasjon, kan du se [Slett kontoer](finance-setup-chart-accounts.md#delete-accounts).  
+Du kan legge til, endre eller slette finanskontoer. For å unngå avvik kan du imidlertid ikke slette en finanskonto hvis dataene fra den er brukt i kontoplanen. For å unngå feil i sensitive perioder kan du også blokkere sletting av kontoer. Hvis du vil ha mer informasjon, kan du se [Slett kontoer](finance-setup-chart-accounts.md#delete-accounts).  
 
 ## <a name="account-categories"></a>Kontokategorier
 
@@ -64,7 +64,7 @@ Du kan tilpasse strukturen i kontoutskrifter ved å tilordne finanskontoer til k
 
 Siden **Finanskontokategorier** viser kategoriene og underkategoriene dine samt finanskontiene som er tilordnet til dem. Du kan opprette nye underkategorier og tilordne disse kategoriene til eksisterende kontoer.  
 
-Du kan opprette en kategorigruppe ved å rykke inn andre underkategorier under en linje på siden **Finanskontokategorier**. Dette gjør det enkelt for deg å få en oversikt, fordi hver gruppering viser den totale saldoen. Du kan opprette underkategorier for ulike typer aktiva, og deretter opprette kategorigrupper for aktiva kontra omløpsmidler.  
+Du kan opprette en kategorigruppe ved å rykke inn andre underkategorier under en linje på siden **Finanskontokategorier**. Kategorigrupper gjør det enkelt for deg å få en oversikt, fordi hver gruppering viser den totale saldoen. Du kan opprette underkategorier for ulike typer aktiva, og deretter opprette kategorigrupper for aktiva kontra omløpsmidler.  
 
 Du kan angi om kontoene i hver underkategori må inkluderes i bestemte typer rapporter. Kontokategoriene bidra til å definere oppsettet for regnskapsoppgjør.  
 
@@ -79,15 +79,21 @@ Standard saldoutdrag har for eksempel en underkategori for *kontanter* under *gj
 2. Angi den andre rapportdefinisjonen **Kontantkontoer** for disse underkategoriene.  
 3. Rykk inn dem under **Kontanter**-underkategori.  
 
-Neste gang du genererer kontoskjemaer, vil utdraget vise en total saldo for kontanter og to linjer med saldoer for håndkasse og sjekkontoen.  
+Neste gang du genererer kontoskjemaer, viser saldorapporten følgende linjer:
+
+* Total saldo på kontanter.
+* Linjer med saldoer for håndkasse og sjekkkontoen.  
+
+> [!NOTE]
+> Hvis du oppretter en finanskonto uten å tildele en kontokategori, tildeler [!INCLUDE[prod_short](includes/prod_short.md)] automatisk kontokategorien fra finanskontoen rett over kontoen i kontoplanen når du tildeler kontoen til en bokføringsgruppe. Hvis du vil ta med den nye kontoen i finansrapportene, må du imidlertid velge handlingen **Generer finansrapporter** på siden **Finanskontokategorier**. Du kan også åpne siden Finanskontokort, angi kontokategorien og deretter generere finansrapporten på nytt.
 
 ## <a name="get-a-quick-overview"></a>Få en rask oversikt
 
-**Kontoplan**-siden viser konti i en hierarkisk liste som gir rask tilgang til viktig informasjon for hver konto. Listen er imidlertid statisk, og hvis du har mange kontoer, må du kanskje rulle litt for å vise informasjon for ulike kontoer. Hvis du bare vil ha en rask oversikt over det grunnleggende, for eksempel bevegelser og saldoer, er siden **Kontoplanoversikt** et nyttig alternativ. Kolonneoppsettet på siden er nå det samme som du finner på **kontoplansiden** (det er bare færre av dem), så du trenger ikke å orientere deg på nytt, og du kan vise eller skjule de hierarkiske nivåene for å få en kompakt visning. For at det skal bli enkelt å bytte mellom sidene er siden **Kontoplanoversikt** tilgjengelig fra **Kontoplan**-siden.
+**Kontoplan**-siden viser konti i en hierarkisk liste som gir rask tilgang til viktig informasjon for hver konto. Listen er imidlertid statisk. Hvis du har mange kontoer, må du kanskje bla for å vise forskjellige kontoer. Hvis du bare vil ha en rask oversikt over det grunnleggende, for eksempel bevegelser og saldoer, er siden **Kontoplanoversikt** et nyttig alternativ. Kolonneoppsettet på siden er nå det samme som du finner på siden **Kontoplaner** (men med færre kolonner), slik at du ikke trenger å justere deg selv. Du kan vise eller skjule de hierarkiske nivåene for å få en tett visning. For at det skal bli enkelt å bytte mellom sidene er siden **Kontoplanoversikt** tilgjengelig fra **Kontoplan**-siden.
 
 ## <a name="access-to-create-and-edit-accounts-and-account-categories"></a>Tilgang til å opprette og redigere konti og kontokategorier
 
-I en liten organisasjon, for eksempel CRONUS-demoselskapet, kan de fleste brukere redigere kontoplanen, unntatt brukere med en gruppemedlemslisens. I større organisasjoner er imidlertid tilgang til å redigere kontoplanen begrenset av roller og tillatelser. Hvis du er administrator eller du har rollen som *Forretningssjef* eller *Regnskapsfører*, kan du kontrollere tillatelsene for alle brukerne for å være sikker på at de riktige personene har tilgang til de relevante tabellene. Hvis du vil ha mer informasjon, kan du se [For å få en oversikt over en brukers tillatelser](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
+I en liten organisasjon, for eksempel CRONUS-demoselskapet, kan de fleste brukere redigere kontoplanen. Unntatt brukere med en gruppemedlemslisens. Større organisasjoner bruker vanligvis roller og tillatelser til å begrense redigering av kontoplanene. Hvis du er administrator eller du har rollen som **Forretningssjef** eller **Regnskapsfører**, kan du kontrollere brukertillatelsene for å gi de riktige personene tilgang til relevante tabeller. Hvis du vil ha mer informasjon, kan du se [For å få en oversikt over en brukers tillatelser](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
 ## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/business-central-configure-general-ledger-setup/)
 

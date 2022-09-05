@@ -1,24 +1,24 @@
 ---
 title: Vis Tabellinformasjon
-description: Lær hvordan du kan vise informasjon om databasetabellene rett fra klientgrensesnittet i Business Central.
+description: Lær hvordan du kan vise informasjon om databasetabellene i Business Central.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 8700
-ms.date: 06/14/2021
+ms.date: 08/23/2022
 ms.author: jswymer
-ms.openlocfilehash: db1a5ef84d4174b960de6f3e20f7d4e29c8c44c8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 990a8f56108bacfe82e6fe591858d238396f16be
+ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133099"
+ms.lasthandoff: 08/29/2022
+ms.locfileid: "9362166"
 ---
 # <a name="viewing-table-information"></a>Vise Tabellinformasjon
 
-Siden **Informasjon om 8700-tabellen** inneholder informasjon om alle system- og forretningstabeller i en Business Central-løsning. Siden viser spesielt informasjon om mengden data som tabellene inneholder.
+Siden **8700 Tabellinformasjon** inneholder informasjon om antall poster i alle system- og forretningstabeller i [!INCLUDE[prod_short](includes/prod_short.md)] og hvor mye data hver tabell inneholder.
 
 Denne informasjonen er nyttig for å feilsøke ytelsesproblemer, siden dette gir deg muligheten til å se fordelingen av datastørrelsen på tvers av tabeller.
 
@@ -32,9 +32,16 @@ Følgende tabell beskriver opplysningene som er gitt for hver tabell:
 |------|-----------|
 |Selskapsnavn|Navnet på selskapet (hvis noen) som tabellen tilhører.|
 |Tabellnavn|Navnet på tabellen.|
-|Tabellnr.|ID-en for tabellen|
-|Antall poster|Totalt antall poster lagret i tabellen.|
+|Tabellnr.|ID-en for tabellen.|
+|Nr. poster|Totalt antall poster lagret i tabellen.|
 |Poststørrelse|Gjennomsnittlig poststørrelse i kB/post. Verdien beregnes ved hjelp av følgende formel: 1024 (størrelse)/(antall poster). |
+|Størrelse (kB)|Hvor mye plass tabellen opptar i databasen totalt. Denne verdien er summen av verdiene i feltene Datastørrelse og Indeksstørrelse.|
+|Datastørrelse (kB)|Hvor mye plass dataene i tabellen opptar i databasen.|
+|Indeksstørrelse (kB)|Hvor mye plass tabellindeksene (nøkler) opptar i databasen.|
+|Komprimering|Komprimeringstypen, **Rad**, **Side** eller **Ingen** som brukes på tabellen i databasen. Hvis du vil ha mer informasjon, kan du se [Datakomprimering](/sql/relational-databases/data-compression/data-compression?).|
+
+> [!NOTE]
+> Hvis du sletter data i en tabell, starter [!INCLUDE[prod_short](includes/prod_short.md)] flere prosesser i bakgrunnen for å sikre at alt fjernes i databasen. Verdiene på siden Tabellinformasjon oppdateres ikke før disse prosessene er fullført, noe som kan ta litt tid. Hvor lang tid du må vente, kan variere avhengig av størrelsen på databasen.
 
 ## <a name="see-also"></a>Se også
 
