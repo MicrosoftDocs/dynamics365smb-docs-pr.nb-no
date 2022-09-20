@@ -1,5 +1,5 @@
 ---
-title: Bruke Business Central-apper i Power BI | Microsoft Docs
+title: Bruk Business Central-appene i Power BI
 description: Få innsikt, forretningsintelligens og KPI-er fra Business Central-dataene på en enkel måte med Business Central-apper for Power BI.
 author: jswymer
 ms.topic: get-started-article
@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: cd29453c816eabd8e9475ac7e818c120bd589f3b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 7a6b6de60f6262906429127b0588ca62c9dcca1b
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519188"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461079"
 ---
 # <a name="use-the-prod_short-apps-in-power-bi"></a>Bruk [!INCLUDE [prod_short](includes/prod_short.md)]-appene i Power BI
 
@@ -158,19 +158,18 @@ Power BI-appen viser bare data fra [!INCLUDE[prod_short](includes/prod_short.md)
 [Oversikt over komponent og arkitektur for Power BI-integrering for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
 [Arbeid med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md)  
 [Bygge Power BI-rapporter for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md)  
-[Power BI for forbrukere](/power-bi/consumer/end-user-consumer)  
-[Nytt utseende på Power BI-tjenesten](/power-bi/service-new-look)  
-[Hurtigstart: Koble til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
-[Power BI-dokumentasjon](/power-bi/)  
 [Forretningsintelligens](bi.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
-[Importer forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
+[Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
+[Konfigurer [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Bruk [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
 [Bruk [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
 [Bruk [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
-
-
+[Power BI-dokumentasjon](/power-bi/)  
+[Hva er Power BI?](/power-bi/fundamentals/power-bi-overview)  
+[Hurtigstart: Koble til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data)  
+[Innføring i datatorg](/power-bi/transform-model/datamarts/datamarts-overview)  
+[Innføring i dataflyter og selvbetjent dataklargjøring](/power-bi/transform-model/dataflows/dataflows-introduction-self-service)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

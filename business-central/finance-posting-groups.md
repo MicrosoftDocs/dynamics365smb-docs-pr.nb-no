@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: posting setup, initialize
 ms.search.form: 312, 313
-ms.date: 03/24/2022
+ms.date: 08/26/2022
 ms.author: bholtorf
-ms.openlocfilehash: a3ce9d938994f6300e0a1f2c26511b3c0702c124
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: e3cb6fd841dc4d6e0f9b00d2966ca00bab577b15
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076568"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9460782"
 ---
 # <a name="set-up-posting-groups"></a>Definer bokføringsgrupper
 
@@ -59,9 +59,11 @@ Tabellen nedenfor beskriver bokføringsgruppene som er angitt til datatypene.
 
 ### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Tillat erstatning av kunde- eller leverandørbokføringsgrupper i dokumenter
 
+[!INCLUDE [preview](includes/preview.md)]
+
 Du kan la andre velge en annen kunde- og leverandørbokføringsgruppe enn standardene når de arbeider med salgs- eller kjøpsdokumenter og -kladder.
 
-Hvis du vil tillate endringer i bokføringsgrupper for kunde, velger du **Tillat endring av bokføringsgruppe** på sidene **Salgsoppsett** og **Serviceoppsett**, og siden **Kjøpsoppsett** for endringer i bokføringsgruppe for leverandør.
+Hvis du vil tillate endringer i bokføringsgrupper for kunde, velger du **Tillat flere bokføringsgrupper** på sidene **Salgsoppsett** og **Serviceoppsett**, og siden **Kjøpsoppsett** for endringer i bokføringsgruppe for leverandør.
 
 På sidene **Bokføringsgrupper – kunde** eller **Bokføringsgrupper – leverandør** kan du angi bokføringsgruppene som skal tillates, som erstatninger ved å velge **Erstatninger**. Ved å erstatte bokføringsgrupper kan du erstatte standard kunde- eller leverandørbokføringsgrupper som er angitt for en kunde eller leverandør.
 

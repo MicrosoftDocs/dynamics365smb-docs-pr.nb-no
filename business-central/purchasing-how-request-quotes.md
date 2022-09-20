@@ -8,40 +8,42 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: rfq
 ms.search.form: 49, 97, 9306, 9346
-ms.date: 06/23/2021
+ms.date: 08/08/2022
 ms.author: edupont
-ms.openlocfilehash: 7bad66452613dba8175404e67d1d8b421902bb8d
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 6444b795bf95b4da45d5d09bd6d6b7d5177c277a
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076984"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461133"
 ---
 # <a name="request-quotes"></a>Be om tilbud
 
-En forespørsel kan brukes som et foreløpig utkast til en bestilling, og bestillingen kan deretter konverteres til en bestilling eller ordre.
+En forespørsel kan brukes som et foreløpig utkast til en bestilling, som deretter kan konverteres til en bestilling.
 
-## <a name="to-create-a-purchase-quote"></a>Slik oppretter du en forespørsel
+## <a name="create-a-purchase-quote"></a>Opprett en forespørsel
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Forespørsler**, og velg deretter den relaterte koblingen.
-2. Opprett et nytt dokument, på samme måte som du oppretter en bestilling. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).
+2. Opprett et nytt dokument, på samme måte som du oppretter en bestilling. Finn ut mer under [Registrer kjøp](purchasing-how-record-purchases.md).
 
-## <a name="to-convert-a-purchase-quote-to-a-purchase-order"></a>Slik konverterer du en forespørsel til en bestilling
+## <a name="convert-a-purchase-quote-to-a-purchase-order"></a>Konverter en forespørsel til en bestilling
 
-Når du har godtatt leverandørtilbudet, kan du konvertere det til en kjøpsfaktura eller ordre for å behandle kjøpet.
+Når du har godtatt leverandørtilbudet, kan du konvertere det til en bestilling for å behandle kjøpet.
 
-1. Åpne en forespørsel som er klar til å konverteres, og velg handlingen **Lag ordre**.
+1. Åpne forespørselen du vil å konvertere, og velg handlingen **Lag ordre**.
 
-Forespørselen er fjernet fra databasen. Det opprettes en kjøpsfaktura eller bestilling basert på informasjonen i forespørselen der du kan behandle kjøpet. I feltet **Tilbudsnr.** på kjøpsfakturaen eller bestillingen kan du se nummeret på forespørselen den ble laget fra.
+Forespørselen er fjernet fra databasen. Det opprettes en bestilling basert på informasjonen i forespørselen, som du kan bruke til å kjøpet og deretter registrere en kjøpsfaktura. I feltet **Tilbudsnr.** på bestillingen og kjøpsfakturaen kan du se nummeret på forespørselen de ble laget fra.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/create-purchase-documents-dynamics-365-business-central/)
+> [!NOTE]
+> Det er ikke mulig å konvertere en forespørsel til en kjøpsfaktura direkte, som er mulig med tilbud. Hvis du vil ha mer informasjon om hvordan du oppretter en kjøpsfaktura, kan du lese [Registrer kjøp med kjøpsfakturaer](purchasing-how-record-purchases.md).
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/create-purchase-documents-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se også
 
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Definere kjøp](purchasing-setup-purchasing.md)  
 [Send dokumenter i e-post](ui-how-send-documents-email.md)  
-[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

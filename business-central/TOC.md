@@ -1,4 +1,4 @@
-# [Velkommen til Business Central](index.md)
+# [Velkommen til Business Central](index.md)  
 # [Nytt og planlagt](product-news.md)
 # Kom i gang
 ## [Oversikt over forretningsfunksjoner](across-business-functionality.md)
@@ -225,6 +225,7 @@
 ### [Arbeid med finanskladder](ui-work-general-journals.md)
 ### [Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md)
 ### [La Business Central foreslå verdier](ui-let-system-suggest-values.md)
+### [Bruk Online Maps til å finne plasseringer og veibeskrivelser](across-online-maps.md)
 
 ### Inngående dokumenter
 #### [Oversikt over inngående dokumenter](across-income-documents.md)
@@ -442,6 +443,7 @@
 ### [Skriv ut plukklisten](sales-how-print-picking-list.md)
 ### [Bokfør salg](ui-post-sales.md)
 ### [Opprett gjentakende salgslinjer](sales-how-work-standard-lines.md)
+### [Behandle delleveringer med leveringsønske](sales-how-send-partial-shipments.md)
 ### [Foreta direkte leveringer](sales-how-drop-shipment.md)
 ### [Opprette spesialbestillinger](sales-how-to-create-special-orders.md)
 ### [Behandle ordrereturer eller annulleringer](sales-how-process-sales-returns-cancellations.md)
@@ -1635,6 +1637,7 @@
 ### [Opprette nummerserier](ui-create-number-series.md)
 ### [Definere hovedkalendere](across-how-to-assign-base-calendars.md)
 ### [Konfigurere skrivere](ui-specify-printer-selection-reports.md)
+### [Konfigurer Online Maps](across-online-maps-setup.md)
 ### [Få Business Central på mobilenheten din](install-mobile-app.md)
 ### [Få Business Central på skrivebordet ditt](install-desktop-app.md)
 <!--Reporting landing page-->
@@ -1838,6 +1841,7 @@
 ### [Synkronisere tabelltilordninger manuelt](admin-manual-synchronization-of-table-mappings.md)
 ### [Planlegge en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Feilsøk synkroniseringsfeil](admin-troubleshoot-sales-synchronization.md)
+### [Bruk en Power Automate-flyt for varsler om Dataverse-enhetsendringer](admin-power-automate-flow-dataverse.md)
 ## Designdetaljer
 ### [Oversikt over detaljer for utforming av programmet](design-details-application-design.md)
 ### Designdetaljer: Forsyningsplanlegging

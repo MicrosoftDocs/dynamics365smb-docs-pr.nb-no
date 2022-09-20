@@ -3,12 +3,12 @@ author: edupont04
 ms.topic: include
 ms.date: 04/05/2022
 ms.author: edupont
-ms.openlocfilehash: 0f6ce66b4bb534d1cc2c66414fe08254f68253b2
-ms.sourcegitcommit: 55f42d2407e109b4924218cb22129467b53deb08
+ms.openlocfilehash: 8dcebacabc62e9744fb0c70e535f9fdd498047e6
+ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/08/2022
-ms.locfileid: "8557486"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9461052"
 ---
 1. Gå til [nettstedet for prøveversjonen](https://go.microsoft.com/fwlink/?linkid=847861), velg *Økonomi og drift*, og klikk deretter på knappen **Prøv nå** på kortet **Dynamics 365 Business Central**.  
 2. Angi e-postadressen for jobb eller skole og andre opplysninger. Du blir omdirigert til prøveversjonen på [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
@@ -24,4 +24,4 @@ Hvis du bestemmer deg for ikke å bruke [!INCLUDE [prod_short](prod_short.md)], 
 
 [!INCLUDE [admin-viral-trial-expiry](admin-viral-trial-expiry.md)]
 
-Hvis det oppstår problemer, kan du kontrollere [Vanlige spørsmål om prøveversjoner](../trial-faq.md) eller artikler om [vanlige spørsmål](../across-faq.yml) for å finne svar på noen av spørsmålene dine. Hvis du ikke kunne registrere deg for prøveversjonen, kan du se artikkelen [Feilsøk registrering for selvbetjening](../ui-troubleshoot-self-signup.md) for tips. Du kan også kontakte en [partner](/dynamics365/business-central/across-faq#findpartner) og be vedkommende om å opprette en gratis eller en annen type forhåndsversjon av [!INCLUDE[prod_short](prod_short.md)] for deg.  
+Hvis det oppstår problemer, kan du kontrollere [Vanlige spørsmål om prøveversjoner](../trial-faq.md) eller artikler om [vanlige spørsmål](../across-faq.yml) for å finne svar på noen av spørsmålene dine. Hvis du ikke kunne registrere deg for prøveversjonen, kan du se artikkelen [Feilsøk registrering for selvbetjening](../ui-troubleshoot-self-signup.md) for tips. Du kan også kontakte en [partner](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner) og be vedkommende om å opprette en prøveversjon eller en annen type forhåndsversjon av [!INCLUDE[prod_short](prod_short.md)] for deg.  
