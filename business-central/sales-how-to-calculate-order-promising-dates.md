@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/29/2021
 ms.author: edupont
-ms.openlocfilehash: 8a310ba099c6eb5c90d116304240db3291bac67c
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ebe70f9fdd98f68616b15eaf37154c6072c601a8
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079509"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533566"
 ---
 # <a name="calculate-order-promising-dates"></a>Beregne ordrebekreftelsesdatoer
 
@@ -134,7 +134,7 @@ Før en vare kan inkluderes i beregningen av ordrebekreftelsen, må den være me
     - Velg **Første mulige forsendelsesdato (CTP)** hvis du vet at varen er utsolgt fra lager og du vil beregne når varen tidligst vil være tilgjengelig når du utsteder nye etterfyllingsforslag.  
 5.  Velg **Godta**-knappen for å godta den tidligste leveringsdatoen som er tilgjengelig.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/promising-sales-order-delivery-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

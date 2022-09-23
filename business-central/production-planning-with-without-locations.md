@@ -7,37 +7,29 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 07/16/2021
+ms.date: 09/15/2022
 ms.author: edupont
-ms.openlocfilehash: 97ba3a62954ae2d38106f0dc7aa4f1080e483ef5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 4bb3f626e02259171a9a1bf41c580f34aaa19758
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517846"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524541"
 ---
 # <a name="planning-with-or-without-locations"></a>Se Planlegge med/uten lokasjoner.
-Når det gjelder planlegging med eller uten lokasjonskoder på behovslinjer, fungerer planleggingssystemet på ordinær måte når:  
 
--   behovslinjene alltid inneholder lokasjonskoder og systemet fullt ut bruker lagerføringsenheter, inkludert det relevante lokasjonsoppsettet.  
--   behovslinjene aldri inneholder lokasjonskoder og systemet ikke bruker lagerføringsenheter eller lokasjonsoppsett (se siste scenario nedenfor).  
+Før du begynner å bruke planleggingsmotoren, anbefales det at du avgjør om du vil bruke lokasjoner. Det finnes to hovedmåter på en enkel måte:
 
-Hvis imidlertid behovslinjene noen ganger har lokasjonskoder og andre ganger ikke, følger planleggingssystemet visse regler avhengig av oppsettet.  
-
-> [!TIP]
-> Hvis du ofte planlegger for behov i ulike lokasjoner, anbefaler vi at du bruker funksjonen Lagerføringsenheter.
+* behovslinjene alltid inneholder lokasjonskoder og systemet fullt ut bruker lagerføringsenheter, inkludert det relevante lokasjonsoppsettet. Finn ut mer på [Behov i lokasjon](#demand-at-location).  
+* Behovslinjer inneholder aldri lokasjonskoder og systemet bruker varekortet. Se scenarioet [Behov ved en tom lokasjon](#demand-at-blank-location) nedenfor.
 
 ## <a name="demand-at-location"></a>Behov i lokasjon  
 
-Når planleggingssystemet oppdager behov i en lokasjon (en linje med en lokasjonskode), fungerer det på ulike måter avhengig av 3 viktige oppsettsverdier.  
+Når planleggingssystemet oppdager behov i en lokasjon (en linje med en lokasjonskode), fungerer det på ulike måter avhengig av 2 viktige oppsettsverdier.  
 
-Under en kjørsel kontrolleres de 3 oppsettsverdiene etter tur, og planleggingen utføres i tråd med dette:  
+Under en kjørsel kontrolleres de 2 oppsettsverdiene etter tur, og planleggingen utføres i tråd med dette:  
 
-1. Er det merket av i feltet **Lokasjon obligatorisk** på siden **Lageroppsett**?  
-
-    Hvis ja:  
-
-2. Finnes det lagerføringsenhet for varen?  
+1. Finnes det en SKU for varen i den forespurte lokasjonen?  
 
     Hvis ja:  
 
@@ -45,112 +37,120 @@ Under en kjørsel kontrolleres de 3 oppsettsverdiene etter tur, og planleggingen
 
     Hvis nei:  
 
-3. Inneholder feltet **Komponenter ved lokasjon** på siden **Produksjonsoppsett** den nødvendige lokasjonskoden?  
+2. Inneholder feltet **Komponenter ved lokasjon** på siden **Produksjonsoppsett** den nødvendige lokasjonskoden?  
 
     Hvis ja:  
 
-    Varen planlegges i henhold til planleggingsparametrene på varekortet.  
+    Varen planlegges i henhold til planleggingsparameterne på varekortet.  
 
     Hvis nei:  
 
-    Varen planlegges slik: Gjenbestillingsprinsipp =  *Parti for parti*, Ta med lagerbeholdning =  *Ja*, alle andre planleggingsparametre = tomme. (Varer som bruker gjenbestillingsprinsippet  *Ordre*, fortsetter med å bruke  *Ordre* samt de andre innstillingene.)  
-
-> [!NOTE]  
-> Dette minimumsalternativet dekker bare eksakt behov. Eventuelle planleggingsparametre som er definert, ignoreres.  
-
-Se variasjoner i scenariene nedenfor.  
+    Varen planlegges i henhold til minimumsalternativet som dekker det nøyaktige behovet. Planleggingsparameterne er angitt slik: Gjenbestillingsprinsipp = *Parti for parti*, Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme. (Varer som bruker gjenbestillingsprinsippet *Ordre*, fortsetter med å bruke *Ordre* samt de andre innstillingene.)
 
 > [!TIP]
-> Feltet **Lokasjon obligatorisk** på siden **Lageroppsett** og feltet **Komponenter ved lokasjon** på siden Produksjonsoppsett er svært viktige når du skal styre hvordan planleggingssystemet håndterer behovslinjer med/uten lokasjonskoder.
+> Hvis du ofte planlegger for behov i ulike lokasjoner, anbefaler vi at du bruker funksjonen for lagerføringsenheter og unngår behov i tom lokasjon. Finn ut mer under [Definer lagerføringsenheter](inventory-how-to-set-up-stockkeeping-units.md)
+
+Se variasjoner i [scenarioene nedenfor](#scenarios).
+
+> [!NOTE]
+> Feltet **Komponenter ved lokasjon** på siden **Produksjonsoppsett** er svært viktige når du skal styre hvordan planleggingssystemet håndterer produksjonsbehovlinjer.
 >
-> For produksjonsbehov som kjøpes (når planleggingsmotoren bare brukes til kjøpsplanlegging, og ikke til produksjonsplanlegging), bruker [!INCLUDE [prod_short](includes/prod_short.md)] samme lokasjon for komponenter som den som er angitt på produksjonsordren. Hvis du fyller ut dette feltet, kan du imidlertid omdirigere komponentene til en annen lokasjon.
+> For produksjonsbehov bruker [!INCLUDE [prod_short](includes/prod_short.md)] samme lokasjon for delmontering og komponenter som den som er angitt i produksjonsordren. Hvis du fyller ut dette feltet, kan du imidlertid omdirigere delmontering og komponentene til en annen lokasjon.
 >
 > Du kan også definere dette for en bestemt LFE ved å velge en annen lokasjonskode i feltet **Komponenter ved lokasjon** på LFE-kortet. Vær imidlertid oppmerksom på at dette sjelden gir mening ettersom planleggingslogikken kan bli fordreid når du planlegger for LFE-komponenten.
 
-Et annet viktig felt er feltet **Maks ordreantall** på **Vare**-kortet. Det angir et maksimalt tillatt antall for et vareordreforslag og brukes hvis varen leveres i en fast transportenhet, som en container, som du vil bruke for eksempel. Når behovet for etterfylling er oppdaget og partistørrelsen er justert til å stemme med angitt gjenbestillingsprinsipp, minkes antallet hvis det er nødvendig, slik at det stemmer med maksimumsordreantallet du definerer for varen. Hvis ytterligere behov gjenstår, beregnes nye ordrer for å oppfylle dem. Vanligvis bruker du dette feltet med produksjonsstrategien Produser til lager.  
+## <a name="demand-at-blank-location"></a>Behov i tom lokasjon
 
-## <a name="demand-at-blank-location"></a>Behov i "tom lokasjon"  
-Selv om det er merket av i feltet **Lokasjon obligatorisk**, tillater systemet at det opprettes behovslinjer uten en lokasjonskode – også kalt *TOM* lokasjon. Dette er et systemavvik fordi ulike oppsettsverdier er rettet mot lokasjoner (se ovenfor), og planleggingsmotoren vil derfor ikke opprette en planleggingslinje for en slik behovslinje. Hvis det ikke er merket av i feltet **Lokasjon obligatorisk**, men noen av lokasjonsoppsettsverdiene finnes, regnes dette også som et avvik, og planleggingssystemet vil reagere med å benytte "minimumsalternativet":   
-Varen planlegges slik: Gjenbestillingsprinsipp =  *Parti for parti* ( *Ordre* forblir *Ordre)*, Ta med lagerbeholdning =  *Ja*, alle andre planleggingsparametre = tomme.  
+Når planleggingssystemet oppdager behov i en tom lokasjon (en linje uten lokasjonskode), planlegges varen vanligvis i henhold til planleggingsparameterne på varekortet.
 
-Se variasjoner i oppsettsscenariene nedenfor.  
+Feltet **Lokasjon obligatorisk** på siden **Lageroppsett** og feltet **Komponenter ved lokasjon** på siden **Produksjonsoppsett** eller lagerføringsenheter som påvirker hvordan planleggingssystemet håndterer behovslinjer med/uten lokasjonskoder. Hvis en av følgende setninger er sanne, er behovet i tom lokasjon også betraktet som et avvik, og planleggingssystemet vil reagere ved å bruke minimumsalternativet: Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* (*ordre* forblir *ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
 
-### <a name="setup-1"></a>Oppsett 1:  
+* Feltet **Komponenter ved lokasjon** på siden **Produksjonsoppsett** har en verdi.
+* En lagerføringsenhet finnes for den planlagte varen.
+* Feltet **Lokasjon obligatorisk** er valgt.
 
--   Lokasjon obligatorisk = *Ja*  
--   LFE defineres for  *RØD*  
--   Komponenter ved lokasjon =  *BLÅ*  
+## <a name="scenarios"></a>Scenarier
 
-#### <a name="case-11-demand-is-at--red-location"></a>Eksempel 1.1: Behovet er i  *RØD* lokasjon  
+Se variasjoner i oppsettsscenariene nedenfor.
 
-Varen planlegges i henhold til planleggingsparametrene på LFE-kortet (inkludert mulig overføring).  
+### <a name="setup-1"></a>Oppsett 1
 
-#### <a name="case-12-demand-is-at--blue-location"></a>Eksempel 1.2: Behovet er i  *BLÅ* lokasjon  
+* Lokasjon obligatorisk = *Ja*  
+* SKU defineres for *VEST*  
+* Komponenter ved lokasjon = *ØST*  
 
-Varen planlegges i henhold til planleggingsparametrene på varekortet.  
+#### <a name="case-11-demand-is-at-west-location"></a>Eksempel 1.1: Behovet er i *VEST* lokasjon
 
-#### <a name="case-13-demand-is-at--green-location"></a>Eksempel 1.3: Behovet er i  *GRØNN* lokasjon  
+Varen planlegges i henhold til planleggingsparametrene på LFE-kortet (inkludert mulig overføring).
 
-Varen planlegges slik: Gjenbestillingsprinsipp =  *Parti for parti* ( *Ordre* forblir  *Ordre*), Ta med lagerbeholdning =  *Ja*, alle andre planleggingsparametre = tomme.  
+#### <a name="case-12-demand-is-at-east-location"></a>Eksempel 1.2: Behovet er i *ØST* lokasjon
 
-#### <a name="case-14-demand-is-at--blank-location"></a>Eksempel 1.4: Behovet er i  *TOM* lokasjon  
+Varen planlegges i henhold til planleggingsparameterne på varekortet.
 
-Varen planlegges ikke fordi ingen lokasjon er definert på behovslinjen.  
+#### <a name="case-13-demand-is-at-north-location"></a>Eksempel 1.3: Behovet er i *NORD* lokasjon
 
-### <a name="setup-2"></a>Oppsett 2:  
+Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* ( *Ordre* forblir *Ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
 
--   Lokasjon obligatorisk = *Ja*  
--   LFE finnes ikke  
--   Komponenter ved lokasjon =  *BLÅ*  
+#### <a name="case-14-demand-is-at-blank-location"></a>Eksempel 1.4: Behovet er i *TOM* lokasjon
 
-#### <a name="case-21-demand-is-at--red-location"></a>Eksempel 2.1: Behovet er i  *RØD* lokasjon  
+Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* ( *Ordre* forblir *Ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
 
-Varen planlegges slik: Gjenbestillingsprinsipp =  *Parti for parti* ( *Ordre* forblir  *Ordre*), Ta med lagerbeholdning =  *Ja*, alle andre planleggingsparametre = tomme.  
+### <a name="setup-2"></a>Oppsett 2
 
-#### <a name="case-22-demand-is-at--blue-location"></a>Eksempel 2.2: Behovet er i  *BLÅ* lokasjon  
+* Lokasjon obligatorisk = *Ja*  
+* LFE finnes ikke  
+* Komponenter ved lokasjon = *ØST*  
 
-Varen planlegges i henhold til planleggingsparametrene på varekortet.  
+#### <a name="case-21-demand-is-at-west-location"></a>Eksempel 2.1: Behovet er i *VEST* lokasjon
 
-### <a name="setup-3"></a>Oppsett 3:  
+Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* ( *Ordre* forblir *Ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
 
--   Lokasjon obligatorisk = *Nei*  
--   LFE finnes ikke  
--   Komponenter ved lokasjon =  *BLÅ*  
-
-#### <a name="case-31-demand-is-at--red-location"></a>Eksempel 3.1: Behovet er i  *RØD* lokasjon  
-
-Varen planlegges slik: Gjenbestillingsprinsipp =  *Parti for parti* ( *Ordre* forblir  *Ordre*), Ta med lagerbeholdning =  *Ja*, alle andre planleggingsparametre = tomme.  
-
-#### <a name="case-32-demand-is-at--blue-location"></a>Eksempel 3.2: Behovet er i  *BLÅ* lokasjon  
-
-Varen planlegges i henhold til planleggingsparametrene på varekortet.  
-
-#### <a name="case-33-demand-is-at--blank-location"></a>Eksempel 3.3: Behovet er i  *TOM* lokasjon  
-
-Varen planlegges slik: Gjenbestillingsprinsipp =  *Parti for parti* ( *Ordre* forblir  *Ordre*), Ta med lagerbeholdning =  *Ja*, alle andre planleggingsparametre = tomme.  
-
-### <a name="setup-4"></a>Oppsett 4:  
-
--   Lokasjon obligatorisk = *Nei*  
--   LFE finnes ikke  
--   Komponenter ved lokasjon =  *TOM*  
-
-#### <a name="case-41-demand-is-at--blue-location"></a>Eksempel 4.1: Behovet er i  *BLÅ* lokasjon  
-
-Varen planlegges slik: Gjenbestillingsprinsipp =  *Parti for parti* ( *Ordre* forblir  *Ordre*), Ta med lagerbeholdning =  *Ja*, alle andre planleggingsparametre = tomme.  
-
-#### <a name="case-42-demand-is-at--blank-location"></a>Eksempel 4.2: Behovet er i  *TOM* lokasjon  
+#### <a name="case-22-demand-is-at-east-location"></a>Eksempel 2.2: Behovet er i *ØST* lokasjon
 
 Varen planlegges i henhold til planleggingsparameterne på varekortet.  
 
+### <a name="setup-3"></a>Oppsett 3
+
+* Lokasjon obligatorisk = *Nei*  
+* LFE finnes ikke  
+* Komponenter ved lokasjon = *ØST*  
+
+#### <a name="case-31-demand-is-at-west-location"></a>Eksempel 3.1: Behovet er i *VEST* lokasjon
+
+Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* ( *Ordre* forblir *Ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
+
+#### <a name="case-32-demand-is-at-east-location"></a>Eksempel 3.2: Behovet er i *ØST* lokasjon
+
+Varen planlegges i henhold til planleggingsparameterne på varekortet.  
+
+#### <a name="case-33-demand-is-at-blank-location"></a>Eksempel 3.3: Behovet er i *TOM* lokasjon
+
+Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* ( *Ordre* forblir *Ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
+
+### <a name="setup-4"></a>Oppsett 4
+
+* Lokasjon obligatorisk = *Nei*  
+* LFE finnes ikke  
+* Komponenter ved lokasjon = *TOM*  
+
+#### <a name="case-41-demand-is-at-east-location"></a>Eksempel 4.1: Behovet er i *ØST* lokasjon
+
+Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* ( *Ordre* forblir *Ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
+
+#### <a name="case-42-demand-is-at-blank-location"></a>Eksempel 4.2: Behovet er i *TOM* lokasjon
+
+Varen planlegges i henhold til planleggingsparameterne på varekortet.
+
 Som du ser i det siste scenariet, kan du bare få et riktig resultat for en behovslinje uten lokasjonskode ved å deaktivere alle oppsettsverdier som gjelder lokasjoner. På samme måte kan du bare få stabile planleggingsresultater for behov i lokasjoner ved å bruke lagerføringsenheter.  
 
-Hvis du ofte planlegger for behov ved lokasjoner, anbefaler vi derfor at du bruker funksjonen Lagerføringsenheter.  
+Hvis du ofte planlegger for behov ved lokasjoner, anbefaler vi derfor at du bruker funksjonen Lagerføringsenheter.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se også
 
 [Planlegging](production-planning.md)  
-[Definere produksjon](production-configure-production-processes.md)  
+[Konfigurer produksjon](production-configure-production-processes.md)  
 [Produksjon](production-manage-manufacturing.md)  
 [Lager](inventory-manage-inventory.md)  
 [Definere lagerføringsenheter](inventory-how-to-set-up-stockkeeping-units.md)  
@@ -158,6 +158,5 @@ Hvis du ofte planlegger for behov ved lokasjoner, anbefaler vi derfor at du bruk
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)  
 [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

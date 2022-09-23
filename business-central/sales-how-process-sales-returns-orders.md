@@ -10,12 +10,12 @@ ms.search.keywords: undo, credit memo, return, order
 ms.search.form: 44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646
 ms.date: 09/08/2021
 ms.author: edupont
-ms.openlocfilehash: 8ff5b5fdb9cc7d0111f985bc6bb80afc30650e6e
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 78b4c6412b24721b52a5c271c0e1c5a4c7ba8775
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522567"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529086"
 ---
 # <a name="process-sales-return-orders"></a>Behandle ordrereturer  
 
@@ -101,7 +101,7 @@ Du kan bokføre denne økte kostnaden som et varegebyr i en kreditnota eller en 
 
 Når du bokfører ordrereturen, legges et returgebyr til i det aktuelle salgsbeløpet. Dermed kan du opprettholde en nøyaktig lagerverdisetting.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

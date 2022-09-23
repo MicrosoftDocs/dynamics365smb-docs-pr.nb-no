@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 632591160ab5cfad7d33fc26bf3f9a9b4877176a
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: adfb0f44e35f0efea1f4081be3277f83e10dfd00
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950493"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532353"
 ---
 # <a name="send-documents-and-emails"></a>Send dokumenter og e-poster
 
@@ -69,11 +69,11 @@ Noen dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)] har et felt som
 
 **E-postutboksen** er stedet der du finner e-postene du har lagret som kladd, og e-postene som ikke kan sendes, for eksempel hvis e-postadressen er ugyldig. For meldinger som ikke er sendt, kan du velge **Vis feil** eller **Undersøk feil** for å feilsøke problemet.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/set-up-email/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/set-up-email/)
 
 ## <a name="see-also"></a>Se også
 
-[Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md)  
+[Administrer rapport- og dokumentoppsett](ui-manage-report-layouts.md)  
 [Konfigurere e-post](admin-how-setup-email.md)  
 [Fakturere salg](sales-how-invoice-sales.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

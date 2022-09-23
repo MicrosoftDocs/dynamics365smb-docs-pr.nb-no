@@ -10,12 +10,12 @@ ms.search.keywords: purchasing agent
 ms.search.form: 14, 5116
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 15eaf7e799f12e1e2c1c4dca5328b354c8113af7
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
+ms.openlocfilehash: e8e73553fe4c66fef08c78c0411f76fe481b34fc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144278"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534808"
 ---
 # <a name="set-up-purchasers"></a>Definere innkjøpere
 
@@ -35,7 +35,7 @@ Hvis det arbeider flere innkjøpere i selskapet, kan du definere dem på en side
 2. Åpne det aktuelle leverandørkortet for leverandøren du vil tilordne en innkjøper.
 3. I feltet **Innkjøperkode** velger du den aktuelle innkjøperkoden og lukker deretter siden.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

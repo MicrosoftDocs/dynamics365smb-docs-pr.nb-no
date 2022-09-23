@@ -5,10 +5,10 @@
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)-->
 ## Finn ut mer
 ### [Læringskatalog for Business Central](readiness/readiness-learning-catalog.md)
-### [Business Central på Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
+### [Business Central-opplæring](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Gjennomgang av forretningsprosesser
 #### [Tilgjengelige gjennomganger](walkthrough-business-process-walkthroughs.md)
-#### [Gjennomgang: kjøre en salgskampanje](walkthrough-conducting-a-sales-campaign.md)
+#### [Gjennomgang: kjør en salgskampanje](walkthrough-conducting-a-sales-campaign.md)
 #### [Gjennomgang: konfigurer og fakturer salgsforskudd](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 #### [Gjennomgang: definer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!-- #### [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md) -->

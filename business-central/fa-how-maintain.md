@@ -10,12 +10,12 @@ ms.search.keywords: repair, service
 ms.search.form: 5642, 5625
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 18be12c81ddfebd07c1311e6a0f338712f842f21
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: db722d702dbfa6499c5ae259313af8915b95d51c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078207"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534241"
 ---
 # <a name="maintain-fixed-assets"></a>Vedlikehold aktiva
 
@@ -90,7 +90,7 @@ I **Vedlikehold - detaljer**-rapporten kan du vise eller skrive ut vedlikeholdsp
 2. Fyll ut feltene etter behov.
 3. Velg knappen **Skriv ut** eller **Forhåndsvisning**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/manage-fixed-assets-maintenance-insurances/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/manage-fixed-assets-maintenance-insurances/)
 
 ## <a name="see-also"></a>Se også
 

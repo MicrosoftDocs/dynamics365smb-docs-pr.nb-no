@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 9ce2494e929613d69c22d125adffb6465d1717cd
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 3b9955ece6a5f76269915b18ecfe22c722d2e59d
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075033"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532974"
 ---
 # <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Salg av lagervarer i montere til ordre-flyter
 
@@ -51,7 +51,7 @@ I denne fremgangsmåten erstatter du montere-til-ordre-antall med lagerantall p�
 > [!CAUTION]  
 >  **Hyllekode**-feltet på ordren kan bli forhåndsutfylt i henhold til feltet **Hyllek. lev. fra m. til ordre** eller **Fra Hyllekode for montering** på lokasjonskortet. I dette tilfellet er kanskje **Hyllekode**-feltet på ordrelinjen feil i denne kombinasjonen av montere-til-ordre- og montere-til-lager-antall. Det er en god idé å se i **Hyllekode**-feltet og sikre at plasseringen fungerer for alle antall. Du kan også angi to forskjellige antall på separate ordrelinjer.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

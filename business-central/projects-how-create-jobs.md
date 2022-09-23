@@ -8,12 +8,12 @@ ms.search.keywords: project management, task
 ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
 ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 8d70c11aa3d467ada4f7aae3a1cf3efa1603bbe4
-ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
+ms.openlocfilehash: 180a6cfc4ce6efb11df8faccd5909f527f6393e3
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9227476"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528951"
 ---
 # <a name="create-jobs"></a>Opprette prosjekter
 
@@ -85,12 +85,12 @@ En prosjektplanleggingslinje kan være én av følgende typer.
 4. På siden **Prosjektplanleggingslinjer** på en ny linje fyller du ut feltene etter behov.
 5. Gjenta trinn 3 og 4 for alle planleggingslinjene du trenger for prosjektoppgaven.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/create-new-job/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/create-new-job/)
 
 ## <a name="see-also"></a>Se også
 
 [Prosjektstyring](projects-manage-projects.md)  
-[Video: Opprette et prosjekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
+[Video: Opprett et prosjekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Finans](finance.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  

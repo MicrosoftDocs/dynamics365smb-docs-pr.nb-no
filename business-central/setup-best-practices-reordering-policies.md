@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b71ea56c67df7689a268e633880d16fac616027b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: f12a5156cbad785ccede27bbe176b7e3ccd74d9c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077531"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531057"
 ---
 # <a name="setup-best-practices-reordering-policies"></a>Anbefalte fremgangsmåter for oppsett: Gjenbestillingsprinsipper
 
@@ -41,7 +41,7 @@ Tabellen nedenfor inneholder anbefalte fremgangsmåter for å velge mellom de fi
 |**Fast gjenbest.ant.**|Bruk dette for C-varer.<br /><br /> Kombiner med parametere for gjenbestillingspunkt.<br /><br /> I produksjon bruker du dette for komponenter på laveste nivå.<br /><br /> Ikke bruk hvis varen ofte er reservert.|C-varer, for eksempel tekopper, er varer med lav verdi med høy og vanlig ordrehastighet. Det beste gjenbestillingsprinsippet for C-varer er derfor ett som garanterer kontinuerlig tilgjengelighet ved alltid å være over et gjenbestillingspunkt.<br /><br /> Hvis brukeren reserverer et antall for et behov i fjern fremtid, forstyrres planleggingsgrunnlaget. Selv om prosjekterte lagernivået er akseptabelt når det gjelder gjenbestillingspunktet, er antallene kanskje ikke tilgjengelige på grunn av reservasjonen.|  
 |**Maks.ant.**|Bruk dette for C-varer med høy lagerføringskost eller lagringsbegrensninger.<br /><br /> Kombiner med én eller flere ordremodifikatorer (minimum/maksimum ordreantall eller bestillingsfaktor).|C-varer, for eksempel tekopper, er varer med lav verdi med høy og vanlig ordrehastighet. Det beste gjenbestillingsprinsippet for C-varer er derfor ett som garanterer kontinuerlig tilgjengelighet ved alltid å være over et gjenbestillingspunkt, men under en maksimumsbeholdning.<br /><br /> Hvis du vil endre den foreslåtte ordren, vil du kanskje at ordreantallet skal reduseres til et angitt maksimumsordreantall, økes til et angitt minimumsordreantall eller rundes av oppover for å dekke en angitt bestillingsfaktor. **Obs!** Hvis dette brukes med et gjenbestillingspunkt, holdes beholdningen mellom gjenbestillingspunktet og maksimumsantallet.|  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/replenish-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/replenish-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

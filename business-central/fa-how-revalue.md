@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 5628, 5629, 5633
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b9598c8249e209583ffff73868013ad7e26f1b3
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ba537dd27fedfb204483d81815380d0910676c20
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078159"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532218"
 ---
 # <a name="revalue-fixed-assets"></a>Revaluere aktiva
 
@@ -120,12 +120,12 @@ Hvis du ikke merket av for **Avskr. frem til aktivabokf.dato**, går aktivaet gl
 
 *Samlet avskrivning = 100 + 15 + 55,54 = 170,54*
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/manage-advanced-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/manage-advanced-fixed-assets-transactions/)
 
 ## <a name="see-also"></a>Se også
 
 [Aktiva](fa-manage.md)  
-[Definere aktiva](fa-setup.md)  
+[Definer aktiva](fa-setup.md)  
 [Finans](finance.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

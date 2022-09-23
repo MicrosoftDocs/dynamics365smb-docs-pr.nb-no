@@ -7,12 +7,12 @@ metadata:
   ms.search.keywords: FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend
   ms.date: 09/07/2022
   ms.author: edupont
-  ms.openlocfilehash: 13f6de4c6f01fbe7a525d7b1f18d3f83f12cb6c3
-  ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+  ms.openlocfilehash: 186731bff985900492a7353556f97862984b60cc
+  ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
   ms.translationtype: HT
   ms.contentlocale: nb-NO
-  ms.lasthandoff: 09/09/2022
-  ms.locfileid: "9460998"
+  ms.lasthandoff: 09/19/2022
+  ms.locfileid: "9535348"
 title: Vanlige spørsmål om å bruke Business Central
 summary: "Dette avsnittet inneholder svar på vanlige spørsmål om å registrere seg for en prøveversjon, kjøpe et abonnement og bruke [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan også lære hvordan du får teknisk støtte.  \n"
 sections:
@@ -36,7 +36,7 @@ sections:
       Ja. [!INCLUDE [prod_short](includes/prod_short.md)] er optimalisert for distribusjon på Internett, og enkelte funksjoner kan kjøres lokalt i visse tilfeller, mens andre ikke støttes i det hele tatt. Finn ut mer under [Funksjoner ikke implementert i lokale distribusjoner av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/features-not-implemented-on-premises) (bare tilgjengelig på engelsk).
   - question: >
       Kan jeg få opplæring i Business Central?
-    answer: "Ja, det kan du! Du kan finne gratis e-læringsinnhold på [Microsoft Learn-området.](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs) Du kan også be videresalgspartneren om mer opplæring. Hvis du ikke vet hvem det er, kan du se delen [Hvordan finner jeg en partner for videresalg?](#how-do-i-find-a-reselling-partner).  \n\nHvis du vil ha mer informasjon om opplæring på tvers av Dynamics 365 fra Microsoft, kan du se siden [Opplæring for Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  \n\nMer innhold leveres av [!INCLUDE[prod_short](includes/prod_short.md)] fellesskapet, for eksempel [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics), som er skrevet av en partner.  \n"
+    answer: "Ja, det kan du! Du kan finne gratis e-læringsinnhold på [Microsoft-opplæringsområdet](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). Du kan også be videresalgspartneren om mer opplæring. Hvis du ikke vet hvem det er, kan du se delen [Hvordan finner jeg en partner for videresalg?](#how-do-i-find-a-reselling-partner).  \n\nHvis du vil ha mer informasjon om opplæring på tvers av Dynamics 365 fra Microsoft, kan du se siden [Opplæring for Microsoft Dynamics 365](/dynamics365/get-started/training/index#dynamics-365-customers).  \n\nMer innhold leveres av [!INCLUDE[prod_short](includes/prod_short.md)] fellesskapet, for eksempel [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics), som er skrevet av en partner.  \n"
   - question: Hvordan får jeg teknisk støtte for Business Central?
     answer: "[!INCLUDE[prod_short](includes/prod_short.md)] selges gjennom partnere, og du må kontakte videresalgspartneren hvis du trenger hjelp med tekniske problemer. Hvis din [!INCLUDE[prod_short](includes/prod_short.md)]-partner ikke kan løse problemet, vil de opprette en henvendelse om støtte hos Microsoft.  \n\nFinn ut mer under [Hjelp og støtte](product-help-and-support.md) og [Hvordan finner jeg en partner for videresalg?](#how-do-i-find-a-reselling-partner).  \n"
   - question: >
@@ -50,7 +50,7 @@ sections:
     answer: "Hvis opplevelsesinnstillingen på siden **Selskapsopplysninger** er angitt til **Essential**, er grensesnittelementer for funksjonene Produksjon og Servicehåndtering ikke synlige for deg fordi de krever **Premium**-opplevelsen. En tekstmerknad er satt inn i hjelpeemner på høyt nivå for disse funksjonsområdene. Finn ut mer under [Endre hvilke funksjoner som vises](ui-experiences.md).  \n"
   - question: >
       Hvorfor er ny informasjon ikke tilgjengelig på språket mitt?
-    answer: "På nettstedet docs.microsoft.com publiseres innhold om forretningsfunksjoner på flere språk. Innholdet er skrevet på engelsk og publisert til nettadresser med *en-us* som språkkode. Når ny informasjon publiseres på engelsk, sendes den deretter til oversettelse til språkene som støttes. Dette betyr at du ikke kan lese det nye innholdet på ditt eget språk i opptil fire uker.  \n\nVi forstår problemene dette kan forårsake, og vi oppfordrer brukerne til å søke på engelsk etter det de leter etter, hvis de ikke finner det på sitt eget språk.  \n"
+    answer: "Microsoft Learn-innhold om forretningsfunksjoner publiseres på flere språk. Innholdet er skrevet på engelsk og publisert til nettadresser med *en-us* som språkkode. Når ny informasjon publiseres på engelsk, sendes den deretter til oversettelse til språkene som støttes. Dette betyr at du ikke kan lese det nye innholdet på ditt eget språk i opptil fire uker.  \n\nVi forstår problemene dette kan forårsake, og vi oppfordrer brukerne til å søke på engelsk etter det de leter etter, hvis de ikke finner det på sitt eget språk.  \n"
   - question: Hvilken e-postadresse kan jeg bruke med Business Central Online?
     answer: "[!INCLUDE[prod_short](includes/prod_short.md)] online krever at du bruker en e-postadresse for arbeid eller skole for å registrere deg. [!INCLUDE[prod_short](includes/prod_short.md)] online støtter ikke e-postadressene levert av e-posttjenester for forbrukere eller telekommunikasjonsleverandører. Dette inkluderer outlook.com, hotmail.com, gmail.com og andre.  \n\nHvis du prøver å registrere deg med en personlig e-postadresse, får du en melding om å bruke en e-postadresse for arbeid eller skole. Finn ut mer under [Feilsøke registrering for Self-Service](ui-troubleshoot-self-signup.md).  \n\nHvis du vil distribuere [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan du bruke andre godkjenningsmetoder. Finn ut mer under [Distribusjon av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/deployment).  \n"
   - question: >

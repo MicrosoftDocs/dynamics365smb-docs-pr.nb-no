@@ -10,12 +10,12 @@ ms.reviewer: edupont
 ms.search.form: 130, 142, 1350
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 47c390cfbd9827d539fa99046c1ad82ba739bac3
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 91744dd58d68c6b732c9abe794f33b0c9a11211a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655578"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535683"
 ---
 # <a name="posting-sales"></a>Bokføre salg
 
@@ -53,12 +53,12 @@ I de fleste tilfeller kan du åpne poster fra det berørte kortet eller dokument
 
 Du kan redigere bestemte felt på bokførte kjøpsdokumenter, for eksempel **Pakkesporingsnr.** -feltet. Hvis du vil ha mer informasjon, kan du se [Redigere bokførte dokumenter](across-edit-posted-document.md). Hvis du vil ha mer kritiske felt som påvirker revisjonssporingen, må du tilbakeføre eller angre bokføringen. Hvis du vil ha mer informasjon, kan du se [Tilbakeføre kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
-[Bokføre flere dokumenter samtidig](ui-batch-posting.md)  
+[Bokfør flere dokumenter samtidig](ui-batch-posting.md)  
 [Redigere bokførte dokumenter](across-edit-posted-document.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  
 [Korrigere eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md)  

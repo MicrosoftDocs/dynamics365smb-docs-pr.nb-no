@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7351
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: eafddef05562e5b63c291f8ea9ca130b878dcd68
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 1c1f86cae4ad411efe21453d58761b436bb7470d
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075190"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532515"
 ---
 # <a name="move-items-in-advanced-warehouse-configurations"></a>Flytte varer i avanserte lageroppsett
 
@@ -50,7 +50,7 @@ Hvis lokasjonen bruker lagerstyring og du trenger å flytte varer til andre hyll
 2.  Fyll ut feltene **Varenr.**, **Fra sone-kode**, **Fra hylle-kode**, **Til sone-kode**, **Til hylle-kode**.  
 3.  Velg handlingen **Registrer**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also"></a>Se også
 

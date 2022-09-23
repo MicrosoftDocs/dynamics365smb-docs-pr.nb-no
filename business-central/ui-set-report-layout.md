@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 03/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 9cc827630c5acfeba2efc860d8baf67cd31bb404
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: e59a57e6cac21f4909088defc42da795e5550562
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525090"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535857"
 ---
 # <a name="setting-the-layout-used-by-a-report"></a>Definer oppsettet som brukes av en rapport
 
@@ -62,7 +62,7 @@ Det finnes to måter å angi hvilket oppsett en rapport bruker. En måte er fra 
 
 Rapporter er utformet for å bruke et oppsett som standard. Du kan gå tilbake til det opprinnelige standardoppsettet fra side for **Valg av rapportoppsett**. Bare merk rapporten, og velg deretter **Gjenopprett standardvalg**-handling øverst på siden.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

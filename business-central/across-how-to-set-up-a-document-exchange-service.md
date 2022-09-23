@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 4a502dc56f45673c0a052b0081518ae0ec888a14
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 611f3ac405c66996ed5ec1e1f275ccb5eaccd3d5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076022"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530733"
 ---
 # <a name="set-up-a-document-exchange-service"></a>Konfigurere en dokumentutvekslingstjeneste
 
@@ -67,7 +67,7 @@ Du må opprette en app i Tradeshift App Store for å kunne koble til Business Ce
 
 Hvis du foretrekker å lagre app-ID-en og -hemmeligheten på en annen plassering, kan du la feltene klient-ID og klienthemmelighet stå tomme og skrive en utvidelse for å hente ID-en og hemmeligheten fra plasseringen. Du kan gi hemmeligheten under kjøring ved å abonnere på hendelsene OnGetClientId og OnGetClientSecret i codeunit 1410, Administrasjon av dokumentutvekslingstjeneste.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/electronic-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

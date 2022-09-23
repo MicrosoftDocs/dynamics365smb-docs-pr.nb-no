@@ -10,16 +10,16 @@ ms.search.keywords: accounting, auditing, bookkeeping
 ms.search.form: 257, 259, 279
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 08545d1bb23b8a70d10c6114f4840ce186aa94cc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ab140d214c25735bf8158a2255f8f35ba246442c
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8515566"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535159"
 ---
 # <a name="setting-up-source-codes-and-reason-codes-for-audit-trails"></a>Definere kildespor og årsaksspor for revisjonsspor
 
-Alle bokførte poster tilordnes automatisk til et kildespor, slik at transaksjoner kan spores til utgangspunktet. Hvis du vil gi poster et ekstra kildespor, kan du bruke årsaksspor. Årsaksspor brukes til å vise hvorfor en post ble opprettet. Når du definerer årsaksspor, kan du tilordne dem til hele kladdemaler og kladder, og du kan også tilordne dem til individuelle kladdelinjer og dokumenter.  
+Alle bokførte poster tilordnes automatisk til et kildespor, slik at transaksjoner kan spores til utgangspunktet. Hvis du vil gi poster et ekstra kildespor, kan du bruke årsaksspor. Årsakssporene brukes til å vise hvorfor en post ble opprettet. Når du definerer årsaksspor, kan du tilordne dem til hele kladdemaler og kladder, og du kan også tilordne dem til individuelle kladdelinjer og dokumenter.  
 
 For både kildespor og årsaksspor bruker du spor som er lette å huske, og som er beskrivende. Sporet må være unikt, og du kan definere så mange spor du vil.
 
@@ -85,7 +85,7 @@ Følgende fremgangsmåte viser hvordan du legger til et årsaksspor i en kladdem
 
 Når fakturaen er bokført, overføres årsakssporet til hver finans-, kunde- og leverandørpost. Du kan ikke tilordne forskjellige årsaksspor til hver enkelt kjøps- og salgslinje, fordi alle linjene bokføres som én post.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

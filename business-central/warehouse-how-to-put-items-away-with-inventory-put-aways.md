@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 4d90980030453dd2b152d2b85901a9db12cadf2f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ce664efeb299072e73c2b25ea87ed28596164015
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078313"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528494"
 ---
 # <a name="put-items-away-with-inventory-put-aways"></a>Plassere varer med lagerplasseringer
 
@@ -77,7 +77,7 @@ Nå som forespørselen er opprettet, kan den lageransatte opprette en ny lagerpl
 
 Bokføringsprosessen bokfører mottaket, eller avgang for produksjonsordrer, av kildedokumentlinjene som er plassert. Hvis lokasjonen bruker hyller, oppretter bokføringen også lagerposter for bokføring av hylleantallendringer.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also"></a>Se også
 

@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: fa615d3e0753b7f1aa9cd602168a393849765079
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: 0c5a8d8e9cbb556b25a3b1c5ee6069ac07c7cc9f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950228"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534781"
 ---
 # <a name="report-and-document-layouts-overview"></a>Oversikt over rapport- og dokumentoppsett
 
@@ -126,11 +126,11 @@ For information about how to switch the layout currently used on a report, see [
 
 
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 
-[Oppdatere egendefinerte rapportoppsett](ui-update-report-layouts.md)  
+[Oppdater egendefinerte rapportoppsett](ui-update-report-layouts.md)  
 [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)  
 [Importere og eksportere en egendefinert rapport eller et egendefinert dokumentoppsett](ui-how-import-and-export-report-layout.md)  
 [Definere spesielle dokumentoppsett for kunder og leverandører](ui-define-customer-vendor-document-layouts.md)  

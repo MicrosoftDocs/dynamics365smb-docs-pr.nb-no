@@ -10,12 +10,12 @@ ms.search.keywords: write down
 ms.search.form: 5629, 5633
 ms.date: 07/05/2021
 ms.author: edupont
-ms.openlocfilehash: ec81b14510d89729f7c51f95a3907db38e3876ea
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: f4f748e15a3bc3b911488cff74a7e51be4a75142
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075944"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535078"
 ---
 # <a name="depreciation-methods-for-fixed-assets"></a>Avskrivningsmetoder for aktiva
 
@@ -300,7 +300,7 @@ Når du angir en post i T1 i aktivafinanskladden og setter en hake i feltet **Br
 > [!NOTE]  
 > Du kan ikke bruke den samme nummerserien i aktivafinanskladden og aktivakladden. Når du bokfører poster i aktivafinanskladden, må du la feltet **Bilagsnr.** stå tomt. Hvis du angir et tall i feltet, blir nummeret duplisert i anleggsmiddeljournalen. Du må endre bilagsnummeret manuelt før du kan bokføre kladden.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-depreciation-books/)
 
 ## <a name="see-also"></a>Se også
 

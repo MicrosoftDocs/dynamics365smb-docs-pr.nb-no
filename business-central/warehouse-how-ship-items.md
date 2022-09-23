@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
 ms.date: 09/02/2022
 ms.author: edupont
-ms.openlocfilehash: e31dc7a25ea4bb81019163b057b2f1e4e4a1c1d9
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: b66a0a0a4cad12c4f41c53569b0007c51e846de7
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461160"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531219"
 ---
 # <a name="ship-items"></a>Levere varer
 
@@ -106,7 +106,7 @@ Du kan også bruke plukkforslaget til å gjøre flere plukkinstruksjoner om til 
 > [!NOTE]
 > Hvis du venter på at en bestemt vare skal ankomme lageret og du bruker kryssoverføringsfunksjonalitet, så beregner [!INCLUDE[prod_short](includes/prod_short.md)] antallet for varen som er i kryssoverføringshyllen på hver følgeseddel- eller plukkforslagslinje. Dette feltet oppdateres hver gang du går ut av eller åpner følgeseddelen eller forslaget. Finn ut mer under [Kryssoverføringsvarer](warehouse-how-to-cross-dock-items.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/ship-invoice-items-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/ship-invoice-items-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se også
 

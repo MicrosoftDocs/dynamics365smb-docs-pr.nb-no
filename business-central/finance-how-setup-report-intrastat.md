@@ -10,12 +10,12 @@ ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
 ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
 ms.date: 05/23/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2ea3d93e1dac041848dc650fc8137e824e0fd4c2
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 01b48fad86c805da2120477fc9f6d5f0f5bcdb94
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799748"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533890"
 ---
 # <a name="set-up-and-report-intrastat"></a>Konfigurere og rapportere Intrastat
 
@@ -173,7 +173,7 @@ I mange land lager toll- og skattemyndighetene 8-sifrede varekoder for ulike var
 
 På siden **Tariffnummer** kan du legge til alle kodene du bruker. Du må skrive inn kodene på varekortet før du begynner å bokføre. Når du har definert kodene, setter du dem inn i **Tariffnr.** -feltet på varekortet. Du må også fylle ut feltet **Nettovekt** på varekortet.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/process-intrastat-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

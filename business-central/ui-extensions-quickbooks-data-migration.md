@@ -10,12 +10,12 @@ ms.search.keywords: app, add-in, manifest, customize, import, implement
 ms.search.form: 1911, 1912, 1913, 1914, 1915, 1916, 1918, 1919
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 99a7e12543751fef0297051a64f19c2fb5700022
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 620218c86be81578b7f40ab74434d4004d5f2db2
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361640"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530868"
 ---
 # <a name="the-quickbooks-data-migration-extension"></a>Utvidelsen QuickBooks Datamigrering
 
@@ -66,11 +66,11 @@ Det finnes et par spesifikke ting du bør gjøre: Hvis transaksjonene i QuickBoo
 Hvis du bruker merverdiavgift (mva), må du kanskje legge til en bokføringsgruppe for firma og en varebokføringsgruppe i bokføringsoppsettet, slik at du kan bokføre mva-beløp.
 Kontroller startsaldoene for konti i Finans. QuickBooks lagrer ikke gjeldende saldo for alle konti, så du må kanskje rette startsaldoer.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 
 [Importer forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
-[Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
+[Tilpass [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

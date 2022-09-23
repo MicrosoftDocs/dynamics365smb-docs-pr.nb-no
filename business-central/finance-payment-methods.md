@@ -10,12 +10,12 @@ ms.search.keywords: check, bank transfer, cash, PayPal
 ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5cf88736711667a18a43e75bc70533de5c924ad2
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ef92b2ade7c18a57438a6a87a939070cb42a9fb1
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076594"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530625"
 ---
 # <a name="set-up-payment-methods"></a>Definer betalingsmåter
 
@@ -43,7 +43,7 @@ Du kan eventuelt legge til betalingsbetingelser til betalingsmåten. Hvis du vil
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kunde** eller **Leverandør** og velg den relaterte koblingen.
 2. I **Betalingsmåte - kode**-feltet velger du metoden som skal brukes som standard for kunden eller leverandøren.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

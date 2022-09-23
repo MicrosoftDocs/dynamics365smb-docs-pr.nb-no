@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 9a5ec7fb14adc453eb29c49474109b17d35d177b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: f04f49c301b38236be1dda3334e8560584a4e6b4
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076906"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528897"
 ---
 # <a name="make-drop-shipments"></a>Foreta direkte leveringer
 
@@ -78,12 +78,12 @@ Når leverandøren har levert varene, kan du bokføre ordren som levert. Du kan 
 4. Velg handlingen **Bokfør** eller **Bokfør og send**.
 5. Velg **Levere** hvis du vil fakturere senere, eller **Levere og fakturere** hvis du vil fakturere med en gang.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 
 [Opprette spesialbestillinger](sales-how-to-create-special-orders.md)  
-[Kjøpe varer for salg](purchasing-how-purchase-products-sale.md)  
+[Kjøp varer for salg](purchasing-how-purchase-products-sale.md)  
 [Selge produkter](sales-how-sell-products.md)  
 [Registrere kjøp](purchasing-how-record-purchases.md)  
 [Salg](sales-manage-sales.md)  

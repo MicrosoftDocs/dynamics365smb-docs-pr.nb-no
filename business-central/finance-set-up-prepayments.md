@@ -7,12 +7,12 @@ ms.search.keyword: prepayment
 ms.search.form: 314, 459, 460, 664
 ms.date: 10/27/2021
 ms.author: edupont
-ms.openlocfilehash: cf7f84b8ba0c7622f08856b677e3559cc669e7ed
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 72e5be73b78e702bfa006a79b6c3a46c8b11ed96
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078677"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531165"
 ---
 # <a name="set-up-prepayments"></a>Definerer forskudd
 
@@ -106,7 +106,7 @@ Du kan spare tid ved å opprette en jobbkøpost som automatisk frigir ordrer som
 3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Jobbkøposter**, og velg deretter den relaterte koblingen.
 4. Konfigurer jobbkøposten **Oppdater ventende forskuddssalg**, for eksempel ved å bruke innstillingene i hurtigfanen **Regelmessighet** til å planlegge hvor ofte den skal kjøres. Hvis du vil ha mer informasjon, kan du se [Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også  
 

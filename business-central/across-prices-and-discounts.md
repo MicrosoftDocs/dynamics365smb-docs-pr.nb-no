@@ -10,12 +10,12 @@ ms.search.keywords: price, pricing, discount, discounting, rebate, sale, purchas
 ms.search.form: 459, 460, 7001, 7011, 7015, 7016, 7017, 7018
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5f0a26e9a6784f1d0ae2b7c8881667a51560cbf6
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 5afe559e9f3e741db5c75b5cf3026caf50a1ce97
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077687"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530706"
 ---
 # <a name="set-up-prices-and-discounts"></a>Konfigurer priser og rabatter
 
@@ -119,7 +119,7 @@ Du knytter rabattprosentene til bestemte fakturabeløp på siden **Fakturarabatt
 I tillegg til (eller i stedet for) en rabattprosent, kan du knytte et gebyrbeløp til et bestemt fakturabeløp.  
 
 > [!TIP]  
-> Før du begynner å angi denne informasjonen, er det lurt å forberede rabattstrukturen på forhånd, slik at det er enklere å se hvilke kunder som skal knyttes til den samme fakturarabattsiden. Hvis du vil ha mer informasjon om rabatter i salg, kan du se [Definere rabatter for kundene](/learn/modules/customer-discounts-dynamics-365-business-central/index) på Microsoft Learn.  
+> Før du begynner å angi denne informasjonen, er det lurt å forberede rabattstrukturen på forhånd, slik at det er enklere å se hvilke kunder som skal knyttes til den samme fakturarabattsiden. Hvis du vil ha mer informasjon om rabatter i salg, kan du se [Definere rabatter for kundene](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
 ### <a name="to-set-up-an-invoice-discount-for-a-customer"></a>Definere en fakturarabatt for en kunde
 
@@ -205,7 +205,7 @@ Hvis du vil oppdatere priser for flere varer, må du opprette en ny prisliste og
 
 Når du har registrert spesielle priser og linjerabatter for salg og innkjøp, sikrer [!INCLUDE[d365fin](includes/d365fin_md.md)] at din fortjeneste på varehandel alltid er optimal ved automatisk å beregne den beste prisen på salgs- og kjøpsdokumenter og på prosjekt- og varekladdlinjer. Du finner mer informasjon under [Beregning av beste pris](sales-how-record-sales-price-discount-payment-agreements.md#best-price-calculation).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/customer-discounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/customer-discounts-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

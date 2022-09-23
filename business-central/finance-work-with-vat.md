@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: ea32a78ec191d335fb772a7040ed81db6753b196
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
+ms.openlocfilehash: b8c09f49b741f7979f79f5e3305ef11258ffaaea
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417522"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530922"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeide med mva på kjøp og salg
 Hvis landet eller området krever at du beregner og rapporterer merverdiavgift (mva.) i salgs- og kjøpstransaksjoner, kan du definere [!INCLUDE[prod_short](includes/prod_short.md)] for å beregne mva. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md).
@@ -193,7 +193,7 @@ Hvis du vil vise en gruppe av bekreftelser, kan du starte fra **Leveringsbekreft
 > * Opprette en leveringsbekreftelse manuelt  
 > * Slik skriver du ut en leveringsbekreftelse.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

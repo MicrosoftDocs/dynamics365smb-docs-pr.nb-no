@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: 887a8f94db8f289769c2fba7a1938d7b7960e400
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c1912cf6c6e755949e8aa32b749145efc8b70783
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079197"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534673"
 ---
 # <a name="set-up-fixed-asset-depreciation"></a>Definere avskrivning for aktiva
 
@@ -95,7 +95,7 @@ Når kjørselen Beregn avskrivninger beregner avskrivninger, brukes vanligvis et
 
 Hvis du velger dette feltet, bruker kjørselen Beregn avskrivninger i stedet kalenderåret på 365 dager, der hver måned beregnes med samme antall dager som i kalenderen. Det eneste unntaket er februar i skuddår, som kjørselen behandler som om den har 28 dager, ikke 29. Derfor anses alle år, inkludert skuddår, for å ha 365 dager.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-depreciation-books/)
 
 ## <a name="see-also"></a>Se også
 

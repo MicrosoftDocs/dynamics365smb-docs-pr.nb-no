@@ -10,12 +10,12 @@ ms.search.keywords: warehouse, distribution center
 ms.search.forms: 5703, 15
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 9ed3bc15f8f8b94e842d8c01415b04018e4fc6ec
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 0888a0a47f3a5ae58dcf7712218f801cde1711c5
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129680"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528307"
 ---
 # <a name="set-up-locations"></a>Definer lokasjoner
 
@@ -48,7 +48,7 @@ Velg handlingene **Soner** eller **Hyller** for å vise informasjon om soner og 
 
 Du kan endre konfigurasjonen for en lokasjon senere, men du kan ikke redigere oppsettet av lokasjoner som har vareposter.  
 
-Hvis du har flere lokasjoner, kan du definere overføringsruter mellom lokasjonene. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du overføringsruter](inventory-how-setup-locations.md#to-create-a-transfer-route). 
+Hvis du har flere lokasjoner, kan du definere overføringsruter mellom lokasjonene. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du overføringsruter](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
 ### <a name="to-create-a-transfer-route"></a>Slik oppretter du overføringsruter
 
@@ -79,7 +79,7 @@ Du kan også velge å definere bare en sone og organisere lageret bare ut fra hy
 ## <a name="default-dimensions-for-locations"></a>Standarddimensjoner for lokasjoner
 Du angir standarddimensjoner for en lokasjon på siden **Lokasjonskort** ved å velge **Dimensjoner**. Etterpå tildeles lokasjonens standarddimensjoner til dokumenter når du velger lokasjon på en linje. Du kan slette eller endre dimensjonene på linjen etter behov. I feltet **Verdipostering** kan du kreve at brukerne angir dimensjoner for bestemte lokasjoner før de kan bokføre en post. Hvis du vil at brukerne bare skal kunne velge bestemte dimensjonsverdier, kan du angi dem i feltet **Tillatt verdifilter**. Du kan også inkludere lokasjonsdimensjonsverdier på siden **Standard dimensjonsprioriteter** og for kombinasjoner av prioritets- og dimensjonsregler på siden **Dimensjonskombinasjoner**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/trade-set-up-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 
@@ -91,6 +91,5 @@ Du angir standarddimensjoner for en lokasjon på siden **Lokasjonskort** ved å 
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

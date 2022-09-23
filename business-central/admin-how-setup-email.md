@@ -10,12 +10,12 @@ ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
 ms.date: 02/06/2022
 ms.author: bholtorf
-ms.openlocfilehash: df98aeba310bdc1e111834277b28c4c8edc9085b
-ms.sourcegitcommit: 0513051fd4a3b804188e7404569e802ec327cf84
+ms.openlocfilehash: 22bd7fcf0eff9b3f7c41975a32127d9d482c42cc
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/22/2022
-ms.locfileid: "9041429"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534295"
 ---
 # <a name="set-up-email"></a>Konfigurer e-post
 Personer i bedrifter sender informasjon og dokumenter, for eksempel ordrer og bestillinger og fakturaer, per e-post hver dag. Administratoren kan koble en eller flere e-postkontoer til [!INCLUDE[prod_short](includes/prod_short.md)], slik at du kan sende dokumenter uten å måtte åpne en e-postapp. Du kan lage hver enkelt melding individuelt med grunnleggende formateringsverktøy, for eksempel skrifter, stiler, farger og så videre, og legge til vedlegg på opptil 100 MB. Med rapportoppsett kan administratorer ta med bare nøkkelinformasjonen fra dokumenter. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md).
@@ -229,7 +229,7 @@ Når du har registrert appen i Azure Portal, bruker du assistert oppsettveiledni
 
 -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/set-up-email/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/set-up-email/)
 
 ## <a name="see-also"></a>Se også
 

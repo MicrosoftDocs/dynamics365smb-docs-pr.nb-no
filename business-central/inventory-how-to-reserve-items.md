@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.forms: 498, 497
 ms.date: 08/11/2022
 ms.author: edupont
-ms.openlocfilehash: d727242c772d1eba2959747c2fcd151a7a330009
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: e68a85cfb15841f45b048cabaad2e279de19b73b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361667"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534889"
 ---
 # <a name="reserve-items"></a>Reservere varer
 
@@ -107,7 +107,7 @@ Følgende fremgangsmåte er basert på en ordre.
 7. Velg **OK**-knappen for å åpne siden **Reservasjon**, som bare viser det angitte varesporingsnummeret. Hvis det finnes ikke-spesifikke reservasjoner for noen av varesporingsnumrene du har angitt for denne linjen, får du beskjed om antallet som allerede er reservert.  
 8. Velg **Auto-reserver** eller **Reserver fra gjeldende linje** for å opprette reservasjonen for de spesifikke varesporingsnumrene.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/manage-outbound-serial-lot-numbers/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/manage-outbound-serial-lot-numbers/)
 
 ## <a name="see-also"></a>Se også
 

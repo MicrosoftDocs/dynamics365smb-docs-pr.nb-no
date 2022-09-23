@@ -9,12 +9,12 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Entity set not found, work
 ms.date: 05/12/2022
 ms.author: edupont
 author: jswymer
-ms.openlocfilehash: f1128a9fb4e9643286e4305695e1d40719d86301
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 056fe537df2fba23e02cb4e70675937cde724fbf
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079327"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533028"
 ---
 # <a name="use-prod_short-in-power-automate-flows"></a>Bruk [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate-flyter
 
@@ -51,7 +51,7 @@ Du kan opprette flyter på nettstedet [powerautomate.microsoft.com](https://powe
 
 Du kan få en oversikt over alle arbeidsflytene du har tilgang til, ved å velge handlingen **Administrer arbeidsflyter** på **Power Automate**-menyen. Listen åpnes i en ny nettleserfane, og du er logget på Power Automate automatisk. Der kan du se når hver flyt ble kjørt sist.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/use-power-automate/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/use-power-automate/)
 
 ## <a name="see-also"></a>Se også
 

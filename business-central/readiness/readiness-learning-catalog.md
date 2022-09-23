@@ -5,12 +5,12 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: f7b0434be1ec49259b400403c0f8dcd7fddfcc47
-ms.sourcegitcommit: 766e2840fd16efb901d211d7fa64d96766ac99d9
+ms.openlocfilehash: 511c7c616e94458cc2eb8489831d528968400903
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2021
-ms.locfileid: "5772457"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530193"
 ---
 # <a name="business-central-learning-catalog"></a>Læringskatalog for Business Central
 
@@ -24,9 +24,9 @@ Finn riktig elektronisk opplæring, i personlige arbeidsgrupper og arrangementer
 
     Avgjør du om du skal investere i ny teknologi? 
 
-    [Lær forretningsverdien av Business Central (gratis, elektronisk læringsforløp i eget tempo)](/learn/modules/dynamics-365-business-central/)
+    [Lær forretningsverdien av Business Central (gratis, elektronisk læringsforløp i eget tempo)](/training/modules/dynamics-365-business-central/)
 
-    [Kom i gang (gratis, elektronisk læringsforløp i eget tempo)](/learn/paths/get-started-dynamics-365-business-central/)
+    [Kom i gang (gratis, elektronisk læringsforløp i eget tempo)](/training/paths/get-started-dynamics-365-business-central/)
 
     [Utforske Dynamics 365 Business Central-funksjoner](https://dynamics.microsoft.com/business-central/capabilities/)
 
@@ -40,9 +40,9 @@ Finn riktig elektronisk opplæring, i personlige arbeidsgrupper og arrangementer
 
     Fikk du nettopp en ny app å bruke? 
 
-    [Kom i gang (gratis, elektronisk læringsforløp i eget tempo)](/learn/paths/get-started-dynamics-365-business-central/)
+    [Kom i gang (gratis, elektronisk læringsforløp i eget tempo)](/training/paths/get-started-dynamics-365-business-central/)
 
-    [Business Central-læringsforløp (gratis, elektronisk læringsforløp i eget tempo)](/learn/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
+    [Business Central-læringsforløp (gratis, elektronisk læringsforløp i eget tempo)](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
 
     [Business Central-videoer på YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 
@@ -58,7 +58,7 @@ Finn riktig elektronisk opplæring, i personlige arbeidsgrupper og arrangementer
 
     Må du skrive kode for å integrere med andre datakilder, utvide kjernesystemfunksjonalitet eller bygge opp en komplisert applikasjon?
 
-    [Business Central-læringsforløp (gratis, elektronisk læringsforløp i eget tempo)](/learn/browse/?products=dynamics-business-central&roles=developer&resource_type=learning%20path)
+    [Business Central-læringsforløp (gratis, elektronisk læringsforløp i eget tempo)](/training/browse/?products=dynamics-business-central&roles=developer&resource_type=learning%20path)
 
     [Utvikler-dokumentasjon](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)
 
@@ -70,7 +70,7 @@ Finn riktig elektronisk opplæring, i personlige arbeidsgrupper og arrangementer
     
     Er du en implementeringsekspert for et forretningsdomene? 
 
-    [Business Central-læringsforløp (gratis, elektronisk læringsforløp i eget tempo)](/learn/browse/?products=dynamics-business-central&roles=functional-consultant&resource_type=learning%20path)
+    [Business Central-læringsforløp (gratis, elektronisk læringsforløp i eget tempo)](/training/browse/?products=dynamics-business-central&roles=functional-consultant&resource_type=learning%20path)
 
     [Business Central-videoer på YouTube](https://go.microsoft.com/fwlink/?linkid=851533)
 

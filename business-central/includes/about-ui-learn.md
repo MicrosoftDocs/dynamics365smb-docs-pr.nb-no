@@ -3,12 +3,12 @@ author: edupont04
 ms.topic: include
 ms.date: 04/28/2022
 ms.author: edupont
-ms.openlocfilehash: 2b3d837d57036583d988d0f07719ca2e5a61e130
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: b5bd2556583c0e59100a79e0a645082b4b060c7e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8656578"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528521"
 ---
 > [!TIP]
-> Se nettlæringsinnhold om [!INCLUDE [prod_short](prod_short.md)]-brukergrensesnittet på [Microsoft Learn](/learn/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs). 
+> Se nettlæringsinnhold om [!INCLUDE [prod_short](prod_short.md)]-brukergrensesnittet i [Microsoft-opplæring](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).

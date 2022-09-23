@@ -11,12 +11,12 @@ ms.search.form: ''
 ms.date: 09/05/2022
 ms.author: bholtorf
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: fb5b2fa88289ff3d9d491f9b8ee7d73706740020
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: dc1601caac73dc7c58862938ddc612a9536e84e9
+ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461291"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524509"
 ---
 # <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Bruk en Power Automate-flyt for varsler om Dataverse-enhetsendringer
 
@@ -28,13 +28,24 @@ Administratorer kan opprette en automatisk flyt i Power Automate som varsler [!I
 > [!NOTE]
 > Denne artikkelen tar utgangspunkt i den nettbaserte versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE [cds_long_md](includes/cds_long_md.md)] og tidsstyrt synkronisering mellom de to appene.
 
+## <a name="import-the-flow-template"></a>Importer flytmalen
+
+> [!TIP]
+> For å gjøre det enklere å definere flyten har vi opprettet en mal som definerer flytutløseren og flytbetingelsen for deg. Følg fremgangsmåten i denne delen for å bruke malen. Du kan opprette flyten selv ved å hoppe over denne delen og starte med trinnene i [Definer flytutløseren](#define-the-flow-trigger).
+
+1. Logg på [Power Automate](https://powerautomate.microsoft.com).
+2. Velg **Maler** og søk etter **Varsle Business Central**.
+
+:::image type="content" source="media/power-automate-import-template.png" alt-text="Nøkkelord for å finne flytmalen.":::
+3. Velg malen **Varsle Business Central når en konto endres**.
+4. Fortsett med trinnene i delen [Varsel Business Central om en endring](#notify-business-central-about-a-change).
+
 ## <a name="define-the-flow-trigger"></a>Definer flytutløseren
 
 1. Logg deg på [Power Automate](https://flow.microsoft.com).
 2. Opprett en automatisk skyflyt som starter når en rad for en [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-enhet legges til, endres eller slettes. Hvis du vil ha mer informasjon, kan du se [Utløs flyter når en rad legges til, endres eller slettes](/power-automate/dataverse/create-update-delete-trigger). I dette eksemplet brukes enheten **Kontoer**. Bildet nedenfor viser innstillingene for det første trinnet ved å definere en flytutløser.
 
 :::image type="content" source="media/power-automate-flow-dataverse-trigger.png" alt-text="Innstillinger for flytens utløser":::
-
 3. Bruk knappen **AssistEdit (...)** i øvre høyre hjørne til å legge til tilkoblingen i [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-miljøet.
 4. Velg **Vis avanserte alternativer**, og angi **customertypecode eq 3** eller **customertypecode eq 11** og **statecode eq 0** i feltet **Filtrer rader**. Disse verdiene betyr at utløseren bare skal reagere når det gjøres endringer i aktive kontoer av typen **kunde** eller **leverandør**.
 
@@ -46,11 +57,11 @@ Data synkroniseres mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!IN
     1. Velg **Brukere** i **Tabellnavn**-feltet
     2. I **Rad-ID**-feltet velger du **Endret av (verdi)** fra flytutløseren.  
 2. Legg til et betingelsestrinn med følgende **eller**-innstillinger for å identifisere integreringsbrukerkontoen.
-    1. Brukerens **primære e-postadresse** inneholder **contoso.com** 
-    2. Brukeren **fulle navn** inneholder **[!INCLUDE[prod_short](includes/prod_short.md)]**. 
-3. Legg til en avslutningskontroll for å stoppe flyten hvis betingelsen er oppfylt. Det vil si at hvis betingelsen er oppfylt og en enhet ble endret av integreringsbrukerkontoen.
+    1. Brukerens **primære e-postadresse** inneholder **contoso.com**
+    2. Brukeren **fulle navn** inneholder **[!INCLUDE[prod_short](includes/prod_short.md)]**.
+3. Legg til en avslutningskontroll for å stoppe flyten hvis enheten ble endret av integreringsbrukerkontoen.
 
-Bildet nedenfor viser informasjonen som skal legges til for å definere flytutløseren og flytbetingelsen.
+Bildet nedenfor viser hvordan du definerer flytutløseren og flytbetingelsen.
 
 :::image type="content" source="media/power-automate-flow-dataverse.png" alt-text="Oversikt over innstillinger for flytutløser og flytbetingelse":::
 
@@ -58,11 +69,10 @@ Bildet nedenfor viser informasjonen som skal legges til for å definere flytutl�
 
 Hvis flyten ikke stoppes av betingelsen, må du varsle [!INCLUDE[prod_short](includes/prod_short.md)] om at det oppstod en endring. Bruk [!INCLUDE[prod_short](includes/prod_short.md)]-koblingen til å gjøre det.
 
-1. I **Nei**-forgrening av betingelsestrinnet legger du til en handling og søker etter **Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]**. Velg koblingsikonet i listen 
+1. I **Nei**-forgrening av betingelsestrinnet legger du til en handling og søker etter **Dynamics 365 [!INCLUDE[prod_short](includes/prod_short.md)]**. Velg koblingsikonet i listen
 2. Velg handlingen **Opprett oppføring (V3)**.
 
 :::image type="content" source="media/power-automate-flow-dataverse-connector.png" alt-text="Innstillinger for [!INCLUDE[prod_short](includes/prod_short.md)]-koblingen":::
-
 3. Bruk knappen **redigeringsprogram (...)** i øvre høyre hjørne til å legge til tilkoblingen i [!INCLUDE[prod_short](includes/prod_short.md)].
 4. Når du er tilkoblet, fyller du ut feltene **Miljønavn** og **Firmanavn**.
 5. I feltet **API-kategori** angir du **microsoft/dataverse/v1.0**.
@@ -76,7 +86,7 @@ Bildet nedenfor viser hvordan flyten skal se.
 
 Når du legger til, sletter eller endrer en konto i [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-miljøet, vil denne flyten gjøre følgende handlinger:
 
-1. Kalle opp [!INCLUDE[prod_short](includes/prod_short.md)]‑miljøet du angav i [!INCLUDE[prod_short](includes/prod_short.md)]-koblingen. 
+1. Kalle opp [!INCLUDE[prod_short](includes/prod_short.md)]‑miljøet du angav i [!INCLUDE[prod_short](includes/prod_short.md)]-koblingen.
 2. Bruk [!INCLUDE[prod_short](includes/prod_short.md)]-API-en til å sette inn en post med **Enhetsnavn** satt til **konto** i tabellen **Dataverse-enhetsendring**. 3. [!INCLUDE[prod_short](includes/prod_short.md)] vil starte prosjektkøoppføringen som synkroniserer kunder med kontoer.
 
 ## <a name="see-also"></a>Se også

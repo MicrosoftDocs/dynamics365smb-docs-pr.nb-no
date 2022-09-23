@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.date: 04/01/2021
+ms.date: 09/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 67e564271e54c7c6c7f1b141172a537cd2bd6286
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 0512e0f77f563b92c0ffcf4c2430a3a3ee329bbb
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510946"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532785"
 ---
 # <a name="work-with-prod_short-data-in-power-bi"></a>Arbeid med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI
 
@@ -31,6 +31,8 @@ Når du har en Power BI-konto, kan du logge deg på på [https://powerbi.microso
 Power BI-tjenesten er vert for alle rapportene som er tilgjengelige for deg. Velg **Mitt arbeidsområde** > **Rapporter** for å vise rapporten. Deretter velger du bare rapporten du vil vise.
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] Online får du automatisk et sett med standardrapporter på arbeidsområdet. Hvis du vil opprette egne rapporter, kan du bruke Power BI Desktop til å opprette dem og deretter publisere dem på arbeidsområdet ditt. Hvis du vil ha mer informasjon, kan du se [Komme i gang med å bygge rapporter i Power BI Desktop for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md).
+
+[!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
 Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, må du starte fra grunnen av ved å bruke Power BI Desktop. Alternativt kan Power BI-rapporter distribueres som filer du kan laste opp.
 
@@ -75,12 +77,12 @@ Hvis du vil dele en rapport, velger du **Del** i en liste over rapporter eller i
 > [!NOTE]
 > Du må ha [Power BI Pro-lisens](/power-bi/service-features-license-type), og det må også de du deler med. Innholdet må være i et arbeidsområde i en [Premium-kapasitet](/power-bi/service-premium-what-is). Hvis du vil ha mer informasjon, kan du se [Måter å dele arbeidet på i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 
 [Business Central og Power BI](admin-powerbi.md)  
-[Bygge Power BI-rapporter for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md)  
+[Bygg Power BI-rapporter for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md)  
 [Oversikt over komponent og arkitektur for Power BI-integrering for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
 [Arbeid med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]](across-working-with-powerbi.md)  
 [Power BI for forbrukere](/power-bi/consumer/end-user-consumer)  

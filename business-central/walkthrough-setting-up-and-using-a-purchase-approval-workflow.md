@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: 276e80b622bc0dceb5280e7a4a95e7583ac89a8e
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 65959b62d89bcbca8c80071c55579339ffc8448a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129665"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533821"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning
 
@@ -119,16 +119,16 @@ Du har nå definert og testet en enkel godkjenningsarbeidsflyt basert på de to 
 
 Den generiske versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] inneholder mange arbeidsflytmaler for scenarioer som støttes av programkoden. De fleste av disse malene er for arbeidsflyter for godkjenning.  
 
-Du kan definere variasjoner i arbeidsflyter ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter](across-how-to-create-workflows.md).  
+Du kan definere variasjoner i arbeidsflyter ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden. Hvis du vil ha mer informasjon, kan du se [Opprett arbeidsflyter](across-how-to-create-workflows.md).  
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also"></a>Se også
 
 [Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)  
-[Konfigurere arbeidsflytvarsler](across-setting-up-workflow-notifications.md)  
+[Konfigurer arbeidsflytvarsler](across-setting-up-workflow-notifications.md)  
 [Opprette arbeidsflyter](across-how-to-create-workflows.md)  
 [Bruke arbeidsflyter for godkjenning](across-how-use-approval-workflows.md)  
 [Arbeidsflyt](across-workflow.md)  

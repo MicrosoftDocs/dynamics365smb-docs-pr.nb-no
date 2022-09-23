@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9650, 9652
 ms.date: 03/14/2022
 ms.author: jswymer
-ms.openlocfilehash: c0800642804b8e8c9e1dc629224bfac77b174500
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 45f321afeb411eee4cb9f9dd215cefc393f58458
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075736"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9529572"
 ---
 # <a name="working-with-excel-layouts"></a>Arbeid med Excel-oppsett
 
@@ -135,7 +135,7 @@ For å oppsummere hva du kan og ikke kan gjøre i **Data**-arket:
 - Ikke legg til noen kolonner med mindre de er inkludert i rapportdatasettet.
 - Du kan plassere arkene i en hvilken som helst rekkefølge. **Data**-arket kan for eksempel være første eller siste.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

@@ -10,12 +10,12 @@ ms.search.keywords: project management, consumption
 ms.search.form: 89, 92, 201, 1007, 1014
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 1cfb8fcb086b258ece6de68850b627c19f3bfbcd
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: c948845c535474ccd5fb8c3d6e031e5467c9de2f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9075840"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532083"
 ---
 # <a name="record-consumption-or-usage-for-jobs"></a>Registrere forbruk eller forbruk for prosjekter
 
@@ -99,7 +99,7 @@ Etter at du har bokført prosjektkladdelinjer kan du vise planleggingslinjene so
 2. Velg en kladd for det aktuelle prosjektet, og velg deretter handlingen **Poster**.  
 3. På siden **Prosjektposter** velger du handlingen **Vis koblede prosjektplanleggingslinjer**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also"></a>Se også
 

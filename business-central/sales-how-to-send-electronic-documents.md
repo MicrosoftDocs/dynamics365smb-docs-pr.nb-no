@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: dd7914ba66eef12cb092e716836ef44276f2128d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: b7054dcdedbb86edad111297b59347a6aa60fc2a
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130075"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535776"
 ---
 # <a name="send-electronic-documents"></a>Sende elektroniske dokumenter
 
@@ -49,13 +49,13 @@ Den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] kan se
     > [!NOTE]  
     >  Du kan også sende en bokført salgsfaktura som et elektronisk dokument. Fremgangsmåten er den samme som beskrevet i dette emnet for ikke-bokførte salgsdokumenter. På siden **Bokført salgsfaktura** velger du **Aktivitetslogg**-handlingen for å vise statusen for det elektroniske dokumentet.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/electronic-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 
 [Fakturere salg](sales-how-invoice-sales.md)  
 [Definere en profil for dokumentsending](sales-how-setup-document-send-profiles.md)  
-[Konfigurere sending og mottak av elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Konfigurer sending og mottak av elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Konfigurere en dokumentutvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md)  
 [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)  
 [Utveksle data elektronisk](across-data-exchange.md)  

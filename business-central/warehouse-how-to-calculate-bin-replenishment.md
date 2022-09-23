@@ -10,12 +10,12 @@ ms.search.keywords: ''
 ms.search.form: 7315, 7351
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f59670f427eb530eabaa69aa7596d610cb117078
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 0f2653087df90ca6801f0d2e972f142e1f65b889
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076126"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530815"
 ---
 # <a name="calculate-bin-replenishment"></a>Beregn etterfylling av hylle
 
@@ -47,7 +47,7 @@ Neste gang du beregner etterfylling av en hylle, vil forslagene du har slettet, 
 >   
 >  vil feltene **Fra sone** og **Fra hylle** være tomme fordi algoritmen for å beregne hvor varene skal flyttes fra, bare utløses når du aktiverer funksjonen **Opprett flytting**.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/move-items/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/move-items/)
 
 ## <a name="see-also"></a>Se også
 

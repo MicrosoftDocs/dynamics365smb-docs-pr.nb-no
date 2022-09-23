@@ -6,18 +6,18 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/05/2021
 ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
-ms.openlocfilehash: 5ff9d51f0f1b05436aff60b870915a5410baaef3
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: ccb4d451841c6f9dc41e7837ea768f0d77f7895f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311290"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9533459"
 ---
 # <a name="achieve-some-task-or-get-the-overview-in-max-100-characters"></a>Oppnå en oppgaver eller få oversikt med maks 100 tegn
 
 Artig innledning for muligheten med rikelig med nøkkelord. Bruk [!INCLUDE [prod_short](includes/prod_short.md)] for produktnavnet og skriv i aktive setninger, for eksempel Få jobben gjort raskere og Med denne funksjonen kan du bla bla bla.  
 
-Se [Redigeringshåndbok for Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/help/writing-guide) hvis du vil ha om MarkDown og stil.  
+Se [Redigeringshåndbok for Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide) hvis du vil ha om MarkDown og stil.  
 
 Husk å legge til Se også-koblinger og legge til den nye artikkelen i TOC.md-filen.  
 

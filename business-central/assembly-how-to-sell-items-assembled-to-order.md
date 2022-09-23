@@ -10,12 +10,12 @@ ms.search.keywords: kit, kitting, substitute items
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 07/29/2021
 ms.author: edupont
-ms.openlocfilehash: b66efde55918886132def51ad898fa9e89054c02
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: ca22a5dc82e950b81829c356f5054ab7c8da1973
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077348"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534970"
 ---
 # <a name="sell-items-assembled-to-order"></a>Selge varer som er montert til ordre
 
@@ -62,7 +62,7 @@ I denne fremgangsmåten behandler du salget av en vare som skal monteres i henho
 > [!NOTE]  
 > Vær oppmerksom på at vareerstatninger ikke automatisk fører til at en vare erstattes av en annen vare, for eksempel når du oppretter en ordre eller i en stykkliste. I stedet blir du varslet om at en erstatning er tilgjengelig for deg.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 

@@ -10,12 +10,12 @@ ms.search.keywords: find
 ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
-ms.openlocfilehash: c5c35c8bc6a3a7827ae2893c79ce883bff6b05ea
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
+ms.openlocfilehash: 3c89d9f3044a8fd0d0fa7f811f1b2f01978e4302
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799852"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532380"
 ---
 # <a name="finding-related-entries-for-posted-documents"></a>Søke etter relaterte poster for bokførte dokumenter 
 
@@ -69,12 +69,12 @@ Når du har gjort et valg, angir du relevant søkeinformasjon i feltene øverst.
 > [!TIP]
 > Hvis du vil se noen eksempler på hvordan du bruker **Søk etter poster**, kan du se [Spor varesporede varer](inventory-how-to-trace-item-tracked-items.md) <!--and [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md). -->
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 
 [Arbeid med Business Central](ui-work-product.md)  
-[Legge til en sidehandling i rollesenteret](ui-bookmarks.md)  
+[Legg til en sidehandling i rollesenteret](ui-bookmarks.md)  
 [Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md)  
 
 

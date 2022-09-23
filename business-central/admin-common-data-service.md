@@ -7,12 +7,12 @@ ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.date: 06/14/2021
-ms.openlocfilehash: 251376700e140043705ce05fcf47f7ebbb0dcd4b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 422466c83d3f86f9afa611f5ef578482eadaf275
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079613"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531759"
 ---
 # <a name="integrating-with-microsoft-dataverse"></a>Integrere med Microsoft Dataverse
 
@@ -31,7 +31,7 @@ Følgende fremgangsmåte gir en oversikt over hvordan du integrerer [!INCLUDE[pr
 
 ## <a name="getting-started-with-prod_short"></a>Komme i gang med [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
-Hvis du vil komme i gang med [!INCLUDE[prod_short](includes/cds_long_md.md)], trenger du en Microsoft Power Apps-konto. Hvis du ikke allerede har en Power Apps-konto, kan du få en kostnadsfritt ved å gå til [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) og klikke koblingen **Komme i gang vederlagsfritt**. Hvis du vil ha mer informasjon om hvordan du kommer i gang med [!INCLUDE[prod_short](includes/cds_long_md.md)], kan du se modulen [Komme i gang med Dataverse](/learn/modules/get-started-with-powerapps-common-data-service/) fra Microsoft Learn.
+Hvis du vil komme i gang med [!INCLUDE[prod_short](includes/cds_long_md.md)], trenger du en Microsoft Power Apps-konto. Hvis du ikke allerede har en Power Apps-konto, kan du få en kostnadsfritt ved å gå til [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) og klikke koblingen **Komme i gang vederlagsfritt**. Hvis du vil ha mer informasjon om hvordan du kommer i gang med [!INCLUDE[prod_short](includes/cds_long_md.md)], kan du se modulen [Kom i gang med Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) i Microsoft-opplæring.
 
 ## <a name="bi-directional-or-uni-directional-data-synchronization"></a>Toveis eller enveis datasynkronisering
 
@@ -62,7 +62,7 @@ Hvis du vil ha detaljert informasjon om hver rolle, for eksempel tillatelsene og
 
 Under tilkoblingsoppsettet opprettes integreringstabelltilordninger som er nødvendige for å synkronisere data. Enheter i [!INCLUDE[prod_short](includes/cds_long_md.md)] blir tilordnet til tabeller og tabell felt i Business Central via integreringstabeller. Hvis du vil ha mer informasjon, kan du se [Standard enhetstilordning for synkronisering](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/use-model-driven-apps-common-data-service/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/use-model-driven-apps-common-data-service/)
 
 ## <a name="see-also"></a>Se også
 

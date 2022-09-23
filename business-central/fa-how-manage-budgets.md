@@ -10,12 +10,12 @@ ms.search.keywords: forecast
 ms.search.form: 5610, 5611
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c23881a80761a9c5ffe229b6299c320c39fc3f85
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: a39ff86ea1bc8b3a2e772b8b3b557cdf863f8d7f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9079223"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528362"
 ---
 # <a name="manage-budgets-for-fixed-assets"></a>Behandle budsjetter for aktiva
 
@@ -60,7 +60,7 @@ Du kan bruke rapporten **Aktiva - forventet verdi** til å beregne fremtidig avs
 4. La hurtigfanen **Aktiva** stå tom hvis du vil ha med alle aktivaene. I feltet **Budsjettert aktiva** angir du **Nei** hvis du ikke vil ha med budsjetterte aktiva, eller **Ja** hvis du bare vil se på de budsjetterte aktivaene.
 5. Velg knappen **Skriv ut** eller **Forhåndsvisning**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/budget-fixed-assets/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/budget-fixed-assets/)
 
 ## <a name="see-also"></a>Se også
 

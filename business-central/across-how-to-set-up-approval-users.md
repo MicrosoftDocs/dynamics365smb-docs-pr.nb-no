@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: e4bb6345a55eedabdf433dbb84a7bf0c7f64d215
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 464212d90ba43648bcb5d2852f5d3fec0c23ca41
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129798"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530787"
 ---
 # <a name="set-up-approval-users"></a>Konfigurere godkjenningsbrukere
 
@@ -54,7 +54,7 @@ Før du kan opprette arbeidsflyter som omfatter godkjenningstrinn, må du define
 3. Hvis du vil teste brukeroppsettet for godkjenning, velger du **Test av brukeroppsett for godkjenning**.  
 4. Gjenta trinn 2 og 3 for alle brukerne som du vil definere som godkjenningsbrukere.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Se også
 

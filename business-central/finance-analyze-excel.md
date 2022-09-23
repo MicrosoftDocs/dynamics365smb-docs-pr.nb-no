@@ -7,12 +7,12 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 9027
 ms.date: 08/23/2022
 ms.author: edupont
-ms.openlocfilehash: 43b5a4181b50da65f25be3f3fc73a0e01fd885af
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 874234154c7a2ae2e8cf0444794a2b4fbdcbcf5e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361765"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9534214"
 ---
 # <a name="analyzing-financial-statements-in-microsoft-excel"></a>Analysere årsregnskap i Microsoft Excel
 
@@ -56,7 +56,7 @@ Din [!INCLUDE [prod_short](includes/prod_short.md)]-opplevelse inneholder et til
 
 Med tillegget kan du få ferske data fra [!INCLUDE [prod_short](includes/prod_short.md)], og du kan overføre endringer tilbake til [!INCLUDE [prod_short](includes/prod_short.md)]. Muligheten til å legge inn data tilbake til databasen er ikke tilgjengelig for årsregnskap du kan vise i Excel.  
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

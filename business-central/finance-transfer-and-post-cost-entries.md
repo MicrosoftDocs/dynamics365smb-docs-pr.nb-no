@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.form: 1100, 1103, 1104, 1108, 1113, 1135
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: f3743e49795f8673bc8fe24e9def11686863954f
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: b822ed9b6a9fa6d784d8f2846d74cd0c98550b0d
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078077"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9532866"
 ---
 # <a name="transferring-and-posting-cost-entries"></a>Overføre og bokføre kostposter
 
@@ -104,12 +104,12 @@ Når det gjelder enkeltkostposter, overfører [!INCLUDE[prod_short](includes/pro
 
 I **Kostjournal**-tabellen oppretter [!INCLUDE[prod_short](includes/prod_short.md)] en post med kildeoverføringen fra finans. Posten registrerer det første og det siste løpenummeret for finanspostene som overføres, i tillegg til det første og det siste løpenummeret for kostpostene som opprettes.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/transfer-gl-entries-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 
  [Om kostregnskap](finance-about-cost-accounting.md)  
- [Definere kostregnskap](finance-set-up-cost-accounting.md)  
+ [Definer kostregnskap](finance-set-up-cost-accounting.md)  
  [Definere og fordele kostnader](finance-define-and-allocate-costs.md)  
  [Gjøre rede for kostnader](finance-manage-cost-accounting.md)
 

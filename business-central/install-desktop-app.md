@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: phone, tablet
 ms.date: 01/11/2022
 ms.author: jswymer
-ms.openlocfilehash: 3e04e348c55fa487f8a7776c0f197210c3cacb49
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b188268feeb483a62ee82990ba3cf92b5afa1606
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519755"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528978"
 ---
 # <a name="get-business-central-desktop-app"></a>Hent Business Central-skrivebordsappen
 
@@ -72,7 +72,7 @@ Forskjellen er når du har flere leietakere. I motsetning til [!INCLUDE[prod_sho
 > [!IMPORTANT]
 > Hvis du bruker Business Central 2021 lanseringsbølge 1 (versjon 18) eller tidligere, kan du ikke installere appen som beskrevet i denne artikkelen. Du må i stedet installere appen fra [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Hvis du vil ha mer informasjon og hjelp til å installere denne eldre appen, kan du se [Klargjøre for og installere Business Central-appen](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

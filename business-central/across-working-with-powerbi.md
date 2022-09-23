@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b51aa003aa37ed95545d4f9d94e3c34d25d02270
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: b594ebf1cebd1fbec7302777b5233ffd3eec198b
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510925"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9535321"
 ---
 # <a name="work-with-power-bi-reports-in-prod_short"></a>Arbeid med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -127,7 +127,7 @@ Denne meldingen vises hvis standardrapporten ikke kan distribueres til Power BI-
 
 Dette skjer sannsynligvis fordi navnet på rapporten ikke inneholder navnet på listesiden. Fjern filteret for å få en fullstendig liste over tilgjengelige Power BI-rapporter.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also"></a>Se også
 

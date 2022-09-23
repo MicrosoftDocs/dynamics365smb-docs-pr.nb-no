@@ -10,12 +10,12 @@ ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 21, 9650
 ms.date: 04/07/2022
 ms.author: edupont
-ms.openlocfilehash: 722d457705b80787aa60c49ff02e4ba36ff6f250
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
+ms.openlocfilehash: 809e29160e45bed28a5d79a7af32c3e98b19a490
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9076854"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9531597"
 ---
 # <a name="define-document-layouts-for-customers-and-vendors"></a>Definere dokumentoppsett for kunder og leverandører
 
@@ -51,12 +51,12 @@ Hvis du vil spare tid når du sender dokumenter til kunde- og leverandørkontakt
 1. På siden **Dokumentoppsett**, på linjen for rapportoppsett som du vil sende til en bestemt kontakt for kunden, velger du handlingen **Velg e-post fra kontakter**.
 2. På siden **Kontakter** velger du en eller flere kontakter, og deretter klikker du på **OK**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 
 [Oppdater egendefinerte rapportoppsett](ui-update-report-layouts.md)  
-[Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)  
+[Opprett og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)  
 [Importere og eksportere en egendefinert rapport eller et egendefinert dokumentoppsett](ui-how-import-and-export-report-layout.md)  
 [Send dokumenter i e-post](ui-how-send-documents-email.md)  
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  

@@ -10,12 +10,12 @@ ms.search.keywords: cancel, undo, correct
 ms.search.form: 6640, 6643, 9307, 9309, 9308, 6652, 145, 147
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 643a0206bb5c84cb1530e24403094474d98f28f9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ee86f0211c4694a355c4ec55b8c66e202035ae8e
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517319"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9530571"
 ---
 # <a name="process-purchase-returns-or-cancellations"></a>Behandle bestillingsreturer eller annulleringer
 
@@ -187,12 +187,12 @@ Når returforsendelser kombineres i en kreditnota og bokføres, opprettes det en
 2. Fyll ut feltene etter behov, og klikk deretter **OK**.  
 3. Du kan også slette individuelle bestillingsreturer manuelt.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Registrere kjøp](purchasing-how-record-purchases.md)  
-[Korrigere eller annullere ubetalte kjøpsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Korriger eller annuller ubetalte kjøpsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Behandle ordrereturer eller annulleringer](sales-how-process-sales-returns-cancellations.md)  
 

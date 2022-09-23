@@ -6,18 +6,18 @@ ms.service: dynamics365-business-central
 ms.topic: article
 ms.date: 10/01/2021
 ms.author: MyMSFTAlias (if I work for Microsoft; otherwise edupont)
-ms.openlocfilehash: 3ec9760cc2b1225f4b06b142a0b32ac4178dcca6
-ms.sourcegitcommit: 67006b090a7bd70446414a19cc82e531190637dc
+ms.openlocfilehash: dc225dad42ba5f05fc4cbd4b091377fa04063b9f
+ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/16/2022
-ms.locfileid: "8311264"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528468"
 ---
 # <a name="achieve-some-task-in-max-100-characters"></a>Oppnå en oppgave med maks 100 tegn
 
 Hvis du vil ha informasjon om hvordan du utfører omfattende oppgaver, bruker du egne veiledningsartikler. Bruk [!INCLUDE [prod_short](includes/prod_short.md)] for produktnavnet.  
 
-Se [Redigeringshåndbok for Dynamics 365 Business Central](https://docs.microsoft.com/en-us/dynamics365/business-central/dev-itpro/help/writing-guide) hvis du vil ha om MarkDown og stil.  
+Se [Redigeringshåndbok for Dynamics 365 Business Central](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/help/writing-guide) hvis du vil ha om MarkDown og stil.  
 
 Husk å legge til Se også-koblinger og legge til den nye artikkelen i TOC.md-filen.  
 
