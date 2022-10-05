@@ -101,7 +101,7 @@ Hvis du ikke har angitt en arbeidsdato, brukes dagens dato. Se også [Endre grun
 
 Når du avslutter et regnskapsår, kan du bruke avslutningsdatoer til å indikere at en post er en avslutningspost. En avslutningsdato ligger teknisk sett mellom to datoer, for eksempel mellom 31. desember og 1. januar.
 
-Hvis en dato skal være en avslutningsdato, setter du A rett foran datoen, for eksempel A123101. Bruk dette formatet sammen med alle datomønstre.
+Hvis en dato skal være en avslutningsdato, setter du U rett foran datoen, for eksempel U123101. Bruk dette formatet sammen med alle datomønstre.
 
 ### <a name="examples"></a>Eksempler
 

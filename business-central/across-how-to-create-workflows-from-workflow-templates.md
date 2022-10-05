@@ -1,30 +1,30 @@
 ---
 title: Opprette arbeidsflyter fra arbeidsflytmaler
-description: Hvis du vil spare tid når du oppretter nye arbeidsflyter, kan du opprette ikke-redigerbare arbeidsflyter fra arbeidsflytmaler som inneholder "MS".
+description: Hvis du vil spare tid når du oppretter nye godkjenningsarbeidsflyter, kan du opprette ikke-redigerbare arbeidsflyter fra arbeidsflytmalen som inneholder MS.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: 988e3ad6185e06bbe82f21005e64ad9bada051a5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 3c84cb00b5ff5e154b056de19d3ccd98d7f57320
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534997"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585679"
 ---
 # <a name="create-workflows-from-workflow-templates"></a>Opprette arbeidsflyter fra arbeidsflytmaler
 
-For å spare tid når du oppretter nye arbeidsflyter, kan du opprette arbeidsflyter fra arbeidsflytmaler.  
+For å spare tid når du oppretter nye godkjenningsarbeidsflyter, kan du bruke arbeidsflytmaler.  
 
 Arbeidsflytmaler er ikke-redigerbare arbeidsflyter som finnes i standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)]. Kodene for arbeidsflytmaler opprettet av Microsoft har prefikset MS-.  
 
-En annen måte å raskt opprette en arbeidsflyt på er å importere en eksisterende arbeidsflyt som du har på en fil utenfor [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Importere og eksportere arbeidsflyter](across-how-to-export-and-import-workflows.md).  
+En annen måte å raskt opprette en arbeidsflyt på er å importere en eksisterende arbeidsflyt som du har på en fil utenfor [!INCLUDE[prod_short](includes/prod_short.md)]. Finn ut mer under [Eksporter og importer arbeidsflyter](across-how-to-export-and-import-workflows.md).  
 
-På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse, endret av hendelsesbetingelsene, og et arbeidsflytsvar, endret av svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter](across-how-to-create-workflows.md).  
+På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse, endret av hendelsesbetingelsene, og et arbeidsflytsvar, endret av svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden. Finn ut mer under [Opprett arbeidsflyter](across-how-to-create-workflows.md).  
 
 ## <a name="to-create-a-workflow-from-a-workflow-template"></a>Slik oppretter du en arbeidsflyt fra arbeidsflytmaler
 
@@ -32,20 +32,20 @@ På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involv
 2. Velg handlingen **Ny arbeidsflyt fra mal**. Siden **Arbeidsflytmaler** åpnes.  
 3. Velg en arbeidsflytmal, og velg deretter **OK**.  
 
-   **Arbeidsflyt**-siden åpnes for en ny arbeidsflyt som inneholder all informasjon for den valgte malen. Verdien i **Kode**-feltet utvides med for eksempel "-01" for å angi at dette er den første arbeidsflyten som er opprettet fra arbeidsflytmalen.  
-4. Fortsett med å opprette arbeidsflyten ved å redigere de arbeidsflyttrinnene eller legge til nye trinn. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter](across-how-to-create-workflows.md).  
+   **Arbeidsflyt**-siden åpnes for en ny arbeidsflyt som inneholder all informasjon for den valgte malen. Verdien i **Kode**-feltet utvides med for eksempel "-01" for å angi at dette er den første arbeidsflyten opprettet fra arbeidsflytmalen.  
+4. Fortsett med å opprette arbeidsflyten ved å redigere de arbeidsflyttrinnene eller legge til nye trinn. Finn ut mer under [Opprett arbeidsflyter](across-how-to-create-workflows.md).  
 
 ## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Se også
 
-[Opprette arbeidsflyter](across-how-to-create-workflows.md)  
-[Importere og eksportere arbeidsflyter](across-how-to-export-and-import-workflows.md)  
+[Opprett godkjenningsarbeidsflyter](across-how-to-create-workflows.md)  
+[Importer og eksporter godkjenningsarbeidsflyter](across-how-to-export-and-import-workflows.md)  
 [Vis arkiverte forekomster av arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md)  
-[Slette arbeidsflyter](across-how-to-delete-workflows.md)  
+[Slett godkjenningsarbeidsflyter](across-how-to-delete-workflows.md)  
 [Gjennomgang: Definer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
-[Konfigurere arbeidsflyter](across-set-up-workflows.md)  
-[Bruke arbeidsflyter](across-use-workflows.md)  
+[Konfigurer godkjenningsarbeidsflyter](across-set-up-workflows.md)  
+[Bruk godkjenningsarbeidsflyter](across-use-workflows.md)  
 [Arbeidsflyt](across-workflow.md)  
 
 

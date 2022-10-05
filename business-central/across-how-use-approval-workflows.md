@@ -1,84 +1,85 @@
 ---
-title: Godkjenne eller avvise dokumenter i arbeidsflyter | Microsoft-dokumentasjon
+title: Godkjenne eller avvise dokumenter i arbeidsflyter
 description: Be om, avvise eller delegere en godkjenning, for eksempel av et kjøps- eller salgsdokument, som en del av en arbeidsflyt.
 author: SorenGP
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: reject, delegate, request
-ms.date: 09/28/2021
+ms.search.form: 654, 662, 1500,
+ms.date: 09/12/2022
 ms.author: edupont
-ms.openlocfilehash: 55e7861d479ee5d4415ca776f969b722464ddcc3
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: f1d7ef11d97d1643bb52085c13696b8831c169b6
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531921"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585544"
 ---
-# <a name="use-approval-workflows"></a>Bruke arbeidsflyter for godkjenning
+# <a name="how-to-use-approval-workflows"></a>Bruk arbeidsflyter for godkjenning
 
 Når en post, for eksempel et kjøpsdokument eller et kundekort, må godkjennes av en person i organisasjonen, kan du sende en forespørsel om godkjenning som en del av en arbeidsflyt. Avhengig av hvordan arbeidsflyten er konfigurert, gir den riktige godkjenneren deretter beskjed om at posten krever godkjenning.
 
-Du setter opp arbeidsflyter for godkjenning på **Arbeidsflyt**-siden. Du må også definere godkjenningsbrukere, inkludert eventuelle relevante beløpsgrenser, på siden **Brukeroppsett for godkjenning**. Hvis du vil ha mer informasjon, kan du se [Konfigurere arbeidsflyter](across-set-up-workflows.md).  
+Du setter opp arbeidsflyter for godkjenning på **Arbeidsflyt**-siden. Du må også definere godkjenningsbrukere, inkludert eventuelle relevante beløpsgrenser, på siden **Brukeroppsett for godkjenning**. Finn ut mer under [Definer godskjenningsarbeidsflyter](across-set-up-workflows.md).  
 
-I tillegg til godkjenningsarbeidsflyter som beskrives i denne artikkelen, kan du utføre diverse andre arbeidsflytoppgaver. Hvis du vil ha mer informasjon, kan du se [Bruk arbeidsflyter](across-use-workflows.md).
+I tillegg til godkjenningsarbeidsflytene som beskrives i denne artikkelen, kan du utføre diverse andre arbeidsflytoppgaver. Finn ut mer under [Bruk godkjenningsarbeidsflyter](across-use-workflows.md).
 
-Arbeidsflyter for godkjenning av kjøpsdokumenter, salgsdokumenter, betalingskladder, kundekort og varekort er klar til å starte som veiledninger. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).
+Arbeidsflyter for godkjenning av kjøpsdokumenter, salgsdokumenter, betalingskladder, kundekort og varekort er klar til å starte som veiledninger. Finn ut mer under [Bli klar til å gjøre forretninger](ui-get-ready-business.md).
 
-## <a name="to-request-approval-of-a-record"></a>Slik ber du om godkjenning av en post:
+## <a name="request-a-record-approval"></a>Be om en oppføringsgodkjenning
 
 Oppgavene nedenfor utføres av en godkjenningsbruker.
 
 1. På siden som viser posten, velger du handlingen **Send godkjenningsforespørsel**.
 2. Hvis du vil se alle godkjenningsforespørslene, velger du ikon ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Godkjenningsforespørselsposter**, og velg deretter den relaterte koblingen.  
 
-Statusen for godkjenningsposten oppdateres fra **Opprettet** til **Åpen**. Statusen for posten, for eksempel en kjøpsfaktura, oppdateres fra **Åpen** til **Venter på godkjenning** og forblir låst for behandling til alle godkjennerne har godkjent posten.
+Statusen for godkjenningsposten oppdateres fra **Opprettet** til **Åpen**. Statusen for posten, som en kjøpsfaktura, oppdateres fra **Åpen** til **Venter på godkjenning** og forblir låst for behandling til alle godkjennerne har godkjent posten.
 
-Når alle påkrevde godkjennerne har godkjent posten, blir statusen endret til **Frigitt**. Du kan deretter fortsette på oppgavene med posten.
+Når alle påkrevde godkjennerne har godkjent posten, blir statusen endret til **Frigitt**. Du kan deretter fortsette å arbeide med posten.
 
-## <a name="to-cancel-requests-for-approval"></a>Avbryte forespørsler om godkjenning
+## <a name="cancel-approval-requests"></a>Annuller godkjenningsforespørsler
 
 Oppgavene nedenfor utføres av en godkjenningsbruker med godkjennerrettigheter.
 
-Det kan hende at en kunde vil endre en bestilling etter at den er sendt til godkjenning. I så fall kan du annullere godkjenningsprosessen og foreta de nødvendige endringene i bestillingen før du ber om godkjenning igjen.
+Det kan hende at en kunde vil endre en bestilling etter at den er sendt til godkjenning. I så fall kan du annullere godkjenningsprosessen, foreta de nødvendige endringene i bestillingen og be om godkjenning igjen.
 
 - På siden som viser posten, velger du handlingen **Annuller godkjenningsforespørsel**.
 
-Når godkjenningsforespørselen er annullert, endres statusen for den relaterte godkjenningsposten til **Annullert**. Statusen for posten oppdateres fra **Venter på godkjenning** til **Åpen**. Godkjenningsprosessen kan deretter startes på nytt.
+Når godkjenningsforespørselen er annullert, endres statusen for den relaterte godkjenningsposten til **Annullert**. Statusen for posten oppdateres fra **Venter på godkjenning** til **Åpen**. På dette punktet kan godkjenningsprosessen startes på nytt.
 
-## <a name="to-approve-or-reject-requests-for-approval"></a>Godkjenne eller avvise forespørsler om godkjenning
+## <a name="approve-or-reject-approval-requests"></a>Godkjenn eller avvis godkjenningsforespørsler
 
 Oppgavene nedenfor utføres av en godkjenningsbruker med godkjennerrettigheter.
 
-Du kan behandle forespørsler om godkjenning på siden **Forespørsler å godkjenne**, for eksempel for å godkjenne flere forespørsler samtidig. Du kan også behandle hver forespørsel på den relaterte posten, for eksempel siden **Kjøpsfaktura**, ved å velge koblingen i meldingen du mottar.
+Du kan behandle forespørsler om godkjenning på siden **Forespørsler å godkjenne**, inkludert å godkjenne flere forespørsler samtidig. Du kan også godkjenne individuelle poster ved å velge koblingen i varselet du mottar.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Forespørsler å godkjenne**, og velg deretter den relaterte koblingen.
-2. Velg én eller flere linjer for posten eller postene du vil godkjenne eller avvise.
+2. Velg en eller flere linjer for postene du vil godkjenne eller avvise.
 3. Velg handlingen **Godkjenn**, **Avvis** eller **Deleger**.
 
-Når en post er godkjent eller avvist, endres godkjenningsstatusen i **Status**-feltet til **Godkjent** eller **Avvist**.
+Når en post er godkjent eller avvist, endres godkjenningsstatusen i **Status**-feltet til henholdsvis **Godkjent** eller **Avvist**.
 
-Hvis det er angitt et godkjennerhierarki, er poststatusen **Venter på godkjenning** til alle godkjennerne har godkjent posten. Poststatusen endres deretter til **Frigitt**.
+Hvis det er angitt et godkjennerhierarki, er poststatusen **Venter på godkjenning** til alle de forespurte godkjennerne har godkjent posten. Poststatusen endres deretter til **Frigitt**.
 
 Samtidig endres godkjenningsstatusen fra **Opprettet** til **Åpen** så snart en godkjenningsforespørsel for posten er opprettet. Hvis forespørselen avvises, endres godkjenningsstatusen til **Avvist**. Statusen forblir **Åpen** eller **Avvist** til alle godkjennerne har godkjent forespørselen.
 
-## <a name="to-delegate-requests-for-approval"></a>Delegere forespørsler om godkjenning
+## <a name="delegate-approval-requests"></a>Deleger godkjenningsforespørsler
 
 Oppgavene nedenfor utføres av en godkjenningsbruker med godkjennerrettigheter.
 
-Hvis du vil hindre at dokumenter hoper seg opp eller blokkerer arbeidsflyten på andre måter, kan godkjenner og godkjenningsadministrator delegere en godkjenningforespørsel til en stedfortredende godkjenner. Stedfortrederen kan enten være en angitt stedfortreder, den direkte godkjenneren eller godkjenningsadministratoren, i denne rekkefølgen. Du bruker vanligvis denne funksjonen hvis en godkjenner ikke er tilgjengelige eller ikke kan godkjenne forespørsler før forfallsdatoen.
+Hvis du vil hindre at poster hoper seg opp eller blokkerer arbeidsflyten på andre måter, kan godkjenner og godkjenningsadministrator delegere en godkjenningsforespørsel til en stedfortredende godkjenner. Stedfortrederen kan enten være en angitt stedfortreder, den direkte godkjenneren eller godkjenningsadministratoren, i denne rekkefølgen. Du bruker vanligvis denne funksjonen hvis en godkjenner ikke er tilgjengelige eller ikke kan godkjenne forespørsler før forfallsdatoen.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Forespørsler å godkjenne**, og velg deretter den relaterte koblingen.
-2. Velg én eller flere linjer for godkjenningsforespørsler du vil delegere til en stedfortredende godkjenner, og velg deretter handlingen **Deleger**.
+2. Velg en eller flere linjer for godkjenningsforespørsler du vil delegere til en stedfortredende godkjenner, og velg deretter handlingen **Deleger**.
 
 Et varsel om å godkjenne forespørselen sendes til stedfortredende godkjenner.
 
-## <a name="to-manage-overdue-approval-requests"></a>Håndtere forfalte godkjenningsforespørsler
+## <a name="manage-overdue-approval-requests"></a>Håndter forfalte godkjenningsforespørsler
 
 Oppgavene nedenfor utføres av en godkjenningsbruker med godkjennerrettigheter.
 
-Med jevne mellomrom må du vil påminne brukere av arbeidsflyt for godkjenning om forfalte godkjenningsforespørsler som de må reagere på. Du bruker funksjonen **Send varsler om forfalte godkjenninger** til å påminne brukerne.
+Med jevne mellomrom må du minne om å godkjenningsarbeidsflytbrukere om forfalte godkjenningsforespørsler. Du bruker funksjonen **Send varsler om forfalte godkjenninger** til dette.
 
-Funksjonen **Send varsler om forfalte godkjenninger** kontrolleres om det finnes åpne godkjenningsforespørsler som er forfalt. Hver godkjenner som har minst én forfalt godkjenningspost, mottar en varsling med listen over alle forfalte godkjenningsforespørsler. Varslingen sendes også til godkjenneren og alle som ber om forfalte godkjenninger. Dette siste trinnet hjelper hvis den forfalte godkjenningsposten må delegeres til en stedfortreder.
+Funksjonen **Send varsler om forfalte godkjenninger** kontrolleres om det finnes åpne godkjenningsforespørsler som er forfalt. Hver godkjenner med minst én forfalt godkjenningspost, mottar en varsling med listen over alle forfalte godkjenningsforespørsler. Varslingen sendes også til godkjenneren og alle som ber om forfalte godkjenninger. Dette siste trinnet hjelper hvis den forfalte godkjenningsposten må delegeres til en stedfortreder.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Forfalte godkjenningsforespørsler**, og velg deretter den relaterte koblingen.
 2. På siden **Forfalte godkjenningsforespørsler** velger du handlingen **Send varsler for forfalte godkjenning**.
@@ -87,11 +88,12 @@ Funksjonen **Send varsler om forfalte godkjenninger** kontrolleres om det finnes
 
 ## <a name="see-also"></a>Se også
 
+[Bruk godkjenningsarbeidsflyter](across-use-workflows.md)  
+[Arbeidsflyt](across-workflow.md)  
 [Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)  
 [Salg](sales-manage-sales.md)  
 [Inngående dokumenter](across-income-documents.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

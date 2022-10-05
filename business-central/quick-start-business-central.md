@@ -1,30 +1,34 @@
 ---
 title: Hurtigstart for Business Central
-description: Kom i gang med Business Central med tips fra hurtigstartartikler som hjelper deg med å fylle ut de første kritiske feltene.
+description: Kom i gang med Business Central med hurtigstartartikler og tips som hjelper deg med å fylle ut de første kritiske feltene.
 author: jill-kotel-andersson
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: quickstart
-ms.date: 09/29/2021
+ms.date: 08/25/2022
 ms.author: edupont
-ms.openlocfilehash: ee2f9f6989e2f2c5142397a171b0709fb2e9b087
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 244062b9e8c9768da040f6635f61092a7e1e9770
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8147521"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585733"
 ---
 # <a name="business-central-quick-starts"></a>Hurtigstart for Business Central
 
-Disse hurtigstartartiklene hjelper deg med å komme i gang så raskt som mulig slik at du kan utføre de grunnleggende funksjonene du trenger i [!INCLUDE[prod_short](includes/prod_short.md)].
+Hurtigstartartiklene hjelper deg med å komme i gang så raskt som mulig slik at du kan begynne å utføre de grunnleggende [!INCLUDE[prod_short](includes/prod_short.md)]-funksjonene du trenger.
 
-Følgende deler tar deg til veiledninger for nybegynnere som hjelper deg med å bli kjent med funksjonene du trenger i [!INCLUDE[prod_short](includes/prod_short.md)]. Finn koblinger til mer avansert innhold for funksjonaliteten i hver hurtigstart, hvis du trenger det.
+Følgende deler tilbyr veiledninger for nybegynnere som hjelper deg med å bli kjent med funksjonene du trenger i [!INCLUDE[prod_short](includes/prod_short.md)]. Finn koblinger til mer avansert innhold for funksjonaliteten i hver hurtigstart, hvis du trenger det.
 
 ## <a name="provide-basic-information-about-your-company"></a>Oppgi grunnleggende informasjon om selskapet
 
-Det første trinnet er å gi de grunnleggende opplysningene om selskapet. Dette omfatter informasjon som adresse, bankkonti, mva-nummer og så videre. Dette er forklart i artikkelen [Hurtigstart for selskapsopplysninger](quick-start-company-information.md).
+Det første trinnet er å gi de grunnleggende opplysningene om selskapet. Dette omfatter informasjon som adresse, bankkontoer, mva-nummer (merverdiavgift) og så videre. Du finner det forklart i artikkelen [Hurtigstart for selskapsopplysninger](quick-start-company-information.md).
+
+## <a name="prepare-basic-financial-information"></a>Forbered grunnleggende finansinformasjon
+
+Nå er det på tide å skrive inn selskapets finansopplysninger slik at du er klar til å gjøre forretninger. Bruk den inkluderte kontoplanen i [!INCLUDE[prod_short](includes/prod_short.md)] for å spare tid. Og hvis du trenger det, kan du tilpasse den med noen få trinn ved å følge [hurtigstarten for finansinformasjon](quick-start-financial-information.md).
 
 <!--
 ## Financial Basics
@@ -33,16 +37,17 @@ Financial Information
 (chart of accounts, but explained for non-accountants)
 -->
 
-<!--
-## Basic Reports and Output Documents
+## <a name="print-reports-and-customize-documents"></a>Skriv ut rapporter og tilpass dokumenter
 
-Reports and Documents  
+Lær hvordan du tilpasser og skriver ut rapporter og dokumenter, for eksempel salgsfakturaer, slik at det passer bedre til forretningsbehovene dine i [Hurtigstart for standardrapporter og dokumentutdata](quick-start-reports-and-documents.md).
+
+<!-- Reports and Documents  
 (final reports, but also documents - how do I style invoices to work better for me?)
 -->
 
 ## <a name="sell-products-and-services"></a>Selg produkter og tjenester
 
-Hvis du raskt vil komme i gang med å selge produkter og tjenester, kan du se artikkelen [Hurtigstart for salg](quick-start-sell-products-and-services.md).
+Kom raskt i gang med å selge produkter og tjenester ved å følge artikkelen [Hurtigstart for salg](quick-start-sell-products-and-services.md).
 
 <!--
 (customer, items, things on stock or not, orders versus invoices, get paid on time, etc.)
@@ -50,21 +55,23 @@ Hvis du raskt vil komme i gang med å selge produkter og tjenester, kan du se ar
 
 ## <a name="buy-products-and-services"></a>Kjøp produkter og tjenester
 
-Hvis du vil vite hvordan du kjøper produkter og tjenester, kan du se artikkelen [Hurtigstart for innkjøp](quick-start-procurement.md).  
+Finn ut hvordan du kjøper produkter og tjenester i artikkelen [Hurtigstart for innkjøp](quick-start-procurement.md).  
 
 <!--
 (buy stuff, register in inventory, pay vendor)
 -->
 
-<!--
-## Understand Your Business with Business Intelligence
+## <a name="understand-your-company-with-business-intelligence"></a>Forstå selskapet ditt med forretningsanalyse
 
+Forvandle forretningsdataene til verdifulle innsikter ved hjelp av verktøyene som vises i [hurtigstarten for forretningsanalyse](quick-start-business-intelligence.md).
+
+<!--
 Business Intelligence  
 (reports)
 -->
 
 ## <a name="see-also"></a>Se også
 
-[Oversikt over forretningsfunksjoner](across-business-functionality.md)  
 [Læringskatalog for Business Central](readiness/readiness-learning-catalog.md)  
+[Oversikt over forretningsfunksjoner](across-business-functionality.md)  
 [Oversikt over oppgaver for å definere Business Central](setup.md)  

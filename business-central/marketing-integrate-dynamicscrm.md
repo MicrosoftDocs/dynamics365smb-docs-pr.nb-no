@@ -9,14 +9,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: integration, synchronize, map, Sales
 ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
-ms.date: 04/01/2021
+ms.date: 09/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: a25fdcf9760d5677885c3927cb07d20cfa7e8387
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 46055056fc17b4997b5e49ccefe8cd104bef0a6d
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520997"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585868"
 ---
 # <a name="use-dynamics-365-sales-from-business-central"></a>Bruk Dynamics 365 Sales fra Business Central
 Hvis du bruker Dynamics 365 Sales for Customer Engagement, kan du dra nytte av sømløs integrering i kundeemne-til-kontanter-prosessen med [!INCLUDE[prod_short](includes/prod_short.md)] for serverdelaktiviteter som å behandle bestillinger, håndtering av lager og gjøre finansene.
@@ -76,7 +76,7 @@ Dette kan også fungere hvis den opprinnelige ordren inneholder produkter som ik
 
 Hvis varebeskrivelsen i den opprinnelige ordren er lang, kan en ekstra ordrelinje av typen **Merknad** opprettes som har plass til hele teksten i ordren i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Oppdateringer av felt i salgsordrehoder, for eksempel feltene Siste leveringsdato eller Ønsket leveringsdato, som er tilordnet i integrasjonstabelltilordningen for **SALESORDER-ORDER**, synkroniseres med jevne mellomrom til [!INCLUDE[crm_md](includes/crm_md.md)]. Prosesser som å frigi en ordre og levere eller fakturere en ordre, bokføres til ordretidslinjen i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, se [Innføring i aktivitetsfeeder](/dynamics365/sales-enterprise/manage-activities). <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
+Oppdateringer av felt i salgsordrehoder, for eksempel feltene Siste leveringsdato eller Ønsket leveringsdato, som er tilordnet i integrasjonstabelltilordningen for **SALESORDER-ORDER**, synkroniseres med jevne mellomrom til [!INCLUDE[crm_md](includes/crm_md.md)]. Prosesser som å frigi en ordre, levere og fakturere en ordre, bokføres til ordretidslinjen i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, se [Innføring i aktivitetsfeeder](/dynamics365/sales-enterprise/manage-activities). Hvis du vil aktivere postering og aktiviteter for ordrer i [!INCLUDE[crm_md](includes/crm_md.md)], kan du se [Definer notatkontrollen for å få tilgang til informasjon om innlegg for en egendefinert enhet](/dynamics365/customerengagement/on-premises/customize/notes-control-legacy) i Customer Engagement-dokumentasjonen. Artikkelen viser til Customer Engagement on-premises, men trinnene er de samme for den nettbaserte versjonen. <!--The /dynamics365/sales-enterprise/developer/introduction-activity-feeds link was broken. Should this actually point to /dynamics365/sales-enterprise/manage-activities-->
 
 > [!NOTE]  
 > Periodisk synkronisering basert på integrasjonstabelltilordningen for **SALESORDER-ORDER** vil bare fungere når ordreintegrasjon er aktivert. Hvis du vil ha mer informasjon, kan du se [Tilkoblingsinnstillinger på siden for konfigurasjon av Sales-tilkobling](admin-prepare-dynamics-365-for-sales-for-integration.md). Bare ordrer som er opprettet fra sendte ordrer i [!INCLUDE[crm_md](includes/crm_md.md)], synkroniseres. Hvis du vil ha mer informasjon, se [Aktivere ordrebehandlingsintegrering](/dynamics365/sales-enterprise/developer/enable-sales-order-processing-integration).

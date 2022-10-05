@@ -11,12 +11,12 @@ ms.search.form: ''
 ms.date: 09/05/2022
 ms.author: bholtorf
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: dc1601caac73dc7c58862938ddc612a9536e84e9
-ms.sourcegitcommit: 2396dd27e7886918d59c5e8e13b8f7a39a97075d
+ms.openlocfilehash: 542514d1f8fc8f0bfa6a0bd3c8cacbaf25cab651
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9524509"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585895"
 ---
 # <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Bruk en Power Automate-flyt for varsler om Dataverse-enhetsendringer
 
@@ -54,11 +54,14 @@ Administratorer kan opprette en automatisk flyt i Power Automate som varsler [!I
 Data synkroniseres mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE [cds_long_md](includes/cds_long_md.md)] gjennom en integreringsbrukerkonto. Hvis du vil ignorere endringene som er gjort i synkroniseringen, oppretter du et betingelsestrinn i flyten som utelukker endringer som er gjort av integreringsbrukerkontoen.  
 
 1. Legg til trinnet **Hent en rad etter ID fra Dataverse** etter flytutløseren med følgende innstillinger. Hvis du vil ha mer informasjon, kan du se [Hent en rad etter ID fra Dataverse](/power-automate/dataverse/get-row-id).
+
     1. Velg **Brukere** i **Tabellnavn**-feltet
     2. I **Rad-ID**-feltet velger du **Endret av (verdi)** fra flytutløseren.  
+
 2. Legg til et betingelsestrinn med følgende **eller**-innstillinger for å identifisere integreringsbrukerkontoen.
     1. Brukerens **primære e-postadresse** inneholder **contoso.com**
     2. Brukeren **fulle navn** inneholder **[!INCLUDE[prod_short](includes/prod_short.md)]**.
+
 3. Legg til en avslutningskontroll for å stoppe flyten hvis enheten ble endret av integreringsbrukerkontoen.
 
 Bildet nedenfor viser hvordan du definerer flytutløseren og flytbetingelsen.
@@ -73,6 +76,7 @@ Hvis flyten ikke stoppes av betingelsen, må du varsle [!INCLUDE[prod_short](inc
 2. Velg handlingen **Opprett oppføring (V3)**.
 
 :::image type="content" source="media/power-automate-flow-dataverse-connector.png" alt-text="Innstillinger for [!INCLUDE[prod_short](includes/prod_short.md)]-koblingen":::
+
 3. Bruk knappen **redigeringsprogram (...)** i øvre høyre hjørne til å legge til tilkoblingen i [!INCLUDE[prod_short](includes/prod_short.md)].
 4. Når du er tilkoblet, fyller du ut feltene **Miljønavn** og **Firmanavn**.
 5. I feltet **API-kategori** angir du **microsoft/dataverse/v1.0**.
@@ -87,7 +91,8 @@ Bildet nedenfor viser hvordan flyten skal se.
 Når du legger til, sletter eller endrer en konto i [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-miljøet, vil denne flyten gjøre følgende handlinger:
 
 1. Kalle opp [!INCLUDE[prod_short](includes/prod_short.md)]‑miljøet du angav i [!INCLUDE[prod_short](includes/prod_short.md)]-koblingen.
-2. Bruk [!INCLUDE[prod_short](includes/prod_short.md)]-API-en til å sette inn en post med **Enhetsnavn** satt til **konto** i tabellen **Dataverse-enhetsendring**. 3. [!INCLUDE[prod_short](includes/prod_short.md)] vil starte prosjektkøoppføringen som synkroniserer kunder med kontoer.
+2. Bruk [!INCLUDE[prod_short](includes/prod_short.md)]-API-en til å sette inn en post med **entityName** satt til **konto** i tabellen **Dataverse-enhetsendring**. Denne parameteren er det nøyaktige navnet på Dataverse-enheten du oppretter flyten for.
+3. [!INCLUDE[prod_short](includes/prod_short.md)] vil starte prosjektkøoppføringen som synkroniserer kunder med kontoer.
 
 ## <a name="see-also"></a>Se også
 

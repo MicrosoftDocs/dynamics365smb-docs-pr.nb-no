@@ -113,8 +113,11 @@
 ## Hurtigstartveiledninger
 ### [Hurtigstart for Business Central](quick-start-business-central.md)
 ### [Konfigurer firmainformasjon](quick-start-company-information.md)
+### [Angi økonomisk informasjon](quick-start-financial-information.md)
 ### [Selg produkter og tjenester](quick-start-sell-products-and-services.md)
 ### [Kjøp produkter og tjenester](quick-start-procurement.md)
+### [Tilpass og skriv ut rapporter og dokumenter](quick-start-reports-and-documents.md)
+### [Få innsikt med forretningsanalyse](quick-start-business-intelligence.md)
 
 <!--use-->
 ## Bli produktiv i Business Central
@@ -239,13 +242,13 @@
 ### Arbeidsflyter
 #### [Oversikt over arbeidsflyt](across-workflow.md)
 #### [Bruk Business Central i Power Automate-flyter](across-how-use-financials-data-source-flow.md)
-#### Bruk arbeidsflyter
-##### [Bruke arbeidsflyter](across-use-workflows.md)
-##### [Aktivere arbeidsflyter](across-how-to-enable-workflows.md)
-##### [Bruke arbeidsflyter for godkjenning](across-how-use-approval-workflows.md)
+#### Bruke arbeidsflyter for godkjenning
+##### [Bruk godkjenningsarbeidsflyter](across-use-workflows.md)
+##### [Aktiver godkjenningsarbeidsflyter](across-how-to-enable-workflows.md)
+##### [Bruk arbeidsflyter for godkjenning](across-how-use-approval-workflows.md)
 ##### [Begrense og tillate bruk av en post](across-how-to-restrict-and-allow-usage-of-a-record.md)
-##### [Vise arkiverte forekomster av arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md)
-##### [Slette arbeidsflyter](across-how-to-delete-workflows.md)
+##### [Vis arkiverte forekomster av arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md)
+##### [Slett godkjenningsarbeidsflyter](across-how-to-delete-workflows.md)
 <!--data exchange-->
 ### Utveksle data elektronisk
 #### [Oversikt over OData-utveksling](across-data-exchange.md)
@@ -1583,13 +1586,13 @@
 #### [Rapportvalg](across-report-selections.md)
 ### Konfigurer godkjenningsarbeidsflyter basert på maler
 #### [Konfigurer godkjenningsarbeidsflyter](across-set-up-workflows.md)
-#### [Konfigurere arbeidsflytbrukere](across-how-to-set-up-workflow-users.md)
+#### [Konfigurer arbeidsflytbrukere](across-how-to-set-up-workflow-users.md)
 #### [Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)
-#### [Arbeidsflytvarslinger](across-setting-up-workflow-notifications.md)
+#### [Godkjenningsarbeidsflytvarsler](across-setting-up-workflow-notifications.md)
 #### [Angi når og hvor du kan motta arbeidsflytvarsler](across-how-to-specify-when-and-how-to-receive-notifications.md)
-#### [Opprette arbeidsflyter](across-how-to-create-workflows.md)
+#### [Opprett godkjenningsarbeidsflyter](across-how-to-create-workflows.md)
 #### [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md)
-#### [Importere og eksportere arbeidsflyter](across-how-to-export-and-import-workflows.md)
+#### [Importer og eksporter godkjenningsarbeidsflyter](across-how-to-export-and-import-workflows.md)
 #### [Gjennomgang: definer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
 ### Konfigurer tilkoblinger
@@ -1626,7 +1629,7 @@
 ###### [Bruk Business Central-appene i Power BI](across-powerbi-business-central-apps.md)
 ##### [Vanlige spørsmål](power-bi-faq.md)
 #### Bruk Power Automate med Business Central
-##### [Bruk Business Central i Power Automate-flyter](across-how-use-financials-data-source-flow.md)
+##### [Bruk Power Automate-flyter i Business Central](across-how-use-financials-data-source-flow.md)
 ##### [Feilsøk automatiserte arbeidsflyter](across-flow-troubleshoot.md)  
 #### Bruk Power Apps med Business Central
 ##### [Koble til Business Central-dataene for å utvikle en forretningsapp ved hjelp av Power Apps](across-how-use-financials-data-source-powerapps.md)

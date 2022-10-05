@@ -7,63 +7,62 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 663
-ms.date: 06/11/2021
+ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: 464212d90ba43648bcb5d2852f5d3fec0c23ca41
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 2654dcb68b579d90fe3218bcd0bba3bde4cb5036
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530787"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585841"
 ---
 # <a name="set-up-approval-users"></a>Konfigurere godkjenningsbrukere
 
 Før du kan opprette arbeidsflyter som omfatter godkjenningstrinn, må du definere arbeidsflytbrukerne som er involvert i godkjenningsprosessen. På siden **Brukeroppsett for godkjenning** angir du også beløpsgrenser for bestemte typer forespørsler og definerer stedfortredende godkjennere som godkjenningsforespørsler delegeres til når den opprinnelige godkjenneren er borte.  
 
 > [!NOTE]  
-> Godkjenningsbrukere, både bestillere for godkjenning og godkjennere, må først defineres som arbeidsflytbrukere på siden **Brukergruppe for arbeidsflyt**. Hvis du vil ha mer informasjon, kan du se [Konfigurere arbeidsflytbrukere](across-how-to-set-up-workflow-users.md).  
+> Både bestillere for godkjenning og godkjennere må først defineres som arbeidsflytbrukere på siden **Brukergruppe for arbeidsflyt**. Finn ut mer under [Definer arbeidsflytbrukere](across-how-to-set-up-workflow-users.md).  
 
- Når du har definert godkjenningsbrukere, kan du bruke installasjonsprogrammet til å opprette arbeidsflytsvar for godkjenningsarbeidsflyter. Hvis du vil ha mer informasjon, kan du se trinn 9 i [Opprette arbeidsflyter](across-how-to-create-workflows.md).  
+Når du har definert godkjenningsbrukere, kan du opprette arbeidsflytsvar for godkjenningsarbeidsflyter. Finn ut mer fra trinn 9 under [Opprett godkjenningsarbeidsflyter](across-how-to-create-workflows.md).  
 
 > [!NOTE]  
-> Du kan definere at en godkjenningsforespørsel ikke er godkjent før flere godkjennere i en godkjenningsrekke har godkjent den, ved å definere godkjennere i et hierarki. For godkjennertypen **Godkjenner** definerer du godkjennere på siden **Brukeroppsett for godkjenning**. For godkjennertype **Brukergruppe for arbeidsflyt** definerer du godkjennere på siden **Brukergrupper for arbeidsflyt** og definerer hierarkiet ved å tilordne trinnvise numre til hver enkelt godkjenner i feltet **Sekvensnr.** . Hvis du vil ha mer informasjon, kan du se dette emnet og [Konfigurere arbeidsflytbrukere](across-how-to-set-up-workflow-users.md).  
+> Du kan definere at en godkjenningsforespørsel ikke er godkjent før flere brukere har godkjent den, ved å definere godkjennere i et hierarki. For godkjennertypen **Godkjenner** definerer du godkjennere på siden **Brukeroppsett for godkjenning**. For godkjennertype **Brukergruppe for arbeidsflyt** definerer du godkjennere på siden **Brukergrupper for arbeidsflyt** og definerer hierarkiet ved å tilordne trinnvise numre til hver enkelt godkjenner i feltet **Sekvensnr.** . Finn ut mer nedenfor og under [Definer arbeidsflytbrukere](across-how-to-set-up-workflow-users.md).  
 
 ## <a name="to-set-up-an-approval-user"></a>Slik konfigurerer du godkjenningsbrukere
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukeroppsett for godkjenning**, og velg deretter den relaterte koblingen.  
 2. Opprett en ny linje på siden **Brukeroppsett for godkjenning**, og fyll deretter ut feltene som beskrevet i tabellen nedenfor.  
 
-    |Felt|Beskrivelse|  
-    |---------------------------------|---------------------------------------|  
-    |**Bruker-ID**|Velg bruker-IDen til brukeren som er involvert i godkjenningsprosessen.|  
-    |**Selger/innkjøper - kode**|Angi selger- eller innkjøperkoden som gjelder for brukerne, i feltet **Selger/innkjøper - kode**.<br /><br /> Du fyller vanligvis ut feltet **Selger/innkjøper - kode** hvis selgeren eller innkjøperen som har ansvaret for kunden eller leverandøren, også er personen som må godkjenne den aktuelle salgs- eller kjøpsforespørselen.|  
-    |**Godkjenner-ID**|Velg bruker-ID-en til brukeren som må godkjenne forespørsler fra brukeren i **Bruker-ID**-feltet.|  
-    |**Godkjenningsgrense salg**|Angi maksimalt salgsbeløp i NOK som brukeren i **Bruker-ID**-feltet kan godkjenne.|  
-    |**Ubegrenset salgsgodkjenning**|Angi at brukeren i **Bruker-ID**-feltet kan godkjenne alle salgsforespørsler uavhengig av beløp.<br /><br /> Hvis du merker av her, kan du ikke fylle ut feltet **Godkjenningsgrense salg**.|  
-    |**Godkjenningsgrense kjøp**|Angi maksimalt kjøpsbeløp i NOK som brukeren i **Bruker-ID**-feltet kan godkjenne.|  
-    |**Ubegrenset kjøpsgodkjenning**|Angi at brukeren i **Bruker-ID**-feltet kan godkjenne alle kjøpsforespørsler uavhengig av beløp.<br /><br /> Hvis du merker av her, kan du ikke fylle ut feltet **Godkjenningsgrense salg**.|  
-    |**Godkjenningsgrense forespørsel**|Angi maksimumsbeløpet i NOK som brukeren i **Bruker-ID**-feltet kan godkjenne for forespørsler.<br /><br /> Hvis du vil bruke dette feltet, må du velge alternativet **Godkjennerkjede** i feltet **Godkjennergrensetype** på siden **Arbeidsflytsvar**.|  
-    |**Ubegrenset forespørselsgodkjenning**|Angi at brukeren i **Bruker-ID**-feltet kan godkjenne alle kjøpstilbud uavhengig av beløp.<br /><br /> Hvis du merker av her, kan du ikke fylle ut feltet **Godkjenningsgrense forespørsel**.|  
-    |**Stedfortreder**|Velg bruker-ID-en til brukeren som må godkjenne forespørsler fra brukeren i **Bruker-ID**-feltet, hvis brukeren i **Godkjenner-ID** ikke er tilgjengelig. <br /><br />**Obs!** Stedfortrederen kan enten være brukeren i **Stedfortreder**-feltet, den direkte godkjenneren eller godkjenningsadministratoren, i denne rekkefølgen. Hvis du vil ha mer informasjon, kan du se [Bruke godkjenningsarbeidsflyter](across-how-use-approval-workflows.md).|  
-    |**E-post**|Angi e-postadressen for brukeren i **Bruker-ID**-feltet.|  
-    |**Godkjenningsansvarlig**|Angi brukeren som har rettigheter for å oppheve blokkeringen av godkjenningsarbeidsflyten. for eksempel ved å delegere godkjenningsforespørsler til nye stedfortredere for godkjenning og slette forfalte godkjenningsforespørsler.|
+   |Felt|Description|
+   |-----|-----------|
+   |**Bruker-ID**|Velg bruker-ID-en til personen involvert i godkjenningsprosessen.|
+   |**Selger/innkjøper - kode**|Angi selger- eller innkjøperkoden som gjelder for brukerne.<br /><br /> Du fyller vanligvis ut feltet **Selger/innkjøper - kode** hvis selgeren eller innkjøperen som har ansvaret for kunden eller leverandøren, også er personen som må godkjenne den aktuelle salgs- eller kjøpsforespørselen.|
+   |**Godkjenner-ID**|Velg bruker-ID-en til personen som må godkjenne forespørsler fra personen identifisert i **Bruker-ID**-feltet.|
+   |**Godkjenningsgrense salg**|Angi maksimalt salgsbeløp i lokal valuta (LV) som personen identifisert i **Bruker-ID**-feltet, kan godkjenne.|
+   |**Ubegrenset salgsgodkjenning**|Angi at personen identifiserte i **Bruker-ID**-feltet kan godkjenne alle salgsforespørsler uavhengig av beløpet.<br /><br /> Hvis du merker av her, kan du ikke fylle ut feltet **Godkjenningsgrense salg**.|
+   |**Godkjenningsgrense kjøp**|Angi maksimumsbeløpet i LV som personen identifisert i **Bruker-ID**-feltet kan godkjenne.|
+   |**Ubegrenset kjøpsgodkjenning**|Angi at personen identifiserte i **Bruker-ID**-feltet kan godkjenne alle kjøpsforespørsler uavhengig av beløpet.<br /><br /> Hvis du merker av her, kan du ikke fylle ut feltet **Godkjenningsgrense kjøp**.|
+   |**Godkjenningsgrense forespørsel**|Angi maksimumsbeløpet i LV som personen identifisert i **Bruker-ID**-feltet kan godkjenne for forespørsler.<br /><br /> Hvis du vil bruke dette feltet, må du velge alternativet **Godkjennerkjede** i feltet **Godkjennergrensetype** på siden **Arbeidsflytsvar**.|
+   |**Ubegrenset forespørselsgodkjenning**|Angi at personen identifiserte i **Bruker-ID**-feltet kan godkjenne alle forespørsler uavhengig av beløpet.<br /><br /> Hvis du merker av her, kan du ikke fylle ut feltet **Godkjenningsgrense forespørsel**.|
+   |**Stedfortreder**|Velg bruker-ID-en til personen som må godkjenne forespørsler fra personen i identifisert i **Bruker-ID**-feltet, hvis brukeren i **Godkjenner-ID** ikke er tilgjengelig. <br /><br />**Obs!** Stedfortrederen kan enten være brukeren i **Stedfortreder**-feltet, den direkte godkjenneren eller godkjenningsadministratoren, i denne rekkefølgen. Finn ut mer under [Bruk godkjenningsarbeidsflyter](across-how-use-approval-workflows.md).|
+   |**E-post**|Angi e-postadressen for personen i **Bruker-ID**-feltet.|
+   |**Godkjenningsansvarlig**|Angi brukeren med rettigheter til å fjerne blokkeringen av godkjenningsarbeidsflyt, som ved å delegere godkjenningsforespørsler til nye stedfortredere for godkjenning eller slette forfalte godkjenningsforespørsler.|
 
-    > [!Note]
-    > Det er bare én person som kan være godkjenningsansvarlig.
+   > [!NOTE]
+   > Det er bare én person som kan være godkjenningsansvarlig.
 
 3. Hvis du vil teste brukeroppsettet for godkjenning, velger du **Test av brukeroppsett for godkjenning**.  
-4. Gjenta trinn 2 og 3 for alle brukerne som du vil definere som godkjenningsbrukere.  
+4. Gjenta trinn 2 og 3 for alle personer som du vil definere som godkjenningsbrukere.  
 
 ## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
 
 ## <a name="see-also"></a>Se også
 
-[Konfigurere arbeidsflytbrukere](across-how-to-set-up-workflow-users.md)  
-[Konfigurere arbeidsflytvarsler](across-setting-up-workflow-notifications.md)  
-[Opprette arbeidsflyter](across-how-to-create-workflows.md)  
-[Konfigurere arbeidsflyter](across-set-up-workflows.md)  
+[Konfigurer arbeidsflytbrukere](across-how-to-set-up-workflow-users.md)  
+[Konfigurer arbeidsflytvarsler](across-setting-up-workflow-notifications.md)  
+[Opprett godkjenningsarbeidsflyter](across-how-to-create-workflows.md)  
+[Konfigurer godkjenningsarbeidsflyter](across-set-up-workflows.md)  
 [Gjennomgang: Definer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Arbeidsflyt](across-workflow.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

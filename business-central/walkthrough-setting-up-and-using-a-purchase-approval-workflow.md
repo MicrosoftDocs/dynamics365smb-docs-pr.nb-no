@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 65959b62d89bcbca8c80071c55579339ffc8448a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: bf58b9f1c0702275df1dc6e2884444369d084b80
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533821"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585433"
 ---
 # <a name="walkthrough-setting-up-and-using-a-purchase-approval-workflow"></a>Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning
 
@@ -23,29 +23,29 @@ Du kan automatisere prosessen med å godkjenne nye eller endrede poster, for eks
 Før du oppretter arbeidsflyter for godkjenning, må du definere en godkjenner og stedfortredende godkjenner for hver bruker for godkjenning. Du kan også angi godkjenneres beløpsgrenser for å definere hvilke salgs- og kjøpsposter de er kvalifisert til å godkjenne. Forespørsler om godkjenning og andre meldinger kan sendes som e-post eller intern merknad. For hvert brukeroppsett for godkjenning kan du også definere når de mottar meldinger.
 
 > [!NOTE]
-> I tillegg til arbeidsflytfunksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] kan du bruke Power Automate til å definere arbeidsflyter for hendelser i [!INCLUDE[prod_short](includes/prod_short.md)]. Legg merke til at selv om de er to separate arbeidsflytsystemer, legges en flytmal som du oppretter med Power Automate, til i listen over arbeidsflytmaler i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, se [Bruk Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md).  
+> I tillegg til arbeidsflytfunksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] kan du bruke Power Automate til å definere arbeidsflyter for hendelser i [!INCLUDE[prod_short](includes/prod_short.md)]. Legg merke til at selv om de er to separate arbeidsflytsystemer, legges en flytmal som du oppretter med Power Automate, til i listen over arbeidsflytmaler i [!INCLUDE[prod_short](includes/prod_short.md)]. Finn ut mer under [Bruk Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md).  
 
-Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn. Hvis du vil ha mer informasjon, kan du se [Arbeidsflyt](across-workflow.md).  
+Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn. Finn ut mer under [Arbeidsflyt](across-workflow.md).  
 
 ## <a name="about-this-walkthrough"></a>Om denne gjennomgangen
 
-Denne gjennomgangen tar for seg følgende oppgaver:  
+Denne gjennomgangen er et scenario som illustrerer følgende oppgaver:  
 
 - Definere godkjenningsbrukere  
 - Definere meldinger for godkjenningsbrukere  
 - Endre og aktivere en godkjenningsarbeidsflyt  
-- Be om godkjenning av en bestilling, som Charlotte  
-- Motta en varsling og deretter godkjenne forespørselen, som Stig  
+- Be om godkjenning av en bestilling (som Charlotte)  
+- Motta en varsling og deretter godkjenne forespørselen (som Stig)  
 
 ## <a name="story"></a>Hovedscenario
 
 Stig er en superbruker ved CRONUS. Han oppretter to godkjenningsbrukere. En er Charlotte som representerer en innkjøper. Den andre er ham selv som representerer Charlottes godkjenner. Stig gir selv ubegrensede rettigheter for kjøpsgodkjenning og angir at han skal motta meldinger ved internt notat så snart en relevant hendelse inntreffer. Til slutt oppretter Stig den nødvendige godkjenningsarbeidsflyten som en kopi av den eksisterende malen *Godkjenningsarbeidsflyt for bestilling*, lar alle eksisterende hendelsesbetingelser og svaralternativer stå uendret, og aktiverer deretter arbeidsflyten.  
 
-For å teste godkjenningsarbeidsflyten logger Stig seg først på [!INCLUDE[prod_short](includes/prod_short.md)] som Charlotte, og ber deretter om godkjenning av en bestilling. Stig logger seg deretter på som seg selv, ser notatet i rollesenteret, følger koblingen til godkjenningsforespørselen for bestillingen, og godkjenner forespørselen.  
+For å teste godkjenningsarbeidsflyten logger Stig seg på [!INCLUDE[prod_short](includes/prod_short.md)] som Charlotte, og ber deretter om godkjenning av en bestilling. Stig logger seg deretter på som seg selv, ser notatet i rollesenteret, følger koblingen til godkjenningsforespørselen for bestillingen, og godkjenner forespørselen.  
 
 ## <a name="users"></a>Brukere
 
-Før du kan definere godkjenningsbrukere og varslingsmetode, må du kontrollere at det finnes to brukere i [!INCLUDE[prod_short](includes/prod_short.md)]: én bruker representerer Charlotte. Den andre brukeren, deg selv, representerer Stig. Hvis du vil ha mer informasjon, se [Opprette brukere i henhold til lisenser](ui-how-users-permissions.md).
+Før du kan definere godkjenningsbrukere og varslingsmetode, må du kontrollere at disse brukerne finnes i [!INCLUDE[prod_short](includes/prod_short.md)]: én bruker representerer Charlotte. Den andre brukeren, deg selv, representerer Stig. Finn ut mer under [Opprette brukere i henhold til lisenser](ui-how-users-permissions.md).
 
 ### <a name="setting-up-approval-users"></a>Definere godkjenningsbrukere
 
@@ -57,18 +57,18 @@ Når du er logget på som deg selv, definer Alicia som godkjenningsbruker med de
 2. På siden **Brukeroppsett for godkjenning** velger du handlingen **Ny**.  
 
     > [!NOTE]  
-    >  Du må definere en godkjenner før du kan definere brukere som krever godkjenning fra denne godkjenneren. Du må derfor definere deg selv før du definerer Charlotte.  
+    >  Du må definere en godkjenner før du kan definere brukere som krever godkjenning fra denne godkjenneren. Dette betyr at du må definere deg selv før du definerer Charlotte.  
 
 3. Definer to godkjenningsbrukere ved å fylle ut feltene som beskrevet i følgende tabell.  
 
     |Bruker-ID|Godkjenner-ID|Ubegrenset kjøpsgodkjenning|  
-    |-------------|-----------------|---------------------------------|  
-    |DU||Valgt|  
-    |CHARLOTTE|DU||  
+    |-------|-----------|---------------------------|  
+    |DU||Valgt|
+    |CHARLOTTE|DU||
 
 ### <a name="setting-up-notifications"></a>Definer varsler
 
-I denne gjennomgangen varsles brukeren med et internt varsel om forespørsler som må godkjennes. Godkjenningsvarsler kan også være sendt via e-post, og du kan legge til et trinn for arbeidsflytsvar som varsler avsenderen når en forespørsel godkjennes eller avslås. Hvis du vil ha mer informasjon, kan du se [Angi når og hvor du kan motta varsler](across-how-to-specify-when-and-how-to-receive-notifications.md).
+I denne gjennomgangen varsles brukeren med et internt varsel om forespørsler som må godkjennes. Godkjenningsvarsler kan også være sendt via e-post, og du kan legge til et trinn for arbeidsflytsvar som varsler avsenderen når en forespørsel godkjennes eller avslås. Finn ut mer under [Angi når og hvor du kan motta arbeidsflytvarsler](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
 #### <a name="to-set-up-how-and-when-you-are-notified"></a>Slik definerer du hvordan og når du blir varslet
 
@@ -83,7 +83,7 @@ I denne gjennomgangen varsles brukeren med et internt varsel om forespørsler so
 Opprett arbeidsflyten for godkjenning av innkjøp ved å kopiere trinnene fra malen **Arbeidsflyt for bestillingsgodkjenning**. La de eksisterende trinnene i arbeidsflyten forblir uendret, og aktiver deretter arbeidsflyten.  
 
 > [!TIP]
-> Du kan eventuelt legge til et trinn for arbeidsflytsvar for å varsle avsenderen når forespørselen er godkjent eller avvist. Hvis du vil ha mer informasjon, kan du se [Angi når og hvor du kan motta varsler](across-how-to-specify-when-and-how-to-receive-notifications.md).
+> Du kan eventuelt legge til et trinn for arbeidsflytsvar for å varsle avsenderen når forespørselen er godkjent eller avvist. Finn ut mer under [Angi når og hvor du kan motta arbeidsflytvarsler](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
 ### <a name="to-create-and-enable-a-purchase-order-approval-workflow"></a>Slik oppretter og aktiverer du en arbeidsflyt for bestillingsgodkjenning:
 
@@ -91,12 +91,12 @@ Opprett arbeidsflyten for godkjenning av innkjøp ved å kopiere trinnene fra ma
 2. På siden **Arbeidsflyter** velger du **Handlinger**, velger **Ny** og velger handlingen **Ny arbeidsflyt fra mal**.  
 3. På siden **Arbeidsflytmaler** velger du arbeidsflytmalen kalt **Arbeidsflyt for bestillingsgodkjenning**.  
 
-   **Arbeidsflyt**-siden åpnes for en ny arbeidsflyt som inneholder all informasjon for den valgte malen. Verdien i **Kode**-feltet utvides med *-01* for å angi at dette er den første arbeidsflyten som er opprettet fra malen **Arbeidsflyt for bestillingsgodkjenning**.  
+   **Arbeidsflyt**-siden åpnes for en ny arbeidsflyt som inneholder all informasjon for den valgte malen. Verdien i **Kode**-feltet utvides med *-01* for å angi at dette er den første arbeidsflyten opprettet fra malen **Arbeidsflyt for bestillingsgodkjenning**.  
 4. Slå på vekslebryteren **Aktivert** i hodet på **Arbeidsflyt**-siden.  
 
 ## <a name="use-the-approval-workflow"></a>Bruk arbeidsflyten for godkjenning
 
-Bruk den nye arbeidsflyten for bestillingsgodkjenning ved først å logge på [!INCLUDE[prod_short](includes/prod_short.md)] som Alicia for å be om godkjenning av en bestilling. Deretter logger du på som deg selv, viser notatet i rollesenteret, følger koblingen til forespørsel om godkjenning og godkjenner deretter forespørselen.  
+Bruk den nye arbeidsflyten for bestillingsgodkjenning ved først å logge på [!INCLUDE[prod_short](includes/prod_short.md)] som Alicia for å be om godkjenning av en bestilling. Deretter logger du på som deg selv, viser notatet i rollesenteret, følger koblingen til forespørsel om godkjenning og godkjenner forespørselen.  
 
 ### <a name="to-request-approval-of-a-purchase-order-as-alicia"></a>Slik ber du om godkjenning av en bestilling som Charlotte:
 
@@ -110,8 +110,8 @@ Legg merke til at verdien i **Status**-feltet er endret til **Venter på godkjen
 ### <a name="to-approve-the-purchase-order-as-sean"></a>Slik godkjenner du bestillingen som Stig:
 
 1. Logg på som Stig.
-2. I området **Selvbetjening** i rollesenteret velger du flisen **Forespørsler å godkjenne**.
-3. På siden **Forespørsler å godkjenne** velger du linjen for bestillingen ved Charlotte, og deretter velger du **Godkjenn**-handlingen.  
+2. I området **Selvbetjening** i rollesenteret velger du **Forespørsler å godkjenne**.
+3. På siden **Forespørsler å godkjenne** velger du linjen for bestillingen fra Charlotte, og deretter velger du **Godkjenn**-handlingen.  
 
 Verdien i **Status**-feltet i Charlottes bestilling endres til **Frigitt**.  
 
@@ -119,7 +119,7 @@ Du har nå definert og testet en enkel godkjenningsarbeidsflyt basert på de to 
 
 Den generiske versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] inneholder mange arbeidsflytmaler for scenarioer som støttes av programkoden. De fleste av disse malene er for arbeidsflyter for godkjenning.  
 
-Du kan definere variasjoner i arbeidsflyter ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden. Hvis du vil ha mer informasjon, kan du se [Opprett arbeidsflyter](across-how-to-create-workflows.md).  
+Du kan definere variasjoner i arbeidsflyter ved å fylle ut felter på arbeidsflytlinjer ved å bruke faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden. Finn ut mer under [Opprett arbeidsflyter](across-how-to-create-workflows.md).  
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
@@ -129,7 +129,7 @@ Du kan definere variasjoner i arbeidsflyter ved å fylle ut felt på arbeidsflyt
 
 [Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)  
 [Konfigurer arbeidsflytvarsler](across-setting-up-workflow-notifications.md)  
-[Opprette arbeidsflyter](across-how-to-create-workflows.md)  
+[Opprett godkjenningsarbeidsflyter](across-how-to-create-workflows.md)  
 [Bruke arbeidsflyter for godkjenning](across-how-use-approval-workflows.md)  
 [Arbeidsflyt](across-workflow.md)  
 [Bruk Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md)  

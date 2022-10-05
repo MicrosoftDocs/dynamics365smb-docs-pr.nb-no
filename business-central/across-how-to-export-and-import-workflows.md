@@ -1,5 +1,5 @@
 ---
-title: Eksportere og importere arbeidsflyter | Microsoft-dokumentasjon
+title: Importere og eksportere godkjenningsarbeidsflyter
 description: For å overføre arbeidsflyter til andre Business Central-databaser, for eksempel for å spare tid når du oppretter nye arbeidsflyter, kan du eksportere og importere arbeidsflyter.
 author: SorenGP
 ms.topic: conceptual
@@ -7,47 +7,46 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
+ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: 1a52d4b4bff0f96023b6206e6cb8cad3d9e59276
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 873f168bf8a707519af9a6429658e8383ab1f41e
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129933"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585421"
 ---
-# <a name="export-and-import-workflows"></a>Importere og eksportere arbeidsflyter
+# <a name="export-and-import-approval-workflows"></a>Importer og eksporter godkjenningsarbeidsflyter
 
 For å overføre arbeidsflyter til andre [!INCLUDE[prod_short](includes/prod_short.md)]-databaser, for eksempel for å spare tid når du oppretter nye arbeidsflyter, kan du eksportere og importere arbeidsflyter.  
 
-En annen måte å raskt opprette arbeidsflyter på er å opprette arbeidsflyter fra arbeidsflytmaler. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md).  
+En annen måte å raskt opprette arbeidsflyter på er å bruke arbeidsflytmaler. Finn ut mer under [Opprett arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md).  
 
-På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse, endret av hendelsesbetingelsene, og et arbeidsflytsvar, endret av svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter](across-how-to-create-workflows.md).  
+På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse, endret av hendelsesbetingelsene, og et arbeidsflytsvar, endret av svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felter på arbeidsflytlinjer ved å bruke faste lister over verdier for hendelse og svar som representerer scenarioer som støttes av programkoden. Finn ut mer under [Opprett arbeidsflyter](across-how-to-create-workflows.md).  
 
-## <a name="to-export-a-workflow"></a>Slik eksporterer du en arbeidsflyt
+## <a name="export-a-workflow"></a>Eksporter en arbeidsflyt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
 2. Velg en arbeidsflyt, og velg deretter **Eksporter til fil**.  
 
-## <a name="to-import-a-workflow"></a>Slik importerer du en arbeidsflyt
+## <a name="import-a-workflow"></a>Importer en arbeidsflyt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Importer fra fil**.  
-3. På **Import**-siden velger du knappen **Velg**, velger XML-filen som inneholder arbeidsflyten, og deretter velger du **Åpne**-knappen.  
+3. På **Import**-siden velger du **Velg**, velger XML-filen som inneholder arbeidsflyten, og deretter velger du **Åpne**.  
 
 > [!CAUTION]  
 > Hvis arbeidsflytkoden allerede finnes i databasen, overskrives arbeidsflyttrinnene med trinnene i den importerte arbeidsflyten.  
 
 ## <a name="see-also"></a>Se også
 
-[Opprette arbeidsflyter](across-how-to-create-workflows.md)  
+[Opprett godkjenningsarbeidsflyter](across-how-to-create-workflows.md)  
 [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md)  
 [Vis arkiverte forekomster av arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md)  
-[Slette arbeidsflyter](across-how-to-delete-workflows.md)  
+[Slett godkjenningsarbeidsflyter](across-how-to-delete-workflows.md)  
 [Gjennomgang: Definer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
-[Konfigurere arbeidsflyter](across-set-up-workflows.md)  
-[Bruke arbeidsflyter](across-use-workflows.md)  
+[Konfigurer godkjenningsarbeidsflyter](across-set-up-workflows.md)  
+[Bruk godkjenningsarbeidsflyter](across-use-workflows.md)  
 [Arbeidsflyt](across-workflow.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

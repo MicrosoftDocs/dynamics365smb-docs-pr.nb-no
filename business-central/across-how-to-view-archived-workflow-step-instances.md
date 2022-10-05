@@ -7,20 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/11/2021
+ms.search.form: 1530,
+ms.date: 09/09/2022
 ms.author: edupont
-ms.openlocfilehash: a1913b943cd899fe0903d64da6214225787b002a
-ms.sourcegitcommit: f1e272485a0e675d337a694aba3e35a5daf43920
+ms.openlocfilehash: 60a25f6b07c4e483d06891367a679bada00d4f75
+ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 07/09/2022
-ms.locfileid: "9129879"
+ms.lasthandoff: 09/23/2022
+ms.locfileid: "9585814"
 ---
 # <a name="view-archived-workflow-step-instances"></a>Vise arkiverte forekomster av arbeidsflyttrinn
 
 Alle fullførte forekomster for arbeidsflyttrinn lagres på siden **Arkiverte forekomster for arbeidsflyttrinn**.  
 
-På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse, endret av hendelsesbetingelsene, og et arbeidsflytsvar, endret av svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felt på arbeidsflytlinjer fra faste lister over verdier for hendelse og svar som representerer scenarier som støttes av programkoden. Hvis du vil ha mer informasjon, kan du se [Opprette arbeidsflyter](across-how-to-create-workflows.md).  
+På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse, endret av hendelsesbetingelsene, og et arbeidsflytsvar, endret av svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felter på arbeidsflytlinjer ved å bruke faste lister over verdier for hendelse og svar som representerer scenarioer som støttes av programkoden. Finn ut mer under [Opprett godkjenningsarbeidsflyter](across-how-to-create-workflows.md).  
+
+> [!NOTE]
+> Hvis du vil vise loggen og statusen for arbeidsflyter ved hjelp av Power Automate-integrering, velger du handlingen **Mine flyter** på siden **Power Automate** og velger deretter en flyt for å vise jobbens kjøringslogg og status.
 
 ## <a name="to-view-archived-workflow-step-instances"></a>Slik viser du arkiverte forekomster av arbeidsflyttrinn:
 
@@ -35,13 +39,12 @@ På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involv
 
 ## <a name="see-also"></a>Se også
 
-[Slette arbeidsflyter](across-how-to-delete-workflows.md)  
-[Opprette arbeidsflyter](across-how-to-create-workflows.md)  
-[Aktivere arbeidsflyter](across-how-to-enable-workflows.md)  
+[Slett godkjenningsarbeidsflyter](across-how-to-delete-workflows.md)  
+[Opprett godkjenningsarbeidsflyter](across-how-to-create-workflows.md)  
+[Aktiver godkjenningsarbeidsflyter](across-how-to-enable-workflows.md)  
+[Bruk godkjenningsarbeidsflyter](across-use-workflows.md)  
 [Gjennomgang: Definer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
-[Konfigurere arbeidsflyter](across-set-up-workflows.md)  
-[Bruke arbeidsflyter](across-use-workflows.md)  
+[Konfigurer godkjenningsarbeidsflyter](across-set-up-workflows.md)  
 [Arbeidsflyt](across-workflow.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
