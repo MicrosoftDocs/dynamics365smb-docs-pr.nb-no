@@ -7,34 +7,34 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
-ms.date: 10/01/2021
+ms.date: 09/28/2022
 ms.author: jswymer
-ms.openlocfilehash: addfaaf3e5991e5e0bce4d7e39c47f645cd6a2de
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: d9dfc380b1b8a76fc06363740b256f28b162a85a
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528582"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606120"
 ---
 # <a name="teams-faq"></a>Vanlige spørsmål om Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
-Denne artikkelen besvarer noen av spørsmålene du kan ha om å arbeide med Teams og [!INCLUDE [prod_short](includes/prod_short.md)].
+Denne artikkelen besvarer noen av spørsmålene du kan ha om å arbeide med Microsoft Teams og [!INCLUDE [prod_short](includes/prod_short.md)].
 
 ## <a name="general"></a>[Generelt](#tab/general)
 
 ### <a name="how-do-i-sign-in-to-the-prod_shortmd-app-in-teams"></a>Hvordan logger jeg på [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen i Teams?
 
-Når du har installert appen, blir du bedt om å logge på første gang du bruker appen, når du limer inn en [!INCLUDE [prod_short.md](includes/prod_short.md)]-kobling i Teams-chatten, eller når du velger handlingen **Detaljer** på et kort i Teams. Avhengig av Teams-klienten må du kanskje angi legitimasjonen du vil bruke til å få tilgang til [!INCLUDE [prod_short.md](includes/prod_short.md)].
+Når du har installert appen, blir du bedt om å logge på første gang du bruker den, når du limer inn en [!INCLUDE [prod_short.md](includes/prod_short.md)]-kobling i Teams-chatten, eller når du velger handlingen **Detaljer** på et kort i Teams. Avhengig av Teams-klienten må du kanskje angi legitimasjonen du vil bruke til å få tilgang til [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
 ### <a name="how-do-i-sign-out-of-the-prod_shortmd-app-in-teams"></a>Hvordan logger jeg av [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen i Teams?
 
-Hvis du vil logge av gjeldende brukeridentitet i Teams som brukes til å koble til [!INCLUDE [prod_short.md](includes/prod_short.md)], går du til en chatskriveboks, høyreklikker [!INCLUDE [prod_short.md](includes/prod_short.md)]-ikonet nedenfor og velger deretter **Innstillinger**. Når vinduet vises, kontrollerer du din identitet som er logget på, og deretter velger du **Logg av**.
+Hvis du vil logge deg av identiteten i Teams som du brukte til å koble deg til [!INCLUDE [prod_short.md](includes/prod_short.md)], går du til en chatskriveboks, høyreklikker [!INCLUDE [prod_short.md](includes/prod_short.md)]-ikonet nedenfor og velger deretter **Innstillinger**. Når vinduet vises, kontrollerer du din identitet som er logget på, og deretter velger du **Logg av**.
 
 ### <a name="does-the-app-for-teams-connect-to-prod_shortmd-on-premises"></a>Kobles appen for Teams til [!INCLUDE [prod_short.md](includes/prod_short.md)] lokalt? 
 
-Antall [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams fungerer bare [!INCLUDE [prod_short.md](includes/prod_short.md)] på nettet. Det finnes ingen planer om å støtte [!INCLUDE [prod_short.md](includes/prod_short.md)]-distribusjonstyper som lokal, hybrid sky eller privat sky, som Microsoft ikke er vert for eller administrerer direkte.
+Nr. [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams fungerer bare [!INCLUDE [prod_short.md](includes/prod_short.md)] på nettet. Det finnes ingen planer om å støtte [!INCLUDE [prod_short.md](includes/prod_short.md)]-distribusjonstyper som lokal, hybrid sky eller privat sky, som Microsoft ikke er vert for eller administrerer direkte.
 
 ### <a name="does-the-app-work-with-multiple-companies-and-environments"></a>Fungerer appen med flere selskaper og miljøer? 
 
@@ -46,7 +46,7 @@ Ja. Hvis du vil søke etter kontakter i et annet selskap, går du til [Innstilli
 
 ### <a name="does-the-prod_shortmd-app-work-with-any-localization-of-prod_shortmd"></a>Fungerer [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen sammen med en hvilken som helst lokalisering av [!INCLUDE [prod_short.md](includes/prod_short.md)]? 
 
-Ja. Appen er ment å fungere med en hvilken som helst lokalisering av [!INCLUDE [prod_short.md](includes/prod_short.md)], om denne lokaliseringen tilbys direkte fra Microsoft eller via en partner. Hvis du vil ha mer informasjon, kan du se [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
+Ja. Appen er ment å fungere med en hvilken som helst lokalisering av [!INCLUDE [prod_short.md](includes/prod_short.md)], om denne lokaliseringen tilbys direkte fra Microsoft eller via en partner. Finn ut mer under [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).
 
 ### <a name="which-languages-does-the-prod_shortmd-app-support"></a><a name="language"></a>Hvilke språk støtter [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen?
 
@@ -59,7 +59,7 @@ Tabellen nedenfor inneholder informasjon om hvordan funksjonen er forskjellig fo
 
 |Hvem|Kort|Kortdetaljer |
 |-|----|--------------| 
-|Meldingsforfatter |Vises på språket som er angitt for deg i Teams. Hvis [!INCLUDE [prod_short.md](includes/prod_short.md)] ikke tilbyr dette språket, vises kortet på engelsk. |Vises på språket som er angitt for deg i [!INCLUDE [prod_short.md](includes/prod_short.md)].  som kan omfatte språk fra språkapper som tilbys av partnere. |
+|Meldingsforfatter |Vises på språket som er angitt for deg i Teams. Hvis [!INCLUDE [prod_short.md](includes/prod_short.md)] ikke tilbyr dette språket, vises kortet på engelsk. |Vises på språket som er angitt for deg i [!INCLUDE [prod_short.md](includes/prod_short.md)], som kan omfatte språk fra språkapper som tilbys av partnere. |
 |Meldingsmottaker |Vises på språket til meldingsforfatteren. |Vises på språket som er angitt for deg i [!INCLUDE [prod_short.md](includes/prod_short.md)]. |
 
 Hvis du vil listen over støttede språk for [!INCLUDE [prod_short.md](includes/prod_short.md)], kan du se [Støttede språk](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json#supported-languages).
@@ -73,38 +73,38 @@ Ja. Men bare noen av funksjonene i appen fungerer med [Innebygde apper](/dynamic
 
 ### <a name="does-prod_shortmd-work-with-the-teams-mobile-app"></a>Fungerer [!INCLUDE [prod_short.md](includes/prod_short.md)] med Teams-mobilappen?
 
-Ja. [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen kan installeres fra Teams-skrivebordsappen eller nettleseren, eller av en administrator for alle brukere. Når den er installert, er [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen automatisk tilgjengelig i Teams for iOS og Android. På mobile enheter kan du bare vise kort som er sendt av andre, tilgangsdetaljer eller åpne kortet til fullskjerm i [!INCLUDE [prod_short.md](includes/prod_short.md)]-mobilappen. Du kan ikke lime inn koblinger som utvides til kort når du skriver meldinger eller søker etter kontakter. Se [Minimumskrav for bruk av Business Central](product-requirements.md) for minimumskrav for mobil.
+Ja. [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen kan installeres fra Teams-skrivebordsappen eller nettleseren, eller av en administrator for alle brukere. Når den er installert, er [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen automatisk tilgjengelig i Teams for iOS og Android. På mobile enheter kan du bare vise kort som er sendt av andre, tilgangsdetaljer eller åpne kortet til fullskjerm i [!INCLUDE [prod_short.md](includes/prod_short.md)]-mobilappen. Du kan ikke lime inn koblinger som utvides til kort når du skriver meldinger eller søker etter kontakter. Finn ut mer om minstekrav for mobil under [Minimumskrav for bruk av Business Central](product-requirements.md).
 
 ### <a name="is-the-prod_shortmd-app-for-teams-the-same-as-the-prod_shortmd-app-for-ios-and-android"></a>Er [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams det samme som [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for iOS og Android?
 
-Antall Appen for Teams er et tillegg til Microsoft Teams og eksklusivt utformet for samarbeidsfunksjoner som lyses opp i Teams. På den andre siden leverer [!INCLUDE [prod_short.md](includes/prod_short.md)]-mobilappen en flott opplevelse der du kan arbeide med [!INCLUDE [prod_short.md](includes/prod_short.md)]-data på mobile enheter.
+Antall Appen for Teams er et tillegg til Microsoft Teams og eksklusivt utformet for samarbeid i Teams. Alternativt leverer [!INCLUDE [prod_short.md](includes/prod_short.md)]-mobilappen en flott opplevelse der du kan arbeide med [!INCLUDE [prod_short.md](includes/prod_short.md)]-data på mobile enheter.
 
-Mobilbrukere oppfordres til å installere både mobilappen og appen for Teams for å få mest mulig ut av [!INCLUDE [prod_short.md](includes/prod_short.md)]. Når begge er installert, kan du velge **Eget vindu**-handlingen på et kort i Teams for å åpne kortdetaljene i [!INCLUDE [prod_short.md](includes/prod_short.md)]-mobilappen. Hvis du vil ha informasjon om hvordan du installerer [!INCLUDE [prod_short.md](includes/prod_short.md)] og Teams-mobilappene, kan du se:
+Mobilbrukere oppfordres til å installere både mobilappen og appen for Teams for å få mest mulig ut av [!INCLUDE [prod_short.md](includes/prod_short.md)]. Når begge er installert, kan du velge **Eget vindu**-handlingen på et kort i Teams for å åpne kortdetaljene i [!INCLUDE [prod_short.md](includes/prod_short.md)]-mobilappen. Hvis du vil finne ut mer om hvordan du installerer [!INCLUDE [prod_short.md](includes/prod_short.md)] og Teams-mobilappene, kan du se:
 
 - [Få Business Central på mobilenheten din](install-mobile-app.md)
-- [Få Teams-mobilapp](https://support.microsoft.com/office/download-the-mobile-app-for-teams-5940ebdc-0082-4fb1-83c4-751edc23dcb5) på Microsoft Kundestøtte
+- [Få Teams-mobilappen](https://support.microsoft.com/office/download-the-mobile-app-for-teams-5940ebdc-0082-4fb1-83c4-751edc23dcb5) i Microsoft Kundestøtte
 
 ### <a name="does-the-prod_shortmd-app-work-in-all-teams-clients"></a>Fungerer [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen i alle Teams-klienter?
 
-Antall [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams støttes ikke når den er installert som en pakke for macOS eller Linux. På disse plattformene kan du få tilgang til Teams ved hjelp av en støttet nettleser i stedet.
+Nr. [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams støttes ikke når den er installert som en pakke for macOS eller Linux. På disse plattformene får du tilgang til Teams ved hjelp av en støttet nettleser i stedet.
 
 Se [Minimumskrav for bruk av Business Central](product-requirements.md#teams) for minimumskrav i [!INCLUDE [prod_short.md](includes/prod_short.md)].
 
-Hvis du vil ha mer informasjon om valg av Teams-klienter og hvordan du installerer dem, kan du se [Få klienter for Microsoft Teams](/microsoftteams/get-clients) i Teams-dokumentasjonen.
+Hvis du vil finne ut mer om valg av Teams-klienter og hvordan du installerer dem, kan du se [Få klienter for Microsoft Teams](/microsoftteams/get-clients) i Teams-dokumentasjonen.
 
 ### <a name="which-teams-client-is-best-for-prod_shortmd"></a>Hvilke Teams-klienter er best for [!INCLUDE [prod_short.md](includes/prod_short.md)]?
 
 Det er bare små forskjeller og begrensninger mellom Teams-klienter som kan påvirke opplevelsen med [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams. Når du velger en Teams-klien, må du vurdere følgende:
 
 - Du får ikke tilgang til kameraet og plasseringen i detaljvinduet i Teams-skrivebordsappen.
-- Du kan ikke aktivere telefonnumre fra vinduet Detaljer i Teams for iOS, Teams for Android eller Teams i nettleseren.
-- Når du bruker Microsoft Edge med Teams i nettleseren, kan du enkelt arbeide på tvers av flere identiteter og kontoer ved å logge på Teams fra forskjellige profiler. Hvis du finne ut mer å bruke profiler i Microsoft Edge, kan du se [Logg på og opprett flere profiler i Microsoft Edge](https://support.microsoft.com/office/sign-in-and-create-multiple-profiles-in-microsoft-edge-df94e622-2061-49ae-ad1d-6f0e43ce6435) på Microsoft Kundestøtte.
+- Du kan ikke aktivere telefonnumre fra vinduet Detaljer i Teams for iOS, Android eller i nettleseren.
+- Når du bruker Microsoft Edge med Teams i nettleseren, kan du enkelt arbeide på tvers av flere identiteter og kontoer ved å logge på Teams fra forskjellige profiler. Hvis du finne ut mer å bruke profiler i Microsoft Edge, kan du se [Logg på og opprett flere profiler i Microsoft Edge](https://support.microsoft.com/office/sign-in-and-create-multiple-profiles-in-microsoft-edge-df94e622-2061-49ae-ad1d-6f0e43ce6435) i Microsoft Kundestøtte.
 
 ### <a name="what-is-the-best-way-for-me-to-demonstrate-prod_shortmd-and-microsoft-teams-to-prospective-customers"></a>Hva er den beste måten for meg å vise frem [!INCLUDE [prod_short.md](includes/prod_short.md)] og Microsoft Teams til potensielle kunder?
 
-Hvis du er en partner for videresalg, vil du kanskje ha et miljø som du kan vise kundeemner som en del av demonstrasjoner av forhåndssalg. Hvis du vil unngå å påvirke Microsoft Teams i organisasjonen, kan du få en Microsoft 365-demokonto på [https://aka.ms/CDX](https://aka.ms/CDX). Denne kontoen gir deg full kontroll over en uavhengig Azure-organisasjon som inkluderer Microsoft Teams og [!INCLUDE [prod_short.md](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Klargjøre demonstrasjonsmiljøer av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment).
+Hvis du er en partner for videresalg, vil du kanskje ha et miljø som du kan vise kundeemner som en del av demonstrasjoner av forhåndssalg. Hvis du vil unngå å påvirke Microsoft Teams i organisasjonen, kan du få en Microsoft 365-demokonto på [https://aka.ms/CDX](https://aka.ms/CDX). Denne kontoen gir deg full kontroll over en uavhengig Azure-organisasjon som inkluderer Microsoft Teams og [!INCLUDE [prod_short.md](includes/prod_short.md)]. Finn ut mer under [Klargjøre demonstrasjonsmiljøer av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment).
 
-### <a name="does-the-prod_shortmd-app-for-teams-cater-for-my-customization-and-personalization"></a>Kan [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams tilpasses og personaliseres?
+### <a name="does-the-prod_shortmd-app-for-teams-cater-to-my-customization-and-personalization"></a>Kan [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams tilpasses og personaliseres?
 
 [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams kan vise kort for koblinger til kundesider og -tabeller i [!INCLUDE [prod_short.md](includes/prod_short.md)], for eksempel sidene og tabellene som kommer fra tilpassede tillegg eller fra AppSource.
 
@@ -114,7 +114,7 @@ Når du søker etter kontakter, påvirkes feltene som samsvarer med tabellen **K
 
 ### <a name="how-do-the-permissions-required-by-the-app-affect-my-privacy"></a>Hvordan påvirker tillatelsene som kreves av appen, personvernet mitt?
 
-Før du installerer [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams, kan du gå gjennom minimumstillatelsene som kreves for at appen skal fungere. Når du installerer appen, godtar du at appen har tillatelse til å motta meldinger og data som du oppgir, og at Teams har tillatelse til å lagre og behandle disse meldingene.
+Før du installerer [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams, kan du gå gjennom minimumstillatelsene som kreves for at appen skal fungere. Når du installerer appen, gir du appen tillatelse til å motta meldingene og dataene som du oppgir i den, og du gir Teams tillatelse til å lagre og behandle disse meldingene.
 
 Enkelte [!INCLUDE [prod_short.md](includes/prod_short.md)]-funksjoner krever også eksterne koblinger eller tilgang til kameraet eller geografisk plassering. La oss for eksempel anta at du vil ta et bilde av en kjøpsfaktura for behandling. [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen bruker ikke disse funksjonene uten ditt samtykke, og de brukes bare av bestemte funksjoner i **Detaljer**-vinduet. Når du bruker en av disse funksjonene for første gang, vises en dialogboks i Teams der du blir bedt om å gi tilgang til de nødvendige enhetsegenskapene.
 
@@ -143,7 +143,7 @@ Hvis du ønsker ta del i forbedre appen for Teams, eller hvis du har en idé som
 
 ### <a name="where-can-i-find-teams-integration-inside-the-business-central-web-client"></a>Hvor finner jeg Teams-integrering i Business Central-nettklienten? 
 
-Hvis du trenger funksjonalitet i nettklienten som kobler til Teams, kan du se [Del poster og sidekoblingene i Microsoft Teams](across-working-with-teams.md#share-link).
+Hvis du vil finne ut mer om funksjonaliteten i nettklienten som kobler til Teams, kan du se [Del poster og sidekoblingene i Microsoft Teams](across-working-with-teams.md#share-link).
 
 ## <a name="search-for-contacts"></a>[Søk etter kontakter](#tab/contacts)
 
@@ -156,7 +156,6 @@ Når du søker etter kontakter fra [!INCLUDE [prod_short.md](includes/prod_short
 Når du skriver inn søkeordene i søkeboksen, sammenlignes vilkårene med de fleste feltene i tabellen **Kontakter**. Feltene inkluderer for eksempel **Nr.**, **Navn**, **Adresse** og **Telefonnr.** eller **Mobiltelefonnr.** og **E-post**. 
 
 Søkeord samsvarer ikke med egendefinerte felter som legges til i tabellen **Kontakter** etter apper og utvidelser.
-
 ### <a name="do-search-results-include-companies-and-persons"></a>Inkluderer søkeresultater selskaper og personer?
 
 Ja. I [!INCLUDE [prod_short.md](includes/prod_short.md)] kan kontakter være av typen **Selskap** eller **Person**, der én eller flere personer kan knyttes til et selskap. I søkeresultatene har selskaper og personer ulike ikoner.
@@ -270,7 +269,7 @@ Når du skriver og sender en melding til chat som inneholder et kort, vil alle b
 
 ### <a name="how-do-i-find-out-which-company-a-card-in-teams-belongs-to"></a>Hvordan finner jeg ut hvilket selskap et kort i Teams tilhører?
 
-Hvis du arbeider på tvers av [!INCLUDE [prod_short.md](includes/prod_short.md)]-selskaper, må du snakke med systemansvarlig om å aktivere et firmakort for hvert selskap. Når dette alternativet er aktivert, vises dette iøynefallende tipset i alle detaljvinduer i Teams, med selskapet og miljøene som posten tilhører. Hvis du vil vite hvordan du oppretter firmakort, kan du se [Vise et selskapsmerke for rask tilgang til selskapsinformasjon](ui-change-basic-settings.md#badge).
+Hvis du arbeider på tvers av [!INCLUDE [prod_short.md](includes/prod_short.md)]-selskaper, må du snakke med systemansvarlig om å aktivere et firmakort for hvert selskap. Når dette alternativet er aktivert, vises dette iøynefallende tipset i alle detaljvinduer i Teams, med selskapet og miljøene som posten tilhører. Hvis du vil finne ut hvordan du oppretter firmakort, kan du se [Vis et selskapsmerke](admin-company-information.md#badge).
 
 ## <a name="work-with-card-details"></a>[Arbeid med kortdetaljer](#tab/carddetails)
 
@@ -326,7 +325,7 @@ Gjester har ikke tilgang til appmarkedsplassen for å installere appene selv. Ap
 
 ### <a name="does-share-to-teams-send-a-compact-card"></a>Sender Del til Teams et kompaktkort? 
 
-På dette tidspunktet deles bare en dyp kobling til siden. Mottakerne ser en hyperkobling i meldingen din slik at de kan velge for å ta dem til [!INCLUDE [prod_short.md](includes/prod_short.md)] i et eget nettleservindu. 
+Ja. Koblingen utvides automatisk til et kort hvis du har installert Business Central-appen for Teams. 
 
 ### <a name="will-recipients-receive-the-message-from-me-or-from-a-business-central-service-account"></a>Skal mottakerne motta meldingen fra meg eller fra en Business Central-tjenestekonto? 
 

@@ -10,12 +10,12 @@ ms.search.keywords: postpone
 ms.search.form: 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: d7eac169dc75f81f1d696a4a1e7344b5235a83a3
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9d6acc41574870d691a14913ed0222df36dbeb74
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529097"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605519"
 ---
 # <a name="defer-revenues-and-expenses"></a>Periodisere inntekter og utgifter
 
@@ -95,6 +95,18 @@ Finansposter som skal posteres til den angitte periodiseringskontoen, for eksemp
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Periodiseringssammendrag for Salg**, og velg deretter den relaterte koblingen.
 2. På siden **Periodiseringssammendrag for Salg** i **Saldo per**-feltet, angir du den siste datoen du vil se periodiserte inntekter for.
 3. Velg **Forhåndsvisning**-knappen.
+
+## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>Slik angir du en periode der du kan tillate periodiseringsbokføring
+
+Du kan angi en periode der brukere kan bokføre transaksjoner, ved å angi datoer i feltene **Bokf. tillatt fra** og **Bokf. tillatt til** på følgende måte:
+
+* For alle brukere på siden **Finansoppsett**
+* For bestemte brukere på siden **Brukeroppsett**
+
+Hvis du har gjort det, må du gjøre et unntak for periodiseringer for at de skal kunne bokføres utenfor perioden. Hvis du vil definere perioden, følger du disse trinnene.
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansoppsett** eller **Brukeroppsett**, og velg deretter den relaterte koblingen.
+2. I feltene **Tillat periodiseringsbokføring fra** og **Tillat periodiseringsbokføring til** angir du en start- og sluttdato for perioden.
 
 ## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/processing-invoices-dynamics-365-business-central/)
 
