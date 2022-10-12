@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: version
-ms.date: 06/08/2022
+ms.date: 08/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 05ff8b9acb0c69f42c8ad36ab8a588c9b597424a
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
+ms.openlocfilehash: 34fc581e0140826e957b50b649d3b72573403552
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950439"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607692"
 ---
 # <a name="minimum-requirements-for-using-business-central"></a>Minimumskrav for å bruke Business Central
 
@@ -41,9 +41,6 @@ Før du åpner [!INCLUDE[prod_short](includes/prod_short.md)] på nettet, anbefa
 
 **Outlook-apper:** Hvis du vil bruke [!INCLUDE[prod_short](includes/prod_short.md)] Online som bedriftsinnboks i Outlook, må du ha Outlook 2019 eller nyere, Outlook på nettet, Outlook for iOS eller Outlook for Android. Organisasjonen må også bruke Microsoft 365. Du kan ikke bruke [!INCLUDE[prod_short](includes/prod_short.md)] på nettet som bedriftsinnboks i Outlook hvis organisasjonen bruker Exchange Server lokalt. 
 
-> [!IMPORTANT]
-> Fra og med lanseringsbølge 2 for Business Central 2021 kan du ikke lenger logge deg på Business Central-tillegget fra Outlook-versjoner som er eldre enn 2012.
-  
 **Nettlesere:** Når du bruker [!INCLUDE[prod_short](includes/prod_short.md)] som innboks for virksomheten i Outlook i en nettleser, krever tillegget at datamaskinen kjører én av de oppførte støttede nettleserne som er oppført tidligere i denne artikkelen.
 
 **Plattformer:** Når du bruker [!INCLUDE[prod_short](includes/prod_short.md)]-tillegget for Outlook i Outlook for iOS eller Outlook for Android, krever tillegget at mobilenheten kjører én av de oppførte mobilenhetene som støttes for [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -61,9 +58,6 @@ Før du åpner [!INCLUDE[prod_short](includes/prod_short.md)] på nettet, anbefa
 ## <a name="excel"></a>Excel
 
 **Rediger i Excel:** For å bruke Excel-tillegget for å gjøre endringer i Excel og sende endringene tilbake til [!INCLUDE[prod_short](includes/prod_short.md)], må du ha Excel 2019 eller senere. Hvis du vil ha mer informasjon, se [Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md).  
-
-> [!IMPORTANT]
-> Fra og med lanseringsbølge 2 for Business Central 2021 vil Excel-tillegget bare støtte Excel-versjonen 2012 eller nyere.
 
 ## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a> Bruk administrasjonssenteret for Business Central
 

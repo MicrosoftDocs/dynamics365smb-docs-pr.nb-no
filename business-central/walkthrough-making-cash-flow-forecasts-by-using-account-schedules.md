@@ -1,33 +1,33 @@
 ---
-title: Kontantstrømprognoser ved å bruke kontoskjemaer
-description: Denne gjennomgangen beskriver hvordan du kan bruke kontoskjemaer til å lage kontantstrømprognoser i Business Central.
+title: Lage kontantstrømprognoser ved å bruke finansrapporter
+description: Denne gjennomgangen beskriver hvordan du kan bruke finansrapporter til å lage kontantstrømprognoser i Business Central.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 06/24/2021
+ms.date: 08/18/2022
 ms.author: edupont
-ms.openlocfilehash: 7238b4de3b4a48c61560bc9a96a6923afe82eb93
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 4f3b406435b52d632d20553181aa5f106dc6a387
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533485"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606860"
 ---
-# <a name="walkthrough-making-cash-flow-forecasts-by-using-account-schedules"></a>Gjennomgang: Lage kontantstrømprognoser ved å bruke kontoskjemaer
+# <a name="walkthrough-making-cash-flow-forecasts-using-financial-reports"></a>Gjennomgang: Lage kontantstrømprognoser ved å bruke finansrapporter
 
-Denne gjennomgangen beskriver hvordan du kan bruke kontoskjemaer til å lage kontantstrømprognoser. Kontoskjemaer utfører beregninger som ikke kan utføres direkte i diagrammet over kontantstrømkontoer. I kontoskjemaer kan du definere delsummer for kontantstrømmottak og -utbetalinger. Disse delsummene kan inkluderes i nye totalsummer som deretter kan brukes til å lage kontantstrømprognoser.  
+Denne gjennomgangen beskriver hvordan du kan bruke finansrapportfunksjonen til å lage kontantstrømprognoser. Finansrapporter utfører beregninger som ikke kan utføres direkte i diagrammet over kontantstrømkontoer. I finansrapportene kan du definere delsummer for kontantstrømmottak og -utbetalinger. Disse delsummene kan inkluderes i nye totalsummer som deretter kan brukes til å lage kontantstrømprognoser.  
 
-## <a name="about-this-walkthrough"></a>Denne gjennomgangen
+## <a name="about-this-walkthrough"></a>Om denne gjennomgangen
 
 Denne gjennomgangen beskriver følgende oppgaver:  
 
-- Definere et nytt navn for kontantstrømkontoskjema.  
-- Definere kontoskjemalinjer.  
-- Definere et nytt kolonneoppsett.  
-- Tilordne et kolonneoppsett til et kontoskjema.  
+- Definere et nytt navn for kontantstrømfinansrapporten.  
+- Definer finansrapportlinjer.  
+- Definer en ny kolonnedefinisjon.  
+- Tildel en kolonnedefinisjon til en finansrapport.  
 - Vise og skrive ut kontantstrømprognosen.  
 
 ### <a name="prerequisites"></a>Forutsetninger
@@ -35,7 +35,7 @@ Denne gjennomgangen beskriver følgende oppgaver:
 For å fullføre denne gjennomgangen må du gjøre følgende:  
 
 - [!INCLUDE[prod_short](includes/prod_short.md)]  
-- Forslagslinjene for kontantstrøm registreres  
+- Et kontantstrømforslag med registrerte linjer  
 
 ## <a name="roles"></a>Roller
 
@@ -45,44 +45,44 @@ Denne gjennomgangen viser oppgaver som utføres av følgende brukerrolle:
 
 ## <a name="story"></a>Hovedscenario
 
-Ken er kontrollør på CRONUS og utarbeider månedlige kontantstrømprognoser. Han tar med finans, salg, kjøp og aktiva i prognosen, og deretter viser han den til ØKDIR Sara.  
+Ken er kontrollør på CRONUS og utarbeider månedlige kontantstrømprognoser. Han tar med finans, salg, kjøp og aktiva i prognosene, som han deretter presenterer til ØKDIR Sara for forretningsinnsikt.  
 
-## <a name="setting-up-a-new-account-schedule-name"></a>Definere et nytt kontoskjemanavn
+## <a name="setting-up-a-new-financial-report-name"></a>Definer et nytt navn for finansrapporten
 
-Et kontoskjema består av et navn på kontoskjemaet for kontantstrøm med en rekke linjer og et kolonneoppsett.  
+Navnet på finansrapporten er navnet du gir kontantstrømprognosen som inkluderer en serie med definerte linjer og en kolonnedefinisjon.  
 
-### <a name="to-set-up-a-new-account-schedule-name"></a>Slik definerer du et nytt kontoskjemanavn  
+### <a name="set-up-a-new-financial-report-name"></a>Definer et nytt navn for finansrapporten  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kontoskjemaer**, og velg deretter den relaterte koblingen.  
-2. Velg **Ny** på siden **Kontoskjemanavn** for å opprette et nytt navn for kontantstrømkontoskjema.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansrapporter**, og velg deretter den relaterte koblingen.  
+2. Velg handlingen **Ny** på siden **Finansrapporter** for å opprette et nytt navn på kontantstrømfinansrapporten.  
 3. I **Navn**-feltet angir du **Prognose**.  
 4. I **Beskrivelse**-feltet angir du **Kontantstrømprognose**.  
-5. La feltene **Standard kolonneoppsett** og **Analysevisningsnavn** være tomme.  
+5. La feltene **Raddefinisjon** og **Kolonnedefinisjon** stå tomme.
 
-## <a name="setting-up-account-schedule-lines"></a>Definere kontoskjemalinjer
+## <a name="setting-up-row-definition-lines"></a>Definer raddefinisjonslinjer
 
-Etter at et kontoskjemanavn er angitt, definerer Ken hver linje som vises i kontoskjemaet for kontantstrøm. Ken definerer linjer som kan vises i rapporter, i tillegg til linjer som bare er til beregningsformål.  
+Når et finansrapportnavn er definert, definerer Ken hver linje i kontantstrømfinansrapport. Ken definerer linjer som skal vises i rapporter, i tillegg til linjer som bare er til beregningsformål.  
 
-### <a name="to-set-up-account-schedule-lines"></a>Definere kontoskjemalinjer  
+### <a name="set-up-row-definition-lines"></a>Definer raddefinisjonslinjer  
 
-1. På siden **Kontoskjemanavn** velger du det nye **Prognose**-kontoskjemanavnet du opprettet, og deretter velger du handlingen **Rediger kontoskjema**.  
-2. På siden **Kontoskjema** angir du hver linje som vist i tabellen nedenfor.  
+1. På siden for **Finansrapporter** velger du den nye finansrapporten **Prognose** du opprettet, og deretter velger du handlingen **Rediger raddefinisjon**.  
+2. På siden **Raddefinisjon** angir du hver linje som vist i tabellen nedenfor.  
 
     > [!TIP]  
-    >  Du kan bruke funksjonen **Sett inn kontantstrømkonti** til raskt å merke kontantstrømkontoene i kontantstrømkontoplanen og kopiere dem til kontoskjemalinjer.  
+    > Bruk funksjonen **Sett inn kontantstrømkontoer** til raskt å merke kontantstrømkontoene i kontantstrømkontoene og kopiere dem til raddefinisjonslinjer.  
 
-    | Radnr. | Beskrivelse              | Sammentellingstype            | Sammentelling | Radtype   | Beløpstype | Vis |
+    | Radnr. | Description              | Sammentellingstype            | Sammentelling | Radtype   | Beløpstype | Visning |
     |---------|--------------------------|--------------------------|----------|------------|-------------|------|
-    | R10     | Åpne ordrer        | Konti for kontantstrømoppføring | 20       |Bevegelse | Nettobeløp  | Ja  |
+    | R10     | Salg              | Konti for kontantstrømoppføring | 10       |Bevegelse | Nettobeløp  | Ja  |
+    | R10     | Åpne ordrer        | Kontoer for kontantstrømoppføring | 20       |Bevegelse | Nettobeløp  | Ja  |
     | R10     | Leie                  | Konti for kontantstrømoppføring | 30       |Bevegelse | Nettobeløp  | Ja  |
     | R10     | Økonomiske aktiva         | Konti for kontantstrømoppføring | 40       |Bevegelse | Nettobeløp  | Ja  |
     | R10     | Aktivasalg    | Konti for kontantstrømoppføring | 50       |Bevegelse | Nettobeløp  | Ja  |
     | R10     | Private investeringer      | Konti for kontantstrømoppføring | 60       |Bevegelse | Nettobeløp  | Ja  |
     | R10     | Diverse mottak   | Konti for kontantstrømoppføring | 70       |Bevegelse | Nettobeløp  | Ja  |
-    | R10     | Åpne serviceordrer      | Konti for kontantstrømoppføring | 80       |Bevegelse | Nettobeløp  | Ja  |
+    | R10     | Åpne serviceordrer      | Kontoer for kontantstrømoppføring | 80       |Bevegelse | Nettobeløp  | Ja  |
     | R20     | Kontantmottak totalt      | Formel                  | R10      |Bevegelse | Nettobeløp  | Ja  |
-    | R20     | Kontantmottak totalt      | Formel                  | R10      |Bevegelse | Nettobeløp  | Ja  |
-    | R30     | Kjøp                 | Konti for kontantstrømoppføring | 1010     |Bevegelse | Nettobeløp  | Ja  |
+    | R30     | Kjøp                 | Kontoer for kontantstrømoppføring | 1010     |Bevegelse | Nettobeløp  | Ja  |
     | R30     | Åpne bestillinger     | Konti for kontantstrømoppføring | 1020     |Bevegelse | Nettobeløp  | Ja  |
     | R30     | Personalkost          | Konti for kontantstrømoppføring | 1030     |Bevegelse | Nettobeløp  | Ja  |
     | R30     | Løpende kostnader            | Konti for kontantstrømoppføring | 1040     |Bevegelse | Nettobeløp  | Ja  |
@@ -93,60 +93,57 @@ Etter at et kontoskjemanavn er angitt, definerer Ken hver linje som vises i kont
     | R30     | Andre utgifter           | Konti for kontantstrømoppføring | 1110     |Bevegelse | Nettobeløp  | Ja  |
     | R40     | Total for kontantutbetalinger | Formel                  | R30      |Bevegelse | Nettobeløp  | Ja  |
     | R50     | Overskudd                  | Formel                  | R20+R40  |Bevegelse | Nettobeløp  | Ja  |
-    | R60     | Kontantstrømmidler          | Konti for kontantstrømoppføring | 2100     |Bevegelse | Nettobeløp  | Ja  |
+    | R60     | Kontantstrømmidler          | Kontoer for kontantstrømoppføring | 2100     |Bevegelse | Nettobeløp  | Ja  |
     | R70     | Total kontantstrøm          | Formel                  | R50+R60  |Bevegelse | Nettobeløp  | Ja  |
 
     > [!NOTE]
     > Radnummeret R10 brukes til å registrere kontosummene for salg. Radnummeret R20 brukes til å beregne summen av alle innbetalinger. Radnummeret R30 brukes til å registrere kontosummene for kjøp. Radnummeret R40 brukes til å beregne summen av alle kontantutbetalinger. Radnummeret R50 brukes til å registrere summen av kontantoverskudd. Radnummeret R60 brukes til å registrere de likvide midlene. Radnummeret R70 brukes til å beregne den prognostiserte kontantstrømmen.
 
-## <a name="setting-up-a-new-column-layout"></a>Definere et nytt kolonneoppsett
+## <a name="setting-up-a-new-column-definition"></a>Definer en ny kolonnedefinisjon
 
-Før Ken kan skrive ut kontantstrømprognosen, må han opprette kolonneoppsettet for den numeriske informasjonen. Han definerer informasjon han vil bruke fra linjene, i kolonnene.
+Før Ken kan skrive ut kontantstrømprognosen, må han opprette kolonnedefinisjonen for den numeriske informasjonen. Han definerer informasjon han vil bruke fra linjene, i kolonnene.
 
 - Den første kolonnen viser tallet *C10* med tittelen **Beløp**, og inneholder bevegelsen.  
 - Den andre kolonnen viser tallet *C20* med tittelen **Saldo per dato**, og inneholder transaksjoner for perioden.  
 - Den tredje kolonnen har tallet *C30* med tittelen **Hele året**, og viser bevegelsen i saldoene for hele regnskapsåret.  
-- Til slutt tilordner han kolonneoppsettet som standard kolonneoppsett for kontoskjemaet **Prognose**.  
+- Til slutt tildeler han kolonnedefinisjonen som standardalternativ for finansrapporten **Prognose**.  
 
-## <a name="to-set-up-a-new-column-layout"></a>Definere et nytt kolonneoppsett
+### <a name="set-up-a-new-column-definition"></a>Definer en ny kolonnedefinisjon
 
-1. Velg det nye kontoskjemanavnet for **Prognose** du har opprettet, i vinduet **Kontoskjemanavn**. I fanebladet **Hjem** under **Prosess** velger du **Rediger oppsett for kolonneutforming**.
+1. Velg det nye finansrapportnavnet for **Prognose** på siden **Finansrapporter**. På fanen **Hjem** under **Prosess** velger du **Rediger oppsett for kolonnedefinisjon**.
 
-    > [!TIP]
-    > Du kan finne den samme handlingen på siden **Kontoskjema** hvis du fremdeles redigerer kontoskjemaet **Prognose** der.
+2. Opprett en ny kolonnedefinisjon med navnet **Kontantstrøm**.
 
-2. Opprett et nytt kolonneoppsett med navnet **Kontantstrøm**.
-
-3. Velg OK-knappen.
+3. Velg **OK**-knappen.
 
 4. Angi hver linje nøyaktig som vist i tabellen nedenfor.
 
-    |Kolonnenr.|Kolonneoverskrift|Kolonnetype|Postoppføringstype|Beløpstype|Vis|  
+    |Kolonnenr.|Kolonneoverskrift|Kolonnetype|Postoppføringstype|Beløpstype|Visning|  
     |----------|-------------|-----------|-----------------|-----------|----|
-    |C10|Beløp|Bevegelse|Poster|Nettobeløp|Alltid|  
-    |C20|Beløp til dato|Saldo til dato|Poster|Nettobeløp|Alltid|  
-    |C30|Hele regnskapsåret|Hele regnskapsåret|Poster|Nettobeløp|Alltid|
+    |C10|Beløp|Bevegelse|Oppføringer|Nettobeløp|Alltid|  
+    |C20|Beløp til dato|Saldo per dato|Oppføringer|Nettobeløp|Alltid|  
+    |C30|Helt regnskapsår|Helt regnskapsår|Oppføringer|Nettobeløp|Alltid|
 
-## <a name="assigning-the-column-layout-to-the-account-schedule-name"></a>Tilordne kolonneoppsettet til kontoskjemanavnet
+## <a name="assigning-the-column-definition-to-the-financial-report-name"></a>Tildel kolonnedefinisjonen til finansrapportnavnet
 
-Ken er nå klar til å tilordne kolonneoppsettet til kontoskjemanavnet.  
+Ken er nå klar til å tildele kolonnedefinisjonen til finansrapportnavnet.  
 
-### <a name="to-assign-the-column-layout-to-the-account-schedule-name"></a>Slik tilordner du kolonneoppsettet til kontoskjemanavnet:  
+### <a name="assign-the-column-definition-to-the-financial-report-name"></a>Tildel kolonnedefinisjonen til finansrapportnavnet
 
-1. På siden **Kontoskjema**, der du arbeider med kontoskjemaet **Prognose**, velger du handlingen **Rediger oppsett for kolonneutforming**.  
-2. Velg kolonneoppsettet **Kontantstrøm** i feltet **Navn på kolonneoppsett** for å bruke det som standard kolonneoppsett.  
+1. På siden **Finansrapporter** velger du finansrapporten **Prognose**, og deretter velger du handlingen **Rediger kolonnedefinisjon**.  
+2. Velg kolonnedefinisjonen **Kontantstrøm** i feltet **Navn** for å bruke det som standard kolonnedefinisjon.  
 
-### <a name="to-view-and-print-the-cash-flow-forecast"></a>Slik viser og skriver du ut kontantstrømprognosen:
+## <a name="view-and-print-the-cash-flow-forecast"></a>Vis og skriv ut kontantstrømprognosen
 
-1. Velg **Oversikt**-handlingen på siden **Kontoskjemanavn** for å vise kontantstrømprognosen.  
-2. På siden **Kto.skjemaoversikt** kan du velge et beløp og deretter vise kontantstrømprognosepostene som utgjør beløpet. I tillegg kan du vise formelen som brukes til å beregne beløpet. Du kan også filtrere beløpene etter dato og dimensjon.  
+1. Velg handlingen finansrapporten **Prognose** på siden **Finansrapporter** for å vise kontantstrømprognosen.  
+2. På siden **Finansrapport** kan du velge et beløp og deretter vise kontantstrømprognosepostene som utgjør beløpet. I tillegg kan du vise formelen som brukes til å beregne beløpet. Du kan også filtrere beløpene etter dato og dimensjon.  
 3. Velg **Skriv ut**-handlingen for å skrive ut kontantstrømprognosen.  
 
 ## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
 
 ## <a name="see-also"></a>Se også
 
-[Arbeide med kontoskjemaer](bi-how-work-account-schedule.md)  
+[Arbeid med finansrapporter](bi-how-work-account-schedule.md)  
 [Analyser kontantstrømmen i firmaet](finance-analyze-cash-flow.md)  
 [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

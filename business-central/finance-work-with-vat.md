@@ -10,12 +10,12 @@ ms.search.keywords: VAT, sales, purchases
 ms.search.form: 7, 118, 130, 142, 459, 460, 525
 ms.date: 06/16/2021
 ms.author: bholtorf
-ms.openlocfilehash: b8c09f49b741f7979f79f5e3305ef11258ffaaea
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 0a8d8f32613af2c0aab6905f62682e3c93307993
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530922"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617824"
 ---
 # <a name="work-with-vat-on-sales-and-purchases"></a>Arbeide med mva på kjøp og salg
 Hvis landet eller området krever at du beregner og rapporterer merverdiavgift (mva.) i salgs- og kjøpstransaksjoner, kan du definere [!INCLUDE[prod_short](includes/prod_short.md)] for å beregne mva. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md).
@@ -61,6 +61,18 @@ Avhengig av hva du vil gjøre, kan du tildele en mva-bokføringsgruppe for firma
 
 #### <a name="examples"></a>Eksempler
 Faktorer som landet eller området du selger til, eller bransjetypen du selger til, kan påvirke det mva-beløpet du må ta med i beregningen. En restaurant kan for eksempel ta 6 % mva for måltider som spise inne, og 17 % for takeaway. For å gjøre det må du opprette en mva-bokføringsgruppe for firma (pris) for internt og en for takeaway.
+
+## <a name="working-with-vat-date"></a>Arbeid med mva-dato
+### <a name="vat-date-in-documents"></a>Mva-dato i dokumenter
+Når du oppretter nye salgs- eller kjøpsdokumenter, er **mva-datoen** være basert på innstillingen i feltet **Standard mva-dato** på siden **Finansoppsett**. Denne standardverdien kan være den samme som **bokføringsdato** eller **dokumentdato**. Hvis du trenger en annen mva-dato, kan du endre verdien i feltet **Mva-dato** manuelt. Når du bokfører dokumentet, vises **mva-datoen** i bokføringsdokumentet og på mva- og finansposter.
+
+### <a name="correcting-vat-date-in-posted-entries"></a>Korriger mva-dato i bokførte poster
+I noen tilfeller er det nødvendig å endre mva-dato selv om dokumentet er bokført og dette er mulig å gjøre i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil endre **mva-dato** for bokførte dokumenter, må du følge denne fremgangsmåten:
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Mva-poster** og velger deretter den relaterte koblingen.
+2. Finn posten med feil mva-dato.
+3. Klikk på handlingen **Rediger liste**, og angi riktig dato i feltet **Mva-dato**.
+4. Lukk siden.
+5. Ny mva-dato blir endret i relaterte **finansposter** og i det bokførte dokumentet hvis det finnes.
 
 ## <a name="correcting-vat-amounts-manually-in-sales-and-purchase-documents"></a>Korrigere mva-beløp manuelt i salgs- og kjøpsdokumenter  
 Du kan korrigere mva-poster som er bokført slik at du kan endre de samlede inngående eller utgående mva-beløpene uten å endre mva-basen. Hvis du for eksempel mottar en faktura fra en leverandør med feil mva-beløp.  

@@ -10,12 +10,12 @@ ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate,
 ms.search.form: 1500,
 ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: 369ee2b4aded272a8a3a21fe810b4b6c62dd1de0
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.openlocfilehash: 5fe089c0330a8d2b7a71f4907212665722d27d38
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585463"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606525"
 ---
 # <a name="use-power-automate-flows-in-prod_short"></a>Bruk Power Automate-flyter i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -43,9 +43,7 @@ Med Power Automate kan du opprette forretningsflyter direkte internt og stole p�
 
 ## <a name="instant-flows"></a>Direkteflyter
 
-Fra og med lanseringsbølge 1 i 2022 (mai 2022) kan en administrator for [!INCLUDE [prod_short](includes/prod_short.md)] på nettet [slå på en funksjon](admin-feature-management.md) for å gjøre det mulig å kjøre en Power Automate-flyt fra de fleste lister, kort og dokumentsider. Finn ut mer i artikkelen [Konfigurer automatiserte arbeidsflyter](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) i administrasjonsinnholdet.
-
-Når administratoren har koblet [!INCLUDE [prod_short](includes/prod_short.md)] til Power Automate, ser du eventuelle flyter organisasjonen har lagt til, når du velger handlingen **Automatiser** på de aktuelle sidene. Direkteflyter kjøres uten å forlate [!INCLUDE [prod_short](includes/prod_short.md)].
+[!INCLUDE [prod_short](includes/prod_short.md)] kan kjøre en Power Automate-flyt fra de fleste liste-, kort- og dokumentsider. Når administratoren har koblet [!INCLUDE [prod_short](includes/prod_short.md)] til Power Automate, ser du eventuelle flyter organisasjonen har lagt til, når du velger handlingen **Automatiser** på de aktuelle sidene. Direkteflyter kjøres uten å forlate [!INCLUDE [prod_short](includes/prod_short.md)]. Finn ut mer i artikkelen [Konfigurer automatiserte arbeidsflyter](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) i administrasjonsinnholdet.
 
 Disse direktearbeidsflytene åpnes på en side i [!INCLUDE [prod_short](includes/prod_short.md)] på nettet slik at du kan forbli innenfor konteksten til forretningsprosessen du holdt på med. Velg **Automatiser**-handlingen – på noen sider nestet under **Flere alternativer**-menyen – velg **Power Automate**-menyelementet, og velg deretter den relevante koblingen som skal utløse arbeidsflyten. Tilkoblingen til Power Automate er allerede satt opp for deg.
 
@@ -62,7 +60,7 @@ Du kan finne eksempel maler som kan tilpasses selskapet, og alle tilgjengelige u
 
 ## <a name="manage-automated-workflows"></a>Administrer automatiserte arbeidsflyter
 
-Du kan opprette nye flyter eller håndtere eksisterende Power Automate-flyter i [!INCLUDE [prod_short](includes/prod_short.md)] på siden **Administrer Power Automate-flyter**. Finn ut mer i artikkelen [Administrer Power Automate-flyter](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows.md) i administrasjonsinnholdet.
+Du kan opprette nye flyter eller håndtere eksisterende Power Automate-flyter i [!INCLUDE [prod_short](includes/prod_short.md)] på siden **Administrer Power Automate-flyter**. Finn ut mer i artikkelen [Administrer Power Automate-flyter](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows) i administrasjonsinnholdet.
 
 Du kan også administrere tilgjengelige Power Automate-arbeidsflyter på siden **Arbeidsflyter** i [!INCLUDE[prod_short](includes/prod_short.md)]. Siden viser både innebygd godkjenning og Power Automate-arbeidsflyter, med alternativer for sistnevnte for å aktivere/deaktivere, slette og vise arbeidsflyten på Power Automate-nettstedet.
 

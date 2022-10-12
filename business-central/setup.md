@@ -1,45 +1,45 @@
 ---
 title: Oversikt over oppgaver for å definere Business Central
-description: Les en oversikt over oppgavene for å definere, initialisere og konfigurere Business Central etter behov.
+description: Les en oversikt over oppgavene nødvendige for å definere, initialisere og konfigurere Business Central etter behov.
 author: edupont04
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: configure, initialize
-ms.date: 06/23/2021
+ms.date: 09/27/2022
 ms.author: edupont
-ms.openlocfilehash: 10b9483d46caa9fff156a80f5301521ae9c36d63
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 65fd173213af21631b27019a79fc8030d6839daf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8510768"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9604837"
 ---
 # <a name="overview-of-tasks-to-set-up-prod_short"></a>Oversikt over oppgaver for å definere [!INCLUDE[prod_short](includes/prod_short.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for organisasjonen. Artiklene om [hurtigstart for Business Central](quick-start-business-central.md) kan hjelpe deg med å ta de første trinnene mot å gjøre [!INCLUDE [prod_short](includes/prod_short.md)] til din egen. Denne artikkelen gir en oversikt over hvordan du kan konfigurere [!INCLUDE [prod_short](includes/prod_short.md)] for organisasjonen.  
+[!INCLUDE[prod_short](includes/prod_short.md)] inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for organisasjonen. Artiklene om [hurtigstart for Business Central](quick-start-business-central.md) hjelper deg med å ta de første trinnene mot å gjøre [!INCLUDE [prod_short](includes/prod_short.md)] til din egen. Denne artikkelen gir en oversikt over hvordan du kan konfigurere [!INCLUDE [prod_short](includes/prod_short.md)] for organisasjonen.
 
-Kontoplanen er for eksempel forhåndsutfylt med en rekke posteringskontoer som er klar til bruk. Du kan selvsagt endre kontoplanen til dine behov. Hvis du vil ha mer informasjon, kan du se [Finans](finance.md).
+Kontoplanen er for eksempel forhåndsutfylt med posteringskontoer som er klare til bruk. Du kan selvsagt endre kontoplanen til dine behov. Finn ut mer under [Finans](finance.md).
 
-Fra menyen ![tannhjulikonet for å åpne Innstillinger-menyen.](media/ui-experience/settings_icon_small.png) har du tilgang til assisterte oppsettsveiledninger som hjelper deg med å konfigurere enkelte scenarioer og legger til funksjoner i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha informasjon om hvordan du får tilgang til og definerer sider manuelt, kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
+Fra menyen ![tannhjulikonet for å åpne Innstillinger-menyen.](media/ui-experience/settings_icon_small.png) har du tilgang til assisterte oppsettsveiledninger for å hjelpe deg med å konfigurere enkelte scenarioer og legger til funksjoner i [!INCLUDE[prod_short](includes/prod_short.md)]. Finn ut mer om hvordan du får tilgang til og definerer sider manuelt under [Bli klar til å gjøre forretninger](ui-get-ready-business.md).
 
 > [!NOTE]
 > [!INCLUDE [ua-checklist](includes/ua-checklist.md)]
 
-Noe funksjonalitet, både generell eller for bestemte forretningsprosesser, kan defineres manuelt i tillegg til den assisterte oppsettsveiledningen. Nedenfor vises noen av funksjonaliteten som du kan du kan angi manuelt.
+i tillegg til veiledningene for assistert oppsett kan noe generell funksjonalitet og bestemte forretningsprosesser defineres manuelt. Tabellen nedenfor vises noen av funksjonaliteten kan du kan angi manuelt.
 
-| Hvis du vil | Se |
+| Til | Se |
 | --- | --- |
 | Sett opp betalingsmåter, valutaer og kontoplanen, og definer regler og standarder for håndtering av finanstransaksjoner. |[Konfigurere finans](finance-setup-finance.md) |
 | Sett opp din egen og leverandørenes bank kontoer og aktivere tjenester for import og eksport av bankfilene. |[Konfigurere banktjenester](bank-setup-banking.md) |
 | Konfigurere regler og verdier som definerer selskapets policyer for salg, registrere nye kunder og definere hvordan du kommuniserer med kundene. |[Sette opp salg](sales-setup-sales.md) |
 | Konfigurere regler og verdier som definerer selskapets innkjøpspolicyer, registrere nye leverandører og prioritere leverandørene for betalingsbehandling. |[Definere kjøp](purchasing-setup-purchasing.md) |
 | Konfigurere regler og verdier som definerer firmaets lager, sette opp steder Hvis du beholder lager i flere lagre og kategorisere elementer for å forbedre søk og sortering. |[Definere lager](inventory-setup-inventory.md) |
-|Angi standardrapporter som skal brukes for ulike dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
+|Angi standardrapporter som brukes med ulike dokumenttyper.|[Rapportvalg for dokumenter](across-report-selections.md)|
 | Konfigurer ressurser, timelister og jobber til å administrere prosjekter. |[Konfigurere prosjektstyring](projects-setup-projects.md) |
-| Konfigurere hvordan du forsikrer, vedlikeholder og avskrivner aktiva, og hvordan du registrerer kostnadene for aktiva i bedriftsbøkene. |[Definere aktiva](fa-setup.md) |
-|Definere generelle regler og verdier for lagerprosesser og den spesifikke håndteringen på hver lokasjon.|[Definere lagerstyring](warehouse-setup-warehouse.md)|
+| Konfigurere hvordan du forsikrer, vedlikeholder og avskrivner aktiva, og definer hvordan du registrerer kostnadene for aktiva i bedriftsbøkene. |[Definere aktiva](fa-setup.md) |
+|Definere generelle regler og verdier for lagerprosesser og den spesifikke håndteringen på hver lokasjon.|[Definer lagerstyring](warehouse-setup-warehouse.md)|
 |Klargjør produksjonsstykklister og ruter til å definere hvordan sluttvarer produseres, og klargjør produksjonsressurser eller arbeidssentre til å utføre de nødvendige operasjonene.|[Definere produksjon](production-configure-production-processes.md)|
 |Etablere standardtjenester, symptomer og feilkoder og sette opp servicevarer, ressurser og dokumentasjon som trengs for å gi service til kundene dine.|[Konfigurere servicehåndtering](service-setup-service.md)|
 |Lese beste rutiner for å angi varene for beholdning og kostpris og forsyningsplanlegging.|[Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)|
@@ -51,15 +51,21 @@ Noe funksjonalitet, både generell eller for bestemte forretningsprosesser, kan 
 |Gjør Business Central-data tilgjengelige som en datakilde i Power Apps.|[Koble til Business Central-dataene for å utvikle en forretningsapp ved hjelp av Power Apps](across-how-use-financials-data-source-powerapps.md)|
 |Bruk dedikerte Quickbooks-migreringsveiledninger.|[Endre fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)|
 |Få tilgang til Business Central-data fra mobilenheten.|[Få Business Central på mobilenheten din](install-mobile-app.md)|
-|Utfør massefakturering av avtaler som er opprettet i Bookings.|[Massefakturering for Microsoft Bookings](finance-bookings.md)|
-|Definer en SMTP-server for å aktivere e-kommunikasjon inn og ut av [!INCLUDE[prod_short](includes/prod_short.md)].| [Konfigurere e-post manuelt eller bruke assistert oppsett](admin-how-setup-email.md)|
+|Utfør massefakturering av avtaler som er opprettet i Microsoft Bookings.|[Massefakturering for Microsoft Bookings](finance-bookings.md)|
+|Definer en SMTP-server for å aktivere e-postkommunikasjon inn og ut av [!INCLUDE[prod_short](includes/prod_short.md)].| [Konfigurere e-post manuelt eller bruke assistert oppsett](admin-how-setup-email.md)|
 | Definer unike identifikasjonskodene for poster, for eksempel kort, bilag og kladdelinjer, til å spore dem i systemet. |[Opprette nummerserier](ui-create-number-series.md) |
 |Definere og tilordner en hovedkalender til selskapet med forretningspartnere, for eksempel kunder, leverandører eller lokasjoner. Leverings- og mottaksdatoer i fremtidige ordrer, bestillinger, overføringsordrer og produksjonsordrelinjer beregnes i henhold til virkedagene som er angitt i kalenderen.|[Definere hovedkalendere](across-how-to-assign-base-calendars.md)|
 
-Noen områder krever at du er administrator i [!INCLUDE[prod_short](includes/prod_short.md)]-abonnement. Se også [Administrasjon](admin-setup-and-administration.md) for mer informasjon.  
+Noen områder krever at du er administrator i [!INCLUDE[prod_short](includes/prod_short.md)]-abonnement. Finn ut mer under [Administrasjon](admin-setup-and-administration.md).  
 
 > [!NOTE]
-> Som administrator kan du konfigurere et nytt selskap i [!INCLUDE[prod_short](includes/prod_short.md)] med RapidStart Services. RapidStart Services er et verktøy som er utviklet for å forkorte distribusjonstiden, forbedre kvaliteten på implementeringen, introdusere en implementeringsmetode som kan gjentas og øke produktiviteten ved å automatisere og forenkle regelmessige oppgaver. Hvis du vil ha mer informasjon, kan du se [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+> Som administrator kan du konfigurere et nytt selskap i [!INCLUDE[prod_short](includes/prod_short.md)] med RapidStart Services. RapidStart Services er et verktøy som er utviklet for å forkorte distribusjonstiden, forbedre kvaliteten på implementeringen, introdusere en implementeringsmetode som kan gjentas og øke produktiviteten ved å automatisere og forenkle regelmessige oppgaver. Finn ut mer under [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
+
+## <a name="set-up-apps"></a>Konfigurer apper
+
+På toppen av kjerne funksjonene i [!INCLUDE [prod_short](includes/prod_short.md)] legges det til noen apper som vises på [siden **Administrasjon av utvidelse**](https://businesscentral.dynamics.com/?page=2500). Fra og med oktober 2022 har hver app en kobling for å starte konfigurasjonssiden – bare velg handlingen **Konfigurer**.  
+
+Du kan også legge til egenskaper i [!INCLUDE [prod_short](includes/prod_short.md)] ved å legge til AppSource-apper. Finn ut mer under [Tilpasning av Business Central Online med utvidelser](ui-extensions.md).  
 
 ## <a name="see-also"></a>Se også
 
@@ -80,6 +86,5 @@ Noen områder krever at du er administrator i [!INCLUDE[prod_short](includes/pro
 [Hurtigstart for Business Central](quick-start-business-central.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

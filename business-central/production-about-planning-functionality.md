@@ -1,20 +1,20 @@
 ---
 title: Om planleggingsfunksjonalitet
-description: Planleggingssystemet i Dynamics 365 Business Central tar hensyn til alle behovs- og forsyningsdata, nettoberegner resultatet og oppretter forslag til å balansere forsyningen slik at den dekker behovet.
-author: SorenGP
+description: Planlegging tar hensyn til alle behovs- og forsyningsdata, nettoberegner resultatet og oppretter forslag til å balansere forsyningen slik at den dekker behovet.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 5430
-ms.date: 07/16/2021
-ms.author: edupont
-ms.openlocfilehash: 029666cdfd0ad75d62eb21f6e719295c67d88ed1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 08/30/2022
+ms.author: bholtorf
+ms.openlocfilehash: df67568094e76dccbc62b9dbf6d78dc9c0e58caf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535427"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606968"
 ---
 # <a name="about-planning-functionality"></a>Om planleggingsfunksjonalitet
 
@@ -30,7 +30,7 @@ Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Forsyningsplanlegging
 Planlegging har to elementer: behov og forsyning. Disse må holdes i balanse for å sikre at behovet dekkes i rett tid og på en kosteffektiv måte.  
 
 - Behov er den vanlige betegnelsen som brukes om alle typer bruttobehov, for eksempel en ordre, serviceordre, komponentbehov fra monterings- eller produksjonsordrer, utgående overføring, rammeordre eller prognose. I tillegg til disse tillater programmet andre tekniske typer behov, for eksempel negativ produksjon eller bestilling, negativ beholdning og bestillingsretur.  
-- Forsyning er ordet som brukes om alle typer etterfylling, for eksempel beholdning, en bestilling, monteringsordre, produksjonsordre eller inngående overføring. På tilsvarende vis kan det finnes en negativ ordre eller serviceordre, negativt komponentbehov eller ordreretur, og alt dette representerer også på en måte forsyning.  
+- Forsyning henviser til alle typer etterfylling, for eksempel beholdning, en bestilling, monteringsordre, produksjonsordre eller inngående overføring. På tilsvarende vis kan det finnes en negativ ordre eller serviceordre, negativt komponentbehov eller ordreretur som representerer forsyning.  
 
 Et annet mål med planleggingssystemet er å sikre at beholdningen ikke vokser unødvendig. Hvis behovet avtar, foreslår systemet at du utsetter, reduserer antallet i eller annullerer eksisterende etterfyllingsordrer.  
 
@@ -158,9 +158,12 @@ Siden **Bestillingsforslag** viser varer du vil bestille. Du kan angi varer i fo
 
 - Du kan bruke handlingen **Spesialbestilling** for å fylle ut bestillingsforslagslinjene. Denne handlingen bruker kjørselen **Hent ordrer** til å finne ordrelinjene du vil angi for en spesialbestilling.
 
-Bestillingsforslagslinjene inneholder detaljert informasjon om varene som må bestilles. Du kan redigere eller slette linjene for å endre etterfyllingsplanen, og du kan viderebehandle linjene med kjørselen **Utfør handlingsmelding**.
+Bestillingsforslagslinjene inneholder detaljert informasjon om varene som må bestilles. Du kan redigere eller slette linjene for å endre etterfyllingsplanen, og du kan viderebehandle linjene med kjørselen **Utfør handlingsmelding**. 
 
 Hvis du vil ha detaljer om planlegging med lokasjoner og overføringer, se [Planlegge med/uten lokasjoner](production-planning-with-without-locations.md).
+
+> [!TIP]
+> Når du arbeider med sidene **Bestillingsforslag** eller **Planleggingsforslag**, kan du organisere linjene ved å sortere etter et kolonnenavn. Dette er spesielt nyttig på siden Planleggingsforslag fordi de kan brukes i produksjonsordrer på flere nivåer. Som standard sorteres linjer etter feltet **Varenr.**. Hvis du vil gruppere linjer for en rekkefølge på flere nivåer, sorterer du etter feltet **Ref.ordrenr.** . Feltene **MPS-ordre** og **Planleggingsnivå** kan også hjelpe med å vise hierarkiet av linjene.
 
 ## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/plan-items-dynamics-365-business-central/)
 

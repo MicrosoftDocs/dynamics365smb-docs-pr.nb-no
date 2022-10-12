@@ -1,21 +1,21 @@
 ---
 title: Opprette et leverandørkort for å registrere en ny leverandør (inneholder video)
 description: Lær hvordan du oppretter et leverandørkort for å registrere en ny leverandør og lagre leverandørkort som en mal.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: supplier
 ms.search.form: 26, 27, 34, 461, 786, 1379, 1385, 1386, 1628
-ms.date: 07/04/2022
-ms.author: edupont
-ms.openlocfilehash: e5fac9d278d289f6526d544324adcc8f5ce3185a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 09/05/2022
+ms.author: bholtorf
+ms.openlocfilehash: ca4cca577b8105ddbf2625715a1585df2bb7b20d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532043"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606644"
 ---
 # <a name="register-new-vendors"></a>Registrere nye leverandører
 
@@ -41,6 +41,10 @@ Når du har opprettet en mal, kan du bruke handlingen **Bruk mal** til å bruke 
 > Det kan være nyttig å tilpasse siden **Leverandørmal** når du oppretter en mal. Det kan for eksempel hende at du vil legge til et felt som ikke allerede vises på siden. Finn ut mer i delen [Tilpass arbeidsområdet](/dynamics365/business-central/ui-personalization-user#to-start-personalizing-a-page-through-the-personalizing-banner).
 
 Du kan også opprette en leverandør fra en kontakt. Finn ut mer i delen [Opprett en kontakt, leverandør, ansatt eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
+
+Remitter til-adresser brukes når du skriver ut sjekker for å betale leverandører, og leverandører kan ha flere remitter til-adresser for betalinger. Det kan for eksempel hende at en leverandør leverer en vare fra et datterselskap, men ønsker å motta betaling til hovedkontoret. Med [!INCLUDE [prod_short](includes/prod_short.md)] kan du definere flere postadresser for hver leverandør, og du kan velge den riktige lokasjonen for å sende betalinger på et faktura per faktura-grunnlag.
+
+Du angir remitter til-adresser på leverandørkortsider, og på hurtigfanen Levering og betalinger på bestillinger og fakturaer. Når du oppretter betalingskladdelinjer ved hjelp av handlingene Betalingsleverandør eller Opprett betaling på sidene Leverandørlist eller Leverandørkort eller handlingen Utlign poster på en utbetalingskladd, tildeles remitter til-koden på leverandørposten. Du kan overskrive denne verdien.
 
 ### <a name="to-create-a-new-vendor"></a>Slik oppretter du en ny leverandør
 

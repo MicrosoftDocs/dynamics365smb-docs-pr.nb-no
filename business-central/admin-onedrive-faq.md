@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: OneDrive, integration, share, browser
-ms.date: 05/19/2021
+ms.date: 09/09/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2ab3005c7958e6ce7cd112c495ba6bb1d0ae2366
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 0d7f1dac73181845fe0329fc2c45bb0e8e53ccfb
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381970"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606363"
 ---
 # <a name="onedrive-for-business-faq"></a>Vanlige spørsmål om OneDrive for Business
 
@@ -40,19 +40,19 @@ Nei. Denne integreringen er utelukkende beregnet for OneDrive for Business og st
 
 ## <a name="where-can-i-see-onedrive-service-health"></a>Hvor kan jeg se tilstanden til OneDrive-tjenesten?
 
-Administratorer kan få tilgang til instrumentbordet for tjenestetilstand som en del av Microsoft 365-administrasjonssenteret. Instrumentbordet omfatter OneDrives tjenestetilgjengelighet. 
+Administratorer kan få tilgang til instrumentbordet for tjenestetilstand som en del av Microsoft 365-administrasjonssenteret. Instrumentbordet omfatter OneDrives tjenestetilgjengelighet. Gå til [https://admin.microsoft.com/Adminportal/Home?#/servicehealth](https://admin.microsoft.com/Adminportal/Home?#/servicehealth).
  
 ## <a name="is-onedrive-integration-available-to-prod_short-on-premises"></a>Er OneDrive-integrering tilgjengelig for [!INCLUDE[prod_short](includes/prod_short.md)] lokalt?
 
-Ja, men i motsetning til [!INCLUDE[prod_short](includes/prod_short.md)] online krever det tilleggsoppsett. Hvis du vil ha mer informasjon, kan du se [Konfigurering av Business Central On-Premises](admin-onedrive-integration.md#configuring-business-central-on-premises).  
+Ja, men i motsetning til [!INCLUDE[prod_short](includes/prod_short.md)] online krever det tilleggsoppsett. Hvis du vil ha mer informasjon, kan du se [Konfigurering av Business Central On-Premises](admin-onedrive-integration-onpremises.md).  
 
 ## <a name="does-prod_short-on-premises-connect-with-sharepoint-server"></a>Bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt tilkobling med SharePoint Server?
 
-Antall Denne distribusjonskombinasjonen støttes ikke selv om SharePoint Server har Mine områder aktivert.  
+Nr. Denne distribusjonskombinasjonen støttes ikke selv om SharePoint Server har Mine områder aktivert.  
 
 ## <a name="does-prod_short-online-connect-with-sharepoint-server"></a>Bruker [!INCLUDE[prod_short](includes/prod_short.md)] online tilkobling med SharePoint Server?
 
-Antall Denne distribusjonskombinasjonen støttes ikke selv om SharePoint Server har Mine områder aktivert.  
+Nr. Denne distribusjonskombinasjonen støttes ikke selv om SharePoint Server har Mine områder aktivert.  
 
 ## <a name="how-does-this-work-in-an-organization-with-multiple-environments"></a>Hvordan fungerer dette i en organisasjon med flere miljøer?
 
@@ -62,7 +62,8 @@ Integreringen antar at selskapsnavn er unike i alle [!INCLUDE[prod_short](includ
 
 [!INCLUDE[prod_short](includes/prod_short.md)] overfører ikke filer du har åpnet tidligere, automatisk i OneDrive til den nye mappen. Når du har gitt nytt navn til selskapet, kopierer handlingen Åpne i OneDrive filer til en mappe med det nye selskapsnavnet.   
 
-## <a name="when-attaching-files-to-prod_short-how-do-i-pick-a-file-from-onedrive"></a>Når jeg legger ved filer i [!INCLUDE[prod_short](includes/prod_short.md)], hvordan jeg velger jeg en fil fra OneDrive? 
+## <a name="when-attaching-files-to-prod_short-how-do-i-pick-a-file-from-onedrive"></a>Når jeg legger ved filer i [!INCLUDE[prod_short](includes/prod_short.md)], hvordan jeg velger jeg en fil fra OneDrive?
+
 [!INCLUDE[prod_short](includes/prod_short.md)] inneholder ikke en skyfilvelger. Du må laste ned filen fra OneDrive til enheten og deretter laste den opp til [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## <a name="i-want-to-open-files-in-sharepoint-instead-how-do-i-do-this"></a>Jeg vil åpne filer i SharePoint i stedet. Hvordan gjør jeg dette?
@@ -71,15 +72,24 @@ Integreringen antar at selskapsnavn er unike i alle [!INCLUDE[prod_short](includ
 
 ## <a name="how-do-i-turn-off-integration-to-onedrive"></a>Hvordan slår jeg av integrering med OneDrive?
 
-[!INCLUDE[prod_short](includes/prod_short.md)] online har ikke et alternativ for å aktivere eller deaktivere integrering til OneDrive.  
+Kjør veiledningen for assistert oppsett for **OneDrive-oppsett**, og slå av bryterne for **Bruk OneDrive for appfunksjoner** og **Bruk OneDrive for systemfunksjoner**. 
 
 ## <a name="should-i-use-the-sharepoint-connection-setup-page-to-connect-to-sharepoint"></a>Skal jeg bruke siden Tilkoblingsoppsett for SharePoint til å koble til SharePoint?
 
-Dette er en eldre funksjon der alle [!INCLUDE[prod_short](includes/prod_short.md)]-filer fra alle brukere sendes til én enkelt SharePoint-mappe. Vi anbefaler at du ikke konfigurerer hurtigfanen Delte dokumenter på siden Tilkoblingsoppsett for SharePoint, fordi vi arbeider mot å avvikle denne funksjonen.  
+Dette er en eldre funksjon der alle [!INCLUDE[prod_short](includes/prod_short.md)]-filer fra alle brukere sendes til én enkelt SharePoint-mappe. Vi anbefaler at du ikke konfigurerer hurtigfanen for delte dokumenter på siden for **Oppsett for SharePoint-tilkobling**, fordi denne siden er [avskrevet](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup) og vil bli fjernet i lanseringsbølge 2 for 2023, versjon 23.0.  Vi anbefaler at du bruker **OneDrive-oppsettet** i stedet.  
 
 ## <a name="which-version-of-prod_short-supports-onedrive"></a>Hvilken versjon av [!INCLUDE[prod_short](includes/prod_short.md)] støtter OneDrive?
 
 Integrering med OneDrive ble tilgjengelig i lanseringsbølge 2 for 2021.  
+
+## <a name="which-features-are-affected-by-onedrive-integration"></a><a name="features"></a>Hvilke funksjoner påvirkes av OneDrive-integrasjon?
+
+I assistert oppsettsveiledning for **OneDrive-oppsett** for oppsett av OneDrive-integrasjon kan du aktivere eller deaktivere funksjoner for håndtering av Business Central-filer i OneDrive. Funksjonene deles mellom to alternativer:
+
+|Alternativ|Description|
+|------|----------|
+|**Bruk OneDrive for appfunksjoner**|Hvis du aktiverer dette alternativet, gjøres handlingene **Åpne i OneDrive** og **Del** tilgjengelige på filer i Business Central, for eksempel filer som er knyttet til dokumenter eller i innboksen i rapporten. Med disse handlingene kan brukerne kopiere, åpne og dele filer i OneDrive. Hvis du vil ha mer informasjon, kan du se [Åpne og dele Business Central-filer i OneDrive](across-share-onedrive.md).
+|**Bruk OneDrive for systemfunksjoner**|Hvis du aktiverer dette alternativet, aktiveres følgende funksjoner:<ul><li> Handlingene **Åpne i Excel** og **Rediger i Excel** på listesider kopierer automatisk Excel-filen til OneDrive og åpner den deretter i Excel Online. Hvis du vil ha mer informasjon, kan du se [Vis og rediger i Excel](across-work-with-excel.md).</li><li> Sending av en rapport til en Excel- eller Word-fil, kopieres filen automatisk til OneDrive, og deretter åpnes den i Excel eller Word på nettet. Hvis du vil ha mer informasjon, kan du se [Lagre en rapport til en fil](ui-work-report.md#saving-a-report-to-a-file).|
 
 ## <a name="will-microsoft-continue-to-improve-the-integration-to-onedrive"></a>Vil Microsoft fortsette å forbedre integreringen til OneDrive?
 
@@ -91,16 +101,23 @@ Hvis du ønsker å delta i å forbedre OneDrive-forbedring , eller hvis du har e
 
 Denne delen gir informasjon om hvordan du kan identifisere og løse problemer som kan oppstå når du bruker OneDrive med [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="i-have-to-sign-in-each-time-i-open-a-file"></a>Jeg må logge hver gang jeg åpner en fil
-
-Beklager, det er et kjent problem, og vi arbeider med det. Vi forventer å gi en jevnere opplevelse med en forestående oppdatering.  
-
 ### <a name="business-central-cant-find-my-onedrive"></a>Business Central finner ikke min OneDrive
 
 Når du får meldingen «Finner ikke plasseringen til OneDrive for Business. Kontakt partneren din for å konfigurere dette»., må du kontrollere om brukeren har åpnet OneDrive minst én gang. Hvis brukeren ikke har det, kan du be vedkommende om å gå til portal.office.com/onedrive for å konfigurere det. Det kan ta litt tid. Hvis meldingen fremdeles vises etter 24 timer, kontakter du kundestøtte.  
  
+### <a name="im-having-problems-sharing-from-outlook"></a>Jeg har problemer med å dele fra Outlook
+
+Se [Kan ikke dele OneDrive-filer fra Outlook.com](https://support.microsoft.com/en-us/office/can-t-share-onedrive-files-from-outlook-com-05d4cb21-40a2-40e3-b111-82cddb82d22f) på Microsoft Kundestøtte.
+
+### <a name="actions-open-in-onedrive-and-share-are-missing"></a>Handlinger som er åpne i OneDrive og del, mangler
+
+Det finnes et par ting du kan kontrollere:
+
+- Kontroller at programfunksjonene for OneDrive er aktivert i assistert oppsettveiledninge for **OneDrive-oppsett**. Se [Konfigurer OneDrive ved hjelp av OneDrive-oppsett](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup).
+- Kontroller at Microsoft OneDrive er sett til **Godta** på siden **Status for personvernerklæringer**. Se [Status for personvernerklæringer](privacy-notices-status.md).
 
 ## <a name="see-also"></a>Se også
+
 [Business Central og OneDrive-integrering](across-onedrive-overview.md)  
 [Administrere OneDrive-integrering med Business Central](admin-onedrive-integration.md)  
 [Åpne Business Central-filer i OneDrive](across-share-onedrive.md)  

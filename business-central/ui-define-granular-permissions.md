@@ -1,25 +1,25 @@
 ---
 title: Definere detaljerte tillatelser
 description: Denne artikkelen beskriver hvordan du definerer detaljerte tillatelser og tildeler hver bruker tillatelsessettet vedkommende trenger for å gjøre jobben.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: access, right, security
-ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831
-ms.date: 07/27/2022
-ms.author: edupont
-ms.openlocfilehash: 2b5bba12afb2fbb05dbfd3240088c2726f5d8337
-ms.sourcegitcommit: bb9b2b4e693fa326a13d94e5e83f60e6c7ac5b68
+ms.search.form: 1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862
+ms.date: 09/19/2022
+ms.author: bholtorf
+ms.openlocfilehash: d265566e21388978f9ee7cba9372d3d337cbf97e
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9227503"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9604891"
 ---
 # <a name="assign-permissions-to-users-and-groups"></a>Tilordne tillatelser til brukere og grupper
 
-[!INCLUDE[prod_short](includes/prod_short.md)]-sikkerhetssystemet styrer hvilke objekter en bruker har tilgang til i hver database eller hvert miljø, sammen med brukerens lisens. Du kan angi for hver bruker om de kan lese, endre eller angi data i de valgte databaseobjektene. Hvis du vil ha mer informasjon, se [Datasikkerhet](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i utvikler- og administrasjonsinnholdet for [!INCLUDE[prod_short](includes/prod_short.md)].
+[!INCLUDE[prod_short](includes/prod_short.md)]-sikkerhetssystemet styrer hvilke objekter en bruker har tilgang til i hver database eller hvert miljø, sammen med brukerens lisens. For hver bruker kan du angi om de kan lese, endre eller angi data i de valgte databaseobjektene. Hvis du vil ha mer informasjon, se [Datasikkerhet](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i utvikler- og administrasjonsinnholdet for [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Før du tilordner tillatelser til brukere og brukergrupper, må du definere hvem som kan logge på ved å opprette brukere i henhold til lisensen. Hvis du vil ha mer informasjon, se [Opprette brukere i henhold til lisenser](ui-how-users-permissions.md).
 
@@ -29,7 +29,7 @@ I [!INCLUDE[prod_short](includes/prod_short.md)] finnes det to nivåer med tilla
 
   Lisensene inkluderer standard tillatelsessett. Fra lanseringsbølge 1 for 2022 kan administratorer tilpasse disse standardtillatelsene for de aktuelle lisenstypene. Hvis du vil ha mer informasjon, kan du se [Konfigurer tillatelser basert på lisenser](ui-how-users-permissions.md#licensespermissions).  
 
-- Mer detaljerte tillatelser som tildelt fra [!INCLUDE[prod_short](includes/prod_short.md)].
+- Detaljerte tillatelser som du tildeler i [!INCLUDE[prod_short](includes/prod_short.md)].
 
   Denne artikkelen beskriver hvordan du kan definere og bruker tillatelser i [!INCLUDE [prod_short](includes/prod_short.md)] til å endre standardkonfigurasjonen.  
 
@@ -42,15 +42,145 @@ Hvis du vil ha mer informasjon, kan du se [Delegert administratortilgang til Bus
 |---------|---------|
 |For å gjøre det enklere å behandle tillatelser for flere brukere, kan du organisere dem i brukergrupper og dermed tilordne eller endre ett tillatelsessett for mange brukere i én handling.| [Slik behandler du tillatelser ved hjelp av brukergrupper](#to-manage-permissions-through-user-groups) |
 |Slik behandler du tillatelsessett for bestemte brukere | [Slik tilordner du tillatelsessett til brukere](#to-assign-permission-sets-to-users) |
-|Slik lærer du hvordan du definerer tillatelsessett|[Opprette eller endre et tillatelsessett](#to-create-or-modify-a-permission-set)|
-|Slik administrerer du bestemte tillatelser|[Opprette eller endre tillatelser manuelt](#to-create-or-modify-permissions-manually)|
+|Slik lærer du hvordan du definerer et tillatelsessett|[Slik oppretter du et tillatelsessett](#to-create-a-permission-set)|
 |Slik viser eller feilsøker du en brukers tillatelser|[For å få en oversikt over en brukers tillatelser](#to-get-an-overview-of-a-users-permissions)|
 |Slik lærer du om sikkerhet på postnivå|[Sikkerhetsfiltre begrenser brukerens tilgang til bestemte poster i en tabell](#security-filters-limit-a-users-access-to-specific-records-in-a-table)|
 
 > [!NOTE]
-> En tilleggsmetode som definerer hvilke funksjoner brukere har tilgang til, er å angi **Opplevelse**-feltet på siden **Selskapsopplysninger**. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).
+> En bredere måte for å definere hvilke funksjoner brukere har tilgang til, er å angi **Opplevelse**-feltet på siden **Selskapsopplysninger**. Hvis du vil ha mer informasjon, kan du se [Endre hvilke funksjoner som vises](ui-experiences.md).
 >
-> Du kan også definere hva brukere ser i brukergrensesnittet, og hvordan de samhandler med de tillate funksjonene gjennom sider. Dette gjør du gjennom profiler som du tilordner til ulike typer brukere i henhold til jobbrolle eller avdeling. Hvis du vil ha mer informasjon, kan du se [Administrere profiler](admin-users-profiles-roles.md) og [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
+> Du kan også definere funksjonene som er tilgjengelige for brukere i brukergrensesnittet, og hvordan de samhandler med dem gjennom sider. Dette gjør du gjennom profiler som du tilordner til ulike typer brukere i henhold til jobbrolle eller avdeling. Hvis du vil ha mer informasjon, kan du se [Administrere profiler](admin-users-profiles-roles.md) og [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
+
+## <a name="to-create-a-permission-set"></a>Slik oppretter du et tillatelsessett
+
+> [!NOTE]
+> I lanseringsbølge 2 i 2022 gjorde vi det enklere å legge til tillatelser i tillatelsessett. I stedet for å legge til tillatelser enkeltvis, kan du legge til hele tillatelsessett. Om nødvendig kan du utelate individuelle tillatelser. Hvis du vil ha mer informasjon, kan du se [Slik legger du til andre tillatelsessett](#to-add-other-permission-sets). For å gjøre dette mulig erstattet vi siden Tillatelsessett med en ny side. Nøkkelforskjellene er de nye rutene **Tillatelsessett** og **Resultater** og faktaboksen **Inkluderte tillatelser**. Hvis du vil fortsette å bruke den erstattede siden Tillatelser, velger du handlingen **Tillatelser (eldre)** på siden **Tillatelsessett**.
+
+Vedlikehold er også enklere. Når du legger til systemtillatelser, oppdateres det brukerdefinerte tillatelsessettet automatisk med endringer som Microsoft gjør med disse tillatelsene.
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Tillatelsessett** og velger den relaterte koblingen.
+2. Velg handlingen **Ny**.
+3. Fyll ut feltene etter behov på den nye linjen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
+4. Velg handlingen **Tillatelser**.
+5. På siden **Tillatelsessett** tar du med eller utelater tillatelsene for objektet i **Type**-feltet som følger:
+
+  For å inkludere tillatelsen velger du **Inkluder** og deretter tilgangsnivået som skal gis i feltene **Lesetillatelse**, **Innsettingstillatelse**, **Endringstillatelse**, **Slettetillatelse** og **Kjøringstillatelse**. Tabellen nedenfor beskriver alternativene.
+
+  |Alternativ|Description|Rangering|
+  |------|-----------|-------|
+  |**Tom**|Brukeren kan ikke utføre handlingen for objektet.|Laveste|  
+  |**Ja**|Brukeren kan utføre handlingen for objektet.|Høyeste|
+  |**Indirekte**|Brukeren kan utføre handlingen for objektet, men bare via et annet tilknyttet objekt som brukeren har full tilgang til. Hvis du vil ha mer informasjon, kan du se [Eksempel – indirekte tillatelse](#example---indirect-permission) i denne artikkelen og [Tillatelser-egenskapen](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property#example---indirect-permission) i hjelpen for utviklere og IT-eksperter.|Nest høyeste|
+  
+  Hvis du vil utelate tillatelsen eller et eller flere tilgangsnivåer, velger du **Utelat**, og deretter velger du tilgangsnivået du vil gi. Tabellen nedenfor beskriver alternativene.
+
+  |Alternativ|Description|
+  |------|-----------|-------|
+  |**Tom**|Bruk tilgangsnivået basert på hierarkiet med tillatelser i settet.  |
+  |**Utelat**|Fjern det spesifikke tilgangsnivået for objektet.|
+  |**Reduser til indirekte**|Endre tilgangsnivået til indirekte hvis det er noen tillatelsessett som gir direkte tilgang til objektet. Velg for eksempel dette alternativet hvis tillatelsessettet gir direkte tilgang til finansposter, men du ikke vil at brukerne skal ha full tilgang til postene.|
+  
+  > [!NOTE]
+  > Det høyeste tillatelsessettet i hierarkiet avgjør om tillatelsen er inkludert eller utelatt. Hvis to sett er på samme nivå i hierarkiet og en tillatelse inkluderes i et sett, men utelates i det andre, blir tillatelsen utelatt.
+
+6. Bruk feltene **Objekttype** og **Objekt-ID** til å angi objektet du gir tilgang til.
+
+> [!TIP]
+  > Nye linjer viser standardverdier. Feltet **Objekttype** inneholder for eksempel **tabelldata**, og feltet **Objekt-ID** inneholder **0**. Standardverdiene er bare plassholdere, og de brukes ikke. Du må velge en objekttype og et objekt i feltet **Objekt-ID** før du kan opprette en ny linje.
+
+7. Valgfritt: Hvis du definerer tillatelser for en dataobjekttype for tabell, kan du filtrere dataene som en bruker har tilgang til i feltene i den valgte tabellen, i feltet **Sikkerhetsfilter**. Det kan for eksempel hende at du vil gi en bruker tilgang til bare å lese poster som inneholder informasjon om en bestemt kunde. Hvis du vil ha mer informasjon, kan du se [Sikkerhetsfiltre begrense en brukers tilgang til bestemte poster i en tabell](#security-filters-limit-a-users-access-to-specific-records-in-a-table) og [Bruk sikkerhetsfiltre](/dynamics365/business-central/dev-itpro/security/security-filters).
+8. Valgfritt: Legg til et eller flere andre tillatelsessett i ruten **Tillatelsessett**. Hvis du vil ha mer informasjon, kan du se [Slik legger du til andre tillatelsessett](#to-add-other-permission-sets).
+
+> [!IMPORTANT]
+> Vær forsiktig når du tilordner **innsettingstillatelse** eller **endringstillatelse** til gruppen **9001 brukergruppemedlem** eller **9003 gruppetillatelsessett for bruker**. Alle brukere som er tilordnet tillatelsessettet, kan potensielt tilordne seg selv til andre brukergrupper, som i sin tur kan gi dem utilsiktede tillatelser.
+
+### <a name="example---indirect-permission"></a>Eksempel - indirekte tillatelse
+
+Du kan tildele indirekte tillatelse for å la en bruker bruke et objekt, men bare via et annet objekt. En bruker har for eksempel tillatelse til å kjøre codeunit 80, Sales-Post. Kodeenheten Sales-Post utfører mange oppgaver, inkludert å endre tabell 37, salgslinjen. Når brukeren bokfører et salgsdokument med Sales-Post codeunit, kontrollerer [!INCLUDE[prod_short](includes/prod_short.md)] om brukeren har tillatelse til å endre Salgslinje-tabellen. Hvis ikke kan ikke codeunit fullføre oppgavene, og brukeren får en feilmelding. Hvis dette er tilfelle, kjører kodeenheten uten problemer.
+
+Brukeren trenger imidlertid ikke full tilgang til tabellen Salgslinje for å kunne kjøre codeunit. Hvis brukeren har indirekte tillatelse til Salgslinje-tabellen, kjører codeunit Sales-Post uten problemer. Når en bruker har indirekte tillatelse, kan vedkommende bare endre tabellen Salgslinje ved å kjøre codeunit Sales-Post eller et annet objekt som har tillatelse til å endre tabellen Salgslinje. Brukeren kan bare endre Salgslinje-tabellen når det gjøres fra moduler som støttes. Brukeren kan ikke kjøre funksjonen ved en feiltakelse eller med onde hensikter ved hjelp av andre metoder.
+
+### <a name="to-add-other-permission-sets"></a>Slik legger du til tillatelsessett
+
+Utvid et tillatelsessett ved å legge til andre tillatelsessett i det. Etterpå kan du inkludere eller utelate bestemte tillatelser eller hele tillatelsessett, i hvert sett du legger til. Dette omfatter tillatelser i tillatelsessettene Utvidelse og Systemtype, noe som ellers ikke er tillatt. Utelatelser gjelder bare tillatelsessettet du utvider. Det opprinnelige settet påvirkes ikke.
+
+På siden **Tillatelsessett** legger du til et tillatelsessett i ruten **Tillatelsessett**. Ruten **Resultat** viser en oversikt over alle tillatelsessett som er lagt til. Hvis du vil utforske tillatelsene som er inkludert i et sett du har lagt til, velger du settet i Resultat-ruten så viser faktaboksen **Inkluderte tillatelser** tillatelsene.
+
+I **Resultat**-ruten bruker du feltet **Inkluderingsstatus** til å identifisere tillatelsessettene der du har utelatt tillatelser eller tillatelsessett. Hvis noe er utelatt, er statusen **Delvis**.
+
+Hvis du vil ha en samlet visning av tillatelser i tillatelsessettet, velger du handlingen **Vis alle tillatelser**. Siden **Utvidede tillatelser** viser alle tillatelser som allerede er tildelt tillatelsessettet, og tillatelsene i de tilføyde tillatelsessettene.
+
+Hvis du vil utelukke et tillatelsessett du har lagt til, merker du linjen i **Resultat**-ruten, velger **Vis flere alternativer** og velger **Utelat**. Når du utelater et tillatelsessett, opprettes en linje i ruten **Tilgangssett** i typen Utelukket. Hvis du har utelukket et tillatelsessett, men vil ta det med på nytt, sletter du linjen i ruten **Tillatelsessett**.
+
+Hvis du vil utelukke eller delvis utelukke en bestemt tillatelse i et sett du har lagt til, oppretter du en linje for objektet under **Tillatelser**. Feltene for tilgangsnivå, Innsettingstillatelse, Endringstillatelse og så videre vil alle inneholde Utelat. Hvis du vil tillate et bestemt tilgangsnivå, velger du det aktuelle alternativet.
+
+## <a name="to-copy-a-permission-set"></a>Slik kopiere du et tillatelsessett
+
+Opprett et nytt tillatelsessett ved å kopiere et annet. Det nye settet vil inneholde alle tillatelser og tillatelsessett fra settet du har kopiert. Hvordan tillatelsene og tillatelsessettene ordnes i det nye tillatelsessettet, er avhengig av valget i **Kopier operasjon**-feltet. Tabellen nedenfor beskriver alternativene.
+
+|Alternativ  |Description  |
+|---------|---------|
+|**Kopier etter referanse**     | Det opprinnelige tillatelsessettet og alle tillatelsessettene som ble lagt til det, vises i **Resultat**-ruten.       |
+|**Kopi med flat tillatelse**  | Alle tillatelser fra alle tillatelsessettene inkluderes i en flat liste i **Tillatelser**-ruten. Tillatelser er ikke ordnet etter tillatelsessett.        |
+|**Klon**     | Opprett en nøyaktig kopi av det opprinnelige tillatelsessettet.        |
+
+1. På siden **Tillatelsessett** merker du linjen for et tillatelsessett du vil kopiere, og velger deretter handlingen **Kopier tillatelsessett**.
+2. På siden **Kopier tillatelsessett** angir du navnet på det nye tillatelsessettet.
+3. I **Kopier operasjon**-feltet angir du hvordan du vil ordne tillatelse i det nye tillatelsessettet.
+4. Valgfritt: Hvis du legger til et systemtillatelsessett, blir du kanskje varslet hvis navnet eller innholdet i det opprinnelige tillatelsessettet endres i en fremtidig versjon. Dette gjør at du kan vurdere om du vil oppdatere det brukerdefinerte tillatelsessettet. Hvis du vil motta en melding, slår du på vekslebryteren **Varsel ved endret tillatelsessett**.
+
+> [!NOTE]
+> Varslingen krever at varslingen **Opprinnelig systemtillatelsessett er endret** er aktivert på siden **Mine varslinger**.
+
+## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Slik oppretter eller endrer du tillatelser ved å angi registrere handlingene
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Tillatelsessett** og velger den relaterte koblingen.
+
+    Du kan også gå til siden **Brukere** og velge handlingen **Tillatelsessett**.
+2. På siden **Tillatelsessett** velger du handlingen **Ny**.
+3. Fyll ut feltene etter behov på en ny linje.
+4. Velg handlingen **Tillatelser**.
+5. På **Tillatelser**-siden velger du **Registrer tillatelser**-handlingen, og velg deretter **Start**-handlingen.
+
+    En innspillingsprosess starter og registrerer alle handlingene dine i brukergrensesnittet.
+6. Gå til de ulike sidene og aktivitetene i [!INCLUDE[prod_short](includes/prod_short.md)] som du vil at brukere med dette tillatelsessettet skal få tilgang til. Du må utføre oppgaver som du vil registrere tillatelser for.
+7. Når du vil avslutte opptaket, gå tilbake til **Tillatelser**-siden, og velg deretter **Stopp**-handlingen.
+8. Velg **Ja**-knappen for å legge til registrerte rettigheter til det nye tillatelsessettet.
+9. Angi om brukere skal kunne sette inn, endre eller slette poster i tabeller som er registrert for hvert objekt i listen over registrerte.
+
+### <a name="to-export-and-import-a-permission-set"></a>Slik eksporterer og importerer du et tillatelsessett
+
+Hvis du vil definere tillatelser raskt, kan du importere tillatelsessett du har eksportert fra en annen [!INCLUDE[prod_short](includes/prod_short.md)]-leietaker.
+
+I miljøer med mange leietakere importeres et tillatelsessett til en spesiell leietaker. Med andre ord er omfanget av importen *Leier*.
+
+1. I leietaker 1 på siden **Tillatelsessett** merker du linjen eller linjene for tillatelsessettene du vil eksportere, og velger deretter handlingen **Eksporter tillatelsessett**.
+
+    En XML-fil opprettes i nedlastingsmappen på maskinen. Som standard kalles den *Eksporter tillatelsessett.XML*.
+
+2. I leietaker 2 på **Tillatelsessett**-siden velger du handlingen **Importer tillatelsessett**.
+3. På siden **Importer tillatelsessett** må du vurdere om du vil slå sammen eksisterende tillatelsessett med nye tillatelsessett i XML-filen.
+
+    Hvis du merker av for **Oppdater eksisterende tillatelser**, slås eksisterende tillatelsessett med samme navn som i XML-filen, sammen med de importerte tillatelsessettene.
+
+    Hvis du ikke merker av for **Oppdater eksisterende tillatelser**, blir eksisterende tillatelsessett med samme navn i XML-filen, hoppet over under importen. I dette tilfellet blir du varslet om tillatelsessett som hoppes over.
+
+4. Fra siden **Importer** finner og velger du XML-filen som skal importeres, og velger handlingen **Åpne**.
+
+Tillatelsessettene importeres.
+
+## <a name="to-remove-obsolete-permissions-from-all-permission-sets"></a>Slik fjerner du foreldede tillatelser fra alle tillatelsessett
+
+1. På siden **Tillatelsessett** velger du handlingen **fjern foreldede tillatelsessett**.
+
+## <a name="to-set-up-user-time-constraints"></a>Slik definerer du tidsbegrensninger for brukere:
+
+Administratorer kan definere tidsperioder som de bestemte brukerne kan bokføre. Administratorer kan også angi om system logger hvor lang tid brukere er logget på. Administratorer kan også tildele ansvarssentre til brukere. Hvis du vil ha mer informasjon, kan du se [Arbeide med ansvarssentre](inventory-responsibility-centers.md).
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukeroppsett** og velg den relaterte koblingen.
+2. På siden **Brukeroppsett** velger du handlingen **Ny**.
+3. I feltet **Bruker-ID** angir du ID-en for en bruker eller velger feltet for å vise alle gjeldende Windows-brukere i systemet.
+4. Fyll ut feltene etter behov.
 
 ## <a name="to-manage-permissions-through-user-groups"></a>Slik behandler du tillatelser ved hjelp av brukergrupper
 
@@ -86,7 +216,6 @@ Den nye brukergruppen legges til på **Brukergrupper**-siden. Fortsett med å le
 > [!IMPORTANT]
 > Du får en valideringsfeil hvis du prøver å tildele en brukergruppe til brukeren som henviser til et tillatelsessett som ble definert i en avinstallert utvidelse. Det er fordi app-ID-en til utvidelsen valideres når det henvises til den. Hvis du vil tildele brukergruppen til en bruker, kan du enten installere utvidelsen på nytt, fjerne referansen for den avinstallerte utvidelsen fra tillatelsessettet, eller fjerne tillatelsessettet fra brukergruppen.
 
-
 ### <a name="to-assign-permission-sets-to-user-groups"></a>Slik tilordner du tillatelsessett til brukergrupper
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukergrupper** og velg den relaterte koblingen.
@@ -111,7 +240,7 @@ Du kan også tildele tillatelsessett direkte til en bruker.
 
 Et tillatelsessett er en samling tillatelser for bestemte databaseobjekter. Alle brukere må være tilordnet ett eller flere tillatelsessett før de kan åpne [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-En [!INCLUDE[prod_short](includes/prod_short.md)]-løsning inneholder forhåndsdefinerte tillatelsessett som legges til av Microsoft eller løsningsleverandøren. Du kan også legge til nye tillatelsessett som er skreddersydd for å dekke behovene i organisasjonen. Hvis du vil ha mer informasjon, kan du se delen [Slik oppretter eller viser du et tillatelsessett](#to-create-or-modify-a-permission-set).
+En [!INCLUDE[prod_short](includes/prod_short.md)]-løsning inneholder forhåndsdefinerte tillatelsessett som legges til av Microsoft eller løsningsleverandøren. Du kan også legge til nye tillatelsessett som er skreddersydd for å dekke behovene i organisasjonen. Hvis du vil ha mer informasjon, kan du se delen [Slik oppretter du et tillatelsessett](#to-create-a-permission-set).
 
 > [!NOTE]
 > Hvis du ikke vil begrense brukerens tilgang mer enn det som allerede er definert av lisensen, kan du tilordne et spesielt tillatelsessett som kalles SUPER for brukeren. Dette tillatelsessettet sikrer at brukeren har tilgang til alle objektene som er angitt i lisensen.
@@ -129,15 +258,15 @@ Du kan tilordne tillatelsessett til brukere på to måter:
 2. Velg brukeren du vil tilordne tillatelse til.
 Eventuelle tillatelsessett som allerede er tilordnet til brukeren, vises i faktaboksen **Tillatelsessett**.
 3. Velg handlingen **Rediger** for å åpne **Brukerkort**-siden.
-4. På hurtigfanen **Brukertillatelsessett** fyller du ut feltene etter behov på en ny linje. Hvis du vil ha mer informasjon, kan du se [Slik oppretter eller viser du et tillatelsessett](ui-define-granular-permissions.md#to-create-or-modify-a-permission-set).
+4. På hurtigfanen **Brukertillatelsessett** fyller du ut feltene etter behov på en ny linje. Hvis du vil ha mer informasjon, kan du se [Slik oppretter eller redigerer du et tillatelsessett](ui-define-granular-permissions.md#to-create-a-permission-set).
 
 ### <a name="to-assign-a-permission-set-on-the-permission-set-by-user-page"></a>Slik tilordner du et tillatelsessett på siden Tillatelsessett etter bruker
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukere**, og velg deretter den relaterte koblingen.
 2. På siden **Brukere** velger du handlingen **Tillatelsessett etter bruker**.
-3. På siden **Tillatelsessett etter bruker** merker du av for **[brukernavn]** for en linje for det aktuelle tillatelsessettet for å tilordne settet til brukeren.
+3. På siden **Tillatelsessett etter bruker** merker du av for **[brukernavn]** for en linje for det aktuelle tillatelsessettet for å tildele settet til brukeren.
 
-    Merk av for **Alle brukere** for å tilordne tillatelsessettet til alle brukere.
+    Merk av for **Alle brukere** for å tildele tillatelsessettet til alle brukere.
 
 ## <a name="to-get-an-overview-of-a-users-permissions"></a>For å få en oversikt over en brukers tillatelser
 
@@ -156,11 +285,11 @@ Eventuelle tillatelsessett som allerede er tilordnet til brukeren, vises i fakta
     >
     > Rader for kilderettighet er hentet fra abonnementslisensen. Tillatelsesverdiene for rettigheten overstyrer verdier i andre tillatelsessett hvis de har en høyere rangering. En verdi i et ikke-berettiget tillatelsessett som har en høyere rangering enn den relaterte verdien i berettigelsen, vil stå i parenteser for å angi at den ikke er gyldig, siden den er overstyrt av berettigelsen.
     >
-    > For en forklaring av rangering kan du se [Slik oppretter eller viser du tillatelsessett manuelt](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).  
+    > For en forklaring av rangering kan du se [Slik oppretter du et tillatelsessett](ui-define-granular-permissions.md#to-create-a-permission-set).  
 
 4. Hvis du vil redigere et tillatelsessett, går du til delen **Etter tillatelsessett** og linjen for et relevant tillatelsessett av typen **Brukerdefinerte** og velger ett av de fem tilgangstypefeltene og en annen verdi.
 
-5. Hvis du vil redigere enkelttillatelser i tillatelsessettene, kan du velge verdien i feltet **Tillatelsessett** for å åpne **Tillatelser**-siden. Følg trinnene beskrevet under [Slik oppretter eller redigerer du tillatelser](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).  
+5. Hvis du vil redigere enkelttillatelser i tillatelsessettene, kan du velge verdien i feltet **Tillatelsessett** for å åpne **Tillatelser**-siden.
 
 > [!NOTE]  
 > Når du redigerer et tillatelsessett, gjelder endringene også for andre brukere som har tillatelsessettet tilordnet.
@@ -168,116 +297,6 @@ Eventuelle tillatelsessett som allerede er tilordnet til brukeren, vises i fakta
 ### <a name="security-filters-limit-a-users-access-to-specific-records-in-a-table"></a>Sikkerhetsfiltre begrenser brukerens tilgang til bestemte poster i en tabell
 
 For sikkerhet på postnivå i [!INCLUDE[prod_short](includes/prod_short.md)] bruker du sikkerhetsfiltrene til å begrense en brukers tilgang til data i en tabell. Du oppretter sikkerhetsfiltre på tabelldata. Et sikkerhetsfilter beskriver et sett med poster i en tablle som en bruker har tilgang til. Du kan for eksempel angi at en bruker bare kan lese poster som inneholder informasjon om en bestemt kunde. På denne måten har ikke brukeren tilgang til postene som inneholder informasjon om andre kunder. Hvis du vil ha mer informasjon, kan du se [Bruk sikkerhetsfiltre](/dynamics365/business-central/dev-itpro/security/security-filters) i administrasjonsinnholdet.
-
-
-## <a name="to-create-or-modify-a-permission-set"></a>Opprette eller endre et tillatelsessett
-
-Tillatelsessett fungerer som beholdere med tillatelser, slik at du enkelt kan behandle flere tillatelser i én post.
-
-> [!NOTE]  
-> En [!INCLUDE[prod_short](includes/prod_short.md)]-løsningen inneholder vanligvis et antall forhåndsdefinerte tillatelsessett som legges til av Microsoft eller programvareleverandøren. Disse tillatelsessettene er av typen **System** eller **Utvidelse**. Du kan ikke opprette eller redigere disse typene tillatelsessett eller tillatelsene i dem. Du kan imidlertid kopiere dem for å definere dine egne tillatelsessett og tillatelser.
->
-> Tillatelse som brukere oppretter, fra nye eller som kopier, er av typen **Brukerdefinert** og kan redigeres.
-
-### <a name="to-create-new-permission-set-from-scratch"></a>Slik oppretter du nye tillatelsessett fra grunnen av
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Tillatelsessett** og velger den relaterte koblingen.
-2. Velg **Ny**-handlingen for å opprette et nytt tillatelsessett.
-3. Fyll ut feltene etter behov på den nye linjen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Når du har opprettet et tillatelsessett, må du legge til de aktuelle tillatelsene. Hvis du vil ha mer informasjon, kan du se [Opprette eller endre tillatelser manuelt](ui-define-granular-permissions.md#to-create-or-modify-permissions-manually).
-
-### <a name="to-copy-a-permission-set"></a>Slik kopiere du et tillatelsessett
-
-Du kan også bruke en kopieringsfunksjon til å overføre alle tillatelser i et annet tillatelsessett til et nytt tillatelsessett raskt.
-
-> [!NOTE]  
-> Hvis et systemtillatelsessett som du har kopiert, endres, vil du bli varslet (avhengig av hva du velger), slik at du kan ta hensyn til om endringene er relevante for å kopieres eller skrives inn i det brukerdefinerte tillatelsessettet ditt.
-
-1. På siden **Tillatelsessett** merker du linjen for et tillatelsessett du vil kopiere, og velger deretter handlingen **Kopier tillatelsessett**.
-2. På siden **Kopier tillatelsessett** angir du navnet på det nye tillatelsessettet, og velg deretter **OK**-knappen.
-3. Merk av for **Varsle ved endret tillatelsessett** hvis du vil opprettholde en kobling mellom det opprinnelige og det kopierte tillatelsessettet. På denne måten får du beskjed hvis navnet eller innholdet i det opprinnelige tillatelsessettet endres i en fremtidig versjon.
-
-Det nye tillatelsessettet, som inneholder alle tillatelsene i det kopierte tillatelsessettet, legges til som en ny linje på siden **Tillatelsessett**. Nå kan du endre tillatelser i det nye tillatelsessettet. 
-
-> [!TIP]
-> Linjene sorteres alfabetisk innen hver type.
-
-### <a name="to-export-and-import-a-permission-set"></a>Slik eksporterer og importerer du et tillatelsessett
-
-Hvis du vil definere tillatelser raskt, kan du importere tillatelsessett du har eksportert fra en annen [!INCLUDE[prod_short](includes/prod_short.md)]-leietaker.
-
-I miljøer med mange leietakere importeres et tillatelsessett til en spesiell leietaker. Med andre ord er omfanget av importen *Leier*.
-
-1. I leietaker 1 på siden **Tillatelsessett** merker du linjen eller linjene for tillatelsessettene du vil eksportere, og velger deretter handlingen **Eksporter tillatelsessett**.
-
-    En XML-fil opprettes i nedlastingsmappen på maskinen. Som standard kalles den *Eksporter tillatelsessett.XML*.
-
-2. I leietaker 2 på **Tillatelsessett**-siden velger du handlingen **Importer tillatelsessett**.
-3. På siden **Importer tillatelsessett** må du vurdere om du vil slå sammen eksisterende tillatelsessett med nye tillatelsessett i XML-filen.
-
-    Hvis du merker av for **Oppdater eksisterende tillatelser**, slås eksisterende tillatelsessett med samme navn som i XML-filen, sammen med de importerte tillatelsessettene.
-
-    Hvis du ikke merker av for **Oppdater eksisterende tillatelser**, blir eksisterende tillatelsessett med samme navn i XML-filen, hoppet over under importen. I dette tilfellet blir du varslet om tillatelsessett som hoppes over.
-
-4. Fra siden **Importer** finner og velger du XML-filen som skal importeres, og velger handlingen **Åpne**.
-
-Tillatelsessettene importeres.
-
-## <a name="to-create-or-modify-permissions-manually"></a>Opprette eller endre tillatelser manuelt
-
-Denne fremgangsmåten beskriver hvordan du legger til eller redigerer tillatelser manuelt. Du kan også generere tillatelser automatisk fra handlingene i grensesnittet. Hvis du vil ha mer informasjon, kan du se [Opprette eller endre tillatelser ved å registrere handlingene dine](ui-define-granular-permissions.md#to-create-or-modify-permissions-by-recording-your-actions).
-
-> [!NOTE]
-> Når du redigerer en tillatelse og dermed det relaterte tillatelsessettet, gjelder endringene også for andre brukere som har tillatelsessettet tilordnet.
-
-1. På siden **Tillatelsessett** merker du linjen for et tillatelsessett og velger deretter handlingen **Tillatelser**.
-2. På siden **Tillatelser** oppretter du en ny linje eller redigerer feltene i en eksisterende linje.
-
-I hvert av de fem tilgangstypefeltene, **Lesetillatelse**, **Innsettingstillatelse**, **Endringstillatelse**, **Slettetillatelse** og **Kjøringstillatelse**, kan du velge ett av følgende tre tillatelsesalternativer:
-
-|Alternativ|Description|Rangering|
-|------|-----------|-------|
-|**Ja**|Brukeren kan utføre handlingen for det aktuelle objektet.|Høyeste|
-|**Indirekte**|Brukeren kan utføre handlingen for det aktuelle objektet, men bare via et annet tilknyttet objekt som brukeren har full tilgang til. Hvis du vil ha mer informasjon om indirekte tillatelser, kan du se [Tillatetlser-egenskapen](/dynamics365/business-central/dev-itpro/developer/properties/devenv-permissions-property) i hjelpen for utviklere og IT-eksperter.|Nest høyeste|
-|**Tom**|Brukeren kan ikke utføre handlingen for det aktuelle objektet.|Laveste|
-
-> [!IMPORTANT]
-> Vær forsiktig når du tilordner **innsettingstillatelse** eller **endringstillatelse** til gruppen **9001 brukergruppemedlem** eller **9003 gruppetillatelsessett for bruker**. Alle brukere som er tilordnet tillatelsessettet, kan potensielt tilordne seg selv til andre brukergrupper, som i sin tur kan gi dem utilsiktede tillatelser.
-
-### <a name="example---indirect-permission"></a>Eksempel - indirekte tillatelse
-
-Du kan tilordne en indirekte tillatelse til å bruke et objekt, bare via et annet objekt.
-En bruker kan for eksempel ha tillatelse til å kjøre kodeenhet 80, Sales-Post. Kodeenheten Sales-Post utfører mange oppgaver, inkludert å endre tabell 37, salgslinjen. Når du bokfører et salgsdokument, codeunit Sales-Post, kontrollerer [!INCLUDE[prod_short](includes/prod_short.md)] om brukeren har tillatelse til å endre Salgslinje-tabellen. Hvis ikke kan ikke codeunit fullføre oppgavene, og brukeren får en feilmelding. Hvis dette er tilfelle, kjører kodeenheten uten problemer.
-
-Brukeren trenger imidlertid ikke full tilgang til tabellen Salgslinje for å kunne kjøre codeunit. Hvis brukeren har indirekte tillatelse til Salgslinje-tabellen, kjører codeunit Sales-Post uten problemer. Når en bruker har indirekte tillatelse, kan vedkommende bare endre tabellen Salgslinje ved å kjøre kodeenheten Sales-Post eller et annet objekt som har tillatelse til å endre tabellen Salgslinje. Brukeren kan bare endre Salgslinje-tabellen når det gjøres fra moduler som støttes. Brukeren kan ikke kjøre funksjonen ved en feiltakelse eller med onde hensikter ved hjelp av andre metoder.
-
-## <a name="to-create-or-modify-permissions-by-recording-your-actions"></a>Slik oppretter eller endrer du tillatelser ved å angi registrere handlingene
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Tillatelsessett** og velger den relaterte koblingen.
-
-    Du kan også gå til siden **Brukere** og velge handlingen **Tillatelsessett**.
-2. På siden **Tillatelsessett** velger du handlingen **Ny**.
-3. Fyll ut feltene etter behov på en ny linje.
-4. Velg handlingen **Tillatelser**.
-5. På **Tillatelser**-siden velger du **Registrer tillatelser**-handlingen, og velg deretter **Start**-handlingen.
-
-    En innspillingsprosess starter og fanger opp alle handlingene dine i brukergrensesnittet.
-6. Gå til de ulike sidene og aktivitetene i [!INCLUDE[prod_short](includes/prod_short.md)] som du vil at brukere med dette tillatelsessettet skal få tilgang til. Du må utføre oppgaver som du vil registrere tillatelser for.
-7. Når du vil avslutte opptaket, gå tilbake til **Tillatelser**-siden, og velg deretter **Stopp**-handlingen.
-8. Velg **Ja**-knappen for å legge til registrerte rettigheter til det nye tillatelsessettet.
-9. Angi om brukere skal kunne sette inn, endre eller slette poster i tabeller som er registrert for hvert objekt i listen over registrerte.
-
-## <a name="to-remove-obsolete-permissions-from-all-permission-sets"></a>Slik fjerner du foreldede tillatelser fra alle tillatelsessett
-
-1. På siden **Tillatelsessett** velger du handlingen **fjern foreldede tillatelsessett**.
-
-## <a name="to-set-up-user-time-constraints"></a>Slik definerer du tidsbegrensninger for brukere:
-
-Administratorer kan definere tidsperioder som de bestemte brukerne kan bokføre. Administratorer kan også angi om system logger hvor lang tid brukere er logget på. Administratorer kan også tildele ansvarssentre til brukere. Hvis du vil ha mer informasjon, kan du se [Arbeide med ansvarssentre](inventory-responsibility-centers.md).
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukeroppsett** og velg den relaterte koblingen.
-2. På siden **Brukeroppsett** velger du handlingen **Ny**.
-3. I feltet **Bruker-ID** angir du ID-en for en bruker eller velger feltet for å vise alle gjeldende Windows-brukere i systemet.
-4. Fyll ut feltene etter behov.
 
 ## <a name="viewing-permission-changes-telemetry"></a>Vise telemetri ved tillatelsesendringer
 

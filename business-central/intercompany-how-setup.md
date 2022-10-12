@@ -10,12 +10,12 @@ ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
 ms.search.form: 605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621
 ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 7add9cf10ff90ff978c67cf691b2f7e5c6b87bdd
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
+ms.openlocfilehash: 32a0005f2ebbc6bfc87c21fed8469c86535e15de
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9460863"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607287"
 ---
 # <a name="set-up-intercompany-transaction-posting"></a>Definere bokføring av konserninterne transaksjoner
 
@@ -56,6 +56,10 @@ Disse feltene som fylles ut, varierer avhengig av om systemansvarlig har aktiver
 
 > [!NOTE]
 > I [!INCLUDE[prod_short](includes/prod_short.md)] Online kan du ikke bruke filplasseringer til å overføre transaksjoner til partnerne fordi [!INCLUDE[prod_short](includes/prod_short.md)] ikke har tilgang til det lokale nettverket. Hvis du velger **Filplassering** i **Overføringstype**-feltet, er derfor ikke **Mappebane**-feltet tilgjengelig. Filen lastes i stedet ned til Nedlastinger-mappen på datamaskinen. Du sender deretter filen til noen i partnerselskapet, for eksempel via e-post. Vi anbefaler at du i stedet velger **E-post** for å bruke en mer direkte fremgangsmåte.
+
+> [!NOTE]
+> Når du har aktivert **Godta transaksjoner automatisk** for den konserninterne bokføringen på siden **Konserninternt partnerkort** undertrykker [!INCLUDE[prod_short](includes/prod_short.md)] meldinger som varsler om kjøpsfakturaer som kopiere den opprinnelige bestillingen. Det er derfor viktig å ha en forretningsprosess for å behandle duplikater. Ved å slette slike bestillinger når for eksempel kjøpsfakturaen mottas fra den konserninterne partneren.
+
 
 ## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Slik definerer du konserninterne leverandører og kunder
 

@@ -8,14 +8,14 @@ metadata:
   ms.tgt_pltfrm: na
   ms.workload: na
   ms.search.keywords: list, filter, pane, views
-  ms.date: 06/24/2021
+  ms.date: 08/09/2022
   ms.author: mikebc
-  ms.openlocfilehash: 6140dd6e114a8967a4e20196feb88e25fbd06bb1
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  ms.openlocfilehash: ff5b79e1aeb7954712dc624cef9a6bbaf486279f
+  ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
   ms.translationtype: HT
   ms.contentlocale: nb-NO
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8144596"
+  ms.lasthandoff: 09/30/2022
+  ms.locfileid: "9607638"
 title: Vanlige spørsmål om listevisninger
 summary: Denne artikkelen gir svar på spørsmål som våre avanserte brukere ofte spør om arbeid med listevisninger og lagring av filtre.
 sections:
@@ -41,13 +41,13 @@ sections:
     answer: >
       Visninger er bare tilgjengelige på listesider.
   - question: >
-      Hvordan vet jeg om jeg er på listetypeside?
+      Hvordan vet jeg om jeg er på en listetypeside?
     answer: >
       Bruk sideinspeksjon. Trykk på CTRL + ALT + F1 for å åpne sideinspeksjon. Deretter kan du i feltet **Side** se etter ordet **Liste** i parentesen på slutten.
   - question: >
       Er visninger også tilgjengelige i andre formfaktorer?
     answer: >
-      Ja. Visninger du lagrer på skrivebordsleseren eller skrivebordsappen, vil også være tilgjengelige på nettbrettet eller smarttelefonen. Du kan ikke endre eller tilpasse visninger på mobile enheter.
+      Ja. Visninger du lagrer på skrivebordsleseren eller skrivebordsappen, vil også være tilgjengelige på nettbrettet, smarttelefonen eller når det er innbygd i Microsoft Teams. Du kan ikke endre eller tilpasse visninger på mobile enheter.
   - question: >
       Er personlige visninger alltid tilgjengelige?
     answer: >
@@ -63,7 +63,7 @@ sections:
   - question: >
       Hvordan kan jeg dele visningene med andre?
     answer: >
-      [!INCLUDE[prod_short](includes/prod_short.md)] gir ikke en måte å dele den nøyaktige listevisningen på. Du kan imidlertid dele nåværende filtre slik at andre brukere kan se en lignende liste med poster. I skrivebordsleseren kan du ganske enkelt kopiere URL-adressen og dele den med kollegene dine. Det er ikke garantert at deling av filtre gir mottakeren et identisk sett med filtre som du ser i nettleseren.
+      [!INCLUDE[prod_short](includes/prod_short.md)] gir ikke en måte å dele den nøyaktige listevisningen på. Du kan imidlertid dele nåværende filtre slik at andre brukere kan se en lignende liste med poster. Velg en visning i Business Central-nettklienten, og bruk deretter **Kopier kobling**-funksjonen til å kopiere nettadressen til utklippstavlen. Kopiere nettadressen og dele den med kollegene dine. Det er ikke garantert at deling av filtre gir mottakeren et identisk sett med filtre som du ser i nettleseren.
   - question: >
       Kan jeg søke etter visninger i Fortell meg-vinduet?
     answer: >
@@ -88,17 +88,9 @@ sections:
       Visningene du ser i en hvilken som helst liste, er en kombinasjon av personlige visninger og systemvisninger. Det kan hende at systemvisninger kommer fra forretningsprogrammet, fra utvidelser eller er rollespesifikke hvis listen ble tilpasset for din rolle.
   - question: >
       Hvorfor gir noen visninger færre alternativer?
-    answer: >
-      Enkelte visninger gir deg bare muligheten til å lagre en kopi av visningen, mens andre ikke tillater lagring av endringer i visningen. Hvordan visningen ble opprettet, bestemmer hvilke alternativer som er tilgjengelige for denne visningen. Visninger kan opprettes på flere måter:
-
-
-      - Personlige visninger du har lagret
-
-      - Systemvisninger som er en standard del av forretningsapplikasjonen eller er lagt til av utvidelser eller rollespesifikke visninger. I motsetning til personlige visninger kan du ikke lagre endringer i filtre tilbake til systemvisningen.
-
-      - Eldre systemvisninger som er en standard del av forretningsprogrammet, men som er opprettet med eldre versjoner av [!INCLUDE[prod_short](includes/prod_short.md)]. Disse visningene gir færre alternativer. Du kan bare lagre dem som en ny visning og ikke skjule eller endre rekkefølgen på dem. Eldre systemvisninger avvikles i en fremtidig oppdatering av [!INCLUDE[prod_short](includes/prod_short.md)].
+    answer: "Enkelte visninger gir deg bare muligheten til å lagre en kopi av visningen, mens andre ikke tillater lagring av endringer i visningen. Hvordan visningen ble opprettet, bestemmer hvilke alternativer som er tilgjengelige for denne visningen. Visninger kan opprettes på flere måter:\n\n- Personlige visninger du har lagret\n- Systemvisninger som er en standard del av forretningsapplikasjonen eller er lagt til av utvidelser eller rollespesifikke visninger. I motsetning til personlige visninger kan du ikke lagre endringer i filtre tilbake til systemvisningen.\n- Eldre systemvisninger som er en standard del av forretningsprogrammet, men som er opprettet med eldre versjoner av [!INCLUDE[prod_short](includes/prod_short.md)]. Disse visningene gir færre alternativer. Du kan bare lagre dem som en ny visning og ikke skjule eller endre rekkefølgen på dem. Eldre systemvisninger avvikles i en fremtidig oppdatering av [!INCLUDE[prod_short](includes/prod_short.md)].\n\n> [!NOTE]\n> Fra og med lanseringsbølge 2 i 2023 for Business Central vil eldre visninger ikke lenger være støttet, og vil ikke vises på listesiden. Lær tekniske detaljer om hvordan utviklere kan gå over til moderne listevisninger under [Overføring fra eldre visninger til moderne visninger](/dynamics365/business-central/dev-itpro/developer/devenv-views-legacy). \n"
   - question: >
-      Hvordan konverterer jeg eldre systemvisninger?
+      Hvordan får jeg tidligere begrensninger fra eldre systemvisninger?
     answer: >
       Eldre systemvisninger er listevisninger som ble opprettet av utviklere i eldre versjoner av [!INCLUDE[prod_short](includes/prod_short.md)] ved å plassere dem på rollesentersiden. Disse visningene vises nå direkte på listesiden, men tilbyr en redusert opplevelse og færre alternativer. Du kan konvertere en eldre systemvisning til en personlig visning som kan tilpasses fullstendig, ved ganske enkelt å lagre den eldre visningen som en ny visning. Systemansvarlige kan også velge å konvertere rollespesifikke eldre systemvisninger ved å tilpasse brukerrollen og lagre den gamle visningen som en ny rollespesifikk visning.
 

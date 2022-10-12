@@ -8,12 +8,12 @@ ms.search.keywords: SMTP, mail, Microsoft 365, cover, body, PayPal, layout
 ms.search.form: ''
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: adfb0f44e35f0efea1f4081be3277f83e10dfd00
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 5757cbd314d6e8af5a049b8d0dbe626b3eb83057
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532353"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607206"
 ---
 # <a name="send-documents-and-emails"></a>Send dokumenter og e-poster
 
@@ -51,10 +51,13 @@ Denne fremgangsmåten beskriver hvordan du knytter en bokført salgsfaktura til 
 > Hvis du ikke vil angi e-postinnstillinger hver gang du sender et dokument via e-post, kan du velge alternativet **Ja (bruk standardinnstillinger)** i **E-post**-feltet på siden **Send dokument til**. I så fall åpnes ikke siden **Send e-post**. Se trinn 4. Hvis du vil ha mer informasjon, kan du se [Definere en profil for dokumentsending](sales-how-setup-document-send-profiles.md).  
 
 ## <a name="to-compose-and-send-an-email"></a>Slik skriver og sender du en e-post
+
 Du kan raskt skrive e-postmeldinger for kontakter, kunder, leverandører, selgere/innkjøpere og bankkontoer direkte fra sidene for disse enhetene. Velg **Behandle** og **Send e-post** for å åpne redigeringsprogrammet for e-post. Når det gjelder bankkonti, er handlingen **Send e-post** under **Handlinger**.
 
 > [!TIP]
 > Hvis du ofte sender e-postmeldinger som ligner, eller vil sende en massekommunikasjon, for eksempel for å annonsere en salgskampanje, kan du bruke Word-maler med e-post til å gjøre prosessen raskere. Du kan opprette en mal for en enhet, for eksempel kunder, leverandører og kontakter, som vil generere innholdet i en e-postmelding for deg og til og med tilpasse innholdet for mottakeren basert på data i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Bruk Word-maler til massekommunikasjon](ui-mail-merge.md).  
+
+Hvis du er tildelt et e-postscenario som gjelder enheten du sender e-postmeldingen til eller dokumentet du sender, kan et vedlegg automatisk legges til meldingen. Dette skyldes at et standardvedlegg er tildelt e-postscenarioet. Du kan slette vedlegget hvis du ikke vil sende det med meldingen. Hvis du vil ha mer informasjon, kan du se [Tilordne e-postscenarioer til e-postkontoer](admin-how-setup-email.md#assign-email-scenarios-to-email-accounts). 
 
 ## <a name="documents-marked-as-printed-when-they-are-sent"></a>Dokumenter merket som skrevet ut når de sendes
 

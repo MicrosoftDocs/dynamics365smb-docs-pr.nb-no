@@ -1,6 +1,6 @@
 ---
 title: Opprette varekort for varer eller tjenester (inneholder video)
-description: Du kan opprette varekort for tjenester du selger som timer, og for fysiske produkter, for eksempel monteringsvarer, ferdigvarer, du selger fra lageret.
+description: Du oppretter varekort for tjenester som du selger som timer og for fysiske produkter. Eksempler er monteringsvarer og ferdige varer som du selger fra lageret.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: item, finished good, component, raw material, assembly item, item substitution
 ms.search.form: 30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719
-ms.date: 09/24/2021
+ms.date: 09/26/2022
 ms.author: edupont
-ms.openlocfilehash: 7af83072b6b20ba9b56c06c0fb7321707a425776
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 945197681e32f6d77ede2f1b0e727892a64d8277
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532920"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9604952"
 ---
 # <a name="register-new-items"></a>Registrere nye varer
 
@@ -25,17 +25,18 @@ Varekort inneholder informasjonen som er nødvendig for å kjøpe, lagre, selge,
 
 Varekortet kan være av typen **Lager**, **Service** eller **Ikke-lagervarer** for å angi om varen er en fysisk lagerenhet, en arbeidstidsenhet eller en fysisk enhet som ikke spores i lagerbeholdningen. Hvis du vil ha mer informasjon, kan du se [Om varetyper](inventory-about-item-types.md).
 
-En vare kan struktureres som en overordnet vare med underliggende underordnede varer i en stykkliste. I [!INCLUDE[prod_short](includes/prod_short.md)] kan en stykkliste være en monteringsstykkliste eller en produksjonsstykkliste, avhengig av bruken. Hvis du vil ha mer informasjon, kan du se [Arbeide med stykklister](inventory-how-work-BOMs.md).
+En vare kan struktureres som en overordnet vare med underliggende underordnede varer i en stykkliste. Finn ut mer om monteringsstykklister og produksjonsstykklister i [Arbeid med stykklister](inventory-how-work-BOMs.md).
 
 Hvis du kjøper den samme varen fra flere leverandører, kan du knytte disse leverandørene til varekortet. Leverandørene vises deretter på siden **Vare/leverandør-katalog**, slik at du enkelt kan velge en annen leverandør.
 
-Varer som du tilbyr kunder, men som du ikke vil administrere i systemet før du begynner å selge dem, kan defineres som katalogvarer. Katalogvarer må ikke forveksles med vanlige varer av typen **Ikke-lagervarer**. Hvis du vil ha mer informasjon, kan du se [Arbeide med katalogvarer](inventory-how-work-nonstock-items.md).  
+*Katalogvarer* er varer som du tilbyr kunder, men som du ikke vil administrere i systemet før du begynner å selge dem. Katalogvarer er ikke vanlige varer av typen **Ikke-lagervarer**. Finn ut mer under [Arbeid med katalogvarer](inventory-how-work-nonstock-items.md).  
 
 > [!NOTE]  
 > Hvis det finnes varemaler for ulike varetyper, vises en siden når du oppretter et nytt kundekort der du kan velge en passende mal. Hvis det bare finnes én varemal, brukes alltid denne malen i nye varekort.
 
 Fremgangsmåten nedenfor forklarer hvordan du oppretter et varekort fra grunnen av. Du kan også opprette nye varekort ved å kopiere eksisterende varekort. Hvis du vil ha mer informasjon, se [Kopiere eksisterende varer for å opprette nye varer](inventory-how-copy-items.md).  
 
+<br />
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 ## <a name="to-create-a-new-item-card"></a>Opprette et nytt varekort
@@ -65,7 +66,7 @@ Varemalen legges til i listen over varemaler, slik at du kan bruke den til å op
 
 ### <a name="items-used-in-production-orders"></a>Varer som brukes i produksjonsordrer
 
-Hvis du vil registrere varer som deretter brukes i produksjonsordrer, angir du etterfyllingssystemet som *Prod. ordre* i hurtigfanen **Etterfylling**. Hvis du vil ha mer informasjon, kan du se [Om produksjonsordrer](production-about-production-orders.md).  
+Hvis du vil registrere varer som brukes i produksjonsordrer, angir du etterfyllingssystemet som *Prod. ordre* i hurtigfanen **Etterfylling**. Hvis du vil ha mer informasjon, kan du se [Om produksjonsordrer](production-about-production-orders.md).  
 
 ## <a name="to-set-up-multiple-vendors-for-an-item"></a>Slik definerer du flere leverandører for varer
 
@@ -87,12 +88,12 @@ Du kan konfigurere varer slik at de får erstatninger, for eksempel andre varer 
 ### <a name="to-make-an-item-substitution"></a>Slik lager du en vareerstatning
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
-2. Finn den aktuelle varen, og klikk deretter på feltet **Varenr.** for å åpne varekortet.  
-3. Velg **Relatert**-handlingen, velg **Vare**, og velg deretter **Erstatninger** for å åpne siden Vareerstatningspost.  
+2. Finn den aktuelle varen, og velg deretter **Varenr.** for å åpne varekortet.  
+3. Velg **Relatert**-handlingen, velg **Vare**, og velg deretter **Erstatninger** for å åpne siden **Vareerstatningspost**.  
 4. Velg feltet **Erstatningsnr.** og velg deretter erstatningsvaren fra listen.
-5. Fortsett med å fylle ut eller endre andre felter på siden etter behov.
+5. Fyll ut eller endre andre felter på siden etter behov.
 
-Hvis det forespurte antallet, som på en salgslinje, overskrider det disponible antallet på lageret, blir det vist en melding for å informere deg om at erstatningsvarer finnes.
+Hvis det forespurte antallet overskrider det disponible antallet på lageret, blir det vist en melding for å informere deg om at erstatningsvarer finnes.
 
 > [!NOTE]  
 > Vær oppmerksom på at vareerstatninger ikke automatisk fører til at en vare erstattes av en annen vare, for eksempel når du oppretter en ordre eller i en stykkliste. I stedet blir du varslet om at en erstatning er tilgjengelig for deg.
@@ -101,15 +102,17 @@ Hvis det forespurte antallet, som på en salgslinje, overskrider det disponible 
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
+Finn ut mer om varianter under [Administrer av produktvarianter](inventory-item-variants.md).  
+
 ## <a name="deleting-item-cards"></a>Slette varekort
 
 Hvis du har bokført en transaksjon for en vare, kan du ikke slette kortet, fordi postene kan være nødvendige for å lagervurdering eller -revisjon. Hvis du vil slette varekort med poster, kontakter du Microsoft-partneren for å gjøre det gjennom kode.  
 
 ## <a name="manage-inventory-in-warehouses"></a>Håndtere lager på lagre
 
-Når du registrerer en ny vare, vil du se felt som er knyttet til lagerstyring, spesielt på hurtigfanen **Lager**. Hvis organisasjonen ikke bruker lagerstyringsmulighetene i [!INCLUDE [prod_short](includes/prod_short.md)], kan du ignorere disse feltene.  
+Når du registrerer en ny vare, vil du se felter som er knyttet til lagerstyring, spesielt på hurtigfanen **Lager**. Hvis organisasjonen ikke bruker lagerstyringsmulighetene i [!INCLUDE [prod_short](includes/prod_short.md)], kan du ignorere disse feltene.  
 
-Hvis organisasjonen senere setter opp lagerstyring, må du i de fleste tilfeller gå tilbake til hver eksisterende vare for å være sikker på at den har de riktige opplysningene i de ulike feltene, slik at lagerprosessene kan kjøres som forventet. Denne informasjonen kan omfatte felt som **Lagerklassekode** eller **Plasseringsmalkode**. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Lagerstyringsoppsett](design-details-warehouse-setup.md).  
+Hvis organisasjonen senere setter opp lagerstyring, anbefales det at du sørger for at alle eksisterende varer har de riktige opplysningene i de ulike feltene. På denne måten kan lagerprosessene kjøres som forventet. Informasjonen kan omfatte felt som **Lagerklassekode** eller **Plasseringsmalkode**. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Lagerstyringsoppsett](design-details-warehouse-setup.md).  
 
 ## <a name="planning"></a>Planlegging
 
@@ -123,7 +126,8 @@ Hvis du vil ha eksempler på hvordan du kan bruke feltene på hurtigfanen **Plan
 
 [Lager](inventory-manage-inventory.md)  
 [Definere enheter](inventory-how-setup-units-of-measure.md)  
-[Tariffnumre](finance-how-setup-report-intrastat.md#tariff-numbers)  
+[Behandle produktvarianter](inventory-item-variants.md)  
+[Definer Intrastat-rapportering](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
 [Avstem lagerkost med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Opprette nummerserier](ui-create-number-series.md)  
 [Definere bokføringsgrupper](finance-posting-groups.md)  

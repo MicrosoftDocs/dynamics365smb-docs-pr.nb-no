@@ -10,12 +10,12 @@ ms.search.keywords: C5, financials, extension
 ms.search.form: 20600,
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 4304a42f865086de3337deb3a49b1f1512e0e201
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: b0443ef53a564e103810543225cc0c4a0c6bced7
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362225"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606039"
 ---
 # <a name="the-basic-experience-extension"></a>Grunnleggende opplevelse-utvidelsen
 
@@ -24,17 +24,17 @@ Hvis du har brukt Microsoft Dynamics C5, kan Microsoft-partnere hjelpe deg med �
 Denne utvidelsen er beregnet for små bedrifter og kan støtte opptil tre brukere. Hvis du trenger flere brukere, må du oppgradere til en [!INCLUDE[prod_short](includes/prod_short.md)]-lisens og avinstallere denne utvidelsen.
 
 > [!NOTE]
-> Per nå er denne utvidelsen bare tilgjengelig for kunder i Danmark og Island. 
+> Per nå er denne utvidelsen bare tilgjengelig til kunder i Danmark og Island.
 
 ## <a name="whats-available"></a>Hva som er tilgjengelig
 
 Tabellen nedenfor beskriver funksjonene som er tilgjengelige hvis du installerer den grunnleggende opplevelsesutvidelsen.
 
-|Distrikt  |Funksjonalitet  |
+|Område  |Funksjonalitet  |
 |---------|---------|
-|**Finans** |Grunnleggende økonomi, kontoskjemaer, aktiva, bankbehandling, bankavstemming, betalinger, Direct Debit, dimensjoner, flere valutaer, budsjetter, arbeidsflyt, dokumentbehandling/OCR, konsolidering, ubegrensede selskaper|
-|**Samlekonto (kunde) / salg** |Grunnleggende salg, salgsfakturering, salgsrabatt, prising, mva, kontakthåndtering |
-|**Samlekonto (leverandør) / kjøp** |Grunnleggende kjøp, kjøpsfakturering |
+|**Finans** |Grunnleggende økonomi, finansrapporter, aktiva, bankbehandling, bankavstemming, betalinger, Direct Debit, dimensjoner, flere valutaer, budsjetter, arbeidsflyt, dokumentbehandling/OCR, konsolidering, ubegrensede selskaper|
+|**Kunder/salg** |Grunnleggende salg, salgsfakturering, salgsrabatt, prising, mva, kontakthåndtering |
+|**Leverandør/kjøp** |Grunnleggende kjøp, kjøpsfakturering |
 |**Prosjektstyring** |Prosjekter, prosjektprising, timelister, tildeling, oppgaver, ressurser |
 |**Lager** |Grunnleggende lager, vareerstatninger, varekryssreferanse |
 
@@ -42,11 +42,11 @@ Tabellen nedenfor beskriver funksjonene som er tilgjengelige hvis du installerer
 
 Denne utvidelsen er litt annerledes enn de fleste, og du vil trenge hjelp fra en Microsoft-partner for å installere og konfigurere den. Slik at du vet hva du kan forvente, får du her en overordnet oversikt over hva Microsoft-partneren vil gjøre.
 
-1. Opprett en ny [!INCLUDE[prod_short](includes/prod_short.md)]-leietaker. Dette kan være enten en prøveversjon eller en CSP-versjon.
+1. Opprett en ny [!INCLUDE[prod_short](includes/prod_short.md)]-leietaker. Dette kan være enten en prøveversjon eller en CSP-versjon (leverandør av skytjenester).
 2. Legg til minst én bruker som er tilordnet til en grunnleggende opplevelse-lisens i Azure Active Directory-kontoen.
 3. Fjern alle selskaper, inkludert eksempelselskapet CRONUS.
 4. Opprett et nytt selskap som ikke inneholder eksempeldata eller oppsett.
-5. Legg til **Demo RapidStart**-pakken. <!--what does the pockage contain?-->
+5. Legg til **Demo RapidStart**-pakken. <!--what does the package contain?-->
 6. Last ned og installer utvidelsen for grunnleggende opplevelse fra AppSource.
 
 ## <a name="migrating-data"></a>Overføring av data

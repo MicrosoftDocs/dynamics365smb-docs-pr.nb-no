@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 04/01/2021
+ms.date: 09/13/2022
 ms.author: edupont
-ms.openlocfilehash: e413f75356af244dafe7e887207db370b942db7b
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: 3e174ae2218dfe4b5b83a8a567deaba91987d2ea
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654894"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606806"
 ---
 # <a name="business-functionality"></a>Forretningsfunksjoner
 
@@ -23,12 +23,12 @@ ms.locfileid: "8654894"
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-[!INCLUDE[prod_short](includes/prod_short.md)] inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for din virksomhet. Gjennom rollesenteret har du tilgang til assisterte oppsettsveiledninger som hjelper deg med å konfigurere enkelte scenarioer og legger til funksjoner i [!INCLUDE[prod_short](includes/prod_short.md)]. Flere områder av forretningsfunksjoner må defineres manuelt. Artiklene om [hurtigstart for Business Central](quick-start-business-central.md) kan hjelpe deg med å ta de første trinnene mot å gjøre [!INCLUDE [prod_short](includes/prod_short.md)] til din egen. Hvis du vil ha mer informasjon, kan du se [Definere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for din virksomhet. Gjennom rollesenteret har du tilgang til assisterte oppsettsveiledninger som hjelper deg med å konfigurere enkelte scenarioer og legger til funksjoner i [!INCLUDE[prod_short](includes/prod_short.md)]. Flere områder av forretningsfunksjoner må defineres manuelt. Artiklene om [hurtigstart for Business Central](quick-start-business-central.md) hjelper deg med å ta de første trinnene mot å gjøre [!INCLUDE [prod_short](includes/prod_short.md)] til din egen. Finn ut mer under [Definer [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).
 
-| Hvis du vil | Se |
+| Til | Se |
 | --- | --- |
 |Foreta og innkreve betalinger, administrere kontantstrøm, periodisere inntekt og omsetning, utarbeide årsavslutning og behandle aktiva.|[Finans](finance.md)|
-|Få innsikt i ytelsen til forretningsaktiviteter via budsjetter, kontoskjemaer og analysevisninger.|[Forretningsintelligens](bi.md)|
+|Få innsikt i ytelsen til forretningsaktiviteter via budsjetter, kontoskjemaer og analysevisninger.|[Finansforretningsanalyse](bi.md)|
 |Administrere salgsprosesser og informasjon, for eksempel tilbud, ordrer, returer og kunder, og foreta direkte levering.|[Salg](sales-manage-sales.md)|
 |Administrere innkjøpsprosesser og informasjon, for eksempel fakturaer, salgsordrer, returer og leverandørkontoer, og kjøpe varer fra salgsdokumenter. |[Innkjøp](purchasing-manage-purchasing.md)|
 |Registrere nye lager- eller servicetypevarer, kategorisere varer for enkelt søk, justere lagernivåer og utføre vanlige lageretterkalkuleringsoppgaver.|[Lager](inventory-manage-inventory.md)|
@@ -36,7 +36,7 @@ ms.locfileid: "8654894"
 |Organisere dine aktiva, sikre riktig periodisk avskrivning og holde oversikt over vedlikeholdskostnader.|[Anleggsmidler](fa-manage.md)|
 |Behandle og støtte salgsinnsatsen din og fokusere samhandlingen på foretrukne kunder og kontakter.|[Forbindelser](marketing-relationship-management.md)|
 |Holde detaljerte poster for ansatte, og registrere fravær for analyseformål. |[Personal](hr-manage-human-resources.md)|
-|Planlegge produksjonsoperasjonene som kreves for å transformere tilganger til ferdige varer.|[Planlegging](production-planning.md)|
+|Planlegge produksjonsoperasjoner som er nødvendige for å tilgang til ferdigvarer.|[Planlegging](production-planning.md)|
 |Sette salgbare varer sammen i enkle trinn for å lage en ny vare, for eksempel et sett.|[Monteringsstyring](assembly-assemble-items.md)|
 |Definere verkstedressurser og kapasitet, planlegge operasjoner, hente produksjonskomponenter og utføre produksjonsoperasjoner.|[Produksjon](production-manage-manufacturing.md)|
 |Sørg for en effektiv flyt av varer som mottas og sendes.|[Lagerstyring](warehouse-manage-warehouse.md)|
@@ -47,11 +47,10 @@ ms.locfileid: "8654894"
 
 ## <a name="see-also"></a>Se også
 
+[Administrasjon](admin-setup-and-administration.md)    
 [Utforske Dynamics 365 Business Central-funksjoner](https://dynamics.microsoft.com/business-central/capabilities/)  
-[Administrasjon](admin-setup-and-administration.md)  
-[Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
-[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)   
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)   
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

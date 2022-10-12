@@ -10,15 +10,14 @@ ms.search.keywords: kit, kitting
 ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
 ms.date: 06/14/2021
 ms.author: edupont
-ms.openlocfilehash: 3b9955ece6a5f76269915b18ecfe22c722d2e59d
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: e43a8bbfb663a7207afd01360ba3600cd60d5076
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532974"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607022"
 ---
 # <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Salg av lagervarer i montere til ordre-flyter
-
 
 Hvis **Monteringsprinsipp**-feltet p책 varekortet for en monteringsvare inneholder **Monter til ordre**, forutsetter standard ordreprosess at varen ikke er p책 lager og m책 monteres for denne bestemte ordren. Det blir derfor automatisk opprettet en monteringsordre n책r du legger varen til p책 en ordrelinje. Hvis du vil ha mer informasjon, kan du se [Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md). Hvis en del av (eller hele) ordreantallet allerede er tilgjengelig i beholdningen, kan du redusere monteringsordreantallet ved 책 endre feltet **Ant. som skal monteres til ordre** p책 ordrelinjen.  
 
@@ -57,7 +56,7 @@ I denne fremgangsm책ten erstatter du montere-til-ordre-antall med lagerantall p�
 
 [Monteringsstyring](assembly-assemble-items.md)  
 [Reservere varer](inventory-how-to-reserve-items.md)  
-[Arbeid med stykklister](inventory-how-work-BOMs.md)  
+[Arbeid med monteringsstykklister](assembly-how-work-assembly-boms.md)  
 [Lager](inventory-manage-inventory.md)  
 [Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

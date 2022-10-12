@@ -5,18 +5,18 @@ author: jswymer
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 02/28/2022
+ms.date: 08/03/2022
 ms.author: jswymer
-ms.openlocfilehash: 2e1cc04d265541c87244dcd6c13b14327f07cc2f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 99077273617613a2bd5fd949ead836605432b9aa
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516424"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607449"
 ---
-# <a name="opening-and-sharing-business-central-files-in-onedrive"></a>Åpne og del Business Central-filer i OneDrive
+# <a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a>Åpne og dele Business Central-filer i Microsoft OneDrive
 
-[!INCLUDE[prod_short](includes/prod_short.md)] gjør det enkelt å lagre, behandle og dele filer med andre personer via OneDrive for Business. På de fleste sider der filer er tilgjengelige, for eksempel rapportinnboksen eller filer som er knyttet til poster, finner du handlingene **Åpen i OneDrive** og **Del**.
+[!INCLUDE[prod_short](includes/prod_short.md)] gjør det enkelt å lagre, behandle og dele filer med andre personer via Microsoft OneDrive for Business. På de fleste sider der filer er tilgjengelige, for eksempel rapportinnboksen eller når filer er knyttet til poster, finner du handlingene **Åpen i OneDrive** og **Del**.
 
 
 :::image type="content" source="media/onedrive-overview-report-inbox-w-outline.png" alt-text="Handlingene Åpne i OneDrive og Del for rapporter":::
@@ -24,38 +24,37 @@ ms.locfileid: "8516424"
 
 :::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="Handlingene Åpne i OneDrive og Del for vedlegg":::
 
-<!--
-:::image type="content" source="media/Open in OneDrive.PNG" alt-text="The Open in OneDrive action":::
-
- 
-:::image type="content" source="media/OneDrive attachment.PNG" alt-text="Share file attachments in OneDrive":::
--->
 
 ## <a name="open-in-onedrive"></a>Åpne i OneDrive
 
-Handlingen **Åpne i OneDrive** kopierer filen til OneDrive og åpner filen i de nettbaserte appene, som Excel online, Word online og PowerPoint online. 
+Handlingen **Åpne i OneDrive** kopierer filen til OneDrive og åpner deretter filen i en app som Microsoft Excel online, online, Microsoft Word online eller Microsoft PowerPoint online. 
 
-<!--## Working with Different Types of Files-->
+<!--## Working with different types of files-->
 
-Når du velger **Åpne i OneDrive**, identifiserer [!INCLUDE[prod_short](includes/prod_short.md)] Excel-, Word- og PowerPoint-filer og åpner dem i nettprogrammene, det vil si Excel online, Word online og PowerPoint online. Du kan sette inn merknader, redigere og samarbeide med andre uten å forlate nettleseren.
+Når du velger **Åpne i OneDrive**, identifiserer [!INCLUDE[prod_short](includes/prod_short.md)] Excel-, Word- og PowerPoint-filer og åpner dem i nettprogrammene, det vil si Excel online, Word online og PowerPoint online. 
+
+Ved hjelp av de elektroniske versjonene av disse programmene kan du sette inn merknader, redigere og samarbeide med andre uten å forlate webleseren.
 
 For andre populære filtyper, for eksempel PDF-filer, tekstfiler og bilder inneholder OneDrive filvisningsprogrammer som tilbyr funksjoner for utskrift, deling og mer. Hvis en fil ikke kan vises i OneDrive, kan det hende du blir bedt om å laste den ned.
 
-## <a name="share"></a>Andel
+## <a name="share"></a>Del
 
-Handlingen **Del** kopierer filen til OneDrive og lar deg dele filen med andre personer og se hvem du allerede har delt filen med. Når du velger **Del**-handlingen, åpnes neste side.
+Handlingen **Del** kopierer filen til OneDrive slik at du kan se hvem du allerede har delt den med, og dele filen med andre. Når du velger **Del**-handlingen, åpnes neste side.
 
-:::image type="content" source="media/share-to-onedrive-dialog.PNG" alt-text="Del fil i OneDrive":::
+:::image type="content" source="media/share-to-onedrive-dialog-v2.PNG" alt-text="Del fil i OneDrive":::
 
-Hvis du er vant med OneDrive, kan du gjenkjenne siden. Du har to alternativer for deling av filen: **Send kobling** og **Kopier kobling**.
+Hvis du er vant med OneDrive, kan du gjenkjenne siden det refereres til over. Du vuk se to alternativer for deling av filen: **Send kobling** og **Kopier kobling**.
 
-- **Send kobling** lar deg dele filene med bestemte personer. Personene du deler filen med, får en e-postmelding med en kobling til filen. Filen vil også vises i delen **Delt** i OneDrive. Begynn med å skrive inn e-postadresser eller kontaktnavn i feltet **Navn, gruppe eller e-post**.
+- **Send kobling** lar deg dele filene med bestemte personer. Personene du deler filen med, får en e-postmelding med en kobling til filen. Filen vil også vises i delen **Delt** i OneDrive. Begynn med å skrive inn e-postadresser eller kontaktnavn i feltet **Navn, gruppe eller e-post**. Ta med en melding under **Navn, gruppe eller e-post** hvis du vil.
 
-- **Kopier kobling** kopierer en kobling til filen i OneDrive slik at du kan bruke koblingen andre steder som Facebook, Twitter eller e-postmeldinger. 
+  > [!TIP]
+  > Hvis du vil skrive meldingen i Outlook, velger du **Outlook**-knappen. Koblingen settes inn i en kladde-e-post, og alle du angir å dele med, vil være i **Til**-listen. Med dette alternativet kan du redigere e-post ved hjelp av alle funksjonene i Outlook, blant annet formateringstekst, legge til andre vedlegg, sette inn bilder eller tabeller og legge til Kopi- eller Blindkopi-mottakere.
 
-Før du sender eller kopierer koblingen, må du angi tillatelsen for filen du vil brukere skal ha. Du kan se nåværende innstilling under **Send kobling** og **Kopier kobling**. I de fleste tilfeller vil det være **Alle med koblingen kan redigere for å åpne koblingen**, avhengig av innstillingene som er angitt av administratoren. Hvis du vil endre tillatelsene, merker du koblingen og gjør endringer på siden **Koblingsinnstillinger**.
+- **Kopier kobling** kopierer en filkobling du kan bruke til å dele filen gjennom programmer som Facebook, Twitter eller e-post. 
 
-Delingsfunksjonen i Business Central er basert på OneDrive. Hvis du vil lære mer om deling og tillatelser, kan du se [Del OneDrive-filer og -mapper](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+Før du sender eller kopierer en filkobling, må du angi tillatelsesfilen du vil at folk skal ha. Du kan se nåværende innstilling under **Send kobling** eller **Kopier kobling**. I de fleste tilfeller vil det være **Alle med koblingen kan redigere**, avhengig av administratorinnstillingene. Hvis du vil endre tillatelsene, merker du koblingen og gjør endringer på siden **Koblingsinnstillinger**.
+
+Delingsfunksjonen i Business Central er basert på OneDrive. Lær mer om OneDrive-deling og -tillattelser på [Dele OneDrive-filer og -mapper](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 
 > [!NOTE]
 > Handlingen **Del** er ikke tilgjengelig i Business Central-appen for mobilenheter.
@@ -65,22 +64,36 @@ Delingsfunksjonen i Business Central er basert på OneDrive. Hvis du vil lære m
 Når du bruker handlingen **Åpne i OneDrive** eller **Del** for første gang, gjør [!INCLUDE[prod_short](includes/prod_short.md)] følgende:
 
 1. Åpner siden **Se gjennom vilkårene**. Les siden, og velg deretter **Godta** for å fortsette hvis du godtar vilkårene.
-2. Åpner siden **Velg en konto** Velg kontoen din eller **bruk en annen konto** hvis du ikke finner din egen, og skriv inn brukernavnet og passordet når du blir bedt om det.
+2. Åpner siden **Velg en konto**. Velg kontoen din eller **bruk en annen konto** hvis du ikke finner din egen, og skriv inn riktig brukernavn og passord når du blir bedt om det.
 3. Oppretter en mappe med navnet [!INCLUDE[prod_short](includes/prod_short.md)] i OneDrive. 
-4. I [!INCLUDE[prod_short](includes/prod_short.md)]-mappen opprettes det en annen mappe med samme navn som selskapet du arbeider i. Hvis du arbeider i flere enn ett selskap, opprettes det en mappe for selskapet du arbeider med, når du bruker handlingen **Åpne i OneDrive** og **Del**. 
-5. Lagrer en kopi av filen du valgte i mappen, og åpner deretter filen. Neste gang du bruker handlingen, kopieres og åpnes bare filen. 
+4. I [!INCLUDE[prod_short](includes/prod_short.md)]-mappen opprettes det en mappe med samme navn som selskapet du arbeider i. Hvis du arbeider i flere enn ett selskap, oppretter [!INCLUDE[prod_short](includes/prod_short.md)] en mappe for hvert selskap du arbeider med, når du bruker handlingen **Åpne i OneDrive** og **Del**. 
+5. Lagrer en kopi av filen du valgte i selskapsnavnmappen, og åpner deretter filen. 
+
+Neste gang du bruker **Åpne i OneDrive** eller **Del**-handlingen, kopierer og åpner [!INCLUDE[prod_short](includes/prod_short.md)] bare filen. 
 
 ## <a name="managing-multiple-copies-of-a-file"></a>Behandle flere kopier av en fil
 
-Når du velger **Åpne i OneDrive** eller **Del**, kopieres filen fra [!INCLUDE[prod_short](includes/prod_short.md)] til mappen i OneDrive. Hvis du redigerer filen i OneDrive, vil kopiene av filen være forskjellig. Hvis du vil oppdatere [!INCLUDE[prod_short](includes/prod_short.md)] med den siste filen, fjerner du den eksisterende filen fra [!INCLUDE[prod_short](includes/prod_short.md)], og deretter laster du opp den siste kopien.
+Når du velger **Åpne i OneDrive** eller **Del**, kopieres filen fra [!INCLUDE[prod_short](includes/prod_short.md)] til mappen i OneDrive. Hvis du redigerer filen i OneDrive, vil den være annerledes enn [!INCLUDE[prod_short](includes/prod_short.md)]-filen. Hvis du vil oppdatere [!INCLUDE[prod_short](includes/prod_short.md)] med den siste filversjonen, fjerner du den eksisterende filen fra [!INCLUDE[prod_short](includes/prod_short.md)], og laster du opp den siste kopien.
 
-Når en fil med samme navn allerede finnes i OneDrive, får du i tillegg et valg i [!INCLUDE[prod_short](includes/prod_short.md)] om å erstatte filen eller beholde begge filene. Hvis du velger å beholde begge filene, kopieres den nye filen til OneDrive og får et filnavn med suffiksnummer, for eksempel Varer (2). xlsx,. Den opprinnelige filen endres ikke. 
+Hvis det allerede finnes en fil med samme navn i OneDrive, får du følgende valg:
 
-Hvis du velger å erstatte filen, legges den nye filen til i versjonsloggen for denne filen. Den opprinnelige filen går ikke tapt, og du kan vise eller gjenopprette tidligere versjoner av filen. 
+- **Bruk eksisterende**
+
+  Dette alternativet åpner eller deler filen som allerede er lagret OneDrive, i stedet for å kopiere filen fra Business Central.
+  
+- **Erstatt**
+  
+  Dette alternativet erstatter den eksisterende filen i OneDrive med filen du valgte fra Business Central. Den opprinnelige filen går ikke tapt, du kan vise og gjenopprette den ved å bruke versjonsloggen i OneDrive. Lære mer om å [Gjenopprette en tidligere versjon av en fil som er lagret i OneDrive](https://support.microsoft.com/office/restore-a-previous-version-of-a-file-stored-in-onedrive).
+
+- **Behold begge**
+ 
+  Dette alternativet beholder den eksisterende filen som den er, og lagrer filen du valgte fra Business Central, med et annet navn. Det nye navnet ligner på det eksisterende navnet, med unntak av suffiksnummeret, for eksempel "Varer (2). xlsx".
 
 ## <a name="about-your-business-central-folder-on-onedrive"></a>Om Business Central-mappen på OneDrive
 
-Mappen og innholdet er private helt til du bestemmer deg for å dele det med andre. Du kan for eksempel velge å dele innhold med en eller flere av kollegene dine, eller til og med personer utenfor organisasjonen. Du får tilgang til OneDrive fra **Mine innstillinger**-siden ved å velge koblingen i **Skylagring**-feltet. Hvis du vil ha mer informasjon, kan du se [Del OneDrive-filer og -mapper](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
+Mappen og innholdet er private helt til du bestemmer deg for å dele det med andre. Du kan for eksempel velge å dele innhold med en eller flere av kollegene dine, eller til og med personer utenfor organisasjonen. 
+
+Du får tilgang til OneDrive fra **Mine innstillinger**-siden ved å velge koblingen i **Skylagring**-feltet. Lær mer ved [Dele OneDrive-filer og -mapper](https://support.microsoft.com/en-us/office/share-onedrive-files-and-folders-9fcc2f7d-de0c-4cec-93b0-a82024800c07).
 
 :::image type="content" source="media/my-settings-cloud-storage.PNG" alt-text="Skylagring-feltet i Mine innstillinger":::
 
@@ -88,6 +101,7 @@ Mappen og innholdet er private helt til du bestemmer deg for å dele det med and
 You can create an extension and connect it to... For more information, see...-->
 
 ## <a name="see-also"></a>Se også
+
 [Business Central og OneDrive-integrering](across-onedrive-overview.md)  
 [Administrere OneDrive-integrering med Business Central](admin-onedrive-integration.md)  
 [Vanlige spørsmål om OneDrive](admin-onedrive-faq.md)

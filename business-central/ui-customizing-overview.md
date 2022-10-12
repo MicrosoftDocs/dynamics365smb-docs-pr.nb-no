@@ -10,12 +10,12 @@ ms.search.keywords: personalize, add-in, extend, customize
 ms.search.form: 2500, 2502
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 877e4bf26b0af7675fe71f791e0bfe53159b9d70
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 1feffa480e3bdf6236801e666646ea5aaddd8876
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533082"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606093"
 ---
 # <a name="customize-business-central"></a>Tilpasse Business Central
 
@@ -29,7 +29,8 @@ Det finnes ulike metoder for å tilpasse programmet slik at du og kollegene dine
 |Endre brukernes arbeidsområde ved å tilpasse den tilordnede rollen.|Endre brukergrensesnittet for en profil (rolle), slik at alle brukere med den gjeldende rollen ser et tilpasset arbeidsområde. Kontroller og behandle brukertilpasning ved å deaktivere muligheten til å tilpasse sider og fjerne en hvilken som helst sidetilpasning.|Alle brukere i en bestemt bedrift.|[Tilpasse sider for profiler](ui-personalization-manage.md)|
 |Endre hvilke grensesnittelementer som vises.|Konfigurasjonen **Opplevelse** bestemmer hvor mye av funksjonaliteten er angitt i brukergrensesnittet. Velg mellom Essential og Premium.|Alle brukere i en bestemt bedrift.|[Endre hvilke funksjoner som vises](ui-experiences.md)|
 |Aktiver farger i rollesentre til signalviktighet.|Definer bunke-ikoner som vises i rollesentrene for brukerne, med en indikator som endrer farge basert på dataverdiene i bunke-ikonene.|Alle brukere i en bestemt bedrift.|[Definere en farget indikator for bunke-ikoner](admin-how-set-up-colored-indicator-on-cues.md)|
-|Installere en utvidelse|Utvidelser er som små programmer som føyer til funksjonalitet, endre virkemåten, gir deg tilgang til nye elektroniske tjenester og så videre. Microsoft tilbyr for eksempel en utvidelse som kan gi integrering med PayPal Payments Standard.|Alle brukere i alle selskaper.|[Tilpasse ved hjelp av utvidelser](ui-extensions.md)|
+|Installere en app|Installer apper som legger til funksjonalitet, endrer virkemåten, gir deg tilgang til nye elektroniske tjenester og så videre. Microsoft tilbyr for eksempel en app som kan gi integrering med PayPal Payments Standard.|Alle brukere i alle selskaper.|[Tilpass med apper](ui-extensions.md)|
+
 > [!NOTE]
 > Alle funksjonsbeskrivelser i brukerdokumentasjonen for [!INCLUDE[prod_short](includes/prod_short.md)] forutsetter **Premium**-opplevelsen, det vil si at beskrivelsene dekker hele omfanget av grensesnittelementer. Derfor kan brukere som har **Essential**-opplevelsen i enkelte emner lese om funksjoner og grensesnittelementer som ikke vises i brukergrensesnittet. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).
 

@@ -7,12 +7,12 @@ ms.search.keywords: accountant, accounting, company hub
 ms.search.form: 1151, 1155, 1166, 1165
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c6cc06c45856f1e7c10b1ac82382dae799aef409
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 987f09d8822a82de5b31db18552d04efa6765c7d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139810"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606282"
 ---
 # <a name="add-companies-to-your-company-hub"></a>Legge til selskaper i selskapshuben
 
@@ -47,6 +47,5 @@ Når du har lagt til miljøene, vises selskapene automatisk. Hvis du imidlertid 
 
 [Administrere arbeid på tvers av flere selskaper i selskapshuben](company-hub.md)  
 [Ressurser for hjelp og støtte](product-help-and-support.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

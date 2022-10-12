@@ -8,30 +8,64 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: procurement, supply, vendor order
 ms.search.form: 175, 176, 177, 178, 456, 460, 5727, 5729
-ms.date: 07/04/2022
+ms.date: 08/30/2022
 ms.author: edupont
-ms.openlocfilehash: 008c0d35c8bfefdf002e08b967ddc1a9336b04a5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 82083beeb1779455fbd4b8a6083663b5559129eb
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530382"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606617"
 ---
 # <a name="setting-up-purchasing"></a>Definere kjøp
 
 Før du kan håndtere kjøpsprosesser, må du konfigurere regler og verdier som definerer selskapets kjøpsprinsipper.
 
-Du må definere det generelle oppsettet, for eksempel hvilke kjøpsdokumenter som kreves, og hvordan verdiene i dem skal bokføres. Dette generelle oppsettet foretas vanligvis én gang under den første implementeringen.
+Du må definere det generelle oppsettet på siden **Kjøpsoppsett**, som vanligvis gjøres én gang under den første implementeringen. Finn ut mer i følgende del, [Kjøpsoppsett](#purchases-and-payables-setup).
 
 En egen rekke oppgaver relatert til registrering av nye leverandører er å registrere alle spesialpris eller rabattavtaler som du har med hver leverandør.
 
-Finansrelatert kjøpsoppsett, for eksempel betalingsmåte og valutaer, beskrives i avsnittet Finansoppsett. Hvis du vil ha mer informasjon, kan du se [Konfigurere finans](finance-setup-finance.md). På samme måte kan du finne lagerrelaterte kjøpsoppsett, for eksempel enheter og varesporingskoder, i [delen Lageroppsett](inventory-setup-inventory.md).
+Finansrelatert kjøpsoppsett, for eksempel betalingsmåte og valutaer, beskrives i avsnittet Finansoppsett. Finn ut mer under [Konfigurer finans](finance-setup-finance.md). På samme måte kan du finne lagerrelaterte kjøpsoppsett, for eksempel enheter og varesporingskoder, i [delen Lageroppsett](inventory-setup-inventory.md).
+
+## <a name="purchases-and-payables-setup"></a>Kjøpsoppsett
+
+Før du arbeider med kjøp, må du angi på siden **Kjøpsoppsett** hvordan kjøpsverdier bokføres, og nummerserien som brukes for leverandører og kjøpsdokumenter.
+
+### <a name="general-settings"></a>Generelle innstillinger
+
+På hurtigfanen **Generelt** angir du alternativer, for eksempel hvordan du vil beregne og bokføre rabatter, og om du vil avrunde fakturabeløp. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+
+Noen felter krever spesielt oppmerksomhet, for eksempel feltet **Beregn fakturarabatt per mva-type**, som angir om fakturarabatten beregnes i henhold til mva-typen eller fakturaens totalbeløp. Finn ut mer under [Kombiner mva-bokføringsgrupper i mva-bokføringsoppsett](finance-setup-vat.md#combine-vat-posting-groups-in-vat-posting-setups).
+
+På samme måte kan feltet **Utligning mellom valutaer** gi små avrundingsdifferanser når poster i forskjellige valutaer utlignes mot hverandre. Finn ut mer under [Aktivere utligning av kundeposter i forskjellige valutaer](finance-how-enable-application-ledger-entries-different-currencies.md).
+
+Noen felter endrer i tillegg virkemåten sine eller avhenger av hvordan andre felter angis. Funksjonen **Kontroller forskudd ved bokføring** påvirkes for eksempel av hvordan feltet **Hyppighet for automatisk oppdatering av forskudd** er satt til å kontrollere om det finnes ventende forskudd.
+
+Les detaljer om feltene [**Obligatorisk nr. for eksternt dokument**](#external-document-number) og [**Bruk opprinnelig kostpris**](#exact-cost-reversing) nedenfor.
+
+### <a name="number-series-settings"></a>Innstillinger for nummerserier
+
+På hurtigfanen **Nummerserier** må du angi unike identifikasjonskoder som skal brukes for leverandører, fakturaer og andre kjøpsdokumenter. Nummerering er ikke bare viktig for interne prosesser, men det kan også hende at du må følge lokale forskrifter. Derfor kan det være verdt å vurdere å definere alle serier på siden **Nr. serie** før i stedet for å opprette nye fra **Kjøpsoppsett**. Finn ut mer under [Opprett nummerserier](ui-create-number-series.md).
+
+## <a name="external-document-number"></a>Eksternt dokumentnummer
+
+[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
+
+## <a name="exact-cost-reversing"></a>Nøyaktig kosttilbakeføring
+
+Funksjonen **Bruk opprinnelig kostpris** bidrar til å sikre at returnerte varer verdsettes til samme kostnad som da de opprinnelig ble trukket fra lageret, ved hjelp av en fast utligning i stedet for en lagermetode av typen gjennomsnitt eller bare FIFU (først inn, først ut). Lær mer under delen [Utformingsdetaljer: fast utligning](design-details-item-application.md#fixed-application). Hvis det senere legges til en tilleggskostnad i den opprinnelige bestillingen, oppdaterer programmet verdien på bestillingsreturen.
+
+Med funksjonen aktiver kan en returtransaksjon bare bokføres ved å angi varepostnummeret i feltet **Utligningsvarepost** på bestillingsreturlinjen. Som standard vises ikke feltet på hurtigfanen **Linjer**. Lær hvordan du legger til felter på sider i delen [Tilpass arbeidsområdet](ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
+
+[!INCLUDE[local-functionality](includes/local-functionality.md)]
+
+## <a name="more-purchasing-setups"></a>Flere kjøpsoppsett
 
 | Til | Se |
 | --- | --- |
 | Opprett et leverandørkort for hver leverandør som du kjøper fra. |[Registrere nye leverandører](purchasing-how-register-new-vendors.md) |
-| Prioritere leverandører |[Prioritere leverandører](purchasing-how-prioritize-vendors.md) |
-| Angi bankkontoopplysninger, inkludert IBAN-kode og SWIFT-koder, på leverandørens kort. | [Konfigurer leverandørbankkontoer](purchasing-how-set-up-vendors-bank-accounts.md) |
+| Prioriter leverandører. |[Prioritere leverandører](purchasing-how-prioritize-vendors.md) |
+| Angi bankkontoopplysninger, inkludert IBAN-kode (internasjonalt bankkontonummer) og SWIFT-koder, på leverandørens kort. | [Konfigurer leverandørbankkontoer](purchasing-how-set-up-vendors-bank-accounts.md) |
 | Konfigurer innkjøpere, tildel dem leverandører og koder for å spore statistikk. |[Definere innkjøpere](purchasing-how-setup-purchasers.md) |
 | Angi de forskjellige rabattene og spesialprisene som leverandør gir deg avhengig av vare, antall eller dato. |[Registrere avtaler om kjøpspris, rabatt og betaling](purchasing-how-record-purchase-price-discount-payment-agreements.md) |
 | Definer det du betaler for varene og tjenestene leverandøren har kjøpt.  | [Konfigurer priser og rabatter](across-prices-and-discounts.md) |
@@ -41,14 +75,7 @@ Finansrelatert kjøpsoppsett, for eksempel betalingsmåte og valutaer, beskrives
 | Gå gjennom utgiftskvitteringer, konverter papir og elektroniske dokumenter til kladdelinjer og digitalisere papirfakturaer fra leverandører. | [Konfigurere inngående dokumenter](across-how-setup-income-documents.md) |
 | Angi standardrapporter som skal brukes for ulike dokumenttyper. |[Rapportvalg i Business Central](across-report-selections.md)|
 
-> [!TIP]
-> Avhengig av den geografiske plasseringen din kan enkelte sider inneholde felt som ikke er beskrevet i artiklene som er oppført her, fordi de gjelder for lokale funksjoner eller tilpasninger. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
-
-## <a name="external-document-number"></a>Eksternt dokumentnummer
-
-[!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
-
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se også
 

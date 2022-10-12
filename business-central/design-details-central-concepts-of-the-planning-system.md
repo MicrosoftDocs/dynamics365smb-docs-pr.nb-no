@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/24/2021
 ms.author: edupont
-ms.openlocfilehash: bce2c42900b67c24801098d2bacae3a0f0aee14a
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: a9218bf8d8fa2c7f84b08380742df17bd7be7afe
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8148671"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605168"
 ---
 # <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Sentrale begreper for planleggingssystemet
 
-Planleggingsfunksjonene er i en kjørsel som først velger de aktuelle varene og perioden som skal planlegges. Deretter kaller kjørselen en kodeenhet i henhold til lavnivåkoden (stykklisteposisjonen) for hver vare. Kodeenheten beregner en forsyningsplan ved å balansere sett med behov/forsyning, og foreslår mulige handlinger for brukeren. De foreslåtte handlingene vises som linjer i planleggingsforslaget eller bestillingsforslaget.  
+Planleggingsfunksjonene er i en kjørsel som først velger de aktuelle varene og perioden som skal planlegges. Deretter kaller kjørselen en codeunit i henhold til lavnivåkoden (stykklisteposisjonen) for hver vare. Codeuniten beregner en forsyningsplan ved å balansere sett med behov/forsyning, og foreslår mulige handlinger for brukeren. De foreslåtte handlingene vises som linjer i planleggingsforslaget eller bestillingsforslaget.  
 
 ![Innhold på Planleggingsforslag-siden.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Innhold på Planleggingsforslag-siden")  
 
@@ -292,14 +292,14 @@ Feltet kan angis manuelt av brukeren, men i enkelte tilfeller angis det automati
 
 Du finner mer informasjon om hvordan dette feltet brukes i [Designdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md).  
 
-## <a name="order-planning"></a>Bestillingsplanlegging
+## <a name="order-planning"></a>Ordreplanlegging
 
 Det grunnleggende verktøyet for forsyningsplanlegging på **Ordreplanlegging**-siden er utviklet for manuell beslutningstaking. Den tar ikke hensyn til eventuelle planleggingsparametre, og beskrives derfor ikke ytterligere i dette dokumentet. Hvis du vil ha mer informasjon, kan du se [Planlegge for nytt behov bestilling for bestilling](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
 >  Det anbefales ikke å bruke ordreplanlegging hvis selskapet allerede bruker planleggings- eller bestillingsforslag. Forsyningsordrer som opprettes ved hjelp av **Ordreplanlegging**-siden, kan endres eller slettes under automatiserte planleggingskjøringer. Dette er fordi den automatiserte planleggingskjøringen bruker planleggingsparametere, og brukeren som laget den manuelle planen på Ordreplanlegging-siden, tar kanskje ikke disse med i beregningen.  
 
-##  <a name="finite-loading"></a>Begrenset belastning
+## <a name="finite-loading"></a>Begrenset belastning
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er et standard ERP-system, ikke et ordrefordelings- eller produksjonskontrollsystem. Det planlegger for en gjennomførbar utnyttelse av ressurser ved å tilby en grov tidsplan, men det blir ikke automatisk opprettet og vedlikeholdt detaljerte tidsplaner basert på prioriteringer eller regler for optimalisering.  
 
@@ -308,7 +308,7 @@ Den tiltenkte bruken av funksjonen Kapasitetsbegrenset ressurs er 1) for å unng
 Når du planlegger med kapasitetsbegrensede ressurser, sikrer systemet at ingen ressurser lastes over den angitte kapasiteten (kritisk belastning). Dette gjøres ved å tilordne hver operasjon til nærmeste tilgjengelige tidsluke. Hvis tidsperioden ikke er stor nok til å fullføre hele operasjonen, vil operasjonen bli delt inn i to eller flere deler som plasseres i de nærmeste tilgjengelige tidsrommene.  
 
 > [!NOTE]  
->  I tilfeller med oppdeling av operasjon blir oppstillingstiden bare tilordnet én gang fordi det antas at noe manuell justering er gjort for å optimalisere tidsplanen.  
+> I tilfeller med oppdeling av operasjon blir oppstillingstiden bare tilordnet én gang fordi det antas at noe manuell justering er gjort for å optimalisere tidsplanen.  
 
 Avdempingstiden kan legges til ressurser for å minimere oppdeling av operasjonen. Dette gjør at systemet kan planlegge belastning på den aller siste dagen ved å overskride den kritiske belastningsprosenten litt hvis dette kan redusere antall delte operasjoner.  
 
@@ -316,11 +316,10 @@ Dermed har du fått en oversikt over sentrale begreper som har å gjøre med for
 
 ## <a name="see-also"></a>Se også
 
-[Designdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md)   
-[Designdetaljer: Planleggingsparametere](design-details-planning-parameters.md)   
-[Designdetaljer: Tabell for planleggingstilordning](design-details-planning-assignment-table.md)   
-[Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)   
-[Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md)
-
+[Designdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md)  
+[Designdetaljer: Planleggingsparametere](design-details-planning-parameters.md)  
+[Designdetaljer: Tabell for planleggingstilordning](design-details-planning-assignment-table.md)  
+[Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)  
+[Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

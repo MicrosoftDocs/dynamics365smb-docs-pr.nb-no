@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b594ebf1cebd1fbec7302777b5233ffd3eec198b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 70bcc50bd419a73e242390d5a21e41360ae8d8cf
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535321"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606444"
 ---
 # <a name="work-with-power-bi-reports-in-prod_short"></a>Arbeid med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -52,7 +52,7 @@ Når du logger på [!INCLUDE [prod_short](includes/prod_short.md)] første gang,
     - Hvis du ennå ikke har registrert deg for Power BI, velger du [Gå til startsiden for Power BI](https://powerbi.microsoft.com). Registrer deg for en konto, og kom deretter tilbake til [!INCLUDE[prod_short](includes/prod_short.md)] og fullfør oppsettet.
 
     - Hvis du allerede har en lisens, velger du **Neste**.
-4. På neste siden skal [!INCLUDE[prod_short](includes/prod_short.md)] laste opp en demorapport til Power BI. Dette kan ta noen minutter, så det gjøres i bakgrunnen. Velg **Neste** og deretter **Fullfør** for å fullføre oppsettet.
+4. På neste siden skal [!INCLUDE[prod_short](includes/prod_short.md)] laste opp en demorapport til Power BI. Dette trinnet kan ta noen minutter, så det gjøres i bakgrunnen. Velg **Neste** og deretter **Fullfør** for å fullføre oppsettet.
 
 Tilkoblingsprosessen starter. Under prosessen kommuniserer [!INCLUDE [prod_short](includes/prod_short.md)] med Power BI-tjenesten for å finne ut om du har en gyldig Power BI-konto og -lisens. Når lisensen er kontrollert, vises standard Power BI-rapportvisninger på siden. Hvis en rapport ikke vises, kan du velge en rapport fra delen.
 
@@ -69,9 +69,14 @@ Når du er tilkoblet, kan du velge en rapport fra Power BI-delen på sider.
 
 ### <a name="show-reports-on-list-pages"></a>Vise rapporter på listesider
 
-[!INCLUDE[prod_long](includes/prod_long.md)] omfatter en Power BI-faktaboks på flere viktige listesider. Denne faktaboksen gir ytterligere innsikt i dataene i listen. Når du flytter mellom radene i listen, er oppdateres og filtreres rapporten for den valgte posten. Hvis du ikke ser denne delen, velger du **Handlinger** > **Vis** > **Vis/skjul Power BI-rapporter** i handlingsfeltet.
+[!INCLUDE[prod_long](includes/prod_long.md)] omfatter en Power BI-faktaboks på flere viktige listesider. Denne faktaboksen gir ytterligere innsikt i dataene i listen. Når du flytter mellom radene i listen, er oppdateres og filtreres rapporten for den valgte posten.
 
 Hvis du vil vite hvordan du oppretter rapporter for listesider, kan du se [Opprette Power BI-rapporter for visning av listedata i [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
+
+> [!TIP]
+> Hvis faktaboksen for Power BI ikke vises, kan den være skjult i arbeidsområdet ved hjelp av personalisering. Velg ![Innstillinger.](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter"). og velg deretter **Tilpass**-handlingen. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
+>
+> Hvis du har en eldre versjon av Business Central, går du til handlingslinjen, velge **Handlinger** > **Vis** > **Vis/Skjul Power BI-rapporter**.
 
 ### <a name="switch-reports"></a>Bytte rapporter
 
@@ -132,7 +137,7 @@ Dette skjer sannsynligvis fordi navnet på rapporten ikke inneholder navnet på 
 ## <a name="see-also"></a>Se også
 
 [Business Central og Power BI](admin-powerbi.md)  
-[Bygge Power BI-rapporter for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md)  
+[Bygg Power BI-rapporter for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md)  
 [Oversikt over komponent og arkitektur for Power BI-integrering for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
 [Arbeid med [!INCLUDE [prod_short](includes/prod_short.md)]-data i Power BI](across-working-with-business-central-in-powerbi.md)  
 [Power BI for forbrukere](/power-bi/consumer/end-user-consumer)  
@@ -143,7 +148,6 @@ Dette skjer sannsynligvis fordi navnet på rapporten ikke inneholder navnet på 
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Importer forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
-[Bruk [!INCLUDE[prod_short](includes/prod_short.md)] som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  
 [Bruk [!INCLUDE[prod_short](includes/prod_short.md)] som en Power Apps-datakilde](across-how-use-financials-data-source-powerapps.md)  
 [Bruk [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate](across-how-use-financials-data-source-flow.md)  
 

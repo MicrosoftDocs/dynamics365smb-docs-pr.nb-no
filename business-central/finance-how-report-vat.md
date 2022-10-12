@@ -10,12 +10,12 @@ ms.search.keywords: VAT, tax, report, EC sales list, statement
 ms.search.form: 321, 322, 323, 474, 475, 739, 740, 741, 742, 743, 744, 745, 746, 747, 748, 9401
 ms.date: 01/31/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2d09a05f29f4eaa5f977580509f425073d189262
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: bf0ea7f023eed4dced53477d72ff844d4da04e37
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532731"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617852"
 ---
 # <a name="report-vat-to-tax-authorities"></a>Rapportere mva til skattemyndighetene
 
@@ -30,7 +30,7 @@ Du kan bruke følgende innebygde rapporter:
 
     Rapporten Omsetningsoppgave inkluderer mva for salg og kjøp for kunder og leverandører i alle land som bruker mva.  
 
-I begge tilfeller beregnes mva. på grunnlag av mva-bokføringsoppsettet og mva-bokføringsgruppene du har definert.
+I begge tilfeller beregnes mva. på grunnlag av mva-bokføringsoppsettet og mva-bokføringsgruppene du har definert. [!INCLUDE[prod_short](includes/prod_short.md)] viser mva-poster basert på **mva-dato**.
 
 Hvis du vil vise en fullstendig historikk over mva-poster, for hver bokføring som gjelder mva, opprettes en post på siden **mva-poster**. Disse postene brukes til å beregne mva-oppgjørsbeløp, for eksempel betaling eller refusjon, for en bestemt periode. Hvis du vil se mva-poster, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Mva-poster** og velger deretter den relaterte koblingen.
 

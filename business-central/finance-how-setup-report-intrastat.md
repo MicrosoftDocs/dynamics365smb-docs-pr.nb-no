@@ -1,183 +1,271 @@
 ---
-title: Konfigurere og rapportere Intrastat
-description: Lær hvordan du konfigurerer Intrastat rapporteringsfunksjoner, og hvordan til å rapportere handel med selskaper i andre EU-land.
-author: brentholtorf
+title: Definere Intrastat-rapportering
+description: Lær hvordan du konfigurerer Intrastat-rapporteringsfunksjoner for å rapportere handel med selskaper i andre EU-land.
+author: altotovi
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 8451, 12202, 31077
-ms.date: 05/23/2022
-ms.author: bholtorf
-ms.openlocfilehash: 01b48fad86c805da2120477fc9f6d5f0f5bcdb94
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077
+ms.date: 09/02/2022
+ms.author: altotovi
+ms.openlocfilehash: b6adddb338af36f07abe4c6cb67c8113657ccb7c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533890"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605492"
 ---
-# <a name="set-up-and-report-intrastat"></a>Konfigurere og rapportere Intrastat
+# <a name="set-up-intrastat-reporting"></a>Definere Intrastat-rapportering
 
-Alle selskaper i EU må rapportere handel med andre EU-land/-regioner. Varebevegelsen må hver måned rapporteres til statistikkmyndighetene i landet/regionen du bor i, og rapporten må leveres til skattemyndighetene. Dette kalles Intrastat-rapportering. Du bruker siden **Intrastatkladd** til å fylle ut jevnlige Intrastat-rapporter.  
+Alle selskaper i EU må rapportere handel med andre EU-land/-regioner. Varebevegelsen må hver måned rapporteres til statistikkmyndighetene i landet/regionen der selskapet befinner seg, og rapporten må leveres til skattemyndighetene. Intrastat er et system for innsamling av handelsstatistikk for varer i disse landene/regionene. Du bruker **Intrastat-rapport** til å fylle ut periodisk Intrastat-rapportering (vanligvis månedlig), samle inn, registrere og rapportere varer i henhold til lokal lovgivning.
 
-## <a name="required-and-optional-setups"></a>Nødvendige og valgfrie oppsett
-
-> [!IMPORTANT]  
-> Kundekort og leverandørkort inneholder et felt, **Intrastat-partnertype** som har samme alternativverdier som feltet **Partnertype**: *"" (tom)*, *Selskap* og *Person*. Feltet **Intrastat-partnertype** har erstattet feltet **Partnertype** i Intrastat-rapportering. **Partnertype** brukes i SEPA til å definere theSEPA Direct Debit Scheme (Core eller B2B). **Intrastat-partnertype** brukes bare til Intrastat-rapportering. På denne måten kan du angi ulike verdier for de to feltene, hvis du trenger det.
-> 
-> Vær imidlertid oppmerksom på at hvis feltet **Intrastat-partnertype** er tomt, brukes verdien fra feltet **Partnertype** til Intrastat-rapportering.
-
-Før du kan bruke Intrastat-kladden til å rapportere Intrastat-informasjon, må du konfigurere flere ting:  
-
-* **Oppsett - Intrastat**: Siden Oppsett - Intrastat brukes til å aktivere Intrastat-rapportering og angi standarder for den. Du kan angi om du må rapportere Intrastat fra forsendelser (utsendelser), mottak (ankomster) eller begge deler, avhengig av terskler som er angitt i dine lokale forskrifter. Du kan også angi standard transaksjonstyper for vanlige dokumenter og returdokumenter, som brukes til transaksjonsrapportering.
-* **Intrastat-kladdemaler**: Du må konfigurere Intrastat-kladdemalene og kjørslene du vil bruke. Siden Intrastat blir rapportert månedlig, må du opprette 12 kjørsler for Intrastat-kladder som er basert på den samme malen.  
-* **Varekoder**: Toll- og skattemyndighetene har laget numeriske koder som klassifiserer varer og tjenester. Du angie disse kodene for varene.
-* **Koder for type transaksjon**: Land og regioner har forskjellige koder for Intrastat-transaksjonstyper, for eksempel vanlig kjøp, salg, utveksling av returnerte varer og utveksling av ikke-returnerte varer. Definer alle kodene som gjelder for landet/regionen. Du bruker disse kodene på hurtigfanen **Utenrikshandel** på salgs- og kjøpsdokumenter, og når du behandler returer. 
-
-    > [!NOTE]
-    > Fra og med januar 2022 krever Intrastat forskjellig transaksjonskode for fordeling til private enkeltpersoner eller ikke-mva-registrerte selskaper og mva-registrerte selskaper. For å overholde dette kravet anbefaler vi at du ser gjennom eller legger til nye transaksjonskoder på siden **Transaksjonstyper** i henhold til kravene i ditt land. Du bør også se gjennom og oppdatere feltet **Intrastat-partnertype** til *Personer* for private eller ikke-mva-selskapers kunder på den relevante **Kunde**-siden. Hvis du er usikker på hvilken Intrastat-partnertype eller transaksjonstype som er riktig å bruke, anbefaler vi at du spør en ekspert i landet eller området ditt. 
- 
-* **Transportmåter**: Det finnes sju koder med ett siffer for Intrastat-transportmåter. **1** for båt, **2** for jernbane, **3** for bil, **4** for fly, **5** for post **7** for faste installasjoner og **9** for egen fremdrift (for eksempel transportere en bil ved å kjøre den). [!INCLUDE[prod_short](includes/prod_short.md)] trenger ikke disse kodene, men vi anbefaler at beskrivelsene formidler en lignende betydning.  
-* **Transaksjonsspesifikasjoner**: Bruk disse til å supplere beskrivelsene fra transaksjonstypene.  
-* **Opprinnelsesland**: Bruk de to bokstavers ISO alfa-kodene for landet der varen gode ble anskaffet eller produsert. Hvis varen ble produsert i mer enn ett land, er opprinnelseslandet det siste landet der det ble behandlet betraktelig. 
-* **Mva-nummer for partneroperatøren i medlemslandet for importen**: Dette er mva-ID-nummeret til partneroperatøren i medlemslandet til importen. Mva-ID-en brukes også i utvekslingen av data i mellom EU-eksport mellom medlemsland, og tillater at medlemsland fordeler de mottatte dataene til importselskapet i sitt eget land. Rapporteringsenheter må rapportere mva-ID-en til selskapet som deklarerer den intra-unionhenting av varer i medlemslandet for import. 
+Intrastat-rapportering er basert på standard EU-bestemmelser som gjelder for alle land. Det er imidlertid noen forskjeller innen de enkelte landene i praksis. Hvert land har regler for hva som er nøyaktig og hvordan de rapporterer.
 
 > [!NOTE]
-> Hvilken firmapartner-ID som skal brukes, kan variere, avhengig av forretningstilfellet. ID-en som skal brukes, er for eksempel forskjellige for scenarioer som kjedesalg, der en leverandør selger et produkt til et annet land, og deretter selger selskapet varen til et annet firma i samme land, trekanthandel og så videre. Hvis du er usikker på hvilken mva-ID-en som er riktig å bruke, anbefaler vi at du spør en ekspert i landet eller området ditt. 
+> Intrastat-informasjon gjelder ikke flytting av tjenester mellom land, men bare varer (varer og aktiva). Hvis den lokale regjeringen krever at du må registrere flytting av tjenester mellom land, kan du gjøre det ved å bruke funksjonen for **Tjenestedeklarasjon**.
+>
+> Denne funksjonen er forventet å være tilgjengelig fra november 2022 som en app i [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646), og hvis du vil bruke den, må du installere den på siden for **Administrasjon av utvidelse**.
+
+> [!IMPORTANT]
+> Denne artikkelen dekker den nye Intrastat-opplevelsen som er tilgjengelig fra [!INCLUDE[prod_short](includes/prod_short.md)] versjon 21. Kontakt systemansvarlig for å lære hvilken versjon firmaet bruker, og for å aktivere den nye funksjonaliteten.
+>
+> Les den forrige versjonens Intrastat-oppsett og bruksartikkel på [Konfigurere og rapportere Intrastat](finance-how-setup-report-intrastat-v20.md).
+
+## <a name="enable-the-new-intrastat-experience"></a>Aktivere den nye Intrastat-opplevelsen
+
+I 2022-lanseringsbølge 2 [!INCLUDE[prod_short](includes/prod_short.md)] inkluderer en redesigned Intrastat-opplevelse med utvidede funksjoner. Hvis den nye Intrastat-funksjonaliteten ikke er aktivert i ditt miljø, kan den aktiveres manuelt av en administrator på siden **Funksjonsstyring**.
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Funksjonsstyring**, og velg deretter den relaterte koblingen.
+2. På siden **Funksjonsstyring** velger du linjen **Funksjonsoppdatering: Erstatt den eksisterende Intrastat-funksjonaliteten med den nye Intrastat-utvidelsen**. Lære mer om funksjonsbehandling på [Aktivere kommende funksjoner på forhånd](/dynamics365/business-central/dev-itpro/administration/feature-management) i administrasjonsinnholdet.
+3. Velg **Alle brukere** i kolonnen **Aktiver for**.
+4. Les forklaring av hvordan systemet vil bli oppgradert, og velg **Ja** hvis du er enig.
+5. Velg **Neste**, og du får et grunnleggende oppsett for Intrastat. Les mer om Intrastat-oppsettet i delen [Intrastat-konfigurasjon](#intrastat-configuration).
+6. Når du har fullført oppsettet, velger **Fullfør** for å begynne å bruke den nye Intrastat-opplevelsen.
+
+> [!IMPORTANT]
+> Husk at du ikke kan bruke gamle og nye opplevelser parallelt. Før utvidelsen aktiveres i et produksjonsmiljø anbefales det at du først aktiverer og tester denne funksjonen i et sandkassemiljø med en kopi av produksjonsdataene før du gjør dette i et produksjonsmiljø. Når du aktiverer en ny brukeropplevelse i produksjonsmiljøet, kan du ikke gå tilbake til den gamle Intrastat-funksjonaliteten.
+
+> [!NOTE]
+> Avhengig av selskapets lokasjon er aktivering av funksjonen som beskrives ovenfor, nok. For land med bestemte funksjoner for Intrastat-rapportering, bør du aktivere den landspesifikke Intrastat-appen i tillegg til kjerneutvidelsen.
+
+## <a name="intrastat-configuration"></a>Intrastat-konfigurasjon
+
+Før du kan bruke Intrastat-rapporter er det flere konfigurasjoner som må defineres.
+
+### <a name="intrastat-reporting-setup"></a>Intrastat-rapporteringsoppsett
+
+Siden **Intrastat-rapportersoppsett** brukes til å aktivere Intrastat-rapportering og angi standarder for den. Du kan angi om du må rapportere Intrastat fra forsendelser (utsendelser), mottak (ankomster) eller begge deler, avhengig av terskler som er angitt i dine lokale forskrifter. Du kan også angi standard transaksjonstyper for vanlige dokumenter og returdokumenter, som brukes til transaksjonsrapportering.
+
+Slik definerer du Intrastat-rapportering:
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") angi **Oppsett for Intrastat-rapport**, og velg den relaterte koblingen.
+2. Åpne hurtigfanen **Generelt**, og fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Tabellen nedenfor beskriver noen av nøkkelfeltene:
+
+   | Felt | Description |
+   | --- | --- |
+   | **Rapportkvitteringer** | Angir at du må inkludere ankomster av mottatte varer i Intrastatrapporter. |
+   | **Rapportleveringer** | Angir at du må inkludere leveringer av sendte varer i Intrastatrapporter. |
+   | **Leveringer basert på**  | Angir hvilken landskode som blir brukt for Intrastat-rapportlinjer. Du kan velge ett av alternativene: **Salg til-land**, **Faktura til-land** eller **Lever til-land**. |
+   | **Org.nr. basert på** | Angir hvilket mva-nummer for kunde-/leverandørkode som blir brukt for Intrastat-rapporten. Du kan velge ett av alternativene: **Salg til-mva** eller **Faktura til-mva**. |
+   | **Registrert org.nr. mva. for selskap** | Angir hvordan selskapets organisasjonsnummer skal eksporteres til Intrastat-filen. Du kan velge ett av alternativene: Organisasjonsnr. mva., legge til EU-landskoden som et prefiks og fjerne EU-landskoden fra feltet Mva-reg. |
+   | **Registrert org.nr. mva. for leverandør** | Angir hvordan en leverandørs organisasjonsnummer eksporteres til Intrastat-filen. Du kan velge ett av alternativene: Organisasjonsnr. mva., legge til EU-landskoden som et prefiks og fjerne EU-landskoden fra feltet Mva-reg. |
+   | **Registrert org.nr. mva. for kunde** | Angir hvordan en kundes organisasjonsnummer eksporteres til Intrastat-filen. Du kan velge ett av alternativene: Organisasjonsnr. mva., legge til EU-landskoden som et prefiks og fjerne EU-landskoden fra feltet Mva-reg. |
+   | **Hent mva. for partner for** | Angir hvilken type **Intrastat-rapport**-linje partnerens organisasjonsnummer oppdateres fra. Avhengig av hvilke lokale krav du har, kan du velge bare for mottak, bare for forsendelse eller for begge typer linjer. |
+3. Åpne hurtigfanen **Standard transaksjoner**, og fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Tabellen nedenfor beskriver noen av nøkkelfeltene:
+
+   | Felt | Description |
+   | --- | --- |
+   | **Standard trans.art** | Angir standard transaksjonsart for vanlige følgesedler, servicefølgesedler og kjøpsmottak. |
+   | **Standard trans.art – returer** | Angir standard transaksjonsart for ordrereturer, servicereturer og kjøpsreturer. |
+   | **Standard mva-nr. for privatperson** | Angir standard mva-nummer for privatperson i tilfelle privatpersonen må ha et eget mva-nummer på Intrastat-rapporten. |
+   | **SStandard mva-nr. for tredjepartshandel** | Angir standard tredjeparts mva-nummer i tilfelle du ikke har mva-nummeret. |
+   | **Standard-mva. for ukjent delstat** | Angir standard mva-nummer for en ukjent delstat. |
+   | **Standard lands-/områdekode** | Angir standard mottakslandskode. |
+4. Åpne hurtigfanen **Rapportering**, og fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] Tabellen nedenfor beskriver noen av nøkkelfeltene:
+
+   | Felt | Description |
+   | --- | --- |
+   | **Kode for datautveksl.def.** | Angir koden for datautvekslingsdefinisjonen for å generere Intrastat-filen. Den fungerer bare hvis feltet **Del mottaks-/leveringsfiler** er satt til **Nei**. |
+   | **Del mottaks-/leveringsfiler** | Angir om mottak og leveringer skal rapporteres i to separate filer. |
+   | **ZIP-fil(er)** | Angir om rapportfilen(e) skal legges til i ZIP-filen. |
+   | **Kode for datautveksl.def. – mottak** | Angir koden for datautvekslingsdefinisjonen for å generere Intrastat-filen for mottatte vare. Den fungerer bare hvis feltet **Del mottaks-/leveringsfiler** er satt til **Ja**. |
+   | **Kode for datautveksl.def. – levering** | Angir koden for datautvekslingsdefinisjonen for å generere Intrastat-filen for sendte varer. Den fungerer bare hvis feltet **Del mottaks-/leveringsfiler** er satt til **Ja**. |
+5. Åpnbe **Nummerering**-hurtigfanen for å definere **Intrastat-numre**.
+
+### <a name="set-up-a-reporting-file"></a>Konfigurere en rapporteringsfil
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Datautvekslingsdefinisjoner**, og velg deretter den tilknyttede koblingen.
+2. Velg handlingen **Ny**.
+3. I hurtigfanen **Generelt** beskriver du datautvekslingsdefinisjonen, datafiltypen, kolonneskilletegnet, relaterte codeunits, XMLport og andre felt ved å fylle ut feltene.
+4. På hurtigfanen **Linjedefinisjoner** beskriver du formateringen av linjer i datafilen ved å fylle ut feltene basert på **Linjetype**-feltet, og hvor du må definere antall kolonner for denne linjen.
+5. På hurtigfanen **Kolonnedefinisjoner** fyller du ut linjen for hver planlagte kolonne. Du kan definere kolonnenavn, datatyper (*Tekst*, *Dato* eller *Desimal*), lengden på linjen med fast bredde, som inneholder kolonnen hvis filen er av typen Fast tekst, og noen andre parametere.
+6. Velg handlingen **Felttilordning** på hurtigfanen **Linjedefinisjoner** for å åpne siden **Felttilordning**.
+7. Opprett den nye posten, og velg riktig **Tabell-ID** (for **Intrastat-rapporten**, velg 4812) på hurtigfanen **Generelt**, og fyll deretter ut flere felt:
+   1. Angi nøkkelindeksen for å sortere kildeoppføringene før eksport i feltet **Nøkkelindeks**.
+   2. Velg riktig **Codeunit for tilordning**.
+8. I hurtigfanen **Felttilordning** legger du til kolonnene du konfigurerte tidligere, i hurtigfanen **Kolonnedefinisjoner** , og deretter legger du til følgende:
+   1. Angi **Felt-ID** for hver kolonne.
+   2. Angi **Transformeringsregelen** for hver kolonne du trenger den. Den angir regelen som omdanner importert tekst til en støttet verdi før den kan tilordnes til et angitt felt i [!INCLUDE[prod_short](includes/prod_short.md)]. Når du velger en verdi i dette feltet, blir den nøyaktige verdien angitt i feltet for **Transformeringsregel** i **Buffer for felttilordning for datautveksl.** -abellen, og vice versa.
+9. Hvis du må gruppere poster basert på noen kolonner, velger du feltene du vil bruke til gruppering, på hurtigfanen **Feltgruppering**.
+
+> [!NOTE]
+> [!INCLUDE[prod_long](includes/prod_long.md)] inneholder den forhåndskonfigurerte datautvekslingsdefinisjonen for Intrastat for alle lokaliserte land. Finn ut mer om oppretting av en ny datautvekslingsdefinisjon i artikkelen [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md).
+
+### <a name="set-mandatory-fields-with-the-intrastat-report-checklist"></a>Angi obligatoriske felt med sjekklisten for Intrastat-rapport
+
+I noen land krever skattemyndighetene at Intrastat-rapporter for eksempel må inkludere leveringsmåten for kjøp eller andre verdier ved salg over en viss grense.
+
+Slik angir du obligatoriske felt og/eller verdier på siden **Intrastat-rapport**:
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Oppsett for Intrastat-rapport** og velger den relaterte koblingen.
+2. Velg handlingen **Sjekkliste for Intrastat-rapport**.
+3. Legg til de nødvendige linjene for å kontrollere ved hjelp av følgende instruksjoner:
+   1. Angi feltet **Feltnr.** til et felt som må kontrolleres for en verdi som ikke er tom.
+   2. Fyll om nødvendig ut feltet **Filteruttrykk** basert på følgende regler:
+      1. Når du åpner **Filterside**, velger du **Filter** du må bruke for kontrollen.
+      2. I neste trinn velger du en verdi relatert til **Filteret** du brukte.
+      3. Hvis du har flere filtre du må fylle ut for dette feltet, kan du legge til et annet filter ved å følge samme fremgangsmåte.
+      4. Når du er ferdig med å angi filtrene for det valgte feltet, velger du **OK**.
+   3. Velg feltet **Tilbakeført filteruttrykk** for å angi at kontrollen for felter bare kjøres på linjene som ikke samsvarer med filteruttrykket. Hvis linjen ikke filtreres, ignoreres dette feltet.
+
+> [!NOTE]
+> Når du åpner linjen **Filterside** fra linjen **Filteruttrykk**, kan du bruke alle standard filteruttrykk som er knyttet til det bestemte feltet du vil filtrere.
+>
+> Vær forsiktig med å definere valideringsregler, siden de kan avvike fra land til land.
+
+## <a name="use-custom-codeunits-in-intrastat-reporting"></a>Bruke egendefinerte codeunits i Intrastat-rapportering
+
+Hvis du vil endre hvordan Intrastat fungerer, og standardkonfigurasjonen ikke er nok, kan du tilpasse systemet ved å utvide standardfunksjonene. Hvis du må endre virkemåten for Intrastat ytterligere, kan du utvikle egne codeunits. Når du oppretter codeunits, må du imidlertid foreta flere endringer for å bruke dem. Slik konfigurerer du systemet til å bruke dine egne objekter:
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konfigurasjon av mva-rapporter**, og velg deretter den relaterte koblingen.
+2. Legg til en ny linje på **Konfigurasjon av mva-rapporter**-siden.
+3. Velg alternativet **Intrastat-rapport** i feltet **Mva-rapporttype**.
+4. I feltet **Versjon av mva-rapport** angir du hvilken versjon av rapporten.
+5. Deretter kan du legge til codeunits for følgende alternativer: a. I feltet **Codeunit-ID for Foreslå linjer** angir du den nye codeuniten for å foreslå linjer i Intrastat-rapportens linjer.
+   b. I feltet **Codeunit-ID for innhold** angir du den nye codeuniten for å eksportere data som en fil ved hjelp av en datautvekslingsdefinisjon.
+   c. I feltet **Valider codeunit-ID** angir du den nye codeuniten for valideringsresultater i Intrastat-rapportens linjer.
+
+> [!IMPORTANT]
+>
+> Denne linjen må være tom hvis du bruker standard codeunits. Du bør bare opprette en linje og konfigurere den hvis du har utviklet egendefinerte codeunits.
+
+## <a name="other-intrastat-configurations"></a>Andre Intrastat-konfigurasjoner
+
+> [!IMPORTANT]
+> Kundekort og leverandørkort inneholder et felt, **Intrastat-partnertype** som har samme alternativverdier som feltet **Partnertype**: "" (tom), *Selskap* og *Person*. Feltet **Intrastat-partnertype** har erstattet feltet **Partnertype** i Intrastat-rapportering. Feltet **Partnertype** brukes i området SEPA (Single EURO Payments Area) for å definere (SEPA) til å definere SEPA Direct Debit Scheme (Core eller B2B). Feltet **Intrastat-partnertype** brukes bare til Intrastat-rapportering. På denne måten kan du angi ulike verdier for de to feltene, hvis du trenger det.
+>
+> Hvis feltet **Intrastat-partnertype** er tomt, brukes verdien fra feltet **Partnertype** til Intrastat-rapportering.
+
+Unntatt for **Oppsett for Intrastat-rapport**, **Datautvekslingsdefinisjon** og **Sjekkliste for Intrastat-rapport** må du også konfigurere andre innstillinger:
+
+| Side | Description |
+| ---- | ----------- |
+| **Land/områder** | Før du begynner å bruke Intrastat-rapporter, må du også definere siden **Land/regioner**. På denne siden må du legge til **Lands-/områdekode for EU** og **Intrastatkode** for å angi en kode for landet/regionen du handler med, slik det vil bli brukt i Intrastat-rapportering. |
+| **Tariffnumre** | I mange land lager toll- og skattemyndighetene 8-sifrede koder for ulike varer. For at vareposter skal inneholde den nødvendige informasjonen når de leses inn på Intrastat-kladdelinjen, må du ha angitt varekoden på siden **Tariffnumre**. Finn kodene for varene som selskapet ditt handler med, og angi dem på **Tariffnumre**-siden. |
+| **Transportmåter** | Det finnes sju koder med ett siffer for Intrastat-transportmåter. **1** for båt, **2** for jernbane, **3** for bil, **4** for fly, **5** for post **7** for faste installasjoner og **9** for egen fremdrift (for eksempel transportere en bil ved å kjøre den). [!INCLUDE[prod_short](includes/prod_short.md)] trenger ikke disse spesifikke kodene, men vi anbefaler at beskrivelsene formidler en lignende betydning. |
+| **Transaksjonsarter** | Land og regioner har forskjellige koder for Intrastat-transaksjonstyper, for eksempel vanlig kjøp, salg, utveksling av returnerte varer og utveksling av ikke-returnerte varer. Definer alle kodene som gjelder for landet/regionen. Disse kodene brukes deretter på hurtigfanen **Utenrikshandel** på salgs- og kjøpsdokumenter, og når du behandler returer. |
+| **Transaksjonsspesifikasjoner** | Definer koder for å supplere transaksjonstypebeskrivelsene. |
+  > [!NOTE]
+  > Fra og med januar 2022 krever Intrastat forskjellig transaksjonskoder for fordeling til private enkeltpersoner eller ikke-mva-registrerte selskaper og mva-registrerte selskaper. For å overholde dette kravet anbefaler vi at du ser gjennom eller legger til nye transaksjonskoder på siden **Transaksjonstyper** i henhold til kravene i ditt land. Du bør også kontrollere og oppdatere feltet **Intrastat-partnertype** til *Personer* for private eller ikke-mva-selskapers forretningskunder på den relevante **Kunde**-siden. Hvis du er usikker på hvilken Intrastat-partnertype eller transaksjonstype som er riktig å bruke, anbefaler vi at du spør en ekspert i landet eller området ditt.
+
+| **Felt** | **Beskrivelse** |
+| --------- | --------------- |
+| **Nettovekt** | Vekt er en av de grunnleggende konfigurasjonene som er knyttet til Intrastat-rapportering, ettersom **Totalvekt** er obligatorisk for rapportering. For å være klar for dette behovet må du også fylle ut feltet **Nettovekt** på vare- eller aktivakortet. |
+| **Kode for opprinnelsesland** | Bruk de to bokstavers ISO alfa-kodene på elementet eller aktivakortet for landet der varen ble anskaffet eller produsert. Hvis varen ble produsert i mer enn ett land, er opprinnelseslandet det siste landet der det ble behandlet betraktelig. |
+| **Mva-nummer for partneroperatøren i medlemslandet for importen** | Dette mva-nummer for partneroperatøren i medlemslandet for importen. Mva-ID-en brukes også i utvekslingen av data mellom EU-eksport mellom medlemslandene, og tillater at medlemsland fordeler de mottatte dataene til importselskapet i sitt eget land. Rapporteringsenheter må rapportere mva-ID-en til selskapet som deklarerer den intra-unionhenting av varer i medlemslandet for import. |
 
 Du kan også konfigurere følgende:
 
-* **Områder**: Bruk disse til å supllere informasjonen om land og regioner.  
-* **Inn-/utpunkt**: Bruk disse til å angi lokasjonene der du leverer eller mottar varer til eller fra andre land. Oslo Lufthavn Gardermoen er et eksempel på et inn-/utpunkt. Du angir inn-/utpunkt på hurtigfanen **Utenrikshandel** i salgs- og kjøpsdokumenter. Denne informasjonen blir også kopiert fra varepostene når du oppretter Intrastat-kladden.  
+* **Varekoder**: Toll- og skattemyndighetene har laget numeriske koder som klassifiserer varer og tjenester. Du angie disse kodene for varene.
+* **Områder**: Supplerende informasjon om land og regioner.
+* **Inn-/utpunkt**: Angi lokasjonene der du leverer eller mottar varer til eller fra andre land. En flyplass er et eksempel på et inn-/utpunkt. Du angir inn-/utpunkt på hurtigfanen **Utenrikshandel** i salgs- og kjøpsdokumenter. Denne informasjonen blir også kopiert fra varepostene når du oppretter Intrastat-kladden.
+* **Supplerende enhet**: Antall varer for Intrastat-rapportering kan være enten nettovekt (i kilo) eller en tilleggsenhet. Hvis det kreves tilleggsenheter, må du konfigurere dem for varer og aktiva.
 
-### <a name="to-set-up-intrastat-templates-and-batches"></a>Slik definerer du Intrastat-maler og -kjørsler
-Intrastat-kjørslene inkluderer bare vareposter, ikke finansposter. Hvis du har finansposter som er kvalifisert for intrastatrapportering, må du angi dem manuelt. Hvis du for eksempel kjøper en datamaskin fra et annet EU-land eller en annen region, plasseres ikke datamaskinen i beholdningen, men bokføres på en finanskonto. Du må angi denne typen poster manuelt i intrastatkladden.  
+#### <a name="set-up-transport-methods"></a>Definere transportmåter
 
-Du kan eksportere postene til en fil som du kan sende til Intrastat-myndighetene. Du kan også skrive ut en rapport, manuelt angi informasjonen på skjemaene fra myndighetene og deretter sende opplysningene.
-
-> [!Note]
-> Vi anbefaler at du oppretter en Intrastat-kladdebunke for hver måned.  
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Intrastatkladdemaler**, og velg deretter den relaterte koblingen.  
-2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Opprett en mal for hvert Intrastat-skjema du bruker.  
-3. Velg **Kladder**-handlingen for å opprette kladder.  
-4. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]. Opprett en mal for hvert Intrastat-skjema du bruker. 
-
-> [!Note]
-> I **Statistikkperiode**-feltet angir du statistikkperioden med et firesifret tall, der de to første sifrene angir år og de to neste sifrene angir måned. Angi for eksempel 1706 for juni 2017.
-
-### <a name="to-set-up-transport-methods"></a>Slik definerer du transportmåter
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Transportmåter**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Transportmåter**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="to-set-up-which-intrastat-report-fields-are-mandatory"></a>Slik setter du opp hvilke felt som er obligatoriske i en Intrastat-rapport
+#### <a name="set-up-transaction-nature-codes"></a>Definere transaksjonskoder
 
-I noen land, for eksempel Spania og Storbritannia, krever skattemyndighetene at Intrastat-rapporter for eksempel må inkludere leveringsmåten for kjøp eller enkelte andre verdier ved salg over en viss grense. På siden **Oppsett - Intrastat** kan du velge **Oppsett for Intrastat-sjekkliste** for å konfigurere obligatoriske felt på **Intrastatkladd**-siden.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Transaksjonstyper**, og velg deretter den relaterte koblingen.
+2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Intrastat-oppsett** og velger den relaterte koblingen.
-2. Velg handlingen **Oppsett for Intrastat-sjekkliste**.
-3. På siden **Oppsett for Intrastat-sjekkliste** klikker du i **Feltnavn** for å velge felt i Intrastat-rapporten du vil gjøre obligatorisk.
+### <a name="other-related-configurations"></a>Andre relaterte konfigurasjoner
 
-### <a name="czechia"></a>Tsjekkia
+Før du bruker funksjonen for Intrastat-rapportering, må du konfigurere noen felt på vare-, aktiva-, kunde- og leverandørkortene.
 
-Spesielt for tsjekkiske selskaper må du også definere varekoder og transaksjonsartkoder.  
+#### <a name="item-cards"></a>Varekort
 
-#### <a name="to-set-up-commodity-codes"></a>Slik definerer du varekoder
+Slik oppretter du alle nødvendige opplysninger i forbindelse med Intrastat på varekort:
 
-Alle varer du kjøper eller selger, må ha en varetype.  
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varekoder**, og velg deretter den relaterte koblingen.  
-2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-3. Hvis du vil tilordne en varekode til en vare, går du til **Varekort**-siden, utvider hurtigfanen **Kost og bokføring** og angir deretter koden i **Varekode**-feltet.   
-
-### <a name="italy"></a>Italia
-
-Spesielt for italienske selskaper må du også definere varekoder og transaksjonsartkoder.  
-
-#### <a name="to-set-up-transaction-nature-codes"></a>Slik definerer du koder for type transaksjon
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Koder for type transaksjon**, og velg deretter den relaterte koblingen.  
-2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
-
-> [!Tip]
-> Hvis du ofte bruker en bestemt kode for en type transaksjon, kan du gjøre den standard. Hvis du vil gjøre dette, kan du gå til siden **Intrastat-oppsett** og velge koden.
-
-## <a name="to-report-intrastat"></a>Slik rapporterer du Intrastat
-
-Når du har fylt ut intrastatkladden, kan du kjøre handlingen **Sjekkliste** for å være sikker på at at all informasjon i kladden er riktig. Obligatoriske felt du har angitt på siden **Oppsett for Intrastat-sjekkliste** som mangler verdier, vises i faktaboksen Feil og advarsler på siden **Intrastatkladd**. Du kan deretter ut skrie ut en Intrastat-rapport som et skjema eller opprette en fil som skal sendes til skattemyndighetene i landet/regionen.  
-
-### <a name="to-fill-in-intrastat-journals"></a>Slik fyller du ut Intrastat-kladder
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Intrastatkladd** og velger den relaterte koblingen.  
-2. På siden **Intrastatkladd** i feltet **Bunkenavn** velger du den relevante kladdebunken og velger deretter **OK**.  
-3. Velg handlingen **Foreslå linjer**. Feltene **Startdato** og **Sluttdato** inneholder allerede datoene som er angitt for statistikkperioden på kladden.  
-4. I feltet **Kostregulerings-%** kan du angi en prosentandel som skal dekke transport og forsikring. Hvis du angir en prosent, blir innholdet i feltet **Statistikkverdi** i kladden proporsjonalt høyere.  
-5. Velg **OK** når du vil starte den satsvise jobben.  
-
-Kjørselen henter alle varepostene i statistikkperioden og setter dem inn som linjer i intrastatkladden. Du kan redigere linjene om nødvendig.  
-
-> [!IMPORTANT]  
-> Kjørselen henter bare postene som inneholder en lands-/regionkode som det er angitt en intrastatkode for, på siden **Land/regioner**. Derfor må du angi intrastatkoder for lands-/regionkodene du vil bruke kjørselen for. Kjørselen setter feltet **Mva-ID for partner** til *QV999999999999* for private enkeltpersoner eller ikke-mva-selskaper (kunder som har feltet **Intrastat-partnertype** satt til *Person*) og bruker verdien til feltet **Transaksjonstype** i den bokførte vareposten eller prosjektposten. 
-
-### <a name="to-modify-intrastat-journals-lines"></a>Slik endrer du Intrastatkladdelinjer
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Intrastatkladd** og velg den relaterte koblingen.  
-2. På siden **Intrastatkladd** i feltet **Bunkenavn** velger du den relevante kladdebunken og velger deretter **OK**.  
-3. Bruk filterruten til å filtrere Intrastatkladdelinjer basert på noen kriterier. Filtrer for eksempel på feltene **Mva-ID for partner** med verdien *QV999999999999*.
-4. Velg **Del**-ikonet ![Del en side i en annen app.](media/share-icon.png) og velg **Rediger i Excel**
-5. I Excel endrer du Intrastatkladdelinjer som du filtrerte ut. Du kan for eksempel endre feltverdier for **Transaksjonstype**.  
-6. Publiser endringene du har gjort i Excel, tilbake til [!INCLUDE[prod_short](includes/prod_short.md)]
-
-> [!Note]
-> I [!INCLUDE[prod_short](includes/prod_short.md)]-versjoner som ikke støtter [**Rediger i Excel**](across-work-with-excel.md#edit-in-excel) for kladder, kan du opprette konfigurasjonspakker for å eksportere og importere Intrastatkladdelinjer til Excel. Hvis du vil ha mer informasjon, kan du se [Overføre lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrasjonsinnholdet.
-
-### <a name="report-intrastat-on-a-form-or-a-file"></a>Rapportere Intrastat i et skjema eller en fil
-
-For å skaffe de opplysningene som trengs til Intrastat-blanketten fra statistikkmyndighetene, må du skrive ut rapporten **Intrastat - blankett**. Før du kan gjøre dette, må du forberede Intrastat-kladden og fylle den ut. Hvis du har både salgs- og kjøpstransaksjoner, må du fylle ut én blankett for hver type, slik at du må skrive ut rapporten to ganger.  
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Intrastatkladder** og velger den relaterte koblingen.  
-2. På siden **Intrastatkladd** velger du den aktuelle kladden i **Bunkenavn**-feltet.  
-3. Hvis du ikke allerede har gjort dette, fyller du ut kladden manuelt eller velger **Foreslå linjer**.  
-4. Velg handlingen **Skriver ut Intrastatkladd**.  
-5. På hurtigfanen **Intrastatkladdelinje** legger du til et **Type**-filter og angir om det er et **Mottak** eller en **Levering**.  
-6. Velg **Send til** for å skrive ut rapporten.  
-
-### <a name="report-intrastat-in-a-file"></a>Rapportere Intrastat i en fil
-
-Du kan sende inn Intrastat-rapporten som en fil. Før du oppretter filen kan du skrive ut en sjekkliste som inneholder de samme opplysningene som skal være i filen.  
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Intrastatkladd** og velg den relaterte koblingen.  
-2. På siden **Intrastatkladd** velger du den aktuelle kladden i **Bunkenavn**-feltet.  
-3. Hvis du ikke allerede har gjort dette, fyller du ut kladden manuelt eller velger **Foreslå linjer**.  
-4. Velg handlingen **Opprett fil**.  
-5. Velg **OK**-knappen på kjørselssiden.  
-6. Velg **Lagre**.  
-7. Bla til plasseringen der du vil lagre filen, skriv inn filnavnet, og velg deretter **Lagre**.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
+2. Velg elementet du vil konfigurere.
+3. Utvid **Kostnader og bokføring**, og fyll ut feltene **Tariffnr.**, **Supplerende enhet** og **Kode for opprinnelsesland/-område**.
+4. Utvid hurtigfanen **Beholdning**, og angi desimalverdien i **Nettovekt**-feltet.
 
 > [!NOTE]
-> Når en linje i Intrastat-rapporten har en supplerende enhet, vil ikke vekten av varen vises, ettersom denne verdien ikke er nødvendig.
+> Du kan bruke forskjellige enheter som tilleggsenhet. Hvis dette ikke er det samme som **Lagerenhet**, må du konfigurere denne enhetskoden på siden **Vareenheter**.
 
-## <a name="reorganize-intrastat-journals"></a>Omorganisere Intrastat-kladder
+#### <a name="fixed-asset-cards"></a>Aktivakort
 
-Fordi du må levere en Intrastat-rapport hver måned, og du oppretter en ny kladd for hver rapport, må du til slutt mange kladder. Kladdelinjene slettes ikke automatisk. Det kan være nødvendig å omorganisere kladdenavnene periodisk. Det gjør du ved å slette de kladdene du ikke trenger. Kladdelinjene i disse kladdene slettes også.  
+Slik oppretter du alle nødvendige opplysninger i forbindelse med Intrastat på aktivakort:
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Intrastatkladder** og velger den relaterte koblingen.  
-2. Velg **Bunkenavn**-feltet for å vise alternativene.  
-3. Velg kladdebunkene som skal slettes, og velg deretter **Slett**.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktiva**, og velg deretter den relaterte koblingen.
+2. Velg aktivaet du vil konfigurere.
+3. Utvide hurtigfanen **Intrastat**, og fyll ut feltene **Tariffnummer**, **Nettovekt** og **Supplerende enhet**.
 
-## <a name="tariff-numbers"></a>Tariffnumre
+> [!NOTE]
+> Du kan bruke forskjellige enheter som tilleggsenhet. Men uansett **Enhetskode** du velger, vil **Antall** i Intrastat alltid være 1.
 
-I mange land lager toll- og skattemyndighetene 8-sifrede varekoder for ulike varer. For at vareposter skal inneholde den nødvendige informasjonen når programmet leser dem inn på en Intrastatkladdelinje, må du allerede ha skrevet inn informasjon om tariffnummeret på siden **Tariffnummer**. Finn kodene for varene som selskapet ditt handler med, og angi dem på **Tariffnumre**-siden.
+#### <a name="vendor-cards"></a>Leverandørkort
 
-På siden **Tariffnummer** kan du legge til alle kodene du bruker. Du må skrive inn kodene på varekortet før du begynner å bokføre. Når du har definert kodene, setter du dem inn i **Tariffnr.** -feltet på varekortet. Du må også fylle ut feltet **Nettovekt** på varekortet.
+Før du kan bruke en leverandør i Intrastat-rapportering, må du ha dedikert **Lands-/regionkode** og **Organisasjonsnr.** for hver av dem, i tillegg til mer informasjon om siden **Leverandørkort**:
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/process-intrastat-dynamics-365-business-central/index)
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Leverandører** og velger den relaterte koblingen.
+2. Velg leverandøren du vil konfigurere.
+3. På hurtigfanen **Intrastat** kan du angi standardverdier for feltene **Standard trans.art**, **Standard trans.art – returer** og **Standard transportmåte**.
+4. Utvid hurtigfanen **Betalinger**, og velg alternativet i feltet **Intrastat-partnertype** for å angi om leverandøren er en person eller et selskap i Intrastat-rapportering.
+
+#### <a name="customer-cards"></a>Kundekort
+
+Før du kan bruke en kunde i Intrastat-rapportering, må du ha dedikert **Lands-/regionkode** og **Organisasjonsnr.** for hver av dem, i tillegg til mer informasjon om siden **Kundekort**:
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.
+2. Velg kunden du vil konfigurere.
+3. På hurtigfanen **Intrastat** kan du angi standardverdier for feltene **Standard trans.art**, **Standard trans.art – returer** og **Standard transportmåte**.
+4. Utvid hurtigfanen **Betalinger**, og velg alternativet i feltet **Intrastat-partnertype** for å angi om leverandøren er en person eller et selskap i Intrastat-rapportering.
+
+#### <a name="exclude-items-and-fixed-assets-from-intrastat-reporting"></a>Utelate varer og aktiva fra Intrastat-rapportering
+
+Hvis en bestemt vare eller et aktiva skal utelates fra Intrastat-rapportering, må du endre et alternativ på kortet.
+
+##### <a name="exclude-an-item-from-intrastat-reporting"></a>Utelate en vare fra Intrastat-rapportering
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
+2. Velg elementet du vil konfigurere.
+3. Utvid hurtigfanen **Kost & bokføring**, og velg deretter feltet **Utelat fra Intrastat-rapport**.
+
+##### <a name="exclude-a-fixed-asset-from-intrastat-reporting"></a>Utelate et aktiva fra Intrastat-rapportering
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktiva**, og velg deretter den relaterte koblingen.
+2. Velg aktivaet du vil konfigurere.
+3. Utvid hurtigfanen **Intrastat**, og velg deretter feltet **Utelat fra Intrastat-rapport**.
+
+## <a name="country-specific-intrastat-setup"></a>Landsspesifikt Intrastat-oppsett
+
+<!-- PM's note: Currently, we will add only the 'Overview' topic; the topic 'Manage Intrastat Country Specifics' and country details will wait until 21.1 when I update with all country-based details -->
+
+Intrastat-kravene er lignende i alle medlemsstatene i EU, selv om det finnes viktige unntak. I teorien må reglene brukes enhetlig i alle medlemsstater. Det finnes imidlertid forskjeller i implementeringen, fordi noen medlemsstater har retningslinjer for hvordan de generelle prinsippene i bestemmelsene skal brukes i bestemte situasjoner (for eksempel kommersielle eksempler, retur av varer osv.). Disse retningslinjene kan gi forskjellige resultater for ulike situasjoner i EU-medlemsland. På grunn av dette har noen land noen ekstra spesifikk informasjon atskilt fra andre land, og de har også et eget filformat for rapportering.
+
+## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also"></a>Se også
 
-[Økonomistyring](finance.md)
-
+[Intrastat-rapportering i Business Central](finance-how-report-intrastat.md)  
+[Økonomistyring](finance.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

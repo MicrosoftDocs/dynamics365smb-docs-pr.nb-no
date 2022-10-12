@@ -3,21 +3,25 @@ title: Opprette produksjonsstykklister
 description: Lær hvordan du oppretter en produksjonsstykkliste, nye versjoner av en produksjonsstykkliste, og hvordan du bruker antallsberegningsformelen.
 author: bholtorf
 ms.topic: conceptual
-ms.search.form: 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
+ms.search.keywords: production bom, bills of material,
+ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 07563e285e6806a1a2010446d4da65fd52c9ed16
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: ec8d20ac3f6e6e02471a9f86f35aee8c551df801
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516903"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607827"
 ---
 # <a name="create-production-boms"></a>Opprette produksjonsstykklister
 
 En produksjonsstykkliste inneholder hoveddata som beskriver komponenter og halvfabrikata som brukes i produksjonen av en overordnet vare. Når en produksjonsordre opprettes for den overordnede varen, styrer produksjonsstykklisten beregningen av materialbehovet slik det er representert på siden **Prod.ordrekomponenter**.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] støtter også monteringsstykklister. Du bruker monteringsordrer for å produsere sluttvarer fra komponenter i en enkel prosess som kan utføres av én eller flere grunnleggende ressurser, som ikke er produksjonsressurser eller arbeidssentre, eller uten noen ressurser. En monteringsprosess kan for eksempel være å plukke to flasker vin og én kaffepose og deretter pakke dem som en gave. Hvis du vil ha mer informasjon, kan du se [Monteringsstykklister eller produksjonsstykklister](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
+
+> [!TIP]
+> Appen **Contoso Coffee-demodata** omfatter demonstrasjonsprodukter for en rekke ulike produksjonsstykklistescenarioer som kan brukes i et testmiljø, inkludert under en prøveversjon. Lær hvordan du konfigurerer Contoso Coffee-data og finn gjennomganger for ulike scenarioer under [Innføring i Contoso Coffee-demodata](/contoso-coffee/contoso-coffee-intro.md).
 
 Før du kan definere en rute, må følgende være på plass:  
 
@@ -26,7 +30,7 @@ Før du kan definere en rute, må følgende være på plass:
 
 ## <a name="to-create-a-production-bom"></a>Slik oppretter du en produksjonsstykkliste
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Produksjonsstykkliste**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Produksjonsstykklister**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Hvis du vil kunne redigere stykklisten, setter du **Status**-feltet til **Ny** eller **Under utvikling**. Hvis du vil aktivere den, setter du **Status**-feltet til **Sertifisert**.  
@@ -48,13 +52,13 @@ Før du kan definere en rute, må følgende være på plass:
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Hvis du vil beregne varens standardkost fra varekortet, velger du **Produksjon** og deretter **Beregn standardkost**.  
 
-## <a name="to-create-a-new-versions-of-a-production-bom"></a>Slik oppretter du nye versjoner av en produksjonsstykkliste
+## <a name="to-create-a-new-version-of-a-production-bom"></a>Slik oppretter du en ny versjon av en produksjonsstykkliste
 
 Nye versjoner av produksjonsstykklister brukes for eksempel når en vare erstattes av en annen vare, eller når en kunde krever en spesialversjon av et produkt. Versjonsprinsippet gjør det mulig å håndtere flere versjoner av en produksjonsstykkliste. Strukturen i produksjonsstykklisteversjonen tilsvarer strukturen i produksjonsstykklistene. Hovedforskjellen ligger i versjonenes tidsgyldighet. Gyldigheten defineres av startdatoen.  
 
 Startdatoen angir starten på perioden som denne versjonen er gyldig i. I alle andre tilfeller er startdatoen et filterkriterium for beregninger og evalueringer. Stykklisteversjonen er gyldig til neste versjon blir gyldig.  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Produksjonsstykkliste**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Produksjonsstykklister**, og velg deretter den relaterte koblingen.  
 2. Velg produksjonsstykklisten som skal kopieres, og velg deretter **Versjoner**-handlingen.  
 3. Velg handlingen **Ny**.  
 4. Fyll ut feltene etter behov.
@@ -92,17 +96,20 @@ Sammenhengen mellom de enkelte komponentene defineres av beregningsformelen. Fø
 
 ### <a name="example"></a>Eksempel
 
-I en produksjonsstykkliste kreves det sytti metalldeler med dimensjonslengde = 0,20 m og bredde = 0,15 m. Verdiene angis slik: Beregningsformel = Lengde x Bredde, Lengde = 20, Bredde = 15, Antall per = 70. Antallet angis av Antall per x Lengde x Bredde, det vil si Antall = 70 x 0,20 m x 0,15 m = 2,1 m2.  
+I en produksjonsstykkliste kreves det 70 metalldeler med dimensjonslengde = 0,20 m og bredde = 0,15 m. Verdiene angis slik: Beregningsformel = Lengde x Bredde, Lengde = 20, Bredde = 15, Antall per = 70. Antallet angis av Antall per x Lengde x Bredde, det vil si Antall = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
 ## <a name="see-also"></a>Se også
 
-[Opprette ruter](production-how-to-create-routings.md)   
+[Opprette ruter](production-how-to-create-routings.md)  
+[Behandle produktvarianter](inventory-item-variants.md)  
+[Gjennomgang: varianter](/contoso-coffee/variants.md)  
 [Definere produksjon](production-configure-production-processes.md)  
-[Produksjon](production-manage-manufacturing.md)    
-[Planlegging](production-planning.md)   
+[Produksjon](production-manage-manufacturing.md)  
+[Planlegging](production-planning.md)  
+[Arbeid med stykklister](inventory-how-work-BOMs.md)  
+[Arbeid med monteringsstykklister](assembly-how-work-assembly-boms.md)  
 [Lager](inventory-manage-inventory.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

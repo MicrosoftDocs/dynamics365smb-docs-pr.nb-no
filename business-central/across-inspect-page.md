@@ -9,12 +9,12 @@ ms.topic: conceptual
 author: jswymer
 ms.author: jswymer
 ms.date: 04/01/2021
-ms.openlocfilehash: 28ac84b76f40771cf29c4d504035f01458cb1631
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 85c83a08907f9f5b441b3f09c1a09131684707a8
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517177"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606498"
 ---
 # <a name="inspecting-pages-in-business-central"></a>Kontrollere sider i Business Central
 
@@ -26,11 +26,7 @@ Sideinspeksjonsfunksjonen gjør det mulig å få opplysninger om en side ved å 
 
 Startsideinspeksjonen fra **Hjelp og støtte**-siden. Velg spørsmålstegnet øverst til høyre, velg **Hjelp og støtte**, og velg deretter **Undersøk sidene og dataene**. Du kan også bruke hurtigtasten **Ctrl+Alt+F1**.
 
-Ruten **Sideninspeksjon** åpnes på siden. Følgende figur viser ruten **Sideninspeksjon** på siden **Ordre**.
-
-![Sideinspeksjon.](media/page-inspection-example.png)
-
-Når ruten **Sideinspeksjon** åpnes for første gang, vises informasjon som gjelder hovedobjektet på siden.
+Ruten **Sideninspeksjon** åpnes på siden. Når ruten åpnes for første gang, vises informasjon som gjelder hovedobjektet på siden.
 
 Du kan tastaturet eller pekeenheten til å flytte fokus til forskjellige elementer på siden. Når du velger en faktaboks eller en del på hovedsiden, markeres rammeområdet med en kant, og **Sidenspeksjon**-ruten viser informasjon om det valgte elementet. Den forrige figuren viser opplysninger om listedelen på siden **Ordre**. Når du går til andre sider i programmet, vil ruten **Sideinspeksjon** automatisk oppdateres med sideinformasjon når du flytter.
 
@@ -47,6 +43,5 @@ Brukere som ikke har tilgang til **Systemobjekt 5330**, har fremdeles tilgang ti
 ## <a name="see-also"></a>Se også
 
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customized report, document layout, logo, personalize
 ms.search.form: 9652, 9650
-ms.date: 03/07/2022
+ms.date: 08/12/2022
 ms.author: jswymer
-ms.openlocfilehash: e59a57e6cac21f4909088defc42da795e5550562
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: d63bfb699932261e0e9b74ef3aebcbd52bc53604
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535857"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606887"
 ---
 # <a name="setting-the-layout-used-by-a-report"></a>Definer oppsettet som brukes av en rapport
 
@@ -27,15 +27,17 @@ Når det er flere selskaper i programmet, blir oppsettene satt på per firma-bas
 
 ## <a name="get-started"></a>Kom i gang
 
-Det finnes to måter å angi hvilket oppsett en rapport bruker. En måte er fra siden **Egendefinerte rapportoppsett**. Den andre måten er fra **Rapportoppsett**-siden. Hver side har fordeler, for eksempel: 
+Det finnes noen få måter å angi hvilket oppsett en rapport bruker. Du kan få fordeler på hver måte, avhengig av hva du er på jakt etter: 
 
-- Siden **Valg av rapportoppsett** viser en liste over alle rapporter.
+- Fra rapportforespørselssiden
 
-  Denne siden angir det gjeldende oppsettet for en rapport. I tillegg kan du definere oppsett i forskjellige selskaper uten å måtte bytte ut selskapet du arbeider med.
+  Når du setter opp en rapport som skal kjøres, inneholder rapportforespørselssiden feltet **Rapportoppsett** som viser nåværende standardoppsett som brukes i rapporten. Du kan bruke dette feltet til å bytte midlertidig til et annet tilgjengelig oppsett som rapporten kjører. Etter at du har kjørt rapporten, går oppsettet tilbake til standardoppsettet på nytt. Hvis du vil ha mer informasjon, kan du se [Kjør og skriv ut rapporter](ui-work-report.md#switching-the-report-layout).
 
-- Siden **Rapportoppsett** viser alle tilgjengelige oppsett for hver rapport i det gjeldende selskapet.
+- Fra siden **Rapportoppsettsvalg**
 
-  Det er enkelt å finne et bestemt oppsett ved å sortere eller filtrere listen. Når du har funnet oppsettet, kan du angi det for en rapport med et enkelt valg.
+  Siden **Valg av rapportoppsett** viser en liste over alle rapporter. Denne siden angir det gjeldende standardoppsettet for en rapport. Den lar deg definere oppsett i forskjellige selskaper uten å måtte bytte ut selskapet du arbeider med.
+
+- Fra siden **Rapportoppsett** Siden **Rapportoppsett** viser alle tilgjengelige oppsett for hver rapport i det gjeldende selskapet. Det brukes også til å angi standardoppsett for rapporter. Det er enkelt å finne et bestemt oppsett ved å sortere eller filtrere listen. Når du har funnet oppsettet, kan du angi det for en rapport med et enkelt valg.
 
   > [!NOTE]
   > Du kan ikke bruke **Rapportoppsett**-siden for Word- og RDLC-oppsett som ble opprettet ved hjelp av den eldre funksjonen **Egendefinerte oppsett**. Du ser faktisk ikke at disse egendefinerte oppsettene vises på siden **Rapportoppsett**. For disse oppsettene kan du bare angi dem ved hjelp av siden **Valg av rapportoppsett**.

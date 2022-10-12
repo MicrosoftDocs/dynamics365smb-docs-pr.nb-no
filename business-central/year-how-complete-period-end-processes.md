@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
-ms.date: 04/01/2021
+ms.date: 08/29/2022
 ms.author: jswymer
-ms.openlocfilehash: bb39763e80acc25604f3a1528f5c6db286a5c1dc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: ace24899aa3c872cd5ac0609dfc3ecbf63608330
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535493"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607665"
 ---
 # <a name="overview-of-tasks-to-close-accounting-periods"></a>Oversikt over oppgaver for lukking av regnskapsperioder
 
@@ -24,18 +24,18 @@ ms.locfileid: "9535493"
 
 * Angi systemomfattende og brukerspesifikke bokføringsperioder.  
 
-    Dette angir datoene som bokføringer som er tillatt mellom. Avhengig av forretningsbehovene vil du kanskje tillate bokføring ved begynnelsen av perioden eller mot slutten. Hvis du vil ha mer informasjon, kan du se [Angi bokføringsperioder](finance-how-specify-posting-periods.md).  
+    Dette angir datoene som bokføringer som er tillatt mellom. Avhengig av forretningsbehovene vil du kanskje tillate bokføring ved begynnelsen av perioden eller mot slutten. Lær mer under [Spesifiser bokføringsperioder](finance-how-specify-posting-periods.md).  
 * Foreta alle nødvendige finansjusteringer.  
 * Oppdater og bokfør gjentakelseskladder.  
   <!--* Process Consolidations-->
-* Kjør kontoskjemaer som følger:  
-  * Åpne **Kontoskjema**-siden, og velg deretter handlingen **Skriv ut**.  
+* Kjør finansrapporter på følgende måte:  
+  * Åpne siden **Finansrapporter** og velg **Skriv ut**-handlingen.  
 
 ## <a name="sales-and-receivables"></a>Salg
 
 * Bokfør alle ordrer, fakturaer, kreditnotaer og ordrereturer.  
 * Bokfør alle innbetalingskladder.  
-* Oppdater og bokfør gjentakelseskladder som er relatert til salg.  
+* Oppdater og bokfør gjentakelseskladder i forbindelse med salg.  
 * Avstem kortsiktige fordringer mot Finans.  
 * Kjør kjørselen **Slett fakturerte ordrer**.  
 
@@ -43,25 +43,25 @@ ms.locfileid: "9535493"
 
 * Bokfør alle bestillinger, fakturaer, kreditnotaer og ordrereturer.  
 * Bokfør alle utbetalingskladder.  
-* Oppdater og bokfør gjentakelseskladder som er relatert til kjøp.  
+* Oppdater og bokfør gjentakelseskladder i forbindelse med kjøp.  
 * Kjør rapporten **Aldersfordelt saldoliste - lev.**, og avstem leverandørgjeld mot Finans.  
 * Kjør kjørselen **Slett fakturerte bestillinger**.  
 
-## <a name="fixed-assets"></a>Anleggsmidler
+## <a name="fixed-assets"></a>Aktiva
 
-* Bokfør all vedlikeholdskost gjennom aktivakladdene eller fakturaene.
+* Bokfør all vedlikeholdskost som har blitt bokført gjennom aktivakladdene eller fakturaene.
 * Bokfør justeringer.
 * Bokfør oppskrivning.
 * Bokfør avskrivning.
 * Oppdater og bokfør gjentakende aktivakladd.
 
-## <a name="intercompany"></a>Konsernintern
+## <a name="intercompany"></a>Konserninternt
 
-* Behandle konserninterne transaksjoner
+* Behandle konserninterne transaksjoner.
 
 ## <a name="calculate-and-process-sales-tax"></a>Beregn og behandle mva.
 
-* Fullfør mva-oppgaver.  
+* Fullfør avgiftsoppgaver.  
 
 ## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
@@ -70,6 +70,5 @@ ms.locfileid: "9535493"
 [Avslutte år og perioder](year-close-years-periods.md)  
 [Avslutte tablåer](year-close-books.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

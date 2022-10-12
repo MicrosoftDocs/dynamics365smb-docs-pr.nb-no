@@ -1,0 +1,1 @@
+Hvis organisasjonen har konfigurert OneDrive for systemfunksjoner, åpnes Excel-arbeidsboken i nettleseren din ved hjelp av Excel for nettet. Hvis du ikke bruker OneDrive for systemfunksjoner, lastes arbeidsboken ned til enheten. Derfra kan du åpne den ved hjelp av enten Excel-skrivebordsappen eller Excel for nettet, avhengig av hva du har.

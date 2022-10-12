@@ -9,25 +9,26 @@ ms.workload: na
 ms.search.form: 672, 673, 674, 671
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: 081f900836f97d6630608aade4251272ee1a1ff1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
+ms.openlocfilehash: cfbfffdf52e072133451e968e872c7f66a733069
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317438"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607103"
 ---
 # <a name="use-job-queues-to-schedule-tasks"></a>Bruke jobbkøer til å planlegge oppgaver
 
-Med jobbkøer kan brukere planlegge og kjøre bestemte rapporter og kodeenheter. Du kan angi at jobbene skal kjøre én gang, eller gjentas flere ganger. Du ønsker kanskje å kjøre rapporten **Selger - salgsstatistikk** hver uke for å spore salg etter selger hver uke eller kjøre codeunit **Deleger godkjenningsforespørsler** daglig for å unngå at dokumenter hoper seg opp.
+Siden for jobbkøoppføringer gjør det mulig for brukere å kjøre bestemte rapporter og codeunits. Du kan angi at jobbene skal kjøre én gang, eller gjentas flere ganger. Du ønsker kanskje å kjøre rapporten **Selger * salgsstatistikk** hver uke for å spore salg etter selger hver uke eller kjøre codeunit **Deleger godkjenningsforespørsler** daglig for å unngå at dokumenter hoper seg opp.
 
 Siden **Poster i jobbkø** viser alle eksisterende jobber. Hvis du legger til en ny jobbkø du vil planlegge, må du angi noen opplysninger. Eksempel:
+
 * Typen objekt du vil kjøre, for eksempel en rapport eller codeunit. Du må ha tillatelse til å kjøre den bestemte rapporten eller codeunit.
 * Navnet og objekt-ID-en for kostobjektet. 
 * Parametere som skal spesifisere hva jobbkøposten skal gjøre. Du kan for eksempel legge til en parameter for å sende bare bokførte ordrer. 
 * Når, og hvor ofte, vil jobbkøen skal kjøre.
 
 > [!IMPORTANT]  
-> Hvis du bruker SUPER-tillatelsessettet som følger med [!INCLUDE[prod_short](includes/prod_short.md)], har du og brukerne tillatelse til å kjøre alle objektene i lisensen. Det er fremdeles ikke nok for delegert administrator eller brukere med enhetslisens, som ikke kan opprette jobbkøen.
+> Hvis du har SUPER-tillatelsessettet som følger med [!INCLUDE[prod_short](includes/prod_short.md)], har du tillatelse til å kjøre alle objektene i lisensen. Hvis du har rollen Delegert administrator, kan du opprette og planlegge jobbkøposter, men bare administratorer og lisensierte brukere kan kjøre dem. Brukere med denne enhetslisensen kan ikke opprette eller kjøre hele køen.
 
 Når jobbkøer er satt opp og kjører, kan statusen endres på følgende måte i hver gjentakende periode:
 
@@ -73,7 +74,7 @@ Siden **Planlagte oppgaver** i [!INCLUDE [prod_short](includes/prod_short.md)] v
 Alle planlagte oppgaver stopper for eksempel hvis selskapet er i et miljø som er en kopi av et annet miljø. Bruk siden **Planlagte oppgaver** til å angi oppgaver som klare til å kjøres i jobbkøen.  
 
 > [!NOTE]
-> Interne administratorer og brukere kan planlegge oppgaver som skal kjøres. Delegerte administratorer kan ikke det.
+> Interne administratorer og lisensierte brukere kan planlegge oppgaver som skal kjøres. Delegerte administratorer kan definere og planlegge oppgaver som skal kjøres, men bare lisensierte brukere kan kjøre dem.
 
 ## <a name="the-my-job-queue-part"></a>Delen Min jobbkø
 

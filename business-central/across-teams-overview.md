@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
-ms.date: 03/04/2022
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: 5252d3e595b3ae0246646fe7eafe910cdf4da2f0
-ms.sourcegitcommit: 0bb9473a2563211bc0c02ebfd837bba1b2e9ad3f
+ms.openlocfilehash: fbedf23a65940b73e521d06d17abbbaef77fd512
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/25/2022
-ms.locfileid: "8805051"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607428"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams-integrering
 
@@ -52,7 +52,7 @@ Hvis du vil ha mer informasjon, kan du se [Del oppføringer i Microsoft Teams](a
 
 ### <a name="share-links-from-pages-in-business-central-to-teams"></a>Del koblinger fra sider i Business Central til Teams
 
-Fra de fleste samlings- og detaljsidene i Business Central kan du bruke handlingen **Del til Teams** fra ikonet ![!Del-menyikon på sider.](media/share-icon.png "Del-menyen som vises på et kort.") til å skrive inn en melding, velge mottakere, for eksempel gruppemedlemmer, grupper eller kanaler og sende meldingen med en kobling til Business Central-siden.
+Fra de fleste samlings- og detaljsidene i Business Central kan du bruke handlingen **Del til Teams** fra ikonet ![!Del-menyikon på sider.](media/share-icon.png "Del-menyen som vises på et kort.") til å skrive inn en melding, velge mottakere, for eksempel gruppemedlemmer, grupper eller kanaler og sende meldingen med en kobling og til Business Central-siden.
 
 ![!Del-menyen som vises på et kort.](media/teams-share-link.png "Del-menyen som vises på et kort.")
 

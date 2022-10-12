@@ -7,24 +7,24 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 100
-ms.date: 04/01/2021
+ms.date: 08/25/2022
 ms.author: bholtorf
-ms.openlocfilehash: 44c9cdadc47a40f8915f3134018c062d90fe06c5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
+ms.openlocfilehash: 93dcf334d65bda2859f8fcd91c976c3d85e6b18f
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511678"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605654"
 ---
 # <a name="work-with-accounting-periods-and-fiscal-years"></a>Arbeid med regnskapsperioder og regnskapsår
 
 Regnskapsperioder, som også kalles rapporteringsperioder, er tidsperioder som en bedrift eller organisasjon rapporterer økonomiske resultater for, for eksempel ved å generere resultatregnskapet eller balansen. Vanligvis viser regnskapsperioder til selskapets regnskapsår, som kan inneholde flere regnskapsperioder, for eksempel måneder eller kvartal.
 
-I mange selskaper samsvarer ikke regnskapsåret med kalenderåret. Regnskapsåret kan for eksempel slutte 30. juni i stedet for 31. desember. For nyopprettede selskaper kan regnskapsåret faktisk være lenger enn 12 måneder.  
+For mange selskaper kan ikke regnskapsåret justeres med kalenderåret, for eksempel når regnskapsåret slutter på 30. juni i stedet for 31.desember. For nyopprettede selskaper kan regnskapsåret faktisk være lenger enn 12 måneder.  
 
-[!INCLUDE[prod_short](includes/prod_short.md)] krever bare regnskapsperioder hvis du vil lukke et resultatregnskap eller kjøre datakomprimeringsoppgaver. 
+[!INCLUDE[prod_short](includes/prod_short.md)] krever bare regnskapsperioder hvis du vil lukke et resultatregnskap eller kjøre datakomprimeringsoppgaver.
 
-Du kan bruke regnskapsperioder i rapportering. For eksempel når du går gjennom bokførte poster på siden **Saldo/Budsjett** der rapporteringsintervallet kan angis. Ett av alternativene du kan angi er å rapportere etter regnskapsperiode. Du kan også lage et kontoskjema som sammenligner resultater for ulike regnskapsperioder.
+Du kan bruke regnskapsperioder i rapportering, for eksempel når du går gjennom bokførte poster på siden **Saldo/Budsjett** der rapporteringsintervallet kan angis. Ett av alternativene du kan angi er å rapportere etter regnskapsperiode. Du kan også lage en finansrapport som sammenligner resultater for ulike regnskapsperioder.
 
 ## <a name="creating-a-new-fiscal-year"></a>Opprette et nytt regnskapsår
 
@@ -35,10 +35,10 @@ Du kan masseopprette regnskapsperioder ved å bruke kjørselen **Opprett regnska
 Bruk **Opprett regnskapsår**-kjørselen til å dele et regnskapsår inn i like lange perioder.  
 
 1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport") og angi **Regnskapsperioder**, og velg deretter den relaterte koblingen.  
-2. Velg handlingen **Opprett år**.  <!--What about the Scheduling option? Should we mention that? There's also the Report Output Type field...-->
+2. Velg handlingen **Opprett år**.
 3. I **Startdato**-feltet angir du datoen som regnskapsåret starter på.  
 4. I **Antall perioder**-feltet angir du antall regnskapsperioder som regnskapsåret skal deles inn i. Det kan være opptil 365 perioder i et år.  
-5. I feltet **Periodelengde** angir du en varighet for hver periode. For eksempel 1M for én måned, 1K for ett kvartal og 1Å for ett år.  
+5. I feltet **Periodelengde** angir du en varighet for hver periode. Varighetsidentifikatorer inkluderer 1M for én måned, 1K for ett kvartal og 1Å for ett år.  
 6. Velg **OK**.  
 
 ### <a name="how-to-create-accounting-periods-manually"></a>Slik oppretter du regnskapsperioder manuelt
@@ -60,7 +60,7 @@ Lukking av regnskapsåret er en av oppgavene for lukking av tablåene. Når du h
 1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport") og angi **Regnskapsperioder**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Lukk år**.  
 
-## <a name="posting-entries-to-a-closed-fiscal-year"></a>Bokføre poster i et lukket regnskapsår
+## <a name="posting-entries-to-a-closed-fiscal-year"></a>Bokføre poster til et lukket regnskapsår
 
 Selv om et regnskapsår er avsluttet, kan du bokføre finansposter i det. Når du gjør dette, blir postene merket som bokført i et avsluttet regnskapsår, og det merkes av for feltet **Etterpost**. Som standard vises ikke avmerkingsboksen på siden, men du kan legge den til. Neste trinn er å lukke resultatregnskapskontoene og overføre årsresultatene til en konto i balansen. Gjenta disse trinnene hver gang du bokfører poster til et lukket regnskapsår.
 
@@ -68,7 +68,6 @@ Selv om et regnskapsår er avsluttet, kan du bokføre finansposter i det. Når d
 
 [Lukke tablåene](year-close-books.md)  
 [Avslutte år og perioder](year-close-years-periods.md)  
-[Arbeide med kontoskjemaer](bi-how-work-account-schedule.md)  
-
+[Arbeide med finansrapporter](bi-how-work-account-schedule.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -7,15 +7,15 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
-ms.search.form: 10, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
+ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
 ms.date: 07/08/2022
 ms.author: bholtorf
-ms.openlocfilehash: 148d6657d3fffeaa7b5415338517f1688264ae98
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: cfb7cf9448db3b88bc6f8c75f495ddb12cb23740
+ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532947"
+ms.lasthandoff: 10/03/2022
+ms.locfileid: "9617915"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Definer beregninger og bokføringsmetoder for merverdiavgift
 
@@ -32,7 +32,7 @@ Hvis du imidlertid vil definere mva-beregninger selv, eller bare vil lære mer o
 
 [!INCLUDE [finance-vat](includes/finance-vat.md)]
 
-## <a name="set-up-vat-using-the-assisted-vat-setup-guide-recommended"></a>Definer mva. ved å bruke den assisterte veiledningen Mva-oppsett (anbefales> 
+## <a name="set-up-vat-using-the-assisted-setup-guide-recommended"></a>Definer mva. ved å bruke den assisterte veiledningen for oppsett (anbefalt)
 
 > [!NOTE]
 > Du kan bare bruke veiledningen **Mva-oppsett** hvis du har opprettet et *Mitt selskap* og ikke ennå har bokført transaksjoner som inkluderer mva.
@@ -50,6 +50,21 @@ For å støtte deg i å komme raskt i gang varsler [!INCLUDE [prod_short](includ
 Hvis du velger et slikt varsel, oppretter [!INCLUDE [prod_short](includes/prod_short.md)] automatisk disse bokføringsoppsettene basert på bokføringsgruppene i dokumentet eller kladden du for øyeblikket arbeider med.  
 
 På dette stadiet kan du bare fylle ut de manglende finanskontoene. Senere, når du begrenser oppsettet ytterligere, kan det hende du oppdager at dette første oppsettet ikke er riktig. Og [!INCLUDE [prod_short](includes/prod_short.md)] tillater ikke sletting av mva-bokføringsoppsett og generelle bokføringsoppsett når poster har blitt opprettet basert på slike konfigurasjoner. Fra lanseringsbølge 1 i 2022 kan du bruke feltet **Sperret** på siden **Mva-bokføringsoppsett** for å hindre at brukere ved en feiltakelse bruker et oppsett som ikke lenger er relevant for nye bokføringer.
+
+## <a name="set-up-a-default-vat-date-for-documents-and-journals"></a>Definer en standard mva-dato for dokumenter og kladder
+Mva-rapportering i [!INCLUDE [prod_short](includes/prod_short.md)] er basert på **Mva-dato** for å inkludere mva-poster i mva-rapporter i en mva-periode. Mva-datoen kan endres i alle dokumenter og kladder, men du må angi en standard verdi for mva-dato.
+
+> [!NOTE]
+> Etter bokføring av bilaget eller kladden, vises **mva-datoen** i både **mva-poster** og **finansposter** samt i det bokførte dokumentet hvis det finnes.
+
+Følg denne fremgangsmåten for å definere en standardverdi for en mva-dato:
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
+2. På hurtigfanen **Generelt** i feltet **Standard mva-dato** velger du enten **Bokføringsdato** eller **Dokumentdato**.
+3. Lukk siden.  
+
+> [!NOTE]
+> **Standard mva-dato** er som standard **bokføringsdatoen**.
 
 ## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Definere organisasjonsnumre for landet eller området ditt
 
@@ -89,7 +104,7 @@ Det er lurt å bruke koder som er lette å huske og som beskriver satsen, for ek
 
 Hvis du vil definere en mva-bokføringsgruppe for bedrifter, gjør du følgende:
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 4.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-bokføringsgrupper – produkt**, og velg deretter den relaterte koblingen.  
+1. Velg ![Lyspære som åpner funksjonen Fortell meg 4.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-bokføringsgrupper – produkt**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
 
 ## <a name="combine-vat-posting-groups-in-vat-posting-setups"></a>Kombinere mva-bokføringsgrupper i mva-bokføringsoppsett

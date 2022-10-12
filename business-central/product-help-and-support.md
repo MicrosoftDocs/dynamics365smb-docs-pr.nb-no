@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: d006df90aa6eba3b1970db971cdb14700a3bbd6b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531705"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607719"
 ---
 # <a name="resources-for-help-and-support"></a>Ressurser for hjelp og støtte
 
@@ -51,7 +51,7 @@ Følgende liste beskriver hvordan du får tilgang til hjelperuten og om det er l
 Bruk søkefeltet øverst i hjelperuten til å søke etter veiledning om hvordan du bruker produktet, innebygde funksjoner og tilgjengelige opplæringsmoduler. Avhengig av søkevilkårene viser ruten fem eller flere koblinger med en kort beskrivelse. Velg en kobling, eller begrens søkeordene. Når du velger en kobling, åpnes målartikkelen i en ny nettleserfane. Du kan velge å oppheve forankringen av nettleserfanen, slik at du kan vise relevant informasjon side om side med [!INCLUDE [prod_short](includes/prod_short.md)]. Ruten forblir åpen mens du navigerer gjennom [!INCLUDE [prod_short](includes/prod_short.md)], slik at innholdet du søker etter, forblir synlig.  
 
 > [!NOTE]
-> I gjeldende versjon av [!INCLUDE [prod_short](includes/prod_short.md)] vil søkefeltet i hjelperuten bare gjelde innhold som er publisert på nettstedet [Docs.microsoft.com](/dynamics365/business-central).
+> I nåværende versjon av [!INCLUDE [prod_short](includes/prod_short.md)] vil søkefeltet i hjelperuten bare gjelde innhold som er publisert til [Dynamics 365 Business Central-dokumentasjonen](/dynamics365/business-central) på Microsoft Learn.
 
 ## <a name="help--support-page"></a>Hjelp og støtte-siden
 
@@ -83,7 +83,7 @@ Delen **Finn den** inneholder to koblinger til produkthjelpen:
 
 - Hjelp om siden du nettopp viste i [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Denne kobloingen genereres automatisk. Hvis [!INCLUDE[prod_short](includes/prod_short.md)] ikke kan finne den relevante koblingen, vises [Docs.microsoft.com](index.md) for standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis siden for eksempel var en del av en app som ikke har lagt til kontekst avhengig hjelp tilordning til [!INCLUDE[prod_short](includes/prod_short.md)], settes koblingen *Lær* til målsiden som standard.  
+  Denne kobloingen genereres automatisk. Hvis [!INCLUDE[prod_short](includes/prod_short.md)] ikke kan finne den relevante koblingen, vises [målsiden på Microsoft Learn](index.md) for standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis siden for eksempel var en del av en app som ikke har lagt til kontekst avhengig hjelp tilordning til [!INCLUDE[prod_short](includes/prod_short.md)], settes koblingen *Lær* til målsiden som standard.  
   
 - Hjelp-målside for [!INCLUDE[prod_short](includes/prod_short.md)]  
 

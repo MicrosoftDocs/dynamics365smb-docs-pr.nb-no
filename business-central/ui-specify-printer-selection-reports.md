@@ -1,6 +1,6 @@
 ---
 title: Konfigurere skrivere
-description: Lær om hvordan du konfigurerer skrivere du kan bruke til rapporter og dokumenter, og hvilke ulike utskriftsfunksjoner som er tilgjengelige i Business Central.
+description: Lær om hvordan du konfigurerer skrivere for rapporter og dokumenter, og hvilke utskriftsfunksjoner som er tilgjengelige i Business Central.
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
@@ -8,18 +8,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: online printing, email printing, cloud printing, Universal Print
 ms.search.form: 2650, 2750, 2752, 2753, 2754, 8900,
-ms.date: 06/24/2021
+ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: c1b55f213ad738deb03a5f13afccbc8f4bac10b2
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.openlocfilehash: 07cda9c796a08436dc48d623f64fcc1252305a14
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585706"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607746"
 ---
 # <a name="set-up-printers"></a>Konfigurere skrivere
 
-Utskrift av dokumenter og rapporter fra [!INCLUDE[prod_short](includes/prod_short.md)] er en viktig oppgave for forretningsbrukere. Brukere vil vanligvis sende utskriftsjobber direkte til en av skriverne i organisasjonen uansett hvilken [!INCLUDE[prod_short](includes/prod_short.md)]-klient eller -app de bruker. Ettersom [!INCLUDE[prod_short](includes/prod_short.md)] Online er en skytjeneste, kan den ikke kommunisere direkte med lokale skrivere som er koblet til brukernes enheter, men den kan koble til skyaktiverte skrivere.
+Utskrift av dokumenter og rapporter fra [!INCLUDE[prod_short](includes/prod_short.md)] er en viktig oppgave for forretningsbrukere. Du vil vanligvis sende utskriftsjobber direkte til en av skriverne i organisasjonen uansett hvilken [!INCLUDE[prod_short](includes/prod_short.md)]-klient eller -app du bruker. Ettersom [!INCLUDE[prod_short](includes/prod_short.md)] Online er en skytjeneste, kan den ikke kommunisere direkte med lokale skrivere som er koblet til brukernes enheter, men du kan koble til skyaktiverte skrivere.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tilbyr følgende funksjoner for å støtte dine utskriftsbehov:
 
@@ -30,7 +30,7 @@ Utskrift av dokumenter og rapporter fra [!INCLUDE[prod_short](includes/prod_shor
 |Utskrift fra nettleser|Utskriftsjobber håndteres av utskriftsfunksjonaliteten i brukerens nettleser. Hvis en skyskriver ikke er installert og konfigurert, eller hvis en installert skriver mislykkes, blir utskriftsalternativene automatisk angitt for leseren. Feltet **Skriver** på forespørselssiden vil vise *(Håndteres av nettleseren)*.|![fungerer online](media/check.png)|||
 
 > [!NOTE]
-> [!INCLUDE[prod_short](includes/prod_short.md)] støtter også egen definerte skriverinnstillinger som legger til enda flere utskriftsfunksjoner. Hvis det er installert egendefinerte skrivere, kan det derfor hende at programmet inneholder utskriftsfunksjoner som ikke er beskrevet i denne artikkelen. 
+> [!INCLUDE[prod_short](includes/prod_short.md)] støtter også andre egendefinerte skriverinnstillinger som legger til enda flere utskriftsfunksjoner. Hvis du har noen egendefinerte skrivere installert, kan det derfor hende at programmet inneholder utskriftsfunksjoner som ikke er beskrevet i denne artikkelen. 
 
 ## <a name="set-up-universal-print"></a>Konfigurere Universell utskrift
 
@@ -50,29 +50,30 @@ Hele installasjonsprogrammet krever at du arbeider både i Microsoft Azure, ved 
 
 **For [!INCLUDE[prod_short](includes/prod_short.md)]**
 
-- Lanseringsbølge 1 eller nyere for [!INCLUDE[prod_short](includes/prod_short.md)] 2021
-- Utvidelsen **Integrering med Universell utskrift** er installert
+- Lanseringsbølge 1 eller nyere for [!INCLUDE[prod_short](includes/prod_short.md)] 2021.
+- Utvidelsen **Integrering med Universell utskrift** er installert.
 
-    Denne utvidelsen publiseres og installeres som standard som en del av [!INCLUDE[prod_short](includes/prod_short.md)] Online og lokalt.  Du kan kontrollere om den er installert på siden **Administrasjon av utvidelse**. Hvis du vil ha mer informasjon, kan du se [Installere og avinstallere utvidelser i Business Central](ui-extensions-install-uninstall.md).
+    Denne utvidelsen publiseres og installeres som standard som en del av [!INCLUDE[prod_short](includes/prod_short.md)] Online og lokalt. Du kan kontrollere om den er installert på siden **Administrasjon av utvidelse**. Finn ut mer under [Installer og avinstaller utvidelser i Business Central](ui-extensions-install-uninstall.md).
+
 - [!INCLUDE[prod_short](includes/prod_short.md)] lokalt:
-  - Azure Active Directory (AD) eller NavUserPassword-godkjenning er konfigurert
-  - En applikasjon for Business Central er registrert i Azure AD-leieren og [!INCLUDE[prod_short](includes/prod_short.md)]
+  - Azure Active Directory (AD) eller NavUserPassword-godkjenning er konfigurert.
+  - En applikasjon for Business Central er registrert i Azure AD-leieren og [!INCLUDE[prod_short](includes/prod_short.md)].
 
-      På samme måte som andre Azure-tjenester som arbeider med [!INCLUDE[prod_short](includes/prod_short.md)], krever Universell utskrift en appregistrering for [!INCLUDE[prod_short](includes/prod_short.md)] i Azure Active Directory (Azure AD). Appregistreringen tilbyr godkjennings- og autorisasjonstjenester mellom [!INCLUDE[prod_short](includes/prod_short.md)] og Universell utskrift.
+      På samme måte som andre Azure-tjenester som arbeider med [!INCLUDE[prod_short](includes/prod_short.md)], krever Universell utskrift en appregistrering for [!INCLUDE[prod_short](includes/prod_short.md)] i Azure AD. Appregistreringen tilbyr godkjennings- og autorisasjonstjenester mellom [!INCLUDE[prod_short](includes/prod_short.md)] og Universell utskrift.
 
       Det kan hende at distribusjonen allerede bruker en appregistrering for andre Azure-tjenester, for eksempel Power BI. I så fall kan du også bruke den eksisterende programregistreringen for Universell utskrift, i stedet for å legge til en ny. Det eneste du trenger å gjøre, er å endre appregistreringen slik at den inneholder de relevante utskriftstillatelsene for Microsoft Graph API.
 
-      Slik registrerer du en app som angir de riktige tillatelsene, følger du fremgangsmåten som er beskrevet i [Registrere en applikasjon i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
+      Slik registrerer du en app og angir de riktige tillatelsene, følger du fremgangsmåten som er beskrevet i [Registrere en applikasjon i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
 
 **For Universell utskrift**
 
 - Abonnement/lisens for Universell utskrift for organisasjonen.
 
-    Hvis du vil ha mer informasjon, kan du se [Lisens for Universell utskrift](/universal-print/fundamentals/universal-print-license).
+    Finn ut mer under [Lisens for Universell utskrift](/universal-print/fundamentals/universal-print-license).
 
 - Du har rollene **Utskriftsbehandling** og **Global administrator** i Azure.
 
-    Hvis du skal administrere Universell utskrift, må kontoen din ha rollene **Utskriftsbehandling** og **Global administrator** i Azure AD. Disse rollene er bare nødvendige for administrasjon av Universell utskrift. De er ikke nødvendige for brukere å bruke skriverne fra [!INCLUDE[prod_short](includes/prod_short.md)].
+    Hvis du skal administrere Universell utskrift, må kontoen din ha rollene **Utskriftsbehandling** og **Global administrator** i Azure AD. Disse rollene er bare nødvendige for administrasjon av Universell utskrift. De er ikke nødvendige av de som bruker skriverne fra [!INCLUDE[prod_short](includes/prod_short.md)].
 
 ### <a name="set-up-universal-print-and-add-printers-in-microsoft-azure"></a>Konfigurere Universell utskrift og legge til skrivere i Microsoft Azure
 
@@ -84,17 +85,17 @@ Hvis du vil ha detaljerte instruksjoner om hvordan du konfigurerer, kan du se [K
 
     Hvordan du tilordner lisensen, avhenger av om du integrerer med Business Central Online eller lokalt.
 
-    - Med [!INCLUDE[prod_short](includes/prod_short.md)] Online kan du tilordne lisenser ved hjelp av administrasjonssenteret i Microsoft 365.
+    - Med [!INCLUDE[prod_short](includes/prod_short.md)] Online kan du tildele lisenser ved hjelp av administrasjonssenteret i Microsoft 365.
 
-      Hvis du vil ha mer informasjon, kan du se [Hjelp for administrasjonssenteret i Microsoft – Tilordne lisenser til brukere](/microsoft-365/admin/manage/assign-licenses-to-users).
+      Finn ut mer under [Hjelp for administrasjonssenteret i Microsoft – Tildel lisenser til brukere](/microsoft-365/admin/manage/assign-licenses-to-users).
 
     - Med [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan du tilordne lisenser i Azure-leieren ved hjelp av Azure-portalen.
 
-      Hvis du vil ha mer informasjon, kan du se [Azure Directory – Tilordne eller fjerne lisenser i Azure Active Directory-portalen](/azure/active-directory/fundamentals/license-users-groups).
+      Finn ut mer under [Azure Directory – Tilordne eller fjerne lisenser i Azure Active Directory-portalen](/azure/active-directory/fundamentals/license-users-groups).
 
 2. Installer koblingen for Universell utskrift for å registrere skrivere som ikke kan kommunisere med Universell utskrift direkte.
 
-    De fleste skrivere som er i markedet, kan ikke kommunisere med Universell utskrift direkte. Du må installere koblingen Universell utskrift for disse skriverne. Hvis du vil ha mer informasjon, kan du se [Installere koblingen Universell utskrift](/universal-print/fundamentals/universal-print-connector-installation).
+    De fleste skrivere på markedet kan ikke kommunisere med Universell utskrift direkte, så du må installere koblingen Universell utskrift. Finn ut mer under [Installere koblingen Universell utskrift](/universal-print/fundamentals/universal-print-connector-installation).
 
 3. Registrer skriverne i Universell utskrift.
 
@@ -104,42 +105,42 @@ Hvis du vil ha detaljerte instruksjoner om hvordan du konfigurerer, kan du se [K
 
     - For andre skrivere kan du registrere skriverne ved å bruke koblingen Universell utskrift. 
 
-      Hvis du vil ha mer informasjon, kan du se [Skriverregistrering](/universal-print/fundamentals/universal-print-connector-printer-registration).
+      Finn ut mer under [Skriverregistrering](/universal-print/fundamentals/universal-print-connector-printer-registration).
 
 4. Endre skriveregenskaper (valgfritt)
 
     Når en skriver er registrert, kan du vise og endre skriveregenskaper, for eksempel standardinnstillinger.
 
-    Hvis du vil ha mer informasjon, kan du se [Administrere skriverinnstillinger ved hjelp av portalen for Universell utskrift](/universal-print/portal/configure-printer-settings).
+    Finn ut mer under [Administrere skriverinnstillinger ved hjelp av portalen for Universell utskrift](/universal-print/portal/configure-printer-settings).
 
 5. Del skriverne.
 
     Alle skrivere du vil bruke i [!INCLUDE[prod_short](includes/prod_short.md)], må deles i Universell utskrift.
 
-    <!--For more information, see [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
+    <!--Learn more at [Share a Printer](/universal-print/fundamentals/universal-print-printer-permissions#share-a-printer). -->
 
-    Hvis du vil ha mer informasjon, kan du se [Del en skriver](/universal-print/portal/share-printers).
+    Finn ut mer under [Del en skriver](/universal-print/portal/share-printers).
 
 6. Gi brukere tilgang til de delte skriverne.
 
-    <!--For more information, see [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
+    <!--Learn more at [Printer Permissions](/universal-print/fundamentals/universal-print-printer-permissions#printer-permissions).-->
 
-    Hvis du vil ha mer informasjon, kan du se [Skrivertillatelser](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
+    Finn ut mer under [Skrivertillatelser](/universal-print/portal/share-printers#configure-user-permissions-for-a-printer-share).
 
 
 7. Aktiver dokumentkonvertering.
 
     Universell utskrift gjengir innhold for utskrift i XPS-format. Noen eldre skrivere i markedet støtter ikke gjengivelse av XPS-innhold, i mange tilfeller bare PDF-format. Utskrift til slike skrivere vil mislykkes med mindre Universell utskrift konfigureres til å konvertere dokumenter til formatet som støttes av skriveren.
 
-    Hvis du vil ha mer informasjon, kan du se [Oversikt over dokumentkonvertering](/universal-print/portal/document-conversion).
+    Finn ut mer under [Oversikt over dokumentkonvertering](/universal-print/portal/document-conversion).
 
 Nå er du klar til å legge til skriverne i [!INCLUDE[prod_short](includes/prod_short.md)], konfigurerer du standardskrivere for rapporter og utskrift.  
 
 ### <a name="add-universal-print-printers-to-business-central"></a>Legge til skrivere for Universell utskrift i Business Central
 
-Når skrivere er satt opp og delt med Universell utskrift, er du klar til å bruke dem i Business Central. Du kan legge til skrivere for Universell utskrift på to måter. Du kan legge til skriverne samtidig eller enkeltvis, én om gangen.
+Når skrivere er satt opp og delt med Universell utskrift, er du klar til å legge dem til i Business Central. Du kan legge til skrivere for Universell utskrift på to måter. Du kan legge til skriverne samtidig eller enkeltvis, én om gangen.
 
-Når du legger til skrivere enkeltvis, kan du konfigurere den samme skriveren for Universell utskrift i Business Central mer enn én gang. Deretter kan du endre utskriftsinnstillingene, for eksempel papirskuff, størrelse og sideretning, for hver ekstra skriver. På denne måten kan du sette opp skrivere for ulike rapporter og dokumenter som har spesielle krav til utdata.
+Når du legger til skrivere enkeltvis, kan du konfigurere den samme skriveren for Universell utskrift i Business Central mer enn én gang. Deretter kan du endre utskriftsinnstillingene, for eksempel papirskuff, størrelse og sideretning, for hver ekstra skriver. På denne måten kan du sette opp skrivere for ulike rapporter og dokumenter med spesielle krav til utdata.
   
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
 
@@ -160,7 +161,7 @@ Når du legger til skrivere enkeltvis, kan du konfigurere den samme skriveren fo
     > [!NOTE]
     > For lokale forekomster vises siden TILLATELSER FOR AZURE ACTIVE DIRECTORY-TJENESTEN hvis dette er første gang du kobler til Universal utskrift, og du blir bedt om å gi samtykke til Azure-tjenester. Du trenger bare å gi samtykke én gang.
 
-Når du har lagt til en skriver, kan du vise og endre innstillingene fra **Utskriftsbehandling**. Det er bare å velge skriveren, og deretter velger du **Rediger skriverinnstillinger**. 
+Når du har lagt til en skriver, kan du vise og endre innstillingene fra siden **Utskriftsbehandling**. Det er bare å velge skriveren, og deretter velger du **Rediger skriverinnstillinger**. 
 
 <!--
 ### Troubleshooting
@@ -183,9 +184,9 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 ## You don't have access to the printer
 
-- You have not been assigned a Up license
+- You have not been assigned an UP license
 - You have not been given access to the printer in UP.
-- (On-prem) The app registration has been broken
+- (On-premises) The app registration has been broken.
 -->
 ## <a name="set-up-email-print"></a>Konfigurere e-postutskrift
 
@@ -194,12 +195,12 @@ There is a technical problem withe the printer. Unsupported document-format: app
 - Lanseringsbølge 1 eller nyere for [!INCLUDE[prod_short](includes/prod_short.md)] 2020
 - Utvidelsen **Sende til e-postskriver** blir installert
 
-    Denne utvidelsen er installert som standard. Hvis du vil ha mer informasjon om installasjon av utvidelser, kan du se 
+    Denne utvidelsen er installert som standard. Hvis du vil finne ut mer om installasjon av utvidelser, kan du se<!--see what?--> 
 - E-postfunksjonalitet er konfigurert.
 
-   Hvis du vil ha mer informasjon, kan du se [Konfigurer e-post](admin-how-setup-email.md).
+   Finn ut mer under [Definer e-post](admin-how-setup-email.md).
 
-### <a name="add-an-email-printer"></a>Legge til en e-postskriver
+### <a name="add-an-email-printer"></a>Legg til en e-postskriver
 
 Siden **Utskriftsbehandling** viser skriverne som for øyeblikket er konfigurert. På denne siden får du også tilgang til siden **Innstillinger** for hver skriver for å redigere et eksisterende oppsett eller konfigurere en ny skriver.
 
@@ -216,8 +217,7 @@ Siden **Utskriftsbehandling** viser skriverne som for øyeblikket er konfigurert
 
 Hvis du bruker utvidelsen E-postskriver, vil alle eller enkelte utskriftsjobber bli sendt til e-postadressen du har konfigurert for skriveren. Det anbefales på det sterkeste at en unik e-post-ID knyttes til en skriverenhet med bare de offisielle tjenestene fra maskinvareprodusenten, for eksempel HP ePrint, KonicaMinolta EveryonePrint eller Epson E-Mail Printing.
 
-Ta alle nødvendige forholdsregler for personvern, inkludert å sørge for at utskriftsløsningen for e-post har riktig konfigurerte tillatelser, personverninnstillinger og oppbevaringspolicyer. Det er ditt ansvar å oppgi en riktig, bekreftet og fungerende e-postadresse. Hvis du vil ha mer informasjon, kan du se [Personvernerklæring for Microsoft](https://privacy.microsoft.com/privacystatement).
-
+Ta alle nødvendige forholdsregler for personvern, inkludert å sørge for at utskriftsløsningen for e-post har riktig konfigurerte tillatelser, personverninnstillinger og oppbevaringspolicyer. Det er ditt ansvar å oppgi en riktig, bekreftet og fungerende e-postadresse. Finn ut mer under [Microsofts personvernerklæringen](https://privacy.microsoft.com/privacystatement).
 
 ## <a name="set-up-default-printers"></a><a name="default"></a>Konfigurere standardskrivere
 
@@ -225,7 +225,7 @@ Det finnes noen andre måter å konfigurere skrivere på som skal brukes som sta
 
 ### <a name="set-a-printer-as-a-default-printer-for-all-print-jobs"></a>Angi en skriver som standardskriver for alle utskriftsjobber
 
-På siden **Utskriftsbehandling** kan du konfigurere en skriver som standardskriver for alle utskriftsjobber. Du kan bare angi skriveren som standard for deg selv eller for alle brukere.
+Gjennom siden **Utskriftsbehandling** kan du konfigurere en skriver som standardskriver for alle utskriftsjobber. Du kan bare angi skriveren som standard for deg selv eller for alle brukere.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Utskriftsbehandling**, og velg deretter den relaterte koblingen.
 
@@ -243,21 +243,21 @@ På siden **Skrivervalg** kan du angi hvilken skriver en rapport skal bruke som 
 > [!IMPORTANT]
 > For [!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan siden **Skrivervalg** bare brukes for skybaserte skrivere som er definert av skriverutvidelser, for eksempel skrivere for E-postutskrift og Universell utskrift. Den kan ikke brukes for lokale skrivere.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Skrivervalg**, og velg deretter den relaterte koblingen. Fra siden **Utskriftsbehandling** kan du i stedet velge en skriver, og deretter velger du handlingen **Skrivervalg**.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Skrivervalg**, og velg deretter den relaterte koblingen. Alternativt kan du velge en skriver på siden **Utskriftsbehandling** og deretter velge handlingen **Skrivervalg**.
 2. Velg handlingen **Ny** hvis du vil legge til et skrivervalg for en bestemt rapport.
 3. Fyll ut feltene etter behov.
 
 Den angitte rapporten er nå konfigurert slik at den skriver ut til den valgte skriveren som standard.
 
 > [!NOTE]
-> Når du skriver ut den aktuelle rapporten, kan du velge en annen skriver ved hjelp av feltet **Skriv ut** på forespørselssiden.
+> Når du skriver ut den aktuelle rapporten, kan du velge en annen skriver ved hjelp av feltet **Skriv ut** på rapportforespørselssiden.
 
 > [!NOTE]
 > Hvis du ikke definerer en rapport for en bestemt skriver på siden **Skrivervalg**, blir den skrevet ut på standardskriveren til selskapet, som definert på siden **Utskriftsbehandling**.
 
 Du eller administratoren kan også bruke siden **Skrivervalg** til å definere andre variasjoner av utskrift for brukere og rapporter. Tabellen nedenfor beskriver kombinasjonen av verdier for å angi et annet utskriftsoppsett for en rapport.
 
-|Hvis du vil                                                 |Angi følgende verdier                                             |
+|Til                                                 |Angi følgende verdier                                             |
 |---------------------------------------------------|---------------------------------------------------------------------|
 |Skrive ut en rapport på en bestemt skriver for alle brukere |Angi verdier i feltene **Rapport-ID** og **Skrivernavn**, og la feltet **Bruker-ID** stå tomt.|
 |Skrive ut alle rapporter på en bestemt skriver til en bestemt bruker|Angi verdier i feltene **Bruker-ID** og **Skrivernavn**, og la feltet **Rapport-ID** stå tomt. Denne oppføringen gjør det samme som handlingen **Angi som min standardskriver** på siden **Utskriftsbehandling**.|
@@ -270,13 +270,13 @@ Du eller administratoren kan også bruke siden **Skrivervalg** til å definere a
 
 ### <a name="choosing-the-printer-when-running-a-report"></a>Velg skriveren når du kjører en rapport
 
-I stedet for å bruke standardskriveren når du kjører en rapport, kan du overstyre denne innstillingen fra forespørselssiden. Velg ganske enkelt hvilken skriver du vil bruke til denne aktiveringen av rapporten, på rullegardinmenyen **Skriver**.
+I stedet for å bruke standardskriveren når du kjører en rapport, kan du overstyre denne innstillingen fra forespørselssiden. Velg ganske enkelt hvilken skriver du vil bruke til denne rapportgenereringen, på rullegardinmenyen **Skriver**.
 
 ### <a name="sizing-print-jobs"></a>Endre størrelse på utskriftsjobber
 
 Skyutskrifter er utformet for dokumenter med en fornuftig størrelse. De fleste skytjenester, inkludert PrintNode og HP ePrint, har en grense på 10 MB per jobb. Hvis du må skrive ut store rapporter, må du kanskje dele dem opp i flere utskrifter.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/).
 
 ## <a name="see-also"></a>Se også
 
@@ -284,6 +284,5 @@ Skyutskrifter er utformet for dokumenter med en fornuftig størrelse. De fleste 
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Kjøre kjørsler](ui-how-run-batch-jobs.md)  
 [Send dokumenter i e-post](ui-how-send-documents-email.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

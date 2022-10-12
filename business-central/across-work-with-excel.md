@@ -9,16 +9,16 @@ ms.workload: na
 ms.search.keywords: accountant, accounting, financial report
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 82d08e1c072f74434ad50943a97baf77712cb171
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 1348066d757abc9768fe97fd6b5f7a337f96c5f6
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529410"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607130"
 ---
 # <a name="viewing-and-editing-in-excel-from-business-central"></a>Vise og redigere i Excel fra Business Central
 
-Med sider som viser en oversikt over poster i rader og kolonner, som en liste over kunder, ordrer eller fakturaer, kan du også eksportere listen til Microsoft Excel og vise den der. Avhengig av hvilken side du har, kan du vise to alternativer i Excel. Begge alternativene er tilgjengelige fra **Del**-ikonet ![Del en side i en annen app.](media/share-icon.png) øverst på en side. Du kan enten velge **Åpne i Excel**-handling eller **Rediger i Excel**-handlingen på siden. Denne artikkelen forklarer forskjellen mellom de to handlingene.
+Med sider som viser en oversikt over poster i rader og kolonner, som en liste over kunder, ordrer eller fakturaer, kan du også eksportere listen til Microsoft Excel og vise den der. Avhengig av hvilken side du har, kan du vise to alternativer i Excel. Begge alternativene er tilgjengelige fra **Del**-ikonet ![Del en side i en annen app.](media/share-icon.png) øverst på en side. Du kan enten velge **Åpne i Excel**-handling eller **Rediger i Excel**-handlingen på siden. Denne artikkelen beskriver de to handlingene.
 
 ## <a name="open-in-excel"></a>Åpne i Excel
 
@@ -27,8 +27,7 @@ Med handlingen **Åpne i Excel** kan du gjøre endringer i postene i Excel, men 
 - Med denne handlingen respekterer Excel filtre på siden som avgrenser postene som vises. Excel-arbeidsboken inneholder de samme radene og kolonnene som vises på siden i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 - Denne handlingen fungerer både i Windows- og macOS.
-
-- Fra og med oppdatering 18.3 kan du også vise lister som vises i sidedeler, for eksempel linjene i en ordre. 
+- [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
 > [!NOTE]
 > For [!INCLUDE[prod_short](includes/prod_short.md)] lokalt er handlingen **Åpne i Excel** tilgjengelig som standard. Hvis du konfigurerer [!INCLUDE[prod_short](includes/prod_short.md)] lokalt for redigering av data i Excel, erstattes handlingen **Åpne i Excel** med handlingen **Rediger i Excel**.
@@ -42,11 +41,20 @@ Handlingen **Rediger i Excel** er tilgjengelig i de fleste listene, men ikke all
 - Med denne handlingen respekterer Excel de fleste filtre på siden som begrenser postene som vises, slik at Excel-arbeidsboken vil inneholde nesten de samme postene og kolonnene.
 
 - Du får de siste dataene fra [!INCLUDE[prod_short](includes/prod_short.md)] ved å velge **Oppdater** i ruten Excel-tillegg.
+- [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
-- Du kan bytte ut selskapet du arbeider med. Hvis du vil bytte selskap, velger du ikonet **Alternativer** ![Alternativer for Excel-tillegg.](media/cogwheel.png "Alternativer for Excel-tillegg") i ruten Excel-tillegg og velger selskapet fra feltet **Selskap**.  
+### <a name="first-time-sign-in"></a>Første pålogging
 
-    > [!IMPORTANT]
-    > Når du endrer firmaet, må du sørge for at **Miljø**-feltet ikke er tomt. Hvis det er det, setter du det til ett av de tilgjengelige alternativene. Hvis ikke, vil ikke tillegget fungere som det skal.  
+Handlingen **Rediger i Excel** krever at Business Central-tillegget er installert i Excel. I noen tilfeller har administratoren kanskje ordnet det slik at tillegget installeres automatisk. I dette tilfellet må du bare logge deg på Business Central i ruten **Excel-tillegg** med brukernavn og passord. Ellers åpnes ruten **Ny Office-tillegg**. Hvis du vil installere tillegget, velger du **Klarer dette tillegget**, noe som installerer tillegget direkte fra Office store.
+
+Hvis tillegget ikke blir installert, kontakter du administratoren eller prøver å installere det manuelt. Hvis du vil ha mer informasjon, kan du se [Installer tillegget manuelt for egen bruk](admin-deploy-excel-addin.md#install).
+
+### <a name="work-across-environments-and-companies"></a>Arbeide på tvers av miljøer og selskaper
+
+Du kan bytte ut selskapet du arbeider med. Hvis du vil bytte selskap, velger du ikonet **Alternativer** ![Alternativer for Excel-tillegg.](media/cogwheel.png "Alternativer for Excel-tillegg") i ruten Excel-tillegg og velger selskapet fra feltet **Selskap**.  
+
+> [!IMPORTANT]
+> Når du endrer firmaet, må du sørge for at **Miljø**-feltet ikke er tomt. Hvis det er det, setter du det til ett av de tilgjengelige alternativene. Hvis ikke, vil ikke tillegget fungere som det skal.  
 
 Hvis du gjør endringer i tillegget, må du laste det inn på nytt for å oppdatere tilkoblingen. Du kan laste inn på nytt ved å bruke menyen for ![tillegg i Excel](media/excel-addin-menu.png "Meny for Excel-tillegg") øverst til høyre for tillegget. Hvis du ikke kan laste inn tillegget, kontakter du systemansvarlig. Hvis du er administrator, kan du se [Hent Business Central-tillegget for Excel](admin-deploy-excel-addin.md).
 
@@ -55,20 +63,9 @@ Hvis du gjør endringer i tillegget, må du laste det inn på nytt for å oppdat
 >
 > For [!INCLUDE[prod_short](includes/prod_short.md)] lokalt er handlingen **Rediger i Excel** bare tilgjengelig hvis Excel-tillegget er konfigurert av systemansvarlig, og den er bare tilgjengelig for webklienten. For administratorer, hvis du vil vite hvordan du installerer Excel-tilleggskomponenten, se [Definere Excel-tillegget for redigering av Business Central-data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
+### <a name="limits-when-using-excel-for-the-web"></a>Begrensninger når du bruker Excel for nettet 
 
-<!-- Note for later: here we're immediately jumping to pretty advanced topics like changing company or reloading the addin. Fine to keep them for now. In the future, we will first need to explain in more detail the actual functionality of the addin, primarily these sub-sections:
-
-Refreshing record data in Excel
-Editing and publishing back to Business Central
-Creating new records from Excel
-Crafting your own editable Excel.
-Point (4) is where it gets interesting for changing/specifying company, environment and other connection settings-->
-
-### <a name="first-time-sign-in"></a>Første pålogging
-
-Handlingen **Rediger i Excel** krever at Business Central-tillegget er installert i Excel. I noen tilfeller har administratoren kanskje ordnet det slik at tillegget installeres automatisk. I dette tilfellet må du bare logge deg på Business Central i ruten **Excel-tillegg** med brukernavn og passord. Ellers åpnes ruten **Ny Office-tillegg**. Hvis du vil installere tillegget, velger du **Klarer dette tillegget**, noe som installerer tillegget direkte fra Office store.
-
-Hvis tillegget av en eller annen grunn ikke blir installert, kontakter du administratoren eller prøver å installere det manuelt. Hvis du vil ha mer informasjon, kan du se [Installer tillegget manuelt for egen bruk](admin-deploy-excel-addin.md#install).
+Når **Rediger i Excel** brukes på listesider for tabeller med mange kolonner, kan den resulterende arbeidsboken inneholde for mange kolonner for at filen kan vises i Excel for nettet. [!INCLUDE[prod_short](includes/prod_short.md)] begrenser automatisk den eksporterte arbeidsboken til 100 kolonner når OneDrive er konfigurert for systemfunksjoner. 
 
 ## <a name="see-the-differences-between-the-options"></a>Se forskjellene mellom alternativene
 <br><br>  

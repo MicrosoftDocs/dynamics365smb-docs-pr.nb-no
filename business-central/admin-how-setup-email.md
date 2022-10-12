@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: SMTP, email, Office 365, connector
 ms.search.form: 1805, 9813, 9814, 1262, 1263
-ms.date: 02/06/2022
+ms.date: 08/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: 22bd7fcf0eff9b3f7c41975a32127d9d482c42cc
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 44a590997d7c0ddaa342861068b818bf905f9c5b
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534295"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606390"
 ---
 # <a name="set-up-email"></a>Konfigurer e-post
 Personer i bedrifter sender informasjon og dokumenter, for eksempel ordrer og bestillinger og fakturaer, per e-post hver dag. Administratoren kan koble en eller flere e-postkontoer til [!INCLUDE[prod_short](includes/prod_short.md)], slik at du kan sende dokumenter uten å måtte åpne en e-postapp. Du kan lage hver enkelt melding individuelt med grunnleggende formateringsverktøy, for eksempel skrifter, stiler, farger og så videre, og legge til vedlegg på opptil 100 MB. Med rapportoppsett kan administratorer ta med bare nøkkelinformasjonen fra dokumenter. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md).
@@ -73,7 +73,9 @@ Den assisterte oppsettveiledningen **Konfigurer e-post** kan hjelpe deg raskt i 
 is this still true?-->
 ## <a name="assign-email-scenarios-to-email-accounts"></a>Tilordne e-postscenarier til e-postkontoer
 E-postscenarioer er prosesser som omfatter sending av et dokument. Det kan for eksempel være en salgordre eller bestilling eller et varsel, for eksempel en invitasjon til en ekstern regnskapsfører. Bestemte e-postkontoer kan brukes for bestemte scenarioer. Du kan for eksempel angi at alle brukerne alltid sender salgsdokumenter fra en konto, kjøpsdokumenter fra en annen og lager- eller produksjonsdokumenter fra en tredje konto. Du kan tildele, tildele på nytt og fjerne scenarioer når du vil. Et scenario kan bare tildeles én e-postkonto om gangen. Standard e-postkonto blir brukt i alle scenarioer som ikke er tildelt en konto.
- 
+
+På siden **Tilordning av e-postscenario** kan du velge handlingen **Angi standardvedlegg** for å legge til vedlegg i e-postscenarioer. Vedleggene er alltid tilgjengelige når du setter en e-postmelding for et dokument som er knyttet til scenariet. Hvert e-postscenario kan ha ett eller flere standard vedlegg. Standardvedlegg legges automatisk til e-post i e-postscenarioet. Når du for eksempel sender en salgsordre per e-post, legges standardvedlegget som er angitt for salgsordrescenarioet, til. Standardvedlegg vises i **Vedlegg**-delen nederst på siden **Skriv en e-postmelding**. Du kan legge til ikke-standard vedlegg i e-posten manuelt.
+
 <!--
 ## To set up email
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
@@ -101,7 +103,7 @@ Velg en bruker i **E-postvisningspolicyer for bruker**, og velg deretter et av f
 >  Hvis du lar feltet **Bruker-ID** stå tomt og deretter velger handlingen E-postvisningspolicy, gjelder policyen du definerer for alle brukerne.
 
 ## <a name="set-up-reusable-email-texts-and-layouts"></a>Definer gjenbrukbare e-posttekster og -oppsett
-Du kan bruke rapporter til å ta med viktig informasjon fra salgs- og kjøpsdokumenter i tekster for e-poster. Denne fremgangsmåten beskriver hvordan du konfigurerer rapporten **Salg – faktura** for bokførte salgsfakturaer, men prosessen er lik for andre rapporter.
+Du kan bruke rapporter til å ta med viktig informasjon fra salg, kjøp og servicedokumenter i tekster for e-poster. Denne fremgangsmåten beskriver hvordan du konfigurerer rapporten **Salg – faktura** for bokførte salgsfakturaer, men prosessen er lik for andre rapporter.
 
 > [!NOTE]
 > Hvis du vil bruke oppsettet til å lage innhold i e-postmeldinger, må du bruke Word-filtypen for oppsettet.

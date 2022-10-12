@@ -4,18 +4,18 @@ ms.service: dynamics365-business-central
 ms.topic: include
 ms.date: 03/22/2022
 ms.author: edupont
-ms.openlocfilehash: f574fbb444752b1c8b0761df80dbfdc98e8123e6
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 83453858afb9cbaa893252e712fa408b27483b45
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531678"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607611"
 ---
 - En kobling for gjeldende side
 
   Øverst i ruten viser et kort en kort beskrivelse av gjeldende side, hvis det finnes en. Hvis det ikke finnes noen sidebeskrivelse, gir kortet en enkelt kobling til en artikkel om siden.  
 
-  Hvis [!INCLUDE[prod_short](prod_short.md)] ikke finner den relevante koblingen, vises målsiden i [Microsoft Docs](/dynamics365/business-central). Hvis for eksempel siden var en del av en app som ikke har lagt til kontekstavhengig hjelpetildeling i [!INCLUDE[prod_short](prod_short.md)], settes *Learn-koblingen* til målsidesiden som standard.  
+  Hvis [!INCLUDE[prod_short](prod_short.md)] ikke kan finne den relevante koblingen, viser vi målsiden i [Microsoft Learn](/dynamics365/business-central). Hvis siden for eksempel var en del av en app som ikke har lagt til kontekst avhengig hjelp tilordning til [!INCLUDE[prod_short](prod_short.md)], settes koblingen *Lær* til målsiden som standard.  
 
 - Koblinger til relaterte artikler
 

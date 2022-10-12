@@ -9,23 +9,38 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 5e485827ed5fb5fcef9a807650993734099377de
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
+ms.openlocfilehash: 7683c301131fa5729d74e1c6ef70880db7f3327d
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382288"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607341"
 ---
 # <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse"></a>Sette opp brukerkontoer for integrasjon med Microsoft Dataverse
 
+Denne artikkelen gir en oversikt over hvordan du definerer brukerkontoene som er nødvendige for å integrere [!INCLUDE[prod_short](includes/cds_long_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)].
 
-Denne artikkelen gir en oversikt over hvordan du definerer brukerkontoene som er nødvendige for å integrere [!INCLUDE[prod_short](includes/cds_long_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)].  
+## <a name="set-up-the-administrator-user-account"></a>Sette opp administratorbrukerkontoen
 
-## <a name="setting-up-the-administrator-user-account"></a>Sette opp administratorbrukerkontoen
-Du må legge til administratorkontoen din for [!INCLUDE[prod_short](includes/prod_short.md)] som en bruker i [!INCLUDE[prod_short](includes/cds_long_md.md)]. Når du konfigurerer tilkoblingen mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)], vil denne kontoen bli brukt én gang til å installere og konfigurere noen nødvendige komponenter. 
+Du må legge til administratorkontoen din for [!INCLUDE[prod_short](includes/prod_short.md)] som en bruker i [!INCLUDE[cds_long](includes/cds_long_md.md)]. Når du konfigurerer tilkoblingen mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)], vil denne kontoen bli brukt én gang til å installere og konfigurere noen nødvendige komponenter.
+
+> [!IMPORTANT]
+> Administrator-brukerkontoen må være lisensiert bruker med sikkerhetsrollen **Systemansvarlig** i [!INCLUDE[prod_short](includes/cds_long_md.md)]-miljøet og den globale administratoren for leieren som miljøet tilhører. Denne kontoen trenger ikke lisens for [!INCLUDE[prod_short](includes/prod_short.md)], ettersom den bare skal brukes til å klargjøre tjenesten i [!INCLUDE[prod_short](includes/cds_long_md.md)]-leieren og sette opp konfigurasjonsoppgaver.
+>
+> Når tilkoblingsoppsettet er fullført, kan du fjerne denne [!INCLUDE[prod_short](includes/cds_long_md.md)]-brukeren. Integrasjonen fortsetter å bruke brukerkontoen som automatisk er opprettet spesielt for integrasjonen.
 
 ## <a name="permissions-and-security-roles-for-user-accounts-in-prod_short"></a>Tillatelser og sikkerhetsroller for brukerkontoer i [!INCLUDE[prod_short](includes/cds_long_md.md)]
-Når du installerer grunnleggende løsningen for CDS-integrering, konfigureres tillatelser for integrasjonsbrukerkontoen. Hvis disse tillatelsene endres manuelt, kan du tilbakestille dem. Dette kan du gjøre ved å installere den grunnleggende løsningen for CDS-integrering på nytt ved å velge **Distribuer integreringsløsning på nytt** på siden **Tilkoblingsoppsett for Common Data Service**. Sikkerhetsrollen CDS-integrasjon for Business Central blir distribuert.
+
+Baseintegrasjonsløsningen oppretter følgende roller i [!INCLUDE[cds_long](includes/cds_long_md.md)] for integreringen:
+
+* **Integrasjonsadministrator**: Gjør at brukere kan administrere forbindelsen mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long](includes/cds_long_md.md)]. Vanligvis bare dette bare tilordnet til den automatisk opprettede brukerkontoen for synkronisering.
+* **Integrasjonsbruker**: Gjør at brukere får tilgang til synkroniserte data. Normalt tilordnes dette til den automatisk opprettede brukerkontoen for synkronisering og andre brukere som har behov for å vise eller få tilgang til de synkroniserte dataene.
+
+> [!NOTE]
+>
+> Rollene **Integrasjonsadministrator** og **Integrasjonsbruker** må bare brukes av programbrukeren som kjører integreringen. Programbrukeren trenger ikke å ha lisensene [!INCLUDE[prod_short](includes/prod_short.md)] eller [!INCLUDE[cds_long](includes/cds_long_md.md)] tilordnet.
+
+Når du installerer den grunnleggende løsningen, konfigurerer den tillatelser for integrasjonsbrukerkontoen. Hvis disse tillatelsene endres manuelt, kan du tilbakestille dem. Velg siden **Distribuer integreringsløsning på nytt** på siden **Dataverse-tilkoblingsoppsett** for å installere baseintegreringsløsningen på nytt. Dette trinnet distribuerer sikkerhetsrollen Business Central-integrasjon.
 
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)].
@@ -120,9 +135,9 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also"></a>Se også  
+## <a name="see-also"></a>Se også
+
 [Integrere med Microsoft Dataverse](admin-common-data-service.md)  
 [Integrere med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

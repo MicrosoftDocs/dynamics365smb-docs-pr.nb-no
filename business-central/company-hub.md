@@ -7,18 +7,20 @@ ms.search.keywords: accountant, accounting, financial report
 ms.search.form: 1151, 1154, 1165, 1166
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 410e3166674354499e76b9bc5483d66c037c4969
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: 3fdc84068220e16ac82d97ec005d69ec3496d902
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132058"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606174"
 ---
 # <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Administrere arbeid på tvers av flere selskaper i selskapshuben
 
-Noen personer arbeider i flere selskaper i [!INCLUDE [prod_short](includes/prod_short.md)], og noen arbeider også i mer enn én organisasjon, for eksempel eksterne regnskapsførere eller ansatte og ledere i selskaper med flere datterselskaper. For disse brukerne, og mange andre, fungerer selskapshuben som en målside for administrasjon av arbeid på tvers av de forskjellige miljøene de arbeider i, på tvers av selskaper, miljøer og områder.  
+Noen personer arbeider i flere selskaper i [!INCLUDE [prod_short](includes/prod_short.md)], og noen arbeider også i mer enn én organisasjon, for eksempel eksterne regnskapsførere eller ansatte og ledere i selskaper med flere datterselskaper. For disse brukerne, og mange andre, fungerer firmahuben som en målside som gir en økonomisk oversikt over selskaper og miljøer. Den gir brukerne et verktøy for å administrere arbeid på tvers av de forskjellige miljøene de arbeider i, på tvers av selskaper, miljøer og områder.  
 
 Du får tilgang til selskapshuben ved å bytte til **Selskapshub**-rollen i Mine innstillinger eller ved å åpne **Selskapshub**-siden direkte. Du kan gjøre samme arbeid på begge steder, men handlingene er plassert litt forskjellig på menyene.  
+
+[![Viser siden for selskapssenteret som viser alle selskaper.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
 > [!NOTE]
 > Du kan koble selskapssenteret til så mange selskaper du vil. Du kan imidlertid bare koble selskapssenteret til selskaper som er driftet i [!INCLUDE [prod_short](includes/prod_short.md)] på nett.
@@ -63,7 +65,7 @@ I [!INCLUDE [prod_short](includes/prod_short.md)] kan du tilordne oppgaver til d
 
 Du kan sortere etter forfallsdato, for eksempel, eller andre typer data som hjelper deg med å prioritere dagen. Oversikten viser alle aktiviteter som er tilordnet til deg, som standard, men du kan definere filtre for bare å vise oppgaver som for eksempel er merket med høy prioritet.  
 
-For å plukke opp en oppgave, velger du den ganske enkelt fra listen over ventende brukeroppgaver. I båndet åpner **Gå til oppgaveelement**-koblingen siden der du kan gjøre oppgaven.  
+For å plukke opp en oppgave, velger du den fra listen over ventende brukeroppgaver. I båndet åpner **Gå til oppgaveelement**-koblingen siden der du kan gjøre oppgaven.  
 
 Når du har fullført en oppgave, merker du den som fullført.  
 

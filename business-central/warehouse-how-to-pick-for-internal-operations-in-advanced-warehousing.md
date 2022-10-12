@@ -1,34 +1,35 @@
 ---
 title: Plukk for interne operasjoner i avansert lageroppsett
-description: Hvis lokasjonene bruker plukking i tillegg til levering, plukker du komponenter for produksjons- og monteringsaktiviteter på siden Lagerplukking.
-author: SorenGP
+description: Hvis lokasjonene bruker plukking og levering, plukker du komponenter for produksjons-, monterings- og prosjektaktiviteter på siden Lagerplukking.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: a0704d35debbe8cdd7c2be240c6a02759a919795
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 09/02/2022
+ms.author: bholtorf
+ms.openlocfilehash: 2ef879e5dbabb9281114d62a956ad4b10113c199
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531246"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9607557"
 ---
-# <a name="pick-for-production-or-assembly-in-advanced-warehouse-configurations"></a>Plukke for montering eller produksjon i avanserte lageroppsett
+# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Plukke for produksjon, montering eller jobber i avanserte lageroppsett
 
-I avansert lageroppsett der lokasjonen er definert slik at plukking og levering brukes, kan du plukke komponenter for produksjons- og monteringsaktiviteter ved å bruke **Plukk**-siden.  
+I avansert lageroppsett der lokasjonen er definert slik at plukking og levering brukes, kan du plukke komponenter for produksjons- og monteringsaktiviteter på **Plukk**-siden.  
 
-Du kan også bruke siden **Flytteforslag** til å flytte varer mellom hyller ad hoc, noe som betyr uten referanse til et kildedokument. Hvis du vil ha mer informasjon, kan du se [Flytte varer i avanserte lageroppsett](warehouse-how-to-move-items-in-advanced-warehousing.md).  
+Du kan også bruke siden **Flytteforslag** til å spontant flytte varer mellom hyller uten referanse til et kildedokument. Hvis du vil ha mer informasjon, kan du se [Flytte varer i avanserte lageroppsett](warehouse-how-to-move-items-in-advanced-warehousing.md).  
 
-Hvis du vil ha mer informasjon om plukking av varer for interne operasjoner i grunnleggende lagerlokasjoner som er definert for bare plukking, kan du se [Flytte komponenter til et operasjonsområde i enkle lageroppsett](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).  
+Hvis du vil ha mer informasjon om plukking av varer i grunnleggende lagerlokasjoner som er definert for bare plukking, kan du se [Flytte komponenter til et operasjonsområde i enkle lageroppsett](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md).  
 
-Du kan ikke opprette et lagerplukkdokument fra grunnen av fordi en plukkaktivitet alltid er en del av en arbeidsflyt, enten i et pull- eller push-scenario.  
+> [!NOTE]
+> Du kan ikke opprette et lagerplukkdokument fra grunnen av fordi en plukkaktivitet alltid er en del av en arbeidsflyt, enten i et pull- eller push-scenario.  
 
 Du kan opprette lagerplukkdokumentet på en push-måte ved å velge **Opprett plukk** i kildedokumentet, for eksempel en frigitt monteringsordre eller lagerlevering. Hvis du vil ha mer informasjon, kan du se [Plukke varer med lagerplukk](warehouse-how-to-pick-items-for-warehouse-shipment.md).  
 
-Du kan også opprette plukkdokumentet på en hentemåte ved å bruke siden **Plukkforslag** til å oppdage plukkforespørsler, både for levering og interne operasjoner, og deretter opprette de nødvendige plukkdokumentene.  
+Du kan også opprette et lagerplukkdokument på en hente-måte ved å bruke **Plukkforslag**-siden til å finne plukkforespørsler. Denne metoden er nyttig for forsendelser og interne operasjoner. Deretter kan du opprette de nødvendige lagerplukkdokumentene.  
 
 Fremgangsmåten nedenfor forklarer et plukkescenario der du plukker komponenter for en frigitt produksjonsordre via siden **Plukkforslag**. Fremgangsmåten gjelder også for en monteringsordre.  
 
@@ -37,18 +38,19 @@ Hvis du vil opprette plukkforespørsler, må de aktuelle kildedokumentene frigis
 |Kildedokument|Frigivelsesmetode|  
 |---------------------|--------------------|  
 |Produksjonsordre|Endre ordretypen til frigitt produksjonsordre.|  
-|Monteringsordre|Endre status til Frigitt.|  
+|Monteringsordre|Endre status til Frigitt.|
+|Prosjekter | Endre status til Åpen.|  
 
 ## <a name="to-pick-components-using-the-pick-worksheet"></a>Slik plukker du komponenter ved hjelp av plukkforslaget
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Plukkforslag**, og velg deretter den relaterte koblingen.  
-2.  Velg handlingen **Hent lagerdokumenter**, og velg deretter komponentlinjene fra den frigitte produksjonsordren.  
-3.  Inspiser linjene, sorter dem for å sikre en effektiv plukkrunde, og slå dem sammen med andre forslagslinjer om nødvendig for å utnytte arbeidstiden best mulig.  
-4.  Velg handlingen **Opprett plukk**.  
-5.  Definer hvordan lagerplukkdokumenter skal opprettes og hvordan plukklinjer skal sorteres, ved å fylle ut felt på siden **Opprett plukk**.  
-6.  Velg **OK**. Lagerplukkdokumenter opprettes med plukklinjer for hver komponent som kreves i den interne operasjonen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Plukkforslag**, og velg deretter den relaterte koblingen.  
+2. Velg handlingen **Hent lagerdokumenter**, og velg deretter komponentlinjene fra den frigitte produksjonsordren.  
+3. Sorter linjene for å sikre effektiv plukking. Du vil kanskje kombinere linjer for å spare tid for ansatte.  
+4. Velg handlingen **Opprett plukk**.  
+5. Definer hvordan lagerplukkdokumenter skal opprettes og hvordan plukklinjer skal sorteres, ved å fylle ut felt på siden **Opprett plukk**.  
+6. Velg **OK**. Lagerplukkdokumenter opprettes med plukklinjer for hver komponent som kreves i den interne operasjonen.  
 
-Hvis det interne operasjonsområdet, for eksempel en produksjon, er opprettet med en standardhylle for plassering av komponenter som skal brukes i operasjonen, settes denne hyllekoden inn på Plasser-linjene i plukkdokumentet for å gi lagermedarbeidere beskjed om hvor de skal plassere varene. Hvis du vil ha mer informasjon, se feltet **Til-Hyllekode for produksjon** eller **Til-Hyllekode for montering**.
+Operasjonsområder, for eksempel produksjonsutførelse, kan ha en standardhylle for komponentene de trenger. Hvis dette er tilfellet, legges standard hyllekode til i lagerplukkdokumentet for å angi hvor varene skal plasseres. Hvis du vil ha mer informasjon, kan du se verktøytipsene for feltene **Til-Hyllekode for produksjon** eller **Til-Hyllekode for montering**.
 
 ## <a name="filling-the-consumption-bin"></a>Fylle forbrukshyllen
 

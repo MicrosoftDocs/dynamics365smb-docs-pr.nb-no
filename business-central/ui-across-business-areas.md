@@ -8,16 +8,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview, functionality
 ms.search.form: 9020, 9022, 9027, 9024
-ms.date: 04/01/2021
+ms.date: 09/19/2022
 ms.author: edupont
-ms.openlocfilehash: 47cd78dc6f706407a0be9814e170054b95e4403d
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
+ms.openlocfilehash: ce1550e658b881aa81a98c6c7e19c0d5b7011d19
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8655050"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9605904"
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunksjoner
+
 [!INCLUDE[prod_short](includes/prod_short.md)] gir dedikert funksjonalitet for vanlige forretningsområder, for eksempel finans og salg. Hvis du vil ha mer informasjon, kan du se [Forretningsfunksjoner](across-business-functionality.md).
 
 For å støtte disse områdespesifikke forretningsoppgavene kan du bruke en rekke generelle forretningsfunksjoner, for eksempel å definere utvidet tekst for dokumentlinjer og organisere tilhørende forretningsoppgaver i arbeidsflyter.
@@ -27,7 +28,7 @@ For å støtte disse områdespesifikke forretningsoppgavene kan du bruke en rekk
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til emnene som beskriver dem.
+Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til artikler som beskriver dem.
 
 | Til | Se |
 | --- | --- |
@@ -42,18 +43,20 @@ Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til e
 |Bokføre flere salgs- eller kjøpsdokumenter sammen, umiddelbart eller som planlagt.|[Bokføre flere dokumenter samtidig](ui-batch-posting.md)|  
 |Se resultatet av bokføringen før du bokfører.|[Forhåndsvise bokføringsresultater](ui-how-preview-post-results.md)|
 |Rediger valgte felt på bokførte salgs- eller kjøpsdokumenter.|[Redigere bokførte dokumenter](across-edit-posted-document.md)|
+| Forstå tilgjengelighetsstatusen for tilbud, ordrer og kreditnotadokumenter, for eksempel **Åpne** og **Frigitt** | [Statusfelt i dokumenter](ui-document-status.md) |
 |Finn ut hvordan du arbeider med finanskladder, som brukes til å bokføre til finanskonti og andre konti, for eksempel bank-, kunde-, leverandør- og aktivakonti. |[Arbeid med finanskladder](ui-work-general-journals.md) |
 | Planlegg at en rapport skal kjøres på en bestemt dato og et bestemt klokkeslett. |[Planlegge en rapport for kjøring](ui-work-report.md#ScheduleReport) |
 |Systemet kan hjelpe deg med å fullføre oppgaver raskere og mer riktig ved å forhåndsutfylle felt eller hele linjer med data som du ellers måtte beregne og skrive inn selv.|[La Business Central foreslå verdier](ui-let-system-suggest-values.md)|
 |Registrere eksterne dokumenter, inkludert filvedlegg, og deretter opprette de relaterte dokumentene manuelt eller konvertere filene til elektroniske dokumenter automatisk.|[Inngående dokumenter](across-income-documents.md)|
 |Definere og bruke arbeidsflyter som kobler oppgaver som utføres av forskjellige brukere eller av systemet, for eksempel automatisk bokføring. Å be om og gi godkjenning til å opprette eller bokføre dokumenter er typiske arbeidsflyttrinn.|[Arbeidsflyt](across-workflow.md)|
 | Definer datautvekslingsdefinisjoner så du kan sende og motta elektroniske dokumenter. |[Utveksle data elektronisk](across-data-exchange.md) |
+| Bruk Online Maps til å finne plasseringer og veibeskrivelser til kunder, leverandører og adresser generelt. | [Bruk Online Maps til å finne plasseringer og veibeskrivelser](across-online-maps.md) |
 
 ## <a name="see-also"></a>Se også
+
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Administrasjon](admin-setup-and-administration.md)
+[Administrasjon](admin-setup-and-administration.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

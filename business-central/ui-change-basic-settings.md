@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: change Role Center, notification, change company, change work date, decimal separator
 ms.search.form: 9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 10/01/2021
+ms.date: 08/31/2022
 ms.author: jswymer
-ms.openlocfilehash: 36bf0ca4de4fb7caef9c26ae60ed6013387adca4
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: de393807ae00efb5bc01a5f6c1fb0be8e98fdf36
+ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528656"
+ms.lasthandoff: 09/30/2022
+ms.locfileid: "9606066"
 ---
 # <a name="change-basic-settings"></a>Endre grunnleggende innstillinger
 
@@ -29,41 +29,48 @@ Rollen fastslår startsiden, som er et startskjermbilde som er tilpasset behoven
 
 * Øverst i navigeringen kan du veksle mellom kunder, leverandører, varer og andre viktige lister med opplysninger. På samme måte kan handlinger la deg opprette oppgaver, for eksempel opprette en ny salgsfaktura direkte fra startsiden.
 
-* I midten finner du **Aktiviteter**-området, som viser gjeldende data og kan klikkes eller trykkes for å vise mer detaljert informasjon. Sentrale ytelsesindikatorer (KPIer) kan settes opp for å vise et valgt diagram for en visuell fremstilling av for eksempel kontantstrøm eller inntekter og utgifter. Du kan også bygge opp en liste over favorittkunder på hjemmesiden for forretningsforbindelser som du gjør forretninger med ofte eller må vie spesiell oppmerksomhet.
+* I midten finner du **Aktiviteter**-området, som viser gjeldende data og kan velges for å vise mer detaljert informasjon. Sentrale ytelsesindikatorer (KPIer) kan settes opp for å vise et valgt diagram for en visuell fremstilling av for eksempel kontantstrøm eller inntekter og utgifter. Du kan også bygge opp en liste over favorittkunder på hjemmesiden for forretningsforbindelser som du gjør forretninger med ofte eller må vie spesiell oppmerksomhet.
 
-### <a name="to-change-the-role"></a>Endre rollen
+### <a name="change-the-role"></a>Endre rollen
 
 Standardrollen er **Forretningsleder**, men du kan velge en annet rolle for å bruke et rollesenter som passer bedre til dine behov.  
 
 1. I øvre høyre hjørne velger du **Innstillinger**-ikonet ![Innstillinger.](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter"), og velg deretter handlingen **Mine innstillinger**.
 2. På siden **Mine innstillinger**, i feltet **Rolle**, velger du rollen som du vil angi som standard. Velg for eksempel **Revisor**.
-3. Velg **OK**-knappen.
+3. Velg **OK**.
 
 ## <a name="company"></a><a name="company"></a>Selskap
 
-Et selskap fungerer som en beholder for data i [!INCLUDE[prod_short](includes/prod_short.md)]. Det kan være flere firmaer i en database, men du kan velge bare ett om gangen.
+Et selskap fungerer som en beholder for data i [!INCLUDE[prod_short](includes/prod_short.md)]. Det kan være flere firmaer i en database, men du kan velge bare ett om gangen. Standardfirma kalles CRONUS og inneholder demonstrasjonsdata bare.
+
+**Selskap**-feltet viser selskapet du arbeider i for øyeblikket, og du kan bruke det til å bytte til et annet selskap. Selskapsnavnet vises alltid øverst i venstre hjørne og fungerer som en handling du kan velge for å gå tilbake til rollesenteret.
+
+> [!TIP]
+> Du kan også endre selskapet ved hjelp av bytting av selskap (CRTL + O). Hvis du vil ha mer informasjon om denne funksjonen og andre måter å endre selskap eller miljø på, kan du se [Bytte til et annet selskap eller miljø](ui-organization-switch.md).
 
 Standardfirma kalles CRONUS og inneholder demonstrasjonsdata bare. Du kan opprette et nytt selskap med egendefinerte data. Hvis du vil ha mer informasjon, kan du se [Opprette nye selskaper](about-new-company.md).
 
-### <a name="to-change-the-company-name"></a>Endre selskapsnavnet
+<!--
+### To change the company name
 
-Selskapsnavnet vises alltid øverst i venstre hjørne og fungerer som en handling du kan velge for å gå tilbake til rollesenteret. Du kan endre dette navnet på siden **Selskapsinformasjon**.
+The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Center. You can change this name on the **Company Information** page.
 
-1. Velg ikonet ![tannhjulikonet for å åpne Innstillinger-menyen.](media/ui-experience/settings_icon_small.png) og velg handling **Selskapsopplysninger**.
-2. Skriv inn det nye selskapsnavnet i feltet **Navn**.
-3. Forlat siden. Systemet starter på nytt og viser det nye selskapet i øvre venstre hjørne.
+1. Choose the ![Sprocket icon to open the Settings menu.](media/ui-experience/settings_icon_small.png) icon, and then choose the **Company Information** action.
+2. In the **Name** field, enter the new company name.
+3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a><a name="badge"></a>Vise et selskapsmerke for rask tilgang til selskapsinformasjon
+### <a name="badge"></a>To display a company badge for quick access to company information
 
-Du kan legge til et tilpasset merke i øvre høyre hjørne, som du kan velge for å raskt vise selskapsinformasjon og leietakerinformasjon i en popup-boks. Selskapsmerket er også nyttig når [!INCLUDE[prod_short](includes/prod_short.md)] er innebygd i et annet program, for eksempel Microsoft Teams eller i et annet nettprogram. I slike tilfeller, siden [!INCLUDE[web_client](includes/web_client.md)] viser mindre omkringliggende kontekstinformasjon, fungerer firmamerket som den eneste måten å avgjøre hvilket selskap eller hvilket miljø en post tilhører.
+You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.
-2. På hurtigfanen **Selskapsmerke** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
+1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Company Information**, and then choose the related link.
+2. On the **Company Badge** FastTab, fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
 > [!NOTE]
-> Hvis et selskapsmerke er definert, kan du ikke endre selskapsnavnet slik det er beskrevet i [Endre selskapsnavn](ui-change-basic-settings.md#to-change-the-company-name)
+> If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
 ## <a name="work-date"></a><a name="work-date"></a>Arbeidsdato
+
 Den mest brukte arbeidsdatoen er i dag. Du må kanskje endre arbeidsdatoen midlertidig for å utføre oppgaver, for eksempel å fylle ut transaksjoner for en dato som ikke er i dag.
 
 > [!TIP]  
@@ -84,7 +91,7 @@ Hvis arbeidsdatoen ikke er angitt til gjeldende dag (i dag), vil gjeldende arbei
 
 ## <a name="region"></a><a name="region"></a> Region
 
-**Område**-innstillingen bestemmer hvordan datoer, klokkeslett, numre og valutaer vises eller formateres. Det bestemmer også hvilket tegn som brukes som desimalskilletegn når du bruker et numerisk tastatur til å angi data. Hvis du vil ha mer informasjon, kan du se [Skrive inn data](ui-enter-data.md#decimal).
+**Område**-innstillingen bestemmer hvordan datoer, klokkeslett, numre og valutaer vises eller formateres. Det bestemmer også hvilket tegn som brukes som desimalskilletegn når du bruker et numerisk tastatur til å angi data. Lær mer under [Angi data](ui-enter-data.md#decimal).
 
 ## <a name="language"></a><a name="language"></a> Språk
 
@@ -100,7 +107,7 @@ Definerer tidssonen du befinner deg i. Når du logger på [!INCLUDE [prod_short]
 
 ## <a name="notifications"></a>Varslinger
 
-Velg koblingen *Endre når jeg mottar varslinger* for å vise eller endre varslingene som du får om bestemte hendelser eller endringer i status, når du for eksempel er i ferd med fakturere en kunde som har en forfalt saldo, eller den disponible beholdningen er lavere enn antallet du vil selge. Hvis du vil ha mer informasjon, kan du se [Administrere varsler](ui-smart-notifications.md).
+Velg koblingen *Endre når jeg mottar varslinger* for å vise eller endre varslingene som du får om bestemte hendelser eller statusendringer, når du for eksempel er i ferd med fakturere en kunde som har en forfalt saldo, eller den disponible beholdningen er lavere enn antallet du vil selge. Lær mer under [Administrer varslinger](ui-smart-notifications.md).
 
 ## <a name="teaching-tips"></a>Læringstips
 
@@ -110,8 +117,8 @@ Velg koblingen *Endre når jeg mottar varslinger* for å vise eller endre varsli
 
 ## <a name="see-also"></a>Se også
 
-[Opprette nye selskaper](about-new-company.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
+[Opprette nye selskaper](about-new-company.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
