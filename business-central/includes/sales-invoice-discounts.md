@@ -1,27 +1,32 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: ed62e60d3b5b1af2158d8adc6c411884ea4c12aa
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.date: 10/05/2022
+ms.author: bholtorf
+ms.openlocfilehash: 8849f1c5d33cd1f826e7f53be317cb01e513fcd1
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133579"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652141"
 ---
-Når alle varene er registrert som salgslinjer, kan du beregne fakturarabatten for hele salgsdokumentet ved å velge handlingen **Beregn fakturarabatt**.
+Når du har lagt til alle varene på linjene, kan du beregne fakturarabatten for hele salgsdokumentet ved å velge handlingen **Beregn fakturarabatt**.
 
-Rabatten beregnes basert på alle linjene i salgsdokumentet for varer, forutsatt at det står **Ja** i feltet **Tillat fakturarabatt** på ordrelinjen. Dette er standardinnstillingen for varer. Linjer med for eksempel varegebyrer tas ikke med i beregningen av fakturarabatten. Hvis du vil bruke en rabatt på slike linjer, må du angi feltet **Linjerabatt-%** på de aktuelle linjene.  
+Rabatten beregnes basert på alle linjer i salgsdokumentet der det er merket av for **Tillat fakturarabatt**. Fakturarabatter er som standard tillatt. Linjer med for eksempel varegebyrer tas imidlertid ikke med i beregningen av fakturarabatten. Hvis du vil bruke en rabatt på slike linjer, må du angi en verdi i feltet **Linjerabattbeløp** på linjene.  
+
+> [!NOTE]
+> Feltene **Tillat fakturarabatt** og **Linjerabattbeløp** er skjult på linjer som standard. Hvis feltene ikke er tilgjengelige, kan du legge dem til ved å tilpasse siden. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner).
 
 > [!TIP]
-> Hvis **Beregn fakturarabatt**-feltet er valgt på siden **Oppsett av kunde- og leverandørkonto**, beregnes fakturarabatten automatisk når du gjør et av følgende på et salgsdokument:
+> Hvis feltet **Beregn fakturarabatt** er valgt på siden **Salgsoppsett**, beregnes fakturarabatten automatisk. Når beregningen skjer, varierer avhengig av hvilken type salgsdokument du bruker.
+>
+> Hvis du bruker en ordre, beregnes rabatten når du legger til en linje. For alle andre salgsdokumenter, for eksempel salgsfakturaer, beregnes rabatten når du gjør en av følgende handlinger:
 >
 > * Vis statistikk
 > * Vis en testrapport
 > * Skriv ut
 > * Post
 
-Fakturarabattbetingelsene for en kunde er definert på siden **Kundefakturarabatter** for kunden. Valutakoden på salgsdokumentet brukes til å finne betingelsene for fakturarabatt i den aktuelle valutaen.
+Du definerer fakturarabattbetingelsene for en kunde på siden **Kundefakturarabatter**. Valutakoden på salgsdokumentet brukes til å finne betingelsene for fakturarabatt i den aktuelle valutaen.
 
-Hvis fakturarabattene ikke er definert i fremmed valuta, er fakturarabattbetingelsene definert på siden **Kundefakturarabatt** med beløpene i lokal valuta, og valutakursen på bokføringsdatoen i salgsdokumentet til å beregne fakturarabatten i fremmed valuta.
+Hvis du ikke har definert fakturarabatter for utenlandsk valuta, brukes rabattbetingelsene på siden **Kundefakturarabatter** til å beregne rabatten. Beregningen bruker den lokale valutaen og valutakursen som var gyldig på dokumentets bokføringsdato.

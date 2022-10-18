@@ -1,21 +1,21 @@
 ---
 title: Tilpasse sider (inneholder video)
 description: Finn ut hvordan du kan tilpasse brukergrensesnittet og tilpasse arbeidsområdet slik at det passer til arbeidsmåten og personlige preferanser i Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: 7739ead50f07adc5a7a14c6c9e57cc623da275c9
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.date: 10/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528816"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652168"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse arbeidsområdet
 
@@ -79,9 +79,15 @@ På samme måte som med andre personlige tilpasninger lagres endringene du gjør
 |Legg til en ny handling på en side eller rapport i rollesenteret.|Velg bokmerkeikonet fra målsiden, rapportforespørselssiden eller Fortell meg-vinduet.|Se [Bokmerke en side eller rapport i rollesenteret](ui-bookmarks.md)|
 |Start alltid en liste som vist eller skjult|Velg knappen **Vis alle** eller **Skjul alle** øverst til venstre i listen. Du kan også velge handlingen **Vis alt** eller **Skjul alt** i menyen for den første kolonnen. |Gjelder for skjuling av hierarkilister|
 
-## <a name="personalizing-actions"></a><a name="Actions"></a>Tilpasse handlinger
+## <a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a>Tilpass handlingsraden og menyene
 
-Tilpassing lar deg bestemme hvilke handlinger som skal vises i navigasjons- og handlingsfelt samt rollesentre, og hvor de skal vises. Du kan vise, skjule eller flytte individuelle handlinger eller handlingsgrupper. Tilpassing av navigasjons- og handlingsfeltene gjøres mye på samme måte som med andre grensesnittelementer. Hva du kan gjøre med en handling eller gruppe, avhenger imidlertid av hvor handlingen eller gruppen er plassert. Den beste måten å finne det ut på, er å gå inn i tilpasningsmodus og deretter la pilhodene veilede deg.
+Tilpasning lar deg bestemme hvilke handlinger som skal vises i navigasjons- og handlingsrader samt rollesentre, og hvor de skal vises. Du kan vise, skjule eller flytte individuelle handlinger eller handlingsgrupper.
+
+I lanseringsbølge 2 i 2022 gav deg flere måter å gjøre Business Central til din egen på. Følgende video viser hvordan du kan tilpasse handlinger på sider og i rollesentre.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
+
+Tilpassing av navigasjons- og handlingsfeltene gjøres mye på samme måte som med andre grensesnittelementer. Hva du kan gjøre med en handling eller gruppe, avhenger imidlertid av hvor handlingen eller gruppen er plassert. Den beste måten å finne det ut på, er å gå inn i tilpasningsmodus og deretter la pilhodene veilede deg.
 
 Det finnes noen begreper du bør være kjent med for å bedre forstå handlingstilpasning: *handlingsgruppe* og *forfremmet kategori*.  
 

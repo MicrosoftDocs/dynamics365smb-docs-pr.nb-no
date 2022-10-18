@@ -11,12 +11,12 @@ ms.search.keywords: special price, alternate price, pricing
 ms.search.form: 7022, 7024
 ms.date: 06/03/2022
 ms.author: bholtorf
-ms.openlocfilehash: ed59e73dce1847e2edb02def981abdf869a275d9
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 5560a9a1b5c5eb031136a7c1320019eac75239e0
+ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606147"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9652195"
 ---
 # <a name="record-special-sales-prices-and-discounts"></a>Registrere spesielle salgspriser og rabatter
 
@@ -93,7 +93,7 @@ Når du aktiverer funksjonsoppdateringen **Ny salgsprisopplevelse** på siden **
     * Salg
     * Innkjøp
     * Prosjektsalg
-    * Prosjektkjøp 
+    * Prosjektkjøp
 
     Du kan redigere alle prisene for disse områdene på siden **Prisforslag**. Standard prislister blir angitt på sidene **Salgsoppsett**, **Kjøpsoppsett** og **Prosjektoppsett**. 
 
@@ -252,7 +252,7 @@ Du knytter rabattprosentene til bestemte fakturabeløp på siden **Kundefakturar
 I tillegg til, eller i stedet for, en rabattprosent, kan du knytte et gebyrbeløp til et bestemt fakturabeløp.  
 
 > [!TIP]  
-> Før du angir disse opplysningene, er det lurt å sette opp en oversikt over hvilken rabattstruktur du vil bruke. Dermed er det enklere å se hvilke kunder som kan knyttes til den samme fakturarabattsiden. Jo færre sider du må definere, jo raskere kan du angi de grunnleggende opplysningene.
+> Før du angir disse opplysningene, er det lurt å sette opp en oversikt over hvilken rabattstruktur du vil bruke. Strukturen gjør det enklere å avgjøre hvilke kunder som kan knyttes til den samme fakturarabattsiden. Jo færre sider du må definere, jo raskere kan du angi de grunnleggende opplysningene.
 
 Hvis du vil ha opplæring innen rabatter i salg, kan du se [Definere rabatter for kundene](/training/modules/customer-discounts-dynamics-365-business-central/index).
 
