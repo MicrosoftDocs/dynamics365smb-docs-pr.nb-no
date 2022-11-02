@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 09/22/2022
 ms.author: jswymer
-ms.openlocfilehash: fbedf23a65940b73e521d06d17abbbaef77fd512
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: f826ceaca3ae6f5a68a60a43f4824fcbe60c0753
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607428"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716562"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams-integrering
 
@@ -54,7 +54,9 @@ Hvis du vil ha mer informasjon, kan du se [Del oppføringer i Microsoft Teams](a
 
 Fra de fleste samlings- og detaljsidene i Business Central kan du bruke handlingen **Del til Teams** fra ikonet ![!Del-menyikon på sider.](media/share-icon.png "Del-menyen som vises på et kort.") til å skrive inn en melding, velge mottakere, for eksempel gruppemedlemmer, grupper eller kanaler og sende meldingen med en kobling og til Business Central-siden.
 
-![!Del-menyen som vises på et kort.](media/teams-share-link.png "Del-menyen som vises på et kort.")
+[![!Del-menyen som vises på et kort.](media/teams-share-link-v2.png "Del-menyen som vises på et kort.")](media/teams-share-link-v2.png#lightbox)
+
+<!--![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")-->
 
 Hvis du vil ha mer informasjon, kan du se [Del oppføringer og sidekoblinger i Microsoft Teams](across-working-with-teams.md#share-link).
 

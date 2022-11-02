@@ -10,12 +10,12 @@ ms.search.keywords: customize, personalize, personalization, hide columns, remov
 ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
 ms.date: 10/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: ccc0d6612b3d2416263ed26089fc176f4fcbb2d2
-ms.sourcegitcommit: a9c778b65925435a4099fad45b3611f310e0b203
+ms.openlocfilehash: 436adf8dcfd9d5825530a1a51f5ed0efad7d9b7c
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/12/2022
-ms.locfileid: "9652168"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716574"
 ---
 # <a name="personalize-your-workspace"></a>Tilpasse arbeidsområdet
 
@@ -155,6 +155,12 @@ Nedenfor følger noen tips som hjelper deg med å forstå tilpasning bedre.
 - Endringer som du utfører, trer i kraft på alle rollesentrene. Hvis du for eksempel gjør en endring i kundelisten når Rollesenter er satt til Forretningsleder, vises også endringen på siden **Kunder** når rollesenteret er angitt til Ordrebehandler.
 - Endringer av en side i en rute trer i kraft på siden der den vises.  
 - Du kan bare legge til felt og kolonner fra en forhåndsdefinert liste, som er basert på siden. Du kan ikke opprette nye.
+- Elementet **Power Automate** på handlingsraden
+  - Du kan ikke skjule eller flytte **Automatiser**-elementet eller **Power Automate**-underelementet og de tilhørende handlingene **Opprett en flyt** og **Administrer flytprosesser**.
+  - Du kan flytte flytprosesser som er inkludert under elementet **Automatiser**, men du kan ikke skjule dem ved hjelp av tilpasning. Hvis du flytter flyten, kopierer du flyten til målet, men den fjernes ikke fra elementet **Automatiser**.
+
+   > [!TIP]
+   > Som administrator kan du skjule **Automatiser**-elementet fra brukere. Finn ut mer under [Definer Power Automate-integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
 ## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/personalize-ui-dynamics-365-business-central/index)
 

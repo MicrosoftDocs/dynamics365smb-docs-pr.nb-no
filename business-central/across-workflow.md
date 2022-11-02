@@ -1,50 +1,56 @@
 ---
 title: Arbeidsflyter i Dynamics 365 Business Central
 description: Bruk innebygde funksjoner i arbeidsflyten til å definere godkjenningsarbeidsflyter til å supplere automatiserte arbeidsflyter basert på Power Automate. Du kan konfigurere trinn for å tildele oppgaver til forskjellige personer som en del av de ulike forretningsprosessoppgavene.
-author: SorenGP
+author: jswymer
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 09/13/2022
-ms.author: edupont
-ms.openlocfilehash: ecaaf9bbb56e1c1b47f9f617319b32f32a2920fd
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.date: 10/10/2022
+ms.custom: bap-template
+ms.openlocfilehash: c8cd251a2e82cd1a721f070f14986dd78c6f1730
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585625"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716536"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Arbeidsflyter i Dynamics 365 Business Central
 
-Du kan definere og bruke arbeidsflyter til å koble forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn.
+Du kan definere og bruke arbeidsflyter til å koble forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflytprosesser. Systemoppgaver kan innledes eller etterfølges av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn.
 
 Standardversjonen av [!INCLUDE [prod_short](includes/prod_short.md)] støtter tre typer arbeidsflyter:
+  
+* Power Automate-flyter
+
+  * Automatiserte flytprosesser som utløses av hendelser (som oppførings- eller dokumentoppretting, -endring eller -sletting) i [!INCLUDE[prod_short](includes/prod_short.md)]. Også inkludert er godkjenningsflytprosesser som opprettes i Power Automate, som kan utløses når det bes om godkjenning i [!INCLUDE[prod_short](includes/prod_short.md)].
+  * Direkteflytprosesser som manuelt utløses av **Automatiser**- handlingen fra lister, kort og dokumentsider. 
+
+    Opprett og manuelt utløs en Power Automate-flyt i en [!INCLUDE[prod_short](includes/prod_short.md)]-post, for eksempel en kunde, vare eller ordre, med alternativer for å manipulere informasjon både internt og eksternt (ved hjelp av integrerte verktøy).
 
 * Godkjenningsarbeidsflyt basert på innebygde arbeidsflytmaler
 
   På siden **Arbeidsflytmaler** kan du se alle tilgjengelige arbeidsflyter. Prøveversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] omfatter mange forhåndskonfigurerte arbeidsflyter representert av arbeidsflytmaler som du kan kopiere for å opprette nye. Når du åpner en mal fra siden **Arbeidsflytmaler** og arbeidsflytnavnet starter med *MS-*, ble malen lagt til av Microsoft.
-  
-* Power Automate-flyter du konfigurerer selv
-
-  Alle arbeidsflytmaler du oppretter med Microsoft Power Automate, legges til i listen over arbeidsflytmaler i [!INCLUDE[prod_short](includes/prod_short.md)]. Finn ut mer under [Bruk [!INCLUDE[prod_short](includes/prod_short.md)] i Power Automate-flyter](across-how-use-financials-data-source-flow.md). 
-  
-* Direkteflyter manuelt utløst av handlingen **Automatiser** (bare [!INCLUDE [prod_short](includes/prod_short.md)] på nettet).
-
-  Opprett og manuelt utløs en Power Automate-flyt i en [!INCLUDE[prod_short](includes/prod_short.md)]-post, for eksempel en kunde, vare eller ordre, med alternativer for å manipulere informasjon både internt og eksternt (ved hjelp av integrerte verktøy). Finn ut mer i delen [Direkteflyter](across-how-use-financials-data-source-flow.md#instant-flows).
 
 ## <a name="power-automate-flows"></a>Power Automate-flyter
 
-Ved hjelp av [!INCLUDE [prod_short](includes/prod_short.md)] online kan du registrere deg for Power Automate for å bygge kraftige automatiserte arbeidsflyter. Du kan kjøre arbeidsflytene i [!INCLUDE [prod_short](includes/prod_short.md)], koble sammen interne og eksterne datakilder med data og verktøy, uten å kodekunnskap.
+Med [!INCLUDE [prod_short](includes/prod_short.md)] online kan du registrere deg for Power Automate for å bygge kraftige automatiserte arbeidsflyter. Du kan kjøre arbeidsflytene fra [!INCLUDE [prod_short](includes/prod_short.md)]. Flytene kan koble til interne og eksterne datakilder og verktøy, uten å kodekunnskap.
 
-Power Automate-flyter kan utløses av hendelser (for eksempel oppretting, endring eller sletting av poster eller dokumenter), og de kan kjøres i en brukerdefinert tidsplan eller ved behov (kjent som en **direkteflyt**).
+|**Hvis du vil** |**Se**|
+|-------|-------|
+|Kom i gang med Power Automate og opprett flytprosess, kjøringer og direkteflytprosesser|[Bruk Power Automate-flyter i [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)|
+|Finn ut mer om hvordan du oppretter, redigerer og behandler flytprosesser|[Konfigurer automatiserte flytprosesser](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) og [Konfigurer direkteflytprosesser](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
+|Konfigurer Power Automate-integrering med [!INCLUDE[prod_short](includes/prod_short.md)] for brukere som administrator|[Konfigurer Power Automate-integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
 
 ## <a name="approval-workflows"></a>Arbeidsflyter for godkjenning
 
-Du kan opprette en godkjenningsarbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse, endret av hendelsesbetingelsene, og et arbeidsflytsvar, endret av svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felter på arbeidsflytlinjer ved å bruke faste lister over verdier for hendelse og svar som representerer scenarioer som støttes av programkoden.<!--What are the "values"? Can we give an example?-->
+Du kan opprette en godkjenningsarbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av:
+- en arbeidsflythendelse som er moderert av hendelsesbetingelser
+- et arbeidsflytsvar som er moderert av svaralternativer
 
-Eksempler på hendelser for arbeidsflyter for godkjenning omfatter blant annet oppretting av ordrer eller bestillinger / tilbud / fakturaer, prisendringer og leverandør- eller kundeendringer.
+For å definere arbeidsflyttrinn må du fylle ut felter på arbeidsflytlinjer ved å bruke faste lister over verdier for hendelse og svar som representerer scenarioer som støttes av programkoden.<!--What are the "values"? Can we give an example?-->
+
+Eksempler på hendelser for arbeidsflyter for godkjenning omfatter blant annet oppretting av ordrer eller bestillinger / tilbud / fakturaer, prisendringer, leverandør- eller kundeendringer med mer.
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
@@ -52,7 +58,9 @@ Eksempler på hendelser for arbeidsflyter for godkjenning omfatter blant annet o
 |--|--|
 | Definer brukere for arbeidsflyt for godkjenning, angi hvordan brukere skal varsles, og opprett nye arbeidsflyter. (For å opprette nye arbeidsflyter for scenarier som ikke støttes, kan du implementere nødvendige arbeidsflytelementer ved å tilpasse programkoden.) | [Konfigurer godkjenningsarbeidsflyter](across-set-up-workflows.md) |
 | Aktiver arbeidsflyter for godkjenning, handle på arbeidsflytvarsler, inkludert å be om og godkjenne et flyttrinn. Arkiver og slett arbeidsflyter. | [Bruk godkjenningsarbeidsflyter](across-use-workflows.md) |
-| Integrer selskapsdata med Power Automate-arbeidsflyter ved hjelp av både interne og eksterne kilder og hendelser for å opprette og automatisere oppgaver eller arbeidsflyter. | [Bruk Power Automate-flyter i [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |
+
+<!--
+| Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
 ## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
 

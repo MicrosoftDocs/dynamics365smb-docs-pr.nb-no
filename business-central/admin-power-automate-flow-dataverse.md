@@ -10,18 +10,14 @@ ms.search.keywords: Power Automate, Flow, Dataverse
 ms.search.form: ''
 ms.date: 09/05/2022
 ms.author: bholtorf
-ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 542514d1f8fc8f0bfa6a0bd3c8cacbaf25cab651
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.openlocfilehash: d58a8ba6b1b2c451caa391ef5dd89e0d73d38b5a
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585895"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716506"
 ---
 # <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Bruk en Power Automate-flyt for varsler om Dataverse-enhetsendringer
-
-> [!IMPORTANT]
-> Denne artikkelen beskriver funksjoner som blir tilgjengelig i lanseringsbølge 2 i 2022. Før denne utgivelsen er tilgjengelig, kan du ikke bruke en Power Automate-flyt for å bli varslet når en enhet i Dataverse endres.
 
 Administratorer kan opprette en automatisk flyt i Power Automate som varsler [!INCLUDE[prod_short](includes/prod_short.md)] om endringer i poster i [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-organisasjonen.
 

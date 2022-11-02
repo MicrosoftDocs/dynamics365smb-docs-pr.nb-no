@@ -2,67 +2,113 @@
 title: Bruk Power Automate-flyter i Business Central
 description: Definer og bruk Power Automate-flyter for å opprette eller endre Business Central-data.
 author: jswymer
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: workflow, OData, Power App, SOAP, Power Automate,
 ms.search.form: 1500,
-ms.date: 09/13/2022
-ms.author: edupont
-ms.openlocfilehash: 5fe089c0330a8d2b7a71f4907212665722d27d38
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 10/10/2022
+ms.custom: bap-template
+ms.openlocfilehash: ce1af0b2a07aa570141f9d4684930e303cbca742
+ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606525"
+ms.lasthandoff: 10/25/2022
+ms.locfileid: "9716545"
 ---
 # <a name="use-power-automate-flows-in-prod_short"></a>Bruk Power Automate-flyter i [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Du kan bruke dine [!INCLUDE[prod_short](includes/prod_short.md)]-data som en del av en arbeidsflyt i Microsoft Power Automate. Opprett dine egne flyter og koble dataene fra interne og eksterne kilder med [!INCLUDE [prod_short](includes/prod_short.md)]-koblingen.
+Med [!INCLUDE[prod_short](includes/prod_short.md)] får du en lisens til Microsoft Power Automate. Med denne lisensen kan du bruke [!INCLUDE[prod_short](includes/prod_short.md)]-dataene som en del av en arbeidsflyt i Microsoft Power Automate. Du kan opprette flytprosesser og koble dataene fra interne og eksterne kilder gjennom [!INCLUDE [prod_short](includes/prod_short.md)]-koblingen.
+
+Power Automate-flytprosesser utløses av hendelser, for eksempel at en post ble opprettet, endret eller slettet. De kan også kjøres i en brukerdefinert plan eller på forespørsel.
 
 > [!NOTE]
-> Du må ha en gyldig konto med både [!INCLUDE[prod_short](includes/prod_short.md)] og Power Automate.  
+> Administratorer kan begrense tilgangen til Power Automate. Hvis du finner ut at du ikke har tilgang til noen av eller alle funksjonene som er beskrevet i denne artikkelen, kontakter du administratoren. Hvis du vil lære hvordan du kan kontrollere Power Automate-tilgangen som administrator, kan du se [Konfigurer Power Automate-integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
+
+<!-- You must have a valid account with both [!INCLUDE[prod_short](includes/prod_short.md)] and Power Automate. --> 
 
 > [!TIP]
 > I tillegg til Power Automate kan du bruke godkjenningsarbeidsflytmaler i [!INCLUDE[prod_short](includes/prod_short.md)]. Selv om de er to separate arbeidsflytsystemer, legges en godkjenningsarbeidsflytmal som du oppretter med Power Automate, til i listen over arbeidsflyter i [!INCLUDE[prod_short](includes/prod_short.md)]. Finn ut mer under [Arbeidsflyter](across-workflow.md).
 
-Power Automate-flyter utløses av hendelser som oppretting, endring eller sletting (automatiserte flyter) av oppføring eller dokument. Flytene kan også kjøres i en brukerdefinert plan (planlagte flyter) eller på forespørsel (direkteflyt).
+## <a name="about-power-automate-flows"></a>Om Power Automate-flytprosesser
+
+Power Automate er en tjeneste som hjelper deg med å opprette automatiserte arbeidsflytprosess (eller flytprosesser) mellom apper og tjenester, som [!INCLUDE[prod_short](includes/prod_short.md)]. Power Automate-flytprosesser krever lite eller ingen kodekunnskap. De kan knyttes til et bredt spekter av hendelser og svar, for eksempel:
+- oppføringsendringer
+- oppdateringer av eksterne filer
+- bokførte dokumenter
+- Forskjellige Microsoft- og tredjepartstjenester, som Microsoft Outlook, Excel, Dataverse, Teams, SharePoint, Power Apps med mer.
+
+Det finnes tre forskjellige skyflyttyper du kan arbeide med:
+
+|Flyttype|Description|
+|---------|-----------|
+|Automatisert|Denne flyttypen kjøres automatisk av en hendelse. I [!INCLUDE[prod_short](includes/prod_short.md)] kan en hendelse være når en oppføring eller et dokument opprettes, endres eller slettes. Det kan for eksempel hende at en ny salgsfaktura utløser en flyt for en godkjenningsforespørsel, som kan ha ulike hendelser angitt, avhengig av svaret fra godkjenneren. Et negativt svar sender en varsling og e-post til godkjenningsbestilleren. Et positivt svar oppdaterer samtidig et Excel-regneark som er plassert i en SharePoint-mappe, og sender en oppdatering til en Teams-nettprat. Automatiske flytprosesser kan startes av både interne og eksterne hendelser i [!INCLUDE[prod_short](includes/prod_short.md)].|
+|Tidsplanlagt|Denne typen flyt blir også kjørt automatisk, men den kjøres med jevne mellomrom på en planlagt dato og et planlagt tidspunkt. |
+|Direkte |Denne flyttypen kjøres etter behov, som krever at brukeren kjører den manuelt fra en knapp eller handling i en annen app eller enhet, i dette tilfellet [!INCLUDE[prod_short](includes/prod_short.md)]-klienten. Direkteflyter fungerer på samme måte som satsvise snarveier, noe som utfører flere lange trinn med noen knappetrykk og startes fra bestemte sider eller tabeller. En flyt kan for eksempel legge til en knapp på handlingsmenyen på **Leverandører**- siden for å sperre betalinger til en leverandør og samtidig sende e-postmeldinger til leverandørens kontakt og innkjøpere, i tillegg til å oppdatere kontakten i Outlook. |
 
 ## <a name="power-automate-features-in-prod_short"></a>Power Automate-funksjoner i [!INCLUDE[prod_short](includes/prod_short.md)]
 
-Flytene viser de innebygde funksjonene for godkjenning av arbeidsflyter som er tilgjengelige i [!INCLUDE[prod_short](includes/prod_short.md)] uten å kreve kodekunnskap, og kan knyttes til et bredt spekter av hendelser og svar, for eksempel oppføringsendringer, oppdateringer av eksterne filer, bokførte dokumenter, i tillegg til forskjellige Microsoft- og tredjepartstjenester, for eksempel Microsoft Outlook, Microsoft Excel, Microsoft Dataverse, Microsoft Teams, Microsoft SharePoint, Microsoft Power Apps med mer.
+Du kan utforske alle Power Automate-flytprosesser som er tilgjengelige for deg, ved å logge deg på [Power Automate](https://powerautomate.com) og velge **Mine flytprosesser** fra navigasjonsfeltet til venstre. Her finner du alle flytprosesser du allerede har opprettet selv, og flytprosesser som deles med deg av en administrator eller en kollega. Disse flytene gjøres også tilgjengelige fra [!INCLUDE [prod_short](includes/prod_short.md)] fra ulike sider. Med automatiserte flytprosesser i [!INCLUDE[prod_short](includes/prod_short.md)] tregner du ikke å gjøre noe med mindre du vil endre dem eller slå dem av. Hvis ikke fungerer de når de utløses. Som for direkteflytprosesser på [!INCLUDE[prod_short](includes/prod_short.md)]-data kan du kjøre dem fra de fleste liste-, kort- og dokumentsider ved å velge dem fra **Automatiser**-elementet i handlingen. Finn ut mer i delene som følger.
 
-Det kan for eksempel hende at en ny salgsfaktura utløser en arbeidsflyt for en godkjenningsforespørsel, som kan ha ulike hendelser angitt, avhengig av svaret fra godkjenneren. Et negativt svar sender en varsling og e-post til godkjenningsbestilleren. Et positivt svar oppdaterer samtidig et Excel-regneark som er plassert i en SharePoint-mappe, og sender en oppdatering til en Teams-nettprat.
+<!--
 
-Direkteflyter fungerer på samme måte som satsvise snarveier, noe som utfører flere lange trinn med noen knappetrykk og startes fra bestemte sider eller tabeller. En flyt kan for eksempel legge til en knapp på handlingsmenyen på **Leverandører**- siden for å sperre betalinger til en leverandør og samtidig sende e-postmeldinger til leverandørens kontakt og innkjøpere, i tillegg til å oppdatere kontakten i Outlook.
+## Automated flows
 
-## <a name="automated-workflows"></a>Automatiserte arbeidsflyter
+With Power Automate, you can create business flows directly in-house and rely on citizen developers. Automated workflows can be started by both internal and external events in [!INCLUDE[prod_short](includes/prod_short.md)], and also be set to run periodically. Learn more and get instructions on how to create flows in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.
 
-Med Power Automate kan du opprette forretningsflyter direkte internt og stole på selvlærte utviklere. Automatiserte arbeidsflyter kan bli påbegynt av både interne og eksterne hendelser i [!INCLUDE[prod_short](includes/prod_short.md)] og er også angitt til å kjøres periodisk. Finn ut mer og få instruksjoner om hvordan du oppretter arbeidsflyter i artikkelen [Definer automatiserte arbeidsflyt](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) i administrasjonsinnholdet.
+-->
 
-## <a name="instant-flows"></a>Direkteflyter
+## <a name="run-instant-flows"></a>Kjør direkteflytprosesser
 
-[!INCLUDE [prod_short](includes/prod_short.md)] kan kjøre en Power Automate-flyt fra de fleste liste-, kort- og dokumentsider. Når administratoren har koblet [!INCLUDE [prod_short](includes/prod_short.md)] til Power Automate, ser du eventuelle flyter organisasjonen har lagt til, når du velger handlingen **Automatiser** på de aktuelle sidene. Direkteflyter kjøres uten å forlate [!INCLUDE [prod_short](includes/prod_short.md)]. Finn ut mer i artikkelen [Konfigurer automatiserte arbeidsflyter](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) i administrasjonsinnholdet.
+Direkteflytprosesser åpnes i [!INCLUDE [prod_short](includes/prod_short.md)] på nettet slik at du kan forbli innenfor konteksten til forretningsprosessen du holdt på med. Du kan kjøre en direkteflyt fra de fleste lister, kort eller dokumenter.
 
-Disse direktearbeidsflytene åpnes på en side i [!INCLUDE [prod_short](includes/prod_short.md)] på nettet slik at du kan forbli innenfor konteksten til forretningsprosessen du holdt på med. Velg **Automatiser**-handlingen – på noen sider nestet under **Flere alternativer**-menyen – velg **Power Automate**-menyelementet, og velg deretter den relevante koblingen som skal utløse arbeidsflyten. Tilkoblingen til Power Automate er allerede satt opp for deg.
+1. Velg **Automatiser** på handlingsraden, og velg deretter en flyt fra listen over tilgjengelige flytprosesser under **Power Automate**-handlingen
 
-De fleste flyter krever at du fyller ut et felt eller to før du velger handlingen **Kjør flyt**.
+    :::image type="content" source="media/power-automate-action-intro.png" alt-text="Viser handlingen Automatiser på handlingsraden med utvidede handlinger.":::
+
+    På noen sider er **Automatiser** nestet under **Flere alternativer (...)**. 
+2. Fyll ut de nødvendige feltene i ruten **Kjør flyt**, og velg deretter **Fortsett** for å kjøre flyten.
+
+> [!NOTE]
+> Første gang du bruker elementet **Automatiser**, kan det hende du bare ser handlingen **Kom i gang med Power Automate**. Du ser denne handlingen fordi du ikke har godtatt personvernerklæringen for Microsoft Power Automate. Du fortsetter ved å velge **Kom i gang med Power Automate** og følge instruksjonene for å godta eller ikke godta.  
+>
+> :::image type="content" source="media/power-automate-action.png" alt-text="Viser elementet Automatiser på handlingsraden.":::
+
+<!--
+
+[!INCLUDE [prod_short](includes/prod_short.md)] can run a Power Automate flow from most list, card, and document pages. Once the admin has connected [!INCLUDE [prod_short](includes/prod_short.md)] with Power Automate, you'll see any flows your organization has added when you choose the **Automate** action on the relevant pages. Instant flows are run without leaving [!INCLUDE [prod_short](includes/prod_short.md)]. Learn more in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.
+
+These instant flows open on a page inside [!INCLUDE [prod_short](includes/prod_short.md)] online so you can remain within the context of the business process you were in the middle of. Choose the **Automate** action—on some pages nested under the **More Options** menu—choose the **Power Automate** menu item, then choose the relevant link to trigger the workflow. The connection to Power Automate is already set up for you.
+
+Most flows require you to fill in a field or two before you choose the **Run flow** action.
 
 > [!TIP]
-> Hvis du ikke ser en **Automatiser**-handling, har [!INCLUDE [prod_short](includes/prod_short.md)] trolig ikke blitt konfigurert til å bruke Power Automate ennå. Finn ut mer fra administratoren.
+> If you don't see an **Automate** action, then your [!INCLUDE [prod_short](includes/prod_short.md)] probably hasn't yet been set up to use Power Automate. Learn more from your admin.-->
 
-## <a name="add-more-automated-flows-and-instant-flows"></a>Legg til flere automatiserte flyter og direkteflyter
+## <a name="create-edit-and-manage-flows"></a>Opprett, rediger og administrer flytprosesser
 
-Du kan opprette flyter gjennom nettstedet [powerautomate.microsoft.com](https://powerautomate.microsoft.com). Hvis administratoren imidlertid har byttet til funksjoner for å kjøre Power Automate-flyter fra [!INCLUDE [prod_short](includes/prod_short.md)] online, kan du starte prosessen med å bygge en flyt fra handlingen **Automatiser** på de aktuelle sidene, som du finner på menyen **Flere alternativer** avhengig av siden. Velg deretter **Power Automate**-menyelementet og deretter handlingen **Opprett en flyt**. Power Automate åpnes deretter i en ny nettleserfane, og du er logget på automatisk.
+Oppretting av nye flytprosesser, endring og administrering av eksisterende (som å slå dem av eller på) kan utføres direkte i Power Automate. Du kan imidlertid starte noen av disse oppgavene fra [!INCLUDE[prod_short](includes/prod_short.md)]:
 
-Du kan finne eksempel maler som kan tilpasses selskapet, og alle tilgjengelige utløserhendelser ved hjelp av både [!INCLUDE [prod_short](includes/prod_short.md)] og eksterne verktøy ved å velge **Koblinger**-menyen på Power Automate-nettstedet. Finn ut om tilgjengelige maler og utløsere i artikkelen [Konfigurer automatiserte arbeidsflyter](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) i administrasjonsinnholdet.
+- Hvis du vil opprette en direkteflyt fra en liste-, kort- eller dokumentside, velger du **Automatiser** > **Opprett en flyt**.
+- Du åpner Power Automate fra en liste-, kort- eller dokumentside ved å velge **Automatiser** > **Administrer flytprosesser**.
+- Du kan opprette nye flytprosesser eller håndtere eksisterende flytprosess fra [!INCLUDE[prod_short](includes/prod_short.md)] ved å gå til siden **Administrer Power Automate-flytprosesser**.
 
-## <a name="manage-automated-workflows"></a>Administrer automatiserte arbeidsflyter
+Disse oppgavene gjøres vanligvis av en administrator eller superbruker. Oppgavene krever omfattende kunnskap om forretningsprosessene i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Konfigurer automatiserte flytprosesser](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows), [Konfigurer direkteflytprosesser](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) og [Administrer Power Automate-flytprosesser](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
+<!-- 
 
-Du kan opprette nye flyter eller håndtere eksisterende Power Automate-flyter i [!INCLUDE [prod_short](includes/prod_short.md)] på siden **Administrer Power Automate-flyter**. Finn ut mer i artikkelen [Administrer Power Automate-flyter](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows) i administrasjonsinnholdet.
+## Add more automated flows and instant flows
 
-Du kan også administrere tilgjengelige Power Automate-arbeidsflyter på siden **Arbeidsflyter** i [!INCLUDE[prod_short](includes/prod_short.md)]. Siden viser både innebygd godkjenning og Power Automate-arbeidsflyter, med alternativer for sistnevnte for å aktivere/deaktivere, slette og vise arbeidsflyten på Power Automate-nettstedet.
+You can create flows through the [powerautomate.microsoft.com](https://powerautomate.microsoft.com) website. However, if your admin has switched on the capability to run Power Automate flows from inside [!INCLUDE [prod_short](includes/prod_short.md)] online, you can start the process of building a flow from the **Automate** action on the relevant pages, which can be found under the **More Options** menu depending on the page. Then choose the **Power Automate** menu item, and then choose the **Create a flow** action. Power Automate then opens in a new browser tab, and you're signed in automatically.
+
+You can find sample templates to adapt to your company and all available trigger events, using both [!INCLUDE [prod_short](includes/prod_short.md)] and external tools, by choosing the **Connectors** menu on the Power Automate website. Learn more about available templates and triggers in the [Set Up Automated Workflows](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) article in the administration content.
+
+## Create and manage Power Automate flows
+
+You can create new flows or manage existing Power Automate flows in [!INCLUDE [prod_short](includes/prod_short.md)] on the **Manage Power Automate Flows** page. Learn more in the [Manage Power Automate Flows](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows) article in the administration content.
+
+<!--
+You can also manage available Power Automate workflows on the **Workflows** page in [!INCLUDE[prod_short](includes/prod_short.md)]. The page lists both the built-in approval and Power Automate workflows, with options for the latter to enable/disable, delete, and view the workflow on the Power Automate website.-->
 
 ## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/use-power-automate/)
 
@@ -80,3 +126,4 @@ Du kan også administrere tilgjengelige Power Automate-arbeidsflyter på siden *
 [Slå på direkteflyter](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
+a
