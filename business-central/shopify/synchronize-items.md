@@ -8,12 +8,12 @@ ms.search.form: 30116, 30117, 30126, 30127,
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 2c54b24a38be055fb8f6e641761130e6eab8b829
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 90144dfb2f84853f43ae85bf5a162f46cdb65286
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361613"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728387"
 ---
 # <a name="synchronize-items-and-inventory"></a>Synkroniser varer og lager
 
@@ -29,12 +29,14 @@ Et tredje scenario er å behandle data i Shopify, men importere disse varene i b
 ## <a name="define-item-synchronizations"></a>Definer varesynkroniseringer
 
 1. Velg søkeikonet ![Lyspære som åpner funksjonen Fortell meg.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Shopify-butikk**. Åpne butikken du vil konfigurere varesynkronisering for.
-2. Velg ønsket alternativ i feltet **Synkroniser vare**.<br>Tabellen nedenfor viser alternativene.
+2. Velg ønsket alternativ i feltet **Synkroniser vare**.
+
+   Tabellen nedenfor viser alternativene.
 
 |Alternativ|Description|
 |------|-----------|
 |**Tom**| Produkter importeres sammen med import av ordrer. Produkter eksporteres til Shopify hvis en bruker kjører **Legg til vare**-handlingen fra siden **Shopify-produkter**. Dette er standardprosessen.|
-|**Til Shopify**| Velg dette alternativet hvis du planlegger å oppdatere produkter manuelt ved å bruke **Synkroniser produkt**-handling eller med jobbkøen for regelmessige oppdateringer etter første synkronisering er utløst av **Legg til vare**-handling. Husk å aktivere feltet **Kan oppdatere Shopify-produkt**. Hvis den ikke er aktivert, er det lik alternativet **Tom** (standard prosess). Finn ut mer i delen [Eksporter varer til Shopify](synchronize-items.md#export-items-to-shopify).|
+|**Til Shopify**| Velg dette alternativet hvis du planlegger å oppdatere produkter manuelt ved å bruke **Synkroniser produkt**-handlingen eller med jobbkøen for regelmessige oppdateringer etter første synkronisering er utløst av **Legg til vare**-handlingen. Husk å aktivere feltet **Kan oppdatere Shopify-produkt**. Hvis den ikke er aktivert, er det lik alternativet **Tom** (standard prosess). Finn ut mer i delen [Eksporter varer til Shopify](synchronize-items.md#export-items-to-shopify).|
 |**Fra Shopify**| Velg dette alternativet hvis du har tenkt å importere produkter fra Shopify samtidig, enten manuelt ved hjelp av **Synkroniser produkt**-handlingen eller med jobbkøen for regelmessige oppdateringer. Finn ut mer i delen [Importer varer fra Shopify](synchronize-items.md#import-items-from-shopify).|
 
 ## <a name="import-items-from-shopify"></a>Importer varer fra Shopify
@@ -46,7 +48,7 @@ Først importerer du fra Shopify samtidig eller sammen med ordrer for å legge d
 |**Opprett ukjente varer automatisk**|Når Shopify-produkter og -varianter importeres til [!INCLUDE[prod_short](../includes/prod_short.md)], prøver [!INCLUDE[prod_short](../includes/prod_short.md)]-funksjonen alltid å finne tilsvarende post i varelisten. **SKU-tildeling** påvirker hvordan samsvaret utføres og oppretter en ny vare eller varevariant. Aktiver dette alternativet hvis du vil opprette en ny vare eller når det ikke finnes en samsvarende post. Den nye varen opprettes ved hjelp av importerte data og **varemalkode**. Hvis dette alternativet ikke er aktivert, må du opprette en vare manuelt og bruke **Produkttildeling**-handlingen på siden **Shopify-produkter**.|
 |**Varemalkode**|Bruk denne sammen med vekslebryteren **Opprett ukjente kunder automatisk**.<br>Velg malen du vil bruke for automatisk opprettede varer.|
 |**SKU-tilordning**|Velg hvordan du vil bruke **SKU**-verdien som er importert fra Shopify, under vare/variant-tildeling og -oppretting. Finn ut mer i delen [Effekten av SKU-er og strekkoder for Shopify-produkt på tildeling og oppretting av varer og varianter i Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
-|**SKU-skilletegn**|Bruk dette med **SKU-tildeling** satt til alternativet **Varenr. + variant (synchronize-items.md#effect-of- shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)Code**.<br> Definer et skilletegn som skal brukes til å dele SKU-en.<br>Hvis du oppretter varianten med SKU-en 1000/001 i Shopify, skriver du inn / i feltet **SKU-skilletegn** for å hente varenummeret i [!INCLUDE[prod_short](../includes/prod_short.md)] som 1000 og varevariantkoden som 001.|
+|**SKU-skilletegn**|Bruk denne sammen med **Tildeling for lagerføringsenhet** angitt til alternativet **[Varenr. + variantkode](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Definer et skilletegn som skal brukes til å dele SKU-en.<br>Hvis du oppretter varianten med SKU-en 1000/001 i Shopify, skriver du inn / i feltet **SKU-skilletegn** for å hente varenummeret i [!INCLUDE[prod_short](../includes/prod_short.md)] som 1000 og varevariantkoden som 001.|
 |**Variantprefiks**|Bruk sammen med **SKU-tildeling** satt til **Variantkode** eller alternativene **Varenr. + variantkode** som en reservefunksjon når SKU-en som kommer fra Shopify, er tom.<br>Hvis du vil opprette varevarianten i [!INCLUDE[prod_short](../includes/prod_short.md)] automatisk, må du angi en verdi i **Kode**. Som standard brukes verdien som er definert i SKU-feltet som ble importert fra Shopify. Hvis SKU er tom, vil det imidlertid generere en kode som begynner med definert variantprefiks og 001.|
 |**Shopify kan oppdatere vare**|Velg dette alternativet hvis du vil oppdatere varer eller varianter automatisk.|
 
@@ -87,7 +89,7 @@ Du administrerer prosessen med å eksportere varer ved å bruke følgende innsti
 |**Synkroniser utvidet tekst for vare**|Velg dette for å synkronisere den utvidede teksten for varen. Den kan inneholde HTML-kode slik den blir lagt til i feltet *Beskrivelse*. |
 |**Synkroniser vareattributter**|Velg dette for å synkronisere vareattributter. Attributter formateres som en tabell og inkluderes i *Beskrivelse*-feltet i Shopify.|
 |**Språkkode**|Velg dette hvis du ønsker de oversatte versjonene til tittel, attributter og utvidet tekst.|
-|**SKU-tilordning**|Velg hvordan du vil fylle ut SKU-feltet i Shopify. Støttede alternativer er:<br> - **Varenr.** for å bruke varenr. for både produkter og varianter.<br> - **Varenr. + variantkode** for å opprette en SKU ved å sette sammen verdier fra to felter. For varer uten varianter brukes bare varenummeret.<br>- **Leverandørs varenr.** for å bruke vareleverandørnummeret som er definert på *varekortet* for både varer og varianter.<br> - **Strekkode** for å bruke strekkodetypen **Varereferanse**. Dette alternativet respekterer varianter.|
+|**SKU-tilordning**|Velg hvordan du vil fylle ut feltet for lagerføringsenhet i Shopify. Støttede alternativer er:<br> - **Varenr.** for å bruke varenr. for både produkter og varianter.<br> - **Varenr. + variantkode** for å opprette en lagerføringsenhet ved å sette sammen verdier fra to felter. For varer uten varianter brukes bare varenummeret.<br>- **Leverandørs varenr.** for å bruke vareleverandørnummeret som er definert på *varekortet* for både varer og varianter.<br> - **Strekkode** for å bruke strekkodetypen **Varereferanse**. Dette alternativet respekterer varianter.|
 |**SKU-skilletegn**|Definer et skilletegn for alternativet **Varenr. + variantkode**.|
 |**Lager sporet**| Velg hvordan systemet skal fylle ut feltet **Spor lager** for produkter som er eksportert til Shopify. Du kan oppdatere tilgjengelighetsinformasjon fra [!INCLUDE[prod_short](../includes/prod_short.md)] for produkter i Shopify der spor lager er aktivert. Finn ut mer i delen [Lager](synchronize-items.md#sync-inventory-to-shopify).|
 |**Standard lagerpolicy**|Velg *Avslå* for å unngå negativ beholdning på Shopify-siden.|
@@ -168,7 +170,7 @@ Avhengig av verdien i **Handling for fjernede produkter** på siden **Shopify-bu
 
 Synkronisering av bilder kan konfigureres for synkroniserte varer. Velg blant følgende alternativer:
 
-* **Tom** – bildesynkronisering er deaktivert.
+* **Deaktivert** – bildesynkronisering er deaktivert.
 * **Til Shopify** – bilder av varer eksporteres til Shopify.
 * **Fra Shopify** – bilder fra Shopify importeres til [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -188,7 +190,7 @@ Bildesynkronisering kan startes på de to måtene beskrevet nedenfor.
 ### <a name="image-synchronization-remarks"></a>Bildesynkroniseringsmerknader
 
 * Når du eksporterer bilder fra [!INCLUDE[prod_short](../includes/prod_short.md)] til Shopify, legges de nye bildene til i Shopify, noe som gjør at gamle bilder beholdes. Hvis et bilde blir oppdatert i [!INCLUDE[prod_short](../includes/prod_short.md)], må du slette gamle bilder i **Shopify-administratoren**.
-* Bilder som eksporteres til Shopify som ikke samsvarer med kravene som er definert av Shopify, importeres ikke. Finn ut mer i [produktmedietyper på help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images)
+* Bilder som eksporteres til Shopify som ikke samsvarer med kravene som er definert av Shopify, importeres ikke. Finn ut mer om [produktmedietyper på help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
 
 ## <a name="sync-prices-with-shopify"></a>Synkroniser priser med Shopify
 
@@ -202,7 +204,7 @@ Priser for synkroniserte varer kan eksporteres på de to måtene som er beskreve
 ### <a name="price-calculation-remarks"></a>Prisberegningsmerknader
 
 * Ved prisberegning er det viktig å ha en verdi i feltet **Standard kundemal**. Finn ut mer under [Definer avgifter](setup-taxes.md).
-* Angi en **valutakode** hvis nettbutikken bruker en annen valuta enn lokal valuta (LV). Den angitte valutaen må ha valutakurser konfigurert. Hvis nettbutikken bruker samme valuta som [!INCLUDE[prod_short](../includes/prod_short.md)], lar du feltet stå tomt.
+* Angi en **valutakode** bare hvis nettbutikken bruker en annen valuta enn lokal valuta (LV). Den angitte valutaen må ha valutakurser konfigurert. Hvis nettbutikken bruker samme valuta som [!INCLUDE[prod_short](../includes/prod_short.md)], lar du feltet stå tomt.
 * Når du skal fastsette en pris, bruker [!INCLUDE[prod_short](../includes/prod_short.md)] laveste pris-logikk. Dette betyr at hvis enhetsprisen som er definert på varekortet, er lavere enn det som er angitt i prisgruppen, brukes enhetsprisen fra varekortprisen.
 
 ## <a name="sync-inventory-to-shopify"></a>Synkroniser lager til Shopify

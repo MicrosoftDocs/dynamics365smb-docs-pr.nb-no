@@ -1,18 +1,18 @@
 ---
 title: Opprette produksjonsstykklister
 description: Lær hvordan du oppretter en produksjonsstykkliste, nye versjoner av en produksjonsstykkliste, og hvordan du bruker antallsberegningsformelen.
-author: bholtorf
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: production bom, bills of material,
 ms.search.form: 911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818
 ms.date: 06/22/2021
-ms.author: edupont
-ms.openlocfilehash: ec8d20ac3f6e6e02471a9f86f35aee8c551df801
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.author: bholtorf
+ms.openlocfilehash: 06d1b507e4414b3d77bbeb6a500342e5269438e3
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607827"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728549"
 ---
 # <a name="create-production-boms"></a>Opprette produksjonsstykklister
 
@@ -21,7 +21,7 @@ En produksjonsstykkliste inneholder hoveddata som beskriver komponenter og halvf
 [!INCLUDE[prod_short](includes/prod_short.md)] støtter også monteringsstykklister. Du bruker monteringsordrer for å produsere sluttvarer fra komponenter i en enkel prosess som kan utføres av én eller flere grunnleggende ressurser, som ikke er produksjonsressurser eller arbeidssentre, eller uten noen ressurser. En monteringsprosess kan for eksempel være å plukke to flasker vin og én kaffepose og deretter pakke dem som en gave. Hvis du vil ha mer informasjon, kan du se [Monteringsstykklister eller produksjonsstykklister](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 > [!TIP]
-> Appen **Contoso Coffee-demodata** omfatter demonstrasjonsprodukter for en rekke ulike produksjonsstykklistescenarioer som kan brukes i et testmiljø, inkludert under en prøveversjon. Lær hvordan du konfigurerer Contoso Coffee-data og finn gjennomganger for ulike scenarioer under [Innføring i Contoso Coffee-demodata](/contoso-coffee/contoso-coffee-intro.md).
+> Appen **Contoso Coffee-demodata** omfatter demonstrasjonsprodukter for en rekke ulike produksjonsstykklistescenarioer som kan brukes i et testmiljø, inkludert under en prøveversjon. Lær hvordan du konfigurerer Contoso Coffee-data og finn gjennomganger for ulike scenarioer under [Innføring i Contoso Coffee-demodata](contoso-coffee/contoso-coffee-intro.md).
 
 Før du kan definere en rute, må følgende være på plass:  
 
@@ -96,13 +96,13 @@ Sammenhengen mellom de enkelte komponentene defineres av beregningsformelen. Fø
 
 ### <a name="example"></a>Eksempel
 
-I en produksjonsstykkliste kreves det 70 metalldeler med dimensjonslengde = 0,20 m og bredde = 0,15 m. Verdiene angis slik: Beregningsformel = Lengde x Bredde, Lengde = 20, Bredde = 15, Antall per = 70. Antallet angis av Antall per x Lengde x Bredde, det vil si Antall = 70 x 0,20 m x 0,15 m = 2,1 m2.  
+En produksjonsstykkliste krever 70 metalldeler med dimensjonslengde = 0,20 m og bredde = 0,15 m. Verdiene angis slik: Beregningsformel = Lengde x Bredde, Lengde = 20, Bredde = 15, Antall per = 70. Antallet angis av Antall per x Lengde x Bredde, det vil si Antall = 70 x 0,20 m x 0,15 m = 2,1 m2.  
 
 ## <a name="see-also"></a>Se også
 
 [Opprette ruter](production-how-to-create-routings.md)  
 [Behandle produktvarianter](inventory-item-variants.md)  
-[Gjennomgang: varianter](/contoso-coffee/variants.md)  
+[Gjennomgang: varianter](contoso-coffee/variants.md)  
 [Definere produksjon](production-configure-production-processes.md)  
 [Produksjon](production-manage-manufacturing.md)  
 [Planlegging](production-planning.md)  

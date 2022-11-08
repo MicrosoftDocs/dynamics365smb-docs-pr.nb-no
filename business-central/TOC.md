@@ -431,7 +431,7 @@
 ### [Analysere faktiske beløp i forhold til budsjetterte beløp](bi-how-analyze-actual-versus-budget.md)
 ### [Klargjøre Financial Reporting med finansdata og kontokategorier](bi-how-work-account-schedule.md)
 ### [Konfigurere og publisere KPI-webtjenester basert på finansrapporter](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
-### [Analysere data etter dimensjoner](bi-how-analyze-data-dimension.md)
+### [Analyser data etter dimensjoner](bi-how-analyze-data-dimension.md)
 ### [Opprette analyserapporter](bi-how-create-analysis-views-reports.md)
 ### [Opprette rapporter med XBRL](bi-create-reports-with-xbrl.md)
 ### [Administrere databasetilgangsformål](admin-data-access-intent.md)
@@ -674,6 +674,8 @@
 ### [Synkroniser varer med Shopify](shopify/synchronize-items.md)
 ### [Synkroniser kunder med Shopify](shopify/synchronize-customers.md)
 ### [Synkroniser og oppfyll salgsordrer med Shopify](shopify/synchronize-orders.md)
+### [Synkroniser transaksjoner og utbetalinger](shopify/transactions-and-payouts.md)
+### [Definer avgifter for Shopify-tilkobling](shopify/setup-taxes.md)
 ### [Kjør oppgaver i bakgrunnen](shopify/background.md)
 ### [Feilsøk Shopify-koblingen](shopify/troubleshoot.md)
 ### [Vanlige spørsmål for Shopify-koblingen](shopify/shopify-faq.md)
@@ -1775,7 +1777,7 @@
 ### [Servicesamsvar](compliance/compliance-service-compliance.md)
 ### [Sertifiseringer](compliance/compliance-certifications.md)
 ## [Serviceoversikt (bare på engelsk)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
-
+## [Prøvefunksjoner som kobles til andre Microsoft-tjenester](privacy-connected-services.md)
 # Utvikling og administrasjon
 ## [Komme i gang med utviklings- og administrasjonsdokumentasjon](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
 ## Administrasjonsoppgaver i Business Central

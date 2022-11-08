@@ -1,19 +1,19 @@
 ---
 title: Statusfelt i dokumenter
 description: Lær om dokumentstatusen Åpen og Frigitt i tilbuds-, ordre- eller kreditnotadokumenter.
-author: rubenseishima
+author: brentholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.search.keywords: document, status, quote, order, credit memo, released, open, pending approval, pending prepayment,
 ms.search.form: ''
 ms.date: 09/19/2022
-ms.author: a-reishima
-ms.openlocfilehash: c96909b4ee37673ee7b0c752224478a144ad853e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.author: bholtorf
+ms.openlocfilehash: f48f499277155aaf60ae0992199d7895225f1ef5
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9608197"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728630"
 ---
 # <a name="status-field-on-documents"></a>Statusfelt i dokumenter
 
@@ -28,7 +28,7 @@ Når du har fylt ut dokumentet, kan du frigi det. [!INCLUDE[prod_short](includes
 | Venter på godkjenning   | Dokumentet venter på godkjenning |
 | Venter på forskudd | Det er bokført en forskuddsfaktura for dokumentet. |
 
-## <a name="releasing"></a>Frigi
+## <a name="release-process"></a>Frigivelsesprosess
 
 Du kan forenkle arbeidsflyten ved hjelp av frigivelsesprosessen. Den kan for eksempel hjelpe deg med å følge selskapets prosedyrer for godkjenninger eller for å starte lageraktiviteter.
 
@@ -38,7 +38,7 @@ Selskapet kan ved hjelp av frigivelsesprosedyren vise at en annen bruker har god
 
 * Du kan frigi en bestilling når leverandøren har gitt signal om at han kan innfri ordren.
 * Du oppretter en bestilling og en annen bruker må godkjenne den, for eksempel av sikkerhetsmessige årsaker, før den kan frigis.
-* Hvis du har opprettet en kreditnota, må den frigis av den som er ansvarlig for godkjenning av refusjoner.
+* Den som er ansvarlig for godkjenning av refusjoner, må frigi et kreditnota som du har opprettet.
 
 Lær mer om godkjenningsarbeidsflyter under [Bruk arbeidsflyter](across-use-workflows.md).
 
@@ -46,16 +46,16 @@ Lær mer om godkjenningsarbeidsflyter under [Bruk arbeidsflyter](across-use-work
 
 Hvis ordrestatusen er **Åpen**, startes ikke leveringsforberedelsene på lageret, og det forventes ikke at varene skal mottas i en bestilling. Når du frigir ordren, angir du at den er klar, og at den kan inkluderes i lageraktivitetene.
 
-## <a name="reopening-a-released-order"></a>Åpne en frigitt ordre på nytt
+## <a name="reopen-a-released-order"></a>Åpne en frigitt ordre på nytt
 
 Du kan foreta endringer i en ordre som er frigitt hvis du åpner den på nytt. Du kan imidlertid bare øke antallet linjer som allerede er behandlet av lageret.
 
-Etter at du har foretatt endringene og frigitt ordren på nytt, beregnes merverdiavgift (mva.) og fakturarabatten på nytt.
+Når du har foretatt endringene og frigitt ordren på nytt, beregner [!INCLUDE [prod_short](includes/prod_short.md)] merverdiavgift (mva.) og fakturarabatten på nytt.
 
 Hvis du foretar endringer i en frigitt ordre, må du gi lageret beskjed om endringene.
 
 > [!NOTE]
-> Hvis du vil bokføre én åpen ordre eller kreditnota uten først å frigi den, frigis dokumentet automatisk når du bokfører det. Hvis du bokfører ordrer eller kreditnotaer ved hjelp av funksjonen for **massebokføring**, kan du velge å bare bokføre de ordrene eller kreditnotaene du har frigitt.
+> Hvis du vil bokføre én åpen ordre eller kreditnota uten først å frigi den, frigir [!INCLUDE [prod_short](includes/prod_short.md)] dokumentet automatisk når du bokfører det. Hvis du bokfører ordrer eller kreditnotaer ved hjelp av funksjonen for **massebokføring**, kan du velge å bare bokføre de ordrene eller kreditnotaene du har frigitt.
 
 ## <a name="see-also"></a>Se også
 

@@ -8,12 +8,12 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
-ms.openlocfilehash: c8cd251a2e82cd1a721f070f14986dd78c6f1730
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
+ms.openlocfilehash: fd43becad8bd2272c4d1babf2ed2cfce40edfd2d
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716536"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728471"
 ---
 # <a name="workflows-in-dynamics-365-business-central"></a>Arbeidsflyter i Dynamics 365 Business Central
 
@@ -24,7 +24,7 @@ Standardversjonen av [!INCLUDE [prod_short](includes/prod_short.md)] støtter tr
 * Power Automate-flyter
 
   * Automatiserte flytprosesser som utløses av hendelser (som oppførings- eller dokumentoppretting, -endring eller -sletting) i [!INCLUDE[prod_short](includes/prod_short.md)]. Også inkludert er godkjenningsflytprosesser som opprettes i Power Automate, som kan utløses når det bes om godkjenning i [!INCLUDE[prod_short](includes/prod_short.md)].
-  * Direkteflytprosesser som manuelt utløses av **Automatiser**- handlingen fra lister, kort og dokumentsider. 
+  * Direkteflytprosesser som manuelt utløses av **Automatiser**- handlingen fra lister, kort og dokumentsider.
 
     Opprett og manuelt utløs en Power Automate-flyt i en [!INCLUDE[prod_short](includes/prod_short.md)]-post, for eksempel en kunde, vare eller ordre, med alternativer for å manipulere informasjon både internt og eksternt (ved hjelp av integrerte verktøy).
 
@@ -44,11 +44,12 @@ Med [!INCLUDE [prod_short](includes/prod_short.md)] online kan du registrere deg
 
 ## <a name="approval-workflows"></a>Arbeidsflyter for godkjenning
 
-Du kan opprette en godkjenningsarbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av:
-- en arbeidsflythendelse som er moderert av hendelsesbetingelser
-- et arbeidsflytsvar som er moderert av svaralternativer
+Opprett en arbeidsflyt for godkjenning ved å definere hva arbeidsflyten skal starte, og hva som skjer etterpå, på denne måten:
 
-For å definere arbeidsflyttrinn må du fylle ut felter på arbeidsflytlinjer ved å bruke faste lister over verdier for hendelse og svar som representerer scenarioer som støttes av programkoden.<!--What are the "values"? Can we give an example?-->
+* En arbeidsflythendelse som er moderert av hendelsesbetingelser.
+* et arbeidsflytsvar som er moderert av svaralternativer
+
+For å definere arbeidsflyttrinn må du fylle ut felter på arbeidsflytlinjer ved å bruke hendelsen og svar som representerer scenarioer som støttes.
 
 Eksempler på hendelser for arbeidsflyter for godkjenning omfatter blant annet oppretting av ordrer eller bestillinger / tilbud / fakturaer, prisendringer, leverandør- eller kundeendringer med mer.
 

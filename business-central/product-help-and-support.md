@@ -7,12 +7,12 @@ ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: edupont
 ms.date: 03/21/2022
-ms.openlocfilehash: 9e20cf4862f841e96a83b129a27b7db34494f57c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: 0df97fbafd160e932700b5f66de455d50ff8f645
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607719"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728576"
 ---
 # <a name="resources-for-help-and-support"></a>Ressurser for hjelp og støtte
 
@@ -114,7 +114,11 @@ Denne delen gir deg snarveier til Microsoft AppSource, der du kan finne løsning
 
 ### <a name="give-feedback"></a>Gi tilbakemelding
 
-I [Dynamics 365-idéområdet](https://aka.ms/bcideas) kan du legge inn forslag til nye funksjoner. Tilbakemeldingen din går direkte til Business Centrals tekniske logg for undersøkelser og prioritering.  
+Omtrent én gang i kvartalet samler [!INCLUDE [prod_short](includes/prod_short.md)]-gruppen tilbakemelding fra brukerne om hvor fornøyde de er med produktet. I tillegg til rangeringer kan du også gi en skriftlig merknad. Ved å gi oss spesielle og tekniske merknader hjelper du det tekniske teamet med å prioritere produktforbedringene vi investere i. Du kan også samtykke til å bli kontaktet om kommentaren din. Hvis du gjør det, blir du invitert til et Teams-møte en gang det passer for deg. Du kan gi produktforslag når som helst på nettstedet [Dynamics 365 Forslag](https://aka.ms/bcideas).  
+
+### <a name="product-suggestions"></a>Produktforslag
+
+På [nettstedet Dynamics 365 Forslag](https://aka.ms/bcideas) kan du legge inn forslag til nye funksjoner. Tilbakemeldingen din går direkte til Business Centrals tekniske logg for undersøkelser og prioritering.  
 
 Kontroller at du søker gjennom listen over sendte forslag. Det kan hende at det allerede er sendt noe lignende, og det kan hende at oppføringen allerede har fått stemmer. Stem hvis en idé allerede er innsendt, for å prioritere den på teknikerloggen.  
 

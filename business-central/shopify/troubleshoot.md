@@ -8,14 +8,14 @@ ms.search.form: 30118, 30119, 30120,
 author: edupont04
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 47b0d72283b4d017bb522c3e71f6c61501b59d5b
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
+ms.openlocfilehash: 37fb8069f6149cc89c1c53f671eafe3788f54ccf
+ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361945"
+ms.lasthandoff: 10/28/2022
+ms.locfileid: "9728360"
 ---
-# <a name="troubleshooting-shopify-and-business-central-synchronization"></a>Feilsøking av Shopify- og Business Central-synkronisering
+# <a name="troubleshooting-the-shopify-and-business-central-synchronization"></a>Feilsøking av Shopify- og Business Central-synkronisering
 
 Det er mulig å støte på situasjoner der du må feilsøke problemer når du synkroniserer data mellom Shopify og [!INCLUDE[prod_short](../includes/prod_short.md)]. Denne siden definerer feilsøkingstrinnene for enkelte vanlige scenarioer som kan oppstå.
 
@@ -67,7 +67,7 @@ Hvis [!INCLUDE[prod_short](../includes/prod_short.md)] ikke vil koble til Shopif
 Shopify-koblingsutvidelsen krever tillatelse til å utføre HTTP-forespørsler for å fungere skikkelig. Når du tester i en sandkasse, er HTTP-forespørslene forbudt for alle utvidelser.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **utvidelsesbehandling**, og velg den relaterte koblingen.
-2. Velg utvidelsen *Shopify-kobling*.
+2. Velg utvidelsen **Shopify-kobling**.
 3. Velg handlingen **Konfigurer** for å åpne siden **Utvidelsesinnstilling**.
 4. Kontroller at vekslebryteren **Tillat HTTPClient-forespørsler** er aktivert.
 
@@ -90,13 +90,17 @@ De følgende fremgangsmåtene beskriver hvordan du roterer tilgangstokenet som b
 
 ## <a name="known-issues"></a>Kjente problemer
 
-*Bokføringsgruppe – firma* kan ikke være null eller tom. Det må finnes en verdi i kundefeltet. Slik korrigerer du:
+### <a name="the-gen-bus-posting-group-cannot-be-zero-or-empty-there-must-be-a-value-in-the-customer-field"></a>*Bokføringsgruppe – firma* kan ikke være null eller tom. Det må finnes en verdi i kundefeltet
 
 På siden **Shopify-butikkort** fyller du ut feltet **Kundemalkode** med malen som har **Bokføringsgruppe – firma** fylt ut. Kundemalen brukes ikke bare til oppretting av kunder, men også for beregning av salgspris og oppretting av salgsdokumenter.
 
 ### <a name="importing-data-to-your-shopify-shop-isnt-enabled-go-to-the-shop-card-to-enable-it"></a>Import av data til Shopify-butikk er ikke aktivert. Gå til butikkortet for å aktivere det
 
-I vinduet **Shopify-butikkort** aktiverer du veksleknappen **Tillat datasynkronisering til Shopify**.  Denne vekslingen er ment å beskytte nettbutikken fra å motta demodata fra [!INCLUDE[prod_short](../includes/prod_short.md)].
+I vinduet **Shopify-butikkort** aktiverer du veksleknappen **Tillat datasynkronisering til Shopify**. Denne vekslingen er ment å beskytte nettbutikken fra å motta demodata fra [!INCLUDE[prod_short](../includes/prod_short.md)].
+
+### <a name="oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key"></a>Oauth-feilen invalid_request: Finner ikke Shopify API-program med api_key
+
+Det ser ut til at du bruker [Bygg inn-appen](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) der klientnettadressen har formatet: `https://[application name].bc.dynamics.com`. Shopify-koblingen fungerer ikke for innebygde apper. Hvis du vil ha mer informasjon, kan du se [Hvilke Microsoft-produkter er Shopify-koblingen tilgjengelig for?](shopify-faq.md#what-microsoft-products-is-the-shopify-connector-available-for).
 
 ## <a name="see-also"></a>Se også
 
