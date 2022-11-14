@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors
 ms.date: 10/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 9d6d5ca853d11a08c2933dd6abcbc82d0ff4dbc4
-ms.sourcegitcommit: d6af3155bb818430f22d5caca78df322a8d9b178
+ms.openlocfilehash: 064780473eb98f4fde4d170f0aa5c16a998799af
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 04/01/2022
-ms.locfileid: "8528478"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744765"
 ---
 # <a name="troubleshooting-microsoft-teams-integration-with-prod_short"></a>Feilsøke Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
@@ -159,6 +159,23 @@ Dette problemet kan skyldes en rekke årsaker. Identiteten du bruker til å logg
 ## <a name="my-cards-no-longer-have-a-popout-button"></a>Kortene mine har ikke lenger popout-knapp
 
 Fra april 2022 vil ikke koblinger fra kompakte kort i Teams lenger inneholde **Popout**- knappen. Hvis du vil åpne kortet i et eget vindu, velger du **Detaljer**-knappen, og deretter velger du **Åpne i nettleser** fra ellipsemenyen (**...**) i øvre høyre hjørne av vinduet.
+
+## <a name="cant-pin-a-card-to-tab"></a>Kan ikke feste et kort til fane
+
+Det er et par årsaker til dette problemet.
+
+- Hvis kortet ble delt fra Søk i ME, kan det ikke festes til en fane. 
+
+- Kan ikke feste før du legger til den første Business Central-fanen. Dette problemet er kjent i Teams. 
+
+## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Noen har lagt til en fane, men jeg ser ikke fanen
+
+Dette problemet skyldes at du ikke har installert BC-appen for Teams. Bare de med appen installert vil se Business Central-faner.
+
+## <a name="others-see-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Andre ser forskjellige sorterings- eller kolonneoppsett enn det faneforfatteren ser
+
+Dette problemet skyldes sannsynligvis at du har delt en listevisning som er en personlig visning. I dette tilfellet arbeider du med administratoren for å opprette rollespesifikke listevisninger som dekker de forskjellige rollene i kanalen/nettpraten, eller oppretter denne visningen for hele organisasjonen, slik at alle kan få en konsekvent visning.
+
 
 ## <a name="see-also"></a>Se også
 

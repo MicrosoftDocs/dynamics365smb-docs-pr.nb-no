@@ -1610,6 +1610,7 @@
 ##### [Administrer Teams-integrering](admin-teams-integration.md)
 ##### [Installer Business Central-appen for Teams](across-install-app-for-teams.md)
 ##### [Søk etter kunder, leverandører og andre kontakter](across-search-contacts-teams.md)
+##### [Legg til Business Central-fane i kanal eller nettprat](across-teams-tab.md)
 ##### [Del oppføringer og sidekoblinger i Teams](across-working-with-teams.md)
 ##### [Endre selskap og andre innstillinger](across-teams-settings.md)
 ##### [Vanlige spørsmål om Teams](teams-faq.md)
@@ -1783,7 +1784,13 @@
 ## Administrasjonsoppgaver i Business Central
 ### [Administrasjonsoppgaver](admin-setup-and-administration.md)
 ### [Opprette brukere i henhold til lisenser](ui-how-users-permissions.md)
-### [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md)
+### [Tildel tillatelser til brukere og grupper](ui-define-granular-permissions.md)
+### Tilgang med Microsoft 365-lisenser
+#### [Oversikt](admin-access-with-m365-license.md)
+#### [Konfigurer tilgang med Microsoft 365-lisenser](admin-access-with-m365-license-setup.md)
+#### [Brukertilgangsflyt](admin-access-with-m365-license-flow.md)
+<!--#### [FAQ](admin-access-with-m365-license-faq.md) file temporarily moved to archive folder-->
+#### [Feilsøking](admin-access-with-m365-license-troubleshooting.md) 
 ### [Administrere profiler](admin-users-profiles-roles.md)
 ### [Behandle brukerinnstillinger og innstillinger](admin-manage-user-settings-preferences.md)
 ### [Konfigurere skrivere](ui-specify-printer-selection-reports.md)
