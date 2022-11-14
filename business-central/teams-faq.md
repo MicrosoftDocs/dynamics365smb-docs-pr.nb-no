@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, faq, errors
 ms.date: 09/28/2022
 ms.author: jswymer
-ms.openlocfilehash: d9dfc380b1b8a76fc06363740b256f28b162a85a
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.openlocfilehash: aac91da92b51831951bd890248d7f80f8bc5104d
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606120"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744708"
 ---
 # <a name="teams-faq"></a>Vanlige spørsmål om Teams
 
@@ -145,6 +145,92 @@ Hvis du ønsker ta del i forbedre appen for Teams, eller hvis du har en idé som
 
 Hvis du vil finne ut mer om funksjonaliteten i nettklienten som kobler til Teams, kan du se [Del poster og sidekoblingene i Microsoft Teams](across-working-with-teams.md#share-link).
 
+## <a name="business-central-tabs"></a>[Business Central-faner](#tab/tabs)
+
+### <a name="who-can-see-the-content-of-a-tab"></a><a name="who-can-view"></a>Hvem kan vise innholdet i en fane?
+
+Alle personer i nettpraten eller kanalen som har følgende:
+
+1. Business Central-appen for Teams installert.
+2. Enten en Business Central-lisens eller har fått tilgang til Business Central ved hjelp av Microsoft 365-lisensen sin.
+3. Tillatelser til å vise dataene på siden.
+
+### <a name="where-does-the-recommended-content-come-from"></a><a name=#recommended-content></a>Hvor kommer det anbefalte innholdet fra?
+
+Det anbefalte innholdet du kan velge mellom i alternativet **Faneinnhold** i en fane, er basert på rollesenteret ditt. Anbefalt innhold tar bare med listesider, for eksempel kunder, salgsordrer og leverandører – ikke individuelle kortsider som en bestemt kunde eller leverandør.
+
+Anbefalt innhold omfatter følgende:
+
+- Handlinger i den øverste navigasjonsmenyen i rollesenteret
+- Alle listesider du har bokmerket.
+- Hvis en listeside tilbyr forskjellige visninger, inkludert alle visninger du har opprettet, kan du også velge blant de visningene
+
+Du kan legge til listesider i det anbefalte innholdet ved å legge til bokmerker. Du kan også fjerne anbefalt innhold ved å slette bokmerker. Hvis du vil lære hvordan du legger til eller sletter bokmerker, kan du se [Bokmerk en side eller rapport i rollesenteret](ui-bookmarks.md).
+
+Hvis du bytter miljø eller selskap i fanealternativet, vil det anbefalte innholdet endres basert på rollesenteret og bokmerkene for miljøet og selskapet du bytter til.
+
+
+
+### <a name="when-i-create-a-tab-does-it-grant-permissions-to-the-people-in-the-channel-or-chat"></a>Når jeg oppretter en fane, gir den tillatelser til personene i kanalen eller nettpraten?
+
+Nei. Oppretting av faner påvirker ikke tillatelser, og brukere må allerede ha tilgang til dataene når de åpner fanen.
+
+### <a name="can-i-chat-alongside-a-tab"></a>Kan jeg nettprate ved siden av en fane?
+
+Ja. Bruk nettpratikonet når du vil starte samtalen. Denne nettprattråden knyttes deretter til fanen. 
+
+### <a name="if-i-remove-a-tab-from-a-chat-or-channel-is-any-business-central-data-deleted"></a>Hvis jeg fjerner en fane fra en nettprat eller kanal, slettes eventuelle Business Central-data?
+
+Nei.
+
+### <a name="can-i-safely-rename-a-tab"></a>Kan jeg trygt endre navn på en fane?
+
+Ja. Innholdet i fanen er ikke relatert til det faktiske navnet på fanen. Endre navn hvis du vil. 
+
+### <a name="i-need-to-work-across-tasks-in-different-windows-can-i-do-this"></a>Jeg trenger å arbeide på tvers av oppgaver i forskjellige vinduer. Kan jeg gjøre det?
+
+Ja. Du kan vise fanen til et eget nettleservindu for å vise Business Central-nettklienten for virksomheten. 
+
+### <a name="can-i-add-or-pin-tab-in-team-meetings"></a>Kan jeg legge til eller feste fanen i Teams-møter?
+
+Nei. Business Central-appen for Teams støtter ikke faner i møter.
+
+### <a name="cant-add-a-tab-if-using-isv-urls-like-bcdynamicscom-but-can-pin"></a>Kan ikke legge til en fane hvis du bruker ISV-nettadresser som *.bc.dynamics.com (men kan feste)
+
+Støttes ikke.
+
+### <a name="when-i-do-things-in-the-tab-like-navigate-resort-apply-a-filter-or-search-do-others-see-my-changes"></a>Når jeg er ting i fane, for eksempel navigering, som å navigere, sortere på nytt, bruke et filter eller søke, ser andre endringene mine?
+
+Nei. Bare feltendringer eller handling som kjører, påvirker hvordan andre ser innholdet i fanen.
+
+### <a name="does-the-tab-content-refresh-automatically-if-not-how-do-i-refresh-it"></a>Oppdateres faneinnholdet i automatisk? Hvis ikke hvordan oppdaterer jeg den?
+
+Innholdet blir ikke oppdatert automatisk, og det finnes for øyeblikket ingen oppdateringsknapp. Den beste måten å oppdatere innholdet på for å være sikker på at det er oppdatert, er å forlate fanen og deretter kommer tilbake. 
+
+### <a name="does-this-show-lists-and-records-from-my-customizations-and-add-ons"></a>Viser dette lister og poster fra tilpasninger og tillegg?
+
+Ja. 
+
+### <a name="when-i-add-a-tab-will-people-see-it-in-my-language"></a>Når jeg legger til en fane, ser andre den på språket mitt?
+
+Nei. Hver bruker viser innholdet i fanen med innstillingene for språk, område og tidssone fra Business Central. 
+
+### <a name="can-i-have-multiple-tabs-pointing-to-different-content"></a>Kan jeg ha flere faner som peker til annet innhold?
+
+Ja.
+
+### <a name="can-i-also-add-tabs-to-chat-with-a-single-person"></a>Kan jeg også legge til faner for å nettprate med én person?
+
+Ja, så lenge nettpraten ikke er en kladd (det vil si at en melding ikke er sendt for å starte denne samtalen) og den andre personen har Business Central-appen installert også.
+
+### <a name="can-i-switch-companies-within-a-tab"></a>Kan jeg bytte selskap i en fane?
+
+Nei. 
+
+### <a name="is-this-different-than-using-teams-generic-ability-to-create-a-tab-that-hosts-a-website"></a>Er dette forskjellig fra den generelle muligheten i Teams til å opprette en fane som er vert for et nettsted?
+
+Ja. Vi anbefaler ikke at du bruker denne tilnærmingen. I mange tilfeller fungerer det ikke for Business Central.
+
 ## <a name="search-for-contacts"></a>[Søk etter kontakter](#tab/contacts)
 
 ### <a name="which-tables-does-the-app-search-in"></a>Hvilke tabeller søker i programmet i?
@@ -156,6 +242,7 @@ Når du søker etter kontakter fra [!INCLUDE [prod_short.md](includes/prod_short
 Når du skriver inn søkeordene i søkeboksen, sammenlignes vilkårene med de fleste feltene i tabellen **Kontakter**. Feltene inkluderer for eksempel **Nr.**, **Navn**, **Adresse** og **Telefonnr.** eller **Mobiltelefonnr.** og **E-post**. 
 
 Søkeord samsvarer ikke med egendefinerte felter som legges til i tabellen **Kontakter** etter apper og utvidelser.
+
 ### <a name="do-search-results-include-companies-and-persons"></a>Inkluderer søkeresultater selskaper og personer?
 
 Ja. I [!INCLUDE [prod_short.md](includes/prod_short.md)] kan kontakter være av typen **Selskap** eller **Person**, der én eller flere personer kan knyttes til et selskap. I søkeresultatene har selskaper og personer ulike ikoner.
