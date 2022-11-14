@@ -2,19 +2,19 @@
 title: Oversikt over Business Central og Microsoft Teams-integrering | Microsoft Docs
 description: Del Business Central-oppføringer direkte i en Teams-samtale.
 author: jswymer
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
 ms.date: 09/22/2022
-ms.author: jswymer
-ms.openlocfilehash: f826ceaca3ae6f5a68a60a43f4824fcbe60c0753
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
+ms.custom: bap-template
+ms.openlocfilehash: 13c5e71ff35bf0bb45cabebe2124864c7875f526
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716562"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744900"
 ---
 # <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams-integrering
 
@@ -59,6 +59,14 @@ Fra de fleste samlings- og detaljsidene i Business Central kan du bruke handling
 <!--![!The Share menu displayed on a card.](media/teams-share-link.png "The Share menu displayed on a card.")-->
 
 Hvis du vil ha mer informasjon, kan du se [Del oppføringer og sidekoblinger i Microsoft Teams](across-working-with-teams.md#share-link).
+
+### <a name="add-a-business-central-tab-to-teams-channel-or-chat"></a>Legg til en Business Central-fane i Teams-kanal eller -nettprat
+
+Med Business Central-appen for Teams har installert kan du legge til en fane i en kanal eller nettprat med Business Central-data fra lister og kortsider.
+
+![Faner i Teams](media/teams-tabs-border.png)
+
+Hvis du vil ha mer informasjon, kan du se [Legg til en Business Central-fane i Teams](across-teams-tab.md).
 
 ## <a name="get-started"></a>Kom i gang
 

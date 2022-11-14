@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: exchange data, external files, electronic documents, AMC Banking, OCT, SEPA
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 00bac7c92cf6b29cbd79f5b3f04eaa9dfab1ee2d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+ms.openlocfilehash: bb5886d46e780a32f0d0e58d0f62c58cacdc91a7
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133437"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744738"
 ---
 # <a name="exchanging-data"></a>Utveksle data
 Du kan utveksle data mellom [!INCLUDE[prod_short](includes/prod_short.md)] og eksterne filer eller strømmer i forbindelse med vanlige forretningsoppgaver, for eksempel sending og mottak av elektroniske dokumenter og import og eksport av bankfiler.  
@@ -34,6 +34,7 @@ Før du kan sende og motta elektroniske dokumenter eller importere og eksportere
 |Instruere banken om å overføre betalingsbeløpet fra kundenes bankkonti til firmaets konto i henhold til oppsettet av SEPA direct debit.|[Opprette poster for SEPA Direct Debit-oppkreving og eksportere til en bankfil](finance-collect-payments-with-sepa-direct-debit.md#creating-sepa-direct-debit-collection-entries-and-export-to-a-bank-file)|  
 |Bruk en tjenesteleverandør for valutakurser for å oppdatere **Valutaer**-siden.|[Oppdatere valutakurser](finance-how-update-currencies.md)|  
 |Vis hvilke filelementer som er tilordnet til felt i [!INCLUDE[prod_short](includes/prod_short.md)], når du importerer SEPA CAMT-bankkontoutdragsfiler.|[Felttilordning ved import av SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md)|  
+|Eksporter data for Intrastat-rapportering i [!INCLUDE[prod_short](includes/prod_short.md)].|[Definer Intrastat-rapportering](finance-how-setup-report-intrastat.md)|
 |Vis hvilke felt i [!INCLUDE[prod_short](includes/prod_short.md)] som er tilordnet til filelementene, når du eksporterer betalingsfiler ved hjelp av utvidelsen AMC Banking 365 Fundamentals.|[Felttilordning ved eksport av betalingsfiler ved hjelp av utvidelsen AMC Banking 365 Fundamentals](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)|  
 
 ## <a name="see-also"></a>Se også  

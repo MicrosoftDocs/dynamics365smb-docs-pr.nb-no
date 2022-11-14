@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: purchase order, purchase, date, receipt, delivery, lead time
 ms.search.forms: ''
-ms.date: 02/06/2022
+ms.date: 10/28/2022
 ms.author: bholtorf
-ms.openlocfilehash: 515f95506bfae97ba0c66389d219751ea5b6896e
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 54d3ce9c571973482fe1ba0fdb8cad76a87752c2
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530544"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744954"
 ---
 # <a name="calculate-dates-for-purchases"></a>Beregn datoer for kjøp
 
@@ -44,9 +44,9 @@ Hvis du angir en ønsket mottaksdato på en bestillingslinje, tildeles denne dat
 > [!NOTE]
 > Hvis prosessen er basert på beregning bakover, for eksempel hvis du bruker ønsket mottaksdato til å hente den planlagte ordredatoen, anbefaler vi at du bruker datoformler som har faste varigheter, for eksempel "5D" i fem dager eller "1U" for én uke. Datoformler uten faste varigheter, for eksempel GU for gjeldende uke eller GM for gjeldende måned, kan resultere i feil datoberegninger. Hvis du vil ha mer informasjon om datoformler, kan du se [Arbeid med datoer og klokkeslett i kalenderen](ui-enter-date-ranges.md).
 
-## <a name="calculating-without-a-requested-delivery-date"></a>Beregne uten en ønsket leveringsdato
+## <a name="calculating-without-a-requested-receipt-date"></a>Beregne uten en ønsket mottaksdato
 
-Hvis du angir en bestillingslinje uten en ønsket leveringsdato, viser feltet **Ordredato** på linjen datoen i feltet **Ordredato** i bestillingshodet. Denne datoen er enten den angitte datoen eller arbeidsdatoen. Datoer beregnes deretter for bestillingslinjen, med utgangspunkt i bestillingsdatoen, slik:  
+Hvis du angir en bestillingslinje uten en ønsket mottaksdato, viser feltet **Ordredato** på linjen datoen i feltet **Ordredato** i bestillingshodet. Denne datoen er enten den angitte datoen eller arbeidsdatoen. Datoer beregnes deretter for bestillingslinjen, med utgangspunkt i bestillingsdatoen, slik:  
 
 - bestillingsdato + beregning av leveringstid = planlagt mottaksdato  
 - planlagt mottaksdato + inngående lagerhåndteringstid + sikkerhetsleveringstid = forventet mottaksdato  

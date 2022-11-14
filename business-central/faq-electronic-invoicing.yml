@@ -3,30 +3,32 @@ metadata:
   title: Vanlige spørsmål om elektronisk fakturering
   description: Få svar om dokumentutvekslingstjenesten og støttede versjoner av PEPPOL.
   ms.topic: faq
-  ms.openlocfilehash: 0351a756d8b07eee489ff5457c8463f8587dded4
-  ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
+  author: edupont04
+  ms.author: edupont
+  ms.openlocfilehash: 42e9278371ac9736d9d6a0d4b8e288fbe295c863
+  ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
   ms.translationtype: HT
   ms.contentlocale: nb-NO
-  ms.lasthandoff: 02/15/2022
-  ms.locfileid: "8136221"
+  ms.lasthandoff: 11/04/2022
+  ms.locfileid: "9744819"
 title: Vanlige spørsmål om elektronisk fakturering
-summary: "Den innebygde dokumentutvekslingstjenesten sender elektroniske fakturaer til TradeShift, som er en tjenesteleverandør som videresender elektroniske fakturaer til PEPPOL- eller NemHandel-mottakere. Men tjenesten støtter et begrenset antall versjoner.   \n\nDe vanlige spørsmålene her gir svar på noen av hovedspørsmålene om elektronisk fakturering.  \n"
+summary: "Den innebygde dokumentutvekslingstjenesten sender elektroniske fakturaer til TradeShift, som er en tjenesteleverandør som videresender elektroniske fakturaer til PEPPOL- eller NemHandel-mottakere. Men tjenesten støtter et begrenset antall versjoner.   \n\nDe vanlige spørsmålene her gir svar på noen av hovedspørsmålene om elektronisk fakturering.  \n"
 sections:
 - name: Generelt
   questions:
   - question: Hva er problemet?
     answer: Den innebygde støtten for PEPPOL bruker en API som leveres av TradeShift. Men API-en støtter ikke nyere versjoner av PEPPOL.
   - question: Hva er den siste versjonen av PEPPOL som støttes av TradeShift-API-en?
-    answer: Den siste versjonen av PEPPOL som støttes av TradeShift-API-en er **PEPPOL BIS 2.1**.
+    answer: Den siste versjonen av PEPPOL som støttes av TradeShift-API-en er **PEPPOL BIS 2.1**.
   - question: Hva er den siste versjonen av PEPPOL som støttes av Business Central?
-    answer: Den siste versjonen av PEPPOL som støttes av standardversjonen av Business Central, er **PEPPOL BIS 3.0**. Vi holder den eksisterende dokumentutvekslingstjenesten basert på TradeShift kjørende så lenge TradeShift støtter den gjeldende API-en. I tillegg støtter vi fortsatt støttede formater for elektronisk fakturering.
+    answer: Den siste versjonen av PEPPOL som støttes av standardversjonen av Business Central, er **PEPPOL BIS 3.0**. Vi holder den eksisterende dokumentutvekslingstjenesten basert på TradeShift kjørende så lenge TradeShift støtter den gjeldende API-en. I tillegg støtter vi fortsatt støttede formater for elektronisk fakturering.
 - name: -apper
   questions:
   - question: Finnes det apper som kan hjelpe oss med elektronisk fakturering?
     answer: >
       Ja. Følgende liste gir eksempler på eksisterende apper for Business Central som støtter elektronisk fakturering i de nyeste formatene. Vær oppmerksom på at dette ikke er en fullstendig oversikt:
 
-      - [Pagero – E-faktureringsapp (Danmark, Tyskland, Finland, Frankrike, Norge, Spania, Sverige, Storbritannia)](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6)
+      - [Pagero – E-faktureringsapp (Belgia, Danmark, Tyskland, Finland, Frankrike, Italia, Luxemburg, Norge, Saudi-Arabia, Singapore, Spania, Sverige, Storbritannia, USA)](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6)
 
       - [Oseberg Solutions – E-faktura PEPPOL BIS (Norge)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.oseberg_solutions%7CAID.oseberg_peppol%7CPAPPID.49206e10-c889-400d-8465-bde6555e00fc)
 
@@ -36,7 +38,7 @@ sections:
 
       - [NAVlab – FTE LITE CLOUD (Italia)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.navlab-1990684%7CAID.felight%7CPAPPID.a239eef8-4446-4379-a0af-e0f8f1e7f260?tab=Overview)
 
-      - [AppVision – Elektronisk faktura for Ungarn](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.appvision-5226274%7CAID.hungarian_electronic_invoice%7CPAPPID.f5891011-91e3-416e-92c7-db21f1f3a939?tab=Overview) 
+      - [AppVision – Elektronisk faktura for Ungarn](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.appvision-5226274%7CAID.hungarian_electronic_invoice%7CPAPPID.f5891011-91e3-416e-92c7-db21f1f3a939?tab=Overview)
 
       - [Estonian Dynamics Partners – Telema EDI (Estland)](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.estonian_dynamics_partners%7CAID.telema-edi%7CPAPPID.0f6cfaa0-c4d6-49af-a644-4194e69420be)
 
@@ -50,5 +52,5 @@ sections:
 - name: B2G-krav i Tyskland
   questions:
   - question: Hva med B2G-kravet i Tyskland?
-    answer: For Business Central-brukere som har kunder i den tyske regjeringen og trenger B2G-fakturering, må de fra og med 27. november 2020 sende fakturaer i lokale formater, for eksempel *XRechnung* eller *ZUGFeRD*.  Dette støttes av apper som [Belware XRechnung](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector_365_xrechnung%7CPAPPID.0e71f27e-d331-4045-a643-c2777a797cc4?tab=Overview) eller [Pagero E-Invoicing](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6). 
+    answer: For Business Central-brukere som har kunder i den tyske regjeringen og trenger B2G-fakturering, må de fra og med 27. november 2020 sende fakturaer i lokale formater, for eksempel *XRechnung* eller *ZUGFeRD*.  Dette støttes av apper som [Belware XRechnung](https://appsource.microsoft.com/product/dynamics-365-business-central/PUBID.belwaregmbh2%7CAID.connector_365_xrechnung%7CPAPPID.0e71f27e-d331-4045-a643-c2777a797cc4?tab=Overview) eller [Pagero E-Invoicing](https://appsource.microsoft.com/product/dynamics-365-business-central/pubid.pagero-4798327%7Caid.pagero%7Cpappid.92b90d1d-ecde-4d26-a95b-1d57720e79c6).
 additionalContent: "## <a name=\"next-steps\"></a>Neste trinn\nFinn relatert informasjon her: \n  - [Sende elektroniske dokumenter](sales-how-to-send-electronic-documents.md)"

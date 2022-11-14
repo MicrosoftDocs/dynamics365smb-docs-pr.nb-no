@@ -9,12 +9,12 @@ ms.workload: na
 ms.search.keywords: ''
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: d2b4ac035f3c6336a5bc5646cbc0145bb671788a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
+ms.openlocfilehash: 2cabd68e2ec22aaef4ad1f0b34305a95a2e93a5e
+ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529437"
+ms.lasthandoff: 11/04/2022
+ms.locfileid: "9744927"
 ---
 # <a name="setting-up-data-exchange"></a>Definere datautveksling
 
@@ -34,7 +34,8 @@ Før du kan sende og motta elektroniske dokumenter eller importere og eksportere
 |Klargjør bankkontoformater, betalingsmetoder og kundeavtaler for SEPA direct debit.|[Innkreve betalinger med SEPA direct debit](finance-collect-payments-with-sepa-direct-debit.md)|  
 |Konfigurer brukergodkjenning og URL-adressen til leverandøren av utvidelsen AMC Banking 365 Fundamentals som kreves for å få bankfiler konvertert til bankens format.|[Bruk utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)|  
 |Konfigurer og aktiver en ekstern tjeneste som lar deg importere bankkontoutdrag direkte som bankfeeder.|[Konfigurere tjeneste for konvertering av bankdata](bank-how-setup-bank-statement-service.md)|  
-|Når tjenesten for bankkontoutdrag er aktivert, må du koble bankkonti i [!INCLUDE[prod_short](includes/prod_short.md)].|[Opprette bankkonti](bank-how-setup-bank-accounts.md)|  
+|Når tjenesten for bankkontoutdrag er aktivert, må du koble bankkonti i [!INCLUDE[prod_short](includes/prod_short.md)].|[Opprett bankkonti](bank-how-setup-bank-accounts.md)|  
+|Konfigurer dataeksport for Intrastat-rapportering i [!INCLUDE[prod_short](includes/prod_short.md)].|[Definer Intrastat-rapportering](finance-how-setup-report-intrastat.md)|
 |Gjør klar til å sette opp en ny datautvekslingsdefinisjon for en datafil eller datastrøm ved å bruke XML-skjemaet for filen til å forhåndsutfylle hurtigfanen **Kolonnedefinisjoner** på siden **Definisjoner av bokføringsutveksling**.|[Bruke XML-skjemaer til å klargjøre datautvekslingsdefinisjoner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
 |Definer rammeverket for datautveksling for å la brukerne motta et nytt kjøpsdokumentformat, sende et nytt salgsdokumentformat, importere en ny bankfil, eller annen datautveksling.|[Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)|  
 
