@@ -1,20 +1,21 @@
 ---
 title: Angi når og hvor du kan motta arbeidsflytvarsler
 description: Når du definerer brukere i arbeidsflyt for godkjenning, kan du angi hvordan og når hver godkjenningsbruker mottar varsler.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
+ms.search.form: 663, 1500, 1512, 1513,
 ms.date: 09/09/2022
-ms.author: edupont
-ms.openlocfilehash: 7b70da08a4fb8ffdb7ff16544b511576f9af0f86
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.author: bholtorf
+ms.openlocfilehash: 74387ee5cb8581d8b8e1cce5c1d1c8850cd6c842
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585513"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9763266"
 ---
 # <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Angi når og hvor du kan motta arbeidsflytvarsler
 
@@ -38,10 +39,10 @@ Mange trinn i arbeidsflyten for godkjenning omhandler å varsle brukere om at de
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukeroppsett for godkjenning**, og velg deretter den relaterte koblingen.  
 2. Velg linjen for brukeren du vil konfigurere varslingsinnstillinger for, og velg deretter **Oppsett av varsling**.  
-3. På siden **Oppsett av varsling** fyller du ut feltene som beskrevet i tabellen nedenfor.  
+3. På siden **Oppsett av arbeidsflytvarsling** fyller du ut feltene som beskrevet i tabellen nedenfor.  
 
    > [!NOTE]
-   > Hvis du åpner siden **Oppsett av varsling** fra siden **Brukeroppsett for godkjenning**, er varslingsoppsettet tilknyttet godkjenningsbrukeren. Godkjenningsbrukeren vil alltid motta arbeidsflytvarsler i henhold til varslingsoppsettet. Hvis du bruker funksjonen *Fortell meg* til å åpne **Oppsett av varsling**-siden, gjelder varslingsoppsettet alle brukere.
+   > Hvis du åpner siden **Oppsett av arbeidsflytvarsling** fra siden **Brukeroppsett for godkjenning**, er varslingsoppsettet tilknyttet godkjenningsbrukeren. Godkjenningsbrukeren vil alltid motta arbeidsflytvarsler i henhold til varslingsoppsettet. Hvis du bruker funksjonen *Fortell meg* til å åpne **Oppsett av arbeidsflytvarsling**-siden, gjelder varslingsoppsettet alle brukere.
 
    |Felt|Description|
    |-----|-----------|
@@ -66,7 +67,7 @@ Mange trinn i arbeidsflyten for godkjenning omhandler å varsle brukere om at de
 ## <a name="change-when-and-how-you-receive-notifications"></a>Endre når og hvor du mottar varsler
 
 1. I et av varslene som du har mottatt, enten som en e-post eller et notat, velger du **Endre varslingsinnstillinger**.  
-2. På siden **Oppsett av varsling** endre du varslingsinnstillinger, som beskrevet i trinn 3 til 5 ovenfor.
+2. På siden **Oppsett av arbeidsflytvarsling** endre du varslingsinnstillinger, som beskrevet i trinn 3 til 5 ovenfor.
    1. Kontroller at riktig varsel er valgt under feltet **Varslingstype**.
    2. Velg om du vil motta en e-post eller et notatvarsel under feltet **Varslingsmetode**.
    3. Velg **varslingsplanen** for å endre hyppigheten og gjentakelsen for når varslinger sendes.

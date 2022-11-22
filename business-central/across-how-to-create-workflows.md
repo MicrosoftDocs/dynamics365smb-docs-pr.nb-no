@@ -1,24 +1,24 @@
 ---
 title: Opprett godkjenningsarbeidsflyter for å koble til oppgaver
-description: Du kan opprette arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere, og som omfatter systemoppgaver, for eksempel automatisk bokføring, som arbeidsflyttrinn.
-author: SorenGP
+description: Finn ut hvordan du oppretter arbeidsflytprosesser som kobler oppgaver som utføres av forskjellige personer i forretningsprosesser.
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: ''
-ms.date: 09/08/2022
-ms.author: edupont
-ms.openlocfilehash: d2d9f3f91210b2a4d8d67890d01018565d8ef087
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
+ms.date: 11/11/2022
+ms.author: bholtorf
+ms.openlocfilehash: 0d84da534c754ba7b0f6d1de97b61634ff743ddc
+ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9586003"
+ms.lasthandoff: 11/14/2022
+ms.locfileid: "9763271"
 ---
-# <a name="create-workflows-to-connect-business-process-tasks"></a>Opprett arbeidsflyter for å koble til forretningsprosessoppgaver
+# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Opprett arbeidsflyter for å koble til oppgaver i forretningsprosesser
 
-Du kan opprette arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn.  
+Du kan opprette arbeidsflyter som kobler til oppgaver i forretningsprosesser som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn.  
 
 På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse endret av hendelsesbetingelsene og et arbeidsflytsvar med svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felter på arbeidsflytlinjer ved å bruke faste lister over verdier for hendelse og svar som representerer scenarioer som støttes av programkoden.  
 
@@ -73,7 +73,10 @@ For begge hendelser og svar er alternativene systemdefinert. Nye må legges til 
 
     1. Hvis du vil angi alternativer for et arbeidsflytsvar som involverer sending av en melding, fyller du ut feltene som beskrevet i følgende tabell.  
 
-       |Felt|Beskrivelse|
+    > [!NOTE]
+    > Disse feltene varierer avhengig av svaret du har valgt.
+
+       |Felt|Description|
        |-----|-----------|
        |**Varsle avsender**|Angi om godkjenningsanmoderen skal varsles i stedet for mottakeren av godkjenningsforespørselen. Hvis du setter en hake i avmerkingsboksen, deaktiveres feltet **Bruker-ID for mottaker**, fordi godkjenningsanmoderen, avsenderen, blir varslet i stedet. Navnet på arbeidsflytsvarendringene endres i henhold til dette til **Opprett varsel for &lt;avsender&gt;**. Hvis det ikke er merket av i avmerkingsboksen, er navnet på arbeidsflytsvaret **Opprett varsel for &lt;Bruker&gt;**.|
        |**Bruker-ID for mottaker**|Angi brukeren meldingen må sendes til. **Obs!** Dette alternativet er bare tilgjengelig for arbeidsflytsvar med en plassholder for en bestemt bruker. For arbeidsflytsvar uten plassholdere for brukere er varslingsmottakeren vanligvis definert av **Brukeroppsett for godkjenning**.|
@@ -83,19 +86,19 @@ For begge hendelser og svar er alternativene systemdefinert. Nye må legges til 
 
     2. Hvis du vil angi alternativer for et arbeidsflytsvar som involverer oppretting av en godkjenningsforespørsel, fyller du ut feltene som beskrevet i følgende tabell.  
 
-        |Felt|Beskrivelse|  
-        |-----|-----------|  
-        |**Forfallsdatoformel**|Angi hvor mange dager som gjenstår før godkjenningsforespørselen må løses fra datoen da den ble sendt.|
-        |**Deleger etter**|Angi om og når en forespørsel om godkjenning er delegert automatisk til relevant stedfortreder. Du kan velge å automatisk delegere en, to, eller fem dager etter datoen da godkjenningen ble forespurt.|
-        |**Godkjennertype**|Angi hvem godkjenneren er, i henhold til oppsettet for godkjenningsbrukere og arbeidsflytbrukere. Når feltet er angitt til **Selger/innkjøper**, kan brukeren som er definert i feltet **Selger/innkjøper – kode** på siden **Brukeroppsett for godkjenning**, bestemme godkjenneren. Godkjenningsforespørselsposter blir deretter opprettet i henhold til verdien i feltet **Godkjennergrensetype**. Finn ut mer under [Definer godkjenningsbrukere](across-how-to-set-up-workflow-users.md).|
-        |**Vis bekreftelsesmelding**|Angi om en bekreftelsesmelding skal vises til brukere når de ber godkjenning.|
-        |**Godkjennergrensetype**|Angi hvordan godkjennergodkjenningsgrenser påvirker når godkjenningsforespørselsposter opprettes for dem. En kvalifisert godkjenner er en godkjenner med en godkjenningsgrense som er høyere enn verdien på forespørselen. Følgende alternativer finnes: <ol><li>**Godkjennerkjede** angir at godkjenningsforespørselsposter er opprettet for alle bestillerens godkjennere opptil og inkludert den første kvalifiserte godkjenneren</li><li>**Direkte godkjenner** angir at en godkjenningsforespørselspost bare opprettes for anmoderens umiddelbare godkjenner, uavhengig av godkjennerens godkjenningsgrense</li><li>**Første kvalifiserte godkjenner** angir at en godkjenningsforespørselspost bare opprettes for anmoderens første kvalifiserte godkjenner.</li></ol>|
+       |Felt|Beskrivelse|  
+       |-----|-----------|  
+       |**Forfallsdatoformel**|Angi hvor mange dager som gjenstår før godkjenningsforespørselen må løses fra datoen da den ble sendt.|
+       |**Deleger etter**|Angi om og når en forespørsel om godkjenning er delegert automatisk til relevant stedfortreder. Du kan velge å automatisk delegere en, to, eller fem dager etter datoen da godkjenningen ble forespurt.|
+       |**Godkjennertype**|Angi hvem godkjenneren er, i henhold til oppsettet for godkjenningsbrukere og arbeidsflytbrukere. Når feltet er angitt til **Selger/innkjøper**, kan brukeren som er definert i feltet **Selger/innkjøper – kode** på siden **Brukeroppsett for godkjenning**, bestemme godkjenneren. Godkjenningsforespørselsposter blir deretter opprettet i henhold til verdien i feltet **Godkjennergrensetype**. Finn ut mer under [Definer godkjenningsbrukere](across-how-to-set-up-workflow-users.md).|
+       |**Vis bekreftelsesmelding**|Angi om en bekreftelsesmelding skal vises til brukere når de ber godkjenning.|
+       |**Godkjennergrensetype**|Angi hvordan godkjennergodkjenningsgrenser påvirker når godkjenningsforespørselsposter opprettes for dem. En kvalifisert godkjenner er en godkjenner med en godkjenningsgrense som er høyere enn verdien på forespørselen. Følgende alternativer finnes: <ol><li>**Godkjennerkjede** angir at godkjenningsforespørselsposter er opprettet for alle bestillerens godkjennere opptil og inkludert den første kvalifiserte godkjenneren</li><li>**Direkte godkjenner** angir at en godkjenningsforespørselspost bare opprettes for anmoderens umiddelbare godkjenner, uavhengig av godkjennerens godkjenningsgrense</li><li>**Første kvalifiserte godkjenner** angir at en godkjenningsforespørselspost bare opprettes for anmoderens første kvalifiserte godkjenner.</li><li>**Bestemt godkjenner** angir at du varsler brukeren som er valgt i feltet **Godkjenner-ID**.</li></ol>|
     3. Hvis du vil angi alternativer for et arbeidsflytsvar som involverer oppretting av kladdelinjer, fyller du ut feltene som beskrevet i følgende tabell.  
 
-        |Felt|Beskrivelse|  
-        |-----|-----------|  
-        |**Finanskladdemalnavn**|Angi navnet på finanskladdemalen som de angitte kladdelinjene er opprettet i.|  
-        |**Finanskladdenavn**|Angi navnet på finanskladden som de angitte kladdelinjene er opprettet i.|  
+       |Felt|Beskrivelse|  
+       |-----|-----------|  
+       |**Finanskladdemalnavn**|Angi navnet på finanskladdemalen som de angitte kladdelinjene er opprettet i.|  
+       |**Finanskladdenavn**|Angi navnet på finanskladden som de angitte kladdelinjene er opprettet i.|  
 
 11. Velg knappene **Øk innrykk** og **Reduser innrykk** for å rykke inn hendelsesnavnet i **Når**-feltet for å definere plasseringen av trinnet i arbeidsflyten.  
 
