@@ -1,25 +1,25 @@
 ---
 title: Opprette brukere i henhold til lisenser
 description: Beskriver hvordan du legger til brukere i Business Central Online eller lokalt basert på lisenser.
-author: edupont04
+author: jswymer
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: access, right, security
 ms.search.form: 119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173
 ms.date: 05/09/2022
-ms.author: edupont
-ms.openlocfilehash: 77a58c9e4cfc5e9a744d66d0f6b62c06cb430d6b
-ms.sourcegitcommit: 2fa712d0aabe4287ebd4454c28d142d6baf045a0
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.openlocfilehash: f0a9231b68df913c122c4118a5585f8464fdbd00
+ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 05/09/2022
-ms.locfileid: "8729804"
+ms.lasthandoff: 11/24/2022
+ms.locfileid: "9804530"
 ---
 # <a name="create-users-according-to-licenses"></a>Opprette brukere i henhold til lisenser
 
-Denne artikkelen beskriver hvordan administratorer oppretter brukere og definerer hvem som kan logge seg på [!INCLUDE[prod_short](includes/prod_short.md)]. Denne artikkelen dekker også hvordan du tildeler tillatelser til ulike typer brukere i henhold til produktlisensene dine.
+Denne artikkelen beskriver hvordan administratorer oppretter brukere og definerer hvem som kan logge seg på [!INCLUDE[prod_short](includes/prod_short.md)]. Du finner også ut hvordan du tildeler tillatelser til ulike brukere i henhold til produktlisensene dine.
 
-Når du oppretter brukere i [!INCLUDE[prod_short](includes/prod_short.md)], kan du tildele tillatelser til dem via tillatelsessett og organisere brukere i brukergrupper. Brukergrupper gjør det enklere å behandle tillatelser for flere brukere samtidig. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).  
+Når du oppretter brukere i [!INCLUDE[prod_short](includes/prod_short.md)], gir du tillatelser til dem gjennom tillatelsessett. Du kan også organisere brukere i brukergrupper. Brukergrupper gjør det enklere å behandle tillatelser og andre innstillinger for flere brukere samtidig. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).  
 
 Hvis du vil ha mer informasjon om de ulike typene lisenser og hvordan lisensiering fungerer i [!INCLUDE[prod_short](includes/prod_short.md)], kan du se [Laste ned lisensieringsveiledningen for Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
 
@@ -28,14 +28,24 @@ Hvis du vil ha mer informasjon om de ulike typene lisenser og hvordan lisensieri
 
 ## <a name="manage-users-and-licenses-in-online-tenants"></a>Behandle brukere og lisenser i nettleietakere
 
-Abonnementet på [!INCLUDE[prod_short](includes/prod_short.md)] på nettet definerer antall brukere du er tillatt. Brukere legges til i leietakeren din i Microsoft Partner Center, vanligvis av Microsoft-partneren. Hvis du vil ha mer informasjon, kan du se [Administrasjon av Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
+Brukerkontoer i [!INCLUDE[prod_short](includes/prod_short.md)] må først opprettes i administrasjonssenteret for Microsoft 365. Disse brukerkontoene er ikke eksklusive for Business Central. Hvis du abonnerer på andre planer, kan de brukes til å logge på andre programmer, for eksempel Power BI. Hvis du vil ha mer informasjon om hvordan du oppretter brukere i administrasjonssenteret for Microsoft 365, går du til [Legg til brukere i administrasjonssenteret for Microsoft](/microsoft-365/admin/add-users/add-users).
 
-Du tildeler produktlisenser til brukere i henhold til arbeidet hver bruker skal gjøre i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan tildele lisenser på flere måter:
+Abonnementet på [!INCLUDE[prod_short](includes/prod_short.md)] på nettet definerer hvor mange [!INCLUDE[prod_short](includes/prod_short.md)]-brukerlisenser du er tillatt. Brukere legges til i leietakeren din i Microsoft Partner Center, vanligvis av Microsoft-partneren. Hvis du vil ha mer informasjon, kan du se [Administrasjon av Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration).
+
+Du tildeler lisenser til brukere i henhold til arbeidet hver bruker skal gjøre i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan tildele lisenser på flere måter:
 
 - Selskapets Microsoft 365-administrator kan gjøre dette i [administrasjonssenteret for Microsoft 365](https://admin.microsoft.com). Hvis du vil ha mer informasjon, kan du se [Legge til brukere individuelt eller gruppevis i Microsoft 365](/microsoft-365/admin/add-users/add-users).  
 - En Microsoft-partner kan tilordne lisenser i administrasjonssenteret for Microsoft 365 eller i Microsoft Partner Center. Hvis du vil ha mer informasjon, se [Brukerbehandlingoppgaver for kundekonti](/partner-center/assign-licenses-to-users) i hjelpen for Microsoft Partner Center.
 
 Hvis du vil ha mer informasjon, kan du se [Administrasjon av Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration) i hjelpen for administrasjon.
+
+Når brukerkontoer er opprettet i administrasjonssenteret for Microsoft 365, kan du importere dem til Business Central på to måter:
+
+- En brukerkonto importeres automatisk når brukeren logger seg på Business Central for første gang.
+
+- Administratoren kan importere brukere ved å velge handlingen  **Oppdater brukere fra Microsoft 365** på **Brukere* -siden.
+
+Begge måtene har sine egne fordeler, og du kan bruke dem samtidig. Med hver fremgangsmåte kan administratorer proaktivt konfigurere Business Central for å tildele oppstartstillatelsene, brukergruppene og brukerprofilene. Hvis du bruker handlingen **Oppdater brukere fra Microsoft 365**, får administratorer mer kontroll til å justere tillatelser, brukergrupper og profiler. Det er en ideell måte når du setter opp Business Central for første gang, før noen brukere logger seg på, eller når du legger til en ny brukergruppe.
 
 > [!NOTE]
 > Når du har lagt til brukere i Microsoft 365-administrasjonssenteret, anbefaler vi at du oppdaterer bruker opplysningene i [!INCLUDE[prod_short](includes/prod_short.md)] så raskt som mulig. Det er enkelt å holde brukerinformasjon oppdatert, og det bidrar til å sikre at personer alltid kan logge seg på. Se [Slik legger du til brukere eller oppdaterer brukerinformasjon og lisenstilordninger i Business Central](#adduser) for mer informasjon.<br>
@@ -52,9 +62,9 @@ Hvis du vil ha mer informasjon, kan du se [Delegert administratortilgang til Bus
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
-Administratorer kan konfigurere tillatelsessett og brukergrupper basert på de forskjellige lisenstypene.<!--Note to translators: The names in *italics* or capitalized in this section must not be translated.-->  
+Administratorer kan konfigurere tillatelsessett og brukergrupper for hver lisens.<!--Note to translators: The names in *italics* or capitalized in this section must not be translated.-->  
 
-Den vanligste lisensen, *Dynamics 365 Business Central-teammedlem* har brukergruppene *D365-teammedlem* og *Excel-eksporthandling* pluss følgende tillatelsessett som standard:
+Den vanligste lisensen, *Dynamics 365 Business Central Team Member*, har for eksempel følgende tillatelsessett som standard:
 
 - D365 LESE
 - D365-TEAMMEDLEM
@@ -62,12 +72,14 @@ Den vanligste lisensen, *Dynamics 365 Business Central-teammedlem* har brukergru
 - EKSPORTER RAPPORT EXCEL
 - LOKAL
 
-Hvis denne standarddefinisjonen ikke er riktig oppsett for en bestemt leietaker, kan administratoren endre konfigurasjonen. Egendefinerte tillatelser vil imidlertid bare påvirke nye brukere som er tildelt lisensen. Tillatelser for eksisterende brukere som er tildelt lisensen, påvirkes ikke.  
+Andre tillatelsessett legges til automatisk basert på brukergruppene som er tildelt lisensen. Når du oppretter en ny bruker basert på denne lisensen, tildeler [!INCLUDE[prod_short](includes/prod_short.md)] tillatelsessettene som kommer fra brukergruppene og tillatelsessettene fra lisensen. De samme oppstartstillatelsene tildeles brukeren hvis brukerkontoen ble opprettet automatisk i [!INCLUDE[prod_short](includes/prod_short.md)], eller hvis administratoren brukte handlingen **Oppdater brukere fra Microsoft 365** på siden **Brukere**.
+
+Hvis denne standarddefinisjonen ikke er riktig oppsett for et bestemt miljø, kan administratoren endre konfigurasjonen. Egendefinerte tillatelser vil imidlertid bare påvirke nye brukere som er tildelt lisensen. Tillatelser for eksisterende brukere som er tildelt lisensen, påvirkes ikke.  
 
 1. Logg deg på [!INCLUDE[prod_short](includes/prod_short.md)] ved å bruke en administratorkonto.  
 2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lisenskonfigurasjon**, og velg deretter den relaterte koblingen.  
 
-    Hvis du allerede er på siden **Brukere**, kan du kjøre funksjonen **Oppdater brukere fra Microsoft 365**-veiledningen, og deretter velge koblingen **Konfigurer tillatelser per lisens** på første side i veiledningen.  
+    <!--Alternatively, if you're already in the **Users** page, you can run the **Update Users from Microsoft 365** guide, and then, on the first page of the guide, choose the **Configure permissions per license** link.-->  
 3. Velg lisensen du vil tilpasse, på siden **Lisenskonfigurasjon**, og velg deretter handlingen **Konfigurer**.  
 4. Velg feltet **Tilpass tillatelser** for å aktivere tilpasning, og foreta deretter de aktuelle endringene.  
 
@@ -84,12 +96,12 @@ Når du har lagt til brukere eller endret brukerinformasjon i administrasjonssen
 2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukere**, og velg deretter den relaterte koblingen.  
 3. Velg **Oppdater brukere fra Microsoft 365**.
 
-for nye brukere er det neste trinnet å tildele brukergrupper og -tillatelser. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md). Hvis du oppdaterer brukerinformasjon, og oppdateringen omfatter en lisensendring, blir brukerne tildelt til den aktuelle brukergruppen, og tilhørende tillatelsessett blir oppdatert. Hvis du vil ha mer informasjon, kan du se [Administrere tillatelser gjennom brukergrupper](ui-define-granular-permissions.md).  
+Det neste trinnet for nylig opprettede brukere er å tildele brukergrupper og -tillatelser. Gå til [Tildel tillatelser til brukere og grupper](ui-define-granular-permissions.md) for informasjon. Hvis du oppdaterer en bruker og oppdateringen omfatter en lisensendring, blir brukerne tildelt til den aktuelle brukergruppen, og tilhørende tillatelsessett blir oppdatert. Hvis du vil ha mer informasjon, kan du se [Administrere tillatelser gjennom brukergrupper](ui-define-granular-permissions.md).  
 
 > [!NOTE]
-> Alle brukere i et miljø må tilordnes til den samme lisensen, enten Essential eller Premium. Hvis du vil ha mer informasjon, kan du se lisensveiledningen for Microsoft Dynamics 365 Business Central. Veiledningen er tilgjengelig for nedlasting på [Business Central](https://dynamics.microsoft.com/business-central/overview/)-nettstedet.
+> Alle brukere i et miljø må tilordnes til den samme lisensen, enten Essentials eller Premium. Gå til nettstedet for [Business Central](https://dynamics.microsoft.com/business-central/overview/) hvis du vil ha mer informasjon om lisensiering.
 
-Hvis du vil ha mer informasjon om å synkronisere brukerinformasjon med Microsoft 365, kan du se delen [Synkronisering med Microsoft 365](#m365).
+Hvis du vil ha mer informasjon om å synkronisere brukerinformasjon med Microsoft 365, går du til delen [Synkronisering med Microsoft 365](#m365).
 
 > [!NOTE]
 > Hvis du bruker en ekstern regnskapsfører til å administrere regnskap og finansrapportering, kan du invitere regnskapsføreren til Business Central, slik at vedkommende kan arbeide med regnskapsdataene. Hvis du vil ha mer informasjon, kan du se [Invitere den eksterne regnskapsføreren til Business Central](finance-accounting.md#inviteaccountant).
@@ -111,29 +123,27 @@ Når du tilordner en lisens for [!INCLUDE[prod_short](includes/prod_short.md)] t
 - Administratoren kan legge til brukeren ved å velge **Oppdater brukere fra Microsoft 365**-handlingen på **Brukere**-siden som beskrevet i delen [Slik legger du til en bruker eller oppdaterer brukerinformasjon i Business Central](#adduser).
 - Lisensinformasjonen blir oppdatert automatisk når brukeren logger på første gang.
 
-I begge tilfeller utføres flere innstillinger automatisk. Disse innstillingene er oppført i andre og tredje kolonne i tabellen nedenfor.
+I begge tilfeller brukes flere innstillinger automatisk. Disse innstillingene er oppført i andre og tredje kolonne i tabellen nedenfor.
 
-Hvis du endrer brukerinformasjon i Microsoft 365, kan du oppdatere [!INCLUDE[prod_short](includes/prod_short.md)] for å gjenspeile endringen. Avhengig av hva du vil oppdatere, kan du bruke én av handlingene på **Brukere**-siden. Handlingene beskrives i de tre siste kolonnene i tabellen nedenfor.
+Hvis du endrer brukerinformasjon i Microsoft 365, kan du oppdatere [!INCLUDE[prod_short](includes/prod_short.md)] for å gjenspeile endringen. Avhengig av hva du vil oppdatere, kan du bruke én av handlingene på **Brukere**-siden. Handlingene beskrives i de to siste kolonnene i tabellen nedenfor.
 
-> [!NOTE]
-> Handlingene som er beskrevet i tabellen nedenfor, er nøyaktige, men den eneste du trenger, er **Oppdatere brukerne fra Microsoft 365**, som ble lagt til for å forenkle prosessen. De andre handlingene blir fjernet i en fremtidig versjon av [!INCLUDE[prod_short](includes/prod_short.md)].
+|Hva skjer når:|Første bruker, første pålogging|Oppdater brukere fra Microsoft 365|Gjenopprett brukerens standardbrukergrupper|
+|-|-|-|-|
+|Omfang:|Gjeldende bruker|Flere valgte brukere|Enkeltvalgt bruker (bortsett fra gjeldende)|
+|Opprett den nye brukeren, og tilordne SUPER-tillatelsessett.<br /><br /><!--Platform-->|**X**|**X** | | 
+|Oppdater brukeren basert på informasjon i Microsoft 365: status, fullt navn, kontaktens e-post, godkjennings-e-post.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|
+|Synkroniser brukerplaner (lisenser) med lisenser og roller tilordnet i Microsoft 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**|**X**|
+|Legg til brukeren i brukergrupper i henhold til gjeldende brukerplaner. Fjern tillatelsessettet SUPER for alle andre brukere enn den første brukeren som skal logge på, samt [administratorer](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Det må være minst en forekomst av tillatelsessettet SUPER.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**|**X**<br /><br />Fjerner manuelt tilordnede brukergrupper og tillatelser.|
 
-|Hva skjer når:|Første bruker, første pålogging|Hent brukere fra Microsoft 365|Oppdater brukere fra Microsoft 365|Gjenopprett brukerens standardbrukergrupper|Oppdater brukergrupper|Oppdater brukerinformasjon fra Microsoft 365|
-|-|-|-|-|-|-|-|
-|Omfang:|Gjeldende bruker|Nye brukere i Microsoft 365|Flere valgte brukere|Enkeltvalgt bruker (bortsett fra gjeldende)|Flere valgte brukere|Flere valgte brukere|
-|Opprett den nye brukeren, og tilordne SUPER-tillatelsessett.<br /><br /><!--Platform-->|**X**||**X** | | | |
-|Oppdater brukeren basert på informasjon i Microsoft 365: status, fullt navn, kontaktens e-post, godkjennings-e-post.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserFromAzureGraph-->|**X**|**X**|**X**|**X**||**X**|
-|Synkroniser brukerplaner (lisenser) med lisenser og roller tilordnet i Microsoft 365.<!--<br /><br />Codeunit "Azure AD   Graph User".UpdateUserPlans-->|**X**|**X**|**X**|**X**|**X**| |
-|Legg til brukeren i brukergrupper i henhold til gjeldende brukerplaner. Fjern tillatelsessettet SUPER for alle andre brukere enn den første brukeren som skal logge på, samt [administratorer](/dynamics365/business-central/dev-itpro/administration/tenant-administration). Det må være minst en forekomst av tillatelsessettet SUPER.<!--<br /><br />Codeunit "Permission Manager". AddUserToDefaultUserGroups-->|**X**|**X**|**X**|**X**<br /><br />Fjerner manuelt tilordnede brukergrupper og tillatelser.|**X**<br /><br />Oppdater brukergruppetilordninger.| |
+Brukere kan få tilgang til [!INCLUDE[prod_short](includes/prod_short.md)]-poster i Teams ved hjelp av bare Microsoft 365-lisensen sin. Når tilgang er aktivert for et miljø, inkluderer ikke synkronisering ved hjelp av handlingen **Oppdater brukere fra Microsoft 365**, brukere som bare har en Microsoft 365-lisens. Hvis du vil inkludere disse brukerne i synkroniseringen, må du først oppdatere miljøinnstillinger ved å tildele en sikkerhetsgruppe som inneholder brukere med en [!INCLUDE[prod_short](includes/prod_short.md)]-lisens og brukere som bare har en Microsoft 365-lisens.
 
-<!--
-## The Device License
-This section has been moved to [Licensing in Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/licensing).
--->
+Finn ut mer om å sikre tilgang til miljøer ved hjelp av sikkerhetsgrupper under [Administrer tilgang ved hjelp av Azure Active Directory-grupper](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups). 
+
+Få en oversikt over tilgang til Business Central i Teams med Microsoft 365-lisenser under [administratortilgang-med-m365-lisens](admin-access-with-m365-license.md).
 
 ## <a name="manage-users-and-licenses-in-on-premises-deployments"></a>Behandle brukere og lisenser i lokale distribusjoner
 
-For lokale distribusjoner er antallet brukerlisenser angitt i lisensfilen (.flf). Når en administrator eller Microsoft-partner laster opp lisensfilen, kan de angi hvilke brukere som kan logge på [!INCLUDE[prod_short](includes/prod_short.md)].
+For lokale distribusjoner er antallet brukerlisenser angitt i lisensfilen (.bclicense eller .flf). Når en administrator eller Microsoft-partner laster opp lisensfilen, kan de angi hvilke brukere som kan logge på [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Ved distribusjon på stedet oppretter, redigerer og sletter administratoren brukere direkte fra **Brukere**-siden.
 

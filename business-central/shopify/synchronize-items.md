@@ -8,12 +8,12 @@ ms.search.form: 30116, 30117, 30126, 30127,
 author: AndreiPanko
 ms.author: andreipa
 ms.reviewer: solsen
-ms.openlocfilehash: 90144dfb2f84853f43ae85bf5a162f46cdb65286
-ms.sourcegitcommit: 5bb13966e9ba8d7a3c2f00dd32f167acccf90b82
+ms.openlocfilehash: a14e81932ab2cc02c691d6dfe8a9a1c4fe326410
+ms.sourcegitcommit: bb6ecb20cbd82fdb5235e3cb426fc73c29c0a7ae
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/28/2022
-ms.locfileid: "9728387"
+ms.lasthandoff: 11/23/2022
+ms.locfileid: "9802960"
 ---
 # <a name="synchronize-items-and-inventory"></a>Synkroniser varer og lager
 
@@ -64,8 +64,8 @@ Tabellen nedenfor viser forskjellene mellom alternativene i feltet **SKU-tildeli
 |**Varenr.**|Velg hvis SKU-feltet inneholder varenummeret|Ingen innvirkning på oppretting av en vare uten varianter. For en vare med varianter opprettes hver variant som en separat vare.<br>Hvis Shopify har et produkt med to varianter, og deres SKU-er er 1000 og 2000 i [!INCLUDE[prod_short](../includes/prod_short.md)], opprettes to varer med tallene 1000 og 2000.|
 |**Variantkode**|SKU-feltet brukes ikke i varetildelingsrutinen.|Ingen innvirkning på oppretting av varen. Når det opprettes en varevariant, brukes verdien i SKU-feltet som en kode. Hvis SKU er tom, genereres det en kode ved hjelp av feltet **Variantprefiks**.|
 |**Varenr. + variantkode**|Velg dette hvis SKU-feltet inneholder et varenummer og varevariantkoden, atskilt med verdien som er definert i feltet felt **SKU-skilletegn**.|Når du oppretter en vare, blir den første delen av verdien i feltet SKU angitt som **Nr.**. Hvis SKU-feltet er tomt, genereres et varenummer med nummerserien definert i feltet **Varemalkode** eller **Varenr.** på siden **Lageroppsett**.<br>Når du oppretter en vare, bruker variantfunksjonen den andre delen av verdien i feltet SKU som **Kode**. Hvis SKU-feltet er tomt, genereres det en kode ved hjelp av feltet **Variantprefiks**.|
-|**Leverandørs varenr.**|Velg hvis SKU-feltet inneholder leverandørvarenummeret. I dette tilfellet blir ikke **Leverandørvarenr.** brukt på siden **Varekort**, i stedet brukes **Leverandørvarenr.** fra **Leverandørens varekatalog**. Hvis posten *Vareleverandørkatalog* inneholder en variantkode, brukes denne koden til å tildele Shopify-varianten.|Hvis det finnes en tilsvarende leverandør i [!INCLUDE[prod_short](../includes/prod_short.md)], blir SKU-verdien brukt som **Leverandørs varenr.** på siden **Varekort** og som **varereferanse** av leverandørtypen. <br>Forhindrer oppretting av varianter. Det er nyttig når du bare vil bruke hovedvare i ordren. Du kan fremdeles tildele en variant manuelt fra siden **Shopify-produkt**.|
-|**Strekkode**|Velg hvis SKU-feltet inneholder en strekkode. Det utføres et søk mellom **varereferanser** av leverandørtypen. Hvis varereferanseposten inneholder en variantkode, brukes denne variantkoden til å tildele Shopify-varianten.|Ingen innvirkning på oppretting av varen. <br>Forhindrer oppretting av varianter. Det er nyttig når du bare vil bruke hovedvare i ordren. Du kan fremdeles tildele en variant manuelt fra siden **Shopify-produkt**.|
+|**Leverandørs varenr.**|Velg hvis SKU-feltet inneholder leverandørvarenummeret. I dette tilfellet blir ikke **Leverandørvarenr.** brukt på siden **Varekort**, i stedet brukes **Leverandørvarenr.** fra **Leverandørens varekatalog**. Hvis posten *Vareleverandørkatalog* inneholder en variantkode, brukes denne koden til å tildele Shopify-varianten.|Hvis det finnes en tilsvarende leverandør i [!INCLUDE[prod_short](../includes/prod_short.md)], blir lagerføringsenhetsverdien brukt som **Leverandørs varenr.** på siden **Varekort** og som **varereferanse** av *leverandørtypen*. <br>Forhindrer oppretting av varianter. Det er nyttig når du bare vil bruke hovedvare i ordren. Du kan fremdeles tildele en variant manuelt fra siden **Shopify-produkt**.|
+|**Strekkode**|Velg hvis SKU-feltet inneholder en strekkode. Det utføres et søk mellom **varereferanser** av *strekkodetypen*. Hvis varereferanseposten inneholder en variantkode, brukes denne variantkoden til å tildele Shopify-varianten.|Ingen innvirkning på oppretting av varen. <br>Forhindrer oppretting av varianter. Det er nyttig når du bare vil bruke hovedvare i ordren. Du kan fremdeles tildele en variant manuelt fra siden **Shopify-produkt**.|
 
 Tabellen nedenfor gir en oversikt over innvirkningen til feltet **Strekkode**.
 
@@ -238,9 +238,18 @@ Du kan starte lagersynkronisering på de to måtene beskrevet nedenfor.
 
 ### <a name="inventory-remarks"></a>Lagermerknader
 
-* Koblingen beregner **Beregnet disponibel saldo** og eksporterer den til Shopify.
+* Koblingen beregner **Beregnet disponibel saldo** på nåværende dato og eksporterer den til Shopify.
 * Du kan kontrollere lagerinformasjonen mottatt fra Shopify på siden **Shopify-lagerfaktaboks**. I denne faktaboksen får du en oversikt over Shopify-lageret og det siste beregnede lageret i [!INCLUDE[prod_short](../includes/prod_short.md)]. Det finnes én post per lokasjon.
 * Hvis lagerinformasjonen i Shopify er forskjellig fra **Beregnet disponibel saldo** i [!INCLUDE[prod_short](../includes/prod_short.md)], blir lageret oppdatert i Shopify.
+
+#### <a name="example-of-calculation-of-projected-available-balance"></a>Eksempel på beregning av beregnet disponibel beholdning
+
+Det finnes 10 stykker av varen A tilgjengelig på lager og to utestående ordrer. En for mandag med antall *én* og en for torsdag med antall *to*. Avhengig av når du synkroniserer lageret, vil systemet oppdatere lagernivået i Shopify med ulike antall:
+
+|Når synkronisering av lageret kjøres|Verdi som brukes til å oppdatere lagernivå|Merknad|
+|------|-----------------|-----------------|
+|Tirsdag|9|Lager 10 minus ordre angitt til forsendelse på mandag|
+|Fredag|7|Lager 10 minus begge ordrer|
 
 ## <a name="see-also"></a>Se også
 

@@ -21,6 +21,7 @@
 #### [Gjennomgang: Plukking og levering i grunnleggende lageroppsett](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 <!-- #### [Walkthrough: Tracing Serial/Lot Numbers](walkthrough-tracing-serial-lot-numbers.md) -->
 #### [Gjennomgang: Lage kontantstrømprognoser ved å bruke finansrapporter](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Gjennomgang: Konfigurer og bruk Shopify-koblingen](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
 ### Demodata for Contoso Coffee for Produksjon
 #### [Innføring i demodata for Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
@@ -671,6 +672,7 @@
 <!--Shopify-->
 ## Nettbutikk med Shopify
 ### [Kom i gang med Shopify-koblingen](shopify/get-started.md)
+#### [Opprett og konfigurer en Shopify-konto](shopify/shopify-account.md)
 ### [Synkroniser varer med Shopify](shopify/synchronize-items.md)
 ### [Synkroniser kunder med Shopify](shopify/synchronize-customers.md)
 ### [Synkroniser og oppfyll salgsordrer med Shopify](shopify/synchronize-orders.md)
@@ -679,6 +681,7 @@
 ### [Kjør oppgaver i bakgrunnen](shopify/background.md)
 ### [Feilsøk Shopify-koblingen](shopify/troubleshoot.md)
 ### [Vanlige spørsmål for Shopify-koblingen](shopify/shopify-faq.md)
+### [Gjennomgang: Konfigurer og bruk Shopify-koblingen](shopify/walkthrough-setting-up-and-using-shopify.md)
 
 <!--Company Hub-->
 ## Selskapssenter
@@ -1789,7 +1792,7 @@
 #### [Oversikt](admin-access-with-m365-license.md)
 #### [Konfigurer tilgang med Microsoft 365-lisenser](admin-access-with-m365-license-setup.md)
 #### [Brukertilgangsflyt](admin-access-with-m365-license-flow.md)
-<!--#### [FAQ](admin-access-with-m365-license-faq.md) file temporarily moved to archive folder-->
+#### [Vanlige spørsmål](admin-access-with-m365-license-faq.md)
 #### [Feilsøking](admin-access-with-m365-license-troubleshooting.md) 
 ### [Administrere profiler](admin-users-profiles-roles.md)
 ### [Behandle brukerinnstillinger og innstillinger](admin-manage-user-settings-preferences.md)
