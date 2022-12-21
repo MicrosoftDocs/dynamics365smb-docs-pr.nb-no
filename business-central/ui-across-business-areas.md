@@ -1,21 +1,19 @@
 ---
 title: Bruke generelle funksjoner på tvers av forretningsområder
 description: Finn ut mer om funksjonene som brukes på tvers av forretningsområder i Business Central.
-author: SorenGP
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: jswymer
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: feature overview, functionality
-ms.search.form: 9020, 9022, 9027, 9024
-ms.date: 09/19/2022
-ms.author: edupont
-ms.openlocfilehash: ce1550e658b881aa81a98c6c7e19c0d5b7011d19
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
+ms.date: 12/01/2022
+ms.custom: bap-template
+ms.openlocfilehash: c9f17c81e3cb2fcd57fef536e9c910416bdb1643
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605904"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822482"
 ---
 # <a name="general-business-functionality"></a>Generelle forretningsfunksjoner
 
@@ -43,7 +41,8 @@ Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til a
 |Bokføre flere salgs- eller kjøpsdokumenter sammen, umiddelbart eller som planlagt.|[Bokføre flere dokumenter samtidig](ui-batch-posting.md)|  
 |Se resultatet av bokføringen før du bokfører.|[Forhåndsvise bokføringsresultater](ui-how-preview-post-results.md)|
 |Rediger valgte felt på bokførte salgs- eller kjøpsdokumenter.|[Redigere bokførte dokumenter](across-edit-posted-document.md)|
-| Forstå tilgjengelighetsstatusen for tilbud, ordrer og kreditnotadokumenter, for eksempel **Åpne** og **Frigitt** | [Statusfelt i dokumenter](ui-document-status.md) |
+|Finn ut hvordan du finner dokumenter og poster som er knyttet til hverandre basert på dokument-, kontakt eller vareinformasjon. | [Finn relaterte poster for dokumenter](ui-find-entries.md) |
+|Forstå tilgjengelighetsstatusen for tilbud, ordrer og kreditnotadokumenter, for eksempel **Åpne** og **Frigitt** | [Statusfelt i dokumenter](ui-document-status.md) |
 |Finn ut hvordan du arbeider med finanskladder, som brukes til å bokføre til finanskonti og andre konti, for eksempel bank-, kunde-, leverandør- og aktivakonti. |[Arbeid med finanskladder](ui-work-general-journals.md) |
 | Planlegg at en rapport skal kjøres på en bestemt dato og et bestemt klokkeslett. |[Planlegge en rapport for kjøring](ui-work-report.md#ScheduleReport) |
 |Systemet kan hjelpe deg med å fullføre oppgaver raskere og mer riktig ved å forhåndsutfylle felt eller hele linjer med data som du ellers måtte beregne og skrive inn selv.|[La Business Central foreslå verdier](ui-let-system-suggest-values.md)|

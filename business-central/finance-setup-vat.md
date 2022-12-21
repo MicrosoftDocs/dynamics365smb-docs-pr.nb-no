@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: VAT, posting, tax, value-added tax
 ms.search.form: 10, 118, 391, 470, 471, 472, 575, 734, 747, 748, 1877,
-ms.date: 07/08/2022
+ms.date: 12/01/2022
 ms.author: bholtorf
-ms.openlocfilehash: cfb7cf9448db3b88bc6f8c75f495ddb12cb23740
-ms.sourcegitcommit: b4da421c19c3aa3031b0344ec2829d2038be6642
+ms.openlocfilehash: d401e6d9a0b8fb4f05bcc379322b2f81bfc03c57
+ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
 ms.translationtype: HT
 ms.contentlocale: nb-NO
-ms.lasthandoff: 10/03/2022
-ms.locfileid: "9617915"
+ms.lasthandoff: 12/02/2022
+ms.locfileid: "9822418"
 ---
 # <a name="set-up-calculations-and-posting-methods-for-value-added-tax"></a>Definer beregninger og bokføringsmetoder for merverdiavgift
 
@@ -234,6 +234,11 @@ For å beregne riktig mva på salg til EU-land /-regioner bør du:
 * Tilordne mva-bokføringsgruppene for firma i feltet **Mva-bokføringsgruppe – firma** på hurtigfanen **Fakturering** på kundekortet for hver EU-kunde. Du må også angi kundens organisasjonsnummer i feltet **Organisasjonsnr.** på hurtigfanen **Utenrikshandel**.  
 
 Når du bokfører et salg til en kunde i andre EU-land/-regioner, beregnes mva-beløpet, og det opprettes en mva-post ved hjelp av informasjon om snudd avregning og mva-grunnlaget, som er beløpet som brukes til å beregne mva-beløpet. Ingen poster bokføres til mva-konti i Finans.
+
+Hvis du vil bruke kombinasjonen av mva-bokføringsgruppe – firma og mva-bokføringsgruppe – vare til rapportering som tjenester i de periodiske mva-rapportene, merker du feltet **EU-tjeneste**.
+
+> [!NOTE]  
+> Feltet **EU-tjeneste** gjelder bare mva-rapporter. Feltet er ikke relatert til funksjonene **Tjenesteerklæring** eller **Intrastat for tjenester**.
 
 ## <a name="vat-rounding-for-documents"></a>Mva-avrunding for dokumenter
 
