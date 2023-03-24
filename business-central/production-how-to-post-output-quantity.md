@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000773, 99000778, 99000823, 99000827
+ms.search.form: '99000773, 99000778, 99000823, 99000827'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7a1c30340efabed66e4ce359fc7680945e0db1de
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522749"
 ---
-# <a name="batch-post-output-and-run-times"></a>Bokføre avgang og operasjonstid
+# Bokføre avgang og operasjonstid
 Avgangsantallet representerer arbeidsfremdriften i form av ferdig antall og brukt kapasitet for arbeidssenter eller produksjonsressurs.
 
 Du kan bruke ferdigmeldingskladden til å:
@@ -30,7 +24,7 @@ Du kan bruke ferdigmeldingskladden til å:
 
 I vinduet **Produksjonskladd** kan du utføre de samme oppgavene som i vinduet **Ferdigmeldingskladd**, og du kan utføre de relaterte forbruksbokføringsoppgavene samtidig. Hvis du vil ha mer informasjon, kan du se [Registrere forbruk og avgang for én frigitt produksjonsordrelinje](production-how-to-register-consumption-and-output.md).
 
-## <a name="to-post-output-quantities-andor-register-run-times-for-one-or-more-production-order-lines"></a>Slik bokfører du avgangsantall og/eller registrerer kjøretider for en eller flere produksjonsordrelinjer
+## Slik bokfører du avgangsantall og/eller registrerer kjøretider for en eller flere produksjonsordrelinjer
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ferdigmeldingskladd** og velg den relaterte koblingen.  
 2. Fyll ut feltene med produksjonsordre- og avgangsdata og/eller kjøretid. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -44,7 +38,7 @@ Kapasitetsposter oppdateres for det brukte arbeidssenteret eller produksjonsress
 
 Hvis du bokførte den siste operasjonen, blir varen lagt til i lageret.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bokføre vrak manuelt](production-how-to-post-scrap.md)
 [Tilbakeføre utgående bokføring](production-how-to-reverse-output-posting.md)

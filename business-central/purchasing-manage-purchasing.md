@@ -1,23 +1,17 @@
 ---
 title: Oversikt over oppgaver for å håndtere kjøp
-description: Gir oversikt over oppgaver for å håndtere kjøp eller innkjøpsprosesser, inkludert hvordan kjøpsfakturaer og bestillinger fungerer.
+description: 'Gir oversikt over oppgaver for å håndtere kjøp eller innkjøpsprosesser, inkludert hvordan kjøpsfakturaer og bestillinger fungerer.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: procurement, supply, vendor order
-ms.search.form: 460, 9307
+ms.search.keywords: 'procurement, supply, vendor order'
+ms.search.form: '460, 9307'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c24e8c4550c03965524626daf291f6496e92bde0
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528226"
 ---
-# <a name="purchasing"></a>Kjøp
+# Kjøp
 
 Du kan opprette en kjøpsfaktura eller bestilling for å registrere kjøpskostnader og spore leverandørgjeld. Hvis du vil kontrollere en beholdning, brukes kjøpsfakturaer også til å oppdatere lagernivåer dynamisk, slik at du kan redusere lagerkostnadene og gi bedre kundeservice. Kjøpskostnadene, inkludert tjenesteutgifter samt lagerverdier som er resultat av bokføring av kjøpsfakturaer, bidrar til fortjenestetall og andre økonomiske KPIer i rollesenteret.
 
@@ -45,13 +39,13 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 |Løs forvirring når det finnes to eller flere poster for samme leverandør.|[Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)|
 |Håndter forpliktelsen din til en leverandør om å kjøpe store antall levert i flere forsendelser over tid.|[Arbeid med rammebestillinger](sales-how-to-create-blanket-sales-orders.md)|
 
-## <a name="external-document-numbers"></a>Eksterne dokumentnumre
+## Eksterne dokumentnumre
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/purchase-items-services-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/paths/purchase-items-services-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Definere kjøp](purchasing-setup-purchasing.md)  
 [Registrere nye leverandører](purchasing-how-register-new-vendors.md)  

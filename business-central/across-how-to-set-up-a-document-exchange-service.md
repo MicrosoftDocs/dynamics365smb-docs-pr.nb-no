@@ -6,30 +6,24 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/11/2021
 ms.author: edupont
-ms.openlocfilehash: 611f3ac405c66996ed5ec1e1f275ccb5eaccd3d5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530733"
 ---
-# <a name="set-up-a-document-exchange-service"></a>Konfigurere en dokumentutvekslingstjeneste
+# Konfigurere en dokumentutvekslingstjeneste
 
 Som en del av rammeverket for datautveksling kan du utveksle salgs- og kjøpsdokumenter med handelspartnere uten ekstra trinn, for eksempel knytte sammen dokumenter til e-postmeldinger som PDF-filer. Når du for eksempel er klar til å fakturere en kunde, kan du bokføre fakturaen og sende den til betaling som en fil som kunden kan motta i forretningsadministrasjonsprogrammet. Hvis du vil ha mer informasjon, kan du se [Utveksle data elektronisk](across-data-exchange.md).
 
 > [!NOTE]
 > Oppretting av en dokumentutvekslingstjeneste for Business Central on-premises krever noen flere trinn for godkjenning. Hvis du vil ha mer informasjon, se [Innstillinger for Business Central On-Premises](#settings-for-business-central-on-premises).
 
-## <a name="connecting-with-trading-partners"></a>Koble til handelspartnere
+## Koble til handelspartnere
 
 Utveksling av elektroniske dokumenter krever en tilkobling til handelspartnerne. For å gjøre det enkelt å opprette en sikker tilkobling er [!INCLUDE[prod_short](includes/prod_short.md)] online konfigurert til å bruke Business Central Integration-appen. Appen er tilgjengelig i Tradeshift App Store, og alt du og alle forretningspartnerne dine trenger å gjøre, er å opprette en Tradeshift-konto og deretter aktivere appen. Business Central Integration-appen leveres i produksjons- og sandkasseversjoner. Hvis du for eksempel bruker sandkasseversjonen, bør du teste dokumentutvekslingen. Du kan bytte mellom produksjons- og sandkasseversjoner ved å aktivere eller deaktivere **Sandkasse** på siden **Oppsett av dokumentutvekslingstjeneste**. Når du gjør dette, oppdateres opplysningene i hurtigfanen **Tjeneste**.
 
 Hvis du vil bruke en annen tjeneste, må du eventuelt angi opplysninger som skal opprette tilkoblingen. Hvis du vil ha mer informasjon, kan du se [Slik kobler du til en dokumentutvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md#to-connect-to-a-document-exchange-service).
 
-## <a name="to-connect-to-the-business-central-integration-app-on-tradeshift"></a>Slik kobler du til Business Central Integration-appen på Tradeshift
+## Slik kobler du til Business Central Integration-appen på Tradeshift
 
 Du kan raskt opprette en Tradeshift-konto og komme i gang med Business Central Integration-appen fra siden **Oppsett av dokumentutvekslingstjeneste**. Velg enten koblingen **Aktiver app** i varslingen eller **URL-adresse for app** for å gå til appen i Tradeshift App Store. På påloggingssiden for Tradeshift kan du enten logge på eller registrere deg.
 
@@ -38,7 +32,7 @@ Du kan raskt opprette en Tradeshift-konto og komme i gang med Business Central I
 
 Hvis du vil stanse bruken av Business Central Integration-appen, må du deaktivere den i Tradeshift App Store. 
 
-## <a name="to-connect-to-a-document-exchange-service"></a>Slik kobler du til en dokumentutvekslingstjeneste
+## Slik kobler du til en dokumentutvekslingstjeneste
 
 Hvis du foretrekker å bruke en annen dokumentutvekslingstjeneste, må du angi opplysninger for å kunne koble til tjenesten.
 
@@ -61,15 +55,15 @@ Hvis du foretrekker å bruke en annen dokumentutvekslingstjeneste, må du angi o
     > [!NOTE]
     > Hvis du ikke kan koble til dokumentutvekslingstjenesten på grunn av et autorisasjonsproblem, kan det skyldes at [!INCLUDE[prod_short](includes/prod_short.md)] ikke kan fornyes automatisk. Dette kan for eksempel skje hvis du ikke har brukt tjenesten på en stund. Du kan fornye tokenet manuelt ved å bruke handlingen **Forny token**.
 
-## <a name="settings-for-business-central-on-premises"></a>Innstillinger for Business Central On-Premises
+## Innstillinger for Business Central On-Premises
 
 Du må opprette en app i Tradeshift App Store for å kunne koble til Business Central on-premises. Når du gjør dette, bruker du URL-adressen for omadressering i feltet **URL-adresse for omadressering** på siden **Oppsett av dokumentutvekslingstjeneste**. Når du har registrert appen, vil Tradeshift tilby en klient-ID og en klienthemmelighet. Under [!INCLUDE[prod_short](includes/prod_short.md)] angir du disse verdiene i hurtigfanen **Autorisasjon** på siden **Oppsett av dokumentutvekslingstjeneste**.
 
 Hvis du foretrekker å lagre app-ID-en og -hemmeligheten på en annen plassering, kan du la feltene klient-ID og klienthemmelighet stå tomme og skrive en utvidelse for å hente ID-en og hemmeligheten fra plasseringen. Du kan gi hemmeligheten under kjøring ved å abonnere på hendelsene OnGetClientId og OnGetClientSecret i codeunit 1410, Administrasjon av dokumentutvekslingstjeneste.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/electronic-documents-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/modules/electronic-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Definere datautveksling](across-set-up-data-exchange.md)  
 [Utveksle data elektronisk](across-data-exchange.md)

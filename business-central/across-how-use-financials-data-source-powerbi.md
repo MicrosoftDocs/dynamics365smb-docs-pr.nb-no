@@ -1,28 +1,23 @@
 ---
 title: Bygge rapporter i Power BI Desktop for å vise Business Central-data | Microsoft Docs
-description: Gjør dataene tilgjengelige som en datakilde i Power BI, og bygg kraftige rapporter om status for din bedrift.
+description: 'Gjør dataene tilgjengelige som en datakilde i Power BI, og bygg kraftige rapporter om status for din bedrift.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: business intelligence, KPI, Odata, Power App, SOAP, analysis
+ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysis'
 ms.date: 09/07/2022
 ms.author: jswymer
-ms.openlocfilehash: 72df794aa170736507c959ea0e75e4bb52b234d7
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534376"
 ---
-# <a name="building-power-bi-reports-to-display-prod_long-data"></a>Bygge Power BI-rapporter for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data
+
+# Bygge Power BI-rapporter for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
 Gjør [!INCLUDE[prod_long](includes/prod_long.md)]-dataene tilgjengelige som en datakilde i Power BI Desktop, og bygg kraftige rapporter om status for din bedrift.
 
 Denne artikkelen beskriver hvordan du kommer i gang med Power BI Desktop for å opprette rapporter som viser [!INCLUDE[prod_long](includes/prod_long.md)]-data.  Når du har opprettet rapporter, kan du publisere dem i Power BI-tjenesten eller dele dem med alle brukerne i organisasjonen. Når disse rapportene er i Power BI-tjenesten, kan brukerne som er konfigurert for den, vise rapportene i [!INCLUDE[prod_long](includes/prod_long.md)].
 
-## <a name="get-ready"></a>Gjøre deg klar
+## Gjøre deg klar
 
 - Registrer deg for Power BI-tjenesten.
 
@@ -51,7 +46,7 @@ Denne artikkelen beskriver hvordan du kommer i gang med Power BI Desktop for å 
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="add-prod_short-as-a-data-source-in-power-bi-desktop"></a><a name="getdata"></a>Legge til [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop
+## <a name="getdata"></a>Legge til [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop
 
 Den første oppgaven i opprettelse av rapporter, er å legge til [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop. Når den er tilkoblet, kan du begynne å bygge rapporten.
 
@@ -105,39 +100,39 @@ Når dataene er lastet inn, kan du se dem i høyre navigering på siden. Nå har
 > [!TIP]
 > Hvis du vil ha mer informasjon om hvordan du bruker Power BI Desktop, kan du se [Kom i gang med Power BI Desktop](/power-bi/fundamentals/desktop-getting-started).
 
-## <a name="creating-accessible-reports"></a>Opprette tilgjengelige rapporter
+## Opprette tilgjengelige rapporter
 
 Det er viktig å gjøre rapportene brukbare for så mange som mulig. Prøv å utforme rapporter slik at de ikke må tilpasses for å oppfylle bestemte behov for ulike brukere. Kontroller at utformingen lar brukere dra nytte av standard hjelpeteknologier, for eksempel skjermlesere. Power BI omfatter ulike tilgjengelighetsfunksjoner, verktøy og retningslinjer som kan hjelpe deg å oppnå dette. Hvis du vil ha mer informasjon, kan du se [Utforme Power BI-rapporter for tilgjengelighet](/power-bi/create-reports/desktop-accessibility-creating-reports) i dokumentasjonen for Power BI.
 
-## <a name="creating-reports-to-display-data-associated-with-a-list"></a>Opprette rapporter for å vise data tilknyttet en liste
+## Opprette rapporter for å vise data tilknyttet en liste
 
 Du kan opprette rapporter som vises i en faktaboks på en [!INCLUDE [prod_short](includes/prod_short.md)]-listeside. Rapportene kan inneholde data om posten som er valgt i listen. Du oppretter disse rapportene på lignende måte som andre rapporter, men det er enkelte ting du må gjøre for å sikre at rapportene vises som forventet. Hvis du vil ha mer informasjon, kan du se [Opprette Power BI-rapporter for visning av listedata i [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="using-the-prod_short-report-theme-optional"></a><a name="theme"></a>Bruke [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet (valgfritt)
+## <a name="theme"></a>Bruke [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet (valgfritt)
 
 Før du bygger rapporten, anbefales det at du laster ned og importerer [!INCLUDE [prod_short](includes/prod_short.md)]-teamfilen. Temafilen oppretter en fargepalett, slik at du kan lage rapporter med samme fargestil som [!INCLUDE [prod_short](includes/prod_short.md)]-appene uten å måtte definere egendefinerte farger for hver visualisering.
 
 > [!NOTE]
 > Denne oppgaven er valgfri. Du kan alltids opprette rapportene og deretter laste ned og bruke stilmalen senere.
 
-### <a name="download-the-theme"></a>Laste ned temaet
+### Laste ned temaet
 
 Temafilen er tilgjengelig som en JSON-fil i temagalleriet i Microsoft Power BI-fellesskapet. Hvis du vil laste ned temafilen, gjør du følgende:
 
 1. Gå til [Temagalleriet i Microsoft Power BI-fellesskapet for Microsoft Dynamics 365 Business Central](https://community.powerbi.com/t5/Themes-Gallery/Microsoft-Dynamics-365-Business-Central/m-p/385875).
 2. Velg nedlastingsvedlegget **Microsoft Dynamics Business Central.json**.
 
-### <a name="import-the-theme-on-a-report"></a>Importere temaet i en rapport
+### Importere temaet i en rapport
 
 Etter at du har lastet ned [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet, kan du importere det til rapportene. Du importerer temaet ved å velge **Vis** > **Temaer** > **Bla gjennom etter temaer**. Hvis du vil ha mer informasjon, kan du se [Power BI Desktop – importere egendefinerte rapporttemaer](/power-bi/create-reports/desktop-report-themes#import-custom-report-theme-files).
 
-## <a name="publish-reports"></a>Publisere rapporter
+## Publisere rapporter
 
 Når du har opprettet eller endret en rapport, kan du publisere den i Power BI-tjenesten og dele den med andre i organisasjonen. Når rapporten er publisert, vises den i Power BI. Rapporten blir også tilgjengelig for valg i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Du publiserer en rapport ved å velge **Publiser** i **Hjem**-fanen på båndet eller **Fil**-menyen. Hvis du er logget på Power BI-tjenesten, publiseres rapporten til denne tjenesten. Hvis ikke blir du bedt om å logge på. 
 
-## <a name="distribute-or-share-a-report"></a>Distribuere eller dele en rapport
+## Distribuere eller dele en rapport
 
 Du kan sende rapporter til kolleger og andre på et par ulike måter:
 
@@ -152,9 +147,9 @@ Du kan sende rapporter til kolleger og andre på et par ulike måter:
 
     Hvis du har en Power BI Pro-lisens, kan du dele rapporten med andre direkte fra Power BI-tjenesten. Hvis du vil ha mer informasjon, kan du se [Power BI – dele et instrumentbord eller en rapport](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
-## <a name="fixing-problems"></a>Løse problemer
+## Løse problemer
 
-### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>«Kan ikke sette inn en post. Nåværende tilkoblingshensikt er skrivebeskyttet.» feil under tilkobling til egendefinert API-side
+### «Kan ikke sette inn en post. Nåværende tilkoblingshensikt er skrivebeskyttet.» feil under tilkobling til egendefinert API-side
 
 > **GJELDER:** Business Central Online
 
@@ -185,9 +180,9 @@ Fra og med februar 2022 vil nye rapporter som bruker Business Central-data, bli 
 9. Velg **Ferdig**.
 10. Velg **Lukk og bruk** fra båndet til å lagre endringene og lukk Power Query-redigeringsprogrammet.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Aktiver forretningsdata for Power BI](admin-powerbi.md)  
 [Forretningsintelligens](bi.md)  

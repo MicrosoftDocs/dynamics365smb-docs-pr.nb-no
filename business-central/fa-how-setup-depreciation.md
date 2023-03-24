@@ -6,14 +6,9 @@ ms.topic: conceptual
 ms.search.keywords: write down
 ms.date: 06/28/2021
 ms.author: edupont
-ms.openlocfilehash: c1912cf6c6e755949e8aa32b749145efc8b70783
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534673"
 ---
-# <a name="set-up-fixed-asset-depreciation"></a>Definere avskrivning for aktiva
+
+# Definere avskrivning for aktiva
 
 Du kan bruke ulike avskrivningsmetoder når du skal forberede regnskapsoppgjør og selvangivelse. Mange store selskaper bruker lineær avskrivning i sine regnskapsoppgjør ettersom denne avskrivningsmetoden vanligvis tillater rapportering av høyere inntjening. Når det gjelder inntektsskatt, bruker imidlertid mange virksomheter en hurtig avskrivningsmetode, for eksempel saldoavskrivningsmetoden for aktivaet. Du definerer et aktivas avskrivningsmetode med **Avskrivningsmetode**-feltet på siden **Aktivakort**. Hvis du vil ha mer informasjon om hva de forskjellige metodene gjør, se [Avskrivningsmetoder](fa-depreciation-methods.md).
 
@@ -21,7 +16,7 @@ Du konfigurerer avskrivningstablåer der du definerer de ulike måtene avskrivni
 
 Når du har opprettet de relevante avskrivningstablåene, må du tilordne minst ett avskrivningstablå til hvert enkelt aktiva. Et avskrivningstablå som tilordnes til et aktiva, blir referert til som et avskrivningstablå for aktiva. Du kan definere et ubegrenset antall avskrivningstablåer for et aktivum.  
 
-## <a name="to-create-a-depreciation-book"></a>Slik oppretter du et avskrivningstablå:
+## Slik oppretter du et avskrivningstablå:
 
 I et aktivaavskrivningstablå angir du hvordan aktiva skal avskrives. Hvis du vil tilpasse ulike avskrivningsmetoder, kan du definere flere avskrivningstablåer.  
 
@@ -39,7 +34,7 @@ I et aktivaavskrivningstablå angir du hvordan aktiva skal avskrives. Hvis du vi
 
 Hvis du for eksempel selger et aktiva der avskrivningstablået ikke angir avrunding, men selskapets finansoppsett krever avrunding, vil du få en feilmelding om at et beløp må avrundes i en post når du kvitter deg med aktivumet.  
 
-## <a name="to-assign-a-depreciation-book-to-a-fixed-asset"></a>Slik tilordner du et avskrivningstablå til et aktiva:
+## Slik tilordner du et avskrivningstablå til et aktiva:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktiva**, og velg deretter den relaterte koblingen.
 2. Velg aktivaet som du vil definere et aktivaavskrivningstablå for.
@@ -53,7 +48,7 @@ Hvis du for eksempel selger et aktiva der avskrivningstablået ikke angir avrund
     > [!NOTE]  
     > Når du bruker den brukerdefinerte avskrivningsmetoden, må du tilordne avskrivningstablået på en annen måte. Hvis du vil ha mer informasjon, kan du se [Slik definerer du brukerdefinerte avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md).
 
-## <a name="to-assign-a-depreciation-book-to-multiple-fixed-assets-with-a-batch-job"></a>Slik tilordner du et avskrivningstablå til flere aktiva med en kjørsel:
+## Slik tilordner du et avskrivningstablå til flere aktiva med en kjørsel:
 
 Hvis du vil knytte et avskrivningstablå til flere aktiva, kan du bruke kjørselen **Opprett aktivaavskr.tablåer** til å opprette aktivaavskrivningstablåer.  
 
@@ -67,7 +62,7 @@ Hvis du vil knytte et avskrivningstablå til flere aktiva, kan du bruke kjørsel
 6. På hurtigfanen **Aktiva** kan du definere et filter for å velge hvilke aktiva du vil det skal opprettes aktivaavskrivningstablåer for.
 7. Velg **OK**.
 
-## <a name="to-set-up-depreciation-posting-types"></a>Slik definerer du bokføringstyper for avskrivning:
+## Slik definerer du bokføringstyper for avskrivning:
 
 For hvert avskrivningstablå må du definere hvordan du vil at [!INCLUDE[prod_short](includes/prod_short.md)] skal håndtere ulike bokføringstyper. Du må for eksempel angi om bokføringen skal være debet eller kredit, og om bokføringstypen skal tas med i avskrivningsgrunnlaget.  
 
@@ -80,7 +75,7 @@ For hvert avskrivningstablå må du definere hvordan du vil at [!INCLUDE[prod_sh
 
 Vi anbefaler at du ikke endrer oppsettet av avskrivningstablåer med poster som allerede er bokført. Endringene påvirker ikke poster som allerede er bokført, noe som ville forårsaket feilaktig statistikk for avskrivningstablåene.
 
-## <a name="to-set-up-default-templates-and-batches-for-fixed-asset-depreciation"></a>Slik definerer du standardmaler og kladder for aktivaavskrivning:
+## Slik definerer du standardmaler og kladder for aktivaavskrivning:
 
 Du kan definere et standardoppsett for maler og kladder for hvert enkelt avskrivningstablå. Du kan bruke disse standardene til å kopiere linjer fra en kladd til en annen, opprette kladdelinjer ved hjelp av kjørslene **Beregn avskrivning** eller **Indeksreg. aktiva**, duplisere anskaffelseskostnader i forsikringskladden.  
 
@@ -89,15 +84,15 @@ Du kan definere et standardoppsett for maler og kladder for hvert enkelt avskriv
 3. Hvis du vil bruke et standardoppsett for alle brukerne, velger du **Bruker-ID**-feltet som skal velges fra siden **Brukere**.  
 4. Velg kladdemalen eller kladden som skal brukes som standard i de andre feltene.  
 
-## <a name="fiscal-year-365-days-field-depreciation"></a>Regnskapsår 365 dager-feltavskriving
+## Regnskapsår 365 dager-feltavskriving
 
 Når kjørselen Beregn avskrivninger beregner avskrivninger, brukes vanligvis et standardisert år på 360 dager, der hver av de 12 månedene har 30 dager.
 
 Hvis du velger dette feltet, bruker kjørselen Beregn avskrivninger i stedet kalenderåret på 365 dager, der hver måned beregnes med samme antall dager som i kalenderen. Det eneste unntaket er februar i skuddår, som kjørselen behandler som om den har 28 dager, ikke 29. Derfor anses alle år, inkludert skuddår, for å ha 365 dager.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-depreciation-books/)
+## Se relatert [Microsoft-opplæring](/training/modules/configure-depreciation-books/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Definer aktiva](fa-setup.md)  
 [Aktiva](fa-manage.md)  

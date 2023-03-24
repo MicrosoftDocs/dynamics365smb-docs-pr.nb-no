@@ -1,29 +1,23 @@
 ---
 title: Administrer aktivabudsjetter
-description: Du kan definere informasjon om fremtidige investeringer, salg og avskrivning av aktiva for å bidra til å klargjøre budsjetter og prognoser.
+description: 'Du kan definere informasjon om fremtidige investeringer, salg og avskrivning av aktiva for å bidra til å klargjøre budsjetter og prognoser.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: forecast
-ms.search.form: 5610, 5611
+ms.search.form: '5610, 5611'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a39ff86ea1bc8b3a2e772b8b3b557cdf863f8d7f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528362"
 ---
-# <a name="manage-budgets-for-fixed-assets"></a>Behandle budsjetter for aktiva
+# Behandle budsjetter for aktiva
 
 Du kan definere budsjetterte aktiva. Dette gjør det for eksempel mulig å ta med forventede anskaffelser og salg i rapporter.  
 
 Når du skal forberede et budsjettert resultatregnskap, balansebudsjett og likviditetsbudsjett, må du ha opplysninger om fremtidige investeringer, salg og aktivaavskrivninger. Du finner disse opplysningene i rapporten **Aktiva - forventet verdi**. Før du skriver ut denne rapporten, må du forberede budsjettet.  
 
-## <a name="to-budget-the-acquisition-cost-of-a-fixed-asset"></a>Slik budsjetterer du anskaffelseskost for et aktiva:
+## Slik budsjetterer du anskaffelseskost for et aktiva:
 
 Når du skal forberede et budsjett, må du definere aktivakort for aktiva som du vil kjøpe senere. De budsjetterte aktivaene er definert som vanlige aktiva, men må være konfigurert slik at de ikke bokføres i Finans.
 
@@ -34,7 +28,7 @@ Når du bokfører anskaffelseskosten, angir du nummeret for det budsjetterte akt
 3. Merk av for **Budsjettert aktiva** for å hindre bokføring til finans.
 4. Fyll ut resten av feltene, tilordne et avskrivningstablå, og bokfør deretter den første anskaffelseskosten med det budsjetterte aktivaet som er angitt i feltet **Budsjettert aktivanr.** på kladdelinjen. Hvis du vil ha mer informasjon, kan du se [Anskaffe aktiva](fa-how-acquire.md).
 
-## <a name="to-budget-the-disposal-of-a-fixed-asset"></a>Slik budsjetterer du salget av et aktiva:
+## Slik budsjetterer du salget av et aktiva:
 
 Hvis du planlegger å selge aktiva i budsjettperioden, kan du angi opplysninger om salgsprisen og salgsdatoen.
 
@@ -42,7 +36,7 @@ Hvis du planlegger å selge aktiva i budsjettperioden, kan du angi opplysninger 
 2. Velg aktivaet som skal avhendes, og velg deretter **Avskrivningstablåer**-handlingen.
 3. Fyll ut feltene **Forventet salgsdato** og **Forventet gevinst ved salg** på siden **Aktivaavskrivningstablå**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-view-projected-disposal-values"></a>Slik viser du forventede salgsverdier
+## Slik viser du forventede salgsverdier
 
 Hvis du vil se de forventede salgsverdiene og beregne tap og vinning, kan du bruke rapporten **Aktiva - forventet verdi**.
 
@@ -50,7 +44,7 @@ Hvis du vil se de forventede salgsverdiene og beregne tap og vinning, kan du bru
 2. Fyll ut feltene etter behov.
 3. Velg knappen **Skriv ut** eller **Forhåndsvisning**.
 
-## <a name="to-budget-depreciation"></a>Slik budsjetterer du avskrivninger
+## Slik budsjetterer du avskrivninger
 
 Du kan bruke rapporten **Aktiva - forventet verdi** til å beregne fremtidig avskrivning. Rapporten viser den bokførte verdien og den akkumulerte avskrivningen ved begynnelsen og slutten av den valgte perioden, samt endringer i perioden.
 
@@ -60,9 +54,9 @@ Du kan bruke rapporten **Aktiva - forventet verdi** til å beregne fremtidig avs
 4. La hurtigfanen **Aktiva** stå tom hvis du vil ha med alle aktivaene. I feltet **Budsjettert aktiva** angir du **Nei** hvis du ikke vil ha med budsjetterte aktiva, eller **Ja** hvis du bare vil se på de budsjetterte aktivaene.
 5. Velg knappen **Skriv ut** eller **Forhåndsvisning**.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/budget-fixed-assets/)
+## Se relatert [Microsoft-opplæring](/training/modules/budget-fixed-assets/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Aktiva](fa-manage.md)  
 [Definer aktiva](fa-setup.md)  

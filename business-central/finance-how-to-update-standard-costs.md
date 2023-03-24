@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4bada4ee28df77cc9700d5957ef8fb8b1a64535b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517449"
 ---
-# <a name="update-standard-costs"></a>Oppdatere standardkost
+# Oppdatere standardkost
 Du må regelmessig oppdatere standardkostnadene for komponenter og opprullere de nye kostnadene til den overordnede varen. Prosessen består vanligvis av følgende fire trinn:  
 
 1.  Oppdatere kost på komponent- og kapasitetsnivået. Hvis du vil ha mer informasjon, se kjørselen **Foreslå standardkost for vare**.  
@@ -26,7 +20,7 @@ Du må regelmessig oppdatere standardkostnadene for komponenter og opprullere de
 
 Hvis du vil ha mer informasjon, kan du se [Om beregning av standardkost](finance-about-calculating-standard-cost.md).
   
-## <a name="to-update-standard-costs"></a>Slik oppdaterer du standardkost
+## Slik oppdaterer du standardkost
 
 1.  Kjør kjørselen **Juster kostverdi - vareposter**.  
 2.  Kjør kjørselen **Bokfør lagerkost i Finans**.  
@@ -41,7 +35,7 @@ Hvis du vil ha mer informasjon, kan du se [Om beregning av standardkost](finance
     7.  Kjør kjørselen **Implementer endringer i standardkost**.  
 4.  Gå gjennom og bokfør siden **Revalueringskladd**, som er fylt ut med poster fra tidligere trinn i denne fremgangsmåten.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
  [Om beregning av standardkost](finance-about-calculating-standard-cost.md)   
  [Administrere lagerkostnader](finance-manage-inventory-costs.md)   

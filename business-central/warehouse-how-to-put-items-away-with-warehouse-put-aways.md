@@ -1,90 +1,124 @@
 ---
-title: Plassere varer med lagerplasseringer | Microsoft-dokumentasjon
-description: Lær hvordan de ulike måtene for å plasser varer i Business Central med lagerplasseringsoppgavene nedenfor.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: af211e70e43a70999822a513fc79907dbcd74429
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529842"
+title: Plassere varer med lagerplasseringer
+description: Finn ut mer om de ulike måtene å bruke lagerplasseringer for å plassere mottatte varer.
+author: bholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 01/24/2023
+ms.custom: bap-template
+ms.search.forms: '7352, 7333'
 ---
-# <a name="put-items-away-with-warehouse-put-aways"></a>Plassere varer med lagerplasseringer
+# Plassere varer med lagerplasseringer
 
-Når lokasjonen er definert til å bruke plasseringsbehandling og lagermottaksbehandling, må du bruke funksjonen for plasseringsdokumenter til å styre plasseringen av varene.  
+I [!INCLUDE[prod_short](includes/prod_short.md)] mottar du varer og plasserer dem ved å bruke en av fire metoder, som beskrevet i tabellen nedenfor.
 
-Når du bokfører et lagermottak, oppdateres kildedokumentene, for eksempel bestilling, inngående overføringsordre eller ordreretur, antall mottatt i varepostene bokføres, og linjene om varene som er mottatt, sendes til plasseringsfunksjonen i lageret. Hvis du har intern plassering og plukking, kan den interne plasseringen også opprette linjer for plassering.  
+|Prinsipp|Inngående prosess|Krev kvitteringer|Krev plasseringer|Kompleksitetsnivå (Finn ut mer under [Oversikt over Warehouse Management](design-details-warehouse-management.md))|  
+|------------|---------------------|--------------|----------------|------------|  
+|A|Bokføre mottak og plassering fra ordrelinjen|||Ingen dedikert lageraktivitet.|  
+|B|Bokføre mottak og plassering fra et lagerplasseringsdokument||Slått på|Grunnleggende: ordre for ordre.|  
+|U|Bokføre mottak og plassering fra et lagermottaksdokument|Slått på||Grunnleggende: konsolidert mottak/levering for flere ordrer.|  
+|D|Bokføre mottak fra et lagermottaksdokument og bokføre plassering fra et lagerplasseringsdokument|Slått på|Slått på|Avansert|  
 
-Avhengig av lageroppsettet gjøres linjene tilgjengelige for plasseringsforslaget eller brukes til å generere plasseringsinstruksjoner umiddelbart. Hvis du vil ha mer informasjon, kan du se [Planlegge plasseringer i forslag](warehouse-how-to-plan-put-aways-in-worksheets.md).  
+Finn ut mer under [Inngående lagerflyt](design-details-inbound-warehouse-flow.md).
 
-I tillegg til standardmåter å opprette plasseringer på, som er beskrevet i dette emnet, kan du opprette plasseringen fra det relaterte bokførte lagermottaket. Dette er nyttig hvis du har slettet plasseringslinjer, eller hvis du bruker lagerstyring og har bestemt deg for å ikke bruke plasseringsforslaget, fordi du kan opprette eller gjenopprette plasseringsinstruksjoner fra de bokførte mottakslinjene.  
+Denne artikkelen henviser til metode D i tabellen og antar at mottaket allerede har skjedd. Finn ut mer under [Motta varer](warehouse-how-receive-items.md).
 
-## <a name="to-put-items-away-without-directed-put-away-and-pick"></a>Slik plasserer du varer uten lagerstyring
+Når en lokasjon er definert til å bruke plasseringsbehandling og lagermottaksbehandling, må du bruke plasseringsdokumenter til å styre hvordan varer plasseres. Når du bokfører et lagermottak, oppdateres kildedokumenter som kjøp, inngående overføring eller ordrereturer. Det mottatte antallet posteres til vareposten, og linjene for de mottatte varene sendes til plasseringsfunksjonen i lageret.
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Plasseringer** og velg den relaterte koblingen.  
-2.  Åpne lagerplasseringen som er klar til å håndtere.  
+Avhengig av verdien i feltet **Bruk plasseringsforslag** på siden **Lokasjonskort**, gjøres linjene tilgjengelig for plasseringsforslaget eller brukes til å generere plasseringsdokumenter umiddelbart. Finn ut mer under [Definer lagerstyring](warehouse-setup-warehouse.md).  
 
-    Du kan sortere plasseringslinjene etter ulike kriterier, for eksempel etter vare, hyllenummer eller forfallsdato, og dermed optimalisere plasseringsprosessen.  
-3.  På hver linje, i feltet **Ant. som skal håndt.** angir du det antall varer du vil plassere.  
-4.  Når du har fullført plasseringen av varene, velger du handlingen **Registrer plassering** for å registrere at aktiviteten er fullført, og gjøre varene tilgjengelig for plukking.  
+I tillegg til standardmåter å opprette plasseringer på, som er beskrevet i denne artikkelen, kan du opprette plasseringer fra det relaterte bokførte lagermottaket. Dette er nyttig hvis du har slettet plasseringslinjer, eller hvis du bestemmer deg for ikke å bruke plasseringsforslaget, fordi du kan opprette eller gjenopprette plasseringsinstruksjoner fra de bokførte mottakslinjene.
 
-## <a name="to-put-items-away-with-directed-put-away-and-pick"></a>Slik plasserer du varer med lagerstyring
+## Sone- og hyllekoder
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Plasseringer** og velg den relaterte koblingen.
-    Hvis det er opprettet plasseringsinstruksjoner, er en plassering synlig.  
-2.  Åpne lagerplasseringen som du vil arbeide med.  
-3.  Hvis lageret krever det, angir du bruker-IDen på hurtigfanen **Generelt** når du begynner å arbeide med en bestemt plassering.  
-4.  Utfør hentings- og plasseringshandlingene angitt på linjene i feltet **Handlingstype**.  
+På lokasjoner som er definert for å bruke lagerstyring, er følgende innstillinger nødvendige for å fastslå det beste stedet å plassere varene:  
 
-    Vær oppmerksom på at hver mottakslinje er blitt til mist to linjer i plasseringen:  
+* En plasseringsmal konfigureres. Finn ut mer under [Definer plasseringsmaler](warehouse-how-to-set-up-put-away-templates.md).  
+* Vekten, kubikkinnholdet og spesielle lagringskrav for varen eller lagerføringsenheten er definert.
+* Kapasiteten, hylletypen og hylleprioritering er definert for hyllene.  
 
-    -   Den første linjen, med **Hent** i **Handlingstype**-feltet, angir hvor varene er plassert i mottaksområdet. Du kan ikke endre sone- og hyllefeltet på denne linjen.  
-    -   Den neste linjen, med **Plasser** i **Handlingstype**-feltet, viser hvor du må plassere varene i lageret. Hvis lageret har mottatt et stort antall varer på én mottakslinje, kan det hende de må plasseres i flere hyller, det finnes derfor en Plass-linje for hver hylle.  
+Hylleprioriteringen brukes når flere enn én hylle samsvarer med kriteriene på plasseringsmalen. Hvis både plasseringsmalkriteriene og hylleprioriteringen er den samme for flere hyller, velges hyllen med det høyeste nummeret.
 
-        Hvis Hent- og Plasser-linjene for hvert mottak ikke følger umiddelbart etter hverandre, og du vil at de skal gjøre det, kan du sortere linjene ved å velge **Vare** i feltet **Sorteringsmetode** i hurtigfanen **Generelt**.  
+## Slik oppretter du plasseringsdokumenter i bulk med plasseringsforslaget  
 
-        Hvis det fysiske oppsettet av lageret gjenspeiler hylleprioriteringene, kan du bruke sorteringsmetoden **Hylleprioritering** til å forberede en plasseringsrunde som vil begrense dine turer gjennom lageret.  
+Du kan opprette plasseringsdokumenter for flere mottak samtidig på siden **Plasseringsforslag**.  
 
-5.  Når du har plassert alle varene i hyller i henhold til instruksjonen, velger du handlingen **Registrer plassering**.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Plasseringsforslag** og velg den relaterte koblingen.  
+2. Velg handlingen **Hent lagerdokumenter**. **Plasseringsutvalg**-siden åpnes.  
 
-På steder som er definert for å bruke styrt plassering og plukk, er følgende innstillinger forutsetninger for fremgangsmåten ovenfor:  
+    Oversikten inneholder alle bokførte mottak som er klare til å plasseres, inkludert de som det allerede er opprettet plasseringsinstruksjoner for. Dokumenter med plasseringslinjer som er fullstendig plassert og registrert, blir ikke vist i denne oversikten.  
+3. Velg dokumentene du vil arbeide med. Du kan arbeide med linjer fra flere dokumenter samtidig.  
 
-- En plasseringsmal konfigureres. Hvis du vil ha mer informasjon, kan du se [Definere plasseringsmaler](warehouse-how-to-set-up-put-away-templates.md).  
-- Vekten, kubikkinnholdet og spesielle lagringskrav for varen eller lagerføringsenheten er definert. Hvis du vil ha mer informasjon, kan du se Bruttovekt.  
-- Kapasiteten, hylletypen og prioriteringen til hyllene. Hvis du vil ha mer informasjon, kan du se hylleprioritering.  
+    > [!NOTE]  
+    >  Hvis du velger et mottaksdokument eller internplasseringsdokument der du allerede har opprettet instruksjoner for alle linjene, informerer [!INCLUDE[prod_short](includes/prod_short.md)]] deg om at det ikke er noe å håndtere.  
 
-Hylleprioriteringen trer i kraft hvis det er flere enn én hylle som er i samsvar med plasseringsmalkriteriene. Hvis både plasseringsmalkriteriene og hylleprioriteringen er den samme for flere hyller, velges hyllen med det høyeste nummeret.
+4. Fyll ut feltet **Sorteringsmetode** for å sortere linjene.  
 
-## <a name="to-create-a-put-away-from-a-posted-receipt"></a>Slik oppretter du en plassering fra et bokførte mottak:
+    > [!NOTE]  
+    >  Måten linjene blir sortert på i forslaget, overføres ikke automatisk ved plasseringsinstruksen. Det finnes imidlertid de samme mulighetene for sortering og hylleprioritering. Du kan opprette linjeordren på nytt du planlegger i forslaget, når du oppretter plasseringsinstruksjonene eller sorterer i plasseringsinstruksjonene.
 
- Hvis lokasjonen bruker både plasserings- og mottaksbehandling og du har slettet plasseringslinjer, eller hvis du bruker lagerstyring og har bestemt deg for å ikke bruke plasseringsforslaget, kan du opprette eller gjenopprette plasseringsinstruksjoner for de bokførte mottakslinjene på følgende måte:
+5. Fyll ut feltet **Ant. som skal håndt.**. Velg handlingen **Autoutfyll ant. som skal hndt.**, eller fyll ut feltene manuelt.  
+6. Du kan redigere linjene manuelt om nødvendig. Du kan slette linjer, for eksempel hvis noen varer må plasseres i en hylle som er langt borte fra hyllene for de andre varene.  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Bokførte lagermottak**, og velg deretter den relaterte koblingen.  
-2.  Velg et bokført mottak som skal plasseres.  
-3.  Velg handlingen **Kort**.  
+    > [!NOTE]  
+    > Når du sletter linjer, slettes de bare fra dette forslaget. De slettes ikke fra plasseringsvalget.  
 
-    Hvis feltet **Dokumentstatus** er tomt, er mottaket ikke plassert. Ellers indikerer feltet mottaket som delvis plassert eller fullstendig plassert.  
+7. Velg handlingen **Opprett plassering**. Siden **Opprett dokument** åpnes. Her kan du tilføye mer informasjon for den plasseringen du oppretter.  
 
-4.  Hvis mottaket er delvis plassert eller ikke plassert, klikker du på handlingen **Opprett plassering**.  
-5.  Fyll ut kjørselssiden for å opprette plasseringen, og klikk deretter **OK**.  
+    * Du kan tilordne plasseringen til en bestemt ansatt.  
+    * Du kan sortere plasseringsinstruksjonslinjene på samme måte som i forslaget eller etter hylleprioritering. Når du sorterer etter hylleprioriteringen, vises *Hent*-linjene først, fordi de fleste mottakshyllene har en rangering på 0 hyller. *Plasser*-linjene vises sist og begynner med de hyllene som har lavest hylleprioritering. Hvis du har strukturert lageret slik at hyller med lignende hylleprioritering er side ved side, blir jobben enklere for de lageransatte ved at de slipper å utføre enkelte trinn.  
+    * Du kan velge ikke å ta med linjene som [!INCLUDE[prod_short](includes/prod_short.md)]] opprettet da det konverterte en større enhet til mindre enheter, ved å merke av i **Angi anbrekksfilter**-feltet. Finn ut mer om anbrekk under [Aktivere automatisk samlet oppbryting med lagerstyring og plukk](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)  
+    * Du kan velge at feltet **Ant. som skal håndt.** ikke fylles automatisk ut i plasseringsinstruksjonene.  
+    * Du kan velge å skrive ut dokumentet umiddelbart.  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/receive-put-away-items/)
+8. Velg **OK** for å opprette plasseringen.  
 
-## <a name="see-also"></a>Se også
+## Slik oppretter du en plassering fra et bokførte mottak:
 
-[Lagerstyring](warehouse-manage-warehouse.md)  
+Hvis en lokasjon bruker både plasserings- og mottaksbehandling og du har slettet plasseringslinjer, eller hvis du bruker lagerstyring og har bestemt deg for å ikke bruke plasseringsforslaget, kan du opprette eller gjenopprette plasseringsinstruksjoner for de bokførte mottakslinjene på følgende måte:
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokførte lagermottak**, og velg deretter den relaterte koblingen.  
+2. Velg et bokført mottak som skal plasseres.  
+3. Velg handlingen **Kort**.  
+
+    Hvis feltet **Dokumentstatus** er tomt, er mottaket ikke plassert. Ellers indikerer feltet om mottaket er delvis eller fullstendig plassert.  
+
+4. Hvis mottaket er delvis plassert eller ikke plassert, klikker du på handlingen **Opprett plassering**.  
+5. Fyll ut feltene etter behov, og klikk deretter **OK**.  
+
+## Slik plasserer du varer
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerplasseringer** og velg den relaterte koblingen.
+
+2. Åpne lagerplasseringen som er klar til å håndtere.  
+3. Hvis lageret krever det, angir du bruker-ID-en når du begynner å arbeide med en plassering.  
+
+    Du kan sortere plasseringslinjene etter ulike kriterier, for eksempel etter vare, hyllenummer eller forfallsdato. Sortering kan bidra til å optimalisere plasseringsprosessen, for eksempel:
+
+    * Hvis Hent- og Plasser-linjene for hvert mottak ikke følger umiddelbart etter hverandre, og du vil at de skal gjøre det, kan du sortere linjene ved å velge **Vare** i feltet **Sorteringsmetode**.  
+    * Hvis hylleprioritering gjenspeiler det fysiske oppsettet av lageret, kan du bruke sorteringsmetoden **hylleprioriteringen** til å organisere arbeidet etter hyllelokasjoner.
+
+4. Utfør handlingene.
+
+    Hvis en hyllekode er obligatorisk for lokasjonene, blir alle mottakslinjer minst to linjer i lagerplasseringen, som vist nedenfor.  
+
+    * Den første linjen, med **Hent** i **Handlingstype**-feltet, angir hvor varene er plassert i mottaksområdet. Du kan ikke endre sonen og hyllen på denne linjen.  
+    * Den neste linjen, med **Plasser** i **Handlingstype**-feltet, viser hvor du må plassere varene i lageret. Hvis du mottar et stort antall varer på én mottakslinje, kan det hende du må plassere varene i flere hyller, det finnes derfor en Plass-linje for hver hylle. 
+
+    > [!NOTE]
+    > Hvis du må plassere varene for én linje i mer enn én hylle, for eksempel fordi den angitte hyllen er full, bruker du handlingen **Del linje** i hurtigfanen **Linjer**. Handlingen oppretter en linje der restantallet skal håndteres.
+
+5. Når du har plassert alle varene i hyller i henhold til instruksjonen, velger du handlingen **Registrer plassering**.  
+
+## Se relatert [Microsoft-opplæring](/training/modules/receive-put-away-items/)
+
+## Se også
+
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
 [Definer lagerstyring](warehouse-setup-warehouse.md)  
-[Monteringsstyring](assembly-assemble-items.md)  
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,6 +1,6 @@
 ---
 title: Konfigurere godkjenningsbrukere
-description: Før du kan opprette arbeidsflyter som omfatter godkjenningstrinn, må du definere arbeidsflytbrukerne som er involvert i godkjenningsprosessene på siden Brukeroppsett for godkjenning.
+description: 'Før du kan opprette arbeidsflyter som omfatter godkjenningstrinn, må du definere arbeidsflytbrukerne som er involvert i godkjenningsprosessene på siden Brukeroppsett for godkjenning.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.form: 663
 ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: 2654dcb68b579d90fe3218bcd0bba3bde4cb5036
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585841"
 ---
-# <a name="set-up-approval-users"></a>Konfigurere godkjenningsbrukere
+# Konfigurere godkjenningsbrukere
 
 Før du kan opprette arbeidsflyter som omfatter godkjenningstrinn, må du definere arbeidsflytbrukerne som er involvert i godkjenningsprosessen. På siden **Brukeroppsett for godkjenning** angir du også beløpsgrenser for bestemte typer forespørsler og definerer stedfortredende godkjennere som godkjenningsforespørsler delegeres til når den opprinnelige godkjenneren er borte.  
 
@@ -28,7 +22,7 @@ Når du har definert godkjenningsbrukere, kan du opprette arbeidsflytsvar for go
 > [!NOTE]  
 > Du kan definere at en godkjenningsforespørsel ikke er godkjent før flere brukere har godkjent den, ved å definere godkjennere i et hierarki. For godkjennertypen **Godkjenner** definerer du godkjennere på siden **Brukeroppsett for godkjenning**. For godkjennertype **Brukergruppe for arbeidsflyt** definerer du godkjennere på siden **Brukergrupper for arbeidsflyt** og definerer hierarkiet ved å tilordne trinnvise numre til hver enkelt godkjenner i feltet **Sekvensnr.** . Finn ut mer nedenfor og under [Definer arbeidsflytbrukere](across-how-to-set-up-workflow-users.md).  
 
-## <a name="to-set-up-an-approval-user"></a>Slik konfigurerer du godkjenningsbrukere
+## Slik konfigurerer du godkjenningsbrukere
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukeroppsett for godkjenning**, og velg deretter den relaterte koblingen.  
 2. Opprett en ny linje på siden **Brukeroppsett for godkjenning**, og fyll deretter ut feltene som beskrevet i tabellen nedenfor.  
@@ -54,9 +48,9 @@ Når du har definert godkjenningsbrukere, kan du opprette arbeidsflytsvar for go
 3. Hvis du vil teste brukeroppsettet for godkjenning, velger du **Test av brukeroppsett for godkjenning**.  
 4. Gjenta trinn 2 og 3 for alle personer som du vil definere som godkjenningsbrukere.  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
+## Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurer arbeidsflytbrukere](across-how-to-set-up-workflow-users.md)  
 [Konfigurer arbeidsflytvarsler](across-setting-up-workflow-notifications.md)  

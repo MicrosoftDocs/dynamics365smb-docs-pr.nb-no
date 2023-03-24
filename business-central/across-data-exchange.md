@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file
+ms.search.keywords: 'Data exchange framework, data files, data exchange, electronic document, invoice, Business Central, business document, standard-compliant file'
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: 83a210cc41c720a1a92aa907697626c0d3dd0cd8
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141726"
 ---
-# <a name="exchanging-data-electronically"></a>Utveksle data elektronisk
+
+# Utveksle data elektronisk
 Du kan bruke rammeverket for datautveksling til å utveksle forretningsdokumenter, bankfiler, valutakurser og andre datafiler med forretningspartnerne.
 
 I standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] brukes rammeverket for datautveksling i prosesser, for eksempel utveksling av elektroniske dokumenter, import og eksport av bankfiler og oppdatering av valutakurser. Hvis du vil ha mer informasjon, se [Rammeverket for datautveksling](across-about-the-data-exchange-framework.md).
@@ -31,7 +26,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 |Klargjør for å utveksle data i en fil ved å bruke XML-skjemaet for filen på nytt. Definer datautvekslingsdefinisjoner. Definer hoveddata for sending av elektroniske dokumenter. Definer ulike felt for bankimport/-eksport.|[Definere datautveksling](across-set-up-data-exchange.md)|  
 |Basert på datautvekslingsdefinisjoner kan du sende PEPPOL-fakturaer, motta PEPPOL-fakturaer, importere bankkontoutdrag og eksportere bankbetalingsfiler.|[Utveksle data](across-exchange-data.md)|  
 
-## <a name="see-also"></a>Se også  
+## Se også  
 [Rammeverket for datautveksling](across-about-the-data-exchange-framework.md)  
 [Bruke XML-skjemaer til å klargjøre datautvekslingsdefinisjoner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)  
 [Definere datautveksling](across-set-up-data-exchange.md)  

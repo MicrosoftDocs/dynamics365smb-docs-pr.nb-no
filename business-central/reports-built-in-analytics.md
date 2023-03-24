@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: edupont
-ms.openlocfilehash: 8968c050701871f610c051432229f88f73804f32
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607773"
 ---
-# <a name="built-in-analytics"></a>Innebygd analyse
+# Innebygd analyse
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inneholder noen funksjoner som gjør det mulig å analysere data i et oppsamlet skjema. Denne funksjonaliteten er nyttig hvis du for eksempel vil spore ytelsesindikatorer eller analysere regnskapsoppgjør i Microsft Excel. Nedenfor finner du koblinger som hjelper deg å lære hvordan du bruke den.
 
@@ -29,7 +23,7 @@ ms.locfileid: "9607773"
 |Analyser finansdata på tvers av flere selskaper | [Konsolider finansdata fra flere selskaper](finance-consolidated-company-reporting.md) |
 |Få innsikt i hvilke rapporter brukere bruker| [Telemetri for rapportbruk](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversikt over Business Intelligence og rapportering](reports-use-reports.md)
 

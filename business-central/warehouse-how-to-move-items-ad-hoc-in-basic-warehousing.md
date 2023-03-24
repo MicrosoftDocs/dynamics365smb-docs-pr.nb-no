@@ -1,87 +1,100 @@
 ---
-title: Flytte varer ad hoc i enkle lageroppsett
-description: Dette emnet forklarer ad hoc-flyttinger som utføres når du skal flytte varer mellom interne hyller uten et bestemt behov fra et kildedokument.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 393, 7382
-ms.date: 06/25/2021
-ms.author: edupont
-ms.openlocfilehash: 46b6cbd88cf23974e5fd11453c328c1669c8e19c
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534430"
+title: Flytte varer uplanlagt i enkle lageroppsett
+description: Denne artikkelen forklarer ikke-planlagte interne flyttinger mellom hyller uten behov fra et kildedokument.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/16/2022
+ms.custom: bap-template
+ms.search.form: '393, 7382'
 ---
-# <a name="move-items-ad-hoc-in-basic-warehouse-configurations"></a>Flytte varer ad hoc i enkle lageroppsett
+# Flytt varer internt i grunnleggende lageroppsett
 
-Av og til kan det være nødvendig å flytte varer mellom interne hyller, hyller som ikke er mottakshyller eller leveringshyller, uten et bestemt behov fra et kildedokument. Du kan utføre disse ad hoc-flyttingene for eksempel for å omorganisere lageret, for å hente varer til et kontrollområde eller for å flytte tilleggsvarer til og fra et produksjonsområde uten et systemforhold til kildedokumentet for produksjonsordren.  
+Du vil kanskje flytte varer mellom hyller uten behov fra et kildedokument. Det kan for eksempel være en del av følgende aktiviteter:
 
-I grunnleggende lageroppsett, det vil si lokasjoner som bruker oppsettsfeltet **Hylle obligatorisk** og muligens oppsettsfeltene **Plukk nødv.** og **Plassering nødv.**, kan du registrere ad hoc-flyttinger uten kildedokumenter på følgende måter:  
+* Organiser lageret på nytt.
+* Overføre varer til et inspeksjonsområde.
+* Flytt ekstra varer til og fra et produksjonsområde. 
 
-- På siden **Intern flytting**.  
-- Med siden **Varereklassifiseringskladd**.  
+Hvordan du flytter varer avhenger av hvordan lageret er definert som lokasjon. Finn ut mer under [Definer lagerstyring](warehouse-setup-warehouse.md).
+
+I lageroppsett der den **Hylle obligatorisk**-oppsett er aktivert, men ikke **Lagerstyring**, kan du registrere ikke-planlagte flyttinger på følgende sider:  
+
+* På siden **Intern flytting**.
+* På siden **Varereklassifiseringskladd**.  
+
+## Interne flyttinger
+
+Med siden **Interne flyttinger** kan du angi Hent- og Plasser-linjer når det ikke er et behov fra et kildedokument. Siden Intern flytting er som et forslag til organisering av ting. Du kan ikke behandle den faktiske flyttingen direkte fra den. Når en linje er fylt ut, bruker du handlingen **Opprett lagerflytting** til å sende linjen til siden **Lagerflytting**, som er stedet der du behandler og registrerer flyttingen.
+
+### Flytte varer som en intern flytting
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Interne flyttinger**, og velg deretter den relaterte koblingen.  
+2. Velg handlingen **Ny**. Pass på at **Nr.** -feltet i hurtigfanen **Generelt** er fylt ut.
+3. Angi lokasjonen der flyttingen finner sted, i **Lokasjonskode**-feltet.  
+
+    Hvis lokasjonen er standardlokasjonen for deg som lageransatt, legges lokasjonskoden til automatisk.  
+4. Angi koden for hyllen som du vil flytte varene til, i feltet **Til hylle-kode**.
+
+    I produksjon kan hyllen for eksempel være den åpne produksjonshyllekoden, som definert på lokasjonskortet eller i arbeidssenteret.  
+5. Angi datoen flyttingen må fullføres innen, i **Forfallsdato**-feltet.  
+6. Fyll ut feltene på linjen på hver linje etter behov. Interne flyttedokumenter har én linje per flytting. Linjen inneholder både Ta- og Plasser-handlingene.
+7. Velg **Varenr.**-feltet for å åpne siden **Hylleinnholdsoversikt**. Velg varen som skal flyttes, basert på tilgjengeligheten i hyller. Du kan også velge handlingen **Hent hylleinnhold** for å fylle ut de interne flyttelinjene basert på filtrene.  
+
+    Når du har valgt varen, blir feltet **Fra hylle-kode** automatisk fylt ut i henhold til det valgte hylleinnholdet. Du kan velge en hvilken som helst hylle der varen er tilgjengelig. Feltene **Varenr.** og **Fra hylle-kode** er knyttet sammen. Hvis du endrer verdien i et felt, endres kanskje verdien i det andre feltet.  
+
+    Feltet **Til hylle-kode** er fylt ut med verdien du angav i toppteksten. Du kan endre det på linjen til en hvilken som helst annen hyllekode som ikke er sperret eller dedikert til spesielle formål. Finn ut mer under [Feltet dedikert](warehouse-how-to-create-individual-bins.md#the-dedicated-field).  
+
+8. Når du har definert hvilke hyller du vil flytte varene fra og til, angir du antallet som skal flyttes, i feltet **Antall**.  
+
+    > [!NOTE]  
+    > Antallet må være tilgjengelig i hyllen som er angitt i feltet **Fra hylle-kode**.  
+
+9. Når du er klar til å behandle flyttingen, velger du handlingen **Opprett lagerflytting**.  
+
+    > [!NOTE]  
+    >  Når du har opprettet flyttingen, slettes linjene for intern flytting.  
+
+Utfør resten av den uplanlagte flyttingen på siden **Lagerflytting** på samme måte som for en flytting basert på kildedokumenter.
+
+### Slik registrerer du lagerflyttingen
+
+1. Åpne dokumentet du vil registrere flyttingen for, på siden **Lagerflytting**.  
+2. I **Hyllekode**-feltet på flyttelinjene er hyllen der varene skal plukkes fra der varen er tilgjengelig. Du kan endre hyllen ved behov.
+3. Utfør flyttingen, og angi opplysninger om det flyttede antallet i feltet **Ant. som skal håndt**. Verdiene på Hent- og Plasser-linjene må være like. Eller kan du ikke registrere flyttingen.
+
+    Hvis du må ta varene for en linje fra mer enn én hylle, for eksempel fordi hele antallet ikke er i hyllen, bruker du handlingen **Del linje** i hurtigfanen **Linjer**. Handlingen oppretter en linje der restantallet skal håndteres.  
+4. Velg handlingen **Registrer lagerflytting**.  
+
+Følgende skjer under bokføringsprosessen:
+
+* Lagerposter angir at antallet overføres fra Hent-hyller til Plasser-hyllene.
+
+## Flytte varer med varereklassifiseringskladden
+
+I stedet for å bruke flyttingsdokumenter kan du registrere flyttinger ved å reklassifisere hyllekodene på varer. Finn ut mer under [Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder](inventory-how-count-adjust-reclassify.md).
 
 > [!NOTE]  
->  I avanserte lageroppsett, det vil si lokasjoner der oppsettsfeltet **Bruk Lagerstyring** brukes, bruker du siden **Flytteforslag** eller sidene **Intern plukk** og **Intern plassering** til å flytte varer ad hoc mellom hyller.  
+> Flyttinger bokført med reklassifiseringskladder gjør ikke flyttedokumentene klare til å flytte.  
 
-## <a name="to-move-items-as-an-internal-movement"></a>Flytte varer som en intern flytting
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagervarereklassif.kladd** og velg den relaterte koblingen.  
+2. På hver kladdelinje kan du definere hyllene du vil flytte varene fra og til, ved å fylle ut feltene **Hyllekode** og **Ny hyllekode**.  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Intern flytting**, og velg deretter den relaterte koblingen.  
-2.  På hurtigfanen **Generelt** fyller du ut **Nr.**-feltet enten ved å la det stå eller ved å velge **AssistEdit** for å velge fra nummerserien.  
-3.  Angi lokasjonen der flyttingen finner sted, i **Lokasjonskode**-feltet.  
+    1. Hvis du vil flytte hele hylleinnholdet fra en hylle til en annen, velger du handlingen **Hent hylleinnhold**.  
+    2. Bruk filtrene for å finne hyllen som inneholder varene du vil flytte, og velg deretter **OK**. Kladdelinjene fylles ut med innholdet i hyllen.  
+3. Fyll ut de gjenstående feltene på hver kladdelinje.
+4. Bokfør reklassifiseringskladden.  
 
-    Hvis lokasjonen er definert som standardlokasjonen for deg som lageransatt, settes lokasjonskoden inn automatisk.  
-4.  Angi en kode for hyllen som du vil flytte elementet til, i feltet **Til hylle-kode**. Til produksjonsformål kan dette for eksempel være den åpne produksjonshyllekoden, som definert på lokasjonskortet eller i arbeidssenteret.  
-5.  Angi datoen flyttingen må fullføres innen, i **Forfallsdato**-feltet.  
-6.  På hurtigfanen **Linjer** velger du **Varenr.**-feltet for å åpne siden **Hylleinnhold - oversikt** og velger deretter varen du vil flytte basert på tilgjengeligheten i hyllene. Du kan også velge handlingen **Hent hylleinnhold** for å fylle ut de interne flyttelinjene basert på filtrene dine. Hvis du vil ha mer informasjon, kan du se verktøytipset for handlingen **Hent hylleinnhold**.  
+## Se relatert [Microsoft-opplæring](/training/modules/manage-internal-warehouse-processes/)
 
-    Når du har valgt varen, blir feltet **Fra hylle-kode** automatisk fylt ut i henhold til det valgte hylleinnholdet, men du kan endre det til en hvilken som helst annen hylle der varen er tilgjengelig.  
+## Se også
 
-    > [!NOTE]  
-    >  Siden feltet **Varenr.** og feltet **Fra hylle-kode** er koblet sammen, kan verdiene endres uavhengig når du redigerer et av feltene.  
-
-    Feltet **Til hylle-kode** fylles ut med verdien du anga i hodet, men du kan endre den på linjen til en annen hyllekode som ikke er blokkert eller dedikert til spesielle formål. Hvis du vil ha mer informasjon om hvordan du gjør hyller dedikert, kan du se Dedikert.  
-7.  Når du har definert hvilke hyller du vil flytte varen fra og til, angir du antallet som skal flyttes, i feltet **Antall**.  
-
-    > [!NOTE]  
-    >  Antallet må være tilgjengelig i Fra hylle-koden.  
-
-8.  Når du er klar til å behandle den interne flyttingen, velger du handlingen **Opprett lagerflytting**.  
-
-    > [!NOTE]  
-    >  Når du har opprettet lagerflyttingen, slettes linjene for intern flytting.  
-
-    Du utfører resten av ad hoc-flyttingen på siden **Lagerflytting** på samme måte som for en flytting basert på kildedokumenter. Hvis du vil ha mer informasjon, kan du for eksempel se [Flytte komponenter til et operasjonsområde i enkle lageroppsett](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)  
-
-## <a name="to-move-items-with-the-item-reclassification-journal"></a>Flytte varer med varereklassifiseringskladden
-
-I stedet for å bruke lagerflyttingsdokumenter kan du registrere flytting av varer ved å reklassifisere hyllekodene. Hvis du vil ha mer informasjon, se [Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder](inventory-how-count-adjust-reclassify.md)
-
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagervarereklassif.kladd** og velg den relaterte koblingen.  
-2.  På hver kladdelinje kan du definere hyllene du vil flytte elementer til og fra ved å fylle ut feltene **Hyllekode** og **Ny hyllekode**.  
-
-    1.  Hvis du vil flytte hele hylleinnholdet fra en hylle til en annen, velger du handlingen **Hent hylleinnhold**.  
-    2.  Angi filtrene for å finne hyllen du vil flytte innholdet fra, og klikk deretter **OK**. Kladdelinjene fylles ut med innholdet i hyllen.  
-3.  Fyll ut de gjenstående feltene på hver kladdelinje.   
-4.  Bokfør reklassifiseringskladden.  
-
-    > [!NOTE]  
-    >  I motsetning til flyttedokumenter oppretter ikke en flytting som bokføres i reklassifiseringskladden, en lagerforespørsel om å utføre den fysiske oppgaven.  
-
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/manage-internal-warehouse-processes/)
-
-## <a name="see-also"></a>Se også
-
-[Lagerstyring](warehouse-manage-warehouse.md)  
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
 [Definer lagerstyring](warehouse-setup-warehouse.md)  
 [Monteringsstyring](assembly-assemble-items.md)  
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

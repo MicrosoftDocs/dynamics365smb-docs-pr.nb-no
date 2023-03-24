@@ -1,39 +1,33 @@
 ---
 title: Definer aktivavedlikehold
-description: For å administrere aktivareparasjoner og -service angir du generelle vedlikeholdsopplysninger, koder for typen arbeid og en bokføringskonto for kost.
+description: 'For å administrere aktivareparasjoner og -service angir du generelle vedlikeholdsopplysninger, koder for typen arbeid og en bokføringskonto for kost.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: repair, service
-ms.search.form: 5600, 5642
+ms.search.keywords: 'repair, service'
+ms.search.form: '5600, 5642'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 05a9348d08a3255b3e2b438a540fc7a84de26b0d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8518184"
 ---
-# <a name="set-up-fixed-asset-maintenance"></a>Definere aktivavedlikehold
+# Definere aktivavedlikehold
 For å styre vedlikehold av aktiva, må du først definere noen generelle vedlikeholdsopplysninger, en bokføringskonto for vedlikeholdskostnader og vedlikeholdskoder for typer arbeid, for eksempel rutineservice eller reparasjon.
 
-## <a name="to-set-up-general-maintenance-information"></a>Slik definerer du generelle vedlikeholdsopplysninger:
+## Slik definerer du generelle vedlikeholdsopplysninger:
 Hvis du definerer vedlikeholdsfeltene, kan du bokføre vedlikeholdsutgifter fra aktivakladden.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktiva**, og velg deretter den relaterte koblingen.
 2. Velg aktivaet du vil definere forsikringsdekning for, og velg deretter handlingen **Rediger**.
 3. Fyll ut feltene på hurtigfanen **Vedlikehold** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-set-up-maintenance-codes"></a>Slik definerer du vedlikeholdskoder
+## Slik definerer du vedlikeholdskoder
 Når du bokfører vedlikeholdskostnader fra en finanskladd, fyller du ut feltet **Vedlikeholdskode** for å registrere hva slags vedlikehold som er utført, for eksempel rutineservice eller reparasjon.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Vedlikehold**, og velg deretter den relaterte koblingen.
 2. På **Vedlikehold**-siden definerer du koder for ulike typer vedlikeholdsarbeid.
 
-## <a name="to-set-up-maintenance-expense-accounts"></a>Slik definerer du utgiftskonti for vedlikehold
+## Slik definerer du utgiftskonti for vedlikehold
 Du må først angi et kontonummer på siden **Bokf.grupper - aktiva** for å kunne bokføre vedlikeholdskostnader.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Bokføringsgrupper – aktiva**, og velg deretter den relaterte koblingen.
@@ -42,7 +36,7 @@ Du må først angi et kontonummer på siden **Bokf.grupper - aktiva** for å kun
 > [!NOTE]  
 >   Hvis du vil at vedlikeholdskostnader skal fordeles på avdelinger eller prosjekter, må du definere en fordelingsnøkkel. Hvis du vil ha mer informasjon, kan du se [Definere generelle aktivafunksjoner](fa-how-setup-general.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 [Definere aktiva](fa-setup.md)  
 [Aktiva](fa-manage.md)  
 [Finans](finance.md)  

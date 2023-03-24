@@ -6,20 +6,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 58cb2222f2533e2ba952727243a5fdb830b34e75
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145891"
 ---
-# <a name="design-details-integration-with-inventory"></a>Designdetaljer: Integrasjon med lagerbeholdning
+# Designdetaljer: Integrasjon med lagerbeholdning
 Modulen Lagerstyring og modulen Lager samhandler med hverandre i vareopptelling og i lagerjustering.  
   
-## <a name="physical-inventory"></a>Vareopptelling  
+## Vareopptelling  
  Siden **Lagervareopptellingskladd** brukes med siden **Vareopptellingskladd** for alle avanserte lagerlokasjoner. Lageret beregnes på hyllenivå, og den lageransatte får en listeutskrift. Listen viser hvilke varer som må telles i hvilke hyller.  
   
  Den lageransatte registrerer det opptalte antallet på siden **Lagervareopptellingskladd** og bokfører deretter kladden.  
@@ -32,7 +26,7 @@ Modulen Lagerstyring og modulen Lager samhandler med hverandre i vareopptelling 
   
  Når du bokfører vareopptellingskladden, oppdateres lageret og standard justeringshylle.  
   
-### <a name="warehouse-adjustments-to-the-item-ledger"></a>Lagerjusteringer i vareposten  
+## Lagerjusteringer i vareposten  
  Du bruker **Varekladd**-siden og funksjonen **Beregn lagerjustering** til å justere lagerbeholdningen i vareposten i samsvar med en justering som er gjort i vareantallet i en lagerhylle. Hvis du vil opprette en kobling mellom beholdningen og lageret, må du definere en standard justeringshylle per lokasjon.  
   
  Standard justeringshylle registrerer varer på lageret når du bokfører en økning for lageret. Hvis du bokfører en reduksjon, blir imidlertid antallet på standardhyllen også redusert. I begge tilfeller blir det opprettet vareposter og lagerposter.  
@@ -44,8 +38,8 @@ Modulen Lagerstyring og modulen Lager samhandler med hverandre i vareopptelling 
   
  Hvis du angir et positivt antall og bokfører linjen, økes beholdningen som er lagret på hyllen, og antallet i standard justeringshylle reduseres tilsvarende.  
   
-## <a name="see-also"></a>Se også  
- [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)   
- [Designdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md)
+## Se også  
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
+[Utformingsdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -1,28 +1,22 @@
 ---
 title: Oversikt over Finanskladd – bokfør linje
-description: I dette emnet introduseres endringer i codeunit 12, varekld. – posteringslinje, og er det eneste stedet du setter inn finans-, mva- og kunde-og leverandør poster.
+description: 'I dette emnet introduseres endringer i codeunit 12, varekld. – posteringslinje, og er det eneste stedet du setter inn finans-, mva- og kunde-og leverandør poster.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, general ledger, post
+ms.search.keywords: 'design, general ledger, post'
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 2a4d9715f6fdfaef63bf6ac4090bb71d86346e51
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146699"
 ---
-# <a name="general-journal-post-line-overview"></a>Oversikt over Finanskladd – bokfør linje
+# Oversikt over Finanskladd – bokfør linje
 
 Kodeenhet 12, **Finanskladd – bokfør linje**, er det store programobjektet for finansbokføring og det eneste stedet å sette inn finansposter, mva-poster og kunde- og leverandørposter. Denne kodeenheten brukes også for alle operasjoner med Utlign, Opphev utligning og Tilbakefør.  
   
 I Microsoft Dynamics NAV 2013 R2 ble codeunit utformet på nytt fordi den hadde blitt svært stor, med ca. 7 600 kodelinjer. Arkitekturen ble endret, og codeunit er forenklet og gjort enklere å vedlikeholde. Denne dokumentasjonen beskriver endringene og inneholder informasjon du trenger for å oppgradere.  
   
-## <a name="old-architecture"></a>Gammel arkitektur  
+## Gammel arkitektur  
 Den gamle arkitekturen hadde følgende funksjoner:  
   
 * Det var omfattende bruk av globale variabler, som øker risikoen for skjulte feil som skyldes bruk av variabler med feil omfang.  
@@ -33,7 +27,7 @@ Den gamle arkitekturen hadde følgende funksjoner:
 * En stor del av koden i kodeenhet 12, omtrent 30 prosent, er knyttet til kontantrabatt og toleranseberegninger, selv om disse funksjonene ikke er nødvendige i mange land og regioner.  
 * Bokføring, Utlign, Opphev utligning, Tilbakefør, Kontantrabatt, Betalingstoleranse og Valutakursjustering var tilknyttet i kodeenhet 12 ved hjelp av en lang liste med globale variabler.  
   
-### <a name="new-architecture"></a>Ny arkitektur  
+### Ny arkitektur  
 Kodeenhet 12 har fått følgende forbedringer i [!INCLUDE[prod_short](includes/prod_short.md)]:  
   
 * Kodeenhet 12 er refaktorert til mindre prosedyrer (alle er færre enn 100 kodelinjer).  
@@ -43,7 +37,7 @@ Kodeenhet 12 har fått følgende forbedringer i [!INCLUDE[prod_short](includes/p
 * Mange hjelperfunksjoner er overført til tilsvarende tabeller for kunde- og leverandørposter.  
 * Bruken av globale variabler er minimert, slik at hver prosedyre bruker parametere og kapsler inn sin egen programlogikk.  
   
-## <a name="see-also"></a>Se også
+## Se også
 
 [Designdetaljer: Strukturen til bokføringsgrensesnittet](design-details-posting-interface-structure.md)  
 [Designdetaljer: Strukturen til bokføringsmotoren](design-details-posting-engine-structure.md)  

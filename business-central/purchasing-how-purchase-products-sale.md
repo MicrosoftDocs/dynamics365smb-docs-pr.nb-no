@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: supply planning, sales demand, replenish
-ms.search.form: 50, 51, 56, 9308
+ms.search.keywords: 'supply planning, sales demand, replenish'
+ms.search.form: '50, 51, 56, 9308'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b7fe34b7edcba01d25107ead47dc917dabde07a5
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514858"
 ---
-# <a name="purchase-items-for-a-sale-by-creating-purchase-invoices"></a>Kjøpe varer som er på salg ved å opprette kjøpsfakturaer
+# Kjøpe varer som er på salg ved å opprette kjøpsfakturaer
 
 I ordrer og på salgsfakturaer kan du bruke funksjoner til raskt å opprette kjøpsdokumenter for manglende vareantall som kreves av salget. Du kan bruke to ulike funksjoner, avhengig av dokumenttypen.
 
@@ -29,7 +23,7 @@ I ordrer og på salgsfakturaer kan du bruke funksjoner til raskt å opprette kj�
 |**Opprett bestillinger**|I en ordre oppretter denne funksjonen en bestilling for hver enkelt leverandør av varene i ordren. Du kan redigere kjøpsantallet før du oppretter bestillingene. Det er bare utilgjengelige salgsantall som foreslås.
 |**Opprett kjøpsfaktura**|I en ordre og på en salgsfaktura oppretter denne funksjonen en kjøpsfaktura for en valgt leverandør for alle linjene eller valgte linjer i salgsdokumentet. Hele salgsantallet foreslås.|
 
-## <a name="to-create-one-or-more-purchase-orders-from-a-sales-order"></a>Opprette én eller flere bestillinger fra en ordre
+## Opprette én eller flere bestillinger fra en ordre
 Hvis du vil opprette en bestilling for hvert utilgjengelige vareantall i ordren, bruker du funksjonen **Opprett bestillinger**.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
@@ -49,7 +43,7 @@ Hvis du vil opprette en bestilling for hvert utilgjengelige vareantall i ordren,
 7. Fortsett behandlingen av for eksempel bestillingen eller bestillingene ved å redigere eller legge til bestillingslinjer. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).
 
 
-## <a name="to-create-a-purchase-invoice-from-a-sales-order-or-sales-invoice"></a>Opprette en kjøpsfaktura fra en ordre eller salgsfaktura
+## Opprette en kjøpsfaktura fra en ordre eller salgsfaktura
 Hvis du vil opprette én kjøpsfaktura for én eller flere linjer i et salgsdokument ved først å velge leverandøren du vil kjøpe fra, bruker du funksjonen **Opprett kjøpsfaktura**.
 
 > [!NOTE]  
@@ -65,7 +59,7 @@ Hvis du vil opprette én kjøpsfaktura for én eller flere linjer i et salgsdoku
     Det opprettes en kjøpsfaktura som inneholder én, flere enn én eller alle linjene på salgsfakturaen.
 7. Fortsette med å behandle kjøpsfakturaen, for eksempel ved å redigere eller legge til kjøpsfakturalinjene. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Registrere kjøp](purchasing-how-record-purchases.md)  
 [Fakturere salg](sales-how-invoice-sales.md)  

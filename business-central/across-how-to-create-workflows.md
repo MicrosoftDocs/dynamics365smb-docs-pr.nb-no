@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 11/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: 0d84da534c754ba7b0f6d1de97b61634ff743ddc
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 11/14/2022
-ms.locfileid: "9763271"
 ---
-# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Opprett arbeidsflyter for å koble til oppgaver i forretningsprosesser
+# Opprett arbeidsflyter for å koble til oppgaver i forretningsprosesser
 
 Du kan opprette arbeidsflyter som kobler til oppgaver i forretningsprosesser som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn.  
 
@@ -47,7 +41,7 @@ Arbeidsflyten er delt inn i tre deler:
 
 For begge hendelser og svar er alternativene systemdefinert. Nye må legges til gjennom utviklingen av en utvidelse.
 
-## <a name="to-create-a-workflow"></a>Slik oppretter du en arbeidsflyt:
+## Slik oppretter du en arbeidsflyt:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Siden **Arbeidsflyt** åpnes.  
@@ -117,7 +111,7 @@ For begge hendelser og svar er alternativene systemdefinert. Nye må legges til 
 > [!TIP]  
 > Hvis du vil vise relasjoner mellom tabeller brukt i arbeidsflyter, velger du ikonet ![lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir deretter **Arbeidsflyt – tabellrelasjoner**.  
 
-## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Eksempel på oppretting av ny arbeidsflyt ved bruk av eksisterende hendelser
+## Eksempel på oppretting av ny arbeidsflyt ved bruk av eksisterende hendelser
 
 I eksemplet nedenfor lages det en ny arbeidsflyt for å godkjenne endringer i navnet på en eksisterende leverandør:
 
@@ -176,9 +170,9 @@ Illustrasjonen nedenfor gir en oversikt over resultatet av denne prosedyren.
 
 Nå tester du arbeidsflyten ved å åpne en eksisterende leverandørkort og endre navnet. Bekreft at det sendes en godkjenningsforespørsel om å endre leverandørnavnet.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
+## Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md)  
 [Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)  

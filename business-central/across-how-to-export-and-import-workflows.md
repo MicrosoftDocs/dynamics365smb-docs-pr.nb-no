@@ -1,22 +1,16 @@
 ---
 title: Importere og eksportere godkjenningsarbeidsflyter
-description: For å overføre arbeidsflyter til andre Business Central-databaser, for eksempel for å spare tid når du oppretter nye arbeidsflyter, kan du eksportere og importere arbeidsflyter.
+description: 'For å overføre arbeidsflyter til andre Business Central-databaser, for eksempel for å spare tid når du oppretter nye arbeidsflyter, kan du eksportere og importere arbeidsflyter.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 09/08/2022
 ms.author: edupont
-ms.openlocfilehash: 873f168bf8a707519af9a6429658e8383ab1f41e
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585421"
 ---
-# <a name="export-and-import-approval-workflows"></a>Importer og eksporter godkjenningsarbeidsflyter
+# Importer og eksporter godkjenningsarbeidsflyter
 
 For å overføre arbeidsflyter til andre [!INCLUDE[prod_short](includes/prod_short.md)]-databaser, for eksempel for å spare tid når du oppretter nye arbeidsflyter, kan du eksportere og importere arbeidsflyter.  
 
@@ -24,12 +18,12 @@ En annen måte å raskt opprette arbeidsflyter på er å bruke arbeidsflytmaler.
 
 På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involverte trinnene på linjene. Hvert trinn består av en arbeidsflythendelse, endret av hendelsesbetingelsene, og et arbeidsflytsvar, endret av svaralternativer. Du definerer arbeidsflyttrinn ved å fylle ut felter på arbeidsflytlinjer ved å bruke faste lister over verdier for hendelse og svar som representerer scenarioer som støttes av programkoden. Finn ut mer under [Opprett arbeidsflyter](across-how-to-create-workflows.md).  
 
-## <a name="export-a-workflow"></a>Eksporter en arbeidsflyt
+## Eksporter en arbeidsflyt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
 2. Velg en arbeidsflyt, og velg deretter **Eksporter til fil**.  
 
-## <a name="import-a-workflow"></a>Importer en arbeidsflyt
+## Importer en arbeidsflyt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Importer fra fil**.  
@@ -38,7 +32,7 @@ På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involv
 > [!CAUTION]  
 > Hvis arbeidsflytkoden allerede finnes i databasen, overskrives arbeidsflyttrinnene med trinnene i den importerte arbeidsflyten.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opprett godkjenningsarbeidsflyter](across-how-to-create-workflows.md)  
 [Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md)  

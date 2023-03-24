@@ -1,22 +1,16 @@
 ---
 title: Konfigurere produksjonsprosesser
-description: Hvis du vil konvertere materiale til produserte sluttvarer, må du definere produksjonsressursene, for eksempel stykkliste, rutinger, maskinoperatører og maskiner, i systemet.
+description: 'Hvis du vil konvertere materiale til produserte sluttvarer, må du definere produksjonsressursene, for eksempel stykkliste, rutinger, maskinoperatører og maskiner, i systemet.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 99000768, 99000779, 99000780, 99000866
+ms.search.form: '99000768, 99000779, 99000780, 99000866'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0ae567c2ac44c1b8b272b7a7f2ed1e9ba4826b60
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605769"
 ---
-# <a name="setting-up-manufacturing"></a>Definere produksjon
+# Definere produksjon
 
 Hvis du vil konvertere materiale til produserte sluttvarer, må du definere produksjonsressursene, for eksempel stykkliste, rutinger, maskinoperatører og maskiner, i systemet.
 
@@ -39,7 +33,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Bruk standardoppgaver til å forenkle opprettingen av ruter ved å knytte tilleggsinformasjon til gjentakende operasjoner raskt.|[Definere standard rutelinjer](production-how-set-up-standard-routing-lines.md)|  
 |Kjargjør arbeidssentre og ruter til å representere underleveranse-produksjonsoperasjoner.|[Underleveranse av produksjon](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Produksjon](production-manage-manufacturing.md)  
 [Planlegging](production-planning.md)  

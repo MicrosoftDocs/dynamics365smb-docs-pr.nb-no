@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: design, inventory, costing
+ms.search.keywords: 'design, inventory, costing'
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 82b837475f12f402d3b534f1ae1063a56619d8c4
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8146660"
 ---
-# <a name="design-details-inventory-costing"></a>Designdetaljer: Kostberegning for beholdning
+# Designdetaljer: Kostberegning for beholdning
 
 Denne dokumentasjonen gir et detaljert teknisk innblikk i begrepene og prinsippene som brukes i funksjonene for kostberegning for beholdning i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Kostberegning for beholdning, også kalt kostnadsstyring, handler om å registrere og rapportere forretningsdriftskost.  
 
-## <a name="in-this-section"></a>I denne delen
+## I denne delen
 
 [Designdetaljer: Kostmetoder](design-details-costing-methods.md)  
 [Designdetaljer: Vareutligning](design-details-item-application.md)  

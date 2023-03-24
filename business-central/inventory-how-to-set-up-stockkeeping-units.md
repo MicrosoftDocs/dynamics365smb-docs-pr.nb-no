@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.forms: 5704, 5700, 5702, 5701
+ms.search.keywords: null
+ms.search.forms: '5704, 5700, 5702, 5701'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e61c61f760dd14145ecea76f36903f8a4124cac5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533755"
 ---
-# <a name="set-up-stockkeeping-units"></a>Definere lagerføringsenheter
+# Definere lagerføringsenheter
 
 Du kan bruke lagerføringsenheter til å registrere opplysninger om varer for en bestemt lokasjon eller en variantkode.  
 
 Lagerføringsenheter er et tillegg til varekort. De erstatter dem ikke, selv om de er knyttet til dem. Med lagerføringsenheter kan du skille mellom opplysninger om en vare for en bestemt lokasjon (for eksempel et lager eller et distribusjonssenter) eller en bestemt variant (for eksempel ulike hyllenumre og ulike opplysninger om etterfylling), for den samme varen.  
 
-## <a name="to-set-up-a-stockkeeping-unit"></a>Slik definerer du lagerføringsenheter  
+## Slik definerer du lagerføringsenheter  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerføringsenheter**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
@@ -40,16 +34,15 @@ Hvis du vil opprette flere lagerføringsenheter for en vare, bruker du kjørsele
 > Hvis LFE angis via produksjon, brukes ikke **Kostpris (standard)**-feltet når faktisk kost for den produserte varen faktureres og justeres. I stedet brukes **Kostpris (standard)**-feltet på det underliggende varekortet, og eventuelle avvik beregnes mot kostandelene for denne varen.<br /><br />
 > Siden produksjonsstykklister og ruting ikke kan tilordnes til LFEer, er heller ikke opprulling av enhetskost og den relaterte beregningen av kostandeler tilgjengelig på LFEer. Hvis du vil ha mer informasjon, kan du se [Om beregning av standardkost](finance-about-calculating-standard-cost.md).
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/control-inventory-multiple-locations/)
+## Se relatert [Microsoft-opplæring](/training/modules/control-inventory-multiple-locations/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Definer lagerstyring](warehouse-setup-warehouse.md)  
-[Lagerstyring](warehouse-manage-warehouse.md)  
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
 [Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

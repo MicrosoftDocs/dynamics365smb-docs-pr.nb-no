@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 04/01/2022
 ms.author: edupont
-ms.openlocfilehash: 74cf1897792ab15c9c74ff76e3674ca31fe599f1
-ms.sourcegitcommit: b353f06e0c91aa6e725d59600f90329774847ece
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 08/19/2022
-ms.locfileid: "9317378"
 ---
 [!INCLUDE[prod_short](prod_short.md)]-brukere støtter noen ganger mer enn én avdeling eller underorganisasjon i en forretningsenhet. Det kan for eksempel hende at en bedrift har salgskontorer i andre byer og flere land, så det har opprettet en separat forretningsenhet for hvert kontor. Kontorene som er i samme land, defineres som separate *selskaper* i et delt *miljø*. Andre kontorer opprettes som selskaper i separate miljøer fordi de er i geografisk plassert i andre land.
 

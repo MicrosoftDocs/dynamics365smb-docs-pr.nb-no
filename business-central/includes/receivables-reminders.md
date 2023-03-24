@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: fc1788acfb1b11a90327ac72ce83d7fa4981e602
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8143351"
 ---
 Du kan bruke purringer til å minne kunder på forfalte beløp. Du kan også bruke purringer til å beregne renter eller gebyrer og inkludere dem i purringen.
 
@@ -22,7 +16,7 @@ En kundepost med avmerking for **Avvent** vil ikke starte noen purreoppretting. 
 
 Når du har opprettet purringer og foretatt eventuelle nødvendige endringer, kan du skrive ut kontrollrapportene eller utstede purringene, vanligvis via e-post.
 
-### <a name="to-create-a-reminder-automatically"></a>Slik oppretter du en purring automatisk
+### Slik oppretter du en purring automatisk
 
 En purring fungerer på samme måte som en faktura. Når du oppretter en purring, må du fylle ut et purrehode samt én eller flere purrelinjer. Du kan bruke en funksjon til å opprette purringer for alle kunder automatisk.
 
@@ -31,7 +25,7 @@ En purring fungerer på samme måte som en faktura. Når du oppretter en purring
 3. På siden **Opprett purringer** fyller du ut feltene for å definere hvordan og for hvem purringene skal opprettes.
 4. Velg **OK**.
 
-### <a name="to-create-a-reminder-manually"></a>Slik oppretter du en purring manuelt
+### Slik oppretter du en purring manuelt
 
 På siden **Purring** kan du fylle ut hurtigfanen **Generelt** manuelt og deretter fylle ut linjene automatisk.
 
@@ -48,7 +42,7 @@ På siden **Purring** kan du fylle ut hurtigfanen **Generelt** manuelt og derett
 
 8. Velg **OK**.
 
-### <a name="to-replace-reminder-texts"></a>Slik erstatter du purretekst
+### Slik erstatter du purretekst
 
 Du kan angi teksten som vises i purringsutskrifter på flere måter. Av og til vil du kanskje erstatte start- og slutteksten som er angitt for den gjeldende purregraden, men tekst fra en annen grad.
 
@@ -57,7 +51,7 @@ Du kan angi teksten som vises i purringsutskrifter på flere måter. Av og til v
 3. Angi ønsket grad i feltet **Purregrad** på siden **Oppdater purretekst**.
 4. Velg **OK** for å oppdatere start- og slutteksten.
 
-### <a name="to-issue-a-reminder"></a>Utstede en purring
+### Utstede en purring
 
 Når du har opprettet purringer og foretatt eventuelle nødvendige endringer, kan du skrive ut kontrollrapportene eller utstede purringene.
 
@@ -82,7 +76,7 @@ I tillegg kan utstedelsen av purringen resultere i mva-poster.
 
 Purringen blir enten skrevet ut eller sendt til en bestemt e-postadresse som et PDF-vedlegg.
 
-### <a name="to-cancel-an-issued-reminder"></a>Avbryte den utstedte purringen
+### Avbryte den utstedte purringen
 
 Hvis påminnelser ble utstedt med en feil, kan du annullere dem før de sendes ut. Du kan gjøre dette enten én om gangen eller som en bunke.
 

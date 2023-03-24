@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9701, 9702
+ms.search.form: '9701, 9702'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: b549e288c64aa2a15b2e2644bb4e8239074175a9
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8132162"
 ---
-# <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Definere en farget indikator for bunke-ikoner for selskapet eller enkeltbrukere
+# Definere en farget indikator for bunke-ikoner for selskapet eller enkeltbrukere
 
 Som administrator kan du definere bunke-ikoner med en indikator som endrer farge basert på dataverdiene i bunke-ikonene. Du kan gjøre dette for bunke-ikoner som vises i rollesentrene for brukerne.  
 
@@ -26,7 +20,7 @@ Du bruker siden **Oppsett for bunke-ikon** til å definere indikatorer for alle 
 
 Hvis du vil definere indikatoren, kan du angi opptil to terskelverdier som definerer tre områder med dataverdier (lav, middels og høy) som du kan bruke en annen farge (eller stil) med.  
 
-### <a name="to-set-up-colored-indicators-on-cues"></a>Slik definerer du fargede indikatorer for bunke-ikoner  
+### Slik definerer du fargede indikatorer for bunke-ikoner  
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Oppsett for bunke-ikon** og velger den relaterte koblingen.  
 
      Siden **Oppsett for bunke-ikon** vises. Siden viser indikatorer som er definert for bunker. Indikatorer som gjelder for alle brukere i firmaet, har et tomt **Brukernavn**-felt. Indikatorene som gjelder for en bestemt bruker, inkluderer brukernavnet i **Brukernavn**-feltet.  
@@ -63,7 +57,7 @@ Hvis du vil definere indikatoren, kan du angi opptil to terskelverdier som defin
     |**Tvetydig**|Gul|  
     |**Underordnet**|Grå|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

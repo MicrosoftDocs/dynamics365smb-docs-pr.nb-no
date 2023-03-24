@@ -2,22 +2,16 @@
 title: Definere Intrastat-rapportering
 description: Lær hvordan du konfigurerer Intrastat-rapporteringsfunksjoner for å rapportere handel med selskaper i andre EU-land.
 author: altotovi
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: electronic document, Intrastat, trade, EU, European Union
-ms.search.form: 308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077
-ms.date: 09/02/2022
 ms.author: altotovi
-ms.openlocfilehash: b6adddb338af36f07abe4c6cb67c8113657ccb7c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605492"
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/20/2022
+ms.custom: bap-template
+ms.search.keywords: 'electronic document, Intrastat, trade, EU, European Union'
+ms.search.form: '308, 309, 310, 311, 325, 326, 327, 328, 405, 406, 4810, 4811, 8451, 12202, 31077'
 ---
-# <a name="set-up-intrastat-reporting"></a>Definere Intrastat-rapportering
+# Definere Intrastat-rapportering
 
 Alle selskaper i EU må rapportere handel med andre EU-land/-regioner. Varebevegelsen må hver måned rapporteres til statistikkmyndighetene i landet/regionen der selskapet befinner seg, og rapporten må leveres til skattemyndighetene. Intrastat er et system for innsamling av handelsstatistikk for varer i disse landene/regionene. Du bruker **Intrastat-rapport** til å fylle ut periodisk Intrastat-rapportering (vanligvis månedlig), samle inn, registrere og rapportere varer i henhold til lokal lovgivning.
 
@@ -33,7 +27,7 @@ Intrastat-rapportering er basert på standard EU-bestemmelser som gjelder for al
 >
 > Les den forrige versjonens Intrastat-oppsett og bruksartikkel på [Konfigurere og rapportere Intrastat](finance-how-setup-report-intrastat-v20.md).
 
-## <a name="enable-the-new-intrastat-experience"></a>Aktivere den nye Intrastat-opplevelsen
+## Aktivere den nye Intrastat-opplevelsen
 
 I 2022-lanseringsbølge 2 [!INCLUDE[prod_short](includes/prod_short.md)] inkluderer en redesigned Intrastat-opplevelse med utvidede funksjoner. Hvis den nye Intrastat-funksjonaliteten ikke er aktivert i ditt miljø, kan den aktiveres manuelt av en administrator på siden **Funksjonsstyring**.
 
@@ -50,11 +44,11 @@ I 2022-lanseringsbølge 2 [!INCLUDE[prod_short](includes/prod_short.md)] inklude
 > [!NOTE]
 > Avhengig av selskapets lokasjon er aktivering av funksjonen som beskrives ovenfor, nok. For land med bestemte funksjoner for Intrastat-rapportering, bør du aktivere den landspesifikke Intrastat-appen i tillegg til kjerneutvidelsen.
 
-## <a name="intrastat-configuration"></a>Intrastat-konfigurasjon
+## Intrastat-konfigurasjon
 
 Før du kan bruke Intrastat-rapporter er det flere konfigurasjoner som må defineres.
 
-### <a name="intrastat-reporting-setup"></a>Intrastat-rapporteringsoppsett
+### Intrastat-rapporteringsoppsett
 
 Siden **Intrastat-rapportersoppsett** brukes til å aktivere Intrastat-rapportering og angi standarder for den. Du kan angi om du må rapportere Intrastat fra forsendelser (utsendelser), mottak (ankomster) eller begge deler, avhengig av terskler som er angitt i dine lokale forskrifter. Du kan også angi standard transaksjonstyper for vanlige dokumenter og returdokumenter, som brukes til transaksjonsrapportering.
 
@@ -94,7 +88,7 @@ Slik definerer du Intrastat-rapportering:
    | **Kode for datautveksl.def. – levering** | Angir koden for datautvekslingsdefinisjonen for å generere Intrastat-filen for sendte varer. Den fungerer bare hvis feltet **Del mottaks-/leveringsfiler** er satt til **Ja**. |
 5. Åpnbe **Nummerering**-hurtigfanen for å definere **Intrastat-numre**.
 
-### <a name="set-up-a-reporting-file"></a>Konfigurere en rapporteringsfil
+### Konfigurere en rapporteringsfil
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Datautvekslingsdefinisjoner**, og velg deretter den tilknyttede koblingen.
 2. Velg handlingen **Ny**.
@@ -113,7 +107,7 @@ Slik definerer du Intrastat-rapportering:
 > [!NOTE]
 > [!INCLUDE[prod_long](includes/prod_long.md)] inneholder den forhåndskonfigurerte datautvekslingsdefinisjonen for Intrastat for alle lokaliserte land. Finn ut mer om oppretting av en ny datautvekslingsdefinisjon i artikkelen [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="set-mandatory-fields-with-the-intrastat-report-checklist"></a>Angi obligatoriske felt med sjekklisten for Intrastat-rapport
+### Angi obligatoriske felt med sjekklisten for Intrastat-rapport
 
 I noen land krever skattemyndighetene at Intrastat-rapporter for eksempel må inkludere leveringsmåten for kjøp eller andre verdier ved salg over en viss grense.
 
@@ -133,9 +127,9 @@ Slik angir du obligatoriske felt og/eller verdier på siden **Intrastat-rapport*
 > [!NOTE]
 > Når du åpner linjen **Filterside** fra linjen **Filteruttrykk**, kan du bruke alle standard filteruttrykk som er knyttet til det bestemte feltet du vil filtrere.
 >
-> Vær forsiktig med å definere valideringsregler, siden de kan avvike fra land til land.
+> Vær forsiktig når du definerer valideringsregler. De kan avvike fra land til land.
 
-## <a name="use-custom-codeunits-in-intrastat-reporting"></a>Bruke egendefinerte codeunits i Intrastat-rapportering
+## Bruke egendefinerte codeunits i Intrastat-rapportering
 
 Hvis du vil endre hvordan Intrastat fungerer, og standardkonfigurasjonen ikke er nok, kan du tilpasse systemet ved å utvide standardfunksjonene. Hvis du må endre virkemåten for Intrastat ytterligere, kan du utvikle egne codeunits. Når du oppretter codeunits, må du imidlertid foreta flere endringer for å bruke dem. Slik konfigurerer du systemet til å bruke dine egne objekter:
 
@@ -151,7 +145,7 @@ Hvis du vil endre hvordan Intrastat fungerer, og standardkonfigurasjonen ikke er
 >
 > Denne linjen må være tom hvis du bruker standard codeunits. Du bør bare opprette en linje og konfigurere den hvis du har utviklet egendefinerte codeunits.
 
-## <a name="other-intrastat-configurations"></a>Andre Intrastat-konfigurasjoner
+## Andre Intrastat-konfigurasjoner
 
 > [!IMPORTANT]
 > Kundekort og leverandørkort inneholder et felt, **Intrastat-partnertype** som har samme alternativverdier som feltet **Partnertype**: "" (tom), *Selskap* og *Person*. Feltet **Intrastat-partnertype** har erstattet feltet **Partnertype** i Intrastat-rapportering. Feltet **Partnertype** brukes i området SEPA (Single EURO Payments Area) for å definere (SEPA) til å definere SEPA Direct Debit Scheme (Core eller B2B). Feltet **Intrastat-partnertype** brukes bare til Intrastat-rapportering. På denne måten kan du angi ulike verdier for de to feltene, hvis du trenger det.
@@ -183,86 +177,134 @@ Du kan også konfigurere følgende:
 * **Inn-/utpunkt**: Angi lokasjonene der du leverer eller mottar varer til eller fra andre land. En flyplass er et eksempel på et inn-/utpunkt. Du angir inn-/utpunkt på hurtigfanen **Utenrikshandel** i salgs- og kjøpsdokumenter. Denne informasjonen blir også kopiert fra varepostene når du oppretter Intrastat-kladden.
 * **Supplerende enhet**: Antall varer for Intrastat-rapportering kan være enten nettovekt (i kilo) eller en tilleggsenhet. Hvis det kreves tilleggsenheter, må du konfigurere dem for varer og aktiva.
 
-#### <a name="set-up-transport-methods"></a>Definere transportmåter
+#### Definere transportmåter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Transportmåter**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="set-up-transaction-nature-codes"></a>Definere transaksjonskoder
+#### Definere transaksjonskoder
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Transaksjonstyper**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="other-related-configurations"></a>Andre relaterte konfigurasjoner
+### Andre relaterte konfigurasjoner
 
 Før du bruker funksjonen for Intrastat-rapportering, må du konfigurere noen felt på vare-, aktiva-, kunde- og leverandørkortene.
 
-#### <a name="item-cards"></a>Varekort
+#### Varekort
 
 Slik oppretter du alle nødvendige opplysninger i forbindelse med Intrastat på varekort:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Velg elementet du vil konfigurere.
-3. Utvid **Kostnader og bokføring**, og fyll ut feltene **Tariffnr.**, **Supplerende enhet** og **Kode for opprinnelsesland/-område**.
-4. Utvid hurtigfanen **Beholdning**, og angi desimalverdien i **Nettovekt**-feltet.
+3. I hurtigfanen **Kostnader og bokføring** fyller du ut feltene **Tariffnr.**, **Supplerende enhet** og **Kode for opprinnelsesland/-område**.
+4. På hurtigfanen **Beholdning** angir du desimalverdien i feltet **Nettovekt**.
 
 > [!NOTE]
 > Du kan bruke forskjellige enheter som tilleggsenhet. Hvis dette ikke er det samme som **Lagerenhet**, må du konfigurere denne enhetskoden på siden **Vareenheter**.
 
-#### <a name="fixed-asset-cards"></a>Aktivakort
+#### Aktivakort
 
 Slik oppretter du alle nødvendige opplysninger i forbindelse med Intrastat på aktivakort:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktiva**, og velg deretter den relaterte koblingen.
 2. Velg aktivaet du vil konfigurere.
-3. Utvide hurtigfanen **Intrastat**, og fyll ut feltene **Tariffnummer**, **Nettovekt** og **Supplerende enhet**.
+3. I hurtigfanen **Intrastat** fyller du ut feltene **Tariffnummer**, **Nettovekt** og **Supplerende enhet**.
 
 > [!NOTE]
 > Du kan bruke forskjellige enheter som tilleggsenhet. Men uansett **Enhetskode** du velger, vil **Antall** i Intrastat alltid være 1.
 
-#### <a name="vendor-cards"></a>Leverandørkort
+#### Leverandørkort
 
 Før du kan bruke en leverandør i Intrastat-rapportering, må du ha dedikert **Lands-/regionkode** og **Organisasjonsnr.** for hver av dem, i tillegg til mer informasjon om siden **Leverandørkort**:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Leverandører** og velger den relaterte koblingen.
 2. Velg leverandøren du vil konfigurere.
 3. På hurtigfanen **Intrastat** kan du angi standardverdier for feltene **Standard trans.art**, **Standard trans.art – returer** og **Standard transportmåte**.
-4. Utvid hurtigfanen **Betalinger**, og velg alternativet i feltet **Intrastat-partnertype** for å angi om leverandøren er en person eller et selskap i Intrastat-rapportering.
+4. Utvid hurtigfanen **Betalinger**, og velg feltet **Intrastat-partnertype**, og angi om leverandøren er en person eller et selskap.
 
-#### <a name="customer-cards"></a>Kundekort
+#### Kundekort
 
 Før du kan bruke en kunde i Intrastat-rapportering, må du ha dedikert **Lands-/regionkode** og **Organisasjonsnr.** for hver av dem, i tillegg til mer informasjon om siden **Kundekort**:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.
 2. Velg kunden du vil konfigurere.
 3. På hurtigfanen **Intrastat** kan du angi standardverdier for feltene **Standard trans.art**, **Standard trans.art – returer** og **Standard transportmåte**.
-4. Utvid hurtigfanen **Betalinger**, og velg alternativet i feltet **Intrastat-partnertype** for å angi om leverandøren er en person eller et selskap i Intrastat-rapportering.
+4. Utvid hurtigfanen **Betalinger**, og velg feltet **Intrastat-partnertype**, og angi om leverandøren er en person eller et selskap.
 
-#### <a name="exclude-items-and-fixed-assets-from-intrastat-reporting"></a>Utelate varer og aktiva fra Intrastat-rapportering
+#### Utelate varer og aktiva fra Intrastat-rapportering
 
 Hvis en bestemt vare eller et aktiva skal utelates fra Intrastat-rapportering, må du endre et alternativ på kortet.
 
-##### <a name="exclude-an-item-from-intrastat-reporting"></a>Utelate en vare fra Intrastat-rapportering
+##### Utelate en vare fra Intrastat-rapportering
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Velg elementet du vil konfigurere.
-3. Utvid hurtigfanen **Kost & bokføring**, og velg deretter feltet **Utelat fra Intrastat-rapport**.
+3. I hurtigfanen **Kostnad og bokføring** velger du feltet **Utelat fra Intrastat-rapport**.
 
-##### <a name="exclude-a-fixed-asset-from-intrastat-reporting"></a>Utelate et aktiva fra Intrastat-rapportering
+##### Utelate et aktiva fra Intrastat-rapportering
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktiva**, og velg deretter den relaterte koblingen.
 2. Velg aktivaet du vil konfigurere.
 3. Utvid hurtigfanen **Intrastat**, og velg deretter feltet **Utelat fra Intrastat-rapport**.
 
-## <a name="country-specific-intrastat-setup"></a>Landsspesifikt Intrastat-oppsett
+## Landsspesifikt Intrastat-oppsett
 
-<!-- PM's note: Currently, we will add only the 'Overview' topic; the topic 'Manage Intrastat Country Specifics' and country details will wait until 21.1 when I update with all country-based details -->
+Intrastat-kravene er lignende i alle medlemsstatene i EU, selv om det finnes viktige unntak. I teorien må reglene brukes enhetlig i alle medlemsstater. Det finnes imidlertid forskjeller i implementeringen, fordi noen medlemsstater har retningslinjer for hvordan du bruker de generelle prinsippene i bestemmelsene skal brukes i bestemte situasjoner. Det kan for eksempel være kommersielle eksempler, retur av varer og så videre. Disse retningslinjene kan gi forskjellige resultater for ulike situasjoner i EU-medlemsland. På grunn av dette har noen land noen ekstra spesifikk informasjon atskilt fra andre land. De bruker også et annet filformat for rapportering.
 
-Intrastat-kravene er lignende i alle medlemsstatene i EU, selv om det finnes viktige unntak. I teorien må reglene brukes enhetlig i alle medlemsstater. Det finnes imidlertid forskjeller i implementeringen, fordi noen medlemsstater har retningslinjer for hvordan de generelle prinsippene i bestemmelsene skal brukes i bestemte situasjoner (for eksempel kommersielle eksempler, retur av varer osv.). Disse retningslinjene kan gi forskjellige resultater for ulike situasjoner i EU-medlemsland. På grunn av dette har noen land noen ekstra spesifikk informasjon atskilt fra andre land, og de har også et eget filformat for rapportering.
+### Østerrike
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+Intrastat-rapportering i Østerrike krever to forskjellige filer for mottak og leveringer. Følg denne fremgangsmåten for å kontrollere at oppsettet er riktig:
 
-## <a name="see-also"></a>Se også
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") angi **Oppsett for Intrastat-rapport**, og velg den relaterte koblingen.  
+2. I hurtigfanen **Rapportering** kontrollerer du om **Del mottaks-/leveringsfiler** er valgt. Knyttet til dette finner du to separate **Koder for datautveksl.def** konfigurert. Feltet **ZIP-fil(er)** er også valgt for å sikre at rapportfilene legges til i zip-filen.
+
+Prosessen med å arbeide med Intrastat-rapporter er den samme som den globale funksjonen.
+
+<!-- ### Belgium-->
+
+### Den tsjekkiske rep.
+
+Den nye Intrastat-rapporten for den tsjekkiske republikk vil være tilgjengelig fra 2023 Release Wave 1. I mellomtiden kan du fortsette å bruke funksjonen **Intrastatkladd** .
+
+### Finland
+
+I Finland er det noen ekstra trinn du kan bruke for å definere Intrastat. Intrastat-rapportering i Finland krever to forskjellige filer for mottak og leveringer. Knyttet til dette finner du to separate **Koder for datautveksl.def** konfigurert.
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") angi **Oppsett for Intrastat-rapport**, og velg den relaterte koblingen.  
+2. Fyll ut feltene som beskrevet i tabellen nedenfor, i hurtigfanen **Filoppsett** på siden **Oppsett for Intrastat-rapport**.
+
+    |Felt|Beskrivelse|  
+    |------------------------------------|---------------------------------------|
+    | **Egendefinert kode**|Angir en egendefinert kode for informasjon om oppsett av Intrastat-fil. |
+    | **Foretaksnr./avtalenr.**|Angir et serienummer for selskapet for informasjon om oppsett av Intrastat-fil. |
+
+3. I hurtigfanen **Rapportering** kontrollerer du om **Del mottaks-/leveringsfiler** er valgt.
+
+Prosessen med å arbeide med Intrastat-rapporter er den samme som den globale funksjonen.
+
+<!-- ### Germany-->
+
+### Italia
+
+Ny Intrastat-rapporterfaring for Italia er tilgjengelig fra februar 2023. I mellomtiden kan du fortsette å bruke funksjonen **Intrastatkladd**.
+
+<!-- ### France-->
+
+### Sverige
+
+Intrastat-rapportering i Sverige krever to forskjellige filer for mottak og leveringer. Følg denne fremgangsmåten for å kontrollere at oppsettet er riktig:
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") angi **Oppsett for Intrastat-rapport**, og velg den relaterte koblingen.  
+2. I hurtigfanen **Rapportering** kontrollerer du om **Del mottaks-/leveringsfiler** er valgt. Knyttet til dette finner du to separate **Koder for datautveksl.def** konfigurert.
+
+Prosessen med å arbeide med Intrastat-rapporter er den samme som i den globale funksjonen.
+
+<!-- ### United Kingdom-->
+
+## Se relatert opplæring på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+
+## Se også
 
 [Intrastat-rapportering i Business Central](finance-how-report-intrastat.md)  
 [Økonomistyring](finance.md)  

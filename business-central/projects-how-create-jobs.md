@@ -1,21 +1,15 @@
 ---
 title: Opprette et prosjektkort for et prosjekt og angi oppgaver
-description: For et nytt prosjekt oppretter du et prosjektkort som inneholder prosjektoppgaver og planleggingslinjer, slik at det blir enklere å administrere fremdrift og budsjett.
+description: 'For et nytt prosjekt oppretter du et prosjektkort som inneholder prosjektoppgaver og planleggingslinjer, slik at det blir enklere å administrere fremdrift og budsjett.'
 author: SorenGP
 ms.topic: conceptual
 ms.workload: na
-ms.search.keywords: project management, task
-ms.search.form: 88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020
+ms.search.keywords: 'project management, task'
+ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
 ms.date: 08/03/2022
 ms.author: edupont
-ms.openlocfilehash: 180a6cfc4ce6efb11df8faccd5909f527f6393e3
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528951"
 ---
-# <a name="create-jobs"></a>Opprette prosjekter
+# Opprette prosjekter
 
 Når du starter et nytt prosjekt, må du opprette et prosjektkort med integrerte prosjektoppgaver og prosjektplanleggingslinjer, strukturert i to lag.  
 
@@ -34,7 +28,7 @@ Av og til er det en del av den som mottar en tjeneste, forskjellig fra parten so
 * Legg til informasjon om eksterne referanser for å forenkle kommunikasjon med prosjektet.
 * Overskriv standard regnskapsbetingelsene for prosjektet.
 
-## <a name="to-create-a-job-card"></a>Slik oppretter du et prosjektkort
+## Slik oppretter du et prosjektkort
 
 Du oppretter et prosjektkort og deretter prosjektoppgavelinjer og prosjektplanleggingslinjer for prosjektet.
 
@@ -53,7 +47,7 @@ Du kan eventuelt merke handlinger på prosjektet som sperret, ved hjelp av felte
 |Bokføring    |Du kan arbeide med planleggingslinjer, men prosjektet er sperret for bokføring. Hvis du velger dette alternativet, kan du ikke bokføre forbruk eller salg i prosjektet.|
 |Alle  |Alle handlinger er sperret.|
 
-## <a name="to-create-tasks-for-a-job"></a>Slik oppretter du oppgaver for et prosjekt:
+## Slik oppretter du oppgaver for et prosjekt:
 
 En viktig del av å opprette et prosjekt er å angi de ulike oppgavene i prosjektet. Du angir oppgaver ved å opprette én linje per oppgave på hurtigfanen **Oppgaver** på siden **Prosjektkort**. Hvert prosjekt må ha minst én oppgave.
 
@@ -64,7 +58,7 @@ En viktig del av å opprette et prosjekt er å angi de ulike oppgavene i prosjek
 5. Gjenta trinn 3 og 4 for alle oppgavene som er nødvendige for prosjektet.
 6. Hvis du vil angi prosjektoppgavene med informasjon om andre prosjektoppgaver, kan du velge handlingen **Kopier prosjektoppgaver fra**, fylle ut feltene etter behov, og deretter velge **OK**-knappen.
 
-## <a name="to-create-planning-lines-for-a-job"></a>Slik oppretter du planleggingslinjer for et prosjekt
+## Slik oppretter du planleggingslinjer for et prosjekt
 
 Du kan tilpasse dine nye prosjektoppgaver på prosjektplanleggingslinjer. En planleggingslinje kan registrere informasjonen du vil spore for et prosjekt. Du kan for eksempel spore hvilke ressurser jobben krever, eller hvilke varer som er nødvendige. Du har for eksempel en oppgave å få en kunde til å godkjenne en jobb. Du knytter oppgaven til planleggingslinjer for varer eller andre elementer, for eksempel møter med kunden og tildeling av en ressurs.  
 
@@ -85,9 +79,9 @@ En prosjektplanleggingslinje kan være én av følgende typer.
 4. På siden **Prosjektplanleggingslinjer** på en ny linje fyller du ut feltene etter behov.
 5. Gjenta trinn 3 og 4 for alle planleggingslinjene du trenger for prosjektoppgaven.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/create-new-job/)
+## Se relatert [Microsoft-opplæring](/training/modules/create-new-job/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Prosjektstyring](projects-manage-projects.md)  
 [Video: Opprett et prosjekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

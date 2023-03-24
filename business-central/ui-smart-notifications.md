@@ -1,22 +1,16 @@
 ---
 title: Arbeid med smarte varsler og angi når du ser dem
-description: Du kan motta varsler som informerer deg om statusendringer eller hendelser, for eksempel en forfalt saldo eller lav beholdning.
+description: 'Du kan motta varsler som informerer deg om statusendringer eller hendelser, for eksempel en forfalt saldo eller lav beholdning.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/01/2021
-ms.search.form: ''
+ms.search.form: null
 ms.author: bholtorf
-ms.openlocfilehash: ee3f03eb59df2c991cd0a87dd6e10c07000311cc
-ms.sourcegitcommit: f9143302b8271f5924a027cacdf29dc37c95f4c6
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8654841"
 ---
-# <a name="manage-notifications"></a>Behandle varsler
+# Behandle varsler
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kan hjelpe deg å arbeide smartere ved å varsle deg om bestemte hendelser eller endringer i status, når du for eksempel er i ferd med fakturere en kunde som har en forfalt saldo, eller den disponible beholdningen er lavere enn antallet du vil selge. Disse meldingene vises som diskrete tips i forbindelse med oppgaven du utfører, og du kan velge å ignorere varselet eller vise detaljer om problemet.  
 
@@ -24,7 +18,7 @@ Hvis du velger å vise detaljer for et varsel, kan du iverksette tiltak for å l
 
 Varsler hjelper utrente brukere å fullføre ukjente oppgaver og reduserer ikke produktiviteten til mer erfarne brukere.  
 
-## <a name="to-turn-notifications-on-or-off-and-control-when-they-are-sent"></a>Aktivere eller deaktivere varslinger og kontrollere når de sendes
+## Aktivere eller deaktivere varslinger og kontrollere når de sendes
 
 Når du først starter med [!INCLUDE[prod_short](includes/prod_short.md)], er alle meldinger slått på, men du kan slå dem på eller av, for eksempel, hvis du ikke er interessert i en bestemt hendelse eller status.  
 
@@ -37,7 +31,7 @@ Slå av varsler på eller av, og angi betingelser, gjelder bare for deg.
 3. På siden som vises, aktiverer eller deaktiverer du et varsel ved å merke av for eller fjerne merket for **Aktivert**.  
 4. Hvis du vil angi vilkårene som utløser et varsel, kan du velge koblingen **Vis filterdetaljer**, og deretter fyller du ut feltene.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

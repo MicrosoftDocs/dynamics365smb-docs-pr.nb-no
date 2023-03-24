@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: 605
 ms.date: 08/11/2021
 ms.author: edupont
-ms.openlocfilehash: 356a484df2445dac39c02b9341cb9a0660a07467
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511652"
 ---
-# <a name="managing-intercompany-transactions"></a>Behandle konserninterne transaksjoner
+# Behandle konserninterne transaksjoner
 
 Funksjonene for konserninterne transaksjoner er utformet for brukere som styrer mer enn én juridisk forretningsenhet og har satt opp flere selskaper for å skille regnskapsfunksjonene i hver av disse enhetene. Denne brede beskrivelsen gjelder mange brukere, spesielt brukere som har drift i internasjonale markeder eller regioner med svært forskjellige forretningskulturer og lovmessige miljøer.
 
@@ -32,7 +26,7 @@ Det er fire hovedfordeler med de konserninterne funksjonene:
 - Fullstendig sporing og full synlighet i forretningsaktiviteter og transaksjonslogger  
 - Effektive, kostnadsbesparende transaksjoner med partner- og datterselskaper  
 
-## <a name="streamlining-the-flow-of-business-activities"></a>Tilpasse flyten av forretningsaktiviteter  
+## Tilpasse flyten av forretningsaktiviteter  
 
 Med konserninterne transaksjoner kan du distribuere salgs- og kjøpsdokumenter samt finansposter til alle satellittkontorer, salgskontorer eller datterselskaper, fra programmet. Du sparer tid og får økt effektivitet i hele organisasjonen fordi du fjerner overflødig dataregistrering samt sending, mottak, utskrift og arkivering av salgs- og kjøpsdokumenter på papir.  
 
@@ -71,7 +65,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 |Organisere og behandle inngående og utgående transaksjoner som du kan utveksle med de konserninterne partnerne.|[Administrere den konserninterne innboksen og utboksen](intercompany-how-manage-intercompany-inbox.md)|
 |Bruk konserninterne transaksjoner til å fordele kost mellom partnerselskaper.|[Fordel kost til konserninterne partnere](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  

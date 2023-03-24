@@ -1,136 +1,102 @@
 ---
 title: Motta varer
-description: Denne artikkelen er en oversikt over ulike måter å motta varer på i et lager, for eksempel varer med en bestilling eller varer ved hjelp av et lagermottak.
-author: SorenGP
-ms.topic: conceptual
+description: Denne artikkelen er en oversikt over ulike måter å motta varer på i et lager med lagermottak.
+author: brentholtorf
+ms.author: bholtorf
+ms.topic: how-to
+ms.date: 09/02/2022
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008
-ms.date: 09/02/2022
-ms.author: edupont
-ms.openlocfilehash: 6cca8d8f9b0ec28b149532581f9bc458022c3cd5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529518"
+ms.search.form: '5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008'
 ---
-# <a name="receive-items"></a>Motta varer
+# Motta varer med et lagermottak
 
-Når varene ankommer et lager som ikke er definert til lagermottaksbehandling, må du ganske enkelt registrere mottaket i det relaterte forretningsdokumentet, for eksempel en bestilling, en ordreretur eller en inngående overføringsordre.
+I [!INCLUDE[prod_short](includes/prod_short.md)] mottar du varer og plasserer dem ved å bruke en av fire metoder, som beskrevet i tabellen nedenfor.
 
-Når varene ankommer et lager som er definert til lagermottaksbehandling, mottar du de linjene i kildedokumentet som utløste mottaket. Hvis du har hyller, kan du godta standardhyllen som fylles ut eller, hvis varen aldri har blitt mottatt i lageret tidligere, fylle ut hyllen der varen skal plasseres. Deretter må du fylle ut antall barer du har mottatt, og bokføre mottaket.  
+|Prinsipp|Inngående prosess|Krev kvitteringer|Krev plasseringer|Kompleksitetsnivå (Finn ut mer under [Oversikt over Warehouse Management](design-details-warehouse-management.md))|  
+|------------|---------------------|--------------|----------------|------------|  
+|A|Bokføre mottak og plassering fra ordrelinjen|||Ingen dedikert lageraktivitet.|  
+|B|Bokføre mottak og plassering fra et lagerplasseringsdokument||Slått på|Grunnleggende: ordre for ordre.|  
+|U|Bokføre mottak og plassering fra et lagermottaksdokument|Slått på||Grunnleggende: konsolidert mottak/levering for flere ordrer.|  
+|D|Bokføre mottak fra et lagermottaksdokument og bokføre plassering fra et lagerplasseringsdokument|Slått på|Slått på|Avansert|  
 
-## <a name="receive-items-with-a-purchase-order"></a>Motta varer med bestilling
+Hvis du vil ha mer informasjon om hvordan du håndterer inngående varer, går du til [Inngående lagerflyt](design-details-inbound-warehouse-flow.md).
 
-Følgende beskriver hvordan du mottar varer med en bestilling. Fremgangsmåten er lik for ordrereturer og overføringsordrer.  
+Følgende artikkel refererer til metode C og D i forrige tabell.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bestillinger**, og velg deretter den relaterte koblingen.
-2. Åpne en eksisterende bestilling eller opprett en ny. Finn ut mer under [Registrer kjøp](purchasing-how-record-purchases.md).
-3. I feltet **Motta (antall)** angir du det mottatte antallet.
+## Motta varer med et lagermottak
 
-   > [!NOTE]
-   > Hvis det mottatte antallet er høyere enn bestilt i bestillingen per antallet i feltet **Antall**, og leverandøren er definert til å tillate overmottak, bruker du feltet **Overmottak** til å håndtere det overflødige antallet. Finn ut mer i delen [Slik mottar du flere varer enn bestilt](warehouse-how-receive-items.md#receive-more-items-than-ordered).
-4. Velg handlingen **Bokfør**.
+Når varene ankommer et lager som er definert til å behandle lagermottak, må du hente linjene i kildedokumentet som utløste mottaket. Hvis du bruker hyller, kan du enten godta standardhyllen eller angi hyllen som varene skal plasseres i. Det siste kan være nødvendig når du mottar en vare for første gang. Deretter må du angi antall varer du har mottatt, og bokføre mottaket.  
 
-  Verdien i feltet **Mottatt ant.** oppdateres. Hvis dette er et delvis mottak, vil verdien være mindre enn verdien i feltet **Antall**.
+Du kan opprette lagermottak på en av to måter:
 
-> [!NOTE]
-> Hvis du bruker et lagerdokument til å bokføre mottaket, kan du ikke bruke handlingen **Bokfør** på bestillingen. I stedet har en lagerarbeider allerede bokført bestillingsantallet som mottatt. Finn ut mer under [Slik mottar du varer med et lagermottak](warehouse-how-receive-items.md#receive-items-with-a-warehouse-receipt).
-
-## <a name="receive-items-with-a-warehouse-receipt"></a>Motta varer med et lagermottak
+* På en push-måte, når arbeid gjøres på ordre-for-ordre-basis. Velg handlingen **Opprett lagermottak** i kildedokumentet, for eksempel en bestilling, ordreretur eller overføringsordre, for å opprette et lagermottak for ett kildedokument.
+*-* I en pull-måte, der du bruker handlingen **Frigi** i kildedokumentet, for eksempel en bestilling, ordreretur eller overføringsordre til å frigi dokumentet til lageret. En lageransatt oppretter et **lagermottak** for et eller flere frigitte kildedokumenter. Følgende fremgangsmåte forklarer hvordan du oppretter et lagermottak på en pull-måte. Følgende fremgangsmåte forklarer hvordan du oppretter et lagermottak på en pull-måte. 
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagermottak** og velg den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 
-    Fyll ut feltene på hurtigfanen **Generelt**. Når du mottar kildedokumentlinjer, kopieres noe av informasjonen til hver linje.  
+    Fyll ut feltet **Lokasjonskode** på hurtigfanen **Generelt**. Når du mottar kildedokumentlinjer, kopieres noe av informasjonen til hver linje. 
 
-    For lageroppsett med lagerstyring: Hvis lokasjonen har en standard sone og hylle for mottak, fylles feltene **Sonekode** og **Hyllekode** ut automatisk, men du kan endre dem slik det passer.  
+    For en lokasjon som krever hyller, fyller du feltet **Hyllekode**. [!INCLUDE[prod_short](includes/prod_short.md)] kan legge til hyllekoden for deg, avhengig av oppsettet. Finn ut mer under [Sone- og hyllekoder](warehouse-how-receive-items.md#zone-and-bin-codes).  
 
-    > [!NOTE]  
-    > Hvis du vil motta varer med andre lagerklassekoder enn lagerklassekoden til hyllen i feltet **Hyllekode** i dokumenthodet, må du slette innholdet i feltet **Hyllekode** fra hodet før du henter kildedokumentlinjene for varene.  
-3. Velg handlingen **Hent kildedokumenter**. Siden **Kildedokumenter** åpnes.
+3. Du kan hente kildedokumentet på to måter:
 
-    Fra et nytt eller åpent lagermottak kan du bruke siden **Filtre for henting av kildedok** til å hente linjene i det frigitte kildedokument som definerer hvilke varer som skal mottas eller leveres.
+    1. Velg handlingen **Hent kildedokumenter**. Siden **Kildedokumenter – inngående** åpnes. Her kan du velge et eller flere kildedokumenter som er frigitt til lageret, som krever mottak.
+    2. Velg handlingen **Bruk filtre til å hente k.dok...**. Siden **Filtre for å hente kildedokumenter – inngående** åpnes. Her kan du velge kildedokumentfilter og kjøre det. Alle frigitte kildedokumentlinjer som oppfyller filterkriteriene, legges til på siden **Lagermottak**. Finn ut mer under [Bruke filtre til å hente kildedokumenter](warehouse-how-receive-items.md#how-to-use-filters-to-get-source-documents).
 
-    1. Velg handlingen **Bruk filtre til å hente k.dok...**.  
-    2. Hvis du vil definere et nytt filter, angir du en beskrivende kode i feltet **Kode** og velger deretter handlingen **Endre**.  
-    3. Definer typen kildedokumentlinjer som du vil hente, ved å fylle ut de relevante filterfeltene.  
-    4. Velg **Kjør**.  
+4. Sett antallet som skal mottas.
 
-    Alle frigitte kildedokumentlinjer som oppfyller filterkriteriene, settes nå inn på siden **Lagermottak** der du aktiverte filterfunksjonen. 
+    Feltet **Motta (antall)** inneholder antall utestående for hver linje, men du kan endre antallet slik det er nødvendig. 
 
-    Filterkombinasjonene du definerer, lagres på siden **Filtre for henting av kildedok** til neste gang du trenger dem. Du kan opprette et ubegrenset antall filterkombinasjoner. Du kan når som helst endre kriteriene ved å velge handlingen **Endre**.
+    Når du skal angi verdien i **Motta (antall)**-feltet på alle linjene til null, velger du handlingen **Slett antall som skal mottas**. Det kan for eksempel være nyttig å sette antallene til null hvis du bruker en strekkodeskanner til å oppdatere de mottatte antallene. Hvis du vil legge til restantallet fra kildedokumentet igjen, velger du handlingen **Autoutfyll ant som skal mottas**.  
 
-4. Velg kildedokumentene som du vil motta varer for, og velg deretter **OK**.  
+    I et lagermottaksdokument der det mottatte antallet er høyere enn bestilt, angir du det faktiske mottatte antallet i feltet **Motta (antall)**. Hvis økningen er innenfor toleransen som er angitt av en tildelt overmottakskode, oppdateres feltet **Antall overmottak** til å vise antallet som verdien i feltet **Aantall** er overskredet med. Hvis økningen er over toleransen, er ikke overmottak tillatt.
 
-    Kildedokumentlinjene vises på siden **Lagermottak**. Feltet **Motta (antall)** er fylt ut med antall utestående for hver linje, men du kan endre antallet slik det er nødvendig. Hvis du sletter innholdet i feltet **Hyllekode** i hurtigfanen **Generelt** før du henter linjene, må du fylle ut riktig hyllekode på hver mottakslinje.  
+5. Bokfør lagermottaket. Antallsfeltene oppdateres i kildedokumentene, og varene legges til i beholdningen.  
 
-    > [!NOTE]  
-    >  Når du skal fylle ut alle linjer i **Motta (antall)**-feltet med null, velger du handlingen **Slett antall som skal mottas**. Hvis du vil fylle det ut på nytt med restantallet, velger du handlingen **Autoutfyll ant som skal mottas**.  
-    >
-    >  Du kan ikke motta flere varer enn det som er angitt i feltet **Restantall** på kildedokumentlinjen. Hvis du vil motta flere varer, må du hente et annet kildedokument som inneholder en linje for varen, ved å bruke filterfunksjonen.  
-
-5. Bokfør lagermottaket. Antallsfeltene oppdateres i kildedokumentene, og varene registreres som en del av selskapets lager.  
-
-Hvis du bruker plassering, sendes mottakslinjene til lagerplasseringsfunksjonen. Selv om varene er mottatt, kan de ikke plukkes før de er plassert. De mottatte varene identifiseres som tilgjengelig beholdning først når plasseringen er registrert.  
-
-Hvis du ikke bruker plassering, men bruker hyller, registreres plasseringen av varene i hyllen som er angitt på kildedokumentlinjen.  
+    > [!TIP]
+    > Hvis du bruker lagerplassering, som refererer til metode D i tabellen i begynnelsen av denne artikkelen, mottas varene, men de kan ikke plukkes før de er plassert. Hvis du vil lære mer om hvordan du plasserer varer, går du til [Plasser varer med lagerplasseringer](warehouse-how-to-put-items-away-with-warehouse-put-aways.md). 
+    > 
+    > Du kan også vurdere å bruke handlingen **Bokfør og skriv ut**. Handlingen bokfører mottak og skriver det ut som en plasseringsinstruksjon som viser hvor varen skal plasseres.
 
 > [!NOTE]  
-> Hvis du bruker funksjonen **Bokfør og Skriv ut**, vil du både bokføre mottaket og skrive ut en plasseringsinstruksjon som viser hvor varene skal plasseres i lageret.  
->
-> Hvis lokasjonen din bruker lagerstyring, brukes plasseringsmaler for å beregne den beste plasseringen av varene. Dette skrives så ut i plasseringsinstruksjonen.
+> Hvis lageret bruker kryssoverføring, kan du kontrollere om du kan kryssoverføre varer uten å plassere dem. Hvis du vil finne ut mer om kryssoverføring, går du til [Kryssoverfør varer](warehouse-how-to-cross-dock-items.md).
 
-## <a name="receive-more-items-than-ordered"></a>Motta flere varer enn bestilt
+## Bruke filtre til å hente kildedokumenter
 
-Når du mottar flere varer enn du har bestilt, kan det være lurt å motta dem i stedet for å annullere mottaket. Det kan for eksempel være billigere å beholde det overskytende i beholdningen enn å returnere det, eller leverandøren kan tilby deg en rabatt for å beholde leveransen.
+Fra et lagermottak kan du bruke siden **Filtre for henting av kildedokumenter** til å hente linjene i det frigitte kildedokument som angir varer som skal mottas.
 
-### <a name="set-up-over-receipts"></a>Sett opp overmottak
+1. I lagermottaket velger du handlingen **Bruk filtre til å hente k.dok.**.
+2. Hvis du vil definere et nytt filter, angir du en beskrivende kode i feltet **Kode** og velger deretter handlingen **Endre**.
 
-Du må definere en prosentverdi der du kan overskride det bestilte antallet ved mottak. Du definerer dette med en overmottakskode, som inneholder prosenten i feltet **Toleranseprosent for overmottak**. Deretter tilordner du koden til kortene for relevante varer og/eller leverandører.  
+    Siden **Filterkort for kildedokument – inngående** vises.
 
-Nedenfor ser du hvordan du definerer og tilordner en overmottakskode til en vare. Trinnene er de samme for å sette opp dette for en leverandør.
+3. Bruk filtre til å definere hvilken type kildedokumentlinjer som skal hentes. Du kan for eksempel velge ulike typer kildedokumenter, for eksempel bestillinger eller overføringsordrer.
+4. Velg **Kjør**.  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
-2. Åpne kortet for en vare du har mistanke om at noen ganger kan bli levert med et høyere antall enn bestilt.
-3. Velg **Oppslag** i feltet **Overmottakskode**.
-4. Velg handlingen **Ny**.
-5. På siden **Overmottakskoder** oppretter du én eller flere nye linjer som definerer forskjellige policyer for overmottak. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
-6. Velg en linje og velg deretter **OK**.
+Alle frigitte kildedokumentlinjer som oppfyller filterkriteriene, legges til på siden **Lagermottak** der du aktiverte filtrene.
 
-Overmottakskoden tilordnes til varen. Alle bestillinger eller lagermottak for varen tillater nå mottak av mer enn det bestilte antallet i henhold til den angitte toleranseprosent for overmottak.
+Du kan opprette et ubegrenset antall filterkombinasjoner. Filtrer lagres på siden **Filtre for henting av kildedok**, og de er tilgjengelige neste gang du trenger dem. Du kan når som helst endre kriteriene ved å velge handlingen **Endre**.
 
-> [!NOTE]
-> Du kan definere en godkjenningsarbeidsflyt som krever at overmottak må godkjennes før de kan håndteres. I så fall må du merke av for **Krever godkjenning** på siden **Overmottakskoder**. Finn ut mer under [Opprett arbeidsflyter](across-how-to-create-workflows.md).
+## Sone- og hyllekoder
 
-### <a name="perform-an-over-receipt"></a>Utfør et overmottak
+Hvis du vil motta varer med andre lagerklassekoder enn lagerklassekoden til hyllen i feltet **Hyllekode** i dokumenthodet, må du fjerne feltet **Hyllekode** fra hodet før du henter kildedokumentlinjene for varene.  
+<!-- TBD, table with comparison of various options-->
 
-På kjøpslinjer og lagermottakslinjer brukes feltet **Antall overmottak** til å registrere overmottatt antall, noe som betyr et antall som overskred verdien for bestilt antall i feltet **Antall**.
+Hvis hyller er obligatoriske for lokasjon, legges sone- og hyllekoder til i lagermottaksdokumenter på følgende måte:
 
-Når du håndterer et overmottak, kan du øke verdien i feltet **Motta (antall)** til det faktisk mottatte antallet. Feltet **Antall overmottak** oppdateres deretter for å vise det overflødige antallet. Du kan eventuelt angi det ekstra antallet i feltet **Antall overmottak**. Feltet **Motta (antall)** oppdateres deretter for å vise det bestilte antallet pluss det overflødige antallet. Følgende fremgangsmåte beskrev hvordan du fyller ut feltet **Motta (antall)**.  
+* For avanserte oppsett som bruker lagerstyring, bruker [!INCLUDE [prod_short](includes/prod_short.md)] mottakshyllekoden på siden **Lokasjonskort** for lokasjonen. Hvis det ikke er angitt noen mottakshyllekode, angis ingen hylle. Hvis varen og mottakshyllene ikke samsvarer, er koden for mottakshyllen tom.
+* Hvis det er angitt en mottakshyllekode i andre konfigurasjoner, bruker [!INCLUDE [prod_short](includes/prod_short.md)] hyllekoden fra kildedokumentet.
 
-1. I en bestilling eller et lagermottaksdokument der det mottatte antallet er høyere enn bestilt, angir du det faktiske mottatte antallet i feltet **Motta (antall)**.
+## Se relatert [Microsoft-opplæring](/training/modules/receive-invoice-dynamics-d365-business-central/index).
 
-    Hvis økningen er innenfor toleransen som er angitt av en tildelt overmottakskode, oppdateres feltet **Antall overmottak** til å vise antallet som verdien i feltet **Aantall** er overskredet med.
+## Se også
 
-    Hvis økningen er over den angitte toleransen, tillates ikke overmottak. I dette tilfellet kan du undersøke om det finnes en annen overmottakskode som kan tillate det. Ellers kan bare det bestilte antallet mottas, og det overflødige antallet må håndteres på en annen måte, for eksempel ved å returnere det til leverandøren.
-
-2. Bokfør mottaket på samme måte som for andre mottak.
-
-> [!NOTE]
-> [!INCLUDE[prod_short](includes/prod_short.md)] inkluderer ikke funksjonalitet for automatisk å starte økonomisk administrasjon for overmottak. Du må håndtere dette manuelt og være enig med leverandøren, for eksempel leverandøren som videresender en ny eller oppdatert faktura.
-
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/receive-invoice-dynamics-d365-business-central/index).
-
-## <a name="see-also"></a>Se også
-
-[Lagerstyring](warehouse-manage-warehouse.md)  
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
 [Definer lagerstyring](warehouse-setup-warehouse.md)  
-[Monteringsstyring](assembly-assemble-items.md)  
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

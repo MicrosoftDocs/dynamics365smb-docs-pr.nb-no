@@ -6,17 +6,11 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect
+ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: b489cc9977b6711de8c5851ea7c95899c6dfaf14
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074747"
 ---
-# <a name="managing-interactions-with-your-contacts"></a>Administrere samhandlinger med kontaktene dine
+# Administrere samhandlinger med kontaktene dine
 I [!INCLUDE[prod_short](includes/prod_short.md)] betraktes all slags kommunikasjon mellom selskapet og kontaktene som samhandlinger. Kommunikasjon kan for eksempel være per e-post, brev, telefonsamtaler, møter og så videre.
 
 Du kan registrere alle samhandlingene med kontaktene, slik at du kan følge opp salgs- og markedsføringskampanjene som er rettet mot kontaktene, og forbedre fremtidige forretningssamhandlinger med dem.

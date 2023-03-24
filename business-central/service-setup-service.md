@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, service items, repairs, maintenance, fix
+ms.search.keywords: 'service, service items, repairs, maintenance, fix'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 062e74b422f2190feb15d54cea47af90db468d3b
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140556"
 ---
-# <a name="setting-up-service-management"></a>Konfigurere servicehåndtering
+
+# Konfigurere servicehåndtering
 Før du kan begynne å bruke funksjonene for servicehåndtering i [!INCLUDE[prod_short](includes/prod_short.md)], er det et par ting du må konfigurere. Du kan for eksempel opprette koding for standard service-, symptom- og feilkoder og servicevarer og servicevaretyper som selskapets kundeservice trenger.  
 
 Når du setter opp servicehåndtering, må du fastsette hvilke servicetyper du vil tilby kundene, og planen for disse servicetypene. En service er en type arbeid som utføres av én eller flere ressurser, for en kunde. En service kan for eksempel være reparasjon av en datamaskin. En servicevare er utstyret eller varen som trenger service, for eksempel en datamaskin hos en bestemt kunde. Du kan definere servicetyper som en del av en gruppe relaterte reparasjons- eller vedlikeholdsvarer.  
@@ -40,7 +35,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Definer servicevarer og servicevarekomponenter. |[Definere servicevarer](service-how-setup-service-items.md) |
 | Lag et fundament for opprettelse av servicekontrakter og kontrakttilbud. |[Definere servicekontrakter](service-how-setup-service-contracts.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 [Servicebehandling](service-service.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 

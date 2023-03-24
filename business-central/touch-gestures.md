@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accessibility, shortcuts, charts, tiles
+ms.search.keywords: 'accessibility, shortcuts, charts, tiles'
 ms.date: 04/29/2021
 ms.author: jswymer
-ms.openlocfilehash: b186ef113a356b7f3444755ef73712bdcfd7095a
-ms.sourcegitcommit: 6d48c1f601ed22b6b0358311baf63c073ab75e64
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/01/2022
-ms.locfileid: "8366545"
 ---
-# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Berørings- og pennebevegelser for nettbrett og telefoner 
+
+# Berørings- og pennebevegelser for nettbrett og telefoner 
 
 Denne artikkelen inneholder noen av spesialbevegelsene du kan bruke når du arbeider med [!INCLUDE[prod_short](includes/prod_short.md)] på et nettbrett eller en telefon.
 
@@ -35,7 +30,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Hurtigreferanse for tastatursnarveier – bare PC](keyboard-shortcuts-cheatsheet.md)  
 [Hjelpefunksjoner](ui-accessibility.md)  

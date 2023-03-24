@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 03/24/2022
 ms.author: bholtorf
-ms.openlocfilehash: 2bf45ab89aaeb9aa9560fd1e1d9ff94bf47cc453
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519807"
 ---
-# <a name="design-details-costing-methods"></a>Designdetaljer: Kostmetoder
+# Designdetaljer: Kostmetoder
 
 Lagermetoden avgjør om det er en faktisk eller en budsjettert verdi som kapitaliseres og brukes i kostnadsberegningen. Sammen med bokføringsdatoen og rekkefølgen påvirker lagermetoden også hvordan kostnadsflyten registreres.
 
@@ -46,7 +40,7 @@ Lagermetodene varierer med hensyn til hvordan de verdisetter lagerreduksjoner og
 |Revaluering|Revaluerer bare fakturert antall.<br /><br /> Kan utføres per vare eller per varepost.<br /><br /> Kan utføres bakover i tid.|Revaluerer bare fakturert antall.<br /><br /> Kan bare utføres per vare.<br /><br /> Kan utføres bakover i tid.|Revaluerer fakturerte og ikke-fakturerte antall.<br /><br /> Kan utføres per vare eller per varepost.<br /><br /> Kan utføres bakover i tid.|Revaluerer bare fakturert antall.<br /><br /> Kan utføres per vare eller per varepost.<br /><br /> Kan utføres bakover i tid.|  
 |Diverse|Hvis du tilbakedaterer en lagerreduksjon, brukes IKKE eksisterende oppføringer på nytt for å gi en riktig FIFO-kostnadsflyten.|Hvis du tilbakedaterer lagerøkning eller -reduksjon, blir gjennomsnittskost beregnet på nytt, og alle berørte poster blir justert.<br /><br /> Hvis du endrer periode- eller beregningstype, må alle berørte poster justeres.|Bruk **Standardforslag**-siden til å oppdatere og opprullere standardkostnader regelmessig.<br /><br /> Støttes IKKE per LFE.<br /><br /> Det finnes ingen historiske poster for standardkost.|Du kan bruke spesifikk varesporing uten å bruke lagermetoden Serienummer. Dermed følger IKKE kostnadene partinummeret, men i stedet kostnadsforutsetningen i den valgte lagermetoden.|  
 
-## <a name="example"></a>Eksempel
+## Eksempel
 
 Denne delen inneholder eksempler på hvordan ulike lagermetoder påvirker lagerverdi.  
 
@@ -64,7 +58,7 @@ Tabellen nedenfor viser lagerøkningene og -reduksjonene som eksemplene er baser
 > [!NOTE]  
 > Det resulterende antallet på lageret er null. Lagerverdien må derfor være null, uavhengig av lagermetoden.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Virkningen økes av lagermetoder på verdisetting av lagerbeholdning  
+### Virkningen økes av lagermetoder på verdisetting av lagerbeholdning  
 
 Lagerøkninger verdisettes som varens anskaffelseskost for varer som bruker andre lagermetoder som verdisettingsgrunnlag (**FIFO**, **LIFO**, **Gjennomsnitt** eller **Spesifikk**).  
 
@@ -72,11 +66,11 @@ Lagerøkninger verdisettes som varens anskaffelseskost for varer som bruker andr
 
     Når det gjelder varer som bruker lagermetoden **Standard**, verdisettes lagerøkningene til varens gjeldende standardkost.  
 
-#### <a name="standard"></a>Standard  
+#### Standard  
 
 Når det gjelder varer som bruker lagermetoden **Standard**, verdisettes lagerøkningene til varens gjeldende standardkost.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Virkningen reduseres av lagermetoder på verdisetting av lagerbeholdning
+### Virkningen reduseres av lagermetoder på verdisetting av lagerbeholdning
 
 - **FIFO**  
 
@@ -144,7 +138,7 @@ Når det gjelder varer som bruker lagermetoden **Standard**, verdisettes lagerø
     |01.03.20|-1|-10,00|**1**|5|  
     |01.04.20|-1|-30,00|**3**|6|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
  [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)   
  [Designdetaljer: Avvik](design-details-variance.md)   

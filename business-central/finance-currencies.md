@@ -4,21 +4,15 @@ description: Få oversikt over hvordan Business Central definerer din lokale val
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: multiple currencies
-ms.search.form: 5, 118
+ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: edupont
-ms.openlocfilehash: 7eabe6a9c17431b3e2965edcbf832d37133f4f9f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532758"
 ---
-# <a name="currencies-in-business-central"></a>Valutaer i Business Central
+# Valutaer i Business Central
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## <a name="currencies"></a>Valutaer
+## Valutaer
 
 > [!TIP]  
 > Hvis du ser etter sanntidsinformasjon om utenlandsk valutakurser (FX) eller historiske kurser i [!INCLUDE[prod_short](includes/prod_short.md)], finner du den referert til som valuta. I tillegg til denne artikkelen kan du også se [Definer en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md).
@@ -27,17 +21,17 @@ ms.locfileid: "9532758"
 
 Du angir valutakodene i **Valutaer**-listen, inkludert tilleggsinformasjon og innstillinger som er nødvendige for hver valutakode. Hvis du vil ha mer informasjon, kan du se [Valutaer](finance-set-up-currencies.md#curr)
 
-### <a name="example-of-a-receivable-currency-transaction"></a>Eksempel på en kundevalutatransaksjon
+### Eksempel på en kundevalutatransaksjon
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="exchange-rates"></a>Valutakurser
+## Valutakurser
 
 Valutakursene er verktøyet for å beregne den lokale valutaverdien (LVk) for hver valutatransaksjon. Hvis du vil ha mer informasjon, se [Oppdatere valutakurser](finance-how-update-currencies.md).  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Definer valutaer](finance-set-up-currencies.md)  
 [Oppdater valutakurser](finance-how-update-currencies.md)  

@@ -6,93 +6,88 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: accessibility, shortcuts, keyboarding
+ms.search.keywords: 'accessibility, shortcuts, keyboarding'
 ms.date: 08/19/2022
 ms.author: jswymer
-ms.openlocfilehash: ddcee165f275b3e7ad757b5a8a448c9a65a7d33c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605800"
 ---
-# <a name="keyboard-quick-reference---pc-only"></a>Hurtigreferanse for tastatursnarveier – bare PC
 
-#### <a name="general"></a>Generelt
+# Hurtigreferanse for tastatursnarveier – bare PC
 
-|Trykk på disse tastene|Hvis du vil gjøre dette|  
+#### Generelt
+
+|Velg disse tastene|Hvis du vil gjøre dette|  
 |-|-|
-|Alt+F2|Vis og skjul faktaboksruten|
-|Alt+N|Opprett en ny post|
-|Alt+Skift+N|Lukk en nylig opprettet post, og opprett en ny|
-|Alt+O|Legg til et nytt notat for den valgte posten|
-|Alt+Q|Åpne **Fortell meg**|
-|Ctrl+Alt+Q|Åpne **Søk etter poster**|
-|ALT+OPP|Åpne verktøytips eller valideringsfeil|
-|Alt+Pil ned|Åpne en rullegardinmeny eller slå opp|
-|Alt+T|Åpne siden **Mine innstillinger**|
-|Alt+Skift+W|Åpne gjeldende kort eller dokument i et nytt vindu|
-|Ctrl+Insert|Sett inn en ny linje i et dokument|
-|Ctrl-Delete|Slett linjen i et dokument, kladd og forslag.|
-|Ctrl+Shift+F12|Maksimer linjeelementdelen på en dokumentside|
-|Ctrl+F1|Åpne hjelperuten eller en hjelpeartikkel|
-|Ctrl + klikk|Navigere når du tilpasser og egendefinerer|
-|Ctrl+O|Bytt selskap eller miljø|
-|Skift+F12|Åpne rolleutforskeren, en oversikt over funksjoner|
-|F5/Ctrl+F5|Oppdatere / laste inn side på nytt|
-|Tab/Skift+Tab|Flytte fokus til neste/forrige element|
-|F6/Skift+F6|Flytt til neste hurtigfane/del|
+|<kbd>Alt</kbd>+<kbd>F2</kbd>|Vis og skjul faktaboksruten|
+|<kbd>Alt</kbd>+<kbd>N</kbd>|Opprett en ny post|
+|<kbd>Alt</kbd>+<kbd>Skift</kbd>+<kbd>N</kbd>|Lukk en nylig opprettet post, og opprett en ny|
+|<kbd>Alt</kbd>+<kbd>O</kbd>|Legg til et nytt notat for den valgte posten|
+|<kbd>Alt</kbd>+<kbd>Q</kbd>|Åpne **Fortell meg**|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>|Åpne **Søk etter poster**|
+|<kbd>Alt</kbd>+<kbd>Up</kbd>|Åpne verktøytips eller valideringsfeil|
+|<kbd>Alt</kbd>+<kbd>Pil ned</kbd>|Åpne en rullegardinmeny eller slå opp|
+|<kbd>Alt</kbd>+<kbd>T</kbd>|Åpne siden **Mine innstillinger**|
+|<kbd>Alt</kbd>+<kbd>Skift</kbd>+<kbd>W</kbd>|Åpne gjeldende kort eller dokument i et nytt vindu|
+|<kbd>Ctrl</kbd>+<kbd>Insert</kbd>|Sett inn en ny linje i et dokument|
+|<kbd>Ctrl</kbd>-<kbd>Delete</kbd>|Slett linjen i et dokument, kladd og forslag.|
+|<kbd>Ctrl</kbd>+<kbd>Skift</kbd>+<kbd>F12</kbd>|Maksimer linjeelementdelen på en dokumentside|
+|<kbd>Ctrl</kbd>+<kbd>F1</kbd>|Åpne hjelperuten eller en hjelpeartikkel|
+|<kbd>Ctrl</kbd>+klikk|Navigere når du tilpasser og egendefinerer|
+|<kbd>Ctrl</kbd>+<kbd>O</kbd>|Bytt selskap eller miljø|
+|<kbd>Skift</kbd>+<kbd>F12</kbd>|Åpne rolleutforskeren, en oversikt over funksjoner|
+|<kbd>F5</kbd>/<kbd>Ctrl</kbd>+<kbd>F5</kbd>|Oppdatere / laste inn side på nytt|
+|<kbd>Tab</kbd>/<kbd>Skift</kbd>+<kbd>Tab</kbd>|Flytte fokus til neste/forrige element|
+|<kbd>F6</kbd>/<kbd>Skift</kbd>+<kbd>F6</kbd>|Flytt til neste hurtigfane/del|
 
-#### <a name="navigate--select-rows"></a>Navigere og velge rader
+#### Navigere og velge rader
 
-|Trykk på disse tastene|Hvis du vil gjøre dette|
+|Velg disse tastene|Hvis du vil gjøre dette|
 |-|-|
-|Home/End|Gå til første/siste felt|
-|Ctrl+Home/End |Gå til første/siste rad|
-|Ctrl+Opp/Ned|Navigere uten å tape merkingen|
-|Ctrl+A |Merke alt|
-|Ctrl+Mellomrom|Radvalg på/av|
-|Ctrl+Skift+Klikk|Legge til raden(e) i utvalget|
-|Skift+Opp/Ned|Legge til rad over/under utvalget|
-|Skift+PgUp/PgDn|Velge synlige rader over/under|
-|Ctrl+Enter|Fokuserer ut fra listen|
+|<kbd>Home/End|Gå til første/siste felt|
+|<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>End</kbd>|Gå til første/siste rad|
+|<kbd>Ctrl</kbd>+<kbd>opp</kbd>/<kbd>ned</kbd>|Navigere uten å tape merkingen|
+|<kbd>Ctrl</kbd>+<kbd>A</kbd>|Merke alt|
+|<kbd>Ctrl</kbd>+<kbd>Mellomrom</kbd>|Radvalg på/av|
+|<kbd>Ctrl</kbd>/<kbd>Skift</kbd>+Klikk|Legge til raden(e) i utvalget|
+|<kbd>Skift</kbd>+<kbd>opp</kbd>/<kbd>ned</kbd>|Legge til rad over/under utvalget|
+|<kbd>Skift</kbd>+<kbd>Page Up</kbd>/<kbd>Down</kbd>|Velge synlige rader over/under|
+|<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Fokuserer ut fra listen|
 
-#### <a name="copy--paste"></a>Kopier og lim inn
+#### Kopier og lim inn
 
-|Trykk på disse tastene|Hvis du vil gjøre dette|
+|Velg disse tastene|Hvis du vil gjøre dette|
 |-|-|
-|Ctrl+C/V|Kopier / lim inn rader|
-|F8|Kopiere feltet over til gjeldende rad|
+|<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Kopier / lim inn rader|
+|<kbd>F8</kbd>|Kopiere feltet over til gjeldende rad|
 
-#### <a name="search-filter--sort"></a>Søk, filtrer og sorter
+#### Søk, filtrer og sorter
 
-|Trykk på disse tastene|Hvis du vil gjøre dette|
+|Velg disse tastene|Hvis du vil gjøre dette|
 |-|-|
-|Alt+F7|Sorter kolonne i stigende/synkende rekkefølge|
-|F3|Slå søk på/av|
-|Shift+F3|Vise/skjule filtreringsruten. fokusere på feltfiltre|
-|Alt+F3|Filtrere på den valgte celleverdien|
-|Shift+Alt+F3|Legg til filter for valgt felt|
-|Ctrl+Alt+Skift+F3|Tilbakestill filtre|
+|<kbd>Alt</kbd>+<kbd>F7</kbd>|Sorter kolonne i stigende/synkende rekkefølge|
+|<kbd>F3</kbd>|Slå søk på/av|
+|<kbd>Skift</kbd>+<kbd>F3</kbd>|Vise/skjule filtreringsruten. fokusere på feltfiltre|
+|<kbd>Alt</kbd>+<kbd>F3</kbd>|Filtrere på den valgte celleverdien|
+|<kbd>Skift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Legg til filter for valgt felt|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Skift</kbd>+<kbd>F3</kbd>|Tilbakestill filtre|
 
-#### <a name="quick-entry"></a>Hurtigoppføring
+#### Hurtigoppføring
 
-|Trykk på disse tastene|Hvis du vil gjøre dette|
+|Velg disse tastene|Hvis du vil gjøre dette|
 |-|-|
-|Ctrl+Skift+Enter|Gå til neste hurtigoppføringsfelt utenfor en liste|
-|Enter/Skift+Enter|Gå til neste/forrige hurtigoppføringsfelt|
+|<kbd>Ctrl</kbd>+<kbd>Skift</kbd>+<kbd>Enter</kbd>|Gå til neste hurtigoppføringsfelt utenfor en liste|
+|<kbd>Enter</kbd>/<kbd>Skift</kbd>+<kbd>Enter</kbd>|Gå til neste/forrige hurtigoppføringsfelt|
 
-##### <a name="report-preview"></a>Forhåndsvisning av rapport
+##### Forhåndsvisning av rapport
 
-|Trykk på disse tastene|Hvis du vil gjøre dette|
+|Velg disse tastene|Hvis du vil gjøre dette|
 |-|-|
-|Ctrl+Home/End|Gå til den første/siste siden|
+|<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>End</kbd>|Gå til den første/siste siden|
 
-#### <a name="numeric-keypad"></a>Numerisk tastatur
+#### Numerisk tastatur
 
-|Trykk på disse tastene|Hvis du vil gjøre dette|  
+|Velg disse tastene|Hvis du vil gjøre dette|  
 |-|-|
-|Alt + desimalskilletegn|Aktiver eller deaktiver desimalskilletegntasten på numerisk tastatur|
+|<kbd>Alt</kbd>+<kbd>desimalskilletegn</kbd>|Aktiver eller deaktiver desimalskilletegntasten på numerisk tastatur|
 
 > [!TIP]
 > Hvis du vil ha en grafisk, utskriftsvennlig versjon, velger du følgende bilde og laster ned PDF-filen.

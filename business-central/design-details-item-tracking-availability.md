@@ -1,22 +1,16 @@
 ---
 title: Designdetaljer – Varesporingstilgjengelighet
-description: Sidene Varesporingslinjer og Varesporingssummering inneholder dynamisk tilgjengelighetsinformasjon for serie- eller partinumre, noe som øker gjennomsiktigheten for brukere.
+description: 'Sidene Varesporingslinjer og Varesporingssummering inneholder dynamisk tilgjengelighetsinformasjon for serie- eller partinumre, noe som øker gjennomsiktigheten for brukere.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 4fd66e1b6e5aff71ee10b0e24d9f25b81eb85887
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8138625"
 ---
-# <a name="design-details-item-tracking-availability"></a>Designdetaljer: Varesporingstilgjengelighet
+# Designdetaljer: Varesporingstilgjengelighet
 Sidene **Varesporingslinjer** og **Varesporingssummering** inneholder dynamisk tilgjengelighetsinformasjon for serie- eller partinumre. Hensikten med dette er å gjøre utgående dokumenter, for eksempel ordrer, klarere for brukere ved å vise dem serienumrene eller antallet partinumre som for øyeblikket er tilordnet i andre åpne dokumenter. Dette reduserer usikkerhet som skyldes doble tildelinger og vekker tillit hos ordrebehandlere om at varesporingsnumrene og datoene de bekrefter på ikke-bokførte ordrer, kan oppfylles. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Side for varesporingslinjer](design-details-item-tracking-lines-window.md).  
 
  Når du åpner siden **Varesporingslinjer**, hentes tilgjengelighetsdata fra **Varepost**-tabellen og **Reservasjonspost**-tabellen uten noe datofilter. Når du velger **Serienr.**-feltet eller **Partinr.**-feltet, åpnes siden **Varesporingssummering** med et sammendrag av varesporingsinformasjonen i **Reservasjonspost**-tabellen. Sammendraget inneholder følgende informasjon om hvert serie- eller partinummer på varesporingslinjen:  
@@ -33,7 +27,7 @@ Sidene **Varesporingslinjer** og **Varesporingssummering** inneholder dynamisk t
 
  For å bevare databaseytelsen hentes tilgjengelighetsdata bare én gang fra databasen når du åpner siden **Varesporingslinjer** og når du bruker funksjonen **Oppdater tilgjengelighet** på siden.  
 
-## <a name="calculation-formula"></a>Beregningsformel  
+## Beregningsformel  
  Tilgjengeligheten av et bestemt serie- eller partinummer beregnes på følgende måte, som beskrevet i den forrige tabellen.  
 
  totalt disponibelt antall = antallet på lager – (alle behov + antallet som ennå ikke er lagret i databasen)  
@@ -41,7 +35,7 @@ Sidene **Varesporingslinjer** og **Varesporingssummering** inneholder dynamisk t
 > [!IMPORTANT]  
 >  Denne formelen innebærer at tilgjengelighetsberegningen for serie- eller partinumre bare tar hensyn til beholdning og ignorerer forventede mottak. Levering som ennå ikke er bokført på lager, påvirker derfor ikke varesporingstilgjengelighet, i motsetning til vanlig varedisposisjon der forventede mottak er inkludert.  
 
-## <a name="see-also"></a>Se også  
+## Se også  
  [Designdetaljer: Varesporing](design-details-item-tracking.md)
 
 

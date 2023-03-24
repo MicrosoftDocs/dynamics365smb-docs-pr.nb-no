@@ -1,23 +1,17 @@
 ---
 title: Definere betalingsmåter (inneholder video)
-description: Du bruker betalingsmåter, for eksempel sjekk, bankoverføring, kontanter eller PayPal, til å definere hvordan salgs- og kjøpsfakturaer skal betales.
+description: 'Du bruker betalingsmåter, for eksempel sjekk, bankoverføring, kontanter eller PayPal, til å definere hvordan salgs- og kjøpsfakturaer skal betales.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: check, bank transfer, cash, PayPal
+ms.search.keywords: 'check, bank transfer, cash, PayPal'
 ms.search.form: 427
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: ef92b2ade7c18a57438a6a87a939070cb42a9fb1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530625"
 ---
-# <a name="set-up-payment-methods"></a>Definer betalingsmåter
+# Definer betalingsmåter
 
 Betalingsmåter definerer hvordan du foretrekker at kunder betaler deg, og hvordan du vil betale leverandørene. Metoden kan variere for hver kunde eller leverandør. Eksempler på typiske betalingsmåter er **bank**, **kontant**, **sjekk** eller **konto**.
 
@@ -29,7 +23,7 @@ Kreditnotaer for returer er imidlertid unntak fordi penger flyter i motsatte ret
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE476Ys?rel=0]
 
-## <a name="to-set-up-a-payment-method"></a>Slik definerer du betalingsmåter
+## Slik definerer du betalingsmåter
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inneholder noen betalingsmåter som bedrifter bruker ofte. Du kan imidlertid legge til så mange du trenger.
 
@@ -38,14 +32,14 @@ Kreditnotaer for returer er imidlertid unntak fordi penger flyter i motsatte ret
 
 Du kan eventuelt legge til betalingsbetingelser til betalingsmåten. Hvis du vil ha mer informasjon, kan du se [Definer betalingsbetingelser](finance-payment-terms.md).  
 
-## <a name="to-assign-a-payment-method-to-a-customer-or-vendor"></a>Slik tilordner du en betalingsmåte til en kunde eller leverandør
+## Slik tilordner du en betalingsmåte til en kunde eller leverandør
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kunde** eller **Leverandør** og velg den relaterte koblingen.
 2. I **Betalingsmåte - kode**-feltet velger du metoden som skal brukes som standard for kunden eller leverandøren.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/cash-management-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/modules/cash-management-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Registrere nye kunder](sales-how-register-new-customers.md)  
 [Definer betalingsbetingelser](finance-payment-terms.md)  

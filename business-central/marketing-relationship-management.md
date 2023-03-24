@@ -7,18 +7,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: contact, prospect, client
-ms.search.forms: 9076, 9026
+ms.search.keywords: 'contact, prospect, client'
+ms.search.forms: '9076, 9026'
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3dec95b484bce34c2eff2cbc49510e54f871f4ef
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8137864"
 ---
-# <a name="managing-relationships"></a>Administrere forbindelser
+# Administrere forbindelser
 Funksjonen for forbindelser i [!INCLUDE[prod_short](includes/prod_short.md)] hjelper deg med å håndtere og støtte salgsfremstøt. Med disse funksjonene har du tilgang til komplette og nøyaktige opplysninger slik at du kan fokusere samhandlingen på foretrukne kunde-/kontaktsegmenter.
 
 God salgs- og markedsføringspraksis handler om å ta de rette avgjørelsene til rett tid. [!INCLUDE[prod_short](includes/prod_short.md)] gir deg en nøyaktig oversikt over kontaktinformasjonen når du har behov for den, slik at du kan ta deg av potensielle kunder på en mer effektiv måte, og øke kundetilfredsheten.

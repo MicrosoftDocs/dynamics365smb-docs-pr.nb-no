@@ -1,128 +1,132 @@
 ---
 title: Plukke varer med lagerplukk
-description: Hvis en lokasjon er definert til å kreve plukkbehandling, men ikke levering, bruker du lagerplukkdokumentene til å registrere og bokføre plukkings- og leveringsopplysninger for kildedokumentene.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 04/01/2021
-ms.author: edupont
-ms.openlocfilehash: 79b373ec522d2cd8f99c6b0a98db0df7f9d1793f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533701"
+description: Finn ut hvordan du bruker lagerplukk til å registrere og bokføre plukk- og leveringsinformasjon for kildedokumenter.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 01/25/2023
+ms.custom: bap-template
+ms.search.forms: '931, 7377'
 ---
-# <a name="pick-items-with-inventory-picks"></a>Plukke varer med lagerplukk
+# Plukke varer med lagerplukk
 
-Når lokasjonen din er definert til å kreve plukkbehandling, men ikke leveringsbehandling, bruker du **Lagerplukk**-siden til å registrere og bokføre plukkings- og leveringsopplysninger for kildedokumentene. Det utgående kildedokument kan være en ordre, en bestillingsretur, en utgående overføringsordre eller en produksjonsordre som det skal plukkes komponenter til.
+I [!INCLUDE[prod_short](includes/prod_short.md)] plukker og leverer du varer ved å bruke en av fire metoder, som beskrevet i tabellen nedenfor.
 
-> [!NOTE]  
-> Komponenter for monteringsordrer kan ikke plukkes eller bokføres med lagerplukk. Bruk i stedet siden **Lagerflytting**. Hvis du vil ha mer informasjon, kan du se [Flytte komponenter til et operasjonsområde i grunnleggende lagerstyring](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+|Prinsipp|Utgående prosess|Plukk nødv.|Levering nødv.|Kompleksitetsnivå (Finn ut mer under [Oversikt over Warehouse Management](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Bokføre plukking og levering fra ordrelinjen|||Ingen dedikert lageraktivitet.|  
+|B|Bokføre plukking og levering fra et lagerplukkdokument|Slått på||Grunnleggende: ordre for ordre.|  
+|U|Bokføre plukking og levering fra en lagerfølgeseddel||Slått på|Grunnleggende: konsolidert mottak/levering for flere ordrer.|  
+|D|Bokføre plukking fra et lagerplukkdokument og bokføre leveringen fra en lagerfølgeseddel|Slått på|Slått på|Avansert|  
+
+Finn ut mer under [Utgående lagerflyt](design-details-outbound-warehouse-flow.md).
+
+Denne artikkelen refererer til metode B i tabellen.
+
+Når lokasjonen din er definert til å kreve plukkbehandling, men ikke leveringsbehandling, bruker du **Lagerplukk**-siden til å registrere og bokføre plukkings- og leveringsopplysninger for kildedokumentene. Utgående kildedokumenter kan være ordrer, bestillingsreturer og utgående overføringsordrer.
+
+> [!NOTE]
+> Produksjons- og monteringsordrekomponentbehov representerer også utgående kildedokumenter. Finn ut mer om håndtering av produksjons- og monteringsordrer for interne prosesser under [Designdetaljer: Interne lagerflyter](design-details-internal-warehouse-flows.md).
 >
-> Når du plukker og leverer salgslinjeantall som er montert til ordre, må du følge visse regler når du oppretter lagerplukklinjene. Hvis du vil ha mer informasjon, kan du se delen [Håndtere montere-til-ordre-varer med lagerplukk](#handling-assemble-to-order-items-with-inventory-picks).  
+> Selv om serviceordrer også er utgående kildedokumenter, støtter de ikke basisnivået for ordre for ordre.
+>
+> Når du plukker og leverer salgslinjeantall som er montert til ordre, er det visse regler du må følge når du oppretter lagerplukklinjene. Finn ut mer under [Håndter montere-til-ordre-varer med lagerplukk](#handling-assemble-to-order-items-with-inventory-picks).  
 
-Du kan opprette lagerplukk på tre måter:  
+Du kan opprette lagerplukk på tre måter:
 
-- Opprett plukkingen i to trinn ved først å be om et lagerplukk ved å frigi kildedokumentet. Dette signaliserer til lageret at kildedokumentet er klart for plukking. Lagerplukket kan så opprettes på siden **Lagerplukk** basert på kildedokumentet.  
-- Opprette lagerplukket direkte fra selve kildedokumentet  
-- Du kan opprette lagerplukk for flere kildedokumenter samtidig ved hjelp av kjørselen.  
+* Opprette lagerplukket direkte fra kildedokumentet  
+* Opprett lagerplukk for flere kildedokumenter samtidig ved hjelp av en kjørsel.
+* Be om plukket i to trinn, ved først å frigi kildedokumentet, som fungerer som et signal til lageret om at kildedokumentet er klart for plukking.
 
-## <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Be om et lagerplukk ved å frigi kildedokumentet
+Lagerplukket kan så opprettes fra siden **Lagerplukk** basert på kildedokumentet.  
 
-Når det gjelder ordrer, bestillingsreturer og utgående overføringsordrer, oppretter du lagerforespørselen ved å frigi ordren. Fremgangsmåten nedenfor beskriver hvordan dette gjøres fra en ordre.
+## Slik oppretter du et lagerplukk fra kildedokumentet
+
+1. I kildedokumentet, som kan være en ordre, bestillingsretur, eller utgående overføringsordre, velger du handlingen **Opprett lagerplassering/-plukking**.
+2. Merk av for **Opprett lagerplukking**.  
+3. Velg **OK**. Et nytt lagerplukk opprettes.
+
+## Slik oppretter du flere lagerplukk med en kjørsel:
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Opprett plassering/plukk/flytting for lager**, og velg deretter den relaterte koblingen.  
+2. På hurtigfanen **Lagerforespørsel** bruker du filtrene **Kildedokumentet** og **Kildenr.** for å filtrere etter bestemte dokumenttyper eller dokumentnummerintervaller. Du kan for eksempel bare opprette plukk for ordrer.  
+3. Merk av for **Opprett lagerplukking** på hurtigfanen **Alternativer**.
+4. Velg **OK**-knappen.
+
+## Slik oppretter du plukking i to trinn
+
+### Be om et lagerplukk ved å frigi kildedokumentet
+
+Når det gjelder ordrer, bestillingsreturer og utgående overføringsordrer, oppretter du lagerforespørselen ved å frigi ordren. Ved å frigi ordren blir varene tilgjengelig for plukking.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
 2. Velg ordren som skal frigis, og velg deretter **Frigi**-handlingen.
 
-Når det gjelder produksjonsordrer, oppretter du automatisk lagerforespørselen for plukking av komponenter, som kalles *trekk*, når produksjonsordrestatus endres til **Frigitt** eller når den frigitte produksjonsordren opprettes. Hvis du vil ha mer informasjon, kan du se [Plukke for produksjon eller montering](warehouse-how-to-pick-for-production.md).
+### Slik oppretter du et lagerplukk basert på kildedokumentet:
 
-Når lagerforespørselen er opprettet, kan lageransatte som er tilordnet arbeidet med å plukke varer, se at kildedokumentet er klart for plukking, og kan opprette nye plukkdokumenter basert på lagerforespørselen.  
-
-## <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Slik oppretter du et lagerplukk basert på kildedokumentet:
-
-Nå som forespørselen er opprettet, kan den lageransatte opprette et nytt lagerplukk basert på det frigitte kildedokumentet.
+Når en ordre er frigitt, kan den ansatte opprette et lagerplukk.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerplukk**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
-    Pass på at **Nr.** -feltet i hurtigfanen **Generelt** er fylt ut.
-3. Velg hvilken type kildedokument du plukker for, i **Kildedokument**-feltet.  
+3. Velg hvilken type dokument du plukker for, i **Kildedokument**-feltet.  
 4. Velg kildedokumentet i **Kildenr.**-feltet.  
-5. Du kan også velge handlingen **Hent kildedokument** for å velge dokumentet fra en liste over utgående kildedokumenter som er klare for plukking på lokasjonen.  
-6. Velg **OK**-knappen for å fylle ut plukklinjene i henhold til det valgte kildedokumentet.  
+5. Du kan også velge handlingen **Hent kildedokument** for å opprette en liste over utgående kildedokumenter som er klare for plukking på lokasjonen.  
+6. Velg **OK**-knappen for å fylle ut plukklinjene i henhold til de valgte kildedokumentene.  
 
-## <a name="to-create-an-inventory-pick-from-the-source-document"></a>Slik oppretter du et lagerplukk fra kildedokumentet
-
-1. I kildedokumentet, som kan være en ordre, bestillingsretur, utgående overføringsordre eller produksjonsordre, velger du handlingen **Opprett lagerplassering/-plukking**.
-2. Merk av for **Opprett lagerplukking**.  
-3. Velg **OK**. Et nytt lagerplukk opprettes.
-
-## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Slik oppretter du flere lagerplukk med en kjørsel:
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Opprett plassering/plukk for lager**, og velg deretter den relaterte koblingen.  
-2. På hurtigfanen **Lagerforespørsel** bruker du filtrene **Kildedokumentet** og **Kildenr.** for å filtrere etter bestemte dokumenttyper eller dokumentnummerintervaller. Du kan for eksempel bare opprette plukk for ordrer.  
-3. Merk av for **Opprett lagerplukking** på hurtigfanen **Alternativer**.
-4. Velg **OK**. De angitte lagerplukkingene blir opprettet.
-
-> [!NOTE]  
-> Hvis du plukker og leverer salgslinjeantall som er montert til ordre, må du følge visse regler når du oppretter lagerplukklinjene. Hvis du vil ha mer informasjon, kan du se delen [Håndtere montere-til-ordre-varer med lagerplukk](#handling-assemble-to-order-items-with-inventory-picks).  
->
-> I grunnleggende lageroppsett plukkes varer som er montert til ordrer, fra den relaterte ordren, som forklart i dette emnet. Hvis du vil ha mer informasjon, kan du se delen [Håndtere montere-til-ordre-varer med lagerplukk](#handling-assemble-to-order-items-with-inventory-picks).  
-
-## <a name="to-record-the-inventory-picks"></a>Slik registrerer du lagerplukk
+## Slik registrerer du lagerplukk
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Lagerplukk**, og velg deretter den relaterte koblingen.  
 2. I **Hyllekode**-feltet på plukklinjene foreslås hyllen som varene skal plukkes fra, per varens standardhylle. Du kan endre hylle på denne siden hvis det er nødvendig.  
-3. Utfør plukkingen, og angi opplysninger om det faktiske plasseringsantallet i feltet **Ant. som skal håndt**.
+3. Utfør plukkingen, og angi deretter faktisk antall i feltet **Ant. som skal håndt.**.
 
-    Hvis varene for én linje må plukkes fra mer enn én hylle, for eksempel fordi de ikke er tilgjengelige i den angitte hyllen, bruker du funksjonen **Del linje** i hurtigfanen **Linjer**. Hvis du vil ha mer informasjon om deling av linjer, kan du se [Dele lageraktivitetslinjer](warehouse-how-to-split-warehouse-activity-lines.md).  
-4. Når du har utført plukkingen, velger du handlingen **Bokfør**.  
+    Hvis du må plukke varene for en linje fra mer enn én hylle, for eksempel fordi hele antallet ikke er i hyllen, bruker du handlingen **Del linje** i hurtigfanen **Linjer**. Handlingen oppretter en linje der restantallet skal håndteres.
 
-Bokføringsprosessen bokfører leveringen av kildedokumentlinjene som er plukket, eller bokfører forbruk når det gjelder produksjonsordrer. Hvis lokasjonen bruker hyller, oppretter bokføringen også lagerposter for bokføring av hylleantallendringer.  
+4. Velg handlingen **Bokfør**.  
 
-## <a name="to-delete-inventory-pick-lines"></a>Slik sletter du lagerplukklinjer:
+    * Bokfør leveringen for kildedokumentlinjene som ble plukket.
+    * Hvis lokasjonen bruker hyller, oppretter bokføring også lagerposter for bokføring av endringene i hylleantallet.  
 
-Hvis varer på lagerplukkingen ikke er tilgjengelige, kan du slette disse lagerplukklinjene etter bokføring og deretter slette lagerplukkdokumentet. Kildedokumentet, for eksempel en ordre eller en produksjonsordre, vil ha gjenværende varer som skal plukkes, som kan oppnås gjennom et nytt lagerplukk senere når varene blir tilgjengelige.  
+## Håndter montere-til-ordre-varer med lagerplukk
 
-> [!WARNING]  
-> Denne prosessen kan ikke gjennomføres hvis serie-/partinumre er angitt i kildedokumentet. Hvis en ordrelinje for eksempel inneholder et serie-/partinummer, slettes denne varesporingsspesifikasjonen hvis du sletter en lagerplukklinje for serie-/partinummeret.  
->
-> Hvis lagerplukklinjer har serie-/partinumre som ikke er tilgjengelige, må du ikke slette de aktuelle linjene. Du må i stedet endre **Ant. som skal håndt.**-feltet til null, bokføre faktiske plukk og så slette lagerplukkdokumentet. Dette sikrer at lagerplukklinjene for disse serie-/partinumrene kan gjenopprettes fra ordren senere.  
+Du kan også bruke **Lagerplukk**-siden til å plukke og levere for salg der varer må monteres før de kan leveres. Finn ut mer under [Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md).
 
-## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Håndtere montere-til-ordre-varer med lagerplukk
+Monter-til-ordre-varer er ikke fysisk til stede i en hylle før de er montert og bokført som avgang til en hylle. Plukking av monter-til-ordre-varer fra en hylle for leveringer følger en spesiell flyt.
 
-**Lagerplukk**-siden brukes også til å plukke og levere for salg der varer må monteres før de kan leveres. Hvis du vil ha mer informasjon, kan du se [Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md).
+1. Lagermedarbeidere tar monteringsvarene fra en hylle til leveringssonen og bokfører deretter lagerplukkingen.
+2. Det bokførte lagerplukket bokfører monteringsavgangen, komponentforbruket og følgeseddelen.
 
-Varer som skal leveres er ikke fysisk til stede i en hylle før de er montert og bokført som avgang til en hylle i monteringsområdet. Dette betyr at plukking av monter-til-ordre-varer til levering følger en spesiell flyt. Lagermedarbeidere tar monteringsvarene fra en hylle til leveringssonen og bokfører deretter lagerplukkingen. Det bokførte lagerplukket bokfører deretter monteringsavgangen, komponentforbruket og følgeseddelen.
+Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til å automatisk opprette en lagerflytting når lagerplukkingen for monteringsvaren opprettes. Velg feltet **Opprett flyttinger automatisk** på siden **Monteringsoppsett**. Finn ut mer under [Opprette grunnleggende lagre med operasjonsområder](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md).
 
-Du kan konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til å automatisk opprette en lagerflytting når lagerplukkingen for monteringsvaren opprettes. Hvis du vil aktivere dette, må du velge feltet **Opprett flyttinger automatisk** på siden **Monteringsoppsett**. Hvis du vil ha mer informasjon, kan du se [Flytte komponenter til et operasjonsområde i grunnleggende lagerstyring](warehouse-how-to-move-components-to-an-operation-area-in-basic-warehousing.md)
+Lagerplukklinjer for salgsvarer opprettes på forskjellige måter avhengig av om ingen, noen eller alle salgslinjeantallene er montert til ordre. I scenarioer der noe av antallet monteres og noe plukkes fra lager, opprettes det minst to lagerplukklinjer.
 
-Lagerplukklinjer for salgsvarer opprettes på forskjellige måter avhengig av om ingen, noen eller alle salgslinjeantallene er montert til ordre.
+For salg der hele antallet på ordrelinjen er montert til ordre, opprettes én lagerplukklinje for dette antallet. Verdien i feltet **Antall å montere** er det samme som verdien i feltet **Levere (antall)**. **Monter til ordre**-feltet er valgt på linjen.
 
-Når du ved vanlig salg bruker lagerplukk til å bokføre levering av lagerantall, opprettes én lagerplukklinje for hver ordrelinje, eller flere hvis varen er plassert i forskjellige hyller. Denne plukklinjen er basert på antallet i **Levere (antall)**-feltet.
+Hvis en monteringsavgangsflyt er angitt for lokasjonen, er **Hyllekode**-feltet på lagerplukklinjen inneholder verdien fra følgende felter i følgende rekkefølge.
 
-I montere-til-ordre-salg der hele antallet på ordrelinjen er montert til ordre, opprettes én lagerplukklinje for dette antallet. Dette betyr at verdien i feltet Antall å montere er det samme som verdien i feltet **Levere (antall)**. **Monter til ordre**-feltet er valgt på linjen.
+* ***Hyllek. lev. fra m. til ordre** <!-- not applicable for inv pick-->
+* **Fra-Hyllekode for montering**
 
-Hvis en monteringsavgangsflyt er definert for lokasjonen, blir verdien i feltet **Hyllek. lev. fra m. til ordre** eller **Fra-Hyllekode for montering** satt inn (i denne rekkefølgen) i **Hyllekode-feltet på** lagerplukklinjen.
+Hvis en hyllekode ikke er angitt på ordrelinjen og ingen monteringsavgangsflyt er definert for lokasjonen, er **Hyllekode**-feltet på lagerplukklinjen tomt. Lagermedarbeideren må åpne **Hylleinnhold**-siden og velge hyllen der monteringsvarene er montert.
 
-Hvis ingen hyllekode er angitt på ordrelinjen og ingen monteringsavgangsflyt er definert for lokasjonen, er **Hyllekode**-feltet på lagerplukklinjen tomt. Lagermedarbeideren må åpne **Hylleinnhold**-siden og velge hyllen der monteringsvarene er montert.
+I scenarioer der en del av antallet monteres og en annen del plukkes, opprettes minst to plukklinjer.
 
-I kombinasjonsscenarier, der en del av antallet først må monteres og en annen del må plukkes fra lager, opprettes minst to lagerplukklinjer. Én plukklinje er til montere-til-ordre-antallet. Den andre plukklinjen avhenger av hvilke hyller som kan oppfylle det gjenværende antallet fra lageret. Hyllekoder på de to linjene er fylt ut på forskjellige måter som beskrevet for de to ulike salgstypene. Hvis du vil ha mer informasjon, kan du se delen "Kombinasjonsscenarier" i [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md).
+* Én plukklinje til montere-til-ordre-antallet. [!INCLUDE [prod_short](includes/prod_short.md)] bruker følgende felter, i denne rekkefølgen, til å fastslå hyllekoden: **Hyllekode**, **Hyllek. lev. fra m. til ordre** og deretter **Fra-Hyllekode for montering**. Hvis disse feltene er tomme, må lagermedarbeideren må åpne **Hylleinnhold**-siden og velge hyllen der varene er montert.  
+* Den andre plukklinjen avhenger av hvilke hyller som kan oppfylle det gjenværende antallet. Hvis varen beholdes i flere hyller, opprettes det flere linjer. Hent-linjen er basert på antallet i **Levere (antall)**-feltet.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/pick-ship-items-business-central/)
+> [!NOTE]  
+> Hvis varer monteres til ordre, opprett lagerplukkingen for den koblede ordren en lagerflytting for alle monteringskomponentene.  
 
-## <a name="see-also"></a>Se også
+## Se relatert [Microsoft-opplæring](/training/paths/pick-ship-items-business-central/)
 
-[Lagerstyring](warehouse-manage-warehouse.md)  
+## Se også
+
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
 [Definer lagerstyring](warehouse-setup-warehouse.md)  
 [Monteringsstyring](assembly-assemble-items.md)  
 [Gjennomgang: Plukking og levering i grunnleggende lageroppsett](walkthrough-picking-and-shipping-in-basic-warehousing.md)  
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

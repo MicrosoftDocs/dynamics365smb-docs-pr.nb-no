@@ -1,30 +1,24 @@
 ---
 title: Definere lager
-description: Beskriver hvordan du definerer vare- og lagerprosesser, inkludert overføringsruter og lokasjoner, for eksempel lagre.
+description: 'Beskriver hvordan du definerer vare- og lagerprosesser, inkludert overføringsruter og lokasjoner, for eksempel lagre.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, stock
-ms.search.form: 30, 461
+ms.search.keywords: 'warehouse, stock'
+ms.search.form: '30, 461'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 7d637ae9b0413bb069927166fc8a5ac74e9dd7e2
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531489"
 ---
-# <a name="setting-up-inventory"></a>Definere lager
+# Definere lager
 Før du kan håndtere lageraktiviteter og beholdning og kostberegning, må du konfigurere regler og verdier som definerer selskapets beholdningspolicyer.
 
 Du kan gi bedre kundeservice og optimalisere forsyningskjeden ved å organisere beholdningen på forskjellige adresser. Deretter kan du kjøpe, lagre eller selger varer på forskjellige lokasjoner og overføre beholdning mellom dem.
 
-Når du har definert beholdningen, kan du administrere forskjellige prosesser relatert til varetransaksjoner. Hvis du vil ha mer informasjon, se [Håndtere lager](inventory-manage-inventory.md) og [Lagerstyring](warehouse-manage-warehouse.md).
+Når du har definert beholdningen, kan du administrere forskjellige prosesser relatert til varetransaksjoner. Hvis du vil ha mer informasjon, se [Håndtere lager](inventory-manage-inventory.md) og [Oversikt over lagerstyring](design-details-warehouse-management.md).
 
-| Til | Se |
+| Hvis du vil | Se |
 | --- | --- |
 | Definer det generelle lageroppsettet, for eksempel nummerserier og hvordan du bruker lokasjoner. |[Definere generell informasjon om lagerbeholdning](inventory-how-setup-general.md) |
 |Konfigurer en effektiv distribusjonsmodell med en kombinasjon av ulike lokasjoner og ansvarssentre tilordnet til forretningspartnere eller ansatte.|[Arbeide med ansvarssentre](inventory-responsibility-centers.md)|
@@ -38,13 +32,14 @@ Når du har definert beholdningen, kan du administrere forskjellige prosesser re
 |Importer flere varebilder samtidig fra en zip-fil, der filene har fått navn i samsvar med varenumre.|[Importere flere varebilder](inventory-how-import-item-pictures.md)|
 |Angi standardrapporter som skal brukes for ulike dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/trade-get-started-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Håndtere lager](inventory-manage-inventory.md)  
 [Håndtere kjøp](purchasing-manage-purchasing.md)  
 [Håndtere salg](sales-manage-sales.md)    
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
 

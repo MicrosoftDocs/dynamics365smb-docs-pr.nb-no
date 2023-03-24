@@ -1,23 +1,17 @@
 ---
-title: Tilpasse Business Central
-description: Les om de forskjellige måtene å tilpasse Business Central på, for å forbedre tilgang til funksjonalitet og funksjoner du trenger mest for det daglige arbeidet.
+title: "Tilpasse\_Business Central"
+description: 'Les om de forskjellige måtene å tilpasse Business Central på, for å forbedre tilgang til funksjonalitet og funksjoner du trenger mest for det daglige arbeidet.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: personalize, add-in, extend, customize
-ms.search.form: 2500, 2502
+ms.search.keywords: 'personalize, add-in, extend, customize'
+ms.search.form: '2500, 2502'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 1feffa480e3bdf6236801e666646ea5aaddd8876
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9606093"
 ---
-# <a name="customize-business-central"></a>Tilpasse Business Central
+# Tilpasse Business Central
 
 Det finnes ulike metoder for å tilpasse programmet slik at du og kollegene dine får tilgang til funksjonene, funksjonaliteten og dataen du trenger, på en måte som passer til dine daglige arbeidsoppgaver. I denne tabellen beskrives hvem som ser endringene, avhengig av hva du gjør.
 
@@ -34,9 +28,9 @@ Det finnes ulike metoder for å tilpasse programmet slik at du og kollegene dine
 > [!NOTE]
 > Alle funksjonsbeskrivelser i brukerdokumentasjonen for [!INCLUDE[prod_short](includes/prod_short.md)] forutsetter **Premium**-opplevelsen, det vil si at beskrivelsene dekker hele omfanget av grensesnittelementer. Derfor kan brukere som har **Essential**-opplevelsen i enkelte emner lese om funksjoner og grensesnittelementer som ikke vises i brukergrensesnittet. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/tailor-roles-design-ui/)
+## Se relatert [Microsoft-opplæring](/training/paths/tailor-roles-design-ui/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

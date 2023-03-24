@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 9b579b2b91d9699800b5fbf550c58c2e7caaa77d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142909"
 ---
-# <a name="service-management"></a>Servicehåndtering
+# Servicehåndtering
 > [!NOTE]
 > Funksjonaliteten som er beskrevet i dette emnet og underemner, vises bare i brukergrensesnittet hvis du har **Premium**-opplevelsen. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).
 
@@ -42,7 +36,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Opprett og håndter avtaler mellom deg og kundene.|[Oppfylle servicekontrakter](service-fulfill-service-contracts.md)|  
 |Gi service til kunder og fakturer serviceordrer.|[Yte service](service-deliver-service.md)|  
 
-## <a name="see-also"></a>Se også  
+## Se også  
 [Håndtere fordringer](receivables-manage-receivables.md)   
 [Prosjekter](projects-how-create-jobs.md)   
 [Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)

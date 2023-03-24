@@ -1,22 +1,16 @@
 ---
 title: Planlegge jobber til å kjøre automatisk
-description: Planlagte aktiviteter administreres av jobbkøen. Disse jobbene kjører rapporter og kodeenheter. Du kan angi at jobbene skal kjøre én gang, eller gjentas flere ganger.
+description: 'Planlagte aktiviteter administreres av jobbkøen. Disse jobbene kjører rapporter og kodeenheter. Du kan angi at jobbene skal kjøre én gang, eller gjentas flere ganger.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 672, 673, 674, 671
+ms.search.form: '672, 673, 674, 671'
 ms.date: 10/01/2021
 ms.author: edupont
-ms.openlocfilehash: cfbfffdf52e072133451e968e872c7f66a733069
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607103"
 ---
-# <a name="use-job-queues-to-schedule-tasks"></a>Bruke jobbkøer til å planlegge oppgaver
+# Bruke jobbkøer til å planlegge oppgaver
 
 Siden for jobbkøoppføringer gjør det mulig for brukere å kjøre bestemte rapporter og codeunits. Du kan angi at jobbene skal kjøre én gang, eller gjentas flere ganger. Du ønsker kanskje å kjøre rapporten **Selger * salgsstatistikk** hver uke for å spore salg etter selger hver uke eller kjøre codeunit **Deleger godkjenningsforespørsler** daglig for å unngå at dokumenter hoper seg opp.
 
@@ -40,7 +34,7 @@ Når jobbkøer er satt opp og kjører, kan statusen endres på følgende måte i
 
 Etter at en jobb er fullført, fjernes den fra listen over jobbkøposter med mindre den er en gjentakende jobb. Hvis det er gjentakende jobber, justeres feltet **Tidligste starttidspunkt** til å vise neste gang jobben er forventet å kjøre.  
 
-## <a name="monitor-status-or-errors-in-the-job-queue"></a>Overvåk status eller feil i jobbkøen
+## Overvåk status eller feil i jobbkøen
 
 Data som jobbkøen genererer, lagres i databasen, slik at du kan feilsøke jobbkøfeil.  
 
@@ -59,7 +53,7 @@ Tabellen nedenfor beskriver verdiene i feltet **Status**.
 > [!Tip]  
 > Jobbkøposter slutter å kjøre når det oppstår en feil. Dette kan for eksempel være et problem når en post kobler til en ekstern tjeneste, for eksempel en bank. Hvis tjenesten midlertidig ikke er tilgjengelig og jobbkøen ikke kan koble til, vil posten vise en feil og slutte å kjøre. Du må starte jobbkøposten på nytt manuelt. Men feltene **Maksimalt antall forsøk** og **Forsinkelse for ny kjøring (s)** kan hjelpe deg å unngå denne situasjonen. Feltet **Maksimalt antall forsøk** lar deg angi hvor mange ganger jobbkøposten kan mislykkes før den slutter å prøve å kjøre. Med feltet **Forsinkelse for ny kjøring (s)** kan du angi hvor lang tid, i sekunder, det er mellom forsøk. Kombinasjonen av disse to feltene kan føre til at jobbkøposten kjører før den eksterne tjenesten blir tilgjengelig.
 
-### <a name="to-view-status-for-any-job"></a>Slik viser du statusen for en jobb
+### Slik viser du statusen for en jobb
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Jobbkøposter**, og velg deretter den relaterte koblingen.
 2. På siden **Poster i jobbkø** velger du en jobbkøpost og deretter **Loggposter**-handlingen.  
@@ -67,7 +61,7 @@ Tabellen nedenfor beskriver verdiene i feltet **Status**.
 > [!TIP]
 > Du kan også vise statusen for jobbkøposter ved å bruke Application Insights i Microsoft Azure for mer detaljert analyse basert på telemetri. Hvis du vil ha mer informasjon, kan du se [Overvåke og analysere telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) og [Analysere telemetri for jobbkølivsyklus](/dynamics365/business-central/dev-itpro/administration/telemetry-job-queue-lifecycle-trace) i utvikler- og administrasjonsinnholdet for [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="view-scheduled-tasks"></a>Vis planlagte oppgaver
+## Vis planlagte oppgaver
 
 Siden **Planlagte oppgaver** i [!INCLUDE [prod_short](includes/prod_short.md)] viser hvilke oppgaver som er klare til å kjøres i jobbkøen. Siden viser også informasjon om selskapet som hver oppgave er definert til å kjøre i. Bare oppgaver som er merket som tilhører gjeldende miljø, kan imidlertid kjøres.  
 
@@ -76,7 +70,7 @@ Alle planlagte oppgaver stopper for eksempel hvis selskapet er i et miljø som e
 > [!NOTE]
 > Interne administratorer og lisensierte brukere kan planlegge oppgaver som skal kjøres. Delegerte administratorer kan definere og planlegge oppgaver som skal kjøres, men bare lisensierte brukere kan kjøre dem.
 
-## <a name="the-my-job-queue-part"></a>Delen Min jobbkø
+## Delen Min jobbkø
 
 Delen **Min jobbkø** viser i rollesenteret ditt viser jobbkøpostene som du har startet, men som ennå ikke er fullført. Som standard er delen ikke synlig, men du kan legge den til i rollesenteret. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).  
 
@@ -87,32 +81,32 @@ Delen viser følgende informasjon:
 
 Delen Min jobbkø gjør det også mulig å avbryte en dokumentpostering.
 
-### <a name="to-view-an-error-from-the-my-job-queue-part"></a>Slik viser du en feil fra delen Min jobbkø:
+### Slik viser du en feil fra delen Min jobbkø:
 
 1. I en oppføring med statusen **Feil** velger du **Vis feil**-handlingen.
 2. Les feilmeldingen og løs problemet.
 
-## <a name="examples-of-what-can-be-scheduled-using-job-queue"></a>Eksempler på hva som kan planlegges ved hjelp av jobbkø
+## Eksempler på hva som kan planlegges ved hjelp av jobbkø
 
-### <a name="schedule-reports"></a>Planlegg rapporter
+### Planlegg rapporter
 
 Du kan planlegge at en rapport eller satsvis jobb skal kjøres på en bestemt dato og et bestemt klokkeslett. Planlagte rapporter og satsvise jobber legges i jobbkøen og behandles på det planlagte tidspunktet, på samme måte som andre jobber. Du velger alternativet **Planlegg** etter at du har valgt handlingen **Send til**, og deretter angir du informasjon som skriver, dato og klokkeslett, gjentakelse.  
 
 Hvis du vil ha mer informasjon, kan du se [Planlegge en rapport for kjøring](ui-work-report.md#ScheduleReport)
 
-### <a name="schedule-synchronization-between-prod_short-and-prod_short"></a>Planlegg synkronisering mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### Planlegg synkronisering mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Hvis du har integrert [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[prod_short](includes/cds_long_md.md)], kan du bruke jobbkøen til å planlegge når du skal synkronisere data. Avhengig av retningen og reglene du har definert, kan jobbkøposten opprette poster i én app for å samsvare med poster i den andre. Et godt eksempel er når du registrerer en kontakt i [!INCLUDE[crm_md](includes/crm_md.md)], kan jobbkøposten konfigurere kontakten for deg i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Planlegge en synkronisering mellom Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 
-### <a name="schedule-the-posting-of-sales-and-purchase-orders"></a>Planlegg bokføring av ordrer og bestillinger
+### Planlegg bokføring av ordrer og bestillinger
 
 Du kan bruke jobbkøposter til å planlegge at forretningsprosesser skal kjøre i bakgrunnen. Bakgrunnsoppgaver er nyttig for eksempel når flere brukere bokfører ordrer samtidig, men bare én ordre kan behandles om gangen. Hvis du vil ha mer informasjon, kan du se [Konfigurere bokføring i bakgrunnen med jobbkøer](ui-batch-posting.md#to-set-up-background-posting-with-job-queues)
 
-## <a name="monitor-the-job-queue-with-telemetry"></a>Overvåk jobbkøen med telemetri
+## Overvåk jobbkøen med telemetri
 
 Som administrator kan du bruke [Application Insights](/azure/azure-monitor/app/app-insights-overview) til å samle og analysere telemetri som du kan bruke til å identifisere problemer. Hvis du vil ha mer informasjon, kan du se [Overvåke og analysere telemetri](/dynamics365/business-central/dev-itpro/administration/telemetry-overview) i utvikler- og administrasjonsinnholdet.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrasjon](admin-setup-and-administration.md)  
 [Definere Business Central](setup.md)  

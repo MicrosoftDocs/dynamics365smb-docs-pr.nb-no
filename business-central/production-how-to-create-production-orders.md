@@ -1,22 +1,16 @@
 ---
 title: Opprette produksjonsordrehoder
-description: Du kan opprette en produksjonsordre manuelt, og første trinn er å opprette et produksjonsordrehode.
+description: 'Du kan opprette en produksjonsordre manuelt, og første trinn er å opprette et produksjonsordrehode.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 9325, 99000815, 99000829, 9900083
+ms.search.form: '9325, 99000815, 99000829, 9900083'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b47525b8f552cb4446497a0edafa7661aa25f17b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9074711"
 ---
-# <a name="create-production-order-headers"></a>Opprette produksjonsordrehoder
+# Opprette produksjonsordrehoder
 
 Du kan opprette en produksjonsordre manuelt, og første trinn er å opprette et produksjonsordrehode.
 
@@ -24,7 +18,7 @@ Produksjonsordrer opprettes vanligvis automatisk etter en planleggingsfunksjonen
 
 I fremgangsmåten nedenfor opprettes det en fast planlagt produksjonsordre. Du kan også opprette produksjonsordrer med en annen status.  
 
-## <a name="to-create-a-production-order-header"></a>Slik oppretter du et produksjonsordrehode
+## Slik oppretter du et produksjonsordrehode
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Fast planlagte prod.ordrer** og velg den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
@@ -37,7 +31,7 @@ I fremgangsmåten nedenfor opprettes det en fast planlagt produksjonsordre. Du k
 
 Når produksjonskrav endres, for eksempel komponenter eller operasjoner, kan du raskt planlegge produksjonsordren på nytt. Hvis du vil ha mer informasjon, se [Planlegge på nytt eller fornye produksjonsordrer direkte](production-how-to-replan-refresh-production-orders.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Produksjon](production-manage-manufacturing.md)
 [Definere produksjon](production-configure-production-processes.md)  

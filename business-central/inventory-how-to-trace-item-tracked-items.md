@@ -1,23 +1,17 @@
 ---
 title: Spore varesporede varer
-description: Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble mottatt, produsert eller returnert med funksjonene Varesporing og Finn enheter.
+description: 'Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble mottatt, produsert eller returnert med funksjonene Varesporing og Finn enheter.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.forms: 6520,
+ms.search.keywords: null
+ms.search.forms: '6520,'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 584205dba5f8f7d566475ef9d13a97c25949545b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531840"
 ---
-# <a name="trace-item-tracked-items"></a>Spore varesporede varer
+# Spore varesporede varer
 
 Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble mottatt eller produsert, overført, solgt, forbrukt eller returnert. Du kan også finne alle gjeldende forekomster av et bestemt serie- eller partinummer i databasen. Dette gjør du ved hjelp av funksjonene Varesporing og [Søk etter poster](ui-find-entries.md).  
 
@@ -29,7 +23,7 @@ Disse funksjonene kan være spesielt nyttige i kvalitetskontroll når du må fin
 
  De to funksjonene kan brukes i kombinasjon ved å overføre et sporet serie- eller partinummer på siden **Søk etter poster** hvis du vil fullføre et fullstendig sporingsscenario. <!-- For more information, see [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).   -->
 
-## <a name="to-trace-item-tracked-items"></a>Slik sporer du varesporede varer  
+## Slik sporer du varesporede varer  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varesporing** og velg den relaterte koblingen.  
 2.  Angi de bestemte varenumrene eller et filter på varenumrene du vil spore, i filterfeltene øverst på siden.  
@@ -58,16 +52,16 @@ Disse funksjonene kan være spesielt nyttige i kvalitetskontroll når du må fin
 >   
 >  Når du skal søke etter varesporingslinjer der transaksjonsloggen allerede er sporet, velger du knappen **Gå til allerede sporet**. Den aktuelle varesporingslinjen velges, og alle underliggende linjer utvides.  
 
-## <a name="to-find-item-tracked-items-with-find-entries"></a>Slik søker du etter varesporede varer med Søk etter poster:  
+## Slik søker du etter varesporede varer med Søk etter poster:  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Finn enheter**, og velg deretter den relaterte koblingen.  
 2. Velg **Handlinger** > **Finn etter** > **Finn etter varereferanse**.
 3. I feltene **Serienr.** og **Partinr.** angir du varesporingsnumrene du vil spore.  
 4. Velg **Søk** for å finne alle forekomster av serie- eller partinummeret i databasen.  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/prepare-item-tracking/)
+## Se relatert [Microsoft-opplæring](/training/modules/prepare-item-tracking/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Lager](inventory-manage-inventory.md)  
 [Arbeide med serie-, parti- og pakkenumre](inventory-how-work-item-tracking.md)  

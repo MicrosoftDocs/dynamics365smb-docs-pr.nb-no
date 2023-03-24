@@ -1,6 +1,6 @@
 ---
 title: Foreta direkte leveringer (inneholder video)
-description: Beskriver hvordan du oppretter en ordre som er koblet til en bestilling, for å sikre levering direkte fra leverandøren til kunden.
+description: 'Beskriver hvordan du oppretter en ordre som er koblet til en bestilling, for å sikre levering direkte fra leverandøren til kunden.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,14 +9,8 @@ ms.workload: na
 ms.search.keywords: direct shipment
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: f04f49c301b38236be1dda3334e8560584a4e6b4
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528897"
 ---
-# <a name="make-drop-shipments"></a>Foreta direkte leveringer
+# Foreta direkte leveringer
 
 En direkte levering er levering av varer fra en av leverandørene dine, direkte til en av kundene dine.
 
@@ -25,7 +19,7 @@ Når en ordre er merket for direkte levering, og du oppretter en bestilling for 
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
 
-## <a name="to-create-a-sales-order-for-drop-shipment"></a>Slik oppretter du en ordre med direkte levering:
+## Slik oppretter du en ordre med direkte levering:
 
 Hvis du vil klargjøre en direkte levering, kan du opprette en ordre og vise på salgslinjen at salget krever direkte levering.
 
@@ -35,7 +29,7 @@ Hvis du vil klargjøre en direkte levering, kan du opprette en ordre og vise på
 > [!TIP]
 > Avmerkingsboksen for direktelevering er som standard ikke tilgjengelig på linjene. Hvis ikke kan du legge til den ved å tilpasse inndelingen på siden som inneholder linjene. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
 
-## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Slik oppretter du bestillingen med direkte levering:
+## Slik oppretter du bestillingen med direkte levering:
 
 For å klargjøre en direkte levering angir du på bestilling at den må leveres til kunden, ikke til deg selv.
 
@@ -52,7 +46,7 @@ Nå kan du be leverandøren om å sende varene direkte til kunden. Du kan for ek
 
 Hvis leverandøren oppgir et sporingsnummer eller liknende informasjon, kan du legge til informasjonen på en bestillingslinje av typen *Merknad*.  
 
-## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Slik oppretter du flere bestillinger med direkte leveringer
+## Slik oppretter du flere bestillinger med direkte leveringer
 
 Du kan også bruke bestillingsforslaget til å opprette bestillingen for leverandøren. 
 
@@ -64,11 +58,11 @@ Fordelen med å bruke bestillingsforslaget er at det kan opprette bestillinger f
 4. Se gjennom bestillingslinjene, og velg leverandør som leverer nødvendige varer, i feltet **Leverandørnummer**. 
 5. Velg handlingen **Utfør handlingsmelding** for å konvertere korrekturleste linjer til en bestilling.
 
-## <a name="to-view-the-linked-purchase-order-from-the-sales-order"></a>Slik viser du den tilknyttede bestillingen fra ordren:
+## Slik viser du den tilknyttede bestillingen fra ordren:
 
 * Velg ordrelinjen med direkte levering, velg **Ordre**-handlingen, velg **Direkte levering**-handlingen, og velg deretter **Bestilling**-handlingen.
 
-## <a name="to-post-a-drop-shipment"></a>Bokføre en direkte levering
+## Bokføre en direkte levering
 
 Når leverandøren har levert varene, kan du bokføre ordren som levert. Du kan også bokføre bestillingen, men bare med **Motta**-alternativet til ordren er fakturert.
 
@@ -78,9 +72,9 @@ Når leverandøren har levert varene, kan du bokføre ordren som levert. Du kan 
 4. Velg handlingen **Bokfør** eller **Bokfør og send**.
 5. Velg **Levere** hvis du vil fakturere senere, eller **Levere og fakturere** hvis du vil fakturere med en gang.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opprette spesialbestillinger](sales-how-to-create-special-orders.md)  
 [Kjøp varer for salg](purchasing-how-purchase-products-sale.md)  

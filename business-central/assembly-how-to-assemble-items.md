@@ -7,17 +7,11 @@ ms.reviewer: andreipa
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
-ms.search.keywords: kit, kitting
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
+ms.search.keywords: 'kit, kitting'
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
-ms.openlocfilehash: 35d75808f0d2a0212396151dd2a7a2438dfc7fe5
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804503"
 ---
-# <a name="assemble-items"></a>Montere elementer
+# Montere elementer
 
 Hvis feltet **Etterfyllingssystem** på varekortet inneholder **Montering**, er standardmetoden for å forsyne varen å montere den i henhold til en monteringsstykkliste og muligens av en bestemt ressurs. Finn ut mer under [Arbeid med monteringsstykklister](assembly-how-work-assembly-boms.md). Finn ut mer om hvordan du definerer en monteringsvare under [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
@@ -33,7 +27,7 @@ Denne artikkelen beskriver standardinnstillingene for montering til lager. Det k
 > [!NOTE]  
 > Monteringskomponenter håndteres på en spesiell måte i enkle lagerkonfigurasjoner. Finn ut mer under [Håndter montere-til-ordre-varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## <a name="to-assemble-an-item-to-stock"></a>Slik monterer du en vare til lager
+## Slik monterer du en vare til lager
 
 Følg fremgangsmåten nedenfor for å montere en vare til lager. Hvis du vil lære mer om å montere til ordre, kan du gå til [Selg varer montert til ordre](assembly-how-to-sell-items-assembled-to-order.md).
 
@@ -67,14 +61,14 @@ Følg fremgangsmåten nedenfor for å montere en vare til lager. Hvis du vil læ
 
 Etter vellykket bokføring, bokføres monteringsvaren som avgått til lokasjonskoden og den potensielle hyllekoden som er definert i monteringsordren. For manuelt opprettede monteringsordrer kan kan lokasjonen kopieres fra oppsettfeltet **Standardlokasjon for ordrer**. Når det gjelder montere-til-ordre-flyter, kan du kopiere lokasjonskoden fra ordrelinjen.  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/assemble-items-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Monteringsstyring](assembly-assemble-items.md)  
 [Arbeid med monteringsstykklister](assembly-how-work-assembly-boms.md)  
 [Lager](inventory-manage-inventory.md)  
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

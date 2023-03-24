@@ -1,6 +1,6 @@
 ---
 title: Definere hylletyper
-description: Tilordne typer og grunnleggende flytaktiviteter til hyller, og definer deretter hvordan hyllene brukes til bestemte lageraktiviteter.
+description: 'Tilordne typer og grunnleggende flytaktiviteter til hyller, og definer deretter hvordan hyllene brukes til bestemte lageraktiviteter.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,20 +9,14 @@ ms.workload: na
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 2bec10341df30f451e05289573c48132cf20b00a
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533998"
 ---
-# <a name="set-up-bin-types"></a>Definere hylletyper
+# Definere hylletyper
 
 Du kan dirigere vareflyten gjennom hyller som du har definert for bestemte lageraktiviteter. Du gir hver hylle de grunnleggende flytaktivitetene, og du definerer måten en hylles skal brukes på ved å tilordne den en hylletype.  
 
 Du kan velge mellom seks typer. Du kan velge å bruke alle de seks mulige hylletypene i lageret, eller du kan velge å bruke bare hylletypene MOTTAK, PLASSPLUKK, LEVERING og KK. Med disse fire hylletypene kan det gis forslag som støtter flyten, og du kan registrere beholdningsavvik.  
 
-## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Slik setter du opp de hylletypene du vil bruke
+## Slik setter du opp de hylletypene du vil bruke
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Hylletyper** og velg den relaterte koblingen.  
 2.  På siden **Hylletyper** oppretter du en kode på 10 tegn for hver hylletype.  
@@ -44,15 +38,14 @@ Nedenfor finner du en liste over de hylletypene du kan opprette.
 |PUTPICK|Varer i hyller som er foreslått både for plasserings- og plukkfunksjoner. Hyller av denne typen har forskjellige hylleprioriteringer. Du kan sette opp masselagringshyllene som denne typen hylle med lave hylleprioriteringer sammenlignet med dine vanlige plukkhyller eller hyller i forhåndsplukkingsområder.|  
 |KK|Denne hyllen brukes til lagerjusteringer hvis du angir denne hyllen på lokasjonskortet i feltet **Hyllekode for justering**. Du kan også sette opp hyller av denne typen for defekte varer og varer som blir kontrollert. Du kan flytte varer til denne typen hylle hvis du vil gjøre dem utilgjengelig for den vanlige vareflyten.<br /><br /> **Obs!** I motsetning til alle andre hylletyper er det ikke merket av for noen av varehåndteringsalternativene for **KK**-hylletypen som standard. Dette angir at alt innhold du plasserer i en KK-hylle er utelukket fra vareflyter.|  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/set-up-zones-bins/)
+## Se relatert [Microsoft-opplæring](/training/modules/set-up-zones-bins/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Lagerstyring](warehouse-manage-warehouse.md)  
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
 [Definer lagerstyring](warehouse-setup-warehouse.md)  
 [Monteringsstyring](assembly-assemble-items.md)  
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

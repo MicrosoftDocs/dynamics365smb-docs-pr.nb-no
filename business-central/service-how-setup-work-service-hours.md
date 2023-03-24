@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 919b9c19f93e82c1dc738894e0828fc91f2af46c
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8139264"
 ---
-# <a name="set-up-work-hours-and-service-hours"></a>Konfigurere arbeidstimer og servicetimer
+# Konfigurere arbeidstimer og servicetimer
 Med et servicesystem kan du vanligvis spore ressurstimer og serviceordrestatus for å prognostisere arbeidsmengder og servicebehov. [!INCLUDE[prod_short](includes/prod_short.md)] har innebygde verktøy du kan tilpasse for å registrere denne typen informasjon.  
   
 Etter at du har angitt selskapets standard servicetimer, kan du beregne responstiden for serviceordrer eller sende advarsler eller varsler når det kommer serviceanrop. Varslingsfunksjonen implementeres sammen med jobbskjemaet.   
   
 Når du arbeider med en serviceordre, vil du oppdaterer statusen slik at du kan overvåke fremdriften. Serviceordrestatusen gjenspeiler reparasjonsstatusen til alle servicevarene i serviceordren. Hvis du vil ha mer informasjon, kan du se [Forstå serviceordre- og reparasjonsstatus](service-order-repair-status.md). 
 
-## <a name="to-set-up-default-service-hours"></a>Slik definerer du Standard servicetimer  
+## Slik definerer du Standard servicetimer  
 Du bruker siden **Standard servicetimer** til å definere selskapets normale antall servicearbeidstimer. Disse servicetimene brukes til å beregne responsdatoen og -klokkeslettet for serviceordrer og -tilbud, og til å sende advarsler om responstid. Standard servicetimer brukes for servicekontrakter hvis du ikke angir spesifikke servicetimer for en kontrakt.  
   
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Standard servicetimer**, og velg deretter den relaterte koblingen.  
@@ -32,7 +26,7 @@ Du bruker siden **Standard servicetimer** til å definere selskapets normale ant
 > [!IMPORTANT]  
 >  Hvis du lar linjene på siden **Standard servicetimer** stå tomme, bruker programmet 24 timer som standardverdi, som bare er gjelder for arbeidsdager fra kalenderen.  
   
-## <a name="to-set-up-work-hour-templates"></a>Definere arbeidstidsmaler
+## Definere arbeidstidsmaler
 Du kan bruke siden **Arbeidstidsmal** til å definere maler som inneholder vanlige arbeidstider i selskapet. Du kan for eksempel opprette maler for heltidsteknikere og deltidsteknikere. Du kan bruke arbeidstidsmaler når du legger til kapasitet i ressurser.  
   
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Arbeidstidsmaler**, og velg deretter den relaterte koblingen.  
@@ -41,7 +35,7 @@ Du kan bruke siden **Arbeidstidsmal** til å definere maler som inneholder vanli
 > [!Note]
 > Når du har angitt arbeidstimer for hver dag, beregnes verdien i feltet **Sum per uke** automatisk.  
 
-## <a name="to-set-up-contract-specific-service-hours"></a>Slik definerer du kontraktsspesifikke servicetimer  
+## Slik definerer du kontraktsspesifikke servicetimer  
 Du kan bruke siden **Servicetimer** til å definere spesifikke servicetimer timer for kunden som eier servicekontrakten. Servicetimer brukes til å beregne responsdatoen og -tiden for serviceordrer og -tilbud som hører til servicekontrakten.  
   
 Hvis du ikke definerer spesifikke servicetimer for servicekontrakten, brukes standard servicetimer for servicekontraktene.  
@@ -53,7 +47,7 @@ Hvis du ikke definerer spesifikke servicetimer for servicekontrakten, brukes sta
 6. Hvis du vil at servicetimene skal gjelde fra en bestemt dato, fyller du ut feltet **Startdato**.  
 7. Hvis du vil at servicetimene skal gjelde i ferier, setter du en hake i avmerkingsboksen i feltet **Gyldig i ferier**.  
 
-## <a name="see-also"></a>Se også  
+## Se også  
 [Forstå tildelingsstatus og reparasjonsstatus](service-allocation-status-and-repair-status.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  
 [Forstå serviceordre- og reparasjonsstatus](service-order-repair-status.md)  

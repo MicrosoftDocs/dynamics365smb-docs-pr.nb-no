@@ -5,14 +5,9 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 511c7c616e94458cc2eb8489831d528968400903
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530193"
 ---
-# <a name="business-central-learning-catalog"></a>Læringskatalog for Business Central
+
+# Læringskatalog for Business Central
 
 Finn riktig elektronisk opplæring, i personlige arbeidsgrupper og arrangementer for din rolle som en Business Central-bruker eller partner.
 
@@ -20,7 +15,7 @@ Finn riktig elektronisk opplæring, i personlige arbeidsgrupper og arrangementer
 
     :::column:::
 
-    ### <a name="business-decision-maker"></a>Beslutningstaker for bedrift
+    ### Beslutningstaker for bedrift
 
     Avgjør du om du skal investere i ny teknologi? 
 
@@ -36,7 +31,7 @@ Finn riktig elektronisk opplæring, i personlige arbeidsgrupper og arrangementer
 
     :::column:::
 
-    ### <a name="business-user"></a>Forretningsbruker
+    ### Forretningsbruker
 
     Fikk du nettopp en ny app å bruke? 
 
@@ -54,7 +49,7 @@ Finn riktig elektronisk opplæring, i personlige arbeidsgrupper og arrangementer
 
     :::column:::
 
-    ### <a name="developer"></a>Utvikler
+    ### Utvikler
 
     Må du skrive kode for å integrere med andre datakilder, utvide kjernesystemfunksjonalitet eller bygge opp en komplisert applikasjon?
 
@@ -66,7 +61,7 @@ Finn riktig elektronisk opplæring, i personlige arbeidsgrupper og arrangementer
 
     :::column:::
 
-    ### <a name="functional-consultant"></a>Funksjonell konsulent
+    ### Funksjonell konsulent
     
     Er du en implementeringsekspert for et forretningsdomene? 
 

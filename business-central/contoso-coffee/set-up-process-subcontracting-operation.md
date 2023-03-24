@@ -6,24 +6,19 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 9227abbfe25ca5a1b3c6775865712f22b31f721b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525220"
 ---
-# <a name="set-up-and-process-a-subcontracting-operation"></a>Definer og behandle en underleveranseoperasjon
+
+# Definer og behandle en underleveranseoperasjon
 
 I denne artikkelen tar vi deg gjennom trinnene for å bruke Contoso Coffee-demodataene i underleveranse.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Du er produksjonsplanleggeren hos Contoso Coffee. På grunn av kapasitetsbegrensninger planlegger du å bruke en underleverandør til å produsere varen **SP-SCM1009, Airpot**.
 
 Her oppretter du en ny frigitt produksjonsordre for tolv enheter av vare SP-SCM1009, Airpot, ved hjelp av Rute - SP-SCM1009-SUB-2. Bruk underleveranseforslaget til å generere en bestilling for produksjonen, og deretter full fører du operasjonen ved å motta og fakturere bestillingen.
 
-## <a name="steps"></a>Trinn
+## Trinn
 
 1. Opprett en ny frigitt produksjonsordre for tolv enheter av varen SP-SCM1009, Airpot.
 
@@ -46,7 +41,7 @@ Her oppretter du en ny frigitt produksjonsordre for tolv enheter av vare SP-SCM1
 
     3. Velg handlingen **Oppdater produksjonsordre**.  
 
-    4. På forespørselssiden **Forny produksjonsordre** fjerner du feltet **Linjer** og **Komponentbehov** slik at oppgaven bare kjøres for rute, og deretter klikker du på **OK**-knappen.
+    4. På forespørselssiden **Forny produksjonsordre** fjerner du feltet **Linjer**og **Komponentbehov** slik at oppgaven bare kjøres for rute, og deretter klikker du på **OK**-knappen.
 
 3. Bruk underleveranseforslaget til å generere en bestilling for underleveranseoperasjonen i produksjonsordren du opprettet i trinn 2.  
 
@@ -78,6 +73,6 @@ Her oppretter du en ny frigitt produksjonsordre for tolv enheter av vare SP-SCM1
 
 Avgangen til vare SP-SCM1009 Airpot er nå registrert.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Innføring i demodata for Contoso Coffee](contoso-coffee-intro.md)  

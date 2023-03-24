@@ -1,23 +1,17 @@
 ---
 title: Definere et lokasjonskort og definere overføringsruter (inneholder video)
-description: Hvis du kjøper, lagrer eller selger varer på mer enn ett sted, kan du definere hvert sted som en lokasjon.
+description: 'Hvis du kjøper, lagrer eller selger varer på mer enn ett sted, kan du definere hvert sted som en lokasjon.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: warehouse, distribution center
-ms.search.forms: 5703, 15
+ms.search.keywords: 'warehouse, distribution center'
+ms.search.forms: '5703, 15'
 ms.date: 07/05/2022
 ms.author: bholtorf
-ms.openlocfilehash: 882c7c0506439aba55d5b1c2d0cc23bd79db9d6e
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605810"
 ---
-# <a name="set-up-locations"></a>Definer lokasjoner
+# Definer lokasjoner
 
 Lokasjoner er steder som lagre der du kjøper, lagrer eller selger varer. [!INCLUDE [prod_short](includes/prod_short.md)] bruker lokasjoner til å holde oversikt over lageret både i enklere tilfeller og de mer sammensatte lagerprosessene.
 
@@ -26,7 +20,7 @@ Deretter kan du opprette dokumentlinjer for en bestemt lokasjon, vise tilgjengel
   
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4aQvq?rel=0]
 
-## <a name="location-cards"></a>Lokasjonskort
+## Lokasjonskort
 
 Du angir opplysninger om en lokasjon, for eksempel et lager eller distribusjonssenter, på siden **Lokasjonskort**. Du gir hver lokasjon et navn og en kode som representerer lokasjonen. Deretter kan du angi lokasjonskoden i andre deler av programmet når du vil registrere transaksjoner for en gitt lokasjon.  
 
@@ -36,7 +30,7 @@ Noen alternativfelt er avhengig av innstillinger på siden **Lokasjonskort** for
 
 Velg handlingene **Soner** eller **Hyller** for å vise informasjon om soner og hyller som er definert for lokasjonen.
 
-### <a name="to-set-up-a-location"></a>Slik definerer du lokasjoner
+### Slik definerer du lokasjoner
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
@@ -50,7 +44,7 @@ Du kan endre konfigurasjonen av en lokasjon så lenge det ikke finnes vareposter
 
 Hvis du har flere lokasjoner, kan du definere overføringsruter mellom lokasjonene. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du overføringsruter](inventory-how-setup-locations.md#to-create-a-transfer-route).
 
-### <a name="to-create-a-transfer-route"></a>Slik oppretter du overføringsruter
+### Slik oppretter du overføringsruter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Overføringsruter**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
@@ -58,7 +52,7 @@ Hvis du har flere lokasjoner, kan du definere overføringsruter mellom lokasjone
 
 Nå kan du overføre lagervarer mellom to lokasjoner. Hvis du vil ha mer informasjon, kan du se [Overføre beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md).    
 
-## <a name="bins"></a>Hyller
+## Hyller
 
 Hyller representerer den grunnleggende lagerstrukturen og kan foreslå hvor varene skal plasseres. Hyllene kan ha innhold, eller være fristilte hyller uten bestemt innhold. 
 
@@ -67,17 +61,17 @@ Hvis du vil bruke hyllefunksjonaliteten i en lokasjon, må du aktivere funksjona
 > [!NOTE]
 > Før du kan angi hyllekoder på en lokasjon, må du opprette hyllekoder. Hvis du vil ha mer informasjon, kan du se [Opprette hyller](warehouse-how-to-create-individual-bins.md) og [Definere hylletyper](warehouse-how-to-set-up-bin-types.md).  
 
-## <a name="zones"></a>Soner
+## Soner
 
 Hvis du vil strukturere hyllene under soner, kan du gjøre det på siden **Soner**. Når du tildeler en sone til hyller, kopierer [!INCLUDE [prod_short](includes/prod_short.md)] informasjon fra sonen til hyllene. Du kan også velge å definere en sone og bruke hyller alene til å organisere lageret. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).  
 
-## <a name="default-dimensions-for-locations"></a>Standarddimensjoner for lokasjoner
+## Standarddimensjoner for lokasjoner
 
 Du angir standarddimensjoner for en lokasjon på siden **Lokasjonskort** ved å velge **Dimensjoner**. Etterpå tildeles lokasjonens standarddimensjoner til dokumenter når du velger lokasjon på en linje. Du kan slette eller endre dimensjonene på linjen etter behov. I feltet **Verdipostering** kan du kreve at brukerne angir dimensjoner for bestemte lokasjoner før de kan bokføre en post. Hvis du vil at brukerne bare skal kunne velge bestemte dimensjonsverdier, kan du angi verdiene i feltet **Tillatt verdifilter**. Du kan også inkludere lokasjonsdimensjonsverdier på siden **Standard dimensjonsprioriteter** og for kombinasjoner av prioritets- og dimensjonsregler på siden **Dimensjonskombinasjoner**.
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
+## Se relatert opplæring på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Håndtere lager](inventory-manage-inventory.md)  
 [Overføre beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md)  

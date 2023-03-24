@@ -1,27 +1,21 @@
 ---
 title: Opprette nye verdiposter for varer på lageret | Microsoft-dokumentasjon
-description: Beskriver hvordan du foretar oppskrivning eller avskrivning av verdiposter for én eller flere varer på lageret, ved å bokføre den gjeldende, beregnede verdien.
+description: 'Beskriver hvordan du foretar oppskrivning eller avskrivning av verdiposter for én eller flere varer på lageret, ved å bokføre den gjeldende, beregnede verdien.'
 documentationcenter: ''
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: costing, inventory cost, value entries
-ms.search.forms: 5803,
+ms.search.keywords: 'costing, inventory cost, value entries'
+ms.search.forms: '5803,'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: edad8dcc23a204f4dcfabfa43a9c83918f63f416
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511549"
 ---
-# <a name="revalue-inventory"></a>Revaluere beholdning
+# Revaluere beholdning
 Hvis du vil endre lagerverdien for en vare eller en bestemt varepost, må du bruke revalueringskladden.
 
-## <a name="to-revalue-inventory"></a>Slik revaluerer du beholdning
+## Slik revaluerer du beholdning
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Revalueringskladd** og velg den relaterte koblingen.
 2. Velg handlingen **Beregn lagerverdi**.
 3. På siden **Beregn lagerverdi** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -33,7 +27,7 @@ Hvis du vil endre lagerverdien for en vare eller en bestemt varepost, må du bru
 
 Nye verdiposter opprettes nå for å gjenspeile revalueringer som du har bokført. Du kan se de nye verdiene på de respektive varekortene.
 
-## <a name="see-also"></a>Se også
+## Se også
 [Designdetaljer: Revaluering](design-details-revaluation.md)  
 [Lager](inventory-manage-inventory.md)  
 [Salg](sales-manage-sales.md)  

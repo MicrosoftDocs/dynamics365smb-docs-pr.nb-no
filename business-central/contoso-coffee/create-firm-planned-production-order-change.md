@@ -1,29 +1,24 @@
 ---
 title: Opprett en fast planlagt produksjonsordre og endre den
-description: Gjennomgang for en produksjonsplanlegger hos Contoso Coffee som ønsker å opprette en fast planlagt produksjonsordre, og deretter endre den.
+description: 'Gjennomgang for en produksjonsplanlegger hos Contoso Coffee som ønsker å opprette en fast planlagt produksjonsordre, og deretter endre den.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 7a057e144ed6825435c62f565eeaaa73974fedf9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525257"
 ---
-# <a name="walkthrough-create-a-firm-planned-production-order-and-change-it"></a>Gjennomgang: Opprett en fast planlagt produksjonsordre og endre den
+
+# Gjennomgang: Opprett en fast planlagt produksjonsordre og endre den
 
 I denne artikkelen tar vi deg gjennom trinnene for å bruke Contoso Coffee-demodataene for å arbeide med produksjonsordrer.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Eduardo, produksjonsplanleggeren hos Contoso Coffee, må opprette en ny produksjonsordre for ti enheter av varen **SP-SCM1009, Airpot** som må være klar 28. april. Han bakoverplanlegger denne og bekrefter at han kan starte ordren 27. april.  
 
 Kort tid etter at denne oppgaven er fullført, blir han bedt om å øke ordren til 50 enheter. Når han gjør dette, trykker funksjonen for bakoverplanlegging ordrens startdato for tidlig. Derfor planlegger han å viderekoble ordren fra 23. april for å kunne avgjøre en mer realistisk sluttdato.  
 
-## <a name="steps"></a>Trinn
+## Trinn
 
 1. Opprett den innledende produksjonsordren for ti enheter av varen **SP-SCM1009, Airpot**.
 
@@ -63,6 +58,6 @@ Kort tid etter at denne oppgaven er fullført, blir han bedt om å øke ordren t
 
 Den nye produksjonsordren er nå definert, og Eduardos krav er oppfylt.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Innføring i demodata for Contoso Coffee](contoso-coffee-intro.md)  

@@ -3,12 +3,6 @@ author: altotovi
 ms.topic: include
 ms.date: 09/01/2022
 ms.author: atotovic
-ms.openlocfilehash: 095fb2aaca138291cf253f32e3d3c3bdac3193c7
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9608207"
 ---
 > [!NOTE]
 > I lanseringsbølge 2 i 2022 inkluderer Business Central en ny Intrastat-opplevelse med utvidede funksjoner. Hvis du er en ny kunde som bruker versjon 21 eller nyere, bruker du den nye opplevelsen. For kunder som har oppgradert fra tidligere versjoner, avhenger av om administratoren har aktivert alternativet **Funksjonsoppdateringen: Erstatt den eksisterende Intrastat-funksjonaliteten med ny Intrastat-utvidelse** på siden **Funksjonsstyring**. Finn ut mer i artikkelen [Konfigurer Intrastat-rapportering](../finance-how-setup-report-intrastat.md). Denne artikkelen beskriver den forrige funksjonaliteten.

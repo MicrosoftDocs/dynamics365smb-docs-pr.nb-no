@@ -1,22 +1,16 @@
 ---
 title: Anbefalte fremgangsmåter for oppsett - lagermetode
-description: Lagermetode på varekortet definerer varekostnadsflyten, og om en faktisk eller budsjettert verdi kapitaliseres og brukes i kostnadsberegningen.
+description: 'Lagermetode på varekortet definerer varekostnadsflyten, og om en faktisk eller budsjettert verdi kapitaliseres og brukes i kostnadsberegningen.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 30, 31
+ms.search.form: '30, 31'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 95194e3afed89d8a5636e53e1da76c20d81296ef
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522541"
 ---
-# <a name="setup-best-practices-costing-method"></a>Anbefalte fremgangsmåter for oppsett: lagermetode
+# Anbefalte fremgangsmåter for oppsett: lagermetode
 
 **Lagermetode** på varekortet definerer varekostnadsflyten, og om en faktisk eller budsjettert verdi kapitaliseres og brukes i kostnadsberegningen.  
 
@@ -32,7 +26,7 @@ Tabellen nedenfor gir nyttige tips om hvordan du setter opp **Lagermetode**-felt
 |Serienummer|Bruk i produksjon av eller handel med lett gjenkjennelige varer med relativt høy enhetskost.<br /><br /> Bruk for varer som er underlagt regulering.<br /><br /> Bruk for varer med serienummer.|Enhetskosten for en vare er den nøyaktige kosten da den bestemte enheten ble mottatt.|
 |Standard|Bruk der kostnadskontroll er kritisk.<br /><br /> Bruk i gjentatt produksjon for å verdsette kostnadene for direkte materialer, direkte arbeid og indirekte produksjon.<br /><br /> Bruk der det er disiplin og ansatte for å opprettholde standardene.|Enhetskosten for en vare er forhåndsinnstilt basert på estimert kostnad.<br /><br /> Når de faktiske kostnadene senere realiseres, må standardkosten justeres til faktisk kost gjennom avviksverdier.|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Designdetaljer: Kostmetoder](design-details-costing-methods.md)  
 [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)  

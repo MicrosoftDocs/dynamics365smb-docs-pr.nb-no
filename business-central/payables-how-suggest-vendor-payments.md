@@ -1,23 +1,17 @@
 ---
 title: Kjørselen Betalingsforslag – leverandør
-description: Du kan angi innstillinger for leverandørbetaling for å få forslag for betalinger som snart forfaller, eller der en rabatt er tilgjengelig.
+description: 'Du kan angi innstillinger for leverandørbetaling for å få forslag for betalinger som snart forfaller, eller der en rabatt er tilgjengelig.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: vendor payment, creditor, debt, balance due, AP
+ms.search.keywords: 'vendor payment, creditor, debt, balance due, AP'
 ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: acfbde293bb05aa7b09c7911045c161ece504cc8
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533593"
 ---
-# <a name="suggest-vendor-payments"></a>Betalingsforslag - leverandør
+# Betalingsforslag - leverandør
 
 På siden **Utbetalingskladd** kan du bruke kjørselen **Betalingsforslag – leverandør** til å foreslå betalingslinjer. Linjer for betalinger som forfaller snart, eller betalinger der kontantrabatt er tilgjengelig, foreslås basert på innstillingene.
 
@@ -32,14 +26,14 @@ Hvis du vil dra nytte fullstendig av betalingsforslag, må du prioritere leveran
     * Forfalte leverandørposter som ikke er prioritert.  
     * Åpne leverandørposter som kvalifiserer for kontantrabatter, sortert etter leverandørnummer.  
 
-## <a name="to-use-the-suggest-vendor-payments-function"></a>Bruke funksjonen Betalingsforslag - leverandør
+## Bruke funksjonen Betalingsforslag - leverandør
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladder** og velg den relaterte koblingen.  
 2. Åpne den aktuelle kladden, og velg deretter handlingen **Betalingsforslag - leverandør**.  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Velg **OK**.  
 
-## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Sette inn forfallsdato som bokføringsdato på betalingskladdelinjer
+## Sette inn forfallsdato som bokføringsdato på betalingskladdelinjer
 
 Når du bruker kjørselen **Betalingsforslag - leverandør** til å opprette betalingslinjer for leverandørene, kan du fylle ut to spesialfelt for å sikre at de genererte linjene bruker forfallsdatoen til å beregne bokføringsdatoen. Disse feltene er **Beregn bokføringsdato fra forfallsdato for utligningsbilag** og **Forskyvning av forfallsdato for utligningsbilag**.  
 
@@ -53,9 +47,9 @@ Du kan også opprette betalingslinjer manuelt ved å bruke forfallsdatoen til å
 > [!NOTE]  
 >   Hvis kjøpsfakturaen er forfalt, vil bokføringsdatoen bli satt til arbeidsdatoen, og skriftfargen på linjen blir rød.  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Utføre betalinger](payables-make-payments.md)  

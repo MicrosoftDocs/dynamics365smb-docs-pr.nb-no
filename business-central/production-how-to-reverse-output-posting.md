@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 5a9fd8a1d4ac379c2c20d832f8cace206e549375
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516034"
 ---
-# <a name="reverse-output-posting"></a>Tilbakeføre avgangsbokføring
+# Tilbakeføre avgangsbokføring
 
 Det hender at avgangsbokføring må tilbakeføres. Et eksempel på dette er hvis det oppstår en dataregistreringsfeil, og feil antall avganger bokføres i en produksjonsordre.  
 
-## <a name="to-reverse-an-output-posting"></a>Tilbakeføre en avgangsbokføring
+## Tilbakeføre en avgangsbokføring
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ferdigmeldingskladd** og velg den relaterte koblingen. Velg kjørselen.  
 2. Fyll ut feltene etter behov. Hvis du vil ha mer informasjon, se [Bokføre avgang og operasjonstid](production-how-to-post-output-quantity.md).
@@ -29,7 +23,7 @@ Det hender at avgangsbokføring må tilbakeføres. Et eksempel på dette er hvis
 
 Postene i ferdigmeldingskladden bokføres i vareposten som en oppjustering.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
  [Produksjon](production-manage-manufacturing.md) [Definere produksjon](production-configure-production-processes.md)  
  [Planlegging](production-planning.md)  

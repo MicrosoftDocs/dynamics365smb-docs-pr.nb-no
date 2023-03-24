@@ -1,109 +1,109 @@
 ---
 title: Forstå montere til ordre og montere til lager
-description: Monteringsvarer kan leveres ved å montere dem når de bestilles, eller ved å montere dem og beholde dem på lageret før de er nødvendig i en ordre.
+description: Finn ut mer om montering av varer for ordrer eller for å lagerfør for fremtidige salg.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: kit, kitting
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
-ms.date: 06/15/2021
 ms.author: bholtorf
-ms.openlocfilehash: 3d99c3ae307d8f0e4324fd14d86bddc85a916fcd
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605411"
+ms.reviewer: andreipa
+ms.topic: conceptual
+ms.date: 02/21/2023
+ms.custom: bap-template
+ms.search.keywords: 'kit, kitting'
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Forstå montere til ordre og montere til lager
+# Forstå montere til ordre og montere til lager
 
-Monteringsvarer kan leveres i følgende to prosesser:  
+[!INCLUDE [prod_short](includes/prod_short.md)] lar deg forsyne monteringsvarer på følgende måter:
 
--   Monter til ordre.  
--   Monter til lager.  
+* Monter til ordre  
+* Monter til lager  
 
-## <a name="assemble-to-order"></a>Montere til ordre
+## Monter til ordre
 
-Vanligvis bruker du *Montere til ordre* for varer som du ikke vil ha på lager, fordi du planlegger å tilpasse dem etter kundeforespørsler eller fordi du vil minimere lagerføringskostnadene. Funksjonaliteten som støttes, inkluderer følgende:  
+Bruk monter-til-ordreprosessen for varer du ikke vil lagre. Det kan for eksempel være av følgende årsaker:
 
--   Muligheten til å tilpasse monteringsvarer når en ordre blir tatt.  
--   Oversikt over monteringsvarens og tilhørende komponenters tilgjengelighet.  
--   Muligheten til å reservere monteringskomponenter umiddelbart for å garantere ordreinnfrielse.  
--   Funksjon for å avgjøre lønnsomheten til den tilpassede ordren ved å opprullere pris og kostnad.  
--   Integrering med lageret for å forenkle montering og levering.  
--   Muligheten til å montere til ordre når et tilbud en rammeordre blir fremlagt.  
--   Muligheten til å kombinere lagerantall med monter til ordre-antall.  
+* Du skal tilpasse varene for kundebehov.
+* Du vil redusere kostnaden av lagerbeholdningen.
 
-I montere-til-ordre-prosessen monteres varen som svar på en ordre og med en én-til-én-relasjon mellom monteringsordren og ordren.  
+Følgende oversikt beskriver noen av fordelene med monter-til-ordreprosessen:  
 
-Når du angir en montere-til-ordre-vare på en salgslinje, blir det automatisk opprettet en monteringsordre med et hode som er basert på salgslinjen og med linjer som er basert på varens monteringsstykkliste multiplisert med ordreantallet. Du kan bruke siden **Montere til ordre – linjer** for å se de tilknyttede monteringsordrelinjene for å støtte tilpasning av monteringsvaren, med en leveringsdato som er basert på informasjon om komponenttilgjengelighet. Hvis du vil ha mer informasjon, kan du se [Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
+* tilpass monteringsvarer når en ordre blir tatt.  
+* Oversikt over monteringsvarens og tilhørende komponenters tilgjengelighet.  
+* Reserver monteringskomponenter umiddelbart for å garantere ordreoppfyllelse.  
+* Bestem lønnsomheten til den tilpassede ordren ved å opprullere pris og kostnad.  
+* Integrert med lageret for å forenkle montering og levering.  
+* Monter til ordre når du oppretter et tilbud eller en rammeordre.  
+* Kombiner lagerantall med monter til ordre-antall.  
 
-> [!NOTE]  
->  Selv om det ikke er en del av standardprosessen, kan du selge lagerantall sammen med monter til ordre-antall. Hvis du vil ha mer informasjon, kan du se [Selge lagervarer i montere-til-ordre-flyter](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
+I monter-til-ordre-prosessen monterer du varer for en ordre. Det finnes en en-til-en-kobling mellom monteringsordren og ordren.  
 
- Når du skal aktivere denne prosessen, må **Monteringsprinsipp**-feltet på varekortet være **Monter til ordre**.  
-
-## <a name="assemble-to-stock"></a>Montere til lager
-
- Vanligvis bruker du *Montere til lager* for varer som du vil montere før salg (for eksempel for å forberede til en pakkekampanje) og beholde på lager inntil de bestilles. Disse varene er vanligvis standardvarer, for eksempel pakkede sett som du ikke tilbyr å tilpasse på forespørsel fra kunder.  
-
- I montere-til-lager-prosessen monteres varen uten umiddelbare salgsbehov og lagerføres på lageret som en lagervare for senere salg eller forbruk som en halvfabrikat. Hvis du vil ha mer informasjon, kan du se [Montere varer](assembly-how-to-assemble-items.md). Fra dette punktet plukkes og behandles varen som en enkeltvare og behandles som en ferdig produksjonsvare.  
-
- Når du angir en montere-til-lager-vare på en salgslinje, vises linjen på samme måte som for andre varer som er solgt fra lager. Disposisjon kontrolleres for eksempel bare for monteringsvaren.  
+Når du angir en monter til ordrevare på en ordrelinje, blir en monteringsordre automatisk opprettet. Monteringsordren er basert på salgslinjen, og linjene er basert på varens monteringsstykkliste. Antall komponenter i monteringsstykklisten multipliseres med ordre antallet. Siden **Monter-til-ordrelinjer** viser detaljer om de koblede linjene for monteringsordren. Detaljene kan hjelpe deg med å tilpasse monteringsvaren. Leveringsdatoen er basert på tilgjengeligheten av komponentene. Hvis du vil finne ut mer om monteringsvarer for ordrer, kan du gå til [Selg varer montert til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
 
 > [!NOTE]  
->  Selv om det ikke er en del av standardprosessen, kan du montere en vare til ordre selv om den er definert til å bli montert til lager. Hvis du vil ha mer informasjon, kan du se [Selge montere-til-ordre-varer og lagervarer sammen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
+> Selv om det ikke er en del av standardprosessen, kan du selge lagerantall og monter til ordre-antall på samme ordre. Hvis du vil finne ut mer om kombinering av lager og monter-til-ordrevarer, går du til [Selg lagervarer i montere-til-ordre-flyter](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
- Når du skal aktivere denne prosessen, må **Monteringsprinsipp**-feltet på varekortet være **Monter til lager**.  
+Hvis du vil angi at en vare er monter-til-ordre, i feltet **Monteringspolicy** på siden **Varekort** for varen, velger du **Monter-til-ordre**.  
 
-## <a name="combination-scenarios"></a>Kombinasjonsscenarier
+## Monter til lager
 
- Et generelt prinsipp i monteringsstyring er at når montere til ordre-antall er satt sammen på en ordrelinje, må de leveres før lagerantallene.  
+Bruk monter-til-lagerprosessen for varer som du monterer og lagrer for fremtidige salg. Monter-til-lager-varer er standardvarer, for eksempel pakkede pakker som du ikke kan tilpasse. Du kan også bruke disse varene som delmonteringskomponenter. Varene plukkes og behandles som enkeltvarer og behandles som ferdige produksjonsvarer. Hvis du vil finne ut mer om monteringsvarer, går du til [Monter varer](assembly-how-to-assemble-items.md).  
 
- Hvis en monteringsordre er koblet til en ordrelinje, kopieres verdien i feltet **Ant. som skal monteres til ordre** på ordrelinjen til feltet **Antall å montere** via **Antall**-feltet i monteringsordrehodet. Hvis du vil ha mer informasjon, kan du se [Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
+Når du angir en montere-til-lager-vare på en salgslinje, behandles varen på samme måte som andre varer som er solgt fra lager. [!INCLUDE [prod_short](includes/prod_short.md)] kontrollerer for eksempel bare tilgjengeligheten for den monterte varen, og ikke for komponentene.  
 
- I tillegg er verdien i feltet **Antall å montere** knyttet til feltet **Levere (antall)** på ordrelinjen, og denne relasjonen styrer leveringen av montere-til-ordre-antall, både delvis og fullstendig. Dette gjelder både når hele salgslinjeantallet er montert til ordre og i kombinasjonsscenarioer der én del av salgslinjeantallet er montert til ordre og en annen del er levert fra lageret. I kombinasjonsscenariet har du imidlertid større fleksibilitet når du leverer delvis, i og med at du kan endre feltet **Antall å montere**, i henhold til forhåndsdefinerte regler, for å angi hvor mange enheter som skal leveres delvis fra lager, og hvor mange som skal leveres delvis ved å montere til ordre.  
+> [!NOTE]  
+> Selv om det ikke er en del av standardprosessen, kan du montere en vare til ordre selv om varen er definert til å bli montert til lager. Finn ut mer under [Selge montere til ordre-varer og lagervarer sammen](assembly-how-to-sell-assemble-to-order-items-and-inventory-items-together.md).  
 
- Hvis hele salgslinjeantallet må monteres til ordre og leveres, kopieres verdien i feltet **Levere (antall)** til feltet **Antall å montere** i den koblede monteringsordren når du endrer antallet som skal leveres. Dette sikrer at antallet som skal leveres forsynes fullstendig av monter-til-ordre-antallet.  
+Hvis du vil angi at en vare er monter-til-lager, i feltet **Monteringspolicy** på siden **Varekort** for varen, velger du **Monter-til-lager**.  
 
- I kombinasjonsscenarier kopieres imidlertid ikke hele verdien i feltet **Levere (antall)** til feltet **Antall å montere** på monteringsordrehodet. I stedet settes en standardverdi inn i feltet **Antall å montere**. Standardverdien beregnes basert på feltet **Levere (antall)** i henhold til en forhåndsdefinert regel som sikrer levering av montere-til-ordre-antallet først.  
+## Kombinasjonsscenarioer
 
- Hvis du vil avvike fra denne standardverdien, for eksempel fordi du bare vil montere flere eller færre av antallet i feltet **Levere (antall)**, kan du endre feltet **Antall å montere**, men bare i forhåndsdefinerte regler, som illustrert nedenfor.  
+Når monter-til-ordre og lagerantall kombineres på en ordre, må monter-til-ordre-antall leveres først.  
 
- Et eksempel på hvorfor du kan ønske å endre antallet som skal monteres, er at du vil bokføre levering av lagerantall delvis før monteringsavgangen kan leveres.  
+Hvis en monteringsordre er koblet til en ordrelinje, kopieres verdien i feltet **Ant. som skal monteres til ordre** på ordrelinjen til feltet **Antall å montere** via **Antall**-feltet i monteringsordren. Finn ut mer under [Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
 
- Tabellen nedenfor forklarer reglene som definerer minimums- og maksimumsverdiene som du kan angi i feltet **Antall å montere** for å avvike fra standardverdien i et kombinasjonsscenario. Tabellen viser et kombinasjonsscenario der feltet **Levere (antall)** i den koblede ordrelinjen er endret fra 7 til 4, og **Antall å montere** er derfor som standard satt til 4.  
+Verdien i feltet **Antall å montere** er knyttet til **Levere (antall)** på ordrelinjen. Denne relasjonen styrer hvordan du sender delvis og komplett monter-til-ordre-antall:
 
-- Ordrelinje
+* Når hele antallet på ordrelinjen er montert til ordre
+* I kombinasjonsscenarioer hvor del av salgslinjeantallet er montert til ordren og en del er levert fra lageret.
 
-    |                | **Antall** | **Levere (antall)** | **Ant. som skal monteres til ordre** | **Levert (antall)** |
-    |----------------|--------------|------------------|-------------------------------|----------------------|
-    |**Opprinnelig verdi**| 10          | 7                | 7                             | 0                    |
-    |**Endring**      |              | 4                |                               |                      |
+Kombinasjonsscenarioet gir fleksibilitet for del leveringer. Du kan bruke feltet **Antall som skal monteres** til å angi antallet som skal leveres delvis fra lageret, og ved å sette montere til ordre.  
 
-- Monteringsordrehode
+Hvis hele salgslinjeantallet må monteres til ordre og leveres, kopieres verdien i feltet **Levere (antall)** til feltet **Antall å montere** i den koblede monteringsordren når du endrer antallet som skal leveres. Denne oppdateringen sikrer at antallet som skal leveres forsynes fullstendig av monter-til-ordre-antallet.  
 
-    |                | **Antall** | **Levere (antall)** | **Ant. som skal monteres til ordre** | **Levert (antall)** |
-    |----------------|--------------|------------------|-------------------------------|----------------------|
-    |**Opprinnelig verdi**| 7           | 7                | 0                             | 7                    |
-    |**Endring**      |              | 4 (satt inn som standard)|                         |                      |
+I kombinasjonsscenarier kopieres imidlertid ikke hele verdien i feltet **Levere (antall)** til feltet **Antall å montere** på monteringsordren. I stedet settes det inn en standardverdi i feltet **Antall som skal monteres**. Verdien beregnes fra feltet **Lever (antall)** for å sikre at de monter-til-ordre-antallene leveres først.
 
-Basert på dette eksempelet ovenfor kan du bare endre feltet **Antall å montere** som vist nedenfor:  
+Hvis du vil avvike fra standardverdien, for eksempel fordi du bare vil montere flere eller færre av antallet i feltet **Levere (antall)**, kan du endre feltet **Antall å montere** i forhåndsdefinerte regler, som illustrert nedenfor.  
 
-- Minimumsantallet du kan angi, er 1. Dette er fordi du må montere minst én enhet for å kunne selge fire enheter, forutsatt at de gjenværende tre er tilgjengelig i lageret.  
-- Maksimumsantallet du kan angi, er 4. Dette sikrer at du ikke monterer flere montere-til-varer enn det som trengs på salget.  
+Et eksempel på hvorfor du kan endre antallet som skal monteres, er at du vil bokføre levering av lagerantall delvis før du leverer monteringsavgangen.  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/assemble-items-dynamics-365-business-central/)
+Tabellen nedenfor forklarer reglene som definerer minimums- og maksimumsverdiene som du kan angi i feltet **Antall å montere** for å avvike fra standardverdien i et kombinasjonsscenario. Tabellen viser et kombinasjonsscenario der feltet **Levere (antall)** i den koblede ordrelinjen er endret fra 7 til 4, og **Antall å montere** er derfor som standard satt til 4.  
 
-## <a name="see-also"></a>Se også
+**Ordrelinje**
+
+|                | **Antall** | **Levere (antall)** | **Ant. som skal monteres til ordre** | **Levert (antall)** |
+|----------------|--------------|------------------|-------------------------------|----------------------|
+|**Opprinnelig verdi**| 10          | 7                | 7                             | 0                    |
+|**Endring**      |              | 4                |                               |                      |
+
+**Monteringsordrehode**
+
+|                | **Antall** | **Levere (antall)** | **Ant. som skal monteres til ordre** | **Levert (antall)** |
+|----------------|--------------|------------------|-------------------------------|----------------------|
+|**Opprinnelig verdi**| 7           | 7                | 0                             | 7                    |
+|**Endring**      |              | 4 (satt inn som standard)|                         |                      |
+
+Basert på dette eksempelet ovenfor kan du endre feltet **Antall å montere** som vist nedenfor:  
+
+* Minimumsantallet du kan angi, er 1. Du må montere minst én enhet for å kunne selge fire enheter, forutsatt at de gjenværende tre er tilgjengelig i lageret.  
+* Maksimumsantallet du kan angi, er 4. Denne grensen sikrer at du ikke monterer mer av varen enn du trenger for salget.  
+
+## Se relatert [Microsoft-opplæring](/training/paths/assemble-items-dynamics-365-business-central/)
+
+## Se også
 
 [Monteringsstyring](assembly-assemble-items.md)  
 [Arbeid med monteringsstykklister](assembly-how-work-assembly-boms.md)  
 [Lager](inventory-manage-inventory.md)  
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

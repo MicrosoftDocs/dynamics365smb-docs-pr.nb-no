@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
-ms.openlocfilehash: 272fbb7b10b3852cbf8ca013ca06d8011bd53836
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8128873"
 ---
-# <a name="service-compliance"></a>Servicesamsvar
+# Servicesamsvar
 
 Dette innholdet omfatter informasjon om servicesamsvar i tilknytning til [!INCLUDE[prod_short](../includes/prod_short.md)] på nett  
 
@@ -27,11 +21,11 @@ Finner du en detaljert liste over [Skysamsvarstilbud for Business Central her](h
 
 Hvis du vil se den komplette listen over samsvarstilbud fra Microsoft, kan du se [Microsoft Klareringssenter](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## <a name="service-terms"></a>Tjenestevilkår
+## Tjenestevilkår
 
 [!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Samsvar](compliance-overview.md)  
 [Programsamsvar](compliance-application-compliance.md)  

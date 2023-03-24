@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/22/2021
 ms.author: edupont
-ms.openlocfilehash: 3e86bf736bb25a9270bec93fcabfa683a6f4ae5f
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516061"
 ---
-# <a name="flush-components-according-to-operation-output"></a>Lagertrekke komponenter i henhold til operasjonsavgang
+# Lagertrekke komponenter i henhold til operasjonsavgang
 Du kan definere forskjellige lagerstrategier for å automatisere registrering av forbruk av komponenter. 
 
 Denne funksjonaliteten er nyttig av følgende årsaker:  
@@ -35,14 +29,14 @@ Denne funksjonaliteten er nyttig av følgende årsaker:
 
     Når du har muligheten til å trekke en operasjon automatisk, kan hele registreringen av forbruk og avgang automatiseres. Ulempen ved å bruke automatisk lagertrekk er at du kanskje ikke nøyaktig registrerer - eller til og med ikke legger merke til - vrak.
 
-## <a name="automatic-consumption-posting-flushing-methods"></a>Metoder for automatisk forbruksbokføring (lagertrekk)  
+## Metoder for automatisk forbruksbokføring (lagertrekk)  
 
 - Lagertrekk fremover for hele ordren  
 - Lagertrekk fremover etter operasjon  
 - Lagertrekk bakover etter operasjon  
 - Lagertrekk bakover for hele ordren  
 
-### <a name="automatic-reporting---forward-flush-the-entire-order"></a>Automatisk rapportering - lagertrekk fremover for hele ordren  
+### Automatisk rapportering - lagertrekk fremover for hele ordren  
 Hvis du utfører lagertrekk fremover for produksjonsordren ved begynnelsen på prosjektet, ligner virkemåten til programmet svært mye på manuelt forbruk. Den store forskjellen er at forbruket skjer automatisk.  
 
 - Hele innholdet i produksjonsstykklisten forbrukes og trekkes fra beholdningen når den frigitte produksjonsordren fornyes.  
@@ -57,7 +51,7 @@ Lagertrekk fremover for en hel ordre er egnet for produksjonsmiljøer med:
 -   et lavt antall operasjoner  
 -   høyt komponentforbruk i tidlige operasjoner  
 
-### <a name="automatic-reporting---forward-flushing-by-operation"></a>Automatisk rapportering - lagertrekk fremover etter operasjon  
+### Automatisk rapportering - lagertrekk fremover etter operasjon  
 Lagertrekk etter operasjon gir deg muligheten til å trekke fra beholdningen under en bestemt operasjon i ruten for den overordnede varen. Materiale er knyttet til ruten ved hjelp av rutekoblingskoder, som svarer til rutekoblingskoder som er knyttet til komponenter i produksjonsstykklisten.  
 
 Lagertrekket skjer når operasjonen som har samme rutekoblingskode, startes. Det som menes med startes, er at en aktivitet registreres i ferdigmeldingskladden for operasjonen. Og denne aktiviteten er kanskje bare registreringen av en oppstillingstid.  
@@ -68,7 +62,7 @@ Denne teknikken er best egnet når det er mange operasjoner og enkelte komponent
 
 Materiale kan forbrukes under operasjoner ved hjelp av rutekoblingskoder. Noen komponenter kan kanskje ikke brukes før de siste monteringsoperasjonene finner sted, og må ikke trekkes fra beholdningen før da.  
 
-### <a name="automatic-reporting---back-flushing-by-operation"></a>Automatisk rapportering - lagertrekk bakover etter operasjon  
+### Automatisk rapportering - lagertrekk bakover etter operasjon  
 Lagertrekk bakover etter operasjon registrerer forbruk etter at operasjonen er bokført i ferdigmeldingskladden.  
 
 Fordelen med denne metoden er at antallet ferdige overordnede deler i operasjonen er kjent.  
@@ -77,7 +71,7 @@ Materiale i produksjonsstykklisten er knyttet til ruteposter ved hjelp av ruteko
 
 Lagertrekksantallet er antallet per montering som er angitt i produksjonsstykklisten, ganget med antallet overordnede varer som ble bokført som avgangsantall i denne operasjonen. Dette kan være forskjellig fra det forventede antallet.  
 
-### <a name="automatic-reporting---back-flushing-the-entire-order"></a>Automatisk rapportering - lagertrekk bakover for hele ordren  
+### Automatisk rapportering - lagertrekk bakover for hele ordren  
 Denne rapporteringsmetoden tar ikke hensyn til rutekoblingskoder.  
 
 Ingen komponenter plukkes før statusen til den frigitte produksjonsordren endres til *Ferdig*. Lagertrekksantallet er antallet per montering som er angitt i produksjonsstykklisten, ganget med antallet overordnede varer som ble ferdige og plassert på lager.  
@@ -88,7 +82,7 @@ Lagertrekk bakover for hele produksjonsordren krever samme oppsett som for lager
 
 Hvis en produksjonsordre om å produsere 800 meter for eksempel krever 8 kg av en komponent, bokføres 2 kg automatisk som forbruk når du bokfører 200 meter som avgang. Du kan oppnå det ved å kombinere metoden for lagertrekk bakover og rutekoblingskoder slik at lagertrekksantallet for hver operasjon er proporsjonalt med den faktiske avgangen for den fullførte operasjonen. For varer som er definert med trekkmetoden Bakover, er standard virkemåte å beregne og bokføre komponentforbruk når du endrer statusen for en frigitt produksjonsordre til **Ferdig**. Hvis du også definerer rutekoblingskoder, skjer beregning og bokføring når hver operasjon er fullført, og antallet som faktisk ble forbrukt i operasjonen, bokføres. Hvis du vil ha mer informasjon, kan du se [Opprette ruter](production-how-to-create-routings.md).  
 
-## <a name="to-flush-components-according-to-operation-output"></a>Slik utfører du lagertrekk i henhold til operasjonsavgang:
+## Slik utfører du lagertrekk i henhold til operasjonsavgang:
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
 2.  Velg handlingen **Rediger**.  
@@ -106,7 +100,7 @@ Hvis en produksjonsordre om å produsere 800 meter for eksempel krever 8 kg av e
 
 Forbruket bokføres automatisk når du registrerer avgang. Hvis du vil ha mer informasjon, kan du se [Bokføre avgang og operasjonstid](production-how-to-post-output-quantity.md)
 
-## <a name="flushing-methods"></a>Trekkmetoder
+## Trekkmetoder
 
 Tabellen nedenfor beskriver de tilgjengelige alternativene for trekkmetode som du kan angi på ulike kort for **Vare** og kort for **Lagerføringsenhet**.
 
@@ -115,10 +109,10 @@ Tabellen nedenfor beskriver de tilgjengelige alternativene for trekkmetode som d
 |Manuell|Krever at du angir og bokfører forbruk manuelt i forbrukskladden.|
 |Fremover|Bokfører forbruk automatisk i henhold til komponentlinjene i produksjonsordren. <br><br>Som standard foregår bokføring av komponentforbruket når du endrer statusen for en frigitt produksjonsordre til **Frigitt**. Hvis du imidlertid bruker feltet **Rutekobling** på komponentlinjer for produksjonsordrer, skjer bokføringen per operasjon når operasjonen starter. Hvis du vil ha mer informasjon, kan du se [Opprette rutekoblinger](production-how-to-create-routings.md#to-create-routing-links). <br><br> **Merk**<br>For lagertrekk fremover er den operasjonsspesifikke bokføringen som du oppnår med rutekoblingskoder, basert på det forventede antallet som er definert på komponentlinjen. Hvis du vil ha informasjon om operasjonsspesifikk lagertrekk basert på faktisk avgang, kan du se beskrivelsen av **Bakover** i dette emnet.<br><br>Hvis lokasjonen eller ressursene der denne komponenten forbrukes, er definert med en standard hyllestruktur, forbrukes varen fra **Åpen produksjonshyllekode**. Hvis du vil ha mer informasjon, kan du se [Opprette grunnleggende lagre med operasjonsområder](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md). <br><br> **Viktig!** <br>Lagertrekk fremover skjer også når du velger **Oppdater** på en frigitt produksjonsordre som ble opprettet fra grunnen av. Du kan ikke endre hylleinformasjon på disse frigitte produksjonsordrene som er opprettet direkte, fordi produksjonsordrekomponentlinjene genereres når du fornyer ordren, som samtidig trekker komponentene fremover. Hvis du vil endre hylleinformasjon på produksjonsordrekomponentlinjer før lagertrekk fremover skjer, må denne ordren derfor opprettes med statusen *Planlagt* eller *Fast planlagt*.|
 |Bakover|Beregner og bokfører forbruk automatisk i henhold til komponentlinjene i produksjonsordren.<br><br> Som standard foregår beregning og bokføring av komponentforbruket når du endrer statusen for en frigitt produksjonsordre til **Ferdig**. Hvis du imidlertid bruker feltet **Rutekoblingskode** på komponentlinjene for produksjonsordrer, skjer beregningen og bokføringen når hver operasjon er ferdig.<br><br> **Merk** <br>Lagertrekk bakover og rutekoblingskoder kan kombineres, slik at lagertrekksantallet per operasjon er proporsjonalt med den faktiske avgangen for denne operasjonen. Hvis du vil ha mer informasjon, kan du se [Lagertrekke komponenter i henhold til operasjonsavgang](#to-flush-components-according-to-operation-output).<br><br> Hvis lokasjonen eller maskinsenteret der denne komponenten forbrukes, er definert med en standard hyllestruktur, forbrukes varen fra **Åpen produksjonshyllekode**.|
-|Plukk + fremover|Samme som lagertrekk fremover, bortsett fra at det bare fungerer for lokasjoner som bruker lagerstyring.<br><br> Forbruk beregnes og bokføres fra hyllen som er definert i feltet **Til-Hyllekode for produksjon** på lokasjonen eller produksjonsressursen, etter at komponenten er plukket fra lageret.<br><br> **Merk** <br>Hvis en komponent er definert med Plukk + trekkmetoden Fremover, kan den ikke ha en rutekoblingskode som er definert med trekkmetoden Fremover. Komponenten vil deretter tømmes automatisk når du starter operasjonen, noe som gjør det umulig å be om plukkaktiviteten.|
-|Plukk + bakover|Samme som lagertrekk bakover, bortsett fra at det bare fungerer for lokasjoner som bruker lagerstyring.<br><br> Forbruk beregnes og bokføres fra hyllen som er definert i feltet **Til-Hyllekode for produksjon** på lokasjonen eller produksjonsressursen, etter at komponenten er plukket fra lageret.|
+|Plukk + fremover|Samme som for lagertrekk fremover, med unntak av at det bare fungerer for lokasjoner som bruker enten avansert lagerkonfigurasjon eller grunnleggende lagerkonfigurasjon med obligatoriske hyller.<br><br> Forbruk beregnes og bokføres fra hyllen som er definert i feltet **Til-Hyllekode for produksjon** på lokasjonen eller produksjonsressursen, etter at komponenten er plukket fra lageret.<br><br> **Merk** <br>Hvis en komponent er definert med Plukk + trekkmetoden Fremover, kan den ikke ha en rutekoblingskode som er definert med trekkmetoden Fremover. Komponenten vil deretter tømmes automatisk når du starter operasjonen, noe som gjør det umulig å be om plukkaktiviteten.|
+|Plukk + bakover|Samme som for lagertrekk bakover, med unntak av at det bare fungerer for lokasjoner som bruker enten avansert lagerkonfigurasjon eller grunnleggende lagerkonfigurasjon med obligatoriske hyller.<br><br> Forbruk beregnes og bokføres fra hyllen som er definert i feltet **Til-Hyllekode for produksjon** på lokasjonen eller produksjonsressursen, etter at komponenten er plukket fra lageret.|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opprette produksjonsstykklister](production-how-to-create-production-boms.md)  
 [Definere produksjon](production-configure-production-processes.md)  

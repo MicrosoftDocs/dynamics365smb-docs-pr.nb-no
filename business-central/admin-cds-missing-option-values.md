@@ -7,14 +7,9 @@ ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
 ms.date: 03/23/2022
-ms.openlocfilehash: a726d182babca26525e2931ea2b487171b470bcc
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8512493"
 ---
-# <a name="handling-missing-option-values"></a>Håndtere manglende alternativverdier
+
+# Håndtere manglende alternativverdier
 > [!NOTE]
 > I 2022 lanseringsbølge 1 kan du opprette egne alternativ tildelinger. Se [Tilpass alternativtildelinger med Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping) for mer informasjon. De nye funksjonene krever at administratoren aktiverer **Funksjonsoppdatering: Tildel alternativsett i Dataverse uten kode** på siden **Funksjonsbehandling**. Hvis du vil ha mer informasjon, kan du se [Aktivering av kommende funksjoner på forhånd](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -87,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Alle opplistingene i [!INCLUDE[prod_short](includes/prod_short.md)] ovenfor tilordnes til alternativsett i [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="extending-option-sets-in-prod_short"></a>Utvide alternativsett i [!INCLUDE[prod_short](includes/prod_short.md)]
+### Utvide alternativsett i [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Opprett en ny AL-utvidelse.
 
 2. Legg til en opplistingsutvidelse for alternativene du vil utvide. Sørg for at du bruker samme verdi. 
@@ -109,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > De første ti tegnene i navnene på og tekstene for de nye alternativverdiene må være unike. To alternativer, for eksempel Overføring av 20 virkedager og Overføring av 20 kalenderdager, vil forårsake feil fordi begge har de samme 10 første tegnene ("Overføring"). Gi dem for eksempel navnet "Ovf 20 vrk" og "Ovf 20 kad".
 
-### <a name="update-prod_short-option-mapping"></a>Oppdater Tilordning av [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativ
+### Oppdater Tilordning av [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativ
 Nå kan du gjenopprette tilordningen mellom [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativer og [!INCLUDE[prod_short](includes/prod_short.md)]-poster.
 
 På siden **Tilordning for integreringstabell** velger du linjen for tilordningen **Betalingsbetingelser**, og deretter velger du handlingen **Synkroniser endrede poster**. Siden **Tilordning av Dataverse-alternativ** oppdateres med tilleggspostene nedenfor.
@@ -145,7 +140,7 @@ Tabellen **Betalingsbetingelser** i [!INCLUDE[prod_short](includes/prod_short.md
 | *NET60*      |                      |                           | 0.         | USANN                         |                   |
 | ***TRANSFER*** |                      |                           | 0.         | USANN                         |                   |
 
-## <a name="see-also"></a>Se også
+## Se også
 [Tilordne tabellene og feltene som skal synkroniseres](admin-how-to-modify-table-mappings-for-synchronization.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

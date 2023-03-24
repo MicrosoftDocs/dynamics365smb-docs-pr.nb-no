@@ -1,27 +1,21 @@
 ---
 title: Bokføre avslutningsposten for årsslutt
-description: Beskriver hvordan du åpner kladden du angav i kjørselen Lukk resultatregnskapet, og deretter ser gjennom og bokfører avslutningsposten for årsslutt.
+description: 'Beskriver hvordan du åpner kladden du angav i kjørselen Lukk resultatregnskapet, og deretter ser gjennom og bokfører avslutningsposten for årsslutt.'
 author: edupont04
 ms.topic: conceptual
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 3b1f2bc55ce54153e6ca8f5fb4a3f8ccd0a459c9
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519417"
 ---
-# <a name="posting-the-year-end-closing-entry"></a>Bokføring av avslutningsposten for årsslutt
+# Bokføring av avslutningsposten for årsslutt
 
 Når du har brukt den satsvise jobben **Lukk resultatregnskapet** til å generere avslutningsposten eller -postene for årsslutt, må du åpne kladden du angav i kjørselen, og deretter se gjennom og bokføre postene.  
 
 > [!TIP]
 > Avhengig av arbeidsprosessene i organisasjonen kan du velge å lukke eller ikke lukke regnskapsperioder og regnskapsår i [!INCLUDE [prod_short](includes/prod_short.md)]. Den følgende fremgangsmåten forutsetter at du har lukket regnskapsåret med alternativet *Regnskapsperioder*, generert en avslutningspost ved årsslutt ved hjelp av kjørselen **Lukk resultatregnskap**, og nå er klar til å bokføre årsavslutningsposten sammen med motregningen av poster på egenkapitalkontoen. Organisasjonen din kan velge å arbeide annerledes, for eksempel ved å bokføre avslutningsposten for årsslutt som en del av avslutningen av regnskapsåret.
 
-## <a name="to-post-the-year-end-closing-entry"></a>Bokføre avslutningsposten for årsslutt
+## Bokføre avslutningsposten for årsslutt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finanskladd** og velg den relaterte koblingen.
 2. I **Bunkenavn**-feltet, på siden **Finanskladd**, velger du bunken som inneholder avslutningspostene.
@@ -31,7 +25,7 @@ Når du har brukt den satsvise jobben **Lukk resultatregnskapet** til å generer
 > [!NOTE]  
 > Det vises en feilmelding hvis feil blir oppdaget. Hvis bokføringen lykkes, fjernes de bokførte postene fra kladden. Når bokføringen er fullført, posteres en oppføring på hver resultatregnskapskonto, slik at saldoen blir null og årsresultatet overføres til balansen.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Lukke regnskapsperioder](year-close-account-periods.md)  
 [Avslutte tablåer](year-close-books.md)  

@@ -6,22 +6,17 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: e47832b34778f1340000a87f9ac148a2ab230bcf
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525245"
 ---
-# <a name="walkthrough-set-up-new-capacity"></a>Gjennomgang: Definer ny kapasitet
+
+# Gjennomgang: Definer ny kapasitet
 
 I denne artikkelen tar vi deg gjennom trinnene for å bruke Contoso Coffee-demodataene til å administrerer kapasitet.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Du er produksjonsplanleggeren hos Contoso Coffee. Som et svar på endringer i produksjonen, må du definere et nytt arbeidssenter, testavdeling. Det nye arbeidssenteret har én produksjonsressurs, tester. De nye sentrene må ha kapasitetskalenderen for ett skift fra 08:00 til 16:00, mandag til fredag.  
 
-## <a name="steps"></a>Trinn
+## Trinn
 
 1. Definer arbeidssenteret.
 
@@ -89,6 +84,6 @@ Du er produksjonsplanleggeren hos Contoso Coffee. Som et svar på endringer i pr
 
 På siden **Kalenderposter** er postene for daglig kapasitet i feltet **Kapasitet (total)** 480 minutter. Dette gjenspeiler ett åttetimers skift for hver arbeidsdag. I tillegg viser feltet **Kapasitet (effektiv)** 432 minutter. Dette gjenspeiler 90 prosent effektivitetsraten du tildelte til produksjonsressursen.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Innføring i demodata for Contoso Coffee](contoso-coffee-intro.md)  

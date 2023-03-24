@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 118, 314, 395
+ms.search.form: '118, 314, 395'
 ms.date: 10/29/2021
 ms.author: edupont
-ms.openlocfilehash: 3933aa279b31b40fa2c222a9516c654cb6cfce7f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533863"
 ---
-# <a name="work-with-payment-tolerances-and-payment-discount-tolerances"></a>Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt
+# Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt
 
 Du kan konfigurere en betalingstoleranse for å lukke en faktura når betalingen ikke fullt ut dekker fakturabeløpet. For eksempel er betalingstoleranse vanligvis for små beløp som vil koste mer å korrigere enn å bare godta det. Du kan definere en kontantrabattoleranse til å gi rabatt etter at kontantrabattdatoen er passert.  
 
@@ -24,7 +18,7 @@ Du kan bruke betalingstoleranser slik at alle utestående beløp har en definert
 
 Du kan bruke toleransegrenser for kontantrabatt slik at hvis du godtar kontantrabatt etter kontantrabattdatoen, så bokføres den alltid på kontantrabattkontoen eller en betalingstoleransekonto.
 
-## <a name="applying-payment-tolerance-to-multiple-documents"></a>Bruke betalingstoleranse for flere dokumenter
+## Bruke betalingstoleranse for flere dokumenter
 
 Et enkelt dokument har den samme betalingstoleransen enten det utlignes for seg selv eller sammen med andre dokumenter. Godkjenning av en forsinket kontantrabatt når du bruker betalingstoleranse på flere dokumenter, skjer automatisk for hvert dokument der følgende regel er sann:  
 
@@ -42,7 +36,7 @@ Du kan velge å vise en advarsel som er basert på ulike toleransesituasjoner.
 
 Hvis du vil ha mer informasjon, kan du se [Slik aktiverer eller deaktiverer du advarsler om betalingstoleranse](finance-payment-tolerance-and-payment-discount-tolerance.md#to-enable-or-disable-payment-tolerance-warnings). 
 
-## <a name="to-set-up-tolerances"></a>Slik definerer du toleranser
+## Slik definerer du toleranser
 
 Med toleransegrenser for dager og beløp kan du lukke en faktura selv om betalingen ikke fullt ut dekker fakturabeløpet. Siden forfallsdatoen for kontantrabatten er overskredet, er for eksempel varer trukket fra, eller på grunn av en mindre feil. Dette gjelder også for refusjoner og kreditnotaer.  
 
@@ -73,7 +67,7 @@ Når du skal definere toleranse, må du definere forskjellige toleransebeløp, a
 >   
 > Når du definerer toleranse, kontrollerer [!INCLUDE[prod_short](includes/prod_short.md)] også om det er noen åpne poster, og beregner toleranse for disse postene.
 
-## <a name="to-enable-or-disable-payment-tolerance-warnings"></a>Slik aktiverer eller deaktiverer du advarsler om betalingstoleranse
+## Slik aktiverer eller deaktiverer du advarsler om betalingstoleranse
 
 Melding om betalingstoleranse vises når du bokfører en utligning som har en saldo innenfor tillatt toleranse. Deretter kan du velge hvordan du vil bokføre og dokumentere saldoen.    
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
@@ -82,7 +76,7 @@ Melding om betalingstoleranse vises når du bokfører en utligning som har en sa
 > [!NOTE]  
 > Standardalternativet for siden **Betalingstoleranse - advarsel** er **La saldoen stå som restbeløp**. Standardalternativet for siden **Kontantrabattoleranse – advarsel** er **Ikke godta den forsinkede kontantrabatten**.
 
-## <a name="to-block-payment-tolerance-for-customers"></a>Slik sperrer du for betalingstoleranse for kunder
+## Slik sperrer du for betalingstoleranse for kunder
 
 Standardinnstillingen for betalingstoleranse er tillatt. For å avvise bruk av betalingstoleranse for en bestemt kunde eller leverandør, må du sperre for toleranse på det respektive kunde- eller leverandørkortet. Nedenfor beskrives det hvordan du gjør det for en kunde. Trinnene er de samme for en leverandør.
 
@@ -92,7 +86,7 @@ Standardinnstillingen for betalingstoleranse er tillatt. For å avvise bruk av b
 > [!NOTE]  
 > Hvis kunden eller leverandøren har åpne poster, må du først fjerne betalingstoleranse fra poster som for øyeblikket er åpne.
 
-## <a name="example-1---tolerance-calculations-for-a-single-document"></a>Eksempel 1 - toleranseberegninger for ett dokument
+## Eksempel 1 - toleranseberegninger for ett dokument
 
 Nedenfor følger noen eksempelscenarier som viser de forventede toleranseberegningene og bokføringene som forekommer i forskjellige situasjoner.  
 
@@ -126,11 +120,11 @@ Scenarier med alternativ A eller B representerer følgende:
 |14|1 000|20|5|15.01.03|20.01.03|>20.01.03|980|Ingen|Nei, 20 på fakturaen|0|0|  
 |15|1 000|20|5|15.01.03|20.01.03|>20.01.03|975|Ingen|Nei, 25 på fakturaen|0|0|  
 
-### <a name="payment-range-diagrams"></a>Betalingsseriediagrammer
+### Betalingsseriediagrammer
 
 I forhold til scenariet ovenfor, er diagrammene for betalingsserier slik:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3"></a>(1) Betalingsdato <=15.01.03 (scenariene 1-3)
+#### (1) Betalingsdato <=15.01.03 (scenariene 1-3)
 
 Restbeløp per  
 
@@ -142,7 +136,7 @@ Vanlige utligningsregler
 
 (2) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes, selv med toleranse.  
 
-#### <a name="2-payment-date-is-between-011603-and-012003-scenarios-4-9"></a>(2) Betalingsdato er mellom 16.01.03 og 21.01.03 (scenariene 4-9)
+#### (2) Betalingsdato er mellom 16.01.03 og 21.01.03 (scenariene 4-9)
 
 Restbeløp per  
 
@@ -154,7 +148,7 @@ Vanlige utligningsregler
 
 (2) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes, selv med toleranse.  
 
-#### <a name="3-payment-date-is-after-012003-scenarios-10-15"></a>(3) Betalingsdato er etter 20.01.03 (Scenariene 10-15)
+#### (3) Betalingsdato er etter 20.01.03 (Scenariene 10-15)
 
 Restbeløp per  
 
@@ -166,7 +160,7 @@ Vanlige utligningsregler
 
 (2) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes, selv med toleranse.  
 
-## <a name="example-2---tolerance-calculations-for-multiple-documents"></a>Eksempel 2 - toleranseberegninger for flere dokumenter
+## Eksempel 2 - toleranseberegninger for flere dokumenter
 
 Nedenfor følger noen eksempelscenarier som viser de forventede toleranseberegningene og bokføringene som forekommer i forskjellige situasjoner. Eksemplene er begrenset til scenarioer som resulterer i at alle poster i utligningen blir lukket.  
 
@@ -214,11 +208,11 @@ Scenarier med alternativ A, B, C eller D representerer følgende:
 |**29**|**1,000** <br />**1,000**|**60** <br />**30**|**5** <br />**5**|**15.01.03** <br />**01/17/03**|**20.01.03** <br />**01/22/03**|**>22.01.03**|**2000**|**Ingen**|**Ja**|**0**|**0**|  
 |30|1 000 <br />1 000|60 <br />30|5 <br />5|15.01.03 <br />17.01.03|20.01.03 <br />22.01.03|>22.01.03|1990|PaymentTolerance|Ja|0|5|  
 
-### <a name="payment-range-diagrams"></a>Betalingsseriediagrammer
+### Betalingsseriediagrammer
 
 I forhold til scenariet ovenfor, er diagrammene for betalingsserier slik:  
 
-#### <a name="1-payment-date-011503-scenarios-1-3"></a>(1) Betalingsdato <=15.01.03 (scenariene 1-3)
+#### (1) Betalingsdato <=15.01.03 (scenariene 1-3)
 
 Restbeløp per  
 
@@ -230,7 +224,7 @@ Vanlige utligningsregler
 
 (2) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes, selv med toleranse.  
 
-#### <a name="2-payment-date-is-between-011603-and-011703-scenarios-4-9"></a>(2) Betalingsdato er mellom 16.01.03 og 17.01.03 (scenariene 4-9)
+#### (2) Betalingsdato er mellom 16.01.03 og 17.01.03 (scenariene 4-9)
 
 Restbeløp per  
 
@@ -242,7 +236,7 @@ Vanlige utligningsregler
 
 (2) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes, selv med toleranse.  
 
-#### <a name="3-payment-date-is-between-011803-and-012003-scenarios-10-21"></a>(3) Betalingsdato er mellom 18.01.03 og 20.01.03 (scenariene 10-21)
+#### (3) Betalingsdato er mellom 18.01.03 og 20.01.03 (scenariene 10-21)
 
 Restbeløp per  
 
@@ -254,7 +248,7 @@ Vanlige utligningsregler
 
 (2) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes, selv med toleranse.  
 
-#### <a name="4-payment-date-is-between-012103-and-012203-scenarios-22-27"></a>(4) Betalingsdato er mellom 21.01.03 og 22.01.03 (scenariene 22-27)
+#### (4) Betalingsdato er mellom 21.01.03 og 22.01.03 (scenariene 22-27)
 
 Restbeløp per  
 
@@ -266,7 +260,7 @@ Vanlige utligningsregler
 
 (2) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes, selv med toleranse.  
 
-#### <a name="5-payment-date-is-after-012203-scenarios-28-30"></a>(5) Betalingsdato er etter 22.01.03 (scenariene 28-30)
+#### (5) Betalingsdato er etter 22.01.03 (scenariene 28-30)
 
 Restbeløp per  
 
@@ -278,9 +272,9 @@ Vanlige utligningsregler
 
 (2) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes, selv med toleranse.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/enter-payments-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/modules/enter-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  

@@ -1,120 +1,126 @@
 ---
 title: Levere varer
-description: Denne artikkelen beskriver hvordan du leverer varer fra lageret, avhengig av lagerkonfigurasjonen for leveringsbehandling.
-author: SorenGP
+description: Denne artikkelen beskriver hvordan du leverer varer fra lageret.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: 7335, 7337, 7339, 7340, 7341, 7362, 9008
-ms.date: 09/02/2022
-ms.author: edupont
-ms.openlocfilehash: b66a0a0a4cad12c4f41c53569b0007c51e846de7
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531219"
+ms.date: 02/22/2023
+ms.custom: bap-template
+ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ---
-# <a name="ship-items"></a>Levere varer
 
-Når du leverer varer fra et lager som ikke er definert til lagerleveringsbehandling, må du ganske enkelt registrere leveringen i det relaterte forretningsdokumentet, for eksempel en ordre, serviceordre, bestillingsretur eller utgående overføringsordre.
+# Lever varer med en lagerlevering
 
-Når du leverer varer fra et lager som er definert for lagerleveringsbehandling, kan du bare levere varer basert på kildedokumenter som andre enheter i selskapet har frigitt til lageret for behandling.
+I [!INCLUDE[prod_short](includes/prod_short.md)] plukker og leverer du varer ved å bruke en av fire metoder, som beskrevet i tabellen nedenfor.
 
-> [!NOTE]
-> Hvis lageret bruker kryssoverføring og hyller for hver linje, kan du vise antall varer plassert i kryssoverføringshyllene. Programmet beregner disse antallene automatisk hver gang feltene på følgeseddelen oppdateres. Hvis dette er varer som gjelder for den leveringen du forbereder, kan du opprette en plukking for alle linjene, og deretter fullføre leveringen. Finn ut mer under [Kryssoverføringsvarer](warehouse-how-to-cross-dock-items.md).
+|Prinsipp|Utgående prosess|Plukk nødv.|Levering nødv.|Kompleksitetsnivå (Finn ut mer under [Oversikt over Warehouse Management](design-details-warehouse-management.md))|  
+|------|----------------|-----|---------|-------------------------------------------------------------------------------------|  
+|A|Bokføre plukking og levering fra ordrelinjen|||Ingen dedikert lageraktivitet.|  
+|B|Bokføre plukking og levering fra et lagerplukkdokument|Slått på||Grunnleggende: ordre for ordre.|  
+|U|Bokføre plukking og levering fra en lagerfølgeseddel||Slått på|Grunnleggende: konsolidert mottak/levering for flere ordrer.|  
+|D|Bokføre plukking fra et lagerplukkdokument og bokføre leveringen fra en lagerfølgeseddel|Slått på|Slått på|Avansert|  
 
-## <a name="ship-items-with-a-sales-order"></a>Lever varer med en ordre
+Gå til [Utgående lagerflyt](design-details-outbound-warehouse-flow.md) hvis du vil ha mer informasjon om levering av varer.
 
-Fremgangsmåten nedenfor beskriver hvordan du leverer varer fra en ordre. Fremgangsmåten er lik for bestillingsreturer, serviceordrer og utgående overføringsordrer.  
+Denne artikkelen refererer til metode C og D i tabellen. I begge metodene starter du med å opprette et leveringsdokument fra et forretningskildedokument. Deretter plukker du de angitte varene for leveringen.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
-2. Åpne en eksisterende ordre eller opprett en ny. Finn ut mer under [Selg produkter](sales-how-sell-products.md).
-3. I feltet **Levere (antall)** angir du det leverte antallet.
+Når en lokasjon krever lagerleveringer, kan du levere varer basert på kildedokumenter som er frigitt til lageret. Når du frigir kildedokumenter, blir varene som er klare til å håndteres på lageret, håndtert. Følgende er eksempler på kildedokumenter:
 
-    Verdien i feltet **Levert ant.** oppdateres. Hvis dette er en delvis levering, vil verdien være mindre enn verdien i feltet **Antall**. Finn ut mer under [Behandle delvise leveringer](sales-how-send-partial-shipments.md).
-4. Velg handlingen **Bokfør**.
+* Ordrer
+* Bestillingsreturer
+* Overføringsordrer
+* Serviceordrer
 
-> [!NOTE]
-> Hvis organisasjonen ikke bruker ordrer, antar [!INCLUDE [prod_short](includes/prod_short.md)] at du har levert hele antallet når du bokfører salgsfakturaen. Hvis dette er i strid med hvordan organisasjonen arbeider, anbefaler vi at du bruker ordrer og registrerer leveringer som forklart i denne artikkelen.
+Du kan opprette en lagerlevering på en av to måter:
 
-## <a name="ship-items-with-a-warehouse-shipment"></a>Lever varer med en lagerlevering
+* På en push-måte, når arbeid gjøres på ordre-for-ordre-basis. Velg **Opprett lagerlevering**-handlingen i kildedokumentet for å opprette en lagerlevering for dokumentet.
+* I en pull-måte der du bruker **Frigi**-handlingen i kildedokumentet til å frigi den til lageret. En lageransatt oppretter en **lagerlevering** for et eller flere frigitte kildedokumenter. Følgende fremgangsmåte forklarer hvordan du oppretter lagerlevering på en pull-måte.
 
-Først oppretter du et leveringsdokument fra et forretningskildedokument. Deretter plukker du de angitte varene for leveringen.
-
-### <a name="create-a-warehouse-shipment"></a>Opprett en lagerlevering
-
-Vanligvis er det den ansatte som er ansvarlig for leveringer, som oppretter en lagerlevering. Følgende fremgangsmåte viser hvordan du oppretter leveringen manuelt i standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)]. Organisasjonen kan imidlertid ha automatisert en del av prosessen, for eksempel med bruk av håndholdte eller monterte skannere som støttes av eksterne leverandører.  
+## Slik leverer du varer med et lagerleveringsdokument
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerleveringer** og velg den relaterte koblingen.  
 2. Velg **Ny**.  
+3. I **Nr.** -feltet velger du nummerserien som skal brukes til å opprette en ID for leveringen.  
+4. I feltet **Lokasjonskode** velger du lokasjonen du vil levere fra. 
 
-    Fyll ut feltene på hurtigfanen **Generelt**. Når du mottar kildedokumentlinjer, kopieres noe av informasjonen til hver linje.  
+    Når du mottar kildedokumentlinjer, kopieres noe av informasjonen fra lokasjonen til hver linje.  
+5. Hvis lokasjonen krever hyller, fyller du feltet **Hyllekode**. [!INCLUDE[prod_short](includes/prod_short.md)]] kan legge til hyllekoden for deg, avhengig av oppsettet. Finn ut mer under [Sone- og hyllekoder](warehouse-how-ship-items.md#zone-and-bin-codes).  
+6. Du kan hente kildedokumentet på to måter:
 
-    For et lager konfigurert med lagerstyring: Hvis lokasjonen har en standard sone og hylle for leveringer, fylles feltene **Sonekode** og **Hyllekode** ut automatisk, men du kan endre dem slik det passer.  
+    * Velg handlingen **Hent kildedokumenter**. Siden **Kildedokumenter – utgående** åpnes. Her kan du velge et eller flere kildedokumenter som er frigitt til lageret, som krever levering.
+    * Velg handlingen **Bruk filtre til å hente k.dok...**. Siden **Filtre for å hente kildedokumenter** åpnes. Du kan velge kildedokumentfilteret og bruke det. Alle frigitte kildedokumentlinjer som oppfyller filterkriteriene, legges til på siden **Lagerlevering**. Finn ut mer under [Bruke filtre til å hente kildedokumenter](warehouse-how-ship-items.md#how-to-use-filters-to-get-source-documents).
 
-    > [!NOTE]  
-    > Hvis du vil levere varer med andre lagerklassekoder enn lagerklassekoden til hyllen i feltet **Hyllekode** i dokumenthodet, må du slette innholdet i feltet **Hyllekode** før du henter kildedokumentlinjene for varene.  
-3. Velg handlingen **Hent kildedokumenter**. Siden **Kildedokumenter** åpnes.
+    > [!NOTE]
+    > Hvis lokasjonen bruker kryssoverføring og hyller for hver linje, kan du se gjennom antall varer plassert i kryssoverføringshyllene. [!INCLUDE [prod_short](includes/prod_short.md)] beregner antallene automatisk hver gang feltene på følgeseddelen oppdateres. Hvis dette er varer på leveringen du forbereder, kan du opprette en plukking for alle varene, og deretter fullføre leveringen. Finn ut mer under [Kryssoverføringsvarer](warehouse-how-to-cross-dock-items.md).
 
-    Fra en ny eller åpen lagerlevering kan du bruke siden **Filtre for henting av kildedok** til å hente linjene i det frigitte kildedokument som definerer hvilke varer som skal leveres.
+7. Opprett et lagerplukk. Hvis lokasjonen krever plukking, kan du opprette plukkaktiviteter for lagerleveringer på en av to måter:
 
-    1. Velg handlingen **Bruk filtre til å hente k.dok...**.  
-    2. Hvis du vil definere et nytt filter, angir du en beskrivende kode i feltet **Kode** og velger deretter handlingen **Endre**.  
-    3. Definer typen kildedokumentlinjer som du vil hente, ved å fylle ut de relevante filterfeltene.  
-    4. Velg handlingen **Kjør**.  
+    * På en push-måte, der du bruker **Opprett plukk**-handlingen. Velg linjene for å plukke og angi informasjon om plukkingen. For eksempel hvilke hyller det skal tas fra og plasseres i, og hvor mange enheter som skal håndteres. Hyllene kan være forhåndsdefinert for lagerlokasjonen eller ressursen.
+    * På en pull-måte, der du bruker **Frigi**-handlingen. På siden **Plukkforslag** kan du bruke handlingen **Hent lagerdokumenter** til å få tildelte plukkinger. Når lagerplukkingene er fullstendig registrert, slettes linjene i **Plukkforslag**. Finn ut mer under [Plukke varer for lagerlevering](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-    Alle frigitte kildedokumentlinjer som oppfyller filterkriteriene, settes nå inn på siden **Lagerlevering** der du aktiverte filterfunksjonen.  
+> [!TIP]
+> For en lokasjon som ikke krever plukking, kan du skrive ut lagerleveringen og bruke den som en plukkliste.
 
-    Filterkombinasjonene du definerer, lagres på siden **Filtre for henting av kildedok** til neste gang du trenger dem. Du kan opprette et ubegrenset antall filterkombinasjoner. Du kan når som helst endre kriteriene ved å velge handlingen **Endre**.
+8. Angi antallet som skal leveres.  
 
-4. Velg kildedokumentene som du vil levere varer for, og velg deretter **OK**.  
+    For en lokasjon som krever plukking, oppdateres feltet **Lever (antall)** automatisk når plukkingen registreres. Eller fylles feltet **Levere (antall)** ut med antall utestående for hver linje når lagerleveringslinjen opprettes.
 
-Linjene i kildedokumentet vises på siden **Lagerlevering**. Feltet **Levere (antall)** er fylt ut med antall utestående for hver linje, men du kan endre antallet slik det er nødvendig. Hvis du sletter innholdet i feltet **Hyllekode** i hurtigfanen **Generelt** før du henter linjene, må du fylle ut riktig hyllekode på hver leveringslinje.  
+    Du kan endre antallet, men du kan ikke levere flere varer enn det som er satt inn i feltet **Restantall** på kildedokumentlinjen eller fra feltet **Ant. plukket** hvis det kreves plukking.
 
-> [!NOTE]  
-> Du kan ikke levere flere varer enn det som er angitt i feltet **Restantall** på kildedokumentlinjen. Hvis du vil levere flere varer, må du hente et annet kildedokument som inneholder en linje for den samme varen.  
+    Når du skal angi verdien i **Lever (antall)**-feltet på alle linjene til null, velger du handlingen **Slett antall som skal leveres**. Det kan for eksempel være nyttig å sette antallene til null hvis du bruker en strekkodeskanner til å oppdatere de leverte antallene. Du kan legge til antallet som er tilgjengelig for levering, ved å velge handlingen **Autoutfyll ant. som skal lev.**.
 
-Når du har de linjene du vil levere, kan du starte prosessen som sender linjene til lageransatte for plukking.
+9. Bokfør leveringen.
 
-### <a name="pick-and-ship"></a>Plukk og lever
+## Bruke filtre til å hente kildedokumenter
 
-Vanligvis er det en lagermedarbeider som er ansvarlig for plukking, som oppretter et plukkdokument eller åpner et allerede opprettet plukkdokument.  
+Fra en lagerlevering kan du bruke siden **Filtre for henting av kildedok** til å hente linjene i det frigitte kildedokument som definerer hvilke varer som skal leveres.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerleveringer** og velg den relaterte koblingen.
-2. Velg lagerlevringen som du vil plukke for, og velg deretter **Opprett plukk**-handlingen.
-3. Fyll ut feltene på forespørselssiden, og velg deretter **OK**. Det angitte lagerplukkdokumentet opprettes.
+1. I lagerleveringen velger du handlingen **Bruk filtre til å hente k.dok.**. 
+2. Hvis du vil definere et nytt filter, angir du en beskrivende kode i feltet **Kode** og velger deretter handlingen **Endre**.
 
-    Du kan også åpne et eksisterende lagerplukkdokument.
-4. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Plukking** og velger den relaterte koblingen. Velg plukkingen du vil arbeide med.
+    Siden **Filterkort for kildedokument – utgående** åpnes.
 
-    Hvis lageret definert for bruk av hyller, så er plukklinjene konvertert til linjer for henting og plassering.
+3. Bruk filtre til å definere hvilken type kildedokumentlinjer som skal hentes. Du kan for eksempel velge ulike typer kildedokumenter, for eksempel ordrer eller overføringsordrer.
+4. Velg **Kjør**.  
 
-    Hvis du bruker lagerstyring, kan du sortere linjene, tildele en ansatt til plukkingen, definere et anbrekksfilter, og plukke og skrive ut plukkinstruksjonene.
+Alle frigitte kildedokumentlinjer som oppfyller filterkriteriene, legges til på siden **Lagerlevering** der du angav filtrene.
 
-5. Utfør den faktiske plukkingen av varer, og plasser dem i den angitte leveringshyllen eller i leveringsområdet hvis du ikke har hyller.
-6. Velg handlingen **Registrer plukk**.
+Du kan opprette et ubegrenset antall filterkombinasjoner. Filtrer lagres på siden **Filtre for henting av kildedok**, og de er tilgjengelige neste gang du trenger dem. Du kan når som helst endre kriteriene ved å velge handlingen **Endre**.
 
-    Feltet **Levere (antall)** og feltet **Dokumentstatus** i hodet for leveringsdokumentet oppdateres. Varene du har plukket, er ikke lenger tilgjengelige for andre ordrer for plukking eller for interne operasjoner.
-7. Skriv ut leveringsdokumentene, forbered leveringspakkene og bokfør deretter leveringen.
+## Sone- og hyllekoder
 
-Hvis du vil vite mer informasjon om hvordan du plukker for lagerlevering, kan du se [Plukk varer for lagerlevering](warehouse-how-to-pick-items-for-warehouse-shipment.md).
+Hvis hyller er obligatoriske på lokasjonen, foreslår [!INCLUDE [prod_short](includes/prod_short.md)] en sone- og hyllekode på lagerleveringsdokumentet.
 
-Du kan også bruke plukkforslaget til å gjøre flere plukkinstruksjoner om til én instruksjon (for flere leveringer), og derved forbedre effektiviteten for plukkingen i lageret. Finn ut mer under [Planlegg plukk i forslag](warehouse-how-to-plan-picks-in-worksheets.md).
+* Når det gjelder avanserte oppsett der en lokasjon bruker lagerstyring, bruker [!INCLUDE [prod_short](includes/prod_short.md)] hyllen som er angitt i feltet **Hyllekode for levering** på **lokasjonskortet**. Hvis en **hyllekode for levering** ikke er angitt, er feltet tomt. Hvis varen og leveringshyllen ikke samsvarer, lar [!INCLUDE [prod_short](includes/prod_short.md)] leveringshyllen være tom.
+* I andre tilfeller bruker [!INCLUDE [prod_short](includes/prod_short.md)] alltid hyllen som er angitt i feltet **Hyllekode for levering** på **lokasjonskortet** først. Hvis det ikke er angitt en leveringshyllekode, bruker [!INCLUDE [prod_short](includes/prod_short.md)] hyllekoden fra kildedokumentet.
+
+## Håndtere montere-til-ordre-varer i lagerleveringer
+
+I montere-til-ordre-scenarier brukes feltet **Levere (antall)** på lagerleveringslinjer til å registrere hvor mange enheter som monteres. Antallet bokføres deretter som monteringsavgang når du bokfører lagerleveringen. Når det gjelder andre lagerfølgeseddellinjer, er verdien i feltet **Levere (antall)** null.
+
+Når medarbeidere er ferdige med monteringen av noe av eller hele montere-til-ordre-antallet, registrerer antallet i feltet **Levere (antall)** på lagerleveringslinjen. Velg deretter handlingen **Bokfør levering**. Monteringsresultatet bokføres, inkludert komponentforbruket. En følgeseddel for antallet som er postert for salgsordren.
+
+Fra monteringsordren kan du velge **Monter til ordre – lagerfølgeseddellinje** for å få tilgang til lagerfølgeseddellinjen.
+
+Når du bokfører lagerleveringen, oppdateres forskjellige felt på ordrelinjen for å vise fremdrift i lageret. Følgende felt oppdateres også for å vise hvor mange montere-til-ordre-antall som foreløpig ikke er montert og levert:
+
+* **Restantall for ATO-lager**
+* **Restantall for ATO-lager (lagerenhet)**
 
 > [!NOTE]
-> Hvis du venter på at en bestemt vare skal ankomme lageret og du bruker kryssoverføringsfunksjonalitet, så beregner [!INCLUDE[prod_short](includes/prod_short.md)] antallet for varen som er i kryssoverføringshyllen på hver følgeseddel- eller plukkforslagslinje. Dette feltet oppdateres hver gang du går ut av eller åpner følgeseddelen eller forslaget. Finn ut mer under [Kryssoverføringsvarer](warehouse-how-to-cross-dock-items.md).
+> I kombinasjonsscenarier, der en del av antallet må monteres og en annen del må leveres fra lager, opprettes to lagerleveringslinjer. Én er for montere-til-ordre-antallet og én er for varebeholdningen.
+>
+> Monter-til-ordre-antallet håndteres som beskrevet i denne artikkelen. Lagerantallet håndteres som en vanlig lagerleveringslinje. Hvis du vil ha mer informasjon om kombinasjonsscenarioer, går du til [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/ship-invoice-items-dynamics-365-business-central/).
+## Se relatert [Microsoft-opplæring](/training/modules/ship-invoice-items-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
 [Definer lagerstyring](warehouse-setup-warehouse.md)  
 [Monteringsstyring](assembly-assemble-items.md)  
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

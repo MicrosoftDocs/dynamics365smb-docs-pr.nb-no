@@ -7,14 +7,9 @@ ms.service: dynamics365-business-central
 ms.search.form: 4760
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: 41dac60578399e09b9a67ac5747d48648a872f9c
-ms.sourcegitcommit: 9bba11d474e21711cc8e2afefee8efb473170707
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 11/18/2022
-ms.locfileid: "9788236"
 ---
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Innføring i demodata for Contoso Coffee
+
+# Innføring i demodata for Contoso Coffee
 
 Contoso Coffee er et fiktivt selskap som produserer forbrukerkaffemaskiner og kommersielle kaffemaskiner. **Contoso Coffee**-appene for Business Central legger til demonstrasjonsdata som du kan bruke til å lære hvordan du bruker produksjonsfunksjonene i Business Central.  
 
@@ -41,7 +36,7 @@ Produksjonsaktivitetene for alle scenarioene bruker *NORD*-lokasjonen.
 > [!IMPORTANT]
 > Før du kjører noen av scenarioene for Contoso Coffee, må du bokføre eventuelle varekladdelinjer med åpningssaldoer. Hvis du vil ha flere krav, kan du se [Konfigurer Contoso Coffee-data](#set-up-contoso-coffee-data).
 
-## <a name="set-up-contoso-coffee-data"></a>Konfigurer Contoso Coffee-data
+## Konfigurer Contoso Coffee-data
 
 For å kunne bruke Contoso Coffee-data må du installere to apper i det aktuelle selskapet i [!INCLUDE [prod_short](../includes/prod_short.md)]:  
 
@@ -72,7 +67,7 @@ Når de relevante appene er installert, går du til [Demodata for Contoso Coffee
 
 Når du er klar, velger du **Opprett demonstrasjonsdata**-handling. Det tar noen minutter å legge til dataene i den underliggende databasen, men da er du klar til å kjøre de ulike scenarioene.  
 
-## <a name="scenarios"></a>Scenarier
+## Scenarier
 
 Demodata for Contoso Coffee støtter nå følgende scenarioer for test og opplæring:
 
@@ -90,7 +85,7 @@ Les trinnene for hvert scenario i den relevante artikkelen.
 > [!IMPORTANT]
 > Disse gjennomgangene krever at brukeropplevelsen er satt til *Premium* på siden **Firmainformasjon**.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Produksjon](../production-manage-manufacturing.md)  
 [Produksjonsrapporter og analyser i Business Central](../production-reports.md)  

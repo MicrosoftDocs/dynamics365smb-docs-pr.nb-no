@@ -8,20 +8,14 @@ ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/03/2022
 ms.custom: bap-template
-ms.search.keywords: License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams
-ms.search.forms: 9061
-ms.openlocfilehash: 3b3e7d42e077749bd4443506f7423dce03e9e82f
-ms.sourcegitcommit: 61f22aeede684f0ae772353ede6530ff03ff2f90
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 11/24/2022
-ms.locfileid: "9804422"
+ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
+ms.search.form: 9061
 ---
-# <a name="set-up-business-central-access-in-teams-with-microsoft-365-licenses"></a>Konfigurer Business Central-tilgang i Teams med Microsoft 365-lisenser
+# Konfigurer Business Central-tilgang i Teams med Microsoft 365-lisenser
 
 Administratorer må fullføre flere aktiviteter før brukerne kan få tilgang til Business Central med Microsoft 365-lisensen. Trinnene nedenfor representerer minimumsoppsettet som kreves for å starte. Hvis du vil vite mer om tilgang med Microsoft 365-lisenser, går du til [Business Central-tilgang med Microsoft 365-lisenser](admin-access-with-m365-license.md).
 
-## <a name="deploy-the-business-central-app-for-teams"></a>Distribuer Business Central-appen for Teams
+## Distribuer Business Central-appen for Teams
 
 Hvis Business Central-lisensinnehavere skal dele data i Teams og for Microsoft 365-lisensinnehavere å få tilgang til disse dataene, må Business Central-appen for Teams være installert. Selv om brukerne kan installere appen selv, anbefales det at administratorer bruker sentralisert distribusjon. Med sentralisert distribusjon kan du rulle ut appen til en større målgruppe på tvers av organisasjonen og minimere individuell brukerinnsats. 
 
@@ -33,7 +27,7 @@ Hvis du vil finne ut mer om hvordan du kan distribuere Business Central-appen fo
 > [!TIP]
 > Ser du etter en raskere måte å komme i gang på når du prøver denne funksjonen? Testbrukere kan installere appen på [aka.ms/BCgetTeamsApp](https://aka.ms/BCgetTeamsApp).
 
-## <a name="configure-permissions"></a>Konfigurer tillatelser
+## Konfigurer tillatelser
 
 Business Central er sikret etter utforming og minimerer risikoen ved å gi ingen tillatelser til Microsoft 365-brukere som standard. Administratorer må konfigurere objekttillatelser som bestemmer hvilke tabeller, sider og rapporter som kan åpnes i Teams med bare en Microsoft 365-lisens. Disse tillatelsene er starttillatelsene som tildeles når en bruker logger seg på for første gang med Microsoft 365-lisensen. 
 
@@ -56,7 +50,7 @@ Når du arbeider med flere miljøer, må lisenskonfigurasjonen brukes for hvert 
 
 Finn ut mer under [Tildel tillatelser til brukere og grupper](ui-define-granular-permissions.md) og [Opprett tillatelsessett](/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing)
 
-## <a name="turn-on-access-with-microsoft-365-licenses"></a>Aktiver tilgang med Microsoft 365-lisenser
+## Aktiver tilgang med Microsoft 365-lisenser
 
 Tilgang med Microsoft 365-lisenser er som standard deaktivert. Tilgang må aktiveres for hvert miljø uavhengig, noe som gir administratorer mulighet til å styre og tillate utrulling på tvers av organisasjonen. Du aktiverer tilgang ved hjelp av Business Central-administrasjonssenteret: 
 
@@ -66,7 +60,7 @@ Tilgang med Microsoft 365-lisenser er som standard deaktivert. Tilgang må aktiv
 4. I ruten **Microsoft 365-lisenser** slår du på bryteren. 
 5. Velg **Lagre** når du er ferdig og godta bekreftelsen. Endringene trer i kraft umiddelbart.
 
-## <a name="test-your-setup"></a>Test oppsettet
+## Test oppsettet
 
 Hvis du vil kontrollere at oppsettet er klart for produksjon, kan du bruke følgende fremgangsmåte til å påse at alt fungerer som det skal. 
 
@@ -90,7 +84,7 @@ Hvis du vil kontrollere at oppsettet er klart for produksjon, kan du bruke følg
 > [!TIP]
 > Noe gikk galt. Sjekk [Feilsøk tilgang med Microsoft 365-lisenser](admin-access-with-m365-license-troubleshooting.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversikt over Business Central-tilgang med Microsoft 365-lisenser](admin-access-with-m365-license.md#minimum-requirements)  
 [Feilsøk tilgang med Microsoft 365-lisenser](admin-access-with-m365-license-troubleshooting.md)  

@@ -1,23 +1,17 @@
 ---
 title: Legge til informasjon i poster for deg selv | Microsoft-dokumentasjon
-description: Knytt en merknad til en hvilken som helst post i programmet. Hvis du for eksempel har tilleggsinformasjon om en ordre, som ikke passer inn i noen av feltene i ordreskjemaet, kan du skrive en merknad.
+description: 'Knytt en merknad til en hvilken som helst post i programmet. Hvis du for eksempel har tilleggsinformasjon om en ordre, som ikke passer inn i noen av feltene i ordreskjemaet, kan du skrive en merknad.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ROBOTS: NOINDEX,NOFOLLOW
+ms.search.keywords: null
+ROBOTS: 'NOINDEX,NOFOLLOW'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: dde082a69ff9074dc0afd86e6b4e71f0d68d5cbd
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8511947"
 ---
-# <a name="add-and-view-notes-on-records"></a>Legge til og vise merknader i poster
+# Legge til og vise merknader i poster
  Du <!--OnPrem and your colleagues -->kan legge til merknader i poster i programmet. Mange sider, spesielt de som viser en oversikt over poster som **Ordrer**-siden, inkluderer **Merknader**-handlingen eller **Merknader**-faktaboksen. <!--OnPrem Notes is where you can write notes about a record to yourself or others, and where you can view notes to you from others. For example, a note could be a general comment or processing instruction to your colleague, who can then respond to your note using their own **Notes**. Or, your colleague can add a note that gives you extra information about a sales order that is not covered by the information on the sales order. These notes and correspondences will follow the record as it is processed in the company.-->
 
  > [!NOTE]  
@@ -46,7 +40,7 @@ ms.locfileid: "8511947"
      If **Notify** is selected, the note will be sent as a notification to the user's **My Notifications** on the Role Center.  -->
 <!--OnPrem
 3.  Choose the **OK** button.  -->
-## <a name="see-also"></a>Se også
+## Se også
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

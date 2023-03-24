@@ -1,22 +1,16 @@
 ---
 title: Aktivere plukking etter FEFO | Microsoft-dokumentasjon
-description: FEFO (først utløpt, først ut) er en sorteringsmetode som sikrer at de eldste elementene, det vil si de med de tidligste utløpsdato, plukkes først.
+description: 'FEFO (først utløpt, først ut) er en sorteringsmetode som sikrer at de eldste elementene, det vil si de med de tidligste utløpsdato, plukkes først.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: b4018d5ad18317cf5b62a99346c360d744b26939
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8520025"
 ---
-# <a name="enable-picking-items-by-fefo"></a>Aktivere plukking av varer etter FEFO
+# Aktivere plukking av varer etter FEFO
 FEFO (først utløpt, først ut) er en sorteringsmetode som sikrer at de eldste elementene, det vil si de med de tidligste utløpsdato, plukkes først.  
 
  Denne funksjonaliteten fungerer bare når følgende kriterier er oppfylt:  
@@ -39,11 +33,10 @@ Når du skal aktivere flyttinger i henhold til FEFO, må du la feltet **Fra hyll
 <br /><br />
 Hvis feltet **Bruk ikke etter utløpsdato** er valgt på **kortet for varesporingskode**, blir bare varer som ikke er utgått, tatt med i plukkingen, og linjene sorteres i henhold til FEFO-prinsippet.
 
-## <a name="see-also"></a>Se også  
-[Plukke varer](warehouse-pick-items.md)   
+## Se også  
 [Plukke varer for lagerlevering](warehouse-how-to-pick-items-for-warehouse-shipment.md)   
 [Plukke varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md)   
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

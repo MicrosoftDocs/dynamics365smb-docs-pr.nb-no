@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 9813, 9814
+ms.search.keywords: null
+ms.search.form: '9813, 9814'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: ccac5101c5b28d81021a7229fe576f4eb7129746
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513240"
 ---
-# <a name="restructure-warehouses"></a>Omstrukturere lagre
+# Omstrukturere lagre
 Du ønsker kanskje å omstrukturere lageret med nye hyllekoder og nye hylleegenskaper. Dette er en aktivitet du ikke utfører så ofte, men det kan oppstå situasjoner der det er nødvendig med en omklassifisering for å oppnå eller vedlikeholde en mer effektiv drift. Eksempel:  
 
 - Du ønsker kanskje å bytte til hyllekoder som for eksempel støtter bruken av automatisk datafangst med håndholdte enheter.  
@@ -26,7 +20,7 @@ Du ønsker kanskje å omstrukturere lageret med nye hyllekoder og nye hylleegens
 
 Hvis lageret er definert slik at hyller brukes, men ikke lagerstyring, omstrukturerer du lageret ved å opprette de nye hyllene du vil bruke i fremtiden.  
 
-## <a name="to-restructure-a-basic-warehouse-that-uses-bins-only"></a>Omstrukturere et enkelt lager som bare bruker hyller  
+## Omstrukturere et enkelt lager som bare bruker hyller  
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  På hurtigfanen **Lager** angir du feltet **Standard hyllevalg** til **Sist brukte hylle**.  
 3.  Flytt alt innholdet fra de nåværende hyllene til de nye hyllene du nettopp opprettet.  
@@ -41,7 +35,7 @@ Hvis lageret er definert slik at hyller brukes, men ikke lagerstyring, omstruktu
 
 Du har nå tømt hyllene der varene pleide å være. Standardhyllene for varene er nå endret til de nye hyllene.  
 
-## <a name="to-restructure-an-advanced-warehouse-that-uses-directed-put-away-and-pick"></a>Omstrukturere et avansert lager som bruker lagerstyring og plukking  
+## Omstrukturere et avansert lager som bruker lagerstyring og plukking  
 
 1.  Opprett de nye hyllene du vil bruke i fremtiden. Hvis du vil ha mer informasjon, kan du se [Opprette hyller](warehouse-how-to-create-individual-bins.md).  
 2.  Flytt alt innholdet fra de nåværende hyllene til de nye hyllene du nettopp opprettet.  
@@ -58,7 +52,7 @@ Du har nå tømt hyllene der varene pleide å være. Standardhyllene for varene 
 
 Du har nå fjernet hyllene fra lagerflyten, og du har reklassifisert dem som KK-hyller (kvalitetskontroll). For slike hyller er det ikke merket av i noen av aktivitetsfeltene på siden **Hylletyper**, og det tas derfor ikke hensyn til dem i vareflyten. Hvis du vil ha mer informasjon, kan du se [Definere hylletyper](warehouse-how-to-set-up-bin-types.md).  
 
-## <a name="to-delete-a-bin"></a>Slik sletter du en hylle  
+## Slik sletter du en hylle  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Velg lokasjonen der du vil slette hyller. Velg handlingen **Hyller**.  
@@ -69,7 +63,7 @@ Hvis du velger **Ja**, blir hyllen slettet og kan ikke brukes i fremtiden, men h
 
 Hvis du ønsker å gi nytt navn til en hylle, slik at alle postene som er tilknyttet hyllen, også får nytt navn, inkludert hylleinnhold, lageraktivitetslinjer, registrerte lageraktivitetslinjer, lagerforslagslinjer, lagermottakslinjer, bokførte lagermottakslinjer, lagerfølgeseddellinjer, bokførte lagerfølgeseddellinjer og lagerposter, kan du gjøre det på siden **Hyller**.  
 
-## <a name="to-rename-a-bin-and-change-the-bin-code-in-all-records"></a>Slik gir du nytt navn til en hylle og endrer hyllekoden i alle poster  
+## Slik gir du nytt navn til en hylle og endrer hyllekoden i alle poster  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Velg lokasjonen der du vil gi nytt navn til en hylle eller endre hyllekoden, og velg handlingen **Hyller**.  
@@ -81,12 +75,11 @@ Hvis du ønsker å gi nytt navn til en hylle, slik at alle postene som er tilkny
 >   
 >  Hvis du endrer navn på en mottakshylle eller en leveringshylle, endres navnet på alle de bokførte mottakene eller leveringene som henviser til den aktuelle hyllen.  
 
-## <a name="see-also"></a>Se også  
-[Lagerstyring](warehouse-manage-warehouse.md)  
+## Se også  
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
-[Definere lagerstyring](warehouse-setup-warehouse.md)     
+[Definer lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

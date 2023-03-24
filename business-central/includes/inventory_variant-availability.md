@@ -3,12 +3,6 @@ author: edupont04
 ms.topic: include
 ms.date: 09/21/2022
 ms.author: edupont
-ms.openlocfilehash: 1ed4346dbdcbd6fc4eb5b3cde677498c9f3b5ea6
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9608222"
 ---
 Når du åpner siden **Disponibelt per variant** fra en dokumentlinje, kan du sette inn en variant på dokumentlinjen ved å velge linjen med varianten du vil sette inn, og deretter velge OK-knappen. Hvis du bare har brukt siden til å vise tilgjengelighet og ikke vil sette inn en variant, må du lukke siden uten å velge OK-knappen.
 

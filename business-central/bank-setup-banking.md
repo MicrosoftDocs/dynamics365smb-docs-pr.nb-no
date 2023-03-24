@@ -1,23 +1,17 @@
 ---
 title: Konfigurer banktjeneste
-description: Du bruker bankkort til å holde oversikt over bankkontiene dine og definere bankfeeder, for eksempel Yodlee, for å utveksle data.
+description: 'Du bruker bankkort til å holde oversikt over bankkontiene dine og definere bankfeeder, for eksempel Yodlee, for å utveksle data.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Yodlee, feed, stream, data exchange, AMC, link
+ms.search.keywords: 'Yodlee, feed, stream, data exchange, AMC, link'
 ms.search.form: 1200
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 95455b4100aa2628fe6f1e2eefdce8c8117f1166
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516398"
 ---
-# <a name="setting-up-banking"></a>Konfigurere banktjenester
+# Konfigurere banktjenester
 
 Ved hjelp av bankkort kan du holde oversikt over alle bankkontiene, i hvilken som helst valuta. Når du her definert bankkontiene, kan du også bruke alternativet for utskrift av sjekker.
 
@@ -31,7 +25,7 @@ Hvis du vil bruke elektroniske banktjenester til å importere bankkontoutdrag og
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  

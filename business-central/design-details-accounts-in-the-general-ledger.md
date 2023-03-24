@@ -1,25 +1,19 @@
 ---
 title: Designdetaljer – Konti i Finans | Microsoft-dokumentasjon
-description: Hvis du vil avstemme lager- og kapasitetsposter med Finans, bokføres de tilknyttede verdipostene på ulike konti i finans.
+description: 'Hvis du vil avstemme lager- og kapasitetsposter med Finans, bokføres de tilknyttede verdipostene på ulike konti i finans.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: b67dd40723f28cb4d59818deb302a1d35c7420e4
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521075"
 ---
-# <a name="design-details-accounts-in-the-general-ledger"></a>Designdetaljer: Konti i Finans
+# Designdetaljer: Konti i Finans
 Hvis du vil avstemme lager- og kapasitetsposter med Finans, bokføres de tilknyttede verdipostene på ulike konti i finans. Hvis du vil ha mer informasjon, se [Designdetaljer: Avstemming med konti i Finans](design-details-reconciliation-with-the-general-ledger.md).  
 
-## <a name="from-the-inventory-ledger"></a>Fra varepost  
+## Fra varepost  
 Følgende tabell viser relasjonen mellom ulike typer verdiposter for beholdning og kontiene og motkontiene i finans.  
 
 |**Vareposttype**|**Verdiposttype**|**Avvikstype**|**Forventet kostnad**|**Konto**|**Motkonto**|  
@@ -62,7 +56,7 @@ Følgende tabell viser relasjonen mellom ulike typer verdiposter for beholdning 
 |Monteringsavgang|Avvik|Indir. prod.kostnader|Nei|Lager|Avvik i indir. prod.kostn.|  
 |Monteringsavgang|Avrunding||Nei|Lager|Lagerjustering|  
 
-## <a name="from-the-capacity-ledger"></a>Fra kapasitetsposten  
+## Fra kapasitetsposten  
  Følgende tabell viser relasjonen mellom ulike typer verdiposter for kapasitet og kontiene og motkontiene i finans. Kapasitetsposter representerer arbeidtidsforbruket under monterings- eller produksjonsarbeid.  
 
 |**Arbeidstype**|**Kapasitetsposttype**|**Verdiposttype**|**Konto**|**Motkonto**|  
@@ -72,12 +66,12 @@ Følgende tabell viser relasjonen mellom ulike typer verdiposter for beholdning 
 |Produksjon|Produksjonsressurs/Arbeidssenter|Kjøpspris/prod.kost|VIA-konto|Utlignet kjøpspris/prod.kost|  
 |Produksjon|Produksjonsressurs/Arbeidssenter|Indirekte kost|VIA-konto|Utlignet indirekte kostnad|  
 
-## <a name="assembly-costs-are-always-actual"></a>Monteringskostnader er alltid faktiske  
+## Monteringskostnader er alltid faktiske  
  Monteringsbokføringer vises ikke i midlertidige konti, som vist i tabellen ovenfor. Dette er fordi begrepet om varer i arbeid (VIA) ikke gjelder i bokføring av monteringsavgang, i motsetning til i bokføring av produksjonsavgang. Monteringskostnader bokføres bare som faktiske kostnader, aldri som forventede kostnader.  
 
  Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md).  
 
-## <a name="calculating-the-amount-to-post-to-the-general-ledger"></a>Beregne beløpet som skal bokføres i Finans  
+## Beregne beløpet som skal bokføres i Finans  
  Følgende felt i **Verdipost**-tabellen brukes til å beregne det forventede kostnadsbeløpet som bokføres i finans:  
 
 -   Kostbeløp (faktisk)  
@@ -92,7 +86,7 @@ Tabellen nedenfor viser hvordan beløpene som skal bokføres i finans, beregnes 
 |Faktisk kostnad|Kostbeløp (faktisk) – kost bokført til finans|  
 |Forventet kostnad|Kostbeløp (forventet) – Forventet kost bokført i Finans|  
 
-## <a name="see-also"></a>Se også  
+## Se også  
  [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)   
  [Designdetaljer: Lagerbokføring](design-details-inventory-posting.md)   
  [Designdetaljer: Bokføre forventet kost](design-details-expected-cost-posting.md)  

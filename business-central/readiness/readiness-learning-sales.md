@@ -5,20 +5,15 @@ author: loreleishannonmsft
 ms.date: 04/01/2021
 ms.topic: conceptual
 ms.author: margoc
-ms.openlocfilehash: 60fc44ff10b762c3cba9bbae2447982214b34e24
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535132"
 ---
-# <a name="partner-sales-and-marketing-learning-catalog"></a>Læringskatalog for salg og markedsføring for partner
+
+# Læringskatalog for salg og markedsføring for partner
 
 Er du ansvarlig for å hjelpe kundene med å kjøpe riktig løsning?
 
 Følgende katalog er ordnet fra kjernekunnskap til bestemte domener, og fra de mest grunnleggende til de fleste avanserte. Hvis innholdet finnes i flere formater, gir vi deg beskjed slik at du kan velge det opplæringsformatet som best dekker dine behov.  
 
-## <a name="business-value"></a>Forretningsverdi<a name="busvalue"></a>
+## Forretningsverdi<a name="busvalue"></a>
 
 | Innhold     | Beskrivelse    | Format                                | Lengde              |
 |-------------|----------------|---------------------------------------|---------------------|
@@ -26,7 +21,7 @@ Følgende katalog er ordnet fra kjernekunnskap til bestemte domener, og fra de m
 | [Utforske Dynamics 365 Business Central-funksjoner](https://dynamics.microsoft.com/business-central/capabilities/) | Utforske Dynamics 365 Business Central-funksjoner    | Nettsted    |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/)            | Denne modulen viser programfunksjoner, fordeler og eksempler på Dynamics 365 Business Central i bruk.    | Gratis, elektronisk opplæringsbane i eget tempo | 24 minutter          |
 
-## <a name="getting-started"></a>Komme i gang<a name="get-started"></a>
+## Komme i gang<a name="get-started"></a>
 
 | Innhold   | Beskrivelse   | Format                                | Lengde              |
 |-----------|---------------|---------------------------------------|---------------------|
@@ -35,7 +30,7 @@ Følgende katalog er ordnet fra kjernekunnskap til bestemte domener, og fra de m
 | [Arbeid som en profesjonell med data i Business Central](/training/paths/work-pro-data-dynamics-365-business-central) | Har du nettopp kommet i gang med Business Central? Denne opplæringsbanen gjør det enklere for deg å forberede deg til datatypene i Business Central og finne informasjon du trenger i programmet.      | Gratis, elektronisk opplæringsbane i eget tempo | 2 timer 27 minutter  |
 | [Business Central YouTube-spilliste](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4) | YouTube-målside for Dynamics 365 Business Central-videoer  | YouTube-videoer  |                     |
 
-## <a name="grow-your-business"></a>Utvikle bedriften<a name="grow"></a>
+## Utvikle bedriften<a name="grow"></a>
 
 | Innhold   | Beskrivelse        | Format                                | Lengde                |
 |-----------|--------------------|---------------------------------------|-----------------------|
@@ -45,6 +40,6 @@ Følgende katalog er ordnet fra kjernekunnskap til bestemte domener, og fra de m
 | [Program for leverandør av skyløsninger – selge etterspurte skyløsninger](/partner-center/csp-overview)  | Programmet for leverandør av skyløsninger (CSP) hjelper deg med å gå lenger enn å videreselge lisenser til å være mer involvert i kundens virksomhet.   | Nettsted      |                       |
 | [Program for leverandør av skyløsninger - sammenligne partnerstøtteprogrammer](https://partner.microsoft.com/support/partnersupport) | Se denne videoen for å se hvordan du kan velge den riktige planen for partnerstøtte for bedriften. Deretter ser du en side ved side-sammenligning nedenfor.    | Nettsted                               |                       |
 | [Cloud SureStep-akselerert salg](https://mbspartner.microsoft.com/OSS/Topic/20)  | (Bare partnere) Prosessen Cloud SureStep SureStep-akselerert salg er bygget rundt behovene til moderne kjøpere og søker å utløse en emosjonell, erfaringsdrevet strategisk vendepunkt tidlig i salgsprosessen. Denne serien med videoer og ressurser forklarer en normativ salgsprosess som er spesielt utformet for å motvirke den tradisjonelle ressursintensive, demoorienterte tilnærmingen til salg som vanligvis fører til svært tilpassede produktdemonstrasjoner, komplekse salgssykluser og lange implementeringsprosjekter. Ressursblioteket omfatter en rekke tilpassbare maler, slik at du kan opprette ditt eget sett med salgsressurser for å støtte akselerert salg. | Nettsted     |                       |
-| [Tillegg til strategiplanen for overgangspartner (juli 2019)](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Dette tillegget til strategiplanen for overgangspartner gir oppdatert og ny veiledning for partnere for å sikre den eksisterende kundebasen mot konkurransen og nye SaaS-konkurrenter.  | PowerPoint-lysbildefremvisning | 15 lysbilder |
+| [Tillegg til strategiplanen for overgangspartner (juli 2019)](https://assetsprod.microsoft.com/d365-business-central-supplement-to-transition-partner-playbook.pptx) | Dette tillegget til strategiplanen for overgangspartner gir oppdatert og ny veiledning for partnere for å sikre den eksisterende kundebasen mot konkurransen og nye SaaS-konkurrenter.  | PowerPoint-lysbildefremvisning | 15 lysbilder |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

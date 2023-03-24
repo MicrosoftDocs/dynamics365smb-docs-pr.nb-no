@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: app, add-in, manifest, customize
-ms.search.form: 1070, 1071, 1073, 1074
+ms.search.keywords: 'app, add-in, manifest, customize'
+ms.search.form: '1070, 1071, 1073, 1074'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 19e44bf675e02df3494338fb729f9d28081ca6bd
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9361843"
 ---
-# <a name="the-paypal-payments-standard-extension"></a>PayPal Payments Standard-utvidelsen
+# PayPal Payments Standard-utvidelsen
 
 Kundene krever kontinuerlig bedre kundeservice, både når det gjelder produktkvalitet, men også når det gjelder leverings- og betalingsalternativer. PayPal Payments Standard-tjenesten hjelper deg med å forbedre din kundeservice.
 
@@ -35,7 +29,7 @@ PayPal Payments Standard-tjenesten gir følgende fordeler:
 
 Hvis du vil ha mer informasjon, kan du se [Aktivere kundebetaling via PayPal](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilpass [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Sette opp salg](sales-setup-sales.md)  

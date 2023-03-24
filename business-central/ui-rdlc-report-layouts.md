@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customized report, document layout, logo, personalize
-ms.search.form: 9650, 9652
+ms.search.keywords: 'customized report, document layout, logo, personalize'
+ms.search.form: '9650, 9652'
 ms.date: 03/14/2022
 ms.author: jswymer
-ms.openlocfilehash: 0d3a1ce19b094fa77ae332a8dc90f1e8b3712cbf
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532488"
 ---
-# <a name="working-with-rdlc-layouts"></a>Arbeid med RDLC-oppsett
+# Arbeid med RDLC-oppsett
 
 RDLC-oppsett er basert på oppsettsfiler for rapportdefinisjon for klient (filtypen RDLC eller RDL). Utformingskonseptene for RDLC-oppsett ligner på andre typer oppsett. Oppsettet bestemmer hvilke felter som skal vises, og hvordan de skal organiseres. Å utforme RDLC-oppsett er imidlertid en mer avansert oppgave enn å utforme Word- og Excel-oppsett.
 
 [![Viser de ulike elementene på et RDLC-oppsett.](media/rdlc-layout.png)](media/rdlc-layout.png#lightbox)
 
-## <a name="required-tools"></a>Obligatoriske verktøy
+## Obligatoriske verktøy
 
 Hvis du vil endre RDL-oppsett, kan du bruke enten Microsoft SQL Server Report Builder eller Microsoft RDLC Report Designer.
 
@@ -31,7 +25,7 @@ Hvis du vil endre RDL-oppsett, kan du bruke enten Microsoft SQL Server Report Bu
 
 - RDLC Report Designer er en utvidelse for Visual Studio 2017 og nyere. Du kan laste ned og installere RDLC Report Designer fra [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=ProBITools.MicrosoftRdlcReportDesignerforVisualStudio-18001).
 
-## <a name="create-and-modify-rdlc-layouts"></a>Opprett og endre RDLC-oppsett
+## Opprett og endre RDLC-oppsett
 
 Oppretting og endring av RDLC-oppsett er en avansert oppgave som ofte gjøres av privilegerte brukere eller utviklere. De grunnleggende konseptene er ikke spesifikke for Business Central-reportoppsett. Av den grunn henviser vi deg til følgende dokumentasjon:
 
@@ -47,9 +41,9 @@ bak RDL/RDLC og hvordan du bruker Report Builder.
 > [!NOTE]
 > Report Builder gjenkjenner bare filtypen RDL, ikke RDLC. Oppsettsfiler som er eksportert fra Business Central, er RDLC-filtyper. Hvis du vil endre oppsettet i Report Builder, gir du filen nytt navn til RDL.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/index)
+## Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  
 [Definer oppsettet som brukes av en rapport](ui-set-report-layout.md)  

@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 189, 190, 191
+ms.search.keywords: null
+ms.search.form: '189, 190, 191'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: ff1b79447091df53f45eff49779e1c73b2fe0fd5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534187"
 ---
-# <a name="receive-and-convert-electronic-documents"></a>Motta og konvertere elektroniske dokumenter
+# Motta og konvertere elektroniske dokumenter
 
 Den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] kan motta elektroniske fakturaer og kreditnotaer i PEPPOL-format, som støttes av de største leverandørene av dokumentutvekslingstjenester. Hvis du vil motta en faktura fra en leverandør som et elektronisk PEPPOL-dokument, kan du behandle dokumentet på siden Inngående dokumenter for å konvertere det til en kjøpsfaktura eller finanskladd i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -40,7 +34,7 @@ Du kan enten starte konverteringen av elektroniske dokumenter manuelt, slik det 
 
 Følgende prosedyre beskriver hvordan du mottar en leverandørfaktura og konverterer den til en kjøpsfaktura i [!INCLUDE[prod_short](includes/prod_short.md)]. Fremgangsmåten er den samme når du konverterer en leverandørfaktura til en finanskladdelinje.  
 
-### <a name="to-receive-and-convert-an-electronic-invoice-to-a-purchase-invoice"></a>Slik mottar og konverterer du en elektronisk faktura til en kjøpsfaktura
+### Slik mottar og konverterer du en elektronisk faktura til en kjøpsfaktura
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Innkommende dokumenter**, og velg deretter den relaterte koblingen.  
 
@@ -58,9 +52,9 @@ Følgende prosedyre beskriver hvordan du mottar en leverandørfaktura og konvert
 
     Eventuelle valideringsfeil, vanligvis knyttet til feil eller manglende hoveddata i [!INCLUDE[prod_short](includes/prod_short.md)], vises i hurtigfanen **Feilmeldinger**.  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/electronic-documents-dynamics-365-business-central/index)
+## Se relatert [Microsoft-opplæring](/training/modules/electronic-documents-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Inngående dokumenter](across-income-documents.md)  

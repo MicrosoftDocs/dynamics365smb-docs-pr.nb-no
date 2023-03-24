@@ -1,22 +1,16 @@
 ---
 title: Håndtere lager- og produksjonskost
-description: Lær hvordan en rekke felter, sider og rapporter er rettet mot brukere som direkte eller indirekte administrerer kostnadene for varer eller operasjoner.
+description: 'Lær hvordan en rekke felter, sider og rapporter er rettet mot brukere som direkte eller indirekte administrerer kostnadene for varer eller operasjoner.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: b911692aa899eac88b74322e21454c87659a75a8
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605573"
 ---
-# <a name="handling-inventory-and-manufacturing-costs"></a>Håndtere lager- og produksjonskost
+# Håndtere lager- og produksjonskost
 
 Selv om mange av funksjonene for kostredegjøring er uttrykt i underliggende prosesser uten brukerhandling, for eksempel postutligning og automatisk kostjustering, er mange felt, sider og rapporter rettet inn mot brukere som direkte eller indirekte håndterer vare- eller driftskost.  
 
@@ -35,7 +29,7 @@ Selv om mange av funksjonene for kostredegjøring er uttrykt i underliggende pro
 |Manuelt angre en vareutligning eller utligne vareposter som er opprettet i programmet, på nytt.|[Fjerne varefinansposter og utligne dem på nytt](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Bruk feltet **Utlignet fra-post** i varekladden til å opprette en fast utligning manuelt mellom en inngående transaksjon og den opprinnelige utgående transaksjonen.|[Lukk åpne vareposter som er resultat av fast utligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)
 [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)

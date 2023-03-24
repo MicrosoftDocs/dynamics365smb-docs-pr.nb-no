@@ -7,25 +7,19 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: machinery, buildings
+ms.search.keywords: 'machinery, buildings'
 ms.date: 10/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8ce484583ef5eddc8e6aee675715487c3bd4e974
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382474"
 ---
-# <a name="the-troubleshooting-fa-ledger-entries-extension"></a>Utvidelsen for feilsøking av aktivaposter
+# Utvidelsen for feilsøking av aktivaposter
 Bruk utvidelsen for feilsøking av aktivaposter til å runde av avskrivnings- og anskaffelsesbeløp i aktivaposter til hele numre. Du kan for eksempel avrunde et beløp på 30 000,44 til 30 000. Vanlige årsaker til avrundingsfeil er dataoverføring, plutselig bokføring av beløp i finans, eller tilpasninger du har gjort i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Utvidelsen for feilsøking av aktivaposter er forhåndsinstallert og klar til bruk. Hvis du fjerner utvidelsen, men vil installere den på nytt, finner du den i AppSource.
 
-## <a name="troubleshooting-fixed-asset-ledger-entries"></a>Feilsøking av aktivaposter
+## Feilsøking av aktivaposter
 Når du åpner siden **Aktivakort** for første gang, er det planlagt at prosjektkøposten **Skanning av aktivaposter** skal overvåke beløp hver søndag. Hvis det blir funnet beløp som du kanskje vil avrunde, vises det en melding neste gang du åpner Aktivakort-siden. Varselet gir et **Se mer**-alternativ som åpner siden **Aktivaposter med avrundingsproblemer**, som viser postene med beløp som du kanskje vil avrunde. Hvis du vil avrunde beløpene, velger du postene og velger deretter **Godta utvalg**-handlingen. Du kan bruke handlingen **Søk etter poster med problemer** til å oppdatere oversikten med nye problemer som har oppstått etter at prosjektkjøposten ble kjørt forrige søndag.
 
-## <a name="see-also"></a>Se også
+## Se også
 [Aktiva](fa-manage.md)  
 [Administrer aktiva](fa-manage.md)  
 [Vedlikehold aktiva](fa-how-maintain.md)  

@@ -6,20 +6,15 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: AndreiPanko
 ms.author: andreipa
-ms.openlocfilehash: 4146a84aae98b97b9486d4b5fa53ad663d6d5f91
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362194"
 ---
-# <a name="set-up-taxes-for-the-shopify-connection"></a>Definere avgifter for Shopify-forbindelse
+
+# Definere avgifter for Shopify-forbindelse
 
 I denne artikkelen skal vi undersøke hvordan ulike innstillinger i Shopify påvirker storefront-priser og -avgifter som vises for kunden. Vi skal også se hvordan du konfigurerer [!INCLUDE[prod_short](../includes/prod_short.md)] for å støtte innstillingene i Shopify. Denne artikkelen er ikke ment å være en omfattende avgiftsveiledning. Hvis du vil lære mer, kontakter du den lokale skattemyndigheten eller skatteansvarlig.  
 
 Artikkelen antar at du er forpliktet til å betale skatt ved salg av varer lokalt eller internasjonalt.
 
-## <a name="if-you-sell-domestically"></a>Hvis du selger hjemme
+## Hvis du selger hjemme
 
 Når du har konfigurert Shopify til å samle inn avgifter i landet eller regionen innenlands, kan du bestemme hvordan du vil vise prisene på Storefront.
 Du kontrollerer dette ved å aktivere eller deaktivere vekslebryteren **Alle priser inkludert avgift** i [**Avgifter**](https://www.shopify.com/admin/settings/taxes)-innstillingene i **Shopify-administratoren**.
@@ -39,13 +34,13 @@ Definer deretter varepriser i feltet **Varekort** eller **Salgsprislist**, med e
 > [!NOTE]
 > Hvis du konfigurerte Shopify-koblingen for å opprette kunder automatisk, kan det hende du trenger flere felt i malen, for eksempel **Bokføringsgruppe - kunde**. Hvis du bruker standardkunden for importerte ordrer, må du kontrollere at kunden har de samme feltene som er fylt ut. Du må likevel fylle ut **Kundemalkode** som angitt over, fordi feltet **Priser inkl. mva.**/**Priser inkl. mva.** i de opprettede salgsdokumentet ikke er avhengig av kunden, men av **Kundemal** fra Shopify-butikkortet eller kundemalen per land.
 
-## <a name="if-you-sell-internationally"></a>Hvis du selger internasjonalt
+## Hvis du selger internasjonalt
 
 I dette avsnittet skal vi utforske innstillinger for scenarier der du må samle inn skatter ved salg til et annet land, for eksempel andre land i EU.
 
 **Shopify-kobling**-utvidelsen støtter for øyeblikket bare eksport av én pris. Shopify bruker automatisk lokale avgifter, valutaer og avrunding. **Alle prisene inkludert avgift** veksler resultat i i handlingene beskrevet i følgende underdeler.
 
-### <a name="all-prices-include-tax-is-selected"></a>*Alle priser inkl. mva* velges
+### *Alle priser inkl. mva* velges
 
 |-|Innenlandssalg|Utenlands der du samler inn mva|Utenlands der du ikke samler inn mva|
 |------------------------|--------|--------|--------|
@@ -55,7 +50,7 @@ I dette avsnittet skal vi utforske innstillinger for scenarier der du må samle 
 
 Pris for at kunden skal holde seg intakt, uavhengig av lokasjonens posisjon, men marginen er berørt på grunn av mva-satser som er forskjellig per land.
 
-### <a name="all-prices-include-tax-is-not-selected"></a>*Alle priser inkl. mva* velges ikke
+### *Alle priser inkl. mva* velges ikke
 
 |-|Innenlandssalg|Utenlands der du samler inn mva|Utenlands der du ikke samler inn mva|
 |------------------------|--------|--------|--------|
@@ -65,7 +60,7 @@ Pris for at kunden skal holde seg intakt, uavhengig av lokasjonens posisjon, men
 
 Shopify legger til lokal mva på toppen av prisen som er definert på produktkortet basert på hvor varene sendes til.
 
-## <a name="dynamic-tax-inclusive-pricing"></a>Dynamisk mva-inklusiv pris
+## Dynamisk mva-inklusiv pris
 
 Ettersom forskjellige land har forskjellige krav, avhengig av om du inkluderer mva i den viste prisen eller ikke, kan du slå på [dynamisk mva-inklusiv pris](https://help.shopify.com/en/manual/markets/pricing/dynamic-tax-inclusive-pricing) i Shopify. Dette automatiserer funksjonen for mva-inkludering.
 
@@ -74,7 +69,7 @@ Velg **Inkluder eller ekskluder merverdiavgiftsbasert på kundens land** i delen
 > [!NOTE]
 > Denne innstillingen påvirker ikke visningen av priser i innenlandske markeder, som styres av **Alle priser inkluderer avgifter**.
 
-### <a name="all-prices-include-tax-is-selected"></a>*Alle priser inkl. mva* velges
+### *Alle priser inkl. mva* velges
 
 |-|Innenlandssalg|Utenlandsk land der mva. er inkludert i prisen|Utenlandsk land der mva. er ekskludert|
 |------------------------|--------|--------|--------|
@@ -84,7 +79,7 @@ Velg **Inkluder eller ekskluder merverdiavgiftsbasert på kundens land** i delen
 
 Prisen for hver kunde endres avhengig av lokasjonen.
 
-### <a name="all-prices-include-tax-is-not-selected"></a>*Alle priser inkl. mva* velges ikke
+### *Alle priser inkl. mva* velges ikke
 
 |-|Innenlandssalg|Utenlandsk land der mva. er inkludert i prisen|Utenlandsk land der mva. er ekskludert|
 |------------------------|--------|--------|--------|
@@ -95,7 +90,7 @@ Prisen for hver kunde endres avhengig av lokasjonen.
 > [!NOTE]
 > **Alle priser inkludert mva** endrer ikke hvordan prisene vises for internasjonale kunder.
 
-## <a name="if-you-sell-to-eu-customers"></a>Hvis du selger til EU-kunder
+## Hvis du selger til EU-kunder
 
 Forskjellige EU-land har forskjellige lokale mva-satser. Men hvis du befinner deg i EU og selger til andre EU-land, kan du bruke den lokale mva-satsen i noen tilfeller.  
 
@@ -107,7 +102,7 @@ Merk av for boksen **Innhent mva** i delen **EU** i innstillingene [**Avgifter**
 |Ett sentralt sted eller landsspesifikk registrering|Bruk mva-satsen for kundens land|
 
 
-### <a name="collect-vat-set-to-one-stop-shop-registration"></a>Samle inn mva-registrering til registrering på ett sentralt sted
+### Samle inn mva-registrering til registrering på ett sentralt sted
 
 I eksemplet nedenfor er **Alle priser inkludert mva** aktivert. Prisen på produktkortet er satt til *1200*.
         
@@ -117,7 +112,7 @@ I eksemplet nedenfor er **Alle priser inkludert mva** aktivert. Prisen på produ
 |Avgiftssatsprosenten|20|25|
 |Pris ved utsjekking|1200|1250|       
         
-### <a name="collect-vat-set-to-micro-business-exemption"></a>Samle inn mva-sett til Micro-Business-fritak
+### Samle inn mva-sett til Micro-Business-fritak
 
 I eksemplet nedenfor er **Alle priser inkludert mva** aktivert. Prisen på produktkortet er satt til *1200*.
         
@@ -129,7 +124,7 @@ I eksemplet nedenfor er **Alle priser inkludert mva** aktivert. Prisen på produ
     
 Shopify ignorerer mva-satsen i utenlands ved beregning av endelige priser, og bruker mva-satsen innenlands.
 
-## <a name="importing-shopify-orders-sold-to-international-customers"></a>Importere Shopify-bestillinger solgt til internasjonale kunder
+## Importere Shopify-bestillinger solgt til internasjonale kunder
 
 Hvis du samler inn avgifter fra flere land, må du mest sannsynlig definere en lands spesifikk innstilling i [!INCLUDE[prod_short](../includes/prod_short.md)]. Dette kreves fordi når et salgsdokument blir opprettet i [!INCLUDE[prod_short](../includes/prod_short.md)], beregner systemet mva i stedet for å bruke Shopify på nytt.
 
@@ -146,7 +141,7 @@ Land-/områdespesifikke innstillinger velges i **Shopify-kundemal**. Der kan du 
 [!Note]
 > Innstillingen for feltet **Priser inkl. mva** kommer fra malen, ikke fra den bestemte kunden. Det er derfor det er viktig å ha definert kundemalen.
 
-## <a name="other-tax-remarks"></a>Andre avgiftsmerknader
+## Andre avgiftsmerknader
 
 Når den importerte Shopify-ordren inneholder informasjon om avgifter, beregnes avgiftene på nytt når du oppretter salgsdokumentet. Omberegningen betyr at det er viktig at mva-/avgiftsinnstillingene er riktige i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -154,6 +149,6 @@ Når den importerte Shopify-ordren inneholder informasjon om avgifter, beregnes 
 
 - Adresseavhengige mva-satser. Bruk feltet **Prioritet for avgiftsområde** sammen med tabellen **Kundemaler** til å overskrive standard logikk som fyller ut **mva-områdekoden** i salgsdokumentet. Feltet **Mva-områdekode** angir prioriteten om hvor funksjonen skal hente informasjon om land/område og delstat/provins. Deretter identifiseres tilsvarende post i Shopify-kundemalene og **mva-områdekoden**, **skyldig mva.** og **mva.-bokføringsgruppe for firma** brukes når et salgsdokument opprettes.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Kom i gang med koblingen for Shopify](get-started.md)  

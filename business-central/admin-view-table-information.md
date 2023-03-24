@@ -9,20 +9,15 @@ ms.workload: na
 ms.search.form: 8700
 ms.date: 08/23/2022
 ms.author: jswymer
-ms.openlocfilehash: 990a8f56108bacfe82e6fe591858d238396f16be
-ms.sourcegitcommit: 38b1272947f64a473de910fe81ad97db5213e6c3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 08/29/2022
-ms.locfileid: "9362166"
 ---
-# <a name="viewing-table-information"></a>Vise Tabellinformasjon
+
+# Vise Tabellinformasjon
 
 Siden **8700 Tabellinformasjon** inneholder informasjon om antall poster i alle system- og forretningstabeller i [!INCLUDE[prod_short](includes/prod_short.md)] og hvor mye data hver tabell inneholder.
 
 Denne informasjonen er nyttig for å feilsøke ytelsesproblemer, siden dette gir deg muligheten til å se fordelingen av datastørrelsen på tvers av tabeller.
 
-## <a name="viewing-table-information"></a>Vise tabellinformasjon
+## Vise tabellinformasjon
 
 Du kan åpne denne siden ved å velge ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport") og angi **Tabellinformasjon**, og velg deretter den relaterte koblingen.
 
@@ -43,7 +38,7 @@ Følgende tabell beskriver opplysningene som er gitt for hver tabell:
 > [!NOTE]
 > Hvis du sletter data i en tabell, starter [!INCLUDE[prod_short](includes/prod_short.md)] flere prosesser i bakgrunnen for å sikre at alt fjernes i databasen. Verdiene på siden Tabellinformasjon oppdateres ikke før disse prosessene er fullført, noe som kan ta litt tid. Hvor lang tid du må vente, kan variere avhengig av størrelsen på databasen.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Kontrollere sider](across-inspect-page.md)  
 [Ytelsesartikler for utviklere](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

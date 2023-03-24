@@ -6,17 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: d8be2d8c3b9602c1a3e78f6cc4ba495af93730d3
-ms.sourcegitcommit: 7b6d70798b4da283d1d3e38a05151df2209c2b72
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 06/12/2022
-ms.locfileid: "8950176"
 ---
-# <a name="setup-best-practices-planning-parameters"></a>Anbefalte fremgangsmåter for oppsett: Planleggingsparametere
+# Anbefalte fremgangsmåter for oppsett: Planleggingsparametere
+
 Hurtigfanen **Planlegging** på varekortet er kjernen i et selskaps forsyningskjede. Det er svært viktig for kostnadseffektiv lagerkontroll og god kundeservice å angi riktige planleggingsparametre.  
 
  Tabellen nedenfor inneholder anbefalte fremgangsmåter for hvordan du konfigurerer valgte planleggingsparameterfelt. Hvis du vil ha mer informasjon om et felt, velger du koblingen i kolonnen **Oppsettfelt**.  
@@ -35,16 +30,16 @@ Hurtigfanen **Planlegging** på varekortet er kjernen i et selskaps forsyningskj
 |Avrundingspresisjon|Angi 0,00001 i dyr produksjon.|Store avrundingsantall for vrak eller materialforbruk kan beløpe seg til svært store lagerkostnader. Det kan derfor være relevant å angi den minste avrundingspresisjonen for å minimere denne potensielle kostnaden.|  
 
 > [!NOTE]  
->  Gode fremgangsmåter for planleggingsparameter på varekort gjelder også for de samme feltene på LFE-kort.  
->   
->  Hvis selskaper planlegger for behov på ulike lokasjoner, anbefales det sterkt at de definerer lagerføringsenheter for hver lokasjon, og at alt behov opprettes ved hjelp av en verdi i **Lokasjonskode**-feltet. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Behov på tom lokasjon](design-details-demand-at-blank-location.md).  
+> Gode fremgangsmåter for planleggingsparameter på varekort gjelder også for de samme feltene på LFE-kort.  
+>
+> Hvis selskaper planlegger for behov på ulike lokasjoner, anbefales det sterkt at de definerer lagerføringsenheter for hver lokasjon, og at alt behov opprettes ved hjelp av en verdi i **Lokasjonskode**-feltet. Finn ut mer under [Utformingsdetaljer: Planlegg med eller uten lokasjoner](production-planning-with-without-locations.md).  
 
-## <a name="see-also"></a>Se også  
- [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)   
- [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
- [Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)  
- [Designdetaljer: Behov på tom lokasjon](design-details-demand-at-blank-location.md)  
- [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Se også  
+[Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)  
+[Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)  
+[Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)  
+[Utformingsdetaljer: Planlegg med eller uten lokasjoner](production-planning-with-without-locations.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

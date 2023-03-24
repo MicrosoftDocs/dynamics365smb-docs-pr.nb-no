@@ -11,18 +11,12 @@ ms.search.keywords: user setup
 ms.search.form: 118
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: 558dcdf68f8ecc6a7c8def0b6a61a33d78f8f68b
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516320"
 ---
-# <a name="specify-posting-periods"></a>Angi bokføringsperioder
+# Angi bokføringsperioder
 
 Bruk bokføringsperioder til å angi når brukere kan postere til finans.  
 
-## <a name="to-specify-posting-periods"></a>Slik angir du bokføringsperioder
+## Slik angir du bokføringsperioder
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
 2. På siden **Finansoppsett** definerer du perioden ved å angi datoer i feltene **Bokf. tillatt fra** og **Bokf. tillatt til**.  
@@ -30,7 +24,7 @@ Bruk bokføringsperioder til å angi når brukere kan postere til finans.
 > [!NOTE]  
 > Disse bokføringsperiodene gjelder for selskapet og for alle brukere. For å tillate unntak kan du definere forskjellige bokføringsperioder for bestemte brukere på siden **Brukeroppsett**. Disse bokføringsperiodene overstyrer innstillingene angitt på **Finansoppsett**-siden. Se [Slik definerer du tidsbegrensninger for brukere](ui-define-granular-permissions.md#to-set-up-user-time-constraints) hvis du vil ha mer informasjon.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finans](finance.md)  
 [Fullføre prosesser ved periodens slutt](year-how-complete-period-end-processes.md)  

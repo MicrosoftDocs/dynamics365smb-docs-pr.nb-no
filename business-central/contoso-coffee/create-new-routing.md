@@ -6,22 +6,17 @@ ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: deb1ef6ab18cbd6562ae18cc17495fe3e5021db1
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8525246"
 ---
-# <a name="walkthrough-create-a-new-routing"></a>Gjennomgang: Opprett en ny rute
+
+# Gjennomgang: Opprett en ny rute
 
 I denne artikkelen leder vi deg gjennom trinnene for å bruke Contoso Coffee-demodataene til å definere en ny produksjonsrute manuelt i [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Oscar, prosessingeniøren hos Contoso Coffee, bestemmer hvordan de oppretter en ny rute med navnet *Ny bane*. Siden denne ruten er i motsetning til andre ruter hos Contoso Coffee, må han manuelt angi all informasjonen for ruten.  
 
-## <a name="steps"></a>Trinn
+## Trinn
 
 1. Opprett rutehodet.  
 
@@ -60,6 +55,6 @@ Oscar, prosessingeniøren hos Contoso Coffee, bestemmer hvordan de oppretter en 
 
 Den nye ruten er nå definert.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Innføring i demodata for Contoso Coffee](contoso-coffee-intro.md)  

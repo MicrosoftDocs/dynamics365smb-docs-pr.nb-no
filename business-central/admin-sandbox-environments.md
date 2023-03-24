@@ -1,23 +1,17 @@
 ---
 title: Sandkassemiljøer
-description: Finn ut hvordan et eget miljø kan hjelpe deg med å utforske, lære, prøve, utvikle, feilsøke og teste Business Central på en sikker måte.
+description: 'Finn ut hvordan et eget miljø kan hjelpe deg med å utforske, lære, prøve, utvikle, feilsøke og teste Business Central på en sikker måte.'
 author: SusanneWindfeldPedersen
 ms.topic: conceptual
 ms.reviewer: edupont
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: sandbox, demo, develop
+ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: solsen
-ms.openlocfilehash: f921660e82bb288b64a0ab559290c7645f1e9007
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529734"
 ---
-# <a name="sandbox-environments-in-prod_short"></a>Sandkassemiljøer i [!INCLUDE[prod_short](includes/prod_short.md)]
+# Sandkassemiljøer i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] online kan du enkelt få et sikkert miljø der du kan teste, lære opp eller feilsøke uten å forstyrre firmaets arbeidsprosesser eller forretningsdata. Et slikt ikke-produksjonsmiljø kalles en *sandkasse*. Isolert fra produksjon er et sandkassemiljø stedet der du trygt kan utforske, lære, demonstrere, utvikle og teste tjenesten uten risikoen ved å påvirke data og innstillinger i produksjonsmiljøet.  
 
@@ -41,13 +35,13 @@ Sandkassemiljøet er ikke minst nyttig fordi det inneholder et par nyttige funks
 <!--* [Complete sample data](#complete-sample-data)  -->
 * [Utforming](#designer)  
 
-## <a name="advanced-user-experience"></a>Avansert brukeropplevelse
+## Avansert brukeropplevelse
 
 Det er mulig å aktivere og prøve alle funksjonene i standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] i en sandkasseleietaker ved å sette **Opplevelse**-feltet på **Selskapsopplysninger**-siden til *Premium*. Finn **Selskapsopplysninger**-siden på ikonmenyen for :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Innstillinger-ikon."::: meny.  
 
 Når du har aktivert *Premium*-brukeropplevelsen, får du tilgang til alle standardprofilene (rollene) og rollesentrene i standardversjonen. Alternativt kan du kontakte en videresalgspartner for en demonstrasjon av funksjonene. Hvis du vil ha mer informasjon, kan du se [Hvordan finner jeg en partner for videresalg?](across-faq.yml#how-do-i-find-a-reselling-partner).  
 
-### <a name="complete-sample-data"></a>Fullstendige eksempeldata
+### Fullstendige eksempeldata
 
 I situasjoner der du trenger flere eksempeldata, kontakter du partneren for videresalg.
 <!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
@@ -62,7 +56,7 @@ I situasjoner der du trenger flere eksempeldata, kontakter du partneren for vide
 
 When the assisted setup guide completes, you can start exploring the new company with the complete sample data. For more information, see [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  -->
 
-## <a name="designer"></a>Designer
+## Designer
 
 I et sandkassemiljø finner du **Designer** aktivert. Du kan aktivere Designer ved å velge designikonet ![Designer.](./media/across-sandbox/sandbox-inclient-design-icon.png) på en side, eller ved å velge **Designer**-menyelementet på ![Innstillinger](media/ui-experience/settings_icon_small.png) menyen Innstillinger.  
 
@@ -70,9 +64,9 @@ Hvis du vil ha mer informasjon, kan du se [Bruk utformingen](/dynamics365/busine
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/admin-online-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/modules/admin-online-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Prøveversjoner og abonnementer for [!INCLUDE[prod_long](includes/prod_long.md)]](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

@@ -1,51 +1,43 @@
 ---
 title: Selge montere til ordre-varer og lagervarer sammen
-description: Hvis det er en del av en monteringsvare er konfigurert for montere-til-lager ikke er tilgjengelig, må du å opprette en monteringsordre for det gjenværende antallet.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: kit, kitting
-ms.search.form: 900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905
-ms.date: 06/14/2021
-ms.author: edupont
-ms.openlocfilehash: dafd52a1a2925c0347a455810ad727b8b89706dc
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607260"
+description: 'Hvis en del av en monter-til-lager-vare ikke er tilgjengelig, kan du opprette en monteringsordre for det gjenværende antallet.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 02/21/2023
+ms.custom: bap-template
+ms.search.keywords: 'kit, kitting'
+ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="sell-assemble-to-order-items-and-inventory-items-together"></a>Selge montere til ordre-varer og lagervarer sammen
+# Selge montere til ordre-varer og lagervarer sammen
 
-Hvis **Monteringsprinsipp**-feltet på varekortet for en monteringsvare inneholder **Monter til lager**, forutsetter standard ordreprosess at varen allerede er montert og kan plukkes fra lager, hvis den er tilgjengelig. Ingen monteringsordre blir derfor automatisk opprettet og koblet til ordrelinjen. Hvis en del av (eller hele) antallet imidlertid ikke er tilgjengelig, kan du opprette en monteringsordre for restantallet ved å fylle ut feltet **Ant. som skal monteres til ordre** på ordrelinjen. Slik kan du montere varen til ordre selv om den er definert slik at den monteres til lager som standard.  
+Hvis **Monteringsprinsipp**-feltet på varekortet for en monteringsvare inneholder **Monter til lager**, forutsetter standard ordreprosess at varen allerede er montert og kan plukkes fra lager, hvis den er tilgjengelig. En monteringsordre blir derfor ikke automatisk opprettet og koblet til ordrelinjen. Hvis noe eller hele antallet ikke er tilgjengelig, kan du derimot opprette en monteringsordre for det gjenværende antallet. Det gjør du ved å fylle ut feltet **Ant. som skal monteres til ordre** på ordrelinjen. Med denne innstillingen kan du montere varen til ordre selv om den er definert slik at den monteres til lager.  
 
-Det finnes en lignende fleksibilitet når du selger varer som skal monteres til ordre og en del av antallet, som du vil trekke fra monteringsordren, finnes på lager. Hvis du vil ha mer informasjon, kan du se [Selge lagervarer i montere-til-ordre-flyter](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
-
-> [!NOTE]  
->  Visse regler gjelder for feltet **Levere (antall)** på ordrelinjer som inneholder en kombinasjon av monter-til-ordre-antall og lagerantall. Hvis du vil ha mer informasjon, kan du se delen Kombinasjonsscenarier i [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md).  
+Du har lignende fleksibilitet når du selger monter-til-ordre-varer og noe av antallet allerede er på lager. Du bør trekke antallet fra monteringsordren. Hvis du vil finne ut mer om å selge lagervarer, kan du gå til [Selg lagervarer i montert-til-ordre-flyter](assembly-how-to-sell-inventory-items-in-assemble-to-order-flows.md).  
 
 > [!NOTE]  
->  Følgende fremgangsmåte omfatter ikke standardtrinnene for ordrer som du må følge før du oppretter en monteringsordre for utilgjengelige antall.
+> Det finnes regler som gjelder feltet **Levere (antall)** på ordrelinjer som inneholder en kombinasjon av monter-til-ordre-antall og lagerantall. Hvis du vil ha mer informasjon om reglene, kan du gå til [Kombinasjonsscenarioer](assembly-assemble-to-order-or-assemble-to-stock.md#combination-scenarios).  
 
-## <a name="to-sell-assemble-to-order-items-and-inventory-items-together"></a>Selge montere til ordre-varer og lagervarer sammen
+> [!NOTE]  
+> Følgende fremgangsmåte omfatter ikke trinnene for ordrer som du må følge før du oppretter en monteringsordre for utilgjengelige antall.
 
-1.  På en salgsordrelinje for en vare som er definert slik at den monteres til lager angir du et antall i feltet **Antall** som overskrider beholdningen. Siden **Kontroller tilgjengelighet** vises. Hvis du vil ha mer informasjon, kan du se [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md).
-2.  Noter verdien i feltet **Antall i alt** (en negativ verdi), som du vil angi i neste trinn.  
-3.  Angi verdien fra forrige trinn i feltet **Ant. som skal monteres til ordre**.  
-4.  Gjør eventuelle endringer i monteringskomponentene. Hvis du vil ha mer informasjon, kan du se [Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
-5.  Fortsett med å frigi ordren, for å klargjøre den for plukking av lagervarer og for montering av de utilgjengelige varene. Hvis du vil ha mer informasjon om disse standardtrinnene for montering, kan du se [Montere varer](assembly-how-to-assemble-items.md).  
+## Selge montere til ordre-varer og lagervarer sammen
+
+1. På en salgsordrelinje for en monter-til-ordre-vare angir du et antall i feltet **Antall** som overskrider beholdningen. Siden **Kontroller tilgjengelighet** vises. Hvis du vil finne ut mer om varedisposisjon, går du til [Vis tilgjengeligheten for varene](inventory-how-availability-overview.md).
+2. Angi verdien fra feltet **Totalt antall** i feltet **Ant. som skal monteres til ordre**.  
+3. Gjør eventuelle endringer som treng i monteringskomponentene. Finn ut mer under [Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
+4. Frigi ordren for å gjøre varer tilgjengelige for plukking av varene og for montering av de utilgjengelige varene. Hvis du vil finne ut mer om disse standardtrinnene for montering, kan du gå til [Monter varer](assembly-how-to-assemble-items.md).  
 
 > [!CAUTION]  
->  **Hyllekode**-feltet på ordren kan bli forhåndsutfylt i henhold til feltet **Hyllek. lev. fra m. til ordre** eller **Fra Hyllekode for montering** på lokasjonskortet. I dette tilfellet er kanskje **Hyllekode**-feltet på ordrelinjen feil i denne kombinasjonen av montere-til-ordre- og montere-til-lager-antall. Det er en god idé å undersøke **Hyllekode**-feltet og kontrollere at plasseringen fungerer for alle antall. Du kan også angi to forskjellige antall på separate ordrelinjer.  
+> **Hyllekode**-feltet på ordren kan inneholde verdien fra feltet **Hyllek. lev. fra m. til ordre** eller **Fra Hyllekode for montering** på lokasjonskortet. Hvis det er det, er kanskje **Hyllekode**-feltet på ordrelinjen feil for denne kombinasjonen av montere-til-ordre- og montere-til-lager-antall. Det er en god idé å dobbeltsjekke at hyllen i **Hyllekode**-feltet fungerer for alle antall. Du kan også angi to forskjellige antall på separate ordrelinjer.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Monteringsstyring](assembly-assemble-items.md)  
 [Arbeid med monteringsstykklister](assembly-how-work-assembly-boms.md)  
 [Lager](inventory-manage-inventory.md)  
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

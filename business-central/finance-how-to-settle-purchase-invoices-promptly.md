@@ -1,26 +1,20 @@
 ---
 title: Gjøre opp kjøpsfakturaer omgående
-description: Hvis du må betale leverandøren kontant eller med sjekk, kan du utføre den nødvendige bokføringen når du bokfører selve fakturaen.
+description: 'Hvis du må betale leverandøren kontant eller med sjekk, kan du utføre den nødvendige bokføringen når du bokfører selve fakturaen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.search.form: 51, 9308
+ms.search.form: '51, 9308'
 ms.date: 04/01/2021
 ms.author: bholtorf
-ms.openlocfilehash: 8386d5e52086f1a291529d828b66163c5d2851d3
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516294"
 ---
-# <a name="settle-purchase-invoices-promptly"></a>Gjøre opp kjøpsfakturaer omgående
+# Gjøre opp kjøpsfakturaer omgående
 
 Hvis du må betale leverandøren kontant eller med sjekk, kan du bokføre betalingen når du bokfører selve fakturaen.  
 
 > [!NOTE]  
 > Hvis du vanligvis betaler kjøpsfakturaer kontant, med sjekk eller bankoverføring, er det lurt å definere en bestemt betalingsmåte med en motkonto, og angi denne betalingsmåten i feltet **Betalingsmåte** på leverandørkortet. Motkontonummeret settes automatisk inn i fakturahodet hver gang du oppretter en ny faktura. Hvis du vil ha mer informasjon, kan du se [Definere betalingsmåter](finance-payment-methods.md).  
 
-## <a name="to-settle-purchase-invoices-promptly"></a>Slik gjør du opp kjøpsfakturaer omgående
+## Slik gjør du opp kjøpsfakturaer omgående
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
@@ -31,7 +25,7 @@ Hvis du må betale leverandøren kontant eller med sjekk, kan du bokføre betali
 >
 > Denne tilpassingen er bare nødvendig hvis du ikke angir motkonti i betalingsmåtene som beskrevet ovenfor.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  

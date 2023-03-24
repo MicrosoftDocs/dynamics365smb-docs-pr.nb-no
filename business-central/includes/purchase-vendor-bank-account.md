@@ -3,13 +3,8 @@ author: rubenseishima
 ms.topic: include
 ms.date: 06/30/2022
 ms.author: a-reishima
-ms.openlocfilehash: c77d21222c7ac2fe2ddcfe4cfa129c6959afa441
-ms.sourcegitcommit: 5560a49ca4ce85fa12e50ed9e14de6d5cba5f5c3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 07/13/2022
-ms.locfileid: "9144409"
 ---
+
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Leverandører** og velger den relaterte koblingen.
 2. Åpne kortet for leverandøren.
 3. Velg **Bankkonti**-handlingen.

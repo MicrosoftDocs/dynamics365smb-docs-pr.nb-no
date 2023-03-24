@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: ba7edc6de37d41cd2bb31285c18d127be6612288
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8130049"
 ---
-# <a name="set-up-statuses-for-service-orders-and-repairs"></a>Definere statuser for serviceordrer og reparasjoner
+# Definere statuser for serviceordrer og reparasjoner
 
 Du må definere ni alternativer for reparasjonsstatus som identifiserer fremdriften av reparasjon og vedlikehold på servicevarer i serviceordrer. Du må definerer minst ni alternativer for reparasjonsstatus som identifiserer situasjoner eller handlinger som er iverksatt under vedlikehold av servicevarer.  
 
@@ -26,7 +20,7 @@ Når du endrer reparasjonsstatusen til en servicevare i en serviceordre, oppdate
 
 Før du kan definere en reparasjonsstatus, må du definere servicestatusprioritet.
 
-## <a name="to-set-up-service-status-priorities"></a>Slik definerer du servicestatusprioritet
+## Slik definerer du servicestatusprioritet
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Serviceordrestatus**, og velg deretter den relaterte koblingen.  
 2. Velg serviceordrestatusen du vil angi en prioritet for.  
@@ -34,7 +28,7 @@ Før du kan definere en reparasjonsstatus, må du definere servicestatuspriorite
 
 Gjenta trinnene 2 og 3 til du har angitt prioriteten for hvert enkelt av de fire statusalternativene: **Venter**, **I arbeid**, **Ferdig** og **Avvent**.  
 
-## <a name="to-set-up-a-repair-status"></a>Slik definerer du reparasjonsstatus
+## Slik definerer du reparasjonsstatus
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Reparasjonsstatus** og velg deretter den relaterte koblingen.
 2. Opprett en ny reparasjonsstatus.  
@@ -47,7 +41,7 @@ Gjenta trinnene 2 og 3 til du har angitt prioriteten for hvert enkelt av de fire
 
 Gjenta disse trinnene for hvert enkelt alternativ for reparasjonsstatusen du vil opprette.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Serviceordrestatus og reparasjonsstatus](service-service-order-status-and-repair-status.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  

@@ -7,16 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/24/2021
-ms.search.form: ''
+ms.search.form: null
 ms.author: edupont
-ms.openlocfilehash: e306cc27753e86e8e1a0a315406643bcf6f44d8a
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822522"
 ---
-# <a name="posting-documents-and-journals"></a>Bokføre dokumenter og kladder
+# Bokføre dokumenter og kladder
 
 Bokføring representerer regnskapshandlingen for registrering av forretningstransaksjoner i de ulike selskapspostene.
 
@@ -33,7 +27,7 @@ Tabellen nedenfor beskriver relaterte oppgaver, og du finner koblinger til emnen
 | Forhåndsvis postene som blir opprettet når du bokfører, på en side. |[Forhåndsvise bokføringsresultater](ui-how-preview-post-results.md) |
 | Forhåndsvis i en rapport postene som blir opprettet når du bokfører. |[Vise testrapporter før bokføring](ui-how-view-test-reports-posting.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Redigere bokførte dokumenter](across-edit-posted-document.md)  
 [Finn relaterte poster for dokumenter](ui-find-entries.md)  

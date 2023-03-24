@@ -1,30 +1,24 @@
 ---
 title: Finansrapporter og analyser
-description: Se hvilke finansrapporter og analyser som er tilgjengelige i standardversjonen av Business Central, slik at du kan holde oversikt over virksomheten. Bruk rapport 38 for resultatrapportering.
+description: 'Se hvilke finansrapporter og analyser som er tilgjengelige i standardversjonen av Business Central, slik at du kan holde oversikt over virksomheten. Bruk rapport 38 for resultatrapportering.'
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_4, Report_6, Report_7, Report_9, Report_25, Report_38
+ms.search.form: 'Report_4, Report_6, Report_7, Report_9, Report_25, Report_38'
 ms.date: 08/24/2022
 ms.author: edupont
-ms.openlocfilehash: 8838569a1077a5c9befc1ab11daab49432563d3c
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605087"
 ---
-# <a name="financial-reports-and-analytics-in-business-central"></a>Finansrapporter og analyser i Business Central
+# Finansrapporter og analyser i Business Central
 
 Ved finansiell rapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gir regnskapsavdelingen og driftsavdelingen muligheten til å opprette, vedlikeholde, distribuere og vise årsregnskap. Flytter seg utenfor tradisjonelle rapporteringsbegrensninger for å hjelpe deg med å utforme forskjellige typer rapporter effektivt. [!INCLUDE [prod_short](includes/prod_short.md)] inkluderer flere rapporter, sporingsfunksjoner og verktøy som hjelper revisorer eller kontrollører som er ansvarlige for rapportering til økonomiavdelingen. Financial Reporting inkluderer støtte for dimensjoner, så kontosegmenter eller dimensjoner er umiddelbart tilgjengelige. Ingen andre verktøy eller konfigurasjonstrinn kreves.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## <a name="reports"></a>Rapporter
+## Rapporter
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## <a name="tasks"></a>Oppgaver
+## Oppgaver
 
 Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilstanden i virksomheten din:
 
@@ -36,9 +30,9 @@ Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilst
 * [Opprett rapporter med XBRL](bi-create-reports-with-xbrl.md)  
 * [Administrere databasetilgangsformål](admin-data-access-intent.md)  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/create-financial-reports-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opprette kostbudsjetter](finance-create-cost-budgets.md)  
 [Rapporter mva til skattemyndighetene](finance-how-report-vat.md)  

@@ -1,29 +1,23 @@
 ---
 title: Opprette samhandlinger på kontakter og segmenter
-description: Beskriver hvordan du kan opprette samhandlinger for kommunikasjon du har med kontaktene og segmentene i Business Central, for eksempel direktereklame.
+description: 'Beskriver hvordan du kan opprette samhandlinger for kommunikasjon du har med kontaktene og segmentene i Business Central, for eksempel direktereklame.'
 documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect
-ms.search.forms: 5077, 5078, 5074, 5076, 5186, 5075, 5079
+ms.search.keywords: 'relationship, prospect'
+ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: f0e0660d1a93e462af3a7a74ccd1d6420ef86c3d
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522905"
 ---
-# <a name="create-interactions-on-contacts-and-segments"></a>Opprette samhandlinger på kontakter og segmenter
+# Opprette samhandlinger på kontakter og segmenter
 Du kan opprette samhandlinger hvis du vil registrere all samhandling og kommunikasjon med kontaktene og segmentene, for eksempel utsendinger.
 
 Før du kan opprette samhandlinger, må du definere samhandlingsmaler. Hvis du vil ha mer informasjon, kan du se [Definere samhandlingsmaler](marketing-interactions.md).
 
-## <a name="to-create-an-interaction"></a>Slik oppretter du en samhandling
+## Slik oppretter du en samhandling
 1. Åpne kontakt-, selger- eller samhandlingsposten.
 2. Velg handlingen **Opprett samhandling**.
 3. Fyll ut feltene, og klikk deretter **OK**.
@@ -31,12 +25,12 @@ Før du kan opprette samhandlinger, må du definere samhandlingsmaler. Hvis du v
 > [!NOTE]  
 >   Hvis du må utføre en annen oppgave før du fullfører samhandlingen, kan du velge **Avbryt** og deretter velge å fullføre samhandlingen på et senere tidspunkt. Dette utsetter samhandlingen.
 
-## <a name="to-finish-and-delete-postponed-interactions"></a>Fullføre og slette utsatte samhandlinger
+## Fullføre og slette utsatte samhandlinger
 1. Åpne kontakt-, selger- eller samhandlingsposten.
 2. Velg **Utsatte samhandlinger**.
 3. Velg samhandlingen du vil fullføre, og velg deretter handlingen **Fortsett**.
 
-## <a name="to-create-an-interaction-on-a-segment"></a>Opprette en samhandling på et segment
+## Opprette en samhandling på et segment
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Segmenter**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene i inndelingen **Samhandling** på **Segment**-siden for å angi hvilken samhandling du vil tilordne segmentet.
 
@@ -48,7 +42,7 @@ En samhandling registreres for hver kontakt i segmentet i tabellen **Samhandling
 
 Hvis du har merket av for **Opprett oppfølgingssegment**, opprettes et nytt segment som inneholder de samme kontaktene som segmentet du nettopp loggførte.
 
-## <a name="see-also"></a>Se også
+## Se også
 [Registrere samhandlinger](marketing-interactions.md)  
 [Administrere kontakter](marketing-contacts.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  

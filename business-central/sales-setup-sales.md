@@ -1,23 +1,17 @@
 ---
 title: Oversikt over oppgaver for å konfigurere salgsprosesser
-description: Oversikt over oppgaver som kreves for å definere regler og verdier som definerer salgspolicyer og prosesser, inkludert generelt oppsett og finansrelatert salgsoppsett.
+description: 'Oversikt over oppgaver som kreves for å definere regler og verdier som definerer salgspolicyer og prosesser, inkludert generelt oppsett og finansrelatert salgsoppsett.'
 author: SorenGP
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: trade, sell, configure
-ms.search.form: 170, 172, 300, 301, 428, 456, 459, 1401
+ms.search.keywords: 'trade, sell, configure'
+ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 2346c246fdf0d9973f40e7d0073dee9004c68669
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531354"
 ---
-# <a name="setting-up-sales"></a>Sette opp salg
+# Sette opp salg
 Før du kan håndtere salgsprosesser, må du konfigurere regler og verdier som definerer selskapets salgsprinsipper.
 
 Du må definere det generelle oppsettet på **Salg**-siden, for eksempel hvilke salgsdokumenter som kreves, hvordan deres verdier bokføres, og hvilken type linjer som skal opprettes som standard. Dette generelle oppsettet foretas vanligvis én gang under den første implementeringen.
@@ -39,9 +33,9 @@ Finansrelatert salgsoppsett, for eksempel betalingsmåte og valutaer, beskrives 
 |Angi informasjon om de ulike transportørene du benytter, inkludert en kobling til pakkesporingstjenesten.|[Sett opp transportører](sales-how-to-set-up-shipping-agents.md)|
 |Angi standardrapporter som skal brukes for ulike dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/trade-get-started-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/paths/trade-get-started-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 [Salg](sales-manage-sales.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -7,17 +7,12 @@ ms.custom: na
 ms.date: 06/14/2021
 ms.reviewer: na
 ms.topic: conceptual
-ms.openlocfilehash: 8c37617355582748658d20dfac9578bbf4b33d1d
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8382128"
 ---
-# <a name="responding-to-requests-about-users-personal-data"></a>Svare på forespørsler om brukers personopplysninger  
+
+# Svare på forespørsler om brukers personopplysninger  
 Dataemner kan be om flere typer handlinger med hensyn til sine personopplysninger. For eksempel under EUs personvernforordning (GDPR) har innbyggere i EU rett til å be om eksport, sletting og endring av personlig informasjon. Dette kalles *dataemneforespørsel*. Hvis du har klassifisert følsomhetsnivået for dataene og er sikker på at de er riktige, kan en administrator svare på forespørsler ved hjelp av alternativene under kategorien **Datavern** i rollesenteret **IT-sjef**. Hvis du vil ha mer informasjon om klassifisering av data og klassifisering av datasensitivitet i [!INCLUDE[prod_long](includes/prod_long.md)], kan du se [Klassifisere data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json) og [Klassifisere datasensitivitet](admin-classifying-data-sensitivity.md).  
 
-## <a name="types-of-requests"></a>Typer forespørsler
+## Typer forespørsler
 
 Tabellen nedenfor inneholder eksempler på ulike typer forespørsler du kan svare på.
 
@@ -30,10 +25,10 @@ Tabellen nedenfor inneholder eksempler på ulike typer forespørsler du kan svar
 |Forespørsler om sletting|Et dataemne kan be om at du kan sletter deres personopplysninger. Det finnes flere metoder for å slette personopplysninger ved hjelp av funksjonene for tilpassing, men avgjørelsen og implementeringen er ditt ansvar. I noen tilfeller kan du redigere data direkte, for eksempel slette en kontakt og deretter utføre kjørselen Slett annullerte samhandlingsposter for å slette samhandlinger for kontakten. <br><br> **Obs!** Hvis du har angitt en dato i feltet **Tillat sletting av dokument før** på siden **Salgsoppsett** eller **Kjøpsoppsett** sider, må du kanskje endre datoen, slik at du kan slette bokførte salgs- og kjøpsdokumenter som du har skrevet ut og som har bokføringsdatoer på eller før denne datoen.|
 |Forespørsler om korrigering|Et dataemne kan be om at du kan korrigerer feile personopplysninger. Det er flere måter å gjøre dette på. I noen tilfeller kan du eksportere lister til Excel for rask samleredigering av flere poster, og deretter importere de oppdaterte dataene. Hvis du vil ha mer informasjon, kan du se [Eksportere forretningsdataene til Excel](about-export-data.md). Du kan også manuelt redigere felt som inneholder personopplysninger, for eksempel redigere opplysninger om en kunde i kundekortet. Imidlertid er transaksjonsposter, for eksempel kunde- og mva-poster, viktig for integriteten til ressursplanleggingssystemet til virksomheten. Hvis du lagrer personopplysninger i forretningstransaksjonsposter, bør du vurdere å bruke funksjonene for tilpassing for å endre slike personopplysninger.|
 
-## <a name="restrict-data-processing-for-a-data-subject"></a>Begrense databehandling for et dataemne
+## Begrense databehandling for et dataemne
 Et dataemne kan be om at du midlertidig stopper behandling av deres personopplysninger. Hvis du vil overholde slike forespørsler, kan du merke posten som blokkert på grunn av personvern for å stoppe behandling av opplysningene deres. Når en post er merket som blokkert, kan du ikke opprette nye transaksjoner som bruker denne posten. Du kan for eksempel ikke opprette en ny faktura for en kunde når kunden eller selgeren er blokkert. Hvis du vil merke et dataemne som blokkert, åpner du kortet for dataemnet, for eksempel kunde-, leverandør- eller kontaktkortet, og merker av for **Personvern sperret**. Du må kanskje velge **Vis mer** for å vise feltet.  
 
-## <a name="handling-data-subject-requests-while-in-trial"></a>Håndtere dataemneforespørsler ved prøveversjon
+## Håndtere dataemneforespørsler ved prøveversjon
 Enkelte typer personopplysninger inngår i Microsoft 365-kontoen og krever administratortilgang for å eksporteres hvis du får en dataemneforespørsel fra en bruker angående denne typen personopplysninger under EUs personvernforordning (GDPR). Prosessen for å håndtere dataemneforespørsler er forskjellig avhengig av typen [!INCLUDE[prod_short](includes/prod_short.md)]-leietaker.  
 
 Hvis du har et betalt abonnement for [!INCLUDE[prod_short](includes/prod_short.md)], må du kontakte organisasjonens leietakeradministrator for å opprette en dataemneforespørsel. Administratoren har administrasjonsrettigheter og verktøy for å oppfylle forespørselen.  
@@ -44,18 +39,18 @@ På personvernsiden for arbeid og skole kan du også lukke kontoen. Vi anbefaler
 
 Du kan fortsatt merke personer som blokkert på grunn av personvern og eksportere, redigere eller slette transaksjoner som beskrevet et annet sted i denne artikkelen.  
 
-## <a name="exporting-data-from-tables-not-classified-by-data-subject"></a>Eksportere data fra tabellene som ikke er klassifisert etter dataemne
+## Eksportere data fra tabellene som ikke er klassifisert etter dataemne
 Hvis du har en situasjon der du må eksportere data som ikke er klassifisert slik at de eksporteres automatisk, for eksempel dataene fra tabellen Profilsvar, må du gjøre følgende:
 -   Vurder om du virkelig vil eller må eksportere disse tilleggsdataene som ikke er knyttet til kontakten, det vil si at de er ikke direkte knyttet til den
 -   Legg til denne tabellen og relasjonen manuelt i hurtigstartpakken, og eksporter dem direkte fra hurtigstartpakken. Derfor generere vi hurtigstartpakken for deg, slik at du kan endre den i situasjoner som denne.
 
-## <a name="handling-data-about-minors"></a>Håndtere opplysninger om mindreårige
+## Håndtere opplysninger om mindreårige
 Hvis en kontaktperson alderen er lavere enn alderen for juridiske samtykke i henhold til lovene i ditt område, kan du angi dette ved å merke av for **Mindreårig** på **Kontakt**-kortet. Når du gjør dette merkes det automatisk av for **Personvern sperret**. Når du mottar samtykke fra den mindreåriges forelder eller juridiske verge, kan du merke av for **Samtykke fra foreldre mottatt** for å oppheve blokkeringen av kontakten. Selv om du kan behandle personopplysninger for mindreårige, kan du ikke bruke profileringsfunksjonaliteten i Dynamics 365 Sales.
 
 > [!Note]
 > Endringsloggen kan registrere opplysninger om for eksempel når og hvem som merket av for **Samtykke fra foreldre mottatt**. Administrator kan konfigurere dette ved å bruke veiledningen **Endringsloggoppsett** og også merke av for **Logge endring for samtykke fra foreldre mottatt** på **Kontakt**-kortet. Hvis du vil ha mer informasjon, kan du se [Logge endringer](across-log-changes.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 [Klassifisere data](/dynamics-nav/classifying-data?toc=/dynamics365/business-central/toc.json)  
 [Klassifisere datasensitivitet](admin-classifying-data-sensitivity.md)  
 [Eksportere forretningsdataene til Excel](about-export-data.md)  

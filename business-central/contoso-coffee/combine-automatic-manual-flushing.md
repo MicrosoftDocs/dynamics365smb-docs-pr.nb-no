@@ -1,27 +1,22 @@
 ---
 title: Kombiner automatisk og manuell trekking
-description: Gjennomgang for en produksjonsplanlegger hos Contoso Coffee, som vil kombinere automatisk og manuelt lagertrekk.
+description: 'Gjennomgang for en produksjonsplanlegger hos Contoso Coffee, som vil kombinere automatisk og manuelt lagertrekk.'
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
 author: edupont04
 ms.author: andreipa
-ms.openlocfilehash: c5552d81dc612070b5dd5512222806527e18ce7e
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9078755"
 ---
-# <a name="walkthrough-combine-automatic-and-manual-flushing"></a>Gjennomgang: Kombiner automatisk og manuell trekking
+
+# Gjennomgang: Kombiner automatisk og manuell trekking
 
 I denne artikkelen tar vi deg gjennom trinnene for å bruke Contoso Coffee-demodataene i trekk.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Du er produksjonsplanleggeren hos Contoso Coffee. Du må opprette en ny produksjonsordre for ti enheter av varen SP-SCM1004, AutoDrip. Noen komponenter og operasjoner vil bli tømt, og andre avrundet basert på ulike betingelser.
 
-## <a name="steps"></a>Trinn
+## Trinn
 
 > [Obs!] Husk å justere lageret ved å postere varekladd med åpningssaldoer.
 
@@ -108,7 +103,7 @@ Du er produksjonsplanleggeren hos Contoso Coffee. Du må opprette en ny produksj
 
 Det er for manuell og automatisk lagertrekk av komponenter.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Lagertrekk komponenter i henhold til operasjonsavgang](../production-how-to-flush-components-according-to-operation-output.md)  
 [Innføring i demodata for Contoso Coffee](contoso-coffee-intro.md)  

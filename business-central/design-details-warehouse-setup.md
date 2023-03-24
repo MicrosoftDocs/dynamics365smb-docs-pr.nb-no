@@ -1,22 +1,16 @@
 ---
 title: Designdetaljer – Lageroppsett
-description: Lagerfunksjonaliteten inneholder forskjellige typer kompleksitet, som stort sett defineres av oppsettet for hyllen på lokasjonskort.
+description: 'Lagerfunksjonaliteten inneholder forskjellige typer kompleksitet, som stort sett defineres av oppsettet for hyllen på lokasjonskort.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
-ms.openlocfilehash: 9014836d228ee5bd01a74129fa0ba2aa0dd8dcea
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142344"
 ---
-# <a name="design-details-warehouse-setup"></a>Designdetaljer: Lageroppsett
+# Designdetaljer: Lageroppsett
 
 Lagerfunksjonaliteten i [!INCLUDE[prod_short](includes/prod_short.md)] inneholder ulike kompleksitetsnivåer, som definert av lisenstillatelser i granulene som tilbys. Kompleksitetsnivået i en lagerløsning er hovedsakelig definert av hylleoppsettet på lokasjonskort, som i sin tur er lisenskontrollert, slik at tilgang til hylleoppsettsfeltene defineres av lisensen. I tillegg styrer programobjektene i lisensen hvilke brukergrensesnittdokument som skal brukes for de støttede lageraktivitetene.  
 <!--
@@ -50,7 +44,7 @@ Tabellen nedenfor viser hvilke granuler som kreves for å kunne definere ulike k
 
 Hvis du vil se eksempler på hvordan grensesnittdokumentene brukes for hvert kompleksitetsnivå for lageret, kan du se [Designdetaljer: Inngående lagerflyt](design-details-inbound-warehouse-flow.md).  
 
-## <a name="bin-and-bin-content"></a>Hylle og hylleinnhold
+## Hylle og hylleinnhold
 
 En hylle er en lagringsenhet som er utformet for å inneholde atskilte deler. Dette er den minste beholderenheten i [!INCLUDE[prod_short](includes/prod_short.md)]. Vareantall i hyller kalles hylleinnhold. Et oppslag fra **Vare**-feltet eller **Hyllekode**-feltet på en hvilken som helst lagerrelatert dokumentlinjen viser beregnet tilgjengeligheten for varen på hyllen.  
 
@@ -67,7 +61,7 @@ Egenskapen for standardhylle brukes av systemet til å foreslå hyller for lager
 
 Det kan bare finnes én standardhylle per vare per lokasjon.  
 
-## <a name="bin-type"></a>Hylletype
+## Hylletype
 
 I LA-installasjoner kan du begrense lageraktiviteter som er tillatt for en hylle, ved å tilordne en hylletype til den. Følgende hylletyper finnes:  
 
@@ -85,7 +79,7 @@ For alle hylletyper, unntatt PLUKK, PLASSPLUKK og PLASSERING, tillates ingen ann
 > [!NOTE]  
 > Bare flytting kan utføres til hyller av typen MOTTAK og KK. Likeledes er det bare flyttinger som kan gjøres fra hyller av typen LEVERING og KK.  
 
-## <a name="bin-ranking"></a>Hylleprioritering
+## Hylleprioritering
 
 I avanserte lagerstyring kan du automatisere og optimalisere hvordan varer samles på plassering og plukkforslag ved rangering av hyllene, slik at varene blir foreslått plukket eller plassert i henhold til rangeringskriterier for å brukelagerplassen optimalt.  
 
@@ -93,7 +87,7 @@ Plasseringsprosesser er optimalisert i henhold til hylleprioriteringen ved å fo
 
 Hylleprioriteringen sammen med informasjonen om hylleinnhold er de grunnleggende egenskapene som lar brukere spor varer på lageret.  
 
-## <a name="bin-setup"></a>Hylleoppsett  
+## Hylleoppsett  
 I avansert lagerstyring kan hyller konfigureres med kapasitetsverdier, for eksempel antall, det totale kubikkinnholdet og vekt, for å styre hvilke og hvordan varer lagres på hyllen.  
 
 På hvert enkelt varekort kan du tilordne en enhet for varen, for eksempel deler, paller, liter, gram eller bokser. Du kan også ha en lagerenhet for en vare og angi større enheter som er basert på den. Du kan for eksempel angi at pall er lik 16 enheter, der det siste er en lagerenhet.  
@@ -105,7 +99,7 @@ Før du angir begrensninger for kapasitet for hylleinnhold på en hylle, må du 
 > [!NOTE]  
 > Det er bare mulig å arbeide med flere enheter i LA-installasjoner. I alle andre konfigurasjoner kan hylleinnhold bare være i lagerenheten. Antallet konverteres til grunnenhet for alle transaksjoner med enhet større enn varens grunnenhet.  
 
-## <a name="zone"></a>Sone
+## Sone
 
 I avanserte lagerstyring kan hyller grupperes i soner for å styre hvordan arbeidsflyten er i lageraktiviteter.  
 
@@ -113,18 +107,18 @@ En sone kan være en mottakssone eller en lagringssone, og hver sone kan bestå 
 
 De fleste egenskapene som er tilordnet en sone tilordnes som standard til hyllen som er opprettet fra denne sonen.  
 
-## <a name="class"></a>Klasse  
+## Klasse  
 I avanserte lagerstyring kan du tilordne lagerklassekoder til varer, hyller og sonene for å styre hvor forskjellige vareklasser blir lagret, for eksempel frosne varer. Du kan dele opp en sone i flere lagerklasser. Varer i mottakssonen kan for eksempel lagres som frosset, farlige eller en annen klasse.  
 
 Når du arbeider med lagerklasser og en standard mottaks-/leveringshylle, må du fylle ut de aktuelle hyllene på lagermottaks- og lagerfølgeseddellinjene manuelt.  
 
 I inngående flyter utheves lagerklassekoden bare på innkommende linjer der vareklassekoden ikke samsvarer med standard mottakshylle. Hvis riktige standardhyller ikke tilordnes, kan ikke antallet mottas.  
 
-## <a name="location"></a>Lokasjon
+## Lokasjon
 
 En lokasjon er en fysisk struktur eller et sted der beholdning mottas, lagres og leveres, potensielt organisert i hyller. En lokasjon kan være et lager, en servicebil, et utstillingslokale, et anlegg eller et område på et anlegg.  
 
-## <a name="first-expired-first-out"></a>FEFO (First Expired First Out)
+## FEFO (First Expired First Out)
 
 Hvis du merker av for **Plukk i henhold til FEFO** for hurtigfanen **Hylleprinsipp** på lokasjonskortet, blir varesporede varer plukket i henhold til utløpsdatoen. Varene med de tidligste utløpsdatoene plukkes først.  
 
@@ -132,14 +126,14 @@ Lageraktiviteter i alle plukke- og flyttedokumenter sorteres i henhold til FEFO,
 
 Når det plukkes etter FEFO, samles tilgjengelige varer som utløper først, i en midlertidig varesporingsliste basert på utløpsdato. Hvis to varer har samme utløpsdato, blir varen med lavest parti- eller serienummer valgt først. Hvis parti- eller serienumrene er like, blir varen som ble registrert først, valgt først. Standardkriterier for å velge varer i plukkhyller, for eksempel Hylleprioritering eller Anbrekk, brukes på denne midlertidige FEFO-varesporingslisten.  
 
-## <a name="put-away-template"></a>Plasseringsmal
+## Plasseringsmal
 
 Plasseringsmalen kan tilordnes til en vare og en lokasjon. Plasseringsmalen angir et sett med prioriterte regler som må følges ved opprettelse av plasseringer. En plasseringsmal kan for eksempel kreve at varen plasseres i en hyllen med hylleinnhold som samsvarer med enheten, og hvis det ikke finnes en lignende hylle med nok kapasitet, må varen plasseres i en tom hylle.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Designdetaljer: Lagerstyring](design-details-warehouse-management.md)   
-[Designdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md)
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
+[Utformingsdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md)
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

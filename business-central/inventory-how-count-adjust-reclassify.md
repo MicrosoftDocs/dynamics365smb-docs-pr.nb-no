@@ -1,245 +1,214 @@
 ---
-title: Telle, justere og reklassifisere lagerbeholdning
-description: Du kan utføre fysisk telling, foreta negative eller positive justeringer og endre informasjon, for eksempel lokasjons- eller partinummer, i vareposter eller lagerposter.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: adjustment, negative, positive, increase, decrease
-ms.search.forms: 1327, 393, 392, 390, 7381, 7380, 7319, 7324, 7326, 7365
-ms.date: 06/16/2021
-ms.author: edupont
-ms.openlocfilehash: 40e11554ab073c62b33b0623fc2bbd5a8038f686
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533298"
+title: 'Telle, justere og reklassifisere lagerbeholdning'
+description: Lær hvordan du foretar fysisk opptelling og lager justeringer og reklassifiseringer.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
+ms.topic: how-to
+ms.date: 12/20/2022
+ms.custom: bap-template
 ---
-# <a name="count-adjust-and-reclassify-inventory-using-journals"></a>Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder
+# Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder
 
-Minst én gang hvert regnskapsår må du utføre en vareopptelling, det vil si telle alle varer på lager, for å se om antallet som er registrert i databasen, er det samme som det faktiske antallet i lageret. Når det faktiske antallet er funnet, må det bokføres i Finans som en del av verdifastsettelsen av lageret ved periodens avslutning.
+Tell fysisk alle varene på lager for å sikre at antallet er riktig. Noen bedrifter utfører en årlig fysisk opptelling, og andre teller alle eller bare noen varer oftere. Når du har talt varene, bruker du kladder til å bokføre de faktiske antallene til finans. Når du for eksempel valuterer lageret på slutten av en periode.
 
-Selv om du teller alle varene i beholdningen minst én gang i året, kan du ha bestemt deg for å telle noen varer oftere, kanskje fordi de er mer verdifulle eller fordi de har rask omløpstid og utgjør en stor del av forretningene. Hvis du vil gjøre dette, kan du tilordne spesielle opptellingsperioder til disse varene. Hvis du vil ha mer informasjon, kan du se [Slik utfører du syklustelling](inventory-how-count-adjust-reclassify.md#to-perform-cycle-counting).
+Når du skal telle noen varer oftere enn andre, kanskje på grunn av verdien, bruker du syklustellinger. For syklustellinger tildeler du spesielle opptellingsperioder til varene. Finn ut mer under [Utfør syklustelling](inventory-how-count-adjust-reclassify.md#to-do-cycle-counting).
 
-Hvis du har bruk for å justere registrerte lagerantall, i forbindelse med opptellinger eller til andre formål, kan du bruke en varekladd til å endre lagerpostene direkte, uten å bokføre forretningstransaksjoner. Du kan også justere for én vare på varekortet.
+Hvis du vil justere antall etter en opptelling eller andre formål, kan du bruke en varekladd til å endre lagerpostene uten å bokføre transaksjoner. Du kan også justere antallet for én vare på et varekort.
 
-Hvis du har bruk for å endre lagerpostattributter, kan du bruke varereklassifiseringskladden. Attributter som ofte reklassifiseres, er dimensjoner og salgskampanjekoder, men du også utføre systemoverføringer ved å reklassifisere hylle- og lokasjonskoder. Spesielle trinn brukes når du vil reklassifisere serie- eller partinumre og utløpsdatoene deres. Hvis du vil ha mer informasjon, kan du se [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md).
-
-> [!NOTE]
-> Varene er registrert i hyller som lagerposter, ikke vareposter, i et avansert lageroppsett. Derfor kan utføre du telle, justere og reklassifisere i spesielle lagerkladdene som støtter hyller. Deretter bruke du spesielle for å synkronisere nye eller endrede lagerposter med de relaterte varepostene å utføre endringene i antall og verdier. Dette beskrives i en bestemt fremgangsmåtene nedenfor der det er relevant.
-
-## <a name="to-perform-a-physical-inventory"></a>Utføre en vareopptelling
-
-Ved slutten av et regnskapsår, eller oftere, må du foreta en vareopptelling, altså telle den faktiske varebeholdningen, for å se om det antallet som er registrert i programmet er identisk med det fysiske antallet som er på lager. Hvis det er en differanse, må denne bokføres til varekontiene før du kan fastsette verdien av lageret.
+For å endre attributter på vareposter bruker du en varereklassifiseringskladd. Vanlige attributter som skal reklassifiseres, inkluderer dimensjoner og salgskampanjekoder. Reklassifiseringskladder kan også brukes til overføringer ved å reklassifisere hylle og lokasjonskoder. Spesielle trinn brukes når du vil reklassifisere serie- eller partinumre og utløpsdatoene deres. Hvis du vil ha mer informasjon, kan du se [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md).
 
 > [!NOTE]
-> Denne fremgangsmåten beskriver hvordan du utfører en vareopptelling ved hjelp av en kladd, siden **Vareopptellingskladd**. Du kan også utføre oppgaven med dokumenter, sidene **Vareopptellingsordre** og **Registrering for vareopptelling**, som gir mer kontroll og støtter distribusjon av opptellingen til flere ansatte. Hvis du vil ha mer informasjon, se [Telle lagerbeholdning ved hjelp av dokumenter](inventory-how-count-inventory-with-documents.md).<br /><br />
-> Merk at den dokumentbaserte funksjonaliteten ikke kan brukes til å telle varer i hyller, lagerposter.
+> I flertrinnsprosesser er varene registrert i hyller som lagerposter, ikke vareposter. Derfor kan utføre du telle, justere og reklassifisere i lagerkladdene som støtter hyller. Deretter du synkroniserer du nye eller endrede lagerposter med de relaterte varepostene å utføre endringene i antall og verdier.
 
-Bortsett fra den fysiske opptellingsaktiviteten omfatter hele prosessen følgende tre oppgaver:
+## Vareopptelling
+
+Tell varene, altså tell den faktiske varebeholdningen, for å se om det antallet som er registrert i programmet er identisk med det fysiske antallet som er på lager. Vanligvis skjer opptelling på slutten av et regnskaps år, men av og til utføres det ofte oftere. Hvis det er differanser, bokfører du de faktiske antallene til varekontoene <!--accounts, or ledger?--> før du utfører lagervaluteringen.
+
+> [!NOTE]
+> Denne fremgangsmåten beskriver hvordan du utfører en vareopptelling ved hjelp av en kladd, på siden **Vareopptellingskladd**. Du kan bruke dokumenter på sidene **Vareopptellingsordre** og **Registrering av vareopptelling**. Disse dokumentene gir mer kontroll og støtte for distribusjon av opptellingsarbeidet til flere ansatte. Finn ut mer under [Telle og justere lagerbeholdning ved hjelp av dokumenter](inventory-how-count-inventory-with-documents.md).<br /><br />
+> Merk at du ikke kan bruke den dokumentbaserte funksjonaliteten til å telle varer i hyller eller lagerposter.
+
+Opptellingsprosessen omfatter også følgende oppgaver:
 
 - Beregn forventet beholdning.
 - Skriv ut rapporten som skal brukes ved telling.
-- Angir og bokfør faktisk opptalt lagerbeholdning.
+- Angir og bokfør faktisk antall.
 
-Du kan utføre det fysiske lageret på én av følgende måter, avhengig av lageroppsettet. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).  
+Avhengig av lageroppsettet gjøres vareopptelling på en av følgende måter. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).  
 
--   Hvis lokasjonen ikke bruker dirigert plassering og plukk (enkel lagerkonfigurasjon), bruker du siden **Vareopptellingskladd** på **Lager**-menyen. Prosedyren er stort sett den samme som når du utfører en vareopptelling uten syklustelling.  
--   Hvis lokasjonen bruker lagerstyring (avansert lagerkonfigurasjon), bruker du først siden **Lageropptellingskladd** og deretter **Varekladd**-siden for å kjøre funksjonen **Beregn lagerjustering**.
+- Hvis lokasjonen ikke bruker lagerstyring, bruker du siden **Vareopptellingskladd**. Fremgangsmåten ligner på vareopptelling uten syklustelling.  
+- Hvis lokasjonen bruker lagerstyring, bruker du siden **Lagervareopptellingskladd**. Deretter bruker du siden **Varekladder** siden til å kjøre handlingen **Beregn lagerjustering**. <!--We should say what to do on each of these pages.-->
 
-### <a name="to-calculate-the-expected-inventory-in-basic-warehouse-configurations"></a>Slik beregner du den forventede beholdningen i enkle lagerkonfigurasjoner
+### Slik beregner du den forventede beholdningen i enkle lagerkonfigurasjoner
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Vareopptellingskladder** og velg den relaterte koblingen.
 2. Velg handlingen **Beregn beholdning**.
 3. Angi betingelsene som skal brukes ved opprettelse av kladdelinjene, for eksempel om varer uten registrert beholdning skal tas med, på siden **Beregn beholdning**.
 4. Angi filtre hvis du bare vil beregne lager for bestemte varer, hyller, lokasjoner eller dimensjoner.
-5. Velg **OK**.
+5. Velg **OK**-knappen.
 
 > [!NOTE]  
->   Varepostene behandles på bakgrunn av opplysninger du har angitt, og linjer opprettes i opptellingskladden. Merk deg at feltet **Antall (opptalt)** automatisk fylles ut med samme antall som i feltet **Antall (beregnet)**. Når du bruker denne funksjonen, er det ikke nødvendig å angi den opptalte lagerbeholdningen for varer som er lik beregnet antall. Hvis imidlertid det opptalte antallet er forskjellig fra det som er angitt i feltet **Antall (beregnet)**, må du overskrive det med det faktisk opptalte antallet.
+> Varepostene behandles på bakgrunn av opplysninger du har angitt, og linjer opprettes i opptellingskladden. Merk deg at feltet **Antall (opptalt)** har samme antall som i feltet **Antall (beregnet)**. Du trenger ikke å angi det opptalte antallet for varer der disse verdiene samsvarer. Men hvis det talte antallet er forskjellige, angir du antallet som ble talt.
 
-### <a name="to-print-the-report-to-be-used-when-counting"></a>Slik skriver du ut rapporten som skal brukes ved telling
+### Slik skriver du ut rapporten som skal brukes ved telling
 
 1. Velg handlingen **Skriv ut** på siden **Vareopptellingskladd** som inneholder den beregnede forventede beholdningen.
-2. Angi om rapporten skal vise det beregnede antallet og om rapporten skal vise lagervarer etter serie-/partinumre, på siden **Opptellingsoversikt**.
+2. Angi om rapporten skal vise det beregnede antallet og om rapporten skal vise lagervarer etter serie- og partinumre, på siden **Vareopptellingsoversikt for lager**.
 3. Angi filtre hvis du bare vil skrive ut rapporten for bestemte varer, hyller, lokasjoner eller dimensjoner.
 4. Velg **Skriv ut**.
 
-Ansatte kan nå fortsette med å telle lagerbeholdningen og registrere eventuelle avvik på den utskrevne rapporten.
+Lagermedarbeidere kan nå telle lagerbeholdningen og registrere differansene på den utskrevne rapporten.
 
 > [!NOTE]
 > Det kan ta flere dager før utskrevne rapporter kommer tilbake for endelig behandling og bokføring. Når du angir og bokfører faktisk opptalt lager, justerer systemet lager for å gjenspeile differansen mellom forventet og faktisk opptalt beholdning. Du må beholde de opprinnelig beregnede kladdelinjene, og ikke beregne forventet beholdning på nytt, fordi det forventede lageret kan endres og føres til feil lagernivåer. Hvis du har behov for å utstede flere rapporter, for eksempel for ulike lokasjoner eller gruppe varer, må du opprette og holde separate kladder.
 
-### <a name="to-enter-and-post-the-actual-counted-inventory-in-basic-warehouse-configurations"></a>Slik angir og bokfører du den faktiske opptalte beholdningen i et enkelt lageroppsett
+### Slik angir og bokfører du den faktiske opptalte beholdningen i et enkelt lageroppsett
 
 1. Angi den faktiske beholdningen i feltet **Antall (opptalt)** for hver linje på siden **Vareopptellingskladd** der den faktiske lagerbeholdningen, som fastsatt ved fysisk opptelling, avviker fra det beregnede antallet.
-
-    De relaterte feltene oppdateres tilsvarende.
-
-    > [!NOTE]  
-    >   Hvis opptellingen avdekker avvik som skyldes at varer er bokført med feilaktige lokasjonskoder, må du ikke angi avviket i opptellingskladden. Bruk i stedet reklassifiseringskladden eller en overføringsordre til å omadressere varene til de riktige lokasjonene. Hvis du vil ha mer informasjon, kan du se Varereklassif.kladd eller Opprette overføringsordrer.
+  
+  > [!NOTE]  
+  > Hvis opptellingen avdekker avvik skyldes at varer er bokført med feil lokasjoner, må du ikke angi avviket i opptellingskladden. Bruk i stedet en reklassifiseringskladd eller en overføringsordre til å omadressere varene til de riktige lokasjonene. 
 
 2. Hvis du vil justere beregnet antall til faktisk opptalt antall, velger du handlingen **Bokfør**.
 
-    Både vareposter og fysiske vareopptellingsposter opprettes. Åpne varekortet for å vise de resulterende vareopptellingspostende.
+    Bokføring oppretter vareposter og fysiske vareopptellingsposter. Åpne siden Varekort for å vise varen for å finne vareopptellingspostene for varen. <!--Where are they shown on an item?-->
 
 3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
-4. Du kan kontrollere vareopptellingen ved å åpne det aktuelle varekortet og deretter velge handlingen **Vareopptellingsposter**.
+4. Du kan kontrollere tellingen ved å åpne siden Varekort for varen og deretter velge handlingen **Vareopptellingsposter**. <!--I don't see this action -->
 
-### <a name="to-calculate-the-expected-inventory-in-advanced-warehouse-configurations"></a>Slik beregner du den forventede beholdningen i avanserte lagerkonfigurasjoner
+### Slik beregner du den forventede beholdningen i avanserte lagerkonfigurasjoner
 
-Synkroniser varepost og lager før du utfører vareopptellingen, hvis ikke blir resultatet du bokfører i vareopptellingskladden og vareposten i den endelige delen av prosessen, vareopptellingsresultatet kombinert med andre lagerjusteringer for varene som ble opptalt. Hvis du vil ha mer informasjon, kan du se [Synkroniser antall i vareposten og på lageret](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries)
+Synkroniser vareposter og lager <!--warehouse what?--> før vareopptellingen. Ellers vil det du bokfører i vareopptellingskladden og i varepostene, være de fysiske lagerresultatene som er kombinert med andre lagerjusteringer for varene. Finn ut mer under [Synkroniser antall i vareposten og på lageret](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lageropptellingskladd** og velg den relaterte koblingen.  
-2. Velg handlingen **Beregn beholdning**. Forespørselssiden for kjørselen **Beregn beholdning - lager** åpnes.  
-3. Definer filtrene for å begrense varene som skal telles i kladden, og klikk deretter på **OK**-knappen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagervareopptellingskladd**, og velg deretter den relaterte koblingen.  
+2. Velg handlingen **Beregn beholdning** for å åpne siden **Beregn beholdning – lager**.  
+3. Definer filtrene for å angi varene som skal telles i kladden, og klikk deretter på **OK**.
 
-    Programmet oppretter en linje for hver hylle som oppfyller filterkravene. På dette punktet kan du fremdeles slette noen av linjene, men hvis du vil bokføre resultatene som en vareopptelling, må du telle varen i alle hyller som inneholder den.  
+   [!INCLUDE [prod_short](includes/prod_short.md)] oppretter en linje for hver hylle som oppfyller filterkravene. Du kan slette linjer, men hvis du vil bokføre resultatene som en vareopptelling, må du telle varen i alle hyller som inneholder den.  
 
-     Hvis du bare har tid til å telle varen i noen hyller og ikke i andre, kan du oppdage avvik. Registrer dem og bokfør dem senere i varekladden ved hjelp av funksjonen **Beregn lagerjustering**.  
+   Hvis du bare teller en vare i noen hyller, men ikke i andre, kan du angi differanser og bokfør dem senere i varekladden ved hjelp av handlingen **Beregn lagerjustering**. <!--I don't see this action-->  
 
-### <a name="to-print-the-report-to-be-used-when-counting"></a>Slik skriver du ut rapporten som skal brukes ved telling
+### Slik angir og bokfører du den faktiske opptalte beholdningen i et avansert lageroppsett
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Vareopptellingsoversikt for lager**, og velg deretter den relaterte koblingen.  
-2. Åpne rapportforespørselssiden, og skriv ut oversiktene der du vil at de ansatte skal registrere antall varer de teller i hver hylle.  
-
-Ansatte kan nå fortsette med å telle lagerbeholdningen og registrere eventuelle avvik på den utskrevne rapporten.
-
-### <a name="to-enter-and-post-the-actual-counted-inventory-in-advanced-warehouse-configurations"></a>Slik angir og bokfører du den faktiske opptalte beholdningen i et avansert lageroppsett
-
-1. Når tellingen er utført, angir du de opptalte antallene i feltet **Antall (opptalt)** i lageropptellingskladden.  
+1. Angi de opptalte antallene i feltet **Antall (opptalt)** på siden **Varelageropptellingskladd**.  
 
     > [!NOTE]  
-    >  I lageropptellingskladden fyller programmet automatisk ut feltet **Antall (beregnet)** på bakgrunn av lagerhyllepostene og kopierer disse antallene til feltet **Antall (fysisk)** på hver linje. Hvis antallet som er opptalt av den lageransatte, er forskjellig fra det programmet har angitt i feltet Antall (opptalt), må du angi det faktisk opptalte antallet.  
+    >  Feltet **Antall (beregnet)** fylles ut på bakgrunn av hyllekoder. Antallet kopieres til feltet **Antall (fysisk)** på hver linje. Hvis antallene i disse feltene ikke samsvarer, angir du det faktiske antallet.  
 
-2. Når du har angitt alle de opptalte antallene, velger du **Registrer**-handlingen.  
+2. Når du har angitt alle de faktiske antallene, velger du **Registrer**-handlingen.  
 
-    Når du har registrert kladden, oppretter programmet to lagerposter i lagerjournalen for hver linje som ble talt og registrert:  
+    Når du har registrert kladden, oppretter [!INCLUDE [prod_short](includes/prod_short.md)] to lagerposter i lagerjournalen for hver linje som ble talt og registrert:  
 
-    -   Hvis det beregnede og det opptalte antallet er forskjellig, blir det registrert et negativt eller positivt antall for hyllen, og en motpostering blir bokført for justeringshyllen for lokasjonen.  
-    -   Hvis det beregnede antallet er likt det opptalte antallet, registrerer programmet en post på 0 for både hyllen og justeringshyllen. Postene er registreringen av at det på registreringsdatoen ble utført en vareopptelling, og av at det ikke var avvik i beholdningen for varen.  
+    - Hvis det beregnede og det faktiske antallet er forskjellig, blir det registrert et negativt eller positivt antall for hyllen, og en motpostering blir bokført for justeringshyllen for lokasjonen.  
+    - Hvis det beregnede antallet er likt det opptalte antallet, registrerer [!INCLUDE [prod_short](includes/prod_short.md)] en post på **0** for både hyllen og justeringshyllen. 
 
-Når du registrerer lageropptellingen, bokfører du ikke til vareposten, vareopptellingsposten eller verdiposten, men registreringene finnes for umiddelbar avstemming når det er nødvendig. Hvis du ønsker å ha nøyaktige registreringer av hva som skjer på lageret, og du har talt alle hyllene der varene var registrert, må du imidlertid umiddelbart bokføre lagerresultatene som en lagervareopptelling. Hvis du vil ha mer informasjon, kan du se [Synkroniser antall i vareposten og på lageret](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
+Når du registrerer vareopptelling, bokfører du ikke til varen, vareopptellingen eller verdipostene. Postene er imidlertid tilgjengelige for avstemming når det er nødvendig. Hvis du vil beholde antall nøyaktige etter at du har talt varene i alle hyller, bokfører du resultatet som en lageropptelling <!--physical inventory journal-->. Finn ut mer under [Synkroniser antall i vareposten og på lageret](inventory-how-count-adjust-reclassify.md#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
 
-## <a name="to-perform-cycle-counting"></a>Utføre syklustelling
+## Utfør syklustelling
 
-Selv om du teller alle varene i beholdningen minst én gang i året, kan du ha bestemt deg for å telle noen varer oftere, kanskje fordi de er mer verdifulle eller fordi de har rask omløpstid og utgjør en stor del av forretningene. Hvis du vil gjøre dette, kan du tilordne spesielle opptellingsperioder til disse varene.
+Du kan telle varer så ofte du vil. For eksempel fordi de er mer verdifulle, eller fordi de er populære og en stor del av virksomheten. Angi opptellingsintervallet ved å tildele spesielle opptellingsperioder til varene.
 
-Du kan utføre syklustellingen på én av følgende måter, avhengig av lageroppsettet. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).  
+Du kan utføre syklustellingen på en av følgende måter, avhengig av lageroppsettet. Finn ut mer under [Definer lagerstyring](warehouse-setup-warehouse.md).  
 
--   Hvis lokasjonen ikke bruker dirigert plassering og plukk (enkel lagerkonfigurasjon), bruker du siden **Vareopptellingskladd** på **Lager**-menyen. Prosedyren er stort sett den samme som når du utfører en vareopptelling uten syklustelling.  
--   Hvis lokasjonen bruker lagerstyring (avansert lagerkonfigurasjon), bruker du først siden **Lageropptellingskladd** og deretter **Varekladd**-siden for å kjøre funksjonen **Beregn lagerjustering**.  
+- Hvis lokasjonen ikke bruker lagerstyring, bruker du siden **Vareopptellingskladd**. Fremgangsmåten ligner på vareopptelling uten syklustelling.  
+- Hvis lokasjonen bruker lagerstyring, bruker du siden **Lagervareopptellingskladd**. Deretter bruker du siden **Varekladder** siden til å kjøre handlingen **Beregn lagerjustering**. <!--we should say what to do on each of these pages-->  
 
-### <a name="to-set-up-counting-periods"></a>Slik definerer du opptellingsperioder
+### Slik definerer du opptellingsperioder
 
-En vareopptelling blir vanligvis foretatt regelmessig, for eksempel hver måned, hvert kvartal eller hvert år. Du kan definere de opptellingsperiodene som kreves.
-
-Definer opptellingsperiodene du vil bruke, og tilordne deretter én til hver vare. Når du utfører en vareopptelling og bruker **Beregn opptellingsperiode** i vareopptellingskladden, opprette linjer for varene automatisk.
+Vareopptelling er vanligvis en regelmessig oppgave, for eksempel hver måned, hvert kvartal eller hvert år. Du kan definere opptellingsperiodene du trenger, og tilordne deretter én til hver vare. Etterpå bruker du handlingen **Beregn opptellingsperiode** på siden **Vareopptellingskladd** til å opprette linjer for varene automatisk.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Vareopptellingsperioder** og velg den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="to-assign-a-counting-period-to-an-item"></a>Tilordne en opptellingsperiode til en vare
+### Tilordne en opptellingsperiode til en vare
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
 2. Velg varen du vil tilordne en opptellingsperiode til.  
-3. Velg den aktuelle opptellingsperioden i vinduet **Vareopptell.periode - kode**.  
-4. Velg **Ja**-knappen for å endre koden og beregne den første opptellingsperioden for varen. Neste gang du velger å beregne en opptellingsperiode i vareopptellingskladden, vises varen som en linje på siden **Vareutvalg for vareopptelling**. Du kan deretter begynne å telle varen periodisk.
+3. Velg opptellingsperioden i vinduet **Vareopptell.periode - kode**.  
 
-### <a name="to-initiate-a-count-based-on-counting-periods-in-basic-warehouse-configurations"></a>Slik starter du en opptelling basert på opptellingsperioder i enkle lageroppsett
+> [!NOTE]
+> Hvis du endrer opptellingsperioden, viser en melding informasjon om resultatene av endringen. Velg **Ja** for å endre koden og beregne den første opptellingsperioden for varen. Neste gang du velger å beregne en opptellingsperiode i vareopptellingskladden, vises varen som en linje på siden **Vareutvalg for vareopptelling**. Deretter kan du telle varen regelmessig.
+
+### Slik starter du en opptelling basert på opptellingsperioder i enkle lageroppsett
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Vareopptellingskladd** og velg den relaterte koblingen.
 2. Velg handlingen **Beregn opptellingsperiode**.
 
-    Siden **Vareutvalg for vareopptelling** åpnes og viser varene som har opptellingsperioder tilordnet, og som må telles, i samsvar med opptellingsperiodene.
-3. Utfør vareopptellingen. Hvis du vil ha mer informasjon, kan du se [Utføre en vareopptelling](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).
+    Siden **Vareutvalg for vareopptelling** viser varene som må telles, i samsvar med opptellingsperiodene.
+3. Tell det fysiske lageret. Finn ut mer under [Vareopptelling](inventory-how-count-adjust-reclassify.md#to-count-physical-inventory).
 
-### <a name="to-initiate-a-count-based-on-counting-periods-in-advanced-warehouse-configurations"></a>Slik starter du en opptelling basert på opptellingsperioder i avanserte lageroppsett
+### Slik starter du en opptelling basert på opptellingsperioder i avanserte lageroppsett
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lageropptellingskladd** og velg den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagervareopptellingskladd**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Beregn opptellingsperiode**.
 
-    Siden **Vareutvalg for vareopptelling** åpnes og viser varene som har opptellingsperioder tilordnet, og som må telles, i samsvar med opptellingsperiodene.
-3. Utfør vareopptellingen. Hvis du vil ha mer informasjon, kan du se [Utføre en vareopptelling](inventory-how-count-adjust-reclassify.md#to-perform-a-physical-inventory).  
+    Siden **Vareutvalg for vareopptelling** viser varene som må telles, i samsvar med opptellingsperiodene.
+3. Tell det fysiske lageret. Finn ut mer under [Vareopptelling](inventory-how-count-adjust-reclassify.md#to-count-physical-inventory).  
 
-    > [!NOTE]  
-    >  Du må telle varen i alle hyllene som inneholder den bestemte varen. Hvis du sletter noen av hyllelinjene som er hentet for telling på **Lageropptelling**-siden, kommer du ikke til å telle alle varene på lageret. Hvis du senere bokfører slike ufullstendige resultater i Vareopptellingskladd, vil de bokførte antallene være feilaktige.  
+   > [!NOTE]  
+   > Tell varen i alle hyller som inneholder den. Hvis du sletter hyllelinjer som ble hentet for telling på **Lageropptelling**-siden, er tellingen feil når du bokfører den i vareopptellingskladden.  
 
-## <a name="to-adjust-the-inventory-of-one-item"></a>Justere lagerbeholdningen for én vare
+## Juster antallet for én vare
 
-Når du har utført en fysisk opptelling av en vare i lagerområdet, kan du bruke funksjonen **Juster lagerbeholdning** til å registrere det faktiske lagerantallet.
+Når du er ferdig med en fysisk opptelling av en vare, kan du bruke handlingen **Juster lagerbeholdning** til å registrere det faktiske lagerantallet.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Velg varen du vil justere lagerbeholdning for, og velg deretter handlingen **Justere lagerbeholdning**.
-3. I feltet **Ny beholdning** angir du lagerantallet som du vil registrere for varen.
-4. Velg **OK**.
+3. Angi resultatet av tellingen i feltet **Ny beholdning** for lokasjonen.
+4. Velg **OK**-knappen.
 
-Beholdningen for varen er nå justert. Det nye antallet vises i feltet **Antall på lager** på siden **Varekort**.
+<!-- I don't see a "Quantity on Hand" field on the Item Card page. Should this point to the options for viewing availability?
 
-Du kan også bruke funksjonen **Juster lagerbeholdning** til enkel plassering av kjøpte varer på lager, hvis du ikke bruker kjøpsfakturaer eller ordrer til å registrere kjøpene. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).
+The item’s inventory is adjusted. The new quantity is shown in the **Quantity on Hand** field on the **Item Card** page.-->
+
+Du kan også bruke handlingen **Juster lagerbeholdning** som en enkel måte å legge til kjøpte varer i beholdningen på, hvis du ikke bruker kjøpsfakturaer eller ordrer til å registrere kjøpene. Finn ut mer under [Registrer kjøp](purchasing-how-record-purchases.md).
 
 > [!NOTE]  
->   Når du har justert lagerbeholdningen, må du oppdatere den med den gjeldende, beregnede verdien. Hvis du vil ha mer informasjon, kan du se [Revaluere beholdning](inventory-how-revalue-inventory.md).
+> Når du har justert lageret, oppdaterer du gjeldende verdi. Hvis du vil ha mer informasjon, kan du se [Revaluere beholdning](inventory-how-revalue-inventory.md).
 
-### <a name="to-adjust-the-inventory-quantity-of-multiple-items-in-basic-warehouse-configurations"></a>Slik justerer du lagerantall for flere varer i enkle lageroppsett
+### Slik justerer du antall for flere varer i enkle lageroppsett
 
-På siden **Varekladd** kan du bokføre varetransaksjoner direkte for å justere lagerbeholdningen i forbindelse med kjøp, salg og positive eller negative justeringer, uten å bruke dokumenter.
+På siden **Varekladd** kan du bokføre varetransaksjoner direkte for å justere lagerbeholdningen for kjøp, salg og positive eller negative endringer, uten å bruke dokumenter.
 
-Hvis du ofte bruker varekladden til å bokføre identiske eller lignende kladdelinjer, for eksempel i forbindelse med materialforbruk, kan du bruke siden **standardvarekladden** til å forenkle dette gjentakende arbeidet. Hvis du vil ha mer informasjon, kan du se [Arbeid med standardkladder](ui-work-general-journals.md#work-with-standard-journals).
+Hvis du ofte bruker varekladden til å bokføre identiske eller lignende kladdelinjer, for eksempel materialforbruk, kan siden **standardvarekladden** forenkle dette gjentakende arbeidet. Hvis du vil ha mer informasjon, kan du se [Arbeid med standardkladder](ui-work-general-journals.md#work-with-standard-journals).
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varekladder** og velg den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Velg handlingen **Bokfør** for å foreta lagerjusteringene.
+3. Velg handlingen **Bokfør** for å justere antallet.
 
-### <a name="to-adjust-bin-quantities-in-advanced-warehouse-configurations"></a>Slik justerer du hylleantall i avanserte lageroppsett.
+### Slik justerer du hylleantall i avanserte lageroppsett.
 
-Hvis lokasjonen bruker lagerstyring, bruker du **lagervarekladden** til å bokføre, utenom konteksten av beholdningen, alle positive og negative justeringer i vareantall som du vet er virkelige vinninger, for eksempel varer som tidligere var bokført som manglende som uventet dukker opp, eller virkelige tap, for eksempel knusing.  
+Hvis lokasjonen bruker lagerstyring, bruker du siden **Lagervarekladd** til å bokføre ikke-planlagte positive og negative antallsendringer. For eksempel for varer som er bokført som manglende, som vises uventet eller tap på grunn av knusing.  
 
-Til forskjell fra justeringer i varekladden, gir bruk av lagervarekladden deg et ekstra nivå for justering, som gjør at det registrerte antallet er mer nøyaktig til enhver tid. Lageret vil dermed alltid ha en fullstendig registrering av hvor mange varer som er på lager, og hvor de er lagret, men hver registrering av justeringer blir ikke umiddelbart bokført i vareposten. I registreringsprosessen krediteres og debiteres den virkelige hyllen med antallsjusteringen, og korrigeringspost angis i en justeringshylle, som er en virtuell hylle uten virkelige varer. Denne hyllen defineres i **Hyllekode for lagerjustering** på lokasjonskortet.
+Lagervarekladder gir deg flere justeringsnivåer for å gjøre antallet mer presise. Lageret vet hvor mange varer som er tilgjengelige, og hvor de er lagret, men at ikke hver justering bokføres i vareposten. Kreditt eller debet opprettes i den reelle hyllen med antallsjusteringen. En motpost lages i en justeringshylle. Justeringshyllen er en virtuell hylle uten virkelige varer. Angi den virtuelle hyllen i feltet **Hyllekode for lagerjustering** på siden **Lokasjonskort**.
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagervarekladd** og velg den relaterte koblingen.  
-2.  Fyll ut informasjonen i hodet.  
-3.  Fyll ut feltet **Varenr.** på linjen.  
-4.  Angi hyllen der du legger de ekstra varene, eller der du har funnet ut at det mangler varer.  
-5.  Fyll ut det antallet du observerer som et avvik, i feltet **Antall**. Hvis du har funnet ekstra varer, angir du et positivt antall. Hvis det mangler varer, angir du et negativt antall.  
-6.  Velg handlingen **Registrer**.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagervarekladd** og velg den relaterte koblingen.  
+2. Fyll ut informasjonen i hodet.  
+3. I feltet **Varenr.** på linjen velger du varen.  
+4. Angi hyllen der du legger de ekstra varene, eller der du har varer som mangler.  
+5. Angi et positivt antall i feltet **Antall** hvis du har funnet positivt antall. Hvis det mangler varer, angir du et negativt antall.  
+6. Velg handlingen **Registrer**.
 
-## <a name="to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries"></a>Slik synkroniserer du de justerte lagerpostene med de tilhørende varepostene
+## Slik synkroniserer du de justerte lagerpostene med de tilhørende varepostene
 
-Med passende mellomrom, som defineres av selskapets prinsipper, må du bokføre postene for lagerjusteringshyllen i varepostene. Enkelte selskaper bokfører justeringer i vareposten hver dag, mens andre finner det tilstrekkelig å avstemme sjeldnere.
+Bokfør justeringshyllepostene i varepostene for periodene du har definert. Enkelte selskaper bokfører daglige justeringer i vareposten, mens andre avstemmer sjeldnere.
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varekladd** og velg den relaterte koblingen.  
-2.  Fyll ut feltene på hver kladdelinje.  
-3.  Velg **Beregn lagerjustering**, og definer de aktuelle filtrene på forespørselssiden for kjørselen. Justeringene er beregnet bare for postene i justeringshyllen som oppfyller filterkravene.  
-4.  På hurtigfanen **Alternativer** angir du et nummer i feltet **Bilagsnummer**. Siden det ikke er definert noen nummerserie for denne kjørselen, bruker du den nummereringsplanen som er definert av lageret, eller du angir datoen fulgt av dine egne initialer.  
-5.  Velg **OK**. De positive og negative justeringene summeres for hver vare, og linjer opprettes i varekladden for eventuelle varer der summen er et positivt eller negativt antall.  
-6.  Bokfør kladdelinjene for å angi antallsavviket i vareposten. Beholdningen i lagerhyllene samsvarer nå nøyaktig med beholdningen i vareposten.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varekladd** og velg den relaterte koblingen.  
+2. Fyll ut feltene på hver kladdelinje.  
+3. Velg handlingen **Beregn lagerjustering**, og legg deretter til filtre på siden **Beregn lagerjustering**. Justeringene er beregnet bare for postene i justeringshyllen som oppfyller filterkravene.  
+4. På hurtigfanen **Alternativer** angir du et nummer i feltet **Bilagsnummer**. Siden det ikke er definert noen nummerserie for denne kjørselen, bruker du den nummereringsplanen som er definert av lageret, eller du angir datoen fulgt av dine egne initialer.  
+5. Velg **OK**. De positive og negative justeringene summeres for hver vare, og linjer opprettes i varekladden.  
+6. Bokfør kladdelinjene for å angi antallsavviket i vareposten. Nå samsvarer beholdningene i hyllene og vareposten.  
 
-## <a name="to-reclassify-an-items-lot-number"></a>Reklassifisere partinummeret for en vare
+## Se relatert [Microsoft-opplæring](/training/modules/adjust-inventory/)
 
-Hvis du har bruk for å endre lagerpostattributter, kan du bruke varereklassifiseringskladden. Attributter som ofte reklassifiseres, er dimensjoner og salgskampanjekoder, men du også utføre systemoverføringer ved å reklassifisere hylle- og lokasjonskoder.
-
-Spesielle trinn brukes når du vil reklassifisere serie- eller partinumre og utløpsdatoene deres. Hvis du vil ha mer informasjon, kan du se [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md).
-
-Eksempelet nedenfor er basert på en lokasjonskode. Fremgangsmåten er den samme som for andre typer vareattributter.
-
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Vareoverføringskladder** og velg den relaterte koblingen.
-2. På siden **Vareoverføringskladder** fyller du ut feltene etter behov.
-3. I **Lokasjonskode**-feltet angir du varens gjeldende lokasjonskode.
-4. I **Ny lokasjonskode**-feltet angir du varens nye lokasjonskode.
-5. Velg handlingen **Bokfør**.
-
-Hvis du vil ha informasjon om overføring av varer med full kontroll over antall levert og mottatt, kan du se [Overføre beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md).
-
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/adjust-inventory/)
-
-## <a name="see-also"></a>Se også
+## Se også
 
 [Telle lagerbeholdning ved hjelp av dokumenter](inventory-how-count-inventory-with-documents.md)  
 [Lager](inventory-manage-inventory.md)  
-[Lagerstyring](warehouse-manage-warehouse.md)  
+[Oversikt over lagerstyring](design-details-warehouse-management.md)  
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

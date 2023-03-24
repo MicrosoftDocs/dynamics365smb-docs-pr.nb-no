@@ -1,122 +1,130 @@
 ---
-title: Designdetaljer – Interne lagerflyter
-description: Flyt mellom hyller i forbindelse med plukking av komponenter og plassering av sluttvarer for sammenstilling eller produksjonsordrer og ad-hoc-flyttinger uten kildedokumenter.
-author: SorenGP
+title: 'Utformingsdetljaer – Flyter for produksjon, montering og prosjekter'
+description: 'Finn ut om flytene mellom hyller for plukking av komponenter og plassering av sluttvarer for montering, produksjon eller jobbordrer.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/15/2021
-ms.author: edupont
-ms.openlocfilehash: b8e38dcf94c4303cdd69f5417a152484f5100e09
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8136377"
+ms.date: 12/16/2022
+ms.custom: bap-template
 ---
-# <a name="design-details-internal-warehouse-flows"></a>Designdetaljer: Interne lagerflyter
-Flyten av varer mellom hyller på en selskapslokasjon dreier seg i hovedsak om å plukke komponenter og plassere sluttvarer for montering eller produksjonsordrer og adhocflyttinger, for eksempel etterfylling av hyller, uten en relasjon til kildedokumenter. Omfanget av og karakteren til aktivitetene som er involvert, varierer mellom grunnleggende og avanserte lagerstyring.  
+# Flyter for produksjon, montering og prosjekter
 
- Enkelte interne flyter overlapper inngående eller utgående flyter. Noe av denne overlappingen vises som trinn 4 og 5 i de grafiske diagrammene for henholdsvis avanserte inngående og utgående flyter. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Inngående lagerflyt](design-details-outbound-warehouse-flow.md).  
+Interne flyter, for eksempel plukkking av komponenter og plassering av sluttvarer for monterings-, jobb-og produksjonsordrer, ligner på inngående eller utgående flyter. Mange av prosessene kan anses som kjent. Denne artikkelen inneholder informasjon om hvordan du arbeider med interne lagerflyter med ulike typer kompleksitet.
 
-## <a name="internal-flows-in-basic-warehousing"></a>Interne flyter i Grunnleggende lagerstyring  
- I grunnleggende lageroppsett vil flyten av varer mellom hyller i selskapet være sentrert rundt plukk av komponenter og plassering av sluttvarer for produksjons- og monteringsordrer og adhocflyttinger, for eksempel etterfylling av hyller, uten relasjon til kildedokumenter.  
+## Oversikt over ulike konfigurasjonsalternativer
 
-### <a name="flows-to-and-from-production"></a>Flyter til og fra produksjon  
- Hovedintegrasjonen mellom produksjonsordrer og grunnleggende lageraktiviteter representeres av muligheten til å plukke produksjonskomponenter på siden **Lagerplukk** eller **Lagerflytting**.  
+Du kan konfigurere lagerfunksjoner på ulike måter. Det er viktig at alternativene du velger, forbedrer prosessene uten å forårsake indirekte kostnader. Følgende tabeller beskriver typiske konfigurasjoner for håndtering av fysiske varer for produksjon, jobber og monteringsordrer.
 
-> [!NOTE]  
->  På siden **Lagerplukk** bokføres komponentforbruket sammen med plukkbokføringen. Ved hjelp av siden **Lagerflytting**, blir bare hyllejusteringer registrert, og det utføres ingen finansbokføringer for varen.  
+### Inngående flyt (plassering)
 
- I tillegg til komponenthåndtering representeres integreringen av muligheten til å plassere produserte varer med siden **Lagerplassering**.  
+|Kompleksitetsnivå|Beskrivelse|Innstillinger|Hyllekode|Inngående flyt av produksjonsordre|Inngående flyt av monteringsordre|Inngående flyt av jobber|  
+|---|----------------|----------|---------|------------------|------------------|------------------|
+|Ingen dedikert lageraktivitet.|Bokfør fra ordrer og kladder.||Valgfritt. Kontrollert av vekslebryteren **Hyllekode er obligatorisk**.|Produksjonskladd -> Ferdigmeldingskladd</br><br/> **Obs**: Du kan bokføre avgang ved hjelp av **Produksjonskladd**.|Monteringsordre|Plassering er ikke tilgjengelig for jobber|  
+|Grunnleggende|Ordre for ordre.|Plukk nødv. </br><br/> **Obs**: Selv om innstillingen kalles **Plassering nødv.**, kan du fremdeles bokføre avgang fra kildedokumenter på lokasjoner der du velger denne avmerkingsboksen. |Valgfritt. Kontrollert av vekslebryteren **Hyllekode er obligatorisk**.|Produksjonsordre-> Lagerplassering|Monteringsordre|Plassering er ikke tilgjengelig for jobber|
+|Avansert|Konsoliderte plasseringsaktiviteter for flere kildedokumenter.|Mottak nødv. + Plukk nødv.|Valgfritt. Kontrollert av vekslebryteren **Hyllekode er obligatorisk**.|Produksjonsordrer -> Ferdigmeldingskladd|Monteringsordrer-> interne flyttinger | Plassering er ikke tilgjengelig for jobber|
+|Avansert|Samme som over + lagerstyringsaktiviteter|Lagerstyring (avhengig av vekslebrytere blir aktivert automatisk)|Obligatorisk|Samme som ovenfor.|Samme som ovenfor.| Plassering er ikke tilgjengelig for jobber|
 
- Feltene **Til-Hyllekode for produksjon**, **Fra-Hyllekode for produksjon** og **Åpen prod.hyllekode** på lokasjonskortet eller kortene for produksjonsressurs/arbeidssenter definerer standardflyter til og fra produksjonsområder.  
+Enkelte konfigurasjoner tillater ikke at du bruker egne lagerdokumenter til å registrere plasseringer. Hvis lokasjonen bruker hyller, kan du imidlertid bruke generelle flyttedokumenter til å flytte produserte eller monterte varer til lager. Finn ut mer under [Flytt varer internt i grunnleggende lageroppsett](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
- Hvis du vil ha mer informasjon om hvordan komponentforbruk er trekkes fra hyller til produksjon eller åpne produksjonshyller, kan du se avsnittet Trekke produksjonskomponenter i lageret i dette emnet.  
+### Utgående flyt (plukk)
 
-### <a name="flows-to-and-from-assembly"></a>Flyter til og fra montering  
- Hovedintegrasjonen mellom monteringsordrer og grunnleggende lageraktiviteter representeres av muligheten til å flytte en monteringskomponent til monteringsområdet.  
+|Kompleksitetsnivå|Beskrivelse|Innstillinger|Hyllekode|Utgående flyt av produksjonsordre|Utgående flyt av monteringsordre|Utgående flyt av jobber|  
+|---|----------------|----------|---------|------------------|------------------|------------------|
+|Ingen dedikert lageraktivitet.|Bokfør fra ordrer og kladder.||Valgfritt. Kontrollert av vekslebryteren **Hyllekode er obligatorisk**.|Produksjonskladd -> Forbrukskladd </br><br/> **Obs**: Du kan bokføre forbruk ved hjelp av **Produksjonskladd**.|Monteringsordre|Jobb -> Prosjektkladd|  
+|Grunnleggende|Ordre for ordre.|Plukk nødv. </br><br/> **Obs**: Selv om innstillingen kalles **Plukk nødv.**, kan du fremdeles bokføre avgang fra kildedokumenter på lokasjoner der du velger denne avmerkingsboksen. <!-- ToDo Test prod output-->|Valgfritt. Kontrollert av vekslebryteren **Hyllekode er obligatorisk**.|Produksjonsordre-> Lagerplukk|Monteringsordre-> lagerflytting</br><br/>**Lagerflyttingen** kan bare brukes med hyller.|Jobb -> Lagerplukk|
+|Avansert|Konsoliderte plukkaktiviteter for flere kildedokumenter.|Forsendelse nødv. + Plukk nødv.|Valgfritt. Kontrollert av vekslebryteren Hyllekode er obligatorisk|Produksjonsordrer-> Lagerplukk-> Forbrukskladd |Monteringsordrer-> Lagerplukk| Jobber -> Lagerplukk -> Jobbkladd |
+|Avansert|Samme som over + lagerstyringsaktiviteter|Lagerstyring (avhengig av vekslebrytere blir aktivert automatisk)|Obligatorisk|Samme som ovenfor.|Samme som ovenfor.| Lagerstyring støttes ikke for jobber|
 
- Det finnes ingen bestemt lagerfunksjonalitet for å plassere monteringsvarer, men du kan angi en standard plasseringshylle for hyllekoden i monteringsordrehodet. Bokføring av monteringsordre Funksjoner da som bokføring av en plassering. Lageraktiviteten som flytter monteringsvarer til lageret, kan håndteres på siden **Intern flytting** uten noen relasjon til monteringsordren.  
+I likhet med inngående flyt tillater ikke enkelte konfigurasjoner at du bruker egne lagerdokumenter til å registrere plasseringer. Hvis lokasjonen bruker hyller, kan du bruke generelle flyttedokumenter til å flytte produserte eller monterte varer. Finn ut mer under [Flytt varer](warehouse-move-items.md).
 
- Følgende monteringsflyter finnes.  
+## Lagre uten fast lageraktivitet
 
-|Flyt|Beskrivelse|  
-|----------|---------------------------------------|  
-|Monter til lager|Komponentene trengs i en monteringsordre der avgangen lagres på lageret.<br /><br /> Denne lagerflyten håndteres på siden **Lagerflytting**. Én hentelinje angir hvor komponentene skal hentes fra. Én plasseringslinje angir hvor komponentene skal plasseres.|  
-|Monter til ordre|Komponentene trengs i en monteringsordre som er knyttet til en ordre som leveres når den solgte varen er montert.|  
+Selv om du ikke har egne lageraktiviteter, vil du sikkert likevel holde oversikt over ting som forbruk og produksjonsavgang. Følgende artikler inneholder informasjon om hvordan du behandler mottak for kildedokumenter.
 
-> [!NOTE]  
->  Hvis varer monteres til ordre, vil lagerplukk for den tilknyttede ordren deretter utløse en lagerflytting for alle involverte monteringskomponenter, ikke bare for den solgte varen som når du leverer varer på lager.  
+* [Registrere forbruk og avgang for én frigitt produksjonsordrelinje](production-how-to-register-consumption-and-output.md)
+* [Montere elementer](assembly-how-to-assemble-items.md)
+* [Registrer forbruk eller forbruk for prosjekter](projects-how-record-job-usage.md)
 
- Feltene **Til-Hyllekode for montering**, **Fra-Hyllekode for montering** og **Hyllek. lev. fra m. til ordre** på lokasjonskortet definerer standardflyter til og fra monteringsområder.  
+## Enkelt lageroppsett
 
-> [!NOTE]  
->  Feltet **Hyllek. lev. fra m. til ordre** fungerer som fra-hylle for montering i monter-til-ordre-scenarier.  
+De inngående og utgående flytene i et enkelt lageroppsett omfatter følgende innstillinger på siden **Lokasjonskort** for lokasjonen:
 
-### <a name="ad-hoc-movements"></a>Adhocflyttinger  
- I grunnleggende lagerstyring blir flytting av varer fra hylle til hylle uten relasjon til kildedokumenter, utført på siden **Intern flytting**, som fungerer sammen med siden **Lagerflytting**.  
+* For inngående flyt (plassering) aktiverer du alternativet **Plassering nødv.**, men deaktiverer alternativet **Mottak nødv.**.
+* For utgående flyt (plukk) aktiverer du alternativet **Plukk nødv.**, men deaktiverer alternativet **Forsendelse nødv.**.
 
- En metode for flytting av varer ad hoc mellom hyller, er å bokføre positive poster i feltet **Ny hyllekode** på siden **Vareoverf.kladd**.  
+### Flyter til og fra produksjon i et enkelt lageroppsett  
 
-## <a name="internal-flows-in-advanced-warehousing"></a>Interne flyter i Avansert lagerstyring  
- I avanserte lageroppsett er flyten av varer mellom hyller i selskapet sentrert rundt plukk av komponenter og plassering av sluttvarer for produksjonsordrer og plukk av komponenter for monteringsordrer. I tillegg oppstår interne flyter som ad hoc-flyttinger, for eksempel etterfylling av hyller, uten relasjon til kildedokumenter.  
+Bruk **lagerplukkdokumenter** til å plukke produksjonskomponenter i flyten til produksjon. Hvis du vil plassere produktene du produserer, bruker **lagerplasseringsdokumenter**.
 
-### <a name="flows-to-and-from-production"></a>Flyter til og fra produksjon  
- Hovedintegrasjonen mellom produksjonsordrer og avanserte lageraktiviteter representeres av muligheten til å plukke produksjonskomponenter på **Plukk**-siden og **Plukkforslag**-siden og muligheten til å plassere produserte varer på **Intern plassering**-siden.  
+For lokasjoner som bruker hyller, er lagerflyttingsdokumenter spesielt nyttige for komponenttrekking. Hvis du vil ha mer informasjon om hvordan komponentforbruk er trekkes fra hyller til produksjon eller åpne produksjonshyller, kan du gå til [Trekke produksjonskomponenter i lageret](warehouse-how-to-pick-for-production.md#flushing-production-components-in-a-basic-warehouse-configuration).
 
- Et annet integreringspunkt i produksjonen finnes på siden **Lagerflytting** og på siden Flytteforslag, der du kan plassere komponenter og ta produserte varer for frigitte produksjonsordrer.  
+   > [!NOTE]
+   > Lagerflyttinger er viktige dokumenter hvis du bruker trekkmetodene **Plukk + fremover** eller **Plukk + bakover**. Finn ut mer under [Trekkmetoder](production-how-to-flush-components-according-to-operation-output.md#flushing-methods).
 
- Feltene **Til-Hyllekode for produksjon**, **Fra-Hyllekode for produksjon** og **Åpen prod.hyllekode** på lokasjonskortet eller kortene for produksjonsressurs/arbeidssenter definerer standardflyter til og fra produksjonsområder.  
+* Feltene **Til-Hyllekode for produksjon**, **Fra-Hyllekode for produksjon** og **Åpen prod.hyllekode** på lokasjon eller produksjonsressurs/arbeidssenter definerer standardflyter til og fra produksjonsområder.
+* Behandle flyttingen av produserte varer på siden **Intern flytting** uten tilknytning til en produksjonsordre.
 
- Hvis du vil ha mer informasjon om hvordan komponentforbruk er trekkes fra hyller til produksjon eller åpne produksjonshyller, kan du se avsnittet Trekke produksjonskomponenter i lageret i dette emnet.  
+### Flyter til og fra montering i et enkelt lageroppsett  
 
-### <a name="flows-to-and-from-assembly"></a>Flyter til og fra montering  
- Hovedintegrasjonen mellom monteringsordrer og avanserte lageraktiviteter representeres av muligheten til å plukke monteringskomponenter på både **Plukk**-siden og **Plukkforslag**-siden. Denne funksjonaliteten fungerer nøyaktig slik som plukking av komponenter for produksjonsordrer.  
+Bokfør utdata og forbruk for montering direkte fra en monteringsordre.
 
- Det finnes ingen bestemt lagerfunksjonalitet for å plassere monteringsvarer, men du kan angi en standard plasseringshylle for hyllekoden i monteringsordrehodet. Bokføring av monteringsordre Funksjoner da som bokføring av en plassering. Lageraktiviteten som flytter monteringsvarer til lageret, kan håndteres på siden **Flytteforslag** eller siden **Intern plassering** uten noen relasjon til monteringsordren.  
+> [!NOTE]
+> **Lagerplukk-** og **lagerplasseringsdokumenter** støttes ikke for monteringsordrer.
 
-> [!NOTE]  
->  Hvis varer monteres til ordre, vil lagerlevering for den tilknyttede ordren deretter utløse lagerplukk for alle involverte monteringskomponenter, ikke bare for den solgte varen som når du leverer varer på lager.  
+For lokasjoner som bruker hyller:
 
- Feltene **Til-Hyllekode for montering** og **Fra-Hyllekode for montering** på lokasjonskortet definerer standardflyter til og fra monteringsområder.  
+* Bruk **lagerflyttingsdokumenter** til å flytte monteringskomponenter til monteringsområdet.
+* Feltene **Til-Hyllekode for montering**, **Fra-Hyllekode for montering** på lokasjonskortet definerer standardflyter til og fra monteringsområder.
+* Behandle flyttingen av monterte varer på siden **Intern flytting** uten tilknytning til en monteringsordre.
 
-### <a name="ad-hoc-movements"></a>Adhocflyttinger  
- I avansert lagerstyring blir flytting av varer fra hylle til hylle uten relasjon til kildedokumenter, behandlet på siden **Flytteforslag** og registrert på siden Lagerflytting.  
+[!INCLUDE [prod_short](includes/prod_short.md)] støtter monter-til-lager- og monter-til-ordre-flyter. Finn ut mer under [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock). I forbindelse med lagerstyring er monter-til-lager en del av den interne lagerflyten, og monter-til-ordre er i den utgående lagerflyten. Finn ut mer under [Håndter montere-til-ordre-varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-## <a name="flushing-production-components-in-the-warehouse"></a>Trekke produksjonskomponenter i lageret  
- Hvis det er angitt på varekortet, vil komponenter som er plukket med lagerplukk, bli bokført som forbrukte av produksjonsordren når lagerplukket registreres. Ved hjelp av trekkmetodene **Plukk + Fremover** og **Plukk + Bakover**, utløser plukkregistreringen den relaterte forbruksbokføringen henholdsvis når den første operasjonen starter, eller når den siste operasjonen er fullført.  
+### Flyter for prosjektstyring i et enkelt lageroppsett
 
- Tenk deg følgende scenario basert på [!INCLUDE[prod_short](includes/prod_short.md)]-demonstrasjonsdatabasen.  
+Bruk **lagerplukkdokumenter** til å plukke jobbkomponenter i flyten til prosjektstyring.
 
- Det finnes en produksjonsordre for 15 STK av varen LS-100. Noen av varene i komponentoversikten må trekkes manuelt i en forbrukskladd, og andre varer i oversikten kan plukkes og trekkes automatisk ved hjelp av trekkmetoden **Plukk + Bakover**.  
+For en lokasjon som bruker hyller definerer **Til-prosjekthyllekode**-feltet på lokasjonen standardflytene til prosjektstyring.
 
-> [!NOTE]  
->  **Plukk + fremover** fungerer bare hvis den andre operasjonen for produksjonsrutelinjen bruker en rutekoblingskode. Hvis en planlagt produksjonsordre frigis, starter lagertrekk fremover for komponenter som **Plukk + Fremover** er angitt for. Trekking kan imidlertid ikke finne sted før plukk av komponentene er registrert, noe som igjen bare kan finne sted når ordren frigis.  
+## Avanserte lageroppsett  
 
- Fremgangsmåten nedenfor beskriver hva ulike brukere gjør, og det relaterte svaret:  
+De inngående og utgående flytene i et avansert lageroppsett omfatter følgende innstillinger på siden **Lokasjonskort** for lokasjonen:
 
-1.  Verkstedlederen frigir produksjonsordren. Varer med trekkmetoden **Fremover** og ingen rutekoblingskode, trekkes fra den åpne produksjonshylle.  
-2.  Verkstedlederen velger knappen **Opprett lagerplukk** på produksjonsordren. Et lagerplukkdokumentet opprettet plukking for varer med trekkmetodene **Manuell**, **Plukk + Bakover** og **Plukk + Fremover**. Disse varene plasseres i hyllen til produksjon.  
-3.  Lagerlederen tilordner plukkingene til en lagermedarbeider.  
-4.  Lagermedarbeideren plukker varene fra aktuelle hyller og plasserer dem i hyllen til produksjon eller i hyllen som er angitt i plukkingen, som kan være en arbeidssenterhylle eller produksjonsressurshylle.  
-5.  Lagermedarbeideren registrerer plukkingen. Antallet trekkes fra plukkhyllene og legges til forbrukshyllen. **Plukket ant.**-feltet oppdateres i komponentoversikten for alle plukkede varer.  
+* For inngående flyt (plassering) aktiverer du alternativene **Mottak nødv.** og **Plassering nødv.**.
+* For utgående flyt (plukk) aktiverer du alternativene **Forsendelse nødv.** og **Mottak nødv.**.
 
-    > [!NOTE]  
-    >  Bare antallet som plukkes kan brukes.  
+### Flyter til og fra produksjon i avanserte lageroppsett
 
-6.  Maskinoperatøren gir produksjonssjefen beskjed om at sluttvarene er ferdige.  
-7.  Verkstedlederen bruker forbrukskladden eller produksjonskladden til å bokføre forbruk av komponentvarer som bruker enten trekkmetoden **Manuell** eller trekkmetoden **Fremover** eller **Plukk + Fremover** sammen med rutekoblingskoder.  
-8.  Produksjonssjefen bokfører avgangen til produksjonsordren og endrer statusen til **Ferdig**. Antallet komponentvarer som bruker trekkmetoden **Bakover**, trekkes fra den åpne produksjonshyllen, og antallet komponentvarer som bruker trekkmetoden **Plukk + Bakover**, trekkes fra hyllen til produksjon.  
+Bruk **lagerplukkdokumentene** og siden **Plukkforslag** til å plukke komponenter for produksjon.
 
- Illustrasjonen nedenfor viser når **Hyllekode**-feltet i komponentoversikten fylles i henhold til lokasjonsoppsettet eller oppsettet for produksjonsressurs/arbeidssenter.  
+For lokasjoner som bruker hyller:
 
- ![Oversikt over når/hvordan Hyllekode-feltet fylles ut.](media/binflow.png "Oversikt over når/hvordan Hyllekode-feltet fylles ut")  
+* **Lagerflyttingsdokumenter** og siden **Flytteforslag** er spesielt nyttig for komponenttrekk. Finn ut mer under [Trekke produksjonskomponenter i lageret](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md#flushing-production-components-in-a-advanced-warehouse-configuration).
+* Feltene **Til-Hyllekode for produksjon**, **Fra-Hyllekode for produksjon** og **Åpen prod.hyllekode** på lokasjon eller produksjonsressurs/arbeidssenter definerer standardflyter til og fra produksjonsområder. 
+* Behandle flyttingen av produserte varer på sidene **Flytteforslag** eller **Intern plassering** uten tilknytning til en produksjonsordre.
 
-## <a name="see-also"></a>Se også  
- [Designdetaljer: Lagerstyring](design-details-warehouse-management.md)
+### Flyter til og fra montering i avanserte lageroppsett
 
+Bruk **lagerplukkdokumentene** og siden **Plukkforslag** til å plukke komponenter for montering.
+
+For lokasjoner som bruker hyller:
+
+* Feltene **Til-Hyllekode for montering** og **Fra-Hyllekode for montering** på lokasjon definerer standardflyter til og fra monteringsområder.
+* Behandle flyttingen av monteringsvarer på sidene **Flytteforslag** eller **Intern plassering** uten tilknytning til en monteringsordre.
+
+[!INCLUDE [prod_short](includes/prod_short.md)] støtter monter-til-lager- og monter-til-ordre-flyter. Finn ut mer under [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock). 
+
+Monter-til-lager en del av den interne lagerflyten, og monter-til-ordre er i den utgående lagerflyten. Finn ut mer under [Håndtere montere-til-ordre-varer i lagerleveringer](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
+
+### Flyter til prosjektstyring i avanserte lageroppsett
+
+Bruk **lagerplukkdokumentene** og siden **Plukkforslag** til å plukke komponenter i flyten til prosjektstyring.
+
+For lokasjoner som bruker hyller definerer **Til-prosjekthyllekode**-feltet på lokasjonen standardflytene til prosjektområdet.
+
+## Se også  
+
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

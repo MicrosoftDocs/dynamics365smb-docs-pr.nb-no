@@ -6,22 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: invoicing, bookings
-ms.search.form: 1638, 6702, 6704
+ms.search.keywords: 'invoicing, bookings'
+ms.search.form: '1638, 6702, 6704'
 ms.date: 05/20/2022
 ms.author: edupont
-ms.openlocfilehash: 4423b51e7cac952bb2abcf41f9e9364d7bc098c0
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799719"
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-prod_short"></a>Massefakturering for Microsoft Bookings i [!INCLUDE[prod_short](includes/prod_short.md)]
+# Massefakturering for Microsoft Bookings i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Hvis selskapet ditt bruker Bookings-appen i Microsoft 365, kan du foreta massefakturering for avtaler. Siden **Bestillinger som ikke er fakturert** i [!INCLUDE[prod_short](includes/prod_short.md)] gir en oversikt over selskapets fullførte bestillinger. På denne siden kan du raskt velge avtalene du vil fakturere, og opprette fakturakladder for de leverte tjenestene.  
 
-## <a name="connect-to-bookings"></a>Koble til Bookings
+## Koble til Bookings
 
 For å kunne koble [!INCLUDE[prod_short](includes/prod_short.md)] til Bookings må du angi Bookings-firmaet, hva som skal synkroniseres med Bookings, hvor ofte du vil synkronisere, og hvilke maler som skal brukes. Du definerer denne informasjonen på siden **Oppsett for synkronisering av Bookings**, som du kan åpne fra siden **Konfigurasjon av Exchange-synkronisering**, som du finner via [Søk](ui-search.md).  
 
@@ -35,7 +29,7 @@ På samme måte, hvis du for eksempel vil synkronisere servicevarer mellom Booki
 > [!NOTE]
 > Bare elementer av typen *Tjeneste* synkroniseres mellom Bookings og [!INCLUDE[prod_short](includes/prod_short.md)]. Malen du konfigurerer på siden **Konfigurasjonsmaler** slik at den kan brukes for varesynkroniseringen, må defineres som *Tjeneste*.
 
-## <a name="invoice-appointments"></a>Fakturaavtaler
+## Fakturaavtaler
 
 Når tiden er inne for å sende fakturaer for de fullførte bestillingene, går du til siden **Bestillinger som ikke er fakturert**. Listen er lang eller kort avhengig av hvor ofte informasjonen synkroniseres. Du kan opprette fakturaer for alle bestillingene i listen eller én bestilling om gangen. Du kan velge én eller flere poster i listen og fakturere bare disse.  
 
@@ -44,7 +38,7 @@ Støtten for fakturering av avtaler fra Bookings er enklere enn den mer fullsten
 > [!NOTE]
 > I mai kan 2022 oppdaget vi et problem i integrasjonen med bestillinger. For øyeblikket krever synkroniseringen fra Bestillinger til [!INCLUDE [prod_short](includes/prod_short.md)] at du manuelt knytter fakturaene til kunder i [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finans](finance.md)  
 [Fakturere salg](sales-how-invoice-sales.md)  

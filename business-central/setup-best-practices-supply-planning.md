@@ -1,22 +1,16 @@
 ---
 title: Anbefalte fremgangsmåter for oppsett – Forsyningsplanlegging
-description: Når forsyningsplanlegging konfigureres og brukes på rett måte, kan det hjelpe et selskap med å unngå at det blir tomt for en vare på lager, og både bestillingskostnader og lagerkostnader kan reduseres.
+description: 'Når forsyningsplanlegging konfigureres og brukes på rett måte, kan det hjelpe et selskap med å unngå at det blir tomt for en vare på lager, og både bestillingskostnader og lagerkostnader kan reduseres.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: cb54a1baee3a6b7fc63a1f9db15bb79cddb0c108
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8516539"
 ---
-# <a name="setup-best-practices-supply-planning"></a>Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging
+# Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging
 Forsyningsplanlegging er et viktig forretningsområde. Når forsyningsplanlegging konfigureres og brukes på rett måte, kan det hjelpe et selskap med å unngå at det blir tomt for en vare på lager, og både bestillingskostnader og lagerkostnader kan reduseres.  
 
  Det er ikke mulig å fastsette ett optimalt oppsett for alle planleggingsfeltene ettersom dette varierer fra firma til firma på grunn av forretningsvariabler, som for eksempel markedssituasjon og forretningsstrategi. Det finnes imidlertid anbefalte fremgangsmåter for valg av alternativer i varekort og globale oppsettsfelt som bidrar til at selskapet kan komme i gang med betimelig og kostnadseffektiv lagerflyt.  
@@ -29,7 +23,7 @@ Forsyningsplanlegging er et viktig forretningsområde. Når forsyningsplanleggin
 |Lær mønsterpraksis for å angi utvalgte planleggingsparametre under det definerte gjenbestillingsprinsippet, for å planlegge effektivt og økonomisk for en vare i henhold til kritiske momenter, for eksempel leveringstid, lagerføringskost og sesongavhengighet.|[Anbefalte fremgangsmåter for oppsett: Planleggingsparametere](setup-best-practices-planning-parameters.md)|  
 |Lær mønsterpraksis for bruk av en generell forsyningsstrategi på alle varekort, som for eksempel å alltid motta varene én dag før de trengs eller eller avdemping av systemets reaksjon til små svingninger i etterspørselen.|[Anbefalte fremgangsmåter for oppsett: Oppsett for global planlegging](setup-best-practices-global-planning-setup.md)|  
 
-## <a name="see-also"></a>Se også  
+## Se også  
  [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)   
  [Designdetaljer: Planleggingsparametere](design-details-planning-parameters.md)   
  [Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)  

@@ -1,28 +1,22 @@
 ---
 title: Definere plasseringsmaler
-description: Bruk plasseringsmaler til å få de mest riktige hyllene for varene foreslått for deg, når som helst.
+description: 'Bruk plasseringsmaler til å få de mest riktige hyllene for varene foreslått for deg, når som helst.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 7312, 7313, 7314, 7321, 7322, 7323, 7329
+ms.search.form: '7312, 7313, 7314, 7321, 7322, 7323, 7329'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: 83d15ea1db01ef8161c81465a8c521128c7b8407
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529815"
 ---
-# <a name="set-up-put-away-templates"></a>Definere plasseringsmaler
+# Definere plasseringsmaler
 
 Med funksjonaliteten for lagerstyring foreslås den hyllen som passer best til varene på et hvilket som helst tidspunkt, i henhold til den plasseringsmalen du har definert for lageret, de hylleprioriteringene du har gitt til hyllene, og de minimums- og maksimumsantallene du har definert for faste hyller.  
 
 Du kan definere flere plasseringsmaler og velge én av dem som i hovedsak skal styre plasseringene i lageret. Du kan også velge en plasseringsmal for en hvilken som helst vare eller lagerføringsenhet som kan ha spesielle plasseringskrav.  
 
-## <a name="to-set-up-put-away-templates"></a>Slik setter du opp plasseringsmaler
+## Slik setter du opp plasseringsmaler
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Plasseringsmaler**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
@@ -37,15 +31,13 @@ Du kan definere flere plasseringsmaler og velge én av dem som i hovedsak skal s
 
 Du kan opprette forskjellige plasseringsmaler og deretter bruke dem slik det passer. Plasseringsmalen du har valgt for varen eller lagerføringsenheten, brukes først, hvis du har valgt en mal. Hvis disse feltene ikke er utfylt, brukes plasseringsmalen du valgte for lageret på hurtigfanen **Hylleprinsipp** på lokasjonskortet.  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/put-away-templates/)
+## Se relatert [Microsoft-opplæring](/training/modules/put-away-templates/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Lagerstyring](warehouse-manage-warehouse.md)  
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
 [Definer lagerstyring](warehouse-setup-warehouse.md)  
-[Monteringsstyring](assembly-assemble-items.md)  
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

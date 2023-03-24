@@ -1,6 +1,6 @@
 ---
 title: Opprette hylleinnhold
-description: Når du har definert hyllene, kan du angi varene du vil lagre i dem, og definere regler som kontrollerer hvor ofte hyller skal fylles på igjen.
+description: 'Når du har definert hyllene, kan du angi varene du vil lagre i dem, og definere regler som kontrollerer hvor ofte hyller skal fylles på igjen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
@@ -9,18 +9,12 @@ ms.workload: na
 ms.search.form: 7374
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 86d5d8410a884fa2a8357490c92658582fc9b9f5
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530436"
 ---
-# <a name="create-bin-contents"></a>Opprette hylleinnhold
+# Opprette hylleinnhold
 
 Etter at du har definert hyllene, kan du definere hylleinnholdet. Du kan med andre ord definere hvilke varer du vil lagre i en gitt hylle, og angi regler som skal styre fylling av hyllen med en bestemt vare. Du kan gjøre dette manuelt på siden **Hylleinnhold** eller automatisk med **Opprett hylleinnholdforslag**-siden.
 
-## <a name="to-create-bin-content-manually"></a>Slik oppretter du hylleinnhold manuelt:
+## Slik oppretter du hylleinnhold manuelt:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2. Velg lokasjonen der du vil opprette hylleinnhold, og velg deretter **Hyller**-handlingen.  
@@ -37,7 +31,7 @@ Hvis du velger feltet **Fast**, gir du varen fast plass i hyllen, som betyr at [
 > [!NOTE]  
 > Du kan sette opp flere hylleinnhold samtidig på siden **Hylleinnholdopprett. - forslag**.  
 
-## <a name="to-create-bin-content-with-a-worksheet"></a>Slik oppretter du hylleinnhold med et forslag:
+## Slik oppretter du hylleinnhold med et forslag:
 
 Når du har opprettet hyllene, kan du opprette det hylleinnholdet du ønsker for hver hylle i opprettingsforslaget for hylleinnhold.
 
@@ -55,17 +49,14 @@ Når du har opprettet hyllene, kan du opprette det hylleinnholdet du ønsker for
 
 I dette forslaget kan du arbeide med flere hylleinnholdslinjer for flere hyller og dermed få god oversikt over hva du legger i ulike hyller i en gitt sone, passasje eller reol.  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/set-up-zones-bins/)
+## Se relatert [Microsoft-opplæring](/training/modules/set-up-zones-bins/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Beregn etterfylling av hylle](warehouse-how-to-calculate-bin-replenishment.md)  
-[Lagerstyring](warehouse-manage-warehouse.md)  
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
-[Definere lagerstyring](warehouse-setup-warehouse.md)  
+[Definer lagerstyring](warehouse-setup-warehouse.md)  
 [Monteringsstyring](assembly-assemble-items.md)  
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
-[Designdetaljer: Lageroppsett](design-details-warehouse-setup.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

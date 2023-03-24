@@ -1,25 +1,19 @@
 ---
 title: Designdetaljer – Tabellstruktur | Microsoft-dokumentasjon
-description: For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er det viktig å forstå tabellstrukturen.
+description: 'For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er det viktig å forstå tabellstrukturen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: 249fb667676dcb91c91b5fd9015c46c0b994da31
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8142370"
 ---
-# <a name="design-details-table-structure"></a>Designdetaljer: Tabellstruktur
+# Designdetaljer: Tabellstruktur
 For å forstå hvordan dimensjonsoppføringer lagres og bokføres, er det viktig å forstå tabellstrukturen.  
 
-## <a name="table-480-dimension-set-entry"></a>Tabell 480, Dimensjonssettpost  
+## Tabell 480, Dimensjonssettpost  
 Du kan ikke endre denne tabellen. Når data er skrevet til tabellen, kan du slette eller redigere dem.
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
@@ -31,7 +25,7 @@ Du kan ikke endre denne tabellen. Når data er skrevet til tabellen, kan du slet
 |5|**Dimensjonsnavn**|Tekst 30|CalcField. Oppslag i tabell 348.|  
 |6|**Navn på dimensjonsverdi**|Tekst 30|CalcField. Oppslag i tabell 349.|  
 
-## <a name="table-481-dimension-set-tree-node"></a>Tabell 481, Trenode for dimensjonssett  
+## Tabell 481, Trenode for dimensjonssett  
 Du kan ikke endre denne tabellen. Den brukes til å søke etter et dimensjonssett. Hvis dimensjonssettet ikke blir funnet, blir det opprettet et nytt sett.  
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
@@ -41,7 +35,7 @@ Du kan ikke endre denne tabellen. Den brukes til å søke etter et dimensjonsset
 |3|**Dimensjonssett-ID**|Heltall|AutoIncrement. Brukes i felt 1 i tabell 480.|  
 |4|**I bruk**|Boolsk|Usann hvis ikke i bruk.|  
 
-## <a name="table-482-reclas-dimension-set-buffer"></a>Tabell 482 Reklass. dimensjonssettbuffer  
+## Tabell 482 Reklass. dimensjonssettbuffer  
 Denne tabellen brukes når du endrer en dimensjonsverdikode, for eksempel på en varepost ved hjelp av siden **Varereklassifiseringskladd**.  
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
@@ -55,14 +49,14 @@ Denne tabellen brukes når du endrer en dimensjonsverdikode, for eksempel på en
 |7|**Navn på dimensjonsverdi**|Tekst 30|CalcField. Oppslag i tabell 349.|  
 |8|**Nytt navn på dimensjonsverdi**|Tekst 30|CalcField. Oppslag i tabell 349.|  
 
-## <a name="transaction-and-budget-tables"></a>Transaksjons- og budsjettabeller  
+## Transaksjons- og budsjettabeller  
 I tillegg til andre dimensjonsfelt i denne tabellen er dette feltet viktig:  
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensjonssett-ID**|Heltall|Refererer til felt 1 i tabell 480.|  
 
-### <a name="table-83-item-journal-line"></a>Tabell 83, Varekladdlinje  
+### Tabell 83, Varekladdlinje  
 I tillegg til andre dimensjonsfelt i denne tabellen er disse feltene viktige:  
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
@@ -70,14 +64,14 @@ I tillegg til andre dimensjonsfelt i denne tabellen er disse feltene viktige:
 |480|**Dimensjonssett-ID**|Heltall|Refererer til felt 1 i tabell 480.|  
 |481|**Ny dimensjonssett-ID**|Heltall|Refererer til felt 1 i tabell 480.|  
 
-### <a name="table-349-dimension-value"></a>Tabell 349, Dimensjonsverdi  
+### Tabell 349, Dimensjonsverdi  
 I tillegg til andre dimensjonsfelt i denne tabellen er disse feltene viktige:  
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
 |---------------|----------------|---------------|-------------|  
 |12|**Dimensjonsverdi-ID**|Heltall|AutoIncrement. Brukes til referanser i tabell 480 og tabell 481.|  
 
-### <a name="tables-that-contain-the-dimension-set-id-field"></a>Tabeller som inneholder Dimensjonssett-ID-feltet
+### Tabeller som inneholder Dimensjonssett-ID-feltet
  Feltet **Dimensjonssett-ID** (480) finnes i følgende tabeller: For tabellene som inneholder bokførte data vil feltet bare inneholde en ikke-redigerbar visning av dimensjoner, som er markert som detaljer. Feltet kan redigeres for tabeller som inneholder arbeidsdokumenter. Buffertabellene som brukes internt, trenger ikke redigerbar eller ikke-redigerbar funksjonalitet.  
 
  Felt 480 kan ikke redigeres i tabellene nedenfor.  
@@ -180,7 +174,7 @@ Felt 480 finnes i følgende buffertabeller.
 |5637|**Aktivafinansbokf.buffer**|  
 |7136|**Buffer for varebudsjett**|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Dimensjonssettposter – oversikt](design-details-dimension-set-entries-overview.md)  
 [Designdetaljer: Søke etter dimensjonskombinasjoner](design-details-searching-for-dimension-combinations.md)   

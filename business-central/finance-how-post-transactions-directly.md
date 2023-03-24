@@ -1,23 +1,17 @@
 ---
 title: Registrere utgifter og inntekter direkte i Finans
-description: Når det gjelder forretningsaktiviteter som ikke representeres av et dokument, kan du opprette de relaterte transaksjonene ved å bokføre kladdelinjer på Finanskladd-siden.
+description: 'Når det gjelder forretningsaktiviteter som ikke representeres av et dokument, kan du opprette de relaterte transaksjonene ved å bokføre kladdelinjer på Finanskladd-siden.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: direct posting, general ledger
-ms.search.form: 39, 251
+ms.search.keywords: 'direct posting, general ledger'
+ms.search.form: '39, 251'
 ms.date: 06/16/2021
 ms.author: edupont
-ms.openlocfilehash: cf61b53db298f4c133a3e733e4bb95d3506af05a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517527"
 ---
-# <a name="post-transactions-directly-to-the-general-ledger"></a>Bokføre transaksjoner direkte i Finans
+# Bokføre transaksjoner direkte i Finans
 
 Du bruker finanskladder til å bokføre finanstransaksjoner direkte på finanskonti og andre konti, for eksempel bank-, kunde-, leverandør- og ansattkonti.  
 
@@ -27,7 +21,7 @@ Finanskladder bokfører finanstransaksjoner direkte på finanskonti og andre kon
 
 I motsetning til poster som bokføres med dokumenter, som krever en kreditnotaprosess, kan du foreta riktig tilbakeføring av poster som bokføres med finanskladden. Hvis du vil ha mer informasjon, kan du se [Tilbakeføre kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md).
 
-## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Bokføre en transaksjon direkte på en finanskonto
+## Bokføre en transaksjon direkte på en finanskonto
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finanskladder**, og velg deretter den relaterte koblingen.
 2. Åpne den relevante finanskladden. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
@@ -41,7 +35,7 @@ I motsetning til poster som bokføres med dokumenter, som krever en kreditnotapr
     > Hvis du for eksempel vil angi flere transaksjonslinjer ovenfor én motkontolinje for én bankkonto, merker du av for **Foreslå motkontobeløp** på linjen for kladden på siden **Finanskladder**. Deretter fylles **Beløp**-feltet på motkontolinjen automatisk ut med verdien som kreves for å balansere transaksjonene.
 5. Velg handlingen **Bokfør** for å registrere transaksjonene på bestemte finanskonti.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbeid med finanskladder](ui-work-general-journals.md)  
 [Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)  

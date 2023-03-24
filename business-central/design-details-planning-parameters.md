@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: planning, design
+ms.search.keywords: 'planning, design'
 ms.date: 07/21/2021
 ms.author: edupont
-ms.openlocfilehash: d6598583ad118961fc15c7257e5207c3024e20e7
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8131980"
 ---
-# <a name="design-details-planning-parameters"></a>Designdetaljer: Planleggingsparametere
+# Designdetaljer: Planleggingsparametere
 Dette emnet beskriver de ulike planleggingsparameterne du kan bruke i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Måten planleggingssystemet kontrollerer vareforsyning på, fastsettes av ulike innstillinger på varekortet eller LFEen og innstillinger i produksjonsoppsettet. Tabellen nedenfor viser hvordan disse parameterne brukes til planlegging.  
@@ -30,10 +24,10 @@ Måten planleggingssystemet kontrollerer vareforsyning på, fastsettes av ulike 
 |Endre forsyningsordrene|Min. bestillingsantall<br /><br /> Maks. bestillingsantall<br /><br /> Bestillingsfaktor|  
 |Avgrense den planlagte varen|Produksjonsprinsipp:<br /><br /> -   Produser-til-lager<br />-   Produser-til-ordre|  
 
-## <a name="define-if-the-item-will-be-planned"></a>Angi om varen vil bli planlagt  
+## Angi om varen vil bli planlagt  
 Hvis du vil ta med en vare/LFE i planleggingsprosessen, må den ha et gjenbestillingsprinsipp, ellers må den planlegges manuelt, for eksempel med ordreplanleggingsfunksjonen.  
 
-## <a name="define-when-to-reorder"></a>Angi når det skal gjenbestilles  
+## Angi når det skal gjenbestilles  
 Generelt frigis gjenbestillingsforslag bare når forventet disponibelt antall er på eller under et gitt antall. Dette antallet defineres av gjenbestillingspunktet. Hvis ikke, vil den være null. Null kan justeres ved å skrive inn et sikkerhetslagerantall. Hvis brukeren har angitt en sikkerhetsleveringstid, vil dette ført til at forslaget leveres i perioden før den nødvendige forfallsdatoen.  
 
 **Time Bucket**-feltet brukes av prinsipper for gjenbestillingspunkt (**Fast gjenbest.ant.** og **Maks.ant.**), der lagernivået kontrolleres etter hver tidsperiode. Den første tidsperioden begynner på den planlagte startdatoen.  
@@ -45,7 +39,7 @@ Minst én dag må angis for standard sikkerhetstid på **Produksjonsoppsett**-si
 
 Tre andre felt for gjenbestillingsperiode, **Periode for ny planlegging**, **Akkumuleringsperiode for parti** og **Avdempingsperiode**, spiller også en rolle når det gjelder tidspunktet for gjenbestillingen. Hvis du vil ha mer informasjon, kan du se [Optimalisere når og hvor mye som skal gjenbestilles](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-## <a name="define-how-much-to-reorder"></a>Angi hvor mye som skal gjenbestilles  
+## Angi hvor mye som skal gjenbestilles  
 Hvis planleggingssystemet oppdager behov for å gjenbestille, vil det valgte gjenbestillingsprinsippet bli brukt til å fastslå når og hvor mye som skal bestilles.  
 
 Planleggingssystemet følger vanligvis denne logikken, uavhengig av gjenbestillingsprinsippet:  
@@ -58,7 +52,7 @@ Planleggingssystemet følger vanligvis denne logikken, uavhengig av gjenbestilli
 
      Følgende felt for gjenbestillingsperiode spiller også en rolle når det gjelder hvor mye som skal gjenbestilles: **Periode for ny planlegging**, **Akkumuleringsperiode for parti** og **Avdempingsperiode**. Hvis du vil ha mer informasjon, kan du se [Optimalisere når og hvor mye som skal gjenbestilles](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-### <a name="reordering-policies"></a>Gjenbestillingsprinsipper  
+### Gjenbestillingsprinsipper  
 Følgende gjenbestillingsprinsipper påvirker antallet som skal gjenbestilles.  
 
 |Gjenbestillingsprinsipp|Beskrivelse|  
@@ -68,7 +62,7 @@ Følgende gjenbestillingsprinsipper påvirker antallet som skal gjenbestilles.
 |**Bestilling**|Ordreantallet beregnes for å dekke hver enkelt behovshendelse, og settet med behov/forsyning forblir koblet frem til utførelse. Det tas ikke hensyn til planleggingsparametre.|  
 |**Parti for parti**|Antallet beregnes for å dekke summen av behovet som forfaller i tidsperioden.|  
 
-##  <a name="optimize-when-and-how-much-to-reorder"></a>Optimalisere når og hvor mye som skal gjenbestilles  
+##  Optimalisere når og hvor mye som skal gjenbestilles  
 For å få en rasjonell forsyningsplan finjusterer en planlegger planleggingsparametere for å begrense forslag til ny planlegging, akkumulere behov (dynamisk gjenbestillingsantall), eller for å unngå ubetydelige planleggingshandlinger. Følgende felt for gjenbestillingsperiode gjør det enklere å optimalisere når og hvor mye du må gjenbestille.  
 
 |Felt|Beskrivelse|  
@@ -103,19 +97,19 @@ I eksemplene nedenfor representerer svarte piler eksisterende forsyning (opp) og
 
 **Standardverdier:** Standardverdien for feltet **Tidsperiode** og de tre feltene for gjenbestillingsperiode er tomme. For alle felt, bortsett fra feltet **Avdempingsperiode**, betyr dette 0D (null dager). Hvis **Avdempingsperiode**-feltet er tomt, brukes den globale verdien i feltet **Standard avdempingsperiode** på siden **Produksjonsoppsett**.  
 
-## <a name="modify-the-supply-orders"></a>Endre forsyningsordrene  
+## Endre forsyningsordrene  
 Når antallet på bestillingsforslaget er beregnet, kan én eller flere av ordremodifikatorene justere det. Maksimumsordreantallet er for eksempel større enn eller lik minimumsordreantallet, som er større enn eller lik bestillingsfaktoren.  
 
 Antallet reduseres hvis det overskrider maksimumsordreantallet. Deretter økes det hvis det er under minimumsordreantallet. Til slutt rundes dette opp slik at det samsvarer med en angitt bestillingsfaktor. Restantall bruker de samme justeringene før det totale behovet er blitt konvertert til ordreforslag.  
 
-## <a name="delimit-the-item"></a>Avgrense varen  
+## Avgrense varen  
 Alternativet **Produksjonsprinsipp** angir hvilke ytterligere ordrer MRP-beregningen kommer til å foreslå.  
 
 Hvis alternativet **Produser til lager** brukes, vil ordrene bare gjelde den aktuelle varen.  
 
 Hvis alternativet **Produser til ordre** brukes, vil g planleggingssystemet analysere produksjonsstykklisten for varen og opprette flere koblede ordreforslag for disse varene på lavere nivå, som også er angitt som Produser til ordre. Dette fortsetter så lenge det finnes produser-til-ordre-varer i de synkende stykklistestrukturene.
 
-## <a name="use-low-level-codes-to-manage-derived-demand"></a>Bruk lavnivåkoder til å styre avledet behov
+## Bruk lavnivåkoder til å styre avledet behov
 
 Bruk lavnivåkoder til å opprette avledet behov for komponenter som går gjennom til de lavere nivåene i stykklisten. Hvis du vil ha en mer forklaring om dette, kan du se [Vareprioritet/lavnivåkode](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
 
@@ -131,11 +125,11 @@ Som et alternativ til den automatiske beregningen som skjer dynamisk når feltet
 > [!NOTE]
 > Selv om feltet **Dynamisk lavnivåkode** er valgt, endres ikke lavnivåkodene for komponentvarer dynamisk hvis en overordnet stykkliste blir slettet eller satt til ikke-sertifisert. Dette kan gjøre det vanskelig å legge til nye varer på slutten av produktstrukturen fordi det kan overskride det maksimale antallet lavnivåkoder. Det anbefales derfor at du for store produktstrukturer som når grensen for lavnivåkoder, kjører kjørselen **Beregn lavnivåkode** ofte for å opprettholde strukturen.  
 
-### <a name="optimize-low-level-code-calculation"></a>Optimaliser beregning av lavnivåkode
+### Optimaliser beregning av lavnivåkode
 
 Velg feltet **Optimaliser beregning av lavnivåkode** for å angi at du vil bruke den nye, raskeste måten med beregning av lavnivåkode. Legg merke til at den nye beregningen gjøres forskjellig, og at det ødelegger bruken av utvidelser som bruker den eksisterende metoden. Den nye beregningsmetoden erstatter den gjeldende metoden i en fremtidig frigivelse.
 
-## <a name="see-also"></a>Se også  
+## Se også  
 [Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)

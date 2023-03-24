@@ -1,320 +1,300 @@
 ---
-title: 'Designdetaljer: Sentrale begreper for planleggingssystemet'
-description: Planleggingsfunksjonene foreslår mulige handlinger som brukeren kan utføre basert på behovs-/forsyningssituasjonen og varenes planleggingsparametere.
-author: SorenGP
+title: 'Utformingsdetaljer: Sentrale begreper for planleggingssystemet'
+description: Planlegging foreslår handlinger som brukeren kan utføre basert på behovs-/forsyningssituasjonen og varenes planleggingsparametere.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: ''
-ms.date: 06/24/2021
-ms.author: edupont
-ms.openlocfilehash: a9218bf8d8fa2c7f84b08380742df17bd7be7afe
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605168"
+ms.date: 01/25/2023
+ms.custom: bap-template
 ---
-# <a name="design-details-central-concepts-of-the-planning-system"></a>Designdetaljer: Sentrale begreper for planleggingssystemet
+# Designdetaljer: Sentrale begreper for planleggingssystemet
 
-Planleggingsfunksjonene er i en kjørsel som først velger de aktuelle varene og perioden som skal planlegges. Deretter kaller kjørselen en codeunit i henhold til lavnivåkoden (stykklisteposisjonen) for hver vare. Codeuniten beregner en forsyningsplan ved å balansere sett med behov/forsyning, og foreslår mulige handlinger for brukeren. De foreslåtte handlingene vises som linjer i planleggingsforslaget eller bestillingsforslaget.  
+Planleggingsfunksjonene er i en kjørsel som først velger de aktuelle varene og perioden som skal planlegges. Deretter kaller kjørselen en kodeenhet som beregner en forsyningsplan, i henhold til varens lavnivåkode (stykklisteplassering). Kodeenheten balansene tilbud-etterspørsel-sett og foreslår handlinger som brukeren skal utføres. De foreslåtte handlingene vises som linjer i planleggingsforslaget eller bestillingsforslaget.  
 
 ![Innhold på Planleggingsforslag-siden.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Innhold på Planleggingsforslag-siden")  
 
 Planleggeren i et selskap, for eksempel en innkjøper eller en produksjonsplanlegger, antas å være brukeren av planleggingssystemet. Planleggingssystemet hjelper brukeren ved å utføre omfattende, men heller enkle, beregninger av en plan. Brukeren kan dermed konsentrere seg om å løse vanskeligere problemer, for eksempel når ting avviker fra det som er vanlig.  
 
-Planleggingssystemet drives av forventet og faktisk kundebehov, for eksempel prognose og ordrer. Når planleggingsberegningen kjøres, foreslår programmet bestemte handlinger som brukeren kan utføre, vedrørende mulig forsyning fra leverandører, monterings- eller produksjonsavdelinger, eller overføringer fra andre lagre. Disse foreslåtte handlingene kan være opprettelse av nye forsyningsordrer, for eksempel bestillinger og produksjonsordrer. Hvis det allerede finnes forsyningsordrer, kan de foreslåtte handlingene være å øke eller påskynde ordrene for å dekke endringene i behovet.  
+Planleggingssystemet drives av forventet og faktisk kundebehov, for eksempel prognose og ordrer. Planleggingsberegninger foreslår handlinger du kan utføre når du leverer fra leverandører, montering eller produksjon eller overføringer fra andre lagre. Et eksempel på en foreslått handling kan være opprettelse av nye forsyningsordrer, for eksempel bestillinger og produksjonsordrer. Hvis det allerede finnes forsyningsordrer, kan de foreslåtte handlingene være å øke eller påskynde ordrene for å dekke endringene i behovet.  
 
 Et annet mål med planleggingssystemet er å sikre at beholdningen ikke vokser unødvendig. Hvis behovet avtar, foreslår systemet at brukeren utsetter, reduserer antallet i eller annullerer eksisterende forsyningsordrer.  
 
-MRP og MPS, Beregn bevegelsesplan og Beregn replanlegging er alle funksjoner i én kodeenhet som inneholder planleggingslogikken. Forsyningsplanberegningen omfatter imidlertid forskjellige undersystemer.  
+En kodeenhet inneholder en planleggingslogikk og følgende funksjoner:
 
-Vær oppmerksom på at planleggingssystemet ikke inneholder dedikert logikk for kapasitetsutjevning eller finplanlegging. Derfor utføres slikt planleggingsarbeid som en egen disiplin. Mangelen på direkte integrasjon mellom de to områdene betyr også at omfattende kapasitets- eller planendringer gjør at planleggingen må kjøres på nytt.  
+* MRP og MPS
+* Beregn bevegelsesplan
+* Beregn replanlegging
 
-## <a name="planning-parameters"></a>Planleggingsparametere
+Forsyningsplanberegningen omfatter imidlertid forskjellige undersystemer.  
 
-Planleggingsparametre som brukeren angir for en vare eller varegruppe, styrer hvilke handlinger planleggingssystemet foreslår i ulike situasjoner. Planleggingsparameterne defineres på hvert varekort for å kontrollere når etterfyllingen skal gjøres, hvor mye som skal etterfylles, og hvordan etterfyllingen skal gjøres.  
+Planleggingssystemet inneholder ikke dedikert logikk for kapasitetsutjevning eller finplanlegging. Disse typene planleggingsarbeid utføres separat. Mangelen på direkte integrasjon mellom de to områdene betyr også at omfattende kapasitets- eller planendringer krever at du kjører planleggingen på nytt.  
 
-Planleggingsparametre kan også angis for en hvilken som helst kombinasjon av vare, variant og lokasjon, ved å konfigurere en lagerføringsenhet (LFE) for hver nødvendig kombinasjon og deretter angi individuelle parametere.  
+## Planleggingsparametere
 
-Hvis du vil ha mer informasjon, se [Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md) og [Designdetaljer: Planleggingsparametere](design-details-planning-parameters.md).  
+Planleggingsparametere som du angir for en vare eller varegruppe, styrer hvilke handlinger planleggingssystemet foreslår i ulike situasjoner. Definer planleggingsparametere for hver vare for å kontrollere når etterfyllingen skal gjøres, hvor mye som skal etterfylles, og hvordan etterfyllingen skal gjøres.  
 
-## <a name="planning-starting-date"></a>Planlegge startdato
+Du kan også definere planleggingsparametere kan også angis for en hvilken som helst kombinasjon av vare, variant og lokasjon, ved å konfigurere en lagerføringsenhet for hver kombinasjon og deretter angi individuelle parametere. Finn ut mer under [Utformingsdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md) og [Utformingsdetaljer: Planleggingsparametere](design-details-planning-parameters.md).  
 
-For å unngå en forsyningsplan som innholder åpne ordrer i fortiden og foreslår potensielt umulige handlinger, behandler planleggingssystemet alle datoer før den planlagte startdatoen som en frossen sone der følgende spesialregel gjelder:  
+## Planlegge startdato
 
-Alle tilbud og etterspørsel før startdatoen for planleggingsperioden blir betraktet som en del av beholdningen eller levert.  
+Planleggingssystemet hjelper deg med å unngå at åpne ordrer i tidligere og foreslåtte handlinger ikke er mulige. Planlegging behandler alle datoer før startdatoen som en låst sone. Følgende regel gjelder den frosne sonen:  
 
-Det antar med andre ord at planen for fortiden utførtes i henhold til den angitte planen.  
+* Alle tilbud og etterspørsel før startdatoen for planleggingsperioden betraktes som en del av beholdningen eller levert. Det antar med andre ord at planen for fortiden kjøres i henhold til den angitte planen. Finn ut mer under [Behandle ordrer før den planlagte startdatoen](design-details-balancing-demand-and-supply.md#process-orders-before-the-planning-start-date).  
 
-Hvis du vil ha mer informasjon, kan du se [Håndtere ordrer før den planlagte startdatoen](design-details-balancing-demand-and-supply.md#dealing-with-orders-before-the-planning-starting-date).  
+## Dynamisk sporing (utligning)
 
-## <a name="dynamic-order-tracking-pegging"></a>Dynamisk sporing (utligning)
+Dynamisk sporing og samtidige opprettingen av handlingsmeldinger i planleggingsforslaget er ikke en del av forsyningsplanleggingssystemet. Når et behov eller en forsyning opprettes eller endres, kobler dynamisk ordrespring behovet og antallene for å dekke det i sanntid.  
 
-Dynamisk sporing, med den samtidige opprettingen av handlingsmeldinger i planleggingsforslaget, er ikke en del av forsyningsplanleggingssystemet i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne funksjonen knytter sammen behovene og antallene som kan dekke dem, i sanntid, hver gang et nytt behov eller en ny forsyning opprettes eller endres.  
+Hvis du for eksempel angir eller endrer en ordre, vil dynamisk sporing umiddelbart søke etter passende forsyning. Forsyningen kan være fra lager eller en forventet forsyningsordre (for eksempel en bestilling eller en produksjonsordre). Når det finner en forsyningskilde, kobler [!INCLUDE [prod_short](includes/prod_short.md)] til behovet og forsyningen. Du får tilgang til koblingen på sider med bare visning fra dokumentlinjene. Når forsyning ikke blir funnet, oppretter det dynamiske sporingssystemet handlingsmeldinger i planleggingsforslaget med forsyningsplanforslag.  
 
-Hvis brukeren for eksempel angir eller endrer en ordre, vil det dynamisk ordresporingssystemet umiddelbart søke etter passende forsyning til å dekke behovet. Dette kan være fra lager eller en forventet forsyningsordre (for eksempel en bestilling eller en produksjonsordre). Når en forsyningskilde blir funnet, oppretter systemet en kobling mellom behovet og forsyningen og viser koblingen på visningssider som kan åpnes fra de aktuelle dokumentlinjene. Når riktig forsyning ikke blir funnet, oppretter det dynamiske sporingssystemet handlingsmeldinger i planleggingsforslaget med forsyningsplanforslag som gjenspeiler den dynamiske balanseringen. Det dynamiske systemet for ordresporing tilbyr et svært enkel planleggingssystem som kan være nyttig for planleggere og andre roller i den interne forsyningskjeden.  
+Dynamisk sporing hjelper deg med å vurdere om du vil godta forslag til forsyningsordrer. Fra forsyningssiden viser den behovet som opprettet forsyningen. Fra behovssiden viser den forsyningen som skal dekke behovet.  
 
-Tilsvarende kan dynamisk sporing betraktes som et verktøy som hjelper brukeren med å vurdere forslag til forsyningsordre skal godtas. Fra forsyningssiden kan en bruker se hvilke behov som har opprettet forsyning, og fra behovssiden hvilken forsyning som skal dekke behovet.  
+:::image type="content" source="media/nav_app_supply_planning_1_dynamic_order_tracking.png" alt-text="Eksempel på dynamisk sporing.":::
 
-![Eksempel på dynamisk sporing.](media/NAV_APP_supply_planning_1_dynamic_order_tracking.png "Eksempel på dynamisk sporing")  
+Finn ut mer [Utformingsdetaljer: Reservasjon, sporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md).  
 
-Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md).  
+I selskaper med en lav vareflyt og mindre avanserte produktstrukturer kan det være nok å bruke dynamisk sporing for forsyningsplanlegging. I travle miljøer bør planleggingssystemet imidlertid brukes til å sikre at finnes en riktig balansert forsyningsplan.  
 
-I selskaper med en lav vareflyt og mindre avanserte produktstrukturer kan det være tilstrekkelig å bruke dynamisk sporing som det primære middelet for forsyningsplanlegging. I travle miljøer bør planleggingssystemet imidlertid brukes til å sikre at det alltid finnes en riktig balansert forsyningsplan.  
+### Dynamisk sporing kontra planleggingssystemet
 
-### <a name="dynamic-order-tracking-versus-the-planning-system"></a>Dynamisk sporing kontra planleggingssystemet
+Det kan være vanskelig å skille mellom planleggingssystemet og dynamisk sporing. Begge funksjonene viser utdata i planleggingsforslaget ved å foreslå handlinger som planleggeren bør utføre. Utdataene blir imidlertid produser på en annen måte.  
 
-Det kan være vanskelig å skille mellom planleggingssystemet og dynamisk sporing med et raskt blikk. Begge funksjonene viser utdata i planleggingsforslaget ved å foreslå handlinger som planleggeren bør utføre. Utdataene blir imidlertid produser på en annen måte.  
+Planleggingssystemet håndterer hele forsynings- og behovsmønsteret for en vare. Det anser alle nivåene i stykklistehierarkiet langs tidslinjen. Dynamisk sporing behandler bare situasjonen i rekkefølgen som aktiverte den. Ved balansering av behov og forsyning oppretter planleggingssystemet koblinger i en brukeraktivert satsvis modus. Dynamisk sporing oppretter koblingene automatisk når du angir et behov eller en forsyning. Når du for eksempel oppretter en ordre eller en bestilling.  
 
-Planleggingssystemet håndterer hele forsynings- og behovsmønsteret for en vare gjennom alle nivåer i stykklistehierarkiet langs tidslinjen, mens dynamisk sporing bare håndterer situasjonen for ordren som aktiverte det. Når planleggingssystemet balanserer behov og forsyning, oppretter det koblinger i en brukeraktivert satsvis modus, mens Dynamisk sporing oppretter koblingene automatisk og på sparket, hver gang brukeren registrerer et behov eller en forsyning i programmet, for eksempel en ordre eller bestilling.  
+Dynamisk sporing kobler behov og forsyning når data registreres, basert på det som kommer først. Dette grunnlaget kan føre til uorden i prioriteter. Det kan for eksempel være at en ordre som er registrert først med en forfallsdato neste måned, knyttes til forsyningen i lageret. Neste ordreforfallsdato i morgen kan forårsake en handlingsmelding for å opprette en ny bestilling for å dekke den. Bildet nedenfor viser dette scenarioet.  
 
-Dynamisk sporing oppretter koblinger mellom behov og forsyning når data registreres, basert på det som kommer først. Dette kan føre til litt uorden i prioriteter. En ordre som angis først og som har forfallsdato neste måned, kan for eksempel være koblet til forsyning på lager, mens den neste ordren som forfaller i morgen, kan føre til en handlingsmelding om å opprette en ny bestilling for å dekke den, som vist nedenfor.  
+:::image type="content" source="media/nav_app_supply_planning_1_dynamic_order_tracking_graph.png" alt-text="Eksempel på sporing i forsyningsplanlegging 1.":::
 
-![Eksempel på sporing i forsyningsplanlegging 1.](media/NAV_APP_supply_planning_1_dynamic_order_tracking_graph.png "Eksempel på sporing i forsyningsplanlegging 1")  
+Planleggingssystemet håndterer behov og forsyning for varer i en prioritert rekkefølge. Ordren prioriteres i henhold til forfallsdatoer og ordretyper. Det vil si i en først-nødvendig-første-betjent-basis. Den sletter alle sporingskoblinger som ble opprettet dynamisk, og etablerer dem på nytt i henhold til forfallsdatoprioritet. Når planleggingssystemet har kjørt, har det løst all ubalanse mellom behov og forsyning, som vist nedenfor for de samme dataene.
 
-I motsetning håndterer planleggingssystemet alle behov og forsyning for en bestemt vare, i prioritert rekkefølge i henhold til forfallsdato og ordretyper, det vil si basert på det som kommer først. Den sletter alle sporingskoblinger som ble opprettet dynamisk, og etablerer dem på nytt i henhold til forfallsdatoprioritet. Når planleggingssystemet har kjørt, har det løst all ubalanse mellom behov og forsyning, som vist nedenfor for de samme dataene.  
+:::image type="content" source="media/nav_app_supply_planning_1_planning_graph.png" alt-text="Eksempel på sporing i forsyningsplanlegging 2.":::  
 
-![Eksempel på sporing i forsyningsplanlegging 2.](media/NAV_APP_supply_planning_1_planning_graph.png "Eksempel på sporing i forsyningsplanlegging 2")  
+Når du har kjørt planleggingen, inneholder ikke tabellen Handlingsmeldingspost noen handlingsmeldinger. Disse meldingene erstattes av handlingene som er foreslått i planleggingsforslaget. Finn ut mer under [Sporingskoblinger under planlegging](design-details-balancing-demand-and-supply.md#serial-and-lot-numbers-are-loaded-by-specification-level).  
 
-Etter planleggingskjøringen lagres ingen handlingsmeldinger i tabellen Handlingsmeldingspost fordi de har blitt erstattet av de foreslåtte handlingene i planleggingsforslaget  
+## Rekkefølge og prioritet i planlegging
 
-Hvis du vil ha mer informasjon, kan du se [Sporingskoblinger under planlegging](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).  
+Sekvensen på beregningene i planen er viktig for å få jobben gjort innen rimelig tid. Prioriteringen av krav og ressurser spiller også en viktig rolle for å få de beste resultatene.  
 
-## <a name="sequence-and-priority-in-planning"></a>Rekkefølge og prioritet i planlegging
+Planleggingssystemet drives av behov. Varer på høyt nivå må planlegges før vare på lavt nivå, fordi de kan generere ekstra behov for varene på lavere nivå. Planlegg for eksempel detaljhandelslokasjoner før distribusjonssentre fordi detaljhandelslokasjonen kan inneholde behov fra distribusjonssenteret. På et detaljert balansenivå hvis en frigitt forsyningsordre kan dekke en ordre, skal ikke systemet opprette en ny forsyningsordre. En forsyning med et bestemt partinummer skal ikke tildeles for å dekke et generelt behov hvis et annen behov krever dette bestemte partiet.  
 
-Når du oppretter en plan, er rekkefølgen beregningene gjøres i, viktig for å få jobben gjort innen rimelig tid. I tillegg spiller prioritering av krav og ressurser en viktig rolle for å oppnå de beste resultatene.  
+### Varens prioritet/lavnivåkode
 
-Planleggingssystemet i [!INCLUDE[prod_short](includes/prod_short.md)] drives av behov. Varer på høyt nivå må planlegges før vare på lavt nivå, fordi planen for varer på høyt nivå kan generere ekstra behov for varene på lavere nivå. Dette betyr for eksempel at detaljhandelslokasjoner må planlegges før distribusjonssentre, fordi planen for en detaljhandelslokasjon kan inneholde flere behov fra distribusjonssenteret. På et detaljert balansenivå betyr dette også at en ordre ikke skal utløse en ny forsyningsordre hvis en allerede frigitt forsyningsordre kan dekke ordren. En forsyning fra et bestemt partinummer skal ikke tilordnes for å dekke et generelt behov hvis et annen behov krever dette bestemte partiet.  
+Behovet for en ferdig og salgbare vare i et produksjonsmiljø, vil føre til avledede behov for komponenter som utgjør den ferdige varen. Stykklistestrukturen kontrollerer komponentstrukturen og kan dekke flere nivåer av halvferdige varer. Planlegging av en vare på ett nivå vil føre til et avledede behov for komponenter på det neste nivået. Dette hierarkiet fører til slutt til avledet behov for kjøpte varer. Planleggingssystemet planlegger for varer i prioritert rekkefølge i det samlede stykklistehierarkiet. Systemet starter med fullførte salgbare varer på øverste nivå, og fortsetter ned produktstrukturen til varer på lavere nivå (i henhold til lavnivåkoden).  
 
-### <a name="item-priority--low-level-code"></a>Varens prioritet/lavnivåkode
+Bildet nedenfor viser rekkefølgen som [!INCLUDE [prod_short](includes/prod_short.md)] foreslår forsyningsordrer i på øverste nivå. Det antar at forslagene ble godkjent, og viser også varer på lavere nivå.
 
-Behovet for en ferdig og salgbare vare i et produksjonsmiljø, vil føre til avledede behov for komponenter som utgjør den ferdige varen. Stykklistestrukturen kontrollerer komponentstrukturen og kan dekke flere nivåer av halvferdige varer. Planlegging av en vare på ett nivå vil føre til et avledede behov for komponenter på det neste nivået og så videre. Dette fører til slutt til avledet behov for kjøpte varer. Planleggingssystemet planlegger derfor for varer i rangeringsrekkefølgen i det totale stykklistehierarkiet. Systemet starter på øverste nivå med en ferdig vare som kan selges, og fortsetter nedover gjennom produktstrukturen til varene på lavere nivåer (i henhold til lavnivåkode).  
+:::image type="content" source="media/nav_app_supply_planning_1_bom_planning.png" alt-text="Planlegge for stykklister.":::
 
-![Planlegge for stykklister.](media/NAV_APP_supply_planning_1_BOM_planning.png "Planlegge for stykklister")  
+Hvis du vil finne ut mer om produksjonshensyn, kan du gå til [Laste inn lagerprofiler](design-details-balancing-demand-and-supply.md#load-inventory-profiles).  
 
-Figurene illustrerer i hvilken rekkefølge systemet lager forslag til forsyningsordrer på øverste nivå og, forutsatt at brukeren godtar disse forslagene, for alle varene på lavere nivå også.  
+#### Optimere ytelse for lavnivåberegninger
 
-Du finner mer informasjon om produksjonshensyn i [Laste inn lagerprofiler](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).  
+Beregninger av lavnivåkode kan påvirke systemytelsen. Hvis du vil redusere innvirkningen, kan du slå av vekslebryteren **Dynamisk beregning av lavnivåkode** på **Produksjonsoppsett**-siden. Når du gjør det, foreslår [!INCLUDE[prod_short](includes/prod_short.md)] at du oppretter en gjentakende prosjektkøpost som oppdaterer lavnivåkoder daglig. Du kan sikre at jobben vil kjøre utenom arbeidstiden ved å angi et starttidspunkt i feltet **Tidligste startdato/-klokkeslett**.
 
-#### <a name="optimizing-performance-for-low-level-calculations"></a>Optimere ytelse for lavnivåberegninger
-
-Beregninger av lavnivåkode kan påvirke systemytelsen. Hvis du vil redusere innvirkningen, kan du deaktivere **Dynamisk beregning av lavnivåkode** på **Produksjonsoppsett**-siden. Når du gjør det, vil [!INCLUDE[prod_short](includes/prod_short.md)] foreslå at du oppretter en gjentakende jobbkøpost som vil oppdatere lavnivåkoder daglig. Du kan sikre at jobben vil kjøre utenom arbeidstiden ved å angi et starttidspunkt i feltet **Tidligste startdato/-klokkeslett**.
-
-Du kan også aktivere logikk som øker hastigheten på beregninger av lavnivåkoder ved å velge **Optimaliser beregning av lavnivåkode** på siden **Produksjonsoppsett**. 
+Du kan også få fart på beregninger av lavnivåkoder ved å slå på vekslebryteren **Optimaliser beregning av lavnivåkode** på siden **Produksjonsoppsett**.
 
 > [!IMPORTANT]
-> Hvis du velger å optimalisere ytelsen, vil [!INCLUDE[prod_short](includes/prod_short.md)] bruke nye beregningsmetoder til å bestemme lavnivåkoder. Hvis du har en utvidelse som er avhengig av hendelsene som brukes av de gamle beregningene, kan det hende at utvidelsen slutter å virke.   
+> Hvis du velger å optimalisere ytelsen, vil [!INCLUDE[prod_short](includes/prod_short.md)] bruke nye beregningsmetoder til å bestemme lavnivåkoder. Hvis du har en utvidelse som er avhengig av hendelsene som brukes av de gamle beregningene, kan det hende at utvidelsen slutter å virke.
 
-### <a name="locations--transfer-level-priority"></a>Lokasjoner / prioritet for overføringsnivå
+### Lokasjoner / prioritet for overføringsnivå
 
-Firmaer som driver virksomhet på mer enn ett sted må kanskje planlegge individuelt for hver enkelt lokasjon. Sikkerhetslagernivået og gjenbestillingsprinsippet for en vare kan for eksempel være forskjellig på ulike lokasjoner. I slike tilfeller må planleggingsparameterne angis per vare og per lokasjon.  
+Selskapet med mer enn én lokasjon må kanskje planlegge individuelt for hver enkelt lokasjon. Sikkerhetslagernivået og gjenbestillingsprinsippet for en vare kan for eksempel være forskjellig på ulike lokasjoner. Du må angi planleggingsparameterne per vare og lokasjon.  
 
-Dette støttes med bruk av LFEer, der individuelle planleggingsparametere kan angis på LFE-nivået. En SKU kan betraktes som en vare på en bestemt plassering. Hvis brukeren ikke har angitt LFE for denne lokasjonen, vil programmet bruke standardparametere som er angitt på varekortet. Programmet beregner en plan bare for aktive lokasjoner, som er der det finnes behov eller forsyning for den angitte varen.  
+Du kan bruke lagerføringsenheter til å angi individuelle planleggingsparametere. En SKU kan betraktes som en vare på en bestemt plassering. Hvis du ikke har definert en lagerføringsenhet for lokasjonen, bruker [!INCLUDE [prod_short](includes/prod_short.md)] parameterne som er angitt på varekortet. [!INCLUDE [prod_short](includes/prod_short.md)] beregner en plan bare for aktive lokasjoner, som er der det finnes behov eller forsyning for en angitt vare.  
 
-I prinsippet kan en vare håndteres på en hvilken som helst lokasjon, men programmets tilnærming til lokasjonskonseptet er ganske streng. En ordre på én lokasjon kan for eksempel ikke oppfylles av et antall på lager på en annen lokasjon. Antallet på lager må først overføres til lokasjonen som er angitt i ordren.  
+Alle varer kan håndteres på en hvilken som helst lokasjon, men [!INCLUDE [prod_short](includes/prod_short.md)] har en streng tilnærming til konseptet for lokasjon. En ordre for en vare på én lokasjon kan for eksempel ikke oppfylles av lager fra en annen lokasjon. Antallet på lager må først overføres til lokasjonen som er angitt i ordren.
 
-![Planlegge for lagerføringsenheter.](media/NAV_APP_supply_planning_1_SKU_planning.png "Planlegge for lagerføringsenheter")  
+:::image type="content" source="media/nav_app_supply_planning_1_sku_planning.png" alt-text="Planlegge for lagerføringsenheter.":::
 
-Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md).  
+Finn ut mer under [Utformingsdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md).  
 
-### <a name="order-priority"></a>Bestillingsprioritet
+### Bestillingsprioritet
 
-I en gitt LFE representerer ønsket eller tilgjengelig dato den høyeste prioriteten. Behovet i dag bør håndteres før behovet i de neste dagene. Bortsett fra denne typen prioritet blir ulike behovs- og forsyningstyper sortert i henhold til viktighet i virksomheten for å avgjøre hvilke behov som må oppfylles før andre behov kan oppfylles. På forsyningssiden vil ordreprioriteten vise hvilken forsyningskilde som skal brukes før bruk av andre forsyningskilder.  
+I en gitt LFE representerer ønsket eller tilgjengelig dato den høyeste prioriteten. Behovet i dag bør håndteres før behovet i de neste dagene. Bortsett fra denne typen prioritet blir ulike behovs- og forsyningstyper sortert i henhold til viktighet i virksomheten for å avgjøre hvilke behov som må oppfylles først. På forsyningssiden bestemmer ordreprioriteten kilden for forsyning som skal brukes først. Finn ut mer under [Prioritering av ordrer](design-details-balancing-demand-and-supply.md#prioritize-orders).  
 
-Hvis du vil ha mer informasjon, kan du se [Prioritere ordrer](design-details-balancing-demand-and-supply.md#prioritizing-orders).  
+## Behovsprognoser og rammeordrer
 
-## <a name="demand-forecasts-and-blanket-orders"></a>Behovsprognoser og rammeordrer
+Både prognoser og rammeordrer representerer forventet behov. Rammeordren, som dekker kjøp en kunde har tenkt å foreta i en bestemt tidsperiode, er med på å redusere usikkerheten ved den samlede prognosen. Rammeordren er en kundespesifikk prognose oppå den uspesifiserte prognosen som illustreres i følgende bilde.  
 
-Både prognoser og rammeordrer representerer forventet behov. Rammeordren, som dekker kjøp en kunde har tenkt å foreta i en bestemt tidsperiode, er med på å redusere usikkerheten ved den samlede prognosen. Rammeordren er en kundespesifikk prognose oppå den uspesifiserte prognosen som illustreres nedenfor.  
+:::image type="content" source="media/nav_app_supply_planning_1_forecast_and_blanket.png" alt-text="Planlegging med prognoser.":::
 
-![Planlegging med prognoser.](media/NAV_APP_supply_planning_1_forecast_and_blanket.png "Planlegging med prognoser")  
+Finn ut mer under [Prognosebehov blir redusert av ordrer](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
 
-Hvis du vil ha mer informasjon, kan du se avsnittet [Prognosebehovet reduseres av ordrer](design-details-balancing-demand-and-supply.md#forecast-demand-is-reduced-by-sales-orders).  
+## Planleggingstilordning
 
-## <a name="planning-assignment"></a>Planleggingstilordning
-
-Det må planlegges for alle varer, men det er ingen grunn til å beregne en plan for en vare med mindre det er en endring i mønsteret for behov eller forsyning siden planen sist ble beregnet.  
-
-Hvis brukeren har angitt en ny ordre eller endret en eksisterende, er det grunn til å beregne planen på nytt. Andre årsaker inkluderer en endring i prognosen eller ønsket sikkerhetslagerantall. Endring av en stykkliste ved å legge til eller fjerne en komponent, vil mest sannsynlig indikerer en endring, men bare for komponentvaren.  
+Alle varer må planlegges på nytt for når behovs- eller forsyningsmønsteret er endret siden forrige gang en plan ble beregnet. Hvis du for eksempel angir en ny ordre eller endrer en eksisterende, må du beregne planen på nytt. Andre årsaker for ny planlegging inkluderer en endring i prognosen eller sikkerhetslagerantall. Endring av en stykkliste ved å legge til eller fjerne en komponent, vil mest sannsynlig indikerer også en endring, men bare for komponentvaren.  
 
 Planleggingssystemet overvåker slike hendelser og tilordner de riktige varene for planlegging.  
 
-For flere lokasjoner foregår tildelingen på nivået for en vare per lokasjonskombinasjon. Hvis det for eksempel er opprettet en ordre på bare én lokasjon, vil programmet tilordne varen på denne spesifikke lokasjonen for planlegging.  
+For flere lokasjoner skjer tildelingen på varenivået per lokasjonskombinasjon. Hvis det er opprettet en ordre på bare én lokasjon, vil [!INCLUDE [prod_short](includes/prod_short.md)] tildele varen på denne lokasjonen for planlegging.  
 
-Grunnen til å velge varer for planlegging har å gjøre med systemytelsen. Hvis det ikke har oppstått endringer i en vares behov-/ forsyningsmønster, foreslår vil ikke planleggingssystemet foreslå handlinger som skal utføres. Uten planleggingstilordningen måtte systemet ha utført beregningene for alle varer for å finne ut hva det skal planlegge for, og dette hadde tappet systemressursene.  
+Grunnen til å velge varer for planlegging har å gjøre med systemytelsen. Hvis en vares behov-/ forsyningsmønster ikke er endret, vil ikke planleggingssystemet foreslå handlinger som skal utføres. Uten planleggingstilordningen måtte systemet ha utført beregningene for alle varer for å finne ut hva det skal planlegge for. Hvis du vil finne ut mer om årsakene for å tildele varer for planlegging, kan du gå til [Utformingsdetaljer: Tabell for planleggingstildeling](design-details-planning-assignment-table.md).  
 
-Den fullstendige listen over grunner til å tilordne en vare for planlegging finnes i [Designdetaljer: Tabell for planleggingstilordning](design-details-planning-assignment-table.md).  
+Følgende er planleggingsalternativene som er tilgjengelige:  
 
-Planleggingsalternativene i [!INCLUDE[prod_short](includes/prod_short.md)] er:  
+* **Beregn replanlegging** beregner alle valgte varer, om det er nødvendig eller ikke.  
+* **Beregn bevegelsesplan** beregner bare varene som har hatt en endring i behovs- og forsyningsmønsteret og derfor er tildelt for planlegging.  
 
--   Beregn replanlegging – beregner alle valgte varer, om det er nødvendig eller ikke.  
--   Beregn bevegelsesplan – beregner bare de valgte varene som har hatt endringer i behovs-/forsyningsmønsteret og derfor er tilordnet for planlegging.  
+Noen personer mener at bevegelsesplanlegging bør utføres raskt når som helst, for eksempel når ordrer registreres. Planlegging på farten kan imidlertid være forvirrende fordi dynamisk ordresporing og handlingsmeldinger også beregnes direkte. [!INCLUDE[prod_short](includes/prod_short.md)] tilbyr sanntidskontroll for tilgjengelig for ordre. Det gir popup-advarsler når du angir ordrer og nåværende forsyningsplan ikke oppfyller behovet.  
 
-Noen brukere mener at bevegelsesplanlegging bør utføres raskt når som helst, for eksempel når ordrer registreres. Dette kan imidlertid være forvirrende fordi dynamisk ordresporing og handlingsmeldinger også beregnes direkte. I tillegg har [!INCLUDE[prod_short](includes/prod_short.md)] tilgjengelig for ordre (ATP)/kontroll i sanntid, noe som gir popup-advarsler når du registrerer salgsordrer hvis behovet ikke kan oppfylles i henhold til gjeldende forsyningsplan.  
+Planleggingssystemet planlegger bare for varene du har klargjort med riktige planleggingsparametere. Hvis ikke antar det at du skal planlegge varene manuelt eller halvautomatisk ved hjelp av funksjonen for ordreplanlegging. Hvis du vil finne ut mer om automatiske planleggingsprosedyrer, kan du gå til [Utformingsdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md).  
 
-I tillegg til disse vurderingene planlegger planleggingssystemet bare for varer der brukeren har klargjort med riktige planleggingsparametere. Hvis ikke, antas det at brukeren skal planlegge varene manuelt eller halvautomatisk ved hjelp av funksjonen for ordreplanlegging.  
-
-Hvis du vil ha mer informasjon om automatiske planleggingsprosedyrer, kan du se [Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md).  
-
-## <a name="item-dimensions"></a>Varedimensjoner
+## Varedimensjoner
 
 Behov og forsyning kan omfatte variant- og lokasjonskoder som må respekteres når planleggingssystemet balanserer behov og forsyning.  
 
-Systemet behandler variant- og lokasjonskoder som varedimensjoner på en salgsordrelinje, lagerpost og så videre. Det beregner derfor en plan for hver kombinasjon av variant og lokasjon som om kombinasjonen var et eget varenummer.  
+[!INCLUDE [prod_short](includes/prod_short.md)] behandler variant- og lokasjonskoder som varedimensjoner på en salgsordrelinje, lagerpost og så videre. Det beregner derfor en plan for hver kombinasjon av variant og lokasjon som om kombinasjonen var et eget varenummer.  
 
-I stedet for å beregne teoretiske kombinasjoner av variant og lokasjon, beregner programmet kombinasjonene som faktisk finnes i databasen.  
+I stedet for å beregne teoretiske kombinasjoner av variant og lokasjon, beregner [!INCLUDE [prod_short](includes/prod_short.md)] kombinasjonene som faktisk finnes i databasen. Hvis du vil finne ut mer om hvordan planleggingssystemet håndterer lokasjonskoder på forespørsel, kan du gå til [Utformingsdetaljer: Behov på tom lokasjon](design-details-balancing-demand-and-supply.md)..  
 
-Hvis du vil ha mer informasjon om hvordan planleggingssystemet håndterer lokasjonskoder på forespørsel, kan du se [Designdetaljer: Behov på tom lokasjon](design-details-balancing-demand-and-supply.md)..  
+## Vareattributter
 
-## <a name="item-attributes"></a>Vareattributter
+Varer har ofte generelle attributter, for eksempel varenummer, variantkode, lokasjonskode og ordretype. Hver behovs- og forsyningshendelse kan imidlertid ha andre spesifikasjoner, for eksempel serie- eller partinumre. Planleggingssystemet planlegger disse attributtene på bestemte måter som avhenger av spesifikasjonsnivået deres.  
 
-I tillegg til generell varedimensjoner, for eksempel varenummer, variantkode, lokasjonskode og ordretype, kan hver hendelses og forsyningshendelse inneholde tilleggsspesifikasjoner i form av serie-/partinumre. Planleggingssystemet planlegger disse attributtene på bestemte måter som avhenger av spesifikasjonsnivået deres.  
+En ordre-til-ordre-kobling mellom behov og forsyning er en annen attributtype som påvirker planleggingssystemet. Finn ut mer under [Ordre-til-ordre-koblinger](#order-to-order-links).
 
-En ordre-til-ordre-kobling mellom behov og forsyning er en annen attributtype som påvirker planleggingssystemet.  
+### Bestemte attributter
 
-### <a name="specific-attributes"></a>Bestemte attributter
+Noen behovsattributter er spesifikke, og en forsyning må være identiske med hverandre.
 
-Enkelte attributter på forespørsel er spesifikke og må samsvare nøyaktig med en tilsvarende forsyning. Følgende to bestemte attributter finnes:  
-
--   Etterspørsel etter serie-/partinumre som krever bestemt program (avmerkingsboksen **Sporing basert på s.nr.** eller **Sporing basert på parti** er merket av på **Kort for varesporingskode**-siden for varesporingskode som brukes av elementet.)  
--   Koblinger til forsyningsordrer som er opprettet manuelt eller automatisk for et bestemt behov (ordre-til-ordre-koblinger).  
+* Serie- eller partinumre som krever bestemt program (disse attributtene kreves hvis du slår på vekslebryteren **Sporing basert på s.nr.** eller **Sporing basert på parti** på **Kort for varesporingskode**-siden for varesporingskode som brukes av varen.)  
+* Koblinger til forsyningsordrer som er opprettet manuelt eller automatisk for et bestemt behov (ordre-til-ordre-koblinger).  
 
 Planleggingssystemet bruker følgende regler for disse attributtene:  
 
--   Behov med bestemte attributter kan bare oppfylles av forsyning med tilsvarende attributter.  
--   Forsyning med bestemte attributter kan også dekke behov som ikke spesifikt ber om disse attributtene.  
+* Behov med bestemte attributter kan bare oppfylles av forsyning med tilsvarende attributter.  
+* Forsyning med bestemte attributter kan også dekke behov som ikke spesifikt krever disse attributtene.  
 
-Hvis et behov for bestemte attributter ikke kan oppfylles av lager eller forventede forsyninger, vil planleggingssystemet foreslå en ny forsyningsordre for å dekke dette bestemte behov uten hensyn til planleggingsparametere.  
+Hvis lager eller anslåtte forsyninger ikke kan oppfylles et behov for bestemte attributter, foreslår planleggingssystemet en ny forsyningsordre uten å ta hensyn til planleggingsparametere.  
 
-### <a name="non-specific-attributes"></a>Ikke-spesifikke attributter
+### Ikke-spesifikke attributter
 
-Serie-/partinummererte varer uten et bestemt varesporingsoppsett kan ha serie-/partinumre som ikke trenger å utlignes mot nøyaktig samme serie-/partinummer, men kan utlignes mot et hvilket som helst serie-/partinummer. Dette gir planleggingssystemet større frihet til for eksempel å knytte et serialisert behov til en serialisert forsyning, vanligvis på lageret.  
+Serie- eller partinummererte varer uten et bestemt varesporingsoppsett kan ha ikke-spesifikke serie- eller partinumre. Denne typen numre kan brukes på alle serie- eller partinumre. Planleggingssystemet har større frihet til for eksempel å knytte et serialisert behov til en serialisert forsyning, vanligvis på lageret.  
 
-Behov/forsyning med serie-/partinumre, spesifikke eller ikke-spesifikke, anses som høy prioritet og er derfor er unntatt fra den frosne sonen, noe som betyr at de blir en del av planleggingen selv om de er forfalt før den planlagte startdatoen.  
+Behov-forsyning med serie- eller partinumre, spesifikk eller ikke-spesifikk, er høyt prioritet og er fritatt fra den frosne sonen. De er en del av planleggingen selv om de forfaller før planleggingsstartdatoen. Finn ut mer under [Serie- og partinumre lastes inn etter spesifikasjonsnivå](design-details-balancing-demand-and-supply.md#serial-and-lot-numbers-are-loaded-by-specification-level).
 
-Hvis du vil ha mer informasjon, kan du se [Serie-/partinumre lastes inn etter spesifikasjonsnivå](design-details-balancing-demand-and-supply.md#seriallot-numbers-are-loaded-by-specification-level).
+Hvis du vil finne ut mer om hvordan planleggingssystemet balanserer attributter, kan du gå til [Serie- og partinumre og ordre-til-ordre-koblinger er fritatt fra den forrige perioden](design-details-balancing-demand-and-supply.md#serial-and-lot-numbers-and-order-to-order-links-are-exempt-from-the-previous-period).  
 
-Hvis du vil ha mer informasjon om hvordan planleggingssystemet balanserer attributter, kan du se [Serie-/partinumre og ordre-til-ordre-koblinger er fritatt fra den frosne sonen](design-details-balancing-demand-and-supply.md#seriallot-numbers-and-order-to-order-links-are-exempt-from-the-frozen-zone).  
+## Odre-til-ordre-koblinger
 
-## <a name="order-to-order-links"></a>Odre-til-ordre-koblinger
+Ordre-til-ordre betyr at du kjøper, monterer eller produserer en vare for et bestemt behov. Du kan velge denne policyen på flere årsaker:
 
-Ordre-til-ordre-innkjøp betyr at en vare utelukkende blir kjøpt, montert eller produsert for å dekke et spesifikt behov. Vanligvis er dette knyttet til A-varer, og motivasjon for å velge dette prinsippet kan være at behovet er sjeldent, leveringstiden er ubetydelig eller de nødvendige attributtene varierer.  
+* Behovet er sjeldent.
+* Leveringstiden er ikke viktig.
+* Det nødvendige attributtet varierer.  
 
-Et annet spesialtilfelle som bruker ordre-til-ordre-koblinger når en monteringsordre knyttes til en salgsordre i et monter-til-ordre-scenario.  
+Et annet tilfelle som bruker ordre-til-ordre-koblinger når en monteringsordre knyttes til en salgsordre i et monter-til-ordre-scenario.  
 
 Ordre-til-ordre koblinger brukes mellom behov og forsyning på fire måter:  
 
--   Når den planlagte varen bruker gjenbestillingsprinsippet Ordre.  
--   Når produksjonsprinsippet Produser til ordre brukes til å opprette produksjonsordrer med flere nivåer eller av prosjekttypen (produksjon av nødvendige komponenter i samme produksjonsordre).  
--   Når produksjonsordrer opprettes for ordrer med funksjonen Ordreplanlegging.  
--   Når en vare monteres til en ordre. (Monteringsprinsippet er satt til å montere til ordre.  
+* Når den planlagte varen bruker gjenbestillingsprinsippet **Ordre**  
+* Når du bruker produser-til-ordre-produksjonsprinsippet til å opprette produksjonsordrer med flere nivåer eller av prosjekttypen (produksjon av komponenter i samme produksjonsordre)  
+* Når du oppretter produksjonsordrer for ordrer med funksjonen Ordreplanlegging  
+* Når du monterer en vare til en ordre (**Monteringsprinsipp** er satt til **Monter til ordre**)  
 
-I slike tilfeller vil planleggingssystemet bare foreslå å bestille det nødvendige antallet. Når opprettet, vil kjøps-, produksjons- eller monteringsordre fortsatt samsvarer med det tilsvarende behovet. Hvis en ordre for eksempel endres i tid eller antall, foreslår planleggingssystemet at tilsvarende forsyningsordre endres tilsvarende.  
+Planleggingssystemet foreslår at du bare bestille det nødvendige antallet. Kjøps-, produksjons- eller monteringsordre fortsetter å samsvare med behovet. Hvis en ordre for eksempel endres i tid eller antall, foreslår planleggingssystemet at du endrer forsyningsordren tilsvarende.  
 
-Når det finnes ordre-til-ordre-koblinger, involverer ikke planleggingssystemet koblet forsyning eller lager i balanseringsprosessen. Det er opp til brukeren å vurdere om den tilknyttede forsyningen skal brukes til å dekke et annet eller nytt behov, og i slike tilfeller må forsyningsordren slettes eller den tilknyttede forsyningen må reserveres manuelt.  
+Når det finnes ordre-til-ordre-koblinger, involverer ikke planleggingssystemet koblet forsyning eller lager i balanseringsprosessen. Planleggere kan bestemme om du skal bruke den koblede forsyningen eller et nytt behov. I siste tilfelle kan de slette forsyningsordren eller reservere den koblede forsyningen manuelt.  
 
-Reservasjoner og sporingskoblinger brytes hvis en situasjon blir umulig, for eksempel hvis behovet flyttes til en dato som kommer før forsyningen. Ordre-til-ordre-kobling tilpasses imidlertid eventuelle endringer i det aktuelle behovet eller forsyningen, og dermed blir koblingen aldri brutt.  
+Koblinger for reservasjoner og sporing brytes hvis en situasjon blir umulig. Det kan for eksempel være at når du flytter behov til en dato som er tidligere enn forsyningen. Ordre-til-ordre-koblinger tilpasses til endringer i behovet eller forsyning og stanser aldri.  
 
-## <a name="reservations"></a>Reservasjoner
+## Reservasjoner
 
-Planleggingssystemet tar ikke med reserverte antall i beregningen. Hvis en ordre er helt eller delvis reservert mot antallet på lageret, kan for eksempel ikke det reserverte antallet på lageret brukes til å dekke andre behov. Planleggingssystemet tar ikke med dette settet med behov/forsyning i beregningen.  
+Planleggingssystemet tar ikke med reserverte antall i beregninger. Hvis for eksempel et antall for en ordre er helt eller delvis reservert, kan du ikke bruke antallet til å dekke annet behov.
 
-Planleggingssystemet vil imidlertid fremdeles inkludere reservert antall i profilen for beregnet beholdning, fordi alle antall må tas i betraktning når du fastslår både når gjenbestillingspunktet er overskredet, og hvor mange som må gjenbestilles for å oppnå og ikke overskride maksimumsnivået for beholdningen. Unødvendige reservasjoner vil derfor føre til økt risiko for at lagernivåene bli for lave fordi planleggingslogikken ikke gjenkjenner reservert antall.  
+Planleggingssystemet tar med reserverte antall i anslått lagerprofil. Den må ta hensyn til alle antall for å avgjøre når gjenbestillingspunktet er passert, og hvor mange du vil endre for å nå maksimum lagernivå. Unødvendige reservasjoner kan øke risikoen for at lagernivåene bli for lave fordi planleggingslogikken ikke gjenkjenner reservert antall.  
 
-Illustrasjonen nedenfor viser hvordan reservasjoner kan hindre den mest gjennomførbare planen.  
+Bildet nedenfor viser hvordan reservasjonene kan hindre planlegging.  
 
-![Planlegge med reservasjoner.](media/NAV_APP_supply_planning_1_reservations.png "Planlegge med reservasjoner")  
+:::image type="content" source="media/nav_app_supply_planning_1_reservations.png" alt-text="Planlegge med reservasjoner.":::
 
-Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md).  
+Finn ut mer [Utformingsdetaljer: Reservasjon, sporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md).  
 
-## <a name="warnings"></a>Advarsler
+## Advarsler
 
-Den første kolonnen i planleggingsforslaget er for advarselsfeltene. Når en planleggingslinje opprettes for en uvanlig situasjon, vises et advarselsikon i dette feltet. Brukeren kan klikke ikonet for å få mer informasjon.  
+Den første kolonnen i planleggingsforslaget er for advarselsfeltene. Det vises et varselsikon når du oppretter en planleggingslinje for en uvanlig situasjon.  
 
-Forsyning på planleggingslinjer med advarsler blir vanligvis ikke endret i henhold til planleggingsparametere. I stedet foreslår planleggingssystemet bare en forsyning for å dekke den nøyaktige behovsmengden. Systemet kan imidlertid konfigureres slik at det respekterer visse planleggingsparametere for planleggingslinjer med bestemte advarsler. Hvis du vil ha mer informasjon, kan du se beskrivelsen av disse alternativene for kjørselen **Beregn plan - planl.forslag**. og **Beregn plan - best.forslag** henholdsvis.  
+Forsyning på planleggingslinjer med advarsler endres vanligvis ikke i henhold til planleggingsparametere. I stedet foreslår planleggingssystemet en forsyning for å dekke det nøyaktige antallet for behovet. Systemet kan imidlertid konfigureres slik at det respekterer planleggingsparametere for planleggingslinjer med bestemte advarsler. Advarselsinformasjon vises på siden **Ikke-sporede planleggingselementer**, som også viser sporingskoblinger til ikke-ordrenettverksenheter. Det finnes tre typer advarsler:  
 
-Advarselsinformasjon vises på siden **Ikke-sporede planleggingselementer**, som også brukes til å vise sporingskoblinger til ikke-ordrenettverksenheter. Følgende typer advarsler finnes:  
+* Kritisk  
+* Unntak  
+* Viktig  
 
--   Kritisk  
--   Unntak  
--   Viktig  
+:::image type="content" source="media/nav_app_supply_planning_1_warnings.png" alt-text="Advarsler i planleggingsforslaget.":::
 
-![Advarsler i planleggingsforslaget.](media/NAV_APP_supply_planning_1_warnings.png "Advarsler i planleggingsforslaget")  
-
-### <a name="emergency"></a>Kritisk
+### Kritisk
 
 Kritisk-advarselen vises i to situasjoner:  
 
--   Når beholdningen er negativ på den planlagte startdatoen.  
--   Når det finnes tilbakedatert forsyning eller behov.  
+* Når beholdningen er negativ på den planlagte startdatoen  
+* Når det finnes tilbakedatert forsyning eller behov  
 
-Hvis beholdningen for en vare er negativ på den planlagte startdatoen, foreslår planleggingssystemet at det opprettes en kritisk ordre for det negative antallet, med ankomst på den planlagte startdatoen. Advarselsteksten angir startdatoen og antallet på den kritiske ordren. Hvis du vil ha mer informasjon, se [Håndtere forventet negativ lagerbeholdning](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
+Hvis beholdningen for en vare er negativ på den planlagte startdatoen, foreslår planleggingssystemet at det opprettes en kritisk ordre for det negative antallet, med ankomst på den planlagte startdatoen. Advarselsteksten angir startdatoen og antallet på den kritiske ordren. Finn ut mer under [Utformingsdetaljer: Håndtere forventet negativ lagerbeholdning](design-details-handling-reordering-policies.md#handling-projected-negative-inventory).  
 
-Dokumentlinjer med forfallsdato før den planlagte startdatoen konsolideres til én kritisk ordre for varen, med ankomst på den planlagte startdatoen.  
+Dokumentlinjer med forfallsdato før den planlagte startdatoen konsolideres til en kritisk ordre. Ordren planlegges å ankomme på den planlagte startdatoen.  
 
-### <a name="exception"></a>Unntak
+### Unntak
 
 Unntak-advarselen vises hvis den beregnede disponible beholdningen faller under sikkerhetslagerantallet. Planleggingssystemet foreslår at det opprettes en forsyningsordre for å oppfylle behovet på forfallsdatoen. Advarselsteksten angir varens sikkerhetslagerantall og datoen da antallet ble for lavt.  
 
-Et for lavt sikkerhetslagernivå anses for å være et unntak fordi det ikke skal forekomme hvis gjenbestillingspunktet er riktig angitt. Hvis du vil ha mer informasjon, se [Rollen til gjenbestillingspunktet](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
+Hvis sikkerhetslagernivået er brutt, er det et unntak. Det skal ikke skje hvis gjenbestillingspunktet er riktig angitt. Finn ut mer under [Rollen til gjenbestillingspunktet](design-details-handling-reordering-policies.md#the-role-of-the-reorder-point).  
 
-Unntaksordreforslag sikrer vanligvis at forventet disponibel beholdning aldri er lavere enn sikkerhetslagernivået. Dette betyr at det foreslåtte antallet er akkurat nok til å dekke sikkerhetslageret, uten å ta hensyn planleggingsparametre. I noen scenarier vurderes imidlertid ordremodifikatorer.  
+Unntaksordreforslag bidrar til å sikre at forventet disponibel beholdning aldri er lavere enn sikkerhetslagernivået. Det foreslåtte antallet dekker sikkerhetslageret, uten å ta hensyn planleggingsparametere. I noen scenarier vurderes imidlertid ordremodifikatorer.  
 
 > [!NOTE]  
->  Planleggingssystemet kan ha forbrukt sikkerhetslageret med hensikt og etterfyller det deretter med en gang. Hvis du vil ha mer informasjon, se [Sikkerhetslager kan forbrukes](design-details-balancing-demand-and-supply.md#loading-the-inventory-profiles).
+> Planleggingssystemet kan ha forbrukt sikkerhetslageret med hensikt og etterfyller det deretter med en gang. Finn ut mer under [Forbruk sikkerhetslager](design-details-balancing-demand-and-supply.md#consume-safety-stock).
 
-### <a name="attention"></a>Viktig
+### Viktig
 
 Tilsyn-advarselen vises i tre situasjoner:  
 
--   Den planlagte startdatoen er tidligere enn arbeidsdatoen.  
--   Planleggingslinjen foreslår at en frigitt bestilling eller produksjonsordre endres.  
--   Den beregnede beholdningen overskrider overflytnivået på forfallsdatoen. Hvis du vil ha mer informasjon, se [Holde seg under overflytnivået](design-details-handling-reordering-policies.md#staying-under-the-overflow-level).  
+* Den planlagte startdatoen er tidligere enn arbeidsdatoen.  
+* Planleggingslinjen foreslår at en frigitt bestilling eller produksjonsordre endres.  
+* Den beregnede beholdningen overskrider overflytnivået på forfallsdatoen. Finn ut mer på [Hold deg under overflytnivået](design-details-handling-reordering-policies.md#stay-below-the-overflow-level).  
 
 > [!NOTE]  
->  På planleggingslinjer med advarsler er ikke feltet **Godta handlingsmelding** valgt, fordi planleggeren må undersøke disse linjene ytterligere før planen utføres.  
+> På planleggingslinjer med advarsler er ikke feltet **Godta handlingsmelding** valgt fordi planleggeren må undersøke linjene før planen utføres.  
 
-## <a name="error-logs"></a>Feillogger
+## Feillogger
 
-På forespørselssiden Beregn plan kan brukeren velge feltet **Stopp og vis første feil** for å stoppe planleggingskjøringen når den første feilen oppstår. Samtidig vises en melding med informasjon om feilen. Hvis det oppstår en feil, vises bare feilfrie planleggingslinjer som ble behandlet før feilen oppstod, i planleggingsforslaget.  
+På forespørselssiden **Beregn plan** kan du velge feltet **Stopp og vis første feil** for å stoppe planleggingskjøringen når den første feilen oppstår. En melding vises med informasjon om feilen. Hvis det oppstår en feil, vises planleggingsforslaget planleggingslinjer som ble behandlet før feilen oppstod.  
 
-Hvis feltet ikke er valgt, vil den satsvise jobben Beregn plan fortsette til den er fullført. Feil avbryter ikke den satsvise jobben. Hvis det oppstår feil, vises en melding når kjørselen er fullført, med informasjon om hvor mange varer som er berørt av feil. Siden **Feillogg planlegging** åpnes deretter med ytterligere informasjon om feilen og koblinger til ett eller flere dokumenter eller oppsettkort som er berørt.  
+Hvis feltet ikke er valgt, vil den satsvise jobben **Beregn plan** fortsette til den er fullført. Feil avbryter ikke den satsvise jobben. Hvis det oppstår feil, angir en melding hvor mange varer som ble påvirket. Siden **Feillogg planlegging** gir ytterligere informasjon om feilen og koblinger til ett eller flere dokumenter eller oppsett.  
 
-![Feilmeldinger i planleggingsforslaget.](media/NAV_APP_supply_planning_1_error_log.png "Feilmeldinger i planleggingsforslaget")  
+:::image type="content" source="media/nav_app_supply_planning_1_error_log.png" alt-text="Feilmeldinger i planleggingsforslaget.":::
 
-## <a name="planning-flexibility"></a>Planleggingsfleksibilitet
+## Planleggingsfleksibilitet
 
-Det er ikke alltid praktisk å planlegge en eksisterende forsyningsordre, for eksempel når produksjonen har startet eller ekstra folk ansettes på en bestemt dag for å gjøre jobben. For å angi om en eksisterende ordre kan endres av planleggingssystemet, har alle forsyningsordrelinjer et Planleggingsfleksibilitet-felt med to alternativer: Ubegrenset eller Ingen. Hvis feltet er satt til Ingen, vil ikke planleggingssystemet prøve å endre forsyningsordrelinjen.  
+Det er ikke alltid praktisk å planlegge en eksisterende forsyningsordre. Når for eksempel produksjonen har startet eller du leier inn ekstra personer på en bestemt dag for å gjøre jobben. For å angi om planleggingssystemet kan endre en ordre, har alle forsyningsordrelinjer et **Planleggingsfleksibilitet**-felt med to alternativer: **Ubegrenset** eller **Ingen**. Hvis feltet er satt til **Ingen**, vil ikke planleggingssystemet prøve å endre forsyningsordrelinjen.  
 
-Feltet kan angis manuelt av brukeren, men i enkelte tilfeller angis det automatisk av systemet. Det at planleggingsfleksibilitet kan angis manuelt av brukeren, er viktig, fordi det gjør det enkelt å tilpasse bruk av funksjonen til ulike arbeidsflyter og saker.  
+Du kan manuelt velge et alternativ i feltet, men i enkelte tilfeller angis det imidlertid automatisk av [!INCLUDE [prod_short](includes/prod_short.md)]. Det at du manuelt kan angi planleggingsfleksibiliteten er viktig fordi det gjør det enkelt å tilpasse bruk av funksjonen til ulike arbeidsflyter og saker. Hvis du vil finne ut mer om hvordan dette feltet, kan du gå til [Utformingsdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md).  
 
-Du finner mer informasjon om hvordan dette feltet brukes i [Designdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md).  
+## Ordreplanlegging
 
-## <a name="order-planning"></a>Ordreplanlegging
-
-Det grunnleggende verktøyet for forsyningsplanlegging på **Ordreplanlegging**-siden er utviklet for manuell beslutningstaking. Den tar ikke hensyn til eventuelle planleggingsparametre, og beskrives derfor ikke ytterligere i dette dokumentet. Hvis du vil ha mer informasjon, kan du se [Planlegge for nytt behov bestilling for bestilling](production-how-to-plan-for-new-demand.md).  
+Det grunnleggende verktøyet for forsyningsplanlegging på **Ordreplanlegging**-siden er utviklet for manuell beslutningstaking. Den tar ikke hensyn til eventuelle planleggingsparametere, og beskrives derfor ikke ytterligere i denne artikkelen. Finn ut mer under [Planlegge for nytt behov bestilling for bestilling](production-how-to-plan-for-new-demand.md).  
 
 > [!NOTE]  
->  Det anbefales ikke å bruke ordreplanlegging hvis selskapet allerede bruker planleggings- eller bestillingsforslag. Forsyningsordrer som opprettes ved hjelp av **Ordreplanlegging**-siden, kan endres eller slettes under automatiserte planleggingskjøringer. Dette er fordi den automatiserte planleggingskjøringen bruker planleggingsparametere, og brukeren som laget den manuelle planen på Ordreplanlegging-siden, tar kanskje ikke disse med i beregningen.  
+> Vi anbefaler at du ikke bruker ordreplanlegging hvis selskapet allerede bruker planleggings- eller bestillingsforslag. Forsyningsordrer som opprettes ved hjelp av **Ordreplanlegging**-siden, kan endres eller slettes under automatiserte planleggingskjøringer. Disse endringene skjer fordi den automatiserte planleggingskjøringen bruker planleggingsparametere som du kanskje ikke har vurdert når du manuelt lagde planen på siden Ordreplanlegging.  
 
-## <a name="finite-loading"></a>Begrenset belastning
+## Begrenset belastning
 
-[!INCLUDE[prod_short](includes/prod_short.md)] er et standard ERP-system, ikke et ordrefordelings- eller produksjonskontrollsystem. Det planlegger for en gjennomførbar utnyttelse av ressurser ved å tilby en grov tidsplan, men det blir ikke automatisk opprettet og vedlikeholdt detaljerte tidsplaner basert på prioriteringer eller regler for optimalisering.  
+[!INCLUDE[prod_short](includes/prod_short.md)] viser en grov tidsplan for planlegging av rimelig bruk av ressurser. Den oppretter og vedlikeholder ikke automatisk detaljerte planer basert på prioriteter eller optimaliserings regler.  
 
-Den tiltenkte bruken av funksjonen Kapasitetsbegrenset ressurs er 1) for å unngå overbelastning av bestemte ressurser, og 2) for å sikre at all kapasitet fordeles hvis den kan øke gjennomløpstiden til en produksjonsordre. Funksjonen omfatter ikke muligheter eller alternativer for å prioritere eller optimalisere operasjoner, som vanligvis finnes i et fordelingssystem. Dette kan imidlertid gi en grov kapasitetsinformasjon som er nyttig til å identifisere flaskehalser og for å unngå overbelastning av ressurser.  
+Den tiltenkte bruken av funksjonen for kapasitetsbegrenset ressurs er som følger:
 
-Når du planlegger med kapasitetsbegrensede ressurser, sikrer systemet at ingen ressurser lastes over den angitte kapasiteten (kritisk belastning). Dette gjøres ved å tilordne hver operasjon til nærmeste tilgjengelige tidsluke. Hvis tidsperioden ikke er stor nok til å fullføre hele operasjonen, vil operasjonen bli delt inn i to eller flere deler som plasseres i de nærmeste tilgjengelige tidsrommene.  
+* Slik unngår du å overbelaste ressurser
+* Hvis du vil sikre at kapasiteten ikke forblir tildelt, hvis den kan redusere den opphevede tiden for en produksjonsordre
+
+Når du planlegger med kapasitetsbegrensede ressurser, sikrer [!INCLUDE [prod_short](includes/prod_short.md)] at ingen ressurser lastes over den angitte kapasiteten (kritisk belastning). Det tildeler hver operasjon til nærmeste tilgjengelige tidsluke. Hvis tidsperioden ikke er stor nok til å fullføre hele operasjonen, deler den operasjonen inn i to eller flere deler som plasseres i de nærmeste tilgjengelige tidsrommene.  
 
 > [!NOTE]  
-> I tilfeller med oppdeling av operasjon blir oppstillingstiden bare tilordnet én gang fordi det antas at noe manuell justering er gjort for å optimalisere tidsplanen.  
+> I tilfeller med oppdeling av operasjon blir oppstillingstiden bare tildelt én gang fordi det antas at noe manuell justering er gjort for å optimalisere tidsplanen.  
 
-Avdempingstiden kan legges til ressurser for å minimere oppdeling av operasjonen. Dette gjør at systemet kan planlegge belastning på den aller siste dagen ved å overskride den kritiske belastningsprosenten litt hvis dette kan redusere antall delte operasjoner.  
+Du kan legge til avdempingstiden til ressurser for å minimere oppdeling av operasjonen. Dette tidspunktet lar [!INCLUDE [prod_short](includes/prod_short.md)] planlegge belastningen på den siste mulige dagen ved å delvis overstige den kritiske belastnings prosenten.  
 
-Dermed har du fått en oversikt over sentrale begreper som har å gjøre med forsyningsplanlegging i [!INCLUDE[prod_short](includes/prod_short.md)]. De følgende delene tar for seg disse begrepene i større detalj og plasserer dem i sammenheng med de viktigste fremgangsmåtene for planlegging, balansering av behov og forsyning samt bruk av gjenbestillingsprinsipper.  
-
-## <a name="see-also"></a>Se også
+## Se også
 
 [Designdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md)  
 [Designdetaljer: Planleggingsparametere](design-details-planning-parameters.md)  

@@ -6,23 +6,17 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
-ms.openlocfilehash: cdba126a3cdd6116f0067cac08bccadbdfc5a982
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8519843"
 ---
-# <a name="design-details-average-cost"></a>Designdetaljer: Gjennomsnittskost
+# Designdetaljer: Gjennomsnittskost
 Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt basert på gjennomsnittskostperioden som er definert i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
  Verdisettingsdatoen angis automatisk.  
 
-## <a name="setting-up-average-cost-calculation"></a>Konfigurere beregning av gjennomsnittskost  
+## Konfigurere beregning av gjennomsnittskost  
  Tabellen nedenfor beskriver de to feltene på **Lageroppsett**-siden som må fylles ut hvis du vil aktivere beregning av gjennomsnittskost.  
 
 |Felt|Beskrivelse|  
@@ -35,7 +29,7 @@ Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt ba
 >   
 >  Siden **Regnskapsperiode** viser hvilken gjennomsnittskostperiode og hvilken beregningstype for gjennomsnittskost som brukes i denne perioden, for hver regnskapsperiode.  
 
-## <a name="calculating-average-cost"></a>Beregne gjennomsnittskost  
+## Beregne gjennomsnittskost  
  Når du bokfører en transaksjon for en vare som bruker lagermetoden Gjennomsnitt, opprettes en post i tabellen **Utgangspunkt for justering av gjennomsnittskost**. Denne posten inneholder transaksjonens varenummer, variantkode og lokasjonskode. I tillegg inneholder posten feltet **Verdisettingsdato**, som angir den siste datoen i gjennomsnittskostperioden som transaksjonen ble bokført i.  
 
 > [!NOTE]  
@@ -50,7 +44,7 @@ Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt ba
 
  Den beregnede gjennomsnittskosten utlignes deretter mot lagerreduksjonene for varen (eller varen, lokasjonen og varianten) med bokføringsdatoer i gjennomsnittskostperioden. Hvis det finnes lagerøkninger som ble fast utlignet mot lagerreduksjoner i gjennomsnittskostperioden, blir beregnet gjennomsnittskost videresendt fra økningen til reduksjonen.  
 
-### <a name="example-average-cost-period--day"></a>Eksempel: Gjennomsnittskostperiode = Dag  
+### Eksempel: Gjennomsnittskostperiode = Dag  
  Følgende eksempel viser resultatet av å beregne gjennomsnittskost basert på en gjennomsnittskostperiode på én dag. Feltet **Beregn.type for gj.snittskost** på siden **Lageroppsett** er satt til **Vare**.  
 
  Tabellen nedenfor viser varepostene for eksemplet på en gjennomsnittskostvare, VARE1, før kjørselen **Juster kostverdi – vareposter** er kjørt.  
@@ -87,7 +81,7 @@ Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt ba
 | 02.02.20 | Kjøp | 1 | 100,00 | 5 |
 | 03.02.20 | Salg | -1 | -100,00 | 6 |
 
-### <a name="example-average-cost-period--month"></a>Eksempel: Gjennomsnittskostperiode = Måned  
+### Eksempel: Gjennomsnittskostperiode = Måned  
  Følgende eksempel viser resultatet av å beregne gjennomsnittskost basert på en gjennomsnittskostperiode på én måned. Feltet **Beregn.type for gj.snittskost** på siden **Lageroppsett** er satt til **Vare**.  
 
  Hvis gjennomsnittskostperioden er én måned, opprettes det bare én oppføring for hver kombinasjon av varenummer, variantkode, lokasjonskode og verdisettingsdato.  
@@ -131,7 +125,7 @@ Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt ba
 
  For å få gjennomsnittskosten for februar legges gjennomsnittskosten for stykket som er mottatt på lageret (100,00), til gjennomsnittskosten i begynnelsen av perioden (30,00). Summen av disse to (130,00) deles deretter på samlet antall på lager (2). Dette gir den resulterende gjennomsnittskosten for varen i februarperioden (65,00). Gjennomsnittskosten tilordnes til lagerreduksjonene i perioden (post 4 og 6).  
 
-## <a name="setting-the-valuation-date"></a>Angi datoen for verdisetting  
+## Angi datoen for verdisetting  
  Feltet **Verdisettingsdato** i **Verdipost**-tabellen brukes til å fastsette hvilken gjennomsnittskostperiode en lagerreduksjon hører til i. Dette gjelder også VIA-beholdning (varer i arbeid).  
 
  Tabellen nedenfor viser kriteriene som brukes til å angi verdisettingsdatoen.  
@@ -143,7 +137,7 @@ Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt ba
 |3|Tidligere enn siste verdisettingsdatoen for utlignede verdiposter|Positivt|Nei|Siste verdisettingsdatoen for utlignede verdiposter|  
 |4||Negativt|Ja|Bokføringsdato for revalueringspost|  
 
-### <a name="example"></a>Eksempel  
+### Eksempel  
  Tabellen med verdiposter nedenfor illustrerer de forskjellige scenariene.  
 
 |Scenario|Bokføringsdato|Vareposttype|Verdisettingsdato|Verdisatt antall|Kostbeløp (faktisk)|Varepostnr.|Postnr.|  
@@ -164,7 +158,7 @@ Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt ba
 
  Hvis antallet på lager er mindre enn null etter bokføring av lagerreduksjonen, blir verdisettingsdatoen først satt til bokføringsdatoen for lagerreduksjonen. Denne datoen kan endres senere, i samsvar med reglene som er beskrevet i merknaden tidligere i denne delen, når lagerøkningen utlignes.  
 
-## <a name="recalculating-average-cost"></a>Beregne gjennomsnittskost på nytt  
+## Beregne gjennomsnittskost på nytt  
  Å verdisette lagerreduksjoner som et avveid gjennomsnitt hadde vært enkelt hvis kjøp alltid hadde blitt fakturert før salg ble fakturert, bokføringer aldri hadde blitt tilbakedatert og du aldri hadde gjort feil. Virkeligheten er imidlertid litt forskjellig fra dette.  
 
  Som vist i eksemplene i dette emnet, er verdisettingsdatoen angitt som datoen som verdiposten er inkludert i beregningen av gjennomsnittskosten. Dette gir deg fleksibiliteten til å gjøre følgende for varer som bruker lagermetoden Gjennomsnitt:  
@@ -180,7 +174,7 @@ Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt ba
 
  Det er mulig å endre verdisettingsgrunnlaget for beholdningen i en regnskapsperiode, ved å endre feltet **Gjennomsnittskostperiode** og **Beregn.type for gj.snittskost**. Dette bør imidlertid gjøres med forsiktighet og i henhold til avtale med en revisor.  
 
-### <a name="example"></a>Eksempel  
+### Eksempel  
  Følgende eksempel illustrerer hvordan gjennomsnittskosten beregnes på nytt når en forsinket bokføring foretas på en dato som kommer før én eller flere lagerreduksjoner. Eksemplet er basert på gjennomsnittskostperioden **Dag**.  
 
  Tabellen nedenfor viser verdipostene som finnes for varen før bokføringen innføres.  
@@ -204,7 +198,7 @@ Gjennomsnittskosten for en vare beregnes med et periodisk avveid gjennomsnitt ba
 |15.02.20|-1|-17,00|3|  
 |16.02.20|-1|-17,00|4|  
 
-## <a name="see-also"></a>Se også  
+## Se også  
  [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)   
  [Designdetaljer: Kostmetoder](design-details-costing-methods.md)   
  [Designdetaljer: Kostjustering](design-details-cost-adjustment.md)   

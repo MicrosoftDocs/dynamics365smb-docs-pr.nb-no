@@ -6,24 +6,18 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: OData, Power App, SOAP
+ms.search.keywords: 'OData, Power App, SOAP'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: d7dbc334edcd22bb41ea5ad3a37ff53a52bfe970
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531894"
 ---
-# <a name="connecting-to-your-business-central-data-to-build-a-business-app-using-power-apps"></a>Koble til Business Central-dataene for å utvikle en forretningsapp ved hjelp av Power Apps
+# Koble til Business Central-dataene for å utvikle en forretningsapp ved hjelp av Power Apps
 
 Du kan gjøre [!INCLUDE[prod_short](includes/prod_short.md)]-data tilgjengelige som en datakilde i Power Apps.  
 
 > [!NOTE]  
 > Du må ha en gyldig konto med [!INCLUDE[prod_short](includes/prod_short.md)] og med Power Apps.  
 
-## <a name="to-add-prod_short-as-a-data-source-in-power-apps"></a>Legge til [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power Apps
+## Legge til [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power Apps
 
 1. I leseren, kan du gå til [powerapps.microsoft.com](https://powerapps.microsoft.com/), og deretter logge på.
 2. På startsiden, i **Start fra data**-delen, velger du flisen **Andre data kilder**.  
@@ -49,9 +43,9 @@ Når du har utformet og bygd appen, kan du dele den med kollegene dine. Hvis du 
 > [!NOTE]
 > Hvis du vil koble til [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, må du velge **Business Central (lokalt)**-koblingen i trinn 3.  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/power-apps-power-automate-business-central/)
+## Se relatert [Microsoft-opplæring](/training/paths/power-apps-power-automate-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opprette en lerretsapp fra en mal i Power Apps](/powerapps/maker/canvas-apps/get-started-test-drive)  
 [Importer forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  

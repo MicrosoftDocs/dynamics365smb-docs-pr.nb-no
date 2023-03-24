@@ -4,17 +4,11 @@ description: Leveringer til ordrer kan behandles i Business Central med dellever
 author: rubenseishima
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.search.keywords: shipping advice, partial shipments, partial deliveries, trade, customer sales order
+ms.search.keywords: 'shipping advice, partial shipments, partial deliveries, trade, customer sales order'
 ms.date: 08/12/2022
 ms.author: a-reishima
-ms.openlocfilehash: f279ce6c22c3e2167006bec315b53297d126929c
-ms.sourcegitcommit: 8b95e1700a9d1e5be16cbfe94fdf7b660f1cd5d7
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/09/2022
-ms.locfileid: "9461288"
 ---
-# <a name="process-partial-shipments"></a>Behandle delleveringer
+# Behandle delleveringer
 
 I en dellevering leveres ikke hele ordren samtidig. I en ordre på 100 enheter sender du for eksempel 40 enheter omgående og 60 senere. Det er ingen begrensninger på antall leveringer for en ordre.
 
@@ -24,7 +18,7 @@ Som standard angir [!INCLUDE [prod_short](includes/prod_short.md)] feltet på si
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Selg produkter med en kundeordre](sales-how-sell-products.md)  
 [Levere varer](warehouse-how-ship-items.md)  

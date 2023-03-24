@@ -7,17 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: non-inventoriable
-ms.search.forms: 5725, 5726, 5732
+ms.search.forms: '5725, 5726, 5732'
 ms.date: 06/20/2022
 ms.author: bholtorf
-ms.openlocfilehash: deeca03327afa4b231cb9b4ce23088334fa50153
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532110"
 ---
-# <a name="work-with-catalog-items"></a>Arbeide med katalogvarer
+# Arbeide med katalogvarer
 
 Katalogvarer er varer som du ikke administrerer i [!INCLUDE[prod_short](includes/prod_short.md)] før du selger dem. Når du bruker handlingen **Velg katalogvare** til å legge til en katalogvare på en linje i en salgsordre eller et tilbud, konverteres katalogvaren til en vanlig vare.
 
@@ -29,7 +23,7 @@ En katalogvare har vanligvis varenummeret til leverandøren som leverer den. Fø
 > [!IMPORTANT]
 > Katalogvarer må ikke forveksles med ikke-lagervarer, som er vanlige varer som blir gitt typen **Ikke-lagervare** for å utelukke dem fra tilgjengelighet og kostberegninger, for eksempel fordi de bare brukes internt og har en lav kostnad. Hvis du vil ha mer informasjon, kan du se [Om varetyper](inventory-about-item-types.md).
 
-## <a name="create-a-catalog-item"></a>Opprett en katalogvare
+## Opprett en katalogvare
 
 Katalogvarekort har mye mindre informasjon enn vanlige varekort fordi du bare bruker dem til tilbud i salgstilbud og på andre måter. Derfor må de konverteres til vanlige varekort før du kan bokføre salgstransaksjoner for dem.
 
@@ -37,14 +31,14 @@ Katalogvarekort har mye mindre informasjon enn vanlige varekort fordi du bare br
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="specify-how-catalog-item-numbers-are-converted-to-your-own-numbering"></a>Definer hvordan katalogvarenumre konverteres til din egen nummerering
+## Definer hvordan katalogvarenumre konverteres til din egen nummerering
 
 Før du kan konvertere en katalogvare til en normal vare, må du angi hvordan du vil konvertere leverandørvarenumre til varenummereringen.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett av katalogvare**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov.
 
-## <a name="convert-a-catalog-item-to-a-normal-item"></a>Konverter en katalogvare til en vanlig vare
+## Konverter en katalogvare til en vanlig vare
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Katalogvarer**, og velg deretter den relaterte koblingen.
 2. Åpne kortet for katalogvaren som du vil konvertere til en vanlig vare.
@@ -52,7 +46,7 @@ Før du kan konvertere en katalogvare til en normal vare, må du angi hvordan du
 
 Et nytt varekort forhåndsutfylt med informasjon fra katalogvaren og en relevant varemal opprettes. Du kan deretter fylle ut eller redigere felt på det nye varekortet etter behov. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
 
-## <a name="to-sell-a-catalog-item-and-convert-it-to-a-normal-item"></a>Slik selger du en katalogvare og konverterer den til en vanlig vare:
+## Slik selger du en katalogvare og konverterer den til en vanlig vare:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**. Fyll ut feltene på hurtigfanen **Generelt** som for ordrer. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).
@@ -68,9 +62,9 @@ Du kan deretter fylle ut eller redigere felt på det nye varekortet etter behov.
 > [!NOTE]  
 > En varereferanse er automatisk vare mellom leverandørens varenummer og det nye varenummeret ditt. Se [Bruke varereferanser](inventory-how-use-item-cross-refs.md) for mer informasjon.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Opprette spesialbestillinger](sales-how-to-create-special-orders.md)  

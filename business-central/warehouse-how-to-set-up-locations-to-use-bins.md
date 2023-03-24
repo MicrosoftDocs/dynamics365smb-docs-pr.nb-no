@@ -6,17 +6,11 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: eef49d2ad6d1f52e8b85b1c3e06695668d19fd4f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9530085"
 ---
-# <a name="set-up-locations-to-use-bins"></a>Definere lokasjoner slik at de bruker hyller
+# Definere lokasjoner slik at de bruker hyller
 
 Hyller representerer den enkle lagerstrukturen og brukes til å komme med forslag om plasseringen av varer. Når du har opprettet hyllene, kan du definere det innholdet du vil plassere i hver hylle, svært spesifikt, eller hyllen kan fungere som en mobil hylle uten angitt innhold.  
 
@@ -25,7 +19,7 @@ Når du skal bruke hyllen funksjonelt på en lokasjon, må du først aktivere fu
 > [!NOTE]  
 >  Før du kan angi hyllekoder på lokasjonskortet, må hyllekodene være opprettet. Hvis du vil ha mer informasjon, kan du se [Opprette hyller](warehouse-how-to-create-individual-bins.md).  
 
-## <a name="to-set-up-a-location-to-use-bins"></a>Sette opp en lokasjon til å bruke hyller
+## Sette opp en lokasjon til å bruke hyller
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Velg lokajonen der du vil bruke hyller.  
@@ -39,21 +33,20 @@ Når du skal bruke hyllen funksjonelt på en lokasjon, må du først aktivere fu
 10. Fyll ut feltene i hurtigfane **Hylleprinsipp** hvis de er relevante for lageret. De viktigste feltene er **Hyllekapasitetsprinsipp**, **Tillat anbrekk** og **Plasseringsmal - kode**.  
 11. På hurtigfanen **Lager** fyller du ut feltene **Utgående lagerhåndteringstid**, **Inngående lagerhåndteringstid** og **Hovedkalenderkode**. Hvis du vil ha mer informasjon, kan du se [Definere hovedkalendere](across-how-to-assign-base-calendars.md).
 
-## <a name="filling-the-consumption-bin"></a>Fylle forbrukshyllen
+## Fylle forbrukshyllen
 
 Dette flytdiagrammet viser hvordan **Hyllekode**-feltet på produksjonsordrekomponentlinjer fylles ut i henhold til lokasjonsoppsettet.
 
 ![Flytskjema for hylle.](media/binflow.png "BinFlow")  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-bins-location/)
+## Se relatert [Microsoft-opplæring](/training/modules/configure-bins-location/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Lagerstyring](warehouse-manage-warehouse.md)  
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
 [Definer lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

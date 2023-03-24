@@ -6,17 +6,11 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: service, service items, respond, response
+ms.search.keywords: 'service, service items, respond, response'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: e44033b067ab51e17925330618f954294252177b
-ms.sourcegitcommit: 00a8acc82cdc90e0d0db9d1a4f98a908944fd50a
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 06/29/2022
-ms.locfileid: "9077817"
 ---
-# <a name="delivering-service"></a>Yte service
+# Yte service
 Med funksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] kan du levere service i henhold til kontraktene du har opprettet, og serviceordrene du er forpliktet til å oppfylle. Det er enkelt for serviceteknikerne eller ordrefordeleren å finne åpne serviceordrer når de bruker **Servicefordeling**. **Servicefordeling** viser hvilke ordrer som behandles, og hvilke som er fullførte.  
   
 En annen måte å gjennomgå ventende serviceordrer på er å bruke siden **Serviceoppgaver**. I denne visningen av serviceforpliktelsene dine ser du hvor i servicearbeidsflyten en ordre befinner seg, og du kan endre statusen for ordren for å gjenspeile kommunikasjon med kunden.  
@@ -39,7 +33,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Opprette og bokføre fakturaer for servicer som du har levert.|[Opprette servicefakturaer eller kreditnotaer](service-how-create-invoices.md)|  
 |Holde kundene fornøyde ved låne dem en vare mens du arbeider med deres.| [Låne ut og mottar utlånsvarer](service-how-to-lend-receive-loaners.md)|
   
-## <a name="see-also"></a>Se også  
+## Se også  
 [Planlegge service](service-plan-service.md)  
 [Oppfylle servicekontrakter](service-fulfill-service-contracts.md)  
 [Administrere prosjekter](projects-manage-projects.md)  

@@ -9,20 +9,14 @@ ms.workload: na
 ms.search.form: 1115
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: a97185820c9b28e297c8e30ad0c3f921860b8267
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8517475"
 ---
-# <a name="delete-cost-budget-entries"></a>Slett kostbudsjettposter
+# Slett kostbudsjettposter
 
 Du bruker kjørselen **Slett kostbudsjettposter** til å annullere kostbudsjettposter i kostbudsjettjournalen.  
 
 Du kan ikke slette én enkelt post eller en bunke med poster midt i listen over journalposter for å hindre hull i kostbudsjettposter og kostjournalposter.  
 
-## <a name="to-delete-a-cost-budget-entry"></a>Slik sletter du en kostbudsjettpost:  
+## Slik sletter du en kostbudsjettpost:  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Slett kostbudsjettposter**, og velg deretter den tilknyttede koblingen.  
 
@@ -34,7 +28,7 @@ Du kan ikke slette én enkelt post eller en bunke med poster midt i listen over 
 > [!NOTE]  
 > For å unngå en utilsiktet sletting av kostbudsjettposter kan du lukke journalposter ved å merke linjene som **lukket** i **Lukket**-feltet på siden **Kostbudsjettjournaler**.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Gjøre rede for kostnader](finance-manage-cost-accounting.md)
 [Opprette kostbudsjetter](finance-create-cost-budgets.md)  
