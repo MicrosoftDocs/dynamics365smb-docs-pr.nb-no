@@ -106,6 +106,13 @@
 ### [Feilsøk registrering for selvbetjening](ui-troubleshoot-self-signup.md)
 ### [Forleng prøveversjonen](admin-extend-trial.md)
 ### [Si opp eller fjern Business Central](admin-cancel.md)
+### Varemarkedsføringstekst drevet av kunstig intelligens med Copilot
+#### [Oversikt](ai-overview.md)
+#### [Skaff deg forhåndsversjonen – Copilot-utgave](ai-preview-getstarted.md)
+#### [Konfigurer varemarkedsføringstekst drevet av kunstig intelligens](enable-ai.md)
+#### [Opprett varemarkedsføringstekst drevet av kunstig intelligens](item-marketing-text.md)
+#### [Vanlige spørsmål](ai-faq.md)
+
 ## Kjøp
 ### [Kom i gang med et abonnement](trial-signup.md#get-started-with-a-subscription)
 ### [Gjør deg klar for virksomhet](ui-get-ready-business.md)
@@ -492,6 +499,7 @@
 ### [Administrer produktvarianter](inventory-item-variants.md)  
 ### [Arbeid med vareattributter](inventory-how-work-item-attributes.md)
 ### [Arbeid med katalogvarer](inventory-how-work-nonstock-items.md)
+### [Legg til markedsføringstekst for varer](item-marketing-text.md)
 ### [Tell og juster lagerbeholdning ved hjelp av dokumenter](inventory-how-count-inventory-with-documents.md)
 ### [Tell, juster og klassifiser lagerbeholdning på nytt ved hjelp av kladder](inventory-how-count-adjust-reclassify.md)
 ### [Vis tilgjengeligheten av varer](inventory-how-availability-overview.md)
@@ -1523,6 +1531,7 @@
 #### [Konfigurer lagerføringsenheter](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Kategoriser varer](inventory-how-categorize-items.md)
 #### [Importer flere varebilder](inventory-how-import-item-pictures.md)
+#### [Konfigurer varemarkedsføringstekst drevet av kunstig intelligens med Copilot](enable-ai.md)
 ### Konfigurer prosjektstyring
 #### [Konfigurer prosjekter](projects-setup-projects.md)
 #### [Konfigurer ressurser](projects-how-setup-resources.md)
@@ -1594,6 +1603,7 @@
 ##### [Hent Business Central-tillegget for Outlook](admin-outlook.md)
 ##### [Bruk Business Central som forretningsinnboks i Outlook](work-outlook-addin.md)
 ##### [Synkroniser med kontakter i Outlook](admin-synchronize-outlook-contacts.md)
+###### [Konfigurer kontaktsynkronisering for lokal versjon](admin-contact-sync-setup-onprem.md)
 ##### [Optimaliser Outlook](admin-outlook-optimize.md)
 ##### [Bruk Business Central uten Outlook](admin-no-outlook.md)
 ##### [Vanlige spørsmål](ui-outlook-addin-faq.yml)
@@ -1615,6 +1625,7 @@
 #### Bruk Business Central som forretningsinnboks i Outlook 
 ##### [Oversikt](admin-outlook.md)
 ##### [Synkroniser med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)
+###### [Konfigurer kontaktsynkronisering for lokal versjon](admin-contact-sync-setup-onprem.md)
 ##### [Bruk Business Central uten Outlook](admin-no-outlook.md)
 #### Bruk Microsoft Teams med Business Central
 ##### [Oversikt](across-teams-overview.md)
