@@ -59,8 +59,8 @@ Du kan opprette en lagerlevering på en av to måter:
     * På en push-måte, der du bruker **Opprett plukk**-handlingen. Velg linjene for å plukke og angi informasjon om plukkingen. For eksempel hvilke hyller det skal tas fra og plasseres i, og hvor mange enheter som skal håndteres. Hyllene kan være forhåndsdefinert for lagerlokasjonen eller ressursen.
     * På en pull-måte, der du bruker **Frigi**-handlingen. På siden **Plukkforslag** kan du bruke handlingen **Hent lagerdokumenter** til å få tildelte plukkinger. Når lagerplukkingene er fullstendig registrert, slettes linjene i **Plukkforslag**. Finn ut mer under [Plukke varer for lagerlevering](warehouse-how-to-pick-items-for-warehouse-shipment.md).
 
-> [!TIP]
-> For en lokasjon som ikke krever plukking, kan du skrive ut lagerleveringen og bruke den som en plukkliste.
+    > [!TIP]
+    > For en lokasjon som ikke krever plukking, kan du skrive ut lagerleveringen og bruke den som en plukkliste.
 
 8. Angi antallet som skal leveres.  
 
@@ -71,6 +71,8 @@ Du kan opprette en lagerlevering på en av to måter:
     Når du skal angi verdien i **Lever (antall)**-feltet på alle linjene til null, velger du handlingen **Slett antall som skal leveres**. Det kan for eksempel være nyttig å sette antallene til null hvis du bruker en strekkodeskanner til å oppdatere de leverte antallene. Du kan legge til antallet som er tilgjengelig for levering, ved å velge handlingen **Autoutfyll ant. som skal lev.**.
 
 9. Bokfør leveringen.
+
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
 ## Bruke filtre til å hente kildedokumenter
 

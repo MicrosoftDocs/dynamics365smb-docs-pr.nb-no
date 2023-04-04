@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.keywords: 'customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width'
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 10/11/2022
 ms.author: bholtorf
-ms.openlocfilehash: 436adf8dcfd9d5825530a1a51f5ed0efad7d9b7c
-ms.sourcegitcommit: 902834e76460d751a345485c66fd2831066b396b
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 10/25/2022
-ms.locfileid: "9716574"
 ---
-# <a name="personalize-your-workspace"></a>Tilpasse arbeidsområdet
+# Tilpasse arbeidsområdet
 
 Du kan tilpasse arbeidsområdet til å passe arbeid og behov. Endre sider slik at de bare viser den informasjonen du trenger, der du trenger den. Tilpasningsendringene påvirker bare hva *du* ser, ikke hva andre brukere ser.
 
@@ -31,12 +25,12 @@ Du kan gjøre ulike endringer, for eksempel flytte eller skjule felt, kolonner, 
 > Administratorer kan utføre samme oppsettendringer som brukerne ved å tilpasse arbeidsområdet for en profil som flere brukere er tilordnet. Hvis du vil ha mer informasjon, kan du se [Tilpasse sider for roller](ui-personalization-manage.md).<br /><br />
 Administratorer kan også overstyre eller deaktivere brukeres tilpasning, og de kan definere hvilke funksjoner som til og med brukere kan se i alle eller bestemte selskaper. Hvis du vil ha mer informasjon, kan du se [Tilpasse Business Central](ui-customizing-overview.md).
 
-## <a name="video-overview"></a>Videooversikt
+## Videooversikt
 Følgende video viser noen av måtene du kan tilpasse rollesenteret på.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
-## <a name="to-change-the-width-of-a-column"></a>Endre kolonnebredden
+## Endre kolonnebredden
 
 Det er enkelt å endre størrelse på kolonner i en liste. Dra grensen mellom to kolonner til venstre eller høyre.  
 
@@ -45,7 +39,7 @@ Det er enkelt å endre størrelse på kolonner i en liste. Dra grensen mellom to
 
 På samme måte som med andre personlige tilpasninger lagres endringene du gjør i kolonnebredden, på kontoen og følger deg uansett hvilken enhet du logger på.
 
-## <a name="to-start-personalizing-a-page-through-the-personalizing-banner"></a>Slik tilpasser du en side med **Tilpasse**-banneret
+## Slik tilpasser du en side med **Tilpasse**-banneret
 
 1. Åpne en side som du vil tilpasse.
 2. Øverst til høyre velger du ikonet ![Innstillinger.](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter") og deretter **Tilpass**-handlingen.
@@ -63,7 +57,7 @@ På samme måte som med andre personlige tilpasninger lagres endringene du gjør
 6. Velg elementet, og velg deretter enten **Flytt**, **Fjern**, **Skjul**, **Vis**, **Vis under Vis mer**, **Vis når skjult**, **Vis alltid**, **Sett/Fjern frys rute** eller **Inkluder/Utelat fra hurtigoppføring**, avhengig av type og tilstand for UI-elementet. Hvis du vil ha mer informasjon, kan du se [Hva du kan tilpasse](#What).
 7. Når du er ferdig med å endre oppsettet på én eller flere sider, velger du **Fullført**-knappen på banneret **Tilpasning**.
 
-## <a name="what-you-can-personalize"></a><a name="What"></a>Hva du kan tilpasse
+## <a name="What"></a>Hva du kan tilpasse
 
 |Hva vil du gjøre|Hvordan du gjør det|Merknader|
 |----|------------|-------|
@@ -79,7 +73,7 @@ På samme måte som med andre personlige tilpasninger lagres endringene du gjør
 |Legg til en ny handling på en side eller rapport i rollesenteret.|Velg bokmerkeikonet fra målsiden, rapportforespørselssiden eller Fortell meg-vinduet.|Se [Bokmerke en side eller rapport i rollesenteret](ui-bookmarks.md)|
 |Start alltid en liste som vist eller skjult|Velg knappen **Vis alle** eller **Skjul alle** øverst til venstre i listen. Du kan også velge handlingen **Vis alt** eller **Skjul alt** i menyen for den første kolonnen. |Gjelder for skjuling av hierarkilister|
 
-## <a name="personalizing-the-action-bar-and-menus"></a><a name="Actions"></a>Tilpass handlingsraden og menyene
+## <a name="Actions"></a>Tilpass handlingsraden og menyene
 
 Tilpasning lar deg bestemme hvilke handlinger som skal vises i navigasjons- og handlingsrader samt rollesentre, og hvor de skal vises. Du kan vise, skjule eller flytte individuelle handlinger eller handlingsgrupper.
 
@@ -95,10 +89,10 @@ En *handlingsgruppe* er et element som utvides for å vise andre handlinger elle
 
 En *forfremmet kategori* er en handlingsgruppe som vises før den loddrette linjen `|` i handlingsfeltet. Disse kategoriene inneholder vanligvis de mest vanlige handlingene, slik at du kan finne dem raskt. Eksempelvis, på **Salgsordrer**-siden, er handlingene **Ordre**, **Frigi** og **Bokføring** forfremmede kategorier.
 
-> [!NOTE]
-> Du kan ikke tilpasse handlingslinjen som vises i deler på siden (for eksempel delen salgslinjer på **Ordre**-siden).
+> [!NOTE]  
+> Hvis du vil fjerne personlig tilpasning, merker du av pilhodet rundt delens utformingsmeny og velger **Fjern personlig tilpasning**.
 
-### <a name="to-remove-hide-and-show-actions-and-action-groups"></a>Fjerne, skjule og vise handlinger og handlingsgrupper
+### Fjerne, skjule og vise handlinger og handlingsgrupper
 
 Når du vil vise eller skjule en handling, definerer alternativene under pilspissen hva du kan gjøre, avhengig av handlingens status. 
 
@@ -111,7 +105,7 @@ Når du vil vise eller skjule en handling, definerer alternativene under pilspis
 |**Skjul**|Dette alternativet vises hvis handlingen eller handlingsgruppen ikke finnes et annet sted i navigasjons- eller handlingsfeltet. Som med **Fjern** forsvinner handlingen eller handlingsgruppen fra navigasjons- eller handlingsfeltet hvis du velger dette alternativet. Med i modusen tilpasning vises handlingen eller handlingsgruppen fremdeles på den aktuelle plasseringen, bortsett fra at den vises nedtonet.|
 |**Vis**|Dette alternativet vises hvis handlingen eller handlingsgruppen har vært skjult tidligere (nedtonet). Valg av dette alternativet gjør at handlingen eller handlingsgruppen vises i navigasjons- eller handlingsfeltet.|
 
-### <a name="to-move-actions-and-action-groups"></a>Flytte handlinger og handlingsgrupper
+### Flytte handlinger og handlingsgrupper
 
 Hvor du kan dra handlinger eller handlingsgrupper, vises av en vannrett linje mellom to handlinger eller en ramme rundt en handlingsgruppe. Følgende begrensninger finnes:
 
@@ -121,7 +115,7 @@ Hvor du kan dra handlinger eller handlingsgrupper, vises av en vannrett linje me
 1. For å flytte en handling eller handlingsgruppe dra og slipp den til ønsket plassering, på samme måte som med felt og kolonner.
 2. Hvis du vil flytte en handling eller handlingsgruppe til en annen handlingsgruppe som er tom, drar du handlingen eller handlingsgruppen til den nye gruppen og slipper den i boksen **Slipp en handling her**.
 
-## <a name="personalizing-parts"></a><a name="Parts"></a>Tilpasse deler
+## <a name="Parts"></a>Tilpasse deler
 
 Deler er områder på en side som vanligvis er satt sammen av flere felter, diagrammer eller annet innhold. En del viser en farget ramme når du fokuserer på delen. En startside for rollesenter har for eksempel flere deler. På grunn av sin veldefinerte grense, kan du tilpasse hele delen og innholdet i den.
 
@@ -131,7 +125,7 @@ Deler er områder på en side som vanligvis er satt sammen av flere felter, diag
 
 Du kan fjerne alle tilpassingsendringer du har gjort i én del, ved å velge alternativet **Fjern tilpassing** under delens pilspiss. Når du fjerner tilpassingen av en del, påvirkes bare endringer i innholdet i delen, ikke plasseringen eller synligheten for delen på siden.  
 
-## <a name="to-clear-personalization"></a>Fjerne tilpassing
+## Fjerne tilpassing
 Du ønsker kanskje på et gitt tidspunkt å angre noen eller alle tilpasningsendringene du har foretatt på en side over tid.
 
 1. På banneret **Tilpasning** velger du handlingen **Fjern tilpassing**.
@@ -147,7 +141,7 @@ Du ønsker kanskje på et gitt tidspunkt å angre noen eller alle tilpasningsend
 |**Bare felt, kolonner og deler**|Fjerner alle tilpassingsendringer du har gjort for handlingfeltet på siden, unntatt endringene i navigasjons- eller handlingsfeltet. Slike endringer inkluderer endringer i felter, kolonner, deler og ruter. |
 |**Alle**|Fjerner alle tilpassingsendringene du har gjort på siden, slik at den ser ut slik den gjorde opprinnelig. Slike endringer inkluderer endringer i navigasjons- eller handlingsfelt, kolonner, deler og ruter.|
 
-## <a name="other-points-of-interest"></a>Andre interessepunkter
+## Andre interessepunkter
 
 Nedenfor følger noen tips som hjelper deg med å forstå tilpasning bedre.
 
@@ -162,9 +156,9 @@ Nedenfor følger noen tips som hjelper deg med å forstå tilpasning bedre.
    > [!TIP]
    > Som administrator kan du skjule **Automatiser**-elementet fra brukere. Finn ut mer under [Definer Power Automate-integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## Se relatert [Microsoft-opplæring](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
+## Se også
 [Tilpass sider for profiler](ui-personalization-manage.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  

@@ -6,21 +6,15 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments'
 ms.date: 08/29/2022
 ms.author: jswymer
-ms.openlocfilehash: ace24899aa3c872cd5ac0609dfc3ecbf63608330
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607665"
 ---
-# <a name="overview-of-tasks-to-close-accounting-periods"></a>Oversikt over oppgaver for lukking av regnskapsperioder
+# Oversikt over oppgaver for lukking av regnskapsperioder
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tvinger deg ikke å lukke perioder, men det er mange aktiviteter ved periodeslutt (månedsslutt) du kan gjøre. Dette emnet gir en oversikt over valgfrie prosesser og aktiviteter for lukking av perioder.  
 
-## <a name="general-ledger"></a>Finans
+## Finans
 
 * Angi systemomfattende og brukerspesifikke bokføringsperioder.  
 
@@ -31,7 +25,7 @@ ms.locfileid: "9607665"
 * Kjør finansrapporter på følgende måte:  
   * Åpne siden **Finansrapporter** og velg **Skriv ut**-handlingen.  
 
-## <a name="sales-and-receivables"></a>Salg
+## Salg
 
 * Bokfør alle ordrer, fakturaer, kreditnotaer og ordrereturer.  
 * Bokfør alle innbetalingskladder.  
@@ -39,7 +33,7 @@ ms.locfileid: "9607665"
 * Avstem kortsiktige fordringer mot Finans.  
 * Kjør kjørselen **Slett fakturerte ordrer**.  
 
-## <a name="purchases-and-payables"></a>Kjøp
+## Kjøp
 
 * Bokfør alle bestillinger, fakturaer, kreditnotaer og ordrereturer.  
 * Bokfør alle utbetalingskladder.  
@@ -47,7 +41,7 @@ ms.locfileid: "9607665"
 * Kjør rapporten **Aldersfordelt saldoliste - lev.**, og avstem leverandørgjeld mot Finans.  
 * Kjør kjørselen **Slett fakturerte bestillinger**.  
 
-## <a name="fixed-assets"></a>Aktiva
+## Aktiva
 
 * Bokfør all vedlikeholdskost som har blitt bokført gjennom aktivakladdene eller fakturaene.
 * Bokfør justeringer.
@@ -55,17 +49,17 @@ ms.locfileid: "9607665"
 * Bokfør avskrivning.
 * Oppdater og bokfør gjentakende aktivakladd.
 
-## <a name="intercompany"></a>Konserninternt
+## Konserninternt
 
 * Behandle konserninterne transaksjoner.
 
-## <a name="calculate-and-process-sales-tax"></a>Beregn og behandle mva.
+## Beregn og behandle mva.
 
 * Fullfør avgiftsoppgaver.  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/close-fiscal-year-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Avslutte år og perioder](year-close-years-periods.md)  
 [Avslutte tablåer](year-close-books.md)  

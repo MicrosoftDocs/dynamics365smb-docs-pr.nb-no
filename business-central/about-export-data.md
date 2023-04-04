@@ -1,27 +1,21 @@
 ---
 title: Eksporter Business Central-dataene til Excel
-description: Du kan eksportere finansrapporter og forretningsintelligensdata fra Business Central til Excel, eller du kan åpne dataene i Excel.
+description: 'Du kan eksportere finansrapporter og forretningsintelligensdata fra Business Central til Excel, eller du kan åpne dataene i Excel.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: analysis, reporting, financial report, business intelligence, BI, Excel
+ms.search.keywords: 'analysis, reporting, financial report, business intelligence, BI, Excel'
 ms.search.form: 9901
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: adfb0a98f79f3e32656e6e9f6b95172e6a83dd39
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529950"
 ---
-# <a name="export-your-business-data-to-excel"></a>Eksporter forretningsdataene til Excel
+# Eksporter forretningsdataene til Excel
 
 Excel er et kraftig verktøy når du skal arbeide med data. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du åpne alle lister i Excel. Du kan til og med endre data i Excel og deretter sende dem tilbake til [!INCLUDE [prod_short](includes/prod_short.md)]. Samme funksjon gjør det enkelt for deg å ta med deg dataene hvis du bestemmer deg for å avslutte abonnementet.
 
-## <a name="opening-lists-in-excel"></a>Åpne lister i Excel
+## Åpne lister i Excel
 
 Du kan åpne data i Excel fra alle alle journaler, lister eller forslag. Du bare åpner siden som du ønsker, og deretter velger du **Åpne i Excel**. Åpne for eksempel en oversikt over kunder (Søk etter **kunder**), og velg deretter **Åpne i Excel**. Nettleseren ber deg om å åpne eller lagre Microsoft Excel-arbeidsboken som er generert.  
 
@@ -30,11 +24,11 @@ Du kan åpne data i Excel fra alle alle journaler, lister eller forslag. Du bare
 
 Hver liste inneholder noen kolonner. Eksporten til Excel inkluderer alle kolonner i nåværende visning. Endre kolonnene ved å åpne hurtigmenyen for en kolonne, og angi deretter hvilke kolonner du vil vise. Listen med kolonner er forskjellig for de fleste lister. Kolonnene gjenspeiler strukturen i databasen som lagrer dataene. Hvis du ikke er sikker på hvilken datatype en bestemt kolonne inneholder, legger du den til i visningen. Du kan alltids fjerne den igjen.  
 
-### <a name="edit-data-in-excel"></a>Rediger data i Excel
+### Rediger data i Excel
 
 [!INCLUDE[prod_short](includes/prod_short.md)]-opplevelsen inneholder et tillegg til Excel, slik at du kan redigere data i Excel. Hvis du vil ha mer informasjon, se [Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="exporting-data-to-other-finance-systems"></a>Eksportere data til andre økonomisystemer
+## Eksportere data til andre økonomisystemer
 
 Hvis du vil avbryte abonnementet på [!INCLUDE[prod_short](includes/prod_short.md)], kan du eksportere dataene til Excel, slik at du kan ta dem med deg til det neste økonomisystemet.  
 
@@ -78,9 +72,9 @@ Vi anbefaler at du også vurdere å eksportere dataene fra de følgende sidene:
 
 Hvis du vil ha mer informasjon, kan du se [For å få en oversikt over en brukers tillatelser](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
+## Se også
 [Avbryte abonnementet på [!INCLUDE[prod_short](includes/prod_short.md)]](admin-cancel.md)  
 [Importer forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md)  

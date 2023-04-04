@@ -1,22 +1,16 @@
 ---
 title: Konfigurere lagerprosesser
-description: Selskapets distribusjonsstrategi avspeiles i oppsettet av lagerprosessene, for eksempel lagerlokasjoner.
+description: 'Selskapets distribusjonsstrategi avspeiles i oppsettet av lagerprosessene, for eksempel lagerlokasjoner.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.form: 5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366
+ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366'
 ms.date: 06/25/2021
 ms.author: edupont
-ms.openlocfilehash: d2d7e2f3f71cd0791df27eb378bfa4bf66338afa
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9532326"
 ---
-# <a name="setting-up-warehouse-management"></a>Definere lagerstyring
+# Definere lagerstyring
 
 Selskapets distribusjonsstrategi avspeiles i oppsettet av lagerprosessene. Dette omfatter å definere hvordan ulike varer skal håndteres på ulike lagerlokasjoner, for eksempel graden av hyllekontroll og omfanget av påkrevd arbeidsflyt mellom lageraktiviteter.  
 
@@ -24,7 +18,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Få en oversikt over hvilke muligheter som finnes i grunnleggende og avansert lagerfunksjonalitet.|[Designdetaljer: Lageroversikt](design-details-warehouse-overview.md)|  
+|Få en oversikt over hvilke muligheter som finnes i grunnleggende og avansert lagerfunksjonalitet.|[Oversikt over lagerstyring](design-details-warehouse-management.md)|  
 |Sette opp åtte ulike hylletyper, for eksempel Plukkhylle, for å definere flytaktivitetene som er knyttet til hver hylletype.|[Definere hylletyper](warehouse-how-to-set-up-bin-types.md)|  
 |Opprett hyller, enten manuelt eller automatisk, med informasjon, for eksempel navn, nummerserier og kategori, i samsvar med en hyllemal.|[Opprette hyller](warehouse-how-to-create-individual-bins.md)|  
 |Definere hvilke varer du vil lagre i en gitt hylle, og opprette reglene som bestemmer når hyllen skal fylles med en bestemt vare.|[Opprette hylleinnhold](warehouse-how-to-set-up-bin-contents.md)|  
@@ -39,17 +33,14 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Aktiver lagermedarbeidere til å dele en større enhet i mindre enheter for å oppfylle behovene i kildedokumenter.|[Aktivere automatisk samlet oppbryting med lagerstyring og plukk](warehouse-enable-automatic-breaking-bulk-with-directed-put-away-and-pick.md)|  
 |Konfigurere lageret til å automatisk foreslå plukking av varer som utløper først.|[Aktivere plukking etter FEFO](warehouse-picking-by-fefo.md)|
 |Ha tips om hvordan du omorganiserer lokasjoner, hyller eller soner for å gjøre lageraktivitetene mer effektive.|[Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)|
-|Integrer strekkodelesere i lagerstyringsløsningen. Bare for lokal distribusjon.|[Bruk ADCS (Se automatisk datahentesystem)](warehouse-use-automated-data-capture-systems-adcs.md)|
 |Angi standardrapporter som skal brukes for ulike dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/set-up-warehouse-management/)
+## Se relatert [Microsoft-opplæring](/training/paths/set-up-warehouse-management/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Lagerstyring](warehouse-manage-warehouse.md)  
 [Lager](inventory-manage-inventory.md)  
 [Monteringsstyring](assembly-assemble-items.md)  
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

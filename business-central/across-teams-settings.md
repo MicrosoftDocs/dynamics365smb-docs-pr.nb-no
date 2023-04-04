@@ -6,17 +6,12 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search'
 ms.date: 04/12/2021
 ms.author: jswymer
-ms.openlocfilehash: 21edfebd4507c383d9af217fa0617d22867e204d
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8133229"
 ---
-# <a name="changing-company-and-other-settings-in-teams"></a>Endre selskap og andre innstillinger i Teams
+
+# Endre selskap og andre innstillinger i Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -32,7 +27,7 @@ Du kan åpne siden **Innstillinger** på to måter: 1) fra meldingsboksen eller 
 
    ![Innstillinger for Business Central fra meldingsboks.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversikt over Business Central og Microsoft Teams-integrering](across-teams-overview.md)  
 [Installer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  

@@ -28,6 +28,7 @@ Tabellen nedenfor beskriver nivåene for datasensitivitet som du kan tilordne.
 |Normal | Generelle data som ikke tilhører andre kategorier.|
 
 ## Hvordan klassifiserer jeg dataene?
+
 Klassifisering av sensitiviteten til av ett og ett felt for et stort antall felt ville tatt lang tid. For å bidra til å øke hastigheten på prosessen kan vi tilby verktøy du kan bruke til masseklassifisering av sensitiviteten til felt og deretter finjustere klassifiseringer for spesifikke felt. Du finner verktøy i dataklassifiseringsforslaget, som er tilgjengelig i rollesenteret for på Administrasjon av brukere, brukergrupper og tillatelser. Du må være en systemansvarlig for å bruke forslaget.
 
 > [!Important]

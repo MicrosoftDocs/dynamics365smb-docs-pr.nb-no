@@ -5,31 +5,25 @@ author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource
+ms.search.form: 1480
+ms.search.keywords: 'Excel, add-in, centralized deployment, M365 admin center, individual acquisition, appsource'
 ms.date: 10/07/2021
 ms.author: jswymer
-ms.openlocfilehash: e9120463e2876e7513ac8011918039167760172d
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533001"
 ---
-# <a name="get-the-business-central-add-in-for-excel"></a>Hent Business Central-tillegget for Excel
+# Hent Business Central-tillegget for Excel
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inneholder et tillegg for Excel som lar brukere velge en **Rediger i Excel**-handling på bestemte sider for å åpne dataene i et Excel-regneark. Denne handlingen er forskjellig fra handlingen **Åpne i Excel** fordi den gjør det mulig for brukere å foreta endringer i Excel, og deretter publiserer endringene tilbake til [!INCLUDE[prod_short](includes/prod_short.md)]
 
-## <a name="overview"></a>Oversikt
+## Oversikt
 
-### <a name="about-the-add-in"></a>Om tillegget
+### Om tillegget
 
 Tillegget kalles **Microsoft Dynamics Office-tillegg** og er tilgjengelig for installasjon fra [Office Store (AppSource)](https://appsource.microsoft.com/). Når tillegget er installert, er handlingen **Rediger i Excel** tilgjengelig på de fleste listedelsidene fra **Del**-ikonet ![Del en side i en annen app.](media/share-icon.png). Hvis du vil ha mer informasjon om å bruke tillegget, kan du se [Vis og rediger i Excel fra Business Central](across-work-with-excel.md).
 
 > [!NOTE]
 > Tillegget fungerer bare i Windows, ikke i macOS.
 
-### <a name="about-deployment-as-an-admin"></a>Om distribusjon som administrator
+### Om distribusjon som administrator
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] online finnes det noen distribusjonsalternativer for å distribuere tillegget til brukerne. Ett alternativ er *individuell anskaffelse*, der du lar brukerne installere tillegget selv. Med dette alternativet må brukere ha tilgang til å laste ned filer fra Office Store. Et annet alternativ er å konfigurere *sentralisert distribusjon* i administrasjonssenteret for Microsoft 365 for automatisk å distribuere tillegget til hele organisasjonen, grupper eller bestemte brukere. Sentralisert distribusjon gjør det mulig å distribuere tillegget til brukerne hvis organisasjonen ikke gir brukere tilgang til Office Store.
 
@@ -41,21 +35,21 @@ For sluttbrukeren er installasjonsopplevelsen forskjellig for de to distribusjon
 
 Med begge disse distribusjonsalternativene konfigureres tillegget automatisk for å koble til [!INCLUDE[prod_short](includes/prod_short.md)]. Et tredje distribusjonsalternativ, som er manuell installasjon av tillegget direkte fra Excel. Med dette alternativet må brukerne konfigurere tillegget for å koble til [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="switching-from-individual-acquisition-to-centralized-deployment-or-the-other-way-around"></a><a name="switch"></a>Bytt fra individuell anskaffelse til sentralisert distribusjon, eller omvendt
+### <a name="switch"></a>Bytt fra individuell anskaffelse til sentralisert distribusjon, eller omvendt
 
 Når du bytter fra individuell anskaffelse av tillegget til sentralisert distribusjon, eller omvendt, blir Excel-filer som brukere opprettet før overgangen, påvirket. Etter overgangen kan brukerne fremdeles åpne Excel-regneark som tidligere ble opprettet med handlingen **Rediger i Excel**, eller opprettet manuelt ved å konfigurere Excel-tillegget. Men de kan ikke oppdatere dataene i filen fra Business Central- eller push-oppdateringer til Business Central
 
 Denne tilstanden skyldes at alle Excel-filer er tilordnet et ID for tillegg. I overgangen til eller fra sentralisert distribusjon, tilordnes en annen ID, slik at den tidligere ID-en blir blokkert.
 
-## <a name="preparation-on-premises-only"></a>Klargjøring (bare lokalt)
+## Klargjøring (bare lokalt)
 
 [!INCLUDE[prod_short](includes/prod_short.md)] on-premises krever at miljøet er konfigurert for tillegget. Hvis ikke vil ikke handlingen **Rediger i Excel** være tilgjengelig for brukerne. Hvis du vil ha mer informasjon, kan du se [Konfigurer Excel-tillegget for redigering av Business Central-data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin) i hjelpen for utviklere og IT-eksperter.
 
-## <a name="deploy-the-add-in-by-using-centralized-deployment"></a>Distribuer tillegget ved hjelp av sentralisert distribusjon
+## Distribuer tillegget ved hjelp av sentralisert distribusjon
 
 Sentralisert distribusjon er en funksjon i administrasjonssenteret for Microsoft 365 som du bruker til automatisk å installere tillegg i brukernes Office-apper, for eksempel Excel. For å hjelpe deg med sentralisert distribusjon må [!INCLUDE[prod_short](includes/prod_short.md)] inkludere det assisterte oppsettet **Excel-tillegget Sentralisert distribusjon**.
 
-### <a name="before-you-begin"></a>Før du starter
+### Før du starter
 
 - Hvis du vil vite mer om hvordan du hindrer at brukere laster ned fra Office Store, kan du se [Behandle tillegg i administrasjonssenteret](/microsoft-365/admin/manage/manage-addins-in-the-admin-center).
 - Kontrollere at sentralisert distribusjon vil fungere for organisasjonen. Hvis du vil ha mer informasjon, kan du se [Fastslå om sentralisert distribusjon av tillegg fungerer for organisasjonen](/microsoft-365/admin/manage/centralized-deployment-of-add-ins)
@@ -64,7 +58,7 @@ Sentralisert distribusjon er en funksjon i administrasjonssenteret for Microsoft
 > [!NOTE]
 > Aktivering av sentralisert distribusjon påvirker funksjoner som bruker Excel-tillegget, for eksempel handlingen **Rediger i Excel**. Den påvirker ikke andre Excel-relaterte funksjoner og eller tillatelser tilordnet brukere i [!INCLUDE[prod_short](includes/prod_short.md)]
 
-### <a name="set-up-centralized-deployment-of-the-add-in"></a>Konfigurer sentral. distribusjon for tillegget
+### Konfigurer sentral. distribusjon for tillegget
 
 Du arbeider i både [!INCLUDE[prod_short](includes/prod_short.md)] og administrasjonssenteret for Microsoft 365.
 
@@ -93,7 +87,7 @@ Når du er ferdig, kan du alltids endre distribusjonen i Microsoft 365-administr
 > [!NOTE]
 > Det kan ta opptil 24 timer før tillegget blir distribuert automatisk i Excel til brukere.
 
-## <a name="individual-acquisition-install-the-add-in-manually-for-your-own-use"></a><a name="install"></a>Individuell anskaffelse: Installer tillegget manuelt for egen bruk
+## <a name="install"></a>Individuell anskaffelse: Installer tillegget manuelt for egen bruk
 
 Når du åpner Excel fra Business Central, vil tillegget i de fleste tilfeller enten bli installert automatisk, eller du blir bedt om å installere det. Det kan imidlertid finnes tilfeller der du må installere tillegget manuelt.
 
@@ -103,7 +97,7 @@ Når du åpner Excel fra Business Central, vil tillegget i de fleste tilfeller e
 
 Når tillegget er installert, vises det som et panel i Excel. Nå konfigurerer du tilkoblingen.
 
-### <a name="configure-the-business-central-connection"></a>Konfigurer Business Central-tilkoblingen
+### Konfigurer Business Central-tilkoblingen
 
 Hvis en bruker ikke kan koble til automatisk, kan du fjerne blokkeringen ved å be dem følge denne fremgangsmåten:
 
@@ -115,17 +109,17 @@ Hvis en bruker ikke kan koble til automatisk, kan du fjerne blokkeringen ved å 
 
 Tillegget er nå tilkoblet [!INCLUDE [prod_short](includes/prod_short.md)], og du kan redigere data og publisere endringene i [!INCLUDE [prod_short](includes/prod_short.md)].  
 
-## <a name="prepare-devices-and-network-for-the-excel-add-in"></a>Klargjør enheter og nettverk for Excel-tillegget
+## Klargjør enheter og nettverk for Excel-tillegget
 
 Nettverkstjenester som proxyer eller brannmurer må tillate ruting mellom hver klientenhet der tillegget er installert og mange serviceendepunkter. Se [Klargjør nettverket for Excel-tillegget](/dynamics365/business-central/dev-itpro/administration/configuring-network-for-addins) for en liste over endepunkter.
 
-## <a name="troubleshooting"></a>Feilsøking
+## Feilsøking
 
 Noen ganger støter brukere på problemer med Excel-tillegget. Denne delen inneholder noen tips for hvordan du kan oppheve blokkeringen av brukere i visse tilfeller.
 
 |Problem  |Løsning eller midlertidig løsning  |Kommentarer  |
 |---------|---------|---------|
-|Tillegget starter ikke|Kontroller om tillegget er distribuert sentralt. Du kan eventuelt kontrollere om brukeren er blokkert fra å installere det lokalt. | Administratoren kan konfigurere Office slik at brukere ikke kan hente tillegg. I slike tilfeller må administratoren distribuere tillegget sentralt. Hvis du vil ha mer informasjon, kan du se [Distribuer tillegg i administrasjonssenteret](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
+|Tillegget starter ikke <br><br>Brukeren får for eksempel meldingen Advarsel om tillegg: Dette tillegget er ikke lenger tilgjengelig. når vedkommende prøver å bruke tillegget. Dette problemet kan oppstå hvis sentralisert distribusjon er riktig konfigurert, men brukeren har ikke fått tildelt tilgang.|Kontroller om tillegget er distribuert sentralt. Du kan eventuelt kontrollere om brukeren er blokkert fra å installere det lokalt. | Administratoren kan konfigurere Office slik at brukere ikke kan hente tillegg. I slike tilfeller må administratoren distribuere tillegget sentralt. Hvis du vil ha mer informasjon, kan du se [Distribuer tillegg i administrasjonssenteret](/microsoft-365/admin/manage/manage-deployment-of-add-ins?view=o365-worldwide&preserve-view=true).|
 |Data blir ikke lastet inn i Excel|Test tilkoblingen ved å åpne en annen liste i Excel fra [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan eventuelt åpne arbeidsboken i Excel i en nettleser.|Hvis brukeren har angitt et selskapsnavn som inneholder spesialtegn, kan ikke tillegget kobles til. |
 |Data kan ikke publiseres tilbake til [!INCLUDE [prod_short](includes/prod_short.md)].|Test tilkoblingen ved å åpne arbeidsboken i Excel i en nettleser. |Noen ganger kan en utvidelse blokkere publiseringsjobben. Hvis siden er utvidet eller tilpasset, fjerner du utvidelsene og prøver på nytt.|
 |Datoene er feil  |Excel kan vise klokkeslett og datoer i et annet format enn [!INCLUDE [prod_short](includes/prod_short.md)]. Denne betingelsen gjør dem ikke feil, og dataene i [!INCLUDE [prod_short](includes/prod_short.md)] blir ikke forstyrret.|         |
@@ -165,9 +159,9 @@ When the add-in is installed, it shows up as a panel in Excel. Next, you must co
 > [!NOTE]
 > In certain deployments, the administrator must configure network access to unblock the Excel add-in. For more information, see [Preparing Your Network for the Excel Add-In](configuring-network-for-addins.md).-->
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md)  
 [Arbeid med Business Central](ui-work-product.md)  

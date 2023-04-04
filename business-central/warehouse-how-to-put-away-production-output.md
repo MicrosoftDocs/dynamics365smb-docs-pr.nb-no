@@ -41,6 +41,8 @@ Det første trinnet til å plassere avgang er å opprette den inngående lagerfo
 4. Fyll ut plasseringslinjene etter behov.
 5. Når linjene er klare for bokføring, velger du handlingen **Bokfør**. Bokføring oppretter lagerpostene og bokføre avgangen av varene.  
 
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 Du kan også opprette en **Lagerplassering** direkte fra den frigitte produksjonsordren. Finn ut mer under [Plasser varer med lagerplasseringer](warehouse-how-to-put-items-away-with-inventory-put-aways.md).  
 
 Når du bokfører en lagerplassering, antas det at alle operasjonene bokføres i henhold til standardruten. Det vil si avgangsantallet som bokføres i henhold til den siste operasjonen. Du kan bruke ferdigmeldingskladden til å bokføre avvik i avgangsantallet og oppstillingstid og operasjonstid. Hvis du må bokføre delvis etter at du opprettet lagerplasseringen, kan du gjøre dette for oppstillingstider og antall for alle operasjoner bortsett fra den siste. Den siste operasjonen styres av lagerplasseringen.  

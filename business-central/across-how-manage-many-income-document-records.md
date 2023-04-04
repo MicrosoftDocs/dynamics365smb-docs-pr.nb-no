@@ -1,22 +1,16 @@
 ---
 title: Definer hvilke innkommende dokumenter som skal vises
-description: Du kan justere standardvisningen for inngående dokumenter, for eksempel e-fakturaer, for å få bedre oversikt over behandlede og ubehandlede poster.
+description: 'Du kan justere standardvisningen for inngående dokumenter, for eksempel e-fakturaer, for å få bedre oversikt over behandlede og ubehandlede poster.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice
+ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
 ms.date: 06/14/2022
 ms.author: edupont
-ms.openlocfilehash: 211798c30c3f94fb24fac2bf706baeb2811b99b0
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9529491"
 ---
-# <a name="manage-many-incoming-document-records"></a>Håndtere mange inngående dokumentposter
+# Håndtere mange inngående dokumentposter
 
 Når du oppretter eller behandle inngående dokumentposter, kan antall linjer på siden **Inngående dokumenter** øke så mye at du mister oversikten. Derfor kan du sette inngående dokumentposter til *Behandlet* for å fjerne dem fra standardvisningen. Når du velger handlingen **Vis alle**, kan du vise både behandlede og ubehandlede poster.
 
@@ -28,7 +22,7 @@ Det merkes automatisk av for **Behandlet** på inngående dokumentposter som har
 > [!NOTE]  
 > Når du åpner siden **Inngående dokumenter** med handlingen **Mine inngående dokumenter** i rollesenteret, vises bare ubehandlede inngående dokumentposter som standard. I dette emnet kalles dette "standardvisningen".
 
-## <a name="to-remove-incoming-document-records-from-the-default-view"></a>Fjerne inngående dokumentposter fra standardvisningen
+## Fjerne inngående dokumentposter fra standardvisningen
 
 1. På siden **Inngående dokumenter** velger du én eller flere linjer for inngående dokumentposter som du vil fjerne fra standardvisning.
 2. Velg handlingen **Satt til Behandlet**.
@@ -38,13 +32,13 @@ Det merkes automatisk av for **Behandlet** på inngående dokumentposter som har
 > [!NOTE]  
 > Du kan også utføre denne handlingen for hver enkelt post på siden **Kort for inngående dokument**.
 
-## <a name="to-view-all-incoming-document-records"></a>Vise alle inngående dokumentposter
+## Vise alle inngående dokumentposter
 
 1. På siden **Inngående dokumenter** velger du handlingen **Vis alle**.
 
 Alle inngående dokumentposter vises, inkludert poster som det ikke er merket av for **Behandlet**.
 
-## <a name="to-add-incoming-document-records-to-the-default-view"></a>Legge til inngående dokumentposter i standardvisningen
+## Legge til inngående dokumentposter i standardvisningen
 
 1. På siden **Inngående dokumenter** velger du handlingen **Vis alle**.
 2. Velg én eller flere linjer for inngående dokumentposter som du vil skal vises i standardvisningen.
@@ -53,9 +47,9 @@ Alle inngående dokumentposter vises, inkludert poster som det ikke er merket av
 > [!NOTE]  
 > Du kan også utføre denne handlingen for hver enkelt post på siden **Kort for inngående dokument**.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/incoming-documents-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/modules/incoming-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
   
 [Opprett innkommende dokumentposter](across-how-create-income-document-records.md)
 [Opprett innkommende dokumentposter direkte fra dokumenter og enheter](across-how-connect-disconnect-income-document-records.md)

@@ -68,6 +68,8 @@ Hvis du vil ha mer informasjon om selskaper og miljøer, kan du se [Miljøkoblin
 
 ## Tilgang til selskapshuben
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 For å få tilgang til selskapshuben må du ha tilgang via enten brukergruppen *D365-SELSKAPSHUB* eller via tillatelsessettet *D365-SELSKAPSHUB*. Du må også ha tilgang til selskapene som er oppført i firmahuben, noe som betyr at du må være en bruker i disse selskapene. Hvis du vil ha mer informasjon, se [Opprette brukere i henhold til lisenser](ui-how-users-permissions.md).  
 
 > [!IMPORTANT]

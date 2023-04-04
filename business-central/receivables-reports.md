@@ -1,28 +1,22 @@
 ---
 title: Kunderapporter og -analyse
-description: Se hvilke rapporter og analyser som er tilgjengelige i standardversjonen av Business Central, slik at du kan holde oversikt over kunder.
+description: 'Se hvilke rapporter og analyser som er tilgjengelige i standardversjonen av Business Central, slik at du kan holde oversikt over kunder.'
 author: edupont04
 ms.topic: conceptual
 ms.search.keywords: reporting
-ms.search.form: Report_33, Report_101, Report_104, Report_109, Report_112, Report_120, Report_121, Report_129, Report_211, Report_1316
+ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Report_120, Report_121, Report_129, Report_211, Report_1316'
 ms.date: 07/13/2021
 ms.author: edupont
-ms.openlocfilehash: f674102844cf6dd6c5c93aa0036f8b73f10b8b61
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514780"
 ---
-# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Kunderapporter og analyser av aktiva i Business Central
+# Kunderapporter og analyser av aktiva i Business Central
 
 For å hjelpe deg med å administrere kunder i [!INCLUDE [prod_short](includes/prod_short.md)] er standardrapporter og analyse innebygd. Det flytter seg utenfor tradisjonelle rapporteringsbegrensninger for å hjelpe deg med å utforme forskjellige typer rapporter effektivt.  
 
-## <a name="reports"></a>Rapporter
+## Rapporter
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md)  
 [Arbeid med dimensjoner](finance-dimensions.md)  

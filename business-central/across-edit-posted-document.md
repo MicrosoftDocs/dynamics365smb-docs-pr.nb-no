@@ -1,24 +1,18 @@
 ---
 title: Rediger bokførte salgs- og kjøpsdokumenter
-description: Dette emnet forklarer hvordan du oppdaterer informasjon i et bokført dokument, for eksempel en følgeseddel eller kjøpsfaktura når relevante opplysninger er endret.
+description: 'Dette emnet forklarer hvordan du oppdaterer informasjon i et bokført dokument, for eksempel en følgeseddel eller kjøpsfaktura når relevante opplysninger er endret.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: edupont
-ms.search.keywords: Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document
-ms.search.form: 130, 138, 142, 146, 6660, 6662, 6650, 6652
+ms.search.keywords: 'Posted document, editable, posted sales shipment, posted purchase invoice, posted return shipment, posted return receipt, Business Central, business document'
+ms.search.form: '130, 138, 142, 146, 6660, 6662, 6650, 6652'
 ms.date: 06/10/2021
 ms.author: edupont
-ms.openlocfilehash: ae59d920f4c560caff2bb545b1922bcd4bff65db
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822549"
 ---
-# <a name="edit-posted-documents"></a>Redigere bokførte dokumenter
+# Redigere bokførte dokumenter
 
 Noen ganger må du oppdatere et bokført dokument fordi informasjon som er relevant for dokumentet, er endret. I et bokført salgsdokument kan dette for eksempel være transportørens pakkesporingsnummer. På et bokført kjøpsdokument kan dette være en betalingsreferansetekst.
 
@@ -38,7 +32,7 @@ Følgende tilleggsdokumenter kan redigeres i de utvalgte landene eller områdene
 - RU: Bokført salgskreditnota
 - IT: bokført overføringsseddel, bokført servicefølgeseddel
 
-## <a name="to-edit-a-posted-sales-shipment"></a>Slik redigerer du en bokført følgeseddel
+## Slik redigerer du en bokført følgeseddel
 
 Nedenfor finner du informasjon om hvordan du redigerer en bokført følgeseddel. Trinnene er de samme for de andre dokumentene som støttes.
 
@@ -49,7 +43,7 @@ Nedenfor finner du informasjon om hvordan du redigerer en bokført følgeseddel.
 
 Den bokførte følgeseddelen oppdateres.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)  
 [Finn relaterte poster for dokumenter](ui-find-entries.md)  

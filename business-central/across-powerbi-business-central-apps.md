@@ -1,22 +1,16 @@
 ---
 title: Bruk Business Central-appene i Power BI
-description: Få innsikt, forretningsintelligens og KPI-er fra Business Central-dataene på en enkel måte med Business Central-apper for Power BI.
+description: 'Få innsikt, forretningsintelligens og KPI-er fra Business Central-dataene på en enkel måte med Business Central-apper for Power BI.'
 author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
+ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: a0ea051ec39b290706b30da455fce518cd7bdcd0
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533379"
 ---
-# <a name="use-the-prod_short-apps-in-power-bi"></a>Bruk [!INCLUDE [prod_short](includes/prod_short.md)]-appene i Power BI
+# Bruk [!INCLUDE [prod_short](includes/prod_short.md)]-appene i Power BI
 
 > **GJELDER:** [!INCLUDE [prod_long](includes/prod_long.md)] Online 
 
@@ -26,7 +20,7 @@ ms.locfileid: "9533379"
 - [!INCLUDE [prod_long](includes/prod_long.md)] – Finance  
 - [!INCLUDE [prod_long](includes/prod_long.md)] – Sales
 
-## <a name="overview"></a>Oversikt
+## Oversikt
 
 Hver app inneholder flere rapporter som du kan se etter data i, og har blant annet følgende funksjoner:
 
@@ -40,7 +34,7 @@ Appene er utformet for å fungere med data fra et hvilket som helst selskap i [!
 > [!NOTE]
 > Du kan også lage dine egne rapporter og instrumentbord i Power BI basert på [!INCLUDE[prod_short](includes/prod_short.md)]-dataene dine. Hvis du vil ha mer informasjon, kan du se [Koble forretningsdata til Power BI](across-how-use-financials-data-source-powerbi.md). 
 
-## <a name="prerequisites"></a>Forutsetninger
+## Forutsetninger
 
 Power BI-apper krever tillatelser til tabellene som dataene hentes fra, og til webtjenestene som brukes til å hente data. Tabellen nedenfor viser webtjenestene som kreves for hver Power BI-app:
     
@@ -53,11 +47,11 @@ Power BI-apper krever tillatelser til tabellene som dataene hentes fra, og til w
 > [!TIP]
 > Det er enkelt å finne webtjenestene ved å søke etter *webtjenester* i [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Webtjenester** kontrollerer du at **Publiser**-feltet er valgt for webtjenestene som er oppført over. Hvis du vil ha mer informasjon, kan du se [Publisere en webtjeneste](across-how-publish-web-service.md).
 
-## <a name="get-ready"></a>Gjøre deg klar
+## Gjøre deg klar
 
 Registrer deg for Power BI-tjenesten. Hvis du ikke allerede har registrert deg, går du til [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Når du registrerer deg, bruker du e-postadressen og passordet for jobben din.
 
-## <a name="install-a-prod_short-app-in-power-bi"></a>Installere en [!INCLUDE[prod_short](includes/prod_short.md)]-app i Power BI
+## Installere en [!INCLUDE[prod_short](includes/prod_short.md)]-app i Power BI
 
 1. Åpne nettleseren, naviger til [https://powerbi.microsoft.com](https://powerbi.microsoft.com), og logg deg på kontoen din.
 2. Velg **Hent data** nederst i navigasjonsruten til venstre.  
@@ -75,7 +69,7 @@ Registrer deg for Power BI-tjenesten. Hvis du ikke allerede har registrert deg, 
 
     Når installasjonen er fullført, er appen tilgjengelig fra **Apper** på navigasjonsmenyen i Power BI.
 
-## <a name="connect-the-prod_short-app-to-your-data"></a>Koble [!INCLUDE[prod_short](includes/prod_short.md)]-appen til dataene dine
+## Koble [!INCLUDE[prod_short](includes/prod_short.md)]-appen til dataene dine
 
 1. Velg Business Central-appen under **Apper**, og velg deretter **Koble til**.
 2. Når du blir bedt om det, fyller du ut **Selskapsnavn** og **Miljø** med informasjon om [!INCLUDE[prod_short](includes/prod_short.md)]-forekomsten du vil koble til.
@@ -90,23 +84,23 @@ Registrer deg for Power BI-tjenesten. Hvis du ikke allerede har registrert deg, 
 
     ![Velg Dynamics 365 Business Central, og velg Få det nå.](./media/across-how-to-connect-powerbi-d365-content-packs/powerbi-workspace-dashboard-report-dataset.png)
 
-## <a name="fixing-problems"></a>Løse problemer
+## Løse problemer
 
 Power BI-instrumentbordet er avhengig av de publiserte webtjenestene som er oppført ovenfor. Det viser data fra demoselskapet eller ditt eget selskap hvis du importerer data fra den gjeldende økonomiløsningen din. Hvis noe går galt, vil denne delen imidlertid gi en løsning for de vanligste problemene.  
 
-### <a name="you-dont-have-a-power-bi-account"></a>Du har ikke en Power BI-konto
+### Du har ikke en Power BI-konto
 
 En Power BI-konto er ikke opprettet. Du må ha en lisens for å få en gyldig Power BI-konto. Du må også tidligere ha logget deg på Power BI for å opprette Power BI-arbeidsområdet.  
 
-### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Melding: Det finnes ingen aktiverte rapporter. Klikk på Velg rapport for å se en liste over rapporter du kan vise.
+### Melding: Det finnes ingen aktiverte rapporter. Klikk på Velg rapport for å se en liste over rapporter du kan vise.
 
 Denne meldingen vises hvis standardrapporten ikke kan distribueres til Power BI-arbeidsområdet. Eller rapporten ble distribuert, men ikke oppdatert. Hvis dette problemet oppstår, navigerer du til rapporten i Power BI-arbeidsområdet, velger **Datasett**, **Innstillinger** og oppdaterer deretter legitimasjonen manuelt. Når datasettet er oppdatert, går du tilbake til [!INCLUDE[prod_short](includes/prod_short.md)] og velger rapporten fra **Velg rapporter**-siden manuelt.
 
-### <a name="you-need-a-power-bi-pro-license-to-install-the-prod_short-app-in-power-bi"></a>Du trenger en Power BI Pro-lisens for å installere [!INCLUDE[prod_short](includes/prod_short.md)]-appen i Power BI
+### Du trenger en Power BI Pro-lisens for å installere [!INCLUDE[prod_short](includes/prod_short.md)]-appen i Power BI
 
 Du trenger en [Power BI Pro-lisens](/power-bi/service-features-license-type) for å kunne dele innholdet, og det gjør også de du deler den med. Innholdet må være i et arbeidsområde i en [Premium-kapasitet](/power-bi/service-premium-what-is). Hvis du vil ha mer informasjon, kan du se [Måter å dele arbeidet på i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).  
 
-### <a name="parameter-validation-failed-please-make-sure-all-parameters-are-valid"></a>"Parametervalidering mislyktes, du må kontrollere at alle parametrene er gyldige"
+### "Parametervalidering mislyktes, du må kontrollere at alle parametrene er gyldige"
 
 Denne feilen angir at én eller flere av parameterne ikke er gyldige.
 
@@ -115,7 +109,7 @@ Denne feilen angir at én eller flere av parameterne ikke er gyldige.
 - Hvis du kobler til [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, angav du en URL-adresse som ikke er gyldig. Du kan bekrefte URL-adressen på **Webtjenester**-siden i [!INCLUDE[prod_short](includes/prod_short.md)]  
 - En port er ikke åpen, så forespørselen kommer ikke gjennom brannmuren.
 
-### <a name="cant-sign-in"></a>Kan ikke logge på
+### Kan ikke logge på
 
 Hvis du får en feilmelding om at påloggingen mislyktes, etter at du har brukt brukerlegitimasjonen for [!INCLUDE[prod_short](includes/prod_short.md)] til å logge på, kan dette skyldes et av følgende problemer:
 
@@ -123,36 +117,36 @@ Hvis du får en feilmelding om at påloggingen mislyktes, etter at du har brukt 
 - Du har valgt en annen godkjenningstype enn Enkel hvis du kobler til [!INCLUDE[prod_short](includes/prod_short.md)] lokalt.
 - Du har ikke skrevet inn et gyldig brukernavn eller passord.
 
-### <a name="message-your-data-source-cant-be-refreshed-because-the-credentials-are-invalid-please-update-your-credentials-and-try-again"></a>Melding: Datakilden kan ikke oppdateres fordi legitimasjonen er ugyldig. Oppdater legitimasjonen, og prøv på nytt.
+### Melding: Datakilden kan ikke oppdateres fordi legitimasjonen er ugyldig. Oppdater legitimasjonen, og prøv på nytt.
 
 Når det gjelder [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan problemet være at OData URL-adressen bare eksponeres for det lokale nettverket.
 
-### <a name="incorrect-company-name"></a>Feil selskapsnavn
+### Feil selskapsnavn
 
 En vanlige feil er angi visningsnavnet for selskapet i stedet for selskapsnavnet. Søk etter **Selskaper** for å finne selskapsnavnet. Bruk **Navn**-feltet når du angir selskapsnavnet.
 
-### <a name="the-key-didnt-match-any-rows-in-the-table"></a>Nøkkelen samsvarer ikke med noen rader i tabellen
+### Nøkkelen samsvarer ikke med noen rader i tabellen
 
 Hvis du angir et ugyldige selskapsnavn under tilkoblingen, kan du få du feilmeldingen Nøkkelen samsvarer ikke med en rad i tabellen. Angi riktig selskapsnavn, og prøv å koble til på nytt.
 
-### <a name="historical-data-appears-to-be-missing"></a>Historisk data ser ut til å mangle
+### Historisk data ser ut til å mangle
 
 Når Power BI-appen er installert og dataene vises i Power BI, oppdager du at ikke alle dataene vises. Datasettene filtreres for å returnere bare de forrige 365 dagene med data. Denne standarden er på plass til å gjøre rapportene raskere.  
 
-### <a name="i-only-see-data-for-a-single-company"></a>Jeg ser bare data for ett selskap
+### Jeg ser bare data for ett selskap
 
 Power BI-appen viser bare data fra [!INCLUDE[prod_short](includes/prod_short.md)]-selskapet som ble definert da Power BI-appen ble installert. Data fra andre selskaper kan legges til i rapportene ved å legge til nye spørringer som bruker ulike selskaper som datakilde.  
 
-### <a name="what-now"></a>Hva nå?
+### Hva nå?
 
 - Prøv [å stille et spørsmål i spørsmål og svar-boksen](/power-bi/service-q-and-a-tips) øverst i instrumentbordet.
 - [Endre flisene](/power-bi/service-dashboard-edit-tile) i instrumentbordet.  
 - [Velge en flis](/power-bi/service-dashboard-tiles) for å åpne den underliggende rapporten.  
 - Som standard er ikke datasettet ditt planlagt for oppdatering. Du kan endre oppdateringsplanen eller prøve å oppdatere det ved behov ved hjelp av **Oppdater nå**. Hvis du vil ha mer informasjon, kan du se [Konfigurere planlagt oppdatering](/power-bi/refresh-scheduled-refresh).
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Business Central og Power BI](admin-powerbi.md)  
 [Oversikt over komponent og arkitektur for Power BI-integrering for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  

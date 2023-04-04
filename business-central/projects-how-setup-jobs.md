@@ -1,27 +1,21 @@
 ---
-title: Konfigurere prosjekter, priser og prosjektbokføringsgrupper
-description: Beskriver hvordan du definerer generell prosjektinformasjon og definerer priser for prosjektvarer, ressurser og finanskonti og prosjektbokføringsgrupper.
+title: 'Konfigurere prosjekter, priser og prosjektbokføringsgrupper'
+description: 'Beskriver hvordan du definerer generell prosjektinformasjon og definerer priser for prosjektvarer, ressurser og finanskonti og prosjektbokføringsgrupper.'
 author: edupont04
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: project management
-ms.search.form: 211, 463, 1012
+ms.search.form: '211, 463, 1012'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4e768b9cdcf4b6a7e32ee26a74a876604bad614f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9535627"
 ---
-# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Konfigurere prosjekter, priser og prosjektbokføringsgrupper
+# Konfigurere prosjekter, priser og prosjektbokføringsgrupper
 
 Som prosjektleder kan du sette opp prosjekter som definerer alle prosjekter du administrerer i [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Prosjektoppsett** må du angi hvordan du vil bruke bestemte prosjektfunksjoner.
 
 For hver jobb angir du deretter individuelle jobbkort med informasjon om priser for prosjektvarer, prosjektressurser og finanskonti, og må du definere prosjektbokføringsgrupper.
 
-## <a name="to-set-general-information-for-jobs"></a>Slik angir du generell informasjon for prosjekter
+## Slik angir du generell informasjon for prosjekter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektoppsett** og velg den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -29,7 +23,7 @@ For hver jobb angir du deretter individuelle jobbkort med informasjon om priser 
 > [!NOTE]
 > Feltet **Bruk forbrukskobling som standard** angir om prosjektposter er koblet til prosjektplanleggingslinjer som standard. Velg feltet hvis du vil bruke denne innstillingen på alle nye prosjekter du oppretter. Du kan aktivere eller deaktivere sporing av prosjektforbruk for et bestemt prosjekt ved å endre verdien i feltet **Bruk forbrukskobling** på det enkelte prosjektkortet. Konsekvensene forklares i delen nedenfor.
 
-### <a name="to-set-up-job-usage-tracking"></a>Slik konfigurerer du sporing av prosjektforbruk
+### Slik konfigurerer du sporing av prosjektforbruk
 
 Når du arbeider på et prosjekt, vil du kanskje vite hvordan forbruket forløper seg i forhold til planen. Du kan enkelt gjøre dette ved å opprette en kobling mellom jobbplanleggingslinjene og det faktiske forbruket. Dette lar deg spore kostnader og enkelt se hvor mye arbeid som gjenstår. Linjetypen for prosjektplanlegging er som standard *Budsjett*, men bruk av linjetypen **Både Budsjett og Fakturerbar** har lignende virkning.
 
@@ -49,14 +43,14 @@ If job usage tracking is not enabled and the **Line Type** field on the job jour
 -->
 
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Slik definerer du priser for ressurser, varer og finanskonti for jobber
+## Slik definerer du priser for ressurser, varer og finanskonti for jobber
 
 > [!NOTE]
 > I lanseringsbølge 2 for 2020 lanserte vi nye fremgangsmåter for å definere og håndtere priser og rabatter. Hvis du er en ny kunde, bruker du den nye opplevelsen. Hvis du er en eksisterende kunde, vil din bruk av den nye funksjonen avhenge av om administratoren har aktivert funksjonsoppdateringen **Ny salgsprisopplevelse** i **Funksjonsstyring**. Hvis du vil ha mer informasjon, kan du se [Aktivering av kommende funksjoner på forhånd](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
 Du kan definere priser for varene, ressursene og finanskontiene som er relatert til en jobb. 
 
-#### <a name="current-experience"></a>[Nåværende opplevelse](#tab/current-experience)
+#### [Nåværende opplevelse](#tab/current-experience)
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
 2. Velg jobben, og velg deretter handlingen **Ressurs**, **Vare** eller **Finanskonto**.
@@ -70,14 +64,14 @@ Tabellen nedenfor viser hvordan opplysningene i de valgfrie feltene vil bli bruk
 |**Prosjektvarer**|Feltene **Prosjektoppgavenr.**, **Valutakode** og **Linjerabatt-%**. Verdien i feltet **Salgspris** for varen blir brukt på prosjektplanleggingslinjene og i prosjektkladder når du angir denne varen. Merk at denne prisen overstyrer alltid den vanlige kundeprisen (funksjonen for "beste pris") for varer. Hvis du vil bruke de vanlige kundeprismekanismene, må du ikke opprette prosjektvarepriser for prosjektet.|
 |**Finanskonti**|Informasjonen i feltene **Prosjektoppgavenr.**, **Arbeidstype**, **Valutakode**, **Linjerabatt-%** og **Enhetskost** blir brukt på prosjektplanleggingslinjene og i prosjektkladdene når denne finanskontoen angis og legges til i et prosjekt. Verdien i feltet **Salgspris** for finansprosjektutgiften blir brukt på prosjektplanleggingslinjene og i prosjektkladder når denne finanskontoen angis.|
 
-#### <a name="new-experience"></a>[Ny opplevelse](#tab/new-experience)
+#### [Ny opplevelse](#tab/new-experience)
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
 2. Velg det aktuelle prosjektet, og velg deretter handlingen **Salgsprislister**.
 
 ---
 
-## <a name="to-set-up-job-posting-groups"></a>Slik definerer du prosjektbokføringsgrupper
+## Slik definerer du prosjektbokføringsgrupper
 
 Ett aspekt ved prosjektplanlegging er å bestemme hvilke bokføringskontoer som skal brukes for prosjektkostnader. Du må definere konti for bokføring for hver prosjektbokføringsgruppe for å kunne bokføre prosjekter. En bokføringsgruppe representerer en kobling mellom jobben og hvordan den skal behandles i finans. Når du oppretter en jobb, angir du en bokføringsgruppe, og hver oppgave du oppretter for prosjektet, knyttes som standard til denne bokføringsgruppen. Når du oppretter oppgaver, kan du imidlertid overstyre standardinnstillingen og velge en bokføringsgruppe som er mer hensiktsmessig.  
 
@@ -105,9 +99,9 @@ Ett aspekt ved prosjektplanlegging er å bestemme hvilke bokføringskontoer som 
 | **Konto for ført kost** |Utgiftskontoen som inneholder de førte kostbeløpene for prosjektet. Dette er som regel en debitutgiftskonto. |
 | **Konto for ført salg** |Inntektskontoen som inneholder ført inntekt for prosjektet. Dette er som regel en kreditinntektskonto. |
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/set-up-jobs-resources/)
+## Se relatert [Microsoft-opplæring](/training/paths/set-up-jobs-resources/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere prosjektstyring](projects-setup-projects.md)  
 [Video: Opprett et prosjekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

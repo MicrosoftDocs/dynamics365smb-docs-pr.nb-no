@@ -6,25 +6,27 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: contacts, Microsoft 365
-ms.search.form: 6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311
-ms.date: 04/01/2021
+ms.search.keywords: 'contacts, Microsoft 365'
+ms.search.form: '6700, 5320, 5300, 5301, 5302, 5303, 5304, 5305, 5306, 5307, 5308, 5309, 5310, 5311'
+ms.date: 03/17/2023
 ms.author: bholtorf
-ms.openlocfilehash: 571dce9d79532cb3659ec952a585764af78c5161
-ms.sourcegitcommit: 93f30ce3349233cbcd03f300e74b654b49fa5518
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 05/24/2022
-ms.locfileid: "8799881"
 ---
-# <a name="synchronize-contacts-in-business-central-with-contacts-in-microsoft-outlook"></a>Synkronisere kontakter i Business Central med kontakter i Microsoft Outlook
+# Synkronisere kontakter i Business Central med kontakter i Microsoft Outlook
 
 Du kan opprette en kontaktsynkronisering slik at kontaktene i [!INCLUDE[prod_short](includes/prod_short.md)] får de samme opplysningene som kontaktene i Microsoft Outlook. Hvis du for eksempel er selger, kan du arbeide i Outlook og [!INCLUDE[prod_short](includes/prod_short.md)] samtidig. Hvis kontaktene er de samme begge steder, er arbeidet mer enkelt.  
 
 Som standard beholdes kontaktene du synkroniserer, i en **Business Central**-mappe i favorittene i Mappe-ruten i Outlook. Business Central-mappen kan gjøre det enklere å identifisere hvilke kontakter du skal synkronisere. Du kan angi at filtre bare skal synkronisere bestemte kontakter fra [!INCLUDE[prod_short](includes/prod_short.md)] til Outlook. Når du har opprettet synkroniseringen, kan du synkronisere manuelt eller automatisere prosessen for å synkronisere etter en tidsplan.  
 
-## <a name="set-up-synchronization"></a>Definere synkronisering
-Du definerer hvordan du vil synkronisere kontaktene med Outlook på siden **Konfigurasjon av Exchange-synkronisering** i [!INCLUDE[prod_short](includes/prod_short.md)]. Som et krav må bruker profilen din i [!INCLUDE[prod_short](includes/prod_short.md)] angi e-postkontoen din for Microsoft 365. Du kan kontrollere denne innstillingen i delen **Microsoft 365-godkjenning** av brukerprofilen din i **Brukere**-listen. 
+## Forutsetninger
+
+- Brukerprofilen i [!INCLUDE[prod_short](includes/prod_short.md)] må angi e-postkontoen for Microsoft 365.
+
+  Du kan kontrollere denne innstillingen i delen **Microsoft 365-godkjenning** av brukerprofilen din i **Brukere**-listen.
+- Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du opprette kontaktsynkronisering som beskrevet i [Definer kontaktsynkronisering med Outlook for Business Central On-Premises](admin-contact-sync-setup-onprem.md)
+
+## Definere synkronisering
+
+Du definerer hvordan du vil synkronisere kontaktene med Outlook på siden **Konfigurasjon av Exchange-synkronisering** i [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 På siden **Konfigurasjon av Exchange-synkronisering** kan du validere at tilkoblingen til Exchange fungerer, og deretter definere kontaktsynkronisering. Fra siden **Konfigurasjon av Exchange-synkronisering** kan du åpne siden **Oppsett for synkronisering av kontakt** og starte synkroniseringen. Du kan også angi et filter for å angi hvilke kontakter som skal synkroniseres. Du kan for eksempel filtrere på navn, type, selskap og så videre. Du kan også endre standardnavnet på mappen i Outlook som kontaktene skal synkroniseres til.  
 
@@ -32,7 +34,8 @@ Hver av kollegaene kan også konfigurere sin egen Exchange-synkronisering og def
 
 Når du har opprettet synkronisering, kan du synkronisere endringene i kontakten manuelt, eller du kan automatisere prosessen ved å opprette en prosjektkøpost. Hvis du vil ha mer informasjon om automatisering, kan du se neste avsnitt i denne artikkelen.
 
-### <a name="automate-synchronization"></a>Automatiser synkronisering
+### Automatiser synkronisering
+
 Du kan opprette en prosjektkøpost som skal synkronisere kontaktene i henhold til en plan du definerer. Hvis du vil ha mer informasjon, kan du se [Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md). 
 
 Følgende tabell viser innstillingene på siden **Postkort for jobbkø** som er for synkronisering av kontakter:
@@ -42,7 +45,8 @@ Følgende tabell viser innstillingene på siden **Postkort for jobbkø** som er 
 |Objekttype som skal kjøres|Kodeenhet|
 |Objekt-ID som skal kjøres|6700|
 
-## <a name="synchronize-contacts"></a>Synkronisere kontakter
+## Synkronisere kontakter
+
 Hvis du er vant med å arbeide med kontakter i [!INCLUDE[prod_short](includes/prod_short.md)], vil du synes det er enkelt å synkronisere manuelt fra **Kontakter**-listen når det passer deg. Du kan synkronisere kontaktene på to måter:
 
 * **Synkroniser med Microsoft 365**
@@ -58,7 +62,8 @@ I begge tilfeller synkroniseres bare kontakter fra Outlook hvis de har utfylt de
 > [!NOTE]
 > Hvis du sletter en kontakt i Outlook, men beholder den i [!INCLUDE[prod_short](includes/prod_short.md)], gjenopprettes kontakten i Outlook neste gang du synkroniserer. 
 
-## <a name="see-also"></a>Se også
+## Se også
+
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Finans](finance.md)  
 [Salg](sales-manage-sales.md)  

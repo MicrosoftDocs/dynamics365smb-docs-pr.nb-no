@@ -7,18 +7,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: integration, synchronize, map, Sales
-ms.search.forms: 9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250
+ms.search.keywords: 'integration, synchronize, map, Sales'
+ms.search.forms: '9980, 5341, 5349, 5330, 1817, 5342, 5337, 5336, 5331, 5343, 5334, 5346, 5348, 5329, 5380, 5353, 5381, 5351, 5333, 5360, 5373, 5371, 5340, 5345, 5362, 1313, 5361, 1876, 5339, 5338, 5335, 5332, 6250'
 ms.date: 09/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: 46055056fc17b4997b5e49ccefe8cd104bef0a6d
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585868"
 ---
-# <a name="use-dynamics-365-sales-from-business-central"></a>Bruk Dynamics 365 Sales fra Business Central
+# Bruk Dynamics 365 Sales fra Business Central
 Hvis du bruker Dynamics 365 Sales for Customer Engagement, kan du dra nytte av sømløs integrering i kundeemne-til-kontanter-prosessen med [!INCLUDE[prod_short](includes/prod_short.md)] for serverdelaktiviteter som å behandle bestillinger, håndtering av lager og gjøre finansene.
 
 Før du kan bruke integrasjonsfunksjonene, må systemansvarlig sette opp tilkoblingen og definere brukere i [!INCLUDE[crm_md](includes/crm_md.md)]. Hvis du vil ha mer informasjon, kan du se [Integrere med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).
@@ -35,7 +29,7 @@ Og omvendt kan ordrebehandlere i [!INCLUDE[prod_short](includes/prod_short.md)] 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] integreres bare med [!INCLUDE[crm_md](includes/crm_md.md)]. Andre programmer i Dynamics 365 som endrer standard arbeidsflyt eller datamodell i [!INCLUDE[crm_md](includes/crm_md.md)], for eksempel Project Service Automation, kan bryte integrasjonen mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[crm_md](includes/crm_md.md)].
 
-## <a name="coupling-records"></a>Koblingsposter
+## Koblingsposter
 Assistert oppsett-veiledningen lar deg velge dataene som skal synkroiseres. Senere kan du også definere synkronisering for bestemte poster. Dette omtales som *kobling*. Du kan for eksempel koble en bestemt konto i [!INCLUDE[crm_md](includes/crm_md.md)] med en bestemt kunde i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne delen beskriver hva du må ta hensyn til når du kobler poster.
 
 Hvis du for eksempel vil vise kontoer i [!INCLUDE[crm_md](includes/crm_md.md)] som kunder i [!INCLUDE[prod_short](includes/prod_short.md)], må du koble to typer poster. For å gjøre det går du til **Kunder**-listesiden i [!INCLUDE[prod_short](includes/prod_short.md)] og bruker handlingen **Konfigurer kobling**. Deretter angir du hvilke [!INCLUDE[prod_short](includes/prod_short.md)]-kunder som skal samsvare med hvilke konti i [!INCLUDE[crm_md](includes/crm_md.md)].
@@ -57,14 +51,14 @@ I noen tilfeller må du koble enkelte datasett før andre datasett, som vist i f
 
 I [!INCLUDE[crm_md](includes/crm_md.md)] avheger salgsordrer av informasjon som kunder, målenheter, valutaer, kundeprisgrupper og varer og/eller ressurser. For at integrasjonen med salgsordrer skal fungere, må du koble kunder, målenheter, valutaer, kundeprisgrupper og varer og/eller ressurser.
 
-## <a name="fully-synchronizing-records"></a>Fullstendig synkronisering av oppføringer
+## Fullstendig synkronisering av oppføringer
 På slutten av den assisterte oppsettguiden kan du velge handlingen **Kjør full synkronisering** for å starte synkronisering av alle [!INCLUDE[prod_short](includes/prod_short.md)]-poster med alle relaterte poster i [!INCLUDE[crm_md](includes/crm_md.md)]. På siden **Gjennomgang av full synkronisering for Dynamics 365 Sales** velger du **Start**-handlingen. Full synkronisering kan ta litt tid å utføre, men du kan fortsette å arbeide i [!INCLUDE[prod_short](includes/prod_short.md)] når den kjøres i bakgrunnen.
 
 For å kontrollere fremdriften for individuelle prosjekter i en fullstendig synkronisering, velger du en oversikt for å vise detaljer, på siden **Gjennomgang av full synkronisering for Dynamics 365 Sales**. Oppdater siden for å oppdatere statusen under synkronisering.
 
 Fra siden **Konfigurasjon for Microsoft Dynamics 365-tilkobling** kan du få detaljer om fullstendig synkronisering når som helst. Herfra kan du også åpne **Tilordninger for integreringstabell**-siden for å se detaljer om tabellene i [!INCLUDE[prod_short](includes/prod_short.md)] og i Sales som må synkroniseres.
 
-## <a name="handling-sales-order-data"></a>Håndtere ordredata
+## Håndtere ordredata
 Ordrer som personer sender i [!INCLUDE[crm_md](includes/crm_md.md)], blir automatisk overført til [!INCLUDE[prod_short](includes/prod_short.md)] hvis du merker av for **Opprett ordrer automatisk** på siden **Tilkoblingsoppsett for Microsoft Dynamics 365**.
 Du kan eventuelt manuelt konvertere sendte ordrer fra [!INCLUDE[crm_md](includes/crm_md.md)] ved hjelp av handlingen **Opprett i [!INCLUDE[prod_short](includes/prod_short.md)]**-handlingen som er tilgjengelig på siden **Ordrer – Dynamics 365 for Sales**.
 For slike ordrer blir **Navn**-feltet i den opprinnelige ordren overført og tilordnet feltet **Eksternt dokumentnummer** på ordren i [!INCLUDE[prod_short](includes/prod_short.md)].
@@ -83,7 +77,7 @@ Oppdateringer av felt i salgsordrehoder, for eksempel feltene Siste leveringsdat
 
 > [!VIDEO https://go.microsoft.com/fwlink/?linkid=2098170]
 
-## <a name="handling-sales-quotes-data"></a>Håndtere tilbudsdata
+## Håndtere tilbudsdata
 Tilbud som aktiveres i [!INCLUDE[crm_md](includes/crm_md.md)], blir overført til [!INCLUDE[prod_short](includes/prod_short.md)] hvis du merker av for **Behandle tilbud automatisk** på siden **Tilkoblingsoppsett for Microsoft Dynamics 365**.
 Du kan eventuelt manuelt konvertere aktiverte tilbud fra [!INCLUDE[crm_md](includes/crm_md.md)] ved hjelp av handlingen **Behandle i [!INCLUDE[prod_short](includes/prod_short.md)]**-handlingen, som er tilgjengelig på siden **Tilbud – Dynamics 365 Sales**.
 For slike tilbud blir **Navn**-feltet i det opprinnelige tilbudet overført og tilordnet feltet **Eksternt dokumentnummer** på ordren i [!INCLUDE[prod_short](includes/prod_short.md)]. Også **Gjelder til**-feltet for tilbudet overføres og tilordnes til **Gyldig til-dato for tilbud**-feltet for tilbudet i [!INCLUDE[prod_short](includes/prod_short.md)].  
@@ -92,12 +86,12 @@ Tilbud går gjennom mange revisjoner når de ferdigstilles. Både manuell og aut
 
 Når du velger **Behandle** i [!INCLUDE[prod_short](includes/prod_short.md)] for et tilbud som har statusen **Vunnet**, opprettes en ordre i [!INCLUDE[prod_short](includes/prod_short.md)] bare hvis en tilsvarende ordre sendes i [!INCLUDE[crm_md](includes/crm_md.md)]. Ellers blir tilbudet bare frigitt i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis en tilsvarende ordre sendes i [!INCLUDE[crm_md](includes/crm_md.md)] senere, og det opprettes en ordre fra den, oppdateres **Tilbudsnr.** på ordren og tilbudet arkiveres.
 
-## <a name="handling-posted-sales-invoices-customer-payments-and-statistics"></a>Håndtere bokførte salgsfakturaer, kundebetalinger og statistikk
+## Håndtere bokførte salgsfakturaer, kundebetalinger og statistikk
 Når du har fullført ordre, opprettes fakturaer for den. Når du fakturerer ordre, kan du overføre den bokførte salgsfakturaen til [!INCLUDE[crm_md](includes/crm_md.md)] hvis du velger **Opprett faktura i [!INCLUDE[crm_md](includes/crm_md.md)]**-avmerkingsboksen på siden **Bokført salgsfaktura**. Bokførte fakturaer overføres til [!INCLUDE[crm_md](includes/crm_md.md)] med statusen **Fakturert**.
 
 Når kundebetalingen er mottatt for salgsfakturaen i [!INCLUDE[prod_short](includes/prod_short.md)], endres salgsfakturastatusen til **Betalt** med **Statusårsak**-feltet satt til **Delvis**, hvis delvis betalt, eller **Fullstendig** hvis fullstendig betalt, når du velger **Oppdater kontostatistikk**-handlingen på kundesiden i [!INCLUDE[prod_short](includes/prod_short.md)]. **Oppdater kontostatistikk**-funksjonen oppdaterer også verdier, for eksempel feltene **Saldo** og **Totalt salg** i **[!INCLUDE[prod_short](includes/prod_short.md)]-kontostatistikk**-faktaboksen i [!INCLUDE[crm_md](includes/crm_md.md)]. Alternativt kan du la de planlagte jobbene, kundestatistikken og POSTEDSALESINV-INV kjøre begge disse prosessene automatisk i bakgrunnen. 
 
-## <a name="handling-sales-prices"></a>Håndtere salgspriser
+## Håndtere salgspriser
 > [!NOTE]
 > I lanseringsbølge 2 i 2020 lanserte vi strømlinjeformede prosesser for å definere og håndtere priser og rabatter. Hvis du er en ny kunde som bruker denne versjonen, bruker du den nye opplevelsen. Hvis du er en eksisterende kunde, vil din bruk av den nye funksjonen avhenge av om administratoren har aktivert funksjonsoppdateringen **Ny salgsprisopplevelse** i **Funksjonsstyring**. Hvis du vil ha mer informasjon, kan du se [Aktivering av kommende funksjoner på forhånd](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -106,7 +100,7 @@ Fremgangsmåten for å fullføre denne prosessen varierer avhengig av om adminis
 > [!NOTE]
 > Hvis standard prissynkronisering ikke fungerer for deg, anbefaler vi at du bruker funksjoner for integreringstilpassing. Hvis du vil ha mer informasjon, kan du se [Tilpasse integrering med Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration).
 
-#### <a name="current-experience"></a>[Nåværende opplevelse](#tab/current-experience/)
+#### [Nåværende opplevelse](#tab/current-experience/)
 I gjeldende prisopplevelse synkroniserer [!INCLUDE[prod_short](includes/prod_short.md)] salgspriser som 
 
 * Gjelder for alle kunder. Standard salgsprislister opprettes basert på prisen i **Enhetspris**-feltet på **Varekort**-siden for varene.
@@ -117,7 +111,7 @@ I gjeldende prisopplevelse synkroniserer [!INCLUDE[prod_short](includes/prod_sho
 
 :::image type="content" source="media/customer-price-group.png" alt-text="Siden Kundeprisgruppe.":::
 
-#### <a name="new-experience"></a>[Ny opplevelse](#tab/new-experience/)  
+#### [Ny opplevelse](#tab/new-experience/)  
 
 Den nye prisopplevelsen synkroniserer prislister som oppfyller følgende kriterier:
 
@@ -136,7 +130,7 @@ Du kan synkronisere prislister på siden **Salgsprisliste** ved å velge **Relat
 ---
 
 
-## <a name="see-also"></a>Se også
+## Se også
 [Integrere med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Forbindelser](marketing-relationship-management.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

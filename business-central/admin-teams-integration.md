@@ -6,25 +6,20 @@ ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork
+ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
 ms.date: 11/03/2022
 ms.author: jswymer
-ms.openlocfilehash: 0290a9224691bbcab8e3a7dbef185e1507a3b75a
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9744792"
 ---
-# <a name="managing-microsoft-teams-integration-with-prod_short"></a>Administrere Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
+
+# Administrere Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Denne artikkelen gir en oversikt over hva du kan gjøre som administrator for å styre Microsoft Teams-integrasjon med [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="in-microsoft-teams"></a>I Microsoft Teams
+## I Microsoft Teams
 
-### <a name="minimum-requirements"></a>Minstekrav
+### Minstekrav
 
 Denne delen beskriver minimumskravene for at [!INCLUDE [prod_short](includes/prod_short.md)]-appfunksjonene skal fungere i Teams.
 
@@ -47,7 +42,7 @@ Denne delen beskriver minimumskravene for at [!INCLUDE [prod_short](includes/pro
 
     Policyinnstillingen **Tillat URL-forhåndsvisninger** må være aktivert. Ellers kan ikke et kort genereres for [!INCLUDE [prod_short](includes/prod_short.md)]-koblinger som limes inn i en Teams-samtale. Hvis du vil ha mer informasjon om denne innstillingen, kan du se [Administrere meldingspolicyer i Teams](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the-prod_short-app-optional"></a>Administrere [!INCLUDE [prod_short](includes/prod_short.md)]-appen (valgfritt)
+### Administrere [!INCLUDE [prod_short](includes/prod_short.md)]-appen (valgfritt)
 
 Som Teams-administrator kan du behandle alle apper for organisasjonen, inkludert [!INCLUDE [prod_short](includes/prod_short.md)]-appen. Du kan godkjenne eller installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen for organisasjonen, hindre at brukere installerer appen, med mer.
 
@@ -56,9 +51,9 @@ Hvis du vil ha mer informasjon, kan du se følgende artikler i Microsoft Teams-d
 - [Behandle appene i administrasjonssenteret i Microsoft Teams](/MicrosoftTeams/manage-apps)
 - [Administrere policyer for appoppsett i Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-prod_short"></a>I [!INCLUDE [prod_short](includes/prod_short.md)]
+## I [!INCLUDE [prod_short](includes/prod_short.md)]
 
-### <a name="minimum-requirements"></a>Minstekrav
+### Minstekrav
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] versjon:
 
@@ -80,7 +75,7 @@ Hvis du vil ha mer informasjon, kan du se følgende artikler i Microsoft Teams-d
     
     Hvis du vil ha informasjon om tillatelser, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).
 
-## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Installer Business Central-appen ved hjelp av sentralisert distribusjon
+## Installer Business Central-appen ved hjelp av sentralisert distribusjon
 
 I Microsoft Teams-administrasjonssenteret konfigurerer du policyer for Teams-appkonfigurasjonspolicyer for organisasjonen. I Teams-administrasjonssenteret kan du bruke funksjonen for sentralisert distribusjon til å installere Business Central-appen i Teams for alle brukere i organisasjonen automatisk, bestemte grupper eller individuelle brukere.
 
@@ -104,18 +99,18 @@ I Microsoft Teams-administrasjonssenteret konfigurerer du policyer for Teams-app
 > [!IMPORTANT]
 > Det kan ta opptil 24 timer før appkonfigurasjonspolicyen tas i bruk, og appen distribueres til brukerne.
 
-## <a name="managing-privacy-and-compliance"></a>Administrere personvern og samsvar 
+## Administrere personvern og samsvar 
 
 Microsoft Teams gir omfattende kontroller for samsvar og håndtering av sensitive eller personlige data, inkludert data som er lagt til i chatter og kanaler av [!INCLUDE [prod_short](includes/prod_short.md)]-appen.
 
-### <a name="understanding-where-prod_short-cards-are-stored"></a>Forstå hvor [!INCLUDE [prod_short](includes/prod_short.md)]-kort lagres
+### Forstå hvor [!INCLUDE [prod_short](includes/prod_short.md)]-kort lagres
 
 Når et kort er sendt til en chat, blir kortet og feltene som vises på kortet, kopiert til Teams. Denne informasjonen er underlagt Teams-policyene for organisasjonen, for eksempel policyer for dataoppbevaring. Når du viser kortopplysninger, lagres ingen av dataene i detaljvinduet i Teams. Dataene forblir lagret i [!INCLUDE [prod_short](includes/prod_short.md)] og hentes bare av Teams når brukeren velger å vise detaljene. 
 
 - Hvis du vil vite mer om hvor Teams lagrer disse dataene, kan du se [Plasseringen av dataene i Microsoft Teams](/microsoftteams/location-of-data-in-teams).
 - Hvis du vil finne ut mer om oppbevaringspolicyer i Teams, kan du se [Oppbevaringspolicyer i Microsoft Teams](/microsoftteams/retention-policies).
 
-### <a name="restricting-sharing-of-cards"></a>Begrense deling av kort 
+### Begrense deling av kort 
 
 Du hindrer at bestemte brukere eller grupper sender kort til chatter eller kanaler ved å definere meldingspolicyer som deaktiverer innstillingen **URL-forhåndsvisning**. Hvis du vil ha mer informasjon om denne innstillingen, kan du se [Administrere meldingspolicyer i Teams](/microsoftteams/messaging-policies-in-teams). 
 
@@ -123,7 +118,7 @@ Du kan også bruke informasjonshindringer for å hindre at enkelt personer eller
 
 Funksjonene for hindring av tap av data i Microsoft 365 Security & Compliance Center kan ikke brukes spesifikt på kort. Men de kan brukes på chatmeldingene som inneholder kortene. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
-### <a name="responding-to-data-requests"></a>Svare på dataforespørsler
+### Svare på dataforespørsler
 
 Du tillater at teammedlemmer og teameiere sletter meldinger som inneholder sensitive kort ved å definere meldingspolicyer, for eksempel **Eiere kan slette sendte meldinger** og **Brukere kan slette sendte meldinger**. Hvis du vil ha mer informasjon, kan du se [Administrere meldingspolicyer i Teams](/microsoftteams/messaging-policies-in-teams).
 
@@ -131,7 +126,7 @@ Funksjonene for innholdssøk og eDiscovery-samsvar i Microsoft 365 Security & Co
 
 Ettersom kortdata i Teams er en kopi av data i [!INCLUDE [prod_short](includes/prod_short.md)], kan du også bruke [!INCLUDE [prod_short](includes/prod_short.md)]-funksjoner til å eksportere kundens data hvis du blir bedt om det. Hvis du vil ha mer informasjon om personvern i [!INCLUDE [prod_short](includes/prod_short.md)], kan du se [Vanlige spørsmål om personvern for Business Central-kunder](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
-## <a name="see-also"></a>Se også
+## Se også
 [Oversikt over [!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams-integrering](across-teams-overview.md)  
 [Installer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  
 [Vanlige spørsmål om Teams](teams-faq.md)  

@@ -1,23 +1,17 @@
 ---
 title: Lukk regnskapsår og regnskapsperioder
-description: Gir en oversikt over oppgavene for å lukke for eksempel et regnskapsår eller en regnskapsperiode, for eksempel å sørge for at dokumenter og kladder er bokført, og for å kontrollere banksaldoer.
+description: 'Gir en oversikt over oppgavene for å lukke for eksempel et regnskapsår eller en regnskapsperiode, for eksempel å sørge for at dokumenter og kladder er bokført, og for å kontrollere banksaldoer.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.search.form: 100
 ms.date: 08/18/2022
 ms.author: jswymer
-ms.openlocfilehash: a6b21fd03cbfebdefb102074e97121bf2187bf49
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605931"
 ---
-# <a name="closing-years-and-periods"></a>Avslutte år og perioder
+# Avslutte år og perioder
 
 På slutten av et regnskapsår er det en rekke administrative oppgaver som du må utføre, for eksempel å passe på at alle dokumenter og kladder bokføres, noe som sørger for at valutadataene er oppdatert, avslutte tablåer, og mye mer. De faktiske oppgavene avhenger av firmaet.
 
@@ -35,9 +29,9 @@ Tabellen nedenfor inneholder en oversikt over oppgaver som du vanligvis utfører
 | Avslutte regnskapsperioder og regnskapsår, overføre resultatregnskapssaldoer til balansekonti og bokføre avslutningsposten ved årsslutt. |[Avslutte tablåer](year-close-books.md) |
 | Skrive ut rapporter som kan hjelpe deg med å opprette årsregnskap. |[Forberede avslutningsoppgaver](year-prepare-close-statement.md) |
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
+## Se relatert [Microsoft-opplæring](/training/modules/close-fiscal-year-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbeide med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

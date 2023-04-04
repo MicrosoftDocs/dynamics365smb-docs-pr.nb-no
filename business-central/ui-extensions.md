@@ -14,6 +14,8 @@ Du kan endre [!INCLUDE[prod_short](includes/prod_short.md)] Online ved å instal
 
 ## Administrer apper
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Når du starter [!INCLUDE[prod_short](includes/prod_short.md)] for første gang, er noen apper allerede installert for deg. Over tid gjøres flere apper tilgjengelig for deg, og du kan deretter velge om du vil bruke appen eller ikke.
 
 Microsoft tilbyr for eksempel en app som kan gi integrering med PayPal Payments Standard. Denne utvidelsen er installert som standard. Hvis en annen utvidelse gjøres tilgjengelig som gir integrasjon med en annen betalingstjenesten, kan du installere den nye utvidelsen og deretter velger hvilke av de to tjenestene du vil bruke.  

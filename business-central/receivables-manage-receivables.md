@@ -6,17 +6,11 @@ ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: customer payment, debtor, balance due, AR
+ms.search.keywords: 'customer payment, debtor, balance due, AR'
 ms.date: 06/23/2021
 ms.author: edupont
-ms.openlocfilehash: 37aa7f341bd0a8f097e0ca9737bffd3d2cd4e507
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9534106"
 ---
-# <a name="managing-receivables"></a>Håndtere fordringer
+# Håndtere fordringer
 
 Et vanlig trinn i en hvilken som helst finansielle rytmen er å avstemme bankkonti, som krever at du bruker innkommende betalinger til kunden eller leverandøren poster for å lukke salgsfakturaer og kreditnotaer til innkjøp som betalt.
 
@@ -47,9 +41,9 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Definer en toleranse som avslutter systemet en faktura etter, selv om betalingen, inkludert alle rabatter, ikke fullt ut dekker beløpet på fakturaen.|[Arbeide med betalingstoleranser og toleransegrenser for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md)|
 | Forutse når betalinger foretas sent for salgsdokumenter. | [Utvidelsen Prognose for forsinket betaling](ui-extensions-late-payment-prediction.md) |
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 [Salg](sales-manage-sales.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

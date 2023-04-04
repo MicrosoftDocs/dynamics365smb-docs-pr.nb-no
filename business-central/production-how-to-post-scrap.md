@@ -7,7 +7,7 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: 99000823
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Bokføre vrak manuelt
@@ -24,6 +24,8 @@ Hvis det ikke produseres vrak i løpet av behandlingen, kan det angis i ferdigme
 3. I feltet **Vrakantall** angir du vrakantallet.  
 4. I feltet **Vrakkode** angir du vrakkoden.  
 5. Velg **Bokfør**-handlingen for å bokføre det angitte vraket per operasjon.  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
 ## Se også
 

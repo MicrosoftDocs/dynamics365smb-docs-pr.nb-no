@@ -1,24 +1,18 @@
 ---
 title: Håndter salgsmuligheter og kundeemner
-description: Beskriver håndtering av innkommende interessenter eller salgsmuligheter i Business Central, og tilknytningen av salgsmuligheten til en selger for å holde rede på potensielt salg.
+description: 'Beskriver håndtering av innkommende interessenter eller salgsmuligheter i Business Central, og tilknytningen av salgsmuligheten til en selger for å holde rede på potensielt salg.'
 documentationcenter: ''
 author: jswymer
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: relationship, prospect
-ms.search.forms: 5132, 5101, 5103, 5102, 5146, 5199, 5197, 5198, 5137, 5086, 5089, 5087, 5088, 5090, 5128, 5133, 5114, 5151, 5145, 5126, 5189, 5191, 5097, 5135, 5188, 5187, 5154, 5147, 5131, 9257, 5124, 782, 5130, 5123, 5127, 5174, 5125, 5115, 5112, 5111, 5110, 5109, 5149, 5169, 5190, 783, 505, 5118, 5072, 781, 5152, 5153, 5155, 5098, 5196, 5096, 5099, 9255, 5129, 5136
+ms.search.keywords: 'relationship, prospect'
+ms.search.forms: '5132, 5101, 5103, 5102, 5146, 5199, 5197, 5198, 5137, 5086, 5089, 5087, 5088, 5090, 5128, 5133, 5114, 5151, 5145, 5126, 5189, 5191, 5097, 5135, 5188, 5187, 5154, 5147, 5131, 9257, 5124, 782, 5130, 5123, 5127, 5174, 5125, 5115, 5112, 5111, 5110, 5109, 5149, 5169, 5190, 783, 505, 5118, 5072, 781, 5152, 5153, 5155, 5098, 5196, 5096, 5099, 9255, 5129, 5136'
 ms.date: 04/01/2021
 ms.author: jswymer
-ms.openlocfilehash: 2f797aa72591d9d6f62fedbf080a1261d0caf3a4
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8522862"
 ---
-# <a name="managing-sales-opportunities"></a>Håndtere salgsmuligheter
+# Håndtere salgsmuligheter
 Enhver innkommende interessent kan regnes som en salgsmulighet. Du kan opprette muligheter og tildele dem til en selger, slik at du kan holde oversikt over potensielt salg.
 
 Før du kan begynne å bruke administrasjon av muligheter, må du definere salgssykluser og salgssyklusfaser. Når du oppretter en salgsmulighet, bør du legge inn informasjon om kontakt, selger, salgssyklus og datoer, i tillegg til estimatene for salgsverdien for muligheten og sannsynligheten for at den blir vellykket.
@@ -31,7 +25,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Opprette salgsmuligheter fra kontaktene. |[Opprette salgsmuligheter](marketing-how-create-opportunities.md) |
 | Flytt en salgsmulighet gjennom salgssyklusen til fullføring. |[Behandle salgsmuligheter](marketing-processing-sales-opportunities.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 [Salg](sales-manage-sales.md)  
 [Opprette og administrere kontakter](marketing-contacts.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

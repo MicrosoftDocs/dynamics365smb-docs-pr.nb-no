@@ -127,6 +127,8 @@ Følgende skjer under bokføringsprosessen:
 * Bokfør forbruket av kildedokumentlinjene som ble plukket.
 * Hvis lokasjonen bruker hyller, oppretter bokføringen også lagerposter for bokføring av endringene i hylleantallet.
 
+[!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
+
 ## Slik registrerer du lagerflyttingen
 
 1. Åpne dokumentet du vil registrere en flytting for, på siden **Lagerflytting**.  

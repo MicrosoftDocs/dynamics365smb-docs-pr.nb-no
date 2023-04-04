@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment process, direct payment posting, reconcile payment, expenses, cash receipts
-ms.search.form: 389, 1290, 1294, 1287
+ms.search.keywords: 'payment process, direct payment posting, reconcile payment, expenses, cash receipts'
+ms.search.form: '389, 1290, 1294, 1287'
 ms.date: 06/22/2022
 ms.author: bholtorf
-ms.openlocfilehash: 9ea8db70d5d9392977db2a3b418cccb7d8fa3f77
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605742"
 ---
-# <a name="reconcile-payments-using-automatic-application"></a>Avstemme betalinger ved hjelp av automatisk utligning
+# Avstemme betalinger ved hjelp av automatisk utligning
 
 Siden **Betalingsavstemmingskladd** angir betalinger, enten innkommende eller utgående, som er registrert som transaksjoner på den elektroniske bankkontoen eller betalingstjenesten. Du kan utligne betalingene mot relaterte åpne kunde-, leverandør- og bankkontoposter. Fyll ut linjene i kladden ved å importere et bankkontoutdrag som en bankfeed eller fil, eller ved å registrere transaksjoner manuelt som foretas via betalingstjenesten.
 
@@ -49,7 +43,7 @@ For hver kladdelinje som representerer en betaling på siden **Betalingsavstemmi
 > [!NOTE]  
 > Du kan starte import av banktransaksjoner samtidig som du åpner siden **Betalingsavstemmingskladd** for en eksisterende kladd. Følgende prosedyre beskriver hvordan du importerer banktransaksjoner til siden **Betalingsavstemmingskladd** etter at du har opprettet en ny kladd.
 
-## <a name="to-reconcile-payments-using-automatic-application"></a>Avstemme betalinger ved hjelp av automatisk utligning
+## Avstemme betalinger ved hjelp av automatisk utligning
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Betalingsavstemmingskladder** og velg den relaterte koblingen.
 2. Hvis du vil arbeide i en ny kladd for betalingsavstemming, velger du handlingen **Ny kladd**.
 3. På siden **Betalingsbankkonto - oversikt** velger du bankkontoen du vil utligne betalinger for, og deretter velger du **OK**-knappen.
@@ -94,9 +88,9 @@ Du kan sammenligne verdien i feltet **Saldo på bankkonto etter bokføring** med
 > [!NOTE]  
 >   Hvis du ikke vil avstemme en bankkonto fra siden **Betalingsavstemmingskladd**, må du bruke siden **Bankkontoavstemming**. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md).
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/use-journals-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/modules/use-journals-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  

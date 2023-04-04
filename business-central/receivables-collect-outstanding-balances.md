@@ -1,33 +1,27 @@
 ---
 title: Innkreve utestående saldi
-description: Finn ut hvordan du kan minne kundene på utestående betalinger. Send et kundeutdrag, utstede en purring eller send en rentenota.
+description: 'Finn ut hvordan du kan minne kundene på utestående betalinger. Send et kundeutdrag, utstede en purring eller send en rentenota.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: payment due, debt, overdue, fee, charge, reminder
-ms.search.form: 6, 25, 440, 443, 448, 452
+ms.search.keywords: 'payment due, debt, overdue, fee, charge, reminder'
+ms.search.form: '6, 25, 440, 443, 448, 452'
 ms.date: 02/09/2022
 ms.author: edupont
-ms.openlocfilehash: fb3616fdffc340ec8d4a327cfc2fefd577b78af1
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9528118"
 ---
-# <a name="collect-outstanding-balances"></a>Innkreve utestående saldi
+# Innkreve utestående saldi
 
 Behandling av fordringer omfatter å kontrollere om forfalte beløp betales til riktig tid. Hvis kunder har forfalte betalinger, kan du først sende **Kontoutdrag**-rapporten som en påminnelse. Du kan eventuelt utstede purringer.
 
 Du kan bruke purringer til å minne kunder på forfalte beløp. Du kan også bruke purringer til å beregne renter eller gebyrer og inkludere dem i purringen. Bruk rentenotaer hvis du vil debitere kunder for renter eller gebyrer uten å minne dem på forfalte beløp.
 
-## <a name="statements"></a>Utdrag
+## Utdrag
 
 Fra kundekortet kan du opprette et utdrag med kundens transaksjoner med deg. Deretter sender du kunden den genererte PDF-filen. Du kan også bruke **Kontoutdrag**-rapporten til å sende kundene en oversikt over forretningene med deg. Kontoutdraget kan sendes til Excel for videre behandling.  
 
-### <a name="to-send-the-customer-statement-report"></a>Sende Kontoutdrag-rapporten
+### Sende Kontoutdrag-rapporten
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 10.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kontoutdrag** og velg den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -36,11 +30,11 @@ Fra kundekortet kan du opprette et utdrag med kundens transaksjoner med deg. Der
 > [!NOTE]
 > Hvis du bruker flere valutaer, skrives Kontoutdrag-rapporten alltid ut i kundens valuta. Den siste datoen i perioden brukes også som utdragsdato og datoen for aldersfordeling hvis aldersfordeling er inkludert.
 
-## <a name="reminders"></a>Purringer
+## Purringer
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="finance-charges"></a>Renter
+## Renter
 
 Når en kunde ikke betaler innen forfallsdatoen, kan du beregne renter automatisk og legge dem til de forfalte beløpene på kundekontoen. Du kan informere kunder om tilleggsgebyr ved å sende rentenotaer.  
 
@@ -55,7 +49,7 @@ Du kan endre rentenotaene etter at du har opprettet dem. Teksten som vises på s
 
 Når du har opprettet rentenotaer og foretatt eventuelle nødvendige endringer, kan du skrive ut kontrollrapportene eller utstede rentenotaene, vanligvis via e-post.
 
-### <a name="to-create-a-finance-charge-memo-manually"></a>Slik oppretter du en rentenota manuelt
+### Slik oppretter du en rentenota manuelt
 
 Rentenotaer fungerer på samme måte som fakturaer. Du kan fylle ut hodet manuelt og angi at linjene skal fylles ut automatisk, eller du kan angi at det automatisk skal opprettes rentenotaer for alle kunder.
 
@@ -68,7 +62,7 @@ Rentenotaer fungerer på samme måte som fakturaer. Du kan fylle ut hodet manuel
     > Selv om de er oppført, vil valg av **Betaling** og **Kreditnota** som **Dokumenttype**-filtre ikke ha noen virkning fordi funksjonen **Foreslå rentenotalinjer** bare behandler positive beløp.
 5.  Velg **OK** for å starte kjørselen.  
 
-### <a name="to-update-finance-charge-memo-texts"></a>Slik oppdaterer du rentenotatekst  
+### Slik oppdaterer du rentenotatekst  
 Av og til vil du kanskje endre start- og slutteksten som du har definert for rentenotabetingelsene. Hvis du gjør dette etter at du har opprettet, men ikke utstedt rentenotaer, kan du angi at notaene skal oppdateres med den endrede teksten.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 3.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rentenota**, og velg deretter den relaterte koblingen.  
@@ -76,7 +70,7 @@ Av og til vil du kanskje endre start- og slutteksten som du har definert for ren
 3. På siden **Oppdater rentenotatekst** kan du angi et filter hvis du vil oppdatere flere notaer.
 4. Velg **OK** for å oppdatere start- og slutteksten.  
 
-### <a name="to-issue-finance-charge-memos"></a>Utstede rentenotaer
+### Utstede rentenotaer
 Når du har opprettet rentenotaer og foretatt eventuelle nødvendige endringer, kan du skrive ut kontrollrapportene eller utstede rentenotaene.
 
 Når en purring er utstedt, bokføres postene i henhold til dine spesifikasjoner på siden **Rentenotabetingelser**. Denne spesifikasjonen angir om renter og/eller tilleggsgebyrer skal bokføres på kundens konto og i Finans. Oppsettet på siden **Bokføringsgrupper - kunde** angir hvilke konti det skal bokføres på.
@@ -98,24 +92,24 @@ I tillegg kan utstedelsen av rentenotaen resultere i mva-poster.
 
 Rentenotaen blir enten skrevet ut eller sendt til en bestemt e-postadresse som et PDF-vedlegg.
 
-### <a name="to-cancel-an-issued-finance-charge-memo"></a>Avbryte den utstedte rentenotaen.
+### Avbryte den utstedte rentenotaen.
 Hvis rentenotaer ble utstedt med en feil, kan du annullere dem før de sendes ut. Du kan gjøre dette enten én om gangen eller som en bunke.
 1. På siden **Utstedte rentenotaer** velger du én eller flere linjer for de utstedte rentenotaene du vil avbryte, og deretter velger du handlingen **Avbryt**.
 2. På siden **Avbryt utstedte rentenotaer** fyller du ut feltene etter behov, og deretter velger du **OK**.
 
-### <a name="to-view-reminder-and-finance-charge-entries"></a>Slik viser du purre- og renteposter  
+### Slik viser du purre- og renteposter  
 Når du utsteder en purring, opprettes en purrepost på siden **Purre-/renteposter** for hver purrelinje som inneholder en kundepost. Du kan deretter få en oversikt over hvilke purreposter som er opprettet for en bestemt kunde.    
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 5.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.  
 2. Åpne det aktuelle kundekortet, og velg deretter handlingen **Poster**.
 3. På siden **Kundeposter** velger du linjen med posten du vil se purrepostene for, og deretter velger du handlingen **Purre-/renteposter**.
 
-## <a name="multiple-interest-rates"></a>Flere rentesatser
+## Flere rentesatser
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Hvis du vil ha mer informasjon, kan du se [Angi flere rentesatser](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Definer betingelser og grader for purringer](finance-setup-reminders.md)  
 [Definer rentenotabetingelser](finance-setup-finance-charges.md)  

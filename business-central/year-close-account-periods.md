@@ -6,22 +6,16 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: year closing, close accounting period, close fiscal year, bank account detailed trial balance
+ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
 ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
-ms.openlocfilehash: 944c2e9a9955a38b079234cc3ef9fb365407a97a
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8514286"
 ---
-# <a name="close-accounting-periods"></a>Lukke regnskapsperioder
+# Lukke regnskapsperioder
 
 Når et regnskapsår er over, må du lukke periodene som utgjør regnskapsåret.
 
-## <a name="to-close-accounting-periods"></a>Slik lukker du regnskapsperioder
+## Slik lukker du regnskapsperioder
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Regnskapsperioder**, og velg deretter den relaterte koblingen.
 2. På siden **Regnskapsperioder** velger du handling **Lukk år**.
@@ -38,7 +32,7 @@ Selv om et regnskapsår er avsluttet, kan du bokføre finansposter i det. Posten
 
 Når et regnskapsår er avsluttet, må du lukke resultatkontiene, og overføre årets resultat til resultatkontoen i balansen. Du kan gjenta dette hver gang du bokfører til det lukkede regnskapsåret.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Avslutte tablåer](year-close-books.md)  
 [Bokføre avslutningsposten for årsslutt](year-how-post-year-end-close-entry.md)  

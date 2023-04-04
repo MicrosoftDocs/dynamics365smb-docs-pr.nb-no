@@ -1,23 +1,17 @@
 ---
 title: Oversikt over oppgaver for å behandle leverandørgjeld
-description: Gir en oversikt over oppgavene for å behandle leverandørgjeld, for eksempel betale kreditorer eller utligne utgående betalinger mot poster for å lukke fakturaer eller kreditnotaer.
+description: 'Gir en oversikt over oppgavene for å behandle leverandørgjeld, for eksempel betale kreditorer eller utligne utgående betalinger mot poster for å lukke fakturaer eller kreditnotaer.'
 author: edupont04
 ms.topic: overview
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: vendor payment, creditor, debt, balance due, AP
-ms.search.form: 161, 254, 256, 347, 574, 599, 9002
+ms.search.keywords: 'vendor payment, creditor, debt, balance due, AP'
+ms.search.form: '161, 254, 256, 347, 574, 599, 9002'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: c3049cc4dd488a7ff7648d2a11d0371ac463daa6
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531445"
 ---
-# <a name="managing-payables"></a>Administrere skyldige beløp
+# Administrere skyldige beløp
 
 En viktig del av håndtering av leverandørgjeld er å betale dine leverandører eller refundere de ansatte for utgifter. Du kan bruke funksjoner til å legge til betalingslinjer for forfalte kjøpsfakturaer på siden **Utbetalingskladd**. Du kan sende transaksjoner til banken din ved å eksportere flere betalingskladdelinjer til en fil og deretter laste opp filen til banken. Du kan også betale med sjekk, inkludert å overføre sjekker som elektroniske betalinger.
 
@@ -35,9 +29,9 @@ Tabellen nedenfor beskriver en sekvens av oppgaver i leverandørgjeld, og har ko
 |Sikre riktig lagerverdisetting ved å tilordne ekstra varekost, for eksempel frakt, fysisk håndtering, forsikring og transport, som du pådrar deg ved innkjøp.|[Bruke varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md)|
 |Refunder de ansatte for personlige utgifter under firmaaktiviteter ved å betale dem på deres bankkontoer.|[Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)|
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Bruke varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md)  

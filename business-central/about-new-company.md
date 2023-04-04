@@ -1,23 +1,17 @@
 ---
 title: Opprett nye selskaper med en automatisk oppsettguide
-description: Det er enkelt å opprette et nytt, tomt selskap i Business Central. En guide for assistert oppsett hjelper deg gjennom trinnene, og du kan importere forretningsdataene eksisterende.
+description: 'Det er enkelt å opprette et nytt, tomt selskap i Business Central. En guide for assistert oppsett hjelper deg gjennom trinnene, og du kan importere forretningsdataene eksisterende.'
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: company, setup wizard
-ms.search.form: 1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.keywords: 'company, setup wizard'
+ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 19340305e2d39ce0626b3d6cb10974556c24b70f
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9531543"
 ---
-# <a name="create-new-companies-in-prod_short"></a>Opprett nye selskaper i [!INCLUDE[prod_short](includes/prod_short.md)]
+# Opprett nye selskaper i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kalles beholderen for forretningsdataene som hører til en konsern eller juridisk enhet et *selskap*. Når du registrerer deg for [!INCLUDE[prod_short](includes/prod_short.md)], får du et demoselskap og et tomt selskap, *Mitt selskap*. Bytte mellom selskaper er enkelt: simpelthen gå til **Mine innstillinger**, og bytt til det andre selskapet. Du kan også opprette nye selskaper i [!INCLUDE[prod_short](includes/prod_short.md)], avhengig av forretningsbehovene.  
 
@@ -25,7 +19,7 @@ Når du oppretter et nytt selskap, gir en guide for assistert oppsett deg det gr
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="choose-the-right-template"></a>Velg riktig mal
+## Velg riktig mal
 
 Hvis du vil legge til et selskap til din [!INCLUDE[prod_short](includes/prod_short.md)], kan du bruke den assisterte oppsettsveiledningen **Opprett nytt selskap** for å komme i gang. Oppsettsveiviseren er tilgjengelig fra **Selskaper**-siden og fra oppslaget i **Selskap**-feltet på siden **Mine innstillinger**.  
 
@@ -47,14 +41,14 @@ Du kan opprette så mange nye selskaper under 30 dagers prøveperioden, men de e
 
 Administratoren kan finne ut mer om prøveversjoner og abonnementer [her](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
-## <a name="copy-a-company"></a>Kopier et selskap
+## Kopier et selskap
 
 På siden **Selskaper** kan du bruke **Kopier**-handlingen til å opprette et annet selskap basert på innholdet i et eksisterende selskap. Dette er for eksempel nyttig når du vil teste et selskap uten å forstyrre produksjonsdata.
 
 > [!Important]
 > Denne funksjonen kan ikke brukes til å ta en sikkerhetskopi av et selskap. Å ta en sikkerhetskopi av selskapet begynner ved å eksportere databasen som en bacpac-fil. Hvis du vil ha mer informasjon, kan du se [Eksportere databaser](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) i hjelpen for utvikling og administrasjon.
 
-## <a name="set-up-the-company"></a>Konfigurer selskapet
+## Konfigurer selskapet
 
 Når du logger deg på et nytt selskap, kjøres veiviseren **Selskapsoppsett** automatisk og hjelper deg med å komme i gang. Du blir bedt om informasjon om selskapet, for eksempel adressen, bankdetaljer og lagerkostmetoden. Vi ber om opplysningene fordi de brukes som grunnlag for mange områder i [!INCLUDE[prod_short](includes/prod_short.md)], som du ikke kan definere senere manuelt.  
 
@@ -62,26 +56,26 @@ Når du logger deg på et nytt selskap, kjøres veiviseren **Selskapsoppsett** a
 
 Når du har det grunnleggende på plass, kan du definere gjenstående kjerneområder. Deretter er du klar til å legge til forretningsdataene, for eksempel kunder og leverandører. Hvis du vil ha mer informasjon, kan du se [Konfigurer [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## <a name="companies-and-environments"></a>Selskaper og miljøer
+## Selskaper og miljøer
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
 Hvis du vil ha mer informasjon, kan du se [Bytte til et annet selskap eller miljø](ui-organization-switch.md). Hvis du vil ha mer informasjon om miljøer, kan du se [Forstå infrastrukturen til Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology) (bare på engelsk).  
 
-## <a name="changing-a-companys-name"></a>Endre et selskaps navn
+## Endre et selskaps navn
 
 Når et selskap er opprettet, kan du ikke endre navnet på det. Du kan imidlertid endre **visningsnavnet**, som er tekst som skal vises for selskapet i programmet.  
 
 > [!TIP]
 > Du kan gi et selskap nytt navn hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt.
 
-## <a name="add-contoso-coffee"></a>Legg til Contoso Coffee
+## Legg til Contoso Coffee
 
 Contoso Coffee-appen tilbyr demonstrasjonsdata som kan hjelpe deg med å finne avanserte funksjoner i [!INCLUDE [prod_short](includes/prod_short.md)]. Finn appen i AppSource, og installer den i et tomt selskap, for eksempel et selskap i et sandkassemiljø. Hvis du vil ha mer informasjon, kan du se [Innføring i demodata for Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/create-new-companies-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/modules/create-new-companies-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilpasse Business Central](ui-customizing-overview.md)  
 [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

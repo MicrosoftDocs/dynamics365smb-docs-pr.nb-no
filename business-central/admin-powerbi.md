@@ -1,30 +1,24 @@
 ---
 title: Innføring i Business Central og Power BI
-description: Få en oversikt over hvordan du bruker Power BI til å få innsikt, forretningsanalyse og KPI-er fra Business Central-data.
+description: 'Få en oversikt over hvordan du bruker Power BI til å få innsikt, forretningsanalyse og KPI-er fra Business Central-data.'
 author: jswymer
 ms.topic: get-started-article
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: account schedule, analysis, reporting, financial report, business intelligence, KPI
-ms.search.form: 6316, 6317
+ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
+ms.search.form: '6316, 6317'
 ms.reviewer: edupont
 ms.date: 08/30/2022
 ms.author: jswymer
-ms.openlocfilehash: 43c0b32a25d8ebb55aae14937a6d8c2269395963
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533917"
 ---
-# <a name="introduction-to-prod_short-and-power-bi"></a>Innføring i [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI
+# Innføring i [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI
 
 Det er enkelt å få innsikt i [!INCLUDE[prod_short](includes/prod_short.md)]-dataene med [Power BI](https://powerbi.microsoft.com) – et datavisualiseringssystem fra Microsoft. Power BI henter [!INCLUDE[prod_short](includes/prod_short.md)]-data slik at du kan bygge instrumentbord og rapporter basert på disse dataene. Power BI gir deg et fleksibelt alternativ til rapporter som er bygget i [!INCLUDE[prod_short](includes/prod_short.md)], slik at du kan drille ned og tilpasse visualiseringen og til og med slå sammen data fra ulike selskaper i [!INCLUDE[prod_short](includes/prod_short.md)]. Noen Power BI-rapporter kan også bygges inn i Business Central og vises uten å forlate systemet. Mer komplekse instrumentbord er bedre å oppleve fra Power BI-nettstedet.
 
 ![Power BI og Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-prod_short"></a>Det du kan gjøre med Power BI og [!INCLUDE[prod_short](includes/prod_short.md)]
+## Det du kan gjøre med Power BI og [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Det finnes ulike funksjoner for å arbeide med [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI. Du kan gjøre enkelte ting fra Power BI, mens andre ting gjør du fra [!INCLUDE[prod_short](includes/prod_short.md)]. I tillegg er noen funksjoner bare tilgjengelige i [!INCLUDE[prod_short](includes/prod_short.md)] Online, ikke i den lokale versjonen. Du får en oversikt i tabellen nedenfor.
 
@@ -38,7 +32,7 @@ Det finnes ulike funksjoner for å arbeide med [!INCLUDE[prod_short](includes/pr
 
 <a name="onprem"><sup>*</sup></a> Denne funksjonen krever et registrert program for Business Central i Microsoft Azure. Hvis du vil ha mer informasjon, kan du se [Registrere Business Central lokalt i Azure AD for integrering med andre tjenester](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## <a name="get-ready-to-use-power-bi"></a>Gjør deg klar til å bruke Power BI
+## Gjør deg klar til å bruke Power BI
 
 Det er noen få oppgaver du må gjøre før du kan begynne å bruke Power BI med [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> Oppgavene avhenger av din rolle i organisasjonen, og hva du vil gjøre med Power BI:
 
@@ -76,9 +70,9 @@ Det er noen få oppgaver du må gjøre før du kan begynne å bruke Power BI med
 
 -->
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Forretningsintelligens](bi.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  

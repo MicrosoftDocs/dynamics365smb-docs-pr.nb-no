@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 1530,
+ms.search.keywords: null
+ms.search.form: '1530,'
 ms.date: 09/09/2022
 ms.author: edupont
-ms.openlocfilehash: 60a25f6b07c4e483d06891367a679bada00d4f75
-ms.sourcegitcommit: 9049f75c86dea374e5bfe297304caa32f579f6e4
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/23/2022
-ms.locfileid: "9585814"
 ---
-# <a name="view-archived-workflow-step-instances"></a>Vise arkiverte forekomster av arbeidsflyttrinn
+# Vise arkiverte forekomster av arbeidsflyttrinn
 
 Alle fullførte forekomster for arbeidsflyttrinn lagres på siden **Arkiverte forekomster for arbeidsflyttrinn**.  
 
@@ -26,7 +20,7 @@ På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involv
 > [!NOTE]
 > Hvis du vil vise loggen og statusen for arbeidsflyter ved hjelp av Power Automate-integrering, velger du handlingen **Mine flyter** på siden **Power Automate** og velger deretter en flyt for å vise jobbens kjøringslogg og status.
 
-## <a name="to-view-archived-workflow-step-instances"></a>Slik viser du arkiverte forekomster av arbeidsflyttrinn:
+## Slik viser du arkiverte forekomster av arbeidsflyttrinn:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
 2. Åpne arbeidsflyten du vil vise alle arkiverte forekomster av arbeidsflyttrinn for.  
@@ -37,7 +31,7 @@ På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involv
 
    Siden **Arkiverte forekomster for arbeidsflyttrinn** åpnes og viser alle arkiverte forekomster for arbeidsflyttrinn. I feltet **Arbeidsflytkode** kan du se hvilken arbeidsflyt den arkiverte forekomsten av arbeidsflyttrinn tilhørte.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Slett godkjenningsarbeidsflyter](across-how-to-delete-workflows.md)  
 [Opprett godkjenningsarbeidsflyter](across-how-to-create-workflows.md)  

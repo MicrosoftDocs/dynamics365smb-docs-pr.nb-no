@@ -1,23 +1,17 @@
 ---
 title: Definere bokføring av konserninterne transaksjoner
-description: Opprett konserninterne leverandører og kunder som såkalte konserninterne partnere, og definer en konsernintern kontoplan.
+description: 'Opprett konserninterne leverandører og kunder som såkalte konserninterne partnere, og definer en konsernintern kontoplan.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: IC, group, consolidation, affiliate, subsidiary
-ms.search.form: 605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
+ms.search.form: '605, 620, 602, 603, 601, 600, 652, 653, 606, 607, 609, 608, 621'
 ms.date: 03/09/2022
 ms.author: edupont
-ms.openlocfilehash: 32a0005f2ebbc6bfc87c21fed8469c86535e15de
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9607287"
 ---
-# <a name="set-up-intercompany-transaction-posting"></a>Definere bokføring av konserninterne transaksjoner
+# Definere bokføring av konserninterne transaksjoner
 
 Konserninterne bokføringer gjør regnskap for to eller flere selskaper enklere å bruke for en sentralisert finansavdeling og regnskapsfører i konserninterne partnerselskaper. Hvis du vil sende en transaksjon (for eksempel en salgskladdelinje) fra ett selskap og få den tilsvarende transaksjonen (for eksempel en kjøpskladdelinje) til å opprettes automatisk i partnerselskapet, må de involverte selskapene bli enige om en felles kontoplan og et felles sett av dimensjoner som skal brukes med konserninterne transaksjoner. Den konserninterne kontoplanen kan for eksempel være en forenklet versjon av morselskapets kontoplan. Hvert selskap tilordner hele kontoplanen til den delte, konserninterne kontoplanen, og hvert selskap tilordner dimensjonene til de konserninterne dimensjonene.  
 
@@ -30,7 +24,7 @@ Hvis du vil utføre konserninterne salgstransaksjoner som inkluderer ressurser, 
 > [!NOTE]
 > Konserninterne kjøpstransaksjoner som omfatter ressurser, aktiva og varegebyrer, støttes ikke fullstendig. I den konserninterne partnerens selskap er **Linjetype**-feltet tomt på kjøpsdokumentlinjene som inneholder disse enhetene. Du må oppdatere feltet manuelt.
 
-## <a name="auto-accept-transactions-from-intercompany-partners"></a>Godta transaksjoner automatisk fra konserninterne partnere
+## Godta transaksjoner automatisk fra konserninterne partnere
 
 Lanseringsbølge 1 i 2022 innførte den nye siden **Konserninternt oppsett** som kan gjøre det raskere å behandle transaksjoner fra de konserninterne partnerne. På siden kan du angi om dette selskapet automatisk oppretter kladdelinjer basert på innleggene for en konsernintern partner fra siden **KI-finanskladd**. Kladdelinjene opprettes for deg, men bokføres ikke. Du kan bruke følgende felter på den nye siden for konserninternt oppsett til å angi hvor du vil opprette mottatte konserninterne journaltransaksjoner:
 
@@ -40,14 +34,14 @@ Lanseringsbølge 1 i 2022 innførte den nye siden **Konserninternt oppsett** som
 > [!NOTE]
 > Hvis organisasjonen brukte konserninterne funksjoner i [!INCLUDE [prod_short](includes/prod_short.md)] før lanseringsbølge 1 i 2022 til å godta transaksjoner automatisk, må administratoren aktivere funksjonen **Godta automatisk konserninterne finanskladdtransaksjoner** på siden **Funksjonsstyring**.
 
-## <a name="to-set-up-a-company-for-intercompany-transactions"></a>Slik definerer du et selskap for konserninterne transaksjoner
+## Slik definerer du et selskap for konserninterne transaksjoner
 
 Disse feltene som fylles ut, varierer avhengig av om systemansvarlig har aktivert funksjonsoppdateringen **Ny salgsprisopplevelse**.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konserninternt oppsett**, og velg deretter den relaterte koblingen.  
 2. På siden **Konserninternt oppsett** må du fylle ut feltene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-set-up-intercompany-partners"></a>Konfigurer konserninterne partnere
+## Konfigurer konserninterne partnere
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konserninterne partnere**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
@@ -61,7 +55,7 @@ Disse feltene som fylles ut, varierer avhengig av om systemansvarlig har aktiver
 > Når du har aktivert **Godta transaksjoner automatisk** for den konserninterne bokføringen på siden **Konserninternt partnerkort** undertrykker [!INCLUDE[prod_short](includes/prod_short.md)] meldinger som varsler om kjøpsfakturaer som kopiere den opprinnelige bestillingen. Det er derfor viktig å ha en forretningsprosess for å behandle duplikater. Ved å slette slike bestillinger når for eksempel kjøpsfakturaen mottas fra den konserninterne partneren.
 
 
-## <a name="to-set-up-intercompany-vendors-and-intercompany-customers"></a>Slik definerer du konserninterne leverandører og kunder
+## Slik definerer du konserninterne leverandører og kunder
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Leverandører** og velger den relaterte koblingen.
 2. Du kan også få tilgang til leverandøren fra feltet **Leverandørnr.** på siden **Konsernintern partner**.
@@ -69,7 +63,7 @@ Disse feltene som fylles ut, varierer avhengig av om systemansvarlig har aktiver
 4. I feltet **Konsernintern partnerkode** velger du den relevante konserninterne partnerkoden.
 5. Gjenta trinn 1 til og med 4 for kunder.
 
-## <a name="to-set-up-intercompany-charts-of-accounts"></a>Slik definerer du den konserninterne kontoplanen
+## Slik definerer du den konserninterne kontoplanen
 
 Hvis en gruppe selskaper skal kunne lage konserninterne transaksjoner, må de bli enige om en kontoplan som skal brukes som felles referanse. Du må bli enig med partnerselskapene om kontonumrene som alle skal bruke ved oppretting av konserninterne transaksjoner. Morselskapet i gruppen oppretter for eksempel en forenklet versjon av sitt eget sett med kontoplaner, og eksporterer den til en XML-fil som distribuerer den til hvert selskap i gruppen.  
 
@@ -77,13 +71,13 @@ Hvis kontoplanen for selskapet definerer de konserninterne kontoplanene for part
 
 Hvis selskapet er et underselskap og du har mottatt en XML-fil som inneholder den felles konserninterne kontoplanen, følger du fremgangsmåten [Slik importerer du den konserninterne kontoplanen](intercompany-how-setup.md#to-import-the-intercompany-chart-of-accounts).  
 
-### <a name="to-set-up-the-intercompany-chart-of-accounts"></a>Slik definerer du den konserninterne kontoplanen
+### Slik definerer du den konserninterne kontoplanen
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konsernintern kontoplan** og velg deretter den relaterte koblingen.
 2. Angi hver konto på en linje på siden **Konsernintern kontoplan**.  
 3. Hvis den konserninterne kontoplanen vil være identisk med eller vil ligne på den vanlige kontoplanen, kan du fylle ut siden automatisk ved å velge handlingen **Kopier fra kontoplan**. Du kan redigere de nye linjene etter behov.
 
-### <a name="to-export-an-intercompany-chart-of-accounts"></a>Slik eksporterer du en konsernintern kontoplan
+### Slik eksporterer du en konsernintern kontoplan
 
 Hvis du vil at de konserninterne partnerne skal kunne importere den definerende kontoplanen, må du eksportere den til en fil.
 
@@ -91,7 +85,7 @@ Hvis du vil at de konserninterne partnerne skal kunne importere den definerende 
 2. På siden **Konsernintern kontoplan** velger du **Eksporter**-handlingen og velger deretter **Lagre**-knappen.
 3. Angi filnavnet og lokasjonen der du vil lagre XML-filen, og velg deretter **Lagre**.  
 
-### <a name="to-import-the-intercompany-chart-of-accounts"></a>Slik importerer du den konserninterne kontoplanen  
+### Slik importerer du den konserninterne kontoplanen  
 
 Når det finnes en fil for den definerende konserninterne kontoplanen, kan konserninterne partnere importere den for å sikre at de har de samme kontiene.  
 
@@ -101,7 +95,7 @@ Når det finnes en fil for den definerende konserninterne kontoplanen, kan konse
 
 Siden **KI-kontoplan** fylles ut med nye eller redigerte finanskontolinjer i henhold til den konserninterne kontoplanen i filen. Eventuelle eksisterende urelaterte linjer på siden forblir uendret.
 
-### <a name="to-map-the-intercompany-chart-of-accounts-to-your-companys-chart-of-accounts"></a>Slik tilordner du den konserninterne kontoplanen til selskapets kontoplan  
+### Slik tilordner du den konserninterne kontoplanen til selskapets kontoplan  
 
 Når du har definert eller importert den konserninterne kontoplanen du og de konserninterne partnerne har blitt enige om å bruke, må du knytte hver av de konserninterne finanskontiene til én av selskapets finanskontoer. På siden **KI-kontoplan** angir du hvordan konserninterne finanskonti i innkommende transaksjoner vil bli oversatt til finanskonti fra selskapets kontoplan.
 
@@ -111,7 +105,7 @@ Hvis kontiene i den konserninterne kontoplanen har samme numrene som de tilsvare
 2. Velg linjene du vil tilknytte automatisk, og velg deretter **Samkjør med konto med samme nummer**.  
 3. For hver konserninterne finanskonto som ikke ble tilknyttet automatisk, fyller du ut feltet **Samkjør med finanskontonr.**.  
 
-## <a name="to-set-up-default-intercompany-partner-general-ledger-accounts"></a>Slik setter du opp standard finanskonti for konsernintern partner  
+## Slik setter du opp standard finanskonti for konsernintern partner  
 
 Når du oppretter en konsernintern salgs- eller kjøpslinje som skal sendes som en utgående transaksjon, angir du en konto fra den konserninterne kontoplanen som standard for hvilken konto i partnerens selskap som beløpet skal bokføres på. På **Kontoplan**-siden kan du angi en standard finanskonto for konsernintern partner for konti du bruker ofte i utgående konserninterne salgslinjer eller kjøpslinjer. For samlekontoen for kunder kan du for eksempel angi tilsvarende samlekonto for leverandører fra den konserninterne kontoplanen.  
 
@@ -121,7 +115,7 @@ Når du nå angir en finanskonto i feltet **Motkontonr.** i en konsernintern lin
 2. På linjen for en finanskonto er brukt for konserninterne transaksjoner, i feltet **Standard finanskonto for KI-Partner** angir du den konserninterne finanskontoen partneren skal bokføre til når du bokfører i finanskontoen på linjen.  
 3. Gjenta trinn 2 for hver konto du ofte angir, i feltet **Motkontonr.** på en linje i en konsernintern kladd eller et konserninternt dokument.
 
-## <a name="to-set-up-intercompany-dimensions"></a>Slik definerer du konserninterne bokføringer
+## Slik definerer du konserninterne bokføringer
 
 Hvis du og de konserninterne partnerne vil ha mulighet til å utveksle transaksjoner med tilknyttede dimensjoner, må dere bli enige om dimensjonene som alle skal bruke. Morselskapet i gruppen oppretter for eksempel en forenklet versjon av sitt eget sett med dimensjoner, og eksporterer dem til en XML-fil som distribuerer den til hvert selskap i gruppen. Hvert av datterselskapene importerer deretter XML-filen til siden **Konserninterne dimensjoner** og knytter de konserninterne dimensjonene til dimensjonene i sin egen **Dimensjoner**-side.  
 
@@ -132,7 +126,7 @@ Hvis selskapet ditt er det overordnede selskapet og har det definerende settet m
 
 Hvis selskapet er et datterselskap og du har mottatt en XML-fil som inneholder de konserninterne dimensjonene som gruppen skal bruke som felles referanse, følger du fremgangsmåten [Slik importerer du konserninterne dimensjoner](intercompany-how-setup.md#to-import-the-intercompany-dimensions).
 
-### <a name="to-define-the-intercompany-dimensions"></a>Slik definerer du de konserninterne dimensjonene
+### Slik definerer du de konserninterne dimensjonene
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konserninterne dimensjoner**, og velg deretter den relaterte koblingen.  
 2. På siden **Konserninterne dimensjoner** angir du hver dimensjon på en linje på siden.
@@ -141,7 +135,7 @@ Hvis selskapet er et datterselskap og du har mottatt en XML-fil som inneholder d
 3. Hvis du vil eksportere de konserninterne dimensjonene til en XML-fil for distribusjon til partnerselskapene, velger du **Eksporter**-handlingen.  
 4. Angi filnavnet og lokasjonen der du vil lagre XML-filen, og velg deretter **Lagre**.  
 
-### <a name="to-import-the-intercompany-dimensions"></a>Slik importerer du de konserninterne dimensjonene  
+### Slik importerer du de konserninterne dimensjonene  
 
 Når det finnes en fil for de definerende konserninterne dimensjonene, kan konserninterne partnere importere den for å sikre at de har de samme dimensjonene.  
 
@@ -151,7 +145,7 @@ Når det finnes en fil for de definerende konserninterne dimensjonene, kan konse
 
 Linjene på siden **Konserinterne dimensjoner** og siden **Konserinterne dimensjonsverdier** importeres.  
 
-### <a name="to-map-intercompany-dimensions-to-your-companys-dimensions"></a>Slik tilordner du konserninterne dimensjoner til selskapets dimensjoner
+### Slik tilordner du konserninterne dimensjoner til selskapets dimensjoner
 
 Når du har definert og importert dimensjonene du og de konserninterne partnerne er blitt enige om å bruke, må du knytte hver av de konserninterne dimensjonene til én av dimensjonene i selskapet ditt, og omvendt. På siden **Konserninterne dimensjoner** angir du hvordan konserninterne dimensjoner for *innkommende transaksjoner* blir oversatt til dimensjoner fra selskapets liste over dimensjoner. På **Dimensjon**-siden angir du hvordan dimensjonene skal oversettes til konserninterne dimensjoner i *utgående transaksjoner*.
 
@@ -174,7 +168,7 @@ I fremgangsmåten nedenfor tilordner du først konserninterne dimensjoner til di
 9. Velg handlingen **Dimensjonsverdier**.
 10. På siden **Dimensjonsverdier** fyller du ut feltet **Samkjør med KI-dimensjonsverdikode**.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Behandle konserninterne transaksjoner](intercompany-manage.md)  
 [Finans](finance.md)  

@@ -1,37 +1,31 @@
 ---
 title: Samlet oppbryting med lagerstyring og plukk
-description: Lær hvordan du aktiverer automatisk oppbryting med lagerstyring og plukk samt anbrekk i plukkinger, plasseringer, flyttinger og mer.
+description: 'Lær hvordan du aktiverer automatisk oppbryting med lagerstyring og plukk samt anbrekk i plukkinger, plasseringer, flyttinger og mer.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 5703, 7352
+ms.search.keywords: null
+ms.search.form: '5703, 7352'
 ms.date: 11/04/2022
 ms.author: bholtorf
-ms.openlocfilehash: d5e8ab6f0e60ab8874669c7e5127411acc58957b
-ms.sourcegitcommit: 61fdaded30310ba8bdf95f99e76335372f583642
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 11/04/2022
-ms.locfileid: "9744681"
 ---
-# <a name="enable-automatic-breaking-bulk-with-directed-put-away-and-pick"></a>Aktivere automatisk samlet oppbryting med lagerstyring og plukk
+# Aktivere automatisk samlet oppbryting med lagerstyring og plukk
 
 For lokasjoner som bruker lagerstyring kan [!INCLUDE[prod_short](includes/prod_short.md)] bryte opp større enheter til mindre enheter når det oppretter lagerinstruksjoner for kildedokumenter, produksjonsordrer eller interne plukk og plasseringer. For anbrekk kan også bety å samle varer i mindre enheter som tilsvarer antallet i en større enhet i et kildedokument eller en produksjonsordre.
 
-## <a name="breakbulk-in-picks"></a>Anbrekk i plukkinger  
+## Anbrekk i plukkinger  
 
 Hvis du vil lagre varer i flere enheter i en lokasjon og vil tillate at de kombineres automatisk i plukkprosessen, slår du på vekslebryteren **Tillat anbrekk** på siden Lokasjonskort. For å oppfylle en oppgave ser [!INCLUDE [prod_short](includes/prod_short.md)] automatisk etter en vare i samme enhet. Hvis det ikke finner noen, foreslår [!INCLUDE [prod_short](includes/prod_short.md)] at du bryter en større enhet inn i enheten som er nødvendig.  
 
 Hvis bare mindre enheter er tilgjengelige, vil [!INCLUDE [prod_short](includes/prod_short.md)] foreslå at du kan samle varer for å oppfylle antallet i følgeseddelen eller produksjonsordren. I virkeligheten konverterer det den store enheten i kildedokumentet til mindre enheter for plukking.  
 
-## <a name="breakbulk-in-put-aways"></a>Anbrekk i plasseringer  
+## Anbrekk i plasseringer  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] foreslår plasseringshandlingslinjer i plasseringsenheten i lagerplasseringer. Det kan for eksempel foreslå stykker selv om varene ankommer i en annen enhet.  
 
-## <a name="breakbulk-in-movements"></a>Anbrekk i flyttinger  
+## Anbrekk i flyttinger  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] kan også anbrekke i etterfyllingsbevegelser hvis vekslebryteren **Tillat anbrekk** på siden **Beregn hylleetterfylling** er aktivert.  
 
@@ -46,13 +40,12 @@ Du kan vise resultatene av prosessen med konvertering fra én enhet til en annen
 > - Definer den grunnleggende vareenheten til den minste enheten du forventer å håndtere i lagerprosessene.  
 > - Definer de alternative vareenhetene som multiplum av den grunnleggende enheten.  
 
-## <a name="see-also"></a>Se også  
+## Se også  
 
-[Lagerstyring](warehouse-manage-warehouse.md)  
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
-[Definer Warehouse Management](warehouse-setup-warehouse.md) 
+[Definer lagerstyring](warehouse-setup-warehouse.md) 
 [Monteringsstyring](assembly-assemble-items.md)
-[Designdetaljer: Warehouse Management](design-details-warehouse-management.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

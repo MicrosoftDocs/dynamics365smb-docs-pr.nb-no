@@ -1,22 +1,16 @@
 ---
 title: Feilsøke synkroniseringsfeil
-description: Dette emner gir veiledning for identifisering, feilsøking og løsning av synkroniseringsfeil.
+description: 'Dette emner gir veiledning for identifisering, feilsøking og løsning av synkroniseringsfeil.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: bholtorf
-ms.openlocfilehash: a7490c896daabd05ef0b0bb7d125e15963d83320
-ms.sourcegitcommit: 5a02f8527faecdffcc54f9c5c70cefe8c4b3b3f4
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/04/2022
-ms.locfileid: "8381489"
 ---
-# <a name="troubleshooting-synchronization-errors"></a>Feilsøke synkroniseringsfeil
+# Feilsøke synkroniseringsfeil
 
 
 Mange bevegelige deler er involvert i integrasjon av [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[prod_short](includes/cds_long_md.md)], og noen ganger går det galt. I dette emnet omtales noen av de typiske feilene som oppstår, og det oppgis noen punkter for hvordan de skal løses.
@@ -38,7 +32,7 @@ Nedenfor følger noen verktøy om synkroniseringsfeilsiden for integrasjon som k
 * Handlingene **Slett oppføringer eldre enn 7 dager** og **Slett alle oppføringer** rydder opp i listen. Vanligvis bruker du disse handlingene etter at du har løst årsaken til en feil som påvirker mange poster. Du må imidlertid være forsiktig. Disse handlingene kan slette feil som fremdeles er relevante.
 * Handlingen **Vis feilkallstakk** viser informasjon som kan bidra til å identifisere årsaken til feilen. Hvis du ikke kan løse problemet selv og du vil sende en støtteforespørsel, tar du med informasjonen i støtteforespørselen.
 
-## <a name="see-also"></a>Se også
+## Se også
 [Integrere med Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Sette opp brukerkontoer for integrasjon med Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  
 [Sette opp en tilkobling til Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  

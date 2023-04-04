@@ -6,18 +6,12 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: client, customer, credit
-ms.search.form: 7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305
+ms.search.keywords: 'client, customer, credit'
+ms.search.form: '7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305'
 ms.date: 09/01/2022
 ms.author: edupont
-ms.openlocfilehash: 22fed660ba176bbce8375d03a7c6a5bf9e20b01b
-ms.sourcegitcommit: 3acadf94fa34ca57fc137cb2296e644fbabc1a60
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/19/2022
-ms.locfileid: "9533803"
 ---
-# <a name="register-new-customers"></a>Registrere nye kunder
+# Registrere nye kunder
 
 Kunder er kilden til inntektene. Du må registrere gver kunde du selger til, som et kundekort. Kundekort inneholder informasjonen som er nødvendig for å selge produkter til kunden. Finn ut mer under [Fakturer salg](sales-how-invoice-sales.md) og [Registrer nye varer](inventory-how-register-new-items.md).  
 
@@ -26,7 +20,7 @@ Før du kan registrere nye kunder, må du definere forskjellige salgskoder du ka
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-## <a name="adding-new-customers"></a>Legge til nye kunder
+## Legge til nye kunder
 
 Du kan legge til nye kunder manuelt ved å fylle ut siden **Kundekort**, eller du kan bruke maler som inneholder forhåndsdefinert informasjon. Du kan for eksempel opprette en mal for ulike typer kundeprofiler. Når du bruker maler, sparer du tid når du legger til nye kunder og bidrar til å sikre at informasjonen er riktig hver gang. 
 
@@ -41,7 +35,7 @@ Når du har opprettet en mal, kan du bruke handlingen **Bruk mal** til å bruke 
 
 Du kan også opprette en kunde fra en kontakt. Finn ut mer i delen [Slik oppretter du en kontakt, leverandør, ansatt eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).  
 
-### <a name="to-create-a-new-customer-card"></a>Opprette et nytt kundekort
+### Opprette et nytt kundekort
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
@@ -49,7 +43,7 @@ Handlingen **Priser og rabatter** gir alternativer for å administrere spesialpr
 
 Kunden er nå registrert, og kundekortet er klart til å brukes på salgsdokumenter.  
 
-### <a name="to-save-the-customer-card-as-a-template"></a>Lagre kundekortet som en mal
+### Lagre kundekortet som en mal
 
 du kan bruke et kundekort som en mal når du oppretter nye kundekort.
 
@@ -61,11 +55,11 @@ du kan bruke et kundekort som en mal når du oppretter nye kundekort.
 
 Kundemalen legges til i listen over kundemaler, og du kan bruke den til å opprette nye kundekort.
 
-## <a name="deleting-customer-cards"></a>Slette kundekort
+## Slette kundekort
 
 Hvis du har bokført en transaksjon for en kunde, kan du ikke slette kundekortet, fordi postene kan være nødvendige for revisjon. Hvis du vil slette kundekort med poster, kontakter du Microsoft-partneren for å gjøre det gjennom kode.  
 
-## <a name="managing-credit-limits"></a>Håndtering av kredittgrenser
+## Håndtering av kredittgrenser
 
 Kredittgrenser, saldobeløp og betalingsbetingelser gjør det mulig for [!INCLUDE [prod_short](includes/prod_short.md)] å utstede kreditt og gi en advarsel om forfalte beløp når du oppretter en ordre. Funksjoner for purre- og rentebetingelser gir deg dessuten mulighet til å fakturere renter eller tilleggsgebyr.  
 
@@ -75,7 +69,7 @@ Du kan bokføre hvis kredittgrensen er blitt overskredet. Hvis du lar feltet væ
 
 Du kan velge å ikke motta advarsler om at kundens kredittgrense er overskredet, og du kan angi hvilke typer advarsel du vil vise.
 
-### <a name="to-specify-credit-limit-warnings"></a>Slik angir du advarsler om kredittgrense
+### Slik angir du advarsler om kredittgrense
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
 
@@ -88,9 +82,9 @@ Du kan velge å ikke motta advarsler om at kundens kredittgrense er overskredet,
     |**Forfalt beløp**|Feltet **Forfalt beløp** er merket av på kundekortet, og det vises en advarsel hvis kunden har en forfalt saldo.|
     |**Ingen advarsel**|Det vises ingen kredittadvarsler om kundens status.|
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/).
+## Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Definere betalingsmåter](finance-payment-methods.md)  
 [Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)  

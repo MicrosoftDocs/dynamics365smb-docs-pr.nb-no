@@ -12,6 +12,8 @@ ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration,
 ---
 # Brukertilgangsflyt for Microsoft 365-lisenser
 
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
 Denne artikkelen beskriver hva som skjer når en bruker får tilgang til Business Central-data ved å bruke Microsoft 365-lisensen for første gang. Ved å forstå denne flyten kan administratoren planlegge tilnærmingen sin og konfigurere at Business Central skal samsvare med forretningsbehovene.
 
 1. Først godkjennes brukerens identitet 
