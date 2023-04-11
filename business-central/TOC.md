@@ -23,16 +23,23 @@
 #### [Gjennomgang: Lag kontantstrømprognoser ved å bruke finansrapporter](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Gjennomgang: Konfigurer og bruk Shopify-koblingen](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
-### Demodata for Contoso Coffee for produksjon
+### Demodata for Contoso Coffee
 #### [Innføring i demodata for Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
-#### [Opprett en ny produksjonsstykkliste og stykklisteversjon](contoso-coffee/create-new-production-bom-version.md)
-#### [Opprett en ny rute](contoso-coffee/create-new-routing.md)
-#### [Opprett en fast planlagt produksjonsordre og endre den](contoso-coffee/create-firm-planned-production-order-change.md)
-#### [Kombiner automatisk og manuelt lagertrekk](contoso-coffee/combine-automatic-manual-flushing.md)
-#### [Bruk ordreplanlegging til å opprette og reservere forsyning](contoso-coffee/order-planning-create-reserve-supply.md)
-#### [Konfigurer og behandle en underleveranseoperasjon](contoso-coffee/set-up-process-subcontracting-operation.md)
-#### [Konfigurer ny kapasitet](contoso-coffee/set-up-new-capacity.md)
-#### [Varianter](contoso-coffee/variants.md)
+#### Produksjon
+##### [Innføring i Contoso Coffee-produksjon](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
+##### [Opprett en ny produksjonsstykkliste og stykklisteversjon](contoso-coffee/manufacturing/create-new-production-bom-version.md)
+##### [Opprett en ny rute](contoso-coffee/manufacturing/create-new-routing.md)
+##### [Opprett en fast planlagt produksjonsordre og endre den](contoso-coffee/manufacturing/create-firm-planned-production-order-change.md)
+##### [Kombiner automatisk og manuelt lagertrekk](contoso-coffee/manufacturing/combine-automatic-manual-flushing.md)
+##### [Bruk ordreplanlegging til å opprette og reservere forsyning](contoso-coffee/manufacturing/order-planning-create-reserve-supply.md)
+##### [Konfigurer og behandle en underleveranseoperasjon](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
+##### [Konfigurer ny kapasitet](contoso-coffee/manufacturing/set-up-new-capacity.md)
+##### [Varianter](contoso-coffee/manufacturing/variants.md)
+#### Lagerstyring
+##### [Innføring i Contoso Coffee-lager](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
+##### [Gjennomgang av inngående og utgående flyt i grunnleggende lageroppsett](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
+##### [Gjennomgang av inngående og utgående flyt i blandede lageroppsett](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
+##### [Gjennomgang av inngående og utgående flyt i avansert lageroppsett med lagerstyring](contoso-coffee/warehousing/warehouse-directed-flow.md)
 
 ### Utformingsdetaljer
 #### [Oversikt over detaljer for utforming av programmet](design-details-application-design.md)
@@ -108,7 +115,7 @@
 ### [Si opp eller fjern Business Central](admin-cancel.md)
 ### Varemarkedsføringstekst drevet av kunstig intelligens med Copilot
 #### [Oversikt](ai-overview.md)
-#### [Skaff deg forhåndsversjonen – Copilot-utgave](ai-preview-getstarted.md)
+#### [Skaff deg forhåndsversjonen](ai-preview-getstarted.md)
 #### [Konfigurer varemarkedsføringstekst drevet av kunstig intelligens](enable-ai.md)
 #### [Opprett varemarkedsføringstekst drevet av kunstig intelligens](item-marketing-text.md)
 #### [Vanlige spørsmål](ai-faq.md)
@@ -409,8 +416,12 @@
 ### Konsolider finansdata fra flere selskaper
 #### [Selskapskonsolidering](finance-consolidated-company-reporting.md)
 #### [Konfigurer selskapskonsolidering](finance-consolidated-company-reporting-setup.md)
+
+### Arbeid med kontoplanen og finans
+#### [Forstå finans og kontoplanen](finance-general-ledger.md)
+#### [Gå gjennom kontoer](finance-review-accounts.md)
+
 ### [Konsolider saldoer for et selskap som er en kunde og en leverandør](finance-consolidate-customer-vendor-balances.md)
-### [Forstå finans og kontoplanen](finance-general-ledger.md)
 ### [Arbeid med dimensjoner](finance-dimensions.md)
 ### [Feilsøk og korriger dimensjoner](finance-troubleshooting-correcting-dimensions.md)
 ### [Valutaer i Business Central](finance-currencies.md)
@@ -436,6 +447,7 @@
 ## Økonomisk forretningsanalyse og rapportering
 ### [Oversikt over økonomisk forretningsanalyse og rapportering](bi.md)
 ### [Finansrapporter](finance-reports.md)
+### [Analyser data med statistiske kontoer](bi-use-statistical-accounts.md)
 ### [Analyser faktiske beløp kontra budsjetterte beløp](bi-how-analyze-actual-versus-budget.md)
 ### [Klargjør Financial Reporting med finansdata og kontokategorier](bi-how-work-account-schedule.md)
 ### [Konfigurer og publiser KPI-nettjenester basert på finansrapporter](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
@@ -1511,6 +1523,7 @@
 #### [Send dokumenter via e-post](ui-how-send-documents-email.md)
 #### [Konfigurer leveringsmåter](sales-how-set-up-shipment-methods.md)
 #### [Konfigurer transportører](sales-how-to-set-up-shipping-agents.md)
+#### [Definer en fakturabokføringspolicy for brukere](admin-setup-invoice-posting-policy.md)
 ### Konfigurer kjøp
 #### [Konfigurer kjøp](purchasing-setup-purchasing.md)
 #### [Registrer nye leverandører](purchasing-how-register-new-vendors.md)
@@ -1519,6 +1532,7 @@
 #### [Konfigurer innkjøpere](purchasing-how-setup-purchasers.md)
 #### [Konfigurer priser og rabatter](across-prices-and-discounts.md)
 #### [Registrer spesielle kjøpspriser og rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md)
+#### [Definer en fakturabokføringspolicy for brukere](admin-setup-invoice-posting-policy.md)
 ### Konfigurer lager
 #### [Konfigurer lager](inventory-setup-inventory.md)
 #### [Konfigurer generell informasjon om lagerbeholdning](inventory-how-setup-general.md)
@@ -1631,6 +1645,7 @@
 ##### [Oversikt](across-teams-overview.md)
 ##### [Administrer Teams-integrering](admin-teams-integration.md)
 ##### [Installer Business Central-appen for Teams](across-install-app-for-teams.md)
+##### [Få tilgang til data i Teams uten Business Central-lisens](teams-access-with-m365-license.md)
 ##### [Søk etter kunder, leverandører og andre kontakter](across-search-contacts-teams.md)
 ##### [Legg til Business Central-fane i kanal eller nettprat](across-teams-tab.md)
 ##### [Del oppføringer og sidekoblinger i Teams](across-working-with-teams.md)
@@ -1755,6 +1770,7 @@
 ### [Vanlige spørsmål om søk og filtrering](ui-search-filter-faq.yml)
 ### [Analyser sidedata i Excel](across-work-with-excel.md)
 ### [Analyser rapportdata med Excel](report-analyze-excel.md)
+### [Analyser listedata med analysemodus](analysis-mode.md)
 ### [Finansforretningsanalyse](bi.md)
 
 ## Innebygd analyse 
@@ -1884,6 +1900,9 @@
 ### [Planlegg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Feilsøk synkroniseringsfeil](admin-troubleshoot-sales-synchronization.md)
 ### [Bruk en Power Automate-flyt for varsler om Dataverse-enhetsendringer](admin-power-automate-flow-dataverse.md)
+## Synkroniser hoveddata på tvers av selskaper
+### [Gjør deg klar til å synkronisere hoveddata](admin-set-up-data-sync.md)
+### [Administrer synkronisering av hoveddata](admin-sync-master-data.md)
 ## Utformingsdetaljer
 ### [Oversikt over detaljer for utforming av programmet](design-details-application-design.md)
 ### Utformingsdetaljer: Forsyningsplanlegging
