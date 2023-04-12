@@ -26,10 +26,15 @@ Med Copilot får du raskt et tekstforslag som genereres automatisk for deg. Teks
 
 Copilot er utformet for å spare tid og hjelpe deg med å skrive kreativ og engasjerende tekst som gjenspeiler varemerket ditt, og som er konsekvent på tvers av produktserien. Begynn med å generere et forslag, og endre den foreslåtte teksten etter behov.
 
+> [!NOTE]
+> I forhåndsversjonen av Business Central er tekst generert av kunstig intelligens bare på engelsk.
+
 ### Forutsetninger
 
 - Du bruker en [forhåndsversjon](ai-preview-getstarted.md) av Business Central som er aktivert for Copilot. Aktivering av Copilot gjøres av en administrator. Hvis du vil ha mer informasjon, kan du gå til [Konfigurer varemarkedsføringstekst drevet av kunstig intelligens med Copilot](enable-ai.md).
+- Språket du bruker i Business Central må være engelsk. Alle tilgjengelige engelske nasjonale innstillinger fungerer, for eksempel engelsk (USA), engelsk (Storbritannia) eller engelsk (Sør-Afrika).
 
+   Hvis du vil endre språket, velger du **Innstillinger**-ikonet øverst til venstre ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter") > **Mine innstillinger** > **Språk**. Hvis du vil ha mer informasjon, kan du gå til [Endre grunnleggende innstillinger](ui-change-basic-settings.md#language).
 - Se gjennom [vanlige spørsmål for Copilot](ai-faq.md) for å finne ut mer om tekstforslag generert av kunstig intelligens fra Copilot og hvordan du bruker dem.
 
 ### Opprett første utkast med Copilot

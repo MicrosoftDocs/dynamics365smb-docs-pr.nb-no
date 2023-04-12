@@ -96,7 +96,7 @@ En produksjonsstykkliste krever 70 metalldeler med dimensjonslengde = 0,20 m og 
 
 [Opprette ruter](production-how-to-create-routings.md)  
 [Behandle produktvarianter](inventory-item-variants.md)  
-[Gjennomgang: varianter](contoso-coffee/variants.md)  
+[Gjennomgang: varianter](contoso-coffee/manufacturing/variants.md)  
 [Definere produksjon](production-configure-production-processes.md)  
 [Produksjon](production-manage-manufacturing.md)  
 [Planlegging](production-planning.md)  

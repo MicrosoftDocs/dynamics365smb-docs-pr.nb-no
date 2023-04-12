@@ -90,8 +90,12 @@ Første trinn i arbeidet med XBRL-funksjonaliteten, er å lese taksonomien inn i
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **XBRL-taksonomier**, og velg deretter den relaterte koblingen.  
 2. Opprett en ny linje på siden **XBRL-taksonomier** og angi navn og beskrivelse for taksonomien.  
 3. Velg **Skjemaer**, og sett inn beskrivelsen av skjemaet.  
-4. Når du skal importere skjemaet, velger du siden **XBRL-skjemaer** velger **Importer** og velger deretter en mappe og en XSD-fil. Velg **Åpne**.  
-5. Når du skal importere koblingsbasen, velger du siden **XBRL-skjemaer** velger **Koblingsbaser** og velger deretter en mappe og en XML-fil. Velg **Åpne**.  
+4. Hvis du vil importere skjemaet, velger du handlingen **Importer** på siden **XBRL-skjemaer**, og deretter gjør du et av følgende for å laste opp filen:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
+5. Hvis du vil importere koblingsbasen, velger du handlingen **Importer** på siden **Koblingsbaser**, og deretter gjør du et av følgende for å laste opp filen:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)] 
 6. Du kan nå velge å bruke koblingsbasen på skjemaet. Gjenta dette helt til du har importert alle koblingsbasene.  
 7. Velg **Bruk på taksonomi** for å bruke koblingsbasen på skjemaet.  
 

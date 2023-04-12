@@ -36,13 +36,14 @@ Før du definerer et selskapets opplevelsesinnstilling, definerer du brukernes t
 Brukere tilordnes til planer i Microsoft 365-administrasjonssenteret i forbindelse med det generelle arbeidet med å opprette Business Central-brukere. Hvis du vil ha mer informasjon, kan du se [Legg til brukere og tilordne lisenser samtidig](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
 ### Slik oppdaterer du planendringer i brukergrupper
-Når du har endret brukerplaner i Microsoft 365-administrasjonssenteret, for eksempel tilordnet flere brukere til Premium-planen, må du gjenspeile endringen i [!INCLUDE[prod_short](includes/prod_short.md)].
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
+
+Når du har endret brukerplaner i Microsoft 365-administrasjonssenteret, for eksempel tildelt flere brukere til Premium-planen, må du oppdatere [!INCLUDE[prod_short](includes/prod_short.md)] for å gjenspeile endringen.
 
 1. Logg på som administrator.
 2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukere**, og velg deretter den relaterte koblingen.
-3. På siden **Brukere** velger du handlingen **Oppdater alle brukergrupper**.
-
-Alle nye opplysninger om brukernes planer og deres tilordnede brukergrupper oppdateres nå i henhold til planendringene.
+3. Velg handlingen **Oppdater brukere fra Microsoft 365** på siden **Brukere**.
 
 ### Slik velger du Premium-opplevelsen
 Du kan nå fortsette med å velge den nye opplevelsen.

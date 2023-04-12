@@ -1,7 +1,7 @@
 ---
 title: Vanlige spørsmål for tekniske detaljer
 description: Implementeringsdetaljer knyttet til Shopify-koblingen.
-ms.date: 05/27/2022
+ms.date: 03/27/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 author: AndreiPanko
@@ -12,18 +12,18 @@ ms.author: andreipa
 
 Denne artikkelen svarer på vanlige spørsmål om Shopify-koblingen.
 
-## Hva er Shopify? 
+## Hva er Shopify?
 
-Shopify er en abonnementsbasert programvare som gjør det mulig for alle å opprette en nettbutikk og selge produktene sine. Shopify-plattformen tilbyr nettforhandlere for en rekke tjenester, inkludert verktøy for innbetalinger, markedsføring, levering og kundeengasjement. 
+Shopify er et abonnementsbasert program som gjør det mulig for alle å opprette en nettbutikk og selge produkter. Shopify-plattformen tilbyr nettforhandlere for en rekke tjenester for innbetalinger, markedsføring, levering og kundeengasjement.
 
-## Hva er Microsoft Dynamics 365 Business Central Shopify-koblingen? 
+## Hva er Microsoft Dynamics 365 Business Central Shopify-koblingen?
 
-Med Shopify-koblingen kan virksomheter koble Shopify-butikken (eller butikkene) sammen med [!INCLUDE[prod_short](../includes/prod_short.md)] for å maksimere produktiviteten. Ved å bruke Shopify-koblingen kan de administrere og vise innsikt fra virksomheten og Shopify-nettbutikken som én enhet. 
+Med Shopify-koblingen kan virksomheter koble Shopify-butikken (eller butikkene) sammen med [!INCLUDE[prod_short](../includes/prod_short.md)] for å maksimere produktiviteten. Ved å bruke Shopify-koblingen kan de få tilgang til og administrere innsikt fra virksomheten og Shopify-nettbutikken som én enhet.
 
 ### Funksjoner
 
 - Støtte for mer enn én Shopify-butikk
-  - Hver butikk har sitt eget oppsett, inkludert en samling produkter, lokasjoner som brukes til å beregne lager og prislister.  
+  - Hver butikk har sitt eget oppsett, inkludert en samling produkter og lokasjoner som brukes til å beregne lager og prislister.  
 - Toveissynkronisering av varer eller produkter
   - Koblingen synkroniserer bilder, varevarianter, strekkoder, leverandørvarenumre, utvidede tekster og koder.  
   - Eksporter vareattributter til Shopify.  
@@ -35,55 +35,52 @@ Med Shopify-koblingen kan virksomheter koble Shopify-butikken (eller butikkene) 
 - Toveissynkronisering av kunder
   - Kartlegg kunder smart per telefon og e-post.  
   - Bruk landspesifikke maler når du oppretter kunder, noe som bidrar til å sikre at avgiftsinnstillingene er riktige.  
-- Import av ordrer fra Shopify
-  - Ta med ordrer som er opprettet i ulike salgskanaler, for eksempel nettbutikk eller **Shopify-salgssted**. 
+- Importer ordrer fra Shopify
+  - Ta med ordrer som er opprettet i ulike salgskanaler, for eksempel nettbutikk eller **Shopify-salgssted**.
   - Leveringskostnader, gavekort, tips, leverings- og betalingsmåter, transaksjoner og risiko for svindel.  
-  - Under importen kan du automatisk opprette kunder i [!INCLUDE [prod_short](../includes/prod_short.md)] eller velge å håndtere kundene i Shopify.  
-  - Motta utbetalingsopplysninger fra Shopify Payments. 
+  - Under import kan du automatisk opprette kunder i [!INCLUDE [prod_short](../includes/prod_short.md)] eller velge å håndtere kundene i Shopify.  
+  - Motta utbetalingsopplysninger fra Shopify Payments.
 - Spor oppfyllelsesinformasjon
   - Du kan eventuelt velge å overføre varesporingsinformasjon fra [!INCLUDE [prod_short](../includes/prod_short.md)] til Shopify.  
 
-## Hvorfor har Microsoft og Shopify laget dette partnerskapet? 
+## Hvorfor har Microsoft og Shopify laget dette partnerskapet?
 
-[!INCLUDE[prod_short](../includes/prod_long.md)] slår seg sammen med Shopify for å hjelpe kundene med å skape en bedre handleopplevelse. Shopify tilbyr forhandlere en brukervennlig handelsløsning, og [!INCLUDE[prod_short](../includes/prod_short.md)] tilbyr omfattende administrasjon på tvers av økonomi, salg, service og drift i ett brukervennlig program. Effektiv forbindelse mellom de to systemene synkroniserer ordre-, børs- og kundeopplysninger slik at forhandlere kan oppfylle ordrer raskere og bedre betjene kunder.
+[!INCLUDE[prod_short](../includes/prod_long.md)] slår seg sammen med Shopify for å hjelpe kundene med å skape en bedre handleopplevelse. Shopify tilbyr forhandlere en brukervennlig handelsløsning, og [!INCLUDE[prod_short](../includes/prod_short.md)] tilbyr omfattende administrasjon på tvers av økonomi, salg, service og drift. Bruk effektiv forbindelse mellom programmene til å synkronisere ordre-, lager- og kundeopplysninger for å oppfylle ordrer raskere og bedre betjene kunder.
 
 ## Hvilke Microsoft-produkter er Shopify-koblingen tilgjengelig for?
 
-Denne funksjonen er bare tilgjengelig for nettversjonen av [!INCLUDE[prod_short](../includes/prod_short.md)], fra og med versjon 20.1. Den er ikke tilgjengelig for lokale distribusjoner. Appen med koblingen er forhåndsinstallert for nye miljøer. Organisasjoner med eksisterende miljøer kan laste ned og installere appen fra AppSource. Organisasjonen må ha både en Business Central-lisens og en Shopify-lisens for å kunne bruke koblingen. Finn ut mer om støttede land, språk og utgaver av [!INCLUDE[prod_short](../includes/prod_short.md)] på [Shopify-kobling i AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
+Denne funksjonen er bare tilgjengelig for nettversjonen av [!INCLUDE[prod_short](../includes/prod_short.md)], fra og med versjon 20.1. Den er ikke tilgjengelig for lokale distribusjoner. Koblingen er forhåndsinstallert for nye miljøer. Organisasjoner med eksisterende miljøer kan laste ned og installere koblingen fra AppSource. Organisasjonen må ha både en [!INCLUDE [prod_short](../includes/prod_short.md)]-lisens og en Shopify-lisens for å kunne bruke koblingen. Hvis du vil finne ut mer om støttede land, språk og utgaver av [!INCLUDE[prod_short](../includes/prod_short.md)], går du til [Shopify-kobling i AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
 
-Shopify-koblingen fungerer ikke for [innebygd app](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), der nettadressen for klienten har formatet: `https://[application name].bc.dynamics.com`. 
+Shopify-koblingen fungerer ikke for [innebygd app](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), der nettadressen for klienten har formatet `https://[application name].bc.dynamics.com`.
 
 ## Hva slags støtte tilbys for Shopify-koblingen?
 
 ### [!INCLUDE[prod_short](../includes/prod_short.md)]
 
-Shopify-koblingen er dekket av nåværende støttemodell. Finn ut mer på [Teknisk støtte](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (bare på engelsk). 
+Shopify-koblingen er dekket av nåværende støttemodell. Finn ut mer på [Teknisk støtte](/dynamics365/business-central/dev-itpro/administration//manage-technical-support) (bare på engelsk).
 
-Få hjelp fra en konsulent som kjenner Shopify-koblingen for [!INCLUDE[prod_short](../includes/prod_short.md)] for å dekke dine unike forretningsspesifikke krav.
- 
-Søk i [konsulenttjenester](https://aka.ms/BCShopifyConsultant).
+Få hjelp fra en konsulent som kjenner Shopify-koblingen for [!INCLUDE[prod_short](../includes/prod_short.md)] for å dekke dine unike forretningsspesifikke krav. Søk i [konsulenttjenester](https://aka.ms/BCShopifyConsultant).
 
 ### Shopify
 
-Få hjelp med Shopify ved å starte med [Generelt Shopify-hjelpesenter](https://help.shopify.com/) eller [Døgnstøtte for butikken som Shopify-forhandler](https://help.shopify.com/questions#/). 
+Få hjelp med Shopify fra [Generelt Shopify-hjelpesenter](https://help.shopify.com/) eller fra [Døgnstøtte for butikken som Shopify-forhandler](https://help.shopify.com/questions#/).
 
 Du kan også utforske [Ekspertmarkedsplassen](https://experts.shopify.com/) for å finne de riktige ekspertene som tilbyr tjenester for Shopify-forhandlere.
 
-## Funksjoner som for øyeblikket ikke støttes, men som vi sporer og kan vurdere å legge dem til senere:
+## Funksjoner som for øyeblikket ikke støttes, men som vi sporer og kan vurdere å legge til
 
-- B2B-funksjoner, inkludert selskaper, prislister for selskap, betalingsbetingelser
+- B2B-funksjoner, inkludert selskaper, prislister for selskap og betalingsbetingelser
 - Markeder
   - Flere oversettelser av hoveddataene. Du kan velge ett språk som skal brukes ved eksport av produktinformasjon.
-  - Priser per land/område. Det finnes én pris liste for den valgte valutaen. Konverteringen til andre valutaer blir håndtert av Shopify.
+  - Priser per land/område. Det finnes én pris liste for den valgte valutaen. Shopify håndterer konverteringen til andre valutaer.
 
 ## Kan Shopify-koblingen utvides?
 
-Denne appen er for øyeblikket ikke-utvidbar med planer om å gjøre den utvidbar i 2023. 
+Ja, Shopify-koblingenen kan utvides. Kontroller GitHub for å få tilgang til [oversikten over utvidelsespunkter](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) og se nærmere på [eksempler](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md).
 
 ## Er Shopify-koblingen åpen for bidrag
 
-Ja, denne utvidelsen er åpen for bidrag av fellesskapet. Du finner [kildekoden](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) i tilleggsrepositoriet for Microsoft Al-programmer.
-
+Ja, denne utvidelsen er åpen for bidrag fra fellesskapet. Du finner [kildekoden](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) i tilleggsrepositoriet for Microsoft Al-programmer.
 
 ## Se også
 

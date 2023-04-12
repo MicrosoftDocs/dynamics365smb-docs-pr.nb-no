@@ -1,31 +1,29 @@
 ---
 title: Opprett og administrer katalogvarer
-description: Beskriver hvordan du selger varer som du ikke beholder i listen over varer.
+description: Lær hvordan du selger varer som du ikke beholder i listen over varer.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 03/08/2023
+ms.custom: bap-template
 ms.search.keywords: non-inventoriable
 ms.search.forms: '5725, 5726, 5732'
-ms.date: 06/20/2022
-ms.author: bholtorf
 ---
+
 # Arbeide med katalogvarer
 
-Katalogvarer er varer som du ikke administrerer i [!INCLUDE[prod_short](includes/prod_short.md)] før du selger dem. Når du bruker handlingen **Velg katalogvare** til å legge til en katalogvare på en linje i en salgsordre eller et tilbud, konverteres katalogvaren til en vanlig vare.
+Katalogvarer er varer som du ikke administrerer i [!INCLUDE[prod_short](includes/prod_short.md)] før du selger dem. Når du bruker handlingen **Velg katalogvare** til å legge til en katalogvare på en linje i en ordre, et tilbud eller en rammeordre, konverteres katalogvaren til en vanlig vare.
 
 > [!NOTE]  
 > Du kan ikke velge en katalogvare fra **Salgsfaktura**-siden.
 
-En katalogvare har vanligvis varenummeret til leverandøren som leverer den. Før du kan konvertere en katalogvare til en normal vare, må du angi hvordan du vil konvertere leverandørvarenumre til varenummereringen. Hvis du vil ha mer informasjon, kan du se [Definer hvordan katalogvarenumre konverteres til din egen nummerering](#specify-how-catalog-item-numbers-are-converted-to-your-own-numbering).  
+En katalogvare har vanligvis varenummeret til leverandøren som leverer den. Før du kan konvertere en katalogvare til en normal vare, må du angi hvordan du vil konvertere leverandørvarenumre til varenummereringen. Hvis du vil ha mer om varenummerering, kan du gå til [Definer hvordan katalogvarenumre konverteres til din egen nummerering](#specify-how-catalog-item-numbers-are-converted-to-your-own-numbering).  
 
 > [!IMPORTANT]
-> Katalogvarer må ikke forveksles med ikke-lagervarer, som er vanlige varer som blir gitt typen **Ikke-lagervare** for å utelukke dem fra tilgjengelighet og kostberegninger, for eksempel fordi de bare brukes internt og har en lav kostnad. Hvis du vil ha mer informasjon, kan du se [Om varetyper](inventory-about-item-types.md).
+> Katalogvarer må ikke forveksles med ikke-lagervarer, som er vanlige varer som blir gitt typen **Ikke-lagervare** for å utelukke dem fra tilgjengelighet og kostberegninger, for eksempel fordi de bare brukes internt og har en lav kostnad. Hvis du vil lære mer om varer som ikke er lager, går du til [Om varetyper](inventory-about-item-types.md).
 
 ## Opprett en katalogvare
-
-Katalogvarekort har mye mindre informasjon enn vanlige varekort fordi du bare bruker dem til tilbud i salgstilbud og på andre måter. Derfor må de konverteres til vanlige varekort før du kan bokføre salgstransaksjoner for dem.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Katalogvarer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
@@ -33,10 +31,10 @@ Katalogvarekort har mye mindre informasjon enn vanlige varekort fordi du bare br
 
 ## Definer hvordan katalogvarenumre konverteres til din egen nummerering
 
-Før du kan konvertere en katalogvare til en normal vare, må du angi hvordan du vil konvertere leverandørvarenumre til varenummereringen.
+Før du kan konvertere en katalogvare til en vanlig vare, må du angi hvordan du vil konvertere leverandørvarenumre til strukturen du bruker for varenumre.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett av katalogvare**, og velg deretter den relaterte koblingen.
-2. Fyll ut feltene etter behov.
+2. Velg alternativet du foretrekker, i feltet **Nummerformat**.
 
 ## Konverter en katalogvare til en vanlig vare
 
@@ -44,23 +42,21 @@ Før du kan konvertere en katalogvare til en normal vare, må du angi hvordan du
 2. Åpne kortet for katalogvaren som du vil konvertere til en vanlig vare.
 3. På siden **Katalogvarekort** velger du handlingen **Opprett vare**.
 
-Et nytt varekort forhåndsutfylt med informasjon fra katalogvaren og en relevant varemal opprettes. Du kan deretter fylle ut eller redigere felt på det nye varekortet etter behov. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
+Et nytt varekort forhåndsutfylt med informasjon fra katalogvaren og en varemal opprettes. Du kan redigere opplysningene om den nye varen om nødvendig. Hvis du vil finne ut mer om oppretting av varer, går du til [Registrer nye varer](inventory-how-register-new-items.md).
 
-## Slik selger du en katalogvare og konverterer den til en vanlig vare:
+## Slik selger du en katalogvare og konverterer den til en vanlig vare
+
+Følgende fremgangsmåte bruker en ordre, men trinnene er de samme for rammeordrer og tilbud.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**. Fyll ut feltene på hurtigfanen **Generelt** som for ordrer. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).
 3. På en ny salgslinje, i **Type**-feltet velger du **Vare**, men lar feltet **Nr.** stå tomt.
 4. Velg handlingen **Linje** og velg deretter handlingen **Velg katalogvarer**.
-
-    Katalogvaren konverteres til en vanlig vare. Et nytt varekort forhåndsutfylt med informasjon fra katalogvaren og en relevant varemal opprettes.
 5. På siden **Katalogvarer** velger du katalogvaren du vil selge, og velger deretter **OK**-knappen.
 6. Når ordren er fullført, kan du velge handlingen **Bokfør**.
 
-Du kan deretter fylle ut eller redigere felt på det nye varekortet etter behov. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
-
 > [!NOTE]  
-> En varereferanse er automatisk vare mellom leverandørens varenummer og det nye varenummeret ditt. Se [Bruke varereferanser](inventory-how-use-item-cross-refs.md) for mer informasjon.
+> En varereferanse er automatisk vare mellom leverandørens varenummer og det nye varenummeret ditt. Hvis du vil lære mer om varereferanser, går du til [Bruk varereferanser](inventory-how-use-item-cross-refs.md).
 
 ## Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
 

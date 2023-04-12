@@ -1,15 +1,12 @@
 ---
 title: Angre en bokføring ved å bokføre en tilbakeføringspost
-description: 'Hvis du har foretatt en feilaktig bokføring i finanskladden, kan du bruke funksjonen Tilbakefør transaksjon til å angre bokføringen med et riktig revisjonsspor.'
+description: 'Hvis du finner en feil i en bokført finanskladd, kan du bruke handlingen Tilbakefør transaksjon til å angre bokføringen med et riktig revisjonsspor.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: reimbursement
-ms.search.form: '20, 25, 29, 38, 202, 5912,'
-ms.date: 07/22/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.date: 03/28/2023
+ms.custom: bap-template
 ---
 # Tilbakeføre kladdebokføringer og angre mottak/leveringer
 
@@ -93,6 +90,5 @@ Trinnene er de samme for bokførte retursedler.
 [Arbeid med finanskladder](ui-work-general-journals.md)  
 [Finans](finance.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

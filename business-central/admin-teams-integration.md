@@ -2,13 +2,13 @@
 title: Administrere Microsoft Teams-integrering med Business Central | Microsoft Docs
 description: Administrer Business Central-integrering med Microsoft Teams.
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: overview
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
-ms.date: 11/03/2022
+ms.date: 02/03/2023
 ms.author: jswymer
+ms.reviewer: jswymer
+ms.custom: bap-template
+ms.service: dynamics365-business-central
 ---
 
 # Administrere Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
@@ -91,7 +91,7 @@ I Microsoft Teams-administrasjonssenteret konfigurerer du policyer for Teams-app
     4. Velg **Legg til**.
 
        Business Central skal nå vises under **Installerte apper** for policyen.
-    5. Konfigurer eventuelle tilleggsinnstillinger og velg **Lagre**.
+    5. Konfigurer flere innstillinger etter behov og velg **Lagre**.
 
     Hvis du vil ha mer informasjon om konfigurasjonspolicyer i Teams, kan du se [Administrere appkonfigurasjonspolicyer i Microsoft Teams](/MicrosoftTeams/teams-app-setup-policies) i Teams-dokumentasjonen.
 4. Gå tilbake til **Team-appen Sentralisert distribusjon** av Business Central, og velg **Ferdig**.
@@ -126,7 +126,27 @@ Funksjonene for innholdssøk og eDiscovery-samsvar i Microsoft 365 Security & Co
 
 Ettersom kortdata i Teams er en kopi av data i [!INCLUDE [prod_short](includes/prod_short.md)], kan du også bruke [!INCLUDE [prod_short](includes/prod_short.md)]-funksjoner til å eksportere kundens data hvis du blir bedt om det. Hvis du vil ha mer informasjon om personvern i [!INCLUDE [prod_short](includes/prod_short.md)], kan du se [Vanlige spørsmål om personvern for Business Central-kunder](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
+## Vis eller skjul oppføringsdata på kort
+
+Når en oppføring deles med andre i en Teams-nettprat eller -kanal, vises et kort med felter som inneholder data om oppføringen. Alle mottakere kan vise disse opplysningene (eller oppføringssammendraget) som standard, uavhengig av lisensen eller tillatelsene i Business Central. Hvis du er administrator, kan du bruke veiledningen for assistert oppsett for **Kortinnstillinger** til å skjule oppføringssammendraget fra å vises på kort i Teams. Når du skjuler oppføringssammendraget, fjernes alle felter og bilder, men fortsetter å vise knappen **Detaljer** og annen informasjon ikke om oppføringen på kortet.
+
+|Oppføringssammendrag på|Oppføringssammendrag av|
+|-|-|
+|![Bilde som viser et kort i Teams når oppføringssammendraget er slått på.](media/card-settings-example-on.png)|![Bilde som viser et kort i Teams når oppføringssammendraget er slått av.](media/card-settings-example-off.png)|
+
+Du konfigurerer innstillingen per miljø. Når du aktiverer eller deaktiverer oppføringssammendraget, vil det påvirke alle selskapene i miljøet.
+
+1. Åpne miljøet du vil endre, i Business Central.
+
+   > [!TIP]
+   > Hvis du vil bytte miljø, velger du <kbd>CTRL</kbd>+<kbd>O</kbd>.
+2. Velg ikonet ![Forstørrelsesglass som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kortinnstillinger**, og velg deretter den relaterte koblingen. <!--Or, select [here](https://businesscentral.dynamics.com/?page=1833) to open the page directly.-->
+3. Les informasjonen om **kortinnstillingene**, og velg deretter **Neste** når du er klar.
+4. På siden **Datasynlighet** slår du på bryteren **Vis oppføringssammendrag** for å vise data på kortene eller av for å skjule dataene.
+5. Velg **Neste** og følg instruksjonene for å fullføre installasjonsveiledningen.
+
 ## Se også
+
 [Oversikt over [!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams-integrering](across-teams-overview.md)  
 [Installer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  
 [Vanlige spørsmål om Teams](teams-faq.md)  

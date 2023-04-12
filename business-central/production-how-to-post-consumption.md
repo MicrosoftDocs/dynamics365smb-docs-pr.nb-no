@@ -7,14 +7,14 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000846, 99000850'
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Massebokføre produksjonsforbruk
 
-Hvis trekkmetoden er **Manuell**, må du bokføre komponentene manuelt ved hjelp av forbrukskladdene.  
+Hvis trekkmetoden er **Manuell**, må du bruke en forbrukskladd til å bokføre komponentene manuelt.  
 
->[!NOTE]
+> [!NOTE]
 > Hvis du satte en hake i feltet **Plukk nødv.** på lokasjonskortet for å vise at lokasjonen krever legerplukkbehandling, trenger du ikke å bruke denne kjørselen. [!INCLUDE[prod_short](includes/prod_short.md)] skal håndtere forbruk når du bokfører lagerplukkingen. Hvis du vil ha mer informasjon, kan du se [Plukke for produksjon i enkle lageroppsett](warehouse-how-to-pick-for-production.md).  
 
 Du kan også konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til automatisk å bokføre (*lagertrekke*) komponenter når du starter eller ferdigstiller produksjonsordrer. Hvis du vil ha mer informasjon, kan du se [Aktivere lagertrekk av komponenter i henhold til operasjonsavgang](production-how-to-flush-components-according-to-operation-output.md).
@@ -30,6 +30,8 @@ Du kan også konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til auto
     > Hvis du konfigurerte lokasjonskortet til å kreve lagerplukkbehandling, kan du bare angi antall varer som allerede er plukket via en lageraktivitet, i feltet **Antall** på siden **Forbrukskladd**, og ikke beregnet antall. Hvis du vil ha mer informasjon, kan du se [Plukke for montering eller produksjon i avansert lageroppsett](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 3. Velg handlingen **Bokfør** for å bokføre forbruket. De relaterte beholdningene reduseres.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Se også
 

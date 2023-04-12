@@ -32,12 +32,12 @@ Når varene ankommer et lager som er definert til å behandle lagermottak, må d
 Du kan opprette lagermottak på en av to måter:
 
 * På en push-måte, når arbeid gjøres på ordre-for-ordre-basis. Velg handlingen **Opprett lagermottak** i kildedokumentet, for eksempel en bestilling, ordreretur eller overføringsordre, for å opprette et lagermottak for ett kildedokument.
-*-* I en pull-måte, der du bruker handlingen **Frigi** i kildedokumentet, for eksempel en bestilling, ordreretur eller overføringsordre til å frigi dokumentet til lageret. En lageransatt oppretter et **lagermottak** for et eller flere frigitte kildedokumenter. Følgende fremgangsmåte forklarer hvordan du oppretter et lagermottak på en pull-måte. Følgende fremgangsmåte forklarer hvordan du oppretter et lagermottak på en pull-måte. 
+* I en pull-måte, der du bruker handlingen **Frigi** i kildedokumentet, for eksempel en bestilling, ordreretur eller overføringsordre til å frigi dokumentet til lageret. En lageransatt oppretter et **lagermottak** for et eller flere frigitte kildedokumenter. Følgende fremgangsmåte forklarer hvordan du oppretter et lagermottak på en pull-måte. Følgende fremgangsmåte forklarer hvordan du oppretter et lagermottak på en pull-måte.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagermottak** og velg den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 
-    Fyll ut feltet **Lokasjonskode** på hurtigfanen **Generelt**. Når du mottar kildedokumentlinjer, kopieres noe av informasjonen til hver linje. 
+    Fyll ut feltet **Lokasjonskode** på hurtigfanen **Generelt**. Når du mottar kildedokumentlinjer, kopieres noe av informasjonen til hver linje.
 
     For en lokasjon som krever hyller, fyller du feltet **Hyllekode**. [!INCLUDE[prod_short](includes/prod_short.md)] kan legge til hyllekoden for deg, avhengig av oppsettet. Finn ut mer under [Sone- og hyllekoder](warehouse-how-receive-items.md#zone-and-bin-codes).  
 
@@ -56,13 +56,15 @@ Du kan opprette lagermottak på en av to måter:
 
 5. Bokfør lagermottaket. Antallsfeltene oppdateres i kildedokumentene, og varene legges til i beholdningen.  
 
+    [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
+
     > [!TIP]
-    > Hvis du bruker lagerplassering, som refererer til metode D i tabellen i begynnelsen av denne artikkelen, mottas varene, men de kan ikke plukkes før de er plassert. Hvis du vil lære mer om hvordan du plasserer varer, går du til [Plasser varer med lagerplasseringer](warehouse-how-to-put-items-away-with-warehouse-put-aways.md). 
-    > 
+    > Hvis du bruker lagerplassering, som refererer til metode D i tabellen i begynnelsen av denne artikkelen, mottas varene, men de kan ikke plukkes før de er plassert. Hvis du vil lære mer om hvordan du plasserer varer, går du til [Plasser varer med lagerplasseringer](warehouse-how-to-put-items-away-with-warehouse-put-aways.md).
+    >
     > Du kan også vurdere å bruke handlingen **Bokfør og skriv ut**. Handlingen bokfører mottak og skriver det ut som en plasseringsinstruksjon som viser hvor varen skal plasseres.
 
-> [!NOTE]  
-> Hvis lageret bruker kryssoverføring, kan du kontrollere om du kan kryssoverføre varer uten å plassere dem. Hvis du vil finne ut mer om kryssoverføring, går du til [Kryssoverfør varer](warehouse-how-to-cross-dock-items.md).
+    > [!NOTE]  
+    > Hvis lageret bruker kryssoverføring, kan du kontrollere om du kan kryssoverføre varer uten å plassere dem. Hvis du vil finne ut mer om kryssoverføring, går du til [Kryssoverfør varer](warehouse-how-to-cross-dock-items.md).
 
 ## Bruke filtre til å hente kildedokumenter
 

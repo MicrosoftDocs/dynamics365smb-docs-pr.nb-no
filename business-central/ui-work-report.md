@@ -3,9 +3,6 @@ title: Kjør og skriv ut rapporter
 description: Finn ut hvordan du legger inn en rapport i en jobbkø og planlegger at den skal behandles på en bestemt dato og et bestemt klokkeslett.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, Word, dataset'
 ms.search.form: null
 ms.date: 09/09/2022
@@ -136,6 +133,12 @@ Et rapportoppsett styrer hva som skal vises i en rapport, hvordan det er ordnet 
 - Hvis du vil endre standardoppsettet som brukes i en rapport, går du til enten sidene **Rapportoppsett** eller **Valg av rapportoppsett**.
 
 Finn ut mer under [Definer oppsettet som brukes av en rapport](ui-set-report-layout.md). Hvis du vil tilpasse ditt eget rapportoppsett, kan du gå til [Kom i gang med å opprette oppsett](ui-get-started-layouts.md).
+
+## Endre språk og format for tall, datoer og klokkeslett
+
+Som standard er språket i tekst og format for tall, datoer og klokkeslett i en rapport basert på arbeidsspråket og områdeinnstillingene, som er definert på siden **Mine innstillinger**. Du kan imidlertid endre språket og formatområdet i hvert tilfelle når du forhåndsviser, skriver ut eller sender en rapport. Velg **Avansert** på forespørselssiden, og angi deretter alternativene **Språk** og **Format** etter behov.
+
+Hvis du vil ha mer informasjon om siden **Mine innstillinger**, går du til [Endre grunnleggende innstillinger](ui-change-basic-settings.md#region).
 
 ## Avanserte alternativer
 

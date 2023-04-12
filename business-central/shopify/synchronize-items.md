@@ -80,19 +80,17 @@ Velg varene fra varelisten som skal eksporteres til Shopify. Bruk handlingen **L
 
 Du administrerer prosessen med å eksportere varer ved å bruke følgende innstillinger:
 
-|Felt|Description|
+|Felt|Beskrivelse|
 |------|-----------|
-|**Kundeprisgruppe**|Bestemme prisen for en vare i Shopify. Salgsprisen for denne kundeprisgruppen tas. Hvis ingen gruppe angis, brukes prisen på varekortet.|
-|**Kunderabattgruppe**|Bestemme rabatten som skal brukes til å beregne prisen på en vare i Shopify. Rabatterte priser lagres i **Pris**-feltet, og hele prisen er lagret i feltet **Sammenlign med pris**.|
 |**Synkroniser utvidet tekst for vare**|Velg dette feltet for å synkronisere den utvidede teksten for varen. Den kan inneholde HTML-kode slik den blir lagt til i feltet *Beskrivelse*. |
 |**Synkroniser vareattributter**|Velg dette feltet for å synkronisere vareattributter. Attributter formateres som en tabell og inkluderes i *Beskrivelse*-feltet i Shopify.|
+|**Synkroniser markedsføringstekst for vare**|Velg dette feltet for å synkronisere markedsføringsteksten for varen. Selv om markedsføringstekst er en slags beskrivelse, er den forskjellig fra varens **Beskrivelse**-felt. **Beskrivelse**-feltet brukes vanligvis som et konsekvent visningsnavn for å identifisere produktet raskt. Markedsføringsteksten er derimot mer omfattende og beskrivende. Formålet er å legge til markedsførings- og kampanjeinnhold. Denne teksten kan deretter publiseres med varen i Shopify. Det finnes to måter å opprette markedsføringstekst på. Bruk Copilot, som foreslår tekst generert av kunstig intelligens for deg, eller start fra bunnen av.|
 |**Språkkode**|Velg dette feltet hvis du ønsker de oversatte versjonene til tittel, attributter og utvidet tekst.|
 |**SKU-tilordning**|Velg hvordan du vil fylle ut feltet for lagerføringsenhet i Shopify. Støttede alternativer er:<br> - **Varenr.** for å bruke varenr. for både produkter og varianter.<br> - **Varenr. + variantkode** for å opprette en lagerføringsenhet ved å sette sammen verdier fra to felter. For varer uten varianter brukes bare varenummeret.<br>- **Leverandørs varenr.** for å bruke vareleverandørnummeret som er definert på *varekortet* for både varer og varianter.<br> - **Strekkode** for å bruke strekkodetypen **Varereferanse**. Dette alternativet respekterer varianter.|
 |**SKU-skilletegn**|Definer et skilletegn for alternativet **Varenr. + variantkode**.|
 |**Lager sporet**| Velg hvordan systemet skal fylle ut feltet **Spor lager** for produkter som er eksportert til Shopify. Du kan oppdatere tilgjengelighetsinformasjon fra [!INCLUDE[prod_short](../includes/prod_short.md)] for produkter i Shopify der spor lager er aktivert. Finn ut mer i delen [Lager](synchronize-items.md#sync-inventory-to-shopify).|
 |**Standard lagerpolicy**|Velg *Avslå* for å unngå negativ beholdning på Shopify-siden.|
 |**Kan oppdatere Shopify-produkter**|Definer dette feltet hvis [!INCLUDE[prod_short](../includes/prod_short.md)] kan bare opprette varer eller kan oppdatere varer også. Velg dette alternativet hvis du planlegger å oppdatere produkter manuelt ved å bruke **Synkroniser produkt**-handlingen eller med jobbkøen for regelmessige oppdateringer etter første synkronisering er utløst av **Legg til vare**-handlingen. Husk å velge **Til Shopify** i feltet **Varesynkronisering**.|
-|**Kundemalkode**|Velg standardmalen som skal brukes under prisberegningen. Finn ut mer under [Definer avgifter](setup-taxes.md).|
 
 ### Oversikt over felttildeling
 
@@ -104,8 +102,8 @@ Du administrerer prosessen med å eksportere varer ved å bruke følgende innsti
 |SEO-sidetittel|Fast verdi: tom. Finn ut mer i delen [Ad hoc-oppdateringer av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Ikke i bruk.|
 |SEO-metabeskrivelse|Fast verdi: tom. Finn ut mer i delen [Ad hoc-oppdateringer av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Ikke i bruk.|
 |Medium|**Bilde**. Finn ut mer i delen [Synkroniser varebilder](synchronize-items.md#sync-item-images)|**Bilde**|
-|Pris|Beregningen av sluttkundepris omfatter vareprisgruppe, varerabattgruppe, valutakode og kundemalkode.|**Enhetspris**|
-|Sammenlign i prisen|Beregningen av prisen uten rabatt omfatter vareprisgruppe, varerabattgruppe, valutakode og kundemalkode.|Ikke i bruk.|
+|Pris|Beregningen av sluttkundepris omfatter vareenhetspris, kundeprisgruppe, kunderabattgruppe og valutakode. Finn ut mer i delen [Synkroniser priser](synchronize-items.md#sync-prices-with-shopify)|**Enhetspris**|
+|Sammenlign i prisen|Beregningen av prisen uten rabatt.|Ikke i bruk.|
 |Kostnad per vare|**Enhetskost**|**Enhetskost**|
 |LFE|Finn ut mer om SKUer under **SKU-tilording** i delen [Eksporter varer til Shopify](synchronize-items.md#export-items-to-shopify).|Finn ut mer om dette i delen [Effekten av SKU-er og strekkoder definert i Shopify-produkt på tildeling og oppretting av varer og varianter i Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
 |Strekkode|**Varereferanser** av strekkodetypen.|**Varereferanser** av strekkodetypen.|
@@ -193,7 +191,18 @@ Bildesynkronisering kan startes på de to måtene beskrevet nedenfor.
 
 ## Synkroniser priser med Shopify
 
-Priser for synkroniserte varer kan eksporteres på de to måtene som er beskrevet nedenfor.
+Du administrerer prosessen med å eksportere priser ved å bruke følgende innstillinger:
+
+|Felt|Beskrivelse|
+|------|-----------|
+|**Kundeprisgruppe**|Bestemme prisen for en vare i Shopify. Salgsprisen for denne kundeprisgruppen tas. Hvis ingen gruppe er angitt, brukes prisen på varekortet.|
+|**Kunderabattgruppe**|Bestemme rabatten som skal brukes ved beregning av prisen på en vare i Shopify. Rabatterte priser lagres i **Pris**-feltet, og hele prisen er lagret i feltet **Sammenlign med pris**.|
+|**Tillat linjerabatt**|Angir om du tillater en linjerabatt ved beregning av priser for Shopify. Denne innstillingen gjelder bare priser for varen. Prisene for kundeprisgruppen har sin egen vekslebryter på linjer.|
+|**Priser inkl. mva.**|Angir om prisberegninger for Shopify inkluderer mva. Finn ut mer under [Definer avgifter](setup-taxes.md).|
+|**Mva-bokføringsgruppe - firma**|Angir hvilken mva-firmabokføringsgruppe som brukes til å beregne prisene i Shopify. Dette skal være gruppen du bruker for innenlandske kunder. Finn ut mer under [Definer avgifter](setup-taxes.md).|
+|**Valutakode**|Angi en valutakode bare hvis nettbutikken bruker en annen valuta enn lokal valuta (LV). Den angitte valutaen må ha valutakurser konfigurert. Hvis nettbutikken bruker samme valuta som [!INCLUDEprod_short], lar du feltet stå tomt.|
+
+Du kan eksportere priser for synkroniserte varer på de to måtene som er beskrevet nedenfor.
 
 ### Synkroniser priser fra siden Shopify-produkter
 
@@ -202,9 +211,8 @@ Priser for synkroniserte varer kan eksporteres på de to måtene som er beskreve
 
 ### Prisberegningsmerknader
 
-* Ved prisberegning er det viktig å ha en verdi i feltet **Standard kundemal**. Finn ut mer under [Definer avgifter](setup-taxes.md).
-* Angi en **valutakode** bare hvis nettbutikken bruker en annen valuta enn lokal valuta (LV). Den angitte valutaen må ha valutakurser konfigurert. Hvis nettbutikken bruker samme valuta som [!INCLUDE[prod_short](../includes/prod_short.md)], lar du feltet stå tomt.
-* Når du skal fastsette en pris, bruker [!INCLUDE[prod_short](../includes/prod_short.md)] laveste pris-logikk. Den laveste prislogikken betyr at enhetsprisen som er definert på varekortet, er lavere enn det som er angitt i prisgruppen, brukes enhetsprisen fra varekortprisen.
+* Når du skal fastsette en pris, bruker [!INCLUDE[prod_short](../includes/prod_short.md)] laveste pris-logikk. Den laveste logikken ignorerer imidlertid enhetsprisen som er definert på varekortet, hvis prisen er definert i prisgruppen. Dette gjelder også når enhetsprisen fra varekortprisen er lavere.
+* For å beregne priser oppretter koblingen et midlertidig tilbud for varen med et antall på 1, og bruker standard prisberegningslogikk. Bare priser og rabatter som gjelder for antall 1, brukes. Du kan ikke eksportere forskjellige priser eller rabatter basert på antall.
 
 ## Synkroniser lager til Shopify
 
@@ -220,7 +228,7 @@ Lagersynkronisering kan konfigureres for allerede synkroniserte varer. Det finne
 3. Velg handlingen **Lokasjoner** for å åpne **Shopify-butikklokasjoner**.
 4. Velg handlingen **Hent Shopify-lokasjoner** hvis du vil importere alle lokasjonene som er definert i Shopify. Du finner dem i innstillingene [**Lokasjoner**](https://www.shopify.com/admin/settings/locations) i **Shopify-administratoren**.
 5. I feltet **Lokasjonsfilter** legger du til lokasjoner hvis du bare vil ta med lager fra bestemte lokasjoner. Du kan skrive inn *ØST|VEST* for å gjøre lageret fra bare disse to lokasjonene tilgjengelig for salg via nettbutikken.
-6. Fjern merket for **Deaktivert** for å aktivere lagersynkronisering for valgte Shopify-lokasjoner.
+6. Velg lagerberegningsmetoden som skal brukes for de valgte Shopify-lokasjonene.
 
 Du kan starte lagersynkronisering på de to måtene beskrevet nedenfor.
 
@@ -232,14 +240,15 @@ Du kan starte lagersynkronisering på de to måtene beskrevet nedenfor.
 
 ### Synkroniser lager fra siden Shopify-produkter
 
-1. Gå til søkeikonet ![Lyspære som åpner funksjonen Fortell meg.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Shopify-produkter**. Velg den relaterte koblingen.
+1. Gå til søkeikonet ![Lyspære som åpner funksjonen Fortell meg.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Shopify-produkter**. Velg den relaterte koblingen.
 2. Velg handlingen **Synkroniser lager**.
 
 ### Lagermerknader
 
-* Koblingen beregner **Beregnet disponibel saldo** på nåværende dato og eksporterer den til Shopify.
+* Standard lagerberegningsmetode er **Beregnet disponibel saldo per dato**. Med utvidelsesmuligheter kan du legge til flere alternativer. Hvis du vil lære mer om utvidelse, kan du gå til [eksempler](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md). 
 * Du kan kontrollere lagerinformasjonen mottatt fra Shopify på siden **Shopify-lagerfaktaboks**. I denne faktaboksen får du en oversikt over Shopify-lageret og det siste beregnede lageret i [!INCLUDE[prod_short](../includes/prod_short.md)]. Det finnes én post per lokasjon.
 * Hvis lagerinformasjonen i Shopify er forskjellig fra **Beregnet disponibel saldo** i [!INCLUDE[prod_short](../includes/prod_short.md)], blir lageret oppdatert i Shopify.
+* Når du legger til en ny lokasjon i Shopify, må du også legge til lagerposter for den. Shopify gjør ikke det automatisk for eksisterende produkter og varianter, og koblingen vil ikke synkronisere lagernivåer for slike varer på ny lokasjon. Hvis du vil ha mer informasjon, går du til [Tildel lager til lokasjoner](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
 
 #### Eksempel på beregning av beregnet disponibel beholdning
 

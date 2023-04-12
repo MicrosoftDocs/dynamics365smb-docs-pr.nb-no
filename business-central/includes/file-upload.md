@@ -1,0 +1,2 @@
+- Dra filen fra filutforsker på enheten til dialogboksen.
+- Velg koblingen **Klikk her for å bla gjennom**, finn filen og klikk deretter på **Åpne**-knappen.

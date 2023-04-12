@@ -1,18 +1,17 @@
 ---
 title: Definere lageransatte
 description: 'Hver bruker som utfører lageraktiviteter, må defineres som en lageransatt tilordnet til én standardlokasjon og eventuelt flere ikke-standardlokasjoner.'
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 03/09/2023
+ms.custom: bap-template
 ms.search.form: '7328, 7348'
-ms.date: 04/01/2021
-ms.author: edupont
 ---
 # Definere lageransatte
 
-Hver bruker som utfører lageraktiviteter, må defineres som en lageransatt tilordnet til én standardlokasjon og eventuelt flere ikke-standardlokasjoner. Dette brukeroppsettet filtrerer alle lageraktiviteter i databasen etter den ansattes lokasjon slik at den ansatte bare kan utføre lageraktivitetene i standardlokasjonen. En bruker kan tilordnes til flere ikke-standardlokasjoner som den ansatte kan vise aktivitetslinjer for, men ikke utføre aktiviteter for.
+Hver bruker som utfører lageraktiviteter, må defineres som en lageransatt tilordnet til en standardlokasjon. [!INCLUDE [prod_short](includes/prod_short.md)] filtrerer lageraktiviteter på den ansattes standardlokasjon. De kan bare utføre lageraktiviteter på lokasjonen. Du kan også tildele en bruker til andre lokasjoner. De kan få tilgang til, men ikke utføre aktiviteter på disse lokasjonene.
 
 ## Slik definerer du lageransatte  
 
@@ -20,8 +19,8 @@ Hver bruker som utfører lageraktiviteter, må defineres som en lageransatt tilo
 2. Velg handlingen **Ny**.  
 3. Velg **Bruker-ID**-feltet, og velg deretter brukeren som skal legges til som lageransatt. Velg **OK**-knappen.  
 4. I feltet **Lokasjonskode** skriver du inn koden for lokasjonen der brukeren skal arbeide.  
-5. Merk av for **Standard** for å definere lokasjonen som den eneste lokasjonen der den ansatte kan utføre lageraktiviteter.  
-6. Gjenta disse trinnene for å tilordne andre ansatte til lokasjoner, eller for å tilordne ikke-standardlokasjoner til eksisterende lageransatte.  
+5. Slå på **Standard** for å angi at det er den eneste lokasjonen der den ansatte kan utføre lageraktiviteter.  
+6. Gjenta disse trinnene for å tilordne andre ansatte til lokasjoner, eller for å tilordne andre lokasjoner til eksisterende lageransatte.  
 
 ## Se relatert [Microsoft-opplæring](/training/modules/get-started-warehouse-management/)
 
@@ -32,6 +31,6 @@ Hver bruker som utfører lageraktiviteter, må defineres som en lageransatt tilo
 [Definer lagerstyring](warehouse-setup-warehouse.md)  
 [Monteringsstyring](assembly-assemble-items.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
+[Definer en fakturabokføringspolicy for brukere](admin-setup-invoice-posting-policy.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

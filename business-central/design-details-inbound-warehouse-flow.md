@@ -45,12 +45,7 @@ I metode A, B og C kombineres mottak og plassering i ett trinn når dokumenter b
 
 > [!NOTE]
 > Selv om lagerplasseringer og lagerplasseringer høres ut, er de forskjellige dokumenter og brukes i forskjellige prosesser.
-> * Lagerplasseringen som brukes i metode B sammen med informasjon om plasseringsinformasjon, bokfører også mottak av kildedokumentet.
-> * Lagerplasseringen som brukes i metode D, kan ikke bokføres, og den registrerer bare plasseringen. Registreringen gjør varene tilgjengelig for videre behandling, men bokfører mottaket. I inngående flyt krever lagerplasseringen et lagermottak.
-
-> [!NOTE]
-> Selv om lagerplasseringer og lagerplasseringer høres ut, er de forskjellige dokumenter og brukes i forskjellige prosesser.
-> * Lagerplasseringen som brukes i metode B sammen med informasjon om plasseringsinformasjon, bokfører også mottak av kildedokumentet.
+> * Lagerplasseringen som brukes i metode B sammen med informasjon om plasseringsinformasjon, bokfører også mottaket av kildedokumentet.
 > * Lagerplasseringen som brukes i metode D, kan ikke bokføres, og den registrerer bare plasseringen. Registreringen gjør varene tilgjengelig for videre behandling, men bokfører mottaket. I inngående flyt krever lagerplasseringen et lagermottak.
 
 ## Ingen dedikert lageraktivitet

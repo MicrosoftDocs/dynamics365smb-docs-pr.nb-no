@@ -5,11 +5,13 @@ author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security'
 ms.search.form: '119, 6300, 6301, 6302, 8930, 9800, 9807, 9808, 9830, 9831, 9838, 9818, 9062, 9061, 9069, 9173'
-ms.date: 05/09/2022
+ms.date: 03/24/2023
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
 # Opprette brukere i henhold til lisenser
+
+[!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
 Denne artikkelen beskriver hvordan administratorer oppretter brukere og definerer hvem som kan logge seg på [!INCLUDE[prod_short](includes/prod_short.md)]. Du finner også ut hvordan du tildeler tillatelser til ulike brukere i henhold til produktlisensene dine.
 
@@ -90,8 +92,11 @@ Når du har lagt til brukere eller endret brukerinformasjon i administrasjonssen
 2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukere**, og velg deretter den relaterte koblingen.  
 3. Velg **Oppdater brukere fra Microsoft 365**.
 
+> [!IMPORTANT]  
+> Kjøring av synkronisering av brukere fra Microsoft 365 ved å bruke veiledningen **Oppdater brukere fra Microsoft 365**, krever SUPER-tillatelsessettet.
+
 > [!NOTE]
-> Handlingen **Oppdater brukere fra Microsoft 365** oppdaterer ikke brukere som ikke er tildelt en lisens, for eksempel en bruker som er global administrator og Dynamics 365-administrator. Disse brukerne oppdateres neste gang de logger seg på miljøet.
+> Veiledningen **Oppdater brukere fra Microsoft 365** oppdaterer ikke brukere som ikke er tildelt en lisens, for eksempel en bruker som er global administrator og Dynamics 365-administrator. Disse brukerne oppdateres neste gang de logger seg på miljøet.
 
 Det neste trinnet for nylig opprettede brukere er å tildele brukergrupper og -tillatelser. Gå til [Tildel tillatelser til brukere og grupper](ui-define-granular-permissions.md) for informasjon. Hvis du oppdaterer en bruker og oppdateringen omfatter en lisensendring, blir brukerne tildelt til den aktuelle brukergruppen, og tilhørende tillatelsessett blir oppdatert. Hvis du vil ha mer informasjon, kan du se [Administrere tillatelser gjennom brukergrupper](ui-define-granular-permissions.md).  
 
@@ -101,7 +106,7 @@ Det neste trinnet for nylig opprettede brukere er å tildele brukergrupper og -t
 Hvis du vil ha mer informasjon om å synkronisere brukerinformasjon med Microsoft 365, går du til delen [Synkronisering med Microsoft 365](#m365).
 
 > [!NOTE]
-> Hvis du bruker en ekstern regnskapsfører til å administrere regnskap og finansrapportering, kan du invitere regnskapsføreren til Business Central, slik at vedkommende kan arbeide med regnskapsdataene. Hvis du vil ha mer informasjon, kan du se [Invitere den eksterne regnskapsføreren til Business Central](finance-accounting.md#inviteaccountant).
+> Hvis du bruker en ekstern regnskapsfører til å administrere regnskap og finansrapportering, kan du invitere regnskapsføreren til [!INCLUDE[prod_short](includes/prod_short.md)], slik at vedkommende kan arbeide med regnskapsdataene. Hvis du vil ha mer informasjon, kan du se [Invitere den eksterne regnskapsføreren til Business Central](finance-accounting.md#inviteaccountant).
 
 ### Fjerne en brukers tilgang til systemet
 
@@ -134,9 +139,9 @@ Hvis du endrer brukerinformasjon i Microsoft 365, kan du oppdatere [!INCLUDE[pro
 
 Brukere kan få tilgang til [!INCLUDE[prod_short](includes/prod_short.md)]-poster i Teams ved hjelp av bare Microsoft 365-lisensen sin. Når tilgang er aktivert for et miljø, inkluderer ikke synkronisering ved hjelp av handlingen **Oppdater brukere fra Microsoft 365**, brukere som bare har en Microsoft 365-lisens. Hvis du vil inkludere disse brukerne i synkroniseringen, må du først oppdatere miljøinnstillinger ved å tildele en sikkerhetsgruppe som inneholder brukere med en [!INCLUDE[prod_short](includes/prod_short.md)]-lisens og brukere som bare har en Microsoft 365-lisens.
 
-Finn ut mer om å sikre tilgang til miljøer ved hjelp av sikkerhetsgrupper under [Administrer tilgang ved hjelp av Azure Active Directory-grupper](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups). 
+Finn ut mer om å sikre tilgang til miljøer ved hjelp av sikkerhetsgrupper under [Administrer tilgang ved hjelp av Azure Active Directory-grupper](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups).
 
-Få en oversikt over tilgang til Business Central i Teams med Microsoft 365-lisenser under [administratortilgang-med-m365-lisens](admin-access-with-m365-license.md).
+Få en oversikt over tilgang til [!INCLUDE[prod_short](includes/prod_short.md)] i Teams med Microsoft 365-lisenser under [administratortilgang-med-m365-lisens](admin-access-with-m365-license.md).
 
 ## Behandle brukere og lisenser i lokale distribusjoner
 

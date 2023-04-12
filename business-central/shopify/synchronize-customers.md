@@ -39,6 +39,7 @@ Du kan gjøre følgende for hver kunde ved å bruke **Shopify-kundemalen**:
 2. Definere **kundemalkoden**, som brukes til å opprette manglende kunder, hvis **Opprett ukjente kunder automatisk** er aktivert. Hvis **kundemalkoden** er tom, bruker funksjonen **kundemalkoden** som er definert på **Shopify-butikkort**.
 3. Definere om priser skal inngå i mva./avgift for importerte ordrer.
 4. I noen tilfeller er ikke **kundemalkoden** som er definert for et land, nok til å sikre riktig beregning av avgifter (f.eks. for land med mva.). I dette tilfellet kan det være nyttig å ta med **mva-områdene**.
+5. **Avgiftsområde**-feltet inneholder også et par for **landskode** og **fylkesnavn**. Dette paret er nyttig når koblingen må konvertere en kode til et navn, eller omvendt.
 
 > [!NOTE]  
 > Landkodene er ISO 3166-1 for alpha-2-landkoder. Finn ut mer under [Landskode](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
@@ -58,6 +59,7 @@ Følgende er krav for å eksportere en kunde:
 * Land/område er valgt på kundekortet, for lokale kunder, med tomt land/område som er angitt på siden **Selskapsopplysninger**, må ha en definert ISO-kode.
 * Hvis kunden har et telefonnummer, må nummeret være unikt siden Shopify ikke godtar en ny kunde med det samme telefonnummeret.
 * Hvis kunden har et telefonnummer, må det være i E.164-formatet. Det er støtte for forskjellige formater hvis de representerer et tall som kan slås fra hvor som helst i hele verden. Følgende formater er gyldige:
+
   * xxxxxxxxxx
   * +xxxxxxxxxxx
   * (xxx)xxx-xxxx
@@ -82,7 +84,8 @@ En kunde i Shopify har i tillegg en standard adresse. Adressen kan inneholde et 
 |1|**Navn**|Høyeste prioritet hvis feltet **Navnekilde** på **Shopify-butikkortet** inneholder *Selskapsnavn*.|
 |2|**Navn 2**|Laveste prioritet hvis feltet **Navn 2-kilde** på **Shopify-butikkortet** inneholder *Selskapsnavn*.|
 
-For adresser der land/område brukes, velger du *Kode* eller *Navn* i feltet **Landkilde** på **Shopify-butikkortet**. Koden eller navnet angir datatypen som er lagret i [!INCLUDE[prod_short](../includes/prod_short.md)] i feltet **Land**.
+For adresser der land/område brukes, velger du **Kode** eller **Navn** i feltet **Fylkeskilde** på siden **Shopify-butikkortet**. Koden eller navnet angir datatypen som er lagret i [!INCLUDE[prod_short](../includes/prod_short.md)] i feltet **Fylke**. Husk å starte kundemaler per land, slik at landskode/navnetildeling er klar. 
+
 
 ## Synkroniser kunder
 

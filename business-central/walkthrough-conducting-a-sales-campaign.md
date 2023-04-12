@@ -44,7 +44,7 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 
 ## Hovedscenario
 
- Markedsføringssjefen i salgsavdelingen hos CRONUS har ansvaret for å planlegge og kjøre kampanjer. Han bestemmer også hvilke varemesser de skal delta på, og han evaluerer kampanjefremdriften.  
+ Markedsføringssjefen i salgsavdelingen hos CRONUS har ansvaret for å planlegge og kjøre kampanjer. Markedsføringslederen bestemmer også hvilke varemesser de skal delta på, og evaluerer kampanjefremdriften.  
 
  Markedsføringsmedarbeideren i markedsføringsavdelingen håndterer produksjon, distribusjon og plassering av markedsføringsmateriell.  
 
@@ -96,7 +96,7 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 
 ## Utvinne dataene
 
- Markedsføringssjefen ser nærmere på den segmenterte listen over kontakter og finner ut at listen er altfor lang. Han bestemmer seg for å korte ned listen basert på faktiske potensielle kunder for å sikre at han fokuserer på riktig målgruppe. Denne raffineringen og reduseringen av dataene kalles også datautvinning.  
+ Markedsføringssjefen ser nærmere på den segmenterte listen over kontakter og finner ut at listen er altfor lang. Lederen bestemmer seg for å korte ned listen basert på faktiske potensielle kunder for å fokusere på riktig målgruppe. Denne raffineringen og reduseringen av dataene kalles også datautvinning.  
 
 ### Slik fjerner du kontakter fra segmentet:  
 

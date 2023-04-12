@@ -69,9 +69,9 @@ I denne gjennomgangen får du en innføring i prosjektstyringsfunksjoner i prosj
 
 ## Hovedscenario
 
-Denne gjennomgangen fokuserer på CRONUS, et design- og konsulentfirma som designer og innreder nye infrastrukturer, for eksempel konferanserom og kontorer, med møbler, tilbehør og reoler. Mesteparten av arbeidet er prosjektorientert. Florian er en prosjektleder hos CRONUS. Han bruker prosjekter til å få en oversikt over alle pågående prosjekter som CRONUS har startet, samt ferdige prosjekter. Han er den som vanligvis utarbeider avtaler med kunder og registrerer kjernen av prosjektet, som er oppgave- og planleggingslinjer samt priser, i [!INCLUDE[prod_short](includes/prod_short.md)]. Han synes det er enkelt å opprette, vedlikeholde og gå gjennom informasjon. Florian liker også hvordan [!INCLUDE[prod_short](includes/prod_short.md)] gjør det mulig å kopiere prosjekter og betale i avdrag.
+Denne gjennomgangen fokuserer på CRONUS, et design- og konsulentfirma som designer og innreder nye infrastrukturer, for eksempel konferanserom og kontorer, med møbler, tilbehør og reoler. Mesteparten av arbeidet er prosjektorientert. Prakash, prosjektleder hos CRONUS, bruker prosjekter til å få en oversikt over alle pågående prosjekter som CRONUS har startet, samt ferdige prosjekter. Prakash er den som vanligvis utarbeider avtaler med kunder og registrerer kjernen av prosjektet, som er oppgave- og planleggingslinjer samt priser, i [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash synes det er enkelt å opprette, vedlikeholde og gå gjennom informasjon. Florian liker også hvordan [!INCLUDE[prod_short](includes/prod_short.md)] gjør det mulig å kopiere prosjekter og betale i avdrag.
 
- Marie, som er medlem i prosjektgruppen og rapporterer til Florian, har ansvaret for den daglige overvåkingen av prosjektet. Hun angir sitt eget arbeid i tillegg til arbeidet som utføres av teknikerne på hver oppgave. Hun registrerer varene som de har brukt og de påløpte kostnadene.  
+ Marie, som er medlem i prosjektgruppen og rapporterer til Florian, har ansvaret for den daglige overvåkingen av prosjektet. Tricia registrerer sitt eget arbeid i tillegg til arbeidet utført av teknikere i hver oppgave, registrerer varene de har brukt, og påløpte kostbeløp.  
 
 ## Klargjøre eksempeldata
 
@@ -98,7 +98,7 @@ Denne gjennomgangen fokuserer på CRONUS, et design- og konsulentfirma som desig
 
 6. Lukk siden.
 
-I neste fremgangsmåte kan du opprette en prosjektkladd for Marie for å bokføre forbruket hennes.  
+I neste fremgangsmåte kan du opprette en prosjektkladd for Tricia for å bokføre forbruket.  
 
 ### Slik oppretter du en prosjektkladd  
 
@@ -182,7 +182,7 @@ I neste fremgangsmåte kan du opprette en prosjektkladd for Marie for å bokfør
 - **Fakturerbar**: Fakturert, men ikke lagt til i tidsplanen.  
 - **Både Budsjett og Fakturerbar**: Faktureres og legges til i tidsplanen.  
 
- I denne gjennomgangen bruker prosjektlederen **Både Budsjett og Fakturerbar**. Han oppretter tre planleggingslinjer for oppgave 1010 og to planleggingslinjer for oppgave 1020.  
+ I denne gjennomgangen bruker prosjektlederen **Både Budsjett og Fakturerbar**. De oppretter tre planleggingslinjer for oppgave 1010 og to planleggingslinjer for oppgave 1020.  
 
 ### Slik oppretter du planleggingslinjer:  
 
@@ -208,7 +208,7 @@ I neste fremgangsmåte kan du opprette en prosjektkladd for Marie for å bokfør
 
 ## Beregne gjenstående forbruk
 
- Marie, medlemmet i prosjektgruppen, har arbeidet på prosjektet en stund og vil registrere timene og forbruket på prosjektet. Hun har ikke arbeidet flere timer enn det som ble avtalt med kunden på forhånd. Hun bruker kjørselen **Beregn gjenstående forbruk** til å beregne gjenstående forbruk for prosjektet i en prosjektkladd. For hver oppgave beregner kjørselen differansen mellom planlagt forbruk av varer, ressurser og finansutgifter og det faktiske forbruket som er bokført i prosjektposter. Det gjenstående forbruket vises deretter i prosjektkladden, som hun kan bokføre det fra.  
+ Tricia, medlemmet i prosjektgruppen, har arbeidet på prosjektet en stund og vil registrere timene og forbruket på prosjektet. Tricia har ikke arbeidet flere timer enn det som ble avtalt med kunden på forhånd. Tricia bruker kjørselen **Beregn gjenstående forbruk** til å beregne gjenstående forbruk for prosjektet i en prosjektkladd. For hver oppgave beregner kjørselen differansen mellom planlagt forbruk av varer, ressurser og finansutgifter og det faktiske forbruket som er bokført i prosjektposter. Det gjenstående forbruket vises deretter i prosjektkladden, som hun kan bokføre det fra.  
 
 ### Slik beregner du gjenstående forbruk:  
 
@@ -226,7 +226,7 @@ Linjene er nå bokført.
 
 ## Opprette og bokføre en salgsfaktura for prosjekt
 
- Marie kan deretter opprette en ny faktura for hele prosjektet eller for deler av et prosjekt. Hun kan også knytte fakturaen til en annen faktura for samme kunde og samme prosjekt. I dette tilfellet fakturerer hun for hele prosjektet siden det nå er fullført.  
+ Marie kan deretter opprette en ny faktura for hele prosjektet eller for deler av et prosjekt. Tricia kan også knytte fakturaen til en annen faktura for samme kunde og samme prosjekt. I dette tilfellet fakturerer Tricia for hele prosjektet siden det nå er fullført.  
 
 ### Slik oppretter du en salgsfaktura for prosjekt:  
 
@@ -236,7 +236,7 @@ Linjene er nå bokført.
 4.  Fyll ut bokføringsdatoen og definer om du vil opprette én faktura per oppgave eller én enkelt faktura for alle oppgaver, på hurtigfanen **Alternativer**.  
 5.  Velg **OK**-knappen for å opprette fakturaen, og velg deretter **OK**-knappen på bekreftelsessiden.  
 
- Etter at Marie har opprettet fakturaen, kan hun f.eks. få tilgang til den fra rollesenteret **Ordrebehandler**. 
+ Etter at Tricia har opprettet fakturaen, kan hun f.eks. få tilgang til den fra rollesenteret **Ordrebehandler**. 
 
 ### Slik bokfører du en ny salgsfaktura:  
 
@@ -250,7 +250,7 @@ Linjene er nå bokført.
 2.  Velg en planleggingslinje som er fakturert, og velg deretter handlingen **Salgsfaktura/kreditnota**.
 3. På siden **Prosjektfakturaer** velger du handlingen **Åpen salgsfaktura/kreditnota**.  
 
- Marie har spørsmål om prisene, kostbeløpene og fortjenesten som er relevant for dette bestemte prosjektet, og derfor går hun til denne informasjonen via **Statistikk**-siden.  
+ Tricia har spørsmål om prisene, kostbeløpene og fortjenesten som er relevant for dette bestemte prosjektet, og derfor går Tricia til denne informasjonen via **Statistikk**-siden.  
 
 ### For å åpne statistikksiden  
 
@@ -260,7 +260,7 @@ Linjene er nå bokført.
 
 ## Håndtere faste priser
 
- CRONUS har fått i oppdrag å sette opp konferanserom. Som prosjektleder trenger Prakash en god oversikt over oppgavene som kreves i prosjektet, sammen med de tilknyttede budsjetterte og påløpte kostbeløpene for hver oppgave. I tillegg vil han vite salgsbeløpet for prosjektet og beløpet som er fakturert hittil. Han har inngått en avtale med kunden når det gjelder fast pris for prosjektet.  
+ CRONUS har fått i oppdrag å sette opp konferanserom. Som prosjektleder trenger Prakash en god oversikt over oppgavene som kreves i prosjektet, sammen med de tilknyttede budsjetterte og påløpte kostbeløpene for hver oppgave. I tillegg vil Prakash vite salgsbeløpet for prosjektet og beløpet som er fakturert hittil. De har inngått en avtale med kunden når det gjelder fast pris for prosjektet.  
 
 ### Slik håndterer du faste priser i prosjekter  
 
@@ -268,7 +268,7 @@ Linjene er nå bokført.
 2. Velg **Tremøbler AS**-prosjektnummeret og velg deretter **Prosjektoppgavelinjer**-handlingen.  
 3. Velg linje 1120, og høyreklikk beløpet i feltet **Budsjett (kostbeløp)** og velg **Drilldown**.  
 
-     Ved å gå gjennom planleggingslisten for prosjekt finner Florian ut at han også trenger Marie i 30 timer på dette trinnet i prosjektet. Han avtaler en fast pris med kunden.  
+     Ved å gå gjennom planleggingslisten er det bestemt at Prakash også trenger Tricia i 30 timer på dette trinnet i prosjektet. Prakash avtaler en fast pris med kunden.  
 
 4. På siden **Prosjektoppgavelinjer** velger du linje 1120, og deretter velger du handlingen **Prosjektplanleggingslinjer**. Opprett en planleggingslinje med følgende informasjon:  
 
@@ -280,7 +280,7 @@ Linjene er nå bokført.
 5. Høyreklikk feltet **Budsjett (kostbeløp)**, og velg **Drilldown** på nytt på siden **Prosjektoppgavelinjer**. Vis endringene av estimatet. Du ser at de 30 timene er lagt til i estimatet.  
 6. Lukk sidene.  
 
-Etter at Marie er lagt til i estimatet for denne oppgavelinjen, arbeider hun 25 timer på prosjektet. Hun registrerer disse timene i prosjektkladden.  
+Etter at Tricia er lagt til i estimatet for denne oppgavelinjen, arbeider hun 25 timer på prosjektet og angir disse timene i prosjektkladden.  
 
 ### Slik angir du timer i prosjektkladden:  
 
@@ -298,7 +298,7 @@ Etter at Marie er lagt til i estimatet for denne oppgavelinjen, arbeider hun 25 
 
 3. Velg handlingen **Bokfør**.  
 
-     Noen få dager senere arbeider Marie 10 timer til på prosjektet. Hun har nå arbeidet 35 timer i alt. Siden avtalen gjelder for 30 timer med kunden, blir kunden bare belastet for 5 av disse timene. Marie legger til de ekstra fem timene hun arbeidet, manuelt i timeplanen.  
+     Noen få dager senere arbeider Tricia for ytterligere 10 timer på prosjektet og har nå arbeidet 35 timer totalt. Siden avtalen gjelder for 30 timer med kunden, blir kunden bare belastet for 5 av disse timene. Tricia legger til de ekstra fem timene hun arbeidet, manuelt i timeplanen.  
 
 4. Velg handlingen **Beregn gjenstående forbruk** på siden **Prosjektkladd**.  
 5. Angi følgende informasjon på hurtigfanen **Alternativer** på siden **Beregn gjenstående forbruk for prosjekt**:  
@@ -442,7 +442,7 @@ Fremgangsmåtene nedenfor viser hvordan du oppretter en ny jobb, angir prissetti
 
 11. Opprett en lignende planleggingslinjepost for prosjektoppgave 4000.  
 
- Nå som oppgave- og planleggingslinjene er registrert, oppretter Florian en faktura for den første betalingen. Han gjør dette fra prosjektoppgavelinjene for å sikre at fakturaen bare inneholder linjene for den første betalingen. Du kan åpne ordren fra planleggingslinjene eller oppgavelinjene.  
+ Nå som oppgave- og planleggingslinjene er registrert, oppretter Florian en faktura for den første betalingen. Prakash gjør dette fra prosjektoppgavelinjene for å sikre at fakturaen bare inneholder linjene for den første betalingen. Du kan åpne ordren fra planleggingslinjene eller oppgavelinjene.  
 
 ### Slik oppretter du en faktura:  
 

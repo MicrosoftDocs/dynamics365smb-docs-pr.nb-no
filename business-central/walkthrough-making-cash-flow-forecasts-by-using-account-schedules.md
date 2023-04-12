@@ -39,7 +39,7 @@ Denne gjennomgangen viser oppgaver som utføres av følgende brukerrolle:
 
 ## Hovedscenario
 
-Ken er kontrollør på CRONUS og utarbeider månedlige kontantstrømprognoser. Han tar med finans, salg, kjøp og aktiva i prognosene, som han deretter presenterer til ØKDIR Sara for forretningsinnsikt.  
+Ken er kontrollør på CRONUS og utarbeider månedlige kontantstrømprognoser. Ken tar med finans, salg, kjøp og aktiva i prognosene, og presenterer til ØKDIR Sara for forretningsinnsikt.  
 
 ## Definer et nytt navn for finansrapporten
 
@@ -95,12 +95,12 @@ Når et finansrapportnavn er definert, definerer Ken hver linje i kontantstrømf
 
 ## Definer en ny kolonnedefinisjon
 
-Før Ken kan skrive ut kontantstrømprognosen, må han opprette kolonnedefinisjonen for den numeriske informasjonen. Han definerer informasjon han vil bruke fra linjene, i kolonnene.
+Før Ken skriver ut kontantstrømprognosen, må han opprette kolonnedefinisjonen for den numeriske informasjonen. Ken definerer informasjon som trengs for å bruke fra linjene, i kolonnene.
 
 - Den første kolonnen viser tallet *C10* med tittelen **Beløp**, og inneholder bevegelsen.  
 - Den andre kolonnen viser tallet *C20* med tittelen **Saldo per dato**, og inneholder transaksjoner for perioden.  
 - Den tredje kolonnen har tallet *C30* med tittelen **Hele året**, og viser bevegelsen i saldoene for hele regnskapsåret.  
-- Til slutt tildeler han kolonnedefinisjonen som standardalternativ for finansrapporten **Prognose**.  
+- Til slutt tildeler Ken kolonnedefinisjonen som standardalternativ for finansrapporten **Prognose**.  
 
 ### Definer en ny kolonnedefinisjon
 

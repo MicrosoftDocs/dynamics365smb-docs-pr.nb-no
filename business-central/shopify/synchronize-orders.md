@@ -28,7 +28,9 @@ En vanlig Shopify-ordre kan omfatte kostnader i tillegg til delsummen, for eksem
 
 Aktiver **Opprett ordrer automatisk** for å opprette salgsdokumenter automatisk i [!INCLUDE[prod_short](../includes/prod_short.md)] når Shopify-ordren importeres.
 
-Salgsdokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)] inneholder en kobling til Shopify-ordren. Hvis du velger feltet **Shopify-ordrenr. på dok.linje**, gjentas denne informasjonen på salgslinjene av typen *Merknad*.
+Hvis du vil frigi et salgsdokument automatisk, slår du på vekslebryteren **Frigi ordre automatisk**.
+
+Salgsdokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)] kobles til Shopify-ordren, og du kan legge til et felt som ikke allerede vises på siden. Hvis du vil ha mer informasjon om hvordan du legger til et felt, går du til [Slik begynner du å tilpasse en side gjennom **Tilpasning**-banneret](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). Hvis du velger feltet **Shopify-ordrenr. på dok.linje**, gjentas denne informasjonen på salgslinjene av typen **Merknad**.
 
 I feltet **Mva-områdekode** kan du angi prioriteten for hvordan du velger mva-områdekode eller mva-bokføringsgruppe for firma basert på adresse. Den importerte Shopify-ordren inneholder informasjon om avgifter, men avgiftene blir beregnet på nytt når du oppretter salgsdokumentet, slik at det er viktig at mva.-/avgiftsinnstillingene er riktige i [!INCLUDE[prod_short](../includes/prod_short.md)]. Hvis du vil ha mer informasjon om avgifter, kan du se [Definer avgifter for Shopify-koblingen](setup-taxes.md).
 
@@ -75,11 +77,11 @@ Fremgangsmåten nedenfor beskriver hvordan du importerer og oppdaterer ordrer.
 > [!NOTE]  
 > Når du filtrerer etter kode, må du bruke filterkoder `@` og `*`. Hvis du for eksempel vil importere ordrer som inneholder *tag1*, bruk `@*tag1*`. `@` vil sikre at resultatet er skiller mellom store og små bokstaver, mens `*` finner ordrer med flere koder.
 
-7. Velg **OK**-knappen.
+6. Velg **OK**-knappen.
 
 Du kan eventuelt søke etter den satsvise jobben **Synkroniser ordrer fra Shopify**.
 
-Du kan planlegge at oppgaven skal utføres på en automatisk måte. Finn ut mer under [Planlegg gjentakende oppgaver](background.md#to-schedule-recurring-tasks).
+Du kan planlegge at oppgaven skal utføres automatisk. Finn ut mer under [Planlegg gjentakende oppgaver](background.md#to-schedule-recurring-tasks).
 
 ## Se gjennom importerte ordrer
 
@@ -90,7 +92,7 @@ Når importen er fullført, kan du utforske Shopify-ordren og finne all relatert
 
 ## Opprett salgsdokumenter i Business Central
 
-Hvis veksleknappen **Opprett ordrer automatisk** er aktivert på **Shopify-butikkortet**, prøver [!INCLUDE[prod_short](../includes/prod_short.md)] å opprette et salgsdokument når ordren er importert. Hvis problemer som manglede kunde eller produkt oppstår, må du løse problemene og opprette salgsordren på nytt.
+Hvis veksleknappen **Opprett ordrer automatisk** er aktivert på **Shopify-butikkortet**, prøver [!INCLUDE[prod_short](../includes/prod_short.md)] å opprette et salgsdokument etter at ordren er importert. Hvis problemer som manglede kunde eller produkt oppstår, må du løse problemene og opprette salgsordren på nytt.
 
 ### Slik oppretter du salgsdokumenter
 
@@ -132,20 +134,24 @@ Neste trinn avhenger av **Kundetildelingstype**.
 
 I Shopify:
 
-|Rediger|Innvirkning|
-|------|-----------|
-|Endre oppfyllingslokasjonen | Opprinnelig lokasjon blir synkronisert til [!INCLUDE[prod_short](../includes/prod_short.md)]. |
-|Endre oppfyllingslokasjonen og registrer oppfyllelse i Shopify| Hvis ordren allerede er importert, oppdateres ikke linjene. Ellers vil den importerte ordren bruke oppfyllingslokasjonen. |
-|Rediger en ordre og endre antall| Ordrehodet og de supplerende tabellene blir oppdatert i [!INCLUDE[prod_short](../includes/prod_short.md)]. |
-|Rediger en ordre og legg til en ny vare | Ordrehodet blir oppdatert, linjer blir ikke oppdatert |
+|Rediger|Innvirkning for allerede importert ordre|Innvirkning for ordre som blir importert for første gang|
+|------|-----------|-----------|
+|Endre oppfyllingslokasjonen | Opprinnelig lokasjon er på linjer | Oppfyllelseslokasjon er synkronisert med [!INCLUDE[prod_short](../includes/prod_short.md)].|
+|Rediger en ordre og øk antall| Ordrehodet og de supplerende tabellene blir oppdatert i [!INCLUDE[prod_short](../includes/prod_short.md)].| Importert ordre vil bruke et nytt antall|
+|Rediger en ordre og reduser antall| Ordrehodet og de supplerende tabellene blir oppdatert i [!INCLUDE[prod_short](../includes/prod_short.md)].| Importert ordre vil bruke det opprinnelige antallet, feltet Antall som skal oppfylles vil inneholde en ny verdi.|
+|Rediger en ordre og fjern eksisterende vare | Ordrehodet og de supplerende tabellene blir oppdatert i [!INCLUDE[prod_short](../includes/prod_short.md)].| Fjernet vare importeres fortsatt, feltet Antall som skal oppfylles inneholder null. |
+|Rediger en ordre og legg til en ny vare | Ordrehodet blir oppdatert, linjer blir ikke oppdatert | Original og tilføyde varer blir importert. |
+|Behandle ordre: oppfyll, oppdater betalingsinformasjon | Ordrehodet blir oppdatert, men linjer blir ikke oppdatert |Endring har ingen innvirkning på hvordan ordren importeres.|
+|Annuller ordre | Ordrehodet blir oppdatert, men linjer blir ikke oppdatert |Annullert ordre importeres ikke |
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
 |Rediger|Innvirkning|
 |------|-----------|
-|Endre lokasjonen til en annen lokasjon, tildelt Shopify-lokasjonene. Bokfør levering. | Etter at du har synkronisert oppfyllelsen, oppdateres lokasjonen i Shopify. |
+|Endre lokasjonen til en annen lokasjon, tildelt Shopify-lokasjonene. Bokfør levering. | Ordren blir merket som oppfylt. Opprinnelig lokasjon blir brukt. |
 |Endre lokasjonen til en annen lokasjon, ikke tildelt Shopify-lokasjonene. Bokfør levering. | Oppfyllelsen synkroniseres ikke med Shopify. |
-|Endre reduksjonsantall. Bokfør levering. | Shopify-ordren blir merket som delvis fullført. |
+|Reduser antall. Bokfør levering. | Shopify-ordren blir merket som delvis fullført. |
+|Øk antall. Bokfør levering. | Oppfyllelsen synkroniseres ikke med Shopify. |
 |Legg til en ny vare. Bokfør levering. | Shopify-ordren blir merket som fullført. Linjene blir ikke oppdatert. |
 
 ## Synkroniser leveringer til Shopify
@@ -162,7 +168,8 @@ Du kan også bruke handlingen **Synkroniser forsendelser** på sidene Shopify-or
 
 Du kan planlegge at oppgaven skal utføres på en automatisk måte. Finn ut mer under [Planlegg gjentakende oppgaver](background.md#to-schedule-recurring-tasks).
 
->[Viktig] Lokasjonen, inkludert tom lokasjon, definert i den bokførte følgeseddellinjen må ha en samsvarende post på Shopify-lokasjonen. Hvis ikke sendes ikke denne linjen tilbake til Shopify. Finn ut mer på [Lokasjonstildeling](synchronize-orders.md#location-mapping).
+>[!Important]
+>Lokasjonen, inkludert tom lokasjon, definert i den bokførte følgeseddellinjen må ha en samsvarende post på Shopify-lokasjonen. Hvis ikke sendes ikke denne linjen tilbake til Shopify. Finn ut mer på [Lokasjonstildeling](synchronize-orders.md#location-mapping).
 
 Husk å kjøre **Synkroniser ordrer fra Shopify** for å oppdatere oppfyllingsstatusen for en ordre i [!INCLUDE[prod_short](../includes/prod_short.md)]. Koblingsfunksjonen arkiverer også fullstendig betalte og oppfylte ordrer i både Shopify og [!INCLUDE[prod_short](../includes/prod_short.md)] gitt at betingelsene er oppfylt.
 

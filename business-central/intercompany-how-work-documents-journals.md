@@ -1,24 +1,25 @@
 ---
 title: Bokføre konserninterne dokumenter og kladder
 description: Dette emnet forklarer hvordan du bruker konserninterne dokumenter eller kladder til å bokføre transaksjoner med de konserninterne partnerne.
-author: SorenGP
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: how-to
+ms.date: 02/06/2023
+ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '600, 610'
-ms.date: 03/09/2022
-ms.author: edupont
 ---
 # Arbeide med konserninterne dokumenter og kladder
-Du bruker konserninterne dokumenter eller kladder til å bokføre transaksjoner med de konserninterne partnerne. Når du bokfører et konserninternt dokument eller en kladdelinje i selskapet, opprettes det et tilsvarende dokument eller kladdelinje i den konserninterne utboksen som du kan overføre til partneren. Partneren kan deretter bokføre den tilsvarende transaksjonen i selskapet sitt, uten å måtte registrere dataene på nytt.
 
-For salgs-og kjøpsdokumenter sikrer den konserninterne partnerkoden på den involverte kunden eller leverandøren at alle ordrer og fakturaer som genereres i forbindelse med transaksjoner med disse selskapene, produserer tilhørende bilag i partnerselskapet, noe som fører til riktig balansering av kontoene.
+Bruk konserninterne dokumenter eller kladder til å bokføre transaksjoner med de konserninterne partnerne. Når du bokfører et konserninternt dokument eller en kladdelinje i selskapet, opprettes det et tilsvarende dokument eller kladdelinje i den konserninterne utboksen. Du overfører linjen fra utboksen til partneren. Partneren kan deretter bokføre den tilsvarende transaksjonen i selskapet sitt, uten å måtte registrere dataene på nytt.
 
-For konserninterne finanskladdelinjer trenger du ikke å angi kontoene for et individuelt sett med bøker, men ganske enkelt gi identifikasjonen av partnerselskapet. Tilsvarende konserinterne finanskladdelinjer opprettes deretter i partnerselskapet, noe som fører til balansering av bøkene i begge selskapene som er involvert i en transaksjon.
+For salgs-og kjøpsdokumenter sikrer den konserninterne partnerkoden på kunden eller leverandøren at alle ordrer og fakturaer for transaksjoner mellom partnerne, produserer tilhørende bilag i partnerselskapene. Selskapskontoene er i balanse.
 
-## Slik fyller du ut og sender en konsernintern ordre
+Det samme gjelder for konserninterne finanskladdelinjer. Du trenger ikke å angi kontoer, men du velger bare partnerselskapet. Tilsvarende konserninterne finanskladdelinjer opprettes deretter i partnerselskapet.
+
+## Fyll ut og send en konsernintern ordre
+
 Du kan sende ordrer, bestillinger og returordrer før bokføring. Fakturaer og kreditnotaer kan ikke sendes før de bokført.
 
 Fremgangsmåten nedenfor beskriver hvordan du fyller ut og sender en konsernintern ordre. Den samme fremgangsmåten gjelder for konserninterne bestillinger og returordrer og for bokførte konserninterne fakturaer og kreditnotaer.  
@@ -30,22 +31,22 @@ Fremgangsmåten nedenfor beskriver hvordan du fyller ut og sender en konserninte
 5. Hvis du vil sende ordren før du bokfører den, kan du velge **Send KI-ordre**.
 
 > [!NOTE]
-> Hvis du utfører trinn 4, blir ordren flyttet til den konserninterne utboksen der du kan sende den senere. Hvis du vil ha mer informasjon, se [Administrere den konserninterne innboksen og utboksen](intercompany-how-manage-intercompany-inbox.md).
+> Hvis du gjør trinn 5, går ordren til den konserninterne utboksen der du kan sende den senere. Hvis du vil lære mer om den konserninterne innboksen og utboksen, går du til [Administrer den konserninterne innboksen og utboksen](intercompany-how-manage-intercompany-inbox.md).
 
-## Slik fyller du ut og bokfører en konsernintern kladd
+## Fyll ut og bokfør en konsernintern kladd
 
-Når du bokfører en konsernintern kladdelinje i selskapet, opprettes det en tilsvarende kladdelinje i den konserninterne utboksen som du kan overføre til partneren. Med lanseringsbølge 1 for 2022 kan du også definere selskapet for automatisk oppretting av mottatte konserninterne transaksjoner fra konserninterne partnere, bokført gjennom den konserninterne finanskladden. Partneren kan deretter bokføre den tilsvarende transaksjonen i selskapet sitt, uten å måtte registrere dataene på nytt.
+Når du bokfører en konsernintern kladdelinje i selskapet, opprettes det en tilsvarende kladdelinje i den konserninterne utboksen som du kan overføre til partneren. Med lanseringsbølge 1 for 2022 kan du også definere selskapet for å opprette mottatte konserninterne transaksjoner automatisk som partnere bokførte i konserninterne finanskladder. Partneren kan deretter bokføre den tilsvarende transaksjonen i selskapet sitt, uten å måtte registrere dataene på nytt.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konsernintern finanskladder**, og velg deretter den relaterte koblingen.  
-2. Åpne den relevante kjørselen for kladden. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
-3. Fyll ut feltene etter behov.
+2. Åpne kladden. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
+3. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip_md](../archive/invoicing/includes/tooltip-inline-tip_md.md)]
 4. I feltet **Finanskontonr. for KI-partner** angir du nummeret til den konserninterne finanskontoen der beløpet skal bokføres i partnerens selskap.
 
     > [!NOTE]
     > Dette Feltet må fylles ut på en linje med en bankkonto eller finanskonto i feltet **Kontonr.** eller **Motkontonr.**.  
 5. Velg handlingen **Bokfør**.
 
-De involverte postene bokføres i selskapet ditt, og en kladd med tilhørende poster opprettes i den konserninterne utboksen som du kan sende til partnerselskapet. Hvis du vil ha mer informasjon, se [Administrere den konserninterne innboksen og utboksen](intercompany-how-manage-intercompany-inbox.md).
+Postene bokføres i selskapet ditt, og en kladd med tilhørende poster opprettes i den konserninterne utboksen slik at du kan sende dem til partnerselskapet.
 
 ## Se også
 

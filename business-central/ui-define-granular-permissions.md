@@ -2,17 +2,17 @@
 title: Definere detaljerte tillatelser
 description: Denne artikkelen beskriver hvordan du definerer detaljerte tillatelser og tildeler hver bruker tillatelsessettet vedkommende trenger for å gjøre jobben.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'access, right, security'
 ms.search.form: '1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862'
-ms.date: 11/29/2022
-ms.author: bholtorf
+ms.date: 02/08/2023
 ---
 
 # Tilordne tillatelser til brukere og grupper
+
+[!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)]-sikkerhetssystemet styrer hvilke objekter en bruker har tilgang til i hver database eller hvert miljø, sammen med brukerens lisens. For hver bruker kan du angi om de kan lese, endre eller angi data i de valgte databaseobjektene. Hvis du vil ha mer informasjon, se [Datasikkerhet](/dynamics365/business-central/dev-itpro/security/data-security?tabs=object-level) i utvikler- og administrasjonsinnholdet for [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -26,16 +26,16 @@ I [!INCLUDE[prod_short](includes/prod_short.md)] finnes det to nivåer med tilla
 
 - Detaljerte tillatelser som du tildeler i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-  Denne artikkelen beskriver hvordan du kan definere og bruker tillatelser i [!INCLUDE [prod_short](includes/prod_short.md)] til å endre standardkonfigurasjonen.  
+Denne artikkelen beskriver hvordan du definerer og bruker tillatelser i [!INCLUDE [prod_short](includes/prod_short.md)] til å endre standardkonfigurasjonen.  
 
 [!INCLUDE [admin-gdap-users](includes/admin-gdap-users.md)]  
 Hvis du vil ha mer informasjon, kan du se [Delegert administratortilgang til Business Central Online](/dynamics365/business-central/dev-itpro/administration/delegated-admin).  
 
-[!INCLUDE [prod_short](includes/prod_short.md)] online inneholder standard brukergrupper som tildeler brukere automatisk basert på lisensen. Du kan endre standardkonfigurasjonen ved å endre eller legge til brukergrupper, tillatelsessett og tillatelser. Følgende tabell beskriver nøkkelscenarioer for å endre standardtillatelsene.  
+[!INCLUDE [prod_short](includes/prod_short.md)] online inneholder standard brukergrupper som tildeler brukere automatisk basert på lisensen. Du kan endre standardkonfigurasjonen ved å endre eller legge til sikkerhetsgrupper, tillatelsessett og tillatelser. Følgende tabell beskriver nøkkelscenarioer for å endre standardtillatelsene.  
 
 |Hvis du vil  |Se  |
 |---------|---------|
-|For å gjøre det enklere å behandle tillatelser for flere brukere, kan du organisere dem i brukergrupper og dermed tilordne eller endre ett tillatelsessett for mange brukere i én handling.| [Slik behandler du tillatelser ved hjelp av brukergrupper](#to-manage-permissions-through-user-groups) |
+|For å gjøre det enklere å behandle tillatelser for flere brukere, kan du organisere dem i sikkerhetsgrupper og dermed tilordne eller endre ett tillatelsessett for mange brukere i én handling.| [Slik behandler du tillatelser ved hjelp av brukergrupper](#to-manage-permissions-through-user-groups) |
 |Slik behandler du tillatelsessett for bestemte brukere | [Slik tilordner du tillatelsessett til brukere](#to-assign-permission-sets-to-users) |
 |Slik lærer du hvordan du definerer et tillatelsessett|[Slik oppretter du et tillatelsessett](#to-create-a-permission-set)|
 |Slik viser eller feilsøker du en brukers tillatelser|[For å få en oversikt over en brukers tillatelser](#to-get-an-overview-of-a-users-permissions)|
@@ -76,11 +76,11 @@ Vedlikehold er også enklere. Når du legger til systemtillatelser, oppdateres d
   |**Reduser til indirekte**|Endre tilgangsnivået til indirekte hvis det er noen tillatelsessett som gir direkte tilgang til objektet. Velg for eksempel dette alternativet hvis tillatelsessettet gir direkte tilgang til finansposter, men du ikke vil at brukerne skal ha full tilgang til postene.|
   
   > [!NOTE]
-  > Det høyeste tillatelsessettet i hierarkiet avgjør om tillatelsen er inkludert eller utelatt. Hvis to sett er på samme nivå i hierarkiet og en tillatelse inkluderes i et sett, men utelates i det andre, blir tillatelsen utelatt.
+  > Hvis en tillatelse er både inkludert og utelatt, blir tillatelsen utelatt.
 
 6. Bruk feltene **Objekttype** og **Objekt-ID** til å angi objektet du gir tilgang til.
 
-> [!TIP]
+  > [!TIP]
   > Nye linjer viser standardverdier. Feltet **Objekttype** inneholder for eksempel **tabelldata**, og feltet **Objekt-ID** inneholder **0**. Standardverdiene er bare plassholdere, og de brukes ikke. Du må velge en objekttype og et objekt i feltet **Objekt-ID** før du kan opprette en ny linje.
 
 7. Valgfritt: Hvis du definerer tillatelser for en dataobjekttype for tabell, kan du filtrere dataene som en bruker har tilgang til i feltene i den valgte tabellen, i feltet **Sikkerhetsfilter**. Det kan for eksempel hende at du vil gi en bruker tilgang til bare å lese poster som inneholder informasjon om en bestemt kunde. Hvis du vil ha mer informasjon, kan du se [Sikkerhetsfiltre begrense en brukers tilgang til bestemte poster i en tabell](#security-filters-limit-a-users-access-to-specific-records-in-a-table) og [Bruk sikkerhetsfiltre](/dynamics365/business-central/dev-itpro/security/security-filters).
@@ -105,9 +105,16 @@ I **Resultat**-ruten bruker du feltet **Inkluderingsstatus** til å identifisere
 
 Hvis du vil ha en samlet visning av tillatelser i tillatelsessettet, velger du handlingen **Vis alle tillatelser**. Siden **Utvidede tillatelser** viser alle tillatelser som allerede er tildelt tillatelsessettet, og tillatelsene i de tilføyde tillatelsessettene.
 
-Hvis du vil utelukke et tillatelsessett du har lagt til, merker du linjen i **Resultat**-ruten, velger **Vis flere alternativer** og velger **Utelat**. Når du utelater et tillatelsessett, opprettes en linje i ruten **Tilgangssett** i typen Utelukket. Hvis du har utelukket et tillatelsessett, men vil ta det med på nytt, sletter du linjen i ruten **Tillatelsessett**.
+Hvis du vil utelukke alle tillatelser fra et tillatelsessett, merker du linjen i **Resultat**-ruten, velger **Vis flere alternativer** og velger **Utelat**. Når du utelater et tillatelsessett, opprettes en linje i ruten **Tilgangssett** i typen Utelukket. Hvis du har utelukket et tillatelsessett, men vil ta det med på nytt, sletter du linjen i ruten **Tillatelsessett**.
 
-Hvis du vil utelukke eller delvis utelukke en bestemt tillatelse i et sett du har lagt til, oppretter du en linje for objektet under **Tillatelser**. Feltene for tilgangsnivå, Innsettingstillatelse, Endringstillatelse og så videre vil alle inneholde Utelat. Hvis du vil tillate et bestemt tilgangsnivå, velger du det aktuelle alternativet.
+Hvis du vil utelukke eller delvis utelukke en bestemt tillatelse i et sett du har lagt til, oppretter du en linje for objektet under **Tillatelser**. Feltene for tilgangsnivå, Innsettingstillatelse, Endringstillatelse og så videre vil alle inneholde **Utelat**. Hvis du vil tillate et bestemt tilgangsnivå, velger du det aktuelle alternativet.
+
+> [!NOTE]
+> Når du utelater et tillatelsessett, ekskluderes alle tillatelsene i settet. [!INCLUDE [prod_short](includes/prod_short.md)] beregner tillatelser som følger:
+
+> 1. Beregn hele listen over inkluderte tillatelser
+> 2. Beregn hele listen over utelatte tillatelser
+> 3. Fjern utelatte tillatelser fra listen over inkluderte tillatelser (fjerning av en indirekte tillatelse er det samme som Reduser til Indirekte)
 
 ## Slik kopiere du et tillatelsessett
 
@@ -135,7 +142,7 @@ Opprett et nytt tillatelsessett ved å kopiere et annet. Det nye settet vil inne
 2. På siden **Tillatelsessett** velger du handlingen **Ny**.
 3. Fyll ut feltene etter behov på en ny linje.
 4. Velg handlingen **Tillatelser**.
-1. På **Tillatelser**-siden velger du **Registrer tillatelser**-handlingen, og velg deretter **Start**-handlingen.  
+5. På **Tillatelser**-siden velger du **Registrer tillatelser**-handlingen, og velg deretter **Start**-handlingen.  
     Opptaket må utføres ved å bruke funksjonen **Åpne siden i et nytt vindu** (popup) for å få **Tillatelser**-opptaksvinduet side ved side, eller ved å arbeide i samme fane.  
     En innspillingsprosess starter og registrerer alle handlingene dine i brukergrensesnittet.
 6. Gå til de ulike sidene og aktivitetene i [!INCLUDE[prod_short](includes/prod_short.md)] som du vil at brukere med dette tillatelsessettet skal få tilgang til. Du må utføre oppgaver som du vil registrere tillatelser for.
@@ -166,9 +173,9 @@ Tillatelsessettene importeres.
 
 ## Slik fjerner du foreldede tillatelser fra alle tillatelsessett
 
-1. På siden **Tillatelsessett** velger du handlingen **fjern foreldede tillatelsessett**.
+På siden **Tillatelsessett** velger du handlingen **fjern foreldede tillatelsessett**.
 
-## Slik definerer du tidsbegrensninger for brukere:
+## Slik definerer du tidsbegrensninger for brukere
 
 Administratorer kan definere tidsperioder som de bestemte brukerne kan bokføre. Administratorer kan også angi om system logger hvor lang tid brukere er logget på. Administratorer kan også tildele ansvarssentre til brukere. Hvis du vil ha mer informasjon, kan du se [Arbeide med ansvarssentre](inventory-responsibility-centers.md).
 

@@ -44,7 +44,7 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
  CRONUS har tatt på seg et langvarig prosjekt som nå har strukket seg over rapporteringsperioder. Marie, et medlem i prosjektgruppen, beregner varene i arbeid (VIA) for å sikre at regnskapet for selskapet blir nøyaktig.  
 
- I løpet av denne fremgangsmåten skal Marie velge en bestemt gruppe oppgaver som skal tas med i VIA-beregningen. Hun kan angi disse linjene i kolonnen **VIA-sum** på siden **Prosjektoppgavelinjer**.  
+ I løpet av denne fremgangsmåten skal Marie velge en bestemt gruppe oppgaver som skal tas med i VIA-beregningen. Tricia kan angi disse linjene i kolonnen **VIA-sum** på siden **Prosjektoppgavelinjer**.  
 
  Tabellen nedenfor beskriver de tre alternativene.  
 
@@ -54,7 +54,7 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 |**I alt**|Definerer området eller gruppen med aktiviteter som er inkludert i beregningen av VIA og føringer. Alle prosjektoppgaver med **Prosjektoppgavetype** satt til **Bokføring** i gruppen, tas med i VIA-summen, med mindre feltet **VIA-sum** er satt til **Utelatt**.|  
 |**Utelatt**|Gjelder bare for en oppgave der **Prosjektoppgavetype** er **Bokføring**. Oppgaven er ikke inkludert ved beregning av VIA og føring.|  
 
- I den følgende gjennomgangen bruker Marie metoden Kostverdi, standarden i selskapet, til å beregne VIA. Hun angir hvilken del av jobben som skal inkluderes i VIA-beregningen ved å tilordne VIA-sumverdier til forskjellige prosjektoppgavelinjer.  
+ I den følgende gjennomgangen bruker Tricia metoden Kostverdi, standarden i selskapet, til å beregne VIA. Tricia angir hvilken del av jobben som skal inkluderes i VIA-beregningen ved å tilordne VIA-sumverdier til forskjellige prosjektoppgavelinjer.  
 
 ### Slik beregner du VIA:  
 
@@ -110,7 +110,7 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
 ## Bokføre VIA i Finans
 
- Nå som Marie har beregnet VIA for dette prosjektet, kan hun bokføre VIA i Finans.  
+ Nå som Tricia har beregnet VIA for dette prosjektet, kan hun bokføre VIA i Finans.  
 
 ### Slik bokfører du VIA i Finans  
 
@@ -134,7 +134,7 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
 ## Tilbakeføre en VIA-bokføring
 
- Marie fastslår at prosjektoppgavene som ble utelatt fra beregningen av VIA, skulle ha vært beregnet i VIA. Hun kan tilbakeføre feil bokføringer uten å måtte bokføre nye VIA-bokføringer.  
+ Marie fastslår at prosjektoppgavene som ble utelatt fra beregningen av VIA, skulle ha vært beregnet i VIA. Tricia kan tilbakeføre feil bokføringer uten å måtte bokføre nye VIA-bokføringer.  
 
 ### Slik tilbakefører du en VIA-bokføring:  
 
@@ -153,7 +153,7 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 13. Åpne **Prosjektoppgavelinjer** for prosjektet, ta med delene av prosjektet som skal være i VIA-beregningen, og gjenberegn og bokfør deretter den nye verdien i Finans.  
 
     > [!NOTE]  
-    >  Anta at Marie har beregnet og bokført VIA for et prosjekt med feil datoer. Når hun følger metoden som ble diskutert tidligere, kan hun tilbakeføre uriktige bokføringer, rette datoene og bokføre i Finans på nytt.  
+    >  Anta at Marie har beregnet og bokført VIA for et prosjekt med feil datoer. Når hun følger metoden som ble diskutert tidligere, kan Tricia tilbakeføre uriktige bokføringer, rette datoene og bokføre i Finans på nytt.  
 
 ## Neste trinn
 

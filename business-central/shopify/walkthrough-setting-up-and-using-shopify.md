@@ -29,7 +29,7 @@ Finn ut mer om hvordan du oppretter Shopify-prøveversjoner og anbefalte innstil
 
 Du må ha en [!INCLUDE[prod_short](../includes/prod_short.md)]-konto. 
 
-Du kan for eksempel opprette en demokonto eller starte en prøveversjon. Finn ut mer under [Klargjøring av [!INCLUDE[prod_short](../includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/administration/demo-environment.md) og [Registrer deg for prøveversjonen](../trial-signup.md). 
+Du kan for eksempel opprette en demokonto eller starte en prøveversjon. Finn ut mer under [Klargjør demonstrasjonsmiljøer av Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/administration/demo-environment) og [Registrer deg for prøveversjonen](../trial-signup.md). 
 
 ## Koble Business Central til Shopify-butikken
 
@@ -100,7 +100,7 @@ Velg knappen **Kjøp nå**, og fortsett betaling.
 5. Velg **Fortsett til levering**-knappen.
 6. Behold `Standard` som leveringsmåte, og deretter velger du **Fortsett til betaling**-knappen.
 7. Velg `10%` tips.
-8. I **Kredittkort**-feltet angir du `1` hvis du bruker *(for testing) falsk gateway*, hvis du bruker *Shopify Payments* i testmodus, angir du `5555 5555 5555 4444` i **Kredittkort**-feltet.
+8. I **Kredittkort**-feltet angir du `1` hvis du bruker *(for testing) falsk gateway*, eller angir `5555 5555 5555 4444` hvis du bruker *Shopify Payments* i testmodus.
 9. Fyll ut **Navn på kort**-feltet.
 10. I **Utløpsdato**-feltet angir du inneværende måned/år.
 11. Skriv inn `111` i **Sikkerhetskode**-feltet.
@@ -162,18 +162,20 @@ Klargjør data.
 2. Legg til ny prisgruppe. Skriv inn `SHOPIFY` i **Kode**-feltet.
 3. Lukk vinduet **Kundeprisgruppe**.
 4. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
-5. Velg varen **1896-S, Athens Desk**.
-6. Velg handlingen **Varianter**, og legg deretter til to varianter `PREMIUM, Athens Desk, Premium edition` og `ESSENTIAL, Athens Desk, Essential edition`.
-7. Velg **Utvidet tekst** og opprett en ny utvidet tekst som gjelder alle språkkoder. Angi `Shopify` i **Beskrivelse**-feltet. 
-8. Legg til følgende beskrivelse i HTML-koder: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
-9. Velg **Salgspriser**, og legg til nye priser som vist i følgende tabell:
+
+Velg vare **1896-S, Athens Desk** og kjør følgende trinn.
+
+1. Velg handlingen **Varianter**, og legg deretter til to varianter `PREMIUM, Athens Desk, Premium edition` og `ESSENTIAL, Athens Desk, Essential edition`.
+2. Velg handlingen **Utvidet tekst** og opprett en ny utvidet tekst som gjelder alle språkkoder. Angi `Shopify` i **Beskrivelse**-feltet. 
+3. Legg til følgende tekst i HTML-koder: `<b>Simple stylish design</b> blends with any ensemble. <i>Available in two editions.</i>`.
+4. Velg handlingen **Salgspriser**, og legg til nye priser som vist i følgende tabell:
 
   |Linje|**Salgstype**|**Salgskode**|Type| - kode|Variantkode<br>(legg til feltet via tilpasning)|Enhetspris|
   |------|------------|------------|------------|------------|------------|------------|
   |1|Kundeprisgruppe|SHOPIFY|Element|1896-S|ESSENTIAL|700|
-  |2|Kundeprisgruppe|SHOPIFY|Element|1896-S|PREMIUM|1 000|
+  |2|Kundeprisgruppe|SHOPIFY|Vare|1896-S|PREMIUM|1 000|
 
-10. Velg **Salgsrabatter** og legg til en ny rabatt:
+5. Velg handlingen **Salgsrabatter** og legg til en ny rabatt:
 
 * **Salgstype** *Kunderabattgruppe*
 * **Salgskode** *DETALJHANDEL*
@@ -182,18 +184,18 @@ Klargjør data.
 * **Enhetskode** *STK*
 * **Linjerabatt-%** *10*
 
-11. Velg **Varereferanser** og følgende tilleggslinjer:
+6. Velg handlingen **Varereferanser** og følgende tilleggslinjer:
 
   |Linje|**Referansetype**|**Referansenr.**|Variantkode|
   |------|------------|------------|------------|
   |1|Strekkode|77777777|ESSENTIAL|
   |2|Strekkode|11111111|PREMIUM|
 
-12. Lukk **varekortet**.
-13. Velg varen **1920-S, ANTWERP Conference Table**.
-14. Velg **Juster lager** og skriv inn `100` for lokasjonene **ØST** og *VEST* i feltet *Ny beholdning*. 
-1. Velg **OK**.
-1. Lukk **varekortet**.
+
+Velg varen **1920-S, ANTWERP Conference Table** og kjør følgende trinn.
+
+1. Velg **Juster lager** og skriv inn `100` for lokasjonene **ØST** og *VEST* i feltet *Ny beholdning*. 
+2. Velg **OK**.
 
 Juster synkroniseringsinnstillingene.
 

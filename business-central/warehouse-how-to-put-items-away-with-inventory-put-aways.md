@@ -32,9 +32,9 @@ Hvis lokasjonen er definert for å kreve lagerplasseringsbehandling, men ikke mo
 
 Du kan opprette lagerplassering på tre måter:  
 
-- Opprette lagerplassering direkte fra selve kildedokumentet.  
-- Opprett lagerplasseringer for flere kildedokumenter samtidig, ved hjelp av en kjørsel.  
-- Opprett plasseringen i to trinn, ved først å frigi kildedokumentet for å gjøre varene tilgjengelig for plassering. Du kan opprette lagerplasseringen basert på kildedokumentet ved å bruke siden **Lagerplassering**.  
+* Opprette lagerplassering direkte fra selve kildedokumentet.  
+* Opprett lagerplasseringer for flere kildedokumenter samtidig, ved hjelp av en kjørsel.  
+* Opprett plasseringen i to trinn, ved først å frigi kildedokumentet for å gjøre varene tilgjengelig for plassering. Du kan opprette lagerplasseringen basert på kildedokumentet ved å bruke siden **Lagerplassering**.  
 
 ## Slik oppretter du en lagerplassering fra kildedokumentet
 
@@ -80,6 +80,8 @@ En lageransatt kan opprette en ny lagerplassering basert på det frigitte kilded
 
     * Bokfør mottaket av kildedokumentlinjene som er plassert
     * Hvis lokasjonen bruker hyller, oppretter bokføring også lagerposter for bokføring av hylleantallendringer.
+
+    [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
 ## Se relatert [Microsoft-opplæring](/training/modules/receive-put-away-items/)
 

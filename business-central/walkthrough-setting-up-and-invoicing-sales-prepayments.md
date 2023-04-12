@@ -39,15 +39,15 @@ Denne gjennomgangen omfatter oppgaver for følgende roller:
 
 ## Hovedscenario
 
- Jenny er regnskapssjef. Hun gjør beslutninger om hvilke kunder som må betale depositum før varer produseres eller leveres. Jenny konfigurerer [!INCLUDE[prod_short](includes/prod_short.md)] til å beregne forskuddsbetalinger automatisk.  
+ Phyllis er en regnskapssjef og gjør beslutninger om hvilke kunder som må betale depositum før varer produseres eller leveres. Jenny konfigurerer [!INCLUDE[prod_short](includes/prod_short.md)] til å beregne forskuddsbetalinger automatisk.  
 
- Heidi er en ordrebehandler. Når en kunde ringer for å bestille, registrerer hun ordren i systemet mens er kunden på telefonen. På denne måten kan hun kontrollere priser og betalingsbetingelser med kunden umiddelbart, og hun kan foreta endringer i ordren mens hun forhandler med kunden.  
+ Heidi er en ordrebehandler. Når en kunde ringer for å bestille, registrerer Susan ordren i systemet mens er kunden på telefonen. På denne måten kan Susan kontrollere priser og betalingsbetingelser med kunden umiddelbart, og hun kan foreta endringer i ordren mens hun forhandler med kunden.  
 
- Magnus arbeider i regnskapsavdelingen, der han bokfører fakturaer og betalinger.  
+ Arnie arbeider i regnskapsavdelingen og bokfører fakturaer og betalinger.  
 
  I dette scenariet definerer Jenny forskuddskrav for kunden Møbelhandleren A/S basert på kreditthistorikken deres. Jenny gir Heidi instruksjoner om hvordan hun kan håndtere ordrene.  
 
- Når kunden ringer, forhandler Heidi med kunden til de kommer frem til en avtale. Hun kan deretter velge å beregne forskuddsbetalingen på flere forskjellige måter.  
+ Når kunden ringer, forhandler Susan med kunden til de kommer frem til en avtalek og velger å beregne forskuddet på flere ulike måter.  
 
  Etter at Heidi har sendt forskuddsfakturaen, bestiller kunden en ekstra vare. Heidi oppdaterer ordren og oppretter en ekstra forskuddsfaktura.  
 
@@ -75,9 +75,9 @@ Følgende fremgangsmåte beskriver hvordan du fullfører oppgavene til Jenny:
 
 Nå kan du ikke levere eller fakturere en ordre som har ubetalte forskuddsbeløp.  
 
-Jenny krever at kunde 20000 som standard faktureres for et avdrag på 30 % i alle ordrer. Derfor angir hun en standard forskuddsprosent på kundekortet.  
+Jenny krever at kunde 20000 som standard faktureres for et avdrag på 30 % i alle ordrer. Derfor angir Phyllis en standard forskuddsprosent på kundekortet.  
 
-Jenny krever at alle kunder faktureres for et depositum på 20 % for vare 1896-S. Kunde 20000 har en dårlig betalingshistorikk, så hun krever et forskudd på 40 % fra kunde 20000 for vare 1896-S. Fremgangsmåten nedenfor viser hvordan du konfigurerer standard forskuddsprosent.  
+Jenny krever at alle kunder faktureres for et depositum på 20 % for vare 1896-S. Kunde 20000 har en dårlig betalingshistorikk, så Phyllis krever et forskudd på 40 % fra kunde 20000 for vare 1896-S. Fremgangsmåten nedenfor viser hvordan du konfigurerer standard forskuddsprosent.  
 
 ### Slik tilordner du standard forskuddsprosenter til kunder og varer:
 
@@ -110,7 +110,7 @@ Jenny krever at alle kunder faktureres for et depositum på 20 % for vare 1896-S
 
  I det følgende scenariet oppretter ordrebehandleren Heidi en ordre mens hun snakker med en kunde. Varene som kunden bestiller, krever et forskudd. Dessuten har kunden hatt noen sene betalinger tidligere. Heidi har blitt bedt om å kreve et fast beløp på **800** som en forskuddsbetaling på ordren.  
 
-Kunden ber om å få betale 35 % noe som Heidi kan godta, slik at hun endrer hun ordren.  
+Kunden ber om å få betale 35 % noe som Susan godtar og endrer ordren.  
 
 Heidi oppretter forskuddsfakturaen og sender den til kunden.  
 
@@ -165,7 +165,7 @@ Etter at Heidi har registrert de riktige forskuddsverdiene i ordren, oppretter h
 
 ## Opprett en ekstra forskuddsfaktura
 
-Neste dag ringer kunden Heidi og endrer ordren. Kunden vil ha to av vare 1896-S. Heidi åpner ordren på nytt og oppdaterer den. Hun oppretter en ny forskuddsfaktura for ordren og sender den til kunden.  
+Neste dag ringer kunden Heidi og endrer ordren. Kunden vil ha to av vare 1896-S. Susan åpner ordren på nytt, oppdaterer den, og deretter oppretter hun en ekstra forskuddsfaktura i ordren og sender den til kunden.  
 
 ### Slik oppretter du en ekstra forskuddsfaktura:
 

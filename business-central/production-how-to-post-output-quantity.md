@@ -7,10 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000773, 99000778, 99000823, 99000827'
-ms.date: 04/01/2021
+ms.date: 03/08/2023
 ms.author: edupont
 ---
 # Bokføre avgang og operasjonstid
+
 Avgangsantallet representerer arbeidsfremdriften i form av ferdig antall og brukt kapasitet for arbeidssenter eller produksjonsressurs.
 
 Du kan bruke ferdigmeldingskladden til å:
@@ -22,7 +23,7 @@ Du kan bruke ferdigmeldingskladden til å:
 > [!NOTE]
 > Hvis produksjonsruting brukes, oppdateres lageret bare når du bokfører avgangsantall i den siste operasjonen.
 
-I vinduet **Produksjonskladd** kan du utføre de samme oppgavene som i vinduet **Ferdigmeldingskladd**, og du kan utføre de relaterte forbruksbokføringsoppgavene samtidig. Hvis du vil ha mer informasjon, kan du se [Registrere forbruk og avgang for én frigitt produksjonsordrelinje](production-how-to-register-consumption-and-output.md).
+Med siden **Produksjonskladd** kan du gjøre de samme oppgavene som på siden **Ferdigmeldingskladd**, og også utføre forbruksbokføringsoppgaver. Hvis du vil ha mer informasjon, kan du se [Registrere forbruk og avgang for én frigitt produksjonsordrelinje](production-how-to-register-consumption-and-output.md).
 
 ## Slik bokfører du avgangsantall og/eller registrerer kjøretider for en eller flere produksjonsordrelinjer
 
@@ -32,11 +33,11 @@ I vinduet **Produksjonskladd** kan du utføre de samme oppgavene som i vinduet *
     Du kan bruke funksjonen **Utfold rute** til å generere kladdelinjer fra produksjonsordrer.
   
 3. Hvis operasjonen er fullført, velger du **Ferdig**-feltet.  
-4. Velg handlingen **Bokfør** for å bokføre operasjonene. 
+4. Velg handlingen **Bokfør** for å bokføre operasjonene.
 
-Kapasitetsposter oppdateres for det brukte arbeidssenteret eller produksjonsressursene med informasjon om tid og antall av avgang og vrak.  
+    Kapasitetsposter oppdateres for det brukte arbeidssenteret eller produksjonsressursene med informasjon om tid og antall av avgang og vrak. Hvis du bokførte den siste operasjonen, blir varen lagt til i lageret.
 
-Hvis du bokførte den siste operasjonen, blir varen lagt til i lageret.  
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Se også
 

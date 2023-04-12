@@ -1,14 +1,14 @@
 ---
-title: Hurtigreferanse for tastatursnarveier for PC
+title: Hurtigreferanse for tastatursnarveier – bare PC
 description: Et utskriftsvennlig referanseark som inneholder de mest vanlige tastatursnarveiene for PC-brukere.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'accessibility, shortcuts, keyboarding'
-ms.date: 08/19/2022
+ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
+ms.date: 02/09/2023
 ms.author: jswymer
+ms.review: jswymer
+ms.service: dynamics365-business-central
+ms.custom: bap-template
 ---
 
 # Hurtigreferanse for tastatursnarveier – bare PC
@@ -17,6 +17,7 @@ ms.author: jswymer
 
 |Velg disse tastene|Hvis du vil gjøre dette|  
 |-|-|
+|<kbd>Alt</kbd>|Vis tilgangstaster for å navigere i handlingslinjen eller navigasjonsmenyen|
 |<kbd>Alt</kbd>+<kbd>F2</kbd>|Vis og skjul faktaboksruten|
 |<kbd>Alt</kbd>+<kbd>N</kbd>|Opprett en ny post|
 |<kbd>Alt</kbd>+<kbd>Skift</kbd>+<kbd>N</kbd>|Lukk en nylig opprettet post, og opprett en ny|

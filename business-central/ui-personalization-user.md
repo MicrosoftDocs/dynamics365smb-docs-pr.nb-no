@@ -13,19 +13,20 @@ ms.author: bholtorf
 ---
 # Tilpasse arbeidsområdet
 
-Du kan tilpasse arbeidsområdet til å passe arbeid og behov. Endre sider slik at de bare viser den informasjonen du trenger, der du trenger den. Tilpasningsendringene påvirker bare hva *du* ser, ikke hva andre brukere ser.
+Du kan tilpasse arbeidsområdet til å passe arbeid og behov. Endre sider slik at de bare viser den informasjonen du trenger, der du trenger den. Personalisering påvirker bare arbeidsområdet. Det endrer ikke måten andre arbeider på.
 
-Du kan tilpasse alle typer sider, inkludert Rollesenter-siden. Se [Rollesenter](ui-change-basic-settings.md#role-center) hvis du vil ha mer informasjon om rollesentre.  
+Du kan tilpasse alle typer sider, inkludert Rollesenter-siden. Hvis du vil vite mer om rollesentre, går du til [Rollesenter](ui-change-basic-settings.md#role-center).  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 Du kan gjøre ulike endringer, for eksempel flytte eller skjule felt, kolonner, handlinger og hele deler og legge til nye felter. Det meste av tilpasningen må utføres ved først å aktivere **Tilpasning**-banneret. Du kan foreta enkle justeringer, for eksempel kolonnebredden, umiddelbart i alle lister.
 
 > [!NOTE]
-> Administratorer kan utføre samme oppsettendringer som brukerne ved å tilpasse arbeidsområdet for en profil som flere brukere er tilordnet. Hvis du vil ha mer informasjon, kan du se [Tilpasse sider for roller](ui-personalization-manage.md).<br /><br />
+> Administratorer kan gjøre samme oppsettendringer som brukerne ved å tilpasse arbeidsområdet for en profil som flere brukere er tilordnet. Hvis du vil vite mer om sider for roller, går du til [Tilpass sider for roller](ui-personalization-manage.md)<br /><br />
 Administratorer kan også overstyre eller deaktivere brukeres tilpasning, og de kan definere hvilke funksjoner som til og med brukere kan se i alle eller bestemte selskaper. Hvis du vil ha mer informasjon, kan du se [Tilpasse Business Central](ui-customizing-overview.md).
 
-## Videooversikt
+## Video
+
 Følgende video viser noen av måtene du kan tilpasse rollesenteret på.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
@@ -77,7 +78,7 @@ På samme måte som med andre personlige tilpasninger lagres endringene du gjør
 
 Tilpasning lar deg bestemme hvilke handlinger som skal vises i navigasjons- og handlingsrader samt rollesentre, og hvor de skal vises. Du kan vise, skjule eller flytte individuelle handlinger eller handlingsgrupper.
 
-I lanseringsbølge 2 i 2022 gav deg flere måter å gjøre Business Central til din egen på. Følgende video viser hvordan du kan tilpasse handlinger på sider og i rollesentre.
+Følgende video viser hvordan du kan tilpasse handlinger på sider og i rollesentre.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE594m2]
 
@@ -126,6 +127,7 @@ Deler er områder på en side som vanligvis er satt sammen av flere felter, diag
 Du kan fjerne alle tilpassingsendringer du har gjort i én del, ved å velge alternativet **Fjern tilpassing** under delens pilspiss. Når du fjerner tilpassingen av en del, påvirkes bare endringer i innholdet i delen, ikke plasseringen eller synligheten for delen på siden.  
 
 ## Fjerne tilpassing
+
 Du ønsker kanskje på et gitt tidspunkt å angre noen eller alle tilpasningsendringene du har foretatt på en side over tid.
 
 1. På banneret **Tilpasning** velger du handlingen **Fjern tilpassing**.
@@ -138,7 +140,7 @@ Du ønsker kanskje på et gitt tidspunkt å angre noen eller alle tilpasningsend
 |------|------------
 |**Bare navigasjonsmenyen**|Fjerner alle tilpassingsendringer du har gjort på navigasjonsmenyen som deles på tvers av rollesenteret og andre sider. Slike endringer omfatter eventuelle nye handlinger som er lagt til som bokmerker, og endringer i koblinger og grupper på menyen.|  
 |**Bare handlinger**|Fjerner alle tilpassingsendringer du har gjort for navigasjons- eller handlingsfeltet på siden.|
-|**Bare felt, kolonner og deler**|Fjerner alle tilpassingsendringer du har gjort for handlingfeltet på siden, unntatt endringene i navigasjons- eller handlingsfeltet. Slike endringer inkluderer endringer i felter, kolonner, deler og ruter. |
+|**Bare felter og kolonner**|Fjerner alle tilpassingsendringer du har gjort for handlingfeltet på siden, unntatt endringene i navigasjons- eller handlingsfeltet. Slike endringer inkluderer endringer i felter, kolonner, deler og ruter. |
 |**Alle**|Fjerner alle tilpassingsendringene du har gjort på siden, slik at den ser ut slik den gjorde opprinnelig. Slike endringer inkluderer endringer i navigasjons- eller handlingsfelt, kolonner, deler og ruter.|
 
 ## Andre interessepunkter

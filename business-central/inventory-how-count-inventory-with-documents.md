@@ -83,10 +83,10 @@ Når de ansatte har talt lagerantallene, må du forberede registrering av antall
 4. Merk av for **Registrert** for hver linje.
 5. Når du har angitt alle data for registrering av en vareopptelling, velger du **Fullfør**-handlingen. Vær oppmerksom på at alle linjene må ha **Registrert**-alternativet valgt.
 
-> [!NOTE]
-> Når du har fullført en vareopptellingsregistrering, overføres hver linje til linjen på den relaterte vareopptellingsordre som samsvarer nøyaktig med linjen. For å samsvare med verdiene i feltene **Varenr.**, **Variantkode**, **Lokasjonskode** og **Hyllekode** være like på registreringen og ordrelinjene.<br /><br />
-> Hvis det ikke finnes noen tilsvarende vareopptellingsordrelinje, og hvis det er merket av for **Tillat registrering uten ordre**, settes det inn en ny linje automatisk, det merkes av for **Registrert uten ordre** på den relaterte vareopptellingsordrelinjen. Ellers vises det en feilmelding, og prosessen avbrytes.<br /><br />
-> Hvis mer enn én vareopptellingsregistreringslinje samsvarer med en vareopptellingsordrelinje, vises en melding, og prosessen avbrytes. Hvis to identiske vareopptellingslinjer av én eller annen grunn havner i vareopptellingsordren, kan du bruke en funksjon for å løse problemet. Hvis du vil ha mer informasjon, kan du se delen [Slik finner du dupliserte vareopptellingsordrelinjer](#to-find-duplicate-physical-inventory-order-lines).
+    > [!NOTE]
+    > Når du har fullført en vareopptellingsregistrering, overføres hver linje til linjen på den relaterte vareopptellingsordre som samsvarer nøyaktig med linjen. For å samsvare med verdiene i feltene **Varenr.**, **Variantkode**, **Lokasjonskode** og **Hyllekode** være like på registreringen og ordrelinjene.<br /><br />
+    > Hvis det ikke finnes noen tilsvarende vareopptellingsordrelinje, og hvis det er merket av for **Tillat registrering uten ordre**, settes det inn en ny linje automatisk, det merkes av for **Registrert uten ordre** på den relaterte vareopptellingsordrelinjen. Ellers vises det en feilmelding, og prosessen avbrytes.<br /><br />
+    > Hvis mer enn én vareopptellingsregistreringslinje samsvarer med en vareopptellingsordrelinje, vises en melding, og prosessen avbrytes. Hvis to identiske vareopptellingslinjer av én eller annen grunn havner i vareopptellingsordren, kan du bruke en funksjon for å løse problemet. Hvis du vil ha mer informasjon, kan du se delen [Slik finner du dupliserte vareopptellingsordrelinjer](#to-find-duplicate-physical-inventory-order-lines).
 
 ## Slik fullføres en vareopptellingsordre
 
@@ -102,7 +102,7 @@ Du kan også velge handlingen **Differanse for vareopptellingsordre** for å vis
 2. Åpne vareopptellingsordren du vil vise dupliserte linjer for.
 3. Velg **Vis dupliserte linjer**-handlingen.
 
-Eventuelle like vareopptellingsordrelinjer vises, slik at du kan slette dem og bare beholde én linje med et unikt sett med verdier i feltene **Varenr.**, **Variantkode**, **Lokasjonskode** og **Hyllekode**.
+Dupliserte vareopptellingsordrelinjer vises, slik at du kan slette dem og bare beholde én linje med et unikt sett med verdier i feltene **Varenr.**, **Variantkode**, **Lokasjonskode** og **Hyllekode**.
 
 ### Slik bokføres en vareopptellingsordre
 
@@ -118,10 +118,12 @@ Når du har fullført en vareopptellingsordre og endre statusen til **Fullført*
     På siden **Vareopptellingsordre** vises antallet som er registrert i feltet **Antall registrert (lagerenhet)**.
 3. Velg handlingen **Fullfør**.
 
-    Verdien i feltet **Status** endres til **Fullført**, og du kan nå bare endre rekkefølgen ved først å velge handlingen **Åpne på nytt**.
+    Verdien i feltet **Status** er **Fullført**, og du kan nå bare endre rekkefølgen ved først å velge handlingen **Åpne på nytt**.
 4. Hvis du vil bokføre ordren, velger du **Bokfør** og deretter **OK**.
 
-De involverte varepostene oppdateres sammen med eventuelle tilknyttede varesporingspostene.
+    Varepostene oppdateres sammen med eventuelle tilknyttede varesporingspostene.
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ### Slik viser du bokførte vareopptellingsordrer
 
@@ -141,9 +143,9 @@ Boksen for **Bruk varesporing** på vareopptellingsordrelinjer velges automatisk
 
 Vurder en vareopptellingen for Vare A, som er lagret i lageret som ti ulike serienumre.
 1. På registreringslinjen for varen merker du av for **Bruk varesporing**.
-2.  Velg **Serienr.**-feltet, velg det første serienummeret som finnes i beholdningen for varen, og velger deretter **OK**-knappen.
+2. Velg **Serienr.**-feltet, velg det første serienummeret som finnes i beholdningen for varen, og velger deretter **OK**-knappen.
 
-    Fortsett med å kopiere linjen for den første varesporede varen for å sette inn flere linjer i henhold til antall serienumre som er lagret i lageret.
+    Kopier linjen for den første varesporede varen for å sette inn flere linjer i henhold til antall serienumre som er lagret i lageret.
 
 3. Velg **Funksjoner**-handling og deretter **Kopier linje**-handlingen.
 4. På siden **Kopier postlinje for vareopptelling**, skriver du inn 9 i feltet **Antall eksemplarer**, og velg deretter **OK**-knappen.
@@ -192,8 +194,8 @@ På siden **Vareopptellingsordre** inneholder feltet **Negativt antall (lagerenh
 
 Følgende dokumenttyper er nyttige når du skal håndtere lageret:
 
-- Bruke **Lagermottak** til å registrere positive justeringer av varer basert på kvalitet, antall og kostnad.
-- Bruk **Lagerleveringer** til å skrive av manglende eller skadde varer.
+* Bruke **Lagermottak** til å registrere positive justeringer av varer basert på kvalitet, antall og kostnad.
+* Bruk **Lagerleveringer** til å skrive av manglende eller skadde varer.
 
 Du kan skrive ut disse dokumentene når som helst, frigi og åpne dem på nytt, og tilordne felles verdier, inkludert dimensjoner, i hodet. Hvis du vil skrive ut dokumentene på nytt etter at de er bokført, kan du gjøre det på sidene **Bokført lagermottak** og **Bokført lagerlevering**.
 
@@ -206,10 +208,11 @@ Følgende fremgangsmåte viser hvordan du definerer nummerering for lagerdokumen
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lageroppsett** og velg den relaterte koblingen.
 2. I hurtigfanen **Nummerering** angir du følgende nummerserien for dokumenter i følgende felt:
-   - **Numre for lagermottak**  
-   - **Numre for bokførte lagermottak**  
-   - **Numre for lagerlevering**  
-   - **Numre for bokført lagerlevering**  
+
+   * **Numre for lagermottak**  
+   * **Numre for bokførte lagermottak**  
+   * **Numre for lagerlevering**  
+   * **Numre for bokført lagerlevering**  
 
 ### Opprette og bokføre et lagerdokument
 
@@ -222,17 +225,19 @@ Følgende fremgangsmåte viser hvordan du oppretter, skriver ut og bokfører et 
 
 Følgende funksjoner er tilgjengelige på siden **Lagermottak**:
 
-- Velg handlingene **Frigi** eller **Åpne på nytt** for å angi statusen for neste behandlingsfase  
-- Velge handlingen **Bokfør** for å bokføre lagermottaket, eller velg **Bokfør og skriv ut** for å bokføre mottaket og skrive ut testrapporten  
+* Velg handlingene **Frigi** eller **Åpne på nytt** for å angi statusen for neste behandlingsfase  
+* Velge handlingen **Bokfør** for å bokføre lagermottaket, eller velg **Bokfør og skriv ut** for å bokføre mottaket og skrive ut testrapporten  
+
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 ## Skrive ut lagerdokumenter
 
 Du kan angi rapportene som skal skrives ut i forskjellige faser, ved å velge ett av følgende alternativer i feltet **Bruk** på siden **Rapportvalg – beholdning**:
 
-- Lagermottak
-- Lagerlevering
-- Bokført lagermottak
-- Bokført lagerlevering
+* Lagermottak
+* Lagerlevering
+* Bokført lagermottak
+* Bokført lagerlevering
 
 > [!NOTE]
 > De tilgjengelige rapportene kan variere avhengig av hvor landet befinner seg. Basisprogrammet inkluderer ikke oppsett.

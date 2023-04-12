@@ -44,7 +44,7 @@ Fra e-postprogrammet kan du videresende en e-post til leverandøren av OCR-tjene
 Fordi det ikke finnes noen innkommende dokumentoppføring for filen, opprettes en ny post automatisk på siden **Innkommende dokumenter** når OCR-tjenesten sender det resulterende elektroniske dokumentet. Hvis du vil ha mer informasjon, kan du se [Opprett innkommende dokumentposter](across-how-create-income-document-records.md).
 
 > [!NOTE]  
-> Hvis du arbeider på et nettbrett eller en telefon, kan du sende filen til OCR-tjenesten så snart du har tatt et bilde av dokumentet, eller du kan opprette et innkommende dokument direkte. Hvis du vil ha mer informasjon, kan du se [Opprett en innkommende dokumentpost ved å ta et bilde](across-how-create-income-document-records.md#to-create-an-incoming-document-record-by-taking-a-photo).
+> Hvis du arbeider på et nettbrett eller en telefon, kan du sende filen til OCR-tjenesten så snart du har tatt et bilde av dokumentet, eller du kan opprette et innkommende dokument direkte. Hvis du vil ha mer informasjon, kan du se [Opprett en innkommende dokumentpost ved å ta et bilde](across-how-create-income-document-records.md#create-an-incoming-document-record-by-taking-a-photo).
 
 ## Slik mottar du det resulterende elektroniske dokumentet fra OCR-tjenesten
 

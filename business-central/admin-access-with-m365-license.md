@@ -13,19 +13,19 @@ ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration,
 
 # Business Central-tilgang med Microsoft 365-lisenser
 
-Business Central-brukere tildeles en Dynamics 365 Business Central-lisens som gjør at de kan vise, endre og handle med forretningsdata fra et hvilket som helst brukergrensesnitt. For alle andre ansatte på tvers av organisasjonen som bare trenger å vise data av og til, gir Business Central tilgang gjennom Microsoft 365.  
+[!INCLUDE[prod_short](includes/prod_short.md)]-brukere tildeles en Dynamics 365 Business Central-lisens som gjør at de kan vise, endre og handle med forretningsdata fra et hvilket som helst brukergrensesnitt. For alle andre ansatte på tvers av organisasjonen som bare trenger å vise data av og til, gir Business Central tilgang gjennom Microsoft 365.  
 
-Når en organisasjon har både et Dynamics 365 Business Central- og Microsoft 365-abonnement, kan de konfigurere miljøer til å gi tilgang med Microsoft 365-lisenser og deretter velge nøyaktig hvilke tabeller og andre objekter denne kategorien av brukeren skal ha tilgang til. Når de er konfigurert, kan ansatte som har en Microsoft 365-lisens, men ingen Business Central-lisens, vise Business Central-oppføringer som deles med dem i Microsoft Teams-nettprat og -kanaler.
+Når en organisasjon har både et Dynamics 365 Business Central- og Microsoft 365-abonnement, kan de konfigurere miljøer til å gi tilgang med Microsoft 365-lisenser og deretter velge nøyaktig hvilke tabeller og andre objekter denne kategorien av brukeren skal ha tilgang til. Når de er konfigurert, kan ansatte som har en Microsoft 365-lisens, men ingen [!INCLUDE [prod_short](includes/prod_short.md)]-lisens, vise [!INCLUDE [prod_short](includes/prod_short.md)]-oppføringer som deles med dem i Microsoft Teams-nettprat og -kanaler.
 
 ## Hvorfor aktivere tilgang med Microsoft 365-lisenser  
 
 - Få tilgang til hoveddata som hver enkelt ansatt i organisasjonen skal ha tilgang til.
 
-- Gi avdelinger som ikke kan kjøre på Business Central, muligheten til selvbetjening ved å få tilgang til nøkkeldataene som trengs for å utføre oppgavene sine, noe som eliminerer behovet for kontinuerlig å be om data fra andre. 
+- Gi avdelinger som ikke kan kjøre på [!INCLUDE [prod_short](includes/prod_short.md)], muligheten til selvbetjening ved å få tilgang til nøkkeldataene som trengs for å utføre oppgavene sine, noe som eliminerer behovet for kontinuerlig å be om data fra andre.
 
-- Øk samarbeidseffektiviteten slik at oppgaver og prosjekter som går over flere avdelinger, fullføres i tide, ved å eliminere friksjonen som vanligvis er knyttet til nektet tilgang på grunn av lisensiering. 
+- Øk samarbeidseffektiviteten slik at oppgaver og prosjekter som går over flere avdelinger, fullføres i tide, ved å eliminere friksjonen som vanligvis er knyttet til nektet tilgang på grunn av lisensiering.
 
-- Øk teamytelsen slik at brukere kan foreta datadrevne beslutninger som er inkluderende for alle i gruppen, selv om de ikke arbeider i Business Central. 
+- Øk teamytelsen slik at brukere kan foreta datadrevne beslutninger som er inkluderende for alle i gruppen, selv om de ikke arbeider i [!INCLUDE [prod_short](includes/prod_short.md)].
 
 - Oppfyll lisensbudsjettmål ved å tildele lisenser som progressivt samsvarer med de ansattes behov, med Microsoft 365-lisenser for skrivebeskyttet tilgang, Dynamics 365 Business Central Team Member-lisenser for begrenset skrivetilgang og Dynamics 365 Business Central Essentials eller Premium for full skrivetilgang.
 
@@ -33,11 +33,11 @@ Når en organisasjon har både et Dynamics 365 Business Central- og Microsoft 36
 
 ## Bruk rettigheter
 
-Når en person får tilgang til Business Central med en Microsoft 365-lisens, gir denne lisensen brukeren tillatelse til å lese (men ikke skrive) Business Central-data med et forenklet grensesnitt i Microsoft Teams. Denne delen forklarer disse bruksrettighetene og begrensningene som hjelper deg med å planlegge hvordan du konfigurerer og får mest mulig ut av denne funksjonen. Hvis du vil ha mer informasjon om denne lisenstypen sammenlignet med andre Business Central-lisenser, kan du se [Lisensieringsveiledning for Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
+Når en person får tilgang til [!INCLUDE [prod_short](includes/prod_short.md)] med en Microsoft 365-lisens, gir denne lisensen brukeren tillatelse til å lese (men ikke skrive) [!INCLUDE [prod_short](includes/prod_short.md)]-data med et forenklet brukergrensesnitt i Microsoft Teams. Denne delen forklarer disse bruksrettighetene og begrensningene som hjelper deg med å planlegge hvordan du konfigurerer og får mest mulig ut av denne funksjonen. Hvis du vil ha mer informasjon om denne lisenstypen sammenlignet med andre [!INCLUDE [prod_short](includes/prod_short.md)]-lisenser, kan du se [Lisensieringsveiledning for Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
  
 ### Klienttilgang
 
-Brukere har rett til å få tilgang til Business Central-data i Microsoft Teams. I tabellen nedenfor finner du en oversikt over de ulike tilgangsmåtene for Business Central-tjenesten som er tillatt med denne lisensen. 
+Brukere har rett til å få tilgang til [!INCLUDE [prod_short](includes/prod_short.md)]-data i Microsoft Teams. I tabellen nedenfor finner du en oversikt over de ulike tilgangsmåtene for [!INCLUDE [prod_short](includes/prod_short.md)]-tjenesten som er tillatt med denne lisensen.
 
 |Klient som bruker Business Central-tjenesten |Tilgang|
 |-|-|
@@ -48,31 +48,31 @@ Brukere har rett til å få tilgang til Business Central-data i Microsoft Teams.
 |Business Central-integreringer med andre Office-programmer|![Nei](media/x-icon.png )|
 |Business Central innebygd i andre programmer |![Nei](media/x-icon.png )|
 
-### Datatilgang 
+### Datatilgang
 
-Brukerne har rett til å lese tabelldata, men de kan ikke endre, opprette eller slette poster. Business Central-plattformen forhindrer automatisk skriving til noen datatabeller.  
+Brukerne har rett til å lese tabelldata, men de kan ikke endre, opprette eller slette poster. [!INCLUDE [prod_short](includes/prod_short.md)]-plattformen forhindrer automatisk skriving til noen datatabeller.  
 
-### Bruk av objekter 
+### Bruk av objekter
 
-Tilgang til Microsoft 365-lisenser begrenser ikke hvilke Business Central-objekter eller -objektområder det er tilgang til. Brukere har rett til å få tilgang til Microsoft-grunnprogrammet og alle utvidelser, for eksempel tilpasninger og tilleggsprogrammer. 
+Tilgang til Microsoft 365-lisenser begrenser ikke hvilke Business Central-objekter eller -objektområder det er tilgang til. Brukere har rett til å få tilgang til Microsoft-grunnprogrammet og alle utvidelser, for eksempel tilpasninger og tilleggsprogrammer.
 
-## Forenklet brukergrensesnitt 
+## Forenklet brukergrensesnitt
 
-Brukere har rett til et redusert sett med funksjoner og funksjoner som leveres av Business Central i Microsoft Teams. Tabellene nedenfor angir nevneverdige funksjoner. Dette er ikke en fullstendig liste og kan endres.
+Brukere har rett til et redusert sett med funksjoner og funksjoner som leveres av [!INCLUDE [prod_short](includes/prod_short.md)] i Microsoft Teams. Tabellene nedenfor angir nevneverdige funksjoner. Dette er ikke en fullstendig liste og kan endres.
 
-Funksjoner i Business Central-appen for Teams:
+Funksjoner i [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Teams:
 
 |Funksjon  |Tilgjengelig|
 |-|-|
-|Vis Business Central-kort|![Ja](media/check.png)|
+|Vis [!INCLUDE [prod_short](includes/prod_short.md)]-kort|![Ja](media/check.png)|
 |Vis kortdetaljer |![Ja](media/check.png) |
 |Fest kortdetaljer som en fane |![Ja](media/check.png)|
-|Vis Business Central-faner|![Ja](media/check.png)|
-|Legg til en Business Central-fane|![Nei_](media/x-icon.png )|
+|Vis [!INCLUDE [prod_short](includes/prod_short.md)]-faner|![Ja](media/check.png)|
+|Legg til en [!INCLUDE [prod_short](includes/prod_short.md)]-fane|![Nei_](media/x-icon.png )|
 |Søk etter forretningskontakter |![Nei](media/x-icon.png )|
 |Lim inn og del en koblingsforhånds visning som et kort|![Nei](media/x-icon.png )|
 
-Funksjoner for Business Central-klienten som er innebygd i Teams:
+Funksjoner for [!INCLUDE [prod_short](includes/prod_short.md)]-klienten som er innebygd i Teams:
 
 |Funksjon |Tilgjengelig|Eksempelfunksjoner|
 |-|-|-|
@@ -92,19 +92,19 @@ Funksjoner for Business Central-klienten som er innebygd i Teams:
 
 ## Minstekrav
 
-Denne delen beskriver minimumskravene som må oppfylles for organisasjonen for å muliggjøre tilgang med Microsoft 365-lisenser og for individuelle Microsoft Teams-brukere å få tilgang til Business Central-data uten en Business Central-lisens.
+Denne delen beskriver minimumskravene som må oppfylles for organisasjonen for å muliggjøre tilgang med Microsoft 365-lisenser og for individuelle Microsoft Teams-brukere å få tilgang til [!INCLUDE [prod_short](includes/prod_short.md)]-data uten en [!INCLUDE [prod_short](includes/prod_short.md)]-lisens.
 
 ### Krav for å gi tilgang
 
-- Business Central Online (SaaS).
+- [!INCLUDE [prod_short](includes/prod_short.md)] online (SaaS).
 
 - Miljøer må være av plattformversjon 21.1 eller nyere.
 
 ### Krav for individuelle brukere som skal ha tilgang til data i Teams
 
-- Data må åpnes ved hjelp av Business Central-appen for Teams. Brukere må ha Business Central-appen for Teams installert og må bruke en av de støttede Teams-klientene. Hvis du vil se en liste over Teams-klienter som støttes av Business Central, kan du se [Bruk av Business Central](product-requirements.md#teams).
+- Data må åpnes ved hjelp av [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Teams. Brukere må ha [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Teams installert og må bruke en av de støttede Teams-klientene. Hvis du vil se en liste over Teams-klienter som støttes av [!INCLUDE [prod_short](includes/prod_short.md)], kan du se [Minimumskrav for bruk av Business Central](product-requirements.md#teams).
 
-- Brukere må være interne for organisasjonen, noe som betyr at en brukeridentitet kommer fra samme hjemmeleietaker der Business Central distribueres og der tilgang er aktivert. Eksterne identiteter støttes ikke. Business Central forhindrer automatisk tilgang til gjester.
+- Brukere må være interne for organisasjonen, noe som betyr at en brukeridentitet kommer fra samme hjemmeleietaker der [!INCLUDE [prod_short](includes/prod_short.md)] distribueres og der tilgang er aktivert. Eksterne identiteter støttes ikke. [!INCLUDE [prod_short](includes/prod_short.md)] forhindrer automatisk tilgang til gjester.
 
 - Brukere må tildeles en Microsoft 365-lisens fra en av de følgende planene.
   
@@ -130,7 +130,7 @@ Denne delen beskriver minimumskravene som må oppfylles for organisasjonen for �
   > [!NOTE]
   > Finner du ikke planen din i listen? Microsoft er hele tiden ute etter tilbakemelding om hvordan vi kan forbedre tjenesten og utvide tilbudet slik at flere kunder kan utnytte denne funksjonen. Del forslaget ditt om hvilke planer vi bør støtte senere, på [https://aka.ms/bcIdeas](https://aka.ms/bcIdeas).
 
-- Brukere må tildeles en Microsoft 365-lisens som har Microsoft Teams-appen aktivert i listen over apper for denne lisensen. 
+- Brukere må tildeles en Microsoft 365-lisens som har Microsoft Teams-appen aktivert i listen over apper for denne lisensen.
 
   |Støttede apper|Tjenesteplan-ID|
   |-|-|

@@ -117,8 +117,9 @@ Kopiering er en rask måte å opprette et nytt oppsett som er det samme som et e
    |Beskrivelse| Skriv inn mer detaljert informasjon om oppsett. |nei|
    |Formatalternativer|Angi at dette feltet skal være identisk med typen oppsett, for eksempel Word, Excel eller RDLC.|ja|
 
-6. Velg **OK** > **Velg** for å åpne filutforsker på enheten.
-7. Finn og velg Excel-filen, og velg deretter **Åpne**.
+6. Velg **OK** og gjør deretter et av følgende for å laste opp oppsettfilen for rapporten:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    Den valgte filen lastes opp til oppsettet, og du går tilbake til siden **Rapportoppsett**.
 

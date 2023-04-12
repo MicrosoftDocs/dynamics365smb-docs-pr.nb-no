@@ -39,7 +39,7 @@ Du bruker en [forhåndsversjon](ai-preview-getstarted.md) av Business Central so
 
 ## Neste trinn
 
-Når du har et sandkasse- eller prøvemiljø, er du klar til å prøve ut Copilot på varer i Business Central. Gå til [Legg til markedsføringstekst i varer](item-marketing-text.md).  
+Når du har aktivert og samtykke i funksjonen, er du klar til å prøve ut Copilot på varer i Business Central. Gå til [Legg til markedsføringstekst i varer](item-marketing-text.md).  
 
 ## Se også
 

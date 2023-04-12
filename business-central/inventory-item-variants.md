@@ -14,7 +14,7 @@ ms.author: edupont
 Varevarianter er en fin måte å holde listen over produkter på under kontroll. Du har for eksempel har et stort antall varer som nesten er identiske og som bare varierer i farge. Du kan definere hver variant som en separat vare. Men du velger å definere én vare og angi de ulike fargene som varianter av varen.  
 
 > [!TIP]
-> Hvis du vil ha en praktisk innføring i å bruke varianter i produksjon, kan du se [Gjennomgang: Varianter](contoso-coffee/variants.md) for Contoso Coffee-demodata.  
+> Hvis du vil ha en praktisk innføring i å bruke varianter i produksjon, kan du se [Gjennomgang: Varianter](contoso-coffee/manufacturing/variants.md) for Contoso Coffee-demodata.  
 
 ## Legg til varianter i en vare
 
@@ -57,4 +57,4 @@ Hvis funksjonen er slått på, kan ikke brukerne bokføre en post hvis varianten
 
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Definere generell informasjon om lagerbeholdning](inventory-how-setup-general.md)  
-[Gjennomgang: varianter](contoso-coffee/variants.md)  
+[Gjennomgang: varianter](contoso-coffee/manufacturing/variants.md)  

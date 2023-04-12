@@ -33,9 +33,9 @@ Denne gjennomgangen er et scenario som illustrerer følgende oppgaver:
 
 ## Hovedscenario
 
-Stig er en superbruker ved CRONUS. Han oppretter to godkjenningsbrukere. En er Charlotte som representerer en innkjøper. Den andre er ham selv som representerer Charlottes godkjenner. Stig gir selv ubegrensede rettigheter for kjøpsgodkjenning og angir at han skal motta meldinger ved internt notat så snart en relevant hendelse inntreffer. Til slutt oppretter Stig den nødvendige godkjenningsarbeidsflyten som en kopi av den eksisterende malen *Godkjenningsarbeidsflyt for bestilling*, lar alle eksisterende hendelsesbetingelser og svaralternativer stå uendret, og aktiverer deretter arbeidsflyten.  
+Stig er en superbruker hos CRONUS og oppretter to godkjenningsbrukere. En er Charlotte som representerer en innkjøper. Den andre er Sean selv, som representerer Alicias godkjenner. Sean gir selv ubegrensede rettigheter for kjøpsgodkjenning og angir at han skal motta meldinger ved internt notat så snart en relevant hendelse inntreffer. Til slutt oppretter Stig den nødvendige godkjenningsarbeidsflyten som en kopi av den eksisterende malen *Godkjenningsarbeidsflyt for bestilling*, lar alle eksisterende hendelsesbetingelser og svaralternativer stå uendret, og aktiverer deretter arbeidsflyten.  
 
-For å teste godkjenningsarbeidsflyten logger Stig seg på [!INCLUDE[prod_short](includes/prod_short.md)] som Charlotte, og ber deretter om godkjenning av en bestilling. Stig logger seg deretter på som seg selv, ser notatet i rollesenteret, følger koblingen til godkjenningsforespørselen for bestillingen, og godkjenner forespørselen.  
+For å teste godkjenningsarbeidsflyten logger Stig seg på [!INCLUDE[prod_short](includes/prod_short.md)] som Charlotte, og ber deretter om godkjenning av en bestilling. Sean logger seg deretter på som seg selv, ser notatet i rollesenteret, følger koblingen til godkjenningsforespørselen for bestillingen, og godkjenner forespørselen.  
 
 ## Brukere
 

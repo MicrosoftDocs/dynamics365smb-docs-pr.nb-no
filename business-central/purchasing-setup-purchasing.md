@@ -68,6 +68,7 @@ Med funksjonen aktiver kan en returtransaksjon bare bokføres ved å angi varepo
 | Håndter forretningssamhandlinger med leverandører, importer mottatte fakturadokumenter og registrer nye leverandører ved hjelp av e-postklienten i Outlook. | [Konfigurer Business Central-tillegget for Outlook](admin-outlook.md) |
 | Gå gjennom utgiftskvitteringer, konverter papir og elektroniske dokumenter til kladdelinjer og digitalisere papirfakturaer fra leverandører. | [Konfigurere inngående dokumenter](across-how-setup-income-documents.md) |
 | Angi standardrapporter som skal brukes for ulike dokumenttyper. |[Rapportvalg i Business Central](across-report-selections.md)|
+|Angi om brukere kan bokføre kjøpsfakturaer, og om de må bokføre dem sammen med en levering. |[Definer en fakturabokføringspolicy for brukere](admin-setup-invoice-posting-policy.md)|
 
 ## Se relatert opplæring på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 

@@ -2,21 +2,20 @@
 title: Kobling og synkronisering (inneholder video)
 description: Synkronisering av en integrert tabelltilordning gjør det mulig å synkronisere data i alle poster i en tabell i Business Central og Dynamics 365 Sales-tabell som er koblet.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.keywords: 'crm, sales, couple, decouple, synchronize'
-ms.search.form: 6250
-ms.date: 10/01/2021
 ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.date: 03/31/2023
+ms.custom: bap-template
+ms.search.keywords: 'crm, sales, couple, decouple, synchronize'
+ms.search.form: '6250,'
 ---
 
 # Kobling og synkronisering av poster mellom Dataverse og Business Central
 
 Dette emnet beskriver hvordan du kobler sammen én eller flere poster i [!INCLUDE[prod_short](includes/prod_short.md)] med poster i Dataverse eller [!INCLUDE[crm_md](includes/crm_md.md)]. Kobling av poster lar deg vise Dataverse-informasjon fra [!INCLUDE[prod_short](includes/prod_short.md)], og omvendt. Kopling lar deg også synkronisere data mellom postene. Du kan koble eksisterende poster, eller du kan opprette og koble nye poster.
 
-> [!Note]
+> [!NOTE]
 > Kobling og synkronisering av data er bare tilgjengelig hvis systemansvarlig har opprettet en kobling mellom [!INCLUDE[prod_short](includes/prod_short.md)] og Dataverse eller [!INCLUDE[crm_md](includes/crm_md.md)]. En rask måte å kontrollere på, er å åpne **Kunde**-kortet og se etter handlingen **Konfigurer kobling**. Hvis handlingen er tilgjengelig, er appene koblet.
 
 ## Videoeksempel
@@ -46,11 +45,11 @@ Denne videoen viser koblings- og synkroniseringsdata i konteksten til en integre
 2. Velg **[!INCLUDE[prod_short](includes/prod_short.md)]-** handlingen på båndet for å åpne og koble til posten automatisk.
 
     > [!Note]
-    > Du kan synkronisere én post fra [!INCLUDE[crm_md](includes/crm_md.md)] automatisk bare når det ikke er merket av for **Synkroniser bare koblede poster** og synkroniseringsretningen er satt til Toveis eller Fra integreringstabell på siden **Tilordning for integreringstabell** for posten. Hvis du vil ha mer informasjon, kan du se [Tilordne tabellene og feltene som skal synkroniseres](admin-how-to-modify-table-mappings-for-synchronization.md#creating-new-records).     
+    > Du kan synkronisere én post fra [!INCLUDE[crm_md](includes/crm_md.md)] automatisk bare når det ikke er merket av for **Synkroniser bare koblede poster** og synkroniseringsretningen er satt til Toveis eller Fra integreringstabell på siden **Tilordning for integreringstabell** for posten. Hvis du vil ha mer informasjon, kan du se [Tilordne tabellene og feltene som skal synkroniseres](admin-how-to-modify-table-mappings-for-synchronization.md#create-new-records).     
 
 ## Slik lagrer du flere poster ved å bruke samsvarsbasert kobling
 
-Du kan angi hvilke data som skal synkroniseres for en enhet, for eksempel en kunde eller kontakt, ved å koble poster basert på samsvar. Du kan begrense samsvarene ved å skille mellom store og små bokstaver og angi en prioritet for hvert samsvar. Hvis det ikke finnes noen samsvar, kan du også angi om du vil opprette enheten i Dataverse. Se [Tilpass samsvarsbasert kobling](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling) hvis du vil ha mer informasjon.  
+Angi hvilke data som skal synkroniseres for en enhet, for eksempel en kunde eller kontakt, ved å koble poster basert på samsvar. Begrens samsvarene ved å skille mellom store og små bokstaver og angi en prioritet for hvert samsvar. Hvis det ikke finnes noen samsvar, kan du også angi om du vil opprette enheten i Dataverse. Gå til [Tilpass samsvarsbasert kobling](admin-how-to-set-up-a-dynamics-crm-connection.md#customize-the-match-based-coupling) hvis du vil ha mer informasjon.  
 
 > [!NOTE]
 > Prosessen for den treffbaserte koblingen hopper over poster som allerede er tilordnet. Hvis du vil ta med disse postene når du kjører treffbasert kobling, kobler du fra postene og prøver på nytt. Hvis du vil lære mer om frakobling av poster, går du til [Koble fra poster](#uncoupling-records).

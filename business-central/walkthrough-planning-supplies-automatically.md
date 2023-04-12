@@ -47,11 +47,11 @@ Uttrykk som «kjør planlegging» og «kjør MRP» refererer til beregningen av 
 ## Hovedscenario  
  Kunden, Kontorkomplett AS, bestiller fem tursykler for levering 05.02.2021 (5. februar).  
 
- Martin, produksjonsplanleggeren, foretar rutinemessig forsyningsplanlegging for den første uken i februar 2021. Han filtrerer etter sin egen lokasjon, ØST, og angir et planleggingsintervall for arbeidsdatoen (23.01.2021) til 07.02.2021 før han beregner en innledende forsyningsplan.  
+ Martin, produksjonsplanleggeren, foretar rutinemessig forsyningsplanlegging for den første uken i februar 2021. Eduardo filtrerer etter sin egen lokasjon, ØST, og angir et planleggingsintervall for arbeidsdatoen (23.01.2021) til 07.02.2021 før han beregner en innledende forsyningsplan.  
 
- Det eneste behovet den uken gjelder ordren for Kontorkomplett AS. Martin ser at ingen av planleggingslinjene har advarsler, og begynner å opprette forsyningsordrer uten endringer for de foreslåtte planleggingslinjene.  
+ Det eneste behovet den uken gjelder ordren for Kontorkomplett AS. Eduardo ser at ingen av planleggingslinjene har advarsler, og begynner å opprette forsyningsordrer uten endringer for de foreslåtte planleggingslinjene.  
 
- Neste dag, før noen av de første forsyningsordrene er startet eller bokført, blir Martin varslet om at en annen kunde har bestilt ti tursykler for levering 12.02.2021. Han beregner på nytt for å justere forsyningsplanen i henhold til endringen i behovet. Den nye beregningen gir deg en bevegelsesplan der det blir foreslått endring av både tid og antall i enkelte av forsyningsordrene som ble opprettet ved første kjøring.  
+ Neste dag, før noen av de første forsyningsordrene er startet eller bokført, blir Martin varslet om at en annen kunde har bestilt ti tursykler for levering 12.02.2021. Eduardo beregner på nytt for å justere forsyningsplanen i henhold til endringen i behovet. Den nye beregningen gir deg en bevegelsesplan der det blir foreslått endring av både tid og antall i enkelte av forsyningsordrene som ble opprettet ved første kjøring.  
 
  Martin slår opp i de involverte ordrene i de ulike planleggingstrinnene og bruker sporingsfunksjonen til å vise hvilket behov som dekkes av hvilken forsyning.  
 
@@ -80,7 +80,7 @@ Uttrykk som «kjør planlegging» og «kjør MRP» refererer til beregningen av 
  Nå har du fullført klargjøringen av eksempeldataene for gjennomgangen.  
 
 ## Opprette en replanlegging for forsyning  
- Etter å ha mottatt en ny ordre for fem tursykler, begynner John planleggingen ved å angi alternativer, filtre og planleggingsintervall for å utelate alt annet behov enn behovet for første uke i februar i ØST. Han begynner med å beregne en hovedproduksjonsplan (MPS) og beregner deretter en komplett forsyningsplan for alt behov på lavere nivåer (MRP).  
+ Etter å ha mottatt en ny ordre for fem tursykler, begynner John planleggingen ved å angi alternativer, filtre og planleggingsintervall for å utelate alt annet behov enn behovet for første uke i februar i ØST. Ricardo begynner med å beregne en hovedproduksjonsplan (MPS) og beregner deretter en komplett forsyningsplan for alt behov på lavere nivåer (MRP).  
 
 ### Slik oppretter du ordren  
 
@@ -198,7 +198,7 @@ Uttrykk som «kjør planlegging» og «kjør MRP» refererer til beregningen av 
  Nå har du fullført den innledende beregningen, analysen og opprettelsen av en forsyningsplan for behov i ØST i den første uken av februar. I delen nedenfor bestiller en annen kunde ti tursykler, og Martin må planlegge på nytt.  
 
 ## Opprette en bevegelsesplan  
- Neste dag, før noen forsyningsordrer er startet eller bokført, kommer det en ny ordre fra Stilmøbler AS for ti tursykler som skal leveres 12.02.2021. Martin blir varslet om det nye behovet og begynner å planlegge på nytt for å justere den aktuelle forsyningsplanen. Martin bruker funksjonen for bevegelsesplan til å beregne bare endringene av behov eller forsyning siden siste planleggingskjøring. I tillegg utvider han planleggingsperioden til 14.02.2021 slik at den inkluderer det nye salgsbehovet den 12.02.2021.  
+ Neste dag, før noen forsyningsordrer er startet eller bokført, kommer det en ny ordre fra Stilmøbler AS for ti tursykler som skal leveres 12.02.2021. Eduardo blir varslet om det nye behovet og begynner å planlegge på nytt for å justere den aktuelle forsyningsplanen. Martin bruker funksjonen for bevegelsesplan til å beregne bare endringene av behov eller forsyning siden siste planleggingskjøring. I tillegg utvider Eduardo planleggingsperioden til 14.02.2021 slik at den inkluderer det nye salgsbehovet den 12.02.2021.  
 
  Planleggingssystemet beregner den beste måten å dekke behovet for disse to identiske produktene på, for eksempel å konsolidere enkelte bestillinger og produksjonsordrer, planlegge andre ordrer på nytt og opprette nye ordrer der det er nødvendig.  
 

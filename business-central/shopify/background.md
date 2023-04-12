@@ -18,11 +18,11 @@ Det er effektivt å kjøre enkelte oppgaver samtidig og på en automatisk måte.
 
 ## Kjør oppgaver i bakgrunnen for en bestemt butikk
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn navnet på **Shopify-butikken**. Velg butikknavnet fra oversikten.
-2. Velg butikken du vil synkronisere varer med for å åpne siden **Shopify-butikkort**.
-3. Aktiver vekslebryteren **Tillat bakgrunnssynkroniseringer**.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Shopify-butikk**. Velg den relaterte koblingen.
+2. Velg butikken du vil kjøre synkronisering i bakgrunnen for, for å åpne siden **Shopify-butikkort**.
+3. Slå på vekslebryteren **Tillat bakgrunnssynkroniseringer**.
 
-Når synkroniseringshandlingen utløses, blir du bedt om å vente i stedet for en oppgave som kjører i forgrunnen. Når det er fullført, kan du fortsette til neste handling. Oppgaven er opprettet som en **prosjektkøpost** og starter direkte i en ikke-blokkerende måte.
+Når synkroniseringshandlingen utløses, blir du bedt om å vente i stedet for en oppgave som kjører i forgrunnen. Når det er fullført, kan du fortsette til neste handling. Oppgaven er opprettet som **jobbkøpost** og starter umiddelbart.
 
 ## Slik planlegger du regelmessige oppgaver
 
@@ -41,6 +41,15 @@ Du kan planlegge at følgende regelmessige aktiviteter skal utføres på en auto
 
 > [!NOTE]
 > Noen varer kan bli oppdatert av flere oppgaver, for eksempel når du importerer ordrer, avhengig av innstillingen på **Shopify-butikkortet**, kan systemet også importere og oppdatere kunde- eller produktdata. Husk å bruke den samme prosjektkøkategorien for å unngå konflikter.
+
+Andre oppgaver som kan være nyttige ved automatisering av ytterligere behandling av salgsdokumenter:
+
+- rapport 497 Kjøpsfakturaer - massebokfør
+- rapport 496 Bestillinger - massebokfør
+
+Du kan bruke feltet **Shopify-ordrenr.** til å identifisere salgsdokumenter som ble importert fra Shopify.
+
+Hvis du vil lære mer om bokføring av ordrer i et parti, går du [Slik oppretter du en jobbkøpost for massebokføring av ordrer](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
 ## Se også
 
