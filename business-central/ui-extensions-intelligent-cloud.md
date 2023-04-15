@@ -2,7 +2,6 @@
 title: Utvidelse for skyoverføringsbase
 description: Bruk utvidelsen for skyoverføringsbase til å koble din lokale løsning til Business Central Online.
 author: edupont04
-manager: edupont
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na

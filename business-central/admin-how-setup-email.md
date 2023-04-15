@@ -60,6 +60,8 @@ Hvis du vil bruke SMTP-protokollen til å sende e-postmeldinger fra [!INCLUDE[pr
 >
 > Exchange Online avskriver bruk av enkel godkjenning for SMPT. Leiere som for øyeblikket bruker SMTP AUTH, påvirkes ikke av denne endringen. Vi anbefaler imidlertid på det sterkeste å bruke den nyeste versjonen av [!INCLUDE [prod_short](includes/prod_short.md)] og å konfigurere OAuth 2.0-godkjenning for SMTP. Vi vil ikke legge til sertifikat basert godkjenning for tidligere versjoner av [!INCLUDE [prod_short](includes/prod_short.md)], for eksempel versjon 14. Hvis du ikke kan konfigurere OAuth 2.0-godkjenning, oppfordres du til å utforske tredjepartsalternativer hvis du vil bruke SMTP-e-post i tidligere versjoner.
 
+[!INCLUDE [email-copy-company](includes/email-copy-company.md)]
+
 ## Legg til e-postkontoer
 
 Den assisterte oppsettveiledningen **Konfigurer e-post** kan hjelpe deg raskt i gang med e-post.
