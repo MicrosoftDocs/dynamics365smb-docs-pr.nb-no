@@ -1,6 +1,6 @@
 ---
 title: Definere gjentakelsesordrer
-description: Når du har opprettet en gjentakelsesgruppe, kan du definere gjentakelsesordrer for rammeordren ved å legge til gruppen i ordren.
+description: 'Når du har opprettet en gjentakelsesgruppe, kan du definere gjentakelsesordrer for rammeordren ved å legge til gruppen i ordren.'
 services: project-madeira
 documentationcenter: ''
 author: SorenGP
@@ -8,20 +8,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 4a699fb9bd02cba67e8e22249b51d95881b8eeb2
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8145067"
 ---
-# <a name="set-up-recurring-orders"></a>Definere gjentakelsesordrer
+# Definere gjentakelsesordrer
 Når du har opprettet en gjentakelsesgruppe, kan du definere gjentakelsesordrer for rammeordren ved å legge til gruppen i ordren. Hvis du vil ha mer informasjon, kan du se [Opprette rammeordrer](how-to-set-up-recurring-groups.md).  
 
-## <a name="to-set-up-a-recurring-order"></a>Slik definerer du en gjentakelsesordre  
+## Slik definerer du en gjentakelsesordre  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Rammeordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
@@ -41,7 +35,7 @@ Når du har opprettet en gjentakelsesgruppe, kan du definere gjentakelsesordrer 
 
 5.  Velg **OK**.  
 
-## <a name="see-also"></a>Se også  
+## Se også  
  [Gjentakelsesordrer](recurring-orders.md)   
  [Opprette gjentakelsesgrupper](how-to-set-up-recurring-groups.md)   
  [Opprett gjentakelsesordrer](how-to-create-recurring-orders.md)   

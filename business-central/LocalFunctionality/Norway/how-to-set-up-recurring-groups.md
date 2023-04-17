@@ -6,20 +6,14 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 0b47b63a762d3d826cd12388bc0b62c92910fc95
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8144162"
 ---
-# <a name="set-up-recurring-groups"></a>Opprette gjentakelsesgrupper
+# Opprette gjentakelsesgrupper
 I feltet **Kode for gjentakelsesgruppe** på **Rammebestillinger**-siden defineres datoformler som kan brukes både som mal og til å opprette salgsordrer basert på datointervaller. Du må opprette gjentakelsesgrupper før du kan opprette gjentakelsesordrer.  
 
-## <a name="to-set-up-recurring-groups"></a>Slik oppretter du gjentakelsesgrupper:  
+## Slik oppretter du gjentakelsesgrupper:  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Gjentakelsesgrupper**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
@@ -47,7 +41,7 @@ I feltet **Kode for gjentakelsesgruppe** på **Rammebestillinger**-siden definer
 
 5.  Velg **OK**.  
 
-## <a name="see-also"></a>Se også  
+## Se også  
  [Gjentakelsesordrer](recurring-orders.md)   
  [Definere gjentakelsesordrer](how-to-set-up-recurring-orders.md)   
  [Opprett gjentakelsesordrer](how-to-create-recurring-orders.md)

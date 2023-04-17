@@ -1,26 +1,20 @@
 ---
-title: Funksjonalitet som er spesifikk for norske brukere [NO]
+title: 'Funksjonalitet som er spesifikk for norske brukere [NO]'
 description: Emnene nedenfor beskriver all den lokale funksjonaliteten i den norske versjonen av Business Central.
 author: edupont04
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: 98064fe1bb76345801c41cbf96362aa2be739f12
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8521404"
 ---
-# <a name="norway-local-functionality-in-the-norwegian-version"></a>Norge Lokal funksjonalitet i den norske versjonen
+# Norge Lokal funksjonalitet i den norske versjonen
 
 Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Funksjonstilgjengelighet
+## Funksjonstilgjengelighet
 
 * Merverdiavgift
     * [Administrere SAF-T (norsk standard revisjonsfil – avgift)](ui-extensions-setup-and-generate-saf-t-files-no.md) **Tilgjengelig nå**
@@ -80,8 +74,13 @@ Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske v
   [Norwegian VAT Reporting](norwegian-vat-reporting.md)  
  [Recurring Orders](recurring-orders.md)  
  -->
+ 
+## Framtidige krav til lovgivning undersøkes
 
-## <a name="see-also"></a>Se også
+For øyeblikket finnes det ingen forestående, forskriftsmessige funksjoner eller krav. Hvis du vet om kommende forskriftsmessige funksjoner, kan du sende et [varsel om forskriftmessig funksjon](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+
+
+## Se også
 
 [Arbeid med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

@@ -1,23 +1,17 @@
 ---
-title: Bruk én mva-kode i kladder [NO]
-description: I Norge kan du bruke funksjonen for én mva-kode i en kladd, slik at du kan bokføre mva ved hjelp av ett enkelt felt, Mva-kode.
+title: 'Bruk én mva-kode i kladder [NO]'
+description: 'I Norge kan du bruke funksjonen for én mva-kode i en kladd, slik at du kan bokføre mva ved hjelp av ett enkelt felt, Mva-kode.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 10602, 10697, 10698, 10604
+ms.search.keywords: null
+ms.search.form: '10602, 10697, 10698, 10604'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 747bace753b5f8a9033974a1c58b625ea4108d07
-ms.sourcegitcommit: 3ca91139035b34cfe0b0303e4caff7c6d02d0d14
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/14/2022
-ms.locfileid: "8417600"
 ---
-# <a name="use-one-vat-code-in-journals-in-norway"></a>Bruk én mva-kode i kladder i Norge
+# Bruk én mva-kode i kladder i Norge
 
 I Norge kan du bruke funksjonen for én mva-kode i en kladd, slik at du kan bokføre mva ved hjelp av ett enkelt felt, **Mva-kode**. Når én mva-kode er konfigurert, er dette en rask måte å fylle ut mva-felt som brukes ofte.  
 
@@ -25,7 +19,7 @@ For å angi mva-koden for bestillinger og ordrer, må de tilsvarende mva-bokfør
 
 Mva-satsen beregnes fra kombinasjonen av mva-firmabokføringsgrupper, kjøperinformasjon og mva-varebokføringsgrupper.  
 
-## <a name="to-create-a-vat-code"></a>Slik oppretter du en mva-kode:  
+## Slik oppretter du en mva-kode:  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-koder** og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
@@ -34,7 +28,7 @@ Mva-satsen beregnes fra kombinasjonen av mva-firmabokføringsgrupper, kjøperinf
 
 Fremgangsmåten nedenfor beskriver mva-bokføringsoppsettet.  
 
-## <a name="to-set-up-vat-posting"></a>Slik definerer du mva-bokføring:  
+## Slik definerer du mva-bokføring:  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
@@ -58,7 +52,7 @@ For eksempel: mva-satsen som er bokført i kladden, defineres av oppsettet du ha
 >   
 >  Det gjøres ingen endringer i bokføringen.  
 
-## <a name="see-also"></a>Se også  
+## Se også  
  [Norske mva-koder](norwegian-vat-codes.md)
 
 

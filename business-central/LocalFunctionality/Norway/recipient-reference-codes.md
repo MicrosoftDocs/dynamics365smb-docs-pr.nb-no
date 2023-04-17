@@ -1,22 +1,16 @@
 ---
-title: Referansekoder for mottaker [NO]
-description: Referansekoden for mottaker bestemmer hvilken melding som skal sendes til mottakeren, og vises på remitteringskontoen.
+title: 'Referansekoder for mottaker [NO]'
+description: 'Referansekoden for mottaker bestemmer hvilken melding som skal sendes til mottakeren, og vises på remitteringskontoen.'
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
+ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: edupont
-ms.openlocfilehash: a5fbfa2ab12f26ccb4d044cc9530a6336acab339
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8140007"
 ---
-# <a name="recipient-reference-codes-in-the-norwegian-version"></a>Referansekoder for mottaker i den norske versjonen
+# Referansekoder for mottaker i den norske versjonen
 
 Mottakerreferansekoden bestemmer hvilken melding som skal sendes til mottakeren. Koden vises i remitteringskontoen, og brukes for leverandører som betales fra denne kontoen. Det kan opprettes en egen mottakerreferansekode for hver leverandør hvis den generelle referanseteksten ikke benyttes.  
 
@@ -38,7 +32,7 @@ Mottakerreferansekodene blir beskrevet i tabellen nedenfor.
 |**%10**|Forfallsdatoen fra leverandørposten.|  
 |**%11**|Kunde ID-nummeret fra leverandørposten.|  
 
-## <a name="see-also"></a>Se også  
+## Se også  
  [Angi leverandører for remittering](how-to-set-up-vendors-for-remittance.md)
 
 

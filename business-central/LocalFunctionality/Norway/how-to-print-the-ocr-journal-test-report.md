@@ -6,21 +6,15 @@ ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 15000100, 255
+ms.search.keywords: null
+ms.search.form: '15000100, 255'
 ms.date: 04/01/2021
 ms.author: edupont
-ms.openlocfilehash: 016fb75032b8df040ab082e6e70d2beb1b92382c
-ms.sourcegitcommit: 8a12074b170a14d98ab7ffdad77d66aed64e5783
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 03/31/2022
-ms.locfileid: "8513223"
 ---
-# <a name="print-the-ocr-journal---test-report"></a>Skrive ut rapporten OCR-kladd - test
+# Skrive ut rapporten OCR-kladd - test
 Du kan skrive ut rapporten **OCR-kladd - test** for å teste de importerte betalingstransaksjonene i innbetalingskladden. Du kan også vise potensielle advarsler og løse konflikter før betalingene bokføres i kladden.  
 
-## <a name="to-print-the-ocr-journal--test-report"></a>Slik skriver du ut rapporten OCR-kladd - test:  
+## Slik skriver du ut rapporten OCR-kladd - test:  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **OCR-kladder – test**, og velg deretter den relaterte koblingen.  
 2.  I hurtigfanen **Alternativer** fyller du ut feltene som beskrevet i tabellen nedenfor.  
@@ -32,7 +26,7 @@ Du kan skrive ut rapporten **OCR-kladd - test** for å teste de importerte betal
 
 3.  Velg **Skriv ut** for å skrive ut rapporten, eller velg **Forhåndsvisning** for å vise den på skjermen.  
 
-## <a name="see-also"></a>Se også  
+## Se også  
  [Elektroniske banktjenester i Norge](electronic-banking-in-norway.md)   
  [Opprette KID-numre på salgsdokumenter](how-to-set-up-kid-numbers-on-sales-documents.md)   
  [Opprette OCR-betalinger](how-to-set-up-ocr-payments.md)   

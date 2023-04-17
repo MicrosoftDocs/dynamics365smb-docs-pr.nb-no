@@ -1,30 +1,24 @@
 ---
-title: Opprette remitteringskontoer [NO]
+title: 'Opprette remitteringskontoer [NO]'
 description: Følgende emne forklarer hvordan du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres i den norske versjonen av Business Central.
 author: SorenGP
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.search.keywords: ''
-ms.search.form: 15000000, 15000002, 15000004, 15000006, 15000007, 15000010
+ms.search.keywords: null
+ms.search.form: '15000000, 15000002, 15000004, 15000006, 15000007, 15000010'
 ms.date: 06/18/2021
 ms.author: edupont
-ms.openlocfilehash: 22e6e761146ee5303c052eaa50aeaad219c6dd04
-ms.sourcegitcommit: ef80c461713fff1a75998766e7a4ed3a7c6121d0
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 02/15/2022
-ms.locfileid: "8141797"
 ---
-# <a name="create-remittance-accounts-in-the-norwegian-version"></a>Opprett remitteringskonti i den norske versjonen
+# Opprett remitteringskonti i den norske versjonen
 
 Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres. Hvis en konto brukes til å utføre betalinger til både innenlandske og utenlandske leverandører, må denne kontoen opprettes to ganger: én gang for betalinger innland og én gang for betalinger utland.  
 
 > [!NOTE]  
 >  Valutaen som brukes for bankkontoen skal være samme valuta som banken bruker for denne kontoen. Valutakursene er basert på kontoens valuta og beregningene er basert på denne valutaen.  
 
-## <a name="to-create-a-remittance-account"></a>Slik oppretter du en remitteringskonto  
+## Slik oppretter du en remitteringskonto  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Remitteringskontooversikt**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
@@ -73,7 +67,7 @@ Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres.
 
 7.  Velg **OK**.  
 
-## <a name="see-also"></a>Se også  
+## Se også  
  [Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)   
  [Sette opp remitteringsavtaler](how-to-set-up-remittance-agreements.md)   
  [Angi leverandører for remittering](how-to-set-up-vendors-for-remittance.md)   
