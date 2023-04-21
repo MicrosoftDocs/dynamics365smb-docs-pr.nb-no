@@ -44,8 +44,8 @@ Du kan planlegge at følgende regelmessige aktiviteter skal utføres på en auto
 
 Andre oppgaver som kan være nyttige ved automatisering av ytterligere behandling av salgsdokumenter:
 
-- rapport 497 Kjøpsfakturaer - massebokfør
-- rapport 496 Bestillinger - massebokfør
+- rapport 297 Salgsfakturaer – massebokfør
+- rapport 296 Salgsordrer – massebokfør
 
 Du kan bruke feltet **Shopify-ordrenr.** til å identifisere salgsdokumenter som ble importert fra Shopify.
 

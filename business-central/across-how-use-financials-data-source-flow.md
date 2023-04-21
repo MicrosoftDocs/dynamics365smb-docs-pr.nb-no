@@ -28,6 +28,7 @@ Power Automate-flytprosesser utløses av hendelser, for eksempel at en post ble 
 ## Om Power Automate-flytprosesser
 
 Power Automate er en tjeneste som hjelper deg med å opprette automatiserte arbeidsflytprosess (eller flytprosesser) mellom apper og tjenester, som [!INCLUDE[prod_short](includes/prod_short.md)]. Power Automate-flytprosesser krever lite eller ingen kodekunnskap. De kan knyttes til et bredt spekter av hendelser og svar, for eksempel:
+
 - oppføringsendringer
 - oppdateringer av eksterne filer
 - bokførte dokumenter
@@ -41,10 +42,13 @@ Det finnes tre forskjellige skyflyttyper du kan arbeide med:
 |Tidsplanlagt|Denne typen flyt blir også kjørt automatisk, men den kjøres med jevne mellomrom på en planlagt dato og et planlagt tidspunkt. |
 |Direkte |Denne flyttypen kjøres etter behov, som krever at brukeren kjører den manuelt fra en knapp eller handling i en annen app eller enhet, i dette tilfellet [!INCLUDE[prod_short](includes/prod_short.md)]-klienten. Direkteflyter fungerer på samme måte som satsvise snarveier, noe som utfører flere lange trinn med noen knappetrykk og startes fra bestemte sider eller tabeller. En flyt kan for eksempel legge til en knapp på handlingsmenyen på **Leverandører**- siden for å sperre betalinger til en leverandør og samtidig sende e-postmeldinger til leverandørens kontakt og innkjøpere, i tillegg til å oppdatere kontakten i Outlook. |
 
-## Power Automate-funksjoner i [!INCLUDE[prod_short](includes/prod_short.md)]
+## Power Automate-funksjoner
 
-Du kan utforske alle Power Automate-flytprosesser som er tilgjengelige for deg, ved å logge deg på [Power Automate](https://powerautomate.com) og velge **Mine flytprosesser** fra navigasjonsfeltet til venstre. Her finner du alle flytprosesser du allerede har opprettet selv, og flytprosesser som deles med deg av en administrator eller en kollega. Disse flytene gjøres også tilgjengelige fra [!INCLUDE [prod_short](includes/prod_short.md)] fra ulike sider. Med automatiserte flytprosesser i [!INCLUDE[prod_short](includes/prod_short.md)] tregner du ikke å gjøre noe med mindre du vil endre dem eller slå dem av. Hvis ikke fungerer de når de utløses. Som for direkteflytprosesser på [!INCLUDE[prod_short](includes/prod_short.md)]-data kan du kjøre dem fra de fleste liste-, kort- og dokumentsider ved å velge dem fra **Automatiser**-elementet i handlingen. Finn ut mer i delene som følger.
+Du kan utforske alle Power Automate-flytprosesser som er tilgjengelige for deg, ved å logge deg på [Power Automate](https://powerautomate.com) og velge **Mine flytprosesser** fra navigasjonsfeltet til venstre. Her finner du alle flytprosesser du allerede har opprettet selv, og flytprosesser som deles med deg av en administrator eller en kollega.
 
+- Direkteflyter gjøres også tilgjengelig for kjøring direkte fra de fleste liste-, kort- og dokumentsidene i [!INCLUDE[prod_short](includes/prod_short.md)]. Du finner direkteflytene i handlingsgruppen **Automatiser** i handlingslinjen på sider. Du kan kjøre en flyt ved å merke den og følge instruksjonene som vises. Finn ut mer i delene som følger.
+ 
+- Med automatiserte flytprosesser i [!INCLUDE[prod_short](includes/prod_short.md)] tregner du ikke å gjøre noe med mindre du vil endre dem eller slå dem av. Hvis ikke fungerer de når de utløses. 
 <!--
 
 ## Automated flows
@@ -86,9 +90,9 @@ Oppretting av nye flytprosesser, endring og administrering av eksisterende (som 
 
 - Hvis du vil opprette en direkteflyt fra en liste-, kort- eller dokumentside, velger du **Automatiser** > **Opprett en flyt**.
 - Du åpner Power Automate fra en liste-, kort- eller dokumentside ved å velge **Automatiser** > **Administrer flytprosesser**.
-- Du kan opprette nye flytprosesser eller håndtere eksisterende flytprosess fra [!INCLUDE[prod_short](includes/prod_short.md)] ved å gå til siden **Administrer Power Automate-flytprosesser**.
+<!--- To create new flows or manage existing flows from inside [!INCLUDE[prod_short](includes/prod_short.md)], got to the **Manage Power Automate Flows** page.-->
 
-Disse oppgavene gjøres vanligvis av en administrator eller superbruker. Oppgavene krever omfattende kunnskap om forretningsprosessene i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Konfigurer automatiserte flytprosesser](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows), [Konfigurer direkteflytprosesser](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) og [Administrer Power Automate-flytprosesser](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
+Disse oppgavene gjøres vanligvis av en administrator eller superbruker. Oppgavene krever omfattende kunnskap om forretningsprosessene i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil lære mer, kan du utforske [Power Automate-integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview), [Definer direkteflyter](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) og [Administrer Power Automate-flyter](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows).
 <!-- 
 
 ## Add more automated flows and instant flows

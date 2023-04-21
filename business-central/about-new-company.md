@@ -1,15 +1,14 @@
 ---
 title: Opprett nye selskaper med en automatisk oppsettguide
-description: 'Det er enkelt å opprette et nytt, tomt selskap i Business Central. En guide for assistert oppsett hjelper deg gjennom trinnene, og du kan importere forretningsdataene eksisterende.'
-author: edupont04
+description: 'Det er enkelt å opprette et nytt, tomt selskap i Business Central. En guide for assistert oppsett hjelper deg gjennom trinnene, og du kan importere forretningsdataene.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.date: 04/14/2023
+ms.custom: bap-template
 ms.search.keywords: 'company, setup wizard'
 ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 04/01/2021
-ms.author: edupont
 ---
 # Opprett nye selskaper i [!INCLUDE[prod_short](includes/prod_short.md)]
 
@@ -46,7 +45,9 @@ Administratoren kan finne ut mer om prøveversjoner og abonnementer [her](/dynam
 På siden **Selskaper** kan du bruke **Kopier**-handlingen til å opprette et annet selskap basert på innholdet i et eksisterende selskap. Dette er for eksempel nyttig når du vil teste et selskap uten å forstyrre produksjonsdata.
 
 > [!Important]
-> Denne funksjonen kan ikke brukes til å ta en sikkerhetskopi av et selskap. Å ta en sikkerhetskopi av selskapet begynner ved å eksportere databasen som en bacpac-fil. Hvis du vil ha mer informasjon, kan du se [Eksportere databaser](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) i hjelpen for utvikling og administrasjon.
+> Ikke bruk kopieringshandlingen til å ta en sikkerhetskopi av et selskap. Hvis du vil ta en sikkerhetskopi, begynner du ved å eksportere databasen som en bacpac-fil. Hvis du vil ha mer informasjon, kan du se [Eksportere databaser](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export) i hjelpen for utvikling og administrasjon.
+
+[!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
 ## Konfigurer selskapet
 

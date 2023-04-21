@@ -28,9 +28,9 @@ Implementer disse funksjonene i ulike kombinasjoner for å skreddersy lagerprose
 
 ## Oversikt over ulike konfigurasjonsalternativer
 
-Du kan konfigurere lagerfunksjoner på ulike måter. Det er viktig at alternativene du velger, forbedrer prosessene uten å forårsake indirekte kostnader. Tabellen nedenfor gir en oversikt over typiske konfigurasjoner som brukes når du behandler fysiske varer.
+Du kan konfigurere lagerfunksjoner på ulike måter. Det er viktig at du velger alternativene som forbedrer prosessene uten å forårsake indirekte kostnader. Tabellen nedenfor gir en oversikt over typiske konfigurasjoner for å håndtere fysiske varer.
 
-|Kompleksitetsnivå|Beskrivelse|Innstillinger|Hyllekode|Eksempel på inngående flyt|Eksempel på utgående flyt|Eksempel på intern flyt|  
+|Kompleksitetsnivå|Description|Innstillinger|Hyllekode|Eksempel på inngående flyt|Eksempel på utgående flyt|Eksempel på intern flyt|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
 |Ingen dedikert lageraktivitet.|Bokfør fra ordrer og kladder.||Valgfritt. Kontrollert av vekslebryteren **Hyllekode er obligatorisk**.|Bestilling|Ordre| Produksjonsordre -> Forbrukskladd|  
 |Grunnleggende|Konsolidert mottak/levering for flere ordrer.|**Mottak nødv.**<br>**Levering nødv.**|Valgfritt. Kontrollert av vekslebryteren Hyllekode er obligatorisk|Bestillinger -> Lagermottak|Ordre -> Lagerlevering|Samme som ovenfor.|
@@ -61,7 +61,7 @@ Du må ha minst én lokasjon for å kunne håndtere fysiske varer. Du kan bruke 
 Lokasjoner er vanligvis den beste måten å organisere operasjoner på på tvers av geografiske områder. I noen tilfeller vil du imidlertid kanskje opprette flere lokasjoner som befinner seg på samme sted. Bruk av lokasjonene har følgende fordeler:
 
 * Gi tilgang ved hjelp av sidene **Lagermedarbeider** og **Ansvarssentre** .
-* Definer kalendere, ruter og inngående og utgående håndteringstider for datoberegning og planlegging. [Om planleggingsfunksjonalitet](production-about-planning-functionality.md)
+* Definer kalendere, ruter og inngående og utgående håndteringstider for datoberegning og planlegging. Finn ut mer under [Om planleggingsfunksjonaliteten](production-about-planning-functionality.md).
 * Angi standarddimensjoner og bruke ulike lagerbokføringsoppsett.
 * Konfigurer planleggingsparametere. Finn ut mer under [Planleggingsparametere](production-about-planning-functionality.md#planning-parameters).  
 * Bruk forskjellige lagerfunksjoner for hver lokasjon.

@@ -428,6 +428,7 @@
 ### [Opprett finansbudsjetter](finance-how-create-budgets.md)
 ### [Bokfør transaksjoner direkte i finans](finance-how-post-transactions-directly.md)
 ### [Tilbakefør kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)
+### [Revisjonsfileksport](finance-how-to-export-audit-files.md)
 ### [Tildel kostnader og inntekter](year-allocate-costs-income.md)
 ### [Registrer og refunder ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)
 ### [Periodiser inntekter og utgifter](finance-how-defer-revenue-expenses.md)
@@ -809,6 +810,7 @@
 ##### [Begrens bokføringsperioden](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Angi arbeidsdato som bokføringsdato](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 ##### [Gjør kladdemaler obligatoriske](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
+##### [Periodiseringer i salgs- og kjøpspostrapporter](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
 ### Canada
 #### [Lokal funksjonalitet i kanadisk versjon](LocalFunctionality/Canada/canada-local-functionality.md)
