@@ -109,12 +109,11 @@ Hvis du vil utelukke alle tillatelser fra et tillatelsessett, merker du linjen i
 
 Hvis du vil utelukke eller delvis utelukke en bestemt tillatelse i et sett du har lagt til, oppretter du en linje for objektet under **Tillatelser**. Feltene for tilgangsnivå, Innsettingstillatelse, Endringstillatelse og så videre vil alle inneholde **Utelat**. Hvis du vil tillate et bestemt tilgangsnivå, velger du det aktuelle alternativet.
 
-> [!NOTE]
-> Når du utelater et tillatelsessett, ekskluderes alle tillatelsene i settet. [!INCLUDE [prod_short](includes/prod_short.md)] beregner tillatelser som følger:
+Når du utelater et tillatelsessett, ekskluderes alle tillatelsene i settet. [!INCLUDE [prod_short](includes/prod_short.md)] beregner tillatelser som følger:
 
-> 1. Beregn hele listen over inkluderte tillatelser
-> 2. Beregn hele listen over utelatte tillatelser
-> 3. Fjern utelatte tillatelser fra listen over inkluderte tillatelser (fjerning av en indirekte tillatelse er det samme som Reduser til Indirekte)
+1. Beregn hele listen over inkluderte tillatelser
+2. Beregn hele listen over utelatte tillatelser
+3. Fjern utelatte tillatelser fra listen over inkluderte tillatelser (fjerning av en indirekte tillatelse er det samme som Reduser til Indirekte)
 
 ## Slik kopiere du et tillatelsessett
 
