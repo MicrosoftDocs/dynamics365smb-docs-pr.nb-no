@@ -87,6 +87,8 @@ I stedet for å bruke flyttingsdokumenter kan du registrere flyttinger ved å re
 3. Fyll ut de gjenstående feltene på hver kladdelinje.
 4. Bokfør reklassifiseringskladden.  
 
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
 ## Se relatert [Microsoft-opplæring](/training/modules/manage-internal-warehouse-processes/)
 
 ## Se også

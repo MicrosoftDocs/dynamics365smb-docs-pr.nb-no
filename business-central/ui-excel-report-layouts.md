@@ -86,8 +86,9 @@ Når du har Excel-oppsettsfilen, er den neste oppgaven å legge den til som et n
 3. Angi **Rapport-ID** til *Rapport*.
 4. Angi et navn i **Oppsettsnavn**.
 5. Angi **Formatalternativer** til **Excel**.
-6. Velg **OK** > **Velg** for å åpne filutforsker på enheten.
-7. Finn og velg Excel-filen, og velg deretter **Åpne**.
+6. Velg **OK** og gjør deretter et av følgende for å laste opp oppsettfilen for rapporten:
+
+   [!INCLUDE[file-upload](includes/file-upload.md)]
 
    Den valgte filen lastes opp til oppsettet, og siden **Rapportoppsett** åpnes.
 8. Hvis du vil se hvordan rapporten ser ut med det nye oppsettet, velger du oppsettet fra listen, og deretter velger du **Kjør rapport**.

@@ -1,5 +1,5 @@
 ---
-title: Få tilgang til Business Central-forhåndsversjon – Copilot-utgave
+title: Kom i gang med en Business Central-forhåndsversjon for Copilot
 description: Forklarer hvordan du får et Business Central-miljø med den nye KI-funksjonen for generering av tekstforslag for vare-/produktbeskrivelser.
 author: jswymer
 ms.author: jswymer
@@ -9,38 +9,35 @@ ms.date: 03/16/2023
 ms.custom: bap-template
 ---
 
-# Kom i gang med en Business Central-forhåndsversjon – Copilot-utgave
+# Kom i gang med en Business Central-forhåndsversjon for Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
-Du kan prøve varemarkedsføringstekst drevet av kunstig intelligens med Copilot om du er en eksisterende Business Central-kunde eller en potensiell kunde, det vil si noen som bare er interessert i å utforske Business Central og prøve ut den nye funksjonaliteten. For å komme i gang må du få tilgang til en forhåndsversjon av Business Central som støtter den nye funksjonaliteten. Fullfør avsnittet nedenfor som gjelder for deg.
+Du kan prøve varemarkedsføringstekst drevet av kunstig intelligens med Copilot om du er en eksisterende Business Central-kunde eller en potensiell kunde, det vil si noen som bare er interessert i å utforske Business Central og prøve ut den nye funksjonaliteten. For å komme i gang trenger du tilgang til en Business Central online-versjon som støtter den nye funksjonaliteten. Fullfør avsnittet nedenfor som gjelder for deg.
 
 ## Organisasjonen bruker allerede Business Central
 
-Som en eksisterende kunde eller partner trenger du en administrator med tilgang til administrasjonssenteret for Business Central for å kunne konfigurere et *sandkassemiljø* som kjører forhåndsversjonen som inneholder Copilot. Når sandkassemiljøet er i gang, kan brukerne prøve ut den nye funksjonen.
+Som en eksisterende kunde eller partner trenger du en administrator med tilgang til administrasjonssenteret for Business Central for å kunne konfigurere et miljø som kjører forhåndsversjonen som inneholder Copilot. Når miljøet er i gang, kan brukerne prøve ut den nye funksjonen.
 
 Hvis du er miljøadministrator, går du gjennom følgende fremgangsmåte:
 
 1. Logg deg på administrasjonssenteret for Business Central.
 2. Velg **Miljøer** > **Opprett**.
 3. I ruten **Opprett miljø** angir du et navn på det nye miljøet i feltet **Miljønavn**.
-4. Angi **Miljøtype** til **Sandkasse**.
-5. Angi **Land** til **USA**.
+4. Angi **Miljøtype** til **Sandkasse** eller **Produksjon**.
+5. Angi **Land** til et land/region i oversikten, men vær oppmerksom på at i forhåndsversjonen er markedsføringsteksten generert av kunstig intelligens fra Copilot bare på engelsk.
+6. I **Versjon**-boksen velger du en versjon 22 eller nyere fra listen.
 
+   <!--
    > [!IMPORTANT]
-   > Forhåndsversjonen er bare tilgjengelig for USA. Organisasjoner i et annet land eller område kan fremdeles opprette en sandkasseforhåndsversjon for USA for å prøve Copilot.
-
-6. I **Versjon**-boksen velger du en versjon **22.0.54157.54311 (forhåndsversjon – Copilot-utgave)**.
-
-   > [!IMPORTANT]
-   > Du må bruke **22.0.54157.54311 (forhåndsversjon – Copilot-utgave)** for å prøve Copilot.
-
+   > You must use **22.0.54157.54311 (Preview - Copilot edition)** to experience Copilot.
+   -->
 7. Velg **Opprett**.  
 
-Hvis du vil ha mer informasjon om hvordan du oppretter sandkassemiljøer, går du til [Opprett et miljø](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
+Hvis du vil ha mer informasjon om hvordan du oppretter miljøer, går du til [Opprett et miljø](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-environment).
 
 > [!IMPORTANT]
-> Forhåndsversjonssandkassene er bare tilgjengelige frem til 1. mai 2023. Etter denne datoen må du klargjøre et nytt miljø eller oppgradere et hvilket som helst av de andre miljøene til versjon 22.0 eller nyere, for å fortsette å prøve forhåndsversjonen av varemarkedsføringsteksten drevet av kunstig intelligens.
+> Hvis du har forhåndsversjonssandkasser som kjører på **22.0.54157.54311 (forhåndsversjon – Copilot-utgave)**, må du være klar over at disse miljøene bare er tilgjengelige frem til 1. mai 2023. Etter denne datoen må du klargjøre et nytt miljø eller oppgradere et hvilket som helst av de andre miljøene til versjon 22.0 eller nyere, for å fortsette å prøve forhåndsversjonen av varemarkedsføringsteksten drevet av kunstig intelligens.
 
 ## Organisasjonen bruker ikke Business Central
 
@@ -49,13 +46,12 @@ Hvis du ikke er en Business Central-kunde, registrerer du deg for en prøveversj
 1. Gå til [dette prøvenettstedet](https://go.microsoft.com/fwlink/?linkid=2227167) for å komme i gang med registreringsprosessen.
 2. Følg instruksjonene på skjermen.
 
-   Du blir bedt om å oppgi informasjon som e-postadresse, navn og telefonnummer. Den nøyaktige funksjonen kan variere, avhengig av hvilken type informasjon du oppgir. Men her er noen viktige poeng å være klar over når du gå gjennom registreringsprosessen:
-
-   - Bruk e-postadressen du bruker for jobb eller skole. Vi etablerer prøveversjonen på organisasjonens konto. Du kan ikke bruke e-postadresser oppgitt av forbruker-e-posttjenester eller telekommunikasjonsleverandører, som outlook.com, hotmail.com, gmail.com og andre.
-   - Når du kommer til alternativet for **Land eller område**, må du velge **USA**.
+   Du blir bedt om å oppgi informasjon som e-postadresse, navn og telefonnummer. Den nøyaktige funksjonen kan variere, avhengig av hvilken type informasjon du oppgir. <!--But here are a couple important points to be aware of as you run through the sign-up process:--> Bruk e-postadressen du bruker for jobb eller skole. Vi etablerer prøveversjonen på organisasjonens konto. Du kan ikke bruke e-postadresser oppgitt av forbruker-e-posttjenester eller telekommunikasjonsleverandører, som outlook.com, hotmail.com, gmail.com og andre.
+   
+   <!-- When you get to the option for **Country or region** be sure to set this **United States**.
 
       > [!IMPORTANT]
-      > Du må velge **USA** for **Land eller område** ellers vil ikke varemarkedsføringsteksten drevet av kunstig intelligens med Copilot være tilgjengelig i Business Central.  
+      > You must set **Country or region** to **United States**; otherwise the AI-powered item marketing text with Copilot won't be available in Business Central.  -->
 3. Når du kommer til trinnet **Bekreftelsesdetaljer**, er du klar til å starte prøveversjonen.
 
    - Hvis du vil gå direkte til Business Central, velger du **Hopp over og gå til Dynamics 365 Business Central** > **Kom i gang**.
