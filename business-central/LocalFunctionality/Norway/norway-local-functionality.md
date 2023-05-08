@@ -77,7 +77,9 @@ Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske v
  
 ## Framtidige krav til lovgivning undersøkes
 
-For øyeblikket finnes det ingen forestående, forskriftsmessige funksjoner eller krav. Hvis du vet om kommende forskriftsmessige funksjoner, kan du sende et [varsel om forskriftmessig funksjon](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
+* Nyutformet og oppgradert ikke-fradragsberettiget mva. **juli 2023**
+
+Hvis du vet om kommende forskriftsmessige funksjoner, kan du sende et [varsel om forskriftmessig funksjon](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 
 ## Se også
