@@ -1,24 +1,19 @@
 ---
 title: Bytte til et annet selskap eller miljø
-description: Hvis du arbeider for flere organisasjoner, kan du raskt bytte mellom miljøet og selskapene.
+description: 'Hvis du arbeider for flere organisasjoner, kan du raskt bytte mellom miljøet og selskapene.'
 author: brentholtorf
 ms.topic: conceptual
-ms.search.keywords: environments, companies, tenants, organization
-ms.search.form: 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017
+ms.search.keywords: 'environments, companies, tenants, organization'
+ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 08/16/2022
 ms.author: bholtorf
-ms.openlocfilehash: 0cc18a4a84e24ce58d486275442ba686ed559047
-ms.sourcegitcommit: 8ad79e0ec6e625796af298f756a142624f514cf3
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 09/30/2022
-ms.locfileid: "9605958"
 ---
-# <a name="switching-to-another-company-or-environment"></a>Bytte til et annet selskap eller miljø
+
+# Bytte til et annet selskap eller miljø
 
 [!INCLUDE [prod_short](includes/prod_short.md)] er tilgjengelig i mange forskjellige land og støtter mange forskjellige typer organisasjoner. Organisasjonen kan velge å organisere arbeidet i [!INCLUDE [prod_short](includes/prod_short.md)] i flere *selskaper* og *miljøer*. Denne artikkelen hjelper deg med å forstå viktige forskjeller og hvordan du arbeider på tvers av dem.
 
-## <a name="about-companies-and-environments"></a>Om selskaper og miljøer
+## Om selskaper og miljøer
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
@@ -30,7 +25,7 @@ ms.locfileid: "9605958"
 <!--
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]-->
 
-## <a name="features-for-switching-company-or-environment"></a>Funksjoner for å bytte selskap eller miljø
+## Funksjoner for å bytte selskap eller miljø
 
 Det finnes noen funksjoner du kan bruke til å bytte mellom selskap eller miljø mens du arbeider. Tabellen nedenfor sammenligner funksjonene i funksjonen, som forklares nærmere i delene nedenfor.
 
@@ -41,7 +36,7 @@ Det finnes noen funksjoner du kan bruke til å bytte mellom selskap eller miljø
 |[Mine innstillinger](#use-my-settings)|![avmerking](media/check.png "avmerking")|||![avmerking](media/check.png "avmerking")|
 |[Selskapssenter](#use-company-hub)|![avmerking](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")||
 
-## <a name="use-the-company-switcher"></a>Bruk bytting av selskap
+## Bruk bytting av selskap
 
 Bruk av bytting av selskap er sannsynligvis den raskeste og mest allsidige måten å bytte selskap på. Bytting av selskap er en rute som er lett tilgjengelig fra alle sider. Ruten gir en oversikt over alle selskapene i alle miljøer du har tilgang til, og lar deg bytte direkte til en av dem – enten i samme nettleserfane eller i en ny en. Det er spesielt nyttig når du arbeider i mange selskaper på tvers av forskjellige miljøer.
 
@@ -50,7 +45,7 @@ Bruk av bytting av selskap er sannsynligvis den raskeste og mest allsidige måte
    :::image type="content" source="media/ui-experience/company-switch-2.png" alt-text="Viser ikonet for bytting av selskap i overskriften til Business Central-klienten.":::  
 
    > [!TIP]
-   > Du kan også bruke CRTL + O-hurtigtasten til å åpne ruten.
+   > Du kan også bruke <kbd>CRTL</kbd>+<kbd>O</kbd>-hurtigtasten til å åpne ruten.
 2. I ruten **Tilgjengelige selskaper** velger du selskapet du vil bytte til, velger pilen **Bytt** og velger et av følgende alternativer:
 
    |Alternativ|Description|
@@ -60,9 +55,9 @@ Bruk av bytting av selskap er sannsynligvis den raskeste og mest allsidige måte
    |Åpne i ny fane og gå til samme side|Dette alternativet er bare aktivt på listesider, for eksempel kunder, salgsordrer eller varer. Den åpner samme liste, men for det valgte selskapet, i en ny nettleserfane. |
 
 > [!TIP]
-> Trykk på F5 for å oppdatere listen over miljøer og selskaper.
+> Velg <kbd>F5</kbd> for å oppdatere listen over miljøer og selskaper.
 
-## <a name="use-the-app-launcher"></a>Bruk startprogrammet for appen
+## Bruk startprogrammet for appen
 
 Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], er miljøene du har tilgang til, tilgjengelige på Office.com.  
 
@@ -78,14 +73,14 @@ The following image shows tiles for accessing production and sandbox environment
 
 :::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
 -->
-## <a name="use-my-settings"></a>Bruk Mine innstillinger
+## Bruk Mine innstillinger
 
 Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], kan du raskt bytte til et annet selskap i samme miljø. Når du har byttet, blir selskapet du velger standardselskap og åpnes neste gang du logger på.
 
 1. I øvre høyre hjørne velger du **Innstillinger**-ikonet ![Innstillinger.](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter"), og velg deretter handlingen **Mine innstillinger**.
 
     > [!TIP]
-    > Du kan også bruke hurtigtasten Alt+T til å åpne siden Mine innstillinger på en rask måte.
+    > Du kan også bruke hurtigtasten <kbd>Alt</kbd>+<kbd>T</kbd> til å åpne siden Mine innstillinger på en rask måte.
 
 2. Velg selskap på **Mine innstillinger**-siden i **Selskap**-feltet.  
 3. Velg **OK**-knappen.
@@ -93,13 +88,13 @@ Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], kan du ras
 > [!TIP]
 > En god måte å gå direkte til standardselskapet på når du logger på, og unngå å måtte angi et miljø, er å legge til nettadressen i listen over favoritter etter at du har logget på.
 
-## <a name="use-company-hub"></a>Bruk selskapssenter
+## Bruk selskapssenter
 
 *Selskapssenter* er et meget spesialisert rollesenter som gir en økonomisk oversikt over selskaper og miljøer. Selskapssenteret er tilgjengelig som en [utvidelse](ui-extensions-company-hub.md) og gir et instrumentbord med oppsummeringsdata for hvert selskap du har tilgang til. Startsiden viser finansielle KPI-er og en direkte kobling til de enkelte miljøene og selskapene. Hvis du vil ha mer informasjon, kan du se [Administrere arbeid på tvers av flere selskaper i selskapshuben](company-hub.md).
 
 [![Viser siden for selskapssenteret som viser alle selskaper.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opprette nye seleskaper i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
