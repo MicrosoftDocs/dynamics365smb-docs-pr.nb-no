@@ -45,18 +45,60 @@ Du kan levere en utgående overføring fra en lokasjon og mottar en inngående o
 
     Når du fyller ut feltet **Transportørservice**, blir mottaksdatoen for overfør til-lokasjonen beregnet ved at leveringstiden for transportørtjenesten legges til i forsendelsesdatoen.
 
-3. Når du skal fylle ut linjene, kan du angi dem manuelt eller velge ett av følgende alternativer under **Funksjoner**-handlingen:
+3. Det er flere måter å fylle inn linjene på:
 
-    * Velg handlingen **Hent hylleinnhold** for å velge eksisterende varer fra en bestemt hylle på lokasjonen.
-    * Velg **Hent mottakslinjer** for å velge varer som du nettopp har mottatt på overfør fra-lokasjonen.
+    |Alternativ  |Beskrivelse  |
+    |---------|---------|
+    |Manuelt     | På hurtigfanen **Linjer** fyller du ut en linje for en vare eller bruker handlingen **Velg varer** til å velge flere varer.        |
+    |Automatisk     | * Velg handlingen **Hent hylleinnhold** for å velge eksisterende varer fra en bestemt hylle på lokasjonen.<br><br>* Velg **Hent mottakslinjer** for å velge varer som du nettopp har mottatt på overfør fra-lokasjonen.        |
 
-    Som lagermedarbeider på overfør fra-lokasjonen, kan du fortsette å levere varene.
+    Du kan nå sende varene.
 4. Velg **Bokfør**-handlingen, velg **Lever**-alternativet, og velg deretter **OK**-knappen.
 
     Varene er nå i transitt mellom de angitte lokasjonene i henhold til den angitte overføringsruten.
 
     Som lagermedarbeider på overfør fra-lokasjonen, kan du fortsette å motta varene. Overføringsordrelinjene er de samme som når de sendes, og kan ikke redigeres.
 5. Velg **Bokfør**-handlingen, velg **Motta**-alternativet, og velg deretter **OK**-knappen.
+
+### Bokfør flere overføringsordrer samtidig
+
+Fremgangsmåten nedenfor forklarer hvordan du massebokfører overføringsordrer.
+
+1. 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Overføringsordrer**, og velg deretter den relaterte koblingen.  
+2. På **Overføringsordrer**-siden velger du ordrene som skal bokføres.
+3. I **Nr.** -feltet, åpne hurtigmenyen og velg **Velg flere**.
+4. Velg avmerkingsboksen for linjene for hver ordre du vil bokføre.
+5. Velg handlingen **Bokføring**, og velg deretter **Massebokfør**.
+6. På siden **Massebokfør overføringsordrer** fyller du ut feltene etter behov.
+
+   > [!TIP]
+    > For overføringsordrer som bruker en i transitt-lokasjon, kan du velge enten **Lever** eller **Motta**. Gjenta dette trinnet hvis du må gjøre begge deler. For ordrer der **Direkte bokføring** er aktivert, fungerer begge alternativene på samme måte og bokfører ordren fullstendig.
+
+7. Velg **OK**.
+8. Du kan vise potensielle problemer ved å åpne siden **Feilmeldingsregister**.
+
+    > [!NOTE]
+    > Bokføring av flere dokumenter kan ta litt tid og blokkere andre brukere. Vurder å aktivere bokføring i bakgrunnen. Hvis du vil ha mer informasjon, kan du se [Bruke jobbkøer til å planlegge oppgaver](/dynamics365/business-central/admin-job-queues-schedule-tasks).
+
+### Planlegg en jobbkøoppføring for å bokføre flere dokumenter samtidig
+
+Du kan også bruke jobbkøen til å planlegge at bokføring skal skje på et tidspunkt som passer for organisasjonen. Det kan for eksempel være fornuftig for virksomheten å kjøre visse rutiner etter at det meste av dagens dataregistrering er gjort for dagen.
+
+Følgende fremgangsmåte viser hvordan du konfigurerer rapporten **Massebokfør overføringsordrer** slik at overføringsordrer bokføres direkte automatisk kl. 16:00 på ukedager. Det tidspunktet er bare et eksempel. Trinnene er de samme for andre dokumenter.  
+
+1. Søk etter siden **Prosjektkøoppføringer** og velg den relaterte koblingen.  
+2. Velg handlingen **Ny**.  
+3. I feltet **Objekttype som skal kjøres** velger du **Rapport**.  
+4. I feltet **Objekt-ID som skal kjøres** velger du **5707, Massebokfør overføringsordrer**.
+5. Merk av for **Rapportforespørselsside**.
+6. På forespørselssiden **Massebokfør overføringsordrer** velger du **Lever**-alternativet, filtrerer på **Direkte overføring**, og deretter velger du **OK**.
+
+   > [!IMPORTANT]
+   > Det er viktig å definere filtre. Hvis ikke bokfører [!INCLUDE [prod_short](includes/prod_short.md)] alle dokumenter, selv om de ikke er klare. Vurder å definere et filter i **Status**-feltet for verdien **Frigitt** og et filter for **Bokføringsdato**-feltet for verdien **..i dag**. Hvis du vil lære mer om filtre, går du til [Sortering, søking og filtrering](/dynamics365/business-central/ui-enter-criteria-filters).
+
+7. Merk av i alle bokser fra **Kjør på mandager** til **Kjør på fredager**.
+8. I feltet **Starttidspunkt** angir du **16:00**.
+9. Velg **Sett status til Klar**-handlingen.
 
 ## Slik overfører du varer med varereklassifiseringskladden
 
@@ -69,6 +111,20 @@ Du kan levere en utgående overføring fra en lokasjon og mottar en inngående o
 4. I feltet **Ny lokasjonskode** angir du lokasjonen du vil overføre varene til.
 5. Velg handlingen **Bokfør**.
 
+    [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
+
+## Angre en overføringslevering
+
+Hvis du finner en feil i et antall i en bokført overføringsordre er det enkelt å korrigere antallet så lenge leveringen ikke er mottatt. På siden **Bokfør overføringslevering** oppretter handlingen **Angre levering** korrigerende linjer på følgende måte:
+
+* Verdien i feltet **Levert (antall)** er redusert med antallet du har angret.
+* Verdien i feltet **Lever (antall)** er økt med antallet du har angret.
+* Det er merket av i **Korrigering** for linjene.
+
+Hvis antallet ble levert i en lagerlevering, opprettes en korrigeringslinje i den bokførte lagerleveringen.
+
+Du fullfører korrigeringen ved å åpne overføringsordren på nytt, angi riktig antall og deretter bokføre ordren. Hvis du bruker lagerlevering til å levere ordren, oppretter og bokfører du en ny lagerlevering.
+
 ## Se relatert [Microsoft-opplæring](/training/modules/transfer-items/)
 
 ## Se også
@@ -78,6 +134,5 @@ Du kan levere en utgående overføring fra en lokasjon og mottar en inngående o
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
