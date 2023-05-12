@@ -350,9 +350,11 @@
 #### Konfigurer mva.
 ##### [Konfigurer merverdiavgift](finance-setup-vat.md)
 ##### [Bokføringsgruppeoppsett](finance-posting-groups.md#tax-posting-groups)
+##### [Konfigurer ikke-fradragsberettiget mva.](finance-setup-nondeductible-vat.md)
 ##### [Konfigurer urealisert merverdiavgift](finance-setup-unrealized-vat.md)
 ##### [Konfigurer en mva-oppgave](finance-how-setup-vat-statement.md)
 #### [Arbeid med mva. på kjøp og salg](finance-work-with-vat.md)
+#### [Bruk ikke-fradragsberettiget mva.](finance-how-use-non-deductible-vat.md)
 #### [Send mva-rapporter til skattemyndighetene](finance-how-report-vat.md)
 #### [Administrer endringer i mva-satser](finance-how-use-vat-rate-change-tool.md)
 #### [Valider organisasjonsnumre](finance-how-validate-vat-registration-number.md)
