@@ -76,7 +76,7 @@ Vedlikehold er også enklere. Når du legger til systemtillatelser, oppdateres d
   |**Reduser til indirekte**|Endre tilgangsnivået til indirekte hvis det er noen tillatelsessett som gir direkte tilgang til objektet. Velg for eksempel dette alternativet hvis tillatelsessettet gir direkte tilgang til finansposter, men du ikke vil at brukerne skal ha full tilgang til postene.|
   
   > [!NOTE]
-  > Hvis en tillatelse er både inkludert og utelatt, blir tillatelsen utelatt.
+  > Hvis en tillatelse er i et tillatelsessett som er inkludert, og også er i et tillatelsessett som er ekskludert, blir tillatelsen utelatt.
 
 6. Bruk feltene **Objekttype** og **Objekt-ID** til å angi objektet du gir tilgang til.
 
