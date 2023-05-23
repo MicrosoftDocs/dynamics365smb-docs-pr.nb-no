@@ -35,15 +35,15 @@ Følgende forutsetninger må være oppfylt for at Copilot skal være tilgjengeli
 - Språket du bruker i Business Central må være engelsk. Alle tilgjengelige engelske nasjonale innstillinger fungerer, for eksempel engelsk (USA), engelsk (Storbritannia) eller engelsk (Sør-Afrika).
 
   Hvis du vil endre språket, velger du **Innstillinger**-ikonet øverst til venstre ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter") > **Mine innstillinger** > **Språk**. Hvis du vil ha mer informasjon, kan du gå til [Endre grunnleggende innstillinger](ui-change-basic-settings.md#language).
-- Du må bruke Business Central Online, versjon 22 eller nyere (hvis du er eksisterende kunde) eller en prøveversjon.  <!--**22.0.54157.54311 (Preview - Copilot edition)**-->.
+- Du må bruke Business Central Online, versjon 22 eller nyere (hvis du er eksisterende kunde) eller en prøveversjon.  <!--**22.0.54157.54311 (Preview - Copilot edition)**-->
 
-   Hvis du vil kontrollere versjonen, merker du spørsmålstegnet øverst til høyre og deretter **Hjelp og kundestøtte**. Se etter programversjonen under **Feilsøking**. Hvis du vil ha mer informasjon om hvordan du får den riktige forhåndsversjonen, går du til [Kom i gang med en Business Central-forhåndsversjon](ai-preview-getstarted.md).
+   Hvis du vil kontrollere versjonen, merker du spørsmålstegnet øverst til høyre og velger deretter **Hjelp og kundestøtte**. Se etter programversjonen under **Feilsøking**. Hvis du vil ha mer informasjon om hvordan du får den riktige forhåndsversjonen, går du til [Kom i gang med en Business Central-forhåndsversjon](ai-preview-getstarted.md).
 - Funksjonen **Opprett produktbeskrivelser drevet av kunstig intelligens med Copilot** må være aktivert.
 
-   Hvis du vil ha mer informasjon, kan du gå til [Aktiver eller deaktiver funksjonen Opprett produktbeskrivelser drevet av kunstig intelligens med Copilot](enable-ai.md#enable-or-disable-the-create-ai-powered-product-descriptions-with-copilot-feature).
+   Hvis du vil ha mer informasjon, kan du gå til [Aktiver eller deaktiver funksjonen Opprett produktbeskrivelser drevet av kunstig intelligens med Copilot](enable-ai.md#enable-or-disable-create-ai-powered-product-descriptions-with-copilot).
 - En administrator har samtykket i vilkårene.
 
-   Hvis du vil ha mer informasjon, går du til [Samtykk i eller avvis vilkårene for forhåndsversjon og personvern for alle brukere](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
+   Hvis du vil ha mer informasjon, går du til [Samtykk i eller avvis vilkårene for forhåndsversjon og personvern for alle brukere](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
 ### Er Copilot tilgjengelig for forhåndsversjon i Business Central lokalt?
 
@@ -63,9 +63,9 @@ Hvis du vil ha informasjon om upassende forslag, kan du gå til [Hva gjøres med
 
 Det er et par ting du kan gjøre for å få mest mulig utbytte forslag fra Copilot:
 
-- Legg til flere attributter i en vare for å forfremme bestemte funksjoner og egenskaper du er interessert i
+- Legg til flere attributter i en vare for å forfremme bestemte funksjoner og egenskaper du er interessert i.
 - Endre alternativene for ordlyd og fremhev kvalitet som tilsvarer dine personlige innstillinger.
-- Forbedre varens beskrivelse
+- Forbedre varens beskrivelse.
 - Kontroller at varen er tildelt den mest egnede kategorien.
 
 Hvis du vil ha mer informasjon, kan du til [Forbedre og skreddersy tekstforslag](item-marketing-text.md#improve-and-tailor-text-suggestions).
@@ -74,7 +74,7 @@ Hvis du vil ha mer informasjon, kan du til [Forbedre og skreddersy tekstforslag]
 
 Velg **Er dette et godt forslag?** for å hjelpe oss med å forbedre teksten på siden **Opprett med Copilot**, som du kan svare med tommel opp (jeg liker det) eller tommel ned (trenger forbedring).
 
-![Viser og varekort med ruten Markedsføringstekst](media/create-with-copilot-window-feedback.png)
+![Viser et varekort med ruten Markedsføringstekst](media/create-with-copilot-window-feedback.png)
 
 ### Kan administratorer deaktivere Copilot? Hvis det er tilfellet, hvordan?
 
@@ -98,7 +98,7 @@ For øyeblikket støtter Copilot bare engelsk. Unøyaktige svar kan bli gitt nå
 
 ### Hva gjøres i forbindelse med grove og skadelige tekstforslag?
 
-Azure OpenAI-tjenesten lagrer ledetekster og fullføringer fra tjenesten som skal overvåkes for krenkende bruk, og til å utvikle og forbedre kvaliteten på Azure OpenAIs innholdsbehandlingssystemer. [Finn ut mer om innholdsadministrasjon og filtrering](/azure/cognitive-services/openai/concepts/content-filter).
+Azure OpenAI-tjenesten lagrer ledetekster og fullføringer fra tjenesten som skal overvåkes for krenkende bruk, og til å utvikle og forbedre kvaliteten på Azure OpenAIs innholdsbehandlingssystemer. [Finn ut mer om innholdsadministrasjon og filtrering.](/azure/cognitive-services/openai/concepts/content-filter)
 
 Godkjente Microsoft-ansatte kan få tilgang til ledetekst- og fullføringsdata som har utløst automatiserte systemer med formål om å undersøke og kontrollere potensiell misbruk. For kunder som har distribuert Azure OpenAI-tjenesten i EU, vil de godkjente Microsoft-ansatte være plassert i EU. Disse dataene kan brukes til å forbedre systemene for innholdsbehandling. Hvis et policybrudd er bekreftet, kan vi be deg om å utføre en umiddelbar handling for å løse problemet for å unngå ytterligere misbruk. Hvis problemet ikke løses, kan det føre til utestengelse eller avslutning av Azure OpenAI-ressurstilgang.
 
@@ -106,7 +106,9 @@ Hvis du vil ha mer informasjon, kan du se [Data, personvern og sikkerhet for Azu
 
 ### Kan jeg velge bort loggingen og prosessen for menneskelig gjennomgang?  
 
-Som en del av å tilby forhåndsversjonen av Azure Open AI, vil Microsoft behandle og lagre kundedata som sendes til tjenesten, i tillegg til et utdatainnhold, for eksempel til (1) overvåking for og forhindre krenkende eller skadelig bruk av tjenesten, og (2) utvikle, teste og forbedre funksjoner som er utviklet for å hindre grove bruk av eller skadelige utdata fra tjenesten. Godkjent Microsoft-personell kan gå gjennom data som har utløst de automatiserte systemene, for å undersøke og bekrefte potensielle misbruk, og det kan føre til begrenset vilkårlig utvalg av termer som ikke rapporteres av de automatiserte systemene, for å sikre at systemene fungerer Godkjent Microsoft-personell kan også få tilgang til og bruke disse dataene til å forbedre systemene som overvåker og forhindrer eller skadelig bruk eller utdata fra tjenesten. Les mer om [vilkår for forhåndsversjon](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/)
+Som en del av å tilby forhåndsversjonen av Azure OpenAI, vil Microsoft behandle og lagre kundedata som sendes til tjenesten, i tillegg til et utdatainnhold, for eksempel til overvåking for og hindring av krenkende eller skadelig bruk av tjenesten, og til utvikling, testing og forbedring av funksjoner som er utviklet for å hindre grove bruk av eller skadelige utdata fra tjenesten. 
+
+Godkjent Microsoft-personell kan gå gjennom data som har utløst de automatiserte systemene, for å undersøke og bekrefte potensielle misbruk, og det kan føre til begrenset vilkårlig utvalg av termer som ikke rapporteres av de automatiserte systemene, for å sikre at systemene fungerer Godkjent Microsoft-personell kan også få tilgang til og bruke disse dataene til å forbedre systemene som overvåker og forhindrer eller skadelig bruk eller utdata fra tjenesten. Les mer om [vilkår for forhåndsversjon](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
 
 ## [Personvern](#tab/privacy)
 
@@ -116,7 +118,7 @@ Funksjonen samler inn svaret ditt på spørsmålet **Er dette et godt forslag?**
 
 Vi bruker disse dataene til å evaluere og forbedre kvaliteten på funksjonen. Du finner mer informasjon om hvilke data som samles inn, i [vilkårene for forhåndsversjonen](https://dynamics.microsoft.com/legaldocs/supp-dynamics365-preview/).
 
-![Viser og varekort med ruten Markedsføringstekst](media/create-with-copilot-window-feedback.png)
+![Viser et varekort med ruten Markedsføringstekst](media/create-with-copilot-window-feedback.png)
 
 ---
 
@@ -125,4 +127,4 @@ Vi bruker disse dataene til å evaluere og forbedre kvaliteten på funksjonen. D
 [Oversikt over varemarkedsføringstekst drevet av kunstig intelligens med Copilot](ai-overview.md)  
 [Konfigurer varemarkedsføringstekst drevet av kunstig intelligens med Copilot som administrator](enable-ai.md)  
 [Opprett markedsføringstekst til varer ved hjelp av Copilot](item-marketing-text.md)  
-[Vanlige spørsmål om varemarkedsføringstekst drevet av kunstig intelligens med Copilot](ai-faq.md)  
+

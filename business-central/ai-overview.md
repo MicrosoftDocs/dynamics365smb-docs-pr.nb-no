@@ -1,6 +1,6 @@
 ---
 title: Oversikt over varemarkedsføringstekst drevet av kunstig intelligens (forhåndsversjon) med Copilot
-description: Få en oversikt over funksjonene for innholdsgenerering med kunstig intelligens i Business Central
+description: Få en oversikt over funksjonene for innholdsgenerering med kunstig intelligens i Business Central.
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
@@ -16,9 +16,9 @@ Denne artikkelen gir en oversikt over funksjonene drevet av kunstig intelligens 
 
 ## Hva er varemarkedsføringstekst drevet av kunstig intelligens med Copilot
 
-Copilot gir skrivehjelp drevet av kunstig intelligens Business Central-brukere som har ansvaret for å redigere markedsføringstekst (produktbeskrivelser) på varer solgt i nettbutikker som Shopify. Ved å klikke en knapp genererer Copilot tekst som er engasjerende, kreativ og fremhever attributtene for den bestemte varen. Med litt gjennomgang og redigering er den klar til publisering.
+Copilot gir skrivehjelp drevet av kunstig intelligens Business Central-brukere som har ansvaret for å redigere markedsføringstekst (produktbeskrivelser) på varer solgt i nettbutikker som Shopify. Ved å klikke en knapp genererer Copilot tekst som er engasjerende og kreativ, og som fremhever attributtene for den bestemte varen. Med litt gjennomgang og redigering er den klar til publisering.
 
-Copilot bruker [Microsofts Azure OpenAI-tjeneste](/azure/cognitive-services/openai/overview) til å få tilgang til språkmodeller som gjenkjenner, forutsier og genererer tekst som er basert på opplærte datasett.
+Copilot bruker [Microsoft Azure OpenAI-tjeneste](/azure/cognitive-services/openai/overview) til å få tilgang til språkmodeller som gjenkjenner, forutsier og genererer tekst som er basert på opplærte datasett.
 
 <br><br>  
 
@@ -32,17 +32,17 @@ Copilot er tilgjengelig på varekort i Business Central. I Business Central er v
 
 Hvis Business Central er satt opp for å koble til nettbutikken på Shopify, kan du ta denne teksten enda lenger ved å publisere den med varen direkte i butikken ved å velge **Legg til i Shopify**.
 
-## Hvorfor bruke det og hvordan
+## Hvorfor og hvordan du bruker den
 
 Tekst generert med kunstig intelligens kan hjelpe deg med å fremskynde leveringstiden til produkter i nettbutikker ved å begrense tiden som brukes på kopiskriving. Noen av de viktigste fordelene omfatter:
 
-- Hjelper brukere med å løse skriveblokkeringen ved å få dem i gang med et intelligent utkast
-- Låser opp kreativitet for å gi mer engasjerende produktbeskrivelser
-- Forbedrer konsekvensen i markedsføringsinnhold for produktserier
+- Hjelper brukere med å løse skriveblokkeringen ved å få dem i gang med et intelligent utkast.
+- Låser opp kreativitet for å gi mer engasjerende produktbeskrivelser.
+- Forbedrer konsekvensen i markedsføringsinnhold for produktserier.
 
 Du bør vurdere teksten generert med kunstig intelligens som et **forslag bare**. Forslag kan i noen tilfeller inneholde feil og til og med upassende tekst, så det kreves menneskelig overstyring og gjennomgang. Før du gjør teksten offentlig tilgjengelig, må du kontrollere nøyaktigheten og gjøre nødvendige endringer.
 
-## Hva er nåværende begrensninger?
+## Gjeldende begrensninger
 
 Denne delen forklarer nåværende begrensninger for tekst generert av kunstig intelligens levert av Copilot.
 

@@ -2,13 +2,13 @@
 title: Deling av Business Central-oppføringer i Microsoft Teams
 description: Lær hvordan du bruker Business Central-appen for Microsoft Teams.
 author: jswymer
-ms.topic: get-started-article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.topic: how-to
+ms.service: dynamics365-business-central
+ms.reviewer: jswymer
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records'
-ms.date: 09/22/2022
+ms.date: 16/18/2023
 ms.author: jswymer
+ms.custom: bap-template
 ---
 
 # Deling av Business Central-oppføringer og sidekoblinger i Microsoft Teams
@@ -68,17 +68,16 @@ Med Business Central-appen for Teams kan du kopiere en kobling fra en hvilken so
 
     > [!TIP]
     > Hvis du får en melding som denne: *Business Central ønsker å forhåndsvise denne koblingen.*, betyr det at du ikke har Business Central-appen for Teams installert. Hvis du vil installere appen, velger du **Vis forhåndsvisning** og følger instruksjonene.
-6. Første gang du limer inn en kobling i en samtale, blir du bedt om å logge på [!INCLUDE [prod_short](includes/prod_short.md)] og gi samtykke til at appen kan hente data. Bare følg instruksjonene på skjermen.
 
     > [!NOTE]
-    > Du trenger bare å utføre dette trinnet én gang.
-7. Vent et øyeblikk mens et kort genereres i meldingsboksen.
-8. Når kortet vises, kan du se nøye gjennom innholdet på kortet for eventuell sensitiv informasjon før du sender meldingen. Dette trinnet er viktig fordi når du sender meldingen, kan alle i samtalen se kortet.
-9. Hvis kortet ser bra ut, velger du **Send** for å sende det til samtalen.
+    > Avhengig av Business Central-versjonen din kan det hende du blir bedt om å logge deg på [!INCLUDE [prod_short](includes/prod_short.md)] og gi samtykke for appen til å hente data første gang du limer inn en kobling i en samtale. Bare følg instruksjonene på skjermen. Du trenger bare å utføre dette trinnet én gang.
+6. Vent et øyeblikk mens et kort genereres i meldingsboksen.
+7. Når kortet vises, kan du se nøye gjennom innholdet på kortet for eventuell sensitiv informasjon før du sender meldingen. Dette trinnet er viktig fordi når du sender meldingen, kan alle i samtalen se kortet.
+8. Hvis kortet ser bra ut, velger du **Send** for å sende det til samtalen.
 
     > [!TIP]
     > Når kortet vises, og før du velger **Send**, kan du slette den innlimte URL-adressen hvis du vil det.
-10. Hvis du vil vise flere detaljer eller gjøre endringer i posten som vises på kortet, velger du **Detaljer**. Hvis du vil ha mer informasjon, kan du se neste avsnitt.
+9. Hvis du vil vise flere detaljer eller gjøre endringer i posten som vises på kortet, velger du **Detaljer**. Hvis du vil ha mer informasjon, kan du se neste avsnitt.
 
 ### Vis kortdetaljer
 

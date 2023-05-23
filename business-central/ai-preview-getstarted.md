@@ -106,7 +106,7 @@ Det finnes to måter å samtykke på som administrator:
 
 - Den enkleste måten er å bruke Copilot. Første gang du bruker Copilot som administrator, blir du bedt om å se gjennom vilkårene og deretter samtykke eller avslå. Hvis du vil lære hvordan du bruker Copilot, går du til [Legg til markedsføringstekst i varer](item-marketing-text.md).  
 
-- Den andre måten er å bruke siden **Status for personvernerklæringer** i Business Central og godta **Azure OpenAI**-integrering for alle brukere. Hvis du vil finne ut mer, går du til [Samtykk i vilkår](enable-ai.md#consent-to-or-reject-the-preview-and-privacy-terms-and-conditions-for-all-users).
+- Den andre måten er å bruke siden **Status for personvernerklæringer** i Business Central og godta **Azure OpenAI**-integrering for alle brukere. Hvis du vil finne ut mer, går du til [Samtykk i vilkår](enable-ai.md#consent-to-or-reject-preview-and-privacy-terms-and-conditions-for-all-users).
 
 ## Se også
 
