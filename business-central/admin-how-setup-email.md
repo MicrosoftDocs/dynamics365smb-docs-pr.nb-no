@@ -232,13 +232,13 @@ Hvis du har problemer med å bruke SMTP-protokollen til å sende e-post etter at
 
 ### Koble [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen
 
-Når du har registrert appen i Azure Portal, bruker du assistert oppsettveiledning **AAD-registrering for e-postapp** i [!INCLUDE[prod_short](includes/prod_short.md)] til å koble [!INCLUDE[prod_short](includes/prod_short.md)] til den.
+Når du har registrert appen i Azure Portal, bruker du siden **AAD-registrering for e-postapp** i [!INCLUDE[prod_short](includes/prod_short.md)] til å koble [!INCLUDE[prod_short](includes/prod_short.md)] til den.
 
 1. I [!INCLUDE[prod_short](includes/prod_short.md)] velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **AAD-registrering for e-postapp**, og velger deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> Hvis du kobler til for første gang, kan du også kjøre assistert oppsettveiledning **Konfigurer e-post**. Veiledningen krever informasjon for å koble til appregistreringen. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
+> Hvis du kobler til for første gang, kan du også kjøre assistert oppsettveiledning **Konfigurer e-post**. I dette tilfellet vil også veiledningen omfatte siden AAD-registrering for e-postapp for å legge til informasjon for å koble til appregistreringen. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
 
 <!--
 
