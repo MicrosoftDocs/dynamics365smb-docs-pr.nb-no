@@ -2,18 +2,18 @@
 title: Arkiver salgs- og kjøpsdokumenter
 description: 'Du kan arkivere ordrer og bestillinger, tilbud, returordrer og rammeordrer og gjenopprette originalene hvis du vil det.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
-ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
-ms.date: 03/06/2022
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 06/02/2023
+ms.custom: bap-template
+ms.search.form: '42, 49, 50, 459, 460, 5159, 5162, 5164, 5167, 6627, 6630, 6644, 9305, 9306, 9346, 9347, 9348, 9349'
 ---
 # Arkivere dokumenter
+
 Du kan arkivere ordrer, bestillinger, tilbud, returordrer og rammeordrer. Når du arkiverer dokumenter, kan du gjenopprette originalen hvis det er nødvendig. Du arkivere et salgs- eller kjøpsdokument flere ganger og lagre en annen arkiverte versjon hver gang.
 
-For arkiverte salgsdokumenter der originalen fortsatt finnes og ikke er bokført, kan du bruke handlingen **Gjenopprett** til å overskrive nåværende dokument med en arkivert versjon. 
+For arkiverte salgsdokumenter der originalen fortsatt finnes og ikke er bokført, kan du bruke handlingen **Gjenopprett** til å overskrive nåværende dokument med en arkivert versjon.
 
 For arkiverte dokumenter der originalen er slettet, kan du bare bruke innholdet på nytt ved å kopiere dataene, for eksempel med handlingen **Kopier fra dokument**.  
 
@@ -39,9 +39,9 @@ Tabellen nedenfor beskriver alternativene for feltet **Arkiver tilbud**.
 |**Spørsmål**|Be brukeren om å arkivere tilbud når de slettes.|
 |**Alltid**|Arkiver tilbud automatisk når de slettes.|
 
-## Arkivere ordrer
+## Slik arkivere du en ordre manuelt
 
-Fremgangsmåten nedenfor beskriver hvordan du arkiverer fra ordrer. Fremgangsmåten er lik for alle ordrer, rammebestillinger, bestillingsreturer og tilbud.
+Fremgangsmåten nedenfor beskriver hvordan du arkiverer en ordre manuelt. Fremgangsmåten er lik for alle ordrer, rammebestillinger, bestillingsreturer og tilbud.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 2. Åpne en ordre du vil arkivere.  
@@ -60,18 +60,19 @@ Innholdet i den opprinnelige ordren erstattes med den arkiverte versjonen.
 
 ## Slette arkiverte ordrer
 
-Fremgangsmåten nedenfor beskriver hvordan du sletter arkiverte ordrer. Fremgangsmåten er den samme for alle andre salgs- og kjøpsdokumenter.
+Bruk en oppbevaringspolicy til å rydde opp i arkiverte dokumenter du ikke trenger lenger. Med oppbevaringspolicyer kan administratorer definere hvor lenge de vil lagre data. De kan for eksempel definere en policy som sletter data etter en utløpsdato. Hvis du vil ha mer informasjon, kan du se [Definere oppbevaringspolicyer](admin-data-retention-policies.md).
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , skriv inn **Ordrearkiver**, og velg deretter den relaterte koblingen.  
-2. Velg handlingen **Slett eldre versjoner**, og velg deretter de aktuelle filtrene på siden **Slett arkiverte ordreversjoner**.  
-3. Velg **OK**.
+Det er et par ting du kan legge merke til om oppretting av oppbevarings policyer for arkiverte dokumenter:
+
+* *Hvis det opprinnelige dokumentet ikke er slettet, sletter ikke Business Central de arkiverte versjonene. Arkiverte versjoner utløper ikke så lenge originalen finnes.
+* Når du definerer oppbevaringspolicyen, kan du angi at du vil at policyen skal slette alle arkiverte versjoner av et dokument, unntatt den nyeste. Du kan for eksempel ha ti versjoner av et dokument og ønske å beholde en kopi av den nyeste. 
+* Business Central beregner utløpsdatoen for dokumenter basert på datoen for den sist arkiverte versjonen.
 
 ## Se også
 
-[Spore dokumentlinje](across-how-to-track-document-lines.md)  
+[Spor dokumentlinjer](across-how-to-track-document-lines.md)  
 [Salg](sales-manage-sales.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

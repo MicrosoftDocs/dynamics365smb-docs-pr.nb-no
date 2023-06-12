@@ -14,17 +14,20 @@ ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 902
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kalles beholderen for forretningsdataene som hører til en konsern eller juridisk enhet et *selskap*. Når du registrerer deg for [!INCLUDE[prod_short](includes/prod_short.md)], får du et demoselskap og et tomt selskap, *Mitt selskap*. Bytte mellom selskaper er enkelt: simpelthen gå til **Mine innstillinger**, og bytt til det andre selskapet. Du kan også opprette nye selskaper i [!INCLUDE[prod_short](includes/prod_short.md)], avhengig av forretningsbehovene.  
 
+> [!NOTE]
+> Hvis du vil opprette et nytt selskap, må du være tildelt tillatelsessettet **Super**.
+
 Når du oppretter et nytt selskap, gir en guide for assistert oppsett deg det grunnleggende. Deretter kan du importere aktuelle data fra det gamle systemet eller et annet selskap i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
 ## Velg riktig mal
 
-Hvis du vil legge til et selskap til din [!INCLUDE[prod_short](includes/prod_short.md)], kan du bruke den assisterte oppsettsveiledningen **Opprett nytt selskap** for å komme i gang. Oppsettsveiviseren er tilgjengelig fra **Selskaper**-siden og fra oppslaget i **Selskap**-feltet på siden **Mine innstillinger**.  
+Hvis du vil legge til et selskap til din [!INCLUDE[prod_short](includes/prod_short.md)], kan du bruke den assisterte oppsettsveiledningen **Opprett nytt selskap** for å komme i gang. Oppsettsveiledningen er tilgjengelig fra **Selskaper**-siden og fra oppslaget i **Selskap**-feltet på siden **Mine innstillinger**.  
 
-Veiviseren for oppsett har to maler og et tomt alternativ:
+Oppsettsveiledningen har to maler og et tomt alternativ:
 
-- **Evaluering - eksempeldata**  
+- **Evaluering – eksempeldata**  
     Dette oppretter et selskap som ligner på demoselskapet, med eksempeldata og oppsettsdata. Denne typen selskap er tilgjengelig for deg uten å bytte til en 30-dagers prøveperiode, som de andre typene har.  
 - **Produksjon - bare oppsettsdata**  
     Dette oppretter et selskap som ligner på **Mitt selskap**, med oppsettsdata, men uten eksempeldata. Du kan bruke dette selskapet i en 30-dagers prøveperiode.  
