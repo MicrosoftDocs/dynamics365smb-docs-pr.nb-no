@@ -1,13 +1,13 @@
 ---
 title: Synkroniser og oppfyll salgsordrer
 description: Definer og kjør import og behandling av salgsordre fra Shopify.
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Synkroniser og oppfyll salgsordrer
@@ -32,7 +32,20 @@ Hvis du vil frigi et salgsdokument automatisk, slår du på vekslebryteren **Fri
 
 Salgsdokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)] kobles til Shopify-ordren, og du kan legge til et felt som ikke allerede vises på siden. Hvis du vil ha mer informasjon om hvordan du legger til et felt, går du til [Slik begynner du å tilpasse en side gjennom **Tilpasning**-banneret](../ui-personalization-user.md#to-start-personalizing-a-page-through-the-personalizing-banner). Hvis du velger feltet **Shopify-ordrenr. på dok.linje**, gjentas denne informasjonen på salgslinjene av typen **Merknad**.
 
-I feltet **Mva-områdekode** kan du angi prioriteten for hvordan du velger mva-områdekode eller mva-bokføringsgruppe for firma basert på adresse. Den importerte Shopify-ordren inneholder informasjon om avgifter, men avgiftene blir beregnet på nytt når du oppretter salgsdokumentet, slik at det er viktig at mva.-/avgiftsinnstillingene er riktige i [!INCLUDE[prod_short](../includes/prod_short.md)]. Hvis du vil ha mer informasjon om avgifter, kan du se [Definer avgifter for Shopify-koblingen](setup-taxes.md).
+I feltet **Avgiftsområdeprioritet** kan du angi prioriteten for hvordan du velger avgiftsområdekode på adresser i rekkefølge. Den importerte Shopify-ordren inneholder informasjon om avgifter. Avgifter beregnes på nytt når du oppretter salgsdokumentet, så det er viktig at mva-/avgiftsinnstillingene er riktige i [!INCLUDE[prod_short](../includes/prod_short.md)]. Hvis du vil ha mer informasjon om avgifter, kan du se [Definer avgifter for Shopify-koblingen](setup-taxes.md).
+
+Angi hvordan du vil behandle returer og refusjoner:
+
+* **Tom** angir at du ikke importerer og behandler returer og refusjoner.
+* **Bare import** angir at du importerer informasjon, men du oppretter den tilhørende kreditnotaen manuelt.
+* **Opprett kreditnota automatisk** angir at du importerer informasjon, og [!INCLUDE[prod_short](../includes/prod_short.md)] oppretter automatisk kreditnotaene. Dette alternativet krever at du aktiverer vekslebryteren **Opprett ordre automatisk**.
+
+Angi en lokasjon for returer og finanskontoer for refusjoner for varer og andre refusjoner.
+
+* **Ikke-etterfylte varer for refusjonskonto** – Angir et finanskontonummer for varer der du ikke ønsker en lagerkorrigering.
+* **Refusjonskonto** – Angir en finanskonto for forskjellen i totalt refundert beløp og totalbeløpet for varene.
+
+Finn ut mer under [Returer og refusjoner](synchronize-orders.md#returns-and-refunds)
 
 ### Tildeling av leveringsmåte
 
@@ -75,7 +88,7 @@ Fremgangsmåten nedenfor beskriver hvordan du importerer og oppdaterer ordrer.
 5. Definer filtre i ordrer etter behov. Du kan for eksempel importere fullt betalte ordrer eller de med lav risikograd.
 
 > [!NOTE]  
-> Når du filtrerer etter kode, må du bruke filterkoder `@` og `*`. Hvis du for eksempel vil importere ordrer som inneholder *tag1*, bruk `@*tag1*`. `@` vil sikre at resultatet er skiller mellom store og små bokstaver, mens `*` finner ordrer med flere koder.
+> Når du filtrerer etter kode, må du bruke filterkoder `@` og `*`. Hvis du for eksempel vil importere ordrer som inneholder *tag1*, bruk `@*tag1*`. `@` sikrer at resultatet skiller mellom store og små bokstaver, mens `*` finner ordrer med flere koder.
 
 6. Velg **OK**-knappen.
 
@@ -118,7 +131,7 @@ Hvis innstillingene forhindrer at du oppretter en kunde automatisk og det ikke f
 
 *Import ordre fra Shopify*-funksjonen prøver å velge kunder i følgende rekkefølge:
 
-1. Hvis **Standard kundenr.** feltet er definert i **Shopify-kundemalen** for det tilsvarende landet, brukes deretter **Standard kundenr.** uavhengig av innstillingene i feltene **Kundeimport fra Shopify** og **Kundetildeling**. Finn ut mer under [Kundemal per land](synchronize-customers.md#customer-template-per-country).
+1. Hvis **Standard kundenr.** feltet er definert i **Shopify-kundemalen** for **Lever-til lands-/områdekode**, brukes deretter **Standard kundenr.** uavhengig av innstillingene i feltene **Kundeimport fra Shopify** og **Kundetildeling**. Finn ut mer under [Kundemal per land](synchronize-customers.md#customer-template-per-country).
 2. Hvis **Kundeimport fra Shopify** er angitt til *Ingen* og **Standard kundenr.** er definert på siden **Shopify-butikkort**, brukes **Standard kundenr.** .
 
 Neste trinn avhenger av **Kundetildelingstype**.
@@ -129,6 +142,27 @@ Neste trinn avhenger av **Kundetildelingstype**.
 
 > [!NOTE]  
 > Koblingen bruker opplysninger fra faktura til-adresse og oppretter faktura til-kunde i [!INCLUDE[prod_short](../includes/prod_short.md)]. Salg til-kunden er den samme som faktura til-kunden.
+
+### Ulike behandlingsregler for ordrer
+
+Du vil kanskje behandle ordrer annerledes basert på en regel. Det kan for eksempel være at ordrer fra en bestemt salgskanal, for eksempel salgssted, bruker standardkunden, men du vil at nettbutikken skal ha ekte informasjon om kunden.
+
+En måte å løse dette kravet på er å opprette et ekstra Shopify-butikkort og bruke filtre på forespørselssiden **Synkroniser ordrer fra Shopify**.
+
+Eksempel: du har nettbutikk og et Shopify-salgssted. For salgsstedet vil du bruke en fast kunde, men for nettbutikken vil du opprette kunder i [!INCLUDE[prod_short](../includes/prod_short.md)]. Fremgangsmåten nedenfor viser en oversikt over trinn på høyt nivå. Du kan lære mer ved å gå til de tilsvarende hjelpeartiklene.
+
+1. Opprett en Shopify-butikk som kalles *BUTIKK*, og koble den til Shopify-kontoen.
+2. Konfigurer vare-/produktsynkronisering slik at denne butikken administrerer produktinformasjon.
+3. Angi at kundene skal importeres med ordrer. Koblingen skal finne kunder ved å se etter e-postadressen deres. Hvis det ikke finnes noen adresse, brukes kundemalen til å opprette en ny kunde.
+4. Opprett en Shopify-butikk som kalles *SALGSSTED*, og koble den til samme Shopify-konto.
+6. Kontroller at vare-/produktsynkronisering er deaktivert.
+7. Velg koblingen som bruker standardkunden.
+8. Opprett en gjentakende prosjektkøoppføring i rapport 30104 **Synkroniser ordrer fra Shopify**. Velg **BUTIKK** i feltet **Shopify-butikkode**, og bruk filtre til å registrere alle ordrer unntatt de som opprettes av salgskanalen for SALGSSTED. Eksempel: **<>salgssted**
+9. Opprett en gjentakende prosjektkøoppføring i rapporten 30104 **Synkroniser ordrer fra Shopify**. Velg **SALGSSTED** i feltet **Shopify-butikkode**, og bruk filtre til å oppdage ordrer generert av salgskanal for SALGSSTED. Eksempel: **Salgssted**.
+
+Hver prosjektkø importerer og behandler ordrer i de definerte filtrene og bruker reglene fra det tilsvarende Shopify-butikkortet. De oppretter for eksempel salgsstedsordrer for standardkunden.
+
+>![Viktig!] Hvis du vil unngå konflikter under behandling av ordrer, må du huske å bruke samme prosjektkøkategori for begge prosjektkøoppføringene.
 
 ### Virkningen av ordreredigering
 
@@ -184,6 +218,27 @@ Sporingsfirmaet fylles ut i følgende rekkefølge (fra høyest til lavest) baser
 * **Kode**
 
 Hvis feltet for **pakkesporingsnettadresse** fylles ut for transportørposten, inneholder leveringsbekreftelse også en sporingsnettadresse.
+
+## Returer og refusjoner
+
+I en integrering mellom Shopify og [!INCLUDE[prod_short](../includes/prod_short.md)] er det viktig å kunne synkronisere så mye forretningsdata som mulig. Det gjør det enklere å holde finans- og lagernivåene oppdatert i [!INCLUDE[prod_short](../includes/prod_short.md)]. Dataene du kan synkronisere, omfatter returer og refusjoner som ble registrert i Shopify-administrator eller Shopify-salgssted.
+
+Returer og refusjoner importeres sammen med tilknyttede ordrer hvis du aktiverte behandlingstypen på Shopify-butikkortet.
+
+Returer importeres bare for informasjonsformål. Det finnes ingen tilknyttet behandlingslogikk.
+
+Finans- og, om nødvendig, lagertransaksjoner behandles via refusjoner. Refusjoner kan omfatte produkter eller bare beløp, for eksempel hvis en forhandler har bestemt seg for å kompensere for forsendelseskostnader eller andre beløp.
+Du kan opprette salgskreditnotaer for refusjoner. Kreditnotaene kan ha følgende linjetyper:
+
+|Type|Nr.|Merknad|
+|-|-|-|
+|Finanskonto|Solgt gavekortkonto| Bruk for refusjoner knyttet til gavekort.|
+|Finanskonto|Ikke-etterfylt for refusjonskonto | Brukes til refusjoner i forbindelse med produkter som ikke ble etterfylt. |
+|Element |Varenr.| Brukes til refusjoner i forbindelse med produkter som ble etterfylt. Gyldig for direkte refusjoner eller refusjoner knyttet til refusjoner. Lokasjonskoden på kredittlinjen angis på grunnlag av verdien som er valgt for returlokasjonen.|
+|Finanskonto| Refusjonskonto | Brukes for andre refunderte beløp som ikke er knyttet til produkter eller gavekort. Det kan for eksempel være tips eller hvis du manuelt angav beløp for refusjon i Shopify. |
+
+>[!Note]
+>Returlokasjonen, inkludert tomme lokasjoner, som er definert i **Shopify-butikkortet**, brukes på den opprettede kreditnotaen. Systemet ignorerer de opprinnelige lokasjonene fra ordrer eller forsendelser.
 
 ## Gavekort
 

@@ -16,10 +16,10 @@ Denne artikkelen gir en oversikt over hvordan du definerer brukerkontoene som er
 
 ## Sette opp administratorbrukerkontoen
 
-Du må legge til administratorkontoen din for [!INCLUDE[prod_short](includes/prod_short.md)] som en bruker i [!INCLUDE[cds_long](includes/cds_long_md.md)]. Når du konfigurerer tilkoblingen mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)], vil denne kontoen bli brukt én gang til å installere og konfigurere noen nødvendige komponenter.
+Når du skal definere tilkoblingen mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)], må du logge deg på [!INCLUDE[prod_short](includes/prod_short.md)] med en brukerkonto som er tildelt lisensen [!INCLUDE[prod_short](includes/prod_short.md)] Essential eller [!INCLUDE[prod_short](includes/prod_short.md)] Premium. Vi bruker denne kontoen én gang til å installere og konfigurere noen nødvendige komponenter.
 
 > [!IMPORTANT]
-> Administrator-brukerkontoen må være lisensiert bruker med sikkerhetsrollen **Systemansvarlig** i [!INCLUDE[prod_short](includes/cds_long_md.md)]-miljøet og den globale administratoren for leieren som miljøet tilhører. Denne kontoen trenger ikke lisens for [!INCLUDE[prod_short](includes/prod_short.md)], ettersom den bare skal brukes til å klargjøre tjenesten i [!INCLUDE[prod_short](includes/cds_long_md.md)]-leieren og sette opp konfigurasjonsoppgaver.
+> Under installasjonen blir du bedt om å oppgi legitimasjon for [!INCLUDE[prod_short](includes/cds_long_md.md)]-miljøet. Oppgi legitimasjonen for en konto som er en lisensiert bruker og tildelt til sikkerhetsrollen **Systemadministrator** i [!INCLUDE[prod_short](includes/cds_long_md.md)]-miljøet og den globale administratoren for leieren som miljøet tilhører. Denne kontoen trenger ikke lisens for [!INCLUDE[prod_short](includes/prod_short.md)] fordi den bare skal brukes til å gjøre installasjonsoppgaver i [!INCLUDE[prod_short](includes/cds_long_md.md)]-miljøet.
 >
 > Når tilkoblingsoppsettet er fullført, kan du fjerne denne [!INCLUDE[prod_short](includes/cds_long_md.md)]-brukeren. Integrasjonen fortsetter å bruke brukerkontoen som automatisk er opprettet spesielt for integrasjonen.
 

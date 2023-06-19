@@ -70,7 +70,7 @@ Vi anbefaler at du bruker Microsoft Dynamics Lifecycle Services (LCS) til å sen
 [Lokal funksjonalitet i [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Endre språk og nasjonal innstilling](about-locale-language.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
-[Velkommen til Business Central](index.md)  
+[Velkommen til Business Central](welcome.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

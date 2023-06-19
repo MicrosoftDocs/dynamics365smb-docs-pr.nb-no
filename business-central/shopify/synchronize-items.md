@@ -1,20 +1,20 @@
 ---
 title: Synkroniser varer og lager
 description: Konfigurer og kjør synkroniseringer av varer mellom Shopify og Business Central
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: AndreiPanko
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Synkroniser varer og lager
 
-**Varene** i [!INCLUDE[prod_short](../includes/prod_short.md)] tilsvarer *produktene* i Shopify, som inkluderer fysiske varer, digitale nedlastinger, tjenester og gavekort du kan selge. Det er to hovedgrunner til å synkronisere varene:
+**Varene** i [!INCLUDE[prod_short](../includes/prod_short.md)] tilsvarer *produktene* i Shopify, som inkluderer fysiske varer, digitale nedlastinger, tjenester og gavekort du selger. Det er to hovedgrunner til å synkronisere varer:
 
-1. Databehandling utføres først og fremst i [!INCLUDE[prod_short](../includes/prod_short.md)]. Du må eksportere alle eller noen data derfra til Shopify og gjøre dem synlige. Du kan eksportere varenavn, beskrivelse, bilde, priser, tilgjengelighet, varianter, leverandørdetaljer og strekkode. Når du har eksportert, kan du se gjennom varene eller gjøre dem synlige umiddelbart.
+1. Databehandling skjer først og fremst i [!INCLUDE[prod_short](../includes/prod_short.md)]. Du må eksportere alle eller noen data derfra til Shopify og gjøre dem synlige. Du kan eksportere varenavn, beskrivelse, bilde, priser, tilgjengelighet, varianter, leverandørdetaljer og strekkode. Når du har eksportert, kan du se gjennom varene eller gjøre dem synlige umiddelbart.
 2. Når en ordre fra Shopify importeres, er informasjonen om varer viktig for ytterligere behandling av dokumentbehandling i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 De to foregående scenarioene er alltid aktivert.
@@ -98,17 +98,17 @@ Du administrerer prosessen med å eksportere varer ved å bruke følgende innsti
 |------|-----------------|-----------------|
 |Status|I henhold til feltet **Status for opprettede produkter** på **Shopify-butikkortet**. Finn ut mer i delen [Ad hoc-oppdateringer av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Ikke i bruk.|
 |Tittel | **Beskrivelse**. Hvis språkkoden er definert og en tilsvarende vareoversettelse eksisterer, blir vareoversettelse brukt i stedet for beskrivelse.|**Beskrivelse**|
-|Description|Kombinerer utvidede tekster og attributter hvis tilsvarende veksler på Shopify-butikkortet er aktivert. Overholder språkkode.|Ikke i bruk.|
+|Description|Kombinerer utvidede tekster, markedsføringstekst og attributter hvis du aktiverte tilsvarende vekslebrytere på Shopify-butikkortet. Overholder språkkode.|Ikke i bruk.|
 |SEO-sidetittel|Fast verdi: tom. Finn ut mer i delen [Ad hoc-oppdateringer av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Ikke i bruk.|
 |SEO-metabeskrivelse|Fast verdi: tom. Finn ut mer i delen [Ad hoc-oppdateringer av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Ikke i bruk.|
 |Medium|**Bilde**. Finn ut mer i delen [Synkroniser varebilder](synchronize-items.md#sync-item-images)|**Bilde**|
-|Pris|Beregningen av sluttkundepris omfatter vareenhetspris, kundeprisgruppe, kunderabattgruppe og valutakode. Finn ut mer i delen [Synkroniser priser](synchronize-items.md#sync-prices-with-shopify)|**Enhetspris**|
+|Pris|Beregningen av sluttkundepris omfatter vareenhetspris, kundeprisgruppe, kunderabattgruppe og valutakode. Finn ut mer i delen [Synkroniser priser](synchronize-items.md#sync-prices-with-shopify)|**Enhetspris**. Prisen importeres bare til nylig opprettede varer, men den blir ikke oppdatert i senere synkroniseringer.|
 |Sammenlign i prisen|Beregningen av prisen uten rabatt.|Ikke i bruk.|
-|Kostnad per vare|**Enhetskost**|**Enhetskost**|
-|LFE|Finn ut mer om SKUer under **SKU-tilording** i delen [Eksporter varer til Shopify](synchronize-items.md#export-items-to-shopify).|Finn ut mer om dette i delen [Effekten av SKU-er og strekkoder definert i Shopify-produkt på tildeling og oppretting av varer og varianter i Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
+|Kostnad per vare|**Enhetskost**|**Enhetskost**. Enhetskosten importeres bare til nylig opprettede varer, og den blir ikke oppdatert i senere synkroniseringer.|
+|Lagerføringsenhet|Finn ut mer om SKUer under **SKU-tilording** i delen [Eksporter varer til Shopify](synchronize-items.md#export-items-to-shopify).|Finn ut mer om dette i delen [Effekten av SKU-er og strekkoder definert i Shopify-produkt på tildeling og oppretting av varer og varianter i Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
 |Strekkode|**Varereferanser** av strekkodetypen.|**Varereferanser** av strekkodetypen.|
-|Spor antall|I henhold til feltet **Lager sporet** på siden **Shopify-butikkort**. Finn ut mer i delen [Lager](synchronize-items.md#sync-inventory-to-shopify).|Ikke i bruk.|
-|Fortsett å selge når tomt på lager|I henhold til **Standard lagerpolicy** på **Shopify-butikkortet**. Ikke importert.|Ikke i bruk.|
+|Spor antall|I henhold til feltet **Lager sporet** på siden **Shopify-butikkort**. Finn ut mer i delen [Lager](synchronize-items.md#sync-inventory-to-shopify). Brukes bare når du eksporterer et produkt for første gang.|Ikke i bruk.|
+|Fortsett å selge når tomt på lager|I henhold til **Standard lagerpolicy** på **Shopify-butikkortet**. Brukes bare når du eksporterer et produkt for første gang.|Ikke i bruk.|
 |Type|**Beskrivelse** av **Varekategorikode**. Hvis typen ikke er angitt i Shopify, blir den lagt til som en egendefinert type.|**Varekategorikode**. Tildeling etter beskrivelse.|
 |Leverandør|**Navn** på leverandør fra **Leverandørnr.**|**Leverandørnr.**-tildeling etter navn.|
 |Vekt|**Bruttovekt**.|Ikke i bruk.|

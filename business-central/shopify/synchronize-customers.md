@@ -1,18 +1,18 @@
 ---
 title: Synkroniser kunder
 description: Importer kunder fra eller eksporter til Shopify
-ms.date: 05/27/2022
+ms.date: 06/06/2023
 ms.topic: article
 ms.service: dynamics365-business-central
 ms.search.form: '30105, 30106, 30107, 30108, 30109,'
-author: edupont04
+author: andreipa
 ms.author: andreipa
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 ---
 
 # Synkroniser kunder
 
-Når en ordre importeres fra Shopify, er det nødvendig å hente informasjonen om kunden for ytterligere behandling av dokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)]. Det finnes to hovedalternativer for å gjøre dette, og kombinasjoner av disse:
+Når du importerer en ordre fra Shopify, er det nødvendig å hente informasjonen om kunden for ytterligere behandling av dokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)]. Det finnes to hovedalternativer for å gjøre dette og flere kombinasjoner:
 
 * Bruk en spesiell kunde for alle ordrer.
 * Importer faktiske kundeinformasjon fra Shopify. Dette alternativet er også tilgjengelig når du eksporterer kunder til Shopify fra [!INCLUDE[prod_short](../includes/prod_short.md)] først.
@@ -36,10 +36,9 @@ Enkelte innstillinger kan defineres på nivået land/område, eller på nivået 
 Du kan gjøre følgende for hver kunde ved å bruke **Shopify-kundemalen**:
 
 1. Angi **Standard kundenr.**, som har høyere prioritet over det som er valgt i feltene **Kundeimport fra Shopify** og **Kundetildelingstype**. Den brukes i den importerte ordren.
-2. Definere **kundemalkoden**, som brukes til å opprette manglende kunder, hvis **Opprett ukjente kunder automatisk** er aktivert. Hvis **kundemalkoden** er tom, bruker funksjonen **kundemalkoden** som er definert på **Shopify-butikkort**.
-3. Definere om priser skal inngå i mva./avgift for importerte ordrer.
-4. I noen tilfeller er ikke **kundemalkoden** som er definert for et land, nok til å sikre riktig beregning av avgifter (f.eks. for land med mva.). I dette tilfellet kan det være nyttig å ta med **mva-områdene**.
-5. **Avgiftsområde**-feltet inneholder også et par for **landskode** og **fylkesnavn**. Dette paret er nyttig når koblingen må konvertere en kode til et navn, eller omvendt.
+2. Definere **kundemalkoden**, som brukes til å opprette manglende kunder, hvis **Opprett ukjente kunder automatisk** er aktivert. Hvis **kundemalkoden** er tom, bruker funksjonen **kundemalkoden** som er definert på **Shopify-butikkort**. Systemet prøver først å finne en mal for **fylkes-/områdekode** for standardadressen. Hvis det ikke finnes noen mal, brukes den første adressen.
+3. I noen tilfeller er ikke **kundemalkoden** som er definert for et land, nok til å sikre riktig avgiftsberegninger (f.eks. for land med mva.). I dette tilfellet kan det være nyttig å ta med **avgiftsområde**.
+4. **Avgiftsområde**-feltet inneholder også et par for **landskode** og **fylkesnavn**. Dette paret er nyttig når koblingen må konvertere en kode til et navn, eller omvendt.
 
 > [!NOTE]  
 > Landkodene er ISO 3166-1 for alpha-2-landkoder. Finn ut mer under [Landskode](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).

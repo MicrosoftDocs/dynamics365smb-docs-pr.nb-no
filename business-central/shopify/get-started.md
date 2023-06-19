@@ -60,7 +60,7 @@ Gjenta trinn 2–6 for alle nettbutikker du vil koble til.
 
 - Nettleseren blokkerer popup-vinduet. Når du slår på **Aktivert**-bryteren, åpner [!INCLUDE [prod_short](../includes/prod_short.md)] siden **Venter på svar – ikke lukk denne siden** mens den venter på et tilgangstoken fra Shopify. Hvis siden er lukket eller blokkert, kan du ikke koble til Shopify. Finn ut mer på [Be om tilgangstokenet](troubleshoot.md#request-the-access-token)
 - [Feil: Oauth-feilen invalid_request: Finner ikke Shopify API-program med api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
-- [Kan ikke koble til fra sandkasse](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-when-running-in-a-non-production-environment)
+- [Kan ikke koble til fra sandkasse](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Neste trinn
 
@@ -96,7 +96,11 @@ Hvis du må bruke denne konfigurasjonen, anbefaler vi at du leser og sannsynligv
 * **Shopify kan oppdatere kunder** for ikke å oppdatere eksisterende kunder
 * **Opprett ordre automatisk** for ikke å opprette ordrer og salgsfakturaer
 
+Hvis du vil ha mer informasjon, kan du se [Gjenoppretting av et miljø](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-backup-restore).
+
 ### Shopify-produksjon og Business Central-sandkasse
+
+Det kan være lurt å sikkerhetskopiere dataene. Du kan for eksempel eksportere produkter og kunder. Hvis du vil ha mer informasjon, kan du se [Bruk CSV-filer til å sikkerhetskopiere lagringsinformasjon](https://help.shopify.com/en/manual/shopify-admin/duplicate-store#using-csv-files-to-back-up-store-information).
 
 Deaktiver **Tillat datasynkronisering til Shopify** for å veksle slik at [!INCLUDE[prod_short](../includes/prod_short.md)] ikke skriver til Shopify. I dette tilfellet kan du importere produkter, bilder, kunder og ordrer fra Shopify. Men du kan ikke sende vare, priser, lagernivåer, kunder, oppfyllelsesinformasjon til Shopify.
 

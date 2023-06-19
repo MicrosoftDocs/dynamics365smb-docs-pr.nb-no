@@ -39,7 +39,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 ## Se også  
 [Håndtere fordringer](receivables-manage-receivables.md)   
 [Prosjekter](projects-how-create-jobs.md)   
-[Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)] ](index.md)
+[Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)] ](welcome.md)
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 

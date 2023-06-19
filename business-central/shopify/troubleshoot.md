@@ -1,13 +1,13 @@
 ---
 title: Feilsøking av Shopify- og Business Central-synkronisering
-description: Lær hva du gjør hvis noe går galt under synkroniseringen av data mellom Shopify og Business Central
-ms.date: 03/27/2023
-ms.topic: article
-ms.service: dynamics365-business-central
+description: Lær hva du gjør hvis noe går galt når du synkroniserer data mellom Shopify og Business Central.
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: how-to
+ms.date: 04/24/2023
+ms.custom: bap-template
 ms.search.form: '30118, 30119, 30120, 30101, 30102'
-author: edupont04
-ms.author: andreipa
-ms.reviewer: solsen
 ---
 
 # Feilsøking av Shopify- og Business Central-synkronisering
@@ -20,7 +20,7 @@ Du kan støte på situasjoner der du må feilsøke problemer når du synkroniser
 2. Velg butikken du vil feilsøke for å åpne siden **Shopify-butikkort**.
 3. Slå av vekslebryteren **Tillat bakgrunnssynkroniseringer**.
 
-Når synkroniseringshandlingen utløses nå, vil synkroniseringshandlingen kjøres i forgrunnen og hvis det oppstår en feil, vises en feildialogboks med **Kopier detaljer**-kobling. Bruk denne koblingen til å kopiere tilleggsinformasjon til et tekstredigeringsprogram for ytterligere analyse.
+Når synkroniseringshandlingen utløses nå, kjøres oppgaven i forgrunnen. Hvis det oppstår en feil, vises det en feildialogboks med en **Kopier detaljer**-kobling. Bruk koblingen til å kopiere informasjon til et tekstredigeringsprogram for ytterligere analyse.
 
 ## Logger
 
@@ -40,11 +40,11 @@ Hvis en synkroniseringsoppgave mislykkes, kan du slå på vekslebryteren **Logg 
 
 Husk senere å slå av logging for å unngå negativ innvirkning på ytelsen og øke størrelsen på databasen.
 
-Fra siden **Shopify-loggposter** kan du utløse sletting av alle loggposter eller de som er eldre enn sju dager.
+Fra siden **Shopify-loggposter** kan du utløse slettingen av alle loggposter eller poster som er eldre enn sju dager.
 
 ## Dataregistrering
 
-Uavhengig av innstillingene **Logg aktivert** blir noen Shopify-svar alltid loggførte slik at du kan undersøke eller laste dem ned ved hjelp av siden **Dataregistreringsliste**.
+Uansett om **Logg aktivert** er slått på, logges alltid noen Shopify-svar. Du kan undersøke eller laste ned loggene fra siden **Dataregistreringsliste**.
 
 Velg handlingen **Hentede Shopify-data** på en av følgende sider:
 
@@ -58,13 +58,13 @@ Velg handlingen **Hentede Shopify-data** på en av følgende sider:
 
 ## Tilbakestill synkronisering
 
-For optimal ytelse importerer koblingen bare kunder, produkter og ordrer som er opprettet eller endret siden siste synkronisering. På siden **Shopify-butikkort** finnes det funksjoner som endrer dato/klokkeslett for siste synkronisering, eller tilbakestille den fullstendig. Denne funksjonen sikrer at alle data synkroniseres i stedet for bare endringer siden forrige synkronisering, når synkroniseringen kjøres.
+For optimal ytelse importerer koblingen bare kunder, produkter og ordrer som ble opprettet eller endret etter siste synkronisering. På siden **Shopify-butikkort** finnes det funksjoner som endrer dato/klokkeslett for siste synkronisering, eller tilbakestille den fullstendig. Denne funksjonen sikrer at alle data synkroniseres i stedet for bare endringer siden forrige synkronisering.
 
 Denne funksjonen gjelder bare synkroniseringer fra Shopify til [!INCLUDE[prod_short](../includes/prod_short.md)]. Den kan være nyttig hvis du må gjenopprette slettede data, for eksempel produkter, kunder eller slettede ordrer.
 
 ## Be om tilgangstokenet
 
-Hvis [!INCLUDE[prod_short](../includes/prod_short.md)] ikke vil koble til Shopify-kontoen, kan du prøve å be om tilgangstokenet fra Shopify. Denne forespørselen kan være nødvendig hvis det er en rotasjon av sikkerhetsnøkler eller endringer i nødvendige tillatelser (omfang).
+Hvis [!INCLUDE[prod_short](../includes/prod_short.md)] ikke vil koble til Shopify-kontoen, kan du prøve å be om tilgangstokenet fra Shopify. Du må kanskje be om et nytt token hvis det ble gjort endringer i sikkerhetsnøklene eller nødvendige tillatelser (omfang).
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Shopify-butikker**. Velg den relaterte koblingen.
 2. Velg butikken du vil hente tilgangstokenet for for å åpne siden **Shopify-butikkort**.
@@ -73,11 +73,11 @@ Hvis [!INCLUDE[prod_short](../includes/prod_short.md)] ikke vil koble til Shopif
 
 **Har tilgangsnøkkel**-veksleknappen blir aktivert.
 
-### Kontroller og aktiver tillatelser for å foreta HTTP-forespørsler når du kjører i et ikke-produksjonsmiljø
+## Kontroller og aktiver tillatelser for å foreta HTTP-forespørsler i et ikke-produksjonsmiljø
 
 Shopify-koblingsutvidelsen krever tillatelse til å utføre HTTP-forespørsler for å fungere skikkelig. Når du tester i en sandkasse, er HTTP-forespørslene forbudt for alle utvidelser.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **utvidelsesbehandling**, og velg den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utvidelsesbehandling**, og velg deretter den relaterte koblingen.
 2. Velg utvidelsen **Shopify-kobling**.
 3. Velg handlingen **Konfigurer** for å åpne siden **Utvidelsesinnstilling**.
 4. Kontroller at vekslebryteren **Tillat HTTPClient-forespørsler** er aktivert.
@@ -94,20 +94,21 @@ De følgende fremgangsmåtene beskriver hvordan du roterer tilgangstokenet som b
 
 ### I [!INCLUDE[prod_short](../includes/prod_short.md)]
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Shopify-butikker**. Velg den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Shopify-butikker** og velger den relaterte koblingen.
 2. Velg butikken du vil rotere tilgangstokenet for for å åpne siden **Shopify-butikkort**.
 3. Velg handlingen **Be om tilgang**.
 4. Hvis du blir bedt om det, logger du deg på Shopify-kontoen, ser gjennom personvern og tillatelser, og deretter velger du knappen **Installer app**.
 
 ## Kjente problemer
 
-### Feil: Salgshodet finnes ikke. Identifikasjonsfelter og -verdier: Dokumenttype='Quote',No.='YOU SHOPIFY STORE'
+### Feil: Salgshodet finnes ikke. Identifikasjonsfelter og -verdier: Dokumenttype='Quote',No.='YOUR SHOPIFY STORE'
 
-Hvis du vil beregne priser, oppretter Shopify-koblingen midlertidig salgsdokument (tilbud) for midlertidig kunde (butikkode) og lar standard prisberegningslogikk gjøre jobben sin. Det er vanlig scenario når en tredjepartsutvidelse abonnerer på hendelser i salgslinjen, men ikke kontrollerer at posten er midlertidig, slik at hodet kanskje ikke er tilgjengelig. Vi anbefaler at du kontakter leverandøren av utvidelsen og ber vedkommende endre koden for å kontrollere om postene er midlertidige. I noen tilfeller er det å legge til `IsTemporary`-metoden på riktig plass nok. Gå til [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method) for å lære mer om IsTemporary. 
+Hvis du vil beregne priser, oppretter Shopify-koblingen et midlertidig salgsdokument (tilbud) for en midlertidig kunde (butikkode) og bruker standard prisberegningslogikk. Hvis en tredjepartsutvidelse abonnerer på hendelser i et midlertidig salgsdokument, kan det hende at toppteksten ikke er tilgjengelig. Vi anbefaler at du kontakter utvidelsesleverandøren. Be vedkommende endre koden for å se etter midlertidige poster. I noen tilfeller trenger leverandøren bare å legge til `IsTemporary`-metoden på riktig plass. Gå til [IsTemporary](/dynamics365/business-central/dev-itpro/developer/methods-auto/record/record-istemporary-method) for å finne ut mer om `IsTemporary`. 
 
 Hvis du vil kontrollere om problemet er forårsaket av en tredjepartsutvidelse, bruker du koblingen **Kopier informasjon til utklippstavlen** i feilmeldingen og kopierer innholdet til tekstredigeringsprogrammet. Informasjonen inneholder en **Al-kallstakk**, der den øverste linjen er linjen der feilen oppstod. Nedenfor vises et eksempel på en AL-kallstakk.
 
-AL-kallstakk: 
+AL-kallstakk:
+
 ```AL
 [Object Name]([Object type] [Object Id]).[Function Name] line [XX] - [Extension Name] by [Publisher] 
 ...
@@ -122,17 +123,21 @@ AL-kallstakk:
 
 Husk å dele AL-kallstakkinformasjonen med leverandøren av utvidelsen.
 
-### Feil: Firmabokføringsgruppe må ha en verdi hos kunden: 'YOU SHOPIFY STORE'. Den kan ikke være null eller tom
+### Feil: Firmabokføringsgruppe må ha en verdi hos kunden: 'YOUR SHOPIFY STORE'. Den kan ikke være null eller tom
 
-På siden **Shopify-butikkort** fyller du ut feltet **Kundemalkode** med malen som har **Bokføringsgruppe – firma** fylt ut. Kundemalen brukes ikke bare til oppretting av kunder, men også for beregning av salgspris og oppretting av salgsdokumenter.
+På siden **Shopify-butikkort** i feltet **Kundemalkode** velger du malen som har **Bokføringsgruppe – firma** fylt ut. Kundemalen brukes til å opprette kunder og beregne salgspriser for salgsdokumenter.
 
 ### Feil: Import av data til Shopify-butikk er ikke aktivert. Gå til butikkortet for å aktivere det
 
-I vinduet **Shopify-butikkort** aktiverer du veksleknappen **Tillat datasynkronisering til Shopify**. Denne vekslingen er ment å beskytte nettbutikken fra å motta demodata fra [!INCLUDE[prod_short](../includes/prod_short.md)].
+På siden **Shopify-butikkort** aktiverer du veksleknappen **Tillat datasynkronisering til Shopify**. Denne innstillingen bidrar til å beskytte nettbutikken fra å motta demodata fra [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 ### Feil: Oauth-feilen invalid_request: Finner ikke Shopify API-program med api_key
 
-Det ser ut til at du bruker [Bygg inn-appen](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) der klientnettadressen har formatet: `https://[application name].bc.dynamics.com`. Shopify-koblingen fungerer ikke for innebygde apper. Hvis du vil ha mer informasjon, kan du se [Hvilke Microsoft-produkter er Shopify-koblingen tilgjengelig for?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
+Det ser ut til at du bruker [Bygg inn-appen](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview) der klientnettadressen har formatet: `https://[application name].bc.dynamics.com`. Shopify-koblingen fungerer ikke for innebygde apper. Hvis du vil finne ut mer, kan du gå til [Hvilke Microsoft-produkter er Shopify-koblingen tilgjengelig for?](shopify-faq.md#which-microsoft-products-are-the-shopify-connector-available-for).
+
+### Feil: intern feil. Det ser til at noe gikk galt hos oss. Forespørsels-ID: XXXXXXXX-XXXX-XXXX-XXXX-XXXX
+
+Kontakt Shopifys kundestøtte innen sju dager når du får denne feilen, og oppgi forespørsels-ID-en. Hvis du vil ha mer informasjon, går du til [Kundestøttealternativer for Shopify](shopify-faq.md#shopify).
 
 ## Se også
 

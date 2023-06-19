@@ -37,7 +37,7 @@ Siden kobler også til Power BI for enda mer innsikt. Alternativt kan du koble t
 
 ## Se også
 
-[Velkommen til Business Central](index.md)  
+[Velkommen til Business Central](welcome.md)  
 [Skyoverføringsutvidelser](ui-extensions-data-replication.md)  
 [Overføre lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 

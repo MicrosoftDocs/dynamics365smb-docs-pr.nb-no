@@ -50,6 +50,9 @@ Når du har opprettet butikken, i **Shopify-administratoren** til den opprettede
   1. *(for testing) falsk gateway*. Hvis du vil ha mer informasjon, kan du se [Aktiver falsk gateway for testing](https://help.shopify.com/en/manual/checkout-settings/test-orders#place-a-test-order-by-simulating-a-transaction).
   2. *Shopify Payments* i testmodus. Finn ut mer under [Test Shopify Payments](https://help.shopify.com/en/manual/payments/shopify-payments/testing-shopify-payments).
 
+> [!Note]  
+> Utviklingslagre er vanligvis passordbeskyttet. Når du prøver å åpne en bestemt side i nettbutikken fra [!INCLUDE [prod_short](../includes/prod_short.md)], for eksempel for å gå til et bestemt produkt eller en bestemt ordre, må du angi passordet. Når du tester, for å unngå å måtte skrive inn passordet, logger du deg på Shopify-administratoren og åpner butikken derfra. Du trenger ikke å angi passordet for butikken før du har lukket nettleseren eller økten utløper.  
+
 ## Se også
 
 [Kom i gang med Shopify-koblingen](get-started.md)  

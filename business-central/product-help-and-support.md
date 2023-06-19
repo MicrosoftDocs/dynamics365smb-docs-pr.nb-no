@@ -78,7 +78,7 @@ Delen **Finn den** inneholder to koblinger til produkthjelpen:
 
 - Hjelp om siden du nettopp viste i [!INCLUDE[prod_short](includes/prod_short.md)]  
 
-  Denne kobloingen genereres automatisk. Hvis [!INCLUDE[prod_short](includes/prod_short.md)] ikke kan finne den relevante koblingen, vises [målsiden på Microsoft Learn](index.md) for standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis siden for eksempel var en del av en app som ikke har lagt til kontekst avhengig hjelp tilordning til [!INCLUDE[prod_short](includes/prod_short.md)], settes koblingen *Lær* til målsiden som standard.  
+  Denne kobloingen genereres automatisk. Hvis [!INCLUDE[prod_short](includes/prod_short.md)] ikke kan finne den relevante koblingen, vises [målsiden på Microsoft Learn](index.yml) for standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis siden for eksempel var en del av en app som ikke har lagt til kontekst avhengig hjelp tilordning til [!INCLUDE[prod_short](includes/prod_short.md)], settes koblingen *Lær* til målsiden som standard.  
   
 - Hjelp-målside for [!INCLUDE[prod_short](includes/prod_short.md)]  
 
@@ -152,9 +152,9 @@ Hvis du vil varsle partneren om et problem, kan du velge om du vil sende en e-po
 
 ## Finn ut mer med produktdokumentasjonen
 
-Basisversjonen av [!INCLUDE [prod_short](includes/prod_short.md)] er utvidet og tilpasset av et stort miljø med partnere. Hver partner og mange kunder distribuerer sin egen hjelp til sine egne nettsteder. Men du kan alltid gå til området [Dynamics 365 Business Central-dokumentasjon](index.md) for å lære mer. Området er vert for forskjellige typer innhold, for eksempel følgende:
+Basisversjonen av [!INCLUDE [prod_short](includes/prod_short.md)] er utvidet og tilpasset av et stort miljø med partnere. Hver partner og mange kunder distribuerer sin egen hjelp til sine egne nettsteder. Men du kan alltid gå til området [Dynamics 365 Business Central-dokumentasjon](index.yml) for å lære mer. Området er vert for forskjellige typer innhold, for eksempel følgende:
 
-- [Begrepsforklarende innhold om forretningsfunksjoner](index.md)  
+- [Begrepsforklarende innhold om forretningsfunksjoner](welcome.md)  
 - [Dokumentasjon for utviklere](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview)  
 - [Læringsbaner og e-læringsmoduler på tvers av flere brukerprofiler](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)  
 
@@ -164,7 +164,7 @@ I denne delen kan du finne ut mer om hvordan du kan navigerer i innhold i forret
 
 ### Innhold på nettstedet
 
-[Denne delen](index.md) av Microsoft Learn drifter innhold fra Microsoft som representerer pilaren *Finn ut mer* i brukerstøttemodellen. Innholdet under *Lær mer* har delvis til hensikt å besvare spørsmål som brukergrensesnittet ikke kan svare på, for eksempel følgende:
+[Denne delen](welcome.md) av Microsoft Learn drifter innhold fra Microsoft som representerer pilaren *Finn ut mer* i brukerstøttemodellen. Innholdet under *Lær mer* har delvis til hensikt å besvare spørsmål som brukergrensesnittet ikke kan svare på, for eksempel følgende:
 
 - Hvor passer denne siden inn i den større arbeidsflyten?  
 - Hva skjer videre?  

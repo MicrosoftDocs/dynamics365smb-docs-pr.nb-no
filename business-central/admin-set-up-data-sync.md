@@ -11,11 +11,11 @@ ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
 
-# Gjør deg klar til å synkroniser hoveddata
+# Gjør deg klar til å synkronisere hoveddata
 
-Når du har to eller flere selskaper som bruker minst noen av de samme hoveddataene, kan du spare tid på å angi data ved å synkronisere dem i selskapene. Synkronisering av data er spesielt nyttig når du definerer nye datterselskaper.
+Når to eller flere selskaper bruker noen av de samme hoveddataene, kan du synkronisere dataene i stedet for å legge dem til manuelt i hvert selskap. Synkronisering av data er for eksempel nyttig når du definerer nye datterselskaper.
 
-Hoveddata omfatter innstillinger og ikke-transaksjonelle opplysninger om forretningsenheter, for eksempel kunder, leverandører, varer og ansatte. Dataene gir kontekst for forretningstransaksjoner. Dette er noen få eksempler på hoveddata for en kunde:
+Hoveddata omfatter innstillinger og ikke-transaksjonelle opplysninger om forretningsenheter. Det kan for eksempel være kunder, leverandører, varer og ansatte. Dataene gir kontekst for forretningstransaksjoner. Dette er noen få eksempler på hoveddata for en kunde:
 
 * Name
 * Identifikasjonsnummer
@@ -23,7 +23,7 @@ Hoveddata omfatter innstillinger og ikke-transaksjonelle opplysninger om forretn
 * Betalingsbetingelser
 * Kredittgrense
 
-Du kan konfigurere synkronisering i datterselskapene. Ved å bruke en pull-modell trekker datterselskaper dataene fra kildeselskapet de trenger for å gjøre forretninger med dem. Når du har definert synkronisering og synkronisert data for første gang, er du klar. Poster i tabellene er koblet, og jobbkøposter begynner med å oppdatere data i datterselskaper når noen foretar en endring i kildeselskapet.
+Du kan konfigurere synkronisering i datterselskapene. Ved å bruke en pull-modell trekker datterselskaper dataene fra kildeselskapet de trenger for å gjøre forretninger med dem. Når du har definert synkronisering og synkronisert data for første gang, er du klar. Prosjektkøposter oppdaterer koblede poster i datterselskaper når noen endrer data i kildeselskapet.
 
 ## Bare enveissynkronisering
 
@@ -34,10 +34,13 @@ Du kan bare synkronisere data fra kildeselskapet til datterselskapene på en pul
 
 ## Før du begynner
 
-Dette er kravene for å konfigurere synkronisering.
+Følgende er kravene for å konfigurere synkronisering.
 
 * Alle selskaper må være i samme miljø.
-* Brukeren som definerer datterselskapet, må ha tillatelsessettet **Hoveddatabehandling – vis**. Tillatelsessettet er tilgjengelig i Premium- og Essential-lisensene. Med Team Member-lisensen kan du få tilgang til dem, men ikke endre poster, slik at den ikke kan brukes til å konfigurere synkroniseringen.
+* Brukeren som konfigurerer datterselskapet, må ha lisensen **Essential**, **Premium** eller **Basic ISV**.
+
+> [!NOTE]
+> Med Team Member- og Intern administrator-lisensen kan du få tilgang til dem, men ikke endre poster, slik at de ikke kan brukes til å konfigurere synkroniseringen. Delegert administrator-lisensen lar deg ikke planlegge bakgrunnsoppgaver, slik at du ikke kan fullføre oppsettet.
 
 ## Angi kildeselskapet
 
@@ -52,7 +55,7 @@ Neste trinn er å aktivere tabeller og felter for synkronisering.
 
 ## Aktiver eller deaktiver tabeller og felter
 
-Hvis du vil spare tid, gir [!INCLUDE [prod_short](includes/prod_short.md)] en liste over tabeller som virksomheter synkroniserer ofte. Som standard er disse tabellene aktivert for synkronisering, men du kan endre, deaktivere eller slette dem etter behov. Som en ekstra tidsbesparelse er noen felter i tabellene allerede deaktivert, fordi de sannsynligvis ikke er relevante for datterselskapet.
+Hvis du vil spare tid, gir [!INCLUDE [prod_short](includes/prod_short.md)] en liste over tabeller som virksomheter synkroniserer ofte. Noen tabeller er aktivert for synkronisering som standard. Du kan endre, deaktivere eller slette dem etter behov. Som en ekstra tidsbesparelse er noen felter i tabellene allerede deaktivert, fordi de sannsynligvis ikke er relevante for datterselskapet.
 
 > [!NOTE]
 > Hvis en eller flere utvidelser er installert i kildeselskapet, når et datterselskaper konfigurerer synkronisering, omfatter siden **Synkroniseringstabeller** tabellene fra utvidelsene, og du får tilgang til feltene i dem. Hvis kildeselskapet imidlertid legger til en utvidelse etter at synkroniseringen er definert, må hvert datterselskap manuelt legge til tabellene. Hvis du vil ha mer informasjon om hvordan du legger til tabeller, kan du gå til [Legg til eller slett tabeller i listen over synkroniseringstabeller](#add-or-delete-tables-from-the-synchronization-tables-list). Hvis du vil lære mer om utvidelse av [!INCLUDE [prod_short](includes/prod_short.md)], går du til [Utvikling av utvidelser i Visual Studio Code](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview#developing-extensions-in-visual-studio-code).
@@ -85,8 +88,11 @@ Du kan angi hvilke data som skal synkroniseres for en tabell, ved å samsvare po
 
 Når du er klar, velger du handlingen **Start første synkronisering** på siden **Oppsett av hoveddatabehandling**. Velg synkroniseringstypen du vil bruke for hver tabell, på siden **Innledende synkronisering av hoveddata**.
 
-* Hvis du allerede har poster både i kilde- og datterselskapene og du vil tildele eksisterende poster, velger du handlingen **Bruk treffbasert kobling**. [!INCLUDE [prod_short](includes/prod_short.md)] samsvarer poster i datterselskapet med poster i kildeselskapet basert på samsvarskriterier du definerer. For flere standardtabeller har [!INCLUDE [prod_short](includes/prod_short.md)] allerede samsvart eksisterende poster ved hjelp av primærnøkkelen, men du kan endre det hvis du vil. Du kan også la synkroniseringen opprette nye poster i datterselskapet for poster i kildeselskapet som datterselskapet ikke har. Hvis du vil vite mer om samsvar, går du til [Bruk treffbasert kobling](#use-match-based-coupling).
-* Hvis du velger **Kjør fullstendig synkronisering**, oppretter synkroniseringen nye poster for alle poster i kildeselskapet som ikke er koblet ennå. Dette alternativet er vanligvis nyttig hvis datterselskapet ikke har noen data i tabellen, eller hvis du bare vil legge til poster fra kildeselskapet, uten samsvar.  
+* Hvis du allerede har poster både i kilde- og datterselskapene og du vil tildele eksisterende poster, velger du handlingen **Bruk treffbasert kobling**. [!INCLUDE [prod_short](includes/prod_short.md)] samsvarer postene i datterselskapet med poster i kildeselskapet. Treffene er basert på samsvarskriteriene du definerer. For flere standardtabeller har [!INCLUDE [prod_short](includes/prod_short.md)] allerede samsvart eksisterende poster ved hjelp av primærnøkkelen, men du kan endre det hvis du vil. Du kan også la synkroniseringen opprette nye poster i datterselskapet for poster i kildeselskapet som datterselskapet ikke har. Hvis du vil vite mer om samsvar, går du til [Bruk treffbasert kobling](#use-match-based-coupling).
+* Hvis du velger **Kjør fullstendig synkronisering**, oppretter synkroniseringen nye poster for alle poster i kildeselskapet som ikke er koblet ennå. Dette alternativet er for eksempel nyttig i følgende scenarioer:
+
+    * Datterselskapet har ikke data i tabellen.
+    * Du vil legge til poster fra kildeselskapet uten samsvar.  
 
 Når du har valgt alternativet som skal brukes, velger du **Start alle**-handlingen for å starte synkroniseringen.
 
@@ -118,7 +124,7 @@ Hvis du vil ha tilgang til detaljer, for eksempel antall poster som er satt inn 
 
 ## Bruk eksport og import til å dele et synkroniseringsoppsett
 
-Hvis du definerer flere datterselskaper som skal bruke samme eller lignende synkroniseringsinnstillinger, kan du spare tid ved å definere ett datterselskap og deretter eksportere oppsettet til en XML-fil. Filen inneholder hele oppsettet, inkludert tabell- og felttildelinger og filterkriterier. Deretter kan du importere filen til neste datterselskap. Hvis du vil importere eller eksportere et oppsett, bruker du handlingene **Importer** eller **Eksporter** på siden **Oppsett av hoveddatabehandling**.
+Hvis du definerer flere datterselskaper som bruker samme eller lignende synkroniseringsinnstillinger, er det en tidssparer. Definer ett datterselskap og eksporter deretter oppsettet til en XML-fil. Filen inneholder hele oppsettet, inkludert tabell- og felttildelinger og filterkriterier. Deretter kan du importere filen til neste datterselskap. Hvis du vil importere eller eksportere et oppsett, bruker du handlingene **Importer** eller **Eksporter** på siden **Oppsett av hoveddatabehandling**.
 
 ## Se også
 

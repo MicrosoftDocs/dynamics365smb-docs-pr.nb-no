@@ -118,7 +118,7 @@ Du kan også opprette din egen prediktive webtjeneste basert på en fellesmodell
 
 [Dokumentasjon for Azure Machine Learning Studio](/azure/machine-learning/classic/)  
 [Tilpasse Business Central for med utvidelser](ui-extensions.md)  
-[Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](index.md)  
+[Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]](welcome.md)  
 [Bruk kunstig intelligens i Microsoft Dynamics 365 Business Central](/training/paths/use-artificial-intelligence/)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

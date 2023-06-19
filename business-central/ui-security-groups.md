@@ -12,37 +12,37 @@ ms.date: 02/08/2023
 
 # Styr tilgang til Business Central ved å bruke sikkerhetsgrupper
 
-[!INCLUDE [2023rw1-sec-group-long](includes/2023rw1-sec-group-long.md)]
+Sikkerhetsgrupper gjør det enklere for administratorer å håndtere brukertillatelser. For nettversjonen av [!INCLUDE [prod_short](includes/prod_short.md)] kan de for eksempel brukes på nytt på tvers av Dynamics 365-programmer, som SharePoint Online, CRM Online og [!INCLUDE [prod_short](includes/prod_short.md)]. Administratorer legger til tillatelser i [!INCLUDE [prod_short](includes/prod_short.md)]-sikkerhetsgruppene, og når de legger til brukere i gruppen, gjelder tillatelsene for alle medlemmer. En administrator kan for eksempel opprette en [!INCLUDE [prod_short](includes/prod_short.md)]-sikkerhetsgruppe som gir selgere muligheten til å opprette og bokføre ordrer. Eller du kan la innkjøpere gjøre det samme for bestillinger.
 
-Sikkerhetsgrupper gjør det enklere for administratorer å håndtere brukertillatelser i Dynamics 365-programmene, som SharePoint Online, CRM Online og nettversjonen av [!INCLUDE [prod_short](includes/prod_short.md)]. Administratorer legger til tillatelser i sikkerhetsgruppene, og når de legger til brukere i gruppen, gjelder tillatelsene for alle medlemmer. En administrator kan for eksempel opprette en sikkerhetsgruppe som gir selgere muligheten til å opprette og bokføre ordrer. Eller du kan la innkjøpere gjøre det samme for bestillinger.
+## Business Central Online og lokal
 
-Opprett sikkerhetsgruppene i administrasjonssenteret for Microsoft 365 eller Azure Active Directory. Denne artikkelen beskriver fremgangsmåten i administrasjonssenteret for Microsoft 365, men fremgangsmåten er lignende i begge.
+Du kan bruke sikkerhetsgrupper for nettversjonene og de lokale versjonene av [!INCLUDE [prod_short](includes/prod_short.md)]. Opprett grupper på en av følgende måter, avhengig av versjonen:
 
-## Legg til en sikkerhetsgruppe i administrasjonssenteret for Microsoft 365
+* For nettversjonen bruker du Azure Active Directory-sikkerhetsgrupper. Hvis du vil ha mer informasjon om hvordan du oppretter gruppen, kan du gå til [Opprett, rediger eller slett en sikkerhetsgruppe i administrasjonssenteret for Microsoft 365](/microsoft-365/admin/email/create-edit-or-delete-a-security-group).
+* For lokal versjoner bruker du Windows Active Directory-grupper. Hvis du vil lære mer, kan du gå til [Opprett en gruppekonto i Active Directory](/windows/security/operating-system-security/network-security/windows-firewall/create-a-group-account-in-active-directory).
 
-1. Gå til siden **Aktive team og grupper** i administrasjonssenteret for Microsoft 365.
-2. Velg **Legg til en gruppe**.
-3. Velg gruppetypen **Sikkerhet** og velg deretter **Neste**.
-4. Angi det grunnleggende for gruppen.
-5. Valgfritt: Gjør medlemmene i gruppen tilgjengelig for rolletildeling. Hvis du vil lære mer om tildelingene, går du til [Bruk Azure AD-grupper til å behandle rolletildelinger](/azure/active-directory/roles/groups-concept).
-6. Åpne gruppen, og bruk deretter fanen **Legg til medlemmer** til å inkludere personer i gruppen.
+Etterpå oppretter du en tilsvarende sikkerhetsgruppe i [!INCLUDE [prod_short](includes/prod_short.md)] og kobler den til gruppen du opprettet. Hvis du vil finne ut mer, går du til [Legg til en sikkerhetsgruppe i Business Central](#add-a-security-group-in-business-central).
+
+> [!NOTE]
+> Hvis du har definert en spesiell type bruker med en Windows-gruppelisenstype i en lokal versjon av [!INCLUDE [prod_short](includes/prod_short.md)] som er eldre enn lanseringsbølge 1 i 2023, konverterer [!INCLUDE [prod_short](includes/prod_short.md)] brukeren til en sikkerhetsgruppe når du oppgraderer. Den nye sikkerhetsgruppen har samme navn som navnet på Windows-gruppen. Sikkerhetsgruppen gir deg bedre oversikt over gruppemedlemmene og de effektive tillatelsene.
 
 ## Legg til en sikkerhetsgruppe i Business Central
 
-I [!INCLUDE [prod_short](includes/prod_short.md)] oppretter du en sikkerhetsgruppe og kobler den til sikkerhetsgruppen i administrasjonssenteret for Microsoft 365. Den nye gruppen inneholder medlemmene du har lagt til i administrasjonssenteret for Microsoft 365.
-
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Sikkerhetsgrupper**, og velg deretter den relaterte koblingen.
-2. Velg **Opprett** for å opprette en gruppe.
-3. Angi et navn for gruppen i **Navn**-feltet.
-4. I feltet **Navn på AAD-sikkerhetsgruppe** skriver du inn navnet på sikkerhetsgruppen nøyaktig slik det vises i administrasjonssenteret for Microsoft 365. [!INCLUDE [prod_short](includes/prod_short.md)] vil finne den gruppen og koble den til denne gruppen.
+1. Velg **Opprett** for å opprette en gruppe.
+1. Opprett koblingen til gruppen på følgende måte:
+
+    * For nettversjonen av [!INCLUDE [prod_short](includes/prod_short.md)] velger du gruppen i feltet **Navn på AAD-sikkerhetsgruppe**.
+    * For lokal versjon av [!INCLUDE [prod_short](includes/prod_short.md)] velger du gruppen i feltet **Navn på feltet Windows-gruppe**.
 
 > [!NOTE]
 > Brukerne vises bare på **Medlemmer**-kortet i faktaboksen eller siden **Sikkerhetsgruppemedlemmer** hvis de er lagt til som brukere i [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil finne ut mer om å legge til brukere, går du til [Slik legger du til brukere eller oppdaterer brukerinformasjon og lisenstildelinger i Business Central](ui-how-users-permissions.md#adduser).  
 
-### Tildel tillatelser til gruppen
+### Tildel tillatelser til en sikkerhetsgruppe
 
 1. På siden **Sikkerhetsgrupper** velger du gruppen og deretter handlingen **Tillatelser**.
 1. Tildel tillatelser på følgende måter:
+
     * Hvis du vil tildele tillatelsessett enkeltvis, velger du tillatelsene som skal tildeles, i feltet **Tillatelsessett**.
     * Hvis du vil tildele flere tillatelsessett, velger du handlingen **Velg tillatelsessett**, og deretter velger du settene som skal tildeles.
 
@@ -54,7 +54,19 @@ Tillatelser er også tilgjengelige på **Brukere**-siden. Faktaboksen viser kort
 
 ## Sikkerhetsgrupper og brukergrupper
 
-Hvis du har brukergrupper, kan du konvertere gruppene til tillatelsessett i leieren ved å bruke veiledningen for assistert oppsett **Brukergruppeoverføring**. Når du skal starte veiledningen, finner du **Funksjon: Konverter brukergruppetillatelser** på siden **Funksjonsstyring**, og deretter velger du **Alle brukere** i feltet **Aktivert for**. Veiledningen for assistert oppsett inneholder følgende alternativer for konverteringen.
+> [!NOTE]
+> Brukergrupper vil ikke lenger være tilgjengelige i en fremtidig versjon.
+
+Sikkerhetsgrupper ligner veldig på brukergruppene som for øyeblikket er tilgjengelige. Brukergrupper er imidlertid bare relevante for [!INCLUDE [prod_short](includes/prod_short.md)]. Sikkerhetsgrupper er basert på grupper i Azure Active Directory eller Windows Active Directory, avhengig av om du bruker nettversjonen eller den lokale versjonen av [!INCLUDE [prod_short](includes/prod_short.md)]. Grupper er nyttige for administratorer fordi de kan bruke dem med andre Dynamics 365-apper. Hvis selgere for eksempel bruker [!INCLUDE [prod_short](includes/prod_short.md)]og SharePoint, trenger ikke administratorer å opprette gruppen og medlemmene på nytt.
+
+### Valgfritt: Konverter brukergrupper til tillatelsessett
+
+I lanseringsbølge 1 i 2023 og nyere kan du konvertere brukergrupper til tillatelsessett i leieren. Tillatelsessettene har samme funksjonalitet som brukergrupper. Her er noen eksempler:
+
+* Du kan bruke faktaboksen **Brukere** til å administrere tillatelser for brukere.
+* Du kan drille ned på tillatelsessettnavnet for å legge til andre tillatelsessett i settet du arbeider med. Hvis du vil ha mer informasjon, kan du gå til [Slik legger du til andre tillatelsessett](ui-define-granular-permissions.md#to-add-other-permission-sets).
+
+Bruk den assisterte oppsettsveiledningen **Brukergruppeoverføring** til å konvertere gruppene. Når du skal starte veiledningen, finner du **Funksjon: Konverter brukergruppetillatelser** på siden **Funksjonsstyring**, og deretter velger du **Alle brukere** i feltet **Aktivert for**. Veiledningen for assistert oppsett inneholder følgende alternativer for konverteringen.
 
 |Alternativ  |Beskrivelse  |
 |---------|---------|

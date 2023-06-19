@@ -39,7 +39,7 @@ For en oversikt over markeder som støttes på tvers av Dynamics 365, kan du se 
 
 [Registrer deg for en Dynamics 365 Business Central-prøveversjon](trial-signup.md)  
 [Vanlige spørsmål om prøversjonen av Dynamics 365 Business Central](trial-faq.md)  
-[Velkommen til [!INCLUDE[prod_short](includes/prod_long.md)]](index.md)  
+[Velkommen til [!INCLUDE[prod_short](includes/prod_long.md)]](welcome.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Lokal funksjonalitet](about-localization.md)  
 [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
