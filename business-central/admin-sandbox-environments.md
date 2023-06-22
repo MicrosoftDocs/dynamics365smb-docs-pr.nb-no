@@ -11,7 +11,7 @@ ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: solsen
 ---
-# Sandkassemiljøer i [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="sandbox-environments-in-includeprodshortincludesprodshortmd" />Sandkassemiljøer i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] online kan du enkelt få et sikkert miljø der du kan teste, lære opp eller feilsøke uten å forstyrre firmaets arbeidsprosesser eller forretningsdata. Et slikt ikke-produksjonsmiljø kalles en *sandkasse*. Isolert fra produksjon er et sandkassemiljø stedet der du trygt kan utforske, lære, demonstrere, utvikle og teste tjenesten uten risikoen ved å påvirke data og innstillinger i produksjonsmiljøet.  
 
@@ -35,13 +35,13 @@ Sandkassemiljøet er ikke minst nyttig fordi det inneholder et par nyttige funks
 <!--* [Complete sample data](#complete-sample-data)  -->
 * [Utforming](#designer)  
 
-## Avansert brukeropplevelse
+## <a name="advanced-user-experience" />Avansert brukeropplevelse
 
 Det er mulig å aktivere og prøve alle funksjonene i standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] i en sandkasseleietaker ved å sette **Opplevelse**-feltet på **Selskapsopplysninger**-siden til *Premium*. Finn **Selskapsopplysninger**-siden på ikonmenyen for :::image type="content" source="media/ui-experience/settings_icon_small.png" alt-text="Innstillinger-ikon."::: meny.  
 
 Når du har aktivert *Premium*-brukeropplevelsen, får du tilgang til alle standardprofilene (rollene) og rollesentrene i standardversjonen. Alternativt kan du kontakte en videresalgspartner for en demonstrasjon av funksjonene. Hvis du vil ha mer informasjon, kan du se [Hvordan finner jeg en partner for videresalg?](across-faq.yml#how-do-i-find-a-reselling-partner).  
 
-### Fullstendige eksempeldata
+### <a name="complete-sample-data" />Fullstendige eksempeldata
 
 I situasjoner der du trenger flere eksempeldata, kontakter du partneren for videresalg.
 <!-- In the sandbox environment, you can also create a new company with the **Advanced Evaluation - Complete Sample Data** option so that you can take training or step through walkthroughs that require additional sample data, such as [Walkthrough: Receiving and Putting Away in Basic Warehouse Configurations](walkthrough-receiving-and-putting-away-in-basic-warehousing.md).   -->
@@ -56,7 +56,7 @@ I situasjoner der du trenger flere eksempeldata, kontakter du partneren for vide
 
 When the assisted setup guide completes, you can start exploring the new company with the complete sample data. For more information, see [Creating New Companies in [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md).  -->
 
-## Designer
+## <a name="designer" />Designer
 
 I et sandkassemiljø finner du **Designer** aktivert. Du kan aktivere Designer ved å velge designikonet ![Designer.](./media/across-sandbox/sandbox-inclient-design-icon.png) på en side, eller ved å velge **Designer**-menyelementet på ![Innstillinger](media/ui-experience/settings_icon_small.png) menyen Innstillinger.  
 
@@ -64,9 +64,9 @@ Hvis du vil ha mer informasjon, kan du se [Bruk utformingen](/dynamics365/busine
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## Se relatert [Microsoft-opplæring](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/admin-online-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Prøveversjoner og abonnementer for [!INCLUDE[prod_long](includes/prod_long.md)]](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  

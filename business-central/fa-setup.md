@@ -11,7 +11,7 @@ ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Definere aktiva
+# <a name="setting-up-fixed-assets" />Definere aktiva
 
 Før du kan arbeide med aktiva, må du definere et par ting:  
 
@@ -36,9 +36,9 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Lær mer om ulike avskrivningsmetoder for aktiva. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
 | Lær mer om hvordan du bruker brukerdefinerte avskrivningsmetoder. |[Slik definerer du brukerdefinerte avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
-## Se relatert [Microsoft-opplæring](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Se relatert [Microsoft-opplæring](/training/paths/set-up-fixed-assets-management/)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Aktiva](fa-manage.md)  
 [Finans](finance.md)  

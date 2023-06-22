@@ -8,7 +8,7 @@ ms.search.form: '1151, 1155, 1166, 1165'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Legge til selskaper i selskapshuben
+# <a name="add-companies-to-your-company-hub" />Legge til selskaper i selskapshuben
 
 Med selskapshuben kan du få tilgang til arbeidet fra flere selskaper fra flere [!INCLUDE [prod_short](includes/prod_short.md)]-miljøer. Du kan legge til miljøer og selskaper manuelt hvis selskapene ikke vises automatisk i selskapshuben.  
 
@@ -17,7 +17,7 @@ Rett på målsiden for selskapshub finner du **Oppsett**-menyen der du får tilg
 > [!NOTE]
 > Du kan koble selskapssenteret til så mange selskaper du vil. Du kan imidlertid bare koble selskapssenteret til selskaper som er driftet i [!INCLUDE [prod_short](includes/prod_short.md)] på nett.
 
-## Miljøkoblinger
+## <a name="environment-links" />Miljøkoblinger
 
 En miljøkobling er et kort der du angir [!INCLUDE [prod_short](includes/prod_short.md)]-miljøet som er vert for ett eller flere firmaer du arbeider i. Dataene på kortet for hvert miljø angis av deg, og du kan endre dem etter behov. Feltet **Miljøkobling** er avgjørende – det er slik du får tilgang til hvert selskap i [!INCLUDE [prod_short](includes/prod_short.md)]. Bruk handlingen **Test tilkoblingen** på båndet for å teste at du har angitt riktig kobling. Koblingen du må angi, peker til miljø som er vert for selskapet du legger til, og den må inkludere Azure Active Directory (Azure AD)-ID-en eller organisasjonens domenenavn. Hvis de for eksempel har angitt domenet mittfirma.com, vil koblingen til [!INCLUDE [prod_short](includes/prod_short.md)] være ```https://businesscentral.dynamics.com/mybusiness.com?redirectedfromsignup=1```. Ellers vil det se omtrent slik ut: ```https://businesscentral.dynamics.com/1a23b456-789c-0123-45de-678910fg12h/production?redirectedfromsignup=1```  
 
@@ -30,14 +30,14 @@ Koblingen brukes når du velger firmaet i firmahuben.
 >
 > Hvis du har flyttet til det tretti-dagers prøveselskapet, Mitt selskap, kan du legge det til i listen ved å velge handlingen **Last inn på nytt / Last inn alle selskaper på nytt** i listen.
 
-## Last inn selskaper
+## <a name="load-companies" />Last inn selskaper
 
 Når du har lagt til miljøene, vises selskapene automatisk. Hvis du imidlertid vet at et nytt selskap er lagt til i et miljø, kan du velge handlingen **Last inn alle selskaper på nytt** for å oppdatere listen. Bruk samme handling for å oppdatere data fra de forskjellige selskapene dine.  
 
 > [!TIP]
 > Hvis du vil oppdatere dataene i selskapshuben, må du ha tilgang til dataene i selskapene som dataene kommer fra.
 
-## Se også
+## <a name="see-also" />Se også
 
 [Administrere arbeid på tvers av flere selskaper i selskapshuben](company-hub.md)  
 [Ressurser for hjelp og støtte](product-help-and-support.md)  

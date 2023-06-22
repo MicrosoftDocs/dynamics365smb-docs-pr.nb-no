@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ---
 
-# Lever varer med en lagerlevering
+# <a name="ship-items-with-a-warehouse-shipment" />Lever varer med en lagerlevering
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] plukker og leverer du varer ved å bruke en av fire metoder, som beskrevet i tabellen nedenfor.
 
@@ -37,7 +37,7 @@ Du kan opprette en lagerlevering på en av to måter:
 * På en push-måte, når arbeid gjøres på ordre-for-ordre-basis. Velg **Opprett lagerlevering**-handlingen i kildedokumentet for å opprette en lagerlevering for dokumentet.
 * I en pull-måte der du bruker **Frigi**-handlingen i kildedokumentet til å frigi den til lageret. En lageransatt oppretter en **lagerlevering** for et eller flere frigitte kildedokumenter. Følgende fremgangsmåte forklarer hvordan du oppretter lagerlevering på en pull-måte.
 
-## Slik leverer du varer med et lagerleveringsdokument
+## <a name="to-ship-items-using-a-warehouse-shipment-document" />Slik leverer du varer med et lagerleveringsdokument
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerleveringer** og velg den relaterte koblingen.  
 2. Velg **Ny**.  
@@ -74,7 +74,7 @@ Du kan opprette en lagerlevering på en av to måter:
 
     [!INCLUDE [preview-posting-shipment](includes/preview-posting-shipment.md)]
 
-## Bruke filtre til å hente kildedokumenter
+## <a name="how-to-use-filters-to-get-source-documents" />Bruke filtre til å hente kildedokumenter
 
 Fra en lagerlevering kan du bruke siden **Filtre for henting av kildedok** til å hente linjene i det frigitte kildedokument som definerer hvilke varer som skal leveres.
 
@@ -90,14 +90,14 @@ Alle frigitte kildedokumentlinjer som oppfyller filterkriteriene, legges til på
 
 Du kan opprette et ubegrenset antall filterkombinasjoner. Filtrer lagres på siden **Filtre for henting av kildedok**, og de er tilgjengelige neste gang du trenger dem. Du kan når som helst endre kriteriene ved å velge handlingen **Endre**.
 
-## Sone- og hyllekoder
+## <a name="zone-and-bin-codes" />Sone- og hyllekoder
 
 Hvis hyller er obligatoriske på lokasjonen, foreslår [!INCLUDE [prod_short](includes/prod_short.md)] en sone- og hyllekode på lagerleveringsdokumentet.
 
 * Når det gjelder avanserte oppsett der en lokasjon bruker lagerstyring, bruker [!INCLUDE [prod_short](includes/prod_short.md)] hyllen som er angitt i feltet **Hyllekode for levering** på **lokasjonskortet**. Hvis en **hyllekode for levering** ikke er angitt, er feltet tomt. Hvis varen og leveringshyllen ikke samsvarer, lar [!INCLUDE [prod_short](includes/prod_short.md)] leveringshyllen være tom.
 * I andre tilfeller bruker [!INCLUDE [prod_short](includes/prod_short.md)] alltid hyllen som er angitt i feltet **Hyllekode for levering** på **lokasjonskortet** først. Hvis det ikke er angitt en leveringshyllekode, bruker [!INCLUDE [prod_short](includes/prod_short.md)] hyllekoden fra kildedokumentet.
 
-## Håndtere montere-til-ordre-varer i lagerleveringer
+## <a name="handling-assemble-to-order-items-in-warehouse-shipments" />Håndtere montere-til-ordre-varer i lagerleveringer
 
 I montere-til-ordre-scenarier brukes feltet **Levere (antall)** på lagerleveringslinjer til å registrere hvor mange enheter som monteres. Antallet bokføres deretter som monteringsavgang når du bokfører lagerleveringen. Når det gjelder andre lagerfølgeseddellinjer, er verdien i feltet **Levere (antall)** null.
 
@@ -115,9 +115,9 @@ Når du bokfører lagerleveringen, oppdateres forskjellige felt på ordrelinjen 
 >
 > Monter-til-ordre-antallet håndteres som beskrevet i denne artikkelen. Lagerantallet håndteres som en vanlig lagerleveringslinje. Hvis du vil ha mer informasjon om kombinasjonsscenarioer, går du til [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## Se relatert [Microsoft-opplæring](/training/modules/ship-invoice-items-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/ship-invoice-items-dynamics-365-business-central/).
 
-## Se også
+## <a name="see-also" />Se også
 
 [Lager](inventory-manage-inventory.md)  
 [Definer lagerstyring](warehouse-setup-warehouse.md)  

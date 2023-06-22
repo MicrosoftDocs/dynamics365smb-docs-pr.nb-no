@@ -11,7 +11,7 @@ ms.search.form: '15000000, 15000002, 15000004, 15000006, 15000007, 15000010'
 ms.date: 06/18/2021
 ms.author: edupont
 ---
-# Annuller betalinger i den norske versjonen
+# <a name="cancel-payments-in-the-norwegian-version" />Annuller betalinger i den norske versjonen
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] inneholder forbedringer i den norske versjonen, som gjør det mulig å annullere betalinger. Hvis betalingen er sendt til banken, må banken kontaktes, for å sørge for at remitteringen banken har mottatt, blir annullert.  
 
@@ -19,19 +19,19 @@ ms.author: edupont
 
 - En enkeltstående betaling kan annulleres hvis banken ikke kan behandle betalingen, og det må utføres en ny remittering. Du kan også annullere en betaling hvis du ikke vil behandle betalingen. Oppgjorte betalinger kan ikke annulleres.  
 
-## Slik annullerer du et oppdrag:  
+## <a name="to-cancel-a-payment-order" />Slik annullerer du et oppdrag:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Remitteringsoppdrag**, og velg deretter den relaterte koblingen.  
 2. Velg oppdraget, velg **Eksportere**, og velg deretter handlingen **Annullere oppdrag**.  
 3. Velg **Ja**-knappen.  
 
-## Slik annullerer du en betaling:  
+## <a name="to-cancel-a-payment" />Slik annullerer du en betaling:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ventekladd** og velg den relaterte koblingen.  
 2. Velg betalingen, og velg deretter handlingen **Annullere betaling**.  
 3. Velg **Ja**-knappen.  
 
-## Se også
+## <a name="ee-also" />Se også
 
  [Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)   
  [Sette opp remitteringsavtaler](how-to-set-up-remittance-agreements.md)   

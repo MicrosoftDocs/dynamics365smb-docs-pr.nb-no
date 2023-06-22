@@ -8,15 +8,15 @@ author: edupont04
 ms.author: andreipa
 ---
 
-# Gjennomgang: Bruk ordreplanlegging til å opprette og reservere forsyning
+# <a name="walkthrough-use-order-planning-to-create-and-reserve-supply" />Gjennomgang: Bruk ordreplanlegging til å opprette og reservere forsyning
 
 I denne artikkelen tar vi deg gjennom trinnene for å bruke Contoso Coffee-demodataene i ordreplanlegging.
 
-## Scenario
+## <a name="scenario" />Scenario
 
 Du er produksjonsplanleggeren hos Contoso Coffee. Du har opprettet en produksjonsordre for 100 enheter av varen **SP-SCM1009, Airpot**, og du vil planlegge halvfabrikater for denne ordren. Du bruker ordreplanlegging til å opprette den nødvendige produksjonsordren for forsyningen. Siden du oppretter produksjonsordren for å oppfylle kravene til en bestemt ordre, bestemmer du deg for å reservere avgangen for produksjonsordren.  
 
-## Trinn
+## <a name="steps" />Trinn
 
 1. Opprett den nylig frigitte produksjonsordren for 100 enheter av varen **SP-SCM1009, Airpot**.
 
@@ -59,7 +59,7 @@ Du er produksjonsplanleggeren hos Contoso Coffee. Du har opprettet en produksjon
 
 Det er for ordreplanlegging i [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## Se også
+## <a name="see-also" />Se også
 
 [Innføring i demodata for Contoso Coffee](../contoso-coffee-intro.md)  
 [Om produksjonsordrer](../../production-about-production-orders.md)  

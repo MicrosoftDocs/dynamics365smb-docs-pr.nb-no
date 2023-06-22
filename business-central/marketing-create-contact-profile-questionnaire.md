@@ -12,7 +12,7 @@ ms.author: edupont
 ms.date: 05/20/2022
 ---
 
-# Bruke profilspørreskjemaer til å klassifisere forretningskontakter
+# <a name="use-profile-questionnaires-to-classify-business-contacts" />Bruke profilspørreskjemaer til å klassifisere forretningskontakter
 
 Du kan rangere et prospekt slik at du kan identifisere de ideelle prospektene du skal fokusere salgskampanjen på. Du kan definere profilspørreskjemaer du vil bruke når du angir opplysninger om profiler for kontaktene. Du kan definere de ulike spørsmålene du vil spørre kontaktene om, i hvert enkelt spørreskjema. På denne måten kan du gruppere kontakter slik at det blir mer sannsynlig at kampanjene når de riktige personene basert på kriteriene du definerer med spørreskjemaene.  
 
@@ -20,13 +20,13 @@ Med de riktige spørreskjemaene kan du rangere prospektene og gruppere dem i kat
 
 Du kan også kjøre spørreskjemaet for å besvare noen av spørsmålene automatisk basert på data om kontakter, kunder eller leverandører.  
 
-## Slik legger du til et profilspørreskjema:
+## <a name="to-add-a-profile-questionnaire" />Slik legger du til et profilspørreskjema:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Spørreskjemaoppsett**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Slik legger du til spørsmål i et profilspørreskjema:
+## <a name="to-add-questions-to-a-profile-questionnaire" />Slik legger du til spørsmål i et profilspørreskjema:
 
 1. Velg det aktuelle profilspørreskjemaet, og velg handlingen **Rediger spørreskjemaoppsett**.  
 2. På den første tomme linjen, i **Type**-feltet, velger du **Spørsmål** og skriver inn spørsmålet i **Beskrivelse**-feltet. Fyll ut de andre feltene på denne linjen.  
@@ -61,11 +61,11 @@ Når du har opprettet et spørreskjema, kan du bruke det til å vurdere og klass
 > [!NOTE]
 > Hvis du angir et spørsmål som skal besvares automatisk, velger du **Linje**, og deretter velger du **Spørsmålsopplysninger** for å angi hvilke kriterier som skal brukes til å besvare spørsmålet.
 
-## Bruk spørreskjemaer på kontakter
+## <a name="apply-questionnaires-to-contacts" />Bruk spørreskjemaer på kontakter
 
 Du kan bruke spørreskjemaene på kontakter manuelt. Åpne det relevante kontaktkortet, og velg deretter handlingen **Profil**. Så snart du har brukt spørreskjemaene du vil bruke, kan du begynne å bruke kategoriene i kampanjene.  
 
-## Automatisk klassifisering av kontakter
+## <a name="the-automatic-classification-of-contacts" />Automatisk klassifisering av kontakter
 
 Du kan klassifisere kontaktene automatisk etter opplysninger om kunde, leverandør og kontakt. Det gjør du ved å definere automatisk besvarte profilspørsmål på siden **Profilspørreskjema - oppsett**.  
 
@@ -74,7 +74,7 @@ Du kan klassifisere kontaktene automatisk etter opplysninger om kunde, leverand�
 
 Etter at du har definert automatisk besvaring av profilspørsmål, tilordner [!INCLUDE[prod_short](includes/prod_short.md)] automatisk riktige svar for en kontakt hvis du tilordner profilspørreskjemaet som inneholder disse spørsmålene, til kontakten.  
 
-## Eksempel
+## <a name="example" />Eksempel
 
 Du kan klassifisere kontakter etter hvor mye de handler:
 
@@ -102,7 +102,7 @@ Fyll deretter ut siden **Profilspørsmålsopplysninger** på følgende måte:
 
 Når du tilordner profilspørreskjemaet som inneholder dette spørsmålet, til en kontakt, angir programmet automatisk riktig svar for denne kontakten på profillinjene på kontaktkortet.
 
-## Se også
+## <a name="see-also" />Se også
 
 [Opprette kontakter](marketing-create-contact-companies.md)  
 

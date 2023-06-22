@@ -12,17 +12,17 @@ ms.date: 04/01/2021
 ms.author: andreipa
 ---
 
-# Gjennomgang av inngående og utgående flyt i blandede lageroppsett
+# <a name="walkthrough-of-inbound-and-outbound-flow-in-mixed-warehouse-configurations" />Gjennomgang av inngående og utgående flyt i blandede lageroppsett
 
 Denne gjennomgangen viser hvordan du fullfører inngående og utgående flyter i blandet oppsett, der inngående flytlager er konfigurert som Grunnleggende: ordre for ordre og for utgående flyt Avansert oppsett brukes. Hvis du vil ha mer informasjon, kan du se [Oversikt over ulike konfigurasjonsalternativer](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## Forutsetninger  
+## <a name="prerequisites" />Forutsetninger
 Hvis du vil fullføre denne gjennomgangen, må du gjøre deg til lageransatt på lokasjonen *GUL* ved å følge disse trinnene:  
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lageransatte**, og velg deretter den relaterte koblingen.  
 2. Velg feltet **Bruker-ID**, og velg din egen brukerkonto på siden **Brukere**.  
 3. Skriv inn *GUL* i feltet **Lokasjonskode**.  
 
-## Inngående flyt: Mottak og plassering i grunnleggende lageroppsett
+## <a name="inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations" />Inngående flyt: Mottak og plassering i grunnleggende lageroppsett
 
 I [!INCLUDE[prod_short](../../includes/prod_short.md)] kan de inngående prosessene for mottak og plassering utføres på fire måter ved hjelp av forskjellige funksjoner avhengig av kompleksitetsnivået til lageret.  
 
@@ -37,10 +37,10 @@ Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Inngående lagerflyt]
 
 Følgende gjennomgangen demonstrerer metoden C i forrige tabell.  
 
-### Scenario  
+### <a name="scenario" />Scenario
 Innkjøperen Alicia oppretter bestillinger for ulike brente bønner etter behov. Når kombinert levering ankommer til lageret, mottar og plasserer lagermedarbeideren John varene. Når John bokfører mottaket, bokføres varene som mottatt på lageret og tilgjengelig for salg eller andre behov.  
 
-### Trinn
+### <a name="steps" />Trinn
 1. Definer siden **Lokasjonskort** for å definere selskapets inngående lagerflyter.  
 
     1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 2.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
@@ -69,7 +69,7 @@ Innkjøperen Alicia oppretter bestillinger for ulike brente bønner etter behov.
     4. I den andre linjen endrer du verdien i feltet **Motta (antall)** fra *200* til *190*.
     5. Velg handlingen **Bokfør mottak**.
 
-### Resultater 
+### <a name="results" />Resultater
  - de brente bønnene er nå registrert som plassert
  - det **bokførte lagermottaket** opprettes
  - det **bokførte kjøpsmottaket** opprettes
@@ -77,7 +77,7 @@ Innkjøperen Alicia oppretter bestillinger for ulike brente bønner etter behov.
  - **varelageret** økes med det valgte antallet
     
 
-## Utgående flyt: Plukking og levering i avansert lageroppsett
+## <a name="outbound-flow-picking-and-shipping-in-advanced-warehouse-configurations" />Utgående flyt: Plukking og levering i avansert lageroppsett
 
 I [!INCLUDE[prod_short](../../includes/prod_short.md)] kan de utgående prosessene for plukking og levering utføres på fire måter ved hjelp av forskjellige funksjoner avhengig av kompleksitetsnivået til lageret.  
 
@@ -92,10 +92,10 @@ Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Utgående lagerflyt](
 
 Følgende gjennomgangen demonstrerer metoden D i forrige tabell.
 
-### Scenario  
+### <a name="scenario" />Scenario
 Ordrebehandleren Susan oppretter ordrer for ulike brente bønner og sender den til lager. Siden alle ordrene kommer fra samme kunde, bestemmer lagerlederen Ellen at de skal sendes sammen. John, lagermedarbeideren, må kontrollere at forsendelsen klargjøres og leveres til kunden.
 
-### Trinn
+### <a name="steps" />Trinn
 Dette er en fortsettelse av [Inngående flyt: Mottak og plassering i grunnleggende lageroppsett](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Frigi ordrer til lager.  
@@ -137,7 +137,7 @@ Dette er en fortsettelse av [Inngående flyt: Mottak og plassering i grunnleggen
     4. Velg handlingen **Bokfør levering**.
     5. Bekreft **Levering**-alternativet.
 
-### Resultater
+### <a name="results" />Resultater
  - de brente bønnene er nå registrert som plukket 
  - det **registrerte lagerplukket** opprettes
  - den **bokførte lagerleveringen** opprettes
@@ -146,7 +146,7 @@ Dette er en fortsettelse av [Inngående flyt: Mottak og plassering i grunnleggen
  - **varelageret** reduseres med det valgte antallet
 
 
-## Se også
+## <a name="see-also" />Se også
 [Motta varer](../../warehouse-how-receive-items.md)
 [Definer grunnleggende lagre med operasjonsområder](../../warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)
 [Utformingsdetaljer: Inngående lagerflyt](../../design-details-inbound-warehouse-flow.md)

@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
-# Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams
+# <a name="install-the-include-prodshortincludesprodshortmd-app-for-microsoft-teams" />Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -20,7 +20,7 @@ I denne artikkelen lærer du hvordan du installerer [!INCLUDE [prod_short](inclu
 > [!NOTE]
 > Administratoren har kanskje ordnet det slik at appen installeres automatisk. Hvis du vil kontrollere om appen er installert, åpner du Teams og velger **Apper**. Søk etter **Business Central**, og velg den når du finner den. Hvis du ser **Åpne** på siden **Business Central**, er appen allerede installert.  
 
-## Forutsetninger
+## <a name="prerequisites" />Forutsetninger
 
 - En brukerkonto for [!INCLUDE [prod_short](includes/prod_short.md)] Online er nødvendig for [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Teams.
 
@@ -30,7 +30,7 @@ I denne artikkelen lærer du hvordan du installerer [!INCLUDE [prod_short](inclu
 
 - Organisasjonens policyer må tillate at du installerer apper i Microsoft Teams.
 
-## Legge til Business Central-appen i Teams
+## <a name="add-the-business-central-app-to-teams" />Legge til Business Central-appen i Teams
 
 Du kan installere Business Central-appen på tre måter:
 
@@ -67,11 +67,11 @@ Dette alternativet er den raskeste måten å installere appen på.
 > [!NOTE]
 > Du vil kanskje bli bedt om å logge deg på [!INCLUDE [prod_short](includes/prod_short.md)]. Velg koblingen **Logg på**, og følg instruksjonene for å skrive inn påloggingsnavn og passord for [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## Neste trinn
+## <a name="next-step" />Neste trinn
 
 Du er nå klar til å bruke appen i Teams for å søke etter kontakter eller dele Business Central-oppføringer. Hvis du vil ha mer informasjon, kan du se [Søke etter kunder, leverandører og andre kontakter fra Microsoft Teams](across-search-contacts-teams.md) eller [Del oppføringer i Microsoft Teams](across-working-with-teams.md).
 
-## Se også
+## <a name="see-also" />Se også
 
 [Oversikt over Business Central og Microsoft Teams-integrering](across-teams-overview.md)  
 [Vanlige spørsmål om Teams](teams-faq.md)  
@@ -80,7 +80,7 @@ Du er nå klar til å bruke appen i Teams for å søke etter kontakter eller del
 [Utvikle for Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

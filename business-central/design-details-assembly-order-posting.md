@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Designdetaljer: Bokføre monteringsordre
+# <a name="design-details-assembly-order-posting" />Designdetaljer: Bokføre monteringsordre
 Monteringsordrebokføring er basert på de samme prinsippene som ved bokføring av lignende aktiviteter for salgsordrer og produksjonsforbruk/-avgang. Prinsippene kombineres imidlertid slik at monteringsordrer har sine egne brukergrensesnitt for bokføring, som for salgsordrer, mens den faktiske bokføringen skjer i bakgrunnen som direkte vare- og ressurskladdbokføringer, som for produksjonsforbruk, avgang og kapasitet.  
 
 De forbrukte komponentene og de brukte ressursene konverteres og avgis som monteringsvaren når monteringsordren bokføres, på lignende måte som ved bokføring av produksjonsordrer. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføre produksjonsordre](design-details-production-order-posting.md). Kostnadsflyten for monteringsordrer er imidlertid mindre komplisert, spesielt fordi bokføring av monteringskost bare forekommer én gang og derfor ikke genererer lager for varer i arbeid.  
@@ -33,7 +33,7 @@ Diagrammet nedenfor viser hvordan monteringsdata flyter inn i poster under bokf�
 
 ![Monteringsrelatert oppføringsflyt under bokføring.](media/design_details_assembly_posting_2.png "Monteringsrelatert oppføringsflyt under bokføring")  
 
-## Bokføringsrekkefølge  
+## <a name="posting-sequence" />Bokføringsrekkefølge
 Bokføringen av en monteringsordre skjer i følgende rekkefølge:  
 
 1.  Monteringsordrelinjene bokføres.  
@@ -49,12 +49,12 @@ Tabellen nedenfor gir en oversikt over handlingssekvensen.
 > [!IMPORTANT]  
 >  Monteringsavgang bokføres med faktisk kostnad, i motsetning til produksjonsavgang, som bokføres med forventet kostnad.  
 
-## Kostjustering  
+## <a name="cost-adjustment" />Kostjustering
  Når en monteringsordre er bokført, noe som betyr at komponenter (materiale) og ressurser er montert til en ny vare, skal det være mulig å fastslå faktisk kost for monteringsvaren og faktisk lagerkost for de involverte komponentene. Dette gjøres ved å videresende kostnader fra de bokførte postene i kilden (komponentene og ressursene) til de bokførte postene i målet (monteringsvaren). Kostnader videresendes ved å beregne og generere nye poster kalt justeringsposter, som blir knyttet til målpostene.  
 
  Monteringskostnadene som skal videresendes, oppdages med gjenkjenningsmekanismen for ordrenivå. Hvis du vil ha informasjon om andre mekanismer for gjenkjenning av justering, kan du se [Designdetaljer: Kostjustering](design-details-cost-adjustment.md).  
 
-### Registrere justeringen  
+### <a name="detecting-the-adjustment" />Registrere justeringen
 Gjenkjenningsfunksjonen for ordrenivå brukes i konverteringsscenarier, produksjon og montering. Funksjonen fungerer som følger:  
 
 -   Kostjustering registreres ved å merke ordren hver gang et materiale / en ressurs bokføres som forbrukt/brukt.  
@@ -64,7 +64,7 @@ Figuren nedenfor viser justeringspoststrukturen og hvordan monteringskostnader j
 
 ![Monteringsrelatert oppføringsflyt under kostjustering.](media/design_details_assembly_posting_3.png "Monteringsrelatert oppføringsflyt under bokføring")  
 
-### Utføre justeringen  
+### <a name="performing-the-adjustment" />Utføre justeringen
 Spredningen av oppdagede justeringer fra material- og ressurskostpriser til monteringsavgangsposter utføres av kjørselen **Juster kostverdi – vareposter**. Den inneholder funksjonen for å justering flere nivåer, som består av følgende to elementer:  
 
 -   Utfør monteringsordrejustering – som videresender kostnader fra material- og ressursbruk til monteringsavgangsposten. Linje 5 og 6 i algoritmen nedenfor er ansvarlige for dette.  
@@ -77,7 +77,7 @@ Spredningen av oppdagede justeringer fra material- og ressurskostpriser til mont
 
 Hvis du vil ha informasjon om hvordan kostnader fra montering og produksjon bokføres i Finans, kan du se [Designdetaljer: Lagerbokføring](design-details-inventory-posting.md).  
 
-## Monteringskostnader er alltid faktiske  
+## <a name="assembly-costs-are-always-actual" />Monteringskostnader er alltid faktiske
  Begrepet om varer i arbeid (VIA) gjelder ikke i bokføring av monteringsordrer. Monteringskostnader bokføres bare som faktiske kostnader, aldri som forventede kostnader. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføre forventet kost](design-details-expected-cost-posting.md).  
 
 Følgende datastruktur gjør dette mulig.  
@@ -95,21 +95,21 @@ I tillegg blir bokføringsgruppefelt i monteringsordrehodet og monteringsordreli
 
 Bare faktiske kostnader blir derfor postert til finans, og ingen midlertidige konti fylles ut fra bokføring av monteringsordrer. Hvis du vil ha mer informasjon, se [Designdetaljer: Konti i Finans](design-details-accounts-in-the-general-ledger.md).  
 
-## Monter til ordre  
+## <a name="assemble-to-order" />Monter til ordre
 Vareposten som er et resultat av bokføring av et montere-til-ordre-salg, blir fast utlignet mot den relaterte vareposten for monteringsavgangen. Kostnaden for et montere til ordre-salg er på samme måte avledet fra monteringsordren den var koblet til.  
 
 Vareposter av typen Salg som stammer fra bokføring av montere-til-ordre-antallet, er merket med **Ja** i feltet **Monter til ordre**.  
 
 Bokføring av ordrelinjer der en del er lagerantall og en annen del er montere-til-ordre-antall fører til separate vareposter, én for lagerantallet og én for montere-til-ordre-antallet.  
 
-### Bokføringsdatoer
+### <a name="posting-dates" />Bokføringsdatoer
 
 Bokføringsdatoer kopieres fra en salgsordre til den koblede monteringsordren. Bokføringsdatoen i monteringsordren oppdateres automatisk når du endrer bokføringsdatoen i salgsordren direkte eller indirekte, for eksempel hvis du endrer bokføringsdatoen i lagerleveringen, lagerplukk eller som en del av en massebokføring.
 
 Du kan endre bokføringsdatoen i monteringsordren manuelt. Det kan imidlertid ikke være senere enn bokføringsdato i den tilknyttede salgsordren. Systemet beholder denne datoen med mindre du oppdaterer bokføringsdatoen i salgsordren.
 
 
-## Se også  
+## <a name="see-also" />Se også
  [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)   
  [Designdetaljer: Bokføre produksjonsordre](design-details-production-order-posting.md)   
  [Designdetaljer: Kostmetoder](design-details-costing-methods.md)  

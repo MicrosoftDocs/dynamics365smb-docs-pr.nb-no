@@ -10,14 +10,14 @@ ms.search.keywords: null
 ms.date: 09/15/2022
 ms.author: edupont
 ---
-# Se Planlegge med/uten lokasjoner.
+# <a name="planning-with-or-without-locations" />Se Planlegge med/uten lokasjoner.
 
 Før du begynner å bruke planleggingsmotoren, anbefales det at du avgjør om du vil bruke lokasjoner. Det finnes to hovedmåter på en enkel måte:
 
 * behovslinjene alltid inneholder lokasjonskoder og systemet fullt ut bruker lagerføringsenheter, inkludert det relevante lokasjonsoppsettet. Finn ut mer på [Behov i lokasjon](#demand-at-location).  
 * Behovslinjer inneholder aldri lokasjonskoder og systemet bruker varekortet. Se scenarioet [Behov ved en tom lokasjon](#demand-at-blank-location) nedenfor.
 
-## Behov i lokasjon  
+## <a name="demand-at-location" />Behov i lokasjon
 
 Når planleggingssystemet oppdager behov i en lokasjon (en linje med en lokasjonskode), fungerer det på ulike måter avhengig av 2 viktige oppsettsverdier.  
 
@@ -53,7 +53,7 @@ Se variasjoner i [scenarioene nedenfor](#scenarios).
 >
 > Du kan også definere dette for en bestemt LFE ved å velge en annen lokasjonskode i feltet **Komponenter ved lokasjon** på LFE-kortet. Vær imidlertid oppmerksom på at dette sjelden gir mening ettersom planleggingslogikken kan bli fordreid når du planlegger for LFE-komponenten.
 
-## Behov i tom lokasjon
+## <a name="demand-at-blank-location" />Behov i tom lokasjon
 
 Når planleggingssystemet oppdager behov i en tom lokasjon (en linje uten lokasjonskode), planlegges varen vanligvis i henhold til planleggingsparameterne på varekortet.
 
@@ -63,75 +63,75 @@ Feltet **Lokasjon obligatorisk** på siden **Lageroppsett** og feltet **Komponen
 * En lagerføringsenhet finnes for den planlagte varen.
 * Feltet **Lokasjon obligatorisk** er valgt.
 
-## Scenarier
+## <a name="scenarios" />Scenarier
 
 Se variasjoner i oppsettsscenariene nedenfor.
 
-### Oppsett 1
+### <a name="setup-" />Oppsett 1
 
 * Lokasjon obligatorisk = *Ja*  
 * SKU defineres for *VEST*  
 * Komponenter ved lokasjon = *ØST*  
 
-#### Eksempel 1.1: Behovet er i *VEST* lokasjon
+#### <a name="case--demand-is-at-west-location" />Eksempel 1.1: Behovet er i *VEST* lokasjon
 
 Varen planlegges i henhold til planleggingsparametrene på LFE-kortet (inkludert mulig overføring).
 
-#### Eksempel 1.2: Behovet er i *ØST* lokasjon
+#### <a name="case--demand-is-at-east-location" />Eksempel 1.2: Behovet er i *ØST* lokasjon
 
 Varen planlegges i henhold til planleggingsparameterne på varekortet.
 
-#### Eksempel 1.3: Behovet er i *NORD* lokasjon
+#### <a name="case--demand-is-at-north-location" />Eksempel 1.3: Behovet er i *NORD* lokasjon
 
 Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* ( *Ordre* forblir *Ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
 
-#### Eksempel 1.4: Behovet er i *TOM* lokasjon
+#### <a name="case--demand-is-at-blank-location" />Eksempel 1.4: Behovet er i *TOM* lokasjon
 
 Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* ( *Ordre* forblir *Ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
 
-### Oppsett 2
+### <a name="setup-" />Oppsett 2
 
 * Lokasjon obligatorisk = *Ja*  
 * LFE finnes ikke  
 * Komponenter ved lokasjon = *ØST*  
 
-#### Eksempel 2.1: Behovet er i *VEST* lokasjon
+#### <a name="case--demand-is-at-west-location" />Eksempel 2.1: Behovet er i *VEST* lokasjon
 
 Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* ( *Ordre* forblir *Ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
 
-#### Eksempel 2.2: Behovet er i *ØST* lokasjon
+#### <a name="case--demand-is-at-east-location" />Eksempel 2.2: Behovet er i *ØST* lokasjon
 
 Varen planlegges i henhold til planleggingsparameterne på varekortet.  
 
-### Oppsett 3
+### <a name="setup-" />Oppsett 3
 
 * Lokasjon obligatorisk = *Nei*  
 * LFE finnes ikke  
 * Komponenter ved lokasjon = *ØST*  
 
-#### Eksempel 3.1: Behovet er i *VEST* lokasjon
+#### <a name="case--demand-is-at-west-location" />Eksempel 3.1: Behovet er i *VEST* lokasjon
 
 Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* ( *Ordre* forblir *Ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
 
-#### Eksempel 3.2: Behovet er i *ØST* lokasjon
+#### <a name="case--demand-is-at-east-location" />Eksempel 3.2: Behovet er i *ØST* lokasjon
 
 Varen planlegges i henhold til planleggingsparameterne på varekortet.  
 
-#### Eksempel 3.3: Behovet er i *TOM* lokasjon
+#### <a name="case--demand-is-at-blank-location" />Eksempel 3.3: Behovet er i *TOM* lokasjon
 
 Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* ( *Ordre* forblir *Ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
 
-### Oppsett 4
+### <a name="setup-" />Oppsett 4
 
 * Lokasjon obligatorisk = *Nei*  
 * LFE finnes ikke  
 * Komponenter ved lokasjon = *TOM*  
 
-#### Eksempel 4.1: Behovet er i *ØST* lokasjon
+#### <a name="case--demand-is-at-east-location" />Eksempel 4.1: Behovet er i *ØST* lokasjon
 
 Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* ( *Ordre* forblir *Ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
 
-#### Eksempel 4.2: Behovet er i *TOM* lokasjon
+#### <a name="case--demand-is-at-blank-location" />Eksempel 4.2: Behovet er i *TOM* lokasjon
 
 Varen planlegges i henhold til planleggingsparameterne på varekortet.
 
@@ -139,9 +139,9 @@ Som du ser i det siste scenariet, kan du bare få et riktig resultat for en beho
 
 Hvis du ofte planlegger for behov ved lokasjoner, anbefaler vi derfor at du bruker funksjonen Lagerføringsenheter.
 
-## Se relatert opplæring på [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics--business-central" />Se relatert opplæring på [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
-## Se også
+## <a name="see-also" />Se også
 
 [Planlegging](production-planning.md)  
 [Konfigurer produksjon](production-configure-production-processes.md)  

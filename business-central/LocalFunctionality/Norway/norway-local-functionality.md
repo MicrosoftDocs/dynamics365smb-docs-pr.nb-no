@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# Norge Lokal funksjonalitet i den norske versjonen
+# <a name="norway-local-functionality-in-the-norwegian-version" />Norge Lokal funksjonalitet i den norske versjonen
 
 Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## Funksjonstilgjengelighet
+## <a name="feature-availability" />Funksjonstilgjengelighet
 
 * Merverdiavgift
     * [Administrere SAF-T (norsk standard revisjonsfil – avgift)](ui-extensions-setup-and-generate-saf-t-files-no.md) **Tilgjengelig nå**
@@ -75,14 +75,14 @@ Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske v
  [Recurring Orders](recurring-orders.md)  
  -->
  
-## Framtidige krav til lovgivning undersøkes
+## <a name="future-legislation-requirements-being-investigated" />Framtidige krav til lovgivning undersøkes
 
 * Nyutformet og oppgradert ikke-fradragsberettiget mva. **juli 2023**
 
 Hvis du vet om kommende forskriftsmessige funksjoner, kan du sende et [varsel om forskriftmessig funksjon](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 
-## Se også
+## <a name="see-also" />Se også
 
 [Arbeid med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

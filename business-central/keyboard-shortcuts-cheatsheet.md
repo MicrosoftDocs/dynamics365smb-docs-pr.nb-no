@@ -11,9 +11,9 @@ ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# Hurtigreferanse for tastatursnarveier – bare PC
+# <a name="keyboard-quick-reference---pc-only" />Hurtigreferanse for tastatursnarveier – bare PC
 
-#### Generelt
+#### <a name="general" />Generelt
 
 |Velg disse tastene|Hvis du vil gjøre dette|  
 |-|-|
@@ -39,7 +39,7 @@ ms.custom: bap-template
 |<kbd>Tab</kbd>/<kbd>Skift</kbd>+<kbd>Tab</kbd>|Flytte fokus til neste/forrige element|
 |<kbd>F6</kbd>/<kbd>Skift</kbd>+<kbd>F6</kbd>|Flytt til neste hurtigfane/del|
 
-#### Navigere og velge rader
+#### <a name="navigate--select-rows" />Navigere og velge rader
 
 |Velg disse tastene|Hvis du vil gjøre dette|
 |-|-|
@@ -53,14 +53,14 @@ ms.custom: bap-template
 |<kbd>Skift</kbd>+<kbd>Page Up</kbd>/<kbd>Down</kbd>|Velge synlige rader over/under|
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Fokuserer ut fra listen|
 
-#### Kopier og lim inn
+#### <a name="copy--paste" />Kopier og lim inn
 
 |Velg disse tastene|Hvis du vil gjøre dette|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Kopier / lim inn rader|
 |<kbd>F8</kbd>|Kopiere feltet over til gjeldende rad|
 
-#### Søk, filtrer og sorter
+#### <a name="search-filter--sort" />Søk, filtrer og sorter
 
 |Velg disse tastene|Hvis du vil gjøre dette|
 |-|-|
@@ -71,20 +71,20 @@ ms.custom: bap-template
 |<kbd>Skift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Legg til filter for valgt felt|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Skift</kbd>+<kbd>F3</kbd>|Tilbakestill filtre|
 
-#### Hurtigoppføring
+#### <a name="quick-entry" />Hurtigoppføring
 
 |Velg disse tastene|Hvis du vil gjøre dette|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Skift</kbd>+<kbd>Enter</kbd>|Gå til neste hurtigoppføringsfelt utenfor en liste|
 |<kbd>Enter</kbd>/<kbd>Skift</kbd>+<kbd>Enter</kbd>|Gå til neste/forrige hurtigoppføringsfelt|
 
-##### Forhåndsvisning av rapport
+##### <a name="report-preview" />Forhåndsvisning av rapport
 
 |Velg disse tastene|Hvis du vil gjøre dette|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>End</kbd>|Gå til den første/siste siden|
 
-#### Numerisk tastatur
+#### <a name="numeric-keypad" />Numerisk tastatur
 
 |Velg disse tastene|Hvis du vil gjøre dette|  
 |-|-|

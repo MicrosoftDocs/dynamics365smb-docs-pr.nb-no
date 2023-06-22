@@ -10,7 +10,7 @@ ms.date: 01/26/2023
 ms.custom: bap-template
 ---
 
-# Konfigurer skrivere for Universell utskrift
+# <a name="set-up-universal-print-printers" />Konfigurer skrivere for Universell utskrift
 
 Universell utskrift er en tjeneste basert på et Microsoft 365-abonnement som kjører på Microsoft Azure. Den gir deg sentralisert utskriftsbehandling via portalen for Universell utskrift. [!INCLUDE[prod_short](includes/prod_short.md)] gjør at skrivere som er konfigurert med Universell utskrift, tilgjengelige for klientbrukere via utvidelsen **Integrering med Universell utskrift**.
 
@@ -21,7 +21,7 @@ Hele installasjonsprogrammet krever at du arbeider både i Microsoft Azure, ved 
 1. I Microsoft Azure kan du konfigurere Universell utskrift og legger til skrivere som du vil bruke i Business Central til en utskriftsdeling. Gå til [denne delen](#set-up-universal-print-and-printers-in-microsoft-azure).
 2. I [!INCLUDE[prod_short](includes/prod_short.md)] legger du til skriverne fra skriverdelingene i Universell utskrift. Gå til [denne delen](#add-printers-in-business-central-online) for nettversjonen eller [hit](#add-printers-in-business-central-on-premises) for den lokale versjonen.
 
-## Forutsetninger
+## <a name="prerequisites" />Forutsetninger
 
 - Støttede skrivere
 
@@ -55,7 +55,7 @@ Hele installasjonsprogrammet krever at du arbeider både i Microsoft Azure, ved 
 
     Slik registrerer du en app og angir de riktige tillatelsene, følger du fremgangsmåten som er beskrevet i [Registrere en applikasjon i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
 
-## Konfigurer Universell utskrift og skrivere i Microsoft Azure
+## <a name="set-up-universal-print-and-printers-in-microsoft-azure" />Konfigurer Universell utskrift og skrivere i Microsoft Azure
 
 Før du kan begynne å administrere skrivere for Universell utskrift i Business Central, er det flere oppgaver for å få Universell utskrift til å fungere i Azure med de skriverne du vil bruke.
 
@@ -108,7 +108,7 @@ Hvis du vil ha detaljerte instruksjoner om hvordan du konfigurerer, kan du se [K
 
 Nå er du klar til å legge til skriverne i [!INCLUDE[prod_short](includes/prod_short.md)], konfigurerer du standardskrivere for rapporter og utskrift.  
 
-## Legg til skrivere i nettversjonen av Business Central
+## <a name="add-printers-in-business-central-online" />Legg til skrivere i nettversjonen av Business Central
 
 Når skrivere er satt opp og delt med Universell utskrift, er du klar til å legge dem til i [!INCLUDE[prod_short](includes/prod_short.md)] for bruk. Du kan legge til skrivere for Universell utskrift på to måter. Du kan legge til skriverne samtidig eller enkeltvis, én om gangen.
 
@@ -131,7 +131,7 @@ Når du legger til skrivere enkeltvis, kan du konfigurere den samme skriveren fo
 
 Når du har lagt til en skriver, kan du vise og endre innstillingene fra siden **Utskriftsbehandling**. Det er bare å velge skriveren, og deretter velger du **Rediger skriverinnstillinger**.
 
-## Legg til skrivere i den lokale versjonen av Business Central
+## <a name="add-printers-in-business-central-on-premises" />Legg til skrivere i den lokale versjonen av Business Central
 
 <!--With [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, unlike online, users aren't automatically authenticated with the registered app in Azure used for the Universal Print service. So, before any Business Central user (including admins) can add or even use Universal Print printers, they'll have to authenticate with the Azure app and grant access to the Universal Print service. The following procedure describes how to initiate this authentication flow. Each user typically only has to do this task once.-->
 
@@ -147,7 +147,7 @@ Dette gjøres vanligvis første gang de kobler seg til den Azure-registrerte app
 > Hvis du er en administrator, anbefaler vi at du fullfører denne oppgaven før andre brukere. Deretter må du varsle brukere som må bruke Universell utskrift-skrivere, hvordan de gjør det. Hvis den Azure-registrerte appen for Universell utskrift krever administratorsamtykke for API-tillatelser, er det enklere hvis du gir samtykke på vegne av organisasjonen. Du kan gi administratorsamtykke fra Azure Portal eller når du kjører trinnene som følger. 
 
 <!-- To Do Adding printers individually lets you duplicate printers with custom , like different paper trays and paper size and orientation.  To add printers individually, you'll need to know printer's share name in Universal Print. -->
-### Koble til Universell utskrift for første gang
+### <a name="connect-to-universal-print-for-the-first-time" />Koble til Universell utskrift for første gang
 
 Følg disse trinnene for å koble til Universell utskrift-tjenesten for første gang.
 
@@ -173,11 +173,11 @@ Når du har lagt til en skriver, kan du vise og endre innstillingene fra siden *
 
 Når du har fullført den innledende påloggingen, kan du bruke Universell utskrift-skriverne til å skrive ut rapporter og andre utskriftsjobber. Hvis du vil ha mer informasjon, går du til [Skriv ut en rapport](ui-work-report.md#PrintReport). Hvis du vil legge til, fjerne eller endre skrivere, går du tilbake til siden **Utskriftsbehandling** og velger **Universell utskrift**.
 
-## Vanlige problemer og løsninger
+## <a name="common-problems-and-resolutions" />Vanlige problemer og løsninger
 
 I denne delen lærer du om de vanligste problemene som brukere kan oppleve under forsøk på å konfigurere eller bruke Universell utskrift-skrivere.
 
-### Du har ikke tilgang til skriveren \<your-printer\>.
+### <a name="you-dont-have-access-to-the-printer-your-printer" />Du har ikke tilgang til skriveren \<your-printer\>.
 
 Hvis en bruker får denne meldingen når de prøver å skrive ut et dokument til en Universell utskrift-skriver, kan det være forårsaket av et av følgende forhold:
 
@@ -186,17 +186,17 @@ Hvis en bruker får denne meldingen når de prøver å skrive ut et dokument til
 - (Lokalt) Azure-appregistreringen som brukes for Universell utskrift, fungerer ikke eller er nylig endret siden forrige gang brukeren logget seg på.
 - (Lokalt) Brukeren har ikke logget seg på Azure-registrert app for Universell utskrift-app og er samtykket for første gang.
 
-## Det oppstod en feil under henting av skrivere som er delt til deg.
+## <a name="there-was-an-error-fetching-printers-shared-to-you" />Det oppstod en feil under henting av skrivere som er delt til deg.
 
 Hvis en bruker får denne meldingen når de prøver å legge til en Universell utskrift-skriver fra siden **Utskriftsbehandling**, er det vanligvis fordi de ennå ikke er logget på Azure-registrert app for Universell utskrift-app og er samtykket for første gang. 
 <!--
-### Troubleshooting
+### <a name="troubleshooting" />Troubleshooting
 
-#### You don't see the a printer in the 
+#### <a name="you-dont-see-the-a-printer-in-the" />You don't see the a printer in the
 
 The printer is not shared in Universal Print.
 
-### You get an error when tryong to add all or a single printer
+### <a name="you-get-an-error-when-tryong-to-add-all-or-a-single-printer" />You get an error when tryong to add all or a single printer
 
 You have'nt been assigned a Uincersla Print license.
 
@@ -204,7 +204,7 @@ There was an error fetching printers shared to you. You don't have access to the
 or 
 You don't seem to have access to Universal Print. Make sure you have a Universal Print subscription, and that your account has been assigned a Universal Print license.
 
-## Could not upload the document to print job 50.
+## <a name="could-not-upload-the-document-to-print-job-" />Could not upload the document to print job 50.
 
 There is a technical problem withe the printer. Unsupported document-format: application/pdf. Supported formats: Attribute document-format-supported: SimpleIppValue-Type:MimeMediaType-Value:application/oxps
 
@@ -213,10 +213,10 @@ There is a technical problem withe the printer. Unsupported document-format: app
 
 -->
 
-## Neste trinn
+## <a name="next-steps" />Neste trinn
 [Konfigurer standardskrivere](ui-specify-printer-selection-reports.md).
 
-## Se også
+## <a name="see-also" />Se også
 
 [Oversikt over skrivere](admin-printer-setup-overview.md)  
 [Konfigurer e-postskrivere](admin-printer-setup-email.md)

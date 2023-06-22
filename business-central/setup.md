@@ -10,7 +10,7 @@ ms.search.keywords: 'configure, initialize'
 ms.date: 09/27/2022
 ms.author: edupont
 ---
-# Oversikt over oppgaver for å definere [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="overview-of-tasks-to-set-up-includeprodshortincludesprodshortmd" />Oversikt over oppgaver for å definere [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inneholder standardkonfigurasjoner for de fleste forretningsprosesser, men du kan endre konfigurasjonen slik at den passer til behovene for organisasjonen. Artiklene om [hurtigstart for Business Central](quick-start-business-central.md) hjelper deg med å ta de første trinnene mot å gjøre [!INCLUDE [prod_short](includes/prod_short.md)] til din egen. Denne artikkelen gir en oversikt over hvordan du kan konfigurere [!INCLUDE [prod_short](includes/prod_short.md)] for organisasjonen.
 
@@ -55,13 +55,13 @@ Noen områder krever at du er administrator i [!INCLUDE[prod_short](includes/pro
 > [!NOTE]
 > Som administrator kan du konfigurere et nytt selskap i [!INCLUDE[prod_short](includes/prod_short.md)] med RapidStart Services. RapidStart Services er et verktøy som er utviklet for å forkorte distribusjonstiden, forbedre kvaliteten på implementeringen, introdusere en implementeringsmetode som kan gjentas og øke produktiviteten ved å automatisere og forenkle regelmessige oppgaver. Finn ut mer under [Konfigurere et selskap med RapidStart Services](admin-set-up-a-company-with-rapidstart.md).
 
-## Konfigurer apper
+## <a name="set-up-apps" />Konfigurer apper
 
 På toppen av kjerne funksjonene i [!INCLUDE [prod_short](includes/prod_short.md)] legges det til noen apper som vises på [siden **Administrasjon av utvidelse**](https://businesscentral.dynamics.com/?page=2500). Fra og med oktober 2022 har hver app en kobling for å starte konfigurasjonssiden – bare velg handlingen **Konfigurer**.  
 
 Du kan også legge til egenskaper i [!INCLUDE [prod_short](includes/prod_short.md)] ved å legge til AppSource-apper. Finn ut mer under [Tilpasning av Business Central Online med utvidelser](ui-extensions.md).  
 
-## Se også
+## <a name="see-also" />Se også
 
 [Oversikt over selskapsinformasjon](admin-company-information.md)  
 [Administrasjon](admin-setup-and-administration.md)  
@@ -79,6 +79,6 @@ Du kan også legge til egenskaper i [!INCLUDE [prod_short](includes/prod_short.m
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Hurtigstart for Business Central](quick-start-business-central.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

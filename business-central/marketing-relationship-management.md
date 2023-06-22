@@ -12,7 +12,7 @@ ms.search.forms: '9076, 9026'
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# Administrere forbindelser
+# <a name="managing-relationships" />Administrere forbindelser
 Funksjonen for forbindelser i [!INCLUDE[prod_short](includes/prod_short.md)] hjelper deg med å håndtere og støtte salgsfremstøt. Med disse funksjonene har du tilgang til komplette og nøyaktige opplysninger slik at du kan fokusere samhandlingen på foretrukne kunde-/kontaktsegmenter.
 
 God salgs- og markedsføringspraksis handler om å ta de rette avgjørelsene til rett tid. [!INCLUDE[prod_short](includes/prod_short.md)] gir deg en nøyaktig oversikt over kontaktinformasjonen når du har behov for den, slik at du kan ta deg av potensielle kunder på en mer effektiv måte, og øke kundetilfredsheten.

@@ -11,7 +11,7 @@ ms.search.form: '138, 140, 146'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Korrigere eller annullere ubetalte kjøpsfakturaer
+# <a name="correct-or-cancel-unpaid-purchase-invoices" />Korrigere eller annullere ubetalte kjøpsfakturaer
 
 Du kan korrigere eller annullere en bokført kjøpsfaktura. Dette er praktisk hvis du vil rette en skrivefeil, eller hvis du vil endre kjøpet tidlig i bestillingsprosessen.
 
@@ -21,7 +21,7 @@ På siden **Bokført kjøpsfaktura** kan du velge knappen **Korriger** eller **A
 <br><br>
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4dhoc?rel=0]
 
-## Slik korrigerer du en bokført kjøpsfaktura:
+## <a name="to-correct-a-posted-purchase-invoice" />Slik korrigerer du en bokført kjøpsfaktura:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokførte kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
 2. Velg den bokførte kjøpsfakturaen du vil korrigere.  
@@ -35,7 +35,7 @@ På siden **Bokført kjøpsfaktura** kan du velge knappen **Korriger** eller **A
     En kjøpskreditnota opprettes og bokføres automatisk for å annullere den første bokførte kjøpsfakturaen.
 4. Velg **Vis korrigerende kreditnota** for å vise den bokførte kjøpskreditnotaen som annullerer den første bokførte kjøpsfakturaen.
 
-## Slik annullerer du en bokført kjøpsfaktura:
+## <a name="to-cancel-a-posted-purchase-invoice" />Slik annullerer du en bokført kjøpsfaktura:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokførte kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
 2. Velg den bokførte kjøpsfakturaen du vil avbryte.
@@ -47,13 +47,13 @@ På siden **Bokført kjøpsfaktura** kan du velge knappen **Korriger** eller **A
     En kjøpskreditnota opprettes og bokføres automatisk for å annullere den første bokførte kjøpsfakturaen. Feltet **Kansellert** i den første bokførte kjøpsfakturaen endres til **Ja**.
 4. Velg **Vis korrigerende kreditnota** for å vise den bokførte kjøpskreditnotaen som annullerer den første bokførte kjøpsfakturaen.
 
-### Delvis fakturabokføring støttes også
+### <a name="partial-invoice-posting-also-supported" />Delvis fakturabokføring støttes også
 
 Hvis annulleringen er knyttet til en delvis fakturabokføring, oppdateres den opprinnelige bestillingslinjen for å gjenspeile det annullerte fakturerte antallet. Feltene **Ant. som skal fakt.** og **Ant. fakturert** på den tilknyttede bestillingslinjen tilbakestilles til verdiene før den delvise bokføringen.
 
-## Se relatert [Microsoft-opplæring](/training/modules/receive-invoice-dynamics-d365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d-business-central" />Se relatert [Microsoft-opplæring](/training/modules/receive-invoice-dynamics-d365-business-central/)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Registrere kjøp](purchasing-how-record-purchases.md)  

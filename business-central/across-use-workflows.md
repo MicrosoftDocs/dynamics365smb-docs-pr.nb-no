@@ -11,7 +11,7 @@ ms.search.form: '1500, 1501, 1503, 1504, 1505'
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# Bruke arbeidsflyter for godkjenning
+# <a name="use-approval-workflows" />Bruke arbeidsflyter for godkjenning
 
 En arbeidsflyt er en sekvens av oppgaver som utløses av en handling, en betingelse eller en regel. Arbeidsflyter er vanligvis implementert for å integrere forretningslogikk i en organisasjon, for eksempel separasjon av oppgaver, innsamlingsprosesser eller for å bruke anbefalte fremgangsmåter.
 
@@ -64,9 +64,9 @@ Før du kan begynne å bruke arbeidsflyter, må du konfigurere brukere av arbeid
 | Vise forekomster av arbeidsflyttrinn med statusen **Fullført**. | [Vis arkiverte forekomster av arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md) |
 | Slett en arbeidsflyt som ikke lenger blir brukt. | [Slett godkjenningsarbeidsflyter](across-how-to-delete-workflows.md) |
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Konfigurer godkjenningsarbeidsflyter](across-set-up-workflows.md)  
 [Arbeidsflyt](across-workflow.md)  

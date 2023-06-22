@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Opprette gjentakelsesgrupper
+# <a name="set-up-recurring-groups" />Opprette gjentakelsesgrupper
 I feltet **Kode for gjentakelsesgruppe** på **Rammebestillinger**-siden defineres datoformler som kan brukes både som mal og til å opprette salgsordrer basert på datointervaller. Du må opprette gjentakelsesgrupper før du kan opprette gjentakelsesordrer.  
 
-## Slik oppretter du gjentakelsesgrupper:  
+## <a name="to-set-up-recurring-groups" />Slik oppretter du gjentakelsesgrupper:
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Gjentakelsesgrupper**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
@@ -41,7 +41,7 @@ I feltet **Kode for gjentakelsesgruppe** på **Rammebestillinger**-siden definer
 
 5.  Velg **OK**.  
 
-## Se også  
+## <a name="see-also" />Se også
  [Gjentakelsesordrer](recurring-orders.md)   
  [Definere gjentakelsesordrer](how-to-set-up-recurring-orders.md)   
  [Opprett gjentakelsesordrer](how-to-create-recurring-orders.md)

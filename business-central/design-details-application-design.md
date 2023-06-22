@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 11/26/2021
 ms.author: edupont
 ---
-# Detaljer for utforming av programmet
+# <a name="application-design-details" />Detaljer for utforming av programmet
 
 Artikkelen i denne delen innholdet omfatter detaljert teknisk informasjon om komplekse programfunksjoner i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -26,7 +26,7 @@ Innhold i designdetaljer er rettet mot implementerere, utviklere og superbrukere
 |Lær mer om historisk og gjeldende utformingen av varesporingsfunksjonalitet og hvordan den integreres med reservasjonssystemet, slik at serie-/partinumre inkluderes i tilgjengelighetsberegninger.|[Designdetaljer: Varesporing](design-details-item-tracking.md)|  
 |Finn ut mer om funksjonen for bokføring av finanskladdelinje.|[Designdetaljer: Finanskladd – bokfør linje](design-details-general-journal-post-line.md)|
 
-## Se også
+## <a name="see-also" />Se også
 
 [Planlegging](production-planning.md)  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
@@ -34,4 +34,4 @@ Innhold i designdetaljer er rettet mot implementerere, utviklere og superbrukere
 [Konfigurer komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]

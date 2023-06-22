@@ -12,11 +12,11 @@ ms.date: 08/17/2022
 ms.author: a-reishima
 ---
 
-# Hurtigstart for forretningsanalyse
+# <a name="business-intelligence-quick-start" />Hurtigstart for forretningsanalyse
 
 Det å kunne samle og analysere stadig økende mengder data på en praktisk måte er en viktig del av forretninger i dag. [!INCLUDE[prod_short](includes/prod_short.md)] tilbyr mange verktøy for forretningsanalyse – både innebygd og integrert med andre tjenester – for å hjelpe selskapet i beslutningsprosessen.
 
-## Få innsikt om viktige interessepunkter
+## <a name="get-insights-on-your-key-points-of-interest" />Få innsikt om viktige interessepunkter
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inneholder innebygde diagrammer som kan vises i **Innsikt**-delen på startsiden, som dekker *inntekt og utgifter*, *kontantstrøm*, *salgstrender* og andre rapporter. Du kan finne flere KPI-er (Key Performance Indicators) på siden **Intelligent skyinnsikt**, som viser praktisk informasjon fra finans, lager, salg og innkjøp:
 
@@ -24,7 +24,7 @@ Det å kunne samle og analysere stadig økende mengder data på en praktisk måt
 
 De tilgjengelige datakortene og innsiktene kan velges for å åpne den tilknyttede finanssiden. **Intelligent skyinnsikt**- siden bruker også en tilkobling med eksisterende Power BI- og Azure Machine Learning-abonnementer for å vise instrumentbord for analyse og prognose.
 
-## Konfigurer Power BI-integrering
+## <a name="set-up-power-bi-integration" />Konfigurer Power BI-integrering
 
 Du kan koble [!INCLUDE[prod_short](includes/prod_short.md)] til Power BI for å opprette omfattende rapporter og kraftige instrumentbord. Power BI-integrering gir mange muligheter til å gi innsikt basert på bedriftens data, inkludert et stort utvalg av tilpasninger for visualisering, filtrering og visning.
 
@@ -40,9 +40,9 @@ Power BI-integreringen med [!INCLUDE[prod_short](includes/prod_short.md)] omfatt
 
 Du kan også opprette visuelle rapporter basert på [!INCLUDE[prod_short](includes/prod_short.md)] ved å bruke filtypealternativet **Microsoft Excel-dokument (bare data)** på rapportforespørselssider. Lær mer under [Kjør og skriv ut rapporter](ui-work-report.md).
 
-## Se relatert opplæring på [Microsoft Learn](/learn/paths/use-power-bi).
+## <a name="see-related-training-at-microsoft-learnlearnpathsuse-power-bi" />Se relatert opplæring på [Microsoft Learn](/learn/paths/use-power-bi).
 
-## Se også
+## <a name="see-also" />Se også
 
 [Forretningsanalyse og finansrapportering](bi.md)  
 [Hurtigstart for Business Central](quick-start-business-central.md)  

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# Administrere lagerkostnader
+# <a name="managing-inventory-costs" />Administrere lagerkostnader
 Kostnadsstyring, også kalt "kostredegjøring", handler om å registrere og rapportere kostnader ved forretningsdrift. Det inkluderer rapportering av produksjonskost og lagerkost, det vil si verdien av varene.   
 
 Sentrale prinsipper å forstå er at lagermetoder definerer hvordan varer verdsettes når de forlater lageret, at kostjustering oppdaterer solgte varers kost med relatert kjøpskost bokført etter salget, og at lagerverdier må bokføres til dedikerte finanskonti ved regelmessige intervaller.
@@ -33,7 +33,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Utføre kontroll- og rapporteringsoppgaver ved periodeslutt, for eksempel beregne lagerverdien og bokføre kost til Finans.|[Rapporter kostnader og avstem med Finans](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Finn ut hvordan du kan bruke jobbkøen til å flytte aktivitetene for å justere lagerkost eller avstemme den sammen med Finans til bakgrunnen.|[Juster og avstem lagerkost med finans med jobbkø](finance-manage-inventory-costs.md)|
 
-## Se også  
+## <a name="see-also" />Se også
  [Finans](finance.md)  
  [Lager](inventory-manage-inventory.md)   
  [Salg](sales-manage-sales.md)   

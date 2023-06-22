@@ -8,13 +8,13 @@ ms.topic: overview
 ms.date: 03/16/2023
 ms.custom: bap-template
 ---
-# Oversikt over varemarkedsføringstekst drevet av kunstig intelligens (forhåndsversjon) med Copilot
+# <a name="overview-of-ai-powered-item-marketing-text-preview-with-copilot" />Oversikt over varemarkedsføringstekst drevet av kunstig intelligens (forhåndsversjon) med Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
 Denne artikkelen gir en oversikt over funksjonene drevet av kunstig intelligens som leveres av Copilot i Business Central.
 
-## Hva er varemarkedsføringstekst drevet av kunstig intelligens med Copilot
+## <a name="what-is-ai-powered-item-marketing-text-with-copilot" />Hva er varemarkedsføringstekst drevet av kunstig intelligens med Copilot
 
 Copilot gir skrivehjelp drevet av kunstig intelligens Business Central-brukere som har ansvaret for å redigere markedsføringstekst (produktbeskrivelser) på varer solgt i nettbutikker som Shopify. Ved å klikke en knapp genererer Copilot tekst som er engasjerende og kreativ, og som fremhever attributtene for den bestemte varen. Med litt gjennomgang og redigering er den klar til publisering.
 
@@ -26,13 +26,13 @@ Copilot bruker [Microsoft Azure OpenAI-tjeneste](/azure/cognitive-services/opena
 
 *Videoen gjenspeiler ikke nøyaktig hvordan funksjonen fungerer eller ser ut i produktet. Funksjonen har endret seg noe siden videoen ble produsert. Den gir deg likevel en generell idé om funksjonen og hva du kan bruke den til.*
   
-## Hvor det brukes
+## <a name="where-its-used" />Hvor det brukes
 
 Copilot er tilgjengelig på varekort i Business Central. I Business Central er varer som produkter i andre programmer og butikker. Hver vare kan behandles fra et kort der du angir opplysninger om varen, for eksempel dimensjonene, kostnaden eller bildet. Dette kortet inneholder også en boks for angivelse av markedsføringstekst. Denne markedsføringsteksten kan publiseres i nettbutikken for å promotere varen. Det er her Copilot kommer inn. Ved å velge handlingen **Opprett med Copilot** på varekortet vil Copilot generere en intelligent utkasttekst for deg. Når du har fått det første utkastet, kan du kjøre Copilot flere ganger til du får et utkast du liker. Når du har et forslag du liker, går du gjennom og redigerer det for nøyaktighet og lagrer det.
 
 Hvis Business Central er satt opp for å koble til nettbutikken på Shopify, kan du ta denne teksten enda lenger ved å publisere den med varen direkte i butikken ved å velge **Legg til i Shopify**.
 
-## Hvorfor og hvordan du bruker den
+## <a name="why-and-how-to-use-it" />Hvorfor og hvordan du bruker den
 
 Tekst generert med kunstig intelligens kan hjelpe deg med å fremskynde leveringstiden til produkter i nettbutikker ved å begrense tiden som brukes på kopiskriving. Noen av de viktigste fordelene omfatter:
 
@@ -42,7 +42,7 @@ Tekst generert med kunstig intelligens kan hjelpe deg med å fremskynde levering
 
 Du bør vurdere teksten generert med kunstig intelligens som et **forslag bare**. Forslag kan i noen tilfeller inneholde feil og til og med upassende tekst, så det kreves menneskelig overstyring og gjennomgang. Før du gjør teksten offentlig tilgjengelig, må du kontrollere nøyaktigheten og gjøre nødvendige endringer.
 
-## Gjeldende begrensninger
+## <a name="current-limitations" />Gjeldende begrensninger
 
 Denne delen forklarer nåværende begrensninger for tekst generert av kunstig intelligens levert av Copilot.
 
@@ -52,7 +52,7 @@ Denne delen forklarer nåværende begrensninger for tekst generert av kunstig in
 - Copilot støttes ikke gjennom tilkoblinger til din egen Azure OpenAI-tjenesteressurs i Azure-abonnementet.
 - Det er ikke støtte for partnerutvidelse av KI-funksjonen ved hjelp av AL-kode.
 
-## Neste trinn
+## <a name="next-steps" />Neste trinn
 
 For å komme i gang trenger du et Business Central-miljø, versjon 22 som er aktivert med Copilot.
 
@@ -61,7 +61,7 @@ For å komme i gang trenger du et Business Central-miljø, versjon 22 som er akt
 
 Hvis du vil ha mer informasjon, kan du se [Skaff deg Business Central-forhåndsversjon](ai-preview-getstarted.md).  
 
-## Se også
+## <a name="see-also" />Se også
 
 [Konfigurer varemarkedsføringstekst drevet av kunstig intelligens som en administrator](enable-ai.md)  
 [Opprett markedsføringstekst med Copilot](item-marketing-text.md)  

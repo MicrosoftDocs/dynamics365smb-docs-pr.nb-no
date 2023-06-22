@@ -12,13 +12,13 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# Arbeid med datoer og klokkeslett i kalenderen
+# <a name="work-with-calendar-dates-and-times" />Arbeid med datoer og klokkeslett i kalenderen
 
 Du kan angi datoer og klokkeslett på flere måter. [!INCLUDE[prod_short](includes/prod_long.md)] omfatter avanserte funksjoner som fremskynder dataregistrering eller hjelper deg med å skrive sammensatte kalenderuttrykk. Det finnes ulike steder i programmet der du kan angi dato og klokkeslett i feltene. Du kan for eksempel angi leveringsdatoen på en ordre. Når du filtrerer lister eller rapportdata, kan du angi datoer og klokkeslett for å finne dataene du er interessert i.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## Kontrollere innstillinger for region og språk
+## <a name="check-your-region-and-language-settings" />Kontrollere innstillinger for region og språk
 
 Siden **Mine innstillinger** angir **Område** og **Språk** du bruker i programmet. Disse innstillingene påvirker hvordan du angir dato og klokkeslett.
 
@@ -33,7 +33,7 @@ Siden **Mine innstillinger** angir **Område** og **Språk** du bruker i program
 The following sections describe how you can enter dates, times, datetimes, durations, date ranges, and how you use date formulas.
 -->
 
-## Sette inn datoer
+## <a name="entering-dates" />Sette inn datoer
 
 I et datofelt kan du angi en dato med standardformatet for regionsinnstillingen. Ulike regioner kan bruke ulike skilletegn mellom dager, måneder og år. Enkelte regioner bruker for eksempel streker (mm-dd-åååå) og andre bruker skråstreker (mm/dd/åååå).  
 
@@ -45,7 +45,7 @@ I et datofelt kan du angi en dato med standardformatet for regionsinnstillingen.
 
 Hvis du vil arbeide mer effektivt med datoer og klokkeslett, kan du bruke metodene eller formatene som er beskrevet nedenfor.
 
-### Plukke datoer fra kalenderen
+### <a name="picking-dates-from-the-calendar" />Plukke datoer fra kalenderen
 
 Alle felt som viser et kalenderikonet, kan angis ved hjelp kalenderdatovelgeren. Aktiver kalenderikonet for å vise kalenderdatovelgeren, eller velg <kbd>Ctrl</kbd>+<kbd>Hjem</kbd> i feltet.
 
@@ -53,7 +53,7 @@ Alle felt som viser et kalenderikonet, kan angis ved hjelp kalenderdatovelgeren.
 
 Se også [Hurtigtaster i kalenderdatovelgeren](keyboard-shortcuts.md#calendarshortcuts)
 
-### Mønsteret dag\-uke\-årn
+### <a name="day-week-year-pattern" />Mønsteret dag\-uke\-årn
 
 Du kan angi en dato som en ukedag etterfulgt av et ukenummer og eventyelt et år. For eksempel Man25 eller man25 betyr mandag i uke 25. Hvis du ikke angir et år, brukes året i arbeidsdatoen.
 
@@ -61,7 +61,7 @@ I stedet for å angi hele ordet for ukedagen, kan du angi en del av ord fra begy
 
 Ukenummererplanen er alltid ISO 8601, der uke 1 er uken med 4 januar i seg, eller uken med den første torsdagen i året.
 
-### Tallmønstre
+### <a name="digit-patterns" />Tallmønstre
 
 I et datofelt kan du angi to, fire, seks eller åtte tall:
 
@@ -74,17 +74,17 @@ I et datofelt kan du angi to, fire, seks eller åtte tall:
   > [!NOTE]
   > Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, kan årstallsområdet med to sifre være forskjellige. Administratorer kan endre området ved å endre innstillingen **CalendarTwoDigitYearMax** på [!INCLUDE[prod_short](includes/prod_short.md)]-serveren. Hvis du vil ha mer informasjon, kan du se [Konfigurere Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General).
  
-### I dag
+### <a name="today" />I dag
 
 Skriv inn ordet for _i dag_, på språket som er angitt på **Mine innstillinger**-siden, for å angi datoen for en post til dagens dato. I stedet for å angi hele ordet, kan du angi en del av ord fra begynnelsen. På engelsk kan du for eksempel skrive inn _t_ eller _tod_, så lenge det ikke også er starten på et annet ord.
 
-### Periode
+### <a name="period" />Periode
 
 For å filtrere på en bestemt regnskapsperiode, angi bokstaven p eller ordet periode i datofeltet, etterfulgt av et nummer som identifiserer regnskapsperioden, som p2 eller periode4. Regnskapsperioden er relativ til regnskapsåret for gjeldende arbeidsdato som er angitt i ditt rollesenter. Hvis arbeidsdatoen for eksempel er **21.03.22**, filtreres _p1_ eller bare _p_ på den første regnskapsperioden i regnskapsåret 2022 (for eksempel 01.01.22–31.01/22). _p15_ filtrerer på den 15. regnskapsperioden fra starten av regnskapsåret 2022 (for eksempel 01.03.23–31.03.23).
 
 Regnskapsperioden er definert på **Regnskapsperioder**-siden. Hvis du vil vise eller endre regnskapsperiodene, åpner du siden [her](https://businesscentral.dynamics.com/?page=100).
 
-### Arbeidsdato
+### <a name="work-date" />Arbeidsdato
 
 Bruk en arbeidsdato til å angi en dato som ikke er dagens dato for poster. En arbeidsdato er for eksempel nyttig når du må angi en bestemt dato for flere poster. Du angir arbeidsdatoen på **Mine innstillinger**-siden. 
 
@@ -92,13 +92,13 @@ En rask måte å skrive inn arbeidsdatoen på poster på, er å skrive inn noe a
 
 Hvis du ikke har angitt en arbeidsdato, brukes dagens dato. Se også [Endre grunnleggende innstillinger, for eksempel arbeidsdatoen](ui-change-basic-settings.md#work-date) for mer informasjon.
 
-### Avslutningsdato
+### <a name="closing-date" />Avslutningsdato
 
 Når du avslutter et regnskapsår, kan du bruke avslutningsdatoer til å indikere at en post er en avslutningspost. En avslutningsdato ligger teknisk sett mellom to datoer, for eksempel mellom 31. desember og 1. januar.
 
 Hvis en dato skal være en avslutningsdato, setter du U rett foran datoen, for eksempel U123101. Bruk dette formatet sammen med alle datomønstre.
 
-### Eksempler
+### <a name="examples" />Eksempler
 
 Tabellen nedenfor inneholder eksempler på datoer som bruker alle formater. Det antar regioninnstillinger som formaterer datoer i henhold til: **år.måned.dag.**, en uke som starter på mandag, og engelsk språk.
 
@@ -123,7 +123,7 @@ Tabellen nedenfor inneholder eksempler på datoer som bruker alle formater. Det 
 |t 23|Tirsdag i uke 23 i arbeidsdatoåret|
 |t-1|Tirsdag i uke 1 i arbeidsdatoåret|
 
-##  <a name="BKMK_SettingDateRanges"></a> Angi intervaller
+## <a name="a-namebkmksettingdaterangesa-setting-ranges" /><a name="BKMK_SettingDateRanges"></a> Angi intervaller
 
 I lister, totaler eller rapporter kan du definere filtre på datoer, klokkeslett og datoer og klokkeslett som inneholder en startverdi og eventuelt en sluttverdi, for å vise bare dataene i dette intervallet. Standardreglene gjelder for angivelse av datointervaller.
 
@@ -135,7 +135,7 @@ I lister, totaler eller rapporter kan du definere filtre på datoer, klokkeslett
 
 Du kan bruke ethvert gyldig format i datointervallfiltre. For eksempel man14 3..t 4p brukt på en dato- og klokkeslettfelt resulterer i et filter fra 03:00 mandag i uke 14 i det gjeldende arbeidsdatoåret, inkludert til dagens dato klokken 16:00.
 
-## Bruk datoformler
+## <a name="use-date-formulas" />Bruk datoformler
 
 En datoformel er en kort, forkortet kombinasjon av bokstaver og tall som angir hvordan det skal beregne datoer. Du kan angi datoformler i forskjellige datoberegningsfelt eller filtre.
 
@@ -199,7 +199,7 @@ Følgende eksempel viser hvordan du kan bruke minus-tegn til å indikere en dato
 > [!IMPORTANT]
 > Hvis plasseringen bruker en hovedkalender, tolkes datoformelen du angir, for eksempel i feltet **Leveringstid**, i henhold til arbeidsdager fra kalenderen. For eksempel betyr 1U sju virkedager.
 <!--
-# Entering Date Ranges
+# <a name="entering-date-ranges" />Entering Date Ranges
 You can set filters containing a start date and an end date to display only the data contained in that date range or time interval. Special rules apply to the way you set date ranges. Let's take the **Customer Top 10** as an example:
 
 ![Setting a date range in the request page for the Customer Top 10 list.](./media/ui-enter-date-ranges/customer-top10-list.png)
@@ -222,7 +222,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## Use Date Formulas
+## <a name="use-date-formulas" />Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -287,7 +287,7 @@ The following example shows how you can use a minus sign to indicate a date in t
 
 -->
 
-## Angi klokkeslett
+## <a name="entering-times" />Angi klokkeslett
 
 Når du angir klokkeslett, kan du sette i et skilletegn som ikke er mellomrom, som du ønsker mellom enhetene. Hvis du bruker doble sifre for hver enhet opptil millisekunder, er det ikke nødvendig.
 
@@ -320,11 +320,11 @@ Tabellen nedenfor viser forskjellige måter som klokkeslett kan angis på, og hv
 
 Ordet for tidspunkt på språket som brukes av [!INCLUDE[prod_short](includes/prod_long.md)], evalueres etter gjeldende dato og klokkeslett på datamaskinen eller mobilenheten. Du kan angi en del av ordet, fra begynnelsen, som for eksempel t eller TIM.
 
-## Angi kombinerte datoer og klokkeslett
+## <a name="entering-combined-dates-and-times" />Angi kombinerte datoer og klokkeslett
 
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
-## Angi varighet
+## <a name="entering-duration" />Angi varighet
 
 Noen av feltene i programmet representerer en varighet eller mengden som er gått, i stedet for en bestemt dato eller klokkeslett. Du angir en varighet som et tall etterfulgt av enheten.
 
@@ -345,9 +345,9 @@ Hvis du vil se hvilken enhet som brukes i et varighetsfelt, skriver du inn et ta
 
 Tallet 5 konverteres for eksempel til 5 timer hvis enheten er timer.
 
-## Se relatert [Microsoft-opplæring](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Arbeid med [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
 [Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)  

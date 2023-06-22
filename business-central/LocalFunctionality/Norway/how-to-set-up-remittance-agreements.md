@@ -11,11 +11,11 @@ ms.search.form: '15000000, 15000002, 15000004, 15000006, 15000007, 15000010'
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# Sett opp remitteringsavtaler i den norske versjonen
+# <a name="set-up-remittance-agreements-in-the-norwegian-version" />Sett opp remitteringsavtaler i den norske versjonen
 
 Du må undertegne en avtale om remittering med banken når du oppretter elektroniske betalinger. Du kan sette opp mer enn én remitteringsavtale hvis du har en avtale med to eller flere banker. For hver avtale må du spesifisere én eller flere kontoer som betalingen skal utføres fra. Du må opprette en remitteringskonto for hver konto. For mer informasjon, se [Sette opp remitteringskontoer](how-to-create-remittance-accounts.md).  
 
-## Slik setter du opp en remitteringsavtale  
+## <a name="to-set-up-a-remittance-agreement" />Slik setter du opp en remitteringsavtale
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Remitteringsavtaleoversikt**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
@@ -75,7 +75,7 @@ Du må undertegne en avtale om remittering med banken når du oppretter elektron
 
 12. Velg **OK**.  
 
-## Se også  
+## <a name="see-also" />Se også
  [Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)   
  [Opprette remitteringskontoer](how-to-create-remittance-accounts.md)   
  [Angi leverandører for remittering](how-to-set-up-vendors-for-remittance.md)   

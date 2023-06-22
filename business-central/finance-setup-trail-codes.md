@@ -11,13 +11,13 @@ ms.search.form: '257, 259, 279'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Definere kildespor og årsaksspor for revisjonsspor
+# <a name="setting-up-source-codes-and-reason-codes-for-audit-trails" />Definere kildespor og årsaksspor for revisjonsspor
 
 Alle bokførte poster tilordnes automatisk til et kildespor, slik at transaksjoner kan spores til utgangspunktet. Hvis du vil gi poster et ekstra kildespor, kan du bruke årsaksspor. Årsakssporene brukes til å vise hvorfor en post ble opprettet. Når du definerer årsaksspor, kan du tilordne dem til hele kladdemaler og kladder, og du kan også tilordne dem til individuelle kladdelinjer og dokumenter.  
 
 For både kildespor og årsaksspor bruker du spor som er lette å huske, og som er beskrivende. Sporet må være unikt, og du kan definere så mange spor du vil.
 
-## Definere kildespor
+## <a name="define-source-codes" />Definere kildespor
 
 Noen ganger kan du ha behov for å se hvordan en spesiell post oppstod, for eksempel om den kom fra bokføring av en finanskladd eller en kjøpsfaktura. Et kildespor angir hvor en post ble opprettet. Postene opprettes når kladder og fakturaer bokføres og når visse kjørsler startes. Hver bokføringstype har et bestemt kildespor som tilordnes når posten opprettes.  
 
@@ -25,7 +25,7 @@ Bokføring av kladder, bestillinger, faktura eller kreditnota, og kjøring av ul
 
 Når du bokfører eller starter en kjørsel, knyttes det riktige kildesporet til posten automatisk. Når du for eksempel bokfører fra en finanskladd, kodes posten som *FINKLD*. Du kan deretter filtrere **Finansposter**-siden for å vise hvilke poster som er bokført fra finanskladder eller salgsdokumenter, for eksempel
 
-### Slik definerer du kildespor
+### <a name="to-define-source-codes" />Slik definerer du kildespor
 
 1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport") og angir **Kildespordefinisjon** og velger den relaterte koblingen.  
 
@@ -33,11 +33,11 @@ Når du bokfører eller starter en kjørsel, knyttes det riktige kildesporet til
 
 Du kan endre innholdet i et felt senere, og denne endringen vil deretter påvirke fremtidige bokføringer.
 
-## Endre kildespor
+## <a name="change-source-codes" />Endre kildespor
 
 Noen ganger kan det være nødvendig å endre et kildespor. Du vil for eksempel endre kildesporet *FINKLD* til *FNK*.
 
-### Slik endrer du kildespor
+### <a name="to-change-source-codes" />Slik endrer du kildespor
 
 1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport") og angi **Kildespor**, og velg deretter den relaterte koblingen.
 
@@ -47,11 +47,11 @@ Noen ganger kan det være nødvendig å endre et kildespor. Du vil for eksempel 
 
 Alle nye poster som bokføres fra finanskladden får det nye kildesporet.
 
-## Definere årsaksspor
+## <a name="define-reason-codes" />Definere årsaksspor
 
 Årsaksspor er et tillegg til kildesporene og brukes til å vise hvorfor en post ble opprettet. Du kan tildele årsaksspor på enkeltposter, og du kan overføre dem til poster og tilordne permanente koder til bestemte kladdemaler og kladder. Når et årsaksspor er tilknyttet en kladdelinje eller et salgs- og bestillingshode, merkes alle poster med årsakssporet når de bokføres.  
 
-### Slik setter du opp årsaksspor
+### <a name="to-set-up-reason-codes" />Slik setter du opp årsaksspor
 
 1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport")  og angi **Årsaksspor**, og velg deretter den relaterte koblingen.
 
@@ -61,7 +61,7 @@ Gjenta dette for hvert årsaksspor du vil bruke. Du kan opprette så mange årsa
 
 Følgende fremgangsmåte viser hvordan du legger til et årsaksspor i en kladdemal, men med lignende trinn gjelder det å legge til et årsaksspor i en kladdelinje eller varekladd.  
 
-### Slik tilordner du årsaksspor til kladdemaler
+### <a name="to-assign-reason-codes-to-journal-templates" />Slik tilordner du årsaksspor til kladdemaler
 
 1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport")  og angi **Finanskladdmaler**, og velg deretter den relaterte koblingen.
 
@@ -71,7 +71,7 @@ Følgende fremgangsmåte viser hvordan du legger til et årsaksspor i en kladdem
 
 Årsakssporet som er valgt overføres til nye kladder som opprettes med denne kladdemalen. Årsaksspor tilordnes kladdemaler i de andre modulene på samme måte.
 
-### Slik bruker du årsaksspor i salgs- og kjøpsdokumenter
+### <a name="to-use-reason-codes-on-sales-and-purchase-documents" />Slik bruker du årsaksspor i salgs- og kjøpsdokumenter
 
 1. Åpne det relevante salgs- eller kjøpsdokumentet.
 
@@ -79,9 +79,9 @@ Følgende fremgangsmåte viser hvordan du legger til et årsaksspor i en kladdem
 
 Når fakturaen er bokført, overføres årsakssporet til hver finans-, kunde- og leverandørpost. Du kan ikke tilordne forskjellige årsaksspor til hver enkelt kjøps- og salgslinje, fordi alle linjene bokføres som én post.
 
-## Se relatert [Microsoft-opplæring](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Finans](finance.md)  
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  
@@ -90,7 +90,7 @@ Når fakturaen er bokført, overføres årsakssporet til hver finans-, kunde- og
 [Analysere kontantstrømmen i firmaet](finance-analyze-cash-flow.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

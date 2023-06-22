@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# Designdetaljer: Lagerbokføring
+# <a name="design-details-inventory-posting" />Designdetaljer: Lagerbokføring
 
 Hver lagertransaksjon, for eksempel et kjøpsmottak eller en følgeseddel, bokfører to postene av forskjellige typer.  
 
@@ -27,26 +27,26 @@ Hver lagertransaksjon, for eksempel et kjøpsmottak eller en følgeseddel, bokf�
 
  ![Postflyt ved avstemming av lager med finans.](media/design_details_inventory_costing_1_entry_flow.png "Postflyt ved avstemming av lager med finans")  
 
-## Eksempel
+## <a name="example" />Eksempel
 
 Følgende eksempel viser hvordan vareposter, verdiposter og vareutligningsposter resulterer i finansposter.  
 
  Du bokfører en bestilling som mottatt og fakturert for 10 varer med en direkte enhetskost på LV 7 og en sats for indirekte kostnader på LV 1. Bokføringsdatoen er 01-01-20. Følgende poster opprettes:  
 
-### Vareposter (1)
+### <a name="item-ledger-entries-" />Vareposter (1)
 
 |Bokføringsdato|Posttype|Kostbeløp (faktisk)|Antall|Løpenr.|  
 |------------|----------|--------------------|--------|---------|  
 |01.01.20|Kjøp|80,00|10|1|  
 
-### Verdiposter (1)
+### <a name="value-entries-" />Verdiposter (1)
 
 |Bokføringsdato|Posttype|Kostbeløp (faktisk)|Varepostnr.|Løpenr.|  
 |------------|----------|--------------------|---------------------|---------|  
 |01.01.20|Kjøpspris/prod.kost|70,00|1|1|  
 |01.01.20|Indirekte kost|10,00|1|2|  
 
-### Vareutligningsposter (1)
+### <a name="item-application-entries-" />Vareutligningsposter (1)
 
 |Løpenr.|Varepostnr.|Inngående vareløpenr.|Utgående vareløpenr.|Antall|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -54,19 +54,19 @@ Følgende eksempel viser hvordan vareposter, verdiposter og vareutligningsposter
 
  Deretter bokfører du et salg på 10 enheter av varen med posteringsdatoen 15.01.20.  
 
-### Vareposter (2)
+### <a name="item-ledger-entries-" />Vareposter (2)
 
 |Bokføringsdato|Posttype|Kostbeløp (faktisk)|Antall|Løpenr.|  
 |------------|----------|--------------------|--------|---------|  
 |15.01.20|Salg|-80,00|-10|2|  
 
-### Verdiposter (2)
+### <a name="value-entries-" />Verdiposter (2)
 
 |Bokføringsdato|Posttype|Kostbeløp (faktisk)|Varepostnr.|Løpenr.|  
 |------------|----------|--------------------|---------------------|---------|  
 |15.01.20|Kjøpspris/prod.kost|-80,00|2|3|  
 
-### Vareutligningsposter (2)
+### <a name="item-application-entries-" />Vareutligningsposter (2)
 
 |Løpenr.|Varepostnr.|Inngående vareløpenr.|Utgående vareløpenr.|Antall|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -78,7 +78,7 @@ På slutten av en regnskapsperiode, kjører du den satsvise jobben **Bokfør lag
 
  Tabellene nedenfor viser resultatet av å avstemme lagertransaksjonene med Finans i dette eksemplet.  
 
-### Verdiposter (3)  
+### <a name="value-entries-" />Verdiposter (3)
 
 |Bokføringsdato|Posttype|Kostbeløp (faktisk)|Bokført kost|Varepostnr.|Løpenr.|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -86,7 +86,7 @@ På slutten av en regnskapsperiode, kjører du den satsvise jobben **Bokfør lag
 |01.01.20|Indirekte kost|10,00|10,00|1|2|  
 |15.01.20|Kjøpspris/prod.kost|-80,00|-80,00|2|3|  
 
-### Finansposter (3)
+### <a name="general-ledger-entries-" />Finansposter (3)
 
 |Bokføringsdato|Finanskonto|Kontonummer (En-US-demo)|Beløp|Løpenr.|  
 |------------|-----------|------------------------|------|---------|  
@@ -104,7 +104,7 @@ På slutten av en regnskapsperiode, kjører du den satsvise jobben **Bokfør lag
 
  Relasjonen mellom verdiposter og finansposter lagres i tabellen **Finans - varepostrelasjon**.  
 
-### Relasjonsposter i tabellen Finans – varepostrelasjon (3)
+### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Relasjonsposter i tabellen Finans – varepostrelasjon (3)
 
 |Finansløpenr.|Verdiløpenummer|Finansjournalnr.|  
 |-------------|---------------|----------------|  
@@ -115,13 +115,13 @@ På slutten av en regnskapsperiode, kjører du den satsvise jobben **Bokfør lag
 |5|3|1|  
 |6|3|1|  
 
-## Monterings- og produksjonsbokføring
+## <a name="assembly-and-production-posting" />Monterings- og produksjonsbokføring
 
 Kapasitet og ressursposter representerer klokkeslettet som er bokført som forbrukt under produksjon eller montering. Disse prosesskostnadene bokføres som verdiposter i finans sammen med de involverte materialkostnadene i en struktur som ligner på den som er beskrevet for vareposter i dette emnet.  
 
 Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md).  
 
-## Se også
+## <a name="see-also" />Se også
 
  [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)  
  [Designdetaljer: Konti i Finans](design-details-accounts-in-the-general-ledger.md)  

@@ -11,7 +11,7 @@ ms.search.form: '1151, 1166, 9027, 9004'
 ms.date: 08/19/2022
 ms.author: edupont
 ---
-# Økonomistyring
+# <a name="financial-management" />Økonomistyring
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en standardkonfigurasjon for de fleste finansielle prosesser, men du kan endre den slik at den passer til din virksomhet. Finn ut mer under [Konfigurer finans](finance-setup-finance.md).
 
@@ -49,13 +49,13 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Arbeid med årsregnskap og økonomiske oversikter i Microsoft Excel. |[Analysere årsregnskap i Excel](finance-analyze-excel.md) |
 |Lær hvordan du bruker rollesenteret for regnskapsførere, kommuniserer en ekstern regnskapsfører, og bruk selskapssenteret til å håndtere kontoer for flere klienter.|[Regnskapsføreropplevelser i Business Central](finance-accounting.md)|  
 
-## Få en videoinnføring
+## <a name="take-a-video-tour" />Få en videoinnføring
 
 Denne videoen introduserer noen av nøkkelfunksjonene for økonomistyring. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## Se også
+## <a name="see-also" />Se også
 
 [Konfigurere finans](finance-setup-finance.md)  
 [Salg](sales-manage-sales.md)  
@@ -66,6 +66,6 @@ Denne videoen introduserer noen av nøkkelfunksjonene for økonomistyring. <br><
 [Arbeid med finanskladder](ui-work-general-journals.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
+## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

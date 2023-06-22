@@ -10,7 +10,7 @@ ms.search.keywords: 'service, service items, respond, response'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Yte service
+# <a name="delivering-service" />Yte service
 Med funksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] kan du levere service i henhold til kontraktene du har opprettet, og serviceordrene du er forpliktet til å oppfylle. Det er enkelt for serviceteknikerne eller ordrefordeleren å finne åpne serviceordrer når de bruker **Servicefordeling**. **Servicefordeling** viser hvilke ordrer som behandles, og hvilke som er fullførte.  
   
 En annen måte å gjennomgå ventende serviceordrer på er å bruke siden **Serviceoppgaver**. I denne visningen av serviceforpliktelsene dine ser du hvor i servicearbeidsflyten en ordre befinner seg, og du kan endre statusen for ordren for å gjenspeile kommunikasjon med kunden.  
@@ -33,7 +33,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Opprette og bokføre fakturaer for servicer som du har levert.|[Opprette servicefakturaer eller kreditnotaer](service-how-create-invoices.md)|  
 |Holde kundene fornøyde ved låne dem en vare mens du arbeider med deres.| [Låne ut og mottar utlånsvarer](service-how-to-lend-receive-loaners.md)|
   
-## Se også  
+## <a name="see-also" />Se også
 [Planlegge service](service-plan-service.md)  
 [Oppfylle servicekontrakter](service-fulfill-service-contracts.md)  
 [Administrere prosjekter](projects-manage-projects.md)  

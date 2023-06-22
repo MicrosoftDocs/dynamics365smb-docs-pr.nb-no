@@ -8,7 +8,7 @@ ms.topic: how-to
 ms.date: 02/24/2023
 ms.custom: bap-template
 ---
-# Behandle vedlegg, koblinger og merknader på kort og dokumenter
+# <a name="manage-attachments-links-and-notes-on-cards-and-documents" />Behandle vedlegg, koblinger og merknader på kort og dokumenter
 
 På de fleste listesider, kort og dokumenter kan du legge ved filer, legge til koblinger og skrive merknader på fanen **Vedlegg** i ruten **Faktaboks**. Nummeret bak fanetittelen angir hvor mange vedlagte filer, koblinger eller merknader som finnes for kortet eller dokumentet.
 
@@ -23,7 +23,7 @@ Du kan også legge til vedlegg i e-postmeldingene du sender fra [!INCLUDE [prod_
 >
 > Hvis du sletter en ordre før den faktureres, fjernes også vedlegget. Når du fakturerer bestillinger ved hjelp av handlingen Hent mottakslinjer fra en kjøpsfaktura, blir ikke vedlegget på bestillingene lagt til i kjøpsfakturaen.
 
-## Knytte en fil til en kjøpsfaktura
+## <a name="to-attach-a-file-to-a-purchase-invoice" />Knytte en fil til en kjøpsfaktura
 
 Du kan legge ved alle typer filer, som tekst, bilder eller videofiler, i et kort, et dokument eller en linje i et dokument. Dette er for eksempel nyttig når du vil lagre fakturaen for en leverandør som en PDF-fil på den relaterte kjøpsfakturaen i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -44,14 +44,14 @@ Følgende fremgangsmåte er basert på en kjøpsfaktura. Trinnene er lignende fo
 
 Filen er nå knyttet til kjøpsfakturaen.
 
-## Slik ser du en vedlagt fil
+## <a name="to-view-an-attached-file" />Slik ser du en vedlagt fil
 
 1. Åpne fanen **Vedlegg** i ruten **Faktaboks**.
 2. Velg verdien bak feltet **Dokumenter**, for eksempel 1.
 3. På siden **Vedlagte dokumenter** velger du handlingen **Forhåndsvis**.
 4. Åpne den nedlastede filen.
 
-## Slik lagrer du et dokument som et PDF-vedlegg
+## <a name="to-save-a-document-as-a-pdf-attachment" />Slik lagrer du et dokument som et PDF-vedlegg
 
 Når du skal lagre et dokument som en fil, kan du bruke handlingen **Legg ved som PDF** til å lagre gjeldende dokumentinnhold som en PDF-fil som er knyttet til faktaboksen for dokumentet. Dette er for eksempel nyttig når dokumenter følger flere trinn i en prosess, for eksempel en salgsprosess eller en godkjenningsarbeidsflyt, og du vil referere til en utskrift av forrige trinn.
 
@@ -62,7 +62,7 @@ Følgende fremgangsmåte er basert på en ordre. Trinnene er de samme for alle s
 
 En PDF-fil med gjeldende ordreinnhold legges til i fanen **Vedlegg** i faktaboksen.
 
-## Legge til en kobling fra varekortet
+## <a name="to-add-a-link-from-an-item-card" />Legge til en kobling fra varekortet
 
 Du kan legge til en kobling fra et kort eller et dokument i en hvilken som helst URL-adresse. Dette er nyttig når du for eksempel vil knytte et varekort til leverandørens varekatalog.
 
@@ -80,7 +80,7 @@ Følgende fremgangsmåte er basert på et varekort. Trinnene er lignende for all
 
 Koblingen er nå knyttet til varekortet.  
 
-## Skrive en merknad på en ordre
+## <a name="to-write-a-note-on-a-sales-order" />Skrive en merknad på en ordre
 
 Du kan skrive et notat på et dokument eller kort, for eksempel for å formidle spesielle instruksjoner til andre brukere av dokumentet eller kortet. Du kan inkludere filkoblinger og URL-adresser i notater.
 
@@ -97,7 +97,7 @@ Følgende fremgangsmåte er basert på en ordre. Trinnene er lignende for alle a
 
 Merknaden er nå knyttet til ordren.
 
-## Se også  
+## <a name="see-also" />Se også
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Inngående dokumenter](across-income-documents.md)  
 [Konfigurere arbeidsflytvarsler](across-setting-up-workflow-notifications.md)  

@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 11/07/2022
 ms.author: bholtorf
 ---
-# Definere varer og lokasjoner for lagerstyring
+# <a name="set-up-items-and-locations-for-directed-put-away-and-pick" />Definere varer og lokasjoner for lagerstyring
 
 Når du definerer en lagerlokasjon til å bruke lagerstyring, får du tilgjengelig en ny funksjonalitet som hjelper deg å styre lageret mest mulig effektivt. For å kunne utnytte denne funksjonaliteten fullt ut må du angi tilleggsopplysninger om varene, noe som i neste omgang hjelper å utføre de nødvendige beregningene for å foreslå de mest effektive og praktiske måtene å utføre lageraktiviteter på. 
 
-## Slik definerer du varer for lagerstyring  
+## <a name="to-set-up-an-item-for-directed-put-away-and-pick" />Slik definerer du varer for lagerstyring
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
 2. Åpne kortet for varen du vil definere for lagerstyring.
@@ -25,7 +25,7 @@ Når du definerer en lagerlokasjon til å bruke lagerstyring, får du tilgjengel
 6. Velg **Hylleinnhold**-handlingen.
 7. På siden **Hylleinnhold** kan du definere lokasjonen og hyllen som varen skal tilordnes til. Feltet **Standard** brukes ikke når lokasjonen er definert til å bruke lagerstyring.  
 
-## Slik begynner du å bruke lagerstyring
+## <a name="to-start-using-directed-put-away-and-pick" />Slik begynner du å bruke lagerstyring
 
 Lagerstyring gir deg tilgang til avanserte lageroppsettsfunksjoner som forbedrer effektiviteten og datapåliteligheten. Hvis du skal bruke denne funksjonaliteten, må du først definere et antall parametere for lagerlokasjonen.  
 
@@ -46,7 +46,7 @@ Du kan også definere lagerklassekoder hvis lageret har varer som trenger bestem
 
 Du er nå klar til å definere soner. Hvis du bruker soner, vil det redusere antall felt du må fylle ut når du setter opp hyllene, fordi hyller som er opprettet med soner, arver flere egenskaper fra sonen. Sonene kan gjøre det enklere for nye eller midlertidig ansatte å orientere seg i lageret. Merk at flyt kontrolleres av hyller, det er derfor mulig å operere med hyller og bare én sone.  
 
-## Slik setter du opp en sone i lageret  
+## <a name="to-set-up-a-zone-in-your-warehouse" />Slik setter du opp en sone i lageret
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2. Velg lokasjonen der du vil sette opp en sone, og åpne lokasjonskortet og velg deretter **Soner**-handlingen.  
@@ -61,7 +61,7 @@ Neste trinn er å definere hyller. Finn ut mer under [Definer lokasjoner slik at
 
 I tillegg må du opprette plasseringsmaler og opptellingsperioder. Finn ut mer under [Definer plasseringsmaler](warehouse-how-to-set-up-put-away-templates.md).  
 
-## Se også  
+## <a name="see-also" />Se også
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

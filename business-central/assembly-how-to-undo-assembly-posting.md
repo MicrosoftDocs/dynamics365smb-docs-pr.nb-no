@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# Angre monteringsbokføring
+# <a name="undo-assembly-posting" />Angre monteringsbokføring
 
 Angre bokføringen av en monteringsordre for å korrigere en feil eller fjerne en uønsket bokføring.
 
@@ -33,7 +33,7 @@ Monteringsordrer kan bare gjenopprettes hvis antallet og rekkefølgen til linjen
 
 Fremgangsmåten nedenfor beskriver hvordan du angrer bokførte monteringsordrer som inneholder varene som ble montert til lager. Hvis du vil angre bokførte monteringsordrer med varer som er montert-til-ordre, bruker du **Angre levering**-handlingen på den tilhørende bokførte leveringen. Hvis du vil finne ut mer om å angre leveringer, går du til [Tilbakefør kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md). Angring av bokførte monteringsordre skjer automatisk på samme måte som beskrevet i artikkelen.  
 
-## Slik angrer du bokføringen av en monteringsordre:
+## <a name="to-undo-posting-of-an-assembly-order" />Slik angrer du bokføringen av en monteringsordre:
 
 Du kan angre fullstendig eller delvis bokførte monteringsordrer.
 
@@ -50,7 +50,7 @@ Feltet **Tilbakeført** i monteringsordre endres til **Ja**. Bokføringen av mon
 > [!NOTE]  
 > Hvis du vil gjenopprette antallene fra flere delvise bokføringer i en monteringsordre, må du angre alle bokførte monteringsordrer ved å følge trinn 1 til 3.  
 
-## Se også
+## <a name="see-also" />Se også
 
 [Monteringsstyring](assembly-assemble-items.md)  
 [Tilbakefør kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)  

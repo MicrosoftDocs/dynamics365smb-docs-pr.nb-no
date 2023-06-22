@@ -11,14 +11,14 @@ ms.search.form: '15000000, 15000002, 15000004, 15000006, 15000007, 15000010'
 ms.date: 06/18/2021
 ms.author: edupont
 ---
-# Opprett remitteringskonti i den norske versjonen
+# <a name="create-remittance-accounts-in-the-norwegian-version" />Opprett remitteringskonti i den norske versjonen
 
 Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres. Hvis en konto brukes til å utføre betalinger til både innenlandske og utenlandske leverandører, må denne kontoen opprettes to ganger: én gang for betalinger innland og én gang for betalinger utland.  
 
 > [!NOTE]  
 >  Valutaen som brukes for bankkontoen skal være samme valuta som banken bruker for denne kontoen. Valutakursene er basert på kontoens valuta og beregningene er basert på denne valutaen.  
 
-## Slik oppretter du en remitteringskonto  
+## <a name="to-create-a-remittance-account" />Slik oppretter du en remitteringskonto
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Remitteringskontooversikt**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
@@ -67,7 +67,7 @@ Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres.
 
 7.  Velg **OK**.  
 
-## Se også  
+## <a name="see-also" />Se også
  [Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)   
  [Sette opp remitteringsavtaler](how-to-set-up-remittance-agreements.md)   
  [Angi leverandører for remittering](how-to-set-up-vendors-for-remittance.md)   
