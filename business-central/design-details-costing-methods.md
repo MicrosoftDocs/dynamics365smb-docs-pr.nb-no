@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 05/12/2023
 ms.author: bholtorf
 ---
-# <a name="design-details-costing-methods" />Designdetaljer: Kostmetoder
+# Designdetaljer: Kostmetoder
 
 Lagermetoden avgjør om det er en faktisk eller en budsjettert verdi som kapitaliseres og brukes i kostnadsberegningen. Sammen med bokføringsdatoen og rekkefølgen påvirker lagermetoden også hvordan kostnadsflyten registreres.
 
@@ -49,7 +49,7 @@ Lagermetodene varierer med hensyn til hvordan de verdisetter lagerreduksjoner og
 |**Standard**     |Enkel å bruke, men krever kvalifisert vedlikehold.|Utligning holder orden på **det gjenværende antallet**.<br /><br /> Utligning er basert på FIFO.|Revaluerer fakturerte og ikke-fakturerte antall.<br /><br /> Kan utføres per vare eller per varepost.<br /><br /> Kan utføres bakover i tid.|Bruk **Standardforslag**-siden til å oppdatere og opprullere standardkostnader regelmessig.<br /><br /> Støttes IKKE per LFE.<br /><br /> Det finnes ingen historiske poster for standardkost.|
 |**Bestemt**     |Krever varesporing på både inngående og utgående transaksjon.<br /><br /> Brukes vanligvis for serialiserte varer.|Alle utligninger er faste.|Revaluerer bare fakturert antall.<br /><br /> Kan utføres per vare eller per varepost.<br /><br /> Kan utføres bakover i tid.|Du kan bruke spesifikk varesporing uten å bruke lagermetoden Serienummer. Dermed følger IKKE kostnadene partinummeret, men i stedet kostnadsforutsetningen i den valgte lagermetoden.|
 
-## <a name="example" />Eksempel
+## Eksempel
 
 Denne delen inneholder eksempler på hvordan ulike lagermetoder påvirker lagerverdi.  
 
@@ -67,7 +67,7 @@ Tabellen nedenfor viser lagerøkningene og -reduksjonene som eksemplene er baser
 > [!NOTE]  
 > Det resulterende antallet på lageret er null. Lagerverdien må derfor være null, uavhengig av lagermetoden.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases" />Virkningen økes av lagermetoder på verdisetting av lagerbeholdning
+### Virkningen økes av lagermetoder på verdisetting av lagerbeholdning  
 
 Lagerøkninger verdisettes som varens anskaffelseskost for varer som bruker andre lagermetoder som verdisettingsgrunnlag (**FIFO**, **LIFO**, **Gjennomsnitt** eller **Spesifikk**).  
 
@@ -75,11 +75,11 @@ Lagerøkninger verdisettes som varens anskaffelseskost for varer som bruker andr
 
     Når det gjelder varer som bruker lagermetoden **Standard**, verdisettes lagerøkningene til varens gjeldende standardkost.  
 
-#### <a name="standard" />Standard
+#### Standard  
 
 Når det gjelder varer som bruker lagermetoden **Standard**, verdisettes lagerøkningene til varens gjeldende standardkost.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases" />Virkningen reduseres av lagermetoder på verdisetting av lagerbeholdning
+### Virkningen reduseres av lagermetoder på verdisetting av lagerbeholdning
 
 - **FIFO**  
 
@@ -147,7 +147,7 @@ Når det gjelder varer som bruker lagermetoden **Standard**, verdisettes lagerø
     |01.03.20|-1|-10,00|**1**|5|  
     |01.04.20|-1|-30,00|**3**|6|  
 
-## <a name="see-also" />Se også
+## Se også
 
 [Utformingsdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)  
 [Utformingsdetaljer: Avvik](design-details-variance.md)  

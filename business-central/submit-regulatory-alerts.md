@@ -8,11 +8,11 @@ ms.search.keywords: null
 ms.date: 06/25/2021
 ms.author: soalex
 ---
-# <a name="submit-alerts-about-countryregion-specific-regulatory-features" />Sende varsler om lands-/regionsspesifikke forskriftsmessige funksjoner
+# Sende varsler om lands-/regionsspesifikke forskriftsmessige funksjoner
 
 Vi anbefaler at du bruker Microsoft Dynamics Lifecycle Services (LCS) til å sende lovmessige varsler gjennom tjenesten Forskriftsmessig Dynamics-varselsending.  
 
-## <a name="to-submit-a-regulatory-alert-in-lcs" />Sende forskriftsmessig varsel i LCS
+## Sende forskriftsmessig varsel i LCS
 
 1. Gå til [https://lcs.dynamics.com](https://lcs.dynamics.com) og logg på  
 
@@ -65,14 +65,14 @@ Vi anbefaler at du bruker Microsoft Dynamics Lifecycle Services (LCS) til å sen
 
       Når du har sendt varselet, får du en bekreftelse på at varselet er sendt til Microsoft.
 
-## <a name="see-also" />Se også
+## Se også
 
 [Lokal funksjonalitet i [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Endre språk og nasjonal innstilling](about-locale-language.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Velkommen til Business Central](welcome.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
