@@ -133,13 +133,13 @@ På **Produksjonsoppsett**-siden er **Komponenter ved lokasjon**-feltet angitt t
 
  ![Første eksempel på ordresporingsposter i tabellen Reservasjonspost.](media/supply_planning_RTAM_1.png "supply_planning_RTAM_1")  
 
-### <a name="entry-numbers--and-" />Løpenummer 8 og 9
+### <a name="entry-numbers-8-and-9" />Løpenummer 8 og 9
  Det opprettes sporingskoblinger for komponentbehov for henholdsvis PARTIA og PARTIB, fra behovet i tabell 5407, **Prod.ordrekomponent**, til forsyningen i tabell 32, **Varepost**. **Reservasjonsstatus**-feltet inneholder **Sporing** for å angi at disse postene er dynamiske sporingskoblinger mellom forsyning og behov.  
 
 > [!NOTE]  
 >  **Partinr.**-feltet er tomt på behovslinjene fordi partinumrene ikke er angitt på komponentlinjene i den frigitte produksjonsordren.  
 
-### <a name="entry-numbers-" />Løpenummer 10
+### <a name="entry-numbers-10" />Løpenummer 10
  Fra salgsbehov i tabell 37, **Salgslinje**, opprettes en sporingskobling til forsyning i tabell 5406, **Prod.ordrelinje**. **Reservasjonsstatus**-feltet inneholder **Reservasjon**, og **Bundet til**-feltet inneholder **Ordre-til-ordre**. Dette er fordi den frigitte produksjonsordren ble spesifikt generert for ordren og må forbli tilknyttet, i motsetning til sporingskoblinger med reservasjonsstatusen **Sporing**, som opprettes og endres dynamisk. Hvis du vil ha mer informasjon, kan du se delen Automatiske reservasjoner i dette emnet.  
 
  På dette tidspunktet i scenariet overføres de 100 enhetene av PARTIA og PARTIB til ØST lokasjon av en overføringsordre.  
@@ -151,12 +151,12 @@ På **Produksjonsoppsett**-siden er **Komponenter ved lokasjon**-feltet angitt t
 
  ![Andre eksempel på ordresporingsposter i tabellen Reservasjonspost.](media/supply_planning_RTAM_2.png "supply_planning_RTAM_2")  
 
-### <a name="entry-numbers--and-" />Løpenummer 8 og 9
+### <a name="entry-numbers-8-and-9" />Løpenummer 8 og 9
  Sporingsposter for de to komponentpartiene som gjenspeiler behov i tabell 5407, blir endret fra reservasjonsstatusen **Sporing** til **Overskudd**. Årsaken er at forsyningene som de var knyttet til før i tabell 32, er brukt av leveringen av overføringsordren.  
 
  Ekte overskudd, som i dette tilfellet gjenspeiler overflødige forsyning eller behov som forblir ikke-sporet. Dette er en indikasjon på ubalanse i ordrenettverket, som vil generere en handlingsmelding av planleggingssystemet med mindre det løses dynamisk.  
 
-### <a name="entry-numbers--to-" />Løpenummer 12 til 16
+### <a name="entry-numbers-12-to-16" />Løpenummer 12 til 16
  Siden de to partiene av komponenten bokføres på overføringsordren som levert, men ikke mottatt, er alle relaterte positive ordresporingsposter av reservasjonstypen **Overskudd**, som angir at de ikke er tilordnet til alle behov. For hver partinummer er én relatert til tabell 5741, **Overføringslinje**, og én post er relatert til vareposten på transittlokasjonen der varene finnes nå.  
 
  På dette tidspunktet i scenariet blir overføringsordren bokført som mottatt for komponenter fra ØST til VEST lokasjon.  
@@ -173,7 +173,7 @@ På **Produksjonsoppsett**-siden er **Komponenter ved lokasjon**-feltet angitt t
 
  ![Fjerde eksempel på ordresporingsposter i tabellen Reservasjonspost.](media/supply_planning_RTAM_4.png "supply_planning_RTAM_4")  
 
-### <a name="entry-numbers--and-" />Løpenummer 21 og 22
+### <a name="entry-numbers-21-and-22" />Løpenummer 21 og 22
  Siden komponentbehovet er endret til ØST lokasjon og forsyningen er tilgjengelig som vareposter i ØST lokasjon, blir nå alle sporingsposter for de to partinumrene fullstendig sporet, som angitt av reservasjonsstatusen **Sporing**.  
 
  **Partinr.**-feltet er nå fylt ut i sporingsposten for tabell 5407 fordi partinumrene ble tilordnet til produksjonsordrekomponentlinjene.  

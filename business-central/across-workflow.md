@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="workflows-in-dynamics--business-central" />Arbeidsflyter i Dynamics 365 Business Central
+# <a name="workflows-in-dynamics-365-business-central" />Arbeidsflyter i Dynamics 365 Business Central
 
 Du kan definere og bruke arbeidsflyter til å koble forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflytprosesser. Systemoppgaver kan innledes eller etterfølges av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn.
 

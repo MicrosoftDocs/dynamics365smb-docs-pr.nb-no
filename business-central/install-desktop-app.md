@@ -66,7 +66,7 @@ Forskjellen er når du har flere leietakere. I motsetning til [!INCLUDE[prod_sho
 > [!IMPORTANT]
 > Hvis du bruker Business Central 2021 lanseringsbølge 1 (versjon 18) eller tidligere, kan du ikke installere appen som beskrevet i denne artikkelen. Du må i stedet installere appen fra [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Hvis du vil ha mer informasjon og hjelp til å installere denne eldre appen, kan du se [Klargjøre for og installere Business Central-appen](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

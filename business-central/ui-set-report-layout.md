@@ -58,7 +58,7 @@ Det finnes noen få måter å angi hvilket oppsett en rapport bruker. Du kan få
 
 Rapporter er utformet for å bruke et oppsett som standard. Du kan gå tilbake til det opprinnelige standardoppsettet fra side for **Valg av rapportoppsett**. Bare merk rapporten, og velg deretter **Gjenopprett standardvalg**-handling øverst på siden.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

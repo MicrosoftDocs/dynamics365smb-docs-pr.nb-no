@@ -39,7 +39,7 @@ Det finnes hovedsakelig to oppgaver involvert i konfigurasjonen av et Excel-opps
 1. Opprett den nye filen for Excel-oppsett.
 2. Legg til det nye oppsettet i rapporten.
 
-## <a name="task--create-the-excel-layout-file" />Oppgave 1: Opprett filen for Excel-oppsett
+## <a name="task-1-create-the-excel-layout-file" />Oppgave 1: Opprett filen for Excel-oppsett
 
 Dette er tre måter å opprette en Excel-oppsettsfil for en rapport på.
 
@@ -58,13 +58,13 @@ Følg denne fremgangsmåten til å opprette et Excel-oppsett fra alle rapporter,
 
 Hvis det allerede finnes et Excel-oppsett for en rapport, kan du bruke det eksisterende oppsettet som et utgangspunkt. Det finnes to tilnærminger for å få en kopi av oppsettet. Du kan eksportere det eksisterende oppsettet fra siden **Rapportoppsett**, eller du kan laste ned oppsettet fra rapportens forespørselsside. Begge måter laster ned en Excel-oppsettsfil som inneholder alle arkene i den eksisterende filen. Forskjellen er at når du laster den ned fra en forespørselsside, omfatter oppsettet faktiske data. (Dataene er ikke nødvendige, men det hjelper å utforme oppsettet.)
 
-#### <a name="approach--export-the-layout-from-the-report-layouts-page" />Fremgangsmåte 1: Eksporter oppsettet fra siden **Rapportoppsett**
+#### <a name="approach-1-export-the-layout-from-the-report-layouts-page" />Fremgangsmåte 1: Eksporter oppsettet fra siden **Rapportoppsett**
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Velg Excel-oppsettet fra oversikten, og velg deretter handlingen **Eksporter oppsett** fra toppen av siden.
 3. Åpne filen i Excel, gjør endringene og lagre deretter filen.
 
-#### <a name="approach--download-the-layout-from-the-reports-request-page" />Fremgangsmåte 2: Last ned oppsettet fra rapportens forespørselsside
+#### <a name="approach-2-download-the-layout-from-the-reports-request-page" />Fremgangsmåte 2: Last ned oppsettet fra rapportens forespørselsside
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. På siden **Rapportoppsett** velger du et oppsett for rapporten, og deretter velger du **Kjør rapport**-handlingen.
@@ -77,7 +77,7 @@ Dette er den mest avanserte metoden for oppretting av et Excel-rapportoppsett. D
 
 ---
 
-## <a name="task--add-the-excel-layout-to-the-report" />Oppgave 2: Legg til Excel-oppsettet i rapporten
+## <a name="task-2-add-the-excel-layout-to-the-report" />Oppgave 2: Legg til Excel-oppsettet i rapporten
 
 Når du har Excel-oppsettsfilen, er den neste oppgaven å legge den til som et nytt oppsett for rapporten.
 

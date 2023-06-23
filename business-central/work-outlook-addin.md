@@ -122,7 +122,7 @@ Hvis du bruker Outlook-appen, velger du bare **Dokumentkobling** øverst i e-pos
 > Fra lanseringsbølge 1 for 2022 åpnes dokumenter i et nytt nettleservindu med alle funksjonene du kjenner fra [!INCLUDE [prod_short](includes/prod_short.md)]. Du kan navigere fra et dokument til en liste og tilbake, åpne lister i Excel, send dokumenter som skal skrives ut, og kjør eller forhåndsvis relaterte rapporter. Du har også alle de velkjente hurtigtastene direkte når du åpner dokumenter fra Outlook.  
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics--business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

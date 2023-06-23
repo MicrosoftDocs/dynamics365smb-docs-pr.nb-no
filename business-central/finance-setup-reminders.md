@@ -92,7 +92,7 @@ Hvis du oppretter flere purringer enn du har definert grader for, brukes betinge
 
 Når du har definert purrebetingelsene (med tilleggsgrader og tekst), registrerer du én av kodene på hvert kundekort. Hvis du vil ha mer informasjon, kan du se [Registrere nye kunder](sales-how-register-new-customers.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessend-reminders-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/send-reminders-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessend-reminders-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/send-reminders-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

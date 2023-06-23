@@ -90,14 +90,14 @@ Når du kjører kjørselen **Juster kostverdi - vareposter**, kan du kjøre kjø
 
 Følgende eksempel viser hva som skjer hvis du bokfører en kjøpt vare som mottatt og fakturert 01.01.20. Senere bokfører du den solgte varen som levert og fakturert 15.01.20. Deretter kjører du de satsvise jobbene **Juster kostverdi - vareposter** og **Bokfør lagerkost i Finans**. Følgende poster opprettes.  
 
-#### <a name="value-entries-" />Verdiposter (1)
+#### <a name="value-entries-1" />Verdiposter (1)
 
 |Bokføringsdato|Vareposttype|Kostbeløp (faktisk)|Bokført kost|Fakturert antall|Løpenr.|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01.01.20|Kjøp|10,00|10,00|1|1|  
 |15.01.20|Salg|-10,00|-10,00|-1|2|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Relasjonsposter i tabellen Finans – varepostrelasjon (1)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1" />Relasjonsposter i tabellen Finans – varepostrelasjon (1)
 
 |Finansløpenr.|Verdiløpenummer|Finansjournalnr.|  
 |-------------|---------------|----------------|  
@@ -106,7 +106,7 @@ Følgende eksempel viser hva som skjer hvis du bokfører en kjøpt vare som mott
 |3|2|1|  
 |4|2|1|  
 
-#### <a name="general-ledger-entries-" />Finansposter (1)
+#### <a name="general-ledger-entries-1" />Finansposter (1)
 
 |Bokføringsdato|Finanskonto|Kontonummer (En-US-demo)|Beløp|Løpenr.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -117,14 +117,14 @@ Følgende eksempel viser hva som skjer hvis du bokfører en kjøpt vare som mott
 
 Senere bokfører du et relatert varegebyr på LV 2,00 fakturert 10.02.20. Du kjører den satsvise jobben **Juster kostverdi - vareposter** og deretter **Bokfør lagerkost i Finans**. Kjørselen for kostjustering justerer kostnadene for salget tilsvarende med LV -2,00, og kjørselen **Bokfør lagerkost i Finans** bokfører de nye verdipostene i finans. Resultatet blir som følger.  
 
-#### <a name="value-entries-" />Verdiposter (2)
+#### <a name="value-entries-2" />Verdiposter (2)
 
 |Bokføringsdato|Vareposttype|Kostbeløp (faktisk)|Bokført kost|Fakturert antall|Justering|Løpenr.|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |10.02.20|Kjøp|2,00|2,00|0|Nei|3|  
 |15.01.20|Salg|-2,00|-2,00|0|Ja|4|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Relasjonsposter i tabellen Finans – varepostrelasjon (2)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2" />Relasjonsposter i tabellen Finans – varepostrelasjon (2)
 
 |Finansløpenr.|Verdiløpenummer|Finansjournalnr.|  
 |-------------|---------------|----------------|  
@@ -133,7 +133,7 @@ Senere bokfører du et relatert varegebyr på LV 2,00 fakturert 10.02.20. Du kj�
 |7|4|2|  
 |8|4|2|  
 
-#### <a name="general-ledger-entries-" />Finansposter (2)
+#### <a name="general-ledger-entries-2" />Finansposter (2)
 
 |Bokføringsdato|Finanskonto|Kontonummer (En-US-demo)|Beløp|Løpenr.|  
 |------------|-----------|------------------------|------|---------|  

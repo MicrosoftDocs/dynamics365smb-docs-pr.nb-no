@@ -49,7 +49,7 @@ Når du registrerer applikasjonen, vurder følgende punkt:
 
 [!INCLUDE[onedrive-url](includes/onedrive-url.md)]
 
-## <a name="set-up-the-onedrive-connection-in-version--and-later" />Konfigurere OneDrive-tilkoblingen i versjon 21 og senere
+## <a name="set-up-the-onedrive-connection-in-version-21-and-later" />Konfigurere OneDrive-tilkoblingen i versjon 21 og senere
 
 Bruk denne fremgangsmåten hvis du bruker Business Central lanseringsbølge 2 i 2022 (versjon 21) eller senere.
 
@@ -74,7 +74,7 @@ Bruk denne fremgangsmåten hvis du bruker Business Central lanseringsbølge 2 i 
    - Hvis du ikke allerede har opprettet den Azure AD-registrerte appen, åpnes veiviseren for **Azure Active Directory-oppsett**.
 6. Når dette er fullført, er personvernerklæringen for OneDrive-integrasjon avtalt for alle brukere. Hvis du vil endre den slik at brukere må godta eller være uenig for seg selv, kan du gå til siden **Siden Status for personvernerklæringer** og velge **La brukeren bestemme** for OneDrive-integrasjonen. Brukerne vil da bli bedt om å godta eller ikke godta personvernerklæringen første gang de bruker OneDrive-funksjonene. Hvis du vil ha mer informasjon, kan du se [Personvernerklæringer](privacy-notices-status.md).
 
-## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version--and-" />Konfigurere tilkobling i [!INCLUDE[prod_short](includes/prod_short.md)]-versjon 19 og 20
+## <a name="set-up-the-connection-in-includeprodshortincludesprodshortmd-version-19-and-20" />Konfigurere tilkobling i [!INCLUDE[prod_short](includes/prod_short.md)]-versjon 19 og 20
 
 Bruk denne fremgangsmåten hvis du bruker Business Central lanseringsbølge 1 for 2022 (versjon 20) eller lanseringsbølge 2 for 2021 (versjon 19).
 > [!IMPORTANT]
@@ -96,7 +96,7 @@ Bruk denne fremgangsmåten hvis du bruker Business Central lanseringsbølge 1 fo
 > [!IMPORTANT]
 > Siden **Tilkoblingsoppsett for SharePoint** for brukes til å konfigurere flere eldre funksjoner. **Generelt**-delen konfigurerer tilkoblingen til OneDrive, og delen **Delte dokumenter** omadresserer filer til SharePoint i stedet. **Tilkoblingsoppsett for SharePoint** er avskrevet og vil bli fjernet i neste lansering. Vi anbefaler at du ikke konfigurerer delen **Delte dokumenter**. Hvis du vil ha mer informasjon, se [Avskrevne funksjoner i basisprogrammet](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1#microsoft-sharepoint-connection-setup).
 
-## <a name="after-upgrade-to-version-" />Etter oppgradering til versjon 21
+## <a name="after-upgrade-to-version-21" />Etter oppgradering til versjon 21
 
 Når du oppgraderer til versjon 21 eller senere, vil den eksisterende tilkoblingen til OneDrive som er konfigurert på siden **Tilkoblingsoppsett for SharePoint-siden**, fortsatt fungere. Men siden **Tilkoblingsoppsett for SharePoint** vil bli fjernet i versjon 23, anbefaler vi at du bytter til den nye OneDrive-integrasjonen, som beskrevet i neste del. Denne bryteren gjør nå det enklere når **Tilkoblingsoppsett for SharePoint** blir fjernet. I tillegg kan du bruke assistert oppsettsveiledning for **OneDrive-oppsett** til å håndtere OneDrive-funksjonene som er tilgjengelige for brukerne.
 

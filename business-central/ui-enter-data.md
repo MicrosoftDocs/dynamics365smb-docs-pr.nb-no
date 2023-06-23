@@ -275,7 +275,7 @@ La oss for eksempel anta at du bruker et numerisk tastatur som bruker et punktum
 > [!TIP]
 > Det kan være tilfeller der du vil bruke desimalskilletegnet til å angi et punktum (.). La oss for eksempel anta at du skulle sette inn et datointervall i et filter, som `01/01/2022..04/01/2022` eller noe som krever et punktum. Du kan tilpasse dette tilfellet ved å velge tastene <kbd>Alt</kbd>+<kbd>desimalskilletegn</kbd> på det numeriske tastaturet. Denne tastekombinasjonen bytter desimalskilletegn mellom hver gang et punktum og desimalskilletegnet angis av **Område**-innstillingen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

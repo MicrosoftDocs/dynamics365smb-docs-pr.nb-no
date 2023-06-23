@@ -70,7 +70,7 @@ Med funksjonen aktiver kan en returtransaksjon bare bokføres ved å angi varepo
 | Angi standardrapporter som skal brukes for ulike dokumenttyper. |[Rapportvalg i Business Central](across-report-selections.md)|
 |Angi om brukere kan bokføre kjøpsfakturaer, og om de må bokføre dem sammen med en levering. |[Definer en fakturabokføringspolicy for brukere](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-related-training-at-microsoft-learnlearnpathstrade-get-started-dynamics--business-central" />Se relatert opplæring på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learnlearnpathstrade-get-started-dynamics-365-business-central" />Se relatert opplæring på [Microsoft Learn](/learn/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se også
 

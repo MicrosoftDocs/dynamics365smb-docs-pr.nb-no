@@ -189,7 +189,7 @@ For hver finanskonto kan du definere standarddimensjonsverdier i **Standarddimen
 > [!NOTE]  
 >  For å sørge for at det forhåndsdefinerte kostsenteret og kostobjekt som du setter opp i finans, overføres automatisk til kostregnskapet, kan du merke av for **Kontroller finansbokføringer** på siden Kostregnskapsoppsett.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

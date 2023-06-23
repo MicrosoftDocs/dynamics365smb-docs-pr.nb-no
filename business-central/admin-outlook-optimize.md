@@ -33,11 +33,11 @@ Hvis du vil oppdatere Outlook til den nyeste versjonen, følger du veiledningen 
 
 [Installer Office-oppdateringer](https://support.microsoft.com/office/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)
 
-## <a name="install-microsoft-edge-webview" />Installer Microsoft Edge WebView2
+## <a name="install-microsoft-edge-webview2" />Installer Microsoft Edge WebView2
 
 Kontroller at Microsoft Edge WebView2 er installert på enheten.
 
-### <a name="how-to-check-if-microsoft-edge-webview-is-installed" />Slik kontrollerer du om Microsoft Edge WebView2 er installert
+### <a name="how-to-check-if-microsoft-edge-webview2-is-installed" />Slik kontrollerer du om Microsoft Edge WebView2 er installert
 
 Hvis du vil kontrollere om du har Microsoft Edge WebView2 installert på en datamaskin, gjør du følgende:
 
@@ -52,7 +52,7 @@ Fra kontrollpanel:
 2. Velg **Programmer** > **Programmer og funksjoner**.
 3. Skriv inn **WebView2** i søkefeltet. Hvis Microsoft Edge WebView2 er installert, vises en oppføring kalt **Microsoft Edge WebView2 Runtime**.
 
-### <a name="how-to-install-microsoft-edge-webview" />Slik installerer du Microsoft Edge WebView2
+### <a name="how-to-install-microsoft-edge-webview2" />Slik installerer du Microsoft Edge WebView2
 
 1. Gå til [https://developer.microsoft.com/microsoft-edge/webview2/](https://developer.microsoft.com/microsoft-edge/webview2/) i nettleseren.
 2. Velg **Last ned**.

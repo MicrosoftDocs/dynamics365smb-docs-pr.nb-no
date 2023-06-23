@@ -8,7 +8,7 @@ ms.author: edupont
 ms.date: 05/25/2022
 ---
 
-# <a name="sign-up-for-a-free-dynamics--business-central-trial" />Registrer deg for en prøveversjon av Dynamics 365 Business Central
+# <a name="sign-up-for-a-free-dynamics-365-business-central-trial" />Registrer deg for en prøveversjon av Dynamics 365 Business Central
 
 Business Central tilbyr en prøveversjon. Etter en rask registrering får du tilgang til mange viktige funksjoner i appen. Ved hjelp av prøveversjonen kan du teste appen med eksempeldata. Hvis du vil prøve ting med dine egne data, kan du bytte til en 30 dagers prøveversjon. [Finn ut mer om Business Central-funksjoner](across-business-functionality.md).  
 
@@ -38,7 +38,7 @@ Du kan også kontakte [[!INCLUDE[prod_short](includes/prod_short.md)]-salgsteame
 
 Hvis du vil ha mer informasjon om hva du kan gjøre med [!INCLUDE [prod_short](includes/prod_short.md)], kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md) og [Forretningsfunksjoner](across-business-functionality.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="additional-resources" />Tilleggsressurser
 

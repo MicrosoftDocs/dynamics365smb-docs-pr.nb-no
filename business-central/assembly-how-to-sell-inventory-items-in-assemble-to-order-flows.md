@@ -47,7 +47,7 @@ I denne fremgangsmåten erstatter du montere-til-ordre-antall med lagerantall p�
 > [!CAUTION]  
 > **Hyllekode**-feltet på ordren kan inneholde verdien fra feltet **Hyllek. lev. fra m. til ordre** eller **Fra Hyllekode for montering** på lokasjonskortet. Hvis det gjør det, er kanskje **Hyllekode**-feltet på ordrelinjen feil for denne kombinasjonen av montere-til-ordre- og montere-til-lager-antall. Det er en god idé å dobbeltsjekke at hyllen i **Hyllekode**-feltet fungerer for alle antall. Du kan også angi to forskjellige antall på separate ordrelinjer.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

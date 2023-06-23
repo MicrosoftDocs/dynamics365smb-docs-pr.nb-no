@@ -11,7 +11,7 @@ ms.search.form: '256, 1205, 1206, 1209, 10810, 10811'
 ms.date: 07/06/2021
 ms.author: bholtorf
 ---
-# <a name="make-payments-with-the-amc-banking--fundamentals-extension-or-sepa-credit-transfer" />Betale med AMC Banking 365 Fundamentals-utvidelsen eller SEPA-kredittoverføring
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer" />Betale med AMC Banking 365 Fundamentals-utvidelsen eller SEPA-kredittoverføring
 
 Nå kan du behandle betalinger til leverandører på siden **Betalingskladd** ved å eksportere en fil sammen med betalingsinformasjonen fra kladdelinjene. Du kan deretter laste opp filen til nettbanken der de relaterte pengeoverføringene behandles. [!INCLUDE[prod_short](includes/prod_short.md)] støtter formatet for SEPA-kreidttoverføring, men andre formater for elektroniske betalinger kan være tilgjengelige i ditt land/region.
 
@@ -23,7 +23,7 @@ Nå kan du behandle betalinger til leverandører på siden **Betalingskladd** ve
 > [!NOTE]  
 > Når du har bekreftet at betalingene er behandlet av banken, kan du begynne å bokføre utbetalingskladdelinjene.  
 
-## <a name="setting-up-the-amc-banking--fundamentals-extension" />Konfigurere AMC Banking 365 Fundamentals-utvidelsen
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension" />Konfigurere AMC Banking 365 Fundamentals-utvidelsen
 
 Aktiver utvidelsen AMC Banking 365 Fundamentals for å konvertere en kontoutdragsfil til et format du kan importere, eller konvertere den eksporterte betalingsfilen til formatet som banken krever. Hvis du vil ha mer informasjon, kan du se [Bruk AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md).
 

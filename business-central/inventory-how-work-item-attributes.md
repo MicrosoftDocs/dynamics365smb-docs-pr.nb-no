@@ -81,7 +81,7 @@ Du kan også tilordne vareattributter til varekategorier, som deretter brukes p�
 
 Varene på siden **Varer** er filtrert etter de angitte verdiene for vareattributt.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" /><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" /><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" /><a name="see-also"></a>Se også
 

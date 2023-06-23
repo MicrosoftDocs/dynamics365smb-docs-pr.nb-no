@@ -87,7 +87,7 @@ Microsoft-partnere og -forhandlere kan opprette en app som de kan bruke til å k
 > [!NOTE]
 > Hvis du er en Microsoft-partner eller -forhandler, og du er interessert i å tilby en liste over anbefalte apper, kan du se [Anbefale apper fra AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) i administrasjonsinnholdet.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/customize-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescustomize-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/customize-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

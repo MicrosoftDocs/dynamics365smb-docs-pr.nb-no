@@ -184,7 +184,7 @@ Du kan importere og eksportere finansrapporter som RapidStart-konfigurasjonspakk
 > [!NOTE]
 > Når du importerer finansrapporter, vil eksisterende poster med samme navn som de du importerer, slettes.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-financial-reports-dynamics--business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/configure-financial-reports-dynamics-365-business-central/index).
+## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-financial-reports-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/configure-financial-reports-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Se også
 

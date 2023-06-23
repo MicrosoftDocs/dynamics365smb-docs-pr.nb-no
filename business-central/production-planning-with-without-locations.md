@@ -67,71 +67,71 @@ Feltet **Lokasjon obligatorisk** på siden **Lageroppsett** og feltet **Komponen
 
 Se variasjoner i oppsettsscenariene nedenfor.
 
-### <a name="setup-" />Oppsett 1
+### <a name="setup-1" />Oppsett 1
 
 * Lokasjon obligatorisk = *Ja*  
 * SKU defineres for *VEST*  
 * Komponenter ved lokasjon = *ØST*  
 
-#### <a name="case--demand-is-at-west-location" />Eksempel 1.1: Behovet er i *VEST* lokasjon
+#### <a name="case-11-demand-is-at-west-location" />Eksempel 1.1: Behovet er i *VEST* lokasjon
 
 Varen planlegges i henhold til planleggingsparametrene på LFE-kortet (inkludert mulig overføring).
 
-#### <a name="case--demand-is-at-east-location" />Eksempel 1.2: Behovet er i *ØST* lokasjon
+#### <a name="case-12-demand-is-at-east-location" />Eksempel 1.2: Behovet er i *ØST* lokasjon
 
 Varen planlegges i henhold til planleggingsparameterne på varekortet.
 
-#### <a name="case--demand-is-at-north-location" />Eksempel 1.3: Behovet er i *NORD* lokasjon
+#### <a name="case-13-demand-is-at-north-location" />Eksempel 1.3: Behovet er i *NORD* lokasjon
 
 Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* ( *Ordre* forblir *Ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
 
-#### <a name="case--demand-is-at-blank-location" />Eksempel 1.4: Behovet er i *TOM* lokasjon
+#### <a name="case-14-demand-is-at-blank-location" />Eksempel 1.4: Behovet er i *TOM* lokasjon
 
 Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* ( *Ordre* forblir *Ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
 
-### <a name="setup-" />Oppsett 2
+### <a name="setup-2" />Oppsett 2
 
 * Lokasjon obligatorisk = *Ja*  
 * LFE finnes ikke  
 * Komponenter ved lokasjon = *ØST*  
 
-#### <a name="case--demand-is-at-west-location" />Eksempel 2.1: Behovet er i *VEST* lokasjon
+#### <a name="case-21-demand-is-at-west-location" />Eksempel 2.1: Behovet er i *VEST* lokasjon
 
 Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* ( *Ordre* forblir *Ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
 
-#### <a name="case--demand-is-at-east-location" />Eksempel 2.2: Behovet er i *ØST* lokasjon
+#### <a name="case-22-demand-is-at-east-location" />Eksempel 2.2: Behovet er i *ØST* lokasjon
 
 Varen planlegges i henhold til planleggingsparameterne på varekortet.  
 
-### <a name="setup-" />Oppsett 3
+### <a name="setup-3" />Oppsett 3
 
 * Lokasjon obligatorisk = *Nei*  
 * LFE finnes ikke  
 * Komponenter ved lokasjon = *ØST*  
 
-#### <a name="case--demand-is-at-west-location" />Eksempel 3.1: Behovet er i *VEST* lokasjon
+#### <a name="case-31-demand-is-at-west-location" />Eksempel 3.1: Behovet er i *VEST* lokasjon
 
 Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* ( *Ordre* forblir *Ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
 
-#### <a name="case--demand-is-at-east-location" />Eksempel 3.2: Behovet er i *ØST* lokasjon
+#### <a name="case-32-demand-is-at-east-location" />Eksempel 3.2: Behovet er i *ØST* lokasjon
 
 Varen planlegges i henhold til planleggingsparameterne på varekortet.  
 
-#### <a name="case--demand-is-at-blank-location" />Eksempel 3.3: Behovet er i *TOM* lokasjon
+#### <a name="case-33-demand-is-at-blank-location" />Eksempel 3.3: Behovet er i *TOM* lokasjon
 
 Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* ( *Ordre* forblir *Ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
 
-### <a name="setup-" />Oppsett 4
+### <a name="setup-4" />Oppsett 4
 
 * Lokasjon obligatorisk = *Nei*  
 * LFE finnes ikke  
 * Komponenter ved lokasjon = *TOM*  
 
-#### <a name="case--demand-is-at-east-location" />Eksempel 4.1: Behovet er i *ØST* lokasjon
+#### <a name="case-41-demand-is-at-east-location" />Eksempel 4.1: Behovet er i *ØST* lokasjon
 
 Varen planlegges slik: Gjenbestillingsprinsipp = *Parti for parti* ( *Ordre* forblir *Ordre*), Ta med lagerbeholdning = *Ja*, alle andre planleggingsparametere = tomme.
 
-#### <a name="case--demand-is-at-blank-location" />Eksempel 4.2: Behovet er i *TOM* lokasjon
+#### <a name="case-42-demand-is-at-blank-location" />Eksempel 4.2: Behovet er i *TOM* lokasjon
 
 Varen planlegges i henhold til planleggingsparameterne på varekortet.
 
@@ -139,7 +139,7 @@ Som du ser i det siste scenariet, kan du bare få et riktig resultat for en beho
 
 Hvis du ofte planlegger for behov ved lokasjoner, anbefaler vi derfor at du bruker funksjonen Lagerføringsenheter.
 
-## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics--business-central" />Se relatert opplæring på [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learntrainingpathstrade-get-started-dynamics-365-business-central" />Se relatert opplæring på [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se også
 

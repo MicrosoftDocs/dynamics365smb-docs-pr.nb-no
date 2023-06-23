@@ -46,7 +46,7 @@ Når du har gjort et valg, angir du relevant søkeinformasjon i feltene øverst 
 > [!TIP]
 > Hvis du vil ha et par eksempler på hvordan du bruker **Søk etter poster**, kan du se [Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md) og [Gjennomgang: spore serie-/partinumre](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics--business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesuser-interface-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/user-interface-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

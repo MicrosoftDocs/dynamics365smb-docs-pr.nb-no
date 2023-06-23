@@ -26,7 +26,7 @@ Du kan bruke følgende sider til å opprette og analysere kostbudsjetter. Velg i
 |Se kostbudsjettjournaler og kostbudsjettposter.|Siden **Kostbudsjettjournaler**|  
 |Skrive ut budsjettsammenligninger ved hjelp av ulike rapporter.|Rapporten **Kostregnskap – saldo/budsjett**<br /><br /> Rapporten **Kostregnskap – utdrag/budsjett**<br /><br /> Rapporten **Kostbudsjett etter kostsenter**<br /><br /> Rapporten **Kostbudsjett etter kostobjekt**|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-reports-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescost-accounting-reports-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

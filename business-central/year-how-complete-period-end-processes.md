@@ -57,7 +57,7 @@ ms.author: jswymer
 
 * Fullfør avgiftsoppgaver.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/close-fiscal-year-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesclose-fiscal-year-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

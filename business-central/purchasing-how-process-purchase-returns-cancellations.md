@@ -181,7 +181,7 @@ Når returforsendelser kombineres i en kreditnota og bokføres, opprettes det en
 2. Fyll ut feltene etter behov, og klikk deretter **OK**.  
 3. Du kan også slette individuelle bestillingsreturer manuelt.
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 [Innkjøp](purchasing-manage-purchasing.md)  

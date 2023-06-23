@@ -51,7 +51,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 > [!TIP]
 > Avhengig av den geografiske plasseringen din kan enkelte Business Central-sider inneholde felter som ikke er beskrevet i artiklene ovenfor, fordi de gjelder lokale funksjoner eller tilpasninger. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

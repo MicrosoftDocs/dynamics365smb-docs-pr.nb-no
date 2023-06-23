@@ -51,7 +51,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 |Finn ut hvordan du arbeider med monteringsstykklister og hvordan de er forskjellige fra produksjonsstykklister.|[Arbeid med monteringsstykklister](assembly-how-work-assembly-boms.md)|
 |Finn ut mer om bokføring av monteringsforbruk og -avgang, og hvordan [!INCLUDE [prod_short](includes/prod_short.md)] distribuerer vare- og ressurskostnader til finans.|[Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

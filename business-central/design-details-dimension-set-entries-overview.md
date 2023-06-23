@@ -33,7 +33,7 @@ Når du oppretter en ny kladdelinje, et nytt dokumenthode eller en ny dokumentli
 
 Når du redigerer og lukker siden **Rediger dimensjonssettposter**, blir det utført en kontroll for å se om kombinasjonen av dimensjonsverdier eksisterer som et dimensjonssett i tabellen. Hvis kombinasjonen forekommer i tabellen, tilordnes den tilsvarende dimensjonssett-IDen til kladdelinjen, dokumenthodet eller dokumentlinjen. Ellers legges et nytt dimensjonssett til i tabellen, og den nye dimensjonssett-IDen tilordnes til kladdelinjen, dokumenthodet eller dokumentlinjen.
 
-## <a name="codeunit--dimension-management" />Dimensjonsbehandling for codeunit 408
+## <a name="codeunit-408-dimension-management" />Dimensjonsbehandling for codeunit 408
 Codeunit 408, dimensjonsbehandling, er et funksjonsbibliotek som håndterer vanlige oppgaver som er knyttet til dimensjoner, for eksempel kopiering fra én tabell til en annen eller fra ett dokument til et annet.
 
 ## <a name="performance-improvement" />Ytelsesforbedring

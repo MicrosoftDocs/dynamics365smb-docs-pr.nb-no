@@ -80,7 +80,7 @@ Aktivaposten ser for eksempel slik ut:
 | 06/30/27 |Avskrivning |180 |-6 250,00 |6,250.00 |
 | 12/31/27 |Avskrivning |180 |-6 250,00 |0 |
 
-## <a name="declining-balance--depreciation" />Saldo 1-avskrivning
+## <a name="declining-balance-1-depreciation" />Saldo 1-avskrivning
 
 Denne hurtige avskrivningsmetoden fordeler den største delen av aktivakostnaden til de tidlige årene av den effektive aktivalevetiden. Hvis du bruker denne metoden, må du angi en fast årlig prosentsats.  
 
@@ -92,7 +92,7 @@ Avskrivningsgrunnlaget beregnes som den bokførte verdien minus bokført avskriv
 
 Det bokførte avskrivningsbeløpet kan inneholde poster med ulike bokføringstyper (nedskriving, egendef. 1 og egendef. 2) som er bokført etter startdatoen for det inneværende regnskapsåret. Disse bokføringstypene inkluderes i det bokførte avskrivningsbeløpet hvis det er satt en hake i feltene **Avskrivningstype** og **Del av bokført verdi** på siden **Aktivabokf.type - oppsett**.  
 
-### <a name="example---declining-balance--depreciation" />Eksempel: Saldo 1-avskrivning
+### <a name="example---declining-balance-1-depreciation" />Eksempel: Saldo 1-avskrivning
 
 Et aktiva har en anskaffelseskost på LV 100 000. Verdien i feltet **Saldo-%** er 25. Kjørselen **Beregn avskrivninger** kjøres hvert halvår.  
 
@@ -122,11 +122,11 @@ Beregningsmetode:
 
 Beregningen fortsetter til den bokførte verdien tilsvarer sluttavrundingsbeløpet eller skrapverdien du angav.  
 
-## <a name="declining-balance--depreciation" />Saldo 2-avskrivning
+## <a name="declining-balance-2-depreciation" />Saldo 2-avskrivning
 
 Metodene Saldo 1 og Saldo 2 beregner det samme totale avskrivningsbeløpet for hvert år. Hvis du imidlertid utfører kjørselen **Beregn avskrivning** mer enn én gang i året, gir Saldo 1-metoden like avskrivningsbeløp for hver avskrivningsperiode. Saldo 2-metoden resulterer derimot i avskrivningsbeløp som avtar for hver periode.  
 
-### <a name="example---declining-balance--depreciation" />Eksempel – saldo 2-avskrivning
+### <a name="example---declining-balance-2-depreciation" />Eksempel – saldo 2-avskrivning
 
 Et aktiva har en anskaffelseskost på LV 100 000. Verdien i feltet **Saldo-%** er 25. Kjørselen **Beregn avskrivninger** kjøres hvert halvår. Aktivapostene ser slik ut:  
 
@@ -159,7 +159,7 @@ Avskrivningsverdiene er:
 | 06/30/21 |AB = 75 000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10 048,09 |
 | 12/31/21 |AB = 64 951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8 701,91 |
 
-## <a name="dbsl-depreciation" />Saldo 1 / lineær avskrivning
+## <a name="db1sl-depreciation" />Saldo 1 / lineær avskrivning
 
 PS1/L er en forkortelse for Saldo 1 og Lineær. Beregningen fortsetter til den bokførte verdien tilsvarer sluttavrundingsbeløpet eller skrapverdien du angav.  
 
@@ -169,7 +169,7 @@ Du kan bruke ulike prosentsatser til å beregne saldo.
 
 Hvis du bruker denne metoden, bruker du siden **Aktivaavskrivningstablå** til å angi hvilken effektiv levetid som er anslått, og en prosentsats for saldo.  
 
-### <a name="example---db-sl-depreciation" />Eksempel – saldo 1 / lineær avskrivning
+### <a name="example---db1-sl-depreciation" />Eksempel – saldo 1 / lineær avskrivning
 
 Et aktiva har en anskaffelseskost på LV 100 000. På siden **Aktivaavskrivningstablå** inneholder feltene **Saldo-%** og **Antall avskrivningsår** en prosentsats på henholdsvis 25 og 8. Kjørselen **Beregn avskrivninger** kjøres hvert halvår.  
 
@@ -246,7 +246,7 @@ Aktivapostene ser slik ut:
 | 12/31/24 |Avskrivning |360 |-20 000,00 |10,000.00 |
 | 12/31/25 |Avskrivning |180 |10 000,00 |0.00 |
 
-## <a name="example---dbsl-depreciation-using-half-year-convention" />Eksempel: PS1/L-avskrivning ved hjelp av halvårsavskrivning
+## <a name="example---db1sl-depreciation-using-half-year-convention" />Eksempel: PS1/L-avskrivning ved hjelp av halvårsavskrivning
 
 Et aktiva har en anskaffelseskost på LV 100 000. **Startdato for avskrivning** er 11/01/20. Den anslåtte levetiden er fem år, noe som innebærer at **Sluttdato for avskrivning** må være 06/30/25. På siden **Aktivaavskrivningstablå** er prosentsatsen i feltet **Saldo-%** 40. Kjørselen **Beregn avskrivning** kjøres årlig. Dette eksempelet baserer seg på et kalenderår i regnskapet.  
 

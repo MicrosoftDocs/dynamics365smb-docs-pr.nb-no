@@ -13,7 +13,7 @@ ms.author: edupont
 # <a name="design-details-table-structure" />Designdetaljer: Tabellstruktur
 For å forstå hvordan dimensjonsoppføringer lagres og bokføres, er det viktig å forstå tabellstrukturen.  
 
-## <a name="table--dimension-set-entry" />Tabell 480, Dimensjonssettpost
+## <a name="table-480-dimension-set-entry" />Tabell 480, Dimensjonssettpost
 Du kan ikke endre denne tabellen. Når data er skrevet til tabellen, kan du slette eller redigere dem.
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
@@ -25,7 +25,7 @@ Du kan ikke endre denne tabellen. Når data er skrevet til tabellen, kan du slet
 |5|**Dimensjonsnavn**|Tekst 30|CalcField. Oppslag i tabell 348.|  
 |6|**Navn på dimensjonsverdi**|Tekst 30|CalcField. Oppslag i tabell 349.|  
 
-## <a name="table--dimension-set-tree-node" />Tabell 481, Trenode for dimensjonssett
+## <a name="table-481-dimension-set-tree-node" />Tabell 481, Trenode for dimensjonssett
 Du kan ikke endre denne tabellen. Den brukes til å søke etter et dimensjonssett. Hvis dimensjonssettet ikke blir funnet, blir det opprettet et nytt sett.  
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
@@ -35,7 +35,7 @@ Du kan ikke endre denne tabellen. Den brukes til å søke etter et dimensjonsset
 |3|**Dimensjonssett-ID**|Heltall|AutoIncrement. Brukes i felt 1 i tabell 480.|  
 |4|**I bruk**|Boolsk|Usann hvis ikke i bruk.|  
 
-## <a name="table--reclas-dimension-set-buffer" />Tabell 482 Reklass. dimensjonssettbuffer
+## <a name="table-482-reclas-dimension-set-buffer" />Tabell 482 Reklass. dimensjonssettbuffer
 Denne tabellen brukes når du endrer en dimensjonsverdikode, for eksempel på en varepost ved hjelp av siden **Varereklassifiseringskladd**.  
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
@@ -56,7 +56,7 @@ I tillegg til andre dimensjonsfelt i denne tabellen er dette feltet viktig:
 |---------------|----------------|---------------|-------------|  
 |480|**Dimensjonssett-ID**|Heltall|Refererer til felt 1 i tabell 480.|  
 
-### <a name="table--item-journal-line" />Tabell 83, Varekladdlinje
+### <a name="table-83-item-journal-line" />Tabell 83, Varekladdlinje
 I tillegg til andre dimensjonsfelt i denne tabellen er disse feltene viktige:  
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
@@ -64,7 +64,7 @@ I tillegg til andre dimensjonsfelt i denne tabellen er disse feltene viktige:
 |480|**Dimensjonssett-ID**|Heltall|Refererer til felt 1 i tabell 480.|  
 |481|**Ny dimensjonssett-ID**|Heltall|Refererer til felt 1 i tabell 480.|  
 
-### <a name="table--dimension-value" />Tabell 349, Dimensjonsverdi
+### <a name="table-349-dimension-value" />Tabell 349, Dimensjonsverdi
 I tillegg til andre dimensjonsfelt i denne tabellen er disse feltene viktige:  
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  

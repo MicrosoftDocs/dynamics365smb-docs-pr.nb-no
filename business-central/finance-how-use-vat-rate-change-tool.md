@@ -100,7 +100,7 @@ Du bruker endringsverktøyet for mva-sats til å administrere endringer i standa
 > [!IMPORTANT]  
 > Etter konverteringen er feltet **Konvertert** i tabellen **Loggpost for mva-satsendring** valgt og feltet **Konvertert dato** i tabellen **Loggpost for mva-satsendring** viser konverteringsdatoen.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesrate-change-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/rate-change-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesrate-change-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/rate-change-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

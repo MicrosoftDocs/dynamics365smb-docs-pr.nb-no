@@ -62,7 +62,7 @@ I tillegg er hver betingelse i tabellen Rentenotatekst knyttet til en undertabel
 |%8|Innholdet i **Valutakode**-feltet i rentenotahodet|  
 |%9|Innholdet i **Bokføringsdato**-feltet i rentenotahodet|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessend-memos-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/send-memos-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessend-memos-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/send-memos-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

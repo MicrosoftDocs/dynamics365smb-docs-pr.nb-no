@@ -172,7 +172,7 @@ Når du angir kriterier, kan du bruke alle tallene og bokstavene du normalt kan 
 > [!TIP]
 > Hvis du bruker et numerisk tastatur, kan det hende at tasten for desimalskilletegn sender et annet tegn enn et punktum (.). For å bytte til et punktum velger du tastene <kbd>Alt</kbd>+<kbd>desimalskilletegn</kbd> på det numeriske tastaturet. Når du vil bytte tilbake, velger du <kbd>Alt</kbd>+<kbd>desimalskilletegnet</kbd> igjen. Se [Angi desimalskilletegnet som brukes av numeriske tastaturer](ui-enter-data.md#decimal) for mer informasjon.
 
-#### <a name="-eitheror" />(&#124;) Enten/eller
+#### <a name="124-eitheror" />(&#124;) Enten/eller
 
 |Eksempel|Viste poster|  
 |-----------------------|-----------------------|  
@@ -302,7 +302,7 @@ Bruk `%myvendors` i leverandørens **Nummer**-felt for å vise alle postene for 
 |-----------------------|-----------------------|  
 |`%myvendors`|Leverandører i vinduet **Mine leverandører** i rollesenteret. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

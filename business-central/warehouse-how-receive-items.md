@@ -92,7 +92,7 @@ Hvis hyller er obligatoriske for lokasjon, legges sone- og hyllekoder til i lage
 * For avanserte oppsett som bruker lagerstyring, bruker [!INCLUDE [prod_short](includes/prod_short.md)] mottakshyllekoden på siden **Lokasjonskort** for lokasjonen. Hvis det ikke er angitt noen mottakshyllekode, angis ingen hylle. Hvis varen og mottakshyllene ikke samsvarer, er koden for mottakshyllen tom.
 * Hvis det er angitt en mottakshyllekode i andre konfigurasjoner, bruker [!INCLUDE [prod_short](includes/prod_short.md)] hyllekoden fra kildedokumentet.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/receive-invoice-dynamics-d365-business-central/index).
 
 ## <a name="see-also" />Se også
 

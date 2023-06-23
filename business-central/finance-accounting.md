@@ -45,7 +45,7 @@ Vi har gjort det enkelt for deg å invitere den eksterne regnskapsføreren. Bare
 >
 > Denne oppgaven krever tilgang for å behandle brukere og lisenser i Azure Active Directory. Brukeren som sender denne invitasjonen, må tilordnes rollen som **Global administrator** eller **Brukeradministrator** i administrasjonssenteret for Microsoft 365. Hvis du vil ha mer informasjon, kan du se [Om administratorroller](/microsoft-365/admin/add-users/about-admin-roles) i Microsoft 365-administratorinnholdet.  
 
-### <a name="adding-your-accountant-to-your-microsoft--in-the-azure-portal" />Legge til regnskapsføreren din i Microsoft 365 i Azure Portal
+### <a name="adding-your-accountant-to-your-microsoft-365-in-the-azure-portal" />Legge til regnskapsføreren din i Microsoft 365 i Azure Portal
 
 Hvis administratoren eller videresalgspartneren din ikke vil bruke veiledningen **Inviter ekstern regnskapsfører**, kan de legge til en ekstern bruker i Azure Portal og tilordne denne brukeren lisensen for *Ekstern regnskapsfører*. Hvis du vil ha mer informasjon, kan du se [Hurtigstart: Legge til gjestebrukere i katalogen i Azure-portalen](/azure/active-directory/b2b/b2b-quickstart-add-guest-users-portal).
 

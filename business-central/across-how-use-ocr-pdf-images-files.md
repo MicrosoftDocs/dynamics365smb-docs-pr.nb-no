@@ -120,7 +120,7 @@ Siden **OCR-datakorrigering**, som du åpner fra siden **Inngående dokumenter**
 
 Feltene i hurtigfanen **Økonomisk informasjon** på siden **Inngående dokumenter**, oppdateres med nye verdier du angav i trinn 4.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

@@ -63,15 +63,15 @@ Diagrammet nedenfor illustrerer utgående lagerprosesser for ulike typer dokumen
 
 :::image type="content" source="media/design-details-warehouse-management-outbound-basic-flow.png" alt-text="Viser trinnene i en grunnleggende utgående flyt på et lager.":::
 
-### <a name="-release-a-source-document" />1: Frigi et kildedokument
+### <a name="1-release-a-source-document" />1: Frigi et kildedokument
 
 Når du bruker handlingen **Frigi** i et kildedokument, for eksempel en ordre eller overføringsordre, er varene i dokumentet klare til å håndteres i lageret. For eksempel plukket og plassert i hyllen som er angitt i dokumentet. Du kan også opprette lagerplukkdokumenter for enkelte ordrelinjene på ordrer med en push-metode, basert på angitte hyller og antall som skal håndteres.  
 
-### <a name="-create-an-inventory-pick" />2: Opprett et lagerplukk
+### <a name="2-create-an-inventory-pick" />2: Opprett et lagerplukk
 
 På siden **Lagerplukking**  henter lagerarbeideren, i en hent-måte, kildedokumentlinjene. Det kan også hende at lagerplukklinjene allerede er opprettet med en push-metode, av brukeren som er ansvarlig for kildedokumentet.  
 
-### <a name="-post-an-inventory-pick" />3: Bokfør et lagerplukk
+### <a name="3-post-an-inventory-pick" />3: Bokfør et lagerplukk
 
 På hver linje for varer som er plukket eller flyttet, helt eller delvis, fyller du ut feltet **Antall** og bokfører deretter lagerplukket. Kildedokumenter som er knyttet til lagerplukkingen, bokføres som levert eller forbrukt.  
 
@@ -83,28 +83,28 @@ Diagrammet nedenfor illustrerer utgående lagerprosesser for ulike typer dokumen
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Viser trinnene i en avansert utgående lagerflyt.":::
 
-### <a name="-release-a-source-document" />1: Frigi et kildedokument
+### <a name="1-release-a-source-document" />1: Frigi et kildedokument
 
 Å frigi et kildedokument i avanserte oppsett gjør det likt for enkle oppsett. Varene blir tilgjengelige for behandling i lageret. De kan for eksempel inkluderes i en levering.  
 
-### <a name="-create-a-warehouse-shipment" />2: Opprett en lagerlevering
+### <a name="2-create-a-warehouse-shipment" />2: Opprett en lagerlevering
 
 På siden **Lagerlevering** hentes linjene fra det frigitte kildedokumentet. Du kan kombinere linjer fra flere kildedokumentlinjer i én lagerlevering.  
 
-### <a name="-create-a-warehouse-pick" />3: Opprett et lagerplukk
+### <a name="3-create-a-warehouse-pick" />3: Opprett et lagerplukk
 
 På siden **Lagerlevering** oppretter du lagerplukkaktiviteter for lagerleveringer på en av to måter:
 
 - På en push-måte, der du bruker **Opprett plukk**-handlingen. Velg linjene som skal plukkes, og klargjør plukkingene ved å angi hvilke hyller det skal tas fra og hvilke det skal plasseres i, og hvor mange enheter som skal håndteres. Hyllene kan være forhåndsdefinert for lagerlokasjonen eller ressursen.
 - På en pull-måte, der du bruker **Frigi**-handlingen. På siden **Plukkforslag** kan lagerarbeidere bruke handlingen **Hent lagerdokumenter** til å få tildelt plukkinger. Når lagerplukkingene er fullstendig registrert, slettes linjene i **Plukkforslag**.
 
-### <a name="-register-a-warehouse-pick" />4: Registrer et lagerplukk
+### <a name="4-register-a-warehouse-pick" />4: Registrer et lagerplukk
 
 På siden **Lagerplukk** fyller lagermedarbeider ut feltet **Antall** for hver linje som er fullstendig eller delvis plukket, og registrerer plukket.
 
 Lagerposter opprettes, og lagerplukklinjene slettes hvis hele antallet ble plukket. Lagerplukkdokumentet holdes åpent til hele antallet for lagerleveringen er registrert. Feltet **Plukket ant.** på lagerleveringslinjene oppdateres tilsvarende.  
 
-### <a name="-post-the-warehouse-shipment" />5: Bokfør lagerleveringen
+### <a name="5-post-the-warehouse-shipment" />5: Bokfør lagerleveringen
 
 Når alle varene i lagerleveringsdokumentet er registrert som plukket, bokfører lagermedarbeideren leveringen. Bokføring oppdaterer varepostene slik at de gjenspeiler reduksjonen i lageret. Eksempel: Feltet **Levert (antall)** i den utgående kildedokumentlinjen oppdateres.  
 

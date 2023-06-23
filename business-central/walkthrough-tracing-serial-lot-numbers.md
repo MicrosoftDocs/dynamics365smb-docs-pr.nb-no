@@ -282,7 +282,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
  Kvalitetskontrolløren brukte **Varesporing**-siden til å finne ut at PARTI1 inneholdt de defekte racersykkelrammene, hvem som leverte dem, og hvilken bokført transaksjon de er brukt i. Han må nå finne ut om PARTI1 finnes i noen åpne dokumenter ved å integrere fra sporingsresultatet til **Søk etter poster**-siden der han kan foreta et søk gjennom alle databaseposter.  
 
-### <a name="to-find-all-occurrences-of-lot-in-non-posted-records-such-as-open-orders" />Slik finner du alle forekomster av PARTI1 i poster som ikke er bokført, for eksempel åpne ordrer:
+### <a name="to-find-all-occurrences-of-lot1-in-non-posted-records-such-as-open-orders" />Slik finner du alle forekomster av PARTI1 i poster som ikke er bokført, for eksempel åpne ordrer:
 
 1.  Velg den første sporingslinjen på siden **Varesporing**, kjøpsmottaket for PARTI1.  
 2.  Velg handlingen **Søk etter poster**.  

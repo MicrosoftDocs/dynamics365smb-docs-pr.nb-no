@@ -61,7 +61,7 @@ Du må opprette en app i Tradeshift App Store for å kunne koble til Business Ce
 
 Hvis du foretrekker å lagre app-ID-en og -hemmeligheten på en annen plassering, kan du la feltene klient-ID og klienthemmelighet stå tomme og skrive en utvidelse for å hente ID-en og hemmeligheten fra plasseringen. Du kan gi hemmeligheten under kjøring ved å abonnere på hendelsene OnGetClientId og OnGetClientSecret i codeunit 1410, Administrasjon av dokumentutvekslingstjeneste.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/electronic-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmoduleselectronic-documents-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/electronic-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

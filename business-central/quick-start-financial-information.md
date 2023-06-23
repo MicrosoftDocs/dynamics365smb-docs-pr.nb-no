@@ -79,7 +79,7 @@ Bankkontoer i [!INCLUDE[prod_short](includes/prod_short.md)] registrere banktran
    Feltet er forskjellig fra feltet **Bankkontonr.** også tilgjengelig på hurtigfanen **Generelt**.
 4. Fyll ut feltene på siden **Leverandørs bankkort** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics--business-central" />Se relatert opplæring på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
+## <a name="see-related-training-at-microsoft-learnlearnpathsset-up-financial-management-dynamics-365-business-central" />Se relatert opplæring på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se også
 

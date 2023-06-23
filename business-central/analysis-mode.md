@@ -50,7 +50,7 @@ I dataanalysemodusen er siden delt inn i to områder:
 - Hovedområdet, som består av dataområdet (1), sammendragslinjen (2) og fanelinjen (5)
 - Området for datamanipulering, som består av to ruter: kolonner (3) og analysefiltre (4).
 
-### <a name="data-area-" />Dataområde (1)
+### <a name="data-area-1" />Dataområde (1)
 
 Dataområdet er der radene og kolonnene på listesiden vises og data summeres. Dataområdet er en allsidig måte å kontrollere kolonneutformingen på og en rask måte å få et sammendrag av dataene på. For kolonner som inneholder numeriske verdier, vises summen av alle verdiene i kolonnen i en siste rad, med mindre du har definert radgrupper. I dette tilfellet vises summene som en delsum for gruppene.  
 
@@ -64,7 +64,7 @@ Dataområdet er der radene og kolonnene på listesiden vises og data summeres. D
 - Bruk dataområdet til å samhandle med dataene. Når det gjelder kolonner som inneholder numeriske, summerte verdier, kan du få en beskrivende statistikk for et sett med felter ved å merke dem. Statistikken vises på statuslinjen (2) langs bunnen av siden.
 - Eksporter data i Excel- eller CSV-format. Du bare høyreklikker på dataområdet eller et utvalg celler du vil eksportere.
 
-### <a name="summary-bar-" />Sammendragslinje (2)
+### <a name="summary-bar-2" />Sammendragslinje (2)
 
 Sammendragslinjen er langs bunnen av siden og viser statistikk om dataene i listen. Når du samhandler med kolonner med verdier som kan summeres, for eksempel når du merker flere rader i en kolonne som viser beløp, oppdateres dataene.
 
@@ -83,7 +83,7 @@ Tabellen nedenfor beskriver de ulike numrene som vises i totaler-området.
 |Maks|Maksimumsverdien i alle valgte summerte felter.|
 |Sum|Summen av alle verdiene i de valgte summerte feltene.|
 
-### <a name="columns-" />Kolonner (3)
+### <a name="columns-3" />Kolonner (3)
 
 **Kolonnene** er en av to ruter som arbeider sammen for å definere analysen. Det andre området er **Analysefiltre**-ruten. **Kolonne**-ruten brukes til å summere dataene. Bruk **Kolonner**-ruten til å definere hvilke kolonner som skal være med i analysen.
 
@@ -98,7 +98,7 @@ Tabellen nedenfor beskriver de ulike numrene som vises i totaler-området.
 
 Velg grip-ikonet hvis du vil flytte et felt fra et område til et annet ![Viser en oversikt over en side i analysemodusen](media/column-grab-icon.png) ved siden av kolonnen i listen ovenfor, og dra den til målområdet. Du forhindres fra å flytte et felt til et område hvor det ikke er tillatt.
 
-### <a name="analysis-filters-" />Analysefiltre (4)
+### <a name="analysis-filters-4" />Analysefiltre (4)
 
 Med **Analysefiltre**-ruten kan du angi flere data filtre i kolonner for å begrense oppføringene i oversikten. Angi filtre på kolonner for å begrense oppføringene i oversikten, og etterfølgende summer med bare de postene du er interessert i. basert på et kriterium du definerer. La oss for eksempel anta at du bare er interessert i data for en bestemt kunde eller salgsordre som overstiger et bestemt beløp. Når du skal definere et filter, merker du kolonnen, velger sammenligningsoperasjonen fra listen (som **Er lik** eller **Begynner med**), og deretter angir du verdien.
 
@@ -107,7 +107,7 @@ Med **Analysefiltre**-ruten kan du angi flere data filtre i kolonner for å begr
 > [!NOTE]
 > De ekstra filtrene gjelder bare for den gjeldende analysefanen. Dette gjør at du kan definere nøyaktig de ekstra datafiltrene som trengs for en bestemt analyse.
 
-### <a name="tabs-" />Faner (5)
+### <a name="tabs-5" />Faner (5)
 
 I faneområdet øverst kan du opprette forskjellige konfigurasjoner (kolonner og analysefiltre) i separate faner, der du kan manipulere dataene i fanene uavhengig av hverandre. Det finnes alltid minst én fane, kalt **Analysis 1** som standard. Det er nyttig å legge til flere faner for å lagre ofte brukte analysekonfigurasjoner i et datasett. Det kan for eksempel tenkes at du har faner for å analysere data i pivotmodus, og andre faner som filtrerer til et delsett med rader. Noen faner kan vise en detaljert visning med mange kolonner, og andre viser bare noen få nøkkelkolonner.
 

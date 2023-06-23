@@ -24,7 +24,7 @@ Kostregnskap brukes til å hjelpe deg med å forstå kostnadene ved å drive et 
 |Lær prosessene for oppretting av kostbudsjetter.|[Opprette kostbudsjetter](finance-create-cost-budgets.md)|
 |Annullere kostbudsjettoppføringer fra kostbudsjettjournalen.|[Slette kostbudsjettposter](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathsuse-cost-accounting-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/use-cost-accounting-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 [Finans](finance.md)  

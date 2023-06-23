@@ -14,11 +14,11 @@ Bruk e-postadressen for jobb eller skole. Vi etablerer prøveversjonen på organ
 
 Denne appen er en skybasert tjeneste som ikke krever annen programvare enn en oppdatert nettleser, men noen restriksjoner gjelder.  
 
-### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft--tenant" />Hvordan registrerer jeg meg for prøveversjonen uten en Microsoft 365-leier?
+### <a name="how-do-i-sign-up-for-the-trial-without-a-microsoft-365-tenant" />Hvordan registrerer jeg meg for prøveversjonen uten en Microsoft 365-leier?
 
 Du kan ikke det. Bruk en e-postadresse for jobb eller skole.
 
-### <a name="can-i-sign-up-for-other-dynamics--apps-such-as-sales-marketing-and-customer-service" />Kan jeg registrere meg for andre Dynamics 365-apper som Sales, Marketing og Customer Service?
+### <a name="can-i-sign-up-for-other-dynamics-365-apps-such-as-sales-marketing-and-customer-service" />Kan jeg registrere meg for andre Dynamics 365-apper som Sales, Marketing og Customer Service?
 
 Ja, det kan du. Hvis du vil vise alle tilgjengelige prøveversjoner, [kan du gå til siden for prøveversjonssenteret](https://dynamics.microsoft.com/dynamics-365-free-trial). Du kan bruke den samme e-postkontoen til å registrere deg for ulike prøveversjoner.<!-- However, it is not possible to have multiple apps on the same trial site. Each trial will be on a different org and URL. The trial data won’t be shared across apps.-->
 

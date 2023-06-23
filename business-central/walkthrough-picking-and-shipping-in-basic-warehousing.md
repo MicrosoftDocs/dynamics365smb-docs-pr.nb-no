@@ -77,7 +77,7 @@ For å kunne bruke denne funksjonaliteten må du legge deg selv til på lokasjon
   3. Velg SØR i feltet **Lokasjonskode**.  
   4. Velg feltet **Standard**, og velg deretter **Ja**-knappen.  
 
-### <a name="making-item--s-available" />Gjøre vare 1928-S tilgjengelig
+### <a name="making-item-1928-s-available" />Gjøre vare 1928-S tilgjengelig
 
 For å gjøre varen 1928-S tilgjengelig på SØR-plasseringen følger du denne fremgangsmåten:  
 

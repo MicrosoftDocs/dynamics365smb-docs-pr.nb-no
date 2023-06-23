@@ -16,7 +16,7 @@ Denne artikkelen svarer på vanlige spørsmål om Shopify-koblingen.
 
 Shopify er et abonnementsbasert program som gjør det mulig for alle å opprette en nettbutikk og selge produkter. Shopify-plattformen tilbyr nettforhandlere for en rekke tjenester for innbetalinger, markedsføring, levering og kundeengasjement.
 
-## <a name="what-is-the-microsoft-dynamics--business-central-shopify-connector" />Hva er Microsoft Dynamics 365 Business Central Shopify-koblingen?
+## <a name="what-is-the-microsoft-dynamics-365-business-central-shopify-connector" />Hva er Microsoft Dynamics 365 Business Central Shopify-koblingen?
 
 Med Shopify-koblingen kan virksomheter koble Shopify-butikken (eller butikkene) sammen med [!INCLUDE[prod_short](../includes/prod_short.md)] for å maksimere produktiviteten. Ved å bruke Shopify-koblingen kan de få tilgang til og administrere innsikt fra virksomheten og Shopify-nettbutikken som én enhet.
 

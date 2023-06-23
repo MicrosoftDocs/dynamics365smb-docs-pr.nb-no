@@ -16,7 +16,7 @@ Når du lukker en side etter å ha redigert et sett med dimensjoner, undersøker
 ## <a name="building-search-tree" />Bygge søketre
  Tabell 481 **Trenode for dimensjonssett** brukes når [!INCLUDE[prod_short](includes/prod_short.md)] vurderer om et sett med dimensjoner allerede finnes i tabell 480 **Dimensjonssettpost**. Evalueringen utføres ved å traversere søketreet rekursivt fra det øverste nivået, som har fått nummeret 0. Det øverste nivået 0 representerer et dimensjonssett uten dimensjonssettposter. De underordnede elementene for dette dimensjonssettet representerer dimensjonssett med bare én dimensjonssettpost. De underordnede elementene for disse dimensjonssettene representerer dimensjonssett med to underordnede elementer og så videre.  
 
-### <a name="example-" />Eksempel 1
+### <a name="example-1" />Eksempel 1
  Diagrammet nedenfor representerer et søketre med seks dimensjonssett. Bare den spesielle dimensjonssettposten vises i diagrammet.  
 
  ![Eksempel på dimensjonstrestruktur.](media/nav2013_dimension_tree.png "Eksempel på dimensjonstrestruktur")  
@@ -33,7 +33,7 @@ Når du lukker en side etter å ha redigert et sett med dimensjoner, undersøker
 |Sett 5|AREA 40|  
 |Sett 6|AREA 40, PROJ VW|  
 
-### <a name="example-" />Eksempel 2
+### <a name="example-2" />Eksempel 2
  Dette eksemplet viser hvordan [!INCLUDE[prod_short](includes/prod_short.md)] vurderer om det finnes et dimensjonssett som består av dimensjonssettpostene AREA 40, DEPT PROD.  
 
  Først oppdaterer [!INCLUDE[prod_short](includes/prod_short.md)] også tabellen **Trenode for dimensjonssett** for å sikre at søketreet ser ut som diagrammet nedenfor. Dimensjonssett 7 blir dermed underordnet dimensjonssett 5.  

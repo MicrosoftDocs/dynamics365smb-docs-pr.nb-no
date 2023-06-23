@@ -42,7 +42,7 @@ Du kan også slette de individuelle ordrene manuelt.
 
 Gjenta trinn 1 til 3 for eventuelle andre berørte dokumenter, for eksempel bestillinger.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/processing-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/processing-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

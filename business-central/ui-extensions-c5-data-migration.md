@@ -12,7 +12,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-c-data-migration-extension" />Utvidelsen C5-datamigrering
+# <a name="the-c5-data-migration-extension" />Utvidelsen C5-datamigrering
 
 Denne utvidelsen gjør det enkelt å overføre kunder, leverandører, varer og konti fra Microsoft Dynamics C5 2012 til [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan også overføre historiske poster for finanskonti.
 

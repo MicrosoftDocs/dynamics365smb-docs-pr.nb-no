@@ -179,7 +179,7 @@ Følg denne fremgangsmåten hvis du vil endre navnet og beskrivelsen for et bruk
     > Du kan finne oppsettet ved å bruke **søkefeltet**, **filtreringsruten** og kolonnesorteringen.
 3. Endre **oppsettsnavnet** og velg deretter **OK**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics--business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

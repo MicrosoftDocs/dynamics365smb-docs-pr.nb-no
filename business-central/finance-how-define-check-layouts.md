@@ -45,7 +45,7 @@ I oppdatering 15.3 og nyere kan MICR-skrifter installeres og være tilgjengelige
 > [!NOTE]
 > Av sikkerhetsgrunner og rettslige grunner kan du ikke laste opp egendefinerte skrifter til [!INCLUDE[prod_short](includes/prod_short.md)]-miljøet.
 
-### <a name="micr-e-b-specifications" />MICR E-13B-spesifikasjoner
+### <a name="micr-e-13b-specifications" />MICR E-13B-spesifikasjoner
 
 Følgende summerer spesifikasjoner for MICR E-13B-skriftene som kan være nyttige når du kalibrerer skrifter for å være på sjekkoppsett med spesifikke MICR-skrivere.
 
@@ -57,7 +57,7 @@ Følgende summerer spesifikasjoner for MICR E-13B-skriftene som kan være nyttig
 
 Den fullstendige spesifikasjonen av MICR E-13B-skrifter finnes i dokumentasjonen for leverandøren her: (https://www.idautomation.com/micr-fonts/e13b/).
 
-### <a name="micr-cmc--specifications" />MICR CMC-7-spesifikasjoner
+### <a name="micr-cmc-7-specifications" />MICR CMC-7-spesifikasjoner
 
 Følgende CMC-7-skrifter er tilgjengelige i [!INCLUDE[prod_short](includes/prod_short.md)] online:
 

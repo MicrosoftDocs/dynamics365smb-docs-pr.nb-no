@@ -33,20 +33,20 @@ Følgende eksempel viser hvordan vareposter, verdiposter og vareutligningsposter
 
  Du bokfører en bestilling som mottatt og fakturert for 10 varer med en direkte enhetskost på LV 7 og en sats for indirekte kostnader på LV 1. Bokføringsdatoen er 01-01-20. Følgende poster opprettes:  
 
-### <a name="item-ledger-entries-" />Vareposter (1)
+### <a name="item-ledger-entries-1" />Vareposter (1)
 
 |Bokføringsdato|Posttype|Kostbeløp (faktisk)|Antall|Løpenr.|  
 |------------|----------|--------------------|--------|---------|  
 |01.01.20|Kjøp|80,00|10|1|  
 
-### <a name="value-entries-" />Verdiposter (1)
+### <a name="value-entries-1" />Verdiposter (1)
 
 |Bokføringsdato|Posttype|Kostbeløp (faktisk)|Varepostnr.|Løpenr.|  
 |------------|----------|--------------------|---------------------|---------|  
 |01.01.20|Kjøpspris/prod.kost|70,00|1|1|  
 |01.01.20|Indirekte kost|10,00|1|2|  
 
-### <a name="item-application-entries-" />Vareutligningsposter (1)
+### <a name="item-application-entries-1" />Vareutligningsposter (1)
 
 |Løpenr.|Varepostnr.|Inngående vareløpenr.|Utgående vareløpenr.|Antall|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -54,19 +54,19 @@ Følgende eksempel viser hvordan vareposter, verdiposter og vareutligningsposter
 
  Deretter bokfører du et salg på 10 enheter av varen med posteringsdatoen 15.01.20.  
 
-### <a name="item-ledger-entries-" />Vareposter (2)
+### <a name="item-ledger-entries-2" />Vareposter (2)
 
 |Bokføringsdato|Posttype|Kostbeløp (faktisk)|Antall|Løpenr.|  
 |------------|----------|--------------------|--------|---------|  
 |15.01.20|Salg|-80,00|-10|2|  
 
-### <a name="value-entries-" />Verdiposter (2)
+### <a name="value-entries-2" />Verdiposter (2)
 
 |Bokføringsdato|Posttype|Kostbeløp (faktisk)|Varepostnr.|Løpenr.|  
 |------------|----------|--------------------|---------------------|---------|  
 |15.01.20|Kjøpspris/prod.kost|-80,00|2|3|  
 
-### <a name="item-application-entries-" />Vareutligningsposter (2)
+### <a name="item-application-entries-2" />Vareutligningsposter (2)
 
 |Løpenr.|Varepostnr.|Inngående vareløpenr.|Utgående vareløpenr.|Antall|  
 |---------|---------------------|----------------------|-----------------------|--------|  
@@ -78,7 +78,7 @@ På slutten av en regnskapsperiode, kjører du den satsvise jobben **Bokfør lag
 
  Tabellene nedenfor viser resultatet av å avstemme lagertransaksjonene med Finans i dette eksemplet.  
 
-### <a name="value-entries-" />Verdiposter (3)
+### <a name="value-entries-3" />Verdiposter (3)
 
 |Bokføringsdato|Posttype|Kostbeløp (faktisk)|Bokført kost|Varepostnr.|Løpenr.|  
 |------------|----------|--------------------|------------------|---------------------|---------|  
@@ -86,7 +86,7 @@ På slutten av en regnskapsperiode, kjører du den satsvise jobben **Bokfør lag
 |01.01.20|Indirekte kost|10,00|10,00|1|2|  
 |15.01.20|Kjøpspris/prod.kost|-80,00|-80,00|2|3|  
 
-### <a name="general-ledger-entries-" />Finansposter (3)
+### <a name="general-ledger-entries-3" />Finansposter (3)
 
 |Bokføringsdato|Finanskonto|Kontonummer (En-US-demo)|Beløp|Løpenr.|  
 |------------|-----------|------------------------|------|---------|  
@@ -104,7 +104,7 @@ På slutten av en regnskapsperiode, kjører du den satsvise jobben **Bokfør lag
 
  Relasjonen mellom verdiposter og finansposter lagres i tabellen **Finans - varepostrelasjon**.  
 
-### <a name="relation-entries-in-the-gl--item-ledger-relation-table-" />Relasjonsposter i tabellen Finans – varepostrelasjon (3)
+### <a name="relation-entries-in-the-gl--item-ledger-relation-table-3" />Relasjonsposter i tabellen Finans – varepostrelasjon (3)
 
 |Finansløpenr.|Verdiløpenummer|Finansjournalnr.|  
 |-------------|---------------|----------------|  

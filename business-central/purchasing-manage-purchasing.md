@@ -43,7 +43,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathspurchase-items-services-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/paths/purchase-items-services-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathspurchase-items-services-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

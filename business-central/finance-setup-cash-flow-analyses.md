@@ -134,7 +134,7 @@ Du kan også opprette din egen prediktive webtjeneste basert på en felles model
 7. Utvid hurtigfanen **Azure AI**, og fyll deretter ut feltene, inkludert nettadressen for API og API-nøkkelen som er oppgitt fra Azure Machine Learning Studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. I rollesenteret for regnskapsfører velger du handlingen **Omberegn prognose** under diagrammet **Kontantstrømprognose**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics--business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

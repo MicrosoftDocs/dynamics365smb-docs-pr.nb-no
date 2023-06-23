@@ -119,7 +119,7 @@ Du kan opprette direkte betalte fakturaer for kunder som ikke er registrert ved 
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics--business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/invoicing-customers-dynamics-365-business-central/index).
+## <a name="see-related-microsoft-trainingtrainingmodulesinvoicing-customers-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/invoicing-customers-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Se også
 

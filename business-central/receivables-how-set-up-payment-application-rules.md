@@ -74,7 +74,7 @@ Tabellen nedenfor beskriver standardreglene for betalingsutligning i [!INCLUDE[p
 | Lav              | 4        | Nei                    | Nei                             | Ett treff                      |
 | Lav              | 5        | Nei                    | Nei                             | Flere treff               |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreconciliation-journals-dynamics--business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-trainingtrainingmodulesreconciliation-journals-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md)  

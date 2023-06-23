@@ -167,7 +167,7 @@ Du kan som administrator for [!INCLUDE[prod_short](includes/prod_short.md)] onli
 
 For lokal [!INCLUDE[prod_short](includes/prod_short.md)] kan du for eksempel behandle økter som bruker SQL Server Management Studio. Hvis du vil ha mer informasjon, kan du se [teknisk dokumentasjon for SQL Server](/sql/sql-server).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesusers-security-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/users-security-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesusers-security-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/users-security-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

@@ -84,7 +84,7 @@ Du kan definere et standardoppsett for maler og kladder for hvert enkelt avskriv
 3. Hvis du vil bruke et standardoppsett for alle brukerne, velger du **Bruker-ID**-feltet som skal velges fra siden **Brukere**.  
 4. Velg kladdemalen eller kladden som skal brukes som standard i de andre feltene.  
 
-## <a name="fiscal-year--days-field-depreciation" />Regnskapsår 365 dager-feltavskriving
+## <a name="fiscal-year-365-days-field-depreciation" />Regnskapsår 365 dager-feltavskriving
 
 Når kjørselen Beregn avskrivninger beregner avskrivninger, brukes vanligvis et standardisert år på 360 dager, der hver av de 12 månedene har 30 dager.
 

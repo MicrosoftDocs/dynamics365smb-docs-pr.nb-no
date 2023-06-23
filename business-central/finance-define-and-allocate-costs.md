@@ -70,7 +70,7 @@ Tabellen nedenfor viser hvilke filtre som kan brukes for ulike fordelingsgrunnla
 |Solgte varer (beløp)|Varenr.|Ja|Ja|Ja|Bokføringsgruppe - lager|  
 |Kjøpte varer (beløp)|Varenr.|Ja|Ja|Ja|Bokføringsgruppe - lager|
 
-## <a name="scenario--defining-static-allocations-based-on-allocation-ratio" />Scenario 1: Definere statiske fordelinger basert på fordelingsgrad
+## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio" />Scenario 1: Definere statiske fordelinger basert på fordelingsgrad
 
 Statisk fordelingsmetode er basert på en bestemt verdi, for eksempel kvadratmeteren som brukes, eller et fastsatt fordelingsforhold, for eksempel 5:2:4.  
 
@@ -110,7 +110,7 @@ Dette emnet beskriver hvordan du definerer tre nye kostobjekter for fordelingsm�
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] beregner automatisk **Prosent**-feltet ved å bruke en prosentsats som er avhengige av alle de tre fordelingsforholdene som er angitt i **Del**-feltet for alle de tre linjene.
 
-## <a name="scenario--defining-dynamic-allocations-based-on-items-sold" />Scenario 2: Definere dynamiske fordelinger basert på solgte varer
+## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold" />Scenario 2: Definere dynamiske fordelinger basert på solgte varer
 
 Dette emnet viser et eksempel på hvordan du kan definere fordelinger ved hjelp av metoden dynamisk tildeling. I eksemplet endrer du dynamisk fordeling av kostnadene for SALG-kostsenteret slik at det støtter det nye kostobjektet IT-UTSTYR. IT-UTSTYR-pakker har varenumre i området fra 8904-W til 8924-W. Du kan bruke salgstall for fjoråret til å beregne andelen. Tildelingen er bokført til hjelpekosttype 9903.  
 
@@ -137,7 +137,7 @@ Dette emnet viser et eksempel på hvordan du kan definere fordelinger ved hjelp 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] bruker forrige års salgstall til å beregne en andel av 1596,50 LV med 100 prosent for IT-UTSTYR-pakker. Dette betyr at alle varene som er solgt det siste året vil bli fordelt til kostobjektet IT-UTSTYR.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/allocate-costs-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/allocate-costs-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

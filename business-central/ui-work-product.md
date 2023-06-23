@@ -80,7 +80,7 @@ Når du søker etter en åpen listeside, for eksempel **Ordrer**-listen, er den 
 
 Men når du åpner den samme listesiden fra startsiden din, er ikke **Administrer**-handlingen til stede. Hvis du vil åpne en individuell ordre, velger du bare **Nummer**-feltet. I denne visningen kan du ikke feste handlingslinjen.  
 
-## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

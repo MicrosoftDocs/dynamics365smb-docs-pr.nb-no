@@ -29,7 +29,7 @@ Hvis det arbeider flere innkjøpere i selskapet, kan du definere dem på en side
 2. Åpne det aktuelle leverandørkortet for leverandøren du vil tilordne en innkjøper.
 3. I feltet **Innkjøperkode** velger du den aktuelle innkjøperkoden og lukker deretter siden.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

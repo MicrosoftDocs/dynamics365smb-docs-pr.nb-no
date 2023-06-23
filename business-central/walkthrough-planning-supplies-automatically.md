@@ -138,7 +138,7 @@ Uttrykk som «kjør planlegging» og «kjør MRP» refererer til beregningen av 
 
  Planleggingslinjen for vare 1300 (Kjedemontering) inneholder et forslag på ti stykker. Dette avviker fra de fem delene som vi forventer å trenge for å oppfylle salgsordren. Fortsett med å vise ordresporingspostene.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />Slik viser du ordresporingsposter for element 1300:
+### <a name="to-view-order-tracking-entries-for-item-1300" />Slik viser du ordresporingsposter for element 1300:
 
 1.  Merk planleggingslinjen for vare 1300, og velg deretter **Sporing**-handlingen.  
 
@@ -234,7 +234,7 @@ Uttrykk som «kjør planlegging» og «kjør MRP» refererer til beregningen av 
 
  Flere planleggingslinjer ganske enkelt multipliseres med tre for å gi 15 tursykler i stedet for 5, og forfallsdatoene flyttes tilbake i tid for å gi de økte antallene basert på leveringsdatoen for salgsordren til Kontorkomplett AS. Alle antall kan spores for disse planleggingslinjene. De gjenværende planleggingslinjene økes med ti stykker i tillegg til at forfallsdatoene flyttes. For disse planleggingslinjene er en del av antallene ikke-sporet på grunn av ulike planleggingsparametre. Fortsett med å vise noen av disse ordresporingspostene.  
 
-### <a name="to-view-order-tracking-entries-for-item-" />Slik viser du ordresporingsposter for element 1250:
+### <a name="to-view-order-tracking-entries-for-item-1250" />Slik viser du ordresporingsposter for element 1250:
 
 1.  Merk planleggingslinjen for vare 1250, og velg deretter **Sporing**-handlingen.  
 

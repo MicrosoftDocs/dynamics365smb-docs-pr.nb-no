@@ -153,7 +153,7 @@ Feltene under hurtigfanen **Avansert** setter begrensninger på den genererte ra
 > [!NOTE]
 > Maksimumsverdiene kan være forskjellige for [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, og en administrator kan endre dem. Finn ut mer i delen [Konfigurere Business Central Server – Rapporter](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Hvis du vil ha en oversikt over rapportbegrensninger i [!INCLUDE[prod_short](includes/prod_short.md)] online, kan du se [Driftsgrenser](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se også
 

@@ -89,7 +89,7 @@ Koblingen mellom rammeordren og den opprinnelige salgsordren, og eventuelle andr
 
 5. På siden **Salgslinjer** velger du handlingen **Vis dokument** for å vise posten.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

@@ -345,7 +345,7 @@ Hvis du vil se hvilken enhet som brukes i et varighetsfelt, skriver du inn et ta
 
 Tallet 5 konverteres for eksempel til 5 timer hvis enheten er timer.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics--business-central" />Se relatert [Microsoft-opplæring](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 
