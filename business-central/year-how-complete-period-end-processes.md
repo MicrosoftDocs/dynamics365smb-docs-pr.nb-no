@@ -10,11 +10,11 @@ ms.search.keywords: 'year closing, close accounting period, close fiscal year, a
 ms.date: 08/29/2022
 ms.author: jswymer
 ---
-# <a name="overview-of-tasks-to-close-accounting-periods" />Oversikt over oppgaver for lukking av regnskapsperioder
+# <a name="overview-of-tasks-to-close-accounting-periods"></a>Oversikt over oppgaver for lukking av regnskapsperioder
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tvinger deg ikke å lukke perioder, men det er mange aktiviteter ved periodeslutt (månedsslutt) du kan gjøre. Dette emnet gir en oversikt over valgfrie prosesser og aktiviteter for lukking av perioder.  
 
-## <a name="general-ledger" />Finans
+## <a name="general-ledger"></a>Finans
 
 * Angi systemomfattende og brukerspesifikke bokføringsperioder.  
 
@@ -25,7 +25,7 @@ ms.author: jswymer
 * Kjør finansrapporter på følgende måte:  
   * Åpne siden **Finansrapporter** og velg **Skriv ut**-handlingen.  
 
-## <a name="sales-and-receivables" />Salg
+## <a name="sales-and-receivables"></a>Salg
 
 * Bokfør alle ordrer, fakturaer, kreditnotaer og ordrereturer.  
 * Bokfør alle innbetalingskladder.  
@@ -33,7 +33,7 @@ ms.author: jswymer
 * Avstem kortsiktige fordringer mot Finans.  
 * Kjør kjørselen **Slett fakturerte ordrer**.  
 
-## <a name="purchases-and-payables" />Kjøp
+## <a name="purchases-and-payables"></a>Kjøp
 
 * Bokfør alle bestillinger, fakturaer, kreditnotaer og ordrereturer.  
 * Bokfør alle utbetalingskladder.  
@@ -41,7 +41,7 @@ ms.author: jswymer
 * Kjør rapporten **Aldersfordelt saldoliste - lev.**, og avstem leverandørgjeld mot Finans.  
 * Kjør kjørselen **Slett fakturerte bestillinger**.  
 
-## <a name="fixed-assets" />Aktiva
+## <a name="fixed-assets"></a>Aktiva
 
 * Bokfør all vedlikeholdskost som har blitt bokført gjennom aktivakladdene eller fakturaene.
 * Bokfør justeringer.
@@ -49,17 +49,17 @@ ms.author: jswymer
 * Bokfør avskrivning.
 * Oppdater og bokfør gjentakende aktivakladd.
 
-## <a name="intercompany" />Konserninternt
+## <a name="intercompany"></a>Konserninternt
 
 * Behandle konserninterne transaksjoner.
 
-## <a name="calculate-and-process-sales-tax" />Beregn og behandle mva.
+## <a name="calculate-and-process-sales-tax"></a>Beregn og behandle mva.
 
 * Fullfør avgiftsoppgaver.  
 
-## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/close-fiscal-year-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/close-fiscal-year-dynamics-365-business-central/)
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Avslutte år og perioder](year-close-years-periods.md)  
 [Avslutte tablåer](year-close-books.md)  

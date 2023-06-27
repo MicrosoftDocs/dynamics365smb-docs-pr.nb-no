@@ -10,7 +10,7 @@ ms.search.keywords: 'relationship, prospect'
 ms.date: 08/30/2022
 ms.author: edupont
 ---
-# <a name="create-contacts" />Opprette kontakter
+# <a name="create-contacts"></a>Opprette kontakter
 
 Når du utvikler en forretningsforbindelse med noen i et annet selskap, legger du dem til som en kontakt i [!INCLUDE[prod_short](includes/prod_short.md)]. Deretter legger du til informasjon om dem, eller selskapet, som kan være nyttig i fremtidig kommunikasjon. Du kan opprette følgende kontakttyper på siden **Kontaktkort**:
 
@@ -28,7 +28,7 @@ Når en kontakt for eksempel konverteres til en kunde, blir kontaktpersonen elle
 >
 > Hvis du allerede bruker den innebygde funksjonaliteten til å opprette kunder eller varer automatisk, støtter ikke denne funksjonsoppdateringen egendefinerte felter, og nylig opprettede kunder eller varer vil ikke inneholde slike data.
 
-## <a name="to-create-a-contact-manually" />Slik oppretter du en kontakt manuelt
+## <a name="to-create-a-contact-manually"></a>Slik oppretter du en kontakt manuelt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kontakter**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
@@ -37,7 +37,7 @@ Når en kontakt for eksempel konverteres til en kunde, blir kontaktpersonen elle
    Hvis du har definert en nummerserie for kontakter på siden **Markedsføringsoppsett**, kan du eventuelt velge <kbd>Enter</kbd> for å sette inn det neste tilgjengelige kontaktnummeret.
 4. Fyll ut feltene som gjenstår, etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account" />Slik oppretter du en kontakt fra en kunde, leverandør eller bankkonto
+## <a name="to-create-a-contact-from-a-customer-vendor-or-bank-account"></a>Slik oppretter du en kontakt fra en kunde, leverandør eller bankkonto
 
 Hvis du har eksisterende kunder, leverandører og bankkontoer du vil opprette kontaktkort for, kan du bruke de satsvise jobbene **Opprett kontakter fra**. Når du oppretter en kontakt på denne måten, synkroniseres kontaktinformasjonen senere med relatert informasjon om kunden, leverandøren eller bankkontoen. Finn ut mer under [Synkroniser kontakter med kunder, leverandører, ansatte og bankkontoer](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
@@ -56,7 +56,7 @@ De neste kontaktnumrene i nummerserien tilordnes de nye kontaktene. Forretningsf
 > [!TIP]  
 > Du kan også gjøre dette på motsatt måte, ved å opprette en kunde, leverandør, ansatt eller bankkonto fra en kontakt. Finn ut mer i delen [Slik oppretter du en kontakt, leverandør, ansatt eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 
-## <a name="to-create-a-customer-vendor-employee-or-bank-account-from-a-contact" />Opprette en kunde, leverandør, ansatt eller bankkonto fra en kontakt
+## <a name="to-create-a-customer-vendor-employee-or-bank-account-from-a-contact"></a>Opprette en kunde, leverandør, ansatt eller bankkonto fra en kontakt
 
 Hvis du har en kunde, leverandør, ansatt eller bankkonto for selskapet som du vil opprette en kontakt for, kan du bruke handlingen **Opprett som**. Når du oppretter en kontakt på denne måten, synkroniseres kontaktinformasjonen senere med relatert informasjon om kunden, leverandøren, den ansatte eller bankkontoen. Finn ut mer under [Synkroniser kontakter med kunder, leverandører og bankkontoer](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).<!--Should this link include "Employees" as per the section title below?-->
 
@@ -70,7 +70,7 @@ Hvis du har en kunde, leverandør, ansatt eller bankkonto for selskapet som du v
 
 Kontaktinformasjonen overføres fra kontaktkortet til et nytt kunde-, leverandør-, ansatt- eller bankkontokort. Noen ganger kan det være nødvendig å legge til spesifikke opplysninger på hvert kort, for eksempel fakturerings- og betalingsopplysninger. Se [Registrer nye kunder](sales-how-register-new-customers.md) for å se et eksempel.
 
-## <a name="to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account" />Slik knytter du en kontakt til en eksisterende kunde, leverandør, ansatt eller bankkonto
+## <a name="to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account"></a>Slik knytter du en kontakt til en eksisterende kunde, leverandør, ansatt eller bankkonto
 
 Hvis du har en kontakt og enten en kunde, leverandør, ansatt eller bankkonto for samme selskap, kan du knytte de to enhetene, slik at data synkroniseres.
 
@@ -80,7 +80,7 @@ Hvis du har en kontakt og enten en kunde, leverandør, ansatt eller bankkonto fo
 4. I feltet **Nåværende hovedfelter** angir feltene som skal prioriteres hvis det er motstridende opplysninger i felter som er felles for den eksisterende kontakten og kunden, leverandøren, den ansatte eller bankkontoen. Hvis for eksempel selgerkodene er forskjellige for kontakten og kunden, kan du velge å beholde det på kontaktkortet ved å velge **Kontakt**.
 5. Velg **OK**.
 
-## <a name="to-remove-a-link-between-a-contact-and-an-existing-customer-vendor-employee-or-bank-account" />Slik fjerner du en kobling mellom en kontakt og en eksisterende kunde, leverandør, ansatt eller bankkonto
+## <a name="to-remove-a-link-between-a-contact-and-an-existing-customer-vendor-employee-or-bank-account"></a>Slik fjerner du en kobling mellom en kontakt og en eksisterende kunde, leverandør, ansatt eller bankkonto
 
 Hvis du har utilsiktet knyttet en kontakt til en kunde, leverandør, ansatt eller bankkonto, fjerner du koblingen mellom enhetene slik at data ikke lenger synkroniseres.
 
@@ -92,7 +92,7 @@ Hvis du har utilsiktet knyttet en kontakt til en kunde, leverandør, ansatt elle
 > [!NOTE]  
 > Du må ikke bruke vinduet **Forretningsforbindelser** når du skal endre eksisterende relasjoner. Du må i stedet fjerne relasjonen og bruke handlingen **Koble med eksisterende**. Finn ut mer i delen [Slik knytter du en kontakt til en eksisterende kunde, leverandør eller bankkonto](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
-## <a name="synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts" />Synkronisere kontakter med kunder, leverandører, ansatte og bankkontoer
+## <a name="synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts"></a>Synkronisere kontakter med kunder, leverandører, ansatte og bankkontoer
 
 Hvis en del av kontaktene også er kunder, leverandører, ansatte eller bankkonti, kan du synkronisere dem med data fra kontakten og få følgende fordeler:
 
@@ -112,12 +112,12 @@ Det er tre måter du kan aktivere datasynkronisering på mellom kontakter og kun
 * Når du oppretter kunder, leverandører, ansatte eller bankkonti fra kontakter. Finn ut mer i delen [Slik oppretter du en kontakt, leverandør, ansatt eller bankkonto fra en kontakt](marketing-create-contact-companies.md#to-create-a-customer-vendor-employee-or-bank-account-from-a-contact).
 * Når du knytter kontakter til eksisterende kunder, leverandører, ansatte eller bankkontoer fra kontaktkortet. Finn ut mer i delen [Slik knytter du en kontakt til en eksisterende kunde, leverandør eller bankkonto](marketing-create-contact-companies.md#to-link-a-contact-to-an-existing-customer-vendor-employee-or-bank-account).
 
-## <a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to" />Slik viser du hvilken kunde, leverandør, ansatt eller bankkonto en kontakt er relatert til
+## <a name="to-view-which-customer-vendor-employee-or-bank-account-a-contact-is-related-to"></a>Slik viser du hvilken kunde, leverandør, ansatt eller bankkonto en kontakt er relatert til
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kontakter**, og velg deretter den relaterte koblingen.
 2. Velg linjen for en kontakt, velg handlingen **Relatert informasjon**, og velg deretter **Kunde/leverandør/bankkonto/ansatt**.
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Administrere kontakter](marketing-contacts.md)  
 [Konfigurere kontakter](marketing-setup-contacts.md)  

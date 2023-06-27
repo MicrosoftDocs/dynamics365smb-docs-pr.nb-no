@@ -12,7 +12,7 @@ ms.date: 08/01/2021
 ms.author: jswymer
 ---
 
-# <a name="finding-pages-with-the-role-explorer" />Finne sider med rolleutforskeren
+# <a name="finding-pages-with-the-role-explorer"></a>Finne sider med rolleutforskeren
 
 Du kan få en oversikt over alle forretningsfunksjonene som er tilgjengelige for din rolle, og for andre roller hvis du går videre. I følgende dokumentasjon kalles denne funksjonsoversikten *rolleutforskeren*.
 
@@ -20,7 +20,7 @@ Hvert element i rolleutforskeren er en handling som åpner en side. Du kan også
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="open-the-role-explorer" />Åpne rolleutforskeren
+## <a name="open-the-role-explorer"></a>Åpne rolleutforskeren
 
 Du kan åpne rolleutforskeren fra rollesenteret og alle listesider og fra **Fortell meg**-vinduet.
 
@@ -29,7 +29,7 @@ Du kan åpne rolleutforskeren fra rollesenteret og alle listesider og fra **Fort
 
 Første gang du åpner rollesenteret, viser det koblinger til de fleste funksjonene som er tilgjengelige for din rolle.
 
-## <a name="navigate-features" />Naviger funksjoner
+## <a name="navigate-features"></a>Naviger funksjoner
 
 Handlingene som åpner sider, er ordnet under noder som er oppkalt etter funksjonene eller modulene. Hver node kan skjules eller utvides enkeltvis, og du kan skjule/utvide alle noder samtidig.
 
@@ -37,11 +37,11 @@ Handlingene som åpner sider, er ordnet under noder som er oppkalt etter funksjo
 - Hvis du vil vise/skjule alle noder på øverste nivå på siden, men beholde undernodene som de er, velger du **...** øverst og velger deretter **Vis** eller **Skjul**.
 - Hvis du vil vise/skjule alle noder på øverste nivå og alle undernoder under den, velger du **...** øverst og velger deretter **Vis alle** eller **Skjul alle**.
 
-## <a name="search-for-features" />Søk etter funksjoner
+## <a name="search-for-features"></a>Søk etter funksjoner
 
 Du kan raskt finne funksjoner ved å velge **Søk** og deretter skrive inn et ord eller uttrykk for funksjonen du prøver å finne. Rollesenteret vil merke all tilsvarende tekst. Hvis en funksjon er skjult fra visning i skjult node, markeres den skjulte noden med en prikk. 
 
-## <a name="explore-other-roles" />Utforsk andre roller
+## <a name="explore-other-roles"></a>Utforsk andre roller
 
 Du kan utforske andre roller enn dine egne ved å velge **Utforsk flere roller**. Rollesenteret viser hver rolle under sin egen overskrift, med koblinger til funksjonene i den. Du kan deretter navigere og finne funksjoner på samme måte som når du utforsker rollen.
 
@@ -57,7 +57,7 @@ Når du utforsker andre roller, kan du også avgrense utforskeren ved hjelp av *
 > For utviklere kategoriserer du sider og rapporter ved å angi [UsageCategory-egenskapen](/dynamics365/business-central/dev-itpro/developer/properties/devenv-usagecategory-property) i objektets Al-kode.
 <!--
  
-## <a name="role-explorer-actions" />Role explorer actions
+## <a name="role-explorer-actions"></a>Role explorer actions
 
 There a several actions along the top of the role explorer to help you locate features of your role and other roles.
 
@@ -80,7 +80,7 @@ Choose the **Explore more roles** action at the top of the role explorer to get 
 > Only Role Center actions for profiles where the **Show in Role Explorer** check box is selected will appear on the extended version of the role explorer (shown with the **Explore more roles** action). For more information, see [Manage Profiles](admin-users-profiles-roles.md).
 -->
 
-## <a name="expand-and-collapse-nodes-on-the-role-explorer" />Vi og skjul noder i rolleutforskeren
+## <a name="expand-and-collapse-nodes-on-the-role-explorer"></a>Vi og skjul noder i rolleutforskeren
 
 Handlingene som åpner sider, er ordnet under noder som er oppkalt etter funksjonene eller modulene. Hver node kan skjules eller utvides enkeltvis, og du kan skjule/utvide alle noder samtidig.
 
@@ -90,7 +90,7 @@ Handlingene som åpner sider, er ordnet under noder som er oppkalt etter funksjo
   - Velg <kbd>Ctrl</kbd>+<kbd>Skift</kbd> mens du velger handlingen **Utvid** eller **Skjul** i øvre høyre hjørne.
   - Velg **...** i øvre høyre hjørne, og velg deretter **Vis alle** eller **Skjul alle**.
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 [Finne sider og informasjon med Fortell meg](ui-search.md)  
 [Administrere profiler](admin-users-profiles-roles.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

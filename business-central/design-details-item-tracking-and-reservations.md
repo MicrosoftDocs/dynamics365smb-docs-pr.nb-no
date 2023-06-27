@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-item-tracking-and-reservations" />Designdetaljer: Varesporing og reservasjoner
+# <a name="design-details-item-tracking-and-reservations"></a>Designdetaljer: Varesporing og reservasjoner
 
 Samtidig bruk av reservasjon og bestemt varesporing er uvanlig, fordi begge oppretter en kobling mellom forsyning og behov. Med unntak av tilfeller der en kunde- eller produksjonsplanlegger ber om et bestemt parti, er det sjelden fornuftig å reservere lagervarer som allerede har varesporingsnumre for et bestemt utligning. Selv om det er mulig å reservere varer som krever en bestemt varesporing, kreves det spesialfunksjoner for å unngå tilgjengelighetskonflikter mellom ordrebehandlere som krever de samme varesporede varene.  
   
@@ -37,12 +37,12 @@ Hovedforskjellen på spesifikk og ikke-spesifikk reservasjon angis av serie- ell
   
 Når du reserverer lagerantall fra en linje i et utgående dokument for en vare som har fått tilordnet varesporingsnumre, og er opprettet for spesifikk varesporing, blir du ledet gjennom ulike arbeidsflyter på **Reservasjon**-siden, avhengig av behovet for serie- eller partinumrene.  
   
-## <a name="specific-reservation" />Spesifikk reservasjon
+## <a name="specific-reservation"></a>Spesifikk reservasjon
 Når du velger **Reserver** på linjen i det utgående dokumentet, vises en dialogboks der du blir spurt om du vil reservere bestemte serie- eller partinumre. Hvis du velger **Ja**, vil det vises en liste med alle serie- eller partinumrene som er tilordnet til dokumentlinjen. Siden **Reservasjon** åpnes når du har valg et av serie- eller partinumrene, og deretter kan du reservere blant de valgte serie- eller partinumrene på vanlig måte.  
   
 Hvis noen av de spesifikke varesporingsnumre som du prøver å reservere holdes i ikke-spesifikke reservasjoner, vil en melding nederst på siden **Reservasjon** informere deg om hvor mange av totalt reservert antall som holdes i ikke-spesifikke reservasjoner og om de fremdeles er tilgjengelige.  
   
-## <a name="nonspecific-reservation" />Ikke-spesifikk reservasjon
+## <a name="nonspecific-reservation"></a>Ikke-spesifikk reservasjon
 Hvis du velger **Ingen** i dialogboksen som vises, åpnes siden **Reservasjon**, og dette lar deg reservere blant alle serie- eller partinumre i lageret.  
   
 På grunn av strukturen i reservasjonssystemet må systemet velge bestemte vareposter å reservere mot, når du plasserer en uspesifisert reservasjon på en varesporet vare. Siden varepostene inneholder varesporingsnumrene, reserverer reservasjonen indirekte bestemte serie- eller partinumre, selv om du ikke hadde tenkt å gjøre dette. For å håndtere denne situasjonen prøver reservasjonssystemet å stokke om ikke-spesifikke reservasjonsposter før bokføring.  
@@ -52,24 +52,24 @@ Systemet reserverer faktisk fortsatt mot bestemte poster, men deretter bruker de
 > [!NOTE]  
 >  Parti- eller serienummerfeltet er tomt i reservasjonsposten i en ikke-spesifikk reservasjon, som peker på behovet, for eksempel salget.  
   
-## <a name="reshuffle" />Stokke om
+## <a name="reshuffle"></a>Stokke om
 Når en bruker bokfører et utgående dokument etter å ha plukket feil serie- eller partinummer, blir andre ikke-spesifikke reservasjoner stokket om for å gjenspeile det faktiske serie- eller partinummeret som er plukket. Dette tilfredsstiller bokføringsmotoren med en fast utligning mellom forsyning og behov.  
   
 For alle støttede forretningsscenarier er omstokking bare mulig mot positive vareposter som inneholder reservasjons og serie-/partinumre, men uten definert serie-/partinumre på behovssiden.  
   
-## <a name="supported-business-scenarios" />Forretningsscenarier som støttes
+## <a name="supported-business-scenarios"></a>Forretningsscenarier som støttes
 Funksjonen for sen binding støtter følgende forretningsscenarier:  
   
 * Angi et bestemte serie- eller partinummer for et utgående dokument med ikke-spesifikk reservasjon av feil serie- eller partinummer.  
 * Reservere et spesifikt serie- eller partinummer.  
 * Bokføre et utgående dokument med ikke-spesifikk reservasjon av serie- eller partinummer.  
   
-### <a name="entering-serial-or-lot-numbers-on-an-outbound-document-with-wrong-nonspecific-reservation" />Angi serie- eller partinumre på et utgående dokument med feil ikke-spesifikk reservasjon
+### <a name="entering-serial-or-lot-numbers-on-an-outbound-document-with-wrong-nonspecific-reservation"></a>Angi serie- eller partinumre på et utgående dokument med feil ikke-spesifikk reservasjon
 Dette er det vanligste av de tre scenariene som støttes. I slike tilfeller vil funksjonen for sen sikre at en bruker kan angi et serie- eller partinummer, som faktisk er plukket, på et utgående dokument som allerede har en ikke-spesifikk reservasjon på et annet serie- eller partinummer.  
   
 Behovet oppstår for eksempel når en ordrebehandler har foretatt en ikke-spesifikk reservasjon av et serie- eller partinummer. Senere, når varen faktisk plukkes fra lager, må det plukkede serie- eller partinummeret angis på ordren før den bokføres. Den ikke-spesifikke reservasjonen stokkes om ved bokføring for å sikre at det plukkede serie- eller partinummeret kan registreres uten at reservasjonen går tapt, og for å sikre at det plukkede serie- eller partinummeret kan utlignes og bokføres fullstendig.  
   
-### <a name="reserve-specific-serial-or-lot-numbers" />Reservere spesifikke serie- eller partinumre
+### <a name="reserve-specific-serial-or-lot-numbers"></a>Reservere spesifikke serie- eller partinumre
 I dette forretningsscenariet vil funksjonen for sen binding sikre at en bruker som prøver å reservere et bestemt serie- eller partinummer som er ikke reservert for øyeblikket, kan gjøre dette. En ikke-spesifikk reservasjon stokkes om på tidspunktet for reservasjonen for å frigjøre serie- eller partinummer for den bestemte forespørselen.  
   
 Omstokkingen skjer automatisk, men innebygd Hjelp vises nederst på **Reservasjon**-siden og inneholder følgende tekst:  
@@ -78,12 +78,12 @@ Omstokkingen skjer automatisk, men innebygd Hjelp vises nederst på **Reservasjo
   
 I tillegg vil feltet **Ikke-spesifikt reservert antall** vise hvor mange reservasjonsposter som er ikke-spesifikke. Dette feltet er ikke synlige for brukerne som standard.  
   
-### <a name="posting-an-outbound-document-with-nonspecific-reservation-of-serial-or-lot-numbers" />Bokføre et utgående dokument med ikke-spesifikk reservasjon av serie- eller portnumre.
+### <a name="posting-an-outbound-document-with-nonspecific-reservation-of-serial-or-lot-numbers"></a>Bokføre et utgående dokument med ikke-spesifikk reservasjon av serie- eller portnumre.
 Dette forretningsscenariet støttes med funksjonen for sen binding som gjør det mulig å foreta fast utligning og utgående bokføring av det som faktisk plukkes, ved å stokke om en annen ikke-spesifikk reservasjon av et serie- eller partinummer. Hvis det ikke er mulig å stokke om, vises følgende standardfeilmelding når brukeren prøver å bokføre leveringen:  
   
 **Vare XX kan ikke utlignes fullstendig.**  
   
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 [Designdetaljer: Varesporing](design-details-item-tracking.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

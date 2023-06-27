@@ -9,14 +9,14 @@ ms.topic: how-to
 ms.date: 01/26/2023
 ms.custom: bap-template
 ---
-# <a name="set-up-email-printers" />Konfigurer e-postskrivere
+# <a name="set-up-email-printers"></a>Konfigurer e-postskrivere
 
 Denne artikkelen forklarer hvordan du konfigurerer e-postaktiverte skrivere i [!INCLUDE[prod_short](includes/prod_short.md)]. Med disse skriverne sender [!INCLUDE[prod_short](includes/prod_short.md)] utskriftsjobber til skriveren ved å bruke e-postadressen til skriveren.
 
 > [!TIP]
 > Gå til [Oversikt over utskriftsbehandling](admin-printer-setup-overview.md) for å finne ut mer om andre skrivermuligheter. 
 
-## <a name="prerequisites" />Forutsetninger
+## <a name="prerequisites"></a>Forutsetninger
 
 - Lanseringsbølge 1 eller nyere for [!INCLUDE[prod_short](includes/prod_short.md)] 2020
 - Utvidelsen **Sende til e-postskriver** blir installert
@@ -26,7 +26,7 @@ Denne artikkelen forklarer hvordan du konfigurerer e-postaktiverte skrivere i [!
 
    Finn ut mer under [Definer e-post](admin-how-setup-email.md).
 
-## <a name="add-an-email-printer" />Legg til en e-postskriver
+## <a name="add-an-email-printer"></a>Legg til en e-postskriver
 
 Siden **Utskriftsbehandling** viser skriverne som for øyeblikket er konfigurert. På denne siden får du også tilgang til siden **Innstillinger** for hver skriver for å redigere et eksisterende oppsett eller konfigurere en ny skriver.
 
@@ -39,17 +39,17 @@ Siden **Utskriftsbehandling** viser skriverne som for øyeblikket er konfigurert
     >
     > Vær oppmerksom på at utvidelsen for e-postskriver er satt til papirstørrelsen **A4** som standard, noe som for eksempel ikke passer i Nord-Amerika.
 
-## <a name="privacy-notice" />Personvernerklæring
+## <a name="privacy-notice"></a>Personvernerklæring
 
 Hvis du bruker utvidelsen E-postskriver, vil alle eller enkelte utskriftsjobber bli sendt til e-postadressen du har konfigurert for skriveren. Det anbefales på det sterkeste at en unik e-post-ID knyttes til en skriverenhet med bare de offisielle tjenestene fra maskinvareprodusenten, for eksempel HP ePrint, KonicaMinolta EveryonePrint eller Epson E-Mail Printing.
 
 Ta alle nødvendige forholdsregler for personvern, inkludert å sørge for at utskriftsløsningen for e-post har riktig konfigurerte tillatelser, personverninnstillinger og oppbevaringspolicyer. Det er ditt ansvar å oppgi en riktig, bekreftet og fungerende e-postadresse. Finn ut mer under [Microsofts personvernerklæringen](https://privacy.microsoft.com/privacystatement).
 
-## <a name="next-steps" />Neste trinn
+## <a name="next-steps"></a>Neste trinn
 
 [Konfigurer standardskrivere](ui-specify-printer-selection-reports.md)
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Oversikt over utskriftsbehandling](admin-printer-setup-overview.md)  
 [Konfigurer skrivere for Universell utskrift](admin-printer-setup-universal-print.md)

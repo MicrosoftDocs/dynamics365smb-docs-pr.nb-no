@@ -11,7 +11,7 @@ ms.search.form: 27
 ms.date: 06/22/2021
 ms.author: bholtorf
 ---
-# <a name="block-vendors" />Blokkere leverandører
+# <a name="block-vendors"></a>Blokkere leverandører
 Du kan sperre en leverandør, for eksempel på grunn av insolvens, slik at leverandøren ikke kan legges til i kjøpsdokumenter, eller slik at ingen betalinger kan bokføres for leverandøren.
 
 Tabellen nedenfor beskriver alternativene for å sperre leverandører.  
@@ -22,12 +22,12 @@ Tabellen nedenfor beskriver alternativene for å sperre leverandører.
 |**Betaling**|Nye betalinger kan ikke opprettes for denne leverandøren.|  
 |**Alle**|Ingen transaksjoner er tillatt for denne leverandøren.|  
 
-## <a name="to-block-a-vendor" />Slik sperrer du en leverandør
+## <a name="to-block-a-vendor"></a>Slik sperrer du en leverandør
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Leverandører** og velger den relaterte koblingen.
 2. Velg leverandøren som du vil sperre.
 3. Velg et av alternativene for sperring i **Sperret**-feltet.
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 [Registrere nye leverandører](purchasing-how-register-new-vendors.md)  
 [Utføre betalinger](payables-make-payments.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)

@@ -11,30 +11,30 @@ ms.search.form: '431, 432, 436, 478'
 ms.date: 02/09/2022
 ms.author: edupont
 ---
-# <a name="set-up-reminder-terms-and-levels" />Definer betingelser og grader for purringer
+# <a name="set-up-reminder-terms-and-levels"></a>Definer betingelser og grader for purringer
 
 Du kan bruke purringer til å minne kunder på forfalte beløp. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
-## <a name="reminder-terms" />Purrebetingelser
+## <a name="reminder-terms"></a>Purrebetingelser
 
 Hvis kunder har forfalte betalinger, må du angi når og hvordan du vil sende purring. I tillegg vil du kanskje belaste kundekontiene med renter eller gebyr. Du kan opprette så mange purrebetingelser du vil.  
 
 > [!NOTE]
 > Hvis du vil beregne rente på forfalte betalinger, kan du gjøre det når du oppretter purringer. Hvis du imidlertid bare vil beregne rente og informere kundene om dette uten å sende purringer, bør du bruke [rentenotaer](finance-setup-finance-charges.md). Du finner mer informasjon under [Purringer](receivables-collect-outstanding-balances.md#reminders) eller [Rentenotaer](receivables-collect-outstanding-balances.md#finance-charges).
 
-### <a name="to-set-up-reminder-terms" />Slik definerer du purrebetingelser
+### <a name="to-set-up-reminder-terms"></a>Slik definerer du purrebetingelser
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Purrebetingelser**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Hvis du vil bruke flere kombinasjoner av purrebetingelser, definerer du en kode for hver kombinasjon.
 
-## <a name="reminder-levels" />Purregrader
+## <a name="reminder-levels"></a>Purregrader
 
 For hver purrebetingelseskode kan du definere et ubegrenset antall purregrader. Innstillingen fra grad 1 brukes første gang det opprettes en purring for en kunde. Når purringen utstedes, registreres gradnummeret i purrepostene som opprettes og kobles til de individuelle kundepostene. Hvis det er nødvendig å sende kunden en ny purring, kontrolleres alle purreposter som er koblet til åpne kundeposter, for å finne det høyeste gradnummeret. Betingelsene fra neste gradnummer vil deretter bli brukt i den nye purringen.
 
 Hvis du oppretter flere purringer enn du har definert grader for, brukes betingelsene for den høyeste graden. Du kan opprette så mange purringer som er tillatt i henhold til feltet **Høyeste purregrad** i purrebetingelsene.
 
-### <a name="to-set-up-reminder-levels" />Slik definerer du purregrader
+### <a name="to-set-up-reminder-levels"></a>Slik definerer du purregrader
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Purrebetingelser**, og velg deretter den relaterte koblingen.  
 2. På siden **Purrebetingelser** velger du linjen med betingelsene du vil definere grader for, og deretter velger du **Grader**.  
@@ -92,9 +92,9 @@ Hvis du oppretter flere purringer enn du har definert grader for, brukes betinge
 
 Når du har definert purrebetingelsene (med tilleggsgrader og tekst), registrerer du én av kodene på hvert kundekort. Hvis du vil ha mer informasjon, kan du se [Registrere nye kunder](sales-how-register-new-customers.md).  
 
-## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/send-reminders-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/send-reminders-dynamics-365-business-central/)
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Innkreve utestående saldi](receivables-collect-outstanding-balances.md)  
 [Send purringer om utestående saldoer](receivables-send-reminders.md)  

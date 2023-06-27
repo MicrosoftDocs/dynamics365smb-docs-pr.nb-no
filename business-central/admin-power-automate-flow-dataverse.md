@@ -11,14 +11,14 @@ ms.search.form: null
 ms.date: 09/05/2022
 ms.author: bholtorf
 ---
-# <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes" />Bruk en Power Automate-flyt for varsler om Dataverse-enhetsendringer
+# <a name="use-a-power-automate-flow-for-alerts-to-dataverse-entity-changes"></a>Bruk en Power Automate-flyt for varsler om Dataverse-enhetsendringer
 
 Administratorer kan opprette en automatisk flyt i Power Automate som varsler [!INCLUDE[prod_short](includes/prod_short.md)] om endringer i poster i [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-organisasjonen.
 
 > [!NOTE]
 > Denne artikkelen tar utgangspunkt i den nettbaserte versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE [cds_long_md](includes/cds_long_md.md)] og tidsstyrt synkronisering mellom de to appene.
 
-## <a name="import-the-flow-template" />Importer flytmalen
+## <a name="import-the-flow-template"></a>Importer flytmalen
 
 > [!TIP]
 > For å gjøre det enklere å definere flyten har vi opprettet en mal som definerer flytutløseren og flytbetingelsen for deg. Følg fremgangsmåten i denne delen for å bruke malen. Du kan opprette flyten selv ved å hoppe over denne delen og starte med trinnene i [Definer flytutløseren](#define-the-flow-trigger).
@@ -30,7 +30,7 @@ Administratorer kan opprette en automatisk flyt i Power Automate som varsler [!I
 3. Velg malen **Varsle Business Central når en konto endres**.
 4. Fortsett med trinnene i delen [Varsel Business Central om en endring](#notify-business-central-about-a-change).
 
-## <a name="define-the-flow-trigger" />Definer flytutløseren
+## <a name="define-the-flow-trigger"></a>Definer flytutløseren
 
 1. Logg deg på [Power Automate](https://flow.microsoft.com).
 2. Opprett en automatisk skyflyt som starter når en rad for en [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-enhet legges til, endres eller slettes. Hvis du vil ha mer informasjon, kan du se [Utløs flyter når en rad legges til, endres eller slettes](/power-automate/dataverse/create-update-delete-trigger). I dette eksemplet brukes enheten **Kontoer**. Bildet nedenfor viser innstillingene for det første trinnet ved å definere en flytutløser.
@@ -39,7 +39,7 @@ Administratorer kan opprette en automatisk flyt i Power Automate som varsler [!I
 3. Bruk knappen **AssistEdit (...)** i øvre høyre hjørne til å legge til tilkoblingen i [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-miljøet.
 4. Velg **Vis avanserte alternativer**, og angi **customertypecode eq 3** eller **customertypecode eq 11**og **statecode eq 0** i feltet **Filtrer rader**. Disse verdiene betyr at utløseren bare skal reagere når det gjøres endringer i aktive kontoer av typen **kunde** eller **leverandør**.
 
-## <a name="define-the-flow-condition" />Definer flytbetingelsen
+## <a name="define-the-flow-condition"></a>Definer flytbetingelsen
 
 Data synkroniseres mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE [cds_long_md](includes/cds_long_md.md)] gjennom en integreringsbrukerkonto. Hvis du vil ignorere endringene som er gjort i synkroniseringen, oppretter du et betingelsestrinn i flyten som utelukker endringer som er gjort av integreringsbrukerkontoen.  
 
@@ -58,7 +58,7 @@ Bildet nedenfor viser hvordan du definerer flytutløseren og flytbetingelsen.
 
 :::image type="content" source="media/power-automate-flow-dataverse.png" alt-text="Oversikt over innstillinger for flytutløser og flytbetingelse":::
 
-## <a name="notify-business-central-about-a-change" />Varsle Business Central om en endring
+## <a name="notify-business-central-about-a-change"></a>Varsle Business Central om en endring
 
 Hvis flyten ikke stoppes av betingelsen, må du varsle [!INCLUDE[prod_short](includes/prod_short.md)] om at det oppstod en endring. Bruk [!INCLUDE[prod_short](includes/prod_short.md)]-koblingen til å gjøre det.
 
@@ -84,7 +84,7 @@ Når du legger til, sletter eller endrer en konto i [!INCLUDE [cds_long_md](incl
 2. Bruk [!INCLUDE[prod_short](includes/prod_short.md)]-API-en til å sette inn en post med **entityName** satt til **konto** i tabellen **Dataverse-enhetsendring**. Denne parameteren er det nøyaktige navnet på Dataverse-enheten du oppretter flyten for.
 3. [!INCLUDE[prod_short](includes/prod_short.md)] vil starte prosjektkøoppføringen som synkroniserer kunder med kontoer.
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Bruk Business Central i Power Automate-flyter](across-how-use-financials-data-source-flow.md)  
 [Konfigurer automatiserte arbeidsflyter](/business-central/dev-itpro/powerplatform/automate-workflows)  

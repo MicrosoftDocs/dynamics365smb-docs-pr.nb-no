@@ -11,10 +11,10 @@ ms.search.form: '15000100, 255'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="print-the-ocr-journal---test-report" />Skrive ut rapporten OCR-kladd - test
+# <a name="print-the-ocr-journal---test-report"></a>Skrive ut rapporten OCR-kladd - test
 Du kan skrive ut rapporten **OCR-kladd - test** for å teste de importerte betalingstransaksjonene i innbetalingskladden. Du kan også vise potensielle advarsler og løse konflikter før betalingene bokføres i kladden.  
 
-## <a name="to-print-the-ocr-journal--test-report" />Slik skriver du ut rapporten OCR-kladd - test:
+## <a name="to-print-the-ocr-journal--test-report"></a>Slik skriver du ut rapporten OCR-kladd - test:
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **OCR-kladder – test**, og velg deretter den relaterte koblingen.  
 2.  I hurtigfanen **Alternativer** fyller du ut feltene som beskrevet i tabellen nedenfor.  
@@ -26,7 +26,7 @@ Du kan skrive ut rapporten **OCR-kladd - test** for å teste de importerte betal
 
 3.  Velg **Skriv ut** for å skrive ut rapporten, eller velg **Forhåndsvisning** for å vise den på skjermen.  
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
  [Elektroniske banktjenester i Norge](electronic-banking-in-norway.md)   
  [Opprette KID-numre på salgsdokumenter](how-to-set-up-kid-numbers-on-sales-documents.md)   
  [Opprette OCR-betalinger](how-to-set-up-ocr-payments.md)   

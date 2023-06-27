@@ -11,7 +11,7 @@ ms.search.form: '304, 20106, 20105, 20100, 20101, 20107, 20109'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-the-amc-banking-365-fundamentals-extension" />Konfigurere utvidelsen AMC Banking 365 Fundamentals
+# <a name="set-up-the-amc-banking-365-fundamentals-extension"></a>Konfigurere utvidelsen AMC Banking 365 Fundamentals
 En global tjenesteleverandør for å konvertere betalingsinformasjon til hvilket som helst dataformat banken krever, er koblet til og klar til å aktiveres i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne omtales i [!INCLUDE[prod_short](includes/prod_short.md)] som utvidelsen AMC Banking 365 Fundamentals.
 
 Du kan eksportere betalingslinjer fra siden **Betalingskladd** til en fil eller datastrøm som du deretter laster opp til banken for automatisk behandling, slik at du ikke trenger å foreta elektroniske betalinger individuelt. Hvis du vil ha mer informasjon, kan du se [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
@@ -25,7 +25,7 @@ Hvis du vil importere eller eksportere bankfiler, må du definere din egen bankk
 > [!NOTE]  
 > Utvidelsen AMC Banking 365 Fundamentals kan sette en grense for hvor mange linjer som kan eksporteres i én fil. Du får en feilmelding hvis grensen er overskredet. Det anbefales at bankkontoutdragsfiler ikke overstiger 1 000 linjer, siden behandlingstiden i utvidelsen AMC Banking 365 Fundamentals kan øke betraktelig.
 
-## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension" />Registrere selskapet ditt for utvidelsen AMC Banking 365 Fundamentals
+## <a name="to-sign-your-company-up-for-the-amc-banking-365-fundamentals-extension"></a>Registrere selskapet ditt for utvidelsen AMC Banking 365 Fundamentals
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Tjenesteoppsett for bankdatakonvertering**, og velg deretter den relaterte koblingen.  
 2. Siden **Tjenesteoppsett for bankdatakonvertering** åpnes med tre felt som er forhåndsutfylt med de aktuelle URL-adressene til utvidelsen AMC Banking 365 Fundamentals.
 
@@ -42,7 +42,7 @@ Hvis du vil importere eller eksportere bankfiler, må du definere din egen bankk
 > [!NOTE]  
 > Påloggingsdataene krypteres automatisk.
 
-## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats" />Vise eller oppdatere listen over gjeldende bankdataformater som støttes
+## <a name="to-view-or-update-the-list-of-currently-supported-bank-data-formats"></a>Vise eller oppdatere listen over gjeldende bankdataformater som støttes
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Tjenesteoppsett for bankdatakonvertering**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Banknavn – datakonverteringsliste** på siden **Tjenesteoppsett for bankdatakonvertering** for å åpne oversikten over banknavn som representerer bankdataformater som støttes av konverteringstjenesten.
 3. På siden **Banknavn – datakonverteringsliste** velger du handlingen **Oppdater banknavnliste**.
@@ -54,7 +54,7 @@ Listen over bankdataformater som støttes av utvidelsen AMC Banking 365 Fundamen
 
 Du har nå registrert deg for utvidelsen AMC Banking 365 Fundamentals. Fortsette med å gjenspeile informasjonen for hver bankkonto skal bruke tjenesten.
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 [Konfigurere banktjenester](bank-setup-banking.md)  
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

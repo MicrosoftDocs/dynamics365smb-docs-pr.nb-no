@@ -11,7 +11,7 @@ ms.date: 06/14/2021
 ms.author: bholtorf
 ---
 
-# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse" />Synkronisere data i Business Central med Microsoft Dataverse
+# <a name="synchronizing-data-in-business-central-with-microsoft-dataverse"></a>Synkronisere data i Business Central med Microsoft Dataverse
 
 
 Når du integrerer [!INCLUDE[prod_short](includes/cds_long_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)], kan du fastsette om du vil synkronisere dataene i bestemte felter i [!INCLUDE[prod_short](includes/prod_short.md)] (for eksempel kunder, kontakter og selgere) med tilsvarende rader i [!INCLUDE[prod_short](includes/cds_long_md.md)] (for eksempel konti, kontakter og brukere). Du kan synkronisere data fra [!INCLUDE[prod_short](includes/cds_long_md.md)] til [!INCLUDE[prod_short](includes/prod_short.md)] eller omvendt, avhengig av radtypen. Hvis du vil ha mer informasjon, kan du se [Integrere med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md).  
@@ -37,7 +37,7 @@ Når synkroniseringen er satt opp, kan du koble [!INCLUDE[prod_short](includes/p
 > Synkroniseringen mellom [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] er basert på den planlagte kjøringen av prosjektkøpostene og garanterer ikke sanntidsdatakonsekvens mellom to tjenester. For sanntidsdatakonsekvens bør du utforske [virtuelle Business Central-tabeller](/dynamics365/business-central/dev-itpro/powerplatform/powerplat-overview) eller Business Central-API-er.   
 
 
-## <a name="standard-table-mapping-for-synchronization" />Standard tabelltilordning for synkronisering
+## <a name="standard-table-mapping-for-synchronization"></a>Standard tabelltilordning for synkronisering
 Tabellene i [!INCLUDE[prod_short](includes/cds_long_md.md)], for eksempel kontiene, er integrert med tilsvarende typer tabeller i [!INCLUDE[prod_short](includes/prod_short.md)], for eksempel kunder. Ved arbeid med [!INCLUDE[prod_short](includes/cds_long_md.md)]-data kan du lage forbindelser, kalt koblinger, mellom tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
 Tabellen nedenfor inneholder en oversikt over standardtilordning mellom tabeller i [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)].
@@ -56,10 +56,10 @@ Tabellen nedenfor inneholder en oversikt over standardtilordning mellom tabeller
 > [!NOTE]
 > **Dataverse**-handlingene er ikke tilgjengelige på sider, for eksempel Kundekort-siden, for poster som ikke tar hensyn til tabellfilteret i integrasjonstabelltilordningen.
 
-### <a name="tip-for-admins-viewing-table-mappings" />Tips for administratorer: Vise tabelltilordninger
+### <a name="tip-for-admins-viewing-table-mappings"></a>Tips for administratorer: Vise tabelltilordninger
 Du kan vise tilordningen mellom tabellene i [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] på siden **Tilordninger for integreringstabell**, der du kan også kan bruke filtre. Du definerer tilordningen mellom feltene i [!INCLUDE[prod_short](includes/prod_short.md)]-tabeller og kolonnene i [!INCLUDE[prod_short](includes/cds_long_md.md)]-tabellene på siden **Tilordning for integreringsfelt**, der du kan legge til mer tilordningslogikk. Dette kan for eksempel være nyttig hvis du trenger for å feilsøke synkronisering.
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 [Sammenkoble og synkronisere poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md)   
 [Planlegge en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)   
 [Integrere med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)

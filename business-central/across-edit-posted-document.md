@@ -12,7 +12,7 @@ ms.search.form: '130, 138, 142, 146, 6660, 6662, 6650, 6652'
 ms.date: 06/10/2021
 ms.author: edupont
 ---
-# <a name="edit-posted-documents" />Redigere bokførte dokumenter
+# <a name="edit-posted-documents"></a>Redigere bokførte dokumenter
 
 Noen ganger må du oppdatere et bokført dokument fordi informasjon som er relevant for dokumentet, er endret. I et bokført salgsdokument kan dette for eksempel være transportørens pakkesporingsnummer. På et bokført kjøpsdokument kan dette være en betalingsreferansetekst.
 
@@ -32,7 +32,7 @@ Følgende tilleggsdokumenter kan redigeres i de utvalgte landene eller områdene
 - RU: Bokført salgskreditnota
 - IT: bokført overføringsseddel, bokført servicefølgeseddel
 
-## <a name="to-edit-a-posted-sales-shipment" />Slik redigerer du en bokført følgeseddel
+## <a name="to-edit-a-posted-sales-shipment"></a>Slik redigerer du en bokført følgeseddel
 
 Nedenfor finner du informasjon om hvordan du redigerer en bokført følgeseddel. Trinnene er de samme for de andre dokumentene som støttes.
 
@@ -43,7 +43,7 @@ Nedenfor finner du informasjon om hvordan du redigerer en bokført følgeseddel.
 
 Den bokførte følgeseddelen oppdateres.
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)  
 [Finn relaterte poster for dokumenter](ui-find-entries.md)  

@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.date: 02/27/2023
 ms.custom: bap-template
 ---
-# <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations" />Gjennomgang: Mottak og plassering i grunnleggende lageroppsett
+# <a name="walkthrough-receiving-and-putting-away-in-basic-warehouse-configurations"></a>Gjennomgang: Mottak og plassering i grunnleggende lageroppsett
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] mottar du varer og plasserer dem ved å bruke en av fire metoder, som beskrevet i tabellen nedenfor.
 
@@ -23,7 +23,7 @@ Finn ut mer under [Inngående lagerflyt](design-details-inbound-warehouse-flow.m
 
 Følgende gjennomgangen demonstrerer metoden B i forrige tabell.  
 
-## <a name="about-this-walkthrough" />Om denne gjennomgangen
+## <a name="about-this-walkthrough"></a>Om denne gjennomgangen
 
 I enkle lageroppsett hvor lokasjonen er definert til å kreve plasseringsbehandling, men ikke mottaksbehandling, bruker du siden **Lagerplassering** til å registrere og bokføre plasserings- og mottaksopplysninger for de inngående kildedokumentene. Følgende dokumenter er inngående kildedokumenter:
 
@@ -50,7 +50,7 @@ Denne gjennomgangen viser følgende oppgaver:
 > [!NOTE]
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 
-## <a name="roles" />Roller
+## <a name="roles"></a>Roller
 
 Følgende brukerroller utføre oppgaver som denne gjennomgangen viser:  
 
@@ -58,7 +58,7 @@ Følgende brukerroller utføre oppgaver som denne gjennomgangen viser:
 * Innkjøper  
 * Lagermedarbeider  
 
-## <a name="prerequisites" />Forutsetninger
+## <a name="prerequisites"></a>Forutsetninger
 
 For å fullføre denne gjennomgangen må du gjøre følgende:  
 
@@ -70,15 +70,15 @@ For å fullføre denne gjennomgangen må du gjøre følgende:
     3. Velg **SØLV** i feltet **Lokasjonskode**.  
     4. Merk av for **Standard**.  
 
-## <a name="story" />Hovedscenario
+## <a name="story"></a>Hovedscenario
 
 Ellen, lagerlederen hos CRONUS Norge AS, oppretter en bestilling for 10 enheter av varen LS-75 og 30 enheter av varen LS-81 fra leverandør 10000 som skal leveres til SØLV-lageret. Når leveringen ankommer til lageret, plasserer lagermedarbeideren John varene i standardhyller definert for varene. Når John bokfører plasseringen, bokføres varene som mottatt på lageret og tilgjengelig for salg eller andre behov.  
 
-## <a name="setting-up-the-location" />Definer lokasjon
+## <a name="setting-up-the-location"></a>Definer lokasjon
 
 Innstillinger på siden **Lokasjonskort** definerer selskapets lagerflyter.  
 
-### <a name="to-set-up-the-location" />Slik definerer du lokasjonen
+### <a name="to-set-up-the-location"></a>Slik definerer du lokasjonen
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2. Åpne lokasjonskortet SØLV.  
@@ -95,11 +95,11 @@ Innstillinger på siden **Lokasjonskort** definerer selskapets lagerflyter.
 7. Velg feltene **Fast** og **Standard**.  
 8. Angi **LS-81** i feltet **Varenr.**.  
 
-## <a name="create-the-purchase-order" />Opprett bestillingen
+## <a name="create-the-purchase-order"></a>Opprett bestillingen
 
 Bestillinger er den vanligste typen inngående kildedokument.  
 
-### <a name="to-create-the-purchase-order" />Slik oppretter du bestillingen:
+### <a name="to-create-the-purchase-order"></a>Slik oppretter du bestillingen:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bestillinger**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
@@ -119,11 +119,11 @@ Bestillinger er den vanligste typen inngående kildedokument.
 
     Leveringen av høyttalere fra leverandør 10000 er ankommet på SØLV-lageret, og John fortsetter med å plassere dem.  
 
-## <a name="receive-and-put-the-items-away" />Motta og plasser varene
+## <a name="receive-and-put-the-items-away"></a>Motta og plasser varene
 
 Bruk siden **Lagerplassering** til å håndtere alle inngående lageraktiviteter for et bestemt kildedokument, for eksempel en bestilling.  
 
-### <a name="to-receive-and-put-the-items-away" />Slik mottar og plasserer du varene:
+### <a name="to-receive-and-put-the-items-away"></a>Slik mottar og plasserer du varene:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerplasseringer** og velg den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
@@ -140,7 +140,7 @@ Bruk siden **Lagerplassering** til å håndtere alle inngående lageraktiviteter
 
     40 høyttalere er nå registrert som plassert i hyllen S-01-0001, og det opprettes en positiv varepost som gjenspeiler det bokførte kjøpsmottaket.  
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Plassere varer med lagerplasseringer](warehouse-how-to-put-items-away-with-inventory-put-aways.md)  
 [Opprette grunnleggende lagre med operasjonsområder](warehouse-how-to-set-up-basic-warehouses-with-operations-areas.md)  

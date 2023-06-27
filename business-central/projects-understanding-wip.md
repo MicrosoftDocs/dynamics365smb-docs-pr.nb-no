@@ -11,7 +11,7 @@ ms.search.form: 1010
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="understanding-wip-methods-in-project-management" />Forstå VIA-metoder i prosjektstyring
+# <a name="understanding-wip-methods-in-project-management"></a>Forstå VIA-metoder i prosjektstyring
 
 Under fremdriften av et prosjekt forbrukes materialer, ressurser og andre utgifter som må bokføres til prosjektet. Med funksjonen Varer i arbeid (VIA) kan du beregne den økonomiske verdien av prosjekter i Finans mens prosjektene pågår. I mange tilfeller vil du kanskje bokføre utgifter for et prosjekt før du fakturerer et prosjekt. Når bare utgifter er bokført, vil årsregnskapet bli unøyaktig.
 
@@ -27,9 +27,9 @@ Hvis du vil spore verdien i Finans, kan du beregne VIA og bokføre verdien i Fin
 | Løpende |Ført kost = forbruk (kostbeløp)<br /><br /> Ført inntekt = fakturerbar (salgsbeløp) x løpende<br /><br /> Løpende = forbruk (kostbeløp) / budsjett (kostbeløp)<br /> (Registrert i feltet **Ferdiggjørelsesprosent for kost** på prosjektoppgavelinjer)<br /><br /> VIA-salg = ført salg - fakturerbar (fakturert pris) |Beregninger av Løpende fører inntekt proporsjonalt basert på prosent fullført, det vil si forbruk (kostbeløp) i forhold til budsjettkost.<br /><br /> Denne beregningen krever at det fakturerbare salgsbeløpet og budsjettkostbeløpet angis riktig for hele prosjektet. |
 | Ved avslutning |VIA-beløp = VIA-kostbeløp = Forbruk (kostbeløp)<br /><br /> VIA-salgsbeløp = fakturerbar (fakturert pris) |Ved avslutning fører ikke inntekt og kost før prosjektet er ferdig. Det kan hende du ønsker å gjøre dette når det er stor usikkerhet rundt overslagene for kost og inntekt for prosjektet.<br /><br /> Alt forbruk bokføres i VIA-forbrukskontoen (aktiva), og alt fakturert salg bokføres i VIA-kontoen for fakturert salg (gjeld) til prosjektet er ferdig. |
 
-## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/calculate-post-job-wip/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/calculate-post-job-wip/)
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Prosjektstyring](projects-manage-projects.md)  
 [Finans](finance.md)  

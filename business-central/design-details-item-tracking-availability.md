@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-item-tracking-availability" />Designdetaljer: Varesporingstilgjengelighet
+# <a name="design-details-item-tracking-availability"></a>Designdetaljer: Varesporingstilgjengelighet
 Sidene **Varesporingslinjer** og **Varesporingssummering** inneholder dynamisk tilgjengelighetsinformasjon for serie- eller partinumre. Hensikten med dette er å gjøre utgående dokumenter, for eksempel ordrer, klarere for brukere ved å vise dem serienumrene eller antallet partinumre som for øyeblikket er tilordnet i andre åpne dokumenter. Dette reduserer usikkerhet som skyldes doble tildelinger og vekker tillit hos ordrebehandlere om at varesporingsnumrene og datoene de bekrefter på ikke-bokførte ordrer, kan oppfylles. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Side for varesporingslinjer](design-details-item-tracking-lines-window.md).  
 
  Når du åpner siden **Varesporingslinjer**, hentes tilgjengelighetsdata fra **Varepost**-tabellen og **Reservasjonspost**-tabellen uten noe datofilter. Når du velger **Serienr.**-feltet eller **Partinr.**-feltet, åpnes siden **Varesporingssummering** med et sammendrag av varesporingsinformasjonen i **Reservasjonspost**-tabellen. Sammendraget inneholder følgende informasjon om hvert serie- eller partinummer på varesporingslinjen:  
@@ -27,7 +27,7 @@ Sidene **Varesporingslinjer** og **Varesporingssummering** inneholder dynamisk t
 
  For å bevare databaseytelsen hentes tilgjengelighetsdata bare én gang fra databasen når du åpner siden **Varesporingslinjer** og når du bruker funksjonen **Oppdater tilgjengelighet** på siden.  
 
-## <a name="calculation-formula" />Beregningsformel
+## <a name="calculation-formula"></a>Beregningsformel
  Tilgjengeligheten av et bestemt serie- eller partinummer beregnes på følgende måte, som beskrevet i den forrige tabellen.  
 
  totalt disponibelt antall = antallet på lager – (alle behov + antallet som ennå ikke er lagret i databasen)  
@@ -35,7 +35,7 @@ Sidene **Varesporingslinjer** og **Varesporingssummering** inneholder dynamisk t
 > [!IMPORTANT]  
 >  Denne formelen innebærer at tilgjengelighetsberegningen for serie- eller partinumre bare tar hensyn til beholdning og ignorerer forventede mottak. Levering som ennå ikke er bokført på lager, påvirker derfor ikke varesporingstilgjengelighet, i motsetning til vanlig varedisposisjon der forventede mottak er inkludert.  
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
  [Designdetaljer: Varesporing](design-details-item-tracking.md)
 
 

@@ -11,7 +11,7 @@ ms.search.form: 256
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="suggest-vendor-payments" />Betalingsforslag - leverandør
+# <a name="suggest-vendor-payments"></a>Betalingsforslag - leverandør
 
 På siden **Utbetalingskladd** kan du bruke kjørselen **Betalingsforslag – leverandør** til å foreslå betalingslinjer. Linjer for betalinger som forfaller snart, eller betalinger der kontantrabatt er tilgjengelig, foreslås basert på innstillingene.
 
@@ -26,14 +26,14 @@ Hvis du vil dra nytte fullstendig av betalingsforslag, må du prioritere leveran
     * Forfalte leverandørposter som ikke er prioritert.  
     * Åpne leverandørposter som kvalifiserer for kontantrabatter, sortert etter leverandørnummer.  
 
-## <a name="to-use-the-suggest-vendor-payments-function" />Bruke funksjonen Betalingsforslag - leverandør
+## <a name="to-use-the-suggest-vendor-payments-function"></a>Bruke funksjonen Betalingsforslag - leverandør
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladder** og velg den relaterte koblingen.  
 2. Åpne den aktuelle kladden, og velg deretter handlingen **Betalingsforslag - leverandør**.  
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 4. Velg **OK**.  
 
-## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines" />Sette inn forfallsdato som bokføringsdato på betalingskladdelinjer
+## <a name="to-insert-the-due-date-as-posting-date-on-payment-journal-lines"></a>Sette inn forfallsdato som bokføringsdato på betalingskladdelinjer
 
 Når du bruker kjørselen **Betalingsforslag - leverandør** til å opprette betalingslinjer for leverandørene, kan du fylle ut to spesialfelt for å sikre at de genererte linjene bruker forfallsdatoen til å beregne bokføringsdatoen. Disse feltene er **Beregn bokføringsdato fra forfallsdato for utligningsbilag** og **Forskyvning av forfallsdato for utligningsbilag**.  
 
@@ -47,9 +47,9 @@ Du kan også opprette betalingslinjer manuelt ved å bruke forfallsdatoen til å
 > [!NOTE]  
 >   Hvis kjøpsfakturaen er forfalt, vil bokføringsdatoen bli satt til arbeidsdatoen, og skriftfargen på linjen blir rød.  
 
-## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/suggest-vendor-payments-dynamics-365-business-central/)
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Utføre betalinger](payables-make-payments.md)  

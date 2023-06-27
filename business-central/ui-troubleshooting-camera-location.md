@@ -11,17 +11,17 @@ ms.tgt_pltfrm: na
 ms.topic: conceptual
 ---
 
-# <a name="troubleshooting-accessing-camera-and-location" />Feilsøking: Få tilgang til kamera og plassering
+# <a name="troubleshooting-accessing-camera-and-location"></a>Feilsøking: Få tilgang til kamera og plassering
 
 Du kan oppleve problemer når du prøver å få til gang til kamera- og plasseringsinformasjon for en enhet fra [!INCLUDE[prod_short](includes/prod_short.md)]. Nedenfor finner du mulige årsaker til disse problemene og hvordan du omgår dem.
 
-## <a name="device-must-have-camera-and-location-capabilities" />Enheten må ha kamera- og plasseringsegenskaper
+## <a name="device-must-have-camera-and-location-capabilities"></a>Enheten må ha kamera- og plasseringsegenskaper
 
 For å få tilgang til kameraet eller en brukers plassering fra en enheten må enheten henholdsvis ha et fysisk kamera eller muligheten til å hente plasseringsinformasjon.
 
 Hvis enheten har kamera- og plasseringsegenskaper, men du fremdeles har problemer, kan det hende at enkelte driver trenger oppdatering eller ny installasjon. Selv om du er usikker, anbefaler vi alltid at du oppdaterer enheten operativsystem, drivere og nettleser til den nyeste versjonen for den beste opplevelsen.
 
-## <a name="access-permissions-not-enabled" />Tilgangstillatelser ikke aktivert
+## <a name="access-permissions-not-enabled"></a>Tilgangstillatelser ikke aktivert
 
 Du må aktivere generell tilgang til kamera og plassering fra enhetens personverninnstillinger og uttrykkelig tillate at [!INCLUDE[prod_short](includes/prod_short.md)] får tilgang til dem. For å se eller endre tillatelser for en enhet som kjører i Windows, går du for eksempel til **Innstillinger**, velger **Personvern** og **Apptillatelser**. 
 
@@ -34,21 +34,21 @@ Som standard vil enheten eller nettleseren vise en forespørsel om tilgang til d
 > [!NOTE]  
 > Enkelte eldre nettlesere gir ikke tilgang til kamera og plassering. Kamera er for eksempel ikke tilgjengelig i Internet Explorer eller den gamle Microsoft Edge.
 
-## <a name="web-client-connection-not-secure" />Nettklienttilkobling ikke sikker
+## <a name="web-client-connection-not-secure"></a>Nettklienttilkobling ikke sikker
 
 Kamera- og plasseringsegenskaper er bare tilgjengelig når du har tilgang til nettklienten via SSL-sikrede HTTP-tilkobling ved å bruke URI-skjemaet `https://`. 
 
 Det eneste unntaket er å koble til `http://localhost`, som brukes til formål for utvikling og testing.
 
 
-## <a name="work-with-virtualization-technologies" />Arbeid med visualiseringsteknologier
+## <a name="work-with-virtualization-technologies"></a>Arbeid med visualiseringsteknologier
 
 Når du kobler til [!INCLUDE[prod_short](includes/prod_short.md)] via Eksternt skrivebord eller en annen virtualisering, kan det hende tilgang til kamera og plassering ikke er tilgjengelig. I dette tilfellet bruker du det fysiske systemet i stedet.
 
-## <a name="antivirus-software" />Antivirusprogramvare
+## <a name="antivirus-software"></a>Antivirusprogramvare
 Enkelte antivirusprogramvarer blokkerer tilgang til kamera og plassering som standard. Husk å sjekke innstillingene for antivirusprogramvaren.
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 [Implementere kameraet i AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-camera-al)  
 [Implementere plasseringen i AL](/dynamics365/business-central/dev-itpro/developer/devenv-implement-location-al)
 

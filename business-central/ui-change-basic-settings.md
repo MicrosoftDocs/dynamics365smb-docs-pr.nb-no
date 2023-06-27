@@ -11,13 +11,13 @@ ms.search.form: '9022, 9019, 9027, 9020, 9026, 9030, 9000, 9009, 9004, 9005, 902
 ms.date: 08/31/2022
 ms.author: jswymer
 ---
-# <a name="change-basic-settings" />Endre grunnleggende innstillinger
+# <a name="change-basic-settings"></a>Endre grunnleggende innstillinger
 
 På siden **Mine innstillinger** kan du vise og endre grunnleggende innstillinger for din forekomst av [!INCLUDE[prod_short](includes/prod_short.md)]. Endringene du gjør, påvirker bare ditt arbeidsområde, ikke arbeidsområdene til andre brukere.  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="role" /><a name="role-center"></a>Rolle
+## <a name="role"></a><a name="role-center"></a>Rolle
 
 Rollen fastslår startsiden, som er et startskjermbilde som er tilpasset behovene til en spesifikk rolle i en organisasjon. Avhengig av rollen din, gir startsiden eller rollesenteret deg en oversikt over bedriften, avdelingen eller dine egne oppgaver. Det kan også hjelpe deg med å navigere til daglige oppgaver og finne arbeid som er tilordnet til deg.
 
@@ -25,7 +25,7 @@ Rollen fastslår startsiden, som er et startskjermbilde som er tilpasset behoven
 
 * I midten finner du **Aktiviteter**-området, som viser gjeldende data og kan velges for å vise mer detaljert informasjon. Sentrale ytelsesindikatorer (KPIer) kan settes opp for å vise et valgt diagram for en visuell fremstilling av for eksempel kontantstrøm eller inntekter og utgifter. Du kan også bygge opp en liste over favorittkunder på hjemmesiden for forretningsforbindelser som du gjør forretninger med ofte eller må vie spesiell oppmerksomhet.
 
-### <a name="change-the-role" />Endre rollen
+### <a name="change-the-role"></a>Endre rollen
 
 Standardrollen er **Forretningsleder**, men du kan velge en annet rolle for å bruke et rollesenter som passer bedre til dine behov.  
 
@@ -33,7 +33,7 @@ Standardrollen er **Forretningsleder**, men du kan velge en annet rolle for å b
 2. På siden **Mine innstillinger**, i feltet **Rolle**, velger du rollen som du vil angi som standard. Velg for eksempel **Revisor**.
 3. Velg **OK**.
 
-## <a name="company" /><a name="company"></a>Selskap
+## <a name="company"></a><a name="company"></a>Selskap
 
 Et selskap fungerer som en beholder for data i [!INCLUDE[prod_short](includes/prod_short.md)]. Det kan være flere firmaer i en database, men du kan velge bare ett om gangen. Standardfirma kalles CRONUS og inneholder demonstrasjonsdata bare.
 
@@ -45,7 +45,7 @@ Et selskap fungerer som en beholder for data i [!INCLUDE[prod_short](includes/pr
 Standardfirma kalles CRONUS og inneholder demonstrasjonsdata bare. Du kan opprette et nytt selskap med egendefinerte data. Hvis du vil ha mer informasjon, kan du se [Opprette nye selskaper](about-new-company.md).
 
 <!--
-### <a name="to-change-the-company-name" />To change the company name
+### <a name="to-change-the-company-name"></a>To change the company name
 
 The company name is always displayed at the top left corner and works as an action that you can choose to go back to the Role Center. You can change this name on the **Company Information** page.
 
@@ -53,7 +53,7 @@ The company name is always displayed at the top left corner and works as an acti
 2. In the **Name** field, enter the new company name.
 3. Leave the page. The system restarts and displays the new company in the top-left corner.
 
-### <a name="to-display-a-company-badge-for-quick-access-to-company-information" /><a name="badge"></a>To display a company badge for quick access to company information
+### <a name="to-display-a-company-badge-for-quick-access-to-company-information"></a><a name="badge"></a>To display a company badge for quick access to company information
 
 You can add a customized badge in the top-right corner, which you can choose to quickly view company name and tenant information in a pop-up box. The company badge is also useful when [!INCLUDE[prod_short](includes/prod_short.md)] is embedded in another application, like Microsoft Teams or in some other web application. In these cases, because the [!INCLUDE[web_client](includes/web_client.md)] displays less surrounding contextual information, the company badge serves as the only way to determine which company or environment a record belongs to.
 
@@ -63,7 +63,7 @@ You can add a customized badge in the top-right corner, which you can choose to 
 > [!NOTE]
 > If a company badge is defined, then you cannot change the company name as described in [To change the company name](ui-change-basic-settings.md#to-change-the-company-name)-->
 
-## <a name="work-date" /><a name="work-date"></a>Arbeidsdato
+## <a name="work-date"></a><a name="work-date"></a>Arbeidsdato
 
 Den mest brukte arbeidsdatoen er i dag. Du må kanskje endre arbeidsdatoen midlertidig for å utføre oppgaver, for eksempel å fylle ut transaksjoner for en dato som ikke er i dag.
 
@@ -73,7 +73,7 @@ Den mest brukte arbeidsdatoen er i dag. Du må kanskje endre arbeidsdatoen midle
 > [!IMPORTANT]  
 > Når du endrer arbeidsdatoen, og hvis du logger ut eller bytter til et annet selskap, reverteres arbeidsdataene til standard arbeidsdato. Så neste gang du logger deg på eller bytter tilbake til det opprinnelige selskapet, må du kanskje angi arbeidsdatoen på nytt.
 
-### <a name="work-date-indication" />Arbeidsdatoindikasjon
+### <a name="work-date-indication"></a>Arbeidsdatoindikasjon
 
 Arbeidsdatoen er viktig på sider som kan redigeres. Når arbeidsdatoen ikke er satt til dagens dato på en redigerbar side, vises to typer indikatorer på siden:
 
@@ -83,11 +83,11 @@ Arbeidsdatoen er viktig på sider som kan redigeres. Når arbeidsdatoen ikke er 
 
 Hvis arbeidsdatoen ikke er angitt til gjeldende dag (i dag), vil gjeldende arbeidsdato vises øverst til venstre på alle sider der kan du redigere data.
 
-## <a name="region" /><a name="region"></a> Region
+## <a name="region"></a><a name="region"></a> Region
 
 **Område**-innstillingen bestemmer hvordan datoer, klokkeslett, numre og valutaer vises eller formateres. Det bestemmer også hvilket tegn som brukes som desimalskilletegn når du bruker et numerisk tastatur til å angi data. Lær mer under [Angi data](ui-enter-data.md#decimal).
 
-## <a name="language" /><a name="language"></a> Språk
+## <a name="language"></a><a name="language"></a> Språk
 
 Endre visningsspråket. Dette feltet vises bare når det er mer enn ett språk som kan velges.
 
@@ -95,21 +95,21 @@ Det første språket bestemmes enten av systemansvarlig eller leserinnstillingen
 
 Flere språk for [!INCLUDE[prod_short](includes/prod_short.md)] kan installeres fra AppSource. Alle støttede visningsspråk vises i listen. Systemansvarlig må installere den relevante språkappen på leieren før brukere kan bytte til det nye språket i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="time-zone" />Tidssone
+## <a name="time-zone"></a>Tidssone
 
 Definerer tidssonen du befinner deg i. Når du logger på [!INCLUDE [prod_short](includes/prod_short.md)] første gang, angis tidssonen basert på selskapets adresse. Endre den hvis den ikke stemmer med den fysiske plasseringen din.  
 
-## <a name="notifications" />Varslinger
+## <a name="notifications"></a>Varslinger
 
 Velg koblingen *Endre når jeg mottar varslinger* for å vise eller endre varslingene som du får om bestemte hendelser eller statusendringer, når du for eksempel er i ferd med fakturere en kunde som har en forfalt saldo, eller den disponible beholdningen er lavere enn antallet du vil selge. Lær mer under [Administrer varslinger](ui-smart-notifications.md).
 
-## <a name="teaching-tips" />Læringstips
+## <a name="teaching-tips"></a>Læringstips
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  

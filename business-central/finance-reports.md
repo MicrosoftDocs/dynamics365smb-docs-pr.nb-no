@@ -8,17 +8,17 @@ ms.search.form: 'Report_4, Report_6, Report_7, Report_9, Report_25, Report_38'
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# <a name="financial-reports-and-analytics-in-business-central" />Finansrapporter og analyser i Business Central
+# <a name="financial-reports-and-analytics-in-business-central"></a>Finansrapporter og analyser i Business Central
 
 Ved finansiell rapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gir regnskapsavdelingen og driftsavdelingen muligheten til å opprette, vedlikeholde, distribuere og vise årsregnskap. Flytter seg utenfor tradisjonelle rapporteringsbegrensninger for å hjelpe deg med å utforme forskjellige typer rapporter effektivt. [!INCLUDE [prod_short](includes/prod_short.md)] inkluderer flere rapporter, sporingsfunksjoner og verktøy som hjelper revisorer eller kontrollører som er ansvarlige for rapportering til økonomiavdelingen. Financial Reporting inkluderer støtte for dimensjoner, så kontosegmenter eller dimensjoner er umiddelbart tilgjengelige. Ingen andre verktøy eller konfigurasjonstrinn kreves.  
 
 [!INCLUDE [tip_open_report_from_docs](includes/tip-open-report-from-docs.md)]
 
-## <a name="reports" />Rapporter
+## <a name="reports"></a>Rapporter
 
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
-## <a name="tasks" />Oppgaver
+## <a name="tasks"></a>Oppgaver
 
 Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilstanden i virksomheten din:
 
@@ -30,9 +30,9 @@ Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilst
 * [Opprett rapporter med XBRL](bi-create-reports-with-xbrl.md)  
 * [Administrere databasetilgangsformål](admin-data-access-intent.md)  
 
-## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/create-financial-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Opprette kostbudsjetter](finance-create-cost-budgets.md)  
 [Rapporter mva til skattemyndighetene](finance-how-report-vat.md)  

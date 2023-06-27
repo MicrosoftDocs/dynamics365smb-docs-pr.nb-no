@@ -11,7 +11,7 @@ ms.search.form: '1070, 1071, 1073, 1074'
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="the-paypal-payments-standard-extension" />PayPal Payments Standard-utvidelsen
+# <a name="the-paypal-payments-standard-extension"></a>PayPal Payments Standard-utvidelsen
 
 Kundene krever kontinuerlig bedre kundeservice, både når det gjelder produktkvalitet, men også når det gjelder leverings- og betalingsalternativer. PayPal Payments Standard-tjenesten hjelper deg med å forbedre din kundeservice.
 
@@ -29,7 +29,7 @@ PayPal Payments Standard-tjenesten gir følgende fordeler:
 
 Hvis du vil ha mer informasjon, kan du se [Aktivere kundebetaling via PayPal](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Tilpass [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Sette opp salg](sales-setup-sales.md)  

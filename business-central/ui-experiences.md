@@ -11,7 +11,7 @@ ms.search.form: 1
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="change-which-features-are-displayed" />Endre hvilke funksjoner som vises
+# <a name="change-which-features-are-displayed"></a>Endre hvilke funksjoner som vises
 [!INCLUDE[prod_short](includes/prod_short.md)] er utformet for å hjelpe deg med å drive bedriften din uavhengig av størrelse og kompleksitet. I kjernen av produktet finner du viktige funksjoner, for eksempel regnskapsrapporter, salg, kjøp og lagerstyring. Etter hvert som bedriftskompleksiteten øker, kan du f.eks. aktivere funksjonaliteten for produksjons- og servicestyring.
 
 Du kan definere vanskelighetsgraden for produktet, og dermed hvilke funksjoner selskapets brukere får tilgang til, ved å endre **Opplevelse**-innstillingen på siden **Selskapsopplysninger**. Merk at du også kan endre opplevelsesinnstillingen ved å legge til bestemte utvidelser fra AppSource. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md).
@@ -32,10 +32,10 @@ Før du definerer et selskapets opplevelsesinnstilling, definerer du brukernes t
 
 **Opplevelse**-innstillingen gjelder for alle brukerne i et selskap, men hver bruker kan tilpasse sin egen opplevelse ved å endre sideoppsett og innhold. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
 
-## <a name="enabling-premium-features-after-upgrading-a-plan" />Aktivere Premium-funksjoner etter oppgradering av en plan
+## <a name="enabling-premium-features-after-upgrading-a-plan"></a>Aktivere Premium-funksjoner etter oppgradering av en plan
 Brukere tilordnes til planer i Microsoft 365-administrasjonssenteret i forbindelse med det generelle arbeidet med å opprette Business Central-brukere. Hvis du vil ha mer informasjon, kan du se [Legg til brukere og tilordne lisenser samtidig](/microsoft-365/admin/add-users/add-users?view=o365-worldwide&preserve-view=true).
 
-### <a name="to-update-plan-changes-in-users-groups" />Slik oppdaterer du planendringer i brukergrupper
+### <a name="to-update-plan-changes-in-users-groups"></a>Slik oppdaterer du planendringer i brukergrupper
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -45,15 +45,15 @@ Når du har endret brukerplaner i Microsoft 365-administrasjonssenteret, for eks
 2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukere**, og velg deretter den relaterte koblingen.
 3. Velg handlingen **Oppdater brukere fra Microsoft 365** på siden **Brukere**.
 
-### <a name="to-select-the-premium-experience" />Slik velger du Premium-opplevelsen
+### <a name="to-select-the-premium-experience"></a>Slik velger du Premium-opplevelsen
 Du kan nå fortsette med å velge den nye opplevelsen.
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Selskapsopplysninger**, og velg deretter den relaterte koblingen.
 2. På siden **Selskapsopplysninger** i hurtigfanen **Brukeropplevelse** velger du Premium i **Opplevelse**-feltet.
 
-## <a name="help-assumes-premium-experience" />Hjelpen tar utgangspunkt i Premium-opplevelsen
+## <a name="help-assumes-premium-experience"></a>Hjelpen tar utgangspunkt i Premium-opplevelsen
 Alle funksjonsbeskrivelser i brukerdokumentasjonen for [!INCLUDE[prod_short](includes/prod_short.md)] forutsetter **Premium**-opplevelsen, det vil si at beskrivelsene dekker hele omfanget av grensesnittelementer.
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 [Tilpasse arbeidsområdet](ui-personalization-user.md)  
 [Tilpasse Business Central](ui-customizing-overview.md)  
 [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md)  

@@ -11,13 +11,13 @@ ms.search.form: '1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="defer-revenues-and-expenses" />Periodisere inntekter og utgifter
+# <a name="defer-revenues-and-expenses"></a>Periodisere inntekter og utgifter
 
 Hvis du føre inn en inntekt eller en utgift i en annen periode enn perioden som transaksjonen ble bokført, kan du bruke funksjonaliteten til å periodisere automatisk inntekter og utgifter etter en angitt tidsplan.
 
 Hvis du vil fordele inntekter eller utgifter på de aktuelle regnskapsperiodene, konfigurerer du en periodiseringsmal for ressursen, varen eller finanskontoen, som det vil bli bokført inntekt eller utgift for. Når du bokfører det aktuelle salgs- eller kjøpsdokumentet, periodiseres inntekter eller utgifter til de aktuelle regnskapsperiodene i henhold til en tidsplan for periodisering som styres av innstillingene i malen for periodisering og bokføringsdatoen.
 
-## <a name="to-set-up-a-gl-account-for-deferral" />Slik definerer du finanskonti for periodisering
+## <a name="to-set-up-a-gl-account-for-deferral"></a>Slik definerer du finanskonti for periodisering
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kontoplan** og velger deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
@@ -26,7 +26,7 @@ Hvis du vil fordele inntekter eller utgifter på de aktuelle regnskapsperiodene,
 
 For begge typer periodisering velger du **Balanse** i **Type**-feltet og gir navn til kontoene, for eksempel "Ikke tjent inntekt" for periodisert inntekt og "Ubetalte utgifter" for periodiserte utgifter.
 
-## <a name="to-set-up-a-deferral-template" />Slik definerer du mal for periodisering
+## <a name="to-set-up-a-deferral-template"></a>Slik definerer du mal for periodisering
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Maler for periodisering**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
@@ -48,7 +48,7 @@ For begge typer periodisering velger du **Balanse** i **Type**-feltet og gir nav
 
 Eksempel: Bokføringsdatoen er 06.02.2016. Hvis du angir "Utgifter periodisert for %4 %6", blir beskrivelsen som vises "Utgifter periodisert for februar 2016".
 
-## <a name="to-assign-a-deferral-template-to-an-item" />Slik tilordner du en mal for periodisering til en vare
+## <a name="to-assign-a-deferral-template-to-an-item"></a>Slik tilordner du en mal for periodisering til en vare
 
 > [!NOTE]  
 > Fremgangsmåten i denne prosedyren er den samme som når du tilordner en mal for periodisering til en finanskonto eller ressurs.
@@ -57,7 +57,7 @@ Eksempel: Bokføringsdatoen er 06.02.2016. Hvis du angir "Utgifter periodisert f
 2. Åpne kortet for varen som inntekter eller utgifter skal periodiseres for til regnskapsperiodene da varen ble solgt eller kjøpt.
 3. I feltet **Standard mal for periodisering** , velger du den aktuelle malen for periodisering.
 
-## <a name="to-change-a-deferral-schedule-from-a-sales-invoice" />Slik endrer du en tidsplan for periodisering fra en salgsfaktura
+## <a name="to-change-a-deferral-schedule-from-a-sales-invoice"></a>Slik endrer du en tidsplan for periodisering fra en salgsfaktura
 
 > [!NOTE]  
 > Trinnene i denne fremgangsmåten er de samme som når du endrer en tidsplan for periodisering, for utgifter, fra en kjøpsfaktura.
@@ -71,7 +71,7 @@ Eksempel: Bokføringsdatoen er 06.02.2016. Hvis du angir "Utgifter periodisert f
 5. Velg handlingen **Beregn tidsplan**.
 6. Velg **OK**. Tidsplanen for periodisering oppdateres for salgsfakturaen. Relaterte malen for periodisering forblir uendret.
 
-## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger" />Slik forhåndsviser du hvordan periodiserte inntekter eller utgifter skal bokføres i finans
+## <a name="to-preview-how-deferred-revenues-or-expenses-will-be-posted-to-the-general-ledger"></a>Slik forhåndsviser du hvordan periodiserte inntekter eller utgifter skal bokføres i finans
 
 > [!NOTE]  
 > Trinnene i denne fremgangsmåten er de samme som når du forhåndsviser hvordan periodisering av utgift bokføres.
@@ -81,7 +81,7 @@ Eksempel: Bokføringsdatoen er 06.02.2016. Hvis du angir "Utgifter periodisert f
 
 Finansposter som skal posteres til den angitte periodiseringskontoen, for eksempel Ikke tjent inntekt, er merket med beskrivelsen du skrev inn i **Periodebeskr.** -feltet i malen for periodisering, for eksempel "Utgifter periodisert for februar 2016".
 
-## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report" />Slik ser du gjennom bokførte periodiseringer i rapporten Periodiseringssammendrag for Salg
+## <a name="to-review-posted-deferrals-in-the-sales-deferral-summary-report"></a>Slik ser du gjennom bokførte periodiseringer i rapporten Periodiseringssammendrag for Salg
 
 > [!NOTE]  
 > Trinnene i denne fremgangsmåten er de samme som når du ser gjennom rapporten Periodiseringssammendrag for Kjøp.
@@ -90,7 +90,7 @@ Finansposter som skal posteres til den angitte periodiseringskontoen, for eksemp
 2. På siden **Periodiseringssammendrag for Salg** i **Saldo per**-feltet, angir du den siste datoen du vil se periodiserte inntekter for.
 3. Velg **Forhåndsvisning**-knappen.
 
-## <a name="to-specify-a-period-in-which-to-allow-deferral-posting" />Slik angir du en periode der du kan tillate periodiseringsbokføring
+## <a name="to-specify-a-period-in-which-to-allow-deferral-posting"></a>Slik angir du en periode der du kan tillate periodiseringsbokføring
 
 Du kan angi en periode der brukere kan bokføre transaksjoner, ved å angi datoer i feltene **Bokf. tillatt fra** og **Bokf. tillatt til** på følgende måte:
 
@@ -102,9 +102,9 @@ Hvis du har gjort det, må du gjøre et unntak for periodiseringer for at de ska
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansoppsett** eller **Brukeroppsett**, og velg deretter den relaterte koblingen.
 2. I feltene **Tillat periodiseringsbokføring fra** og **Tillat periodiseringsbokføring til** angir du en start- og sluttdato for perioden.
 
-## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/processing-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/processing-invoices-dynamics-365-business-central/)
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  

@@ -11,7 +11,7 @@ ms.search.form: '254, 256, 1190, 1191, 1227, 1228, 1229'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="making-payments" />Utføre betalinger
+# <a name="making-payments"></a>Utføre betalinger
 
 Når du foretar betalinger til leverandører eller kunder eller refusjoner til de ansatte, kan du bokføre de relaterte betalingslinjene på siden **Betalingskladd**. Utbetalingskladden er en finanskladd som er tilpasset for betalinger og inneholder en rekke effektive funksjoner, som for eksempel funksjonen **Betalingsforslag - leverandør** som finner leverandørbetalinger som har forfalt, og rapporten **Leverandør - forfallsoversikt** som viser en oversikt over forfalte leverandørbetalinger.  
 
@@ -35,9 +35,9 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Betal leverandøren kontant eller med sjekk, og bokfør betalingen når du bokfører selve fakturaen. |[Gjøre opp kjøpsfakturaer omgående](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Du kan sørge for at at banken bare fjerner validerte sjekker og beløp ved å sende dem en fil som inneholder informasjon om leverandør, sjekk og betaling. |[Eksportere en Positive Pay-fil](finance-how-positive-pay.md) |
 
-## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/process-customer-vendor-payments-dynamics-365-business-central/)
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  

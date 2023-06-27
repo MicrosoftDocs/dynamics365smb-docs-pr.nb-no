@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="about-inventory-costing" />Om lagerkost
+# <a name="about-inventory-costing"></a>Om lagerkost
 Administrering av lagerkost handler om å registrere og rapportere forretningsdriftskost. Det inkluderer rapportering av produksjonskost og lagerkost, det vil si verdien av varene.  
 
  Sentrale prinsipper å forstå er at lagermetoder definerer hvordan varer verdsettes når de forlater lageret, at kostjustering oppdaterer solgte varers kost med relatert kjøpskost bokført etter salget, og at lagerverdier må bokføres til dedikerte finanskonti ved regelmessige intervaller.  
@@ -31,7 +31,7 @@ Administrering av lagerkost handler om å registrere og rapportere forretningsdr
 |Lese hvordan lagerperioder hjelper et selskap med å styre lagerverdi over tid ved å definere kortere perioder som kan lukkes for bokføring underveis i regnskapsåret.|[Arbeide med lagerperioder](finance-how-to-work-with-inventory-periods.md)|  
 |Forstå alle mekanismene i kostmotoren, inkludert hva som skjer når du bokfører transaksjoner for montering og produksjon.|[Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)|  
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)    
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

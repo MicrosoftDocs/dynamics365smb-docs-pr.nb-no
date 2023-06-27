@@ -10,10 +10,10 @@ ms.search.form: '6560, 42, 50, 507, 509'
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# <a name="track-document-lines" />Spore dokumentlinje
+# <a name="track-document-lines"></a>Spore dokumentlinje
 Du kan vise dokumenter som er relatert til ordrelinjer og bestillingslinjer, herunder fra arkiverte ordrelinjer. Dokumenter som du kan spore, inkluderer forespørsler, følgesedler, mottak og rammeordrer. Dette hjelper deg med å identifisere dokumenter som er brukt til å behandle ordrer.  
 
-## <a name="to-track-documents-related-to-a-sales-order-line" />Spore dokumenter relatert til salgsordrelinjer
+## <a name="to-track-documents-related-to-a-sales-order-line"></a>Spore dokumenter relatert til salgsordrelinjer
 Fremgangsmåten nedenfor beskriver hvordan du sporer fra salgsordrelinjer. Fremgangsmåten er lignende for kjøpsordrer og rammebestillingslinjer.
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
@@ -24,7 +24,7 @@ Fremgangsmåten nedenfor beskriver hvordan du sporer fra salgsordrelinjer. Fremg
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

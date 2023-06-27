@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="setup-best-practices-planning-parameters" />Anbefalte fremgangsmåter for oppsett: Planleggingsparametere
+# <a name="setup-best-practices-planning-parameters"></a>Anbefalte fremgangsmåter for oppsett: Planleggingsparametere
 
 Hurtigfanen **Planlegging** på varekortet er kjernen i et selskaps forsyningskjede. Det er svært viktig for kostnadseffektiv lagerkontroll og god kundeservice å angi riktige planleggingsparametre.  
 
@@ -34,7 +34,7 @@ Hurtigfanen **Planlegging** på varekortet er kjernen i et selskaps forsyningskj
 >
 > Hvis selskaper planlegger for behov på ulike lokasjoner, anbefales det sterkt at de definerer lagerføringsenheter for hver lokasjon, og at alt behov opprettes ved hjelp av en verdi i **Lokasjonskode**-feltet. Finn ut mer under [Utformingsdetaljer: Planlegg med eller uten lokasjoner](production-planning-with-without-locations.md).  
 
-## <a name="see-also" />Se også
+## <a name="see-also"></a>Se også
 [Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging](setup-best-practices-supply-planning.md)  
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)  
 [Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)  
