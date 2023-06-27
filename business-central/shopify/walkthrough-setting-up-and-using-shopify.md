@@ -132,11 +132,11 @@ I **Shopify-administrator** legger du merke til at ordren nå er merket som *Opp
 
 ## <a name="walkthrough-invite-your-customers-to-your-new-online-store" />Gjennomgang: Inviter kunder til den nye nettbutikken
 
-### <a name="scenario" />Scenario
+### <a name="scenario-1" />Scenario
 
 Etter en vellykket hurtigstart av den nye nettbutikken, vil du at de nå værende kundene skal besøke den og begynne å legge inn bestillinger.
 
-### <a name="steps" />Trinn
+### <a name="steps-1" />Trinn
 
 Gjør følgende trinn i [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
@@ -148,11 +148,11 @@ I **Shopify-administrator** legger du merket til at kundene ble importert. Åpne
 
 ## <a name="walkthrough-fine-tuning-of-item-management" />Gjennomgang: Finjustering av varestyring
 
-### <a name="scenario" />Scenario
+### <a name="scenario-2" />Scenario
 
 Du vil legge til mer fleksibelt og kontroll i prosessene rundt varestyring. Du ønsker å forbedre produktbeskrivelsen og vil legge til flere gjennomgangstrinn før produkter blir tilgjengelig for sluttkunden.
 
-### <a name="steps" />Trinn
+### <a name="steps-2" />Trinn
 
 Gjør følgende trinn i [!INCLUDE[prod_short](../includes/prod_short.md)]:
 
@@ -241,11 +241,11 @@ I **Shopify-nettbutikken** åpner du produktkatalogen og finner produktet *Athen
 
 ## <a name="walkthrough-import-items-from-shopify" />Gjennomgang: Importer varer fra Shopify
 
-### <a name="scenario" />Scenario
+### <a name="scenario-3" />Scenario
 
 Du har allerede en vellykket nettbutikk og ønsker å begynne å bruke [!INCLUDE[prod_short](../includes/prod_short.md)] som programvare for forretningsstyring. Du ønsker å importere så mye data fra Shopify som mulig. 
 
-### <a name="steps" />Trinn
+### <a name="steps-3" />Trinn
 
 Dette er en fortsettelse av [Gjennomgang: Begynn å selge produkter på nettet](walkthrough-setting-up-and-using-shopify.md#walkthrough-start-selling-products-online). Du kan også prøve med dine egne data, for eksempel Shopify-butikken eller -sandkassen.
 

@@ -63,7 +63,7 @@ Installasjonsprogrammet for **OneDrive-oppsett** ble introdusert i lanseringsbø
 
 Hvis du vil bytte, åpner og kjører du det assosterte oppsettet for **OneDrive-oppsett** direkte eller du åpner **Tilkoblingn for SharePoint-oppsett** -siden og velger **Gå til nytt OneDrive-oppsett** i varslingen øverst på siden. Følg installasjonsveiledningen som beskrevet i forrige del.
 
-## <a name="restoring-onedrive-and-includeprodshortincludesprodshortmd" />Gjenopprett OneDrive og [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="restoring-onedrive-and-" />Gjenopprett OneDrive og [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Som en del av en nødgjenopprettingsøvelse kan det hende at administratorer må gjenopprette et [!INCLUDE[prod_short](includes/prod_short.md)]-onlinemiljø til en sikkerhetskopi fra et tidspunkt i fortiden og synkronisere OneDrive-lagring med det samme tidspunktet. OneDrive inneholder ulike gjenopprettingsverktøy, for eksempel gjenoppretting av en brukers OneDrive til et tidligere tidspunkt, gjenoppretting av en tidligere versjon av en enkelt fil eller gjenoppretting av slettede filer. Hvis du vil ha mer informasjon, kan du se disse artiklene:
 

@@ -11,7 +11,7 @@ ms.search.form: null
 ms.date: 06/11/2021
 ms.author: edupont
 ---
-# <a name="local-functionality-in-includeprodlongincludesprodlongmd" />Lokal funksjonalitet i [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="local-functionality-in-" />Lokal funksjonalitet i [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] har en kombinert lokaliseringsstrategi inkludert både Microsoft-ledede og parterledede modeller. I denne delen finner du beskrivelser av funksjonene som gjelder land der Microsoft sørger for forskriftsmessig samsvar og andre lokale funksjoner.  
 

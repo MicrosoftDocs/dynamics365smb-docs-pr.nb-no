@@ -235,7 +235,7 @@ Du har også bokført en forskuddsfaktura, opprettet en ekstra forskuddsfaktura 
 
 Med forskuddsfunksjonene er det enkelt å definere og håndheve forskuddsregler for kunder og varer. Du kan også bokføre hver betaling mot en faktura.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/prepayment-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/prepayment-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

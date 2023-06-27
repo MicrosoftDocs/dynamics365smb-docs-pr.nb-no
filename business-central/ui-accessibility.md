@@ -26,7 +26,7 @@ Denne artikkelen inneholder informasjon om funksjonene som gjør [!INCLUDE[prod_
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namenavigationa-navigation" /><a name="Navigation"></a> Navigasjon
+## <a name="navigation" /><a name="Navigation"></a> Navigasjon
   
 Du kan bruke forskjellige kombinasjoner av TAB, SKIFT og piltastene på tastaturet til å gå mellom elementer på en side. Elementer omfatter handlinger, felt og kolonner, deler og andre kontroller. Vanligvis velger du på <kbd>TAB</kbd> eller <kbd>SKIFT</kbd>+<kbd>TAB</kbd> for å gå til neste eller forrige element.
 
@@ -34,19 +34,19 @@ Når du fokuserer på et område som inneholder handlinger, for eksempel navigas
 
 Du kan for eksempel også bruke tabulatorrekkefølgen til å bytte mellom hovedsiden i nettleseren og dialogbokser som ber om bekreftelse, eller påloggingssiden.  
 
-## <a name="a-nameheadingsa-headings-in-content" /><a name="Headings"></a> Overskrifter i innhold
+## <a name="headings-in-content" /><a name="Headings"></a> Overskrifter i innhold
 
 HTML-kilden for [!INCLUDE[prod_short](includes/prod_short.md)]-innhold bruker koder for å hjelpe brukere av hjelpeteknologi til å forstå strukturen og innholdet på siden. For eksempel på listesider defineres kolonnene i TH-koder og kolonneoverskriftene defineres med TITTEL-attributtet inni koden. Overskrifter for elementer, for eksempel hurtigfaner faktabokser og felt, inkluderes i overskriftskoder (H1, H2, H3 og H4).  
 
-## <a name="a-nameimagesa-image-and-links" /><a name="Images"></a> Bilde og koblinger
+## <a name="image-and-links" /><a name="Images"></a> Bilde og koblinger
 
 Det angis en beskrivende tekst for bilder med ALT-attributtet inni IMG-koden. Det angis en beskrivende tekst for hyperkoblinger med tittelattributtet inni A-koden.  
 
-## <a name="a-nameassistivetecha-assistive-technologies" /><a name="AssistiveTech"></a> Hjelpeteknologi
+## <a name="assistive-technologies" /><a name="AssistiveTech"></a> Hjelpeteknologi
 
 [!INCLUDE[prod_short](includes/prod_short.md)] støtter ulike hjelpteknologier, for eksempel høy kontrast, skjermlesere og talegjenkjenningsprogramvare. Det kan være at noen hjelpeteknologier ikke fungerer godt med bestemte elementer på [!INCLUDE[prod_short](includes/prod_short.md)]-sider.  
 
-## <a name="a-namezooma-zoom" /><a name="zoom"></a> Zoom
+## <a name="zoom" /><a name="zoom"></a> Zoom
 
 De fleste nettlesere bruker standard tastatursnarveier for å zoome inn og ut på gjeldende side. Disse hurtigtastene er ikke spesifikke for [!INCLUDE [prod_short](includes/prod_short.md)], men de fungerer når du bruker [!INCLUDE [prod_short](includes/prod_short.md)] i en nettleser. Hvis du vil se en liste over støttede hurtigtaster, kan du se [Hurtigtaster for å zoome inn og ut](keyboard-shortcuts.md#zoomshortcuts).
 

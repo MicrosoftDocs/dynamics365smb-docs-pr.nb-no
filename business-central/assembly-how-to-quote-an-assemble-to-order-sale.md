@@ -34,7 +34,7 @@ Etter hvert som du selger en hvilken som helst annen type vare, kan du også opp
 6.  Når du har justert monteringsordrelinjene i henhold til tilbudet, lukker du siden **Montere til ordre – linjer** for å gå tilbake til siden **Tilbud**.  
 7.  Hvis kunden godtar tilbudet, oppretter du en ordre for den aktuelle monteringsvaren. Hvis du vil ha mer informasjon, kan du se [Gi salgstilbud](sales-how-make-offers.md). Det koblede monteringstilbudet og eventuelle tilpasninger knyttes til denne nye salgsordren for å klargjøre for montering av varen(e) som skal selges.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

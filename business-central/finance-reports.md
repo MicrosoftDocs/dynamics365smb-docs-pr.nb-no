@@ -30,7 +30,7 @@ Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilst
 * [Opprett rapporter med XBRL](bi-create-reports-with-xbrl.md)  
 * [Administrere databasetilgangsformål](admin-data-access-intent.md)  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-financial-reports-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/create-financial-reports-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

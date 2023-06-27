@@ -47,7 +47,7 @@ Alle inngående dokumentposter vises, inkludert poster som det ikke er merket av
 > [!NOTE]  
 > Du kan også utføre denne handlingen for hver enkelt post på siden **Kort for inngående dokument**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
   

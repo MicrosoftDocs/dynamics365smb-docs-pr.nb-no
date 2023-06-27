@@ -11,7 +11,7 @@ ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: solsen
 ---
-# <a name="sandbox-environments-in-includeprodshortincludesprodshortmd" />Sandkassemiljøer i [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="sandbox-environments-in-" />Sandkassemiljøer i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] online kan du enkelt få et sikkert miljø der du kan teste, lære opp eller feilsøke uten å forstyrre firmaets arbeidsprosesser eller forretningsdata. Et slikt ikke-produksjonsmiljø kalles en *sandkasse*. Isolert fra produksjon er et sandkassemiljø stedet der du trygt kan utforske, lære, demonstrere, utvikle og teste tjenesten uten risikoen ved å påvirke data og innstillinger i produksjonsmiljøet.  
 
@@ -64,7 +64,7 @@ Hvis du vil ha mer informasjon, kan du se [Bruk utformingen](/dynamics365/busine
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadmin-online-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/admin-online-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

@@ -242,7 +242,7 @@ Du kan angi rapportene som skal skrives ut i forskjellige faser, ved å velge et
 > [!NOTE]
 > De tilgjengelige rapportene kan variere avhengig av hvor landet befinner seg. Basisprogrammet inkluderer ikke oppsett.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Se relatert [Microsoft-opplæring](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/adjust-inventory/)
 
 ## <a name="see-also" />Se også
 

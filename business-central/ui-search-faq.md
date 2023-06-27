@@ -30,7 +30,7 @@ Handlinger, sider og rapporter som kommer fra utvidelser, hentes av Fortell meg.
 
 Sidesøk har utviklet seg til Fortell meg for å hjelpe deg med å arbeide raskt. Sidesøk kunne bare hjelpe deg med å navigere til sider eller rapporter. På et teknisk nivå er Fortell meg ikke lenger basert på det eldre MenuSuite-konseptet.
 
-### <a name="i-use-on-premises-includeprodshortincludesprodshortmd-does-that-include-tell-me" />Jeg bruker lokal [!INCLUDE[prod_short](includes/prod_short.md)]. Inkluderer dette Fortell meg?
+### <a name="i-use-on-premises--does-that-include-tell-me" />Jeg bruker lokal [!INCLUDE[prod_short](includes/prod_short.md)]. Inkluderer dette Fortell meg?
 
 Du kan bruke Fortell meg i den lokale webklienten til å finne handlinger, sider og rapporter, men ikke apper og konsulenttjenester på AppSource.
 

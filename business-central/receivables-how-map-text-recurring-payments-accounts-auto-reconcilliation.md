@@ -52,7 +52,7 @@ Hvis du alltid vil bokføre utgifter som er knyttet til gebyrer fra en bestemt b
 | --- | --- | --- | --- | --- |
 | MyBank |TOM |60400|Finanskonto |TOM |
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

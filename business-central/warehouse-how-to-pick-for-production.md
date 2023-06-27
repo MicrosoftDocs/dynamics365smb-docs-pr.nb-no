@@ -174,7 +174,7 @@ Fremgangsmåten nedenfor gir et eksempel på handlingene ulike personer gjør og
 
 :::image type="content" source="media/binflow.png" alt-text="Oversikt over når og hvordan Hyllekode-feltet fylles ut.":::
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Se relatert [Microsoft-opplæring](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Se også
 

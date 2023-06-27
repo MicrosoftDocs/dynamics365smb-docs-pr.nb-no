@@ -140,7 +140,7 @@ For å tilordne opprinnelig kostpris manuelt, må du velge feltet **Utlignet fra
 
 Hvis du vil ha mer informasjon, kan du se [Kostberegning for beholdning](design-details-inventory-costing.md).
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

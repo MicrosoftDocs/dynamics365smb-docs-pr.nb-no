@@ -49,7 +49,7 @@ Hvis du vil knytte ansvarssentre til bruker, kan du gjøre dette i tre moduler: 
 > [!NOTE]  
 > Brukere kan vise bare de bokførte dokumentene som gjelder sitt eget ansvarssenter. De kan imidlertid vise alle postene og navigere til andre bokførte dokumenter fra postene.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-responsibility-centers" />Se relatert [Microsoft-opplæring](/training/modules/set-up-responsibility-centers/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/set-up-responsibility-centers/)
 
 ## <a name="see-also" />Se også
 

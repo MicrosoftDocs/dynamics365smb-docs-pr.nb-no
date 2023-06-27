@@ -112,7 +112,7 @@ I neste fremgangsmåte kan du opprette en prosjektkladd for Tricia for å bokfø
 
 4.  Velg **OK**-knappen for å lagre endringene.
 
-## <a name="setting-up-a-job" />Konfigurere et prosjekt
+## <a name="setting-up-a-job-1" />Konfigurere et prosjekt
 
  I dette scenariet har CRONUS fått i oppdrag av en kunde, Progressive Home Furnishings, å designe et konferanserom og en spisesal. Kunden er basert i USA, og prosjektet krever spesialprogramvare. Prosjektlederen inngår en avtale med kunden og oppretter et prosjekt som er i tråd med avtalen.  
 
@@ -258,7 +258,7 @@ Linjene er nå bokført.
 2.  Velg handlingen **Statistikk**. Du kan se gjennom detaljert informasjon om prosjektprisene, kostbeløpene og fortjenesten i både lokal og utenlandsk valuta.  
 3.  Velg **Lukk**-knappen for å lukke siden **Prosjektstatistikk**.  
 
-## <a name="handling-fixed-prices" />Håndtere faste priser
+## <a name="handling-fixed-prices-1" />Håndtere faste priser
 
  CRONUS har fått i oppdrag å sette opp konferanserom. Som prosjektleder trenger Prakash en god oversikt over oppgavene som kreves i prosjektet, sammen med de tilknyttede budsjetterte og påløpte kostbeløpene for hver oppgave. I tillegg vil Prakash vite salgsbeløpet for prosjektet og beløpet som er fakturert hittil. De har inngått en avtale med kunden når det gjelder fast pris for prosjektet.  
 
@@ -454,7 +454,7 @@ Fremgangsmåtene nedenfor viser hvordan du oppretter en ny jobb, angir prissetti
 
  Denne gjennomgangen har vist deg noen av de grunnleggende trinnene for å arbeide med prosjekter i [!INCLUDE[prod_short](includes/prod_short.md)]. Du har lært hvordan du oppretter et nytt prosjekt, hvordan du kopierer et prosjekt og hvordan du håndterer betalinger. Du har også sett en demonstrasjon av hvordan du sporer timer og oppretter fakturaer.  
 
-## <a name="see-related-microsoft-trainingtrainingpathscreate-jobs" />Se relatert [Microsoft-opplæring](/training/paths/create-jobs/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/create-jobs/)
 
 ## <a name="see-also" />Se også
 

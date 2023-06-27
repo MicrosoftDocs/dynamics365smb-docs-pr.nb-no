@@ -59,7 +59,7 @@ Du kan også opprette din egen prediktive webtjeneste basert på en felles model
 6. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Oppsett for salgs- og varelagerprognose**, og velg deretter den relaterte koblingen.  
 7. Utvid hurtigfanen **Generelt**, og fyll deretter ut feltene URL-adresse for API og API-nøkkel.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-sales-inventory-forecast-extension" />Se relatert [Microsoft-opplæring](/training/modules/use-sales-inventory-forecast-extension/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/use-sales-inventory-forecast-extension/)
 
 ## <a name="see-also" />Se også
 

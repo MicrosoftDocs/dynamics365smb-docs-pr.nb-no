@@ -11,7 +11,7 @@ ms.search.form: '100, 1156, 1157, 1314, 1315, 1316, 9027'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="accountant-experiences-in-includeprodlongincludesprodlongmd" />Regnskapsføreropplevelser i [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="accountant-experiences-in-" />Regnskapsføreropplevelser i [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Alle virksomheter må føre regnskap og godkjenne regnskapet. Enkelte virksomheter bruker en ekstern regnskapsfører, og andre har en regnskapsfører ansatt. Uansett hvilken type regnskapsfører du er, kan du bruke rollesenteret **Revisor** som hjemmet ditt i [!INCLUDE[prod_short](includes/prod_short.md)]. Herfra har du tilgang til alle sidene du trenger i arbeidet.  
 
@@ -25,7 +25,7 @@ Hvis [!INCLUDE[prod_short](includes/prod_short.md)] er nytt for deg, kan du vise
 
 Hvis du arbeider i flere [!INCLUDE [prod_short](includes/prod_short.md)]-firmaer, kan det være nyttig å bruke **Selskapshub**-siden for å holde oversikt over arbeid.  Hvis du vil ha mer informasjon, kan du se [Administrere arbeid på tvers av flere selskaper i selskapshuben](company-hub.md).  
 
-## <a name="a-nameinviteaccountantainviting-your-external-accountant-to-your-includeprodshortincludesprodshortmd" /><a name="inviteaccountant"></a>Invitere den eksterne regnskapsføreren til [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="inviting-your-external-accountant-to-your-" /><a name="inviteaccountant"></a>Invitere den eksterne regnskapsføreren til [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Hvis du bruker en ekstern regnskapsfører til å administrere regnskap og finansrapportering, kan administratoren din invitere regnskapsføreren til [!INCLUDE[prod_short](includes/prod_short.md)], slik at vedkommende kan arbeide med regnskapsdataene. [!INCLUDE[prod_short](includes/prod_short.md)] inkluderer tre lisenser av typen ekstern regnskapsfører. For mer informasjon om lisensiering, se [Lisensieringsveiledning for Microsoft Dynamics 365 Business Central](https://go.microsoft.com/fwlink/?LinkId=871590).
 
@@ -64,7 +64,7 @@ Hvis administratoren eller videresalgspartneren din ikke vil bruke veiledningen 
 
 Deretter må du tilordne den nye gjestebrukeren en lisens til [!INCLUDE[prod_short](includes/prod_short.md)].
 
-#### <a name="to-give-your-accountant-access-to-your-includeprodshortincludesprodshortmd" />Slik gir du regnskapsføreren tilgang til [!INCLUDE[prod_short](includes/prod_short.md)]
+#### <a name="to-give-your-accountant-access-to-your-" />Slik gir du regnskapsføreren tilgang til [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. I Azure-portalen velger du **Profil** for brukeren som nylig er lagt til,og deretter velger du **Rediger**.
 2. Oppdater feltet **Brukssted** til det aktuelle landet, og velg deretter **Lagre**.
@@ -78,7 +78,7 @@ Deretter må du tilordne den nye gjestebrukeren en lisens til [!INCLUDE[prod_sho
 
 Hvis vellykket, er lisensen tilordnet til gjestebruker, og gjestekontoen er opprettet.
 
-### <a name="importing-the-new-user-into-includeprodshortincludesprodshortmd" />Importere den nye brukeren til [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="importing-the-new-user-into-" />Importere den nye brukeren til [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Regnskapsføreren vil motta en e-post som varsler dem om at de har fått tilgang til Active Directory. Deretter må du gi dem tilgang til det rette selskapet i [!INCLUDE[prod_short](includes/prod_short.md)].
 

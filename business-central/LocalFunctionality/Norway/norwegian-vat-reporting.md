@@ -135,7 +135,7 @@ Hvis du ikke får noe svar etter at du har sendt inn oppgaven, for eksempel inne
 
 Du kan også sende en kopi av XML-filene for innsendingen din og svaret du mottok. Du kan hente filene ved å velge handlingene **Last ned sendingsmelding** og **Last ned svarmelding** på siden **Omsetningsoppgave**.  
 
-## <a name="a-namevat-periodsaclose-vat-periods" /><a name="vat-periods"></a>Avslutt mva-perioder
+## <a name="close-vat-periods" /><a name="vat-periods"></a>Avslutt mva-perioder
 
 Hvis du vil innrette etter juridiske krav, skal mva-perioder lukkes etter at du har utlignet. Vanligvis består et regnskapsår av seks mva-perioder, nummerert fra 1 til 6. Når mva. utlignes, lukkes perioden for ytterligere bokføring.  
 

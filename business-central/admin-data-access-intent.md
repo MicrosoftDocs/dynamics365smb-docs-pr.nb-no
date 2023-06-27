@@ -43,7 +43,7 @@ I databasevilkårene kalles denne funksjonen vanligvis *leseutskalering*. Hvis d
     > [!NOTE]
     > Hvis et objekt som kan redigeres, for eksempel kundekortet, er satt til **Skrivebeskyttet**, vil den primære databasen fortsatt brukes, uavhengig av tilgangsformålet. Dermed kan brukere foreta endringer som normalt.
 
-## <a name="see-related-microsoft-trainingtrainingpathsdeploy-configure-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/deploy-configure-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/deploy-configure-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 [Forretningsfunksjoner](across-business-functionality.md)  
@@ -51,7 +51,7 @@ I databasevilkårene kalles denne funksjonen vanligvis *leseutskalering*. Hvis d
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)    
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

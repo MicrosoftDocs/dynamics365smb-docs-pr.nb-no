@@ -89,7 +89,7 @@ I stedet for å bruke flyttingsdokumenter kan du registrere flyttinger ved å re
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Se relatert [Microsoft-opplæring](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Se også
 

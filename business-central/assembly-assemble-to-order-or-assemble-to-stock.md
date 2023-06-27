@@ -96,7 +96,7 @@ Basert på dette eksempelet ovenfor kan du endre feltet **Antall å montere** so
 * Minimumsantallet du kan angi, er 1. Du må montere minst én enhet for å kunne selge fire enheter, forutsatt at de gjenværende tre er tilgjengelig i lageret.  
 * Maksimumsantallet du kan angi, er 4. Denne grensen sikrer at du ikke monterer mer av varen enn du trenger for salget.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

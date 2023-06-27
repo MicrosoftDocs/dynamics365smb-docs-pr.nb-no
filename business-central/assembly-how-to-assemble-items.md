@@ -61,7 +61,7 @@ Følg fremgangsmåten nedenfor for å montere en vare til lager. Hvis du vil læ
 
 Etter vellykket bokføring, bokføres monteringsvaren som avgått til lokasjonskoden og den potensielle hyllekoden som er definert i monteringsordren. For manuelt opprettede monteringsordrer kan kan lokasjonen kopieres fra oppsettfeltet **Standardlokasjon for ordrer**. Når det gjelder montere-til-ordre-flyter, kan du kopiere lokasjonskoden fra ordrelinjen.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

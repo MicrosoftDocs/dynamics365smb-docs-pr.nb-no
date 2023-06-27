@@ -158,7 +158,7 @@ Brukergrupper som ikke kan bokføre i desember, men i januar, som sannsynligvis 
 
 ## <a name="item-charge-scenario" />Varegebyrscenario
 
-### <a name="prerequisites" />Forutsetninger
+### <a name="prerequisites-1" />Forutsetninger
 
 Skriv inn følgende verdier:
 
@@ -184,7 +184,7 @@ Skriv inn følgende verdier:
 
 - Bokf. tillatt til = tom  
 
-### <a name="to-test-the-scenario" />Slik tester du scenarioet
+### <a name="to-test-the-scenario-1" />Slik tester du scenarioet
 
 Test dette scenarioet ved å utføre følgende trinn:
 

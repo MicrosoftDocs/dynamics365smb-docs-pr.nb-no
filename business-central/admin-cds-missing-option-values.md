@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Alle opplistingene i [!INCLUDE[prod_short](includes/prod_short.md)] ovenfor tilordnes til alternativsett i [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="extending-option-sets-in-includeprodshortincludesprodshortmd" />Utvide alternativsett i [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="extending-option-sets-in-" />Utvide alternativsett i [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Opprett en ny AL-utvidelse.
 
 2. Legg til en opplistingsutvidelse for alternativene du vil utvide. Sørg for at du bruker samme verdi. 
@@ -104,7 +104,7 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > [!NOTE]
 > De første ti tegnene i navnene på og tekstene for de nye alternativverdiene må være unike. To alternativer, for eksempel Overføring av 20 virkedager og Overføring av 20 kalenderdager, vil forårsake feil fordi begge har de samme 10 første tegnene ("Overføring"). Gi dem for eksempel navnet "Ovf 20 vrk" og "Ovf 20 kad".
 
-### <a name="update-includeprodshortincludescdslongmdmd-option-mapping" />Oppdater Tilordning av [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativ
+### <a name="update--option-mapping" />Oppdater Tilordning av [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativ
 Nå kan du gjenopprette tilordningen mellom [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativer og [!INCLUDE[prod_short](includes/prod_short.md)]-poster.
 
 På siden **Tilordning for integreringstabell** velger du linjen for tilordningen **Betalingsbetingelser**, og deretter velger du handlingen **Synkroniser endrede poster**. Siden **Tilordning av Dataverse-alternativ** oppdateres med tilleggspostene nedenfor.

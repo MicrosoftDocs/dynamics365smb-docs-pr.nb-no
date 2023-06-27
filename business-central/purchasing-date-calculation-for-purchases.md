@@ -58,7 +58,7 @@ Du kan angi datoformelen manuelt på linjer. Hvis ikke bruker [!INCLUDE[prod_sho
 3. Lagerføringsenhetskort
 4. Leverandørkort
 
-## <a name="see-related-microsoft-trainingtrainingmodulesestimate-receipt-dates-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

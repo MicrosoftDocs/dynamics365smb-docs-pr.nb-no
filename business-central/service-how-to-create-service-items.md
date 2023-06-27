@@ -56,7 +56,7 @@ Følgende fremgangsmåte viser hvordan du oppretter servicevarer når du leverer
 
     En servicelinje av typen **Kostnad** settes inn med startgebyret. Startgebyret gjelder for den valgte servicevaren.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-items" />Se relatert [Microsoft-opplæring](/training/modules/create-items/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/create-items/)
 
 ## <a name="see-also" />Se også
 

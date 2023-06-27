@@ -92,10 +92,10 @@ Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Utgående lagerflyt](
 
 Følgende gjennomgangen demonstrerer metoden D i forrige tabell.
 
-### <a name="scenario" />Scenario
+### <a name="scenario-1" />Scenario
 Ordrebehandleren Susan oppretter ordrer for ulike brente bønner og sender den til lager. Siden alle ordrene kommer fra samme kunde, bestemmer lagerlederen Ellen at de skal sendes sammen. John, lagermedarbeideren, må kontrollere at forsendelsen klargjøres og leveres til kunden.
 
-### <a name="steps" />Trinn
+### <a name="steps-1" />Trinn
 Dette er en fortsettelse av [Inngående flyt: Mottak og plassering i grunnleggende lageroppsett](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Frigi ordrer til lager.  
@@ -137,7 +137,7 @@ Dette er en fortsettelse av [Inngående flyt: Mottak og plassering i grunnleggen
     4. Velg handlingen **Bokfør levering**.
     5. Bekreft **Levering**-alternativet.
 
-### <a name="results" />Resultater
+### <a name="results-1" />Resultater
  - de brente bønnene er nå registrert som plukket 
  - det **registrerte lagerplukket** opprettes
  - den **bokførte lagerleveringen** opprettes

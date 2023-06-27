@@ -10,7 +10,7 @@ ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysi
 ms.date: 06/11/2021
 ms.author: jswymer
 ---
-# <a name="creating-power-bi-reports-for-displaying-list-data-in-includeprodshortincludesprodshortmd" />Opprette Power BI-rapporter for å vise listedata i [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="creating-power-bi-reports-for-displaying-list-data-in-" />Opprette Power BI-rapporter for å vise listedata i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[prod_long](includes/prod_long.md)] inkluderer et kontrollelement for en Power BI-faktaboks på mange viktige listesider. Formålet med denne faktaboksen er å vise Power BI-rapporter som er knyttet til poster i listene, og som gir ekstra innsikt i dataene. Poenget er at etter hvert som du flytter mellom radene i listen, oppdateres rapporten for den valgte posten.
 
@@ -116,7 +116,7 @@ Kontroller at siden du vil vise, er den første siden i rapporten.
 
 Kontroller at størrelsen på rapporten er satt til 325 x 310 piksler. Lagre rapporten, og deretter oppdater listesiden.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

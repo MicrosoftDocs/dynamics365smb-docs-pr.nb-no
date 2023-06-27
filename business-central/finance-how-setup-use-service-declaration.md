@@ -155,7 +155,7 @@ Du kan endre verdiene i disse feltene, men hvis du velger feltet **Kan bruke tje
 
 Hvis du angir en verdi i feltet **Kode for tjenestetransaksjonstype**, men ikke velger feltet **Kan bruke tjenesteerklæring**, kan du bokføre dokumentet, men linjen blir ikke beregnet når du gjør det.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Se relatert opplæring på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Se relatert opplæring på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Se også
 

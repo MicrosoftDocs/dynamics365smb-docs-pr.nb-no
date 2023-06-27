@@ -79,7 +79,7 @@ En prosjektplanleggingslinje kan være én av følgende typer.
 4. På siden **Prosjektplanleggingslinjer** på en ny linje fyller du ut feltene etter behov.
 5. Gjenta trinn 3 og 4 for alle planleggingslinjene du trenger for prosjektoppgaven.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-job" />Se relatert [Microsoft-opplæring](/training/modules/create-new-job/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/create-new-job/)
 
 ## <a name="see-also" />Se også
 

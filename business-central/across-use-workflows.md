@@ -64,7 +64,7 @@ Før du kan begynne å bruke arbeidsflyter, må du konfigurere brukere av arbeid
 | Vise forekomster av arbeidsflyttrinn med statusen **Fullført**. | [Vis arkiverte forekomster av arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md) |
 | Slett en arbeidsflyt som ikke lenger blir brukt. | [Slett godkjenningsarbeidsflyter](across-how-to-delete-workflows.md) |
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Se også
 

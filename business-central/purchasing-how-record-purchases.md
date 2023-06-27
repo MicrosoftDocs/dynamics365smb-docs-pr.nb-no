@@ -193,9 +193,9 @@ I de fleste tilfeller kan du åpne poster fra det berørte kortet eller dokument
 
 Du kan redigere bestemte felt på bokførte kjøpsdokumenter, for eksempel feltet **Betalingsreferanse**. Finn ut mer under [Rediger bokførte dokumenter](across-edit-posted-document.md). Hvis du vil ha mer kritiske felt som påvirker revisjonssporingen, må du tilbakeføre eller angre bokføringen. Finn ut mer under [Tilbakefør kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/receive-invoice-dynamics-d365-business-central/index).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/processing-invoices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training-1" />Se relatert [Microsoft-opplæring](/training/modules/processing-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

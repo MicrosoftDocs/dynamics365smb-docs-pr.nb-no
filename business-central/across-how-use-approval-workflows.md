@@ -78,7 +78,7 @@ Funksjonen **Send varsler om forfalte godkjenninger** kontrolleres om det finnes
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Forfalte godkjenningsforespørsler**, og velg deretter den relaterte koblingen.
 2. På siden **Forfalte godkjenningsforespørsler** velger du handlingen **Send varsler for forfalte godkjenning**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />Se relatert [Microsoft-opplæring](/training/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also" />Se også
 

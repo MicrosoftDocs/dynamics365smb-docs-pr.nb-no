@@ -25,7 +25,7 @@ Når du har angitt en selger på siden **Selgere**, kan du velge selgeren i felt
 
 Du kan bruke selgere i diverse arbeid vedrørende håndtering av kunderelasjoner og markedsføring. Du kan for eksempel tilordne oppgaver til selgere, slik at oppgavene tas med i salgsmuligheter som selgeren er tilordnet. Hvis du vil ha mer informasjon, kan du se [Definere salgssykluser for salgsmuligheter og syklusfaser](marketing-how-setup-opportunity-sales-cycles-stages.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

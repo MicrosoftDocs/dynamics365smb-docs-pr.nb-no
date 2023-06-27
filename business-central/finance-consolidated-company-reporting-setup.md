@@ -64,7 +64,7 @@ Følgende oversikt illustrerer viktige aspekter ved det konsoliderte selskapet.
 
     Hvis du vil ha mer informasjon, kan du se delen [Inkludere eller utelate dimensjoner](#dim).
 
-### <a name="a-namebusunitaadd-business-units" /><a name="busunit"></a>Legge til konsern
+### <a name="add-business-units" /><a name="busunit"></a>Legge til konsern
 
 [!INCLUDE[prod_short](includes/prod_short.md)] lar deg sette opp en liste over konsern som skal konsolideres, bekrefte regnskapsdataene før du konsoliderer dem, importere filer og generere konsolideringsrapporter.  
 
@@ -78,7 +78,7 @@ Følgende oversikt illustrerer viktige aspekter ved det konsoliderte selskapet.
 
 Hvis konsernet bruker en fremmed valuta, må du angi hvilken valutakurs som skal brukes i konsolideringen. Du må også angi konsolideringsopplysninger om konsernets finanskonti. Disse prosessene beskrives nedenfor.
 
-### <a name="a-nameglaccaprepare-general-ledger-accounts-for-consolidation" /><a name="glacc"></a>Klargjøre finanskonti for konsolidering
+### <a name="prepare-general-ledger-accounts-for-consolidation" /><a name="glacc"></a>Klargjøre finanskonti for konsolidering
 
 Kontoplanen for et selskap som skal konsolideres, må angi kontoer for konsolidering. For hver finanskonto det bokføres til i hvert selskap, må du angi finanskontoen i det konsoliderte selskapet som saldoen skal overføres til ved konsolidering. Dette er en tilknytning som gjør at selskaper med ulike kontoplaner kan konsolideres sammen.
 
@@ -87,7 +87,7 @@ Hvis kontoplanen i konsernet er forskjellig fra det konsoliderte selskapet, må 
 1. I hvert konserns [!INCLUDE [prod_short](includes/prod_short.md)] velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kontoplan** og velger deretter den relaterte koblingen.  
 2. Åpne kortet for kontoen, og deretter fyller du ut feltene på **Konsolidering**-hurtigfanen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="a-nameexchratesaspecify-exchange-rates-for-consolidations" /><a name="exchrates"></a>Angi valutakurser for konsolideringer
+### <a name="specify-exchange-rates-for-consolidations" /><a name="exchrates"></a>Angi valutakurser for konsolideringer
 
 Hvis et konsern bruker en annen valuta enn det konsoliderte selskapet, må du angi valutakursmetoder for hver konto før du konsoliderer. For hver konto bestemmer innholdet i feltet **Kons. oversettelsesmetode** valutakursen. I det konsoliderte selskapet på hvert konsernkort angir du i **Valutakurstabell**-feltet om konsolidering skal bruke valutakurser fra konsernselskapet eller det konsoliderte selskapet. Hvis du bruker valutakurser fra det konsoliderte selskapet, kan du endre valutakursene for et konsern. For konserner, hvis feltet **Valutakurstabell** på konsernkortet inneholder **Lokal**, kan du endre valutakursen fra konsernkortet. Valutakurser kopieres fra **Valutakurs**-tabellen, men du kan endre dem før konsolidering.
 
@@ -110,7 +110,7 @@ Du kan angi valutakurser for konserner ved å gjøre følgende:
 4. Velg handlingen **Sluttkurs**.  
 5. I feltet **Tilhørende valutakursbeløp** angir du valutakursen.
 
-### <a name="a-namedimainclude-or-exclude-dimensions" /><a name="dim"></a>Inkludere eller utelate dimensjoner
+### <a name="include-or-exclude-dimensions" /><a name="dim"></a>Inkludere eller utelate dimensjoner
 
 Du kan konsolidere dimensjonsinformasjon og finanskontoer.
 
@@ -120,11 +120,11 @@ Du kan konsolidere dimensjonsinformasjon og finanskontoer.
   * Hvis du vil konsolidere dimensjonsverdikoden i konsernet med en annen dimensjonsverdikode i det konsoliderte selskapet, fyller du ut **Konsolideringskode**-feltet i de relevante dimensjonene.  
 * Legge til de relevante dimensjonene i de aktuelle finanskontiene
 
-### <a name="a-nameexcludeaexclude-a-company-from-consolidation" /><a name="exclude"></a>Utelate et selskap fra konsolidering
+### <a name="exclude-a-company-from-consolidation" /><a name="exclude"></a>Utelate et selskap fra konsolidering
 
 Hvis du ikke vil ta med et konsern i konsolideringen, kan du utelate det. Hvis du vil gjøre dette, går du til konsernkortet og fjerner merket for **Konsolider**.
 
-### <a name="a-nameincludeainclude-a-partially-owned-company-in-consolidation" /><a name="include"></a>Inkludere et delvis eid selskap i konsolideringen
+### <a name="include-a-partially-owned-company-in-consolidation" /><a name="include"></a>Inkludere et delvis eid selskap i konsolideringen
 
 Hvis du bare eier en del av et selskap, kan du ta med en prosentandel av hver enkelt transaksjon som samsvarer med prosentdelen av selskapet du eier. Hvis du for eksempel eier 70 % av selskapet, vil konsolideringen inkludere 70 kr av en faktura på 100 kr. For å angi hvor stor del av selskapet du eier, går du til konsernkortet og skriver inn prosentsatsen i feltet **Konsoliderings-%**.  
 

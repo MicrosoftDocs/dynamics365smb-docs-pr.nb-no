@@ -31,7 +31,7 @@ Forespørselen er fjernet fra databasen. Det opprettes en bestilling basert på 
 > [!NOTE]
 > Det er ikke mulig å konvertere en forespørsel til en kjøpsfaktura direkte, som er mulig med tilbud. Hvis du vil ha mer informasjon om hvordan du oppretter en kjøpsfaktura, kan du lese [Registrer kjøp med kjøpsfakturaer](purchasing-how-record-purchases.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-purchase-documents-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/create-purchase-documents-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/create-purchase-documents-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se også
 

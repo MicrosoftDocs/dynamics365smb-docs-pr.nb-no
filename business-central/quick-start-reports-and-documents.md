@@ -64,7 +64,7 @@ r Den genererte rapportfilen lagres automatisk i nettleseren nedlastingsmappe.
 
 Lær mer om hvordan du tilpasser rapporter og dokumenter til forretningsbehov i [Rapport- og dokumentoppsett](ui-manage-report-layouts.md).
 
-## <a name="see-related-training-at-microsoft-learnlearnmoduleswork-with-reports" />Se relatert opplæring på [Microsoft Learn](/learn/modules/work-with-reports/).
+## <a name="see-related-training-at-microsoft-learn" />Se relatert opplæring på [Microsoft Learn](/learn/modules/work-with-reports/).
 
 ## <a name="see-also" />Se også
 

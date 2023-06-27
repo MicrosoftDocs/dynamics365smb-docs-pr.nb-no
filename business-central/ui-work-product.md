@@ -10,7 +10,7 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="work-with-includeprodshortincludesprodshortmd" />Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-" />Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Når du utfører forretningsoppgaver, arbeider du interaktivt med data på forskjellige måter, for eksempel for å opprette poster og skrive inn data, sortere og filtrere data, skrive merknader og skrive data til andre programmer.
 
@@ -18,7 +18,7 @@ Du kan for eksempel justere størrelsen på og plasseringen av sider, øke kolon
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="a-namecheatsheetatips-and-tricks" /><a name="cheatsheet"></a>Tips og triks
+## <a name="tips-and-tricks" /><a name="cheatsheet"></a>Tips og triks
 
 > [!TIP]
 > Hvis du vil ha en utskriftsvennlig overskrift over de mest brukte funksjonene, velger du følgende bilde og laster ned PDF-filen.
@@ -80,7 +80,7 @@ Når du søker etter en åpen listeside, for eksempel **Ordrer**-listen, er den 
 
 Men når du åpner den samme listesiden fra startsiden din, er ikke **Administrer**-handlingen til stede. Hvis du vil åpne en individuell ordre, velger du bare **Nummer**-feltet. I denne visningen kan du ikke feste handlingslinjen.  
 
-## <a name="see-related-microsoft-trainingtrainingpathswork-pro-data-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/work-pro-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/work-pro-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 
@@ -89,7 +89,7 @@ Men når du åpner den samme listesiden fra startsiden din, er ikke **Administre
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 [Ytelsestips for forretningsbrukere](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

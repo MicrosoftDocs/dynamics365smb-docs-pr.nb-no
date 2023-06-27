@@ -41,6 +41,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 [Oversikt over forretningsanalyse og rapportering](reports-bi-reporting.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

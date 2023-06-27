@@ -93,7 +93,7 @@ Du kan planlegge at en rapport eller satsvis jobb skal kjøres på en bestemt da
 
 Hvis du vil lære mer om planlegging, går du til [Planlegging av en rapport som skal kjøres](ui-work-report.md#ScheduleReport)
 
-### <a name="schedule-synchronization-between-includeprodshortincludesprodshortmd-and-includeprodshortincludescdslongmdmd" />Planlegg synkronisering mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)]
+### <a name="schedule-synchronization-between--and-includeprod_short" />Planlegg synkronisering mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Hvis du har integrert [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[prod_short](includes/cds_long_md.md)], kan du bruke jobbkøen til å planlegge når du skal synkronisere data. Avhengig av retningen og reglene du har definert, kan jobbkøposten opprette poster i én app for å samsvare med poster i den andre. Et godt eksempel er når du registrerer en kontakt i [!INCLUDE[crm_md](includes/crm_md.md)], kan jobbkøposten konfigurere kontakten for deg i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon om planlegging, går du til [Planlegge en synkronisering mellom Business Central og Dynamics 365 Sales](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md).
 

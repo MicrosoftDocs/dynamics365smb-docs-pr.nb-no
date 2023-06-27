@@ -75,7 +75,7 @@ Hvis du vil gå gjennom bokførte sjekker, for eksempel for å kontrollere flere
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") angi **Bankkontoavstemming – sjekkopplysninger**, og velg deretter den relaterte koblingen.
 2. Angi filtre som er relevante, og velg deretter **Forhåndsvisning**-knappen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-checks-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/use-checks-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/use-checks-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

@@ -58,7 +58,7 @@ På samme måte som med andre personlige tilpasninger lagres endringene du gjør
 6. Velg elementet, og velg deretter enten **Flytt**, **Fjern**, **Skjul**, **Vis**, **Vis under Vis mer**, **Vis når skjult**, **Vis alltid**, **Sett/Fjern frys rute** eller **Inkluder/Utelat fra hurtigoppføring**, avhengig av type og tilstand for UI-elementet. Hvis du vil ha mer informasjon, kan du se [Hva du kan tilpasse](#What).
 7. Når du er ferdig med å endre oppsettet på én eller flere sider, velger du **Fullført**-knappen på banneret **Tilpasning**.
 
-## <a name="a-namewhatawhat-you-can-personalize" /><a name="What"></a>Hva du kan tilpasse
+## <a name="what-you-can-personalize" /><a name="What"></a>Hva du kan tilpasse
 
 |Hva vil du gjøre|Hvordan du gjør det|Merknader|
 |----|------------|-------|
@@ -74,7 +74,7 @@ På samme måte som med andre personlige tilpasninger lagres endringene du gjør
 |Legg til en ny handling på en side eller rapport i rollesenteret.|Velg bokmerkeikonet fra målsiden, rapportforespørselssiden eller Fortell meg-vinduet.|Se [Bokmerke en side eller rapport i rollesenteret](ui-bookmarks.md)|
 |Start alltid en liste som vist eller skjult|Velg knappen **Vis alle** eller **Skjul alle** øverst til venstre i listen. Du kan også velge handlingen **Vis alt** eller **Skjul alt** i menyen for den første kolonnen. |Gjelder for skjuling av hierarkilister|
 
-## <a name="a-nameactionsapersonalizing-the-action-bar-and-menus" /><a name="Actions"></a>Tilpass handlingsraden og menyene
+## <a name="personalizing-the-action-bar-and-menus" /><a name="Actions"></a>Tilpass handlingsraden og menyene
 
 Tilpasning lar deg bestemme hvilke handlinger som skal vises i navigasjons- og handlingsrader samt rollesentre, og hvor de skal vises. Du kan vise, skjule eller flytte individuelle handlinger eller handlingsgrupper.
 
@@ -116,7 +116,7 @@ Hvor du kan dra handlinger eller handlingsgrupper, vises av en vannrett linje me
 1. For å flytte en handling eller handlingsgruppe dra og slipp den til ønsket plassering, på samme måte som med felt og kolonner.
 2. Hvis du vil flytte en handling eller handlingsgruppe til en annen handlingsgruppe som er tom, drar du handlingen eller handlingsgruppen til den nye gruppen og slipper den i boksen **Slipp en handling her**.
 
-## <a name="a-namepartsapersonalizing-parts" /><a name="Parts"></a>Tilpasse deler
+## <a name="personalizing-parts" /><a name="Parts"></a>Tilpasse deler
 
 Deler er områder på en side som vanligvis er satt sammen av flere felter, diagrammer eller annet innhold. En del viser en farget ramme når du fokuserer på delen. En startside for rollesenter har for eksempel flere deler. På grunn av sin veldefinerte grense, kan du tilpasse hele delen og innholdet i den.
 
@@ -158,7 +158,7 @@ Nedenfor følger noen tips som hjelper deg med å forstå tilpasning bedre.
    > [!TIP]
    > Som administrator kan du skjule **Automatiser**-elementet fra brukere. Finn ut mer under [Definer Power Automate-integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespersonalize-ui-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 [Tilpass sider for profiler](ui-personalization-manage.md)  

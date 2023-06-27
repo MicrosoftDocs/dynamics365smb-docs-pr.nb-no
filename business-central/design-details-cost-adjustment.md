@@ -158,7 +158,7 @@ Du kan definere kostjustering slik at den kjører automatisk når du bokfører e
 
 Valget du gjør i feltet **Automatisk kostjustering**, er viktig for ytelse og nøyaktigheten til kostnadene. Kortere tidsperioder, for eksempel **Dag** eller **Uke**, påvirker systemytelsen mindre, fordi den automatiske justeringen begrenses til kostnader som er bokført bare den siste dagen eller uken. Dette betyr at den automatiske kostjusteringen ikke kjører like ofte og påvirker dermed systemytelsen mindre. Dette betyr imidlertid også at enhetskosten kan være mindre nøyaktige.  
 
-### <a name="example" />Eksempel
+### <a name="example-1" />Eksempel
 
 Følgende eksempel viser et scenario med automatisk kostjustering:  
 

@@ -119,10 +119,10 @@ Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Utgående lagerflyt](
 
 Følgende gjennomgangen demonstrerer metoden B i forrige tabell.
 
-### <a name="scenario" />Scenario
+### <a name="scenario-1" />Scenario
 Ordrebehandleren Susan oppretter en ordre for ulike brente bønner og sender den til lager. John, lagermedarbeideren, må kontrollere at forsendelsen klargjøres og leveres til kunden. John behandler alle involverte oppgaver på siden **Lagerplukk**, som peker automatisk til hyllene der brente bønner er lagret.
 
-### <a name="steps" />Trinn
+### <a name="steps-1" />Trinn
 Dette er en fortsettelse av [Inngående flyt: Mottak og plassering i grunnleggende lageroppsett](#inbound-flow-receiving-and-putting-away-in-basic-warehouse-configurations).
 
 1. Definer siden **Lokasjonskort** for å definere selskapets inngående lagerflyter.  
@@ -159,7 +159,7 @@ Dette er en fortsettelse av [Inngående flyt: Mottak og plassering i grunnleggen
 
 5. Velg **Bokfør**-handlingen, velg **Lever**, og velg deretter **OK**-knappen.  
 
-### <a name="results" />Resultater
+### <a name="results-1" />Resultater
  - de brente bønnene er nå registrert som plukket fra angitte hyller
  - den **bokførte lagerplukkingen** opprettes
  - den **bokførte følgeseddelen** opprettes

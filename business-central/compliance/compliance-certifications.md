@@ -37,7 +37,7 @@ Business Central som en skytjeneste har også oppnådd sertifiseringer som ISO 2
 [Programsamsvar](compliance-application-compliance.md)  
 [Servicesamsvar](compliance-service-compliance.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

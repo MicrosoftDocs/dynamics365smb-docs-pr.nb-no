@@ -88,7 +88,7 @@ Du kan sammenligne verdien i feltet **Saldo på bankkonto etter bokføring** med
 > [!NOTE]  
 >   Hvis du ikke vil avstemme en bankkonto fra siden **Betalingsavstemmingskladd**, må du bruke siden **Bankkontoavstemming**. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-journals-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/use-journals-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

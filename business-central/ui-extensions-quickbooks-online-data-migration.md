@@ -62,7 +62,7 @@ Det er enkelte bestemte ting du bør gjøre:
 * Hvis du bruker merverdiavgift (mva), må du kanskje legge til en bokføringsgruppe for firma og en varebokføringsgruppe i bokføringsoppsettet, slik at du kan bokføre mva-beløp.
 * Kontroller startsaldoene for konti i Finans. QuickBooks Online lagrer ikke gjeldende saldo for alle konti, så du må kanskje rette startsaldoer.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

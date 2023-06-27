@@ -118,7 +118,7 @@ I scenarioer der en del av antallet monteres og en annen del plukkes, opprettes 
 > [!NOTE]  
 > Hvis varer monteres til ordre, opprett lagerplukkingen for den koblede ordren en lagerflytting for alle monteringskomponentene.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Se relatert [Microsoft-opplæring](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Se også
 

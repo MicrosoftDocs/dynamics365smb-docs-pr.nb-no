@@ -32,7 +32,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 > [!TIP]
 > Bruk bankavstemming til å kontrollere at bøkene er oppdaterte, og ikke bokføre avstemmingen før du er fornøyd med den.
 
-## <a name="see-related-microsoft-trainingtrainingpathsreconcile-bank-accounts-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

@@ -45,7 +45,7 @@ Hvis du vil spare tid når du sender dokumenter til kunde- og leverandørkontakt
 1. På siden **Dokumentoppsett**, på linjen for rapportoppsett som du vil sende til en bestemt kontakt for kunden, velger du handlingen **Velg e-post fra kontakter**.
 2. På siden **Kontakter** velger du en eller flere kontakter, og deretter klikker du på **OK**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

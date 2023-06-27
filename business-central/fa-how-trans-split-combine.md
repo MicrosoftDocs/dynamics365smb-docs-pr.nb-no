@@ -66,7 +66,7 @@ Du kan kombinere flere aktiva til ett aktiva, for eksempel når du flytter distr
 2. Fyll ut feltene etter behov.
 3. Velg knappen **Skriv ut** eller **Forhåndsvisning**.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsreclassify-fixed-assets" />Se relatert [Microsoft-opplæring](/training/paths/reclassify-fixed-assets/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/reclassify-fixed-assets/)
 
 ## <a name="see-also" />Se også
 

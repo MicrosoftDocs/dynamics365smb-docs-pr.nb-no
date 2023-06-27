@@ -10,11 +10,11 @@ ms.search.keywords: 'Power BI, setup, analysis, reporting, financial report, bus
 ms.date: 07/13/2022
 ms.author: jswymer
 ---
-# <a name="enabling-power-bi-integration-with-includeprodshortincludesprodshortmd" />Aktivere Power BI-integrering med [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="enabling-power-bi-integration-with-" />Aktivere Power BI-integrering med [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Denne artikkelen beskriver hvordan du klargjør [!INCLUDE[prod_short](includes/prod_short.md)] for integrering med Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] Online er allerede aktivert for integrering, selv om det er en del lisensieringsinformasjon du kanskje bør lese. For [!INCLUDE[prod_short](includes/prod_short.md)] lokalt må du konfigurere miljøet slik at det kobler til Power BI, før brukerne kan arbeide med det.
 
-## <a name="a-namelicenseapower-bi-licensing" /><a name="license"></a>Power BI-lisensiering
+## <a name="power-bi-licensing" /><a name="license"></a>Power BI-lisensiering
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] får brukere en gratis Power BI-lisens som gir tilgang til de vanligste funksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI. Du kan også kjøpe en Power BI Pro-lisens som gir tilgang til ytterligere funksjoner. Tabellen nedenfor inneholder en oversikt over hvilke funksjoner som er tilgjengelige for hver enkelt lisens.
 
@@ -25,7 +25,7 @@ Med [!INCLUDE[prod_short](includes/prod_short.md)] får brukere en gratis Power 
 
 Hvis du vil ha mer informasjon, kan du se [Lisensiere Power BI-tjenesten for brukere i organisasjonen](/power-bi/admin/service-admin-licensing-organization) eller [Registrere deg for Power BI-tjenesten som enkeltperson](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
-## <a name="a-nameexposedataaexpose-data-through-api-or-odata-web-services" /><a name="exposedata"></a>Eksponer data gjennom API- eller OData-nettjenester
+## <a name="expose-data-through-api-or-odata-web-services" /><a name="exposedata"></a>Eksponer data gjennom API- eller OData-nettjenester
 
 Business Central tilbyr to måter å vise data på som kan forbrukes av Power BI-rapporter: API-sider eller -spørringer og nettjenester for åpne dataprotokoller (OData).
 
@@ -54,7 +54,7 @@ Hvis du vil vite mer om hva du kan gjøre for å sikre den beste ytelsen til web
 
 Når det er mulig, oppfordrer vi til å bruke API-sider i stedet for OData-nettjeneste. API-sider er generelt raskere ved innlasting av data i Power BI-rapporter enn OData-nettjenester. I tillegg er de mer fleksible fordi de lar deg hente data fra tabellfelter som ikke er definert i et sideobjekt.
 
-## <a name="a-namesetupaset-up-includeprodshortincludesprodshortmd-on-premises-for-power-bi-integration" /><a name="setup"></a>Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] lokalt for Power BI-integrering
+## <a name="set-up--on-premises-for-power-bi-integration" /><a name="setup"></a>Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] lokalt for Power BI-integrering
 
 Denne delen forklarer kravene til integrering av en distribusjon av [!INCLUDE[prod_short](includes/prod_short.md)] lokalt med Power BI.
 
@@ -92,7 +92,7 @@ Denne delen forklarer kravene til integrering av en distribusjon av [!INCLUDE[pr
     For å opprette den første tilkoblingen må du åpne [!INCLUDE[prod_short](includes/prod_short.md)] og kjøre **Kom i gang med Power BI** fra startsiden. Denne handlingen leder deg gjennom samtykkeprosessen og kontrollerer Power BI-lisensen. Logg deg på med en Azure-administratorkonto når du blir bedt om det. Hvis du vil ha mer informasjon, kan du se [Koble til Power BI – kun én gang](across-working-with-powerbi.md#connect).
 
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/Configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

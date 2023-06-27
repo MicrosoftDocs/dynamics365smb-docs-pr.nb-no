@@ -44,13 +44,13 @@ De forhåndsdefinerte Excel-rapportene er basert på dataene i det gjeldende fir
 
 Andre ark i Excel-arbeidsboken viser dataene bak rapporten. Du må kanskje filtrere listene i [!INCLUDE [prod_short](includes/prod_short.md)] for å finne ut hva som er bak grupperingene i Excel-rapportene.  
 
-## <a name="the-include-prodshortincludesprodshortmd-excel-add-in" />[!INCLUDE [prod_short](includes/prod_short.md)] Excel-tillegget
+## <a name="the--excel-add-in" />[!INCLUDE [prod_short](includes/prod_short.md)] Excel-tillegget
 
 Din [!INCLUDE [prod_short](includes/prod_short.md)]-opplevelse inneholder et tillegg til Excel. Avhengig av abonnementet er du logget på automatisk, eller du må angi samme påloggingsinformasjon for [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Vise og redigere i Excel fra Business Central](across-work-with-excel.md).  
 
 Med tillegget kan du få ferske data fra [!INCLUDE [prod_short](includes/prod_short.md)], og du kan overføre endringer tilbake til [!INCLUDE [prod_short](includes/prod_short.md)]. Muligheten til å legge inn data tilbake til databasen er ikke tilgjengelig for årsregnskap du kan vise i Excel.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

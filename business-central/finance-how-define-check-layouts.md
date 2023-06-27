@@ -70,7 +70,7 @@ Følgende summerer spesifikasjoner for MICR CMC-7-skriftene som kan være nyttig
 
 ![MICR CMC-7-spesifikasjoner.](media/font_MICR_CMC-7_Specifications.png "MICR CMC-7-spesifikasjoner")
 
-### <a name="delimiter-characters" />Skilletegn
+### <a name="delimiter-characters-1" />Skilletegn
 
 ![Skilletegn for CMC-7.](media/font-cmc7-letters.png "Skilletegn for CMC-7")
 

@@ -28,7 +28,7 @@ Hvis [!INCLUDE [prod_short](includes/prod_short.md)] har flere selskaper, kan de
 
 Det finnes noen funksjoner du kan bruke til å bytte mellom selskap mens du arbeider, for eksempel bytting av selskap (<kbd>Ctrl</kbd>+<kbd>O</kbd>). Lær mer på [Bytt til et annet selskap eller miljø](ui-organization-switch.md).
 
-## <a name="a-namebadgeadisplay-a-company-badge" /><a name="badge"></a>Vise et firmakort
+## <a name="display-a-company-badge" /><a name="badge"></a>Vise et firmakort
 
 Når det er mer enn ett selskap eller miljø, vil du se at bytting av selskap øverst til høyre på programlinjen, nær søkeikonet på App-linjen. Som standard bruker bytting av selskap et standard selskapsikon, for eksempel ![startprogram for selskap-ikon.](media/ui-experience/company-icon.png "Viser ikonet for bytting av selskap som brukes når det er et enkelt miljø") og ![ompany-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Viser ikonet for bytting av selskap som brukes når det er flere miljøer").
 
@@ -54,7 +54,7 @@ Selskapsnavnet vises alltid øverst i venstre hjørne og fungerer som en handlin
 
 Standard brukeropplevelse i en [!INCLUDE [prod_short](includes/prod_short.md)]-prøveversjon viser ikke alle funksjonene. Du kan bytte til full opplevelser på siden **Selskapsopplysninger**. Hvis du vil ha mer informasjon, kan du se [Endre hvilke funksjoner som vises](ui-experiences.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

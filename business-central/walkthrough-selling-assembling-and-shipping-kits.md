@@ -436,7 +436,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Når Lydeksperten betaler for mottaket av 18 datamaskiner fra CRONUS, fjernes ordren og de tilknyttede monteringsordrene.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsassemble-items-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/assemble-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/assemble-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

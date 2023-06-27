@@ -77,7 +77,7 @@ Tabellen nedenfor inneholder eksempler som forklarer hvordan du kan bruke søket
 |`@*man`|Alle poster som slutter med teksten **man**, uavhengig av store/små bokstaver. For eksempel **Sportsman**, men ikke **Manchester** eller **manuell**.|
 
 
-## <a name="a-namefilteringafiltering" /><a name="filtering"></a>Filtrering
+## <a name="filtering" /><a name="filtering"></a>Filtrering
 
 Filtrering er en mer avansert og allsidig måte å kontrollere hvilke poster som tas med i en liste, rapport eller XMLport. Det finnes to viktige forskjeller mellom søking og filtrering, som beskrevet i tabellen nedenfor.
 
@@ -249,7 +249,7 @@ Når du angir kriterier, kan du bruke alle tallene og bokstavene du normalt kan 
 |`..1299|1400..`|Ta med poster som har numre som er mindre enn eller lik 1299 eller nummeret 1400 eller høyere (alle numre utenom fra og med 1300 til og med 1399).|  
 |`>50&<100`|Inkluder poster med numre som er større enn 50 og mindre enn 100 (det vil si tallene fra og med 51 til og med 99).|  
 
-### <a name="a-namesymbolsafiltering-on-values-that-contain-symbols" /><a name="symbols"></a>Filtrere etter verdier som inneholder symboler
+### <a name="filtering-on-values-that-contain-symbols" /><a name="symbols"></a>Filtrere etter verdier som inneholder symboler
 
 Det kan være tilfeller der feltverdier inneholder ett av følgende symboler:
 
@@ -302,7 +302,7 @@ Bruk `%myvendors` i leverandørens **Nummer**-felt for å vise alle postene for 
 |-----------------------|-----------------------|  
 |`%myvendors`|Leverandører i vinduet **Mine leverandører** i rollesenteret. |  
 
-## <a name="see-related-microsoft-trainingtrainingmodulessearch-filter-sort-data-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/search-filter-sort-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

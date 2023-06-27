@@ -69,7 +69,7 @@ Når du bokfører en lagerreduksjon, opprettes en vareutligningspost som knytter
 
 I **Varepost**-tabellen viser **Restantall**-feltet antallet som ennå ikke er utlignet. Hvis det restantallet er større enn 0, vil det være merket av for **Åpne**.  
 
-### <a name="example" />Eksempel
+### <a name="example-1" />Eksempel
 Eksemplet nedenfor viser vareutligningsposten som opprettes når du bokfører en følgeseddel på 5 enheter for varene som ble mottatt i det forrige eksemplet. Den første vareutligningsposten er kjøpsmottaket. Den andre utligningsposten er følgeseddelen.  
 
 Tabellen nedenfor viser de to vareutligningspostene som er resultatet av henholdsvis lagerøkningen og lagerreduksjonen.  

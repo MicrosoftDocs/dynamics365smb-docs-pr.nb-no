@@ -83,7 +83,7 @@ Sentralisert distribusjon er en funksjon i administrasjonssenteret for Microsoft
 
 Når du er ferdig, kan du alltids endre distribusjonen i Microsoft 365-administrasjonssenteret, for eksempel tilordne flere brukere. Hvis du vil ha mer informasjon om hvordan du distribuerer tillegg i administrasjonssenteret, kan du se [Distribuer tillegg i administrasjonssenteret](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="a-nameinstallainstall-the-add-in-for-your-own-use" /><a name="install"></a>Installer tillegget for eget bruk
+## <a name="install-the-add-in-for-your-own-use" /><a name="install"></a>Installer tillegget for eget bruk
 
 Hvis organisasjonen tillater det, kan du installere Business Central-tillegget bare for deg selv. Kontakt administratoren hvis du ikke er sikker.
 
@@ -94,7 +94,7 @@ Hvis organisasjonen tillater det, kan du installere Business Central-tillegget b
 
 Business Central kobles til e-postserveren og installerer tillegget i Outlook. Dette tar ikke lang tid. Du er nå klar til å begynne å bruke tillegget i Outlook.
 
-### <a name="a-nameonpremafor-business-central-on-premises" /><a name="onprem"></a>For Business Central lokalt
+### <a name="for-business-central-on-premises" /><a name="onprem"></a>For Business Central lokalt
 
 Hvis du bruker Business Central on-premises, kan det være litt annerledes å installere tillegget.
 
@@ -116,7 +116,7 @@ Hvis du bruker Business Central on-premises, kan det være litt annerledes å in
 
 Du er nå klar til å begynne å bruke tillegget i Outlook.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesalternative-interfaces-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

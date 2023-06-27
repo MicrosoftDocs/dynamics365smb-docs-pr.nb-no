@@ -32,6 +32,6 @@ Tabellen nedenfor angir tilkoblingene til Microsoft-tjenester som aktiveres auto
 
 Personvern er viktig for oss. Hvis du vil finne ut mer om hvordan Microsoft håndterer opplysningene dine, kan du se [Microsofts personvernerklæring](https://go.microsoft.com/fwlink/?linkid=521839).
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

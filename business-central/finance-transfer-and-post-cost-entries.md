@@ -98,7 +98,7 @@ Når det gjelder enkeltkostposter, overfører [!INCLUDE[prod_short](includes/pro
 
 I **Kostjournal**-tabellen oppretter [!INCLUDE[prod_short](includes/prod_short.md)] en post med kildeoverføringen fra finans. Posten registrerer det første og det siste løpenummeret for finanspostene som overføres, i tillegg til det første og det siste løpenummeret for kostpostene som opprettes.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestransfer-gl-entries-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/transfer-gl-entries-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

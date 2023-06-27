@@ -125,7 +125,7 @@ Hvis antallet ble levert i en lagerlevering, opprettes en korrigeringslinje i de
 
 Du fullfører korrigeringen ved å åpne overføringsordren på nytt, angi riktig antall og deretter bokføre ordren. Hvis du bruker lagerlevering til å levere ordren, oppretter og bokfører du en ny lagerlevering.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestransfer-items" />Se relatert [Microsoft-opplæring](/training/modules/transfer-items/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/transfer-items/)
 
 ## <a name="see-also" />Se også
 

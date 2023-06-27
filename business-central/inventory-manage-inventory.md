@@ -55,7 +55,7 @@ Tabellen nedenfor beskriver beslektede oppgaver.
 |Håndter forretningsdriften i salgskontorer, innkjøpsavdelinger eller anleggsplanleggingskontorer på tvers av flere lokasjoner.|[Arbeide med ansvarssentre](inventory-responsibility-centers.md)|
 |Bruk ressurser med bestemte funksjoner for forskjellige tjenester og servicevarer.|[Definer ressurstildeling](service-how-setup-resource-allocation.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsget-started-inventory-management" />Se relatert [Microsoft-opplæring](/training/paths/get-started-inventory-management/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/get-started-inventory-management/)
 
 ## <a name="see-also" />Se også
 
@@ -65,6 +65,6 @@ Tabellen nedenfor beskriver beslektede oppgaver.
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

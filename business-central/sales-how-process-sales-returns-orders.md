@@ -95,7 +95,7 @@ Du kan bokføre denne økte kostnaden som et varegebyr i en kreditnota eller en 
 
 Når du bokfører ordrereturen, legges et returgebyr til i det aktuelle salgsbeløpet. Dermed kan du opprettholde en nøyaktig lagerverdisetting.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsreturn-items-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/return-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

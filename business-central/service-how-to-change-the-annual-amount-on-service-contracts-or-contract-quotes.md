@@ -75,7 +75,7 @@ Hvis du endrer årlig beløp på servicekontrakten eller kontrakttilbudet, vil d
 
 Trinnene gjentas for hver kontraktlinje.  
 
-#### <a name="example" />Eksempel
+#### <a name="example-1" />Eksempel
 Det er ikke merket av for **Tillat beløp som ikke er i balanse** i servicekontrakten som har tre kontraktlinjer med slik informasjon.  
 
 |Vare|Linjekostnad|Linjeverdi|Linjerabatt-%|Linjerabattbeløp|Linjebeløp|Bruttofortjeneste|  
@@ -113,7 +113,7 @@ Hvis du endrer årlig beløp på servicekontrakten eller kontrakttilbudet, vil d
     * Linjerabatt-% = Linjerabattbeløp / Linjeverdi * 100.  
     * Fortjeneste = Linjebeløp - Linjekostnad  
 
-#### <a name="example" />Eksempel
+#### <a name="example-2" />Eksempel
 Det er ikke merket av for **Tillat beløp som ikke er i balanse** i servicekontrakten som har tre kontraktlinjer med slik informasjon.  
 
 |Vare|Linjekostnad|Linjeverdi|Linjerabatt-%|Linjerabattbeløp|Linjebeløp|Bruttofortjeneste|  

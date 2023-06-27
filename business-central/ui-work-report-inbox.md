@@ -47,7 +47,7 @@ Det er også mulig å dele rapporter med samarbeidspartnere på **Rapportinnboks
 >
 > Når du bruker **Del**-handlingen, blir den genererte rapportfilen tilgjengelig for andre brukere bare i OneDrive for Business, og den planlagte rapporten vises ikke i **rapportinnboksen**.
 
-## <a name="see-related-training-at-microsoft-learnlearnpathsbuild-reports" />Se relatert opplæring på [Microsoft Learn](/learn/paths/build-reports/).
+## <a name="see-related-training-at-microsoft-learn" />Se relatert opplæring på [Microsoft Learn](/learn/paths/build-reports/).
 
 ## <a name="see-also" />Se også
 

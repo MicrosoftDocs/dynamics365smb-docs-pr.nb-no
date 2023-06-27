@@ -31,7 +31,7 @@ Siden **Bokførte dokumenter uten innkommende dokument** åpnes med bokførte kj
 
 Hvis en relevant innkommende dokumentpost ikke finnes på siden **Inngående dokumenter**, kan du opprette den. Hvis du vil ha mer informasjon, kan du se [Opprett innkommende dokumentposter](across-how-create-income-document-records.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesincoming-documents-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/incoming-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

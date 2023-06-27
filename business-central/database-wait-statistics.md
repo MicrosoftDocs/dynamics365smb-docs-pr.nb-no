@@ -10,7 +10,7 @@ audience: null
 ms.author: a-jaaamir
 ms.date: 06/15/2022
 ---
-# <a name="database-wait-statistics-in-includeprodlongincludesprodlongmd" />Ventestatistikk for database i [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="database-wait-statistics-in-" />Ventestatistikk for database i [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Administratorene og utviklerne kan ha innsikt i databaseytelsen ved å se på **Ventestatistikk for database** i [!INCLUDE[prod_short](includes/prod_short.md)]. Informasjonen som presenteres ved hjelp av **ventestatistikk for database**, kan bidra til å kontrollere hva slags ressurser som brukes, og hva slags forsinkelse som skal brukes i databaseprosessene. Ved å analysere disse ventestatistikkene kan du finne årsaken til den trege ytelsen i databasen, og de kan senere ta bedre beslutninger for applikasjonsytelsen.
 

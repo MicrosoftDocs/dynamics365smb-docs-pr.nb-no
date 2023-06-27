@@ -53,7 +53,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til artiklen
 |Informer kundene om ordreleveringsdatoer ved å beregne første mulige forsendelsesdato eller tilgjengelig for ordre-datoen.|[Beregne ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)|
 |Løs forvirring når det finnes to eller flere poster for samme kunde.|[Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathssell-items-services-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/sell-items-services-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/sell-items-services-dynamics-365-business-central/).
 
 [Sette opp salg](sales-setup-sales.md)  
 [Registrere nye kunder](sales-how-register-new-customers.md)  
@@ -63,6 +63,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til artiklen
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -16,7 +16,7 @@ Bruk en ekstern tjeneste for å få de siste valutakursene i listen **Valutaer**
 
 [!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy-note.md)]
 
-## <a name="a-namecurracurrencies" /><a name="curr"></a>Valutaer
+## <a name="currencies" /><a name="curr"></a>Valutaer
 
 Tabellen nedenfor beskriver feltene i **Valutaer**-listen.
 
@@ -111,7 +111,7 @@ Du kan registrere en valutakode på en finanskladdelinje og bokføre linjen til 
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulescurrencies-exchange-rates-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

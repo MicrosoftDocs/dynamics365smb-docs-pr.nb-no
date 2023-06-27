@@ -70,7 +70,7 @@ For å kunne arbeide på siden **Hylleoppretting** må du defineres som lagerans
 
 Gjenta prosessen for et annet sett av hyller til du har opprettet alle hyllene i lageret.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-bins" />Se relatert [Microsoft-opplæring](/training/modules/create-new-bins/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/create-new-bins/)
 
 ## <a name="see-also" />Se også
 

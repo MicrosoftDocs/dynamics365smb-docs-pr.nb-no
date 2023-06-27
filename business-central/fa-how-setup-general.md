@@ -123,7 +123,7 @@ Hvis du bruker aktiva i [!INCLUDE[prod_short](includes/prod_short.md)] for førs
 
 Hvis ikke aktivaene er integrert med Finans, hopper du over trinn 6 og 8.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Se relatert [Microsoft-opplæring](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />Se også
 

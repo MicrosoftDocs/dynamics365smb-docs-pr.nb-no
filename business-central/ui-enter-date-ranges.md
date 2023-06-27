@@ -123,7 +123,7 @@ Tabellen nedenfor inneholder eksempler på datoer som bruker alle formater. Det 
 |t 23|Tirsdag i uke 23 i arbeidsdatoåret|
 |t-1|Tirsdag i uke 1 i arbeidsdatoåret|
 
-## <a name="a-namebkmksettingdaterangesa-setting-ranges" /><a name="BKMK_SettingDateRanges"></a> Angi intervaller
+## <a name="setting-ranges" /><a name="BKMK_SettingDateRanges"></a> Angi intervaller
 
 I lister, totaler eller rapporter kan du definere filtre på datoer, klokkeslett og datoer og klokkeslett som inneholder en startverdi og eventuelt en sluttverdi, for å vise bare dataene i dette intervallet. Standardreglene gjelder for angivelse av datointervaller.
 
@@ -222,7 +222,7 @@ You can also combine the various format types.
 
 Note that we have used the US date format MMDDYY here. As [!INCLUDE[prod_short](includes/prod_short.md)] becomes available in other markets, you'll be able to use the formats that you are used to.
 
-## <a name="use-date-formulas" />Use Date Formulas
+## <a name="use-date-formulas-1" />Use Date Formulas
 A date formula is a short, abbreviated combination of letters and numbers that specifies how to calculate dates. You can enter date formulas in various date calculation fields and in recurring frequency fields in recurring journals.
 
 > [!NOTE]
@@ -345,7 +345,7 @@ Hvis du vil se hvilken enhet som brukes i et varighetsfelt, skriver du inn et ta
 
 Tallet 5 konverteres for eksempel til 5 timer hvis enheten er timer.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

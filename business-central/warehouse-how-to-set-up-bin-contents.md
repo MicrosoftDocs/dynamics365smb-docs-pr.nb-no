@@ -49,7 +49,7 @@ Når du har opprettet hyllene, kan du opprette det hylleinnholdet du ønsker for
 
 I dette forslaget kan du arbeide med flere hylleinnholdslinjer for flere hyller og dermed få god oversikt over hva du legger i ulike hyller i en gitt sone, passasje eller reol.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-zones-bins" />Se relatert [Microsoft-opplæring](/training/modules/set-up-zones-bins/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/set-up-zones-bins/)
 
 ## <a name="see-also" />Se også
 

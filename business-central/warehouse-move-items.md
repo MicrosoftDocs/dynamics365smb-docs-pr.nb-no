@@ -36,7 +36,7 @@ Telling, justering og reklassifisering av varene kan omfatte lagerppgaver som m�
 |Bruk lagerflytteforslaget, intern plukking og plassering til å flytte varer i avanserte lageroppsett med lagerstyring.|[Flytte varer i avanserte lageroppsett](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Omstrukturer lageret med nye hyllekoder og nye hylleegenskaper og flytt dem eventuelt rundt.|[Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Se relatert [Microsoft-opplæring](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Se også
 

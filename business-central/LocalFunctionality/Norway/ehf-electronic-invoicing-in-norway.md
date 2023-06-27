@@ -14,7 +14,7 @@ ms.author: edupont
 # <a name="ehf-electronic-invoicing-in-norway" />EHF – Elektronisk fakturering i Norge
 Selskaper som må sende salgsfakturaer og kreditnotaer elektronisk til norsk offentlig sektor i Elektronisk Handelsformat (EHF) basert på UBL (Universal Business Language). Hvis et selskap ikke sender dokumentene elektronisk, kan myndighetene nekte betaling. Standardformatet som støttes for elektronisk utveksling mellom parter, er formatet Ehandel.no. Hvis du vil ha mer informasjon om EHF elektronisk fakturering, kan du se [Anskaffelser.no](https://www.anskaffelser.no).  
 
-## <a name="implementation-in-includeprodshortincludesprodshortmd" />Implementering i [!INCLUDE[prod_short](../../includes/prod_short.md)]
+## <a name="implementation-in-" />Implementering i [!INCLUDE[prod_short](../../includes/prod_short.md)]
 Fra januar 2019 vil kravene for å sende elektroniske fakturaer være basert på PEPPOL BIS Billing 3.0-standarden. Hvis du vil ha mer informasjon, kan du se siden [EHF Billing 3.0](https://test-vefa.difi.no/ehf/g3/billing-3.0/norway/) fra Direktoratet for forvaltning og ikt. Selskaper som allerede sender elektroniske dokumenter i før-2019-format, kan fortsette å gjøre dette i 2019.
 
 Hvis du vil sende dokumenter elektronisk, må du tilordne EAN-lokasjonsnumre (European Article Numbering) og kontokoder til de aktuelle kundene på **Kundekort**-siden. Du finner mer informasjon under [Sette opp kunder for EHF](how-to-set-up-customers-for-ehf.md). Disse numrene inkluderes når du oppretter, bokfører eller utsteder dokumenter. Nå dokumentene bokføres eller utstedes, kan du opprette elektroniske versjoner som sendes til kunder.  

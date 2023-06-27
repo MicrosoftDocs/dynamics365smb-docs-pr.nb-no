@@ -10,7 +10,7 @@ ms.search.form: '663,'
 ms.date: 05/31/2023
 ms.author: bholtorf
 ---
-# Konfigurer godkjenningsbrukere
+# <a name="set-up-approval-users" />Konfigurer godkjenningsbrukere
 
 Før du kan opprette arbeidsflyter som omfatter godkjenningstrinn, må du definere brukerne som er involvert i godkjenningsprosessene på siden **Brukeroppsett for godkjenning**. Du kan også angi beløpsgrenser for ulike typer forespørsler, definere erstatningsgodkjennere og definere meldinger.  
 
@@ -19,7 +19,7 @@ Når du har definert godkjenningsbrukere, kan du opprette arbeidsflytsvar for go
 > [!TIP]
 > Du kan kreve at flere godkjennere reagere på en godkjenningsforespørsel, ved å opprette en gruppe godkjennere på siden **Brukergruppe for arbeidsflyt**. Finn ut mer under [Definer brukergrupper for arbeidsflyt](across-how-to-set-up-workflow-users.md).  
 
-## Slik konfigurerer du godkjenningsbrukere
+## <a name="to-set-up-an-approval-user" />Slik konfigurerer du godkjenningsbrukere
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
@@ -46,9 +46,9 @@ Når du har definert godkjenningsbrukere, kan du opprette arbeidsflytsvar for go
 
 Neste trinn er å angi hvordan du vil at [!INCLUDE [prod_short](includes/prod_short.md)] skal varsle personer om at en forespørsel venter på oppmerksomhet. Finn ut mer under [Konfigurering av godkjenningsarbeidsflytvarsler](across-setting-up-workflow-notifications.md).
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
 
-## Se også
+## <a name="see-also" />Se også
 
 [Konfigurer arbeidsflytbrukere](across-how-to-set-up-workflow-users.md)  
 [Konfigurer arbeidsflytvarsler](across-setting-up-workflow-notifications.md)  

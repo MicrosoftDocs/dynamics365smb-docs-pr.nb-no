@@ -51,7 +51,7 @@ Følgende flytdiagram viser hvordan **Hyllekode**-feltet på produksjonsordrekom
 
 :::image type="content" source="media/binflow.png" alt-text="Hyllekodefeltet på produksjonsordrekomponentlinjer.":::
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-bins-location" />Se relatert [Microsoft-opplæring](/training/modules/configure-bins-location/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/configure-bins-location/)
 
 ## <a name="see-also" />Se også
 

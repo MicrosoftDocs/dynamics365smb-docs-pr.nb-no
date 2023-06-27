@@ -294,7 +294,7 @@ Når du angir en post i T1 i aktivafinanskladden og setter en hake i feltet **Br
 > [!NOTE]  
 > Du kan ikke bruke den samme nummerserien i aktivafinanskladden og aktivakladden. Når du bokfører poster i aktivafinanskladden, må du la feltet **Bilagsnr.** stå tomt. Hvis du angir et tall i feltet, blir nummeret duplisert i anleggsmiddeljournalen. Du må endre bilagsnummeret manuelt før du kan bokføre kladden.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-depreciation-books" />Se relatert [Microsoft-opplæring](/training/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/configure-depreciation-books/)
 
 ## <a name="see-also" />Se også
 

@@ -22,7 +22,7 @@ På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involv
 2. Åpne arbeidsflyten du vil aktivere.  
 3. På siden **Arbeidsflyt** må du slå på vekslebryteren **Aktivert**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Se også
 

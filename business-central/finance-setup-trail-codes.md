@@ -79,7 +79,7 @@ Følgende fremgangsmåte viser hvordan du legger til et årsaksspor i en kladdem
 
 Når fakturaen er bokført, overføres årsakssporet til hver finans-, kunde- og leverandørpost. Du kan ikke tilordne forskjellige årsaksspor til hver enkelt kjøps- og salgslinje, fordi alle linjene bokføres som én post.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-financial-management-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/set-up-financial-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/set-up-financial-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 
@@ -90,7 +90,7 @@ Når fakturaen er bokført, overføres årsakssporet til hver finans-, kunde- og
 [Analysere kontantstrømmen i firmaet](finance-analyze-cash-flow.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

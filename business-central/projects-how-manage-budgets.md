@@ -17,7 +17,7 @@ Du kan opprette et budsjett for hvert prosjekt. Budsjettet brukes til å planleg
 
 Følgende fremgangsmåte beskriver hvordan du kan beregne budsjetterte kostnader under planleggingen. Hvis du vil ha informasjon om registrering av budsjetterte sammenlignet med faktiske prosjektpriser og kostnader, kan du se [Registrere forbruk for prosjekter](projects-how-record-job-usage.md).  
 
-## <a name="a-namejobbudgetcostsa-to-estimate-the-budgeted-costs-for-a-job" /><a name="JobBudgetCosts"></a> Slik estimerer du budsjetterte kostnader for et prosjekt
+## <a name="to-estimate-the-budgeted-costs-for-a-job" /><a name="JobBudgetCosts"></a> Slik estimerer du budsjetterte kostnader for et prosjekt
 Når en kunde vil vite prisen på et prosjekt som faktureres basert på forbruk, må du fastsette de budsjetterte kostbeløpene for prosjektet. Du bruker siden **Prosjektoppgavelinjer** til å gjøre dette.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
@@ -43,7 +43,7 @@ På siden **Prosjektkort** kan du nå se en oversikt over totalt budsjetterte ko
 
 Hvis du vil ha informasjon om registrering av budsjetterte sammenlignet med faktiske prosjektpriser og kostnader, kan du se [Registrere forbruk for prosjekter](projects-how-record-job-usage.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-job-planning-lines" />Se relatert [Microsoft-opplæring](/training/modules/set-up-job-planning-lines/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/set-up-job-planning-lines/)
 
 ## <a name="see-also" />Se også
 

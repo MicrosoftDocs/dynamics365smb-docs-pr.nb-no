@@ -45,7 +45,7 @@ Når den forlengede prøveperioden er utgått, kan du [abonnere](https://go.micr
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrial-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/trial-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

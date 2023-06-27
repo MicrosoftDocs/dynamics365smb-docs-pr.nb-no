@@ -95,7 +95,7 @@ Etter at du har bokført prosjektkladdelinjer kan du vise planleggingslinjene so
 2. Velg en kladd for det aktuelle prosjektet, og velg deretter handlingen **Poster**.  
 3. På siden **Prosjektposter** velger du handlingen **Vis koblede prosjektplanleggingslinjer**.
 
-## <a name="see-related-microsoft-trainingtrainingpathspost-job-usage-sales" />Se relatert [Microsoft-opplæring](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/post-job-usage-sales/)
 
 ## <a name="see-also" />Se også
 

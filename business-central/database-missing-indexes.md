@@ -10,7 +10,7 @@ audience: null
 ms.author: a-jaaamir
 ms.date: 06/09/2022
 ---
-# <a name="database-missing-indexes-in-includeprodlongincludesprodlongmd" />Database mangler indekser i [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="database-missing-indexes-in-" />Database mangler indekser i [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Administratorer og utviklere kan gjøre databasen mer effektiv og forbedre programytelsen ved å bruke informasjon som er trukket ut av **Database mangler indekser** i [!INCLUDE[prod_short](includes/prod_short.md)].
 

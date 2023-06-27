@@ -172,7 +172,7 @@ Illustrasjonen nedenfor gir en oversikt over resultatet av denne prosedyren.
 
 Nå tester du arbeidsflyten ved å åpne en eksisterende leverandørkort og endre navnet. Bekreft at det sendes en godkjenningsforespørsel om å endre leverandørnavnet.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Se også
 

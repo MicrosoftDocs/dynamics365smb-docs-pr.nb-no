@@ -47,7 +47,7 @@ Avhengig av hva situasjonen er, varierer de faktiske aktivitetene. Bruk følgend
 |Bytt det gjeldende oppsettet som brukes av en rapport, til et annet oppsett|[Definer oppsettet som brukes av en rapport](ui-set-report-layout.md)|
 |Endre navn og beskrivelse for et oppsett|[Gi et oppsett nytt navn](#rename)|
 
-## <a name="a-namedecideadecide-what-type-of-layout-you-want" /><a name="decide"></a>Bestem hvilken type oppsett du vil bruke
+## <a name="decide-what-type-of-layout-you-want" /><a name="decide"></a>Bestem hvilken type oppsett du vil bruke
 
 Det første når du oppretter et oppsett, er å bestemme hvilken [type oppsett](ui-manage-report-layouts.md#layout-types) du vil bruke. Du kan velge enten Word, Excel eller RDLC. Oppsettstypen varierer avhengig av hvordan du vil at den genererte rapporten skal se ut. Det avhenger dessuten av hva slags programvare du trenger for å opprette oppsett, for eksempel Word, Excel og SQL Server Report Builder.
 
@@ -66,7 +66,7 @@ Det første når du oppretter et oppsett, er å bestemme hvilken [type oppsett](
 
 * Generelle utformingskonsepter for Word og RDLC oppsett er like. Hver type har imidlertid visse utformingsfunksjoner som påvirker hvordan den genererte rapporten vises i [!INCLUDE[prod_short](includes/prod_short.md)]. Den samme rapporten kan gi ulike utseender ved å bruke Word-oppsettet sammenlignet med RDLC-oppsettet.
 
-## <a name="a-namecreateacreate-a-new-layout" /><a name="create"></a>Opprett et nytt oppsett
+## <a name="create-a-new-layout" /><a name="create"></a>Opprett et nytt oppsett
 
 Du kan opprette et nytt oppsett for et eksisterende oppsett på to måter. En måte er å lagre det eksisterende oppsettet på en kopi. Den andre måten er å eksportere det eksisterende oppsettet.
 
@@ -127,7 +127,7 @@ Hvis du vil se hvordan rapporten ser ut med det nye oppsettet, velger du oppsett
 
 ---
 
-## <a name="a-namemodifyamodify-a-layout" /><a name="modify"></a>Endre et oppsett
+## <a name="modify-a-layout" /><a name="modify"></a>Endre et oppsett
 
 Følg denne fremgangsmåten for å endre et eksisterende brukerdefinert oppsett.
 
@@ -156,7 +156,7 @@ Følg denne fremgangsmåten for å endre et eksisterende brukerdefinert oppsett.
    Den valgte filen lastes opp til oppsettet, og du går tilbake til siden **Rapportoppsett**.
 7. Hvis du vil se hvordan rapporten ser ut med det nye oppsettet, velger du oppsettet i listen, og deretter velger du **Kjør rapport**.
 
-## <a name="a-namereplaceareplace-a-layout" /><a name="replace"></a>Erstatt et oppsett
+## <a name="replace-a-layout" /><a name="replace"></a>Erstatt et oppsett
 
 Følg denne fremgangsmåten hvis du vil erstatte den eksisterende, brukerdefinerte oppsettsfilen med en ny fil.
 
@@ -168,7 +168,7 @@ Følg denne fremgangsmåten hvis du vil erstatte den eksisterende, brukerdefiner
    Den valgte filen lastes opp til oppsettet, og du går tilbake til siden **Rapportoppsett**.
 5. Hvis du vil se hvordan rapporten ser ut med det nye oppsettet, velger du oppsettet i listen, og deretter velger du **Kjør rapport**.
 
-## <a name="a-namerenamearename-a-layout" /><a name="rename"></a>Gi et oppsett nytt navn
+## <a name="rename-a-layout" /><a name="rename"></a>Gi et oppsett nytt navn
 
 Følg denne fremgangsmåten hvis du vil endre navnet og beskrivelsen for et brukerdefinert oppsett.
 
@@ -179,7 +179,7 @@ Følg denne fremgangsmåten hvis du vil endre navnet og beskrivelsen for et bruk
     > Du kan finne oppsettet ved å bruke **søkefeltet**, **filtreringsruten** og kolonnesorteringen.
 3. Endre **oppsettsnavnet** og velg deretter **OK**.
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

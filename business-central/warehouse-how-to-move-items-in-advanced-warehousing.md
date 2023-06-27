@@ -138,7 +138,7 @@ Hvis du må registrere at varer allerede er flyttet til andre hyller uten plasse
 2. Fyll ut feltene **Varenr.**, **Fra sone-kode**, **Fra hylle-kode**, **Til sone-kode**, **Til hylle-kode**.  
 3. Velg handlingen **Registrer**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-internal-warehouse-processes" />Se relatert [Microsoft-opplæring](/training/modules/manage-internal-warehouse-processes/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/manage-internal-warehouse-processes/)
 
 ## <a name="see-also" />Se også
 

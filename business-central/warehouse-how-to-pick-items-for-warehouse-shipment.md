@@ -111,7 +111,7 @@ Du kan ikke opprette et lagerplukkdokument fra bunnen av. Plukk er en del av en 
 
 Du kan nå hente varene til leveringssonen og bokføre leveringen, inkludert det relaterte kildedokumentet, på siden **Lagerlevering**. Finn ut mer under [Lever varer](warehouse-how-ship-items.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulespick-ship-items-warehouse" />Se relatert [Microsoft-opplæring](/training/modules/pick-ship-items-warehouse/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/pick-ship-items-warehouse/)
 
 ## <a name="see-also" />Se også
 

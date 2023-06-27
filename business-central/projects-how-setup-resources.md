@@ -74,7 +74,7 @@ I tillegg til prisen som er angitt på ressurskortet, kan du definere alternativ
 3. På siden **Ressurspriser** fyller du ut feltene på en linje etter behov.
 4. Gjenta trinn 3 for hvert alternativ ressurspris du vil definere.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Se relatert [Microsoft-opplæring](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Se også
 

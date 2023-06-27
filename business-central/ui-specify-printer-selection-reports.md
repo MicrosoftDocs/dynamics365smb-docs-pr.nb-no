@@ -11,7 +11,7 @@ ms.search.form: '2650, 2750, 2752, 2753, 2754, 8900,'
 ms.date: 02/09/2023
 ms.author: jswymer
 ---
-# <a name="a-namedefaultaspecify-a-default-printer" /><a name="default"></a>Angi en standardskriver
+# <a name="specify-a-default-printer" /><a name="default"></a>Angi en standardskriver
 
 Når skrivere er definert i Business Central, kan du angi hvilken skriver som skal brukes som standard. Det finnes noen andre måter å angi skrivere på som skal brukes som standard for rapporter og andre utskriftsjobber. En standardskriver er nyttig hvis du arbeider med forskjellige rapporter som krever ulike skrivere på grunn av sin plassering i firmaet eller utskriftsmulighetene.
 

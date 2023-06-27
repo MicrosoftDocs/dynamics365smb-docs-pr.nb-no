@@ -92,13 +92,13 @@ Her er noen ting du må huske på når du arbeider med kortdetaljene:
 
 Hvis du vil vite mer om hvordan du arbeider med kort og kortdetaljer, kan du se [Vanlige spørsmål om Teams](teams-faq.md).
 
-## <a name="a-nameshare-linkashare-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Del en kobling til side i Business Central til Teams
+## <a name="share-a-link-to-page-from-business-central-to-teams" /><a name="share-link"></a>Del en kobling til side i Business Central til Teams
 
 Fra de fleste samlingssider, for eksempel **Varer**-siden, og detaljsider, for eksempel **Vare**-kortet, kan du sende en kobling til siden til bestemte mottakere i en Teams-samtale. Du kan for eksempel dele en kobling til en filtrert visning av postene. Mottakerne kan deretter velge koblingen for å åpne siden i [!INCLUDE [prod_short](includes/prod_short.md)]\.
 
 [![!Del-menyen som vises på et kort.](media/teams-share-link-v2.png "Del-menyen som vises på et kort.")](media/teams-share-link-v2.png#lightbox)
 
-### <a name="prerequisites" />Forutsetninger
+### <a name="prerequisites-1" />Forutsetninger
 
 - Du har tilgang til Microsoft Teams.
 - (Valgfritt) Du har installert [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams. 
@@ -126,6 +126,6 @@ Fra de fleste samlingssider, for eksempel **Varer**-siden, og detaljsider, for e
 [Feilsøke Teams](admin-teams-troubleshooting.md)  
 [Utvikle for Teams-integrering](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

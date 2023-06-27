@@ -11,7 +11,7 @@ ms.date: 09/07/2022
 ms.author: jswymer
 ---
 
-# <a name="building-power-bi-reports-to-display-include-prodlongincludesprodlongmd-data" />Bygge Power BI-rapporter for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data
+# <a name="building-power-bi-reports-to-display--data" />Bygge Power BI-rapporter for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data
 
 Gjør [!INCLUDE[prod_long](includes/prod_long.md)]-dataene tilgjengelige som en datakilde i Power BI Desktop, og bygg kraftige rapporter om status for din bedrift.
 
@@ -46,7 +46,7 @@ Denne artikkelen beskriver hvordan du kommer i gang med Power BI Desktop for å 
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="a-namegetdataaadd-includeprodshortincludesprodshortmd-as-a-data-source-in-power-bi-desktop" /><a name="getdata"></a>Legge til [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop
+## <a name="add--as-a-data-source-in-power-bi-desktop" /><a name="getdata"></a>Legge til [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop
 
 Den første oppgaven i opprettelse av rapporter, er å legge til [!INCLUDE[prod_short](includes/prod_short.md)] som en datakilde i Power BI Desktop. Når den er tilkoblet, kan du begynne å bygge rapporten.
 
@@ -108,7 +108,7 @@ Det er viktig å gjøre rapportene brukbare for så mange som mulig. Prøv å ut
 
 Du kan opprette rapporter som vises i en faktaboks på en [!INCLUDE [prod_short](includes/prod_short.md)]-listeside. Rapportene kan inneholde data om posten som er valgt i listen. Du oppretter disse rapportene på lignende måte som andre rapporter, men det er enkelte ting du må gjøre for å sikre at rapportene vises som forventet. Hvis du vil ha mer informasjon, kan du se [Opprette Power BI-rapporter for visning av listedata i [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-powerbi-reports-factbox.md).
 
-## <a name="a-namethemeausing-the-include-prodshortincludesprodshortmd-report-theme-optional" /><a name="theme"></a>Bruke [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet (valgfritt)
+## <a name="using-the--report-theme-optional" /><a name="theme"></a>Bruke [!INCLUDE [prod_short](includes/prod_short.md)]-rapporttemaet (valgfritt)
 
 Før du bygger rapporten, anbefales det at du laster ned og importerer [!INCLUDE [prod_short](includes/prod_short.md)]-teamfilen. Temafilen oppretter en fargepalett, slik at du kan lage rapporter med samme fargestil som [!INCLUDE [prod_short](includes/prod_short.md)]-appene uten å måtte definere egendefinerte farger for hver visualisering.
 
@@ -180,7 +180,7 @@ Fra og med februar 2022 vil nye rapporter som bruker Business Central-data, bli 
 9. Velg **Ferdig**.
 10. Velg **Lukk og bruk** fra båndet til å lagre endringene og lukk Power Query-redigeringsprogrammet.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesconfigure-powerbi-excel-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

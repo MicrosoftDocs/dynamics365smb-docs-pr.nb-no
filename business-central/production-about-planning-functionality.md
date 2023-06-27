@@ -159,7 +159,7 @@ Hvis du vil ha detaljer om planlegging med lokasjoner og overføringer, se [Plan
 > [!TIP]
 > Når du arbeider med sidene **Bestillingsforslag** eller **Planleggingsforslag**, kan du organisere linjene ved å sortere etter et kolonnenavn. Dette er spesielt nyttig på siden Planleggingsforslag fordi de kan brukes i produksjonsordrer på flere nivåer. Som standard sorteres linjer etter feltet **Varenr.**. Hvis du vil gruppere linjer for en rekkefølge på flere nivåer, sorterer du etter feltet **Ref.ordrenr.** . Feltene **MPS-ordre** og **Planleggingsnivå** kan også hjelpe med å vise hierarkiet av linjene.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesplan-items-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/plan-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/plan-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

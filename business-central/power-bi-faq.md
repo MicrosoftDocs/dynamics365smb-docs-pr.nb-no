@@ -147,7 +147,7 @@ Denne funksjonaliteten blir snart tilgjengelig. Fra og med februar 2022 prøver 
 
 Hvis du har gamle rapporter basert på Business Central-data, kobler de ikke til den skrivebeskyttede databasereplikaen.
 
-### <a name="a-namedatabasemodsaive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>Jeg har prøvd å forhåndsvise den nye koblingen til oppdateringen for februar 2022. Når jeg kobler til en egendefinert Business Central API-side, får jeg feilmeldingen «Kan ikke sette inn en post. Nåværende tilkoblingshensikt er skrivebeskyttet.» Hvordan kan jeg løse det?
+### <a name="ive-tried-the-preview-of-the-new-connector-for-the-february-2022-update-when-i-connect-to-my-custom-business-central-api-page-i-get-the-error-cannot-insert-a-record-current-connection-intent-is-read-only-how-can-i-fix-it" /><a name="databasemods"></a>Jeg har prøvd å forhåndsvise den nye koblingen til oppdateringen for februar 2022. Når jeg kobler til en egendefinert Business Central API-side, får jeg feilmeldingen «Kan ikke sette inn en post. Nåværende tilkoblingshensikt er skrivebeskyttet.» Hvordan kan jeg løse det?
 
 Med den nye koblingen vil nye rapporter som bruker Business Central-data, bli koblet til en skrivebeskyttet replika av Business Central-databasen som standard. Denne endringen gir en ytelsesforbedring. I sjeldne tilfeller kan det imidlertid føre til feilen. Denne feilen oppstår vanligvis fordi den egendefinerte API-en gjør endringer i Business Central-poster mens Power BI prøver å hente dataene. Særlig skjer det som en del av AL-utløserne: OnInit, OnOpenPage, OnFindRecord, OnNextRecord, OnAfterGetRecord og OnAfterGetCurrRecord.
 
@@ -182,7 +182,7 @@ In general, we recommend avoiding any database modifications in API pages when t
 10. Select **Close & Apply** from the ribbon to save the changes and close Power Query Editor.
 
 -->
-### <a name="a-namepermsahow-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop" /><a name="perms"></a>Hvordan endrer eller tømmer jeg brukerkontoen jeg for øyeblikket bruker til koble til Business Central fra Power BI Desktop?
+### <a name="how-do-i-change-or-clear-the-user-account-im-currently-using-to-connect-to-business-central-from-power-bi-desktop" /><a name="perms"></a>Hvordan endrer eller tømmer jeg brukerkontoen jeg for øyeblikket bruker til koble til Business Central fra Power BI Desktop?
 
 Gjør ett av følgende i Power BI Desktop:
 
@@ -237,14 +237,14 @@ Ja. Dette avanserte scenarioet bidrar til å holde Business Central effektivt fo
 
 Vi undersøker muligheter for denne funksjonen. Power BI har omfattende API-er for styring av rapportdistribusjoner. Hvis du vil ha mer informasjon, kan du se [Innføring i distribusjonspipeliner](/power-bi/create-reports/deployment-pipelines-overview).
 
-### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-x0020-what-are-these-values" />Når jeg får data fra Business Central som skal brukes i Power BI-rapportene mine, ser jeg noen verdier som _x0020_. Hva er disse verdiene?
+### <a name="when-i-get-data-from-business-central-to-use-in-my-power-bi-reports-i-see-some-values-like-_x0020_-what-are-these-values" />Når jeg får data fra Business Central som skal brukes i Power BI-rapportene mine, ser jeg noen verdier som _x0020_. Hva er disse verdiene?
 
 Enkelte API-sider, inkludert de fleste API v 2.0-sider, har felter basert på [AL-opplistingsobjekter](/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums). Felter basert på AL-opplistingsobjekter må ha navn som er konsekvente og alltid like, slik at filtre i rapporten alltid fungerer, uansett hvilket språk eller operativsystem du bruker. Derfor blir ikke feltene som er basert på AL-opplistinger, oversatt, og de blir kodet for å unngå ethvert spesialtegn, inkludert mellomrom. Det er særlig når er et tomt alternativ i AL-opplistingsobjektet, at det kodes til «_x0020_». Du kan alltid bruke en transformering på dataene i Power BI hvis du vil vise en annen verdi for disse feltene, for eksempel «Tom».
 
 
 ---
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

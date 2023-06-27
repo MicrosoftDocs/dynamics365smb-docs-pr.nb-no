@@ -51,7 +51,7 @@ På siden **Bokført kjøpsfaktura** kan du velge knappen **Korriger** eller **A
 
 Hvis annulleringen er knyttet til en delvis fakturabokføring, oppdateres den opprinnelige bestillingslinjen for å gjenspeile det annullerte fakturerte antallet. Feltene **Ant. som skal fakt.** og **Ant. fakturert** på den tilknyttede bestillingslinjen tilbakestilles til verdiene før den delvise bokføringen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-invoice-dynamics-d365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/receive-invoice-dynamics-d365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/receive-invoice-dynamics-d365-business-central/)
 
 ## <a name="see-also" />Se også
 

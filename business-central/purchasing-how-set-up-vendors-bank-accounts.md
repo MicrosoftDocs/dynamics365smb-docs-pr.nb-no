@@ -26,7 +26,7 @@ Hvis en leverandør har en eller flere bankkontoer og du vil angi et foretrukket
 2. Åpne kortet for leverandøren.
 3. Velg standard leverandørbankkonto i feltet **Foretrukket bankkontokode** på hurtigfanen **Betalinger**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulescash-management-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/cash-management-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

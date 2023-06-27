@@ -50,7 +50,7 @@ Hvis nettleseren ikke tillater informasjonskapsler, får du følgende feilmeldin
 1. I Microsoft Edge går du til **Innstillinger** > **Informasjonskapsler og områdetillatelser** > **Informasjonskapsler og områdedata**.
 2. Flytt **Tillat områder å lagre og lese informasjonskapseldata**-vekslebryteren mot høyre (På).  
 
-## <a name="a-namepopupaallow-pop-ups-from-business-central" /><a name="popup"></a>Tillat popup-vinduer fra Business Central
+## <a name="allow-pop-ups-from-business-central" /><a name="popup"></a>Tillat popup-vinduer fra Business Central
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integreres med flere produkter. I noen tilfeller, for eksempel med Microsoft Teams, åpnes [!INCLUDE[prod_short](includes/prod_short.md)] eller popup-vinduer i produktet. Denne funksjonen krever at nettleseren tillater popup-vinduer fra [!INCLUDE[prod_short](includes/prod_short.md)].
 

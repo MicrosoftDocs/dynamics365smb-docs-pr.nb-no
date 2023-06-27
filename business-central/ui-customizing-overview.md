@@ -28,13 +28,13 @@ Det finnes ulike metoder for å tilpasse programmet slik at du og kollegene dine
 > [!NOTE]
 > Alle funksjonsbeskrivelser i brukerdokumentasjonen for [!INCLUDE[prod_short](includes/prod_short.md)] forutsetter **Premium**-opplevelsen, det vil si at beskrivelsene dekker hele omfanget av grensesnittelementer. Derfor kan brukere som har **Essential**-opplevelsen i enkelte emner lese om funksjoner og grensesnittelementer som ikke vises i brukergrensesnittet. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).
 
-## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Se relatert [Microsoft-opplæring](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also" />Se også
 
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

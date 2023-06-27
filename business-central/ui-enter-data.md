@@ -63,7 +63,7 @@ Det finnes en rekke hurtigtaster som du kan bruke til å utføre dataregistrerin
 
 Hvis du vil ha mer informasjon om snarveier, kan du se [Hurtigtaster](keyboard-shortcuts.md). Noen hurtigsnarveier beskrives i denne artikkelen.
 
-## <a name="a-namequickentryaaccelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Raskere dataregistrering ved hjelp av hurtigoppføring
+## <a name="accelerating-data-entry-using-quick-entry" /><a name="QuickEntry"></a>Raskere dataregistrering ved hjelp av hurtigoppføring
 
 Hurtigoppføring er en funksjon som er beregnet på dataregistrering når du bruker tastaturet. Hurtigoppføring fungerer på felt (som på kortsider) og i lister (rader og kolonner). Det er en fordel når du gjør gjentakende skriveoppgaver som krever oppretting av flere poster i sekvens. Eksempler omfatter en bunke med ordre eller registrering av nye elementer.
 
@@ -125,7 +125,7 @@ For å starte filtreringen kan du velge ![Filtreringsruteikon](media/open-filter
 
 Filtrering er spesielt nyttig når du viser og analyserer lengre dokumenter. Du åpner for eksempel en postert salgsfaktura. Deretter filtrerer du linjeelementene til å vise alle linjeelementene som har en individuell rabatt over 5 %. Eller du kan filtrere for å vise bare sykkeltilbehør med «pro» i navnet.
 
-## <a name="a-namefocusafocusing-on-line-items" /><a name="Focus"></a>Fokusere på linjeelementer
+## <a name="focusing-on-line-items" /><a name="Focus"></a>Fokusere på linjeelementer
 
 Når du arbeider i dokumenter som inkluderer en del for linjeelementer, kan du bytte visning til å fokusere bare på linjeelementene. Eksempeldokumenter er ordre eller fakturaside. Delen for linjeelementer utvides slik at den bruker nesten hele arbeidsområdet. Den skjuler andre deler på siden unntatt handlingsområdet øverst. Dette oppsettet gir deg bedre oversikt over linjeelementene og gir deg mer plass til å arbeide med dem.
 
@@ -266,7 +266,7 @@ Her er noen eksempler.
 
  Tallet 5 konverteres til 5 timer hvis enheten er timer.  
 
-## <a name="a-namedecimalasetting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Angi desimalskilletegnet som brukes av numeriske tastaturer
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards" /><a name="decimal"></a>Angi desimalskilletegnet som brukes av numeriske tastaturer
 
 Når du bruker <kbd>desimalskilletegn</kbd> på et numerisk tastatur til å skrive inn data, bestemmes det faktiske desimalskilletegnet som er angitt i feltet, av områdeinnstillingen for Business Central. De fleste områder bruker punktum (.) eller komma (,) som skilletegn for desimalverdier, som du vanligvis ser i valutabeløp. Desimaltasten på tastaturet tilpasses området. Den er ofte forskjellig fra punktum- eller kommatastene på resten av tastaturet. Du angir området i Business Central på siden **Mine innstillinger**.
 
@@ -275,7 +275,7 @@ La oss for eksempel anta at du bruker et numerisk tastatur som bruker et punktum
 > [!TIP]
 > Det kan være tilfeller der du vil bruke desimalskilletegnet til å angi et punktum (.). La oss for eksempel anta at du skulle sette inn et datointervall i et filter, som `01/01/2022..04/01/2022` eller noe som krever et punktum. Du kan tilpasse dette tilfellet ved å velge tastene <kbd>Alt</kbd>+<kbd>desimalskilletegn</kbd> på det numeriske tastaturet. Denne tastekombinasjonen bytter desimalskilletegn mellom hver gang et punktum og desimalskilletegnet angis av **Område**-innstillingen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesexplore-modify-info-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

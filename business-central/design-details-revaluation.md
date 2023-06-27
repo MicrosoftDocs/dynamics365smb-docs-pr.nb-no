@@ -89,7 +89,7 @@ Når antallet som kan revalueres, beregnes for varer som bruker lagermetoden Sta
 -   En verdipost med posttypen **Avvik**. Denne posten registrerer differansen mellom fakturert kost og revaluert standardkost.  
 -   En verdipost med posttypen **Revaluering**. Denne posten registrerer tilbakeføringen av revaluering av forventet kost.  
 
-### <a name="example" />Eksempel
+### <a name="example-1" />Eksempel
 Følgende eksempel, som er basert på produksjonen av kjeden i forrige eksempel, illustrerer hvordan tre posttyper opprettes. Dette er basert på følgende scenario:  
 
 1.  Brukeren bokfører de kjøpte leddene som mottatt med en enhetskost på LV 2,00.  
@@ -123,7 +123,7 @@ Tabellen nedenfor viser kriteriene som brukes for en vare som ikke bruker lagerm
 |E|Senere enn revalueringsoppføring nr.|Er lik bokføringsdato for revaluering|Ja|  
 |F|Senere enn revalueringsoppføring nr.|Senere enn bokføringsdato for revaluering|Ja|  
 
-### <a name="example" />Eksempel
+### <a name="example-2" />Eksempel
 Følgende eksempel, som illustrerer revaluering av en vare som bruker lagermetoden FIFO, er basert på følgende scenario:  
 
 1.  Brukeren bokfører salg av seks enheter 01.01.20.  

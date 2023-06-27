@@ -89,7 +89,7 @@ I **Shopify-administratoren** velger du **Inkluder eller ekskluder merverdiavgif
 > [!NOTE]
 > Denne innstillingen påvirker priser i innenlandske markeder, som styres av **Alle priser inkluderer avgifter**.
 
-### <a name="all-prices-include-tax-is-selected" />Alle priser inkl. mva velges
+### <a name="all-prices-include-tax-is-selected-1" />Alle priser inkl. mva velges
 
 |-|Innenlandssalg|Utenlandsk land der mva. er inkludert i prisen|Utenlandsk land der mva. er ekskludert|
 |------------------------|--------|--------|--------|
@@ -99,7 +99,7 @@ I **Shopify-administratoren** velger du **Inkluder eller ekskluder merverdiavgif
 
 Prisen for hver kunde endres avhengig av lokasjonen.
 
-### <a name="all-prices-include-tax-is-not-selected" />Alle priser inkl. mva velges ikke
+### <a name="all-prices-include-tax-is-not-selected-1" />Alle priser inkl. mva velges ikke
 
 |-|Innenlandssalg|Utenlandsk land der mva. er inkludert i prisen|Utenlandsk land der mva. er ekskludert|
 |------------------------|--------|--------|--------|

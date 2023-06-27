@@ -33,7 +33,7 @@ De fleste av snarveiene er de samme om operativsystemet er Windows eller macOS. 
 > [!NOTE]
 > I tillegg til de globale hurtigtastene som er beskrevet i denne artikkelen, er det en rekke tilgjengelige forretningsspesifikke snarveier. For eksempel i den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] bokfører <kbd>F9</kbd> et dokument, og <kbd>Ctrl</kbd>+<kbd>F7</kbd> viser finanspostene for en post når du åpner posten i et kort. Denne artikkelen inneholder noen av de mer vanlige forretningsspesifikke snarveiene som vises i kursiv. Vær oppmerksom på at de faktiske snarveiene kan være forskjellige i løsningen. I brukergrensesnittet vises hurtigtasten i verktøytipet for den aktuelle handlingen.
 
-## <a name="a-namekeyboarda-general-keyboard-shortcuts" /><a name="Keyboard"></a> Generelle hurtigtaster
+## <a name="general-keyboard-shortcuts" /><a name="Keyboard"></a> Generelle hurtigtaster
 
 Tabellen nedenfor beskriver tastatursnarveier for å navigere i og få tilgang til ulike elementer på en side. Elementer omfatter ting som handlinger, rullegardinlister, oppslag og mer. Hvis du vil ha mer informasjon om hurtigtaster for å navigere i poster når er i en liste, kan du se den neste delen.
 
@@ -90,7 +90,7 @@ Tabellen nedenfor beskriver hurtigtastene som du kan bruke på en listeside. Hur
 |*<kbd>Skift</kbd>+<kbd>Ctrl</kbd>+<kbd>F</kbd>*|Send foreslåtte linjer på forslagssiden for kontantstrømmen.|Ikke i bruk.|
 |*<kbd>Skift</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd>*|Vis serie- og partinumre som er tildelt linjevaren i dokumentet eller på kladden.|Ikke i bruk.|
 
-### <a name="a-namenavigateshortcutsanavigating-between-rows-and-columns" /><a name="navigateshortcuts"></a>Navigere mellom rader og kolonner
+### <a name="navigating-between-rows-and-columns" /><a name="navigateshortcuts"></a>Navigere mellom rader og kolonner
 
 Rutenett som inneholder rader og kolonner finnes på mange sidetyper i [!INCLUDE[prod_short](includes/prod_short.md)], for eksempel lister og **Linjer** i dokumenter. Flytting fra én celle til en annen i et rutenett er tastaturaktivert.
 
@@ -111,7 +111,7 @@ Rutenett som inneholder rader og kolonner finnes på mange sidetyper i [!INCLUDE
 | <kbd>Tab</kbd> | I en redigerbar liste flytter du i samme rad til neste felt til høyre. | Ikke i bruk. | 
 | <kbd>Skift</kbd>+<kbd>Tab</kbd> | I en redigerbar liste flytter du i samme rad til forrige felt til venstre. | Ikke i bruk. |
 
-### <a name="a-namecopyrowsaselecting-copying-and-pasting" /><a name="CopyRows"></a>Velge, kopiere og lime inn
+### <a name="selecting-copying-and-pasting" /><a name="CopyRows"></a>Velge, kopiere og lime inn
 
 |Velg disse tastene<br />(i macOS)|Hvis du vil gjøre dette i en listevisning |Hvis du vil gjøre dette i en flisvisning |
 |--------------------------------|--------------------------|--------------------------|
@@ -129,7 +129,7 @@ Rutenett som inneholder rader og kolonner finnes på mange sidetyper i [!INCLUDE
 |<kbd>Skift</kbd>+<kbd>Page Down</kbd><br /><br />(<kbd>Skift</kbd>+<kbd>Fn</kbd>+<kbd>Pil opp</kbd>)|Utvide valget av rader til å inkludere synlige rader nedenfor de merkede radene.|Ikke i bruk.|
 |<kbd>F8</kbd>|Kopier feltet i samme kolonne i raden over og lim det inn i den gjeldende raden. Du kan bare gjøre dette i redigerbare lister. Ved hjelp av denne hurtigtasten etterfulgt av en <kbd>tabulator</kbd> kan du raskt fylle ut feltene i linjevarene som du vil ha samme verdi som raden ovenfor.|Ikke i bruk.|
 
-### <a name="a-namekeyboardfilterasearching-and-filtering-lists" /><a name="KeyboardFilter"></a>Søke etter og filtrere oversikter
+### <a name="searching-and-filtering-lists" /><a name="KeyboardFilter"></a>Søke etter og filtrere oversikter
 
 |Velg disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
 |--------------------------------|----------|
@@ -169,7 +169,7 @@ Følgende hurtigtaster er tilgjengelige på kortsider, for eksempel **Kundekort*
 |<kbd>Skift</kbd>+<kbd>F6</kbd>|Flytte til forrige <kbd>hurtigfane</kbd> eller del (underordnet side).|
 |*<kbd>Skift</kbd>+<kbd>F9</kbd>*|Bokfør og skriv ut et dokument.|
 
-## <a name="a-namequickentryaquick-entry-shortcuts-for-fields" /><a name="QuickEntry"></a>Hurtigtaster for hurtigoppføring for felt
+## <a name="quick-entry-shortcuts-for-fields" /><a name="QuickEntry"></a>Hurtigtaster for hurtigoppføring for felt
 
 Følgende hurtigtaster gjelder for Hurtigoppføring-funksjonen på kort, dokumenter og listesider. På lister kan ikke hurtigtaster brukes når listene er i flisvisning. Du finner mer informasjon om hurtigoppføring i [Raskere dataregistrering ved hjelp av hurtigoppføring](ui-enter-data.md#QuickEntry).
 
@@ -179,7 +179,7 @@ Følgende hurtigtaster gjelder for Hurtigoppføring-funksjonen på kort, dokumen
 |<kbd>Skift</kbd>+<kbd>Enter</kbd>|Bekrefte verdien i det gjeldende feltet, og gå til forrige hurtigoppføringsfelt.||
 |<kbd>Ctrl</kbd>+<kbd>Skift</kbd>+<kbd>Enter</kbd>|Bekrefte verdien i den gjeldende kolonnen, og gå til neste hurtigoppføringsfelt utenfor listen.<br /><br />Denne snarveien gjelder for innebygde lister på en side, for eksempel linjeelementer på en ordre. Den gjør at du raskt kan gå ut av listen og fortsette å registrere data i andre felt på siden.|
 
-## <a name="a-namecalendarshortcutsa-keyboard-shortcuts-in-the-calendar-date-picker" /><a name="calendarshortcuts"></a> Hurtigtaster i kalenderen (datovelger)
+## <a name="keyboard-shortcuts-in-the-calendar-date-picker" /><a name="calendarshortcuts"></a> Hurtigtaster i kalenderen (datovelger)
 
 Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (datovelger) som lar deg velge ønsket dato. Tabellen nedenfor beskriver hurtigtastene for kalenderen.
 
@@ -204,7 +204,7 @@ Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (d
 |<kbd>i</kbd>|Angi gjeldende dato. "I" betyr "i dag".|
 |<kbd>a</kbd>|Angi arbeidsdato. Hvis du vil ha mer informasjon, kan du se [Arbeidsdato](ui-change-basic-settings.md#work-date).|
 
-## <a name="a-namereportpreviewshortcutsakeyboard-shortcuts-in-the-report-preview" /><a name="reportpreviewshortcuts"></a>Hurtigtaster i rapportforhåndsvisningen
+## <a name="keyboard-shortcuts-in-the-report-preview" /><a name="reportpreviewshortcuts"></a>Hurtigtaster i rapportforhåndsvisningen
 
 |Velg disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
 |--------------------------------|----------|
@@ -218,7 +218,7 @@ Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (d
 |<kbd>En side ned</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Pil opp</kbd>)|Gå til den neste siden i rapporten.|
 |<kbd>PgUp</kbd><br /><br />(<kbd>Fn</kbd>+<kbd>Pil opp</kbd>)|Gå til den forrige siden i rapporten.|
 
-## <a name="a-namezoomshortcutsakeyboard-shortcuts-for-zooming-in-and-out" /><a name="zoomshortcuts"></a>Hurtigtaster for å zoome inn og ut
+## <a name="keyboard-shortcuts-for-zooming-in-and-out" /><a name="zoomshortcuts"></a>Hurtigtaster for å zoome inn og ut
 
 |Velg disse tastene|Hvis du vil gjøre dette|
 |--------------------------------|----------|
@@ -226,7 +226,7 @@ Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (d
 |<kbd>Ctrl</kbd>+<kbd>-</kbd>|Zoom ut på gjeldende side.|  
 |<kbd>Ctrl</kbd>+<kbd>0</kbd>|Zoom inn eller ut til 100 % på gjeldende side.|  
 
-## <a name="a-nameroleexplorerakeyboard-shortcuts-for-role-explorer" /><a name="roleexplorer"></a>Hurtigtaster for Rolleutforsker
+## <a name="keyboard-shortcuts-for-role-explorer" /><a name="roleexplorer"></a>Hurtigtaster for Rolleutforsker
 
 Rolleutforsker gir deg en oversikt og rask tilgang til alle forretningsfunksjonene som er tilgjengelige for din rolle. Hvis du vil ha mer informasjon, se [Finne sider med rolleutforskeren](ui-role-explorer.md).
 
@@ -238,7 +238,7 @@ Rolleutforsker gir deg en oversikt og rask tilgang til alle forretningsfunksjone
 |<kbd>Skift</kbd> <kbd>F3</kbd> eller <kbd>Ctrl</kbd>+<kbd>Pil opp</kbd>|Flytt fokus til forrige funksjon som ble funnet, i rolleutforskeren.|
 |<kbd>Ctrl</kbd>+<kbd>Skift</kbd>|Vis eller skjul alle undernoder, i tillegg til noder på øverste nivå, når du velger **Vis**- eller **Skjul**-handlingen.|
 
-## <a name="a-namekeypada-numeric-keypad-shortcuts" /><a name="keypad"></a> Numeriske hurtigtaster
+## <a name="numeric-keypad-shortcuts" /><a name="keypad"></a> Numeriske hurtigtaster
 
 Tabellen nedenfor beskriver hurtigtastene på et numerisk tastatur.
 

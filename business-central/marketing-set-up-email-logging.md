@@ -55,7 +55,7 @@ Regler for e-postflyt ser etter bestemte betingelser i meldinger og utfører han
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] behandler bare meldinger i Innboks-mappen i den delte postboksen. Hvis en regel flytter meldinger fra innboksen til en annen mappe, vil ikke disse meldingene bli behandlet. I tillegg blir meldinger i Søppelpost-mappen også ignorert.
 
-## <a name="set-up-includeprodshortincludesprodshortmd-to-log-email-messages" />Konfigurer [!INCLUDE[prod_short](includes/prod_short.md)] for å logge e-postmeldinger
+## <a name="set-up--to-log-email-messages" />Konfigurer [!INCLUDE[prod_short](includes/prod_short.md)] for å logge e-postmeldinger
 
 Kom i gang med e-postpålogging med to enkle trinn:
 
@@ -145,14 +145,14 @@ Hvis du ikke bruker Azure Active Directory til å administrere identiteter og ti
 
 ## <a name="to-change-the-user-account-used-for-email-logging" />Slik endrer du brukerkontoen som brukes til loggføring av e-post
 
-### <a name="includeprodshortincludesprodshortmd-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
+### <a name="-online" />[!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 1. Logg deg på [!INCLUDE[prod_short](includes/prod_short.md)] med kontoen som den planlagte jobben skal bruke til å koble til den delte postboksen og behandle e-poster. Denne kontoen må ha tilgang til både [!INCLUDE[prod_short](includes/prod_short.md)] og Exchange Online.
 2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Loggføring av e-post**, og velg deretter den relaterte koblingen. 
 3. Velg **Relatert**, og velg deretter **Prosjektkøpost**.
 4. Start prosjektet **Loggføring av e-post** på nytt.
 
-### <a name="includeprodshortincludesprodshortmd-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] On-Premises
+### <a name="-on-premises" />[!INCLUDE[prod_short](includes/prod_short.md)] On-Premises
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Loggføring av e-post**, og velg deretter den relaterte koblingen.
 2. Velg **Handlinger**, og deretter **Forny token**.

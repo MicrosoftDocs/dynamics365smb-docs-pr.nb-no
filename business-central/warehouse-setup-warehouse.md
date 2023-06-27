@@ -35,7 +35,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Ha tips om hvordan du omorganiserer lokasjoner, hyller eller soner for å gjøre lageraktivitetene mer effektive.|[Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)|
 |Angi standardrapporter som skal brukes for ulike dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-warehouse-management" />Se relatert [Microsoft-opplæring](/training/paths/set-up-warehouse-management/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/set-up-warehouse-management/)
 
 ## <a name="see-also" />Se også
 

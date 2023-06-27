@@ -11,7 +11,7 @@ ms.author: a-jaaamir
 ms.date: 07/21/2022
 ---
 
-# <a name="privacy-notices-status-in-includeprodlongincludesprodlongmd" />Status for personvernerklæringer i [!INCLUDE[prod_long](includes/prod_long.md)]
+# <a name="privacy-notices-status-in-" />Status for personvernerklæringer i [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Denne artikkelen drøfter hva en personvernerklæring er, og forklarer formålet med siden **Status for personvernerklæringer** i [!INCLUDE[prod_short](includes/prod_short.md)]. Du vil også lære hvordan administratorer kan bruke denne siden.
 

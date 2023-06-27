@@ -36,7 +36,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Lær mer om ulike avskrivningsmetoder for aktiva. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
 | Lær mer om hvordan du bruker brukerdefinerte avskrivningsmetoder. |[Slik definerer du brukerdefinerte avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Se relatert [Microsoft-opplæring](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />Se også
 

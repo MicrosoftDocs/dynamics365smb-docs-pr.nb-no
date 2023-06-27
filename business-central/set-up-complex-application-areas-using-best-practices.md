@@ -26,7 +26,7 @@ Det å angi riktige oppsettverdier for begynnelsen av er viktig for suksessen ti
 [Designdetaljer: Lagermetoder](design-details-costing-methods.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

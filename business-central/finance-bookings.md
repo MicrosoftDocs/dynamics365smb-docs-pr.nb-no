@@ -11,7 +11,7 @@ ms.search.form: '1638, 6702, 6704'
 ms.date: 05/20/2022
 ms.author: edupont
 ---
-# <a name="bulk-invoicing-for-microsoft-bookings-in-includeprodshortincludesprodshortmd" />Massefakturering for Microsoft Bookings i [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="bulk-invoicing-for-microsoft-bookings-in-" />Massefakturering for Microsoft Bookings i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Hvis selskapet ditt bruker Bookings-appen i Microsoft 365, kan du foreta massefakturering for avtaler. Siden **Bestillinger som ikke er fakturert** i [!INCLUDE[prod_short](includes/prod_short.md)] gir en oversikt over selskapets fullførte bestillinger. På denne siden kan du raskt velge avtalene du vil fakturere, og opprette fakturakladder for de leverte tjenestene.  
 

@@ -45,7 +45,7 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
 
  Det opprinnelige egendefinerte rapportoppsettet erstattes med det importerte rapportoppsettet.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

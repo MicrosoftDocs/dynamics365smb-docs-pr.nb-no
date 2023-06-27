@@ -27,7 +27,7 @@ Du kan angi alle relevante data på siden **Selskapsinformasjon** når du oppret
 
 Når du er ferdig med å fylle ut informasjonen, kan du lukke siden.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-new-companies-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/create-new-companies-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/create-new-companies-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

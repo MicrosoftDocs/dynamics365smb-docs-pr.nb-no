@@ -139,7 +139,7 @@ Alle prosjektrelaterte poster registreres i prosjektjournaler og nummereres fort
 
 På siden **Prosjektposter** kan du gå gjennom postene som er knyttet til et prosjekt.  
 
-## <a name="find-related-microsoft-trainingtrainingpathscalculate-post-job-wip" />Finn relatert [Microsoft-opplæring](/training/paths/calculate-post-job-wip/)
+## <a name="find-related-microsoft-training" />Finn relatert [Microsoft-opplæring](/training/paths/calculate-post-job-wip/)
 
 ## <a name="see-also" />Se også
 

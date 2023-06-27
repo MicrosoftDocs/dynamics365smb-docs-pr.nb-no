@@ -50,7 +50,7 @@ Hvis du aktiverer feltet **Krev land-/områdekode i adressen** på siden **Finan
 
 På siden **Hjelp og støtte** kan du se versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] som firmaet er basert på. Hvis du vil basere et selskap på en annen versjon, kan systemansvarlig opprette et nytt produksjonsmiljø. Hvis du vil ha mer informasjon, kan du se [Opprette et nytt produksjonsmiljø](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments#create-a-new-production-environment) i utvikler- og IT Pro-innholdet.  
 
-## <a name="languages-of-the-includeprodshortincludesprodshortmd-help" />Språkene i Hjelpen for [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="languages-of-the--help" />Språkene i Hjelpen for [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Hjelpeinnholdet for standardversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] publiseres på Microsoft Learn. Innholdet er tilgjengelig på forskjellige språk. Hvis du har tilgang til dokumentasjonen fra [!INCLUDE[prod_short](includes/prod_short.md)], vises innholdet på ditt eget språk. Hvis en bestemt side ikke ennå er tilgjengelig på ditt eget språk, vises den som standard på engelsk.
 

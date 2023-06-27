@@ -135,7 +135,7 @@ På siden **Lagerplukk** kan du håndtere alle utgående lageraktiviteter for et
 
     30 Amsterdam-lamper er nå registrert som plukket fra hyllene S-01-0001 og S-01-0002, og det opprettes en negativ varepost som gjenspeiler den bokførte følgeseddelen.  
 
-## <a name="see-related-microsoft-trainingtrainingpathspick-ship-items-business-central" />Se relatert [Microsoft-opplæring](/training/paths/pick-ship-items-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/pick-ship-items-business-central/)
 
 ## <a name="see-also" />Se også
 

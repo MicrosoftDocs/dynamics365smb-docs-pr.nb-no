@@ -47,7 +47,7 @@ Følgende video dekker det grunnleggende ved aktiva:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-transactions" />Se relatert [Microsoft-opplæring](/training/paths/manage-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/manage-fixed-assets-transactions/)
 
 ## <a name="see-also" />Se også
 
@@ -57,7 +57,7 @@ Følgende video dekker det grunnleggende ved aktiva:
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
  
 
 

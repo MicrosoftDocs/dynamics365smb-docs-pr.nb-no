@@ -23,7 +23,7 @@ Du kan endre [!INCLUDE[prod_short](includes/prod_short.md)] ved å installere ap
 
 Hvis du vil bruke funksjonaliteten fra en utvidelse, for eksempel åpne sider, kjøre rapporter, velge handlinger og så videre, må du være tilordnet tillatelsessettene som er installert som en del av utvidelsen.
 
-## <a name="a-nameinstallainstall-an-extension" /><a name="install"></a>Installere en utvidelse
+## <a name="install-an-extension" /><a name="install"></a>Installere en utvidelse
 
 Du administrerer appene og utvidelsene på siden **Administrasjon av utvidelse**. Du kan gå til denne siden fra Hjem. Du kan ogs å velge ikonet **Søk etter side eller rapport** ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi i øvre høyre hjørne **Utvidelse**, og deretter velger du den relaterte koblingen.  
 
@@ -104,7 +104,7 @@ Når du avinstallerer en app du har brukt, beholdes dataene som standard hvis du
 [[!INCLUDE[prod_short](includes/prod_short.md)]-utvidelser fra andre leverandører](ui-extensions-other.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

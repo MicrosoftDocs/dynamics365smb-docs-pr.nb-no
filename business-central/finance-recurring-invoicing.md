@@ -12,7 +12,7 @@ ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: andreipa
 ---
-# <a name="work-with-recurring-revenue-in-includeprodshortincludesprodshortmd" />Arbeide med gjentakelsesomsetning i [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-recurring-revenue-in-" />Arbeide med gjentakelsesomsetning i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Mange selskaper flytter fra en bedriftsomsetningsmodell der omsetningen foretas fra en kundes engangskjøps til en abonnementsmodell der omsetningen er regelmessig i bytte mot konsekvent tilgang til levering av en vare eller tjeneste.
 [!INCLUDE[prod_short](includes/prod_short.md)] har følgende alternativer for å automatiskere hvordan du sender abonnementsfakturaer til kundene og registrere gjentakelsesomsetning. 
@@ -35,7 +35,7 @@ Den gjentakende prosjektkladden er et mer avansert alternativ til finanskladden.
 
 Når du har bokført en gjentakende prosjektkladd, kan du opprette flere fakturaer med **Opprett salgsfaktura for prosjekt**. Du kan gå gjennom og bokføre opprettede fakturaer på **Salgsfakturaer**-siden.
 
-### <a name="why-use-this-option" />Hvorfor bruke dette alternativet
+### <a name="why-use-this-option-1" />Hvorfor bruke dette alternativet
 
 Med dette alternativet følger du standard faktureringsprosedyre med alle fordelene med dette, inkludert standard- og kundeoppsett for kommunikasjonsinnstillinger. Du kan også definere priser for hvert enkelt prosjekt individuelt.
 
@@ -47,7 +47,7 @@ Hvis du vil ha mer informasjon, kan du se [Opprette prosjektkladdelinjer](projec
 
 Hvis du ofte må opprette salgs- og kjøpslinjer med lignende informasjon, kan du definere gjentakende salgslinjer du deretter kan sette inn på gjentakende salgs- og kjøpsdokumenter, for eksempel for gjentakende etterfyllingsordrer. Bruk kjørselen **Opprett gjentakende salgsfakturaer** til å opprette salgsfakturaer i henhold til gjentakende salgslinjer som er tilordnet til kundene, og med bokføringsdatoer innenfor gyldig-fra- og gyldig til-datoer du angir på gjentakende salgslinjer.  
 
-### <a name="why-use-this-option" />Hvorfor bruke dette alternativet
+### <a name="why-use-this-option-2" />Hvorfor bruke dette alternativet
 
 Med dette alternativet kan du tilordne de samme gjentakelseslinjene til flere kunder. Du kan definere gyldighetsperioden for gjentakende salgslinjer for en bestemt kunde. Du kan tilordne flere gjentakelseslinjer til samme kunde, og alle blir tatt med i fakturaen.
 
@@ -62,7 +62,7 @@ En servicekontrakt inneholder servicekontraktavtalene mellom kundene og selskape
 Du kan definere startdatoen for kontrakten, fakturaperioden, om kontrakten er forhåndsbetalt eller ikke, prisoppdateringsspesifikasjoner hvis du har tenkt å endre priser mens kontrakten er aktiv. Du kan bruke både servicevarer eller varer i servicekontraktlinjer.
 Du kan opprette kontraktmaler for å definere hvordan du oppretter bestemte typer kontrakter.  
 
-### <a name="why-use-this-option" />Hvorfor bruke dette alternativet
+### <a name="why-use-this-option-3" />Hvorfor bruke dette alternativet
 
 Med dette alternativet kan du bruke en del av den avanserte servicestyringsfunksjonaliteten som ikke er begrenset til å utstede gjentakende fakturaer, men som har støtte for verksteds- og feltserviceoperasjoner.
 
@@ -78,7 +78,7 @@ Det finnes flere relaterte funksjoner i [!INCLUDE[prod_short](includes/prod_shor
 En rammeordre utgjør rammene for en langsiktig avtale mellom selskapet og kunden.
 En rammeordre opprettes som regel når en kunde har forpliktet seg til å kjøpe store antall som skal leveres i flere mindre leveringer over en bestemt tidsperiode. Rammeordrer dekker ofte bare én vare med forhåndsbestemte leveringsdatoer. Hovedgrunnen til å bruke en rammeordre i stedet for en salgsordre er at antallene som angis på en rammeordre ikke påvirker tilgjengeligheten, men den kan brukes til planleggingsformål.
 
-#### <a name="why-use-this-option" />Hvorfor bruke dette alternativet
+#### <a name="why-use-this-option-4" />Hvorfor bruke dette alternativet
 
 Med dette alternativet bruker du forventet behov, slik at informasjonen vurderes i de vanlige planleggingsrutinene. Hvis du vil ha mer informasjon, kan du se [Behovsprognoser og rammeordrer](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders).  
 
@@ -91,7 +91,7 @@ Hvis du vil ha mer informasjon, kan du se [Arbeide med rammeordrer](sales-how-to
 Du kan bruke gjentakelsesordrer til å opprette rammeordremaler slik at salgsordrer kan opprettes basert på datointervallene du definerer. Hvis du for eksempel leverer den samme salgsordren annenhver uke, kan du bruke en rammeordre til å opprette gjentakelsesordrer.
 Du kan bruke gjentakelsesordrer til å definere en rekke parametere som viser hvordan du oppretter ordrene. Disse gruppene knyttes til rammeordrer som skal opprettes jevnlig. For å opprette gjentakelsesordrer, må du kjøre prosessen med å opprette gjentakelsesordrer med jevne mellomrom. 
 
-#### <a name="why-use-this-option" />Hvorfor bruke dette alternativet
+#### <a name="why-use-this-option-5" />Hvorfor bruke dette alternativet
 
 Med dette alternativet kan du velge mellom faste og beste priser.
 

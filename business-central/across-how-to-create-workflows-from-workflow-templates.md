@@ -29,7 +29,7 @@ På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involv
    **Arbeidsflyt**-siden åpnes for en ny arbeidsflyt som inneholder all informasjon for den valgte malen. Verdien i **Kode**-feltet utvides med for eksempel "-01" for å angi at dette er den første arbeidsflyten opprettet fra arbeidsflytmalen.  
 4. Fortsett med å opprette arbeidsflyten ved å redigere de arbeidsflyttrinnene eller legge til nye trinn. Finn ut mer under [Opprett arbeidsflyter](across-how-to-create-workflows.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-workflows" />Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
 
 ## <a name="see-also" />Se også
 

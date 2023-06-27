@@ -238,7 +238,7 @@ På en postside kan du se om det finnes globale dimensjoner for postene. De to g
 > [!NOTE]  
 > Siden **Postdimensjoner** viser alle dimensjonene for én post om gangen. Når du blar gjennom postene, vil du se at innholdet endres på siden **Postdimensjoner** fortløpende.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesdimensions-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/dimensions-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/dimensions-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

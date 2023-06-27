@@ -37,7 +37,7 @@ Et rapportdatasett kan bestå av felt som viser etiketter, data og bilder. Dette
 > [!NOTE]  
 >  Du kan ikke endre innebygde rapportoppsett<!--Onprem. Built-in layouts can only be modified by using the development environment-->.  
 
-### <a name="a-nameopenxmlparta-to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a> Åpne den egendefinerte XML-delen for rapporten i Word
+### <a name="to-open-the-custom-xml-part-for-the-report-in-word" /><a name="OpenXMLPart"></a> Åpne den egendefinerte XML-delen for rapporten i Word
   
 1. Åpne Word-rapportoppsettdokumentet i Word hvis det ikke allerede er åpent.  
   
@@ -103,7 +103,7 @@ Bilder justeres etter øvre venstre hjørne i innholdskontrollen og får større
   
 3. Hvis du vil øke eller redusere bildestørrelsen, kan du dra et skaleringshåndtak bort fra eller mot midten av innholdskontrollen.  
 
-## <a name="a-nameremovefielda-removing-label-and-data-fields" /><a name="RemoveField"></a> Fjern etikett- og datafelter
+## <a name="removing-label-and-data-fields" /><a name="RemoveField"></a> Fjern etikett- og datafelter
 
 Etikett- og datafelt i en rapport er i innholdskontroller i Word. Den følgende illustrasjonen viser en innholdskontroll når den er valgt i Word-dokumentet.  
 

@@ -115,7 +115,7 @@ Du kan kopiere poster fra ett avskrivningstablå til et annet med kjørselen **K
 
 De kopierte linjene opprettes enten i aktivafinanskladden eller i aktivakladden, avhengig av om avskrivningstablået du kopierer, er integrert med Finans.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescalculate-post-depreciations" />Se relatert [Microsoft-opplæring](/training/modules/calculate-post-depreciations/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/calculate-post-depreciations/)
 
 ## <a name="see-also" />Se også
 

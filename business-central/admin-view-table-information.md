@@ -17,7 +17,7 @@ Siden **8700 Tabellinformasjon** inneholder informasjon om antall poster i alle 
 
 Denne informasjonen er nyttig for å feilsøke ytelsesproblemer, siden dette gir deg muligheten til å se fordelingen av datastørrelsen på tvers av tabeller.
 
-## <a name="viewing-table-information" />Vise tabellinformasjon
+## <a name="viewing-table-information-1" />Vise tabellinformasjon
 
 Du kan åpne denne siden ved å velge ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport") og angi **Tabellinformasjon**, og velg deretter den relaterte koblingen.
 

@@ -32,7 +32,7 @@ Når du har definert beholdningen, kan du administrere forskjellige prosesser re
 |Importer flere varebilder samtidig fra en zip-fil, der filene har fått navn i samsvar med varenumre.|[Importere flere varebilder](inventory-how-import-item-pictures.md)|
 |Angi standardrapporter som skal brukes for ulike dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

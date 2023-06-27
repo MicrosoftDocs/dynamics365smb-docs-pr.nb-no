@@ -202,7 +202,7 @@ Bokfør justeringshyllepostene i varepostene for periodene du har definert. Enke
 5. Velg **OK**. De positive og negative justeringene summeres for hver vare, og linjer opprettes i varekladden.  
 6. Bokfør kladdelinjene for å angi antallsavviket i vareposten. Nå samsvarer beholdningene i hyllene og vareposten.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesadjust-inventory" />Se relatert [Microsoft-opplæring](/training/modules/adjust-inventory/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/adjust-inventory/)
 
 ## <a name="see-also" />Se også
 

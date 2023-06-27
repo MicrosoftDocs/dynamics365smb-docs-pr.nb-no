@@ -31,7 +31,7 @@ Hvis du vil se den komplette listen over samsvarstilbud fra Microsoft, kan du se
 [Programsamsvar](compliance-application-compliance.md)  
 [Sertifiseringer](compliance-certifications.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

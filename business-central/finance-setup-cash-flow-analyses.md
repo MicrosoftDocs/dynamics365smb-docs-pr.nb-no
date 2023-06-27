@@ -121,7 +121,7 @@ Feltene **Dokumentdato** og **Beløp** på siden **Mva-poster (avgift)**, der:
 
 Før du bruker den forutsigbare webtjenesten, komprimerer [!INCLUDE[prod_short](includes/prod_short.md)] transaksjoner etter **Dokumentdato** basert på verdien i feltet **Periodetype** på siden **Kontantstrømoppsett**.
 
-## <a name="a-nameanchortextacreate-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="AnchorText"></a>Opprett og bruk funksjonen for forutsigbar webtjeneste for kontantstrømprognoser
+## <a name="create-and-use-your-own-predictive-web-service-for-cash-flow-forecasts" /><a name="AnchorText"></a>Opprett og bruk funksjonen for forutsigbar webtjeneste for kontantstrømprognoser
 
 Du kan også opprette din egen prediktive webtjeneste basert på en felles modell som heter **Prognosemodell for Microsoft Business Central**. Denne prediktive modellen er tilgjengelig elektronisk i Azure AI-galleriet. Hvis du vil bruke modellen, følger du denne fremgangsmåten:  
 
@@ -134,7 +134,7 @@ Du kan også opprette din egen prediktive webtjeneste basert på en felles model
 7. Utvid hurtigfanen **Azure AI**, og fyll deretter ut feltene, inkludert nettadressen for API og API-nøkkelen som er oppgitt fra Azure Machine Learning Studio. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 8. I rollesenteret for regnskapsfører velger du handlingen **Omberegn prognose** under diagrammet **Kontantstrømprognose**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesforecast-cash-flow-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

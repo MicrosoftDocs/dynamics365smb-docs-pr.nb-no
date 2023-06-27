@@ -24,7 +24,7 @@ I denne delen kan du lese mer om vår tilnærming til samsvar fra et program-, s
 |Se informasjon om forskjellige sertifiseringer som gjelder Business Central. Her finner du opplysninger om generelle sertifiseringer og landsbestemte sertifiseringer.|[Sertifiseringer](compliance-certifications.md)|  
 |Lære om vilkårene i servicenivåavtalen og andre betingelser for service|[Tjenestevilkår](compliance-service-compliance.md#service-terms)|  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

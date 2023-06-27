@@ -47,7 +47,7 @@ Det er noen trinn for å komme i gang.
 
 I tillegg må du tilordne leverandørene til et innenlands **Bokføringsgruppe - firma** og en **Bokføringsgruppe - leverandør**. Innstillingen land/region for leverandøren må være Danmark (dansk). Hvis du vil ha mer informasjon, kan du se [Definere bokføringsgrupper](finance-posting-groups.md).  
 
-### <a name="to-allow-includeprodshortincludesprodshortmd-to-export-payment-data" />Tillat [!INCLUDE[prod_short](includes/prod_short.md)]å eksportere betalingsdata.
+### <a name="to-allow--to-export-payment-data" />Tillat [!INCLUDE[prod_short](includes/prod_short.md)]å eksportere betalingsdata.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladd** og velg den relaterte koblingen.  
 2. Velg **Bank**-bunken på siden **Rediger betalingskladd**.  

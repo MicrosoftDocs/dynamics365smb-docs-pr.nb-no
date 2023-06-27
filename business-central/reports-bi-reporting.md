@@ -26,7 +26,7 @@ Tabellen nedenfor dekker viktige forretningsanalyse- og rapporteringsfunksjoner 
 | Integrer eksterne forretningsanalyseverktøy med [!INCLUDE[prod_short](includes/prod_short.md)].| [Eksterne forretningsanalyseverktøy](reports-external-analysis.md) |
 |Endre rapportoppsett eller til og med utvikle dine egne rapporter fra grunnen av. |[Utvikling av rapporter](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathssetup-reporting-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/setup-reporting-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/setup-reporting-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se også
 

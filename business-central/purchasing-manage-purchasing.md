@@ -43,7 +43,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-microsoft-trainingtrainingpathspurchase-items-services-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/purchase-items-services-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/purchase-items-services-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 
@@ -54,7 +54,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

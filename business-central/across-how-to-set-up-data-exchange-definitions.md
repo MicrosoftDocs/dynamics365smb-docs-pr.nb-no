@@ -33,7 +33,7 @@ Oppretting av en datautvekslingsdefinisjon omfatter to oppgaver:
 1. På siden **Datautvekslingsdefinisjon** beskriver du formateringen for linjer og kolonner i filen. Lær mer i delen [Slik beskriver du formateringen av linjer og kolonner i filen](#formatlinescolumns).  
 2. På siden **Tilordning for datautveksling** tilordner du kolonner i datafilen til felt i [!INCLUDE[prod_short](includes/prod_short.md)]. Lær mer i delen [Slik tilordner du kolonner i datafilen til felt i [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields).  
 
-### <a name="a-nameformatlinescolumnsato-describe-the-formatting-of-lines-and-columns-in-the-file" /><a name=formatlinescolumns></a>Slik beskriver du formateringen av linjer og kolonner i filen
+### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file" /><a name=formatlinescolumns></a>Slik beskriver du formateringen av linjer og kolonner i filen
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Datautvekslingsdefinisjoner**, og velg deretter den tilknyttede koblingen.  
 2. Velg handlingen **Ny**.  
@@ -108,7 +108,7 @@ Det neste trinnet i å opprette en datautvekslingsdefinisjon er å bestemme hvil
 > [!NOTE]  
 > Den bestemte tilordningen avhenger av forretningsformålet med datafilen som skal utveksles, og av lokale variasjoner. Selv SEPA-bankstandarden har lokale variasjoner. [!INCLUDE[prod_short](includes/prod_short.md)] støtter import av SEPA CAMT-bankkontoutdragsfiler \-\-\-. Dette er angitt med **SEPA CAMT**-postkoden for datautvekslingsdefinisjon på siden **Datautvekslingsdefinisjoner**. For informasjon om spesifikk felttilordning av SEPA CAMT-støtten kan du se [Felttilordning ved import av SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name="a-namemapfieldsato-map-columns-in-the-data-file-to-fields-in-includeprodshortincludesprodshortmd" /><a name=mapfields></a>Slik tilordner du kolonner i datafilen til felt i [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name="to-map-columns-in-the-data-file-to-fields-in-" /><a name=mapfields></a>Slik tilordner du kolonner i datafilen til felt i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > Noen ganger er verdiene i feltene du vil tilordne, forskjellige. For eksempel, i én virksomhetapp er språkkoden for USA "U.S.", men i en annen er det "US". Det betyr at du må transformere verdien når du utveksler data. Dette skjer gjennom transformeringsregler som du definerer for feltene. Lær mer om [Transformasjonsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).

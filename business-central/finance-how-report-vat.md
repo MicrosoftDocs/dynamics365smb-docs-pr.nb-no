@@ -35,7 +35,7 @@ Hvis du vil vise en fullstendig historikk over mva-poster, for hver bokføring s
 > [!NOTE]
 > Hvert [!INCLUDE[prod_short](includes/prod_short.md)]-miljø er ment å håndtere samsvarsrapporter i ett enkelt land. Den nederlandske versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] håndterer for eksesmpel mva-rapportering i Nederland, men ikke i andre land. På samme måte håndterer USA-versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] 1099-rapportering i USA og støtter ikke mva-rapportering i andre land, med mindre via en utvidelse som leveres av partnerøkosystemet eller en kundespesifikk kodeendring.
 
-## <a name="a-nameecsaleslistaabout-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Om rapporten EU-salg – oversikt
+## <a name="about-the-ec-sales-list-report" /><a name="ecsaleslist"></a>Om rapporten EU-salg – oversikt
 
 I EU og Storbritannia må alle selskapene som selger varer og tjenester til mva-registrerte kunder, inkludert kunder i andre EU-land, sende en elektronisk versjon av rapporten til kundene og skattemyndighetene. **Rapporten EU-salg – oversikt** fungerer bare for land i EU.
 
@@ -53,7 +53,7 @@ Når skattemyndigheten har sett gjennom rapporten, sender de en e-postmelding ti
 
 [!INCLUDE [finance-ecsaleslist](includes/finance-ecsaleslist.md)]
 
-## <a name="a-namevatreturnaabout-the-vat-return-report" /><a name="vatreturn"></a>Om rapporten Omsetningsoppgave
+## <a name="about-the-vat-return-report" /><a name="vatreturn"></a>Om rapporten Omsetningsoppgave
 
 Bruk denne rapporten til å sende inn mva for salg og kjøpsdokumenter, for eksempel innkjøp og ordrer, fakturaer og kreditnotaer. Informasjonen i rapporten vises i samme format som i deklarasjonen fra toll- og avgiftsmyndighetene.  
 
@@ -73,7 +73,7 @@ For å kunne rapportere mva til skattemyndighetene elektronisk, må du koble [!I
     > [!NOTE]  
     > Det er lurt å teste tilkoblingen. Du gjør dette ved å merke av for **Testmodus** og deretter forberede og sende mva-rapporten som beskrevet i delen [Forberede og sende inn en omsetningsoppgave](#to-prepare-and-submit-a-vat-report). I testmodus tester tjenesten om skattemyndighetene kan motta rapporten, og statusen for rapporten angir om testinnsendingen var vellykket. Det er viktig å huske at dette ikke er en faktisk innsending. Hvis du vil faktisk sende inn rapporten, må du fjerne merket for **Testmodus** og deretter gjenta innsendingsprosessen.
 
-## <a name="to-set-up-vat-reports-in-includeprodshortincludesprodshortmd" />Slik setter du opp omsetningsoppgaver i [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-set-up-vat-reports-in-" />Slik setter du opp omsetningsoppgaver i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
@@ -148,7 +148,7 @@ Tabellen nedenfor beskriver kodeenhetene du må lage for rapporten.
 > [!Note]
 > Når du lager kodeenheter for rapporten, må du være oppmerksom på verdien i feltet **Versjon av mva-rapport**. Dette feltet må gjenspeile versjonen av rapporten som skattemyndigheten krever eller krevde. Du kan for eksempel angi **2021** i feltet for å angi at rapporten følger kravene som var gjeldende for dette året. For å finne nåværende versjon kontakter du skattemyndigheten.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

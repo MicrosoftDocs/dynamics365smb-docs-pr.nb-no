@@ -31,7 +31,7 @@ Hvis du vil ha mer informasjon, les om utvidelsen som passer til din QuickBooks-
 
 Hvis du er klar til å komme i gang nå, velger du ![Lyspæren som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Assistert oppsett** og velger den relaterte koblingen. Velg **Overfør forretningsdata**, og følg trinnene i veiledningen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmigrate-data-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/migrate-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

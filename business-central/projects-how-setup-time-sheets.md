@@ -88,7 +88,7 @@ Følgende deler beskriver hvordan du definerer timelister hvis du ikke bruker de
 > [!NOTE]  
 > Du kan ikke endre IDen for godkjenneren av timelisten hvis det finnes timelister som ennå ikke er behandlet og som har statusen **Sendt** eller **Åpen**.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Se relatert [Microsoft-opplæring](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Se også
 

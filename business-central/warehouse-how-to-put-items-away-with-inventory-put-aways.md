@@ -83,7 +83,7 @@ En lageransatt kan opprette en ny lagerplassering basert på det frigitte kilded
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Se relatert [Microsoft-opplæring](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also" />Se også
 

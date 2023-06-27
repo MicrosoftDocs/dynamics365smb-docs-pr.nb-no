@@ -115,7 +115,7 @@ Når du bokfører lagerleveringen, oppdateres forskjellige felt på ordrelinjen 
 >
 > Monter-til-ordre-antallet håndteres som beskrevet i denne artikkelen. Lagerantallet håndteres som en vanlig lagerleveringslinje. Hvis du vil ha mer informasjon om kombinasjonsscenarioer, går du til [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/ship-invoice-items-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/ship-invoice-items-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se også
 

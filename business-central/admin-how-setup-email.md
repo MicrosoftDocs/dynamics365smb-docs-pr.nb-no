@@ -230,7 +230,7 @@ Finn ut mer om generelle retningslinjer for å registrere en app under [Hurtigst
 > [!NOTE]
 Hvis du har problemer med å bruke SMTP-protokollen til å sende e-post etter at du har koblet [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen, kan det skyldes at SMTP-godkjenning ikke er aktivert for leieren din. Det anbefales at du bruker e-postkoblingene til Microsoft 365 og Gjeldende bruker i stedet, ettersom de bruker API-er for Microsoft Graph Mail. Hvis du imidlertid må bruke SMTP-protokollen, kan du aktivere SMTP-godkjenning. Hvis du vil ha mer informasjon, kan du se [Aktivere eller deaktivere SMTP-sending av godkjent klient (SMTP-godkjenning) i Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
-### <a name="connect-includeprodshortincludesprodshortmd-to-your-app-registration" />Koble [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen
+### <a name="connect--to-your-app-registration" />Koble [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen
 
 Når du har registrert appen i Azure Portal, bruker du siden **AAD-registrering for e-postapp** i [!INCLUDE[prod_short](includes/prod_short.md)] til å koble [!INCLUDE[prod_short](includes/prod_short.md)] til den.
 
@@ -263,7 +263,7 @@ Når du har registrert appen i Azure Portal, bruker du siden **AAD-registrering 
 
 -->
 
-## <a name="see-related-microsoft-trainingtrainingmodulesset-up-email" />Se relatert [Microsoft-opplæring](/training/modules/set-up-email/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/set-up-email/)
 
 ## <a name="see-also" />Se også
 

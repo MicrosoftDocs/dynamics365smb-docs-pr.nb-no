@@ -102,6 +102,6 @@ Microsoft bygger lokaliserte versjoner av Business Central for et begrenset anta
 [Servicesamsvar](compliance-service-compliance.md)  
 [Sertifiseringer](compliance-certifications.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

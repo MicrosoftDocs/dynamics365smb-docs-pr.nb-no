@@ -33,7 +33,7 @@ Finansrelatert salgsoppsett, for eksempel betalingsmåte og valutaer, beskrives 
 |Angi informasjon om de ulike transportørene du benytter, inkludert en kobling til pakkesporingstjenesten.|[Sett opp transportører](sales-how-to-set-up-shipping-agents.md)|
 |Angi standardrapporter som skal brukes for ulike dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## <a name="see-related-microsoft-trainingtrainingpathstrade-get-started-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/trade-get-started-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/trade-get-started-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 [Salg](sales-manage-sales.md)  

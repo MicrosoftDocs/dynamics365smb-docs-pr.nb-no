@@ -34,7 +34,7 @@ Hvis du vil opprette flere lagerføringsenheter for en vare, bruker du kjørsele
 > Hvis LFE angis via produksjon, brukes ikke **Kostpris (standard)**-feltet når faktisk kost for den produserte varen faktureres og justeres. I stedet brukes **Kostpris (standard)**-feltet på det underliggende varekortet, og eventuelle avvik beregnes mot kostandelene for denne varen.<br /><br />
 > Siden produksjonsstykklister og ruting ikke kan tilordnes til LFEer, er heller ikke opprulling av enhetskost og den relaterte beregningen av kostandeler tilgjengelig på LFEer. Hvis du vil ha mer informasjon, kan du se [Om beregning av standardkost](finance-about-calculating-standard-cost.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescontrol-inventory-multiple-locations" />Se relatert [Microsoft-opplæring](/training/modules/control-inventory-multiple-locations/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/control-inventory-multiple-locations/)
 
 ## <a name="see-also" />Se også
 

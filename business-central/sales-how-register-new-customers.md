@@ -82,7 +82,7 @@ Du kan velge å ikke motta advarsler om at kundens kredittgrense er overskredet,
     |**Forfalt beløp**|Feltet **Forfalt beløp** er merket av på kundekortet, og det vises en advarsel hvis kunden har en forfalt saldo.|
     |**Ingen advarsel**|Det vises ingen kredittadvarsler om kundens status.|
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se også
 

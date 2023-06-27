@@ -116,7 +116,7 @@ Når du arbeider med **Intrastat-rapporten**, vil du se **Status**-felt i dokume
 * *Utgitt*: [!INCLUDE[prod_short](includes/prod_short.md)] endrer automatisk statusen til *Frigitt* når du oppretter en fil. Fra dette tidspunktet kan du ikke endre **Intrastat-rapporten**. Hvis du må endre noe og en rapport på nytt, kan du bruke handlingen **Åpne på nytt** til å åpne Intrastat-rapporten på nytt. Når dokumentet er åpnet på nytt, kan du bruke **Frigi**-handlingen til å frigi dokumentet.
 * **Rapportert**: Angir om posten allerede er rapportert til skattemyndighetene. Dette er ikke en vanlig status, men et selvstendig felt, og selv om du åpnet Intrastat-rapporten på nytt, ville den fortsatt vise at filen allerede er opprettet for denne rapporten.
 
-## <a name="see-related-training-at-microsoft-learnlearnmodulesprocess-intrastat-dynamics-365-business-centralindex" />Se relatert opplæring på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
+## <a name="see-related-training-at-microsoft-learn" />Se relatert opplæring på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## <a name="see-also" />Se også
 

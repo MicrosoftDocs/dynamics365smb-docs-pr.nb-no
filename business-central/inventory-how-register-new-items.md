@@ -115,7 +115,7 @@ Når selskapet bruker forsyningsplanleggingsprosessene i [!INCLUDE [prod_short](
 
 Hvis du vil ha eksempler på hvordan du kan bruke feltene på hurtigfanen **Planlegging**, kan du se [Anbefalte fremgangsmåter for oppsett: Planleggingsparametere](setup-best-practices-planning-parameters.md).  
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-items" />Se relatert [Microsoft-opplæring](/training/modules/create-items/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/create-items/)
 
 ## <a name="see-also" />Se også
 

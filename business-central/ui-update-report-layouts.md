@@ -38,7 +38,7 @@ Hvis det ikke oppstår noen feil, brukes oppdateringene på rapportoppsettene. H
 
  Endringer i rapportoppsettene testes, men brukes ikke i de faktiske rapportoppsettene. Siden **Oppdateringslogg for rapportoppsett** åpnes og viser statusen for mulige oppdateringer for hvert rapportoppsett. Hvis det er feil i et rapportoppsett, kan du åpne rapportoppsettet direkte for redigering fra meldingen for å løse eventuelle problemer. Hvis du vil ha mer informasjon, kan du se [Rette feil](ui-update-report-layouts.md#FixErrors).  
 
-## <a name="a-nameupdatelimitationsa-limitations-of-the-custom-report-layout-update" /><a name="UpdateLimitations"></a> Begrensninger i oppdateringen for egendefinert rapportoppsett
+## <a name="limitations-of-the-custom-report-layout-update" /><a name="UpdateLimitations"></a> Begrensninger i oppdateringen for egendefinert rapportoppsett
  Det finnes flere typer endringer som den automatiske oppdateringen kan bruke på egendefinert rapportoppsett, for eksempel et felt som brukes i oppsettet, er fjernet fra rapportdatasettet. Den automatiske oppdateringen kan imidlertid ikke håndtere følgende endringer i et rapportdatasett.  
 
 1.  Slettede felt, etiketter eller dataelementer.  
@@ -49,7 +49,7 @@ Hvis det ikke oppstår noen feil, brukes oppdateringene på rapportoppsettene. H
 
  Hvis oppdateringsprosessen oppdager ett av disse problemene, kan ikke oppdateringen brukes. Du må rette opp problemene manuelt, for eksempel ved å redigere rapportoppsettet i Word, eller programmatisk ved hjelp av oppgraderingskodeenheter.  
 
-## <a name="a-namefixerrorsa-fixing-errors" /><a name="FixErrors"></a> Rette feil
+## <a name="fixing-errors" /><a name="FixErrors"></a> Rette feil
  Hvis du får en feilmelding når du oppdaterer eller tester oppdateringer av rapportoppsett, må du mest sannsynlig endre rapportoppsettet for å løse problemet. Les feilmeldingen for å gjøre det enklere å finne årsaken til problemet.  
 
  De vanligste problemet oppstår når et felt som brukes på oppsettet, fjernes fra rapportdatasettet. I dette tilfellet vises en linje om at et element er fjernet, i feilmeldingen. Hvis du vil løse dette problemet, må du endre oppsettet og fjerne det aktuelle feltet.  
@@ -58,7 +58,7 @@ Hvis det ikke oppstår noen feil, brukes oppdateringene på rapportoppsettene. H
 
 Når du har endret oppsettet, kan du prøve å oppdatere det på nytt.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschange-documents-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
  [Håndtere rapportoppsett](ui-manage-report-layouts.md)  

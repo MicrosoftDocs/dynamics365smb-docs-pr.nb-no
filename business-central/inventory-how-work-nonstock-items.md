@@ -58,7 +58,7 @@ Følgende fremgangsmåte bruker en ordre, men trinnene er de samme for rammeordr
 > [!NOTE]  
 > En varereferanse er automatisk vare mellom leverandørens varenummer og det nye varenummeret ditt. Hvis du vil lære mer om varereferanser, går du til [Bruk varereferanser](inventory-how-use-item-cross-refs.md).
 
-## <a name="see-related-microsoft-trainingtrainingmodulescreate-sales-documents-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

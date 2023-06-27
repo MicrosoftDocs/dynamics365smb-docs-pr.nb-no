@@ -54,7 +54,7 @@ Du kan bruke rapporten **Aktiva - forventet verdi** til å beregne fremtidig avs
 4. La hurtigfanen **Aktiva** stå tom hvis du vil ha med alle aktivaene. I feltet **Budsjettert aktiva** angir du **Nei** hvis du ikke vil ha med budsjetterte aktiva, eller **Ja** hvis du bare vil se på de budsjetterte aktivaene.
 5. Velg knappen **Skriv ut** eller **Forhåndsvisning**.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesbudget-fixed-assets" />Se relatert [Microsoft-opplæring](/training/modules/budget-fixed-assets/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/budget-fixed-assets/)
 
 ## <a name="see-also" />Se også
 

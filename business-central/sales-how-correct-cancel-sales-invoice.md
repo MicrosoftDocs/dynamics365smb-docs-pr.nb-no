@@ -61,7 +61,7 @@ Hvis annulleringen er knyttet til en delvis fakturabokføring, oppdateres den op
     En salgskreditnota opprettes og bokføres automatisk for å annullere den første bokførte salgsfakturaen.
 5. Velg handlingen **Vis korrigerende kreditnota** for å vise den bokførte salgskreditnotaen som annullerer den første bokførte salgsfakturaen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesship-invoice-items-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/ship-invoice-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/ship-invoice-items-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

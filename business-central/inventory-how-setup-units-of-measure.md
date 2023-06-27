@@ -74,7 +74,7 @@ Hvis du vanligvis kjøper eller selger i andre enheter enn lagerenhetene, kan du
 4. For kjøp åpner du siden **Vareenheter** under **Kjøpsenhet** på hurtigfanen **Etterfylling**.
 5. Velg koden du vil definere som standardenhet for salg eller kjøp, og velg deretter **OK**-knappen.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

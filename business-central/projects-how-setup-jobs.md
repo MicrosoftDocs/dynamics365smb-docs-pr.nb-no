@@ -99,7 +99,7 @@ Ett aspekt ved prosjektplanlegging er å bestemme hvilke bokføringskontoer som 
 | **Konto for ført kost** |Utgiftskontoen som inneholder de førte kostbeløpene for prosjektet. Dette er som regel en debitutgiftskonto. |
 | **Konto for ført salg** |Inntektskontoen som inneholder ført inntekt for prosjektet. Dette er som regel en kreditinntektskonto. |
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-jobs-resources" />Se relatert [Microsoft-opplæring](/training/paths/set-up-jobs-resources/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/set-up-jobs-resources/)
 
 ## <a name="see-also" />Se også
 

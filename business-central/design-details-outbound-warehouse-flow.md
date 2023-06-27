@@ -83,7 +83,7 @@ Diagrammet nedenfor illustrerer utgående lagerprosesser for ulike typer dokumen
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Viser trinnene i en avansert utgående lagerflyt.":::
 
-### <a name="1-release-a-source-document" />1: Frigi et kildedokument
+### <a name="1-release-a-source-document-1" />1: Frigi et kildedokument
 
 Å frigi et kildedokument i avanserte oppsett gjør det likt for enkle oppsett. Varene blir tilgjengelige for behandling i lageret. De kan for eksempel inkluderes i en levering.  
 

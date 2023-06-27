@@ -60,7 +60,7 @@ I denne fremgangsmåten behandler du salget av en vare som skal monteres i henho
 > [!NOTE]  
 > Vareerstatninger erstatter ikke automatisk en vare med en annen vare, for eksempel når du oppretter en ordre eller i en stykkliste. I stedet blir du varslet om at en erstatning er tilgjengelig.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesassemble-to-order-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

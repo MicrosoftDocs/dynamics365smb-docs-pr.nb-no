@@ -231,7 +231,7 @@ Når det plukkes etter FEFO, samles varer som utløper først, i en midlertidig 
 
 Plasseringsmalen angir et sett med prioriterte regler som gjelder når du oppretter plasseringer. En plasseringsmal kan for eksempel kreve at du plasserer varer på en hylle med hylleinnhold med samme enhet. Hvis en lignende hylle med tilstrekkelig kapasitet ikke blir funnet, må varen plasseres i en tom hylle. Du tildeler en plasseringsmal til en vare og en lokasjon.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesget-started-warehouse-management" />Se relatert [Microsoft-opplæring](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/get-started-warehouse-management/)
 
 ## <a name="see-also" />Se også
 
@@ -239,6 +239,6 @@ Plasseringsmalen angir et sett med prioriterte regler som gjelder når du oppret
 [Definer lagerstyring](warehouse-setup-warehouse.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

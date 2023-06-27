@@ -29,7 +29,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Opprette en ordre, justere forskuddsbeløpene og utstede en faktura for forskuddsbeløp.|[Opprette forskuddsfakturaer](finance-how-to-create-prepayment-invoices.md)|  
 |Utstede en ny forskuddsfaktura for tilleggsvarer eller for et nytt innskudd mot den opprinnelige ordren, eller utstede en kreditnota for forskudd.|[Korrigere forskudd](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprepayment-invoices-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 

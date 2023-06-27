@@ -102,7 +102,7 @@ Hvis du har gjort det, må du gjøre et unntak for periodiseringer for at de ska
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansoppsett** eller **Brukeroppsett**, og velg deretter den relaterte koblingen.
 2. I feltene **Tillat periodiseringsbokføring fra** og **Tillat periodiseringsbokføring til** angir du en start- og sluttdato for perioden.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesprocessing-invoices-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/processing-invoices-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/processing-invoices-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

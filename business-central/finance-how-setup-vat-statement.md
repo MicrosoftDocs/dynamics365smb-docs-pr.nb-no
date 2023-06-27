@@ -39,7 +39,7 @@ Når du har definert en mva-oppgave, kan du forhåndsvise den for å sikre at de
 4. På linjene hvor **Type**-feltet inneholder **Mva-postsammentelling**, kan du se en oversikt over mva-poster ved å velge beløpet i **Kolonnebeløp**-feltet.
 5. Du kan bruke tilpasning til å vise flere felt på linjene. Det kan for eksempel være urealisert grunnlagsbeløp og urealisert mva-beløp hvis du bruker urealisert mva.
 
-## <a name="see-related-microsoft-trainingtrainingpathsprocess-vat-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/process-vat-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

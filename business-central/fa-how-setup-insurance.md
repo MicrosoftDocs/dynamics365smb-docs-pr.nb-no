@@ -55,7 +55,7 @@ Du kan definere kladder i en forsikringskladdemal. Verdiene i kladden brukes som
 > [!NOTE]  
 >   Tall har en bestemt funksjon i kladdenavn. Hvis en kladdemal eller et kladdenavn inneholder et tall, øker tallet automatisk med én hver gang du bokfører en kladd. Hvis for eksempel HH1 er angitt i feltet **Navn**, endres kladdenavnet til HH2 etter at kladden HH1 er bokført.
 
-## <a name="see-related-microsoft-trainingtrainingpathsset-up-fixed-assets-management" />Se relatert [Microsoft-opplæring](/training/paths/set-up-fixed-assets-management/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/set-up-fixed-assets-management/)
 
 ## <a name="see-also" />Se også
 

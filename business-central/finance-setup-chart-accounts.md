@@ -49,7 +49,7 @@ Et nytt felt, **Sperr sletting av finanskontoer**, er lagt til på **Finansoppse
 
 Når du setter feltet **Sperr sletting av finanskontoer** til *Ja*, kan det anses som en beste fremgangsmåte, som er å definere datoen i feltet **Kontroller finanskonto sletting etter**, for eksempel til datoen du må lagre finansdataene fra.  
 
-## <a name="see-related-microsoft-trainingtrainingmoduleschart-accounts-dynamics-365-business-centralindex" />Se relatert [Microsoft-opplæring](/training/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
 ## <a name="see-also" />Se også
 
@@ -65,6 +65,6 @@ Når du setter feltet **Sperr sletting av finanskontoer** til *Ja*, kan det anse
 [Definer og lukk resultatregnskapssaldi i den spanske versjonen](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)  
 [Rykk inn og valider kontoplanen i den spanske versjonen](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)  
 
-## <a name="includeprodshortincludesfreetrialmdmd" />[!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -70,7 +70,7 @@ Du kan når som helst redigere informasjonen på leverandørkort. Hvis du imidle
 5. Når du har fullført den nye leverandørmalen, kan du velge **OK**.  
    Leverandørmalen legges til i listen over leverandørmaler, slik at du kan bruke den til å opprette nye leverandørkort.
 
-## <a name="see-related-microsoft-trainingtrainingmodulestrade-master-data-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/).
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/).
 
 ## <a name="see-also" />Se også
 

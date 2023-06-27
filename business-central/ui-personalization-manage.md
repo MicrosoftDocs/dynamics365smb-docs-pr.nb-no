@@ -62,7 +62,7 @@ Du kan slette individuelle sidetilpasninger som du har gjort for en profil. Tilp
 
 Oppsettet på de valgte sidene justeres til endringene du har gjort.
 
-## <a name="see-related-microsoft-trainingtrainingpathstailor-roles-design-ui" />Se relatert [Microsoft-opplæring](/training/paths/tailor-roles-design-ui/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/tailor-roles-design-ui/)
 
 ## <a name="see-also" />Se også
 

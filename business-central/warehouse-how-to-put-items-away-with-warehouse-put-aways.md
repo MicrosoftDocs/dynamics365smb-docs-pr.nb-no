@@ -112,7 +112,7 @@ Hvis en lokasjon bruker både plasserings- og mottaksbehandling og du har slette
 
 5. Når du har plassert alle varene i hyller i henhold til instruksjonen, velger du handlingen **Registrer plassering**.  
 
-## <a name="see-related-microsoft-trainingtrainingmodulesreceive-put-away-items" />Se relatert [Microsoft-opplæring](/training/modules/receive-put-away-items/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/receive-put-away-items/)
 
 ## <a name="see-also" />Se også
 

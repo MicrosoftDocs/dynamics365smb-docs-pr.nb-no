@@ -137,7 +137,7 @@ Dette emnet viser et eksempel på hvordan du kan definere fordelinger ved hjelp 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] bruker forrige års salgstall til å beregne en andel av 1596,50 LV med 100 prosent for IT-UTSTYR-pakker. Dette betyr at alle varene som er solgt det siste året vil bli fordelt til kostobjektet IT-UTSTYR.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesallocate-costs-dynamics-365-business-central" />Se relatert [Microsoft-opplæring](/training/modules/allocate-costs-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/allocate-costs-dynamics-365-business-central/)
 
 ## <a name="see-also" />Se også
 

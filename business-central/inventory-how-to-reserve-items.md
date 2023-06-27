@@ -101,7 +101,7 @@ Følgende fremgangsmåte er basert på en ordre.
 7. Velg **OK**-knappen for å åpne siden **Reservasjon**, som bare viser det angitte varesporingsnummeret. Hvis det finnes ikke-spesifikke reservasjoner for noen av varesporingsnumrene du har angitt for denne linjen, får du beskjed om antallet som allerede er reservert.  
 8. Velg **Auto-reserver** eller **Reserver fra gjeldende linje** for å opprette reservasjonen for de spesifikke varesporingsnumrene.
 
-## <a name="see-related-microsoft-trainingtrainingmodulesmanage-outbound-serial-lot-numbers" />Se relatert [Microsoft-opplæring](/training/modules/manage-outbound-serial-lot-numbers/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/manage-outbound-serial-lot-numbers/)
 
 ## <a name="see-also" />Se også
 

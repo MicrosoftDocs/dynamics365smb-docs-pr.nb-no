@@ -117,7 +117,7 @@ Du kan definere variasjoner i arbeidsflyter ved å fylle ut felter på arbeidsfl
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-approval-workflows" />Se relatert [Microsoft-opplæring](/training/modules/use-approval-workflows/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/use-approval-workflows/)
 
 ## <a name="see-also" />Se også
 

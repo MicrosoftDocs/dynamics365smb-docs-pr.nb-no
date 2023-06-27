@@ -24,7 +24,7 @@ Følgende fremgangsmåte gir en oversikt over hvordan du integrerer [!INCLUDE[pr
 
 3. Synkronisere data mellom apper. Hvis du vil ha mer informasjon, kan du se [Synkronisere Business Central og Dataverse](admin-synchronizing-business-central-and-sales.md). 
 
-## <a name="getting-started-with-includeprodshortincludescdslongmdmd" />Komme i gang med [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## <a name="getting-started-with-" />Komme i gang med [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Hvis du vil komme i gang med [!INCLUDE[prod_short](includes/cds_long_md.md)], trenger du en Microsoft Power Apps-konto. Hvis du ikke allerede har en Power Apps-konto, kan du få en kostnadsfritt ved å gå til [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc) og klikke koblingen **Komme i gang vederlagsfritt**. Hvis du vil ha mer informasjon om hvordan du kommer i gang med [!INCLUDE[prod_short](includes/cds_long_md.md)], kan du se modulen [Kom i gang med Dataverse](/training/modules/get-started-with-powerapps-common-data-service/) i Microsoft-opplæring.
 
@@ -57,7 +57,7 @@ Hvis du vil ha detaljert informasjon om hver rolle, for eksempel tillatelsene og
 
 Under tilkoblingsoppsettet opprettes integreringstabelltilordninger som er nødvendige for å synkronisere data. Enheter i [!INCLUDE[prod_short](includes/cds_long_md.md)] blir tilordnet til tabeller og tabell felt i Business Central via integreringstabeller. Hvis du vil ha mer informasjon, kan du se [Standard enhetstilordning for synkronisering](admin-synchronizing-business-central-and-sales.md#standard-table-mapping-for-synchronization).
 
-## <a name="see-related-microsoft-trainingtrainingmodulesuse-model-driven-apps-common-data-service" />Se relatert [Microsoft-opplæring](/training/modules/use-model-driven-apps-common-data-service/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/modules/use-model-driven-apps-common-data-service/)
 
 ## <a name="see-also" />Se også
 

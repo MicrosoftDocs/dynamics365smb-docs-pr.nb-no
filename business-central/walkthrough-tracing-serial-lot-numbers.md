@@ -297,7 +297,7 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
  Nå har du fullført gjennomgangen av hvordan du bruker **Søk etter poster**-siden til defekthåndtering sammen med **Varesporing**-siden.  
 
-## <a name="see-related-microsoft-trainingtrainingpathsuse-serial-lot-numbers" />Se relatert [Microsoft-opplæring](/training/paths/use-serial-lot-numbers/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/use-serial-lot-numbers/)
 
 ## <a name="see-also" />Se også
 

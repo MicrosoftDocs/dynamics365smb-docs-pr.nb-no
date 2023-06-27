@@ -84,7 +84,7 @@ I **Vedlikehold - detaljer**-rapporten kan du vise eller skrive ut vedlikeholdsp
 2. Fyll ut feltene etter behov.
 3. Velg knappen **Skriv ut** eller **Forhåndsvisning**.
 
-## <a name="see-related-microsoft-trainingtrainingpathsmanage-fixed-assets-maintenance-insurances" />Se relatert [Microsoft-opplæring](/training/paths/manage-fixed-assets-maintenance-insurances/)
+## <a name="see-related-microsoft-training" />Se relatert [Microsoft-opplæring](/training/paths/manage-fixed-assets-maintenance-insurances/)
 
 ## <a name="see-also" />Se også
 
