@@ -11,7 +11,7 @@ ms.search.form: '6640, 6643, 9307, 9309, 9308, 6652, 145, 147'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="process-purchase-returns-or-cancellations"></a>Behandle bestillingsreturer eller annulleringer
+# <a name="process-purchase-returns-or-cancellations"></a><a name="process-purchase-returns-or-cancellations"></a>Behandle bestillingsreturer eller annulleringer
 
 Hvis du vil returnere varer til leverandøren eller avbryte tjenester du har kjøpt, kan du opprette og bokføre en kjøpskreditnota som angir den ønskede endringen med hensyn til den opprinnelige kjøpsfakturaen. For å inkludere den riktige kjøpsfakturainformasjonen kan du opprette kjøpskreditnotaen direkte fra den bokførte kjøpsfakturaen, eller du kan opprette en ny kjøpskreditnota med kopiert fakturainformasjon.
 
@@ -28,7 +28,7 @@ I tillegg til den opprinnelige bokførte kjøpsfakturaen, kan du bruke kjøpskre
 
 Bokføringen av kreditnotaen tilbakefører også eventuelle varegebyr som var tilordnet det bokførte dokumentet, slik at varens verdiposter er de samme som før varegebyret ble tilordnet.
 
-## <a name="inventory-costing"></a>Beholdning og kostberegning
+## <a name="inventory-costing"></a><a name="inventory-costing"></a>Beholdning og kostberegning
 For å beholde riktig lagerverdi vil du vanligvis plukke returvarer fra lageret med enhetskosten som de er solgt på, ikke på gjeldende enhetskost. Dette kalles opprinnelig kostpris.
 
 Det finnes to funksjoner du kan bruke til å tilordne opprinnelig kosttilbakeføring automatisk.  
@@ -42,7 +42,7 @@ For å tilordne opprinnelig kostpris manuelt, må du velge feltet **Utlignet fra
 
 Hvis du vil ha mer informasjon, kan du se [Kostberegning for beholdning](design-details-inventory-costing.md).
 
-## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Opprette en kjøpskreditnota fra en bokført kjøpsfaktura
+## <a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a><a name="to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice"></a>Opprette en kjøpskreditnota fra en bokført kjøpsfaktura
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokførte kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
 2. På siden **Bokførte kjøpsfakturaer** velger du den bokførte kjøpsfakturaen som du vil tilbakeføre, og deretter velger du handlingen **Opprett korrigerende kreditnota**.
@@ -63,7 +63,7 @@ De bokførte kjøpsfakturaene du utligner kreditnotaen mot, er nå tilbakeført.
 
 Kjøpskreditnotaen fjernes og erstattes med et nytt dokument i listen over bokførte kjøpskreditnotaer.
 
-## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>Opprette en ny kjøpskreditnota ved å kopiere en bokført kjøpsfaktura
+## <a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a><a name="to-create-a-purchase-credit-memo-by-copying-a-posted-purchase-invoice"></a>Opprette en ny kjøpskreditnota ved å kopiere en bokført kjøpsfaktura
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpskreditnotaer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny** for å åpne en ny, tom kjøpskreditnota.
@@ -75,7 +75,7 @@ Kjøpskreditnotaen fjernes og erstattes med et nytt dokument i listen over bokf�
 8. Velg **OK**. De kopierte fakturalinjene settes inn i kjøpskreditnotaen.
 9. Fullføre kjøpskreditnotaen som forklart i [Opprette en kjøpskreditnota fra en bokført kjøpsfaktura](purchasing-how-process-purchase-returns-cancellations.md#to-create-a-purchase-credit-memo-from-a-posted-purchase-invoice).
 
-## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Opprette en bestillingsretur basert på ett eller flere bokførte kjøpsdokumenter
+## <a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a><a name="to-create-a-purchase-return-order-based-on-one-or-more-posted-purchase-documents"></a>Opprette en bestillingsretur basert på ett eller flere bokførte kjøpsdokumenter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bestillingsreturer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
@@ -125,7 +125,7 @@ Kjøpskreditnotaen fjernes og erstattes med et nytt dokument i listen over bokf�
 10. På siden **Bestillingsretur** i feltet **Returårsakskode** velger du årsaken til returen på hver linje.
 11. Velg handlingen **Bokfør**.
 
-## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Slik oppretter du en erstatningsbestilling fra en bestillingsretur
+## <a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a><a name="to-create-a-replacement-purchase-order-from-a-purchase-return-order"></a>Slik oppretter du en erstatningsbestilling fra en bestillingsretur
 
 Det kan hende du avtaler med leverandøren at de kompenserer deg for en kjøpt vare ved å erstatte varen. Erstatningsvaren kan være samme eller en annen vare. Denne situasjonen kan oppstå hvis leverandøren ved en feiltakelse leverer feil vare.  
 
@@ -134,7 +134,7 @@ Det kan hende du avtaler med leverandøren at de kompenserer deg for en kjøpt v
 3. På siden **Flytt negative best.linjer** fyller du ut feltene etter behov.
 4. Velg **OK**. Den negative linjen slettes fra bestillingsreturen, og en ny bestilling opprettes. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).  
 
-## <a name="to-create-a-purchase-allowance"></a>Slik oppretter du en kjøpsrabatt
+## <a name="to-create-a-purchase-allowance"></a><a name="to-create-a-purchase-allowance"></a>Slik oppretter du en kjøpsrabatt
 
 Hvis leverandøren sender deg varer som du ikke er fornøyd med, på grunn av at de for eksempel er lettere skadet, har feil farge eller feil størrelse, kan det hende leverandøren tilbyr deg en kjøpsrabatt.  
 
@@ -153,7 +153,7 @@ Du kan bokføre denne reduserte kjøpskostnaden som et varegebyr i en kreditnota
 
 Når du bokfører bestillingsreturen, legges kjøpsrabatten til i det aktuelle kjøpsbeløpet. Dermed kan du opprettholde en nøyaktig lagerverdisetting.  
 
-## <a name="to-combine-return-shipments"></a>Slik kombinerer du returforsendelser
+## <a name="to-combine-return-shipments"></a><a name="to-combine-return-shipments"></a>Slik kombinerer du returforsendelser
 
 Hvis du vil returnere varer som dekkes av forskjellige bestillingsreturer, til samme leverandør, kan du bruke funksjonen **Kombiner returforsendelser**.  
 
@@ -175,15 +175,15 @@ Når returforsendelser kombineres i en kreditnota og bokføres, opprettes det en
     Hvis feil returforsendelseslinje ble merket eller du vil begynne på nytt, kan du ganske enkelt slette linjene i kjøpskreditnotaen og deretter bruke funksjonen **Hent returforsendelseslinjer** på nytt.  
 6. Velg handlingen **Bokfør**.  
 
-### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>Fjerne åpne bestillingsreturer etter kombinert returforsendelsesbokføring
+### <a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a><a name="to-remove-open-purchase-return-orders-after-combined-return-shipment-posting"></a>Fjerne åpne bestillingsreturer etter kombinert returforsendelsesbokføring
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Slett fakturerte bestillingsreturer**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov, og klikk deretter **OK**.  
 3. Du kan også slette individuelle bestillingsreturer manuelt.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/return-items-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/return-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Registrere kjøp](purchasing-how-record-purchases.md)  
 [Korriger eller annuller ubetalte kjøpsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

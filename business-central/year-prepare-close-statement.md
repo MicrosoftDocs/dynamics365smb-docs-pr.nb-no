@@ -10,7 +10,7 @@ ms.search.keywords: 'year closing, close accounting period, close fiscal year, a
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="preparing-closing-statements"></a>Forberede avslutningsoppgaver
+# <a name="preparing-closing-statements"></a><a name="preparing-closing-statements"></a>Forberede avslutningsoppgaver
 Det finnes flere standardrapporter du kan bruke til å innhente informasjonen du trenger for å klargjøre selskapets avslutningsoppgaver.
 
 Tabellen nedenfor beskriver flere rapporter som kan være nyttige i denne prosessen.  
@@ -27,7 +27,7 @@ Tabellen nedenfor beskriver flere rapporter som kan være nyttige i denne proses
 
 Hvis du vil se en rapport, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriver inn navnet slik det vises i tabellen, og deretter velger du den relaterte koblingen.
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 [Avslutte år og perioder](year-close-years-periods.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Forretningsintelligens](bi.md)

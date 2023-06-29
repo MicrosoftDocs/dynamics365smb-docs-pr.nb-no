@@ -10,7 +10,7 @@ ms.search.form: 1752
 ms.date: 06/14/2021
 ---
 
-# <a name="classifying-data-sensitivity-fields"></a>Felter for å klassifisere datasensitivitet
+# <a name="classifying-data-sensitivity-fields"></a><a name="classifying-data-sensitivity-fields"></a>Felter for å klassifisere datasensitivitet
 Hvis du vil klassifisere feltene som inneholder sensitive opplysninger eller personopplysninger, kan en Microsoft-partner angi ```DataClassification```-egenskapen for felt. Dette krever tilgang til databasetabellene via utviklingsmiljø eller ved å kjøre et Windows PowerShell-skript. Hvis du vil ha mer informasjon, kan du se [Klassifisere data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
 Du kan som kunde legge til et sekundært klassifiseringsnivå ved å angi sensitivitetsnivåer for opplysninger du lagrer i standardfelt eller egendefinerte felt. Klassifisering av datasensitivitet sikrer at du vet hvor personopplysninger lagres i systemet, og dette gjør det lettere å svare på forespørsler fra dataemner. For eksempel hvis en kontakt eller kunden ber deg om å eksportere personopplysningene. Hvis du vil ha mer informasjon, kan du se [Svare på forespørsler om personopplysninger](admin-responding-to-requests-about-personal-data.md).
@@ -27,7 +27,7 @@ Tabellen nedenfor beskriver nivåene for datasensitivitet som du kan tilordne.
 |Konfidensielt | Forretningsdata du bruker for regnskap eller andre forretningsformål og ikke vil vise til andre enheter. Dette kan for eksempel inneholde finansposter.|
 |Normal | Generelle data som ikke tilhører andre kategorier.|
 
-## <a name="how-do-i-classify-my-data"></a>Hvordan klassifiserer jeg dataene?
+## <a name="how-do-i-classify-my-data"></a><a name="how-do-i-classify-my-data"></a>Hvordan klassifiserer jeg dataene?
 
 Klassifisering av sensitiviteten til av ett og ett felt for et stort antall felt ville tatt lang tid. For å bidra til å øke hastigheten på prosessen kan vi tilby verktøy du kan bruke til masseklassifisering av sensitiviteten til felt og deretter finjustere klassifiseringer for spesifikke felt. Du finner verktøy i dataklassifiseringsforslaget, som er tilgjengelig i rollesenteret for på Administrasjon av brukere, brukergrupper og tillatelser. Du må være en systemansvarlig for å bruke forslaget.
 
@@ -43,7 +43,7 @@ Dataklassifiseringsforslag lar deg for eksempel gjøre følgende:
 > [!Tip]
 > Vi har definert eksempler på sensitivitetsklassifiseringer for tabellene og feltene i demonstrasjonsselskapet Cronus. Du kan bruke disse klassifiseringer som inspirasjon når du klassifisere dine egne tabeller og felt.
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Klassifisere data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data)  
 

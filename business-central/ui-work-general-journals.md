@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.search.keywords: 'journals, recurring, accrual, renumber, bulk-post'
 ms.search.form: '39, 101, 102, 182, 184, 185, 201, 207, 250, 251, 253, 255, 256, 261, 262, 283, 519, 750, 751, 752, 753, 754, 755, 12409, 12410, 12411, 1290, 10101, 11400, 11402, 11403, 11405, 11300, 2000000, 2000001, 2000003, 2000020, 2000021, 2000022'
 ---
-# <a name="work-with-general-journals"></a>Arbeid med finanskladder
+# <a name="work-with-general-journals"></a><a name="work-with-general-journals"></a>Arbeid med finanskladder
 
 De fleste finanstransaksjoner bokføres i Finans via dokumenter, for eksempel kjøpsfakturaer eller ordrer. Du kan imidlertid også behandle forretningsaktiviteter som:
 
@@ -33,7 +33,7 @@ Opplysningene du angir i en kladd, er midlertidige og kan endres mens de fortsat
 > [!NOTE]
 > [!INCLUDE[journal-showhide-columns-inline-tip](includes/journal-showhide-columns-inline-tip.md)]  
 
-## <a name="use-journal-templates-and-batches"></a>Bruk kladder og kladdemaler
+## <a name="use-journal-templates-and-batches"></a><a name="use-journal-templates-and-batches"></a>Bruk kladder og kladdemaler
 
 Det finnes flere finanskladdemaler. Hver kladdemal er representert på en egen side med bestemte funksjoner og feltene som er nødvendige for å støtte disse funksjonene, for eksempel siden **Betalingsavstemmingskladd** for å behandle betalinger og **Betalingskladd** for å betale leverandører eller gi ansatte refusjon. Finn ut mer under [Foreta betalinger](payables-make-payments.md) og [Avstem kundebetalinger med innbetalingskladden eller fra kundeposter](receivables-how-apply-sales-transactions-manually.md).
 
@@ -45,7 +45,7 @@ Du kan definere dine egne personlige kladder som en kladd for hver enkelt kladde
 > [!TIP]
 > Du kan legge til eller fjerne felter i kladder ved å tilpasse dem. Finn ut mer under [Tilpass arbeidsområdet](ui-personalization-user.md).
 
-### <a name="validating-general-journal-batches"></a>Validere finanskladder
+### <a name="validating-general-journal-batches"></a><a name="validating-general-journal-batches"></a>Validere finanskladder
 
 Du kan aktivere en bakgrunnskontroll som bidrar til å forhindre forsinkelser ved bokføring. Sjekken gir deg beskjed når en feil i finanskladden du arbeider på, hindrer deg i å bokføre kladden. På siden **Finanskladd** kan du velge **Bakgrunnsfeilkontroll** for at [!INCLUDE[prod_short](includes/prod_short.md)] skal validere finanskladder, for eksempel finans- eller utbetalingskladder, mens du arbeider med dem.
 
@@ -55,20 +55,20 @@ Du kan bruke handlingene **Vis linjer med problemer** og **Vis alle linjer** for
 
 [!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]  
 
-## <a name="understanding-main-accounts-and-balancing-accounts"></a>Forstå hovedkontoer og motkontoer
+## <a name="understanding-main-accounts-and-balancing-accounts"></a><a name="understanding-main-accounts-and-balancing-accounts"></a>Forstå hovedkontoer og motkontoer
 
 Hvis du har definert standard motkonti for kladdene, vil motkontoen på siden **Finanskladder** bli fylt ut automatisk når du fyller ut **Kontonr.**-feltet. Hvis ikke fyller du ut feltene **Kontonr.** og **Motkontonr.** manuelt. Et positivt beløp i **Beløp**-feltet debiteres hovedkontoen og krediteres motkontoen. Et negativt beløp krediteres hovedkontoen og debiteres motkontoen.
 
 > [!NOTE]  
 > Mva beregnes separat for hovedkontoen og motkontoen, så de kan bruke ulike mva-prosentsatser.
 
-## <a name="work-with-recurring-journals"></a>Arbeid med gjentakelseskladder
+## <a name="work-with-recurring-journals"></a><a name="work-with-recurring-journals"></a>Arbeid med gjentakelseskladder
 
 En gjentakende kladd er en finanskladd med spesifikke felter for håndtering av transaksjoner du bokfører ofte, med få eller ingen endringer. Det kan for eksempel være transaksjoner for utgifter som leie, abonnementer, elektrisitet og varme. Ved hjelp av gjentakende kladder kan du bokføre faste og variable beløp og angi automatiske tilbakeføringsposter for dagen etter bokføringsdatoen. Med tildelingsnøkler kan du også dele gjentakende poster mellom flere kontoer. Finn ut mer under [Fordele gjentakelseskladden til flere kontoer](#allocating-recurring-journal-amounts-to-several-accounts).
 
 Når kladden er en gjentakende kladd, oppretter du postene som skal bokføres jevnlig, én gang. Kontoer, dimensjoner og dimensjonsverdier og så videre blir for eksempel liggende i kladden etter bokføring. Hvis det trengs endringer, kan du gjøre det hver gang du bokfører.
 
-### <a name="recurring-method-field"></a>Feltet Gjentakelsesprinsipp
+### <a name="recurring-method-field"></a><a name="recurring-method-field"></a>Feltet Gjentakelsesprinsipp
 
 Feltet **Gjentakelsesprinsipp** er viktig. Det angir hvordan beløpet på kladdelinjen skal behandles etter bokføring. Du kan for eksempel velge å la beløpet stå hvis du skal bruke samme beløp hver gang du bokfører linjen. Hvis du vil bruke samme konto og tekst på linjen, men at beløpet vil variere hver gang du bokfører, kan du velge å slette beløpet etter bokføring.
 
@@ -86,11 +86,11 @@ Feltet **Gjentakelsesprinsipp** er viktig. Det angir hvordan beløpet på kladde
 > [!NOTE]  
 > Mva. feltene kan fylles ut på gjentakelseskladdelinjen eller på fordelingskladdelinjen, men aldri på begge. Det vil si at disse feltene bare kan fylles ut på siden **Fordelinger** hvis tilsvarende linjer i gjentakelseskladden ikke er fylt ut.
 
-### <a name="recurring-frequency-field"></a>Feltet Gjentakelsesintervall
+### <a name="recurring-frequency-field"></a><a name="recurring-frequency-field"></a>Feltet Gjentakelsesintervall
 
 Dette datoformelfeltet angir hvor ofte posten på kladdelinjen skal bokføres, og det må fylles ut. Finn ut mer under [Bruk datoformler](ui-enter-date-ranges.md#use-date-formulas).
 
-#### <a name="examples"></a>Eksempler
+#### <a name="examples"></a><a name="examples"></a>Eksempler
 
 Hvis kladdelinjen skal bokføres hver måned, setter du inn "1M". Etter hver bokføring vil datoen i feltet **Bokføringsdato** bli oppdatert til samme dato neste måned.
 
@@ -100,7 +100,7 @@ Hvis du vil bokføre en post på den siste dagen i hver måned, kan du gjøre et
 
 * Bokfør den første posten på hvilken som helst dag i måneden ved å angi 1M+NM. Ved hjelp av denne formelen vil bokføringsdatoen være etter én hel måned, pluss de resterende dagene av denne måneden.
 
-### <a name="expiration-date-field"></a>Feltet Utløpsdato/-klokkeslett
+### <a name="expiration-date-field"></a><a name="expiration-date-field"></a>Feltet Utløpsdato/-klokkeslett
 
 Dette feltet angir når linjen skal bokføres for siste gang. Linjen tas ikke med i bokføringen etter denne datoen.
 
@@ -108,7 +108,7 @@ Fordelen med å bruke feltet Utløpsdato er at linjen ikke slettes fra kladden m
 
 Hvis feltet er tomt, bokføres linjen hver gang du bokfører, helt til den slettes fra kladden.
 
-### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Fordele gjentakelseskladden til flere kontoer
+### <a name="allocating-recurring-journal-amounts-to-several-accounts"></a><a name="allocating-recurring-journal-amounts-to-several-accounts"></a>Fordele gjentakelseskladden til flere kontoer
 
 På siden **Gjentakende finanskladd** kan du velge **Fordelinger**-handlingen for å angi hvordan beløp på gjentakelseskladdelinjen skal tildeles flere kontoer og dimensjoner. Tildeling fungerer som motkontolinje til gjentakende kladdelinje.
 
@@ -126,7 +126,7 @@ Det kan for eksempel være at selskapet ditt har et par konsern og noen avdeling
 > [!NOTE]
 > Dimensjoner du angir på tildelinglinjer, beregnes ikke automatisk, og du må angi hvilke dimensjonsverdier som skal angis på tildelingskontoene. Hvis du vil beholde koblingen mellom kildekontodimensjonen og fordelingskontodimensjonen, anbefaler vi at du bruker [Kostregnskap](finance-about-cost-accounting.md)-funksjonene i stedet.
 
-#### <a name="example-allocating-rent-payments-to-different-departments"></a>Eksempel: Fordele leiebetalinger til ulike avdelinger
+#### <a name="example-allocating-rent-payments-to-different-departments"></a><a name="example-allocating-rent-payments-to-different-departments"></a>Eksempel: Fordele leiebetalinger til ulike avdelinger
 
 Husleie betales månedlig, så derfor er husleiebeløpet angitt i kassakontoen på gjentakende kladdelinje. På siden **Tildelinger** kan du bruke dimensjonen Avdeling til å fordele utgiftene på flere avdelinger. I henhold til antall kvadratmeter som hver avdeling opptar, kan dette for eksempel være kvadratfot. Beregningen er basert på tildelingsprosenten på hver linje. Du kan tildele på ulike måter:
 
@@ -135,11 +135,11 @@ Husleie betales månedlig, så derfor er husleiebeløpet angitt i kassakontoen p
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-### <a name="calculate-the-reversal-date"></a>Beregn tilbakeføringsdatoen
+### <a name="calculate-the-reversal-date"></a><a name="calculate-the-reversal-date"></a>Beregn tilbakeføringsdatoen
 
 Når du bruker gjentakende finanskladder til å bokføre justeringer på slutten av en periode, er det viktig å ha full kontroll over tilbakeføringsposter. På siden **Gjentakende finanskladder** gjør feltet **Beregning av tilbakeføringsdato** at du kan kontrollere datoen som tilbakeføringsposter skal bokføres på når omvendte gjentakelsesmetoder brukes.
 
-#### <a name="example"></a>Eksempel
+#### <a name="example"></a><a name="example"></a>Eksempel
 
 Justeringer bokføres vanligvis med gjentakelsesprinsippene **fast**, **variabel** eller **saldo** på kladdelinjen. Bokføringsdatoen for det bokførte beløpet på kontoen på kladdelinjen beregnes ved hjelp av gjentakelsesintervallet. Bokføringsdatoen for motposten beregnes ved hjelp av feltet **Beregning av tilbakeføringsdato**, som følger:
 
@@ -149,7 +149,7 @@ Justeringer bokføres vanligvis med gjentakelsesprinsippene **fast**, **variabel
 > [!NOTE]
 > Feltet **Beregning av tilbakeføringsdato** er ikke tilgjengelig på siden **Gjentakende finanskladder** som standard. Hvis du vil bruke feltet, må du legge det til ved å tilpasse siden. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
 
-## <a name="work-with-standard-journals"></a>Arbeid med standardkladder
+## <a name="work-with-standard-journals"></a><a name="work-with-standard-journals"></a>Arbeid med standardkladder
 
 Når du har opprettet kladdelinjer som du vet at du sannsynligvis vil opprette igjen senere, kan du lagre dem som en standardkladd før du bokfører kladden. Det samme gjelder varekladder og finanskladder.
 
@@ -159,7 +159,7 @@ Når du har opprettet kladdelinjer som du vet at du sannsynligvis vil opprette i
 > [!NOTE]  
 > Den følgende fremgangsmåten dreier seg om varekladden, men informasjonen gjelder også finanskladden.
 
-### <a name="to-save-a-standard-journal"></a>Slik lagrer du som standardkladd
+### <a name="to-save-a-standard-journal"></a><a name="to-save-a-standard-journal"></a>Slik lagrer du som standardkladd
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varekladder** og velg den relaterte koblingen.
 2. Legg inn én eller flere kladdelinjer.
@@ -175,7 +175,7 @@ Når du har opprettet kladdelinjer som du vet at du sannsynligvis vil opprette i
 
 Når du lagrer standardvarekladden, vises siden Varekladd slik at du kan bokføre den.
 
-### <a name="to-reuse-a-standard-journal"></a>Bruke en standardkladd på nytt
+### <a name="to-reuse-a-standard-journal"></a><a name="to-reuse-a-standard-journal"></a>Bruke en standardkladd på nytt
 
 > [!NOTE]
 > Standardkladder har ikke alltid de samme feltene som finanskladder. Når du bruker handlingen Hent standardkladd til å kopiere feltene til finanskladden, kan finanskladden ha mer informasjon enn hvis du opprettet den manuelt. 
@@ -199,7 +199,7 @@ Når du lagrer standardvarekladden, vises siden Varekladd slik at du kan bokfør
 5. Velg varekladdelinjene du vil justere, og velg deretter handlingen **Beregn enhetsbeløp på nytt**. Denne handlingen oppdaterer Enhetsbeløp-feltet med gjeldende enhetskost for varen.
 6. Velg handlingen **Bokfør**.
 
-## <a name="to-renumber-document-numbers-in-journals"></a>Nummerere bilagsnumre i kladder på nytt
+## <a name="to-renumber-document-numbers-in-journals"></a><a name="to-renumber-document-numbers-in-journals"></a>Nummerere bilagsnumre i kladder på nytt
 
 Hvis du vil unngå bokføringsfeil på grunn av rekkefølgen på bilagsnumrene, kan du bruke handlingen **Nummerer bilagsnumre på nytt** før du bokfører en kladd.
 
@@ -211,7 +211,7 @@ Denne funksjonen fungerer også for filtrerte visninger.
 
 Eventuell ny nummerering av dokumenter vil respektere relaterte programmer, for eksempel en betalingsutligning som er utført fra dokumentet på kladdelinjen til en leverandørkonto. Dette betyr at feltet **Utlignings-ID** og **Utligningsbilagsnr.** blir oppdatert på finanspostene.
 
-### <a name="to-renumber-documents-in-journals"></a>Slik nummererer du dokumentnumre i kladder på nytt
+### <a name="to-renumber-documents-in-journals"></a><a name="to-renumber-documents-in-journals"></a>Slik nummererer du dokumentnumre i kladder på nytt
 
 Følgende fremgangsmåte er basert på siden **Finanskladd**, men gjelder for alle andre kladder som er basert på finanskladden, for eksempel siden **Utbetalingskladd**.
 
@@ -220,9 +220,9 @@ Følgende fremgangsmåte er basert på siden **Finanskladd**, men gjelder for al
 
 Verdier i feltet **Bilagsnr.** endres der det er nødvendig, slik at bilagsnummeret på individuelle eller grupperte kladdelinjer er i sekvensiell rekkefølge. Når dokumenter er nummerert på nytt, kan du bokføre kladden.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/use-journals-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/use-journals-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md)  
 [Tilbakefør kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)  

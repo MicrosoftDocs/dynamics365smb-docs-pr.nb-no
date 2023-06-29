@@ -11,7 +11,7 @@ ms.search.form: '460, 9307'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="purchasing"></a>Kjøp
+# <a name="purchasing"></a><a name="purchasing"></a>Kjøp
 
 Du kan opprette en kjøpsfaktura eller bestilling for å registrere kjøpskostnader og spore leverandørgjeld. Hvis du vil kontrollere en beholdning, brukes kjøpsfakturaer også til å oppdatere lagernivåer dynamisk, slik at du kan redusere lagerkostnadene og gi bedre kundeservice. Kjøpskostnadene, inkludert tjenesteutgifter samt lagerverdier som er resultat av bokføring av kjøpsfakturaer, bidrar til fortjenestetall og andre økonomiske KPIer i rollesenteret.
 
@@ -39,13 +39,13 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 |Løs forvirring når det finnes to eller flere poster for samme leverandør.|[Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)|
 |Håndter forpliktelsen din til en leverandør om å kjøpe store antall levert i flere forsendelser over tid.|[Arbeid med rammebestillinger](sales-how-to-create-blanket-sales-orders.md)|
 
-## <a name="external-document-numbers"></a>Eksterne dokumentnumre
+## <a name="external-document-numbers"></a><a name="external-document-numbers"></a>Eksterne dokumentnumre
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/purchase-items-services-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/purchase-items-services-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Definere kjøp](purchasing-setup-purchasing.md)  
 [Registrere nye leverandører](purchasing-how-register-new-vendors.md)  

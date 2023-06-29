@@ -11,11 +11,11 @@ ms.search.form: '15000000, 15000002, 15000004, 15000006, 15000007, 15000010'
 ms.date: 06/18/2021
 ms.author: edupont
 ---
-# <a name="delete-remittance-payment-orders-in-the-norwegian-version"></a>Slett remitteringsoppdrag i den norske versjonen
+# <a name="delete-remittance-payment-orders-in-the-norwegian-version"></a><a name="delete-remittance-payment-orders-in-the-norwegian-version"></a>Slett remitteringsoppdrag i den norske versjonen
 
 Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avsluttet regnskapsår. En ordre er fullstendig ferdigbehandlet hvis ingen av betalingene på siden **Ventekladd** har statusen **Sendt** eller **Godkjent**.  
 
-## <a name="to-delete-a-remittance-payment-order"></a>Slik sletter du et remitteringsoppdrag
+## <a name="to-delete-a-remittance-payment-order"></a><a name="to-delete-a-remittance-payment-order"></a>Slik sletter du et remitteringsoppdrag
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Slett remitteringsoppdrag**, og velg deretter den relaterte koblingen.  
 2.  På siden **Slett remitteringsoppdrag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
@@ -27,7 +27,7 @@ Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avslu
 
 3.  Velg **OK**.  
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
  [Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)   
  [Sette opp remitteringsavtaler](how-to-set-up-remittance-agreements.md)   
  [Opprette remitteringskontoer](how-to-create-remittance-accounts.md)   

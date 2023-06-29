@@ -11,7 +11,7 @@ ms.search.form: '5200, 5201, 5204, 5206, 5208, 5209, 5211, 5212, 5221, 5228'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="manage-human-resources"></a>Administrere personale
+# <a name="manage-human-resources"></a><a name="manage-human-resources"></a>Administrere personale
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du holde detaljerte poster for ansatte. Du kan registrere og vedlikeholde informasjon som for eksempel kontrakter for ansatte, konfidensiell informasjon, kvalifikasjoner og kontakter for ansatte.
 
@@ -26,7 +26,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Registrer nye ansatte eller rediger poster for eksisterende ansatte, og tilknytt relatert informasjon, for eksempel kontrakter og artikler. |[Registrere ansatte](hr-how-register-employees.md) |
 | Registrer ansattes fravær og vis fraværsstatistikk med ulike filtre. |[Håndtere ansattes fravær](hr-how-manage-absence.md) |
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Finans](finance.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

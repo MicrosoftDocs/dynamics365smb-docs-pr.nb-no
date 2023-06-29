@@ -8,7 +8,7 @@ ms.search.keywords: null
 ms.date: 08/03/2022
 ms.author: jswymer
 ---
-# <a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a>Åpne og dele Business Central-filer i Microsoft OneDrive
+# <a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a><a name="opening-and-sharing-business-central-files-in-microsoft-onedrive"></a>Åpne og dele Business Central-filer i Microsoft OneDrive
 
 [!INCLUDE[prod_short](includes/prod_short.md)] gjør det enkelt å lagre, behandle og dele filer med andre personer via Microsoft OneDrive for Business. På de fleste sider der filer er tilgjengelige, for eksempel rapportinnboksen eller når filer er knyttet til poster, finner du handlingene **Åpen i OneDrive** og **Del**.
 
@@ -19,7 +19,7 @@ ms.author: jswymer
 :::image type="content" source="media/one-drive-attachments-w-outline.png" alt-text="Handlingene Åpne i OneDrive og Del for vedlegg":::
 
 
-## <a name="open-in-onedrive"></a>Åpne i OneDrive
+## <a name="open-in-onedrive"></a><a name="open-in-onedrive"></a>Åpne i OneDrive
 
 Handlingen **Åpne i OneDrive** kopierer filen til OneDrive og åpner deretter filen i en app som Microsoft Excel online, online, Microsoft Word online eller Microsoft PowerPoint online. 
 
@@ -31,7 +31,7 @@ Ved hjelp av de elektroniske versjonene av disse programmene kan du sette inn me
 
 For andre populære filtyper, for eksempel PDF-filer, tekstfiler og bilder inneholder OneDrive filvisningsprogrammer som tilbyr funksjoner for utskrift, deling og mer. Hvis en fil ikke kan vises i OneDrive, kan det hende du blir bedt om å laste den ned.
 
-## <a name="share"></a>Del
+## <a name="share"></a><a name="share"></a>Del
 
 Handlingen **Del** kopierer filen til OneDrive slik at du kan se hvem du allerede har delt den med, og dele filen med andre. Når du velger **Del**-handlingen, åpnes neste side.
 
@@ -53,7 +53,7 @@ Delingsfunksjonen i Business Central er basert på OneDrive. Lær mer om OneDriv
 > [!NOTE]
 > Handlingen **Del** er ikke tilgjengelig i Business Central-appen for mobilenheter.
 
-## <a name="first-time-sign-in-from-business-central"></a>Førstegangs pålogging fra Business Central
+## <a name="first-time-sign-in-from-business-central"></a><a name="first-time-sign-in-from-business-central"></a>Førstegangs pålogging fra Business Central
 
 Når du bruker handlingen **Åpne i OneDrive** eller **Del** for første gang, gjør [!INCLUDE[prod_short](includes/prod_short.md)] følgende:
 
@@ -64,7 +64,7 @@ Når du bruker handlingen **Åpne i OneDrive** eller **Del** for første gang, g
 
 Neste gang du bruker **Åpne i OneDrive** eller **Del**-handlingen, kopierer og åpner [!INCLUDE[prod_short](includes/prod_short.md)] bare filen. 
 
-## <a name="managing-multiple-copies-of-a-file"></a>Behandle flere kopier av en fil
+## <a name="managing-multiple-copies-of-a-file"></a><a name="managing-multiple-copies-of-a-file"></a>Behandle flere kopier av en fil
 
 Når du velger **Åpne i OneDrive** eller **Del**, kopieres filen fra [!INCLUDE[prod_short](includes/prod_short.md)] til mappen i OneDrive. Hvis du redigerer filen i OneDrive, vil den være annerledes enn [!INCLUDE[prod_short](includes/prod_short.md)]-filen. Hvis du vil oppdatere [!INCLUDE[prod_short](includes/prod_short.md)] med den siste filversjonen, fjerner du den eksisterende filen fra [!INCLUDE[prod_short](includes/prod_short.md)], og laster du opp den siste kopien.
 
@@ -82,7 +82,7 @@ Hvis det allerede finnes en fil med samme navn i OneDrive, får du følgende val
  
   Dette alternativet beholder den eksisterende filen som den er, og lagrer filen du valgte fra Business Central, med et annet navn. Det nye navnet ligner på det eksisterende navnet, med unntak av suffiksnummeret, for eksempel "Varer (2). xlsx".
 
-## <a name="about-your-business-central-folder-on-onedrive"></a>Om Business Central-mappen på OneDrive
+## <a name="about-your-business-central-folder-on-onedrive"></a><a name="about-your-business-central-folder-on-onedrive"></a>Om Business Central-mappen på OneDrive
 
 Mappen og innholdet er private helt til du bestemmer deg for å dele det med andre. Du kan for eksempel velge å dele innhold med en eller flere av kollegene dine, eller til og med personer utenfor organisasjonen. 
 
@@ -93,7 +93,7 @@ Du får tilgang til OneDrive fra **Mine innstillinger**-siden ved å velge kobli
 <!--## Extending the Connection to OneDrive
 You can create an extension and connect it to... For more information, see...-->
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Business Central og OneDrive-integrering](across-onedrive-overview.md)  
 [Administrere OneDrive-integrering med Business Central](admin-onedrive-integration.md)  

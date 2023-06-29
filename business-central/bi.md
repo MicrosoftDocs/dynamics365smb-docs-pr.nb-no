@@ -11,7 +11,7 @@ ms.search.form: '103, 108, 198, 490'
 ms.date: 09/22/2022
 ms.author: edupont
 ---
-# <a name="financial-business-intelligence"></a>Finansforretningsanalyse
+# <a name="financial-business-intelligence"></a><a name="financial-business-intelligence"></a>Finansforretningsanalyse
 
 Selskaper fanger opp store datamengder gjennom de daglige aktivitetene. Disse dataene, som gjenspeiler ting som organisasjonens salgstall, kjøp, driftsutgifter, lønn til ansatte og budsjetter, representerer verdifull informasjon, eller forretningsintelligens, for beslutningstakere. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en rekke funksjoner som hjelper deg å samle, analysere og dele selskapsdata.
 
@@ -32,7 +32,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 |Aktiver global finansrapportering til internasjonale regnskapsorganisasjoner med eXtensible Business Reporting Language-standarden (XBRL).|[Opprette rapporter med XBRL](bi-create-reports-with-xbrl.md)|
 |Endre tilgangsformålet for databasen i rapporter, sider av typen API, og spørringer for å redusere belastningen og forbedre ytelsen.|[Administrere databasetilgangsformål](admin-data-access-intent.md)|
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Finans](finance.md)  
 [Bruk Business Central som en Power BI-datakilde](across-how-use-financials-data-source-powerbi.md)  

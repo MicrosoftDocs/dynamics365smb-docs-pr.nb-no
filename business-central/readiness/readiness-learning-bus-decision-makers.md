@@ -7,19 +7,19 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="business-decision-makers-learning-catalog"></a>Læringskatalog for bedriftens beslutningstaker
+# <a name="business-decision-makers-learning-catalog"></a><a name="business-decision-makers-learning-catalog"></a>Læringskatalog for bedriftens beslutningstaker
 
 Avgjør du om du skal investere i ny teknologi?
 
 Følgende katalog er ordnet fra kjernekunnskap til bestemte domener, og fra de mest grunnleggende til de fleste avanserte. Hvis innholdet finnes i flere formater, gir vi deg beskjed slik at du kan velge det opplæringsformatet som best dekker dine behov.  
 
-## <a name="business-value"></a>Forretningsverdi<a name="busvalue"></a>
+## <a name="business-value"></a><a name="business-value"></a>Forretningsverdi<a name="busvalue"></a>
 
 | Innhold                                                                 | Beskrivelse                                                                                                | Format                                | Lengde     |
 |----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------|------------|
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | Denne modulen viser programfunksjoner, fordeler og eksempler på Dynamics 365 Business Central i bruk. | Gratis, elektronisk opplæringsbane i eget tempo | 24 minutter |
 
-## <a name="getting-started"></a>Komme i gang<a name="get-started"></a>
+## <a name="getting-started"></a><a name="getting-started"></a>Komme i gang<a name="get-started"></a>
 
 | Innhold                                                                                                                             | Beskrivelse                                                                                                                                                                                                                                                                                      | Format                                | Lengde             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|

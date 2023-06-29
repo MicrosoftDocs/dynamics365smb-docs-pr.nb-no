@@ -10,11 +10,11 @@ ms.search.form: '21, 22'
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="set-up-cash-customers"></a>Definere kontantkunder
+# <a name="set-up-cash-customers"></a><a name="set-up-cash-customers"></a>Definere kontantkunder
 
 Du kan ikke opprette en faktura uten å oppgi et kundenummer. Dette gjelder også ved kontantsalg og selv om ikke har noe å registrere på en kundekonto.  
 
-## <a name="to-set-up-a-cash-customer"></a>Slik definerer du kontantkunder
+## <a name="to-set-up-a-cash-customer"></a><a name="to-set-up-a-cash-customer"></a>Slik definerer du kontantkunder
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kunde** og velg den relaterte koblingen.  
 2. Opprett et nytt **kundekort**. Hvis du vil ha mer informasjon, kan du se [Registrere nye kunder](sales-how-register-new-customers.md).
@@ -29,7 +29,7 @@ Du kan ikke opprette en faktura uten å oppgi et kundenummer. Dette gjelder ogs�
 >
 > Du må angi et nummer for bokføringsgruppens samlekonto for kunde, selv om saldoen på denne kontoen alltid vil være 0 etter at du bokfører en faktura.  
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Registrer nye kunder](sales-how-register-new-customers.md)

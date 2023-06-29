@@ -10,14 +10,14 @@ ms.author: andreipa
 ms.reviewer: bholtorf
 ---
 
-# Synkroniser kunder
+# <a name="synchronize-customers"></a>Synkroniser kunder
 
 Når du importerer en ordre fra Shopify, er det nødvendig å hente informasjonen om kunden for ytterligere behandling av dokumentet i [!INCLUDE[prod_short](../includes/prod_short.md)]. Det finnes to hovedalternativer for å gjøre dette og flere kombinasjoner:
 
 * Bruk en spesiell kunde for alle ordrer.
 * Importer faktiske kundeinformasjon fra Shopify. Dette alternativet er også tilgjengelig når du eksporterer kunder til Shopify fra [!INCLUDE[prod_short](../includes/prod_short.md)] først.
 
-## Viktige innstillinger når du importerer kunder fra Shopify
+## <a name="important-settings-when-importing-customers-from-shopify"></a>Viktige innstillinger når du importerer kunder fra Shopify
 
 Enten du masseimporterer kunder fra Shopify eller når du importerer ordrer, kan du styre prosessen med følgende innstillinger:
 
@@ -29,7 +29,7 @@ Enten du masseimporterer kunder fra Shopify eller når du importerer ordrer, kan
 |**Opprett ukjente kunder automatisk**| Velg dette feltet om du vil at koblingen skal opprette manglende kunder som blir funnet, når alternativene **Via e-post/telefon** eller **Etter faktura til-informasjon** er valgt i feltet **Kundetildelingstype**. En ny kunde opprettes ved hjelp av importerte data og **Kundemalkode** som er definert på sidene **Shopify-butikkort** eller **Shopify-kundemal**. Legg merke til at Shopify-kunden må ha minst én adresse. Ordrer som er opprettet via Shopify-salgsstedssalgskanalen, mangler ofte adresseopplysninger. Hvis dette alternativet ikke er aktivert, må du opprette en kunde manuelt og knytte det til Shopify-kunden.|
 |**Kundemalkode**|Dette feltet brukes sammen med **Opprett ukjente kunder automatisk**.<br>- Velg standardmalen som skal brukes for automatisk opprettede kunder. Kontroller at den valgte malen inneholder de obligatoriske feltene, for eksempel **Bokføringsgruppe – firma**, **Bokføringsgruppe – kunde**, merverdiavgiftsrelaterte (mva.) eller avgiftsrelaterte felter.<br>- Du kan definere maler per land/område på siden **Shopify-kundemaler**, som er nyttig for å kunne foreta en riktig beregning av mva. <br>- Finn ut mer under [Definer avgifter](setup-taxes.md).|
 
-### Kundemal per land
+### <a name="customer-template-per-country"></a>Kundemal per land
 
 Enkelte innstillinger kan defineres på nivået land/område, eller på nivået delstat/provins. Innstillingene kan konfigureres i [Forsendelse og levering](https://www.shopify.com/admin/settings/shipping) i Shopify.
 
@@ -43,7 +43,7 @@ Du kan gjøre følgende for hver kunde ved å bruke **Shopify-kundemalen**:
 > [!NOTE]  
 > Landkodene er ISO 3166-1 for alpha-2-landkoder. Finn ut mer under [Landskode](https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode).
 
-## Eksporter kunder til Shopify
+## <a name="export-customers-to-shopify"></a>Eksporter kunder til Shopify
 
 Du kan eksportere eksisterende kunder til Shopify samtidig. I hvert tilfellet opprettes det en kunde og én standardadresse. Du kan administrere prosessen ved å bruke følgende innstillinger:
 
@@ -66,7 +66,7 @@ Følgende er krav for å eksportere en kunde:
 
 Når du har opprettet kundene i Shopify, kan du sende dem direkteinvitasjoner for å oppmuntre dem til å aktivere kontoene sine.
 
-### Fyll ut kundeinformasjon i Shopify
+### <a name="populate-customer-information-in-shopify"></a>Fyll ut kundeinformasjon i Shopify
 
 En kunde i Shopify har fornavn, etternavn, e-post eller telefonnummer. Du kan angi fornavn og etternavn fra kundekortet i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
@@ -86,7 +86,7 @@ En kunde i Shopify har i tillegg en standard adresse. Adressen kan inneholde et 
 For adresser der land/område brukes, velger du **Kode** eller **Navn** i feltet **Fylkeskilde** på siden **Shopify-butikkortet**. Koden eller navnet angir datatypen som er lagret i [!INCLUDE[prod_short](../includes/prod_short.md)] i feltet **Fylke**. Husk å starte kundemaler per land, slik at landskode/navnetildeling er klar. 
 
 
-## Synkroniser kunder
+## <a name="sync-customers"></a>Synkroniser kunder
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Shopify-butikk** og velger den relaterte koblingen.
 2. Velg den bestemte butikken du vil synkronisere kunder med.
@@ -96,6 +96,6 @@ Du kan også bruke handlingen **Start kundesynkronisering** i vinduet **Shopify-
 
 Du kan planlegge at oppgaven skal utføres på en automatisk måte. Finn ut mer under [Planlegg gjentakende oppgaver](background.md#to-schedule-recurring-tasks).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Kom i gang med koblingen for Shopify](get-started.md)  

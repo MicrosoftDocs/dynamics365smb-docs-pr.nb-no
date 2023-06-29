@@ -9,7 +9,7 @@ ms.topic: how-to
 ms.date: 12/20/2022
 ms.custom: bap-template
 ---
-# <a name="record-consumption-or-usage-for-jobs"></a>Registrere forbruk eller forbruk for prosjekter
+# <a name="record-consumption-or-usage-for-jobs"></a><a name="record-consumption-or-usage-for-jobs"></a>Registrere forbruk eller forbruk for prosjekter
 
 På siden **Prosjektkort** kan du åpne siden **Prosjektplanleggingslinjer** for å se gjennom og registrere bruk på forskjellige deler av prosjektet. Denne informasjonen oppdateres automatisk når du endrer og overfører informasjon mellom prosjekter og prosjektkladder eller prosjektfakturaer. Dette krever at du har slår på **Bruk forbrukskobling som standard** på siden **Prosjektoppsett**. Finn ut mer under [Definer prosjekter](projects-how-setup-jobs.md).  
 
@@ -21,7 +21,7 @@ For planleggingslinjer av typen **Budsjett** kan du for eksempel angi antallet f
 
 De følgende fremgangsmåtene viser hvordan du registrerer faktiske (budsjetterte) antall og kostnader i en prosjektkladd. Du kan alternativt bruke kjøpsdokumenter til å registrere kjøp for et prosjekt. Finn ut mer under [Administrer prosjektforsyninger](projects-how-manage-project-supplies.md).
 
-## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Slik registrerer du forbruk for en prosjektplanleggingslinje av typen Budsjett
+## <a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a><a name="to-record-usage-for-a-job-planning-line-of-type-budget"></a>Slik registrerer du forbruk for en prosjektplanleggingslinje av typen Budsjett
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
 2. Velg prosjektet, og velg deretter handlingen **Prosjektplanleggingslinjer**. 
@@ -43,14 +43,14 @@ De følgende fremgangsmåtene viser hvordan du registrerer faktiske (budsjettert
 9. På siden **Prosjektplanleggingslinjer** går du gjennom det registrerte forbruket ved å kontrollere feltene **Antall**, **Restantall** og **Ant. som skal overføres til kladd**.  
 10. Gjenta trinn 3 til 8 for å registrere ekstra forbruk.  
 
-## <a name="to-create-job-journal-lines-manually"></a>Slik oppretter du prosjektkladdelinjer manuelt:
+## <a name="to-create-job-journal-lines-manually"></a><a name="to-create-job-journal-lines-manually"></a>Slik oppretter du prosjektkladdelinjer manuelt:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
 2. Velg et navn for den relevante prosjektkladden i feltet **Bunkenavn**.  
 3. Angi bilagsnummer, prosjektnummer, prosjektoppgavenummer, type og antall for typen som forbrukes, på en ny linje.  
 4. Når prosjektkladdelinjene er fullført, kan du velge handlingen **Bokfør**.  
 
-## <a name="to-view-job-usage-estimates-and-post-updates"></a>Slik viser du prosjektforbruksestimater og bokfører oppdateringer
+## <a name="to-view-job-usage-estimates-and-post-updates"></a><a name="to-view-job-usage-estimates-and-post-updates"></a>Slik viser du prosjektforbruksestimater og bokfører oppdateringer
 
 Du kan vise prosjektforbruk i ett trinn helt frem til et prosjekt er fullført. Det gjør du ved å bruke kjørselen **Beregn gjenstående forbruk for prosjekt** for alle oppgavene til og med avslutningen av prosjektet.  
 
@@ -65,7 +65,7 @@ Dermed kan du spore og sammenligne opprinnelige estimater med faktiske resultate
 4. Oppdater journalen med eventuelle endringer som kreves.  
 5. Velg **Bokfør**.
 
-## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Opprett lager- og lagerplukkdokumenter for et prosjekt
+## <a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a><a name="create-inventory-and-warehouse-pick-documents-for-a-job"></a>Opprett lager- og lagerplukkdokumenter for et prosjekt
 
 Hvis du vil opprette lager- og lagerplukkdokumenter for prosjekter, må administratoren aktivere **Funksjonsoppdatering: Aktiver lager og lagerplugg fra prosjekter** på **Funksjonsstyring**-siden.
 
@@ -84,7 +84,7 @@ Du kan bruke handlingene under følgende betingelser:
 > 
 > Hvis du har definert lokasjonen til å kreve både plukk- og leveringsbehandling, det vil si at du har valgt både feltene **Plukk nødv.** og **Levering nødv.** på siden **Lokasjonskort**, bruker du siden **Plukk** til å håndtere plukkingen. Plukkinger ligner på lager lagerplukk. Forskjellen er at i stedet for å bokføre plukkinformasjonen, registrerer du plukkingen. Denne registreringen bruker ikke forbruk, den bare gjør varene tilgjengelige for bokføring. Som lagerleder kan du bruke plukkforslag til å organisere opplysninger om plukking før du oppretter de enkelte plukkinstruksjonene
 
-## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Slik går du gjennom planleggingslinjene for en prosjektpost
+## <a name="to-review-planning-lines-for-a-job-ledger-entry"></a><a name="to-review-planning-lines-for-a-job-ledger-entry"></a>Slik går du gjennom planleggingslinjene for en prosjektpost
 
 Etter at du har bokført prosjektkladdelinjer kan du vise planleggingslinjene som er knyttet til prosjektpostene som er bokført.
 
@@ -95,9 +95,9 @@ Etter at du har bokført prosjektkladdelinjer kan du vise planleggingslinjene so
 2. Velg en kladd for det aktuelle prosjektet, og velg deretter handlingen **Poster**.  
 3. På siden **Prosjektposter** velger du handlingen **Vis koblede prosjektplanleggingslinjer**.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/post-job-usage-sales/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/post-job-usage-sales/)
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Prosjektstyring](projects-manage-projects.md)  
 [Finans](finance.md)  

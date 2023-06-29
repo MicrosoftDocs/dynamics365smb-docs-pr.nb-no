@@ -10,11 +10,11 @@ ms.search.keywords: 'phone, tablet'
 ms.date: 01/11/2022
 ms.author: jswymer
 ---
-# <a name="get-business-central-desktop-app"></a>Hent Business Central-skrivebordsappen
+# <a name="get-business-central-desktop-app"></a><a name="get-business-central-desktop-app"></a>Hent Business Central-skrivebordsappen
 
 Hvis du har en Windows- eller macOS-datamaskin, kan du installere en Business Central-app på skrivebordet. Appen fungerer med lokale og nettbaserte versjoner av Business Central.
 
-## <a name="why-use-the-app"></a>Hvorfor bruke appen?
+## <a name="why-use-the-app"></a><a name="why-use-the-app"></a>Hvorfor bruke appen?
 
 Business Central-appen ligner på nettklienten, men den gir deg noen fordeler som:
 
@@ -25,11 +25,11 @@ Business Central-appen ligner på nettklienten, men den gir deg noen fordeler so
 
      Når du åpner appen for et bestemt miljø, inkluderes miljønavnet i vindustittelen. Når du arbeider på tvers av flere [!INCLUDE[prod_short](includes/prod_short.md)]-miljøer, vises hvert appvindu separat. Navnet gjør det enklere for deg å se hvilket vindu som er tilknyttet hvert miljø.
 
-## <a name="install-the-app-for-business-central-online"></a>Installer appen for Business Central på nettet
+## <a name="install-the-app-for-business-central-online"></a><a name="install-the-app-for-business-central-online"></a>Installer appen for Business Central på nettet
 
 Du kan installere appen for Business Central på nettet på to måter. Du kan installere det direkte fra nettleseren eller fra Microsoft store. Det er den samme appen uavhengig av hvor du laster den ned fra. Forskjellen er at når du installerer fra nettleseren, kan du installere appen for hvert miljø når det er mer enn ett.
 
-### <a name="from-microsoft-store"></a>Fra Microsoft Store
+### <a name="from-microsoft-store"></a><a name="from-microsoft-store"></a>Fra Microsoft Store
 
 1. Gå til [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
 2. Velg **Last ned** > **Installer**. 
@@ -37,7 +37,7 @@ Du kan installere appen for Business Central på nettet på to måter. Du kan in
 
 Neste gang du vil åpne appen, ser du etter den på **Start**-menyen.
 
-### <a name="from-the-browser"></a>Fra nettleseren
+### <a name="from-the-browser"></a><a name="from-the-browser"></a>Fra nettleseren
 
 1. Åpne [!INCLUDE[prod_short](includes/prod_short.md)]-nettklienten i Microsoft Edge eller Google Chrome.
 
@@ -57,7 +57,7 @@ Neste gang du vil åpne appen, ser du etter den på **Start**-menyen.
 
 Når appen er installert, vises den i **Start**-menyen. Hvis du har valgt et bestemt miljø for appen, legges miljønavnet til i navnet på appen på **Start**-menyen.
 
-## <a name="install-the-app-for-business-central-on-premises"></a>Installer appen for Business Central lokalt
+## <a name="install-the-app-for-business-central-on-premises"></a><a name="install-the-app-for-business-central-on-premises"></a>Installer appen for Business Central lokalt
 
 Installasjon av skrivebordsappen når du bruker Business Central lokalt gjøres direkte fra nettleseren [som er beskrevet ovenfor](#from-the-browser). Hvis du bare har én leietaker, åpner du bare Business Central i nettleseren, og deretter velger du ![Ikon for å installere en app i Edge.](media/ui-edge-install-app-icon.png) **Appen er tilgjengelig. Installer Business Central** eller ![Ikon for å installere en app i Chrome.](media/ui-chrome-install-app-icon.png) **Installer Business Central** som vist ovenfor.
 
@@ -66,9 +66,9 @@ Forskjellen er når du har flere leietakere. I motsetning til [!INCLUDE[prod_sho
 > [!IMPORTANT]
 > Hvis du bruker Business Central 2021 lanseringsbølge 1 (versjon 18) eller tidligere, kan du ikke installere appen som beskrevet i denne artikkelen. Du må i stedet installere appen fra [Microsoft Store](https://go.microsoft.com/fwlink/?LinkId=734848). Hvis du vil ha mer informasjon og hjelp til å installere denne eldre appen, kan du se [Klargjøre for og installere Business Central-appen](/dynamics365/business-central/dev-itpro/deployment/install-business-central-app).
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/alternative-interfaces-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Vanlige spørsmål om mobilapper](ui-mobile-faq.yml)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  

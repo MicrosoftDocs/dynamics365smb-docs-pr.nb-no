@@ -10,7 +10,7 @@ ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, eco
 ms.date: 06/14/2022
 ms.author: edupont
 ---
-# <a name="create-incoming-document-records"></a>Opprett innkommende dokumentposter
+# <a name="create-incoming-document-records"></a><a name="create-incoming-document-records"></a>Opprett innkommende dokumentposter
 
 På siden **Inngående dokumenter** kan du bruke forskjellige funksjoner til å se gjennom utgiftskvitteringer, behandle OCR-oppgaver og konvertere inngående dokumentfiler, manuelt eller automatisk, til de aktuelle dokumentene eller kladdelinjene. De eksterne filene kan tilknyttes på et hvilket som helst tidspunkt i prosessen, inkludert bokførte dokumenter og resulterende leverandør, kunde- og finansposter.
 
@@ -18,7 +18,7 @@ For å registrere et eksternt dokument i [!INCLUDE[prod_short](includes/prod_sho
 
 Før du kan bruke funksjonen for **innkommende dokumenter**, må du utføre den nødvendige konfigurasjonen. Hvis du vil ha mer informasjon, kan du se [Konfigurere inngående dokumenter](across-how-setup-income-documents.md).
 
-## <a name="approve-or-reject-an-incoming-document"></a>Slik godkjenner eller avviser du et innkommende dokument
+## <a name="approve-or-reject-an-incoming-document"></a><a name="approve-or-reject-an-incoming-document"></a>Slik godkjenner eller avviser du et innkommende dokument
 
 Hvis du har definert funksjonen for **innkommende dokumenter** for å kreve godkjenning for å opprette dokumenter, må brukere med de riktige rettighetene godkjenne postene før de behandles. Hvis du vil ha mer informasjon, kan du se [Definer godkjennere for innkommende dokumentposter](across-how-setup-income-documents.md#to-set-up-approvers-of-incoming-document-records).
 
@@ -27,7 +27,7 @@ Hvis du har definert funksjonen for **innkommende dokumenter** for å kreve godk
 
 Hvis du godkjenner den inngående dokumentposten, merkes det av for **Frigitt** på linjen for det inngående dokumentet. Brukeren som for eksempel er ansvarlig for å opprette kjøpsfakturaer, kan fortsette å behandle posten.
 
-## <a name="create-an-incoming-document-record-by-taking-a-photo"></a>Slik oppretter du en innkommende dokumentpost ved å ta et bilde
+## <a name="create-an-incoming-document-record-by-taking-a-photo"></a><a name="create-an-incoming-document-record-by-taking-a-photo"></a>Slik oppretter du en innkommende dokumentpost ved å ta et bilde
 
 > [!NOTE]  
 > Fremgangsmåten nedenfor gjelder bare for nettbrett og telefoner med [!INCLUDE[prod_short](includes/prod_short.md)]-klienter.
@@ -39,7 +39,7 @@ Hvis du godkjenner den inngående dokumentposten, merkes det av for **Frigitt** 
 
     En ny innkommende dokumentpost opprettes med bildet vedlagt.
 
-## <a name="attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Slik legger du ved et bilde i en innkommende dokumentpost ved å ta et bilde
+## <a name="attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a><a name="attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Slik legger du ved et bilde i en innkommende dokumentpost ved å ta et bilde
 
 > [!NOTE]  
 > Fremgangsmåten nedenfor gjelder bare for nettbrett og telefoner med [!INCLUDE[prod_short](includes/prod_short.md)]-klienter.
@@ -51,7 +51,7 @@ Hvis du godkjenner den inngående dokumentposten, merkes det av for **Frigitt** 
 
     Bildet legges ved den innkommende dokumentposten.
 
-## <a name="create-an-incoming-document-record-manually"></a>Slik oppretter du en innkommende dokumentpost manuelt:
+## <a name="create-an-incoming-document-record-manually"></a><a name="create-an-incoming-document-record-manually"></a>Slik oppretter du en innkommende dokumentpost manuelt:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Innkommende dokumenter**, og velg deretter den relaterte koblingen.
 2. Velg **Ny**, og velg deretter handlingen **Opprett fra fil**.  
@@ -61,9 +61,9 @@ Hvis du godkjenner den inngående dokumentposten, merkes det av for **Frigitt** 
 6. På siden **Sett inn fil** velger du filen som representerer det innkommende dokumentet, og deretter velger du **Åpne**-knappen.
 7. Fyll ut feltene etter behov på siden **Inngående dokument**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/incoming-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/incoming-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Bruk OCR til å gjøre PDF- og bildefiler om til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md)
 [Opprett innkommende dokumentposter direkte fra dokumenter og enheter](across-how-connect-disconnect-income-document-records.md)

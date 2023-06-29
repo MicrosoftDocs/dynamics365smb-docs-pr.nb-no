@@ -11,7 +11,7 @@ ms.search.form: 'TellMe, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9
 ms.date: 09/13/2022
 ms.author: bholtorf
 ---
-# <a name="finding-pages-and-information-with-tell-me"></a>Finne sider og informasjon med Fortell meg
+# <a name="finding-pages-and-information-with-tell-me"></a><a name="finding-pages-and-information-with-tell-me"></a>Finne sider og informasjon med Fortell meg
 
 Denne artikkelen beskriver hvordan det produktinterne søkefeltet *Fortell meg* kan hjelpe deg med å raskt gå til ting som handlinger, sider eller rapporter, finne informasjon om hvordan du fullfører en bestemt oppgave, og oppdage andre apper og konsulenttjenester for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -31,48 +31,48 @@ Nederst på **Fortell meg**-siden åpner handlingen **utforsk sider og rapporter
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="find-an-action-on-the-current-page"></a>Finne en handling på den nåværende siden
+## <a name="find-an-action-on-the-current-page"></a><a name="find-an-action-on-the-current-page"></a>Finne en handling på den nåværende siden
 
 Delen **På gjeldende side** lar deg søke etter og gjøre arbeid på siden du har åpnet. Hvis for eksempel **Tilbud**-siden er åpen og du skriver inn "kunde", inneholder delen en handling som åpner kundekortet for kunden som er valgt på Tilbud-siden.
 
 > [!NOTE]  
 > Oversikten inneholder bare handlinger som er tilgjengelige i navigasjonsfeltet øverst på siden. Handlinger i hurtigfaner er ikke inkludert.  
 
-## <a name="find-a-page-or-a-task"></a>Finne en side eller en oppgave
+## <a name="find-a-page-or-a-task"></a><a name="find-a-page-or-a-task"></a>Finne en side eller en oppgave
 
 Resultatene i delen **Gå til sider og oppgaver** gir deg tilgang til andre sider og lar deg utføre oppgaver eller søke etter informasjon. Hvis du bruker disse sidene ofte, kan du velge bokmerkeikonet for å legge til en kobling på en hvilken som helst side, i rollesenteret. Hvis du vil ha mer informasjon, kan du se [Legge til en sidehandling i rollesenteret](ui-bookmarks.md).
 
 Sidene og oppgavene som er oppført, avhenger av brukeropplevelsen du velger for selskapet. **Essential**-opplevelsen gir tilgang til færre enn hva **Premium**-opplevelsen gjør. Første gang du logger på, bruker du **Essential**-opplevelsen. Hvis du vil ha mer informasjon, kan du se [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)]-opplevelsen](ui-experiences.md).
 
-## <a name="find-a-report-or-archived-information"></a>Finn en rapport eller arkivert informasjon
+## <a name="find-a-report-or-archived-information"></a><a name="find-a-report-or-archived-information"></a>Finn en rapport eller arkivert informasjon
 
 Delen **Gå til Rapporter og analyse** gir deg tilgang til rapporteringsverktøy. Du kan for eksempel åpne rapporten **Saldo** fra oversikten eller få tilgang til arkiverte dokumenter og annen informasjon.  
 
-## <a name="find-information-in-the-help"></a>Finn informasjon i Hjelp
+## <a name="find-information-in-the-help"></a><a name="find-information-in-the-help"></a>Finn informasjon i Hjelp
 
 Under **Dokumentasjon** vises en kobling for å gjenta søket i dokumentasjonen for Microsoft. Hvis du velger koblingen, åpnes hjelperuten og viser søkeresultatene.  
 
 > [!NOTE]  
 > Dokumentasjonen for tredjeparts utvidelser er ikke inkludert i resultatene.
 
-## <a name="get-more-functionality-from-apps"></a>Få mer funksjonalitet fra apper
+## <a name="get-more-functionality-from-apps"></a><a name="get-more-functionality-from-apps"></a>Få mer funksjonalitet fra apper
 
 Vår partnergruppe utvikler stadig nye apper som legger til funksjoner i [!INCLUDE[prod_short](includes/prod_short.md)]. Delen **Hent fra Microsoft AppSource** viser apper for [!INCLUDE[prod_short](includes/prod_short.md)] som er tilgjengelige på Microsoft AppSource og er knyttet til stikkordet du søkte etter.
 
-## <a name="search-for-data"></a>Søk etter data
+## <a name="search-for-data"></a><a name="search-for-data"></a>Søk etter data
 
 Funksjonen **Fortell hva du vil gjøre** søker ikke etter data, for eksempel kundenavn, adresser eller transaksjoner. I stedet kan du søke etter data i listesider ved å velge ![Søkeliste](media/ui-search/search-list.png "Søkeliste-ikon") **Søkeliste**-ikonet til venstre for listeoverskriften. Søket gjelder bare listen du viser. Hvis du vil ha mer informasjon, kan du se [Sortere, søke etter og filtrere oversikter](ui-enter-criteria-filters.md).  
 
 > [!TIP]
 > Fra og med lanseringsbølge 2 i 2022 kan du søke etter bokførte dokumentlinjer, for eksempel fakturalinjer, kreditnotalinjer, følgeseddellinjer og mottakslinjer. Søk etter den typen dokumentlinjer du vil finne, og bokmerk koblingene til dokumentene på startsiden for enkel tilgang til den opprinnelige eller en filtrerte visningen. Finn ut mer under [Legg til en sidehandling i rollesenteret](ui-bookmarks.md).
 
-## <a name="questions"></a>Spørsmål?
+## <a name="questions"></a><a name="questions"></a>Spørsmål?
 
 Vi har vist Fortell meg for interessenter, lagt merke til spørsmål fra dem og gjort merknadene våre om til en liste over vanlige spørsmål. Hvis du er interessert, se [Vanlige spørsmål om Fortell meg](ui-search-faq.md).
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/user-interface-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/user-interface-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Arbeid med Business Central](ui-work-product.md)  
 [Legg til en sidehandling i rollesenteret](ui-bookmarks.md)  

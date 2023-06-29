@@ -11,7 +11,7 @@ ms.search.form: '5730, 5733, 5401'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="categorize-items"></a>Kategorisere varer
+# <a name="categorize-items"></a><a name="categorize-items"></a>Kategorisere varer
 
 For å holde oversikt over varene og hjelpe deg med å sortere og søke etter varer, er det nyttig å kunne organisere dem i varekategorier.
 
@@ -20,7 +20,7 @@ Hvis du vil søke etter varer etter egenskaper, kan du tilordne vareattributter 
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4j4mo?rel=0]
 
-## <a name="to-create-an-item-category"></a>Slik oppretter du en varekategori:
+## <a name="to-create-an-item-category"></a><a name="to-create-an-item-category"></a>Slik oppretter du en varekategori:
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varekategorier** og velg den relaterte koblingen.
 2. På siden **Varekategorier** velger du handlingen **Ny**.
 3. Fyll ut følgende felt på hurtigfanen **Generelt** på siden **Varekategorikort** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -34,19 +34,19 @@ Hvis du vil søke etter varer etter egenskaper, kan du tilordne vareattributter 
 
 Hvis du ombestemmer deg om en varekategori, kan du slette den. Hvis den imidlertid allerede er tilordnet til en vare, må du fjerne denne tilordningen før du kan slette varekategorien.
 
-## <a name="to-assign-an-item-category-to-an-item"></a>Slik tilordner du en varekategori til en vare:
+## <a name="to-assign-an-item-category-to-an-item"></a><a name="to-assign-an-item-category-to-an-item"></a>Slik tilordner du en varekategori til en vare:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Åpne kortet for varen som du vil tilordne til en varekategori.
 3. Velg oppslagsknappen i feltet **Varekategorikode** og velg en eksisterende varekategori. Du kan også velge **Ny**-handlingen for å opprette en ny varekategori først, som forklart under [Slik oppretter du en varekategori](inventory-how-categorize-items.md#to-create-an-item-category).
 
-## <a name="categories-attributes-and-variants"></a>Kategorier, attributter og varianter
+## <a name="categories-attributes-and-variants"></a><a name="categories-attributes-and-variants"></a>Kategorier, attributter og varianter
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Arbeid med vareattributter](inventory-how-work-item-attributes.md)  
 [Behandle produktvarianter](inventory-item-variants.md)  

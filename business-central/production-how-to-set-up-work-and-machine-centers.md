@@ -10,7 +10,7 @@ ms.search.form: '99000754, 99000755, 99000756, 99000758, 99000760, 99000761, 990
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbeidssentre og produksjonsressurser
+# <a name="set-up-work-centers-and-machine-centers"></a><a name="set-up-work-centers-and-machine-centers"></a>Konfigurere arbeidssentre og produksjonsressurser
 
 Programmet skiller mellom tre typer kapasiteter. Disse er rangert hierarkisk. Hvert nivå inneholder underordnede nivåer.  
 
@@ -25,7 +25,7 @@ Tilgjengeligheten lagres i kalenderposter.
 > [!IMPORTANT]
 > Før du definerer arbeidssentre eller produksjonsressurser, må du definere produksjonskalendere. Hvis du vil ha mer informasjon, kan du se [Opprette produksjonskalendere](production-how-to-create-work-center-calendars.md).
 
-## <a name="to-set-up-a-work-center"></a>Slik oppretter du et arbeidssenter:
+## <a name="to-set-up-a-work-center"></a><a name="to-set-up-a-work-center"></a>Slik oppretter du et arbeidssenter:
 
 I det følgende beskrives først og fremst hvordan du definerer et arbeidssenter. Fremgangsmåten for å sette opp en produksjonsressurskalender er lik unntatt hurtigfanen **Ruteoppsett**.  
 
@@ -71,13 +71,13 @@ I det følgende beskrives først og fremst hvordan du definerer et arbeidssenter
 > [!NOTE]
 > Bruk køtid til å angi en buffer mellom tiden som en komponent ankommer ved en produksjonsressurs eller arbeidssenter, og når operasjonen faktisk starter. En del leveres for eksempel til en produksjonsressurs på 10:00, men det tar en time å montere den på maskinen, slik at operasjonen ikke starter før 11,00. For å ta med denne timen vil køtiden være én time. Verdien i feltet **Køtid** på et produksjonsressurskort eller arbeidssenterkortet, pluss summen av verdiene i feltene **Oppstillingstid**, **Operasjonstid**, **Ventetid** og **Transporttid** på varerutelinjen slås sammen for å få leveringstiden for varen. Dette bidrar til å gi nøyaktig total produksjonstid.  
 
-## <a name="considerations-about-capacity"></a>Hensyn til kapasiteten
+## <a name="considerations-about-capacity"></a><a name="considerations-about-capacity"></a>Hensyn til kapasiteten
 
 Kapasiteten og effektiviteten som er angitt for et arbeidssenter og en produksjonsressurs, påvirker ikke bare tilgjengelig kapasitet. De påvirker også den generelle produksjonstiden som består av oppstillingstid og operasjonstid, som begge er definert på rutelinjen.  
 
 Når en bestemt rutelinje fordeles til et arbeidssenter eller en produksjonsressurs, beregner systemet hvor mye kapasitet som trengs, og hvor lang tid det vil ta å fullføre operasjonen.  
 
-### <a name="run-time"></a>Operasjonstid
+### <a name="run-time"></a><a name="run-time"></a>Operasjonstid
 
 For å beregne operasjonstiden tildeler systemet nøyaktig den tiden som er definert i feltet **Operasjonstid** for rutelinjen. Verken effektivitet eller kapasitet påvirker den tildelte tiden. Hvis for eksempel operasjonstiden er definert som to timer, vil den tildelte tiden være to timer, uavhengig av verdiene i feltene effektivitet og kapasitet i arbeidssenteret.  
 
@@ -93,7 +93,7 @@ For å beregne operasjonstiden tildeler systemet nøyaktig den tiden som er defi
 
 Den fraksjonskapasiteten er vanskelig, og vi diskuterer den senere. 
 
-### <a name="setup-time"></a>Oppstillingstid
+### <a name="setup-time"></a><a name="setup-time"></a>Oppstillingstid
 
 Tidstilordning for oppstillingstiden avhenger av kapasiteten og beregnes som *oppstillingstid * kapasitet*. Hvis for eksempel kapasiteten er satt til *2*, vil den tilordnede oppstillingstiden bli dobbelt så lenge fordi du må definere to maskiner for operasjonen.  
 
@@ -104,7 +104,7 @@ Tidstilordning for oppstillingstiden avhenger av kapasiteten og beregnes som *op
 
 Fraktalkapasiteten er ikke lett å få has på, og den brukes i svært spesielle tilfeller.
 
-### <a name="work-center-processing-multiple-orders-simultaneously"></a>Arbeidssenter behandler flere ordrer samtidig
+### <a name="work-center-processing-multiple-orders-simultaneously"></a><a name="work-center-processing-multiple-orders-simultaneously"></a>Arbeidssenter behandler flere ordrer samtidig
 
 La oss bruke et maleappart som eksempel. Det har samme oppsett og operasjonstid for hvert behandlede parti. Men hvert parti kan inneholde flere individuelle bestillinger som kan males samtidig.  
 
@@ -122,7 +122,7 @@ Den tilordnede oppstillingstiden for hver enkelt ordre blir i motsatt rekkefølg
 I begge tilfeller er den totale tildelte tiden for alle ordrer to timer.
 
 
-### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a>Effektiv ressurs kan bare dedikere en del av arbeidsdatoen til produktivarbeid
+### <a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a><a name="efficient-resource-can-dedicate-only-part-of-their-work-date-to-productive-work"></a>Effektiv ressurs kan bare dedikere en del av arbeidsdatoen til produktivarbeid
 
 > [!NOTE]
 > Dette scenarioet anbefales ikke. Vi anbefaler at du bruker effektiviteten i stedet. 
@@ -133,7 +133,7 @@ Tildelt operasjonstid er to timer, og varigheten er fire timer.
 
 Ikke bruk oppstillingstid for slike scenarioer, ettersom systemet bare vil tildele 50 % av tiden. Hvis oppstillingstiden er satt til *2*, er den tildelte oppstillingstiden én time, og varigheten er to timer.
 
-### <a name="consolidated-calendar"></a>Konsolidert kalender
+### <a name="consolidated-calendar"></a><a name="consolidated-calendar"></a>Konsolidert kalender
 
 Når feltet **Konsolidert kalender** er valgt, har arbeidssenteret ingen kapasitet. I stedet er kapasiteten lik summen av kapasiteten for alle produksjonsressursene som er tilordnet arbeidssenteret.  
 
@@ -145,7 +145,7 @@ Hvis du for eksempel har to produksjonsressurser med en effektivitet på 80 og 7
 > [!NOTE]
 >  Bruk feltet **Konsolidert kalender** når du strukturerer rutene til å planlegge produksjonsoperasjoner på produksjonsressursnivå, ikke arbeidssenternivå. Når du konsoliderer kalenderen, blir siden og rapportene **Arbeidssenterbelastning** en oversikt over samlebelastningen i alle produksjonsressurser som er tilordnet arbeidssenteret.
 
-### <a name="example---different-machine-centers-assigned-to-a-work-center"></a>Eksempel – forskjellige produksjonsressurser tilordnet til et arbeidssenter
+### <a name="example---different-machine-centers-assigned-to-a-work-center"></a><a name="example---different-machine-centers-assigned-to-a-work-center"></a>Eksempel – forskjellige produksjonsressurser tilordnet til et arbeidssenter
 
 Det er viktig å planlegge hvilke kapasiteter som skal utgjøre den totale kapasiteten når produksjonsressurser og arbeidssentre opprettes.
 
@@ -155,7 +155,7 @@ Hvis imidlertid like produksjonsressurser (for eksempel 210 Pakkebord 1 og 220 P
 
 Hvis kapasiteter i arbeidssentre ikke skal bidra i den totale kapasiteten, kan du oppnå dette ved effektivitet = 0.
 
-## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Slik definerer du kapasitetsbegrensede maskiner eller arbeidssentre:
+## <a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a><a name="to-set-up-a-capacity-constrained-machine-or-work-center"></a>Slik definerer du kapasitetsbegrensede maskiner eller arbeidssentre:
 
 Du må sette opp produksjonsressurser som du anser som kritiske og utpeke dem som i stand til å håndtere en begrenset belastning i stedet for den ubegrensede belastningen som andre produksjonsressurser godtar. En kapasitetsbegrenset ressurs være et arbeidssenter eller en produksjonsressurs som er identifisert som flaskehals, og som du derfor vil tildele en begrenset belastning for.
 
@@ -174,7 +174,7 @@ Når du planlegger med kapasitetsbegrensede ressurser, sikrer systemet at ingen 
 
 > I tilfeller med oppdeling av operasjon blir oppstillingstiden bare tilordnet én gang fordi det antas at noe manuell justering er gjort for å optimalisere tidsplanen.
 
-## <a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a>Se også
 
 [Opprette produksjonskalendere](production-how-to-create-work-center-calendars.md)  
 [Definere produksjon](production-configure-production-processes.md)  
