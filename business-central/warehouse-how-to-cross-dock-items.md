@@ -11,11 +11,11 @@ ms.search.form: '15, 5703, 7302, 7332, 5768'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="cross-dock-items"></a><a name="cross-dock-items"></a>Kryssoverføringsvarer
+# <a name="cross-dock-items"></a><a name="cross-dock-items"></a><a name="cross-dock-items"></a>Kryssoverføringsvarer
 
 Kryssoverføringsvarer er varer du mottar og leverer uten å plassere dem. Plasserings- og plukkprosessene krever begrenset behandling av varer. Du kan kryssoverføre varer for leveringer og produksjonsordrer.
 
-## <a name="cross-dock-bins-and-zones"></a><a name="cross-dock-bins-and-zones"></a>Kryssoverføringshyller og -soner
+## <a name="cross-dock-bins-and-zones"></a><a name="cross-dock-bins-and-zones"></a><a name="cross-dock-bins-and-zones"></a>Kryssoverføringshyller og -soner
 
 Hvis du bruker hyller, oppretter du minst én kryssoverføringshylle, og deretter angir du hyllen i feltet **Hyllekode for kryssoverføring** på lokasjonene. Hvis du bruker lagerstyring, setter du opp en kryssoverføringssone.
 
@@ -23,7 +23,7 @@ Når du forbereder en levering eller plukker varer for produksjon og bruker hyll
 
 Hvis du har beregnet kryssoverføringsantall, opprettes plasseringslinjer til kryssoverføringshyllen for kryssoverføringsberegning når du bokfører mottaket. Andre plasseringslinjer blir opprettet som vanlig.  
 
-## <a name="cross-dock-select-lines-for-a-receipt"></a><a name="cross-dock-select-lines-for-a-receipt"></a>Kryssoverføring velg linjer for et mottak
+## <a name="cross-dock-select-lines-for-a-receipt"></a><a name="cross-dock-select-lines-for-a-receipt"></a><a name="cross-dock-select-lines-for-a-receipt"></a>Kryssoverføring velg linjer for et mottak
 
 <!--If a receipt contains items that you want to store, that is, items that you are not cross-docking, you must register a put-away for those items.-->
 
@@ -31,7 +31,7 @@ Hvis du vil bokføre de kryssoverførte varene med en gang slik at de blir tilgj
 
 I plasseringsinstruksjonen sletter du Hent og plasser-instruksjonslinjene for hver mottakslinje for varene som skal plasseres. Du kan gjenopprette instruksjonslinjene senere som plasseringslinjer fra plasseringsforslaget eller det bokførte mottaket. Når du har slettet instruksjonslinjene, kan du plassere og registrere linjene for kryssoverførte varer.  
 
-## <a name="about-the-put-away-worksheet-page"></a><a name="about-the-put-away-worksheet-page"></a>Om plasseringsforslaget
+## <a name="about-the-put-away-worksheet-page"></a><a name="about-the-put-away-worksheet-page"></a><a name="about-the-put-away-worksheet-page"></a>Om plasseringsforslaget
 
 Hvis du slo på **Bruk plasseringsforslag** på siden Lokasjonskort og har bokført mottaket med beregnede kryssoverføringer, blir alle mottakslinjene tilgjengelig i forslaget. Informasjonen om kryssoverføringen går tapt, og den kan ikke gjenopprettes. Hvis du vil å bruke kryssoverføringsfunksjonaliteten, bør du overføre linjer til plasseringsforslaget ved å slette plasseringsinstruksjoner i stedet for å bruke den automatiske overføringsfunksjonen i feltet **Bruk plasseringsforslag**.  
 
@@ -45,7 +45,7 @@ De ansatte kan enkelt forstå hvorfor hele antallet ikke er plassert i lageret.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] har ikke separate poster for kryssoverførte varer, men det registrerer dem som vanlige plasseringsinstruksjoner.  
 
-## <a name="to-set-up-the-warehouse-for-cross-docking"></a><a name="to-set-up-the-warehouse-for-cross-docking"></a>Slik definerer du lageret for kryssoverføring
+## <a name="to-set-up-the-warehouse-for-cross-docking"></a><a name="to-set-up-the-warehouse-for-cross-docking"></a><a name="to-set-up-the-warehouse-for-cross-docking"></a>Slik definerer du lageret for kryssoverføring
 
 1. Hvis du bruker hyller, må du sette opp minst én kryssoverføringshylle. Hvis du bruker lagerstyring, setter du opp en kryssoverføringssone.  
 
@@ -67,7 +67,7 @@ De ansatte kan enkelt forstå hvorfor hele antallet ikke er plassert i lageret.
 > [!NOTE]  
 >  Kryssoverføring er mulig bare hvis du har definert lokasjonen til å kreve lagermottaksbehandling og plasseringsbehandling.  
 
-## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a><a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Slik kryssoverfører du varer uten å vise mulighetene
+## <a name="to-cross-dock-items-without-viewing-the-opportunities"></a><a name="to-cross-dock-items-without-viewing-the-opportunities"></a><a name="to-cross-dock-items-without-viewing-the-opportunities"></a>Slik kryssoverfører du varer uten å vise mulighetene
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagermottak** og velg den relaterte koblingen.  
 2.  Opprett et lagermottak for en vare som er ankommet, og som kanskje kan kryssoverføres. Hvis du vil ha mer informasjon, kan du se [Motta varer](warehouse-how-receive-items.md).  
 3.  Fyll ut feltet **Motta (antall)**, og velg deretter **Beregn kryssoverføring**-handlingen.  
@@ -84,7 +84,7 @@ De ansatte kan enkelt forstå hvorfor hele antallet ikke er plassert i lageret.
 6.  Skriv ut plasseringsinstruksjonen for de resterende linjene, og plasser de antallene av mottaket som skal lagres i de passende hyllene eller i det passende området av lageret. Plasser de kryssoverførte varene i området eller hyllen som er definert for dem av lagerets prinsipper. Enkelte ganger kan lagerets retningslinjer kreve at du lar dem ligge i mottaksområdet.  
 7.  Velg **Registrer**-handlingen for å registrere de kryssoverførte varene som plassert og tilgjengelig for plukking.  
 
-## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a><a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Slik kryssoverfører du varer etter å ha vist mulighetene
+## <a name="to-cross-dock-items-after-viewing-the-opportunities"></a><a name="to-cross-dock-items-after-viewing-the-opportunities"></a><a name="to-cross-dock-items-after-viewing-the-opportunities"></a>Slik kryssoverfører du varer etter å ha vist mulighetene
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagermottak** og velg den relaterte koblingen.  
 2.  Opprett et lagermottak for en vare som er ankommet, og som kanskje kan kryssoverføres. Hvis du vil ha mer informasjon, kan du se [Motta varer](warehouse-how-receive-items.md).  
 
@@ -101,7 +101,7 @@ De ansatte kan enkelt forstå hvorfor hele antallet ikke er plassert i lageret.
 > [!NOTE]  
 >  I plasseringen kan du fortsette å endre antallene som blir plassert på lager eller kryssoverført, slik det er nødvendig. Du kan for eksempel bestemme deg for å kryssoverføre et ekstra antall for å få registreringen av kryssoverføringen til å gå raskere.  
 
-## <a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet"></a><a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet"></a>Slik viser du kryssoverførte varer i en følgeseddel eller et plukkforslag
+## <a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet"></a><a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet"></a><a name="to-view-cross-docked-items-in-a-shipment-or-pick-worksheet"></a>Slik viser du kryssoverførte varer i en følgeseddel eller et plukkforslag
 Hvis du bruker hyller, kan du, hver gang du åpner en følgeseddel eller plukkforslaget, se en oppdatert beregning av antallet for hver vare i kryssoverføringshyllene. Dette er verdifull informasjon hvis du venter på at en vare skal komme inn. Når du ser at varen er tilgjengelig i kryssoverføringshyllen, kan du raskt opprette en plukking for alle varene i leveringen. I plukkforslaget kan du endre linjene slik det passer, og deretter opprette en plukking.  
 
 Du må se etter varer i kryssoverføringsområdet før du plukker varer for levering. Hvis du under mottaksprosessen har merket deg hvilke kildedokumenter som var grunnlaget for kryssoverføringen, vil du ha en bedre forståelse av om varen finnes i kryssoverføringsområdet eller ikke.  
@@ -110,7 +110,7 @@ Når en produksjonsordre er frigitt, er linjene tilgjengelige i plukkforslaget, 
 
 Hvis du ikke bruker hyller, må du huske å kontrollere kryssoverføringsområdet jevnlig. Hvis ikke, må du stole på varsler fra mottak om at varene for produksjon er ankommet.  
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 [Lager](inventory-manage-inventory.md)  
 [Definer lagerstyring](warehouse-setup-warehouse.md)     
 [Monteringsstyring](assembly-assemble-items.md)    

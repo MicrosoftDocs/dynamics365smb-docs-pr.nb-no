@@ -11,10 +11,10 @@ ms.search.form: 472
 ms.date: 06/18/2021
 ms.author: edupont
 ---
-# <a name="calculate-proportional-vat-in-the-norwegian-version"></a><a name="calculate-proportional-vat-in-the-norwegian-version"></a>Beregne forholdsmessig mva. i den norske versjonen
+# <a name="calculate-proportional-vat-in-the-norwegian-version"></a><a name="calculate-proportional-vat-in-the-norwegian-version"></a><a name="calculate-proportional-vat-in-the-norwegian-version"></a>Beregne forholdsmessig mva. i den norske versjonen
 Du kan bruke forholdsmessig MVA til å beregne MVA når både fradragsberettiget og ikke-fradragsberettiget MVA forekommer. Siden det er vanskelig å vite hvor og hvordan varen blir brukt, må du ta kontakt med norske skattemyndigheter for å finne ut om en angitt prosentandel MVA kan gå til fradrag basert på historiske data.  
 
-### <a name="to-calculate-proportional-vat"></a><a name="to-calculate-proportional-vat"></a>Slik beregner du forholdsmessig MVA:
+### <a name="to-calculate-proportional-vat"></a><a name="to-calculate-proportional-vat"></a><a name="to-calculate-proportional-vat"></a>Slik beregner du forholdsmessig MVA:
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.  
 2.  På siden **Mva-bokføringsoppsett** fyller du ut feltene som beskrevet i tabellen nedenfor.  
@@ -26,7 +26,7 @@ Du kan bruke forholdsmessig MVA til å beregne MVA når både fradragsberettiget
 
 3.  Velg **OK**-knappen.  
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
  [Forholdsmessig MVA](proportional-vat.md)   
  [Funksjonalitet som er spesifikk for norske brukere](norway-local-functionality.md)   
  

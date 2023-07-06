@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '931, 9314, 9313, 9315, 9330'
 ---
-# <a name="split-warehouse-activity-lines"></a><a name="split-warehouse-activity-lines"></a>Dele lageraktivitetslinjer
+# <a name="split-warehouse-activity-lines"></a><a name="split-warehouse-activity-lines"></a><a name="split-warehouse-activity-lines"></a>Dele lageraktivitetslinjer
 
 I plasseringer, flyttinger eller plukkinger og i lagerplasseringer og lagerplukkinger foreslås det hyller for plukking eller plassering av varer. Antallet som er faktisk i den foreslåtte hyllen, er kanskje ikke tilstrekkelig, eller det er ikke nok plass i hyllen til å plassere det nødvendige antallet. I slike tilfeller kan du dele linjen slik at varene på en linje blir hentet fra eller plassert i flere enn én hylle.  
 
@@ -23,7 +23,7 @@ Følgende fremgangsmåte gjelder følgende lagerdokumenter:
 * Lagerflyttinger
 * Lagerplukk  
 
-## <a name="to-split-warehouse-activity-lines"></a><a name="to-split-warehouse-activity-lines"></a>Slik deler du lageraktivitetslinjer:
+## <a name="to-split-warehouse-activity-lines"></a><a name="to-split-warehouse-activity-lines"></a><a name="to-split-warehouse-activity-lines"></a>Slik deler du lageraktivitetslinjer:
 
 1. Åpne en lageraktivitetslinje hvor du prøver å håndtere et utilstrekkelig antall.  
 2. Angi det reduserte antallet du kan håndtere, i feltet **Ant. som skal håndt.**.  
@@ -33,7 +33,7 @@ Følgende fremgangsmåte gjelder følgende lagerdokumenter:
 > [!NOTE]  
 > Hvis lokasjonen bruker lagerstyring og du deler linjene, må du være kjent med lageret, og du må være i stand til å velge en hylle som samsvarer med lagringskravene for varen, og som oppfyller de generelle kravene i lagerdokumentet. Du bør for eksempel ikke dele en linje i et plukkdokument og plasser noen varer i masselagringen.  
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

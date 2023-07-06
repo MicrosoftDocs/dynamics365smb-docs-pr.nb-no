@@ -10,7 +10,7 @@ ms.search.form: '30, 31'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="setup-best-practices-costing-method"></a><a name="setup-best-practices-costing-method"></a>Anbefalte fremgangsmåter for oppsett: lagermetode
+# <a name="setup-best-practices-costing-method"></a><a name="setup-best-practices-costing-method"></a><a name="setup-best-practices-costing-method"></a>Anbefalte fremgangsmåter for oppsett: lagermetode
 
 **Lagermetode** på varekortet definerer varekostnadsflyten, og om en faktisk eller budsjettert verdi kapitaliseres og brukes i kostnadsberegningen.  
 
@@ -26,7 +26,7 @@ Tabellen nedenfor gir nyttige tips om hvordan du setter opp **Lagermetode**-felt
 |Serienummer|Bruk i produksjon av eller handel med lett gjenkjennelige varer med relativt høy enhetskost.<br /><br /> Bruk for varer som er underlagt regulering.<br /><br /> Bruk for varer med serienummer.|Enhetskosten for en vare er den nøyaktige kosten da den bestemte enheten ble mottatt.|
 |Standard|Bruk der kostnadskontroll er kritisk.<br /><br /> Bruk i gjentatt produksjon for å verdsette kostnadene for direkte materialer, direkte arbeid og indirekte produksjon.<br /><br /> Bruk der det er disiplin og ansatte for å opprettholde standardene.|Enhetskosten for en vare er forhåndsinnstilt basert på estimert kostnad.<br /><br /> Når de faktiske kostnadene senere realiseres, må standardkosten justeres til faktisk kost gjennom avviksverdier.|  
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Designdetaljer: Kostmetoder](design-details-costing-methods.md)  
 [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)  

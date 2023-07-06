@@ -12,7 +12,7 @@ ms.date: 06/16/2021
 ms.author: edupont
 ---
 
-# <a name="manage-inventory"></a><a name="manage-inventory"></a>Håndter lager
+# <a name="manage-inventory"></a><a name="manage-inventory"></a><a name="manage-inventory"></a>Håndter lager
 
 Du må opprette et varekort av typen **Lager** for hvert fysiske produkt du handler i. Varer du tilbyr til kunder, men ikke har på lager, kan du registrere som katalogvarer, som du kan konvertere til lagervarer når det er nødvendig. Du kan øke eller redusere antall varer på lager ved å bokføre direkte til varepostene, for eksempel etter en fysisk opptelling eller hvis du ikke registrerer kjøp.
 
@@ -25,13 +25,13 @@ Hvis du vil ha bedre oversikt over varene og hjelp til å finne dem, kan du kate
 
 Planlegging for varer for å oppfylle behovet dekkes som en del av funksjonaliteten for forsyningsplanlegging. Finn ut mer under [Planlegging](production-planning.md).  
 
-## <a name="inventory-reconciliation"></a><a name="inventory-reconciliation"></a>Lageravstemming
+## <a name="inventory-reconciliation"></a><a name="inventory-reconciliation"></a><a name="inventory-reconciliation"></a>Lageravstemming
 
 Når du bokfører lagertransaksjoner, for eksempel følgesedler, kjøpsfakturaer eller lagerjusteringer, registreres endringene i varekostnader i vareverdipostene. For å gjenspeile endringen i lagerverdien i regnskapet, blir lagerkost automatisk bokført til de relaterte lagerkontoene i Finans. For hver lagertransaksjon du bokfører, bokføres de aktuelle verdiene i lagerkontoen, justeringskontoen og vareforbrukskontoen i Finans. Finn ut mer under [Avstem lagerkost med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md).
 
 Selv om lagerkost bokføres automatisk til finans, er det fortsatt nødvendig å sikre at kostbeløpene for varer videresendes til de relaterte utgående salgstransaksjonene. Dette er særlig viktig i situasjoner der du selger varer før du fakturerer kjøpet av varene. Dette kalles kostjustering. Varekostnader justeres automatisk når du bokfører varetransaksjoner, men du kan også justere varekostnader manuelt. Finn ut mer under [Juster varekost](inventory-how-adjust-item-costs.md).  
 
-## <a name="related-tasks"></a><a name="related-tasks"></a>Beslektede oppgaver
+## <a name="related-tasks"></a><a name="related-tasks"></a><a name="related-tasks"></a>Beslektede oppgaver
 
 Tabellen nedenfor beskriver beslektede oppgaver.
 
@@ -55,9 +55,9 @@ Tabellen nedenfor beskriver beslektede oppgaver.
 |Håndter forretningsdriften i salgskontorer, innkjøpsavdelinger eller anleggsplanleggingskontorer på tvers av flere lokasjoner.|[Arbeide med ansvarssentre](inventory-responsibility-centers.md)|
 |Bruk ressurser med bestemte funksjoner for forskjellige tjenester og servicevarer.|[Definer ressurstildeling](service-how-setup-resource-allocation.md)|
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/get-started-inventory-management/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/get-started-inventory-management/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Kjøp](purchasing-manage-purchasing.md)  

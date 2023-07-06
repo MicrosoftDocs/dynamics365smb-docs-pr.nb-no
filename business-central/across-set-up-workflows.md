@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/13/2022
 ms.author: edupont
 ---
-# <a name="set-up-approval-workflows"></a><a name="set-up-approval-workflows"></a>Konfigurere arbeidsflyter for godkjenning
+# <a name="set-up-approval-workflows"></a><a name="set-up-approval-workflows"></a><a name="set-up-approval-workflows"></a>Konfigurere arbeidsflyter for godkjenning
 
 Du kan definere og bruke arbeidsflyter som kobler forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflyter, før eller etterfulgt av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn. Finn ut mer under [Bruk godkjenningsarbeidsflyter](across-use-workflows.md).
 
@@ -35,16 +35,16 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 |Del arbeidsflyter med andre [!INCLUDE[prod_short](includes/prod_short.md)]-databaser.|[Importer og eksporter godkjenningsarbeidsflyter](across-how-to-export-and-import-workflows.md)|  
 |Lær hvordan du konfigurerer en arbeidsflyt for godkjenning av salgsdokumenter ved å følge en ende-til-ende-fremgangsmåte.|[Gjennomgang: Definer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)|  
 
-## <a name="example-of-an-approval-workflow"></a><a name="example-of-an-approval-workflow"></a>Eksempel på en godkjenningsarbeidsflyt
+## <a name="example-of-an-approval-workflow"></a><a name="example-of-an-approval-workflow"></a><a name="example-of-an-approval-workflow"></a>Eksempel på en godkjenningsarbeidsflyt
 
 Denne videoen viser hvordan du konfigurerer en arbeidsflyt som krever at en bruker ber om en annens godkjenning før de kan endre informasjon om en eksisterende kunde eller opprette en ny kunde.  
 <br><br>  
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Bruk godkjenningsarbeidsflyter](across-use-workflows.md)  
 [Arbeidsflyt](across-workflow.md)  

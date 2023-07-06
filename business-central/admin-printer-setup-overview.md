@@ -10,11 +10,11 @@ ms.date: 02/10/2023
 ms.custom: bap-template
 ---
 
-# <a name="printer-setup-and-management-overview"></a><a name="printer-setup-and-management-overview"></a>Oversikt over skriveroppsett og -behandling
+# <a name="printer-setup-and-management-overview"></a><a name="printer-setup-and-management-overview"></a><a name="printer-setup-and-management-overview"></a>Oversikt over skriveroppsett og -behandling
 
 Utskrift av dokumenter og rapporter fra [!INCLUDE[prod_short](includes/prod_short.md)] er en viktig oppgave for forretningsbrukere. Du vil vanligvis sende utskriftsjobber direkte til en av skriverne i organisasjonen uansett hvilken [!INCLUDE[prod_short](includes/prod_short.md)]-klient eller -app du bruker. Ettersom [!INCLUDE[prod_short](includes/prod_short.md)] Online er en skytjeneste, kan den ikke kommunisere direkte med lokale skrivere som er koblet til brukernes enheter, men du kan koble til skyaktiverte skrivere.
 
-## <a name="what-are-your-printer-possibilities-in-business-central"></a><a name="what-are-your-printer-possibilities-in-business-central"></a>Hva er skrivermulighetene i Business Central?
+## <a name="what-are-your-printer-possibilities-in-business-central"></a><a name="what-are-your-printer-possibilities-in-business-central"></a><a name="what-are-your-printer-possibilities-in-business-central"></a>Hva er skrivermulighetene i Business Central?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tilbyr følgende funksjoner for å støtte dine utskriftsbehov:
 
@@ -29,13 +29,13 @@ Det meste av arbeidet med å opprette skrivere kan gjøres fra siden **Utskrifts
 > [!IMPORTANT]
 > For den lokale versjonen av Business Central kan du bruke universell utskrift og utskrift via e-post der godkjenning med Azure Active Directory (AD) eller NavUserPassword brukes.
 
-## <a name="custom-printer-extensions"></a><a name="custom-printer-extensions"></a>Egendefinerte skriverutvidelser
+## <a name="custom-printer-extensions"></a><a name="custom-printer-extensions"></a><a name="custom-printer-extensions"></a>Egendefinerte skriverutvidelser
 
 [!INCLUDE[prod_short](includes/prod_short.md)] støtter også andre egendefinerte skriverinnstillinger som legger til enda flere utskriftsfunksjoner. Hvis du har noen egendefinerte skrivere installert, kan det derfor hende at programmet inneholder utskriftsfunksjoner som ikke er beskrevet i denne artikkelen.
 
 Hvis du er en AL-utvikler og vil finne ut hvordan du oppretter skriverutvidelser, kan du gå til [Utvikle skriverutvidelser i Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-reports-printing).
 
-## <a name="next-steps"></a><a name="next-steps"></a>Neste trinn
+## <a name="next-steps"></a><a name="next-steps"></a><a name="next-steps"></a>Neste trinn
 
 - [Konfigurer skrivere for Universell utskrift](admin-printer-setup-universal-print.md)  
 - [Konfigurer e-postskrivere](admin-printer-setup-email.md)  

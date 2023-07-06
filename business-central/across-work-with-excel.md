@@ -10,11 +10,11 @@ ms.search.keywords: 'accountant, accounting, financial report'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# <a name="viewing-and-editing-in-excel-from-business-central"></a><a name="viewing-and-editing-in-excel-from-business-central"></a>Vise og redigere i Excel fra Business Central
+# <a name="viewing-and-editing-in-excel-from-business-central"></a><a name="viewing-and-editing-in-excel-from-business-central"></a><a name="viewing-and-editing-in-excel-from-business-central"></a>Vise og redigere i Excel fra Business Central
 
 Med sider som viser en oversikt over poster i rader og kolonner, som en liste over kunder, ordrer eller fakturaer, kan du også eksportere listen til Microsoft Excel og vise den der. Avhengig av hvilken side du har, kan du vise to alternativer i Excel. Begge alternativene er tilgjengelige fra **Del**-ikonet ![Del en side i en annen app.](media/share-icon.png) øverst på en side. Du kan enten velge **Åpne i Excel**-handling eller **Rediger i Excel**-handlingen på siden. Denne artikkelen beskriver de to handlingene.
 
-## <a name="open-in-excel"></a><a name="open-in-excel"></a>Åpne i Excel
+## <a name="open-in-excel"></a><a name="open-in-excel"></a><a name="open-in-excel"></a>Åpne i Excel
 
 Med handlingen **Åpne i Excel** kan du gjøre endringer i postene i Excel, men du kan ikke publisere endringene tilbake til [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan bare lagre endringene i Excel-filen, uten at det påvirker dataene i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -32,7 +32,7 @@ Med handlingen **Åpne i Excel** kan du gjøre endringer i postene i Excel, men 
 > I Excel har hele tall i kolonner et desimaltegn på slutten (som et punktum `.` eller komma `,`), selv om desimaltegnet ikke vises i Business Central. Desimalsymbolet er avhengig av enhetens områdeinnstillinger. I Business Central kan for eksempel `10` vises som `10.` eller `10,` i Excel. Du kan endre formatet i Excel ved å velge verdiene og deretter velge <kbd>Ctrl</kbd>+<kbd>1</kbd>. Hvis du vil ha mer informasjon om hvordan du endrer tallformatet i Excel, kan du gå til [Formatnumre](https://support.microsoft.com/office/format-numbers-f27f865b-2dc5-4970-b289-5286be8b994a).
 
 
-## <a name="edit-in-excel"></a><a name="edit-in-excel"></a>Rediger i Excel
+## <a name="edit-in-excel"></a><a name="edit-in-excel"></a><a name="edit-in-excel"></a>Rediger i Excel
 
 Handlingen **Rediger i Excel** er tilgjengelig i de fleste listene, men ikke alle. Med handlingen **Rediger i Excel** kan du gjøre endringer i postene i Excel og deretter publisere endringene tilbake til [!INCLUDE[prod_short](includes/prod_short.md)]. Når Excel åpnes, vises ruten for **Excel-tillegg** til høyre.
 
@@ -41,13 +41,13 @@ Handlingen **Rediger i Excel** er tilgjengelig i de fleste listene, men ikke all
 - Du får de siste dataene fra [!INCLUDE[prod_short](includes/prod_short.md)] ved å velge **Oppdater** i ruten Excel-tillegg.
 - [!INCLUDE[open-edit-excel](includes/open-and-edit-excel.md)]
 
-### <a name="first-time-sign-in"></a><a name="first-time-sign-in"></a>Første pålogging
+### <a name="first-time-sign-in"></a><a name="first-time-sign-in"></a><a name="first-time-sign-in"></a>Første pålogging
 
 Handlingen **Rediger i Excel** krever at Business Central-tillegget er installert i Excel. I noen tilfeller har administratoren kanskje ordnet det slik at tillegget installeres automatisk. I dette tilfellet må du bare logge deg på Business Central i ruten **Excel-tillegg** med brukernavn og passord. Ellers åpnes ruten **Ny Office-tillegg**. Hvis du vil installere tillegget, velger du **Klarer dette tillegget**, noe som installerer tillegget direkte fra Office store.
 
 Hvis tillegget ikke blir installert, kontakter du administratoren eller prøver å installere det manuelt. Hvis du vil ha mer informasjon, kan du se [Installer tillegget manuelt for egen bruk](admin-deploy-excel-addin.md#install).
 
-### <a name="work-across-environments-and-companies"></a><a name="work-across-environments-and-companies"></a>Arbeide på tvers av miljøer og selskaper
+### <a name="work-across-environments-and-companies"></a><a name="work-across-environments-and-companies"></a><a name="work-across-environments-and-companies"></a>Arbeide på tvers av miljøer og selskaper
 
 Du kan bytte ut selskapet du arbeider med. Hvis du vil bytte selskap, velger du ikonet **Alternativer** ![Alternativer for Excel-tillegg.](media/cogwheel.png "Alternativer for Excel-tillegg") i ruten Excel-tillegg og velger selskapet fra feltet **Selskap**.  
 
@@ -61,18 +61,18 @@ Hvis du gjør endringer i tillegget, må du laste det inn på nytt for å oppdat
 >
 > For [!INCLUDE[prod_short](includes/prod_short.md)] lokalt er handlingen **Rediger i Excel** bare tilgjengelig hvis Excel-tillegget er konfigurert av systemansvarlig, og den er bare tilgjengelig for webklienten. For administratorer, hvis du vil vite hvordan du installerer Excel-tilleggskomponenten, se [Definere Excel-tillegget for redigering av Business Central-data](/dynamics365/business-central/dev-itpro/administration/configuring-excel-addin).
 
-### <a name="limits-when-using-excel-for-the-web"></a><a name="limits-when-using-excel-for-the-web"></a>Begrensninger når du bruker Excel for nettet
+### <a name="limits-when-using-excel-for-the-web"></a><a name="limits-when-using-excel-for-the-web"></a><a name="limits-when-using-excel-for-the-web"></a>Begrensninger når du bruker Excel for nettet
 
 Når **Rediger i Excel** brukes på listesider for tabeller med mange kolonner, kan den resulterende arbeidsboken inneholde for mange kolonner for at filen kan vises i Excel for nettet. [!INCLUDE[prod_short](includes/prod_short.md)] begrenser automatisk den eksporterte arbeidsboken til 100 kolonner når OneDrive er konfigurert for systemfunksjoner. 
 
-## <a name="see-the-differences-between-the-options"></a><a name="see-the-differences-between-the-options"></a>Se forskjellene mellom alternativene
+## <a name="see-the-differences-between-the-options"></a><a name="see-the-differences-between-the-options"></a><a name="see-the-differences-between-the-options"></a>Se forskjellene mellom alternativene
 <br><br>  
 
 > [!Video https://go.microsoft.com/fwlink/?linkid=2086039]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md)  
 [Arbeid med Business Central](ui-work-product.md)  

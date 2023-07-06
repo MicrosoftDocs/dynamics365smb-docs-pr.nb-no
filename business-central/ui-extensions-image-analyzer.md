@@ -12,7 +12,7 @@ ms.date: 05/19/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-image-analyzer-extension"></a><a name="the-image-analyzer-extension"></a>Image Analyzer-utvidelsen
+# <a name="the-image-analyzer-extension"></a><a name="the-image-analyzer-extension"></a><a name="the-image-analyzer-extension"></a>Image Analyzer-utvidelsen
 
 Image Analyzer-utvidelsen bruker kraftig bildeanalyse fra API-et for visuelt innhold for Azure Cognitive Services til å registrere attributter på bilder du importerer for varer og kontaktpersoner, slik at du enkelt kan gå gjennom og tilordne dem. Når det gjelder varer, kan attributter angi om varen er et bord eller en bil og om den er rød eller blå. Når det gjelder kontaktpersoner, kan attributter være kjønn eller alder.
 
@@ -22,11 +22,11 @@ Image Analyzer er gratis i [!INCLUDE[prod_short](includes/prod_short.md)], men d
 
 Når du har aktivert utvidelsen, kjører Image Analyzer hver gang du importerer et bilde til en vare eller kontaktperson. Attributter, konfidensnivå og detaljer vises med en gang, og du bestemmer hva du vil gjøre med hvert attributt. Hvis du importerte bilder før du aktiverte Image Analyzer-utvidelsen, må du gå til vare- eller kontaktkortene og velge handlingen **Analyser bilde**.  
 
-## <a name="privacy-notice"></a><a name="privacy-notice"></a>Personvernerklæring
+## <a name="privacy-notice"></a><a name="privacy-notice"></a><a name="privacy-notice"></a>Personvernerklæring
 
 Denne utvidelsen bruker API-en for visuelt innhold fra Azure Cognitive Services, som kan ha andre typer samsvarsforpliktelser enn [!INCLUDE[prod_short](includes/prod_short.md)]. Når du aktiverer Image Analyzer-utvidelsen, sendes kundedata, for eksempel kontaktbilde eller varebilde, til API-en for visuelt innhold. Ved å installere denne utvidelsen godtar du at dette begrensede settet med data sendes til API-en for visuelt innhold. Vær oppmerksom på at du kan deaktivere og avinstallere, Image Analyzer-utvidelsen når som helst for å slutte å bruke denne funksjonen. Hvis du vil ha mer informasjon, kan du se [Microsoft Klareringssenter](https://go.microsoft.com/fwlink/?linkid=851463).
 
-## <a name="requirements"></a><a name="requirements"></a>Krav
+## <a name="requirements"></a><a name="requirements"></a><a name="requirements"></a>Krav
 
 Noen få krav er gjeldende for bildene:
 
@@ -34,7 +34,7 @@ Noen få krav er gjeldende for bildene:
 * Maksimum filstørrelse: mindre enn 4 MB  
 * Bildedimensjoner: større enn 50 x 50 piksler  
 
-## <a name="switch-on-the-image-analyzer-extension"></a><a name="switch-on-the-image-analyzer-extension"></a>Bryter på Image Analyzer-utvidelsen
+## <a name="switch-on-the-image-analyzer-extension"></a><a name="switch-on-the-image-analyzer-extension"></a><a name="switch-on-the-image-analyzer-extension"></a>Bryter på Image Analyzer-utvidelsen
 
 Image Analyzer-utvidelsen er bygd inn i [!INCLUDE[prod_short](includes/prod_short.md)]. Du trenger bare å slå den på.
 
@@ -49,7 +49,7 @@ Gjør en av følgende handlinger for å aktivere Image Analyzer-utvidelsen:
     > [!TIP]  
     > På siden **Oppsett for bildeanalyse** kan du også endre graden av konfidens for attributtforslag. Hvis du for eksempel vil kreve en større grad av konfidens, kan du angi en høyere prosentsats.
 
-## <a name="analyze-an-item-image"></a><a name="analyze-an-item-image"></a>Analyser et varbilde
+## <a name="analyze-an-item-image"></a><a name="analyze-an-item-image"></a><a name="analyze-an-item-image"></a>Analyser et varbilde
 
 Fremgangsmåten nedenfor beskriver hvordan du analyserer et bilde som ble importert før du aktiverte Image Analyzer-utvidelsen.  
 
@@ -69,7 +69,7 @@ Feltet **Handling som skal utføres** har følgende alternativer:
 > [!NOTE]  
 > Som standard viser **Vareattributter** attributter der **Konfidensresultat** er over **Terskel-% for konfidensresultat** som er definert i **Oppsett for bildeanalyse**. Hvis du vil vise alle registrerte attributter, velger du handlingen **Vis alle attributter**.
 
-## <a name="analyze-a-contact-person-picture"></a><a name="analyze-a-contact-person-picture"></a>Analyser et bilde av en kontaktperson
+## <a name="analyze-a-contact-person-picture"></a><a name="analyze-a-contact-person-picture"></a><a name="analyze-a-contact-person-picture"></a>Analyser et bilde av en kontaktperson
 
 Fremgangsmåten nedenfor beskriver hvordan du analyserer et bilde som ble importert før du aktiverte Image Analyzer-utvidelsen.  
 
@@ -90,7 +90,7 @@ Fremgangsmåten nedenfor beskriver hvordan du analyserer et bilde som ble import
     >
     > API-en for visuelt innhold returnerer ikke et konfidensnivå for attributtene alder og kjønn.
   
-## <a name="use-your-own-computer-vision-api-account"></a><a name="use-your-own-computer-vision-api-account"></a>Bruk din egen konto for API-et for visuelt innhold
+## <a name="use-your-own-computer-vision-api-account"></a><a name="use-your-own-computer-vision-api-account"></a><a name="use-your-own-computer-vision-api-account"></a>Bruk din egen konto for API-et for visuelt innhold
 
 Du kan også bruke din egen konto for API-et for visuelt innhold, for eksempel hvis du vil analysere flere bilder enn standardintegreringen tilbyr.
 
@@ -100,21 +100,21 @@ Du kan også bruke din egen konto for API-et for visuelt innhold, for eksempel h
     > [!NOTE]  
     > Du må legge til **/analyze** på slutten av API-URI-en, hvis det ikke allerede står der. Eksempel: ```https://cronus.api.cognitive.microsoft.com/vision/v2.0/analyze```.
 
-## <a name="see-how-many-analyses-you-have-left-in-the-current-period"></a><a name="see-how-many-analyses-you-have-left-in-the-current-period"></a>Se hvor mange analyser har du igjen i den gjeldende perioden
+## <a name="see-how-many-analyses-you-have-left-in-the-current-period"></a><a name="see-how-many-analyses-you-have-left-in-the-current-period"></a><a name="see-how-many-analyses-you-have-left-in-the-current-period"></a>Se hvor mange analyser har du igjen i den gjeldende perioden
 
 Du kan vise hvor mange analyser du har gjort, og hvor mange du fortsatt kan gjøre, i den gjeldende perioden.  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett for bildeanalyse** og velg den relaterte koblingen.
 2. Feltene **Grensetype**, **Grenseverdi** og **Utførte analyser** gir bruksinformasjonen.  
 
-## <a name="stop-using-the-image-analyzer-extension"></a><a name="stop-using-the-image-analyzer-extension"></a>Slutt å bruke Image Analyzer-utvidelsen
+## <a name="stop-using-the-image-analyzer-extension"></a><a name="stop-using-the-image-analyzer-extension"></a><a name="stop-using-the-image-analyzer-extension"></a>Slutt å bruke Image Analyzer-utvidelsen
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Servicetilkoblinger**, og deretter velger du **Oppsett for bildeanalyse**.  
 2. Fjern feltet **Aktiver Image Analyzer**.  
 
 Du kan eventuelt avinstallere utvidelsen fullstendig. Du kan alltids hente den tilbake fra AppSource. Hvis du vil ha mer informasjon, kan du se [Installere og avinstallere utvidelser i Business Central](ui-extensions-install-uninstall.md#uninstall-an-app).  
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Arbeid med vareattributter](inventory-how-work-item-attributes.md)  
 [Kategorisere varer](inventory-how-categorize-items.md)  

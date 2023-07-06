@@ -11,11 +11,11 @@ ms.search.forms: 729
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="copy-existing-items-to-create-new-items"></a><a name="copy-existing-items-to-create-new-items"></a>Kopiere eksisterende varer for å opprette nye varer
+# <a name="copy-existing-items-to-create-new-items"></a><a name="copy-existing-items-to-create-new-items"></a><a name="copy-existing-items-to-create-new-items"></a>Kopiere eksisterende varer for å opprette nye varer
 
 Når du legger til en ny vare for å spare tid, kan du bruke **Kopier vare**-funksjonen til å kopiere en eksisterende vare som skal brukes som mal for en ny vare.  
 
-## <a name="to-copy-an-existing-item-to-a-new-item"></a><a name="to-copy-an-existing-item-to-a-new-item"></a>Slik kopierer du en eksisterende vare til en ny vare
+## <a name="to-copy-an-existing-item-to-a-new-item"></a><a name="to-copy-an-existing-item-to-a-new-item"></a><a name="to-copy-an-existing-item-to-a-new-item"></a>Slik kopierer du en eksisterende vare til en ny vare
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
 2. Velg varen du vil kopiere, og velg deretter **Kopier vare**-handlingen.  
@@ -29,7 +29,7 @@ Når du legger til en ny vare for å spare tid, kan du bruke **Kopier vare**-fun
 
 4. Klikk **OK** for å kopiere valgene til den nye varen.  
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Registrere nye varer](inventory-how-register-new-items.md)  
 [Definere lager](inventory-setup-inventory.md)  

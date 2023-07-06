@@ -11,7 +11,7 @@ ms.search.form: '6774, 6775, 6776'
 ms.date: 06/25/2021
 ms.author: edupont
 ---
-# <a name="set-up-basic-warehouses-with-operations-areas"></a><a name="set-up-basic-warehouses-with-operations-areas"></a>Opprette grunnleggende lagre med operasjonsområder
+# <a name="set-up-basic-warehouses-with-operations-areas"></a><a name="set-up-basic-warehouses-with-operations-areas"></a><a name="set-up-basic-warehouses-with-operations-areas"></a>Opprette grunnleggende lagre med operasjonsområder
 
 Hvis det finnes interne operasjonsområder, for eksempel produksjon eller montering, i enkle lageroppsett der lokasjoner bruker oppsettsfeltet **Hylle obligatorisk** og muligens oppsettsfeltene **Plukk nødv.** og **Plassering nødv.**, kan du bruke følgende grunnleggende lagerdokumenter til å registrere lageraktivitetene for interne operasjonsområder:  
 
@@ -35,14 +35,14 @@ Fremgangsmåtene nedenfor er basert på definisjon av grunnleggende lageraktivit
 > [!NOTE]  
 >  I den følgende fremgangsmåten velges oppsettsfeltet **Hylle obligatorisk** som en nødvendig forutsetning fordi det regnes som grunnlaget for ethvert nivå av lagerstyring.  
 
-## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a><a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Slik aktiverer du lagerdokumenter for interne operasjonsaktiviteter:
+## <a name="to-enable-inventory-documents-for-internal-operation-activities"></a><a name="to-enable-inventory-documents-for-internal-operation-activities"></a><a name="to-enable-inventory-documents-for-internal-operation-activities"></a>Slik aktiverer du lagerdokumenter for interne operasjonsaktiviteter:
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.
 2. Åpne lokasjonskortet du vil definere.  
 3.  På hurtigfanen **Lager**, merker du av for **Plassering nødv.** for å indikere at når et inngående eller internt kildedokument med hyllekode frigis, kan en lagerplassering eller et lagerflyttingsdokument opprettes.  
 4.  Merk av for **Plukk nødv.** for å indikere at når det opprettes utgående eller internt kildedokument med hyllekode, må det opprettes et lagerplukk- eller en lagerflyttingsdokument.  
 
-## <a name="to-define-a-default-bin-structure-in-the-production-area"></a><a name="to-define-a-default-bin-structure-in-the-production-area"></a>Slik definerer du en standardhyllestruktur i produksjonsområdet:
+## <a name="to-define-a-default-bin-structure-in-the-production-area"></a><a name="to-define-a-default-bin-structure-in-the-production-area"></a><a name="to-define-a-default-bin-structure-in-the-production-area"></a>Slik definerer du en standardhyllestruktur i produksjonsområdet:
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.
 2. Åpne lokasjonen du vil definere.  
@@ -60,7 +60,7 @@ Dette flytdiagrammet viser hvordan **Hyllekode**-feltet på produksjonsordrekomp
 
 ![Flytskjema for hylle.](media/binflow.png "BinFlow")
 
-## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a><a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Slik definerer du en standardhyllestruktur i monteringsområdet:
+## <a name="to-define-a-default-bin-structure-in-the-assembly-area"></a><a name="to-define-a-default-bin-structure-in-the-assembly-area"></a><a name="to-define-a-default-bin-structure-in-the-assembly-area"></a>Slik definerer du en standardhyllestruktur i monteringsområdet:
 
 Komponenter for monteringsordrer kan ikke plukkes eller bokføres med lagerplukk. Bruk i stedet siden **Lagerflytting**. Hvis du vil ha mer informasjon, se [Plukk eller flytt produksjon, montering eller jobber i enkelt lager](warehouse-how-to-pick-for-production.md).
 
@@ -68,12 +68,12 @@ Når du plukker og leverer salgslinjeantall som er montert til ordre, må du fø
 
 Hvis du vil ha mer informasjon, se [Monteringsstyring](assembly-assemble-items.md).
 
-### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a><a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Slik konfigurerer du at en lagerflytting opprettes automatisk når lagerplukkingen for monteringsvaren opprettes
+### <a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a><a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a><a name="to-set-up-that-an-inventory-movement-is-automatically-created-when-the-inventory-pick-for-the-assembly-item-is-created"></a>Slik konfigurerer du at en lagerflytting opprettes automatisk når lagerplukkingen for monteringsvaren opprettes
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Monteringsoppsett** og velger den relaterte koblingen.
 2. Merk av for **Opprett flyttinger automatisk**.
 
-### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a><a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Slik definerer du hyllen i monteringsområdet der komponenter plasseres som standard, før de kan brukes i monteringen:
+### <a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a><a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a><a name="to-set-up-the-bin-in-the-assembly-area-where-components-are-placed-by-default-before-they-can-be-consumed-in-assembly"></a>Slik definerer du hyllen i monteringsområdet der komponenter plasseres som standard, før de kan brukes i monteringen:
 
 Verdien i dette feltet settes automatisk inn i **Hyllekode**-feltet på monteringsordrelinjer når denne lokasjonen angis i **Lokasjonskode**-feltet på monteringsordrelinjen.
 
@@ -81,7 +81,7 @@ Verdien i dette feltet settes automatisk inn i **Hyllekode**-feltet på monterin
 2. Åpne lokasjonen du vil definere.
 3. Fyll ut feltet **Til-Hyllekode for montering**.
 
-### <a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a><a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a>Slik definerer du hvilken hylle i monteringsområdet ferdige monteringsvarer bokføres til når de monteres til lager:
+### <a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a><a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a><a name="to-set-up-the-bin-in-the-assembly-area-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-stock"></a>Slik definerer du hvilken hylle i monteringsområdet ferdige monteringsvarer bokføres til når de monteres til lager:
 
 Verdien i dette feltet settes automatisk inn i **Hyllekode**-feltet på monteringsordrehoder når denne lokasjonskoden fylles ut i **Lokasjonskode**-feltet på monteringsordrehodet.
 
@@ -94,7 +94,7 @@ Hyllekoder som er definert på lokasjonskort, definerer en standard lagerflyt fo
 2. Åpne lokasjonen du vil definere.
 3. Fyll ut feltet **Fra-Hyllekode for montering**.
 
-### <a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a><a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a>Slik definerer du hvilken hylle ferdige monteringsvarer bokføres til, når de monteres til en tilknyttet ordre:
+### <a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a><a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a><a name="to-set-up-the-bin-where-finished-assembly-items-are-posted-to-when-they-are-assembled-to-a-linked-sales-order"></a>Slik definerer du hvilken hylle ferdige monteringsvarer bokføres til, når de monteres til en tilknyttet ordre:
 
 Fra denne hyllen sendes monteringsvarene øyeblikkelig, via en lagerplukking, for å innfri ordren.
 
@@ -116,7 +116,7 @@ Den samme hyllekoden kopieres så til **Hyllekode**-feltet på lagerplukklinjen 
 2. Åpne lokasjonen du vil definere.
 3. Fyll ut feltet **Hyllek. lev. fra m. til ordre**.
 
-## <a name="to-create-dedicated-component-bins"></a><a name="to-create-dedicated-component-bins"></a>Slik oppretter du dedikerte komponenthyller:
+## <a name="to-create-dedicated-component-bins"></a><a name="to-create-dedicated-component-bins"></a><a name="to-create-dedicated-component-bins"></a>Slik oppretter du dedikerte komponenthyller:
 
 Du kan angi at antall i en hylle beskyttes mot å bli plukket for andre behov enn behov fra deres gjeldende formål.
 
@@ -136,9 +136,9 @@ Dedikering av hyller gir lignende funksjonalitet som bruk av hylletyper, som bar
 > [!NOTE]  
 >  Hyllen må være tom før du kan velge eller fjerne den **Dedikert**-feltet.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/get-started-warehouse-management/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/get-started-warehouse-management/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

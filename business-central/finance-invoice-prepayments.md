@@ -10,7 +10,7 @@ ms.search.form: '42, 42, 48, 50, 52, 9305, 9307'
 ms.date: 12/03/2021
 ms.author: edupont
 ---
-# <a name="invoicing-prepayments"></a><a name="invoicing-prepayments"></a>Fakturere forskuddsbetalinger
+# <a name="invoicing-prepayments"></a><a name="invoicing-prepayments"></a><a name="invoicing-prepayments"></a>Fakturere forskuddsbetalinger
 
 [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -29,9 +29,9 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Opprette en ordre, justere forskuddsbeløpene og utstede en faktura for forskuddsbeløp.|[Opprette forskuddsfakturaer](finance-how-to-create-prepayment-invoices.md)|  
 |Utstede en ny forskuddsfaktura for tilleggsvarer eller for et nytt innskudd mot den opprinnelige ordren, eller utstede en kreditnota for forskudd.|[Korrigere forskudd](finance-how-to-correct-prepayments.md)|  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/prepayment-invoices-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Gjennomgang: Konfigurer og fakturer salgsforskudd](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finans](finance.md)  

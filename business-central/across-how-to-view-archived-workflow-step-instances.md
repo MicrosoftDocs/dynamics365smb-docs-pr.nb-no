@@ -11,7 +11,7 @@ ms.search.form: '1530,'
 ms.date: 09/09/2022
 ms.author: edupont
 ---
-# <a name="view-archived-workflow-step-instances"></a><a name="view-archived-workflow-step-instances"></a>Vise arkiverte forekomster av arbeidsflyttrinn
+# <a name="view-archived-workflow-step-instances"></a><a name="view-archived-workflow-step-instances"></a><a name="view-archived-workflow-step-instances"></a>Vise arkiverte forekomster av arbeidsflyttrinn
 
 Alle fullførte forekomster for arbeidsflyttrinn lagres på siden **Arkiverte forekomster for arbeidsflyttrinn**.  
 
@@ -20,7 +20,7 @@ På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involv
 > [!NOTE]
 > Hvis du vil vise loggen og statusen for arbeidsflyter ved hjelp av Power Automate-integrering, velger du handlingen **Mine flyter** på siden **Power Automate** og velger deretter en flyt for å vise jobbens kjøringslogg og status.
 
-## <a name="to-view-archived-workflow-step-instances"></a><a name="to-view-archived-workflow-step-instances"></a>Slik viser du arkiverte forekomster av arbeidsflyttrinn:
+## <a name="to-view-archived-workflow-step-instances"></a><a name="to-view-archived-workflow-step-instances"></a><a name="to-view-archived-workflow-step-instances"></a>Slik viser du arkiverte forekomster av arbeidsflyttrinn:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
 2. Åpne arbeidsflyten du vil vise alle arkiverte forekomster av arbeidsflyttrinn for.  
@@ -31,7 +31,7 @@ På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involv
 
    Siden **Arkiverte forekomster for arbeidsflyttrinn** åpnes og viser alle arkiverte forekomster for arbeidsflyttrinn. I feltet **Arbeidsflytkode** kan du se hvilken arbeidsflyt den arkiverte forekomsten av arbeidsflyttrinn tilhørte.  
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Slett godkjenningsarbeidsflyter](across-how-to-delete-workflows.md)  
 [Opprett godkjenningsarbeidsflyter](across-how-to-create-workflows.md)  

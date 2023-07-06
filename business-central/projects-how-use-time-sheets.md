@@ -11,7 +11,7 @@ ms.search.form: '950, 951, 973'
 ms.date: 03/01/2022
 ms.author: edupont
 ---
-# <a name="use-time-sheets"></a><a name="use-time-sheets"></a>Bruk timelister
+# <a name="use-time-sheets"></a><a name="use-time-sheets"></a><a name="use-time-sheets"></a>Bruk timelister
 
 Du kan bruke time lister i [!INCLUDE [prod_short](includes/prod_short.md)] til å spore fravær, og til å spore tid og ressurser som er brukt på et prosjekt. Med tidsbehandling kan du identifisere problemer tidlig og unngå forsinkelser eller kostnadsoverskridelser. Timelister gjør det enkelt for en ressurs å rapportere tidsbruk for en enkeltperson eller en maskin, og en leder kan enkelt se gjennom bruk og tilordning. Denne artikkelen beskriver hvordan du oppretter en timeliste, definerer arbeidstyper, fyller ut timelisten og sender den inn til godkjenning.  
 
@@ -24,7 +24,7 @@ Før du kan bruke timelister, må du definere generell informasjon og angi admin
 > [!TIP]
 > Fra og med lanseringsbølge 2 for 2021 kan du administrere tildelte timelister på en mobil enhet. Det kan imidlertid hende at administratoren må aktivere funksjonen **Funksjonsoppdatering: ny timelistefunksjon** på siden [Funksjonsbehandling](https://businesscentral.dynamics.com/?page=2610) for å bruke denne funksjonen. Hvis du vil ha mer informasjon, kan du se [Definer timelister](projects-how-setup-time-sheets.md).
 
-## <a name="to-create-time-sheets"></a><a name="to-create-time-sheets"></a>Slik oppretter du timelister
+## <a name="to-create-time-sheets"></a><a name="to-create-time-sheets"></a><a name="to-create-time-sheets"></a>Slik oppretter du timelister
 
 Du kan bruke kjørselen **Opprett timelister** til å angi timelister for et angitt antall tidsperioder eller uker. Deretter kan eieren av timelisten åpne den og registrere tid som er brukt på en aktivitet. Du kan også [planlegge kjørselen til å kjøres autoamtisk](ui-work-report.md#ScheduleReport).  
 
@@ -67,7 +67,7 @@ I dette hypotetiske eksemplet ville du da registrere de aktuelle timene i løpet
 >
 > Velg arbeidstype ved å velge knappen :::image type="icon" source="media/assist-edit-icon.png" border="false"::: i feltet **Beskrivelse** ved å velge **Aktivitetsdetaljer** og deretter angi den på siden som åpnes, eller ved å velge den i henholdsvis feltet **Arbeidstypekode** eller **Fraværstypekode**. I dette tilfellet kan du ignorere delen [Slik definerer du arbeidstyper og legger til en til en timeliste](#to-define-work-types-and-add-one-to-a-time-sheet).  
 
-## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a><a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Slik bruker du timelistelinjer på nytt i andre timelister
+## <a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a><a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a><a name="to-reuse-time-sheet-lines-in-other-time-sheets"></a>Slik bruker du timelistelinjer på nytt i andre timelister
 
 Hvis timelisteinformasjon er den samme fra tidsperiode til tidsperiode, kan du spare tid ved å kopiere linjene fra forrige tidsperiode. Deretter angir du bare tidsbruken for den nye perioden.
 
@@ -77,14 +77,14 @@ Hvis timelisteinformasjon er den samme fra tidsperiode til tidsperiode, kan du s
 
 Linjene kopieres, inkludert detaljer som type og beskrivelse. Hvis linjen for eksempel er knyttet til et prosjekt, blir **Prosjektnr.** kopiert. Alle kopierte linjer har statusen **Åpen**. Du kan nå endre linjene etter behov.
 
-## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a><a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Slik kopierer du prosjektplanleggingslinjer til en timeliste:
+## <a name="to-copy-job-planning-lines-to-a-time-sheet"></a><a name="to-copy-job-planning-lines-to-a-time-sheet"></a><a name="to-copy-job-planning-lines-to-a-time-sheet"></a>Slik kopierer du prosjektplanleggingslinjer til en timeliste:
 Fremgangsmåten nedenfor beskriver hvordan du raskt legger til prosjektplanleggingslinjer i en timeliste.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Timelister**, og velg deretter den relaterte koblingen.  
 2. Velg en timeliste for den relevante tidsperioden på siden **Timelister**.  
 3. Velg handlingen **Opprett linjer fra prosjektplanlegging**. Alle typer prosjektplanleggingslinjer i timelisteperioden kopieres til timelisten for personen eller maskinen i feltet **Ressursnr.** i timelisten.
 
-## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a><a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Slik definerer du arbeidstyper og legger til en til en timeliste
+## <a name="to-define-work-types-and-add-one-to-a-time-sheet"></a><a name="to-define-work-types-and-add-one-to-a-time-sheet"></a><a name="to-define-work-types-and-add-one-to-a-time-sheet"></a>Slik definerer du arbeidstyper og legger til en til en timeliste
 
 Du kan definere arbeidstypen for alle timelistelinjer for serviceordrer, prosjektordrer og ressurser. På denne måten kan du legge til informasjon du trenger for å kunne fakturere kunden for ulike typer arbeid.  
 
@@ -98,7 +98,7 @@ Du kan definere arbeidstypen for alle timelistelinjer for serviceordrer, prosjek
 > [!TIP]
 > Lignende trinn gjelder når du skal definere fraværskoder.
 
-## <a name="to-fill-in-time-sheet-lines-and-submit-for-approval"></a><a name="to-fill-in-time-sheet-lines-and-submit-for-approval"></a>Slik fyller du ut timelistelinjer og sender til godkjenning
+## <a name="to-fill-in-time-sheet-lines-and-submit-for-approval"></a><a name="to-fill-in-time-sheet-lines-and-submit-for-approval"></a><a name="to-fill-in-time-sheet-lines-and-submit-for-approval"></a>Slik fyller du ut timelistelinjer og sender til godkjenning
 
 Timelisteregistrering spores i timer, som er standard lagerenhet for ressurser. Som standard viser en timeliste vanlige arbeidsdager fra mandag til fredag.  
 
@@ -129,7 +129,7 @@ Timelisteregistrering spores i timer, som er standard lagerenhet for ressurser. 
     >   En leder kan avvise en timelistelinje som er sendt til godkjenning. Hvis en linje har statusen **Avvist**, kan du gjøre endringer på linjen og deretter velge **Send** på nytt.  
 6. Velg **OK**.
 
-## <a name="to-approve-or-reject-a-time-sheet"></a><a name="to-approve-or-reject-a-time-sheet"></a>Slik godkjenner eller avviser du timelister:
+## <a name="to-approve-or-reject-a-time-sheet"></a><a name="to-approve-or-reject-a-time-sheet"></a><a name="to-approve-or-reject-a-time-sheet"></a>Slik godkjenner eller avviser du timelister:
 En timeliste må sendes inn til godkjenning før den kan brukes. Du kan godkjenne og avvise individuelle linjer på en timeliste eller sende dem tilbake til avsenderen for ytterligere handling. En timeliste kan godkjennes på to måter:
 
 * En timelisteadministrator kan godkjenne en hvilken som helst timeliste.
@@ -148,7 +148,7 @@ En timeliste må sendes inn til godkjenning før den kan brukes. Du kan godkjenn
 
 Når du har godkjent eller avvist en timeliste, kan den ikke endres uten at den åpnes på nytt først. Følgende fremgangsmåte forklarer hvordan du åpner en godkjent eller avvist timeliste på nytt.
 
-## <a name="to-reopen-a-time-sheet"></a><a name="to-reopen-a-time-sheet"></a>Åpne en timeliste på nytt
+## <a name="to-reopen-a-time-sheet"></a><a name="to-reopen-a-time-sheet"></a><a name="to-reopen-a-time-sheet"></a>Åpne en timeliste på nytt
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Administrer timelister** eller **Timelister**, og velg deretter den relaterte koblingen.
 2. Åpne en timeliste fra listen.  
 
@@ -157,14 +157,14 @@ Når du har godkjent eller avvist en timeliste, kan den ikke endres uten at den 
 3. På siden **Timeliste** velger du handlingen **Åpne på nytt**, og deretter velger du handlingen **Alle sendte linjer** for å åpne alle linjer på nytt, eller handlingen **Bare valgte linjer** for å åpne bare linjene som er valgt på siden **Timeliste**.
 4. Velg **OK**. Statusen for timelistelinjen eller -linjene endres til **Sendt**.  
 
-## <a name="to-view-and-approve-time-sheets-by-job"></a><a name="to-view-and-approve-time-sheets-by-job"></a>Slik viser og godkjenner du timelister etter prosjekt
+## <a name="to-view-and-approve-time-sheets-by-job"></a><a name="to-view-and-approve-time-sheets-by-job"></a><a name="to-view-and-approve-time-sheets-by-job"></a>Slik viser og godkjenner du timelister etter prosjekt
 
 På et prosjekt kan du angi en person som er ansvarlig for prosjektet. Denne informasjonen er knyttet til timelistelinjer, og kan brukes til å lage en liste over timelistene som en prosjektleder må gjennomgå og godkjenne. Prosjektlederen for en prosjektgruppe kan for eksempel ha ansvaret for bestemte prosjekter i selskapet. I dette tilfellet bør lederen velges som **Ansvarlig person** på prosjektkortet. I denne visningen av timelisteinformasjon kan du se prosjektoppgaver som er knyttet til et prosjekt, og antall timer som er brukt.
 
 > [!NOTE]
 > For å kunne godkjenne timelister i vinduet **Timeliste for leder etter prosjekt** må du først velge et alternativ for **Timeliste etter jobbgodkjenning** på siden **Ressursoppsett**. Hvis du vil ha mer informasjon, kan du se [Definere ressurser](projects-how-setup-resources.md).
 
-### <a name="to-approve-or-reject-a-time-sheet-by-job"></a><a name="to-approve-or-reject-a-time-sheet-by-job"></a>Slik godkjenner eller avviser du timelister etter prosjekt:
+### <a name="to-approve-or-reject-a-time-sheet-by-job"></a><a name="to-approve-or-reject-a-time-sheet-by-job"></a><a name="to-approve-or-reject-a-time-sheet-by-job"></a>Slik godkjenner eller avviser du timelister etter prosjekt:
 
 1. Skriv inn **Timeliste for leder etter prosjekt** i **Søk**-boksen, og velg deretter den relaterte koblingen. [!INCLUDE[prod_short](includes/prod_short.md)] viser en liste over timelistelinjer som er knyttet til prosjektene du har ansvar for.
 2. Velg handlingen **Godkjenn**, og velg deretter handlingen **Alle sendte linjer** for å godkjenne alle linjer, eller handlingen **Bare valgte linjer** for å godkjenne bare linjene som er valgt på siden **Timeliste**.
@@ -178,7 +178,7 @@ På et prosjekt kan du angi en person som er ansvarlig for prosjektet. Denne inf
 > [!NOTE]
 > Når du har godkjent eller avvist en timelistelinje etter prosjekt, kan den ikke åpnes på nytt eller endres i vinduet **Timeliste**.
 
-## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a><a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Slik bokfører du timelistelinjer i en ressurskladd
+## <a name="to-post-time-sheet-lines-in-a-resource-journal"></a><a name="to-post-time-sheet-lines-in-a-resource-journal"></a><a name="to-post-time-sheet-lines-in-a-resource-journal"></a>Slik bokfører du timelistelinjer i en ressurskladd
 Når du har godkjent timelisteoppføringer for en ressurs, kan du bokføre dem til den relevante ressurskladden.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ressurskladder** og velg den relaterte koblingen.  
@@ -188,7 +188,7 @@ Når du har godkjent timelisteoppføringer for en ressurs, kan du bokføre dem t
 5. Velg handlingen **Bokfør**.  
 6. Hvis du vil bekrefte bokføringen, velger du handlingen **Poster**. Siden **Ressursposter** åpnes med resultatet av bokføringen av ressurskladden.
 
-## <a name="to-post-time-sheet-lines-in-a-job-journal"></a><a name="to-post-time-sheet-lines-in-a-job-journal"></a>Slik bokfører du timelistelinjer i en prosjektkladd
+## <a name="to-post-time-sheet-lines-in-a-job-journal"></a><a name="to-post-time-sheet-lines-in-a-job-journal"></a><a name="to-post-time-sheet-lines-in-a-job-journal"></a>Slik bokfører du timelistelinjer i en prosjektkladd
 Når du har godkjent timelisteoppføringer for et prosjekt, kan du bokføre dem til den relevante prosjektkladden.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
@@ -201,7 +201,7 @@ Når du har godkjent timelisteoppføringer for et prosjekt, kan du bokføre dem 
 5. Velg handlingen **Bokfør**.  
 6. Hvis du vil bekrefte bokføringen, velger du handlingen **Poster**. Siden **Prosjektposter** åpnes med resultatet av bokføringen av ressurskladden.
 
-## <a name="to-archive-time-sheets"></a><a name="to-archive-time-sheets"></a>Slik arkiverer du timelister:
+## <a name="to-archive-time-sheets"></a><a name="to-archive-time-sheets"></a><a name="to-archive-time-sheets"></a>Slik arkiverer du timelister:
 Når du har bokført timelister, kan du arkivere dem for fremtidig referanse. Alle timelistelinjer må være bokført før en timeliste kan arkiveres.
 
 > [!NOTE]  
@@ -212,7 +212,7 @@ Når du har bokført timelister, kan du arkivere dem for fremtidig referanse. Al
 3. På siden **Flytt timelister til arkiv** fyller du ut feltene etter behov, og deretter velger du **OK**-knappen.  
 4. Hvis du vil gå gjennom arkiverte timelister, velger du ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Timelistearkiver** eller **Administrer timelistearkiver**, og velg deretter den relaterte koblingen.
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 [Prosjektstyring](projects-manage-projects.md)  
 [Konfigurere prosjektstyring](projects-setup-projects.md)  
 [Finans](finance.md)  

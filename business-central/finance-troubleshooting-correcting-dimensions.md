@@ -12,11 +12,11 @@ ms.date: 09/27/2021
 ms.author: bholtorf
 ---
 
-# <a name="troubleshooting-and-correcting-dimensions"></a><a name="troubleshooting-and-correcting-dimensions"></a>Feilsøke og korrigere dimensjoner
+# <a name="troubleshooting-and-correcting-dimensions"></a><a name="troubleshooting-and-correcting-dimensions"></a><a name="troubleshooting-and-correcting-dimensions"></a>Feilsøke og korrigere dimensjoner
 
 Finansrapportering og analysevisninger er ofte avhengige av data fra dimensjoner. Til tross for de tilgjengelige beskyttelsestiltakene oppstår det av og til en feil som kan føre til unøyaktighet. Dette emnet beskriver noen av de vanligste feilene og forklarer hvordan du korrigerer dimensjonstilordninger på bokførte transaksjoner, slik at finansrapporter blir nøyaktige.
 
-## <a name="troubleshooting-dimensions-errors"></a><a name="troubleshooting-dimensions-errors"></a>Feilsøke dimensjonsfeil
+## <a name="troubleshooting-dimensions-errors"></a><a name="troubleshooting-dimensions-errors"></a><a name="troubleshooting-dimensions-errors"></a>Feilsøke dimensjonsfeil
 
 Når du bokfører dokumenter eller kladdelinjer som inneholder dimensjoner, kan det oppstå ulike feil, men de er vanligvis knyttet til en uriktig dimensjonskonfigurasjon eller -tilordning.
 
@@ -38,21 +38,21 @@ Når du bokfører dokumenter eller kladdelinjer som inneholder dimensjoner, kan 
 |Uventet dimensjonsverdi for standarddimensjon, der feltet **Verdibokføring** inneholder **Ingen kode**|- %1 %2 skal ikke nevnes.<br />- %1 %2 må ikke nevnes for %3 %4|- Endre feltet **Verdibokføring** på siden **Standarddimensjon**.<br />- Fjerne den motstridende linjen fra dimensjonssettet.|
 |En dimensjonskorrigering ble ikke fullført på riktig måte.||-Velg **Tilbakestill** for å tilbakestille korrigeringen til en utkasttilstand. Endringene tilbakestilles, og du kan kjøre korrigeringen på nytt.|
 
-## <a name="changing-dimension-assignments-after-posting"></a><a name="changing-dimension-assignments-after-posting"></a>Endre dimensjonstilordninger etter bokføring
+## <a name="changing-dimension-assignments-after-posting"></a><a name="changing-dimension-assignments-after-posting"></a><a name="changing-dimension-assignments-after-posting"></a>Endre dimensjonstilordninger etter bokføring
 
 Hvis du oppdager at en feil dimensjon er blitt brukt i bokførte finansposter, kan du korrigere dimensjonsverdiene og oppdatere analysevisningene. Det vil bidra til å bevare økonomiske rapporter og analyse nøyaktig.
 
 > [!IMPORTANT]
 > Funksjonene for å korrigere dimensjoner er bare ment å gjøre finansrapportering nøyaktig. Dimensjonskorrigeringer gjelder bare for finansposter. De endrer ikke dimensjonene som er knyttet til postene i andre poster for den samme transaksjonen. Det oppstår en konflikt mellom dimensjonene som er tilordnet i Finans og underfinans.
 
-### <a name="setting-up-dimension-corrections"></a><a name="setting-up-dimension-corrections"></a>Konfigurere dimensjonskorrigeringer
+### <a name="setting-up-dimension-corrections"></a><a name="setting-up-dimension-corrections"></a><a name="setting-up-dimension-corrections"></a>Konfigurere dimensjonskorrigeringer
 
 Det er to ting å ta hensyn til når du definerer dimensjonskorrigeringer:
 
 * Er det dimensjoner du ikke vil tillate at andre endrer? På siden **Innstillinger for dimensjonskorrigering** angir du hvilke dimensjoner du vil blokkere for endringer.
 * Hvem vil du tillate å endre dimensjoner? Hvis du vil tillate at brukerne gjør endringer, tilordner du tillatelsen **D365-DIMENSJONSKORRIGERING** til brukerne. Tillatelsene gjør det mulig å opprette dimensjonskorrigeringer, kjøre dem og angre om nødvendig. De kan også angi sperrede dimensjoner. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md). 
 
-### <a name="correcting-a-dimension"></a><a name="correcting-a-dimension"></a>Korrigere en dimensjon
+### <a name="correcting-a-dimension"></a><a name="correcting-a-dimension"></a><a name="correcting-a-dimension"></a>Korrigere en dimensjon
 
 Du kan velge én eller flere finansposter manuelt eller bruke filtre til å velge sett med poster. Om nødvendig kan du også legge til eller slette dimensjoner. 
 
@@ -82,44 +82,44 @@ Du kan velge én eller flere finansposter manuelt eller bruke filtre til å velg
 5. Hvis du vil bekrefte at korrigeringen er endret, velger du **Valider dimensjonsendringer**. Hvis du vil ha mer informasjon, kan du se [Validering av dimensjonskorrigeringer](finance-troubleshooting-correcting-dimensions.md#validating-dimension-corrections).
 6. Velg **Kjør**.
 
-### <a name="validating-dimension-corrections"></a><a name="validating-dimension-corrections"></a>Validering av dimensjonskorrigeringer
+### <a name="validating-dimension-corrections"></a><a name="validating-dimension-corrections"></a><a name="validating-dimension-corrections"></a>Validering av dimensjonskorrigeringer
 
 Før du kjører en korrigering, er det lurt å validere den først. Valideringskontrollen kontrollerer restriksjoner for verdibokføring for finanskontiene, restriksjoner for dimensjoner og om dimensjonsverdiene er sperret. Under valideringen settes statusen for korrigeringen til **Validering pågår**. Når du har validert en korrigering, vises resultatet i feltet **Valideringsstatus**. Hvis det ble funnet feil, kan du bruke handlingen **Vis feil** til å undersøke dem. Når du har rettet en feil, må du bruke handlingen **Åpne på nytt** for å kjøre korrigeringen eller en ny validering.
 
 Du kan enten kjøre en korrigering umiddelbart, eller du kan angi at den skal kjøres senere. Hvis du kjører korrigeringer i et stort datasett, anbefales det at du planlegger det for å kjøre utenom arbeidstiden. Hvis du vil ha mer informasjon, kan du se [Dimensjonskorrigeringer i store datasett](finance-troubleshooting-correcting-dimensions.md#dimension-corrections-on-large-data-sets).
 
-### <a name="undoing-a-correction"></a><a name="undoing-a-correction"></a>Angre en korrigering
+### <a name="undoing-a-correction"></a><a name="undoing-a-correction"></a><a name="undoing-a-correction"></a>Angre en korrigering
 
 Når du har korrigert en dimensjon, og du ikke liker det du ser, kan du bruke handlingen **Angre** til å tilbakestille den forrige verdien. Du kan imidlertid bare angre den siste korrigeringen. Før du angrer en korrigering, kan du bekrefte endringene som angrer vil gjøre. Dette er for eksempel nyttig hvis dimensjonsrestriksjoner er endret etter at korrigeringen ble utført.
 
 Hvis handlingen Angre ikke er tilgjengelig, for eksempel fordi du har foretatt mange korrigeringer, kan du bruke handlingen **Kopier til utkast** til å starte en ny korrigering for de samme postene.
 
-### <a name="dimension-corrections-on-large-data-sets"></a><a name="dimension-corrections-on-large-data-sets"></a>Dimensjonskorrigeringer i store datasett
+### <a name="dimension-corrections-on-large-data-sets"></a><a name="dimension-corrections-on-large-data-sets"></a><a name="dimension-corrections-on-large-data-sets"></a>Dimensjonskorrigeringer i store datasett
 
 Vær forsiktig når du korrigerer store sett med poster, for eksempel sett som inkluderer mer enn 10 000 poster. Hvis du kan, anbefales det at du bruker filtrene til å kjøre korrigeringene på mindre datasett. Det kan også være lurt å kjøre korrigeringer utenfor normal arbeidstid. 
 
-### <a name="use-analysis-views-with-dimension-corrections"></a><a name="use-analysis-views-with-dimension-corrections"></a>Bruk analysevisninger med dimensjonskorrigeringer
+### <a name="use-analysis-views-with-dimension-corrections"></a><a name="use-analysis-views-with-dimension-corrections"></a><a name="use-analysis-views-with-dimension-corrections"></a>Bruk analysevisninger med dimensjonskorrigeringer
 
 Hvis **Oppdatering ved bokføring** er aktivert for en analysevisning, kan [!INCLUDE[prod_short](includes/prod_short.md)] vise visningen når dokumenter og kladder bokføres. Du kan også oppdatere visninger med denne innstillingen aktivert med resultater for dimensjonskorrigeringer. Dette gjør du ved å aktivere **Oppdater analysevisninger**. Når du oppdaterer analysevisninger, kan det påvirke ytelsen, spesielt for store datasett, så det anbefales at du oppdaterer analysevisninger bare for små datasett.  
 
-### <a name="viewing-historical-dimension-corrections"></a><a name="viewing-historical-dimension-corrections"></a>Vise historiske dimensjonskorrigeringer
+### <a name="viewing-historical-dimension-corrections"></a><a name="viewing-historical-dimension-corrections"></a><a name="viewing-historical-dimension-corrections"></a>Vise historiske dimensjonskorrigeringer
 
 Hvis en finanspost er korrigert, kan du undersøke endringene ved hjelp av handlingen **Historikk for dimensjonskorrigeringer**.
 
-### <a name="handling-incomplete-corrections"></a><a name="handling-incomplete-corrections"></a>Behandle ufullstendige korrigeringer
+### <a name="handling-incomplete-corrections"></a><a name="handling-incomplete-corrections"></a><a name="handling-incomplete-corrections"></a>Behandle ufullstendige korrigeringer
 
 Hvis en korrigering ikke blir fullført, vises det en advarsel på korrigeringskortet. Hvis dette skjer, kan du bruke handlingen **Tilbakestill** til å tilbakestille korrigeringen til en kladdestatus og angre endringene. Deretter kan du kjøre korrigeringen på nytt.
 
 > [!NOTE]
 > Tilbakestilling av en ufullstendig korrigering påvirker ikke oppdateringer for analysevisninger, ettersom de skjer på slutten av korrigeringsprosessen.
 
-### <a name="use-cost-accounting-with-corrected-gl-entries"></a><a name="use-cost-accounting-with-corrected-gl-entries"></a>Bruk kostnadsregnskap med korrigerte finansposter
+### <a name="use-cost-accounting-with-corrected-gl-entries"></a><a name="use-cost-accounting-with-corrected-gl-entries"></a><a name="use-cost-accounting-with-corrected-gl-entries"></a>Bruk kostnadsregnskap med korrigerte finansposter
 
 Når du har korrigert dimensjoner, vil dataene for kostnadsregnskap være usynkronisert. Kostnadsregnskap bruker dimensjoner til å aggregere beløp for kostsentre og kostobjekter, og til å kjøre kostnadsfordelinger. Når du endrer dimensjoner for finansposter, betyr det sannsynligvis at du må kjøre kostnadsregnskapsmodellene på nytt. Enten du bare trenger å slette noen få kostposter og kjøre tildelinger på nytt, eller hvis du skal slette alt og kjøre alle modellene på nytt, er avhengig av hvilke data som er oppdatert og hvordan dine kostnadsregnskapsfunksjoner er definert. Du må manuelt identifisere hvor dimensjonskorrigeringer vil påvirke kostnadsregnskap og hvor nødvendige oppdateringer er nødvendig. [!INCLUDE[prod_short](includes/prod_short.md)] har for øyeblikket ikke noen automatisert måte å gjøre dette på.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/dimensions-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/dimensions-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Arbeid med dimensjoner](finance-dimensions.md)  
 [Analysere data etter dimensjoner](bi-how-analyze-data-dimension.md)  

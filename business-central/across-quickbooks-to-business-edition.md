@@ -13,7 +13,7 @@ ms.author: bholtorf
 ---
 
 
-# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a><a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Endre fra en QuickBooks-app til Dynamics 365 Business Central
+# <a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a><a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a><a name="changing-from-a-quickbooks-app-to-dynamics-365-business-central"></a>Endre fra en QuickBooks-app til Dynamics 365 Business Central
 
 Bedrifter i vekst går mer og mer over fra finansapper som QuickBooks Desktop og QuickBooks Online som er utviklet for oppstart og andre små virksomheter, til [!INCLUDE[prod_short](includes/prod_short.md)], som også støtter større og mer komplekse organisasjoner. 
 
@@ -27,13 +27,13 @@ Hvis du vil ha mer informasjon, les om utvidelsen som passer til din QuickBooks-
 * [Utvidelsen QuickBooks Desktop-datamigrering](ui-extensions-quickbooks-data-migration.md)
 * [Utvidelsen QuickBooks Online-datamigrering](ui-extensions-quickbooks-online-data-migration.md)
 
-## <a name="ready-now"></a><a name="ready-now"></a>Klar?
+## <a name="ready-now"></a><a name="ready-now"></a><a name="ready-now"></a>Klar?
 
 Hvis du er klar til å komme i gang nå, velger du ![Lyspæren som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Assistert oppsett** og velger den relaterte koblingen. Velg **Overfør forretningsdata**, og følg trinnene i veiledningen.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/migrate-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/migrate-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Importer forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Tilpasse Business Central for med utvidelser](ui-extensions.md)   

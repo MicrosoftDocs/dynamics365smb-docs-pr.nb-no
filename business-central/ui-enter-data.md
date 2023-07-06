@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 03/23/2022
 ms.author: jswymer
 ---
-# <a name="entering-data"></a><a name="entering-data"></a>Skrive inn data
+# <a name="entering-data"></a><a name="entering-data"></a><a name="entering-data"></a>Skrive inn data
 
 Det finnes flere generelle funksjoner som hjelper deg å registrere data raskere, enklere og mer nøyaktig. Grunnprinsippene og de avanserte funksjonene for å registrere data beskrives i denne artikkelen.  
 
@@ -19,7 +19,7 @@ Det finnes flere generelle funksjoner som hjelper deg å registrere data raskere
 
 Eksemplene i denne artikkelen bruker demonstrasjonsdataene.
 
-## <a name="work-with-editable-fields"></a><a name="work-with-editable-fields"></a>Arbeid med felter som kan redigeres
+## <a name="work-with-editable-fields"></a><a name="work-with-editable-fields"></a><a name="work-with-editable-fields"></a>Arbeid med felter som kan redigeres
 
 Felter [!INCLUDE[prod_short](includes/prod_short.md)] kan inneholde ulike data som kan redigeres, som tekst eller valutabeløp. Redigerbare felter viser vanligvis en inndataboks der du kan skrive eller velge en verdi. Felter som ikke kan redigeres, vises vanligvis med en grå bakgrunn.   
 
@@ -33,7 +33,7 @@ Enkelte redigerbare felter har en velger som hjelper deg med å angi en verdi.
 |Bryter eller avmerkingsboks|Enkelte felter gir en et enkelt valg med *Ja*- eller *Nei*-verdier. Bryteren brukes til å angi denne verdien og vises alltid som en avmerkingsboks i lister|
 |Redigeringshjelp       |Enkelte felter gir egendefinerte velgere som er egnet til å slå opp og velge den beste verdien for det feltet, som et popup-vindu|
 
-### <a name="modifying-a-field-value"></a><a name="modifying-a-field-value"></a>Endre en feltverdi
+### <a name="modifying-a-field-value"></a><a name="modifying-a-field-value"></a><a name="modifying-a-field-value"></a>Endre en feltverdi
 
 For å endre verdien i et felt må du først sette fokus på feltet. Du setter fokus ved å gjøre følgende handling:
 
@@ -57,25 +57,25 @@ Når markøren vises på slutten av feltverdien:
 
 [!INCLUDE [background_doc_journal_check](includes/background_doc_journal_check.md)]
 
-## <a name="keyboard-shortcuts"></a><a name="keyboard-shortcuts"></a>Hurtigtaster
+## <a name="keyboard-shortcuts"></a><a name="keyboard-shortcuts"></a><a name="keyboard-shortcuts"></a>Hurtigtaster
 
 Det finnes en rekke hurtigtaster som du kan bruke til å utføre dataregistreringen raskere og uten mus. Disse hurtigtastene er spesielt nyttige med mange registreringer og repeterende skriveoppgaver.
 
 Hvis du vil ha mer informasjon om snarveier, kan du se [Hurtigtaster](keyboard-shortcuts.md). Noen hurtigsnarveier beskrives i denne artikkelen.
 
-## <a name="accelerating-data-entry-using-quick-entry"></a><a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Raskere dataregistrering ved hjelp av hurtigoppføring
+## <a name="accelerating-data-entry-using-quick-entry"></a><a name="accelerating-data-entry-using-quick-entry"></a><a name="accelerating-data-entry-using-quick-entry"></a><a name="QuickEntry"></a>Raskere dataregistrering ved hjelp av hurtigoppføring
 
 Hurtigoppføring er en funksjon som er beregnet på dataregistrering når du bruker tastaturet. Hurtigoppføring fungerer på felt (som på kortsider) og i lister (rader og kolonner). Det er en fordel når du gjør gjentakende skriveoppgaver som krever oppretting av flere poster i sekvens. Eksempler omfatter en bunke med ordre eller registrering av nye elementer.
 
 Du kan bruke Tab-tasten til å gå fra ett felt på en side til det neste redigerbare feltet. En ulempe ved bruk av tabulatoren er at den alltid går fortløpende til neste felt. <!-- even if the field is non-editable or seldom filled it in.-->Med Hurtigoppføring kan du endre denne banen. Med Hurtigoppføring bruker du <kbd>Enter</kbd>-tasten til å navigere til bare de feltene du er interessert i. Hurtigoppføring hopper og felter som ikke kan redigeres, og felt du vanligvis ikke fyller ut. Du kan allerede ha oppdaget denne atferden på noen sider. Denne virkemåten er fordi feltene som skal inkluderes når du trykker på Enter, og de som skal hoppes over, er forhåndsangitt. Du kan tilpasse Hurtigoppføring ved å tilpasse arbeidsområdet og optimalisere hvordan du registrerer data på hver side.
 
-### <a name="how-quick-entry-works"></a><a name="how-quick-entry-works"></a>Hvordan Hurtigoppføring fungerer
+### <a name="how-quick-entry-works"></a><a name="how-quick-entry-works"></a><a name="how-quick-entry-works"></a>Hvordan Hurtigoppføring fungerer
 
 Hvert felt kan merkes som enten *inkludert i Hurtigoppføring* eller *ekskludert fra Hurtigoppføring*. Felter som inkluderes i Hurtigoppføring, er inkludert i banen når du velger <kbd>Enter</kbd>. Felter som er ekskludert fra Hurtigoppføring, er ikke det.
 
 Når du er ferdig med å registrere data i et felt, velger du <kbd>Enter</kbd> for å bekrefte endringene og gå til neste felt. Hvis du vil reversere retningen og gå til forrige felt, velger du <kbd>Skift</kbd>+<kbd>Enter</kbd>. Hvis du vil ha mer informasjon om snarveier, kan du se [Hurtigtaster for hurtigoppføring for felt](keyboard-shortcuts.md#QuickEntry).
 
-#### <a name="tips-and-tricks"></a><a name="tips-and-tricks"></a>Tips og triks
+#### <a name="tips-and-tricks"></a><a name="tips-and-tricks"></a><a name="tips-and-tricks"></a>Tips og triks
 
 Listen nedenfor inneholder litt informasjon om å bruke Hurtigoppføring.
 
@@ -86,7 +86,7 @@ Listen nedenfor inneholder litt informasjon om å bruke Hurtigoppføring.
 - Hurtigoppføring fungerer uansett om felter er obligatoriske. Det kan derfor være lurt å sørge for at obligatoriske felt er inkludert i Hurtigoppføring.
 - Som standard inkluderes de fleste feltene automatisk i Hurtigoppføring. Så i starten vil oppgaven din sannsynligvis eksludere felt fra Hurtigoppføring.
 
-### <a name="to-change-quick-entry-fields"></a><a name="to-change-quick-entry-fields"></a>Endre Hurtigoppføring-felt
+### <a name="to-change-quick-entry-fields"></a><a name="to-change-quick-entry-fields"></a><a name="to-change-quick-entry-fields"></a>Endre Hurtigoppføring-felt
 
 Du bruker tilpasning til å konfigurere Hurtigoppføring på felt.
 
@@ -95,13 +95,13 @@ Du bruker tilpasning til å konfigurere Hurtigoppføring på felt.
 
 Hvis du vil ha mer informasjon om tilpasning, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
 
-## <a name="mandatory-fields"></a><a name="mandatory-fields"></a>Obligatoriske felt
+## <a name="mandatory-fields"></a><a name="mandatory-fields"></a><a name="mandatory-fields"></a>Obligatoriske felt
 
 Når du angir data på sider, merkes bestemte felt med en rød stjerne. Det røde stjernetegnet betyr at feltet må fylles ut for å fullføre en bestemt prosess. Et eksempel er når du poster en transaksjon som bruker verdien i feltet.  
 
 Selv om et felt er obligatorisk, må du ikke fylle ut feltet før du fortsetter til andre felt eller lukker siden. Den røde stjernen er bare en påminnelse om at du blir blokkert fra å fullføre en bestemt prosess.  
 
-## <a name="finding-data-as-you-type"></a><a name="finding-data-as-you-type"></a>Finne data mens du skriver
+## <a name="finding-data-as-you-type"></a><a name="finding-data-as-you-type"></a><a name="finding-data-as-you-type"></a>Finne data mens du skriver
 
  Når du begynner å skrive inn tegn i et felt, åpnes en rullegardinliste med mulige feltverdier. Listen endres mens du skriver flere tegn, og du kan velge riktig verdi når den vises.  
 
@@ -111,7 +111,7 @@ Selv om et felt er obligatorisk, må du ikke fylle ut feltet før du fortsetter 
 
 - Rullegardin - viser settet med alternativer som finnes for feltet. Du kan bare velge ett av alternativene.  
 
-## <a name="copying-and-pasting-faq-fields-and-lines"></a><a name="copying-and-pasting-faq-fields-and-lines"></a>Vanlige spørsmål om kopiere og lime inn felt og linjer
+## <a name="copying-and-pasting-faq-fields-and-lines"></a><a name="copying-and-pasting-faq-fields-and-lines"></a><a name="copying-and-pasting-faq-fields-and-lines"></a>Vanlige spørsmål om kopiere og lime inn felt og linjer
 
 Du kan kopiere én eller flere rader fra en liste eller fra ett felt på en side. Deretter limer du inne det du kopierte, på samme side, en annen side eller et eksternt dokument. Du kan for eksempel lime inn i Microsoft Excel eller Outlook-e-post. Kort sagt, for å kopiere velger du <kbd>CTRL</kbd>+<kbd>C</kbd> (cmd+C i macOS) på tastaturet. Du limer inn ved å velge <kbd>CTRL</kbd>+<kbd>V</kbd> eller <kbd>kommando + V</kbd> i macOS.
 
@@ -119,25 +119,25 @@ Velg <kbd>F8</kbd> i listen for å kopiere feltet i den samme kolonnen i raden o
 
 Hvis du vil ha mer informasjon, kan du se [Vanlige spørsmål om kopiere og lime inn](faq-copy-paste.yml).
 
-## <a name="filtering-line-items"></a><a name="filtering-line-items"></a>Filtrere linjeelementer
+## <a name="filtering-line-items"></a><a name="filtering-line-items"></a><a name="filtering-line-items"></a>Filtrere linjeelementer
 
 For å starte filtreringen kan du velge ![Filtreringsruteikon](media/open-filter-pane-icon.png "Filtreringsruteikon") øverst i oversikten eller velge <kbd>Skift</kbd>+<kbd>F3</kbd> for å åpne filtreringsruten. Du arbeider med filtreringsruten som i andre oversikter. Hvis du vil ha mer informasjon, kan du se [Filtrering](ui-enter-criteria-filters.md#filtering).
 
 Filtrering er spesielt nyttig når du viser og analyserer lengre dokumenter. Du åpner for eksempel en postert salgsfaktura. Deretter filtrerer du linjeelementene til å vise alle linjeelementene som har en individuell rabatt over 5 %. Eller du kan filtrere for å vise bare sykkeltilbehør med «pro» i navnet.
 
-## <a name="focusing-on-line-items"></a><a name="focusing-on-line-items"></a><a name="Focus"></a>Fokusere på linjeelementer
+## <a name="focusing-on-line-items"></a><a name="focusing-on-line-items"></a><a name="focusing-on-line-items"></a><a name="Focus"></a>Fokusere på linjeelementer
 
 Når du arbeider i dokumenter som inkluderer en del for linjeelementer, kan du bytte visning til å fokusere bare på linjeelementene. Eksempeldokumenter er ordre eller fakturaside. Delen for linjeelementer utvides slik at den bruker nesten hele arbeidsområdet. Den skjuler andre deler på siden unntatt handlingsområdet øverst. Dette oppsettet gir deg bedre oversikt over linjeelementene og gir deg mer plass til å arbeide med dem.
 
 Det er særlig nyttig når du arbeider med store linjeelementlister og du vil registrere data raskt. Denne funksjoner inneholder også filtreringsegenskaper. Som i andre lister blir blaing og søking gjennom linjeelementer enda enklere.
 
-### <a name="switching-the-focus-on-and-off"></a><a name="switching-the-focus-on-and-off"></a>Bytte fokus på og av
+### <a name="switching-the-focus-on-and-off"></a><a name="switching-the-focus-on-and-off"></a><a name="switching-the-focus-on-and-off"></a>Bytte fokus på og av
 
 Hvis du vil fokusere på linjeelementer, velger du hvor som helst i linjeelementdelen, og deretter velger du ![Fokusmodusikon.](media/focus-mode.png "Fokusmodusikon") øverst i høyre hjørne, eller velg <kbd>CTRL</kbd>+<kbd>SKIFT</kbd>+<kbd>F12</kbd>.
 
 Hvis du vil gå tilbake til normal visning, velger du ![Fokusmodusikon.](media/focus-mode.png "Fokusmodusikon") eller velg <kbd>CTRL</kbd>+<kbd>SKIFT</kbd>+<kbd>F12</kbd> igjen.
 
-## <a name="multitasking-across-multiple-pages"></a><a name="multitasking-across-multiple-pages"></a>Multitaske på tvers av flere sider
+## <a name="multitasking-across-multiple-pages"></a><a name="multitasking-across-multiple-pages"></a><a name="multitasking-across-multiple-pages"></a>Multitaske på tvers av flere sider
 
 Du kan åpne et kort eller en dokumentside i et nytt vindu. Ved å åpne i et nytt vindu kan du:
 
@@ -163,11 +163,11 @@ En annen måte å kjøre gjøremål på, er å åpne [!INCLUDE[prod_short](inclu
 > [!NOTE]
 > Ikke bruk **Dupliser**-funksjonen i nettleseren til å opprette den nye fanen, siden dette kan forårsake at handlinger på én fane blokkerer handlinger på andre faner fordi de er en del av den samme økten.
 
-## <a name="entering-quantities-by-calculation"></a><a name="entering-quantities-by-calculation"></a>Angi antall ved beregning
+## <a name="entering-quantities-by-calculation"></a><a name="entering-quantities-by-calculation"></a><a name="entering-quantities-by-calculation"></a>Angi antall ved beregning
 
 Når du setter inn tall i antallfelt, for eksempel **Antall**-feltet på en varekladdlinje, kan du angi formelen i stedet for summen.  
 
-### <a name="examples"></a><a name="examples"></a>Eksempler
+### <a name="examples"></a><a name="examples"></a><a name="examples"></a>Eksempler
 
 - Hvis du skriver inn 19+19, beregnes feltet til 38.  
 
@@ -177,7 +177,7 @@ Når du setter inn tall i antallfelt, for eksempel **Antall**-feltet på en vare
 
 - Hvis du skriver inn 12/4, beregnes feltet til 3.  
 
-## <a name="entering-negative-numbers"></a><a name="entering-negative-numbers"></a>Skrive inn negative tall
+## <a name="entering-negative-numbers"></a><a name="entering-negative-numbers"></a><a name="entering-negative-numbers"></a>Skrive inn negative tall
 
 Du kan angi negative tall på to måter. Tallet -20,5 kan angis som:  
 
@@ -190,14 +190,14 @@ I begge tilfeller registreres beløpet som -20,5.
 
 Hvis det siste tegnet i uttrykket er en **++** eller en **--**, blir hele uttrykket registrert med dette tegnet. Eksempel: **10-20+** resulterer i 10 og ikke -10.  
 
-## <a name="entering-dates-and-times"></a><a name="entering-dates-and-times"></a>Angi datoer og klokkeslett
+## <a name="entering-dates-and-times"></a><a name="entering-dates-and-times"></a><a name="entering-dates-and-times"></a>Angi datoer og klokkeslett
 
 Du kan angi datoer og klokkeslett i alle feltene som er tilordnet datoer (datofelt). Datoene kan skrives inn med eller uten skilletegn.
 
 > [!NOTE]  
 > Hvordan du angir dato og klokkeslett på, avhenger av dine **Område**-innstillinger. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).  
 
-### <a name="entering-dates"></a><a name="entering-dates"></a>Sette inn datoer
+### <a name="entering-dates"></a><a name="entering-dates"></a><a name="entering-dates"></a>Sette inn datoer
 
 Du kan enten bruke datovelgeren til å velge en dato fra en kalender, eller du kan angi datoer manuelt. Denne delen inneholder en kort oversikt over hvordan du angir datoer. Se [Arbeid med kalenderdatoer og klokkeslett](ui-enter-date-ranges.md) hvis du vil ha mer informasjon.
 
@@ -223,7 +223,7 @@ I stedet for å skrive inn en bestemt dato kan du skrive inn én av disse kodene
 |a|Angir arbeidsdatoen som er konfigurert i programmet. Du kan endre arbeidsdatoen ved å se [Endre grunnleggende innstillinger](ui-change-basic-settings.md). Hvis du har mange transaksjoner å utføre på en dato som ikke er dagens dato, er det en fordel å bruke arbeidsdatoen.|
 |a|Angir at datoen etter a er for en lukkingsdato, for eksempel C123101.|  
 
-## <a name="entering-times"></a><a name="entering-times"></a>Angi klokkeslett
+## <a name="entering-times"></a><a name="entering-times"></a><a name="entering-times"></a>Angi klokkeslett
 
 Når du angir klokkeslett, kan du sette i et skilletegn du ønsker mellom enhetene, men det er ikke nødvendig. Du trenger ikke å skrive minutter eller sekunder.  
 
@@ -241,11 +241,11 @@ Tabellen nedenfor viser forskjellige måter som klokkeslett kan angis på, og hv
 
  Du angir to tall for hver tidsenhet hvis du ikke angir et skilletegn.  
 
-## <a name="entering-combined-datetimes"></a><a name="entering-combined-datetimes"></a>Angi kombinerte datoer og klokkeslett
+## <a name="entering-combined-datetimes"></a><a name="entering-combined-datetimes"></a><a name="entering-combined-datetimes"></a>Angi kombinerte datoer og klokkeslett
 
 [!INCLUDE [datetimes](includes/datetimes.md)]
 
-## <a name="entering-duration"></a><a name="entering-duration"></a>Angi varighet
+## <a name="entering-duration"></a><a name="entering-duration"></a><a name="entering-duration"></a>Angi varighet
 
 Du angir en varighet som et tall etterfulgt av enheten.  
 
@@ -266,7 +266,7 @@ Her er noen eksempler.
 
  Tallet 5 konverteres til 5 timer hvis enheten er timer.  
 
-## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Angi desimalskilletegnet som brukes av numeriske tastaturer
+## <a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="setting-the-decimal-separator-used-by-numeric-keyboards"></a><a name="decimal"></a>Angi desimalskilletegnet som brukes av numeriske tastaturer
 
 Når du bruker <kbd>desimalskilletegn</kbd> på et numerisk tastatur til å skrive inn data, bestemmes det faktiske desimalskilletegnet som er angitt i feltet, av områdeinnstillingen for Business Central. De fleste områder bruker punktum (.) eller komma (,) som skilletegn for desimalverdier, som du vanligvis ser i valutabeløp. Desimaltasten på tastaturet tilpasses området. Den er ofte forskjellig fra punktum- eller kommatastene på resten av tastaturet. Du angir området i Business Central på siden **Mine innstillinger**.
 
@@ -275,9 +275,9 @@ La oss for eksempel anta at du bruker et numerisk tastatur som bruker et punktum
 > [!TIP]
 > Det kan være tilfeller der du vil bruke desimalskilletegnet til å angi et punktum (.). La oss for eksempel anta at du skulle sette inn et datointervall i et filter, som `01/01/2022..04/01/2022` eller noe som krever et punktum. Du kan tilpasse dette tilfellet ved å velge tastene <kbd>Alt</kbd>+<kbd>desimalskilletegn</kbd> på det numeriske tastaturet. Denne tastekombinasjonen bytter desimalskilletegn mellom hver gang et punktum og desimalskilletegnet angis av **Område**-innstillingen.
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/explore-modify-info-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/explore-modify-info-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Sortere, søke etter og filtrere oversikter](ui-enter-criteria-filters.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -10,17 +10,17 @@ ms.custom: bap-template
 ms.search.keywords: incoming document
 ms.search.form: '600, 605, 618, 650, 651, 648, 649, 617, 614, 642, 643, 640, 641, 613, 616, 646, 647, 644, 645, 615, 619, 612, 638, 639, 636, 637, 611'
 ---
-# <a name="manage-the-intercompany-inbox-and-outbox"></a><a name="manage-the-intercompany-inbox-and-outbox"></a>Administrere den konserninterne innboksen og utboksen
+# <a name="manage-the-intercompany-inbox-and-outbox"></a><a name="manage-the-intercompany-inbox-and-outbox"></a><a name="manage-the-intercompany-inbox-and-outbox"></a>Administrere den konserninterne innboksen og utboksen
 
 De konserninterne transaksjonene du mottar elektronisk fra partnerne, er oppført på siden **Konsernintern innboks**. Hvis du vil lære hvordan du behandler inngående konserninterne transaksjoner, går du til [Behandle inngående konserninterne transaksjoner](#process-incoming-intercompany-transactions). De konserninterne transaksjonene du sender til partnerne, er oppført på siden **Konsernintern utboks**. Hvis du vil lære hvordan du behandler utgående konserninterne transaksjoner, går du til [For å behandle utgående konserninterne transaksjoner](#to-process-outgoing-intercompany-transactions).
 
 Enkelte transaksjoner håndteres imidlertid automatisk, avhengig av det konserninterne oppsettet. Du kan definere kildeselskapet og partnerselskapene slik at det automatisk opprettes dokumenter og kladder som tilsvarer transaksjoner som partnere bokfører gjennom den konserninterne finanskladden. Hvis du vil lære mer om bruk av konserninterne kladder, går du til [Fyll ut og bokfør en konsernintern kladd](intercompany-how-work-documents-journals.md#fill-in-and-post-an-intercompany-journal).  
 
-## <a name="organizing-the-inbox"></a><a name="organizing-the-inbox"></a>Ordre innboksen
+## <a name="organizing-the-inbox"></a><a name="organizing-the-inbox"></a><a name="organizing-the-inbox"></a>Ordre innboksen
 
 Du kan bruke filterfeltene øverst på innbokssiden til å bestemme hvilke transaksjoner som skal vises på siden. Hvis du for eksempel bare vil utforske transaksjoner som en bestemt partner har opprettet, bruker du filtrene for **transaksjonskilde** og **kode for konsernintern partner**.  
 
-### <a name="transaction-source"></a><a name="transaction-source"></a>Transaksjonskilde
+### <a name="transaction-source"></a><a name="transaction-source"></a><a name="transaction-source"></a>Transaksjonskilde
 
 Hva du kan gjøre med en transaksjon, avhenger av om den ble:  
 
@@ -29,7 +29,7 @@ Hva du kan gjøre med en transaksjon, avhenger av om den ble:
 
 Bruk feltet **Vis transaksjonskilde** til å filtrere siden **Konserninterne inngående transaksjoner** slik at det bare viser én av disse transaksjonstypene. Du kan også filtrere etter konsernintern partner eller etter innholdet i **Linjehandling**-feltet.  
 
-#### <a name="created-by-intercompany-partner"></a><a name="created-by-intercompany-partner"></a>Opprettet av konsernintern partner
+#### <a name="created-by-intercompany-partner"></a><a name="created-by-intercompany-partner"></a><a name="created-by-intercompany-partner"></a>Opprettet av konsernintern partner
 
  Når du mottar en ny transaksjon som ble opprettet av partneren, kan du velge å:
 
@@ -37,15 +37,15 @@ Bruk feltet **Vis transaksjonskilde** til å filtrere siden **Konserninterne inn
 * Avvise transaksjonen (returnere den til partneren)  
 * Avbryte transaksjonen (slette transaksjonen og ikke returnere den til partneren)  
 
-#### <a name="returned-from-intercompany-partner"></a><a name="returned-from-intercompany-partner"></a>Returnert fra konsernintern partner
+#### <a name="returned-from-intercompany-partner"></a><a name="returned-from-intercompany-partner"></a><a name="returned-from-intercompany-partner"></a>Returnert fra konsernintern partner
 
 Hvis den konserninterne partneren avviser en transaksjon, må du avbryte transaksjonen i innboksen og deretter opprette korrigeringslinjer eller reversere kladden eller bilaget.  
 
-## <a name="recreating-inbox-entries"></a><a name="recreating-inbox-entries"></a>Opprette innboksposter på nytt
+## <a name="recreating-inbox-entries"></a><a name="recreating-inbox-entries"></a><a name="recreating-inbox-entries"></a>Opprette innboksposter på nytt
 
 Hvis du godtok en transaksjon i innboksen, men deretter slettet bilaget eller kladden i stedet for å bokføre det/den, kan du opprette innboksposten på nytt og godta den på nytt.  
 
-## <a name="get-an-overview-of-intercompany-transactions-for-a-period"></a><a name="get-an-overview-of-intercompany-transactions-for-a-period"></a>Få oversikt over konserninterne transaksjoner for en periode
+## <a name="get-an-overview-of-intercompany-transactions-for-a-period"></a><a name="get-an-overview-of-intercompany-transactions-for-a-period"></a><a name="get-an-overview-of-intercompany-transactions-for-a-period"></a>Få oversikt over konserninterne transaksjoner for en periode
 
 Du kan få oversikt over alle de konserninterne transaksjonene du har sendt og mottatt i en periode. Rapporten **Konserninterne transaksjoner** viser alle konserninterne finansposter, kundeposter og leverandørposter.
 
@@ -55,7 +55,7 @@ Du kan få oversikt over alle de konserninterne transaksjonene du har sendt og m
 > * For synkroniseringspartneren, på siden **Konserninternt oppsett**, slår du på **Send transaksjoner automatisk**-vekslebryteren.
 > * For partnerselskaper, på siden **Konsernintern partner**, slår du på **Godta transaksjoner automatisk**-vekslebryteren.  
 
-## <a name="import-intercompany-transactions-from-a-file"></a><a name="import-intercompany-transactions-from-a-file"></a>Importer konserninterne transaksjoner fra en fil
+## <a name="import-intercompany-transactions-from-a-file"></a><a name="import-intercompany-transactions-from-a-file"></a><a name="import-intercompany-transactions-from-a-file"></a>Importer konserninterne transaksjoner fra en fil
 
 [!INCLUDE [onprem_only_md](includes/onprem_only_md.md)]
 
@@ -68,7 +68,7 @@ Hvis du har en konsernintern partner som ikke er i samme database som selskapet 
 
 Transaksjonene importeres til innboksen, og du kan nå behandle dem.
 
-## <a name="process-incoming-intercompany-transactions"></a><a name="process-incoming-intercompany-transactions"></a>Behandle inngående konserninterne transaksjoner
+## <a name="process-incoming-intercompany-transactions"></a><a name="process-incoming-intercompany-transactions"></a><a name="process-incoming-intercompany-transactions"></a>Behandle inngående konserninterne transaksjoner
 
 Når de konserninterne partnerne sender deg konserninterne transaksjoner, ender transaksjonene opp i den konserninterne innboksen. Du må vurdere hver transaksjon i innboksen og utføre de nødvendige handlingene.  
 
@@ -83,7 +83,7 @@ Linjer du avviser og returnerer til partneren, går til den konserninterne utbok
 
 For linjer som en partner avviste og returnerte til deg, må du bokføre en korreksjon av den opprinnelige transaksjonen du bokførte i selskapet ditt.
 
-## <a name="to-process-outgoing-intercompany-transactions"></a><a name="to-process-outgoing-intercompany-transactions"></a>Slik behandler du utgående konserninterne transaksjoner
+## <a name="to-process-outgoing-intercompany-transactions"></a><a name="to-process-outgoing-intercompany-transactions"></a><a name="to-process-outgoing-intercompany-transactions"></a>Slik behandler du utgående konserninterne transaksjoner
 
 Når du bokfører konserninterne kladder eller bilag eller sender en konsernintern bestillingsbekreftelse, går transaksjonene til den konserninterne utboksen. For å sende dem til de konserninterne partnerne åpner du utboksen og behandler dem.  
 
@@ -96,7 +96,7 @@ Bruk **Gå tilbake til innboks**-handlingen til å flytte linjer til innboksen d
 
 Hvis du bruker **Avbryt**-handlingen, må du nå bokføre en korrigering til transaksjonen du opprinnelig bokførte i selskapet ditt.  
 
-## <a name="recreate-intercompany-inbox-transactions"></a><a name="recreate-intercompany-inbox-transactions"></a>Opprett konserninterne innbokstransaksjoner på nytt
+## <a name="recreate-intercompany-inbox-transactions"></a><a name="recreate-intercompany-inbox-transactions"></a><a name="recreate-intercompany-inbox-transactions"></a>Opprett konserninterne innbokstransaksjoner på nytt
 
 Du vil du kanskje opprette en transaksjon på nytt i innboksen eller utboksen. Hvis du for eksempel godtok en transaksjon i innboksen, men deretter slettet bilaget eller kladden i stedet for å bokføre det/den, kan du opprette innboksposten på nytt og godta den på nytt.  
 
@@ -105,7 +105,7 @@ Følgende fremgangsmåte beskriver hvordan du oppretter innbokstransaksjoner på
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Håndterte inngående KI-transaksjoner**, og velg deretter den relaterte koblingen.  
 2. På siden **Håndterte inngående KI-transaksjoner** velger du linjen med transaksjonen du vil opprette på nytt i innboksen, og velger deretter **Opprett inngående transaksjon på nytt**.  
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Behandle konserninterne transaksjoner](intercompany-manage.md)  
 [Finans](finance.md)  

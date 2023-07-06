@@ -11,11 +11,11 @@ ms.search.form: 100
 ms.date: 06/25/2021
 ms.author: jswymer
 ---
-# <a name="close-accounting-periods"></a><a name="close-accounting-periods"></a>Lukke regnskapsperioder
+# <a name="close-accounting-periods"></a><a name="close-accounting-periods"></a><a name="close-accounting-periods"></a>Lukke regnskapsperioder
 
 Når et regnskapsår er over, må du lukke periodene som utgjør regnskapsåret.
 
-## <a name="to-close-accounting-periods"></a><a name="to-close-accounting-periods"></a>Slik lukker du regnskapsperioder
+## <a name="to-close-accounting-periods"></a><a name="to-close-accounting-periods"></a><a name="to-close-accounting-periods"></a>Slik lukker du regnskapsperioder
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Regnskapsperioder**, og velg deretter den relaterte koblingen.
 2. På siden **Regnskapsperioder** velger du handling **Lukk år**.
@@ -32,7 +32,7 @@ Selv om et regnskapsår er avsluttet, kan du bokføre finansposter i det. Posten
 
 Når et regnskapsår er avsluttet, må du lukke resultatkontiene, og overføre årets resultat til resultatkontoen i balansen. Du kan gjenta dette hver gang du bokfører til det lukkede regnskapsåret.
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Avslutte tablåer](year-close-books.md)  
 [Bokføre avslutningsposten for årsslutt](year-how-post-year-end-close-entry.md)  

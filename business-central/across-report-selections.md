@@ -8,11 +8,11 @@ ms.search.form: '306, 307, 347, 385, 524, 865, 5932, 7401, 7355, 99000917'
 ms.date: 06/09/2022
 ms.author: bholtorf
 ---
-# <a name="report-selection-for-documents-in-business-central"></a><a name="report-selection-for-documents-in-business-central"></a>Rapportvalg for dokumenter i Business Central
+# <a name="report-selection-for-documents-in-business-central"></a><a name="report-selection-for-documents-in-business-central"></a><a name="report-selection-for-documents-in-business-central"></a>Rapportvalg for dokumenter i Business Central
 
 Du kan definere standardrapporter som skal brukes til å skrive ut dokumenter for salg, kjøp og servicedokumenter, for eksempel ordrer, tilbud og fakturaer. Hvis du for eksempel har et bestemt oppsett for salgsfakturaer, kan du angi denne rapporten på siden **Rapportvalg – salg** slik at den blir brukt til å sende eller skrive ut salgsfakturaer.  
 
-## <a name="available-report-selections"></a><a name="available-report-selections"></a>Tilgjengelige rapportvalg
+## <a name="available-report-selections"></a><a name="available-report-selections"></a><a name="available-report-selections"></a>Tilgjengelige rapportvalg
 
 Siden **Rapportvalg** angir hvilken rapport som skal skrives ut i forskjellige situasjoner. [!INCLUDE [prod_short](includes/prod_short.md)] gir standardkonfigurasjoner, men du kan endre dem om nødvendig. Du kan også legge til rapporter i sidene **Rapportvalg** hvis du for eksempel vil skrive ut mer enn én rapport per dokumenttype. 
 
@@ -39,7 +39,7 @@ Standardversjonen av [!INCLUDE [prod_short](includes/prod_short.md)] omfatter f�
 * **Rapportvalg – prosjekt**  
 * **Rapportvalg – service**
 
-## <a name="example-report-selection-for-sales-documents"></a><a name="example-report-selection-for-sales-documents"></a>Eksempel: Rapportvalg for salgsdokumenter
+## <a name="example-report-selection-for-sales-documents"></a><a name="example-report-selection-for-sales-documents"></a><a name="example-report-selection-for-sales-documents"></a>Eksempel: Rapportvalg for salgsdokumenter
 
 Siden **Rapportvalg – salg** tilbyr standardrapportene som skal brukes i ulike scenarioer for hver av de relaterte dokumenttypene. Velg en dokumenttype i feltet **Bruk**, og legg til eller gå gjennom rapportvalget. Du kan definere mer enn én rapport og angi rekkefølgen rapportene må sendes eller skrives ut i.  
 
@@ -55,7 +55,7 @@ På sidene **Rapportvalg – salg** og **Rapportvalg – kjøp** hjelper følgen
 |**Bruk for e-postvedlegg**| Knytt det relaterte dokumentet til e-posten.|
 |**Oppsettbeskrivelse for brødtekst i e-post**|Angi oppsett for brødtekst i e-post som skal brukes. Det er vanligvis et egendefinert rapportoppsett. |
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Definer gjenbrukbare e-posttekster og -oppsett](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts)  
 [Velg et sjekkoppsett](finance-how-define-check-layouts.md)  

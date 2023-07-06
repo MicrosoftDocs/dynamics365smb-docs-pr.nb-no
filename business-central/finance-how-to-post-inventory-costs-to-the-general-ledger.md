@@ -11,7 +11,7 @@ ms.search.form: 9297
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# <a name="reconcile-inventory-costs-with-the-general-ledger"></a><a name="reconcile-inventory-costs-with-the-general-ledger"></a>Avstemme lagerkost med finans
+# <a name="reconcile-inventory-costs-with-the-general-ledger"></a><a name="reconcile-inventory-costs-with-the-general-ledger"></a><a name="reconcile-inventory-costs-with-the-general-ledger"></a>Avstemme lagerkost med finans
 
 Når du bokfører lagertransaksjoner, for eksempel følgesedler, kjøpsfakturaer eller lagerjusteringer, registreres endringene i varekostnader i vareverdipostene. For å gjenspeile endringen i lagerverdien i regnskapet, blir lagerkost automatisk bokført til de relaterte lagerkontoene i Finans. For hver lagertransaksjon du bokfører, bokføres de aktuelle verdiene i lagerkontoen, justeringskontoen og vareforbrukskontoen i Finans.
 
@@ -19,7 +19,7 @@ Automatisk kostnadsbokføring er definert i feltet **Automatisk kostbokføring**
 
 Selv om lagerkost bokføres automatisk til finans, er det fortsatt nødvendig å sikre at kostbeløpene for varer videresendes til de relaterte utgående salgstransaksjonene. Dette er særlig viktig i situasjoner der du selger varer før du fakturerer kjøpet av varene. Dette kalles kostjustering. Varekostnader justeres automatisk når du bokfører varetransaksjoner, men du kan også justere varekostnader manuelt. Hvis du vil ha mer informasjon, kan du se [Justere varekost](inventory-how-adjust-item-costs.md).
 
-## <a name="to-post-inventory-costs-manually"></a><a name="to-post-inventory-costs-manually"></a>Slik bokfører du lagerkost manuelt
+## <a name="to-post-inventory-costs-manually"></a><a name="to-post-inventory-costs-manually"></a><a name="to-post-inventory-costs-manually"></a>Slik bokfører du lagerkost manuelt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokfør lagerkost i finans** og velg den relaterte koblingen.
 2. Bokfør lagerkost manuelt i Finans ved å starte kjørselen. Når du kjører denne kjørselen, opprettes finansposter på grunnlag av verdiposter. Du kan bokføre postene slik at de summeres per bokføringsgruppe.
@@ -31,7 +31,7 @@ Hvis du vil ha en oversikt over feil før du kjører bokføringskjørselen, kan 
 
 Hvis du ganske enkelt vil ha en oversikt over hvilke verdier som kan bokføres i Finans, uten faktisk å utføre bokføringen, kan du kjøre kjørselen **Bokfør lagerkost i Finans** uten faktisk å bokføre verdiene i Finans. Du gjør dette ved å fjerne merket i **Bokfør**-feltet på forespørselssiden. På denne måten genereres rapporten som viser verdiene som er klare til bokføring i Finans, når du kjører kjørselen, men de bokføres ikke.
 
-## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a><a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>Spore avstemmingen mellom lagerposten og Finans
+## <a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a><a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a><a name="to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger"></a>Spore avstemmingen mellom lagerposten og Finans
 Siden **Lager - finansavstemming** inneholder følgende:
 
 - Viser avstemmingsdifferanser ved å sammenligne hva som er registrert i finans, og hva som er registrert i lager (verdiposter).
@@ -64,7 +64,7 @@ De neste kolonnene viser totalene for de samme kontotypene som er beregnet fra f
 
 Velg beløpet i et av totalfeltene for å vise postene i lagerrapporten som ble brukt til å beregne totalene. For lagertotaler er postene i lagerrapporten summene av verdipostene for varene. For finanstotalene er postene i lagerrapporten summene fra finanspostene.
 
-## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a><a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Rapportere kostnader og avstemme med Finans
+## <a name="reporting-costs-and-reconciling-with-the-general-ledger"></a><a name="reporting-costs-and-reconciling-with-the-general-ledger"></a><a name="reporting-costs-and-reconciling-with-the-general-ledger"></a>Rapportere kostnader og avstemme med Finans
 Andre rapporter, sporingsfunksjoner og et spesielt avstemmingsverktøy er tilgjengelige for revisoren eller kontrolløren som har ansvaret for å rapportere en riktig og balansert lagerverdi til finansavdelingen.
 
 Tabellen nedenfor beskriver dem.    
@@ -76,7 +76,7 @@ Tabellen nedenfor beskriver dem.
 |Vise lagerverdien for utvalgte varer, inkludert faktisk og forventet kost på den angitte datoen.|Rappporten **Lagerverdisetting - kostspesifikasjon**|  
 |Bruke en rapport til å analysere årsakene til prisavvik eller få innsikt i kostandelen for solgte varer (vareforbruk).|Rapporten **Spesifikasjon av kostandeler**|  
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)    

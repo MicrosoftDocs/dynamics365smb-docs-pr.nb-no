@@ -10,10 +10,10 @@ ms.search.keywords: 'relationship, prospect'
 ms.date: 06/22/2021
 ms.author: jswymer
 ---
-# <a name="process-sales-opportunities"></a><a name="process-sales-opportunities"></a>Behandle salgsmuligheter
+# <a name="process-sales-opportunities"></a><a name="process-sales-opportunities"></a><a name="process-sales-opportunities"></a>Behandle salgsmuligheter
 Når du oppretter en salgsmulighet, er det flere funksjoner for å behandle salgsmuligheten og fullføre den.
 
-## <a name="to-view-opportunities"></a><a name="to-view-opportunities"></a>Vise salgsmuligheter
+## <a name="to-view-opportunities"></a><a name="to-view-opportunities"></a><a name="to-view-opportunities"></a>Vise salgsmuligheter
 De eksisterende salgsmulighetene er tilgjengelige fra siden **Oversikt over salgsmuligheter**. Det finnes ulike metoder for å får tilgang til siden for behandling av salgsmuligheter:
 
 | Vise salgsmuligheter for | Deretter |
@@ -24,7 +24,7 @@ De eksisterende salgsmulighetene er tilgjengelige fra siden **Oversikt over salg
 
 Hver av disse aktivitetene åpner siden **Oversikt over salgsmuligheter**.
 
-## <a name="to-close-opportunities"></a><a name="to-close-opportunities"></a>Lukke salgsmuligheter
+## <a name="to-close-opportunities"></a><a name="to-close-opportunities"></a><a name="to-close-opportunities"></a>Lukke salgsmuligheter
 Du kan lukke salgsmuligheter når forhandlingene er over. Når du lukker en salgsmulighet, kan du oppgi om den ble vunnet eller mistet og årsaken til at du lukker den. Hvis du vil an angi en årsak, må først definere koder for lukkede salgsmuligheter.
 
 1. På siden **Oversikt over salgsmuligheter** velger du salgsmuligheten og deretter handlingen **Lukk**. Siden **Lukk salgsmulighet** åpnes.
@@ -34,14 +34,14 @@ Du kan lukke salgsmuligheter når forhandlingene er over. Når du lukker en salg
 
    I feltet **Lukk. av salgsmuligh. - kode** kan du velge fra en av de eksisterende kodene for lukking av salgsmulighet eller legge til en ny kode. Hvis du vil legge til en ny kode fra rullegardinlisten, velger du **Velge fra hele listen** og deretter **ny**. På den nye, tomme linjen fyller du ut feltet **Kode**, **Type** og **Beskrivelse**, og deretter velg du **OK** knappen.
 
-## <a name="to-create-quotes-for-opportunities"></a><a name="to-create-quotes-for-opportunities"></a>Opprette tilbud for salgsmuligheter
+## <a name="to-create-quotes-for-opportunities"></a><a name="to-create-quotes-for-opportunities"></a><a name="to-create-quotes-for-opportunities"></a>Opprette tilbud for salgsmuligheter
 > [!NOTE]
 > Du kan bare opprette tilbud fra salgsmuligheter der kontakttypen er Selskap.
 
 1. På siden **Oversikt over salgsmuligheter** velger du salgsmuligheten og deretter handlingen **Tilordne nytt tilbud**. Siden **Tilbud** åpnes.
 2. Fyll ut de aktuelle feltene.
 
-## <a name="to-create-sales-orders-for-opportunities"></a><a name="to-create-sales-orders-for-opportunities"></a>Opprette ordrer for salgsmuligheter
+## <a name="to-create-sales-orders-for-opportunities"></a><a name="to-create-sales-orders-for-opportunities"></a><a name="to-create-sales-orders-for-opportunities"></a>Opprette ordrer for salgsmuligheter
 Du kan opprette ordrer på bakgrunn av tilbudene du har opprettet for salgsmulighetene. Før du kan opprette ordrer for kontaktene, må du opprette kontakten som en kunde. Hvis du vil ha mer informasjon, kan du se [Opprette kontakter](marketing-create-contact-companies.md).
 
 1. På siden **Oversikt over salgsmuligheter** finner du salgsmuligheten du har opprettet et tilbud for.
@@ -50,7 +50,7 @@ Du kan opprette ordrer på bakgrunn av tilbudene du har opprettet for salgsmulig
 
 Når du håndterer salgsmuligheter, kan det være at du må opprette et tilbud for kontakten som salgsmuligheten er knyttet til.
 
-## <a name="to-delete-opportunities"></a><a name="to-delete-opportunities"></a>Slette salgsmuligheter
+## <a name="to-delete-opportunities"></a><a name="to-delete-opportunities"></a><a name="to-delete-opportunities"></a>Slette salgsmuligheter
 Du kan slette salgsmuligheter etter at du for eksempel har inngått en avtale. Du kan imidlertid bare slette lukkede salgsmuligheter. Det er to metoder for å slette lukkede salgsmuligheter. Du kan slette individuelle lukkede salgsmuligheter fra siden **Oversikt over salgsmuligheter**, eller du kan kjøre den satsvise jobben **Slett lukkede salgsmuligheter** for å slette flere salgsmuligheter basert på angitte vilkår.
 
 Hvis du vil slette lukkede salgsmuligheter fra siden **Oversikt over salgsmuligheter**, velger du salgsmuligheten og deretter handlingen **Slett**.
@@ -63,7 +63,7 @@ Hvis du vil slette lukkede salgsmuligheter ved hjelp av den satsvise jobben **Sl
 
 Når du har slettet en salgsmulighet, fjernes det fra siden **Oversikt over salgsmuligheter**.
 
-## <a name="to-move-an-opportunity-through-sales-cycle-stages"></a><a name="to-move-an-opportunity-through-sales-cycle-stages"></a>Flytte en salgsmulighet gjennom salgssyklusfaser
+## <a name="to-move-an-opportunity-through-sales-cycle-stages"></a><a name="to-move-an-opportunity-through-sales-cycle-stages"></a><a name="to-move-an-opportunity-through-sales-cycle-stages"></a>Flytte en salgsmulighet gjennom salgssyklusfaser
 Hvis en salgsmulighet følger en salgssyklus, kan du flytte den fremover eller bakover gjennom de ulike fasene, for eksempel flytte til neste eller forrige fase, og til og med hopper over en fase.
 
 1. På siden **Oversikt over salgsmuligheter** velger du handlingen **Oppdater**. **Oppdater salgsmulighet** åpnes.
@@ -75,7 +75,7 @@ Hvis en salgsmulighet følger en salgssyklus, kan du flytte den fremover eller b
    * **Oppdater** lar deg endre informasjonen (for eksempel endre evalueringen av salgsutsikter og anslåtte verdier) uten å flytte til en annen fase.
 3. Fyll ut de andre feltene etter behov, og klikk deretter **OK**.
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Opprette og administrere kontakter](marketing-contacts.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

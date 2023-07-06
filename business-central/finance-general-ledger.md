@@ -11,11 +11,11 @@ ms.search.form: '18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790
 ms.date: 08/24/2022
 ms.author: edupont
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a><a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Forstå Finans og kontoplanen
+# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a><a name="understanding-the-general-ledger-and-chart-of-accounts"></a><a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Forstå Finans og kontoplanen
 
 Økonomimodulen lagrer dine økonomiske data, og kontoplanen viser kontoene som alle finansposter bokføres til. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en standard kontoplan som er klar til å støtte forretningsvirksomheten din.
 
-## <a name="general-ledger-setup-and-general-posting-setup"></a><a name="general-ledger-setup-and-general-posting-setup"></a>Finansoppsett og generelt bokføringsoppsett
+## <a name="general-ledger-setup-and-general-posting-setup"></a><a name="general-ledger-setup-and-general-posting-setup"></a><a name="general-ledger-setup-and-general-posting-setup"></a>Finansoppsett og generelt bokføringsoppsett
 
 Oppsettet av finans er i kjernen av økonomiske prosesser fordi den definerer hvordan du kan legge inn data. Spesielt to sider spiller en viktig del av konfigurasjonen av økonomiprosessene:  
 
@@ -41,7 +41,7 @@ Oppsettet av finans er i kjernen av økonomiske prosesser fordi den definerer hv
 
   Åpne siden [her](https://businesscentral.dynamics.com/?page=314).
 
-## <a name="the-chart-of-accounts"></a><a name="the-chart-of-accounts"></a>Kontoplanen
+## <a name="the-chart-of-accounts"></a><a name="the-chart-of-accounts"></a><a name="the-chart-of-accounts"></a>Kontoplanen
 
 Kontoplanen viser alle finanskontoer. Fra kontoplanen kan du gjøre ting som:  
 
@@ -53,7 +53,7 @@ Kontoplanen viser alle finanskontoer. Fra kontoplanen kan du gjøre ting som:
 
 Du kan legge til, endre eller slette finanskontoer. For å unngå avvik kan du imidlertid ikke slette en finanskonto hvis dataene fra den er brukt i kontoplanen. I tillegg kan du fra lanseringsbølge 2 for 2022 også blokkere utilsiktet sletting av kontoer i sensitive perioder. Finn ut mer i delen [Sletting av konti](finance-setup-chart-accounts.md#delete-accounts).  
 
-## <a name="account-categories"></a><a name="account-categories"></a>Kontokategorier
+## <a name="account-categories"></a><a name="account-categories"></a><a name="account-categories"></a>Kontokategorier
 
 Du kan tilpasse strukturen i kontoutskrifter ved å tilordne finanskontoer til kontokategorier.  
 
@@ -63,7 +63,7 @@ Du kan opprette en kategorigruppe ved å rykke inn andre underkategorier under e
 
 Du kan definere om spesifikke typer rapporter må inkluderes i bestemte typer rapporter. Kontokategoriene bidra til å definere oppsettet for regnskapsoppgjør.  
 
-### <a name="example"></a><a name="example"></a>Eksempel
+### <a name="example"></a><a name="example"></a><a name="example"></a>Eksempel
 
 Standard saldoutdrag har for eksempel en underkategori for *kontanter* under *gjeldende aktiva*. Hvis du vil at saldoutdraget skal ta hensyn til håndkasse og sjekker, så du utfører følgende trinn:
 
@@ -90,17 +90,17 @@ Når du velger handlingen **Generer finansrapporter**, eller neste gang rapporte
 > [!NOTE]
 > Hvis du oppretter en finanskonto uten å tildele en kontokategori, tildeler [!INCLUDE[prod_short](includes/prod_short.md)] automatisk kontokategorien fra finanskontoen rett over kontoen i kontoplanen når du tildeler kontoen til en bokføringsgruppe. Hvis du vil ta med den nye kontoen i finansrapportene, må du imidlertid velge handlingen **Generer finansrapporter** på siden **Finanskontokategorier**. Du kan også åpne siden Finanskontokort, angi kontokategorien og deretter generere finansrapporten på nytt.
 
-## <a name="get-a-quick-overview"></a><a name="get-a-quick-overview"></a>Få en rask oversikt
+## <a name="get-a-quick-overview"></a><a name="get-a-quick-overview"></a><a name="get-a-quick-overview"></a>Få en rask oversikt
 
 **Kontoplan**-siden viser konti i en hierarkisk liste som gir rask tilgang til viktig informasjon for hver konto. Listen er imidlertid statisk, og hvis du har mange kontoer, må du kanskje rulle for å vise ulike kontoer. Hvis du bare vil ha en rask oversikt over det grunnleggende, for eksempel bevegelser og saldoer, er siden **Kontoplanoversikt** et nyttig alternativ. Kolonneoppsettet på siden er nå det samme som du finner på siden **Kontoplaner** (men med færre kolonner), slik at du ikke trenger å justere deg selv. Du kan vise eller skjule de hierarkiske nivåene for å få en tett visning. For at det skal bli enkelt å bytte mellom sidene er siden **Kontoplanoversikt** tilgjengelig fra **Kontoplan**-siden.
 
-## <a name="access-to-create-and-edit-accounts-and-account-categories"></a><a name="access-to-create-and-edit-accounts-and-account-categories"></a>Tilgang til å opprette og redigere konti og kontokategorier
+## <a name="access-to-create-and-edit-accounts-and-account-categories"></a><a name="access-to-create-and-edit-accounts-and-account-categories"></a><a name="access-to-create-and-edit-accounts-and-account-categories"></a>Tilgang til å opprette og redigere konti og kontokategorier
 
 I en liten organisasjon, for eksempel CRONUS-demoselskapet, kan de fleste brukere redigere kontoplanen, unntatt brukere med en gruppemedlemslisens. Større organisasjoner bruker vanligvis roller og tillatelser til å begrense redigering av kontoplanene. Hvis du er administrator eller har rollen som *Forretningssjef* eller *Regnskapsfører*, kan du kontrollere brukertillatelsene for å gi de riktige personene tilgang til relevante tabeller. Hvis du vil ha mer informasjon, kan du se delen [For å få en oversikt over en brukers tillatelser](ui-define-granular-permissions.md#to-get-an-overview-of-a-users-permissions).  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/business-central-configure-general-ledger-setup/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/business-central-configure-general-ledger-setup/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Definer eller endre kontoplanen](finance-setup-chart-accounts.md)  
 [Tildel tillatelser til brukere og grupper](ui-define-granular-permissions.md)  

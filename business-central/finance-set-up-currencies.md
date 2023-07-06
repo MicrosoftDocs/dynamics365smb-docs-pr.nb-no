@@ -8,7 +8,7 @@ ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: edupont
 ---
-# <a name="set-up-currencies"></a><a name="set-up-currencies"></a>Definere valutaer
+# <a name="set-up-currencies"></a><a name="set-up-currencies"></a><a name="set-up-currencies"></a>Definere valutaer
 
 [!INCLUDE [finance-currencies-def](includes/finance-currencies-def.md)]
 
@@ -16,7 +16,7 @@ Bruk en ekstern tjeneste for å få de siste valutakursene i listen **Valutaer**
 
 [!INCLUDE [finance-currencies-lcy](includes/finance-currencies-lcy-note.md)]
 
-## <a name="currencies"></a><a name="currencies"></a><a name="curr"></a>Valutaer
+## <a name="currencies"></a><a name="currencies"></a><a name="currencies"></a><a name="curr"></a>Valutaer
 
 Tabellen nedenfor beskriver feltene i **Valutaer**-listen.
 
@@ -52,7 +52,7 @@ Tabellen nedenfor beskriver feltene i **Valutaer**-listen.
 |**Maks. tillatte mva-differanse**|Maksimumsbeløpet som er tillatt for mva-forskjeller i denne valutaen. Hvis du vil ha mer informasjon, kan du se [Korriger mva-beløp manuelt i salgs- og kjøpsdokumenter](finance-work-with-vat.md#correcting-vat-amounts-manually-on-sales-and-purchase-documents). Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
 |**Mva-avrundingstype**|Angir avrundingsmetoden for å korrigere mva-beløp manuelt i salgs- og kjøpsdokumenter. Dette feltet er kanskje ikke synlig som standard. Den kan hentes ved å tilpasse siden.|
 
-### <a name="available-currency-functions"></a><a name="available-currency-functions"></a>Tilgjengelige valutafunksjoner
+### <a name="available-currency-functions"></a><a name="available-currency-functions"></a><a name="available-currency-functions"></a>Tilgjengelige valutafunksjoner
 
 Følgende tabell beskriver nøkkelhandlinger på siden **Valutaer**.  
 
@@ -67,11 +67,11 @@ Følgende tabell beskriver nøkkelhandlinger på siden **Valutaer**.
 ||**Oppdater valutakurser**|Få de siste valutakursene fra en tjenesteleverandør.|
 |**Rapporter**|**Valutaoppgjør**|Vis saldoene for alle kunder og leverandører i både utenlandsk og lokal valuta (LV). Rapporten viser to saldoer i LV. Den ene er valutaoppgjøret konvertert til LV med gjeldende kurs på transaksjonstidspunktet. Den andre er saldo for fremmed valuta omgjort til LV med gjeldende kurs på arbeidsdatoen.|
 
-## <a name="lcy-and-other-currencies"></a><a name="lcy-and-other-currencies"></a>LV og andre valutaer
+## <a name="lcy-and-other-currencies"></a><a name="lcy-and-other-currencies"></a><a name="lcy-and-other-currencies"></a>LV og andre valutaer
 
 [!INCLUDE [finance-currencies-lcy-def](includes/finance-currencies-lcy-def.md)]
 
-## <a name="rounding-currencies"></a><a name="rounding-currencies"></a>Runde av valutaer
+## <a name="rounding-currencies"></a><a name="rounding-currencies"></a><a name="rounding-currencies"></a>Runde av valutaer
 
 Når du skal behandle valutaer som ikke bruker desimaler, og unngå desimaler i utenlandsk valuta, kan du bruke to forskjellige avrundingsfunksjoner:
 
@@ -83,37 +83,37 @@ Disse funksjonene kan virke for seg eller sammen. I tillegg kan funksjonene virk
 
 I motsetning til fakturaavrundingsfunksjonene påvirker beløpsavrundings- og prisavrundingsfunksjonene bare beløp i utenlandsk valuta - ikke de tilsvarende beløpene i NOK. Disse to funksjonene vil ikke føre til noen bokføringer til finanskonti. Ingen finanskontoer trenger heller ikke angis i bokføringsgrupper eller andre steder.
 
-### <a name="unit-amount-rounding"></a><a name="unit-amount-rounding"></a>Prisavrunding
+### <a name="unit-amount-rounding"></a><a name="unit-amount-rounding"></a><a name="unit-amount-rounding"></a>Prisavrunding
 
 Prisavrundingsfunksjonen styrer hvordan salgspriser for varer og ressurser i utenlandske valutaer rundes av på salgs- og kjøpslinjer. Du må angi reglene for hver valuta for seg i feltet **Avrund.presisjon, pris** i **Valutaer**-listen.
 
 Prisavrundingsfunksjonen brukes automatisk hver gang du registrerer en vare eller et ressursnummer på en salgslinje. Hvis fakturaen er for en kunde med en valutakode, regnes prisen på varen eller ressursen om til kundens valuta. Prisen rundes av i henhold til avrundingspresisjonen for valutaen.
 
-### <a name="amount-rounding"></a><a name="amount-rounding"></a>Beløpsavrunding
+### <a name="amount-rounding"></a><a name="amount-rounding"></a><a name="amount-rounding"></a>Beløpsavrunding
 
 Beløpsavrundingsfunksjonen styrer hvordan beløp i utenlandske valutaer rundes av på finanskladdelinjer, salgslinjer og kjøpslinjer. Du må angi reglene for hver valuta for seg i feltet **Avrundingspresisjon, beløp** i **Valutaer**-listen.
 
 Beløp i utenlandske valutaer rundes av når du fyller ut og bokfører finanskladdelinjer, salgslinjer og kjøpslinjer.
 
-## <a name="exchange-rates"></a><a name="exchange-rates"></a>Valutakurser
+## <a name="exchange-rates"></a><a name="exchange-rates"></a><a name="exchange-rates"></a>Valutakurser
 
 Du kan registrere valutakurser for hver valuta og angi hvilke datoer valutakursene gjelder fra. Du kan for eksempel registrere daglige valutakurser, månedlige valutakurser eller kvartalsmessige valutakurser for hver valuta.
 
 Du kan beholde historiske valutakurser i **Valutakurser**-siden til referanse. Når du skal oppdatere valutakurser, kan du bruke knappen **Oppdatere valutakurser** for å få siste valutakurser fra en ekstern tjenesteleverandør.
 
-## <a name="general-ledger-accounts"></a><a name="general-ledger-accounts"></a>Finanskontoer
+## <a name="general-ledger-accounts"></a><a name="general-ledger-accounts"></a><a name="general-ledger-accounts"></a>Finanskontoer
 
 Du kan ikke koble valutakoder til finanskontoer fordi beløp på finanskontoer er i NOK. Hvis du har et banklån i USD og foretar innskudd på en bankkonto i NOK, kan du holde oversikt over disse kontiene ved å definere bankkonti i USD og NOK. Med bokføringsgrupper kan du koble kontiene til de relevante finanskontiene. I finans vises verdien av beløpene i den lokale valutaen.
 
 Du kan registrere en valutakode på en finanskladdelinje og bokføre linjen til en finanskonti. Den relevante valutakursen brukes til å regne om beløpet til NOK før det bokføres til finanskontoen.  
 
-## <a name="example-of-a-receivable-currency-transaction"></a><a name="example-of-a-receivable-currency-transaction"></a>Eksempel på en kundevalutatransaksjon
+## <a name="example-of-a-receivable-currency-transaction"></a><a name="example-of-a-receivable-currency-transaction"></a><a name="example-of-a-receivable-currency-transaction"></a>Eksempel på en kundevalutatransaksjon
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Oppdater valutakurser](finance-how-update-currencies.md)  
 [Definer en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md)  

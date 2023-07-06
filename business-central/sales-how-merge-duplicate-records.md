@@ -10,7 +10,7 @@ ms.search.keywords: client
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="merge-duplicate-records"></a><a name="merge-duplicate-records"></a>Slå sammen dupliserte poster
+# <a name="merge-duplicate-records"></a><a name="merge-duplicate-records"></a><a name="merge-duplicate-records"></a>Slå sammen dupliserte poster
 
 Siden ulike brukere oppretter nye kunde-, leverandør- eller kontaktkort over tid eller de nye postene opprettes automatisk under overføringen, kan en kunde, leverandør eller kontakt være representert i systemet med mer enn én post. I så fall kan du bruke siden **Slå sammen duplikat** fra kortet til posten du vil beholde. Siden siden gir deg en oversikt over dupliserte feltverdier og inneholder funksjoner for å velge hvilke verdier du vil beholde eller forkaste når du slår sammen to poster til én.
 
@@ -56,9 +56,9 @@ Følgende fremgangsmåte er basert på et kundekort. Trinnene er de samme for en
 > [!NOTE]
 > For kontakter kan du bruke funksjonaliteten for å finne duplikate kontakter før du bruker siden **Slå sammen duplikat**. Hvis du vil ha mer informasjon, se [Søke etter duplikatkontakter](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
 [Definere kontakter](marketing-setup-contacts.md)  
