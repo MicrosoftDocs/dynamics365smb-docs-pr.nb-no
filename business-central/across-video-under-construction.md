@@ -11,7 +11,7 @@ ms.date: 06/11/2021
 ms.author: bholtorf
 ---
 
-# <a name="sorry-this-content-is-under-construction"></a><a name="sorry-this-content-is-under-construction"></a><a name="sorry-this-content-is-under-construction"></a>Beklager, men dette innholdet er under utarbeidelse
+# <a name="sorry-this-content-is-under-construction"></a>Beklager, men dette innholdet er under utarbeidelse
 
 :::image type="content" source="media/helene/empty illustration_BCdocs.png" alt-text="Det er ingenting her akkurat nå." border="false":::
 
@@ -21,7 +21,7 @@ Vi legger stadig til og forbedrer [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Kom igjen snart, og i mellomtiden kan du utforske andre emner på [Dynamics 365-kanalen på YouTube](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 [Gå til videobiblioteket vårt](across-videos.md)
 
  

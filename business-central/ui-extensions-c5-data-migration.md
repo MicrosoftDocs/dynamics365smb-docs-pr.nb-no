@@ -12,18 +12,18 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="the-c5-data-migration-extension"></a><a name="the-c5-data-migration-extension"></a><a name="the-c5-data-migration-extension"></a>Utvidelsen C5-datamigrering
+# <a name="the-c5-data-migration-extension"></a>Utvidelsen C5-datamigrering
 
 Denne utvidelsen gjør det enkelt å overføre kunder, leverandører, varer og konti fra Microsoft Dynamics C5 2012 til [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan også overføre historiske poster for finanskonti.
 
 > [!NOTE]
 > Selskapet i [!INCLUDE[prod_short](includes/prod_short.md)]kan ikke inneholde data. I tillegg, når du starter en migrering, bør du ikke opprette kunder, leverandører, varer eller kontoer til migreringen er ferdig.
 
-## <a name="what-data-is-migrated"></a><a name="what-data-is-migrated"></a><a name="what-data-is-migrated"></a>Hvilke data overføres?
+## <a name="what-data-is-migrated"></a>Hvilke data overføres?
 
 Følgende data overføres for hver enhet:
 
-### <a name="customers"></a><a name="customers"></a><a name="customers"></a>Kunder
+### <a name="customers"></a>Kunder
 
 * Kontakter  
 * Lokasjon
@@ -42,7 +42,7 @@ Hvis du overfører konti, overføres også følgende data:
 * Finanskladd
 * Åpne transaksjoner (kundeposter)
 
-### <a name="vendors"></a><a name="vendors"></a><a name="vendors"></a>Leverandører
+### <a name="vendors"></a>Leverandører
 
 * Kontakter
 * Lokasjon
@@ -61,7 +61,7 @@ Hvis du overfører konti, overføres også følgende data:
 * Finanskladd
 * Åpne transaksjoner (leverandørposter)
 
-### <a name="items"></a><a name="items"></a><a name="items"></a>Varer
+### <a name="items"></a>Varer
 
 * Lokasjon
 * Land
@@ -86,7 +86,7 @@ Hvis du overfører konti, overføres også følgende data:
 > [!NOTE]
 > Hvis det finnes åpne transaksjoner som bruker utenlandske valutaer, overføres også valutakursene for de aktuelle valutaene. Andre valutakurser overføres ikke.
 
-### <a name="chart-of-accounts"></a><a name="chart-of-accounts"></a><a name="chart-of-accounts"></a>Kontoplan
+### <a name="chart-of-accounts"></a>Kontoplan
 
 * Standarddimensjoner: Avdeling, kostsenter, formål  
 * Historiske finanstransaksjoner  
@@ -94,11 +94,11 @@ Hvis du overfører konti, overføres også følgende data:
 > [!NOTE]
 > Historiske finanstransaksjoner behandles på en litt annen måte. Når du overfører data, angir du parameteren **Inneværende periode**. Denne parameteren angir hvordan finanstransaksjoner behandles. Transaksjoner etter denne datoen overføres individuelt. Transaksjoner før denne datoen samles per konto og overføres som et enkelt beløp. La oss for eksempel si at det finnes transaksjoner i 2015, 2016, 2017, 2018, og du angir 1. januar 2017 i feltet Innværende periode. For hver konto samles beløpene for transaksjonene på eller før 31. desember 2106 i én finanskladdlinje for hver finanskonto. Alle transaksjoner etter denne datoen overføres individuelt.
 
-## <a name="file-size-requirements"></a><a name="file-size-requirements"></a><a name="file-size-requirements"></a>Filstørrelseskrav
+## <a name="file-size-requirements"></a>Filstørrelseskrav
 
 Den største størrelsen du kan laste opp til [!INCLUDE[prod_short](includes/prod_short.md)], er 150 MB. Hvis filen du eksporterer fra C5, er større enn det, vurder å overføre dataene i flere filer. For eksempel kan du eksportere én eller to typer enheter fra C5, for eksempel kunder og leverandører, til en fil, og deretter eksportere varer til en annen fil, og så videre. Du kan importere filer individuelt i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="to-migrate-data"></a><a name="to-migrate-data"></a><a name="to-migrate-data"></a>Migrere data
+## <a name="to-migrate-data"></a>Migrere data
 
 Det tar kun noen få trinn å eksportere data fra C5 og importere dataen inn i [!INCLUDE[prod_short](includes/prod_short.md)]:  
 
@@ -106,14 +106,14 @@ Det tar kun noen få trinn å eksportere data fra C5 og importere dataen inn i [
 2. I [!INCLUDE[prod_short](includes/prod_short.md)] velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Dataoverføring**, og deretter velger du **Dataoverføring**.  
 3. Fullfør trinnene i den assisterte oppsettsveiledningen. Pass på at du velger **Importer fra Microsoft Dynamics C5 2012** som datakilde.  
 
-## <a name="viewing-the-status-of-the-migration"></a><a name="viewing-the-status-of-the-migration"></a><a name="viewing-the-status-of-the-migration"></a>Se statusen for overføringen
+## <a name="viewing-the-status-of-the-migration"></a>Se statusen for overføringen
 
 Bruk siden **Oversikt over datamigrering** for å overvåke migreringen. Siden viser informasjon om hvor mange enheter som er inkludert i overføringen, status til overføringen, antall varer som er overført, og om overføringen var vellykket. Den viser også antall feil, gir deg mulighet til å undersøke hva som gikk feil, og gjør det enkelt å gå til enheten for å løse problemene. Hvis du vil ha mer informasjon, kan du se neste avsnitt i dette emnet.  
 
 > [!NOTE]
 > Mens du venter på resultatet av overføringen, må du oppdatere siden for å vise resultatet.
 
-## <a name="how-to-avoid-double-posting"></a><a name="how-to-avoid-double-posting"></a><a name="how-to-avoid-double-posting"></a>Slik unngår du dobbel bokføring
+## <a name="how-to-avoid-double-posting"></a>Slik unngår du dobbel bokføring
 
 For å unngå dobbel bokføring i Finans brukes følgende balansekonti for åpne transaksjoner:  
 
@@ -121,7 +121,7 @@ For å unngå dobbel bokføring i Finans brukes følgende balansekonti for åpne
 * Vi bruker kundefordringskonto for kunder fra kundebokføringsgruppen.  
 * For varer oppretter vi et generelt bokføringsoppsett, der justeringskontoen er kontoen som er angitt som lagerkonto i lagerbokføringsoppsettet.  
 
-## <a name="correcting-errors"></a><a name="correcting-errors"></a><a name="correcting-errors"></a>Feilkorrigering
+## <a name="correcting-errors"></a>Feilkorrigering
 
 Hvis det oppstår en feil, viser **Status**-feltet **Fullført med feil**, og **Feilantall** viser hvor mange feil som oppsto. For å se en oversikt over feilene, kan du åpne siden **Datamigreringsfeil** ved å velge:  
 
@@ -138,7 +138,7 @@ Etter at du har korrigert én eller flere feil, kan du velge **Migrer** for å m
 > [!NOTE]
 > Hvis du har varer som er inkludert i en stykkliste, må du kanskje migrere mer enn én gang hvis den opprinnelige varen ikke er opprettet før variantene som refererer til den. Hvis en varevariant opprettes først, kan referansen til den opprinnelige varen føre til en feilmelding.  
 
-## <a name="verifying-data-after-migrating"></a><a name="verifying-data-after-migrating"></a><a name="verifying-data-after-migrating"></a>Kontroller dataene etter overføring
+## <a name="verifying-data-after-migrating"></a>Kontroller dataene etter overføring
 
 Du kan kontrollere at dataene er overført riktig ved å se på følgende sider i C5 og [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -149,11 +149,11 @@ Du kan kontrollere at dataene er overført riktig ved å se på følgende sider 
 |Vareposter| Varekladder| ITEMMIGR |
 |Finansposter| Finanskladder| GLACMIGR |
 
-## <a name="stopping-data-migration"></a><a name="stopping-data-migration"></a><a name="stopping-data-migration"></a>Stopp dataoverføring
+## <a name="stopping-data-migration"></a>Stopp dataoverføring
 
 Du kan stoppe datamigreringen ved å velge **Stopp alle migreringer**. Hvis du gjør dette, blir alle ventende migreringer også stoppet.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Tilpass [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  

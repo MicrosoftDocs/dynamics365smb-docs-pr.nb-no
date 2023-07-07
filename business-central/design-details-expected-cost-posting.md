@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 07/20/2021
 ms.author: edupont
 ---
-# <a name="design-details-expected-cost-posting"></a><a name="design-details-expected-cost-posting"></a><a name="design-details-expected-cost-posting"></a>Designdetaljer: Bokføre forventet kost
+# <a name="design-details-expected-cost-posting"></a>Designdetaljer: Bokføre forventet kost
 Forventede kostnader representerer for eksempel overslaget for kjøpspris for en vare du registrerer, før du faktisk mottar fakturaen for varen.  
 
  Du kan bokføre forventet kost på lager og i finans. Når du bokfører et antall som bare er mottatt eller levert, men ikke fakturert, opprettes deretter en verdipost den forventede kostnaden. Denne forventede kostnaden påvirker lagerverdien, men bokføres ikke i finans med mindre du konfigurerer systemet slik at dette gjøres.  
@@ -22,7 +22,7 @@ Forventede kostnader representerer for eksempel overslaget for kjøpspris for en
 
  For å støtte avstemming og sporing viser den fakturerte verdiposten det forventede kostbeløpet som er bokført på motkonti og midlertidige konti.  
 
-## <a name="prerequisites-for-posting-expected-costs"></a><a name="prerequisites-for-posting-expected-costs"></a><a name="prerequisites-for-posting-expected-costs"></a>Forutsetninger for bokføring av forventede kostnader
+## <a name="prerequisites-for-posting-expected-costs"></a>Forutsetninger for bokføring av forventede kostnader
 
 Du må gjøre følgende for å gjøre det mulig å bokføre forventede kostnader:
 1. På siden **Lageroppsett** velger du avmerkingsboksen **Automatisk kostbokføring** og **Bokf. av forventet kost i finans**.
@@ -32,7 +32,7 @@ Du må gjøre følgende for å gjøre det mulig å bokføre forventede kostnader
 3. På siden **Generelt bokføringsoppsett** kontrollerer du feltet **Forv. lagerjust.kto. (midl.)** for feltet **Bokføringsgruppe – firma** og **Bokføringsgruppe – vare** du vil bruke.
 4. Når du oppretter en bestilling, er standardverdien feltet **Leverandørs fakturanr.** er obligatorisk. Du må deaktivere denne funksjonen på siden **Kjøpsoppsett** ved å fjerne merket for feltet **Obligatorisk nr. for eksternt dokument**.
 
-## <a name="example"></a><a name="example"></a><a name="example"></a>Eksempel
+## <a name="example"></a>Eksempel
 
 > [!NOTE]  
 > Kontonumrene som brukes i dette eksemplet, er bare til referanse og vil være forskjellige i systemet. Definer dem som angitt i forutsetningene ovenfor.
@@ -85,7 +85,7 @@ Du bokfører en bestilling som mottatt. Forventet kostnad er LV 95,00.
 |15.01.20|Konto utl. kj.pris/prod.kost|7291|-100|6|  
 |15.01.20|Lagerkonto|2130|100|5|  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
  [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)   
  [Designdetaljer: Kostjustering](design-details-cost-adjustment.md)   
  [Designdetaljer: Avstemming med konti i Finans](design-details-reconciliation-with-the-general-ledger.md)   

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: edupont
 ---
-# <a name="set-up-shipping-agents"></a><a name="set-up-shipping-agents"></a><a name="set-up-shipping-agents"></a>Definere transportører
+# <a name="set-up-shipping-agents"></a>Definere transportører
 Du kan definere en kode for hver enkelt transportør og angi opplysninger om dem.  
 
 Hvis du oppgir en internettadresse til transportøren, og vedkommende tilbyr pakkesporingsservice på Internett, kan du bruke funksjonen for automatisk sporing av pakker. Hvis du vil ha mer informasjon, kan du se [Spore pakker](sales-how-track-packages.md).
@@ -20,7 +20,7 @@ Du kan definere et ubegrenset serviceantall for hver transportør, og angi en le
 
 Når du har tilordnet en transportørservice til en ordrelinje, tas leveringstiden for servicen med i beregningen av ordrebekreftelsen for denne linjen. Hvis du vil ha mer informasjon, kan du se [Beregne ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md).
 
-## <a name="to-set-up-a-shipping-agent"></a><a name="to-set-up-a-shipping-agent"></a><a name="to-set-up-a-shipping-agent"></a>Slik definerer du transportører
+## <a name="to-set-up-a-shipping-agent"></a>Slik definerer du transportører
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Transportører**, og velg deretter den relaterte koblingen.  
 2.  Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].  
 3.  Velg handlingen **Transportørservice**.
@@ -29,7 +29,7 @@ Når du har tilordnet en transportørservice til en ordrelinje, tas leveringstid
 > [!NOTE]  
 >  Hvis du sletter transportøren på ordrelinjen, slettes også transportørservicekoden. Innholdet i feltene som var delvis basert på transportørservice, beregnes på nytt.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 [Sette opp leveringsmåter](sales-how-set-up-shipment-methods.md)  
 [Spore pakker](sales-how-track-packages.md)    
 [Oversikt over lagerstyring](design-details-warehouse-management.md)

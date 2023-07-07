@@ -11,13 +11,13 @@ ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-inventory-costing"></a><a name="design-details-inventory-costing"></a><a name="design-details-inventory-costing"></a>Designdetaljer: Kostberegning for beholdning
+# <a name="design-details-inventory-costing"></a>Designdetaljer: Kostberegning for beholdning
 
 Denne dokumentasjonen gir et detaljert teknisk innblikk i begrepene og prinsippene som brukes i funksjonene for kostberegning for beholdning i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Kostberegning for beholdning, også kalt kostnadsstyring, handler om å registrere og rapportere forretningsdriftskost.  
 
-## <a name="in-this-section"></a><a name="in-this-section"></a><a name="in-this-section"></a>I denne delen
+## <a name="in-this-section"></a>I denne delen
 
 [Designdetaljer: Kostmetoder](design-details-costing-methods.md)  
 [Designdetaljer: Vareutligning](design-details-item-application.md)  

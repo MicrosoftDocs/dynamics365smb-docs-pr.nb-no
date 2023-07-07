@@ -11,7 +11,7 @@ ms.search.form: '456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31'
 ms.date: 03/24/2022
 ms.author: edupont
 ---
-# <a name="create-number-series"></a><a name="create-number-series"></a><a name="create-number-series"></a>Opprette nummerserier
+# <a name="create-number-series"></a>Opprette nummerserier
 
 For hvert selskap som opprettes, må du tilordne unike identifikasjonskoder til elementer som for eksempel hovedbokkontoer, kunde- og leverandørkontoer, fakturaer og andre dokumenter. Nummerering er ikke bare viktig for identifikasjonsformål. Med et godt utformet nummereringssystem er det enklere å styre og analysere selskapet, og antall feil som forekommer ved dataregistrering reduseres.
 
@@ -32,10 +32,10 @@ Du setter vanligvis opp i nummerserien automatisk skal sette inn neste nummer i 
 
 Hvis du vil bruke mer enn én nummerseriekode for én type hoveddata - det vil si hvis du for eksempel vil bruke ulike nummerserier for ulike varekategorier - kan du bruke nummerserieforbindelser.
 
-## <a name="gaps-in-number-series"></a><a name="gaps-in-number-series"></a><a name="gaps-in-number-series"></a>Tomrom i nummerserier
+## <a name="gaps-in-number-series"></a>Tomrom i nummerserier
 Ikke alle poster du oppretter i [!INCLUDE[prod_short](includes/prod_short.md)], er finanstransaksjoner som må bruke sekvensiell nummerering. Kundekort, tilbud og lageraktiviteter er eksempler på poster som tilordnes et nummer fra en nummerserie, men som ikke er underlagt revisjon og/eller kan slettes. For slike nummerserier kan du merke av for **Tillat tomrom i nr.** på siden **Nr.serielinjer**. Denne innstillingen kan også endres etter at du har opprettet nummerserien. Hvis du vil ha mer informasjon, kan du se [Opprette en ny nummerserie](ui-create-number-series.md#to-create-a-new-number-series).
 
-## <a name="behavior-of-the-no-field-on-documents-and-cards"></a><a name="behavior-of-the-no-field-on-documents-and-cards"></a><a name="behavior-of-the-no-field-on-documents-and-cards"></a>Virkemåte for feltet Nr. på dokumenter og kort
+## <a name="behavior-of-the-no-field-on-documents-and-cards"></a>Virkemåte for feltet Nr. på dokumenter og kort
 
 På salgs-, kjøps- og overføringsdokumenter og på alle kort kan **Nr.** feltet kan fylles ut automatisk fra en forhåndsdefinert nummerserie, eller du kan legge den til manuelt. Under visse omstendigheter er feltet **Ant.** er usynlig for å hindre deg i å redigere det.  
 
@@ -57,7 +57,7 @@ Når du åpner et nytt dokument eller kort som det finnes en nummerserie for, å
 > [!NOTE]  
 > Hvis du vil aktivere manuell nummerering på for eksempel nye varekort som er opprettet med en dataoverføring som har skjult **Nr.** som standard, går du til siden **Lageroppsett** og velger **Varenr.**-feltet for å åpne og angi den relaterte nummerserien til **Manuelle nr.**.
 
-## <a name="to-create-a-new-number-series"></a><a name="to-create-a-new-number-series"></a><a name="to-create-a-new-number-series"></a>Opprette en ny nummerserie
+## <a name="to-create-a-new-number-series"></a>Opprette en ny nummerserie
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Nr.serie**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.  
@@ -71,7 +71,7 @@ Når du åpner et nytt dokument eller kort som det finnes en nummerserie for, å
 
 Du kan knytte nummerserier til malene du har definert for de ulike typene kunder og leverandører som selger og innkjøpere oftest legger til i [!INCLUDE [prod_short](includes/prod_short.md)]. I dette tilfellet kan du definere de aktuelle nummerseriene, knytte dem til relasjoner og deretter legge til den første nummerserien i den relevante relasjonen på den relevante oppsettsiden. Når en bruker deretter oppretter en kunde, velger de den relevante malen, og den nye kunden får tildelt et nummer fra nummerserien som er definert for denne malen.  
 
-## <a name="to-create-relationships-between-number-series"></a><a name="to-create-relationships-between-number-series"></a><a name="to-create-relationships-between-number-series"></a>Slik oppretter du forbindelser mellom nummerserier
+## <a name="to-create-relationships-between-number-series"></a>Slik oppretter du forbindelser mellom nummerserier
 
 Hvis du har opprettet mer enn én nummerseriekode for den samme typen grunnleggende opplysninger eller transaksjoner, kan du opprette forbindelser mellom kodene. Denne funksjonen kan hjelpe deg med å velge mellom koder når du bruker et nummer. Når du definerer et forhold mellom en gruppe med nummerserier, knytter du alle de relaterte seriene til én nummerseriekode. Deretter kan du sette inn koden i et felt på hurtigfanen **Nummerering** på en av de relevante konfigurasjonssidene, for eksempel **Salgsoppsett**.  
 
@@ -83,7 +83,7 @@ Hvis du har opprettet mer enn én nummerseriekode for den samme typen grunnlegge
 
 Når du så registrerer noe som trenger et nummer, kan du bruke forbindelsene du har opprettet til å velge mellom nummerseriene som er koblet til hverandre.
 
-## <a name="to-set-up-where-a-number-series-is-used"></a><a name="to-set-up-where-a-number-series-is-used"></a><a name="to-set-up-where-a-number-series-is-used"></a>Slik definerer du der det brukes en nummerserie
+## <a name="to-set-up-where-a-number-series-is-used"></a>Slik definerer du der det brukes en nummerserie
 
 Følgende fremgangsmåte viser hvordan du angir nummerseriene for Salg-området. Trinnene er de samme for andre områder.  
 
@@ -92,9 +92,9 @@ Følgende fremgangsmåte viser hvordan du angir nummerseriene for Salg-området.
 
 Det valgte nummeret skal nå brukes til å fylle ut feltet **Nr.** på kortet eller det aktuelle dokumentet, i henhold til innstillingene du gjorde på nummerserielinjen.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

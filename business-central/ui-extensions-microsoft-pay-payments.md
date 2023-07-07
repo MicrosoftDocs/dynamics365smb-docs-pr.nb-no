@@ -10,7 +10,7 @@ ms.search.form: '1080, 1081, 1083, 1085, 1087, 1089'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="the-microsoft-pay-extension"></a><a name="the-microsoft-pay-extension"></a><a name="the-microsoft-pay-extension"></a>Microsoft Pay-utvidelsen
+# <a name="the-microsoft-pay-extension"></a>Microsoft Pay-utvidelsen
 
 > [!IMPORTANT]
 > Fra og med 8. februar 2020 vil endringer i Microsoft Pay-tjenesten påvirke Microsoft Pay-filtypen i Microsoft [!INCLUDE[prod_short](includes/prod_long.md)]. På grunn av endringene vil **Betal nå**-betalingskoblinger som Microsoft Pay-utvidelsen genererer for fakturaer i [!INCLUDE[prod_short](includes/prod_short.md)], ikke åpne Microsoft Pay etter 8. februar. Kunder som bruker utvidelsen, bør endre oppsettet for Betalingstjenester for å begynne å bruke PayPal-utvidelsen i stedet.<br /></br>
@@ -36,7 +36,7 @@ Microsoft Pay-utvidelsen gir følgende fordeler:
 
 Aktiverer utvidelser for betaling-tjenesten er gratis i [!INCLUDE[prod_short](includes/prod_short.md)], men du må kontakte tjenesten for å få en konto. Hvis du vil ha mer informasjon, kan du se [Aktivere kundebetalinger gjennom betalingstjenester](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Tilpass [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Sette opp salg](sales-setup-sales.md)  

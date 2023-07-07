@@ -11,15 +11,15 @@ ms.custom: bap-template
 ms.service: dynamics365-business-central
 ---
 
-# <a name="managing-microsoft-teams-integration-with-"></a><a name="managing-microsoft-teams-integration-with-"></a><a name="managing-microsoft-teams-integration-with-"></a>Administrere Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
+# <a name="managing-microsoft-teams-integration-with-"></a>Administrere Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
 Denne artikkelen gir en oversikt over hva du kan gjøre som administrator for å styre Microsoft Teams-integrasjon med [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="in-microsoft-teams"></a><a name="in-microsoft-teams"></a><a name="in-microsoft-teams"></a>I Microsoft Teams
+## <a name="in-microsoft-teams"></a>I Microsoft Teams
 
-### <a name="minimum-requirements"></a><a name="minimum-requirements"></a><a name="minimum-requirements"></a>Minstekrav
+### <a name="minimum-requirements"></a>Minstekrav
 
 Denne delen beskriver minimumskravene for at [!INCLUDE [prod_short](includes/prod_short.md)]-appfunksjonene skal fungere i Teams.
 
@@ -42,7 +42,7 @@ Denne delen beskriver minimumskravene for at [!INCLUDE [prod_short](includes/pro
 
     Policyinnstillingen **Tillat URL-forhåndsvisninger** må være aktivert. Ellers kan ikke et kort genereres for [!INCLUDE [prod_short](includes/prod_short.md)]-koblinger som limes inn i en Teams-samtale. Hvis du vil ha mer informasjon om denne innstillingen, kan du se [Administrere meldingspolicyer i Teams](/microsoftteams/messaging-policies-in-teams).
 
-### <a name="managing-the--app-optional"></a><a name="managing-the--app-optional"></a><a name="managing-the--app-optional"></a>Administrere [!INCLUDE [prod_short](includes/prod_short.md)]-appen (valgfritt)
+### <a name="managing-the--app-optional"></a>Administrere [!INCLUDE [prod_short](includes/prod_short.md)]-appen (valgfritt)
 
 Som Teams-administrator kan du behandle alle apper for organisasjonen, inkludert [!INCLUDE [prod_short](includes/prod_short.md)]-appen. Du kan godkjenne eller installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen for organisasjonen, hindre at brukere installerer appen, med mer.
 
@@ -51,9 +51,9 @@ Hvis du vil ha mer informasjon, kan du se følgende artikler i Microsoft Teams-d
 - [Behandle appene i administrasjonssenteret i Microsoft Teams](/MicrosoftTeams/manage-apps)
 - [Administrere policyer for appoppsett i Microsoft Teams](/microsoftteams/teams-app-setup-policies)
 
-## <a name="in-"></a><a name="in-"></a><a name="in-"></a>I [!INCLUDE [prod_short](includes/prod_short.md)]
+## <a name="in-"></a>I [!INCLUDE [prod_short](includes/prod_short.md)]
 
-### <a name="minimum-requirements-1"></a><a name="minimum-requirements-1"></a><a name="minimum-requirements-1"></a>Minstekrav
+### <a name="minimum-requirements-1"></a>Minstekrav
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] versjon:
 
@@ -75,7 +75,7 @@ Hvis du vil ha mer informasjon, kan du se følgende artikler i Microsoft Teams-d
     
     Hvis du vil ha informasjon om tillatelser, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).
 
-## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a><a name="installing-the-business-central-app-by-using-centralized-deployment"></a><a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Installer Business Central-appen ved hjelp av sentralisert distribusjon
+## <a name="installing-the-business-central-app-by-using-centralized-deployment"></a>Installer Business Central-appen ved hjelp av sentralisert distribusjon
 
 I Microsoft Teams-administrasjonssenteret konfigurerer du policyer for Teams-appkonfigurasjonspolicyer for organisasjonen. I Teams-administrasjonssenteret kan du bruke funksjonen for sentralisert distribusjon til å installere Business Central-appen i Teams for alle brukere i organisasjonen automatisk, bestemte grupper eller individuelle brukere.
 
@@ -99,18 +99,18 @@ I Microsoft Teams-administrasjonssenteret konfigurerer du policyer for Teams-app
 > [!IMPORTANT]
 > Det kan ta opptil 24 timer før appkonfigurasjonspolicyen tas i bruk, og appen distribueres til brukerne.
 
-## <a name="managing-privacy-and-compliance"></a><a name="managing-privacy-and-compliance"></a><a name="managing-privacy-and-compliance"></a>Administrere personvern og samsvar
+## <a name="managing-privacy-and-compliance"></a>Administrere personvern og samsvar
 
 Microsoft Teams gir omfattende kontroller for samsvar og håndtering av sensitive eller personlige data, inkludert data som er lagt til i chatter og kanaler av [!INCLUDE [prod_short](includes/prod_short.md)]-appen.
 
-### <a name="understanding-where--cards-are-stored"></a><a name="understanding-where--cards-are-stored"></a><a name="understanding-where--cards-are-stored"></a>Forstå hvor [!INCLUDE [prod_short](includes/prod_short.md)]-kort lagres
+### <a name="understanding-where--cards-are-stored"></a>Forstå hvor [!INCLUDE [prod_short](includes/prod_short.md)]-kort lagres
 
 Når et kort er sendt til en chat, blir kortet og feltene som vises på kortet, kopiert til Teams. Denne informasjonen er underlagt Teams-policyene for organisasjonen, for eksempel policyer for dataoppbevaring. Når du viser kortopplysninger, lagres ingen av dataene i detaljvinduet i Teams. Dataene forblir lagret i [!INCLUDE [prod_short](includes/prod_short.md)] og hentes bare av Teams når brukeren velger å vise detaljene. 
 
 - Hvis du vil vite mer om hvor Teams lagrer disse dataene, kan du se [Plasseringen av dataene i Microsoft Teams](/microsoftteams/location-of-data-in-teams).
 - Hvis du vil finne ut mer om oppbevaringspolicyer i Teams, kan du se [Oppbevaringspolicyer i Microsoft Teams](/microsoftteams/retention-policies).
 
-### <a name="restricting-sharing-of-cards"></a><a name="restricting-sharing-of-cards"></a><a name="restricting-sharing-of-cards"></a>Begrense deling av kort
+### <a name="restricting-sharing-of-cards"></a>Begrense deling av kort
 
 Du hindrer at bestemte brukere eller grupper sender kort til chatter eller kanaler ved å definere meldingspolicyer som deaktiverer innstillingen **URL-forhåndsvisning**. Hvis du vil ha mer informasjon om denne innstillingen, kan du se [Administrere meldingspolicyer i Teams](/microsoftteams/messaging-policies-in-teams). 
 
@@ -118,7 +118,7 @@ Du kan også bruke informasjonshindringer for å hindre at enkelt personer eller
 
 Funksjonene for hindring av tap av data i Microsoft 365 Security & Compliance Center kan ikke brukes spesifikt på kort. Men de kan brukes på chatmeldingene som inneholder kortene. <!-- To track upcoming advanced features that include enabling DLP for cards, see [https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093](https://www.microsoft.com/en-us/microsoft-365/roadmap?featureid=67093).-->
 
-### <a name="responding-to-data-requests"></a><a name="responding-to-data-requests"></a><a name="responding-to-data-requests"></a>Svare på dataforespørsler
+### <a name="responding-to-data-requests"></a>Svare på dataforespørsler
 
 Du tillater at teammedlemmer og teameiere sletter meldinger som inneholder sensitive kort ved å definere meldingspolicyer, for eksempel **Eiere kan slette sendte meldinger** og **Brukere kan slette sendte meldinger**. Hvis du vil ha mer informasjon, kan du se [Administrere meldingspolicyer i Teams](/microsoftteams/messaging-policies-in-teams).
 
@@ -126,7 +126,7 @@ Funksjonene for innholdssøk og eDiscovery-samsvar i Microsoft 365 Security & Co
 
 Ettersom kortdata i Teams er en kopi av data i [!INCLUDE [prod_short](includes/prod_short.md)], kan du også bruke [!INCLUDE [prod_short](includes/prod_short.md)]-funksjoner til å eksportere kundens data hvis du blir bedt om det. Hvis du vil ha mer informasjon om personvern i [!INCLUDE [prod_short](includes/prod_short.md)], kan du se [Vanlige spørsmål om personvern for Business Central-kunder](/dynamics365/business-central/dev-itpro/security/privacyfaq).
 
-## <a name="show-or-hide-record-data-on-cards"></a><a name="show-or-hide-record-data-on-cards"></a><a name="show-or-hide-record-data-on-cards"></a>Vis eller skjul oppføringsdata på kort
+## <a name="show-or-hide-record-data-on-cards"></a>Vis eller skjul oppføringsdata på kort
 
 Når en oppføring deles med andre i en Teams-nettprat eller -kanal, vises et kort med felter som inneholder data om oppføringen. Alle mottakere kan vise disse opplysningene (eller oppføringssammendraget) som standard, uavhengig av lisensen eller tillatelsene i Business Central. Hvis du er administrator, kan du bruke veiledningen for assistert oppsett for **Kortinnstillinger** til å skjule oppføringssammendraget fra å vises på kort i Teams. Når du skjuler oppføringssammendraget, fjernes alle felter og bilder, men fortsetter å vise knappen **Detaljer** og annen informasjon ikke om oppføringen på kortet.
 
@@ -145,7 +145,7 @@ Du konfigurerer innstillingen per miljø. Når du aktiverer eller deaktiverer op
 4. På siden **Datasynlighet** slår du på bryteren **Vis oppføringssammendrag** for å vise data på kortene eller av for å skjule dataene.
 5. Velg **Neste** og følg instruksjonene for å fullføre installasjonsveiledningen.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Oversikt over [!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams-integrering](across-teams-overview.md)  
 [Installer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  

@@ -11,14 +11,14 @@ ms.search.form: '16, 17, 18, 118, 386, 391'
 ms.date: 01/21/2022
 ms.author: edupont
 ---
-# <a name="set-up-or-change-the-chart-of-accounts"></a><a name="set-up-or-change-the-chart-of-accounts"></a><a name="set-up-or-change-the-chart-of-accounts"></a>Definere eller endre kontoplanen
+# <a name="set-up-or-change-the-chart-of-accounts"></a>Definere eller endre kontoplanen
 
 Kontoplanen viser finanskontoene som lagrer dine økonomiske data. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en standard kontoplan som er klar til å støtte forretningsvirksomheten din. Du kan imidlertid endre standardkontoene, og du kan legge til nye kontoer.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## <a name="add-or-change-accounts"></a><a name="add-or-change-accounts"></a><a name="add-or-change-accounts"></a>Legg til eller endre kontoer
+## <a name="add-or-change-accounts"></a>Legg til eller endre kontoer
 
 For hver kontoplan kan du åpne finanskontoen og legge til eller endre innstillinger. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -29,7 +29,7 @@ Når det gjelder konti av typen **Total** må du fylle ut feltet **Sammentelling
 > [!IMPORTANT]
 > Hvis du har angitt definisjoner i feltet **Sammentelling** for konti av typen **Til-sum** før du utfører innrykkingen, må du skrive dem inn på nytt fordi funksjonen overskriver verdiene i alle **Til-sum**-feltene.
 
-## <a name="delete-accounts"></a><a name="delete-accounts"></a><a name="delete-accounts"></a>Slett kontoer
+## <a name="delete-accounts"></a>Slett kontoer
 
 Du kan slette en finanskonto. Før du sletter den, må imidlertid følgende være oppfylt:  
 
@@ -39,7 +39,7 @@ Du kan slette en finanskonto. Før du sletter den, må imidlertid følgende vær
 
 [!INCLUDE[prod_short](includes/prod_short.md)] hindrer deg i å slette en finanskonto som lagrer data som er nødvendige i kontoplanen.  
 
-## <a name="block-deletion-of-gl-accounts"></a><a name="block-deletion-of-gl-accounts"></a><a name="block-deletion-of-gl-accounts"></a>Blokker sletting av finanskontoer
+## <a name="block-deletion-of-gl-accounts"></a>Blokker sletting av finanskontoer
 
 [!INCLUDE [2022_releasewave1](includes/2022_releasewave1.md)]
 
@@ -49,9 +49,9 @@ Et nytt felt, **Sperr sletting av finanskontoer**, er lagt til på **Finansoppse
 
 Når du setter feltet **Sperr sletting av finanskontoer** til *Ja*, kan det anses som en beste fremgangsmåte, som er å definere datoen i feltet **Kontroller finanskonto sletting etter**, for eksempel til datoen du må lagre finansdataene fra.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/chart-accounts-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/chart-accounts-dynamics-365-business-central/index)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Finans og kontoplanen](finance-general-ledger.md)  
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  

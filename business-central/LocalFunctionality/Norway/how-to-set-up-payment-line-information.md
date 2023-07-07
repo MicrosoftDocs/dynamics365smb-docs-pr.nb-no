@@ -10,10 +10,10 @@ ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: edupont
 ---
-# <a name="set-up-payment-line-information-in-the-norwegian-version"></a><a name="set-up-payment-line-information-in-the-norwegian-version"></a><a name="set-up-payment-line-information-in-the-norwegian-version"></a>Definer betalingslinjeinformasjon i den norske versjonen
+# <a name="set-up-payment-line-information-in-the-norwegian-version"></a>Definer betalingslinjeinformasjon i den norske versjonen
 Utbetalingskladdelinjeinformasjon for remitteringsoppdraget angis på siden **Betalingsinformasjon**.  
 
-## <a name="to-set-up-payment-line-information"></a><a name="to-set-up-payment-line-information"></a><a name="to-set-up-payment-line-information"></a>Definere betalingslinjeinformasjon
+## <a name="to-set-up-payment-line-information"></a>Definere betalingslinjeinformasjon
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladder** og velg den relaterte koblingen.  
 2.  Velg handlingen **Betalingsinformasjon**.  
@@ -53,7 +53,7 @@ Utbetalingskladdelinjeinformasjon for remitteringsoppdraget angis på siden **Be
 
 6.  Velg **OK**.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
  [Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)   
  [Sette opp remitteringsavtaler](how-to-set-up-remittance-agreements.md)   
  [Opprette remitteringskontoer](how-to-create-remittance-accounts.md)   

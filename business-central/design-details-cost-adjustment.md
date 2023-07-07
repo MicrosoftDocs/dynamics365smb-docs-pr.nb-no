@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: edupont
 ---
-# <a name="design-details-cost-adjustment"></a><a name="design-details-cost-adjustment"></a><a name="design-details-cost-adjustment"></a>Designdetaljer: Kostjustering
+# <a name="design-details-cost-adjustment"></a>Designdetaljer: Kostjustering
 
 Hovedformålet med kostjustering er å videresende kostnadsendringer fra kostnadskilder til kostnadsmottakere, i samsvar med lagermetoden for en vare, for å gi riktig lagerverdisetting.  
 
@@ -27,7 +27,7 @@ Følgende er sekundære formål med, eller funksjoner i, kostjustering:
 
 Lagerkostnader må justeres før de tilknyttede verdipostene kan avstemmes med Finans. Hvis du vil ha mer informasjon, se [Designdetaljer: Avstemming med konti i Finans](design-details-reconciliation-with-the-general-ledger.md).  
 
-## <a name="detecting-the-adjustment"></a><a name="detecting-the-adjustment"></a><a name="detecting-the-adjustment"></a>Registrere justeringen
+## <a name="detecting-the-adjustment"></a>Registrere justeringen
 
 Oppgaven med å finne ut om kostjustering skal skje, utføres hovedsakelig av rutinen Varekladd – bokfør linje, mens oppgaven med å beregne og generere kostjusteringspostene utføres av kjørselen **Juster kostverdi – vareposter**.  
 
@@ -37,21 +37,21 @@ For å kunne videresende kostnader fastslår gjenkjenningsmekanismen hvilke kild
 * Inngangspunkt for gjennomsnittlig kostjustering  
 * Ordrenivå  
 
-### <a name="item-application-entry"></a><a name="item-application-entry"></a><a name="item-application-entry"></a>Vareutligningspost
+### <a name="item-application-entry"></a>Vareutligningspost
 
 Denne gjenkjenningsfunksjonen brukes for varer som bruker lagermetodene FIFO, LIFO, Standard og Serienummer, og for scenarier med fast utligning. Funksjonen fungerer som følger:  
 
 * Kostjustering registreres ved å merke kildevarepostene som *Utlignet post som skal justeres* hver gang en varepost eller verdipost bokføres.  
 * Kost videresendes i henhold til kostkjedene som registreres i tabellen **Vareutligningspost**.  
 
-### <a name="average-cost-adjustment-entry-point"></a><a name="average-cost-adjustment-entry-point"></a><a name="average-cost-adjustment-entry-point"></a>Inngangspunkt for gjennomsnittlig kostjustering
+### <a name="average-cost-adjustment-entry-point"></a>Inngangspunkt for gjennomsnittlig kostjustering
 
 Denne gjenkjenningsfunksjonen brukes for varer som bruker lagermetoden Gjennomsnitt. Funksjonen fungerer som følger:  
 
 * Kostjustering registreres ved å merke en post i tabellen **Utgangspunkt for justering av gjennomsnittskost** hver gang en verdipost bokføres.  
 * Kost videresendes ved å utligne kostnadene mot verdiposter med en senere verdisettingsdato.  
 
-### <a name="order-level"></a><a name="order-level"></a><a name="order-level"></a>Ordrenivå
+### <a name="order-level"></a>Ordrenivå
 
 Denne gjenkjenningsfunksjonen brukes i konverteringsscenarier, produksjon og montering. Funksjonen fungerer som følger:  
 
@@ -64,7 +64,7 @@ Funksjonen for ordrenivå brukes til å gjenkjenne justeringer i monteringsbokf�
 
 Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md).  
 
-## <a name="manual-versus-automatic-cost-adjustment"></a><a name="manual-versus-automatic-cost-adjustment"></a><a name="manual-versus-automatic-cost-adjustment"></a>Manuell kontra automatisk kostjustering
+## <a name="manual-versus-automatic-cost-adjustment"></a>Manuell kontra automatisk kostjustering
 
 Kostjustering kan utføres på to måter:  
 
@@ -79,25 +79,25 @@ Uavhengig av om du kjører kostjusteringen manuelt eller automatisk, er justerin
 
 De nye verdipostene for justering og avrunding har bokføringsdatoen til den tilknyttede fakturaen. Unntak er hvis verdipostene faller i en lukket regnskapsperiode eller lagerperiode, eller hvis bokføringsdatoen er tidligere enn datoen i feltet **Bokf. tillatt fra** på siden **Finansoppsett**. Hvis dette skjer, tilordner den satsvise jobben bokføringsdatoen som den første datoen i den neste åpne perioden.  
 
-## <a name="adjust-cost---item-entries-batch-job"></a><a name="adjust-cost---item-entries-batch-job"></a><a name="adjust-cost---item-entries-batch-job"></a>Kjørselen Juster kostverdi – vareposter
+## <a name="adjust-cost---item-entries-batch-job"></a>Kjørselen Juster kostverdi – vareposter
 
 Når du kjører kjørselen **Juster kostverdi - vareposter**, kan du kjøre kjørselen for alle varer eller bare for bestemte varer eller kategorier.  
 
 > [!NOTE]  
 > Vi anbefaler at du alltid kjører kjørselen for alle varer og bare bruker filtreringsalternativet til å redusere kjøretiden til kjørselen, eller til å rette kostnaden for en bestemt vare.  
 
-### <a name="example"></a><a name="example"></a><a name="example"></a>Eksempel
+### <a name="example"></a>Eksempel
 
 Følgende eksempel viser hva som skjer hvis du bokfører en kjøpt vare som mottatt og fakturert 01.01.20. Senere bokfører du den solgte varen som levert og fakturert 15.01.20. Deretter kjører du de satsvise jobbene **Juster kostverdi - vareposter** og **Bokfør lagerkost i Finans**. Følgende poster opprettes.  
 
-#### <a name="value-entries-1"></a><a name="value-entries-1"></a><a name="value-entries-1"></a>Verdiposter (1)
+#### <a name="value-entries-1"></a>Verdiposter (1)
 
 |Bokføringsdato|Vareposttype|Kostbeløp (faktisk)|Bokført kost|Fakturert antall|Løpenr.|  
 |------------|----------------------|--------------------|------------------|-----------------|---------|  
 |01.01.20|Kjøp|10,00|10,00|1|1|  
 |15.01.20|Salg|-10,00|-10,00|-1|2|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1"></a><a name="relation-entries-in-the-gl--item-ledger-relation-table-1"></a><a name="relation-entries-in-the-gl--item-ledger-relation-table-1"></a>Relasjonsposter i tabellen Finans – varepostrelasjon (1)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-1"></a>Relasjonsposter i tabellen Finans – varepostrelasjon (1)
 
 |Finansløpenr.|Verdiløpenummer|Finansjournalnr.|  
 |-------------|---------------|----------------|  
@@ -106,7 +106,7 @@ Følgende eksempel viser hva som skjer hvis du bokfører en kjøpt vare som mott
 |3|2|1|  
 |4|2|1|  
 
-#### <a name="general-ledger-entries-1"></a><a name="general-ledger-entries-1"></a><a name="general-ledger-entries-1"></a>Finansposter (1)
+#### <a name="general-ledger-entries-1"></a>Finansposter (1)
 
 |Bokføringsdato|Finanskonto|Kontonummer (En-US-demo)|Beløp|Løpenr.|  
 |------------------|------------------|---------------------------------|------------|---------------|  
@@ -117,14 +117,14 @@ Følgende eksempel viser hva som skjer hvis du bokfører en kjøpt vare som mott
 
 Senere bokfører du et relatert varegebyr på LV 2,00 fakturert 10.02.20. Du kjører den satsvise jobben **Juster kostverdi - vareposter** og deretter **Bokfør lagerkost i Finans**. Kjørselen for kostjustering justerer kostnadene for salget tilsvarende med LV -2,00, og kjørselen **Bokfør lagerkost i Finans** bokfører de nye verdipostene i finans. Resultatet blir som følger.  
 
-#### <a name="value-entries-2"></a><a name="value-entries-2"></a><a name="value-entries-2"></a>Verdiposter (2)
+#### <a name="value-entries-2"></a>Verdiposter (2)
 
 |Bokføringsdato|Vareposttype|Kostbeløp (faktisk)|Bokført kost|Fakturert antall|Justering|Løpenr.|  
 |------------|----------------------|--------------------|------------------|-----------------|----------|---------|  
 |10.02.20|Kjøp|2,00|2,00|0|Nei|3|  
 |15.01.20|Salg|-2,00|-2,00|0|Ja|4|  
 
-#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2"></a><a name="relation-entries-in-the-gl--item-ledger-relation-table-2"></a><a name="relation-entries-in-the-gl--item-ledger-relation-table-2"></a>Relasjonsposter i tabellen Finans – varepostrelasjon (2)
+#### <a name="relation-entries-in-the-gl--item-ledger-relation-table-2"></a>Relasjonsposter i tabellen Finans – varepostrelasjon (2)
 
 |Finansløpenr.|Verdiløpenummer|Finansjournalnr.|  
 |-------------|---------------|----------------|  
@@ -133,7 +133,7 @@ Senere bokfører du et relatert varegebyr på LV 2,00 fakturert 10.02.20. Du kj�
 |7|4|2|  
 |8|4|2|  
 
-#### <a name="general-ledger-entries-2"></a><a name="general-ledger-entries-2"></a><a name="general-ledger-entries-2"></a>Finansposter (2)
+#### <a name="general-ledger-entries-2"></a>Finansposter (2)
 
 |Bokføringsdato|Finanskonto|Kontonummer (En-US-demo)|Beløp|Løpenr.|  
 |------------|-----------|------------------------|------|---------|  
@@ -142,7 +142,7 @@ Senere bokfører du et relatert varegebyr på LV 2,00 fakturert 10.02.20. Du kj�
 |15.01.20|[Lagerkonto]|2130|-2,00|7|  
 |15.01.20|[Vareforbrukskonto]|7290|2,00|8|  
 
-## <a name="automatic-cost-adjustment"></a><a name="automatic-cost-adjustment"></a><a name="automatic-cost-adjustment"></a>Automatisk kostjustering
+## <a name="automatic-cost-adjustment"></a>Automatisk kostjustering
 
 Du kan definere kostjustering slik at den kjører automatisk når du bokfører en lagertransaksjon, ved å bruke feltet **Automatisk kostjustering** på **Lageroppsett**-siden. I dette feltet kan du velge hvor langt tilbake i tid du vil at automatisk kostjustering skal utføres, fra gjeldende arbeidsdato. Følgende alternativer finnes.  
 
@@ -158,7 +158,7 @@ Du kan definere kostjustering slik at den kjører automatisk når du bokfører e
 
 Valget du gjør i feltet **Automatisk kostjustering**, er viktig for ytelse og nøyaktigheten til kostnadene. Kortere tidsperioder, for eksempel **Dag** eller **Uke**, påvirker systemytelsen mindre, fordi den automatiske justeringen begrenses til kostnader som er bokført bare den siste dagen eller uken. Dette betyr at den automatiske kostjusteringen ikke kjører like ofte og påvirker dermed systemytelsen mindre. Dette betyr imidlertid også at enhetskosten kan være mindre nøyaktige.  
 
-### <a name="example-1"></a><a name="example-1"></a><a name="example-1"></a>Eksempel
+### <a name="example-1"></a>Eksempel
 
 Følgende eksempel viser et scenario med automatisk kostjustering:  
 
@@ -170,7 +170,7 @@ Hvis du har angitt at automatisk kostjustering skal gjelde for bokføringer som 
 
 Hvis du har angitt at automatisk kostjustering skal gjelde for bokføringer som forekommer innen en dag eller en uke fra gjeldende arbeidsdato, kjøres ikke den automatiske kostjusteringen, og kjøpskostnaden blir videresendt til salget før du kjører den satsvise jobben **Juster kostverdi - vareposter**.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Justere varekost](inventory-how-adjust-item-costs.md)  
 [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)  

@@ -9,7 +9,7 @@ ms.date: 03/28/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-locations-to-use-bins"></a><a name="set-up-locations-to-use-bins"></a><a name="set-up-locations-to-use-bins"></a>Definere lokasjoner slik at de bruker hyller
+# <a name="set-up-locations-to-use-bins"></a>Definere lokasjoner slik at de bruker hyller
 
 Hyller representerer den grunnleggende lagerstrukturen, og du kan bruke dem til å foreslå hvor varene skal plasseres. Når du har opprettet hyllene, kan du definere innholdet, eller la de fungere som mobile hyller uten angitt innhold.
 
@@ -27,7 +27,7 @@ Det neste trinnet er å utforme vareflyten på lokasjonen ved å angi hyllekoder
 > [!NOTE]  
 > Du må opprette hyllekoder før du kan angi dem for lokasjonen. Hvis du vil ha mer informasjon, kan du se [Opprette hyller](warehouse-how-to-create-individual-bins.md).  
 
-## <a name="to-set-up-a-location-to-use-bins"></a><a name="to-set-up-a-location-to-use-bins"></a><a name="to-set-up-a-location-to-use-bins"></a>Sette opp en lokasjon til å bruke hyller
+## <a name="to-set-up-a-location-to-use-bins"></a>Sette opp en lokasjon til å bruke hyller
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2. Velg lokajonen der du vil bruke hyller.  
@@ -45,15 +45,15 @@ Det neste trinnet er å utforme vareflyten på lokasjonen ved å angi hyllekoder
 9. Valgfritt: Fyll ut feltene på hurtigfanen **Hyllepolicyer**. De viktigste feltene er **Hyllekapasitetsprinsipp**, **Tillat anbrekk** og **Plasseringsmal - kode**.  
 10. På hurtigfanen **Lager** fyller du ut feltene **Utgående lagerhåndteringstid**, **Inngående lagerhåndteringstid** og **Hovedkalenderkode**. Hvis du vil ha mer informasjon om ressurser, går du til [Definer hovedkalendere](across-how-to-assign-base-calendars.md).
 
-## <a name="fill-in-the-consumption-bin"></a><a name="fill-in-the-consumption-bin"></a><a name="fill-in-the-consumption-bin"></a>Fyll ut forbrukshyllen
+## <a name="fill-in-the-consumption-bin"></a>Fyll ut forbrukshyllen
 
 Følgende flytdiagram viser hvordan **Hyllekode**-feltet på produksjonsordrekomponentlinjer fylles ut i henhold til lokasjonsoppsettet.
 
 :::image type="content" source="media/binflow.png" alt-text="Hyllekodefeltet på produksjonsordrekomponentlinjer.":::
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-bins-location/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-bins-location/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

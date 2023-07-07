@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="why-a-page-is-locked-from-personalization"></a><a name="why-a-page-is-locked-from-personalization"></a><a name="why-a-page-is-locked-from-personalization"></a>Hvorfor en side er låst fra tilpasning
+# <a name="why-a-page-is-locked-from-personalization"></a>Hvorfor en side er låst fra tilpasning
 
 Det finnes to betingelser som hindrer deg i å tilpasse en side. Siden er låst (som angitt av ikonet ![Tilpassingslås.](media/personalization-lock-icon.png "Tilpass lås")), eller den er blokkert (angitt av ikonet ![Tilpassing blokkert.](media/personalization-blocked-icon.png "Tilpassing blokkert"). ).
 
-## <a name="locked-from-personalizing"></a><a name="locked-from-personalizing"></a><a name="locked-from-personalizing"></a>Låst for tilpasning
+## <a name="locked-from-personalizing"></a>Låst for tilpasning
 
 Hvis det er et ikon ![Tilpasningslås.](media/personalization-lock-icon.png "Tilpass lås") i banneret **Tilpassing** når du åpner en side, er du hindret fra å foreta flere tilpasningsendringer av siden.
 
@@ -30,14 +30,14 @@ Det kan være to årsaker:
 
 2. Hittil har du bare brukt buen avskrevet [!INCLUDE[nav_windows_md](includes/nav_windows_md.md)] til å tilpasse siden.
 
-### <a name="unlocking-the-page"></a><a name="unlocking-the-page"></a><a name="unlocking-the-page"></a>Låse opp siden
+### <a name="unlocking-the-page"></a>Låse opp siden
 
 Hvis du vil låse opp en side og fortsette med å tilpasse den, velger du ikonet ![Tilpassingslås](media/personalization-lock-icon.png "Tilpass lås") og deretter handlingen **Lås opp**.  
 
 > [!CAUTION]
 > Gjeldende tilpasning av siden slettes. Siden vil gå tilbake til det opprinnelige oppsettet, og du må begynne fra begynnelsen.  
 
-## <a name="blocked-from-personalizing"></a><a name="blocked-from-personalizing"></a><a name="blocked-from-personalizing"></a>Blokkert for tilpasning
+## <a name="blocked-from-personalizing"></a>Blokkert for tilpasning
 
 Hvis ikonet ![Tilpassing blokkert](media/personalization-blocked-icon.png "Tilpassing blokkert") vises på **Tilpasse**-banneret, kan du kan gjøre eventuelle tilpassinger på siden.
 
@@ -45,7 +45,7 @@ Hvis ikonet ![Tilpassing blokkert](media/personalization-blocked-icon.png "Tilpa
 
 Dette er fordi rollesenteret eller rollen som er knyttet til brukerkontoen, endrer denne siden spesielt for din rolle. Kontakt systemansvarlig for å få hjelp. Du kan eventuelt prøve å bytte til et rollesenter som inkluderer rolleskreddersying for denne siden. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Tilpasse arbeidsområdet](ui-personalization-user.md)  
 [Tilpasse sider for profiler](ui-personalization-manage.md)  

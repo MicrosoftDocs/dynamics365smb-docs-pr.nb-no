@@ -12,31 +12,31 @@ ms.date: 06/23/2021
 ms.author: edupont
 ---
 
-# <a name="bookmark-a-page-or-report-on-your-role-center"></a><a name="bookmark-a-page-or-report-on-your-role-center"></a><a name="bookmark-a-page-or-report-on-your-role-center"></a>Bokmerke en side eller rapport i rollesenteret
+# <a name="bookmark-a-page-or-report-on-your-role-center"></a>Bokmerke en side eller rapport i rollesenteret
 Ved hjelp av det nye bokmerkeikonet kan du legge til en handling som åpner en side eller en rapport fra navigasjonsmenyen i rollesenteret. Med bokmerker kan du komme raskt i kontakt med favorittinnhold eller forretningsoppgaver. Du legger til bokmerket fra målsiden eller rapporten, som betyr skjermbildet du vil at koblingen i rollesenteret skal åpne.
 
 Ikonet for bokmerke vises i øvre høyre hjørne på en side og også i **Fortell meg**-vinduet hvor du effektivt kan sette bokmerke på flere sider eller rapporter. Hvis det allerede finnes et bokmerke for siden, er ikonet mørkt, og verktøytipet viser "Bokmerket".
 
-## <a name="to-bookmark-the-target-page"></a><a name="to-bookmark-the-target-page"></a><a name="to-bookmark-the-target-page"></a>Slik bokmerker du målsiden
+## <a name="to-bookmark-the-target-page"></a>Slik bokmerker du målsiden
 1. Åpne en side du vil ha en kobling for i rollesenteret.
 2. Velg ![Bokmerke](media/ui_bookmark_icon.png "Bokmerke")-ikonet .
 
 En handling navngitt etter siden er nå lagt til på navigasjonsmenyen i rollesenteret ditt.
 
-## <a name="to-bookmark-the-target-report"></a><a name="to-bookmark-the-target-report"></a><a name="to-bookmark-the-target-report"></a>Slik bokmerker du målrapporten
+## <a name="to-bookmark-the-target-report"></a>Slik bokmerker du målrapporten
 1. Åpne en rapportforespørselsside du vil ha en kobling for i rollesenteret.
 2. Velg ![Bokmerke](media/ui_bookmark_icon.png "Bokmerke")-ikonet .
 
 En handling navngitt etter rapporten er nå lagt til på navigasjonsmenyen i rollesenteret ditt.
 
-## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a><a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a><a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>Slik bokmerker du en side eller rapport fra Fortell meg-vinduet
+## <a name="to-bookmark-a-page-or-report-from-the-tell-me-window"></a>Slik bokmerker du en side eller rapport fra Fortell meg-vinduet
 1. Åpne **Fortell meg**-vinduet, og angi for eksempel **Ordrer**.
 2. Hold musepekeren over søkeresultatet for **Ordrer**-siden eller rapporten, og velg ![Bokmerke](media/ui_bookmark_icon.png "Bokmerke")-ikonet .
 
 En handling navngitt etter siden eller rapporten er nå lagt til på navigasjonsmenyen i rollesenteret ditt.
 
 
-## <a name="frequently-asked-questions"></a><a name="frequently-asked-questions"></a><a name="frequently-asked-questions"></a>Vanlige spørsmål
+## <a name="frequently-asked-questions"></a>Vanlige spørsmål
 
 - **Kan jeg omorganisere bokmerkene?**  
 Ja. Du kan tilpasse rollesenteret og flytte handlinger til en mer optimal rekkefølge eller flytte dem til eksisterende grupper eller undergrupper.  
@@ -76,7 +76,7 @@ Når du legger til en ny handling, brukes oversatt tekst som var tilgjengelig p�
 - **Hvorfor kan jeg ikke legge til tekst på en side direkte etter at den er åpnet med bokmerket?**<br> Når en side er bokmerke, åpnes siden alltid i visningsmodus fra bokmerket, selv om den var i redigeringsmodus da den ble bokmerket. Hvis du velger **Gjør endringer på siden**-ikonet, ![Viser blyantikonet for redigering av siden.](media/edit-pencil.png) kan du legge til tekst i de redigerbare feltene.
 
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 [Tilpasse arbeidsområdet](ui-personalization-user.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  

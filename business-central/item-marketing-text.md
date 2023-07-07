@@ -9,13 +9,13 @@ ms.date: 03/22/2023
 ms.custom: bap-template
 ---
 
-# <a name="add-marketing-text-to-items"></a><a name="add-marketing-text-to-items"></a><a name="add-marketing-text-to-items"></a>Legg til markedsføringstekst i varer
+# <a name="add-marketing-text-to-items"></a>Legg til markedsføringstekst i varer
 
 For alle varer som er registrert i Business Central, kan du skrive *markedsføringstekst* for varen. Selv om markedsføringstekst er en slags beskrivelse, er den forskjellig fra varens **Beskrivelse**-felt. **Beskrivelse**-feltet brukes vanligvis som et konsekvent visningsnavn for å identifisere produktet raskt. Markedsføringsteksten er derimot en mer omfattende og beskrivende tekst. Formålet er å legge til markedsførings- og kampanjeinnhold, også kalt *kopi*. Denne teksten kan deretter publiseres med varen hvis den er publisert i en nettbutikk som Shopify.
 
 Det finnes to måter å opprette markedsføringstekst på. Den enkleste måten å komme i gang på er å bruke Copilot, som foreslår tekst generert av kunstig intelligens for deg. Den andre måten er å starte fra grunnen av. 
 
-## <a name="create-ai-generated-marketing-text-preview-with-copilot"></a><a name="create-ai-generated-marketing-text-preview-with-copilot"></a><a name="create-ai-generated-marketing-text-preview-with-copilot"></a><a name=copilot></a>Opprett markedsføringstekst generert av kunstig intelligens (forhåndsversjon) med Copilot
+## <a name="create-ai-generated-marketing-text-preview-with-copilot"></a><a name=copilot></a>Opprett markedsføringstekst generert av kunstig intelligens (forhåndsversjon) med Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -29,7 +29,7 @@ Copilot er utformet for å spare tid og hjelpe deg med å skrive kreativ og enga
 > [!NOTE]
 > I forhåndsversjonen av Business Central er tekst generert av kunstig intelligens bare på engelsk.
 
-### <a name="prerequisites"></a><a name="prerequisites"></a><a name="prerequisites"></a>Forutsetninger
+### <a name="prerequisites"></a>Forutsetninger
 
 - Du bruker en [forhåndsversjon](ai-preview-getstarted.md) av Business Central som er aktivert for Copilot. Aktivering av Copilot gjøres av en administrator. Hvis du vil ha mer informasjon, kan du gå til [Konfigurer varemarkedsføringstekst drevet av kunstig intelligens med Copilot](enable-ai.md).
 - Språket du bruker i Business Central må være engelsk. Alle tilgjengelige engelske nasjonale innstillinger fungerer, for eksempel engelsk (USA), engelsk (Storbritannia) eller engelsk (Sør-Afrika).
@@ -37,7 +37,7 @@ Copilot er utformet for å spare tid og hjelpe deg med å skrive kreativ og enga
    Hvis du vil endre språket, velger du **Innstillinger**-ikonet øverst til venstre ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter") > **Mine innstillinger** > **Språk**. Hvis du vil ha mer informasjon, kan du gå til [Endre grunnleggende innstillinger](ui-change-basic-settings.md#language).
 - Se gjennom [vanlige spørsmål for Copilot](ai-faq.md) for å finne ut mer om tekstforslag generert av kunstig intelligens fra Copilot og hvordan du bruker dem.
 
-### <a name="create-first-draft-with-copilot"></a><a name="create-first-draft-with-copilot"></a><a name="create-first-draft-with-copilot"></a>Opprett første utkast med Copilot
+### <a name="create-first-draft-with-copilot"></a>Opprett første utkast med Copilot
 
 1. Åpne varen du vil endre, i Business Central. Gjør følgende for å åpne en vare:
 
@@ -72,7 +72,7 @@ Copilot er utformet for å spare tid og hjelpe deg med å skrive kreativ og enga
    > [!TIP]
    > [Hvor kommer forslagene fra?](ai-faq.md#how-does-copilot-work-where-does-the-suggested-text-come-from)
 
-### <a name="review-edit-and-save-text"></a><a name="review-edit-and-save-text"></a><a name="review-edit-and-save-text"></a>Se gjennom, rediger og lagre teksten
+### <a name="review-edit-and-save-text"></a>Se gjennom, rediger og lagre teksten
 
 Når du har det første utkastet, må du se gjennom det og gjøre endringer i teksten for å få den klar til publisering. Dette gjøres fra siden **Opprett med Copilot**. Nåværende tekst vises i boksen **Markedsføringstekst**. På siden kan du få flere forslag, endre innstillingene til å påvirke forslagene og manuelt gjøre endringer og legge på stil i teksten.
 
@@ -94,7 +94,7 @@ Bruk følgende retningslinjer for å fullføre og lagre markedsføringsteksten.
 4. Hvis du vil gå tilbake til forrige forslag, velger du **Angre**.
 5. Se nøye gjennom teksten for nøyaktighet og relevant, og velg deretter **OK** for å lagre den.
 
-### <a name="improve-and-tailor-text-suggestions"></a><a name="improve-and-tailor-text-suggestions"></a><a name="improve-and-tailor-text-suggestions"></a>Forbedre og skreddersy tekstforslag
+### <a name="improve-and-tailor-text-suggestions"></a>Forbedre og skreddersy tekstforslag
 
 Det finnes et par trinn du kan gjøre for å forbedre tekstforslagene og endre dem slik at de passer til personlige innstillinger eller firmainnstillinger.
 
@@ -115,7 +115,7 @@ Det finnes et par trinn du kan gjøre for å forbedre tekstforslagene og endre d
 
    Copilot vil finne ord og uttrykk som er knyttet til kategorien, og arbeide dem i den foreslåtte teksten.
 
-## <a name="create-marketing-text-from-scratch"></a><a name="create-marketing-text-from-scratch"></a><a name="create-marketing-text-from-scratch"></a>Opprett markedsføringstekst fra grunnen av
+## <a name="create-marketing-text-from-scratch"></a>Opprett markedsføringstekst fra grunnen av
 
 1. I Business Central åpner du varen du vil endre, slik:
 
@@ -129,7 +129,7 @@ Det finnes et par trinn du kan gjøre for å forbedre tekstforslagene og endre d
 3. Gjør endringer i teksten direkte i boksen **Markedsføringstekst**. Bruk verktøylinjen langs bunnen av boksen til å formatere tekst, legge til koblinger med mer.
 4. Velg **OK** når du er ferdig for å lagre teksten.
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Oversikt over varemarkedsføringstekst drevet av kunstig intelligens med Copilot](ai-overview.md)  
 [Konfigurer varemarkedsføringstekst drevet av kunstig intelligens med Copilot](enable-ai.md)  

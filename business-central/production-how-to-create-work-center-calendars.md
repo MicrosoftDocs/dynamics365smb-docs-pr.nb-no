@@ -10,7 +10,7 @@ ms.search.form: '9291, 9293, 9295, 99000750, 99000751, 99000752, 99000753, 99000
 ms.date: 06/22/2021
 ms.author: edupont
 ---
-# <a name="set-up-shop-calendars"></a><a name="set-up-shop-calendars"></a><a name="set-up-shop-calendars"></a>Definere produksjonskalendere
+# <a name="set-up-shop-calendars"></a>Definere produksjonskalendere
 
 En arbeidssenter- eller maskinkalender angir virkedager/arbeidstider, skift, ferie og fravær som utgjør senterets disponible kapasitet (målt i tid) i henhold til senterets definerte effektivitets- og kapasitetsverdier.
 
@@ -18,7 +18,7 @@ Som grunnlag for beregning av en bestemt arbeidssenter- eller produksjonsressurs
 
 I det følgende beskrives hvordan du arbeidssenterkalendere. Trinnene ligner når du definerer produksjonsressurskalendere.  
 
-## <a name="to-create-work-shifts"></a><a name="to-create-work-shifts"></a><a name="to-create-work-shifts"></a>Slik oppretter du arbeidsskift
+## <a name="to-create-work-shifts"></a>Slik oppretter du arbeidsskift
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Arbeidsskift**, og velg deretter den relaterte koblingen.  
 2.  På en tom linje skriver du inn nummeret i **Kode**-feltet for å identifisere arbeidsskiftet, for eksempel **1**.  
 3.  Beskriv arbeidsskiftet i **Beskrivelse**-feltet, for eksempel **1. skift**.  
@@ -26,7 +26,7 @@ I det følgende beskrives hvordan du arbeidssenterkalendere. Trinnene ligner nå
 
 Selv om arbeidssentrene ikke fungerer for andre arbeidsskift, angir du minst én arbeidsskiftkode.  
 
-## <a name="to-set-up-a-shop-calendar"></a><a name="to-set-up-a-shop-calendar"></a><a name="to-set-up-a-shop-calendar"></a>Slik definerer du en produksjonskalender
+## <a name="to-set-up-a-shop-calendar"></a>Slik definerer du en produksjonskalender
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Produksjonskalender**, og velg deretter den relaterte koblingen.  
 2.  På en tom linje skriver du inn nummeret i **Kode**-feltet for å identifisere produksjonskalenderen.  
 3.  Beskriv produksjonskalenderen i **Beskrivelse**-feltet.  
@@ -60,7 +60,7 @@ De definerte feriedagene har ingen disponibel kapasitet i arbeidssenterkalendere
 
 Produksjonskalenderen kan nå tilordnes til et arbeidssenter for å beregne produksjonskalenderen for selve arbeidet. Denne kalenderen styrer all operasjonsplanlegging ved arbeidssenteret.  
 
-## <a name="to-calculate-a-work-center-calendar"></a><a name="to-calculate-a-work-center-calendar"></a><a name="to-calculate-a-work-center-calendar"></a>Slik beregner du en arbeidssenterkalender
+## <a name="to-calculate-a-work-center-calendar"></a>Slik beregner du en arbeidssenterkalender
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Arbeidssentre**, og velg deretter den relaterte koblingen.
 2. Åpne arbeidssenteret som du vil oppdatere.  
@@ -88,7 +88,7 @@ Kalenderposter opprettes eller oppdateres nå med visning av disponibel kapasite
 
 Den beregnede arbeidssenterkalenderen definerer nå når og hvor stor kapasitet som er tilgjengelig ved dette arbeidssenteret. Dette kontrollerer den detaljerte tidsplanleggingen av operasjoner som utføres ved arbeidssenteret.  
 
-## <a name="to-record-work-center-absence"></a><a name="to-record-work-center-absence"></a><a name="to-record-work-center-absence"></a>Slik registrerer du fravær ved et arbeidssenter
+## <a name="to-record-work-center-absence"></a>Slik registrerer du fravær ved et arbeidssenter
 1.  På siden **Arbeidssenterkalender** velger du **Vis matrise**.
 2. På siden **Matrise for arbeidssenterkalender** velger du arbeidssenteret og kalenderdagen når fraværstiden skal registreres. Deretter velger du **Fravær**.  
 3.  På **Fravær**-siden definerer du starttidspunktet, sluttidspunktet og beskrivelsen av dagens fravær. Eksempel:  
@@ -99,7 +99,7 @@ Den beregnede arbeidssenterkalenderen definerer nå når og hvor stor kapasitet 
 
 Kapasiteten for den valgte dagen er nå redusert med den registrerte fraværstiden.  
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 [Definere hovedkalendere](across-how-to-assign-base-calendars.md)  
 [Konfigurere arbeidssentre og produksjonsressurser](production-how-to-set-up-work-and-machine-centers.md)  
 [Definere produksjon](production-configure-production-processes.md)  

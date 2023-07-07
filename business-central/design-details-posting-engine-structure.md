@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# <a name="design-details-posting-engine-structure"></a><a name="design-details-posting-engine-structure"></a><a name="design-details-posting-engine-structure"></a>Designdetaljer: Strukturen til bokføringsmotoren
+# <a name="design-details-posting-engine-structure"></a>Designdetaljer: Strukturen til bokføringsmotoren
 Bokføringsgrensesnittet og enkelte andre funksjoner i kodeenhet 12 bruker bokføringsmotorfunksjoner til å klargjøre og sette inn finansposter og mva-poster. Bokføringsmotoren er også ansvarlig for opprettelse av finansjournal.  
   
  Funksjonene i tabellen nedenfor gir et standard rammeverk for utforming av bokføringsprosedyrer (for eksempel Code, CustPostApplyCustledgEntry, VendPostApplyVendLedgEntry, UnapplyCustLedgEntry, UnapplyVendLedgEntry og Reverse) og alenetilgang til tabell 17, Finanspost.  
@@ -30,7 +30,7 @@ Bokføringsgrensesnittet og enkelte andre funksjoner i kodeenhet 12 bruker bokf�
 |CreateGLEntryVATCollectAdj|Samme som CreateGLEntry, men med en ekstra samling justeringer samt lagring til midlertidig mva-buffer:<br /><br /> `CollectAdjustment(AdjAmount,GLEntry.Amount,GLEntry."Additional-Currency Amount",OriginalDateSet);`<br /><br /> `InsertVATEntriesFromTemp(DtldCVLedgEntryBuf,GLEntry);`|  
 |CreateGLEntryFromVATEntry|Samme som CreateGLEntry, men kopierer også bokføringsgrupper fra mva-post.|  
   
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
  [Designdetaljer: Strukturen til bokføringsgrensesnittet](design-details-posting-interface-structure.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

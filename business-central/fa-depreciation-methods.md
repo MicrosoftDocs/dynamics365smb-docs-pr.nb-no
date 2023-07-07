@@ -11,7 +11,7 @@ ms.search.form: '5629, 5633'
 ms.date: 07/05/2021
 ms.author: edupont
 ---
-# <a name="depreciation-methods-for-fixed-assets"></a><a name="depreciation-methods-for-fixed-assets"></a><a name="depreciation-methods-for-fixed-assets"></a>Avskrivningsmetoder for aktiva
+# <a name="depreciation-methods-for-fixed-assets"></a>Avskrivningsmetoder for aktiva
 
 Det er åtte tilgjengelige avskrivningsmetoder i standardversjonen av [!INCLUDE [prod_short](includes/prod_short.md)]:  
 
@@ -33,7 +33,7 @@ Det er åtte tilgjengelige avskrivningsmetoder i standardversjonen av [!INCLUDE 
   > [!NOTE]  
   > Når du bruker denne metoden, avskrives aktivumet med samme beløp hvert år.  
 
-## <a name="straight-line-depreciation"></a><a name="straight-line-depreciation"></a><a name="straight-line-depreciation"></a>Lineær avskrivning
+## <a name="straight-line-depreciation"></a>Lineær avskrivning
 
 Når du bruker denne metoden, må du angi ett av følgende alternativer i aktivaavskrivningstablået:  
 
@@ -42,7 +42,7 @@ Når du bruker denne metoden, må du angi ett av følgende alternativer i aktiva
 * Et fast årlig beløp  
 * Avskrivningsperiode  
 
-### <a name="depreciation-period"></a><a name="depreciation-period"></a><a name="depreciation-period"></a>Avskrivningsperiode
+### <a name="depreciation-period"></a>Avskrivningsperiode
 
 Hvis du angir avskrivningsperioden (antall avskrivningsår, avskrivningsmåneder eller sluttdato for avskrivningen), bruker programmet denne formelen til å beregne avskrivningsbeløpet:  
 
@@ -52,19 +52,19 @@ Resterende avskrivningsdager beregnes som antall avskrivningsdager minus antall 
 
 Den bokførte verdien kan reduseres av bokført oppskrivning, nedskriving eller egendefinerte 1- eller 2-beløp, avhengig av om feltet **Inkluder i avskr.beregning** er deaktivert og om feltet **Del av bokført verdi** er aktivert på siden **Aktivabokf.type - oppsett**. Hvis du bruker denne beregningen, avskrives aktivaet fullstendig på sluttdatoen for avskrivningen.  
 
-### <a name="fixed-yearly-percentage"></a><a name="fixed-yearly-percentage"></a><a name="fixed-yearly-percentage"></a>Fast årlig prosentsats
+### <a name="fixed-yearly-percentage"></a>Fast årlig prosentsats
 
 Hvis du angir en fast årlig prosentsats, bruker programmet følgende formel til å beregne avskrivningsbeløpet:  
 
 *Avskrivningsbeløp = (Lineær-% x Avskrivningsgrunnlag x Antall avskrivningsdager) / (100 x 360)*  
 
-### <a name="fixed-yearly-amount"></a><a name="fixed-yearly-amount"></a><a name="fixed-yearly-amount"></a>Fast årlig beløp
+### <a name="fixed-yearly-amount"></a>Fast årlig beløp
 
 Hvis du angir en fast årlig beløp, bruker programmet denne formelen til å beregne avskrivningsbeløpet:  
 
 *Avskrivningsbeløp = (Fast avskrivningsbeløp x Antall avskrivningsdager) / 360*  
 
-### <a name="example---straight-line-depreciation"></a><a name="example---straight-line-depreciation"></a><a name="example---straight-line-depreciation"></a>Eksempel – lineær avskrivning
+### <a name="example---straight-line-depreciation"></a>Eksempel – lineær avskrivning
 
 Et aktiva har en anskaffelseskost på LV 100 000. Den anslåtte levetiden er åtte år. Kjørselen **Beregn avskrivninger** kjøres hvert halvår.  
 
@@ -80,7 +80,7 @@ Aktivaposten ser for eksempel slik ut:
 | 06/30/27 |Avskrivning |180 |-6 250,00 |6,250.00 |
 | 12/31/27 |Avskrivning |180 |-6 250,00 |0 |
 
-## <a name="declining-balance-1-depreciation"></a><a name="declining-balance-1-depreciation"></a><a name="declining-balance-1-depreciation"></a>Saldo 1-avskrivning
+## <a name="declining-balance-1-depreciation"></a>Saldo 1-avskrivning
 
 Denne hurtige avskrivningsmetoden fordeler den største delen av aktivakostnaden til de tidlige årene av den effektive aktivalevetiden. Hvis du bruker denne metoden, må du angi en fast årlig prosentsats.  
 
@@ -92,7 +92,7 @@ Avskrivningsgrunnlaget beregnes som den bokførte verdien minus bokført avskriv
 
 Det bokførte avskrivningsbeløpet kan inneholde poster med ulike bokføringstyper (nedskriving, egendef. 1 og egendef. 2) som er bokført etter startdatoen for det inneværende regnskapsåret. Disse bokføringstypene inkluderes i det bokførte avskrivningsbeløpet hvis det er satt en hake i feltene **Avskrivningstype** og **Del av bokført verdi** på siden **Aktivabokf.type - oppsett**.  
 
-### <a name="example---declining-balance-1-depreciation"></a><a name="example---declining-balance-1-depreciation"></a><a name="example---declining-balance-1-depreciation"></a>Eksempel: Saldo 1-avskrivning
+### <a name="example---declining-balance-1-depreciation"></a>Eksempel: Saldo 1-avskrivning
 
 Et aktiva har en anskaffelseskost på LV 100 000. Verdien i feltet **Saldo-%** er 25. Kjørselen **Beregn avskrivninger** kjøres hvert halvår.  
 
@@ -122,11 +122,11 @@ Beregningsmetode:
 
 Beregningen fortsetter til den bokførte verdien tilsvarer sluttavrundingsbeløpet eller skrapverdien du angav.  
 
-## <a name="declining-balance-2-depreciation"></a><a name="declining-balance-2-depreciation"></a><a name="declining-balance-2-depreciation"></a>Saldo 2-avskrivning
+## <a name="declining-balance-2-depreciation"></a>Saldo 2-avskrivning
 
 Metodene Saldo 1 og Saldo 2 beregner det samme totale avskrivningsbeløpet for hvert år. Hvis du imidlertid utfører kjørselen **Beregn avskrivning** mer enn én gang i året, gir Saldo 1-metoden like avskrivningsbeløp for hver avskrivningsperiode. Saldo 2-metoden resulterer derimot i avskrivningsbeløp som avtar for hver periode.  
 
-### <a name="example---declining-balance-2-depreciation"></a><a name="example---declining-balance-2-depreciation"></a><a name="example---declining-balance-2-depreciation"></a>Eksempel – saldo 2-avskrivning
+### <a name="example---declining-balance-2-depreciation"></a>Eksempel – saldo 2-avskrivning
 
 Et aktiva har en anskaffelseskost på LV 100 000. Verdien i feltet **Saldo-%** er 25. Kjørselen **Beregn avskrivninger** kjøres hvert halvår. Aktivapostene ser slik ut:  
 
@@ -159,7 +159,7 @@ Avskrivningsverdiene er:
 | 06/30/21 |AB = 75 000,00 x (1 - (1 - 0,25)<sup>0,5</sup>) = 10 048,09 |
 | 12/31/21 |AB = 64 951,91 x (1 - (1 - 0,25)<sup>0,5</sup>) = 8 701,91 |
 
-## <a name="db1sl-depreciation"></a><a name="db1sl-depreciation"></a><a name="db1sl-depreciation"></a>Saldo 1 / lineær avskrivning
+## <a name="db1sl-depreciation"></a>Saldo 1 / lineær avskrivning
 
 PS1/L er en forkortelse for Saldo 1 og Lineær. Beregningen fortsetter til den bokførte verdien tilsvarer sluttavrundingsbeløpet eller skrapverdien du angav.  
 
@@ -169,7 +169,7 @@ Du kan bruke ulike prosentsatser til å beregne saldo.
 
 Hvis du bruker denne metoden, bruker du siden **Aktivaavskrivningstablå** til å angi hvilken effektiv levetid som er anslått, og en prosentsats for saldo.  
 
-### <a name="example---db1-sl-depreciation"></a><a name="example---db1-sl-depreciation"></a><a name="example---db1-sl-depreciation"></a>Eksempel – saldo 1 / lineær avskrivning
+### <a name="example---db1-sl-depreciation"></a>Eksempel – saldo 1 / lineær avskrivning
 
 Et aktiva har en anskaffelseskost på LV 100 000. På siden **Aktivaavskrivningstablå** inneholder feltene **Saldo-%** og **Antall avskrivningsår** en prosentsats på henholdsvis 25 og 8. Kjørselen **Beregn avskrivninger** kjøres hvert halvår.  
 
@@ -215,7 +215,7 @@ Beregningsmetode:
 
     Det lineære beløpet brukes fordi det er det største beløpet.  
 
-## <a name="half-year-convention-depreciation"></a><a name="half-year-convention-depreciation"></a><a name="half-year-convention-depreciation"></a>Halvårsavskrivning
+## <a name="half-year-convention-depreciation"></a>Halvårsavskrivning
 
 Metoden for halvårsavskrivning brukes bare hvis du har satt en hake i feltet **Bruk halvårsavskrivning** på siden **Aktivaavskrivningstablå**.  
 
@@ -230,7 +230,7 @@ Når du bruker halvårsavskrivning, avskrives aktivaet på seks måneder i det f
 > [!NOTE]  
 > Den anslåtte aktivalevetiden som gjenstår etter det første regnskapsåret, vil alltid være et halvt år når halvårsavskrivningsmetoden brukes. For at metoden for halvårsavskrivning skal fungere som den skal, må det alltid være en dato i feltet **Sluttdato for avskrivning** på siden **Aktivaavskrivningstablå**. Denne datoen må komme nøyaktig seks måneder før avslutningsdatoen i det regnskapsåret som aktivaet blir fullt avskrevet i.  
 
-### <a name="example---half-year-convention-depreciation"></a><a name="example---half-year-convention-depreciation"></a><a name="example---half-year-convention-depreciation"></a>Eksempel: Halvårsavskrivning
+### <a name="example---half-year-convention-depreciation"></a>Eksempel: Halvårsavskrivning
 
 Et aktiva har en anskaffelseskost på LV 100 000. **Startdato for avskrivning** er 03/01/20. Den anslåtte levetiden er fem år, noe som innebærer at **Sluttdato for avskrivning** må være 06/30/25. Kjørselen **Beregn avskrivning** kjøres årlig. Dette eksempelet baserer seg på et kalenderår i regnskapet.  
 
@@ -246,7 +246,7 @@ Aktivapostene ser slik ut:
 | 12/31/24 |Avskrivning |360 |-20 000,00 |10,000.00 |
 | 12/31/25 |Avskrivning |180 |10 000,00 |0.00 |
 
-## <a name="example---db1sl-depreciation-using-half-year-convention"></a><a name="example---db1sl-depreciation-using-half-year-convention"></a><a name="example---db1sl-depreciation-using-half-year-convention"></a>Eksempel: PS1/L-avskrivning ved hjelp av halvårsavskrivning
+## <a name="example---db1sl-depreciation-using-half-year-convention"></a>Eksempel: PS1/L-avskrivning ved hjelp av halvårsavskrivning
 
 Et aktiva har en anskaffelseskost på LV 100 000. **Startdato for avskrivning** er 11/01/20. Den anslåtte levetiden er fem år, noe som innebærer at **Sluttdato for avskrivning** må være 06/30/25. På siden **Aktivaavskrivningstablå** er prosentsatsen i feltet **Saldo-%** 40. Kjørselen **Beregn avskrivning** kjøres årlig. Dette eksempelet baserer seg på et kalenderår i regnskapet.  
 
@@ -282,7 +282,7 @@ Beregningsmetode:
 
     Det lineære beløpet brukes fordi det er det største beløpet.  
 
-## <a name="duplicating-entries-to-more-depreciation-books"></a><a name="duplicating-entries-to-more-depreciation-books"></a><a name="duplicating-entries-to-more-depreciation-books"></a>Duplisere poster til flere avskrivningstablåer
+## <a name="duplicating-entries-to-more-depreciation-books"></a>Duplisere poster til flere avskrivningstablåer
 
 Hvis du har tre avskrivningstablåer, T1, T2 og T3, og vil duplisere poster fra T1 til T2 og T3, kan du sette en hake i feltet **Del av duplikasjonsoversikt** på avskrivningstablåkortene for T2 og T3. Dette kan være nyttig hvis avskrivningstablå T1 er integrert med Finans og bruker aktivafinanskladden, og avskrivningstablåene T2 og T3 ikke er integrert med Finans og bruker aktivakladden.  
 
@@ -294,9 +294,9 @@ Når du angir en post i T1 i aktivafinanskladden og setter en hake i feltet **Br
 > [!NOTE]  
 > Du kan ikke bruke den samme nummerserien i aktivafinanskladden og aktivakladden. Når du bokfører poster i aktivafinanskladden, må du la feltet **Bilagsnr.** stå tomt. Hvis du angir et tall i feltet, blir nummeret duplisert i anleggsmiddeljournalen. Du må endre bilagsnummeret manuelt før du kan bokføre kladden.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-depreciation-books/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-depreciation-books/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Aktiva](fa-manage.md)  
 [Definer aktiva](fa-setup.md)  

@@ -4,11 +4,11 @@ ms.topic: include
 ms.date: 05/27/2021
 ms.author: edupont
 ---
-## <a name="setting-up-the-location"></a><a name="setting-up-the-location"></a><a name="setting-up-the-location"></a>Definere plassering
+## <a name="setting-up-the-location"></a>Definere plassering
 
 Oppsettet av siden **Lokasjonskort** definerer selskapets lagerflyter. Bruk korte Lokasjoner til å definere en lokasjon med kodenavnet *SØR*.
 
-### <a name="to-set-up-the-location-south"></a><a name="to-set-up-the-location-south"></a><a name="to-set-up-the-location-south"></a>Slik definerer du lokasjonen SØR
+### <a name="to-set-up-the-location-south"></a>Slik definerer du lokasjonen SØR
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2. Opprett et lokasjonskort med navnet *SØR*.  

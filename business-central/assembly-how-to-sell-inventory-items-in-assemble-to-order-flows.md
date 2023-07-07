@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="selling-inventory-items-in-assemble-to-order-flows"></a><a name="selling-inventory-items-in-assemble-to-order-flows"></a><a name="selling-inventory-items-in-assemble-to-order-flows"></a>Salg av lagervarer i montere til ordre-flyter
+# <a name="selling-inventory-items-in-assemble-to-order-flows"></a>Salg av lagervarer i montere til ordre-flyter
 
 Hvis **Monteringsprinsipp**-feltet på varekortet for en monteringsvare inneholder **Monter til ordre**, forutsetter ordreprosess at varen ikke er på lager og må monteres for denne bestemte ordrene. Når du legger til varen på en linje på en ordre, oppretter [!INCLUDE [prod_short](includes/prod_short.md)] en monteringsordre som kobles til ordren. Hvis du vil finne ut mer om hvordan du selger monter-til-ordre-varer, kan du gå til [Selg varer montert til ordre](assembly-how-to-sell-items-assembled-to-order.md). Hvis noe av ordreantallet allerede er tilgjengelig i beholdningen, kan du redusere monteringsordreantallet ved å endre feltet **Ant. som skal monteres til ordre** på ordrelinjen.  
 
@@ -30,7 +30,7 @@ I denne fremgangsmåten erstatter du montere-til-ordre-antall med lagerantall p�
 2. Reduser antallet fra den koblede monteringsordren.
 3. Tilbakefør lagerantallet for å sikre at det er plukket og levert for ordren.  
 
-## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a><a name="to-sell-inventory-items-in-assemble-to-order-flows"></a><a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Selge lagervarer i montere til ordre-flyter
+## <a name="to-sell-inventory-items-in-assemble-to-order-flows"></a>Selge lagervarer i montere til ordre-flyter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 2. Opprett en ordre. Hvis du vil finne ut mer om oppretting av ordrer, kan du gå til [Selg produkter](sales-how-sell-products.md).  
@@ -47,9 +47,9 @@ I denne fremgangsmåten erstatter du montere-til-ordre-antall med lagerantall p�
 > [!CAUTION]  
 > **Hyllekode**-feltet på ordren kan inneholde verdien fra feltet **Hyllek. lev. fra m. til ordre** eller **Fra Hyllekode for montering** på lokasjonskortet. Hvis det gjør det, er kanskje **Hyllekode**-feltet på ordrelinjen feil for denne kombinasjonen av montere-til-ordre- og montere-til-lager-antall. Det er en god idé å dobbeltsjekke at hyllen i **Hyllekode**-feltet fungerer for alle antall. Du kan også angi to forskjellige antall på separate ordrelinjer.  
 
-## <a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a><a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
-## <a name="see-also"></a><a name="see-also"></a><a name="see-also"></a>Se også
+## <a name="see-also"></a>Se også
 
 [Monteringsstyring](assembly-assemble-items.md)  
 [Reservere varer](inventory-how-to-reserve-items.md)  
