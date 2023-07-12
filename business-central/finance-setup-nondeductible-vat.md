@@ -14,14 +14,14 @@ ms.custom: bap-template
 
 # Definer ikke-fradragsberettiget mva.
 
-Ikke-fradragsberettiget merverdiavgift (mva.) er merverdiavgiften som skal betales av en kjøper, mens som ikke er fradragsberettiget fra innkjøper egen mva-gjeld. Selskaper kan vanligvis gjenopprette mva. på kjøp av varer og tjenester som er knyttet til forretningsaktivitetene. I enkelte situasjoner påløper det mva. som ikke er fradragsberettiget, for bedrifter. Disse situasjonene er vanligvis knyttet til de lokale bestemmelsene og kan variere fra land til land. Modellen for bruk av ikke-fradragsberettiget eller delvis fradragsberettiget mva. er imidlertid lik. Du kan bruke forholdsmessig mva. til å beregne mva. når fradragsberettiget og ikke-fradragsberettiget mva. forekommer.
+Ikke-fradragsberettiget merverdiavgift (mva.) er merverdiavgiften som skal betales av en kjøper, mens som ikke er fradragsberettiget fra innkjøper egen mva-gjeld. Selskaper kan vanligvis gjenopprette mva. på kjøp av varer og tjenester som er knyttet til forretningsaktivitetene. I enkelte situasjoner påløper det mva. som ikke er fradragsberettiget, for bedrifter. Disse situasjonene er vanligvis knyttet til de lokale bestemmelsene og kan variere blant land/områder. Modellen for bruk av ikke-fradragsberettiget eller delvis fradragsberettiget mva. er imidlertid lik. Du kan bruke forholdsmessig mva. til å beregne mva. når fradragsberettiget og ikke-fradragsberettiget mva. forekommer.
 
 Vanligvis kan ikke mva. trekkes fra for enkelte kjøp på grunn av følgende faktorer:
 
 - **Typen varer eller tjenester som er kjøpt** – mva. er helt eller delvis ikke-fradragsberettiget av et punkt i loven om varer som biler, mobiltelefoner og mat som kjøpes på restauranter.
 - **Delvis fradragsberettiget proporsjonal mva.** – Mva. er proporsjonal i henhold til forholdet mellom salgsoperasjonene som mva. skyldes for, og alle operasjoner som er utført. Mva. som overskrider dette forholdet, kan ikke trekkes fra.
 
-Siden det kan være vanskelig å vite hvor og hvordan varen blir brukt, må du ta kontakt med lokale skattemyndigheter i landet for å finne ut om en angitt prosentandel mva. kan gå til fradrag basert på historiske data. 
+Siden det kan være vanskelig å vite hvor og hvordan varen blir brukt, må du ta kontakt med lokale skattemyndigheter i landet/området for å finne ut om en angitt prosentandel mva. kan gå til fradrag basert på historiske data. 
 
 > [!IMPORTANT]
 > Denne globale funksjonen er tilgjengelig i alle land med aktivert mva **unntatt for Belgia, Italia, Norge og Spania**. Disse lokaliseringene har allerede eksisterende lokal funksjon og vil oppgraderes senere. Ikke kjør denne funksjonen i disse landene, fordi oppgraderingsprosedyren finnes ikke.

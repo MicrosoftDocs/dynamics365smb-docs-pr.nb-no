@@ -3,12 +3,11 @@ title: Feilsøk automatiserte arbeidsflyter
 description: Lær hvordan du feilsøker tilkoblingen mellom Business Central og Power Automate når du bygger en automatisert arbeidsflyt.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, workflowWebhookSubscriptions, Power Automate,'
-ms.date: 08/04/2022
-ms.author: edupont
+ms.date: 07/03/2023
+ms.author: jswymer
+ms.reviewer: jswymer
+ms.service: d365-business-central
 ---
 
 # Feilsøk automatiserte arbeidsflyter for [!INCLUDE[prod_short](includes/prod_short.md)]
@@ -23,10 +22,24 @@ Hvis en hendelse oppretter eller endrer mange poster, kjøres ikke flyten i noen
 
 ### Mulig årsak
 
-For øyeblikket er det en grense for hvor mange poster flyten kan behandle. Hvis flere enn 100 poster opprettes eller endres innen 30 sekunder, blir flyten ikke utløst.
+For øyeblikket er det en grense for hvor mange poster flyten kan behandle. Hvis flere enn 1000 poster opprettes eller endres innen 30 sekunder, blir flyten ikke utløst.
 
 > [!NOTE]
 > For utviklere utføres flytutløsing via webhook-varsler, og denne begrensningen skyldes måten Business Central-koblingen håndterer `collection`-varslinger på. Finn ut mer under [Arbeid med Webhook i Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) i hjelpen for utviklere og administrasjon.
+
+## Feilen "Svaret fra Business Central-tjenesten er for stort"
+
+### Problem
+
+Når du bruker en handling som fungerer sammen med poster (for eksempel *Opprett post (V3)* og *Hent post (V3)*), kan Power Automate vise en feil som ligner på denne:
+
+`The response from the Business Central service is too large`
+
+### Mulig årsak
+
+Selv om Business Central ikke har noen angitt grense for størrelsen på poster som returneres av APIer, kan Dynamics 365 Business Central-koblingen for Power Automate bare håndtere poster opptil åtte MB.
+
+Alle Business Central-APIene for Microsoft returnerer poster under denne grensen, men APIer fra partnere gjør kanskje ikke det. Hvis du ser feilen "Svaret fra Business Central-tjenesten er for stort", kontakter du partneren som opprettet APIen du bruker.
 
 ## Feilen Finner ikke enhetssettet
 

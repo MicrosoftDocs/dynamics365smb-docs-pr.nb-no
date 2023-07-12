@@ -11,14 +11,14 @@ ms.date: 10/01/2020
 ms.author: bholtorf
 ---
 
-# <a name="business-central-for-multi-site-and-international-organizations"></a>Business Central for organisasjoner med flere lokasjoner og internasjonale organisasjoner
+# Business Central for organisasjoner med flere lokasjoner og internasjonale organisasjoner
 Organisasjoner med flere lokasjoner bruker ofte en nav-og-eiker-forretningsmodell der et moderselskap, eller hovedkontor, håndterer den generelle driften av virksomheten, mens hver lokasjon fungerer som en frittstående enhet. Lokasjoner er ofte geografisk spredt og har ulike behov for å dele informasjon med moderselskapet. Lokasjoner trenger vanligvis ikke samme grad av kompleksitet og har ofte ikke ressursene til å opprettholde et stort system.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] gir små og mellom store bedrifter en forretningsadministrasjonsløsning som er enkel å bruke og kan opprettholdes med lave eierkostnader.
 
 Denne artikkelen gir en innføring i noen av måtene [!INCLUDE[prod_short](includes/prod_short.md)] støtter en nav-og-eiker-forretningsmodell på.
 
-## <a name="integrating-the-headquarter-company-and-the-sites"></a>Integrering av moderselskapet og lokasjonene
+## Integrering av moderselskapet og lokasjonene
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kan integreres med moderselskapets regnskapssystem mens det oppfyller de varierte behovene til ulike lokasjoner, uavhengig av størrelse, plassering eller virksomhetstype.
 
@@ -26,14 +26,14 @@ Diagrammet nedenfor er et eksempel på ulike lokasjoner som er integrert med et 
 
 ![Automatisk generert beskrivelse av diagram.](media/multisite-headquarter-sites.png)
 
-## <a name="meet-the-needs-of-domestic-and-international-sites"></a>Oppfylle behovene til innenlandske og internasjonale lokasjoner
+## Oppfylle behovene til innenlandske og internasjonale lokasjoner
 
 Forretningsbehov på lokasjoner varierer etter bransje, forretningsmetoder eller relasjonen til moderselskapet. [!INCLUDE[prod_short](includes/prod_short.md)] kan lett tilpasses til og utvides for ulike typer virksomheter og lokasjoner. Microsoft AppSource har en rekke apper fra Microsoft og partnerne våre, og partnere kan raskt implementere [!INCLUDE[prod_short](includes/prod_short.md)] med minimalt avbrudd i den daglige driften.
 
 Når det gjelder flernasjonale organisasjoner, støtter [!INCLUDE[prod_short](includes/prod_short.md)] lokale lovfestede krav og lokal forretningspraksis.
 
-* Når det gjelder nettversjoner, finnes det flere enn [40 lokaliserte landsversjoner](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) som du kan installere som utvidelser fra Microsoft AppSource.  
-* Når det gjelder lokale versjoner, er [landsversjoner](/azure/architecture/solution-ideas/articles/business-central) tilgjengelige som Microsoft-lokaliserte versjoner eller partnerledede tilleggslokaliseringer.
+* Når det gjelder nettversjoner, finnes det flere enn [40 lokaliserte lands-/områdeversjoner](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json) som du kan installere som utvidelser fra Microsoft AppSource.  
+* Når det gjelder lokale versjoner, er [lands-/områdeversjoner](/azure/architecture/solution-ideas/articles/business-central) tilgjengelige som Microsoft-lokaliserte versjoner eller partnerledede tilleggslokaliseringer.
 
 Et nettverk med flere enn 4 000 Microsoft-partnere over hele verden tilbyr lokal ekspertise.
 
@@ -45,7 +45,7 @@ Et nettverk med flere enn 4 000 Microsoft-partnere over hele verden tilbyr loka
 | Håndter flere språk og valutaer. | Støtte for flere språk og valutaer bidrar til å oppfylle lokale behov. | [Funksjoner for flere språk](about-locale-language.md)<br></br>[Funksjoner for flere valutaer](finance-how-setup-additional-currencies.md) |
 
 
-## <a name="consolidate-financial-data"></a>Konsolidere økonomiske data
+## Konsolidere økonomiske data
 
 Et kjerneaspekt ved nav-og-eiker-forretningsmodellen er at moderselskapet og lokasjonene kan utveksle økonomiske data, selv når moderselskapet og lokasjonene bruker ulike systemer, regnskapsstrukturer, språk og valutaer.
 
@@ -55,7 +55,7 @@ Et kjerneaspekt ved nav-og-eiker-forretningsmodellen er at moderselskapet og lok
 | Integrer regnskapsstrukturer. | Overfør konsolideringsdata fra ulike regnskapsstrukturer til din egen. Innebygd filformat for F&O (tilgjengelig i lanseringsbølge 2 for 2020) | [Importere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)<br></br>[Klargjøre finanskonti for konsolidering](finance-consolidated-company-reporting-setup.md#glacc) |
 | Bruk flere valutaer. | Bidra til å sikre at årsregnskaper i ulike valutaer er nøyaktige og bruker riktige valutakurser. | [Oppdatere valutakurser](finance-how-update-currencies.md) |
 
-## <a name="share-business-insight-with-integrated-analytics"></a>Dele forretningsinnsikt med integrert analyse
+## Dele forretningsinnsikt med integrert analyse
 
 Rett inn organisasjonen etter forretningsmålene ved å sørge for en felles forståelse av virkeligheten. Integrert analyse kan hjelpe personer å basere beslutningene på de samme faktaene.
 
@@ -67,7 +67,7 @@ Rett inn organisasjonen etter forretningsmålene ved å sørge for en felles for
 | Analyser data i Excel. | Undersøk faktaene, feilsøk og foreta adhocanalyser i Microsoft Excel. | [Analysere årsregnskaper i Excel](finance-analyze-excel.md) |
 
 
-## <a name="exchange-data-using-apis-and-xmlports"></a>Utveksle data ved hjelp av API-er og XMLport-er
+## Utveksle data ved hjelp av API-er og XMLport-er
 
 API-er og XMLport-er gjør det enklere å koble sammen forekomster av [!INCLUDE[prod_short](includes/prod_short.md)], inkludert de som er tilpasset for hver lokasjon.
 
@@ -82,7 +82,7 @@ API-er og XMLport-er gjør det enklere å koble sammen forekomster av [!INCLUDE[
 | Koble til tredjepartsløsninger og -tjenester. | API-er oppretter en punkt-til-punkt-forbindelse mellom Business Central og tredjepartsløsninger og -tjenester. | [API v2.0](/dynamics-nav/api-reference/v2.0/) |
 
 
-## <a name="promote-an-efficient-intercompany-supply-chain"></a>Fremme en effektiv konsernintern forsyningskjede
+## Fremme en effektiv konsernintern forsyningskjede
 
 Lokasjoner må ofte ha tilgang til forsyningskjeden og kunne håndtere visse aspekter ved den. Lokasjoner kan for eksempel bruke samme leverandør, men håndtere aktiva og fysiske lokasjoner separat.
 
@@ -91,7 +91,7 @@ Lokasjoner må ofte ha tilgang til forsyningskjeden og kunne håndtere visse asp
 | Behandle transaksjoner mellom avdelinger som vanlige salgs- og kjøpstransaksjoner. | Bruk konsernintern bokføring til å opprette salgs- og kjøpsdokumenter og finansposter for hele arbeidsflyter, og for flere selskaper om gangen for å unngå registrering av dupliserte data. | [Behandle konserninterne transaksjoner](intercompany-manage.md) |
 | Bruk papirløse fremgangsmåter. | Unngå kostnadene ved å sende, motta og skrive ut dokumenter. | [Inngående dokumenter](across-income-documents.md)<br><br> [Behandle vedlegg, koblinger og merknader på kort og dokumenter](ui-how-add-link-to-record.md) |
 
-## <a name="respond-quickly-to-new-business-conditions"></a>Reagere raskt på nye forretningsforhold
+## Reagere raskt på nye forretningsforhold
 
 Moderselskapet må kunne reagere raskt på forretningsendringer på hver lokasjon. Power Automate kan sammen med [!INCLUDE[prod_short](includes/prod_short.md)] fungere som en forvarselsmekanisme.
 
@@ -102,7 +102,7 @@ Moderselskapet må kunne reagere raskt på forretningsendringer på hver lokasjo
 | Generer e-postvarsler automatisk. | Konfigurer varsler i Power Automate som genererer e-postmeldinger med informasjon om kritiske forretningsforhold på lokasjoner eller hos forsyningskjedepartnere. | [Business Central og Power BI](admin-powerbi.md) |
 | Bruk standard eller egendefinerte varsler. | Bruk tolv ulike maler som er inkludert for Business Central, eller konfigurer dine egne varsler som er tilpasset virksomheten. | [Bruk Business Central i en automatisk arbeidsflyt](across-how-use-financials-data-source-flow.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 [Administrasjon av Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-administration)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

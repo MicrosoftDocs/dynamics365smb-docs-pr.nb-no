@@ -11,7 +11,7 @@ ms.search.forms: '5895, 6561, 6562, 6563, 6564, 6565, 6566, 5892, 5891, 5879, 58
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="count-and-adjust-inventory-using-documents"></a>Telle og justere lagerbeholdning ved hjelp av dokumenter
+# Telle og justere lagerbeholdning ved hjelp av dokumenter
 
 Du kan utføre en vareopptelling ved hjelp av dokumentene for vareopptellingordre og registrering for vareopptelling. Siden **Vareopptellingsordre** brukes til å organisere hele lagertellingsprosjektet, for eksempel ett per lokasjon. Siden **Registrering for vareopptelling** brukes til å formidle og registrere det faktiske antallet varer. Du kan opprette flere registreringer for én ordre, for eksempel for å fordele grupper med varer til ulike ansatte.
 
@@ -29,7 +29,7 @@ Telling av beholdningen ved hjelp av dokumenter består av følgende generelle t
 3. Angi opptalt vareantall på registreringene, som registrert på utskrifter for eksempel, og sette den til **Fullført**.
 4. Fyll ut og bokfør vareopptellingsordren.
 
-## <a name="to-create-a-physical-inventory-order"></a>Slik opprettes en vareopptellingsordre
+## Slik opprettes en vareopptellingsordre
 
 En vareopptellingsordre er et fullstendig dokument som består av et ordrehode for vareopptelling og noen vareopptellingordrelinjer. Informasjonen i et vareopptellingshode beskriver hvordan du utfører vareopptellingen. Vareopptellingordrelinjer inneholder opplysninger om varene og plasseringen.
 
@@ -51,7 +51,7 @@ En linje for hver vare som finnes i den valgte lokasjonen, og per angitte filtre
 
 Du kan deretter fortsette med å opprette én eller flere registreringer, som er instruksjoner til de ansatte som utfører den faktiske tellingen.  
 
-## <a name="to-create-a-physical-inventory-recording"></a>Slik opprettes en vareopptellingsregistrering
+## Slik opprettes en vareopptellingsregistrering
 
 For hver vareopptellingsordre kan du opprette én eller flere vareopptellingsregistreringsdokumenter der ansatte angir de opptalte antallene, enten manuelt eller gjennom en integrert skannerenheten.
 
@@ -73,7 +73,7 @@ Ved manuell opptellingsdato kan du skrive ut en liste, rapporten **Registrering 
 8. For varer som bruker varesporing, opprett en ekstra linje for hver parti- eller serienummerkode ved å velge handlingen **Funksjon**, og klikk deretter på **Kopier linjen**-handlingen. Hvis du vil ha mer informasjon, kan du se delen [Håndtering av varesporing ved telling av varelager](#handling-item-tracking-when-counting-inventory).  
 9. Velg **Skriv ut**-handlingen for å forberede det fysiske dokumentet som de ansatte skal bruke til å notere det opptalte antallet.
 
-## <a name="to-finish-a-physical-inventory-recording"></a>Slik avsluttes vareopptellingsregistrering
+## Slik avsluttes vareopptellingsregistrering
 
 Når de ansatte har talt lagerantallene, må du forberede registrering av antallet i systemet.
 
@@ -88,7 +88,7 @@ Når de ansatte har talt lagerantallene, må du forberede registrering av antall
     > Hvis det ikke finnes noen tilsvarende vareopptellingsordrelinje, og hvis det er merket av for **Tillat registrering uten ordre**, settes det inn en ny linje automatisk, det merkes av for **Registrert uten ordre** på den relaterte vareopptellingsordrelinjen. Ellers vises det en feilmelding, og prosessen avbrytes.<br /><br />
     > Hvis mer enn én vareopptellingsregistreringslinje samsvarer med en vareopptellingsordrelinje, vises en melding, og prosessen avbrytes. Hvis to identiske vareopptellingslinjer av én eller annen grunn havner i vareopptellingsordren, kan du bruke en funksjon for å løse problemet. Hvis du vil ha mer informasjon, kan du se delen [Slik finner du dupliserte vareopptellingsordrelinjer](#to-find-duplicate-physical-inventory-order-lines).
 
-## <a name="to-complete-a-physical-inventory-order"></a>Slik fullføres en vareopptellingsordre
+## Slik fullføres en vareopptellingsordre
 
 Når du har en fullført vareopptellingsregistrering, oppdateres feltet **Antall registrert (lagerenhet)** i den relaterte vareopptellingsordren med opptalte (registrerte) verdier, og det merkes av for **På registreringslinjer**. Hvis en opptalt verdi avviker fra forventet, vises differansen i henholdsvis feltet **Positivt antall (lagerenhet)** og **Negativt antall (lagerenhet)**.
 
@@ -96,7 +96,7 @@ Hvis du vil se forventet antall og eventuelle registrerte avvik for varer som ha
 
 Du kan også velge handlingen **Differanse for vareopptellingsordre** for å vise eventuelle differanser mellom det forventede antallet og det opptalte antallet.
 
-### <a name="to-find-duplicate-physical-inventory-order-lines"></a>Slik finner du duplikate vareopptellingsordrelinjer
+### Slik finner du duplikate vareopptellingsordrelinjer
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Vareopptellingsordrer** og velg den relaterte koblingen.
 2. Åpne vareopptellingsordren du vil vise dupliserte linjer for.
@@ -104,7 +104,7 @@ Du kan også velge handlingen **Differanse for vareopptellingsordre** for å vis
 
 Dupliserte vareopptellingsordrelinjer vises, slik at du kan slette dem og bare beholde én linje med et unikt sett med verdier i feltene **Varenr.**, **Variantkode**, **Lokasjonskode** og **Hyllekode**.
 
-### <a name="to-post-a-physical-inventory-order"></a>Slik bokføres en vareopptellingsordre
+### Slik bokføres en vareopptellingsordre
 
 Når du har fullført en vareopptellingsordre og endre statusen til **Fullført**, kan du bokføre den. Du kan bare angi status for en vareopptellingsordre til **Fullført** hvis følgende er oppfylt:
 
@@ -125,7 +125,7 @@ Når du har fullført en vareopptellingsordre og endre statusen til **Fullført*
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-### <a name="to-view-posted-physical-inventory-orders"></a>Slik viser du bokførte vareopptellingsordrer
+### Slik viser du bokførte vareopptellingsordrer
 
 Etter bokføring slettes vareopptellingsordren, og du kan vise og evaluere dokumentet som en bokført vareopptellingsordre, inkludert vareopptellingsregistreringer og eventuelle merknader som er opprettet.
 
@@ -133,13 +133,13 @@ Etter bokføring slettes vareopptellingsordren, og du kan vise og evaluere dokum
 2. På siden **Ordrer for bokført vareopptelling** velger du den bokførte vareopptellingsordren som du vil vise, og velg deretter handlingen **Vis**.
 3. Hvis du vil se en oversikt over relaterte vareopptellingsregistreringer, velger du **Registreringer**-handlingen.
 
-## <a name="handling-item-tracking-when-counting-inventory"></a>Håndtering av varesporing ved telling av varelager
+## Håndtering av varesporing ved telling av varelager
 
 Varesporing gjelder serie- eller partinumrene som er tilordnet til varer. Når du teller en vare som er lagret i lageret som for eksempel 10 ulike partinumre, må den ansatte kunne registrere hvilke og hvor mange enheter av hvert partinummer som er på lager. Hvis du vil ha mer informasjonom varesporingsfunksjonalitet, se [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md).
 
 Boksen for **Bruk varesporing** på vareopptellingsordrelinjer velges automatisk hvis en varesporingskode er definert for en vare, men du kan også velge eller fjerne den manuelt.
 
-### <a name="example---prepare-a-physical-inventory-recording-for-an-item-tracked-item"></a>Eksempel: Forberede en registrering for vareopptelling for en varesporet vare
+### Eksempel: Forberede en registrering for vareopptelling for en varesporet vare
 
 Vurder en vareopptellingen for Vare A, som er lagret i lageret som ti ulike serienumre.
 1. På registreringslinjen for varen merker du av for **Bruk varesporing**.
@@ -155,7 +155,7 @@ Vurder en vareopptellingen for Vare A, som er lagret i lageret som ti ulike seri
 
 Legg merke til at rapporten **Registrering for vareopptelling** inneholder ti linjer for vare A, én for hver serienummer.
 
-### <a name="example---record-and-post-counted-lot-number-differences"></a>Eksempel – Registrere og bokføre talte partinummerforskjeller
+### Eksempel – Registrere og bokføre talte partinummerforskjeller
 
 En partisporet vare lagres i lageret med "PARTI"-nummerserier.
 
@@ -190,7 +190,7 @@ En partisporet vare lagres i lageret med "PARTI"-nummerserier.
 
 På siden **Vareopptellingsordre** inneholder feltet **Negativt antall (lagerenhet)** *8*. For den aktuelle ordrelinjen vil siden **Liste over varesporinger for vareopptelling** inneholde de positive eller negative antallene for de enkelte partinumrene.
 
-## <a name="inventory-documents"></a>Lagerdokumenter
+## Lagerdokumenter
 
 Følgende dokumenttyper er nyttige når du skal håndtere lageret:
 
@@ -202,7 +202,7 @@ Du kan skrive ut disse dokumentene når som helst, frigi og åpne dem på nytt, 
 > [!NOTE]
 > Før du kan bruke disse dokumentene, må du angi en nummerserie for å opprette ID-ene. Hvis du vil ha mer informasjon, kan du se neste avsnitt.
 
-### <a name="to-set-up-numbering-for-inventory-documents"></a>Definere nummerering for lagerdokumenter
+### Definere nummerering for lagerdokumenter
 
 Følgende fremgangsmåte viser hvordan du definerer nummerering for lagerdokumenter.
 
@@ -214,7 +214,7 @@ Følgende fremgangsmåte viser hvordan du definerer nummerering for lagerdokumen
    * **Numre for lagerlevering**  
    * **Numre for bokført lagerlevering**  
 
-### <a name="to-create-and-post-an-inventory-document"></a>Opprette og bokføre et lagerdokument
+### Opprette og bokføre et lagerdokument
 
 Følgende fremgangsmåte viser hvordan du oppretter, skriver ut og bokfører et lagermottak. Trinnene er de samme for lagerleveringer.
 
@@ -230,7 +230,7 @@ Følgende funksjoner er tilgjengelige på siden **Lagermottak**:
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="printing-inventory-documents"></a>Skrive ut lagerdokumenter
+## Skrive ut lagerdokumenter
 
 Du kan angi rapportene som skal skrives ut i forskjellige faser, ved å velge ett av følgende alternativer i feltet **Bruk** på siden **Rapportvalg – beholdning**:
 
@@ -240,11 +240,11 @@ Du kan angi rapportene som skal skrives ut i forskjellige faser, ved å velge et
 * Bokført lagerlevering
 
 > [!NOTE]
-> De tilgjengelige rapportene kan variere avhengig av hvor landet befinner seg. Basisprogrammet inkluderer ikke oppsett.
+> De tilgjengelige rapportene kan variere avhengig av lokaliseringen for landet/området. Basisprogrammet inkluderer ikke oppsett.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/adjust-inventory/)
+## Se relatert [Microsoft-opplæring](/training/modules/adjust-inventory/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder](inventory-how-count-adjust-reclassify.md)  
 [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md)  

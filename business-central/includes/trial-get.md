@@ -7,7 +7,7 @@ ms.author: edupont
 1. Gå til [nettstedet for prøveversjonen](https://go.microsoft.com/fwlink/?linkid=847861), velg *Økonomi og drift*, og klikk deretter på knappen **Prøv nå** på kortet **Dynamics 365 Business Central**.  
 2. Angi e-postadressen for jobb eller skole og andre opplysninger. Du blir omdirigert til prøveversjonen på [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  
 
-Det tar litt tid å laste inn prøveversjonen, og deretter kan du begynne å bruke appen. Sjekklisten **Kom i gang** tar deg gjennom trinnene for å gjøre deg klar for bedrifter. Fremgangsmåten varierer avhengig av land og eventuell bransjespesifikk funksjonalitet du har lagt til for din forekomst av [!INCLUDE [prod_short](prod_short.md)].  
+Det tar litt tid å laste inn prøveversjonen, og deretter kan du begynne å bruke appen. Sjekklisten **Kom i gang** tar deg gjennom trinnene for å gjøre deg klar for bedrifter. Fremgangsmåten varierer avhengig av land/område og eventuell bransjespesifikk funksjonalitet du har lagt til for din forekomst av [!INCLUDE [prod_short](prod_short.md)].  
 
 I [!INCLUDE[prod_short](prod_short.md)] vil noe være kjent for deg, og andre ting er kanskje ikke kjent. Første gang du logger deg på demoselskap får du tilgang til en Kom i gang-kortet med en kobling for å vise demoinnføringer. Hvis du vil ha mer informasjon, kan du se [Bli klar til å gjøre forretninger](../ui-get-ready-business.md) og artiklene om [hurtigstart](../quick-start-business-central.md).  
 

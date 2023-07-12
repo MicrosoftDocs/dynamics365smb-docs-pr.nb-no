@@ -45,7 +45,7 @@ Vi anbefaler at du bruker Microsoft Dynamics Lifecycle Services (LCS) til å sen
         |Description  | Angi en kort oversikt av loven. Beskrivelsen må fokusere på problemer som er relevante for ERP-aktiviteter, slik at brukere kan forstå kravene på høyt nivå uten å måtte lese lovgivningen først.|
         |Land  | Angi landet eller regionen lovgivningen gjelder for.|
         |Bransje| Angi bransje hvis behovet bare gjelder for bestemte bransjer. Velg for eksempel **Offentlig sektor**, **Detaljhandel**, eller **Produksjon**.|
-        |Funksjonsreferanse  | Dette er relevant for Dynamics 365 Business Central, men du kan angi en funksjonsreferanse hvis du kjenner den. Listen over funksjoner for det bestemte landet finner du i [Lokaliseringsportal](/dynamics/s-e/) på området CustomerSource. |
+        |Funksjonsreferanse  | Dette er relevant for Dynamics 365 Business Central, men du kan angi en funksjonsreferanse hvis du kjenner den. Listen over funksjoner for det bestemte landet/området finner du i [Lokaliseringsportal](/dynamics/s-e/) på området CustomerSource. |
         |Dato for håndhevelse av lov  | Angi datoen når berørte kunder må begynne å overholde loven.|
         |Offentlig kunngjøringsdato  | Angi datoen myndighetene skal kunngjøre endringen.|
         |Siste registreringsdato  | Velg fristen for den første sendingen av den nye eller endrede rapporten.|

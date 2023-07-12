@@ -7,7 +7,7 @@ ms.search.form: 4
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="set-up-payment-terms"></a>Definer betalingsbetingelser
+# Definer betalingsbetingelser
 
 Betalingsbetingelser bestemmer hvordan du håndterer forfallsdatoer og kontantrabatter. Du kan definere et ubegrenset antall betalingsbetingelseskoder, og bruke datoformler til å definere betalingsbetingelsene. Når du først registrerer deg for [!INCLUDE [prod_short](includes/prod_short.md)], gir demonstrasjonsselskapet noen betalingsmåter som virksomheter ofte bruker. Du kan imidlertid legge til så mange du trenger.  
 
@@ -19,7 +19,7 @@ Når du bokfører en kreditnota, beregner [!INCLUDE [prod_short](includes/prod_s
 
 Hvis du vil sende kundene purringer om forfalte betalinger, må du definere purregrader og betingelser. Hvis du vil ha mer informasjon, kan du se [Definer betingelser og grader for purringer](finance-setup-reminders.md).  
 
-## <a name="to-set-up-payment-terms"></a>Slik definerer du betalingsbetingelser
+## Slik definerer du betalingsbetingelser
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Betalingsbetingelser**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -29,9 +29,9 @@ Når du har definert betalingsbetingelsene, tilordner du dem til kunder og lever
 > [!TIP]
 > I grunnversjonen av [!INCLUDE [prod_short](includes/prod_short.md)] støttes ikke betalingsbetingelser med delvise betalinger. Du må i stedet bruke funksjonene for forskuddsbetaling. Hvis du vil ha mer informasjon, kan du se [Definere forskudd](finance-set-up-prepayments.md).
 >
-> I visse land *kan* du definere betalingsbetingelser med delvise betalinger. Hvis du vil finne ut om denne funksjonen støttes i ditt land, kan du se delen **Lokale funksjoner** i navigasjonsruten til venstre for en [Microsoft Learn](about-localization.md)-artikkel.
+> I visse land/områder *kan* du definere betalingsbetingelser med delvise betalinger. Hvis du vil finne ut om denne funksjonen støttes i ditt land/område, kan du se delen **Lokale funksjoner** i navigasjonsruten til venstre for en [Microsoft Learn](about-localization.md)-artikkel.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Definer betalingsmåter](finance-payment-methods.md)  
 [Definerer forskudd](finance-set-up-prepayments.md)  

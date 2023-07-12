@@ -29,7 +29,7 @@ Enten du masseimporterer kunder fra Shopify eller når du importerer ordrer, kan
 |**Opprett ukjente kunder automatisk**| Velg dette feltet om du vil at koblingen skal opprette manglende kunder som blir funnet, når alternativene **Via e-post/telefon** eller **Etter faktura til-informasjon** er valgt i feltet **Kundetildelingstype**. En ny kunde opprettes ved hjelp av importerte data og **Kundemalkode** som er definert på sidene **Shopify-butikkort** eller **Shopify-kundemal**. Legg merke til at Shopify-kunden må ha minst én adresse. Ordrer som er opprettet via Shopify-salgsstedssalgskanalen, mangler ofte adresseopplysninger. Hvis dette alternativet ikke er aktivert, må du opprette en kunde manuelt og knytte det til Shopify-kunden.|
 |**Kundemalkode**|Dette feltet brukes sammen med **Opprett ukjente kunder automatisk**.<br>- Velg standardmalen som skal brukes for automatisk opprettede kunder. Kontroller at den valgte malen inneholder de obligatoriske feltene, for eksempel **Bokføringsgruppe – firma**, **Bokføringsgruppe – kunde**, merverdiavgiftsrelaterte (mva.) eller avgiftsrelaterte felter.<br>- Du kan definere maler per land/område på siden **Shopify-kundemaler**, som er nyttig for å kunne foreta en riktig beregning av mva. <br>- Finn ut mer under [Definer avgifter](setup-taxes.md).|
 
-### Kundemal per land
+### Kundemal per land/område
 
 Enkelte innstillinger kan defineres på nivået land/område, eller på nivået delstat/provins. Innstillingene kan konfigureres i [Forsendelse og levering](https://www.shopify.com/admin/settings/shipping) i Shopify.
 
@@ -37,7 +37,7 @@ Du kan gjøre følgende for hver kunde ved å bruke **Shopify-kundemalen**:
 
 1. Angi **Standard kundenr.**, som har høyere prioritet over det som er valgt i feltene **Kundeimport fra Shopify** og **Kundetildelingstype**. Den brukes i den importerte ordren.
 2. Definere **kundemalkoden**, som brukes til å opprette manglende kunder, hvis **Opprett ukjente kunder automatisk** er aktivert. Hvis **kundemalkoden** er tom, bruker funksjonen **kundemalkoden** som er definert på **Shopify-butikkort**. Systemet prøver først å finne en mal for **fylkes-/områdekode** for standardadressen. Hvis det ikke finnes noen mal, brukes den første adressen.
-3. I noen tilfeller er ikke **kundemalkoden** som er definert for et land, nok til å sikre riktig avgiftsberegninger (f.eks. for land med mva.). I dette tilfellet kan det være nyttig å ta med **avgiftsområde**.
+3. I noen tilfeller er ikke **kundemalkoden** som er definert for et land/område, nok til å sikre riktig avgiftsberegninger (f.eks. for land/område med mva.). I dette tilfellet kan det være nyttig å ta med **avgiftsområde**.
 4. **Avgiftsområde**-feltet inneholder også et par for **landskode** og **fylkesnavn**. Dette paret er nyttig når koblingen må konvertere en kode til et navn, eller omvendt.
 
 > [!NOTE]  
@@ -83,7 +83,7 @@ En kunde i Shopify har i tillegg en standard adresse. Adressen kan inneholde et 
 |1|**Navn**|Høyeste prioritet hvis feltet **Navnekilde** på **Shopify-butikkortet** inneholder *Selskapsnavn*.|
 |2|**Navn 2**|Laveste prioritet hvis feltet **Navn 2-kilde** på **Shopify-butikkortet** inneholder *Selskapsnavn*.|
 
-For adresser der land/område brukes, velger du **Kode** eller **Navn** i feltet **Fylkeskilde** på siden **Shopify-butikkortet**. Koden eller navnet angir datatypen som er lagret i [!INCLUDE[prod_short](../includes/prod_short.md)] i feltet **Fylke**. Husk å starte kundemaler per land, slik at landskode/navnetildeling er klar. 
+For adresser der land/område brukes, velger du **Kode** eller **Navn** i feltet **Fylkeskilde** på siden **Shopify-butikkortet**. Koden eller navnet angir datatypen som er lagret i [!INCLUDE[prod_short](../includes/prod_short.md)] i feltet **Fylke**. Husk å starte kundemaler per land/område, slik at landskode/navnetildeling er klar. 
 
 
 ## Synkroniser kunder
