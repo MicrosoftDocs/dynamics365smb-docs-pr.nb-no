@@ -1,351 +1,519 @@
 ### YamlMime:Hub
-title: Dokumentasjon for Microsoft Dynamics 365 Business Central
-summary: 'Finn ut hvordan du får mest mulig ut av Dynamics 365 Business Central med nettbasert opplæring og dokumentasjon som dekker produktfunksjoner. Finn ut hvordan du bruker Business Central til å administrere, tilpasse og effektivisere operasjoner som økonomi, produksjon, salg med mer, på tvers av små eller mellomstore bedrifter.'
+title:  Dokumentasjon for Microsoft Dynamics 365 Business Central
+summary: Finn ut hvordan du får mest mulig ut av Dynamics 365 Business Central med nettbasert opplæring og dokumentasjon som dekker produktfunksjoner. Finn ut hvordan du bruker Business Central til å administrere, tilpasse og effektivisere operasjoner som økonomi, produksjon, salg med mer, på tvers av små eller mellomstore bedrifter.
 brand: dynamics
+
 metadata:
   title: Dokumentasjon for Microsoft Dynamics 365 Business Central
-  description: 'Business Central er en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner. Salg, service, økonomi og operasjoner kobles sammen for å virke smartere, tilpasse raskere og yte bedre. Business Central automatiserer og effektiviserer forretningsprosesser og hjelper deg med å administrere virksomheten.'
+  description: Business Central er en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner. Salg, service, økonomi og operasjoner kobles sammen for å virke smartere, tilpasse raskere og yte bedre. Business Central automatiserer og effektiviserer forretningsprosesser og hjelper deg med å administrere virksomheten.  
   ms.topic: hub-page
   ms.service: dynamics365-business-central
   author: jswymer
   ms.author: jswymer
   ms.date: 06/16/2023
   hide_bc: true
+
 highlightedContent:
+# itemType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
+
+# Do not change the following cards. You should only need to update the URLs to provide the correct links to your product documentation.
+
   items:
+    # Card
     - title: Velkommen til Business Central
       itemType: get-started
       url: /dynamics365/business-central/welcome
+    # Card
     - title: Nyheter
       itemType: whats-new
       url: /dynamics365/business-central/product-news
+    # Card
     - title: Opplæring
       itemType: training
       url: /training/dynamics365/business-central
+    # Card
     - title: Feilsøk
       itemType: concept
       url: /dynamics365/business-central/across-faq
-additionalContent:
+      
+additionalContent: 
   sections:
-    - title: Implementer
-      items:
-        - title: Veiledning
-          links:
-            - text: 'Security, compliance, and privacy'
-              url: /dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json
-            - text: Understand Business Central online infrastructure
-              url: /dynamics365/business-central/dev-itpro/administration/tenant-environment-topology
-            - text: Migrate from on-premises to online
-              url: /dynamics365/business-central/dev-itpro/administration/migrate-data
-            - text: Performance
-              url: /dynamics365/business-central/dev-itpro/performance/performance-overview
-        - title: Prøv/kjøp
-          links:
-            - text: Try Business Central online for free
-              url: /dynamics365/business-central/trial-signup
-            - text: Buy Business Central online
-              url: /dynamics365/business-central/trial-signup#get-started-with-a-subscription
-            - text: Add extensions for more functionality
-              url: /dynamics365/business-central/ui-extensions-install-uninstall
-        - title: Konfigurer
-          links:
-            - text: Companies
-              url: /dynamics365/business-central/about-new-company
-            - text: Business functionality
-              url: /dynamics365/business-central/setup
-            - text: Job queues
-              url: /dynamics365/business-central/admin-job-queues-schedule-tasks
-            - text: Workflows
-              url: /dynamics365/business-central/across-set-up-workflows
-        - title: Integrer med andre produkter
-          links:
-            - text: Teams
-              url: /dynamics365/business-central/across-teams-overview
-            - text: Dataverse
-              url: /dynamics365/business-central/admin-common-data-service
-            - text: Power Automate
-              url: /dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview
-            - text: Power BI
-              url: /dynamics365/business-central/admin-powerbi
-            - text: OneDrive
-              url: /dynamics365/business-central/across-onedrive-overview
-    - title: Administrer og utvikle
-      items:
-        - title: Administrer brukertilgang
-          links:
-            - text: Create users
-              url: /dynamics365/business-central/ui-how-users-permissions
-            - text: Assign permissions to users and groups
-              url: /dynamics365/business-central/ui-define-granular-permissions
-            - text: Manage profiles
-              url: /dynamics365/business-central/admin-users-profiles-roles
-            - text: Access with Microsoft 365 licenses
-              url: /dynamics365/business-central/admin-access-with-m365-license
-        - title: Administrer miljøer
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/dev-itpro/administration/tenant-administration
-            - text: Create environments
-              url: /dynamics365/business-central/dev-itpro/administration/tenant-administration
-            - text: Manage updates
-              url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-update-management
-        - title: Administrer datalagring
-          links:
-            - text: Compress data or delete documents
-              url: /dynamics365/business-central/admin-manage-documents
-            - text: Archive data
-              url: /dynamics365/business-central/admin-archive-data
-            - text: Reduce stored data in databases
-              url: /dynamics365/business-central/dev-itpro/administration/database-reduce-data
-            - text: Manage capacity
-              url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity
-        - title: Overvåk operasjoner og endringer
-          links:
-            - text: Audit changes
-              url: /dynamics365/business-central/across-log-changes
-            - text: Telemetry overview
-              url: /dynamics365/business-central/dev-itpro/administration/telemetry-overview
-            - text: Enable telemetry
-              url: /dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights
-        - title: Tilpass og utvid (administrator)
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/ui-customizing-overview
-            - text: Customize pages for profiles
-              url: /dynamics365/business-central/ui-personalization-manage
-            - text: Enable features ahead of time
-              url: /dynamics365/business-central/admin-feature-management
-        - title: Utvikle i AL
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/dev-itpro/developer/devenv-landing?branch=dev-landing
-            - text: Develop for AppSource
-              url: /dynamics365/business-central/dev-itpro/developer/readiness/opportunity-app-publisher
-            - text: AL language reference
-              url: /dynamics365/business-central/dev-itpro/developer/
-        - title: Utvikle for integrering
-          links:
-            - text: 'Web services (OData, SOAP)'
-              url: /dynamics365/business-central/dev-itpro/webservices/web-services
-            - text: Connect apps
-              url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps
-            - text: Business Central API
-              url: /dynamics365/business-central/dev-itpro/api-reference/v2.0/
-    - title: Vær produktiv
-      items:
-        - title: Arbeidsområdeinnstillinger
-          links:
-            - text: 'Language, region, work date, time zone, and more'
-              url: /dynamics365/business-central/ui-change-basic-settings
-            - text: Switch environment or company
-              url: /dynamics365/business-central/ui-organization-switch
-            - text: Personalize UI
-              url: /dynamics365/business-central/ui-personalization-user
-            - text: Manage notifications
-              url: /dynamics365/business-central/ui-smart-notifications
-        - title: Samarbeid og deling
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/across-share-data-features
-            - text: Share data in Teams chats and channels
-              url: /dynamics365/business-central/across-teams-overview
-            - text: Share files in OneDrive
-              url: /dynamics365/business-central/across-share-onedrive
-            - text: Collaborate in Excel
-              url: /dynamics365/business-central/across-work-with-excel
-        - title: 'Forretningsanalyse, rapportering og dataanalyse'
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/reports-bi-reporting
-            - text: 'Run, schedule, and print reports'
-              url: /dynamics365/business-central/ui-work-report
-            - text: Work with Power BI reports in Business Central
-              url: /dynamics365/business-central/across-working-with-powerbi
-            - text: Analyze list data with analysis mode
-              url: /dynamics365/business-central/across-working-with-powerbi
-            - text: Analyze report data with Excel
-              url: /dynamics365/business-central/report-analyze-excel
-        - title: Generelle forretningsfunksjoner
-          links:
-            - text: General journals
-              url: /dynamics365/business-central/ui-work-general-journals
-            - text: Post documents and journals
-              url: /dynamics365/business-central/ui-post-documents-journals
-            - text: Job queues
-              url: /dynamics365/business-central/admin-job-queues-schedule-tasks
-            - text: Incoming documents
-              url: /dynamics365/business-central/across-income-documents
-    - title: Gjør forretninger
-      items:
-        - title: Finans
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/finance
-            - text: Finance reports
-              url: /dynamics365/business-central/finance-reports
-            - text: Manage receivables
-              url: /dynamics365/business-central/receivables-manage-receivables
-            - text: Manage payables
-              url: /dynamics365/business-central/payables-manage-payables
-            - text: Reconcile bank accounts
-              url: /dynamics365/business-central/bank-manage-bank-accounts
-        - title: Salg
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/sales-manage-sales
-            - text: Sales reports
-              url: /dynamics365/business-central/sales-reports
-            - text: Register new customers
-              url: /dynamics365/business-central/sales-how-register-new-customers
-            - text: Make Sales Quotes
-              url: /dynamics365/business-central/sales-how-make-offers
-            - text: Invoice sales
-              url: /dynamics365/business-central/sales-how-invoice-sales
-        - title: Kjøp
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/purchasing-manage-purchasing
-            - text: Purchase reports
-              url: /dynamics365/business-central/purchase-reports
-            - text: Record purchases
-              url: /dynamics365/business-central/purchasing-how-record-purchases
-            - text: Request quotes
-              url: /dynamics365/business-central/purchasing-how-request-quotes
-            - text: Purchase items for a sale
-              url: /dynamics365/business-central/purchasing-how-purchase-products-sale
-        - title: Lager
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/inventory-manage-inventory
-            - text: Inventory and Warehouse Reports
-              url: /dynamics365/business-central/inventory-WMS-reports
-            - text: Register items
-              url: /dynamics365/business-central/inventory-how-register-new-items
-            - text: Work with BOMs
-              url: /dynamics365/business-central/inventory-how-work-boms
-            - text: Categorize items
-              url: /dynamics365/business-central/inventory-how-categorize-items
-        - title: Prosjektstyring
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/projects-manage-projects
-            - text: Project reports
-              url: /dynamics365/business-central/project-reports
-            - text: Create jobs
-              url: /dynamics365/business-central/projects-how-create-jobs
-            - text: Use resources for projects
-              url: /dynamics365/business-central/projects-how-use-resources
-            - text: Use time sheets
-              url: /dynamics365/business-central/projects-how-use-time-sheets
-        - title: Aktiva
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/fa-manage
-            - text: Fixed asset reports
-              url: /dynamics365/business-central/fa-reports
-            - text: Acquire fixed assets
-              url: /dynamics365/business-central/fa-how-acquire
-            - text: Maintain fixed assets
-              url: /dynamics365/business-central/fa-how-maintain
-            - text: Insure fixed assets
-              url: /dynamics365/business-central/fa-how-insure
-        - title: Forbindelser
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/marketing-relationship-management
-            - text: Contacts
-              url: /dynamics365/business-central/marketing-contacts
-            - text: Segments
-              url: /dynamics365/business-central/marketing-segments
-            - text: Interactions
-              url: /dynamics365/business-central/marketing-interactions-overview
-            - text: Opportunities
-              url: /dynamics365/business-central/marketing-manage-sales-opportunities
-        - title: Personal
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/hr-manage-human-resources
-            - text: Register employees
-              url: /dynamics365/business-central/hr-how-register-employees
-            - text: Manage employee absence
-              url: /dynamics365/business-central/hr-how-manage-absence
-        - title: Planlegging
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/production-planning
-            - text: Plan with or without locations
-              url: /dynamics365/business-central/production-planning-with-without-locations
-            - text: Create a forecast
-              url: /dynamics365/business-central/production-how-to-create-a-forecast
-            - text: Create production orders from sales order
-              url: /dynamics365/business-central/production-how-to-create-production-orders-from-sales-orders
-            - text: Plan for new demand order by order
-              url: /dynamics365/business-central/production-how-to-plan-for-new-demand
-        - title: Monteringsstyring
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/assembly-assemble-items
-            - text: Assembly reports
-              url: /dynamics365/business-central/assembly-reports
-            - text: Quote an assemble-to-order sale
-              url: /dynamics365/business-central/assembly-how-to-quote-an-assemble-to-order-sale
-            - text: Assemble items
-              url: /dynamics365/business-central/assembly-how-to-assemble-items
-            - text: Sell items assembled to order
-              url: /dynamics365/business-central/assembly-how-to-sell-items-assembled-to-order
-        - title: Produksjon
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/production-manage-manufacturing
-            - text: Production reports
-              url: /dynamics365/business-central/production-reports
-            - text: Create production orders
-              url: /dynamics365/business-central/production-about-production-orders
-            - text: Subcontract manufacturing
-              url: /dynamics365/business-central/production-how-to-subcontract-manufacturing
-            - text: Post consumption and output
-              url: /dynamics365/business-central/production-how-to-register-consumption-and-output
-        - title: Lagerstyring
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/warehouse-manage-warehouse
-            - text: Warehouse reports
-              url: /dynamics365/business-central/inventory-WMS-reports
-            - text: Put items
-              url: /dynamics365/business-central/warehouse-how-to-put-items-away-with-inventory-put-aways
-            - text: Move items
-              url: /dynamics365/business-central/warehouse-move-items
-            - text: Pick items
-              url: /dynamics365/business-central/warehouse-how-to-pick-items-with-inventory-picks
-        - title: Servicebehandling
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/service-service
-            - text: Planning
-              url: /dynamics365/business-central/service-plan-service
-            - text: Fulfill service contracts
-              url: /dynamics365/business-central/service-fulfill-service-contracts
-            - text: Deliver service
-              url: /dynamics365/business-central/service-deliver-service
-            - text: Create service quotes
-              url: /dynamics365/business-central/service-how-to-create-service-quotes
-        - title: Nettbutikk med Shopify
-          links:
-            - text: Get started
-              url: /dynamics365/business-central/shopify/get-started
-            - text: Synchronize Customers with Shopify
-              url: /dynamics365/business-central/shopify/synchronize-customers
-            - text: Synchronize and fulfill sales orders with Shopify
-              url: /dynamics365/business-central/shopify/synchronize-orders
-            - text: Synchronize Transactions and payouts
-              url: /dynamics365/business-central/shopify/transactions-and-payouts
-            - text: Set up taxes for the Shopify connection
-              url: /dynamics365/business-central/shopify/setup-taxes
-        - title: Lokale funksjoner
-          links:
-            - text: Overview
-              url: /dynamics365/business-central/about-localization
-            - text: International availability of Dynamics 365
-              url: /dynamics365/get-started/availability
-            - text: Development for localization
-              url: /dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization
+  - title: Implementer
+# Guidance should be the first card under implement. On this card, include links for Security and Compliance, Implementation, Adoption frameworks, and Best practices. 
+# Each card should have at least three and no more than five links. Do not include a "See also" link.
+    items:
+    - title: Veiledning 
+      links: 
+      - text: Sikkerhet, samsvar og personvern
+        url: /dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json
+    #  - text: Samsvar
+    #    url: /dynamics365/business-central/compliance/compliance-overview    
+    #  - text: Personvern
+    #    url: /dynamics365/business-central/privacy-connected-services
+    #  - text: Ytelse for administratorer
+    #    url: /dynamics365/business-central/dev-itpro/performance/performance-overview
+    #  - text: Ytelse for brukere
+    #    url: /dynamics365/business-central/dev-itpro/performance/performance-users
+      - text: Forstå infrastrukturen til Business Central Online
+        url: /dynamics365/business-central/dev-itpro/administration/tenant-environment-topology 
+      - text: Gå fra lokal til nettbasert versjon
+        url: /dynamics365/business-central/dev-itpro/administration/migrate-data
+    #  - text: Utformingsdetaljer for programmet
+    #    url: /dynamics365/business-central/design-details-application-design
+      - text: Ytelse
+        url: /dynamics365/business-central/dev-itpro/performance/performance-overview
+    - title: Prøv/kjøp
+      links: 
+      - text: Prøv Business Central Online
+        url: /dynamics365/business-central/trial-signup
+      - text: Kjøp Business Central Online
+        url: /dynamics365/business-central/trial-signup#get-started-with-a-subscription
+    #  - text: Kjøp lokal Business Central (PDF)
+    #    url: https://assetsprod.microsoft.com/mpn/en-us/business-central-dynamics-licensing-guide.pdf
+      - text: Legg til utvidelser for mer funksjonalitet
+        url: /dynamics365/business-central/ui-extensions-install-uninstall
+    #  - text: Distribuer lokal Business Central
+    #    url: /dynamics365/business-central/dev-itpro/deployment/deployment-scenarios
+    #  - text: Installer mobil- og skrivebordsapp
+    #    url: /dynamics365/business-central/install-mobile-app
+    #  - text: Gå fra lokal til nettbasert versjon
+    #    url: /dynamics365/business-central/dev-itpro/administration/migrate-data
+    - title: Konfigurer
+      links:
+      - text: Selskaper
+        url: /dynamics365/business-central/about-new-company      
+#      - text: Legg til selskapsinformasjon
+#        url: /dynamics365/business-central/admin-company-information
+#      - text: Opprett nummerserier
+#        url: /dynamics365/business-central/ui-create-number-series
+#      - text: Konfigurer hovedkalendere
+#        url: /dynamics365/business-central/across-how-to-assign-base-calendars
+#      - text: Arbeid på tvers av selskaper med selskapssenteret
+#        url: /dynamics365/business-central/company-hub 
+#    - title: Konfigurer virksomhet
+#      links: 
+      - text: Forretningsfunksjoner
+        url: /dynamics365/business-central/setup
+    #  - text: Finans
+    #    url: /dynamics365/business-central/finance-setup-finance
+    #  - text: Bankvirksomhet
+    #    url: /dynamics365/business-central/bank-setup-banking        
+    #  - text: Salg
+    #    url: /dynamics365/business-central/sales-setup-sales
+    #  - text: Kjøp
+    #    url: /dynamics365/business-central/purchasing-setup-purchasing  
+    #  - text: E-post
+    #    url: /dynamics365/business-central/admin-how-setup-email
+    #  - url: /dynamics365/business-central/inventory-setup-inventory
+    ##    text: Lager
+    #- title: Flere oppsett
+    #  links:
+    #  - url: /dynamics365/business-central/warehouse-setup-warehouse
+    #    text: Lager
+    #  - url: /dynamics365/business-central/production-configure-production-processes
+    #    text: Produksjon
+    #  - url: /dynamics365/business-central/service-setup-service
+    #    text: Servicebehandling
+      - text: Prosjektkøer
+        url: /dynamics365/business-central/admin-job-queues-schedule-tasks      
+      - text: Arbeidsflytprosesser
+        url: /dynamics365/business-central/across-set-up-workflows
+    #  - text: Skrivere
+    #    url: /dynamics365/business-central/ui-specify-printer-selection-reports
+    #  - text: Rediger i Excel
+    #    url: /dynamics365/business-central/admin-deploy-excel-addin
+    - title: Integrer med andre produkter
+      links:     
+      - text: Teams
+        url: /dynamics365/business-central/across-teams-overview
+      - text: Dataverse
+        url: /dynamics365/business-central/admin-common-data-service 
+      - text: Power Automate 
+        url: /dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview
+      - text: Power BI
+        url: /dynamics365/business-central/admin-powerbi
+      - text: OneDrive
+        url: /dynamics365/business-central/across-onedrive-overview  
+  - title: Administrer og utvikle
+    items:
+    - title: Administrer brukertilgang
+      links:
+      - text: Opprett brukere
+        url: /dynamics365/business-central/ui-how-users-permissions
+      - text: Tildel tillatelser til brukere og grupper
+        url: /dynamics365/business-central/ui-define-granular-permissions
+      - text: Administrer profiler
+        url: /dynamics365/business-central/admin-users-profiles-roles  
+      - text: Få tilgang med Microsoft 365-lisenser
+        url: /dynamics365/business-central/admin-access-with-m365-license
+    - title: Administrer miljøer
+      links:
+      - text: Oversikt
+        url: /dynamics365/business-central/dev-itpro/administration/tenant-administration
+      - text: Opprett miljøer
+        url: /dynamics365/business-central/dev-itpro/administration/tenant-administration  
+#      - text: Administrer kapasitet
+#        url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity  
+      - text: Administrer oppdateringer
+        url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-update-management
+#      - text: API for administrasjonssenter
+#        url: /dynamics365/business-central/dev-itpro/administration/administration-center-api
+#      - text: Administrer lokalt
+#        url: /dynamics365/business-central/dev-itpro/administration/administration
+    - title: Administrer datalagring
+      links: 
+      - text: Komprimer data eller slett dokumenter
+        url: /dynamics365/business-central/admin-manage-documents
+      - text: Arkivdata
+        url: /dynamics365/business-central/admin-archive-data
+      - text: Reduser lagrede data i databaser
+        url: /dynamics365/business-central/dev-itpro/administration/database-reduce-data
+      - text: Administrer kapasitet
+        url: /dynamics365/business-central/dev-itpro/administration/tenant-admin-center-capacity  
+#    - title: Administrer lokalt 
+#      links:
+#      - text: Oversikt
+#        url: /dynamics365/business-central/dev-itpro/administration/administration
+#      - text: Konfigurer Business Central Server
+#        url: /dynamics365/business-central/dev-itpro/administration/configure-server-instance  
+#      - text: Konfigurer Business Central Web Server
+#        url: /dynamics365/business-central/dev-itpro/administration/configure-web-server
+#      - text: Optimaliser Business Central-dataytelse
+#        url: /dynamics365/business-central/dev-itpro/administration/optimize-sql-server-performance
+#      - text: PowerShell-moduler for Business Central-administrator
+#        url: /powershell/business-central/overview      
+    - title: Overvåk operasjoner og endringer
+      links: 
+      - text: Overvåk endringer
+        url: /dynamics365/business-central/across-log-changes
+      - text: Oversikt over telemetri
+        url: /dynamics365/business-central/dev-itpro/administration/telemetry-overview       
+      - text: Aktiver telemetri
+        url: /dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights 
+#      - text: Med Power BI
+#        url: /dynamics365/business-central/dev-itpro/administration/telemetry-power-bi-app
+#      - text: Med KQL
+#        url: /dynamics365/business-central/dev-itpro/administration/telemetry-analyze-with-kql
+    - title: Tilpass og utvid (administrator)
+      links:
+      - text: Oversikt
+        url: /dynamics365/business-central/ui-customizing-overview
+#      - text: Installer og avinstaller utvidelser
+#        url: /dynamics365/business-central/dev-itpro/ui-extensions-install-uninstall
+      - text: Tilpass sider for profiler
+        url: /dynamics365/business-central/ui-personalization-manage
+#      - text: Endre opplevelse
+#        url: /dynamics365/business-central/ui-experiences
+      - text: Aktiver funksjoner på forhånd
+        url: /dynamics365/business-central/admin-feature-management 
+    - title: Utvikle i AL
+      links:
+      - text: Oversikt
+        url: /dynamics365/business-central/dev-itpro/developer/devenv-landing?branch=dev-landing
+#      - text: Konfigurer AL-miljøet
+#        url: /dynamics365/business-central/dev-itpro/developer/devenv-get-started
+#      - text: Bygg din første app
+#        url: /dynamics365/business-central/dev-itpro/developer/devenv-extension-example
+      - text: Utvikle for AppSource
+        url: /dynamics365/business-central/dev-itpro/developer/readiness/opportunity-app-publisher
+      - text: Referanse for AL-språk
+        url: /dynamics365/business-central/dev-itpro/developer/
+    #  - text: System og grunnprogram
+    #    url: /dynamics365/business-central/application/    
+    - title: Utvikle for integrering
+      links:
+      - text: Nettjenester (OData, SOAP)
+        url: /dynamics365/business-central/dev-itpro/webservices/web-services
+      - text: Connect Apps 
+        url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps 
+      - text: Business Central-API  
+        url: /dynamics365/business-central/dev-itpro/api-reference/v2.0/       
+ #     - text: Teams
+ #       url: /dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams 
+ #     - text: Dataverse
+ #       url: /dynamics365/business-central/dev-itpro/administration/administration-custom-cds-integration 
+
+  - title: Vær produktiv
+    items:
+      - title: Arbeidsområdeinnstillinger
+        links:
+          - text: Språk, område, arbeidsdato, tidssone med mer
+            url: /dynamics365/business-central/ui-change-basic-settings
+          - text: Bytt miljø eller selskap
+            url: /dynamics365/business-central/ui-organization-switch
+          - text: Tilpass grensesnittet
+            url: /dynamics365/business-central/ui-personalization-user
+          - text: Administrer varslinger
+            url: /dynamics365/business-central/ui-smart-notifications
+      - title: Samarbeid og deling 
+        links:
+          - text: Oversikt
+            url: /dynamics365/business-central/across-share-data-features
+          - text: Del data i Teams-nettprater og -kanaler
+            url: /dynamics365/business-central/across-teams-overview
+          - text: Del filer i OneDrive
+            url: /dynamics365/business-central/across-share-onedrive
+          - text: Samarbeid i Excel
+            url: /dynamics365/business-central/across-work-with-excel
+      - title: Forretningsanalyse, rapportering og dataanalyse
+        links:
+          - text: Oversikt
+            url: /dynamics365/business-central/reports-bi-reporting
+          - text: Kjør, planlegg og skriv ut rapporter
+            url: /dynamics365/business-central/ui-work-report
+          - text: Arbeid med Power BI-rapporter i Business Central
+            url: /dynamics365/business-central/across-working-with-powerbi
+        # - text: Endre oppsett
+        #    url: /dynamics365/business-central/ui-set-report-layout                                                   
+          - text: Analyser listedata med analysemodus
+            url: /dynamics365/business-central/across-working-with-powerbi            
+          - text: Analyser rapportdata med Excel
+            url: /dynamics365/business-central/report-analyze-excel                                                                                
+      - title: Generelle forretningsfunksjoner
+        links:
+          - text: Finanskladder
+            url: /dynamics365/business-central/ui-work-general-journals
+          - text: Bokfør dokumenter og kladder
+            url: /dynamics365/business-central/ui-post-documents-journals
+          - text: Prosjektkøer
+            url: /dynamics365/business-central/admin-job-queues-schedule-tasks
+          - text: Inngående dokumenter
+            url: /dynamics365/business-central/across-income-documents
+#          - text: Lokale funksjoner
+#            url: /dynamics365/business-central/about-localization
+  - title: Gjør forretninger
+    items:
+#      - title: Arbeidsområdeinnstillinger
+#        links:
+#          - text: Språk, område, arbeidsdato, tidssone med mer
+#            url: /dynamics365/business-central/ui-change-basic-settings
+#          - text: Bytt miljø eller selskap
+#            url: /dynamics365/business-central/ui-organization-switch
+#           - text: Tilpass grensesnittet
+#             url: /dynamics365/business-central/ui-personalization-user
+#           - text: Administrer varslinger
+#             url: /dynamics365/business-central/ui-smart-notifications
+#      - title: Samarbeid og deling 
+#          links:
+#            - text: Oversikt
+#              url: /dynamics365/business-central/across-share-data-features
+#            - text: Del data i Teams-nettprater og -kanaler
+#              url: /dynamics365/business-central/across-teams-overview
+#            - text: Del filer i OneDrive
+#              url: /dynamics365/business-central/across-share-onedrive
+#            - text: Samarbeid i Excel
+#              url: /dynamics365/business-central/across-work-with-excel
+#        - title: Forretningsanalyse, rapportering og dataanalyse
+#          links:
+#            - text: Oversikt
+#              url: /dynamics365/business-central/reports-bi-reporting
+#            - text: Kjør, planlegg og skriv ut rapporter
+#              url: /dynamics365/business-central/ui-work-report
+#            - text: Arbeid med Power BI-rapporter i Business Central
+#              url: /dynamics365/business-central/across-working-with-powerbi
+#          # - text: Endre oppsett
+#          #    url: /dynamics365/business-central/ui-set-report-layout                                                   
+#            - text: Analyser listedata med analysemodus
+#              url: /dynamics365/business-central/across-working-with-powerbi            
+#            - text: Analyser rapportdata med Excel
+#              url: /dynamics365/business-central/report-analyze-excel                                                                                
+#        - title: Generell funksjonalitet og lokal funksjonalitet
+ #         links:
+#            - text: Finanskladder
+#              url: /dynamics365/business-central/ui-work-general-journals
+#            - text: Bokfør dokumenter og kladder
+#             url: /dynamics365/business-central/ui-post-documents-journals
+#            - text: Prosjektkøer
+#              url: /dynamics365/business-central/admin-job-queues-schedule-tasks
+#            - text: Inngående dokumenter
+#              url: /dynamics365/business-central/across-income-documents
+#            - text: Lokale funksjoner
+#              url: /dynamics365/business-central/about-localization
+      - title: Finans
+        links:
+          - text: Oversikt
+            url: /dynamics365/business-central/finance
+          - text: Økonomirapporter
+            url: /dynamics365/business-central/finance-reports
+          - text: Administrer fordringer
+            url: /dynamics365/business-central/receivables-manage-receivables
+          - text: Administrer skyldige beløp
+            url: /dynamics365/business-central/payables-manage-payables   
+      #    - text: Fakturer forskuddsbetalinger
+      #      url: /dynamics365/business-central/finance-invoice-prepayments
+          - text: Avstem bankkontoer
+            url: /dynamics365/business-central/bank-manage-bank-accounts
+      - title: Salg
+        links:
+          - text: Oversikt
+            url: /dynamics365/business-central/sales-manage-sales
+          - text: Salgsrapporter
+            url: /dynamics365/business-central/sales-reports
+          - text: Registrer nye kunder 
+            url: /dynamics365/business-central/sales-how-register-new-customers   
+          - text: Lag tilbud
+            url: /dynamics365/business-central/sales-how-make-offers
+          - text: Fakturer salg
+            url: /dynamics365/business-central/sales-how-invoice-sales
+      - title: Kjøp
+        links:
+          - text: Oversikt
+            url: /dynamics365/business-central/purchasing-manage-purchasing
+          - text: Kjøpsrapporter
+            url: /dynamics365/business-central/purchase-reports
+          - text: Registrer kjøp 
+            url: /dynamics365/business-central/purchasing-how-record-purchases   
+          - text: Be om tilbud
+            url: /dynamics365/business-central/purchasing-how-request-quotes
+          - text: Kjøpvarer for et salg
+            url: /dynamics365/business-central/purchasing-how-purchase-products-sale           
+      - title: Lager
+        links:
+          - text: Oversikt
+            url: /dynamics365/business-central/inventory-manage-inventory
+          - text: Lager og lagerrapporter
+            url: /dynamics365/business-central/inventory-WMS-reports
+          - text: Registrer varer
+            url: /dynamics365/business-central/inventory-how-register-new-items
+          - text: Arbeid med stykklister
+            url: /dynamics365/business-central/inventory-how-work-boms
+          - text: Kategoriser varer
+            url: /dynamics365/business-central/inventory-how-categorize-items
+      - title: Prosjektstyring
+        links:
+          - text: Oversikt
+            url: /dynamics365/business-central/projects-manage-projects
+          - text: Prosjektrapporter
+            url: /dynamics365/business-central/project-reports
+          - text: Opprett prosjekter
+            url: /dynamics365/business-central/projects-how-create-jobs
+          - text: Bruk ressurser for prosjekter
+            url: /dynamics365/business-central/projects-how-use-resources
+          - text: Bruk timelister
+            url: /dynamics365/business-central/projects-how-use-time-sheets
+      - title: Aktiva
+        links:
+          - text: Oversikt
+            url: /dynamics365/business-central/fa-manage
+          - text: Aktivarapporter
+            url: /dynamics365/business-central/fa-reports
+          - text: Anskaff aktiva
+            url: /dynamics365/business-central/fa-how-acquire
+          - text: Vedlikehold aktiva
+            url: /dynamics365/business-central/fa-how-maintain
+          - text: Forsikre aktiva
+            url: /dynamics365/business-central/fa-how-insure
+      - title: Forbindelser
+        links:
+          - text: Oversikt
+            url: /dynamics365/business-central/marketing-relationship-management
+          - text: Kontakter
+            url: /dynamics365/business-central/marketing-contacts
+          - text: Segmenter
+            url: /dynamics365/business-central/marketing-segments
+          - text: Samhandlinger
+            url: /dynamics365/business-central/marketing-interactions-overview
+          - text: Salgsmuligheter
+            url: /dynamics365/business-central/marketing-manage-sales-opportunities
+
+      - title: Personal
+        links:
+          - text: Oversikt
+            url: /dynamics365/business-central/hr-manage-human-resources
+          - text: Registrer ansatte
+            url: /dynamics365/business-central/hr-how-register-employees
+          - text: Administrer ansattes fravær
+            url: /dynamics365/business-central/hr-how-manage-absence
+      - title: Planlegging
+        links:
+          - text: Oversikt
+            url: /dynamics365/business-central/production-planning
+          - text: Planlegg med eller uten lokasjoner
+            url: /dynamics365/business-central/production-planning-with-without-locations
+          - text: Opprett en prognose
+            url: /dynamics365/business-central/production-how-to-create-a-forecast
+          - text: Opprett produksjonsordrer fra ordrer
+            url: /dynamics365/business-central/production-how-to-create-production-orders-from-sales-orders
+          - text: Planlegg for nytt behov bestilling for bestilling
+            url: /dynamics365/business-central/production-how-to-plan-for-new-demand 
+      - title: Monteringsstyring
+        links:
+          - text: Oversikt
+            url: /dynamics365/business-central/assembly-assemble-items
+          - text: Monteringsrapporter
+            url: /dynamics365/business-central/assembly-reports
+          - text: Gi tilbud på et monter-til-ordre-salg
+            url: /dynamics365/business-central/assembly-how-to-quote-an-assemble-to-order-sale
+          - text: Monter varer
+            url: /dynamics365/business-central/assembly-how-to-assemble-items
+          - text: Selg varer som er montert til ordre
+            url: /dynamics365/business-central/assembly-how-to-sell-items-assembled-to-order
+      - title: Produksjon
+        links:
+          - text: Oversikt
+            url: /dynamics365/business-central/production-manage-manufacturing
+          - text: Produksjonsrapporter
+            url: /dynamics365/business-central/production-reports
+          - text: Opprett produksjonsordrer
+            url: /dynamics365/business-central/production-about-production-orders
+          - text: Underleverandørproduksjon
+            url: /dynamics365/business-central/production-how-to-subcontract-manufacturing
+          - text: Bokfør forbruk og avgang
+            url: /dynamics365/business-central/production-how-to-register-consumption-and-output
+      - title: Lagerstyring
+        links:
+          - text: Oversikt
+            url: /dynamics365/business-central/warehouse-manage-warehouse
+          - text: Lagerrapporter
+            url: /dynamics365/business-central/inventory-WMS-reports
+          - text: Plasser varer
+            url: /dynamics365/business-central/warehouse-how-to-put-items-away-with-inventory-put-aways
+          - text: Flytt varer
+            url: /dynamics365/business-central/warehouse-move-items
+          - text: Plukk varer
+            url: /dynamics365/business-central/warehouse-how-to-pick-items-with-inventory-picks
+      - title: Servicebehandling
+        links:
+          - text: Oversikt
+            url: /dynamics365/business-central/service-service
+          - text: Planlegging
+            url: /dynamics365/business-central/service-plan-service
+          - text: Oppfyll servicekontrakter
+            url: /dynamics365/business-central/service-fulfill-service-contracts
+          - text: Lever service
+            url: /dynamics365/business-central/service-deliver-service
+          - text: Opprett servicetilbud
+            url: /dynamics365/business-central/service-how-to-create-service-quotes
+      - title: Nettbutikk med Shopify
+        links:
+          - text: Kom i gang
+            url: /dynamics365/business-central/shopify/get-started
+          - text: Synkroniser kunder med Shopify
+            url: /dynamics365/business-central/shopify/synchronize-customers
+          - text: Synkroniser og oppfyll salgsordrer med Shopify
+            url: /dynamics365/business-central/shopify/synchronize-orders
+          - text: Synkroniser transaksjoner og utbetalinger
+            url: /dynamics365/business-central/shopify/transactions-and-payouts
+          - text: Konfigurer avgifter for Shopify-tilkobling
+            url: /dynamics365/business-central/shopify/setup-taxes
+      - title: Lokale funksjoner
+        links:
+          - text: Oversikt
+            url: /dynamics365/business-central/about-localization
+          - text: Internasjonal tilgjengelighet for Dynamics 365
+            url: /dynamics365/get-started/availability
+          - text: Utvikling for lokalisering
+            url: /dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization
+#  - title: Relaterte produkter
+#    items:
+        # Card
+        
+#        - title: Dynamics 365
+#          summary: «Finn ut hvordan du distribuerer, tilpasser, administrerer og bruker andre Microsoft Dynamics 365-tjenester og -programmer. Få dokumentasjon, eksempelkode, opplæringer med mer.»
+#          url: /dynamics365/index
+#        - title: Microsoft Power Platform
+#          summary: «Analyser data, bygg løsninger, automatiser prosesser og opprett virtuelle agenter»
+#          url: /power-platform/index
+#        - title: Dynamics 365 App for Outlook
+#          summary: Bruk Dynamics 365-apper i Microsoft Outlook
+#          url: /dynamics365/outlook-app/overview
