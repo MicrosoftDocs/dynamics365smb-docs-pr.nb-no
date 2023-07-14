@@ -106,7 +106,7 @@
 ##### [Oversikt over bokføring av linje for finanskladd](design-details-general-journal-post-line-overview.md)  
 ##### [Utformingsdetaljer: Strukturen til bokføringsgrensesnittet](design-details-posting-interface-structure.md)  
 ##### [Utformingsdetaljer: Strukturen til bokføringsmotoren](design-details-posting-engine-structure.md)  
-
+#### [Utformingsdetaljer: Ikke-fradragsberettiget mva.](design-details-nondeductible-vat.md)
 ## Prøv
 ### [Registrer deg for en Dynamics 365 Business Central-prøveversjon](trial-signup.md)
 ### [Vanlige spørsmål om Dynamics 365 Business Central-prøveversjonen](trial-faq.md)
