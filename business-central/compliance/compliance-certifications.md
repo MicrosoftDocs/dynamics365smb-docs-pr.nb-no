@@ -10,11 +10,11 @@ ms.search.keywords: null
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# Sertifiseringer
+# <a name="certifications"></a>Sertifiseringer
 
 Dette innholdet omfatter informasjon om sertifiseringer i tilknytning til [!INCLUDE[prod_short](../includes/prod_short.md)].  
 
-## Land/område-spesifikke sertifiseringer og akkrediteringer
+## <a name="countryregion-specific-certifications-and-accreditations"></a>Land/område-spesifikke sertifiseringer og akkrediteringer
 
 I noen land eller områder må regnskapsprogramvare sertifiseres for å overholde lokale mva-bestemmelser og økonomiske krav. Enkelte land har dette som et årlig gjentakende krav og andre som et engangskrav. Nedenfor finner du en oversikt over de gjeldende landene/områdene der Business Central har oppnådd sertifiseringer.
 
@@ -27,11 +27,11 @@ I noen land eller områder må regnskapsprogramvare sertifiseres for å overhold
 > [!NOTE]  
 > I land/områder der Microsoft ikke gir ut en lokal versjon, er det vanligvis opp til partnerne å oppnå sertifisering for Business Central-basisproduktet, inkludert partnerens lokaliserings- og lovmessige funksjoner oppå.
 
-## Andre sertifiseringer
+## <a name="other-certifications"></a>Andre sertifiseringer
 
 Business Central som en skytjeneste har også oppnådd sertifiseringer som ISO 27001 og så videre. Hvis du vil se en fullstendig oversikt over disse sertifiseringene, kan du se [denne siden (PDF)](https://aka.ms/d365-compliance-list).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Samsvar](compliance-overview.md)  
 [Programsamsvar](compliance-application-compliance.md)  
