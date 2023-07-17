@@ -189,8 +189,9 @@ Bildesynkronisering kan startes på de to måtene beskrevet nedenfor.
 
 ### Bildesynkroniseringsmerknader
 
-* Når du eksporterer bilder fra [!INCLUDE[prod_short](../includes/prod_short.md)] til Shopify, legges de nye bildene til i Shopify, noe som gjør at gamle bilder beholdes. Hvis et bilde blir oppdatert i [!INCLUDE[prod_short](../includes/prod_short.md)], må du slette gamle bilder i **Shopify-administratoren**.
-* Bilder som eksporteres til Shopify som ikke samsvarer med kravene som er definert av Shopify, importeres ikke. Finn ut mer om [produktmedietyper på help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
+* Når du eksporterer bilder fra [!INCLUDE[prod_short](../includes/prod_short.md)] til Shopify, erstattes bildene du eksporterte tidligere. De forrige bildene er ikke lenger tilgjengelige.
+* Hvis du sletter et bilde i [!INCLUDE[prod_short](../includes/prod_short.md)], slettes heller ikke bildet i Shopify. Du må slette de gamle bildene i **Shopify-administratoren** manuelt.
+* Bildene du eksporterer til Shopify, må samsvare med Shopify-kravene. Hvis ikke kan du ikke importere dem. Hvis du vil finne ut mer om mediekrav, kan du gå til [produktmedietyper på help.shopify.com](https://help.shopify.com/en/manual/products/product-media/product-media-types#images).
 
 ## Synkroniser priser med Shopify
 

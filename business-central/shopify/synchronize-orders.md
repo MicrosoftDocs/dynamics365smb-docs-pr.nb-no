@@ -96,6 +96,31 @@ Du kan eventuelt søke etter den satsvise jobben **Synkroniser ordrer fra Shopif
 
 Du kan planlegge at oppgaven skal utføres automatisk. Finn ut mer under [Planlegg gjentakende oppgaver](background.md#to-schedule-recurring-tasks).
 
+### Under panseret
+
+Shopify-koblingen importerer ordrer i to trinn:
+
+1.  Den importerer ordrehoder til tabellen **Shopify-ordrer som skal importeres** når de samsvarer med visse betingelser:
+    
+* De er ikke arkivert.
+* De ble opprettet eller endret etter siste synkronisering.
+
+2.  Den importerer Shopify-ordrer og tilleggsopplysninger.
+* Shopify-koblingen behandler alle poster i tabellen **Shopify-ordrer som skal importeres** som tilsvarer filterkriteriene du definerte på forespørselssiden **Synkroniser ordrene fra Shopify**. Det kan for eksempel være koder, kanal eller oppfyllelsesstatus. Hvis du ikke har angitt filtre, behandler den alle postene.
+* Når du importerer Shopify-ordre, ber Shopify-koblingen om ytterligere informasjon fra Shopify:
+
+    * Ordrehode
+    * Ordrelinjer
+    * Informasjon om levering og oppfyllelse
+    * Transaksjoner
+    * Returer og refusjoner, hvis konfigurert
+
+Siden **Shopify-ordre som skal importeres** er nyttig for feilsøking av ordreimportproblemer. Du kan vurdere tilgjengelige ordrer og ta de neste trinnene:
+
+* Kontroller om en feil har blokkert importen av en bestemt ordre, og se detaljene om feilen. Merk av for feltet **Har feil**.
+* Behandle bare bestemte ordrer. Du må fylle ut feltet **Butikkode**, velge en eller flere ordrer og deretter velge handlingen **Importer valgte ordrer**.
+* Slett ordrer fra siden **Shopify-ordre som skal importeres** for å utelate dem fra synkroniseringen.
+
 ## Se gjennom importerte ordrer
 
 Når importen er fullført, kan du utforske Shopify-ordren og finne all relatert informasjon, for eksempel betalingstransaksjonene, leveringskostnadene, risikonivået, ordreattributtene og merkene eller oppfyllelsene, hvis ordren allerede var oppfylt i Shopify. Du kan også se eventuell ordrebekreftelse som er sendt til kunden, ved å velge handlingen **Shopify-statusside**.
@@ -131,7 +156,7 @@ Hvis innstillingene forhindrer at du oppretter en kunde automatisk og det ikke f
 
 *Import ordre fra Shopify*-funksjonen prøver å velge kunder i følgende rekkefølge:
 
-1. Hvis **Standard kundenr.** feltet er definert i **Shopify-kundemalen** for **Lever-til lands-/områdekode**, brukes deretter **Standard kundenr.** uavhengig av innstillingene i feltene **Kundeimport fra Shopify** og **Kundetildeling**. Finn ut mer under [Kundemal per land](synchronize-customers.md#customer-template-per-country).
+1. Hvis **Standard kundenr.** feltet er definert i **Shopify-kundemalen** for **Lever-til lands-/områdekode**, brukes deretter **Standard kundenr.** uavhengig av innstillingene i feltene **Kundeimport fra Shopify** og **Kundetildeling**. Finn ut mer under [Kundemal per land](synchronize-customers.md#customer-template-per-countryregion).
 2. Hvis **Kundeimport fra Shopify** er angitt til *Ingen* og **Standard kundenr.** er definert på siden **Shopify-butikkort**, brukes **Standard kundenr.** .
 
 Neste trinn avhenger av **Kundetildelingstype**.
