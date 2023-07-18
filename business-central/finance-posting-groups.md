@@ -11,7 +11,7 @@ ms.search.form: '312, 313'
 ms.date: 08/26/2022
 ms.author: bholtorf
 ---
-# Definer bokføringsgrupper
+# <a name="set-up-posting-groups"></a>Definer bokføringsgrupper
 
 Bokføringsgrupper tildeler enheter til finanskontoer. Eksempler på enheter er kunder, leverandører, varer, ressurser og salgs- og kjøpsdokumenter. Bokføringsgrupper sparer tid og unngår feil når du bokfører transaksjoner. Transaksjonsverdiene går til kontiene som er angitt i bokføringsgruppen for den bestemte enheten. Det eneste kravet er at du har en kontoplan. Hvis du vil ha mer informasjon, kan du se [Definere kontoplanen](finance-setup-chart-accounts.md).  
 
@@ -29,7 +29,7 @@ Bokføringsgruppene er dekket av tre paraplyer:
 
 De følgende delene beskriver bokføringsgruppene under hver paraply.  
 
-## Generelle bokføringsgrupper
+## <a name="general-posting-groups"></a>Generelle bokføringsgrupper
 
 De følgende tabellene beskriver de generelle bokføringsgruppene.
 
@@ -39,7 +39,7 @@ De følgende tabellene beskriver de generelle bokføringsgruppene.
 | Bokføringsgruppe - vare |Tilordne denne gruppen til varer og ressurser til å angi hva du selger, og hva du kjøper. Definer disse bokføringsgruppene på siden **Bokføringsgrupper – vare**. Når du gjør, bør du vurdere hvor mange grupper du trenger til å bryte ned salg etter produkt (varer og ressurser) og kjøp av varer. Hvis du for eksempel del disse gruppene av råvarer, detaljhandel, ressurser, kapasitet og så videre. |
 | Generelle bokføringsoppsett |Kombiner firma- og varebokføringsgrupper, og velg kontoene det skal posteres til. For hver kombinasjon av bokføringsgrupper for firma og vare kan du tilordne et sett med finanskontoer. Du kan eksempel bokføre salget av samme vare til ulike finanskontoer fordi kunder er tildelt til ulike bokføringsgrupper for firma. Definer disse konfigurasjonene på siden **Generelt bokføringsoppsett**. |
 
-## Spesifikke bokføringsgrupper
+## <a name="specific-posting-groups"></a>Spesifikke bokføringsgrupper
 
 Tabellen nedenfor beskriver bokføringsgruppene som er angitt til datatypene.
 
@@ -51,7 +51,7 @@ Tabellen nedenfor beskriver bokføringsgruppene som er angitt til datatypene.
 | Bokføringsgrupper - bank |Definer finanskontiene som bankkontooppføringene bokføres til. Dette kan for eksempel forenkle prosessene i transaksjonssporing og avstemming av bankkontoer. Definer disse bokføringsgruppene på siden **Bokføringsgrupper – bank**. Vi anbefaler at disse finanskontiene har feltet **Direkte bokføring** satt til *Nei*. |
 | Bokføringsgrupper - aktiva |Definer kontoer for diverse typer utgifter og kostnader, for eksempel anskaffelseskost, akkumulerte avskrivningsbeløp, anskaffelseskost ved salg, akkumulert avskrivning ved salg, vinning ved salg, tap ved salg, vedlikeholdsutgifter og avskrivningsutgifter. Definer disse bokføringsgruppene på siden **Bokføringsgrupper – aktiva**. |
 
-### Tillat erstatning av kunde- eller leverandørbokføringsgrupper i dokumenter
+### <a name="allowing-substitute-customer-or-vendor-posting-groups-on-documents"></a>Tillat erstatning av kunde- eller leverandørbokføringsgrupper i dokumenter
 
 [!INCLUDE [preview](includes/preview.md)]
 
@@ -65,7 +65,7 @@ Når du har definert dette, kan du velge blant de tillatte erstatningsbokføring
 
 Når det gjelder for eksempel en faktura og betaling som bokføres med ulike kunde- eller leverandørbokføringsgrupper (ulike finanskontoer), overfører [!INCLUDE[prod_short](includes/prod_short.md)] beløpene mellom finanskontoene slik at de kan balanseres.
 
-## Avgiftsbokføringsgrupper
+## <a name="tax-posting-groups"></a>Avgiftsbokføringsgrupper
 
 De følgende tabellene beskriver de avgiftsrelaterte bokføringsgruppene.
 
@@ -77,7 +77,7 @@ De følgende tabellene beskriver de avgiftsrelaterte bokføringsgruppene.
 
 Hvis landet/området ditt bruker merverdiavgift (mva), kan du se [Definer beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md).  
 
-## Eksempel på kobling av bokføringsgruppe
+## <a name="example-of-linking-posting-groups"></a>Eksempel på kobling av bokføringsgruppe
 
 Her er et scenario.  
 
@@ -100,11 +100,11 @@ Når du oppretter et salgsdokument, bruker salgshodet informasjonen fra kundekor
 
 Oppsettet bestemmer når postering skjer. Hvis du for eksempel berørt tidsberegning av når du gjør periodiske aktiviteter, for eksempel bokføre lagerkostnaden eller justere kostverdi-vareposter.
 
-## Kopiere linjer for bokføringsoppsett
+## <a name="copying-posting-setup-lines"></a>Kopiere linjer for bokføringsoppsett
 
 Jo flere bokføringsgrupper for vare og firma du har, jo flere linjer vil du se på siden **Generelt bokføringsoppsett**. Dette kan innebære mye dataregistrering for å definere det generelle bokføringsoppsettet for firmaet. Selv om det kan være mange ulike kombinasjoner av bokføringsgrupper for firma og vare, kan de ulike kombinasjonene likevel bokføre til de samme finanskontoene. Du kan begrense mengden manuell registrering ved kopiere finanskontoene fra en eksisterende linje på siden **Generelt bokføringsoppsett**.
 
-## Definere bokføringsgrupper på farten
+## <a name="set-up-posting-groups-on-the-go"></a>Definere bokføringsgrupper på farten
 
 [!INCLUDE[prod_short](includes/prod_short.md)] kan vise varslinger om manglende finanskonti i ulike oppsett for bokføringsgrupper, slik at brukere kan komme raskere i gang. Hvis du vil ha disse varslene, må du kontrollere at varselet **Finanskonto mangler i bokføringsgruppe eller oppsett** er valgt på **Mine varsler**-siden, som du får tilgang til fra feltet **Endre når jeg mottar varsler** på siden **Mine innstillinger**.  
 
@@ -117,7 +117,7 @@ Dermed får du et varsel når du arbeider med et dokument som bruker en bokføri
 
 Fra 2022 lanseringsbølge 1 kan du bruke feltet **Sperret** på siden **Generelt bokføringsoppsett** for å hindre at brukere ved en feiltakelse bruker et oppsett som ikke lenger er relevant for nye bokføringer.  
 
-## Feilsøking av feil med bokføringsgruppe
+## <a name="troubleshooting-posting-group-errors"></a>Feilsøking av feil med bokføringsgruppe
 
 Bokføringsgrupper er en av de mer avanserte konseptene som skal konfigureres i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis de ikke er konfigurer riktig, kan det oppstå feil når du bokfører dokumenter eller kladdelinjer. Disse feilene oppstår for eksempel vanligvis av en feil i forbindelse med hvordan finanskonti tilordnes, eller hvordan bokføringsgrupper kombineres.
 
@@ -126,9 +126,9 @@ Når noe er feil, viser [!INCLUDE[prod_short](includes/prod_short.md)] siden **F
 > [!NOTE]
 > Feilbehandlingen som er beskrevet ovenfor, er ikke tilgjengelig for vare, ressurs, ansatt og aktivakladder, eller for finanskontoer som er lagt til i lokale versjoner av bokføringsgrupper.
 
-## Se relatert [Microsoft-opplæring](/training/modules/posting-groups-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/posting-groups-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Finans og kontoplanen](finance-general-ledger.md)  
 [Konfigurere finans](finance-setup-finance.md)  
