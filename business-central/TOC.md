@@ -2,13 +2,13 @@
 # [Business Central-dokumentasjon](index.yml)
 # [Velkommen til Business Central](welcome.md)
 # [Nytt og planlagt](product-news.md)
-# <a name="get-started"></a>Kom i gang
+# Kom i gang
 ## [Oversikt over forretningsfunksjoner](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
-## <a name="learn"></a>Finn ut mer
+## Finn ut mer
 ### [Læringskatalog for Business Central](readiness/readiness-learning-catalog.md)
 ### [Business Central-opplæring](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
-### <a name="business-process-walkthroughs"></a>Gjennomgang av forretningsprosesser
+### Gjennomgang av forretningsprosesser
 #### [Tilgjengelige gjennomganger](walkthrough-business-process-walkthroughs.md)
 #### [Gjennomgang: Kjør en salgskampanje](walkthrough-conducting-a-sales-campaign.md)
 #### [Gjennomgang: Konfigurer og fakturer utgående forskuddsbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
@@ -25,9 +25,9 @@
 #### [Gjennomgang: Lag kontantstrømprognoser ved å bruke finansrapporter](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Gjennomgang: Konfigurer og bruk Shopify-koblingen](shopify/walkthrough-setting-up-and-using-shopify.md)
 <!-- Contoso-->
-### <a name="contoso-coffee-demo-data"></a>Demodata for Contoso Coffee
+### Demodata for Contoso Coffee
 #### [Innføring i demodata for Contoso Coffee](contoso-coffee/contoso-coffee-intro.md)
-#### <a name="manufacturing"></a>Produksjon
+#### Produksjon
 ##### [Innføring i Contoso Coffee-produksjon](contoso-coffee/manufacturing/contoso-coffee-manufacturing-intro.md)
 ##### [Opprett en ny produksjonsstykkliste og stykklisteversjon](contoso-coffee/manufacturing/create-new-production-bom-version.md)
 ##### [Opprett en ny rute](contoso-coffee/manufacturing/create-new-routing.md)
@@ -37,15 +37,15 @@
 ##### [Konfigurer og behandle en underleveranseoperasjon](contoso-coffee/manufacturing/set-up-process-subcontracting-operation.md)
 ##### [Konfigurer ny kapasitet](contoso-coffee/manufacturing/set-up-new-capacity.md)
 ##### [Varianter](contoso-coffee/manufacturing/variants.md)
-#### <a name="warehousing"></a>Lagerstyring
+#### Lagerstyring
 ##### [Innføring i Contoso Coffee-lager](contoso-coffee/warehousing/contoso-coffee-warehousing-intro.md)
 ##### [Gjennomgang av inngående og utgående flyt i grunnleggende lageroppsett](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
 ##### [Gjennomgang av inngående og utgående flyt i blandede lageroppsett](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
 ##### [Gjennomgang av inngående og utgående flyt i avansert lageroppsett med lagerstyring](contoso-coffee/warehousing/warehouse-directed-flow.md)
 
-### <a name="design-details"></a>Utformingsdetaljer
+### Utformingsdetaljer
 #### [Oversikt over detaljer for utforming av programmet](design-details-application-design.md)
-#### <a name="design-details-inventory-costing"></a>Utformingsdetaljer: Kostberegning for beholdning
+#### Utformingsdetaljer: Kostberegning for beholdning
 ##### [Utformingsdetaljer for kostberegning for beholdning](design-details-inventory-costing.md)
 ##### [Utformingsdetaljer: Lagermetoder](design-details-costing-methods.md)  
 ##### [Utformingsdetaljer: Endre lagermetode for varer](design-details-changing-costing-methods.md)
@@ -65,15 +65,15 @@
 ##### [Utformingsdetaljer: Kontoer i finans](design-details-accounts-in-the-general-ledger.md)
 ##### [Utformingsdetaljer: Lagerverdisetting](design-details-inventory-valuation.md)  
 ##### [Utformingsdetaljer: Revaluering](design-details-revaluation.md)
-#### <a name="design-details-posting-date-on-adjustment-value-entry"></a>Utformingsdetaljer: Bokføringsdato på justeringsverdipost
+#### Utformingsdetaljer: Bokføringsdato på justeringsverdipost
 ##### [Oversikt over bokføringsdato på justeringsverdipost](design-details-inventory-adjustment-value-entry-posting-date.md)  
 ##### [Feilmeldingen «Bokføringsdatoen er ikke innenfor området for tillatte bokføringsdatoer»](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
 ##### [Bokføringsdato for justeringsverdipost sammenlignet med kildeposten](design-details-inventory-adjustment-value-entry-source-entry.md)
-#### <a name="design-details-dimension-set-entries"></a>Utformingsdetaljer: Dimensjonssettposter
+#### Utformingsdetaljer: Dimensjonssettposter
 ##### [Utformingsdetaljer: Oversikt over dimensjonssettposter](design-details-dimension-set-entries-overview.md)
 ##### [Utformingsdetaljer: Søk etter dimensjonskombinasjoner](design-details-searching-for-dimension-combinations.md)
 ##### [Utformingsdetaljer: Tabellstruktur](design-details-table-structure.md)
-#### <a name="design-details-supply-planning"></a>Utformingsdetaljer: Forsyningsplanlegging
+#### Utformingsdetaljer: Forsyningsplanlegging
 ##### [Utformingsdetaljer for forsyningsplanlegging](design-details-supply-planning.md)
 ##### [Utformingsdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)  
 ##### [Utformingsdetaljer: Reservasjon, ordresporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md)  
@@ -91,7 +91,7 @@
 #### [Utformingsdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md)  
 <!-- ##### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)   -->
 <!-- ##### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md) -->
-#### <a name="design-details-item-tracking"></a>Utformingsdetaljer: Varesporing
+#### Utformingsdetaljer: Varesporing
 ##### [Utformingsdetaljer for varesporing](design-details-item-tracking.md)
 ##### [Utformingsdetaljer: Varesporingsutforming](design-details-item-tracking-design.md)  
 ##### [Utformingsdetaljer: Bokføringsstruktur for varesporing](design-details-item-tracking-posting-structure.md)  
@@ -101,13 +101,13 @@
 ##### [Utformingsdetaljer: Varesporing og planlegging](design-details-item-tracking-and-planning.md)  
 ##### [Utformingsdetaljer: Varesporing og reservasjoner](design-details-item-tracking-and-reservations.md)  
 ##### [Utformingsdetaljer: Varesporing i lageret](design-details-item-tracking-in-the-warehouse.md)
-#### <a name="design-details-general-journal-post-line"></a>Utformingsdetaljer: Bokfør linje for finanskladd
+#### Utformingsdetaljer: Bokfør linje for finanskladd
 ##### [Utformingsdetaljer for bokføring av linje for finanskladd](design-details-general-journal-post-line.md)
 ##### [Oversikt over bokføring av linje for finanskladd](design-details-general-journal-post-line-overview.md)  
 ##### [Utformingsdetaljer: Strukturen til bokføringsgrensesnittet](design-details-posting-interface-structure.md)  
 ##### [Utformingsdetaljer: Strukturen til bokføringsmotoren](design-details-posting-engine-structure.md)  
 #### [Utformingsdetaljer: Ikke-fradragsberettiget mva.](design-details-nondeductible-vat.md)
-## <a name="try"></a>Prøv
+## Prøv
 ### [Registrer deg for en Dynamics 365 Business Central-prøveversjon](trial-signup.md)
 ### [Vanlige spørsmål om Dynamics 365 Business Central-prøveversjonen](trial-faq.md)
 ### [Prøveversjoner og abonnementer (bare på engelsk)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)
@@ -115,18 +115,18 @@
 ### [Feilsøk registrering for selvbetjening](ui-troubleshoot-self-signup.md)
 ### [Forleng prøveversjonen](admin-extend-trial.md)
 ### [Si opp eller fjern Business Central](admin-cancel.md)
-### <a name="ai-powered-item-marketing-text-with-copilot"></a>Varemarkedsføringstekst drevet av kunstig intelligens med Copilot
+### Varemarkedsføringstekst drevet av kunstig intelligens med Copilot
 #### [Oversikt](ai-overview.md)
 #### [Skaff deg forhåndsversjonen](ai-preview-getstarted.md)
 #### [Konfigurer varemarkedsføringstekst drevet av kunstig intelligens](enable-ai.md)
 #### [Opprett varemarkedsføringstekst drevet av kunstig intelligens](item-marketing-text.md)
 #### [Vanlige spørsmål](ai-faq.md)
 
-## <a name="buy"></a>Kjøp
+## Kjøp
 ### [Kom i gang med et abonnement](trial-signup.md#get-started-with-a-subscription)
 ### [Gjør deg klar for virksomhet](ui-get-ready-business.md)
 
-## <a name="quick-starts"></a>Hurtigstartveiledninger
+## Hurtigstartveiledninger
 ### [Hurtigstartveiledning for Business Central](quick-start-business-central.md)
 ### [Konfigurer selskapsopplysninger](quick-start-company-information.md)
 ### [Angi økonomisk informasjon](quick-start-financial-information.md)
@@ -136,7 +136,7 @@
 ### [Få innsikt med forretningsanalyse](quick-start-business-intelligence.md)
 
 <!--use-->
-## <a name="get-productive-in-business-central"></a>Bli produktiv i Business Central
+## Bli produktiv i Business Central
 ### [Oversikt over generelle funksjoner](ui-work-product.md)
 ### [Utskriftsvennlig jukselapp](ui-work-product.md#cheatsheet)
 ### [Finn sider og informasjon med Fortell meg](ui-search.md)
@@ -160,20 +160,20 @@
 ### [Ytelsestips for forretningsbrukere](/dynamics365/business-central/dev-itpro/performance/performance-users?toc=/dynamics365/business-central/toc.json)
 ### [Analyser ytelse](/dynamics365/business-central/dev-itpro/administration/performance-profiler-overview?toc=/dynamics365/business-central/toc.json)
 ### [Advarsler og feilmeldinger](product-error-messages.md)
-### <a name="personalize-business-central"></a>Tilpass Business Central
+### Tilpass Business Central
 #### [Tilpass arbeidsområdet](ui-personalization-user.md)
 #### [Hvorfor en side er låst fra tilpasning](ui-personalization-locked.md)
 #### [Lagre og tilpass listevisninger](ui-views.md)
 #### [Bokmerk en side eller rapport i rollesenteret](ui-bookmarks.md)
 #### [Vis lister på ulike måter](across-display-lists-different-views.md)
-### <a name="run-and-print-reports"></a>Kjør og skriv ut rapporter
+### Kjør og skriv ut rapporter
 #### [Kjør og skriv ut rapporter](ui-work-report.md)
 #### [Angi en standardskriver](ui-specify-printer-selection-reports.md)
 #### [Planlegg en rapport som skal kjøres](ui-work-report.md#ScheduleReport)
 #### [Administrer lagrede innstillinger](reports-saving-reusing-settings.md)
 #### [Vis testrapporter før bokføring](ui-how-view-test-reports-posting.md)
 #### [Kjør satsvise jobber og XML-porter](ui-how-run-batch-jobs.md)
-### <a name="change-the-look-of-externally-facing-documents"></a>Endre utseendet til eksterne dokumenter
+### Endre utseendet til eksterne dokumenter
 #### [Om rapport- og dokumentoppsett](ui-manage-report-layouts.md)
 #### [Kom i gang med å opprette oppsett](ui-get-started-layouts.md)
 #### [Arbeid med Word-oppsett](ui-how-add-fields-word-report-layout.md)
@@ -182,24 +182,24 @@
 #### [Angi oppsettet som brukes av en rapport](ui-set-report-layout.md)
 #### [Definer dokumentoppsett for kunder og leverandører](ui-define-customer-vendor-document-layouts.md)
 #### [Tilgjengelige skrifter](ui-fonts.md)
-#### <a name="using-legacy-features"></a>Bruk av eldre funksjoner
+#### Bruk av eldre funksjoner
 ##### [Opprett og endre egendefinerte rapportoppsett](ui-how-create-custom-report-layout.md)
 ##### [Importer og eksporter egendefinerte rapportoppsett](ui-how-import-and-export-report-layout.md)
 ##### [Oppdater egendefinerte rapportoppsett](ui-update-report-layouts.md)
 ##### [Angi oppsettet som brukes av en rapport](ui-how-change-layout-currently-used-report.md)
-### <a name="sharing-business-data"></a>Deling av forretningsdata
+### Deling av forretningsdata
 #### [Oversikt](across-share-data-features.md)
 #### [Deling av oppføringer og sidekoblinger i Teams](across-working-with-teams.md)
 #### [Deling av filer i OneDrive](across-share-onedrive.md)
 #### [Vis og rediger i Excel](across-work-with-excel.md)
-### <a name="accessibility-keyboard-shortcuts-and-touch-gestures"></a>Tilgjengelighet, hurtigtaster og berøringsbevegelser
+### Tilgjengelighet, hurtigtaster og berøringsbevegelser
 #### [Tilgjengelighet](ui-accessibility.md)
 #### [Hurtigtaster](keyboard-shortcuts.md)
 #### [Hurtigreferanse for tastatursnarveier – bare PC](keyboard-shortcuts-cheatsheet.md)
 #### [Berørings- og pennebevegelser](touch-gestures.md)
 ### [Feilsøk: tilgang til kamera og plassering](ui-troubleshooting-camera-location.md)
 ### [Intelligent innsikt (bare på nettet)](about-intelligent-cloud.md)
-## <a name="frequently-asked-questions"></a>Vanlige spørsmål
+## Vanlige spørsmål
 ### [Vanlige spørsmål](across-faq.yml)
 ### [Vanlige spørsmål om Fortell meg](ui-search-faq.md)
 ### [Vanlige spørsmål om søk og filtrer](ui-search-filter-faq.yml)
@@ -210,7 +210,7 @@
 ### [Vanlige spørsmål om elektronisk fakturering](faq-electronic-invoicing.yml)
 ### [Minstekrav](product-requirements.md)
 
-## <a name="help-and-support"></a>Hjelp og støtte
+## Hjelp og støtte
 ### [Ressurser for hjelp og støtte](product-help-and-support.md)
 ### [Besøk videobiblioteket](across-videos.md)
 ### [Få teknisk støtte](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
@@ -219,19 +219,19 @@
 ### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
 ### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
-### <a name="resources-for-a-business-decision-maker"></a>Resources for a Business Decision Maker
+### Resources for a Business Decision Maker
 #### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
 #### [Get Ready for Doing Business](ui-get-ready-business.md)
-### <a name="resources-for-a-business-user"></a>Resources for a Business User
+### Resources for a Business User
 #### [Learning catalog](readiness/readiness-learning-bus-users.md)
 #### [Get Ready for Doing Business](ui-get-ready-business.md)
-### <a name="resources-for-a-developer"></a>Resources for a Developer
+### Resources for a Developer
 #### [Learning catalog](readiness/readiness-learning-developers.md)
-#### <a name="documentation--"></a>[Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
-# <a name="business-functionality"></a>Forretningsfunksjoner
+#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
+# Forretningsfunksjoner
 ## [Oversikt over forretningsfunksjoner](across-business-functionality.md)
 <!--general-->
-## <a name="general-business-functionality"></a>Generelle forretningsfunksjoner
+## Generelle forretningsfunksjoner
 ### [Oversikt over forretningsfunksjoner](ui-across-business-areas.md)
 ### [Legg til kommentarer i kort og dokumenter](across-how-use-comments.md)
 ### [Spor dokumentlinjer](across-how-to-track-document-lines.md)
@@ -251,7 +251,7 @@
 ### [La Business Central foreslå verdier](ui-let-system-suggest-values.md)
 ### [Bruk Online Maps til å finne plasseringer og veibeskrivelser](across-online-maps.md)
 
-### <a name="incoming-documents"></a>Inngående dokumenter
+### Inngående dokumenter
 #### [Oversikt over inngående dokumenter](across-income-documents.md)
 #### [Konfigurer inngående dokumenter](across-how-setup-income-documents.md)
 #### [Opprett inngående dokumentposter](across-how-create-income-document-records.md)
@@ -260,10 +260,10 @@
 #### [Finn bokførte dokumenter uten inngående dokumentposter](across-how-find-posted-documents-without-income-document-records.md)
 #### [Administrer mange inngående dokumentposter](across-how-manage-many-income-document-records.md)
 
-### <a name="workflows"></a>Arbeidsflyter
+### Arbeidsflyter
 #### [Oversikt over arbeidsflyt](across-workflow.md)
 #### [Bruk Business Central i Power Automate-flyter](across-how-use-financials-data-source-flow.md)
-#### <a name="use-approval-workflows"></a>Bruk arbeidsflyter for godkjenning
+#### Bruk arbeidsflyter for godkjenning
 ##### [Bruk arbeidsflyter for godkjenning](across-use-workflows.md)
 ##### [Aktiver arbeidsflyter for godkjenning](across-how-to-enable-workflows.md)
 ##### [Slik bruker du arbeidsflyter for godkjenning](across-how-use-approval-workflows.md)
@@ -271,10 +271,10 @@
 ##### [Vis arkiverte forekomster for arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md)
 ##### [Slett arbeidsflyter for godkjenning](across-how-to-delete-workflows.md)
 <!--data exchange-->
-### <a name="exchange-data-electronically"></a>Utveksle data elektronisk
+### Utveksle data elektronisk
 #### [Oversikt over OData-utveksling](across-data-exchange.md)
 #### [Om rammeverket for datautveksling](across-about-the-data-exchange-framework.md)
-#### <a name="set-up-data-exchange"></a>Konfigurer datautveksling
+#### Konfigurer datautveksling
 ##### [Konfigurer datautveksling](across-set-up-data-exchange.md)
 ##### [Konfigurer en dokumentutvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md)
 ##### [Konfigurer inngående dokumenter](across-how-setup-income-documents.md)
@@ -285,7 +285,7 @@
 ##### [Konfigurer bankkontoer](bank-how-setup-bank-accounts.md)
 ##### [Bruk XML-skjemaer til å klargjøre datautvekslingsdefinisjoner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)
 
-#### <a name="exchange-data"></a>Utveksle data
+#### Utveksle data
 ##### [Utveksle data](across-exchange-data.md)
 ##### [Konfigurer datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)
 ##### [Send elektroniske dokumenter](sales-how-to-send-electronic-documents.md)
@@ -298,13 +298,13 @@
 ##### [Felttildeling ved import av SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md)
 ##### [Felttildeling for AMC Banking 365 Fundamentals-utvidelsen](across-field-mapping-when-exporting-payment-files-using-bank-data-conversion-service.md)
 
-## <a name="finance"></a>Finans
+## Finans
 ### [Oversikt over finans](finance.md)
 ### [Finansrapporter](finance-reports.md)
-### <a name="manage-receivables"></a>Administrer fordringer
+### Administrer fordringer
 #### [Oversikt over fordringer](receivables-manage-receivables.md)
 #### [Rapporter og analyse av utestående fordringer](receivables-reports.md)
-#### <a name="applying-payments-automatically-and-reconcile-bank-accounts"></a>Utligne betalinger automatisk og avstem bankkontoer
+#### Utligne betalinger automatisk og avstem bankkontoer
 ##### [Oversikt over betalingsutligning](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Avstem betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md)
 ##### [Se gjennom eller utlign betalinger manuelt etter automatisk utligning](receivables-how-review-apply-payments-auto-application.md)
@@ -322,10 +322,10 @@
 #### [Merverdiavgift i standardversjonen av Business Central](sales-tax-concept.md)
 #### [Arbeid med Intrastat-rapportering](finance-how-report-intrastat.md)
 
-### <a name="manage-payables"></a>Administrer skyldige beløp
+### Administrer skyldige beløp
 #### [Oversikt over skyldige beløp](payables-manage-payables.md)
 #### [Rapporter og analyse av leverandørgjeld](payables-reports.md)
-#### <a name="make-payments"></a>Foreta betalinger
+#### Foreta betalinger
 ##### [Foreta betalinger](payables-make-payments.md)
 ##### [Arbeid med finanskladder](ui-work-general-journals.md)
 ##### [Registrer betalinger og refusjoner](payables-how-post-payments-refunds.md)
@@ -334,7 +334,7 @@
 ##### [Betale med utvidelsen AMC Banking 365 Fundamentals eller SEPA-kredittoverføring](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md)
 ##### [Avregn kjøpsfakturaer omgående:](finance-how-to-settle-purchase-invoices-promptly.md)
 ##### [Eksporter en Positive Pay-fil](finance-how-positive-pay.md)
-#### <a name="applying-payments-automatically-and-reconcile-bank-accounts-1"></a>Utligne betalinger automatisk og avstem bankkontoer
+#### Utligne betalinger automatisk og avstem bankkontoer
 ##### [Oversikt over betalingsutligning](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 ##### [Avstem betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md)
 ##### [Se gjennom eller utlign betalinger manuelt etter automatisk utligning](receivables-how-review-apply-payments-auto-application.md)
@@ -348,9 +348,9 @@
 #### [Arbeid med betalingstoleranser og toleransegrenser for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Utvidelsen Prognose for forsinket betaling](ui-extensions-late-payment-prediction.md)
 
-### <a name="manage-vat"></a>Behandle mva.
+### Behandle mva.
 #### [Oversikt over mva-behandling](finance-manage-vat.md)
-#### <a name="setup-vat"></a>Konfigurer mva.
+#### Konfigurer mva.
 ##### [Konfigurer merverdiavgift](finance-setup-vat.md)
 ##### [Bokføringsgruppeoppsett](finance-posting-groups.md#tax-posting-groups)
 ##### [Konfigurer ikke-fradragsberettiget mva.](finance-setup-nondeductible-vat.md)
@@ -362,25 +362,25 @@
 #### [Administrer endringer i mva-satser](finance-how-use-vat-rate-change-tool.md)
 #### [Valider organisasjonsnumre](finance-how-validate-vat-registration-number.md)
 
-### <a name="invoicing-prepayments"></a>Fakturer forskuddsbetalinger
+### Fakturer forskuddsbetalinger
 #### [Oversikt over forskuddsbetalinger](finance-invoice-prepayments.md)
 #### [Konfigurer forskudd](finance-set-up-prepayments.md)
 #### [Opprett forskuddsfakturaer](finance-how-to-create-prepayment-invoices.md)
 #### [Korriger forskudd](finance-how-to-correct-prepayments.md)
 
-### <a name="reconcile-bank-accounts"></a>Avstem bankkontoer
+### Avstem bankkontoer
 #### [Oversikt over bankavstemming](bank-manage-bank-accounts.md)
 #### [Avstem bankkontoer](bank-how-reconcile-bank-accounts-separately.md)
 #### [Utlign betalinger automatisk og avstem bankkontoer](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
-### <a name="manage-intercompany-transactions"></a>Administrer konserninterne transaksjoner
+### Administrer konserninterne transaksjoner
 #### [Oversikt over konsernintern](intercompany-manage.md)
 #### [Konfigurer konsernintern](intercompany-how-setup.md)
 #### [Arbeid med konserninterne dokumenter og kladder](intercompany-how-work-documents-journals.md)
 #### [Administrer den konserninterne innboksen og utboksen](intercompany-how-manage-intercompany-inbox.md)
 #### [Tildel kostnader til konserninterne partnere](intercompany-allocate-costs.md)
 
-### <a name="accounting-for-costs"></a>Gjør rede for kostnader
+### Gjør rede for kostnader
 #### [Oversikt over kostnadsregnskap](finance-manage-cost-accounting.md)
 #### [Terminologi i kostnadsregnskap](finance-terminology-in-cost-accounting.md)
 #### [Om kostnadsregnskap](finance-about-cost-accounting.md)
@@ -390,7 +390,7 @@
 #### [Opprett kostbudsjetter](finance-create-cost-budgets.md)
 #### [Slett kostbudsjettposter](finance-how-to-delete-cost-budget-entries.md)
 
-### <a name="manage-inventory-costs"></a>Administrer lagerkostnader
+### Administrer lagerkostnader
 #### [Oversikt over kostberegning for beholdning](finance-manage-inventory-costs.md)
 #### [Om kostberegning for beholdning](finance-learn-about-costing.md)
 #### [Bruk varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md)
@@ -405,17 +405,17 @@
 #### [Oppdater standardkost](finance-how-to-update-standard-costs.md)
 #### [Fjern varefinansposter og utligne dem på nytt](finance-how-to-remove-and-reapply-item-entries.md)
 #### [Lukk åpne vareposter som er resultat av fast utligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)
-#### <a name="report-costs-and-reconcile-with-the-general-ledger"></a>Rapporter kostnader og avstem med finans
+#### Rapporter kostnader og avstem med finans
 ##### [Rapporter kostnader](finance-report-costs-and-reconcile-with-the-general-ledger.md)
 ##### [Avstem lagerkostnader med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md)
 ##### [Overvåk prosjektfremdrift og -ytelse](projects-how-monitor-progress-performance.md)
 #### [Juster og avstem lagerkost med finans med prosjektkø](finance-adjust-reconcile-inventory-cost-job-queue.md)
 
-### <a name="manage-cash-flow"></a>Administrer kontantstrøm
+### Administrer kontantstrøm
 #### [Oversikt over kontantstrøm](finance-cash-flow-overview.md)
 #### [Analyser kontantstrømmer i selskapet](finance-analyze-cash-flow.md)
 
-### <a name="closing-years-and-periods"></a>Lukk år og perioder
+### Lukk år og perioder
 #### [Oversikt over årsavslutning](year-close-years-periods.md)
 #### [Arbeid med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md)
 #### [Spesifiser bokføringsperioder](finance-how-specify-posting-periods.md)
@@ -430,11 +430,11 @@
 #### [Lukk resultatregnskapskontoer](year-close-income-statement.md)
 #### [Bokfør avslutningsposten for årsslutt](year-how-post-year-end-close-entry.md)
 
-### <a name="consolidate-financial-data-from-multiple-companies"></a>Konsolider finansdata fra flere selskaper
+### Konsolider finansdata fra flere selskaper
 #### [Selskapskonsolidering](finance-consolidated-company-reporting.md)
 #### [Konfigurer selskapskonsolidering](finance-consolidated-company-reporting-setup.md)
 
-### <a name="work-with-the-chart-of-accounts-and-general-ledger"></a>Arbeid med kontoplanen og finans
+### Arbeid med kontoplanen og finans
 #### [Forstå finans og kontoplanen](finance-general-ledger.md)
 #### [Gå gjennom kontoer](finance-review-accounts.md)
 
@@ -462,7 +462,7 @@
 ### [Regnskapsføreropplevelser i Business Central ](finance-accounting.md)
 ### [Organisasjoner med flere lokasjoner og internasjonale organisasjoner](finance-multi-site-organizations.md)
 
-## <a name="financial-business-intelligence-and-reporting"></a>Økonomisk forretningsanalyse og rapportering
+## Økonomisk forretningsanalyse og rapportering
 ### [Oversikt over økonomisk forretningsanalyse og rapportering](bi.md)
 ### [Finansrapporter](finance-reports.md)
 ### [Analyser data med statistiske kontoer](bi-use-statistical-accounts.md)
@@ -474,7 +474,7 @@
 ### [Opprett rapporter med XBRL](bi-create-reports-with-xbrl.md)
 ### [Administrer databasetilgangsform](admin-data-access-intent.md)
 
-## <a name="sales"></a>Salg
+## Salg
 ### [Oversikt over salg](sales-manage-sales.md)
 ### [Salgsrapporter](sales-reports.md)
 ### [Gjennomgang: Kjør en salgskampanje](walkthrough-conducting-a-sales-campaign.md)
@@ -501,7 +501,7 @@
 ### [Arbeid med gjentakelsesomsetning](finance-recurring-invoicing.md)
 ### [Angi eksternt dokumentnumre](across-enter-external-document-numbers.md)
 
-## <a name="purchasing"></a>Kjøp
+## Kjøp
 ### [Oversikt over kjøp](purchasing-manage-purchasing.md)
 ### [Kjøpsrapporter](purchase-reports.md)
 ### [Gjennomgang: Konfigurer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
@@ -520,7 +520,7 @@
 ### [Angi eksternt dokumentnumre](across-enter-external-document-numbers.md)
 ### [Opprett gjentakende kjøpslinjer](purchasing-how-work-recurring-purchase-lines.md)
 
-## <a name="inventory"></a>Lager
+## Lager
 ### [Oversikt over lager](inventory-manage-inventory.md)
 ### [Beholdning og lagerrapporter](inventory-WMS-reports.md)
 ### [Registrer nye varer](inventory-how-register-new-items.md)
@@ -542,7 +542,7 @@
 ### [Sperr varer](inventory-how-block-items.md)
 ### [Arbeid med ansvarssentre](inventory-responsibility-centers.md)
 
-## <a name="project-management"></a>Prosjektstyring
+## Prosjektstyring
 ### [Oversikt over prosjektstyring](projects-manage-projects.md)
 ### [Prosjektrapporter](project-reports.md)
 ### [Opprett prosjekter](projects-how-create-jobs.md)
@@ -555,7 +555,7 @@
 ### [Overvåk prosjektfremdrift og -ytelse](projects-how-monitor-progress-performance.md)
 ### [Fakturer prosjekter](projects-how-invoice-jobs.md)
 
-## <a name="fixed-assets"></a>Aktiva
+## Aktiva
 ### [Oversikt over aktiva](fa-manage.md)
 ### [Rapporter og analyse av aktiva](fa-reports.md)
 ### [Anskaff aktiva](fa-how-acquire.md)
@@ -568,26 +568,26 @@
 ### [Administrer budsjetter for aktiva](fa-how-manage-budgets.md)
 ### [Feilsøk aktivaposter](fa-troubleshooting-fa-ledger-entries.md)
 
-## <a name="relationship-management"></a>Forbindelser
+## Forbindelser
 ### [Oversikt over forbindelser](marketing-relationship-management.md)
 ### [Konfigurer forbindelser](marketing-setup-marketing.md)
-### <a name="manage-contacts"></a>Administrer kontakter
+### Administrer kontakter
 #### [Kontakter](marketing-contacts.md)
 #### [Konfigurer kontakter](marketing-setup-contacts.md)
 #### [Opprett kontakter](marketing-create-contact-companies.md)
 #### [Bruk profilspørreskjemaer til å klassifisere forretningskontakter](marketing-create-contact-profile-questionnaire.md)
 #### [Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)
-### <a name="manage-segments"></a>Administrer segmenter
+### Administrer segmenter
 #### [Segmenter](marketing-segments.md)
 #### [Opprett segmenter](marketing-how-create-segment.md)
 #### [Legg til kontakter i segmenter](marketing-add-contact-segment.md)
 #### [Administrer samhandlinger for segmenter](marketing-interaction-segments.md)
-### <a name="manage-interactions"></a>Administrer samhandlinger
+### Administrer samhandlinger
 #### [Samhandlinger](marketing-interactions-overview.md)
 #### [Registrer samhandlinger med kontakter](marketing-interactions.md)
 #### [Opprett samhandlinger på kontakter og segmenter](marketing-how-create-interactions.md)
 #### [Registrer samhandlinger med kontakter automatisk](marketing-auto-record-interactions.md)
-### <a name="manage-sales-opportunities"></a>Administrer salgsmuligheter
+### Administrer salgsmuligheter
 #### [Salgsmuligheter](marketing-manage-sales-opportunities.md)
 #### [Konfigurer salgssykluser for salgsmuligheter og syklusfaser](marketing-how-setup-opportunity-sales-cycles-stages.md)
 #### [Opprett salgsmuligheter](marketing-how-create-opportunities.md)
@@ -598,12 +598,12 @@
 #### [Sammenkoble og synkroniser poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md)
 #### [Vis statusen for en synkronisering](admin-how-to-view-synchronization-status.md)
 
-## <a name="human-resources"></a>Personal
+## Personal
 ### [Oversikt over personell](hr-manage-human-resources.md)
 ### [Registrer ansatte](hr-how-register-employees.md)
 ### [Administrer ansattes fravær](hr-how-manage-absence.md)
 
-## <a name="planning"></a>Planlegging
+## Planlegging
 ### [Produksjonsplanlegging](production-planning.md)
 ### [Om planleggingsfunksjonalitet](production-about-planning-functionality.md)
 ### [Planlegg med eller uten lokasjoner](production-planning-with-without-locations.md)
@@ -619,7 +619,7 @@
 <!-- ### [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 <!--## [Modify Planning Suggestions in a Graphical View](production-how-to-modify-planning-suggestions-in-a-graphical-view.md)-->
 
-## <a name="assembly-management"></a>Monteringsstyring
+## Monteringsstyring
 ### [Monter varer](assembly-assemble-items.md)
 ### [Monteringsrapporter](assembly-reports.md)
 ### [Forstå monter til ordre og monter til lager](assembly-assemble-to-order-or-assemble-to-stock.md)
@@ -633,7 +633,7 @@
 ### [Arbeid med monteringsstykklister](assembly-how-work-assembly-boms.md)
 ### [Utformingsdetaljer: Bokføring av monteringsordre](design-details-assembly-order-posting.md)
 
-## <a name="manufacturing-1"></a>Produksjon
+## Produksjon
 ### [Oversikt over produksjon](production-manage-manufacturing.md)
 ### [Produksjonsrapporter](production-reports.md)
 ### [Om produksjonsordrer](production-about-production-orders.md)
@@ -648,12 +648,12 @@
 ### [Bokfør kapasiteter](production-how-to-post-capacities.md)
 ### [Om fullførte produksjonsordrekostnader](finance-about-finished-production-order-costs.md)
 
-## <a name="warehouse-management"></a>Lagerstyring
+## Lagerstyring
 ### [Oversikt over lagerstyring](design-details-warehouse-management.md)
 <!-- ### [Warehouse Management](warehouse-manage-warehouse.md) -->
 ### [Beholdning og lagerrapporter](inventory-WMS-reports.md)
 
-### <a name="inbound-warehouse-processes"></a>Inngående lagerprosesser
+### Inngående lagerprosesser
 #### [Inngående lagerprosesser](design-details-inbound-warehouse-flow.md)
 #### [Finn arbeidstildelingene](warehouse-how-to-find-your-warehouse-assignments.md) 
 #### [Motta varer](warehouse-how-receive-items.md)
@@ -665,7 +665,7 @@
 #### [Gjennomgang: Mottak og plassering i grunnleggende lageroppsett](walkthrough-receiving-and-putting-away-in-basic-warehousing.md)
 #### [Gjennomgang: Mottak og plassering i avanserte lageroppsett](walkthrough-receiving-and-putting-away-in-advanced-warehousing.md)
 
-### <a name="outbound-warehouse-processes"></a>Utgående lagerprosesser
+### Utgående lagerprosesser
 #### [Utgående lagerprosesser](design-details-outbound-warehouse-flow.md)
 #### [Finn arbeidstildelingene](warehouse-how-to-find-your-warehouse-assignments.md)
 #### [Plukk varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md)
@@ -674,37 +674,37 @@
 #### [Kryssoverføringsvarer](warehouse-how-to-cross-dock-items.md)
 #### [Gjennomgang: Plukking og levering i grunnleggende lageroppsett](walkthrough-picking-and-shipping-in-basic-warehousing.md)
 
-### <a name="internal-warehouse-processes"></a>Interne lagerprosesser
-#### <a name="production-assembly-and-job-activities"></a>Produksjons-, monterings- og prosjektaktiviteter
+### Interne lagerprosesser
+#### Produksjons-, monterings- og prosjektaktiviteter
 ##### [Flyter for produksjon, montering og prosjekter](design-details-internal-warehouse-flows.md)
 ##### [Plukk for produksjon, montering eller jobber i grunnleggende lageroppsett](warehouse-how-to-pick-for-production.md)
 ##### [Plukk for produksjon, montering eller jobber i avanserte lageroppsett](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 ##### [Plasser produksjonsavgang](warehouse-how-to-put-away-production-output.md)
-#### <a name="move-items"></a>Flytt varer
+#### Flytt varer
 ##### [Flytt varer](warehouse-move-items.md)
 ##### [Overfør beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md)
 ##### [Flytt varer internt i grunnleggende lageroppsett](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md)
 ##### [Flytt varer i avanserte lageroppsett med lagerstyring](warehouse-how-to-move-items-in-advanced-warehousing.md)
 
-#### <a name="warehouse-counting"></a>Lageropptelling
+#### Lageropptelling
 ##### [Utformingsdetaljer: Integrering med lagerbeholdning](design-details-integration-with-inventory.md)
 ##### [Tell og juster lagerbeholdning ved hjelp av dokumenter](inventory-how-count-inventory-with-documents.md)
 ##### [Tell, juster og klassifiser lagerbeholdning på nytt](inventory-how-count-adjust-reclassify.md)
 
-## <a name="service-management"></a>Servicebehandling
+## Servicebehandling
 ### [Servicebehandling](service-service.md)
-### <a name="planning-service"></a>Planleggingsservice
+### Planleggingsservice
 #### [Planleggingsservicebehandling](service-plan-service.md)
 #### [Serviceprisbehandling](service-service-price-management.md)
 #### [Serviceordrestatus og reparasjonsstatus](service-service-order-status-and-repair-status.md)
 #### [Tildelingsstatusen og reparasjonsstatusen til servicevarene](service-allocation-status-and-repair-status.md)
 #### [Vis servicestatistikk](service-service-statistics.md)
-### <a name="fulfill-service-contracts"></a>Oppfyll servicekontrakter
+### Oppfyll servicekontrakter
 #### [Oppfyll servicekontrakter](service-fulfill-service-contracts.md)
 #### [Flere kontrakter](service-multiple-contracts.md)
 #### [Arbeid med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)
 #### [Endre årlig beløp på servicekontrakter eller kontrakttilbud](service-how-to-change-the-annual-amount-on-service-contracts-or-contract-quotes.md)
-### <a name="deliver-service"></a>Lever service
+### Lever service
 #### [Lever service](service-deliver-service.md)
 #### [Opprett servicetilbud](service-how-to-create-service-quotes.md)
 #### [Opprett serviceordrer](service-how-to-create-service-orders.md)
@@ -715,7 +715,7 @@
 #### [Bokfør serviceordrer og kreditnotaer](service-how-to-post-service-orders.md)
 #### [Lån ut og mottar utlånsobjekter](service-how-to-lend-receive-loaners.md)
 <!--Shopify-->
-## <a name="online-store-with-shopify"></a>Nettbutikk med Shopify
+## Nettbutikk med Shopify
 ### [Kom i gang med Shopify-koblingen](shopify/get-started.md)
 #### [Opprett og konfigurer en Shopify-konto](shopify/shopify-account.md)
 ### [Synkroniser varer med Shopify](shopify/synchronize-items.md)
@@ -729,17 +729,17 @@
 ### [Gjennomgang: Konfigurer og bruk Shopify-koblingen](shopify/walkthrough-setting-up-and-using-shopify.md)
 
 <!--Company Hub-->
-## <a name="company-hub"></a>Selskapssenter
+## Selskapssenter
 ### [Administrer arbeid på tvers av selskaper med selskapssenteret](company-hub.md)
 ### [Legg til selskaper i selskapssenteret](company-hub-add-company.md)
 ### [Feilsøk selskapssenteret](company-hub-troubleshooting.md)
 <!--LF-->
-## <a name="local-functionality"></a>Lokale funksjoner
+## Lokale funksjoner
 ### [Oversikt over lokale funksjoner](about-localization.md)
 
-### <a name="australia"></a>Australia
+### Australia
 #### [Oversikt over australsk versjon](LocalFunctionality/Australia/australia-local-functionality.md)
-#### <a name="tax"></a>Avgift
+#### Avgift
 ##### [Avgift i den australske versjonen](LocalFunctionality/Australia/tax.md)
 ##### [Kildeskatt](LocalFunctionality/Australia/withholding-tax.md)
 ##### [Konfigurer kildeskatt](LocalFunctionality/Australia/how-to-set-up-withholding-tax.md)
@@ -753,32 +753,32 @@
 ##### [Beregn mva. på varer og tjenester på forskuddsbetalinger](LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)
 ##### [Juster valutakurser for oppgjør for mva-poster](LocalFunctionality/Australia/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
 ##### [Skriv ut rapporter for mva-oppgjør for varer og tjenester](LocalFunctionality/Australia/how-to-print-goods-and-service-tax-settlement-reports.md)
-#### <a name="banking--payments"></a>Banktjenester og betalinger
+#### Banktjenester og betalinger
 ##### [Sammenlign bankkontantstrøm](LocalFunctionality/Australia/how-to-compare-bank-cash-flow.md)
 ##### [Opprett sjekkavdrag](LocalFunctionality/Australia/how-to-create-check-installments.md)
 ##### [Elektronisk pengeoverføring (EFT)](LocalFunctionality/Australia/electronic-funds-transfer-eft-.md)
 ##### [Skriv ut bankkontoavstemmingsrapporter](LocalFunctionality/Australia/how-to-print-bank-account-reconciliation-reports.md)
 ##### [Skriv ut betalingsbilagsrapporter](LocalFunctionality/Australia/how-to-print-deposit-slip-reports.md)
-#### <a name="core-finance"></a>Kjerneøkonomi
+#### Kjerneøkonomi
 ##### [Konfigurer konsern for firmaaktivitetsoppgaver](LocalFunctionality/Australia/how-to-set-up-business-units-for-business-activity-statements.md)
 ##### [Skriv ut balanserapporter](LocalFunctionality/Australia/how-to-print-balance-sheet-reports.md)
 ##### [Skriv ut resultatregnskap](LocalFunctionality/Australia/how-to-print-income-statements.md)
 ##### [Beregn fordelingsbeløp](LocalFunctionality/Australia/calculating-distribution-amounts.md)
-#### <a name="general"></a>Generelt
+#### Generelt
 ##### [Adresser](LocalFunctionality/Australia/addresses.md)
 ##### [Angi salgspris ved kost pluss prosent](LocalFunctionality/Australia/how-to-determine-sales-price-by-cost-plus-percentage.md)
 ##### [Australske firmanumre og justeringsmerknader](LocalFunctionality/Australia/australian-business-numbers-and-adjustment-notes.md)
 ##### [Angi australske firmanumre](LocalFunctionality/Australia/how-to-enter-australian-business-numbers.md)
 ##### [Rapporter om betalingstider](LocalFunctionality/Australia/payment-times-reporting.md)
 
-### <a name="austria"></a>Østerrike
+### Østerrike
 #### [Lokal funksjonalitet i østerriksk versjon](LocalFunctionality/Austria/austria-local-functionality.md)
-#### <a name="vat"></a>Mva.
+#### Mva.
 ##### [Opprett en mva-oppgave](LocalFunctionality/Austria/how-to-create-a-vat-statement.md)
 ##### [Mva-rapportering](LocalFunctionality/Austria/vat-reporting.md)
-#### <a name="banking--payments-1"></a>Banktjenester og betalinger
+#### Banktjenester og betalinger
 ##### [Skriv ut rapporter om leverandørbetalingslister](LocalFunctionality/Austria/how-to-print-vendor-payments-list-reports.md)
-#### <a name="purchasing-1"></a>Kjøp
+#### Kjøp
 ##### [Leveringspåminnelser](LocalFunctionality/Austria/delivery-reminders.md)
 ##### [Konfigurer leveringspåminnelser](LocalFunctionality/Austria/how-to-set-up-delivery-reminders.md)
 ##### [Konfigurer betingelser, grader og tekster for leveringspåminnelse](LocalFunctionality/Austria/how-to-set-up-delivery-reminder-terms-levels-and-text.md)
@@ -787,12 +787,12 @@
 ##### [Opprett leveringspåminnelser manuelt](LocalFunctionality/Austria/how-to-create-delivery-reminders-manually.md)
 ##### [Utsted leveringspåminnelser](LocalFunctionality\Austria\how-to-issue-delivery-reminders.md)
 ##### [Skriv ut testrapporter for leveringspåminnelser](LocalFunctionality/Austria/how-to-print-test-reports-for-delivery-reminders.md)
-#### <a name="general-1"></a>Generelt
+#### Generelt
 ##### [Skriv ut informasjon om finansoppsett](LocalFunctionality/Austria/how-to-print-general-ledger-setup-information.md)
 
-### <a name="belgium"></a>Belgia
+### Belgia
 #### [Lokal funksjonalitet i belgisk versjon](LocalFunctionality/Belgium/belgium-local-functionality.md)
-#### <a name="vat-1"></a>Mva.
+#### Mva.
 ##### [Belgisk mva.](LocalFunctionality/Belgium/belgian-vat.md)
 ##### [Konfigurer ikke-fradragsberettiget mva.](LocalFunctionality/Belgium/how-to-set-up-non-deductible-vat.md)
 ##### [Utfør manuelle korrigeringer til mva.](LocalFunctionality/Belgium/how-to-make-manual-corrections-to-vat.md)
@@ -803,7 +803,7 @@
 ##### [Skriv ut Intrastat-skjemarapporten](LocalFunctionality/Belgium/how-to-print-the-intrastat-form-report.md)
 ##### [Konfigurer deklarasjonstyper](LocalFunctionality/Belgium/how-to-set-up-declaration-types.md)
 ##### [Eksporter Intrastat-tredjepartsdeklarasjoner](LocalFunctionality/Belgium/how-to-export-intrastat-third-party-declararations.md)
-#### <a name="banking--payments-2"></a>Banktjenester og betalinger
+#### Banktjenester og betalinger
 ##### [Elektroniske banktjenester (BE](LocalFunctionality/Belgium/belgian-electronic-banking.md)
 ##### [Elektroniske betalinger (BE)](LocalFunctionality/Belgium/belgian-electronic-payments.md)
 ##### [Konfigurer eksportprotokoller](LocalFunctionality/Belgium/how-to-set-up-export-protocols.md)
@@ -818,47 +818,47 @@
 ##### [Overfør og bokfør CODA-oppgaver automatisk](LocalFunctionality/Belgium/how-to-automatically-transfer-and-post-coda-statements.md)
 ##### [Overfør og bokfør CODA-oppgaver manuelt](LocalFunctionality/Belgium/how-to-manually-transfer-and-post-coda-statements.md)
 ##### [Importer CODA-bankkontoutdrag](LocalFunctionality/Belgium/how-to-import-coda-statements.md)
-#### <a name="core-finance-1"></a>Kjerneøkonomi
+#### Kjerneøkonomi
 ##### [Bruk og opphev finansposter](LocalFunctionality/Belgium/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Opprett finanskladder](LocalFunctionality/Belgium/how-to-create-financial-journals.md)
 ##### [Eksporter til Accon](LocalFunctionality/Belgium/how-to-export-to-accon.md)
-#### <a name="general-2"></a>Generelt
+#### Generelt
 ##### [Bedriftsnumre og filialnumre](LocalFunctionality/Belgium/enterprise-numbers-and-branch-numbers.md)
 ##### [Begrens bokføringsperioden](LocalFunctionality/Belgium/how-to-limit-the-posting-period.md)
 ##### [Angi arbeidsdato som bokføringsdato](LocalFunctionality/Belgium/how-to-set-the-work-date-as-the-posting-date.md)
 ##### [Gjør kladdemaler obligatoriske](LocalFunctionality/Belgium/specify-journal-template-mandatory.md)
-##### <a name="deferrals-in-sales-and-purchase-ledger-reportslocalfunctionalitybelgiumhow-to-use-deferralsmd"></a>[Periodiseringer i salgs- og kjøpspostrapporter](LocalFunctionality/Belgium/how-to-use-deferrals.md}
+##### [Periodiseringer i salgs- og kjøpspostrapporter](LocalFunctionality/Belgium/how-to-use-deferrals.md}
 
-### <a name="canada"></a>Canada
+### Canada
 #### [Lokal funksjonalitet i kanadisk versjon](LocalFunctionality/Canada/canada-local-functionality.md)
-#### <a name="tax-1"></a>Avgift
+#### Avgift
 ##### [Rapporter mva. og avgifter for varer/tjenester i Canada](LocalFunctionality/Canada/sales-tax-goods-services.md)
 ##### [Rapporter mva. i Canada](LocalFunctionality/Canada/ca-sales-tax.md)
 ##### [Konfigurer urealisert salgs-mva. og kontantrabatter for salg](LocalFunctionality/Canada/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)
 ##### [Konfigurer amerikansk mva. og innkjøpsavgift](LocalFunctionality/Canada/how-to-set-up-use-tax-and-purchase-tax.md)
-#### <a name="banking--payments-3"></a>Banktjenester og betalinger
+#### Banktjenester og betalinger
 ##### [Opprett innbetalinger](LocalFunctionality/Canada/how-to-create-deposits.md)
 ##### [Utfør elektroniske betalinger](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### <a name="general-3"></a>Generelt
+#### Generelt
 ##### [Skriv ut feilsøkingsrapporter](LocalFunctionality/Canada/how-to-print-troubleshooting-reports.md)
 ##### [Arbeid med GIFI-koder](LocalFunctionality/Canada/work-gifi-codes.md)
 
-### <a name="czech-republic"></a>Den tsjekkiske republikk
+### Den tsjekkiske republikk
 #### [Lokal funksjonalitet i tsjekkisk versjon](LocalFunctionality/Czech/czech-local-functionality.md)
 #### [Kjernelokaliseringspakke for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 #### [Avansert lokaliseringspakke for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
-#### <a name="core-finance-2"></a>Kjerneøkonomi
+#### Kjerneøkonomi  
 ##### [Finans](LocalFunctionality/Czech/finance.md)
 ##### [Årsavslutningsoperasjoner](LocalFunctionality/Czech/year-close-operations.md)
 ##### [Utligning av finansposter](LocalFunctionality/Czech/general-ledger-entries-application.md)
 ##### [Valutakursoppdatering](LocalFunctionality/Czech/exchange-rate-update.md)
-#### <a name="vat-2"></a>Mva.
+#### Mva.
 ##### [Finans – mva.](LocalFunctionality/Czech/finance-vat.md)
 ##### [Mva-kontrollrapport](LocalFunctionality/Czech/vat-control-report.md)
-#### <a name="fixed-assets-1"></a>Aktiva
+#### Aktiva
 ##### [Aktiva](LocalFunctionality/Czech/fixed-assets.md)
 ##### [Aktivalokalisering for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
-#### <a name="banking-and-payments"></a>Banktjenester og betalinger
+#### Banktjenester og betalinger
 ##### [Bankfunksjon](LocalFunctionality/Czech/bank-feature.md)
 ##### [Lokalisering av bankdokumenter for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
 ##### [Kontantstyring](LocalFunctionality/Czech/cash-desk-management.md)
@@ -866,58 +866,58 @@
 ##### [Registrering av salg (EET)](LocalFunctionality/Czech/eet.md)
 ##### [Avansementer](LocalFunctionality/Czech/advances.md)
 ##### [Videre lokalisering av betalinger for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
-#### <a name="payables-and-receivables"></a>Kjøp og salg
+#### Kjøp og salg
 ##### [Kjøp og salg](LocalFunctionality/Czech/receivables-payables.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
 ##### [Kompensasjonslokalisering for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
-#### <a name="inventory-1"></a>Lager
+#### Lager
 ##### [Lager](LocalFunctionality/Czech/inventory.md)
-#### <a name="general-4"></a>Generelt
+#### Generelt
 ##### [Utvidet brukerkontroll](LocalFunctionality/Czech/general.md)
 ##### [Anbefalte fremgangsmåter](LocalFunctionality/Czech/best-practices.md)
 
-### <a name="denmark"></a>Danmark
+### Danmark
 #### [Lokal funksjonalitet i dansk versjon](LocalFunctionality/Denmark/denmark-local-functionality.md)
-#### <a name="vat-3"></a>Mva.
+#### Mva.
 ##### [Skriv ut mva-avstemmingsrapporter](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [Mva. – VIES-rapportering](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ##### [Oppsett av organisasjonsnummer for Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
-#### <a name="banking--payments-4"></a>Banktjenester og betalinger
+#### Banktjenester og betalinger
 ##### [FIK-detaljer i betalingsavstemmingskladden](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [Utvidelsen Betalinger og avstemminger (Danmark)](ui-extensions-payments-reconciliation-formats-dk.md)
-#### <a name="electronic-invoicing"></a>Elektronisk fakturering
+#### Elektronisk fakturering
 ##### [Oversikt over elektronisk fakturering for OIOUBL](LocalFunctionality/Denmark/oioubl-electronic-invoicing-overview.md)
 ##### [Konfigurer kunder for OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ##### [Konfigurer elektronisk fakturering for OIOUBL](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [OIOUBL-utvidelsen for elektronisk fakturering](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
 ##### [Opprett elektroniske dokumenter i OIOUBL-format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
-#### <a name="payroll"></a>Lønn
+#### Lønn
 ##### [Lønnsdatadefinisjoner (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
 
-### <a name="finland"></a>Finland
+### Finland
 #### [Lokal funksjonalitet i finsk versjon](LocalFunctionality/Finland/finland-local-functionality.md)
-#### <a name="vat-4"></a>Mva.
+#### Mva.
 ##### [Skriv ut finske Intrastat-rapporter](LocalFunctionality/Finland/how-to-print-finnish-intrastat-reports.md)
 ##### [Skriv ut mva-informasjon på fakturaer](LocalFunctionality/Finland/how-to-print-vat-information-on-invoices.md)
 ##### [Mva. – VIES-deklarasjon i Finland](LocalFunctionality/Finland/vat-vies-declaration-in-finland.md)
-#### <a name="banking--payments-5"></a>Banktjenester og betalinger
+#### Banktjenester og betalinger
 ##### [Elektroniske banktjenester i Finland](LocalFunctionality/Finland/electronic-banking-in-finland.md)
 ##### [Genererer betalingsfiler](LocalFunctionality/Finland/how-to-generate-payment-files.md)
 ##### [Konfigurer bankreferansefiler](LocalFunctionality/Finland/how-to-set-up-bank-reference-files.md)
 ##### [SEPA-kredittoverføringsbetalinger](LocalFunctionality/Finland/sepa-credit-transfer-payments.md)
 ##### [Se bort fra kontantrabatter](LocalFunctionality/Finland/how-to-disregard-payment-discounts.md)
-#### <a name="core-finance-3"></a>Kjerneøkonomi
+#### Kjerneøkonomi
 ##### [Konfigurer kontobokføringsgrupper automatisk](LocalFunctionality/Finland/how-to-set-up-automatic-account-posting-groups.md)
 ##### [Automatiske kontokoder](LocalFunctionality/Finland/automatic-account-codes.md)
 ##### [Bokfør avskrivningsdifferanser](LocalFunctionality/Finland/posting-depreciation-differences.md)
 
-### <a name="france"></a>Frankrike
+### Frankrike
 #### [Lokal funksjonalitet i finsk versjon](LocalFunctionality/France/france-local-functionality.md)
-#### <a name="vat-5"></a>Mva.
+#### Mva.
 ##### [Eksporter finansposter for skatterevideringer](LocalFunctionality/France/how-to-export-general-ledger-entries-for-tax-audits.md)
 ##### [Eksporter finansposter til en XML-fil](LocalFunctionality/France/how-to-export-general-ledger-entries-to-an-xml-file.md)
 ##### [Krav til rapporteringserklæring for varehandel](LocalFunctionality/France/requirements-for-reporting-declaration-of-trade-in-goods.md)
-#### <a name="banking--payments-6"></a>Banktjenester og betalinger
+#### Banktjenester og betalinger
 ##### [Betalingsstyring](LocalFunctionality/France/payment-management.md)
 ##### [Konfigurer betalingsadresser](LocalFunctionality/France/how-to-set-up-payment-addresses.md)
 ##### [Konfigurer betalingsklasser](LocalFunctionality/France/how-to-set-up-payment-classes.md)
@@ -926,7 +926,7 @@
 ##### [Bokfør betalingsbilag](LocalFunctionality/France/how-to-post-payment-slips.md)
 ##### [Arkiver betalingsbilag](LocalFunctionality/France/how-to-archive-payment-slips.md)
 ##### [Eksporter eller importer oppsettparametere for betalingsstyring](LocalFunctionality/France/how-to-export-or-import-payment-management-setup-parameters.md)
-#### <a name="core-finance-4"></a>Kjerneøkonomi
+#### Kjerneøkonomi
 ##### [Finans](LocalFunctionality/France/general-ledger.md)
 ##### [Utlign finansposter](LocalFunctionality/France/how-to-apply-general-ledger-entries.md)
 ##### [Opphev utligning av finansposter](LocalFunctionality/France/how-to-unapply-general-ledger-entries.md)
@@ -942,14 +942,14 @@
 ##### [Åpne en ny regnskapsårsduplikat](LocalFunctionality/France/how-to-open-a-new-fiscal-year-duplicate.md)
 ##### [Bokfør avslutningsposten for årsslutt](LocalFunctionality/France/how-to-post-the-year-end-closing-entry.md)
 ##### [Åpne regnskapsperioder på nytt](LocalFunctionality/France/how-to-reopen-accounting-periods.md)
-#### <a name="fixed-assets-2"></a>Aktiva
+#### Aktiva
 ##### [Konfigurer hurtigavskrivning](LocalFunctionality/France/how-to-set-up-accelerated-depreciation.md)
 ##### [Hurtigavskrivning](LocalFunctionality/France/accelerated-depreciation.md)
 ##### [Beregn hurtigavskrivning](LocalFunctionality/France/how-to-calculate-accelerated-depreciation.md)
 
-### <a name="germany"></a>Tyskland
+### Tyskland
 #### [Lokal funksjonalitet i tysk versjon](LocalFunctionality/Germany/germany-local-functionality.md)
-#### <a name="vat-6"></a>Mva.
+#### Mva.
 ##### [Konfigurer rapporter for mva. og Intrastat](LocalFunctionality/Germany/how-to-set-up-reports-for-vat-and-intrastat.md)  
 ##### [Konfigurer mva-rapporter](LocalFunctionality/Germany/how-to-set-up-vat-reports.md)
 ##### [Mva-rapportering](LocalFunctionality/Germany/vat-reporting.md)
@@ -957,9 +957,9 @@
 ##### [Korriger mva-rapporter](LocalFunctionality/Germany/how-to-correct-vat-reports.md)  
 ##### [Forhåndsvarsling for utgående mva.](LocalFunctionality\Germany\how-to-set-up-and-export-sales-vat-advance-notifications.md)
 ##### [Angi mva-VIES-avgift](LocalFunctionality/Germany/how-to-declare-vat-vies-tax.md)
-#### <a name="banking--payments-7"></a>Banktjenester og betalinger
+#### Banktjenester og betalinger
 ##### [Skriv ut rapporter om leverandørbetalingslister](LocalFunctionality/Germany/how-to-print-vendor-payments-list-reports.md)
-#### <a name="core-finance-5"></a>Kjerneøkonomi
+#### Kjerneøkonomi
 ##### [Eksporter og skriv ut Intrastat-rapporter](LocalFunctionality/Germany/how-to-export-and-print-intrastat-reports.md)
 ##### [Bokfør en negativ post](LocalFunctionality\Germany\how-to-post-a-negative-entry.md)
 ##### [Prosess for digitale revisjoner](LocalFunctionality/Germany/process-for-digital-audits.md)
@@ -968,7 +968,7 @@
 ##### [GDPDU-filtereksempler](LocalFunctionality/Germany/gdpdu-filter-examples.md)
 ##### [Oppgrader en .DTD-definisjonsfil](LocalFunctionality/Germany/how-to-upgrade-a-.dtd-definition-file.md)
 ##### [Gjennomgang: Eksporter data for en digital revisjon](LocalFunctionality/Germany/walkthrough-exporting-data-for-a-digital-audit.md)
-#### <a name="purchasing-2"></a>Kjøp
+#### Kjøp
 ##### [Konfigurer leveringspåminnelser](LocalFunctionality/Germany/how-to-set-up-delivery-reminders.md)
 ##### [Konfigurer betingelser, grader og tekster for leveringspåminnelse](LocalFunctionality/Germany/how-to-set-up-delivery-reminder-terms-levels-and-text.md)
 ##### [Leveringspåminnelser](LocalFunctionality/Germany/delivery-reminders.md)
@@ -977,40 +977,40 @@
 ##### [Generer leveringspåminnelser](LocalFunctionality/Germany/how-to-generate-delivery-reminders.md)  
 ##### [Utsted leveringspåminnelser](LocalFunctionality/Germany/how-to-issue-delivery-reminders.md)
 ##### [Skriv ut testrapporter for leveringspåminnelser](LocalFunctionality/Germany/how-to-print-test-reports-for-delivery-reminders.md)
-#### <a name="general-5"></a>Generelt
+#### Generelt
 ##### [Valutakurser](LocalFunctionality/Germany/currency-exchange-rates.md)
 ##### [EU-salgsliste i Tyskland](LocalFunctionality/Germany/eu-sales-list-in-germany.md)
 ##### [Ta med selskapsregistreringsnumre på salgsrapporter og kjøpsrapporter](LocalFunctionality/Germany/how-to-include-company-registration-numbers-on-sales-reports-and-purchase-reports.md)
 ##### [Skriv ut informasjon om finansoppsett](LocalFunctionality/Germany/how-to-print-general-ledger-setup-information.md)
 ##### [Sertifisering av Business Central for tysk marked (dokumenter er på tysk)](https://go.microsoft.com/fwlink/?linkid=875256)
 
-### <a name="iceland"></a>Island
+### Island
 #### [Lokal funksjonalitet i islandsk versjon](LocalFunctionality/Iceland/iceland-local-functionality.md)
-#### <a name="vat-7"></a>Mva.
+#### Mva.
 ##### [Skriv ut mva-oversiktsinformasjon på dokumenter](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 ##### [Spesielle utdata og rapporter for skattemyndighetene](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
-#### <a name="electronic-invoicing-1"></a>Elektronisk fakturering
+#### Elektronisk fakturering
 ##### [Krav til elektronisk fakturering: Utsted én fakturakopi](LocalFunctionality/Iceland/electronic-invoicing-requirement-issuing-single-copy-invoice.md)
-#### <a name="general-6"></a>Generelt
+#### Generelt  
 ##### [Tildel IRS-numre til kontoplanen](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Slett bokførte fakturaer og kreditnotaer](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
 
-### <a name="india"></a>India
+### India
 #### [Oversikt](LocalFunctionality/India/india-local-functionality.md)
 #### [Konfigurer bokføringsnummerserier](LocalFunctionality/India/posting-no-series-setup.md)
 #### [Revisjonsspor og redigeringslogger for regnskapsprogramvare i India](LocalFunctionality/India/india-audit-trail-edit-logs-accounting-software.md)
-#### <a name="tax-engine"></a>Avgiftsmotor
+#### Avgiftsmotor
 ##### [Oversikt](LocalFunctionality/India/TaxEngine-001-Overview.md)  
 ##### [Konfigurasjon av import/eksport for avgiftsmotor](LocalFunctionality/India/TaxEngine-002-Import-Export-Configuration.md)
-##### <a name="tax-engine-configuration"></a>Konfigurasjon av avgiftsmotor
+##### Konfigurasjon av avgiftsmotor
 ###### [Konfigurasjon av mva-type og mva-sats](LocalFunctionality/India/TaxEngine-003-Tax-Configuration.md)
 ###### [Konfigurasjon av brukstilfelle](LocalFunctionality/India/TaxEngine-003.1-Tax-Configuration.md)
 ##### [Oppslag for avgiftsmotor](LocalFunctionality/India/TaxEngine-004-Lookup.md)
 ##### [Hensyn ved utforming av avgiftsmotor](LocalFunctionality/India/TaxEngine-006-Design-Consideration.md)
 ##### [Skript for avgiftsmotor](LocalFunctionality/India/TaxEngine-005-Script-Activities.md)
-#### <a name="gst"></a>GST
+#### GST
 ##### [Oversikt over GST](LocalFunctionality/India/GST-001-Basic-Setup.md)
-##### <a name="gst-on-purchase"></a>GST på kjøp
+##### GST på kjøp
 ###### [Kjøp fra sammensatt leverandør](LocalFunctionality/India/GST-Purchase-from-Composite-Vendor.md)
 ###### [Kjøp fra registrert leverandør](LocalFunctionality/India/GST-Purchase-from-Registered-Vendor.md)
 ###### [Kjøp fra uregistrert leverandør (snudd avregning)](LocalFunctionality/India/GST-Purchase-from-Unregistered-Vendor-RCM.md)
@@ -1018,13 +1018,13 @@
 ###### [Kjøp fra utenlandsk leverandør](LocalFunctionality/India/GST-Purchase-from-Foreign-Vendor.md)
 ###### [Kjøp fra leverandør med oversjøisk forsyningssted](LocalFunctionality/India/GST-Service-Purchase-for-Overseas-Place-of-supply-Registered-Vendor.md)
 ###### [GST og TDS på kjøpstransaksjon](LocalFunctionality/India/GST-TDS-and-GST-on-Purchase.md)
-##### <a name="gst-on-purchase-return"></a>GST på bestillingsretur
+##### GST på bestillingsretur
 ###### [Kjøpsretur til sammensatt leverandør](LocalFunctionality/India/GST-Purchase-Return-to-Composite-Vendor.md)
 ###### [Kjøpsretur til registrert leverandør](LocalFunctionality/India/GST-Purchase-Return-to-Registered-Vendor.md)
 ###### [Bestillingsretur til uregistrert leverandør (snudd avregning)](LocalFunctionality/India/GST-Purchase-Return-to-Unregistered-Vendor-RCM.md) 
 ###### [Kjøpsretur til utenlandsk leverandør](LocalFunctionality/India/GST-Purchase-Return-to-Foreign-Vendor.md)
 ###### [Kjøpsretur til leverandør med oversjøisk forsyningssted](LocalFunctionality/India/GST-Return-of-Service-for-Overseas-Place-of-supply-Registered-Vendor.md)
-##### <a name="gst-on-journalspaymentapplication"></a>GST på kladder/betaling/utligning
+##### GST på kladder/betaling/utligning
 ###### [GST på kladder](LocalFunctionality/India/GST-GST-Calculation-on-Journals-where-Services-paid-directly-through-CashBank.md)
 ###### [GST på forskuddsbetaling til leverandør](LocalFunctionality/India/GST-GST-on-Advance-Payment-made-to-Vendor.md)
 ###### [GST-utligning av betaling og faktura](LocalFunctionality/India/GST-Advance-Normal-Payment-and-Purchase-Invoice-Goods-Application.md)
@@ -1032,43 +1032,43 @@
 ###### [GST-utligning av mottak og faktura](LocalFunctionality/India/GST-GST-on-Advance-Receipt-Application-to-Sales-Invoice.md)
 ###### [GST og TCS på kundeforskudd](LocalFunctionality/India/GST-TCS-on-Advance-Receipt-Application-to-Sales-Invoice.md)
 ###### [GST og TDS på leverandørforskudd](LocalFunctionality/India/GST-TDS-on-Advance-Payment-Application-to-Purchase-Invoice.md)
-##### <a name="gst-on-sales"></a>GST på salg
+##### GST på salg
 ###### [Fritatt salg](LocalFunctionality/India/GST-Exempted-Sales.md)
 ###### [Salg til registrert og uregistrert kunde](LocalFunctionality/India/GST-Sale-to-Registered-Unregistered-Customer.md)
 ###### [Salg til utenlandsk kunde](LocalFunctionality/India/GST-Sale-to-Foreign-Customer-Service.md)
 ###### [Salg til registrert kunde med salgssted utenlands](LocalFunctionality/India/GST-Sale-to-Registered-Customer-Overseas-POS.md)
 ###### [GST og TCS på salgstransaksjon](LocalFunctionality/India/GST-TCS-and-GST-on-Sales-Transaction.md)
 ###### [GST Kerala Flood Cess](LocalFunctionality/India/GST-and-Kerala-Flood-Cess-on-Sales.md)
-##### <a name="gst-on-sales-return"></a>GST på ordreretur
+##### GST på ordreretur
 ###### [Ordreretur fra registrert og uregistrert kunde](LocalFunctionality/India/GST-Sale-Return-to-Registered-Unregistered-Customer.md)
 ###### [Ordreretur fra registrert kunde med salgssted utenlands](LocalFunctionality/India/GST-Sales-Return-to-Registered-Customer-Overseas-POS.md)
-##### <a name="gst-on-transfer"></a>GST på overføring
+##### GST på overføring
 ###### [GST-lageroverføring](LocalFunctionality/India/GST-Stock-Transfer.md)
 ###### [GST-tjenesteoverføring](LocalFunctionality/India/GST-Service-Transfer.md)
-##### <a name="gst-on-bank-charge"></a>GST på bankgebyr
+##### GST på bankgebyr
 ###### [Oversikt over GST-bankgebyr](LocalFunctionality/India/GST-Bank-Charges-Overview.md)
 ###### [GST-bankgebyrtransaksjon](LocalFunctionality/India/GST-Bank-Charges-Transaction.md)
-##### <a name="gst-tdstcs"></a>GST TDS/TCS
+##### GST TDS/TCS
 ###### [Oversikt over GST TDS TCS](LocalFunctionality/India/GST-TDS-TCS-Overview.md)
 ###### [GST TCS på betaling](LocalFunctionality/India/GST-TCS-on-Payment.md)
 ###### [GST TDS TCS på mottak](LocalFunctionality/India/GST-TDS-TCS-on-Receipt.md)
-##### <a name="gst-adjustmentsperiodic-activities"></a>Justeringer / periodiske aktiviteter for GST
+##### Justeringer / periodiske aktiviteter for GST
 ###### [Kreditt- og gjeldsjustering for GST](LocalFunctionality/India/GST-GST-Credit-and-Liability-Adjustment-for-Reverse-Charge-Service-Invoice.md)
 ###### [GST-avstemming](LocalFunctionality/India/GST-Reconciliation.md)
 ###### [GST E-Way-faktura](LocalFunctionality/India/GST-E-Way-Bill.md)
 ###### [Kreditjustering for GST-inndata](LocalFunctionality/India/GST-Input-Tax-Credit-Adjustment.md)
 ###### [GST-oppgjør](LocalFunctionality/India/GST-Settelement.md)
 ###### [GST-e-faktura](LocalFunctionality/India/GST-E-Invoice.md)
-##### <a name="gst-cess"></a>GST Cess
+##### GST Cess
 ###### [Grunnleggende oppsett for GST Cess](LocalFunctionality/India/GST-Cess-Basic-Setup.md)
 ###### [Beregning av GST Cess](LocalFunctionality/India/GST-Cess-Calculations.md)
-##### <a name="gst-on-service-management"></a>GST på servicebehandling
+##### GST på servicebehandling
 ###### [GST på servicebehandling](LocalFunctionality/India/GST-Service-Management.md)
-##### <a name="gst-input-service-distribution"></a>Tjenestedistribusjon for GST-inndata
+##### Tjenestedistribusjon for GST-inndata
 ###### [Oversikt over tjenestedistribusjon for GST-inndata](LocalFunctionality/India/GST-Input-Service-Distribution-Overview.md)
 ###### [Behandle tjenestedistribusjon for GST-inndata](LocalFunctionality/India/GST-Input-Service-Distribution-Process.md)
 ###### [Transaksjon for tjenestedistribusjon for GST-inndata](LocalFunctionality/India/GST-Input-Service-Distribution-Transaction.md)
-#### <a name="tds"></a>TDS
+#### TDS
 ##### [Oversikt over TDS](LocalFunctionality/India/TDS-Overview.md)
 ##### [TDS-transaksjoner](LocalFunctionality/India/TDS-Transactions.md)
 ##### [TDS-terskel](LocalFunctionality/India/TDS-Threshold.md)
@@ -1077,11 +1077,11 @@
 ##### [TDS-betaling til myndighet](LocalFunctionality/India/TDS-TDS-Payment-to-Authority.md)
 ##### [Oversikt over TDS 194Q-delen](LocalFunctionality/India/TDS-194Q-Section-Overview.md)
 ##### [TDS 194Q-transaksjoner](LocalFunctionality/India/TDS-194Q-Transactions.md)
-#### <a name="tds-for-customer"></a>TDS for kunde
+#### TDS for kunde
 ##### [Oversikt over TDS for kunde](LocalFunctionality/India/TDS-for-Customer-Overview.md)
 ##### [TDS-beregning for kunde](LocalFunctionality/India/TDS-Calculation-for-Customer.md)
 ##### [TDS-sertifikatoppdatering](LocalFunctionality/India/TDS-Certificate-Update.md)
-#### <a name="tcs"></a>TCS
+#### TCS
 ##### [Oversikt over TCS](LocalFunctionality/India/TCS-Overview.md)
 ##### [TCS-transaksjoner](LocalFunctionality/India/TCS-Transactions.md)
 ##### [TCS-terskel](LocalFunctionality/India/TCS-Threshold.md)
@@ -1089,26 +1089,26 @@
 ##### [TCS-betaling til myndighet](LocalFunctionality/India/TCS-Payment-to-Authority.md)
 ##### [Oversikt over 206C-1H](LocalFunctionality/India/TCS-206C-1H-Overview.md)
 ##### [Transaksjon for 206C-1H](LocalFunctionality/India/TCS-206C-1H-Transactions.md)
-#### <a name="voucher-interface"></a>Bilagsgrensesnitt
+#### Bilagsgrensesnitt
 ##### [Oversikt over bilagsgrensesnitt](LocalFunctionality/India/Vouche-Interface-Overview.md)
 ##### [Transaksjon i bilagsgrensesnitt](LocalFunctionality/India/Voucher-Interface-Transactions.md)
-#### <a name="fixed-asset"></a>Aktivum
+#### Aktivum
 ##### [Oversikt over aktivum](LocalFunctionality/India/FA_Overview.md)
 ##### [Avskrivning av aktivum](LocalFunctionality/India/FA_Depreciation.md)
-#### <a name="gate-entry"></a>Gate Entry
+#### Gate Entry
 ##### [Oversikt over Gate Entry](LocalFunctionality/India/Gate-Entry-001-Basic-Setup.md)
 ##### [Intern transaksjon for Gate Entry](LocalFunctionality/India/Gate-Entry-Inward_Transactions.md)
 ##### [Utgående transaksjon for Gate Entry](LocalFunctionality/India/Gate-Entry-Outward_Transactions.md)
-#### <a name="subcontracting"></a>Underleveranse
+#### Underleveranse
 ##### [Oversikt over underleveranse](LocalFunctionality/India/Subcontracting-001-Basic-Setup.md)
 ##### [Transaksjoner for underleveranse](LocalFunctionality/India/Subcontracting-Transactions.md)
 ##### [Opprett GST-gjeld](LocalFunctionality/India/Subcontracting-Create-GST-Liability.md)
 ##### [Rapport for underleveranse](LocalFunctionality/India/Subcontracting-Reports.md)
 #### [Stale Cheque](LocalFunctionality/India/Stale-Check.md)
 
-### <a name="italy"></a>Italia
+### Italia
 #### [Lokal funksjonalitet i italiensk versjon](LocalFunctionality/Italy/italy-local-functionality.md)
-#### <a name="vat-8"></a>Mva.
+#### Mva.
 ##### [Italiensk mva.](LocalFunctionality/Italy/italian-vat.md)
 ##### [Send mva-oppgaver](LocalFunctionality/Italy/how-to-submit-vat-statements.md)
 ##### [Korriger mva-transaksjonsrapporter](LocalFunctionality/Italy/how-to-correct-vat-transactions-reports.md)
@@ -1118,60 +1118,60 @@
 ##### [Forbered mva-transaksjonsrapporter](LocalFunctionality/Italy/how-to-prepare-for-vat-transactions-reports.md)
 ##### [Skriv ut og skriv finanstablåer og mva-registre på nytt](LocalFunctionality/Italy/how-to-print-and-reprint-g-l-books-and-vat-registers.md)
 ##### [Skriv ut Intrastat-rapporter for Italia](LocalFunctionality/Italy/how-to-print-intrastat-reports-for-italy.md)
-#### <a name="withholding-tax"></a>Kildeskatt
+#### Kildeskatt
 ##### [Konfigurer kildeskatt i den italienske versjonen](LocalFunctionality/Italy/set-up-withholding-tax.md)
 ##### [Skriv ut kildeskattrapporter](LocalFunctionality/Italy/how-to-print-withholding-tax-reports.md)
-#### <a name="banking--payments-8"></a>Banktjenester og betalinger
+#### Banktjenester og betalinger
 ##### [Konfigurer betalingsbetingelser](LocalFunctionality/Italy/how-to-set-up-payment-terms.md)
 ##### [Konfigurer automatiske betalinger og automatiske regninger](LocalFunctionality/Italy/how-to-set-up-automatic-payments-and-automatic-bills.md)
 ##### [Oversikt over leverandørbetalinger og kunderegninger](LocalFunctionality/Italy/vendor-payments-and-customer-bills-overview.md)
 ##### [Utsted leverandørbetalinger og kunderegninger](LocalFunctionality/Italy/how-to-issue-vendor-payments-and-customer-bills.md)
-#### <a name="core-finance-6"></a>Kjerneøkonomi
+#### Kjerneøkonomi
 ##### [Lukk et regnskapsår](LocalFunctionality/Italy/how-to-close-a-fiscal-year.md)
 ##### [Definer debetbeløp og kreditbeløp](LocalFunctionality/Italy/how-to-define-debit-and-credit-amounts.md)
 ##### [Tilbakefør kladdeposter](LocalFunctionality/Italy/reversing-journal-entries.md)
-#### <a name="inventory-2"></a>Lager
+#### Lager
 ##### [Konfigurer opprinnelig varekost](LocalFunctionality/Italy/how-to-set-up-initial-item-costs.md)
 ##### [Lagerverdisetting for regnskap](LocalFunctionality/Italy/fiscal-inventory-valuation.MD)
 ##### [Konfigurer lagerverdisetting for regnskap](LocalFunctionality/Italy/how-to-set-up-fiscal-inventory-valuation.md)
-#### <a name="fixed-assets-3"></a>Aktiva
+#### Aktiva
 ##### [Italienske aktiva](LocalFunctionality/Italy/italian-fixed-assets.md)
 ##### [Konfigurer komprimert avskrivning av aktiva](LocalFunctionality/Italy/how-to-set-up-compressed-depreciation-of-fixed-assets.md)
 ##### [Konfigurer alternative avskrivningsmetoder](LocalFunctionality/Italy/how-to-set-up-alternate-depreciation-methods.md)  
 ##### [Opprett flere aktivumkort](LocalFunctionality/Italy/how-to-create-multiple-fixed-asset-cards.md)
 ##### [Skriv ut avskrivningstablårapporter](LocalFunctionality/Italy/how-to-print-depreciation-book-reports.md)
-#### <a name="general-7"></a>Generelt
+#### Generelt
 ##### [Konfigurer selskapsopplysninger](LocalFunctionality/Italy/how-to-set-up-company-information.md)
 ##### [Italiensk underleveranse](LocalFunctionality/Italy/italian-subcontracting.md)
 ##### [Konfigurer kladder og kladdemaler](LocalFunctionality/Italy/how-to-set-up-journal-templates-and-batches.md)
 
-### <a name="mexico"></a>Mexico
+### Mexico
 #### [Lokal funksjonalitet i meksikansk versjon](LocalFunctionality/Mexico/mexico-local-functionality.md)
-#### <a name="tax-2"></a>Avgift
+#### Avgift
 ##### [Konfigurer og generer DIOT-rapporter](LocalFunctionality/Mexico/ui-extensions-setup-and-generate-diot-report-mx.md)
 ##### [Mva-ID-typer for Mexico](LocalFunctionality/Mexico/tax-identification-types-for-mexico.md)
 ##### [Ny mva-beregning](LocalFunctionality/Mexico/vat-recalculation.md)
-#### <a name="electronic-invoicing-2"></a>Elektronisk fakturering
+#### Elektronisk fakturering
 ##### [Elektronisk fakturering (MX)](LocalFunctionality/Mexico/electronic-invoicing.md)
 ##### [Konfigurer PAC-nettjenester](LocalFunctionality/Mexico/how-to-set-up-pac-web-services.md)
 ##### [Konfigurer elektronisk fakturering (MX)](LocalFunctionality/Mexico/how-to-set-up-electronic-invoicing.md)
 ##### [Generer elektroniske fakturaer (MX)](LocalFunctionality/Mexico/how-to-generate-electronic-invoices.md)
 ##### [Carta de Porte-følgesedler og -overføringsordrer (MX)](LocalFunctionality/Mexico/packing-slips-transfer-orders.md)
-#### <a name="general-8"></a>Generelt
+#### Generelt
 ##### [Elektroniske regnskapsbestemmelser i Mexico](LocalFunctionality/Mexico/electronic-accounting-regulations.md)
 ##### [Utfør elektroniske betalinger](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
 ##### [Skriv ut feilsøkingsrapporter](LocalFunctionality/Mexico/how-to-print-troubleshooting-reports.md)  
 ##### [Opprett innbetalinger](LocalFunctionality/Mexico/how-to-create-deposits.md)  
 
-### <a name="netherlands"></a>Nederland
+### Nederland
 #### [Lokal funksjonalitet i nederlandsk versjon](LocalFunctionality/Netherlands/netherlands-local-functionality.md)
-#### <a name="vat-9"></a>Mva.
+#### Mva.
 ##### [Opprett en revisjonsfil for skattemyndighetene](LocalFunctionality/Netherlands/how-to-create-an-audit-file-for-the-tax-authority.md)
 ##### [Konfigurer mva-kategorier](LocalFunctionality/Netherlands/how-to-set-up-vat-categories.md)
 ##### [Elektroniske mva- og ICP-deklarasjoner](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
 ##### [Konfigurer elektroniske mva- og ICP-deklarasjoner](LocalFunctionality/Netherlands/how-to-set-up-electronic-vat-and-icp-declarations.md)
 ##### [Send inn elektroniske mva- og ICP-deklarasjoner](LocalFunctionality/Netherlands/electronic-vat-and-icp-declarations.md)
-#### <a name="banking--payments-9"></a>Banktjenester og betalinger
+#### Banktjenester og betalinger
 ##### [Nederlandske elektroniske banktjenester](LocalFunctionality/Netherlands/dutch-electronic-banking.md)
 ##### [Telebanktjenester](LocalFunctionality/Netherlands/telebanking.md)
 ##### [Betalingsscenarioer](LocalFunctionality/Netherlands/payment-scenarios.md)
@@ -1187,22 +1187,22 @@
 ##### [Send leverandørbetalinger elektronisk i betalingsformatet SEPA ISO 20022](LocalFunctionality/Netherlands/how-to-submit-vendor-payments-electronically-in-sepa-iso-20022-payment-format.md)
 ##### [Opprett og eksporter betalingshistorikk](LocalFunctionality/Netherlands/how-to-create-and-export-payment-history.md)
 ##### [Importer og avstem bankkontoutdrag](LocalFunctionality/Netherlands/how-to-import-and-reconcile-bank-statements.md)
-#### <a name="core-finance-7"></a>Kjerneøkonomi
+#### Kjerneøkonomi
 ##### [Utlign og opphev utligning av finansposter](LocalFunctionality/Netherlands/how-to-apply-and-unapply-general-ledger-entries.md)
 ##### [Obligatoriske beskrivelser i finansposter](LocalFunctionality/Netherlands/required-descriptions-in-g-l-entry.md)
-#### <a name="purchasing-3"></a>Kjøp
+#### Kjøp
 ##### [Sjekk kjøpsbeløp](LocalFunctionality/Netherlands/check-purchase-amounts.md)
 ##### [Rediger dokumentbeløp på kjøpsfakturaer og kreditnotaer](LocalFunctionality/Netherlands/how-to-edit-document-amounts-in-purchase-invoices-and-credit-memos.md)  
 ##### [Konfigurer validering av kjøpsbeløp](LocalFunctionality/Netherlands/how-to-set-up-validation-of-purchase-amounts.md)
-#### <a name="general-9"></a>Generelt
+#### Generelt
 ##### [CMR-merknader](LocalFunctionality/Netherlands/cmr-notes.md)
 ##### [Nederlandske postnumre](LocalFunctionality/Netherlands/dutch-post-codes.md)
 ##### [Importer postnumre](LocalFunctionality/Netherlands/how-to-import-post-codes.md)
 ##### [Importer postnummeroppdateringer](LocalFunctionality/Netherlands/how-to-import-post-code-updates.md)
 
-### <a name="new-zealand"></a>New Zealand
+### New Zealand
 #### [Lokal funksjonalitet i NZ-versjon](LocalFunctionality/NewZealand/new-zealand-local-functionality.md)
-#### <a name="tax-3"></a>Avgift
+#### Avgift
 ##### [Kildeskatt](LocalFunctionality/NewZealand/withholding-tax.md)
 ##### [Konfigurer kildeskatt](LocalFunctionality/NewZealand/how-to-set-up-withholding-tax.md)
 ##### [Konfigurer inntektstyper for kildeskatt](LocalFunctionality\NewZealand\how-to-set-up-revenue-types-for-withholding-tax.md)
@@ -1215,25 +1215,25 @@
 ##### [Juster valutakurser for oppgjør for mva-poster](LocalFunctionality/NewZealand/how-to-adjust-settlement-exchange-rates-for-vat-entries.md)
 ##### [Beregn mva. på varer og tjenester på forskuddsbetalinger](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)
 ##### [Skriv ut rapporter for mva-oppgjør for varer og tjenester](LocalFunctionality/NewZealand/how-to-print-goods-and-service-tax-settlement-reports.md)
-#### <a name="banking--payments-10"></a>Banktjenester og betalinger
+#### Banktjenester og betalinger
 ##### [Sammenlign bankkontantstrøm](LocalFunctionality/NewZealand/how-to-compare-bank-cash-flow.md)
 ##### [Opprett sjekkavdrag](LocalFunctionality/NewZealand/how-to-create-check-installments.md)
 ##### [Elektronisk pengeoverføring](LocalFunctionality/NewZealand/electronic-funds-transfer-eft-.md)
 ##### [Skriv ut betalingsbilagsrapporter](LocalFunctionality/NewZealand/how-to-print-deposit-slip-reports.md)
 ##### [Skriv ut bankkontoavstemmingsrapporter](LocalFunctionality/NewZealand/how-to-print-bank-account-reconciliation-reports.md)
-#### <a name="core-finance-8"></a>Kjerneøkonomi
+#### Kjerneøkonomi
 ##### [Beregning av fordelingsbeløp](LocalFunctionality/NewZealand/calculating-distribution-amounts.md)
 ##### [Skriv ut balanserapporter](LocalFunctionality/NewZealand/how-to-print-balance-sheet-reports.md)
 ##### [Skriv ut resultatregnskap](LocalFunctionality/NewZealand/how-to-print-income-statements.md)
-#### <a name="general-10"></a>Generelt
+#### Generelt
 ##### [Adresser](LocalFunctionality/NewZealand/addresses.md)
 ##### [Angi salgspris ved kost pluss prosent](LocalFunctionality/NewZealand/how-to-determine-sales-price-by-cost-plus-percentage.md)
 ##### [Angi newzealandske bedriftsnumre](LocalFunctionality/NewZealand/how-to-enter-new-zealand-business-numbers.md)  
 ##### [Newzealandske IRDN-numre (Inland Revenue Department Numbers) og justeringsmerknader](LocalFunctionality/NewZealand/new-zealand-business-numbers-and-adjustment-notes.md)
 
-### <a name="norway"></a>Norge
+### Norge
 #### [Lokal funksjonalitet i norsk versjon](LocalFunctionality/Norway/norway-local-functionality.md)
-#### <a name="vat-10"></a>Mva.
+#### Mva.
 ##### [Administrere SAF-T (norsk standard revisjonsfil – avgift)](LocalFunctionality/Norway/ui-extensions-setup-and-generate-saf-t-files-no.md)
 ##### [Norsk mva-rapportering](LocalFunctionality/Norway/norwegian-vat-reporting.md)
 ##### [Norske mva-koder](LocalFunctionality/Norway/norwegian-vat-codes.md)  
@@ -1241,7 +1241,7 @@
 ##### [Forholdsmessig mva.](LocalFunctionality/Norway/proportional-vat.md)
 ##### [Beregn forholdsmessig mva.](LocalFunctionality/Norway/how-to-calculate-proportional-vat.md)
 ##### [Skriv ut en mva-avstemmingsrapport](LocalFunctionality/Norway/how-to-print-a-vat-reconciliation-report.md)
-#### <a name="banking--payments-11"></a>Banktjenester og betalinger
+#### Banktjenester og betalinger
 ##### [Elektroniske banktjenester i Norge](LocalFunctionality/Norway/electronic-banking-in-norway.md)
 ##### [Elektroniske betalinger til leverandører i Norge](LocalFunctionality/Norway/electronic-payments-to-vendors-in-norway.md)
 ##### [EHF – Elektronisk fakturering i Norge](LocalFunctionality/Norway/ehf-electronic-invoicing-in-norway.md)
@@ -1267,9 +1267,9 @@
 ##### [Konfigurer OCR-betalinger](LocalFunctionality/Norway/how-to-set-up-ocr-payments.md)
 ##### [Importer og bokfør OCR-betalinger](LocalFunctionality/Norway/how-to-import-and-post-ocr-payments.md)
 ##### [Skriv ut rapporten OCR-kladd – test](LocalFunctionality/Norway/how-to-print-the-ocr-journal-test-report.md)  
-#### <a name="core-finance-9"></a>Kjerneøkonomi
+#### Kjerneøkonomi
 ##### [Utlign finansposter i lukkede perioder](LocalFunctionality/Norway/how-to-apply-general-ledger-entries-in-closed-periods.md)  
-#### <a name="general-11"></a>Generelt
+#### Generelt
 ##### [Gjentakelsesordrer](LocalFunctionality/Norway/recurring-orders.md)  
 ##### [Opprett gjentakelsesordrer](LocalFunctionality/Norway/how-to-create-recurring-orders.md)
 ##### [Konfigurer gjentakelsesgrupper:](LocalFunctionality/Norway/how-to-set-up-recurring-groups.md)  
@@ -1279,9 +1279,9 @@
 ##### [Konfigurer KID-numre på salgsdokumenter](LocalFunctionality/Norway/how-to-set-up-kid-numbers-on-sales-documents.md)
 ##### [Konfigurer dokumentutskrift](LocalFunctionality/Norway/how-to-set-up-document-printing.md)
 
-### <a name="russia"></a>Russland
+### Russland
 #### [Lokal funksjonalitet i russisk versjon](LocalFunctionality/Russia/russia-local-functionality.md)
-#### <a name="core-finance-10"></a>Kjerneøkonomi
+#### Kjerneøkonomi
 ##### [Oversikt over finansrapporter](LocalFunctionality/Russia/account-schedules-overview.md)
 ##### [Importer og eksporter finansrapporter](LocalFunctionality/Russia/How-to-Import-and-Export-Account-Schedules.md)
 ##### [Definer en finansrapportutvidelse](LocalFunctionality/Russia/How-to-Define-an-Account-Schedule-Extension.md)
@@ -1290,7 +1290,7 @@
 ##### [Finanskorrespondanse](LocalFunctionality/Russia/general-ledger-correspondence.md)
 ##### [Valuta](LocalFunctionality/Russia/Currency-information-Import-currency-rates.md)
 ##### [Konfigurer ansvarlige ansatte og fremtidserklæringer](LocalFunctionality/Russia/How-to-Set-Up-Responsible-Employees-and-Advance-Statements.md)
-#### <a name="payables-and-receivables-1"></a>Kjøp og salg
+#### Kjøp og salg
 ##### [Skyldige beløp og fordringer i den russiske versjonen](LocalFunctionality/Russia/Payables-and-Receivables.md)
 ##### [Angi informasjon om tolldeklareringer](LocalFunctionality/Russia/how-to-enter-custom-declarations-information.md)
 ##### [Konfigurer og opprette en fullmakt](LocalFunctionality/Russia/how-to-set-up-and-create-letters-of-attorney.md)
@@ -1301,7 +1301,7 @@
 ##### [Bokfør leverandør- og kundeforskuddsbetalinger](LocalFunctionality/Russia/prepayments-vendor-and-customers.md)
 ##### [Forskuddsbetalingsdifferanser](LocalFunctionality/Russia/prepayment-differences-invoices-prepayment-differences.md)
 ##### [Konfigurer kunde- og leverandøravtaler](LocalFunctionality/Russia/how-to-set-up-customer-and-vendor-agreements.md)
-#### <a name="fixed-assets-4"></a>Aktiva
+#### Aktiva
 ##### [Aktiva i den russiske versjonen](LocalFunctionality/Russia/fixed-assets.md)
 ##### [Beregn vurdert avgift](LocalFunctionality/Russia/How-to-Calculate-Assessed-Tax.md)
 ##### [Avskrivningsbonus](LocalFunctionality/Russia/Depreciation-Bonus.md)
@@ -1319,7 +1319,7 @@
 ##### [Konfigurer en konto for immaterielle aktiva](LocalFunctionality/Russia/How-to-Set-Up-an-Intangible-Assets-Account.md)
 ##### [Redegjør for kostnaden for å avhende et aktivum](LocalFunctionality/Russia/How-to-Account-for-the-Cost-to-Dispose-a-Fixed-Asset.md)
 ##### [Ikke-avskrivbare aktiva](LocalFunctionality/Russia/Undepreciable-Fixed-Assets.md)
-#### <a name="vat-11"></a>Mva.
+#### Mva.
 ##### [Mva. i den russiske versjonen](LocalFunctionality/Russia/VAT.md)
 ##### [Konfigurer mva-poster](LocalFunctionality/Russia/How-to-Set-Up-VAT-Ledgers.md)  
 ##### [Klargjør mva-oppføringer for bokføring](LocalFunctionality/Russia/How-to-Prepare-VAT-Entries-for-Posting.md)  
@@ -1328,7 +1328,7 @@
 ##### [Mva. etter kundeforskuddsbetaling](LocalFunctionality/Russia/VAT-by-Customer-prepayments.md)  
 ##### [Mva-gjeninnføring](LocalFunctionality/Russia/VAT-reinstatement.md)  
 ##### [Skatteagentskjema for leverandør](LocalFunctionality/Russia/Vendor-Tax-Agent-scheme.md)  
-#### <a name="tax-accounting"></a>Avgiftsregnskap
+#### Avgiftsregnskap
 ##### [Avgiftsregnskap i den russiske versjonen](LocalFunctionality/Russia/Tax-Accounting.md)
 ##### [Konfigurer avgiftsregnskap](LocalFunctionality/Russia/How-to-Set-Up-Tax-Accounting.md)  
 ##### [Avgiftsregistre](LocalFunctionality/Russia/Tax-Registers.md)  
@@ -1338,9 +1338,9 @@
 ##### [Gjør rede for inntektsskattebetalinger](LocalFunctionality/Russia/Accounting-for-personal-income-tax-payments.md)  
 ##### [Last opp KLADR](LocalFunctionality/Russia/Upload-KLADR.md)  
 ##### [Lovbestemte rapporter](LocalFunctionality/Russia/Statutory-Reports.md)
-#### <a name="banking"></a>Bankvirksomhet
+#### Bankvirksomhet
 ##### [Bankbehandling](LocalFunctionality/Russia/bank-management.md)
-#### <a name="inventory-3"></a>Lager
+#### Lager
 ##### [Lager i den russiske versjonen](LocalFunctionality/Russia/Inventory.md)
 ##### [Lageroppsett](LocalFunctionality/Russia/Inventory-Setup.md)
 ##### [Varedokumenter](LocalFunctionality/Russia/Item-Documents.md)
@@ -1349,7 +1349,7 @@
 ##### [Omsetning for finansvarepost](LocalFunctionality/Russia/Item-General-Ledger-Turnover.md)
 ##### [Opprett TORG-29-varerapporten](LocalFunctionality/Russia/How-to-Create-the-TORG-29-Goods-Report.md)
 ##### [Fraktbrev](LocalFunctionality/Russia/bill-of-lading.md)
-#### <a name="human-resources-1"></a>Personal
+#### Personal
 ##### [Personell i den russiske versjonen](LocalFunctionality/Russia/Human-Resources.md)
 ##### [Lønn](LocalFunctionality/Russia/Payroll.md)
 ##### [Etablering av avgifter og fradrag for den ansatte](LocalFunctionality/Russia/Establishment-of-charges-and-deductions-to-the-employee.md)
@@ -1358,9 +1358,9 @@
 ##### [Utarbeid og endre medarbeiderlisteordre](LocalFunctionality/Russia/Forming-and-changing-Staff-List-Order-Staff-Arrangement.md)
 ##### [Ferieplanlegging](LocalFunctionality/Russia/Vacation-planning.md)
 
-### <a name="spain"></a>Spania
+### Spania
 #### [Lokal funksjonalitet i spansk versjon](LocalFunctionality/Spain/spain-local-functionality.md)
-#### <a name="vat-12"></a>Mva.
+#### Mva.
 ##### [Mva-rapporter](LocalFunctionality/Spain/vat-reports.md)
 ##### [Rapport 340](LocalFunctionality/Spain/report-340.md)  
 ##### [Opprett rapport 340](LocalFunctionality/Spain/how-to-create-report-340.md)  
@@ -1375,7 +1375,7 @@
 ##### [Eksporter mva-oppgaver i XML-format](LocalFunctionality/Spain/how-to-export-vat-statements-in-xml-format.md)  
 ##### [Eksporter mva-oppgaver i tekstformat](LocalFunctionality/Spain/how-to-export-vat-statements-in-text-format.md)
 ##### [Ekvivalensgebyr](LocalFunctionality/Spain/equivalence-charges-ec-.md)
-#### <a name="banking--payments-12"></a>Banktjenester og betalinger
+#### Banktjenester og betalinger  
 ##### [Elektroniske betalinger – AEB N34.1](LocalFunctionality/Spain/electronic-payments-aeb-n341.md)
 ##### [Konfigurer bankkontoer for elektroniske betalinger](LocalFunctionality/Spain/how-to-set-up-bank-accounts-for-electronic-payments.md)
 ##### [Betal leverandører ved å bruke elektroniske betalinger](LocalFunctionality/Spain/how-to-pay-vendors-by-using-electronic-payments.md)
@@ -1385,12 +1385,12 @@
 ##### [Angi CCC-koder](LocalFunctionality/Spain/how-to-enter-ccc-codes.md)
 ##### [Konfigurer betalingsdager og ikke-innbetalingsperioder](LocalFunctionality/Spain/how-to-set-up-payment-days-and-non-payment-periods.md)
 ##### [Kontantbetalinger](LocalFunctionality/Spain/payments-in-cash.md)
-#### <a name="electronic-invoicing-3"></a>Elektronisk fakturering
+#### Elektronisk fakturering
 ##### [Modulen Cartera](LocalFunctionality/Spain/cartera-module.md)
 ##### [Cartera-modulen for salg](LocalFunctionality/Spain/receivables-cartera-module.md)
 ##### [Cartera-modulen for betalinger](LocalFunctionality/Spain/payments-cartera-module.md)
 ##### [SII – faktura- og kreditnotatyper i salgs- og kjøpsdokumenter](LocalFunctionality/Spain/SII-invoice-types-sales-purchase-documents.md)
-#### <a name="core-finance-11"></a>Kjerneøkonomi
+#### Kjerneøkonomi
 ##### [Konfigurer og lukk resultatregnskapssaldoer](LocalFunctionality/Spain/how-to-set-up-and-close-income-statement-balances.md)
 ##### [Rykk inn og valider kontoplaner](LocalFunctionality/Spain/how-to-indent-and-validate-chart-of-accounts.md)
 ##### [Ignorer rabatter i finanskontoer](LocalFunctionality/Spain/how-to-ignore-discounts-in-general-ledger-accounts.md)
@@ -1399,31 +1399,31 @@
 ##### [Skriv ut salgs- og kjøpsfakturatablåer](LocalFunctionality/Spain/how-to-print-sales-and-purchase-invoice-books.md)  
 ##### [Transaksjonsnumre](LocalFunctionality/Spain/transaction-numbers.md)
 ##### [Skriv ut og bokfør alle transaksjoner for en periode](LocalFunctionality/Spain/how-to-post-and-print-all-transactions-for-a-period.md)
-#### <a name="general-12"></a>Generelt
+#### Generelt
 ##### [Korrigerende fakturaer](LocalFunctionality/Spain/corrective-invoices.md)
 ##### [Beregning av forfallsdatoer](LocalFunctionality/Spain/calculating-due-dates.md)
 ##### [Konfigurer operasjonskoder](LocalFunctionality/Spain/how-to-set-up-operation-codes.md)
 ##### [Angi NACE-koder](LocalFunctionality/Spain/how-to-enter-nace-codes.md)
 ##### [Angi grenser for forfallsdatoer](LocalFunctionality/Spain/how-to-set-limits-for-due-dates.md)
 
-### <a name="sweden"></a>Sverige
+### Sverige
 #### [Lokal funksjonalitet i svensk versjon](LocalFunctionality/Sweden/sweden-local-functionality.md)
-#### <a name="vat-13"></a>Mva.
+#### Mva.
 ##### [Konfigurer tredjeparts kjøpstransaksjoner for EU](LocalFunctionality/Sweden/how-to-set-up-eu-third-party-purchase-transactions.md)
-#### <a name="core-finance-12"></a>Kjerneøkonomi
+#### Kjerneøkonomi
 ##### [Automatiske kontokoder](LocalFunctionality/Sweden/automatic-account-codes.md)  
 ##### [Konfigurer kontobokføringsgrupper automatisk](LocalFunctionality/Sweden/how-to-set-up-automatic-account-posting-groups.md)
 ##### [Importer og eksporter data i standard import-/eksportformat](LocalFunctionality/Sweden/how-to-import-and-export-data-in-standard-import-export-format.md)  
 ##### [Skriv ut balanse- og resultatregnskapsrapporter](LocalFunctionality/Sweden/how-to-print-balance-sheet-and-income-statement-reports.md)  
 
-### <a name="switzerland"></a>Sveits
+### Sveits
 #### [Lokal funksjonalitet i sveitsisk versjon](LocalFunctionality/Switzerland/switzerland-local-functionality.md)
-#### <a name="vat-14"></a>Mva.
+#### Mva.
 ##### [Opprett og skriv ut en sveitsisk mva-oppgave](LocalFunctionality/Switzerland/how-to-create-and-print-a-swiss-vat-statement.md)
 ##### [Skriv ut sveitsiske mva-oppgaver (eldre versjoner)](LocalFunctionality/Switzerland/how-to-print-swiss-vat-statements-older-version-.md)
 ##### [Sveitsisk mva.](LocalFunctionality/Switzerland/swiss-value-added-tax.md)
 ##### [Mva-satser for Sveits](LocalFunctionality/Switzerland/vat-rates-for-switzerland.md)
-#### <a name="banking--payments-13"></a>Banktjenester og betalinger
+#### Banktjenester og betalinger
 ##### [Håndtering av QR-kvittering](LocalFunctionality/Switzerland/ui-extensions-qr-bill-management.md)
 ##### [Sveitsiske elektroniske betalinger](LocalFunctionality/Switzerland/swiss-electronic-payments.md)
 ##### [Sveitsiske elektroniske betalinger som bruker ESR](LocalFunctionality/Switzerland/swiss-electronic-payments-using-esr.md)
@@ -1436,13 +1436,13 @@
 ##### [Skriv ut ESR-fakturaer](LocalFunctionality/Switzerland/how-to-print-esr-invoices.md)
 ##### [Importer sveitsiske bankklareringsnumre](LocalFunctionality/Switzerland/how-to-import-swiss-bank-clearing-numbers.md)
 ##### [Skriv ut rapporter om leverandørbetalingslister](LocalFunctionality/Switzerland/how-to-print-vendor-payments-list-reports.md)
-#### <a name="core-finance-13"></a>Kjerneøkonomi
+#### Kjerneøkonomi
 ##### [Sveitsiske finanskontoer](LocalFunctionality/Switzerland/swiss-general-ledger-accounts.md)
 ##### [Saldo](LocalFunctionality/Switzerland/balance.md)
 ##### [Juster valutakurser](LocalFunctionality/Switzerland/how-to-adjust-exchange-rates.md)
 ##### [Vis midlertidig saldoer i finanskladder](LocalFunctionality/Switzerland/how-to-view-temporary-balances-in-general-ledger-journals.md)
 ##### [Skriv ut informasjon om finansoppsett](LocalFunctionality/Switzerland/how-to-print-general-ledger-setup-information.md)
-#### <a name="purchasing-4"></a>Kjøp
+#### Kjøp
 ##### [Leveringspåminnelser](LocalFunctionality/Switzerland/delivery-reminders.md)
 ##### [Konfigurer leveringspåminnelser](LocalFunctionality/Switzerland/how-to-set-up-delivery-reminders.md)
 ##### [Konfigurer betingelser, grader og tekster for leveringspåminnelse](LocalFunctionality/Switzerland/how-to-set-up-delivery-reminder-terms-levels-and-text.md)
@@ -1451,36 +1451,36 @@
 ##### [Utsted leveringspåminnelser](LocalFunctionality/Switzerland/how-to-issue-delivery-reminders.md)
 ##### [Generer leveringspåminnelser](LocalFunctionality/Switzerland/how-to-generate-delivery-reminders.md)
 ##### [Skriv ut testrapporter for leveringspåminnelser](LocalFunctionality/Switzerland/how-to-print-test-reports-for-delivery-reminders.md)
-#### <a name="inventory-4"></a>Lager
+#### Lager
 ##### [Sveitsisk lagerstyring](LocalFunctionality/Switzerland/swiss-inventory-management.md)
 ##### [Skriv ut en lagerplukkliste fra en ordre](LocalFunctionality/Switzerland/how-to-print-an-inventory-picking-list-from-a-sales-order.md)
-#### <a name="general-13"></a>Generelt
+#### Generelt
 ##### [Importer sveitsisk postnumre](LocalFunctionality/Switzerland/how-to-import-swiss-post-codes.md)
 ##### [Sveitsiske kjøpsdokumenter og ordrer](LocalFunctionality/Switzerland/swiss-purchase-documents-and-sales-documents.md)
 
-### <a name="united-kingdom"></a>Storbritannia
+### Storbritannia
 #### [Lokal funksjonalitet i britisk versjon](LocalFunctionality/UnitedKingdom/united-kingdom-local-functionality.md)
-#### <a name="vat-15"></a>Mva.
+#### Mva.
 ##### [Gjør avgift digitalt – send omsetningsoppgaver](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)
 ##### [Endre mva-oppsettet i kladder](LocalFunctionality/UnitedKingdom/how-to-change-vat-setup-in-journals.md)
 ##### [Skriv ut mva-revisjonsrapporter](LocalFunctionality/UnitedKingdom/how-to-print-vat-audit-reports.md)
 ##### [Skriv ut mva-rapporter](LocalFunctionality/UnitedKingdom/how-to-print-vat-reports.md)
 ##### [Konfigurer snudd avregning på mva.](LocalFunctionality/UnitedKingdom/how-to-set-up-reverse-charges-on-vat.md)
-#### <a name="banking--payments-14"></a>Banktjenester og betalinger
+#### Banktjenester og betalinger
 ##### [Skriv ut sjekker for APACS](LocalFunctionality/UnitedKingdom/how-to-print-checks-for-apacs.md)
 ##### [Skriv ut remitteringsønske](LocalFunctionality/UnitedKingdom/how-to-print-remittance-advice.md)
-#### <a name="fixed-assets-5"></a>Aktiva
+#### Aktiva
 ##### [Definer regnskapsperioder for lineær avskrivning av aktiva](LocalFunctionality/UnitedKingdom/how-to-define-accounting-periods-for-straight-line-depreciation-of-fixed-assets.md)
-#### <a name="general-14"></a>Generelt
+#### Generelt
 ##### [Konfigurer en bokføringsdatoadvarsel](LocalFunctionality/UnitedKingdom/how-to-set-up-a-posting-date-warning.md)
 ##### [Angi lovbestemt informasjon](LocalFunctionality/UnitedKingdom/how-to-enter-statutory-information.md)
 ##### [Send data om svindelforebygging](LocalFunctionality/UnitedKingdom/fraud-prevention-data.md)
 ##### [GetAddress.io UK Postcodes-utvidelsen](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)
 ##### [Konfigurer GetAddress.io UK Postcodes-utvidelsen](LocalFunctionality/UnitedKingdom/uk-setup-postal-code-service.md)
 
-### <a name="united-states"></a>USA
+### USA
 #### [Lokal funksjonalitet i amerikansk versjon](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
-#### <a name="tax-4"></a>Avgift
+#### Avgift
 ##### [Grunnleggende avgiftsoppsett](LocalFunctionality/UnitedStates/us-tax-setup.md)  
 ##### [Rapportering av mva. i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)  
 ##### [Konfigurer og bruk IRS 1099-skjemaet](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
@@ -1488,18 +1488,18 @@
 ##### [Konfigurer og bruk IRS 1096-skjemaet](LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md)
 ##### [Konfigurer amerikansk mva. og innkjøpsavgift](LocalFunctionality/UnitedStates/how-to-set-up-use-tax-and-purchase-tax.md)  
 ##### [Konfigurer urealisert mva. og kontantrabatter for salg](LocalFunctionality/UnitedStates/how-to-set-up-unrealized-sales-tax-and-sales-payment-discounts.md)  
-#### <a name="banking--payments-15"></a>Banktjenester og betalinger
+#### Banktjenester og betalinger
 ##### [Opprett innbetalinger](LocalFunctionality/UnitedStates/how-to-create-deposits.md)  
 ##### [Avstem bankkontoer](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md)
 ##### [Utfør elektroniske betalinger](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)
-#### <a name="general-15"></a>Generelt
+#### Generelt
 ##### [Skriv ut feilsøkingsrapporter](LocalFunctionality/UnitedStates/how-to-print-troubleshooting-reports.md)
 ### [Send forskriftsmessige varsler](submit-regulatory-alerts.md)
 
 <!--setup-->
-## <a name="set-up-business-central"></a>Konfigurer Business Central
+## Konfigurer Business Central
 ### [Oversikt over oppgaver](setup.md)
-### <a name="set-up-finance"></a>Konfigurer finans
+### Konfigurer finans
 #### [Konfigurer finans](finance-setup-finance.md)
 #### [Konfigurer betalingsmåter:](finance-payment-methods.md)
 #### [Konfigurer betalingsbetingelser](finance-payment-terms.md)
@@ -1524,13 +1524,13 @@
 #### [Konfigurer kontantkunder](finance-how-to-set-up-cash-customers.md)
 #### [Konfigurer Intrastat-rapportering](finance-how-setup-report-intrastat.md)
 #### [Bruk fordelingsnøkler i finanskladder](ui-how-use-allocation-keys-general-journals.md)
-### <a name="set-up-banking"></a>Konfigurer banktjeneste
+### Konfigurer banktjeneste
 #### [Konfigurer banktjeneste](bank-setup-banking.md)
 #### [Konfigurer bankkontoer](bank-how-setup-bank-accounts.md)
 #### [Konfigurer Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md)
 #### [Bruk utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)
 #### [Velg et sjekkoppsett](finance-how-define-check-layouts.md)
-### <a name="set-up-sales"></a>Konfigurer salg
+### Konfigurer salg
 #### [Konfigurer salg](sales-setup-sales.md)
 #### [Registrer nye kunder](sales-how-register-new-customers.md)
 #### [Aktiver kundebetalinger gjennom betalingstjenester](sales-how-enable-payment-service-extensions.md)
@@ -1544,7 +1544,7 @@
 #### [Konfigurer leveringsmåter](sales-how-set-up-shipment-methods.md)
 #### [Konfigurer transportører](sales-how-to-set-up-shipping-agents.md)
 #### [Definer en fakturabokføringspolicy for brukere](admin-setup-invoice-posting-policy.md)
-### <a name="set-up-purchasing"></a>Konfigurer kjøp
+### Konfigurer kjøp
 #### [Konfigurer kjøp](purchasing-setup-purchasing.md)
 #### [Registrer nye leverandører](purchasing-how-register-new-vendors.md)
 #### [Konfigurer leverandørbankkontoer](purchasing-how-set-up-vendors-bank-accounts.md)
@@ -1553,7 +1553,7 @@
 #### [Konfigurer priser og rabatter](across-prices-and-discounts.md)
 #### [Registrer spesielle kjøpspriser og rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Definer en fakturabokføringspolicy for brukere](admin-setup-invoice-posting-policy.md)
-### <a name="set-up-inventory"></a>Konfigurer lager
+### Konfigurer lager
 #### [Konfigurer lager](inventory-setup-inventory.md)
 #### [Konfigurer generell informasjon om lagerbeholdning](inventory-how-setup-general.md)
 #### [Arbeid med ansvarssentre](inventory-responsibility-centers.md)
@@ -1566,12 +1566,12 @@
 #### [Kategoriser varer](inventory-how-categorize-items.md)
 #### [Importer flere varebilder](inventory-how-import-item-pictures.md)
 #### [Konfigurer varemarkedsføringstekst drevet av kunstig intelligens med Copilot](enable-ai.md)
-### <a name="set-up-project-management"></a>Konfigurer prosjektstyring
+### Konfigurer prosjektstyring
 #### [Konfigurer prosjekter](projects-setup-projects.md)
 #### [Konfigurer ressurser](projects-how-setup-resources.md)
 #### [Konfigurer timelister](projects-how-setup-time-sheets.md)
 #### [Konfigurer prosjekter](projects-how-setup-jobs.md)
-### <a name="set-up-fixed-assets"></a>Konfigurer aktiva
+### Konfigurer aktiva
 #### [Konfigurer aktiva](fa-setup.md)
 #### [Konfigurer generell aktivainformasjon](fa-how-setup-general.md)
 #### [Konfigurer aktivumavskrivninger](fa-how-setup-depreciation.md)
@@ -1579,7 +1579,7 @@
 #### [Konfigurer brukerdefinerte avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md)
 #### [Konfigurer forsikring for aktivum](fa-how-setup-insurance.md)
 #### [Konfigurer aktivumvedlikehold](fa-how-setup-maintenance.md)
-### <a name="set-up-warehouse-management"></a>Konfigurer lagerstyring
+### Konfigurer lagerstyring
 #### [Konfigurer lagre](warehouse-setup-warehouse.md)
 #### [Oversikt over lagerstyring](design-details-warehouse-management.md)
 #### [Konfigurer hylletyper](warehouse-how-to-set-up-bin-types.md)
@@ -1596,7 +1596,7 @@
 #### [Aktiver plukking etter FEFO](warehouse-picking-by-fefo.md)
 <!-- #### [Enable Automated Data Capture Systems (ADCS)](warehouse-use-automated-data-capture-systems-adcs.md) -->
 #### [Omstrukturer lagre](warehouse-how-to-restructure-warehouses.md)
-### <a name="set-up-manufacturing"></a>Konfigurer produksjon
+### Konfigurer produksjon
 #### [Konfigurer produksjon](production-configure-production-processes.md)
 #### [Opprett arbeidssenterkalendere](production-how-to-create-work-center-calendars.md)
 #### [Konfigurer arbeidssentre og produksjonsressurser](production-how-to-set-up-work-and-machine-centers.md)
@@ -1608,7 +1608,7 @@
 #### [Arbeid med produksjonsfamilier](production-how-work-family.md)
 #### [Konfigurer standard rutelinjer](production-how-set-up-standard-routing-lines.md)
 #### [Underleverandørproduksjon](production-how-to-subcontract-manufacturing.md)
-### <a name="set-up-service-management"></a>Konfigurer serviceoppsett
+### Konfigurer serviceoppsett
 #### [Konfigurer serviceoppsett](service-setup-service.md)
 #### [Opprett servicevarer](service-how-to-create-service-items.md)
 #### [Konfigurer standard servicekoder](service-how-setup-service-coding.md)
@@ -1623,17 +1623,17 @@
 #### [Konfigurer statuser for serviceordrer og reparasjoner](service-order-repair-status.md)
 #### [Konfigurer et program for utlånsobjekter](service-how-setup-loaner-program.md)
 #### [Konfigurer servicekontrakter](service-how-setup-service-contracts.md)
-### <a name="set-up-complex-application-areas-using-best-practices"></a>Konfigurer komplekse moduler ved å bruke anbefalte fremgangsmåter
+### Konfigurer komplekse moduler ved å bruke anbefalte fremgangsmåter
 #### [Anbefalte fremgangsmåter for oppsett](set-up-complex-application-areas-using-best-practices.md)
-#### <a name="setup-best-practices-supply-planning"></a>Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging
+#### Anbefalte fremgangsmåter for oppsett: Forsyningsplanlegging
 ##### [Konfigurer forsyningsplanlegging](setup-best-practices-supply-planning.md)
 ##### [Anbefalte fremgangsmåter for oppsett: Planleggingsparametere](setup-best-practices-planning-parameters.md)
 ##### [Anbefalte fremgangsmåter for oppsett: Oppsett for global planlegging](setup-best-practices-global-planning-setup.md)
 ##### [Anbefalte fremgangsmåter for oppsett: Gjenbestillingsprinsipper](setup-best-practices-reordering-policies.md)
 #### [Anbefalte fremgangsmåter: Lagermetoder](setup-best-practices-costing-method.md)
-### <a name="set-up-email"></a>Konfigurer e-post
+### Konfigurer e-post
 #### [Konfigurer e-post](admin-how-setup-email.md)
-#### <a name="set-up-your-business-inbox-in-microsoft-outlook"></a>Konfigurer forretningsinnboksen i Microsoft Outlook
+#### Konfigurer forretningsinnboksen i Microsoft Outlook
 ##### [Hent Business Central-tillegget for Outlook](admin-outlook.md)
 ##### [Bruk Business Central som forretningsinnboks i Outlook](work-outlook-addin.md)
 ##### [Synkroniser med kontakter i Outlook](admin-synchronize-outlook-contacts.md)
@@ -1641,9 +1641,9 @@
 ##### [Optimaliser Outlook](admin-outlook-optimize.md)
 ##### [Bruk Business Central uten Outlook](admin-no-outlook.md)
 ##### [Vanlige spørsmål](ui-outlook-addin-faq.yml)
-### <a name="set-up-reports"></a>Konfigurer rapporter
+### Konfigurer rapporter
 #### [Rapportvalg for dokumenter](across-report-selections.md)
-### <a name="set-up-approval-workflows-based-on-templates"></a>Konfigurer arbeidsflyter for godkjenning basert på maler
+### Konfigurer arbeidsflyter for godkjenning basert på maler
 #### [Konfigurer arbeidsflyter for godkjenning](across-set-up-workflows.md)
 #### [Konfigurer arbeidsflytbrukere](across-how-to-set-up-workflow-users.md)
 #### [Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)
@@ -1654,14 +1654,14 @@
 #### [Eksporter og importer arbeidsflyter for godkjenning](across-how-to-export-and-import-workflows.md)
 #### [Gjennomgang: Konfigurer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 <!--Connectors-->
-### <a name="set-up-connections"></a>Konfigurer tilkoblinger
+### Konfigurer tilkoblinger
 #### [Hent Business Central-tillegget for Excel](admin-deploy-excel-addin.md)
-#### <a name="use-business-central-as-your-business-inbox-in-outlook"></a>Bruk Business Central som forretningsinnboks i Outlook
+#### Bruk Business Central som forretningsinnboks i Outlook 
 ##### [Oversikt](admin-outlook.md)
 ##### [Synkroniser med kontakter i Microsoft Outlook](admin-synchronize-outlook-contacts.md)
 ###### [Konfigurer kontaktsynkronisering for lokal versjon](admin-contact-sync-setup-onprem.md)
 ##### [Bruk Business Central uten Outlook](admin-no-outlook.md)
-#### <a name="use-microsoft-teams-with-business-central"></a>Bruk Microsoft Teams med Business Central
+#### Bruk Microsoft Teams med Business Central
 ##### [Oversikt](across-teams-overview.md)
 ##### [Administrer Teams-integrering](admin-teams-integration.md)
 ##### [Installer Business Central-appen for Teams](across-install-app-for-teams.md)
@@ -1672,29 +1672,29 @@
 ##### [Endre selskap og andre innstillinger](across-teams-settings.md)
 ##### [Vanlige spørsmål om Teams](teams-faq.md)
 ##### [Feilsøk Teams-integrering](admin-teams-troubleshooting.md)
-#### <a name="use-onedrive-for-business-with-business-central"></a>Bruk OneDrive for Business med Business Central
+#### Bruk OneDrive for Business med Business Central
 ##### [Oversikt](across-onedrive-overview.md)
 ##### [Administrer OneDrive for Business-integrering](admin-onedrive-integration.md)
 ###### [Konfigurer OneDrive-integrering med Business Central On-premises](admin-onedrive-integration-onpremises.md)
 ##### [Åpne og del filer i OneDrive](across-share-onedrive.md)
 ##### [Vanlige spørsmål om OneDrive](admin-onedrive-faq.md)
-#### <a name="use-power-bi-with-business-central"></a>Bruk Power BI med Business Central
+#### Bruk Power BI med Business Central
 ##### [Introduksjon](admin-powerbi.md)
-##### <a name="administrator"></a>Administrator
+##### Administrator
 ###### [Oversikt over integrering](admin-powerbi-overview.md)
 ###### [Aktiver Power BI-integrering](admin-powerbi-setup.md)
-##### <a name="report-creator"></a>Rapportoppretter
+##### Rapportoppretter
 ###### [Kom i gang med å bygge rapporter](across-how-use-financials-data-source-powerbi.md)
 ###### [Opprett rapporter for å vise listedata](across-how-use-powerbi-reports-factbox.md)
-##### <a name="business-user"></a>Forretningsbruker
+##### Forretningsbruker
 ###### [Arbeid med Power BI-rapporter i Business Central](across-working-with-powerbi.md)
 ###### [Arbeid med Business Central-data i Power BI](across-working-with-business-central-in-powerbi.md)
 ###### [Bruk Business Central-appene i Power BI](across-powerbi-business-central-apps.md)
 ##### [Vanlige spørsmål](power-bi-faq.md)
-#### <a name="use-power-automate-with-business-central"></a>Bruk Power Automate med Business Central
+#### Bruk Power Automate med Business Central
 ##### [Bruk Power Automate-flyter i Business Central](across-how-use-financials-data-source-flow.md)
 ##### [Feilsøk automatiserte arbeidsflyter](across-flow-troubleshoot.md)  
-#### <a name="use-power-apps-with-business-central"></a>Bruk Power Apps med Business Central
+#### Bruk Power Apps med Business Central
 ##### [Koble til Business Central-dataene for å utvikle en forretningsapp ved hjelp av Power Apps](across-how-use-financials-data-source-powerapps.md)
 #### [Endre fra en QuickBooks-app til Business Central](across-quickbooks-to-business-edition.md)
 #### [Massefakturering for Microsoft Bookings](finance-bookings.md)
@@ -1702,7 +1702,7 @@
 ### [Selskapsopplysninger](admin-company-information.md)
 ### [Opprett nummerserier](ui-create-number-series.md)
 ### [Konfigurer hovedkalendere](across-how-to-assign-base-calendars.md)
-### <a name="set-up-printers"></a>Konfigurer skrivere
+### Konfigurer skrivere
 #### [Oversikt](admin-printer-setup-overview.md)
 #### [Skrivere for Universell utskrift](admin-printer-setup-universal-print.md)
 #### [E-postskrivere](admin-printer-setup-email.md)
@@ -1711,11 +1711,11 @@
 ### [Få Business Central på mobilenheten din](install-mobile-app.md)
 ### [Få Business Central på skrivebordet ditt](install-desktop-app.md)
 <!--Reporting landing page-->
-# <a name="business-intelligence-and-reporting"></a>Forretningsanalyse og rapportering
+# Forretningsanalyse og rapportering 
 
 ## [Oversikt](reports-bi-reporting.md)
 
-## <a name="use-reports-in-daily-work"></a>Bruk rapporter i daglig arbeid
+## Bruk rapporter i daglig arbeid
 ### [Oversikt](reports-use-reports.md)
 ### [Kjør rapporter](ui-work-report.md)
 ### [Bokmerk en rapport](ui-bookmarks.md)
@@ -1727,9 +1727,9 @@
 ### [Angi oppsettet som brukes av en rapport](ui-set-report-layout.md)
 ### [(Eldre) Angi oppsettet som brukes av en rapport](ui-how-change-layout-currently-used-report.md)
 
-## <a name="built-in-reports"></a>Innebygde rapporter
+## Innebygde rapporter
 ### [Oversikt over rapporter](reports-available-reports.md)
-### <a name="finance-1"></a>Finans
+### Finans
 #### [Finansforretningsanalyse](bi.md)
 #### [Analyser årsregnskaper med Excel](finance-analyze-excel.md)
 #### [Hovedfinansrapporter](finance-reports.md)
@@ -1738,17 +1738,17 @@
 #### [Kontantstrømanalyse](finance-setup-cash-flow-analyses.md)
 #### [Konsolider finansdata fra flere selskaper](finance-consolidated-company-reporting.md)
 
-### <a name="sales-1"></a>Salg
+### Salg
 #### [Salgsrapporter](sales-reports.md)
 #### [Status for rammeordre](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
 #### [Pakkesporing](sales-how-track-packages.md)
 #### [Vis ikke-bokførte og bokførte rammeordrelinjer](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
-### <a name="purchasing-5"></a>Kjøp
+### Kjøp
 #### [Kjøpsrapporter](purchase-reports.md)
 #### [Vis kjøpsposter](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
-### <a name="inventory-and-warehouse"></a>Beholdning og lager
+### Beholdning og lager
 #### [Beholdning og lagerrapporter](inventory-wms-reports.md)
 #### [Varedisposisjon](inventory-how-availability-overview.md)
 #### [Spor varer med serie-, parti- og pakkenumre](inventory-how-work-item-tracking.md)
@@ -1756,12 +1756,12 @@
 #### [Revider avstemmingen mellom lagerposten og finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
 #### [Vis kryssoverførte varer i en levering eller plukkforslaget](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
 
-### <a name="project"></a>Prosjekt
+### Prosjekt
 #### [Prosjektrapporter](project-reports.md)
 #### [Vis prosjektforbruksestimater](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
 #### [Overvåk prosjektfremdrift og -ytelse](projects-how-monitor-progress-performance.md)
 
-### <a name="fixed-assets-6"></a>Aktiva
+### Aktiva
 #### [Aktivarapporter](fa-reports.md)
 #### [Overvåk vedlikeholdskostnader](fa-how-maintain.md#to-monitor-maintenance-costs)
 #### [Overvåk forsikringsdekning](fa-how-insure.md#to-monitor-insurance-coverage)
@@ -1769,22 +1769,22 @@
 #### [Vis avhendingsposter](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 #### [Vis forventede avhendingsverdier](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 
-### <a name="assembly-management-1"></a>Monteringsstyring
+### Monteringsstyring
 #### [Monteringsstyringsrapporter](assembly-reports.md)
 #### [Vis stykklistestrukturen](assembly-how-work-assembly-boms.md#to-view-components-and-resources-indented-according-to-the-bom-structure)
 
-### <a name="manufacturing-2"></a>Produksjon
+### Produksjon
 #### [Produksjonsrapporter](production-reports.md)
 #### [Vis belastning på arbeidssentre og produksjonsressurser](production-how-to-view-the-load-on-work-centers.md)
 #### [Vis arbeidssenterposter](production-how-to-post-capacities.md#to-view-work-center-ledger-entries)
 
-### <a name="service-management-1"></a>Servicebehandling
+### Servicebehandling
 #### [Vis servicestatistikk](service-service-statistics.md)
 #### [Oversikt over serviceordrer](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Oversikt over servicetilbud](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Oversikt over bokført servicedokument](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
-## <a name="ad-hoc-data-analysis"></a>Analyse av ad hoc-data
+## Analyse av ad hoc-data
 ### [Oversikt](reports-adhoc-analysis.md)
 ### [Sorter, søk etter og filtrer](ui-enter-criteria-filters.md)
 ### [Vanlige spørsmål om søk og filtrering](ui-search-filter-faq.yml)
@@ -1793,7 +1793,7 @@
 ### [Analyser listedata med analysemodus](analysis-mode.md)
 ### [Finansforretningsanalyse](bi.md)
 
-## <a name="built-in-analytics"></a>Innebygd analyse
+## Innebygd analyse 
 ### [Oversikt](reports-built-in-analytics.md)
 ### [Intelligent innsikt](about-intelligent-cloud.md)
 ### [Arbeid med Power BI-rapporter](across-working-with-powerbi.md)
@@ -1803,16 +1803,16 @@
 ### [Telemetri for rapportbruk](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 
 
-## <a name="analyze-data-in-business-intelligence-tools"></a>Analyser data i Business Intelligence Tools
+## Analyser data i Business Intelligence Tools
 ### [Oversikt](reports-external-analysis.md)
 ### [Bruk Power BI med Business Central](admin-powerbi.md)
 ### [Analyser årsregnskaper med Excel](finance-analyze-excel.md)
 ### [Trekk ut data til datalagre eller datasjøer](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
 ### [Les data med Business Central-API-en](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
 
-## <a name="developing-reports"></a>Utvikling av rapporter
+## Utvikling av rapporter
 ### [Oversikt](reports-develop-reports.md)
-### <a name="developing-report-layouts"></a>Utvikling av rapportoppsett
+### Utvikling av rapportoppsett
 #### [Oppsettyper (Word, Excel, RDLC)](ui-manage-report-layouts.md)
 #### [Opprett og endre oppsett](ui-get-started-layouts.md)
 <!--#### [Create a New Layout](ui-how-create-custom-report-layout.md)-->
@@ -1821,46 +1821,46 @@
 #### [Arbeid med RDLC-oppsett](ui-rdlc-report-layouts.md)
 #### [Bruk skrifter i oppsett](ui-fonts.md)  
 <!--#### [Import/Export a Layout](ui-how-import-and-export-report-layout.md)
-#### <a name="update-a-layout--"></a>[Update a Layout](ui-update-report-layouts.md)-->
+#### [Update a Layout](ui-update-report-layouts.md)-->
 #### [Angi standardoppsettet](ui-set-report-layout.md)
 <!--#### [Set the Layout (legacy)](ui-how-change-layout-currently-used-report.md)-->
-### <a name="developing-report-datasets"></a>Utvikling av rapportdatasett
+### Utvikling av rapportdatasett
 #### [Veiledning for rapportutvikling](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Veiledning for justering av rapportytelse](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
 
-# <a name="security-privacy-compliance"></a>Sikkerhet, personvern, samsvar
-## <a name="security-and-protection"></a>Sikkerhet og beskyttelse
+# Sikkerhet, personvern, samsvar
+## Sikkerhet og beskyttelse
 ### [Oversikt over sikkerhet og beskyttelse (bare på engelsk)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
-## <a name="privacy"></a>Personvern
+## Personvern
 ### [Personvern (microsoft.com)](https://www.microsoft.com/trust-center/privacy)
-## <a name="compliance"></a>Samsvar
+## Samsvar
 ### [Samsvarsoversikt](compliance/compliance-overview.md)
 ### [Programsamsvar](compliance/compliance-application-compliance.md)
 ### [Servicesamsvar](compliance/compliance-service-compliance.md)
 ### [Sertifiseringer](compliance/compliance-certifications.md)
 ## [Serviceoversikt (bare på engelsk)](/dynamics365/business-central/dev-itpro/service-overview?toc=/dynamics365/business-central/toc.json)
 ## [Prøvefunksjoner som kobles til andre Microsoft-tjenester](privacy-connected-services.md)
-# <a name="development-and-administration"></a>Utvikling og administrasjon
+# Utvikling og administrasjon
 ## [Kom i gang med utviklings- og administrasjonsdokumentasjon](/dynamics365/business-central/dev-itpro/index?toc=/dynamics365/business-central/toc.json)
-## <a name="administration-tasks-in-business-central"></a>Administrasjonsoppgaver i Business Central
+## Administrasjonsoppgaver i Business Central
 ### [Administrasjonsoppgaver](admin-setup-and-administration.md)
-### <a name="manage-access-to-business-central"></a>Administrer tilgang til Business Central
+### Administrer tilgang til Business Central
 #### [Oversikt](admin-access-overview.md)
 #### [Styr tilgang til Business Central ved å bruke sikkerhetsgrupper](ui-security-groups.md)
-#### <a name="access-with-microsoft-365-licenses"></a>Få tilgang med Microsoft 365-lisenser
+#### Få tilgang med Microsoft 365-lisenser
 ##### [Oversikt](admin-access-with-m365-license.md)
 ##### [Konfigurer tilgang med Microsoft 365-lisenser](admin-access-with-m365-license-setup.md)
 ##### [Brukertilgangsflyt](admin-access-with-m365-license-flow.md)
 ##### [Vanlige spørsmål](admin-access-with-m365-license-faq.md)
 ##### [Feilsøk](admin-access-with-m365-license-troubleshooting.md) 
-#### <a name="grant-user-permissions"></a>Gi brukertillatelser
+#### Gi brukertillatelser
 ##### [Opprett brukere i henhold til lisenser](ui-how-users-permissions.md)
 ##### [Tildel tillatelser til brukere og grupper](ui-define-granular-permissions.md)
-### <a name="manage-user-settings"></a>Administrer brukerinnstillinger
+### Administrer brukerinnstillinger
 #### [Administrer profiler](admin-users-profiles-roles.md)
 #### [Administrer brukerinnstillinger og innstillinger](admin-manage-user-settings-preferences.md)
-### <a name="control-your-data"></a>Kontroller dataene
+### Kontroller dataene
 #### [Klassifiser datasensitivitet](admin-classifying-data-sensitivity.md)
 #### [Svar på forespørsler om personopplysninger](admin-responding-to-requests-about-personal-data.md)
 #### [Loggendringer](across-log-changes.md)
@@ -1881,12 +1881,12 @@
 ### [Aktiver nye funksjoner på forhånd](admin-feature-management.md)
 ### [Innfør brukere med sjekklister](admin-checklist.md)
 ### [Sandkassemiljøer](admin-sandbox-environments.md)
-## <a name="customize-business-central"></a>Tilpass Business Central
+## Tilpass Business Central
 ### [Oversikt over tilpasning](ui-customizing-overview.md)
 ### [Tilpass sider for profiler](ui-personalization-manage.md)
 ### [Endre hvilke funksjoner som vises](ui-experiences.md)
 ### [Konfigurer en farget indikator for bunke-ikoner](admin-how-set-up-colored-indicator-on-cues.md)
-### <a name="customize-with-extensions"></a>Tilpass med utvidelser
+### Tilpass med utvidelser
 #### [Oversikt over utvidelser](ui-extensions.md)
 #### [Installer og avinstaller utvidelser](ui-extensions-install-uninstall.md)
 #### [AMC Banking 365 Fundamentals-utvidelse](ui-extensions-amc-banking.md)
@@ -1913,9 +1913,9 @@
 #### [US/CA/UK/AU/NZ/ZA – Send remitteringsønske](ui-extensions-send-remittance-advice.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [Business Central-utvidelser fra andre leverandører](ui-extensions-other.md)
-## <a name="integrate-with-dynamics-365-sales"></a>Integrer med Dynamics 365 Sales
+## Integrer med Dynamics 365 Sales
 ### [Integrer med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
-## <a name="integrate-with-microsoft-dataverse"></a>Integrer med Microsoft Dataverse
+## Integrer med Microsoft Dataverse
 ### [Integrer med Microsoft Dataverse](admin-common-data-service.md)
 ### [Dataeierskapsmodeller](admin-cds-company-concept.md)
 ### [Konfigurer brukerkontoer for integrering med Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)
@@ -1926,12 +1926,12 @@
 ### [Planlegg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Feilsøk synkroniseringsfeil](admin-troubleshoot-sales-synchronization.md)
 ### [Bruk en Power Automate-flyt for varsler om Dataverse-enhetsendringer](admin-power-automate-flow-dataverse.md)
-## <a name="synchronize-master-data-across-companies"></a>Synkroniser hoveddata på tvers av selskaper
+## Synkroniser hoveddata på tvers av selskaper
 ### [Gjør deg klar til å synkronisere hoveddata](admin-set-up-data-sync.md)
 ### [Administrer synkronisering av hoveddata](admin-sync-master-data.md)
-## <a name="design-details-1"></a>Utformingsdetaljer
+## Utformingsdetaljer
 ### [Oversikt over detaljer for utforming av programmet](design-details-application-design.md)
-### <a name="design-details-supply-planning-1"></a>Utformingsdetaljer: Forsyningsplanlegging
+### Utformingsdetaljer: Forsyningsplanlegging
 #### [Oversikt over forsyningsplanlegging](design-details-supply-planning.md)
 #### [Utformingsdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)  
 #### [Utformingsdetaljer: Reservasjon, ordresporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md)  
@@ -1940,14 +1940,14 @@
 #### [Utformingsdetaljer Planleggingsparametere](design-details-planning-parameters.md)  
 #### [Utformingsdetaljer: Tabell for planleggingstildeling](design-details-planning-assignment-table.md)  
 #### [Utformingsdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md)
-### <a name="design-details-inventory-costing-1"></a>Utformingsdetaljer: Kostberegning for beholdning
+### Utformingsdetaljer: Kostberegning for beholdning
 #### [Oversikt over kostberegning](design-details-inventory-costing.md)
 #### [Utformingsdetaljer: Lagermetoder](design-details-costing-methods.md)  
 #### [Utformingsdetaljer: Endre lagermetode for varer](design-details-changing-costing-methods.md)
 #### [Utformingsdetaljer: Vareutligning](design-details-item-application.md)  
 #### [Utformingsdetaljer: Kjent vareutligningsproblem](design-details-inventory-zero-level-open-item-ledger-entries.md)  
 #### [Utformingsdetaljer: Kostnadsjustering](design-details-cost-adjustment.md)  
-#### <a name="design-details-posting-date-on-adjustment-value-entry-1"></a>Utformingsdetaljer: Bokføringsdato på justeringsverdipost
+#### Utformingsdetaljer: Bokføringsdato på justeringsverdipost
 #### [Utformingsdetaljer: Bokføringsdato på justeringsverdipost](design-details-inventory-adjustment-value-entry-posting-date.md)  
 ##### [Feilmeldingen «Bokføringsdatoen er ikke innenfor området for tillatte bokføringsdatoer»](design-details-inventory-adjustment-value-entry-allowed-posting-dates.md)  
 ##### [Bokføringsdato for justeringsverdipost sammenlignet med kildeposten](design-details-inventory-adjustment-value-entry-source-entry.md)  
@@ -1973,7 +1973,7 @@
 ### [Utformingsdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md)  
 <!-- #### [Design Details: Outbound Warehouse Flow](design-details-outbound-warehouse-flow.md)  -->
 <!-- #### [Design Details: Integration with Inventory](design-details-integration-with-inventory.md)-->
-### <a name="design-details-item-tracking-1"></a>Utformingsdetaljer: Varesporing
+### Utformingsdetaljer: Varesporing
 #### [Oversikt over varesporing](design-details-item-tracking.md)
 #### [Utformingsdetaljer: Varesporingsutforming](design-details-item-tracking-design.md)  
 #### [Utformingsdetaljer: Bokføringsstruktur for varesporing](design-details-item-tracking-posting-structure.md)  
@@ -1983,17 +1983,17 @@
 #### [Utformingsdetaljer: Varesporing og planlegging](design-details-item-tracking-and-planning.md)  
 #### [Utformingsdetaljer: Varesporing og reservasjoner](design-details-item-tracking-and-reservations.md)  
 #### [Utformingsdetaljer: Varesporing i lageret](design-details-item-tracking-in-the-warehouse.md)
-### <a name="design-details-general-journal-post-line-1"></a>Utformingsdetaljer: Bokfør linje for finanskladd
+### Utformingsdetaljer: Bokfør linje for finanskladd
 #### [Bokføring av linje for finanskladd](design-details-general-journal-post-line.md)
 #### [Oversikt over bokføring av linje for finanskladd](design-details-general-journal-post-line-overview.md)  
 #### [Utformingsdetaljer: Strukturen til bokføringsgrensesnittet](design-details-posting-interface-structure.md)  
 #### [Utformingsdetaljer: Strukturen til bokføringsmotoren](design-details-posting-engine-structure.md)  
-### <a name="design-details-dimension-set-entries-1"></a>Utformingsdetaljer: Dimensjonssettposter
+### Utformingsdetaljer: Dimensjonssettposter
 #### [Utformingsdetaljer: Oversikt over dimensjonssettposter](design-details-dimension-set-entries-overview.md)  
 #### [Utformingsdetaljer: Søk etter dimensjonskombinasjoner](design-details-searching-for-dimension-combinations.md)  
 #### [Utformingsdetaljer: Tabellstruktur](design-details-table-structure.md)
 <!--migrate to BC online-->
-## <a name="migrate-to-business-central-online"></a>Overfør til Business Central Online
+## Overfør til Business Central Online
 ### [Overfør lokale data](/dynamics365/business-central/dev-itpro/administration/migrate-data?toc=/dynamics365/business-central/toc.json)
 ### [Kjør skyoverføringsverktøyet](/dynamics365/business-central/dev-itpro/administration/migration-tool?toc=/dynamics365/business-central/toc.json)
 ### [Administrer overføringen til skyen](/dynamics365/business-central/dev-itpro/administration/migration-management?toc=/dynamics365/business-central/toc.json)
