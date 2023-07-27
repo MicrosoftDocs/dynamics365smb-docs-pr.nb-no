@@ -10,7 +10,7 @@ ms.search.keywords: 'remove, delete'
 ms.date: 06/08/2022
 ms.author: edupont
 ---
-# <a name="unsubscribe-or-remove-"></a>Avbryte eller fjerne [!INCLUDE[prod_short](includes/prod_short.md)]
+# Avbryte eller fjerne [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Hvis du vil slutte å bruke [!INCLUDE[prod_short](includes/prod_short.md)], kan du lukke kontoen eller få lisensen fjernet fra kontoen. Fremgangsmåten er forskjellig hvis du bruker prøveversjon eller hvis du har abonnement.  
 
@@ -23,11 +23,11 @@ Hvis du vil avslutte et abonnement, må administratoren fjerne abonnementet i Mi
 
 Du kan lese om hvordan du eksporterer data til Excel i [Eksport data til andre finanssystemer](about-export-data.md#exporting-data-to-other-finance-systems). Hvis du heller vil eksportere alle dataene til en Azure Storage-beholder, kan Microsoft 365-administratoren gjøre dette i administrasjonssenteret. Hvis du vil ha mer informasjon, kan du se [Eksporter databaser i administrasjonssenteret](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export).  
 
-## <a name="removing--from-your-app-launcher"></a>Fjerne [!INCLUDE[prod_short](includes/prod_short.md)] fra appstarteren
+## Fjerne [!INCLUDE[prod_short](includes/prod_short.md)] fra appstarteren
 
 Hvis du vil skjule [!INCLUDE[prod_short](includes/prod_short.md)] fra appstarteren, kan du løsne den. Ingen data går tapt, og trinnet avbryter ikke abonnementet.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Vanlige spørsmål om Business Central-prøveversjon](trial-faq.md)  
 [Prøveversjoner og abonnementer (for administratorer)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions)  
@@ -35,7 +35,6 @@ Hvis du vil skjule [!INCLUDE[prod_short](includes/prod_short.md)] fra appstarter
 [Opprett nye selskaper](about-new-company.md)  
 [Eksporter forretningsdataene til Excel](about-export-data.md)  
 [Microsoft 365-administrasjonssenter](https://admin.microsoft.com/)  
-[Hvor lenge varer prøveperioden, og hvordan avbestiller jeg?](https://community.dynamics.com/business/b/financials/archive/2016/11/28/how-long-is-the-trial-period-and-how-do-i-cancel)  
 [Eksporter forretningsdataene til Excel](about-export-data.md)  
 [Eksporter databaser i administrasjonssenteret](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-database-export)  
 [Microsoft 365-forretningsabonnementer og faktureringsdokumentasjon](/microsoft-365/commerce/)  
