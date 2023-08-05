@@ -10,7 +10,7 @@ ms.workload: na
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="the-worldpay-payments-standard-extension"></a>WorldPay Payments Standard-utvidelsen
+# WorldPay Payments Standard-utvidelsen
 
 > [!CAUTION]
 > WorldPay Payments Standard-utvidelsen blir avskrevet. Koden markedsføres som foreldet fra og med lanseringsbølge 2 i 2023. Appen er aktiv for de neste tre hovedversjonene og blir deretter fjernet.   
@@ -20,7 +20,7 @@ Hvis du aktiverer filtypen og sender en faktura eller ordre via e-post, vil doku
 
 Aktiverer utvidelser for betaling-tjenesten er gratis i [!INCLUDE[prod_short](includes/prod_short.md)], men du må kontakte tjenesten for å få en konto. Hvis du vil ha mer informasjon, kan du se [Aktivere kundebetalinger gjennom betalingstjenester](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilpass [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Sette opp salg](sales-setup-sales.md)  

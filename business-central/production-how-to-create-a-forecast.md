@@ -10,7 +10,7 @@ ms.search.form: '9245, 99000919, 99000921, 99000922'
 ms.date: 03/11/2022
 ms.author: edupont
 ---
-# <a name="create-a-demand-forecast"></a>Opprette en behovsprognose
+# Opprette en behovsprognose
 
 Du kan opprette salgs- og produksjonsprognoser på **Behovsprognoser**-listesiden. Deretter angir du ulike innstillinger for prognosene på siden **Oversikt over behovsprognose**.  
 
@@ -20,7 +20,7 @@ Prognoser gir selskapet muligheten til å lage "hva om"-scenarier og å planlegg
 
 Med lanseringsbølge 1 for 2022 kan du også definere det riktige detaljnivået i feltene **Prognoser per lokasjon** og **Prognose per variant** på siden **Oversikt over behovsprognose**. Filtre og andre innstillinger lagres i tabellen **navn på behovsprognose**. Slik at du lett kan stoppe og fortsette arbeidet senere. Hvis organisasjonen din er oppdatert til lanseringsbølge 1 for 2022, må du bytte til den nye opplevelsen på siden [Funksjonsbehandling](admin-feature-management.md).  
 
-## <a name="sales-forecasts-and-production-forecasts"></a>Salgsprognoser og produksjonsprognoser
+## Salgsprognoser og produksjonsprognoser
 
 Prognosefunksjonaliteten i programmet kan brukes til å opprette salgs- eller produksjonsprognoser, kombinert eller uavhengig av hverandre. De fleste selskaper som produserer varer til ordrer, har for eksempel ikke ferdige varer på lager siden hver vare produseres når den bestilles av kunden. Å kunne forutse ordrer (via salgsprognoser) er avgjørende for å oppnå en rimelig gjennomløpstid for de ferdige varene (via produksjonsprognoser). Komponentdeler med lange leveringstider kan for eksempel forsinke produksjonen hvis de ikke er bestilt eller på lager.  
 
@@ -38,21 +38,21 @@ Prognosen består av poster med varenummer, prognosedato og prognoseantall. Prog
 
 Du må angi en prognose som *Salgsvare*, *Komponent* eller *Begge*. Prognosetypen *Salgsvare* brukes til salgsprognoser. Du oppretter produksjonsprognosen ved å bruke *Komponent*-typen. Prognosetypen *Begge* brukes bare til å gi planleggeren en oversikt over både salgsprognosen og produksjonsprognosen. Hvis du velger dette alternativet, kan ikke prognosepostene redigeres. Når du angir disse prognosetypene her, kan du bruke det samme forslaget til å angi en salgsprognose slik du angir en produksjonsprognose, og til å vise begge prognosene samtidig. Merk at systemet behandler de ulike inndataene (salg og produksjon) på ulike måter ved beregning av planlegging, basert på vare og produksjonsoppsett.  
 
-## <a name="component-forecast"></a>Komponentprognose
+## Komponentprognose
 
 Komponentprognosen kan ses på som en prognose for en valgfri enhet i forbindelse med en overordnet vare. Dette kan for eksempel være nyttig hvis planleggeren kan anslå behovet for komponenten.  
 
 Siden komponentprognosen er utformet for å definere valgfrie enheter for en overordnet vare, skal komponentprognosen være mindre enn eller lik salgsvareprognoseantallet. Hvis komponentprognosen er større enn salgsvareprognosen, behandler systemet avviket mellom disse to prognosetypene som uavhengig behov.  
 
-## <a name="forecasting-periods"></a>Prognoseperioder
+## Prognoseperioder
 
 Prognoseperioden er gyldig fra sin egen startdato frem til startdatoen for den neste prognosen. På tidsintervallsiden kan du velge mellom flere alternativer for å sette inn behovet på en bestemt dato i en periode. Det anbefales derfor at du ikke endrer prognoseperiodeomfanget med mindre du vil flytte alle prognoseposter til startdatoen i denne perioden.  
 
-## <a name="forecast-by-locations"></a>Prognose etter lokasjoner
+## Prognose etter lokasjoner
 
 På siden **Produksjonsoppsett** kan du angi om du vil vurdere lokasjonene som er definert i prognoser når du beregner planer. 
 
-### <a name="use-forecast-by-locations"></a>Bruk prognose etter lokasjoner
+### Bruk prognose etter lokasjoner
 
 Hvis du slår på vekslebryteren **Bruk prognose etter lokasjon**, vil [!INCLUDE[prod_short](includes/prod_short.md)] respektere alle lokasjonskodene som er angitt for hver enkelt behovsprognose, og beregne resten av prognosen for hver lokasjon.  
 
@@ -69,7 +69,7 @@ Deretter oppretter du en ordre med et antall på 12 på lokasjon VEST. Planleggi
 > [!NOTE]  
 > Hvis du viser lokasjonsbaserte prognoser isolert, kan det hende at den samlede prognosen ikke er representativ.
 
-### <a name="do-not-use-forecast-by-locations"></a>Ikke bruk prognose etter lokasjoner
+### Ikke bruk prognose etter lokasjoner
 
 Hvis du deaktiverer vekslebryteren **Bruk prognose etter lokasjon**, vil [!INCLUDE[prod_short](includes/prod_short.md)] ignorere lokasjonskodene som er angitt for hver enkelt behovsprognose, og samle prognoser til en prognose for tomme lokasjoner.  
 
@@ -86,7 +86,7 @@ Deretter oppretter du en ordre med et antall på 12 på lokasjon VEST. Planleggi
 > [!NOTE]  
 > Du kan definere et filter etter lokasjoner, men det kan hende at lokasjonsbaserte resultater ikke samsvarer med planleggingsresultater uten filtre.
 
-## <a name="to-create-a-demand-forecast"></a>Slik oppretter du en behovsprognose:
+## Slik oppretter du en behovsprognose:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Behovsprognose**, og velg deretter den relaterte koblingen.  
 2. Velg en prognose i feltet **Navn på behovsprognose** på hurtigfanen **Generelt**. Det kan finnes flere prognoser, og de skilles med navn og prognosetype.  
@@ -104,7 +104,7 @@ Deretter oppretter du en ordre med et antall på 12 på lokasjon VEST. Planleggi
 > [!NOTE]  
 > Du kan også redigere en eksisterende prognose. Velg **Kopier behovsprognose** på siden **Matrise for behovsprognose**, og fyll ut **Behovsprognose**-siden med en eksisterende prognose. Deretter kan du redigere antall etter behov.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Definere produksjon](production-configure-production-processes.md)  
 [Produksjon](production-manage-manufacturing.md)

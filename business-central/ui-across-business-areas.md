@@ -8,14 +8,8 @@ ms.service: dynamics365-business-central
 ms.topic: conceptual
 ms.date: 12/01/2022
 ms.custom: bap-template
-ms.openlocfilehash: c9f17c81e3cb2fcd57fef536e9c910416bdb1643
-ms.sourcegitcommit: 12ff9dcbefb47f2280479cceb656ea7e6ac2cfa1
-ms.translationtype: HT
-ms.contentlocale: nb-NO
-ms.lasthandoff: 12/02/2022
-ms.locfileid: "9822482"
 ---
-# <a name="general-business-functionality"></a>Generelle forretningsfunksjoner
+# Generelle forretningsfunksjoner
 
 [!INCLUDE[prod_short](includes/prod_short.md)] gir dedikert funksjonalitet for vanlige forretningsområder, for eksempel finans og salg. Hvis du vil ha mer informasjon, kan du se [Forretningsfunksjoner](across-business-functionality.md).
 
@@ -51,11 +45,11 @@ Tabellen nedenfor viser disse generelle forretningsområdene med koblinger til a
 | Definer datautvekslingsdefinisjoner så du kan sende og motta elektroniske dokumenter. |[Utveksle data elektronisk](across-data-exchange.md) |
 | Bruk Online Maps til å finne plasseringer og veibeskrivelser til kunder, leverandører og adresser generelt. | [Bruk Online Maps til å finne plasseringer og veibeskrivelser](across-online-maps.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Administrasjon](admin-setup-and-administration.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

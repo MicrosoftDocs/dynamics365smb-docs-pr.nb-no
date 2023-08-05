@@ -10,14 +10,14 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-rounding"></a>Designdetaljer: Avrunding
+# Designdetaljer: Avrunding
 Avrundingsoverskudd kan oppstå når du verdsetter kostnaden for en lagerreduksjon som måles i et annet antall enn den tilsvarende lagerøkningen. Avrundingsoverskudd beregnes for alle lagermetoder når du starter kjørselen **Juster kostverdi - vareposter**.  
 
  Når du bruker lagermetoden Gjennomsnitt, beregnes og registreres avrundingsoverskuddet på en kumulativ basis (post etter post).  
 
  Når du bruker en annen lagermetode enn Gjennomsnitt, beregnes avrundingsoverskuddet når lagerøkningen er fullstendig utlignet, det vil si når restantallet for lagerøkningen er lik null. En separat oppføring opprettes deretter for avrundingsoverskudd, og bokføringsdatoen i avrundingsposten er bokføringsdatoen til den siste fakturerte verdiposten for lagerøkningen.  
 
-## <a name="example"></a>Eksempel
+## Eksempel  
  Følgende eksempel illustrerer hvordan ulike avrundingsoverskudd håndteres henholdsvis for lagermetoden Gjennomsnitt og lagermetoden Ikke-gjennomsnitt. I begge tilfeller er kjørselen **Juster kostverdi - vareposter** kjørt.  
 
  Tabellen nedenfor viser varepostene som eksemplet er basert på.  
@@ -52,7 +52,7 @@ Avrundingsoverskudd kan oppstå når du verdsetter kostnaden for en lagerreduksj
 |01.04.20|-1|-3,33|4|4|  
 |01.01.20|0|-0,01|1|5|  
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)   
  [Designdetaljer: Kostjustering](design-details-cost-adjustment.md)   
  [Designdetaljer: Kostmetoder](design-details-costing-methods.md) [Administrere lagerkostnader](finance-manage-inventory-costs.md)  

@@ -11,7 +11,7 @@ ms.search.keywords: 'app, add-in, manifest, customize, install, uninstall'
 ms.search.form: '2500, 20350'
 ---
 
-# <a name="install-and-uninstall-extensions-apps-in-business-central"></a>Installer og avinstaller utvidelser (apper) i Business Central
+# Installer og avinstaller utvidelser (apper) i Business Central
 
 Du kan endre [!INCLUDE[prod_short](includes/prod_short.md)] ved å installere apper som for eksempel legger til funksjonalitet, endrer virkemåten eller gir deg tilgang til nye elektroniske tjenester. Hvis du vil ha mer informasjon, kan du se [Tilpasse Business Central med utvidelser](ui-extensions.md).
 
@@ -22,7 +22,7 @@ Du kan endre [!INCLUDE[prod_short](includes/prod_short.md)] ved å installere ap
 
 Hvis du vil bruke en utvidelse, må du være tildelt tillatelsessettene som følger med.
 
-## <a name="install-an-extension"></a><a name="install"></a>Installere en utvidelse
+## <a name="install"></a>Installere en utvidelse
 
 Du administrerer appene og utvidelsene på siden **Administrasjon av utvidelse**. Du kan gå til denne siden fra Hjem. Du kan ogs å velge ikonet **Søk etter side eller rapport** ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi i øvre høyre hjørne **Utvidelse**, og deretter velger du den relaterte koblingen.  
 
@@ -69,19 +69,19 @@ Microsoft tilbyr følgende apper:
 * [GetAddress.io UK Postcodes-utvidelsen](LocalFunctionality/UnitedKingdom/ui-extensions-getaddressio.md)  
 * [US/CA/UK/AU/NZ/ZA – Send remitteringsønske](ui-extensions-send-remittance-advice.md)
 
-## <a name="set-up-an-app"></a>Konfigurer en app
+## Konfigurer en app
 
 Når du har installert en app, må du kanskje konfigurere den. For eksempel for **PayPal Payments Standard for [!INCLUDE[prod_short](includes/prod_short.md)]**-appen må du angi PayPal-kontoen du vil bruke. Hvis det er tilfellet, når installasjonen er fullført, spør [!INCLUDE[prod_short](includes/prod_short.md)] om du vil sette opp appen umiddelbart. Oppsett kan kreves for at appen skal fungere eller være valgfri.
 
 Hvis du velger å sette opp appen med en gang og den har et nødvendig oppsett, åpner [!INCLUDE[prod_short](includes/prod_short.md)] det nødvendige oppsettet. Oppsettet kan enten være en side der du kan skrive inn informasjon, eller en veiledning for assistert oppsett som hjelper deg gjennom trinnene. Hvis du ikke fullfører oppsettet med en gang, kan du bruke **Oppsett for _navn på app_**-siden, som viser alle oppsett for appen. Obligatoriske oppsett angitt av **fete bokstaver**.
 
-## <a name="upload-a-per-tenant-extension-pte"></a>Last opp en per leietaker-utvidelse (PTE)
+## Last opp en per leietaker-utvidelse (PTE)
 
 Du laster opp en PTE med siden **Utvidelsesbehandling**. På siden **Utvidelsesbehandling** går du til **Administrer** og velger **Last opp utvidelse**. På **siden Last opp og distribuer utvidelse** angir du .app-filen som skal lastes opp. Hvis du vil fortsette, velger du **Godta**-knappen og deretter **Distribuer**-knappen. Dette starter prosessen med å distribuere PTE-en.
 
 Hvis PTE inneholder endringer i skiftede skjemaer, er det mulig å *fremtvinge* en opplasting av det. Dette gjør du ved å velge alternativet **Fremtving** i **Synkroniseringsmodus for skjema**. Du får en bekreftelsesdialogboks for å godta før du fortsetter.  
 
-## <a name="uninstall-an-app"></a>Avinstallere en app
+## Avinstallere en app
 
 Du avinstallerer en app ved å bruke siden **Administrasjon av utvidelse**. Hvis du vil avinstallere en app, merker du den på siden og velger deretter handlingen **Avinstaller**. Hvis du avinstallerer en app og deretter ombestemmer deg, kan du installere appen på nytt.
 
@@ -92,7 +92,7 @@ Når du avinstallerer en app du har brukt, slettes ikke dataene dine som standar
 > * Hvis du aktiverer vekslebryteren **Slett utvidelsesdata**, vil avinstallasjon av appen slette alle data for appen *pluss* data for alle avhengige apper. Du kan ikke angre denne handlingen.
 > * Enkelte apper er nødvendige, og du kan ikke slette dem på siden for **Administrasjon av utvidelse**.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilpass Business Central](ui-customizing-overview.md)  
 [Business Central-utvidelser fra andre leverandører](ui-extensions-other.md)  

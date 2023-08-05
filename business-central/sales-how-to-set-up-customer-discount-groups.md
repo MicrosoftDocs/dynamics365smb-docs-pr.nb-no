@@ -7,13 +7,13 @@ ms.topic: article
 ms.date: 06/08/2022
 ms.author: a-reishima
 ---
-# <a name="set-up-customer-discount-groups"></a>Definer kunderabattgrupper
+# Definer kunderabattgrupper
 
 Du kan definere salgslinjerabatter for en gruppe kunder i stedet for å bruke dem enkeltvis.
 
 **Kunderabattgrupper** fungerer på samme måte som [kundeprisgrupper](sales-how-to-set-up-customer-price-groups.md), men de kan kombineres med varerabattgrupper for å kunne sette linjerabatter til mange varer for utvalgte kunder på en rask måte.
 
-## <a name="create-sales-line-discounts-for-a-customer-group"></a>Opprett salgslinjerabatter for en kundegruppe
+## Opprett salgslinjerabatter for en kundegruppe
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kunderabattgrupper**, og velg deretter den relaterte koblingen.
 2. På siden **Kunderabattgrupper** velger du **Ny** for å opprette en ny rabattgruppe og gir den et navn under kolonnen **Kode** og legger til en beskrivelse.
@@ -26,7 +26,7 @@ Du kan definere salgslinjerabatter for en gruppe kunder i stedet for å bruke de
 
 Gjenta trinn 4 til 8 for hver vare eller varerabattgruppe du vil opprette en salgslinjerabatt for.
 
-## <a name="assign-a-customer-to-a-discount-group"></a>Tildel en kunde til en rabattgruppe
+## Tildel en kunde til en rabattgruppe
 
 Når du har definert kunderabattgruppene, kan du angi kunderabattgruppekodene på kundekortene.
 
@@ -34,7 +34,7 @@ Når du har definert kunderabattgruppene, kan du angi kunderabattgruppekodene p�
 2. Åpne **kundekortet** for en kunde du vil skal være del av en kunderabattgruppe.
 3. Velg gruppekoden i feltet **Kunderabattgruppe** på hurtigfanen **Fakturering**.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Salg](sales-manage-sales.md)  
 [Sette opp salg](sales-setup-sales.md)  

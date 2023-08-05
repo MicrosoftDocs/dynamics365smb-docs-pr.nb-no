@@ -9,7 +9,7 @@ ms.search.form: '654, 662, 1500,'
 ms.date: 09/12/2022
 ms.author: edupont
 ---
-# <a name="how-to-use-approval-workflows"></a>Bruk arbeidsflyter for godkjenning
+# Bruk arbeidsflyter for godkjenning
 
 Når en post, for eksempel et kjøpsdokument eller et kundekort, må godkjennes av en person i organisasjonen, kan du sende en forespørsel om godkjenning som en del av en arbeidsflyt. Avhengig av hvordan arbeidsflyten er konfigurert, gir den riktige godkjenneren deretter beskjed om at posten krever godkjenning.
 
@@ -19,7 +19,7 @@ I tillegg til godkjenningsarbeidsflytene som beskrives i denne artikkelen, kan d
 
 Arbeidsflyter for godkjenning av kjøpsdokumenter, salgsdokumenter, betalingskladder, kundekort og varekort er klar til å starte som veiledninger. Finn ut mer under [Bli klar til å gjøre forretninger](ui-get-ready-business.md).
 
-## <a name="request-a-record-approval"></a>Be om en oppføringsgodkjenning
+## Be om en oppføringsgodkjenning
 
 Oppgavene nedenfor utføres av en godkjenningsbruker.
 
@@ -30,7 +30,7 @@ Statusen for godkjenningsposten oppdateres fra **Opprettet** til **Åpen**. Stat
 
 Når alle påkrevde godkjennerne har godkjent posten, blir statusen endret til **Frigitt**. Du kan deretter fortsette å arbeide med posten.
 
-## <a name="cancel-approval-requests"></a>Annuller godkjenningsforespørsler
+## Annuller godkjenningsforespørsler
 
 Oppgavene nedenfor utføres av en godkjenningsbruker med godkjennerrettigheter.
 
@@ -40,7 +40,7 @@ Det kan hende at en kunde vil endre en bestilling etter at den er sendt til godk
 
 Når godkjenningsforespørselen er annullert, endres statusen for den relaterte godkjenningsposten til **Annullert**. Statusen for posten oppdateres fra **Venter på godkjenning** til **Åpen**. På dette punktet kan godkjenningsprosessen startes på nytt.
 
-## <a name="approve-or-reject-approval-requests"></a>Godkjenn eller avvis godkjenningsforespørsler
+## Godkjenn eller avvis godkjenningsforespørsler
 
 Oppgavene nedenfor utføres av en godkjenningsbruker med godkjennerrettigheter.
 
@@ -56,7 +56,7 @@ Hvis det er angitt et godkjennerhierarki, er poststatusen **Venter på godkjenni
 
 Samtidig endres godkjenningsstatusen fra **Opprettet** til **Åpen** så snart en godkjenningsforespørsel for posten er opprettet. Hvis forespørselen avvises, endres godkjenningsstatusen til **Avvist**. Statusen forblir **Åpen** eller **Avvist** til alle godkjennerne har godkjent forespørselen.
 
-## <a name="delegate-approval-requests"></a>Deleger godkjenningsforespørsler
+## Deleger godkjenningsforespørsler
 
 Oppgavene nedenfor utføres av en godkjenningsbruker med godkjennerrettigheter.
 
@@ -67,7 +67,7 @@ Hvis du vil hindre at poster hoper seg opp eller blokkerer arbeidsflyten på and
 
 Et varsel om å godkjenne forespørselen sendes til stedfortredende godkjenner.
 
-## <a name="manage-overdue-approval-requests"></a>Håndter forfalte godkjenningsforespørsler
+## Håndter forfalte godkjenningsforespørsler
 
 Oppgavene nedenfor utføres av en godkjenningsbruker med godkjennerrettigheter.
 
@@ -78,9 +78,9 @@ Funksjonen **Send varsler om forfalte godkjenninger** kontrolleres om det finnes
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Forfalte godkjenningsforespørsler**, og velg deretter den relaterte koblingen.
 2. På siden **Forfalte godkjenningsforespørsler** velger du handlingen **Send varsler for forfalte godkjenning**.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/use-approval-workflows/)
+## Se relatert [Microsoft-opplæring](/training/modules/use-approval-workflows/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bruk godkjenningsarbeidsflyter](across-use-workflows.md)  
 [Arbeidsflyt](across-workflow.md)  

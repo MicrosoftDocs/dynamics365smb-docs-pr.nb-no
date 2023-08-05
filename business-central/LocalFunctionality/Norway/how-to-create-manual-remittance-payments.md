@@ -11,11 +11,11 @@ ms.search.form: '15000000, 15000002, 15000004, 15000006, 15000007, 15000010'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="create-manual-remittance-payments-in-the-norwegian-version"></a>Opprett manuelle remitteringsoppdrag i den norske versjonen
+# Opprett manuelle remitteringsoppdrag i den norske versjonen
 
 Betalinger opprettes vanligvis automatisk i utbetalingskladden ved hjelp av remitteringsforslagfunksjonen. Du kan imidlertid også opprette en betaling manuelt, enten som en betaling for en eksisterende faktura, eller som en betaling som ikke er knyttet til en eksisterende faktura, for eksempel betaling til en leverandør.  
 
-## <a name="to-create-a-manual-remittance-payment"></a>Slik oppretter du manuelle remitteringsoppdrag:
+## Slik oppretter du manuelle remitteringsoppdrag:  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Betalingsinformasjon**, og velg deretter den relaterte koblingen.  
 2. På siden **Betalingsinformasjon** velger du handlingen **Initialiser betalingsinformasjon**.  
@@ -24,7 +24,7 @@ Betalinger opprettes vanligvis automatisk i utbetalingskladden ved hjelp av remi
 
 3. Velg **OK**.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
  [Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)   
  [Sette opp remitteringsavtaler](how-to-set-up-remittance-agreements.md)   

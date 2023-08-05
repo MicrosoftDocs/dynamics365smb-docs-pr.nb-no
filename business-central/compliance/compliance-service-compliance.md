@@ -11,7 +11,7 @@ ms.reviewer: edupont
 ms.date: 06/14/2021
 ms.author: soalex
 ---
-# <a name="service-compliance"></a>Servicesamsvar
+# Servicesamsvar
 
 Dette innholdet omfatter informasjon om servicesamsvar i tilknytning til [!INCLUDE[prod_short](../includes/prod_short.md)] på nett  
 
@@ -21,17 +21,17 @@ Finner du en detaljert liste over [Skysamsvarstilbud for Business Central her](h
 
 Hvis du vil se den komplette listen over samsvarstilbud fra Microsoft, kan du se [Microsoft Klareringssenter](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## <a name="service-terms"></a>Tjenestevilkår
+## Tjenestevilkår
 
 [!INCLUDE [service-terms](../includes/service-terms.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Samsvar](compliance-overview.md)  
 [Programsamsvar](compliance-application-compliance.md)  
 [Sertifiseringer](compliance-certifications.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -9,7 +9,7 @@ ms.date: 02/22/2023
 ms.custom: bap-template
 ms.search.keywords: 'design, transfer, sku, locations, warehouse'
 ---
-# <a name="design-details-transfers-in-planning"></a>Designdetaljer: Overføringer i planlegging
+# Designdetaljer: Overføringer i planlegging
 
 Overføringsordrer er også en kilde til forsyning når du arbeider på LFE-nivået. Når flere lokasjoner (lagre) brukes, kan Overfør angis for LFE-etterfyllingssystemet, som betyr at lokasjonen etterfylles ved å overføre varer fra en annen lokasjon. I en situasjon med flere lagre kan du ha en kjede med overføringer. Forsyning til GRØNN-lokasjon overføres fra GULT, forsyning til GULT overføres fra RØD og så videre. I begynnelsen av kjeden finnes etterfyllingssystemet **Prod.ordre.** eller **Kjøp**.  
 
@@ -27,7 +27,7 @@ Hvis behov endres, kan det føre til en bølgeeffekt gjennom kjeden. Alle overf�
 
 ![Eksempel på balanse mellom tilbud og etterspørsel i overføringer.](media/nav_app_supply_planning_7_transfers2.png "Eksempel på balanse mellom tilbud og etterspørsel i overføringer")  
 
-## <a name="why-is-a-transfer-a-special-case"></a>Hvorfor er overføring et spesialtilfelle?
+## Hvorfor er overføring et spesialtilfelle?  
 
 Overføringsordrer ligner andre ordrer, som bestillinger og produksjonsordrer. I bakgrunnen er de imidlertid svært forskjellige.  
 
@@ -37,7 +37,7 @@ En forskjell er at en overføringslinje representerer både behov og forsyning. 
 
 Når [!INCLUDE [prod_short](includes/prod_short.md)] endrer forsyningssiden av overføringen, må det gjøre en lignende endring på behovssiden.  
 
-## <a name="transfers-are-dependent-demand"></a>Overføringer er avhengig av behov
+## Overføringer er avhengig av behov  
 
 Behovs- og forsyningsrelasjoner ligner komponentene på produksjonsordrelinjer. Forskjellen er at komponenter på produksjonsordrelinjer er på det neste planleggingsnivået og har en annen vare. De to delene av overføringen er på samme nivå for den samme varen.  
 
@@ -47,7 +47,7 @@ Med mindre planleggingsfleksibiliteten er Ingen, må ikke en overføringslinje b
 
 I fremgangsmåten for planlegging skal overføringsbehovet bare tas hensyn til når planleggingssystemet har behandlet forsyningssiden. Før behandlingen skjer, er ikke det faktiske behovet kjent. Rekkefølgen på endringer er viktig for overføringsordrer.  
 
-## <a name="planning-sequence"></a>Planleggingsrekkefølge
+## Planleggingsrekkefølge  
 
 Det følgende bildet viser et eksempel på en streng med overføringer.  
 
@@ -59,7 +59,7 @@ I dette eksemplet starter planleggingssystemet på kundebehovet og arbeide seg b
 
 ![Forsyningsplanlegging med overføringer.](media/nav_app_supply_planning_7_transfers5.png "Forsyningsplanlegging med overføringer")  
 
-## <a name="transfer-level-code"></a>Overføringsnivåkode
+## Overføringsnivåkode  
 
 Overføringsnivåkoden for lagerføringsenhet bestemmer rekkefølgen som der planleggingssystemet behandler lokasjoner.  
 
@@ -71,7 +71,7 @@ Overføringsnivåkoden blir 0 for lagerførignsenheter med etterfyllingssystemet
 
 Når en lagerføringsenhet oppdateres, registrerer planleggingssystemet om etterfyllingssystemer for lagerføringsenheter har sirkelreferanser.  
 
-## <a name="planning-transfers-without-sku"></a>Planleggingsoverføringer uten lagerføringsenhet
+## Planleggingsoverføringer uten lagerføringsenhet  
 
 For mindre avanserte lageroppsett kan du bruke lokasjoner og foreta manuelle overføringer mellom lokasjoner, selv om du ikke bruker lagerføringsenheter. Overføringen kan for eksempel dekke en ordre på denne lokasjonen. Planleggingssystemet reagere på behovsendringer.  
 
@@ -81,7 +81,7 @@ For manuelle overføringer analyserer planleggingssystemet overføringsordrer og
 
 Hvis det finnes flere overføringer til en lokasjon, definerer den første overføringsordren planleggingsretningen. Overføringer i motsatt retning, blir avbrutt.  
 
-## <a name="changing-quantity-with-reservations"></a>Endre antall med reservasjoner
+## Endre antall med reservasjoner  
 
 Når du endrer antall på en forsyning, tar planleggingssystemet med reservasjoner i betraktning. Det reserverte antallet representerer nedre grense for hvor mye som skal redusere forsyningen.  
 
@@ -96,7 +96,7 @@ Selv om den inngående siden kan ha ekstra forsyning, kan du ikke redusere overf
 
 ![Reservasjoner i overføringsplanlegging.](media/nav_app_supply_planning_7_transfers8.png "Reservasjoner i overføringsplanlegging")  
 
-## <a name="changing-quantity-in-a-transfer-chain"></a>Endre antall i en overføringskjede
+## Endre antall i en overføringskjede  
 
 Her er et eksempel på hva som skjer når du endrer antall i en overføringsendring.
 
@@ -118,7 +118,7 @@ Når planleggingssystemet kjøres på nytt, skal det kunne bli kvitt overflødig
 
 ROSA-RØD-overføringen er redusert til 22. Den inngående delen av BLÅ-ROSA-overføring blir ikke reservert, men den utgående delen er. Reservasjonen betyr at du ikke kan redusere antallet under 27.  
 
-## <a name="lead-time-calculation"></a>Beregning av leveringstid
+## Beregning av leveringstid  
 
 Når forfallsdatoen for en overføringsordre beregnes, blir ulike typer leveringstid tatt med i betraktningen.  
 
@@ -149,7 +149,7 @@ Eksempelet viser følgende beregninger:
 * Startdato + leveringstid = sluttdato  
 * Sluttdato + inngående håndtering = mottaksdato  
 
-## <a name="safety-lead-time"></a>Sikkerhetsleveringstid
+## Sikkerhetsleveringstid  
 
 Feltet **Standard sikkerhetstid** på **Produksjonsoppsett**-siden og det tilknyttede feltet **Sikkerhetsleveringstid** på siden **Varekort** er ikke inkludert i overføringsordreberegninger. Sikkerhetsleveringstiden påvirker imidlertid ikke den totale planen. Sikkerhetsleveringstiden påvirker etter fyllingsordren (kjøp eller produksjon) i begynnelsen av overføringskjeden. Det er det punktet der varene ble plassert i lokasjonen de overføres fra.  
 
@@ -159,7 +159,7 @@ På produksjonsordrelinjen er Sluttdato + Sikkerhetsleveringstid + Inngående la
 
 På bestillingslinjen er Planlagt mottaksdato + sikkerhetsleveringstid + inngående lagerhåndteringstid = forventet mottaksdato.  
 
-## <a name="reschedule"></a>Tidsplanlegg på nytt
+## Tidsplanlegg på nytt  
 
 Når du planlegger en overføringslinje på nytt, finner planleggingssystemet den utgående delen og endrer dato og klokkeslett for den.
 
@@ -170,11 +170,11 @@ Når du planlegger en overføringslinje på nytt, finner planleggingssystemet de
 
 Når du endrer forfallsdatoen på en overføringslinje, må derfor leveringstiden beregnes for at den utgående siden av overføringen skal oppdateres.  
 
-## <a name="serial-and-lot-numbers-in-transfer-chains"></a>Serie- og partinumrene i overføringskjeder
+## Serie- og partinumrene i overføringskjeder  
 
 Hvis behovet bruker serie- eller partinumre og du kjører planleggingsmotoren, oppretter det overføringsordrer. Hvis du vil ha mer informasjon om dette konseptet, kan du se Vareattributter. Hvis imidlertid serie- eller partinumre fjernes fra etterspørselen, bruker overføringsordrene fortsatt serie- eller partinumre og planlegging ignorerer dem (slettes ikke).  
 
-## <a name="order-to-order-links"></a>Odre-til-ordre-koblinger
+## Odre-til-ordre-koblinger  
 
 I dette eksemplet defineres den BLÅ lagerføringsenhet med et **ordregjenbestillingsprinsipp**. De ROSA og RØDE lagerføringsenhetene er **Parti for parti**-gjenbestillingsprinsippet. Oppretting av en ordre på 27 til lokasjon RØD fører til en kjede med overføringer. Den siste overføringen er på lokasjonen BLÅ, og den er reservert med binding. I dette eksemplet er ikke reservasjoner faste reservasjoner som er opprettet av planleggeren på ROSA lokasjon. Planleggingssystemet oppretter bindingene. Den viktige forskjellen er at planleggingssystemet kan endre sistnevnte.  
 
@@ -182,7 +182,7 @@ I dette eksemplet defineres den BLÅ lagerføringsenhet med et **ordregjenbestil
 
 Hvis behovet endrete fra 27 til 22, vil planleggingssystemet redusere antallet ned gjennom kjeden. Bindingsreservasjonen reduseres også.  
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Designdetaljer: Planleggingsparametere](design-details-planning-parameters.md)   
 [Designdetaljer: Tabell for planleggingstilordning](design-details-planning-assignment-table.md)   

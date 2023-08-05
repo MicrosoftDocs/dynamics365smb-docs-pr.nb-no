@@ -40,7 +40,7 @@ En varesporingskode viser hvordan et selskap bruker serie- og partinumre til å 
 Fordi dette oppsettfeltet dekker alle mulige transaksjoner i forbindelse med varen, velges også de enkelte inngående/utgående feltene. De enkelte inngående/utgående feltene har imidlertid ingen tilknytning til lagermodulen -de definerer bare selskapets arbeidsflyt i forbindelse med tilordning av varesporingsnumre.  
 
 > [!NOTE]  
->  Hvis du vil tilordne varesporingsnumre i lageraktiviteter, må feltene **Lagers.nr. - sporing** og **Lagerparti - sporing** være valgt på kortet for varesporingskode for varen.  
+> Hvis du vil tilordne varesporingsnumre i lageraktiviteter, må feltene **Lagers.nr. - sporing** og **Lagerparti - sporing** være valgt på kortet for varesporingskode for varen.  
 
 ## Slik setter du opp utløpsregler for serie-/partinumre
 
@@ -78,6 +78,36 @@ Hvis du vil aktivere varesporing, må du først tilordne varesporingskodene til 
 2. Velg en eksisterende vare fra listen, og åpne **Varekort**-siden.  
 3. På hurtigfanen **Varesporing** tilordner du de aktuelle varesporingskodene og velger **Varesporingskode**, **Serienr.** og **Partinr.**.
     1. Du kan også opprette en ny varesporingskode ved å velge **Ny**-handlingen.
+
+## Slik angir du åpningssaldoer for varene du sporer
+
+Du kan opprette åpningssaldoer for varene du følger opp. Siden du kan velge ulike lagerkonfigurasjoner, du kan velge mellom to alternativer:
+
+* Aktiver bestemte kladder på siden **Varekladd** for å la andre angi serie-, parti-og pakkedata direkte på kladdelinjer.
+* For lokasjoner der vekslebryteren **Lagerstyring** er aktivert, kan du bruke siden **Lageropptellingskladd** til å gjøre alle varesporingsfeltene tilgjengelige. Feltene som er tilgjengelige, inkluderer feltene **Garantidato** og **Utløpsdato**.
+
+### Varekladder 
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varekladder** og velg den relaterte koblingen.
+2. Velg feltet **Navn** for å åpne en liste over varekladdpartier.
+3. Velg **Opprett** for å opprette en ny bunke, og slå på vekslebryteren **Varesporing på linjer**.
+4. Velg **OK** for å velge bunken du opprettet.
+5. Fyll ut feltene på varekladdlinjen etter behov. Legg merke til at feltene **Partinr.**, **Serienr.**, **Utløpsdato**, **Garantidato** og **Pakkesporingsnr.** er tilgjengelige (hvis funksjonen er aktivert).
+6. Velg handlingen **Bokfør** til å justere lageret.
+
+> [!NOTE] 
+> [!INCLUDE [prod_short](includes/prod_short.md)] har noen mindre valideringer når du angir eller importerer data. Det oppstår en mer omfattende kontroll når du bokfører eller overfører data fra kladdelinjer til **varesporingsvinduet**. Det siste skjer automatisk når du åpner siden **Varesporingsvindu** fra varekladdelinjen, eller hvis du velger handlingen **Oppdater varesporingslinjer**.
+
+### Lagervareopptellingskladd for lokasjoner der lagerstyring er slått på  
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagervareopptellingskladd**, og velg deretter den relaterte koblingen.
+2. Fyll ut feltene på varekladdlinjen etter behov. Legg merke til at feltene **Partinr.**, **Serienr.**, **Utløpsdato**, **Garantidato** og **Pakkesporingsnr.** er tilgjengelige (hvis funksjonen er aktivert).
+3. Velg handlingen **Registrer** for å foreta lagerjusteringene. Husk at du må synkronisere de justerte lagerpostene med de tilhørende varepostene. Hvis du vil ha mer informasjon, går du til [Synkroniser de justerte lagerpostene](/dynamics365/business-central/inventory-how-count-adjust-reclassify#to-synchronize-the-adjusted-warehouse-entries-with-the-related-item-ledger-entries).
+
+For masseImporter bruker du konfigurasjonspakker til å importere data til kladdene.
+
+> [!NOTE]
+> Du kan ikke bruke **Rediger i Excel** til å opprette kladdelinjer med sporingsinformasjon.
 
 ## Se relatert [Microsoft-opplæring](/training/modules/prepare-item-tracking/)
 

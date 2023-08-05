@@ -10,14 +10,14 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: edupont
 ---
-# <a name="electronic-banking-in-norway"></a>Elektroniske banktjenester i Norge
+# Elektroniske banktjenester i Norge
 [!INCLUDE[prod_short](../../includes/prod_short.md)] omfatter forbedringer i den norske versjonen for elektroniske banktjenester. Denne funksjonaliteten kan brukes til å utføre følgende operasjoner:  
 
 - Motta elektroniske betalinger basert på en OCR-betalings-ID (optisk tegngjenkjenning).  
 - Skrive ut kunde-ID-numre (KID) på salgsdokumenter.  
 - Sende elektroniske betalinger til leverandører.  
 
-## <a name="customer-identification-numbers"></a>Kundeidentifikasjonsnummer
+## Kundeidentifikasjonsnummer  
  Kunde-ID (KID) er et kundeidentifikasjonsnummer som inneholder en betalingsreferanse til leverandøren, og sikrer at betalingen bokføres riktig hos leverandøren. Hvis leverandørdokumentene inneholder KID-nummer, må du bruke dette nummeret fordi det kan påløpe et tilleggsgebyr for betalingen hvis du ikke bruker nummeret.  
 
  KID kan angis på følgende lokasjoner:  
@@ -33,7 +33,7 @@ ms.author: edupont
 > [!NOTE]  
 >  KID-nummeret kan ikke brukes på kreditnotaer. Hvis en kreditnota er en del av betalingen, må fakturaene i den samme betalingen behandles som betalinger uten KID-nummer.  
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Funksjonalitet som er spesifikk for norske brukere](norway-local-functionality.md)   
  [Norsk giro og OCR-B-skrift](norwegian-giro-and-ocr-b-font.md)   
  [Opprette KID-numre på salgsdokumenter](how-to-set-up-kid-numbers-on-sales-documents.md)   

@@ -11,7 +11,7 @@ ms.search.form: '42, 48, 9305'
 ms.date: 09/02/2022
 ms.author: edupont
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Selg produkter ed en kundeordre
+# Selg produkter ed en kundeordre
 
 Denne artikkelen gir veiledning om når du skal bruke en kundeordre i tillegg til en faktura. Hvis salgsprosessen krever at du bare sende deler av et ordre, kanskje fordi det fullstendige antallet ikke er tilgjengelig samtidig, må du behandle salget ved å lage en ordre.
 
@@ -23,7 +23,7 @@ I forretningsmiljøer der kunden betaler umiddelbart, for eksempel ved PayPal el
 
 Du kan opprette direkte betalte ordrer for kunder som ikke er registrert ved å definere et kontant kundekort, som du velger på ordren. Finn ut mer under [Definer kontantkunder](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Opprett en ordre
+## Opprett en ordre
 
 > [!NOTE]  
 > Følgende fremgangsmåte forutsetter at kunden allerede er konfigurert. Hvis du vil ha instruksjoner om hvordan du gjør dette, kan du se [Registrer nye kunder](sales-how-register-new-customers.md).
@@ -87,13 +87,13 @@ Dialogboksen **Bokfør og send bekreftelse** viser kundens foretrukne metode for
 
 Beslektet element og kundeposter opprettes nå i systemet, og ordren skrives ut som et PDF-dokument. Når ordren er fullstendig bokført, fjernes fra listen over ordrer og erstattes med nye dokumenter i listen over bokførte salgsfakturaer og oversikten over bokførte følgesedler.  
 
-## <a name="external-document-number"></a>Eksternt dokumentnummer
+## Eksternt dokumentnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/).
+## Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Fakturere salg](sales-how-invoice-sales.md)  
 [Bokføre salg](ui-post-sales.md)  

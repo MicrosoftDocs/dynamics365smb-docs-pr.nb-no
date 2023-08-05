@@ -213,7 +213,7 @@
 ## Hjelp og støtte
 ### [Ressurser for hjelp og støtte](product-help-and-support.md)
 ### [Besøk videobiblioteket](across-videos.md)
-### [Få teknisk støtte](/dynamics365/business-central/dev-itpro/technical-support?toc=/dynamics365/business-central/toc.json)
+### [Få teknisk støtte](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
 <!--## Microsoft Learn training
 ### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
@@ -260,7 +260,7 @@
 #### [Finn bokførte dokumenter uten inngående dokumentposter](across-how-find-posted-documents-without-income-document-records.md)
 #### [Administrer mange inngående dokumentposter](across-how-manage-many-income-document-records.md)
 
-### Arbeidsflyter
+### Arbeidsflytprosesser
 #### [Oversikt over arbeidsflyt](across-workflow.md)
 #### [Bruk Business Central i Power Automate-flyter](across-how-use-financials-data-source-flow.md)
 #### Bruk arbeidsflyter for godkjenning
@@ -350,6 +350,7 @@
 
 ### Behandle mva.
 #### [Oversikt over mva-behandling](finance-manage-vat.md)
+#### [Tredjeparts kjøpstransaksjoner for EU](finance-how-to-eu3party-trade-purchase.md)
 #### Konfigurer mva.
 ##### [Konfigurer merverdiavgift](finance-setup-vat.md)
 ##### [Bokføringsgruppeoppsett](finance-posting-groups.md#tax-posting-groups)

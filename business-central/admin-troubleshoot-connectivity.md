@@ -99,6 +99,26 @@ Kontroller at den godkjente brukeren kan koble til et miljø som oppdages, som v
 |Ingen klyngeadresse å utføre denne kontrollen for|Se i listen over tilgjengelige miljøer i administrasjonssenteret for Business Central.|
 |Versjonsendepunkt finnes ikke|Se i listen over tilgjengelige miljøer i administrasjonssenteret for Business Central.|
 
+## Nettservertilkobling
+
+Kontrollerer at den godkjente brukeren kan opprette tilkoblinger med nettserveren.
+
+|Problem|Ting å prøve|
+|-------|-------------|
+|Ingen godkjent bruker å utføre denne kontrollen for|Se **brukergodkjenningskontrollen**.|
+|Kan ikke hente tilgjengelige miljøer for kontoen.|Se **Gjenkjenning av Business Central-miljøer**.|
+|Ingen klyngeadresse å utføre denne kontrollen for|Se i listen over tilgjengelige miljøer i administrasjonssenteret for Business Central.|
+|Kan ikke opprette en tilkobling til nettserveren|Tøm bufferen og last inn siden på nytt.|
+
+## Tjenestetilstandsstatus
+
+Rapporterer Business Centrals tjenestetilstand ved å se etter annonserte brudd.
+
+|Problem|Ting å prøve|
+|-------|-------------|
+|Ingen godkjent bruker å utføre denne kontrollen for|Se **brukergodkjenningskontrollen**.|
+|Beklager. Business Central er midlertidig utilgjengelig. Prøv igjen senere.|Prøv på nytt senere.|
+
 ## Se også
 
 [Ressurser for hjelp og støtte](product-help-and-support.md)  

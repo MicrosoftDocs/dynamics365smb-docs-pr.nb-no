@@ -7,7 +7,7 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="business-central-learning-catalog"></a>Læringskatalog for Business Central
+# Læringskatalog for Business Central
 
 Finn riktig elektronisk opplæring, i personlige arbeidsgrupper og arrangementer for din rolle som en Business Central-bruker eller partner.
 

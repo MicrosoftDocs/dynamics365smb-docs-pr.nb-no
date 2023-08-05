@@ -8,15 +8,15 @@ ms.search.form: '347, Report_301, Report_304, Report_305, Report_312, Report_317
 ms.date: 07/13/2021
 ms.author: edupont
 ---
-# <a name="accounts-payable-reports-and-analytics-in-business-central"></a>Leverandørrapporter og analyser av aktiva i Business Central
+# Leverandørrapporter og analyser av aktiva i Business Central
 
 For å hjelpe deg med å administrere leverandører i [!INCLUDE [prod_short](includes/prod_short.md)] er standardrapporter og analyse innebygd. Det flytter seg utenfor tradisjonelle rapporteringsbegrensninger for å hjelpe deg med å utforme forskjellige typer rapporter effektivt.  
 
-## <a name="reports"></a>Rapporter
+## Rapporter
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md)  
 [Arbeid med dimensjoner](finance-dimensions.md)  

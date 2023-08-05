@@ -11,13 +11,13 @@ ms.search.form: '44, 134, 144, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
 ms.date: 09/08/2021
 ms.author: edupont
 ---
-# <a name="process-sales-return-orders"></a>Behandle ordrereturer
+# Behandle ordrereturer  
 
 Hvis du trenger mer kontroll over ordrereturprosessen, for eksempel lagerdokumenter for varehåndtering eller bedre oversikt når du mottar varer fra flere salgsdokumenter med en ordreretur, kan du opprette ordrereturer. En ordreretur utsteder automatisk den relaterte salgskreditnotaen, og andre returrelaterte dokumenter, for eksempel en erstatningsordre om nødvendig.
 
 I tillegg til den opprinnelige bokførte salgsfakturaen, kan du bruke salgskreditnotaen eller ordrereturen for andre salgsdokumenter, for eksempel en annen bokført salgsfaktura, fordi kunden også returnerer varer som leveres med denne fakturaen.
 
-## <a name="create-a-sales-return-order-based-on-one-or-more-posted-sales-documents"></a>Opprett en ordreretur basert på ett eller flere bokførte salgsdokumenter
+## Opprett en ordreretur basert på ett eller flere bokførte salgsdokumenter  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrereturer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.  
@@ -67,7 +67,7 @@ I tillegg til den opprinnelige bokførte salgsfakturaen, kan du bruke salgskredi
 10. På siden **Ordreretur** i feltet **Returårsakskode** velger du årsaken til returen på hver linje.
 11. Velg handlingen **Bokfør**.
 
-## <a name="to-create-a-replacement-sales-order-from-a-sales-return-order"></a>Slik oppretter du en erstatningsordre fra en ordreretur:
+## Slik oppretter du en erstatningsordre fra en ordreretur:
 Du kan bestemme deg for å kompensere en kunde for en vare du har solgt ved å erstatte varen. Du erstatter varen med samme vare, eller med en annen vare. Denne situasjonen kan for eksempel oppstå hvis du ved en feiltakelse leverer feil vare til kunden.  
 
 1. På siden **Ordreretur** for en aktiv returprosess lager du en negativ post på en tom linje for erstatningsvaren ved å sette inn et negativt beløp i **Antall**-feltet.  
@@ -75,7 +75,7 @@ Du kan bestemme deg for å kompensere en kunde for en vare du har solgt ved å e
 3. På siden **Flytt negative salgslinjer** fyller du ut feltene etter behov.
 4. Velg **OK**. Den negative linjen for erstatningsvaren slettes fra ordrereturen, og den settes inn på en ny **Ordre**-side. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).
 
-## <a name="to-create-return-related-documents-from-a-sales-return-order"></a>Slik oppretter du retur-relaterte dokumenter fra en ordreretur:
+## Slik oppretter du retur-relaterte dokumenter fra en ordreretur:
 Du kan opprette erstatningsordrer, bestillingsreturer og erstatningsbestillinger under ordrereturprosessen. Dette er for eksempel nyttig i situasjoner hvor du vil håndtere varer med garantier fra leverandører.
 
 1. På siden **Ordreretur** for en aktiv returprosess velger du handlingen **Opprett retur-relaterte dokumenter**.
@@ -84,7 +84,7 @@ Du kan opprette erstatningsordrer, bestillingsreturer og erstatningsbestillinger
 4. Hvis en returnert vare må bestilles fra leverandøren, merker du av for **Opprett bestilling**.
 5. Hvis en erstatningsordre må opprettes, merker du av for alternativet **Opprett ordre**.
 
-## <a name="to-create-a-restock-charge"></a>Slik oppretter du et returgebyr
+## Slik oppretter du et returgebyr
 Det kan hende du vil belaste kunden med et returgebyr for å dekke kostnader i forbindelse med retur av en vare. Dette er aktuelt hvis kunden for eksempel har bestilt feil vare, eller ombestemt seg etter at han eller hun mottok varen.
 
 Du kan bokføre denne økte kostnaden som et varegebyr i en kreditnota eller en ordreretur, og knytte den til den bokførte følgeseddelen. Det følgende beskriver denne for en ordreretur, men de samme trinnene gjelder en salgskreditnota.
@@ -95,9 +95,9 @@ Du kan bokføre denne økte kostnaden som et varegebyr i en kreditnota eller en 
 
 Når du bokfører ordrereturen, legges et returgebyr til i det aktuelle salgsbeløpet. Dermed kan du opprettholde en nøyaktig lagerverdisetting.  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/return-items-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/paths/return-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Salg](sales-manage-sales.md)  
 [Sette opp salg](sales-setup-sales.md)  

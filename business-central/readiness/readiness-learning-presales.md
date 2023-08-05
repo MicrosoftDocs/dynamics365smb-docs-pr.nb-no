@@ -7,13 +7,13 @@ ms.topic: conceptual
 ms.author: margoc
 ---
 
-# <a name="partner-pre-sales-learning-catalog"></a>Læringskatalog for førsalg for partner
+# Læringskatalog for førsalg for partner
 
 Er du ansvarlig for å demonstrere viktige funksjoner for kunder? 
 
 Følgende katalog er ordnet fra kjernekunnskap til bestemte domener, og fra de mest grunnleggende til de fleste avanserte. Hvis innholdet finnes i flere formater, gir vi deg beskjed slik at du kan velge det opplæringsformatet som best dekker dine behov. 
 
-## <a name="get-started"></a><a name="get-started"></a>Kom i gang
+## Kom i gang<a name="get-started"></a>
 
 | Innhold                                                                                                                              | Beskrivelse                                                                                                                                                                                                                                                                                      | Format                                | Lengde             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|--------------------|
@@ -23,21 +23,21 @@ Følgende katalog er ordnet fra kjernekunnskap til bestemte domener, og fra de m
 | [Business Central YouTube-spilliste](https://www.youtube.com/playlist?list=PLcakwueIHoT-wVFPKUtmxlqcG1kJ0oqq4)                                                                | YouTube-målside for Dynamics 365 Business Central-videoer | YouTube-videoer |                    |
 | [Utforske Dynamics 365 Business Central-funksjoner](https://dynamics.microsoft.com/business-central/capabilities/)                                                    | Utforske Dynamics 365 Business Central-funksjoner                                                                                                                                                                                                                                               | Nettsted                               |                    |
 
-## <a name="grow-your-business"></a><a name="grow"></a>Utvikle bedriften
+## Utvikle bedriften<a name="grow"></a>
 
 | Innhold                                                                                                                                | Beskrivelse                                                                                                                                                                                                                                                                                      | Format                                | Lengde                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Dynamics 365 Business Central - Overbevisende samtaler med kundeemner (Blitz)](https://mbspartner.microsoft.com/D365/Videos/101761) | Errol Schoenfish, direktør for produktmarkedsføring, snakker om hvordan du kan ha overbevisende samtaler med kundeemner på Microsoft Dynamics 365 Business Central. | Video | 11 minutter 16 sekunder |
 | [Dynamics 365 Business Central - Slik kommer du i gang](https://mbspartner.microsoft.com/D365/Videos/101787) | Errol Schoenfish, direktør for produktmarkedsføring, snakker om hvordan du kommer i gang med å aktivere demoer for Microsoft Dynamics 365 Business Central. | Video | 12 minutter 29 sekunder |
 
-## <a name="business-value"></a><a name="busvalue"></a>Forretningsverdi
+## Forretningsverdi<a name="busvalue"></a>
 
 | Innhold                                                                                                                                | Beskrivelse                                                                                                                                                                                                                                                                                      | Format                                | Lengde                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|
 | [Utforske Dynamics 365 Business Central-funksjoner](https://dynamics.microsoft.com/business-central/capabilities/) | Utforske Dynamics 365 Business Central-funksjoner | Nettsted |                     |
 | [Dynamics 365 Business Central](/training/modules/dynamics-365-business-central/) | Denne modulen viser programfunksjoner, fordeler og eksempler på Dynamics 365 Business Central i bruk. | Gratis, elektronisk opplæringsbane i eget tempo | 24 minutter          |
 
-## <a name="whats-new"></a><a name="whatsnew"></a>Nyheter
+## Nyheter<a name="whatsnew"></a>
 
 | Innhold                                                                                                                                | Beskrivelse                                 | Format                                | Lengde                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|-----------------------|

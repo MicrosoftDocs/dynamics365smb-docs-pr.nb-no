@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ---
-# <a name="assembly-management"></a>Monteringsstyring
+# Monteringsstyring
 
 Selskaper kan leverer produkter til kundene ved å kombinere komponenter uten å bruke produksjonsfunksjoner. Funksjoner for å knytte sammen elementer integreres med relaterte funksjoner, for eksempel salg, planlegging, reservasjoner og lagerstyring.  
 
@@ -51,9 +51,9 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 |Finn ut hvordan du arbeider med monteringsstykklister og hvordan de er forskjellige fra produksjonsstykklister.|[Arbeid med monteringsstykklister](assembly-how-work-assembly-boms.md)|
 |Finn ut mer om bokføring av monteringsforbruk og -avgang, og hvordan [!INCLUDE [prod_short](includes/prod_short.md)] distribuerer vare- og ressurskostnader til finans.|[Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md)|  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/assemble-items-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/paths/assemble-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbeid med stykklister](inventory-how-work-BOMs.md)  
 [Lager](inventory-manage-inventory.md)  
@@ -63,6 +63,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 <!-- [Walkthrough: Selling, Assembling, and Shipping Kits](walkthrough-selling-assembling-and-shipping-kits.md)   -->
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
-## [!INCLUDE[prod_short](includes/free_trial_md.md)]
+## [!INCLUDE[prod_short](includes/free_trial_md.md)]  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

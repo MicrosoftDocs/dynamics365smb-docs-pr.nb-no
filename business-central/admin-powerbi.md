@@ -10,13 +10,13 @@ ms.date: 07/17/2023
 ms.author: jswymer
 ms.custom: bap-template
 ---
-# <a name="introduction-to--and-power-bi"></a>Innføring i [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI
+# Innføring i [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI
 
 Det er enkelt å få innsikt i [!INCLUDE[prod_short](includes/prod_short.md)]-dataene med [Power BI](https://powerbi.microsoft.com) – et datavisualiseringssystem fra Microsoft. Power BI henter [!INCLUDE[prod_short](includes/prod_short.md)]-data slik at du kan bygge instrumentbord og rapporter basert på disse dataene. Power BI gir deg et fleksibelt alternativ til rapporter som er bygget i [!INCLUDE[prod_short](includes/prod_short.md)], slik at du kan drille ned og tilpasse visualiseringen og til og med slå sammen data fra ulike selskaper i [!INCLUDE[prod_short](includes/prod_short.md)]. Noen Power BI-rapporter kan også bygges inn i Business Central og vises uten å forlate systemet. Mer komplekse instrumentbord er bedre å oppleve fra Power BI-nettstedet.
 
 ![Power BI og Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-"></a>Det du kan gjøre med Power BI og [!INCLUDE[prod_short](includes/prod_short.md)]
+## Det du kan gjøre med Power BI og [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Det finnes ulike funksjoner for å arbeide med [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI. Du kan gjøre enkelte ting fra Power BI, mens andre ting gjør du fra [!INCLUDE[prod_short](includes/prod_short.md)]. I tillegg er noen funksjoner bare tilgjengelige i [!INCLUDE[prod_short](includes/prod_short.md)] Online, ikke i den lokale versjonen. Du får en oversikt i tabellen nedenfor.
 
@@ -30,7 +30,7 @@ Det finnes ulike funksjoner for å arbeide med [!INCLUDE[prod_short](includes/pr
 
 <a name="onprem"><sup>*</sup></a> Denne funksjonen krever et registrert program for Business Central i Microsoft Azure. Hvis du vil ha mer informasjon, kan du se [Registrer Business Central lokalt i Azure AD for integrering med andre tjenester](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## <a name="get-ready-to-use-power-bi"></a>Gjør deg klar til å bruke Power BI
+## Gjør deg klar til å bruke Power BI
 
 Det er noen få oppgaver du må gjøre før du kan begynne å bruke Power BI med [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> Oppgavene avhenger av din rolle i organisasjonen, og hva du vil gjøre med Power BI:
 
@@ -45,7 +45,7 @@ Det er noen få oppgaver du må gjøre før du kan begynne å bruke Power BI med
 |Eksponer Business Central-data til Power BI||![det er en hake.](media/check.png)|![igjen en hake](media/check.png)|[Eksponer data gjennom API-sider eller OData-nettjenester](admin-powerbi-setup.md#exposedata)
 |Aktiver Power BI-integrering<br />(bare lokalt)||![det er en hake.](media/check.png)||[Konfigurer Business Central lokalt for Power BI-integrering](admin-powerbi-setup.md#setup)|
 
-## <a name="track-your-business-kpis-with-power-bi-metrics"></a>Spor forretnings-KPI-ene med Power BI-måleverdier
+## Spor forretnings-KPI-ene med Power BI-måleverdier
 
 Hvis du bruker Power BI på [!INCLUDE[prod_short](includes/prod_short.md)]-data, er det enkelt å spore KPI-er eller mål som er viktige for deg. 
 
@@ -65,14 +65,14 @@ Finn ut mer om Power BI-måleverdier under [Kom i gang med måleverdier i Power 
 > [!NOTE]
 > Det er for øyeblikket ikke mulig å bygge inn målstyringer fra Power BI-måleverdier i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="next-steps"></a>Neste trinn
+## Neste trinn
 
 - Hvis du er administrator som må konfigurere Power BI i [!INCLUDE[prod_short](includes/prod_short.md)], går du til [Aktiver Power BI-integrering](admin-powerbi-setup.md).
 - Hvis Power BI allerede er definert og du vil prøve funksjonene, går du til [Arbeid med Power BI-rapporter i Business Central](across-working-with-powerbi.md).
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Forretningsintelligens](bi.md)  
 [Konfigurer [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

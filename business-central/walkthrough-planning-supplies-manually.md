@@ -10,27 +10,27 @@ ms.search.keywords: null
 ms.date: 06/24/2021
 ms.author: edupont
 ---
-# <a name="walkthrough-planning-supplies-manually"></a>Gjennomgang: planlegge forsyninger manuelt
+# Gjennomgang: planlegge forsyninger manuelt
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Denne gjennomgangen viser hvordan du planlegger forsyningsordrer for å dekke nytt behov. Du kan sette i gang forsyningsplanlegging med jevne mellomrom, for eksempel hver morgen eller hver mandag, eller når du blir varslet av salg eller produksjon, avhengig av behovstypen. I denne gjennomgangen skal du bruke siden **Ordreplanlegging**, som er et enkelt verktøy for forsyningsplanlegging som er basert på manuell beslutningstaking i stedet for parameterbasert automatisk planlegging.  
 
-## <a name="about-this-walkthrough"></a>Denne gjennomgangen
+## Denne gjennomgangen  
  Denne gjennomgangen tar for seg følgende oppgaver:  
 
 -   Planlegging av en bestilling for produksjonskomponenter  
 -   Planlegging av en overføringsordre for å dekke salgsbehov  
 -   Planlegging av en produksjonsordre for en vare med flere nivåer  
 
-## <a name="roles"></a>Roller
+## Roller  
  Denne gjennomgangen viser oppgaver som utføres av følgende brukerroller:  
 
 -   Produksjonsplanlegger  
 -   Innkjøper  
 -   Ordrebehandler  
 
-## <a name="prerequisites"></a>Forutsetninger
+## Forutsetninger  
  Før du begynner med denne gjennomgangen, må du installere [!INCLUDE[prod_short](includes/prod_short.md)]. Du må gjøre følgende endringer i databasen:  
 
 -   Slett alle eksisterende ordrer for sykler.  
@@ -39,17 +39,17 @@ Denne gjennomgangen viser hvordan du planlegger forsyningsordrer for å dekke ny
 
  Som en regel bruker du de foreslåtte dataene i denne gjennomgangen siden disse dataene har de nødvendige postene.  
 
-## <a name="story"></a>Hovedscenario
+## Hovedscenario  
  Martin, produksjonsplanleggeren i et lite produksjonsselskap, er i ferd med å planlegge produksjon og bestillinger for å dekke nytt salgsbehov.  
 
  Siden produktene har få stykklistenivåer og ordreflyten er relativt lav, bruker Martin siden **Ordreplanlegging** til å opprette forsyningsordrer manuelt, ett produktnivå om gangen.  
 
  I et mer sammensatt produksjonsmiljø brukes planleggingsforslaget til å planlegge forsyning basert på vareparametere, for eksempel periode for ny planlegging, sikkerhetsleveringstid, gjenbestillingspunkt og masseberegninger av konsolidert behov fra alle produktnivåer.  
 
-## <a name="setting-up-the-sample-data"></a>Konfigurere eksempeldataene
+## Konfigurere eksempeldataene  
  Det standard demonstrasjonsselskapet CRONUS har for tiden et stort behov som ikke er planlagt. I løpet av de ulike planleggingsoppgavene i denne gjennomgangen må du avvike fra den realistiske forretningsflyten ved å ignorere behov med nære forfallsdatoer og i stedet bruke behov med senere forfall.  
 
-## <a name="use-the-order-planning-page"></a>Bruk siden Ordreplanlegging
+## Bruk siden Ordreplanlegging  
 
 Du får tilgang til **Ordreplanlegging**-siden fra flere ulike steder:  
 
@@ -58,7 +58,7 @@ Du får tilgang til **Ordreplanlegging**-siden fra flere ulike steder:
 -   Kjøp, Planlegging  
 -   I tillegg kan du åpne denne siden for en bestemt produksjonsordre ved å velge **Planlegging**-handlingen.
 
-### <a name="to-use-the-order-planning-page"></a>Slik bruker du siden Ordreplanlegging:
+### Slik bruker du siden Ordreplanlegging:  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordreplanlegging**, og velg deretter den relaterte koblingen.  
 
@@ -82,10 +82,10 @@ Du får tilgang til **Ordreplanlegging**-siden fra flere ulike steder:
 
      Ordrer uten disponibilitetsproblemer vises ikke. Hvis det ikke finnes noen ordrer når en plan beregnes, får du en melding, og ingen planleggingslinjer vises.  
 
-## <a name="planning-a-purchase-order-to-fulfill-component-demand"></a>Planlegge en bestilling for å dekke komponentbehov
+## Planlegge en bestilling for å dekke komponentbehov  
  I denne fremgangsmåten oppretter du en bestilling for produksjonskomponenter det er behov for.  
 
-### <a name="to-plan-a-purchase-order-to-fulfill-component-need-in-production"></a>Slik planlegger du en bestilling for å dekke et komponentbehov i produksjon:
+### Slik planlegger du en bestilling for å dekke et komponentbehov i produksjon:  
 
 1.  Vis den første linjen (velg plussymbolet (+)).  
 2.  Velg den første behovslinjen, med vare **LSU-15**, og velg deretter **Vis dokument**-handlingen.  
@@ -122,10 +122,10 @@ Du får tilgang til **Ordreplanlegging**-siden fra flere ulike steder:
 
      Nå opprettes og lagres bestillingene som de siste bestillingene i bestillingsoversikten.  
 
-## <a name="planning-a-transfer-order-to-fulfill-sales-demand"></a>Planlegge en overføringsordre for å dekke salgsbehov
+## Planlegge en overføringsordre for å dekke salgsbehov  
  I denne fremgangsmåten skal du planlegge for behov fra en ordre. Behovslinjer representerer salgslinjer, ikke komponentlinjer som i produksjonsbehov.  
 
-### <a name="to-plan-a-transfer-order-to-fulfill-sales-demand"></a>Slik planlegger du en overføringsordre for å dekke salgsbehov:
+### Slik planlegger du en overføringsordre for å dekke salgsbehov:  
 
 1.  Flytt pekeren til planleggingslinjen for ordrenummer **2008**.  
 2.  Vis linjen, og flytt pekeren til behovslinjen.  
@@ -150,10 +150,10 @@ Du får tilgang til **Ordreplanlegging**-siden fra flere ulike steder:
 
      Overføringsordren er nå opprettet og lagret i oversikten som den siste ordren i oversikten over åpne overføringsordrer.  
 
-## <a name="planning-a-multilevel-production-order-to-fulfill-sales-demand"></a>Planlegge en produksjonsordre med flere nivåer for å dekke et salgsbehov
+## Planlegge en produksjonsordre med flere nivåer for å dekke et salgsbehov  
  I denne fremgangsmåten skal du planlegge å dekke salgsbehov for en produsert vare med flere produktnivåer, der hvert nivå skaper et avhengig produksjonsbehov.  
 
-### <a name="to-plan-multilevel-production-to-fulfill-sales-demand"></a>Slik planlegger du produksjon med flere nivåer for å dekke salgsbehov:
+### Slik planlegger du produksjon med flere nivåer for å dekke salgsbehov:  
 
 1.  Merk planleggingslinjen med salgsbehov for ordrenummer **1001**, opprettet tidligere som nødvendige data.  
 
@@ -172,7 +172,7 @@ Du får tilgang til **Ordreplanlegging**-siden fra flere ulike steder:
 
  Som produksjonsplanlegger må du nå planlegge en bestemt produksjonsordre.  
 
-### <a name="to-plan-a-specific-production-order"></a>Slik planlegger du en bestemt produksjonsordre:
+### Slik planlegger du en bestemt produksjonsordre:  
 
 1.  Åpne produksjonsordren **101001**, for ti sykler, som du nettopp opprettet med funksjonen **Lag bestillinger**.  
 2.  Åpne siden **Prod.ordrekomponenter** for å kontrollere at den ekstra ringeklokken gjenspeiles på produksjonsordren.  
@@ -222,7 +222,7 @@ Du får tilgang til **Ordreplanlegging**-siden fra flere ulike steder:
 
      Se gjennom hvordan start- og sluttidspunkt for individuelle ordrer planlegges i henhold til produktstrukturen, på siden **Fast planlagte prod.ordrer**. Komponentene på laveste nivå produseres først. Derfor må du planlegge ordrer med flere nivåer slik det er demonstrert i denne arbeidsflyten for planlegging.  
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)   
 <!--  [Walkthrough: Planning Supplies Automatically](walkthrough-planning-supplies-automatically.md) -->
 

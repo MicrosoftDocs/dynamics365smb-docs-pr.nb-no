@@ -11,7 +11,7 @@ ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# <a name="map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Tilordne tekst på gjentakende betalinger til kontoer for automatisk avstemming
+# Tilordne tekst på gjentakende betalinger til kontoer for automatisk avstemming
 
 På siden **Tekst-til-konto-tilordning**, som du åpner fra siden **Betalingsavstemmingskladd**, kan du definere tilordninger mellom tekst på betalinger og bestemte debet-, kredit- og motkonti, slik at slike betalinger bokføres på de angitte kontiene når du bokfører kladden for betalingsavstemming.
 
@@ -24,7 +24,7 @@ Betalinger som bokføres basert på tekst-til-kontotilordning, utlignes ikke mot
 
 På en linje i betalingsavstemmingskladden der betalingen er satt til bokføring i henhold til tekst-til-kontotilordning, inneholder **Konfidensintervall**-feltet **Høy – tekst-til-kontotilordning**, og **Kontotype**- og **Kontonummer** de tilordnede kontoene.
 
-## <a name="to-map-text-on-recurring-payments-to-accounts-for-automatic-reconciliation"></a>Tilordne tekst på gjentakende betalinger til kontoer for automatisk avstemming
+## Tilordne tekst på gjentakende betalinger til kontoer for automatisk avstemming
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Betalingsavstemmingskladder** og velg den relaterte koblingen.
 2. Åpne en kladd for betalingsavstemming. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
@@ -44,7 +44,7 @@ På en linje i betalingsavstemmingskladden der betalingen er satt til bokføring
 
 Neste gang du importerer en bankkontoutdragsfil eller velger handlingen **Utlign automatisk** på siden **Betalingsavstemmingskladd**, inneholder kladdelinjene for betalinger som inneholder den angitte tilordningsteksten, de tilordnede kontiene i feltene **Kontotype** og **Kontonummer**. Feltet **Konfidensintervall** inneholder **Høy – tekst-til-konto-tilordning**. Dette er under forutsetning av at automatiske utligningsfunksjonen bare kan gi samsvarskonfidensen **Lav** eller **Middels**.
 
-## <a name="example-text-to-account-mapping-for-bank-fees"></a>Eksempel: Tekst-til-konto-tilordning for bankgebyrer
+## Eksempel: Tekst-til-konto-tilordning for bankgebyrer
 
 Hvis du alltid vil bokføre utgifter som er knyttet til gebyrer fra en bestemt bank, MyBank, til finanskontoen for bankgebyrer og gebyrer (konto 60400), fyller du ut en linje på siden **Tekst-til-konto-tilordning** på følgende måte:
 
@@ -52,9 +52,9 @@ Hvis du alltid vil bokføre utgifter som er knyttet til gebyrer fra en bestemt b
 | --- | --- | --- | --- | --- |
 | MyBank |TOM |60400|Finanskonto |TOM |
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/use-journals-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/modules/use-journals-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  

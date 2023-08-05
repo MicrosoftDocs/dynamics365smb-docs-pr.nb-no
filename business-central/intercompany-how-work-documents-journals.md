@@ -7,18 +7,20 @@ ms.reviewer: bnielse
 ms.topic: how-to
 ms.date: 02/06/2023
 ms.custom: bap-template
-ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
+ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary, bank-to-bank'
 ms.search.form: '600, 610'
 ---
-# <a name="work-with-intercompany-documents-and-journals"></a>Arbeide med konserninterne dokumenter og kladder
+# Arbeide med konserninterne dokumenter og kladder
 
-Bruk konserninterne dokumenter eller kladder til å bokføre transaksjoner med de konserninterne partnerne. Når du bokfører et konserninternt dokument eller en kladdelinje i selskapet, opprettes det et tilsvarende dokument eller kladdelinje i den konserninterne utboksen. Du overfører linjen fra utboksen til partneren. Partneren kan deretter bokføre den tilsvarende transaksjonen i selskapet sitt, uten å måtte registrere dataene på nytt.
+Bruk konserninterne dokumenter eller kladder til å bokføre transaksjoner med de konserninterne partnerne. Du kan bokføre transaksjoner til finanskontoer, og hvis du har definert konserninterne bankkontoer, kan du også bokføre bank-til-bank-transaksjoner. Hvis du vil finne ut mer om hvordan du definerer konserninterne bankkontoer, går du til [Angi hvilke bankkontoer du vil bruke for konserninterne partnere](intercompany-how-setup.md#specify-the-bank-accounts-to-use-for-intercompany-partners).  
+
+Når du bokfører et konserninternt dokument eller en kladdelinje i selskapet, opprettes det et tilsvarende dokument eller kladdelinje i den konserninterne utboksen. Du overfører linjen fra utboksen til partneren. Partneren kan deretter bokføre den tilsvarende transaksjonen i selskapet sitt, uten å måtte registrere dataene på nytt.
 
 For salgs-og kjøpsdokumenter sikrer den konserninterne partnerkoden på kunden eller leverandøren at alle ordrer og fakturaer for transaksjoner mellom partnerne, produserer tilhørende bilag i partnerselskapene. Selskapskontoene er i balanse.
 
 Det samme gjelder for konserninterne finanskladdelinjer. Du trenger ikke å angi kontoer, men du velger bare partnerselskapet. Tilsvarende konserninterne finanskladdelinjer opprettes deretter i partnerselskapet.
 
-## <a name="fill-in-and-send-an-intercompany-sales-order"></a>Fyll ut og send en konsernintern ordre
+## Fyll ut og send en konsernintern ordre
 
 Du kan sende ordrer, bestillinger og returordrer før bokføring. Fakturaer og kreditnotaer kan ikke sendes før de bokført.
 
@@ -33,7 +35,7 @@ Fremgangsmåten nedenfor beskriver hvordan du fyller ut og sender en konserninte
 > [!NOTE]
 > Hvis du gjør trinn 5, går ordren til den konserninterne utboksen der du kan sende den senere. Hvis du vil lære mer om den konserninterne innboksen og utboksen, går du til [Administrer den konserninterne innboksen og utboksen](intercompany-how-manage-intercompany-inbox.md).
 
-## <a name="fill-in-and-post-an-intercompany-journal"></a>Fyll ut og bokfør en konsernintern kladd
+## Fyll ut og bokfør en konsernintern kladd
 
 Når du bokfører en konsernintern kladdelinje i selskapet, opprettes det en tilsvarende kladdelinje i den konserninterne utboksen som du kan overføre til partneren. Med lanseringsbølge 1 for 2022 kan du også definere selskapet for å opprette mottatte konserninterne transaksjoner automatisk som partnere bokførte i konserninterne finanskladder. Partneren kan deretter bokføre den tilsvarende transaksjonen i selskapet sitt, uten å måtte registrere dataene på nytt.
 
@@ -48,7 +50,7 @@ Når du bokfører en konsernintern kladdelinje i selskapet, opprettes det en til
 
 Postene bokføres i selskapet ditt, og en kladd med tilhørende poster opprettes i den konserninterne utboksen slik at du kan sende dem til partnerselskapet.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Behandle konserninterne transaksjoner](intercompany-manage.md)  
 [Finans](finance.md)  

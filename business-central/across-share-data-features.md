@@ -8,31 +8,31 @@ ms.search.keywords: null
 ms.date: 09/21/2022
 ms.author: jswymer
 ---
-# <a name="sharing-business-data-from-business-central"></a>Del forretningsdata fra Business Central
+# Del forretningsdata fra Business Central
 
 Samarbeid mellom personer i og utenfor en organisasjon er vesentlig del av de fleste bedrifter. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder flere funksjoner for deling av forretningsdata, for eksempel lister over poster, bestemte poster eller dokumenter. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
 
 Med alle disse funksjonene er tilgang til data beskyttet av lisensen og tillatelsene for Business Central.
 
-## <a name="copying-a-link"></a>Kopier en kobling
+## Kopier en kobling
 
 ![Støttes](media/check.png) Business Central Online ![Støttes](media/check.png) Business Central On-premises
 
 Fra en hvilken som helst side kan du kopiere nettadressen til siden, lime den inn og distribuere den i andre medier som e-post, Teams-chatter eller tekstmeldinger. Den enkleste måten å kopiere en kobling på er å velge **Del** > **Kopier kobling** fra toppen av siden. En annen måte er å kopiere nettadressen direkte fra adresselinjen i nettleseren.
 
-### <a name="modify-the-page-link"></a>Endre sidekoblingen
+### Endre sidekoblingen
 
 Når du har kopiert en kobling før du sender den, kan du endre nettadressen for å manipulere hva som vises når siden åpnes. Du kan for eksempel legge til filtre eller angi et annet selskap.
 
 Hvis du vil ha mer informasjon, kan du se [Nettadresse for nettklient](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
 
-### <a name="about-filtered-lists"></a>Om filtrerte lister
+### Om filtrerte lister
 
 Ved hjelp av filtreringsruten på listesider kan du bruke filtre til å begrense antallet poster som vises i listen. Hvis du bruker **Kopier kobling**-handlingen eller kopierer nettadressen fra nettleseren, vil ikke sidekoblingen inneholde filterendringene. Brukere som åpner koblingen, vil se hele samlingen. Måten du beholder filtreringen på en samlingssidekobling på, er å lagre den filtrerte siden som en **visning** først. Deretter åpner du visningen og kopierer koblingen derfra.
 
 Hvis du vil ha mer informasjon, kan du se [Sortere, søke etter og filtrere](ui-enter-criteria-filters.md).
 
-## <a name="sharing-to-teams"></a>Deling til Teams
+## Deling til Teams
 
 ![Støttes](media/check.png) Business Central Online ![Støttes ikke](media/x-icon.png) Business Central On-premises
 
@@ -40,7 +40,7 @@ Direkte fra de fleste samlingssider og detaljsider kan du sende en kobling til s
 
 Hvis du vil ha mer informasjon, kan du se [Del oppføringer og sidekoblinger i Teams](across-working-with-teams.md).
 
-## <a name="sharing-through-onedrive"></a>Deling gjennom OneDrive
+## Deling gjennom OneDrive
 
 ![Støttes](media/check.png) Business Central Online ![Støttes](media/check.png) Business Central On-premises
 
@@ -48,7 +48,7 @@ Business Central gjør det enkelt å lagre, behandle og dele filer med andre per
 
 Hvis du vil ha mer informasjon, kan du se [Del filer i OneDrive](across-share-onedrive.md).
 
-## <a name="opening-in-excel"></a>Åpne i Excel
+## Åpne i Excel
 
 ![Støttes](media/check.png) Business Central Online ![Støttes](media/check.png) Business Central On-premises
 
@@ -56,7 +56,7 @@ For listesider og lister som er innebygd på en side, kan du bruke handlingen **
 
 Hvis du vil ha mer informasjon, kan du se [Vis og rediger i Excel](across-work-with-excel.md).
 
-## <a name="sharing-rows-or-tables"></a>Del rader eller tabeller
+## Del rader eller tabeller
 
 ![Støttes](media/check.png) Business Central Online ![Støttes](media/check.png) Business Central On-premises
 
@@ -64,7 +64,7 @@ Du kan dele en eller flere poster i en liste. Velg på <kbd>Ctrl</kbd>+<kbd>C</k
 
 Hvis du vil ha mer informasjon, kan du se [Vanlige spørsmål om kopiere og lime inn](faq-copy-paste.yml).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Business Central og OneDrive-integrering](across-onedrive-overview.md)  
 [Administrere OneDrive-integrering med Business Central](admin-onedrive-integration.md)  
