@@ -11,7 +11,7 @@ ms.search.form: '5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 563
 ms.date: 06/15/2021
 ms.author: edupont
 ---
-# Administrer aktiva
+# <a name="managing-fixed-assets"></a>Administrer aktiva
 
 Aktivafunksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] gir en oversikt over hvilke aktiva du har, og hjelper deg med å utføre riktig periodisk avskrivning. De hjelper deg dessuten med å styre vedlikeholdskostnadene, håndtere forsikringspoliser, bokføre aktivatransaksjoner og generere forskjellige rapporter og statistikker.
 
@@ -41,15 +41,15 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Bokføre salgstransaksjoner, vise salgsposter og bokføre delvise salg. |[Avhending eller tilbaketrekking av aktiva](fa-how-dispose-retire.md) |
 | Administrere aktivabudsjetter, og budsjettere anskaffelseskostnader, salg av aktiva og avskrivninger. |[Behandle budsjetter for aktiva](fa-how-manage-budgets.md) |
 
-## Videooversikt
+## <a name="video-overview"></a>Videooversikt
 
 Følgende video dekker det grunnleggende ved aktiva:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Se relatert [Microsoft-opplæring](/training/paths/manage-fixed-assets-transactions/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/manage-fixed-assets-transactions/)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Definer aktiva](fa-setup.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  

@@ -11,11 +11,11 @@ ms.date: 09/29/2021
 ms.author: edupont
 ---
 
-# Hurtigstart for salg
+# <a name="sales-quick-start"></a>Hurtigstart for salg
 
 For å kunne selge produkter og tjenester må du først definere varer og kunder. Når dette er gjort, kan du begynne å registrere ordrer og sende ut fakturaer.
 
-## Definer varer som skal selges
+## <a name="set-up-items-to-sell"></a>Definer varer som skal selges
 
 Denne videoen viser hvordan du definerer en vare som skal selges, i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -23,13 +23,13 @@ Denne videoen viser hvordan du definerer en vare som skal selges, i [!INCLUDE[pr
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE47eLx?rel=0]
 
-### Definer en ny vare
+### <a name="set-up-a-new-item"></a>Definer en ny vare
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 Hvis du vil ha mer informasjon og andre ting du kan gjøre når du oppretter varer, kan du se [Registrer nye varer](inventory-how-register-new-items.md).  
 
-## Definer kunder
+## <a name="set-up-customers"></a>Definer kunder
 
 Denne videoen viser hvordan du oppretter en ny kunde i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -37,17 +37,17 @@ Denne videoen viser hvordan du oppretter en ny kunde i [!INCLUDE[prod_short](inc
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
-### Definer en ny kunde
+### <a name="set-up-a-new-customer"></a>Definer en ny kunde
 
 [!INCLUDE[create_new_customer](includes/create_new_customer.md)]
 
 Hvis du vil ha mer informasjon og andre ting du kan gjøre når du oppretter kunder, kan du se [Registrer nye kunder](sales-how-register-new-customers.md)
 
-## Opprett en ordre  
+## <a name="create-a-sales-order"></a>Opprett en ordre
 
 Når du selger noe til en kunde, har du to alternativer. Den første og enkleste er å bare opprette en salgsfaktura. Hvis imidlertid salgsprosessen er mer sammensatt, for eksempel hvis du har situasjoner der du bare leverer deler av et ordreantall, bruker du en ordre.
 
-### Opprette en ordre  
+### <a name="to-create-a-sales-order"></a>Opprette en ordre
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 10.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
 2. Velg **Ny** for å opprette en ny post.
@@ -77,11 +77,11 @@ Når du selger noe til en kunde, har du to alternativer. Den første og enkleste
 
 Hvis du vil ha mer informasjon og andre ting du kan gjøre når du oppretter kundeordrer, kan du se [Selg produkter med en kundeordre](sales-how-sell-products.md).  
 
-## Opprett en salgsfaktura
+## <a name="create-a-sales-invoice"></a>Opprett en salgsfaktura
 
 Når du oppretter og bokfører en salgsfaktura, oppretter du ikke bare fakturadokumentet du sender til kunden, du oppretter også relaterte antall og verdiposter i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-### Slik oppretter og bokfører du en salgsfaktura  
+### <a name="to-create-and-post-a-sales-invoice"></a>Slik oppretter og bokfører du en salgsfaktura
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 20.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
 
@@ -107,7 +107,7 @@ Når du oppretter og bokfører en salgsfaktura, oppretter du ikke bare fakturado
 
 Hvis du vil ha mer informasjon og andre ting du kan gjøre når du oppretter kundesalgsfakturaer, kan du se [Fakturasalg](sales-how-invoice-sales.md)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Hurtigstart for Business Central](quick-start-business-central.md)  
 [Oversikt over salg](sales-manage-sales.md)  

@@ -12,7 +12,7 @@ ms.date: 09/29/2022
 ms.author: bholtorf
 ---
 
-# Konsolidere finansielle data fra flere selskaper
+# <a name="consolidating-financial-data-from-multiple-companies"></a>Konsolidere finansielle data fra flere selskaper
 
 Noen organisasjoner bruker [!INCLUDE [prod_short](includes/prod_short.md)] i flere konsern eller juridiske enheter. Andre bruker [!INCLUDE [prod_short](includes/prod_short.md)] i datterselskaper som må rapportere til overordnede organisasjoner. I begge tilfeller bruker regnskapsførere innebygde verktøy til å konsolidere regnskapsdataene.  
 
@@ -35,7 +35,7 @@ Du definerer det konsoliderte selskapet på samme måte som du definerer andre s
 > [!TIP]
 > Konsolidere økonomisk data kan være spesielt aktuelt i forbindelse med konserninterne prosesser. Hvis du vil ha mer informasjon, kan du se [Behandle konserninterne transaksjoner](intercompany-manage.md).
 
-## Bruk rapporten Konsolidert råbalanse
+## <a name="use-the-consolidated-trial-balance-report"></a>Bruk rapporten Konsolidert råbalanse
 
 Rapporten **Konsolidert råbalanse** kan gi deg en samlet oversikt over den generelle økonomiske situasjonen. Rapporten kombinerer finansposter fra hvert av selskapene i et nytt selskap du opprettet for de konsoliderte dataene. Dette selskapet kalles vanligvis for *det konsoliderte selskapet*. Det konsoliderte selskapet er bare en beholder for de konsoliderte dataene og har ikke noen publiserte forretningsdata. Selskapene du tar med i det konsoliderte selskapet, blir **Konserner** i rapporten. Du finner mer informasjon under [Konfigurere selskapskonsolidering](finance-consolidated-company-reporting-setup.md). Hvis du har fire eller færre konsern, kan du også bruke rapporten **Kons.råbalanse - 4 firma**.  
 
@@ -46,11 +46,11 @@ Rapporten viser en linje for hver konto, og følger strukturen til kontoplanen. 
 * Elimineringer foretatt i det konsoliderte selskapet. Elimineringer vises alltid for en periode som tilsvarer det konsoliderte selskapets regnskapsår.
 * Totalen for det konsoliderte selskapet etter elimineringer vises som bevegelse eller saldo.
 
-## Konsolidere data
+## <a name="consolidate-data"></a>Konsolidere data
 
 Overføring av tall fra konsernene til det konsoliderte selskapet er den faktiske *konsolideringen*. Før du konsoliderer, er det lurt å kontrollere om det er forskjell på de grunnleggende opplysningene for konsernene og konsoliderte selskapene. Det finnes to rapporter du kan bruke til å teste databasen og filen.
 
-### Slik tester du dataene før konsolidering
+### <a name="to-test-the-data-before-you-consolidate"></a>Slik tester du dataene før konsolidering
 
 Test dataene før du overfører dem til det konsoliderte selskapet. [!INCLUDE[prod_short](includes/prod_short.md)] ser etter forskjeller mellom informasjonen i konsernet og det konsoliderte selskapet. Dette kan for eksempel være om kontonumre eller dimensjonskoder er forskjellige. Du må korrigere feilene før du kan kjøre rapporten. Du kan teste databasen, eller hvis du importerer data fra en XML-fil, kan du teste filen.  
 
@@ -61,7 +61,7 @@ Test dataene før du overfører dem til det konsoliderte selskapet. [!INCLUDE[pr
     * For å teste en fil velger du **Test fil**, angir navnet på filen som skal testes, og velger deretter **Skriv ut**.  
     * Hvis du vil teste databasen, kan du velge **Test database**.  
 
-### Kjøre konsolideringen
+### <a name="run-the-consolidation"></a>Kjøre konsolideringen
 
 Når du har testet dataene, kan du overføre dem til det konsoliderte selskapet.  
 
@@ -71,7 +71,7 @@ Når du har testet dataene, kan du overføre dem til det konsoliderte selskapet.
 4. I Filter-delen definerer du et filter for det relevante konsernet eller selskapsnavnet.  
 5. Du kan også planlegge at en rapport skal kjøres på et passende tidspunkt.  
 
-## Fjerne gjentatte transaksjoner
+## <a name="eliminate-repeated-transactions"></a>Fjerne gjentatte transaksjoner
 
 Når du konsoliderer selskapene, må du finne og eliminere transaksjoner som er registrert mer enn én gang på tvers av flere selskaper. Behandle konsoliderte elimineringer i en manuell prosess.  
 
@@ -96,7 +96,7 @@ En linje opprettes for hver konto, i likhet med kontoplanens oppbygning. En kont
 * Bokføringsteksten kopiert fra finanskladden.
 * Det konsoliderte selskapets total etter elimineringen hvis den bokføres.
 
-## Eksportere og importere konsoliderte data mellom databaser
+## <a name="export-and-import-consolidated-data-between-databases"></a>Eksportere og importere konsoliderte data mellom databaser
 
 Hvis data for et konsern er i en annen database, må du eksportere dataene til en fil før du kan inkludere dem i konsolideringen. Hvert selskap må eksporteres separat. Til dette formålet brukes kjørselen **Eksporter konsolidering**.  
 
@@ -112,7 +112,7 @@ De eksporterte postene inneholder følgende felt: **Kontonr.**, **Bokføringsdat
 3. Dimensjonsverdien som eksporteres for posten, vil være dimensjonsverdien for det konsoliderte selskapet som er angitt i **Konsolideringskode**-feltet for den aktuelle dimensjonsverdien. Hvis en dimensjonsverdi for konsolidert selskap ikke er angitt i **Konsolideringskode**-feltet for den aktuelle dimensjonsverdien, vil selve dimensjonsverdien bli eksportert til linjen.  
 4. XML-filene inneholder også valutakursene i konsolideringsperioden. Disse kursene er inkludert i en separat del på begynnelsen av filen.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere selskapskonsolidering](finance-consolidated-company-reporting-setup.md)  
 [Behandle konserninterne transaksjoner](intercompany-manage.md)  

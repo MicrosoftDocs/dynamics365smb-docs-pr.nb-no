@@ -11,7 +11,7 @@ ms.search.form: '41, 9300'
 ms.date: 07/12/2021
 ms.author: edupont
 ---
-# Gi salgstilbud
+# <a name="make-sales-quotes"></a>Gi salgstilbud
 
 Du kan opprette et tilbud for å registrere tilbudet til en kunde eller et kundeemne om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser. Du kan sende tilbudet til kunden for å formidle tilbudet. Du kan sende dokumentet i e-post som et PDF-vedlegg. Du kan også få brødteksten i e-posten forhåndsutfylt med et sammendrag av tilbudet. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md).
 
@@ -19,7 +19,7 @@ Mens du forhandler med kunden eller kundeemnet, kan du endre og sende tilbudet p
 
 I de fleste tilfeller sender du tilbud til kundeemner. Du har ofte en kontaktperson du forhandler med. Hvis de deretter godtar tilbudet, gjør du tilbudet om til en ordre og registrerer kundeemnet som kunde i [!INCLUDE [prod_short](includes/prod_short.md)]. I denne fremgangsmåten fokuserer vi på kontakter, men du kan også sende tilbud til eksisterende kunder.  
 
-## Slik oppretter du et tilbud
+## <a name="to-create-a-sales-quote"></a>Slik oppretter du et tilbud
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Tilbud**, og velg deretter den relaterte koblingen.
 2. Angi kontakten eller kunden som du vil sende tilbudet til.
@@ -88,13 +88,13 @@ I de fleste tilfeller sender du tilbud til kundeemner. Du har ofte en kontaktper
 
 Konverteringen fjerner tilbudet fra databasen. Det opprettes en salgsfaktura eller ordre basert på informasjonen i tilbudet slik at du kan behandle salget. I feltet **Tilbudsnr.** på salgsfakturaen eller ordren kan du se nummeret på tilbudet den ble laget fra. Hvis du vil ha mer informasjon, kan du se [Fakturere salg](sales-how-invoice-sales.md) eller [Selge produkter](sales-how-sell-products.md).  
 
-## Eksternt dokumentnummer
+## <a name="external-document-number"></a>Eksternt dokumentnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
 [Sette opp salg](sales-setup-sales.md)  

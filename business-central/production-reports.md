@@ -8,21 +8,21 @@ ms.search.form: 'Report_5871, Report_5872, Report_99000753, Report_99000756, Rep
 ms.date: 06/01/2021
 ms.author: andreipa
 ---
-# Produksjonsrapporter og analyser i Business Central
+# <a name="production-reports-and-analytics-in-business-central"></a>Produksjonsrapporter og analyser i Business Central
 
 Produksjonsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gjør det mulig for produksjons- og forretningsfolk å få innsikt og statistikk om gjeldende og tidligere produksjonsaktiviteter.  
 
-## Rapporter
+## <a name="reports"></a>Rapporter
 [!INCLUDE [production_reports](includes/production-reports-include.md)]
 
-## Oppgaver
+## <a name="tasks"></a>Oppgaver
 
 Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilstanden i virksomheten din:
 
 * [Vis belastning på arbeidssentre og produksjonsressurser](production-how-to-view-the-load-on-work-centers.md)  
 * [Vis tilgjengeligheten av varer](inventory-how-availability-overview.md)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Definere produksjon](production-configure-production-processes.md)  
 [Produksjon](production-manage-manufacturing.md)  

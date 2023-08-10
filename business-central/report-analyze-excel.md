@@ -10,17 +10,17 @@ ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, W
 ms.date: 03/16/2022
 ms.author: jswymer
 ---
-# Analyser rapportdata med Excel og XML
+# <a name="analyzing-report-data-with-excel-and-xml"></a>Analyser rapportdata med Excel og XML
 
 [!INCLUDE[2021_releasewave2](includes/2021_releasewave2.md)]
 
 Som utvikler eller avansert bruker bidrar det til å kontrollere dataene som genereres for et gitt rapportdatasett mens du oppretter nye rapporter eller endrer eksisterende rapporter. For å støtte denne funksjonen kan du eksportere et rapportdatasett som rådata til et Excel-regneark eller XML-fil – direkte. I Excel kan du for eksempel foreta ad hoc-analysere av dataene og diagnostisere problemer.
 
-## Kom i gang
+## <a name="get-started"></a>Kom i gang
 
 Hvis du vil eksportere et rapportdatasett til et Excel-arbeidsbok eller XLM-fil, åpner du rapporten i klienten og velger **Send til** > **Microsoft Excel-dokument (bare data)** eller **XML-dokument**. Filen lastes ned til enheten.
 
-## Mer om Excel (bare data)
+## <a name="more-about-excel-data-only"></a>Mer om Excel (bare data)
 
 Alternativet **Microsoft Excel-dokument (bare data)** eksporterer rapportresultatene og kriteriene som ble brukt til å generere dem, men de inneholder ikke rapportoppsettet. Excel-filen vil inneholde hele datasettet, som rådata, ordnet i rader og kolonner. Alle datakolonnene i datasettet til rapporten inkluderes, uavhengig av om de brukes i rapportoppsettet.
 
@@ -31,13 +31,13 @@ Hver gang du eksporterer resultater, opprettes et nytt regneark. Ved hjelp av al
 > [!NOTE]
 > Du kan ikke eksportere en rapport som har mer enn 1 048 576 rader eller 16 384 kolonner. Med Business Central lokal kan maksimalt antall eksporterte rader være enda mindre. Business Central Server inneholder en konfigurasjonsinnstilling **Maks datarader som tillates å sende til Excel**, for å redusere grensen fra maksimumsverdien. Hvis du vil ha mer informasjon, kan du se [Konfigurere Business Central Server](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#General) eller kontakte systemansvarlig.
 
-## For systemansvarlige
+## <a name="for-administrators"></a>For systemansvarlige
 
 - **Microsoft Excel-dokument (bare data)** ble introdusert som en valgfri funksjon i 2021 lanseringsbølge 1, oppdatering 18.3. Hvis du vil gi brukere tilgang til denne funksjonen når du kjører lanseringsbølge 1 for 2021, aktiverer du funksjonsoppdateringen **Lagre rapportdatasett i Microsoft Excel-dokument** i **Funksjonsstyring**. Hvis du vil ha mer informasjon, kan du se [Aktivering av kommende funksjoner på forhånd](/dynamics365/business-central/dev-itpro/administration/feature-management). I 2021 lanseringsbølge 2 ble denne funksjonen permanent, slik at du ikke trenger å aktivere den.
 
 - Hvis du vil bruke **Microsoft Excel-dokument (bare data)**, trenger brukerkontoer tillatelsen **Tillat handlingen Eksporter rapportdatasett i Excel**. Du kan gi brukerne denne tillatelsen ved å tilordne **feilsøkingsverktøyene** eller tillatelsessettet **Eksporter rapport Excel**. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).  
 
-## For utviklere og avanserte brukere
+## <a name="for-developers-and-advanced-users"></a>For utviklere og avanserte brukere
 
 Alternativet **Microsoft Excel-dokument (bare data)** eksporterer alle kolonner, inkludert kolonner som inneholder filtre og formateringsinstruksjoner for andre verdier. Her er noen viktige punkter:
 
@@ -50,7 +50,7 @@ Alternativet **Microsoft Excel-dokument (bare data)** eksporterer alle kolonner,
 
 Hvis du vil ha mer informasjon om rapportutforming, kan du se [Rapportoversikt](/dynamics365/business-central/dev-itpro/developer/devenv-reports).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Arbeid med rapporter](ui-work-report.md)  
 [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md)  

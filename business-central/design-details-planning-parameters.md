@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.date: 04/26/2023
 ms.custom: bap-template
 ---
-# Utformingsdetaljer Planleggingsparametere
+# <a name="design-details-planning-parameters"></a>Utformingsdetaljer Planleggingsparametere
 
 Denne artikkelen beskriver planleggingsparameterne du kan bruke i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -23,11 +23,11 @@ Måten planleggingssystemet kontrollerer vareforsyning på, fastsettes av ulike 
 |Endre forsyningsordrene|Min. bestillingsantall<br /><br /> Maks. bestillingsantall<br /><br /> Bestillingsfaktor|
 |Avgrense den planlagte varen|Produksjonsprinsipp:<br /><br /> -  Produser til lager<br />- Produser til ordre|
 
-## Angi om varen er planlagt  
+## <a name="define-whether-the-item-is-planned"></a>Angi om varen er planlagt
 
 Hvis du vil inkludere en vare eller lagerføringsenhet i planleggingsprosessen, må du tildele et gjenbestillingsprinsipp. Ellers må den planlegges manuelt, for eksempel ved hjelp av funksjonen Ordreplanlegging.  
 
-## Angi når det skal gjenbestilles  
+## <a name="define-when-to-reorder"></a>Angi når det skal gjenbestilles
 
 Generelt frigis gjenbestillingsforslag bare når forventet disponibelt antall er på eller under et gitt antall. Gjenbestillingspunktet angir antallet. Hvis ikke, vil den være null. Null kan justeres ved å skrive inn et sikkerhetslagerantall. Hvis du angir en sikkerhetsleveringstid, blir forslaget levert i perioden før den nødvendige forfallsdatoen.  
 
@@ -40,7 +40,7 @@ Angi standard sikkerhetsleveringstid til minst én dag på siden **Produksjonsop
 
 Feltene **Periode for ny planlegging**, **Akkumuleringsperiode for parti** og **Avdempingsperiode** spiller også en rolle når det gjelder tidspunktet for gjenbestillingen. Hvis du vil ha mer informasjon, kan du se [Optimalisere når og hvor mye som skal gjenbestilles](design-details-planning-parameters.md#optimize-when-and-how-much-to-reorder).  
 
-## Angi hvor mye som skal gjenbestilles
+## <a name="define-how-much-to-reorder"></a>Angi hvor mye som skal gjenbestilles
 
 Hvis planleggingssystemet oppdager behov for å gjenbestille, bestemmer gjenbestillingsprinsippet når og hvor mye som skal bestilles.  
 
@@ -52,7 +52,7 @@ Planleggingssystemet følger vanligvis denne logikken, uavhengig av gjenbestilli
 4. Hvis det er forfaller mer behov før sluttdatoen for det foroverplanlagte ordreforslaget, og dette behovet bringer gjeldende beregnede disponibel beholdning under sikkerhetslagerantallet, økes ordreantallet for å oppveie underskuddet. Den foreslåtte forsyningsordren planlegges deretter bakover fra forfallsdatoen for bruttobehovet som hadde ført til for lavt sikkerhetslagerantall.  
 5. Hvis feltet **Tidsperiode** ikke fylles ut, blir bare bruttobehovet på samme forfallsdato lagt til.  
 
-### Gjenbestillingsprinsipper  
+### <a name="reordering-policies"></a>Gjenbestillingsprinsipper
 
 Følgende gjenbestillingsprinsipper påvirker antallet som skal gjenbestilles. Hvis du vil lære mer om gjenbestillingsprinsipper, går du til [Utformingsdetaljer: Håndter gjenbestillingsprinsipper](design-details-handling-reordering-policies.md).  
 
@@ -63,7 +63,7 @@ Følgende gjenbestillingsprinsipper påvirker antallet som skal gjenbestilles. H
 |**Bestilling**|Ordreantallet beregnes for å dekke hver enkelt behovshendelse, og settet med behov/forsyning forblir koblet frem til utførelse. Det tas ikke hensyn til planleggingsparametre.|  
 |**Parti for parti**|Antallet beregnes for å dekke summen av behovet som forfaller i tidsperioden.|  
 
-## Optimalisere når og hvor mye som skal gjenbestilles  
+## <a name="optimize-when-and-how-much-to-reorder"></a>Optimalisere når og hvor mye som skal gjenbestilles
 
 En planlegger kan finjustere planleggingsparametere for å begrense forslag til ny planlegging, akkumulere behov (dynamisk gjenbestillingsantall), eller for å unngå ubetydelige planleggingshandlinger. Følgende felter gjør det enklere å optimalisere når og hvor mye du må gjenbestille.  
 
@@ -100,13 +100,13 @@ I eksemplene nedenfor representerer svarte piler eksisterende forsyning (opp) og
 
 **Standardverdier:** Standardverdien for feltet **Tidsperiode** og de tre feltene for gjenbestillingsperiode er tomme. For alle felt, bortsett fra feltet **Avdempingsperiode**, betyr dette 0D (null dager). Hvis **Avdempingsperiode**-feltet er tomt, brukes den globale verdien i feltet **Standard avdempingsperiode** på siden **Produksjonsoppsett**.  
 
-## Endre forsyningsordrene  
+## <a name="modify-the-supply-orders"></a>Endre forsyningsordrene
 
 Når antallet på bestillingsforslaget er beregnet, kan én eller flere av ordremodifikatorene justere det. Maksimumsordreantallet er for eksempel større enn eller lik minimumsordreantallet, som er større enn eller lik bestillingsfaktoren.  
 
 Antallet reduseres hvis det overskrider maksimumsordreantallet. Deretter økes det hvis det er under minimumsordreantallet. Til slutt rundes dette opp slik at det samsvarer med en angitt bestillingsfaktor. Restantall bruker de samme justeringene før det totale behovet er blitt konvertert til ordreforslag.  
 
-## Avgrens varen  
+## <a name="delimit-the-item"></a>Avgrens varen
 
 Feltet **Produksjonsprinsipp** på siden **Varekort** angir hvilke andre ordrer MRP-beregningen foreslår.  
 
@@ -114,7 +114,7 @@ Hvis alternativet **Produser til lager** brukes, vil ordrene bare gjelde varen.
 
 Hvis alternativet **Produser til ordre** brukes, analyserer planleggingssystemet produksjonsstykklisten for varen og oppretter koblede ordreforslag for disse varene på lavere nivå, som også er angitt som Produser til ordre. Dette fortsetter så lenge det finnes produser-til-ordre-varer i de synkende stykklistestrukturene.
 
-## Bruk lavnivåkoder til å styre avledet behov
+## <a name="use-low-level-codes-to-manage-derived-demand"></a>Bruk lavnivåkoder til å styre avledet behov
 
 Bruk lavnivåkoder til å opprette avledet behov for komponenter som går gjennom til de lavere nivåene i stykklisten. Hvis du vil lære mer om lavnivåkoder, går du til [Vareprioritet/lavnivåkode](design-details-central-concepts-of-the-planning-system.md#item-priority--low-level-code).
 
@@ -130,7 +130,7 @@ Som et alternativ til den automatiske beregningen som skjer dynamisk når feltet
 > [!NOTE]
 > Selv om du slår på feltet **Dynamisk lavnivåkode** er valgt, endres ikke lavnivåkodene for komponentvarer dynamisk hvis en overordnet stykkliste blir slettet eller satt til ikke-sertifisert. Dette tilfellet kan gjøre det vanskelig å legge til nye varer på slutten av produktstrukturen fordi det kan overskride det maksimale antallet lavnivåkoder. For store produktstrukturer som når grensen for lavnivåkoder, kan du kjøre kjørselen **Beregn lavnivåkode** ofte for å opprettholde strukturen.  
 
-## Se også  
+## <a name="see-also"></a>Se også
 
 [Utformingsdetaljer: Håndter gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)  
 [Utformingsdetaljer: Balanser tilbud og etterspørsel](design-details-balancing-demand-and-supply.md)  

@@ -10,13 +10,13 @@ ms.search.keywords: null
 ms.date: 05/27/2021
 ms.author: edupont
 ---
-# Eksterne dokumentnumre i kjøpsdokumenter
+# <a name="external-document-numbers-on-purchase-documents"></a>Eksterne dokumentnumre i kjøpsdokumenter
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 Du kan også angi eksterne dokumentnumre i salgsdokumenter. Hvis du vil ha mer informasjon, kan du se [Eksterne dokumentnumre](sales-how-invoice-sales.md#external-document-numbers)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Angi eksterne dokumentnumre](across-enter-external-document-numbers.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  

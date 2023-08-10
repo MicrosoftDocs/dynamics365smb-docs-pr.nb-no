@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/16/2021
 ms.author: edupont
 ---
-# Håndtere lager- og produksjonskost
+# <a name="handling-inventory-and-manufacturing-costs"></a>Håndtere lager- og produksjonskost
 
 Selv om mange av funksjonene for kostredegjøring er uttrykt i underliggende prosesser uten brukerhandling, for eksempel postutligning og automatisk kostjustering, er mange felt, sider og rapporter rettet inn mot brukere som direkte eller indirekte håndterer vare- eller driftskost.  
 
@@ -29,7 +29,7 @@ Selv om mange av funksjonene for kostredegjøring er uttrykt i underliggende pro
 |Manuelt angre en vareutligning eller utligne vareposter som er opprettet i programmet, på nytt.|[Fjerne varefinansposter og utligne dem på nytt](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Bruk feltet **Utlignet fra-post** i varekladden til å opprette en fast utligning manuelt mellom en inngående transaksjon og den opprinnelige utgående transaksjonen.|[Lukk åpne vareposter som er resultat av fast utligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)
 [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)

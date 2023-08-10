@@ -11,10 +11,10 @@ ms.search.form: '10602, 10697, 10698, 10604'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Forholdsmessig mva. i Norge
+# <a name="proportional-vat-in-norway"></a>Forholdsmessig mva. i Norge
 [!INCLUDE[prod_short](../../includes/prod_short.md)] gjør det mulig for deg å beregne MVA når både fradragsberettiget og ikke-fradragsberettiget MVA forekommer. Siden det er vanskelig å vite hvor og hvordan varen blir brukt, må du ta kontakt med norske skattemyndigheter for å finne ut om en angitt prosentandel MVA kan gå til fradrag basert på historiske data.  
 
-## Eksempel  
+## <a name="example"></a>Eksempel
 Et busselskap eier både busser og lastebiler. Når det kjøpes inn bensin, blir denne lagret i én oppbevaringstank. Når bensinen brukes i en buss som transporterer barn, er den ikke fradragsberettiget. Når bensinen brukes i en lastebil, kan den være fradragsberettiget. Avtalen mellom selskapet og de norske skattemyndighetene kan for eksempel da være at 60 % av mva. går til fradrag.  
 
 Hvis du har en kjøpsfaktura på USD 12 500,00 basert på 25 prosent mva., og **Ja** er angitt i **Beregn forholdsmessig fradrag** på siden **Mva-bokføringsoppsett** og feltet **Forholdsmessig fradrags-%** er satt til **60 prosent**, går bare 60 prosent av mva. til fradrag i en kladd. Når fakturaen er bokført, er posteringene som følger:  
@@ -30,7 +30,7 @@ Dette vil også fungere hvis transaksjonen med denne mva-kombinasjonen bokføres
 > [!NOTE]  
 >  Hvis denne funksjonen brukes i en bestilling som brukes til innkjøp av varer til lager, har ikke funksjonen noen innvirkning på varekostnaden. Varekostnaden legges til gjennom ikke-fradragsberettiget mva. Dette er bare tilfelle i forbindelse med finans.  
 
-## Se også  
+## <a name="see-also"></a>Se også
  [Beregne forholdsmessig MVA](how-to-calculate-proportional-vat.md)   
  [Norsk mva-rapportering](norwegian-vat-reporting.md)
 

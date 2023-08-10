@@ -10,7 +10,7 @@ ms.search.form: 5841
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Oppdatere standardkost
+# <a name="update-standard-costs"></a>Oppdatere standardkost
 Du må regelmessig oppdatere standardkostnadene for komponenter og opprullere de nye kostnadene til den overordnede varen. Prosessen består vanligvis av følgende fire trinn:  
 
 1.  Oppdatere kost på komponent- og kapasitetsnivået. Hvis du vil ha mer informasjon, se kjørselen **Foreslå standardkost for vare**.  
@@ -20,7 +20,7 @@ Du må regelmessig oppdatere standardkostnadene for komponenter og opprullere de
 
 Hvis du vil ha mer informasjon, kan du se [Om beregning av standardkost](finance-about-calculating-standard-cost.md).
   
-## Slik oppdaterer du standardkost
+## <a name="to-update-standard-costs"></a>Slik oppdaterer du standardkost
 
 1.  Kjør kjørselen **Juster kostverdi - vareposter**.  
 2.  Kjør kjørselen **Bokfør lagerkost i Finans**.  
@@ -35,7 +35,7 @@ Hvis du vil ha mer informasjon, kan du se [Om beregning av standardkost](finance
     7.  Kjør kjørselen **Implementer endringer i standardkost**.  
 4.  Gå gjennom og bokfør siden **Revalueringskladd**, som er fylt ut med poster fra tidligere trinn i denne fremgangsmåten.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
  [Om beregning av standardkost](finance-about-calculating-standard-cost.md)   
  [Administrere lagerkostnader](finance-manage-inventory-costs.md)   

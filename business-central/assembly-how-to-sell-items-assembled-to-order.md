@@ -11,7 +11,7 @@ ms.search.keywords: 'kit, kitting, substitute items'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.custom: bap-template
 ---
-# Selg varer som er montert til ordre
+# <a name="sell-items-assembled-to-order"></a>Selg varer som er montert til ordre
 
 Varer som er konfigurert for Monter til ordre, forventes ikke å være på lager og blir montert når den er inkludert i en ordre. En vare er definert for Monter til ordre når feltet **Monteringsprinsipp** på varekortet inneholder **Monter til ordre**. Når du angir varen på en ordrelinje, blir en monteringsordre automatisk opprettet og koblet til ordren.  
 
@@ -28,7 +28,7 @@ I denne fremgangsmåten behandler du salget av en vare som skal monteres i henho
 > [!NOTE]  
 > Følgende fremgangsmåte omfatter ikke trinnene for å opprette en standardordre som skjer før trinnet der du angir montere-til-ordre-varen på en ordrelinje. Finn ut mer om å opprette ordrer under [Selg produkter med en kundeordre](sales-how-sell-products.md).  
 
-## Selge en vare som er montert til ordre
+## <a name="to-sell-an-item-that-is-assembled-to-order"></a>Selge en vare som er montert til ordre
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 2. Opprett en ordre. 
@@ -60,9 +60,9 @@ I denne fremgangsmåten behandler du salget av en vare som skal monteres i henho
 > [!NOTE]  
 > Vareerstatninger erstatter ikke automatisk en vare med en annen vare, for eksempel når du oppretter en ordre eller i en stykkliste. I stedet blir du varslet om at en erstatning er tilgjengelig.
 
-## Se relatert [Microsoft-opplæring](/training/modules/assemble-to-order-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/assemble-to-order-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Monteringsstyring](assembly-assemble-items.md)  
 [Arbeid med monteringsstykklister](assembly-how-work-assembly-boms.md)  
