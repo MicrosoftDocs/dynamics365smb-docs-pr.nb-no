@@ -34,11 +34,6 @@ Det er merket av for **Utlignet** på linjer der postene som er utlignet. Hvis d
 
 Når verdien i feltet **Total saldo** i ruten **Bankkontoutdragslinjer** er lik totalverdien i feltet **Saldo som skal avstemmes** pluss feltet **Saldo ved forrige utdrag** i ruten **Bankkontoposter**, kan du velge handlingen **Bokfør**. Bankkontoposter som ikke samsvarer, blir værende på siden, som angir avvik du må løse for å avstemme bankkontoen.
 
-Hvis du vil dobbeltsjekke bankkontoavstemmingen før du bokfører den, bruker du handlingen **Test rapport** for å forberede en forhåndsvisning av avstemmingen. Følgende rapport er tilgjengelig i følgende kontekster:
-
-* Når du forbereder en bankavstemming på siden **Bankkontoavstemming**.
-* Når du avstemmer bankkonti på siden **Betalingsavstemmingskladder**.
-
 Alle linjer som ikke kan sammenlignes, angitt med en verdi i **Differanse**-feltet, blir værende på siden **Bankkontoavstemming** etter bokføring. De representerer en form for avvik som du må løse før du kan fullføre bankkontoavstemmingen. Tabellen nedenfor beskriver noen vanlige forretningssituasjoner som kan forårsake forskjeller.
 
 | Differanse | Årsak | Løsning |
@@ -97,7 +92,7 @@ Du kan undersøke grunnlaget for avstemming ved å bruke handlingen **Avstemming
     Hvis du skriver inn 0 eller la feltet stå tomt, vil **Avstem automatisk**-handlingen bare søke etter samsvarende transaksjonsdatoer på bankkontopostens bokføringsdato.
 3. Velg **OK**-knappen.
 
-    Linjene er fargekodet for å gjøre det enklere å forstå hva du skal gjøre med dem. Alle bankkontoutdragslinjer og bankkontoposter som kan avstemmes, endres til grønn skrift, og det er merket av for **Utlignet**. Bankkontoposter som allerede er samsvart på andre bankavstemminger, vises med blå skrift.
+    Linjene er fargekodet for å gjøre det enklere å forstå hva du skal gjøre med dem. Bankkontoutdragslinjer og bankkontoposter som er avstemt i nåværende bankavstemming, endres til fet, grønn skrift. Bankkontoposter som er samsvart i andre bankavstemminger, vises med kursiv, blå skrift.
 4. Hvis du vil fjerne en avstemming, merker du bankkontoutdragslinjen og deretter velger du handlingen **Fjern avstemming**.
 
 > [!TIP]
@@ -107,6 +102,13 @@ Du kan undersøke grunnlaget for avstemming ved å bruke handlingen **Avstemming
 
 > [!TIP]
 > Når du skal tilordne linjer og poster manuelt, kan handlingene **Vis alle**, **Vis tilbakeførte poster**, **Skjul tilbakeførte poster** og **Vis ikke-avstemt** gjøre det enklere å få en oversikt. Som standard inneholder ikke bankkontopostene ikke-samsvarende tilbakeførte poster. Hvis du vil inkludere disse postene i oversikten og tilordne dem manuelt, velger du handlingen **Vis tilbakeførte poster**. Hvis du velger å skjule tilbakeførte poster etter at du har gjort ett eller flere samsvar, vises de samsvarende postene fremdeles.
+
+> [!NOTE]
+> Du kan ikke postere en bankavstemming hvis du gjør mange-til-én-samsvar og de kombinerte beløpene inneholder differanser. Dette gjelder selv om de kombinerte differansene balanserer til null.
+>
+> Her er et eksempel på en mange-til-én-samsvar som har differanser. Verdien på 200 for bankkontoutdragsoppføring 1 samsvarer med to bankposter som har en totalverdi på 180. Differansen er 20. Verdien på 350 for bankkontoutdrag 2 samsvarer med to andre bankposter som har en totalverdi på 370. Differansen er –20, som balanserer verdien av 20 for bankkontoutdrag 1.  
+>
+> Hvis du vil bokføre en bankavstemming mot differanser på linjene, bokfører du forskjellene og samsvarer dem mot de bokførte postene.
 
 1. Velg en ikke-avstemt linje i ruten **Bankkontoutdragslinjer** på siden **Bankkontoavstemming**.
 2. I ruten **Bankkontoposter** velger du én eller flere bankkontoposter som kan avstemmes med den valgte bankkontoutdragslinjen. Hvis du vil velge flere linjer, velger og holder du nede <kbd>Ctrl</kbd>-tasten og deretter velger du linjene.
@@ -121,6 +123,49 @@ Du kan undersøke grunnlaget for avstemming ved å bruke handlingen **Avstemming
 > [!TIP]
 > Hvis du vil fjerne en avstemming, merker du bankkontoutdragslinjen og deretter velger du handlingen **Fjern avstemming**. Hvis du har tilordnet flere bankkontoutdragslinjer til en post og du må fjerne en eller flere av avstemte linjer, fjernes alle de manuelle postene for posten når du velger **Fjern avstemming**.
 
+## Slik validerer du bankavstemmingen
+
+Hvis du vil dobbeltsjekke bankkontoavstemmingen før du bokfører den, bruker du handlingen **Test rapport** for å forhåndsvise avstemmingen. Følgende rapport er tilgjengelig i følgende kontekster:
+
+* Når du forbereder en bankavstemming på siden **Bankkontoavstemming**.
+* Når du avstemmer bankkonti på siden **Betalingsavstemmingskladder**.
+
+Linjer som ikke kan samsvare, forblir på siden **Bankkontoavstemming** etter bokføring. Disse linjene inneholder en verdi i feltet **Differanse**. Differansen representerer et avvik som du må løse før du kan fullføre bankkontoavstemmingen. Tabellen nedenfor beskriver noen vanlige forretningssituasjoner som kan forårsake forskjeller.
+
+| Differanse | Årsak | Løsning |
+|------------|--------|------------|
+| En transaksjon på bankkontoen i [!INCLUDE[prod_short](includes/prod_short.md)] er ikke på bankkontoutdraget. | Banktransaksjonen ble ikke opprettet selv om det ble gjort en bokføring i [!INCLUDE[prod_short](includes/prod_short.md)]. | Opprett den manglende transaksjonen (eller be en debitor om å gjøre det). Deretter importerer du bankkontoutdragsfilen på nytt eller angir transaksjonen manuelt. |
+| En transaksjon på bankkontoutdraget finnes ikke som et bilag eller en kladdelinje i [!INCLUDE[prod_short](includes/prod_short.md)]. | En banktransaksjon ble foretatt uten en tilsvarende bokføring i [!INCLUDE[prod_short](includes/prod_short.md)], for eksempel en kladdelinjebokføring for en utgift. | Opprett og bokfør den manglende oppføringen. Hvis du vil ha informasjon om hvordan du raskt gjør dette, kan du se [Opprette manglende poster for utligning av banktransaksjoner](bank-how-reconcile-bank-accounts-separately.md#to-create-missing-ledger-entries-to-match-bank-statement-lines). |
+| En transaksjon i den interne bankkontoen tilsvarer en banktransaksjon, men noe informasjon er for forskjellig for å utgjøre et samsvar. | Informasjon, for eksempel beløpet eller kundenavnet, ble skrevet inn på en annen måte i banktransaksjonen eller den interne posteringen. | Se gjennom informasjonen, og samsvar de to deretter manuelt. Du kan eventuelt korrigere dette manglende samsvaret. |
+
+Du må løse forskjellene, for eksempel ved å opprette manglende poster og korrigere ikke-samsvarende informasjon, eller ved å utføre transaksjoner som mangler penger, til bankkontoavstemmingen er fullført og postert.
+
+> [!NOTE]
+> Siden Bankavstemming og testrapporten forutsetter at du bare avstemmer innen perioden frem til sluttdatoen for utdraget. Hvis du samsvarer en bankkontoutdragslinje med en bankkontopost før du angir en sluttdato for utdrag, og deretter angir en sluttdato for utdraget etter sluttdatoen for bankkontoposten, blir dataene i testrapporten feil.
+
+Tabellen nedenfor beskriver felter i testrapporten som kan hjelpe deg med å fullføre bankavstemmingen.
+
+|Felt  |Description  |
+|---------|---------|
+|Utdragsdato| Datoen som er angitt i feltet **Utdragsdato** på siden **Bankkontoavstemming**.|
+|Saldo ved forrige utdrag|Saldoen som er angitt i feltet **Saldo ved forrige utdrag** på siden **Bankkontoavstemming**. Dette fylles ut automatisk fra den siste avstemmingen for samme bankkonto. Verdien er null hvis dette er din første bankkontoavstemming.|
+|Utdrag – sluttsaldo|Saldoen som er angitt i feltet **Utdrag – sluttsaldo** på siden **Bankkontoavstemming**. |
+|Finanskontonummer <*nummer*> Saldo på <*dato*> | Saldoen på finanskontoen på utdragets sluttdato. Dette er den ufiltrerte saldoen per denne datoen. Hvis banken bruker den lokale valutaen, bør denne saldoen være den samme som bankkontosaldoen (vist til høyre i rapporttoppteksten) når du har samsvart med alle utdragslinjene. En tom **()** i navnet på dette feltet betyr at banken bruker lokal valuta.<br><br>Et avvik i dette og de forrige feltene kan indikere at du har bokført direkte til finanskontoen, eller at du bruker samme finanskonto for flere banker, noe som ikke anbefales. Bankene er knyttet til økonomimodulen gjennom bankkontobokføringsgruppen som er angitt for kontoen.<br><br>Testrapporten viser en advarsel hvis du har direkte bokføringer, selv om saldoen for bokføringen er null. Direkte bokføringer som ikke er balansert, fører ofte til akkumulerte differanser for fremtidige bankavstemminger. Du bør kontrollere finanssaldoen og finanspostene før du bokfører bankavstemmingen. Hvis du vil vite mer om direkte bokføring, kan du gå til [Unngå direkte bokføring](#avoid-direct-posting).|
+|Finanskontonummer <*nummer*> Saldo (<*lokal valuta*>) på <*dato*>| Saldoen på finanskontoen på utdragets sluttdato i lokal valuta. Saldoen konverteres til bankkontoens valuta ved hjelp av valutakursen som var gyldig på utdragets sluttdato. Dette er den ufiltrerte saldoen per denne datoen. Du sammenligner dette med **Finanskontonummer <* nummer *> Saldo på <* dato*>*-felt hvis banken bruker utenlandsk valuta. Verdien i finanskontonummer <* nummer *> Saldo på <* dato*>-feltet for lokal valuta kan variere noe fordi valutakonvertering kan føre til små differanser. Bankens saldo bør være svært nær denne saldoen.  |
+|Bankkontosaldo på <*dato*>| Saldoen på bankkontoen på utdragets sluttdato.|
+|Differansesum    | Summen av differansene for utdragslinjene. Hvis du vil ha tilgang til detaljene, aktiverer du veksleknappen **Skriv ut utestående transaksjoner** når du angir vilkår for rapporten. En differanse er en bankkontoutdragslinje som ikke samsvarer fullstendig med én eller flere bankposter. Du kan ikke bokføre en bankkontoavstemming som har differanser. Du kan bokføre en bankavstemming som inneholder bankposter som ikke samsvarer med utdragslinjer. Denne verdien vises i feltet **Utestående banktransaksjoner** og i en egen del hvis du aktiverer veksleknappen Skriv ut utestående transaksjoner.      |
+|Kontoutdragssaldo     | Verdien som er angitt i feltet **Utdrag – sluttsaldo** på siden **Bankkontoavstemming**.  |
+|Utestående banktransaksjoner     | Summen av ikke-samsvarende, ikke-sjekkbankposter som har en bokføringsdato på eller før sluttdatoen for utdraget. Dette skjer når du registrerer transaksjoner før de er registrert i banken. For eksempel på slutten av en periode. Når du oppretter den neste bankavstemmingen, kan du avstemme disse postene.        |
+|Utestående sjekker     | Summen av ikke-samsvarende bankposter for sjekker som har en bokføringsdato på eller før sluttdatoen for utdraget. Dette skjer når du registrerer transaksjoner før de er registrert i banken. Dette kan for eksempel skje for sjekker hvis en leverandør ikke løser inn en sjekk i samme periode som du registrerte den. Når du oppretter den neste bankavstemmingen, kan du avstemme disse postene.        |
+|Bankkontosaldo     | Summen av verdiene for sluttsaldoen på bankkontoutdraget, utestående banktransaksjoner og utestående sjekker. Når du har håndtert alle differanser på samsvarende poster, samsvarer denne saldoen med banksaldoen. Du har for eksempel tatt høyde for alle samsvarende poster i tillegg til postene du ikke kunne samsvare for dette kontoutdraget. Du kan bokføre avstemmingen.        |
+
+> [!TIP]
+> Hvis du kjører **testrapporten** fra siden **Betalingsavstemmingskladd**, beregner [!INCLUDE [prod_short](includes/prod_short.md)] verdien i **sluttsaldoen for utdrag** på følgende måte:
+>
+> * saldo ved forrige utdrag + summen av alle linjer i betalingsavstemmingskladd
+>
+> Du kan bruke verdien til å sammenligne med kontoutskriften.
+
 ## Opprette manglende poster for utligning av bankkontoutdragslinjer
 
 Noen ganger inneholder et bankkontoutdrag et rente- eller gebyrbeløp. Slike bankkontoutdragslinjer kan ikke utlignes fordi det ikke finnes noen relaterte poster i [!INCLUDE[prod_short](includes/prod_short.md)]. Du må deretter bokfører en kladdelinje for hver transaksjon for å opprette en relatert post som den kan utlignes mot.
@@ -128,9 +173,9 @@ Noen ganger inneholder et bankkontoutdrag et rente- eller gebyrbeløp. Slike ban
 1. På siden **Bankkontoavstemming** velger du handlingen **Overfør til finanskladd**.  
 2. På siden **Overfør bankavst. til finans** angir du hvilken finanskladd du vil bruke, og velger deretter **OK**-knappen.
 
-    Siden **Finanskladd** åpnes, som inneholder nye kladdelinjer for bankerkontoutdragslinjer med manglende poster.
-3. Fyll ut kladdelinjen med relevant informasjon, for eksempel motkonto. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
-4. Hvis du vil se resultatet av bokføringen før du bokfører, kan du velge **Kontrollrapport**-handlingen. **Bankkontoutdrag**-rapporten åpnes, og viser de samme feltene som ved overskriften i **Bankkontoavstemming**-siden.
+    Siden **Finanskladd** åpnes med nye kladdelinjer for bankerkontoutdragslinjer som mangler poster.
+3. Fyll ut kladdelinjen med informasjon, for eksempel motkonto. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
+4. Hvis du vil se gjennom resultatet av bokføringen før du bokfører, velger du handlingen **Testrapport**, og deretter velger du et alternativ for tilgang til rapporten. **Bankkontoutdrag**-rapporten viser de samme feltene som ved overskriften i **Bankkontoavstemming**-siden.
 5. Velg handlingen **Bokfør**.
 
     Når posten er bokført, samsvarer du bankkontoutdragslinjen med den.
@@ -197,11 +242,11 @@ Denne feilen oppstår ofte når du angir en startsaldo for en bankkonto. Det er 
 ## Se relatert [Microsoft-opplæring](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
 
 ## Se også
+
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  
 [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Konfigurere banktjenester](bank-setup-banking.md)  
 [Definere regler for automatisk utligning av betalinger](receivables-how-set-up-payment-application-rules.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

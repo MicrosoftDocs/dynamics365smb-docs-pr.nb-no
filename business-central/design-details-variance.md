@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: edupont
 ---
-# <a name="design-details-variance"></a>Designdetaljer: Avvik
+# Designdetaljer: Avvik
 Avvik er definert som differansen mellom faktisk kost og standardkost, som beskrevet i følgende formel.  
 
  faktisk kost – standardkost = avvik  
@@ -20,7 +20,7 @@ Avvik er definert som differansen mellom faktisk kost og standardkost, som beskr
 > [!NOTE]  
 >  Revaluering påvirker ikke avviksberegningen, fordi revaluering bare endrer lagerverdien.  
 
-## <a name="example"></a>Eksempel
+## Eksempel  
  Følgende eksempel illustrerer hvordan avvik beregnes for kjøpte varer. Dette er basert på følgende scenario:  
 
 1.  Brukeren kjøper en vare for LV 90,00, men standardkosten er LV 100,00. Derfor blir netto kjøpsavvik LV -10,00.  
@@ -33,7 +33,7 @@ Avvik er definert som differansen mellom faktisk kost og standardkost, som beskr
 
  ![Beregning av kjøpsavvik.](media/design_details_inventory_costing_11_purchase_variance.png "Beregning av kjøpsavvik")  
 
-## <a name="determining-the-standard-cost"></a>Fastslå standardkost
+## Fastslå standardkost  
  Standardkosten brukes ved beregning av avvik og beløpet som skal kapitaliseres. Siden standardkosten kan endres over tid på grunn av manuell oppdatering av beregning, trenger du et tidspunkt der standardkost er fast for avviksberegning. Dette er tidspunktet når lagerøkningen faktureres. Punktet der standardkost fastslås når kostnaden justeres for varer som produseres eller monteres.  
 
  Tabellen nedenfor viser hvordan ulike kostandeler beregnes for produserte og monterte varer når du bruker funksjonen Beregn standardkost.  
@@ -52,7 +52,7 @@ Avvik er definert som differansen mellom faktisk kost og standardkost, som beskr
 |**Opprullert indir. kap.kostn.**|Ikke i bruk|![Ligning 8.](media/design_details_inventory_costing_11_equation_8.png "Ligning 8")|  
 |**Opprullert indir. prod.kostn.**|Ikke i bruk|![Ligning 9.](media/design_details_inventory_costing_11_equation_9.png "Ligning 9")|  
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)   
  [Designdetaljer: Kostmetoder](design-details-costing-methods.md) [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
