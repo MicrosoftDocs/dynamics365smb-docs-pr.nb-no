@@ -10,7 +10,7 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '5768, 7330, 7332, 7333, 7342, 7363, 8510, 9008'
 ---
-# Motta varer med et lagermottak
+# <a name="receive-items-with-warehouse-receipts"></a>Motta varer med et lagermottak
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] mottar du varer og plasserer dem ved å bruke en av fire metoder, som beskrevet i tabellen nedenfor.
 
@@ -25,7 +25,7 @@ Hvis du vil ha mer informasjon om hvordan du håndterer inngående varer, går d
 
 Følgende artikkel refererer til metode C og D i forrige tabell.
 
-## Motta varer med et lagermottak
+## <a name="receive-items-with-a-warehouse-receipt"></a>Motta varer med et lagermottak
 
 Når varene ankommer et lager som er definert til å behandle lagermottak, må du hente linjene i kildedokumentet som utløste mottaket. Hvis du bruker hyller, kan du enten godta standardhyllen eller angi hyllen som varene skal plasseres i. Det siste kan være nødvendig når du mottar en vare for første gang. Deretter må du angi antall varer du har mottatt, og bokføre mottaket.  
 
@@ -66,7 +66,7 @@ Du kan opprette lagermottak på en av to måter:
     > [!NOTE]  
     > Hvis lageret bruker kryssoverføring, kan du kontrollere om du kan kryssoverføre varer uten å plassere dem. Hvis du vil finne ut mer om kryssoverføring, går du til [Kryssoverfør varer](warehouse-how-to-cross-dock-items.md).
 
-## Bruke filtre til å hente kildedokumenter
+## <a name="how-to-use-filters-to-get-source-documents"></a>Bruke filtre til å hente kildedokumenter
 
 Fra et lagermottak kan du bruke siden **Filtre for henting av kildedokumenter** til å hente linjene i det frigitte kildedokument som angir varer som skal mottas.
 
@@ -82,7 +82,7 @@ Alle frigitte kildedokumentlinjer som oppfyller filterkriteriene, legges til på
 
 Du kan opprette et ubegrenset antall filterkombinasjoner. Filtrer lagres på siden **Filtre for henting av kildedok**, og de er tilgjengelige neste gang du trenger dem. Du kan når som helst endre kriteriene ved å velge handlingen **Endre**.
 
-## Sone- og hyllekoder
+## <a name="zone-and-bin-codes"></a>Sone- og hyllekoder
 
 Hvis du vil motta varer med andre lagerklassekoder enn lagerklassekoden til hyllen i feltet **Hyllekode** i dokumenthodet, må du fjerne feltet **Hyllekode** fra hodet før du henter kildedokumentlinjene for varene.  
 <!-- TBD, table with comparison of various options-->
@@ -92,9 +92,9 @@ Hvis hyller er obligatoriske for lokasjon, legges sone- og hyllekoder til i lage
 * For avanserte oppsett som bruker lagerstyring, bruker [!INCLUDE [prod_short](includes/prod_short.md)] mottakshyllekoden på siden **Lokasjonskort** for lokasjonen. Hvis det ikke er angitt noen mottakshyllekode, angis ingen hylle. Hvis varen og mottakshyllene ikke samsvarer, er koden for mottakshyllen tom.
 * Hvis det er angitt en mottakshyllekode i andre konfigurasjoner, bruker [!INCLUDE [prod_short](includes/prod_short.md)] hyllekoden fra kildedokumentet.
 
-## Se relatert [Microsoft-opplæring](/training/modules/receive-invoice-dynamics-d365-business-central/index).
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/receive-invoice-dynamics-d365-business-central/index).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

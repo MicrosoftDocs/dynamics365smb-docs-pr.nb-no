@@ -11,11 +11,11 @@ ms.search.form: '317, 318, 320, 474'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# Definer mva-oppgavemaler og mva-oppgavenavn
+# <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Definer mva-oppgavemaler og mva-oppgavenavn
 
 Skattemyndighetene kan endre, og endrer, kravene sine for bokføring av mva. Mva-oppgavemaler og mva-oppgavenavn kan hjelpe deg med å forberede kommende endringer og få en jevn overgang til de nye kravene. Du kan bruke mva-oppgavemalen til å definere forskjellige rapporter når du velger å skrive ut oppgaven. Hver mva-oppgavemal kan ha flere mva-oppgavenavn som i sin tur definerer beregningene, og du kan opprette et nytt mva-oppgavenavn når behovene endres. Ett navn beregner for eksempel mva for inneværende år basert på gjeldende krav, og en annen beregner mva basert på kravene for neste år. Navn er også for eksempel en metode for å beholde historikken over mva-oppgaveformater, slik at du kan gå tilbake og se hvordan du beregnet mva i tidligere år.
 
-## Slik definerer du en mva-oppgave
+## <a name="to-define-a-vat-statement"></a>Slik definerer du en mva-oppgave
 
 Mva-oppgaver lar deg beregne mva-oppgjørsbeløpet for en bestemt periode, for eksempel et kvartal.
 
@@ -27,7 +27,7 @@ Mva-oppgaver lar deg beregne mva-oppgjørsbeløpet for en bestemt periode, for e
 > Du kan filtrere informasjonen som oppgaven inneholder, avhengig av hva du valgte i **Type**-feltet. **Kontosammentelling** er nyttig hvis du vil ha mva fra en bestemt konto.
 **Mva-postsammentelling** får mva fra konti som er knyttet til det delene i feltene **Gen. Posting Type**, **Mva-bokf.gruppe - firma**, og/eller **Mva-bokføringsgruppe - vare**. **Radsammentelling** lar deg angi en verdi eller hurtigfilterkriterier i feltet **Radsammentelling**. Hvis du vil ha mer informasjon, kan du se [Søke etter, filtrere og sortere data](ui-enter-criteria-filters.md). **Beskrivelse** brukes ofte for å legge til en merknad til utdraget. Du kan for eksempel bruke den som en overskrift når du har brukt radsammentelling.
 
-## Forhåndsvise mva-oppgaven
+## <a name="to-preview-the-vat-statement"></a>Forhåndsvise mva-oppgaven
 
 Når du har definert en mva-oppgave, kan du forhåndsvise den for å sikre at den oppfyller dine behov.
 > [!Tip]
@@ -39,9 +39,9 @@ Når du har definert en mva-oppgave, kan du forhåndsvise den for å sikre at de
 4. På linjene hvor **Type**-feltet inneholder **Mva-postsammentelling**, kan du se en oversikt over mva-poster ved å velge beløpet i **Kolonnebeløp**-feltet.
 5. Du kan bruke tilpasning til å vise flere felt på linjene. Det kan for eksempel være urealisert grunnlagsbeløp og urealisert mva-beløp hvis du bruker urealisert mva.
 
-## Se relatert [Microsoft-opplæring](/training/paths/process-vat-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/process-vat-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Definere merverdiavgift (mva)](finance-setup-vat.md)  
 [Definere urealisert merverdiavgift](finance-setup-unrealized-vat.md)  

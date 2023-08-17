@@ -11,13 +11,13 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# Trenger mer tid til å avgjøre om du vil abonnere?
+# <a name="need-more-time-to-decide-whether-to-subscribe"></a>Trenger mer tid til å avgjøre om du vil abonnere?
 
 Det er viktig å ta de rette avgjørelsene når du velger en forretningsapplikasjon, og vi vet at det kan ta tid å utforske alle detaljene ved [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du trenger flere tid til å fullføre evalueringen, kan du utvide prøveperioden i ytterligere 30 dager. Når utløpsdatoen for prøveperioden nærmer seg, viser vi en melding som skal varsle deg når du logger deg på. Meldingen inneholder en kobling til **Forleng prøveperiode**-guiden, som du kan bruke til å utvide din prøveperiode. De ekstra 30 dagene starter når du velger **Forleng prøveperiode** i veiledningen.
 
 Men utvidelse av prøveperioden kan bare gjøres én gang. Du kan ikke utvide to ganger, i hvert fall ikke selv. Hvis du allerede har utvidet perioden, kan Microsoft-partneren din utvide den for deg igjen. Det er også en enkeltstående ting. Hvis du ikke allerede arbeider med en partner, kan du [Hvordan finner jeg en partner for videresalg?](/dynamics365/business-central/across-faq#how-do-i-find-a-reselling-partner).  
 
-## Slik forlenger du prøveperioden
+## <a name="to-extend-your-trial-period"></a>Slik forlenger du prøveperioden
 
 1. Logg på [!INCLUDE[prod_short](includes/prod_short.md)] på [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).
 
@@ -31,7 +31,7 @@ Men utvidelse av prøveperioden kan bare gjøres én gang. Du kan ikke utvide to
 > [!TIP]
 > Hvis du ikke kan se varslingen, kan du tvinge [!INCLUDE [prod_short](includes/prod_short.md)] til å kjøre den assisterte oppsettsveiledningen **Forlenget prøveperiode** ved å legge til ```?page=1828```-parameteren i URL-adressen, som i følgende eksempel: [https://businesscentral.dynamics.com/?page=1828](https://businesscentral.dynamics.com/?page=1828)
 
-## Hva skjer hvis prøveperioden min er utløpt?
+## <a name="what-happens-if-my-trial-period-is-expired"></a>Hva skjer hvis prøveperioden min er utløpt?
 
 Hvis den første 30-dagers prøveperioden er utløpt, kan du utvide den selv, som beskrevet ovenfor, og ting går sin vante gang. Bare logg på demoselskapet og start veiledningen **Forleng prøveperiode** fra meldingen.  
 
@@ -45,9 +45,9 @@ Når den forlengede prøveperioden er utgått, kan du [abonnere](https://go.micr
 
 [!INCLUDE [admin-viral-trial-expiry](includes/admin-viral-trial-expiry.md)]
 
-## Se relatert [Microsoft-opplæring](/training/modules/trial-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/trial-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Prøveversjoner og abonnementer (bare på engelsk)](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions?toc=/dynamics365/business-central/toc.json)  
 [Opprette nye selskaper](about-new-company.md)  

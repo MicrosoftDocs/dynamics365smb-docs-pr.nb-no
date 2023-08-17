@@ -10,7 +10,7 @@ ms.search.form: '370, 371, 372, 373, 375, 423, 424, 425, 426, 1240, 1280'
 ms.date: 08/03/2023
 ms.custom: bap-template
 ---
-# Opprette bankkonti
+# <a name="set-up-bank-accounts"></a>Opprette bankkonti
 
 Du bruker bankkonti i [!INCLUDE[prod_short](includes/prod_short.md)] til å holde orden på banktransaksjonene dine. Konti kan utstedes i norske kroner eller i fremmed valuta. Når du har opprettet bankkonti, kan du bruke mulighetene for utskriving av sjekker (gjelder ikke Norge). Bankkontiene omfatter ekstra funksjonalitet for [betalingsavstemming](receivables-apply-payments-auto-reconcile-bank-accounts.md), [bankavstemming](bank-how-reconcile-bank-accounts-separately.md) og import og eksport av bankfiler. Bankkontiene kan også inkluderes i transaksjoner i finanskladdene. Hver bankkonto er knyttet til en konto i kontoplanen gjennom den tilordnede bankbokføringsgruppen. Hvis du bruker en bankkonto i en betalingstransaksjon, opprettes automatisk en post både på bankkontoen og den tilkoblede finanskontoen.  
 
@@ -80,7 +80,7 @@ Se i videoen under de grunnleggende trinnene for å opprette en bankkonto i [!IN
 > [!WARNING]
 > Noen felter kan inneholde sensitive opplysninger, for eksempel feltene **Bankregistreringsnr.**, **Bankkontonr.**, **SWIFT-kode** og **IBAN- kode**. Lær mer på [Overvåk sensitive felter](across-log-changes.md#monitor-sensitive-fields).
 
-## Slik setter du opp bankkonti
+## <a name="to-set-up-bank-accounts"></a>Slik setter du opp bankkonti
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bankkontoer**, og velg deretter den relaterte koblingen.
 2. På siden **Bankkonti** velger du handlingen **Ny**.
@@ -150,7 +150,7 @@ The following table explains key fields.
 |Payment Export Format|Specifies the format of the bank file that is exported when you choose **Export Payments to File** on the **Payment Journal** page.|
 -->
 
-## Slik angir du en startsaldo
+## <a name="to-enter-an-opening-balance"></a>Slik angir du en startsaldo
 
 For å kunne fylle ut **Saldo**-feltet med en inngående balanse, må du bokføre en bankkontopost med det aktuelle beløpet. Du kan gjøre dette ved å utføre en bankkontoavstemming. Finn ut mer på [Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md).  
 >
@@ -159,7 +159,7 @@ For å kunne fylle ut **Saldo**-feltet med en inngående balanse, må du bokfør
 > [!IMPORTANT]
 > Ikke bokfør åpningssaldoen direkte i finans. Det fører til at poster i finanskontoen som ble bokført direkte, vanligvis fører til at du ikke kan avstemme bankkontoen. Med bankkontoer med utenlandsk valuta vil en slik øvelse resultere i forskjeller som akkumuleres når du bokfører flere bankavstemminger. Vanligvis bokfører du åpningssaldoen direkte til bankkontoen, og beløpet ender deretter opp i finanskontoen. Alternativt kan du senere tilbakeføre det fra finanskontoen som du bruker til å balansere den åpne finanssaldoen. I begge tilfeller må du balansere eventuell direkte bokføring til finanskontoen før du starter den første bankavstemmingen, og spesielt hvis bankkontoen er i en utenlandsk valuta.
 
-## Opprette din bankkonto for import eller eksport av bankfilene
+## <a name="to-set-up-your-bank-account-for-import-or-export-of-bank-files"></a>Opprette din bankkonto for import eller eksport av bankfilene
 
 Feltene som er knyttet til import og eksport av bankfeeder og -filer, er på hurtigfanen **Overføring** på siden **Bankkontokort**. Se mer på [Bruke AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md) og [Konfigurere Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md).
 
@@ -212,13 +212,13 @@ Illustrasjonen nedenfor viser ruten for utgående betalinger (numrene i beskrive
   :::column-end:::
 :::row-end:::
 
-## Opprette dine leverandørbankkonti for import eller eksport av bankfilene
+## <a name="to-set-up-vendor-bank-accounts-for-export-of-bank-files"></a>Opprette dine leverandørbankkonti for import eller eksport av bankfilene
 
 Felt i hurtigfanen **Overføring** på siden **Leverandørs bankkort** er relatert til eksport av bankfeeder og filer. Hvis du vil ha mer informasjon, se [Bruke AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md) og [Eksporter betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).
 
 [!INCLUDE[purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
-## Endre bankkontoen
+## <a name="changing-your-bank-account"></a>Endre bankkontoen
 
 For å bruke en annen bankkonto for bedriften, må du opprette den nye bankkontoen i [!INCLUDE[prod_short](includes/prod_short.md)]. Vi anbefaler at du ikke bare erstatter opplysningene om kontoen du bruker, fordi du kan få uriktige data. Det kan for eksempel hende at åpningssaldoen er feil eller at bankfeeden slutter å virke riktig. Det er viktig at du holder gjeldende og nye konti separat.
 
@@ -229,9 +229,9 @@ Når du har opprettet den nye bankkontoen, må du også opprette en ny bankbokf�
 
 Hvis du vil ha en mer kompakt visning av kontantkontiene i finansrapportering, kan du bruke fra kontiene **Fra-sum** og **Til-sum** i kontoplanen, radene **Sammentelling** i finansrapporter eller finanskontokategorier. Finn ut mer på [Business Intelligence og Financial Reporting](bi.md).
 
-## Se relatert [Microsoft-opplæring](/training/modules/cash-management-dynamics-365-business-central/)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/cash-management-dynamics-365-business-central/)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere banktjenester](bank-setup-banking.md)  
 [Definere bokføringsgrupper](finance-posting-groups.md)  

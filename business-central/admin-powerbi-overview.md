@@ -11,11 +11,11 @@ ms.reviewer: edupont
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Oversikt over komponent og arkitektur for Power BI-integrering for [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="power-bi-integration-component-and-architecture-overview-for-"></a>Oversikt over komponent og arkitektur for Power BI-integrering for [!INCLUDE[prod_short](includes/prod_short.md)]
 
 I denne artikkelen får du informasjon om de forskjellige aspektene ved Power BI-integrering med [!INCLUDE[prod_short](includes/prod_short.md)] for å gjøre det enklere å forstå hvordan du implementerer og bruker den.
 
-## Komponenter
+## <a name="components"></a>Komponenter
 
 Tabellen nedenfor beskriver de hovedkomponentene som er involvert i Power BI-integrering.
 
@@ -25,7 +25,7 @@ Tabellen nedenfor beskriver de hovedkomponentene som er involvert i Power BI-int
 |Power BI Desktop|Et redigeringsverktøy du bruker til å bygge rapporter og instrumentbord, og gjør at du kan kjøre rapporter. Det er tilgjengelig som en gratis nedlasting i Microsoft Store og installeres lokalt.|
 |[!INCLUDE[prod_short](includes/prod_short.md)]|Online eller lokal løsning med koblinger som er eksponert for Power BI, og kan bygge inn en Power BI-del.|
 
-## Hva som er tilgjengelig fra begynnelsen
+## <a name="whats-available-from-the-start"></a>Hva som er tilgjengelig fra begynnelsen
 
 Tabellen nedenfor beskriver tilgjengelige funksjoner.
 
@@ -37,7 +37,7 @@ Tabellen nedenfor beskriver tilgjengelige funksjoner.
 |Standard Power BI-rapporter for rollesentre distribueres til Power BI|Online|
 |Power BI-apper i Microsoft AppSource|Online|
 
-## Arkitektur
+## <a name="architecture"></a>Arkitektur
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integreres med Power BI via en kobling som bruker OData. Datakilden for Power BI-rapporter eksponeres som API-sider og OData-nettjenester.
 
@@ -45,7 +45,7 @@ Tabellen nedenfor beskriver tilgjengelige funksjoner.
 
 Fra og med februar 2022 blir Power BI-rapporter for [!INCLUDE[prod_short](includes/prod_short.md)] online hentet fra en sekundær, skrivebeskyttet databasereplika. Databasereplika er en del av funksjonen for å [lese skalering](/dynamics365/business-central/dev-itpro/administration/database-read-scale-out-overview) i [!INCLUDE[prod_short](includes/prod_short.md)] online. Denne konfigurasjonen frigjør hoveddatabasen for transaksjoner, noe som forbedrer ytelsen i systemet. Å koble til den skrivebeskyttede database replikaen er en vesentlig del av Business Central Online-koblingen og krever ingen ekstra oppsett av deg. Alle nye rapporter kobler bare til den skrivebeskyttede databasereplikaen som standard. Gamle rapporter vil fortsatt bruke hoveddatabasen. Hvis du vil ha mer informasjon, kan du se [plan for lanseringsbølge 2 for 2021 for Business Central](/dynamics365-release-plan/2021wave2/smb/dynamics365-business-central/use-secondary-read-only-database-power-bi-reporting).
 
-## Generell flyt
+## <a name="general-flow"></a>Generell flyt
 
 Diagrammet nedenfor viser den grunnleggende arbeidsflyten for brukere når du kobler [!INCLUDE[prod_short](includes/prod_short.md)] til Power BI.
 
@@ -59,9 +59,9 @@ Diagrammet nedenfor viser den grunnleggende arbeidsflyten for brukere når du ko
 6. Brukeren oppretter en rapport i Power BI Desktop.
 7. Brukeren publiserer rapporten til Power BI-tjenesten. Rapportene blir deretter tilgjengelige for valg i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Business Central og Power BI](admin-powerbi.md)  
 [Power BI for forbrukere](/power-bi/consumer/end-user-consumer)  

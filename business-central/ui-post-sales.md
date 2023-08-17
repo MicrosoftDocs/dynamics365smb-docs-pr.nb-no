@@ -11,7 +11,7 @@ ms.search.form: '130, 142, 1350'
 ms.date: 04/01/2021
 ms.author: edupont
 ---
-# Bokføre salg
+# <a name="posting-sales"></a>Bokføre salg
 
 I menyen **Bokføring** i et salgsdokument kan du velge mellom følgende bokføringsfunksjoner:
 
@@ -37,19 +37,19 @@ For hver ordrelinje opprettes det en varepost i tabellen **Varepost** (hvis salg
 
 Du kan enten bokføre eller bokføre og sende. Hvis du velger å bokføre og sende, genereres en PDF-fil som du deretter kan sende. Du kan også velge funksjonen **Massebokfør** for å bokføre flere bestillinger samtidig. Hvis du vil ha mer informasjon, se [Bokføre flere dokumenter samtidig](ui-batch-posting.md).
 
-## Vise poster
+## <a name="viewing-ledger-entries"></a>Vise poster
 
 Når bokføringen er utført, fjernes de bokførte salgslinjene fra bestillingen. En melding viser når bokføringen er gjennomført. Etter dette vil du kunne se de bokførte postene på de forskjellige sidene som inneholder bokførte poster, for eksempel sidene **Kundeposter**, **Finansposter**, **Vareposter**, **Bokførte følgesedler** og **Bokført salgsfaktura**.  
 
 I de fleste tilfeller kan du åpne poster fra det berørte kortet eller dokumentet. På siden **Kundekort** velger du for eksempel handlingen **Poster**.
 
-## Redigere poster
+## <a name="editing-ledger-entries"></a>Redigere poster
 
 Du kan redigere bestemte felt på bokførte kjøpsdokumenter, for eksempel **Pakkesporingsnr.** -feltet. Hvis du vil ha mer informasjon, kan du se [Redigere bokførte dokumenter](across-edit-posted-document.md). Hvis du vil ha mer kritiske felt som påvirker revisjonssporingen, må du tilbakeføre eller angre bokføringen. Hvis du vil ha mer informasjon, kan du se [Tilbakeføre kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md).
 
-## Se relatert [Microsoft-opplæring](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
+## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/ship-invoice-items-dynamics-365-business-central/index)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
 [Bokfør flere dokumenter samtidig](ui-batch-posting.md)  

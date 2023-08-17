@@ -9,7 +9,7 @@ ms.search.form: '1360, 1361, 1364,'
 ms.date: 08/02/2023
 ms.custom: hap-template
 ---
-# WorldPay Payments Standard-utvidelsen
+# <a name="the-worldpay-payments-standard-extension"></a>WorldPay Payments Standard-utvidelsen
 
 > [!CAUTION]
 > WorldPay Payments Standard-utvidelsen blir avskrevet. Koden er merket som foreldet fra og med lanseringsbølge 2 i 2023. Appen er aktiv for de neste tre hovedversjonene og blir deretter fjernet.
@@ -20,7 +20,7 @@ Hvis du aktiverer filtypen når du sender en salgsfaktura via e-post, inneholder
 
 Aktiverer utvidelser for betaling-tjenesten er gratis i [!INCLUDE[prod_short](includes/prod_short.md)], men du må kontakte tjenesten for å få en konto. Hvis du vil ha mer informasjon, kan du se [Aktivere kundebetalinger gjennom betalingstjenester](sales-how-enable-payment-service-extensions.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Tilpass [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Sette opp salg](sales-setup-sales.md)  
