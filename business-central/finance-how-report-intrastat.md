@@ -116,12 +116,31 @@ Når du arbeider med **Intrastat-rapporten**, vil du se **Status**-felt i dokume
 * *Utgitt*: [!INCLUDE[prod_short](includes/prod_short.md)] endrer automatisk statusen til *Frigitt* når du oppretter en fil. Fra dette tidspunktet kan du ikke endre **Intrastat-rapporten**. Hvis du må endre noe og en rapport på nytt, kan du bruke handlingen **Åpne på nytt** til å åpne Intrastat-rapporten på nytt. Når dokumentet er åpnet på nytt, kan du bruke **Frigi**-handlingen til å frigi dokumentet.
 * **Rapportert**: Angir om posten allerede er rapportert til skattemyndighetene. Dette er ikke en vanlig status, men et selvstendig felt, og selv om du åpnet Intrastat-rapporten på nytt, ville den fortsatt vise at filen allerede er opprettet for denne rapporten.
 
+### Trekanthandel i Intrastat
+
+Trekanthandel innebærer handel mellom tre land eller områder der varer omgår rapporteringsselskapets land. I Business Central kan dette tilrettelegges ved hjelp av funksjonen [Direkte levering](sales-how-drop-shipment.md). Hvis du vil aktivere dette alternativet, aktiverer du feltet **Inkluder direkte levering** i **Oppsett for Intrastat-rapport**.  
+
+Når du aktiverer dette alternativet, bruker systemet følgende regler, men bare hvis du har merket **Direkte levering** i **ordren**: 
+
+| Mottar fra | Leverer til | Forventet Intrastat-resultat |
+|----------|------------|----------------------|
+| Land som i **selskapsinformasjon** | Land som i **selskapsinformasjon** | Ingen Intrastat-linjer |  
+| Land som i **selskapsinformasjon** | EU-land som er forskjellig fra landet i **selskapsinformasjonen** | Intrastat-leveringslinje | 
+| Land som i **selskapsinformasjon** | Land utenfor EU | Ingen Intrastat-linjer |   
+| EU-land som er forskjellig fra landet i **selskapsinformasjonen** | Land som i **selskapsinformasjon** | Intrastat-mottakslinje | 
+| EU-land som er forskjellig fra landet i **selskapsinformasjonen** | EU-land som er forskjellig fra landet i **selskapsinformasjonen** | Ingen Intrastat-linjer |
+| EU-land som er forskjellig fra landet i **selskapsinformasjonen** | Land utenfor EU | Ingen Intrastat-linjer | 
+| Land utenfor EU | Land som i **selskapsinformasjon** | Ingen Intrastat-linjer |  
+| Land utenfor EU | EU-land som er forskjellig fra landet i **selskapsinformasjonen** | Ingen Intrastat-linjer |
+| Land utenfor EU | Land utenfor EU | Ingen Intrastat-linjer |   
+
 ## Se relatert opplæring på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
 
 ## Se også
 
-[Definer Intrastat-rapportering](finance-how-setup-report-intrastat.md)  
+[Konfigurer Intrastat-rapportering](finance-how-setup-report-intrastat.md)  
 [Økonomistyring](finance.md)  
+[Direkte levering](sales-how-drop-shipment.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
