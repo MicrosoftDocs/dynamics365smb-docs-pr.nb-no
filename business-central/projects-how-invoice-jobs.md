@@ -1,7 +1,7 @@
 ---
 title: Opprette en salgsfaktura for prosjekt for å fakturere et prosjekt
 description: Beskriver hvordan du kan fakturere kunder for prosjektutgifter etter hvert som et prosjekt skrider frem og kostnader akkumuleres.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: project invoice
 ms.search.form: '1002, 1007,'
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="invoice-jobs"></a>Fakturere prosjekter
+# Fakturere prosjekter
 
 I løpet av prosjektet kan det akkumuleres prosjektkostnader fra ressursforbruk, materiale og prosjektrelaterte kjøp. Under fremdriften til prosjektet blir disse transaksjonene bokført til prosjektkladden. Det er viktig at alle kostnader blir registrert i prosjektkladden før du fakturerer kunden.
 
@@ -25,7 +25,7 @@ Du kan fakturere hele prosjektet fra siden **Prosjektoppgavelinjer** eller bare 
 
 Du kan også fakturere et selskap som ikke er sluttkunden. Av og til er parten som et prosjekt er for, forskjellig fra parten som betaler regningen. På **Prosjekter**-siden kan du angi kunden som skal dra nytte av prosjektet i **Salg til**-feltene, og parten til å fakturere i **Faktura til**-feltene. 
 
-## <a name="to-create-multiple-job-sales-invoices"></a>Opprette flere salgsfakturaer for prosjekt
+## Opprette flere salgsfakturaer for prosjekt
 
 Du kan opprette en faktura for et prosjekt eller for én eller flere prosjektoppgaver for en kunde enten når arbeidet som skal faktureres, er fullført, eller når faktureringsdatoen som er basert på et faktureringsestimat, er nådd.
 
@@ -41,7 +41,7 @@ Du kan gå gjennom og bokføre opprettede fakturaer i **Salgsfakturaer**-vinduet
 > [!NOTE]
 > Du kan også fakturere en kunde ved å velge prosjektet, og deretter velge handlingen **Opprett salgsfaktura for prosjekt**. 
 
-## <a name="to-create-and-post-job-sales-invoice-from-job-planning-lines"></a>Slik oppretter og bokfører du prosjektsalgsfaktura fra prosjektplanleggingslinjer
+## Slik oppretter og bokfører du prosjektsalgsfaktura fra prosjektplanleggingslinjer
 
 Du kan opprette en faktura fra en prosjektplanleggingslinje og samtidig angi antallet for varen, ressursen eller finanskontoen som du vil fakturere.
 
@@ -60,9 +60,9 @@ Du kan opprette en faktura fra en prosjektplanleggingslinje og samtidig angi ant
 > [!NOTE]  
 >   Fremgangsmåten ovenfor er identisk for å opprette, gå gjennom og bokføre en prosjektrelatert salgskreditnota.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/post-job-usage-sales/)
+## Se relatert [Microsoft-opplæring](/training/paths/post-job-usage-sales/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere prosjekter](projects-manage-projects.md)  
 [Finans](finance.md)  

@@ -1,15 +1,15 @@
 ---
 title: Send dokumenter og e-poster
 description: 'Du kan definere innhold som skal settes inn i brødteksten i en e-postmelding, for eksempel en PayPal-kobling. Du kan også legge ved dokumenter i e-postmeldinger.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.workload: na
 ms.search.keywords: 'SMTP, mail, Microsoft 365, cover, body, PayPal, layout'
 ms.search.form: '41,'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="send-documents-and-emails"></a>Send dokumenter og e-poster
+# Send dokumenter og e-poster
 
 Du kan enkelt dele informasjon og dokumenter, for eksempel ordrer og bestillinger samt fakturaer, via e-post direkte fra [!INCLUDE[prod_short](includes/prod_short.md)], uten å måtte åpne en e-postapp.  
 
@@ -22,7 +22,7 @@ Hvis du vil aktivere e-postmeldinger fra [!INCLUDE[prod_short](includes/prod_sho
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] støtter bare kommunikasjon med utgående e-post. Du kan ikke motta svar innenfra appen.
 
-## <a name="to-send-documents-by-email"></a>Sende dokumenter i e-post
+## Sende dokumenter i e-post
 
 Denne fremgangsmåten beskriver hvordan du knytter en bokført salgsfaktura til en e-postmelding som en PDF-fil, og med dokumentspesifikk e-posttekst. Trinnene er de samme for andre dokumenter.
 
@@ -44,14 +44,14 @@ Denne fremgangsmåten beskriver hvordan du knytter en bokført salgsfaktura til 
 > [!NOTE]  
 > Hvis du ikke vil angi e-postinnstillinger hver gang du sender et dokument via e-post, kan du velge alternativet **Ja (bruk standardinnstillinger)** i **E-post**-feltet på siden **Send dokument til**. I så fall åpnes ikke siden **Send e-post**. Se trinn 4. Hvis du vil ha mer informasjon, kan du se [Definere en profil for dokumentsending](sales-how-setup-document-send-profiles.md).  
 
-## <a name="to-compose-and-send-an-email"></a>Slik skriver og sender du en e-post
+## Slik skriver og sender du en e-post
 
 Du kan raskt skrive e-postmeldinger for kontakter, kunder, leverandører, selgere/innkjøpere og bankkontoer direkte fra sidene for disse enhetene. Velg **Behandle** og **Send e-post** for å åpne redigeringsprogrammet for e-post. Når det gjelder bankkonti, er handlingen **Send e-post** under **Handlinger**.
 
 > [!TIP]
 > Hvis du ofte sender e-postmeldinger som ligner, eller vil sende en massekommunikasjon, for eksempel for å annonsere en salgskampanje, kan du bruke Word-maler med e-post til å gjøre prosessen raskere. Du kan opprette en mal for en enhet, for eksempel kunder, leverandører og kontakter, som vil generere innholdet i en e-postmelding for deg og til og med tilpasse innholdet for mottakeren basert på data i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Bruk Word-maler til massekommunikasjon](ui-mail-merge.md).  
 
-### <a name="attach-a-document-to-an-email"></a>Legg ved et dokument i en e-post
+### Legg ved et dokument i en e-post
 
 Det finnes flere måter å legge ved dokumenter i e-poster på.
 
@@ -63,11 +63,11 @@ Bruk følgende handlinger for å legge ved en fil i redigeringsprogrammet for e-
 * Velg **Legg til filer fra standardutvalg** hvis du vil legge til en fil som er tilknyttet e-postscenarioet manuelt.
 * Velg **Legg til fil fra kildedokument** for å velge en fil som er knyttet til dokumentet du arbeider med. Filene er enten knyttet til selve dokumentet eller en eller flere av linjene.
 
-## <a name="documents-marked-as-printed-when-they-are-sent"></a>Dokumenter merket som skrevet ut når de sendes
+## Dokumenter merket som skrevet ut når de sendes
 
 Noen dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)] har et felt som angir hvor mange ganger dokumentet er skrevet ut. Nummeret i dette feltet <!--"that field?" need a name...--> oppdateres også hvis du sender dokumentet via e-post fordi det genereres en PDF-fil for det. Nummeret oppdateres selv om du ikke sender e-posten. <!--guessing this is because emails are technically reports, so the counter bumps up whenever someone creates an email. Need to verify.-->
 
-## <a name="sent-emails-and-your-email-outbox"></a>Sendte e-poster og e-postutboksen
+## Sendte e-poster og e-postutboksen
 
 [!INCLUDE[prod_short](includes/prod_short.md)] lagrer e-postene du sender, på siden **Sendte elementer**. Det gjør at du kan sende e-poster på nytt eller videresende dem til andre. Hvis du ikke finner en e-post i de sendte elementene, ser du etter den på siden **E-postutboks**. 
 
@@ -76,9 +76,9 @@ Noen dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)] har et felt som
 
 **E-postutboksen** er stedet der du finner e-postene du har lagret som kladd, og e-postene som ikke kan sendes, for eksempel hvis e-postadressen er ugyldig. For meldinger som ikke er sendt, kan du velge **Vis feil** eller **Undersøk feil** for å feilsøke problemet.  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/set-up-email/)
+## Se relatert [Microsoft-opplæring](/training/modules/set-up-email/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrer rapport- og dokumentoppsett](ui-manage-report-layouts.md)  
 [Konfigurere e-post](admin-how-setup-email.md)  

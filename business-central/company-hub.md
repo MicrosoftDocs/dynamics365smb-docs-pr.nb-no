@@ -1,15 +1,15 @@
 ---
 title: Administrere arbeid på tvers av flere selskaper i selskapshuben
 description: Lær om selskapshuben i Dynamics 365 Business Central som du bruker til å håndtere arbeidet i flere selskaper.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: 'accountant, accounting, financial report'
 ms.search.form: '1151, 1154, 1165, 1166'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 
-# <a name="manage-work-across-multiple-companies-in-the-company-hub"></a>Administrere arbeid på tvers av flere selskaper i selskapshuben
+# Administrere arbeid på tvers av flere selskaper i selskapshuben
 
 Noen personer arbeider i flere selskaper i [!INCLUDE [prod_short](includes/prod_short.md)], og noen arbeider også i mer enn én organisasjon, for eksempel eksterne regnskapsførere eller ansatte og ledere i selskaper med flere datterselskaper. For disse brukerne, og mange andre, fungerer firmahuben som en målside som gir en økonomisk oversikt over selskaper og miljøer. Den gir brukerne et verktøy for å administrere arbeid på tvers av de forskjellige miljøene de arbeider i, på tvers av selskaper, miljøer og områder.  
 
@@ -20,7 +20,7 @@ Du får tilgang til selskapshuben ved å bytte til **Selskapshub**-rollen i Mine
 > [!NOTE]
 > Du kan koble selskapssenteret til så mange selskaper du vil. Du kan imidlertid bare koble selskapssenteret til selskaper som er driftet i [!INCLUDE [prod_short](includes/prod_short.md)] på nett.
 
-## <a name="company-hub-home-page"></a>Hjemmeside for selskapshub
+## Hjemmeside for selskapshub
 
 Hvis du bruker rollen **Selskapshub**, viser hjemmesiden en liste over selskaper du har tilgang til, inkludert informasjon om interessepunktdata (KPI), og koblinger for å åpne hvert enkelt selskap. <!--You can customize the dashboard to show the data points that you want to see by adding or removing columns. For example, you might want to see taxes that are due, how many open sales documents each company has, or the number of purchase invoices that are due next week. You can configure the view to suit your needs. If you have added many companies, you can use filters to sort your view.--> Velg **Selskapshub**-handlingen for å åpne selskapshuben, der du kan arbeide nærmere med hvert selskap.  
 
@@ -48,13 +48,13 @@ In the **Company Hub** page, you can see more information about each company by 
 
 Otherwise, close the details pane and continue to the next company.  -->
 
-## <a name="assigned-tasks"></a>Tilordnede oppgaver
+## Tilordnede oppgaver
 
 I [!INCLUDE [prod_short](includes/prod_short.md)] kan du tilordne oppgaver til deg selv og andre, og andre kan tilordne oppgaver til deg. Selskapshuben gir deg en oversikt over tilordnede oppgaver for hvert selskap, og du får også tilgang til en oversikt over alle tilordnede oppgaver ved å velge **Mine brukeroppgaver** på **Start**-siden.  
 
 <!--In the client company, you also have cues that call out tasks assigned to you in this particular client.  -->
 
-### <a name="my-user-tasks"></a>Mine brukeroppgaver
+### Mine brukeroppgaver
 
 **Mine brukeroppgaver**-listen hjelper deg med å prioritere dagen ved å vise mer informasjon om oppgaver som er tilordnet til deg, for alle selskapene dine.  
 
@@ -66,7 +66,7 @@ Når du har fullført en oppgave, merker du den som fullført.
 
 Hvis du vil ha mer informasjon om selskaper og miljøer, kan du se [Miljøkoblinger](company-hub-add-company.md#environment-links).  
 
-## <a name="access-the-company-hub"></a>Tilgang til selskapshuben
+## Tilgang til selskapshuben
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -77,7 +77,7 @@ For å få tilgang til selskapshuben må du ha tilgang via enten brukergruppen *
 
 Hvis du ikke finner selskapshuben, og du vet at du har fått tilgang til den, kan du kontakte systemansvarlig hvis selskapshuben er oppført på siden **Administrasjon av utvidelse**. Hvis du vil ha mer informasjon, kan du se [Tilpasse Business Central med utvidelser](ui-extensions.md).  
 
-## <a name="set-up-the-company-hub"></a>Konfigurere selskapshuben
+## Konfigurere selskapshuben
 
 Når du skal begynne å bruke selskapshuben, må du legge til ett eller flere selskaper på instrumentbordet. Hvis du vil ha mer informasjon, kan du se [Legge til selskaper i selskapshuben](company-hub-add-company.md).  
 
@@ -87,7 +87,7 @@ Hvis du for eksempel er regnskapsfører, kan klientene dine invitere deg til sin
 
 Administratorer kan bruke samme assisterte oppsettsveiledning for å legge deg til i sine [!INCLUDE [prod_short](includes/prod_short.md)], eller de kan legge deg til i den relevante Azure AD-kontoen i administrasjonssenteret for Microsoft 365. Hvis du vil ha mer informasjon, kan du se [Administrere brukere og grupper](/microsoft-365/admin/add-users/?view=o365-worldwide&preserve-view=true).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Legge til selskaper i selskapshuben](company-hub-add-company.md)  
 [Regnskapsføreropplevelser i Business Central](finance-accounting.md)  

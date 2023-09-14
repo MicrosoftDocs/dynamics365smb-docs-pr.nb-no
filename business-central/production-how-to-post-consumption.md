@@ -1,16 +1,16 @@
 ---
 title: Massebokføre forbruk
 description: 'Hvis trekkmetoden er Manuell, må du bokføre komponentene manuelt ved hjelp av forbrukskladdene.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000846, 99000850'
 ms.date: 03/08/2023
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="batch-post-production-consumption"></a>Massebokføre produksjonsforbruk
+# Massebokføre produksjonsforbruk
 
 Hvis trekkmetoden er **Manuell**, må du bruke en forbrukskladd til å bokføre komponentene manuelt.  
 
@@ -19,7 +19,7 @@ Hvis trekkmetoden er **Manuell**, må du bruke en forbrukskladd til å bokføre 
 
 Du kan også konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til automatisk å bokføre (*lagertrekke*) komponenter når du starter eller ferdigstiller produksjonsordrer. Hvis du vil ha mer informasjon, kan du se [Aktivere lagertrekk av komponenter i henhold til operasjonsavgang](production-how-to-flush-components-according-to-operation-output.md).
 
-## <a name="to-post-consumption-for-one-or-more-production-order-lines"></a>Slik bokfører du forbruk for en eller flere produksjonsordrelinjer
+## Slik bokfører du forbruk for en eller flere produksjonsordrelinjer
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Forbrukskladd** og velg den relaterte koblingen.  
 2. Fyll ut feltene med produksjonsordre- og forbruksinformasjonen. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -33,7 +33,7 @@ Du kan også konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] til auto
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Produksjon](production-manage-manufacturing.md)  
 [Definere produksjon](production-configure-production-processes.md)  

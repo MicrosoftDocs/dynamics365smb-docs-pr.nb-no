@@ -1,20 +1,20 @@
 ---
 title: Lage kontantstrømprognoser ved å bruke finansrapporter
 description: Denne gjennomgangen beskriver hvordan du kan bruke finansrapporter til å lage kontantstrømprognoser i Business Central.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 08/18/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="walkthrough-making-cash-flow-forecasts-using-financial-reports"></a>Gjennomgang: Lage kontantstrømprognoser ved å bruke finansrapporter
+# Gjennomgang: Lage kontantstrømprognoser ved å bruke finansrapporter
 
 Denne gjennomgangen beskriver hvordan du kan bruke finansrapportfunksjonen til å lage kontantstrømprognoser. Finansrapporter utfører beregninger som ikke kan utføres direkte i diagrammet over kontantstrømkontoer. I finansrapportene kan du definere delsummer for kontantstrømmottak og -utbetalinger. Disse delsummene kan inkluderes i nye totalsummer som deretter kan brukes til å lage kontantstrømprognoser.  
 
-## <a name="about-this-walkthrough"></a>Om denne gjennomgangen
+## Om denne gjennomgangen
 
 Denne gjennomgangen beskriver følgende oppgaver:  
 
@@ -24,28 +24,28 @@ Denne gjennomgangen beskriver følgende oppgaver:
 - Tildel en kolonnedefinisjon til en finansrapport.  
 - Vise og skrive ut kontantstrømprognosen.  
 
-### <a name="prerequisites"></a>Forutsetninger
+### Forutsetninger
 
 For å fullføre denne gjennomgangen må du gjøre følgende:  
 
 - [!INCLUDE[prod_short](includes/prod_short.md)]  
 - Et kontantstrømforslag med registrerte linjer  
 
-## <a name="roles"></a>Roller
+## Roller
 
 Denne gjennomgangen viser oppgaver som utføres av følgende brukerrolle:  
 
 - Kontrollør  
 
-## <a name="story"></a>Hovedscenario
+## Hovedscenario
 
 Ken er kontrollør på CRONUS og utarbeider månedlige kontantstrømprognoser. Ken tar med finans, salg, kjøp og aktiva i prognosene, og presenterer til ØKDIR Sara for forretningsinnsikt.  
 
-## <a name="setting-up-a-new-financial-report-name"></a>Definer et nytt navn for finansrapporten
+## Definer et nytt navn for finansrapporten
 
 Navnet på finansrapporten er navnet du gir kontantstrømprognosen som inkluderer en serie med definerte linjer og en kolonnedefinisjon.  
 
-### <a name="set-up-a-new-financial-report-name"></a>Definer et nytt navn for finansrapporten
+### Definer et nytt navn for finansrapporten  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansrapporter**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny** på siden **Finansrapporter** for å opprette et nytt navn på kontantstrømfinansrapporten.  
@@ -53,11 +53,11 @@ Navnet på finansrapporten er navnet du gir kontantstrømprognosen som inkludere
 4. I **Beskrivelse**-feltet angir du **Kontantstrømprognose**.  
 5. La feltene **Raddefinisjon** og **Kolonnedefinisjon** stå tomme.
 
-## <a name="setting-up-row-definition-lines"></a>Definer raddefinisjonslinjer
+## Definer raddefinisjonslinjer
 
 Når et finansrapportnavn er definert, definerer Ken hver linje i kontantstrømfinansrapport. Ken definerer linjer som skal vises i rapporter, i tillegg til linjer som bare er til beregningsformål.  
 
-### <a name="set-up-row-definition-lines"></a>Definer raddefinisjonslinjer
+### Definer raddefinisjonslinjer  
 
 1. På siden for **Finansrapporter** velger du den nye finansrapporten **Prognose** du opprettet, og deretter velger du handlingen **Rediger raddefinisjon**.  
 2. På siden **Raddefinisjon** angir du hver linje som vist i tabellen nedenfor.  
@@ -93,7 +93,7 @@ Når et finansrapportnavn er definert, definerer Ken hver linje i kontantstrømf
     > [!NOTE]
     > Radnummeret R10 brukes til å registrere kontosummene for salg. Radnummeret R20 brukes til å beregne summen av alle innbetalinger. Radnummeret R30 brukes til å registrere kontosummene for kjøp. Radnummeret R40 brukes til å beregne summen av alle kontantutbetalinger. Radnummeret R50 brukes til å registrere summen av kontantoverskudd. Radnummeret R60 brukes til å registrere de likvide midlene. Radnummeret R70 brukes til å beregne den prognostiserte kontantstrømmen.
 
-## <a name="setting-up-a-new-column-definition"></a>Definer en ny kolonnedefinisjon
+## Definer en ny kolonnedefinisjon
 
 Før Ken skriver ut kontantstrømprognosen, må han opprette kolonnedefinisjonen for den numeriske informasjonen. Ken definerer informasjon som trengs for å bruke fra linjene, i kolonnene.
 
@@ -102,7 +102,7 @@ Før Ken skriver ut kontantstrømprognosen, må han opprette kolonnedefinisjonen
 - Den tredje kolonnen har tallet *C30* med tittelen **Hele året**, og viser bevegelsen i saldoene for hele regnskapsåret.  
 - Til slutt tildeler Ken kolonnedefinisjonen som standardalternativ for finansrapporten **Prognose**.  
 
-### <a name="set-up-a-new-column-definition"></a>Definer en ny kolonnedefinisjon
+### Definer en ny kolonnedefinisjon
 
 1. Velg det nye finansrapportnavnet for **Prognose** på siden **Finansrapporter**. På fanen **Hjem** under **Prosess** velger du **Rediger oppsett for kolonnedefinisjon**.
 
@@ -118,24 +118,24 @@ Før Ken skriver ut kontantstrømprognosen, må han opprette kolonnedefinisjonen
     |C20|Beløp til dato|Saldo per dato|Oppføringer|Nettobeløp|Alltid|  
     |C30|Helt regnskapsår|Helt regnskapsår|Oppføringer|Nettobeløp|Alltid|
 
-## <a name="assigning-the-column-definition-to-the-financial-report-name"></a>Tildel kolonnedefinisjonen til finansrapportnavnet
+## Tildel kolonnedefinisjonen til finansrapportnavnet
 
 Ken er nå klar til å tildele kolonnedefinisjonen til finansrapportnavnet.  
 
-### <a name="assign-the-column-definition-to-the-financial-report-name"></a>Tildel kolonnedefinisjonen til finansrapportnavnet
+### Tildel kolonnedefinisjonen til finansrapportnavnet
 
 1. På siden **Finansrapporter** velger du finansrapporten **Prognose**, og deretter velger du handlingen **Rediger kolonnedefinisjon**.  
 2. Velg kolonnedefinisjonen **Kontantstrøm** i feltet **Navn** for å bruke det som standard kolonnedefinisjon.  
 
-## <a name="view-and-print-the-cash-flow-forecast"></a>Vis og skriv ut kontantstrømprognosen
+## Vis og skriv ut kontantstrømprognosen
 
 1. Velg handlingen finansrapporten **Prognose** på siden **Finansrapporter** for å vise kontantstrømprognosen.  
 2. På siden **Finansrapport** kan du velge et beløp og deretter vise kontantstrømprognosepostene som utgjør beløpet. I tillegg kan du vise formelen som brukes til å beregne beløpet. Du kan også filtrere beløpene etter dato og dimensjon.  
 3. Velg **Skriv ut**-handlingen for å skrive ut kontantstrømprognosen.  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbeid med finansrapporter](bi-how-work-account-schedule.md)  
 [Analyser kontantstrømmen i firmaet](finance-analyze-cash-flow.md)  

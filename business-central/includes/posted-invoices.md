@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 Når fakturaen er bokført, finner du den i oversikten over bokførte fakturaer. Både listen **Bokførte salgsfakturaer** og listen **Bokførte kjøpsfakturaer** viser de posterte fakturaene med de siste fakturanumrene. I oversikten kan du slå opp hver enkelt bokførte faktura, og du kan korrigere eller annullere en bokført faktura.  
 

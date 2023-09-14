@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 05/09/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 Du vil kanskje se andre brukere i listen **Brukere** i tillegg til fra ditt eget selskap. Når en delegert administrator fra et forhandlerselskap logger seg på et [!INCLUDE [prod_short](prod_short.md)]-miljø på vegne av kunden, opprettes de automatisk som en bruker i [!INCLUDE [prod_short](prod_short.md)]. På denne måten logges [!INCLUDE [prod_short](prod_short.md)]-handlingene som utføres av en delegert administrator, for eksempel bokføringsdokumenter og tilknyttet bruker-ID-en.  
 

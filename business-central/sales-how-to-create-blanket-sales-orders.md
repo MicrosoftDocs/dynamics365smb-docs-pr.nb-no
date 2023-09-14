@@ -1,16 +1,16 @@
 ---
 title: Arbeide med rammeordrer eller rammebestillinger
 description: Bruk rammeordrer når en kunde har forpliktet seg til å kjøpe store antall som skal leveres i flere mindre leveringer over en bestemt tidsperiode. Det samme gjelder kjøp.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '507, 509, 6620, 6622, 6623, 9303, 9310'
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="work-with-blanket-sales-orders-or-blanket-purchase-orders"></a>Arbeide med rammeordrer eller rammebestillinger
+# Arbeide med rammeordrer eller rammebestillinger
 
 En rammeordre utgjør rammene for en langsiktig avtale mellom deg og kunden. På samme måte bruker du rammebestillinger til å håndtere langsiktige avtaler mellom deg og leverandøren.
 
@@ -23,7 +23,7 @@ Et eksempel på et tilfelle hvor en rammeordre kan brukes er når en kunde ringe
 > [!NOTE]
 > Rammebestillinger fungerer på lignende måte som rammeordrer. Denne dokumentasjonen dekker bare rammeordrer.
 
-## <a name="to-create-a-blanket-sales-order"></a>Slik oppretter du en rammeordre
+## Slik oppretter du en rammeordre
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Rammeordrer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
@@ -31,7 +31,7 @@ Et eksempel på et tilfelle hvor en rammeordre kan brukes er når en kunde ringe
 4. La **Ordredato**-feltet stå tomt. Når egne ordrer opprettes fra rammeordren, settes ordredatoen for salgsordren til faktisk arbeidsdato.
 5. På hurtigfanen **Linjer** oppretter du egne linjer for hver levering. Hvis kunden for eksempel vil ha 1 000 enheter fordelt jevnt på fire uker, angir du fire linjer på 250 enheter hver.  
 
-## <a name="to-create-a-sales-order-from-a-blanket-sales-order"></a>Slik oppretter du en ordre fra en rammeordre
+## Slik oppretter du en ordre fra en rammeordre  
 
 1. Hvis du vil opprette en ordre fra noen av linjene i rammeordren, fjerner du antallet i **Levere (antall)**-feltet på alle linjene som du ikke vil levere på dette tidspunktet.  
 2. Når du er klar til å opprette bestillinger, velger du handlingen **Lag ordre** og velger deretter **Ja**. Det vises en melding om at rammebestillingen er tilordnet et bestillingsnummer. Vær oppmerksom på at rammebestillingen ikke slettes.  
@@ -50,7 +50,7 @@ Følgende gjelder for ordrer når de har blitt opprettet fra rammeordrer:
 - Den fakturerte rammeordren blir i systemet til den slettes, enten ved å slette individuelle rammeordrer, eller ved å bruke kjørselen **Slett fakturerte rammeordrer**.  
 - Hvis en kunde også er registrert som kontakt i modulen Markedsføring, og hvis du har angitt en kode for samhandlingsmal for rammeordre på siden **Markedsføringsoppsett**, registreres en samhandling i tabellen Samhandlingspost når du velger **Skriv ut** for å skrive ut rammeordren.
 
-## <a name="to-view-the-status-of-a-blanket-sales-order"></a>Slik viser du statusen for en rammeordre
+## Slik viser du statusen for en rammeordre
 
 Du kan vise statusen for en rammeordre på siden **Rammeordrestatistikk**. Dette kan være relevant når du begynner å fakturere ordren som opprettes fra rammeordren.  
 
@@ -63,7 +63,7 @@ Du kan vise statusen for en rammeordre på siden **Rammeordrestatistikk**. Dette
 - På hurtigfanen **Forskudd** vises en informasjonsoversikt over eventuelle forhåndsbetalte beløp.  
 - På hurtigfanen **Leverandør** vises bestemte grunnleggende opplysninger om leverandøren.
 
-## <a name="to-view-unposted-and-posted-blanket-sales-order-lines"></a>Vise ikke-bokførte og bokførte rammeordrelinjer
+## Vise ikke-bokførte og bokførte rammeordrelinjer
 
 Koblingen mellom rammeordren og den opprinnelige salgsordren, og eventuelle andre salgsdokumenter, beholdes etter bokføring som en liste over bokførte og ikke-bokførte salgsordrefakturalinjer.  
 
@@ -89,9 +89,9 @@ Koblingen mellom rammeordren og den opprinnelige salgsordren, og eventuelle andr
 
 5. På siden **Salgslinjer** velger du handlingen **Vis dokument** for å vise posten.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Salg](sales-manage-sales.md)  
 [Opprette rammemonteringsordrer](assembly-how-to-create-blanket-assembly-orders.md)  

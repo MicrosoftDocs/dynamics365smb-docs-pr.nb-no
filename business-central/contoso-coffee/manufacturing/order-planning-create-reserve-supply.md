@@ -4,19 +4,19 @@ description: Gjennomgang for å lære hvordan du bruker ordreplanlegging til å 
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-author: edupont04
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
 
-# <a name="walkthrough-use-order-planning-to-create-and-reserve-supply"></a>Gjennomgang: Bruk ordreplanlegging til å opprette og reservere forsyning
+# Gjennomgang: Bruk ordreplanlegging til å opprette og reservere forsyning
 
 I denne artikkelen tar vi deg gjennom trinnene for å bruke Contoso Coffee-demodataene i ordreplanlegging.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Du er produksjonsplanleggeren hos Contoso Coffee. Du har opprettet en produksjonsordre for 100 enheter av varen **SP-SCM1009, Airpot**, og du vil planlegge halvfabrikater for denne ordren. Du bruker ordreplanlegging til å opprette den nødvendige produksjonsordren for forsyningen. Siden du oppretter produksjonsordren for å oppfylle kravene til en bestemt ordre, bestemmer du deg for å reservere avgangen for produksjonsordren.  
 
-## <a name="steps"></a>Trinn
+## Trinn
 
 1. Opprett den nylig frigitte produksjonsordren for 100 enheter av varen **SP-SCM1009, Airpot**.
 
@@ -59,7 +59,7 @@ Du er produksjonsplanleggeren hos Contoso Coffee. Du har opprettet en produksjon
 
 Det er for ordreplanlegging i [!INCLUDE [prod_short](../../includes/prod_short.md)].  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Innføring i demodata for Contoso Coffee](../contoso-coffee-intro.md)  
 [Om produksjonsordrer](../../production-about-production-orders.md)  

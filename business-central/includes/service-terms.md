@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 [!INCLUDE[prod_short](prod_short.md)] online er underlagt [Moderne livssykluspolicy](https://support.microsoft.com/help/30881/modern-lifecycle-policy). Vilkårene i servicenivåavtalen er beskrevet i dokumentet du kan laste ned fra delen **Servicenivåavtaler for Microsoft Online Services** på siden [Lisensvilkår](https://www.microsoft.com/licensing/product-licensing/products).  
 

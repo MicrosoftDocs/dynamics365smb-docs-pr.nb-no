@@ -1,7 +1,7 @@
 ---
 title: 'Angi leverandører for remittering [NO]'
 description: Norske forbedringer omfatter automatisk betaling til leverandører for å redusere feil som oppstår fra manuell dataregistrering.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,13 +9,13 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: '15000000, 15000002, 15000004, 15000006, 15000007, 15000010'
 ms.date: 06/21/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-vendors-for-remittance-in-the-norwegian-version"></a>Sett opp leverandører for remittering i den norske versjonen
+# Sett opp leverandører for remittering i den norske versjonen
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] inkluderer forbedringer i den norske versjonen for automatisk betaling til leverandører. Dette reduserer sjansen for at feil skal oppstå på grunn av manuell registrering av data. Du må angi leverandørinformasjon for å betale leverandører ved hjelp av remitteringssystemet.  
 
-## <a name="to-set-up-a-vendor-for-remittance"></a>Slik angir du en leverandør for remittering
+## Slik angir du en leverandør for remittering  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Leverandører** og velger den relaterte koblingen.  
 2.  Velg handlingen **Rediger**.  
@@ -86,7 +86,7 @@ ms.author: edupont
 
 10. Velg **OK**.  
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)   
  [Sette opp remitteringsavtaler](how-to-set-up-remittance-agreements.md)   
  [Opprette remitteringskontoer](how-to-create-remittance-accounts.md)   

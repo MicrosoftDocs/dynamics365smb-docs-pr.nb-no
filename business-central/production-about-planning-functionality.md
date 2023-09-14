@@ -10,7 +10,7 @@ ms.search.form: 5430
 ms.date: 08/30/2022
 ms.author: bholtorf
 ---
-# <a name="about-planning-functionality"></a>Om planleggingsfunksjonalitet
+# Om planleggingsfunksjonalitet
 
 Planleggingssystemet tar hensyn til alle behovs- og forsyningsdata, nettoberegner resultatet og oppretter forslag til å balansere forsyningen slik at den dekker behovet.  
 
@@ -19,7 +19,7 @@ Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Forsyningsplanlegging
 > [!NOTE]  
 > Les verktøytips for å forstå funksjon for alle feltene i dette emnet. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="demand-and-supply"></a>Behov og forsyning
+## Behov og forsyning
 
 Planlegging har to elementer: behov og forsyning. Disse må holdes i balanse for å sikre at behovet dekkes i rett tid og på en kosteffektiv måte.  
 
@@ -28,7 +28,7 @@ Planlegging har to elementer: behov og forsyning. Disse må holdes i balanse for
 
 Et annet mål med planleggingssystemet er å sikre at beholdningen ikke vokser unødvendig. Hvis behovet avtar, foreslår systemet at du utsetter, reduserer antallet i eller annullerer eksisterende etterfyllingsordrer.  
 
-## <a name="planning-calculation"></a>Planleggingsberegning
+## Planleggingsberegning
 
 Planleggingssystemet drives av forventet og faktisk kundebehov samt gjenbestillingsparametere for beholdning. Når du kjører planleggingsberegningen, foreslår programmet bestemte handlinger ([Handlingsmeldinger](production-how-to-run-mps-and-mrp.md#action-messages)) som gjelder mulig etterfylling fra leverandører, overføringer mellom lagre eller produksjon. Hvis det allerede finnes etterfyllingsordrer, kan de foreslåtte handlingene være å øke eller påskynde ordrene for å dekke endringene i behovet.  
 
@@ -37,7 +37,7 @@ Grunnlaget for planleggingsrutinen er i beregningen av brutto til netto. Nettobe
 > [!TIP]
 > Planleggingssystemet er avhengig av hvordan organisasjonen bruker lokasjoner. Hvis du vil ha mer informasjon, kan du se [Planlegging med eller uten lokasjoner](production-planning-with-without-locations.md).
 
-## <a name="planning-with-manual-transfer-orders"></a>Planlegge med manuelle overføringsordrer
+## Planlegge med manuelle overføringsordrer
 
 Som du ser i feltet **Etterfyllingssystem** på et LFE-kort, kan planleggingssystemet konfigureres slik at det opprettes overføringsordrer for å fordele forsyning og behov på tvers av lokasjoner.  
 
@@ -45,7 +45,7 @@ I tillegg til slike automatiske overføringsorder kan det av og til være behov 
 
 Hvis du derimot vil at planleggingssystemet skal justere overføringsordreantallene og datoene til eksisterende behov, må du angi standardverdien Ubegrenset i feltet **Planleggingsfleksibilitet**.
 
-## <a name="planning-parameters"></a>Planleggingsparametere
+## Planleggingsparametere
 
 Planleggingsparameterne kontrollerer når, hvor mye og hvordan etterfylling skal skje, basert på de ulike innstillingene på varekortet (eller lagerføringsenhet - LFE) og produksjonsoppsettet.  
 
@@ -86,16 +86,16 @@ Oppsettsfeltene for global planlegging på **Produksjonsoppsett**-siden omfatter
 
 Hvis du vil ha mer informasjon, kan du se [Designdetaljer: planleggingsparametere](design-details-planning-parameters.md)  
 
-## <a name="other-important-planning-fields"></a>Andre viktige felt for planlegging
+## Andre viktige felt for planlegging
 
-### <a name="planning-flexibility"></a>Planleggingsfleksibilitet
+### Planleggingsfleksibilitet
 
 I de fleste forsyningsordrer, for eksempel produksjonsordrer, kan du velge **Ubegrenset** eller **Ingen** i vinduet **Planleggingsfleksibilitet** på linjene.
 
 Dette angir om forsyningen som representeres av produksjonsordrelinjen, vurderes av planleggingssystemet ved beregning av handlingsmeldinger.
 Hvis feltet inneholder **Ubegrenset**, tar planleggingssystemet med linjen når handlingsmeldinger beregnes. Hvis feltet inneholder **Ingen**, er linjen fast og uforanderlig, og planleggingssystemet tar den ikke med når handlingsmeldinger beregnes.
 
-### <a name="warning"></a>Advarsel
+### Advarsel
 
 Informasjonsfeltet **Advarsel** på siden **Planleggingsforslag** informerer deg om eventuelle planleggingslinjer som er opprettet for en uvanlig situasjon med en tekst som brukeren kan velge å få mer informasjon. Følgende typer advarsler finnes:
 
@@ -113,7 +113,7 @@ Hvis beholdningen for en vare er negativ på den planlagte startdatoen, foreslå
 
 Dokumentlinjer med forfallsdato før den planlagte startdatoen konsolideres til én kritisk ordre for varen, med ankomst på den planlagte startdatoen.
 
-### <a name="exception"></a>Unntak
+### Unntak
 
 Unntak-advarselen vises hvis den beregnede disponible beholdningen faller under sikkerhetslagerantallet.
 
@@ -124,7 +124,7 @@ Et for lavt sikkerhetslagernivå anses for å være et unntak fordi det ikke ska
 > [!NOTE]
 > Forsyning på planleggingslinjer med unntaksadvarsler endres vanligvis ikke i henhold til planleggingsparametere. I stedet foreslår planleggingssystemet bare en forsyning for å dekke den nøyaktige behovsmengden. Du kan imidlertid angi planleggingskjøringen for å respektere visse planleggingsparametre for planleggingslinjer med bestemte advarsler. Hvis du vil ha mer informasjon, kan du se beskrivelsen for feltet **Respekter planleggingsparametre for unntaksadvarsler** i artikkelen [Kjøre full planlegging, MPS eller MRP](production-how-to-run-mps-and-mrp.md).
 
-### <a name="attention"></a>Viktig
+### Viktig
 
 Tilsyn-advarselen vises i to situasjoner:
 
@@ -134,11 +134,11 @@ Tilsyn-advarselen vises i to situasjoner:
 > [!NOTE]
 > På planleggingslinjer med advarsler er ikke feltet **Godta handlingsmelding** valgt, fordi planleggeren må undersøke disse linjene ytterligere før planen utføres.
 
-## <a name="planning-worksheets-and-requisition-worksheets"></a>Planleggingsforslag og bestillingsforslag
+## Planleggingsforslag og bestillingsforslag
 
 Som beskrevet i [Planlegging](production-planning.md) kan du velge mellom to forslag for de fleste planleggingsaktivitetene, planleggingsforslaget og bestillingsforslaget. De fleste prosesser er beskrevet basert på planleggingsforslaget, men det finnes et par scenarier der bestillingsforslaget foretrekkes.
 
-### <a name="requisition-worksheet"></a>Bestillingsforslag
+### Bestillingsforslag
 
 Siden **Bestillingsforslag** viser varer du vil bestille. Du kan angi varer i forslaget på følgende måter:
 
@@ -159,9 +159,9 @@ Hvis du vil ha detaljer om planlegging med lokasjoner og overføringer, se [Plan
 > [!TIP]
 > Når du arbeider med sidene **Bestillingsforslag** eller **Planleggingsforslag**, kan du organisere linjene ved å sortere etter et kolonnenavn. Dette er spesielt nyttig på siden Planleggingsforslag fordi de kan brukes i produksjonsordrer på flere nivåer. Som standard sorteres linjer etter feltet **Varenr.**. Hvis du vil gruppere linjer for en rekkefølge på flere nivåer, sorterer du etter feltet **Ref.ordrenr.** . Feltene **MPS-ordre** og **Planleggingsnivå** kan også hjelpe med å vise hierarkiet av linjene.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/plan-items-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/modules/plan-items-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)  
 [Planlegging](production-planning.md)  

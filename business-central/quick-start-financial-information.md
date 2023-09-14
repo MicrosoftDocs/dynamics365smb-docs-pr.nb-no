@@ -1,7 +1,7 @@
 ---
 title: Hurtigstart for økonomisk informasjon
 description: Få selskapet klart til å gjøre forretninger ved å sette opp økonomisk informasjon i Business Central.
-author: rubenseishima
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,18 +9,18 @@ ms.workload: na
 ms.search.keywords: quickstart
 ms.search.form: null
 ms.date: 08/25/2022
-ms.author: a-reishima
+ms.author: bholtorf
 ---
 
-# <a name="financial-information-quick-start"></a>Hurtigstart for økonomisk informasjon
+# Hurtigstart for økonomisk informasjon
 
 Når du har skrevet inn grunnleggende selskapsopplysninger i [!INCLUDE[prod_short](includes/prod_short.md)], er et av de neste trinnene å fylle ut økonomidelen. Dette gjør du ikke bare for å motta eller foreta betalinger, men du må også håndtere og rapportere firmanumrene på riktig måte.
 
-## <a name="the-chart-of-accounts"></a>Kontoplanen
+## Kontoplanen
 
 Kontoplanen gir en oversikt over firmaets økonomi, viser kontoer i strukturerte grupper, for eksempel eiendeler, gjeld, inntekt, solgte varers kost og utgifter. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en standard kontoplan du kan tilpasse etter virksomhetens regnskapsprinsipper.
 
-## <a name="set-up-the-chart-of-accounts"></a>Definere kontoplanen
+## Definere kontoplanen
 
 I denne videoen får du vite hvordan du definerer kontoplanen i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -28,7 +28,7 @@ I denne videoen får du vite hvordan du definerer kontoplanen i [!INCLUDE[prod_s
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-### <a name="add-an-account-to-the-chart-of-accounts"></a>Legg til en konto i kontoplanen
+### Legg til en konto i kontoplanen
 
 Hvis du vil legge til en konto som ikke er inkludert som standard i [!INCLUDE[prod_short](includes/prod_short.md)], for eksempel hagetjenester, bare følger du denne fremgangsmåten:
 
@@ -56,7 +56,7 @@ Hvis du vil legge til en konto som ikke er inkludert som standard i [!INCLUDE[pr
 
 5. Fyll ut gjenværende felter på **Finanskontokort** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="get-an-overview-of-the-chart-of-accounts"></a>Få en oversikt over kontoplanen
+### Få en oversikt over kontoplanen
 
 Hvis du trenger en mer kompakt visning av kontoplanen, uten for eksempel kolonner for bokføringsgrupper, bokføringstype eller kosttype, viser listen **Oversikt over kontoplan** hovedinformasjonen for hver konto i en mindre tabell. I tillegg kan du skjule eller vise grupper for å skjule kontoene i dem.
 
@@ -64,7 +64,7 @@ Hvis du vil vise oversikten, velger du **Oversikt over kontoplan**-handling på 
 
 Lær mer om kontoplanen og finans under [Forstå Finans og Kontoplan](finance-general-ledger.md).
 
-## <a name="set-up-bank-accounts"></a>Opprett bankkontoer
+## Opprett bankkontoer
 
 Bankkontoer i [!INCLUDE[prod_short](includes/prod_short.md)] registrere banktransaksjoner og knyttes til poster i kontoplanen. I denne videoen får du vite hvordan du definerer bankkontoer.
 
@@ -79,9 +79,9 @@ Bankkontoer i [!INCLUDE[prod_short](includes/prod_short.md)] registrere banktran
    Feltet er forskjellig fra feltet **Bankkontonr.** også tilgjengelig på hurtigfanen **Generelt**.
 4. Fyll ut feltene på siden **Leverandørs bankkort** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-training-at-microsoft-learn"></a>Se relatert opplæring på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
+## Se relatert opplæring på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Definer kontoplanen](finance-setup-chart-accounts.md)  
 [Opprett bankkonti](bank-how-setup-bank-accounts.md)  

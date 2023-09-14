@@ -1,7 +1,7 @@
 ---
 title: Kombinere mottak på én faktura
 description: 'Hvis du vil fakturere mer enn et kjøp om gangen, kan du bruke funksjonen Kombinere mottak.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: null
 ms.search.form: '136, 145, 146, 9308'
 ms.date: 08/03/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="combine-receipts-on-a-single-invoice"></a>Kombinere mottak på én faktura
+# Kombinere mottak på én faktura
 
 Hvis du vil fakturere mer enn et kjøp om gangen, kan du velge flere mottakslinjer på kjøpsfakturaen.  
 
@@ -22,7 +22,7 @@ Når kjøpsmottak kombineres i en faktura og bokføres, opprettes det en bokfør
 > [!NOTE]
 > Den resulterende kjøpsfakturaen kan senere ikke rettes eller kanselleres. Hvis du vil endre en kjøpsfaktura som er opprettet på denne måten, må du bruke kjøpskreditnotaer. Hvis du vil ha mer informasjon, kan du se [Korrigere eller annullere ubetalte kjøpsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md).
 
-## <a name="to-combine-receipts"></a>Slik kombinerer du mottak
+## Slik kombinerer du mottak
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Hvis du vil ha mer informasjon, kan du se [Registrere kjøp](purchasing-how-record-purchases.md).  
@@ -32,7 +32,7 @@ Når kjøpsmottak kombineres i en faktura og bokføres, opprettes det en bokfør
     Hvis feil mottakslinje ble merket eller du vil begynne på nytt, kan du ganske enkelt slette linjene på kjøpsfakturaen og deretter bruke funksjonen **Hent mottakslinje** på nytt.  
 5. Velg handlingen **Bokfør** for å bokføre fakturaen.  
 
-## <a name="to-remove-open-purchase-orders-after-combined-receipt-posting"></a>Fjerne åpne bestillinger etter kombinert mottaksbokføring
+## Fjerne åpne bestillinger etter kombinert mottaksbokføring
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Slett fakturerte bestillinger**, og velg den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
@@ -42,9 +42,9 @@ Du kan også slette de individuelle ordrene manuelt.
 
 Gjenta trinn 1 til 3 for eventuelle andre berørte dokumenter, for eksempel bestillinger.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/processing-invoices-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/modules/processing-invoices-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Korrigere eller annullere ubetalte kjøpsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  

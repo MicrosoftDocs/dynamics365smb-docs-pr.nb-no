@@ -1,16 +1,16 @@
 ---
 title: Opprette kostbudsjetter
 description: Dette emnet gir en oversikt over hvor du kan opprette og analysere kostbudsjetter. Budsjettering i kostregnskap ligner budsjettering i finans.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '1115, 1116, 1117, 1118, 1119, 1120, 1121, 1131, 1132, 1133'
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="creating-cost-budgets"></a>Opprette kostbudsjetter
+# Opprette kostbudsjetter
 
 Budsjettering i kostregnskap ligner budsjettering i finans. Et kostnadsbudsjett opprettes basert på kostnadstyper på samme måte som et finansbudsjett opprettes basert på finanskontoer.  
 
@@ -26,9 +26,9 @@ Du kan bruke følgende sider til å opprette og analysere kostbudsjetter. Velg i
 |Se kostbudsjettjournaler og kostbudsjettposter.|Siden **Kostbudsjettjournaler**|  
 |Skrive ut budsjettsammenligninger ved hjelp av ulike rapporter.|Rapporten **Kostregnskap – saldo/budsjett**<br /><br /> Rapporten **Kostregnskap – utdrag/budsjett**<br /><br /> Rapporten **Kostbudsjett etter kostsenter**<br /><br /> Rapporten **Kostbudsjett etter kostobjekt**|  
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/modules/cost-accounting-reports-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Gjøre rede for kostnader](finance-manage-cost-accounting.md)  
 [Opprette finansbudsjetter](finance-how-create-budgets.md)  

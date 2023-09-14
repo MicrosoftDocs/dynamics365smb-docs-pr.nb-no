@@ -1,7 +1,7 @@
 ---
 title: Regler for automatisk utligning av betalinger
 description: Les mer om hvordan du definerer regler for den automatiske utligning av betalinger på siden Betalingsutligningsregler.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'payment process, direct payment posting, reconcile payment, expenses, cash receipts'
 ms.search.form: '1290, 1294, 1287'
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-rules-for-automatic-application-of-payments"></a>Definere regler for automatisk utligning av betalinger
+# Definere regler for automatisk utligning av betalinger
 
 På siden **Betalingsutligningsregler** definerer du regler for å styre hvordan betalingstekst (på banktransaksjoner) utlignes automatisk med teksten på relaterte åpne (ubetalte) fakturaer, kreditnotaer eller andre oppføringer når du bruker funksjonen **Utlign automatisk** på siden **Betalingsavstemmingskladd**. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
 
@@ -29,7 +29,7 @@ I tillegg til søkekriteriene gjelder følgende med hensyn til fortegnet for bet
 - For negative beløp blir det først avstemt mot åpne poster som representerer kundefakturaer og deretter mot leverandørkreditnotaer.
 - For positive beløp blir det først avstemt mot åpne poster som representerer leverandørfakturaer og deretter mot kundekreditnotaer.
 
-## <a name="to-set-up-a-payment-application-rule"></a>Slik definerer du en utligningsregel for betaling
+## Slik definerer du en utligningsregel for betaling
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Betalingsutligningsregler** og velge den relaterte koblingen.
 2. Definer en ny eller redigert utligningsregel for betaling ved å fylle ut feltene på en linje, som beskrevet i tabellen nedenfor.
 
@@ -74,9 +74,9 @@ Tabellen nedenfor beskriver standardreglene for betalingsutligning i [!INCLUDE[p
 | Lav              | 4        | Nei                    | Nei                             | Ett treff                      |
 | Lav              | 5        | Nei                    | Nei                             | Flere treff               |
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
+## Se relatert [Microsoft-opplæring](/training/modules/reconciliation-journals-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
+## Se også
 [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  

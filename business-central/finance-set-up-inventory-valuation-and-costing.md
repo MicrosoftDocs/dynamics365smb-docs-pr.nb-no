@@ -1,13 +1,13 @@
 ---
 title: Definere lagerverdisetting og kostberegning
 description: 'For å sikre at lagerkost registreres riktig, må du definere ulike felt og sider før du begynner å opprette varetransaksjoner.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: null
 ms.date: 06/16/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Definere lagerverdisetting og kostberegning
+# Definere lagerverdisetting og kostberegning
 
 For å sikre at lagerkost registreres riktig, må du definere ulike felt og sider før du begynner å opprette varetransaksjoner. Vanligvis velger bedrifter en bestemt lagermetode og bruker den på lagervarer, for eksempel for å hjelpe dem med å spore verdien av varer på lager.  
 
@@ -30,7 +30,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 |Sikre at kjøpsreturer utlignes mot den opprinnelige inngående transaksjonen for å opprettholde lagerverdi.|Feltet **Bruk opprinnelig kostpris** på siden **Kjøp**|
 |Definere avrundingsreglene som skal brukes ved justering av eller forslag om varepriser, og når standardkost skal justeres eller foreslås.|Siden **Avrundingsmetode**|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Definere generell informasjon om lagerbeholdning](inventory-how-setup-general.md)  

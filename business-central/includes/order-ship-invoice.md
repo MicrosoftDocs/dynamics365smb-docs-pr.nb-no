@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 08/08/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 > [!IMPORTANT]
 > Når du bokfører en ordre, kan du opprette en følgeseddel og en faktura. Disse dokumentene kan gjøres samtidig eller hver for seg. Du kan også opprette en dellevering eller en delfaktura ved å fylle ut feltene **Levere (antall)** og **Fakturer (antall)** på hver enkelt ordrelinje før du bokfører. Merk at du ikke kan opprette en faktura fra siden **Ordrer** for noe som ikke er levert. Det vil si at for å kunne fakturere, er det nødvendig at du på forhånd har registrert en levering, eller at du velger å levere og fakturere samtidig.

@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 01/11/2023
 ms.custom: bap-template
 ---
-# <a name="administration-tasks"></a>Administrasjonsoppgaver
+# Administrasjonsoppgaver
 
 Sentrale administrasjonsoppgaver utføres vanligvis av én rolle i selskapet. Omfanget av disse oppgavene kan avhenge av selskapets størrelse og administrators jobbansvar. Disse oppgavene kan omfatte administrasjon av databasesynkronisering for jobb- og e-postkøer, oppsett av brukere og tilpassing av brukergrensesnittet.  
 
@@ -43,7 +43,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 |Koble Dynamics 365 Sales med [!INCLUDE[prod_short](includes/prod_short.md)] for å få en sømløs integrasjon mellom kunderelasjoner og ordrebehandling i interessent-til-kontanter-prosessen.|[Integrere med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)|
 |Endre hvilke felt og handlinger som skal vises i brukergrensesnittet, slik at det passer ditt selskaps forretningsprosesser, og utvid løsningen med apper.|[Tilpass [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md)|
 
-## <a name="administration-in-the-admin-center"></a>Administrasjon i administrasjonssenteret
+## Administrasjon i administrasjonssenteret
 
 Interne og delegerte administratorer har tilgang til [!INCLUDE [prod_short](includes/prod_short.md)]-administrasjonssenteret der de kan konfigurere, overvåke og feilsøke [!INCLUDE [prod_short](includes/prod_short.md)]-miljøer. Tabellen nedenfor beskriver noen av hovedoppgavene, og har koblinger til artiklene som beskriver dem.  
 
@@ -54,9 +54,9 @@ Interne og delegerte administratorer har tilgang til [!INCLUDE [prod_short](incl
 |Behandle brukerøkter, inkludert avbryte en økt, hvis brukeren er blokkert.|[Administrer økter](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Konfigurer leieren til å sende telemetridata til Azure Application Insights for bedre analyse og feilsøking.|[Aktiver sending av telemetri til Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/deploy-configure-dynamics-365-business-central/)
+## Se relatert [Microsoft-opplæring](/training/paths/deploy-configure-dynamics-365-business-central/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Forretningsfunksjoner](across-business-functionality.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  

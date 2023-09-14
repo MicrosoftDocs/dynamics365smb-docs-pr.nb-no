@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 03/15/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 Ettersom selskaper har drift i stadig flere land/regioner, blir det viktigere at de kan handle og rapportere finansinformasjon i mer enn én valuta. Den lokale valutaen (LV) er definert på siden **Finansoppsett** som beskrevet i artikkelen [Forstå finans og kontoplanen](../finance-general-ledger.md). Når den lokale valutaen (LV) er definert, vises den som en tom valuta, så når feltet **Valuta** er tomt, betyr det at valutaen er i LV.  
 

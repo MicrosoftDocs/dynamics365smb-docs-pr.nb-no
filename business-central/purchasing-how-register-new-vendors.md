@@ -11,7 +11,7 @@ ms.search.form: '26, 27, 34, 461, 786, 1379, 1385, 1386, 1628'
 ms.date: 09/05/2022
 ms.author: bholtorf
 ---
-# <a name="register-new-vendors"></a>Registrere nye leverandører
+# Registrere nye leverandører
 
 Leverandører tilbyr produktene du selger. Hver leverandør du kjøper fra, må være registrert med et leverandørkort.
 
@@ -22,7 +22,7 @@ Leverandørkort inneholder informasjon som er nødvendig for å kjøpe produkter
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3PZtd?rel=0]
 
-## <a name="adding-new-vendors"></a>Legge til nye leverandører
+## Legge til nye leverandører
 
 Du kan legge til nye leverandører manuelt ved å fylle ut siden **Leverandørkort**, eller du kan bruke maler som inneholder forhåndsdefinert informasjon. Du kan for eksempel opprette maler for ulike typer leverandørprofiler. Når du bruker maler, sparer du tid når du legger til nye leverandører og bidrar til å sikre at informasjonen er riktig hver gang.
 
@@ -40,7 +40,7 @@ Remitter til-adresser brukes når du skriver ut sjekker for å betale leverandø
 
 Du angir remitter til-adresser på leverandørkortsider, og på hurtigfanen Levering og betalinger på bestillinger og fakturaer. Når du oppretter betalingskladdelinjer ved hjelp av handlingene Betalingsleverandør eller Opprett betaling på sidene Leverandørlist eller Leverandørkort eller handlingen Utlign poster på en utbetalingskladd, tildeles remitter til-koden på leverandørposten. Du kan overskrive denne verdien.
 
-### <a name="to-create-a-new-vendor"></a>Slik oppretter du en ny leverandør
+### Slik oppretter du en ny leverandør
 
 [!INCLUDE[create_new_vendor](includes/create_new_vendor.md)]
 
@@ -51,7 +51,7 @@ Leverandøren er nå registrert, og leverandørkortet er klart til å brukes på
 
 Hvis du vil bruke dette leverandørkortet som en mal når du oppretter nye leverandørkort, kan du lagre det som en leverandørmal. Finn ut mer i delen [Slik lagrer du leverandørkortet som en mal](#to-save-the-vendor-card-as-a-template).
 
-### <a name="deleting-and-editing-vendor-information"></a>Slette og redigere leverandøropplysninger
+### Slette og redigere leverandøropplysninger
 
 Du kan når som helst redigere informasjonen på leverandørkort. Hvis du imidlertid har bokført en transaksjon for en leverandør, kan du ikke slette kortet, fordi postene kan være nødvendige for revisjon. Hvis du vil slette leverandørkort med poster, kontakter du Microsoft-partneren for å gjøre det via kode.
 
@@ -61,7 +61,7 @@ Du kan når som helst redigere informasjonen på leverandørkort. Hvis du imidle
 > [!TIP]
 > Du kan legge til alternative adresser på leverandørkort ved å velge handlingen **Bestillingsadresser**.
 
-## <a name="to-save-the-vendor-card-as-a-template"></a>Lagre leverandørkortet som en mal
+## Lagre leverandørkortet som en mal
 
 1. På siden **Leverandørkort** velger du handlingen **Lagre som mal**. **Leverandørmal**-siden åpnes og viser leverandørkortet som en mal.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -70,9 +70,9 @@ Du kan når som helst redigere informasjonen på leverandørkort. Hvis du imidle
 5. Når du har fullført den nye leverandørmalen, kan du velge **OK**.  
    Leverandørmalen legges til i listen over leverandørmaler, slik at du kan bruke den til å opprette nye leverandørkort.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/).
+## Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)  
 [Opprette nummerserier](ui-create-number-series.md)  

@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ---
-# <a name="set-up-jobs-prices-and-job-posting-groups"></a>Konfigurere prosjekter, priser og prosjektbokføringsgrupper
+# Konfigurere prosjekter, priser og prosjektbokføringsgrupper
 
 Som prosjektleder kan du sette opp prosjekter som definerer alle prosjekter du administrerer i [!INCLUDE[prod_short](includes/prod_short.md)]. Bruk siden **Prosjektoppsett** til å definere hvordan du skal bruke prosjektfunksjoner.
 
@@ -21,7 +21,7 @@ Angi ulike opplysninger for hvert prosjekt:
 * Finanskontoer for prosjekt
 * Prosjektbokføringsgrupper (obligatorisk)
 
-## <a name="to-set-general-information-for-jobs"></a>Slik angir du generell informasjon for prosjekter
+## Slik angir du generell informasjon for prosjekter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektoppsett** og velg den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -29,7 +29,7 @@ Angi ulike opplysninger for hvert prosjekt:
 > [!NOTE]
 > Vekslebryteren **Bruk forbrukskobling som standard** på siden **Prosjektoppsett** angir om prosjektposter er koblet til prosjektplanleggingslinjer som standard. Slå på vekslebryteren for å bruke denne innstillingen på alle nye prosjekter. Du kan aktivere eller deaktivere sporing av prosjektforbruk for et bestemt prosjekt ved slå av eller på vekslebryteren **Bruk forbrukskobling** på siden **Prosjektkort**.
 
-### <a name="to-set-up-job-usage-tracking"></a>Slik konfigurerer du sporing av prosjektforbruk
+### Slik konfigurerer du sporing av prosjektforbruk
 
 Når du arbeider på et prosjekt, vil du kanskje vite hvordan forbruket forløper seg i forhold til planen. Du kan utforske forbruket ved å opprette en kobling mellom jobbplanleggingslinjene og det faktiske forbruket. Med koblingen kan du holde oversikt over kostnadene og forstå hvor mye arbeid som gjenstår. Som standard er prosjektplanleggingslinjetypen **Budsjett**, men bruk av linjetypen **Både Budsjett og Fakturerbar** har liknende effekter.
 
@@ -43,7 +43,7 @@ Etter at du har konfigurert forbrukssporing ved å slå på vekslebryteren **Bru
 > [!IMPORTANT]
 > Hvis du ikke angir en verdi i feltet **Linjetype** på prosjektkladdelinjen eller kjøpslinjen, opprettes det ingen prosjektplanleggingslinjer når du bokfører prosjektkladden eller kjøpsdokumentet.
 
-## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-jobs"></a>Slik definerer du priser for ressurser, varer og finanskonti for jobber
+## Slik definerer du priser for ressurser, varer og finanskonti for jobber
 
 > [!NOTE]
 > I lanseringsbølge 2 for 2020 lanserte vi nye fremgangsmåter for å definere og håndtere priser og rabatter. Hvis du er en ny kunde, bruker du den nye opplevelsen. Hvis du er en eksisterende kunde, vil din bruk av den nye funksjonen avhenge av om administratoren har aktivert funksjonsoppdateringen **Ny salgsprisopplevelse** i **Funksjonsstyring**. Hvis du vil ha mer informasjon, kan du se [Aktivering av kommende funksjoner på forhånd](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -71,7 +71,7 @@ Når du velger en ressurs, en vare eller en finanskonto for et prosjekt, bruker 
 
 ---
 
-## <a name="to-set-up-job-posting-groups"></a>Slik definerer du prosjektbokføringsgrupper
+## Slik definerer du prosjektbokføringsgrupper
 
 Ett aspekt ved prosjektplanlegging er å bestemme hvilke bokføringskontoer som skal brukes for prosjektkostnader. Du må definere konti for bokføring for hver prosjektbokføringsgruppe for å kunne bokføre prosjekter. En bokføringsgruppe representerer en kobling mellom jobben og hvordan den skal behandles i finans. Når du oppretter en jobb, angir du en bokføringsgruppe, og hver oppgave du oppretter for prosjektet, knyttes som standard til denne bokføringsgruppen. Når du oppretter oppgaver, kan du imidlertid overstyre standardinnstillingen og velge en bokføringsgruppe som er mer hensiktsmessig.  
 
@@ -81,29 +81,29 @@ Ett aspekt ved prosjektplanlegging er å bestemme hvilke bokføringskontoer som 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektbokføringsgrupper**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny** og fyll deretter ut feltene som beskrevet i tabellen nedenfor.  
 
-| Kontofelt | Description |
-| --- | --- |
-| **Kode** |En identifikator for bokføringsgruppen. Du kan angi opptil 10 tegn, medregnet mellomrom. |
-| **VIA-forbrukskonto** |VIA-kontoen for beregnet kost for VIA for prosjekt. Dette er en balansekonto for kapitalaktiva. |
-| **VIA-salgskonto** |En konto for beregning av kostverdi eller salgspris for VIA-beregning. Denne kontoen er for påløpte utgifter på balansen. Når en VIA-justering krever at du øker forbrukskostnadene som du bokfører i resultatregnskapet, bokfører du til denne kontoen. |
-| **Forbrukskonto (resultat) for prosjekt** |En motkonto for VIA-forbrukskontoen. Dette er en motkonto for negativ utgift. |
-| **Konto for utlignede varekostnader** |En motkonto for VIA-forbrukskontoen. Dette er en motkonto for negativ utgift. |
-| **Konto for utlignede ressurskostnader** |En motkonto for VIA-forbrukskontoen. Dette er en motkonto for negativ utgift. |
-| **Forbrukskonto (resultat)** |En motkonto for VIA-forbrukskontoen. Dette er en motkonto for negativ utgift. |
-| **Salgskonto for prosjekt** |Motkontoen for VIA-salgskontoen. Dette er en utgiftskonto. |
-| **Salgsutgiftskonto (budjett)** |Salgskontoen som skal brukes til finansutgifter i prosjektoppgaver med denne bokføringsgruppen. Hvis du lar dette feltet stå tomt, brukes finanskontoen som er angitt på prosjektplanleggingslinjen. |
-| **VIA-konto for påløpt salg** |VIA-kontoen for beregnet salgsverdi for VIA for prosjekt, som er en påløpt balansekonto for balansen. Når en VIA-justering krever at du øker ført inntekt, bokfører du til denne kontoen. |
-| **VIA-konto for fakturert salg** |Kontoen for den fakturerte salgsverdien for VIA som ikke kan føres. Dette er en balanse for ikke tjent inntekt. |
-| **Konto for utlignet salg for prosjekt** |Motkontoen for VIA-kontoen for fakturert salg. Dette er en motkonto for inntekt. |
-| **Salgsjusteringskonto for prosjekt** |Motkontoen for VIA-prosjektsalgskontoen. Dette er en inntektskonto. |
-| **Konto for ført kost** |Utgiftskontoen som inneholder de førte kostbeløpene for prosjektet. Dette er som regel en debitutgiftskonto. |
-| **Konto for ført salg** |Inntektskontoen som inneholder ført inntekt for prosjektet. Dette er som regel en kreditinntektskonto. |
+| Kontofelt | Description | Brukes i VIA-type |
+| --- | --- |  --- |
+| **Kode** |En identifikator for bokføringsgruppen. Du kan angi opptil 10 tegn, medregnet mellomrom. | |
+| **VIA-forbrukskonto** |VIA-kontoen for beregnet kost for VIA for prosjekt. Dette er en balansekonto for kapitalaktiva. | Utlignet kost, ført kost|
+| **VIA-salgskonto** |En konto for beregning av kostverdi eller salgspris for VIA-beregning. Denne kontoen er for påløpte utgifter på balansen. Når en VIA-justering krever at du øker forbrukskostnadene som du bokfører i resultatregnskapet, bokfører du til denne kontoen. | Påløpte kostnader|
+| **Forbrukskonto (resultat) for prosjekt** |En motkonto for VIA-forbrukskontoen. Dette er en motkonto for negativ utgift. Brukes når **VIA-bokføringsmetode brukt** er satt til *Prosjekt*. | Utlignet kost, ført kost|
+| **Konto for utlignede varekostnader** |Samme som **Forbrukskonto (resultat) for prosjekt**, men brukes når **VIA-bokføringsmetode brukt** er satt til *Prosjektpost*.| |
+| **Konto for utlignede ressurskostnader** |Samme som **Forbrukskonto (resultat) for prosjekt**, men brukes når **VIA-bokføringsmetode brukt** er satt til *Prosjektpost*.| |
+| **Konto for utlignede finanskostnader** |Samme som **Forbrukskonto (resultat) for prosjekt**, men brukes når **VIA-bokføringsmetode brukt** er satt til *Prosjektpost*.| |
+| **Salgskonto for prosjekt** |Motkontoen for VIA-salgskontoen. Dette er en utgiftskonto. | Påløpte kostnader|
+| **Salgsutgiftskonto (budjett)** |Salgskontoen som skal brukes til finansutgifter i prosjektoppgaver med denne bokføringsgruppen. Hvis du lar dette feltet stå tomt, brukes finanskontoen som er angitt på prosjektplanleggingslinjen. | |
+| **VIA-konto for påløpt salg** |VIA-kontoen for beregnet salgsverdi for VIA for prosjekt, som er en påløpt balansekonto for balansen. Når en VIA-justering krever at du øker ført inntekt, bokfører du til denne kontoen. | Påløpt salg, ført salg|
+| **VIA-konto for fakturert salg** |Kontoen for den fakturerte salgsverdien for VIA som ikke kan føres. Dette er en balanse for ikke tjent inntekt. | Ført salg, utlignet salg|
+| **Konto for utlignet salg for prosjekt** |Motkontoen for VIA-kontoen for fakturert salg. Dette er en motkonto for inntekt. | Utlignet salg, ført salg|
+| **Salgsjusteringskonto for prosjekt** |Motkontoen for VIA-prosjektsalgskontoen. Dette er en inntektskonto. | Påløpt salg|
+| **Konto for ført kost** |Utgiftskontoen som inneholder de førte kostbeløpene for prosjektet. Dette er som regel en debitutgiftskonto. | Ført kostnad|
+| **Konto for ført salg** |Inntektskontoen som inneholder ført inntekt for prosjektet. Dette er som regel en kreditinntektskonto. | Ført salg|
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/set-up-jobs-resources/)
+## Se relatert [Microsoft-opplæring](/training/paths/set-up-jobs-resources/)
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Konfigurere prosjektstyring](projects-setup-projects.md)  
+[Konfigurer prosjektstyring](projects-setup-projects.md)  
 [Video: Opprett et prosjekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
 [Administrere prosjekter](projects-manage-projects.md)  
 [Finans](finance.md)  

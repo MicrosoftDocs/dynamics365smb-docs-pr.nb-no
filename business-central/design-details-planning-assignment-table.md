@@ -1,16 +1,16 @@
 ---
 title: Designdetaljer – Tabell for planleggingstilordning
 description: Dette emnet gir innsikt i hva som skjer når en endring i behovs- eller forsyningsmønstrene krever at du beregner hvordan du planlegger for en vare.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.date: 06/15/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="design-details-planning-assignment-table"></a>Designdetaljer: Tabell for planleggingstilordning
+# Designdetaljer: Tabell for planleggingstilordning
 Det må planlegges for alle varer, men det er ingen grunn til å beregne en plan for en vare med mindre det er en endring i mønsteret for behov eller forsyning siden planen sist ble beregnet.  
 
 Hvis brukeren har angitt en ny ordre eller endret en eksisterende, er det grunn til å beregne planen på nytt. Andre årsaker inkluderer en endring i prognosen eller ønsket sikkerhetslagerantall. Endring av en stykkliste ved å legge til eller fjerne en komponent, vil mest sannsynlig indikerer en endring, men bare for komponentvaren.  
@@ -55,7 +55,7 @@ Følgende begrensninger gjelder ved beregning av MPS eller MRP:
 * MPS: Planleggingssystemet kontrollerer at varen har en behovsprognose eller en ordre. Hvis ikke, inkluderes ikke varen i planen.  
 * MRP: Hvis planleggingssystemet oppdager at varen etterfylles av en MPS-planleggingslinje eller MPS-forsyningsordre, blir varen utelatt fra planleggingen. Eventuelle behov fra aktuelle komponenter er imidlertid inkludert .  
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md)   

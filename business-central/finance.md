@@ -1,7 +1,7 @@
 ---
 title: Økonomistyring (inneholder video)
 description: 'Finn ut hvordan Business Central støtter dine behov for økonomistyring, regnskap, revisjon og bokføring.'
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,9 +9,9 @@ ms.workload: na
 ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.search.form: '1151, 1166, 9027, 9004'
 ms.date: 08/19/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="financial-management"></a>Økonomistyring
+# Økonomistyring
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en standardkonfigurasjon for de fleste finansielle prosesser, men du kan endre den slik at den passer til din virksomhet. Finn ut mer under [Konfigurer finans](finance-setup-finance.md).
 
@@ -49,13 +49,13 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Arbeid med årsregnskap og økonomiske oversikter i Microsoft Excel. |[Analysere årsregnskap i Excel](finance-analyze-excel.md) |
 |Lær hvordan du bruker rollesenteret for regnskapsførere, kommuniserer en ekstern regnskapsfører, og bruk selskapssenteret til å håndtere kontoer for flere klienter.|[Regnskapsføreropplevelser i Business Central](finance-accounting.md)|  
 
-## <a name="take-a-video-tour"></a>Få en videoinnføring
+## Få en videoinnføring
 
 Denne videoen introduserer noen av nøkkelfunksjonene for økonomistyring. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere finans](finance-setup-finance.md)  
 [Salg](sales-manage-sales.md)  

@@ -1,8 +1,8 @@
 ---
-author: edupont04
+author: brentholtorf
 ms.topic: include
 ms.date: 04/05/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
 1. Gå til [nettstedet for prøveversjonen](https://go.microsoft.com/fwlink/?linkid=847861), velg *Økonomi og drift*, og klikk deretter på knappen **Prøv nå** på kortet **Dynamics 365 Business Central**.  
 2. Angi e-postadressen for jobb eller skole og andre opplysninger. Du blir omdirigert til prøveversjonen på [https://businesscentral.dynamics.com/](https://businesscentral.dynamics.com/).  

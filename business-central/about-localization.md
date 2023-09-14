@@ -1,7 +1,7 @@
 ---
 title: Lokal funksjonalitet og lokaliseringsstrategi
 description: Finn ut mer om lokal tilgjengelighet og forskriftsmessig samsvar i Business Central for landene/områdene der Microsoft tilbyr den lokale funksjonaliteten.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
@@ -9,15 +9,15 @@ ms.workload: na
 ms.search.keywords: 'availability, localization'
 ms.search.form: null
 ms.date: 06/11/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="local-functionality-in-"></a>Lokal funksjonalitet i [!INCLUDE[prod_long](includes/prod_long.md)]
+# Lokal funksjonalitet i [!INCLUDE[prod_long](includes/prod_long.md)]
 
 [!INCLUDE[prod_short](includes/prod_short.md)] har en kombinert lokaliseringsstrategi inkludert både Microsoft-ledede og parterledede modeller. I denne delen finner du beskrivelser av funksjonene som gjelder land/områder der Microsoft sørger for forskriftsmessig samsvar og andre lokale funksjoner.  
 
 Hvis du vil se oversikten over gjeldende støttede markeder, kan du se [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## <a name="local-functionality"></a>Lokal funksjonalitet
+## Lokal funksjonalitet
 
 Hvis du vil ha informasjon om den lokale funksjonaliteten for hvert enkelt land/område, velger du den relaterte koblingen:
 
@@ -48,11 +48,11 @@ Hvis du vil ha informasjon om den lokale funksjonaliteten for hvert enkelt land/
 |        | India | [Lokal funksjonalitet, India](LocalFunctionality/India/india-local-functionality.md) |
 |        | New Zealand | [Lokal funksjonalitet for New Zealand](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### <a name="other-countriesregions"></a>Andre land/områder
+### Andre land/områder
 
 [!INCLUDE[prod_short](includes/prod_short.md)] finnes også i andre markeder via lokaliseringsapper. Hvis en Microsoft-partner har utviklet en lokaliseringsapp for landet/området ditt, finner du den i [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="see-also"></a>Se også
+## Se også
 [Opprett miljøer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Samsvar](compliance/compliance-overview.md)  

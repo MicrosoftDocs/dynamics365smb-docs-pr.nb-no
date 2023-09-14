@@ -4,20 +4,20 @@ description: Gjennomgang for å lære hvordan du legger til en ny kaffemaskin i 
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-author: edupont04
-ms.author: andreipa
+author: brentholtorf
+ms.author: bholtorf
 ---
-# <a name="walkthrough-create-a-new-production-bom-and-bom-version"></a>Gjennomgang: Opprett en ny produksjonsstykkliste og stykklisteversjon
+# Gjennomgang: Opprett en ny produksjonsstykkliste og stykklisteversjon
 
 I denne artikkelen leder vi deg gjennom trinnene for å bruke Contoso Coffee-demodataene for å arbeide med stykkliste i produksjonsprosesser.  
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Contoso Coffee har besluttet å legge en ny kaffemaskin mot produktlinjen: **SP-SCM1008 Airpot Lite**. Denne kaffemaskinen er identisk med den eksisterende varen **SP-SCM1009 Airpot**, bortsett fra at den ikke har varmeplaten, **SP-BOM1104**. I et separat trinn fjernes av/på-lyset, **SP-BOM1106** for en versjon av Airpot Lite-stykklisten.
 
 Oscar, prosessingeniøren hos Contoso Coffee, må definere en ny produksjonsstykkliste for å definere de innledende komponentkravene for den Airpot Lite. Oscar må deretter definere en ny stykklisteversjon, med start datoen 1. juli, for å samkjøre med ytterligere planer om å frigi en annen utgave.
 
-## <a name="steps"></a>Trinn
+## Trinn
 
 1. Opprett en ny produksjonsstykkliste for Airpot Lite.
 
@@ -72,6 +72,6 @@ Oscar, prosessingeniøren hos Contoso Coffee, må definere en ny produksjonsstyk
 
 Den nye kaffemaskinen er nå definert som en produksjonsstykkliste med én versjon.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Innføring i demodata for Contoso Coffee](../contoso-coffee-intro.md)  

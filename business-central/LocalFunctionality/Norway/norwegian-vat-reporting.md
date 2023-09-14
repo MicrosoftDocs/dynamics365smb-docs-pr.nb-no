@@ -1,16 +1,16 @@
 ---
 title: 'Norsk mva-rapportering [NO]'
 description: Forbedringer i den norske versjonen av Business Central gjør det mulig for deg å beregne og rapportere mva. til de norske skattemyndighetene.
-author: edupont04
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '737, 738, 743, 10601, 10604, 10692 ,10696'
 ms.date: 05/12/2022
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="norwegian-vat-reporting-in-the-norwegian-version"></a>Norsk mva-rapportering i den norske versjonen
+# Norsk mva-rapportering i den norske versjonen
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] har funksjoner i den norske versjonen som gjør at du kan beregne og rapportere omsetningsoppgaver til de norske skattemyndighetene.  
 
@@ -19,14 +19,14 @@ Denne artikkelen forklarer de vanlige trinnene du skal følge når du rapportere
 > [!IMPORTANT]
 > Denne artikkelen antar at du har definert mva-rapportering. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift](../../finance-setup-vat.md) og [Rapporter mva. til skattemyndigheter](../../finance-how-report-vat.md).
 
-## <a name="set-up-business-central-to-generate-and-submit-electronic-vat-returns"></a>Konfigurere Business Central for å generere og sende inn elektroniske omsetningsoppgaver
+## Konfigurere Business Central for å generere og sende inn elektroniske omsetningsoppgaver
 
 For å kunne sende omsetningsoppgaver til norske skattemyndigheter må en administrator opprette en tilkobling til ID-porten hos Digitaliseringsdirektoratet.  
 
 > [!TIP]
 > Vi anbefaler at du alltid bruker [!INCLUDE [prod_short](../../includes/prod_short.md)] i en nettleser til å konfigurere tilkoblingen til ID-porten.
 
-### <a name="register-your-company-with-id-porten"></a>Registrere selskapet i ID-porten
+### Registrere selskapet i ID-porten
 
 Hvis du vil registrere selskapet i ID-porten, følger du fremgangsmåten i [Samarbeidsportalen](https://samarbeid.digdir.no/id-porten/ta-i-bruk-id-porten/94). Legg merke til følgende informasjon etter at du har registrert deg. Du trenger denne når du bruker den assisterte oppsettsveiledningen til å autorisere [!INCLUDE[prod_short](../../includes/prod_short.md)] for tilgang til ID-porten.
 
@@ -37,7 +37,7 @@ Hvis du vil registrere selskapet i ID-porten, følger du fremgangsmåten i [Sama
 > [!IMPORTANT]
 > Det er viktig å lagre klient-ID-en og klienthemmeligheten for integrasjonspunktet trygt.
 
-### <a name="set-up-the-integration-point"></a>Konfigurere integrasjonspunktet
+### Konfigurere integrasjonspunktet
 
 Når du har registrert selskapet i ID-porten, er neste trinn å opprette et integrasjonspunkt i selskapets konto i ID-porten. Hvis du vil ha mer informasjon, kan du se [integrasjonspunkt](https://docs.digdir.no/oidc_index.html).
 
@@ -69,7 +69,7 @@ Når du har registrert selskapet i ID-porten, er neste trinn å opprette et inte
 
 :::image type="content" source="../../media/nor-vat-return-integration-point.png" alt-text="Innstillinger for integrasjonspunkt for norsk mva":::
 
-### <a name="set-up-electronic-vat-reporting"></a>Konfigurer elektronisk mva-rapportering
+### Konfigurer elektronisk mva-rapportering
 
 For å gjøre det enklere å konfigurere mva-rapportering har [!INCLUDE[prod_short](../../includes/prod_short.md)] den assisterte oppsettsveiledningen **Konfigurer en elektronisk mva-sending**. 
 
@@ -97,7 +97,7 @@ For å gjøre det enklere å konfigurere mva-rapportering har [!INCLUDE[prod_sho
 > [!NOTE]
 > I tillegg til innstillingene som er beskrevet ovenfor, oppretter vi automatisk en mva-rapportkonfigurasjon for å sende oppgaver og få svar. Du kan vise konfigurasjonen på siden **Konfigurasjon av mva-rapporter**.
 
-### <a name="vat-report-setup"></a>Mva-rapportoppsett
+### Mva-rapportoppsett
 
 1. Hvis du konfigurerer en mva-rapport, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett for mva-rapport**, og velg deretter den relaterte koblingen.  
 2. På hurtigfanen **Generelt** for å la brukerne endre mva-rapporter som er sendt til skattemyndighetene, velger du **Tillat endring**-feltet.  
@@ -111,7 +111,7 @@ For å gjøre det enklere å konfigurere mva-rapportering har [!INCLUDE[prod_sho
 6. På hurtigfanene **Returperiode** og **Mva-gruppestyring** angir du relevant informasjon.  
 7. Velg **OK**-knappen.  
 
-## <a name="create-and-submit-a-vat-return"></a>Opprett og send en mva-retur
+## Opprett og send en mva-retur
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Omsetningsoppgaver**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
@@ -129,13 +129,13 @@ For å gjøre det enklere å konfigurere mva-rapportering har [!INCLUDE[prod_sho
    > [!NOTE]
    > Hvis du har valgt alternativet **Rapporter mva-merknad** på siden **Mva-rapportoppsett**, er **Merknad**-feltet synlig og kan redigeres på siden **Mva-retur**. Brukerne kan angi fritekst der. Verdien i **Merknad**-feltet blir tatt med i meldingen som sendes.  
 
-## <a name="troubleshoot-your-connection-to-id-porten"></a>Feilsøk tilkoblingen til ID-porten
+## Feilsøk tilkoblingen til ID-porten
 
 Hvis du ikke får noe svar etter at du har sendt inn oppgaven, for eksempel innen 24 timer, kontakter du ID-porten og ber dem om bekrefte at de har mottatt oppgaven din. Hvis du vil hjelpe dem å identifisere oppgaven, kan du sende verdien fra feltet Meldings-ID. Feltet er skjult som standard, men du kan bruke sideinspeksjon til å hente verdien. Hvis du vil ha mer informasjon, kan du se [Kontrollere sider i Business Central](../../across-inspect-page.md).  
 
 Du kan også sende en kopi av XML-filene for innsendingen din og svaret du mottok. Du kan hente filene ved å velge handlingene **Last ned sendingsmelding** og **Last ned svarmelding** på siden **Omsetningsoppgave**.  
 
-## <a name="close-vat-periods"></a><a name="vat-periods"></a>Avslutt mva-perioder
+## <a name="vat-periods"></a>Avslutt mva-perioder
 
 Hvis du vil innrette etter juridiske krav, skal mva-perioder lukkes etter at du har utlignet. Vanligvis består et regnskapsår av seks mva-perioder, nummerert fra 1 til 6. Når mva. utlignes, lukkes perioden for ytterligere bokføring.  
 
@@ -144,11 +144,11 @@ Hvis du vil innrette etter juridiske krav, skal mva-perioder lukkes etter at du 
 
 Du kan vise informasjon om utlignede perioder på siden **Utlignet mva-periode**. De lukkede periodene opprettes med rapporten **Beregn og bokfør mva-oppgjør** når du bokfører mva. Hvis du vil bokføre i den lukkede mva-perioden, kan du åpne perioden på nytt ved å fjerne merket i feltet **Lukket**.  
 
-## <a name="tradesettlement-report"></a>Rapport for omsetningsoppgave
+## Rapport for omsetningsoppgave
 
 Før januar 2022 brukte du rapporten **Omsetningsoppgave** til å rapportere mva. Denne rapporten er ikke lenger beskrevet i denne artikkelen, men du kan lese om den i [Dynamics NAV 2016-dokumentasjonsarkivet](/previous-versions/dynamicsnav-2016/dn283106(v=nav.90)).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Norske mva-koder](norwegian-vat-codes.md)  
 [Forholdsmessig MVA](proportional-vat.md)  

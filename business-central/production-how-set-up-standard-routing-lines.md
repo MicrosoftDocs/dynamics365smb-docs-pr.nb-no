@@ -1,27 +1,27 @@
 ---
 title: Definere standardoppgaver for operasjoner
 description: Lær mer om hvordan du definerer standardoppgaver og legger til standardoppgaver i operasjoner for å forenkle vedlikeholdet av ruter.
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '99000799, 99000803, 99000804, 99000805, 99000807'
 ms.date: 06/22/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
-# <a name="set-up-standard-routing-lines"></a>Definere standard rutelinjer
+# Definere standard rutelinjer
 
 Standardoppgaver forenkler oppretting og vedlikehold av ruter. De brukes til å knytte tilleggsinformasjon raskt til gjentakende operasjoner.
 
-## <a name="to-set-up-a-standard-task"></a>Slik definerer du en standardoppgave
+## Slik definerer du en standardoppgave
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Standardoppgaver**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg handlingen **Verktøy**, **Personell**, **Beskrivelse** eller **Verktøy**, og legg deretter til den relevante oppføringen på siden som åpnes.
 
-## <a name="to-add-a-standard-task-to-an-operation"></a>Slik legger du til en standardoppgave i en operasjon
+## Slik legger du til en standardoppgave i en operasjon
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ruter**, og velg deretter den relaterte koblingen.
 2. Åpne den aktuelle ruten.
@@ -29,7 +29,7 @@ Standardoppgaver forenkler oppretting og vedlikehold av ruter. De brukes til å 
 
 Når du skriver ut rutearket, kan du velge å inkludere elementene fra standardoppgaven du la til rutelinjene.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opprette ruter](production-how-to-create-routings.md)  
 [Opprette produksjonsstykklister](production-how-to-create-production-boms.md)  
