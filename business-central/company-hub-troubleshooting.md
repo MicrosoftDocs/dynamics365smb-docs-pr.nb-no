@@ -11,15 +11,15 @@ ms.search.form: 1151
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Feilsøke selskapshuben
+# <a name="troubleshooting-your-company-hub"></a>Feilsøke selskapshuben
 
 Det er lett nok å legge til selskaper i instrumentbordet for selskapshuben, men denne artikkelen tar opp problemer du kan møte underveis.  
 
-## Sjekk feil
+## <a name="check-errors"></a>Sjekk feil
 
 Bruk handlingen **Sjekk feil** til å vise en liste over nylige feil. Du kan vise flere detaljer for hver feil, og du kan rydde i loggen ved å slette eldre oppføringer.  
 
-## Tilkobling mislyktes
+## <a name="connection-failed"></a>Tilkobling mislyktes
 
 Det kan være et par årsaker til at du ikke kan koble til et selskap, inkludert følgende:
 
@@ -33,13 +33,13 @@ Det kan være et par årsaker til at du ikke kan koble til et selskap, inkludert
 
   I [!INCLUDE [prod_short](includes/prod_short.md)] kan en organisasjon ha flere forretningsenheter som kalles selskaper, og du har kanskje ikke tilgang til alle selskapene. Kontakt administratoren eller klienten for å sikre at du har tilgang til selskapene som du må arbeide i.  
 
-## Data blir ikke oppdatert
+## <a name="data-does-not-refresh"></a>Data blir ikke oppdatert
 
 Når du legger til et selskap eller ber om en oppdatering av dataene, henter [!INCLUDE [prod_short](includes/prod_short.md)] dataene. Men du må oppdatere siden selv, for eksempel velge handlingen **Last inn alle selskaper på nytt**, oppdatere lesersiden, navigere fra instrumentbordet og deretter tilbake igjen, eller lignende.  
 
 Hvis du har lagt til et selskap, men det vises ikke i oversikten, kan du også bruke handlingen **Last inn alle selskaper på nytt** for å oppdatere oversikten.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Administrere arbeid på tvers av flere selskaper i selskapshuben](company-hub.md)  
 [Legge til selskaper i selskapshuben](company-hub-add-company.md)  

@@ -11,12 +11,12 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ---
 
-# Utvidelsen TAX-filformat (Danmark)
+# <a name="the-tax-file-formats-dk-extension"></a>Utvidelsen TAX-filformat (Danmark)
 Hvis du samarbeider om handel med selskaper, eller interne filialer eller datterselskaper, i andre EU-land/-områder, må du rapportere om aktivitetene til SKAT og Statistics Denmark. Hvis du bruker mva og Intrastat-rapportering som finnes i [!INCLUDE[prod_short](includes/prod_short.md)], kan utvidelsen sikre at filen du vil eksportere er kompatibel med kravene fra disse organisasjoner. Utvidelsen legger Rapporteksportfilen MS ECSL og Intrastat eksportlinjer for sending av kodeenheter til konfigurasjonen av mva-rapporten, slik at du kan eksportere dataene i det nye formatet med én gang.
 
 Utvidelsen er gratis, du trenger bare å installere den.
 
-## Se også
+## <a name="see-also"></a>Se også
 [Tilpasse Business Central for med utvidelser](ui-extensions.md)
 
 

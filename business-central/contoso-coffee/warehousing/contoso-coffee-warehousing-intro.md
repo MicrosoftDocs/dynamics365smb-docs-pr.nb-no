@@ -9,7 +9,7 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Innføring i Contoso Coffee-lager
+# <a name="introduction-to-contoso-coffee-warehousing"></a>Innføring i Contoso Coffee-lager
 
 Contoso Coffee er et fiktivt selskap som produserer forbrukerkaffemaskiner og kommersielle kaffemaskiner. **Contoso Coffee**-appene for Business Central legger til demonstrasjonsdata som du kan bruke til å lære hvordan du bruker lagerfunksjonene i Business Central. Du kan konfigurere lagerfunksjoner på ulike måter, se [Oversikt over forskjellige konfigurasjonsalternativer](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
@@ -27,7 +27,7 @@ Appen har tre lokasjoner som er optimalisert for ulike scenarioer:
 
   Denne lokasjonen bruker avansert lageroppsett med lagerstyring, som gir mer avanserte regler for hvordan varer flytter seg gjennom lageret.
 
-## Konfigurer Contoso Coffee-lagerdata
+## <a name="set-up-contoso-coffee-warehousing-data"></a>Konfigurer Contoso Coffee-lagerdata
 
 For å kunne bruke Contoso Coffee-lagerdemodata må du installere to apper i det aktuelle selskapet i [!INCLUDE [prod_short](../../includes/prod_short.md)]:  
 
@@ -70,7 +70,7 @@ Når du er klar, velger du **Opprett demonstrasjonsdata**-handling. Det tar noen
 > [!IMPORTANT]
 > Hvis du kjører scenarioene, kan det være lurt å kontrollere at brukeren er lagt til for bestemte lokasjoner. Hvis du vil ha mer informasjon, kan du se [Definere lageransatte](../../warehouse-how-to-set-up-warehouse-employees.md).
 
-## Scenarier
+## <a name="scenarios"></a>Scenarier
 
 Demodata for Contoso Coffee-lager støtter nå følgende scenarioer for test og opplæring:
 
@@ -80,7 +80,7 @@ Demodata for Contoso Coffee-lager støtter nå følgende scenarioer for test og 
 
 Les trinnene for hvert scenario i den relevante artikkelen.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Definer lagerbeholdning](../../inventory-setup-inventory.md) 
 [Slik definerer du lokasjoner](../../inventory-how-setup-locations.md) 

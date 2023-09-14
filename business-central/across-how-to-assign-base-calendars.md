@@ -10,11 +10,11 @@ ms.search.form: '7600, 7601, 7602, 5703'
 ms.date: 06/11/2021
 ms.author: bholtorf
 ---
-# Definere hovedkalendere
+# <a name="set-up-base-calendars"></a>Definere hovedkalendere
 
 Du kan tilordne en hovedkalender til selskapet med forretningspartnere, for eksempel kunder, leverandører eller lokasjoner. Leverings- og mottaksdatoer i fremtidige ordrer, bestillinger, overføringsordrer og produksjonsordrelinjer beregnes i henhold til virkedagene som er angitt i kalenderen. Den største oppgaven med å definere en ny hovedkalender, er å angi og definere hvilke fridager som skal brukes.  
 
-## Slik definerer du en hovedkalender
+## <a name="to-set-up-a-base-calendar"></a>Slik definerer du en hovedkalender
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Hovedkalender**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
@@ -36,7 +36,7 @@ Når du oppretter en post, merkes det av for **Fridag**. Du kan velge å fjerne 
 >  En hvilken som helst basiskalender som er definert for leverandøren eller lokasjonen, påvirker hvordan datoene beregnes og avrundes til virkedager.
 Angir en datoformel for tiden det tar å etterfylle varen. Det brukes til å beregne feltet **Planlagt mottaksdato** hvis det beregner fremover, og feltet **Ordredato** hvis det beregner bakover. Se [Beregning av leveringstid](across-how-to-assign-base-calendars.md#lead-time-calculation).
 
-## Beregning av leveringstid
+## <a name="lead-time-calculation"></a>Beregning av leveringstid
 
 En hvilken som helst basiskalender som er definert for leverandøren eller lokasjonen, påvirker hvordan datoene beregnes og avrundes til virkedager. De to datofeltene i bestillingslinjer beregnes på samme måte som følger under forskjellige betingelser.
 
@@ -53,7 +53,7 @@ En hvilken som helst basiskalender som er definert for leverandøren eller lokas
 
 Innholdet i feltet **Beregning av leveringstid** kopieres fra varekortet eller LFE-kortet hvis leveringstiden er definert for varen, eller på siden **Leverandørens varekatalog** hvis leveringstiden er definert for leverandøren.
 
-## Slik tilpasser du en kalender
+## <a name="to-customize-a-calendar"></a>Slik tilpasser du en kalender
 Hovedoppgaven med å tilpasse en hovedkalender for selskapet, eller selskapets forretningspartner, er å angi eventuelle endringer i statusen for arbeids- eller fridager.
 
 Mens for eksempel en hovedkalender vanligvis viser alle lørdager som fridager, kan den egendefinerte kalenderen for en bestemt lokasjon vise alle lørdager i november og desember frem til jul, som virkedager.
@@ -86,7 +86,7 @@ Hvis du ikke fyller ut **Transportørkode**-feltet på en ordrelinje, brukes sel
 > [!NOTE]  
 > Hvis du foretar endringer i en hovedkalender med endringer i den egendefinerte kalenderen, oppdateres alle egendefinerte kalendere automatisk.
 
-## Slik tilordner du en hovedkalender  
+## <a name="to-assign-a-base-calendar"></a>Slik tilordner du en hovedkalender
 I følgende fremgangsmåte planlegges leveringsdatoer på ordrelinjer for en kunde som et eksempel.
 
 Hovedkalendere er tilordnet til ditt eget selskap, dine kunder, leverandører, plasseringer og transportører som vist nedenfor:  
@@ -108,7 +108,7 @@ Hovedkalendere er tilordnet til ditt eget selskap, dine kunder, leverandører, p
 > [!NOTE]  
 >  Før du kan opprette egendefinerte kalenderposter, må du først tilordne selskapet en hovedkalender.  
 
-## Se også
+## <a name="see-also"></a>Se også
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Produksjon](production-manage-manufacturing.md)    
 [Lager](inventory-manage-inventory.md)  

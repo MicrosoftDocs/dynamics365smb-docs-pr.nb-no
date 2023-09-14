@@ -90,7 +90,7 @@ Tabellen nedenfor beskriver hurtigtastene som du kan bruke på en listeside. Hur
 |*<kbd>Skift</kbd>+<kbd>Ctrl</kbd>+<kbd>F</kbd>*|Send foreslåtte linjer på forslagssiden for kontantstrømmen.|Ikke i bruk.|
 |*<kbd>Skift</kbd>+<kbd>Ctrl</kbd>+<kbd>I</kbd>*|Vis serie- og partinumre som er tildelt linjevaren i dokumentet eller på kladden.|Ikke i bruk.|
 
-### <a name="navigating-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigere mellom rader og kolonner
+### <a name="navigate-between-rows-and-columns"></a><a name="navigateshortcuts"></a>Navigere mellom rader og kolonner
 
 Rutenett som inneholder rader og kolonner finnes på mange sidetyper i [!INCLUDE[prod_short](includes/prod_short.md)], for eksempel lister og **Linjer** i dokumenter. Flytting fra én celle til en annen i et rutenett er tastaturaktivert.
 
@@ -111,7 +111,7 @@ Rutenett som inneholder rader og kolonner finnes på mange sidetyper i [!INCLUDE
 | <kbd>Tab</kbd> | I en redigerbar liste flytter du i samme rad til neste felt til høyre. | Ikke i bruk. | 
 | <kbd>Skift</kbd>+<kbd>Tab</kbd> | I en redigerbar liste flytter du i samme rad til forrige felt til venstre. | Ikke i bruk. |
 
-### <a name="selecting-copying-and-pasting"></a><a name="CopyRows"></a>Velge, kopiere og lime inn
+### <a name="select-copy-and-paste"></a><a name="CopyRows"></a>Velge, kopiere og lime inn
 
 |Velg disse tastene<br />(i macOS)|Hvis du vil gjøre dette i en listevisning |Hvis du vil gjøre dette i en flisvisning |
 |--------------------------------|--------------------------|--------------------------|
@@ -129,7 +129,7 @@ Rutenett som inneholder rader og kolonner finnes på mange sidetyper i [!INCLUDE
 |<kbd>Skift</kbd>+<kbd>Page Down</kbd><br /><br />(<kbd>Skift</kbd>+<kbd>Fn</kbd>+<kbd>Pil opp</kbd>)|Utvide valget av rader til å inkludere synlige rader nedenfor de merkede radene.|Ikke i bruk.|
 |<kbd>F8</kbd>|Kopier feltet i samme kolonne i raden over og lim det inn i den gjeldende raden. Du kan bare gjøre dette i redigerbare lister. Ved hjelp av denne hurtigtasten etterfulgt av en <kbd>tabulator</kbd> kan du raskt fylle ut feltene i linjevarene som du vil ha samme verdi som raden ovenfor.|Ikke i bruk.|
 
-### <a name="searching-and-filtering-lists"></a><a name="KeyboardFilter"></a>Søke etter og filtrere oversikter
+### <a name="search-and-filter-lists"></a><a name="KeyboardFilter"></a>Søke etter og filtrere oversikter
 
 |Velg disse tastene<br />(i macOS)|Hvis du vil gjøre dette|
 |--------------------------------|----------|
