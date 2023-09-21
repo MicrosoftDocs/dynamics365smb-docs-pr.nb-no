@@ -8,15 +8,15 @@ ms.search.form: 'Report_707, Report_716, Report_813, Report_1001, Report_5807, R
 ms.date: 04/13/2023
 ms.author: bholtorf
 ---
-# Lager og lagerrapporter og analyse i Business Central
+# <a name="inventory-and-warehouse-reports-and-analytics-in-business-central"></a>Lager og lagerrapporter og analyse i Business Central
 
 Beholdnings- og lagerrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gjør det mulig for lager- og forretningsfolk å få innsikt og statistikk om gjeldende og tidligere beholdnings- og lageraktiviteter.  
 
-## Rapporter
+## <a name="reports"></a>Rapporter
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
 
-## Oppgaver
+## <a name="tasks"></a>Oppgaver
 
 Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilstanden i virksomheten din:
 
@@ -24,7 +24,7 @@ Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilst
 * [Vis tilgjengeligheten av varer](inventory-how-availability-overview.md)
 
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Definere lager](inventory-setup-inventory.md)  
 [Lager](inventory-manage-inventory.md)  

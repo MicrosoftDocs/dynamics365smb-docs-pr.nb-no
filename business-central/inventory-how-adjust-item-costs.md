@@ -10,7 +10,7 @@ ms.search.keywords: 'cost adjustment, cost forwarding, costing method, inventory
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# Justere varekost
+# <a name="adjust-item-costs"></a>Justere varekost
 Kostnaden for en vare (lagerverdien) som du kjøper og senere selger, kan endres i løpet av levetiden, for eksempel fordi en fraktkostnader er lagt til innkjøpskostnaden etter at du har solgt varen. Kostjustering er spesielt relevant i situasjoner der du selger varer før du fakturerer kjøpet av varene. Hvis du alltid vil vite riktig lagerverdi, må varekostnader derfor justeres regelmessig. Dette sikrer at salgs- og fortjenestestatistikk er oppdatert og at økonomiske KPI-er er riktige. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Kostjustering](design-details-cost-adjustment.md).
 
 Som en regel er verdien i **Enhetskost**-feltet på varekortet basert på standardkost for varer med standard lagermetode. For varer med andre lagermetoder er den basert på beregning av tilgjengelig lagerbeholdning (fakturerte kostnader og forventede kostnader) delt på aktuell beholdning. Du finner flere opplysninger i [Forstå beregning av enhetskost](inventory-how-adjust-item-costs.md#understanding-unit-cost-calculation).
@@ -27,12 +27,12 @@ Hvis du bruker lagermetoden Gjennomsnitt, blir enhetskosten for en vare beregnet
 
 Funksjonen for kostnadsjustering behandler bare verdiposter som ennå ikke er justert. Hvis funksjonen støter på en situasjon der endrede inngående kost må videresendes til tilknyttede utgående poster, opprettes det nye justeringsoppføringer, som er basert på informasjonen i de opprinnelige verdipostene, men som inneholder justeringsbeløpet. Funksjonen for kostnadsjustering bruker bokføringsdatoen for den opprinnelige verdiposten i justeringsposten hvis denne datoen ikke er i en lukket lagerperiode. I så tilfelle bruker programmet startdatoen for den neste åpne lagerperioden. Hvis lagerperioder ikke brukes, styrer datoen i feltet **Bokf. tillatt fra** på siden **Finansoppsett** når justeringsposten bokføres.
 
-## Justere varekost manuelt
+## <a name="to-adjust-item-costs-manually"></a>Justere varekost manuelt
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Juster kostverdi – vareposter**, og velg deretter den tilknyttede koblingen.
 2. På siden **Juster kostverdi - vareposter** angir du hvilke varer du vil justere kostnader for.
 3. Velg **OK**.
 
-## Slik gjør du generelle endringer i direkte enhetskost
+## <a name="to-make-general-changes-in-the-direct-unit-cost"></a>Slik gjør du generelle endringer i direkte enhetskost
 Hvis du må endre direkte enhetskost for flere varer, kan du bruke kjørselen **Juster varekost/priser**.  
 
  Kjørselen endrer innholdet i **Salgspris**-feltet på varekortet. Innholdet endres på samme måte for alle varene eller for utvalgte varer. Kjørselen multipliserer verdien i feltet med en justeringsfaktor som du angir.  
@@ -43,35 +43,35 @@ Hvis du må endre direkte enhetskost for flere varer, kan du bruke kjørselen **
 4. På hurtigfanen **Vare** definerer du filtre til å angi, for eksempel, hvilke varer kjørselen skal behandle.  
 5. Velg **OK**.  
 
-## Forstå beregning av enhetskost
+## <a name="understanding-unit-cost-calculation"></a>Forstå beregning av enhetskost
 Som en regel er verdien i **Enhetskost**-feltet på varekortet basert på standardkost for varer med standard lagermetode. For varer med andre lagermetoder er den basert på beregning av tilgjengelig lagerbeholdning (fakturerte kostnader og forventede kostnader) delt på aktuell beholdning.  
 
  Hvordan innholdet i feltet **Lagermetode** påvirker beregningen av enhetskosten for kjøp og salg, er beskrevet mer inngående i delene nedenfor.  
 
-## Beregne enhetskost for kjøp  
+## <a name="unit-cost-calculation-for-purchases"></a>Beregne enhetskost for kjøp
  Når du kjøper varer, blir verdien i feltet **Siste kjøpspris/prod.kost** på varekortet kopiert til feltet **Direkte enhetskost** på en bestillingslinje eller til Enhetsbeløp-linjen på en varekladdelinje.  
 
  Det du velger i **Lagermetode**-feltet, har innvirkning på hvordan [!INCLUDE[prod_short](includes/prod_short.md)] beregner innholdet i **Enhetskost**-feltet på linjene.  
 
-### Lagermetoden FIFO, LIFO, Serienummer eller Gjennomsnitt  
+### <a name="costing-method-fifo-lifo-specific-or-average"></a>Lagermetoden FIFO, LIFO, Serienummer eller Gjennomsnitt
  [!INCLUDE[prod_short](includes/prod_short.md)] beregner innholdet i feltet **Enhetskost LV** på bestillingslinjen, eller innholdet i feltet **Enhetskost** på varekladdelinjen etter følgende formel:  
 
  Enhetskost (LV) = (Direkte enhetskost - (Rabattbeløp / Antall)) x (1 + Indirekte kost-% / 100) + Sats for indirekte kostnader  
 
-### Standard lagermetode  
+### <a name="costing-method-standard"></a>Standard lagermetode
  Feltet **Enhetskost (LV)** på bestillingslinjen eller feltet **Enhetskost** fylles ut på varekladdelinjen ved å kopiere verdien i feltet **Enhetskost** på varekortet. Ved å angi lagermetoden som Standard, er denne alltid basert på standardkosten.  
 
  Når du bokfører kjøpet, kopieres enhetskosten fra bestillingslinjen eller varekladdelinjen til kjøp/varefakturaposten, og den kan ses på varens postoversikt.  
 
-### Alle lagermetoder  
+### <a name="all-costing-methods"></a>Alle lagermetoder
  Enhetskosten fra kildedokumentlinjen brukes til å beregne innholdet i feltet **Kostbeløp faktisk**, eller feltet **Kostbeløp forventet**, hvis det er aktuelt, som er tilknyttet denne vareposten, uavhengig av lagermetoden for varen.  
 
-## Beregne enhetskost for salg  
+## <a name="unit-cost-calculation-for-sales"></a>Beregne enhetskost for salg
  Når du selger varer, kopieres enhetskosten fra feltet Enhetskost på varekortet til salgslinjen eller varekladdelinjen.  
 
  Ved bokføring kopieres enhetskosten til salgsfakturaposten, og den kan dermed ses på varens postoversikt. [!INCLUDE[prod_short](includes/prod_short.md)] bruker enhetskosten til å beregne innholdet i feltet **Kostbeløp faktisk**, eller feltet **Kostbeløp forventet**, hvis det brukes, i verdiposten som er knyttet til denne vareposten.  
 
-## Se også
+## <a name="see-also"></a>Se også
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Lager](inventory-manage-inventory.md)  
 [Salg](sales-manage-sales.md)  

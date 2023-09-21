@@ -7,17 +7,17 @@ ms.search.form: 810
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Publisere en webtjeneste
+# <a name="publish-a-web-service"></a>Publisere en webtjeneste
 
 Webtjenester er en lett måte å gjøre programfunksjonalitet tilgjengelig for forskjellige eksterne systemer og brukere. Som standard viser [!INCLUDE[prod_short](includes/prod_short.md)] flere objekter som webtjenester for bedre integrasjon med andre Microsoft-tjenester. Du kan legge til andre webtjenester etter behov.  
 
 Sett opp en webtjeneste i [!INCLUDE[prod_short](includes/prod_short.md)], og publiser deretter webtjenesten slik at den er tilgjengelig for godkjente brukere. Alle autoriserte brukere har tilgang til metadata for webtjenester, men bare brukere som har tilstrekkelige tillatelser, har tilgang til faktiske data.  
 
-## Opprette og publisere en webtjeneste
+## <a name="creating-and-publishing-a-web-service"></a>Opprette og publisere en webtjeneste
 
 De følgende trinnene forklarer hvordan du oppretter og publiserer en webtjeneste.  
 
-### Slik oppretter og publiserer du en webtjeneste  
+### <a name="to-create-and-publish-a-web-service"></a>Slik oppretter og publiserer du en webtjeneste
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Nettjenester**, og velg deretter den relaterte koblingen.  
 2. På siden **Webtjenester** velger du **Ny**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -37,7 +37,7 @@ Du kan teste webtjenesten umiddelbart ved å velge koblingene i feltene **OData 
 
 Når du publiserer en webtjeneste, er den tilgjengelig for eksterne parter. Du kan kontrollere tilgjengeligheten til denne webtjenesten ved hjelp av en leser, eller velge koblingen i feltene **OData URL-adresse** og **SOAP-URL-adresse** på siden **Webtjenester**. Følgende fremgangsmåte viser hvordan du kan kontrollere webtjenestens tilgjengelighet for senere bruk.  
 
-### Slik kontrollerer du tilgjengeligheten til en webtjeneste  
+### <a name="to-verify-the-availability-of-a-web-service"></a>Slik kontrollerer du tilgjengeligheten til en webtjeneste
 
 1. Angi den aktuelle URL-adressen i nettleseren. Tabellen nedenfor viser hvilke typer URL-adresser som du kan angi for ulike webtjenestetyper.  
 
@@ -59,7 +59,7 @@ https://api.businesscentral.dynamics.com/v1.0/OData/Company('CRONUS Internationa
 https://api.businesscentral.dynamics.com/v1.0/OData/Customer?company='CRONUS International Ltd.'  
 ```
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Administrasjon](admin-setup-and-administration.md)  
 [Business Central-webtjenester for utviklere](/dynamics365/business-central/dev-itpro/webservices/web-services)  

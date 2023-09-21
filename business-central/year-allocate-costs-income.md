@@ -10,7 +10,7 @@ ms.search.form: '283, 5629'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# Fordele kostnader og inntekter
+# <a name="allocate-costs-and-income"></a>Fordele kostnader og inntekter
 
 Du kan fordele en post i en finanskladd på flere forskjellige konti når du bokfører kladden. Fordelingen kan gjøres med tre ulike metoder:
 
@@ -23,7 +23,7 @@ Fordelingsfunksjonen kan brukes i forbindelse med gjentakende finanskladder og i
 
 De følgende fremgangsmåtene viser hvordan du forbereder deg på å fordele kost i en gjentakende finanskladd ved å definere fordelingsnøkler. Når fordelingsnøkler er definert, fyller du ut og bokfører kladden som en hvilken som helst annen gjentakende finanskladd. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
 
-## Definere fordelingsnøkler
+## <a name="to-set-up-allocation-keys"></a>Definere fordelingsnøkler
 
 Du kan fordele en post i en gjentakende finanskladd på flere forskjellige konti når du bokfører kladden. Fordelingen kan gjøres etter antall, prosent eller beløp.  
 
@@ -41,13 +41,13 @@ Du kan fordele en post i en gjentakende finanskladd på flere forskjellige konti
 10. Når du har angitt fordelingslinjene, velger du **OK** for å gå tilbake til siden **Gjentakende finanskladd**. Feltet **Fordelt beløp (USD)** fylles ut og samsvarer med **Beløp**-feltet.
 11. Bokfør kladden.
 
-## Slik endrer du en fordelingsnøkkel som allerede er definert
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Slik endrer du en fordelingsnøkkel som allerede er definert
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Gjentakende finanskladd** og velg den relaterte koblingen.
 2. Velg kladden med fordelingen, på siden **Finansgjentak.kladd**.
 3. Velg linjen med fordelingen, og velg deretter handlingen **Fordelinger**.
 4. Endre de relevante feltene, og velg deretter **OK**.
 
-## Se også
+## <a name="see-also"></a>Se også
 [Avslutte år og perioder](year-close-years-periods.md)  
 [Arbeid med finanskladder](ui-work-general-journals.md)    
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)    

@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/21/2021
 ms.author: bholtorf
 ---
-# Referansekoder for mottaker i den norske versjonen
+# <a name="recipient-reference-codes-in-the-norwegian-version"></a>Referansekoder for mottaker i den norske versjonen
 
 Mottakerreferansekoden bestemmer hvilken melding som skal sendes til mottakeren. Koden vises i remitteringskontoen, og brukes for leverandører som betales fra denne kontoen. Det kan opprettes en egen mottakerreferansekode for hver leverandør hvis den generelle referanseteksten ikke benyttes.  
 
@@ -32,7 +32,7 @@ Mottakerreferansekodene blir beskrevet i tabellen nedenfor.
 |**%10**|Forfallsdatoen fra leverandørposten.|  
 |**%11**|Kunde ID-nummeret fra leverandørposten.|  
 
-## Se også  
+## <a name="see-also"></a>Se også
  [Angi leverandører for remittering](how-to-set-up-vendors-for-remittance.md)
 
 
