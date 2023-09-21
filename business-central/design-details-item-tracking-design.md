@@ -10,7 +10,7 @@ ms.search.keywords: 'design, item, tracking, tracing'
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# <a name="design-details-item-tracking-design"></a>Designdetaljer: Varesporingsutforming
+# Designdetaljer: Varesporingsutforming
 
 Varesporing i [!INCLUDE[prod_short](includes/prod_short.md)] startet med [!INCLUDE [navnow_md](includes/navnow_md.md)]. Varesporingsfunksjonaliteten er i en separat objektstruktur med intrikate koblinger til bokførte dokumenter og vareposter, og den er integrert med reservasjonssystemet, som håndterer reservasjons-, ordresporings- og handlingsmeldinger. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md) i designdetaljene for Forsyningsplanlegging.  
 
@@ -33,7 +33,7 @@ Kodeenhet 22, **Varekld. – Posteringslinje**, deler nå posteringen i henhold 
 
 Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføringsstruktur for varesporing](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Designdetaljer: Varesporing](design-details-item-tracking.md)
 

@@ -12,7 +12,7 @@ ms.search.keywords: null
 ms.date: 06/18/2021
 ms.author: bholtorf
 ---
-# <a name="electronic-payments-to-vendors-in-norway"></a>Elektroniske betalinger til leverandører i Norge
+# Elektroniske betalinger til leverandører i Norge
 [!INCLUDE[prod_short](../../includes/prod_short.md)]inkluderer forbedringer i den norske versjonen for automatisk betaling til leverandører. Dette reduserer sjansen for at feil skal oppstå på grunn av manuell registrering av data. Denne funksjonaliteten kan brukes til å utføre følgende operasjoner:  
 
 - Søke etter fakturaer som er forfalt, basert på ulike kriterier.  
@@ -25,7 +25,7 @@ Du kan utføre elektroniske betalinger i følgende formater:
 - TelePay  
 - Remitteringsoppdrag  
 
-## <a name="electronic-payment-process"></a>Elektronisk betalingsprosess
+## Elektronisk betalingsprosess  
 Elektroniske betalinger behandles på følgende måte:  
 
 1.  Betalingsforslaget kjøres i den elektroniske betalingsfunksjonen og overføres til banken ved hjelp av bankens programvare.  
@@ -33,7 +33,7 @@ Elektroniske betalinger behandles på følgende måte:
 3.  Banken mottar betalingene og sender den første mottaksreturen til [!INCLUDE[prod_short](../../includes/prod_short.md)] via bankens programvare.  
 4.  Banken utfører betalingene og sender avregningsreturen (andre mottaksretur) til [!INCLUDE[prod_short](../../includes/prod_short.md)] via bankens programvare, hvor betalingene bokføres.  
 
-## <a name="vendor-payment-requirements"></a>Krav til leverandørbetalinger
+## Krav til leverandørbetalinger  
 Hvis betalingstransaksjonene ikke oppfyller kravene, vises en feilmelding, og du kan ikke opprette en betalingsfil for overføringer til banken. Følgende kriterier må oppfylles ved når du behandler betalinger til leverandører:  
 
 - Betalingstransaksjonen må være positiv eller null. En betalingstransaksjon må overføre et positivt beløp (eller null) til betalingsmottakeren. Dette betyr at når en kreditnota skal trekkes fra, må fakturaen i samme betalingstransaksjon lyde på det samme eller et høyere beløp. Det er ikke mulig å trekke fra penger på leverandørens konto.  
@@ -42,7 +42,7 @@ Hvis betalingstransaksjonene ikke oppfyller kravene, vises en feilmelding, og du
 
 - Hvis fakturaen og kreditnotaen betales i samme betalingstransaksjon, må betalingen finne sted på samme dato, i samme valuta og med samme valutakurs.  
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Funksjonalitet som er spesifikk for norske brukere](norway-local-functionality.md)   
  [Sette opp remitteringsavtaler](how-to-set-up-remittance-agreements.md)   
  [Opprette remitteringskontoer](how-to-create-remittance-accounts.md)   

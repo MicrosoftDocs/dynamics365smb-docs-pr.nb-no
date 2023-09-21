@@ -3,13 +3,13 @@ title: Designdetaljer – Revaluering
 description: Du kan revaluere lageret basert på verdisettingsgrunnlaget som mest nøyaktig gjenspeiler lagerverdien.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 07/07/2023
 ms.custom: bap-template
 ---
 
-# <a name="design-details-revaluation"></a>Designdetaljer: Revaluering
+# Designdetaljer: Revaluering
 
 Du kan revaluere lageret basert på verdisettingsgrunnlaget som mest nøyaktig gjenspeiler lagerverdien. Du kan også tilbakedatere en revaluering for å oppdatere solgte varers kost (VAREFORBRUK) på riktig måte for varer du allerede har solgt. Varer som bruker lagermetoden Standard, og som ikke er fullstendig fakturert, kan også revalueres.  
 
@@ -19,7 +19,7 @@ I [!INCLUDE[prod_short](includes/prod_short.md)] støttes følgende fleksibilite
 - Forventede kostposter inkluderes i revaluering for varer som bruker lagermetoden Standard.  
 - Det registreres lagerreduksjoner som er påvirket av revaluering.  
 
-## <a name="calculate-the-revaluable-quantity"></a>Beregn antall som kan revalueres
+## Beregn antall som kan revalueres
 
 Antallet du kan revaluere, er restantallet på lager som er tilgjengelig på en gitt dato. Antallet er summen av ferdig fakturerte vareposter du bokfører på eller før revalueringsdatoen.  
 
@@ -30,7 +30,7 @@ Etter at en revaluering er bokført, kan du bokføre en lagerøkning eller -redu
 
 Siden du kan revaluere på alle datoer, må du ha konvensjoner for når du vurderer en vare som en del av lageret. Eksempel: Når varer er på lager og når varen er i arbeid (VIA).  
 
-### <a name="example"></a>Eksempel
+### Eksempel  
 
 Følgende eksempel illustrerer når en VIA-vare går over til å bli en del av beholdningen. Eksemplet er basert på produksjon av en kjede med 150 ledd.  
 
@@ -79,7 +79,7 @@ Verdisettingsdatoen settes til datoen for forbruksbokføring (01.02.20) som en v
 |01.02.20|Kjøpspris/prod.kost|01.02.20|-150,00|2|2|  
 |15.02.20|Direkte kostnad|15.02.20|150.00|3|3|  
 
-## <a name="expected-cost-in-revaluation"></a>Forventet kostnad i revaluering
+## Forventet kostnad i revaluering
 
 Antallet du kan revaluere, er summen av antallet for fullstendig fakturerte vareposter som du har bokført på eller før revalueringsdatoen. Når noen varer mottas eller leveres, men ikke faktureres, kan du ikke beregne lagerverdien deres. Varer som bruker lagermetoden Standard er ikke begrenset på denne måten.  
 
@@ -92,7 +92,7 @@ Når du beregner antallet som kan revalueres, for varer som bruker lagermetoden 
 - En verdipost med posttypen **Avvik**. Denne posten registrerer differansen mellom fakturert kost og revaluert standardkost.  
 - En verdipost med posttypen **Revaluering**. Denne posten registrerer tilbakeføringen av revaluering av forventet kost.
 
-### <a name="example-1"></a>Eksempel
+### Eksempel  
 
 Eksemplet nedenfor er basert på produksjonen av kjeden i det forrige eksemplet. Dette eksemplet beskriver hvordan de tre posttypene opprettes, basert på følgende situasjon:  
 
@@ -114,7 +114,7 @@ Tabellen nedenfor viser resultatene.
 |3.b.|15.01.20|Revaluering|20.01.20|-150,00|0,00|1|4|  
 |3.c.|15.01.20|Avvik|15.01.20|0.00|450.00|1|5|  
 
-## <a name="determine-whether-revaluation-affects-an-inventory-decrease"></a>Fastslå om revalueringen påvirker lagerreduksjonen
+## Fastslå om revalueringen påvirker lagerreduksjonen  
 
 Bruk datoen for bokføringen eller revalueringen til å fastslå om en lagerreduksjon påvirkes av en revaluering.  
 
@@ -129,7 +129,7 @@ Tabellen nedenfor viser kriteriene som brukes for en vare som ikke bruker lagerm
 |E|Senere enn revalueringsoppføring nr.|Er lik bokføringsdato for revaluering|Ja|  
 |F|Senere enn revalueringsoppføring nr.|Senere enn bokføringsdato for revaluering|Ja|  
 
-### <a name="example-2"></a>Eksempel
+### Eksempel  
 
 Følgende eksempel illustrerer revaluering av en vare som bruker lagermetoden FIFU. Eksempelet er basert på følgende scenario:  
 
@@ -160,7 +160,7 @@ Tabellen nedenfor viser de resulterende verdipostene.
 |F|01.04.20|Salg|01.04.20|-1|-10,00|7|8|  
 ||01.04.20|Salg|01.04.20|-1|2.00|7|12|  
 
-## <a name="wip-inventory-revaluation"></a>Revaluering av VIA-beholdning
+## Revaluering av VIA-beholdning  
 
 Beregning av VIA-lager betyr at du revaluer komponenter som er registrert som VIA-lager.  
 
@@ -180,7 +180,7 @@ Du kan revaluere VIA-lager under følgende betingelser:
 > [!CAUTION]  
 > Rapporten **Lagerverdisetting – VIA** viser verdien til bokførte produksjonsordreposter og kan være litt forvirrende for revaluert VIA-varer.  
 
-## <a name="revaluate-items-with-the-average-costing-method"></a>Revaluer varer med lagermetoden Gjennomsnitt
+## Revaluer varer med lagermetoden Gjennomsnitt
 
 Du kan bare revaluere varer som bruker lagermetoden Gjennomsnitt, hvis **Beregn per** er *Vare*.
 
@@ -188,7 +188,7 @@ Du kan bare beregne revaluering ved slutten av perioden som er valgt i feltet **
 
 Revaluering vil ikke påvirke negative transaksjoner i inneværende måned, noe som er grunnen til hvorfor fullstendig utlignede inngående poster ikke inkluderes heller.
 
-### <a name="example-3"></a>Eksempel
+### Eksempel
 
 Dette eksemplet viser hva som skjer når du beregner lagerverdien på siden **Varerevalueringskladd**. På siden **Lageroppsett** er **Vare** valgt i feltet **Beregn. av gjennomsnittskost** og **Måned** er valgt i feltet **Gjennomsnittskostperiode**.
 
@@ -218,7 +218,7 @@ Resultatet av følgende poster vil være 0, uavhengig av bokføringsdatoen.
 13.05.23|Kjøp|5|5.00|1
 26.04.23|Salg|-5|5.00|2
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Utformingsdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)   
 [Designdetaljer: Kostmetoder](design-details-costing-methods.md)   

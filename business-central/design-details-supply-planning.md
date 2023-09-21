@@ -3,13 +3,13 @@ title: Designdetaljer – Forsyningsplanlegging
 description: Denne artikkelen beskriver begrepene og prinsippene i funksjonene for forsyningsplanlegging i Business Central.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.date: 02/23/2023
 ms.custom: bap-template
 ms.search.keywords: 'design, supply, planning, reordering, replenishment'
 ---
-# <a name="design-details-supply-planning"></a>Designdetaljer: Forsyningsplanlegging
+# Designdetaljer: Forsyningsplanlegging
 
 Denne delen gir et detaljert teknisk innblikk i begrepene og prinsippene i funksjonene for forsyningsplanlegging i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -20,7 +20,7 @@ Artiklene forklarer hvordan planleggingssystemet fungerer:
 * Beskriver logikken til den sentrale mekanismen, som er forsyningsbalansering
 * Forklar hvordan du bruker gjenbestillingspolicyer i lagerplanlegging  
 
-## <a name="in-this-section"></a>I denne delen
+## I denne delen  
 
 [Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)  
 [Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md)  

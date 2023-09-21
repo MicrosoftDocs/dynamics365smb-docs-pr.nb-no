@@ -1,7 +1,7 @@
 ---
 title: Slik definerer du brukerdefinerte avskrivningsmetoder
 description: I Business Central kan du bruke en brukerdefinert avskrivningsmetode til å definere avskrivningsmetoden for aktivumet på siden Aktivakort.
-author: brentholtorf
+author: jill-kotel-andersson
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: user-depreciation
@@ -9,7 +9,7 @@ ms.date: 07/05/2021
 ms.author: bholtorf
 ---
 
-# <a name="set-up-fixed-assets-with-user-defined-depreciation-methods"></a>Slik definerer du aktiva med brukerdefinerte avskrivningsmetoder
+# Slik definerer du aktiva med brukerdefinerte avskrivningsmetoder
 
 Du kan bruke [!INCLUDE[prod_short](includes/prod_short.md)] til å definere de brukerdefinerte avskrivningsmetodene som beskrevet her.
 
@@ -23,7 +23,7 @@ Formelen for beregning av avskrivningsbeløp er følgende:
 > [!NOTE]  
 > Mens det er datoen i feltet **Første brukerdef. avskr.dato** som brukes til å bestemme tidsintervallet, er det **Startdato for avskrivning** som brukes til å bestemme antall avskrivningsdager. Hvis verdien i feltet **Første brukerdef. avskr.dato** kommer før verdien i feltet **Startdato for avskrivning**, blir prosentsatsen for den første perioden i avskrivningstabellen bare delvis brukt når programmet beregner den første avskrivningen. Dette betyr at aktivumet blir fullstendig avskrevet innen slutten av den siste perioden.
 
-## <a name="to-assign-a-depreciation-book-to-a-fixed-asset-with-a-user-defined-depreciation-method"></a>Slik tilordner du et avskrivningstablå til et aktivum med en brukerdefinert avskrivningsmetode
+## Slik tilordner du et avskrivningstablå til et aktivum med en brukerdefinert avskrivningsmetode
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktiva**, og velg deretter den relaterte koblingen.
 2. Velg aktivaet som du vil definere et aktivaavskrivningstablå for.
@@ -36,7 +36,7 @@ Formelen for beregning av avskrivningsbeløp er følgende:
 7. Når du bruker en brukerdefinert metode, må feltet **Første brukerdef. avskr.dato** settes til en dato som er den samme eller tidligere enn feltet **Startdatoen for avskrivning**. Hvis du har valgt en verdi i feltet **Periodelengde** i avskrivningstabellen, må datoen i feltet **Første brukerdef. avskr.dato** være startdatoen for en regnskapsperiode.
 8. Du må fylle ut feltet **Antall avskrivningsår** eller feltet **Sluttdato for avskrivning**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)] 
 
-## <a name="to-set-up-user-defined-depreciation-methods"></a>Slik definerer du brukerdefinerte avskrivningsmetoder
+## Slik definerer du brukerdefinerte avskrivningsmetoder
 
 På **Avskrivningstabell**-siden kan du opprette brukerdefinerte avskrivningsmetoder. Du kan for eksempel definere avskrivning basert på antall enheter.  
 
@@ -56,11 +56,11 @@ Sum av sifre = 1 + 2 + 3 + 4 = 10 avskrivning:
 * År 3 = 2/10  
 * År 4 = 1/10  
 
-### <a name="depreciation-based-on-number-of-units"></a>Avskrivning etter antall enheter
+### Avskrivning etter antall enheter
 
 Denne brukerdefinerte metoden kan også anvendes til avskrivning som er basert på antall enheter, for eksempel hvis du har produksjonsmaskiner med fastlagt levetidskapasitet. På siden **Avskrivningstabeller** kan du angi hvor mange enheter som kan produseres i hver periode (måned, kvartal, år eller regnskapsperiode).  
 
-### <a name="example---user-defined-depreciation"></a>Eksempel – brukerdefinert avskrivning
+### Eksempel – brukerdefinert avskrivning
 
 Bruk en avskrivningsmetode som gjør det mulig å foreta en hurtig avskrivning av aktiva på grunn av skattemessige årsaker.  
 
@@ -93,7 +93,7 @@ I det forrige eksemplet ville både feltet **Første brukerdef. avskr.dato** og 
 | 12/31/24 |Avskrivning |Ingen |Ingen |0 |
 
 
-## <a name="see-also"></a>Se også
+## Se også
 [Definere aktiva](fa-setup.md)  
 [Aktiva](fa-manage.md)  
 [Definere avskrivning for aktiva](fa-how-setup-depreciation.md)  
