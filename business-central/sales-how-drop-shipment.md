@@ -72,13 +72,11 @@ Når leverandøren har levert varene, kan du bokføre ordren som levert. Du kan 
 4. Velg handlingen **Bokfør** eller **Bokfør og send**.
 5. Velg **Levere** hvis du vil fakturere senere, eller **Levere og fakturere** hvis du vil fakturere med en gang.
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Se også
 
-[Opprette spesialbestillinger](sales-how-to-create-special-orders.md)  
-[Kjøp varer for salg](purchasing-how-purchase-products-sale.md)  
-[Selge produkter](sales-how-sell-products.md)  
+[Opprett spesialbestillinger](sales-how-to-create-special-orders.md)  
+[Kjøpvarer for et salg](purchasing-how-purchase-products-sale.md)  
+[Selg produkter](sales-how-sell-products.md)  
 [Registrere kjøp](purchasing-how-record-purchases.md)  
 [Salg](sales-manage-sales.md)  
 [Lager](inventory-manage-inventory.md)  

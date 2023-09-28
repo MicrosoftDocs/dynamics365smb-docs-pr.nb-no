@@ -106,12 +106,10 @@ Enhetskosten for en monteringsstykkliste er alltid lik totalsummen for enhetskos
 
 Kostnadene for varer som utgjør monteringsstykklisten kopieres fra komponentvarekortene. Hver varekostnad multipliseres med antallet, og kostbeløpet vises i feltet **Enhetskost** på varekortet.
 
-## Se relatert [Microsoft-opplæring](/training/modules/set-up-assembly-items-dynamics-365-business-central/).
-
 ## Se også
 
-[Registrere nye varer](inventory-how-register-new-items.md)  
-[Behandle produktvarianter](inventory-item-variants.md)  
+[Registrer nye varer](inventory-how-register-new-items.md)  
+[Administrer produktvarianter](inventory-item-variants.md)  
 [Vis tilgjengeligheten av varer](inventory-how-availability-overview.md)  
 [Lager](inventory-manage-inventory.md)  
 [Arbeid med stykklister](inventory-how-work-BOMs.md)  

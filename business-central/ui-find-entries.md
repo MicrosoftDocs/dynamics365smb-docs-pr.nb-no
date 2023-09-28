@@ -11,7 +11,7 @@ ms.search.form: 344
 ms.date: 05/23/2022
 ms.author: jswymer
 ---
-# <a name="finding-related-entries-for-documents"></a>Søke etter relaterte poster for dokumenter
+# Søke etter relaterte poster for dokumenter
 
 Finn ut hvordan du finner dokumenter og poster som er knyttet til hverandre basert på felles informasjon, for eksempel:
 
@@ -21,7 +21,7 @@ Finn ut hvordan du finner dokumenter og poster som er knyttet til hverandre base
 
 Denne funksjonen er svært nyttig for å finne postene som resulterer fra bestemte transaksjoner. Når du søker ved hjelp av bilagsnummer, kan du skrive ut oversikten fra **Bilagsposter**-rapporten.
 
-## <a name="get-started"></a>Kom i gang
+## Kom i gang
 
 Funksjonen Finn poster er lett tilgjengelig fra nesten alle sider ved å trykke på tastene <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>. Fra sider som spesifikt viser bokførte dokumenter eller bokførte dokumentposter, både for lister og kort, kan du også åpne funksjonen ved å velge handlingen **Søk etter poster**.
 
@@ -31,7 +31,7 @@ Siden **Søk etter poster** inkluderer alle relaterte dokumenter og poster baser
 - Den midterste delen viser relaterte dokumenter basert på søket.
 - Den nederste delen viser informasjon om kildedokumentet som ble funnet ved å søke.
 
-## <a name="search-for-entries"></a>Søke etter poster
+## Søke etter poster
 
 Du kan søke etter oppføringer basert på informasjon om enten dokumentet, forretningskontakten eller varereferansen. I den øverste delen velger du et av følgende alternativer, avhengig av hvilken type informasjon du har:
 
@@ -46,12 +46,10 @@ Når du har gjort et valg, angir du relevant søkeinformasjon i feltene øverst 
 > [!TIP]
 > Hvis du vil ha et par eksempler på hvordan du bruker **Søk etter poster**, kan du se [Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md) og [Gjennomgang: spore serie-/partinumre](walkthrough-tracing-serial-lot-numbers.md).
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/user-interface-dynamics-365-business-central/index)
+## Se også
 
-## <a name="see-also"></a>Se også
-
-[Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md)  
-[Finne bokførte dokumenter uten innkommende dokumentposter](across-how-find-posted-documents-without-income-document-records.md)  
+[Vare varesporede varer](inventory-how-to-trace-item-tracked-items.md)  
+[Finn bokførte dokumenter uten inngående dokumentposter](across-how-find-posted-documents-without-income-document-records.md)  
 [Tilgjengelighet og hurtigtaster](ui-accessibility.md)  
 [Arbeid med Business Central](ui-work-product.md)  
 [Legg til en sidehandling i rollesenteret](ui-bookmarks.md)  

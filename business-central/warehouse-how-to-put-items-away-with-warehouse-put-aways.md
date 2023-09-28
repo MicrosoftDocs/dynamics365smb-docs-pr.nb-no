@@ -3,7 +3,7 @@ title: Plassere varer med lagerplasseringer
 description: Finn ut mer om de ulike måtene å bruke lagerplasseringer for å plassere mottatte varer.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/24/2023
@@ -111,8 +111,6 @@ Hvis en lokasjon bruker både plasserings- og mottaksbehandling og du har slette
     > Hvis du må plassere varene for én linje i mer enn én hylle, for eksempel fordi den angitte hyllen er full, bruker du handlingen **Del linje** i hurtigfanen **Linjer**. Handlingen oppretter en linje der restantallet skal håndteres.
 
 5. Når du har plassert alle varene i hyller i henhold til instruksjonen, velger du handlingen **Registrer plassering**.  
-
-## Se relatert [Microsoft-opplæring](/training/modules/receive-put-away-items/)
 
 ## Se også
 

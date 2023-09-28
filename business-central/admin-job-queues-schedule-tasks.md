@@ -37,6 +37,14 @@ Når jobbkøer er satt opp og kjører, kan statusen endres på følgende måte i
 
 Etter at en jobb er fullført, fjernes den fra listen over jobbkøposter med mindre den er en gjentakende jobb. Hvis det er gjentakende jobber, justeres feltet **Tidligste starttidspunkt** til å vise neste gang jobben skal kjøres.  
 
+## Tidligste startdato
+
+Verdien i feltet **Tidligste startdato/-klokkeslett** på siden **Postkort for prosjektkø** vises neste gang prosjektet skal kjøres. Det er flere faktorer som kan påvirke om en prosjektkøpost faktisk kjører på det tidspunktet.
+
+De vanligste faktorene er antall prosjektkøoppføringer i et miljø og det totale antallet planlagte oppgaver. For å beskytte ytelsesnivåer er det driftsgrenser. Hvis du har mange poster i køen, og hvis én av dem for eksempel mislykkes eller postene bare tar lengre tid enn forventet, kan det hende at neste prosjekt ikke starter på forventet tidspunkt. Hvis du har codeunits som genererer 100 000 eller flere planlagte aktiviteter, bør du undersøke om du faktisk trenger alle disse aktivitetene. Du kan åpne listen over alle planlagte oppgaver på siden **Planlagte oppgaver**.
+
+Hvis du vil lære mer om hvordan du overvåker statusen for prosjektkøposter, kan du gå til [Slik viser du status for et hvilket som helst prosjekt](#to-view-status-for-any-job). Hvis du vil vite mer om driftsgrenser, kan du gå til [Asynkrone oppgavegrenser](/dynamics365/business-central/dev-itpro/administration/operational-limits-online#Task).
+
 ## Overvåk status eller feil i jobbkøen
 
 Data som jobbkøen genererer, lagres slik at du kan feilsøke feil.  

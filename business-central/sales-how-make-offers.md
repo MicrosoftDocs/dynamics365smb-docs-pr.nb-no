@@ -92,14 +92,12 @@ Konverteringen fjerner tilbudet fra databasen. Det opprettes en salgsfaktura ell
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Se også
 
 [Salg](sales-manage-sales.md)  
 [Sette opp salg](sales-setup-sales.md)  
-[Send dokumenter i e-post](ui-how-send-documents-email.md)  
-[Arkivere dokumenter](across-how-to-archive-documents.md)  
+[Send dokumenter via e-post](ui-how-send-documents-email.md)  
+[Arkiver dokumenter](across-how-to-archive-documents.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -139,8 +139,6 @@ Den beste prisen er den lavest tillatte prisen med den størst tillatte linjerab
 
 Hvis ingen spesialpris kan beregnes for varen på linjen, blir enten den siste direkte kostnaden eller salgsprisen fra varekortet satt inn.
 
-## Se relatert [Microsoft-opplæring](/training/modules/set-up-prices-discounts-dynamics-365-business-central/index)
-
 ## Se også
 
 [Definere kjøp](purchasing-setup-purchasing.md)  

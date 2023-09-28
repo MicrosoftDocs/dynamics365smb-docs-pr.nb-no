@@ -26,13 +26,11 @@ Hvis en leverandør har en eller flere bankkontoer og du vil angi et foretrukket
 2. Åpne kortet for leverandøren.
 3. Velg standard leverandørbankkonto i feltet **Foretrukket bankkontokode** på hurtigfanen **Betalinger**.
 
-## Se relatert [Microsoft-opplæring](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Se også
 
 [Definere kjøp](purchasing-setup-purchasing.md)  
-[Registrere nye leverandører](purchasing-how-register-new-vendors.md)  
-[Opprett bankkonti](bank-how-setup-bank-accounts.md)  
+[Registrer nye leverandører](purchasing-how-register-new-vendors.md)  
+[Konfigurer bankkontoer](bank-how-setup-bank-accounts.md)  
 [Bruk utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
 [Konfigurer Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

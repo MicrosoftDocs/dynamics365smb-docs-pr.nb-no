@@ -90,8 +90,6 @@ Når kjørselen Beregn avskrivninger beregner avskrivninger, brukes vanligvis et
 
 Hvis du velger dette feltet, bruker kjørselen Beregn avskrivninger i stedet kalenderåret på 365 dager, der hver måned beregnes med samme antall dager som i kalenderen. Det eneste unntaket er februar i skuddår, som kjørselen behandler som om den har 28 dager, ikke 29. Derfor anses alle år, inkludert skuddår, for å ha 365 dager.
 
-## Se relatert [Microsoft-opplæring](/training/modules/configure-depreciation-books/)
-
 ## Se også
 
 [Definer aktiva](fa-setup.md)  

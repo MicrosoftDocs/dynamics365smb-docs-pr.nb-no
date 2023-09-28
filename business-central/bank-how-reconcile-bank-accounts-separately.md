@@ -239,8 +239,6 @@ Ikke bruk en finanskonto som tillater direkte bokføring i bankkontobokføringsg
 
 Denne feilen oppstår ofte når du angir en startsaldo for en bankkonto. Det er viktig at du ikke bokfører åpningssaldoen direkte i finans. Poster på finanskontoen som bokføres direkte på finanskontoen, forårsaker problemer. Disse postene kan for eksempel hindre deg i å avstemme bankkontoen. Når det gjelder bankkonti i fremmed valuta, kan postene føre til at differansene akkumuleres etter at du har bokført flere bankavstemminger, på grunn av valutakursjusteringer. Ofte bokfører du åpningssaldoen direkte til bankkontoen, og beløpet ender deretter opp i finanskontoen. Alternativt kan du tilbakeføre det senere mot finanskontoen som du bruker til å balansere den åpne finanssaldoen. I begge tilfeller må du balansere eventuell direkte bokføring til finanskontoen før du starter den første bankavstemmingen, og spesielt hvis bankkontoen er i en utenlandsk valuta.
 
-## Se relatert [Microsoft-opplæring](/training/modules/bank-reconciliation-dynamics-365-business-central/index)
-
 ## Se også
 
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  

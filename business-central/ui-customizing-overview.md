@@ -26,9 +26,7 @@ Det finnes ulike metoder for å tilpasse programmet slik at du og kollegene dine
 |Installere en app|Installer apper som legger til funksjonalitet, endrer virkemåten, gir deg tilgang til nye elektroniske tjenester og så videre. Microsoft tilbyr for eksempel en app som kan gi integrering med PayPal Payments Standard.|Alle brukere i alle selskaper.|[Tilpass med apper](ui-extensions.md)|
 
 > [!NOTE]
-> Alle funksjonsbeskrivelser i brukerdokumentasjonen for [!INCLUDE[prod_short](includes/prod_short.md)] forutsetter **Premium**-opplevelsen, det vil si at beskrivelsene dekker hele omfanget av grensesnittelementer. Derfor kan brukere som har **Essential**-opplevelsen i enkelte emner lese om funksjoner og grensesnittelementer som ikke vises i brukergrensesnittet. Hvis du vil ha mer informasjon, se [Endre hvilke funksjoner som vises](ui-experiences.md).
-
-## Se relatert [Microsoft-opplæring](/training/paths/tailor-roles-design-ui/)
+> Alle funksjonsbeskrivelser i brukerdokumentasjonen for [!INCLUDE[prod_short](includes/prod_short.md)] forutsetter **Premium**-opplevelsen, det vil si at beskrivelsene dekker hele omfanget av grensesnittelementer. Derfor kan brukere som har **Essential**-opplevelsen i enkelte emner lese om funksjoner og grensesnittelementer som ikke vises i brukergrensesnittet. Hvis du vil ha mer informasjon, kan du se [Endre hvilke funksjoner som vises](ui-experiences.md).
 
 ## Se også
 

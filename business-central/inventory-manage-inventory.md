@@ -53,9 +53,7 @@ Tabellen nedenfor beskriver beslektede oppgaver.
 |Sett opp en leverandørs egen beskrivelse av en vare på varekortet, slik at du raskt kan sette inn varebeskrivelser på handelsdokumenter.|[Bruk varereferanser](inventory-how-use-item-cross-refs.md)|
 |Blokker varer fra å bli lagt inn på salgs- eller bestillingslinjene eller fra å bli bokført i en transaksjon.|[Blokker varer](inventory-how-block-items.md)|
 |Håndter forretningsdriften i salgskontorer, innkjøpsavdelinger eller anleggsplanleggingskontorer på tvers av flere lokasjoner.|[Arbeide med ansvarssentre](inventory-responsibility-centers.md)|
-|Bruk ressurser med bestemte funksjoner for forskjellige tjenester og servicevarer.|[Definer ressurstildeling](service-how-setup-resource-allocation.md)|
-
-## Se relatert [Microsoft-opplæring](/training/paths/get-started-inventory-management/)
+|Bruk ressurser med bestemte funksjoner for forskjellige tjenester og servicevarer.|[Konfigurer ressurstildeling](service-how-setup-resource-allocation.md)|
 
 ## Se også
 

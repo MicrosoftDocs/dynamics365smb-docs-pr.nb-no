@@ -159,8 +159,6 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
  Denne gjennomgangen har vist deg trinnene for å beregne VIA i [!INCLUDE[prod_short](includes/prod_short.md)]. På større prosjekter kan det være praktisk å overføre kost til en VIA-kontoen mens prosjektet fullføres. Denne gjennomgangen har vist deg hvordan du utelater oppgavelinjer fra en beregning. Det viser deg også når du vil måtte beregne på nytt. Til slutt viser denne gjennomgangen hvordan du bokfører VIA til finans. Et eksempel på hvordan du tilbakefører en VIA-bokføring til finans, er også inkludert.  
 
-## Se relatert [Microsoft-opplæring](/training/paths/calculate-post-job-wip/)
-
 ## Se også
 
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  

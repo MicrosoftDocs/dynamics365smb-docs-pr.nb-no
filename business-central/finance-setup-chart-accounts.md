@@ -49,8 +49,6 @@ Et nytt felt, **Sperr sletting av finanskontoer**, er lagt til på **Finansoppse
 
 Når du setter feltet **Sperr sletting av finanskontoer** til *Ja*, kan det anses som en beste fremgangsmåte, som er å definere datoen i feltet **Kontroller finanskonto sletting etter**, for eksempel til datoen du må lagre finansdataene fra.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/chart-accounts-dynamics-365-business-central/index)
-
 ## Se også
 
 [Finans og kontoplanen](finance-general-ledger.md)  

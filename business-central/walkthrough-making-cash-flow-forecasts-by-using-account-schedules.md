@@ -133,8 +133,6 @@ Ken er nå klar til å tildele kolonnedefinisjonen til finansrapportnavnet.
 2. På siden **Finansrapport** kan du velge et beløp og deretter vise kontantstrømprognosepostene som utgjør beløpet. I tillegg kan du vise formelen som brukes til å beregne beløpet. Du kan også filtrere beløpene etter dato og dimensjon.  
 3. Velg **Skriv ut**-handlingen for å skrive ut kontantstrømprognosen.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/forecast-cash-flow-dynamics-365-business-central/)
-
 ## Se også
 
 [Arbeid med finansrapporter](bi-how-work-account-schedule.md)  

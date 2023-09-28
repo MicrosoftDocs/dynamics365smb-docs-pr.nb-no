@@ -42,11 +42,9 @@ Denne videoen viser hvordan du konfigurerer en arbeidsflyt som krever at en bruk
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4jzHI?rel=0]
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
-
 ## Se også
 
-[Bruk godkjenningsarbeidsflyter](across-use-workflows.md)  
+[Bruk arbeidsflyter for godkjenning](across-use-workflows.md)  
 [Arbeidsflyt](across-workflow.md)  
 [Gjennomgang: Definer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  
 [Arbeid med Business Central](ui-work-product.md)

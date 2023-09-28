@@ -22,12 +22,10 @@ På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involv
 2. Åpne arbeidsflyten du vil aktivere.  
 3. På siden **Arbeidsflyt** må du slå på vekslebryteren **Aktivert**.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
-
 ## Se også
 
-[Opprett godkjenningsarbeidsflyter](across-how-to-create-workflows.md)  
-[Bruk godkjenningsarbeidsflyter](across-use-workflows.md)  
+[Opprett arbeidsflyter for godkjenning](across-how-to-create-workflows.md)  
+[Bruk arbeidsflyter for godkjenning](across-use-workflows.md)  
 [Vis arkiverte forekomster av arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md)  
 [Slett godkjenningsarbeidsflyter](across-how-to-delete-workflows.md)  
 [Konfigurer godkjenningsarbeidsflyter](across-set-up-workflows.md)  

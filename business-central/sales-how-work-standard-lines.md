@@ -70,12 +70,10 @@ Du kan bruke kjørselen **Opprett gjentakende salgsfakturaer** til å opprette s
 
 Salgsfakturaer blir opprettet for kunder med angitt standard kundesalgskode og eventuell angitt avtalegiroinformasjon, for bokføring på den angitte datoen.
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Se også
 
 [Salg](sales-manage-sales.md)  
-[Definere salg](sales-setup-sales.md)  
+[Konfigurer salg](sales-setup-sales.md)  
 [Opprett gjentakende kjøpslinjer](purchasing-how-work-recurring-purchase-lines.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

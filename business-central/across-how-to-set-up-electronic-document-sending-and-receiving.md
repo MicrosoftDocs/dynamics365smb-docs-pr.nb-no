@@ -136,8 +136,6 @@ Dette emnet inneholder følgende fremgangsmåter:
     |---------------------------------|---------------------------------------|  
     |**Finanskonto for linjer som ikke er varer**|Angir finanskontoen som settes automatisk inn på bestillingslinjer som er opprettet fra elektroniske dokumenter, når den innkommende dokumentlinjen ikke inneholder et element kan identifiseres. Alle inngående dokumentlinjer som ikke har en GTIN eller leverandørens varenummer, skal konverteres til en bestillingslinje av typen **Finanskonto**, og feltet **Nr.** på bestillingslinjen vil inneholde kontoen du velger i feltet **Finanskonto for linjer som ikke er varer**.<br /><br /> Hvis du lar feltet **Finanskonto for linjer som ikke er varer** stå tomt, og det inngående dokumentet har linjer uten identifiserbare varer, blir ikke kjøpsdokumentet opprettet. En feilmelding ber deg om å fylle ut feltet **Finanskonto for linjer som ikke er varer** før du kan fullføre oppgaven.|  
 
-## Se relatert [Microsoft-opplæring](/training/modules/electronic-documents-dynamics-365-business-central/index)
-
 ## Se også  
 [Utveksle data elektronisk](across-data-exchange.md)   
 [Fakturere salg](sales-how-invoice-sales.md)   

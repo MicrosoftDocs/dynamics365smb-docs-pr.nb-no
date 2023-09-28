@@ -172,11 +172,9 @@ Illustrasjonen nedenfor gir en oversikt over resultatet av denne prosedyren.
 
 Nå tester du arbeidsflyten ved å åpne en eksisterende leverandørkort og endre navnet. Bekreft at det sendes en godkjenningsforespørsel om å endre leverandørnavnet.
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
-
 ## Se også
 
-[Opprette arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md)  
+[Opprett arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md)  
 [Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)  
 [Konfigurering av godkjenningsarbeidsflytvarsler](across-setting-up-workflow-notifications.md)  
 [Vis arkiverte forekomster av arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md)  

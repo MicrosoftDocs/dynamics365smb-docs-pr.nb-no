@@ -87,12 +87,10 @@ Microsoft-partnere og -forhandlere kan opprette en app som de kan bruke til å k
 > [!NOTE]
 > Hvis du er en Microsoft-partner eller -forhandler, og du er interessert i å tilby en liste over anbefalte apper, kan du se [Anbefale apper fra AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) i administrasjonsinnholdet.
 
-## Se relatert [Microsoft-opplæring](/training/modules/customize-dynamics-365-business-central/)
-
 ## Se også
 
 [Installer og avinstaller apper](ui-extensions-install-uninstall.md)  
-[Tilpasse Business Central](ui-customizing-overview.md)  
+[Tilpass Business Central](ui-customizing-overview.md)  
 [Business Central-apper fra andre leverandører](ui-extensions-other.md)  
 [Konfigurer Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md)  
 [Aktivere kundebetalinger gjennom betalingstjenester](sales-how-enable-payment-service-extensions.md)  

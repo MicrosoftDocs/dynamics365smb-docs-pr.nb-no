@@ -31,8 +31,6 @@ Du kan definere flere plasseringsmaler og velge én av dem som i hovedsak skal s
 
 Du kan opprette forskjellige plasseringsmaler og deretter bruke dem slik det passer. Plasseringsmalen du har valgt for varen eller lagerføringsenheten, brukes først, hvis du har valgt en mal. Hvis disse feltene ikke er utfylt, brukes plasseringsmalen du valgte for lageret på hurtigfanen **Hylleprinsipp** på lokasjonskortet.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/put-away-templates/)
-
 ## Se også
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)

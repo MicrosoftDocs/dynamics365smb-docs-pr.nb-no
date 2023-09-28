@@ -92,8 +92,6 @@ Hvis hyller er obligatoriske for lokasjon, legges sone- og hyllekoder til i lage
 * For avanserte oppsett som bruker lagerstyring, bruker [!INCLUDE [prod_short](includes/prod_short.md)] mottakshyllekoden på siden **Lokasjonskort** for lokasjonen. Hvis det ikke er angitt noen mottakshyllekode, angis ingen hylle. Hvis varen og mottakshyllene ikke samsvarer, er koden for mottakshyllen tom.
 * Hvis det er angitt en mottakshyllekode i andre konfigurasjoner, bruker [!INCLUDE [prod_short](includes/prod_short.md)] hyllekoden fra kildedokumentet.
 
-## Se relatert [Microsoft-opplæring](/training/modules/receive-invoice-dynamics-d365-business-central/index).
-
 ## Se også
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)

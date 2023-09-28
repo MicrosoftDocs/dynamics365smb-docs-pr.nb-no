@@ -45,12 +45,10 @@ Hvis du vil spare tid når du sender dokumenter til kunde- og leverandørkontakt
 1. På siden **Dokumentoppsett**, på linjen for rapportoppsett som du vil sende til en bestemt kontakt for kunden, velger du handlingen **Velg e-post fra kontakter**.
 2. På siden **Kontakter** velger du en eller flere kontakter, og deretter klikker du på **OK**.
 
-## Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/)
-
 ## Se også
 
 [Oppdater egendefinerte rapportoppsett](ui-update-report-layouts.md)  
-[Opprett og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)  
+[Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)  
 [Importere og eksportere en egendefinert rapport eller et egendefinert dokumentoppsett](ui-how-import-and-export-report-layout.md)  
 [Send dokumenter i e-post](ui-how-send-documents-email.md)  
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  

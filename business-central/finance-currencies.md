@@ -29,13 +29,11 @@ Du angir valutakodene i **Valutaer**-listen, inkludert tilleggsinformasjon og in
 
 Valutakursene er verktøyet for å beregne den lokale valutaverdien (LVk) for hver valutatransaksjon. Hvis du vil ha mer informasjon, se [Oppdatere valutakurser](finance-how-update-currencies.md).  
 
-## Se relatert [Microsoft-opplæring](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## Se også
 
 [Definer valutaer](finance-set-up-currencies.md)  
 [Oppdater valutakurser](finance-how-update-currencies.md)  
-[Definer en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md)  
+[Konfigurer en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md)  
 [Avslutte år og perioder](year-close-years-periods.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -52,8 +52,6 @@ Følgende prosedyre beskriver hvordan du mottar en leverandørfaktura og konvert
 
     Eventuelle valideringsfeil, vanligvis knyttet til feil eller manglende hoveddata i [!INCLUDE[prod_short](includes/prod_short.md)], vises i hurtigfanen **Feilmeldinger**.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/electronic-documents-dynamics-365-business-central/index)
-
 ## Se også
 
 [Administrere skyldige beløp](payables-manage-payables.md)  

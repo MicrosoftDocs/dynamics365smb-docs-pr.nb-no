@@ -181,11 +181,9 @@ Når returforsendelser kombineres i en kreditnota og bokføres, opprettes det en
 2. Fyll ut feltene etter behov, og klikk deretter **OK**.  
 3. Du kan også slette individuelle bestillingsreturer manuelt.
 
-## Se relatert [Microsoft-opplæring](/training/paths/return-items-dynamics-365-business-central/)
-
 ## Se også
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Registrere kjøp](purchasing-how-record-purchases.md)  
+[Registrer kjøp](purchasing-how-record-purchases.md)  
 [Korriger eller annuller ubetalte kjøpsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Behandle ordrereturer eller annulleringer](sales-how-process-sales-returns-cancellations.md)  

@@ -42,12 +42,10 @@ Du kan også slette de individuelle ordrene manuelt.
 
 Gjenta trinn 1 til 3 for eventuelle andre berørte dokumenter, for eksempel bestillinger.
 
-## Se relatert [Microsoft-opplæring](/training/modules/processing-invoices-dynamics-365-business-central/)
-
 ## Se også
 
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Korrigere eller annullere ubetalte kjøpsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
+[Korriger eller annuller ubetalte kjøpsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

@@ -91,14 +91,12 @@ Beslektet element og kundeposter opprettes nå i systemet, og ordren skrives ut 
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/).
-
 ## Se også
 
-[Fakturere salg](sales-how-invoice-sales.md)  
+[Fakturer salg](sales-how-invoice-sales.md)  
 [Bokføre salg](ui-post-sales.md)  
-[Levere varer](warehouse-how-ship-items.md)  
-[Foreta direkte leveringer](sales-how-drop-shipment.md)  
+[Lever varer](warehouse-how-ship-items.md)  
+[Lag direkte levering](sales-how-drop-shipment.md)  
 [Salg](sales-manage-sales.md)  
 [Sette opp salg](sales-setup-sales.md)  
 [Skriv ut plukklisten](sales-how-print-picking-list.md)  

@@ -302,8 +302,6 @@ Du må definere informasjon om hvordan skattemyndighetene i ditt land eller omr�
 
 [!INCLUDE [vat-report-setup](includes/vat-report-setup.md)]
 
-## Se relatert [Microsoft-opplæring](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Se også
 
 [Definer mva-oppgavemaler og mva-oppgavenavn](finance-how-setup-vat-statement.md)  

@@ -89,12 +89,10 @@ Koblingen mellom rammeordren og den opprinnelige salgsordren, og eventuelle andr
 
 5. På siden **Salgslinjer** velger du handlingen **Vis dokument** for å vise posten.
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Se også
 
 [Salg](sales-manage-sales.md)  
-[Opprette rammemonteringsordrer](assembly-how-to-create-blanket-assembly-orders.md)  
+[Opprett rammemonteringsordrer](assembly-how-to-create-blanket-assembly-orders.md)  
 [Sette opp salg](sales-setup-sales.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

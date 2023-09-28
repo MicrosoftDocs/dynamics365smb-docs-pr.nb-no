@@ -29,12 +29,10 @@ På **Arbeidsflyt**-siden oppretter du en arbeidsflyt ved å føre opp de involv
    **Arbeidsflyt**-siden åpnes for en ny arbeidsflyt som inneholder all informasjon for den valgte malen. Verdien i **Kode**-feltet utvides med for eksempel "-01" for å angi at dette er den første arbeidsflyten opprettet fra arbeidsflytmalen.  
 4. Fortsett med å opprette arbeidsflyten ved å redigere de arbeidsflyttrinnene eller legge til nye trinn. Finn ut mer under [Opprett arbeidsflyter](across-how-to-create-workflows.md).  
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
-
 ## Se også
 
-[Opprett godkjenningsarbeidsflyter](across-how-to-create-workflows.md)  
-[Importer og eksporter godkjenningsarbeidsflyter](across-how-to-export-and-import-workflows.md)  
+[Opprett arbeidsflyter for godkjenning](across-how-to-create-workflows.md)  
+[Eksporter og importer arbeidsflyter for godkjenning](across-how-to-export-and-import-workflows.md)  
 [Vis arkiverte forekomster av arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md)  
 [Slett godkjenningsarbeidsflyter](across-how-to-delete-workflows.md)  
 [Gjennomgang: Definer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)  

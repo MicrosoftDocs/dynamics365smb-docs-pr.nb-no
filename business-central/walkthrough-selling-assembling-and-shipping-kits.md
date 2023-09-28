@@ -436,8 +436,6 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Når Lydeksperten betaler for mottaket av 18 datamaskiner fra CRONUS, fjernes ordren og de tilknyttede monteringsordrene.  
 
-## Se relatert [Microsoft-opplæring](/training/paths/assemble-items-dynamics-365-business-central/)
-
 ## Se også
 
  [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md)   

@@ -122,13 +122,11 @@ Du kan bruke en ekstern tjeneste for å holde valutakurser oppdatert, for eksemp
 
 Verdien i **Valutakurs**-feltet på **Valutaer**-siden oppdateres med den nyeste valutakursen.
 
-## Se relatert [Microsoft-opplæring](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## Se også
 
 [Valutaer i Business Central](finance-currencies.md)  
 [Definer valutaer](finance-set-up-currencies.md)  
-[Definer en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md)  
+[Konfigurer en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md)  
 [Avslutte år og perioder](year-close-years-periods.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

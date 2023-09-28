@@ -42,8 +42,6 @@ Hvis du vil utligne poster i ulike valutaer, må du opprette finanskontoer som d
 3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokføringsgrupper – leverandør**, og velg deretter den relaterte koblingen.  
 4. Angi de relevante finanskontiene der avrundingsdifferanser skal bokføres, i feltene **Debetkonto for valutaavrund.** og **Kreditkonto for valutaavrund.**.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/process-foreign-currency-payments-dynamics-365-business-central/)
-
 ## Se også
 
 [Administrere skyldige beløp](payables-manage-payables.md)  

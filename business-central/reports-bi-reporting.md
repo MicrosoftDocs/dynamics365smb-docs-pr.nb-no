@@ -7,11 +7,11 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.date: 09/22/2022
 ms.author: kepontop
 ---
-# <a name="business-intelligence-and-reporting-overview"></a>Oversikt over Business Intelligence og rapportering
+# Oversikt over Business Intelligence og rapportering
 
 Små og mellomstore selskaper svarer på innebygd analyse og rapporteringsfunksjonene de kan bruke med en gang til å holde oversikt over virksomheten. [!INCLUDE[prod_short](includes/prod_short.md)] støtter vanlige forretningsprosesser samt komplekse prosesser for slike organisasjoner. Hver av disse prosessene omfatter rapporter og analyseverktøy. Du kan også utføre ad hoc-analyse direkte fra startsiden.  
 
@@ -26,9 +26,7 @@ Tabellen nedenfor dekker viktige forretningsanalyse- og rapporteringsfunksjoner 
 | Integrer eksterne forretningsanalyseverktøy med [!INCLUDE[prod_short](includes/prod_short.md)].| [Eksterne forretningsanalyseverktøy](reports-external-analysis.md) |
 |Endre rapportoppsett eller til og med utvikle dine egne rapporter fra grunnen av. |[Utvikling av rapporter](reports-develop-reports.md)|
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/paths/setup-reporting-dynamics-365-business-central/).
-
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finansforretningsanalyse](bi.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

@@ -15,11 +15,9 @@ ms.author: bholtorf
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## Se relatert [Microsoft-opplæring](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
-
 ## Se også
 
-[Innkreve utestående saldi](receivables-collect-outstanding-balances.md)  
+[Innkrev utestående saldoer](receivables-collect-outstanding-balances.md)  
 [Definer flere rentesatser for forsinket betaling](finance-how-to-set-up-multiple-interest-rates.md)  
 [Definer betingelser og grader for purringer](finance-setup-reminders.md)  
 [Definer rentenotabetingelser](finance-setup-finance-charges.md)  

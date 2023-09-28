@@ -79,12 +79,10 @@ Bankkontoer i [!INCLUDE[prod_short](includes/prod_short.md)] registrere banktran
    Feltet er forskjellig fra feltet **Bankkontonr.** også tilgjengelig på hurtigfanen **Generelt**.
 4. Fyll ut feltene på siden **Leverandørs bankkort** etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Se relatert opplæring på [Microsoft Learn](/learn/paths/set-up-financial-management-dynamics-365-business-central/).
-
 ## Se også
 
-[Definer kontoplanen](finance-setup-chart-accounts.md)  
-[Opprett bankkonti](bank-how-setup-bank-accounts.md)  
+[Konfigurer kontoplaner](finance-setup-chart-accounts.md)  
+[Konfigurer bankkontoer](bank-how-setup-bank-accounts.md)  
 [Kjør og skriv ut rapporter](ui-work-report.md)  
 [Hurtigstart for Business Central](quick-start-business-central.md)  
 

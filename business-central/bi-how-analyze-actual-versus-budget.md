@@ -60,8 +60,6 @@ I stedet for å vise de faktiske og budsjetterte beløpene for alle konti i én 
 3. På hurtigfanen **Alternativer** fyller du ut feltene etter behov for å definere det som vises i tabellen.  
 4. På hurtigfanen **Linjer** holder du pekeren over et felt i tabellen for å lese en kort beskrivelse av beløpet som vises.  
 
-## Se relatert opplæring på [Microsoft Learn](/learn/modules/budgets-exchange-rates-dynamics-365-business-central/index).
-
 ## Se også
 
 [Finansforretningsanalyse](bi.md)  

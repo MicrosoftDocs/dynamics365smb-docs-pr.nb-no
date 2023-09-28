@@ -59,7 +59,9 @@ Gjenta trinn 2–6 for alle nettbutikker du vil koble til.
 ### Kjente problemer
 
 - Nettleseren blokkerer popup-vinduet. Når du slår på **Aktivert**-bryteren, åpner [!INCLUDE [prod_short](../includes/prod_short.md)] siden **Venter på svar – ikke lukk denne siden** mens den venter på et tilgangstoken fra Shopify. Hvis siden er lukket eller blokkert, kan du ikke koble til Shopify. Finn ut mer på [Be om tilgangstokenet](troubleshoot.md#request-the-access-token)
+- Det kan være lurt å ha Shopify-administratoren åpen i samme nettleser som [!INCLUDE [prod_short](../includes/prod_short.md)]
 - [Feil: Oauth-feilen invalid_request: Finner ikke Shopify API-program med api_key](troubleshoot.md#error-oauth-error-invalid_request-could-not-find-shopify-api-application-with-api_key)
+- [Feil: Oauth-feil invalid_request: Kontoen din har ikke tillatelse til å gi den forespurte tilgangen for denne appen.](troubleshoot.md#error-oauth-error-invalid_request-your-account-does-not-have-permission-to-grant-the-requested-access-for-this-app)
 - [Kan ikke koble til fra sandkasse](troubleshoot.md#verify-and-enable-permissions-to-make-http-requests-in-a-non-production-environment)
 
 ## Neste trinn
@@ -108,8 +110,6 @@ Hvis du holder vekslebryteren **Tillat datasynkronisering til Shopify** aktiver,
 
 *   Velg **Utkast** i feltet **Status for Opprett produkt** for å sikre at eksporterte produkter ikke er tilgjengelige for kjøpere. Du kan kontrollere hvordan produkter vises i nettbutikken, synkronisere priser, alternativer og lagernivåer. Bare pass på at du bruker filtre på siden **Legg til vare i Shopify** for å begrense antall eksporterte varer.
 * Deaktiver **Eksport kunde til Shopify**-vekslebryteren slik at du ikke sender kunder til Shopify.
-
-## Se relatert [Microsoft-opplæring](/training/paths/use-shopify-connector-dynamics-365-business-central/)
 
 ## Se også
 

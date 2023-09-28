@@ -139,8 +139,6 @@ Som du ser i det siste scenariet, kan du bare få et riktig resultat for en beho
 
 Hvis du ofte planlegger for behov ved lokasjoner, anbefaler vi derfor at du bruker funksjonen Lagerføringsenheter.
 
-## Se relatert opplæring på [Microsoft Learn](/training/paths/trade-get-started-dynamics-365-business-central/).
-
 ## Se også
 
 [Planlegging](production-planning.md)  

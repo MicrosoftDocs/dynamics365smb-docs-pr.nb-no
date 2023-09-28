@@ -31,9 +31,7 @@ Før du kan sende og motta elektroniske dokumenter eller importere og eksportere
 |Når tjenesten for bankkontoutdrag er aktivert, må du koble bankkonti i [!INCLUDE[prod_short](includes/prod_short.md)].|[Opprett bankkonti](bank-how-setup-bank-accounts.md)|  
 |Konfigurer dataeksport for Intrastat-rapportering i [!INCLUDE[prod_short](includes/prod_short.md)].|[Definer Intrastat-rapportering](finance-how-setup-report-intrastat.md)|
 |Gjør klar til å sette opp en ny datautvekslingsdefinisjon for en datafil eller datastrøm ved å bruke XML-skjemaet for filen til å forhåndsutfylle hurtigfanen **Kolonnedefinisjoner** på siden **Definisjoner av bokføringsutveksling**.|[Bruke XML-skjemaer til å klargjøre datautvekslingsdefinisjoner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md)|  
-|Definer rammeverket for datautveksling for å la brukerne motta et nytt kjøpsdokumentformat, sende et nytt salgsdokumentformat, importere en ny bankfil, eller annen datautveksling.|[Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)|  
-
-## Se relatert [Microsoft-opplæring](/training/modules/electronic-documents-dynamics-365-business-central/)
+|Definer rammeverket for datautveksling for å la brukerne motta et nytt kjøpsdokumentformat, sende et nytt salgsdokumentformat, importere en ny bankfil, eller annen datautveksling.|[Konfigurer datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)|  
 
 ## Se også
 

@@ -54,8 +54,6 @@ Selskapsnavnet vises alltid øverst i venstre hjørne og fungerer som en handlin
 
 Standard brukeropplevelse i en [!INCLUDE [prod_short](includes/prod_short.md)]-prøveversjon viser ikke alle funksjonene. Du kan bytte til full opplevelser på siden **Selskapsopplysninger**. Hvis du vil ha mer informasjon, kan du se [Endre hvilke funksjoner som vises](ui-experiences.md).  
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-new-companies-dynamics-365-business-central/)
-
 ## Se også
 
 [Oversikt over oppgaver for å definere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

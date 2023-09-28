@@ -126,8 +126,6 @@ Når noe er feil, viser [!INCLUDE[prod_short](includes/prod_short.md)] siden **F
 > [!NOTE]
 > Feilbehandlingen som er beskrevet ovenfor, er ikke tilgjengelig for vare, ressurs, ansatt og aktivakladder, eller for finanskontoer som er lagt til i lokale versjoner av bokføringsgrupper.
 
-## Se relatert [Microsoft-opplæring](/training/modules/posting-groups-dynamics-365-business-central/)
-
 ## Se også
 
 [Finans og kontoplanen](finance-general-ledger.md)  

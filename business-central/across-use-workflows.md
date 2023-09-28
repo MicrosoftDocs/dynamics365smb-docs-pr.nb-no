@@ -62,9 +62,7 @@ Før du kan begynne å bruke arbeidsflyter, må du konfigurere brukere av arbeid
 | Be om godkjenning for en oppgave, som godkjenner, godkjenn, avvis eller deleger godkjenning, og send eller vis godkjenningsmeldinger. | [Bruk arbeidsflyter for godkjenning](across-how-use-approval-workflows.md) |
 | Opprett trinn i arbeidsflyten som forhindrer at en bestemt oppføringstype brukes før en bestemt hendelse inntreffer, for eksempel godkjenning av oppføringen. | [Begrense og tillate bruk av en post](across-how-to-restrict-and-allow-usage-of-a-record.md) |
 | Vise forekomster av arbeidsflyttrinn med statusen **Fullført**. | [Vis arkiverte forekomster av arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md) |
-| Slett en arbeidsflyt som ikke lenger blir brukt. | [Slett godkjenningsarbeidsflyter](across-how-to-delete-workflows.md) |
-
-## Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
+| Slett en arbeidsflyt som ikke lenger blir brukt. | [Slett arbeidsflyter for godkjenning](across-how-to-delete-workflows.md) |
 
 ## Se også
 

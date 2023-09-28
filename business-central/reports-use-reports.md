@@ -25,8 +25,6 @@ En rapport i [!INCLUDE[prod_short](includes/prod_short.md)] samler informasjon b
 | Finn ut hvordan du endrer standardoppsettet for en rapport. | [Endre standard rapportoppsett](ui-how-change-layout-currently-used-report.md) |
 | Vis og analyser data fra et rapportdatasett i Microsoft Excel. | [Lagre rapportdatasett til Excel fra forespørselssiden](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## Se relatert [Microsoft-opplæring](/training/paths/setup-reporting-dynamics-365-business-central/).
-
 ## Se også
 
 [Oversikt over rapporter](reports-available-reports.md)  

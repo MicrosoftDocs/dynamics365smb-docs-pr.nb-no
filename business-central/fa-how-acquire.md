@@ -99,8 +99,6 @@ Du kan bokføre skrapverdien sammen med anskaffelseskosten fra en aktivakladd.
 > [!NOTE]
 > Hvis det finnes en skrapverdi for et aktiva, brukes denne verdien i avskrivningsbokføring i stedet for verdien i feltet **Slutt bokført verdi** på siden **Aktivaavskrivningstablå**. Hvis du vil ha mer informasjon, se [Slik håndterer du siste bokførte verdi](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## Se relatert [Microsoft-opplæring](/training/modules/purchase-fixed-assets/)
-
 ## Se også
 
 [Aktiva](fa-manage.md) 

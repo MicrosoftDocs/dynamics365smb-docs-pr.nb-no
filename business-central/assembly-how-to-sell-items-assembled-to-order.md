@@ -3,7 +3,7 @@ title: Selge varer som er montert til ordre
 description: Finn ut hvordan du selger en vare som er montert til ordre.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 11/23/2022
@@ -60,13 +60,11 @@ I denne fremgangsmåten behandler du salget av en vare som skal monteres i henho
 > [!NOTE]  
 > Vareerstatninger erstatter ikke automatisk en vare med en annen vare, for eksempel når du oppretter en ordre eller i en stykkliste. I stedet blir du varslet om at en erstatning er tilgjengelig.
 
-## Se relatert [Microsoft-opplæring](/training/modules/assemble-to-order-dynamics-365-business-central/)
-
 ## Se også
 
 [Monteringsstyring](assembly-assemble-items.md)  
 [Arbeid med monteringsstykklister](assembly-how-work-assembly-boms.md)  
-[Registrere nye varer](inventory-how-register-new-items.md)  
+[Registrer nye varer](inventory-how-register-new-items.md)  
 [Lager](inventory-manage-inventory.md)  
 [Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

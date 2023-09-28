@@ -238,13 +238,11 @@ På en postside kan du se om det finnes globale dimensjoner for postene. De to g
 > [!NOTE]  
 > Siden **Postdimensjoner** viser alle dimensjonene for én post om gangen. Når du blar gjennom postene, vil du se at innholdet endres på siden **Postdimensjoner** fortløpende.
 
-## Se relatert [Microsoft-opplæring](/training/modules/dimensions-dynamics-365-business-central/index)
-
 ## Se også
 
 [Forretningsintelligens](bi.md)  
 [Finans](finance.md)  
-[Analysere data etter dimensjoner](bi-how-analyze-data-dimension.md)  
+[Analyser data etter dimensjoner](bi-how-analyze-data-dimension.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

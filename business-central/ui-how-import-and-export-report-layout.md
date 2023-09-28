@@ -45,8 +45,6 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
 
  Det opprinnelige egendefinerte rapportoppsettet erstattes med det importerte rapportoppsettet.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## Se også
 
 [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)   

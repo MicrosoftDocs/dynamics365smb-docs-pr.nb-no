@@ -224,11 +224,9 @@ Følgende fremgangsmåte er basert på siden **Finanskladd**, men gjelder for al
 
 Verdier i feltet **Bilagsnr.** endres der det er nødvendig, slik at bilagsnummeret på individuelle eller grupperte kladdelinjer er i sekvensiell rekkefølge. Når dokumenter er nummerert på nytt, kan du bokføre kladden.
 
-## Se relatert [Microsoft-opplæring](/training/paths/use-journals-dynamics-365-business-central/)
-
 ## Se også
 
-[Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md)  
+[Bokfør transaksjoner direkte i finans](finance-how-post-transactions-directly.md)  
 [Tilbakefør kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)  
 [Fordele kostnader og inntekter](year-allocate-costs-income.md)  
 [Finans](finance.md)  

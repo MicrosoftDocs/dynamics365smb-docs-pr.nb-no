@@ -220,8 +220,6 @@ Du kan ikke endre serie- eller partinumre eller antall. Du må reklassifisere de
 8. Hvis du vil endre den eksisterende informasjonen for parti- eller serienummeret, kan du registrere parti- eller serienummerinformasjon.  
 9. Bokfør kladden for å knytte de nye varesporingsnumrene eller utløpsdatoene til den tilhørende vareposten
 
-## Se relatert [Microsoft-opplæring](/training/modules/prepare-item-tracking/)
-
 ## Se også
 
 [Konfigurer varesporing med serie-, parti- og pakkenumre](inventory-how-setup-item-tracking.md)  

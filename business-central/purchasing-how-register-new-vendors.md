@@ -70,12 +70,10 @@ Du kan når som helst redigere informasjonen på leverandørkort. Hvis du imidle
 5. Når du har fullført den nye leverandørmalen, kan du velge **OK**.  
    Leverandørmalen legges til i listen over leverandørmaler, slik at du kan bruke den til å opprette nye leverandørkort.
 
-## Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/).
-
 ## Se også
 
 [Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)  
-[Opprette nummerserier](ui-create-number-series.md)  
+[Opprett nummerserier](ui-create-number-series.md)  
 [Konfigurer leverandørbankkonto](purchasing-how-set-up-vendors-bank-accounts.md)  
 [Definere innkjøpere](purchasing-how-setup-purchasers.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  

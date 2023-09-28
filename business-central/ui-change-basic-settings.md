@@ -107,8 +107,6 @@ Velg koblingen *Endre når jeg mottar varslinger* for å vise eller endre varsli
 
 [!INCLUDE [ua-teachingtips](includes/ua-teachingtips.md)]
 
-## Se relatert [Microsoft-opplæring](/training/modules/personalize-ui-dynamics-365-business-central/index)
-
 ## Se også
 
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

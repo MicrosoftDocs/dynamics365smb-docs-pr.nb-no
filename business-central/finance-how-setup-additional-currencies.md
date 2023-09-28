@@ -124,12 +124,10 @@ I tillegg vil alle fremtidige poster av samme type få beløpene registrert i b�
 > [!NOTE]  
 > Feltet **Tilleggsrapporteringsvaluta** vil først bli aktivert når du har valgt **OK** i kjørselen **Juster tilleggsrapp.valuta**.  
 
-## Se relatert [Microsoft-opplæring](/training/paths/use-multiple-currencies-dynamics-365-business-central/)
-
 ## Se også
 
-[Oppdatere valutakurser](finance-how-update-currencies.md)  
-[Avslutte år og perioder](year-close-years-periods.md)  
+[Oppdater valutakurser](finance-how-update-currencies.md)  
+[Lukk år og perioder](year-close-years-periods.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

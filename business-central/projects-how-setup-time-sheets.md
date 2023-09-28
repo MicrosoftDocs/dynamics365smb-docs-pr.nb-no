@@ -88,8 +88,6 @@ Følgende deler beskriver hvordan du definerer timelister hvis du ikke bruker de
 > [!NOTE]  
 > Du kan ikke endre IDen for godkjenneren av timelisten hvis det finnes timelister som ennå ikke er behandlet og som har statusen **Sendt** eller **Åpen**.
 
-## Se relatert [Microsoft-opplæring](/training/paths/set-up-jobs-resources/)
-
 ## Se også
 
 [Bruke timelister for prosjekter](projects-how-use-time-sheets.md)  

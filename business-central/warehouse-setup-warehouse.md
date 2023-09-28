@@ -1,14 +1,14 @@
 ---
 title: Konfigurere lagerprosesser
 description: 'Selskapets distribusjonsstrategi avspeiles i oppsettet av lagerprosessene, for eksempel lagerlokasjoner.'
-author: SorenGP
+author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.form: '5775, 7300, 7301, 7302, 7303, 7304, 7305, 7306, 7307, 7308, 7325, 7344, 7346, 7347, 7353, 7366'
 ms.date: 06/25/2021
-ms.author: edupont
+ms.author: bholtorf
 ---
 # Definere lagerstyring
 
@@ -34,8 +34,6 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Konfigurere lageret til å automatisk foreslå plukking av varer som utløper først.|[Aktivere plukking etter FEFO](warehouse-picking-by-fefo.md)|
 |Ha tips om hvordan du omorganiserer lokasjoner, hyller eller soner for å gjøre lageraktivitetene mer effektive.|[Omstrukturere lagre](warehouse-how-to-restructure-warehouses.md)|
 |Angi standardrapporter som skal brukes for ulike dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
-
-## Se relatert [Microsoft-opplæring](/training/paths/set-up-warehouse-management/)
 
 ## Se også
 

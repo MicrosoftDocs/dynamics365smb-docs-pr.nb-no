@@ -115,13 +115,11 @@ Når selskapet bruker forsyningsplanleggingsprosessene i [!INCLUDE [prod_short](
 
 Hvis du vil ha eksempler på hvordan du kan bruke feltene på hurtigfanen **Planlegging**, kan du se [Anbefalte fremgangsmåter for oppsett: Planleggingsparametere](setup-best-practices-planning-parameters.md).  
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-items/)
-
 ## Se også
 
 [Lager](inventory-manage-inventory.md)  
-[Definere enheter](inventory-how-setup-units-of-measure.md)  
-[Behandle produktvarianter](inventory-item-variants.md)  
+[Konfigurer enheter](inventory-how-setup-units-of-measure.md)  
+[Administrer produktvarianter](inventory-item-variants.md)  
 [Definer Intrastat-rapportering](finance-how-setup-report-intrastat.md#other-intrastat-configurations)  
 [Avstem lagerkost med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Opprette nummerserier](ui-create-number-series.md)  

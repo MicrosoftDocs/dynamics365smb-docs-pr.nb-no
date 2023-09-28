@@ -76,13 +76,11 @@ Noen dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)] har et felt som
 
 **E-postutboksen** er stedet der du finner e-postene du har lagret som kladd, og e-postene som ikke kan sendes, for eksempel hvis e-postadressen er ugyldig. For meldinger som ikke er sendt, kan du velge **Vis feil** eller **Undersøk feil** for å feilsøke problemet.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/set-up-email/)
-
 ## Se også
 
 [Administrer rapport- og dokumentoppsett](ui-manage-report-layouts.md)  
 [Konfigurere e-post](admin-how-setup-email.md)  
-[Fakturere salg](sales-how-invoice-sales.md)  
+[Fakturer salg](sales-how-invoice-sales.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

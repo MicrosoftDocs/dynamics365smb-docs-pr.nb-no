@@ -242,8 +242,6 @@ Du kan angi rapportene som skal skrives ut i forskjellige faser, ved å velge et
 > [!NOTE]
 > De tilgjengelige rapportene kan variere avhengig av lokaliseringen for landet/området. Basisprogrammet inkluderer ikke oppsett.
 
-## Se relatert [Microsoft-opplæring](/training/modules/adjust-inventory/)
-
 ## Se også
 
 [Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder](inventory-how-count-adjust-reclassify.md)  

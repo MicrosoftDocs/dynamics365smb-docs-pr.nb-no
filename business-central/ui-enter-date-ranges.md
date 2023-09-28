@@ -345,12 +345,10 @@ Hvis du vil se hvilken enhet som brukes i et varighetsfelt, skriver du inn et ta
 
 Tallet 5 konverteres for eksempel til 5 timer hvis enheten er timer.
 
-## Se relatert [Microsoft-opplæring](/training/modules/explore-modify-info-dynamics-365-business-central/)
-
 ## Se også
 
 [Arbeid med [!INCLUDE[prod_short](includes/prod_long.md)]](ui-work-product.md)  
-[Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)  
+[Beregn dato for kjøp](purchasing-date-calculation-for-purchases.md)  
 [Angi vilkår i filtre](ui-enter-criteria-filters.md)  
 
 

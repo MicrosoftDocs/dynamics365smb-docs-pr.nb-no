@@ -140,14 +140,12 @@ For å tilordne opprinnelig kostpris manuelt, må du velge feltet **Utlignet fra
 
 Hvis du vil ha mer informasjon, kan du se [Kostberegning for beholdning](design-details-inventory-costing.md).
 
-## Se relatert [Microsoft-opplæring](/training/paths/return-items-dynamics-365-business-central/)
-
 ## Se også
 
 [Salg](sales-manage-sales.md)  
 [Sette opp salg](sales-setup-sales.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  
-[Send dokumenter i e-post](ui-how-send-documents-email.md)  
+[Send dokumenter via e-post](ui-how-send-documents-email.md)  
 [Behandle bestillingsreturer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

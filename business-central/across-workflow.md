@@ -9,7 +9,7 @@ ms.topic: conceptual
 ms.date: 10/10/2022
 ms.custom: bap-template
 ---
-# <a name="workflows-in-dynamics-365-business-central"></a>Arbeidsflyter i Dynamics 365 Business Central
+# Arbeidsflyter i Dynamics 365 Business Central
 
 Du kan definere og bruke arbeidsflyter til å koble forretningsprosessoppgaver som utføres av forskjellige brukere. Systemoppgaver, for eksempel automatisk bokføring, kan tas med som trinn i arbeidsflytprosesser. Systemoppgaver kan innledes eller etterfølges av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn.
 
@@ -26,7 +26,7 @@ Standardversjonen av [!INCLUDE [prod_short](includes/prod_short.md)] støtter tr
 
   På siden **Arbeidsflytmaler** kan du se alle tilgjengelige arbeidsflyter. Prøveversjonen av [!INCLUDE[prod_short](includes/prod_short.md)] omfatter mange forhåndskonfigurerte arbeidsflyter representert av arbeidsflytmaler som du kan kopiere for å opprette nye. Når du åpner en mal fra siden **Arbeidsflytmaler** og arbeidsflytnavnet starter med *MS-*, ble malen lagt til av Microsoft.
 
-## <a name="power-automate-flows"></a>Power Automate-flyter
+## Power Automate-flyter
 
 Med [!INCLUDE [prod_short](includes/prod_short.md)] online kan du registrere deg for Power Automate for å bygge kraftige automatiserte arbeidsflyter. Du kan kjøre arbeidsflytene fra [!INCLUDE [prod_short](includes/prod_short.md)]. Flytene kan koble til interne og eksterne datakilder og verktøy, uten å kodekunnskap.
 
@@ -36,7 +36,7 @@ Med [!INCLUDE [prod_short](includes/prod_short.md)] online kan du registrere deg
 |Finn ut mer om hvordan du oppretter, redigerer og behandler flytprosesser|[Konfigurer automatiserte flytprosesser](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) og [Konfigurer direkteflytprosesser](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)|
 |Konfigurer Power Automate-integrering med [!INCLUDE[prod_short](includes/prod_short.md)] for brukere som administrator|[Konfigurer Power Automate-integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
 
-## <a name="approval-workflows"></a>Arbeidsflyter for godkjenning
+## Arbeidsflyter for godkjenning
 
 Opprett en arbeidsflyt for godkjenning ved å definere hva arbeidsflyten skal starte, og hva som skjer etterpå, på denne måten:
 
@@ -52,14 +52,12 @@ Eksempler på hendelser for arbeidsflyter for godkjenning omfatter blant annet o
 | **Hvis du vil** | **Se** |
 |--|--|
 | Definer brukere for arbeidsflyt for godkjenning, angi hvordan brukere skal varsles, og opprett nye arbeidsflyter. (For å opprette nye arbeidsflyter for scenarier som ikke støttes, kan du implementere nødvendige arbeidsflytelementer ved å tilpasse programkoden.) | [Konfigurer godkjenningsarbeidsflyter](across-set-up-workflows.md) |
-| Aktiver arbeidsflyter for godkjenning, handle på arbeidsflytvarsler, inkludert å be om og godkjenne et flyttrinn. Arkiver og slett arbeidsflyter. | [Bruk godkjenningsarbeidsflyter](across-use-workflows.md) |
+| Aktiver arbeidsflyter for godkjenning, handle på arbeidsflytvarsler, inkludert å be om og godkjenne et flyttrinn. Arkiver og slett arbeidsflyter. | [Bruk arbeidsflyter for godkjenning](across-use-workflows.md) |
 
 <!--
 | Integrate company data with Power Automate workflows, using both internal and external sources and events to create and automate tasks or workflows. | [Use Power Automate Flows in [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md) |-->
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
-
-## <a name="see-also"></a>Se også
+## Se også
 
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  

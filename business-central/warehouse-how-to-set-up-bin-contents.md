@@ -49,8 +49,6 @@ Når du har opprettet hyllene, kan du opprette det hylleinnholdet du ønsker for
 
 I dette forslaget kan du arbeide med flere hylleinnholdslinjer for flere hyller og dermed få god oversikt over hva du legger i ulike hyller i en gitt sone, passasje eller reol.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/set-up-zones-bins/)
-
 ## Se også
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)

@@ -229,8 +229,6 @@ Når du har opprettet den nye bankkontoen, må du også opprette en ny bankbokf�
 
 Hvis du vil ha en mer kompakt visning av kontantkontiene i finansrapportering, kan du bruke fra kontiene **Fra-sum** og **Til-sum** i kontoplanen, radene **Sammentelling** i finansrapporter eller finanskontokategorier. Finn ut mer på [Business Intelligence og Financial Reporting](bi.md).
 
-## Se relatert [Microsoft-opplæring](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Se også
 
 [Konfigurere banktjenester](bank-setup-banking.md)  

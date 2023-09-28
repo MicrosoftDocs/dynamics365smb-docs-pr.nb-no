@@ -22,9 +22,7 @@ Kostregnskap brukes til å hjelpe deg med å forstå kostnadene ved å drive et 
 |Overføre finansposter til kostnadsposter.|[Overføre og bokføre kostposter](finance-transfer-and-post-cost-entries.md)|  
 |Fordele kostnader|[Definere og fordele kostnader](finance-define-and-allocate-costs.md)|  
 |Lær prosessene for oppretting av kostbudsjetter.|[Opprette kostbudsjetter](finance-create-cost-budgets.md)|
-|Annullere kostbudsjettoppføringer fra kostbudsjettjournalen.|[Slette kostbudsjettposter](finance-how-to-delete-cost-budget-entries.md)|
-
-## Se relatert [Microsoft-opplæring](/training/paths/use-cost-accounting-dynamics-365-business-central/)
+|Annullere kostbudsjettoppføringer fra kostbudsjettjournalen.|[Slett kostbudsjettposter](finance-how-to-delete-cost-budget-entries.md)|
 
 ## Se også  
 [Finans](finance.md)  

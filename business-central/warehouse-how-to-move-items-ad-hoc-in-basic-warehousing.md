@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.form: '393, 7382'
 ---
-# <a name="move-items-internally-in-basic-warehouse-configurations"></a>Flytt varer internt i grunnleggende lageroppsett
+# Flytt varer internt i grunnleggende lageroppsett
 
 Du vil kanskje flytte varer mellom hyller uten behov fra et kildedokument. Det kan for eksempel være en del av følgende aktiviteter:
 
@@ -25,11 +25,11 @@ I lageroppsett der den **Hylle obligatorisk**-oppsett er aktivert, men ikke **La
 * På siden **Intern flytting**.
 * På siden **Varereklassifiseringskladd**.  
 
-## <a name="internal-movements"></a>Interne flyttinger
+## Interne flyttinger
 
 Med siden **Interne flyttinger** kan du angi Hent- og Plasser-linjer når det ikke er et behov fra et kildedokument. Siden Intern flytting er som et forslag til organisering av ting. Du kan ikke behandle den faktiske flyttingen direkte fra den. Når en linje er fylt ut, bruker du handlingen **Opprett lagerflytting** til å sende linjen til siden **Lagerflytting**, som er stedet der du behandler og registrerer flyttingen.
 
-### <a name="to-move-items-as-an-internal-movement"></a>Flytte varer som en intern flytting
+### Flytte varer som en intern flytting
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Interne flyttinger**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Pass på at **Nr.** -feltet i hurtigfanen **Generelt** er fylt ut.
@@ -59,7 +59,7 @@ Med siden **Interne flyttinger** kan du angi Hent- og Plasser-linjer når det ik
 
 Utfør resten av den uplanlagte flyttingen på siden **Lagerflytting** på samme måte som for en flytting basert på kildedokumenter.
 
-### <a name="to-record-the-inventory-movement"></a>Slik registrerer du lagerflyttingen
+### Slik registrerer du lagerflyttingen
 
 1. Åpne dokumentet du vil registrere flyttingen for, på siden **Lagerflytting**.  
 2. I **Hyllekode**-feltet på flyttelinjene er hyllen der varene skal plukkes fra der varen er tilgjengelig. Du kan endre hyllen ved behov.
@@ -72,7 +72,7 @@ Følgende skjer under bokføringsprosessen:
 
 * Lagerposter angir at antallet overføres fra Hent-hyller til Plasser-hyllene.
 
-## <a name="to-move-items-with-the-item-reclassification-journal"></a>Flytte varer med varereklassifiseringskladden
+## Flytte varer med varereklassifiseringskladden
 
 I stedet for å bruke flyttingsdokumenter kan du registrere flyttinger ved å reklassifisere hyllekodene på varer. Finn ut mer under [Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder](inventory-how-count-adjust-reclassify.md).
 
@@ -89,9 +89,7 @@ I stedet for å bruke flyttingsdokumenter kan du registrere flyttinger ved å re
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/manage-internal-warehouse-processes/)
-
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

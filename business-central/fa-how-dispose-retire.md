@@ -45,8 +45,6 @@ Når du selger eller avhender et aktiva, bokføres salgsverdien til finans der d
 
 **Finansposter**-siden åpnes der du kan se postene som er resultat av salgsbokføringen.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/dispose-fixed-assets/)
-
 ## Se også
 
 [Aktiva](fa-manage.md)  

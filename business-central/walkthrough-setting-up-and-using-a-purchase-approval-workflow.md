@@ -117,8 +117,6 @@ Du kan definere variasjoner i arbeidsflyter ved å fylle ut felter på arbeidsfl
 
 [!INCLUDE[workflow](includes/workflow.md)]
 
-## Se relatert [Microsoft-opplæring](/training/modules/use-approval-workflows/)
-
 ## Se også
 
 [Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)  

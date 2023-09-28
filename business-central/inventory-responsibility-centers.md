@@ -49,8 +49,6 @@ Hvis du vil knytte ansvarssentre til bruker, kan du gjøre dette i tre moduler: 
 > [!NOTE]  
 > Brukere kan vise bare de bokførte dokumentene som gjelder sitt eget ansvarssenter. De kan imidlertid vise alle postene og navigere til andre bokførte dokumenter fra postene.
 
-## Se relatert [Microsoft-opplæring](/training/modules/set-up-responsibility-centers/)
-
 ## Se også
 
 [Definere lager](inventory-setup-inventory.md)  

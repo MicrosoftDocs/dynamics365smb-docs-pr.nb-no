@@ -134,8 +134,6 @@ Når du aktiverer dette alternativet, bruker systemet følgende regler, men bare
 | Land utenfor EU | EU-land som er forskjellig fra landet i **selskapsinformasjonen** | Ingen Intrastat-linjer |
 | Land utenfor EU | Land utenfor EU | Ingen Intrastat-linjer |   
 
-## Se relatert opplæring på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Se også
 
 [Konfigurer Intrastat-rapportering](finance-how-setup-report-intrastat.md)  

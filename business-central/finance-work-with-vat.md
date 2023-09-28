@@ -234,8 +234,6 @@ Hvis du vil vise en gruppe av bekreftelser, kan du starte fra **Leveringsbekreft
 > * Opprette en leveringsbekreftelse manuelt  
 > * Slik skriver du ut en leveringsbekreftelse.
 
-## Se relatert [Microsoft-opplæring](/training/paths/process-vat-dynamics-365-business-central/)
-
 ## Se også
 
 [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md)  

@@ -49,8 +49,6 @@ Du kan definere ulike aspekter ved arbeidsflytvarsler på følgende steder:
 
   For arbeidsflyter for godkjenning legger du til et trinn for arbeidsflytsvar for å varsle avsenderen når forespørselen er godkjent eller avvist. Finn ut mer fra trinn 9 i delen [Opprett arbeidsflyter](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
-
 ## Se også
 
 [Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)  

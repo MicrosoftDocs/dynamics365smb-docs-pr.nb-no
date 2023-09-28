@@ -36,12 +36,10 @@ Hvis du ikke angir en ønsket leveringsdato på ordrelinjen, eller hvis ønsket 
 - *forsendelsesdato + utgående lagerhåndteringstid = forsendelsesdato*
 - *planlagt forsendelsesdato + leveringstid = planlagt leveringsdato*
 
-## Se relatert [Microsoft-opplæring](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/).
-
 ## Se også
 
-[Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)  
-[Beregne ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
+[Beregn dato for kjøp](purchasing-date-calculation-for-purchases.md)  
+[Beregn ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

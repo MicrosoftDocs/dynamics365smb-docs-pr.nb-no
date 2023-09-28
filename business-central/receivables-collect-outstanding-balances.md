@@ -107,12 +107,10 @@ Når du utsteder en purring, opprettes en purrepost på siden **Purre-/rentepost
 
 [!INCLUDE [multiple-interest-rates-def](includes/multiple-interest-rates-def.md)] Hvis du vil ha mer informasjon, kan du se [Angi flere rentesatser](finance-how-to-set-up-multiple-interest-rates.md).  
 
-## Se relatert [Microsoft-opplæring](/training/paths/process-financial-periodic-activities-dynamics-365-business-central/)
-
 ## Se også
 
-[Definer betingelser og grader for purringer](finance-setup-reminders.md)  
-[Definer rentenotabetingelser](finance-setup-finance-charges.md)  
+[Konfigurer påminnelsesbetingelser og -nivåer](finance-setup-reminders.md)  
+[Konfigurer rentenotabetingelser](finance-setup-finance-charges.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

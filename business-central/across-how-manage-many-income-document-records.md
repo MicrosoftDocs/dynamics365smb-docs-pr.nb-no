@@ -47,8 +47,6 @@ Alle inngående dokumentposter vises, inkludert poster som det ikke er merket av
 > [!NOTE]  
 > Du kan også utføre denne handlingen for hver enkelt post på siden **Kort for inngående dokument**.
 
-## Se relatert [Microsoft-opplæring](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Se også
   
 [Opprett innkommende dokumentposter](across-how-create-income-document-records.md)

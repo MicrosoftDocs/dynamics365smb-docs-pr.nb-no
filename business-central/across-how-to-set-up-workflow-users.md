@@ -34,8 +34,6 @@ På siden **Brukergrupper for arbeidsflyt** kan du angi hvor en deltaker skal en
 
 6. Gjenta trinn 5 for å legge til flere arbeidsflytbrukere for arbeidsflytbrukergruppen.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
-
 ## Se også
 
 [Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)  

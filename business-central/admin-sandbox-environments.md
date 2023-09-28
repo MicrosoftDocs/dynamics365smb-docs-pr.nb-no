@@ -3,7 +3,7 @@ title: Sandkassemiljøer
 description: 'Finn ut hvordan et eget miljø kan hjelpe deg med å utforske, lære, prøve, utvikle, feilsøke og teste Business Central på en sikker måte.'
 author: brentholtorf
 ms.topic: conceptual
-ms.reviewer: edupont
+ms.reviewer: bholtorf
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -63,8 +63,6 @@ I et sandkassemiljø finner du **Designer** aktivert. Du kan aktivere Designer v
 Hvis du vil ha mer informasjon, kan du se [Bruk utformingen](/dynamics365/business-central/dev-itpro/developer/devenv-inclient-designer) i innholdet for utviklere og administratorer (bare på engelsk).  
 
 <!-- ![In-client Designer.](./media/across-sandbox/sandbox-inclient-designer.png) -->
-
-## Se relatert [Microsoft-opplæring](/training/modules/admin-online-dynamics-365-business-central/)
 
 ## Se også
 

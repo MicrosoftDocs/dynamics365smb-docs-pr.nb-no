@@ -42,13 +42,11 @@ Hvis du vil undersøke prognosen, i tillegg til prognosen oppføringer, kan du o
 2. Velg en kontantstrømprognose, og velg deretter den **Kontantstrømforslag**.  
 3. På siden **Kontantstrømforslag** velger du handlingen **Foreslå forslagslinjer**.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)
-
 ## Se også
 
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-[Definere kontantstrømanalyse](finance-setup-cash-flow-analyses.md)  
+[Definer kontantstrømanalyse](finance-setup-cash-flow-analyses.md)  
 [Prognostisere kontantstrømmen i Dynamics 365 Business Central](/training/modules/forecast-cash-flow-dynamics-365-business-central/index)  
 [Definere kontantstrømprognoser ved å bruke Azure AI i Dynamics 365 Business Central](/training/modules/setup-cash-flow-forecasts/)  
 

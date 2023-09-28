@@ -111,12 +111,10 @@ Du kan registrere en valutakode på en finanskladdelinje og bokføre linjen til 
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Se relatert [Microsoft-opplæring](/training/modules/currencies-exchange-rates-dynamics-365-business-central/)
-
 ## Se også
 
-[Oppdater valutakurser](finance-how-update-currencies.md)  
-[Definer en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md)  
+[Oppdatere valutakurser](finance-how-update-currencies.md)  
+[Definere en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

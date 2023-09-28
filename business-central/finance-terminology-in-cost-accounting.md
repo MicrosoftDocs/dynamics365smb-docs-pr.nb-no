@@ -43,12 +43,10 @@ Dette emnet definerer de viktigste begrepene som brukes i kostregnskap.
 |Variabel kostnad|Variable kostnader er utgifter som endres i forhold til aktiviteten i en virksomhet. Variable kostnader er summen av grensekostnader over alle enheter som er produsert. Faste og variable kostnader utgjør de to komponentene i totale kostnader.|  
 |Variant|En variant brukes som en valgfri brukerdefinert etikett for tildelinger. Formålet med etiketten er å filtrere grupper av tildeling.|  
 
-## Se relatert [Microsoft-opplæring](/training/paths/use-cost-accounting-dynamics-365-business-central/)
-
 ## Se også
 
- [Om kostregnskap](finance-about-cost-accounting.md)  
- [Gjøre rede for kostnader](finance-manage-cost-accounting.md)  
+ [Om kostnadsregnskap](finance-about-cost-accounting.md)  
+ [Gjør rede for kostnader](finance-manage-cost-accounting.md)  
  [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

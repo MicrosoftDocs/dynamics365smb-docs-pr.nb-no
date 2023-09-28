@@ -58,8 +58,6 @@ Hvis det ikke oppstår noen feil, brukes oppdateringene på rapportoppsettene. H
 
 Når du har endret oppsettet, kan du prøve å oppdatere det på nytt.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/change-documents-dynamics-365-business-central/index)
-
 ## Se også  
  [Håndtere rapportoppsett](ui-manage-report-layouts.md)  
  [Arbeid med rapporter, satsvise jobber og XMLport-er](ui-work-report.md)  

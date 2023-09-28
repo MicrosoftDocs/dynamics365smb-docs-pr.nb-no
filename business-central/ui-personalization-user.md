@@ -158,8 +158,6 @@ Nedenfor følger noen tips som hjelper deg med å forstå tilpasning bedre.
    > [!TIP]
    > Som administrator kan du skjule **Automatiser**-elementet fra brukere. Finn ut mer under [Definer Power Automate-integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## Se relatert [Microsoft-opplæring](/training/modules/personalize-ui-dynamics-365-business-central/index)
-
 ## Se også
 [Tilpass sider for profiler](ui-personalization-manage.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

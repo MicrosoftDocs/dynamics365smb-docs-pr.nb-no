@@ -38,11 +38,9 @@ En bestilling som er opprettet som en spesialbestilling for en salgsordre, blir 
 > [!NOTE]  
 >  Du kan ikke bruke funksjonen for spesialbestilling hvis varen allerede er reservert. For varer som selges på spesialbestilling, må du derfor passe på at feltet **Reserver** på varekortet ikke er satt til **Alltid**.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-sales-documents-dynamics-365-business-central/)
-
 ## Se også
 
-[Arbeide med katalogvarer](inventory-how-work-nonstock-items.md)  
+[Arbeid med katalogvarer](inventory-how-work-nonstock-items.md)  
 [Salg](sales-manage-sales.md)  
 [Foreta direkte leveringer](sales-how-drop-shipment.md)   
 [Designdetaljer: Gjenbestillingsprinsipper](design-details-reservation-order-tracking-and-action-messaging.md)  

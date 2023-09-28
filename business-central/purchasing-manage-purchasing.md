@@ -43,12 +43,10 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## Se relatert [Microsoft-opplæring](/training/paths/purchase-items-services-dynamics-365-business-central/)
-
 ## Se også
 
 [Definere kjøp](purchasing-setup-purchasing.md)  
-[Registrere nye leverandører](purchasing-how-register-new-vendors.md)  
+[Registrer nye leverandører](purchasing-how-register-new-vendors.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Administrere prosjekter](projects-manage-projects.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

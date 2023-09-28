@@ -297,12 +297,10 @@ Deretter må du opprette ulike kjøps-, produksjons- og salgstransaksjoner med d
 
  Nå har du fullført gjennomgangen av hvordan du bruker **Søk etter poster**-siden til defekthåndtering sammen med **Varesporing**-siden.  
 
-## Se relatert [Microsoft-opplæring](/training/paths/use-serial-lot-numbers/)
-
 ## Se også
 
 [Arbeide med serie- og partinumre](inventory-how-work-item-tracking.md)  
-[Spore varesporede varer](inventory-how-to-trace-item-tracked-items.md)  
+[Vare varesporede varer](inventory-how-to-trace-item-tracked-items.md)  
 [Søk etter poster](ui-find-entries.md)  
 [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
 

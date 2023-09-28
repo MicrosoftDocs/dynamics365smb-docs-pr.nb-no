@@ -60,8 +60,6 @@ Du kan opprette en faktura fra en prosjektplanleggingslinje og samtidig angi ant
 > [!NOTE]  
 >   Fremgangsmåten ovenfor er identisk for å opprette, gå gjennom og bokføre en prosjektrelatert salgskreditnota.
 
-## Se relatert [Microsoft-opplæring](/training/paths/post-job-usage-sales/)
-
 ## Se også
 
 [Administrere prosjekter](projects-manage-projects.md)  

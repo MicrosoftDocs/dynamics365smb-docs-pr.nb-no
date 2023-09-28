@@ -92,8 +92,6 @@ Følgende fremgangsmåte viser hvordan du angir nummerseriene for Salg-området.
 
 Det valgte nummeret skal nå brukes til å fylle ut feltet **Nr.** på kortet eller det aktuelle dokumentet, i henhold til innstillingene du gjorde på nummerserielinjen.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/number-series-trail-codes-dynamics-365-business-central/index)
-
 ## Se også
 
 [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

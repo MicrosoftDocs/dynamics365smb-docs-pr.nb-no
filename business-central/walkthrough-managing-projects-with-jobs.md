@@ -454,8 +454,6 @@ Fremgangsmåtene nedenfor viser hvordan du oppretter en ny jobb, angir prissetti
 
  Denne gjennomgangen har vist deg noen av de grunnleggende trinnene for å arbeide med prosjekter i [!INCLUDE[prod_short](includes/prod_short.md)]. Du har lært hvordan du oppretter et nytt prosjekt, hvordan du kopierer et prosjekt og hvordan du håndterer betalinger. Du har også sett en demonstrasjon av hvordan du sporer timer og oppretter fakturaer.  
 
-## Se relatert [Microsoft-opplæring](/training/paths/create-jobs/)
-
 ## Se også
 
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  

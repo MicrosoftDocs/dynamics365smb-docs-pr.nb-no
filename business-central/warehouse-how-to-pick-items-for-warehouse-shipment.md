@@ -3,7 +3,7 @@ title: Plukke varer for lagerlevering
 description: Lær mer om å bruke lagerplukkdokumenter til å opprette og behandle plukkinformasjon før du bokfører en lagerlevering.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
@@ -110,8 +110,6 @@ Du kan ikke opprette et lagerplukkdokument fra bunnen av. Plukk er en del av en 
 4. Når du har utført plukkingen og plassert varene i leveringsområdet eller leveringshyllen, velger du **Registrer plukk**-handlingen.  
 
 Du kan nå hente varene til leveringssonen og bokføre leveringen, inkludert det relaterte kildedokumentet, på siden **Lagerlevering**. Finn ut mer under [Lever varer](warehouse-how-ship-items.md).
-
-## Se relatert [Microsoft-opplæring](/training/modules/pick-ship-items-warehouse/)
 
 ## Se også
 

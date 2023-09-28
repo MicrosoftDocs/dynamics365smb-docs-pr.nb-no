@@ -120,8 +120,6 @@ Siden **OCR-datakorrigering**, som du åpner fra siden **Inngående dokumenter**
 
 Feltene i hurtigfanen **Økonomisk informasjon** på siden **Inngående dokumenter**, oppdateres med nye verdier du angav i trinn 4.
 
-## Se relatert [Microsoft-opplæring](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Se også
 
 [Opprett innkommende dokumentposter](across-how-create-income-document-records.md)

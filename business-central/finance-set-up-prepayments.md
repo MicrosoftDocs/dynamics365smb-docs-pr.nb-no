@@ -100,11 +100,9 @@ Du kan spare tid ved å opprette en jobbkøpost som automatisk frigir ordrer som
 3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Jobbkøposter**, og velg deretter den relaterte koblingen.
 4. Konfigurer jobbkøposten **Oppdater ventende forskuddssalg**, for eksempel ved å bruke innstillingene i hurtigfanen **Regelmessighet** til å planlegge hvor ofte den skal kjøres. Hvis du vil ha mer informasjon, kan du se [Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).
 
-## Se relatert [Microsoft-opplæring](/training/modules/prepayment-invoices-dynamics-365-business-central/)
-
 ## Se også  
 
-[Fakturere forskuddsbetalinger](finance-invoice-prepayments.md)  
+[Fakturer forskuddsbetalinger](finance-invoice-prepayments.md)  
 [Gjennomgang: Konfigurer og fakturer salgsforskudd](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Beregne mva på varer og tjenester på forskuddsbetalinger i Australia](LocalFunctionality/Australia/how-to-calculate-goods-and-services-tax-on-prepayments.md)  
 [Beregne mva på varer og tjenester på forskuddsbetalinger i New Zealand](LocalFunctionality/NewZealand/how-to-calculate-goods-and-services-tax-on-prepayments.md)  

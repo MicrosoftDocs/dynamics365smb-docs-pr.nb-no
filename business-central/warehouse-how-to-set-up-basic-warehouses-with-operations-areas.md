@@ -136,8 +136,6 @@ Dedikering av hyller gir lignende funksjonalitet som bruk av hylletyper, som bar
 > [!NOTE]  
 >  Hyllen må være tom før du kan velge eller fjerne den **Dedikert**-feltet.
 
-## Se relatert [Microsoft-opplæring](/training/modules/get-started-warehouse-management/)
-
 ## Se også
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)

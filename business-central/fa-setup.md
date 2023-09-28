@@ -34,9 +34,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Aktivere forsikring av aktiva, definere generelle forsikringsopplysninger, et forsikringskort per polise, og forberede kladder for bokføring av forsikringskostnader. |[Definere aktivaforsikring](fa-how-setup-insurance.md) |
 | Aktivere vedlikehold av aktiva, definere generell vedlikeholdsinformasjon, definere kontoer for postering av vedlikehold, og definere typer av vedlikeholdsarbeid. |[Definere aktivavedlikehold](fa-how-setup-maintenance.md) |
 | Lær mer om ulike avskrivningsmetoder for aktiva. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
-| Lær mer om hvordan du bruker brukerdefinerte avskrivningsmetoder. |[Slik definerer du brukerdefinerte avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
-
-## Se relatert [Microsoft-opplæring](/training/paths/set-up-fixed-assets-management/)
+| Lær mer om hvordan du bruker brukerdefinerte avskrivningsmetoder. |[Konfigurer brukerdefinerte avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
 ## Se også
 

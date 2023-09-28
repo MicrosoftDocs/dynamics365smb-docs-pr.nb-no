@@ -43,12 +43,10 @@ Den generelle versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] kan se
     > [!NOTE]  
     >  Du kan også sende en bokført salgsfaktura som et elektronisk dokument. Fremgangsmåten er den samme som beskrevet i dette emnet for ikke-bokførte salgsdokumenter. På siden **Bokført salgsfaktura** velger du **Aktivitetslogg**-handlingen for å vise statusen for det elektroniske dokumentet.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/electronic-documents-dynamics-365-business-central/index)
-
 ## Se også
 
-[Fakturere salg](sales-how-invoice-sales.md)  
-[Definere en profil for dokumentsending](sales-how-setup-document-send-profiles.md)  
+[Fakturer salg](sales-how-invoice-sales.md)  
+[Konfigurer profiler for dokumentsending](sales-how-setup-document-send-profiles.md)  
 [Konfigurer sending og mottak av elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Konfigurere en dokumentutvekslingstjeneste](across-how-to-set-up-a-document-exchange-service.md)  
 [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)  

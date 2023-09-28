@@ -104,12 +104,10 @@ Du fyller ut feltene i motsatt rekkefølge, slik:
 
 ADM-dimensjonen blir kopiert fra lokasjon ØST.
 
-## Se relatert opplæring på [Microsoft Learn](/learn/modules/trade-set-up-dynamics-365-business-central/)
-
 ## Se også
 
 [Håndtere lager](inventory-manage-inventory.md)  
-[Overføre beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md)  
+[Overfør beholdning mellom lokasjoner](inventory-how-transfer-between-locations.md)  
 [Opprette hyller](warehouse-how-to-create-individual-bins.md)  
 [Definere hylletyper](warehouse-how-to-set-up-bin-types.md)  
 [Definere lagerstyring](warehouse-setup-warehouse.md)  

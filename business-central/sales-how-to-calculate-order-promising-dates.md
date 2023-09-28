@@ -128,12 +128,10 @@ Før en vare kan inkluderes i beregningen av ordrebekreftelsen, må den være me
     - Velg **Første mulige forsendelsesdato (CTP)** hvis du vet at varen er utsolgt fra lager og du vil beregne når varen tidligst vil være tilgjengelig når du utsteder nye etterfyllingsforslag.  
 5.  Velg **Godta**-knappen for å godta den tidligste leveringsdatoen som er tilgjengelig.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/promising-sales-order-delivery-dynamics-365-business-central/)
-
 ## Se også
 
 [Salg](sales-manage-sales.md)  
-[Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)  
+[Beregn dato for kjøp](purchasing-date-calculation-for-purchases.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

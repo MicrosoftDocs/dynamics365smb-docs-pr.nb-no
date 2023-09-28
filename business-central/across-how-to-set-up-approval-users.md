@@ -46,8 +46,6 @@ Når du har definert godkjenningsbrukere, kan du opprette arbeidsflytsvar for go
 
 Neste trinn er å angi hvordan du vil at [!INCLUDE [prod_short](includes/prod_short.md)] skal varsle personer om at en forespørsel venter på oppmerksomhet. Finn ut mer under [Konfigurering av godkjenningsarbeidsflytvarsler](across-setting-up-workflow-notifications.md).
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-workflows/)
-
 ## Se også
 
 [Konfigurer arbeidsflytbrukere](across-how-to-set-up-workflow-users.md)  

@@ -167,8 +167,6 @@ Illustrasjonen nedenfor viser når **Hyllekode**-feltet i komponentoversikten fy
 
 :::image type="content" source="media/binflow.png" alt-text="Oversikt over når og hvordan Hyllekode-feltet fylles ut.":::
 
-## Se relatert [Microsoft-opplæring](/training/paths/pick-ship-items-business-central/)
-
 ## Se også
 
 [Lager](inventory-manage-inventory.md)  

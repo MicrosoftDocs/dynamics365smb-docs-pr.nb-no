@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.custom: bap-template
 ms.reviewer: jswymer
 ---
-# <a name="create-incoming-document-records"></a>Opprett innkommende dokumentposter
+# Opprett innkommende dokumentposter
 
 På siden **Inngående dokumenter** kan du bruke forskjellige funksjoner til å se gjennom utgiftskvitteringer, behandle OCR-oppgaver og konvertere inngående dokumentfiler, manuelt eller automatisk, til de aktuelle dokumentene eller kladdelinjene. De eksterne filene kan tilknyttes på et hvilket som helst tidspunkt i prosessen, inkludert bokførte dokumenter og resulterende leverandør, kunde- og finansposter.
 
@@ -18,7 +18,7 @@ For å registrere et eksternt dokument i [!INCLUDE[prod_short](includes/prod_sho
 
 Før du kan bruke funksjonen for **innkommende dokumenter**, må du utføre den nødvendige konfigurasjonen. Hvis du vil ha mer informasjon, kan du se [Konfigurer innkommende dokumenter](across-how-setup-income-documents.md).
 
-## <a name="approve-or-reject-an-incoming-document"></a>Godkjenn eller avvis et innkommende dokument
+## Godkjenn eller avvis et innkommende dokument
 
 Hvis du har definert funksjonen for **innkommende dokumenter** for å kreve godkjenning for å opprette dokumenter, må brukere med de riktige rettighetene godkjenne postene før de behandles. Hvis du vil ha mer informasjon, kan du se [Definer godkjennere for innkommende dokumentposter](across-how-setup-income-documents.md#to-set-up-approvers-of-incoming-document-records).
 
@@ -27,7 +27,7 @@ Hvis du har definert funksjonen for **innkommende dokumenter** for å kreve godk
 
 Hvis du godkjenner den inngående dokumentposten, merkes det av for **Frigitt** på linjen for det inngående dokumentet. Brukeren som for eksempel er ansvarlig for å opprette kjøpsfakturaer, kan fortsette å behandle posten.
 
-## <a name="create-an-incoming-document-record-by-taking-a-photo"></a>Opprett en innkommende dokumentpost ved å ta et bilde
+## Opprett en innkommende dokumentpost ved å ta et bilde
 
 > [!NOTE]  
 > Fremgangsmåten nedenfor gjelder bare for nettbrett og telefoner med [!INCLUDE[prod_short](includes/prod_short.md)]-klienter.
@@ -39,7 +39,7 @@ Hvis du godkjenner den inngående dokumentposten, merkes det av for **Frigitt** 
 
     En ny innkommende dokumentpost opprettes med bildet vedlagt.
 
-## <a name="attach-an-image-to-an-incoming-document-record-by-taking-a-photo"></a>Legg ved et bilde i en innkommende dokumentpost ved å ta et bilde
+## Legg ved et bilde i en innkommende dokumentpost ved å ta et bilde
 
 > [!NOTE]  
 > Fremgangsmåten nedenfor gjelder bare for nettbrett og telefoner med [!INCLUDE[prod_short](includes/prod_short.md)]-klienter.
@@ -51,7 +51,7 @@ Hvis du godkjenner den inngående dokumentposten, merkes det av for **Frigitt** 
 
     Bildet legges ved den innkommende dokumentposten.
 
-## <a name="create-an-incoming-document-record-manually"></a>Opprett en innkommende dokumentpost manuelt
+## Opprett en innkommende dokumentpost manuelt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Innkommende dokumenter**, og velg deretter den relaterte koblingen.
 2. Velg **Ny**, og velg deretter handlingen **Opprett fra fil**.  
@@ -65,9 +65,7 @@ Hvis du godkjenner den inngående dokumentposten, merkes det av for **Frigitt** 
     2. På siden **Sett inn fil** drar du den valgte filen som representerer det innkommende dokumentet, eller velger **klikk her for å bla gjennom** for å finne og åpne filen.
     3. Fyll ut feltene etter behov på siden **Inngående dokument**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/incoming-documents-dynamics-365-business-central/)
-
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bruk OCR til å gjøre PDF- og bildefiler om til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md)
 [Opprett innkommende dokumentposter direkte fra dokumenter og enheter](across-how-connect-disconnect-income-document-records.md)

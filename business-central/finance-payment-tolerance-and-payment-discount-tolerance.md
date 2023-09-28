@@ -275,8 +275,6 @@ Vanlige utligningsregler
 
 (2) Hvis betalinger faller innenfor disse områdene, kan alle utligningsposter lukkes, selv med toleranse.
 
-## Se relatert [Microsoft-opplæring](/training/modules/enter-payments-dynamics-365-business-central/)
-
 ## Se også
 
 [Finans](finance.md)  

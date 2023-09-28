@@ -27,7 +27,7 @@ Du kan også tilordne vareattributter til varekategorier, som deretter brukes p�
 3. Fyll ut feltene etter behov på siden **Vareattributt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
-> Hvis du velger **Alternativ** i **Type**-feltet, kan du velge handlingen **Verdier for vareattributt** for å opprette verdier for vareattributtet. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du verdier for vareattributter av typen Alternativ](inventory-how-work-item-attributes.md#to-create-values-for-item-attributes-of-type-option).  
+> Hvis du velger **Alternativ** i **Type**-feltet, kan du velge handlingen **Verdier for vareattributt** for å opprette verdier for vareattributtet. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du verdier for vareattributter av typen Alternativ](inventory-how-work-item-attributes.md#create-values-for-item-attributes-of-type-option).  
 
 ## Opprett verdier for vareattributter av typen Alternativ
 
@@ -40,9 +40,9 @@ Du kan også tilordne vareattributter til varekategorier, som deretter brukes p�
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. På siden **Varer** velger du vareattributtet du vil tilordne vareattributter til, og deretter velger du handlingen **Attributter**.
 3. På siden **Verdier for vareattributt** velger du handlingen **Ny**.
-4. I **Attributt**-feltet velger du oppslagsknappen og velger et eksisterende vareattributt. Du kan også velge **Ny**-handlingen for å opprette et nytt vareattributt først, som forklart under [Slik oppretter du vareattributter](inventory-how-work-item-attributes.md#to-create-item-attributes).
+4. I **Attributt**-feltet velger du oppslagsknappen og velger et eksisterende vareattributt. Du kan også velge **Ny**-handlingen for å opprette et nytt vareattributt først, som forklart under [Slik oppretter du vareattributter](inventory-how-work-item-attributes.md#create-item-attributes).
 5. I **Verdi**-feltet angir du vareattributtverdien, for eksempel "2010" for attributtet **Modellår**.
-6. For vareattributter av typen **Alternativ** velger du oppslagsknappen i **Verdi**-feltet og velger en verdi for vareattributtet. Du kan også velge **Ny**-handlingen for å opprette en ny vareattributtverdi først, som forklart under [Slik oppretter du verdier for vareattributter av typen Alternativ](inventory-how-work-item-attributes.md#to-assign-item-attributes-to-items).
+6. For vareattributter av typen **Alternativ** velger du oppslagsknappen i **Verdi**-feltet og velger en verdi for vareattributtet. Du kan også velge **Ny**-handlingen for å opprette en ny vareattributtverdi først, som forklart under [Slik oppretter du verdier for vareattributter av typen Alternativ](inventory-how-work-item-attributes.md#assign-item-attributes-to-items).
 7. Gjenta trinn 4 til 6 for alle vareattributter du vil tilordne varen.
 
 ## Tildel vareattributter til varekategorier
@@ -50,7 +50,7 @@ Du kan også tilordne vareattributter til varekategorier, som deretter brukes p�
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varekategorier** og velg den relaterte koblingen.
 2. På siden **Varekategorier** velger du varekategorien du vil tilordne vareattributter til, og deretter velger du handlingen **Rediger**.
 3. På siden **Varekategorikort** på **Attributter**-hurtigfanen velger du handlingen **Ny**.
-4. I **Attributt**-feltet velger du oppslagsknappen og velger et eksisterende vareattributt. Du kan også velge **Ny**-handlingen for å opprette et nytt vareattributt først, som forklart under [Slik oppretter du vareattributter](inventory-how-work-item-attributes.md#to-create-item-attributes).
+4. I **Attributt**-feltet velger du oppslagsknappen og velger et eksisterende vareattributt. Du kan også velge **Ny**-handlingen for å opprette et nytt vareattributt først, som forklart under [Slik oppretter du vareattributter](inventory-how-work-item-attributes.md#create-item-attributes).
 5. I **Standardverdi**-feltet velger du oppslagsknappen og velger en verdi for vareattributtet.
 6. Gjenta trinn 4 og 5 for alle vareattributter du vil tilordne varekategorien.
 
@@ -75,12 +75,10 @@ Du kan også tilordne vareattributter til varekategorier, som deretter brukes p�
 
 Varene på siden **Varer** er filtrert etter de angitte verdiene for vareattributt.
 
-## Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Se også
 
-[Kategorisere varer](inventory-how-categorize-items.md)  
-[Registrere nye varer](inventory-how-register-new-items.md)  
+[Kategoriser varer](inventory-how-categorize-items.md)  
+[Registrer nye varer](inventory-how-register-new-items.md)  
 [Lager](inventory-manage-inventory.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

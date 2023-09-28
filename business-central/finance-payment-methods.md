@@ -37,12 +37,10 @@ Du kan eventuelt legge til betalingsbetingelser til betalingsmåten. Hvis du vil
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kunde** eller **Leverandør** og velg den relaterte koblingen.
 2. I **Betalingsmåte - kode**-feltet velger du metoden som skal brukes som standard for kunden eller leverandøren.
 
-## Se relatert [Microsoft-opplæring](/training/modules/cash-management-dynamics-365-business-central/)
-
 ## Se også
 
-[Registrere nye kunder](sales-how-register-new-customers.md)  
-[Definer betalingsbetingelser](finance-payment-terms.md)  
+[Registrer nye kunder](sales-how-register-new-customers.md)  
+[Konfigurer betalingsbetingelser](finance-payment-terms.md)  
 [Finans](finance.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

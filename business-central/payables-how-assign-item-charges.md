@@ -95,13 +95,11 @@ Hvis du vil håndtere varekostnaden for delvis mottak, angir du **0** i feltet *
 
 Når du er klar til å håndtere varen som mangler, oppdaterer du feltet **Antall som skal håndteres** og bokfører bestillingen.
 
-## Se relatert [Microsoft-opplæring](/training/modules/post-purchase-item-charges-dynamics-365-business-central/)
-
 ## Se også
 
 [Administrere skyldige beløp](payables-manage-payables.md)  
-[Registrere kjøp](purchasing-how-record-purchases.md)  
-[Fakturere salg](sales-how-invoice-sales.md)  
+[Registrer kjøp](purchasing-how-record-purchases.md)  
+[Fakturer salg](sales-how-invoice-sales.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

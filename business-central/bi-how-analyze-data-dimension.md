@@ -73,8 +73,6 @@ Bruk følgende fremgangsmåte til å oppdatere en analysevisning fra siden **Ana
 > [!NOTE]  
 > Hvis du vil oppdatere noen av eller alle analysevisningene samtidig, må du bruke kjørselen **Oppdater analysevisninger**.  
 
-## Se relatert opplæring på [Microsoft Learn](/learn/modules/dimensions-financial-reports-dynamics-365-business-central/index).
-
 ## Se også
 
 [Finansforretningsanalyse](bi.md)  

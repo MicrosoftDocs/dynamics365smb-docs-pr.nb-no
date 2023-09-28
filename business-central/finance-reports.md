@@ -24,13 +24,11 @@ Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilst
 
 * [Analyser faktiske beløp i forhold til budsjetterte beløp](bi-how-analyze-actual-versus-budget.md)  
 * [Klargjøre Financial Reporting med finansdata og kontokategorier](bi-how-work-account-schedule.md)  
-* [Konfigurere og publisere KPI-webtjenester basert på finansrapporter](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
+* [Konfigurer og publiser KPI-nettjenester basert på finansrapporter](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)  
 * [Analyser data etter dimensjoner](bi-how-analyze-data-dimension.md)  
 * [Opprette analyserapporter](bi-how-create-analysis-views-reports.md)  
 * [Opprett rapporter med XBRL](bi-create-reports-with-xbrl.md)  
 * [Administrere databasetilgangsformål](admin-data-access-intent.md)  
-
-## Se relatert [Microsoft-opplæring](/training/paths/create-financial-reports-dynamics-365-business-central/)
 
 ## Se også
 

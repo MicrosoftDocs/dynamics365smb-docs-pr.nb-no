@@ -54,8 +54,6 @@ Interne og delegerte administratorer har tilgang til [!INCLUDE [prod_short](incl
 |Behandle brukerøkter, inkludert avbryte en økt, hvis brukeren er blokkert.|[Administrer økter](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-sessions)|
 |Konfigurer leieren til å sende telemetridata til Azure Application Insights for bedre analyse og feilsøking.|[Aktiver sending av telemetri til Application Insights](/dynamics365/business-central/dev-itpro/administration/telemetry-enable-application-insights)|
 
-## Se relatert [Microsoft-opplæring](/training/paths/deploy-configure-dynamics-365-business-central/)
-
 ## Se også
 
 [Forretningsfunksjoner](across-business-functionality.md)  

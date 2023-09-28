@@ -47,8 +47,6 @@ Følgende video dekker det grunnleggende ved aktiva:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Se relatert [Microsoft-opplæring](/training/paths/manage-fixed-assets-transactions/)
-
 ## Se også
 
 [Definer aktiva](fa-setup.md)  

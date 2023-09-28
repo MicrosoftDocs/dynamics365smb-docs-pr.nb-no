@@ -35,7 +35,7 @@ Et tredje scenario er å behandle data i Shopify, men importere disse varene i b
 |**Fra Shopify**| Velg dette alternativet hvis du har tenkt å importere produkter fra Shopify samtidig, enten manuelt ved hjelp av **Synkroniser produkt**-handlingen eller med jobbkøen for regelmessige oppdateringer. Finn ut mer i delen [Importer varer fra Shopify](synchronize-items.md#import-items-from-shopify).|
 
 > [!NOTE]
-> Endring av **Synkroniseringselement** fra **Fra Shopify** til **Til Shopify** får ikke virkning med mindre du aktiverer **Kan oppdatere Shopify-produkter**.
+> Endring av **Synkroniseringselement** fra **Fra Shopify** til **Til Shopify** får ikke virkning med mindre du aktiverer **Kan oppdatere Shopify-produkter**. 
 
 ## Importer varer fra Shopify
 
@@ -93,7 +93,7 @@ Du administrerer prosessen med å eksportere varer ved å bruke følgende innsti
 |**SKU-skilletegn**|Definer et skilletegn for alternativet **Varenr. + variantkode**.|
 |**Lager sporet**| Velg hvordan systemet skal fylle ut feltet **Spor lager** for produkter som er eksportert til Shopify. Du kan oppdatere tilgjengelighetsinformasjon fra [!INCLUDE[prod_short](../includes/prod_short.md)] for produkter i Shopify der spor lager er aktivert. Finn ut mer i delen [Lager](synchronize-items.md#sync-inventory-to-shopify).|
 |**Standard lagerpolicy**|Velg *Avslå* for å unngå negativ beholdning på Shopify-siden.|
-|**Kan oppdatere Shopify-produkter**|Definer dette feltet hvis [!INCLUDE[prod_short](../includes/prod_short.md)] kan bare opprette varer eller kan oppdatere varer også. Velg dette alternativet hvis du planlegger å oppdatere produkter manuelt ved å bruke **Synkroniser produkt**-handlingen eller med jobbkøen for regelmessige oppdateringer etter første synkronisering er utløst av **Legg til vare**-handlingen. Husk å velge **Til Shopify** i feltet **Varesynkronisering**.<br>**Kan oppdatere Shopify-produkter** har ingen innvirkning på synkronisering av priser, bilder eller lagernivåer, som konfigureres av uavhengige kontroller.<br>Hvis **Kan oppdatere Shopify-produkter** er aktivert, oppdateres følgende felt på Shopify-siden for produktet, og om nødvendig variantnivået: **SKU**, **Strekkode**, **Vekt**. **Tittel**, **Produkttype**, **Leverandør**, **Beskrivelse** av produktet oppdateres også hvis de eksporterte verdiene ikke er tomme. Hvis du vil ha en beskrivelse av dette, må du aktivere en hvilken som helst av vekslebryterne og attributtene **Synkroniser utvidet tekst for vare**, **Synkroniser markedsføringstekst for vare**, **Synkroniser vareattributter**, utvidet tekst eller markedsføringstekst må ha verdier. Hvis produkt bruker varianter, blir varianten lagt til eller fjernet etter behov.|
+|**Kan oppdatere Shopify-produkter**|Definer dette feltet hvis [!INCLUDE[prod_short](../includes/prod_short.md)] kan bare opprette varer eller kan oppdatere varer også. Velg dette alternativet hvis du planlegger å oppdatere produkter manuelt ved å bruke **Synkroniser produkt**-handlingen eller med jobbkøen for regelmessige oppdateringer etter første synkronisering er utløst av **Legg til vare**-handlingen. Husk å velge **Til Shopify** i feltet **Varesynkronisering**.<br>**Kan oppdatere Shopify-produkter** har ingen innvirkning på synkronisering av priser, bilder eller lagernivåer, som konfigureres av uavhengige kontroller.<br>Hvis **Kan oppdatere Shopify-produkter** er aktivert, oppdateres følgende felt på Shopify-siden for produktet, og om nødvendig variantnivået: **SKU**, **Strekkode**, **Vekt**. **Tittel**, **Produkttype**, **Leverandør**, **Beskrivelse** av produktet oppdateres også hvis de eksporterte verdiene ikke er tomme. Hvis du vil ha en beskrivelse av dette, må du aktivere en hvilken som helst av vekslebryterne og attributtene **Synkroniser utvidet tekst for vare**, **Synkroniser markedsføringstekst for vare**, **Synkroniser vareattributter**, utvidet tekst eller markedsføringstekst må ha verdier. Hvis produkt bruker varianter, blir varianten lagt til eller fjernet etter behov. <br>Vær oppmerksom på at hvis produktet på Shopify er konfigurert til å bruke variantmatrise som kombinerer to eller flere alternativer, kan ikke Shopify-koblingen opprette variant for produktet. I [!INCLUDE[prod_short](../includes/prod_short.md)] er det ingen måte å definere alternativmatrise på, det er derfor koblingen bruker **variantkoden** som det eneste alternativet. Shopify forventer imidlertid flere alternativer og nekter å opprette variant hvis informasjon om andre alternativer mangler. |
 
 ### Oversikt over felttildeling
 
@@ -101,6 +101,7 @@ Du administrerer prosessen med å eksportere varer ved å bruke følgende innsti
 |------|-----------------|-----------------|
 |Status|I henhold til feltet **Status for opprettede produkter** på **Shopify-butikkortet**. Finn ut mer i delen [Ad hoc-oppdateringer av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Ikke i bruk.|
 |Tittel | **Beskrivelse**. Hvis språkkoden er definert og en tilsvarende vareoversettelse eksisterer, blir vareoversettelse brukt i stedet for beskrivelse.|**Beskrivelse**|
+|Varianttittel | **Variantkode**.|**Beskrivelse** av variant|
 |Description|Kombinerer utvidede tekster, markedsføringstekst og attributter hvis du aktiverte tilsvarende vekslebrytere på Shopify-butikkortet. Overholder språkkode.|Ikke i bruk.|
 |SEO-sidetittel|Fast verdi: tom. Finn ut mer i delen [Ad hoc-oppdateringer av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Ikke i bruk.|
 |SEO-metabeskrivelse|Fast verdi: tom. Finn ut mer i delen [Ad hoc-oppdateringer av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Ikke i bruk.|
@@ -147,6 +148,10 @@ De resulterende varene opprettes automatisk i Shopify med priser. Avhengig av hv
 Du kan også bruke handlingen **Synkroniser produkter** på siden **Shopify-produkter** eller søk etter den satsvise jobben **Synkroniser produkter**.
 
 Du kan planlegge at oppgaven skal utføres på en automatisk måte. Finn ut mer under [Planlegg gjentakende oppgaver](background.md#to-schedule-recurring-tasks).
+
+### Nettadresse og nettadresse for forhåndsvisning
+
+Varen som legges til i Shopify eller importeres fra Shopify, kan ha **nettadressen** eller **nettadressen for forhåndsvisning** fylt ut. Feltet **Nettadresse** er tomt hvis produktet ikke er publisert i nettbutikken, for eksempel fordi statusen er utkast. **Nettadressen** er tom hvis butikken er passordbeskyttet, for eksempel fordi dette er utviklingsbutikk. I de fleste tilfeller kan du bruke **Nettadresse for forhåndsvisning** til å sjekke hvordan produktet vil se ut når det er publisert.
 
 ### Ad hoc-oppdateringer av Shopify-produkter
 
@@ -204,7 +209,7 @@ Du administrerer prosessen med å eksportere priser ved å bruke følgende innst
 |**Tillat linjerabatt**|Angir om du tillater en linjerabatt ved beregning av priser for Shopify. Denne innstillingen gjelder bare priser for varen. Prisene for kundeprisgruppen har sin egen vekslebryter på linjer.|
 |**Priser inkl. mva.**|Angir om prisberegninger for Shopify inkluderer mva. Finn ut mer under [Definer avgifter](setup-taxes.md).|
 |**Mva-bokføringsgruppe - firma**|Angir hvilken mva-firmabokføringsgruppe som brukes til å beregne prisene i Shopify. Dette skal være gruppen du bruker for innenlandske kunder. Finn ut mer under [Definer avgifter](setup-taxes.md).|
-|**Valutakode**|Angi en valutakode bare hvis nettbutikken bruker en annen valuta enn lokal valuta (LV). Den angitte valutaen må ha valutakurser konfigurert. Hvis nettbutikken bruker samme valuta som [!INCLUDEprod_short], lar du feltet stå tomt.|
+|**Valutakode**|Angi en valutakode bare hvis nettbutikken bruker en annen valuta enn lokal valuta (LV). Den angitte valutaen må ha valutakurser konfigurert. Hvis nettbutikken bruker samme valuta som [!INCLUDE[prod_short](../includes/prod_short.md)], lar du feltet stå tomt.|
 
 Du kan eksportere priser for synkroniserte varer på de to måtene som er beskrevet nedenfor.
 

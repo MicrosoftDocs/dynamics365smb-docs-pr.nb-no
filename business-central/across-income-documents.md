@@ -55,9 +55,7 @@ Prosessen for inngående dokumenter kan bestå av følgende hovedaktiviteter:
 | Bruk for eksempel en OCR-tjeneste til å gjøre om PDF- og bildefiler til elektroniske dokumenter som kan konverteres til kjøpsfakturaer i [!INCLUDE[prod_short](includes/prod_short.md)]. Lære opp OCR-tjenesten for å unngå feil i neste gang den behandler liknende data. |[Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md) |
 | Tilknytte eller fjerne inngående dokumentposter for alle ikke-bokførte salgs- eller kjøpsdokumenter og til en hvilken som helst kunde, leverandør eller finanspost fra dokumentet eller posten. |[Opprette innkommende dokumentposter direkte fra dokumenter og poster](across-how-connect-disconnect-income-document-records.md) |
 | Fra sidene **Kontoplan** og **Finansposter** bruker du søkefunksjonen til å finne finansposter for bokførte dokumenter som ikke har innkommende dokumentposter, og deretter sentralt koble eksisterende poster eller opprette nye med vedlagte dokumentfiler. |[Finne bokførte dokumenter uten innkommende dokumentposter](across-how-find-posted-documents-without-income-document-records.md) |
-| Få en bedre oversikt ved å sette inngående dokumentposter til *Behandlet* for å fjerne dem fra standardvisningen. |[Håndter mange inngående dokumentposter](across-how-manage-many-income-document-records.md) |
-
-## Se relatert [Microsoft-opplæring](/training/modules/incoming-documents-dynamics-365-business-central/)
+| Få en bedre oversikt ved å sette inngående dokumentposter til *Behandlet* for å fjerne dem fra standardvisningen. |[Administrer mange inngående dokumentposter](across-how-manage-many-income-document-records.md) |
 
 ## Se også
 

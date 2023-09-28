@@ -70,8 +70,6 @@ Funksjonen **Fortell hva du vil gjøre** søker ikke etter data, for eksempel ku
 
 Vi har vist Fortell meg for interessenter, lagt merke til spørsmål fra dem og gjort merknadene våre om til en liste over vanlige spørsmål. Hvis du er interessert, se [Vanlige spørsmål om Fortell meg](ui-search-faq.md).
 
-## Se relatert [Microsoft-opplæring](/training/modules/user-interface-dynamics-365-business-central/index)
-
 ## Se også
 
 [Arbeid med Business Central](ui-work-product.md)  

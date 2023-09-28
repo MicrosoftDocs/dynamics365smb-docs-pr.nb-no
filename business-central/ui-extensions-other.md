@@ -16,8 +16,6 @@ På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du få utvid
 
 Listen over utvidelser fra andre selskaper, vokser hver måned. Så følg med på [AppSource.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2081646), og få apper som kan hjelpe deg med arbeidet i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Se relatert [Microsoft-opplæring](/training/modules/customize-dynamics-365-business-central/)
-
 ## Se også
 
 [Tilpass [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  

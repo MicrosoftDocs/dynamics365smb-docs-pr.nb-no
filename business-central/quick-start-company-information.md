@@ -27,8 +27,6 @@ Du kan angi alle relevante data på siden **Selskapsinformasjon** når du oppret
 
 Når du er ferdig med å fylle ut informasjonen, kan du lukke siden.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/create-new-companies-dynamics-365-business-central/)
-
 ## Se også  
 
 [Oversikt over selskapsinformasjon](admin-company-information.md)  

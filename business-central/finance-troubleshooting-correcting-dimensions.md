@@ -117,12 +117,10 @@ Hvis en korrigering ikke blir fullført, vises det en advarsel på korrigeringsk
 
 Når du har korrigert dimensjoner, vil dataene for kostnadsregnskap være usynkronisert. Kostnadsregnskap bruker dimensjoner til å aggregere beløp for kostsentre og kostobjekter, og til å kjøre kostnadsfordelinger. Når du endrer dimensjoner for finansposter, betyr det sannsynligvis at du må kjøre kostnadsregnskapsmodellene på nytt. Enten du bare trenger å slette noen få kostposter og kjøre tildelinger på nytt, eller hvis du skal slette alt og kjøre alle modellene på nytt, er avhengig av hvilke data som er oppdatert og hvordan dine kostnadsregnskapsfunksjoner er definert. Du må manuelt identifisere hvor dimensjonskorrigeringer vil påvirke kostnadsregnskap og hvor nødvendige oppdateringer er nødvendig. [!INCLUDE[prod_short](includes/prod_short.md)] har for øyeblikket ikke noen automatisert måte å gjøre dette på.
 
-## Se relatert [Microsoft-opplæring](/training/modules/dimensions-dynamics-365-business-central/)
-
 ## Se også
 
 [Arbeid med dimensjoner](finance-dimensions.md)  
-[Analysere data etter dimensjoner](bi-how-analyze-data-dimension.md)  
+[Analyser data etter dimensjoner](bi-how-analyze-data-dimension.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

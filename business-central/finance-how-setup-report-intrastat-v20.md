@@ -170,8 +170,6 @@ I mange land/områder lager toll- og skattemyndighetene 8-sifrede varekoder for 
 
 På siden **Tariffnummer** kan du legge til alle kodene du bruker. Du må skrive inn kodene på varekortet før du begynner å bokføre. Når du har definert kodene, setter du dem inn i **Tariffnr.** -feltet på varekortet. Du må også fylle ut feltet **Nettovekt** på varekortet.
 
-## Se relatert opplæring på [Microsoft Learn](/learn/modules/process-intrastat-dynamics-365-business-central/index).
-
 ## Se også
 
 [Økonomistyring](finance.md)

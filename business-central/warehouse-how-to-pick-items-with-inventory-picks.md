@@ -3,7 +3,7 @@ title: Plukke varer med lagerplukk
 description: Finn ut hvordan du bruker lagerplukk til å registrere og bokføre plukk- og leveringsinformasjon for kildedokumenter.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: how-to
 ms.date: 01/25/2023
@@ -119,8 +119,6 @@ I scenarioer der en del av antallet monteres og en annen del plukkes, opprettes 
 
 > [!NOTE]  
 > Hvis varer monteres til ordre, opprett lagerplukkingen for den koblede ordren en lagerflytting for alle monteringskomponentene.  
-
-## Se relatert [Microsoft-opplæring](/training/paths/pick-ship-items-business-central/)
 
 ## Se også
 

@@ -62,12 +62,10 @@ Du kan slette individuelle sidetilpasninger som du har gjort for en profil. Tilp
 
 Oppsettet på de valgte sidene justeres til endringene du har gjort.
 
-## Se relatert [Microsoft-opplæring](/training/paths/tailor-roles-design-ui/)
-
 ## Se også
 
-[Tilpasse arbeidsområdet](ui-personalization-user.md)  
-[Administrere profiler](admin-users-profiles-roles.md)  
+[Tilpass arbeidsområdet](ui-personalization-user.md)  
+[Administrer profiler](admin-users-profiles-roles.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
