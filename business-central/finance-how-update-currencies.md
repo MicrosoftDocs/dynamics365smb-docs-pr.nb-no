@@ -8,11 +8,11 @@ ms.search.form: '5, 118'
 ms.date: 03/15/2022
 ms.author: bholtorf
 ---
-# Oppdatere valutakurser
+# <a name="update-currency-exchange-rates"></a>Oppdatere valutakurser
 
 Du kan definere forskjellige valutaer i [!INCLUDE [prod_short](includes/prod_short.md)], for eksempel hvis du handler i andre valutaer enn din lokale valuta. Hvis du vil hjelpe deg med å holde oversikt over endringer i valutakurser, kan du håndtere valutaene manuelt, eller du kan definere en valutakurstjeneste.
 
-## Valutaer
+## <a name="currencies"></a>Valutaer
 
 > [!TIP]  
 > Hvis du ser etter sanntidsinformasjon om utenlandsk valutakurser (FX) eller historiske kurser i [!INCLUDE[prod_short](includes/prod_short.md)], finner du den referert til som valuta. I tillegg til denne artikkelen kan du også se [Definer en tilleggsrapporteringsvaluta](finance-how-setup-additional-currencies.md).
@@ -21,11 +21,11 @@ Du kan definere forskjellige valutaer i [!INCLUDE [prod_short](includes/prod_sho
 
 Du angir valutakodene i **Valutaer**-listen, inkludert tilleggsinformasjon og innstillinger som er nødvendige for hver valutakode. Hvis du vil ha mer informasjon, kan du se [Valutaer](finance-set-up-currencies.md#curr)
 
-### Eksempel på en kundevalutatransaksjon
+### <a name="example-of-a-receivable-currency-transaction"></a>Eksempel på en kundevalutatransaksjon
 
 [!INCLUDE [finance-currencies-example](includes/finance-currencies-example.md)]
 
-## Valutakurser
+## <a name="exchange-rates"></a>Valutakurser
 
 Valutakursene er verktøyet for å beregne den lokale valutaverdien (LV) for hver valutatransaksjon. Siden **Valutakurser** inneholder følgende felter:
 
@@ -54,7 +54,7 @@ Justeringsvalutakursen eller den tilhørende valutakursen blir brukt til å oppd
 >
 > `Currency Amount = Amount / Adjustment Exch. Rate Amount * Relational Adjmt Exch. Rate Amt`
 
-## Justere valutakurser
+## <a name="adjusting-exchange-rates"></a>Justere valutakurser
 
 Ettersom valutakursene varierer konstant, må tilleggsvalutaangivelser i systemet justeres jevnlig. Hvis disse justeringene ikke utføres, kan beløp som er regnet om fra utenlandske valutaer (eller tilleggsvalutaer) og bokført i NOK i Finans, være villedende. I tillegg må daglige poster som bokføres før en daglig valutakurs angis i programmet, oppdateres etter at informasjonen om den daglige valutakursen er angitt.
 
@@ -69,28 +69,28 @@ Du kan forhåndsvise effekten som en justering vil ha ved bokføring, før du fa
 - **Etter finanskonto**: Finansposter for urealisert agio og disagio vil ha dimensjonsverdier overført fra postens kildeinnstilling for finanskontoens urealisert agio og disagio.
 - **Ingen overføring**: Finansposter for urealisert agio og disagio har ikke dimensjonsverdier.
 
-### Innvirkning på kunder og leverandører
+### <a name="effect-on-customers-and-vendors"></a>Innvirkning på kunder og leverandører
 
 For kunde- og leverandørkonti justerer kjørselen valutaen ved å bruke valutakursen som gjelder på bokføringsdatoen som er angitt i kjørselen. Kjørselen beregner differansene for de enkelte valutabalansene og bokfører beløpene til finanskontoen angitt i feltet **Konto for urealisert agio** eller feltet **Konto for urealisert disagio** på siden **Valuta**. Motposteringer bokføres automatisk på samlekontoen i Finans.
 
 Kjørselen behandler aller åpne kundeposter og leverandørposter. Hvis det finnes en valutadifferanse for en post, oppretter kjørselen en ny detaljert kunde- eller leverandørpost som gjenspeiler de justerte beløpene på kunde- eller leverandørposten.
 
-#### Dimensjoner på kunde- og leverandørposter
+#### <a name="dimensions-on-customer-and-vendor-ledger-entries"></a>Dimensjoner på kunde- og leverandørposter
 
 Justeringspostene tilordnes dimensjonene fra kunde- eller leverandørpostene, og justeringene bokføres av dimensjonsverdiene.
 
-### Innvirkning på bankkonti
+### <a name="effect-on-bank-accounts"></a>Innvirkning på bankkonti
 
 For bankkonti justerer kjørselen valutaen med valutakursen som gjelder på bokføringsdatoen som er angitt i kjørselen. Kjørselen beregner differansene for de enkelte bankkontiene som har en valutakode, og bokfører beløpene til finanskontoen som er angitt i feltet **Kto. for realisert agio** eller feltet **Konto for realisert disagio** på siden **Valuta**. Motposter bokføres automatisk på finanskontiene som er angitt i bankbokføringsgruppene. Kjørselen beregner én post per valuta, per bokføringsgruppe.
 
-#### Dimensjoner på bankkontoposter
+#### <a name="dimensions-on-bank-account-entries"></a>Dimensjoner på bankkontoposter
 
 Justeringspostene for bankkontoens finanskonto, og for tap/vinning-kontoen tilordnes bankkontoens standarddimensjon.
 
-### Innvirkning på finanskonti
+### <a name="effect-on-gl-accounts"></a>Innvirkning på finanskonti
 Hvis du bokfører i en tilleggsrapporteringsvaluta, kan du få kjørselen til å opprette nye finansposter for valutajusteringer mellom LV og tilleggsrapporteringsvalutaen. Kjørselen beregner forskjellene for hver finanspost og justerer finansposten i henhold til innholdet i feltet **Valutakursjustering** for hver finanskonto.
 
-##### Dimensjoner på finanskontoposter
+##### <a name="dimensions-on-gl-account-entries"></a>Dimensjoner på finanskontoposter
 Justeringspostene tilordnes standarddimensjonene fra kontiene de bokføres på.
 
 > [!Important]
@@ -98,7 +98,7 @@ Justeringspostene tilordnes standarddimensjonene fra kontiene de bokføres på.
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE3Q24s?rel=0]
 
-## Slik konfigurerer du en valutakurstjeneste
+## <a name="to-set-up-a-currency-exchange-rate-service"></a>Slik konfigurerer du en valutakurstjeneste
 Du kan bruke en ekstern tjeneste for å holde valutakurser oppdatert, for eksempel FloatRates. 
 
 > [!NOTE]
@@ -116,13 +116,13 @@ Du kan bruke en ekstern tjeneste for å holde valutakurser oppdatert, for eksemp
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4A1jy?rel=0]
 
-## Oppdatere valutakurser via en tjeneste
+## <a name="to-update-currency-exchange-rates-through-a-service"></a>Oppdatere valutakurser via en tjeneste
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Valutaer** og velg den relaterte koblingen.
 2. Velg **Oppdater valutakurser**.
 
 Verdien i **Valutakurs**-feltet på **Valutaer**-siden oppdateres med den nyeste valutakursen.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Valutaer i Business Central](finance-currencies.md)  
 [Definer valutaer](finance-set-up-currencies.md)  
