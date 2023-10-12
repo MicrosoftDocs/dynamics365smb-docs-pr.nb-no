@@ -59,8 +59,6 @@ Diagrammet nedenfor viser den grunnleggende arbeidsflyten for brukere når du ko
 6. Brukeren oppretter en rapport i Power BI Desktop.
 7. Brukeren publiserer rapporten til Power BI-tjenesten. Rapportene blir deretter tilgjengelige for valg i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Se relatert [Microsoft-opplæring](/training/modules/configure-powerbi-excel-dynamics-365-business-central/index)
-
 ## Se også
 
 [Business Central og Power BI](admin-powerbi.md)  

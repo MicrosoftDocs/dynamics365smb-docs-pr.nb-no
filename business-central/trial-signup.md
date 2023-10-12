@@ -38,11 +38,9 @@ Du kan også kontakte [[!INCLUDE[prod_short](includes/prod_short.md)]-salgsteame
 
 Hvis du vil ha mer informasjon om hva du kan gjøre med [!INCLUDE [prod_short](includes/prod_short.md)], kan du se [Bli klar til å gjøre forretninger](ui-get-ready-business.md) og [Forretningsfunksjoner](across-business-functionality.md).  
 
-## Se relatert [Microsoft-opplæring](/training/modules/trial-dynamics-365-business-central/)
-
 ## Tilleggsressurser
 
-- [Gå til videobiblioteket vårt](across-videos.md)  
+- [Besøk videobiblioteket](across-videos.md)  
 - [Vanlige spørsmål om prøveversjon](trial-faq.md)  
 - [Feilsøke registrering for Self-Service](ui-troubleshoot-self-signup.md)  
 - [Tilpasse arbeidsområdet](ui-personalization-user.md)  

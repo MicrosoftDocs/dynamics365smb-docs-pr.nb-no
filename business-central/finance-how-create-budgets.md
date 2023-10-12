@@ -53,8 +53,6 @@ Du angir 1 200 000 på overskriftslinjen, eksporterer budsjettet til Excel og 
 
 Lønnsavdelingen fordeler beløpet på tre bokføringskontiene. Når du importerer tilbake til finansbudsjettet, fylles de tre kontiene ut med de nye Excel-dataene, summerer til LV 1 200 000, og overskriftslinjen er tom.
 
-## Se relatert [Microsoft-opplæring](/training/modules/budgets-exchange-rates-dynamics-365-business-central/index)
-
 ## Se også
 
 [Eksporter forretningsdataene til Excel](about-export-data.md)  

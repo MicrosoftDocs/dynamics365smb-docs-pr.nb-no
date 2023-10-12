@@ -8,14 +8,15 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.reviewer: bholtorf
 ms.search.form: 461
-ms.date: 09/23/2021
+ms.date: 09/19/2023
 ms.author: bholtorf
 ---
-# <a name="schedule-jobs-for-adjusting-and-reconciling-inventory-cost-with-the-general-ledger"></a>Planlegg jobber for justering og avstemming av lagerkostnad med Finans
+# Planlegg jobber for justering og avstemming av lagerkostnad
 
-For å optimalisere opplevelsen er automatisk kostjustering og bokføring i finans aktivert som standard. Ettersom dataene akkumuleres over tid, kan det imidlertid påvirke ytelsen. For å redusere belastningen på programmet er det ofte nyttig å bruke oppføringer i jobbkø til å flytte oppgaver slik at de kjører i bakgrunnen.
+Planlegg jobber for automatisk kostnadsjustering med økonomimodul, bokføring i finans er aktivert som standard.
+Ettersom dataene akkumuleres over tid, kan det imidlertid påvirke ytelsen. For å redusere belastningen på programmet er det ofte nyttig å bruke oppføringer i jobbkø til å flytte oppgaver slik at de kjører i bakgrunnen.
 
-## <a name="move-the-task-of-adjusting-item-costs-to-the-background-with-the-help-of-assisted-setup"></a>Flytt oppgaven for å justere varekostnader til bakgrunnen ved hjelp av assistert oppsett
+## Flytt oppgaven for å justere varekostnader til bakgrunnen ved hjelp av assistert oppsett
 
 Det kan være vanskelig å opprette postene for jobbkø, selv for en erfaren konsulent, så vi har en veiledning for assistert oppsett for å gjøre prosessen enklere for justering av varekostnader.  
 
@@ -29,7 +30,7 @@ Det kan være vanskelig å opprette postene for jobbkø, selv for en erfaren kon
 
 5. Velg feltet **Vis jobbkøposter når fullført** for å gå gjennom og justere innstillingene. Hvis du vil ha mer informasjon, kan du se [Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).  
 
-## <a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a>Slik oppretter du en jobbkøpost for justering og avstemming av lagerkost manuelt
+## Slik oppretter du en jobbkøpost for justering og avstemming av lagerkost manuelt
 
 Du kan også opprette jobbkøposter manuelt. Følgende fremgangsmåte viser hvordan du angir at kjørselen **Juster kostverdi – vareposter** skal kjøre daglig automatisk, men den samme fremgangsmåten gjelder kjørselen **Bokfør lagerkost i finans**.  
 
@@ -48,10 +49,10 @@ Hvis du vil planlegge en oppgave for avstemming av lager med finans, velger du C
 > [!TIP]
 > Du unngår låsing ved ikke å planlegge oppgaver for kjørselen **Juster kostverdi – vareposter**, codeunit **Bokfør lagerkost til finans** og oppgaver for bokføring av salgs-eller kjøpstransaksjoner samtidig. Kontroller også at de bruker samme jobbkøkategori.
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Justere varekost](inventory-how-adjust-item-costs.md)  
-[Avstem lagerkost med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
+[Juster varekost](inventory-how-adjust-item-costs.md)  
+[Avstem lagerkostnader med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
 [Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md)  
 [Finne sider og informasjon med Fortell meg](ui-search.md)  
 [Arbeid med [!INCLUDE[d365fin](includes/d365fin_md.md)]](ui-work-product.md)  

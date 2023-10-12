@@ -43,8 +43,6 @@ På siden **Prosjektkort** kan du nå se en oversikt over totalt budsjetterte ko
 
 Hvis du vil ha informasjon om registrering av budsjetterte sammenlignet med faktiske prosjektpriser og kostnader, kan du se [Registrere forbruk for prosjekter](projects-how-record-job-usage.md).
 
-## Se relatert [Microsoft-opplæring](/training/modules/set-up-job-planning-lines/)
-
 ## Se også
 
 [Prosjektstyring](projects-manage-projects.md)  

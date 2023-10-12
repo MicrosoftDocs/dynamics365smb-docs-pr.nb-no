@@ -9,9 +9,11 @@ ms.topic: conceptual
 ms.date: 11/25/2022
 ms.custom: bap-template
 ---
-# <a name="outbound-warehouse-processes"></a>Utgående lagerprosesser
+# Utgående lagerprosesser
 
-Utgående prosesser i lagre starter når du frigir et kildedokument for å ta varene ut av en lagerlokasjon. Det kan for eksempel være å sende varene et eller annet sted eller flytte dem til en annen selskapslokasjon. I prinsippet består leveringsprosessen av utgående ordrer av to aktiviteter:
+Utgående prosesser i lagre starter når du frigir et kildedokument for å ta varene ut av en lagerlokasjon. Det kan for eksempel være å sende varene et eller annet sted eller flytte dem til en annen selskapslokasjon. Du kan sende fysiske varer og varer som ikke er lagervarer. Hvis du vil vite mer om mottak av ikke-lagervarer, kan du gå til [Bokføre ikke-lagervarer](#post-non-inventory-items). 
+
+I prinsippet består leveringsprosessen av utgående ordrer av to aktiviteter:
 
 * Plukk varer fra hyller.
 * Leveringsvarer fra lageret.
@@ -48,7 +50,7 @@ I metode A, B og C kombineres plukk- og leveringsaktiviteter i ett trinn når et
 > * Lagerplukk som brukes i metode B sammen med informasjon om plukkinformasjon, bokfører også leveringen av kildedokumentet.
 > * Lagerplukk som brukes i metode D, kan ikke bokføres, og den registrerer bare plukk. Registreringsprosessen gjør varer tilgjengelige for lagerlevering, men bokfører ikke leveringen. I utgående flyt krever lagerplukk en lagerlevering.
 
-## <a name="no-dedicated-warehouse-activity"></a>Ingen dedikert lageraktivitet
+## Ingen dedikert lageraktivitet
 
 Følgende artikler inneholder informasjon om hvordan du behandler mottak for kildedokumenter hvis du ikke har egne lageraktiviteter.
 
@@ -57,58 +59,62 @@ Følgende artikler inneholder informasjon om hvordan du behandler mottak for kil
 * [Behandle bestillingsreturer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md)
 * [Opprette serviceordrer](service-how-to-create-service-orders.md)
 
-## <a name="basic-warehouse-configurations"></a>Enkle lageroppsett
+## Enkle lageroppsett
 
 Diagrammet nedenfor illustrerer utgående lagerprosesser for ulike typer dokumenter i enkle lageroppsett. Tallene i diagrammet svarer til trinnene nedenfor diagrammet.  
 
 :::image type="content" source="media/design-details-warehouse-management-outbound-basic-flow.png" alt-text="Viser trinnene i en grunnleggende utgående flyt på et lager.":::
 
-### <a name="1-release-a-source-document"></a>1: Frigi et kildedokument
+### 1: Frigi et kildedokument
 
 Når du bruker handlingen **Frigi** i et kildedokument, for eksempel en ordre eller overføringsordre, er varene i dokumentet klare til å håndteres i lageret. For eksempel plukket og plassert i hyllen som er angitt i dokumentet. Du kan også opprette lagerplukkdokumenter for enkelte ordrelinjene på ordrer med en push-metode, basert på angitte hyller og antall som skal håndteres.  
 
-### <a name="2-create-an-inventory-pick"></a>2: Opprett et lagerplukk
+### 2: Opprett et lagerplukk
 
 På siden **Lagerplukking**  henter lagerarbeideren, i en hent-måte, kildedokumentlinjene. Det kan også hende at lagerplukklinjene allerede er opprettet med en push-metode, av brukeren som er ansvarlig for kildedokumentet.  
 
-### <a name="3-post-an-inventory-pick"></a>3: Bokfør et lagerplukk
+### 3: Bokfør et lagerplukk
 
 På hver linje for varer som er plukket eller flyttet, helt eller delvis, fyller du ut feltet **Antall** og bokfører deretter lagerplukket. Kildedokumenter som er knyttet til lagerplukkingen, bokføres som levert eller forbrukt.  
 
 For vareplukk blir det opprettet negative vareposter og lagerposter, og plukkforespørselen slettes hvis ferdigbehandlet. Eksempel: Feltet **Levert (antall)** i den utgående kildedokumentlinjen oppdateres. Det opprettes et postert leveringsdokument som for eksempel gjenspeiler ordren og de leverte varene.  
 
-## <a name="advanced-warehouse-configurations"></a>Avanserte lageroppsett
+## Avanserte lageroppsett
 
 Diagrammet nedenfor illustrerer utgående lagerprosesser for ulike typer dokumenter i avanserte lageroppsett. Tallene i diagrammet svarer til trinnene nedenfor diagrammet.  
 
 :::image type="content" source="media/design_details_warehouse_management_outbound_advanced_flow.png" alt-text="Viser trinnene i en avansert utgående lagerflyt.":::
 
-### <a name="1-release-a-source-document-1"></a>1: Frigi et kildedokument
+### 1: Frigi et kildedokument
 
 Å frigi et kildedokument i avanserte oppsett gjør det likt for enkle oppsett. Varene blir tilgjengelige for behandling i lageret. De kan for eksempel inkluderes i en levering.  
 
-### <a name="2-create-a-warehouse-shipment"></a>2: Opprett en lagerlevering
+### 2: Opprett en lagerlevering
 
 På siden **Lagerlevering** hentes linjene fra det frigitte kildedokumentet. Du kan kombinere linjer fra flere kildedokumentlinjer i én lagerlevering.  
 
-### <a name="3-create-a-warehouse-pick"></a>3: Opprett et lagerplukk
+### 3: Opprett et lagerplukk
 
 På siden **Lagerlevering** oppretter du lagerplukkaktiviteter for lagerleveringer på en av to måter:
 
 - På en push-måte, der du bruker **Opprett plukk**-handlingen. Velg linjene som skal plukkes, og klargjør plukkingene ved å angi hvilke hyller det skal tas fra og hvilke det skal plasseres i, og hvor mange enheter som skal håndteres. Hyllene kan være forhåndsdefinert for lagerlokasjonen eller ressursen.
 - På en pull-måte, der du bruker **Frigi**-handlingen. På siden **Plukkforslag** kan lagerarbeidere bruke handlingen **Hent lagerdokumenter** til å få tildelt plukkinger. Når lagerplukkingene er fullstendig registrert, slettes linjene i **Plukkforslag**.
 
-### <a name="4-register-a-warehouse-pick"></a>4: Registrer et lagerplukk
+### 4: Registrer et lagerplukk
 
 På siden **Lagerplukk** fyller lagermedarbeider ut feltet **Antall** for hver linje som er fullstendig eller delvis plukket, og registrerer plukket.
 
 Lagerposter opprettes, og lagerplukklinjene slettes hvis hele antallet ble plukket. Lagerplukkdokumentet holdes åpent til hele antallet for lagerleveringen er registrert. Feltet **Plukket ant.** på lagerleveringslinjene oppdateres tilsvarende.  
 
-### <a name="5-post-the-warehouse-shipment"></a>5: Bokfør lagerleveringen
+### 5: Bokfør lagerleveringen
 
 Når alle varene i lagerleveringsdokumentet er registrert som plukket, bokfører lagermedarbeideren leveringen. Bokføring oppdaterer varepostene slik at de gjenspeiler reduksjonen i lageret. Eksempel: Feltet **Levert (antall)** i den utgående kildedokumentlinjen oppdateres.  
 
-## <a name="see-also"></a>Se også
+## Bokfør ikke-lagervarer
+
+[!INCLUDE [post-non-inventory-items](includes/post-non-inventory-items.md)]
+
+## Se også
 
 [Lagerstyring](design-details-warehouse-management.md)  
 

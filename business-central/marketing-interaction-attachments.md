@@ -1,0 +1,43 @@
+---
+title: Vedlegg for samhandlinger
+description: 'Du kan legge ved filer, for eksempel Word-dokumenter, for å legge til detaljer om en samhandling.'
+author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: conceptual
+ms.search.keywords: 'relationship, prospect'
+ms.search.forms: '5082,'
+ms.date: 09/05/2023
+ms.custom: bap-template
+---
+# Vedlegg for samhandlinger
+
+Filene som er knyttet til samhandlinger, knyttes ikke direkte til samhandlingen. De kommer fra et av følgende steder:
+
+* Samhandlingsmalen du brukte til å opprette samhandlingen. Lær mer om konfigurasjon av maler, gå til [Konfigurere samhandlingsmaler](marketing-interactions.md#set-up-interaction-templates).
+* Segmentet du opprettet samhandlingen for. Hvis du vil finne ut mer om segmenter, kan du gå til [Administrere samhandlinger for segmenter](marketing-interaction-segments.md).
+
+## Vis vedlegg
+
+Vedlegg er tilgjengelige når du viser registrerte samhandlinger på siden **Samhandlingsloggposter**. Velg handlingen **Vis vedlegg**.
+
+## Filtyper du kan legge ved
+
+Vedlegg kan være nesten alle typer filer, for eksempel Word-dokumenter, PowerPoint-presentasjoner, Excel- eller tekstfiler og så videre.
+
+> [!TIP]
+> [!INCLUDE [prod_short](includes/prod_short.md)] integreres med Word, som lar deg bruke funksjoner som flettefelt på Word-maler. Hvis du vil lære mer om hvordan du bruker Word-maler, kan du gå til [Bruke Word-maler for massekommunikasjon](ui-mail-merge.md).
+
+## Hva du kan gjøre med vedlegg
+
+Du kan gjøre følgende med vedleggene:
+
+* **Åpne**: Du kan starte det tilknyttede programmet, for eksempel Microsoft Word, og dokumentet åpnes. Nå kan du endre vedlegget.
+* **Importer**: Du kan importere alle typer vedlegg. Du kan for eksempel skanne et brev du har mottatt, lese det inn og knytte det til den samhandlingen som registrerer mottak av brevet.
+* **Eksporter**: Du kan eksportere vedlegg til en fil på en disk.
+* **Fjern**: Du kan fjerne det gjeldende vedlegget fra en samhandlingsmal.
+* **Kopier**: Du kan kopiere vedlegg fra en annen samhandlingsmal.
+
+## Se også
+
+[Registrere samhandlinger med kontakter](marketing-interactions.md)  

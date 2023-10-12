@@ -3,14 +3,16 @@ title: Konfigurere e-post i Business Central (inneholder video)
 description: 'Beskriver hvordan du kobler e-postkontoer til Business Central, slik at du kan sende utgående meldinger uten å måtte åpne en annen app.'
 author: brentholtorf
 ms.author: bholtorf
-ms.topic: get-started-article
+ms.topic: get-started
 ms.search.keywords: 'SMTP, email, Office 365, connector'
 ms.search.form: '1805, 9813, 9814, 1262, 1263'
 ms.date: 09/13/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-email"></a>Konfigurer e-post
+# Konfigurer e-post
+
+[!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Personer i bedrifter sender informasjon og dokumenter, for eksempel ordrer og bestillinger og fakturaer, per e-post hver dag. Administratoren kan koble en eller flere e-postkontoer til [!INCLUDE[prod_short](includes/prod_short.md)], slik at du kan sende dokumenter uten å måtte åpne en e-postapp. Du kan lage hver enkelt melding individuelt med grunnleggende formateringsverktøy, for eksempel skrifter, stiler, farger og så videre, og legge til vedlegg på opptil 100 MB. Med rapportoppsett kan administratorer ta med bare nøkkelinformasjonen fra dokumenter. Finn ut mer under [Send dokumenter i e-post](ui-how-send-documents-email.md).
 
@@ -21,14 +23,14 @@ E-post-funksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] er bare for 
 >
 > Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, må du opprette en appregistrering for [!INCLUDE[prod_short](includes/prod_short.md)] i Azure Portal før du kan konfigurere e-post. Appregistreringen gjør det mulig for [!INCLUDE[prod_short](includes/prod_short.md)] å autorisere og godkjenne e-postleverandøren. Finn ut mer under [Konfigurer e-post for Business Central lokalt](admin-how-setup-email.md#set-up-email-for-business-central-on-premises). I [!INCLUDE[prod_short](includes/prod_short.md)] på nett håndteres dette for deg.
 
-## <a name="requirements"></a>Krav
+## Krav
 
 Det er et par krav til å konfigurere og bruke e-postfunksjonene.
 
 * Hvis du vil konfigurere e-post, må du ha tillatelsessettet **E-POSTOPPSETT**. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).
 * Alle som skal bruke e-postfunksjonene, må være fullt lisensiert [!INCLUDE [prod_short](includes/prod_short.md)]. Delegerte administratorer og gjestebrukere kan for eksempel ikke bruke leierens e-postkonto.
 
-## <a name="add-email-accounts"></a>Legg til e-postkontoer
+## Legg til e-postkontoer
 
 Du legger til e-postkontoer gjennom utvidelser som gjør det mulig å koble kontoer fra ulike leverandører til [!INCLUDE[prod_short](includes/prod_short.md)]. Med standardtillegg kan du bruke kontoer fra Microsoft Exchange Online. Andre utvidelser som gjør det mulig å koble sammen kontoer fra andre leverandører, for eksempel Gmail, kan imidlertid være tilgjengelige.
 
@@ -49,20 +51,20 @@ Følgende tabell beskriver e-postutvidelsene som er tilgjengelige som standard.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4JsUk]
 
-## <a name="use-smtp"></a>Bruk SMTP
+## Bruk SMTP
 
 Hvis du vil bruke SMTP-protokollen til å sende e-postmeldinger fra [!INCLUDE[prod_short](includes/prod_short.md)], kan du bruke SMTP-koblingsutvidelsen. Når du oppretter en konto som bruker SMTP, er feltet **Avsendertype** viktig. Hvis du velger **Spesifikk bruker**, sendes e-post ved hjelp av navnet og andre opplysninger fra kontoen du oppretter. Hvis du velger **Nåværende bruker**, sendes det imidlertid e-postmeldinger fra e-postkontoen som er angitt for hver brukers konto. Nåværende bruker ligner på Send som-funksjonen. Hvis du vil ha mer informasjon, kan du se [Bruk en erstatningsavsenderadresse i utgående e-postmeldinger](admin-how-setup-email.md#use-a-substitute-sender-address-on-outbound-email-messages). 
 
 > [!IMPORTANT]
 > Hvis du bruker den lokale versjonen av [!INCLUDE[prod_short](includes/prod_short.md)], kan du bruke OAuth 2.0-protokollen til godkjenning. Hvis du vil bruke OAuth for SMTP, må alle brukere være på samme Microsoft Entra-leietaker. 
 > 
-> Du må opprette en appregistrering i Azure Portal og deretter kjøre veiledningen for assistert oppsett **Konfigurer Azure Active Directory** i [!INCLUDE[prod_short](includes/prod_short.md)] for å koble deg til Azure AD. Hvis du vil ha mer informasjon, kan du se [Opprette en programregistrering for Business Central i Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
+> Du må opprette en appregistrering i Azure Portal og deretter kjøre veiledningen for assistert oppsett **Konfigurer Microsoft Entra ID** i [!INCLUDE[prod_short](includes/prod_short.md)] for å koble deg til Microsoft Entra ID. Hvis du vil ha mer informasjon, kan du se [Opprette en programregistrering for Business Central i Azure Portal](admin-how-setup-email.md#create-an-app-registration-for-business-central-in-azure-portal).
 >
 > Exchange Online avskriver bruk av enkel godkjenning for SMTP. Leiere som for øyeblikket bruker SMTP AUTH, påvirkes ikke av denne endringen. Vi anbefaler imidlertid på det sterkeste å bruke den nyeste versjonen av [!INCLUDE [prod_short](includes/prod_short.md)] og å konfigurere OAuth 2.0-godkjenning for SMTP. Vi vil ikke legge til sertifikat basert godkjenning for tidligere versjoner av [!INCLUDE [prod_short](includes/prod_short.md)], for eksempel versjon 14. Hvis du ikke kan konfigurere OAuth 2.0-godkjenning, oppfordres du til å utforske tredjepartsalternativer hvis du vil bruke SMTP-e-post i tidligere versjoner.
 
 [!INCLUDE [email-copy-company](includes/email-copy-company.md)]
 
-## <a name="use-the-set-up-email-assisted-setup-guide"></a>Bruk veiledningen for assistert oppsett for Konfigurer e-post
+## Bruk veiledningen for assistert oppsett for Konfigurer e-post
 
 Den assisterte oppsettveiledningen **Konfigurer e-post** kan hjelpe deg raskt i gang med e-post.
 
@@ -78,14 +80,14 @@ Den assisterte oppsettveiledningen **Konfigurer e-post** kan hjelpe deg raskt i 
 > If you choose **Other (SMTP)** and are using an account that requires two-factor authentication, the password that you enter in the **Password** field must be the same that you use for your Microsoft 365 subscription, and it must be of type **App Password**. For more information, see [Manage app passwords for two-step verification](/azure/active-directory/user-help/multi-factor-authentication-end-user-app-passwords). 
 
 is this still true?-->
-## <a name="assign-email-scenarios-to-email-accounts"></a>Tildel e-postscenarioer til e-postkontoer
+## Tildel e-postscenarioer til e-postkontoer
 
 E-postscenarioer er prosesser som omfatter sending av et dokument. Det kan for eksempel være en salgordre eller bestilling eller et varsel, for eksempel en invitasjon til en ekstern regnskapsfører. Bestemte e-postkontoer kan brukes for bestemte scenarioer. Du kan for eksempel angi at alle brukerne alltid sender salgsdokumenter fra en konto, kjøpsdokumenter fra en annen og lager- eller produksjonsdokumenter fra en tredje konto. Du kan tildele, tildele på nytt og fjerne scenarioer når du vil. Et scenario kan bare tildeles én e-postkonto om gangen. Standard e-postkonto blir brukt i alle scenarioer som ikke er tildelt en konto.
 
 På siden **Tildeling av e-postscenario** kan du velge handlingen **Angi standardvedlegg** for å legge til vedlegg i e-postscenarioer. Vedleggene er alltid tilgjengelige når du setter en e-postmelding for et dokument som er knyttet til scenariet. Hvert e-postscenario kan ha ett eller flere standard vedlegg. Standardvedlegg legges automatisk til e-post i e-postscenarioet. Når du for eksempel sender en salgsordre per e-post, legges standardvedlegget som er angitt for salgsordrescenarioet, til. Standardvedlegg vises i **Vedlegg**-delen nederst på siden **Skriv en e-postmelding**. Du kan legge til ikke-standard vedlegg i e-posten manuelt.
 
 <!--
-## <a name="to-set-up-email"></a>To set up email
+## To set up email
 1. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 2. Fill in the fields as necessary. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
@@ -97,7 +99,7 @@ På siden **Tildeling av e-postscenario** kan du velge handlingen **Angi standar
 
 -->
 
-## <a name="set-up-view-policies"></a>Definer visningspolicyer
+## Definer visningspolicyer
 
 Du kan kontrollere e-postmeldingene som en bruker har tilgang til, på sidene E-postutboks og Sendte e-poster.
 
@@ -111,7 +113,7 @@ Velg en bruker i **E-postvisningspolicyer for bruker**, og velg deretter et av f
 > [!NOTE]
 > Hvis du lar feltet **Bruker-ID** stå tomt og deretter velger handlingen **E-postvisningspolicy**, gjelder policyen du definerer alle brukerne.
 
-## <a name="specify-how-many-messages-an-account-can-send-per-minute"></a>Angi hvor mange meldinger en konto kan sende per minutt
+## Angi hvor mange meldinger en konto kan sende per minutt
 
 Enkelte e-postleverandører (ISP-er) begrenser antall e-postmeldinger en e-postkonto kan sende samtidig, eller innenfor en viss tid, eller begge deler. *E-postbegrensing* hjelper ISP-er med å styre trafikken på serverne sine og forhindre søppelpost. Hvis en e-postkonto overskrider grensen, kan det hende at ISP-en blokkerer meldingene. Hvis du vil sikre at antall meldinger du sender fra [!INCLUDE [prod_short](includes/prod_short.md)], er i samsvar med grensen for ISP-en, angir du grensen for hver enkelt e-postkonto.
 
@@ -122,7 +124,7 @@ Det finnes to måter å angi grensen på:
 * Når du bruker den assisterte oppsettveiledningen Konfigurer e-post til å opprette en ny konto, må du angi grensen i feltet **Frekvensgrense per minutt**.
 * For eksisterende e-postkontoer angir du grensen i feltet **Frekvensgrense for e-post** på kontoen.
 
-## <a name="set-up-reusable-email-texts-and-layouts"></a>Definer gjenbrukbare e-posttekster og -oppsett
+## Definer gjenbrukbare e-posttekster og -oppsett
 
 Du kan bruke rapporter til å ta med viktig informasjon fra salg, kjøp og servicedokumenter i tekster for e-poster. Rapportoppsett definerer stilen og innholdet i teksten i e-postmeldingen. Innholdet omfatter for eksempel tekst som hilsener eller instruksjoner som kommer før dokumentinformasjonen. Denne fremgangsmåten beskriver hvordan du konfigurerer rapporten **Salg – faktura** for bokførte salgsfakturaer, men prosessen er lik for andre rapporter.
 
@@ -142,7 +144,7 @@ Du kan bruke rapporter til å ta med viktig informasjon fra salg, kjøp og servi
 
 Nå når du for eksempel velger **Send**-handlingen på siden **Bokført salgsfaktura**, vil brødteksten i e-posten inneholde dokumentinformasjonen fra rapport 1306 foran standardteksten i henhold til rapportoppsettet du valgte i trinn 5.
 
-## <a name="use-a-substitute-sender-address-on-outbound-email-messages"></a>Bruk en erstatningsavsenderadresse i utgående e-postmeldinger
+## Bruk en erstatningsavsenderadresse i utgående e-postmeldinger
 
 Hvis du bruker SMTP-koblingsutvidelsen, kan du bruke funksjonene **Send som** eller **Send på vegne** fra Microsoft Exchange til å endre avsenderadressen i utgående meldinger. [!INCLUDE[prod_short](includes/prod_short.md)] bruker SMTP-kontoen til å godkjenne til Exchange, men erstatter avsenderadressen med den du angir, eller endrer den med «på vegne av».
 
@@ -159,14 +161,14 @@ Følgende er eksempler på hvordan Send som og Send på vegne av brukes i [!INCL
 > Du kan bare bruke én konto til å erstatte avsenderadresser. Det vil si at du ikke kan ha én erstatningsadresse for innkjøpsprosesser og en annen for salgsprosesser.
 
 <!--
-### <a name="to-set-up-the-substitute-sender-address-for-all-outbound-email-messages"></a>To set up the substitute sender address for all outbound email messages
+### To set up the substitute sender address for all outbound email messages
 1. In the **Exchange admin center** for your Microsoft 365 account, find the mailbox to use as the substitute address, and then copy or make a note of the address. If you need a new address, go to your Microsoft 365 admin center to create a new user and set up their mailbox.
 2. In [!INCLUDE[prod_short](includes/prod_short.md)] choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 3. In the **Send As** field, enter the substitute address.
 4. Copy or make a note of the address in the **User ID** field.
 5. In the **Exchange admin center**, find the mailbox to use as the substitute address, and then enter the address from the **User ID** field in the **Send As** field. For more information, see [Use the EAC to assign permissions to individual mailboxes](/Exchange/recipients/mailbox-permissions?view=exchserver-2019&preserve-view=true#use-the-eac-to-assign-permissions-to-individual-mailboxes).
 
-### <a name="to-use-the-substitute-address-in-approval-workflows"></a>To use the substitute address in approval workflows
+### To use the substitute address in approval workflows
 1. In [!INCLUDE[prod_short](includes/prod_short.md)] choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **SMTP Email Setup**, and then choose the related link.
 2. Copy or make a note of the address in the **User ID** field.
 3. Choose the ![Lightbulb that opens the Tell Me feature.](media/ui-search/search_small.png "Tell me what you want to do") icon, enter **Approval User Setup**, and then choose the related link.
@@ -177,11 +179,11 @@ Følgende er eksempler på hvordan Send som og Send på vegne av brukes i [!INCL
 > [!Note]
 > [!INCLUDE[prod_short](includes/prod_short.md)] will determine which address to display in the following order: <br><br> 1. The address specified in the **E-Mail** field on the **Approval User Setup** page for messages in a workflow. <br> 2. The address specified in the **Send As** field in the **SMTP Email Setup** page. <br> 3. The address specified in the **User ID** field in the **SMTP Email Setup** page. -->
 
-## <a name="set-up-document-sending-profiles"></a>Definere profiler for dokumentsending
+## Definere profiler for dokumentsending
 
 Du kan spare tid ved å definere en foretrukket metode for å sende salgsdokumenter for hver av kundene. Du trenger ikke å velge et sende alternativ, for eksempel om dokumentet skal sendes med e-post eller som et elektronisk dokument hver gang du sender et dokument. Hvis du vil ha mer informasjon, kan du se [Definere en profil for dokumentsending](sales-how-setup-document-send-profiles.md).
 
-## <a name="optional-set-up-email-logging-in-exchange-online"></a>Valgfritt: Konfigurer loggføring av e-post i Exchange Online
+## Valgfritt: Konfigurer loggføring av e-post i Exchange Online
 
 Få mer ut av kommunikasjonen mellom selgere og de eksisterende eller potensielle kundene. Du kan spore e-postutvekslinger og deretter gjøre dem om til praktiske muligheter. Finn ut mer på [Spor utveksling av e-postmeldinger mellom selgere og kontakter](marketing-set-up-email-logging.md).  
 <!--
@@ -189,7 +191,7 @@ Få mer ut av kommunikasjonen mellom selgere og de eksisterende eller potensiell
 
 Next, you connect [!INCLUDE[prod_short](includes/prod_short.md)] with Exchange Online. For more information, see [Track Email Message Exchanges Between Salespeople and Contacts](marketing-set-up-email-logging.md).  -->
 
-## <a name="optional-monitor-email-usage-and-troubleshoot-email-failures-with-telemetry"></a>Valgfritt: Overvåk e-postbruk og feilsøk e-postfeil med telemetri
+## Valgfritt: Overvåk e-postbruk og feilsøk e-postfeil med telemetri
 
 Administratorer kan aktivere telemetrifunksjonen i [!INCLUDE[prod_short](includes/prod_short.md)] for å få data om bruk og feil i ulike funksjoner i systemet. For e-post loggfører vi følgende operasjoner:
 
@@ -200,13 +202,13 @@ Administratorer kan aktivere telemetrifunksjonen i [!INCLUDE[prod_short](include
 
 Du kan bruke disse dataene til å overvåke e-postbruk og feilsøke e-postfeil. Finn ut mer om [Analysering av e-posttelemetri (administrasjonsinnhold)](/dynamics365/business-central/dev-itpro/administration/telemetry-email-trace).  
 
-## <a name="set-up-email-for-business-central-on-premises"></a>Konfigurer e-post for Business Central lokalt
+## Konfigurer e-post for Business Central lokalt
 
-[!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan integreres med tjenester som er basert på Microsoft Azure. Du kan for eksempel bruke Cortana Intelligence til smartere kontantstrømprognoser, Power BI til å visualisere bedriften din og Exchange Online til å sende e-post. Integrering med disse tjenestene er basert på en appregistrering i Azure Active Directory. Appregistreringen tilbyr godkjennings- og autorisasjonstjenester for kommunikasjon. Hvis du vil bruke e-postfunksjonen i [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, må du registrere [!INCLUDE[prod_short](includes/prod_short.md)] som en app i Azure Portal, og deretter koble [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen. De følgende delene beskriver hvordan.
+[!INCLUDE[prod_short](includes/prod_short.md)] lokalt kan integreres med tjenester som er basert på Microsoft Azure. Du kan for eksempel bruke Cortana Intelligence til smartere kontantstrømprognoser, Power BI til å visualisere bedriften din og Exchange Online til å sende e-post. Integrering med disse tjenestene er basert på en appregistrering i Microsoft Entra ID. Appregistreringen tilbyr godkjennings- og autorisasjonstjenester for kommunikasjon. Hvis du vil bruke e-postfunksjonen i [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, må du registrere [!INCLUDE[prod_short](includes/prod_short.md)] som en app i Azure Portal, og deretter koble [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen. De følgende delene beskriver hvordan.
 
-### <a name="create-an-app-registration-for-business-central-in-azure-portal"></a>Opprett en appregistrering for Business Central i Azure Portal
+### Opprett en appregistrering for Business Central i Azure Portal
 
-Fremgangsmåten for å registrere [!INCLUDE[prod_short](includes/prod_short.md)] i Azure Portal er beskrevet i [Registrer en app i Azure Active Directory](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
+Fremgangsmåten for å registrere [!INCLUDE[prod_short](includes/prod_short.md)] i Azure Portal er beskrevet i [Registrer en app i Microsoft Entra ID](/dynamics365/business-central/dev-itpro/administration/register-app-azure#register-an-application-in-azure-active-directory).
 
 > [!NOTE]
 > For å kunne bruke e-postfunksjonen må appregistreringen bruke en flerklientskonfigurasjon.
@@ -241,28 +243,28 @@ Finn ut mer om generelle retningslinjer for å registrere en app under [Hurtigst
 > [!NOTE]
 Hvis du har problemer med å bruke SMTP-protokollen til å sende e-post etter at du har koblet [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen, kan det skyldes at SMTP-godkjenning ikke er aktivert for leieren din. Det anbefales at du bruker e-postkoblingene til Microsoft 365 og Gjeldende bruker i stedet, ettersom de bruker API-er for Microsoft Graph Mail. Hvis du imidlertid må bruke SMTP-protokollen, kan du aktivere SMTP-godkjenning. Hvis du vil ha mer informasjon, kan du se [Aktivere eller deaktivere SMTP-sending av godkjent klient (SMTP-godkjenning) i Exchange Online](/exchange/clients-and-mobile-in-exchange-online/authenticated-client-smtp-submission#disable-smtp-auth-in-your-organization).
 
-### <a name="connect--to-your-app-registration"></a>Koble [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen
+### Koble [!INCLUDE[prod_short](includes/prod_short.md)] til appregistreringen
 
-Når du har registrert appen i Azure Portal, bruker du siden **AAD-registrering for e-postapp** i [!INCLUDE[prod_short](includes/prod_short.md)] til å koble [!INCLUDE[prod_short](includes/prod_short.md)] til den.
+Når du har registrert appen i Azure Portal, går du til [!INCLUDE[prod_short](includes/prod_short.md)] og bruker siden **Microsoft Entra ID-registrering for e-postapp** for å koble [!INCLUDE[prod_short](includes/prod_short.md)] til den.
 
-1. I [!INCLUDE[prod_short](includes/prod_short.md)] velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **AAD-registrering for e-postapp**, og velger deretter den relaterte koblingen.
+1. I [!INCLUDE[prod_short](includes/prod_short.md)] velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Microsoft Entra ID-registrering for e-postapp**, og velger deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> Hvis du kobler til for første gang, kan du også kjøre assistert oppsettveiledning **Konfigurer e-post**. I dette tilfellet vil også veiledningen omfatte siden AAD-registrering for e-postapp for å legge til informasjon for å koble til appregistreringen. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
+> Hvis du kobler til for første gang, kan du også kjøre assistert oppsettveiledning **Konfigurer e-post**. I dette tilfellet vil også veiledningen omfatte siden Microsoft Entra ID-registrering for e-postapp for å legge til informasjon for å koble til appregistreringen. <!--Need to verify this too. Ask John to clear the aad settings, delete the email accounts, and then run the guide.-->
 
 <!--
 
 1. In [!INCLUDE[prod_short](includes/prod_short.md)], start the **Email Application AAD Registration** assisted setup guide.
 2. On the first page of the guide, copy the value in the **Redirect URL** field.
-3. In Azure Active Directory, search for **App registrations**, and then open the **App registrations** page.
+3. In Microsoft Entra ID, search for **App registrations**, and then open the **App registrations** page.
 4. Choose **New registration**.
 5. In the **Name** field, enter a name for your app.
-6. Under **Supported account types**, choose either the **Accounts in any organizational directory (Any Azure AD Directory - Multitenant)** or **Accounts in any organizational directory (Any Azure AD Directory - Multitenant) and personal Microsoft accounts (/e.g. Skype, Xbox)** options, depending on your needs. If you're unsure, choose **Help me choose** for more information.
+6. Under **Supported account types**, choose either the **Accounts in any organizational directory (Any Microsoft Entra Directory - Multitenant)** or **Accounts in any organizational directory (Any Microsoft Entra Directory - Multitenant) and personal Microsoft accounts (/e.g. Skype, Xbox)** options, depending on your needs. If you're unsure, choose **Help me choose** for more information.
 7. Under **Redirect URI (optional)**, choose **Web**, paste the URL you copied from the **Redirect URL** field in the assisted setup guide in Business Central, and then choose **Register**.
 8. On the navigation pane, choose **Overview**, and then copy the value in the **Application (client) ID** field.
 9. In [!INCLUDE[prod_short](includes/prod_short.md)], in the assisted setup guide, paste the ID in **Client ID** field.
-10. In Azure Active Directory, on the navigation pane, choose **API permissions**, and then choose **Add a permission**.
+10. In Microsoft Entra ID, on the navigation pane, choose **API permissions**, and then choose **Add a permission**.
 11. On the **Request API permissions** pane, on the **Microsoft APIs** tab, choose **Microsoft Graph**.  
 12. Choose **Delegated permissions**, and then in the **Select permissions** field, search for **Mail.ReadWrite**, **Mail.Send**, and **offline_access**. Choose those permissions, and then choose **Add permissions**.
 13. On the navigation pane, choose **Certificates & secrets**.
@@ -274,7 +276,7 @@ Når du har registrert appen i Azure Portal, bruker du siden **AAD-registrering 
 
 -->
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Delte postbokser i Exchange Online](/exchange/collaboration-exo/shared-mailboxes)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

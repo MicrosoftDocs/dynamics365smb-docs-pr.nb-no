@@ -2,7 +2,7 @@
 title: Behandle brukerinnstillinger og innstillinger som administrator
 description: Behandle brukerinnstillinger og innstillinger i Dynamics 365 Business Central.
 author: sorenfriisalexandersen
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -12,7 +12,7 @@ ms.search.form: '9204,'
 ms.date: 04/01/2021
 ms.author: soalex
 ---
-# <a name="manage-user-settings-and-preferences"></a>Behandle brukerinnstillinger og innstillinger
+# Behandle brukerinnstillinger og innstillinger
 
 Du kan som administrator konfiguree brukerinnstillinger i [!INCLUDE[prod_short](includes/prod_short.md)], på samme måte som enkeltbrukere kan behandle sine egne innstillinger på siden **Mine innstillinger**.  
 
@@ -23,7 +23,7 @@ Få en oversikt over alle brukerne i listen **Brukere**, og endre individuelle i
 
 Siden **Kort for brukerinnstillinger** ligner på siden **Mine innstillinger** som hver bruker har tilgang til, og det er et kraftig verktøy du for eksempel kan bruke til å angi standardinnstillinger og fjerne personlige sider.  
 
-## <a name="types-of-user-settings"></a>Typer brukerinnstillinger
+## Typer brukerinnstillinger
 
 *Brukerinnstillinger* er ikke det samme som *brukeroppsett*, som er om brukeren som en enhet og brukerens tilgang i systemet. I tillegg har brukerinnstillinger ingenting å gjøre med en brukers tilpassing, for eksempel ved å gjøre endringer i brukergrensesnittet. Brukerinnstillinger bestemmer de forhåndsdefinerte innstillingene for hver bruker i ulike deler av måten programmet vises på for brukeren. Det følgende avsnittet inneholder de fem typene brukerinnstillinger og innstillinger som kan angis av enkeltbrukeren eller sentralt av administratoren:
 
@@ -59,21 +59,21 @@ Siden **Kort for brukerinnstillinger** ligner på siden **Mine innstillinger** s
 > [!NOTE]
 > Hvis det gjøres en Microsoft 365-brukersynkronisering mens brukerne er logget på [!INCLUDE[prod_short](includes/prod_short.md)], må disse brukerne oppdatere nettleseren eller logge av og på [!INCLUDE[prod_short](includes/prod_short.md)] for å se et mulig språk som er angitt av synkroniseringshandlingen.
 
-## <a name="overview-of-all-user-specific-changes"></a>Oversikt over alle brukerspesifikke endringer
+## Oversikt over alle brukerspesifikke endringer
 
 Som administrator kan du få oversikt over individuelle endringer i [!INCLUDE [prod_short](includes/prod_short.md)] som de enkelte brukerne kan ha gjort på ulike sider i [!INCLUDE [prod_short](includes/prod_short.md)]. Når brukere endrer opplevelsen i [!INCLUDE [prod_short](includes/prod_short.md)], vil disse endringene gjenspeiles i listen **Brukertilpassinger**. <!--Administrators can also set these settings for users before they log in the first time, so users do not have to do it themselves, providing them a better *getting started* experience.-->
 
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## <a name="to-review-or-delete-user-personalizations"></a>Slik går du gjennom eller sletter brukertilpassinger
+## Slik går du gjennom eller sletter brukertilpassinger
 
 1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport") og angi **Tilpassede sider**, og velg deretter den relaterte koblingen.
 2. Dette viser listen over brukere og deres tilpassede sider. Hvis du vil fjerne en brukertilpassing, klikker du den aktuelle raden eller velger **Administrer**, og deretter velger du **Slett**.
 
 Dette sletter brukertilpassingen, og brukerens opplevelse av den relevante siden går tilbake til standardtilstanden.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

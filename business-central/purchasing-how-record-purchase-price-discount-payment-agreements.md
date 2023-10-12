@@ -11,7 +11,7 @@ ms.search.form: '26, 1346, 7012, 7014, 7017, 7018, 7189, 7190, 9307'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="record-special-purchase-prices-and-discounts"></a>Registrere spesielle kjøpspriser og rabatter
+# Registrere spesielle kjøpspriser og rabatter
 
 > [!NOTE]
 > I lanseringsbølge 2 i 2020 lanserte vi strømlinjeformede prosesser for å definere og håndtere priser og rabatter. Hvis du er en ny kunde som bruker denne versjonen, bruker du den nye opplevelsen. Hvis du er en eksisterende kunde, vil din bruk av den nye funksjonen avhenge av om administratoren har aktivert funksjonsoppdateringen **Ny salgsprisopplevelse** i **Funksjonsstyring**. Hvis du vil ha mer informasjon, kan du se [Aktivering av kommende funksjoner på forhånd](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -31,7 +31,7 @@ Når det gjelder rabatter, kan du opprette og bruke to typer kjøpsrabatter:
 
 Ettersom bestillingslinjerabatter og kjøpspriser er basert på en kombinasjon av vare og leverandør, kan du også angi denne konfigurasjonen fra varekortet, der regler og verdier er definert. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
 
-## <a name="to-set-up-a-special-purchase-price-for-a-vendor"></a>Definere en spesialkjøpspris for en leverandør
+## Definere en spesialkjøpspris for en leverandør
 
 #### [Nåværende opplevelse](#tab/current-experience)
 
@@ -54,7 +54,7 @@ Ettersom bestillingslinjerabatter og kjøpspriser er basert på en kombinasjon a
 
 ---
 
-## <a name="to-set-up-a-line-discount-for-a-vendor"></a>Definere en linjerabatt for en leverandør
+## Definere en linjerabatt for en leverandør
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Leverandører** og velger den relaterte koblingen.
 2. Åpne det aktuelle leverandørkortet, og velg deretter handlingen **Linjerabatter**.
@@ -63,7 +63,7 @@ Ettersom bestillingslinjerabatter og kjøpspriser er basert på en kombinasjon a
 3. Fyll ut feltene på linjen etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Fylle ut en linje for hver kombinasjon som leverandøren gir deg en bestillingslinjerabatt for.
 
-## <a name="to-set-up-an-invoice-discount-for-a-vendor"></a>Definere en fakturarabatt for en leverandør
+## Definere en fakturarabatt for en leverandør
 
 Når leverandøren har informert deg om hvilke linjerabatter som gis, angir du fakturarabattkoden på leverandørkortet og definerer betingelsene for hver kode.
 
@@ -83,7 +83,7 @@ Når leverandøren har informert deg om hvilke linjerabatter som gis, angir du f
 
 Fakturarabatten er nå definert og tilordnet til den aktuelle leverandøren. Når du velger leverandørkoden i **Fakturarabattkode**-feltet på andre leverandørkort, tilordnes den samme fakturarabatten til leverandørene.
 
-## <a name="to-choose-a-principle-for-posting-purchase-discounts"></a>Slik velger du et prinsipp for bokføring av kjøpsrabatter
+## Slik velger du et prinsipp for bokføring av kjøpsrabatter
 
 Når du bokfører en kjøpsfaktura som inneholder én eller flere rabatter, kan du velge mellom to prinsipper for bokføring av rabattbeløp. Du kan bokføre rabatter separat, eller du kan trekke fra rabatter på fakturarabatter.  
 
@@ -99,7 +99,7 @@ Før du kan gjøre dette, må du definere de nødvendige kontiene for å kunne b
 |**Linjerabatt**|Trukket fra|Bokført separat|  
 |**Ingen rabatt**|Trukket fra|Trukket fra|  
 
-## <a name="purchase-invoice-discounts-and-service-charges"></a>Kjøpsfakturarabatter og servicegebyrer
+## Kjøpsfakturarabatter og servicegebyrer
 
 Hvis du har faste betingelser for fakturarabatter fra leverandører, kan du angi betingelsene for disse leverandørene. Når du fyller ut en kjøpsfaktura, beregnes rabatten.  
 
@@ -116,7 +116,7 @@ Du kan la [!INCLUDE[prod_short](includes/prod_short.md)] automatisk beregne fakt
 > [!TIP]  
 > Før du angir disse opplysningene, er det lurt å sette opp en oversikt over hvilken rabattstruktur du vil bruke. Dermed er det enklere å se hvilke leverandører som kan knyttes til den samme fakturarabattsiden. Jo færre sider du må definere, jo raskere kan du angi de grunnleggende opplysningene.
 
-## <a name="best-price-calculation"></a>Beregning av beste pris
+## Beregning av beste pris
 
 Når du har registrert spesielle priser og linjerabatter for salg og innkjøp, sikrer [!INCLUDE[prod_short](includes/prod_short.md)] at din fortjeneste på varehandel alltid er optimal ved automatisk å beregne den beste prisen på salgs- og kjøpsdokumenter og på prosjekt- og varekladdlinjer.
 
@@ -139,7 +139,7 @@ Den beste prisen er den lavest tillatte prisen med den størst tillatte linjerab
 
 Hvis ingen spesialpris kan beregnes for varen på linjen, blir enten den siste direkte kostnaden eller salgsprisen fra varekortet satt inn.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Definere kjøp](purchasing-setup-purchasing.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  

@@ -68,13 +68,11 @@ På lignende måte som på budsjettering i finans kan du opprette budsjetter for
 
 De fleste rapporter og statistikker er basert på bokførte kostposter. Du kan angi sorteringen av resultatene og bruke filtre for å definere hvilke data som skal vises. Du kan opprette rapporter for analyse av kostdistribusjon. I tillegg kan du bruke standard finansrapporter til å definere hvordan rapportene for diagrammet med kosttyper skal vises.  
 
-## Se relatert [Microsoft-opplæring](/training/paths/use-cost-accounting-dynamics-365-business-central/)
-
 ## Se også
 
-[Gjøre rede for kostnader](finance-manage-cost-accounting.md)  
+[Gjør rede for kostnader](finance-manage-cost-accounting.md)  
 [Finans](finance.md)  
-[Terminologi i kostregnskap](finance-terminology-in-cost-accounting.md)  
+[Terminologi i kostnadsregnskap](finance-terminology-in-cost-accounting.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

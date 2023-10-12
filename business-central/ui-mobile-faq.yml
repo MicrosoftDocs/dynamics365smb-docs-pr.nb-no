@@ -4,12 +4,12 @@ metadata:
   description: Se svar på vanlige spørsmål om bruk av Business Central på telefonen eller nettbrettet.
   author: brentholtorf
   ms.topic: faq
-  ms.devlang: na
-  ms.tgt_pltfrm: na
-  ms.workload: na
+  ms.service: dynamics365-business-central
   ms.search.keywords: 'phone, tablet'
-  ms.date: 10/25/2021
+  ms.date: 09/21/2023
   ms.author: bholtorf
+  ms.reviewer: jswymer
+  ms.custom: bap-template
 title: Vanlige spørsmål om mobilapper
 summary: |
   Denne artikkelen gir svar på spørsmål som våre avanserte brukere ofte stiller om mobilappene for [!INCLUDE [prod_short](includes/prod_short.md)].  
@@ -38,7 +38,7 @@ sections:
           | Handlinger på handlingslinjen | Bare forfremmede handlinger vises. | Bare forfremmede handlinger vises. |  |
           | Faktabokser | Vises ikke på listesider eller forslagssider. | Vises ikke på listesider eller forslagssider. | `Customer`-listen i `Small Business`-rollesenteret. |
           | Avanserte filtre | Ingen kolonnespesifikk filtrering er tilgjengelig. | Ingen kolonnespesifikk filtrering er tilgjengelig. | På `Customer`-listesiden. |
-          | Fortell meg | Ikke tilgjengelig ennå. | Ikke tilgjengelig ennå. | Se [Finne sider og informasjon med Fortell meg](ui-search.md). |  |
+          | Fortell meg | Den må være aktivert i [Funksjonsbehandling](/dynamics365/business-central/dev-itpro/administration/feature-management) ved hjelp av bryteren **Funksjon: Søk etter sider og data i mobilappbryteren**. Delen **Hent fra Microsoft AppSource** i resultatene for apper er ikke tilgjengelig. | Samme som nettbrett | Se [Finne sider og informasjon med Fortell meg](ui-search.md). |  |
           | Rolleutforsker | Ikke tilgjengelig ennå. | Ikke tilgjengelig ennå. | Se [Finne sider med rolleutforskeren](ui-role-explorer.md). |
           | Felter i hurtigfaner | Felter i hurtigfaner på listesider vises ikke. Bare repeater-kontrollen vises på innholdsområdet til siden. | Ikke tilgjengelig. |  |
           | Velg fra hele listen | Ikke tilgjengelig for oppslag. Brukere kan ikke kjøre handlinger på en oppslagsside, og de får ikke tilgang til hele settet med poster. | Ikke tilgjengelig for oppslag. Brukere kan ikke kjøre handlinger på en oppslagsside, og de får ikke tilgang til hele settet med poster. | På `Item Card` når du velger **Lagerenheter**. |
@@ -61,7 +61,7 @@ sections:
       - question: |
           Kan en gjestebruker bruke appen til å få tilgang til Business Central-løsningen?
         answer: |
-          Antall Gjestebrukere er inviterte brukere fra en annen Azure Active Directory-leietaker (AD) enn din. I dette tilfellet vil appen godkjenne den primære leietakeren til gjestebrukerens primære Azure AD-leietaker og deretter prøve å åpne Business Central-endepunktet på den leietakeren i stedet for din.  
+          Nr. Gjestebrukere er inviterte brukere fra en annen Microsoft Entra-leietaker enn din. I dette tilfellet vil appen godkjenne den primære leietakeren til gjestebrukerens primære Microsoft Entra-leietaker og deretter prøve å åpne Business Central-endepunktet på den leietakeren i stedet for din.  
 additionalContent: |
 
   ## Se også

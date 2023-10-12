@@ -17,11 +17,9 @@ Denne utvidelsen fører deg gjennom prosessen for å konfigurere en tilkobling m
 
 Når tilkoblingen er konfigurert, kan du overføre data fra den lokale løsningen til [!INCLUDE[prod_short](includes/prod_short.md)] Online. Utvidelsen fungerer sammen med utvidelsen for datareplikering tilgjengelig for den bestemte lokale løsningen. Hvis du vil ha mer informasjon, kan du se [Kjør skyoverføringsverktøyet](/dynamics365/business-central/dev-itpro/administration/migration-tool).  
 
-## Se relatert [Microsoft-opplæring](/training/modules/connect-intelligent-cloud-dynamics-365-business-central/)
-
 ## Se også
 
-[Kjøre skyoverføringsverktøyet](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
+[Kjør skyoverføringsverktøyet](/dynamics365/business-central/dev-itpro/administration/migration-tool)  
 [Intelligente skyutvidelser for skyoverføring](ui-extensions-data-replication.md)  
 
 

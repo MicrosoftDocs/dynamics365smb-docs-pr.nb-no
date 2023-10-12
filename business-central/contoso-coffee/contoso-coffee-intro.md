@@ -1,66 +1,48 @@
 ---
 title: Innføring i demodata for Contoso Coffee
 description: Oversikt over scenarioer for hvordan Contoso Coffee-demo data kan hjelpe deg å lære hvordan du bruker funksjonene i Business Central.
-ms.date: 04/01/2022
-ms.topic: article
-ms.service: dynamics365-business-central
-ms.search.form: 4760
 author: brentholtorf
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.date: 09/20/2023
+ms.topic: article
+ms.service: dynamics365-business-central
+ms.search.form: '5194,'
+ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Innføring i demodata for Contoso Coffee
+# Innføring i demodata for Contoso Coffee
 
-Contoso Coffee er et fiktivt selskap som produserer forbrukerkaffemaskiner og kommersielle kaffemaskiner. **Contoso Coffee**-appene for Business Central legger til demonstrasjonsdata som du kan bruke til å lære hvordan du bruker funksjonene i Business Central.  
+Contoso Coffee er et fiktivt selskap som produserer forbrukerkaffemaskiner og kommersielle kaffemaskiner. **Contoso Coffee**-appene for [!INCLUDE [prod_short](../includes/prod_short.md)] legger til demonstrasjonsdata som du kan bruke til å lære hvordan du bruker funksjonene i [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
+## Konfigurer Contoso Coffee-data
 
-## <a name="set-up-contoso-coffee-data"></a>Konfigurer Contoso Coffee-data
+[!INCLUDE [contoso-coffee-app-install](contoso-coffee-app-install.md)].
 
-For å kunne bruke Contoso Coffee-data må du installere to apper i det aktuelle selskapet i [!INCLUDE [prod_short](../includes/prod_short.md)]:  
+Når appene er installert, går du til siden **Demoverktøy for Contoso**, og bruker handlingen **Konfigurer** til å klargjøre følgende moduler. Du kan velge å installere alle tilgjengelige data, som inkluderer oppsetts- og produksjonsdata, eller bare oppsettsdata.
 
-- **Demodatasett for Contoso Coffee**  
+ - **Fellesmodulen** for å klargjøre generelle innstillinger som [!INCLUDE [prod_short](../includes/prod_short.md)] krever. For eksempel ting som nummerserier. 
 
-    Denne appen inneholder demonstrasjonsdata for basisprogrammet.  
-- **Demodatasett for Contoso Coffee (land-ID)**  
+Tabellen nedenfor beskriver innstillingene:  
 
-    Denne appen legger til landspesifikt innhold oppå basisprogrammet.
+|Felt  |Description  |
+|---------|---------|
+|**Startår** |Angir det første året du vil bruke for Contoso Coffee-demondataene. Året er enten et kalenderår eller et regnskapsår, avhengig av firmaoppsettet.|
+|**Lands-/regionkode**|Angir en land/region for innenlandske kunder og leverandører.|
+|**Selskapstype**    |Angir om det aktuelle selskapet må rapportere mva. eller salgsmva. |
+|**Prisfaktor**     |Angir en faktor for å konvertere en pris fra USD/EUR til den lokale valutaen. *1* betyr at prisen er det samme beløpet i hvilken som helst valuta. Et høyere nummer brukes til å hente prisen i lokal valuta. |
+|**Avrundingspresisjon**  |Angir avrundingspresisjonen du vil opprette demodataene med.|
 
-Legg til appene i et tomt selskap i et betalt abonnement eller som en del av en prøveversjon. Opprett for eksempel et nytt selskap uten eksempeldata fra den assisterte veiledningen **Opprett nytt selskap** som du kan åpne fra **Selskaper**-oversikten. Deretter legger du til appene fra [markedsplassen](../ui-extensions-install-uninstall.md#install), hvis de ikke allerede er oppført på siden **Utvidelsesbehandling**-side.  
+ - [Produksjonsmodulen](manufacturing/contoso-coffee-manufacturing-intro.md) for å klargjøree for [produksjonsscenarioer](manufacturing/contoso-coffee-manufacturing-intro.md#scenarios).
+ - [Lagermodul](warehousing/contoso-coffee-warehousing-intro.md) for å klargjøre for [lagerscenarioer](warehousing/contoso-coffee-warehousing-intro.md#scenarios).
+ - [Servicemodul](service/contoso-coffee-service-intro.md) for å klargjøre for [Servicescenarioer](service/contoso-coffee-service-intro.md#scenarios).
 
-Deretter bør du fullføre:
- - [Produksjonsoppsettet](manufacturing/contoso-coffee-manufacturing-intro.md) som skal forberedes for bruk av [produksjonsscenarioer](#manufacturing-scenarios)
- - [Lageroppsettet](warehousing/contoso-coffee-warehousing-intro.md) som skal forberedes for bruk av [lagerscenarioer](#warehousing-scenarios)
+Når du har konfigurert modulene du vil prøve, velger du handlingen **Generer** for å opprette demonstrasjonsdata for dem.
 
-## <a name="manufacturing-scenarios"></a>Produksjonsscenarioer
-
-Demodata for Contoso Coffee støtter nå følgende produksjonsscenarioer for test og opplæring:
-
-1. [Opprett en ny produksjonsstykkliste og stykklisteversjon](manufacturing/create-new-production-bom-version.md)  
-2. [Opprett en ny rute](manufacturing/create-new-routing.md)  
-3. [Opprett en fast planlagt produksjonsordre og endre den](manufacturing/create-firm-planned-production-order-change.md)  
-4. [Kombiner automatisk og manuell trekking](manufacturing/combine-automatic-manual-flushing.md)  
-5. [Bruk ordreplanlegging til å opprette og reservere forsyning](manufacturing/order-planning-create-reserve-supply.md)  
-6. [Definer og behandle en underleveranseoperasjon](manufacturing/set-up-process-subcontracting-operation.md)  
-7. [Definer ny kapasitet](manufacturing/set-up-new-capacity.md)  
-8. [Forutse behov for varevarianter med ulike stykklister tildelt](manufacturing/variants.md)  
-
-Les trinnene for hvert scenario i den relevante artikkelen.  
-
-> [!IMPORTANT]
-> Disse produksjonsgjennomgangene krever at brukeropplevelsen er satt til *Premium* på siden **Firmainformasjon**.
-
-## <a name="warehousing-scenarios"></a>Lagerscenarioer
-
-Demodata for Contoso Coffee støtter nå følgende lagerscenarioer for test og opplæring:
-
-1.  Konfigurer standardhyller, mottak og plassering med lagerplassering, plukking og levering med lagerplukk i ordre-etter-ordre-måte med [Gjennomgang av inngående og utgående flyt i grunnleggende lagerkonfigurasjoner](warehousing/warehouse-basic-flow-putaway-pick.md)
-2.  Mottak og plassering av flere inngående ordrer samtidig med lagermottak, lever flere ordrer samtidig med lagerlevering, plukk med lagerplukk med [Gjennomgang av inngående og utgående flyt i blandede lageroppsett](warehousing/warehouse-mixed-flow-receive-pick-ship.md)
-3.  Konfigurere faste hyller for vareenheten, brukerkryssoverføring til å redusere fysisk flytting av varer, optimalisere plassering av varer med hylleetterfylling, anbrekke store enheter til mindre enheter kan du distribuere plukking mellom lager som bruker plukkforslaget med [Gjennomgang av inngående og utgående flyt i avansert lageroppsett med lagerstyring](warehousing/warehouse-directed-flow.md)
-
-Les trinnene for hvert scenario i den relevante artikkelen.
-   
-## <a name="see-also"></a>Se også
+## Se også
 
 [Produksjon](../production-manage-manufacturing.md)  
 [Lagerstyring](../warehouse-manage-warehouse.md)  
+[Tjeneste](../service-service.md)
+<!-- [Projects and Jobs](../projects-manage-projects.md) -->
 

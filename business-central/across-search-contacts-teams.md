@@ -2,7 +2,7 @@
 title: Søke etter kontakter fra Microsoft Teams
 description: 'Finn ut hvordan du slår opp kunder, leverandører og andre kontakter for Business Central fra Microsoft Teams.'
 author: jswymer
-ms.topic: get-started-article
+ms.topic: get-started
 ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
@@ -11,7 +11,7 @@ ms.date: 04/12/2021
 ms.author: jswymer
 ---
 
-# <a name="searching-for-customers-vendors-and-other-contacts-from-microsoft-teams"></a>Søke etter kunder, leverandører og andre kontakter fra Microsoft Teams
+# Søke etter kunder, leverandører og andre kontakter fra Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]. Introdusert i lanseringsbølge 1 for 2021.
 
@@ -21,7 +21,7 @@ ms.author: jswymer
 - Dele en kontakt som et kort i en Teams-samtale.
 - Vise detaljer om kontakten, samhandlingsloggen og annen innsikt som utestående betalinger eller åpne dokumenter.
 
-## <a name="prerequisites"></a>Forutsetninger
+## Forutsetninger
 
 - Du har tilgang til Microsoft Teams.
 - Du har installert [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams. Hvis du vil ha mer informasjon, se [Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)
@@ -30,7 +30,7 @@ ms.author: jswymer
 > [!NOTE]
 > Det kan hende at du blir bedt om å logge på eller sette opp appen første gang når du søker fra kommandoboksen eller meldingsboksen. Dette trinnet er nødvendig for å søke etter kontakter i det rette Business Central-selskapet. Hvis du vil ha informasjon om hvordan du definerer appen for å velge selskap, kan du se [Endre selskap og andre innstillinger i Teams](across-teams-settings.md).
 
-## <a name="look-up-contacts-from-the-command-box"></a>Slå opp kontakter fra kommandoboksen
+## Slå opp kontakter fra kommandoboksen
 
 Kommandoboksen vises øverst i alle skjermbilder i Teams. Det gjør det mulig å søke, utføre raske handlinger eller starte apper, for eksempel [!INCLUDE [prod_short](includes/prod_short.md)]-appen. Søking fra kommandoboksen er nyttig for raskt å finne frem til kontakter og tilhørende data for eget bruk. La oss for eksempel anta at du vil slå opp en e-postadresse for en leverandør for å opprette et kalendermøte. Eller kanskje du vil søke etter samhandlingslogg mens du møter med en kunde.
 
@@ -51,7 +51,7 @@ Kommandoboksen vises øverst i alle skjermbilder i Teams. Det gjør det mulig å
 
 Hvis du vil ha mer generell informasjon om kommandoboksen i Teams, kan du se [Teams – bruke kommandoboksen](https://support.microsoft.com/en-us/office/use-the-command-box-13c4e429-7324-4886-b377-5dbed539193b).
 
-## <a name="look-up-contacts-from-the-message-compose-box"></a>Slå opp kontakter fra meldingsboksen
+## Slå opp kontakter fra meldingsboksen
 
 Fordelen med å bruke meldingsboksen er at du kan legge til et kontaktkort direkte i en samtale, slik at andre kan se det.
 
@@ -73,13 +73,13 @@ Fordelen med å bruke meldingsboksen er at du kan legge til et kontaktkort direk
     > [!NOTE]
     > Kontaktkortet blir ikke sendt til samtalen med en gang slik at andre kan se det. Du har muligheten til å gå gjennom innholdet på kortet, og legge til tekst før eller etter det etter behov. Send deretter meldingen til chatten når du er klar.
 
-### <a name="heres-another-way"></a>Her er en annen måte
+### Her er en annen måte
 
 1. I stedet for å bruke **Business Central**-ikonet, skriver du inn **@Business Central** direkte i meldingsboksen.
 2. Skriv inn søkevilkårene i boksen.
 3. Bruk pil opp og pil ned på tastaturet til å velge en kontakt, og deretter velger <kbd>ENTER</kbd> for å velge kontakten.
 
-## <a name="viewing-contact-card-details"></a>Vise kontaktkortdetaljer
+## Vise kontaktkortdetaljer
 
 Kontaktkortet i Teams gir deg en rask oversikt over kunden, leverandøren eller kontakten. Kortet er interaktivt&mdash;noe som betyr at du kan vise mer informasjon eller endre en kontakt ved hjelp av knappen **Detaljer** eller **Eget vindu**.
 
@@ -90,7 +90,7 @@ Kontaktkortet fungerer på samme måte som kort for poster, for eksempel varer, 
 > [!NOTE]
 > Alle deltakere i en Teams-samtale kan vise kort for Business Central-kontakten du sender til en samtale. Men hvis de vil vise flere detaljer om poster, ved hjelp av **Detaljer** eller **Eget vindu**-knappene på et kort, trenger de tilgang til [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Administrere Microsoft Teams-integrering](admin-teams-integration.md#minimum-requirements-1).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversikt over Business Central og Microsoft Teams-integrering](across-teams-overview.md)  
 [Installer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  

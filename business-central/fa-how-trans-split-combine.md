@@ -66,8 +66,6 @@ Du kan kombinere flere aktiva til ett aktiva, for eksempel når du flytter distr
 2. Fyll ut feltene etter behov.
 3. Velg knappen **Skriv ut** eller **Forhåndsvisning**.  
 
-## Se relatert [Microsoft-opplæring](/training/paths/reclassify-fixed-assets/)
-
 ## Se også
 
 [Aktiva](fa-manage.md)  

@@ -142,7 +142,7 @@ Du kan slette alle endringene en bruker har gjort på sidene. Dette kan være ny
 
 Brukeren vil se endringene neste gang vedkommende logger på.
 
-Du kan også slette alle sidetilpasninger for en profil. Hvis du vil ha mer informasjon, se [Slette alle tilpasninger for en profil](ui-personalization-manage.md#to-delete-all-customizations-for-a-profile).
+Du kan også slette alle sidetilpasninger for en profil. Hvis du vil ha mer informasjon, se [Slette alle tilpasninger for en profil](ui-personalization-manage.md#delete-all-customizations-for-a-profile).
 
 ## Slette tilpasninger for bestemte sider
 
@@ -159,7 +159,7 @@ Du kan slette tilpasninger som én eller flere brukere har gjort på bestemte si
 
 Brukeren vil se endringene neste gang vedkommende logger på.  
 
-Du kan også slette individuelle sidetilpasninger for en profil. Hvis du vil ha mer informasjon, se [Slette tilpasninger for en bestemt side for en profil](ui-personalization-manage.md#to-delete-customization-for-specific-pages-for-a-profile).
+Du kan også slette individuelle sidetilpasninger for en profil. Hvis du vil ha mer informasjon, se [Slette tilpasninger for en bestemt side for en profil](ui-personalization-manage.md#delete-customization-for-specific-pages-for-a-profile).
 
 ## Behandle brukerøkter
 
@@ -167,11 +167,9 @@ Du kan som administrator for [!INCLUDE[prod_short](includes/prod_short.md)] onli
 
 For lokal [!INCLUDE[prod_short](includes/prod_short.md)] kan du for eksempel behandle økter som bruker SQL Server Management Studio. Hvis du vil ha mer informasjon, kan du se [teknisk dokumentasjon for SQL Server](/sql/sql-server).  
 
-## Se relatert [Microsoft-opplæring](/training/modules/users-security-dynamics-365-business-central/)
-
 ## Se også
 
-[Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md)  
+[Tildel tillatelser til brukere og grupper](ui-define-granular-permissions.md)  
 [Tilpass sider for profiler](ui-personalization-manage.md)  
 [Tilpasse arbeidsområdet](ui-personalization-user.md)  
 

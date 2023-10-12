@@ -4,16 +4,16 @@ description: Et utskriftsvennlig referanseark som inneholder de mest vanlige tas
 author: jswymer
 ms.topic: conceptual
 ms.search.keywords: 'accessibility, shortcuts, keyboarding, keys'
-ms.date: 02/09/2023
+ms.date: 09/11/2023
 ms.author: jswymer
 ms.review: jswymer
 ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="keyboard-quick-reference---pc-only"></a>Hurtigreferanse for tastatursnarveier – bare PC
+# Hurtigreferanse for tastatursnarveier – bare PC
 
-#### <a name="general"></a>Generelt
+#### Generelt
 
 |Velg disse tastene|Hvis du vil gjøre dette|  
 |-|-|
@@ -26,6 +26,7 @@ ms.custom: bap-template
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Q</kbd>|Åpne **Søk etter poster**|
 |<kbd>Alt</kbd>+<kbd>Up</kbd>|Åpne verktøytips eller valideringsfeil|
 |<kbd>Alt</kbd>+<kbd>Pil ned</kbd>|Åpne en rullegardinmeny eller slå opp|
+|<kbd>Ctrl</kbd>+<kbd>Alt</kbd><kbd>Pil ned</kbd>|Åpne kortet eller listesiden for en relatert oppføring filtrert etter verdien i oppslags- eller redigeringsfeltet|
 |<kbd>Alt</kbd>+<kbd>T</kbd>|Åpne siden **Mine innstillinger**|
 |<kbd>Alt</kbd>+<kbd>Skift</kbd>+<kbd>W</kbd>|Åpne gjeldende kort eller dokument i et nytt vindu|
 |<kbd>Ctrl</kbd>+<kbd>Insert</kbd>|Sett inn en ny linje i et dokument|
@@ -39,7 +40,7 @@ ms.custom: bap-template
 |<kbd>Tab</kbd>/<kbd>Skift</kbd>+<kbd>Tab</kbd>|Flytte fokus til neste/forrige element|
 |<kbd>F6</kbd>/<kbd>Skift</kbd>+<kbd>F6</kbd>|Flytt til neste hurtigfane/del|
 
-#### <a name="navigate--select-rows"></a>Navigere og velge rader
+#### Navigere og velge rader
 
 |Velg disse tastene|Hvis du vil gjøre dette|
 |-|-|
@@ -53,14 +54,14 @@ ms.custom: bap-template
 |<kbd>Skift</kbd>+<kbd>Page Up</kbd>/<kbd>Down</kbd>|Velge synlige rader over/under|
 |<kbd>Ctrl</kbd>+<kbd>Enter</kbd>|Fokuserer ut fra listen|
 
-#### <a name="copy--paste"></a>Kopier og lim inn
+#### Kopier og lim inn
 
 |Velg disse tastene|Hvis du vil gjøre dette|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>C</kbd>/<kbd>V</kbd>|Kopier / lim inn rader|
 |<kbd>F8</kbd>|Kopiere feltet over til gjeldende rad|
 
-#### <a name="search-filter--sort"></a>Søk, filtrer og sorter
+#### Søk, filtrer og sorter
 
 |Velg disse tastene|Hvis du vil gjøre dette|
 |-|-|
@@ -71,20 +72,20 @@ ms.custom: bap-template
 |<kbd>Skift</kbd>+<kbd>Alt</kbd>+<kbd>F3</kbd>|Legg til filter for valgt felt|
 |<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Skift</kbd>+<kbd>F3</kbd>|Tilbakestill filtre|
 
-#### <a name="quick-entry"></a>Hurtigoppføring
+#### Hurtigoppføring
 
 |Velg disse tastene|Hvis du vil gjøre dette|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Skift</kbd>+<kbd>Enter</kbd>|Gå til neste hurtigoppføringsfelt utenfor en liste|
 |<kbd>Enter</kbd>/<kbd>Skift</kbd>+<kbd>Enter</kbd>|Gå til neste/forrige hurtigoppføringsfelt|
 
-##### <a name="report-preview"></a>Forhåndsvisning av rapport
+##### Forhåndsvisning av rapport
 
 |Velg disse tastene|Hvis du vil gjøre dette|
 |-|-|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd>/<kbd>End</kbd>|Gå til den første/siste siden|
 
-#### <a name="numeric-keypad"></a>Numerisk tastatur
+#### Numerisk tastatur
 
 |Velg disse tastene|Hvis du vil gjøre dette|  
 |-|-|

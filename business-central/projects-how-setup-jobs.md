@@ -3,7 +3,7 @@ title: 'Konfigurere prosjekter, priser og prosjektbokføringsgrupper'
 description: Beskriver hvordan du definerer generell informasjon om prosjekter.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/25/2023
 ms.custom: bap-template
@@ -98,8 +98,6 @@ Ett aspekt ved prosjektplanlegging er å bestemme hvilke bokføringskontoer som 
 | **Salgsjusteringskonto for prosjekt** |Motkontoen for VIA-prosjektsalgskontoen. Dette er en inntektskonto. | Påløpt salg|
 | **Konto for ført kost** |Utgiftskontoen som inneholder de førte kostbeløpene for prosjektet. Dette er som regel en debitutgiftskonto. | Ført kostnad|
 | **Konto for ført salg** |Inntektskontoen som inneholder ført inntekt for prosjektet. Dette er som regel en kreditinntektskonto. | Ført salg|
-
-## Se relatert [Microsoft-opplæring](/training/paths/set-up-jobs-resources/)
 
 ## Se også
 

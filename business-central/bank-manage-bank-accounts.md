@@ -32,12 +32,10 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 > [!TIP]
 > Bruk bankavstemming til å kontrollere at bøkene er oppdaterte, og ikke bokføre avstemmingen før du er fornøyd med den.
 
-## Se relatert [Microsoft-opplæring](/training/paths/reconcile-bank-accounts-dynamics-365-business-central/)
-
 ## Se også
 
 [Konfigurere banktjenester](bank-setup-banking.md)  
-[Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md)  
+[Avstem bankkontoer](bank-how-reconcile-bank-accounts-separately.md)  
 [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Overføre bankkapital](bank-how-transfer-bank-funds.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  

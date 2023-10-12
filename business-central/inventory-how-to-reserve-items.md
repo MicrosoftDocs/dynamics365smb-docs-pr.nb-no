@@ -1,23 +1,27 @@
 ---
 title: Reserver varer
-description: 'Du kan reservere varer for ordrer, bestillinger og produksjonsordrer. Du kan reservere også varer på lager eller inngående på åpne dokumentlinjer.'
+description: 'Lær mer om reservering av varer for ordrer, bestillinger og produksjonsordrer.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: null
 ms.search.forms: '498, 497'
-ms.date: 08/11/2022
-ms.author: bholtorf
+ms.date: 09/19/2023
+ms.custom: bap-template
 ---
-# <a name="reserve-items"></a>Reservere varer
+# Reserver varer
 
 Du kan reservere varer for ordrer, bestillinger, serviceordrer, monteringsordrer, overføringsordrer og produksjonsordrer. Du kan også reservere varer på lager eller inngående på åpne dokument- eller kladdelinjer. Dette gjør du på siden **Reservasjon**.
 
 Hver linje du åpner for å reservere varer på **Reservasjon**-siden, viser informasjon om én type linje (salg, kjøp eller kladd) eller lagerpost. Linjene beskriver hvor mange varer som kan reserveres fra hver linje- eller posttype.
 
-## <a name="reserve-items-for-sales"></a>Reserver varer for salg
+> [!TIP]
+> Basert på antallet du har reservert på lageret, viser [!INCLUDE [prod_short](includes/prod_short.md)] en status i dokumentene, slik at du raskt blir klar over neste trinn. For eksempel for å angi at du kan levere en ordre eller begynne å arbeide med en prosjekt, montering eller produksjonsordre. Statusen bidrar også til å redusere risikoen for utilsiktede delvise forsendelser eller forsinkelser på grunn av manglende lager for produksjons- og monteringsordrer.
+>
+> Feltet **Reservert fra lager** kan hjelpe deg med å forstå om du kan levere eller plukke for en bestemt ordre eller ordrelinje. For linjer er feltet Reservert fra lager tilgjengelig i faktabokser. Hvis du vil ha tilgang til informasjonen for hele ordren, er feltet på **Statistikk**-siden.
+
+## Reserver varer for salg
 
 Fremgangsmåten nedenfor beskriver hvordan du reserverer varer fra en ordre. Fremgangsmåten er lignende for kjøps-, service-, overførings- og monteringsordrer.
   
@@ -36,7 +40,7 @@ Fremgangsmåten nedenfor beskriver hvordan du reserverer varer fra en ordre. Fre
 > [!NOTE]  
 > Hvis det finnes varesporingslinjer for ordren, blir du ledet gjennom spesielle trinn i reservasjonssystemet: Finn ut mer i delen [Reserver et spesifikt serie- eller partinummer](inventory-how-to-reserve-items.md#reserve-a-specific-serial-or-lot-number).  
 
-## <a name="reserve-an-item-for-a-production-order-line"></a>Reserver varer for produksjonsordrelinjer
+## Reserver varer for produksjonsordrelinjer
 
 Du kan reservere varer for produksjonsordrer. Du må skille mellom produksjonsordrelinjer, som betyr den overordnede varen, og produksjonsordrekomponenter.
 
@@ -50,7 +54,7 @@ I fremgangsmåten nedenfor brukes det en fast planlagt produksjonsordre.
 
 Antallet du angav på den fast planlagte produksjonsordrelinjen, er nå reservert.
 
-## <a name="reserve-items-for-production-order-components"></a>Reserver varer for produksjonsordrekomponenter
+## Reserver varer for produksjonsordrekomponenter
 
 Du kan reservere varer for produksjonsordrer. Du må skille mellom produksjonsordrelinjer, som betyr den overordnede varen, og produksjonsordrekomponenter.
 
@@ -66,27 +70,57 @@ I fremgangsmåten nedenfor brukes det en fast planlagt produksjonsordre.
 
 Antallet du angav på den fast planlagte produksjonskomponentlinjen, er nå reservert.
 
-## <a name="change-a-reservation"></a>Endre en reservasjon
+## Reservere varer samtidig
 
-Noen ganger kan det hende du vil endre en varereservasjon.
+Bruk siden **Reservasjonsforslag** til å reservere og fordele innkommende varer samtidig. Massereservasjoner kan for eksempel bidra til å sikre at antall er tilgjengelige for salgs- og produksjonsordrene. Du kan ha flere bunker til ulike formål. Du kan for eksempel tildele produksjonsordrer på ukentlig basis, men reservere daglig for salg.
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Reservasjonsforslag**, og velg deretter den relaterte koblingen.  
+2. Velg handlingen **Hent behov**, og angi deretter typen behov du vil reservere fra tilgjengelig lager.
+3. Velg ett av følgende alternativer i feltet **Reservert fra lager**:
+    
+   |Felt  |Description  |
+   |---------|---------|
+   |Tom     | Det utestående antallet er ikke reservert i det hele tatt, eller det er reservert fra andre kildedokumenter, for eksempel bestillinger.        |
+   |Full    |  Det utestående antallet er fullstendig reservert fra tilgjengelig lager.       |
+   |Delvis     | Det utestående antallet er delvis reservert fra tilgjengelig lager.        |
+
+4. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
+5. Valgfritt: Hvis du vil fordele varene med en gang, velger du handlingen **Tildel**.
+6. På siden **Fordelingspolicy** velger du en policy for hvert trinn
+
+   |Fordelingspolicy  |Description  |
+   |---------|---------|
+   |Grunnleggende     | Fordeler lager til et behov hvis det ikke er noen konflikter og behovet kan dekkes fullt ut. Du har for eksempel ordre A med antallet 10 og et prosjekt med et antall på 7. Hvis du har 20 på lager, får begge kravene full mengde. Hvis lager er 12, tildeles ingen aksjer. Du må tildele antallet manuelt.        |
+   |Lik    | Distribuerer tilgjengelig lager etter behov likt. Du har for eksempel en ordre med antallet 10 og et prosjekt med et antall på 7. Hvis lagernivået ditt er 20, vil begge kravene få fullt antall. Hvis aksjen din er 12, vil begge kravene få 6.        |
+
+7. Hvis du vil reservere alle linjer der **Godta** er aktivert, velger du handlingen **Reserver**.
+    
+## Endre en reservasjon
+
+Du kan endre en varereservasjon.
 
 1. Fra dokumentlinjen som du gjorde reservasjonen fra, på hurtigfanen **Linjer**, velger du **Reserver**-handlingen.  
 2. På **Reservasjon**-siden velger du handlingen **Reservasjonsposter**.
 3. På siden **Reservasjonsposter** oppdaterer du **Antall**-feltet på linjen du vil endre.
 4. Bekreft meldingen som vises, ved å velge **OK**-knappen.
 
-## <a name="cancel-a-reservation"></a>Kanseller en reservasjon
+## Kanseller en reservasjon
 
-Noen ganger kan det hende du vil kansellere en varereservasjon.
+Du kan avbryte en varereservasjon.
 
 1. Fra dokumentlinjen som du ønsker å avbryte en reservasjon fra, på hurtigfanen **Linjer**, velger du **Reserver**-handlingen.  
 2. På **Reservasjon**-siden velger du handlingen **Reservasjonsposter**.  
 3. På **Reservasjon**-siden velger du handlingen **Kanseller reservasjon**.  
 4. Bekreft meldingen som vises, ved å velge **Ja**-knappen.  
 
-## <a name="reserve-a-specific-serial-or-lot-number"></a>Reserver et spesifikt serie- eller partinummer
+## Reserver et spesifikt serie- eller partinummer
 
-Fra utgående dokumenter for varesporede varer, for eksempel ordrer eller produksjonskomponentlister, kan du reservere bestemte serie- eller partinumre. Dette kan for eksempel være relevant hvis du trenger produksjonskomponenter fra et bestemt parti for å sikre konsekvens med tidligere produksjonspartier, eller fordi en kunde har bedt om et bestemt serienummer. Finn ut mer under [Arbeid med serie- og partinumre](inventory-how-work-item-tracking.md).
+Fra utgående dokumenter for varesporede varer, for eksempel ordrer eller produksjonskomponentlister, kan du reservere bestemte serie- eller partinumre. Det kan for eksempel være nyttig å reservere bestemte serie- eller partinumre i følgende situasjoner:
+
+* Hvis du trenger produksjonskomponenter fra et bestemt parti for å sikre konsistens med tidligere produksjonsbatcher.
+* Fordi en kunde har bedt om et bestemt serienummer. 
+
+Finn ut mer under [Arbeid med serie- og partinumre](inventory-how-work-item-tracking.md).
 
 Denne fremgangsmåten kalles en spesifikk reservasjon, fordi du reserverer fra antallet av varen X som tilhører partiet X. Hvis du derimot reserverer bare fra antall av varen X, er dette en normal, ikke-spesifikk reservasjon. Finn ut mer under [Designdetaljer: Varesporing og reservasjoner](design-details-item-tracking-and-reservations.md).
 
@@ -101,7 +135,7 @@ Følgende fremgangsmåte er basert på en ordre.
 7. Velg **OK**-knappen for å åpne siden **Reservasjon**, som bare viser det angitte varesporingsnummeret. Hvis det finnes ikke-spesifikke reservasjoner for noen av varesporingsnumrene du har angitt for denne linjen, får du beskjed om antallet som allerede er reservert.  
 8. Velg **Auto-reserver** eller **Reserver fra gjeldende linje** for å opprette reservasjonen for de spesifikke varesporingsnumrene.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Lager](inventory-manage-inventory.md)  
 [Utformingsdetaljer: Reservasjon, ordresporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md)  

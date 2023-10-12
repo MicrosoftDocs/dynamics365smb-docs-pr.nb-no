@@ -137,12 +137,10 @@ Dette emnet viser et eksempel på hvordan du kan definere fordelinger ved hjelp 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] bruker forrige års salgstall til å beregne en andel av 1596,50 LV med 100 prosent for IT-UTSTYR-pakker. Dette betyr at alle varene som er solgt det siste året vil bli fordelt til kostobjektet IT-UTSTYR.
 
-## Se relatert [Microsoft-opplæring](/training/modules/allocate-costs-dynamics-365-business-central/)
-
 ## Se også
 
  [Definer kostregnskap](finance-set-up-cost-accounting.md)  
- [Overfør og bokfør kostposter](finance-transfer-and-post-cost-entries.md)  
+ [Overfør og bokfør kostnadsposter](finance-transfer-and-post-cost-entries.md)  
  [Gjøre rede for kostnader](finance-manage-cost-accounting.md)  
  [Terminologi i kostregnskap](finance-terminology-in-cost-accounting.md)  
  [Om kostregnskap](finance-about-cost-accounting.md)

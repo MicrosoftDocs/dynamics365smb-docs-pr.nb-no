@@ -114,8 +114,6 @@ Når en taksonomi endres, må du oppdatere den gjeldende taksonomien tilsvarende
 6. Du importerer koblingsbasen ved å velge den **Importer**.  
 7. Velg **Ja** for å bruke koblingsbasen på skjemaet.  
 
-## Se relatert opplæring på [Microsoft Learn](/learn/modules/xbrl-reports-dynamics-365-business-central/index).
-
 ## Se også
 
 [Finansforretningsanalyse](bi.md)  

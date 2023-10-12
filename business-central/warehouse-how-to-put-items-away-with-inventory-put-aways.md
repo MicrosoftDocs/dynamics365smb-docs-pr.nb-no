@@ -3,10 +3,10 @@ title: Plassere varer med lagerplasseringer
 description: Finn ut hvordan du bruker lagerplasseringsdokumenter til å registrere og bokføre plasserings- og mottaksopplysninger.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 12/20/2022
+ms.date: 09/19/2023
 ms.custom: bap-template
 ms.search.forms: '7375,'
 ---
@@ -82,8 +82,6 @@ En lageransatt kan opprette en ny lagerplassering basert på det frigitte kilded
     * Hvis lokasjonen bruker hyller, oppretter bokføring også lagerposter for bokføring av hylleantallendringer.
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
-
-## Se relatert [Microsoft-opplæring](/training/modules/receive-put-away-items/)
 
 ## Se også
 

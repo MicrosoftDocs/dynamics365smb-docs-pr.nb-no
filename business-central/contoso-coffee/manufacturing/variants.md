@@ -8,15 +8,15 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-variants"></a>Gjennomgang: varianter
+# Gjennomgang: varianter
 
 I denne artikkelen tar vi deg gjennom trinnene for å bruke Contoso Coffee-demodataene for å lære om varianter.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Du er produksjonsplanleggeren hos Contoso Coffee. Du må oppdatere behovsprognose for hver variant av varen SP-SCM1006, AutoDripLite. Ettersom de har forskjellige farger, må du kontrollere at den riktige stykklisten brukes for hver variant. Kjør planleggingsforslaget for å beregne forsyning.  
 
-## <a name="steps"></a>Trinn
+## Trinn
 
 1. Definer lagerføringsenheter for varen SP-SCM1006, AutoDripLite. Tildel en stykkliste for SKU med variantene RØD og HVIT.
 
@@ -28,17 +28,17 @@ Du er produksjonsplanleggeren hos Contoso Coffee. Du må oppdatere behovsprognos
 
     4. Sett feltet **Opprett per** til *Lokasjon og variant*.
 
-    5. Angi et filter for lokasjon til *Nord* , og klikk deretter på **OK**-knappen.
+    5. Angi et filter for lokasjon til *HOVED* , og klikk deretter på **OK**-knappen.
 
     6. Velg handlingen **Lagerføringsenheter**.  
 
     7. Oppdater produksjonsstykklistene for følgende lagerføringsenheter:
 
-        1. RØD på NORD, angi SP-SCM1006-RED  
+        1. RØD på HOVED, angi SP-SCM1006-RED  
 
-        2. HVIT på NORD, angi SP-SCM1006-WHITE  
+        2. HVIT på HOVED, angi SP-SCM1006-WHITE  
 
-        3. Behold produksjonsstykklistenr. tom for SVART på NORD  
+        3. Behold produksjonsstykklistenr. tom for SVART på HOVED  
 
 2. Oppdater produksjonsoppsett og respekter behovsprognose på lokasjoner og varianter.  
 
@@ -50,7 +50,7 @@ Du er produksjonsplanleggeren hos Contoso Coffee. Du må oppdatere behovsprognos
 
     4. Lukk **Produksjonsoppsett**-vinduet.
 
-3. Opprett en ny månedlig behovsprognose, *AUTODRIP*. Filtrer det etter varen SP-SCM1006 og lokasjon NORD. Angi behov for mai for hver variant. 
+3. Opprett en ny månedlig behovsprognose, *AUTODRIP*. Filtrer det etter varen SP-SCM1006 og lokasjon HOVED. Angi behov for mai for hver variant. 
 
     1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi *Behovsprognose*, og velg deretter den relaterte koblingen.
 
@@ -64,17 +64,17 @@ Du er produksjonsplanleggeren hos Contoso Coffee. Du må oppdatere behovsprognos
 
     6. Slå på feltet **Bruk prognose på lokasjon**.
 
-    7. I feltet **Lokasjonsfilter** velger du *NORD*.
+    7. I feltet **Lokasjonsfilter** velger du *HOVED*
 
     8. Slå på feltet **Bruk prognose på variant**.
 
     9. For hver linje oppdaterte verdier i kolonnen mai
 
-        1. RØD på NORD, angi 100
+        1. RØD på HOVED, angi 100
 
-        2. HVIT på NORD, angi 200
+        2. HVIT på HOVED, angi 200
 
-        3. SVART på NORD, angi 300
+        3. SVART på HOVED, angi 300
 
     10. Lukk vinduer for behovsprognose
 
@@ -98,6 +98,6 @@ Du er produksjonsplanleggeren hos Contoso Coffee. Du må oppdatere behovsprognos
 
     9. For hver opprettet linje velger du **komponent**-handlingen og ser gjennom hvilken maling som brukes.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Innføring i demodata for Contoso Coffee](../contoso-coffee-intro.md)  
