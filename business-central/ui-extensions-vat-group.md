@@ -44,7 +44,7 @@ Nedenfor er den anbefalte rekkefølgen av trinnene en administratorer bruker til
 > [!NOTE]
 > For å kunne koble til mva-grupperepresentanten må gruppemedlemmer ha en brukerkonto med tilgang til mva-grupperepresentantens [!INCLUDE[prod_short](includes/prod_short.md)]. Mva-grupperepresentanten må opprette minst én bruker for denne. Av sikkerhetsmessige årsaker anbefales det imidlertid at de oppretter en bruker for hvert enkelt mva-gruppemedlem, som kan være en systembrukerkonto som ikke er knyttet til en faktisk person. Pass på at du distribuerer brukerlegitimasjonen til mva-gruppemedlemmer på en sikker måte.
 
-### <a name="azure-active-directory-setup-for-group-members"></a>Azure Active Directory-konfigurasjon for gruppemedlemmer
+### <a name="microsoft-entra-id-setup-for-group-members"></a>Azure Active Directory-konfigurasjon for gruppemedlemmer
 
 Når mva-grupperepresentanten bruker [!INCLUDE[prod_short](includes/prod_short.md)] online eller lokalt, må mva-gruppemedlemmene bruke Azure Active Directory til å godkjenne brukere når de sender omsetningsoppgaver til mva-grupperepresentanten. For den lokale versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] må medlemmer konfigurere enkel pålogging. Finn ut mer under [Konfigurer Azure Active Directory-godkjenning med WS-Federation](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory?tabs=singletenant%2Cadmintool).
 

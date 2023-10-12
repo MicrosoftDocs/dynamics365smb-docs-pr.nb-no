@@ -11,7 +11,7 @@ ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.custom: bap-template
 ---
-# Tilpass sider for profiler
+# <a name="customize-pages-for-profiles"></a>Tilpass sider for profiler
 
 Business Central inneholder både [tilpassing](ui-personalization-user.md) for brukere og egendefinering for administratorer. Med tilpassing kan brukere skreddersy arbeidsområdet ved å justere sideoppsett etter egne preferanser. Administratorer kan egendefinere sideoppsett for en bestemt profil, basert på forretningsroller og avdelinger, slik at alle tilordnede brukere ser samme egendefinerte side. Mens personlig tilpassing lar brukere vise, skjule og flytte felt og handlinger på en side, gir egendefinering ekstra muligheter. Egendefinering lar deg for eksempel vise felt som er i sidens kildetabell eller utvidelsestabeller, men som ikke er definert på sideobjektet&mdash;, noe som ikke er mulig å tilpasse dem.  <!--For more information, see [Personalize Your Workspace](ui-personalization-user.md).-->
 
@@ -22,13 +22,13 @@ Business Central inneholder både [tilpassing](ui-personalization-user.md) for b
 
 Sidetilpassing starter fra siden **Profiler (roller)**, administratorens startpunkt for administrering av brukerprofiler på individuelle profilkort. I tillegg til å tilpasse sideoppsettet styrer du ulike innstillinger for profiler på siden **Profil (rolle)** for hver profil. Hvis du vil ha mer informasjon, kan du se [Administrere profiler](admin-users-profiles-roles.md).
 
-## Forutsetninger
+## <a name="prerequisites"></a>Forutsetninger
 
 - Business Central-kontoen må ha **Profiladm. for D365**-tillatelsessett eller tilsvarende tillatelser. 
 
    Tillatelsessettet **Profiladm. for D365** inkluderer utføringstillatelsen på systemobjektet **9026 Legg til felt i tabellen**. Hvis du ikke har denne tillatelsen, kan du ikke legge til felt på siden med mindre de er definert i sideobjektet. 
 
-## Egendefinere sider for en profil
+## <a name="customize-pages-for-a-profile"></a>Egendefinere sider for en profil
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Profiler (roller)**, og velg deretter den relaterte koblingen.
 2. Velg linjen for profilen du vil tilpasse sidene for, og velg deretter handlingen **Slett**.
@@ -46,7 +46,7 @@ Sidetilpassing starter fra siden **Profiler (roller)**, administratorens startpu
 
 Tilpassing av sider er nå registrert for profilen.
 
-## Vise alle egendefinerte sider for en profil
+## <a name="view-all-customized-pages-for-a-profile"></a>Vise alle egendefinerte sider for en profil
 
 Du kan få en oversikt over hvilke sider som er tilpasset for en profil, for eksempel for å planlegge hvilke sider som skal egendefineres ytterligere eller slettes.
 
@@ -54,7 +54,7 @@ Du kan få en oversikt over hvilke sider som er tilpasset for en profil, for eks
 
 På siden **Tilpassede sider** kan du slette tilpasninger, og du kan feilsøke ved å skanne etter mulige problemer.  
 
-## Slette alle egendefineringer for en profil
+## <a name="delete-all-customizations-for-a-profile"></a>Slette alle egendefineringer for en profil
 
 Du kan avbryte alle tilpasninger du har gjort for en profil. Egendefineringer som er innført med en utvidelse, og egendefinering gjort av en bruker, slettes ikke. Du kan slette alle personlige tilpasninger med en annen handling. Hvis du vil ha mer informasjon, kan du se [Slette alle tilpasninger som er gjort av en bruker](admin-users-profiles-roles.md#to-delete-all-personalizations-made-by-a-user).
 
@@ -62,7 +62,7 @@ Du kan avbryte alle tilpasninger du har gjort for en profil. Egendefineringer so
 
 Oppsettet på sider for profilen tilbakestilles til standardoppsettet.  
 
-## Slette egendefinering for bestemte sider for en profil
+## <a name="delete-customization-for-specific-pages-for-a-profile"></a>Slette egendefinering for bestemte sider for en profil
 
 Du kan slette individuelle sidetilpasninger som du har gjort for en profil. Egendefineringer som er innført med en utvidelse, og egendefinering gjort av en bruker, slettes ikke. Du kan slette spesifikke sidetilpasninger med en annen handling. Hvis du vil ha mer informasjon, se [Slette personlige tilpasninger for en bestemt side](admin-users-profiles-roles.md#to-delete-personalizations-for-specific-pages).
 
@@ -71,7 +71,7 @@ Du kan slette individuelle sidetilpasninger som du har gjort for en profil. Egen
 
 Oppsettet på de valgte sidene justeres til endringene du har gjort.
 
-## Legg til et felt
+## <a name="add-a-field"></a>Legg til et felt
 
 Du legger til felt på siden fra ruten **Legg til felt på side**, som du åpner ved å velge handlingen **+ Felt** når du er i egendefineringsmodus. Det er viktig å forstå at ruten **Legg til felt på side** brukes til å vise felt som allerede finnes&mdash;enten på siden og i kildetabellene,&mdash;, men som for øyeblikket er skjult. Du kan ikke opprette nye felt.
 
@@ -92,7 +92,7 @@ Bruk filterknappen over listen til å endre hvilken feltkategori som vises: **Le
 
 :::image type="content" source="media/customization-filter.svg" alt-text="Viser filterknappen i ruten Legg til et felt i egendefineringsmodus.":::
  
-### Legge til tabellfelter som ikke er på sideobjektet
+### <a name="add-table-field-thats-not-on-the-page-object"></a>Legge til tabellfelter som ikke er på sideobjektet
 
 Hvis du vil gjøre et rent tabellfelt tilgjengelig for brukere på en side, må du først legge det til på siden. Når du har lagt til feltet, kan brukerne velge å vise eller skjule feltet som de vil ved hjelp av tilpasning. Du kan legge til et felt på flere måter.
 
@@ -101,7 +101,7 @@ Hvis du vil gjøre et rent tabellfelt tilgjengelig for brukere på en side, må 
 
 Når feltet er lagt til, endres verktøytipset for feltet i ruten **Legg til i side** til **Definert av siden**. Det tilføyde feltet er låst for redigering og kan ikke låses opp.
 
-## Fjerne et felt
+## <a name="remove-a-field"></a>Fjerne et felt
 
 Hvis du har lagt til et tabellfelt som opprinnelig ikke var i sideobjektet, kan du fjerne det igjen. Å fjerne et felt er annerledes enn å skjule det. Når du skjuler et felt, kan brukerne fremdeles vise det i arbeidsområdet ved hjelp av personlig tilpasning. Hvis du imidlertid fjerner et felt, er ikke feltet lenger tilgjengelig for visning eller skjuling. Hvis feltet for øyeblikket vises i en brukers arbeidsområde, forsvinner det fra arbeidsområdet når du fjerner det. 
 
@@ -110,7 +110,7 @@ Hvis du vil fjerne et felt, velger du pilspissen i feltet på siden og deretter 
 > [!IMPORTANT]
 > Selv om du fjerner et felt, slettes ikke data som er lagret i feltet eller kildetabellene. Det fjerner bare feltet fra visningen. 
 
-## Låse og låse opp redigering
+## <a name="lock-and-unlock-editing"></a>Låse og låse opp redigering
 
 Egendefinering lar deg låse (tillater redigering) eller låse opp redigering (hindrer redigering) av de fleste felt på en side. Hvis du vil låse eller låse opp redigering, merker du feltet på siden, velger pilhodet og deretter **Lås redigering** eøøer **Lås opp redigering**. Det er viktig å huske på noen regler om låsing og opplåsing av felt:
 
@@ -120,13 +120,13 @@ Egendefinering lar deg låse (tillater redigering) eller låse opp redigering (h
 
 
 <!--However, whatever option you choose for a field, users can always change the setting on their own workspace using personalization. For this reason, it's important to consider locking as a deterrence measure and not a preventative measure.--> 
-## Viktig informasjon og tips 
+## <a name="important-information-and-tips"></a>Viktig informasjon og tips
 
 - Det er ikke sikkert at alle tabellfelt er tilgjengelige for egendefinering fra ruten **Legg til felt på side** . Utvikleren av en tabell kan velge å hindre at et felt vises i egendefinering ved å angi [egenskap AllowInCustomization](/dynamics365/business-central/dev-itpro/developer/properties/devenv-allowincustomizations-property) for feltet til `false`.
 - Du kan ikke egendefinere en side som er i [analysemodus](analysis-mode.md). **Analyse**-bryteren er deaktivert. Hvis du bytter til egendefineringsmodus mens siden er i analysemodus, deaktiveres analysemodus automatisk. 
 - Noen sider har flere sidefelt som tilordnes til samme kildetabell. Ruten **Legg til felt på side** viser alle disse sidefeltene uavhengig av hverandre. Du kan vise, skjule eller flytte disse feltene uavhengig av hverandre uten at det påvirker de andre.
 - Hvis en del eller gruppe er skjult, kan du fremdeles identifisere skjulte felt i delen eller gruppen, men du kan ikke legge til, flytte eller vise felt i delen eller gruppen før de er synlige. 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Tilpass arbeidsområdet](ui-personalization-user.md)  
 [Administrer profiler](admin-users-profiles-roles.md)  

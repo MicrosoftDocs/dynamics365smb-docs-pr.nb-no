@@ -9,7 +9,7 @@ ms.search.form: 'RoleExplorer, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9
 ms.date: 09/19/2023
 ms.custom: bap-template
 ---
-# Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="work-with-"></a>Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Mens du arbeider i [!INCLUDE [prod_short](includes/prod_short.md)], samhandler du med data på forskjellige måter. Du kan for eksempel opprette poster, skrive inn data, sortere og filtrere data, skrive notater og eksportere data til andre programmer.
 
@@ -23,14 +23,14 @@ Hvis du vil bruke det vannrette rullefeltet for å vise alle kolonner på en ove
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="cheatsheet"></a>Tips og triks
+## <a name="tips-and-tricks"></a><a name="cheatsheet"></a>Tips og triks
 
 > [!TIP]
 > Hvis du vil ha en utskriftsvennlig overskrift over de mest brukte funksjonene, velger du følgende bilde og laster ned PDF-filen.
 >
 > [ ![Ikon for PDF-filen.](media/cheat_sheet_inline.png) ](media/cheat_sheet.pdf "Ikon som åpner en PDF-fil")
 
-## Koblinger til Finn ut mer
+## <a name="links-to-learn-more"></a>Koblinger til Finn ut mer
 
 Tabellen nedenfor inneholder noen av de generelle funksjonene med koblinger til artiklene som beskriver dem.
 
@@ -56,13 +56,13 @@ Tabellen nedenfor inneholder noen av de generelle funksjonene med koblinger til 
 |Behandle innholdet og formatet i rapporter og dokumenter. Angi hvilke feltdata som skal inkluderes, og hvordan de skal vises. Velg for eksempel en tekststil, legg til bilder og mer.|[Administrer rapport- og dokumentoppsett](ui-manage-report-layouts.md) |
 |Lære om funksjoner som gjør [!INCLUDE[prod_short](includes/prod_short.md)] tilgjengelig for personer med funksjonshemminger.|[Tilgjengelighet og hurtigtaster](ui-accessibility.md)|
 
-## Navigere i Business Central
+## <a name="getting-around-in-business-central"></a>Navigere i Business Central
 
 Her er en kort video om hvordan du navigerer i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 > [!VIDEO https://www.youtube.com/embed/zqz03iMihx0]
 
-## Velge en skrivebordsleser
+## <a name="choosing-a-desktop-browser"></a>Velge en skrivebordsleser
 
 [!INCLUDE[prod_short](includes/prod_short.md)] støtter flere nettlesere, og hver nettleser tilbyr forskjellige funksjoner. Webleseren spiller en betydelig rolle i svargraden og flyten i brukergrensesnittet. Se listen over støttede, anbefalte lesere for [Business Central Online](./product-requirements.md) og lesere for [Business Central on-premises](/dynamics365/business-central/dev-itpro/deployment/system-requirement-business-central-v15).
 
@@ -72,7 +72,7 @@ Her er en kort video om hvordan du navigerer i [!INCLUDE[prod_short](includes/pr
     > Internet Explorer støttes ikke lenger. Hvis du vil vite mer om [Microsoft Edge-dokumentasjonen](https://support.microsoft.com/hub/4337664/microsoft-edge-help).
 - La nettleseren alltid være oppdatert med den nyeste versjonen.
 
-## Handlingsfelter
+## <a name="action-bars"></a>Handlingsfelter
 
 I [!INCLUDE [prod_short](includes/prod_short.md)] kan du gjøre mesteparten av arbeidet ditt i en liste, et dokument eller et kort. Alle sider har en linje med handlinger som er relevante for dem. Handlingene er nesten like for det enkelte kortet eller dokumentet og listen over enheter. På denne måten kan du administrere én enkelt ordre på **Ordre**-siden og i **Ordrer**-oversikten, inkludert bokføring av den og fakturering av den.  
 
@@ -89,7 +89,7 @@ Når du søker etter og åpner en listeside, for eksempel **Ordrer**-listen, er 
 
 Når du åpner den samme listesiden fra startsiden din, er ikke **Administrer**-handlingen til stede. Hvis du vil åpne en individuell ordre, velger du **Nummer**-feltet. I denne visningen kan du ikke feste handlingslinjen.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Definere Business Central](setup.md)  

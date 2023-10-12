@@ -11,7 +11,7 @@ ms.search.form: '9650, 9652'
 ms.date: 03/06/2022
 ms.author: bholtorf
 ---
-# (Eldre) Opprette og endre et egendefinert rapportoppsett
+# <a name="legacy-create-and-modify-custom-report-layouts"></a>(Eldre) Opprette og endre et egendefinert rapportoppsett
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -29,7 +29,7 @@ Når du har definert egendefinert rapportoppsett, kan du velge dem på sidene Ku
 
 Du kan også bruke egendefinert rapportoppsett til å legge til innhold i e-postmeldinger. Rapportoppsett kan spare tid og bidra til å sikre konsekvens ved å bruke det samme innholdet på nytt når du kommuniserer med kundene. Hvis du vil bruke egendefinerte rapportoppsett med e-post, må filtypen for oppsettet være Word. Du kan ikke bruke filtypen RDLC. Finn ut mer under [Definer gjenbrukbare e-posttekster og -oppsett](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts).
 
-## Opprett et egendefinert oppsett
+## <a name="create-a-custom-layout"></a>Opprett et egendefinert oppsett
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.
 
@@ -54,11 +54,11 @@ Det egendefinerte oppsettet er opprettet, og du kan endre det etter behov.
 > [!TIP]
 > Du kan eksportere rapportresultatene til en Microsoft Excel-fil for å vise hele datasettet, inkludert alle kolonner, men uten oppsettet. Excel-filen kan hjelpe deg med å validere at rapporten returnerer de forventede dataene eller diagnostisere problemer. Finn ut mer under [Analyser rapportdata med Excel](report-analyze-excel.md).
 
-## <a name="ModifyCustomLayout"></a>Endre et egendefinert oppsett
+## <a name="modifying-a-custom-layout"></a><a name="ModifyCustomLayout"></a>Endre et egendefinert oppsett
 
 Når du skal endre et egendefinert rapportoppsett, du må først eksportere rapportoppsettet som en fil til en plassering på datamaskinen eller nettverket. Deretter åpner du det eksporterte dokumentet og foretar endringene. Når du er ferdig å foreta endringer, importerer du rapportoppsettet.
 
-### Endre et egendefinert oppsett
+### <a name="modify-a-custom-layout"></a>Endre et egendefinert oppsett
 
 1. Eksporter et egendefinert oppsett fra **Egendefinerte rapportoppsett**-siden. Hvis siden ikke allerede er åpen, kan du søke etter og åpne **Rapportoppsettsvalg**-siden, velge rapporten som har oppsettet du vil endre, og deretter velge handlingen **Egendefinerte oppsett**.  
 2. På siden **Egendefinerte rapportoppsett** velger du oppsettet som du vil endre, velger **Eksporter oppsett**-handlingen og velger deretter **Lagre** eller **Lagre som** for å lagre rapportoppsettsdokumentet på et sted på datamaskinen eller nettverket.  
@@ -78,7 +78,7 @@ Når du skal endre et egendefinert rapportoppsett, du må først eksportere rapp
 > Husk å importere rapportoppsettdokumentet du endret. Hvis ikke vil ikke det nye rapportoppsettet være tilgjengelig.
 
 <!--
-##  <a name="MakeChangesToLayout"></a> Create and modify custom report layouts
+## <a name="create-and-modify-custom-report-layouts"></a><a name="MakeChangesToLayout"></a>Create and modify custom report layouts
 
 To make general formatting and layout changes, such as changing text font, adding and modifying a table, or removing a data field, just use the basic editing features of Word like you do with any Word document.
 
@@ -87,11 +87,11 @@ If you're designing a Word report layout from scratch or adding new data fields,
 > [!TIP]  
 > Show the table gridlines so that you see the boundaries of table cells. Remember to hide the gridlines when you're done editing. To show or hide table gridlines, select the table, and then under **Layout** on the **Table** tab, choose **View Gridlines**.
 
-### Embedding fonts in Word layouts for consistency
+### <a name="embedding-fonts-in-word-layouts-for-consistency"></a>Embedding fonts in Word layouts for consistency
 
 To ensure that reports always display and print with the intended fonts, wherever users open or print the reports, you can embed the fonts in the Word document. However, embedding fonts can significantly increase the size of the Word files. Learn more about embedding fonts in Word at [Embed fonts in Word, PowerPoint, or Excel](https://support.office.com/article/Embed-fonts-in-Word-PowerPoint-or-Excel-cb3982aa-ea76-4323-b008-86670f222dbc).
 
-###  <a name="RemoveField"></a> Removing label and data fields in Word layouts
+### <a name="removing-label-and-data-fields-in-word-layouts"></a><a name="RemoveField"></a>Removing label and data fields in Word layouts
 
  Label and data fields of a report are contained in content controls in Word. The following figure illustrates a content control when it's selected in the Word document.  
 
@@ -99,7 +99,7 @@ To ensure that reports always display and print with the intended fonts, whereve
 
  The name of the label or data field name displays in the content control. In the example, the field name is CompanyAddr1.  
 
-### To remove a label or data field  
+### <a name="to-remove-a-label-or-data-field"></a>To remove a label or data field
 
 1. Right-click the field you want to delete, then choose **Remove Content Control**.  
 
@@ -107,11 +107,11 @@ To ensure that reports always display and print with the intended fonts, whereve
 
 2. Delete the remaining text as needed.  
 
-### Adding data fields
+### <a name="adding-data-fields"></a>Adding data fields
 
 Adding data fields from a report dataset is more advanced and requires some knowledge of the report dataset. Learn more about adding fields for data, labels, and images at [Add Fields to a Word Report Layout](ui-how-add-fields-word-report-layout.md).  -->
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  
 [Endre gjeldende rapportoppsett](ui-how-change-layout-currently-used-report.md)  

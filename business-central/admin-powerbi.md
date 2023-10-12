@@ -10,7 +10,7 @@ ms.date: 09/28/2023
 ms.author: jswymer
 ms.custom: bap-template
 ---
-# Innføring i [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI
+# <a name="introduction-to--and-power-bi"></a>Innføring i [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -18,7 +18,7 @@ Det er enkelt å få innsikt i [!INCLUDE[prod_short](includes/prod_short.md)]-da
 
 ![Power BI og Business Central.](media/power-bi-intro.png)
 
-## Det du kan gjøre med Power BI og [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="what-you-can-do-with-power-bi-and-"></a>Det du kan gjøre med Power BI og [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Det finnes ulike funksjoner for å arbeide med [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI. Du kan gjøre enkelte ting fra Power BI, mens andre ting gjør du fra [!INCLUDE[prod_short](includes/prod_short.md)]. I tillegg er noen funksjoner bare tilgjengelige i [!INCLUDE[prod_short](includes/prod_short.md)] Online, ikke i den lokale versjonen. Du får en oversikt i tabellen nedenfor.
 
@@ -32,7 +32,7 @@ Det finnes ulike funksjoner for å arbeide med [!INCLUDE[prod_short](includes/pr
 
 <a name="onprem"><sup>*</sup></a> Denne funksjonen krever et registrert program for Business Central i Microsoft Azure. Hvis du vil ha mer informasjon, kan du se [Registrer Business Central lokalt i Microsoft Entra ID for integrering med andre tjenester](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## Gjør deg klar til å bruke Power BI
+## <a name="get-ready-to-use-power-bi"></a>Gjør deg klar til å bruke Power BI
 
 Det er noen få oppgaver du må gjøre før du kan begynne å bruke Power BI med [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> Oppgavene avhenger av din rolle i organisasjonen, og hva du vil gjøre med Power BI:
 
@@ -47,7 +47,7 @@ Det er noen få oppgaver du må gjøre før du kan begynne å bruke Power BI med
 |Eksponer Business Central-data til Power BI||![det er en hake.](media/check.png)|![igjen en hake](media/check.png)|[Eksponer data gjennom API-sider eller OData-nettjenester](admin-powerbi-setup.md#exposedata)
 |Aktiver Power BI-integrering<br />(bare lokalt)||![det er en hake.](media/check.png)||[Konfigurer Business Central lokalt for Power BI-integrering](admin-powerbi-setup.md#setup)|
 
-## Spor forretnings-KPI-ene med Power BI-måleverdier
+## <a name="track-your-business-kpis-with-power-bi-metrics"></a>Spor forretnings-KPI-ene med Power BI-måleverdier
 
 Hvis du bruker Power BI på [!INCLUDE[prod_short](includes/prod_short.md)]-data, er det enkelt å spore KPI-er eller mål som er viktige for deg. 
 
@@ -67,12 +67,12 @@ Finn ut mer om Power BI-måleverdier under [Kom i gang med måleverdier i Power 
 > [!NOTE]
 > Fra og med lanseringsbølge 2 for 2023 for Business Central er det mulig å bygge inn målstyringer fra Power BI-måledata i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## Neste trinn
+## <a name="next-steps"></a>Neste trinn
 
 - Hvis du er administrator som må konfigurere Power BI i [!INCLUDE[prod_short](includes/prod_short.md)], går du til [Aktiver Power BI-integrering](admin-powerbi-setup.md).
 - Hvis Power BI allerede er definert og du vil prøve funksjonene, går du til [Arbeid med Power BI-rapporter i Business Central](across-working-with-powerbi.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Forretningsintelligens](bi.md)  
 [Konfigurer [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
