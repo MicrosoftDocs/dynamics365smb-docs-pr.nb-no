@@ -11,7 +11,7 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 09/14/2023
 ms.author: jswymer
 ---
-# <a name="personalize-your-workspace"></a>Tilpass arbeidsområdet
+# Tilpass arbeidsområdet
 
 Du kan tilpasse arbeidsområdet til å passe arbeid og behov. Endre sider slik at de bare viser den informasjonen du trenger, der du trenger den. Personalisering påvirker bare arbeidsområdet. Det endrer ikke måten andre arbeider på. Du kan tilpasse alle typer sider, inkludert [rollesenter](ui-change-basic-settings.md#role-center)-siden. 
 
@@ -23,13 +23,13 @@ Du kan gjøre ulike endringer, for eksempel flytte eller skjule felt, kolonner, 
 > Administratorer kan gjøre samme oppsettendringer som brukerne ved å tilpasse profilen (rollen) som flere brukere er tilordnet. Hvis du vil vite mer om sider for roller, går du til [Tilpass sider for roller](ui-personalization-manage.md)<br /><br />
 Administratorer kan også overstyre eller deaktivere brukeres tilpasning, og de kan definere hvilke funksjoner som til og med brukere kan se i alle eller bestemte selskaper. Hvis du vil ha mer informasjon, kan du se [Tilpasse Business Central](ui-customizing-overview.md).
 
-## <a name="video"></a>Video
+## Video
 
 Følgende video viser noen av måtene du kan tilpasse rollesenteret på.
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4ArUB?rel=0]
 
-## <a name="change-the-width-of-a-column"></a>Endre kolonnebredden
+## Endre kolonnebredden
 
 Det er enkelt å endre størrelse på kolonner i en liste. Dra grensen mellom to kolonner til venstre eller høyre.  
 
@@ -38,7 +38,7 @@ Det er enkelt å endre størrelse på kolonner i en liste. Dra grensen mellom to
 
 På samme måte som med andre personlige tilpasninger lagres endringene du gjør i kolonnebredden, på kontoen og følger deg uansett hvilken enhet du logger på.
 
-## <a name="start-personalizing-by-using-the-personalization-mode"></a>Starte tilpasning ved hjelp av tilpassingsmodus
+## Starte tilpasning ved hjelp av tilpassingsmodus
 
 1. Åpne en side som du vil tilpasse.
 1. Øverst til høyre velger du ikonet ![Innstillinger.](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter") og deretter **Tilpass**-handlingen.
@@ -56,7 +56,7 @@ På samme måte som med andre personlige tilpasninger lagres endringene du gjør
 
 Hvis du vil ha mer informasjon, kan du se [Hva du kan tilpasse](#What).
 
-## <a name="what-you-can-personalize"></a><a name="What"></a>Hva du kan tilpasse
+## <a name="What"></a>Hva du kan tilpasse
 
 |Hva vil du gjøre|Hvordan du gjør det|Merknader|
 |----|------------|-------|
@@ -73,7 +73,7 @@ Hvis du vil ha mer informasjon, kan du se [Hva du kan tilpasse](#What).
 |Legg til en ny handling på en side eller rapport i rollesenteret.|Velg bokmerkeikonet fra målsiden, rapportforespørselssiden eller Fortell meg-vinduet.|[Finn ut mer om bokmerkesider og rapporter](ui-bookmarks.md)|
 |Start alltid en liste som vist eller skjult|Velg knappen **Vis alle** eller **Skjul alle** øverst til venstre i listen. Du kan også velge handlingen **Vis alt** eller **Skjul alt** i menyen for den første kolonnen. |Gjelder for skjuling av hierarkilister|
 
-## <a name="personalize-action-bar-and-menus"></a><a name="Actions"></a>Tilpasse handlingsraden og menyene
+## <a name="Actions"></a>Tilpasse handlingsraden og menyene
 
 Tilpasning lar deg bestemme hvilke handlinger som skal vises i navigasjons- og handlingsrader samt rollesentre, og hvor de skal vises. Du kan vise, skjule eller flytte individuelle handlinger eller handlingsgrupper.
 
@@ -92,7 +92,7 @@ En *forfremmet kategori* er en handlingsgruppe som vises før den loddrette linj
 > [!NOTE]  
 > Hvis du vil fjerne personlig tilpasning, merker du av pilhodet rundt delens utformingsmeny og velger **Fjern personlig tilpasning**.
 
-### <a name="remove-hide-and-show-actions-and-action-groups"></a>Fjerne, skjule og vise handlinger og handlingsgrupper
+### Fjerne, skjule og vise handlinger og handlingsgrupper
 
 Når du vil vise eller skjule en handling, definerer alternativene under pilspissen hva du kan gjøre, avhengig av handlingens status. 
 
@@ -105,7 +105,7 @@ Når du vil vise eller skjule en handling, definerer alternativene under pilspis
 |**Skjul**|Dette alternativet vises hvis handlingen eller handlingsgruppen ikke finnes et annet sted i navigasjons- eller handlingsfeltet. Som med **Fjern** forsvinner handlingen eller handlingsgruppen fra navigasjons- eller handlingsfeltet hvis du velger dette alternativet. Med i modusen tilpasning vises handlingen eller handlingsgruppen fremdeles på den aktuelle plasseringen, bortsett fra at den vises nedtonet.|
 |**Vis**|Dette alternativet vises hvis handlingen eller handlingsgruppen har vært skjult tidligere (nedtonet). Valg av dette alternativet gjør at handlingen eller handlingsgruppen vises i navigasjons- eller handlingsfeltet.|
 
-### <a name="move-actions-and-action-groups"></a>Flytte handlinger og handlingsgrupper
+### Flytte handlinger og handlingsgrupper
 
 Hvor du kan dra handlinger eller handlingsgrupper, vises av en vannrett linje mellom to handlinger eller en ramme rundt en handlingsgruppe. Følgende begrensninger finnes:
 
@@ -115,7 +115,7 @@ Hvor du kan dra handlinger eller handlingsgrupper, vises av en vannrett linje me
 1. For å flytte en handling eller handlingsgruppe dra og slipp den til ønsket plassering, på samme måte som med felt og kolonner.
 2. Hvis du vil flytte en handling eller handlingsgruppe til en annen handlingsgruppe som er tom, drar du handlingen eller handlingsgruppen til den nye gruppen og slipper den i boksen **Slipp en handling her**.
 
-### <a name="about-the-automate-menu"></a>Om Automatiser-menyen
+### Om Automatiser-menyen
 
 - Du kan ikke skjule eller flytte **Automatiser**-menyen eller undermenyen og handlingene på **Power Automate**.
 - Du kan flytte flytprosesser som er inkludert under elementet **Automatiser**, men du kan ikke skjule dem ved hjelp av tilpasning. Hvis du flytter flyten, kopierer du flyten til målet, men den fjernes ikke fra elementet **Automatiser**.
@@ -123,7 +123,7 @@ Hvor du kan dra handlinger eller handlingsgrupper, vises av en vannrett linje me
 > [!TIP]
 > Som administrator kan du skjule **Automatiser**-elementet fra brukere. Finn ut mer under [Definer Power Automate-integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup).
 
-## <a name="personalize-parts"></a><a name="Parts"></a>Tilpasse deler
+## <a name="Parts"></a>Tilpasse deler
 
 Pek på eller velg <kbd>Alt</kbd>+<kbd>Pil opp</kbd>Deler er områder på en side som vanligvis er satt sammen av flere felter, diagrammer eller annet innhold. En del viser en farget ramme når du fokuserer på delen. En startside for rollesenter har for eksempel flere deler. På grunn av sin veldefinerte grense, kan du tilpasse hele delen og innholdet i den.
 
@@ -133,7 +133,7 @@ Pek på eller velg <kbd>Alt</kbd>+<kbd>Pil opp</kbd>Deler er områder på en sid
 
 Du kan fjerne alle tilpassingsendringer du har gjort i én del, ved å velge alternativet **Fjern tilpassing** under delens pilspiss. Når du fjerner tilpassingen av en del, påvirkes bare endringer i innholdet i delen, ikke plasseringen eller synligheten for delen på siden.  
 
-## <a name="work-with-fields-and-columns"></a><a name="fields"></a>Arbeide med felter og kolonner
+## <a name="fields"></a> Arbeide med felter og kolonner
 
 Når du tilpasser en side, bruker du **Legg til felt på side**-ruten for å vise felt som er skjult på siden. Du åpner denne ruten ved å velge **Felt**-handlingen nær toppen av siden. I motsetning til andre elementer angis ikke skjulte felt på selve siden i tilpasningsmodus. Du kan imidlertid identifisere skjulte felt ved hjelp av ruten **Legg til felt på side** .
 
@@ -149,14 +149,14 @@ Her er noen generelle retningslinjer du kan følge når du bruker **Legg til fel
 - Noen sider har flere sidefelt som tilordnes til samme kildetabell. Ruten viser begge/alle disse sidefeltene uavhengig av hverandre. Å vise/skjule/flytte disse feltene er også uavhengig uten at det ene påvirker det andre.
 
 
-### <a name="make-a-hidden-field-visible"></a>Gjøre et skjult felt synlig
+### Gjøre et skjult felt synlig
 
 Du kan vise et felt som for øyeblikket er skjult på siden, på to måter:
 
 - Dra feltet til ønsket posisjon. En tykk vannrett eller loddrett linje angir målplasseringen.
 - Velg feltet i listen, gå deretter til det skyggelagte feltet på siden, og velg **Vis**-alternativet.
 
-## <a name="clear-personalization"></a>Fjern personlig tilpasning
+## Fjern personlig tilpasning
 
 Du ønsker kanskje på et gitt tidspunkt å angre noen eller alle tilpasningsendringene du har foretatt på en side over tid.
 
@@ -173,7 +173,7 @@ Du ønsker kanskje på et gitt tidspunkt å angre noen eller alle tilpasningsend
 |**Bare felter og kolonner**|Fjerner alle tilpassingsendringer du har gjort for handlingfeltet på siden, unntatt endringene i navigasjons- eller handlingsfeltet. Slike endringer inkluderer endringer i felter, kolonner, deler og ruter. |
 |**Alle**|Fjerner alle tilpassingsendringene du har gjort på siden, slik at den ser ut slik den gjorde opprinnelig. Slike endringer inkluderer endringer i navigasjons- eller handlingsfelt, kolonner, deler og ruter.|
 
-## <a name="tips-and-other-points-of-interest"></a>Tips og andre interessepunkter
+## Tips og andre interessepunkter
 
 Nedenfor følger noen tips som hjelper deg med å forstå tilpasning bedre.
 
@@ -184,9 +184,9 @@ Nedenfor følger noen tips som hjelper deg med å forstå tilpasning bedre.
 - Noen sider har flere sidefelt som tilordnes til samme kildetabell. Ruten viser begge/alle disse sidefeltene uavhengig av hverandre. Å vise/skjule/flytte disse feltene er også uavhengig uten at det ene påvirker det andre.
 - Hvis en del eller gruppe er skjult, vises skyggefelt fortsatt i den, men du kan ikke dra og slippe eller legge til/vise feltet før du har gjort gruppen/delen synlig.
 
-## <a name="see-related-microsoft-training"></a>Se relatert [Microsoft-opplæring](/training/modules/personalize-ui-dynamics-365-business-central/index)
+## Se relatert [Microsoft-opplæring](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
-## <a name="see-also"></a>Se også
+## Se også
 [Tilpass sider for profiler](ui-personalization-manage.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  

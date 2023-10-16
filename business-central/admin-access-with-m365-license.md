@@ -11,13 +11,13 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ---
 
-# <a name="business-central-access-with-microsoft-365-licenses"></a>Business Central-tilgang med Microsoft 365-lisenser
+# Business Central-tilgang med Microsoft 365-lisenser
 
 [!INCLUDE[prod_short](includes/prod_short.md)]-brukere tildeles en Dynamics 365 Business Central-lisens som gjør at de kan vise, endre og handle med forretningsdata fra et hvilket som helst brukergrensesnitt. For alle andre ansatte på tvers av organisasjonen som bare trenger å vise data av og til, gir Business Central tilgang gjennom Microsoft 365.  
 
 Når en organisasjon har både et Dynamics 365 Business Central- og Microsoft 365-abonnement, kan de konfigurere miljøer til å gi tilgang med Microsoft 365-lisenser og deretter velge nøyaktig hvilke tabeller og andre objekter denne kategorien av brukeren skal ha tilgang til. Når de er konfigurert, kan ansatte som har en Microsoft 365-lisens, men ingen [!INCLUDE [prod_short](includes/prod_short.md)]-lisens, vise [!INCLUDE [prod_short](includes/prod_short.md)]-oppføringer som deles med dem i Microsoft Teams-nettprat og -kanaler.
 
-## <a name="why-enable-access-with-microsoft-365-licenses"></a>Hvorfor aktivere tilgang med Microsoft 365-lisenser
+## Hvorfor aktivere tilgang med Microsoft 365-lisenser  
 
 - Få tilgang til hoveddata som hver enkelt ansatt i organisasjonen skal ha tilgang til.
 
@@ -31,11 +31,11 @@ Når en organisasjon har både et Dynamics 365 Business Central- og Microsoft 36
 
 - Forbedre datasikkerheten ved å redusere behovet for å lime inn skjermsnutter av forretningsdata utenfor datastyringsgrenser.
 
-## <a name="use-rights"></a>Bruk rettigheter
+## Bruk rettigheter
 
 Når en person får tilgang til [!INCLUDE [prod_short](includes/prod_short.md)] med en Microsoft 365-lisens, gir denne lisensen brukeren tillatelse til å lese (men ikke skrive) [!INCLUDE [prod_short](includes/prod_short.md)]-data med et forenklet brukergrensesnitt i Microsoft Teams. Denne delen forklarer disse bruksrettighetene og begrensningene som hjelper deg med å planlegge hvordan du konfigurerer og får mest mulig ut av denne funksjonen. Hvis du vil ha mer informasjon om denne lisenstypen sammenlignet med andre [!INCLUDE [prod_short](includes/prod_short.md)]-lisenser, kan du se [Lisensieringsveiledning for Dynamics 365](https://go.microsoft.com/fwlink/?LinkId=866544).
  
-### <a name="client-access"></a>Klienttilgang
+### Klienttilgang
 
 Brukere har rett til å få tilgang til [!INCLUDE [prod_short](includes/prod_short.md)]-data i Microsoft Teams. I tabellen nedenfor finner du en oversikt over de ulike tilgangsmåtene for [!INCLUDE [prod_short](includes/prod_short.md)]-tjenesten som er tillatt med denne lisensen.
 
@@ -48,15 +48,15 @@ Brukere har rett til å få tilgang til [!INCLUDE [prod_short](includes/prod_sho
 |Business Central-integreringer med andre Office-programmer|![Nei](media/x-icon.png )|
 |Business Central innebygd i andre programmer |![Nei](media/x-icon.png )|
 
-### <a name="data-access"></a>Datatilgang
+### Datatilgang
 
 Brukerne har rett til å lese tabelldata, men de kan ikke endre, opprette eller slette poster. [!INCLUDE [prod_short](includes/prod_short.md)]-plattformen forhindrer automatisk skriving til noen datatabeller.  
 
-### <a name="use-of-objects"></a>Bruk av objekter
+### Bruk av objekter
 
 Tilgang til Microsoft 365-lisenser begrenser ikke hvilke Business Central-objekter eller -objektområder det er tilgang til. Brukere har rett til å få tilgang til Microsoft-grunnprogrammet og alle utvidelser, for eksempel tilpasninger og tilleggsprogrammer.
 
-## <a name="simplified-user-interface"></a>Forenklet brukergrensesnitt
+## Forenklet brukergrensesnitt
 
 Brukere har rett til et redusert sett med funksjoner og funksjoner som leveres av [!INCLUDE [prod_short](includes/prod_short.md)] i Microsoft Teams. Tabellene nedenfor angir nevneverdige funksjoner. Dette er ikke en fullstendig liste og kan endres.
 
@@ -90,17 +90,17 @@ Funksjoner for [!INCLUDE [prod_short](includes/prod_short.md)]-klienten som er i
 |Innebygd brukerhjelp|![Ja](media/check.png) |Verktøytips, koblinger til dokumentasjon|
 |Avansert brukerhjelp |![Nei](media/x-icon.png )|Side- og feltopplæringstips, hjelperute|
 
-## <a name="minimum-requirements"></a>Minstekrav
+## Minstekrav
 
 Denne delen beskriver minimumskravene som må oppfylles for organisasjonen for å muliggjøre tilgang med Microsoft 365-lisenser og for individuelle Microsoft Teams-brukere å få tilgang til [!INCLUDE [prod_short](includes/prod_short.md)]-data uten en [!INCLUDE [prod_short](includes/prod_short.md)]-lisens.
 
-### <a name="requirements-to-enable-access"></a>Krav for å gi tilgang
+### Krav for å gi tilgang
 
 - [!INCLUDE [prod_short](includes/prod_short.md)] online (SaaS).
 
 - Miljøer må være av plattformversjon 21.1 eller nyere.
 
-### <a name="requirements-for-individual-users-to-access-data-in-teams"></a>Krav for individuelle brukere som skal ha tilgang til data i Teams
+### Krav for individuelle brukere som skal ha tilgang til data i Teams
 
 - Data må åpnes ved hjelp av [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Teams. Brukere må ha [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Teams installert og må bruke en av de støttede Teams-klientene. Hvis du vil se en liste over Teams-klienter som støttes av [!INCLUDE [prod_short](includes/prod_short.md)], kan du se [Minimumskrav for bruk av Business Central](product-requirements.md#teams).
 
@@ -123,7 +123,7 @@ Denne delen beskriver minimumskravene som må oppfylles for organisasjonen for �
   |Office 365 E5|c7df2760-2c81-4ef7-b578-5b5392b571df|
   |Office 365 F2|131fd665-5752-4995-a628-bcba5c889745|
   |Office 365 F3|4b585984-651b-448a-9e53-3b10f069cf7f|
-  |Microsoft Teams Essentials (Azure AD-identitet) |3ab6abff-666f-4424-bfb7-f0bc274ec7bc|
+  |Microsoft Teams Essentials (Microsoft Entra-identitet) |3ab6abff-666f-4424-bfb7-f0bc274ec7bc|
   
   De fleste tilbud basert på disse planene støttes også. Hvis du for eksempel abonnerer på Microsoft 365 Business Premium (ansattpris for ideelle organisasjoner), er det et bestemt tilbud for veldedige organisasjoner basert på Microsoft 365 Business Premium-planen og som derfor støttes.
 
@@ -138,11 +138,11 @@ Denne delen beskriver minimumskravene som må oppfylles for organisasjonen for �
 
 - Organisasjonen må ha minst én annen bruker som er tildelt en Dynamics 365 Business Central-lisens.
 
-## <a name="next-steps"></a>Neste trinn
+## Neste trinn
 
 - Få en forståelse av brukertilgangsflyten for å hjelpe deg med å planlegge din tilnærming og konfigurasjon av Business Central som passer til forretningsbehovene. Se [Brukertilgangsflyt](admin-access-with-m365-license-flow.md).
 - Konfigurer miljøet og brukerne for tilgang med Microsoft 365-lisenser. Se [Konfigurer tilgang med Microsoft 365-lisenser ](admin-access-with-m365-license-setup.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Business Central og Microsoft Teams-integrering](across-teams-overview.md)  

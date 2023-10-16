@@ -1,6 +1,6 @@
 ---
 title: 'Mottak, plassering, flytting, plukking og levering i avansert lageroppsett med kontrollert lagerstyring'
-description: 'I Business Central kan de utgående prosessene utføres på ulike måter, avhengig av kompleksitetsnivået til lageret.'
+description: 'Innkommende og utgående prosesser utføres på ulike måter, avhengig av kompleksitetsnivået til lageret.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -12,11 +12,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration-with-directed-put-away-and-pick"></a>Gjennomgang av inngående og utgående flyt i avansert lageroppsett med lagerstyring
+# Gjennomgang av inngående og utgående flyt i avansert lageroppsett med lagerstyring
 
 Denne gjennomgangen vis hvordan du fullfører inngående og utgående flyter i konfigurasjonen Avansert: lagerstyring Hvis du vil ha mer informasjon, kan du se [Oversikt over ulike konfigurasjonsalternativer](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Forutsetninger
+## Forutsetninger  
 Hvis du vil fullføre denne gjennomgangen, må du gjøre deg til lageransatt på lokasjonen *HVIT* ved å følge disse trinnene:  
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lageransatte**, og velg deretter den relaterte koblingen.  
 2. Velg feltet **Bruker-ID**, og velg din egen brukerkonto på siden **Brukere**.  
@@ -24,27 +24,27 @@ Hvis du vil fullføre denne gjennomgangen, må du gjøre deg til lageransatt på
 4. Aktiver vekslebryteren **Standard**.
 
 
-## <a name="scenario"></a>Scenario
+## Scenario  
 Lagerlederen Ellen bruker funksjonaliteten for kryssoverføring og etterfyllings til å øke hastigheten på mottaks- og leveringstid.  
 
-## <a name="steps"></a>Trinn
+## Trinn
 
 1. Opprett lagerlevering.  
 
     1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 2.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
-    2. Velg ordre for kunde 10000 for HVIT lokasjon. Eksternt ordrenr. er *W-1*. Bruk tilpasningsverktøyene hvis feltet **Eksternt ordrenr.** ikke vises. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](../../ui-personalization-user.md).
+    2. Velg ordre for kunde 10000 for HVIT lokasjon. Eksternt ordrenr. er *W-1*.
     3. Velg **Opprett lagerlevering**-handlingen for å opprette lagerlevering for valgt ordre.
-    4.  Velg handlingen **Frigi** for å informere lageret at salgsleveringen er klar for lagerhåndtering.  
+    4. Velg handlingen **Frigi** for å informere lageret at salgsleveringen er klar for lagerhåndtering.  
 
 2. Definer hyller for varen for å styre hvor den plasseres 
 
     1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 3.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
     2.  Velg *WRB-1000*, og velg deretter handlingen **Hylleinnhold**.  
-    3.  Velg handlingen **Ny**. Legg til to linjer. Bruk verktøyene for tilpassing hvis feltet **Hyllekode** ikke er synlig. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](../../ui-personalization-user.md). 
+    3.  Velg handlingen **Ny**. Legg til to linjer.
     
-    |Vare|Lokasjonskode|Hyllekode|Fast|Måleenhet|
+    |Element|Lokasjonskode|Hyllekode|Løst|Måleenhet|
     |----------|----------|---------|---|------|  
-    |WRB-1000|KR.SAND|A-05-0001|Ja|HANDLEKURV|  
+    |LRH-1000|KR.SAND|A-05-0001|Ja|HANDLEKURV|  
     |WRB-1000|KR.SAND|A-05-0002|Ja|HANDLEKURV|
 
 3. Opprett lagermottak.  
@@ -136,7 +136,7 @@ Lagerlederen Ellen bruker funksjonaliteten for kryssoverføring og etterfyllings
     4. Bekreft **Levering**-alternativet.
 
 
-## <a name="results"></a>Resultater
+## Resultater
 - det **bokførte lagermottaket** opprettes
 - den **registrerte lagerplasseringen** opprettes    
 - det **bokførte kjøpsmottaket** opprettes    
@@ -150,7 +150,7 @@ Lagerlederen Ellen bruker funksjonaliteten for kryssoverføring og etterfyllings
 
 
 
-## <a name="see-also"></a>Se også
+## Se også
 [Motta varer](../../warehouse-how-receive-items.md) 
 [Utformingsdetaljer: Inngående lagerflyt](../../design-details-inbound-warehouse-flow.md) 
 [Lever varer](../../warehouse-how-ship-items.md) 

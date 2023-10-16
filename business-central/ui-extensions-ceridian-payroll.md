@@ -11,7 +11,7 @@ ms.search.form: '1665,'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="the-ceridian-payroll-extension"></a>Ceridian lønn-utvidelsen
+# Ceridian lønn-utvidelsen
 
 For å ta høyde for lønnsutbetalinger og relaterte transaksjoner, må du importere og bokføre finansielle transaksjoner som er utført av lønnssystemet til Finans.
 
@@ -19,7 +19,7 @@ Hvis du vil gjøre dette, importerer du først filen som du mottar fra lønnssys
 
 Ceridian lønn-utvidselen lar deg importere lønnstransaksjoner fra Ceridian HR/Payroll (US) og Ceridian PowerPay (Canada).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Finans](finance.md)  

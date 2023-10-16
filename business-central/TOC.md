@@ -348,6 +348,11 @@
 #### [Arbeid med betalingstoleranser og toleransegrenser for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Utvidelsen Prognose for forsinket betaling](ui-extensions-late-payment-prediction.md)
 
+### Administrer e-dokumenter
+#### [Konfigurer e-dokumenter](finance-how-setup-edocuments.md)
+#### [Bruk e-dokumenter ved salg og kjøp](finance-how-use-edocuments.md)
+#### [Utvid funksjonaliteten for e-dokumenter](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### Behandle mva.
 #### [Oversikt over mva-behandling](finance-manage-vat.md)
 #### [Tredjeparts kjøpstransaksjoner for EU](finance-how-to-eu3party-trade-purchase.md)
@@ -447,9 +452,10 @@
 ### [Bokfør transaksjoner direkte i finans](finance-how-post-transactions-directly.md)
 ### [Tilbakefør kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)
 ### [Revisjonsfileksport](finance-how-to-export-audit-files.md)
-### [Tildel kostnader og inntekter](year-allocate-costs-income.md)
 ### [Registrer og refunder ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)
 ### [Periodiser inntekter og utgifter](finance-how-defer-revenue-expenses.md)
+### [Tildel gjentakende kostnader og inntekter](year-allocate-costs-income.md)
+### [Fordel inntekter og kostnader på flere finanskontoer](finance-allocate-revenue-costs.md)
 ### [Oppdater valutakurser](finance-how-update-currencies.md)
 ### [Importer lønnstransaksjoner](finance-how-import-payroll-transactions.md)
 ### [Arbeid med mva. på kjøp og salg](finance-work-with-vat.md)
@@ -585,8 +591,9 @@
 #### [Administrer samhandlinger for segmenter](marketing-interaction-segments.md)
 ### Administrer samhandlinger
 #### [Samhandlinger](marketing-interactions-overview.md)
+#### [Vedlegg for samhandlinger](marketing-interaction-attachments.md)
 #### [Registrer samhandlinger med kontakter](marketing-interactions.md)
-#### [Opprett samhandlinger på kontakter og segmenter](marketing-how-create-interactions.md)
+#### [Opprett samhandlinger for kontakter og segmenter](marketing-how-create-interactions.md)
 #### [Registrer samhandlinger med kontakter automatisk](marketing-auto-record-interactions.md)
 ### Administrer salgsmuligheter
 #### [Salgsmuligheter](marketing-manage-sales-opportunities.md)
@@ -1545,6 +1552,7 @@
 #### [Konfigurer leveringsmåter](sales-how-set-up-shipment-methods.md)
 #### [Konfigurer transportører](sales-how-to-set-up-shipping-agents.md)
 #### [Definer en fakturabokføringspolicy for brukere](admin-setup-invoice-posting-policy.md)
+#### [Oppdater dokumentdatoer med bokføringsdatoer](across-link-doc-dates-to-posting-dates.md)
 ### Konfigurer kjøp
 #### [Konfigurer kjøp](purchasing-setup-purchasing.md)
 #### [Registrer nye leverandører](purchasing-how-register-new-vendors.md)
@@ -1554,9 +1562,10 @@
 #### [Konfigurer priser og rabatter](across-prices-and-discounts.md)
 #### [Registrer spesielle kjøpspriser og rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md)
 #### [Definer en fakturabokføringspolicy for brukere](admin-setup-invoice-posting-policy.md)
+#### [Oppdater dokumentdatoer med bokføringsdatoer](across-link-doc-dates-to-posting-dates.md)
 ### Konfigurer lager
 #### [Konfigurer lager](inventory-setup-inventory.md)
-#### [Konfigurer generell informasjon om lagerbeholdning](inventory-how-setup-general.md)
+#### [Konfigurer generell lagerinformasjon](inventory-how-setup-general.md)
 #### [Arbeid med ansvarssentre](inventory-responsibility-centers.md)
 #### [Konfigurer lokasjoner](inventory-how-setup-locations.md)
 #### [Registrer nye varer](inventory-how-register-new-items.md)
@@ -1791,7 +1800,7 @@
 ### [Vanlige spørsmål om søk og filtrer](ui-search-filter-faq.yml)
 ### [Analyser sidedata i Excel](across-work-with-excel.md)
 ### [Analyser rapportdata med Excel](report-analyze-excel.md)
-### [Analyser listedata med analysemodus](analysis-mode.md)
+### [Analyser liste- og spørringsdata med analysemodus](analysis-mode.md)
 ### [Finansforretningsanalyse](bi.md)
 
 ## Innebygd analyse 

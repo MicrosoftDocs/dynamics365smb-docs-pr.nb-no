@@ -4,12 +4,12 @@ description: Oversikt over scenarioer for hvordan Contoso Coffee-demo data kan h
 ms.date: 04/01/2022
 ms.topic: article
 ms.service: dynamics365-business-central
-ms.search.form: 4760
+ms.search.form: 4764
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="introduction-to-contoso-coffee-warehousing"></a>Innføring i Contoso Coffee-lager
+# Innføring i Contoso Coffee-lager
 
 Contoso Coffee er et fiktivt selskap som produserer forbrukerkaffemaskiner og kommersielle kaffemaskiner. **Contoso Coffee**-appene for Business Central legger til demonstrasjonsdata som du kan bruke til å lære hvordan du bruker lagerfunksjonene i Business Central. Du kan konfigurere lagerfunksjoner på ulike måter, se [Oversikt over forskjellige konfigurasjonsalternativer](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
@@ -27,50 +27,30 @@ Appen har tre lokasjoner som er optimalisert for ulike scenarioer:
 
   Denne lokasjonen bruker avansert lageroppsett med lagerstyring, som gir mer avanserte regler for hvordan varer flytter seg gjennom lageret.
 
-## <a name="set-up-contoso-coffee-warehousing-data"></a>Konfigurer Contoso Coffee-lagerdata
+## Konfigurer Contoso Coffee-lagerdata
 
-For å kunne bruke Contoso Coffee-lagerdemodata må du installere to apper i det aktuelle selskapet i [!INCLUDE [prod_short](../../includes/prod_short.md)]:  
+[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
 
-- **Demodatasett for Contoso Coffee**  
+Når de relevante appene er installert, går du til siden [Demoverktøy for Contoso](https://businesscentral.dynamics.com/?page=5194)-siden i [!INCLUDE [prod_short](../../includes/prod_short.md)] , velger *Lagermoduloppsett*-linjen og bruker **Konfigurer** til å klargjøre modulene. Tabellene nedenfor beskriver innstillingene:  
 
-    Denne appen inneholder demonstrasjonsdata for basisprogrammet.  
-- **Demodatasett for Contoso Coffee (land-ID)**  
-
-    Denne appen legger til landspesifikt innhold oppå basisprogrammet.
-
-Legg til appene i et tomt selskap i et betalt abonnement eller som en del av en prøveversjon. Opprett for eksempel et nytt selskap uten eksempeldata fra den assisterte veiledningen **Opprett nytt selskap** som du kan åpne fra **Selskaper**-oversikten. Deretter legger du til appene fra [markedsplassen](../../ui-extensions-install-uninstall.md#install), hvis de ikke allerede er oppført på siden **Utvidelsesbehandling**-side.  
-
-Når de relevante appene er installert, går du til [Demodata for Contoso Coffee-lager](https://businesscentral.dynamics.com/?page=4761)-siden i [!INCLUDE [prod_short](../../includes/prod_short.md)] og endrer standardinnstillingene etter behov. Tabellen nedenfor beskriver innstillingene:  
-
-|Felt  |Beskrivelse  |
+|Felt  |Description  |
 |---------|---------|
-|**Startår** |Angir det første året du vil bruke for Contoso Coffee-demondataene. Året er enten et kalenderår eller et regnskapsår, avhengig av firmaoppsettet.|
 |**Lokasjonshylle**  |Lokasjonen som skal brukes for scenarioer for grunnleggende lokasjon.|
-|**Avansert logistikk for lokasjon**  |Lokasjonen som skal brukes for scenarioer for enkel logistikk.|
+|**Lokasjon avansert**  |Lokasjonen som skal brukes for scenarioer for enkel logistikk.|
 |**Lagerstyring for lokasjon**  |Lokasjonen som skal brukes for scenarioer for avansert logistikk.|
 |**Lokasjon i transitt**  |Lokasjonen som skal brukes for i transitt-lokasjonen i overføringsscenarioer.|
 |**Kundenr.**  |Kunden som skal brukes i grunnleggende og enkle scenarioer i salgsoperasjoner.|
 |**Leverandørnr.**  |Leverandøren som skal brukes i alle scenarioer i innkjøpsoperasjoner.|
-|**Hovedvarenr.**  |Varen som skal brukes i alle scenarioer i salgsoperasjoner.|
 |**Vare 1 nr.**  |Hovedvaren som skal brukes for alle scenarioene.|
 |**Vare 2 nr.**  |Tilleggsvaren som skal brukes for alle scenarioene.|
-|**Bokføringsgruppe - kunde**|Angir en firmakode for innenlandske kunder. Firmakodene brukes når transaksjoner bokføres. |
-|**Kunde – generell firmabokføringsgrupper**|Angir en firmakode for innenlandske kunder. Firmakodene brukes når transaksjoner bokføres. |
-|**Bokføringsgruppe - leverandør**|Angir en firmakode for innenlandske kunder og leverandører. Firmakodene brukes når transaksjoner bokføres. |
-|**Leverandør – generell firmabokføringsgrupper**|Angir en firmakode for innenlandske kunder og leverandører. Firmakodene brukes når transaksjoner bokføres. |
-|**Innenlands – mva-firmabokføringsgrupper**|Angir en mva-firmabokføringsgruppe for kunder og leverandører for bokføring av mva. hvis mva. er aktivert.|
-|**Videresalg – lagerbokføringsgruppe**    |Angir en kode for varer som må brukes for bokføring av videresalg.|
-|**Detalj – generell varebokføringsgruppe**    |Angir en kode for varer som må brukes for bokføring av detaljhandel.|
-|**Mva-bokføringsgruppe - vare**    |Angir en mva-produktkode for varer for bokføring av mva. hvis mva. er aktivert.|
-|**Prisfaktor**     |Angir en faktor for å konvertere en pris fra USD/EUR til den lokale valutaen. *1* betyr at prisen er det samme beløpet i hvilken som helst valuta. Et høyere nummer brukes til å hente prisen i lokal valuta. |
-|**Avrundingspresisjon**  |Definerer hvordan beregnet forbruksantall avrundes når de er angitt på forbrukskladdelinjer. Antall som er mindre enn 0,5 vil bli rundet ned. Antall som er større eller lik 0,5 vil bli rundet opp.|
+|**Vare 3 nr.**  |Varen med sporing.|
 
 Når du er klar, velger du **Opprett demonstrasjonsdata**-handling. Det tar noen minutter å legge til dataene i den underliggende databasen, men da er du klar til å kjøre de ulike scenarioene.  
 
 > [!IMPORTANT]
 > Hvis du kjører scenarioene, kan det være lurt å kontrollere at brukeren er lagt til for bestemte lokasjoner. Hvis du vil ha mer informasjon, kan du se [Definere lageransatte](../../warehouse-how-to-set-up-warehouse-employees.md).
 
-## <a name="scenarios"></a>Scenarier
+## Scenarier
 
 Demodata for Contoso Coffee-lager støtter nå følgende scenarioer for test og opplæring:
 
@@ -80,7 +60,7 @@ Demodata for Contoso Coffee-lager støtter nå følgende scenarioer for test og 
 
 Les trinnene for hvert scenario i den relevante artikkelen.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Definer lagerbeholdning](../../inventory-setup-inventory.md) 
 [Slik definerer du lokasjoner](../../inventory-how-setup-locations.md) 
