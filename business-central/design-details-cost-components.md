@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
 ---
-# Designdetaljer: Kostkomponenter
+# <a name="design-details-cost-components"></a>Designdetaljer: Kostkomponenter
 Kostkomponenter er ulike typer kostnader som utgjør verdien av en lagerøkning eller -reduksjon.  
 
  Tabellen nedenfor viser de ulike kostnadskomponentene og eventuelle underordnede kostnadskomponenter de består av.  
@@ -33,7 +33,7 @@ Kostkomponenter er ulike typer kostnader som utgjør verdien av en lagerøkning 
 > [!NOTE]  
 >  Frakt- og forsikringskostnader er varegebyr som kan legges til varens kostnad når som helst. Når du kjører kjørselen **Juster kostverdi - vareposter**, oppdateres verdien til tilknyttede lagerreduksjoner tilsvarende.  
 
-## Se også  
+## <a name="see-also"></a>Se også
  [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)   
  [Designdetaljer: Avvik](design-details-variance.md) [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
  [Finans](finance.md)  
