@@ -43,8 +43,6 @@ Du kan aktivere PDF- og bildefiler i elektroniske dokumenter som du kan konverte
 
 Hvis du vil ha mer informasjon, kan du se [Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md).  
 
-## Se relatert [Microsoft-opplæring](/training/modules/incoming-documents-dynamics-365-business-central/)
-
 ## Se også
 
 [Inngående dokumenter](across-income-documents.md)  

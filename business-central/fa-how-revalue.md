@@ -114,8 +114,6 @@ Hvis du ikke merket av for **Avskr. frem til aktivabokf.dato**, går aktivaet gl
 
 *Samlet avskrivning = 100 + 15 + 55,54 = 170,54*
 
-## Se relatert [Microsoft-opplæring](/training/paths/manage-advanced-fixed-assets-transactions/)
-
 ## Se også
 
 [Aktiva](fa-manage.md)  

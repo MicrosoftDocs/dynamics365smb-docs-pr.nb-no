@@ -58,12 +58,10 @@ Du kan angi datoformelen manuelt på linjer. Hvis ikke bruker [!INCLUDE[prod_sho
 3. Lagerføringsenhetskort
 4. Leverandørkort
 
-## Se relatert [Microsoft-opplæring](/training/modules/estimate-receipt-dates-dynamics-365-business-central/)
-
 ## Se også
 
 [Beregne dato for salg](sales-date-calculation-for-sales.md)  
-[Beregne ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
+[Beregn ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 

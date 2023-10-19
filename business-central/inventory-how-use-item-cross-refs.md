@@ -2,29 +2,24 @@
 title: Bruk varereferanser
 description: 'Definer referanser mellom beskrivelser, enheter og varianter som du og leverandøren eller kunden bruker for en vare.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
 ms.search.keywords: 'item reference, cross reference, inventory'
 ms.search.forms: '5737, 5735, 5736'
-ms.date: 10/27/2021
-ms.author: bholtorf
+ms.date: 10/02/2023
+ms.custom: bap-template
 ---
 # Bruk varereferanser
 
 Hvis du kjøper eller selger varer som du og leverandøren eller kunden bruker forskjellige betingelser for, kan du definere en referanse mellom betingelsene for varene og betingelsene som kunden eller leverandøren av denne varen bruker. På denne måten settes leverandørens eller kundens varebeskrivelse, enhet eller variantkode automatisk inn i de relevante dokumentene når du fyller ut feltet **Varenr.** -feltet.  
 
 > [!NOTE]
-> [!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
->
 > Ikke alle selskaper bruker varereferanser. For å få mindre rot på sider har vi skjult de relaterte feltene og handlingene som standard. Hvis du bestemmer deg for å bruke dem, velger du feltet **Bruk varereferanser** på siden **Lageroppsett**. Når du har aktivert varereferanser, er feltene og handlingene tilgjengelige på sidene Varekort, Leverandørkort og Kundekort samt fra salgs- og kjøpsdokumenter.
 >
 > I versjoner tidligere enn lanseringsbølge 2 for 2021 kan administratoren aktivere funksjonen *Skriv lengre varereferanser* på siden [Funksjonsstyring](https://businesscentral.dynamics.com/?page=2610) (koblingen krever at du har en [!INCLUDE [prod_short](includes/prod_short.md)]-leietaker). Hvordan du bruker referanser endres ikke, men navnet på ting som sider og knapper vil bli endret. Siden **Varekryssreferanseposter** vil for eksempel bli siden **Varereferanseposter**.
 
 ## Slik begynner du å bruke varereferanser
-
-[!INCLUDE [2021_releasewave2](includes/2021_releasewave2.md)]
 
 1. Velg ikonet :::image type="icon" source="media/ui-search/search_small.png" border="false":::, angi **Lageroppsett** og velg den relaterte koblingen.
 2. Velg feltet **Bruk varereferanser**.
@@ -50,9 +45,23 @@ Den følgende fremgangsmåten beskriver hvordan du angir varereferansen på en b
 
 **Beskrivelse**-feltet på linjen overskrives med leverandørens varebeskrivelse, slik den er angitt opp på varereferanseposten. Hvis varereferansen inneholder en variantkode eller en enhet, kopieres også disse verdiene til dokumentet.  
 
+## Skanne strekkoder med Business Central-mobilappen
+
+[!INCLUDE [barcode-mobile-app](includes/barcode-mobile-app.md)]
+
+Tabellene nedenfor inneholder en oversikt over sidene som støtter strekkodeskanning for varereferanser fra mobilappen [!INCLUDE [prod_short](includes/prod_short.md)].
+
+|Side  |Feltverdien du kan skanne  |
+|---------|---------|
+|Varereferanse     | Referansenr.        |
+|Varekladdelinje     | Varereferansenr.        |
+|Ordrelinje for vareopptelling     |Varereferansenr.         |
+|Bestillingslinje     |   Varereferansenr.      |
+|Salgslinje     | Varereferansenr.        |
+
 ## Se også
 
-[Registrere nye varer](inventory-how-register-new-items.md)  
+[Registrer nye varer](inventory-how-register-new-items.md)  
 [Lager](inventory-manage-inventory.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -74,8 +74,6 @@ I tillegg til prisen som er angitt på ressurskortet, kan du definere alternativ
 3. På siden **Ressurspriser** fyller du ut feltene på en linje etter behov.
 4. Gjenta trinn 3 for hvert alternativ ressurspris du vil definere.
 
-## Se relatert [Microsoft-opplæring](/training/paths/set-up-jobs-resources/)
-
 ## Se også
 
 [Konfigurer prosjektstyring](projects-setup-projects.md)  

@@ -74,12 +74,10 @@ Hvis du vanligvis kjøper eller selger i andre enheter enn lagerenhetene, kan du
 4. For kjøp åpner du siden **Vareenheter** under **Kjøpsenhet** på hurtigfanen **Etterfylling**.
 5. Velg koden du vil definere som standardenhet for salg eller kjøp, og velg deretter **OK**-knappen.
 
-## Se relatert [Microsoft-opplæring](/training/modules/trade-master-data-dynamics-365-business-central/)
-
 ## Se også
 
 [Arbeide med produksjonsbunkeenhet](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)  
-[Registrere nye varer](inventory-how-register-new-items.md)  
+[Registrer nye varer](inventory-how-register-new-items.md)  
 [Håndtere lager](inventory-manage-inventory.md)  
 [Håndtere kjøp](purchasing-manage-purchasing.md)  
 [Håndtere salg](sales-manage-sales.md)  

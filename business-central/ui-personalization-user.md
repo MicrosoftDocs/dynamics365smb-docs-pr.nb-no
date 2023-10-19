@@ -135,7 +135,7 @@ Du kan fjerne alle tilpassingsendringer du har gjort i én del, ved å velge alt
 
 ## <a name="fields"></a> Arbeide med felter og kolonner
 
-Når du tilpasser en side, bruker du **Legg til felt på side**-ruten for å vise felt som er skjult på siden. Du åpner denne ruten ved å velge **Felt**-handlingen nær toppen av siden. I motsetning til andre elementer angis ikke skjulte felt på selve siden i tilpasningsmodus. Du kan imidlertid identifisere skjulte felt ved hjelp av ruten **Legg til felt på side** .
+Når du tilpasser en side, bruker du **Legg til felt på side**-ruten for å vise felt som er skjult på siden. Du åpner denne ruten ved å velge handlingen **+ Felt** nær toppen av siden. I motsetning til andre elementer angis ikke skjulte felt på selve siden i tilpasningsmodus. Du kan imidlertid identifisere skjulte felt ved hjelp av ruten **Legg til felt på side** .
 
 Her er noen generelle retningslinjer du kan følge når du bruker **Legg til felt på side**-ruten:
 

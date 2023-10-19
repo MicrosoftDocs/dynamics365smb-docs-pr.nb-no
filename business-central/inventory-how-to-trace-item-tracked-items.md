@@ -59,8 +59,6 @@ Disse funksjonene kan være spesielt nyttige i kvalitetskontroll når du må fin
 3. I feltene **Serienr.** og **Partinr.** angir du varesporingsnumrene du vil spore.  
 4. Velg **Søk** for å finne alle forekomster av serie- eller partinummeret i databasen.  
 
-## Se relatert [Microsoft-opplæring](/training/modules/prepare-item-tracking/)
-
 ## Se også
 
 [Lager](inventory-manage-inventory.md)  

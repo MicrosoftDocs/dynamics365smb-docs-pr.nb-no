@@ -1,0 +1,124 @@
+---
+title: Konfigurere e-dokumenter
+description: Lær hvordan du konfigurerer funksjonen for e-dokumenter.
+author: altotovi
+ms.topic: conceptual
+ms.devlang: na
+ms.tgt_pltfrm: na
+ms.workload: na
+ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
+ms.search.form: '359, 360, 6103, 6133'
+ms.date: 10/05/2023
+ms.author: altotovi
+---
+
+# Konfigurere e-dokumenter
+
+> [!IMPORTANT]
+> Kjernemodulen for e-dokumenter er et rammeverk. Som standard finnes det ikke noe felt for **Dokumentformat** eller **Tjenesteintegrering**. Disse detaljene er en del av lokaliseringsapper, fordi de begge er spesifikke for lokale krav.
+
+> [!NOTE]
+> Fra og med versjon 23.1 legges et standard PEPPOL-dokumentformat til som et globalt format i **Dokumentformat**-feltet.
+
+Det første trinnet i konfigurasjonen av elektroniske dokumenter (e-dokumenter) er å konfigurere tjenesten for e-dokumenter, der du konfigurerer den fullstendige virkemåten til systemet når det gjelder kommunikasjon med e-dokumenter.
+
+## Konfigurere e-dokumenttjenesten
+
+Følg disse trinnene for å konfigurere e-dokumenttjenesten.
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **E-dokumenttjenester**, og velg deretter den relaterte koblingen.
+2. Velg **Ny**, og konfigurer deretter feltene som beskrevet i tabellen nedenfor i hurtigfanen **Generelt** på siden **E-dokumentservice**.
+
+    | Felt | Description |
+    |-------|-------------|
+    |  - kode | Velg konfigurasjonskoden for elektronisk eksport. |
+    | Description | Angir en kort beskrivelse av det elektroniske eksportoppsettet. |
+    | Dokumentformat | <p>Eksportformatet for det elektroniske eksportoppsettet.</p><p>Som standard er det ingen alternativer i dette feltet i bølge 1.</p> |
+    | Tjenesteintegrering | Velg integreringskoden for det elektroniske eksportoppsettet. I bølge 1 er det eneste alternativet **Ingen integrasjon**. |
+    | Bruk bunkebehandling | Angi om tjenesten bruker bunkebehandling for eksport. |
+
+4. Konfigurer feltene som beskrevet i tabellen nedenfor, i hurtigfanen **Importerte parametere**:
+
+    | Felt | Description |
+    |-------|-------------|
+    | Valider mottaksselskap | Angir om mottaksselskapsinformasjon må valideres under import. |
+    | Løs enhet | Angi om enheten skal løses under importen. |
+    | Varereferanse for oppslag | Angi om det skal søkes etter en vare med varereferansen under import. |
+    | Vare-GTIN for oppslag | Angi om det skal søkes etter en vare etter Global Trade Item Number (GTIN) under import. |
+    | Tildelingskonto for oppslag | Angi om det skal søkes etter en konto i **Kontotildelingen** etter den innkommende teksten under importen. |
+    | Valider linjerabatt | Angir om en linjerabatt skal valideres under import. |
+    | Bruk fakturarabatt | Angi om en fakturarabatt skal brukes under import. |
+    | Kontroller totaler | Angi om en fakturatotal skal verifiseres under import. |
+    | Oppdater ordre | Angi om tilsvarende bestilling må oppdateres. |
+    | Opprett kladdelinjer | Angi om en kladdelinje må opprettes i stedet for et kjøpsdokument. Velg dette alternativet når du vil bruke kladder som mål for fakturaene. |
+    | Finanskladdemalnavn | Angi navnet på finanskladdemalen som brukes til oppretting av kladdelinjer. Dette feltet gjelder når du vil bruke kladder som mål for fakturaene. |
+    | Finanskladdenavn | Angi navnet på finanskladden som brukes til oppretting av kladdelinjer. Dette feltet gjelder når du vil bruke kladder som mål for fakturaene. |
+    | Importer automatisk | Angi om dokumenter skal importeres automatisk fra tjenesten. |
+    | Starttidspunkt for bunke | Angi starttidspunktet for importjobber. |
+    | Minutter mellom kjøringer | Angi antall minutter mellom importjobbkjøringer. |
+
+Hvis du har konfigurert formatet **Datautvekslingsdefinisjon** i lokaliseringen, kan du legge til en linje for hver dokumenttype du trenger. Du må imidlertid først velge alternativet **Bilagstype** for hver linje du trenger. For hver datatype velger du verdien for **Importer Kode for datautveksl.def.** eller **Eksporter Kode for datautveksl.def.** du vil bruke.
+
+Hvis du ikke bruker formatet **Datautvekslingsdefinisjon**, kan du til slutt konfigurere formater via linjene **Eksporter tildeling** og **Importer tildeling**, der du kan finne tabellene og feltene som skal brukes, og konfigurere transformeringsregler hvis det er aktuelt.
+
+## Konfigurere en profil for dokumentsending
+
+Du kan definere en foretrukket metode for å sende salgsdokumenter for hver kunde. På denne måten trenger du ikke å velge et sendealternativ hver gang du velger handlingen **Bokfør og send**. På siden **Profiler for dokumentsending** definerer du ulike sendingsprofiler som velger blant dem i feltet **Profil for dokumentsending** på et kundekort. Du kan merke av for **Standard** for å angi at profilen for en dokumentsending er standardprofilen for alle kunder, bortsett fra kunder der feltet **Profil for dokumentsending** er satt til en annen sendingsprofil.
+
+Denne funksjonaliteten brukes til å konfigurere automatisering av elektronisk fakturering. Når du velger **Bokfør og send** i et salgsdokument, viser dialogboksen **Bokfør og send bekreftelse** sendingsprofilen som brukes, enten profilen som er satt opp for kunden, eller standardprofilen for alle kunder.
+
+Følg disse trinnene for å sette opp en dokumentsendingsprofil.
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") angi **Profil for dokumentsending**, og velg deretter den relaterte koblingen.
+2. På siden **Profiler for dokumentsending** velger du **Ny**.
+3. På hurtigfanen **Generelt** velger eller angir du feltinformasjon etter behov.
+4. I hurtigfanen **Sendealternativer** konfigurerer du feltene som beskrevet i tabellen nedenfor.
+
+    | Felt | Description |
+    |-------|-------------|
+    | Elektronisk dokument | Angi om dokumentet blir sendt som et e-dokument som kunden kan importere til systemet når du velger **Bokfør og send**-knappen. Hvis du vil bruke dette alternativet, må du også angi feltet **Format** eller **Flytkode for elektronisk dokumenttjeneste**. Filen kan eventuelt lagres på disken. |
+    | Format | Angi formatet som skal brukes til å sende et e-dokument. Dette feltet er påkrevd hvis du velger **Gjennom dokumentutvekslingstjeneste** i feltet **Elektronisk dokument**. |
+    | Flytkode for elektronisk dokumenttjeneste | Angi den elektroniske tjenesteflyten som brukes til sending av dokumenter. Dette feltet er påkrevd hvis du velger **Utvidet e-dokumenttjenesteflyt** i feltet **Elektronisk dokument**. |
+
+    > [!NOTE]
+    > Hvis du velger **Utvidet e-dokumenttjenesteflyt** i feltet **Elektronisk dokument** , må du allerede ha arbeidsflyten konfigurert for e-dokumentene.
+
+## Konfigurere arbeidsflyten
+
+Følg disse trinnene for å konfigurere arbeidsflyten som brukes i e-dokumentfunksjonalitet.
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Arbeidsflytmaler**, og velg deretter den relaterte koblingen.
+2. Hvis du ikke finner **vMaler for e-dokumentarbeidsflyt** på siden **Arbeidsflytmaler** , velger du **Tilbakestill Microsoft-maler**. **Maler for e-dokumentarbeidsflyt** skal da vises. Lukk siden.
+3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.
+4. Kjør handlingen **Ny arbeidsflyt fra mal** for å velge en mal for e-dokumentprosessen. De tilgjengelige malene er **Send til én tjeneste** og **Send til flere tjenester**.
+5. Velg **OK** for å fullføre arbeidsflytoppsettet.
+6. I feltet **Så svar** velger du **Send e-dokument ved hjelp av installasjonsprogrammet** for å konfigurere arbeidsflytsvarene.
+7. Velg e-dokumenttjenesten du opprettet som et alternativ, velg **OK**, og aktiver deretter arbeidsflyten.
+
+> [!NOTE]
+> Du kan opprette din egen arbeidsflyt for e-dokumenter uten å bruke forhåndsdefinerte arbeidsflytmaler. Hvis du har flere tjenester, kan du bruke forskjellige arbeidsflyter.
+
+## Konfigurere en oppbevaringspolicy for e-dokumenter
+
+E-dokumenter kan være underlagt ulike lokale lover som er knyttet til perioden som e-dokumentene oppbevares. Derfor har vi lagt til et oppsett for oppbevaringspolicy for all viktig informasjon som er knyttet til e-dokumenter. Administratorer kan definere oppbevaringspolicyer som angir hvor ofte Dynamics 365 Business Central sletter utdaterte poster som er relatert til e-dokumenter. Hvis du vil finne ut mer om oppbevaringspolicyer, kan du se [Definer oppbevaringspolicyer](admin-data-retention-policies.md).
+
+Hvis du vil konfigurere e-dokumentrelaterte oppbevaringspolicyer, gjør du følgende.
+
+1. Kjør handlingen **Oppbevaringspolicy** på siden **E-dokumenttjenester**.
+2. Når handlingen er fullført, velger du en av følgende oppbevaringspolicyer for å konfigurere:
+
+    - E-dokumentlogg
+    - Logg for e-dokumentintegrering
+    - Tildelingslogg for e-dokument
+    - Datalager for e-dokument
+
+## Se også
+
+[Konfigurere e-dokumenter i Business Central](finance-how-use-edocuments.md)  
+[Utvide e-dokumenter i Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
+[Økonomistyring](finance.md)  
+[Fakturer salg](sales-how-invoice-sales.md)  
+[Registrere kjøp med kjøpsfakturaer og ordrer](purchasing-how-record-purchases.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

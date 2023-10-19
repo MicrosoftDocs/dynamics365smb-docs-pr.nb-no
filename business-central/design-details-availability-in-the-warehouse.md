@@ -73,6 +73,10 @@ Resultatet vises i feltet **Totalt disp. antall** på **Reservasjon**-siden.
 
 Antallet som ikke kan reserveres på en reservasjonslinje fordi det er tildelt i lageret, vises i feltet **Tildelt antall på lager** på **Reservasjon**-siden.  
 
+## Kontrollere om varene er tilgjengelige for plukking
+
+[!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
+
 ### Beregn antall tilgjengelig for reservasjon
 
 [!INCLUDE [prod_short](includes/prod_short.md)] beregner antallet som er disponibelt for reservasjon, som følger:  
@@ -85,8 +89,8 @@ Diagrammet nedenfor viser de ulike elementene i beregningen.
 
 ## Se også  
 
-[Oversikt over Warehouse Management](design-details-warehouse-management.md)
-[Vis tilgjengelighet for varer](inventory-how-availability-overview.md)
-
+[Oversikt over lagerstyring](design-details-warehouse-management.md)
+[Vis tilgjengeligheten av varer](inventory-how-availability-overview.md)
+[Plukke for produksjon, montering eller jobber i avanserte lageroppsett](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

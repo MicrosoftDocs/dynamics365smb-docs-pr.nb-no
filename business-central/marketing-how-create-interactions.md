@@ -1,52 +1,55 @@
 ---
-title: Opprette samhandlinger på kontakter og segmenter
-description: 'Beskriver hvordan du kan opprette samhandlinger for kommunikasjon du har med kontaktene og segmentene i Business Central, for eksempel direktereklame.'
-documentationcenter: ''
-author: jswymer
+title: Opprett samhandlinger på kontakter og segmenter
+description: 'Lær hvordan du kan opprette samhandlinger i Business Central for kommunikasjon du har med kontaktene og segmentene, for eksempel direktereklame.'
+author: brentholtorf
+ms.author: bholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.reviewer: ivkoleti
+ms.date: 04/01/2021
+ms.custom: bap-template
 ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
-ms.date: 04/01/2021
-ms.author: jswymer
 ---
-# <a name="create-interactions-on-contacts-and-segments"></a>Opprette samhandlinger på kontakter og segmenter
-Du kan opprette samhandlinger hvis du vil registrere all samhandling og kommunikasjon med kontaktene og segmentene, for eksempel utsendinger.
+# Opprett samhandlinger på kontakter og segmenter
 
-Før du kan opprette samhandlinger, må du definere samhandlingsmaler. Hvis du vil ha mer informasjon, kan du se [Definere samhandlingsmaler](marketing-interactions.md).
+Du kan opprette samhandlinger for å spore kommunikasjonen du har med én enkelt kontakt, eller med flere kontakter i segmentene. Hvis du vil gjøre det enkelt å opprette samhandlinger, har [!INCLUDE [prod_short](includes/prod_short.md)] den assisterte oppsettsveiledningen **Opprett samhandling** . Guiden hjelper deg med å fange opp viktige detaljer om interaksjonen.
 
-## <a name="to-create-an-interaction-with-a-contact"></a>Slik oppretter du en samhandling
-1. Åpne kontakt-, selger- eller samhandlingsposten.
+Før du kan opprette samhandlinger, må du imidlertid definere samhandlingsmaler. Hvis du vil lære mer om interaksjonsmaler, kan du gå til [Konfigurer samhandlingsmaler](marketing-interactions.md)
+
+## Opprette en samhandling med en kontakt
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") -ikonet , angi du **Kontakter**, **Selger** eller **Samhandlingspost**, og velg den relaterte koblingen.
 2. Velg handlingen **Opprett samhandling**.
-3. Fyll ut feltene, og klikk deretter **OK**.
+3. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]  
->   Hvis du må utføre en annen oppgave før du fullfører samhandlingen, kan du velge **Avbryt** og deretter velge å fullføre samhandlingen på et senere tidspunkt. Dette utsetter samhandlingen.
+> Hvis du må stoppe før du har fullført samhandlingen, kan du velge **Avbryt** og deretter angi om du vil lagre innstillingene slik at du kan fortsette senere. Hvis du vil vite mer om utsatte samhandlinger, kan du gå til [Slik fullfører du konfigurasjonen av en utsatt samhandling](#to-finish-setting-up-a-postponed-interaction).
 
-## <a name="to-create-an-interaction-on-a-segment"></a>Fullføre og slette utsatte samhandlinger
-1. Åpne kontakt-, selger- eller samhandlingsposten.
-2. Velg **Utsatte samhandlinger**.
-3. Velg samhandlingen du vil fullføre, og velg deretter handlingen **Fortsett**.
+## Opprette en samhandling på et segment
 
-## <a name="to-finish-setting-up-a-postponed-interaction"></a>Opprette en samhandling på et segment
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Segmenter**, og velg deretter den relaterte koblingen.
-2. Fyll ut feltene i inndelingen **Samhandling** på **Segment**-siden for å angi hvilken samhandling du vil tilordne segmentet.
+2. Velg handlingen **Opprett samhandling**.
+3. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-    Etter at du har tilordnet en samhandling til segmentet, kan du tilpasse samhandlingen for hver enkelt kontakt i segmentet, for eksempel ved å velge en annen samhandlingsmal på linjene på siden **Segment**.  
-3. Hvis du vil loggføre segmentet og samhandlinger, velger du handlingen **Logg**. **Loggfør segment**-siden åpnes.
-4. Hvis du vil opprette et nytt segment som inneholder de samme kontaktene, merker du av for **Opprett oppfølgingssegment**. Du må ha angitt nummerserier for segmenter på siden **Markedsføringsoppsett** for å opprette et oppfølgingssegment.
+> [!TIP]
+> Når du har tilordnet en samhandling til et segment, finnes det flere andre handlinger du kan utføre på **Segment**-siden :
+>
+> * Tilpasse samhandlingen for hver enkelt kontakt i segmentet, for eksempel ved å velge en annen samhandlingsmal på linjene.  
+>* Loggfør segmentet og samhandlingene ved å velge handlingen **Logg** for å åpne sidne **Loggfør segment**.
+> * Opprett et nytt segment som inneholder de samme kontaktene ved merke av for **Opprett oppfølgingssegment**. Denne innstillingen krever at det er angitt en nummerserie for segmenter på siden **Markedsføringsoppsett** .
 
 En samhandling registreres for hver kontakt i segmentet i tabellen **Samhandlingspost**, og segmentet loggføres. Du finner loggførte segmenter på siden **Loggførte segmenter**.
 
-Hvis du har merket av for **Opprett oppfølgingssegment**, opprettes et nytt segment som inneholder de samme kontaktene som segmentet du nettopp loggførte.
+## Slik fullfører du oppsett av en utsatt samhandling
 
-## <a name="see-also"></a>Se også
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utsatte samhandlinger**, og velg deretter den relaterte koblingen.
+2. Velg samhandlingen du vil fullføre, og velg deretter handlingen **Fortsett**.
+
+## Se også
+
 [Registrere samhandlinger](marketing-interactions.md)  
 [Administrere kontakter](marketing-contacts.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Arbeid med Business Central](ui-work-product.md)
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
