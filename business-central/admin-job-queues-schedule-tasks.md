@@ -35,7 +35,12 @@ Når jobbkøer er satt opp og kjører, kan statusen endres på følgende måte i
 > [!NOTE]
 > Statusen **Avvent på grunn av inaktivitet** brukes primært til prosjektkøoppføringer som planlegger synkronisering mellom [!INCLUDE [prod_short](includes/prod_short.md)] og et annet program, for eksempel [!INCLUDE [cds_long_md](includes/cds_long_md.md)]. Hvis du vil vite mer om denne statusen, kan du gå til [Om tidsavbrudd for inaktivitet](/dynamics365/business-central/admin-scheduled-synchronization-using-the-synchronization-job-queue-entries#about-inactivity-timeouts).
 
-Etter at en jobb er fullført, fjernes den fra listen over jobbkøposter med mindre den er en gjentakende jobb. Hvis det er gjentakende jobber, justeres feltet **Tidligste starttidspunkt** til å vise neste gang jobben skal kjøres.  
+Etter at en jobb er fullført, fjernes den fra listen over jobbkøposter med mindre den er en gjentakende jobb. Hvis det er gjentakende jobber, justeres feltet **Tidligste starttidspunkt** til å vise neste gang jobben skal kjøres. 
+
+## Viktig for planlegging av gjentakende prosjekter
+
+> [!IMPORTANT]  
+> Gjentakende prosjektkøer kan påvirke ytelsen, så du bør ikke kjøre dem for ofte. Når du angir hvor ofte et gjentakende prosjekt skal kjøres, kan du prøve å angi det største tidsintervallet du kan. Hvis du for eksempel er i ferd med å angi en gjentakelse på fem minutter, bør du vurdere om det kan være 15 minutter eller til og med en gang i timen i stedet. Når du planlegger regelmessige prosjektkøer, må du vurdere hvilke områder av programmet prosjektet vil påvirke. Er det et område hvor mange brukere jobber og blir påvirket av stor aktivitet? Vurder lengden på en enkelt prosjektkjøring og forretningsmotivasjonene for å kjøre prosjekter med en gitt frekvens.
 
 ## Tidligste startdato
 

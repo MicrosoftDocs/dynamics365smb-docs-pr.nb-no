@@ -139,6 +139,13 @@ Du kan bruke en ekstern tjeneste for å holde valutakurser oppdatert, for eksemp
 
 Verdien i **Valutakurs**-feltet på **Valutaer**-siden oppdateres med den nyeste valutakursen.
 
+## Korriger feil
+
+Nå og da må du kanskje korrigere en feil i en betalingstransaksjon som er knyttet til justeringer av fortjeneste og tap i utenlandsk valuta. Du kan bruke handlingen **Tilbakefør transaksjon** på sidene **Bankposter**, **Kundeposter** og **Leverandørposter** til å oppheve og tilbakeføre betalingstransaksjonen.
+
+> [!NOTE]
+> Når du opphever utligningen og tilbakefører en betaling for en post som hadde valutakursjusteringer tilknyttet, bokfører tilbakeføringspostene for justeringene. Du må kanskje kjøre justeringen av valutakursen på nytt for å få riktig nåværende saldo.
+
 ## Se også
 
 [Valutaer i Business Central](finance-currencies.md)  
