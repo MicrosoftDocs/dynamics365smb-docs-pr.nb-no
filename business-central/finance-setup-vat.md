@@ -21,7 +21,7 @@ Forbrukere og selskaper betaler merverdiavgift (mva) når de kjøper varer eller
 * Hva du selger  
 * Hva du kjøper  
 
-Du kan definere mva-beregninger manuelt, men som kan være vanskelig og tidkrevende. Det er fordi det er svært enkelt å bruke forskjellige mva-satser ved en feiltakelse, og opprette unøyaktige mva-relaterte rapporter. For å gjøre det enklere å konfigurere mva. anbefaler vi at du bruker det assisterte oppsettet **Mva-oppsett** som du finner i produktet. 
+Du kan definere mva-beregninger manuelt, men som kan være vanskelig og tidkrevende. Det er enkelt å bruke forskjellige mva-satser ved en feiltakelse, og opprette unøyaktige mva-relaterte rapporter. For å gjøre det enklere å konfigurere mva. anbefaler vi at du bruker det assisterte oppsettet **Mva-oppsett** som du finner i produktet. 
 
 Hvis du imidlertid vil definere mva-beregninger selv, eller bare vil lære mer om hvert trinn, inneholder denne artikkelen beskrivelser av hvert trinn:  
 
@@ -75,7 +75,7 @@ Følg denne fremgangsmåten for å definere nivået av mva-datobruk:
 |--------------------|-----------------------------------------|
 | **Bruk hele funksjonaliteten for mva-dato** | Alt som er knyttet til **mva-dato** fungerer som standard, noe som gir deg den maksimal funksjonalitet for **mva-dato**. Du kan definere datoen, endre den i dokumenter, rapportere basert på den og endre datoen etter bokføringen så lenge perioden ikke er lukket eller beskyttet med tillatte datoer for bokføring. |
 | **Bruk og ikke tillat endringer** | Alt som er knyttet til **mva-dato** fungerer som standard med ett unntak. Du kan ikke endre **mva-datoen** i **mva-poster**. |
-| **Ikke bruk funksjonaliteten for mva-dato** | [!INCLUDE [prod_short](includes/prod_short.md)] vil skjule og gjøre **mva-datofeltene** ikke tilgjengelig for dokumenter, kladder og poster. **Standard mva-dato** blir konfigurert som **bokføringsdatoen**. |
+| **Ikke bruk funksjonaliteten for mva-dato** | [!INCLUDE [prod_short](includes/prod_short.md)] vil skjule og gjøre **mva-datofeltene** ikke tilgjengelig for dokumenter, kladder og poster. **Standard mva-dato** er konfigurert som **bokføringsdatoen**. |
 
 3. Lukk siden.
 
@@ -96,12 +96,37 @@ Du kan forhindre at andre bokfører eller endrer mva-poster i bestemte datointer
 
 | Type | Beskrivelse |
 |--------------------|-----------------------------------------|
-| **Blokker bokføring innenfor lukket og varsle for frigitt periode** | Forhindre at andre bokfører et dokument eller en kladd, eller endrer mva-poster, som har en mva-dato i en lukket **mva-returperiode**. [!INCLUDE [prod_short](includes/prod_short.md)] vil også vise en advarsel hvis **mva-returperioden** er åpen, men statusen for **mva-returen** er **Frigitt** eller **Sendt**. |
+| **Blokker bokføring innenfor lukket og varsle for frigitt periode** | Forhindre at andre bokfører et dokument eller en kladd, eller endrer mva-poster, som har en mva-dato i en lukket **mva-returperiode**. [!INCLUDE [prod_short](includes/prod_short.md)] viser også en advarsel hvis **mva-returperioden** er åpen, men statusen for **mva-returen** er **Frigitt** eller **Sendt**. |
 | **Blokker bokføring innenfor lukket periode** | Forhindre at andre bokfører et dokument eller en kladd, eller endrer mva-poster, som har en mva-dato i en lukket **mva-returperiode**. |
 | **Varsle ved bokføring i lukket periode** | Vis en advarsel, men ikke blokker bokføring, hvis du vil bokføre et dokument eller en journal som har en mva-dato i en lukket **mva-returperiode**. |
 | **Deaktivert** | Ikke gjør noe basert på en lukket **mva-returperiode**. |
 
-#### Slik begrenser du bokføring basert på Tillatt fra/til-periode
+#### Begrens bokføring basert på Tillatt fra/til-periode
+
+> [!NOTE]
+> Fra og med Business Central-versjon 23.1 er denne kontrollen endret. I tidligere versjoner var det bare én kontroll på siden **Finansoppsett** for både bokføringsdato og mva-dato. Nå er disse kontrollene delt slik at kontrollen på siden **Finansoppsett** bare er for **bokføringsdatoen** og kontrollen på siden **Mva-oppsett** bare er for **mva-datoen**. Det finnes også nye datokontroller på siden **Brukeroppsett**.  
+
+##### Versjon 23.1 eller nyere
+
+> [!IMPORTANT]
+> Når du oppgraderer til en ny versjon, må du være oppmerksom på at verdier oppgraderes i den nye **Tillat mva-dato fra/til** på siden **Mva-oppsett** basert på verdiene i **Tillat bokføring fra/til** i **finansoppsettet**. Hvis du vil bruke forskjellige datokontroller, åpner du siden **Mva-oppsett** og foretar endringer.  
+
+Du kan definere begrensninger på selskapet eller på bestemte brukernivåer.
+
+Slik begrenser du alle bokføringer for hele selskapet:
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-oppsett** og velg den relaterte koblingen.  
+2. På hurtigfanen **Mva-dato** angir du mva-datoen det kan bokføres fra, i feltet **Tillat mva-dato fra**. Bokføring av et dokument eller en kladd med en mva-dato før denne datoen, er ikke tillatt.  
+3. På hurtigfanen **Mva-dato** angir du mva-datoen det kan bokføres til, i feltet **Tillat mva-dato til**. Bokføring av et dokument eller en kladd med en mva-dato etter denne datoen, er ikke tillatt. 
+
+Slik begrenser du bokføringer for en bestemt bruker:  
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukeroppsett** og velg den relaterte koblingen.  
+2. I feltet **Bruker-ID** angir du brukeren tillatt å bokføre i en bestemt periode.  
+3. Angi mva-datoen det kan bokføres fra, i feltet **Tillat mva-dato fra**. Bokføring av et dokument eller en kladd med en mva-dato før denne datoen, er ikke tillatt. 
+4. Angi mva-datoen det kan bokføres til, i feltet **Tillat mva-dato til**. Bokføring av et dokument eller en kladd med en mva-dato etter denne datoen, er ikke tillatt.  
+
+##### Versjoner før 23.1 
 
 Du kan definere begrensning på selskapsnivåer eller bestemte brukernivåer.
 
@@ -114,7 +139,7 @@ Slik begrenser du alle bokføringer for hele selskapet:
 Slik begrenser du bokføringer for en bestemt bruker:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukeroppsett** og velg den relaterte koblingen.  
-2. I feltet **Bruker-ID** angir du brukeren du vil tillate å bokføre i en bestemt periode.  
+2. I feltet **Bruker-ID** angir du brukeren tillatt å bokføre i en bestemt periode.  
 3. Angi mva-datoen det kan bokføres fra, i feltet **Tillat bokføring fra**. Bokføring av et dokument eller en kladd med en mva-dato før denne datoen, er ikke tillatt.
 4. Angi mva-datoen det kan bokføres til, i feltet **Tillat bokføring til**. Bokføring av et dokument eller en kladd med en mva-dato etter denne datoen, er ikke tillatt.
 
@@ -122,7 +147,7 @@ Slik begrenser du bokføringer for en bestemt bruker:
 
 Du kan definere formater for organisasjonsnumre som brukes i land og områder som du handler med, for å sikre at det angis gyldige organisasjonsnumre. [!INCLUDE[prod_short](includes/prod_short.md)] viser en feilmelding hvis noen gjør en feil eller bruker et format som er feil for landet eller området.
 
-Gjør følgende for å definere organisasjonsnumre:
+Gjør følgende for å konfigurere organisasjonsnumre:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 2.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Land/områder**.
 2. Velg landet eller området, og velger deretter handlingen **Formater for org.nr.**.
@@ -213,7 +238,7 @@ Hvis det er nødvendig, kan du også angi hvordan du kan oversette mva-setningsd
 
 Når ikke-standard mva-satser brukes i forskjellige typer dokumenter, for eksempel fakturaer eller kreditnotaer, må selskaper vanligvis inkludere en unntakstekst (mva-setning) som angir hvorfor en redusert mva eller null mva-sats er beregnet. Du kan definere forskjellige mva-setninger som skal være med i forretningsdokumenter i henhold til dokumenttypen, for eksempel faktura eller kreditnota. Dette gjør du på siden **Mva-setninger etter dokumenttype**.
 
-Du kan endre eller slette en mva-setning, og endringene gjenspeiles i genererte rapporter. [!INCLUDE[prod_short](includes/prod_short.md)] beholder i imidlertid ikke historikk av endringen. Mva-setningsbeskrivelsene skrives ut på rapporten og vises for alle linjene i rapporten ved siden av mva-beløpet og mva-grunnlagsbeløpet. Hvis det ikke er definert en mva-setning for alle linjene i salgsdokumentet, utelates hele delen når rapporten skrives ut.
+Du kan endre eller slette en mva-setning, og endringene gjenspeiles i genererte rapporter. [!INCLUDE[prod_short](includes/prod_short.md)] beholder imidlertid ikke historikk av endringen. Mva-setningsbeskrivelsene skrives ut på rapporten og vises for alle linjene i rapporten ved siden av mva-beløpet og mva-grunnlagsbeløpet. Hvis det ikke er definert en mva-setning for alle linjene i salgsdokumentet, utelates hele delen når rapporten skrives ut.
 
 ### Opprette mva-setninger
 
@@ -278,7 +303,7 @@ Enkelte selskaper må bruke snudd avregning ved handel med andre selskaper. Denn
 
 ### Salg til EU-land eller -regioner
 
-Mva beregnes ikke på salg til mva-pliktige selskaper i andre EU-land/-regioner. Du må rapportere verdien av slike salg til EU-land/-regioner separat i mva-oppgaven.  
+Mva beregnes ikke på salg til mva-pliktige selskaper i andre EU-land/-områder. Du må rapportere verdien av slike salg til EU-land/-regioner separat i mva-oppgaven.  
 
 For å beregne riktig mva på salg til EU-land /-regioner bør du:  
 

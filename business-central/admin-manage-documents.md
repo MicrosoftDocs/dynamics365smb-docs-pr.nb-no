@@ -7,14 +7,14 @@ ms.search.form: '107, 9035, 9040'
 ms.date: 09/14/2022
 ms.author: bholtorf
 ---
-# <a name="manage-storage-by-deleting-documents-or-compressing-data"></a>Behandle lagring ved å slette dokumenter eller komprimere data
+# Behandle lagring ved å slette dokumenter eller komprimere data
 
 En sentral rolle, for eksempel programadministrator, må regelmessig håndtere oppsamlede historiske dokumenter ved å slette eller komprimere dem.  
 
 > [!TIP]
 > Hvis du vil ha informasjon om andre måter å redusere mengden data som er lagret i en database på, kan du se [Redusere data som er lagret i Business Central-databaser ](/dynamics365/business-central/dev-itpro/administration/database-reduce-data) i dokumentasjonen for utviklere og IT-eksperter.
 
-## <a name="delete-documents"></a>Slette dokumenter
+## Slette dokumenter
 
 I enkelte situasjoner kan det hende du må slette fakturerte bestillinger. Du kan imidlertid ikke slette dem med mindre du har fullstendig fakturert og mottatt varene i bestillingene. [!INCLUDE[prod_short](includes/prod_short.md)] hjelper deg med å se etter det.
 
@@ -26,7 +26,7 @@ Fakturerte serviceordrer slettes vanligvis automatisk etter at de er fullstendig
 
 Serviceordrer slettes imidlertid ikke automatisk hvis det totale antallet i ordren ikke er bokført fra siden **Servicefaktura** i stedet for fra selve serviceordren. Du må kanskje slette slike fakturerte ordrer manuelt ved å utføre kjørselen **Slett fakturerte serviceordrer**.  
 
-## <a name="compress-data-with-date-compression"></a>Komprimere data med datokomprimering
+## Komprimere data med datokomprimering
 
 Du kan komprimere data i [!INCLUDE [prod_short](includes/prod_short.md)] for å spare plass i databasen, som i [!INCLUDE [prod_short](includes/prod_short.md)] online til og med kan spare deg for penger. Komprimeringen, som er basert på datoer og funksjoner, fungerer ved å kombinere flere gamle poster til én ny post.
 
@@ -55,7 +55,7 @@ Når du definerer kriterier for komprimeringen, kan du bruke beholde innholdet a
 
 Etter komprimeringen beholdes alltid innholdet i følgende felt: **Bokføringsdato**, **Leverandørnr.**, **Bilagstype**, **Valutakode**, **Bokføringsgruppe**, **Beløp**, **Restbeløp**, **Opprinnelig beløp (LV)**, **Restbeløp (LV)**, **Beløp (LV)**, **Kjøp (LV)**, **Fakturarabatt (LV)**, **Kont.rabatt gitt (LV)** og **Mulig kont.rabatt**.
 
-## <a name="posting-compressed-entries"></a>Bokføre komprimerte poster
+## Bokføre komprimerte poster
 
 Komprimerte poster bokføres litt forskjellig fra standardbokføring. Dette er for å redusere antallet nye finansposter som opprettes ved hjelp av datokomprimering, og er spesielt viktig når du lagrer informasjon som dimensjoner og dokumentnumre. Datokomprimering oppretter nye oppføringer på følgende måte:
 
@@ -72,7 +72,7 @@ Hvor mange poster det kommer ut av en datokomprimering, avhenger av hvor mange f
 > [!WARNING]
 > Datokomprimering sletter poster, du bør derfor alltid ta en sikkerhetskopi av databasen før du starter kjørselen.
 
-### <a name="to-run-a-date-compression"></a>Slik kjører du en datokomprimering
+### Slik kjører du en datokomprimering
 
 1. Velg ikonet ![Søk etter side eller rapport](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport"), angi **Dataadministrasjon**, og velg deretter den relaterte koblingen.
 2. Gjør ett av følgende:
@@ -82,7 +82,7 @@ Hvor mange poster det kommer ut av en datokomprimering, avhenger av hvor mange f
    > [!NOTE]
    > Du kan bare komprimere data som er mer enn fem år gamle. Hvis du vil komprimere data som er mindre enn fem år gamle, kontakter du Microsoft-partneren din.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrasjon](admin-setup-and-administration.md)  
 

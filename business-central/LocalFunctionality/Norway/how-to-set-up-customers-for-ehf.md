@@ -11,12 +11,12 @@ ms.search.form: '21, 459'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ---
-# <a name="set-up-customers-for-ehf"></a>Sette opp kunder for EHF
+# Sette opp kunder for EHF
 Hvis du vil opprette dokumenter i Elektronisk Handelsformat (EHF) for kunder i offentlig sektor, må du legge til EHF-informasjon for de aktuelle kundene.  
 
 Dette emnet beskriver bare felt som gjelder EHF. Hvis du vil ha mer informasjon om hvordan du konfigurerer kunder generelt, se [Registrere nye kunder](../../sales-how-register-new-customers.md).  
 
-## <a name="to-set-up-a-customer-that-uses-elektronisk-handelsformat"></a>Slik definerer du en kunde som bruker Elektronisk Handelsformat:
+## Slik definerer du en kunde som bruker Elektronisk Handelsformat:  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.  
 2.  Åpne kunden du vil aktivere for EHF.  
@@ -31,7 +31,7 @@ Dette emnet beskriver bare felt som gjelder EHF. Hvis du vil ha mer informasjon 
 
 Disse feltene er spesifikke for EHF. Verdiene brukes i alle EHF-dokumenter du oppretter for denne kunden. Hvis du vil ha mer informasjon, se [EHF – Elektronisk fakturering i Norge](ehf-electronic-invoicing-in-norway.md).  
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Opprette elektroniske dokumenter for EHF](how-to-create-electronic-documents-for-ehf.md)   
  [Angi EHF](how-to-set-up-ehf.md)
 

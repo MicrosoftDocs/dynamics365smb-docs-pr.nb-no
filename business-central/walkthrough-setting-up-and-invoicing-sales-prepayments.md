@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 12/03/2021
 ms.author: bholtorf
 ---
-# <a name="walkthrough-setting-up-and-invoicing-sales-prepayments"></a>Gjennomgang: konfigurere og fakturere salgsforskudd
+# Gjennomgang: konfigurere og fakturere salgsforskudd
 
 Denne gjennomgangen tar deg gjennom prosessen med å definere og bruke forskuddsbetalinger i [!INCLUDE [prod_short](includes/prod_short.md)]. [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -18,7 +18,7 @@ Denne gjennomgangen tar deg gjennom prosessen med å definere og bruke forskudds
 
 Du kan for eksempel sende flere forskuddsfakturaer hvis flere varer blir lagt til i ordren.  
 
-## <a name="about-this-walkthrough"></a>Denne gjennomgangen
+## Denne gjennomgangen  
 
 Denne gjennomgangen leder deg gjennom følgende scenarier:  
 
@@ -29,7 +29,7 @@ Denne gjennomgangen leder deg gjennom følgende scenarier:
 - Utligne forskuddsbetalinger mot en ordre  
 - Fakturere det endelige beløpet i en ordre med forskudd  
 
-### <a name="roles"></a>Roller
+### Roller
 
 Denne gjennomgangen omfatter oppgaver for følgende roller:  
 
@@ -37,7 +37,7 @@ Denne gjennomgangen omfatter oppgaver for følgende roller:
 - Ordrebehandler (Heidi)  
 - Kundeansvarlig (Magnus)  
 
-## <a name="story"></a>Hovedscenario
+## Hovedscenario
 
  Phyllis er en regnskapssjef og gjør beslutninger om hvilke kunder som må betale depositum før varer produseres eller leveres. Jenny konfigurerer [!INCLUDE[prod_short](includes/prod_short.md)] til å beregne forskuddsbetalinger automatisk.  
 
@@ -53,7 +53,7 @@ Denne gjennomgangen omfatter oppgaver for følgende roller:
 
  Magnus registrerer kundens betaling og utligner den mot fakturaene, og deretter sender han den endelige fakturaen.  
 
-## <a name="set-up-prepayments"></a>Definerer forskudd
+## Definerer forskudd
 
 Jenny konfigurerer systemet slik at det kan håndtere forskuddsbetalinger for kunder.  
 
@@ -63,13 +63,13 @@ Jenny konfigurerer systemet slik at det kan håndtere forskuddsbetalinger for ku
 
 Følgende fremgangsmåte beskriver hvordan du fullfører oppgavene til Jenny:  
 
-### <a name="to-set-up-number-series-for-prepayments"></a>Slik definerer du en nummerserie for forskuddsbetalinger:
+### Slik definerer du en nummerserie for forskuddsbetalinger:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgsoppsett**, og velg deretter den relaterte koblingen.  
 2. Vis hurtigfanen **Nummerserier** på **Salgsoppsett**-siden.  
 3. Kontroller at nummerserien for bokførte forskuddsfakturaer i feltet **Bokførte fakturanumre for forskudd** er den samme som for bokførte salgsfakturaer (**Bokførte fakturanr.**), og at nummerserien for bokførte kreditnotaer for forskudd (**Bokførte kreditnotanumre for forskudd**) er den samme som for bokførte kreditnotaer (**Bokførte kreditnotanr.**).  
 
-### <a name="to-block-shipments-for-unpaid-prepayment"></a>Slik sperrer du leveringer ved ubetalt forskudd
+### Slik sperrer du leveringer ved ubetalt forskudd
 
 1. Merk av for **Kontroller forskudd ved bokføring** på hurtigfanen **Generelt** på siden **Salgsoppsett**.
 
@@ -79,7 +79,7 @@ Jenny krever at kunde 20000 som standard faktureres for et avdrag på 30 % i all
 
 Jenny krever at alle kunder faktureres for et depositum på 20 % for vare 1896-S. Kunde 20000 har en dårlig betalingshistorikk, så Phyllis krever et forskudd på 40 % fra kunde 20000 for vare 1896-S. Fremgangsmåten nedenfor viser hvordan du konfigurerer standard forskuddsprosent.  
 
-### <a name="to-assign-default-prepayment-percentages-to-customers-and-items"></a>Slik tilordner du standard forskuddsprosenter til kunder og varer:
+### Slik tilordner du standard forskuddsprosenter til kunder og varer:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.  
 2. Åpne kortet for kunde 20000 (Trey Research).
@@ -97,7 +97,7 @@ Jenny krever at alle kunder faktureres for et depositum på 20 % for vare 1896-S
 
 6. Lukk alle sider.  
 
-### <a name="to-specify-an-account-for-sales-prepayments-in-general-posting-setup"></a>Slik angir du en konto for salgsforskudd i generelt bokføringsoppsett:
+### Slik angir du en konto for salgsforskudd i generelt bokføringsoppsett:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
 2. Velg linjen hvor feltet **Bokføringsgruppe – firma** er satt til **INNLAND**, og feltet **Bokføringsgruppe – vare** er satt til **DETALJ**.  
@@ -106,7 +106,7 @@ Jenny krever at alle kunder faktureres for et depositum på 20 % for vare 1896-S
 > [!TIP]
 > Hvis du ikke kan se feltet på siden **Generelt bokføringsoppsett**, bruker du det vannrette rullefeltet nederst på siden til å bla til høyre.  
 
-## <a name="create-an-order-that-requires-a-prepayment"></a>Opprett en ordre der det kreves et forskudd
+## Opprett en ordre der det kreves et forskudd
 
  I det følgende scenariet oppretter ordrebehandleren Heidi en ordre mens hun snakker med en kunde. Varene som kunden bestiller, krever et forskudd. Dessuten har kunden hatt noen sene betalinger tidligere. Heidi har blitt bedt om å kreve et fast beløp på **800** som en forskuddsbetaling på ordren.  
 
@@ -114,7 +114,7 @@ Kunden ber om å få betale 35 % noe som Susan godtar og endrer ordren.
 
 Heidi oppretter forskuddsfakturaen og sender den til kunden.  
 
-### <a name="to-create-a-sales-order-with-a-prepayment"></a>Slik oppretter du en ordre med et forskudd:
+### Slik oppretter du en ordre med et forskudd:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
@@ -151,11 +151,11 @@ Heidi oppretter forskuddsfakturaen og sender den til kunden.
 12. Klikk **Ja** i advarselen som vises. En sats på 35 % vil bli brukt som betalingsprosent for hele ordren.  
 13. Kontroller at linjene har blitt oppdatert på riktig måte.  
 
-## <a name="create-a-prepayment-invoice"></a>Opprett en forskuddsfaktura
+## Opprett en forskuddsfaktura
 
 Etter at Heidi har registrert de riktige forskuddsverdiene i ordren, oppretter hun forskuddsfakturaen og sender den til kunden.  
 
-### <a name="to-create-a-prepayment-invoice"></a>Slik oppretter du en forskuddsfaktura:
+### Slik oppretter du en forskuddsfaktura:
 
 1. På siden **Ordre** velger du **Handlinger**, **Bokføring**, **Forskudd** og velger deretter **Bokfør og skriv ut forskuddsfaktura**
 2. Velg **Ja**-knappen for å bokføre fakturaen.  
@@ -163,11 +163,11 @@ Etter at Heidi har registrert de riktige forskuddsverdiene i ordren, oppretter h
 > [!NOTE]  
 > Susan vil nå sende fakturaen til kunden.  
 
-## <a name="create-an-additional-prepayment-invoice"></a>Opprett en ekstra forskuddsfaktura
+## Opprett en ekstra forskuddsfaktura
 
 Neste dag ringer kunden Heidi og endrer ordren. Kunden vil ha to av vare 1896-S. Susan åpner ordren på nytt, oppdaterer den, og deretter oppretter hun en ekstra forskuddsfaktura i ordren og sender den til kunden.  
 
-### <a name="to-create-an-additional-prepayment-invoice"></a>Slik oppretter du en ekstra forskuddsfaktura:
+### Slik oppretter du en ekstra forskuddsfaktura:
 
 1. På siden **Ordre** velger du handlingen **Frigi** og deretter **Åpne på nytt**.  
 2. Angi **2** i **Antall**-feltet på linjen for vare **1896-S**.  
@@ -176,11 +176,11 @@ Neste dag ringer kunden Heidi og endrer ordren. Kunden vil ha to av vare 1896-S.
 3. Hvis du vil bokføre en faktura for det ekstra forskuddsbetalingsbeløpet, velger du **Handlinger**, **Bokføring**, **Forskudd** og velger deretter **Bokfør og skriv ut forskuddsfaktura**
 4. Velg **Ja**-knappen for å bokføre fakturaen.  
 
-## <a name="apply-the-prepayments"></a>Utlign forskuddsbetalingene
+## Utlign forskuddsbetalingene
 
 Kunden betaler forskuddsbeløpet. Magnus, fra regnskapsavdelingen, registrerer betalingen og utligner den mot forskuddsfakturaene.  
 
-### <a name="to-apply-a-payment-to-the-prepayment-invoices"></a>Slik utligner du en betaling mot forskuddsfakturaene:
+### Slik utligner du en betaling mot forskuddsfakturaene:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Innbetalingskladder** og velg den relaterte koblingen.  
 2. Fyll ut en kladdelinje med følgende informasjon.  
@@ -200,11 +200,11 @@ Kunden betaler forskuddsbeløpet. Magnus, fra regnskapsavdelingen, registrerer b
 7. Hvis du vil bokføre kladden, velger du handlingen **Bokfør / skriv ut** og velger **Bokfør**.
 8. Velg **Ja**-knappen.
 
-## <a name="invoice-the-remaining-amount"></a>Fakturer restbeløpet
+## Fakturer restbeløpet
 
 Magnus har nå fått beskjed om at varene i ordren er levert, og at ordren er klar til fakturering. Magnus oppretter en faktura for ordren.  
 
-### <a name="to-invoice-the-remaining-amount"></a>Slik fakturerer du restbeløpet:
+### Slik fakturerer du restbeløpet:
 
 1. Åpne ordren.
 2. Velg handlingen **Bokføring** og **Bokfør**.
@@ -218,11 +218,11 @@ Magnus har nå fått beskjed om at varene i ordren er levert, og at ordren er kl
 
 5. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokførte salgsfakturaer**, og velg deretter den relaterte koblingen.  
 
-## <a name="update-the-status-of-prepaid-orders-and-invoices-automatically"></a>Oppdater statusen for forhåndsbetalte bestillinger og fakturaer automatisk
+## Oppdater statusen for forhåndsbetalte bestillinger og fakturaer automatisk
 
 Du kan øke bestillings- og fakturabehandlingen ved å definere jobbkøposter som automatisk oppdaterer statusen for disse dokumentene. Når en forskuddsfaktura betales, kan jobbkøposter automatisk endre dokumentstatusen fra **Venter på forskudd** til **Frigitt**. Når du definerer jobbkøpostene, er codeunits du trenger å bruke, **383 Oppdater ventende forskuddssalg** og **383 Oppdater ventende forskuddskjøp**. Vi anbefaler at du planlegger at postene skal kjøre ofte, for eksempel hvert minutt. Hvis du vil ha mer informasjon, kan du se [Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).
 
-## <a name="next-steps"></a>Neste trinn
+## Neste trinn
 
 Denne gjennomgangen dekket gjennom trinnene for å konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] slik at du kan håndtere forskuddsbetalinger i det. 
 
@@ -235,7 +235,7 @@ Du har også bokført en forskuddsfaktura, opprettet en ekstra forskuddsfaktura 
 
 Med forskuddsfunksjonene er det enkelt å definere og håndheve forskuddsregler for kunder og varer. Du kan også bokføre hver betaling mot en faktura.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Fakturer forskuddsbetalinger](finance-invoice-prepayments.md)  
 [Finans](finance.md)  

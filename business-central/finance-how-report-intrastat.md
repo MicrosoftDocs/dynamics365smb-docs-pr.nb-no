@@ -116,6 +116,13 @@ Når du arbeider med **Intrastat-rapporten**, vil du se **Status**-felt i dokume
 * *Utgitt*: [!INCLUDE[prod_short](includes/prod_short.md)] endrer automatisk statusen til *Frigitt* når du oppretter en fil. Fra dette tidspunktet kan du ikke endre **Intrastat-rapporten**. Hvis du må endre noe og en rapport på nytt, kan du bruke handlingen **Åpne på nytt** til å åpne Intrastat-rapporten på nytt. Når dokumentet er åpnet på nytt, kan du bruke **Frigi**-handlingen til å frigi dokumentet.
 * **Rapportert**: Angir om posten allerede er rapportert til skattemyndighetene. Dette er ikke en vanlig status, men et selvstendig felt, og selv om du åpnet Intrastat-rapporten på nytt, ville den fortsatt vise at filen allerede er opprettet for denne rapporten.
 
+### Lokasjoner i Intrastat-rapportering 
+
+[!INCLUDE[prod_short](includes/prod_short.md)] bruker alltid informasjonen i feltet **Lands-/områdekode** på siden **Lokasjonskort** som landet for **sending fra** eller for **mottak av** varer. Når denne informasjonen ikke finnes eller lokasjonen ikke ble brukt, bruker systemet informasjonen fra siden **Selskapsopplysninger**.   
+
+> [!NOTE]
+> Hvis selskapet opererer fra mer enn ett land, fungerer ikke Intrastat-rapportering for alle land der lokasjoner er konfigurert. Rapporteringen er bare basert på hovedlandet, siden det for øyeblikket ikke er mulig å bruke rapportering i flere land.  
+
 ### Trekanthandel i Intrastat
 
 Trekanthandel innebærer handel mellom tre land eller områder der varer omgår rapporteringsselskapets land. I Business Central kan dette tilrettelegges ved hjelp av funksjonen [Direkte levering](sales-how-drop-shipment.md). Hvis du vil aktivere dette alternativet, aktiverer du feltet **Inkluder direkte levering** i **Oppsett for Intrastat-rapport**.  
