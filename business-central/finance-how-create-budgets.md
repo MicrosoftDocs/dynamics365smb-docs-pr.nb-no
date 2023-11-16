@@ -11,7 +11,7 @@ ms.search.form: '113, 120, 121, 154, 350, 422, 7132, 7133, 7138, 7139, 9203, 921
 ms.date: 08/24/2022
 ms.author: bholtorf
 ---
-# Opprette finansbudsjetter
+# <a name="create-gl-budgets"></a>Opprette finansbudsjetter
 
 Du kan ha flere budsjetter for de samme periodene hvis du oppretter budsjetter med forskjellige navn. Først definerer du budsjettnavn og angir budsjettallene. Budsjettnavnet inkluderes da på alle budsjettpostene du oppretter.  
 
@@ -21,7 +21,7 @@ Budsjetter spiller en viktig rolle i Business Intelligence. Eksempler inneholder
 
 I Kostregnskap arbeider du med kostbudsjetter på lignende måte. Lære mer om [Opprette kostbudsjetter](finance-create-cost-budgets.md).  
 
-## Opprette et nytt finansbudsjett
+## <a name="to-create-a-new-gl-budget"></a>Opprette et nytt finansbudsjett
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Finansbudsjetter**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Rediger oversikt**, og fyll deretter ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -36,7 +36,7 @@ I Kostregnskap arbeider du med kostbudsjetter på lignende måte. Lære mer om [
 > [!NOTE]  
 > I hurtigfanen **Filtre** kan du filtrere budsjettopplysningene etter budsjettdimensjoner du har definert under budsjettnavnet.
 
-## Eksportere og importere finansbudsjetter med Excel
+## <a name="exporting-and-importing-gl-budgets-with-excel"></a>Eksportere og importere finansbudsjetter med Excel
 
 For nesten alle andre sider kan du eksportere data på budsjettsider til Microsoft Excel for videre behandling eller analyse. Lær mer på [Eksportere forretningsdataene til Excel](about-export-data.md).
 
@@ -45,7 +45,7 @@ For nesten alle andre sider kan du eksportere data på budsjettsider til Microso
 
 Når du importerer et finansbudsjett, slettes verdier som finnes i Overskrift-linjene. Dette er for å unngå feil totaler når du importerer data som er opprettet eller redigert i Excel.
 
-### Scenario
+### <a name="scenario"></a>Scenario
 
 Du vet at de nye budsjetterte lønnskostnadene vil bli lokal valuta (LCY) 1 200 000. Du vil at lønnsavdelingen skal budsjettere for de tre bestemte linjene (av kontotypen Bokføring) for fulltidsansatte, deltidsansatte og midlertidig hjelp. De tre linjene grupperes under en Lønn-overskriftslinje.
 
@@ -53,7 +53,7 @@ Du angir 1 200 000 på overskriftslinjen, eksporterer budsjettet til Excel og 
 
 Lønnsavdelingen fordeler beløpet på tre bokføringskontiene. Når du importerer tilbake til finansbudsjettet, fylles de tre kontiene ut med de nye Excel-dataene, summerer til LV 1 200 000, og overskriftslinjen er tom.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Eksporter forretningsdataene til Excel](about-export-data.md)  
 [Finans](finance.md)  

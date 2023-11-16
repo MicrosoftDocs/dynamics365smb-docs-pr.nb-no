@@ -10,7 +10,7 @@ ms.search.keywords: null
 ms.date: 09/14/2022
 ms.author: bholtorf
 ---
-# Opprette rapporter med XBRL
+# <a name="create-reports-with-xbrl"></a>Opprette rapporter med XBRL
 
 > [!NOTE]
 > Vi er i ferd med å fjerne funksjonene for XBRL-rapportering fra [!INCLUDE[prod_short](includes/prod_short.md)]. Lær mer om [Endringer i lanseringsbølge 1 for 2022](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1).
@@ -29,13 +29,13 @@ XBRL (e**X**tensible **B**usiness **R**eporting **L**anguage) er et språk baser
 >
 > Full støtte for taksonomier kan kreve tredjeparts XBRL-koder og -verktøy. Den internasjonale organisasjonen for XBRL har en liste over verktøy og tjenester. Avhengig av kravene til XBRL-rapportering for en gitt taksonomi kan det være lurt å undersøke disse ressursene. Hvis du vil ha mer informasjon, kan du se [Komme i gang for bedrifter](https://go.microsoft.com/fwlink/?linkid=2153466) og [Verktøy og tjenester](https://go.microsoft.com/fwlink/?linkid=2153356).
 
-## eXtensible Business Reporting Language
+## <a name="extensible-business-reporting-language"></a>eXtensible Business Reporting Language
 
 XBRL-taksonomiene vedlikeholdes av www.xbrl.org. Du kan laste ned taksonomiene og få mer detaljerte opplysninger på webområdet for XBRL.  
 
 La oss si at noen ønsker økonomisk informasjon fra deg. De gir deg en taksonomi (et XML-dokument) som inneholder ett eller flere skjemaer med en eller flere linjer som skal fylles ut. Linjene samsvarer med de enkelte økonomiske opplysninger som senderen ber om. Du importerer denne taksonomien og fyller ut skjemaene ved å angi hvilke(n) konto/konti som hører til hver linje og hvilken beregning som gjelder, for eksempel bevegelse eller saldo per dato. I noen tilfeller kan du i stedet legge inn en konstant, for eksempel antall ansatte. Du er nå klar til å sende kjøringsdokumentet (et XML-dokument) til anmoderen. Tanken er at dette skjer gjentatte ganger, slik at med mindre det gjøres endringer i taksonomien, trenger du bare eksportere nye kjøringsdokumenter for nye perioder når du blir bedt om det.
 
-## XBRL består av følgende komponenter
+## <a name="xbrl-comprises-the-following-components"></a>XBRL består av følgende komponenter
 
 XBRL- **spesifikasjonen** forklarer hva XBRL er og hvordan det er mulig å lage kjøringsdokumenter og taksonomier. XBRL-spesifikasjonen gir en teknisk forklaring på hva XBRL er, og er rettet mot et publikum som er teknisk kyndig.  
 
@@ -47,11 +47,11 @@ En XBRL- **taksonomi** er et "ordforråd" eller en "ordbok" som en gruppe har ut
 
 Et XBRL- **kjøringsdokument** er en forretningsrapport, for eksempel et regnskap gjort i samsvar med XBRL-spesifikasjonen. Verdiene i kjøringsdokumentet forklares i taksonomien. Et kjøringsdokument er nokså verdiløst hvis du ikke kjenner taksonomien det er laget for.  
 
-## Lagdeling av taksonomier
+## <a name="layered-taxonomies"></a>Lagdeling av taksonomier
 
 En taksonomi kan bestå av en grunntaksonomi, for eksempel US GAAP (vanligvis aksepterte regnskapsprinsipper i USA) eller IAS (internasjonale regnskapsstandarder), og deretter ha én eller flere utvidelser. Dermed refererer en taksonomi til ett eller flere skjemaer, som alle er separate taksonomier. Når tilleggstaksonomiene lastes inn i databasen, legges de nye elementene rett og slett til de eksisterende elementene.  
 
-## Koblingsbaser
+## <a name="linkbases"></a>Koblingsbaser
 
 I XBRL-spes. 2 beskrives taksonomien i flere XML-filer. Den primære XML-filen er selve taksonomiskjemafilen (XSD-fil) som bare inneholder en usortert liste over elementer eller fakta som skal rapporteres. I tillegg til dette er vanligvis noen koblingsbasefiler (XML). Koblingsbasisfilene inneholder data som utfyller grunntaksonomien (XSD-fil). Det finnes seks typer koblingsbasefiler, hvorav fire er relevante for [!INCLUDE[prod_short](includes/prod_short.md)]. Disse er:
 
@@ -60,7 +60,7 @@ I XBRL-spes. 2 beskrives taksonomien i flere XML-filer. Den primære XML-filen e
 * Beregningskoblingsbase: Denne koblingsbasen inneholder informasjon om hvordan elementene rulles opp. Strukturen ligner på presentasjonskoblingsbasen, bortsett fra at hver kobling er vektet. Vektingen kan være 1 eller –1, og angir om elementet skal legges til eller trekkes fra et overordnet element i hierarkiet. Merk at opprulleringene ikke nødvendigvis stemmer overens med den grafiske presentasjonen.  
 * Referansekoblingsbase: Referansekoblingsbasen er en xml-fil som inneholder tilleggsopplysninger om de dataene som taksonomiforfatteren trenger.
 
-## Konfigurer XBRL-linjer
+## <a name="set-up-xbrl-lines"></a>Konfigurer XBRL-linjer
 
 Etter at du har lest inn eller oppdatert taksonomien, må fylles ut med alle nødvendige opplysninger for å tilfredsstille de spesifikke regnskapskravene. Denne informasjonen inneholder grunnleggende selskapsopplysninger, faktiske regnskapstall, noter til regnskap, ytterligere planer og annen nødvendig regnskapsinformasjon.  
 
@@ -83,7 +83,7 @@ Du definerer XBRL-linjer ved å tilordne taksonomidataene til finansdataene.
    > [!NOTE]  
    > Taksonomier kan inneholde elementer som [!INCLUDE[prod_short](includes/prod_short.md)] ikke støtter. Hvis et element ikke støttes, viser feltet **Kildetype** **Ikke i bruk** og feltet **Beskrivelse** viser en feilmelding, for eksempel **Uventet type: spesifikk type er ikke gjenkjent**. Hvis du må eksportere elementet, velger du en tilsvarende kildetype. Dette er vanligvis en konstant eller en beskrivelse. Dette gir deg muligheten til å skrive inn og eksportere data, slike elementer kan imidlertid ha valideringsregler som ikke kan kontrolleres før eksportert.
 
-## Importere en XBRL-taksonomi
+## <a name="import-an-xbrl-taxonomy"></a>Importere en XBRL-taksonomi
 
 Første trinn i arbeidet med XBRL-funksjonaliteten, er å lese taksonomien inn i selskapsdatabasen. En taksonomi består av ett eller flere skjemaer og noen koblingsbaser. Når du har fullført innlesingen av både skjemaer og koblingsbaser, og har brukt koblingsbasene på skjemaet, kan du definere linjene og tilordne finanskontiene i kontoplanen til riktig taksonomilinje.  
 
@@ -102,7 +102,7 @@ Første trinn i arbeidet med XBRL-funksjonaliteten, er å lese taksonomien inn i
 > [!IMPORTANT]  
 > I stedet for å bruke koblingsbasene hver for seg etter at du har importert dem, kan du vente til du har importert alle koblingsbasene, og deretter bruke dem samtidig. Dette gjør du ved å velge **NEI** når du blir spurt om du vil bruke den nylig importerte koblingsbasen på skjemaet. Merk så linjene med koblingsbasene du vil bruke.  
 
-## Oppdatere en XBRL-taksonomi
+## <a name="update-an-xbrl-taxonomy"></a>Oppdatere en XBRL-taksonomi
 
 Når en taksonomi endres, må du oppdatere den gjeldende taksonomien tilsvarende. Årsaken til oppdateringen kan være et endret skjema, en endret koblingsbase eller en ny koblingsbase. Når du har oppdatert taksonomien, trenger du bare å samordne linjene for de endrede eller nye linjene.  
 
@@ -114,7 +114,7 @@ Når en taksonomi endres, må du oppdatere den gjeldende taksonomien tilsvarende
 6. Du importerer koblingsbasen ved å velge den **Importer**.  
 7. Velg **Ja** for å bruke koblingsbasen på skjemaet.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Finansforretningsanalyse](bi.md)  
 [Finans](finance.md)  

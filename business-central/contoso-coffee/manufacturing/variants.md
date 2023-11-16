@@ -8,15 +8,15 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Gjennomgang: varianter
+# <a name="walkthrough-variants"></a>Gjennomgang: varianter
 
 I denne artikkelen tar vi deg gjennom trinnene for å bruke Contoso Coffee-demodataene for å lære om varianter.
 
-## Scenario
+## <a name="scenario"></a>Scenario
 
 Du er produksjonsplanleggeren hos Contoso Coffee. Du må oppdatere behovsprognose for hver variant av varen SP-SCM1006, AutoDripLite. Ettersom de har forskjellige farger, må du kontrollere at den riktige stykklisten brukes for hver variant. Kjør planleggingsforslaget for å beregne forsyning.  
 
-## Trinn
+## <a name="steps"></a>Trinn
 
 1. Definer lagerføringsenheter for varen SP-SCM1006, AutoDripLite. Tildel en stykkliste for SKU med variantene RØD og HVIT.
 
@@ -98,6 +98,6 @@ Du er produksjonsplanleggeren hos Contoso Coffee. Du må oppdatere behovsprognos
 
     9. For hver opprettet linje velger du **komponent**-handlingen og ser gjennom hvilken maling som brukes.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Innføring i demodata for Contoso Coffee](../contoso-coffee-intro.md)  

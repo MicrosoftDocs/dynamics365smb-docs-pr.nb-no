@@ -11,7 +11,7 @@ ms.search.form: 100
 ms.date: 08/18/2022
 ms.author: jswymer
 ---
-# Avslutte år og perioder
+# <a name="closing-years-and-periods"></a>Avslutte år og perioder
 
 På slutten av et regnskapsår er det en rekke administrative oppgaver som du må utføre, for eksempel å passe på at alle dokumenter og kladder bokføres, noe som sørger for at valutadataene er oppdatert, avslutte tablåer, og mye mer. De faktiske oppgavene avhenger av firmaet.
 
@@ -29,7 +29,7 @@ Tabellen nedenfor inneholder en oversikt over oppgaver som du vanligvis utfører
 | Avslutte regnskapsperioder og regnskapsår, overføre resultatregnskapssaldoer til balansekonti og bokføre avslutningsposten ved årsslutt. |[Avslutte tablåer](year-close-books.md) |
 | Skrive ut rapporter som kan hjelpe deg med å opprette årsregnskap. |[Forberede avslutningsoppgaver](year-prepare-close-statement.md) |
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Arbeid med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

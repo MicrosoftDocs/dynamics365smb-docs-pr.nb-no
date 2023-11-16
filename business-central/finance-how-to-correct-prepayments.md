@@ -10,14 +10,14 @@ ms.search.form: '44, 48, 42, 50, 52, 9305, 9307'
 ms.date: 06/16/2021
 ms.author: bholtorf
 ---
-# Korrigere forskudd
+# <a name="correct-prepayments"></a>Korrigere forskudd
 
 Du kan foreta en korrigering i en ordre etter at du har bokført en forskuddsfaktura for ordren. Du kan legge til nye linjer på en ordre etter at du har utstedt et forskudd, og deretter kan du bokføre en ny forskuddsfaktura, men du kan ikke slette en linje fra en ordre etter at et forskudd er fakturert for linjen.  
 
 > [!TIP]
 > Hvis du har bokført en forskuddsfaktura for en salgsfaktura som du deretter retter opp eller kansellerer, må du også korrigere eller kansellere forskuddet.
 
-## Slik korrigerer du et forskudd
+## <a name="to-correct-a-prepayment"></a>Slik korrigerer du et forskudd
 
 Følgende fremgangsmåte viser hvordan du utsteder en forskuddskreditnota som kansellerer alle fakturerte forskudd for en ordre.  
 
@@ -32,7 +32,7 @@ Følgende fremgangsmåte viser hvordan du utsteder en forskuddskreditnota som ka
 5. Når du skal opprette en forskuddsfaktura for nye linjer i en salgskreditnota, velger du **Forskuddsbetaling** og velger deretter **Bokfør forskuddsfaktura** eller **Bokfør og skriv ut forskuddsfaktura**.  
 6. Du kan utstede en ny forskuddsfaktura ved å øke forskuddsbeløpet på én eller flere linjer og bokføre forskuddsfakturaen. Det opprettes en ny faktura for differansen mellom forskuddsbeløpene som er fakturert, og de nye forskuddsbeløpene.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Fakturer forskuddsbetalinger](finance-invoice-prepayments.md)  
 [Gjennomgang: Konfigurer og fakturer salgsforskudd](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

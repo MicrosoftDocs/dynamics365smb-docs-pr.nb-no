@@ -15,7 +15,7 @@ For alle varer som er registrert i Business Central, kan du skrive *markedsføri
 
 Det finnes to måter å opprette markedsføringstekst på. Den enkleste måten å komme i gang på er å bruke Copilot, som foreslår tekst generert av kunstig intelligens for deg. Den andre måten er å starte fra grunnen av. 
 
-## <a name="create-ai-generated-marketing-text-preview-with-copilot"></a><a name=copilot></a>Opprett markedsføringstekst generert av kunstig intelligens (forhåndsversjon) med Copilot
+## <a name="get-marketing-text-suggestions-with-copilot"></a><a name=copilot></a>Opprett markedsføringstekst generert av kunstig intelligens (forhåndsversjon) med Copilot
 
 [!INCLUDE[ai-preview](includes/ai-preview.md)]
 
@@ -115,7 +115,7 @@ Det finnes et par trinn du kan gjøre for å forbedre tekstforslagene og endre d
 
    Copilot vil finne ord og uttrykk som er knyttet til kategorien, og arbeide dem i den foreslåtte teksten.
 
-## <a name="create-marketing-text-from-scratch"></a>Opprett markedsføringstekst fra grunnen av
+## <a name="create-text-from-scratch"></a>Opprett markedsføringstekst fra grunnen av
 
 1. I Business Central åpner du varen du vil endre, slik:
 
