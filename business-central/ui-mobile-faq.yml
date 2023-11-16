@@ -61,7 +61,7 @@ sections:
       - question: |
           Kan en gjestebruker bruke appen til å få tilgang til Business Central-løsningen?
         answer: |
-          Nr. Gjestebrukere er inviterte brukere fra en annen Microsoft Entra-leietaker enn din. I dette tilfellet vil appen godkjenne den primære leietakeren til gjestebrukerens primære Microsoft Entra-leietaker og deretter prøve å åpne Business Central-endepunktet på den leietakeren i stedet for din.  
+          Nei. Gjestebrukere er inviterte brukere fra en annen Microsoft Entra-leietaker enn din. I dette tilfellet vil appen godkjenne den primære leietakeren til gjestebrukerens primære Microsoft Entra-leietaker og deretter prøve å åpne Business Central-endepunktet på den leietakeren i stedet for din.  
 additionalContent: |
 
   ## Se også

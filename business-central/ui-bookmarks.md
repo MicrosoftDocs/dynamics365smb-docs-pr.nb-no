@@ -68,7 +68,7 @@ Noen rapporter kan erstattes av andre rapporter etter at en utvidelse er brukt p
 <!-- For more information on report substitution, see this link UNAVAILABLE AT THIS TIME -->
 
 - **Er bokmerking tilgjengelig for XML-porter?**  
-Antall På dette tidspunktet er det ikke mulig å legge til handlinger i åpne XML-porter fra brukergrensesnittet.
+Nei. På dette tidspunktet er det ikke mulig å legge til handlinger i åpne XML-porter fra brukergrensesnittet.
 
 - **Vil bokmerkene bli oversatt når jeg endrer språk i Business Central?**  
 Når du legger til en ny handling, brukes oversatt tekst som var tilgjengelig på det tidspunktet, ved bokmerking. Hvis ny oversatt tekst legges til senere, vil ikke den nye handlingen inneholde de nyere oversettelsene.

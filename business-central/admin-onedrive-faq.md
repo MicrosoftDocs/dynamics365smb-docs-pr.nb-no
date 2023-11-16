@@ -42,11 +42,11 @@ Ja, men i motsetning til [!INCLUDE[prod_short](includes/prod_short.md)] online k
 
 ## Bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt tilkobling med SharePoint Server?
 
-Nr. Denne distribusjonskombinasjonen støttes ikke selv om SharePoint Server har Mine områder aktivert.  
+Nei. Denne distribusjonskombinasjonen støttes ikke selv om SharePoint Server har Mine områder aktivert.  
 
 ## Bruker [!INCLUDE[prod_short](includes/prod_short.md)] online tilkobling med SharePoint Server?
 
-Nr. Denne distribusjonskombinasjonen støttes ikke selv om SharePoint Server har Mine områder aktivert.  
+Nei. Denne distribusjonskombinasjonen støttes ikke selv om SharePoint Server har Mine områder aktivert.  
 
 ## Hvordan fungerer dette i en organisasjon med flere miljøer?
 

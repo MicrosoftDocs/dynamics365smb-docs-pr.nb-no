@@ -86,7 +86,7 @@ sections:
       - question: |
           Må jeg kjøpe Microsoft 365?
         answer: |
-          Nr. Hvis du vil oppleve [!INCLUDE[prod_short](includes/prod_short.md)] som fullstendig integrert med Microsoft 365, kan du imidlertid registrere deg for en 1 måneds prøveversjon av Microsoft 365 [her](https://products.office.com/try).  
+          Nei. Hvis du vil oppleve [!INCLUDE[prod_short](includes/prod_short.md)] som fullstendig integrert med Microsoft 365, kan du imidlertid registrere deg for en 1 måneds prøveversjon av Microsoft 365 [her](https://products.office.com/try).  
 
           Hvis du registrerer deg med en ikke-Microsoft 365-arbeidskonto (for eksempel joe@mysolution.com), og du har et Microsoft 365-abonnement, kan du knytte domenet (*mysolution.com*) til Microsoft 365-abonnementet. Finn ut mer under [Hva er et domene?](/microsoft-365/admin/get-help-with-domains/what-is-a-domain?view=o365-worldwide&preserve-view=true) i Microsoft 365-innholdet.  
 

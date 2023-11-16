@@ -123,7 +123,7 @@ Når du oppretter monteringsordrer, bruker du opplysningene fra Vareopptellingsk
 |Felt  |Verdi å angi  |
 |---------|---------|
 |Type |Vare |
-|Antall |Nummeret på den opprinnelige varen. |
+|Nr. |Nummeret på den opprinnelige varen. |
 |Antall per |1 |
 |Variantkode |Det samme som i vareopptellingskladd. |
 |Lokasjonskode |Det samme som i vareopptellingskladd. |

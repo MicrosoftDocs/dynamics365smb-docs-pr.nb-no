@@ -83,8 +83,8 @@ Du kan ikke opprette et lagerplukkdokument fra bunnen av. Plukk er en del av en 
 
     |Alternativ|Beskrivelse|
     |-|-|
-    |Maks Antall plukklinjer|Oppretter plukkdokumenter som ikke har flere enn det angitte antallet linjer i hvert dokument.|
-    |Maks Antall plukkildedok.|Oppretter plukkdokumenter som hver for seg ikke dekker mer enn det angitte antallet kildedokumenter.|
+    |Maks Nr. plukklinjer|Oppretter plukkdokumenter som ikke har flere enn det angitte antallet linjer i hvert dokument.|
+    |Maks Nr. plukkildedok.|Oppretter plukkdokumenter som hver for seg ikke dekker mer enn det angitte antallet kildedokumenter.|
     |Tilordnet bruker-ID|Oppretter plukkdokumenter bare for forslagslinjer som er tilordnet til den valgte lageransatte.|
     |Sorteringsmetode for plukklinjer|Velg fra de tilgjengelige alternativene for å sortere linjene plukkdokumentet som er opprettet.|
     |Angi anbrekksfilter|Skjuler midlertidige anbrekksplukklinjer når en større enhet konverteres til en mindre enhet og plukkes ferdig.|

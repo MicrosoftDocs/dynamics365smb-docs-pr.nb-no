@@ -190,7 +190,7 @@ I neste fremgangsmåte kan du opprette en prosjektkladd for Tricia for å bokfø
 
 2. Opprett planleggingslinjer med følgende informasjon:  
 
-    | Linje | Linjetype | Planleggingsdato  | Type        | Antall   | Antall | Enhetspris |
+    | Linje | Linjetype | Planleggingsdato  | Type        | Nr.   | Antall | Enhetspris |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Både Budsjett og Fakturerbar | (dagens dato) | Ressurs | Marie | 40        |     |
     | 2    | Både Budsjett og Fakturerbar | (dagens dato) | Ressurs | Egil | 40        |     |
@@ -199,7 +199,7 @@ I neste fremgangsmåte kan du opprette en prosjektkladd for Tricia for å bokfø
      Lukk siden. Totalene oppdateres på siden **Prosjektoppgavelinjer**.  
 3. Velg linje 1020 og velg deretter handlingen **Prosjektplanleggingslinjer**. Angi følgende informasjon:  
 
-    | Linje | Linjetype | Planleggingsdato  | Type        | Antall   | Antall | Enhetspris |
+    | Linje | Linjetype | Planleggingsdato  | Type        | Nr.   | Antall | Enhetspris |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Både Budsjett og Fakturerbar | (dagens dato) | Ressurs | Marie | 80        |     |
     | 2    | Både Budsjett og Fakturerbar | (dagens dato) | Vare | 80201 (grafikkprogram) | 1 |     |
@@ -272,7 +272,7 @@ Linjene er nå bokført.
 
 4. På siden **Prosjektoppgavelinjer** velger du linje 1120, og deretter velger du handlingen **Prosjektplanleggingslinjer**. Opprett en planleggingslinje med følgende informasjon:  
 
-    | Linje | Linjetype | Type        | Antall   | Antall |
+    | Linje | Linjetype | Type        | Nr.   | Antall |
     |------|-----------|-------------|-------|----------|
     | 1    | Både Budsjett og Fakturerbar  | Ressurs | Marie | 30 |
 
@@ -413,7 +413,7 @@ Fremgangsmåtene nedenfor viser hvordan du oppretter en ny jobb, angir prissetti
 
 6. Opprett en planleggingslinje med følgende informasjon:  
 
-    | Linje | Linjetype | Planleggingsdato  | Type        | Antall   | Antall | Enhetspris |
+    | Linje | Linjetype | Planleggingsdato  | Type        | Nr.   | Antall | Enhetspris |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Fakturerbar  | (dagens dato) | Finanskonto | 40255 | 1        | 5000       |
 
@@ -423,7 +423,7 @@ Fremgangsmåtene nedenfor viser hvordan du oppretter en ny jobb, angir prissetti
 
 8. Opprett en planleggingslinje med følgende informasjon:
 
-    | Linje | Linjetype | Planleggingsdato  | Type     | Antall    | Antall |
+    | Linje | Linjetype | Planleggingsdato  | Type     | Nr.    | Antall |
     |------|-----------|----------------|----------|--------|----------|
     | 1    | Budsjett    | (dagens dato) | Ressurs | Marie | 120      |
     | 2    | Budsjett    | (dagens dato) | Vare     | 70104  | 10       |
@@ -434,7 +434,7 @@ Fremgangsmåtene nedenfor viser hvordan du oppretter en ny jobb, angir prissetti
 
 10. Opprett en planleggingslinje med følgende informasjon:
 
-    | Linje | Linjetype | Planleggingsdato   | Type        | Antall   | Antall | Enhetspris |
+    | Linje | Linjetype | Planleggingsdato   | Type        | Nr.   | Antall | Enhetspris |
     |------|-----------|-----------------|-------------|-------|----------|------------|
     | 1    | Fakturerbar  | (en fremtidig dato) | Finanskonto | 40255 | 1        | 5000       |
 
