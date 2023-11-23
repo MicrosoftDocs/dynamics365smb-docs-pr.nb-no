@@ -116,13 +116,6 @@
 ### [Feilsøk registrering for selvbetjening](ui-troubleshoot-self-signup.md)
 ### [Forleng prøveversjonen](admin-extend-trial.md)
 ### [Si opp eller fjern Business Central](admin-cancel.md)
-### Varemarkedsføringstekst drevet av kunstig intelligens med Copilot
-#### [Oversikt](ai-overview.md)
-#### [Skaff deg forhåndsversjonen](ai-preview-getstarted.md)
-#### [Konfigurer varemarkedsføringstekst drevet av kunstig intelligens](enable-ai.md)
-#### [Opprett varemarkedsføringstekst drevet av kunstig intelligens](item-marketing-text.md)
-#### [Vanlige spørsmål](ai-faq.md)
-
 ## Kjøp
 ### [Kom i gang med et abonnement](trial-signup.md#get-started-with-a-subscription)
 ### [Gjør deg klar for virksomhet](ui-get-ready-business.md)
@@ -379,6 +372,7 @@
 ### Avstem bankkontoer
 #### [Oversikt over bankavstemming](bank-manage-bank-accounts.md)
 #### [Avstem bankkontoer](bank-how-reconcile-bank-accounts-separately.md)
+#### [Avstem bankkontoer med Copilot (forhåndsversjon)](bank-reconciliation-with-copilot.md)
 #### [Utlign betalinger automatisk og avstem bankkontoer](receivables-apply-payments-auto-reconcile-bank-accounts.md)
 
 ### Administrer konserninterne transaksjoner
@@ -1577,7 +1571,6 @@
 #### [Konfigurer lagerføringsenheter](inventory-how-to-set-up-stockkeeping-units.md)
 #### [Kategoriser varer](inventory-how-categorize-items.md)
 #### [Importer flere varebilder](inventory-how-import-item-pictures.md)
-#### [Konfigurer varemarkedsføringstekst drevet av kunstig intelligens med Copilot](enable-ai.md)
 ### Konfigurer prosjektstyring
 #### [Konfigurer prosjekter](projects-setup-projects.md)
 #### [Konfigurer ressurser](projects-how-setup-resources.md)
@@ -1841,6 +1834,17 @@
 #### [Veiledning for rapportutvikling](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Veiledning for justering av rapportytelse](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
+# Copilot- og KI-funksjoner
+## Administrer Copilot- og KI-funksjoner
+### [Konfigurer Copilot- og KI-funksjoner](enable-ai.md)
+### [Copilot-dataflytting på tvers av geografiske områder](ai-copilot-data-movement.md)
+## Bankkontoavstemmingshjelp (forhåndsversjon)
+### [Avstem bankkontoer med Copilot](bank-reconciliation-with-copilot.md)
+### [Vanlige spørsmål om bankkontoavstemmingshjelp](faqs-bank-reconciliation.md)
+## Forslag til markedsføringstekst
+### [Oversikt over forslag til markedsføringstekst](ai-overview.md)
+### [Opprett markedsføringstekst med Copilot](item-marketing-text.md)
+### [Vanlige spørsmål om forslag til markedsføringstekst](faqs-marketing-text.md)
 
 # Sikkerhet, personvern og samsvar
 ## Sikkerhet og beskyttelse
@@ -1894,6 +1898,7 @@
 ### [Aktiver nye funksjoner på forhånd](admin-feature-management.md)
 ### [Innfør brukere med sjekklister](admin-checklist.md)
 ### [Sandkassemiljøer](admin-sandbox-environments.md)
+## [Copilot- og KI-funksjoner](enable-ai.md)
 ## Tilpass Business Central
 ### [Oversikt over tilpasning](ui-customizing-overview.md)
 ### [Tilpass sider for profiler](ui-personalization-manage.md)
@@ -1926,19 +1931,19 @@
 #### [US/CA/UK/AU/NZ/ZA – Send remitteringsønske](ui-extensions-send-remittance-advice.md)
 #### [WorldPay Payments Standard](ui-extensions-worldpay-payments-standard.md)
 #### [Business Central-utvidelser fra andre leverandører](ui-extensions-other.md)
-## Integrer med Dynamics 365 Sales
-### [Integrer med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)
+## Integrer med andre Dynamics 365-programmer
+### [Integrer med Dynamics 365 Sales via datasynkronisering](admin-prepare-dynamics-365-for-sales-for-integration.md)
 ## Integrer med Microsoft Dataverse
-### [Integrer med Microsoft Dataverse](admin-common-data-service.md)
-### [Dataeierskapsmodeller](admin-cds-company-concept.md)
-### [Konfigurer brukerkontoer for Microsoft Dataverse-integrering](admin-setting-up-integration-with-dynamics-sales.md)
-### [Koble til Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)
+### [Integrer med Dataverse via datasynkronisering](admin-common-data-service.md)
+### [Dataeierskapsmodeller for synkronisering](admin-cds-company-concept.md)
+### [Konfigurer brukerkontoer for Dataverse-integrering via datasynkronisering](admin-setting-up-integration-with-dynamics-sales.md)
+### [Koble deg til Dataverse for datasynkronisering](admin-how-to-set-up-a-dynamics-crm-connection.md)
 ### [Synkroniser Business Central og Microsoft Dataverse](admin-synchronizing-business-central-and-sales.md)
 ### [Tildel tabellene og feltene som skal synkroniseres](admin-how-to-modify-table-mappings-for-synchronization.md)
 ### [Synkroniser tabelltildelinger manuelt](admin-manual-synchronization-of-table-mappings.md)
 ### [Planlegg en synkronisering](admin-scheduled-synchronization-using-the-synchronization-job-queue-entries.md)
 ### [Feilsøk synkroniseringsfeil](admin-troubleshoot-sales-synchronization.md)
-### [Bruk en Power Automate-flyt for varsler om Dataverse-enhetsendringer](admin-power-automate-flow-dataverse.md)
+### [Bruk en Power Automate-flyt til å synkronisere Dataverse-enhetsendringer](admin-power-automate-flow-dataverse.md)
 ## Synkroniser hoveddata på tvers av selskaper
 ### [Gjør deg klar til å synkronisere hoveddata](admin-set-up-data-sync.md)
 ### [Administrer synkronisering av hoveddata](admin-sync-master-data.md)
@@ -2019,3 +2024,7 @@
 ## [Sikkerhet og beskyttelse](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Ytelse](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Funksjoner som er fjernet eller avskrevet](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Ansvarlig kunstig intelligens
+## [Oversikt](responsible-ai-overview.md)
+## [Vanlige spørsmål om bankkontoavstemmingshjelp (forhåndsversjon)](faqs-bank-reconciliation.md)
+## [Vanlige spørsmål om forslag til markedsføringstekst](faqs-marketing-text.md)
