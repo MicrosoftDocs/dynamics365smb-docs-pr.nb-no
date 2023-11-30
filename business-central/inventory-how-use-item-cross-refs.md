@@ -12,17 +12,7 @@ ms.custom: bap-template
 ---
 # Bruk varereferanser
 
-Hvis du kjøper eller selger varer som du og leverandøren eller kunden bruker forskjellige betingelser for, kan du definere en referanse mellom betingelsene for varene og betingelsene som kunden eller leverandøren av denne varen bruker. På denne måten settes leverandørens eller kundens varebeskrivelse, enhet eller variantkode automatisk inn i de relevante dokumentene når du fyller ut feltet **Varenr.** -feltet.  
-
-> [!NOTE]
-> Ikke alle selskaper bruker varereferanser. For å få mindre rot på sider har vi skjult de relaterte feltene og handlingene som standard. Hvis du bestemmer deg for å bruke dem, velger du feltet **Bruk varereferanser** på siden **Lageroppsett**. Når du har aktivert varereferanser, er feltene og handlingene tilgjengelige på sidene Varekort, Leverandørkort og Kundekort samt fra salgs- og kjøpsdokumenter.
->
-> I versjoner tidligere enn lanseringsbølge 2 for 2021 kan administratoren aktivere funksjonen *Skriv lengre varereferanser* på siden [Funksjonsstyring](https://businesscentral.dynamics.com/?page=2610) (koblingen krever at du har en [!INCLUDE [prod_short](includes/prod_short.md)]-leietaker). Hvordan du bruker referanser endres ikke, men navnet på ting som sider og knapper vil bli endret. Siden **Varekryssreferanseposter** vil for eksempel bli siden **Varereferanseposter**.
-
-## Slik begynner du å bruke varereferanser
-
-1. Velg ikonet :::image type="icon" source="media/ui-search/search_small.png" border="false":::, angi **Lageroppsett** og velg den relaterte koblingen.
-2. Velg feltet **Bruk varereferanser**.
+Hvis du kjøper eller selger varer som du og leverandøren eller kunden bruker forskjellige betingelser for, kan du definere en referanse mellom betingelsene for varene og betingelsene som kunden eller leverandøren av denne varen bruker. På denne måten settes leverandørens eller kundens varebeskrivelse, enhet eller variantkode automatisk inn i de relevante dokumentene når du fyller ut feltet **Varenr.** .  
 
 ## Slik definerer du en varereferanse
 

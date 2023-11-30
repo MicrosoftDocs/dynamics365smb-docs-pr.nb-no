@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 04/13/2023
+ms.date: 10/31/2023
 ms.author: bholtorf
 ---
 
@@ -10,7 +10,7 @@ Tabellen nedenfor beskriver noen av nøkkelrapportene i beholdnings- og lagersty
 | Rapporter | Description | ID | 
 |---------|---------|---------|
 |[Lager – tilgjengelighetsoversikt](https://businesscentral.dynamics.com?report=707)|Få en oversikt over bestemte varer og lagerføringsenheter og tilgjengeligheten. Denne rapporten samlet verdier som bruttokrav, tidsplanlagte og planlagte mottak, lageret og så videre. |707|
-|[Lagerverdisetting](https://businesscentral.dynamics.com?report=1001)|Viser lagerverdi for bestemte varer på lager. Rapporten viser også opplysninger om verdien av økninger og reduksjoner i lagerbeholdningen over tid.|1001|
+|[Lagerverdisetting](https://businesscentral.dynamics.com?report=1001)|Viser lagerverdi for bestemte varer på lager. Rapporten viser også opplysninger om verdien av økninger og reduksjoner i lagerbeholdningen over tid.<br><br>Rapporten skriver også ut forventet kostnad for poster som er bokført som mottatt eller levert, avhengig av om du har aktivert vekslebryteren **Ta med forventet kostnad**.<br><br>Hvis du aktiverer **Ta med forventet kostnad**, grupperer rapporten poster og viser en gruppetotal for fakturerte og forventede kostnader for hver bokføringsgruppe for lager.<br><br>Du kan også begrense rapportutdataene med steds- og variantfiltrene. Siden rapporten er bygd på toppen av en verdipost, kan du imidlertid ikke bruke hyllefilter.<br><br>Hvis du vil sikre at rapporten **Lagerverdisetting** er oppdatert, anbefales det at du kjører kjørselen **Juster kostverdi - vareposter** før du kjører denne rapporten.<br><br>I USA, Canada og Mexico er ikke denne rapporten tilgjengelig. Bruk i stedet den lokaliserte versjonen av rapporten Lagerverdi (10139).|1001|
 |[Vareholdbarhet – mengde](https://businesscentral.dynamics.com?report=5809)|Få en oversikt over antallet valgte varer på lageret med vareholdbarhetsdatoer som er i en bestemt periode. Listen inneholder antallet enheter av den valgte varen som utløper i en gitt tidsperiode. For hver vare du angir, viser rapporten antallet enheter som utløper i løpet av hver av tre like lange perioder, og samlet lagerantall.<br><br>Bruk filtre til å angi hva rapporten skal inneholde. Hvis du ikke definerer filtre, tar rapporten med alle postene. Antallet i rapporten gjenspeiler bare antallet av varen som holdbarhetsdatoer er definert for.|5809|
 |[Varealder - antall](https://businesscentral.dynamics.com?report=5807)|Få en oversikt over alderen på utvalgte varer i lageret. Denne rapporten kategoriserer lagerbeholdningen for utvalgte varer i tre periodesamlinger. Du kan angi sluttdatoen for den siste samlingen og varigheten for tidsperioder (periode). Rapporten analyserer restantallet av åpne vareposter som vanligvis er et resultat av kjøp, avgang eller positive justeringer.|5807|
 |[Varealder – verdi](https://businesscentral.dynamics.com?report=5808)|Få en oversikt over alderen på utvalgte varer i lageret. Denne rapporten kategoriserer lagerbeholdningsverdien for utvalgte varer i tre periodesamlinger. Du kan angi sluttdatoen for den siste samlingen og varigheten for tidsperioder (periode). Rapporten analyserer restantallet av åpne vareposter som vanligvis er et resultat av kjøp, avgang eller positive justeringer.|5808|

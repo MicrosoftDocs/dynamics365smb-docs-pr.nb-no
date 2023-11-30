@@ -7,7 +7,6 @@
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
 ## Finn ut mer
 ### [Ressurser for brukere](resources-for-users.md)
-### [Læringskatalog for Business Central](readiness/readiness-learning-catalog.md)
 ### [Business Central-opplæring](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
 ### Gjennomgang av forretningsprosesser
 #### [Tilgjengelige gjennomganger](walkthrough-business-process-walkthroughs.md)
@@ -209,19 +208,6 @@
 ### [Besøk videobiblioteket](across-videos.md)
 ### [Få teknisk støtte](/dynamics365/business-central/dev-itpro/administration/manage-technical-support?toc=/dynamics365/business-central/toc.json)
 
-<!--## Microsoft Learn training
-### [Dynamics 365 Business Central on Microsoft Learn](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs)
-### [Business Central Learning Catalog](readiness/readiness-learning-catalog.md)
-### [Business Functionality Learning Paths](/training/browse/?products=dynamics-business-central&roles=business-user&resource_type=learning%20path)
-### Resources for a Business Decision Maker
-#### [Learning catalog](readiness/readiness-learning-bus-decision-makers.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Business User
-#### [Learning catalog](readiness/readiness-learning-bus-users.md)
-#### [Get Ready for Doing Business](ui-get-ready-business.md)
-### Resources for a Developer
-#### [Learning catalog](readiness/readiness-learning-developers.md)
-#### [Documentation](/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview?toc=/dynamics365/business-central/toc.json)-->
 # Forretningsfunksjoner
 ## [Oversikt over forretningsfunksjoner](across-business-functionality.md)
 <!--general-->
@@ -244,6 +230,7 @@
 ### [Bruk prosjektkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md)
 ### [La Business Central foreslå verdier](ui-let-system-suggest-values.md)
 ### [Bruk Online Maps til å finne plasseringer og veibeskrivelser](across-online-maps.md)
+### [Konfigurer digitale bilag](across-how-setup-digital-vouchers.md)
 
 ### Inngående dokumenter
 #### [Oversikt over inngående dokumenter](across-income-documents.md)
@@ -882,10 +869,12 @@
 
 ### Danmark
 #### [Lokale funksjoner i dansk versjon](LocalFunctionality/Denmark/denmark-local-functionality.md)
+#### [Varsling og registrering i NemHandelsregisteret i Danmark](localfunctionality/denmark/how-to-nemhandel-register.md)
 #### Mva.
 ##### [Skriv ut mva-avstemmingsrapporter](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [Mva. – VIES-rapporter](LocalFunctionality/Denmark/vat-vies-reporting.md)
 ##### [Oppsett av organisasjonsnummer for Intrastat](LocalFunctionality/Denmark/vat-registration-no-intrastat.md)
+##### [Send mva-returer elektronisk](localfunctionality/denmark/how-to-evat-statement-dk.md)
 #### Banktjenester og betalinger
 ##### [FIK-detaljer i betalingsavstemmingskladden](LocalFunctionality/Denmark/fik-details-in-the-payment-reconciliation-journal.md)
 ##### [Utvidelsen Betalinger og avstemminger (DK)](ui-extensions-payments-reconciliation-formats-dk.md)
@@ -897,6 +886,8 @@
 ##### [Opprett elektroniske dokumenter i OIOUBL-format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
 #### Lønn
 ##### [Lønnsdatadefinisjoner (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
+#### Digitale bilag
+##### [Konfigurer digitale bilag i Danmark](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finland
 #### [Lokale funksjoner i finsk versjon](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -1838,6 +1829,7 @@
 ## Administrer Copilot- og KI-funksjoner
 ### [Konfigurer Copilot- og KI-funksjoner](enable-ai.md)
 ### [Copilot-dataflytting på tvers av geografiske områder](ai-copilot-data-movement.md)
+### [Feilsøk Copilot- og KI-funksjoner](ai-copilot-troubleshooting.md)
 ## Bankkontoavstemmingshjelp (forhåndsversjon)
 ### [Avstem bankkontoer med Copilot](bank-reconciliation-with-copilot.md)
 ### [Vanlige spørsmål om bankkontoavstemmingshjelp](faqs-bank-reconciliation.md)

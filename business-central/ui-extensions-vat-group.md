@@ -160,6 +160,18 @@ Når grupperepresentanten har sendt inn gruppens omsetningsoppgave til myndighet
 > [!IMPORTANT]
 > Funksjonen for mva-gruppe støttes bare i de markeder der [!INCLUDE[prod_short](includes/prod_short.md)] bruker et mva-rammeverk som består av mva-returer og mva-returperioder. Du kan ikke bruke mva-grupper i markeder med andre implementeringer av lokal mva-rapportering, for eksempel Østerrike, Tyskland, Italia, Spania og Sveits.
 
+## Problem med aktivering av flerfaktorautentisering (MFA)
+
+Hvis du får en feilmelding relatert til autorisasjon under fornyelsen av **OAuth2-token** på siden **Mva-rapportoppsett** etter at du har aktivert MFA, følger du denne fremgangsmåten.  
+
+1. Logg på **Azure Portal** som godkjenningsadministrator.  
+2. Gå til **Microsoft Entra ID**.   
+3. Gå til **Brukere**, og velg brukeren du vil skal utføre en handling.  
+4. Velg **Godkjenningsmetodene**, og på toppen av siden velger du **Krev ny registrering av flerfaktorautentisering**. 
+5. Gå tilbake til Dynamics 365 Business Central, og velg å fornye tokenet fra **Mva-rapportoppsett**.  
+
+Dette bør være et engangsoppsett etter at du har aktivert godkjenning med flere faktorer for brukeren som er valgt i **Mva-rapportoppsett**.  
+
 ## Se også
 
 [Lokal funksjonalitet for Storbritannia i den britiske versjonen](LocalFunctionality/unitedkingdom/united-kingdom-local-functionality.md)  

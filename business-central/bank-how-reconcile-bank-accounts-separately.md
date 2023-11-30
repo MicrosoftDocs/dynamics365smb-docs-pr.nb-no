@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics365-business-central
 ms.topic: conceptual
-ms.date: 10/04/2023
+ms.date: 10/24/2023
 ms.custom: bap-template
 ---
 # Avstemme bankkontoer
@@ -22,9 +22,15 @@ Du kan imidlertid avstemme bankkontoer på siden **Betalingsavstemmingskladd** n
 
 Linjene på siden **Bankkontoavstemming** er delt i to ruter. Ruten **Bankkontoutdragslinjer** viser importerte banktransaksjoner eller poster med utestående betalinger. Ruten **Bankkontoposter** viser postene i den interne bankkontoen.
 
-Avstemming av transaksjoner i oppgaver fra banken med bankposter i [!INCLUDE[prod_short](includes/prod_short.md)] kalles *avstemming*. Det finnes to måter å avstemme transaksjoner med bankposter på:
+## Om bankavstemming 
+
+Avstemming av transaksjoner i oppgaver fra banken med bankposter i [!INCLUDE[prod_short](includes/prod_short.md)] kalles *avstemming*. Det finnes tre måter å avstemme transaksjoner med bankposter på:
 
 * Automatisk ved å bruke handlingen **Avstem automatisk**.
+
+* Automatisk ved hjelp av handlingen **Avstem med Copilot**.
+
+  Denne handlingen er tilgjengelig som en del av funksjonen for bankavstemmingshjelp (forhåndsversjon), som er en funksjon drevet av kunstig intelligens. [Lær om bankkontoavstemmingshjelpen](bank-reconciliation-with-copilot.md).
 * Manuelt ved å velge linjer manuelt i begge rutene for å koble hver bankkontoutdragslinje til én eller flere relaterte bankkontoposter, og deretter bruke handlingen **Avstem manuelt**.
 
 Det er merket av for **Utlignet** på linjer der postene som er utlignet. Hvis du vil ha mer informasjon, kan du se [Definere regler for automatisk utligning av betalinger](receivables-how-set-up-payment-application-rules.md). Hvis du angir en utdragssluttdato på bankavstemmingen etter at du har avstemt linjene med poster, vil [!INCLUDE [prod_short](includes/prod_short.md)] gjøre om treffene for linjer og poster som er etter denne datoen.
@@ -49,7 +55,7 @@ Du kan fylle ut ruten **Bankkontoutdragslinjer** på siden **Bankkontoavstemming
 * Automatisk, ved hjelp av funksjonen **Importer bankkontoutdrag** for å fylle ut ruten **Bankkontoutdragslinjer** med banktransaksjoner i henhold til en importert fil eller strøm oppgitt av banken.
 * Manuelt, ved hjelp av funksjonen **Foreslå linjer**, for å fulle ut ruten **Bankkontoutdragslinjer** i henhold til fakturaer i [!INCLUDE[prod_short](includes/prod_short.md)] som har utestående betalinger.
 
-## Slik legger du til bankavstemmingslinjer ved å importere et bankkontoutdrag
+## Legge til bankavstemmingslinjer ved å importere et bankkontoutdrag
 
 Ruten **Bankkontoutdragslinjer** fylles ut med banktransaksjoner i henhold til en importert fil eller strøm fra banken.
 
@@ -82,7 +88,7 @@ Ruten **Bankkontoutdragslinjer** fylles ut i henhold til fakturaer i [!INCLUDE[p
 
 ## Avstemme bankkontoutdragslinjer med bankkontoposter automatisk
 
-Siden **Bankkontoavstemming** inneholder automatisk samsvarsfunksjonalitet basert på samsvar av tekst på en bankkontoutdragslinje (venstre rute) med tekst på én eller flere bankkontoposter (høyre rute). Du kan overskrive foreslått automatisk samsvar, og du kan velge ikke å bruke automatisk samsvar i det hele tatt. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkontoutdragslinjer med bankkontoposter manuelt](bank-how-reconcile-bank-accounts-separately.md#to-match-bank-statement-lines-with-bank-account-ledger-entries-manually).
+Siden **Bankkontoavstemming** inneholder automatisk samsvarsfunksjonalitet basert på samsvar av tekst på en bankkontoutdragslinje (venstre rute) med tekst på én eller flere bankkontoposter (høyre rute). Du kan overskrive foreslått automatisk samsvar, og du kan velge ikke å bruke automatisk samsvar i det hele tatt. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkontoutdragslinjer med bankkontoposter manuelt](#match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
 Du kan undersøke grunnlaget for avstemming ved å bruke handlingen **Avstemmingsdetaljer**. Detaljene vil for eksempel omfatte navnene på feltene som inneholder samsvarende verdier.  
 
@@ -123,7 +129,7 @@ Du kan undersøke grunnlaget for avstemming ved å bruke handlingen **Avstemming
 > [!TIP]
 > Hvis du vil fjerne en avstemming, merker du bankkontoutdragslinjen og deretter velger du handlingen **Fjern avstemming**. Hvis du har tilordnet flere bankkontoutdragslinjer til en post og du må fjerne en eller flere av avstemte linjer, fjernes alle de manuelle postene for posten når du velger **Fjern avstemming**.
 
-## Slik validerer du bankavstemmingen
+## Validere bankavstemmingen
 
 Hvis du vil dobbeltsjekke bankkontoavstemmingen før du bokfører den, bruker du handlingen **Test rapport** for å forhåndsvise avstemmingen. Følgende rapport er tilgjengelig i følgende kontekster:
 
@@ -239,10 +245,12 @@ Ikke bruk en finanskonto som tillater direkte bokføring i bankkontobokføringsg
 
 Denne feilen oppstår ofte når du angir en startsaldo for en bankkonto. Det er viktig at du ikke bokfører åpningssaldoen direkte i finans. Poster på finanskontoen som bokføres direkte på finanskontoen, forårsaker problemer. Disse postene kan for eksempel hindre deg i å avstemme bankkontoen. Når det gjelder bankkonti i fremmed valuta, kan postene føre til at differansene akkumuleres etter at du har bokført flere bankavstemminger, på grunn av valutakursjusteringer. Ofte bokfører du åpningssaldoen direkte til bankkontoen, og beløpet ender deretter opp i finanskontoen. Alternativt kan du tilbakeføre det senere mot finanskontoen som du bruker til å balansere den åpne finanssaldoen. I begge tilfeller må du balansere eventuell direkte bokføring til finanskontoen før du starter den første bankavstemmingen, og spesielt hvis bankkontoen er i en utenlandsk valuta.
 
+
 ## Se også
 
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  
-[Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
+[Avstemme bankkonti ved hjelp av bankavstemmingshjelp (forhåndsversjon)](bank-reconciliation-with-copilot.md)
+[Utligne betalinger automatisk og avstemme bankkontoer](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
 [Konfigurere banktjenester](bank-setup-banking.md)  
 [Definere regler for automatisk utligning av betalinger](receivables-how-set-up-payment-application-rules.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
