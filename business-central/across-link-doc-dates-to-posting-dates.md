@@ -5,14 +5,13 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual
-ms.date: 08/03/2023
+ms.date: 11/14/2023
 ms.custom: bap-template
 ---
-
-# <a name="updating-document-dates-with-posting-dates"></a>Oppdatere dokumentdatoer med bokføringsdatoer
+# Oppdatere dokumentdatoer med bokføringsdatoer
 
 [!INCLUDE [document-posting-date](includes/document-posting-date.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Sette opp salg](sales-setup-sales.md)

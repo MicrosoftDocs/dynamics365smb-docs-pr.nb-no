@@ -120,7 +120,7 @@ Det finnes et par trinn du kan gjøre for å forbedre tekstforslagene og endre d
 1. I Business Central åpner du varen du vil endre, slik:
 
     1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen 22.](media/ui-search/search_small.png "Fortell hva du vil gjøre") øverst til høyre og angi **Varer**, og velg deretter relatert kobling for å vise en liste over tilgjengelige varer.
-    2. Hvis du vil åpne varen, dobbeltklikker du på den eller velger nummeret i **Nr.** .
+    2. Hvis du vil åpne varen, dobbeltklikker du på den eller velger nummeret i feltet **Nr.** .
 
 2. Gjør ett av følgende:
 

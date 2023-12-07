@@ -9,11 +9,11 @@ ms.collection: null
 ms.date: 11/15/2023
 ms.custom: bap-template
 ---
-# <a name="troubleshoot-copilot-and-ai-capabilities"></a>Feilsøk Copilot- og KI-funksjoner
+# Feilsøk Copilot- og KI-funksjoner
 
 Copilot er en KI-drevet funksjonalitet i Business Central som hjelper deg med ulike oppgaver som å utarbeide markedsføringstekst og avstemme bankkontoer. Hvis du opplever problemer med Copilot eller andre KI-funksjoner, kan denne artikkelen hjelpe deg med å identifisere og fikse vanlige problemer.
 
-## <a name="copilot-doesnt-appear-on-pages"></a>Copilot vises ikke på sidene
+## Copilot vises ikke på sidene
 
 Hvis Copilot-funksjonalitet, for eksempel **Lag utkast med Copilot**-handlingen for markedsføringstekstforslag eller **Avstem med Copilot**-handlingen for hjelp med bankkontoavstemming, vises ikke på en side som forventet, må du sjekke følgende:
 
@@ -21,14 +21,14 @@ Hvis Copilot-funksjonalitet, for eksempel **Lag utkast med Copilot**-handlingen 
 
 - Pass på at funksjonaliteten ikke er skjult av tilpassing. [Finn ut mer om tilpassing](ui-personalization-user.md).
 
-## <a name="copilot-appears-on-pages-but-you-get-an-error-that-its-not-activated"></a>Copilot vises på sidene, men du får en feilmelding om at den ikke er aktivert
+## Copilot vises på sidene, men du får en feilmelding om at den ikke er aktivert
 
 Når du prøver å bruke Copilot og du får en feilmelding som ligner **Beklager, men Copilot er ikke aktivert for \[funksjonen\]**, er det et par ting du kan sjekke :
 
 - Kontroller først at funksjonen er aktivert på siden **Copilot og KI-funksjoner**. [Finn ut mer om aktivering av Copilot- og KI-funksjoner](enable-ai.md#activate-features). 
 - Deretter må du sørge for at personvernerklæringen for Azure OpenAI-integrering ikke er satt til **Ikke godta for alle**. Hvis det er det, endrer du det til **Godta for alle**. [Finn ut mer om personvernerklæringer](privacy-notices-status.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurer Copilot- og KI-funksjoner](enable-ai.md)  
 [Markedsføringstekstforslag med Copilot](ai-overview.md)  
