@@ -99,7 +99,7 @@ Hvis det forespurte antallet overskrider det disponible antallet på lageret, bl
 
 Finn ut mer om varianter under [Administrer av produktvarianter](inventory-item-variants.md).  
 
-## <a name="deleting-item-cards"></a>Slette varekort
+## <a name="delete-item-cards"></a>Slette varekort
 
 Hvis du har bokført en transaksjon for en vare, kan du ikke slette kortet, fordi postene kan være nødvendige for å lagervurdering eller -revisjon. Hvis du vil slette varekort med poster, kontakter du Microsoft-partneren for å gjøre det gjennom kode.  
 

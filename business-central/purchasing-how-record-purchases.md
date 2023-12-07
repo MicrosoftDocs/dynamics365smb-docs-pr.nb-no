@@ -22,7 +22,7 @@ Når du mottar lagervarene eller den kjøpte tjenesten er fullført, kan du bokf
 > [!CAUTION]  
 > Ikke bokfør fysiske varer for en kjøpsfaktura før du mottar varene og kjenner de endelige kostnadene for kjøpet, herunder eventuelle tilleggskostnader. Hvis ikke, kan det hende at lagerverdien og fortjenestebeløpet er skjevt.
 
-### <a name="create-a-and-post-purchase-invoice"></a>Opprett en og bokfør kjøpsfaktura
+### <a name="create-and-post-a-purchase-invoice"></a>Opprett en og bokfør kjøpsfaktura
 
 Nedenfor ser du en beskrivelse av hvordan du oppretter en kjøpsfaktura. Trinnene er de samme for en bestilling. Hovedforskjellen er at bestillinger har flere felt og handlinger for fysisk håndtering av varer.
 

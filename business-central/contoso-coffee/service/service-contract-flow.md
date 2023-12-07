@@ -73,7 +73,7 @@ Charles, servicelederen, oppretter deretter en servicekontrakt som skal fakturer
 - En signert servicekontrakt opprettes med vareposter
 - En bokført servicefaktura opprettes
 
-## <a name="creating-a-service-order-for-a-service-contract-and-assign-resources"></a>Opprette en serviceordre for en servicekontrakt og tilordne ressurser
+## <a name="create-a-service-order-for-a-service-contract-and-assign-resources"></a>Opprette en serviceordre for en servicekontrakt og tilordne ressurser
 
 ### <a name="scenario-2"></a>Scenario
 

@@ -8,13 +8,13 @@ ms.topic: overview
 ms.date: 10/29/2023
 ms.custom: bap-template
 ---
-# Oversikt over forslag til markedsføringstekst med Copilot
+# <a name="marketing-text-suggestions-with-copilot-overview"></a>Oversikt over forslag til markedsføringstekst med Copilot
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
 Denne artikkelen gir en oversikt over funksjonene drevet av kunstig intelligens som leveres av Copilot i Business Central.
 
-## Hva er varemarkedsføringstekst drevet av kunstig intelligens med Copilot
+## <a name="what-is-ai-powered-item-marketing-text-with-copilot"></a>Hva er varemarkedsføringstekst drevet av kunstig intelligens med Copilot
 
 Copilot gir skrivehjelp drevet av kunstig intelligens Business Central-brukere som har ansvaret for å redigere markedsføringstekst (produktbeskrivelser) på varer solgt i nettbutikker som Shopify. Ved å klikke en knapp genererer Copilot tekst som er engasjerende og kreativ, og som fremhever attributtene for den bestemte varen. Med litt gjennomgang og redigering er den klar til publisering.
 
@@ -26,13 +26,13 @@ Copilot bruker [Microsoft Azure OpenAI-tjenesten](/azure/cognitive-services/open
 
 *Videoen gjenspeiler ikke nøyaktig hvordan funksjonen fungerer eller ser ut i produktet. Funksjonen har endret seg siden videoen ble produsert. Den gir deg likevel en generell idé om funksjonen og hva du kan bruke den til.*
   
-## Hvor det brukes
+## <a name="where-its-used"></a>Hvor det brukes
 
 Copilot er tilgjengelig på varekort i Business Central. I Business Central er varer som produkter i andre programmer og butikker. Hver vare kan behandles fra et kort der du angir opplysninger om varen, for eksempel dimensjonene, kostnaden eller bildet. Dette kortet inneholder også en boks for angivelse av markedsføringstekst. Denne markedsføringsteksten kan publiseres i nettbutikken for å promotere varen. Det er her Copilot kommer inn. Ved å velge handlingen **Opprett utkast med Copilot** på varekortet vil Copilot generere en intelligent utkasttekst for deg. Når du har fått det første utkastet, kan du kjøre Copilot flere ganger til du får et utkast du liker. Når du har et forslag du liker, går du gjennom og redigerer det for nøyaktighet og lagrer det.
 
 Hvis Business Central er satt opp for å koble til nettbutikken på Shopify, kan du ta denne teksten enda lenger ved å publisere den med varen direkte i butikken ved å velge **Legg til i Shopify**.
 
-## Hvorfor og hvordan du bruker den
+## <a name="why-and-how-to-use-it"></a>Hvorfor og hvordan du bruker den
 
 Tekst generert med kunstig intelligens kan hjelpe deg med å fremskynde leveringstiden til produkter i nettbutikker ved å begrense tiden som brukes på kopiskriving. Noen av de viktigste fordelene omfatter:
 
@@ -42,7 +42,7 @@ Tekst generert med kunstig intelligens kan hjelpe deg med å fremskynde levering
 
 Du bør vurdere teksten generert med kunstig intelligens som et *forslag bare*. Forslag kan i noen tilfeller inneholde feil og til og med upassende tekst, så det kreves menneskelig overstyring og gjennomgang. Før du gjør teksten offentlig tilgjengelig, må du kontrollere nøyaktigheten og gjøre nødvendige endringer.
 
-## Gjeldende begrensninger
+## <a name="current-limitations"></a>Gjeldende begrensninger
 
 Denne delen forklarer nåværende begrensninger for tekst generert av kunstig intelligens levert av Copilot.
 
@@ -53,7 +53,7 @@ Denne delen forklarer nåværende begrensninger for tekst generert av kunstig in
 
 <!-- Partner extensibility of the AI capability by using AL code isn't supported.-->
 
-## Neste trinn
+## <a name="next-steps"></a>Neste trinn
 
 For å komme i gang trenger du et Business Central-miljø (v23.1 og senere) som er aktivert med Copilot.
 
@@ -63,7 +63,7 @@ For å komme i gang trenger du et Business Central-miljø (v23.1 og senere) som 
 
 Når du har et miljø eller en bane som er klar, går du til [Legge til markedsføringstekst i elementer med Copilot](item-marketing-text.md).  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurer Copilot- og KI-funksjoner](enable-ai.md)  
 [Legge til markedsføringstekst i elementer med Copilot](item-marketing-text.md)  

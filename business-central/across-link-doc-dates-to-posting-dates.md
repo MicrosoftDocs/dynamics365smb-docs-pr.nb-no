@@ -8,10 +8,10 @@ ms.topic: conceptual
 ms.date: 11/14/2023
 ms.custom: bap-template
 ---
-# Oppdatere dokumentdatoer med bokføringsdatoer
+# <a name="updating-document-dates-with-posting-dates"></a>Oppdatere dokumentdatoer med bokføringsdatoer
 
 [!INCLUDE [document-posting-date](includes/document-posting-date.md)]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Sette opp salg](sales-setup-sales.md)
