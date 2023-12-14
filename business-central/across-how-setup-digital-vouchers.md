@@ -12,7 +12,7 @@ ms.date: 11/17/2023
 ms.custom: bap-template
 ---
 
-# <a name="set-up-digital-vouchers"></a>Konfigurer digitale bilag
+# Konfigurer digitale bilag
 
 Administratorer kan bruke funksjonalitet for digitale bilag for å kreve at dokumenter legges ved spesifikke transaksjoner når de bokføres. Derfor tillater denne funksjonaliteten en kildedrevet tilnærming og gir et bedre revisjonsspor. Ulike typer bruk kan konfigureres for dette formålet, avhengig av dokumentene eller journaltypene.
 
@@ -21,14 +21,14 @@ Begrepet *digitalt bilag* viser til en digital eller elektronisk form for et tra
 > [!IMPORTANT]
 > I enkelte land og områder kan du være begrenset fra å konfigurere noen alternativer, fordi spesifikke oppsett kan være pålagt av juridiske krav. Hvis du møter disse begrensningene, kan du se etter en detaljert forklaring på dokumentasjonssiden for ditt land eller område.
 
-## <a name="enable-digital-vouchers"></a>Aktiver digitale bilag
+## Aktiver digitale bilag
 
 Følg denne fremgangsmåten for å aktivere funksjonalitet for digitale bilag.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 3.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett for digitalt bilag**, og velg deretter den relaterte koblingen.
 2. Merk av for **Aktivert**.
 
-## <a name="set-up-digital-vouchers-1"></a>Konfigurer digitale bilag
+## Konfigurer digitale bilag
 
 Du kan bruke forskjellige oppsett for følgende dokumenter og journaler.
 
@@ -48,7 +48,7 @@ Følg denne fremgangsmåten for å definere hvordan organisasjonen din bruker di
 4. Merk av for **Generer automatisk** for å generere det digitale bilaget automatisk. Hvis du for eksempel ikke vil legge til en salgsfaktura manuelt i transaksjonen, merker du av i denne avmerkingsboksen. Deretter må du bare bokføre dokumentet. Systemet oppretter automatisk dokumentet, basert på rapportoppsettet ditt og legger det ved transaksjonen.
 5. Merk av for **Hopp over hvis lagt til manuelt** hvis du ikke vil legge til et automatisk generert digitalt bilag hvis brukeren allerede har lagt til et manuelt vedlegg.
 
-### <a name="use-source-codes-for-setup"></a>Bruk kildespor for oppsett
+### Bruk kildespor for oppsett
 
 For å bruke håndheving for kladder, men ikke for alle transaksjonstyper, kobler du til det spesifikke kildesporet for å identifisere oppføringstypen i finanskladden, salgskladden eller kjøpskladden.
 
@@ -58,7 +58,7 @@ Følg denne fremgangsmåten for å konfigurere spesifikke kildespor for digitale
 2. På siden **Kildespor for bilagsoppføring** velger du kildesporene du vil konfigurere.
 3. Lukk siden.
 
-## <a name="use-the-functionality"></a>Bruk funksjonaliteten
+## Bruk funksjonaliteten
 
 Åpne et kjøps- eller salgsdokument, og skriv inn informasjon i de obligatoriske feltene. Før du bokfører dokumentet, må du følge denne fremgangsmåten for å legge ved et digital bilag.
 
@@ -75,13 +75,13 @@ Hvis du ved et uhell legger ved feil bilag, følger du denne fremgangsmåten for
 > [!NOTE]
 > Hvis vedlegg av et digitalt bilag er konfigurert som obligatorisk, og du prøver å bokføre dokumenter eller kladder uten å legge ved et bilag, hindrer systemet deg i å bokføre. Du får følgende feilmelding: Ikke mulig å bokføre uten å legge ved det digitale bilaget.
 
-### <a name="find-attached-vouchers-in-transactions"></a>Finn vedlagte bilag i transaksjoner
+### Finn vedlagte bilag i transaksjoner
 
 Du kan finne det vedlagte bilaget fra det bokførte dokumentet eller fra siden **Finanskladder** ved å se i faktaboksen **Innkommende dokumentfiler**.
 
 Du kan ikke slette et vedlagt dokument etter bokføringen er fullført. Du kan imidlertid legge til flere vedlegg etter at bokføringen er fullført.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Økonomistyring](finance.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

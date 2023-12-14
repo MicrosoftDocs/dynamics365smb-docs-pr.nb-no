@@ -11,11 +11,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ---
 
-# <a name="data-ownership-models-for-synchronization"></a>Dataeierskapsmodeller for synkronisering
+# Dataeierskapsmodeller for synkronisering
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] krever at du angir en eier av dataene du lagrer. Hvis du vil ha mer informasjon, kan du se [Tabelltyper](/powerapps/maker/data-platform/types-of-entities) i dokumentasjonen for Power Apps. Når du definerer integreringen mellom [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)], må du velge eierskapet **Bruker eller Team** for poster som synkroniseres. Handlinger som kan utføres på disse postene, kan kontrolleres på et brukernivå. <!--We recommend the Team ownership model because it makes it easier to manage ownership for multiple people.NO LONGER TRUE IN DATAVERSE-->
 
-## <a name="team-ownership"></a>Teameierskap
+## Teameierskap
 I [!INCLUDE[prod_short](includes/prod_short.md)] er et selskap en juridisk og forretningsmessig tabell som har metoder for å sikre og visualisere forretningsdata. Brukere arbeider alltid i en bedrifts kontekst. Det nærmeste [!INCLUDE[prod_short](includes/cds_long_md.md)] kommer til dette konseptet, er konserntabellen, som ikke har juridiske eller forretningsmessige konsekvenser.
 
 Ettersom forretningsenheter mangler juridiske og forretningsmessige konsekvenser, kan du ikke gjennomføre en én-til-én-tilordning (1:1) til å synkronisere data mellom et selskap og en forretningsenhet, enten enveis eller toveis. Når du aktiverer synkronisering av et selskap i [!INCLUDE[prod_short](includes/prod_short.md)], skjer følgende i [!INCLUDE[prod_short](includes/cds_long_md.md)] hvis du vil gjøre synkronisering mulig:
@@ -49,21 +49,21 @@ Synkronisering bestemmer hvilket team som skal eie poster. Dette styres av felte
 > [!NOTE]
 > Poster blir skrivebeskyttet etter at et selskap er lagt til og lagret, så sørg for at du velger riktig selskap.
 
-## <a name="choosing-a-different-business-unit"></a>Velge en annen forretningsenhet
+## Velge en annen forretningsenhet
 Du kan endre valgt forretningsenhet hvis du bruker Team-eierskapsmodellen. Hvis du bruker Person-eierskapsmodellen, blir standard forretningsenhet alltid valgt. 
 
 Hvis du velger en annen forretningsenhet, for eksempel et som du opprettet tidligere i [!INCLUDE[prod_short](includes/cds_long_md.md)], beholder den det opprinnelige navnet. Det vil si at den ikke vil få et suffiks med firma-ID-en. Det opprettes et team som bruker navnekonvensjonen.
 
 Når du endrer en forretningsenhet, kan du bare velge de konsernene som er ett nivå under rotforretningsenheten.
 
-## <a name="person-ownership"></a>Personeierskap
+## Personeierskap
 Hvis du velger personeierskapsmodellen, må du angi hver selger som skal eie nye poster. Forretningsenheten og teamet opprettes som beskrevet i delen [Teameierskap](admin-cds-company-concept.md#team-ownership).
 
 Standard forretningsenhet brukes når Person-eierskapsmodellen er valgt, og du kan ikke velge en annen forretningsenhet. Teamet som er knyttet til standard forretningsenhet, vil eie poster for vanlige tabeller, for eksempel produkttabellen, som ikke er knyttet til bestemte selgere.
 
 Når du kobler selgere i [!INCLUDE[prod_short](includes/prod_short.md)] med brukere i [!INCLUDE[prod_short](includes/cds_long_md.md)], vil [!INCLUDE[prod_short](includes/prod_short.md)] legge til brukeren i standardgruppen i [!INCLUDE[prod_short](includes/cds_long_md.md)]. Du kan bekrefte at brukerne er lagt til ved å se på kolonnen **Standard teammedlem** på **Brukere - Common Data Service**-siden. Hvis brukeren ikke er lagt til, kan du legge dem til manuelt ved å bruke handlingen **Legg til koblede brukere i Team**. Hvis du vil ha mer informasjon, kan du se [Synkronisere data i Business Central med Dataverse](admin-synchronizing-business-central-and-sales.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 [Om [!INCLUDE[prod_short](includes/cds_long_md.md)]](admin-common-data-service.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

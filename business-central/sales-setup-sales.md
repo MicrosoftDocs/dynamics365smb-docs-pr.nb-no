@@ -11,7 +11,7 @@ ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021
 ms.author: bholtorf
 ---
-# <a name="setting-up-sales"></a>Sette opp salg
+# Sette opp salg
 
 Før du kan håndtere salgsprosesser, må du konfigurere regler og verdier som definerer selskapets salgsprinsipper.
 
@@ -35,7 +35,7 @@ Finansrelatert salgsoppsett, for eksempel betalingsmåte og valutaer, beskrives 
 |Angi standardrapporter som skal brukes for ulike dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 |Angi om brukere kan bokføre salgsfakturaer, og om de må bokføre dem sammen med en levering. |[Definer en fakturabokføringspolicy for brukere](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 [Salg](sales-manage-sales.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

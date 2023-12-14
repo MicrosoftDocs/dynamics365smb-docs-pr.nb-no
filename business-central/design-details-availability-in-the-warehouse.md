@@ -8,7 +8,7 @@ ms.topic: conceptual
 ms.date: 02/22/2023
 ms.custom: bap-template
 ---
-# <a name="design-details-availability-in-the-warehouse"></a>Designdetaljer: Tilgjengelighet i lageret
+# Designdetaljer: Tilgjengelighet i lageret
 
 Hold deg oppdatert på varedisposisjon for å sikre at utgående bestillinger flyter effektivt, og at leveringstidene er optimale.  
 
@@ -21,13 +21,13 @@ Før tildelingsantall for valg for utgående flyter, bekrefter [!INCLUDE [prod_s
 
 Når betingelsene ikke er oppfylt, vises det feilmeldinger. En typisk melding er den generelle Ingenting å håndtere. meldingen. Meldingen kan vises av mange ulike årsaker, i utgående og inngående flyter, der en dokumentlinje inneholder feltet **Ant. som skal håndt**.
 
-## <a name="bin-content-and-reservations"></a>Hylleinnhold og reservasjoner
+## Hylleinnhold og reservasjoner  
 
 Vareantall eksisterer både som lagerposter og som vareposter i lager. Disse to posttypene inneholder forskjellig informasjon om hvor varene er, og om de er tilgjengelige. Lagerposter angir disposisjonen til en vare etter hylle og hylletype, som kalles hylleinnhold. Vareposter angir varens tilgjengelighet ved reservasjon for utgående dokumenter.  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] beregner antallet som er tilgjengelig for plukking når hylleinnholdet er kombinert med reservasjoner.  
 
-## <a name="quantity-available-to-pick"></a>Antall tilgjengelig for plukk
+## Antall tilgjengelig for plukk  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] reserverer varer for ventende ordreforsendelser slik at de ikke plukkes for andre ordrer som leveres tidligere. [!INCLUDE [prod_short](includes/prod_short.md)] trekker fra antall varer som allerede er i ferd med å utføres på følgende måte:
 
@@ -46,7 +46,7 @@ Resultatet er tilgjengelig i disse dokumentene i antallsfeltene, for eksempel fe
 > [!NOTE]  
 > Når det gjelder reservasjonsprioriteter, blir antallet som skal reserveres trukket fra antallet som er tilgjengelige for plukk. Hvis for eksempel antallet som er tilgjengelig i plukkhyller er 5 enheter, men 100 enheter er i plasseringshyller, vil det vises en feilmelding når du prøver å reservere flere enn 5 enheter for en annen ordre, fordi resten av antallet må være tilgjengelig i plukkhyller.  
 
-### <a name="calculating-the-quantity-available-to-pick"></a>Beregn antall tilgjengelig for plukk
+### Beregn antall tilgjengelig for plukk  
 
 [!INCLUDE [prod_short](includes/prod_short.md)] beregner antallet som er disponibelt for plukking som følger:  
 
@@ -56,7 +56,7 @@ Diagrammet nedenfor viser de ulike elementene i beregningen.
 
 ![Disponibelt for plukking med reservasjonsoverlapping.](media/design_details_warehouse_management_availability_2.png "Disponibelt for plukking med reservasjonsoverlapping")  
 
-## <a name="quantity-available-to-reserve"></a>Antall tilgjengelig for reservasjon
+## Antall tilgjengelig for reservasjon
 
 Siden konsepter for hylleinnhold og reservasjon sameksisterer, må antall varer som er tilgjengelige for reservasjon, justeres etter tildelinger til utgående lagerdokumenter.  
 
@@ -73,11 +73,11 @@ Resultatet vises i feltet **Totalt disp. antall** på **Reservasjon**-siden.
 
 Antallet som ikke kan reserveres på en reservasjonslinje fordi det er tildelt i lageret, vises i feltet **Tildelt antall på lager** på **Reservasjon**-siden.  
 
-## <a name="check-whether-items-are-available-for-picking"></a>Kontrollere om varene er tilgjengelige for plukking
+## Kontrollere om varene er tilgjengelige for plukking
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-### <a name="calculating-the-quantity-available-to-reserve"></a>Beregn antall tilgjengelig for reservasjon
+### Beregn antall tilgjengelig for reservasjon
 
 [!INCLUDE [prod_short](includes/prod_short.md)] beregner antallet som er disponibelt for reservasjon, som følger:  
 
@@ -87,7 +87,7 @@ Diagrammet nedenfor viser de ulike elementene i beregningen.
 
 ![Disponibelt for reservering per lagerlokasjon.](media/design_details_warehouse_management_availability_3.png "Disponibelt for reservering per lagerlokasjon")  
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Vis tilgjengeligheten av varer](inventory-how-availability-overview.md)

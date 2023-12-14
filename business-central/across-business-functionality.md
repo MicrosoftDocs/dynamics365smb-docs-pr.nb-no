@@ -8,12 +8,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: feature overview
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 09/13/2022
+ms.date: 11/01/2023
 ms.author: bholtorf
 ---
-# <a name="business-functionality"></a>Forretningsfunksjoner
+# Forretningsfunksjoner
 
-[!INCLUDE[prod_short](includes/prod_short.md)] inneholder funksjonalitet for vanlige forretningsprosesser i små og mellomstore bedrifter, først og fremst i engros og profesjonelle tjenester. Mer sammensatte prosesser, for eksempel montering, produksjon, service og styrt lagerstyring, støttes imidlertid også. [Finn ut hvordan du får en prøveversjon her](trial-signup.md).  
+[!INCLUDE[prod_short](includes/prod_short.md)] inneholder funksjonalitet for vanlige forretningsprosesser i små og mellomstore bedrifter, først og fremst i engros og profesjonelle tjenester. Mer sammensatte prosesser, for eksempel montering, produksjon, service og styrt lagerstyring, støttes imidlertid også. Finn ut hvordan du får en prøveversjon [her](trial-signup.md).  
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -27,7 +27,7 @@ ms.author: bholtorf
 |Administrere innkjøpsprosesser og informasjon, for eksempel fakturaer, salgsordrer, returer og leverandørkontoer, og kjøpe varer fra salgsdokumenter. |[Innkjøp](purchasing-manage-purchasing.md)|
 |Registrere nye lager- eller servicetypevarer, kategorisere varer for enkelt søk, justere lagernivåer og utføre vanlige lageretterkalkuleringsoppgaver.|[Lager](inventory-manage-inventory.md)|
 |Opprette jobber og planlegge ressurser for prosjekter, administrere jobbudsjetter, overvåke fremdrift og spore maskin- og ansattimer.|[Prosjektstyring](projects-manage-projects.md)|
-|Organisere dine aktiva, sikre riktig periodisk avskrivning og holde oversikt over vedlikeholdskostnader.|[Anleggsmidler](fa-manage.md)|
+|Organisere dine aktiva, sikre riktig periodisk avskrivning og holde oversikt over vedlikeholdskostnader.|[Aktiva](fa-manage.md)|
 |Behandle og støtte salgsinnsatsen din og fokusere samhandlingen på foretrukne kunder og kontakter.|[Forbindelser](marketing-relationship-management.md)|
 |Holde detaljerte poster for ansatte, og registrere fravær for analyseformål. |[Personal](hr-manage-human-resources.md)|
 |Planlegge produksjonsoperasjoner som er nødvendige for å tilgang til ferdigvarer.|[Planlegging](production-planning.md)|
@@ -39,7 +39,7 @@ ms.author: bholtorf
 |Gjøre det mulig for brukere å utveksle data med eksterne kilder under daglige oppgaver, for eksempel sending/mottak av elektroniske dokumenter, import/eksport av bankfiler og oppdatering av valutakurser.|[Utveksle data elektronisk](across-data-exchange.md)|
 |Registrere eksterne dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)], inkludert filvedlegg, og deretter opprette de relaterte dokumentene manuelt eller konvertere filene til elektroniske dokumenter automatisk.|[Inngående dokumenter](across-income-documents.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrasjon](admin-setup-and-administration.md)    
 [Utforske Dynamics 365 Business Central-funksjoner](https://dynamics.microsoft.com/business-central/capabilities/)  

@@ -7,13 +7,13 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 06/21/2021
+ms.date: 11/22/2023
 ms.author: bholtorf
 ---
-# <a name="set-up-payment-line-information-in-the-norwegian-version"></a>Definer betalingslinjeinformasjon i den norske versjonen
+# Definer betalingslinjeinformasjon i den norske versjonen
 Utbetalingskladdelinjeinformasjon for remitteringsoppdraget angis på siden **Betalingsinformasjon**.  
 
-## <a name="to-set-up-payment-line-information"></a>Definere betalingslinjeinformasjon
+## Definere betalingslinjeinformasjon  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladder** og velg den relaterte koblingen.  
 2.  Velg handlingen **Betalingsinformasjon**.  
@@ -51,11 +51,11 @@ Utbetalingskladdelinjeinformasjon for remitteringsoppdraget angis på siden **Be
     |**Terminskontraktnr.**|Angi terminskontraktnummeret som brukes for denne betalingen.|  
     |**Terminskontraktkurs**|Angi terminskontraktkursen som brukes for denne betalingen.|  
 
-6.  Velg **OK**.  
+6.  Velg **OK**-knappen.  
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)   
- [Sette opp remitteringsavtaler](how-to-set-up-remittance-agreements.md)   
+ [Sett opp remitteringsavtaler](how-to-set-up-remittance-agreements.md)   
  [Opprette remitteringskontoer](how-to-create-remittance-accounts.md)   
  [Angi leverandører for remittering](how-to-set-up-vendors-for-remittance.md)   
  [Mottakerreferansekoder](recipient-reference-codes.md)   

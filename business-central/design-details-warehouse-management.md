@@ -10,7 +10,7 @@ ms.date: 10/09/2023
 ms.custom: bap-template
 ---
 
-# <a name="warehouse-management-overview"></a>Oversikt over lagerstyring
+# Oversikt over lagerstyring
 
 Det er to ting som er viktige for alle virksomheter som fysisk flytter varer inn og ut av lageret:
 
@@ -26,7 +26,7 @@ For å hjelpe bedrifter med å oppnå disse tingene legger lagerfunksjoner i [!I
 
 Implementer disse funksjonene i ulike kombinasjoner for å skreddersy lagerprosessene for bedriften. Gjør det mulig å øke kompleksiteten etter hvert som selskapet vokser og prosessene endres.
 
-## <a name="overview-of-different-configuration-options"></a>Oversikt over ulike konfigurasjonsalternativer
+## Oversikt over ulike konfigurasjonsalternativer
 
 Du kan konfigurere lagerfunksjoner på ulike måter. Det er viktig at du velger alternativene som forbedrer prosessene uten å forårsake indirekte kostnader. Tabellen nedenfor gir en oversikt over typiske konfigurasjoner for å håndtere fysiske varer.
 
@@ -48,13 +48,13 @@ Kompleksiteten påvirkes også av dokumenttypene du bruker i lageraktivitetene. 
 
 En annen faktor som påvirker kompleksiteten, er hvordan det fysiske lageret er representert i [!INCLUDE[prod_short](includes/prod_short.md)]. Finn ut mer under [Modellering av det fysiske lageret](#modeling-the-physical-warehouse).
 
-## <a name="modeling-the-physical-warehouse"></a>Modellering av det fysiske lageret
+## Modellering av det fysiske lageret
 
 Du har flere alternativer for å representere det virkelige oppsettet av lageret i [!INCLUDE[prod_short](includes/prod_short.md)]. Valgene bestemmer hvordan du skal arbeide med lagerfunksjoner.
 
 Plasseringen av varer kan være hyller og lokasjoner, og det finnes fordeler og ulemper for hvert alternativ.
 
-### <a name="locations-and-bins"></a>Lokasjoner og hyller
+### Lokasjoner og hyller
 
 Du må ha minst én lokasjon for å kunne håndtere fysiske varer. Du kan bruke flere lokasjoner eller bruke hyller for å modellere lageret og organisasjonsstrukturen.
 
@@ -66,7 +66,7 @@ Lokasjoner er vanligvis den beste måten å organisere operasjoner på på tvers
 * Konfigurer planleggingsparametere. Finn ut mer under [Planleggingsparametere](production-about-planning-functionality.md#planning-parameters).  
 * Bruk forskjellige lagerfunksjoner for hver lokasjon.
 
-### <a name="shelves-and-bins"></a>Hyller
+### Hyller
 
 Hvis du alltid lagrer en vare på samme sted, kan du bruke feltet **Hyllenr.** på sidene **Varekort** eller **Lagerføringsenhetskort**. Dette feltet kan være et grunnleggende manuelt lagringssystem i miljøer uten hyller. Verdien i feltet kopieres fra varekortet til dokumentlinjene og -rapportene, men det er bare til informasjon. Verdien brukes ikke i lageraktiviteter eller tilgjengelighetsberegninger.
 
@@ -77,7 +77,7 @@ Hyller representerer den enkle lagerstrukturen og brukes til å komme med forsla
 * Hyllekapasitet og vektbegrensninger (bare for lagerstyring).
 * Hyllerangering (bare for lagerstyring).
 
-## <a name="typical-warehouse-workflow"></a>Vanlig arbeidsflyt for lager
+## Vanlig arbeidsflyt for lager
 
 Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artiklene som beskriver dem.
 
@@ -89,19 +89,19 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 
 Definer lagerprosessene som passer til din virksomhet. Finn ut mer under [Definer lagerstyring](warehouse-setup-warehouse.md).
 
-## <a name="terminology-related-to-warehouse-management"></a>Terminologi relatert til lagerstyring
+## Terminologi relatert til lagerstyring
 
-### <a name="complexity-levels"></a>Kompleksitetsnivåer
+### Kompleksitetsnivåer
 
 Vi bruker termene «enkel» og «avansert» til å skille mellom kompleksitetsnivåer. Denne enkle differensieringen dekker flere kompleksitetsnivåer i lokasjonsoppsett, der hvert nivå støttes av ulike lagerdokumenter. Det mest avanserte nivået for lagerstyring kalles «Lagerstyring». Hvis du vil bruke lagerstyring for en lokasjon, må du aktivere **Lagerstyring** på siden **Lokasjonskort**.
 
-### <a name="warehouse-flows"></a>Lagerflyter
+### Lagerflyter
 
 * Inngående flyt – Flytt varer på lagerlokasjonen og gjør dem tilgjengelig, for eksempel innkjøp og inngående overføringer.
 * Utgående flyt – plukk og lever varer til kunder eller andre lokasjoner.
 * Intern flyt – håndter varer innenfor en lokasjon. Flytt for eksempel komponenter til produksjon eller utfør vareopptelling.
 
-### <a name="basic-documents"></a>Grunnleggende dokumenter
+### Grunnleggende dokumenter  
 
 Følgende dokumenter brukes i enkle lagerflyter.
 
@@ -111,7 +111,7 @@ Følgende dokumenter brukes i enkle lagerflyter.
 * Varekladd
 * Varereklassifiseringskladd
 
-### <a name="advanced-documents"></a>Avanserte dokumenter
+### Avanserte dokumenter  
 
 Følgende dokumenter brukes i avanserte lagerflyter.
 
@@ -129,11 +129,11 @@ Følgende dokumenter brukes i avanserte lagerflyter.
 * Lagervarekladd
 * Varereklassifiseringskladd for lager
 
-### <a name="pages-and-settings"></a>Sider og innstillinger
+### Sider og innstillinger
 
 Denne delen beskriver begrepene bak nøkkelsidene og innstillingene for lagerstyring.
 
-#### <a name="bins-and-bin-content"></a>Hyller og hylleinnhold
+#### Hyller og hylleinnhold
 
 En hylle er en lagringsenhet som er utformet for å inneholde atskilte deler. Dette er den minste beholderenheten i [!INCLUDE[prod_short](includes/prod_short.md)]. Vareantall i hyller kalles *hylleinnhold*. Et oppslag fra **Vare**-feltet eller **Hyllekode**-feltet på en hvilken som helst lagerrelatert dokumentlinjen viser beregnet tilgjengeligheten for varen på hyllen.  
 
@@ -150,7 +150,7 @@ En dedikert hylle inneholder hylleinnhold som bare kan plukkes for dedikert ress
 
 Du kan bare ha én standardhylle per vare per lokasjon.  
 
-#### <a name="bin-type"></a>Hylletype
+#### Hylletype
 
 Lokasjoner som bruker lagerstyring, kan bruke hylletyper. Hylletyper styrer aktivitetene du tillater for en hylle. Følgende hylletyper er tilgjengelige:  
 
@@ -168,7 +168,7 @@ Med unntak av typene PLUKK, PLASSPLUKK og PLASSERING, definerer hylletypen hvilk
 > [!NOTE]  
 > Du må bruke flyttinger til å flytte varer for MOTTAK- og KK-hyller. Bruk flyttinger til å flytte varer fra LEVER- og KK-hyller.  
 
-#### <a name="bin-ranking"></a>Hylleprioritering
+#### Hylleprioritering
 
 I avanserte lagerstyring kan du automatisere og optimalisere hvordan du samler inn varer på plassering og plukkforslag ved rangering av hyllene. Varene foreslås for plukking og plasseringer basert på hylleprioritet.
 
@@ -176,7 +176,7 @@ Plasseringsprosesser er optimalisert i henhold til hylleprioriteringen ved å fo
 
 Hylleprioritering og hylleinnhold er de grunnleggende egenskapene som veileder lagermedarbeidere i lageret.  
 
-#### <a name="bin-setup"></a>Hylleoppsett
+#### Hylleoppsett
 
 I avansert lagerstyring kan du angi følgende kapasitetsverdier når du skal styre hvordan og i hvilke hyller du lagrer varer:
 
@@ -193,7 +193,7 @@ Før du angir begrensninger for kapasitet for hylleinnhold på en hylle, må du 
 > [!NOTE]  
 > Du kan bare bruke flere UOM.er på lokasjoner som bruker lagerstyring. I alle andre konfigurasjoner kan du bruke hylleinnhold i grunnleggende UOM. Antallet konverteres til grunnenhet for alle transaksjoner med UOM som er større enn varens grunnleggende UOM.  
 
-#### <a name="zone"></a>Sone
+#### Sone
 
 I avanserte lagerstyring kan hyller grupperes i soner for å styre hvordan arbeidsflyten er i lageraktiviteter for lokasjoner.  
 
@@ -201,7 +201,7 @@ En sone kan være en mottakssone eller en lagringssone, og hver sone kan bestå 
 
 De fleste egenskapene som er tildelt til en sone, tildeles til hyllene som er opprettet for sonen.  
 
-#### <a name="warehouse-class"></a>Lagerklasse
+#### Lagerklasse
 
 I avansert lagerstyring kan du tildele lagerklassekoder til følgende enheter: 
 
@@ -215,11 +215,11 @@ Når du arbeider med lagerklasser og en standard mottaks-/leveringshylle, må du
 
 I inngående flyter utheves lagerklassekoden bare på innkommende linjer der vareklassekoden ikke samsvarer med standard mottakshylle. Hvis riktige standardhyller ikke tilordnes, kan ikke antallet mottas.  
 
-#### <a name="location"></a>Lokasjon
+#### Lokasjon
 
 En lokasjon er en fysisk struktur eller et sted der lager mottas, lagres og leveres. En lokasjon kan være et lager, en servicebil, utstillingsrom, anlegg eller et område på et anlegg. Lageret er ofte organisert i hyller og soner.
 
-#### <a name="first-expired-first-out"></a>FEFO (First Expired First Out)
+#### FEFO (First Expired First Out)
 
 Hvis du merker av for **Plukk i henhold til FEFO** for hurtigfanen **Hylleprinsipp** på siden **Lokasjonskort**, blir varesporede varer plukket på lokasjonen i henhold til utløpsdatoen. Varene med de tidligste utløpsdatoene plukkes først.  
 
@@ -227,11 +227,11 @@ Lageraktiviteter i alle plukke- og flyttedokumenter sorteres i henhold til FEFO,
 
 Når det plukkes etter FEFO, samles varer som utløper først, i en midlertidig varesporingsliste basert på utløpsdato. Hvis to varer har samme utløpsdato, blir varen med lavest parti- eller serienummer valgt først. Hvis parti- eller serienumrene er like, blir varen som ble registrert først, valgt først. Standardkriterier for å velge varer i plukkhyller, for eksempel Hylleprioritering eller Anbrekk, brukes på den midlertidige FEFO-varesporingslisten.  
 
-#### <a name="put-away-template"></a>Plasseringsmal
+#### Plasseringsmal
 
 Plasseringsmalen angir et sett med prioriterte regler som gjelder når du oppretter plasseringer. En plasseringsmal kan for eksempel kreve at du plasserer varer på en hylle med hylleinnhold med samme enhet. Hvis en lignende hylle med tilstrekkelig kapasitet ikke blir funnet, må varen plasseres i en tom hylle. Du tildeler en plasseringsmal til en vare og en lokasjon.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Lager](inventory-manage-inventory.md)  
 [Definer lagerstyring](warehouse-setup-warehouse.md)  

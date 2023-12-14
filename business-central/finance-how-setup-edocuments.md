@@ -12,17 +12,17 @@ ms.date: 10/05/2023
 ms.author: altotovi
 ---
 
-# <a name="set-up-e-documents"></a>Konfigurere e-dokumenter
+# Konfigurere e-dokumenter
 
 > [!IMPORTANT]
-> Kjernemodulen for e-dokumenter er et rammeverk. Som standard finnes det ikke noe felt for **Dokumentformat** eller **Tjenesteintegrering**. Disse detaljene er en del av lokaliseringsapper, fordi de begge er spesifikke for lokale krav.
+> Kjernemodulen for e-dokumenter er et rammeverk. Som standard finnes det ikke noe felt for **Tjenesteintegrering**. Hvis du finner **Dokumentformat**-alternativene som standard, må du være oppmerksom på at de tilbys som et eksempel, og at lokalisering må gi et detaljert format. Disse detaljene er en del av lokaliseringsapper, fordi de er spesifikke for lokale krav.
 
 > [!NOTE]
-> Fra og med versjon 23.1 legges et standard PEPPOL-dokumentformat til som et globalt format i **Dokumentformat**-feltet.
+> Fra og med versjon 23.2 legges et standard PEPPOL-dokumentformat til som et globalt format i **Dokumentformat**-feltet. Husk at du sannsynligvis ikke kan bruke dette formatet som det er. Det er et W1-format som er gitt for å vise hvordan du bruker denne funksjonen. Vi anbefaler at du tester det eksisterende PEPPOL-formatet før du begynner å bruke dette formatet.
 
 Det første trinnet i konfigurasjonen av elektroniske dokumenter (e-dokumenter) er å konfigurere tjenesten for e-dokumenter, der du konfigurerer den fullstendige virkemåten til systemet når det gjelder kommunikasjon med e-dokumenter.
 
-## <a name="set-up-the-e-document-service"></a>Konfigurere e-dokumenttjenesten
+## Konfigurere e-dokumenttjenesten
 
 Følg disse trinnene for å konfigurere e-dokumenttjenesten.
 
@@ -33,11 +33,11 @@ Følg disse trinnene for å konfigurere e-dokumenttjenesten.
     |-------|-------------|
     |  - kode | Velg konfigurasjonskoden for elektronisk eksport. |
     | Description | Angir en kort beskrivelse av det elektroniske eksportoppsettet. |
-    | Dokumentformat | <p>Eksportformatet for det elektroniske eksportoppsettet.</p><p>Som standard er det ingen alternativer i dette feltet i bølge 1.</p> |
+    | Dokumentformat | <p>Eksportformatet for det elektroniske eksportoppsettet.</p><p>Som standard er det to alternativer i dette feltet. Du kan velge **PEPPOL BIS 3** som et generelt kodebasert format eller **Data Exchange** når du må sette opp forhåndsdokumenter med spesifikke formater på hurtigfanen **Datautvekslingsdefinisjon**.</p> |
     | Tjenesteintegrering | Velg integreringskoden for det elektroniske eksportoppsettet. I bølge 1 er det eneste alternativet **Ingen integrasjon**. |
     | Bruk bunkebehandling | Angi om tjenesten bruker bunkebehandling for eksport. |
 
-4. Konfigurer feltene som beskrevet i tabellen nedenfor, i hurtigfanen **Importerte parametere**:
+3. Konfigurer feltene som beskrevet i tabellen nedenfor, i hurtigfanen **Importerte parametere**:
 
     | Felt | Description |
     |-------|-------------|
@@ -57,11 +57,22 @@ Følg disse trinnene for å konfigurere e-dokumenttjenesten.
     | Starttidspunkt for bunke | Angi starttidspunktet for importjobber. |
     | Minutter mellom kjøringer | Angi antall minutter mellom importjobbkjøringer. |
 
-Hvis du har konfigurert formatet **Datautvekslingsdefinisjon** i lokaliseringen, kan du legge til en linje for hver dokumenttype du trenger. Du må imidlertid først velge alternativet **Bilagstype** for hver linje du trenger. For hver datatype velger du verdien for **Importer Kode for datautveksl.def.** eller **Eksporter Kode for datautveksl.def.** du vil bruke.
+4. Hvis du valgte **Datautveksling** i **Dokumentformat**-feltet i **Generelt**-hurtigfanen, bruker du **Datautvekslingsdefinisjon**-hurtigfanen til å angi følgende felter.
 
-Hvis du ikke bruker formatet **Datautvekslingsdefinisjon**, kan du til slutt konfigurere formater via linjene **Eksporter tildeling** og **Importer tildeling**, der du kan finne tabellene og feltene som skal brukes, og konfigurere transformeringsregler hvis det er aktuelt.
+    | Felt | Description |
+    |-------|-------------|
+    | Dokumenttype | Angi dokumenttypen som skal bruke datautveksling til å importere og eksportere dataene. Eksempler inkluderer **salgsfaktura**, **salgskreditnota** og **kjøpsfaktura**. |
+    | Importer kode for datautvekslingsdef. | Angi datautvekslingskoden som brukes til å importere dataene. Bruk dette feltet bare for å motta et dokument i kjøpsprosessen. |
+    | Eksporter kode for datautvekslingsdef. | Angi datautvekslingskoden som brukes til å eksportere dataene. Bruk dette feltet bare til å levere dokumenter i salgsprosessen. |
 
-## <a name="set-up-a-document-sending-profile"></a>Konfigurere en profil for dokumentsending
+> [!NOTE]
+> Det er utarbeidet datautvekslingsdefinisjoner for PEPPOL-formatet som er relatert til standard salgs- og kjøpsdokument. Du kan imidlertid sannsynligvis ikke bruke disse definisjonene som de er. De er alle i W1-formater som er gitt for å vise hvordan du bruker denne funksjonen. Vi anbefaler at du tester det eksisterende PEPPOL-formatet før du begynner å bruke dem.
+
+Hvis du har konfigurert formatet **Datautvekslingsdefinisjon** i lokaliseringen, kan du legge til en linje for hver dokumenttype du trenger. Legg til linjer som samsvarer med standard datautvekslingseksempel for W1 PEPPOL-formatet. Velg imidlertid først alternativet **Dokumenttype** for hver linje du trenger. For hver datatype velger du verdien for **Importer Kode for datautveksl.def.** eller **Eksporter Kode for datautveksl.def.** du vil bruke.
+
+Hvis du ikke bruker **Datautvekslingsdefinisjon**-formatet, kan du opprette og konfigurere formater ved å bruke [grensesnittet](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Juster informasjonen på linjene **Eksporter tildeling** og **Importer tildeling**, der du kan finne tabellene og feltene som skal konfigureres transformasjonsregler. I dette tilfellet må du legge til et nytt alternativ i **Dokumentformat**-feltet som er relatert til formatet ditt.
+
+## Konfigurere en profil for dokumentsending
 
 Du kan definere en foretrukket metode for å sende salgsdokumenter for hver kunde. På denne måten trenger du ikke å velge et sendealternativ hver gang du velger handlingen **Bokfør og send**. På siden **Profiler for dokumentsending** definerer du ulike sendingsprofiler som velger blant dem i feltet **Profil for dokumentsending** på et kundekort. Du kan merke av for **Standard** for å angi at profilen for en dokumentsending er standardprofilen for alle kunder, bortsett fra kunder der feltet **Profil for dokumentsending** er satt til en annen sendingsprofil.
 
@@ -83,7 +94,7 @@ Følg disse trinnene for å sette opp en dokumentsendingsprofil.
     > [!NOTE]
     > Hvis du velger **Utvidet e-dokumenttjenesteflyt** i feltet **Elektronisk dokument** , må du allerede ha arbeidsflyten konfigurert for e-dokumentene.
 
-## <a name="set-up-the-workflow"></a>Konfigurere arbeidsflyten
+## Konfigurere arbeidsflyten
 
 Følg disse trinnene for å konfigurere arbeidsflyten som brukes i e-dokumentfunksjonalitet.
 
@@ -98,7 +109,11 @@ Følg disse trinnene for å konfigurere arbeidsflyten som brukes i e-dokumentfun
 > [!NOTE]
 > Du kan opprette din egen arbeidsflyt for e-dokumenter uten å bruke forhåndsdefinerte arbeidsflytmaler. Hvis du har flere tjenester, kan du bruke forskjellige arbeidsflyter.
 
-## <a name="set-up-a-retention-policy-for-e-documents"></a>Konfigurere en oppbevaringspolicy for e-dokumenter
+For å bruke flere arbeidsflytprosesser må du konfigurere dem gjennom profilene for dokumentsending for forskjellige kunder. Når du setter opp arbeidsflyten, må du angi profilen for dokumentsending i **On Condition**-kolonnen på **Arbeidsflyttrinn**-hurtigfanen fordi du ikke kan ha to tjenester som bruker samme profil for dokumentsending i arbeidsflytprosesser.
+
+Når du konfigurerer arbeidsflyten på **Arbeidsflyt**-siden, peker du på **On Condition**-feltet på **Arbeidsflyttrinn**-hurtigfanen. På **Hendelsesbetingelser**-siden i **Filter**-feltet velger du profilen for dokumentsending som du vil bruke.
+
+## Konfigurere en oppbevaringspolicy for e-dokumenter
 
 E-dokumenter kan være underlagt ulike lokale lover som er knyttet til perioden som e-dokumentene oppbevares. Derfor har vi lagt til et oppsett for oppbevaringspolicy for all viktig informasjon som er knyttet til e-dokumenter. Administratorer kan definere oppbevaringspolicyer som angir hvor ofte Dynamics 365 Business Central sletter utdaterte poster som er relatert til e-dokumenter. Hvis du vil finne ut mer om oppbevaringspolicyer, kan du se [Definer oppbevaringspolicyer](admin-data-retention-policies.md).
 
@@ -112,7 +127,7 @@ Hvis du vil konfigurere e-dokumentrelaterte oppbevaringspolicyer, gjør du følg
     - Tildelingslogg for e-dokument
     - Datalager for e-dokument
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere e-dokumenter i Business Central](finance-how-use-edocuments.md)  
 [Utvide e-dokumenter i Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  

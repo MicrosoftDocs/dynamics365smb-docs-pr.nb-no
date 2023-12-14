@@ -5,13 +5,13 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 10/29/2023
+ms.date: 11/17/2023
 ms.custom: bap-template
 ---
 
 # Legg til markedsføringstekst i varer
 
-For alle varer som er registrert i Business Central, kan du skrive *markedsføringstekst* for varen. Selv om markedsføringstekst er en slags beskrivelse, er den forskjellig fra en vares **Beskrivelse**-felt. **Beskrivelse**-feltet brukes vanligvis som et konsekvent visningsnavn for å identifisere produktet raskt. Markedsføringsteksten er derimot en mer omfattende og beskrivende tekst. Formålet er å legge til markedsførings- og kampanjeinnhold, også kalt *kopi*. Denne teksten kan deretter publiseres med varen hvis den er publisert i en nettbutikk som Shopify.
+For alle varer som er registrert i Business Central, kan du skrive *markedsføringstekst* for varen. Selv om markedsføringstekst er en slags beskrivelse, er den forskjellig fra en vares **Beskrivelse**-felt. **Beskrivelse**-feltet brukes vanligvis som et konsekvent visningsnavn for å identifisere produktet raskt. Markedsføringsteksten er derimot en mer omfattende og beskrivende tekst. Formålet er å legge til markedsførings- og kampanjeinnhold, også kalt *kopi*. Denne teksten kan deretter publiseres med varen hvis den er publisert i en nettbutikk, som Shopify, eller limt inn i e-post eller annen kommunikasjon med kundene dine.
 
 Det finnes to måter å opprette markedsføringstekst på. Den enkleste måten å komme i gang på er å bruke Copilot, som foreslår tekst generert av kunstig intelligens for deg. Den andre måten er å starte fra grunnen av. 
 
@@ -19,20 +19,22 @@ Det finnes to måter å opprette markedsføringstekst på. Den enkleste måten �
 
 Med Copilot får du raskt et tekstforslag som genereres automatisk for deg. Teksten generert av kunstig intelligens er skreddersydd for varen og gir et bra utgangspunkt. Teksten er basert på en del av følgende informasjon:
 
-- Attributter som er definert for varen &mdash; som beskrivelse, farge, dimensjoner, materiale og så videre.
+- Attributter som er definert for varen &mdash; som beskrivelse, farge, dimensjoner, materiale og så videre. [Finn ut mer om vareattributter](inventory-how-work-item-attributes.md).
+- Varens **Beskrivelse**-felt.
+- Varekategorien. [Finn ut mer om å kategorisere varer](inventory-how-categorize-items.md).
 - Valgbare stilinnstillinger som ordlyd, format og lengde.
 
 Copilot er utformet for å spare tid og hjelpe deg med å skrive kreativ og engasjerende tekst som gjenspeiler varemerket ditt, og som er konsekvent på tvers av produktserien. Begynn med å generere et forslag, og endre den foreslåtte teksten etter behov.
 
 ### Forutsetninger
 
-- Funksjonen for forslag til markedsføringstekst er aktivert i miljøet ditt. Denne oppgaven utføres vanligvis av en administrator. Hvis du vil ha mer informasjon, kan du gå til [Konfigurer varemarkedsføringstekst drevet av kunstig intelligens med Copilot](enable-ai.md).
+- Funksjonen for forslag til markedsføringstekst er aktivert i miljøet ditt. Denne oppgaven utføres vanligvis av en administrator. Hvis du vil ha mer informasjon, kan du gå til [Konfigurer Copilot og KI-funksjoner](enable-ai.md).
 - Du bruker et av språkene som for øyeblikket støttes av tekstforslagene for markedsføring.
 
-   [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)] <!--you're using in Business Central must be English. Any of the available English locales work, like English (United States), English (United Kingdom), or English (South Africa).-->
+  [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
-   Hvis du vil endre språket, velger du **Innstillinger**-ikonet øverst til venstre ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter") > **Mine innstillinger** > **Språk**. Hvis du vil ha mer informasjon, kan du gå til [Endre grunnleggende innstillinger](ui-change-basic-settings.md#language).
-- Se gjennom [Vanlige spørsmål for forslag til varemarkedsføringstekst](faqs-marketing-text.md) for å finne ut mer om tekstforslag generert av kunstig intelligens fra Copilot og hvordan du bruker dem.
+  Hvis du vil endre språket, velger du **Innstillinger**-ikonet øverst til venstre ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter") > **Mine innstillinger** > **Språk**. Hvis du vil ha mer informasjon, kan du gå til [Endre grunnleggende innstillinger](ui-change-basic-settings.md#language).
+- Gå gjennom [vanlige spørsmål for markedsføringstekstforslag](faqs-marketing-text.md) for å finne ut hvordan kunstig intelligens brukes.
 
 ### Opprett første utkast med Copilot
 
@@ -40,9 +42,9 @@ Følg fremgangsmåten nedenfor for å legge til markedsføringstekst i en eksist
 
 1. I Business Central åpner du varen du vil endre, ved å fullføre følgende trinn:
 
-   1. Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen 22.](media/ui-search/search_small.png "Fortell hva du vil gjøre") øverst til høyre og angi **Varer**, og velg deretter relatert kobling for å vise en liste over tilgjengelige varer.
+   - Velg ikonet ![Lyspære som åpner Fortell meg-funksjonen 22.](media/ui-search/search_small.png "Fortell hva du vil gjøre") øverst til høyre og angi **Varer**, og velg deretter relatert kobling for å vise en liste over tilgjengelige varer.
 
-   2. Dobbeltklikk på varen, eller velg verdien i **Nr.** .
+   - Dobbeltklikk på varen, eller velg verdien i **Nr.** .
 
    [![Viser et varekort med ruten Markedsføringstekst](media/create-with-copilot.svg)](media/create-with-copilot.svg#lightbox)
 
@@ -58,16 +60,12 @@ Følg fremgangsmåten nedenfor for å legge til markedsføringstekst i en eksist
 
      Velg attributtene du vil at Copilot-baseforslag skal brukes på, og velg deretter **Generer**. Du kan endre de valgte attributtene og andre alternativer senere. Copilot begynner å utarbeide markedsføringsteksten. 
      
-3. Når Copilot fullfører utkastet, vises teksten i Copilot-redigeringsvinduet for gjennomgang og redigering. 
+3. Når Copilot fullfører utkastet, vises teksten i Copilot-redigeringsvinduet som du kan gå gjennom og redigere. 
 
    [![Viser vinduene Opprett med Copilot](media/create-with-copilot-window.svg)](media/create-with-copilot-window.svg#lightbox)
 
    Nå kan du få flere forslag, forsøke å forbedre forslagene du får, redigere tekst med mer. Gå til [Se gjennom, rediger og lagre](#review-edit-and-save-text) for mer informasjon.
 
-
-<!--
-   > [!TIP]
-   > [Where does the suggestion come from?](ai-faq.md#how-does-copilot-work-where-does-the-suggested-text-come-from)-->
 
 ### Se gjennom, rediger og lagre teksten
 
@@ -114,6 +112,10 @@ Det finnes et par trinn du kan gjøre for å forbedre tekstforslagene og endre d
 1. Kontroller at feltet **Varekategorikode** på varekortet er satt til en riktig kategori.
 
    Copilot finner ord og uttrykk som er knyttet til kategorien, og arbeide dem i den foreslåtte teksten.
+
+### Arbeid med flere språk 
+
+Tekst genereres alltid på språket som er definert av [brukerinnstillingene](ui-change-basic-settings.md#language). Hvis organisasjonen din driver og legger inn data i Business Central på et annet språk, eller hvis Business Central er koblet til nettbutikken din, for eksempel Shopify, kan dette føre til publisering av innhold som ikke samsvarer med lignende markedsføringsinnhold.
 
 ## Opprett tekst fra grunnen av
 

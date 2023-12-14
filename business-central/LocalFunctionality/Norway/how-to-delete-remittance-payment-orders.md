@@ -1,5 +1,5 @@
 ---
-title: 'Slette remitteringsoppdrag [NO]'
+title: 'Slett remitteringsoppdrag [NO]'
 description: Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avsluttet regnskapsår.
 author: brentholtorf
 ms.topic: conceptual
@@ -8,14 +8,14 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
 ms.search.form: '15000000, 15000002, 15000004, 15000006, 15000007, 15000010'
-ms.date: 06/18/2021
+ms.date: 11/20/2023
 ms.author: bholtorf
 ---
-# <a name="delete-remittance-payment-orders-in-the-norwegian-version"></a>Slett remitteringsoppdrag i den norske versjonen
+# Slett remitteringsoppdrag i den norske versjonen
 
 Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avsluttet regnskapsår. En ordre er fullstendig ferdigbehandlet hvis ingen av betalingene på siden **Ventekladd** har statusen **Sendt** eller **Godkjent**.  
 
-## <a name="to-delete-a-remittance-payment-order"></a>Slik sletter du et remitteringsoppdrag
+## Slik sletter du et remitteringsoppdrag  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Slett remitteringsoppdrag**, og velg deretter den relaterte koblingen.  
 2.  På siden **Slett remitteringsoppdrag** fyller du ut feltene som beskrevet i tabellen nedenfor.  
@@ -25,11 +25,11 @@ Ordrer kan slettes hvis de er fullstendig ferdigbehandlet og hører til et avslu
     |**Startdato**|Angi startdatoen for ordrer som skal slettes.|  
     |**Sluttdato**|Angi sluttdatoen for ordrer som skal slettes.|  
 
-3.  Velg **OK**.  
+3.  Velg **OK**-knappen.  
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)   
- [Sette opp remitteringsavtaler](how-to-set-up-remittance-agreements.md)   
+ [Sett opp remitteringsavtaler](how-to-set-up-remittance-agreements.md)   
  [Opprette remitteringskontoer](how-to-create-remittance-accounts.md)   
  [Angi leverandører for remittering](how-to-set-up-vendors-for-remittance.md)   
  [Mottakerreferansekoder](recipient-reference-codes.md)   

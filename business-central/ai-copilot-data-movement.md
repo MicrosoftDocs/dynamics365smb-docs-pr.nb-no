@@ -6,11 +6,11 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: conceptual
 ms.collection: null
-ms.date: 11/15/2023
+ms.date: 11/30/2023
 ms.custom: bap-template
 ---
 
-# <a name="copilot-data-movement-across-geographies"></a>Copilot-dataflytting på tvers av geografiske områder
+# Copilot-dataflytting på tvers av geografiske områder 
 
 Copilot er tilgjengelig i alle støttede [land/områder i Business Central](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). Copilot bruker imidlertid Microsoft Azure OpenAI-tjenesten, som for øyeblikket bare er tilgjengelig for Business Central i enkelte geografiske områder. Dette betyr at hvis miljøet befinner seg et annet sted, må data fra Copilot og generative KI-funksjoner overføres utenfor ditt geografiske område og kan behandles og lagres utenfor samsvarsgrensen. Data inkluderer KI-meldingene og forretningsdataene dine som brukes av eller genereres av Copilot. I dette tilfellet må du velge å tillate dataflytting til en Azure OpenAI-tjeneste i en annen geografi. <!--For a list of geographies, refer to the [Azure OpenAI Service geographies](#azure-openai-service-geographies) section that follows.-->
 
@@ -22,14 +22,14 @@ Copilot er tilgjengelig i alle støttede [land/områder i Business Central](/dyn
 > 
 > Copilot- og generative KI-funksjoner fra ikke-Microsoft-utgivere, for eksempel de som kommer fra tilpassinger eller AppSource-apper du installerer, definerer hver sine egne spesifikke Azure OpenAI-tjenesteområder. Rådfør deg med utgiveren av utvidelsen for å finne ut hvilke regionale Azure-tjenester som brukes av utvidelsen. 
 
-### <a name="azure-openai-service-geographies"></a>Azure OpenAI-tjeneste-geografier
+### Azure OpenAI-tjeneste-geografier
 
 Tabellen nedenfor viser Azure OpenAI-tjenestens geografiske område som brukes av Copilot, basert på Azure-området i et Business Central-miljø. Denne informasjonen er viktig når du skal avgjøre om du skal velge dataflytting på tvers av geografiske områder. Du kan identifisere Azure-området for miljøet i Business Central-administrasjonssenteret (se [Administrer miljøer i administrasjonssenteret](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)).
 
 | Azure-område for miljø| Azure OpenAI-tjenestegeografi|Administratorhandling kreves for å få tilgang til Copilot| 
 | - | - | - |
 |Asia (øst, sørøst) |USA|Ja|
-|Australia (sør-øst)| USA |Ja, frem til oppdatering 23.2 |
+|Australia (sør-øst)| USA |Ja |
 |Brasil (sør) |USA|Ja|
 |Canada (sentralt, øst)|USA|Ja|
 |Europa (vest, nord)| Sverige eller Sveits |Ja|
@@ -42,7 +42,7 @@ Tabellen nedenfor viser Azure OpenAI-tjenestens geografiske område som brukes a
 |Sør-Afrika (nord, vest)|USA|Ja|
 |Sveits (nord, vest) |Sverige eller Sveits |Ja|
 |De forente arabiske emirater (nord, vest)|USA|Ja|
-|Storbritannia (sør, vest)|Storbritannia|Ja, frem til oppdatering 23.2|
+|Storbritannia (sør, vest)|Storbritannia|Ja|
 |USA (sentral, øst, nord-sentral, sør-sentral, vest) |USA|Nei|
 
 > [!NOTE]
@@ -106,6 +106,6 @@ case "AUSTRALIAEAST":
 
 -->
 
-## <a name="next-steps"></a>Neste trinn
+## Neste trinn
 
 Du velger å tillate dataflytting på tvers av geografiske områder fra siden [Copilot og KI-funksjoner](https://businesscentral.dynamics.com/?page=7775). Hvis du vil ha mer informasjon, kan du gå til [Tillat dataflytting på tvers av geografiske områder](enable-ai.md#allow-data-movement-across-geographies).
