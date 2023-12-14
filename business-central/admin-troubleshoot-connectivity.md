@@ -12,7 +12,7 @@ ms.author: jswymer
 ROBOTS: NOINDEX
 ---
 
-# Feilsøk tilkobling for Business Central
+# <a name="troubleshoot-connectivity-for-business-central"></a>Feilsøk tilkobling for Business Central
 
 > **GJELDER:** [!INCLUDE[prod_short](includes/prod_short.md)] Online
 >
@@ -23,7 +23,7 @@ ROBOTS: NOINDEX
 > [!NOTE]
 > Siden **Feilsøking av tilkobling** tester ikke nettverksytelsen eller påliteligheten, som hastigheten på tilkoblingen. Den kontrollerer bare tilkoblingen til forskjellige ressurser.
 
-## Start tilkoblingskontrollen 
+## <a name="start-the-connectivity-check"></a>Start tilkoblingskontrollen
 
 1. Åpne en nettleser.
 2. I adressen skriver du inn nettadressen du vil bruke til å åpne Business Central og legge til `/connectivity` på slutten. 
@@ -52,7 +52,7 @@ ROBOTS: NOINDEX
 
 De følgende delene forklarer kontrollene som kjøres, og gir noen tips om hvordan du løser eventuelle problemer.
 
-## Grunnleggende Internett-tilkobling
+## <a name="basic-internet-connectivity"></a>Grunnleggende Internett-tilkobling
 
 Kontrollerer at du har tilkobling til Internett ved å kontrollere at du får tilgang til et kjent offentlig domene, for eksempel www.bing.com.
 
@@ -61,7 +61,7 @@ Kontrollerer at du har tilkobling til Internett ved å kontrollere at du får ti
 |Nettleseren støtter ikke denne kontrollen|Åpne siden i en støttet nettleser, og prøv på nytt. Hvis du vil se en liste over nettlesere som støttes, kan du se [Minimumskrav for bruk av Business Central – nettlesere](product-requirements.md#browsers)|
 |Kan ikke pinge serveren på følgende URL-adresse: {url}|Kontroller brannmurinnstillingene.|
 
-## CDN-ressurser (Content Delivery Network) lastes inn
+## <a name="cdn-content-delivery-network-resources-loading"></a>CDN-ressurser (Content Delivery Network) lastes inn
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bruker Azure Content Delivery Network (CDN) til å gi ressurser som kreves for å kjøre Business Central-nettklienten. Denne kontrollen kontrollerer at de nødvendige ressursene er tilgjengelige og tilgjengelige ved å pinge Business Central-forekomsten i CDN.
 
@@ -70,7 +70,7 @@ Kontrollerer at du har tilkobling til Internett ved å kontrollere at du får ti
 |Nettleseren støtter ikke denne kontrollen|Se kontrollen **Grunnleggende Internett-tilkobling**.|
 |Kan ikke pinge serveren på følgende URL-adresse: {url}|Kontroller brannmurinnstillingene.|
 
-## Brukergodkjenning
+## <a name="user-authentication"></a>Brukergodkjenning
 
 Kontrollerer at den nåværende brukeren har logget seg på med en gyldig Business Central-konto.
 
@@ -78,7 +78,7 @@ Kontrollerer at den nåværende brukeren har logget seg på med en gyldig Busine
 |-------|-------------|
 |Ingen bruker er godkjent|Logg på Business Central med gyldig brukernavn og passord.|
 
-## Gjenkjenning av Business Central-miljøer
+## <a name="business-central-environments-discovery"></a>Gjenkjenning av Business Central-miljøer
 
 Ser etter Business Central-miljøer som er tilgjengelige for en godkjent bruker, og kontrollerer deretter om brukeren kan godkjennes i miljøet.
 <!-- example: Your user name or password is incorrect, or you do not have a valid account.. Request duration: 332 milliseconds)-->
@@ -89,7 +89,7 @@ Ser etter Business Central-miljøer som er tilgjengelige for en godkjent bruker,
 |Kan ikke hente tilgjengelige miljøer for kontoen.|Se i listen over tilgjengelige miljøer i administrasjonssenteret for Business Central.|
 |Brukernavnet eller passordet er feil, eller du har ikke en gyldig konto.| Kontroller at du har logget deg på med riktig brukernavn og passord.|
 
-## Tilkobling til programtjeneste
+## <a name="application-service-connectivity"></a>Tilkobling til programtjeneste
 
 Kontroller at den godkjente brukeren kan koble til et miljø som oppdages, som vanligvis starter med produksjonsmiljøet.
 
@@ -100,7 +100,7 @@ Kontroller at den godkjente brukeren kan koble til et miljø som oppdages, som v
 |Ingen klyngeadresse å utføre denne kontrollen for|Se i listen over tilgjengelige miljøer i administrasjonssenteret for Business Central.|
 |Versjonsendepunkt finnes ikke|Se i listen over tilgjengelige miljøer i administrasjonssenteret for Business Central.|
 
-## Nettservertilkobling
+## <a name="web-server-connectivity"></a>Nettservertilkobling
 
 Kontrollerer at den godkjente brukeren kan opprette tilkoblinger med nettserveren.
 
@@ -111,7 +111,7 @@ Kontrollerer at den godkjente brukeren kan opprette tilkoblinger med nettservere
 |Ingen klyngeadresse å utføre denne kontrollen for|Se i listen over tilgjengelige miljøer i administrasjonssenteret for Business Central.|
 |Kan ikke opprette en tilkobling til nettserveren|Tøm bufferen og last inn siden på nytt.|
 
-## Tjenestetilstandsstatus
+## <a name="service-health-status"></a>Tjenestetilstandsstatus
 
 Rapporterer Business Centrals tjenestetilstand ved å se etter annonserte brudd.
 
@@ -120,7 +120,7 @@ Rapporterer Business Centrals tjenestetilstand ved å se etter annonserte brudd.
 |Ingen godkjent bruker å utføre denne kontrollen for|Se **brukergodkjenningskontrollen**.|
 |Beklager. Business Central er midlertidig utilgjengelig. Prøv på nytt senere.|Prøv på nytt senere.|
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Ressurser for hjelp og støtte](product-help-and-support.md)  
 [Oversikt over oppgaver for å definere Business Central](setup.md)  

@@ -11,10 +11,10 @@ ms.search.form: '5091, 5093'
 ms.date: 04/01/2021
 ms.author: jswymer
 ---
-# Opprette segmenter.
+# <a name="create-segments"></a>Opprette segmenter.
 Du kan opprette segmenter for å velge en gruppe kontakter, hvis du for eksempel vil opprette en samhandling med flere kontakter, blant annet utsendinger.
 
-## Slik oppretter du et segment
+## <a name="to-create-a-segment"></a>Slik oppretter du et segment
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Segmenter**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. I inndelingen **Generelt**, i **Nr.** -feltet, angir du et nummer på segmentet.
@@ -24,7 +24,7 @@ Du kan opprette segmenter for å velge en gruppe kontakter, hvis du for eksempel
 
 Nå kan du legge til koblinger i segmentet. Hvis du vil ha mer informasjon, kan du se [Legge til kontakter i segmenter](marketing-add-contact-segment.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 [Håndtere segmenter](marketing-segments.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

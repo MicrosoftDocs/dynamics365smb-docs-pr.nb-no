@@ -9,7 +9,7 @@ ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
 ms.date: 08/03/2022
 ms.author: bholtorf
 ---
-# Opprette prosjekter
+# <a name="create-jobs"></a>Opprette prosjekter
 
 Når du starter et nytt prosjekt, må du opprette et prosjektkort med integrerte prosjektoppgaver og prosjektplanleggingslinjer, strukturert i to lag.  
 
@@ -28,7 +28,7 @@ Av og til er det en del av den som mottar en tjeneste, forskjellig fra parten so
 * Legg til informasjon om eksterne referanser for å forenkle kommunikasjon med prosjektet.
 * Overskriv standard regnskapsbetingelsene for prosjektet.
 
-## Slik oppretter du et prosjektkort
+## <a name="to-create-a-job-card"></a>Slik oppretter du et prosjektkort
 
 Du oppretter et prosjektkort og deretter prosjektoppgavelinjer og prosjektplanleggingslinjer for prosjektet.
 
@@ -47,7 +47,7 @@ Du kan eventuelt merke handlinger på prosjektet som sperret, ved hjelp av felte
 |Bokføring    |Du kan arbeide med planleggingslinjer, men prosjektet er sperret for bokføring. Hvis du velger dette alternativet, kan du ikke bokføre forbruk eller salg i prosjektet.|
 |Alle  |Alle handlinger er sperret.|
 
-## Slik oppretter du oppgaver for et prosjekt:
+## <a name="to-create-tasks-for-a-job"></a>Slik oppretter du oppgaver for et prosjekt:
 
 En viktig del av å opprette et prosjekt er å angi de ulike oppgavene i prosjektet. Du angir oppgaver ved å opprette én linje per oppgave på hurtigfanen **Oppgaver** på siden **Prosjektkort**. Hvert prosjekt må ha minst én oppgave.
 
@@ -58,7 +58,7 @@ En viktig del av å opprette et prosjekt er å angi de ulike oppgavene i prosjek
 5. Gjenta trinn 3 og 4 for alle oppgavene som er nødvendige for prosjektet.
 6. Hvis du vil angi prosjektoppgavene med informasjon om andre prosjektoppgaver, kan du velge handlingen **Kopier prosjektoppgaver fra**, fylle ut feltene etter behov, og deretter velge **OK**-knappen.
 
-## Slik oppretter du planleggingslinjer for et prosjekt
+## <a name="to-create-planning-lines-for-a-job"></a>Slik oppretter du planleggingslinjer for et prosjekt
 
 Du kan tilpasse dine nye prosjektoppgaver på prosjektplanleggingslinjer. En planleggingslinje kan registrere informasjonen du vil spore for et prosjekt. Du kan for eksempel spore hvilke ressurser jobben krever, eller hvilke varer som er nødvendige. Du har for eksempel en oppgave å få en kunde til å godkjenne en jobb. Du knytter oppgaven til planleggingslinjer for varer eller andre elementer, for eksempel møter med kunden og tildeling av en ressurs.  
 
@@ -79,7 +79,7 @@ En prosjektplanleggingslinje kan være én av følgende typer.
 4. På siden **Prosjektplanleggingslinjer** på en ny linje fyller du ut feltene etter behov.
 5. Gjenta trinn 3 og 4 for alle planleggingslinjene du trenger for prosjektoppgaven.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Prosjektstyring](projects-manage-projects.md)  
 [Video: Opprett et prosjekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  
