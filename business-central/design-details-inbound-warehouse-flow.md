@@ -10,7 +10,7 @@ ms.search.keywords: warehouse
 ms.date: 09/18/2023
 ms.author: bholtorf
 ---
-# <a name="design-details-inbound-warehouse-flow"></a>Designdetaljer: Inngående lagerflyt
+# Designdetaljer: Inngående lagerflyt
 
 Den inngående flyten på et lager begynner når varene ankommer på lageret på selskapslokasjonen, enten de mottas fra eksterne kilder eller fra en annen selskapslokasjon. Du kan motta fysiske varer og varer som ikke er lagervarer. Hvis du vil vite mer om mottak av ikke-lagervarer, kan du gå til [Bokføre ikke-lagervarer](#post-non-inventory-items).
 
@@ -50,7 +50,7 @@ I metode A, B og C kombineres mottak og plassering i ett trinn når dokumenter b
 > * Lagerplasseringen som brukes i metode B sammen med informasjon om plasseringsinformasjon, bokfører også mottaket av kildedokumentet.
 > * Lagerplasseringen som brukes i metode D, kan ikke bokføres, og den registrerer bare plasseringen. Registreringen gjør varene tilgjengelig for videre behandling, men bokfører mottaket. I inngående flyt krever lagerplasseringen et lagermottak.
 
-## <a name="no-dedicated-warehouse-activity"></a>Ingen dedikert lageraktivitet
+## Ingen dedikert lageraktivitet
 
 Følgende artikler inneholder informasjon om hvordan du behandler mottak for kildedokumenter hvis du ikke har egne lageraktiviteter.
 
@@ -58,7 +58,7 @@ Følgende artikler inneholder informasjon om hvordan du behandler mottak for kil
 * [Overføringsordrer](inventory-how-transfer-between-locations.md)
 * [Behandle ordrereturer](sales-how-process-sales-returns-orders.md)
 
-## <a name="basic-warehouse-configurations"></a>Enkle lageroppsett
+## Enkle lageroppsett  
 
 I et enkle lageroppsett er alternativet **Krever plassering aktivert**, men **Krev mottak** er slått av på siden **Lokasjonskort** for lokasjonen.
 
@@ -66,15 +66,15 @@ Diagrammet nedenfor illustrerer inngående lagerflyter etter dokumenttype i grun
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_basic_flow.png" alt-text="Enkel inngående flyt i et lager.":::
 
-### <a name="1-release-a-source-document-to-create-a-request-for-an-inventory-put-away"></a>1: Frigi et kildedokument for å opprette en forespørsel om en lagerplassering
+### 1: Frigi et kildedokument for å opprette en forespørsel om en lagerplassering  
 
 Når du mottar varer, frigir du kildedokumentet, for eksempel en bestilling eller en inngående overføringsordre. Når du frigir dokumentet, blir varene tilgjengelige for plassering. Du kan også opprette lagerplasseringsdokumenter for enkelte ordrelinjene med en push-metode, basert på hyller og antall som skal håndteres.  
 
-### <a name="2-create-an-inventory-put-away"></a>2: Opprett en lagerplassering
+### 2: Opprett en lagerplassering  
 
 På siden **Lagerplassering** kan du hente de ventende kildedokumentlinjene basert på inngående lagerforespørsler. Ved hjelp av send kan du også opprette lagerplasseringslinjer når du oppretter kildedokumentet.  
 
-### <a name="3-post-an-inventory-put-away"></a>3: Bokfør en lagerplassering
+### 3: Bokfør en lagerplassering  
 
 På hver linje for varer som er plassert, helt eller delvis, fyller du ut feltet **Antall** og bokfører deretter lagerplasseringen. Kildedokumenter som er knyttet til lagerplasseringen, bokføres som mottatt.  
 
@@ -83,7 +83,7 @@ På hver linje for varer som er plassert, helt eller delvis, fyller du ut feltet
 * Plasseringsforespørselen slettes hvis den er fullstendig håndtert. Eksempel: Feltet **Mottatt (antall)** i den inngående kildedokumentlinjen oppdateres.
 * Det opprettes et postert mottaksdokument som for eksempel gjenspeiler bestillingen og de mottatte varene.  
 
-## <a name="advanced-warehouse-configurations"></a>Avanserte lageroppsett
+## Avanserte lageroppsett  
 
 For å bruke avansert lageroppsett slår du på vekslebryteren **Krev mottak** på siden Lokasjonskort for lokasjonen. Veksleknappen **Krev plassering** er valg fri.
 
@@ -91,21 +91,21 @@ Diagrammet nedenfor illustrerer inngående lagerflyter etter dokumenttype. Talle
 
 :::image type="content" source="media/design_details_warehouse_management_inbound_advanced_flow.png" alt-text="Den avanserte inngående flyt i et lager.":::
 
-### <a name="1-release-the-source-document"></a>1: Frigi kildedokumentet
+### 1: Frigi kildedokumentet  
 
 Når du mottar varer, frigir du kildedokumentet, for eksempel bestillingen eller en inngående overføringsordre. Når du frigir dokumentet, blir varene tilgjengelige for plassering. Plasseringen inneholder referanser til kildedokumenttype og -nummer.
 
-### <a name="2-create-a-warehouse-receipt"></a>2: Opprett et lagermottak
+### 2: Opprett et lagermottak  
 
 Hent de inngående kildedokumentlinjene på siden **Lagermottak**. Du kan kombinere flere kildedokumentlinjer i ett lagermottaksdokument. Fyll ut feltet **Ant. som skal håndt.** og velg om nødvendig mottakssonen og hyllen.  
 
-### <a name="3-post-the-warehouse-receipt"></a>3: Bokfør lagermottaket
+### 3: Bokfør lagermottaket  
 
 Bokfør lagermottak for å opprette positive vareposter. Feltet **Mottatt (antall)** i den inngående kildedokumentlinjen oppdateres.  
 
 Hvis veksleknappen **Krev plassering** er slått på på lokasjonskortet, er dette der prosessen stopper. Ellers gjør bokføring av det inngående kildedokumentet at varene blir tilgjengelige for plassering. Plasseringen inneholder referanser til kildedokumenttype og -nummer.  
 
-### <a name="4-optional-generate-put-away-worksheet-lines"></a>4: (Valgfritt) Generer plasseringsforslagslinjer
+### 4: (Valgfritt) Generer plasseringsforslagslinjer
 
 Hent lagerplasseringslinjer i **Plasseringsforslaget** basert på bokførte lagermottak eller operasjoner som produserer avgang. På linjene som skal plasseres, angi følgende informasjon:
 
@@ -120,11 +120,11 @@ Når alle plasseringer er planlagt og tilordnet til lagermedarbeidere, genereres
 > [!NOTE]  
 > Hvis veksleknappen **Bruk plasseringsforslag** ikke er slått på på lokasjonskortet, blir lagerplasseringsdokumenter opprettet direkte basert på bokførte lagermottak. I dette tilfellet er ikke dette trinnet nødvendig.  
 
-### <a name="5-create-a-warehouse-put-away-document"></a>5: Opprett et lagerplasseringsdokument
+### 5: Opprett et lagerplasseringsdokument
 
 Opprett et lagerplasseringsdokument i en hentemåte, basert på det bokførte lagermottaket. Opprett lagerplasseringsdokumentet og tildel det til en lagermedarbeider med en push-metode.  
 
-### <a name="6-register-a-warehouse-put-away"></a>6: Registrer en lagerplassering
+### 6: Registrer en lagerplassering
 
 På hver linje for varer som er plassert, helt eller delvis, fyller du ut feltet **Antall** på siden **Plassering**, og registrerer deretter plasseringen.  
 
@@ -133,7 +133,7 @@ På hver linje for varer som er plassert, helt eller delvis, fyller du ut feltet
 * Lagerplasseringsdokumentet holdes åpent til hele antallet for det tilknyttede bokførte lagermottaket er registrert.
 * Feltet **Plassert ant.** på bokførte lagermottaksordrelinjer oppdateres.
 
-## <a name="related-tasks"></a>Beslektede oppgaver
+## Beslektede oppgaver
 
 Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artiklene som beskriver dem.
 
@@ -143,10 +143,10 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 |Plasser varer bestilling for bestilling, og bokfør mottaket i én aktivitet, i et grunnleggende lageroppsett.|[Plassere varer med lagerplasseringer](warehouse-how-to-put-items-away-with-inventory-put-aways.md)|  
 |Plasser varer som mottas fra flere kjøp, salgsreturer, overføringsordrer i et avansert lageroppsett.|[Plasser varer med lagerplasseringer](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)|  
 
-## <a name="post-non-inventory-items"></a>Bokfør ikke-lagervarer
+## Bokfør ikke-lagervarer
 
 [!INCLUDE [post-non-inventory-items](includes/post-non-inventory-items.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
