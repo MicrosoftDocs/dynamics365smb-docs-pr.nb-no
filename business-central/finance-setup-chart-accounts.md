@@ -10,14 +10,14 @@ ms.search.form: '16, 17, 18, 118, 386, 391'
 ms.date: 12/19/2023
 ms.custom: bap-template
 ---
-# Definere eller endre kontoplanen
+# <a name="set-up-or-change-the-chart-of-accounts"></a>Definere eller endre kontoplanen
 
 Kontoplanen viser finanskontoene som lagrer dine økonomiske data. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en standard kontoplan som er klar til å støtte forretningsvirksomheten din. Du kan imidlertid endre standardkontoene, og du kan legge til nye kontoer.
 <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE43KO9?rel=0]
 
-## Legg til eller endre kontoer
+## <a name="add-or-change-accounts"></a>Legg til eller endre kontoer
 
 For hver kontoplan kan du åpne finanskontoen og legge til eller endre innstillinger. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 
@@ -28,7 +28,7 @@ Når det gjelder konti av typen **Total** må du fylle ut feltet **Sammentelling
 > [!IMPORTANT]
 > Hvis du har angitt definisjoner i feltet **Sammentelling** for konti av typen **Til-sum** før du utfører innrykkingen, må du skrive dem inn på nytt fordi funksjonen overskriver verdiene i alle **Til-sum**-feltene.
 
-## Slett kontoer
+## <a name="delete-accounts"></a>Slett kontoer
 
 Du kan slette en finanskonto. Før du sletter den, må imidlertid følgende være oppfylt:  
 
@@ -42,13 +42,13 @@ Du kan også angi når folk skal kunne slette kontoer. På siden **Finansoppsett
 
 Hvis du aktiverer feltet **Sperr sletting av finanskontoer**, kan det anses som en anbefalt fremgangsmåte å definere datoen i feltet **Kontroller finanskonto sletting etter**, for eksempel til datoen du må lagre finansdataene til i henhold til forskrifter.  
 
-### Videoveiledning
+### <a name="video-guidance"></a>Videoveiledning
 
 Denne videoen viser hvordan du angir om og når folk kan slette finanskontoer.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1g3oY]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Finans og kontoplanen](finance-general-ledger.md)  
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  
