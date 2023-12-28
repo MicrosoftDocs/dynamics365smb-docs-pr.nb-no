@@ -1,7 +1,7 @@
 
 # [Business Central-dokumentasjon](index.yml)
 # [Velkommen til Business Central](welcome.md)
-# [Nytt og planlagt](/dynamics365/business-central/dev-itpro/whatsnew/overview)
+# [Nytt og planlagt](/dynamics365/business-central/dev-itpro/whatsnew/overview?toc=/dynamics365/business-central/toc.json)
 # Kom i gang
 ## [Oversikt over forretningsfunksjoner](across-business-functionality.md)
 <!--### [Get Ready for Doing Business](ui-get-ready-business.md)  -->
@@ -333,6 +333,7 @@
 #### [Oversikt over e-dokumenter](finance-edocuments-overview.md)
 #### [Konfigurer e-dokumenter](finance-how-setup-edocuments.md)
 #### [Bruk e-dokumenter ved salg og kjøp](finance-how-use-edocuments.md)
+#### [Angi koblingen E-dokumenter med eksterne endepunkter](finance-how-setup-edocuments-external.md)
 #### [Utvid funksjonaliteten for e-dokumenter](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
 
 ### Behandle mva.
@@ -870,6 +871,8 @@
 ### Danmark
 #### [Lokale funksjoner i dansk versjon](LocalFunctionality/Denmark/denmark-local-functionality.md)
 #### [Varsling og registrering i NemHandelsregisteret i Danmark](localfunctionality/denmark/how-to-nemhandel-register.md)
+#### [Konfigurer elektronisk fakturering med NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
+#### [Oppbevar transaksjonsdata i fem år i Danmark](localfunctionality/denmark/how-to-keep-data-5years.md)
 #### Mva.
 ##### [Skriv ut mva-avstemmingsrapporter](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [Mva. – VIES-rapporter](LocalFunctionality/Denmark/vat-vies-reporting.md)
@@ -883,7 +886,7 @@
 ##### [Konfigurer kunder for OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ##### [Konfigurer elektronisk fakturering for OIOUBL](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [OIOUBL-utvidelsen for elektronisk fakturering](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-##### [Opprett elektroniske dokumenter i OIOUBL-format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+##### [Opprett elektroniske dokumenter i et OIOUBL-format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md
 #### Lønn
 ##### [Lønnsdatadefinisjoner (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
 #### Digitale bilag

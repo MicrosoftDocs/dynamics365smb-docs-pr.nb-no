@@ -1,5 +1,5 @@
 ---
-title: Tilpasse sider (inneholder video)
+title: Tilpass sider (inneholder video)
 description: Finn ut hvordan du kan tilpasse brukergrensesnittet og tilpasse arbeidsområdet slik at det passer til arbeidsmåten og personlige preferanser i Business Central.
 author: jswymer
 ms.topic: conceptual
@@ -8,12 +8,16 @@ ms.custom: bap-template
 ms.reviewer: jswymer
 ms.search.keywords: 'customize, personalize, personalization, hide columns, remove fields, move fields, resize column, change column width'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
-ms.date: 09/14/2023
+ms.date: 12/05/2023
 ms.author: jswymer
 ---
 # Tilpass arbeidsområdet
 
-Du kan tilpasse arbeidsområdet til å passe arbeid og behov. Endre sider slik at de bare viser den informasjonen du trenger, der du trenger den. Personalisering påvirker bare arbeidsområdet. Det endrer ikke måten andre arbeider på. Du kan tilpasse alle typer sider, inkludert [rollesenter](ui-change-basic-settings.md#role-center)-siden. 
+Du kan tilpasse arbeidsområdet til å passe arbeid og behov. Endre sider slik at de bare viser den informasjonen du trenger, der du trenger den. Personalisering påvirker bare arbeidsområdet. Det endrer ikke måten andre arbeider på. Du kan tilpasse alle typer sider, inkludert [rollesenter](ui-change-basic-settings.md#role-center)-siden.
+
+> [!NOTE]
+> På grunn av restriksjoner på utformingsmuligheter i nettklienten er det for øyeblikket ikke mulig å tilpasse kontrollene innenfor rutenettsyntaksen.
+Det gjelder alle utformingsmoduser, ikke bare tilpassing.
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -184,7 +188,6 @@ Nedenfor følger noen tips som hjelper deg med å forstå tilpasning bedre.
 - Noen sider har flere sidefelt som tilordnes til samme kildetabell. Ruten viser begge/alle disse sidefeltene uavhengig av hverandre. Å vise/skjule/flytte disse feltene er også uavhengig uten at det ene påvirker det andre.
 - Hvis en del eller gruppe er skjult, vises skyggefelt fortsatt i den, men du kan ikke dra og slippe eller legge til/vise feltet før du har gjort gruppen/delen synlig.
 
-## Se relatert [Microsoft-opplæring](/training/modules/personalize-ui-dynamics-365-business-central/index)
 
 ## Se også
 [Tilpass sider for profiler](ui-personalization-manage.md)  

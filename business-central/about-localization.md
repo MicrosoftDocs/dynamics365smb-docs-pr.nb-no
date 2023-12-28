@@ -10,13 +10,13 @@ ms.search.form: null
 ms.date: 09/05/2023
 ms.custom: bap-template
 ---
-# <a name="what-is-local-functionality-in-"></a>Hva er Lokal funksjonalitet i [!INCLUDE[prod_long](includes/prod_long.md)]?
+# Hva er Lokal funksjonalitet i [!INCLUDE[prod_long](includes/prod_long.md)]?
 
 [!INCLUDE[prod_short](includes/prod_short.md)] har en kombinert lokaliseringsstrategi inkludert både Microsoft-ledede og parterledede modeller. I denne delen finner du beskrivelser av funksjonene som gjelder land/områder der Microsoft sørger for forskriftsmessig samsvar og andre lokale funksjoner.  
 
-Hvis du vil se oversikten over gjeldende støttede markeder, kan du gå til [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
+Hvis du vil se oversikten over gjeldende støttede markeder, kan du gå til [Land-/områdetilgjengelighet og støttede språk](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
-## <a name="local-functionality"></a>Lokale funksjoner
+## Lokale funksjoner
 
 Tabellen nedenfor inneholder koblinger til artikler der du kan lære om den lokale funksjonaliteten for hvert land/område.
 
@@ -47,15 +47,15 @@ Tabellen nedenfor inneholder koblinger til artikler der du kan lære om den loka
 |        | India | [Lokal funksjonalitet, India](LocalFunctionality/India/india-local-functionality.md) |
 |        | New Zealand | [Lokal funksjonalitet for New Zealand](localfunctionality/newzealand/new-zealand-local-functionality.md) |
 
-### <a name="other-countriesregions"></a>Andre land/områder
+### Andre land/områder
 
 [!INCLUDE[prod_short](includes/prod_short.md)] finnes også i andre markeder via lokaliseringsapper. Hvis en Microsoft-partner har utviklet en lokaliseringsapp for landet/området ditt, finner du den i [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opprett miljøer](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)  
-[Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
-[Samsvar](compliance/compliance-overview.md)  
+[Gjør deg klar for virksomhet](ui-get-ready-business.md)  
+[Samsvarsoversikt](compliance/compliance-overview.md)  
 [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json)  
 [Internasjonal tilgjengelighet for Microsoft Dynamics 365](/dynamics365/get-started/availability)  
 [Utvikling av en lokaliseringsløsning](/dynamics365/business-central/dev-itpro/developer/readiness/readiness-develop-localization)  
