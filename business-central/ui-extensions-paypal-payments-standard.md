@@ -1,6 +1,6 @@
 ---
-title: Bruke PayPal Payments Standard-utvidelsen
-description: Dette emnet beskriver hvordan du bruker standardutvidelsen til å gjøre det mulig for kunder å betale med PayPal.
+title: Bruk PayPal Payments Standard-utvidelsen
+description: Denne artikkelen beskriver hvordan du bruker standardutvidelsen til å gjøre det mulig for kunder å betale med PayPal.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: na
@@ -8,10 +8,10 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: 'app, add-in, manifest, customize'
 ms.search.form: '1070, 1071, 1073, 1074'
-ms.date: 06/23/2021
+ms.date: 12/12/2023
 ms.author: bholtorf
 ---
-# <a name="the-paypal-payments-standard-extension"></a>PayPal Payments Standard-utvidelsen
+# PayPal Payments Standard-utvidelsen
 
 Kundene krever kontinuerlig bedre kundeservice, både når det gjelder produktkvalitet, men også når det gjelder leverings- og betalingsalternativer. PayPal Payments Standard-tjenesten hjelper deg med å forbedre din kundeservice.
 
@@ -29,7 +29,7 @@ PayPal Payments Standard-tjenesten gir følgende fordeler:
 
 Hvis du vil ha mer informasjon, kan du se [Aktivere kundebetaling via PayPal](sales-how-enable-payment-service-extensions.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilpass [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Sette opp salg](sales-setup-sales.md)  

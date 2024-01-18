@@ -1,5 +1,5 @@
 ---
-title: Detaljer for utforming av programmet
+title: Utformingsdetaljer for programmet
 description: Dette innholdet omfatter detaljert teknisk informasjon om komplekse programfunksjoner i Business Central.
 author: brentholtorf
 ms.topic: conceptual
@@ -7,10 +7,10 @@ ms.devlang: na
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.search.keywords: null
-ms.date: 11/26/2021
+ms.date: 12/13/2023
 ms.author: bholtorf
 ---
-# <a name="application-design-details"></a>Detaljer for utforming av programmet
+# Utformingsdetaljer for programmet
 
 Artikkelen i denne delen innholdet omfatter detaljert teknisk informasjon om komplekse programfunksjoner i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -24,9 +24,9 @@ Innhold i designdetaljer er rettet mot implementerere, utviklere og superbrukere
 |Lær hvordan planleggingssystemet fungerer og hvordan du justerer algoritmene for å oppfylle krav i forskjellige miljøer.|[Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)|  
 |Finn ut hvordan systemet holder konstant kontroll over varedisposisjon på lageret, slik at utgående ordrer kan flyte effektivt og gi optimale leveringer.|[Designdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md)|
 |Lær mer om historisk og gjeldende utformingen av varesporingsfunksjonalitet og hvordan den integreres med reservasjonssystemet, slik at serie-/partinumre inkluderes i tilgjengelighetsberegninger.|[Designdetaljer: Varesporing](design-details-item-tracking.md)|  
-|Finn ut mer om funksjonen for bokføring av finanskladdelinje.|[Designdetaljer: Finanskladd – bokfør linje](design-details-general-journal-post-line.md)|
+|Finn ut mer om funksjonen for bokføring av finanskladdelinje.|[Utformingsdetaljer: Bokfør linje for finanskladd](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Planlegging](production-planning.md)  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  

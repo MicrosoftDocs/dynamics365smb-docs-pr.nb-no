@@ -42,6 +42,10 @@
 ##### [Gjennomgang av inngående og utgående flyt i grunnleggende lageroppsett](contoso-coffee/warehousing/warehouse-basic-flow-putaway-pick.md)
 ##### [Gjennomgang av inngående og utgående flyt i blandede lageroppsett](contoso-coffee/warehousing/warehouse-mixed-flow-receive-pick-ship.md)
 ##### [Gjennomgang av inngående og utgående flyt i avansert lageroppsett med lagerstyring](contoso-coffee/warehousing/warehouse-directed-flow.md)
+#### Tjeneste
+##### [Innføring i Contoso Coffee-servicebehandling](contoso-coffee/service/contoso-coffee-service-intro.md)
+##### [Gjennomgang av serviceordrer for servicevarer](contoso-coffee/service/service-basic-flow-order.md)
+##### [Gjennomgang av servicekontrakter for servicevarer](contoso-coffee/service/service-contract-flow.md)
 
 ### Utformingsdetaljer
 #### [Oversikt over detaljer for utforming av programmet](design-details-application-design.md)

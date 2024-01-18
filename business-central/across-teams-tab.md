@@ -6,12 +6,12 @@ ms.author: jswymer
 ms.reviewer: jswymer
 ms.service: dynamics365-business-central
 ms.topic: how-to
-ms.date: 11/04/2022
+ms.date: 12/12/2023
 ms.custom: bap-template
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, share records, tab'
 ---
 
-# <a name="add-business-central-tab-in-microsoft-teams"></a>Legg til Business Central-fane i Microsoft Teams
+# Legg til Business Central-fane i Microsoft Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -19,7 +19,7 @@ I Teams vises faner øverst i kanaler og nettpratvinduer, noe som gir deltakerne
 
 ![Faner i Teams](media/teams-tabs-border.png)
 
-## <a name="about-business-central-tabs"></a>Om Business Central-faner
+## Om Business Central-faner
 
 En [!INCLUDE [prod_short](includes/prod_short.md)]-fane inneholder en fokusert visning av [!INCLUDE [prod_short](includes/prod_short.md)]-liste og -kortsider. Fanen viser ikke hele [!INCLUDE [prod_short](includes/prod_short.md)]-nettklienten. Det finnes ingen kantlinje i nettleseren, [!INCLUDE [prod_short](includes/prod_short.md)]-banner (f.eks. Fortell meg, søk, hjelp) eller øvre navigasjonsmeny – bare sideinnhold og tilhørende handlinger. Innholdet er interaktiv, noe som betyr at du kan velge handlinger og koblinger, endre data og så videre. Du er begrenset til det du ser og kan gjøre med de samme tillatelsene som er tildelt kontoen i [!INCLUDE [prod_short](includes/prod_short.md)].
 
@@ -28,7 +28,7 @@ Hvis du vil ha mer informasjon om hvem som kan se innholdet i en [!INCLUDE [prod
 > [!TIP]
 > Er du en utvikler? Du kan også legge til faner programmatisk ved hjelp av Microsoft Graph-API-en. Hvis du vil ha mer informasjon, kan du se [Legg til en Business Central-faner i Teams](/dynamics365/business-central/dev-itpro/developer/devenv-develop-for-teams-tabs).  
 
-## <a name="prerequisites"></a>Forutsetninger
+## Forutsetninger
 
 Følgende forutsetninger må være oppfylt for å legge til en [!INCLUDE [prod_short](includes/prod_short.md)]-fane:
 
@@ -42,7 +42,7 @@ Hvis du vil vise [!INCLUDE [prod_short](includes/prod_short.md)]-fanen som ble l
 - Du har en [!INCLUDE [prod_short](includes/prod_short.md)]-lisens eller begrenset tilgang til Business Central med bare en Microsoft 365-lisens. Hvis du vil ha mer informasjon, kan du se [Business Central-tilgang med Microsoft 365-lisenser](admin-access-with-m365-license.md).
 - Du har installert [!INCLUDE [prod_short](includes/prod_short.md)]-appen i Teams.
 
-## <a name="add-tab-using-recommended-content"></a>Legg til fane med anbefalt innhold
+## Legg til fane med anbefalt innhold
 
 Bruk denne fremgangsmåten til å legge til en fane ved å velge hva som skal vises fra en lett tilgjengelig liste over anbefalt innhold som er basert på rollesenteret – å forlate Teams. Hvis du vil vite mer om innholdet du kan velge mellom, kan du se [Hvor kommer det anbefalte innholdet fra?](/dynamics365/business-central/teams-faq?tabs=tabs#where-does-the-recommended-content-come-from).
 
@@ -61,7 +61,7 @@ Bruk denne fremgangsmåten til å legge til en fane ved å velge hva som skal vi
 6. Velg **Publiser til kanalen om denne fanen** for å legge inn en kunngjøring i Teams-kanalen eller -nettpraten automatisk for å la deltakerne vite at du har lagt til denne fanen.
 7. Velg **Lagre**.
 
-## <a name="add-tab-using-a-page-link"></a>Legg til fane ved hjelp av en sidekobling
+## Legg til fane ved hjelp av en sidekobling
 
 En annen måte å legge til en fane er ved å bruke en kobling (nettadresse) på siden du vil vise. Denne måten er nyttig når du vil vise en bestemt [!INCLUDE [prod_short](includes/prod_short.md)]-post eller en listeside som ikke er bokmerket i rollesenteret.
 
@@ -80,14 +80,14 @@ En annen måte å legge til en fane er ved å bruke en kobling (nettadresse) på
 8. Velg **Publiser til kanalen om denne fanen** for å legge inn en kunngjøring i Teams-kanalen eller -nettpraten automatisk for å la deltakerne vite at du har lagt til denne fanen.
 9. Velg **Lagre**.
 
-## <a name="add-tab-by-pinning-card-details"></a>Legg til fane ved å feste kortdetaljer
+## Legg til fane ved å feste kortdetaljer
 
 Bruk disse trinnene til å legge til en fane for en post som ble delt eller limt inn i en Teams-kanal eller -nettprat. Hvis du vil lære hvordan du deler poster og sidekoblinger i Teams, kan du se [Del poster og sidekoblinger i Teams](across-working-with-teams.md).
 
 1. Velg **Detaljer**-knappen på kortet i Teams.
 2. Øverst i høyre hjørne av kortdetaljer velger du **Fest til toppen av nettpratvindu** ![Festeikon for å legge til Teams-fane i Business Central](media/pin-teams.png)-ikonet.
 
-## <a name="change-a-tab-and-its-content"></a>Endre en fane og innholdet
+## Endre en fane og innholdet
 
 Når en fane er lagt til, kan du foreta bestemte endringer i fanen. Du kan for eksempel gi nytt navn til fanen, flytte den og fjerne den. Du finner disse handlingene i fanealternativene som er tilgjengelige, ved å velge pil ned i fanen.
 
@@ -97,7 +97,7 @@ Du kan endre dataene hvis du har tilgang til innholdet i en fane. Hvis du endrer
 
 Du kan også endre visningen av siden og dataene, for eksempel sortering og endring av oppsettet mellom liste- og flisvisninger. Når du gjør slike endringer, påvirker de ikke det andre ser. De ser det du opprinnelig la inn, inntil de gjør lignende endringer selv.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversikt over Business Central og Microsoft Teams-integrering](across-teams-overview.md)  
 [Installer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  

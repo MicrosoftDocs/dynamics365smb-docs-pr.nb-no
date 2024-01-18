@@ -1,19 +1,19 @@
 ---
-title: Håndtere manglende alternativverdier
+title: Håndter manglende alternativverdier
 description: Finn ut hvordan du kan hindre at full synkronisering mislykkes fordi alternativene er forskjellige i tilordnede felt. Denne prosessen krever hjelp fra en utvikler.
 author: brentholtorf
 ms.author: bholtorf
 ms.custom: na
 ms.reviewer: na
 ms.topic: conceptual
-ms.date: 03/23/2022
+ms.date: 12/12/2023
 ---
 
-# Håndtere manglende alternativverdier
+# Håndter manglende alternativverdier
 > [!NOTE]
 > I 2022 lanseringsbølge 1 kan du opprette egne alternativ tildelinger. Se [Tilpass alternativtildelinger med Microsoft Dataverse](/dynamics365/business-central/dev-itpro/administration/administration-custom-option-mapping) for mer informasjon. De nye funksjonene krever at administratoren aktiverer **Funksjonsoppdatering: Tildel alternativsett i Dataverse uten kode** på siden **Funksjonsbehandling**. Hvis du vil ha mer informasjon, kan du se [Aktivering av kommende funksjoner på forhånd](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-Dette emnet er ment for en teknisk målgruppe. Prosessene som beskrives, krever hjelp av en utvikler.
+Denne artikkelen er ment for en teknisk målgruppe. Prosessene som beskrives, krever hjelp av en utvikler.
 
 [!INCLUDE[prod_short](includes/cds_long_md.md)] inneholder tre alternativsettfelt som inneholder verdier du kan tilordne til [!INCLUDE[prod_short](includes/prod_short.md)]-felt av typen Alternativ for automatisk synkronisering. Under synkroniseringen ignoreres ikke-tilordnede alternativer, og de manglende alternativene legges til i den relaterte [!INCLUDE[prod_short](includes/prod_short.md)]-tabellen og legges til i systemtabellen **Tilordning av Dataverse-alternativ** for å behandles manuelt senere. Det kan for eksempel være å legge til de manglende alternativene i hvert produkt og deretter oppdatere tilordningen.
 
@@ -82,7 +82,7 @@ enum 5334 "CDS Payment Terms Code"
 
 Alle opplistingene i [!INCLUDE[prod_short](includes/prod_short.md)] ovenfor tilordnes til alternativsett i [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### Utvide alternativsett i [!INCLUDE[prod_short](includes/prod_short.md)]
+## Utvid alternativsett i [!INCLUDE[prod_short](includes/prod_short.md)]
 1. Opprett en ny AL-utvidelse.
 
 2. Legg til en opplistingsutvidelse for alternativene du vil utvide. Sørg for at du bruker samme verdi. 
@@ -102,9 +102,9 @@ enumextension 50100 "CDS Payment Terms Code Extension" extends "CDS Payment Term
 > Ikke bruk tegnet «,» i opplistingsverdiene og bildetekstene. Dette støttes for øyeblikket ikke av [!INCLUDE[prod_short](includes/prod_short.md)]-kjøretiden.
 
 > [!NOTE]
-> De første ti tegnene i navnene på og tekstene for de nye alternativverdiene må være unike. To alternativer, for eksempel Overføring av 20 virkedager og Overføring av 20 kalenderdager, vil forårsake feil fordi begge har de samme 10 første tegnene ("Overføring"). Gi dem for eksempel navnet "Ovf 20 vrk" og "Ovf 20 kad".
+> De første ti tegnene i navnene på og tekstene for de nye alternativverdiene må være unike. To alternativer, for eksempel Overføring av 20 virkedager og Overføring av 20 kalenderdager, vil forårsake feil fordi begge har de samme 10 første tegnene ("Overføring 2"). Gi dem for eksempel navnet "Ovf 20 vrk" og "Ovf 20 kad".
 
-### Oppdater Tilordning av [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativ
+## Oppdater Tildeling av [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativ
 Nå kan du gjenopprette tilordningen mellom [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativer og [!INCLUDE[prod_short](includes/prod_short.md)]-poster.
 
 På siden **Tilordning for integreringstabell** velger du linjen for tilordningen **Betalingsbetingelser**, og deretter velger du handlingen **Synkroniser endrede poster**. Siden **Tilordning av Dataverse-alternativ** oppdateres med tilleggspostene nedenfor.
@@ -118,7 +118,7 @@ På siden **Tilordning for integreringstabell** velger du linjen for tilordninge
 | **Betalingsbetingelser: CASH PAYME**  | **779800001**  | **Cash Payment**     |
 | **Betalingsbetingelser: TRANSFER**    | **779800002**  | **Overføring**         |
 
-Tabellen **Betalingsbetingelser** i [!INCLUDE[prod_short](includes/prod_short.md)] viser da nye poster for [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativene. I følgende tabell er det nye alternativer med fet skrift. Rader i kursiv representerer alle alternativer som nå kan synkroniseres. Gjenstående rader representerer alternativer som ikke er i bruk og vil bli ignorert under synkronisering. Du kan fjerne eller utvide Dataverse-alternativer med samme navn.)
+Tabellen **Betalingsbetingelser** i [!INCLUDE[prod_short](includes/prod_short.md)] viser da nye poster for [!INCLUDE[prod_short](includes/cds_long_md.md)]-alternativene. I følgende tabell er det nye alternativer med fet skrift. Rader i kursiv representerer alle alternativer som nå kan synkroniseres. Gjenstående rader representerer alternativer som ikke er i bruk og blir ignorert under synkronisering. Du kan fjerne eller utvide Dataverse-alternativer med samme navn.)
 
 |  - kode       | Beregning av forfallsdato | Beregning av kontantrabattdato | Rabattprosent | Beregn kontantrab. for kred.nota | Beskrivelse       |
 |------------|----------------------|---------------------------|------------|-------------------------------|-------------------|
@@ -138,7 +138,7 @@ Tabellen **Betalingsbetingelser** i [!INCLUDE[prod_short](includes/prod_short.md
 | *NET30*      |                      |                           | 0.         | USANN                         |                   |
 | *NET45*      |                      |                           | 0.         | USANN                         |                   |
 | *NET60*      |                      |                           | 0.         | USANN                         |                   |
-| ***TRANSFER*** |                      |                           | 0.         | USANN                         |                   |
+| ***OVERFØR*** |                      |                           | 0.         | USANN                         |                   |
 
 ## Se også
 [Tilordne tabellene og feltene som skal synkroniseres](admin-how-to-modify-table-mappings-for-synchronization.md)

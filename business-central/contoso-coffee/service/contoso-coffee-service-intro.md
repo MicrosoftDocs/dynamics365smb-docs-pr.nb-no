@@ -8,7 +8,7 @@ ms.date: 11/27/2023
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-service-management"></a>Innføring i Contoso Coffee-servicebehandling
+# Innføring i Contoso Coffee-servicebehandling
 
 Contoso Coffee er et fiktivt selskap som produserer forbrukerkaffemaskiner og kommersielle kaffemaskiner. **Contoso Coffee**-appene for Business Central legger til demonstrasjonsdata som du kan bruke til å lære hvordan du bruker servicebehandlingsfunksjonene i Business Central.
 
@@ -22,9 +22,9 @@ Denne appen inneholder flere elementer som brukes til hovedgjennomgangene:
 > Før du kjører noen av scenarioene for Contoso Coffee, må du bokføre eventuelle varekladdelinjer med åpningssaldoer. Hvis du vil ha flere krav, kan du se [Konfigurer Contoso Coffee-data](#set-up-contoso-coffee-service-management-data).
 >
 > 
-## <a name="set-up-contoso-coffee-service-management-data"></a>Konfigurer data for Contoso Coffee-servicebehandling
+## Konfigurer data for Contoso Coffee-servicebehandling
 
-[!INCLUDE [contoso-coffee-app-install](../contoso-coffee-app-install.md)].
+[!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
 Når de relevante appene er installert, går du til siden [Demoverktøy for Contoso](https://businesscentral.dynamics.com/?page=5194)-siden i [!INCLUDE [prod_short](../../includes/prod_short.md)] , velger *Service-modul*-linjen og bruker **Konfigurer** til å klargjøre modulene. Tabellen nedenfor beskriver innstillingene:  
 
@@ -41,7 +41,7 @@ Når de relevante appene er installert, går du til siden [Demoverktøy for Cont
 
 Når du er klar, velger du **Opprett demonstrasjonsdata**-handling. Det tar noen minutter å legge til dataene i den underliggende databasen, men da er du klar til å kjøre de ulike scenarioene.  
 
-## <a name="scenarios"></a>Scenarier
+## Scenarier
 
 Demodata for Contoso Coffee støtter nå følgende servicescenarioer for test og opplæring:
 
@@ -54,6 +54,6 @@ Les trinnene for hvert scenario i den relevante artikkelen.
 > Disse servicegjennomgangene krever at brukeropplevelsen er satt til **Premium** på siden **Firmainformasjon**.
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tjeneste](../../service-service.md)
