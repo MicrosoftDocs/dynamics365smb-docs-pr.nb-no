@@ -17,7 +17,7 @@ Selgerrollen regnes ofte som den mest synlige jobben i et konsern. Det kan imidl
 > [!NOTE]
 > Dette emnet beskriver prosessen med å integrere de elektroniske versjonene av [!INCLUDE[crm_md](includes/crm_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)] via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Hvis du vil ha informasjon om lokal konfigurasjon, kan du se [Klargjøre Dynamics 365 Sales for lokal integrasjon](/dynamics365/business-central/dev-itpro/administration/prepare-dynamics-365-for-sales-for-integration).
 
-## <a name="integrating-through-dataverse"></a>Integrasjon via Dataverse
+## <a name="integrate-through-dataverse"></a>Integrasjon via Dataverse
 
 For å gjøre det enkelt å koble til og synkronisere data med andre Dynamics 365-programmer, kan [!INCLUDE[prod_short](includes/prod_short.md)] også integreres med [!INCLUDE[prod_short](includes/cds_long_md.md)]. Du kan for eksempel koble til [!INCLUDE[crm_md](includes/crm_md.md)] eller apper du lager selv. Hvis du integrerer for første gang, må du gjøre det via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Hvis du vil ha mer informasjon, kan du se [Integrasjon med Dataverse](admin-common-data-service.md).
 
@@ -122,7 +122,7 @@ Tabellen nedenfor inneholder en oversikt over standardtilordning mellom tabeller
 > [!NOTE]
 > Tilordningene for tabellene for vareenheten, ressursenheten og enhetsgruppen er bare tilgjengelige hvis administratoren har aktivert **Funksjonsoppdatering: Flere enheter for synkronisering med Dynamics 365 Sales**-funksjonsbryteren på siden **Funksjonsstyring**. Hvis du vil ha mer informasjon, kan du se [Synkronisering av varer og ressurser med produkter i ulike enheter](admin-prepare-dynamics-365-for-sales-for-integration.md#synchronizing-items-and-resources-with-products-with-different-units-of-measure).
 
-## <a name="synchronizing-items-and-resources-with-products-with-different-units-of-measure"></a>Synkronisering av varer og ressurser med produkter i ulike enheter
+## <a name="synchronize-items-and-resources-with-products-with-different-units-of-measure"></a>Synkronisering av varer og ressurser med produkter i ulike enheter
 
 Virksomheter produserer eller kjøper ofte varene i én enhet og selger dem deretter i en annen. Hvis du vil synkronisere varer som bruker flere enheter, må du aktivere **Funksjonsoppdatering: Synkronisering av flere enheter med Dynamics 365 Sales**-funksjonsbryteren på siden **Funksjonsstyring**. 
 
@@ -132,7 +132,7 @@ Når aktiverer funksjonsoppdateringen, opprettes en ny enhetsgruppetabell som ti
 
 Du kan opprette flere enheter for hver enhetsgruppe og tilordne gruppene til produkter i [!INCLUDE[crm_md](includes/crm_md.md)]. Etterpå kan du synkronisere produktene med varer og ressurser i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan manuelt pare vareenheter eller ressursenheter med en enhetsgruppe. Hvis for eksempel enhetsgruppen for varen eller ressursen ikke er kombinert med en enhetsgruppe i [!INCLUDE[crm_md](includes/crm_md.md)], for eksempel fordi enhetsgruppen ikke finnes, oppretter [!INCLUDE[prod_short](includes/prod_short.md)] automatisk enhetsgruppen i [!INCLUDE[crm_md](includes/crm_md.md)].
 
-### <a name="mapping-items-and-resources-to-products"></a>Tildeling av varer og ressurser til produkter
+### <a name="map-items-and-resources-to-products"></a>Tildeling av varer og ressurser til produkter
 
 Når du aktiverer **Funksjonsoppdatering: Synkronisering av flere enheter med Dynamics 365 Sales**-funksjonsbryteren, skjer følgende:
 
@@ -208,7 +208,7 @@ Tabellen nedenfor beskriver standard synkroniseringsjobber for [!INCLUDE[crm_md]
 |BOKFØRTE SALGSFAKTURAER-FAKTURAER – Dynamics 365 Sales-synkroniseringsjobb|Synkroniserer [!INCLUDE[crm_md](includes/crm_md.md)]-fakturaer med [!INCLUDE[prod_short](includes/prod_short.md)]-bokførte salgsfakturaer.|Fra [!INCLUDE[prod_short](includes/prod_short.md)] til [!INCLUDE[crm_md](includes/crm_md.md)]|FAKTURAER-BOKFØRTE SALGSFAKTURAER|30|1440<br> (24 timer)|
 |Kundestatistikk – Dynamics 365 Sales-synkroniseringsjobb|Oppdaterer [!INCLUDE[crm_md](includes/crm_md.md)]-konti med de nyeste [!INCLUDE[prod_short](includes/prod_short.md)]-kundedataene. I [!INCLUDE[crm_md](includes/crm_md.md)] vises denne informasjonen i **Business Central-kontostatistikk**-hurtigvisningsskjemaet for kontoer som er koblet til [!INCLUDE[prod_short](includes/prod_short.md)]-kunder.<br /><br /> Disse dataene kan også oppdateres manuelt fra hver enkelt kundepost. Hvis du vil ha mer informasjon, se [Sammenkoble og synkronisere poster manuelt](admin-how-to-couple-and-synchronize-records-manually.md). </BR></BR>**Merk:**  Denne jobbkøen er relevant bare hvis [!INCLUDE[prod_short](includes/prod_short.md)]-integrasjonsløsningen er installert i [!INCLUDE[crm_md](includes/crm_md.md)]. |Ikke i bruk|Ikke i bruk|30|Ikke i bruk| 
 
-## <a name="connecting-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Tilkobling til lokale versjoner av Business Central 2019 lanseringsbølge 1 og Microsoft Dynamics NAV 2018
+## <a name="connect-to-on-premises-versions-of-business-central-2019-release-wave-1-and-microsoft-dynamics-nav-2018"></a>Tilkobling til lokale versjoner av Business Central 2019 lanseringsbølge 1 og Microsoft Dynamics NAV 2018
 
 Microsoft Power Platform-teamet har [annonsert](/power-platform/important-changes-coming#deprecation-of-office365-authentication-type-and-organizationserviceproxy-class-for-connecting-to-dataverse) at det avskriver godkjenningstypen Office365. Hvis du bruker en lokal versjon av [!INCLUDE[prod_short](includes/prod_short.md)] som er eldre enn Business Central 2019 lanseringsbølgeversjon 1, må du bruke OAuth-godkjenningstypen til å koble til [!INCLUDE[crm_md](includes/crm_md.md)] på nett. Trinnene i denne delen beskriver hvordan du kobler til følgende produktversjoner:
 
@@ -227,7 +227,7 @@ Microsoft Power Platform-teamet har [annonsert](/power-platform/important-change
 
    * OAuth
 
-### <a name="to-connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Slik kobler du til Business Central 2019 lanseringsbølge 1 og Dynamics NAV 2018
+### <a name="connect-business-central-2019-release-wave-1-and-dynamics-nav-2018"></a>Slik kobler du til Business Central 2019 lanseringsbølge 1 og Dynamics NAV 2018
 
 1. Importer Microsoft Dynamics 365 Business Central-integreringsløsningen til [!INCLUDE[crm_md](includes/crm_md.md)]-miljøet. Integreringsløsningen er tilgjengelig i CrmCustomization-mappen på installasjons-DVD-en for [!INCLUDE[prod_short](includes/prod_short.md)] eller Dynamics NAV 2018. Importer en av følgende løsninger, avhengig av produktversjonen:
 

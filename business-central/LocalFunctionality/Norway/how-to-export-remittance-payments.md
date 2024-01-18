@@ -11,7 +11,7 @@ ms.search.form: '15000000, 15000002, 15000004, 15000006, 15000007, 15000010'
 ms.date: 12/08/2023
 ms.author: bholtorf
 ---
-# Eksporter remitteringsoppdrag i den norske versjonen
+# <a name="export-remittance-payments-in-the-norwegian-version"></a>Eksporter remitteringsoppdrag i den norske versjonen
 
 Du kan bruke funksjonen for eksport av remitteringsoppdrag til å eksportere betalingsfilen til datamaskinen din. Deretter kan du overføre remitteringsoppdragene til banken.  
 
@@ -26,7 +26,7 @@ Du eksporterer betalinger til en bankfil ved å velge **Eksporter betalinger**-k
 
 Fremgangsmåten for å eksportere betalinger ved hjelp av **Eksporter remittering**-kjørselen beskrives i denne artikkelen.  
 
-## Slik eksporterer du remitteringsoppdrag ved hjelp av Eksporter remittering-kjørsler  
+## <a name="to-export-remittance-payments-using-the-remittance---export-batch-jobs"></a>Slik eksporterer du remitteringsoppdrag ved hjelp av Eksporter remittering-kjørsler
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladder** og velg den relaterte koblingen.  
 2.  Klargjør for å eksportere betalingene fra kladden. Hvis du vil ha mer informasjon, kan du se [Eksportere betalinger til en bankfil](../../finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
@@ -48,7 +48,7 @@ Betalingsinformasjonen eksporteres til filen som er angitt i remitteringsavtalen
 
 Utbetalingskladden slettes og transaksjonene overføres til ventekladden.  
 
-## Se også  
+## <a name="see-also"></a>Se også
  [Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)   
  [Sett opp remitteringsavtaler](how-to-set-up-remittance-agreements.md)   
  [Opprette remitteringskontoer](how-to-create-remittance-accounts.md)   

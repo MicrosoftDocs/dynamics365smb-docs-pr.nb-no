@@ -9,11 +9,11 @@ ms.date: 12/07/2023
 ms.author: soalex
 ---
 
-# Sende varsler om lands-/områdespesifikke forskriftsmessige funksjoner
+# <a name="submit-alerts-about-countryregion-specific-regulatory-features"></a>Sende varsler om lands-/områdespesifikke forskriftsmessige funksjoner
 
 Vi anbefaler at du bruker Microsoft Dynamics Lifecycle Services (LCS) til å sende lovmessige varsler gjennom tjenesten Forskriftsmessig Dynamics-varselsending.  
 
-## Sende forskriftsmessig varsel i LCS
+## <a name="to-submit-a-regulatory-alert-in-lcs"></a>Sende forskriftsmessig varsel i LCS
 
 1. Gå til [Lifecycle Services](https://lcs.dynamics.com) og logg deg på.  
 
@@ -66,7 +66,7 @@ Vi anbefaler at du bruker Microsoft Dynamics Lifecycle Services (LCS) til å sen
 
       Når du har sendt varselet, får du en bekreftelse på at varselet er sendt til Microsoft.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Lokal funksjonalitet i [!INCLUDE[prod_long](includes/prod_long.md)]](about-localization.md)  
 [Endre språk og nasjonal innstilling](about-locale-language.md)  
