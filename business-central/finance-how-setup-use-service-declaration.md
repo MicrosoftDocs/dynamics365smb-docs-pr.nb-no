@@ -4,18 +4,18 @@ description: Lær hvordan du konfigurerer og bruker funksjoner for tjenesteerkl�
 author: altotovi
 ms.author: altotovi
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 12/21/2022
 ms.custom: bap-template
 ms.search.keywords: 'electronic document, Intrastat, trade, EU, service, declaration,'
 ms.search.form: '30, 76, 5010, 5022, 5023, 5024, 5800'
 ---
-# <a name="the-service-declaration-extension"></a>Tjenesteerklæringsutvidelsen
+# Tjenesteerklæringsutvidelsen
 
 I noen EU-land/-områder krever myndighetene at bedrifter rapporterer eksport av tjenester til andre EU-land/-områder. Med utvidelsen **Tjenesteerklæring** kan du samle inn informasjon om servicehandel i EU, og rapportere den til myndighetene. Selv om den heter **Tjenesteerklæring**, kan du også bruke den som **Intrastat for tjenester**. Denne utvidelsen er tilgjengelig for alle EU-land/-områder som en W1-versjon, og den kan brukes som den er i Belgia. For andre land/områder kreves det en utvidelse basert på land/område. Hvis et land/område bare trenger et annet format, kan du bruke rapportkonfigurasjonen i **datautvekslingsrammeverket** til å endre formatet.
 
-## <a name="enable-the-service-declaration-extension"></a>Aktiver tjenesteerklæringsutvidelsen
+## Aktiver tjenesteerklæringsutvidelsen
 
 Etter at du har installert utvidelsen i miljøet, må du aktivere den.
 
@@ -26,11 +26,11 @@ Etter at du har installert utvidelsen i miljøet, må du aktivere den.
 5. Før du starter, må du kontrollere **totalt antall koder** for å forstå hvor mange tjenestetransaksjonstyper allerede er angitt.
 6. Velg **Fullfør** i det siste trinnet for å fullføre konfigurasjonen.
 
-## <a name="set-up-the-service-declaration-extension"></a>Konfigurer tjenesteerklæringsutvidelsen
+## Konfigurer tjenesteerklæringsutvidelsen
 
 Du kan konfigurere utvidelsen manuelt eller ved å bruke en rapporteringsfil i datautvekslingsdefinisjoner.
 
-### <a name="to-set-up-service-declaration-manually"></a>Slik konfigurerer du tjenesteerklæring manuelt
+### Slik konfigurerer du tjenesteerklæring manuelt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett av tjenesteerklæring**, og velg deretter den relaterte koblingen.
 2. Konfigurer feltene som beskrevet i tabellen nedenfor, i hurtigfanen **Generelt**:
@@ -47,7 +47,7 @@ Du kan konfigurere utvidelsen manuelt eller ved å bruke en rapporteringsfil i d
 3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Tjenestetransaksjonstyper**, og velg deretter den relaterte koblingen.
 4. På linjene angir du **koder** og **beskrivelser** for tjenestetransaksjonstypene du skal bruke.
 
-### <a name="set-up-a-reporting-file"></a>Konfigurere en rapporteringsfil
+### Konfigurere en rapporteringsfil
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Datautvekslingsdefinisjoner**, og velg deretter den tilknyttede koblingen.
 2. Velg handlingen **Ny**.
@@ -66,11 +66,11 @@ Du kan konfigurere utvidelsen manuelt eller ved å bruke en rapporteringsfil i d
 > [!NOTE]
 > [!INCLUDE[prod_long](includes/prod_long.md)] inneholder en forhåndskonfigurert datautvekslingsdefinisjon for **tjenesteerklæring** for alle lokaliserte land/områder. Finn ut mer om oppretting av en ny datautvekslingsdefinisjon i [Definer datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md).
 
-## <a name="other-related-configurations"></a>Andre relaterte konfigurasjoner
+## Andre relaterte konfigurasjoner
 
 Før du bruker tjenesteerklæringsutvidelsen, må du konfigurere noen felter for varer, ressurser og varegebyrer.
 
-### <a name="items"></a>Varer
+### Varer
 
 Konfigurer informasjon som er knyttet til tjenesteerklæringen, på varekortsider:
 
@@ -81,7 +81,7 @@ Konfigurer informasjon som er knyttet til tjenesteerklæringen, på varekortside
    2. I feltet **Kode for tjenestetransaksjonstype** angir du koden for en **tjenestetransaksjonstype**.
    3. Hvis du ikke vil inkludere denne servicevaren i tjenesteerklæringer, velger du feltet **Utelat fra tjenesteerklæring**.
 
-### <a name="resources"></a>Ressurser
+### Ressurser
 
 Konfigurer informasjon som er knyttet til tjenesteerklæringen, på ressurskortsider:
 
@@ -91,7 +91,7 @@ Konfigurer informasjon som er knyttet til tjenesteerklæringen, på ressurskorts
    1. I feltet **Kode for tjenestetransaksjonstype** angir du koden for en **tjenestetransaksjonstype**.
    2. Hvis du ikke vil inkludere denne ressursen i tjenesteerklæringer, velger du feltet **Utelat fra tjenesteerklæring**.
 
-### <a name="item-charges"></a>Varegebyrer
+### Varegebyrer
 
 Konfigurer informasjon som er knyttet til tjenesteerklæringen, for varegebyrer:
 
@@ -100,7 +100,7 @@ Konfigurer informasjon som er knyttet til tjenesteerklæringen, for varegebyrer:
 3. I feltet **Kode for tjenestetransaksjonstype** angir du koden for en **tjenestetransaksjonstype**.
 4. Hvis du ikke vil inkludere denne varegebyret i tjenesteerklæringer, velger du feltet **Utelat fra tjenesteerklæring**.
 
-## <a name="create-new-service-declaration"></a>Opprett ny tjenesteerklæring
+## Opprett ny tjenesteerklæring
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Tjenesteerklæringer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
@@ -111,7 +111,7 @@ Konfigurer informasjon som er knyttet til tjenesteerklæringen, for varegebyrer:
 
 Kjørselen henter alle poster fra gjeldende kjøps- og salgsdokumenter i perioden du har behov for, og legger dem til på tjenesteerklæringslinjene. Hold markøren over feltene i linjer for å lese en kort beskrivelse.
 
-## <a name="modify-a-service-declaration"></a>Endre en tjenesteerklæring
+## Endre en tjenesteerklæring
 
 Om nødvendig kan du endre linjene eller legge til nye.
 
@@ -120,11 +120,11 @@ Om nødvendig kan du endre linjene eller legge til nye.
 3. Basert på **dokumenttypen** fyller du ut feltet **Dokumentnr.**.
 4. Fyll ut feltene som gjenstår.
 
-## <a name="overview-the-service-declaration-lines"></a>Oversikt over tjenesteerklæringslinjene
+## Oversikt over tjenesteerklæringslinjene
 
 Når du har opprettet en tjenesteerklæring, bruker du handlingen **Oversikt** til å få en oversikt over tjenesteerklæringslinjene. Du kan gruppere og summere linjene på samme måte som den eksporterte filen. Du kan også åpne linjene i Excel.
 
-## <a name="report-service-declaration-in-a-file"></a>Rapporter tjenesteerklæring i en fil
+## Rapporter tjenesteerklæring i en fil
 
 Du kan sende tjenesteerklæringen som en fil basert på kravene til lokale myndigheter. Slik oppretter du en fil:
 
@@ -134,17 +134,17 @@ Du kan sende tjenesteerklæringen som en fil basert på kravene til lokale myndi
 4. Velg handlingen **Opprett fil**.
 5. Tjenesteerklæringsfilen lagres i påkrevd format.
 
-## <a name="other-considerations"></a>Andre hensyn
+## Andre hensyn
 
 Når du bruker utvidelsen **Tjenesteerklæring**, er det flere ting å tenke på. Det er for eksempel viktig at gruppene samsvarer med krav fra myndigheter. Det er også viktig at tjenestene er inkludert på riktig måte i salgs- og kjøpsdokumenter.
 
-### <a name="grouping-lines"></a>Grupperingslinjer
+### Grupperingslinjer
 
 På tjenesteerklæringslinjer finnes det ingen gruppering av noen felter. Alle poster kopieres fra det opprinnelige dokumentet som en kilde.
 
 Gruppering som kreves av myndighetene, vil bli oppgitt i den eksporterte filen. Du må konfigurere gruppene i **datautvekslingsdefinisjonen**, som kan konfigureres fullstendig. Finn ut mer under [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md).
 
-### <a name="using-services-in-document-lines"></a>Bruk av tjenester i dokumentlinjer
+### Bruk av tjenester i dokumentlinjer
 
 Når du oppretter en kjøps-, salgs- eller servicefaktura, finner du to felter som er knyttet til tjenesteerklæringer i linjene. Begge feltene fylles ut med standardverdiene fra vare-, ressurs- eller varegebyroppsettene.
 
@@ -155,7 +155,7 @@ Du kan endre verdiene i disse feltene, men hvis du velger feltet **Kan bruke tje
 
 Hvis du angir en verdi i feltet **Kode for tjenestetransaksjonstype**, men ikke velger feltet **Kan bruke tjenesteerklæring**, kan du bokføre dokumentet, men linjen blir ikke beregnet når du gjør det.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurer Intrastat-rapportering](finance-how-setup-report-intrastat.md)
 [Intrastat-rapportering i Business Central](finance-how-report-intrastat.md)  

@@ -6,16 +6,16 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.date: 09/20/2023
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: '5194,'
 ms.custom: bap-template
 ---
 
-# <a name="introduction-to-contoso-coffee-demo-data"></a>Innføring i demodata for Contoso Coffee
+# Innføring i demodata for Contoso Coffee
 
 Contoso Coffee er et fiktivt selskap som produserer forbrukerkaffemaskiner og kommersielle kaffemaskiner. **Contoso Coffee**-appene for [!INCLUDE [prod_short](../includes/prod_short.md)] legger til demonstrasjonsdata som du kan bruke til å lære hvordan du bruker funksjonene i [!INCLUDE [prod_short](../includes/prod_short.md)].  
 
-## <a name="set-up-contoso-coffee-data"></a>Konfigurer Contoso Coffee-data
+## Konfigurer Contoso Coffee-data
 
 [!INCLUDE [contoso-coffee-app-install](../includes/contoso-coffee-app-install.md)]
 
@@ -39,7 +39,7 @@ Tabellen nedenfor beskriver innstillingene:
 
 Når du har konfigurert modulene du vil prøve, velger du handlingen **Generer** for å opprette demonstrasjonsdata for dem.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Produksjon](../production-manage-manufacturing.md)  
 [Lagerstyring](../warehouse-manage-warehouse.md)  

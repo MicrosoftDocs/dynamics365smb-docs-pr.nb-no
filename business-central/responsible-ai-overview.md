@@ -8,9 +8,11 @@ ms.topic: article
 author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
+ms.collection:
+  - bap-ai-copilot
 ---
 
-# <a name="responsible-ai-faqs-for-dynamics-365-business-central"></a>Vanlige spørsmål om ansvarlig kunstig intelligens for Dynamics 365 Business Central
+# Vanlige spørsmål om ansvarlig kunstig intelligens for Dynamics 365 Business Central
 
 [!INCLUDE[responsible-ai-features-intro](includes/responsible-ai-intro.md)]
 

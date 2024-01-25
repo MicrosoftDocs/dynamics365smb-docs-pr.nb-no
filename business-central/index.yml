@@ -6,7 +6,7 @@ metadata:
   title: Dokumentasjon for Microsoft Dynamics 365 Business Central
   description: 'Business Central er en løsning for bedriftsadministrasjon for små og mellomstore organisasjoner. Salg, service, økonomi og operasjoner kobles sammen for å virke smartere, tilpasse raskere og yte bedre. Business Central automatiserer og effektiviserer forretningsprosesser og hjelper deg med å administrere virksomheten.'
   ms.topic: hub-page
-  ms.service: dynamics365-business-central
+  ms.service: dynamics-365-business-central
   author: jswymer
   ms.author: jswymer
   ms.date: 06/16/2023

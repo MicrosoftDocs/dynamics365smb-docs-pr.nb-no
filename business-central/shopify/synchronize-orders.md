@@ -3,18 +3,18 @@ title: Synkroniser og oppfyll salgsordrer
 description: Definer og kjør import og behandling av salgsordre fra Shopify.
 ms.date: 06/06/2023
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.search.form: '30110, 30111, 30112, 30113, 30114, 30115, 30121, 30122, 30123, 30128, 30129, 30150, 30151, 30145, 30147'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
 
-# <a name="synchronize-and-fulfill-sales-orders"></a>Synkroniser og oppfyll salgsordrer
+# Synkroniser og oppfyll salgsordrer
 
 Denne artikkelen beskriver de nødvendige innstillingene og trinnene du må fullføre for å synkronisere og oppfylle salgsordrer med Shopify i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
-## <a name="set-the-import-of-orders-on-the-shopify-shop-card"></a>Angi importen av ordrer på Shopify-butikkortet
+## Angi importen av ordrer på Shopify-butikkortet
 
 Angi en **valutakode** hvis nettbutikken bruker en annen valuta enn lokal valuta (LV). Den angitte valutaen må ha valutakurser konfigurert. Hvis nettbutikken bruker samme valuta som [!INCLUDE[prod_short](../includes/prod_short.md)], lar du feltet stå tomt. 
 
@@ -50,7 +50,7 @@ Angi en lokasjon for returer og finanskontoer for refusjoner for varer og andre 
 
 Finn ut mer under [Returer og refusjoner](synchronize-orders.md#returns-and-refunds)
 
-### <a name="shipment-method-mapping"></a>Tildeling av leveringsmåte
+### Tildeling av leveringsmåte
 
 **Kode for leveringsmåte** for salgsdokumenter som er importert fra Shopify, kan fylles ut automatisk. Du må konfigurere **Tildeling av leveringsmåte**.
 
@@ -63,7 +63,7 @@ Finn ut mer under [Returer og refusjoner](synchronize-orders.md#returns-and-refu
 > [!NOTE]  
 > Hvis det er knyttet flere leveringsgebyrer til en ordre, går du til salg, blir bare én valgt som leveringsmåten og tildelt salgsdokumentet.
 
-### <a name="location-mapping"></a>Lokasjonstildeling
+### Lokasjonstildeling
 
 Lokasjonstilordningen er nødvendig for å fylle ut **Lokasjonskoden** for salgsdokumentlinjene som importeres fra Shopify. Dette er viktig når veksleknappen **Lokasjon obligatorisk** er aktivert på kortet **Lageroppsett**, ellers kan du ikke opprette salgsdokumenter.
 
@@ -76,7 +76,7 @@ Lokasjonstilordningen er nødvendig for å fylle ut **Lokasjonskoden** for salgs
 > [!NOTE]  
 > Lokasjonstilordning er også brukt til å synkronisere lager. Hvis du vil ha mer informasjon, kan du se [Synkroniser lager til Shopify](synchronize-items.md#sync-inventory-to-shopify)
   
-## <a name="run-the-order-synchronization"></a>Kjør ordresynkroniseringen
+## Kjør ordresynkroniseringen
 
 Fremgangsmåten nedenfor beskriver hvordan du importerer og oppdaterer ordrer.
 
@@ -98,7 +98,7 @@ Du kan eventuelt søke etter den satsvise jobben **Synkroniser ordrer fra Shopif
 
 Du kan planlegge at oppgaven skal utføres automatisk. Finn ut mer under [Planlegg gjentakende oppgaver](background.md#to-schedule-recurring-tasks).
 
-### <a name="under-the-hood"></a>Under panseret
+### Under panseret
 
 Shopify-koblingen importerer ordrer i to trinn:
 
@@ -123,18 +123,18 @@ Siden **Shopify-ordre som skal importeres** er nyttig for feilsøking av ordreim
 * Behandle bare bestemte ordrer. Du må fylle ut feltet **Butikkode**, velge en eller flere ordrer og deretter velge handlingen **Importer valgte ordrer**.
 * Slett ordrer fra siden **Shopify-ordre som skal importeres** for å utelate dem fra synkroniseringen.
 
-## <a name="review-imported-orders"></a>Se gjennom importerte ordrer
+## Se gjennom importerte ordrer
 
 Når importen er fullført, kan du utforske Shopify-ordren og finne all relatert informasjon, for eksempel betalingstransaksjonene, leveringskostnadene, risikonivået, ordreattributtene og merkene eller oppfyllelsene, hvis ordren allerede var oppfylt i Shopify. Du kan også se eventuell ordrebekreftelse som er sendt til kunden, ved å velge handlingen **Shopify-statusside**.
 
 > [!NOTE]  
 > Du kan navigere til vinduet **Shopify-ordre**, og du ser ordrer med statusen *åpen* fra alle butikker. Hvis du vil se på fullførte ordrer, må du åpne siden **Shopify-ordrer** fra det bestemte vinduet **Shopify-butikkort**.
 
-## <a name="create-sales-documents-in-business-central"></a>Opprett salgsdokumenter i Business Central
+## Opprett salgsdokumenter i Business Central
 
 Hvis veksleknappen **Opprett ordrer automatisk** er aktivert på **Shopify-butikkortet**, prøver [!INCLUDE[prod_short](../includes/prod_short.md)] å opprette et salgsdokument etter at ordren er importert. Hvis problemer som manglede kunde eller produkt oppstår, må du løse problemene og opprette salgsordren på nytt.
 
-### <a name="to-create-sales-documents"></a>Slik oppretter du salgsdokumenter
+### Slik oppretter du salgsdokumenter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Shopify-butikker** og velger den relaterte koblingen.
 2. Velg butikken du vil synkronisere ordrer med for å åpne siden **Shopify-butikkort**.
@@ -146,7 +146,7 @@ Hvis Shopify-ordren krever oppfyllelse, opprettes en **ordre**. For oppfylte Sho
 
 Et salgsdokument er nå opprettet og kan håndteres ved hjelp av standard [!INCLUDE[prod_short](../includes/prod_short.md)]-funksjoner.
 
-### <a name="manage-missing-customers"></a>Administrer manglende kunder
+### Administrer manglende kunder
 
 Hvis innstillingene forhindrer at du oppretter en kunde automatisk og det ikke finnes en riktig eksisterende kunde, må du angi at en kunde til Shopify-ordren manuelt. Det er noen få måter å gjøre dette på:
 
@@ -154,7 +154,7 @@ Hvis innstillingene forhindrer at du oppretter en kunde automatisk og det ikke f
 * Du kan velge en kundemalkode, opprette og tildele kunden via handlingen **Opprett ny kunde** på siden **Shopify-ordrer**. Legg merke til at Shopify-kunden må ha minst én adresse. Ordrer som er opprettet via Shopify-salgsstedssalgskanalen, mangler ofte adresseopplysninger.
 * Du kan tildele en eksisterende kunde til den tilknyttede **Shopify-kunden** i vinduet **Shopify-kunder** og deretter velge handlingen **Søk etter tildeling** på siden **Shopify-ordrer**.
 
-### <a name="how-the-connector-chooses-which-customer-to-use"></a>Slik velger koblingen hvilken kunde som skal brukes
+### Slik velger koblingen hvilken kunde som skal brukes
 
 *Import ordre fra Shopify*-funksjonen prøver å velge kunder i følgende rekkefølge:
 
@@ -170,7 +170,7 @@ Neste trinn avhenger av **Kundetildelingstype**.
 > [!NOTE]  
 > Koblingen bruker opplysninger fra faktura til-adresse og oppretter faktura til-kunde i [!INCLUDE[prod_short](../includes/prod_short.md)]. Salg til-kunden er den samme som faktura til-kunden.
 
-### <a name="different-processing-rules-for-orders"></a>Ulike behandlingsregler for ordrer
+### Ulike behandlingsregler for ordrer
 
 Du vil kanskje behandle ordrer annerledes basert på en regel. Det kan for eksempel være at ordrer fra en bestemt salgskanal, for eksempel salgssted, bruker standardkunden, men du vil at nettbutikken skal ha ekte informasjon om kunden.
 
@@ -192,7 +192,7 @@ Hver prosjektkø importerer og behandler ordrer i de definerte filtrene og bruke
 >[!Important]
 > Hvis du vil unngå konflikter under behandling av ordrer, må du huske å bruke samme prosjektkøkategori for begge prosjektkøoppføringene.
 
-### <a name="impact-of-order-editing"></a>Virkningen av ordreredigering
+### Virkningen av ordreredigering
 
 I Shopify:
 
@@ -218,7 +218,7 @@ I [!INCLUDE[prod_short](../includes/prod_short.md)]:
 |Øk antall. Bokfør levering. | Oppfyllelsen synkroniseres ikke med Shopify. |
 |Legg til en ny vare. Bokfør levering. | Shopify-ordren blir merket som fullført. Linjene blir ikke oppdatert. |
 
-## <a name="synchronize-shipments-to-shopify"></a>Synkroniser leveringer til Shopify
+## Synkroniser leveringer til Shopify
 
 Når en ordre som opprettes fra en Shopify-ordre, leveres, kan du synkronisere leveringene med Shopify.
 
@@ -237,7 +237,7 @@ Du kan planlegge at oppgaven skal utføres på en automatisk måte. Finn ut mer 
 
 Husk å kjøre **Synkroniser ordrer fra Shopify** for å oppdatere oppfyllingsstatusen for en ordre i [!INCLUDE[prod_short](../includes/prod_short.md)]. Koblingsfunksjonen arkiverer også fullstendig betalte og oppfylte ordrer i både Shopify og [!INCLUDE[prod_short](../includes/prod_short.md)] gitt at betingelsene er oppfylt. 
 
-### <a name="shipping-agents-and-tracking-url"></a>Transportører og sporingsnettadresse
+### Transportører og sporingsnettadresse
 
 Hvis dokumentet **Bokført følgeseddel** inneholder **Transportørkode** eller **Pakkesporingsnummer**, blir denne informasjonen sendt til Shopify og til kunden i e-posten for leveringsbekreftelse.
 
@@ -249,7 +249,7 @@ Sporingsfirmaet fylles ut i følgende rekkefølge (fra høyest til lavest) baser
 
 Hvis feltet for **pakkesporingsnettadresse** fylles ut for transportørposten, inneholder leveringsbekreftelse også en sporingsnettadresse.
 
-## <a name="returns-and-refunds"></a>Returer og refusjoner
+## Returer og refusjoner
 
 I en integrering mellom Shopify og [!INCLUDE[prod_short](../includes/prod_short.md)] er det viktig å kunne synkronisere så mye forretningsdata som mulig. Det gjør det enklere å holde finans- og lagernivåene oppdatert i [!INCLUDE[prod_short](../includes/prod_short.md)]. Dataene du kan synkronisere, omfatter returer og refusjoner som ble registrert i Shopify-administrator eller Shopify-salgssted.
 
@@ -270,7 +270,7 @@ Du kan opprette salgskreditnotaer for refusjoner. Kreditnotaene kan ha følgende
 >[!Note]
 >Returlokasjonen, inkludert tomme lokasjoner, som er definert i **Shopify-butikkortet**, brukes på den opprettede kreditnotaen. Systemet ignorerer de opprinnelige lokasjonene fra ordrer eller forsendelser.
 
-## <a name="gift-cards"></a>Gavekort
+## Gavekort
 
 I Shopify-butikken kan du selge gavekort, som kan brukes til å betale for virkelige produkter.
 
@@ -278,6 +278,6 @@ Når du håndterer gavekort, er det viktig å angi en verdi i feltet **Solgt gav
 
 Hvis du vil gå gjennom utstedte og brukte gavekort, velger du ![Lyspære som åpner funksjonen Fortell meg.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Gavekort**, og velg deretter den relaterte koblingen.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Kom i gang med koblingen for Shopify](get-started.md)  

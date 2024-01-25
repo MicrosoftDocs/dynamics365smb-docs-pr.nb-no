@@ -4,13 +4,13 @@ description: Lær om å flytte varer mellom hyller i lageret.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: Conceptual
 ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.form: '7315, 7349, 7351, 7382, 7384, 7386, 7387, 7399, 7400, 9314, 9330, 9345'
 ---
-# <a name="moving-items"></a>Flytte varer
+# Flytte varer
 
 Du kan flytte varer i lageret på ulike måter, avhengig av hvordan du har konfigurert lageret. Kompleksiteten kan variere:
 
@@ -36,7 +36,7 @@ Telling, justering og reklassifisering av varene kan omfatte lagerppgaver som m�
 |Bruk lagerflytteforslaget, intern plukking og plassering til å flytte varer i avanserte lageroppsett med lagerstyring.|[Flytte varer i avanserte lageroppsett](warehouse-how-to-move-items-in-advanced-warehousing.md)|  
 |Omstrukturer lageret med nye hyllekoder og nye hylleegenskaper og flytt dem eventuelt rundt.|[Omstrukturer lagre](warehouse-how-to-restructure-warehouses.md)|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)  
 [Lager](inventory-manage-inventory.md)  

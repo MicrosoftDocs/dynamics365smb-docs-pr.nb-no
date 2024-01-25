@@ -4,12 +4,12 @@ description: I europeiske markeder kan du importere bankkontoutdragsfiler i de r
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 01/06/2023
 ms.custom: bap-template
 ---
-# <a name="field-mapping-when-importing-sepa-camt-files"></a>Felttilordning ved import av SEPA CAMT-filer
+# Felttilordning ved import av SEPA CAMT-filer
 
 [!INCLUDE[prod_short](includes/prod_short.md)] støtter de regionale SEPA-standardene (Single Euro Payments Area) for import av SEPA-bankkontoutdrag (CAMT-format). Hvis du vil ha mer informasjon, kan du se [Bruk AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md).  
 
@@ -17,7 +17,7 @@ ms.custom: bap-template
 
  Hvis du vil ha informasjon om oppretting eller justering av en datautvekslingsdefinisjon, kan du se [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md).  
 
-## <a name="camt-data-mapping-to-fields-in-the-general-journal-table-81"></a>Tilordning av CAMT-data til felt i tabellen Finanskladd (81)
+## Tilordning av CAMT-data til felt i tabellen Finanskladd (81)  
 
 |Elementbane|Meldingselement|Datatype|Beskrivelse|Identifikator for minustegn|Feltnr.|Feltnavn|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -29,14 +29,14 @@ ms.custom: bap-template
 |Stmt/Ntry/NtryDtls/TxDtls/RmtInf/Ustrd|Ustrukturert|Tekst|Informasjon for å aktivere tilsvarende/avstemming av en post med varene som betalingen skal utlignes mot, for eksempel kommersielle fakturaer i et kundefordringsystem i et ustrukturert skjema||8|Beskrivelse|  
 |Stmt/Ntry/AddtlNtryInf|AdditionalEntryInformation|Tekst|Mer informasjon om posten||1222|Transaksjonsinformasjon|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-table-273"></a>Tilordning av CAMT-data til felt i tabellen Bankkontoavstemming (273)
+## Tilordning av CAMT-data til felt i tabellen Bankkontoavstemming (273)  
 
 |Elementbane|Meldingselement|Datatype|Beskrivelse|Identifikator for minustegn|Feltnr.|Feltnavn|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
 |Stmt/CreDtTm|CreationDateTime|Dato|Datoen og klokkeslettet da meldingen ble opprettet.||3|Utdragsdato|  
 |Stmt/Bal/Amt|Beløp|Desimaltall|Beløpet som er resultat av de innbrakte beløpene for alle debet- og kreditposter||4|Utdrag - sluttsaldo|  
 
-## <a name="camt-data-mapping-to-fields-in-the-bank-acc-reconciliation-line-table-274"></a>Tilordning av CAMT-data til felt i tabellen Bankkontoavstemmingslinje (274)
+## Tilordning av CAMT-data til felt i tabellen Bankkontoavstemmingslinje (274)  
 
 |Elementbane|Meldingselement|Datatype|Beskrivelse|Identifikator for minustegn|Feltnr.|Feltnavn|  
 |------------------|---------------------|---------------|-----------------|-------------------------------|---------------|----------------|  
@@ -55,7 +55,7 @@ ms.custom: bap-template
 > [!IMPORTANT]
 > I en import av CAMT-bankkontoutdrag forventer [!INCLUDE[prod_short](includes/prod_short.md)] at hver transaksjon er unik, noe som betyr at feltet **Transaksjons-ID** som kommer fra *Stmt/Ntry/NtryDtls/TxDtls/Refs/EndToEndId*-koden i CAMT-filen, må være unik innenfor den åpne bankkontoavstemmingen. Hvis informasjonen ikke vises, ignorerer [!INCLUDE[prod_short](includes/prod_short.md)] betalingen. Hvis en tidligere bankavstemming på den samme bankkontoen ble bokført med den samme transaksjons-ID-en som i gjeldende import, avstemmes ikke gjeldende transaksjon automatisk, men den kan fortsatt importeres.
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Definere datautveksling](across-set-up-data-exchange.md)  
 [Utveksle data elektronisk](across-data-exchange.md)  

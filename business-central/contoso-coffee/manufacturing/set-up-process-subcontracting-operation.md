@@ -3,22 +3,22 @@ title: Definer og behandle en underleveranseoperasjon
 description: Gjennomgang for å lære hvordan du oppretter og behandler en underleveranseoperasjon i Business Central.
 ms.date: 04/01/2022
 ms.topic: article
-ms.service: dynamics365-business-central
+ms.service: dynamics-365-business-central
 author: brentholtorf
 ms.author: bholtorf
 ---
 
-# <a name="set-up-and-process-a-subcontracting-operation"></a>Definer og behandle en underleveranseoperasjon
+# Definer og behandle en underleveranseoperasjon
 
 I denne artikkelen tar vi deg gjennom trinnene for å bruke Contoso Coffee-demodataene i underleveranse.
 
-## <a name="scenario"></a>Scenario
+## Scenario
 
 Du er produksjonsplanleggeren hos Contoso Coffee. På grunn av kapasitetsbegrensninger planlegger du å bruke en underleverandør til å produsere varen **SP-SCM1009, Airpot**.
 
 Her oppretter du en ny frigitt produksjonsordre for tolv enheter av vare SP-SCM1009, Airpot, ved hjelp av Rute - SP-SCM1009-SUB-2. Bruk underleveranseforslaget til å generere en bestilling for produksjonen, og deretter full fører du operasjonen ved å motta og fakturere bestillingen.
 
-## <a name="steps"></a>Trinn
+## Trinn
 
 1. Opprett en ny frigitt produksjonsordre for tolv enheter av varen SP-SCM1009, Airpot.
 
@@ -73,6 +73,6 @@ Her oppretter du en ny frigitt produksjonsordre for tolv enheter av vare SP-SCM1
 
 Avgangen til vare SP-SCM1009 Airpot er nå registrert.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Innføring i demodata for Contoso Coffee](../contoso-coffee-intro.md)  
