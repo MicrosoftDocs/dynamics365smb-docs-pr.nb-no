@@ -12,7 +12,7 @@ ms.date: 07/27/2023
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Definere timelister
+# <a name="set-up-time-sheets"></a>Definere timelister
 
 Timelister i [!INCLUDE[prod_short](includes/prod_short.md)] håndterer tidsregistrering i ukentlige intervaller på sju dager. Du kan bruke dem til å spore tiden som brukes på prosjekter, og du kan bruke dem til å registrere enkel registrering av ressurstid. Før du kan bruke timelister, må du angi hvilke brukere som skal sende timelister, og hvordan du vil konfigurere timelister.  
 
@@ -26,7 +26,7 @@ Du kan eventuelt angi om, og hvordan, timelister skal godkjennes. Avhengig av be
 
 Når du har definert timelister, kan du opprette timelister for ressurser, og ressursene kan bokføre timelistelinjer. Alternativt kan du tilordne timelister til prosjektplanleggingslinjer. Hvis du vil ha mer informasjon, kan du gå til [Bruke timelister](projects-how-use-time-sheets.md).  
 
-## Definer timelister med den assisterte oppsettveiledningen
+## <a name="set-up-time-sheets-with-the-assisted-setup-guide"></a>Definer timelister med den assisterte oppsettveiledningen
 
 En assisterte oppsettveiledningen hjelper deg med å opprette timelister.  
 
@@ -55,11 +55,11 @@ På slutten av oppsettveiledningen kan du velge å la [!INCLUDE [prod_short](inc
 > [!IMPORTANT]
 > Hvis du bruker lanseringsbølge 1 (v22) for 2023 eller senere, må du manuelt aktivere alternativet **Bruk ny timelistefunksjon** for å sikre at du kan administrere timelister på mobile enheter, som beskrevet i neste fremgangsmåte.
 
-## Definer timelister manuelt
+## <a name="set-up-time-sheets-manually"></a>Definer timelister manuelt
 
 Følgende deler beskriver hvordan du definerer timelister hvis du ikke bruker den assisterte oppsettveiledningen **Definer timelister**.  
 
-### Slik definerer du generell informasjon for timelister manuelt
+### <a name="to-set-up-general-information-for-time-sheets-manually"></a>Slik definerer du generell informasjon for timelister manuelt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ressursoppsett** og velg den relaterte koblingen.  
 1. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -74,7 +74,7 @@ Følgende deler beskriver hvordan du definerer timelister hvis du ikke bruker de
 | **Alltid** |Brukeren i feltet **Ansvarlig person** på prosjektkortet godkjenner timelisten. |
 | **Bare maskin** |Hvis timelisten for maskin er knyttet til et prosjekt, godkjenner brukeren i feltet **Ansvarlig person** på prosjektkortet, timelisten. Hvis timelisten for maskin er knyttet til en ressurs, godkjenner brukeren i feltet **Bruker-ID for godkjenner av timeliste:** på ressurskortet, timelisten. |
 
-### Slik tilordner du en timelisteadministrator manuelt
+### <a name="to-assign-a-time-sheet-administrator-manually"></a>Slik tilordner du en timelisteadministrator manuelt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukeroppsett** og velg den relaterte koblingen.  
 3. Velg brukeren som skal være timelisteadministrator, og merk deretter av for **Administrasjon av timeliste**.  
@@ -82,7 +82,7 @@ Følgende deler beskriver hvordan du definerer timelister hvis du ikke bruker de
 > [!TIP]  
 > Det anbefales at du velger bare én bruker som administrator for timelisten i et selskap. I den følgende fremgangsmåten setter du opp en timelisteeier og -godkjenner, der godkjenneren av timelisten er tilordnet for hver ressurs.  
 
-### Slik tilordner du en timelisteeier og -godkjenner manuelt
+### <a name="to-assign-a-time-sheets-owner-and-approver-manually"></a>Slik tilordner du en timelisteeier og -godkjenner manuelt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ressurser** og velg den relaterte koblingen.
 2. Merk ressursen du vil definere muligheten til å bruke timelister for, og merk deretter av for **Bruk timeliste**.  
@@ -92,7 +92,7 @@ Følgende deler beskriver hvordan du definerer timelister hvis du ikke bruker de
 > [!NOTE]  
 > Du kan ikke endre IDen for godkjenneren av timelisten hvis det finnes timelister som ennå ikke er behandlet og som har statusen **Sendt** eller **Åpen**.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Bruke timelister for prosjekter](projects-how-use-time-sheets.md)  
 [Slik oppretter du timelister](projects-how-use-time-sheets.md#to-create-time-sheets)  
