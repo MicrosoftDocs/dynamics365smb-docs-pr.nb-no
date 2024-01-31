@@ -10,8 +10,9 @@ ms.search.keywords: 'payment process, reconcile payment, expenses, cash receipts
 ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="review-and-apply-payments-manually-after-automatic-application"></a>Se gjennom og utligne betalinger manuelt etter automatisk utligning
+# Se gjennom og utligne betalinger manuelt etter automatisk utligning
 For hver kladdelinje som representerer en betaling på siden **Betalingsavstemmingskladd**, kan du åpne siden **Betalingsutligning** hvis du vil vise alle åpne kandidatposter for betalingen og detaljert informasjon for hver post om datasamsvaret som en betalingsutligning er basert på. Her kan du manuelt utligne betalinger som ble utlignet automatisk mot feil oppføring, eller utligne betalinger på nytt. Hvis du vil ha mer informasjon om automatisk utligning, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
 
 > [!IMPORTANT]  
@@ -30,7 +31,7 @@ Eventuell justering av tap og vinning på grunn av valutaomregning behandles ikk
 > [!NOTE]  
 >   Du kan bare utligne en betaling mot én konto. Hvis du vil dele utligningen på flere åpne poster, for eksempel for å utligne en engangsbetaling, må de åpne postene være for samme konto. Hvis du vil ha mer informasjon, kan du se trinn 7 og 8 i fremgangsmåten i dette emnet.
 
-## <a name="to-review-or-apply-payments-after-automatic-application"></a>Se gjennom eller utligne betalinger etter automatisk utligning
+## Se gjennom eller utligne betalinger etter automatisk utligning
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Betalingsavstemmingskladder** og velg den relaterte koblingen.
 2. Åpne kladden for betalingsavstemming for en bankkonto du vil avstemme betalinger for. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
 3. På siden **Betalingsavstemmingskladd** velger du en betalingsmåte som du vil se gjennom eller utligne manuelt mot én eller flere åpne poster, og deretter velger du handlingen **Utlign manuelt**.
@@ -43,7 +44,7 @@ Eventuell justering av tap og vinning på grunn av valutaomregning behandles ikk
 
 Siden **Betalingsutligning** lukkes, og på siden **Betalingsavstemmingskladd** endres verdien i **Konfidensintervall**-feltet til **Godtatt** for å vise at du har gjennomgått eller manuelt utlignet betalingen.
 
-## <a name="see-also"></a>Se også
+## Se også
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

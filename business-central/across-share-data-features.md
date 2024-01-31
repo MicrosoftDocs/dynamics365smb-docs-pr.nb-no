@@ -3,18 +3,18 @@ title: Del data
 description: Lær om ulike måter å dele forretningsdata på fra Business Central.
 author: jswymer
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: null
 ms.date: 09/21/2022
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="sharing-business-data-from-business-central"></a>Del forretningsdata fra Business Central
+# Del forretningsdata fra Business Central
 
 Samarbeid mellom personer i og utenfor en organisasjon er vesentlig del av de fleste bedrifter. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder flere funksjoner for deling av forretningsdata, for eksempel lister over poster, bestemte poster eller dokumenter. <!--, with others&mdash;even those people who don't have a Business Central license in some cases.-->
 
 Med alle disse funksjonene er tilgang til data beskyttet av lisensen og tillatelsene for Business Central.
 
-## <a name="copying-a-link"></a>Kopier en kobling
+## Kopier en kobling
 
 ![Støttes](media/check.png) Business Central Online ![Støttes](media/check.png) Business Central On-premises
 
@@ -33,22 +33,22 @@ Når du limer inn URL-adressen i et redigeringsprogram for rik tekst, for eksemp
 > [!TIP]
 > En lignende navnekonvensjon brukes på nettleserfaner.
 
-### <a name="share-data-analysis"></a>Dele dataanalyse
+### Dele dataanalyse
 Hvis du viser en side eller spørring i dataanalysemodus, kan du dele en bestemt analysefane ved å velge pil ned på fanen og deretter velge **Kopier kobling**. [Finn ut mer om dataanalysemodus](analysis-mode.md). 
 
-### <a name="modify-the-page-link"></a>Endre sidekoblingen
+### Endre sidekoblingen
 
 Når du har kopiert en kobling før du sender den, kan du endre nettadressen for å manipulere hva som vises når siden åpnes. Du kan for eksempel legge til filtre eller angi et annet selskap.
 
 [Finn ut mer om webklient-URL](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls).
 
-### <a name="about-filtered-lists"></a>Om filtrerte lister
+### Om filtrerte lister
 
 Ved hjelp av filtreringsruten på listesider kan du bruke filtre til å begrense antallet poster som vises i listen. Hvis du bruker **Kopier kobling**-handlingen eller kopierer nettadressen fra nettleseren, vil ikke sidekoblingen inneholde filterendringene. Brukere som åpner koblingen, vil se hele samlingen. Måten du beholder filtreringen på en samlingssidekobling på, er å lagre den filtrerte siden som en **visning** først. Deretter åpner du visningen og kopierer koblingen derfra.
 
 [Lær mer om sortering, søking og filtrering](ui-enter-criteria-filters.md).
 
-## <a name="sharing-to-teams"></a>Deling til Teams
+## Deling til Teams
 
 ![Støttes](media/check.png) Business Central Online ![Støttes ikke](media/x-icon.png) Business Central On-premises
 
@@ -56,7 +56,7 @@ Direkte fra de fleste samlingssider og detaljsider kan du sende en kobling til s
 
 [Lær mer om deling av oppføringer og sidekoblinger i Teams](across-working-with-teams.md).
 
-## <a name="sharing-through-onedrive"></a>Deling gjennom OneDrive
+## Deling gjennom OneDrive
 
 ![Støttes](media/check.png) Business Central Online ![Støttes](media/check.png) Business Central On-premises
 
@@ -64,7 +64,7 @@ Business Central gjør det enkelt å lagre, behandle og dele filer med andre per
 
 [Finn ut mer om deling av filer i OneDrive](across-share-onedrive.md).
 
-## <a name="opening-in-excel"></a>Åpne i Excel
+## Åpne i Excel
 
 ![Støttes](media/check.png) Business Central Online ![Støttes](media/check.png) Business Central On-premises
 
@@ -72,7 +72,7 @@ For listesider og lister som er innebygd på en side, kan du bruke handlingen **
 
 [Lær mer om visning og redigering i Excel](across-work-with-excel.md).
 
-## <a name="sharing-rows-or-tables"></a>Del rader eller tabeller
+## Del rader eller tabeller
 
 ![Støttes](media/check.png) Business Central Online ![Støttes](media/check.png) Business Central On-premises
 
@@ -80,7 +80,7 @@ Du kan dele en eller flere poster i en liste. Velg på <kbd>Ctrl</kbd>+<kbd>C</k
 
 [Finn ut mer om kopiering og innliming i Vanlige spørsmål.](faq-copy-paste.yml)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Business Central og OneDrive-integrering](across-onedrive-overview.md)  
 [Administrere OneDrive-integrering med Business Central](admin-onedrive-integration.md)  

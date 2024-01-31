@@ -8,15 +8,16 @@ ms.topic: conceptual
 ms.date: 01/30/2023
 ms.custom: bap-template
 ms.search.form: 630
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="the-data-archive-extension"></a>Dataarkiv-utvidelsen
+# Dataarkiv-utvidelsen
 
 Over tid vil bedriften samle en vesentlig mengde data, og som administrator kan det være lurt å ha en strategi for arkivering av data. Hvis du har store mengder data, kan du redusere hastigheten, for eksempel at det tar litt lengre tid å generere rapporter, eller til og med låse poster. I tillegg kan store mengder data føre til økte lagringskostnader.
 
 Dataarkiv-utvidelsen inneholder et grunnleggende rammeverk for arkivering og sikkerhetskopiering av data som en del av datokomprimeringen. Datokomprimering konsoliderer relaterte poster til én post og sletter originalene. Finn ut mer under [Komprimer data med datokomprimering](admin-manage-documents.md#compress-data-with-date-compression). Det kan imidlertid være verdi i å beholde dataene, så i stedet for å slette dem, kan du arkivere dem til senere bruk.
 
-## <a name="start-archiving-data"></a>Start arkivering av data
+## Start arkivering av data
 
 Utvidelsen er forhåndsinstallert og tilgjengelig i **Utvidelsesbehandling**, slik at du ikke trenger å gjøre noe for å komme i gang. Utvidelsen er også tilgjengelig på AppSource.
 
@@ -50,10 +51,10 @@ Dataarkiv-utvidelsen brukes av følgende kjørsler for datokomprimering.
 
 Hvis du vil starte dataarkivering når du kjører en av kjørslene, kan du aktivere **Arkiver slettede poster**.
 
-## <a name="storage-considerations"></a>Lagringshensyn
+## Lagringshensyn
 
 De arkiverte dataene lagres i tabellen for **Leietakermedier**. Vi anbefaler at du eksporterer gamle arkiver til for eksempel en CSV-fil og deretter sletter gamle arkivposter.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Behandle lagring ved å slette dokumenter eller komprimere data](admin-manage-documents.md)

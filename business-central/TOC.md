@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 
 # [Business Central-dokumentasjon](index.yml)
 # [Velkommen til Business Central](welcome.md)
@@ -286,6 +289,7 @@
 ## Finans
 ### [Oversikt over finans](finance.md)
 ### [Finansrapporter](finance-reports.md)
+
 ### Administrer fordringer
 #### [Oversikt over fordringer](receivables-manage-receivables.md)
 #### [Rapporter og analyse av utestående fordringer](receivables-reports.md)
@@ -298,6 +302,7 @@
 ##### [Definer regler for automatisk utligning av betalinger](receivables-how-set-up-payment-application-rules.md)
 #### [Avstem kundebetalinger fra en liste over ubetalte salgsdokumenter](receivables-how-reconcile-customer-payments-list-unpaid-sales-documents.md)
 #### [Avstem kundebetalinger med innbetalingskladden eller fra kundeposter](receivables-how-apply-sales-transactions-manually.md)
+#### [Konsolider saldoer for et selskap som er en kunde og en leverandør](finance-consolidate-customer-vendor-balances.md)
 #### [Innkrev utestående saldoer](receivables-collect-outstanding-balances.md)
 #### [Innkrev betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Send purringer om utestående saldoer](receivables-send-reminders.md)
@@ -326,34 +331,13 @@
 ##### [Avstem betalinger som ikke kan utlignes automatisk](receivables-how-reconcile-payments-cannot-apply-auto.md)
 ##### [Tildel tekst på gjentakende betalinger til kontoer for automatisk avstemming](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md)
 #### [Avstem leverandørbetalinger med utbetalingskladd eller fra leverandørposter](payables-how-apply-purchase-transactions-manually.md)
+#### [Konsolider saldoer for et selskap som er en kunde og en leverandør](finance-consolidate-customer-vendor-balances.md)
 #### [Innkrev utestående saldoer](receivables-collect-outstanding-balances.md)
 #### [Innkrev betalinger med SEPA Direct Debit](finance-collect-payments-with-sepa-direct-debit.md)
 #### [Blokker leverandører](payables-how-block-vendors.md)
 #### [Bruk varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md)
 #### [Arbeid med betalingstoleranser og toleransegrenser for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Utvidelsen Prognose for forsinket betaling](ui-extensions-late-payment-prediction.md)
-
-### Administrer e-dokumenter
-#### [Oversikt over e-dokumenter](finance-edocuments-overview.md)
-#### [Konfigurer e-dokumenter](finance-how-setup-edocuments.md)
-#### [Bruk e-dokumenter ved salg og kjøp](finance-how-use-edocuments.md)
-#### [Angi koblingen E-dokumenter med eksterne endepunkter](finance-how-setup-edocuments-external.md)
-#### [Utvid funksjonaliteten for e-dokumenter](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
-
-### Behandle mva.
-#### [Oversikt over mva-behandling](finance-manage-vat.md)
-#### [Tredjeparts kjøpstransaksjoner for EU](finance-how-to-eu3party-trade-purchase.md)
-#### Konfigurer mva.
-##### [Konfigurer merverdiavgift](finance-setup-vat.md)
-##### [Oppsett for bokføringsgruppe](finance-posting-groups.md#tax-posting-groups)
-##### [Konfigurer ikke-fradragsberettiget mva.](finance-setup-nondeductible-vat.md)
-##### [Konfigurer urealisert merverdiavgift](finance-setup-unrealized-vat.md)
-##### [Konfigurer en mva-oppgave](finance-how-setup-vat-statement.md)
-#### [Arbeid med mva. på kjøp og salg](finance-work-with-vat.md)
-#### [Bruk ikke-fradragsberettiget mva.](finance-how-use-non-deductible-vat.md)
-#### [Send mva-rapporter til skattemyndighetene](finance-how-report-vat.md)
-#### [Administrer endringer i mva-satser](finance-how-use-vat-rate-change-tool.md)
-#### [Valider organisasjonsnumre](finance-how-validate-vat-registration-number.md)
 
 ### Fakturer forskuddsbetalinger
 #### [Oversikt over forskuddsbetalinger](finance-invoice-prepayments.md)
@@ -366,13 +350,8 @@
 #### [Avstem bankkontoer](bank-how-reconcile-bank-accounts-separately.md)
 #### [Avstem bankkontoer med Copilot (forhåndsversjon)](bank-reconciliation-with-copilot.md)
 #### [Utlign betalinger automatisk og avstem bankkontoer](receivables-apply-payments-auto-reconcile-bank-accounts.md)
-
-### Administrer konserninterne transaksjoner
-#### [Oversikt over konsernintern](intercompany-manage.md)
-#### [Konfigurer konsernintern](intercompany-how-setup.md)
-#### [Arbeid med konserninterne dokumenter og kladder](intercompany-how-work-documents-journals.md)
-#### [Administrer den konserninterne innboksen og utboksen](intercompany-how-manage-intercompany-inbox.md)
-#### [Tildel kostnader til konserninterne partnere](intercompany-allocate-costs.md)
+#### [Overfør bankkapital](bank-how-transfer-bank-funds.md)
+#### [Opprett bankinnbetalinger](bank-create-bank-deposits.md)
 
 ### Gjør rede for kostnader
 #### [Oversikt over kostregnskap](finance-manage-cost-accounting.md)
@@ -408,6 +387,8 @@
 ### Administrer kontantstrøm
 #### [Oversikt over kontantstrøm](finance-cash-flow-overview.md)
 #### [Analyser kontantstrømmer i selskapet](finance-analyze-cash-flow.md)
+#### [Gjennomgang: Bruk finansrapporter til å lage kontantstrømprognoser](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+
 
 ### Lukk år og perioder
 #### [Oversikt over årsavslutning](year-close-years-periods.md)
@@ -424,38 +405,63 @@
 #### [Lukk resultatregnskapskontoer](year-close-income-statement.md)
 #### [Bokfør avslutningsposten for årsslutt](year-how-post-year-end-close-entry.md)
 
-### Konsolider finansdata fra flere selskaper
-#### [Selskapskonsolidering](finance-consolidated-company-reporting.md)
-#### [Konfigurer selskapskonsolidering](finance-consolidated-company-reporting-setup.md)
-
 ### Arbeid med kontoplanen og finans
 #### [Forstå finans og kontoplanen](finance-general-ledger.md)
 #### [Gå gjennom kontoer](finance-review-accounts.md)
+#### [Bokfør transaksjoner direkte i finans](finance-how-post-transactions-directly.md)
+#### [Tilbakefør kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)
+#### [Registrer og refunder ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)
+#### [Opprett finansbudsjetter](finance-how-create-budgets.md)
+#### [Revisjonsfileksport](finance-how-to-export-audit-files.md)
+#### [Periodiser inntekter og utgifter](finance-how-defer-revenue-expenses.md)
+#### [Tildel gjentakende kostnader og inntekter](year-allocate-costs-income.md)
+#### [Fordel inntekter og kostnader på flere finanskontoer](finance-allocate-revenue-costs.md)
 
-### [Konsolider saldoer for et selskap som er en kunde og en leverandør](finance-consolidate-customer-vendor-balances.md)
-### [Arbeid med dimensjoner](finance-dimensions.md)
-### [Feilsøk og korriger dimensjoner](finance-troubleshooting-correcting-dimensions.md)
-### [Valutaer i Business Central](finance-currencies.md)
-### [Opprett finansbudsjetter](finance-how-create-budgets.md)
-### [Bokfør transaksjoner direkte i finans](finance-how-post-transactions-directly.md)
-### [Tilbakefør kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)
-### [Revisjonsfileksport](finance-how-to-export-audit-files.md)
-### [Registrer og refunder ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)
-### [Periodiser inntekter og utgifter](finance-how-defer-revenue-expenses.md)
-### [Tildel gjentakende kostnader og inntekter](year-allocate-costs-income.md)
-### [Fordel inntekter og kostnader på flere finanskontoer](finance-allocate-revenue-costs.md)
-### [Oppdater valutakurser](finance-how-update-currencies.md)
-### [Importer lønnstransaksjoner](finance-how-import-payroll-transactions.md)
-### [Arbeid med mva. på kjøp og salg](finance-work-with-vat.md)
-### [Rapporter mva. til skattemyndighetene](finance-how-report-vat.md)
-### [Konverter servicekontrakter som inkluderer mva-beløp](service-how-to-convert-service-contracts.md)
-### [Administrer endringer i mva-satser](finance-how-use-vat-rate-change-tool.md)
-### [Gjennomgang: Bruk finansrapporter til å lage kontantstrømprognoser](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-### [Analyser årsregnskaper i Excel](finance-analyze-excel.md)
-### [Overfør bankkapital](bank-how-transfer-bank-funds.md)
-### [Opprett bankinnbetalinger](bank-create-bank-deposits.md)
-### [Regnskapsføreropplevelser i Business Central](finance-accounting.md)
+### Arbeid med dimensjoner
+#### [Oversikt over dimensjoner](finance-dimensions.md)
+#### [Feilsøk og korriger dimensjoner](finance-troubleshooting-correcting-dimensions.md)
+#### [Importer lønnstransaksjoner](finance-how-import-payroll-transactions.md)
+
+### Arbeid med valutaer
+#### [Valutaer i Business Central](finance-currencies.md)
+#### [Oppdater valutakurser](finance-how-update-currencies.md)
+
+### Arbeid med mva.
+#### [Oversikt over mva-behandling](finance-manage-vat.md)
+#### [Tredjeparts kjøpstransaksjoner for EU](finance-how-to-eu3party-trade-purchase.md)
+#### Konfigurer mva.
+##### [Konfigurer merverdiavgift](finance-setup-vat.md)
+##### [Oppsett for bokføringsgruppe](finance-posting-groups.md#tax-posting-groups)
+##### [Konfigurer ikke-fradragsberettiget mva.](finance-setup-nondeductible-vat.md)
+##### [Konfigurer urealisert merverdiavgift](finance-setup-unrealized-vat.md)
+##### [Konfigurer en mva-oppgave](finance-how-setup-vat-statement.md)
+#### [Arbeid med mva. på kjøp og salg](finance-work-with-vat.md)
+#### [Bruk ikke-fradragsberettiget mva.](finance-how-use-non-deductible-vat.md)
+#### [Send mva-rapporter til skattemyndighetene](finance-how-report-vat.md)
+#### [Administrer endringer i mva-satser](finance-how-use-vat-rate-change-tool.md)
+#### [Valider organisasjonsnumre](finance-how-validate-vat-registration-number.md)
+#### [Konverter servicekontrakter som inkluderer mva-beløp](service-how-to-convert-service-contracts.md)
+
+### Konfigurer og bruk e-dokumenter
+#### [Oversikt over e-dokumenter](finance-edocuments-overview.md)
+#### [Konfigurer e-dokumenter](finance-how-setup-edocuments.md)
+#### [Bruk e-dokumenter ved salg og kjøp](finance-how-use-edocuments.md)
+#### [Angi koblingen E-dokumenter med eksterne endepunkter](finance-how-setup-edocuments-external.md)
+#### [Utvid funksjonaliteten for e-dokumenter](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
 ### [Organisasjoner med flere lokasjoner og internasjonale organisasjoner](finance-multi-site-organizations.md)
+#### Konsolider finansdata fra flere selskaper
+##### [Selskapskonsolidering](finance-consolidated-company-reporting.md)
+##### [Konfigurer selskapskonsolidering](finance-consolidated-company-reporting-setup.md)
+#### Administrer konserninterne transaksjoner
+##### [Oversikt over konsernintern](intercompany-manage.md)
+##### [Konfigurer konsernintern](intercompany-how-setup.md)
+##### [Arbeid med konserninterne dokumenter og kladder](intercompany-how-work-documents-journals.md)
+##### [Administrer den konserninterne innboksen og utboksen](intercompany-how-manage-intercompany-inbox.md)
+##### [Tildel kostnader til konserninterne partnere](intercompany-allocate-costs.md)
+
+### [Regnskapsføreropplevelser i Business Central](finance-accounting.md)
+
 
 ## Økonomisk forretningsanalyse og finansrapporter
 ### [Oversikt over økonomisk forretningsanalyse og finansrapporter](bi.md)
@@ -466,8 +472,11 @@
 ### [Konfigurer og publiser nøkkelindikatornettjenester basert på finansrapporter](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 ### [Analyser data etter dimensjoner](bi-how-analyze-data-dimension.md)
 ### [Opprett analyserapporter](bi-how-create-analysis-views-reports.md)
+### [Analyser årsregnskaper i Excel](finance-analyze-excel.md)
 ### [Opprett rapporter med XBRL](bi-create-reports-with-xbrl.md)
 ### [Administrer databasetilgangsform](admin-data-access-intent.md)
+### [Gjennomgang: Bruk finansrapporter til å lage kontantstrømprognoser](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+
 
 ## Salg
 ### [Oversikt over salg](sales-manage-sales.md)
@@ -874,9 +883,13 @@
 
 ### Danmark
 #### [Lokale funksjoner i dansk versjon](LocalFunctionality/Denmark/denmark-local-functionality.md)
-#### [Varsling og registrering i NemHandelsregisteret i Danmark](localfunctionality/denmark/how-to-nemhandel-register.md)
-#### [Konfigurer elektronisk fakturering med NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
+#### Samsvar
 #### [Oppbevar transaksjonsdata i fem år i Danmark](localfunctionality/denmark/how-to-keep-data-5years.md)
+##### [Konfigurer digitale bilag i Danmark](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
+#### Revisjon
+##### [Eksporter SAF-T-revisjonsfilformatet i Danmark](LocalFunctionality/Denmark/how-to-use-saft-audit-files-export.md)
+##### [Offentlig standard kontoplan i Danmark](LocalFunctionality/Denmark/how-to-set-up-standard-coa.md)
+##### [Eksporter regnskapsdata til Regnskab Basis i Danmark](LocalFunctionality/Denmark/how-to-use-regnskabbasis-export.md)
 #### Mva.
 ##### [Skriv ut mva-avstemmingsrapporter](LocalFunctionality/Denmark/how-to-print-vat-reconciliation-reports.md)
 ##### [Mva. – VIES-rapporter](LocalFunctionality/Denmark/vat-vies-reporting.md)
@@ -890,11 +903,11 @@
 ##### [Konfigurer kunder for OIOUBL](LocalFunctionality/Denmark/how-to-set-up-customers-for-oioubl.md)
 ##### [Konfigurer elektronisk fakturering for OIOUBL](LocalFunctionality/Denmark/how-to-set-up-oioubl.md)
 ##### [OIOUBL-utvidelsen for elektronisk fakturering](LocalFunctionality/Denmark/ui-extensions-oioubl.md)
-##### [Opprett elektroniske dokumenter i et OIOUBL-format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md
+##### [Opprett elektroniske dokumenter i OIOUBL-format](LocalFunctionality/Denmark/how-to-create-electronic-documents-by-using-oioubl.md)
+#### [Varsling og registrering i NemHandelsregisteret i Danmark](localfunctionality/denmark/how-to-nemhandel-register.md)
+#### [Konfigurer elektronisk fakturering med NemHandel](localfunctionality/denmark/how-to-edocuments-nemhadel.md)
 #### Lønn
 ##### [Lønnsdatadefinisjoner (DK)](LocalFunctionality/Denmark/ui-extensions-payroll-data-definitions-dk.md)
-#### Digitale bilag
-##### [Konfigurer digitale bilag i Danmark](localfunctionality/denmark/how-to-digital-vouchers-dk.md)
 
 ### Finland
 #### [Lokale funksjoner i finsk versjon](LocalFunctionality/Finland/finland-local-functionality.md)
@@ -1832,19 +1845,6 @@
 #### [Veiledning for rapportutvikling](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Veiledning for justering av rapportytelse](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
 
-# Copilot- og KI-funksjoner
-## Administrer Copilot- og KI-funksjoner
-### [Konfigurer Copilot- og KI-funksjoner](enable-ai.md)
-### [Copilot-dataflytting på tvers av geografiske områder](ai-copilot-data-movement.md)
-### [Feilsøk Copilot- og KI-funksjoner](ai-copilot-troubleshooting.md)
-## Bankkontoavstemmingshjelp (forhåndsversjon)
-### [Avstem bankkontoer med Copilot](bank-reconciliation-with-copilot.md)
-### [Vanlige spørsmål om bankkontoavstemmingshjelp](faqs-bank-reconciliation.md)
-## Forslag til markedsføringstekst
-### [Oversikt over forslag til markedsføringstekst](ai-overview.md)
-### [Opprett markedsføringstekst med Copilot](item-marketing-text.md)
-### [Vanlige spørsmål om forslag til markedsføringstekst](faqs-marketing-text.md)
-
 # Sikkerhet, personvern og samsvar
 ## Sikkerhet og beskyttelse
 ### [Oversikt over sikkerhet og beskyttelse (bare på engelsk)](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
@@ -2023,6 +2023,18 @@
 ## [Sikkerhet og beskyttelse](/dynamics365/business-central/dev-itpro/security/security-and-protection?toc=/dynamics365/business-central/toc.json)
 ## [Ytelse](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Funksjoner som er fjernet eller avskrevet](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
+# Copilot- og KI-funksjoner
+## Administrer Copilot- og KI-funksjoner
+### [Konfigurer Copilot- og KI-funksjoner](enable-ai.md)
+### [Copilot-dataflytting på tvers av geografiske områder](ai-copilot-data-movement.md)
+### [Feilsøk Copilot- og KI-funksjoner](ai-copilot-troubleshooting.md)
+## Bankkontoavstemmingshjelp (forhåndsversjon)
+### [Avstem bankkontoer med Copilot](bank-reconciliation-with-copilot.md)
+### [Vanlige spørsmål om bankkontoavstemmingshjelp](faqs-bank-reconciliation.md)
+## Forslag til markedsføringstekst
+### [Oversikt over forslag til markedsføringstekst](ai-overview.md)
+### [Opprett markedsføringstekst med Copilot](item-marketing-text.md)
+### [Vanlige spørsmål om forslag til markedsføringstekst](faqs-marketing-text.md)
 # Ansvarlig kunstig intelligens
 ## [Oversikt](responsible-ai-overview.md)
 ## [Vanlige spørsmål om bankkontoavstemmingshjelp (forhåndsversjon)](faqs-bank-reconciliation.md)

@@ -3,15 +3,14 @@ title: Oversikt over oppgaver for å konfigurere salgsprosesser
 description: 'Oversikt over oppgaver som kreves for å definere regler og verdier som definerer salgspolicyer og prosesser, inkludert generelt oppsett og finansrelatert salgsoppsett.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'trade, sell, configure'
 ms.search.form: '170, 172, 300, 301, 428, 456, 459, 1401'
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-sales"></a>Sette opp salg
+# Sette opp salg
 
 Før du kan håndtere salgsprosesser, må du konfigurere regler og verdier som definerer selskapets salgsprinsipper.
 
@@ -35,7 +34,7 @@ Finansrelatert salgsoppsett, for eksempel betalingsmåte og valutaer, beskrives 
 |Angi standardrapporter som skal brukes for ulike dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 |Angi om brukere kan bokføre salgsfakturaer, og om de må bokføre dem sammen med en levering. |[Definer en fakturabokføringspolicy for brukere](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 [Salg](sales-manage-sales.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

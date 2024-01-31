@@ -3,15 +3,14 @@ title: Endre selskap og andre innstillinger i Teams
 description: Finn ut hvordan du endrer innstillinger for Business Central-tilkobling fra Microsoft Teams.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, settings, search'
 ms.date: 04/12/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="changing-company-and-other-settings-in-teams"></a>Endre selskap og andre innstillinger i Teams
+# Endre selskap og andre innstillinger i Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -27,7 +26,7 @@ Du kan åpne siden **Innstillinger** på to måter: 1) fra meldingsboksen eller 
 
    ![Innstillinger for Business Central fra meldingsboks.](media/teams-settings-command-box.png)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversikt over Business Central og Microsoft Teams-integrering](across-teams-overview.md)  
 [Installer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  

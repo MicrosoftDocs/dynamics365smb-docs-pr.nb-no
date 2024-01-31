@@ -3,14 +3,13 @@ title: Oppdatere standardkost
 description: Du må regelmessig oppdatere standardkostnadene for komponenter og opprullere de nye kostnadene til den overordnede varen.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 5841
 ms.date: 10/11/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="update-standard-costs"></a>Oppdatere standardkost
+# Oppdatere standardkost
 Du må regelmessig oppdatere standardkostnadene for komponenter og opprullere de nye kostnadene til den overordnede varen. Prosessen består vanligvis av følgende fire trinn:  
 
 1.  Oppdatere kost på komponent- og kapasitetsnivået. Hvis du vil ha mer informasjon, se kjørselen **Foreslå standardkost for vare**.  
@@ -20,7 +19,7 @@ Du må regelmessig oppdatere standardkostnadene for komponenter og opprullere de
 
 Hvis du vil ha mer informasjon, kan du se [Om beregning av standardkost](finance-about-calculating-standard-cost.md).
   
-## <a name="to-update-standard-costs"></a>Slik oppdaterer du standardkost
+## Slik oppdaterer du standardkost
 
 1.  Kjør kjørselen **Juster kostverdi - vareposter**. Hvis du vil starte kjørselen, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Juster kostverdi – vareposter**, og velg deretter den tilknyttede koblingen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Gå gjennom resultatene, og foreta nødvendige endringer.  
 2.  Kjør kjørselen **Bokfør lagerkost i Finans**. Hvis du vil starte kjørselen, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokfør lagerkost i finans** og velg den relaterte koblingen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] Gå gjennom resultatene, og foreta nødvendige endringer.  
@@ -35,7 +34,7 @@ Hvis du vil ha mer informasjon, kan du se [Om beregning av standardkost](finance
     7.  Kjør kjørselen **Implementer endringer i standardkost**.  
 4.  Gå gjennom og bokfør siden **Revalueringskladd**, som er fylt ut med poster fra tidligere trinn i denne fremgangsmåten.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
  [Om beregning av standardkost](finance-about-calculating-standard-cost.md)   
  [Administrere lagerkostnader](finance-manage-inventory-costs.md)   

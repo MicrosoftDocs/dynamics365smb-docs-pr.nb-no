@@ -1,46 +1,45 @@
 ---
-title: Opprette hyller
+title: Opprett hyller
 description: 'Generer grupper med like hyller i forslaget for hylleoppretting, opprett hyller enkeltvis på lokasjonskortet eller automatisk i forslaget for hylleoppretting.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '7368, 7369, 7370, 7371, 7372, 7373'
-ms.date: 06/24/2021
+ms.date: 12/13/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-bins"></a>Opprette hyller
+# Opprett hyller
 
 Den mest effektive metoden for å opprette hyllene i lageret, er å generere grupper av lignende hyller i hylleopprettingsforslaget, men du kan også opprette hyllene individuelt fra lokasjonskortet. Du kan også bruke en funksjon på siden **Hylleoppretting** til å opprette hyller automatisk.  
 
-## <a name="to-create-a-bin-from-the-location-card"></a>Slik oppretter du en hylle fra lokasjonskortet
+## Slik oppretter du en hylle fra lokasjonskortet
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg den relaterte koblingen.  
 2.  Velg lokasjonen der du vil opprette en hylle, og velg deretter **Hyller**-handlingen.  
 3. Velg handlingen **Ny**.
 4. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-### <a name="the-dedicated-field"></a>Feltet Dedikert
+### Feltet Dedikert
 
 Feltet **Dedikert** på siden **Hyller** angir at antallet i hyllen beskyttes mot å bli plukket i forbindelse med andre krav. Antall i dedikerte hyller kan imidlertid fremdeles reserveres. Antallene i dedikerte hyller er på samme måte inkludert i feltet **Totalt disp. antall** på siden **Reservasjon**.
 
 Dedikering av hyller resulterer i lignende funksjonalitet i grunnleggende lageraktiviteter som bruk av hylletyper, som bare er tilgjengelig i avansert lagerstyring. Hvis du vil ha mer informasjon, kan du se [Definere hylletyper](warehouse-how-to-set-up-bin-types.md).
 
-### <a name="example"></a>Eksempel
+### Eksempel
 
 Et arbeidssenter er definert med en hyllekode i feltet **Til-Hyllekode for produksjon**. Produksjonsordrekomponentlinjer med den hyllekoden krever at komponenter som trekkes fremover plasseres der. Før komponentene forbrukes fra denne hyllen, kan imidlertid andre komponentbehov plukke eller forbruke fra denne hyllen fordi den fortsatt regnes som tilgjengelig hylleinnhold. For å sørge for at hylleinnholdet bare er tilgjengelig for komponentbehov som bruker denne hyllen til produksjon, må du velge feltet **Dedikert** på linjen for denne hyllekoden.
 
 > [!Caution]
 > Varer i dedikerte hyller er ikke beskyttet når de blir plukket og forbrukt som produksjons- eller monteringskomponenter med siden **Lagerplukk**. Hvis du vil ha mer informasjon, se [Plukke for montering eller produksjon i enkle lageroppsett](warehouse-how-to-pick-for-production.md).
 
-## <a name="to-create-bins-individually-in-the-bin-creation-worksheet"></a>Slik oppretter du hyller individuelt i hylleopprettingsforslaget
+## Slik oppretter du hyller individuelt i hylleopprettingsforslaget
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Hylleoppretting**, og velg den relaterte koblingen.  
 2.  På hver linje fyller du ut de feltene som er nødvendig for å gi navn til og karakterisere hyllene du oppretter.  
 3.  Velg handlingen **Opprett hyller**.  
 
-## <a name="to-make-bins-automatically-in-the-bin-creation-worksheet"></a>Slik lager du hyller automatisk i hylleopprettingsforslaget
+## Slik lager du hyller automatisk i hylleopprettingsforslaget
 
 Før du begynner å opprette hyller automatisk, bør du finne ut hvilken slags hylle som er viktig for dine operasjoner, og du bør finne den mest praktiske vareflyten gjennom strukturen i lageret.  
 
@@ -62,19 +61,19 @@ For å kunne arbeide på siden **Hylleoppretting** må du defineres som lagerans
 
 6.  Hvis du ønsker å bruke et tegn, for eksempel en bindestrek, til å skille kategorifeltene du har definert som en del av hyllekoden, angir du dette tegnet i feltet **Feltseparator**.  
 7.  Hvis du vil at programmet ikke skal opprette en linje for en hylle hvis den allerede finnes, velger du feltet **Kontroller eksisterende hylle**.  
-8. Når du er ferdig med å fylle ut alle feltene, velger du **OK**.
+8. Når du er ferdig med å fylle ut alle feltene, velger du **OK**-knappen.
 
     Programmet oppretter en linje for hver hylle i forslaget. Du kan nå slette noen av hyllene, for eksempel hvis du har en reol med en passasje gjennom de to første nivåene av et par seksjoner.  
 
-9. Når du har slettet alle unødvendige hyller, velger du handlingen **Opprett hyller**. Programmet vil da opprette hyller for hver linje i forslaget.  
+9. Når du sletter alle unødvendige hyller, velger du handlingen **Opprett hyller**. Programmet oppretter hyller for hver linje i forslaget.  
 
-Gjenta prosessen for et annet sett av hyller til du har opprettet alle hyllene i lageret.  
+Gjenta prosessen for et annet sett av hyller til du oppretter alle hyllene i lageret.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Oversikt over lagerstyring](design-details-warehouse-management.md)
+[Oversikt over lagerstyring](design-details-warehouse-management.md)  
 [Lager](inventory-manage-inventory.md)  
-[Definer lagerstyring](warehouse-setup-warehouse.md)  
+[Definere lagerstyring](warehouse-setup-warehouse.md)    
 [Monteringsstyring](assembly-assemble-items.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

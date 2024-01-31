@@ -3,14 +3,13 @@ title: Designdetaljer – Varesporingsutforming
 description: Dette emnet beskriver utformingen bak varesporing i Business Central etter hvert som de er modne for produktversjoner.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'design, item, tracking, tracing'
 ms.date: 06/08/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-item-tracking-design"></a>Designdetaljer: Varesporingsutforming
+# Designdetaljer: Varesporingsutforming
 
 Varesporing i [!INCLUDE[prod_short](includes/prod_short.md)] startet med [!INCLUDE [navnow_md](includes/navnow_md.md)]. Varesporingsfunksjonaliteten er i en separat objektstruktur med intrikate koblinger til bokførte dokumenter og vareposter, og den er integrert med reservasjonssystemet, som håndterer reservasjons-, ordresporings- og handlingsmeldinger. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md) i designdetaljene for Forsyningsplanlegging.  
 
@@ -33,7 +32,7 @@ Kodeenhet 22, **Varekld. – Posteringslinje**, deler nå posteringen i henhold 
 
 Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføringsstruktur for varesporing](design-details-item-tracking-posting-structure.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Designdetaljer: Varesporing](design-details-item-tracking.md)
 

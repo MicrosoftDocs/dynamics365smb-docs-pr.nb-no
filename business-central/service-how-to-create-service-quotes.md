@@ -9,13 +9,14 @@ ms.workload: na
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-service-quotes"></a>Opprette servicetilbud
+# Opprette servicetilbud
 Du kan betrakte servicetilbud som grunnlag for serviceordrer. De er faktisk omtrent like. Begge inneholder opplysninger som hvem kunden er, ordretype, varen som trenger service, fakturerings- og leveringsopplysninger og informasjon om det faktiske servicearbeidet.
  
 Du kan bruke et servicetilbud som et foreløpig utkast til en serviceordre, og deretter konvertere tilbudet til en serviceordre.  
   
-## <a name="to-create-a-service-quote"></a>Slik oppretter du et servicetilbud
+## Slik oppretter du et servicetilbud  
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Servicetilbud**, og velg deretter den relaterte koblingen.  
 2. Opprett et nytt servicetilbud.  
 3. I **Nr.** -feltet angir du et nummer for servicetilbudet. Hvis du har definert en nummerserie for servicetilbud på siden **Serviceoppsett**, kan du eventuelt velge <kbd>Enter</kbd> for å velge det neste tilgjengelige servicetilbudsnummeret.  
@@ -28,7 +29,7 @@ Du kan bruke et servicetilbud som et foreløpig utkast til en serviceordre, og d
 6. Fylle ut servicevarelinjene.  
 7. Registrere beregnet kost i servicelinjene.  
   
-## <a name="see-also"></a>Se også
+## Se også  
 [Opprette serviceordrer](service-how-to-create-service-orders.md)  
 [Arbeide med serviceoppgaver](service-how-to-work-on-service-tasks.md)  
 

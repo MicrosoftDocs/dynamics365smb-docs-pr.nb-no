@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 04/01/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 [!INCLUDE[prod_short](prod_short.md)]-brukere støtter noen ganger mer enn én avdeling eller underorganisasjon i en forretningsenhet. Det kan for eksempel hende at en bedrift har salgskontorer i andre byer og flere land/områder, så det har opprettet en separat forretningsenhet for hvert kontor. Kontorene som er i samme land/område, defineres som separate *selskaper* i et delt *miljø*. Andre kontorer opprettes som selskaper i separate miljøer fordi de er i geografisk plassert i andre land/områder.
 

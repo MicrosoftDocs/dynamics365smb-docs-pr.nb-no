@@ -10,8 +10,9 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-blanket-assembly-orders"></a>Opprette rammemonteringsordrer
+# Opprette rammemonteringsordrer
 
 Du kan bruke monteringsstyring for å tilpasse en monteringsvare i henhold til en kundeforespørsel under salgsprosessen. Hvis du vil ha mer informasjon, kan du se [Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md).  
 
@@ -20,7 +21,7 @@ Du kan bruke monteringsstyring for å tilpasse en monteringsvare i henhold til e
 > [!NOTE]  
 >  I likhet med alle rammebestillinger er antallene på monteringsrammebestillinger bare prognoser og ikke operative før de konverteres til faktiske monteringsordrer. Derfor er ordrefunksjonalitet som beregning av tilgjengelighet, reservasjon og varesporing ikke aktiv for rammemonteringsordrer.  
 
-## <a name="to-create-a-blanket-assembly-order-for-an-assemble-to-order-item"></a>Slik oppretter du en rammemonteringsordre for en montere\-til\-ordre-vare
+## Slik oppretter du en rammemonteringsordre for en montere\-til\-ordre-vare  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Rammeordrer**, og velg deretter den relaterte koblingen.  
 2. Opprette en ny rammeordre med én linje for en monteringsvare. Hvis du vil ha mer informasjon, kan du se [Opprette rammeordrer](sales-how-to-create-blanket-sales-orders.md).  
@@ -36,7 +37,7 @@ Du kan bruke monteringsstyring for å tilpasse en monteringsvare i henhold til e
 
 Den koblede rammemonteringsordren og eventuelle tilpasninger knyttes til denne nye salgsordren for å klargjøre for montering av varen(e) som skal selges.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opprette rammeordrer](sales-how-to-create-blanket-sales-orders.md)  
 [Monteringsstyring](assembly-assemble-items.md)  

@@ -10,8 +10,9 @@ ms.search.keywords: null
 ms.search.form: '663, 1500, 1512, 1513,'
 ms.date: 09/09/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="specify-when-and-how-to-receive-workflow-notifications"></a>Angi når og hvor du kan motta arbeidsflytvarsler
+# Angi når og hvor du kan motta arbeidsflytvarsler
 
 Når du definerer godkjenningsbrukere i arbeidsflytprosesser der du vil at noen skal godkjenne endringer, for eksempel når nye poster opprettes, eller når noen ber om en godkjenning, må du angi hvordan og når godkjenningsbrukeren skal varsles. Du kan for eksempel angi at en godkjenningsbruker umiddelbart skal motta en e-post når noen oppretter en ny kunde. Du kan også planlegge at varsler skal settes på vent og leveres samtidig, for eksempel ukentlig eller månedlig.
 
@@ -25,11 +26,11 @@ Før du kan angi varslingsinnstillinger for en godkjenningsbruker, må du må du
 > [!NOTE]
 > Hvis du vil bruke e-post som varslingsmetode, må du konfigurere e-post for både avsenderen og mottakeren i [!INCLUDE [prod_short](includes/prod_short.md)]. Finn ut mer under [Definer e-post](admin-how-setup-email.md).
 
-## <a name="steps-in-workflows"></a>Trinn i arbeidsflyter
+## Trinn i arbeidsflyter
 
 Mange trinn i arbeidsflyten for godkjenning omhandler å varsle brukere om at det har skjedd en hendelse de må gjøre noe med. På ett arbeidsflyttrinn kan for eksempel hendelsen være at bruker 1 ber om godkjenning av en ny post. Det relaterte svaret er at det er sendt en varsling til bruker 2, godkjenneren. På det neste arbeidsflyttrinnet kan hendelsen være at bruker 2 godkjenner posten. Det relaterte svaret er at det er sendt en varsling til bruker 3 om å starte en prosess med den godkjente posten. Hver varsling er knyttet til en godkjenningspost for arbeidsflyttrinn som omhandler godkjenning. Finn ut mer under [Arbeidsflyt](across-workflow.md).  
 
-## <a name="specify-when-and-how-approval-users-receive-notifications"></a>Angi når og hvor godkjenningsbrukere mottar varsler
+## Angi når og hvor godkjenningsbrukere mottar varsler  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukeroppsett for godkjenning**, og velg deretter den relaterte koblingen.  
 2. Velg linjen for brukeren du vil konfigurere varslingsinnstillinger for, og velg deretter **Oppsett av varsling**.  
@@ -58,7 +59,7 @@ Mange trinn i arbeidsflyten for godkjenning omhandler å varsle brukere om at de
    |**Dato i måned**|Angi om brukeren mottar varsler på først, siste, eller en bestemt dato i måneden.|
    |**Dato for månedlig varsel**|Angi datoen i måneden brukeren mottar varsler når verdien i feltet **Dato i måned** er **Egendefinert**.|
 
-## <a name="change-when-and-how-you-receive-notifications"></a>Endre når og hvor du mottar varsler
+## Endre når og hvor du mottar varsler
 
 1. I et av varslene som du har mottatt, enten som en e-post eller et notat, velger du **Endre varslingsinnstillinger**.  
 2. På siden **Oppsett av arbeidsflytvarsling** endre du varslingsinnstillinger, som beskrevet i trinn 3 til 5 ovenfor.
@@ -66,7 +67,7 @@ Mange trinn i arbeidsflyten for godkjenning omhandler å varsle brukere om at de
    2. Velg om du vil motta en e-post eller et notatvarsel under feltet **Varslingsmetode**.
    3. Velg **varslingsplanen** for å endre hyppigheten og gjentakelsen for når varslinger sendes.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)  
 [Opprett og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)  

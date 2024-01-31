@@ -3,14 +3,13 @@ title: Bli klar til å gjøre forretninger
 description: 'Skisserer de assisterte oppsettsveiledningene, videoene, hjelpeemnene og sidene og sidene du bruker til å bli klar til å gjøre forretninger i Business Central.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'SMTP, mail, Microsoft 365, setup, wizard, experience'
 ms.date: 05/25/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="get-ready-for-doing-business"></a>Bli klar til å gjøre forretninger
+# Bli klar til å gjøre forretninger
 
 Gratulerer, du har nettopp initiert ditt første firma i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -23,7 +22,7 @@ Du kan også finne oversikten over veiledninger for assistert oppsett hvis du ve
 > [!TIP]
 > [!INCLUDE [ua-get-help](includes/ua-get-help.md)]
 
-## <a name="get-started"></a>Kom i gang
+## Kom i gang
 
 Når du logger på for første gang eller starter et nytt selskap, kan du bruke kontrollisten **Kom i gang** til å veilede deg gjennom fremgangsmåten slik at du blir klar til å komme i gang. Fremgangsmåten varierer avhengig av land/område og eventuell bransjespesifikk funksjonalitet du har lagt til for din forekomst av [!INCLUDE [prod_short](includes/prod_short.md)]. Fra og med lanseringsbølge 2 for 2021 når du først logger deg på CRONUS-demonstrasjonsselskapet, optimaliseres hjemmesiden for din første opplevelse. Hvis du foretrekker å vise flere koblinger til flere sider, bytter du bare til rollen Forretningsleder. Hvis du vil ha mer informasjon, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).  
 
@@ -38,13 +37,13 @@ Hvis et område ikke dekkes av et assistert oppsett, velger du ikonet ![tannhjul
 
 Når du har kjørt en assistert oppsettsveiledning, merkes den som **Fullført**.  
 
-## <a name="teaching-tips-and-tours"></a>Læringstips og innføringer
+## Læringstips og innføringer
 
 [!INCLUDE [prod_short](includes/prod_short.md)] omfatter innføring i produkter og opplæringstips som kan hjelpe deg med å komme i gang. I gjeldende versjon er det innføringer i fremgangsmåten for trinnene i listen **Komme i gang** og noen av de mest brukte sidene i demonstrasjonsselskapet, for eksempel kortsiden **Salgsfaktura**.  
 
 Opplæringstips er korte meldinger som informerer, minner eller lærer deg om viktige og nye funksjoner som startes automatisk når du åpner en side. Hvis du for eksempel vil se opplæringstipset for kortet **Salgsfaktura**, kan du velge koblingen i øvre venstre hjørne på siden der det står *Salgsfaktura*. Dette starter en bildeforklaring med en kort beskrivelse av siden, og hva du kan gjøre. Hvis det finnes en innføring i siden, inviterer en kobling til innføringen. Koblingen *Lær mer* tar deg til produkthjelpen for siden.
 
-## <a name="role-specific-home-pages"></a>Rollespesifikke startsider
+## Rollespesifikke startsider
 
 Avhengig av rollen din så finnes det en oversikt over virksomheten på startsiden. Øverst ser du et navigasjonsfelt som gir deg enkel tilgang til kunder, leverandører, varer og så videre. I midten finner du **Aktiviteter**-flisene. **Aktiviteter** viser gjeldende data og kan klikkes eller trykkes for enkel tilgang til det valgte dokumentet.
 
@@ -55,11 +54,11 @@ Bruk pilene for å skjule en del av siden og få mer plass til å vise bestemte 
 > [!TIP]  
 > Du kan gå tilbake til startsiden ved å velge navnet på selskapet øvre venstre.
 
-## <a name="company-information"></a>Selskapsinformasjon
+## Selskapsinformasjon
 
 Under **Selskapsinnstillinger** kan du vise og redigere informasjon om gjeldende firma, og mye av dette ble forhåndsutfylt hvis du fullførte det assisterte oppsettet **Konfigurer selskap** da du registrerte deg for [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil endre firmalogo, kontaktinformasjon, innstillinger for banken eller mva-informasjon, kan du gjøre det fra denne siden.  
 
-## <a name="adding-users-and-permissions"></a>Legge til brukere og tillatelser
+## Legge til brukere og tillatelser
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -67,11 +66,11 @@ Du legger til brukere i administrasjonssenteret for Microsoft 365. Hvis du vil h
 
 Når brukere opprettes i Microsoft 365, kan du importere dem til **Brukere**-siden i ved å bruke handlingen **Få oppdateringer fra Office 365**. Du kan deretter tildele tillatelser til brukere og ordne dem i brukergrupper. Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til brukere og grupper](ui-define-granular-permissions.md).  
 
-## <a name="product-help"></a>Produkthjelp
+## Produkthjelp
 
 [!INCLUDE [ua-get-help](includes/ua-get-help.md)] Hvis du vil ha mer informasjon, kan du se [Ressurser for hjelp og støtte](product-help-and-support.md).  
 
-### <a name="set-up-your-company-in-"></a>Konfigurere selskapet i [!INCLUDE[prod_short](includes/prod_short.md)]
+### Konfigurere selskapet i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 Artiklene om [hurtigstart](quick-start-business-central.md) kan hjelpe deg med å ta de første trinnene for å konfigurere [!INCLUDE [prod_short](includes/prod_short.md)] i organisasjonen. I [!INCLUDE [prod_short](includes/prod_short.md)] viser siden **Assistert oppsett** veiledningene for assistert oppsett som kan hjelpe deg. Avhengig av rolle og land eller region viser siden forskjellige retningslinjer for assistert oppsett, som illustrert i følgende tabell:
 
@@ -93,11 +92,11 @@ Artiklene om [hurtigstart](quick-start-business-central.md) kan hjelpe deg med �
 
 Siden **Assistert oppsett** kan inneholde andre oppføringer. Når du går gjennom et oppsett, merkes konfigurasjonen som **Fullført**. Du kan definere andre områder i selskapet ved hjelp av manuelt oppsett. Hvis du vil ha mer informasjon, kan du se [Definer [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## <a name="next-steps"></a>Neste trinn
+## Neste trinn
 
 Basert på de overførte dataene kan du nå fortsette å opprette ny salgs- og kjøpsdokumenter. Bruk delen **Handlinger** på startsiden til raskt å opprette en nytt tilbud, en ny salgsfaktura, ordre, kjøpsfaktura eller betalingsregistrering. Les artiklene for [hurtigstart](quick-start-business-central.md) for å få en oversikt over de første trinnene.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Hurtigstart for Business Central](quick-start-business-central.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

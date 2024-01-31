@@ -10,8 +10,9 @@ ms.search.keywords: 'machinery, buildings'
 ms.search.form: '5604, 5606, 5664, 5601, 5602, 5658, 5603, 5671, 5641, 5629, 5633, 5634, 5649, 5622, 5650'
 ms.date: 06/15/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="managing-fixed-assets"></a>Administrer aktiva
+# Administrer aktiva
 
 Aktivafunksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] gir en oversikt over hvilke aktiva du har, og hjelper deg med å utføre riktig periodisk avskrivning. De hjelper deg dessuten med å styre vedlikeholdskostnadene, håndtere forsikringspoliser, bokføre aktivatransaksjoner og generere forskjellige rapporter og statistikker.
 
@@ -41,13 +42,13 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Bokføre salgstransaksjoner, vise salgsposter og bokføre delvise salg. |[Avhending eller tilbaketrekking av aktiva](fa-how-dispose-retire.md) |
 | Administrere aktivabudsjetter, og budsjettere anskaffelseskostnader, salg av aktiva og avskrivninger. |[Behandle budsjetter for aktiva](fa-how-manage-budgets.md) |
 
-## <a name="video-overview"></a>Videooversikt
+## Videooversikt
 
 Følgende video dekker det grunnleggende ved aktiva:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Definer aktiva](fa-setup.md)  
 [Endre hvilke funksjoner som vises](ui-experiences.md)  

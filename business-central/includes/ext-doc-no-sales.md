@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 05/27/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 I salgsdokumenter og kladder kan du angi et dokumentnummer som viser til kundens nummereringssystem. <!--You can enter a maximum of ten characters, both numbers and letters.--> Bruk dette feltet til å registrere nummeret som kunden har knyttet til ordren, fakturaen eller kreditnotaen. Du kan deretter bruke nummeret senere hvis du trenger å søke etter den bokførte oppføring ved hjelp av dette nummeret.  

@@ -3,15 +3,14 @@ title: Bruk av arbeidsflyter for godkjenning
 description: Du kan opprette og bruke arbeidsflyter for å koble sammen forretningsprosessoppgaver som automatisk bokføring eller forespørsel om å gi godkjenning for nye poster.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '1500, 1501, 1503, 1504, 1505'
 ms.date: 09/13/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="use-approval-workflows"></a>Bruke arbeidsflyter for godkjenning
+# Bruke arbeidsflyter for godkjenning
 
 En arbeidsflyt er en sekvens av oppgaver som utløses av en handling, en betingelse eller en regel. Arbeidsflyter er vanligvis implementert for å integrere forretningslogikk i en organisasjon, for eksempel separasjon av oppgaver, innsamlingsprosesser eller for å bruke anbefalte fremgangsmåter.
 
@@ -64,7 +63,7 @@ Før du kan begynne å bruke arbeidsflyter, må du konfigurere brukere av arbeid
 | Vise forekomster av arbeidsflyttrinn med statusen **Fullført**. | [Vis arkiverte forekomster av arbeidsflyttrinn](across-how-to-view-archived-workflow-step-instances.md) |
 | Slett en arbeidsflyt som ikke lenger blir brukt. | [Slett arbeidsflyter for godkjenning](across-how-to-delete-workflows.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurer godkjenningsarbeidsflyter](across-set-up-workflows.md)  
 [Arbeidsflyt](across-workflow.md)  

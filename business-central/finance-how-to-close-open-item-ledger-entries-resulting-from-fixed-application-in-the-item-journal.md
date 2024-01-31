@@ -3,14 +3,13 @@ title: Lukk vareposter som kom fra bruk av fast utligning
 description: Finn ut hvordan du kan opprette en fast utligning manuelt mellom en inngående transaksjon og den opprinnelige utgående transaksjonen i varekladden.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 40
 ms.date: 12/12/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal"></a>Lukk åpne vareposter som er resultat av fast utligning i varekladden
+# Lukk åpne vareposter som er resultat av fast utligning i varekladden
 
 Du kan bruke feltet **Utlignet fra-post** på siden **Varekladd** til å opprette en fast utligning manuelt mellom en inngående transaksjon og den opprinnelige utgående transaksjonen. Du kan for eksempel bruke det til å rette den utgående transaksjonen eller behandle returen.  
 
@@ -23,7 +22,7 @@ Under visse betingelser kan du endre og utligne utligningsposter på nytt ved å
 
 Følgende fremgangsmåte viser hvordan du lukker slike poster ved å utføre to korrigerende bokføringer i varekladden.  
 
-## <a name="to-close-open-item-ledger-entries-that-result-from-a-fixed-application-in-the-item-journal"></a>Slik lukker du åpne vareposter som er resultater fra en fast utligning i varekladden:
+## Slik lukker du åpne vareposter som er resultater fra en fast utligning i varekladden:  
 
 1. Bruk feltet **Utlignet-fra post** til å bokføre en oppjustering med tilsvarende antall. Dette lukker den opprinnelige negative korreksjonsposten med en fast utligning.  
 
@@ -32,7 +31,7 @@ Følgende fremgangsmåte viser hvordan du lukker slike poster ved å utføre to 
 
     Feltet **Utligningspost** angir om antallet på varekladdelinjen skal utlignes mot et bilag som allerede er bokført. I så fall angir du løpenummeret på vareposten som varekladdelinjen skal utlignes mot.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Fjern varefinansposter og utligne dem på nytt](finance-how-to-remove-and-reapply-item-entries.md)  
 [Behandle ordrereturer og annulleringer](sales-how-process-sales-returns-cancellations.md)  

@@ -3,26 +3,25 @@ title: Registrere kjøp med kjøpsfakturaer (inneholder video)
 description: 'Beskriver hvordan du kan kjøpe beholdning, ikke-lagervarer eller ressurser ved å opprette og bokføre kjøpsfakturaer eller ordrer.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: procurement
 ms.search.form: '50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310'
 ms.date: 12/19/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="record-purchases-with-purchase-invoices-and-orders"></a>Registrere kjøp med kjøpsfakturaer og ordrer
+# Registrere kjøp med kjøpsfakturaer og ordrer
 
 Du kan opprette en kjøpsfaktura eller bestilling for å registrere kjøpskostnader og spore leverandørgjeld. Kjøpsfakturaer og bestillinger brukes også til å oppdatere lagernivåer dynamisk, noe som betyr at du kan redusere lagerkostnadene og gi bedre kundeservice. Kjøpskostnadene, inkludert tjenesteutgifter samt lagerverdier som er resultat av bokføring av kjøpsfakturaer eller ordrer, bidrar til fortjenestetall og andre økonomiske ytelsesindikatorer i rollesenteret.
 
-## <a name="record-purchases-with-purchase-invoices"></a>Registrere kjøp med kjøpsfakturaer
+## Registrere kjøp med kjøpsfakturaer
 
 Når du mottar lagervarene eller den kjøpte tjenesten er fullført, kan du bokføre kjøpsfakturaen for å oppdatere lager- og økonomiposter og aktivere betaling til leverandøren i samsvar med betalingsbetingelsene. [Utføre betalinger](payables-make-payments.md).
 
 > [!CAUTION]  
 > Ikke bokfør fysiske varer for en kjøpsfaktura før du mottar varene og kjenner de endelige kostnadene for kjøpet, herunder eventuelle tilleggskostnader. Hvis ikke, kan det hende at lagerverdien og fortjenestebeløpet er skjevt.
 
-### <a name="create-and-post-a-purchase-invoice"></a>Opprett og bokfør en kjøpsfaktura
+### Opprett og bokfør en kjøpsfaktura
 
 Nedenfor ser du en beskrivelse av hvordan du oppretter en kjøpsfaktura. Trinnene for å opprette en bestilling ligner. Hovedforskjellen er at bestillinger har noen ekstra felter og handlinger for fysisk håndtering av varer.
 
@@ -64,7 +63,7 @@ Kjøpet gjenspeiles nå i beholdningen, ressursposter og økonomiposter, og leve
 >
 > Når du skal kontrollere beløpene som faktisk skal bokføres, kan du gå til siden **Statistikk**, som tar hensyn til avrundingsberegningene. Hvis du velger **Frigi**-handlingen, oppdateres totaler-feltene slik at de omfatter avrundingsberegninger.
 
-## <a name="posted-invoices"></a>Bokførte fakturaer
+## Bokførte fakturaer
 
 [!INCLUDE [posted-invoices](includes/posted-invoices.md)]
 
@@ -73,7 +72,7 @@ Du kan enkelt korrigere eller annullere en bokført kjøpsfaktura før du betale
 [Åpne listen **Bokførte kjøpsfakturaer**](https://businesscentral.dynamics.com/?page=146) i [!INCLUDE [prod_short](includes/prod_short.md)].
 
 
-## <a name="purchasing-non-inventory-items"></a>Kjøp av ikke-lagervarer
+## Kjøp av ikke-lagervarer
 
 Linjene på en kjøpsfaktura kan være av typen **Ressurs** eller **Vare**. Varekort kan også klassifiseres av typen **Lager**, **Service** eller **Ikke-lagervarer** som angir om varen er en fysisk lagerenhet, en arbeidstidsenhet (gjelder også ressurser) eller en fysisk enhet som ikke holdes i lagerbeholdningen. Finn ut mer under [Registrer nye varer](inventory-how-register-new-items.md). Kjøpsfakturaprosessen er den samme for alle typene nevnt ovenfor.
 
@@ -82,7 +81,7 @@ Linjene på en kjøpsfaktura kan være av typen **Ressurs** eller **Vare**. Vare
 >
 > Hvis du vil bruke en kjøpt ressurs, må du kanskje angi ressursens kapasitet og tilordne den manuelt til et prosjekt. Kjøp av en ressurs oppretter en ressurspost, men ressursposter spores imidlertid ikke for antall og verdi, for eksempel varer. Hvis antalls- og verdisporing er nødvendig, kan du vurdere å bruke andre linjeelementtyper.
 
-## <a name="when-to-use-purchase-orders"></a>Når du bør bruke bestillinger
+## Når du bør bruke bestillinger
 
 Du må bruke bestillinger hvis kjøpsprosessen krever at du registrerer delvise mottak av et bestillingsantall, for eksempel fordi det fullstendige antallet ikke er tilgjengelig hos leverandøren. Hvis du leverer solgte varer direkte fra leverandøren til kunden, som en direkte levering, må du også å bruke bestillinger. Finn ut mer under [Lag direkte leveringer](sales-how-drop-shipment.md).
 
@@ -92,7 +91,7 @@ I alle andre henseender fungerer bestillinger på samme måte som kjøpsfakturae
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b3tt?rel=0]
 
-## <a name="receive-items-with-a-purchase-order"></a>Motta varer med bestilling
+## Motta varer med bestilling
 
 Følgende beskriver hvordan du mottar varer med en bestilling. 
 
@@ -109,19 +108,19 @@ Følgende beskriver hvordan du mottar varer med en bestilling.
 > [!NOTE]
 > Hvis du bruker en lagerstyring, kan du ikke bruke handlingen **Bokfør** på bestillingen til å registrere mottaket. Det er fordi en lagerarbeider allerede bokført bestillingsantallet som mottatt. Finn ut mer under [Designdetaljer – Inngående lagerflyt](design-details-inbound-warehouse-flow.md).
 
-## <a name="receive-more-items-than-ordered"></a>Motta flere varer enn bestilt
+## Motta flere varer enn bestilt
 
 Når det kommer flere varer enn bestilt, kan det være lurt å motta dem i stedet for å annullere mottaket. Det kan for eksempel være billigere å beholde de overskytende varene i beholdningen enn å returnere dem, eller leverandøren kan tilby deg en rabatt for å beholde leveransen.
 
 <!--move the over-receipt setup info to an article about purchasing. Keep the concept info here and link to the steps-->
-### <a name="set-up-over-receipts"></a>Sett opp overmottak
+### Sett opp overmottak
 
 Opprett overmottakskoder for å definere en prosentverdi som et mottatt antall kan overskride det bestilte antallet for. Angi prosenten i feltet **Toleranseprosent for overmottak**. Deretter tildeler du koden på sidene Varekort eller Leverandørkort for varer og leverandører.  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Overmottakskoder**, velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### <a name="assign-the-over-receipt-code-to-an-item"></a>Tildel overmottakskoden til en vare
+### Tildel overmottakskoden til en vare
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Åpne siden **Varekort** for den relaterte varen.
@@ -132,7 +131,7 @@ Overmottakskoden tilordnes til varen. Bestillinger eller lagermottak for varen t
 > [!NOTE]
 > Du kan definere en godkjenningsarbeidsflyt som krever at overmottak må godkjennes før de kan håndteres. Merk av for **Krever godkjenning** på siden **Overmottakskoder**. Finn ut mer under [Opprett arbeidsflyter](across-how-to-create-workflows.md).
 
-### <a name="over-receive-an-order"></a>Overmottak av en ordre
+### Overmottak av en ordre
 
 På kjøpslinjer og lagermottakslinjer brukes feltet **Antall overmottak** til å registrere overmottatt antall, noe som betyr et antall som overskred verdien for bestilt antall i feltet **Antall**.
 
@@ -149,11 +148,11 @@ Når du håndterer et overmottak, kan du øke verdien i feltet **Motta (antall)*
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] håndterer ikke automatisk økonomiske aspekter ved overmottak. Du må håndtere dette manuelt og være enig med leverandøren, for eksempel leverandøren som videresender en ny eller oppdatert faktura.
 
-## <a name="external-document-number"></a>Eksternt dokumentnummer
+## Eksternt dokumentnummer
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="posting-purchases"></a>Bokføre kjøp
+## Bokføre kjøp
 
 I et kjøpsdokument kan du velge mellom følgende bokføringshandlinger:
 
@@ -183,17 +182,17 @@ Du kan alltid se gjennom forskjellige poster som blir opprettet som et resultat 
 
 Du kan enten bokføre eller bokføre og skrive ut. Hvis du velger å bokføre og skrive ut, skrives det ut en rapport når ordren bokføres. Du kan også velge handlingen **Massebokfør** for å bokføre flere bestillinger samtidig. Finn ut mer under [Bokfør flere dokumenter samtidig](ui-batch-posting.md).
 
-## <a name="viewing-ledger-entries"></a>Vis poster
+## Vis poster
 
 Når bokføringen er utført, fjernes de bokførte kjøpslinjene fra bestillingen. En melding viser når bokføringen er gjennomført. Etter dette kan du se de bokførte postene på de forskjellige sidene, inkludert sidene **Leverandørposter**, **Finansposter**, **Vareposter**, **Ressursposter**, **Kjøpsmottak** og **Bokførte kjøpsfakturaer**.
 
 I de fleste tilfeller kan du åpne poster fra det berørte kortet eller dokumentet. På siden **Leverandørkort** velger du for eksempel handlingen **Poster**.
 
-## <a name="editing-ledger-entries"></a>Rediger poster
+## Rediger poster
 
 Du kan redigere bestemte felt på bokførte kjøpsdokumenter, for eksempel feltet **Betalingsreferanse**. Finn ut mer under [Rediger bokførte dokumenter](across-edit-posted-document.md). Hvis du vil ha mer kritiske felt som påvirker revisjonssporingen, må du tilbakeføre eller angre bokføringen. Finn ut mer under [Tilbakefør kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Be om tilbud](purchasing-how-request-quotes.md)  
 [Kjøpvarer for et salg](purchasing-how-purchase-products-sale.md)  

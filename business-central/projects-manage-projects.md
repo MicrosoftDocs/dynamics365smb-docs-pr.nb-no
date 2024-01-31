@@ -3,13 +3,13 @@ title: Prosjektstyring
 description: 'Dette emnet beskriver hvordan du bruker ressurser, timelister og prosjekter til å administrere prosjekter og budsjetter.'
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: projects
 ms.search.form: '89, 200, 289, 290, 376, 462, 463, 1029, 1615, 8904, 9014, 9015'
 ms.date: 06/22/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="project-management"></a>Prosjektstyring
+# Prosjektstyring
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du utføre vanlige prosjektbehandlingsoppgaver, for eksempel å konfigurere et prosjekt og planlegge en ressurs, samt å angi informasjonen som trengs for å behandle budsjetter og overvåke fremdriften. Du kan spore ansattes arbeidstid og maskindriftstid for prosjektet ved hjelp av timelister. Som prosjektleder har du god oversikt over individuelle prosjekter, men også over fordelingen av ansatte, maskiner og andre ressurser som brukes i alle prosjekter.
 
@@ -29,11 +29,11 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Bokfør forbruket av materialer, ressurser, og andre utgifter for prosjektet av varer i arbeid (VIA) til å overvåke den økonomiske verdien og å opprettholde riktig regnskapsoppgjør, selv om du bokfører prosjektutgifter før fakturering av prosjektet. |[Overvåke prosjektfremdrift og -ytelse](projects-how-monitor-progress-performance.md) |
 | Registrer prosjektkostnader for ressursforbruk, materialer og prosjektrelaterte kjøp på en varig basis, og fakturer kunden når prosjektet er fullført, eller i henhold til en tidsplan for fakturering. |[Fakturere prosjekter](projects-how-invoice-jobs.md) |
 
-## <a name="get-started-with-projects"></a>Komme i gang med prosjekter
+## Komme i gang med prosjekter
 
 Prosjektstyring er komplisert nok i seg selv, og det å lære hvordan du oppretter prosjekter og håndterer varer i arbeid i et nytt verktøy, kan være nok en utfordring. For å hjelpe deg med å komme i gang med prosjektstyring i [!INCLUDE[prod_short](includes/prod_short.md)] kan du se [en video om oppretting av jobber](https://www.youtube.com/watch?v=VqaPWr7BWmw) på [!INCLUDE[prod_short](includes/prod_short.md)] YouTube-kanalen.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere prosjektstyring](projects-setup-projects.md)  
 [Video: Opprette et prosjekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

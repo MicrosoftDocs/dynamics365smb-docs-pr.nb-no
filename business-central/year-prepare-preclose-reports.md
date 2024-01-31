@@ -9,8 +9,9 @@ ms.workload: na
 ms.search.form: '1393, 1394'
 ms.date: 04/01/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="use-pre-closing-reports"></a>Bruk forhåndslukking av rapporter
+# Bruk forhåndslukking av rapporter
 
 Det finnes mange standardrapporter du kan bruke til å bekrefte nøyaktigheten av kontiene før du lukker tablåene ved utgangen av et år eller en periode. Du kan for eksempel bruke rapporten **Kunde – saldoliste** til å bekrefte at saldoen for en bokføringsgruppe for kunde er lik saldoen på den tilsvarende finanskontoen på en bestemt dato.
 
@@ -30,7 +31,7 @@ Tabellen nedenfor beskriver flere rapporter som kan være nyttige i denne proses
 
 Hvis du vil se en rapport, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriver inn navnet slik det vises i tabellen, og deretter velger du den relaterte koblingen.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Avslutte år og perioder](year-close-years-periods.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -3,17 +3,16 @@ title: Skyoverføringsutvidelser
 description: Bruk skyoverføringsutvidelsene til å overføre de lokale dataene til Business Central på nettet. Disse utvidelsene flytter de lokale dataene dine til skyen.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'app, add-in, manifest, customize, import, implement'
 ms.search.form: '4021, 4026, 4031, 4090, 4091, 4092, 4093, 4094, 4095, 4096, 4097, 40027,'
 ms.reviewer: bholtorf
 ms.date: 06/23/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="cloud-migration-extensions-for-migrating-to-business-central-online"></a>Skyoverføringsutvidelser for overføring til Business Central Online
+# Skyoverføringsutvidelser for overføring til Business Central Online
 
 Avhengig av din lokale løsning må du bruke ulike utvidelser for å koble data til lokal [!INCLUDE[prod_short](includes/prod_short.md)] for å overføre løsningen til skyen.  
 
@@ -21,22 +20,22 @@ Hvis du bruker én av de støttede lokale produktene, kan du konfigurere skymilj
 
 Hvis du vil ha mer informasjon, kan du se [Overføre lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrasjonsinnholdet for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="business-central-on-premises"></a>Business Central lokalt
+## Business Central lokalt
 
 Hvis du bruker en lokal distribusjon av [!INCLUDE[prod_short](includes/prod_short.md)], hent utvidelsen for **Intelligent skybase** og utvidelsen for **Intelligent sky for Business Central**, og kjør deretter den assisterte oppsettsveiledningen **Oppsett av skyoverføring**.  
 
-## <a name="dynamics-gp"></a>Dynamics GP
+## Dynamics GP
 
 Hvis du bruker Dynamics GP, hent utvidelsen for **Intelligent skybaseutvidelse** og utvidelsen for **Intelligent sky for Dynamics GP** , og kjør deretter den assisterte oppsettsveiledningen **Oppsett av skyoverføring**.  
 
 > [!IMPORTANT]
 > Migrering fra Dynamics GP med den assisterte oppsettsveiledningen **Oppsett av skyoverføring** støttes for øyeblikket bare for følgende markeder: USA, Canada, Storbritannia.
 
-## <a name="dynamics-sl"></a>Dynamics SL
+## Dynamics SL
 
 Hvis du bruker Dynamics SL, hent utvidelsen for **Intelligent skybase**, utvidelsen for **Microsoft Dynamics SL intelligent sky** og utvidelsen for **Microsoft Dynamics SL historikksmartlister**, og kjør deretter den assisterte oppsettsveiledningen **Oppsett av skyoverføring**.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Utvidelse for skyoverføringsbase](ui-extensions-intelligent-cloud.md)  
 [Overføre lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data)  

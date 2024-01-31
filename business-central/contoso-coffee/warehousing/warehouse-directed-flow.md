@@ -3,20 +3,19 @@ title: 'Mottak, plassering, flytt, plukk og levering i avansert lageroppsett'
 description: 'Innkommende og utgående prosesser utføres på ulike måter, avhengig av kompleksitetsnivået til lageret.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 12/07/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="walkthrough-of-inbound-and-outbound-flow-in-advanced-warehouse-configuration"></a>Gjennomgang av inngående og utgående flyt i avansert lageroppsett
+# Gjennomgang av inngående og utgående flyt i avansert lageroppsett
 
 Denne gjennomgangen vis hvordan du fullfører inngående og utgående flyter i konfigurasjonen Avansert: lagerstyring Hvis du vil ha mer informasjon, kan du se [Oversikt over ulike konfigurasjonsalternativer](../../design-details-warehouse-management.md#overview-of-different-configuration-options).
 
-## <a name="prerequisites"></a>Forutsetninger
+## Forutsetninger  
 Hvis du vil fullføre denne gjennomgangen, må du gjøre deg til lageransatt på lokasjonen *HVIT* ved å følge disse trinnene:  
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lageransatte**, og velg deretter den relaterte koblingen.  
 2. Velg feltet **Bruker-ID**, og velg din egen brukerkonto på siden **Brukere**.  
@@ -24,10 +23,10 @@ Hvis du vil fullføre denne gjennomgangen, må du gjøre deg til lageransatt på
 4. Aktiver vekslebryteren **Standard**.
 
 
-## <a name="scenario"></a>Scenario
+## Scenario  
 Lagerlederen Ellen bruker funksjonaliteten for kryssoverføring og etterfyllings til å øke hastigheten på mottaks- og leveringstid.  
 
-## <a name="steps"></a>Trinn
+## Trinn
 
 1. Opprett lagerlevering.  
 
@@ -136,7 +135,7 @@ Lagerlederen Ellen bruker funksjonaliteten for kryssoverføring og etterfyllings
     4. Bekreft **Levering**-alternativet.
 
 
-## <a name="results"></a>Resultater
+## Resultater
 - det **bokførte lagermottaket** opprettes
 - den **registrerte lagerplasseringen** opprettes    
 - det **bokførte kjøpsmottaket** opprettes    
@@ -150,7 +149,7 @@ Lagerlederen Ellen bruker funksjonaliteten for kryssoverføring og etterfyllings
 
 
 
-## <a name="see-also"></a>Se også
+## Se også
 [Motta varer](../../warehouse-how-receive-items.md) 
 [Utformingsdetaljer: Inngående lagerflyt](../../design-details-inbound-warehouse-flow.md) 
 [Lever varer](../../warehouse-how-ship-items.md) 

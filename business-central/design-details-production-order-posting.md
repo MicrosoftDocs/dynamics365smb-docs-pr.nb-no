@@ -3,14 +3,13 @@ title: Designdetaljer – Bokføre produksjonsordre | Microsoft-dokumentasjon
 description: 'De forbrukte komponentene og den brukte maskintiden konverteres og avgis som den produserte varen når produksjonsordren er ferdig, på lignende måte som ved bokføring av monteringsordrer.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-production-order-posting"></a>Designdetaljer: Bokføre produksjonsordre
+# Designdetaljer: Bokføre produksjonsordre
 De forbrukte komponentene og den brukte maskintiden konverteres og avgis som den produserte varen når produksjonsordren er ferdig, på lignende måte som ved bokføring av monteringsordrer. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md). Kostnadsflyten for monteringsordrer er imidlertid mindre komplisert, spesielt fordi bokføring av monteringskost bare forekommer én gang og derfor ikke genererer lager for varer i arbeid.
 
 
@@ -46,7 +45,7 @@ Verdiene til økninger og reduksjoner registreres i ulike typer produsert behold
 
 Selv om transaksjonsverdiene som er knyttet til kjøpte varer bare posteres som vareposter med tilknyttede verdiposter, blir transaksjoner som er knyttet til produserte varer bokført som kapasitetsposter med tilknyttede verdiposter, i tillegg til varepostene.  
 
-## <a name="posting-structure"></a>Bokføringsstruktur
+## Bokføringsstruktur  
 Bokføring av produksjonsordrer i VIA-beholdningen omfatter avgang, forbruk og kapasitet.  
 
 Diagrammet nedenfor viser de involverte bokføringsrutinene i kodeenhet 22.  
@@ -69,12 +68,12 @@ En verdipost som beskriver VIA-beholdningsverdi kan knyttes til én av følgende
 
 Hvis du vil ha mer informasjon om hvordan kostnader fra produksjon og montering bokføres i Finans, kan du se [Designdetaljer: Lagerbokføring](design-details-inventory-posting.md).  
 
-## <a name="capacity-posting"></a>Kapasitetsbokføring
+## Kapasitetsbokføring  
 Bokføring av avgang fra siste produksjonsordrerutelinjen fører til en kapasitetspost for sluttvaren, i tillegg til en lagerøkning.  
 
  Kapasitetsposten er en registrering av tiden som er brukt på å produsere varen. Den tilknyttede verdiposten beskriver økningen i VIA-beholdningsverdien, som er verdien til konverteringskostnaden. Hvis du vil ha mer informasjon, kan du se "Fra Kapasitetspost" i [Designdetaljer: Konti i Finans](design-details-accounts-in-the-general-ledger.md).  
 
-## <a name="production-order-costing"></a>Produksjonsordrekostnad
+## Produksjonsordrekostnad  
  For å kunne styre lager- og produksjonskostnader må et produksjonsselskap måle kostnaden for produksjonsordrer, fordi den forhåndsdefinerte standardkosten for hver produserte vare kapitaliseres i balansen. Hvis du vil ha informasjon om hvorfor produserte varer bruker lagermetoden Standard, kan du se [Designdetaljer: Kostmetoder](design-details-costing-methods.md).  
 
 > [!NOTE]  
@@ -98,7 +97,7 @@ I standardkostmiljøer er kostberegning for en produksjonsordre basert på følg
     >  Dette er forskjellig fra bokføring av monteringsordrer, der det alltid er faktiske kostnader som bokføres. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md).  
 2.  Når **Ferdig** angis for produksjonsordren, faktureres ordren ved å kjøre kjørselen **Juster kostverdi - vareposter**. Resultatet blir at de totale kostnadene for ordren beregnes basert på standardkost for brukte materialer og kapasitet. Avvikene mellom de beregnede standardkostnadene og de faktiske produksjonskostnadene beregnes og bokføres.  
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)   
  [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md)  
  [Administrere lagerkostnader](finance-manage-inventory-costs.md) [Finans](finance.md)  

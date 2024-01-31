@@ -7,42 +7,43 @@ ms.search.keywords: 'workflow, OData, Power App, SOAP, Entity set not found, wor
 ms.date: 12/13/2023
 ms.author: jswymer
 ms.reviewer: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="troubleshoot-your--automated-workflows"></a>Feilsøk automatisert [!INCLUDE[prod_short](includes/prod_short.md)]-arbeidsflyt
+# Feilsøk automatisert [!INCLUDE[prod_short](includes/prod_short.md)]-arbeidsflyt
 
 Når du kobler [!INCLUDE [prod_short](includes/prod_short.md)] til Power Automate for å opprette automatiserte arbeidsflyter, kan du støte på feilmeldinger. Denne artikkelen gir forslag til problemer som gjentar seg.
 
-## <a name="flow-doesnt-run-on-all-records-created-or-changed"></a>Flyten kjøres ikke på alle poster som er opprettet eller endret
+## Flyten kjøres ikke på alle poster som er opprettet eller endret
 
-### <a name="problem"></a>Problem
+### Problem
 
 Hvis en hendelse oppretter eller endrer mange poster, kjøres ikke flyten i noen av eller alle postene.
 
-### <a name="possible-cause"></a>Mulig årsak
+### Mulig årsak
 
 For øyeblikket er det en grense for hvor mange poster flyten kan behandle. Hvis flere enn 1000 poster opprettes eller endres innen 30 sekunder, blir flyten ikke utløst.
 
 > [!NOTE]
 > For utviklere utføres flytutløsing via webhook-varsler, og denne begrensningen skyldes måten Business Central-koblingen håndterer `collection`-varslinger på. Finn ut mer under [Arbeid med Webhook i Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/api-reference/v2.0/dynamics-subscriptions#notes-for-power-automate-flows) i hjelpen for utviklere og administrasjon.
 
-## <a name="the-response-from-the-business-central-service-is-too-large-error"></a>Feilen "Svaret fra Business Central-tjenesten er for stort"
+## Feilen "Svaret fra Business Central-tjenesten er for stort"
 
-### <a name="problem-1"></a>Problem
+### Problem
 
 Når du bruker en handling som fungerer sammen med poster (for eksempel *Opprett post (V3)* og *Hent post (V3)*), kan Power Automate vise en feil som ligner på denne:
 
 `The response from the Business Central service is too large`
 
-### <a name="possible-cause-1"></a>Mulig årsak
+### Mulig årsak
 
 Selv om Business Central ikke har noen angitt grense for størrelsen på poster som returneres av APIer, kan Dynamics 365 Business Central-koblingen for Power Automate bare håndtere poster opptil åtte MB.
 
 Alle Business Central-APIene for Microsoft returnerer poster under denne grensen, men APIer fra partnere gjør kanskje ikke det. Hvis du ser feilen «Svaret fra Business Central-tjenesten er for stort», kontakter du partneren som opprettet API-en du bruker.
 
-## <a name="entity-set-not-found-error"></a>Feilen Finner ikke enhetssettet
+## Feilen Finner ikke enhetssettet
 
-### <a name="problem-2"></a>Problem
+### Problem
 
 Når du oppretter en ny Power Automate-flyt ved hjelp av en [!INCLUDE[prod_short](includes/prod_short.md)]-godkjenningsutløser, som *Det bes om godkjenning av et kjøpsdokument*, kan det vises en feilmelding som ligner på denne:
 
@@ -50,11 +51,11 @@ Når du oppretter en ny Power Automate-flyt ved hjelp av en [!INCLUDE[prod_short
 
 Plassholderen `\<name\>` er navnet på tjenesten til den manglende nettjenesten, for eksempel *workflowWebhookSubscriptions* eller *workflowPurchaseDocumentLines*.
 
-### <a name="possible-cause-2"></a>Mulig årsak
+### Mulig årsak
 
 Bruk av Power Automate for godkjenninger krever at visse side- og codeunit-objekter er publisert som nettjenester. Som standard publiseres de fleste av de nødvendige objektene som nettjenester. I enkelte tilfeller kan miljøet ha blitt tilpasset slik at disse objektene ikke lenger er publisert.
 
-### <a name="fix"></a>Fast
+### Fast
 
 Gå til siden **Nettjenester**, og kontroller at følgende objekter er publisert som nettjenester. Det skal være en oppføring i listen for hvert objekt med merking for **Publisert**.  
 
@@ -77,7 +78,7 @@ Gå til siden **Nettjenester**, og kontroller at følgende objekter er publisert
 
 Finn ut mer om publisering av nettjenester under [Publisere en nettjeneste](across-how-publish-web-service.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bruk Power Automate-flyter i [!INCLUDE[prod_short](includes/prod_short.md)]](across-how-use-financials-data-source-flow.md)  
 [Arbeidsflyt](across-workflow.md)  

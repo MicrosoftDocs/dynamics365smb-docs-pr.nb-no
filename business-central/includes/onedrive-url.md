@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 Du trenger en nettadresse for å foreta tilkoblingen til OneDrive fra Business Central. Den enkleste måten å få nettadressen på er å logge deg på [OneDrive](https://onedrive.live.com) for organisasjonen. I nettleseradressen ser du en nettadresse med følgende format:
 
 `https://<your Microsoft 365 tenant name>-my.sharepoint.com/personal/<your user name>`

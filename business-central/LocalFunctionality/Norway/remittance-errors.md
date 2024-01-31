@@ -3,32 +3,31 @@ title: 'Remitteringsfeil [NO]'
 description: Remitteringsfeil for betalinger kan oppstå ved overføring av data etter at betalingene er sendt til banken. Disse feilene rapporteres på siden Returfeil.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '15000000, 15000002, 15000004, 15000006, 15000007, 15000010'
 ms.date: 12/07/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="remittance-errors-in-the-norwegian-version"></a>Remitteringsfeil i den norske versjonen
+# Remitteringsfeil i den norske versjonen
 
 Remitteringsfeil for betalinger kan oppstå ved overføring av data og etter at betalingene er sendt til banken. Begge typer feil rapporteres på siden **Returfeil**.  
 
 Remitteringssystemet håndterer alle feilkoder som kan sendes via returfiler. Det er ikke nødvendig å utføre manuelle annulleringer av betalinger som er avvist av banken.  
 
-## <a name="types-of-errors"></a>Feiltyper
+## Feiltyper  
 Det finnes to typer remitteringsfeil:  
 
 - Overføringsfeil  
 - Avvisning  
 
-## <a name="transfer-errors"></a>Overføringsfeil
+## Overføringsfeil  
 Hvis det oppstår feil under overføring, og det ikke opprettes returdata, mottok ikke banken betalingene.  
 
 Hvis betalingsfilen ikke kan sendes til banken, må du annullere oppdraget i remitteringssystemet.  
 
-## <a name="rejections"></a>Avslag
+## Avslag  
 Hvis det oppstår en feil eller mangler informasjon i forbindelse med en betaling som ble sendt til banken, inneholder returen en avvisning av betalingen.  
 
 > [!NOTE]  
@@ -36,7 +35,7 @@ Hvis det oppstår en feil eller mangler informasjon i forbindelse med en betalin
 
 Hvis betalingen avvises, vises feilkoden fra banken samt en forklaring for betalingen på siden **Ventekladd**. Du må håndtere avvisningen, avhengig av hvordan remitteringsavtalen er satt opp. Se [Sett opp remitteringsavtaler](how-to-set-up-remittance-agreements.md) for mer informasjon.  
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)   
  [Sett opp remitteringsavtaler](how-to-set-up-remittance-agreements.md)   
  [Opprette remitteringskontoer](how-to-create-remittance-accounts.md)   

@@ -3,20 +3,19 @@ title: Eksterne dokumentnumre i kjøpsdokumenter
 description: 'Du kan inkludere opplysninger om numrene som leverandørene tilordner til dokumenter som de sender deg, ved hjelp av feltet Eksternt dokumentnummer eller feltet Deres referanse. Les om forskjellen mellom de to feltene her.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 05/27/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="external-document-numbers-on-purchase-documents"></a>Eksterne dokumentnumre i kjøpsdokumenter
+# Eksterne dokumentnumre i kjøpsdokumenter
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
 Du kan også angi eksterne dokumentnumre i salgsdokumenter. Hvis du vil ha mer informasjon, kan du se [Eksterne dokumentnumre](sales-how-invoice-sales.md#external-document-numbers)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Angi eksterne dokumentnumre](across-enter-external-document-numbers.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
