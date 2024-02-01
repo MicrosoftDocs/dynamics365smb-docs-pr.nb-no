@@ -10,13 +10,13 @@ ms.date: 09/14/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Analysere faktiske beløp i forhold til budsjetterte beløp
+# <a name="analyze-actual-amounts-versus-budgeted-amounts"></a>Analysere faktiske beløp i forhold til budsjetterte beløp
 
 Som en del av innsamling, analyse og deling av selskapsdataene viser du faktiske beløp sammenlignet med budsjetterte beløp for alle konti og for flere perioder.
 
 Hvis du vil analysere budsjetterte beløp, må du først opprette finansbudsjetter. Lære mer om [Opprette finansbudsjetter](finance-how-create-budgets.md).
 
-## Vise finansbudsjett
+## <a name="view-a-gl-budget"></a>Vise finansbudsjett
 
 I et budsjett med dimensjoner kan du filtrere postene og se de bestemte budsjettene.
 
@@ -33,7 +33,7 @@ I et budsjett med dimensjoner kan du filtrere postene og se de bestemte budsjett
 > [!TIP]  
 > Bruk handlingen **Rediger budsjett** til å endre budsjettet. På budsjettsiden veger du et beløp for å vise de underliggende finansbudsjettpostene.
 
-## Vise faktiske og budsjetterte beløp for alle konti
+## <a name="view-actual-and-budgeted-amounts-for-all-accounts"></a>Vise faktiske og budsjetterte beløp for alle konti
 
 Du kan vise finansbudsjetter og sammenligne dem med reelle tall, i flere moduler i [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -50,7 +50,7 @@ Kolonnene ytterst til venstre inneholder kontoplanen. Av de fem kolonnene lengst
 > [!TIP]  
 > Bruk **Vis etter**-feltet på siden **Finanssaldo/budsjett** til å velge periodelengden. Bruk **Vis som**-feltet til å velge hvordan beløpene skal beregnes, **Bevegelse** eller **Saldo per dato**. Velg handlingen **Forrige periode** eller **Neste periode** for å endre perioden.  
 
-## Slik viser du faktiske og budsjetterte beløp for flere perioder  
+## <a name="to-view-actual-and-budgeted-amounts-for-several-periods"></a>Slik viser du faktiske og budsjetterte beløp for flere perioder
 
 I stedet for å vise de faktiske og budsjetterte beløpene for alle konti i én enkelt periode, kan du vise et antall perioder for én enkelt konto.  
 
@@ -59,7 +59,7 @@ I stedet for å vise de faktiske og budsjetterte beløpene for alle konti i én 
 3. På hurtigfanen **Alternativer** fyller du ut feltene etter behov for å definere det som vises i tabellen.  
 4. På hurtigfanen **Linjer** holder du pekeren over et felt i tabellen for å lese en kort beskrivelse av beløpet som vises.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Finansforretningsanalyse](bi.md)  
 [Arbeid med finansrapporter](bi-how-work-account-schedule.md)  

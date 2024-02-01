@@ -10,11 +10,11 @@ ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Minimumskrav for å bruke Business Central
+# <a name="minimum-requirements-for-using-business-central"></a>Minimumskrav for å bruke Business Central
 
 Før du åpner [!INCLUDE[prod_short](includes/prod_short.md)] på nettet, anbefaler vi at du kontrollerer at datamaskinen eller mobilenheten oppfyller eller overgår systemkravene for produktet. Denne artikkelen inneholder en oversikt over kravene.  
 
-## Nettlesere
+## <a name="browsers"></a>Nettlesere
 
 **Microsoft Edge:** [!INCLUDE[prod_short](includes/prod_short.md)] er utformet for å fungere med nåværende versjon av Microsoft Edge.
   
@@ -27,13 +27,13 @@ Før du åpner [!INCLUDE[prod_short](includes/prod_short.md)] på nettet, anbefa
 
 Vi anbefaler at du bruker en stabil kanalversjon av en nettleser, da det er den mest pålitelige og stabile versjonen som har gjennomgått omfattende testing og feilretting. Dette sikrer at du får den beste opplevelsen, og at det er mindre sannsynlig at du støter på problemer mens du bruker nettklienten.
 
-## Mobilenheter
+## <a name="mobile-devices"></a>Mobilenheter
 
 **Android (nettbrett og telefon):** Én av de siste tre overordnede operativsystemversjonene og tilhørende oppdateringer.
 
 **iOS (iPad og iPhone):** Én av de siste tre overordnede operativsystemversjonene og tilhørende oppdateringer.
 
-## Outlook
+## <a name="outlook"></a>Outlook
 
 **Outlook-apper:** Hvis du vil bruke [!INCLUDE[prod_short](includes/prod_short.md)] Online som bedriftsinnboks i Outlook, må du ha Outlook 2019 eller nyere, Outlook på nettet, Outlook for iOS eller Outlook for Android. Organisasjonen må også bruke Microsoft 365. Du kan ikke bruke [!INCLUDE[prod_short](includes/prod_short.md)] på nettet som bedriftsinnboks i Outlook hvis organisasjonen bruker Exchange Server lokalt. 
 
@@ -41,7 +41,7 @@ Vi anbefaler at du bruker en stabil kanalversjon av en nettleser, da det er den 
 
 **Plattformer:** Når du bruker [!INCLUDE[prod_short](includes/prod_short.md)]-tillegget for Outlook i Outlook for iOS eller Outlook for Android, krever tillegget at mobilenheten kjører én av de oppførte mobilenhetene som støttes for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## Teams
+## <a name="teams"></a>Teams
 
 **Teams-skrivebordsapper:** [!INCLUDE[prod_short](includes/prod_short.md)]-appen for Teams støtter den nyeste versjonen av Teams Windows-skrivebordsklienten. 
 
@@ -51,11 +51,11 @@ Vi anbefaler at du bruker en stabil kanalversjon av en nettleser, da det er den 
 
 **Støttet abonnement:** [!INCLUDE[prod_short](includes/prod_short.md)]-appen for Teams støtter Microsoft 365 Business- og Enterprise-abonnementer som inneholder Microsoft Teams eller Microsoft Teams EEA, men ikke andre frittstående Teams-abonnementer som Microsoft Teams (gratis) eller Microsoft Teams Essentials.
 
-## Excel
+## <a name="excel"></a>Excel
 
 **Rediger i Excel:** For å bruke Excel-tillegget for å gjøre endringer i Excel og sende endringene tilbake til [!INCLUDE[prod_short](includes/prod_short.md)], må du ha Excel 2019 eller senere. Hvis du vil ha mer informasjon, se [Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md).  
 
-## <a name="TAC"></a> Bruk administrasjonssenteret for Business Central
+## <a name="using-the-business-central-administration-center"></a><a name="TAC"></a>Bruk administrasjonssenteret for Business Central
 
 Administrasjonssenteret er utviklet for å fungere med gjeldende versjon av følgende nettlesere:
 
@@ -64,11 +64,11 @@ Administrasjonssenteret er utviklet for å fungere med gjeldende versjon av føl
 - Firefox for Windows
 - Safari for macOS
 
-## Bruk du Business Central lokalt
+## <a name="use-business-central-on-premises"></a>Bruk du Business Central lokalt
 
 Hvis du vil distribuere Business Central lokalt, må du kontrollere systemkravene. Hvis du vil ha mer informasjon, kan du se [Systemkrav for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v23) og [Distribusjonsoversikt](/dynamics365/business-central/dev-itpro/deployment/deployment).  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Systemkrav for Dynamics 365 Business Central](/dynamics365/business-central/dev-itpro/deployment/system-requirements-business-central-v23)  

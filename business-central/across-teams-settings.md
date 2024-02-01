@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# Endre selskap og andre innstillinger i Teams
+# <a name="changing-company-and-other-settings-in-teams"></a>Endre selskap og andre innstillinger i Teams
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -26,7 +26,7 @@ Du kan åpne siden **Innstillinger** på to måter: 1) fra meldingsboksen eller 
 
    ![Innstillinger for Business Central fra meldingsboks.](media/teams-settings-command-box.png)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversikt over Business Central og Microsoft Teams-integrering](across-teams-overview.md)  
 [Installer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  

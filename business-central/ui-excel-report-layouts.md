@@ -10,7 +10,7 @@ ms.date: 11/10/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Arbeid med Microsoft Excel-oppsett
+# <a name="working-with-microsoft-excel-layouts"></a>Arbeid med Microsoft Excel-oppsett
 
 Oppsett for Microsoft Excel-rapporter er basert på Excel-arbeidsbøker (XLSX-filer). Med dem kan du opprette rapporter som omfatter velkjente Excel-funksjoner for oppsummering, analyse og presentasjon av data for eksempel formler, pivottabeller, pivotdiagrammer.
 
@@ -18,7 +18,7 @@ Oppsett for Microsoft Excel-rapporter er basert på Excel-arbeidsbøker (XLSX-fi
 
 Denne artikkelen forklarer noen av de viktigste tingene du må vite for å komme i gang med Excel-oppsett.
 
-## Hvorfor bruke Excel-oppsett?
+## <a name="why-use-excel-layouts"></a>Hvorfor bruke Excel-oppsett?
 
 Fordeler ved å bruke Excel-oppsett:
 
@@ -31,14 +31,14 @@ Fordeler ved å bruke Excel-oppsett:
   - [Prognose og analyse](https://support.microsoft.com/office/introduction-to-what-if-analysis-22bffa5f-e891-4acc-bf7a-e4645c446fb4)
 - Bruk installerte tillegg og programintegreringer, for eksempel Power Automate-flyter eller OneDrive.
 
-## Kom i gang
+## <a name="get-started"></a>Kom i gang
 
 Det finnes hovedsakelig to oppgaver involvert i konfigurasjonen av et Excel-oppsett i en rapport:
 
 1. Opprett den nye filen for Excel-oppsett.
 2. Legg til det nye oppsettet i rapporten.
 
-## Oppgave 1: Opprett filen for Excel-oppsett
+## <a name="task-1-create-the-excel-layout-file"></a>Oppgave 1: Opprett filen for Excel-oppsett
 
 Dette er tre måter å opprette en Excel-oppsettsfil for en rapport på.
 
@@ -57,13 +57,13 @@ Følg denne fremgangsmåten til å opprette et Excel-oppsett fra alle rapporter,
 
 Hvis det allerede finnes et Excel-oppsett for en rapport, kan du bruke det eksisterende oppsettet som et utgangspunkt. Det finnes to tilnærminger for å få en kopi av oppsettet. Du kan eksportere det eksisterende oppsettet fra siden **Rapportoppsett**, eller du kan laste ned oppsettet fra rapportens forespørselsside. Begge måter laster ned en Excel-oppsettsfil som inneholder alle arkene i den eksisterende filen. Forskjellen er at når du laster den ned fra en forespørselsside, omfatter oppsettet faktiske data. (Dataene er ikke nødvendige, men det hjelper å utforme oppsettet.)
 
-#### Fremgangsmåte 1: Eksporter oppsettet fra siden **Rapportoppsett**
+#### <a name="approach-1-export-the-layout-from-the-report-layouts-page"></a>Fremgangsmåte 1: Eksporter oppsettet fra siden **Rapportoppsett**
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Velg Excel-oppsettet fra oversikten, og velg deretter handlingen **Eksporter oppsett** fra toppen av siden.
 3. Åpne filen i Excel, gjør endringene og lagre deretter filen.
 
-#### Fremgangsmåte 2: Last ned oppsettet fra rapportens forespørselsside
+#### <a name="approach-2-download-the-layout-from-the-reports-request-page"></a>Fremgangsmåte 2: Last ned oppsettet fra rapportens forespørselsside
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. På siden **Rapportoppsett** velger du et oppsett for rapporten, og deretter velger du **Kjør rapport**-handlingen.
@@ -76,7 +76,7 @@ Dette er den mest avanserte metoden for oppretting av et Excel-rapportoppsett. D
 
 ---
 
-## Oppgave 2: Legg til Excel-oppsettet i rapporten
+## <a name="task-2-add-the-excel-layout-to-the-report"></a>Oppgave 2: Legg til Excel-oppsettet i rapporten
 
 Når du har Excel-oppsettsfilen, er den neste oppgaven å legge den til som et nytt oppsett for rapporten.
 
@@ -106,7 +106,7 @@ Når du har Excel-oppsettsfilen, er den neste oppgaven å legge den til som et n
 3. Report metadata 
 -->
 
-## Forstå Excel-oppsett
+## <a name="understanding-excel-layouts"></a>Forstå Excel-oppsett
 
 Det er noen få ting du må vite eller vurdere når oppretter eller gjør endringer i Excel-oppsett. Alle Excel-oppsett må inneholde to elementer: et **Data**-ark og en **Data**-tabell. Disse elementene fra grunnlaget for oppsettet ved å definere forretningsdataene fra Business Central som du kan arbeide med. Du kan betrakte **Data**-arket som en slags kontrakt mellom oppsettet og forretningsdataene. Du skal bruke disse dataene som kilde for beregninger og effekter du vil presentere i andre ark.
 
@@ -128,7 +128,7 @@ I sammendraget er dette det du bør og ikke bør gjøre på **Data**-arket:
 - Ikke legg til noen kolonner med mindre de er inkludert i rapportdatasettet.
 - Du kan plassere arkene i en hvilken som helst rekkefølge, med **Data**-arket først eller sist.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  
 [Endre gjeldende rapportoppsett](ui-how-change-layout-currently-used-report.md)  

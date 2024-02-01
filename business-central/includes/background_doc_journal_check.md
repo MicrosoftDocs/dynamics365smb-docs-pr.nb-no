@@ -5,7 +5,7 @@ ms.date: 02/23/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-## Kontroller data i dokumenter og kladder mens du arbeider
+## <a name="check-data-in-documents-and-journals-while-you-work"></a>Kontroller data i dokumenter og kladder mens du arbeider
 
 I 2022 lanseringsbølge 1 vi innførte en funksjon som validerer dataene du angir i dokumenter og kladder, mens du angir dem. Hvis du for eksempel aktiverer denne funksjonen, unngår du at det oppstår feil i dataregistreringen eller når du ikke kan bokføre noe på grunn av en feil. 
 

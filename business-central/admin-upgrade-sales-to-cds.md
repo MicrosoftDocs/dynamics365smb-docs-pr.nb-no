@@ -9,7 +9,7 @@ ms.date: 06/14/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Oppgradere en integrasjon med Dynamics 365 Sales
+# <a name="upgrading-an-integration-with-dynamics-365-sales"></a>Oppgradere en integrasjon med Dynamics 365 Sales
 [!INCLUDE[prod_short](includes/prod_short.md)] kan integreres med [!INCLUDE[prod_short](includes/cds_long_md.md)], som gjør det enkelt å koble til og synkronisere data med andre Dynamics 365-apper, for eksempel [!INCLUDE[crm_md](includes/crm_md.md)] eller til og med apper du lager selv. Hvis du integrerer for første gang, anbefales det at du gjør det via [!INCLUDE[prod_short](includes/cds_long_md.md)]. Hvis du vil ha mer informasjon, kan du se [Integrasjon med Dataverse](admin-common-data-service.md).
 
 Hvis du allerede har integrert [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)], kan du fortsette å synkronisere data ved hjelp av konfigurasjonen. Hvis du imidlertid oppgraderer [!INCLUDE[prod_short](includes/prod_short.md)] eller slår av [!INCLUDE[crm_md](includes/crm_md.md)]-integreringen, må du slå den på igjen ved å koble til via [!INCLUDE[prod_short](includes/cds_long_md.md)]. 
@@ -17,7 +17,7 @@ Hvis du allerede har integrert [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCL
 > [!NOTE]
 > Når du kobler til på nytt via [!INCLUDE[prod_short](includes/cds_long_md.md)], brukes standard synkroniseringsinnstillinger, og eventuelle konfigurasjoner blir overskrevet. Standard tabelltilordninger vil for eksempel bli brukt.
 
-## Slik oppgraderer du tilkoblingen for å bruke Dataverse
+## <a name="to-upgrade-your-connection-to-use-dataverse"></a>Slik oppgraderer du tilkoblingen for å bruke Dataverse
 1. Åpne siden **Konfigurasjon for Microsoft Dynamics 365-tilkobling** og deaktiver du alternativet **Aktivert**. Lukk deretter siden for å koble fra [!INCLUDE[crm_md](includes/crm_md.md)].
 2. Åpne siden **Dataverse-tilkoblingsoppsett**, og velg **Person** i feltet **Eierskapsmodell**. Velg deretter **Aktivert** for å aktivere tilkoblingen til [!INCLUDE[prod_short](includes/cds_long_md.md)].
   
@@ -33,7 +33,7 @@ Hvis du allerede har integrert [!INCLUDE[crm_md](includes/crm_md.md)] med [!INCL
    > [!IMPORTANT]
    > Hvis du bruker handlingen **Bruk standard synkroniseringsoppsett**, brukes standard integrasjonstabelltilordninger. Alle egendefinerte tilordninger blir overskrevet. Hvis du har egendefinerte tilordninger du vil beholde, anbefaler vi at du eksporterer dem til Excel eller snakker med Microsoft-partneren om andre måter å beholde de egendefinerte tilordningene på.    
 
-## Se også
+## <a name="see-also"></a>Se også
 [Integrere med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Integrere med Microsoft Dataverse](admin-common-data-service.md)
 

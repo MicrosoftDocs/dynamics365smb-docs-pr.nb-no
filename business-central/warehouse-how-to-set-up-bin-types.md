@@ -9,13 +9,13 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Definere hylletyper
+# <a name="set-up-bin-types"></a>Definere hylletyper
 
 Du kan dirigere vareflyten gjennom hyller som du har definert for bestemte lageraktiviteter. Du gir hver hylle de grunnleggende flytaktivitetene, og du definerer måten en hylles skal brukes på ved å tilordne den en hylletype.  
 
 Du kan velge mellom seks typer. Du kan velge å bruke alle de seks mulige hylletypene i lageret, eller du kan velge å bruke bare hylletypene MOTTAK, PLASSPLUKK, LEVERING og KK. Med disse fire hylletypene kan det gis forslag som støtter flyten, og du kan registrere beholdningsavvik.  
 
-## Slik setter du opp de hylletypene du vil bruke
+## <a name="to-set-up-the-bin-types-you-want-to-use"></a>Slik setter du opp de hylletypene du vil bruke
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Hylletyper** og velg den relaterte koblingen.  
 2.  På siden **Hylletyper** oppretter du en kode på 10 tegn for hver hylletype.  
@@ -37,7 +37,7 @@ Nedenfor finner du en liste over de hylletypene du kan opprette.
 |PUTPICK|Varer i hyller som er foreslått både for plasserings- og plukkfunksjoner. Hyller av denne typen har forskjellige hylleprioriteringer. Du kan sette opp masselagringshyllene som denne typen hylle med lave hylleprioriteringer sammenlignet med dine vanlige plukkhyller eller hyller i forhåndsplukkingsområder.|  
 |KK|Denne hyllen brukes til lagerjusteringer hvis du angir denne hyllen på lokasjonskortet i feltet **Hyllekode for justering**. Du kan også sette opp hyller av denne typen for defekte varer og varer som blir kontrollert. Du kan flytte varer til denne typen hylle hvis du vil gjøre dem utilgjengelig for den vanlige vareflyten.<br /><br /> **Obs!** I motsetning til alle andre hylletyper er det ikke merket av for noen av varehåndteringsalternativene for **KK**-hylletypen som standard. Dette angir at alt innhold du plasserer i en KK-hylle er utelukket fra vareflyter.|  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

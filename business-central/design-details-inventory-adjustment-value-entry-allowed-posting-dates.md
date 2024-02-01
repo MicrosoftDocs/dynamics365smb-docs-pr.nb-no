@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Feilmeldingen «Bokføringsdatoen er ikke innenfor tillatte bokføringsdatoer»
+# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Feilmeldingen «Bokføringsdatoen er ikke innenfor tillatte bokføringsdatoer»
 
 Når du bruker kjørselen **Juster kostverdi – vareposter**, kan du støte på følgende feilmelding:
 
@@ -18,7 +18,7 @@ Når du bruker kjørselen **Juster kostverdi – vareposter**, kan du støte på
 
 Denne feilmeldingen angir at brukeren ikke kan bokføre poster for den aktuelle datoen, og dette kan løses ved å endre brukeroppsettet.
 
-## Endre brukeroppsettet  
+## <a name="change-the-user-setup"></a>Endre brukeroppsettet
 
 |Bruker-ID  |Bokf. tillatt fra  | Bokf. tillatt til  |
 |---------|---------|--------|
@@ -26,9 +26,9 @@ Denne feilmeldingen angir at brukeren ikke kan bokføre poster for den aktuelle 
 
 Brukeren i dette tilfellet har et tillatt bokføringstidsrom fra 11. september til 30. september, og kan dermed ikke bokføre justeringsverdiposten med bokføringsdato 10. september.  
 
-### Oversikt over involvert oppsett for bokføringsdato
+### <a name="overview-of-involved-posting-date-setup"></a>Oversikt over involvert oppsett for bokføringsdato
 
-#### Lagerperioder
+#### <a name="inventory-periods"></a>Lagerperioder
 
 |Sluttdato  |Name  |Lukkede  |
 |---------|---------|---------|
@@ -45,7 +45,7 @@ Brukeren i dette tilfellet har et tillatt bokføringstidsrom fra 11. september t
 |2020-11-30     |November   2020   |         |
 |2020-12-31     |Desember   2020   |         |  
 
-#### Finansoppsett
+#### <a name="general-ledger-setup"></a>Finansoppsett
 
 |Felt|Verdi|
 |---------|---------|
@@ -54,7 +54,7 @@ Brukeren i dette tilfellet har et tillatt bokføringstidsrom fra 11. september t
 |Registrer tid:       |         |
 |Lokalt adresseformat:|   Postnr.      |  
 
-#### Brukeroppsett
+#### <a name="user-setup"></a>Brukeroppsett
 
 |Bruker-ID  |Bokf. tillatt fra  | Bokf. tillatt til  |
 |---------|---------|--------|
@@ -62,7 +62,7 @@ Brukeren i dette tilfellet har et tillatt bokføringstidsrom fra 11. september t
 
 Når du tilordner et større intervall for bokføringsdato som i lagerperioden eller finansoppsettet, blir mulig å unngå konflikten som forårsaker feilmeldingen. Justeringsverdiposten med bokføringsdato 10. september bokføres med dette oppsettet.
   
-## Se også  
+## <a name="see-also"></a>Se også
 
 [Designdetaljer: Bokføringsdato på verdiposten for justering](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)  

@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Konfigurere banktjenester
+# <a name="setting-up-banking"></a>Konfigurere banktjenester
 
 Ved hjelp av bankkort kan du holde oversikt over alle bankkontiene, i hvilken som helst valuta. Når du her definert bankkontiene, kan du også bruke alternativet for utskrift av sjekker.
 
@@ -24,7 +24,7 @@ Hvis du vil bruke elektroniske banktjenester til å importere bankkontoutdrag og
 
 [!INCLUDE [local-functionality](includes/local-functionality.md)]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  

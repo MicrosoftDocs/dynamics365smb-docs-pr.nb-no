@@ -11,12 +11,12 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Utvidelsen QuickBooks Datamigrering
+# <a name="the-quickbooks-data-migration-extension"></a>Utvidelsen QuickBooks Datamigrering
 
 Denne utvidelsen gjør det enkelt å overføre kunder, leverandører, varer og konti fra QuickBooks til [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis virksomheten din bruker QuickBooks i dag, kan du eksportere relevant informasjon og deretter åpner en assistert oppsettsveiledning for å laste opp data til [!INCLUDE[prod_short](includes/prod_short.md)].  
 Hvis du vil ha mer informasjon, kan du se [Imporere forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md).
 
-## Data fra QuickBooks Desktop
+## <a name="data-from-quickbooks-desktop"></a>Data fra QuickBooks Desktop
 
 Du kan importere følgende data fra QuickBooks Online til Business Central:
 
@@ -33,7 +33,7 @@ Vi overfører bare hele beløp på salgs- og kjøpsdokumenter. Vi oppdaterer ikk
 > [!NOTE]
 > Vi overfører ikke bestillinger eller ordrer.
 
-## Før du begynner
+## <a name="before-you-start"></a>Før du begynner
 
 En viktig del av overføringen er å angi kontiene som transaksjonene skal overføres til. Det er lurt å planlegge denne tilordningen før du overfører data. Kontiene der du for eksempel bokfører transaksjoner for følgende:
 
@@ -49,18 +49,18 @@ Du må laste ned Microsofts verktøy for dataeksport for å få dataene dine ut 
 > [!NOTE]
 > For tiden fungerer bare dataeksportverktøyet med QuickBooks 2017 og 2018.
 
-## Finn QuickBooks-utvidelse for dataoverføring
+## <a name="finding-the-quickbooks-data-migration-extension"></a>Finn QuickBooks-utvidelse for dataoverføring
 
 Utvidelsen Datamigrering for QuickBooks er installert og klar som en integrert del av den assisterte oppsettsveiledningen for datamigrering. Hvis du er klar til å komme i gang nå og har eksporter dataene fra QuickBooks, velger du ikonet ![Lyspæren som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Assistert oppsett** og velger den relaterte koblingen. Velg **Overfør forretningsdata**, og følg trinnene i veiledningen.  
 
-## Hva gjør jeg etter at jeg har overført dataene?
+## <a name="what-do-i-do-after-i-migrate-data"></a>Hva gjør jeg etter at jeg har overført dataene?
 
 Etter at du har overført dataene, har transaksjoner statusen Ikke bokført, slik at du kan se gjennom dem og foreta justeringer. Hvis du vil se gjennom transaksjonene, går du til siden der de vanligvis er. Hvis du for eksempel vil se gjennom ikke-bokførte salgsfakturaer, går du til siden Salgsfakturaer. Hvis du vil se gjennom utbetalingskladder, går du til siden Utbetalingskladder.
 Det finnes et par spesifikke ting du bør gjøre: Hvis transaksjonene i QuickBooks inneholder påslagsbeløp eller rabattbeløp, må du manuelt legge beløpene til de relaterte transaksjonene i Business Central før du bokfører dem.
 Hvis du bruker merverdiavgift (mva), må du kanskje legge til en bokføringsgruppe for firma og en varebokføringsgruppe i bokføringsoppsettet, slik at du kan bokføre mva-beløp.
 Kontroller startsaldoene for konti i Finans. QuickBooks lagrer ikke gjeldende saldo for alle konti, så du må kanskje rette startsaldoer.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Importer forretningsdata fra andre økonomisystemer](across-import-data-configuration-packages.md)  
 [Tilpass [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
