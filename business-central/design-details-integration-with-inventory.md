@@ -3,9 +3,7 @@ title: Designdetaljer – Integrasjon med lagerbeholdning
 description: Modulen Lagerstyring og modulen Lager samhandler med hverandre i vareopptelling og i lagerjustering.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf

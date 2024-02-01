@@ -3,9 +3,7 @@ title: Feilsøke Microsoft Teams-integrering
 description: Finn ut hva du kan gjøre som administrator for å styre Microsoft Teams-integreringen.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork, troubleshooting, errors'
 ms.date: 09/19/2023
 ms.author: jswymer

@@ -3,9 +3,7 @@ title: Utligne finansposter i lukkede perioder
 description: 'Du kan bokføre postene etter at en bokføringsperiode er lukket, selv om ingen bokføringer ble utført i den perioden.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf

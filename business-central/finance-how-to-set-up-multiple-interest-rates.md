@@ -3,9 +3,7 @@ title: Definer flere rentesatser for forsinket betaling
 description: Dette emnet forklarer hvordan du kan beregne rentebelastning med flere rentesatser for en bestemt periode.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '6, 431, 432, 572'
 ms.date: 06/16/2021
 ms.author: bholtorf

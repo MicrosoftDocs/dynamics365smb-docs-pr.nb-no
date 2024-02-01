@@ -3,15 +3,14 @@ title: Konfigurere arbeidsflytbrukere
 description: 'Før du kan opprette arbeidsflyter, må du definere brukerne som deltar i dem på siden Brukeroppsett for godkjenning.'
 author: brentholtorf
 ms.topic: how-to
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'reject, delegate, request'
 ms.search.form: '1533,'
 ms.date: 05/31/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-a-sequence-of-workflow-users"></a>Definer en sekvens med arbeidsflytbrukere
+# Definer en sekvens med arbeidsflytbrukere
 
 Før du kan opprette godkjenningsarbeidsflyter, må du definere brukerne som skal sende inn forespørsler og godkjennerne. Du kan for eksempel angi hvem som skal varsles om å utføre en handling på et arbeidsflyttrinn. Du setter opp arbeidsflytdeltakere på side **Brukeroppsett for godkjenning**. Finn ut mer under [Definer godkjenningsbrukere](across-how-to-set-up-approval-users.md).
 
@@ -19,7 +18,7 @@ På siden **Brukergrupper for arbeidsflyt** kan du angi hvor en deltaker skal en
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-## <a name="to-set-up-a-workflow-user-group"></a>Slik konfigurerer du en arbeidsflytbrukergruppe
+## Slik konfigurerer du en arbeidsflytbrukergruppe
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Arbeidsflytbrukergrupper**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Siden **Brukergruppe for arbeidsflyt** åpnes.  
@@ -34,7 +33,7 @@ På siden **Brukergrupper for arbeidsflyt** kan du angi hvor en deltaker skal en
 
 6. Gjenta trinn 5 for å legge til flere arbeidsflytbrukere for arbeidsflytbrukergruppen.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)  
 [Konfigurer godkjenningsarbeidsflyter](across-set-up-workflows.md)  

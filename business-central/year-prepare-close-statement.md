@@ -3,9 +3,7 @@ title: Oversikt over rapporter for å klargjøre avslutningsoppgaver | Microsoft
 description: Gir en oversikt over rapporter du kan bruke til å innhente informasjonen for å klargjøre selskapets avslutningsoppgaver når regnskapsåret er over.
 author: jswymer
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments, assets, liabilities, equity, analysis, reporting, financial report, business intelligence, BI, Power Bi, KPI'
 ms.date: 04/01/2021
 ms.author: jswymer

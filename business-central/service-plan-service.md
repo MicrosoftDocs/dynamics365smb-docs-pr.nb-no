@@ -3,9 +3,7 @@ title: Planlegge serviceprosesser
 description: Dette emnet gir en oversikt over ulike oppgaver for å definere regler og verdier som definerer serviceprinsipper og -prosesser.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'service, work hours, configure, price, pricing'
 ms.date: 06/23/2021
 ms.author: bholtorf

@@ -1,16 +1,15 @@
 ---
-title: Designdetaljer – Lagerverdisetting | Microsoft-dokumentasjon
+title: Designdetaljer – lagerverdisetting | Microsoft Docs
 description: Lagerverdisetting er fastsettelse av kostnadene for en lagervare.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/08/2021
+ms.date: 12/13/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-inventory-valuation"></a>Designdetaljer: Lagerverdisetting
+# Utformingsdetaljer: Lagerverdisetting
 Lagerverdisetting fastsettelse av kostnadene som er tilordnet en lagervare, som uttrykt med følgende ligning.  
 
 Sluttbeholdning = startbeholdning + nettokjøp – solgte varers kost  
@@ -19,7 +18,7 @@ Beregningen av lagerverdien bruker feltet **Kostbeløp (faktisk)** i verdiposten
 
 Poster utlignes mot hverandre med ved fast utligning eller i henhold til generell kostflytforutsetning angitt av lagermetoden. Én lagerreduksjonspost kan brukes til flere enn én økningspost med ulike bokføringsdatoer og eventuell annen anskaffelseskost. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Vareutligning](design-details-item-application.md). Beregningen av lagerverdien for en gitt dato er derfor basert på summering av positive og negative verdiposter.  
 
-## <a name="inventory-valuation-report"></a>Rapporten Lagerverdisetting
+## Rapporten Lagerverdisetting  
 For å beregne lagerverdien i **Lagerverdisetting**-rapporten begynner den ved å beregne verdien til beholdningen for varen på en gitt startdato. Deretter blir verdien av lagerøkningene lagt til, og verdien av lagerreduksjoner opptil en bestemt sluttdato, blir trukket fra. Sluttresultatet er lagerverdien på sluttdatoen. Rapporten beregner disse verdiene ved å summere verdiene i feltet **Kostbeløp (faktisk)** i verdipostene, og bruker bokføringsdatoene som filtre.  
 
 Utskriften av rapporten viser også faktiske beløp, det vil si kostnad for poster som er bokført som fakturerte poster. Rapporten skriver også ut forventet kostnad for poster som er bokført som mottatt eller levert, hvis du velger feltet Ta med forventet kostnad på hurtigfanen Alternativer.  
@@ -30,7 +29,7 @@ Utskriften av rapporten viser også faktiske beløp, det vil si kostnad for post
 > [!IMPORTANT]  
 >  Beløp i **Verdi**-kolonnene i rapporten er basert på bokføringsdatoen for transaksjoner for en vare.  
 
-## <a name="inventory-valuation---wip-report"></a>Rapporten Lagerverdisetting - VIA
+## Rapporten Lagerverdisetting – VIA  
 Et produksjonsfirma må fastslå verdien av tre typer beholdning:  
 
 * Råvarerbeholdning  
@@ -43,15 +42,15 @@ Verdien til VIA-beholdning fastsettes med formelen nedenfor:
 
 Verdipostene er grunnlaget for lagerverdien for kjøpt lagerbeholdning. Beregningen gjøres ved hjelp av verdiene i feltet **Kostbeløp (faktisk)** i verdipostene for vare og kapasitet som er knyttet til en produksjonsordre.  
 
-Formålet med VIA-lagerverdisetting er å fastslå verdien til varer som ennå ikke er ferdigprodusert, på en gitt dato. VIA-lagerverdien er derfor basert på verdipostene som er knyttet til forbruks- og kapasitetspostene. Forbruksposter må faktureres fullstendig på datoen for verdisettingen. Rapporten **Lagerverdisetting – VIA** viser derfor kostnadene som representerer VIA-lagerverdien, i to kategorier: forbruk og kapasitet.  
+Formålet med VIA-lagerverdisetting er å fastslå verdien til varer som ennå ikke er ferdigprodusert, på en gitt dato. VIA-lagerverdien er derfor basert på verdipostene som er knyttet til forbruks- og kapasitetspostene. Forbruksposter må faktureres på datoen for verdisettingen. Rapporten **Lagerverdisetting – VIA** viser derfor kostnadene som representerer VIA-lagerverdien, i to kategorier: forbruk og kapasitet.  
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Designdetaljer: Avstemming med konti i Finans](design-details-reconciliation-with-the-general-ledger.md)   
 [Designdetaljer: Revaluering](design-details-revaluation.md)   
-[Designdetaljer: Bokføre produksjonsordre](design-details-production-order-posting.md)
-[Administrere lagerkostnader](finance-manage-inventory-costs.md)  
+[Utformingsdetaljer: Bokføring av produksjonsordre](design-details-production-order-posting.md)  
+[Administrere lagerkostnader](finance-manage-inventory-costs.md)    
 [Finans](finance.md)  
-[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

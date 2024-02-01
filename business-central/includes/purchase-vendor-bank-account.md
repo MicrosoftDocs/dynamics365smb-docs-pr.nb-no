@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 08/03/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Leverandører** og velger den relaterte koblingen.

@@ -7,9 +7,10 @@ ms.search.keywords: 'administration, admin, key, optional, feature management, e
 ms.search.form: 2610
 ms.date: 06/14/2021
 ms.author: mikebc
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="enabling-new-and-upcoming-features-ahead-of-time"></a>Aktivere nye og kommende funksjoner på forhånd
+# Aktivere nye og kommende funksjoner på forhånd
 
 Noen nye funksjoner kan aktiveres på forhånd, slik at du kan dra nytte av dem så tidlig som mulig. Ved å aktivere funksjoner tidlig får du tid til å teste og klargjøre organisasjonen for endring.
 
@@ -17,7 +18,7 @@ Når Microsoft utgir funksjoner eller forbedringer i funksjonsutformingen som en
 
 Finn ut mer om [Funksjonsstyring](/dynamics365/business-central/dev-itpro/administration/feature-management).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Nye og planlagte funksjoner](/dynamics365-release-plan/2021wave1/)  
 

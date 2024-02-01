@@ -3,9 +3,7 @@ title: Skriv inn data i Business Central
 description: 'Det finnes flere generelle funksjoner som hjelper deg å registrere data raskere, enklere og mer nøyaktig. De grunnleggende prinsippene og de avanserte funksjonene beskrives her.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'decimal separator, data entry, focus'
 ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.date: 03/23/2022

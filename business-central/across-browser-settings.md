@@ -1,26 +1,27 @@
 ---
-title: Konfigurere nettleseren
+title: Konfigurer nettleseren
 description: Beskriver hvordan du konfigurerer nettlesere for å arbeide med Business Central og produkter som integreres med det.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Teams, web client, troubleshooting, errors'
-ms.date: 04/01/2021
+ms.date: 12/04/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-and-troubleshooting-your-browser-to-work-with-business-central-web-client"></a>Konfigurere og feilsøke nettleseren for å arbeide med Business Central-nettklienten
+# Konfigurer og feilsøk nettleseren for å arbeide med Business Central-nettklienten
 
-Denne artikkelen forklarer hvordan du konfigurerer nettleseren slik at [!INCLUDE[web_client](includes/web_client.md)] og alle funksjonene fungerer som de skal. Les denne artikkelen hvis du har problemer med å åpne [!INCLUDE[web_client](includes/web_client.md)], fordi noen problemer kan være forårsaket av innstillingene i nettleseren.
+Denne artikkelen forklarer hvordan du konfigurerer nettleseren slik at [!INCLUDE[web_client](includes/web_client.md)] og alle funksjonene fungerer som de skal. Les denne artikkelen hvis du har problemer med å åpne [!INCLUDE[web_client](includes/web_client.md)]. Nettleserinnstillingene kan være årsaken til noen problemer.
 
 Artikkelen inneholder detaljer om hvordan du konfigurerer Microsoft Edge, men kravene til JavaScript, informasjonskapsler og popup-vinduer er de samme for alle nettlesere som støttes. Se instruksjonene fra produsenten for andre nettlesere.  
 
-## <a name="use-a-supported-browser"></a>Bruk en nettleser som støttes
+## Bruk en nettleser som støttes
 
-Pass på at du bruker en av de støttede nettleserne. Se [Minimumskrav for å bruke Business Central](product-requirements.md#browsers).  
+Pass på at du bruker en av de støttede nettleserne. Se [Minimumskrav for å bruke Business Central](product-requirements.md#browsers).
 
-## <a name="allow-javascript-from-business-central"></a>Tillat JavaScript fra Business Central
+Vi anbefaler at du bruker en stabil kanalversjon av en nettleser, da det er den mest pålitelige og stabile versjonen som har gjennomgått omfattende testing og feilretting. Dette sikrer at du får den beste opplevelsen, og at det er mindre sannsynlig at du støter på problemer mens du bruker nettklienten.  
+
+## Tillat JavaScript fra Business Central
 
 *Problem:*
 
@@ -32,12 +33,12 @@ The resource you are looking for has been removed, had its name changed, or is t
 *Løsning:*
 
 1. I Microsoft Edge går du til **Innstillinger** > **Informasjonskapsler og områdetillatelser** > **JavaScript**.
-2. Gjør ett av følgende: Velg det trinnet som organisasjonen anbefaler:
+2. Gjør ett av følgende: Velg trinnet som organisasjonen anbefaler:
 
     - Flytt **Tillatte**-vekslebryteren mot venstre (Av). Deretter velger du **Legg til** og skriver inn adressen (URL) for [!INCLUDE[prod_short](includes/prod_short.md)] i **Område**-boksen. Velg **Legg til** når du er ferdig.
     - Flytt **Tillatte**-vekslebryteren mot høyre (På).
 
-## <a name="allow-cookies-from-business-central"></a>Tillat informasjonskapsler fra Business Central
+## Tillat informasjonskapsler fra Business Central
 
 *Problem:*
 
@@ -50,7 +51,7 @@ Hvis nettleseren ikke tillater informasjonskapsler, får du følgende feilmeldin
 1. I Microsoft Edge går du til **Innstillinger** > **Informasjonskapsler og områdetillatelser** > **Informasjonskapsler og områdedata**.
 2. Flytt **Tillat områder å lagre og lese informasjonskapseldata**-vekslebryteren mot høyre (På).  
 
-## <a name="allow-pop-ups-from-business-central"></a><a name="popup"></a>Tillat popup-vinduer fra Business Central
+## <a name="popup"></a>Tillat popup-vinduer fra Business Central
 
 [!INCLUDE[prod_short](includes/prod_short.md)] integreres med flere produkter. I noen tilfeller, for eksempel med Microsoft Teams, åpnes [!INCLUDE[prod_short](includes/prod_short.md)] eller popup-vinduer i produktet. Denne funksjonen krever at nettleseren tillater popup-vinduer fra [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -75,7 +76,7 @@ Try again
 2. Flytt **Blokkert**-vekslebryteren mot høyre (På).
 3. Velg **Legg til**. I **Område**-boksen skriver du inn `https://businesscentral.dynamics.com` og velger **Legg til**.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Feilsøke Teams](admin-teams-troubleshooting.md)  
 

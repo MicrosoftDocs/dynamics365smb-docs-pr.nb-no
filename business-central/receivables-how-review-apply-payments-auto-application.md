@@ -3,9 +3,7 @@ title: Se gjennom og utligne betalinger manuelt etter automatisk utligning
 description: 'Etter at betalingene er utlignet automatisk, kan du se gjennom alle postene for en betaling og manuelt utligne de som ble uriktig utlignet, på nytt.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'payment process, reconcile payment, expenses, cash receipts'
 ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021

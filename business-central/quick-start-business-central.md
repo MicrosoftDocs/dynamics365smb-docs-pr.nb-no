@@ -3,12 +3,11 @@ title: Hurtigstart for Business Central
 description: Kom i gang med Business Central med hurtigstartartikler og tips som hjelper deg med å fylle ut de første kritiske feltene.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: quickstart
 ms.date: 08/25/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 # Hurtigstart for Business Central

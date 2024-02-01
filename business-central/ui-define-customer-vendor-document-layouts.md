@@ -3,9 +3,7 @@ title: Tilordne dokumentoppsett til kunder eller leverandører
 description: Bruk dokumentoppsett til å kontrollere utseendet og formatet til dokumenter som fakturaer og ordrer du sender til kunder og leverandører.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'customized report, document layout, logo, personalize'
 ms.search.form: '21, 9650'
 ms.date: 04/07/2022

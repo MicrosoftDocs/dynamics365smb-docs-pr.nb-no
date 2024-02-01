@@ -3,12 +3,11 @@ title: Bruke Business Central uten Outlook
 description: 'Hvis du ikke har Outlook, kan du ikke bruke Business Central som innboks for virksomheten i Outlook, men du kan arbeide i en nettleser eller på den mobile enheten.'
 author: brentholtorf
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'SMTP, mail, Microsoft 365'
 ms.date: 12/11/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Bruk Business Central uten Outlook
 [!INCLUDE[prod_short](includes/prod_short.md)] har en tett integrasjon med Microsoft 365, og du kan bruke [!INCLUDE[prod_short](includes/prod_short.md)] som innboks for virksomheten i Outlook. Hvis du ikke har Outlook, kan du arbeide med [!INCLUDE[prod_short](includes/prod_short.md)] i nettleseren eller på mobilenheten.  

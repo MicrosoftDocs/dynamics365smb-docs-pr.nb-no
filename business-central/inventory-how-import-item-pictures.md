@@ -3,9 +3,7 @@ title: Importer mange varebilder fra en ZIP-fil
 description: 'For å importere flere varebilder gir du bildefilene navn som svarer til dine varenumre, komprimerer dem til en zip-fil, og bruker Importer varebilder-siden.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'product, image'
 ms.search.form: '30, 461'
 ms.date: 06/16/2021

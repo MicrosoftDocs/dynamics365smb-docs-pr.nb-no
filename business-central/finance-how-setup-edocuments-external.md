@@ -3,9 +3,7 @@ title: Angi koblingen E-dokumenter med eksterne endepunkter
 description: Denne artikkelen forklarer hvordan du konfigurerer funksjonalitet for e-dokumenter når den kobles til eksterne endepunkter.
 author: altotovi
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice, access-point, endpoint'
 ms.search.form: '359, 360, 6103, 6133'
 ms.date: 12/13/2023

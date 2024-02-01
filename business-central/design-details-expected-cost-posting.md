@@ -3,9 +3,7 @@ title: Designdetaljer – Bokføring av forventet kost
 description: 'Forventede kostnader representerer for eksempel overslaget for kjøpspris for en vare du registrerer, før du faktisk mottar fakturaen for varen.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 07/20/2021
 ms.author: bholtorf

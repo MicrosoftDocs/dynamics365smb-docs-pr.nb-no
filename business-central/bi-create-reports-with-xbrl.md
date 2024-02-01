@@ -3,12 +3,11 @@ title: Opprette rapporter med XBRL
 description: 'XBRL er et XML-basert språk for merking av økonomiske data, slik at selskaper kan behandle og dele data på en effektiv og nøyaktig måte.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 09/14/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Opprette rapporter med XBRL
 

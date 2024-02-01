@@ -3,9 +3,7 @@ title: 'Kontroller remitteringsoppdrag [NO]'
 description: 'Etter at du har opprettet remitteringsoppdrag og generert forslag, kan du kontrollere at det ikke finnes feil i utbetalingskladdelinjene før du bokfører dem i den norske versjonen av Business Central.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '15000000, 15000002, 15000004, 15000006, 15000007, 15000010'
 ms.date: 04/01/2021

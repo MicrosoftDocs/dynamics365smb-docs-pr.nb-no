@@ -3,9 +3,7 @@ title: Bruk Business Central med Outlook
 description: 'Denne tjenesten er tett integrert med Microsoft 365, slik at du kan behandle alle forretningssamhandlinger og e-postmeldinger med kunder og leverandører direkte i Outlook.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'SMTP, mail, Microsoft 365'
 ms.date: 04/21/2022
 ms.author: jswymer

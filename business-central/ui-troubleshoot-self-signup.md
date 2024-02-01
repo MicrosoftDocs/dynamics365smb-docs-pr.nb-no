@@ -3,9 +3,7 @@ title: Feilsøke registrering for Self-Service | Microsoft-dokumentasjon
 description: Finn ut mer om de vanligste årsakene til at du kanskje ikke kan fullføre registreringen for Business Central og hvordan du kan løse dem.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central

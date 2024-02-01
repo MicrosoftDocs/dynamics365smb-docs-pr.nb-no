@@ -3,9 +3,7 @@ title: Opprette serviceordrer
 description: 'Lær ulike oppgaver i forbindelse med oppretting av serviceordrer i Business Central, for eksempel oppretting av en ny serviceordre eller ordre basert på en servicekontrakt.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

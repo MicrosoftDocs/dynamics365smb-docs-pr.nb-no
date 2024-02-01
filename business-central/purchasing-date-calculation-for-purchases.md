@@ -3,9 +3,7 @@ title: Beregn datoer for kjøp
 description: Denne artikkelen beskriver hvordan du kan beregne datoer for kjøp.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'purchase order, purchase, date, receipt, delivery, lead time'
 ms.search.forms: null
 ms.date: 10/28/2022

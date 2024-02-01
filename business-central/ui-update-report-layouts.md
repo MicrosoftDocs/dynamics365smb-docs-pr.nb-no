@@ -3,9 +3,7 @@ title: Oppdatere egendefinerte rapportoppsett
 description: Lær hvordan du oppdaterer et egendefinert rapportoppsett som brukes i en rapport når det for eksempel finnes utformingsendringer i rapportens datasett.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '9652, 9650'
 ms.date: 06/24/2021
 ms.author: bholtorf

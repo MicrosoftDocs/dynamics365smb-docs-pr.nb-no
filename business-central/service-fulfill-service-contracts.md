@@ -3,9 +3,7 @@ title: Oversikt over oppgavene som oppfyller servicekontrakter
 description: 'Beskriver oppgaver som er involvert i å oppfylle servicekontrakter med kundene, for eksempel å sette opp standard kontraktsavtaler med maler som kan tilpasses, med mer.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'contract, agreement, configure'
 ms.date: 06/23/2021
 ms.author: bholtorf

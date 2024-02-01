@@ -3,21 +3,20 @@ title: Vis tabellinformasjon
 description: Lær hvordan du kan vise informasjon om databasetabellene i Business Central.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 8700
 ms.date: 10/11/2023
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
-# <a name="viewing-table-information"></a>Vise tabellinformasjon
+# Vise tabellinformasjon
 
 Siden **8700 Tabellinformasjon** inneholder informasjon om antall poster i alle system- og forretningstabeller i [!INCLUDE[prod_short](includes/prod_short.md)] og hvor mye data hver tabell inneholder.
 
 Denne informasjonen er nyttig for å feilsøke ytelsesproblemer, siden dette gir deg muligheten til å se fordelingen av datastørrelsen på tvers av tabeller.
 
-## <a name="view-table-information"></a>Vis tabellinformasjon
+## Vis tabellinformasjon
 
 Du kan åpne denne siden ved å velge ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport") og angi **Tabellinformasjon**, og velg deretter den relaterte koblingen.
 
@@ -42,7 +41,7 @@ Følgende tabell beskriver opplysningene som er gitt for hver tabell:
 > Siden **Tabellinformasjon** viser data og indeksstørrelser, og summen av tabellstørrelser vil ikke samsvare med den totale kapasiteten som brukes, fordi den viser datastørrelsen, ikke den faktiske tildelte størrelsen. Tildelt plass er alltid større enn brukt plass for å unngå å måtte tildele plass på hver innsetting, noe som begrenser ytelsen betydelig
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Kontrollere sider](across-inspect-page.md)  
 [Ytelsesartikler for utviklere](/dynamics365/business-central/dev-itpro/performance/performance-developer)  

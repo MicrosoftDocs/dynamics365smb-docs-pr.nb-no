@@ -3,9 +3,7 @@ title: Anbefalte fremgangsmåter for oppsett – Planleggingsparametere
 description: Dette emnet beskriver de beste fremgangsmåtene for å definere valgte planleggingsparameterfelter med hurtigfanen Planlegging på varekortet.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

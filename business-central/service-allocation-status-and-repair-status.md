@@ -3,9 +3,7 @@ title: Tildelingsstatus og reparasjonsstatus | Microsoft-dokumentasjon
 description: Finn ut mer om forholdet mellom reparasjonsstatusen til servicevarer og tildelingsstatusen til tildelingspostene for dem.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'resources, allocation, status, repairs'
 ms.date: 04/01/2021
 ms.author: bholtorf

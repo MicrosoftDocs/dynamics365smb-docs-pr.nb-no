@@ -3,9 +3,7 @@ title: Utforske og navigere sider per rolle
 description: 'Du kan få en oversikt over alle forretningsfunksjonene som er tilgjengelige for din rolle, og for andre roller med rolleutforskeren.'
 author: jswymer
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'role explorer, find features, navigate'
 ms.search.form: 'RoleExplorer, 9020, 9022, 9027, 9024'
 ms.date: 08/01/2021

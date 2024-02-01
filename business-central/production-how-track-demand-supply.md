@@ -3,9 +3,7 @@ title: Spore relasjoner mellom behov og forsyning
 description: 'Dette emnet forklarer de forskjellige måtene å spore relasjoner mellom behov og forsyning, for eksempel sporing av koblede varer og håndtering av ikke-sporede planleggingselementer.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '5830, 9101, 99000822, 99000855'
 ms.date: 06/25/2021
 ms.author: bholtorf

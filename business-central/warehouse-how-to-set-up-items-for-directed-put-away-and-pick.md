@@ -3,9 +3,7 @@ title: Definer varer og lokasjoner for lagerstyring
 description: Lagerstyring gir deg funksjonalitet for å kjøre lageret effektivt.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: null
 ms.date: 11/07/2022

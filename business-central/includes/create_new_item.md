@@ -3,9 +3,10 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/24/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 22.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 22.](../media/ui-search/search_small.png "Søkeforstørrelsesglass") og angi **Varer** og velg den relaterte koblingen.  
 2. På siden **Varer** velger du handlingen **Ny**.
 
     Hvis det bare finnes én varemal, åpnes et nytt varekort med noen felt som er fylt ut med informasjon fra malen.

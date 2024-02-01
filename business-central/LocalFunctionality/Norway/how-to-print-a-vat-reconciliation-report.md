@@ -3,9 +3,7 @@ title: 'Skriv ut en mva-avstemmingsrapport [NO]'
 description: Rapporten MVA-avstemming viser avstemmingsoppgjøret for grunnbeløpet og mva-beløpet for finanskontoer.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '10602, 10697, 10698, 10604, 315, 472, 473, 471, 317'
 ms.date: 11/28/2023

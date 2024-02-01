@@ -3,9 +3,7 @@ title: Vise statusen for synkroniseringsjobber (inneholder video)
 description: Bruk siden Feil ved synkronisering av koblede data for å vise statusen til synkroniseringsjobber som har blitt kjørt for koblede poster i integreringer.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'sales, crm, integration, sync, synchronize'
 ms.search.form: 6250
 ms.date: 06/14/2021

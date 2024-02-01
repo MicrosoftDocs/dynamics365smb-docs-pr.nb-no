@@ -3,9 +3,7 @@ title: Legge til kommentarer i kort og dokumenter
 description: 'Legg til tilleggsinformasjon for kontoer, kundekort eller ordrer for å formidle avtaler, for eksempel en spesiell pris eller leveringsmetoden, for andre brukere.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'tasks, work'
 ms.search.form: '124, 30'
 ms.date: 04/01/2021

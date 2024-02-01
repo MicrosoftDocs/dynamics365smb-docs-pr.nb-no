@@ -3,9 +3,7 @@ title: Opprette servicevarer
 description: 'Les om ulike måter du kan opprette servicevarer på i Business Central, for eksempel i en serviceordre eller når du leverer varer.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

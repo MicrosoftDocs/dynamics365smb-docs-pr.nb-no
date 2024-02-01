@@ -3,9 +3,7 @@ title: Installer Business Central-appen i Microsoft Teams
 description: Hvordan du installerer Business Central-appen for Microsoft Teams.
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, collaborate, collaboration, teamwork'
 ms.date: 04/12/2021
 ms.author: jswymer

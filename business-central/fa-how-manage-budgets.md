@@ -3,9 +3,7 @@ title: Administrer aktivabudsjetter
 description: 'Du kan definere informasjon om fremtidige investeringer, salg og avskrivning av aktiva for å bidra til å klargjøre budsjetter og prognoser.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: forecast
 ms.search.form: '5610, 5611'
 ms.date: 04/01/2021

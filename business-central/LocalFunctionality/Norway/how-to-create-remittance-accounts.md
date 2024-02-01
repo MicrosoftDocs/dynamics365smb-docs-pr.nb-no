@@ -3,13 +3,12 @@ title: 'Opprett remitteringskontoer [NO]'
 description: Følgende artikkel forklarer hvordan du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres i den norske versjonen av Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '15000000, 15000002, 15000004, 15000006, 15000007, 15000010'
 ms.date: 12/06/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Opprett remitteringskonti i den norske versjonen
 

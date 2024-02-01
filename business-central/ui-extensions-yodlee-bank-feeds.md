@@ -3,15 +3,14 @@ title: Betalingsavstemming med Envestnet Yodlee Bank Feeds-utvidelsen
 description: 'Beskriver Envestnet Yodlee Bank Feeds-utvidelsen, som kobles til bankkonti, slik at du raskt kan avstemme betalinger.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'app, add-in, manifest, customize, stream, bank account link'
 ms.search.form: '1450, 1451, 1452, 1453, 1454, 1458, 1460,'
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="the-envestnet-yodlee-bank-feeds-extension"></a>Envestnet Yodlee Bank Feeds-utvidelsen
+# Envestnet Yodlee Bank Feeds-utvidelsen
 
 Hvis du raskt vil avstemme betalinger til bankkonti, lar tjenesten Envestnet Yodlee Bank Feeds deg koble systembankkontoen din til nettbankkontoen. Dette betyr at det siste bankkontoutdraget automatisk eller manuelt mates inn i avstemmingskladden, noe som sikrer at du alltid behandler de siste betalingene med minimal risiko for feil.
 
@@ -34,13 +33,13 @@ Envestnet Yodlee Bank Feeds-tjenesten gir følgende fordeler:
 * Støtter manuelle og automatiske bankfeeder.
 * Tillater outsourcing av betalingsavstemming til en regnskapsfører ved å gi tilgang til bankkontoutdrag.
 
-## <a name="available-bank-feeds"></a>Tilgjengelige bankfeeder
+## Tilgjengelige bankfeeder
 
 Du kan kontrollere om en bank er støttet, ved å definere og koble til Envestnet Yodlee Bank Feeds-tjenesten. Banken vil vises i oversikten hvis den støttes av Envestnet Yodlee.
 
 Hvis du vil ha mer informasjon, kan du se [Konfigurere Envestnet Yodlee Bank Feeds-tjenesten](bank-how-setup-bank-statement-service.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)  
 [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md)  

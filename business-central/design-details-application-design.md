@@ -3,12 +3,11 @@ title: Utformingsdetaljer for programmet
 description: Dette innholdet omfatter detaljert teknisk informasjon om komplekse programfunksjoner i Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/13/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Utformingsdetaljer for programmet
 
@@ -18,7 +17,7 @@ Innhold i designdetaljer er rettet mot implementerere, utviklere og superbrukere
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
-|Forstå mekanismene i kostmotoren, for eksempel lagermetode og kostjustering, og hvilke regnskapsprinsipper de er utformet for.|[Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)|  
+|Forstå mekanismene i kostmotoren, for eksempel lagermetode og kostjustering, og hvilke regnskapsprinsipper de er utformet for.|[Utformingsdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)|  
 |Finn ut mer om hvordan kjørselen Juster kostverdi – vareposter identifiserer og tilordner en bokføringsdato til verdipostene som kjørselen skal opprette.|[Designdetaljer: Bokføringsdato på verdiposten for justering](design-details-inventory-adjustment-value-entry-posting-date.md)|
 |Finn ut mer om utformingen for lagring og bokføring av dimensjoner, inkludert kodeeksempler på hvordan du kan flytte og oppgradere dimensjonskode.|[Designdetaljer: Dimensjonssettposter](design-details-dimension-set-entries-overview.md)|
 |Lær hvordan planleggingssystemet fungerer og hvordan du justerer algoritmene for å oppfylle krav i forskjellige miljøer.|[Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)|  
@@ -30,8 +29,8 @@ Innhold i designdetaljer er rettet mot implementerere, utviklere og superbrukere
 
 [Planlegging](production-planning.md)  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
-[Oversikt over Warehouse Management](design-details-warehouse-management.md)
-[Konfigurer komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)  
+[Oversikt over lagerstyring](design-details-warehouse-management.md)  
+[Konfigurere komplekse moduler ved å bruke anbefalte fremgangsmåter](set-up-complex-application-areas-using-best-practices.md)    
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

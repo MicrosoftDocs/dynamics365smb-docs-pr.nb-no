@@ -3,9 +3,7 @@ title: Designdetaljer – Konti i Finans | Microsoft-dokumentasjon
 description: 'Hvis du vil avstemme lager- og kapasitetsposter med Finans, bokføres de tilknyttede verdipostene på ulike konti i finans.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/08/2021
 ms.author: bholtorf

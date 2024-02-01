@@ -3,9 +3,7 @@ title: Vise arkiverte forekomster av arbeidsflyttrinn
 description: Alle fullførte forekomster for arbeidsflyttrinn lagres på siden Arkiverte forekomster for arbeidsflyttrinn. Hvert trinn består av en arbeidsflythendelse og et arbeidsflytssvar.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '1530,'
 ms.date: 09/09/2022

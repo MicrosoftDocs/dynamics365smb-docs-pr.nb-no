@@ -10,7 +10,6 @@ ms.collection:
   - bap-ai-copilot
 ms.date: 10/25/2023
 ms.custom: bap-template
-ms.service: dynamics-365-business-central
 ---
 
 # Avstemme bankkontoer med Copilot (forhåndsversjon)

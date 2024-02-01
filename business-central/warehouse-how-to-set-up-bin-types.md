@@ -3,12 +3,11 @@ title: Definere hylletyper
 description: 'Tilordne typer og grunnleggende flytaktiviteter til hyller, og definer deretter hvordan hyllene brukes til bestemte lageraktiviteter.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 7367
 ms.date: 06/25/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 # Definere hylletyper
 

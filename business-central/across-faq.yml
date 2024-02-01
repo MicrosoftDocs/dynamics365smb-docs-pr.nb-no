@@ -5,8 +5,9 @@ metadata:
   author: brentholtorf
   ms.topic: faq
   ms.search.keywords: 'FAQ, email, Microsoft 365, subscription, subscribe, trial, plan, application area, experience, support, buy, upgrade, extend'
-  ms.date: 07/14/2023
+  ms.date: 12/19/2023
   ms.author: bholtorf
+  ms.service: dynamics-365-business-central
 title: Vanlige spørsmål om å bruke Business Central
 summary: |
   Dette avsnittet inneholder svar på vanlige spørsmål om å registrere seg for en prøveversjon, kjøpe et abonnement og bruke [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan også lære hvordan du får teknisk støtte.  
@@ -22,7 +23,7 @@ sections:
         answer: |
           Du kan registrere deg for en gratis prøveversjon for å utforske [!INCLUDE[prod_short](includes/prod_short.md)]. [!INCLUDE[free_trial_md](includes/free_trial_md.md)] Hvis du vil ha mer tid til å undersøke, [kan du utvide din prøveperioden](#can-i-extend-my-30-day--new-company--trial-period-).  
 
-          For å hjelpe deg med å bli klar for å gjøre forretninger i [!INCLUDE[prod_short](includes/prod_short.md)] kan du starte assisterte oppsettsveiledninger, videoer eller hjelpeemner for utvalgte oppsettoppgaver. Finn ut mer under [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
+          For å hjelpe deg med å bli klar for å gjøre forretninger i [!INCLUDE[prod_short](includes/prod_short.md)] kan du starte assisterte oppsettsveiledninger, videoer eller hjelpeartikler for utvalgte oppsettoppgaver. Finn ut mer under [Bli klar til å gjøre forretninger](ui-get-ready-business.md).  
 
           Når du er klar for å kjøpe [!INCLUDE[prod_short](includes/prod_short.md)], finner du en [!INCLUDE[prod_short](includes/prod_short.md)]-partner på siden [Jeg ser etter en løsningsleverandør](https://go.microsoft.com/fwlink/?linkid=2038145). Finn ut mer under [Hvordan finner jeg en partner for videresalg?](#how-do-i-find-a-reselling-partner).  
       - question: |
@@ -55,7 +56,7 @@ sections:
           Mer innhold leveres av [!INCLUDE[prod_short](includes/prod_short.md)] fellesskapet, for eksempel [Microsoft Dynamics 365 Business Central Field Guide](https://leanpub.com/dynamics), som er skrevet av en partner.  
       - question: Hvordan får jeg teknisk støtte for Business Central?
         answer: |
-          [!INCLUDE[prod_short](includes/prod_short.md)] selges gjennom partnere, og du må kontakte videresalgspartneren hvis du trenger hjelp med tekniske problemer. Hvis din [!INCLUDE[prod_short](includes/prod_short.md)]-partner ikke kan løse problemet, vil de opprette en henvendelse om støtte hos Microsoft.  
+          [!INCLUDE[prod_short](includes/prod_short.md)] selges gjennom partnere, og du må kontakte videresalgspartneren hvis du trenger hjelp med tekniske problemer. Hvis din [!INCLUDE[prod_short](includes/prod_short.md)]-partner ikke kan løse problemet, oppretter de en henvendelse om støtte hos Microsoft.  
 
           Finn ut mer under [Hjelp og støtte](product-help-and-support.md) og i delen [Hvordan finner jeg en partner for videresalg?](#how-do-i-find-a-reselling-partner).  
       - question: |
@@ -69,7 +70,7 @@ sections:
       - question: |
           Hvorfor beskriver Hjelp funksjonalitet som jeg ikke får tilgang til?
         answer: |
-          Hvis opplevelsesinnstillingen på siden **Selskapsopplysninger** er angitt til **Essential**, er grensesnittelementer for funksjonene Produksjon og Servicehåndtering ikke synlige for deg fordi de krever **Premium**-opplevelsen. En tekstmerknad er satt inn i hjelpeemner på høyt nivå for disse funksjonsområdene. Finn ut mer under [Endre hvilke funksjoner som vises](ui-experiences.md).  
+          Hvis opplevelsesinnstillingen på siden **Selskapsopplysninger** er angitt til **Essential**, er grensesnittelementer for funksjonene Produksjon og Servicehåndtering ikke synlige for deg fordi de krever **Premium**-opplevelsen. En tekstmerknad er satt inn i hjelpeartikler på høyt nivå for disse funksjonsområdene. Finn ut mer under [Endre hvilke funksjoner som vises](ui-experiences.md).  
       - question: |
           Hvorfor er ny informasjon ikke tilgjengelig på språket mitt?
         answer: |

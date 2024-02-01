@@ -3,9 +3,7 @@ title: Lagre og tilpass listevisninger
 description: 'Lær hvordan du oppretter egne visninger for filtrerte lister, og hvordan du lagrer, gir nytt navn til og administrerer disse visningene.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: null
 ms.date: 11/02/2023
 ms.author: bholtorf

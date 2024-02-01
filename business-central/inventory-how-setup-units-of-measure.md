@@ -3,9 +3,7 @@ title: Definere vareenheter | Microsoft-dokumentasjon
 description: Du kan definere flere enheter for en vare slik at du kan tilordne enheter til varen for følgende formål.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: UOM
 ms.date: 10/16/2023
 ms.author: bholtorf

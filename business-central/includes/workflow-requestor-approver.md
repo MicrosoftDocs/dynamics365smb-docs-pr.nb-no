@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 05/30/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Når du definerer brukere for godkjenning av arbeidsflyter, er det viktig at samme bruker ikke er både en anmoderen og en godkjenner i en arbeidsflytbrukergruppe. Når en bruker er både en anmoder og en godkjenner, fungerer godkjenninger for dem på følgende måte:

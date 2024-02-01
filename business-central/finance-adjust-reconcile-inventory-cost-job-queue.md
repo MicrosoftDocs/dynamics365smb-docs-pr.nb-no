@@ -3,9 +3,7 @@ title: Planlegg jobber for justering og avstemming av lagerkostnad
 description: Finn ut hvordan du kan bruke jobbkøen til å flytte aktivitetene for å justere lagerkost eller avstemme den sammen med Finans til bakgrunnen. Hvis selskapet for eksempel kjører mange oppgaver eller behandler mange transaksjoner.
 author: brentholtorf
 ms.topic: article
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.form: 461
 ms.date: 09/19/2023

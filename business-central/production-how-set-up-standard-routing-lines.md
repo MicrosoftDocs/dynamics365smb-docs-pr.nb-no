@@ -3,9 +3,7 @@ title: Definere standardoppgaver for operasjoner
 description: Lær mer om hvordan du definerer standardoppgaver og legger til standardoppgaver i operasjoner for å forenkle vedlikeholdet av ruter.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: '99000799, 99000803, 99000804, 99000805, 99000807'
 ms.date: 06/22/2021
 ms.author: bholtorf

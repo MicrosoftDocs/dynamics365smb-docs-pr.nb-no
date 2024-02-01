@@ -3,9 +3,7 @@ title: Definere transportører
 description: Lær hvordan du definerer en kode for hver enkelt transportør og angir beskrivende informasjon om hver av dem og hvilke tjenester de tilbyr.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 06/23/2021
 ms.author: bholtorf

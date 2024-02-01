@@ -3,15 +3,14 @@ title: Oversikt over oppgaver for å definere kjøp
 description: Beskriver oppgaver for å definere selskapets innkjøpspolicyer og definere kjøpsprosessene.
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'procurement, supply, vendor order'
 ms.search.form: '175, 176, 177, 178, 456, 460, 5727, 5729'
 ms.date: 08/30/2022
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-purchasing"></a>Definere kjøp
+# Definere kjøp
 
 Før du kan håndtere kjøpsprosesser, må du konfigurere regler og verdier som definerer selskapets kjøpsprinsipper.
 
@@ -21,11 +20,11 @@ En egen rekke oppgaver relatert til registrering av nye leverandører er å regi
 
 Finansrelatert kjøpsoppsett, for eksempel betalingsmåte og valutaer, beskrives i avsnittet Finansoppsett. Finn ut mer under [Konfigurer finans](finance-setup-finance.md). På samme måte kan du finne lagerrelaterte kjøpsoppsett, for eksempel enheter og varesporingskoder, i [delen Lageroppsett](inventory-setup-inventory.md).
 
-## <a name="purchases-and-payables-setup"></a>Kjøpsoppsett
+## Kjøpsoppsett
 
 Før du arbeider med kjøp, må du angi på siden **Kjøpsoppsett** hvordan kjøpsverdier bokføres, og nummerserien som brukes for leverandører og kjøpsdokumenter.
 
-### <a name="general-settings"></a>Generelle innstillinger
+### Generelle innstillinger
 
 På hurtigfanen **Generelt** angir du alternativer, for eksempel hvordan du vil beregne og bokføre rabatter, og om du vil avrunde fakturabeløp. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
 
@@ -37,15 +36,15 @@ Noen felter endrer i tillegg virkemåten sine eller avhenger av hvordan andre fe
 
 Les detaljer om feltene [**Obligatorisk nr. for eksternt dokument**](#external-document-number) og [**Bruk opprinnelig kostpris**](#exact-cost-reversing) nedenfor.
 
-### <a name="number-series-settings"></a>Innstillinger for nummerserier
+### Innstillinger for nummerserier
 
 På hurtigfanen **Nummerserier** må du angi unike identifikasjonskoder som skal brukes for leverandører, fakturaer og andre kjøpsdokumenter. Nummerering er ikke bare viktig for interne prosesser, men det kan også hende at du må følge lokale forskrifter. Derfor kan det være verdt å vurdere å definere alle serier på siden **Nr. serie** før i stedet for å opprette nye fra **Kjøpsoppsett**. Finn ut mer under [Opprett nummerserier](ui-create-number-series.md).
 
-## <a name="external-document-number"></a>Eksternt dokumentnummer
+## Eksternt dokumentnummer
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="exact-cost-reversing"></a>Nøyaktig kosttilbakeføring
+## Nøyaktig kosttilbakeføring
 
 Funksjonen **Bruk opprinnelig kostpris** bidrar til å sikre at returnerte varer verdsettes til samme kostnad som da de opprinnelig ble trukket fra lageret, ved hjelp av en fast utligning i stedet for en lagermetode av typen gjennomsnitt eller bare FIFU (først inn, først ut). Lær mer under delen [Utformingsdetaljer: fast utligning](design-details-item-application.md#fixed-application). Hvis det senere legges til en tilleggskostnad i den opprinnelige bestillingen, oppdaterer programmet verdien på bestillingsreturen.
 
@@ -53,7 +52,7 @@ Med funksjonen aktiver kan en returtransaksjon bare bokføres ved å angi varepo
 
 [!INCLUDE[local-functionality](includes/local-functionality.md)]
 
-## <a name="more-purchasing-setups"></a>Flere kjøpsoppsett
+## Flere kjøpsoppsett
 
 | Til | Se |
 | --- | --- |
@@ -70,7 +69,7 @@ Med funksjonen aktiver kan en returtransaksjon bare bokføres ved å angi varepo
 | Angi standardrapporter som skal brukes for ulike dokumenttyper. |[Rapportvalg i Business Central](across-report-selections.md)|
 |Angi om brukere kan bokføre kjøpsfakturaer, og om de må bokføre dem sammen med en levering. |[Definer en fakturabokføringspolicy for brukere](admin-setup-invoice-posting-policy.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Oversikt over oppsett](setup.md)  

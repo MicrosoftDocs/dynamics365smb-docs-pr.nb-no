@@ -3,9 +3,7 @@ title: Valgfrie aktiviteter for lukking av perioder
 description: Dette emnet gir en oversikt over valgfrie prosesser og aktiviteter for lukking av regnskapsperioder i Business Central.
 author: jswymer
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, aging, creditor payments, vendor payments'
 ms.date: 08/29/2022
 ms.author: jswymer

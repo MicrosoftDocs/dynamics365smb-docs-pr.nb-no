@@ -3,9 +3,7 @@ title: Definere kontantstrømanalyse (inneholder video)
 description: 'Bruk diagrammer i rollesenteret for regnskapsfører til å analysere pengestrømmen i virksomheten, inkludert utgifter, inntekter, likviditet og innbetalinger minus utbetalinger.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'money flow, expense and income, liquidity, cash receipts minus cash payments, Cartera, funds'
 ms.search.form: '846, 847, 849, 851, 855, 862, 869, 1818'
 ms.date: 08/23/2022

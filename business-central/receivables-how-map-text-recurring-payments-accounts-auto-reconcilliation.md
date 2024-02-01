@@ -3,9 +3,7 @@ title: Definer tekst-til-konto-tilordning for gjentakende betalinger
 description: 'Knytt tekst på betalinger til bestemte konti, slik at betalinger bokføres på kontiene når du bokfører betalingsavstemmingskladden.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'account linking, direct payment posting, automatic payment processing, reconcile payment, recurring expense, recurring cash receipt'
 ms.search.form: '1290, 1294, 1287'
 ms.date: 04/01/2021

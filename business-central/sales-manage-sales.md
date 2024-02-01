@@ -3,9 +3,7 @@ title: Oversikt over oppgaver for å håndtere salg
 description: 'Les alt om hvordan du bruker Business Centrals tjenester til å administrere kunders salgsaktiviteter med kunder med salgsfakturaer, ordrer, tilbud og mer.'
 author: brentholtorf
 ms.topic: overview
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'trade, sell'
 ms.search.form: 253
 ms.date: 09/02/2022

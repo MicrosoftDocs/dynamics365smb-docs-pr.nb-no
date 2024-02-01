@@ -3,7 +3,6 @@ title: Koble til Microsoft Dataverse (inneholder video)
 description: Konfigurer en kobling mellom Business Central og Dataverse. Selskaper oppretter vanligvis tilkoblingen for å integrere data med en annen Dynamics 365-forretningsapp.
 author: brentholtorf
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: null
 ms.search.forms: '7200, 7201'
 ms.date: 09/28/2023

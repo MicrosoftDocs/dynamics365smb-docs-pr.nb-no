@@ -3,7 +3,6 @@ title: Åpne Business Central-filer i OneDrive
 description: Finn ut hvordan du kan dele Business Central-data via OneDrive for Business.
 author: jswymer
 ms.topic: conceptual
-ms.workload: na
 ms.search.keywords: null
 ms.date: 08/03/2022
 ms.author: jswymer

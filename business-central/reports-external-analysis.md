@@ -3,9 +3,7 @@ title: Analyser data i Business Intelligence Tools
 description: Gir en oversikt over hvordan eksterne Business Intelligence-verktøy kan samhandle med Business Central-data.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: feature overview
 ms.date: 02/03/2022
 ms.author: bholtorf

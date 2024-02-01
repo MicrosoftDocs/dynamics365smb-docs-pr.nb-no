@@ -8,6 +8,7 @@ ms.topic: conceptual
 ms.search.keywords: null
 ms.date: 12/13/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
 
 # Plukk for produksjon, montering eller prosjekter i avanserte lageroppsett

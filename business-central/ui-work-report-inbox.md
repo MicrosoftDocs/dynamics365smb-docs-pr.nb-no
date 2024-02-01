@@ -3,9 +3,7 @@ title: Del og eksporter rapporter med rapportinnboksen
 description: 'Bruk siden Rapportinnboks til å laste ned, dele og eksportere rapporter i Business Central.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, dataset, export, report inbox, onedrive,'
 ms.search.form: 680
 ms.date: 08/08/2022

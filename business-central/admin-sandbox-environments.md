@@ -4,9 +4,7 @@ description: 'Finn ut hvordan et eget miljø kan hjelpe deg med å utforske, læ
 author: brentholtorf
 ms.topic: conceptual
 ms.reviewer: bholtorf
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'sandbox, demo, develop'
 ms.date: 12/20/2021
 ms.author: bholtorf

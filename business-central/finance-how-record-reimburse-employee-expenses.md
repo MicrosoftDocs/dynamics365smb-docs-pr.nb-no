@@ -3,9 +3,7 @@ title: Registrere og refundere ansattes utgifter
 description: 'Bokfør de ansattes utgifter med finanskladden til kontoen for den ansatte, og bokfør deretter en betaling til den ansattes bankkonto for å refundere for den firmarelaterte utgiften.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: reimbursement
 ms.search.form: '63, 234, 625, 5224, 5237, 5238, 5239, 5240'
 ms.date: 06/16/2021

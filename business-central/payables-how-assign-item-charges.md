@@ -3,9 +3,7 @@ title: Tilordne varegebyr til salg og kjøp (inneholder video)
 description: 'Tildel varegebyrer når du trenger lagervarer for å overføre kostnader, for eksempel frakt og fysisk håndtering.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'transportation, added cost, landed cost'
 ms.search.form: '5709, 5800, 5805, 5814'
 ms.date: 11/08/2023

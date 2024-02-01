@@ -3,12 +3,11 @@ title: Søke etter kontakter fra Microsoft Teams
 description: 'Finn ut hvordan du slår opp kunder, leverandører og andre kontakter for Business Central fra Microsoft Teams.'
 author: jswymer
 ms.topic: get-started
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 365, contacts, search, messaging extensions'
 ms.date: 04/12/2021
 ms.author: jswymer
+ms.service: dynamics-365-business-central
 ---
 
 # Søke etter kunder, leverandører og andre kontakter fra Microsoft Teams

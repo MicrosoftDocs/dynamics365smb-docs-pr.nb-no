@@ -3,9 +3,7 @@ title: Fakturere bestillinger i Business Central
 description: Dette emnet forklarer hvordan du kan utføre massefakturering fra Microsoft Bookings i Business Central.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'invoicing, bookings'
 ms.search.form: '1638, 6702, 6704'
 ms.date: 05/20/2022
