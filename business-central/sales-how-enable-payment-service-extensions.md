@@ -12,7 +12,7 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Aktivere kundebetalinger gjennom betalingstjenester
+# <a name="enable-customer-payments-through-payment-services"></a>Aktivere kundebetalinger gjennom betalingstjenester
 
 Som et alternativ til å samle inn betalinger via bankoverføring eller kredittkort, kan kundene betale via egne kontoer med betalingstjenester, som PayPal eller WorldPay.  
 
@@ -23,7 +23,7 @@ Tilleggene PayPal Payments Standard og WorldPay Payments Standard er installert 
 > [!CAUTION]
 > WorldPay Payments Standard-utvidelsen blir avskrevet. Koden markedsføres som foreldet fra og med lanseringsbølge 2 i 2023. Appen er aktiv for de neste tre hovedversjonene og blir deretter fjernet.   
 
-## Slik aktiverer du en betalingstjeneste i [!INCLUDE[prod_short](includes/prod_short.md)]
+## <a name="to-enable-a-payment-service-in-"></a>Slik aktiverer du en betalingstjeneste i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Betalingstjenester**, og velg deretter den relaterte koblingen.  
 2. På siden **Betalingstjenester** velger du handlingen **Ny**.  
@@ -32,7 +32,7 @@ Tilleggene PayPal Payments Standard og WorldPay Payments Standard er installert 
 5. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 6. Lukk siden.  
 
-## Velge en betalingstjeneste på en salgsfaktura
+## <a name="to-select-a-payment-service-on-a-sales-invoice"></a>Velge en betalingstjeneste på en salgsfaktura
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Salgsfakturaer**, og velg deretter den relaterte koblingen.  
 2. Åpne Salgsfaktura som du ønsker å betale ved hjelp av betalingstjenesten.  
@@ -41,7 +41,7 @@ Tilleggene PayPal Payments Standard og WorldPay Payments Standard er installert 
     > [!NOTE]  
     > Feltet **Betalingstjeneste** er bare tilgjengelig hvis du har aktivert betalingstjenesten.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Sette opp salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  
