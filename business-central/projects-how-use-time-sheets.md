@@ -131,7 +131,7 @@ Timelisteregistrering spores i timer, som er standard lagerenhet for ressurser. 
     > En leder kan avvise en timelistelinje som er sendt til godkjenning. Hvis en linje har statusen **Avvist**, kan du gjøre endringer på linjen og deretter velge **Send** på nytt.  
 6. Velg **OK**.
 
-## <a name="to-approve-or-reject-a-time-sheet"></a>Slik godkjenner eller avviser du timelister:
+## <a name="approve-or-reject-a-time-sheet"></a>Slik godkjenner eller avviser du timelister:
 
 En timeliste må sendes inn til godkjenning før den kan brukes. Du kan godkjenne og avvise individuelle linjer på en timeliste eller sende dem tilbake til avsenderen. En timeliste kan godkjennes på to måter:
 
@@ -207,7 +207,7 @@ Når du har godkjent timelisteoppføringer for et prosjekt, kan du bokføre dem 
 5. Velg handlingen **Bokfør**.  
 6. Hvis du vil bekrefte bokføringen, velger du handlingen **Poster**. Siden **Prosjektposter** åpnes med resultatet av bokføringen av ressurskladden.
 
-## <a name="to-archive-time-sheets"></a>Slik arkiverer du timelister:
+## <a name="archive-time-sheets"></a>Slik arkiverer du timelister:
 
 Når du har bokført timelister, kan du arkivere dem for fremtidig referanse. Du må bokføre alle linjene i en timeliste før du kan arkivere den.
 

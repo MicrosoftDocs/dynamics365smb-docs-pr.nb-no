@@ -9,7 +9,7 @@ ms.date: 06/21/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="norway-local-functionality-in-the-norwegian-version"></a>Norge Lokal funksjonalitet i den norske versjonen
+# <a name="norway-local-functionality"></a>Norge Lokal funksjonalitet i den norske versjonen
 
 Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 

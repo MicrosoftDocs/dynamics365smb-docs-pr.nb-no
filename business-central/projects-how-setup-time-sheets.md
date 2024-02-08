@@ -59,7 +59,7 @@ På slutten av oppsettveiledningen kan du velge å la [!INCLUDE [prod_short](inc
 
 Følgende deler beskriver hvordan du definerer timelister hvis du ikke bruker den assisterte oppsettveiledningen **Definer timelister**.  
 
-### <a name="to-set-up-general-information-for-time-sheets-manually"></a>Slik definerer du generell informasjon for timelister manuelt
+### <a name="set-up-general-information-for-time-sheets-manually"></a>Slik definerer du generell informasjon for timelister manuelt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ressursoppsett** og velg den relaterte koblingen.  
 1. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -74,7 +74,7 @@ Følgende deler beskriver hvordan du definerer timelister hvis du ikke bruker de
 | **Alltid** |Brukeren i feltet **Ansvarlig person** på prosjektkortet godkjenner timelisten. |
 | **Bare maskin** |Hvis timelisten for maskin er knyttet til et prosjekt, godkjenner brukeren i feltet **Ansvarlig person** på prosjektkortet, timelisten. Hvis timelisten for maskin er knyttet til en ressurs, godkjenner brukeren i feltet **Bruker-ID for godkjenner av timeliste:** på ressurskortet, timelisten. |
 
-### <a name="to-assign-a-time-sheet-administrator-manually"></a>Slik tilordner du en timelisteadministrator manuelt
+### <a name="assign-a-time-sheet-administrator-manually"></a>Slik tilordner du en timelisteadministrator manuelt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukeroppsett** og velg den relaterte koblingen.  
 3. Velg brukeren som skal være timelisteadministrator, og merk deretter av for **Administrasjon av timeliste**.  
@@ -82,7 +82,7 @@ Følgende deler beskriver hvordan du definerer timelister hvis du ikke bruker de
 > [!TIP]  
 > Det anbefales at du velger bare én bruker som administrator for timelisten i et selskap. I den følgende fremgangsmåten setter du opp en timelisteeier og -godkjenner, der godkjenneren av timelisten er tilordnet for hver ressurs.  
 
-### <a name="to-assign-a-time-sheets-owner-and-approver-manually"></a>Slik tilordner du en timelisteeier og -godkjenner manuelt
+### <a name="assign-a-time-sheets-owner-and-approver-manually"></a>Slik tilordner du en timelisteeier og -godkjenner manuelt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ressurser** og velg den relaterte koblingen.
 2. Merk ressursen du vil definere muligheten til å bruke timelister for, og merk deretter av for **Bruk timeliste**.  
