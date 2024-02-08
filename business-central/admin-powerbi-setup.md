@@ -4,7 +4,7 @@ description: 'Lær hvordan du konfigurerer tilkoblingen til Power BI. Med Power 
 author: jswymer
 ms.topic: get-started
 ms.search.keywords: 'Power BI, setup, analysis, reporting, financial report, business intelligence, KPI'
-ms.date: 09/28/2023
+ms.date: 01/28/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
@@ -90,6 +90,12 @@ Denne delen forklarer kravene til integrering av en distribusjon av [!INCLUDE[pr
     Før sluttbrukere kan bruke Power BI i [!INCLUDE[prod_short](includes/prod_short.md)], må en administrator av Azure-programmet gi samtykke til Power BI-tjenesten.
 
     For å opprette den første tilkoblingen må du åpne [!INCLUDE[prod_short](includes/prod_short.md)] og kjøre **Kom i gang med Power BI** fra startsiden. Denne handlingen leder deg gjennom samtykkeprosessen og kontrollerer Power BI-lisensen. Logg deg på med en Microsoft Entra-administratorkonto når du blir bedt om det. Hvis du vil ha mer informasjon, kan du se [Koble til Power BI – kun én gang](across-working-with-powerbi.md#connect).
+
+## Konfigurer dataflyt
+
+Med dataflytprosesser kan du inkludere, transformere og laste inn data i et Power BI-arbeidsområde og deretter bruke dataene som grunnlag for rapportene. Disse dataflytene kan i noen tilfeller oppleve forbigående feil under en planlagt oppdatering. Feilmeldingen ser slik ut: `DataSource.Error: OData: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.` 
+
+Ved hjelp av Power Automate kan du konfigurere nye forsøk for denne plasseringen. Hvis du vil ha mer informasjon, kan du se [Prøv en dataflyt på nytt automatisk ved feil](/power-query/dataflows/automatically-retry-dataflow).
 
 ## Se også
 

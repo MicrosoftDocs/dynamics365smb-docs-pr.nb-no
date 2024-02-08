@@ -9,8 +9,9 @@ ms.date: 03/07/2023
 ms.custom: bap-template
 ms.search.keywords: 'bi, power BI, analysis, KPI, financial report'
 ms.search.form: '2632, 2631, 2633, 2623, 2634'
+ms.service: dynamics-365-business-central
 ---
-# <a name="analyze-data-with-statistical-accounts"></a>Analyser data med statistiske kontoer
+# Analyser data med statistiske kontoer
 
 Bruke statistiske kontoer til å supplere informasjon i finansrapporter. Med statistiske kontoer kan du legge til målinger basert på ikke-transaksjonelle data. Du legger til de ikke-transaksjonelle dataene som tallbaserte enheter, for eksempel:
 
@@ -26,12 +27,12 @@ Statistiske kontoer ligner på bokføring av kontoer basert på hvordan de funge
 
 Det er et par viktige forskjeller mellom statistiske kontoer og bokføringskontoer. Statistiske kontoer er separate enheter og tas ikke med i rapporter for råbalanse. Du trenger heller ikke å balansere debet- og kreditbeløp når du bruker statistiske kontojournaler til å bokføre poster til en statistisk konto. Du bokfører bare beløpet.
 
-## <a name="set-up-a-statistical-account"></a>Konfigurer en statistisk konto
+## Konfigurer en statistisk konto
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Statistiske kontoer**, og velg deretter den relaterte koblingen.
 1. Fyll ut feltene på hurtigfanen **Generelt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="post-amounts-to-a-statistical-account"></a>Bokføre beløp til en statistisk konto
+## Bokføre beløp til en statistisk konto
 
 1. Hvis du vil bokføre beløpene du vil følge opp, velger du handlingen **Statistisk kontojournal** på siden **Statistiske kontoer**.
 1. Angi den siste datoen i bokføringsperioden du vil bokføre beløp for, i **Bokføringsdato**-feltet.
@@ -41,11 +42,11 @@ Det er et par viktige forskjeller mellom statistiske kontoer og bokføringskonto
 1. Angi beløpet som skal bokføres, i feltet **Beløp**. 
 1. Valgfritt: Hvis du vil ta med den statistiske kontoen i mer avanserte analyser, angir du dimensjoner i feltene **Avdelingskode** og **Customergroup-kode**. Hvis du vil ha mer informasjon om dimensjoner, kan du gå til [Analyser data per dimensjoner](bi-how-analyze-data-dimension.md).
 
-## <a name="verify-statistical-account-amounts"></a>Bekreft statistiske kontobeløp
+## Bekreft statistiske kontobeløp
 
 På siden **Statistiske kontoer** bruker du handlingen **Saldo for statistiske kontoer** til å bekrefte at de registrerte beløpene er riktige for hver periode.  
 
-## <a name="include-the-statistical-account-in-a-financial-report"></a>Inkluder statistisk konto i en finansrapport
+## Inkluder statistisk konto i en finansrapport
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansrapporter**, og velg deretter den relaterte koblingen.
 1. Opprett en ny finansrapport på en av følgende måter:
@@ -61,7 +62,7 @@ På siden **Statistiske kontoer** bruker du handlingen **Saldo for statistiske k
 1. I **Radtype**-feltet velger du om du vil vise saldoen på bokføringsdatoen eller begynnelsen av bokføringsperioden, eller hvis du vil vise endringen i beløpet i perioden.
 1. Fyll ut feltene som gjenstår. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finansforretningsanalyse](bi.md)  
 [Finansrapporter og analyser i Business Central](finance-reports.md)

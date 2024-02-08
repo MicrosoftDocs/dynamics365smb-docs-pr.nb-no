@@ -7,8 +7,9 @@ ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 04/24/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# <a name="create-workflows-to-connect-tasks-in-business-processes"></a>Opprett arbeidsflyter for å koble til oppgaver i forretningsprosesser
+# Opprett arbeidsflyter for å koble til oppgaver i forretningsprosesser
 
 Du kan opprette arbeidsflyter som kobler til oppgaver i forretningsprosesser som utføres av forskjellige brukere. Du kan inkludere systemoppgaver, for eksempel automatisk bokføring, som trinn i arbeidsflyter som kommer før eller etter av brukeroppgaver. Å be om og gi godkjenning til å opprette nye oppføringer er typiske arbeidsflyttrinn.  
 
@@ -42,7 +43,7 @@ En arbeidsflyt er delt inn i tre deler:
 
 Alternativene for hendelser og svar er systemdefinert. Hvis du vil legge til nye alternativer, må du utarbeide en utvidelse.
 
-## <a name="to-create-a-workflow"></a>Slik oppretter du en arbeidsflyt:
+## Slik oppretter du en arbeidsflyt:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Siden **Arbeidsflyt** åpnes.  
@@ -113,7 +114,7 @@ Alternativene for hendelser og svar er systemdefinert. Hvis du vil legge til nye
 > [!TIP]  
 > Hvis du vil utforske relasjonen mellom tabellene som brukes i arbeidsflyter, velger du ikonet ![lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir deretter **Arbeidsflyt – tabellrelasjoner**.  
 
-## <a name="example-of-creating-a-new-workflow-using-existing-events"></a>Eksempel på oppretting av ny arbeidsflyt ved bruk av eksisterende hendelser
+## Eksempel på oppretting av ny arbeidsflyt ved bruk av eksisterende hendelser
 
 I eksemplet nedenfor opprettes det en ny arbeidsflyt for å endre navnet på en leverandør:
 
@@ -172,7 +173,7 @@ Illustrasjonen nedenfor gir en oversikt over resultatet av denne prosedyren.
 
 Nå tester du arbeidsflyten ved å åpne en eksisterende leverandørkort og endre navnet. Bekreft at det sendes en godkjenningsforespørsel om å endre leverandørnavnet.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opprett arbeidsflyter fra arbeidsflytmaler](across-how-to-create-workflows-from-workflow-templates.md)  
 [Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)  

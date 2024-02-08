@@ -1,3 +1,6 @@
+---
+ms.service: dynamics-365-business-central
+---
 |Alternativ|Description|
 |------|----------|
 |**Bruk OneDrive for appfunksjoner**|Hvis du aktiverer dette alternativet, gjøres handlingene **Åpne i OneDrive** og **Del** tilgjengelige på filer i Business Central, for eksempel filer som er knyttet til dokumenter eller i innboksen i rapporten. Med disse handlingene kan brukerne kopiere, åpne og dele filer i OneDrive. <ul><li>Business Central-funksjoner som lagrer eller registrerer dokumenter og andre filer, og tilbyr handlingene Åpne i OneDrive og Del for å hente disse filene fra Business Central, for eksempel innkommende dokumenter og postvedlegg.</li><li>Bransjefunksjoner som genererer egendefinerte Excel-arbeidsbøker, for eksempel salgsbudsjetter.</li><li>Rapporter sendt til rapportinnboksen</li><li>Hvis du har installert tilpasninger eller utvidelser, kan disse legge til flere funksjoner som bruker OneDrive.</li></ul>Hvis du vil ha mer informasjon, kan du se [Åpne og del Business Central-filer i OneDrive](../across-share-onedrive.md).

@@ -3,17 +3,16 @@ title: Endre årlig beløp på servicekontrakter eller kontrakttilbud
 description: Du kan endre beløpet som vil bli fakturert årlig for servicekontrakten eller servicekontrakttilbud.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="change-the-annual-amount-on-service-contracts-or-contract-quotes"></a>Endre årlig beløp på servicekontrakter eller kontrakttilbud
+# Endre årlig beløp på servicekontrakter eller kontrakttilbud
 Du kan endre årlig beløp i servicekontrakten eller kontrakttilbudet for å rette beløpet som skal faktureres hvert år.  
 
-## <a name="to-change-the-annual-amount-of-the-service-contract-or-contract-quote"></a>Slik endrer du årlig beløp på servicekontrakten eller kontrakttilbudet
+## Slik endrer du årlig beløp på servicekontrakten eller kontrakttilbudet  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Servicekontrakter** eller **Servicekontrakttilbud**, og velg deretter den relaterte koblingen.  
 2. Velg kontrakten eller kontrakttilbudet.  
@@ -22,14 +21,14 @@ Du kan endre årlig beløp i servicekontrakten eller kontrakttilbudet for å ret
 5. Endre innholdet i feltet **Årlig beløp**. Du kan ikke undertegne, det vil si konvertere til servicekontrakt, hvis du arbeider på et kontrakttilbud, eller låse servicekontrakten hvis den har et negativt årlig beløp. Hvis du setter årlig beløp til null, må innholdet i feltet **Fakturaperiode** være **Ingen** enten ved undertegning eller låsing av servicekontrakten.  
 6. Avhengig av om det er merket av for feltet **Tillat beløp som ikke er i balanse**, skal du bruke manuell eller automatisk fordeling av årlig beløpsdifferanse. Kontraktlinjene blir oppdatert slik at verdien i feltet **Beregnet årlig beløp** blir lik det nye årlige beløpet.  
 
-## <a name="distributing-differences-between-new-and-calculated-annual-amounts"></a>Distribuere forskjeller mellom nye og beregnede årlige beløp
+## Distribuere forskjeller mellom nye og beregnede årlige beløp
 Hvis du endrer årlig beløp på en servicekontrakt eller kontrakttilbud, må du kanskje fordele differansen mellom det nye og det beregnede årlige beløpet, på kontraktlinjene. Det finnes tre måter å fordele beløp:
 
 * Jevn distribusjon  
 * Distribusjon basert på linjebeløp  
 * Distribusjon basert på fortjeneste
 
-### <a name="even-distribution"></a>Jevn distribusjon
+### Jevn distribusjon
 Hvis du endrer årlig beløp på servicekontrakten eller kontrakttilbudet, vil du kanskje fordele differansen mellom det nye og det beregnede beløpet på kontraktlinjene. Jevn fordeling er én av de automatiske fordelingsmetodene som kan bidra til lik fordeling av differansen mellom nytt og beregnet årlig beløp, på linjebeløpene på kontraktlinjene. Følgende oversikt over fordelingsbehandlingen beskriver hovedtanken bak denne metoden:  
 
 1. Differansen mellom feltverdiene i det nye **Årlig beløp** og **Beregnet årlig beløp** divideres med antall kontraktlinjer i servicekontrakten eller kontrakttilbudet.  
@@ -41,7 +40,7 @@ Hvis du endrer årlig beløp på servicekontrakten eller kontrakttilbudet, vil d
 
  Trinnene gjentas for hver kontraktlinje.  
 
-#### <a name="example"></a>Eksempel
+#### Eksempel  
 Det er ikke merket av for **Tillat beløp som ikke er i balanse** i servicekontrakten som har tre kontraktlinjer med slik informasjon.  
 
 |Vare|Linjekostnad|Linjeverdi|Linjerabatt-%|Linjerabattbeløp|Linjebeløp|Bruttofortjeneste|  
@@ -62,7 +61,7 @@ Til slutt viser kontraktlinjene disse dataene.
 |Vare 2|40,00|50,00|16.00|8.00|42.00|2.00|  
 |Vare 3|50.00|70.00|14.29|10.00|60.00|10.00|  
 
-### <a name="distribution-based-on-line-amount"></a>Distribusjon basert på linjebeløp
+### Distribusjon basert på linjebeløp
 Hvis du endrer årlig beløp på servicekontrakten eller kontrakttilbudet, vil du kanskje fordele differansen mellom det nye og det beregnede beløpet på kontraktlinjene. Fordeling basert på linjebeløp er en automatiske metode som kan hjelpe deg å fordele differansen mellom nytt og beregnet årlig beløp, på linjebeløpene på kontraktlinjene. Denne fordelingen utføres proporsjonalt med linjebeløpsandelen i det beregnede årlige beløpet. Følgende oversikt over fordelingsbehandlingen for hver kontraktlinje, beskriver hovedtanken bak denne metoden:  
 
 1. Prosentfordeling etter linjebeløp beregnes slik: Innholdet i feltet **Linjebeløp** divideres med summen av feltverdiene i **Beregnet årlig beløp** på alle kontraktlinjer.  
@@ -75,7 +74,7 @@ Hvis du endrer årlig beløp på servicekontrakten eller kontrakttilbudet, vil d
 
 Trinnene gjentas for hver kontraktlinje.  
 
-#### <a name="example-1"></a>Eksempel
+#### Eksempel  
 Det er ikke merket av for **Tillat beløp som ikke er i balanse** i servicekontrakten som har tre kontraktlinjer med slik informasjon.  
 
 |Vare|Linjekostnad|Linjeverdi|Linjerabatt-%|Linjerabattbeløp|Linjebeløp|Bruttofortjeneste|  
@@ -102,7 +101,7 @@ Til slutt viser kontraktlinjene disse dataene.
 |Vare 2|20,00|23,00|8.65|1.99|21.01|1.01|  
 |Vare 3|24.00|27.00|11.37|3.07|23.93|-0,07|  
 
-### <a name="distribution-based-on-profit"></a>Distribusjon basert på fortjeneste
+### Distribusjon basert på fortjeneste
 Hvis du endrer årlig beløp på servicekontrakten eller kontrakttilbudet, vil du kanskje fordele differansen mellom det nye og det beregnede beløpet på kontraktlinjene. Fordeling basert på bruttofortjeneste er en av de automatiske metodene som hjelper deg å fordele differansen mellom nytt og beregnet årlig beløp, på linjebeløpene på kontraktlinjene. Denne fordelingen blir utført proporsjonalt med linjenes andel av totalkontraktens eller kontrakttilbudets bruttofortjeneste. Følgende oversikt over fordelingsbehandlingen for hver kontraktlinje, beskriver hovedtanken bak denne metoden:  
 
 1. Prosentfordelingen av bruttofortjenesten beregnes slik: innholdet i feltet **Bruttofortjeneste** divideres med summen av feltverdiene i **Bruttofortjeneste**, på alle kontraktlinjer.  
@@ -113,7 +112,7 @@ Hvis du endrer årlig beløp på servicekontrakten eller kontrakttilbudet, vil d
     * Linjerabatt-% = Linjerabattbeløp / Linjeverdi * 100.  
     * Fortjeneste = Linjebeløp - Linjekostnad  
 
-#### <a name="example-2"></a>Eksempel
+#### Eksempel  
 Det er ikke merket av for **Tillat beløp som ikke er i balanse** i servicekontrakten som har tre kontraktlinjer med slik informasjon.  
 
 |Vare|Linjekostnad|Linjeverdi|Linjerabatt-%|Linjerabattbeløp|Linjebeløp|Bruttofortjeneste|  
@@ -140,7 +139,7 @@ Til slutt viser kontraktlinjene disse dataene.
 |Vare 2|50,00|58,00|9.93|5.76|52.24|2.24|  
 |Vare 3|100.00|115.00|8.20|9.43|105.57|5.57|  
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Opprette servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  
 

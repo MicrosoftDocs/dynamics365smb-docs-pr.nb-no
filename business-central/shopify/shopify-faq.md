@@ -1,7 +1,7 @@
 ---
 title: Vanlige spørsmål for tekniske detaljer
 description: Implementeringsdetaljer knyttet til Shopify-koblingen.
-ms.date: 03/27/2023
+ms.date: 01/24/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
 author: brentholtorf
@@ -70,8 +70,7 @@ Du kan også utforske [Ekspertmarkedsplassen](https://experts.shopify.com/) for 
 ## Funksjoner som for øyeblikket ikke støttes, men som vi sporer og kan vurdere å legge til
 
 - B2B-funksjoner, inkludert selskaper, prislister for selskap og betalingsbetingelser
-  - Det er for tiden mulig å importere ordrer opprettet via B2B. Hvis du har flere kjøpere knyttet til selskapet, bør du ikke aktivere automatisk oppretting av kunder, men koble hver Shopify-kjøper til en respektive kunde manuelt.
-  - Du må vedlikeholde selskapets prislister i Shopify.
+  - Utvidet støtte for B2B vil være tilgjengelig i lanseringsbølge 1 i 2024. Hvis du vil ha mer informasjon, kan du se [Koble Business Central sammen med Shopify B2B](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b)
 - Markeder
   - Flere oversettelser av hoveddataene. Du kan velge ett språk som skal brukes ved eksport av produktinformasjon.
   - Priser per land/område. Det finnes én pris liste for den valgte valutaen. Shopify håndterer konverteringen til andre valutaer.
@@ -84,6 +83,16 @@ Ja, Shopify-koblingenen kan utvides. Kontroller GitHub for å få tilgang til [o
 ## Er Shopify-koblingen åpen for bidrag
 
 Ja, denne utvidelsen er åpen for bidrag fra fellesskapet. Du finner [kildekoden](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) i tilleggsrepositoriet for Microsoft Al-programmer.
+
+## Bygg din versjon av Shopify-koblingen
+
+Hvis du vil bygge og publisere en koblingsapp på Shopify-markedsplassen som har som hovedformål å overføre eller dele selgerdata til en tredjepart ([!INCLUDE [prod_short](../includes/prod_short.md)]), må du ifølge Shopify ha skriftlig samtykke fra Shopify. Som en del av denne prosessen må du innhente samtykke fra Microsoft i skjemaet for bekreftelse for sluttmottakerdata. Vi må be deg om å håndtere saken med Shopify fordi Microsoft ikke kan signere tredjepartsavtaler.
+
+### Hva som skal gjøres
+
+Sjekk Shopify-kravene fordi du fortsatt kan ha en app som ikke er oppført.
+
+Alternativt får Shopify-koblingen for [!INCLUDE [prod_short](../includes/prod_short.md)] stadig nye funksjoner og nye kunder. Hvis du oppdager et spesifikt avvik, bør du vurdere å sende inn et produktforslag (https://aka.ms/bcideas) eller et kodebidrag til [!INCLUDE [prod_short](../includes/prod_short.md)]. For krav som kanskje ikke er relevante for et flertall av kundene, og som ikke enkelt kan løses av den nåværende utvidelsesmodellen, kan du kontakte [!INCLUDE [prod_short](../includes/prod_short.md)]-utviklingsteamet for å diskutere brukstilfellet. Vi skal kunne finne en gjennomførbar løsning.
 
 ## Se også
 
