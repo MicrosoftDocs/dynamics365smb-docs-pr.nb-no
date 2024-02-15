@@ -9,8 +9,9 @@ ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5082,'
 ms.date: 04/01/2021
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# <a name="record-interactions-with-contacts"></a>Registrer samhandlinger med kontakter
+# Registrer samhandlinger med kontakter
 
 Registrering av samhandlinger med forretningskontakter består av disse oppgavene:
 
@@ -18,7 +19,7 @@ Registrering av samhandlinger med forretningskontakter består av disse oppgaven
 * Opprette samhandlinger på kontakter eller segmenter  
 * Vise og administrere registrerte samhandlinger  
 
-## <a name="set-up-interaction-templates"></a>Konfigurer samhandlingsmaler
+## Konfigurer samhandlingsmaler
 
 Før du kan registrere samhandlinger, må du definere samhandlingsmaler. En samhandlingsmal en modell som definerer de grunnleggende egenskapene for en samhandling. Når du registrerer en samhandling, kan du angi hvilke samhandlingsmaler de baserer seg på. Innstillinger som kommunikasjonsmåten som ble brukt, hvem som initierte interaksjonen, og kostnaden for overføring til samhandlingen.
 
@@ -26,14 +27,14 @@ Du kan definere en samhandlingsmal på siden **Samhandlingsmaler**.
 
 Når du definerer en samhandlingsmal, kan du legge til et vedlegg. Du kan for eksempel legge ved et Microsoft Word-dokument som inneholder notater fra et møte. Hvis du vil finne ut mer om vedlegg, kan du gå til [Vedlegg for samhandlinger](marketing-interaction-attachments.md). Gjenta trinnene hvis du vil definere flere samhandlingsmaler.  
 
-## <a name="create-interactions"></a>Opprette samhandlinger
+## Opprette samhandlinger
 
 Du kan registrere samhandlinger på to ulike måter:
 
 * Du kan manuelt opprette samhandlinger som er knyttet til en enkelt kontakt eller til et segment. Hvis du vil ha mer informasjon, kan du se [Opprette samhandlinger på kontakter og segmenter](marketing-how-create-interactions.md).  
 * Du kan angi at samhandlinger skal registreres automatisk når du utfører handlinger i programmet, for eksempel når du skriver ut en faktura eller et tilbud. Hvis du vil ha mer informasjon, kan du se [Automatisk registrere samhandlinger med kontakter](marketing-auto-record-interactions.md).
 
-## <a name="view-and-manage-recorded-interactions"></a>Vise og administrere registrerte samhandlinger
+## Vise og administrere registrerte samhandlinger
 
 Du kan vise alle registrerte samhandlinger som ikke er slettet, på siden **Samhandlingsposter**. Du kan åpne denne siden ved å gjøre følgende:
 
@@ -46,7 +47,7 @@ Bruk siden Samhandlingsposter til å vise statusen for samhandlinger og avbryte 
 
 Du kan slette samhandlingsposter som er annullert. Hvis du vil slette samhandlingsloggposter, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Slett annullerte samhandlingsposter** og velger den relaterte koblingen og fyller ut informasjonen.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere kontakter](marketing-contacts.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  

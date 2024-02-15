@@ -3,15 +3,14 @@ title: Definer aktiva
 description: 'Få informasjon om sekvensen av oppgaver du må gjøre for å definere aktiva, for eksempel maskiner eller bygninger.'
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.keywords: 'machinery, buildings'
 ms.search.form: 5607
 ms.date: 04/01/2021
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-fixed-assets"></a>Definere aktiva
+# Definere aktiva
 
 Før du kan arbeide med aktiva, må du definere et par ting:  
 
@@ -36,7 +35,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Lær mer om ulike avskrivningsmetoder for aktiva. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
 | Lær mer om hvordan du bruker brukerdefinerte avskrivningsmetoder. |[Konfigurer brukerdefinerte avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Aktiva](fa-manage.md)  
 [Finans](finance.md)  

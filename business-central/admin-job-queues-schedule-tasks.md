@@ -63,13 +63,16 @@ Tabellen nedenfor beskriver verdiene i feltet **Status**.
 |--|--|
 | Klar | Jobbkøposten er klar til å kjøres. |
 | I arbeid | Jobbkøposten er pågår. Dette feltet oppdateres mens jobbkøen kjører. |
-| Avvent | Standardstatusen for jobbkøposten når den opprettes. Velg handlingen **Sett status til Klar** for å endre statusen til **Klar**. Velg handlingen **Satt på vent** eller tilbakefør statusen til **Avvent**. |
+| Avvent | Standardstatusen for jobbkøposten når den opprettes. Velg handlingen **Sett status til Klar** for å endre statusen til **Klar**. Velg handlingen **Satt på vent** eller tilbakefør statusen til **Avvent**. Hvis du vil ha mer informasjon, kan du de [Om avvent](#about-on-hold).|
 | Feil | Noe gikk galt. Velg **Vis feil** for å vise feilmeldingen. |
 | Ferdig | Jobbkøposten er fullført. |
 
-> [!Tip]  
+> [!TIP]  
 > Jobbkøposter slutter å kjøre når det oppstår en feil. Dette kan for eksempel være et problem når en post kobler til en ekstern tjeneste, for eksempel en bank. Hvis tjenesten midlertidig ikke er tilgjengelig og jobbkøen ikke kan koble til, vil posten vise en feil og slutte å kjøre. Du må starte jobbkøposten på nytt manuelt. Men feltene **Maksimalt antall forsøk** og **Forsinkelse for ny kjøring (s)** kan hjelpe deg å unngå denne situasjonen. Feltet **Maksimalt antall forsøk** lar deg angi hvor mange ganger jobbkøposten kan mislykkes før den slutter å prøve å kjøre. Med feltet **Forsinkelse for ny kjøring (s)** kan du angi hvor lang tid, i sekunder, det er mellom forsøk. Kombinasjonen av disse to feltene kan føre til at jobbkøposten kjører før den eksterne tjenesten blir tilgjengelig.
 
+### Om avvent
+
+Hvis du velger **Avvent** for en prosjektkøoppføring, påvirkes ikke et prosjekt som allerede kjører. Når et prosjekt har startet i prosjektkøen, fortsetter det å kjøre til det er fullført, uavhengig av eventuelle senere endringer i prosjektkøposten, for eksempel å sette det på vent.<br><br>Statusen **Avvent** brukes vanligvis til å hindre at et prosjekt startes automatisk når det når det planlagte starttidspunktet. Det lar deg midlertidig stanse kjøringen av et prosjekt før det begynner behandlingen. Når et prosjekt allerede kjører, vil imidlertid ikke endring av statusen til Avvent avbryte eller påvirke prosjektets kjøring.<br><br>Hvis du må stoppe eller avbryte et kjørende prosjekt, kan du gjøre det ved å gripe inn manuelt i prosessen, for eksempel ved å avslutte den tilsvarende økten eller prosessen som er ansvarlig for å utføre prosjektet.
 ### Slik viser du statusen for en jobb
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Jobbkøposter**, og velg deretter den relaterte koblingen.
@@ -125,7 +128,7 @@ Hvis en prosjektkøoppføringer viser en feil, er det første alternativet for �
 
 Hvis en omstart ikke hjelper, kan problemet være i koden. Du kan finne eieren (også kalt *utgiveren*) av koden i Al-stakksporet i loggen for prosjektkø. Hvis feilen kommer fra en app/utvidelse, kontakter du Microsoft-partneren. Hvis feilen kommer fra et Microsoft-program, kan du åpne en støtteforespørsel med Microsoft.
 
-Hvis du kontakter Microsoft-partneren eller Microsoft for støtte, må du oppgi følgende informasjon:
+Hvis du kontakter Microsoft-partneren eller Microsoft for kundestøtte, må du oppgi følgende informasjon:
 
 * ID-en for prosjektkøoppføringskjøringen der feilen oppstod
 * Tidsstempelet for når feilen oppstod

@@ -3,6 +3,7 @@ author: brentholtorf
 ms.topic: include
 ms.date: 09/21/2023
 ms.author: bholtorf
+ms.service: dynamics-365-business-central
 ---
 
 Lageransatte kan levere og motta ikke-lagervarer sammen med fysiske varer i ordrer og bestillinger. Ikke-lagervarer er immaterielle eiendeler, for eksempel forsikring eller ekstra kostnader.

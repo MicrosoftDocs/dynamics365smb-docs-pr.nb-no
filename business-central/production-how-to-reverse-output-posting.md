@@ -3,19 +3,17 @@ title: Tilbakeføre avgangsbokføring
 description: Det hender at avgangsbokføring må tilbakeføres. Dette emnet beskriver fremgangsmåten for tilbakeføring av avgangsbokføring.
 author: brentholtorf
 ms.topic: conceptual
-ms.devlang: na
-ms.tgt_pltfrm: na
-ms.workload: na
+ms.devlang: al
 ms.search.form: 5510
 ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="reverse-output-posting"></a>Tilbakeføre avgangsbokføring
+# Tilbakeføre avgangsbokføring
 
 Det hender at avgangsbokføring må tilbakeføres. Et eksempel på dette er hvis det oppstår en dataregistreringsfeil, og feil antall avganger bokføres i en produksjonsordre.  
 
-## <a name="to-reverse-an-output-posting"></a>Tilbakeføre en avgangsbokføring
+## Tilbakeføre en avgangsbokføring
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ferdigmeldingskladd** og velg den relaterte koblingen. Velg kjørselen.  
 2. Fyll ut feltene etter behov. Hvis du vil ha mer informasjon, se [Bokføre avgang og operasjonstid](production-how-to-post-output-quantity.md).
@@ -24,7 +22,7 @@ Det hender at avgangsbokføring må tilbakeføres. Et eksempel på dette er hvis
 
 Postene i ferdigmeldingskladden bokføres i vareposten som en oppjustering.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
  [Produksjon](production-manage-manufacturing.md) [Definere produksjon](production-configure-production-processes.md)  
  [Planlegging](production-planning.md)  

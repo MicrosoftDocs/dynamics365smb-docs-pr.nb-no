@@ -7,7 +7,7 @@ ms.reviewer: jswymer
 ms.topic: troubleshooting
 ms.collection:
   - bap-ai-copilot
-ms.date: 11/15/2023
+ms.date: 02/01/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -29,6 +29,10 @@ Når du prøver å bruke Copilot og du får en feilmelding som ligner **Beklager
 
 - Kontroller først at funksjonen er aktivert på siden **Copilot og KI-funksjoner**. [Finn ut mer om aktivering av Copilot- og KI-funksjoner](enable-ai.md#activate-features). 
 - Deretter må du sørge for at personvernerklæringen for Azure OpenAI-integrering ikke er satt til **Ikke godta for alle**. Hvis det er det, endrer du det til **Godta for alle**. [Finn ut mer om personvernerklæringer](privacy-notices-status.md).
+
+## Copilot-funksjoner fra Microsoft som ikke er oppført på siden Copilot og KI-funksjoner
+
+Hvis ingen av KI-funksjonene fra Microsoft vises på siden **Copilot og KI-funksjoner**, er det sannsynligvis fordi du har en eller flere innebygde apper installert i miljøet. Innebygde apper kan tilby sine egne Copilot-funksjoner, men funksjoner publisert av Microsoft er ikke kompatible med miljøer som har innebygde apper.
 
 ## Se også
 
