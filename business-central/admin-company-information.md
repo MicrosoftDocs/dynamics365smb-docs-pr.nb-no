@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Oversikt over selskapsinformasjon
+# <a name="company-information-overview"></a>Oversikt over selskapsinformasjon
 
 [!INCLUDE[prod_short](includes/prod_short.md)] organiserer forretningsenheter i *selskaper*. For hvert selskap må du fylle ut noen av de grunnleggende selskapsdetaljene og relevant informasjon på siden **Selskapsopplysninger**. Opplysningene på siden [**Selskapsopplysninger**](https://businesscentral.dynamics.com/?page=1) brukes i dokumenter, blant annet fakturahoder. Du kan opprette mer enn ett selskap, for eksempel et morselskap og et datterselskap.  
 
@@ -25,13 +25,13 @@ For hvert selskap du konfigurerer, må du fylle ut siden **Selskapsopplysninger*
 
 Når du er ferdig med å fylle ut informasjonen, kan du lukke siden.  
 
-## Arbeide med flere selskaper
+## <a name="working-with-multiple-companies"></a>Arbeide med flere selskaper
 
 Hvis [!INCLUDE [prod_short](includes/prod_short.md)] har flere selskaper, kan det være at brukerne ønsker å bruke *selskapskort* til å hjelpe dem med å raskt identifisere og holde oversikt over hvilket selskap de arbeider med for øyeblikket. Hvis du vil ha mer informasjon, kan du se [Vise et selskapsmerke](#badge).
 
 Det finnes noen funksjoner du kan bruke til å bytte mellom selskap mens du arbeider, for eksempel bytting av selskap (<kbd>Ctrl</kbd>+<kbd>O</kbd>). Lær mer på [Bytt til et annet selskap eller miljø](ui-organization-switch.md).
 
-## <a name="badge"></a>Vise et firmakort
+## <a name="display-a-company-badge"></a><a name="badge"></a>Vise et firmakort
 
 Når det er mer enn ett selskap eller miljø, vil du se at bytting av selskap øverst til høyre på programlinjen, nær søkeikonet på App-linjen. Som standard bruker bytting av selskap et standard selskapsikon, for eksempel ![startprogram for selskap-ikon.](media/ui-experience/company-icon.png "Viser ikonet for bytting av selskap som brukes når det er et enkelt miljø") og ![ompany-icon-mult-env](media/ui-experience/company-icon-multi-env.png "Viser ikonet for bytting av selskap som brukes når det er flere miljøer").
 
@@ -39,7 +39,7 @@ Når det er mer enn ett selskap eller miljø, vil du se at bytting av selskap ø
 
 Fra og med lanseringsbølge 2 for 2023, versjon 23, vises firmamerket i nettleserfanen når du bruker nettklienten. Det er også inkludert i sidekoblinger som du [kopierer og limer inn](across-share-data-features.md#copying-a-link) i redigeringsprogrammer for rik tekst, for eksempel Word, Outlook og Teams.
  
-### Konfigurer selskapsmerket
+### <a name="set-the-company-badge"></a>Konfigurer selskapsmerket
 
 Ved hjelp av siden **Selskapsinformasjon**kan du erstatte standard selskapsikon med et egendefinert kort per firma, hvis firmaskiltet gjør det enklere for brukerne å identifisere hvilket selskap de arbeider med.
 
@@ -49,7 +49,7 @@ Ved hjelp av siden **Selskapsinformasjon**kan du erstatte standard selskapsikon 
 > [!NOTE]
 > Bytting av selskap ble innført i lanseringsbølge 2 for 2022, versjon 21. I tidligere versjoner brukes ikke firmamerket til å bytte mellom selskaper. Den vises øverst til høyre på de fleste sider, selv når det bare er ett selskap. Hvis du velger dette, vises hele firmanavnet og miljønavnet.
 
-## Endre selskapsnavnet
+## <a name="change-company-display-name"></a>Endre selskapsnavnet
 
 Selskapsnavnet vises alltid øverst i venstre hjørne og fungerer som en handling du kan velge for å gå tilbake til rollesenteret. Du kan endre dette navnet på siden **Selskapsinformasjon**.
 
@@ -57,13 +57,13 @@ Selskapsnavnet vises alltid øverst i venstre hjørne og fungerer som en handlin
 2. Skriv inn det nye selskapsnavnet i feltet **Navn**.
 3. Forlat siden. Systemet starter på nytt og viser det nye selskapet i øvre venstre hjørne.
 
-## Opplevelse
+## <a name="experience"></a>Opplevelse
 
 Standard brukeropplevelse i en [!INCLUDE [prod_short](includes/prod_short.md)]-prøveversjon viser ikke alle funksjonene. Du kan bytte til full opplevelser på siden **Selskapsopplysninger**.  
 
 Hvis du vil ha mer informasjon, kan du gå til [Endre hvilke funksjoner som vises](ui-experiences.md).  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversikt over oppgaver for å definere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
 [Hurtigstart for selskapsopplysninger](quick-start-company-information.md)  
