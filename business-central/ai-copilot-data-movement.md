@@ -11,7 +11,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="copilot-data-movement-across-geographies"></a>Copilot-dataflytting på tvers av geografiske områder
+# Copilot-dataflytting på tvers av geografiske områder 
 
 Copilot er tilgjengelig i alle støttede [land/områder i Business Central](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). Copilot bruker imidlertid Microsoft Azure OpenAI-tjenesten, som for øyeblikket bare er tilgjengelig for Business Central i enkelte geografiske områder. Dette betyr at hvis miljøet befinner seg et annet sted, må data fra Copilot og generative KI-funksjoner overføres utenfor ditt geografiske område og kan behandles og lagres utenfor samsvarsgrensen. Data inkluderer KI-meldingene og forretningsdataene dine som brukes av eller genereres av Copilot. I dette tilfellet må du velge å tillate dataflytting til en Azure OpenAI-tjeneste i en annen geografi. <!--For a list of geographies, refer to the [Azure OpenAI Service geographies](#azure-openai-service-geographies) section that follows.-->
 
@@ -23,7 +23,7 @@ Copilot er tilgjengelig i alle støttede [land/områder i Business Central](/dyn
 > 
 > Copilot- og generative KI-funksjoner fra ikke-Microsoft-utgivere, for eksempel de som kommer fra tilpassinger eller AppSource-apper du installerer, definerer hver sine egne spesifikke Azure OpenAI-tjenesteområder. Rådfør deg med utgiveren av utvidelsen for å finne ut hvilke regionale Azure-tjenester som brukes av utvidelsen. 
 
-### <a name="azure-openai-service-geographies"></a>Azure OpenAI-tjeneste-geografier
+### Azure OpenAI-tjeneste-geografier
 
 Tabellen nedenfor viser Azure OpenAI-tjenestens geografiske område som brukes av Copilot, basert på Azure-området i et Business Central-miljø. Denne informasjonen er viktig når du skal avgjøre om du skal velge dataflytting på tvers av geografiske områder. Du kan identifisere Azure-området for miljøet i Business Central-administrasjonssenteret (se [Administrer miljøer i administrasjonssenteret](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-environments)).
 
@@ -33,7 +33,7 @@ Tabellen nedenfor viser Azure OpenAI-tjenestens geografiske område som brukes a
 |Australia (sør-øst)| USA |Ja |
 |Brasil (sør) |USA|Ja|
 |Canada (sentralt, øst)|USA|Ja|
-|Europa (vest, nord)| Sverige eller Sveits |Ja|
+|Europa (vest, nord)| Sverige eller Sveits |Nei\*|
 |Frankrike (sentralt, sør)| Sverige eller Sveits |Ja|
 |Tyskland (nord, vest-sentralt)| Sverige eller Sveits |Ja|
 |India (sentralt, sør)|USA|Ja|
@@ -46,8 +46,10 @@ Tabellen nedenfor viser Azure OpenAI-tjenestens geografiske område som brukes a
 |Storbritannia (sør, vest)|Storbritannia|Ja|
 |USA (sentral, øst, nord-sentral, sør-sentral, vest) |USA|Nei|
 
+\* For miljøer i Azure-områder i Vest-Europa og Nord-Europa aktiverer Business Central automatisk dataflytting på tvers av geografiske områder, men administratorer kan velge det bort når som helst.
+
 > [!NOTE]
-> Når en Azure OpenAI-tjeneste blir tilgjengelig i Business Central-geografien, går miljøet automatisk over til å bruke Azure OpenAI-tjenesten, og det er ikke nødvendig eller mulig å melde seg på.  
+> Når en Azure OpenAI-tjeneste blir tilgjengelig i Business Central-geografien, går miljøet automatisk over til å bruke Azure OpenAI-tjenesten, og det er ikke nødvendig eller mulig å melde seg på.
 <!--
 
 BC geos base on https://dynamics.microsoft.com/en-us/availability-reports/georeport/
@@ -107,6 +109,6 @@ case "AUSTRALIAEAST":
 
 -->
 
-## <a name="next-steps"></a>Neste trinn
+## Neste trinn
 
-Du velger å tillate dataflytting på tvers av geografiske områder fra siden [Copilot og KI-funksjoner](https://businesscentral.dynamics.com/?page=7775). Hvis du vil ha mer informasjon, kan du gå til [Tillat dataflytting på tvers av geografiske områder](enable-ai.md#allow-data-movement-across-geographies).
+Du velger (eller velger bort) å tillate dataflytting på tvers av geografiske områder fra siden [Copilot og KI-funksjoner](https://businesscentral.dynamics.com/?page=7775). Hvis du vil ha mer informasjon, kan du gå til [Tillat dataflytting på tvers av geografiske områder](enable-ai.md#allow-data-movement-across-geographies).

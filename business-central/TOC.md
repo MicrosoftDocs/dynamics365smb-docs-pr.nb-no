@@ -1560,6 +1560,7 @@ ms.service: dynamics-365-business-central
 #### [Konfigurer transportører](sales-how-to-set-up-shipping-agents.md)
 #### [Definer en fakturabokføringspolicy for brukere](admin-setup-invoice-posting-policy.md)
 #### [Oppdater dokumentdatoer med bokføringsdatoer](across-link-doc-dates-to-posting-dates.md)
+#### [Vis en mankoadvarsel](sales-setup-show-stockout-warning.md)
 ### Konfigurer kjøp
 #### [Konfigurer kjøp](purchasing-setup-purchasing.md)
 #### [Registrer nye leverandører](purchasing-how-register-new-vendors.md)

@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-Feltene **Bilagsdato** og **Bokføringsdato**  på salgs- og kjøpsdokumenter kan hjelpe deg med å overholde regnskapsstandarder og sikre nøyaktige økonomiske beregninger. Feltene har ulike formål:
+Feltene **Bilagsdato** og **Bokføringsdato** på salgs- og kjøpsdokumenter kan hjelpe deg med å overholde regnskapsstandarder og få nøyaktige økonomiske beregninger. Feltene har ulike formål:
 
 - For at [!INCLUDE [prod_short](prod_short.md)] skal kunne beregne rentebelastning og det forfalte beløpet på salgsfakturaer, må **dokumentdatoen** samsvare med én av følgende datoer:
 

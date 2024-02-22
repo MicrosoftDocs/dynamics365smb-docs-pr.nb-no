@@ -38,13 +38,13 @@ sections:
           | Handlinger på handlingslinjen | Bare forfremmede handlinger vises. | Bare forfremmede handlinger vises. |  |
           | Faktabokser | Vises ikke på listesider eller forslagssider. | Vises ikke på listesider eller forslagssider. | `Customer`-listen i `Small Business`-rollesenteret. |
           | Avanserte filtre | Ingen kolonnespesifikk filtrering er tilgjengelig. | Ingen kolonnespesifikk filtrering er tilgjengelig. | På `Customer`-listesiden. |
-          | Fortell meg | Den må være aktivert i [Funksjonsbehandling](/dynamics365/business-central/dev-itpro/administration/feature-management) ved hjelp av bryteren **Funksjon: Søk etter sider og data i mobilappbryteren**. Delen **Hent fra Microsoft AppSource** i resultatene for apper er ikke tilgjengelig. | Samme som nettbrett | Se [Finne sider og informasjon med Fortell meg](ui-search.md). |  |
-          | Rolleutforsker | Ikke tilgjengelig ennå. | Ikke tilgjengelig ennå. | Se [Finne sider med rolleutforskeren](ui-role-explorer.md). |
+          | Fortell meg | Den må være aktivert i [Funksjonsbehandling](/dynamics365/business-central/dev-itpro/administration/feature-management) ved hjelp av bryteren **Funksjon: Søk etter sider og data i mobilappbryteren**. Delen **Hent fra Microsoft AppSource** i resultatene for apper er ikke tilgjengelig. | Samme som nettbrett | Gå til [Finn sider og informasjon med Fortell meg](ui-search.md). |  |
+          | Rolleutforsker | Ikke tilgjengelig ennå. | Ikke tilgjengelig ennå. | Gå til [Finn sider med rolleutforskeren](ui-role-explorer.md). |
           | Felter i hurtigfaner | Felter i hurtigfaner på listesider vises ikke. Bare repeater-kontrollen vises på innholdsområdet til siden. | Ikke tilgjengelig. |  |
           | Velg fra hele listen | Ikke tilgjengelig for oppslag. Brukere kan ikke kjøre handlinger på en oppslagsside, og de får ikke tilgang til hele settet med poster. | Ikke tilgjengelig for oppslag. Brukere kan ikke kjøre handlinger på en oppslagsside, og de får ikke tilgang til hele settet med poster. | På `Item Card` når du velger **Lagerenheter**. |
-          | Søke på tvers av listekolonner | Støttes delvis. Søket vil ikke inkludere FlowFields. | Støttes delvis. Søket vil ikke inkludere FlowFields. | Se eksempler på `Customers`-listesiden. |
-          | Oppslag | Tilgjengelig. | Tilgjengelig, med den forskjellen at avanserte og enkle oppslag har samme virkemåte på telefonen. Oppslaget vil ikke hente kortet, vise faktabokser eller feltgrupper. | Se eksempler på `Customer Card`-siden. |
-          | Matrisekontroller | Ikke tilgjengelig. | Ikke tilgjengelig. | Se eksempel i `G/L Budget`. |
+          | Søke på tvers av listekolonner | Støttes delvis. Søket vil ikke inkludere FlowFields. | Støttes delvis. Søket vil ikke inkludere FlowFields. | Gå til eksempler på `Customers`-listesiden. |
+          | Oppslag | Tilgjengelig. | Tilgjengelig, med den forskjellen at avanserte og enkle oppslag har samme virkemåte på telefonen. Oppslaget vil ikke hente kortet, vise faktabokser eller feltgrupper. | Gå til eksempler på `Customer Card`-siden. |
+          | Matrisekontroller | Ikke tilgjengelig. | Ikke tilgjengelig. | Gå til eksempel i `G/L Budget`. |
           | Filnedlasting | Tilgjengelig. Kan ikke laste ned flere filer samtidig. | Tilgjengelig. Kan ikke laste ned flere filer samtidig. | `Trial Balance`-rapporten i avmerkingsboksen **Skriv ut til Excel**. |
           | Forslagssider | Tilgjengelig. | Ikke tilgjengelig. Det vises en feilmelding. | `Sales Price`-forslaget eller `Cash Flow`-forslaget. |
           | Oversikter | Tilgjengelig. | Tilgjengelig, med den forskjellen at de vises i et mursteinsoppsett. | Sidene Kunder eller Ordrer. |
@@ -53,15 +53,15 @@ sections:
       - question: |
           Er det samme funksjoner på nettbrett og telefoner?
         answer: |
-          Nesten, men ikke helt. Ser listen i delen [Er det samme funksjoner i appene som i nettleseren?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  
+          Nesten, men ikke helt. Gå til listen i delen [Er det samme funksjoner i appene som i nettleseren?](#is-it-the-same-experience-in-the-apps-as-in-the-browser-).  
       - question: |
           Kan jeg koble appen til vår lokale løsning?
         answer: |
-          Ja, det kan du! Det er en litt annen måte å logge seg på, det er alt. Hvis du vil ha mer informasjon, kan du se [Bruker du Business Central lokalt?](install-mobile-app.md#use-business-central-on-premises).  
+          Ja, det kan du! Det er en litt annen måte å logge seg på, det er alt. Hvis du vil ha mer informasjon, kan du gå til [Bruker du Business Central lokalt?](install-mobile-app.md#use-business-central-on-premises).  
       - question: |
           Kan en gjestebruker bruke appen til å få tilgang til Business Central-løsningen?
         answer: |
-          Nei. Gjestebrukere er inviterte brukere fra en annen Microsoft Entra-leietaker enn din. I dette tilfellet vil appen godkjenne den primære leietakeren til gjestebrukerens primære Microsoft Entra-leietaker og deretter prøve å åpne Business Central-endepunktet på den leietakeren i stedet for din.  
+          Nr. Gjestebrukere er inviterte brukere fra en annen Microsoft Entra-leietaker enn din. I dette tilfellet vil appen godkjenne den primære leietakeren til gjestebrukerens primære Microsoft Entra-leietaker og deretter prøve å åpne Business Central-endepunktet på den leietakeren i stedet for din.  
 additionalContent: |
 
   ## Se også

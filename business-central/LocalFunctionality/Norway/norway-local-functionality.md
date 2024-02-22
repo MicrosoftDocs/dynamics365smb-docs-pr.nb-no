@@ -1,21 +1,21 @@
 ---
 title: 'Funksjonalitet som er spesifikk for norske brukere [NO]'
-description: Emnene nedenfor beskriver all den lokale funksjonaliteten i den norske versjonen av Business Central.
+description: Artiklene nedenfor beskriver all den lokale funksjonaliteten i den norske versjonen av Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/21/2021
+ms.date: 02/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="norway-local-functionality"></a>Norge Lokal funksjonalitet i den norske versjonen
+# Funksjonalitet som er spesifikk for norske brukere
 
-Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)].  
+Artiklene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Funksjonstilgjengelighet
+## Funksjonstilgjengelighet
 
-* Merverdiavgift
+* MVA
     * [Administrere SAF-T (norsk standard revisjonsfil – avgift)](ui-extensions-setup-and-generate-saf-t-files-no.md) **Tilgjengelig nå**
     * [Norsk mva-rapportering](norwegian-vat-reporting.md) **Tilgjengelig nå**
     * [Norske mva-koder](norwegian-vat-codes.md) **Tilgjengelig nå**  
@@ -74,15 +74,15 @@ Emnene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske v
  [Recurring Orders](recurring-orders.md)  
  -->
  
-## <a name="future-legislation-requirements-being-investigated"></a>Framtidige krav til lovgivning undersøkes
+## Framtidige krav til lovgivning undersøkes 
 
-* Overfør norsk elektronisk mva-innsendingsløsning til det nye systemet ID-porten **planlagt for 23.2** 
-* Nyutformet og oppgradert ikke-fradragsberettiget mva. **planlagt for 23.4**   
+* Overfør norsk elektronisk mva-innsendingsløsning til det nye systemet ID-porten **Planlagt for 23.5** 
+* Nyutformet og oppgradert ikke-fradragsberettiget mva. **Planlagt for lanseringsbølge 2 i 2024**   
 
 Hvis du vet om kommende forskriftsmessige funksjoner, kan du sende et [varsel om forskriftmessig funksjon](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbeid med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

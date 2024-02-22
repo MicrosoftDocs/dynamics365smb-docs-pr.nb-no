@@ -9,21 +9,22 @@ ms.search.keywords: 'task, process, report, print, schedule, save, Excel, PDF, W
 ms.search.form: null
 ms.date: 09/04/2023
 ms.custom: bap-template
+ms.service: dynamics-365-business-central
 ---
-# <a name="run-and-print-reports"></a>Kjør og skriv ut rapporter
+# Kjør og skriv ut rapporter
 
 En rapport samler informasjon basert på et angitt sett med kriterier. Den organiserer og presenterer informasjonen i et leservennlig format som du kan skrive ut eller lagre som en fil. Det finnes mange tilgjengelige rapporter i programmet. Rapportene inneholder informasjon i forhold til konteksten på siden du er på. **Kunde**-siden inneholder for eksempel rapporter for de 10 beste kundene, salgsstatistikk og mer.
 
 > [!NOTE]
 > Satsvise jobber og XML-porter utfører mer eller mindre det samme som rapporter, men brukes mer til å behandling og eksport av data. For eksempel oppretter **Opprett purringer**-kjørselen purredokumenter som skal sendes til kunder med forfalte betalinger. Denne artikkelen dreier seg hovedsakelig om rapporter, men lignende informasjon gjelder kjørsler og XML-porter.
 
-## <a name="get-started"></a>Kom i gang
+## Kom i gang
 
 Du finner rapporter i menyen **Rapporter** på utvalgte sider, lister og kort, eller du kan bruke søket ![Lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre") til å finne rapporter etter navn. Hvis du vil ha en oversikt over innebygde rapporter du kan bruke i [!INCLUDE[prod_short](includes/prod_short.md)], sortert etter kategorier, kan du se [Tilgjengelige rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md).
 
 Når du velger en rapport, vises vanligvis en forespørselsside, med tittelen til rapportens navn, der du kan angi forskjellige alternativer og filtre som bestemmer hvilke data som er inkludert. De følgende delene forklarer hvordan du bruker forespørselssiden til å bygge, forhåndsvise og skrive ut en rapport.
 
-## <a name="using-default-valuesmdashpredefined-settings"></a><a name="SavedSettings"></a>Bruk standardverdier – forhåndsdefinerte innstillinger
+## <a name="SavedSettings"></a>Bruk standardverdier – forhåndsdefinerte innstillinger
 
 De fleste rapportforespørselssidene inkluderer feltet **Bruk standardverdi fra**. Med dette feltet kan du velge forhåndsdefinerte innstillinger for rapporten, som automatisk angir alternativer og filtre. Velg en oppføring fra rullegardinlisten for å se at alternativene og filtrene på rapportforespørselssiden endres i henhold til dette.
 
@@ -34,7 +35,7 @@ Feltet **Bruk standardverdi fra** gir en rask, pålitelig og konsekvent metode f
 > [!NOTE]
 > De forhåndsdefinerte innstillingene konfigureres og administreres vanligvis av en administrator. Finn ut mer under [Behandle lagrede innstillinger for rapporter og satsvise jobber](reports-saving-reusing-settings.md).
 
-## <a name="specifying-the-data-to-include-in-a-report"></a>Spesifisere dataene som skal inkluderes i en rapport
+## Spesifisere dataene som skal inkluderes i en rapport
 
 Bruk feltene under **Alternativer** og **Filtre** for å endre eller avgrense informasjon du ønsker i rapporten. Du kan definere filtre i en rapport mer eller mindre på samme måte som du angir filtre for oversikter. Finn ut mer i delen [Filtrering](ui-enter-criteria-filters.md#filtering).
 
@@ -45,7 +46,7 @@ Bruk feltene under **Alternativer** og **Filtre** for å endre eller avgrense in
 >
 > **Eksempel**: Når du bruker kjørselen **Opprett purringer** ignoreres et filter for feltet **Kundeposter** for **Siste utstedte purregrad**, fordi filtre fikses for denne kjørselen.
 
-## <a name="previewing-a-report"></a>Forhåndsvise en rapport
+## Forhåndsvise en rapport
 
 Ved å forhåndsvise en rapport kan du se hvordan rapporten vil se ut før du skriver den ut. Forhåndsvisningen er ikke basert på skriveren valgt i feltet **Skriver** på forespørselssiden. Det kontrolleres av nettleseren. Etter forhåndsvisning kan du gå tilbake til forespørselssiden og gjøre endringer i alternativer og filtre etter behov.
 
@@ -54,7 +55,7 @@ Forhåndsvisningsvalgene på siden **Rapportforespørsel** avhengig av rapporten
 > [!NOTE]
 > Hvis du bruker lanseringsbølge 1 i 2020 for Business Central eller tidligere, er det eneste valget **Forhåndsvisning**, som lukker forespørselssiden ved forhåndsvisning, som beskrevet ovenfor for **Forhåndsvis og lukk**.
 
-### <a name="work-with-the-preview"></a>Arbeid med forhåndsvisningen
+### Arbeid med forhåndsvisningen
 
 I forhåndsvisningen bruker du menylinjen i rapportforhåndsvisningen for å:
 
@@ -71,7 +72,7 @@ I forhåndsvisningen bruker du menylinjen i rapportforhåndsvisningen for å:
 - Last ned til en PDF-fil på datamaskinen eller nettverket.
 - Skriv ut
 
-## <a name="saving-a-report-to-a-file"></a>Lagre en rapport i en fil
+## Lagre en rapport i en fil
 
 Du kan lagre en rapport i et PDF-dokument, Microsoft Word-dokument, Microsoft Excel-arbeidsbok eller XML-dokument ved å velge **Send til**, og deretter velge. En fil lastes ned til enheten.
 
@@ -82,7 +83,7 @@ Hvis organisasjonen har konfigurert OneDrive for systemfunksjoner i stedet for �
 >
 > Du kan også bruke **Microsoft Excel-dokument (bare data)** til å opprette nye Excel-oppsett for en gitt rapport. Finn ut mer under [Arbeid med Excel-oppsett](ui-excel-report-layouts.md).  
 
-## <a name="scheduling-a-report-to-run-later-or-periodically"></a><a name="ScheduleReport"></a>Planlegg en rapport for kjøring senere eller regelmessig
+## <a name="ScheduleReport"></a> Planlegg en rapport for kjøring senere eller regelmessig
 
 Du kan planlegge at en enkelt eller gjentakende rapport som skal kjøres på en bestemt dato og et bestemt klokkeslett. Planlagte rapporter legges i jobbkøen og behandles på det planlagte tidspunktet, på samme måte som andre jobber. Velg alternativet **Planlegg** etter at du har valgt **Send til**, og angi deretter informasjon som skriver, dato og klokkeslett. Rapporten legges til i jobbkøen og kjøres på angitt tidspunkt. Når rapporten er behandlet, fjernes elementet fra jobbkøen. Finn ut mer under [Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).  
 
@@ -90,7 +91,7 @@ Når du planlegger å kjøre en rapport, kan du for eksempel angi at den må kj�
 
 Du kan velge å lagre rapporten som en fil (for eksempel en Excel-, Word- eller PDF-fil), skrive den ut eller bare generere rapporten. Hvis du lagrer rapporten i en fil, sendes den behandlede rapporten til siden **Rapportinnboks** på rollesenteret for å vise den. Finn ut mer under [Del og eksporter rapporter med rapportinnboksen](ui-work-report-inbox.md)
 
-### <a name="manage-scheduled-recurring-reports"></a>Administrer planlagte gjentatte rapporter
+### Administrer planlagte gjentatte rapporter
 
 Planlagte rapporter genereres av kjørsler som er behandlet på siden **Jobbkøposter**. Du kan se status og annen informasjon for hver rapport på siden, stanse midlertidig / fortsette rapporten, og generere rapporten ved behov.
 
@@ -105,13 +106,13 @@ Når du har redigert rapportalternativene, gjentar du de første to trinnene og 
 
 Lær mer om håndtering av jobbkø under [Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).  
 
-## <a name="printing-a-report"></a><a name="PrintReport"></a>Skriv ut en rapport
+## <a name="PrintReport"></a>Skriv ut en rapport
 
 Hvis du vil skrive ut en rapport, velger du **Skriv ut** på rapportforespørselssiden eller på menylinjen på siden **Forhåndsvisning**.
 
 Når en rapport bruker et Excel-oppsett, ser du ikke feltet **Skriver**-feltet, **Skriv ut**- eller **Forhåndsvis**-knappene. Det finnes et **Last ned**-alternativ i stedet. Du skriver ut ved å velge **Last ned** og åpne den nedlastede filen i Excel og skrive ut derfra.
 
-### <a name="printer"></a><a name="Printer"></a>Skriver
+### <a name="Printer"></a>Skriver
 
 **Skriver**-feltet på forespørselssiden viser navnet på skriveren som rapporten sendes til. Hvis du vil bytte skriver, velger du ganske enkelt skriveren fra listen.
 
@@ -121,13 +122,13 @@ Når en rapport bruker et Excel-oppsett, ser du ikke feltet **Skriver**-feltet, 
 > [!TIP]
 > Skriveren som er valgt som standard, konfigureres på siden **Skrivervalg**. Lær mer om hvordan du endrer standard skrive ren i delen [Definer standardskrivere](ui-specify-printer-selection-reports.md#default).
 
-### <a name="printing-reports-in-thai"></a>Skrive ut rapporter på thailandsk
+### Skrive ut rapporter på thailandsk
 
 Spesielt for den thailandske versjonen av [!INCLUDE[prod_short](includes/prod_short.md)], kan ikke **Utskrift**-knappen skrive ut rapporter riktig på grunn av begrensninger i tjenesten som genererer den utskrivbare PDF-filen. Du kan i stedet åpne rapporten i Word og deretter lagre den som en utskrivbar PDF.  
 
 Du kan også be systemansvarlig om å opprette et Word-rapportoppsett for de mest brukte rapportene. Finn ut mer under [Administrere rapport- og dokumentoppsett](ui-manage-report-layouts.md).  
 
-## <a name="switching-the-report-layout"></a>Bytt rapportoppsettet
+## Bytt rapportoppsettet
 
 Et rapportoppsett styrer hva som skal vises i en rapport, hvordan det er ordnet og stilen som brukes. Det er noen få måter å endre oppsettet på:
 
@@ -136,7 +137,7 @@ Et rapportoppsett styrer hva som skal vises i en rapport, hvordan det er ordnet 
 
 Finn ut mer under [Definer oppsettet som brukes av en rapport](ui-set-report-layout.md). Hvis du vil tilpasse ditt eget rapportoppsett, kan du gå til [Kom i gang med å opprette oppsett](ui-get-started-layouts.md).
 
-## <a name="change-language-and-format-of-numbers-dates-and-times"></a>Endre språk og format for tall, datoer og klokkeslett
+## Endre språk og format for tall, datoer og klokkeslett
 
 Som standard er språket i tekst og format for tall, datoer og klokkeslett i en rapport basert på arbeidsspråket og områdeinnstillingene, som er definert på siden **Mine innstillinger**. Du kan imidlertid endre språket og formatområdet i hvert tilfelle når du forhåndsviser, skriver ut eller sender en rapport. På forespørselssiden angir du alternativene **Språk** og **Formatområde** til dine innstillinger. Du kan også angi språk- og regionformatet som skal brukes som standard for kunder og leverandører, på kortsidene deres.
 
@@ -149,7 +150,7 @@ Avhengig av hvor du har angitt språk- og formatinnstillingene, [!INCLUDE [prod_
 
 Hvis du vil ha mer informasjon om siden **Mine innstillinger**, går du til [Endre grunnleggende innstillinger](ui-change-basic-settings.md#region).
 
-## <a name="advanced-options"></a>Avanserte alternativer
+## Avanserte alternativer
 
 Feltene under hurtigfanen **Avansert** setter begrensninger på den genererte rapporten for å kontrollere skriverressurser. Du trenger vanligvis ikke endre disse innstillingene, med mindre du har en stor rapport. Hvis en rapport overskrider disse begrensningene når du prøver å forhåndsvise eller skrive ut, angir en melding hvilken begrensning som ble overskredet. Deretter kan du endre innstillingene slik at de passer til rapporten. Hvert felt har imidlertid en maksimumsverdi som du bør være klar over:
 
@@ -162,7 +163,7 @@ Feltene under hurtigfanen **Avansert** setter begrensninger på den genererte ra
 > [!NOTE]
 > Maksimumsverdiene kan være forskjellige for [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, og en administrator kan endre dem. Finn ut mer i delen [Konfigurere Business Central Server – Rapporter](/dynamics365/business-central/dev-itpro/administration/configure-server-instance#Reports). Hvis du vil ha en oversikt over rapportbegrensninger i [!INCLUDE[prod_short](includes/prod_short.md)] online, kan du se [Driftsgrenser](/dynamics365/business-central/dev-itpro/administration/operational-limits-online).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilgjengelige rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  
 [Bruk rapporter i daglig arbeid](reports-use-reports.md)  

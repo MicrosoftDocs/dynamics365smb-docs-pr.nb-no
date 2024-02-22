@@ -2,13 +2,14 @@
 title: Opprett en kundeordre og selg produkter
 description: Beskriver hvordan du oppretter en ordre for å registrere avtalen med en kunde om å selge eller handle med produkter i samsvar med bestemte betingelser.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: soalex
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 11/03/2023
-ms.author: bholtorf
+ms.date: 02/01/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Selg produkter med en kundeordre
 
@@ -89,6 +90,12 @@ Beslektet element og kundeposter opprettes nå i systemet, og ordren skrives ut 
 ## Eksternt dokumentnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
+
+## Arbeide med beløpsfelter
+
+Verdiene i felter som viser beløp, kan være positive eller negative avhengig av om verdien representerer en kredit eller en debet. Denne videoen viser hvordan du arbeider med felter som viser beløp.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
 ## Se også
 
