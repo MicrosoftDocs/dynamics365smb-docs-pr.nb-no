@@ -8,13 +8,13 @@ ms.date: 01/28/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Aktivere Power BI-integrering med [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="enabling-power-bi-integration-with-"></a>Aktivere Power BI-integrering med [!INCLUDE[prod_short](includes/prod_short.md)]
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Denne artikkelen beskriver hvordan du klargjør [!INCLUDE[prod_short](includes/prod_short.md)] for integrering med Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] Online er allerede aktivert for integrering, selv om det er en del lisensieringsinformasjon du kanskje bør lese. For [!INCLUDE[prod_short](includes/prod_short.md)] lokalt må du konfigurere miljøet slik at det kobler til Power BI, før brukerne kan arbeide med det.
 
-## <a name="license"></a>Power BI-lisensiering
+## <a name="power-bi-licensing"></a><a name="license"></a>Power BI-lisensiering
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] får brukere en gratis Power BI-lisens som gir tilgang til de vanligste funksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI. Du kan også kjøpe en Power BI Pro-lisens som gir tilgang til ytterligere funksjoner. Tabellen nedenfor inneholder en oversikt over hvilke funksjoner som er tilgjengelige for hver enkelt lisens.
 
@@ -25,11 +25,11 @@ Med [!INCLUDE[prod_short](includes/prod_short.md)] får brukere en gratis Power 
 
 Hvis du vil ha mer informasjon, kan du se [Lisensiere Power BI-tjenesten for brukere i organisasjonen](/power-bi/admin/service-admin-licensing-organization) eller [Registrere deg for Power BI-tjenesten som enkeltperson](/power-bi/fundamentals/service-self-service-signup-for-power-bi).
 
-## <a name="exposedata"></a>Eksponer data gjennom API- eller OData-nettjenester
+## <a name="expose-data-through-api-or-odata-web-services"></a><a name="exposedata"></a>Eksponer data gjennom API- eller OData-nettjenester
 
 Business Central tilbyr to måter å vise data på som kan forbrukes av Power BI-rapporter: API-sider eller -spørringer og nettjenester for åpne dataprotokoller (OData).
 
-### API-sider og -spørringer
+### <a name="api-pages-and-queries"></a>API-sider og -spørringer
 
 > **GJELDER:** bare Business Central Online
 
@@ -44,17 +44,17 @@ Business Central online støtter også egen definerte API-er. Programutviklere f
 >
 > I sjeldne tilfeller vil virkemåten føre til en feil når en bruker prøver å hente data fra API for en rapport i Power BI Desktop. Hvis databaseendringer er nødvendige på den egendefinerte API, kan Power BI Desktop-brukerne imidlertid fremtvinge virkemåten. Hvis du vil ha mer informasjon, kan du se [Bygg Power BI-rapporter for å vise Business Central-data](across-how-use-financials-data-source-powerbi.md#fixing-problems).
 
-### OData-nettjenester
+### <a name="odata-web-services"></a>OData-nettjenester
 
 Du kan publisere Business Central-programobjekter, for eksempel codeunit, sider og spørringer, som [OData-nettjenester](/dynamics365/business-central/dev-itpro/webservices/odata-web-services). Med Business Central online blir det publisert mange nettjenester som standard. Det er enkelt å finne webtjenestene ved å søke etter *webtjenester* i [!INCLUDE[prod_short](includes/prod_short.md)]. På siden **Webtjenester** kontrollerer du at **Publiser**-feltet er valgt for webtjenestene som er oppført ovenfor. Hvis du vil ha mer informasjon om publisering av webtjenester, kan du se [Publisere en webtjeneste](across-how-publish-web-service.md).
 
 Hvis du vil vite mer om hva du kan gjøre for å sikre den beste ytelsen til webtjenester, sett fra Business Central-serveren (endepunktet) og fra forbrukeren (klienten), kan du lese [Skrive effektive webtjenester](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-web-services).
 
-### Velg om du vil bruke API-sider eller OData-nettjenester
+### <a name="choosing-whether-to-use-api-pages-or-odata-web-services"></a>Velg om du vil bruke API-sider eller OData-nettjenester
 
 Når det er mulig, oppfordrer vi til å bruke API-sider i stedet for OData-nettjeneste. API-sider er generelt raskere ved innlasting av data i Power BI-rapporter enn OData-nettjenester. I tillegg er de mer fleksible fordi de lar deg hente data fra tabellfelter som ikke er definert i et sideobjekt.
 
-## <a name="setup"></a>Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] lokalt for Power BI-integrering
+## <a name="set-up--on-premises-for-power-bi-integration"></a><a name="setup"></a>Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)] lokalt for Power BI-integrering
 
 Denne delen forklarer kravene til integrering av en distribusjon av [!INCLUDE[prod_short](includes/prod_short.md)] lokalt med Power BI.
 
@@ -91,13 +91,13 @@ Denne delen forklarer kravene til integrering av en distribusjon av [!INCLUDE[pr
 
     For å opprette den første tilkoblingen må du åpne [!INCLUDE[prod_short](includes/prod_short.md)] og kjøre **Kom i gang med Power BI** fra startsiden. Denne handlingen leder deg gjennom samtykkeprosessen og kontrollerer Power BI-lisensen. Logg deg på med en Microsoft Entra-administratorkonto når du blir bedt om det. Hvis du vil ha mer informasjon, kan du se [Koble til Power BI – kun én gang](across-working-with-powerbi.md#connect).
 
-## Konfigurer dataflyt
+## <a name="setting-up-dataflows"></a>Konfigurer dataflyt
 
 Med dataflytprosesser kan du inkludere, transformere og laste inn data i et Power BI-arbeidsområde og deretter bruke dataene som grunnlag for rapportene. Disse dataflytene kan i noen tilfeller oppleve forbigående feil under en planlagt oppdatering. Feilmeldingen ser slik ut: `DataSource.Error: OData: Unable to read data from the transport connection: An existing connection was forcibly closed by the remote host.` 
 
 Ved hjelp av Power Automate kan du konfigurere nye forsøk for denne plasseringen. Hvis du vil ha mer informasjon, kan du se [Prøv en dataflyt på nytt automatisk ved feil](/power-query/dataflows/automatically-retry-dataflow).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Business Central og Power BI](admin-powerbi.md)  
 [Oversikt over komponent og arkitektur for Power BI-integrering for [!INCLUDE[prod_short](includes/prod_short.md)]](admin-powerbi-overview.md)  
