@@ -7,7 +7,7 @@ ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: 'posting setup, initialize'
 ms.search.form: '312, 313'
-ms.date: 12/21/2023
+ms.date: 02/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -111,9 +111,21 @@ Dermed får du et varsel når du arbeider med et dokument som bruker en bokføri
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] oppretter en plassholderbokføringsgruppe eller et plassholderoppsett, slik at det kan sende deg direkte til bokføringsgruppen eller oppsettet som mangler en finanskonto. Bokføringsgrupper og oppsett gjør at regnskapsføreren kan styre hvordan poster bokføres i Finans, så slik just-in-time-opprettelse av bokføringsgrupper og oppsett er kanskje ikke tillatt i organisasjonen din.  
 >
-> I dette tilfellet deaktiverer du varselet *Finanskonto mangler i bokføringsgruppe eller oppsett*, og deretter arbeider du med regnskapsføreren for å foreta relevante endringer i bokføringsgruppen, oppsettet eller dokumentet. Dette er et viktig trinn fordi etter at dokumenter er bokført, kan ikke uriktig brukte bokføringsgrupper eller oppsett slettes, fordi finansposter er opprettet for dem.
+> I dette tilfellet deaktiverer du varselet *Finanskonto mangler i bokføringsgruppe eller oppsett*, og deretter arbeider du med regnskapsføreren for å foreta relevante endringer i bokføringsgruppen, oppsettet eller dokumentet. Dette er et viktig trinn fordi etter at dokumenter er bokført, kan du ikke slette uriktig brukte bokføringsgrupper eller oppsett fordi finansposter er opprettet for dem.
 
-Fra 2022 lanseringsbølge 1 kan du bruke feltet **Sperret** på siden **Generelt bokføringsoppsett** for å hindre at brukere ved en feiltakelse bruker et oppsett som ikke lenger er relevant for nye bokføringer.  
+Bruk feltet **Sperret** på siden **Generelt bokføringsoppsett** til å hindre at brukere ved en feiltakelse bruker et oppsett som ikke lenger er relevant for nye bokføringer. 
+
+## Åpne alle felter og kontoer når du definerer en bokføringsgruppe  
+
+Bokføringsgrupper kan være kompliserte å definere. Fordi noen kontotyper ikke brukes ofte, viser ikke [!INCLUDE [prod_short](includes/prod_short.md)] dem som kolonner på linjene. For å gjøre det litt enklere å velge riktige kontoer filtrerer [!INCLUDE [prod_short](includes/prod_short.md)] kontoene du kan velge i feltoppslag. 
+
+Hvis du vil ha tilgang til alle kontoene på linjene og i feltoppslagene, er det et par innstillinger som kan hjelpe:
+
+* Hvis du vil vise alle kontoer som kolonner på linjene, aktiverer du vekslebryteren **Vis alle kontoer**.
+* Hvis du vil ha tilgang til alle kontoer i feltoppslag på individuelle linjer, merker du av for **Vis alle kontoer ved oppslag**.
+
+> [!NOTE]
+> Vekslebryteren **Vis alle kontoer** ser kanskje ikke ut til å fungere på siden **Generelt bokføringsoppsett**. Det er fordi [!INCLUDE [prod_short](includes/prod_short.md)] alltid viser alle kontoer som kolonner på linjene på denne siden.
 
 ## Feilsøking av feil med bokføringsgruppe
 
