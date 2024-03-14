@@ -10,14 +10,14 @@ ms.date: 11/30/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Tilgjengelige skrifter
+# <a name="available-fonts"></a>Tilgjengelige skrifter
 
 Den elektroniske versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] inneholder forhåndsinstallerte skrifter på serverne som kan brukes til å definere rapporter. Avsnittene nedenfor beskriver hvilke skrifter som er tilgjengelige.
 
 > [!NOTE]
 > Av sikkerhetsgrunner og rettslige grunner kan du ikke laste opp egendefinerte skrifter til [!INCLUDE[prod_short](includes/prod_short.md)]-miljøet.
 
-## Dokumentskrifter
+## <a name="document-fonts"></a>Dokumentskrifter
 
 Følgende skrifter installeres og er tilgjengelige for bruk i Excel, Word og RDLC-rapportoppsett:
  
@@ -156,7 +156,7 @@ Følgende skrifter installeres og er tilgjengelige for bruk i Excel, Word og RDL
 * Yu Gothic UI Semibold
 * Yu Gothic UI Semilight
 
-## Skrifter for sjekker
+## <a name="fonts-for-checks"></a>Skrifter for sjekker
 
 MICR-skrifter er installert og tilgjengelige for bruk. Både E-13B- og de CMC-7-standardene støttes.  
 
@@ -164,7 +164,7 @@ I tillegg til MICR-skrifter er spesielle sikkerhetsskrifter tilgjengelige for å
 
 Hvis du vil ha mer informasjon, kan du se [Velg et sjekkoppsett](finance-how-define-check-layouts.md).  
 
-## Skrifter for strekkoder
+## <a name="fonts-for-barcodes"></a>Skrifter for strekkoder
 Skrifter for generering av strekkoder er installert og tilgjengelig for bruk i både Word- og RDLC-rapportoppsett.
 
 Følgende endimensjonale strekkode-symbologier støttes:
@@ -184,7 +184,7 @@ Følgende todimensjonale strekkode-symbologier støttes:
 
 Hvis du vil ha mer informasjon, kan du se [Strekkodeskrifter med Business Central Online](/dynamics365/business-central/dev-itpro/developer/devenv-report-barcode-fonts).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  
 [Velg et sjekkoppsett](finance-how-define-check-layouts.md)  
