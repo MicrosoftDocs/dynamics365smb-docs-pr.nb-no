@@ -8,7 +8,7 @@ ms.date: 09/13/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Godkjenningsarbeidsflytvarsler
+# <a name="approval-workflow-notifications"></a>Godkjenningsarbeidsflytvarsler
 
 Konfigurere arbeidsflytene slik at de automatisk varsler brukere når de må det må utføres handlinger for et trinn i en arbeidsflyt. Mange arbeidsflytsvar omhandler å varsle brukere om at det har skjedd en hendelse som har skjedd.
 
@@ -20,7 +20,7 @@ Du kan for eksempel angi den slik at bruker 2, godkjenningsbrukeren, mottar et v
 > [!IMPORTANT]  
 > Alle arbeidsflytvarsler sendes via en jobbkø. Kontroller at jobbkøen i installasjonen er definert til å håndtere arbeidsflytvarsler, og at du har merket av for **Start automatisk fra server**. Finn ut mer under [Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).
 
-## Konfigurer varslinger
+## <a name="set-up-notifications"></a>Konfigurer varslinger
 
 Du kan definere ulike aspekter ved arbeidsflytvarsler på følgende steder:  
 
@@ -49,7 +49,7 @@ Du kan definere ulike aspekter ved arbeidsflytvarsler på følgende steder:
 
   For arbeidsflyter for godkjenning legger du til et trinn for arbeidsflytsvar for å varsle avsenderen når forespørselen er godkjent eller avvist. Finn ut mer fra trinn 9 i delen [Opprett arbeidsflyter](across-how-to-create-workflows.md#to-create-a-workflow).   
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)  
 [Konfigurer arbeidsflytbrukere](across-how-to-set-up-workflow-users.md)  

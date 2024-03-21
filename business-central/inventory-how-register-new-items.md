@@ -10,7 +10,7 @@ ms.date: 11/02/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Registrere nye varer
+# <a name="register-new-items"></a>Registrere nye varer
 
 Varer, blant andre produkter, er grunnlaget for virksomheten din, varene eller tjenestene du handler med. Hver vare må være registrert som et varekort.
 
@@ -33,7 +33,7 @@ Fremgangsmåten nedenfor forklarer hvordan du oppretter et varekort fra grunnen 
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
-## Opprette et nytt varekort
+## <a name="to-create-a-new-item-card"></a>Opprette et nytt varekort
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
@@ -48,7 +48,7 @@ Varen er nå registrert, og varekortet er klart til å brukes på kjøps- og sal
 
 Hvis du vil bruke dette varekortet som en mal når du oppretter nye varekort, kan du lagre det som en mal. Hvis du vil ha mer informasjon, kan du se følgende avsnitt:  
 
-### Lagre varekortet som en mal
+### <a name="to-save-the-item-card-as-a-template"></a>Lagre varekortet som en mal
 
 1. På siden **Varekort** velger du handlingen **Lagre som mal**. **Varemal**-siden åpnes og viser varekortet som en mal.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -58,11 +58,11 @@ Hvis du vil bruke dette varekortet som en mal når du oppretter nye varekort, ka
 
 Varemalen legges til i listen over varemaler, slik at du kan bruke den til å opprette nye varekort.
 
-### Varer som brukes i produksjonsordrer
+### <a name="items-used-in-production-orders"></a>Varer som brukes i produksjonsordrer
 
 Hvis du vil registrere varer som brukes i produksjonsordrer, angir du etterfyllingssystemet som *Prod. ordre* i hurtigfanen **Etterfylling**. Hvis du vil ha mer informasjon, kan du se [Om produksjonsordrer](production-about-production-orders.md).  
 
-## Slik definerer du flere leverandører for varer
+## <a name="to-set-up-multiple-vendors-for-an-item"></a>Slik definerer du flere leverandører for varer
 
 Hvis du kjøper den samme varen fra flere leverandører, må du angi opplysninger om hver enkelt leverandør av varen, for eksempel priser, leveringstid, rabatter og så videre.  
 
@@ -75,11 +75,11 @@ Hvis du kjøper den samme varen fra flere leverandører, må du angi opplysninge
 
 Leverandørene vises på siden **Vare/leverandør-katalog**, som du åpner fra varekortet, slik at du enkelt kan velge en annen leverandør.
 
-## Konfigurer vareerstatninger
+## <a name="set-up-item-substitutions"></a>Konfigurer vareerstatninger
 
 Du kan konfigurere varer slik at de får erstatninger, for eksempel andre varer som kan brukes i stedet for den opprinnelige varen.
 
-### Slik lager du en vareerstatning
+### <a name="to-make-an-item-substitution"></a>Slik lager du en vareerstatning
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
 2. Finn den aktuelle varen, og velg deretter **Varenr.** for å åpne varekortet.  
@@ -92,29 +92,29 @@ Hvis det forespurte antallet overskrider det disponible antallet på lageret, bl
 > [!NOTE]  
 > Vær oppmerksom på at vareerstatninger ikke automatisk fører til at en vare erstattes av en annen vare, for eksempel når du oppretter en ordre eller i en stykkliste. I stedet blir du varslet om at en erstatning er tilgjengelig for deg.
 
-## Kategorier, attributter og varianter
+## <a name="categories-attributes-and-variants"></a>Kategorier, attributter og varianter
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
 Finn ut mer om varianter under [Administrer av produktvarianter](inventory-item-variants.md).  
 
-## Slett varekort
+## <a name="delete-item-cards"></a>Slett varekort
 
 Hvis du bokfører en transaksjon for en vare, kan du ikke slette kortet, fordi postene kan være nødvendige for å lagervurdering eller -revisjon. Hvis du vil slette varekort med poster, kontakter du Microsoft-partneren for å gjøre det gjennom kode.  
 
-## Håndtere lager på lagre
+## <a name="manage-inventory-in-warehouses"></a>Håndtere lager på lagre
 
 Når du registrerer en ny vare, ser du felter som er knyttet til lagerstyring, spesielt på hurtigfanen **Lager**. Hvis organisasjonen ikke bruker lagerstyringsmulighetene i [!INCLUDE [prod_short](includes/prod_short.md)], kan du ignorere disse feltene.  
 
 Hvis organisasjonen senere setter opp lagerstyring, anbefales det at du sørger for at alle eksisterende varer har de riktige opplysningene i de ulike feltene. På denne måten kan lagerprosessene kjøres som forventet. Informasjonen kan omfatte felt som **Lagerklassekode** eller **Plasseringsmalkode**. Du finner mer informasjon under [Definere lagerstyring](warehouse-setup-warehouse.md).  
 
-## Planl.
+## <a name="planning"></a>Planl.
 
 Når selskapet bruker forsyningsplanleggingsprosessene i [!INCLUDE [prod_short](includes/prod_short.md)], må du fylle ut de aktuelle feltene på hurtigfanen **Planlegging**. Se [Designdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md) for å få en innføring i planleggingsområdet.  
 
 Hvis du vil ha eksempler på hvordan du kan bruke feltene på hurtigfanen **Planlegging**, kan du se [Anbefalte fremgangsmåter for oppsett: Planleggingsparametere](setup-best-practices-planning-parameters.md).  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Lager](inventory-manage-inventory.md)  
 [Konfigurer enheter](inventory-how-setup-units-of-measure.md)  

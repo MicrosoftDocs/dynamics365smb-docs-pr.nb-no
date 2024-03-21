@@ -9,7 +9,7 @@ ms.date: 06/14/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Feilsøke synkroniseringsfeil
+# <a name="troubleshooting-synchronization-errors"></a>Feilsøke synkroniseringsfeil
 
 
 Mange bevegelige deler er involvert i integrasjon av [!INCLUDE[prod_short](includes/prod_short.md)] med [!INCLUDE[prod_short](includes/cds_long_md.md)], og noen ganger går det galt. I dette emnet omtales noen av de typiske feilene som oppstår, og det oppgis noen punkter for hvordan de skal løses.
@@ -31,7 +31,7 @@ Nedenfor følger noen verktøy om synkroniseringsfeilsiden for integrasjon som k
 * Handlingene **Slett oppføringer eldre enn 7 dager** og **Slett alle oppføringer** rydder opp i listen. Vanligvis bruker du disse handlingene etter at du har løst årsaken til en feil som påvirker mange poster. Du må imidlertid være forsiktig. Disse handlingene kan slette feil som fremdeles er relevante.
 * Handlingen **Vis feilkallstakk** viser informasjon som kan bidra til å identifisere årsaken til feilen. Hvis du ikke kan løse problemet selv og du vil sende en støtteforespørsel, tar du med informasjonen i støtteforespørselen.
 
-## Se også
+## <a name="see-also"></a>Se også
 [Integrere med Microsoft Dataverse](admin-prepare-dynamics-365-for-sales-for-integration.md)  
 [Sette opp brukerkontoer for integrasjon med Microsoft Dataverse](admin-setting-up-integration-with-dynamics-sales.md)  
 [Sette opp en tilkobling til Microsoft Dataverse](admin-how-to-set-up-a-dynamics-crm-connection.md)  

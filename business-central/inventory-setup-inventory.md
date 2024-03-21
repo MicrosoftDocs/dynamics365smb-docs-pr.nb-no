@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Definere lager
+# <a name="setting-up-inventory"></a>Definere lager
 Før du kan håndtere lageraktiviteter og beholdning og kostberegning, må du konfigurere regler og verdier som definerer selskapets beholdningspolicyer.
 
 Du kan gi bedre kundeservice og optimalisere forsyningskjeden ved å organisere beholdningen på forskjellige adresser. Deretter kan du kjøpe, lagre eller selger varer på forskjellige lokasjoner og overføre beholdning mellom dem.
@@ -31,7 +31,7 @@ Når du har definert beholdningen, kan du administrere forskjellige prosesser re
 |Importer flere varebilder samtidig fra en zip-fil, der filene har fått navn i samsvar med varenumre.|[Importere flere varebilder](inventory-how-import-item-pictures.md)|
 |Angi standardrapporter som skal brukes for ulike dokumenttyper.|[Rapportvalg i Business Central](across-report-selections.md)|
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Håndtere lager](inventory-manage-inventory.md)  
 [Håndtere kjøp](purchasing-manage-purchasing.md)  

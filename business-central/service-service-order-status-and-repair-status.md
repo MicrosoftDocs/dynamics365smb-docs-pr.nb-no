@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Serviceordrestatus og reparasjonsstatus
+# <a name="service-order-status-and-repair-status"></a>Serviceordrestatus og reparasjonsstatus
 
 Feltet **Status** på siden **Serviceordre** og reparasjonsstatusen til servicevaren, som representeres av feltet **Reparasjonsstatuskode** på siden **Serviceordre**, har en bestemt forbindelse i Service. Serviceordrestatusen gjenspeiler reparasjonsstatusen til alle servicevarene i serviceordren.  
 
@@ -26,7 +26,7 @@ Når du konverterer et servicetilbud til en serviceordre, endres reparasjonsstat
 > [!NOTE]
 > Før du kan opprette serviceordrer, må du definere reparasjonsstatuser og servicestatusprioritet. Hvis du vil ha mer informasjon, kan du se [Definere statuser for serviceordrer og reparasjoner](service-order-repair-status.md).
 
-## Angi serviceordrestatus for reparasjonsstatus
+## <a name="specifying-service-order-status-for-repair-status"></a>Angi serviceordrestatus for reparasjonsstatus
 
 Hver enkelt reparasjonsstatus er knyttet til en bestemt serviceordrestatus. Alternativene for serviceordrestatusen er følgende:
 
@@ -47,23 +47,23 @@ Reparasjonsstatusalternativene er følgende:
 * **Reservedel mottatt**
 * **Ferdig**  
 
-### I kø
+### <a name="pending"></a>I kø
 
 Serviceordrestatusen **I kø** angir at servicen når som helst kan starte eller fortsette. Alle de fire reparasjonsstatusalternativene **Første**, **Henvist**, **Delvis vedlikehold** og **Reservedel mottatt** kan derfor knyttes til denne serviceordrestatusen.  
 
-### I arbeid
+### <a name="in-process"></a>I arbeid
 
 Serviceordrestatusen **I arbeid** angir at servicen er i arbeid. Begge de to reparasjonsstatusalternativene **I arbeid** og **Reservedel bestilt** kan derfor knyttes til denne serviceordrestatusen. Hvis du kobler statusen **Reservedel bestilt** til serviceordrestatusen **I arbeid**, må du også koble statusen **Reservedel mottatt** til denne serviceordrestatusen.  
 
-### Avvent
+### <a name="on-hold"></a>Avvent
 
 Serviceordrestatusen **Avvent** angir at servicen midlertidig må avventes fordi du venter på et kundesvar eller reservedeler før servicen kan påbegynnes. Alle de tre reparasjonsstatusalternativene **Tilbud ferdig**, **Reservedel bestilt** og **Venter på kunde** kan derfor knyttes til denne serviceordrestatusen.  
 
-### Ferdig
+### <a name="finished"></a>Ferdig
 
 Serviceordrestatusen **Ferdig** angir at servicen er fullført. Reparasjonsstatusen **Ferdig** er derfor knyttet til denne statusen.  
 
-## Tilordne prioritet til serviceordrestatus
+## <a name="assigning-priority-to-service-order-status"></a>Tilordne prioritet til serviceordrestatus
 
 Når en reparasjonsstatus til en servicevare endres, identifiseres alternativene for serviceordrestatusen som er knyttet til de ulike reparasjonsstatusalternativene for alle servicevarene i ordren. Hvis servicevarene er koblet til to eller flere alternativer for serviceordrestatus, velges serviceordrestatusalternativet med høyest prioritet.  
 
@@ -71,7 +71,7 @@ Du må bestemme hvilken serviceordrestatus som inneholder de viktigste opplysnin
 
 Når du deretter oppretter en ny serviceordre og legger til servicevarer i den, oppdateres **Prioritet**-feltet i serviceordreoverskriften basert på prioritetene for servicevarene.  
 
-### Eksempel
+### <a name="example"></a>Eksempel
 
 En vanlig tilordning av prioritetsnivå kan være følgende:  
 
@@ -82,7 +82,7 @@ En vanlig tilordning av prioritetsnivå kan være følgende:
 
 Hvis én servicevare for eksempel har reparasjonsstatusen **Første**, knyttet til serviceordrestatusen **I kø**, en annen har reparasjonsstatusen **I arbeid**, knyttet til serviceordrestatusen **I arbeid**, og en tredje har reparasjonsstatusen **Reservedel bestilt**, knyttet til serviceordrestatusen **Avvent**, blir den endelige serviceordrestatusen **I arbeid** fordi denne har høyest prioritet.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Definere statuser for serviceordrer og reparasjoner](service-order-repair-status.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  

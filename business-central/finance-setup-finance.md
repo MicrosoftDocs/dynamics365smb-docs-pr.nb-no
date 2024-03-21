@@ -9,7 +9,7 @@ ms.date: 08/19/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Konfigurere finans
+# <a name="setting-up-finance"></a>Konfigurere finans
 
 Før du kan begynne å drive selskapet, må du angi hvordan du vil administrere økonomiprosessene for selskapet. Først angir du de viktigste regnskapspostene i selskapet: kontoplanen. Deretter definerer du bokføringsgrupper, som gjør prosessen ved å tilordne standard bokføringsfinanskonti til kunder, leverandører og varer mer effektiv.
 
@@ -50,7 +50,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 > [!TIP]
 > Avhengig av den geografiske plasseringen din kan enkelte Business Central-sider inneholde felter som ikke er beskrevet i artiklene ovenfor, fordi de gjelder lokale funksjoner eller tilpasninger. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Finans](finance.md)  
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  

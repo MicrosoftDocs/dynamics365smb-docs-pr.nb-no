@@ -10,11 +10,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Definer rentenotabetingelser
+# <a name="set-up-finance-charge-terms"></a>Definer rentenotabetingelser
 
 Når en kunde ikke betaler innen forfallsdatoen, kan du beregne renter automatisk og legge dem til de forfalte beløpene på kundekontoen. Du kan informere kunder om tilleggsgebyr ved å sende rentenotaer. Du må først definere en kode som representerer de ulike måtene du vil at programmet skal beregne renter på. Deretter kan du angi denne koden i feltet Kode for rentenotabetingelser på kundekort.  
 
-## Rentenotabetingelser
+## <a name="finance-charge-terms"></a>Rentenotabetingelser
 
 Du må definere rentenotabetingelser for hver rentenotaberegning og deretter tilordne betingelsene til kunden i feltet **Kode for rentenotabetingelser** på siden **Kunde**.
 
@@ -32,7 +32,7 @@ Renter kan beregnes ved hjelp av enten gjennomsnittlig dagssaldo eller forfalt b
 
 I tillegg er hver betingelse i tabellen Rentenotatekst knyttet til en undertabell, tabellen Rentenotatekst. For hver rentebetingelse kan du definere en start- og/eller sluttekst som kommer ut på rentenotaen.
 
-### Definere rentenotabetingelser
+### <a name="to-set-up-finance-charge-terms"></a>Definere rentenotabetingelser
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rentenotabetingelser**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
@@ -61,7 +61,7 @@ I tillegg er hver betingelse i tabellen Rentenotatekst knyttet til en undertabel
 |%8|Innholdet i **Valutakode**-feltet i rentenotahodet|  
 |%9|Innholdet i **Bokføringsdato**-feltet i rentenotahodet|  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Innkreve utestående saldi](receivables-collect-outstanding-balances.md)  
 [Definer betingelser og grader for purringer](finance-setup-reminders.md)  

@@ -9,18 +9,18 @@ ms.date: 06/23/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Opprette servicevarer
+# <a name="create-service-items"></a>Opprette servicevarer
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] refererer betegnelsen "servicevare" til utstyr eller varer som trenger service. Når du oppretter en serviceordre, kan du angi varene som trenger service. I ordren kan du knytte en servicevare til en vare på lageret eller i en servicevaregruppe.    
 
 Når du mottar en vare som trenger service, kan du registrere den som en servicevare. Det er flere måter å gjøre dette på. Du kan for eksempel oppretter en servicevare på siden **Servicevarer** eller som en del av en annen prosess, for eksempel når du arbeider med en serviceordre.   
 
-## Slik oppretter du en servicevare
+## <a name="to-create-a-service-item"></a>Slik oppretter du en servicevare
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Servicevarer**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Slik oppretter du servicevarer i en serviceordre
+## <a name="to-create-service-items-within-a-service-order"></a>Slik oppretter du servicevarer i en serviceordre
 
 Når du mottar varer for service som du registrere som servicevarer, kan du opprette dem som servicevarer på sidene **Serviceordre** eller **Servicetilbud**.  
 
@@ -30,7 +30,7 @@ Når du mottar varer for service som du registrere som servicevarer, kan du oppr
 
     Et tall blir tilordnet til servicevaren, og et servicevarekort opprettes. Feltet **Servicevarenr.** fylles ut med nummeret på den nye servicevaren.
 
-## Slik oppretter du en servicevare når du leverer varer
+## <a name="to-create-a-service-item-when-shipping-items"></a>Slik oppretter du en servicevare når du leverer varer
 
 Når du leverer varer ved å bokføre ordrer eller salgsfakturaer, registreres de leverte varene automatisk som servicevarer hvis følgende betingelse gjelder: Varene må tilhøre en servicevaregruppe med en avmerking i **Opprett servicevare**-boksen. Hvis varene har serienumre registrert på siden Varesporingslinjer, kopieres denne informasjonen automatisk til **Serienr**-feltet på servicevarekortet når du oppretter servicevarer.  
 
@@ -47,7 +47,7 @@ Følgende fremgangsmåte viser hvordan du oppretter servicevarer når du leverer
 >   
 >  Hvis en vare er en stykklistevare og du ikke har utvidet stykklisten, opprettes det en servicevare for den basert på betingelsen for servicevaregruppen og eventuelt betingelsen for serienumre.  
 
-## Slik setter du inn et startgebyr for en servicevare
+## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Slik setter du inn et startgebyr for en servicevare
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Serviceoppgaver**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Arbeidsordre**.
@@ -55,7 +55,7 @@ Følgende fremgangsmåte viser hvordan du oppretter servicevarer når du leverer
 
     En servicelinje av typen **Kostnad** settes inn med startgebyret. Startgebyret gjelder for den valgte servicevaren.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurer servicevarer og servicevarekomponenter](service-how-setup-service-items.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  

@@ -10,14 +10,14 @@ ms.date: 12/06/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Opprett remitteringskonti i den norske versjonen
+# <a name="create-remittance-accounts-in-the-norwegian-version"></a>Opprett remitteringskonti i den norske versjonen
 
 Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres. Hvis en konto brukes til å utføre betalinger til både innenlandske og utenlandske leverandører, må denne kontoen opprettes to ganger: én gang for betalinger innland og én gang for betalinger utland.  
 
 > [!NOTE]  
 >  Valutaen som brukes for bankkontoen skal være samme valuta som banken bruker for denne kontoen. Valutakursene er basert på kontoens valuta og beregningene er basert på denne valutaen.  
 
-## Slik oppretter du en remitteringskonto  
+## <a name="to-create-a-remittance-account"></a>Slik oppretter du en remitteringskonto
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Remitteringskontooversikt**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
@@ -66,7 +66,7 @@ Du må opprette én remitteringskonto for hver bankkonto hvor betaling utføres.
 
 7.  Velg **OK**-knappen.  
 
-## Se også  
+## <a name="see-also"></a>Se også
  [Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)   
  [Sett opp remitteringsavtaler](how-to-set-up-remittance-agreements.md)   
  [Angi leverandører for remittering](how-to-set-up-vendors-for-remittance.md)   
