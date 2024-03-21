@@ -9,7 +9,7 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-item-tracking-in-the-warehouse"></a>Designdetaljer: Varesporing på lageret
+# Designdetaljer: Varesporing på lageret
 Håndtering av serie- og partinumre er hovedsakelig en lageroppgave, og derfor har alle inngående og utgående lagerdokumenter standard funksjonalitet for tilordning og valg av varesporingsnumre.  
 
 Siden reservasjonssystemet er basert på vareposter, blir imidlertid ikke lageraktivitetsdokumenter som registrerer bare lagerposter, støttet fullstendig. Siden reservasjoner og varesporingsnumre bare kan behandles på lokasjonsnivå og ikke på hylle/ og sonenivå, kan ikke siden **Varesporingslinjer** åpnes fra lageraktivitetsdokumenter. Det samme gjelder for **Reservasjon**-siden.  
@@ -18,7 +18,7 @@ Etter at et serie- eller partinummer er lagt til en vare på lagerlokasjonen, ka
 
 Reservasjonssystemet tar imidlertid hensyn til lageraktiviteter ved beregning av tilgjengelighet. Varer som for eksempel er tildelt plukkinger eller registrert som plukket, kan ikke reserveres. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md).
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Designdetaljer: Varesporing](design-details-item-tracking.md)  
 [Designdetaljer: Integrasjon med lagerbeholdning](design-details-integration-with-inventory.md)  
 [Designdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md)  

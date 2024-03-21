@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sales-tax-in-the-default-version-of-business-central"></a>Merverdiavgift i standardversjonen av Business Central
+# Merverdiavgift i standardversjonen av Business Central
 
 **Merverdiavgift** er en avgift som gjelder kjøp av varer og tjenester for forbrukere og salg av varer og tjenester for bedrifter. Merverdiavgiften skal ideelt gjelde alle endelig forbruk med få unntak. Unntak i det endelige forbruket avhenger av lokale myndigheter, men er vanligvis det en bedrift-til-firma-transaksjon som er unntatt merverdiavgift.  
 
@@ -22,7 +22,7 @@ Vanligvis gjelder merverdiavgift detaljhandelssalg av varer og tjenester og er e
 > [!IMPORTANT]
 > Selv om merverdiavgift er tilgjengelig i standardversjonen, støtter Microsoft bruken av merverdiavgift bare i USA og Canada.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Rapporter merverdiavgift i USA](localfunctionality/UnitedStates/us-sales-tax.md)  
 [Rapporter merverdiavgift i Canada](localfunctionality/canada/ca-sales-tax.md)  

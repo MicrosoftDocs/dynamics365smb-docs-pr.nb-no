@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-manufacturing"></a>Definere produksjon
+# Definere produksjon
 
 Hvis du vil konvertere materiale til produserte sluttvarer, må du definere produksjonsressursene, for eksempel stykkliste, rutinger, maskinoperatører og maskiner, i systemet.
 
@@ -32,7 +32,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Bruk standardoppgaver til å forenkle opprettingen av ruter ved å knytte tilleggsinformasjon til gjentakende operasjoner raskt.|[Definere standard rutelinjer](production-how-set-up-standard-routing-lines.md)|  
 |Kjargjør arbeidssentre og ruter til å representere underleveranse-produksjonsoperasjoner.|[Underleveranse av produksjon](production-how-to-subcontract-manufacturing.md)|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Produksjon](production-manage-manufacturing.md)  
 [Planlegging](production-planning.md)  

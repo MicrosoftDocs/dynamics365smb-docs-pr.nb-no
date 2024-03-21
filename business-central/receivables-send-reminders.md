@@ -10,11 +10,11 @@ ms.date: 02/09/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="send-reminders-of-outstanding-balances"></a>Send purringer om utestående saldoer
+# Send purringer om utestående saldoer
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Innkrev utestående saldoer](receivables-collect-outstanding-balances.md)  
 [Definer flere rentesatser for forsinket betaling](finance-how-to-set-up-multiple-interest-rates.md)  

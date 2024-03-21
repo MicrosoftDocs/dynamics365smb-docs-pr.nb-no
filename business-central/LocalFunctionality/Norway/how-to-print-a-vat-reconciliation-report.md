@@ -10,10 +10,10 @@ ms.date: 11/28/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="print-a-vat-reconciliation-report-in-the-norwegian-version"></a>Skriv ut en mva-avstemmingsrapport i den norske versjonen
+# Skriv ut en mva-avstemmingsrapport i den norske versjonen
 Rapporten **MVA-avstemming** viser avstemmingsoppgjøret for grunnbeløpet og mva-beløpet for finanskontoer. Bruk ulike mva-typer til å kategorisere disse beløpene.  
 
-## <a name="to-print-the-vat-reconciliation-report"></a>Slik skriver du ut mva-avstemmingsrapporten
+## Slik skriver du ut mva-avstemmingsrapporten  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-avstemming**, og velg deretter den relaterte koblingen.  
 2.  I hurtigfanen **Alternativer** fyller du ut feltene som beskrevet i tabellen nedenfor.  
@@ -25,7 +25,7 @@ Rapporten **MVA-avstemming** viser avstemmingsoppgjøret for grunnbeløpet og mv
 
 3.  Velg **Skriv ut** for å skrive ut rapporten, eller velg **Forhåndsvisning** for å vise den på skjermen.  
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Funksjonalitet som er spesifikk for norske brukere](norway-local-functionality.md)   
  [Rapporter mva. til skattemyndighetene](../../finance-how-report-vat.md)
 
