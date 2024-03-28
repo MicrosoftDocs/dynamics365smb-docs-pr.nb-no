@@ -9,11 +9,11 @@ ms.date: 08/29/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Oversikt over oppgaver for lukking av regnskapsperioder
+# <a name="overview-of-tasks-to-close-accounting-periods"></a>Oversikt over oppgaver for lukking av regnskapsperioder
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tvinger deg ikke å lukke perioder, men det er mange aktiviteter ved periodeslutt (månedsslutt) du kan gjøre. Dette emnet gir en oversikt over valgfrie prosesser og aktiviteter for lukking av perioder.  
 
-## Finans
+## <a name="general-ledger"></a>Finans
 
 * Angi systemomfattende og brukerspesifikke bokføringsperioder.  
 
@@ -24,7 +24,7 @@ ms.service: dynamics-365-business-central
 * Kjør finansrapporter på følgende måte:  
   * Åpne siden **Finansrapporter** og velg **Skriv ut**-handlingen.  
 
-## Salg
+## <a name="sales-and-receivables"></a>Salg
 
 * Bokfør alle ordrer, fakturaer, kreditnotaer og ordrereturer.  
 * Bokfør alle innbetalingskladder.  
@@ -32,7 +32,7 @@ ms.service: dynamics-365-business-central
 * Avstem kortsiktige fordringer mot Finans.  
 * Kjør kjørselen **Slett fakturerte ordrer**.  
 
-## Kjøp
+## <a name="purchases-and-payables"></a>Kjøp
 
 * Bokfør alle bestillinger, fakturaer, kreditnotaer og ordrereturer.  
 * Bokfør alle utbetalingskladder.  
@@ -40,7 +40,7 @@ ms.service: dynamics-365-business-central
 * Kjør rapporten **Aldersfordelt saldoliste - lev.**, og avstem leverandørgjeld mot Finans.  
 * Kjør kjørselen **Slett fakturerte bestillinger**.  
 
-## Aktiva
+## <a name="fixed-assets"></a>Aktiva
 
 * Bokfør all vedlikeholdskost som har blitt bokført gjennom aktivakladdene eller fakturaene.
 * Bokfør justeringer.
@@ -48,15 +48,15 @@ ms.service: dynamics-365-business-central
 * Bokfør avskrivning.
 * Oppdater og bokfør gjentakende aktivakladd.
 
-## Konserninternt
+## <a name="intercompany"></a>Konserninternt
 
 * Behandle konserninterne transaksjoner.
 
-## Beregn og behandle mva.
+## <a name="calculate-and-process-sales-tax"></a>Beregn og behandle mva.
 
 * Fullfør avgiftsoppgaver.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Lukk år og perioder](year-close-years-periods.md)  
 [Avslutte tablåer](year-close-books.md)  

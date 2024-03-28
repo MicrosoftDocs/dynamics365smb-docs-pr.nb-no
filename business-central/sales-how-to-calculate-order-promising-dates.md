@@ -9,7 +9,7 @@ ms.date: 12/13/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Beregn ordrebekreftelsesdatoer
+# <a name="calculate-order-promising-dates"></a>Beregn ordrebekreftelsesdatoer
 
 Et firma må være i stand til å informere kundene om ordreleveringsdatoer. På siden **Ordrebekreftelseslinjer** kan du gjøre dette fra en salgsordre.  
 
@@ -27,7 +27,7 @@ Hvis du ikke angir en ønsket leveringsdato på ordrelinjen, eller hvis ønsket 
 - forsendelsesdato + utgående lagerhåndteringstid = forsendelsesdato  
 - planlagt forsendelsesdato + leveringstid = planlagt leveringsdato  
 
-## Om ordrebekreftelse
+## <a name="about-order-promising"></a>Om ordrebekreftelse
 
 Med funksjonen for ordrebekreftelse kan du gi løfte om at en ordre skal leveres en bestemt dato. Datoen da en vare er tilgjengelig for ordre (ATP) eller varens første mulige forsendelsesdato (CTP) beregnes, og ordrelinjer opprettes for disse datoene som du godtar. Funksjonen beregner når en vare tidligst kan leveres. Den oppretter i tillegg forslagslinjer, i tilfelle varene først må kjøpes eller produseres for datoene du godtar.
 
@@ -36,19 +36,19 @@ Med funksjonen for ordrebekreftelse kan du gi løfte om at en ordre skal leveres
 - Tilgjengelig for ordre (ATP)  
 - Første mulige forsendelsesdato (CTP)  
 
-### Tilgjengelig for ordre
+### <a name="available-to-promise"></a>Tilgjengelig for ordre
 
 Tilgjengelig for ordre (ATP) beregner datoer basert på reservasjonssystemet. Den utfører en tilgjengelighetskontroll for de ureserverte antallene på lager om planlagt produksjon, kjøp, overføringer og ordrereturer. Basert på denne informasjonen beregner [!INCLUDE[prod_short](includes/prod_short.md)] leveringsdatoen for kundens ordre fordi varene er tilgjengelige på lager eller i planlagte mottak.  
 
-### Første mulige forsendelsesdato
+### <a name="capable-to-promise"></a>Første mulige forsendelsesdato
 
 Første mulige forsendelsesdato forutsetter et Hva om-scenario som bare gjelder for vareantall som ikke er på lager eller på planlagte ordrer. Basert på dette scenarioet beregner [!INCLUDE[prod_short](includes/prod_short.md)] den tidligste datoen varen kan være tilgjengelig, hvis den skal produseres, kjøpes eller overføres.
 
-#### Eksempel
+#### <a name="example"></a>Eksempel
 
 Hvis det er ti stykker i en bestilling og seks stykker er tilgjengelige på lageret eller i planlagte ordrer, baseres beregningen av første mulige forsendelsesdato på fire stykker.
 
-### Beregninger
+### <a name="calculations"></a>Beregninger
 
 Når [!INCLUDE[prod_short](includes/prod_short.md)] beregner kundens leveringsdato, utføres to oppgaver:  
 
@@ -73,7 +73,7 @@ Ordrebehandleren fullfører CTP-prosessen ved å godta datoene. Dette betyr at e
 
 I tillegg til den eksterne ordrebekreftelsen som du kan utføre på siden **Ordrebekreftelseslinjer**, kan du også bekrefte interne eller eksterne leveringsdatoer for stykklistevarer. Hvis du vil ha mer informasjon, kan du se [Vise tilgjengeligheten av varer](inventory-how-availability-overview.md).
 
-## Slik angir du ordrebekreftelser
+## <a name="to-set-up-order-promising"></a>Slik angir du ordrebekreftelser
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett for ordrebekreftelse**, og velg deretter den relaterte koblingen.  
 2. Angi et nummer og en tidsenhetskode i feltet **Iverksett (tid)**. Velg én av følgende koder.  
@@ -91,16 +91,16 @@ I tillegg til den eksterne ordrebekreftelsen som du kan utføre på siden **Ordr
 4. Angi en ordrebekreftelsesmal i feltet **Ordrebekreftelsesmal** ved å velge en linje fra oversikten på siden **Best.forslagsmal - oversikt**.  
 5. Angi et bestillingsforslag i feltet **Ordrebekreftelsesskjema** ved å velge en linje fra oversikten på siden **Best.forslagsnavn**.
 
-### Inngående og utgående lagerhåndteringstider for ordrebekreftelse
+### <a name="inbound-and-outbound-warehouse-handling-times-in-order-promising"></a>Inngående og utgående lagerhåndteringstider for ordrebekreftelse
 
 Hvis du vil at inngående lagerhåndteringstid skal tas med i beregningen av ordrebekreftelse på bestillingslinjen, kan du angi en standard håndteringstid som skal brukes på salgs- eller kjøpsdokumenter, på siden **Lageroppsett**. Du kan også angi bestemte tidspunkter for hver lokasjon på **Lokasjonskort**-siden. 
 
-#### Angi standard inngående og utgående lagerhåndteringstider for salgs- og kjøpsdokumenter
+#### <a name="to-enter-default-inbound-and-outbound-warehouse-handling-times-for-sales-and-purchase-documents"></a>Angi standard inngående og utgående lagerhåndteringstider for salgs- og kjøpsdokumenter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lageroppsett** og velg den relaterte koblingen.  
 2. På hurtigfanen **Generelt** i feltene **Inngående lagerhåndteringstid** og **Utgående lagerhåndteringstid** angir du hvor mange dager som skal tas med i beregningene av ordrebekreftelsen.  
 
-#### Angi inngående og utgående lagerhåndteringstider på lokasjoner
+#### <a name="to-enter-inbound-and-outbound-warehouse-handling-times-on-locations"></a>Angi inngående og utgående lagerhåndteringstider på lokasjoner
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Lokasjon**, og velg deretter den relaterte koblingen.  
 2.  Åpne det aktuelle lokasjonskortet.  
@@ -109,14 +109,14 @@ Hvis du vil at inngående lagerhåndteringstid skal tas med i beregningen av ord
 > [!NOTE]  
 >  Hvis du velger **Lokasjon** i feltet **Forsendelsesadresse** i hurtigfanen **Levering og betaling** og deretter velger en lokasjon i **Lokasjonskode**-feltet når du oppretter en bestilling, bruker feltene **Utgående lagerhåndteringstid** og **Inngående lagerhåndteringstid** håndteringstiden som er angitt for lokasjonen. Det samme gjelder for salgsordrer hvis du velger en lokasjon i **Lokasjonskode**-feltet. Hvis ingen håndteringstid er angitt for lokasjonen, er feltene **Utgående lagerhåndteringstid** og **Inngående lagerhåndteringstid** tomme. Hvis du lar **Lokasjonskode**-feltet stå tomt på salgs- og kjøpsdokumenter, brukes håndteringsverdien som er angitt på **Lageroppsett**-siden, i beregningen.
 
-## Slik gjør du en vare kritisk
+## <a name="to-make-an-item-critical"></a>Slik gjør du en vare kritisk
 
 Før en vare kan inkluderes i beregningen av ordrebekreftelsen, må den være merket som kritisk. Dette oppsettet sikrer at ikke-kritiske varer ikke fører til uaktuell beregning av ordrebekreftelser.   
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
 2.  Åpne det aktuelle varekortet.  
 3.  På hurtifganen **Planlegging** velger du **Kritisk**-feltet.  
 
-## Slik beregner du en ordrebekreftelsesdato
+## <a name="to-calculate-an-order-promising-date"></a>Slik beregner du en ordrebekreftelsesdato
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordre**, og velg deretter den relaterte koblingen.  
 2.  Åpne den aktuelle ordren, og velg ordrelinjene du vil at programmet skal beregne.  
@@ -127,7 +127,7 @@ Før en vare kan inkluderes i beregningen av ordrebekreftelsen, må den være me
     - Velg **Første mulige forsendelsesdato (CTP)** hvis du vet at varen er utsolgt fra lager og du vil beregne når varen tidligst vil være tilgjengelig når du utsteder nye etterfyllingsforslag.  
 5.  Velg **Godta**-knappen for å godta den tidligste leveringsdatoen som er tilgjengelig.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
 [Beregn dato for kjøp](purchasing-date-calculation-for-purchases.md)  

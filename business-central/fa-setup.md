@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Definere aktiva
+# <a name="setting-up-fixed-assets"></a>Definere aktiva
 
 Før du kan arbeide med aktiva, må du definere et par ting:  
 
@@ -35,7 +35,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Lær mer om ulike avskrivningsmetoder for aktiva. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
 | Lær mer om hvordan du bruker brukerdefinerte avskrivningsmetoder. |[Konfigurer brukerdefinerte avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Aktiva](fa-manage.md)  
 [Finans](finance.md)  

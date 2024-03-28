@@ -11,7 +11,7 @@ ms.search.keywords: 'bi, power BI, analysis, KPI, account schedule, financial re
 ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
-# Klargjøre Financial Reporting med finansdata og kontokategorier
+# <a name="prepare-financial-reporting-with-financial-data-and-account-categories"></a>Klargjøre Financial Reporting med finansdata og kontokategorier
 
 Finansrapporter gir deg innsikt i finansdataene som er lagret i kontoplanen. Finansrapporter analyserer tall på finanskonti og sammenligner finansposter med budsjettposter. Resultatet vises i diagrammer og rapporter i rollesenteret, for eksempel ut kontantstrømdiagrammet og rapportene resultatregnskap og balanse.
 
@@ -21,7 +21,7 @@ Du får tilgang til disse to rapportene for eksempel med handlingen **Årsregnsk
 
 Oppretting av finansrapporter krever en forståelse av de økonomiske dataene i kontoplanen. Du kan for eksempel vise finansposter som en prosentandel av budsjettpostene, men det krever at du har opprettet budsjetter. Lære mer om [Opprette finansbudsjetter](finance-how-create-budgets.md).
 
-## Finansrapporter
+## <a name="financial-reports"></a>Finansrapporter
 
 Finansrapporter ordner kontoer fra kontoplanen din på måter som gjør det enkelt å presentere data. Du kan definere ulike oppsett for å velge hvilken informasjon du vil trekke ut fra kontoplanen. Finansrapporter gir et sted for beregninger som ikke kan utføres direkte i kontoplanen. Du kan for eksempel opprette delsummer for kontogrupper og deretter inkludere denne summen i andre totaler. Et annet eksempel er å beregne fortjenestemarginer for dimensjoner som avdelinger eller kundegrupper. I tillegg kan du filtrere finansposter og budsjettposter, for eksempel etter bevegelse eller debetbeløp.
 
@@ -38,7 +38,7 @@ Du kan også sammenligne to eller flere finansrapporter og kolonnedefinisjoner v
 * Opprette så mange finansrapporter som nødvendig, med unike navn.
 * Definere ulike rapportoppsett og skrive ut rapportene med gjeldende tall.
 
-## Finanskontokategorier
+## <a name="gl-account-categories"></a>Finanskontokategorier
 
 Du kan bruke finanskontokategoriene til å endre oppsettet for regnskapsoppgjørene. Når du har definert kontokategoriene på siden **Finanskontokategorier** og du velger handlingen Generer kontoskjemaer, kan du for eksempel velge handlingen **Finansrapporter** og oppdatere de underliggende finansrapportene for kjernefinansrapporter. Neste gang du kjører en av disse rapportene, for eksempel **saldoutdrag**, legges nye totaler og underoppføringer til.
 
@@ -47,7 +47,7 @@ Du kan bruke finanskontokategoriene til å endre oppsettet for regnskapsoppgjør
 >
 > Du bør opprette og strukturere dine egne finanskontokategorier på lavere nivå fra bunnen av, om nødvendig i et hierarki, i stedet for å prøve å omorganisere de eksisterende. Du kan for eksempel omstrukturere **Gjeld**-noden slik at den inneholder en ny **Egenkapital**-node etterfulgt av nodene **Kortsiktig gjeld** og **Langsiktig gjeld**.
 
-## Opprette en ny finansrapport
+## <a name="create-a-new-financial-report"></a>Opprette en ny finansrapport
 
 Du kan bruke finansrapporter til å analysere finanskontoer eller sammenligne finansposter med budsjettposter. Du kan for eksempel vise finansposter som en prosentandel av budsjettpostene.
 
@@ -78,7 +78,7 @@ Finansrapportene i standardversjonen av [!INCLUDE[prod_short](includes/prod_shor
 
 Du har nå definert følgende grunnlag for finansrapporten, radene med økonomiske data som skal vises, og et eksisterende kolonneoppsett for å vise dataene i radene ved hjelp av egendefinerte parametere. Hvis standardkolonnedefinisjonen du valgte i trinn 4, ikke dekker behovet ditt, følger du fremgangsmåten i [Rediger en kolonnedefinisjon](#edit-a-column-definition).
 
-### Redigere en kolonnedefinisjon
+### <a name="edit-a-column-definition"></a>Redigere en kolonnedefinisjon
 
 Bruk kolonnedefinisjoner til å angi kolonnene som skal inkluderes i rapporten. Du kan for eksempel sammenligne bevegelse og saldo for samme periode i år og i fjor. Du kan ha opptil 15 kolonner, som være nyttig for eksempelvis visning av budsjetter for tolv måneder, med en kolonne som viser totalen.
 
@@ -93,7 +93,7 @@ Bruk kolonnedefinisjoner til å angi kolonnene som skal inkluderes i rapporten. 
 > [!NOTE]
 > Kolonnene som du definerer på hver rad, representerer kolonner tre og oppover på **Finansrapport**-siden. De to første kolonnene, **Radnr.** og **Beskrivelse**, er faste.  
 
-### Opprette en kolonne som beregner prosentdeler
+### <a name="create-a-column-that-calculates-percentages"></a>Opprette en kolonne som beregner prosentdeler
 
 Noen ganger vil du kanskje ta med en kolonne i en finansrapport for å beregne prosentdeler av en sum. Hvis du for eksempel har rader som bryter ned salg etter dimensjon, vil du kanskje ta med en kolonne som angir hvor stor prosentdel av totalt salg i hver rad.
 
@@ -106,7 +106,7 @@ Noen ganger vil du kanskje ta med en kolonne i en finansrapport for å beregne p
 7. Fyll ut feltene på linjen som følger: I feltet **Kolonnetype** velger du **Formel**. Skriv inn en formel for beløpet du vil beregne en prosent for, fulgt av prosenttegnet (%), i **Formel**-feltet. Så hvis kolonnenummeret N inneholder bevegelsen, angir du **N %**.  
 8. Gjenta trinn 4 til og med 7 for hver gruppe med rader du vil bryte ned i prosentdeler.
 
-## Definere finansrapporter med oversikter
+## <a name="set-up-financial-reports-with-overviews"></a>Definere finansrapporter med oversikter
 
 Du kan bruke en finansrapport til å opprette en oppgave som sammenligner finanstall og budsjettall.
 
@@ -124,7 +124,7 @@ Du kan bruke en finansrapport til å opprette en oppgave som sammenligner finans
 
 Du kan nå kopiere og lime inn budsjettoppgaven i et regneark.  
 
-## Sammenligne regnskapsperioder ved hjelp av periodeformler
+## <a name="comparing-accounting-periods-using-period-formulas"></a>Sammenligne regnskapsperioder ved hjelp av periodeformler
 
 Finansrapporten kan sammenligne resultatene av ulike regnskapsperioder, for eksempel inneværende måned og samme måned i fjor. Dette gjør du ved å åpne **Kolonnedefinisjon**-siden og tilpasse den ved å legge til feltet **Formel - periodesammenligning** som en kolonne. Finn ut mer under [Tilpass arbeidsområdet](ui-personalization-user.md). Deretter kan du sette dette feltet til en periodeformel.  
 
@@ -158,7 +158,7 @@ Hvis du vil beregne etter regelmessige perioder, må du angi en formel i feltet 
 
 Lær mer på [Arbeid med kalenderdatoer og klokkeslett](ui-enter-date-ranges.md).
 
-## Skrive ut og lagre finansrapporter
+## <a name="print-and-save-financial-reports"></a>Skrive ut og lagre finansrapporter
 
 Du kan skrive ut finansrapporter ved hjelp av enhetens utskriftstjenester. [!INCLUDE[prod_short](includes/prod_short.md)]gir også mulighet til å lagre rapporter som Microsoft Excel-arbeidsbøker, Microsoft Word-dokumenter, PDF- og XML-filer.
 
@@ -169,7 +169,7 @@ Du kan skrive ut finansrapporter ved hjelp av enhetens utskriftstjenester. [!INC
     1. Alternativet **(Håndteres av nettleseren)** angir at det ikke finnes noen tilordnet skriver for rapporten. I dette tilfellet vil nettleseren behandle utskriften og vise standard utskriftstrinn, der du kan velge en lokal skriver som er koblet til enheten. **(Håndteres av nettleseren)** er ikke tilgjengelig i [!INCLUDE[prod_short](includes/prod_short.md)]-mobilappen eller appen for Microsoft Teams.
 5. Velg **Skriv ut**-handlingen.
 
-### Planlegge en finansrapport eller lagre som PDF-, Word- eller Excel-dokument
+### <a name="schedule-a-financial-report-or-save-as-a-pdf-word-or-excel-document"></a>Planlegge en finansrapport eller lagre som PDF-, Word- eller Excel-dokument
 
 En finansrapport kan lagres som en fil i forskjellige formater, for eksempel PDF, XML, Word eller Excel. Du kan eventuelt angi at [!INCLUDE[prod_short](includes/prod_short.md)] skal generere gjentakende finansrapporter:
 
@@ -180,11 +180,11 @@ En finansrapport kan lagres som en fil i forskjellige formater, for eksempel PDF
 5. Hvis du vil generere en planlagt eller gjentakende finansrapport, fyller du ut feltene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].
    * For regelmessige finansrapporter angir du feltene **Tidligste startdato/-klokkeslett** og **Utløpsdato/-klokkeslett** med første og siste dato for å generere finansrapporten. Du kan også velge hvilke dager rapporten skal genereres, ved å sette feltet **Datoformel for neste kjøring** etter formatet forklart i delen [Bruk datoformler](ui-enter-date-ranges.md#use-date-formulas).
 
-## Importere eller eksportere finansrapporter
+## <a name="importing-or-exporting-financial-reports"></a>Importere eller eksportere finansrapporter
 
 Du kan importere og eksportere finansrapporter som RapidStart-konfigurasjonspakker, som er nyttige for å dele informasjon med andre selskaper, for eksempel. Pakken opprettes i en .rapidstart-fil, som komprimerer innholdet.
 
-### Importere og eksportere finansrapporter
+### <a name="import-and-export-financial-reports"></a>Importere og eksportere finansrapporter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 4.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansrapporter**, og velg deretter den relaterte koblingen.
 2. Velg regnskapsrapporten, og velg deretter **Importer finansrapport** eller **Eksporter finansrapport**, avhengig av hva du vil gjøre.
@@ -192,7 +192,7 @@ Du kan importere og eksportere finansrapporter som RapidStart-konfigurasjonspakk
 > [!NOTE]
 > Når du importerer finansrapporter, vil eksisterende poster med samme navn som de du importerer, slettes.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Kjør og skriv ut rapporter](ui-work-report.md)  
 [Finansforretningsanalyse](bi.md)  

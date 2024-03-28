@@ -9,7 +9,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gjennomgang: Selge, montere og levere sett
+# <a name="walkthrough-selling-assembling-and-shipping-kits"></a>Gjennomgang: Selge, montere og levere sett
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -19,18 +19,18 @@ Det finnes spesiell funksjonalitet for å styre leveringen av monter-til-ordre-a
 
 I grunnleggende lageroppsett bokfører den overordnede lagermedarbeideren en lagerplukking for ordrelinjene når et montere-til-ordre-antall er klart til å leveres. Deretter blir det opprettet en lagerflytting for komponentene, og monteringsavgangen og ordreforsendelsen blir bokført. Hvis du vil ha mer informasjon, kan du se [Håndtere montere-til-ordre-varer i lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).  
 
-## Denne gjennomgangen
+## <a name="about-this-walkthrough"></a>Denne gjennomgangen
 
 Denne gjennomgangen viser følgende oppgaver:  
 
-### Definere monteringsvarer
+### <a name="setting-up-assembly-items"></a>Definere monteringsvarer
 
 Monteringsvarer kjennetegnes av etterfyllingssystemet og monteringsstykklisten. Varens monteringsprinsipp kan enten være montere-til-ordre (ATO) eller montere-til-lager (ATS). Denne delen dekker følgende oppgaver:  
 
 -   Angi riktig etterfyllingssystem og monteringsprinsipp på et nytt monteringsvarekort.  
 -   Opprette en monteringsstykkliste som viser monteringskomponentene og ressursen som inngår i monteringsvaren.  
 
-### Selge tilpassede monteringsvarer
+### <a name="selling-customized-assembly-items"></a>Selge tilpassede monteringsvarer
 
 [!INCLUDE[prod_short](includes/prod_short.md)] gir deg fleksibilitet til å angi et både lagerantall og et montere-til-ordre-antall på én salgsordrelinje. Denne delen dekker følgende oppgaver:  
 
@@ -40,14 +40,14 @@ Monteringsvarer kjennetegnes av etterfyllingssystemet og monteringsstykklisten. 
 -   Opprette en blandet ordrelinje der deler av salgsantallet kommer fra lageret, og der den gjenstående delen må være montert før levering.  
 -   Forstå advarsler om ATO-tilgjengelighet.  
 
-### Planlegge for monteringsvarer
+### <a name="planning-for-assembly-items"></a>Planlegge for monteringsvarer
 
 Monteringsbehov og -forsyning håndteres av planleggingssystemet, akkurat som for kjøp, overføring og produksjon. Denne delen dekker følgende oppgaver:  
 
 -   Kjøre en replanlegging for varer med salgsbehov for montert forsyning.  
 -   Genererer en monteringsordre for å innfri salgslinjeantallet innen behovsdatoen for leveringen.  
 
-### Montere varer
+### <a name="assembling-items"></a>Montere varer
 
 Monteringsordrer virker på lignende måte som produksjonsordrer, bortsett fra at forbruket og avgagnen registreres og bokføres direkte fra ordren. Når varene er montert til lager, har monteringsarbeideren full tilgang til alle hode- og linjefelt. Når varene monteres til en ordre der det er gitt løfter om antall og dato til kunden, kan ikke bestemte felt på monteringsordren redigeres. I dette tilfellet utføres monteringsbokføringen fra lagerleveringen for den tilknyttede ordren. Denne delen dekker følgende oppgaver.  
 
@@ -55,7 +55,7 @@ Monteringsordrer virker på lignende måte som produksjonsordrer, bortsett fra a
 -   Tilgang til en lagerfølgeseddellinje fra en ATO-monteringsordre for å registrere monteringsarbeid.  
 -   Tilgang til en ATO-monteringsordre fra en lagerfølgeseddellinje for å gå gjennom automatisk registrerte data.  
 
-### Levering av monteringsvarer, fra lager og montert til ordre
+### <a name="shipping-assembly-items-from-stock-and-assembled-to-order"></a>Levering av monteringsvarer, fra lager og montert til ordre
 
 Det finnes spesiell funksjonalitet for å styre leveringen av monter-til-ordre-antall. Denne delen dekker følgende oppgaver:  
 
@@ -65,7 +65,7 @@ Det finnes spesiell funksjonalitet for å styre leveringen av monter-til-ordre-a
 -   Levering av montere-til-ordre-antall.  
 -   Levering av monteringsvare på lager.  
 
-## Roller
+## <a name="roles"></a>Roller
 
 Denne gjennomgangen viser oppgaver som utføres av følgende brukerroller:  
 
@@ -75,7 +75,7 @@ Denne gjennomgangen viser oppgaver som utføres av følgende brukerroller:
 -   Plukker  
 -   Ansvarlig for forsendelse  
 
-## Forutsetninger
+## <a name="prerequisites"></a>Forutsetninger
 
 Før du kan utføre oppgavene i gjennomgangen, må du gjøre følgende:  
 
@@ -109,7 +109,7 @@ Fjern standard leveringstid for interne prosesser ved å følge disse trinnene:
 
 <!-- Create inventory for assembly components by following [Prepare Sample Data](walkthrough-selling-assembling-and-shipping-kits.md#prepare-sample-data).   -->
 
-## Hovedscenario
+## <a name="story"></a>Hovedscenario
 
 Den 23. januar tar ordrebehandleren Susanna en ordre fra Lydeksperten på tre enheter av sett B, som er en ATO-vare. Alle de tre enhetene er tilpasset, og de må inneholde sterke grafikkort og en ekstra RAM-blokk. Diskstasjonene er oppgradert til DWD fordi CD-stasjonene ikke er tilgjengelige. Susan vet at enhetene kan monteres med en gang, og beholder den foreslåtte leveringsdatoen på 23. januar.  
 
@@ -137,7 +137,7 @@ Sammy pakker ti ATS enheter med de fem ATO-enhetene som Jorunn monterte tidliger
 
 Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de tilknyttede monteringsordrene.  
 
-## Klargjøre eksempeldata
+## <a name="prepare-sample-data"></a>Klargjøre eksempeldata
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagervarekladder** og velg den relaterte koblingen.  
 2.  Velg feltet **Bunkenavn**, og velg deretter standardkladden.  
@@ -161,7 +161,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 7.  På siden **Beregn lagerjust.** velger du **OK**-knappen.  
 8.  På siden **Varekladd** velger du **Bokfør**-handlingen, og deretter velger du **Ja**-knappen.  
 
-### Opprette monteringsvarer  
+### <a name="creating-the-assembly-items"></a>Opprette monteringsvarer
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
@@ -212,7 +212,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
     |Element|80210|1|  
     |Ressurs|Thea|1|  
 
-### Selge monteringsvarer  
+### <a name="selling-the-assembly-items"></a>Selge monteringsvarer
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
@@ -265,7 +265,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 17. Velg handlingen **Opprett lagerlevering**.  
 18. Lukk ordren.  
 
-### Planlegge for utilgjengelig ATS-varer  
+### <a name="planning-for-the-unavailable-ats-items"></a>Planlegge for utilgjengelig ATS-varer
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 2.  Velg **Beregn replanlegging**-handlingen.  
@@ -283,7 +283,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 6.  Velg **Monteringsordre**-feltet på siden **Utfør handlingsmeld.**, og velg deretter **Lag monteringsordrer**.  
 7.  Velg **OK**.  
 
-### Montere og levere første ATO-antall  
+### <a name="assembling-and-shipping-the-first-ato-quantity"></a>Montere og levere første ATO-antall
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Lagerlevering**, og velg deretter den relaterte koblingen.  
 
@@ -343,7 +343,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Lageraktivitetene for å innfri den første ordrelinjen innen 23. januar, er fullført. Nå kan du oppfylle salgsordrelinjene som skal leveres 27. januar.  
 
-### Montere og registrere andre ATO-antall  
+### <a name="assembling-and-recording-the-second-ato-quantity"></a>Montere og registrere andre ATO-antall
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Monteringsordrer**, og velg deretter den relaterte koblingen.  
 
@@ -367,7 +367,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
 5.  Lukk siden **Monteringsvare**.  
 
-### Montere ATS-antall  
+### <a name="assembling-the-ats-quantity"></a>Montere ATS-antall
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Monteringsordrer**, og velg deretter den relaterte koblingen.  
 2.  Åpne monteringsordren for ti enheter av sett A  
@@ -395,7 +395,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Legg merke til at monteringsordren er fjernet fra listen over åpne ordrer.  
 
-### Levering av gjenværende varer, delvis fra lager og delvis montert til ordre  
+### <a name="shipping-the-remaining-items-partly-from-stock-and-partly-assembled-to-the-order"></a>Levering av gjenværende varer, delvis fra lager og delvis montert til ordre
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Lagerlevering**, og velg deretter den relaterte koblingen.  
 2.  Åpne den nyeste lagerfølgeseddelen som er opprettet på lokasjonen KR.SAND.  
@@ -435,7 +435,7 @@ Når ordren senere bokføres som fullstendig fakturert, fjernes ordren og de til
 
     Når Lydeksperten betaler for mottaket av 18 datamaskiner fra CRONUS, fjernes ordren og de tilknyttede monteringsordrene.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
  [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md)   
  [Montere elementer](assembly-how-to-assemble-items.md)   

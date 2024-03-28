@@ -9,18 +9,18 @@ ms.date: 06/22/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Definere standard rutelinjer
+# <a name="set-up-standard-routing-lines"></a>Definere standard rutelinjer
 
 Standardoppgaver forenkler oppretting og vedlikehold av ruter. De brukes til å knytte tilleggsinformasjon raskt til gjentakende operasjoner.
 
-## Slik definerer du en standardoppgave
+## <a name="to-set-up-a-standard-task"></a>Slik definerer du en standardoppgave
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Standardoppgaver**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 4. Velg handlingen **Verktøy**, **Personell**, **Beskrivelse** eller **Verktøy**, og legg deretter til den relevante oppføringen på siden som åpnes.
 
-## Slik legger du til en standardoppgave i en operasjon
+## <a name="to-add-a-standard-task-to-an-operation"></a>Slik legger du til en standardoppgave i en operasjon
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ruter**, og velg deretter den relaterte koblingen.
 2. Åpne den aktuelle ruten.
@@ -28,7 +28,7 @@ Standardoppgaver forenkler oppretting og vedlikehold av ruter. De brukes til å 
 
 Når du skriver ut rutearket, kan du velge å inkludere elementene fra standardoppgaven du la til rutelinjene.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Opprette ruter](production-how-to-create-routings.md)  
 [Opprette produksjonsstykklister](production-how-to-create-production-boms.md)  

@@ -10,12 +10,12 @@ ms.date: 09/19/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Planlegg jobber for justering og avstemming av lagerkostnad
+# <a name="schedule-jobs-to-adjust-and-reconcile-inventory-cost"></a>Planlegg jobber for justering og avstemming av lagerkostnad
 
 Planlegg jobber for automatisk kostnadsjustering med økonomimodul, bokføring i finans er aktivert som standard.
 Ettersom dataene akkumuleres over tid, kan det imidlertid påvirke ytelsen. For å redusere belastningen på programmet er det ofte nyttig å bruke oppføringer i jobbkø til å flytte oppgaver slik at de kjører i bakgrunnen.
 
-## Flytt oppgaven for å justere varekostnader til bakgrunnen ved hjelp av assistert oppsett
+## <a name="move-the-task-of-adjusting-item-costs-to-the-background-with-the-help-of-assisted-setup"></a>Flytt oppgaven for å justere varekostnader til bakgrunnen ved hjelp av assistert oppsett
 
 Det kan være vanskelig å opprette postene for jobbkø, selv for en erfaren konsulent, så vi har en veiledning for assistert oppsett for å gjøre prosessen enklere for justering av varekostnader.  
 
@@ -29,7 +29,7 @@ Det kan være vanskelig å opprette postene for jobbkø, selv for en erfaren kon
 
 5. Velg feltet **Vis jobbkøposter når fullført** for å gå gjennom og justere innstillingene. Hvis du vil ha mer informasjon, kan du se [Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).  
 
-## Slik oppretter du en jobbkøpost for justering og avstemming av lagerkost manuelt
+## <a name="to-create-a-job-queue-entry-for-adjusting-and-reconciling-inventory-cost-manually"></a>Slik oppretter du en jobbkøpost for justering og avstemming av lagerkost manuelt
 
 Du kan også opprette jobbkøposter manuelt. Følgende fremgangsmåte viser hvordan du angir at kjørselen **Juster kostverdi – vareposter** skal kjøre daglig automatisk, men den samme fremgangsmåten gjelder kjørselen **Bokfør lagerkost i finans**.  
 
@@ -48,7 +48,7 @@ Hvis du vil planlegge en oppgave for avstemming av lager med finans, velger du C
 > [!TIP]
 > Du unngår låsing ved ikke å planlegge oppgaver for kjørselen **Juster kostverdi – vareposter**, codeunit **Bokfør lagerkost til finans** og oppgaver for bokføring av salgs-eller kjøpstransaksjoner samtidig. Kontroller også at de bruker samme jobbkøkategori.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Juster varekost](inventory-how-adjust-item-costs.md)  
 [Avstem lagerkostnader med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md)  
