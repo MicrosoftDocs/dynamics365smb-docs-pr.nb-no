@@ -9,11 +9,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="transfer-split-or-combine-fixed-assets"></a>Overføre, dele opp eller kombinere aktiva
+# Overføre, dele opp eller kombinere aktiva
 
 Du bruker aktivareklassifiseringskladden til å overføre, dele opp og knytte sammen aktiva. Du kan vise eller skrive ut resultatene av aktivareklassifisering med rapporten **Aktiva - bokført verdi 02**.
 
-## <a name="to-transfer-a-fixed-asset-to-a-different-department"></a>Slik overfører du et aktiva til en annen avdeling:
+## Slik overfører du et aktiva til en annen avdeling:
 
 Du må kanskje overføre et aktiva til en annen avdeling når for eksempel du plasserer et aktiva i produksjonsavdelingen mens aktivaet er under bygging, og deretter flytter det til administrasjonsavdelingen når det er ferdig.  
 
@@ -29,7 +29,7 @@ Du må kanskje overføre et aktiva til en annen avdeling når for eksempel du pl
 
 Hvis du har bokført en anskaffelseskost for ett aktiva, kan du bruke reklassifiseringskladden for aktiva til å dele anskaffelseskosten på flere aktiva.  
 
-## <a name="to-split-a-fixed-asset-into-three-fixed-assets"></a>Slik deler du et aktiva inn i tre aktiva:
+## Slik deler du et aktiva inn i tre aktiva:
 Du kan dele ett aktiva i flere aktiva, for eksempel når du skal distribuere et aktiva på tre forskjellige avdelinger. Da kan du for eksempel overføre 25 prosent av anskaffelseskosten og avskrivningen for det originale aktivaet til et annet aktiva, og 45 prosent til et tredje aktiva. De resterende 30 prosent blir igjen i det opprinnelige aktivaet.
 
 1. Definer to nye aktiva. Angi de relevante avdelingene som dimensjoner.  
@@ -45,7 +45,7 @@ Du kan dele ett aktiva i flere aktiva, for eksempel når du skal distribuere et 
 9. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.
 10. På **Aktiva finanskladd**-siden velger du **Bokfør**-handlingen for å bokføre reklassifiseringen du utførte i trinn 4 til 8.
 
-## <a name="to-combine-two-fixed-assets-into-one"></a>Slik kombinerer du to aktiva til en:
+## Slik kombinerer du to aktiva til en:
 
 Du kan kombinere flere aktiva til ett aktiva, for eksempel når du flytter distribuerte aktiva til én avdeling. Hvis du har bokført anskaffelseskostnader og avskrivning for aktivaet som skal flyttes, kombineres disse verdiene i ett aktiva.
 
@@ -59,13 +59,13 @@ Du kan kombinere flere aktiva til ett aktiva, for eksempel når du flytter distr
 6. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Aktivafinanskladder** og velger den relaterte koblingen.
 7. På **Aktiva finanskladd**-siden velger du **Bokfør**-handlingen for å bokføre reklassifiseringen du utførte i trinn 2 til 5.
 
-## <a name="to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification"></a>Slik viser du endret avskrivningstablåverdier på grunn av aktivareklassifisering:
+## Slik viser du endret avskrivningstablåverdier på grunn av aktivareklassifisering:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktiva – bokført verdi 02**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov.
 3. Velg knappen **Skriv ut** eller **Forhåndsvisning**.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Aktiva](fa-manage.md)  
 [Definer aktiva](fa-setup.md)  

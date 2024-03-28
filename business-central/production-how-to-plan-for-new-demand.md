@@ -9,14 +9,14 @@ ms.date: 07/29/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="plan-for-new-demand-order-by-order"></a>Planlegg for nytt behov bestilling for bestilling
+# Planlegg for nytt behov bestilling for bestilling
 
 Denne planleggingsoppgaven kan utføres på siden **Ordreplanlegging**, som viser alle nye behov sammen med tilgjengelighetsinformasjon og forslag til forsyning. Vinduet inneholder visningen og verktøyene som kreves for å planlegge behov fra salgslinjer og komponentlinjer på en effektiv måte og deretter opprette forskjellige typer forsyningsordrer direkte.  
 
 Du kan åpne **Ordreplanlegging**-siden på to måter, avhengig av fokus: fra en ordre du vil planlegge for spesielt, eller i satsvis modus fordi du vil planlegge for alle og eventuelle nye behov.  
 
 
-## <a name="to-plan-for-new-production-order-demand"></a>Planlegge for et nytt produksjonsordrebehov
+## Planlegge for et nytt produksjonsordrebehov
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Planlagte produksjonsordrer** og velg den relaterte koblingen. (Du kan utføre disse trinnene for planlagte, fast planlagte eller frigitte produksjonsordrer).
 2. Åpne produksjonsordren du vil planlegge for, og velg **Planlegging**-handlingen.  
@@ -24,7 +24,7 @@ Du kan åpne **Ordreplanlegging**-siden på to måter, avhengig av fokus: fra en
 
 Siden viser planleggingslinjer i henhold til visningsfilteret **Produksjonsbehov**, som betyr komponentlinjer som ikke er oppfylt for alle eksisterende produksjonsordrer. De vises ikke behov for bare den ene produksjonsordren, fordi du må planlegge for én produksjonsordre med en oversikt over behov for eventuelle tidligere komponentlinjer. Planleggingslinjer for produksjonsordren i konteksten utvides.  
 
-## <a name="to-plan-for-any-new-demand"></a>Slik planlegger du for et nytt behov
+## Slik planlegger du for et nytt behov
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordreplanlegging**, og velg deretter den relaterte koblingen.  
 2. På **Ordreplanlegging**-siden velger du handlingen **Beregn plan**.
@@ -80,7 +80,7 @@ Siden viser planleggingslinjer i henhold til visningsfilteret **Produksjonsbehov
 > [!NOTE]  
 > Hvis du angir en senere dato enn behovsdatoen, får du en advarsel.  
 
-## <a name="to-make-supply-orders"></a>Slik lager du forsyningsordrer
+## Slik lager du forsyningsordrer
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Planlagte produksjonsordrer** og velg den relaterte koblingen. Du kan utføre disse trinnene for en planlagt, fast planlagt eller frigitt produksjonsordre.  
 2. Åpne produksjonsordren du vil planlegge for, og velg **Planlegging**-handlingen.  
@@ -107,7 +107,7 @@ Når du har fullført planleggingen på **Ordreplanlegging**-siden, for eksempel
 > [!NOTE]  
 > Forsyningsordrene du oppretter, kan introdusere et nytt avhengighetsbehov, for eksempel for underliggende produksjonsordrer, og du bør derfor velge **Beregn plan** igjen for å finne dem og løse dette før du går nedover i oversikten.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 <!-- [Walkthrough: Planning Supplies Manually](walkthrough-planning-supplies-manually.md)   -->
 [Planlegging](production-planning.md)  
