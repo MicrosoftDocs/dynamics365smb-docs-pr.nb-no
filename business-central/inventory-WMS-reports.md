@@ -11,22 +11,22 @@ ms.date: 04/13/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Lager og lagerrapporter og analyse
+# <a name="inventory-and-warehouse-reports-and-analytics"></a>Lager og lagerrapporter og analyse
 
 Beholdnings- og lagerrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gjør det mulig for lager- og forretningsfolk å få innsikt og statistikk om gjeldende og tidligere beholdnings- og lageraktiviteter.  
 
-## Rapporter
+## <a name="reports"></a>Rapporter
 
 [!INCLUDE [inventory_WMS_reports](includes/inventory-WMS-reports-include.md)]
 
-## Oppgaver
+## <a name="tasks"></a>Oppgaver
 
 Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilstanden i virksomheten din:
 
 * [Opprett analyserapporter](bi-how-create-analysis-views-reports.md)  
 * [Vis tilgjengeligheten av varer](inventory-how-availability-overview.md)
 
-## Skriv ut og skann strekkoder
+## <a name="print-and-scan-barcodes"></a>Skriv ut og skann strekkoder
 
 Bruk av strekkoder kan bidra til å effektivisere inngående, utgående og interne lagerprosesser. 
 
@@ -44,7 +44,7 @@ Når du har installert appen, kan du bruke handlingen **Skriv ut etikett** til �
 > [!NOTE]
 > Noen skrivere og strekkode/QR-kodeformater krever en spesifikk implementering. Du må kanskje laste opp en annen Word-mal eller klone rapporten for å opprette din egen tilpassede versjon.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Definere lager](inventory-setup-inventory.md)  
 [Lager](inventory-manage-inventory.md)  
