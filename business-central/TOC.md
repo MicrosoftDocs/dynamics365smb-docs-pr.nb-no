@@ -139,6 +139,7 @@ ms.service: dynamics-365-business-central
 ## Bli produktiv i Business Central
 ### [Oversikt over generelle funksjoner](ui-work-product.md)
 ### [Utskriftsvennlig jukselapp](ui-work-product.md#cheatsheet)
+### [Nettprat med Copilot (forhåndsversjon)](chat-with-copilot.md)
 ### [Finn sider og informasjon med Fortell meg](ui-search.md)
 ### [Vanlige spørsmål om Fortell meg](ui-search-faq.md)
 ### [Søk etter bestemte data](ui-search-data.md)
@@ -201,6 +202,7 @@ ms.service: dynamics-365-business-central
 ### [Intelligent innsikt (bare på nettet)](about-intelligent-cloud.md)
 ## Vanlige spørsmål
 ### [Vanlige spørsmål](across-faq.yml)
+### [Vanlige spørsmål om nettprat med Copilot (forhåndsversjon)](chat-with-copilot-faq.md)
 ### [Vanlige spørsmål om Fortell meg](ui-search-faq.md)
 ### [Vanlige spørsmål om søk og filtrer](ui-search-filter-faq.yml)
 ### [Vanlige spørsmål om listevisninger](ui-views-faq.yml)
@@ -374,6 +376,7 @@ ms.service: dynamics-365-business-central
 #### [Konfigurer lagerverdisetting og -kostnader](finance-set-up-inventory-valuation-and-costing.md)
 #### [Revaluer lager](inventory-how-revalue-inventory.md)
 #### [Juster varekost](inventory-how-adjust-item-costs.md)
+#### [Spor varekostjusteringer](finance-track-inventory-costs.md)
 #### [Håndter lager- og produksjonskost](finance-handle-inventory-and-manufacturing-costs.md)
 #### [Oppdater standardkost](finance-how-to-update-standard-costs.md)
 #### [Fjern varefinansposter og utligne dem på nytt](finance-how-to-remove-and-reapply-item-entries.md)
@@ -388,7 +391,6 @@ ms.service: dynamics-365-business-central
 #### [Oversikt over kontantstrøm](finance-cash-flow-overview.md)
 #### [Analyser kontantstrømmer i selskapet](finance-analyze-cash-flow.md)
 #### [Gjennomgang: Bruk finansrapporter til å lage kontantstrømprognoser](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
-
 
 ### Lukk år og perioder
 #### [Oversikt over årsavslutning](year-close-years-periods.md)
@@ -408,6 +410,7 @@ ms.service: dynamics-365-business-central
 ### Arbeid med kontoplanen og finans
 #### [Forstå finans og kontoplanen](finance-general-ledger.md)
 #### [Gå gjennom kontoer](finance-review-accounts.md)
+#### [Revaluer finanskontosaldoer](finance-revalue-account-balances.md)
 #### [Bokfør transaksjoner direkte i finans](finance-how-post-transactions-directly.md)
 #### [Tilbakefør kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)
 #### [Registrer og refunder ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)
@@ -459,24 +462,34 @@ ms.service: dynamics-365-business-central
 ##### [Arbeid med konserninterne dokumenter og kladder](intercompany-how-work-documents-journals.md)
 ##### [Administrer den konserninterne innboksen og utboksen](intercompany-how-manage-intercompany-inbox.md)
 ##### [Tildel kostnader til konserninterne partnere](intercompany-allocate-costs.md)
-
 ### [Regnskapsføreropplevelser i Business Central](finance-accounting.md)
 
+## Økonomisk analyse 
+### [Oversikt over økonomisk analyse](bi.md)
+### [Håndter finansrapportering mellom konsern eller juridiske enheter](finance-consolidated-company-reporting.md)
+<!-- ### [Financial KPIs](bi-finance-kpis.md) -->
 
-## Økonomisk forretningsanalyse og finansrapporter
-### [Oversikt over økonomisk forretningsanalyse og finansrapporter](bi.md)
-### [Finansrapporter](finance-reports.md)
-### [Analyser data med statistiske kontoer](bi-use-statistical-accounts.md)
-### [Analyser faktiske beløp kontra budsjetterte beløp](bi-how-analyze-actual-versus-budget.md)
-### [Klargjør finansrapporter med finansdata og kontokategorier](bi-how-work-account-schedule.md)
-### [Konfigurer og publiser nøkkelindikatornettjenester basert på finansrapporter](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
-### [Analyser data etter dimensjoner](bi-how-analyze-data-dimension.md)
-### [Opprett analyserapporter](bi-how-create-analysis-views-reports.md)
-### [Analyser årsregnskaper i Excel](finance-analyze-excel.md)
-### [Opprett rapporter med XBRL](bi-create-reports-with-xbrl.md)
-### [Administrer databasetilgangsform](admin-data-access-intent.md)
-### [Gjennomgang: Bruk finansrapporter til å lage kontantstrømprognoser](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+### Finansrapportering (implementering av regnskap og KPI-er)
+#### [Klargjør finansrapportering](bi-how-work-account-schedule.md)
+#### [Gjennomgang: Bruk finansrapportering til å lage kontantstrømprognoser](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
+#### [Konfigurer og publiser en KPI-nettjeneste basert på finansrapportering](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
+#### [Analyser data med statistiske kontoer](bi-use-statistical-accounts.md)
+#### [Analyser data etter dimensjoner](bi-how-analyze-data-dimension.md)
+#### [Opprett analyserapporter](bi-how-create-analysis-views-reports.md)
 
+<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+
+### Innebygde finansanalyseverktøy
+#### [Analyser finansdata fra kontoplanen](finance-general-ledger.md)
+#### [Analyser faktiske beløp kontra budsjetterte beløp](bi-how-analyze-actual-versus-budget.md)
+#### [Analyser kontantstrøm](finance-analyze-cash-flow.md)
+
+### Innebygde finansrapporter
+#### [Innebygde Excel-finansrapporter](finance-analyze-excel.md)
+#### [Innebygde nøkkelfinansrapporter](finance-reports.md)
+#### [Innebygde aktivarapporter](fa-reports.md)
+#### [Innebygde rapporter om utestående fordringer](receivables-reports.md)
+#### [Innebygde rapporter om leverandørgjeld](payables-reports.md)
 
 ## Salg
 ### [Oversikt over salg](sales-manage-sales.md)
@@ -553,7 +566,7 @@ ms.service: dynamics-365-business-central
 ### [Bruk ressurser for prosjekter](projects-how-use-resources.md)
 ### [Bruk timelister](projects-how-use-time-sheets.md)
 ### [Administrer prosjektbudsjetter](projects-how-manage-budgets.md)
-### [Registrer forbruk for prosjekter](projects-how-record-job-usage.md)
+### [Registrer forbruk for prosjekt](projects-how-record-job-usage.md)
 ### [Administrer prosjektforsyninger](projects-how-manage-project-supplies.md)
 ### [Forstå VIA-metoder](projects-understanding-wip.md)
 ### [Overvåk prosjektfremdrift og -ytelse](projects-how-monitor-progress-performance.md)
@@ -561,6 +574,8 @@ ms.service: dynamics-365-business-central
 
 ## Aktiva
 ### [Oversikt over aktiva](fa-manage.md)
+### [Konfigurer aktiva](fa-setup.md)
+### [Avskrivningsmetoder](fa-depreciation-methods.md)
 ### [Rapporter og analyse av aktiva](fa-reports.md)
 ### [Anskaff aktiva](fa-how-acquire.md)
 ### [Vedlikehold aktiva](fa-how-maintain.md)
@@ -723,12 +738,12 @@ ms.service: dynamics-365-business-central
 ## Nettbutikk med Shopify
 ### [Kom i gang med Shopify-koblingen](shopify/get-started.md)
 #### [Opprett og konfigurer en Shopify-konto](shopify/shopify-account.md)
-### [Synkroniser varer med Shopify](shopify/synchronize-items.md)
-### [Synkroniser kunder med Shopify](shopify/synchronize-customers.md)
+### [Synkroniser varer og lager med Shopify](shopify/synchronize-items.md)
+### [Synkroniser kunder og selskaper med Shopify](shopify/synchronize-customers.md)
 ### [Synkroniser og oppfyll salgsordrer med Shopify](shopify/synchronize-orders.md)
 ### [Synkroniser transaksjoner og utbetalinger](shopify/transactions-and-payouts.md)
 ### [Konfigurer avgifter for Shopify-tilkoblingen](shopify/setup-taxes.md)
-### [Kjør oppgaver i bakgrunnen](shopify/background.md)
+### [Automatiser Shopify-synkronisering med prosjektkø](shopify/background.md)
 ### [Feilsøk Shopify-koblingen](shopify/troubleshoot.md)
 ### [Vanlige spørsmål om Shopify-koblingen](shopify/shopify-faq.md)
 ### [Gjennomgang: Konfigurer og bruk Shopify-koblingen](shopify/walkthrough-setting-up-and-using-shopify.md)
@@ -849,37 +864,70 @@ ms.service: dynamics-365-business-central
 ##### [Arbeid med GIFI-koder](LocalFunctionality/Canada/work-gifi-codes.md)
 
 ### Den tsjekkiske republikk
-#### [Lokale funksjoner i tsjekkisk versjon](LocalFunctionality/Czech/czech-local-functionality.md)
+#### [Lokal funksjonalitet i tsjekkisk versjon](LocalFunctionality/Czech/czech-local-functionality.md)
 #### [Kjernelokaliseringspakke for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-core-localization-pack-cz.md)
 #### [Avansert lokaliseringspakke for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-advanced-localization-pack-cz.md)
 #### Kjerneøkonomi  
-##### [Finans](LocalFunctionality/Czech/finance.md)
+##### [Korrigeringsbokføring (Rød storno)](LocalFunctionality/Czech/how-to-use-corrections-posting.md)
+##### [Lovpålagte opplysninger om selskapet](LocalFunctionality/Czech/statutory-company-information.md)
+##### [Interne finansdokumenter](LocalFunctionality/Czech/internal-financial-documents.md)
+##### [Avgangsdokumenter for regnskap](LocalFunctionality/Czech/accounting-output-documents.md)
+##### [Regnskapsplanfunksjon](LocalFunctionality/Czech/how-to-use-accounting-schedule-feature.md)
+##### [Lovpålagte oppgaver](LocalFunctionality/Czech/statutory-statements.md)
 ##### [Årsavslutningsoperasjoner](LocalFunctionality/Czech/year-close-operations.md)
 ##### [Utligning av finansposter](LocalFunctionality/Czech/general-ledger-entries-application.md)
 ##### [Valutakursoppdatering](LocalFunctionality/Czech/exchange-rate-update.md)
+##### [Regnskap med flere kretser](LocalFunctionality/Czech/how-to-use-multi-circuit-accounting.md)
 #### Mva.
-##### [Finans – mva.](LocalFunctionality/Czech/finance-vat.md)
+##### [Mva-dato](LocalFunctionality/Czech/how-to-setup-vat-date.md)
+##### [Mva-oppgave](LocalFunctionality/Czech/vat-statement.md)
+##### [Supplerende mva-oppgave](LocalFunctionality/Czech/supplementary-vat-statement.md)
+##### [VIES](LocalFunctionality/Czech/vies-cz.md)
+##### [VIES – CZ-eksport](LocalFunctionality/Czech/how-to-use-vies-cz-export.md)
+##### [Upålitelig betaler](LocalFunctionality/Czech/unreliable-payer.md)
+##### [Mva-valutakurs](LocalFunctionality/Czech/how-to-setup-vat-exchange-rate.md)
+##### [Definer og bokfør snudd avregning](LocalFunctionality/Czech/how-to-setup-and-post-reverse-charge.md)
 ##### [Mva-kontrollrapport](LocalFunctionality/Czech/vat-control-report.md)
+##### [Mva-rapporter](LocalFunctionality/Czech/vat-reports-cz.md)
+##### [Mva-korrigering i lokal valuta](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
+##### [Intrastat for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Aktiva
-##### [Aktiva](LocalFunctionality/Czech/fixed-assets.md)
 ##### [Aktivalokalisering for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Banktjenester og betalinger
-##### [Bankfunksjon](LocalFunctionality/Czech/bank-feature.md)
 ##### [Lokalisering av bankdokumenter for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
-##### [Kontantstyring](LocalFunctionality/Czech/cash-desk-management.md)
 ##### [Lokalisering av kontant for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
 ##### [Registrering av salg (EET)](LocalFunctionality/Czech/eet.md)
-##### [Avansementer](LocalFunctionality/Czech/advances.md)
 ##### [Videre lokalisering av betalinger for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-advance-payments-localization-cz.md)
 #### Kjøp og salg
-##### [Kjøp og salg](LocalFunctionality/Czech/receivables-payables.md)
-##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
-##### [Kompensasjonslokalisering for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
+##### [Funksjon for valutakursjustering](LocalFunctionality/Czech/how-to-use-exchange-rates-adjustment-feature.md)
+##### [Flere kontoer for leverandørgjeld og utestående fordringer](LocalFunctionality/Czech/how-to-use-multiple-payables-receivables-accounts.md)
+##### [Kunde- og leverandøravstemminger](LocalFunctionality/Czech/customers-vendors-reconciliations.md)
+##### [Salgskorrigeringsdokumenter](LocalFunctionality/Czech/sales-correcting-documents.md)
+##### [Oppdater kontakter fra ARES](LocalFunctionality/Czech/how-to-update-contacts-from-ares.md)
+##### [Ny utforming av avgangsdokumenter](LocalFunctionality/Czech/new-design-of-output-documents.md)
+##### [Kompensasjoner](LocalFunctionality/Czech/ui-extensions-compensations-localization-cz.md)
 #### Lager
-##### [Lager](LocalFunctionality/Czech/inventory.md)
+##### [Avrund regnskap i lager](LocalFunctionality/Czech/how-to-setup-round-account-in-inventory.md)
+##### [Forbedringer for lagerfinansavstemming](LocalFunctionality/Czech/how-to-use-inventory-gl-reconciliation-enhancements.md)
+##### [Avansert funksjon for vareopptelling](LocalFunctionality/Czech/advanced-features-physical-inventory.md)
+##### [Dokumenter for vareopptelling](LocalFunctionality/Czech/how-to-use-inventory-counting-documents.md)
+##### [Dokument for lageroperasjoner](LocalFunctionality/Czech/how-to-use-inventory-operations-document.md)
+##### [Bokføringsgrupper i overføringsordrer](LocalFunctionality/Czech/how-to-use-posting-groups-in-transfer-orders.md)
 #### Generelt
 ##### [Utvidet brukerkontroll](LocalFunctionality/Czech/general.md)
-##### [Anbefalte fremgangsmåter](LocalFunctionality/Czech/best-practices.md)
+##### [Kontroll over bokføringsgruppeendringer](LocalFunctionality/Czech/check-of-posting-group-changing.md)
+##### [Kontroll av tidssekvens for avgangslager](LocalFunctionality/Czech/check-output-inventory-time-sequence.md)
+##### [Maler for lagerflytting](LocalFunctionality/Czech/inventory-movement-templates.md)
+##### [Maler for lagerføringsenhet](LocalFunctionality/Czech/stockkeeping-unit-templates.md)
+##### [Obligatorisk nøyaktig kostnadsretur i produksjon](LocalFunctionality/Czech/how-to-setup-mandatory-return-exact-costs-manufacturing.md)
+##### [Standard firmabokføringsgruppe i produksjon](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-manufacturing.md)
+##### [Standard firmabokføringsgruppe i monteringsordrer](LocalFunctionality/Czech/how-to-setup-default-bus-post-group-assembly-orders.md)
+##### [Opprett og oppdater dimensjoner automatisk](LocalFunctionality/Czech/how-to-setup-automatic-creation-and-update-dimensions.md)
+##### [Legg til felter i vareposter](LocalFunctionality/Czech/how-to-use-add-fields-item-entries.md)
+##### [Varebokføringsgruppe i lagerføringsenhet](LocalFunctionality/Czech/how-to-setup-gen-prod-posting-group-from-sku.md)
+##### [Hopp over oppdatering for lagerføringsenhet ved bokføring](LocalFunctionality/Czech/how-to-setup-skip-update-sku-on-posting.md)
+##### [Katalogvarenummerering](LocalFunctionality/Czech/how-to-setup-nonstock-item-numbering.md)
 
 ### Danmark
 #### [Lokale funksjoner i dansk versjon](LocalFunctionality/Denmark/denmark-local-functionality.md)
@@ -1523,6 +1571,7 @@ ms.service: dynamics-365-business-central
 #### [Arbeid med betalingstoleranser og toleransegrenser for kontantrabatt](finance-payment-tolerance-and-payment-discount-tolerance.md)
 #### [Arbeid med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md)
 #### [Konfigurer påminnelsesbetingelser og -nivåer](finance-setup-reminders.md)
+#### [Automatiser purringer i innkrevinger](finance-automate-reminders.md)
 #### [Konfigurer rentenotabetingelser](finance-setup-finance-charges.md)
 #### [Konfigurer merverdiavgift (mva.)](finance-setup-vat.md)
 #### [Konfigurer beregninger og bokføringsmetoder for merverdiavgift (mva.)](finance-setup-vat.md)
@@ -1584,7 +1633,7 @@ ms.service: dynamics-365-business-central
 #### [Kategoriser varer](inventory-how-categorize-items.md)
 #### [Importer flere varebilder](inventory-how-import-item-pictures.md)
 ### Konfigurer prosjektstyring
-#### [Konfigurer prosjekter](projects-setup-projects.md)
+#### [Konfigurer prosjektstyring](projects-setup-projects.md)
 #### [Konfigurer ressurser](projects-how-setup-resources.md)
 #### [Konfigurer timelister](projects-how-setup-time-sheets.md)
 #### [Konfigurer prosjekter](projects-how-setup-jobs.md)
@@ -1592,7 +1641,6 @@ ms.service: dynamics-365-business-central
 #### [Konfigurer aktiva](fa-setup.md)
 #### [Konfigurer generell aktivainformasjon](fa-how-setup-general.md)
 #### [Konfigurer aktivumavskrivninger](fa-how-setup-depreciation.md)
-#### [Definer avskrivningsmetoder](fa-depreciation-methods.md)
 #### [Konfigurer brukerdefinerte avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md)
 #### [Konfigurer forsikring for aktivum](fa-how-setup-insurance.md)
 #### [Konfigurer aktivumvedlikehold](fa-how-setup-maintenance.md)
@@ -1727,10 +1775,13 @@ ms.service: dynamics-365-business-central
 ### [Konfigurer Online Maps](across-online-maps-setup.md)
 ### [Få Business Central på mobilenheten din](install-mobile-app.md)
 ### [Få Business Central på skrivebordet ditt](install-desktop-app.md)
-<!--Reporting landing page-->
-# Forretningsanalyse og rapportering 
 
-## [Oversikt](reports-bi-reporting.md)
+<!--Reporting landing page-->
+# Analyse, forretningsanalyse og rapportering 
+
+## [Oversikt over analyse](reports-bi-reporting.md)
+## [Bruk ytelsesindikatorer (KPI-er) til å oppfylle forretningsmålene](./analytics-about-kpis.md)
+## [Bruk finansrapportering](bi-how-work-account-schedule.md)
 
 ## Bruk rapporter i daglig arbeid
 ### [Oversikt](reports-use-reports.md)
@@ -1771,11 +1822,11 @@ ms.service: dynamics-365-business-central
 #### [Spor varer med serie-, parti- og pakkenumre](inventory-how-work-item-tracking.md)
 #### [Spor varesporede varer](inventory-how-to-trace-item-tracked-items.md)
 #### [Revider avstemmingen mellom lagerposten og finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [Vis kryssoverførte varer i en levering eller plukkforslaget](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+#### [Vis kryssoverførte varer i et leverings- eller plukkforslag](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
 
 ### Prosjekt
 #### [Prosjektrapporter](project-reports.md)
-#### [Vis prosjektforbruksestimater](projects-how-record-job-usage.md#to-view-job-usage-estimates-and-post-updates)
+#### [Vis prosjektforbruksestimater](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
 #### [Overvåk prosjektfremdrift og -ytelse](projects-how-monitor-progress-performance.md)
 
 ### Aktiva
@@ -1933,6 +1984,7 @@ ms.service: dynamics-365-business-central
 #### [Business Central-utvidelser fra andre leverandører](ui-extensions-other.md)
 ## Integrer med andre Dynamics 365-programmer
 ### [Integrer med Dynamics 365 Sales via datasynkronisering](admin-prepare-dynamics-365-for-sales-for-integration.md)
+### [Integrer med Microsoft Dynamics 365 Field Service](admin-integrate-field-service.md)
 ## Integrer med Microsoft Dataverse
 ### [Integrer med Dataverse via datasynkronisering](admin-common-data-service.md)
 ### [Dataeierskapsmodeller for synkronisering](admin-cds-company-concept.md)
@@ -2025,18 +2077,36 @@ ms.service: dynamics-365-business-central
 ## [Ytelse](/dynamics365/business-central/dev-itpro/performance/performance-overview?toc=/dynamics365/business-central/toc.json)
 ## [Funksjoner som er fjernet eller avskrevet](/dynamics365/business-central/dev-itpro/upgrade/deprecated-features-w1?toc=/dynamics365/business-central/toc.json)
 # Copilot- og KI-funksjoner
+## [Om Copilot i Business Central](copilot-overview.md)
 ## Administrer Copilot- og KI-funksjoner
 ### [Konfigurer Copilot- og KI-funksjoner](enable-ai.md)
 ### [Copilot-dataflytting på tvers av geografiske områder](ai-copilot-data-movement.md)
 ### [Feilsøk Copilot- og KI-funksjoner](ai-copilot-troubleshooting.md)
+## Analysehjelp (forhåndsversjon)
+### [Analyser data i lister med Copilot](analysis-assist.md)
+### [Vanlige spørsmål om analysehjelp](faqs-analysis-assist.md)
 ## Bankkontoavstemmingshjelp (forhåndsversjon)
 ### [Avstem bankkontoer med Copilot](bank-reconciliation-with-copilot.md)
 ### [Vanlige spørsmål om bankkontoavstemmingshjelp](faqs-bank-reconciliation.md)
+## Nettprat med Copilot (forhåndsversjon)
+### [Nettprat med Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+### [Vanlige spørsmål om nettprat med Copilot](chat-with-copilot-faq.md?toc=/dynamics365/business-central/toc.json)
+### [Vanlige spørsmål om ansvarlig kunstig intelligens for nettprat med Copilot](faqs-chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
 ## Forslag til markedsføringstekst
 ### [Oversikt over forslag til markedsføringstekst](ai-overview.md)
 ### [Opprett markedsføringstekst med Copilot](item-marketing-text.md)
 ### [Vanlige spørsmål om forslag til markedsføringstekst](faqs-marketing-text.md)
+## Salgslinjeforslag (forhåndsversjon)
+### [Foreslå linjer i ordrer med Copilot](sales-suggest-sales-lines-with-copilot.md)
+### [Vanlige spørsmål om salgslinjeforslag med Copilot](faq-sales-suggest-sales-lines-with-copilot.md)
+## Tildel e-dokumenter (forhåndsversjon)
+### [Tildel e-dokumenter til bestillingslinjer med Copilot](map-edocuments-with-copilot.md)
+### [Vanlige spørsmål om å tildele e-dokumenter med bestillinger ved hjelp av Copilot](faqs-map-edocuments.md)
 # Ansvarlig kunstig intelligens
 ## [Oversikt](responsible-ai-overview.md)
+## [Vanlige spørsmål om analysehjelp (forhåndsversjon)](faqs-analysis-assist.md)
 ## [Vanlige spørsmål om bankkontoavstemmingshjelp (forhåndsversjon)](faqs-bank-reconciliation.md)
+## [Vanlige spørsmål om nettprat med Copilot (forhåndsversjon)](faqs-chat-with-copilot.md)
 ## [Vanlige spørsmål om forslag til markedsføringstekst](faqs-marketing-text.md)
+## [Vanlige spørsmål om salgslinjeforslag med Copilot (forhåndsversjon)](faq-sales-suggest-sales-lines-with-copilot.md)
+## [Vanlige spørsmål om å tildele e-dokumenter med bestillinger ved hjelp av Copilot (forhåndsversjon)](faqs-map-edocuments.md)
