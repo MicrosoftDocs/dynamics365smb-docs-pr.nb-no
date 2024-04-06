@@ -9,15 +9,15 @@ ms.date: 06/25/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Lukking av resultatregnskapskonti
+# <a name="closing-income-statement-accounts"></a>Lukking av resultatregnskapskonti
 Når et regnskapsår er over, må du lukke periodene som utgjør regnskapsåret. Hvis du vil gjøre dette, kjører du den satsvise jobben **Lukk resultatregnskapet**. Denne jobben overfører årets resultat til en konto i balansen og lukke resultatregnskapskontoene. Dette gjør du ved å opprette linjer i en kladd som du deretter kan bokføre.
 
-## Kjøre den satsvise jobben Lukk resultatregnskapet
+## <a name="to-run-the-close-income-statement-batch-job"></a>Kjøre den satsvise jobben Lukk resultatregnskapet
 1. Avslutte regnskapsåret. Regnskapsåret må avsluttes før den satsvise jobben kan kjøres. Hvis du vil ha mer informasjon, kan du se [Avslutte regnskapsperioder](year-close-account-periods.md).
 2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lukk resultatregnskap** og velg deretter den relaterte koblingen.
 3. Velg **OK** for å kjøre kjørselen.
 
-## Den satsvise jobben Lukk resultatregnskapet
+## <a name="about-the-close-income-statement-batch-job"></a>Den satsvise jobben Lukk resultatregnskapet
 Kjørselen behandler alle finanskonti av typen Resultatregnskap og oppretter poster som utsletter deres respektive saldoer. Det vil si at hver post er summen av alle finansposter på kontoen i regnskapsåret. Disse nye postene plasseres i en kladd der du må angi en motkonto, konto for fri egenkapital, i balansen før du bokfører. Når du bokfører kladden, bokføres en post på hver resultatkonto slik at saldoen blir null og samtidig overføres årsresultatet til balansen.
 
 Du må bokføre kladden selv. Kjørselen bokfører ikke postene automatisk, med unntak av når en tilleggsrapporteringsvaluta brukes. Når en tilleggsrapporteringsvaluta brukes, bokfører den satsvise jobben poster direkte mot Finans.
@@ -26,7 +26,7 @@ Datoen på linjene som kjørselen setter inn i kladden, er alltid en sluttdato f
 
 Den satsvise jobben **Lukk resultatregnskapet** kan brukes flere ganger. Du kan bokføre i et tidligere år, selv etter at resultatkontiene er avsluttet, hvis du kjører kjørselen på nytt.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Avslutte tablåer](year-close-books.md)  
 [Bokføre avslutningsposten for årsslutt](year-how-post-year-end-close-entry.md)  
