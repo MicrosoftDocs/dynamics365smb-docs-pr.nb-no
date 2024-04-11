@@ -51,6 +51,10 @@ Dette trinnet er valgfritt for eksisterende forekomster av [!INCLUDE[prod_short]
 2. Velg handlingen **Ny**.  
 3. I feltet **Kode** angir du en kode som er enkel å finne i [!INCLUDE[prod_short](../includes/prod_short.md)]. Navnet kan for eksempel gjenspeile hva en butikk selger, for eksempel møbler eller kaffe, eller landet eller området den betjener.
 4. I feltet **Shopify-nettadresse** angir du nettadressen til nettbutikken du kobler deg til. Bruk følgende format: `https://{shop}.myshopify.com/`.
+
+   > [!TIP]
+   > Du kan kopiere URL-adressen fra Shopify-administrator, for eksempel `https://admin.shopify.com/store/{shop}`, og koblingen vil konvertere den til ønsket format.
+
 5. Aktiver vekslebryteren **Aktivert** og se gjennom og godta vilkårene.
 6. Hvis du blir bedt om det, logger du deg på Shopify-kontoen. Gå gjennom personvernvilkårene og velg knappen **Installer app**.
 
@@ -69,7 +73,7 @@ Gjenta trinn 2–6 for alle nettbutikker du vil koble til.
 
 Nå er nettbutikken tilkoblet [!INCLUDE[prod_short](../includes/prod_short.md)]. I de neste trinnene skal du definere hvordan og hva som skal synkroniseres.
 
-- [Synkroniser elementer](synchronize-items.md)
+- [Synkroniser varer og lager](synchronize-items.md)
 - [Synkroniser kunder](synchronize-customers.md)
 - [Synkroniser ordrer](synchronize-orders.md)
 

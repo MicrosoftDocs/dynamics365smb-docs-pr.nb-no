@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 12/08/2023
+ms.date: 03/15/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
@@ -28,6 +28,11 @@ I denne artikkelen lærer du hvordan du analyserer data fra listesider og spørr
 > Det kan hende du legger merke til noen listesider som ikke inkluderer bryteren **Analyser** for å endre til analysemodus. Årsaken er at utviklere kan deaktivere analysemodus på bestemte sider ved hjelp av egenskapen [egenskapen AnalysisModeEnabled](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) i AL.
 
 ## Kom i gang
+
+Fullfør denne fremgangsmåten for å komme i gang med å analysere data ved hjelp av analysemodus.
+
+>[!TIP]
+> Analysemodusen inneholder også en Copilot-funksjon kalt *analysehjelp* som kan hjelpe deg med å komme i gang. [Finn ut mer om analysehjelp med Copilot](analysis-assist.md).
 
 1. Åpne listesiden eller spørringen.
 

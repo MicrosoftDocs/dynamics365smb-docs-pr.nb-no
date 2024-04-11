@@ -2,13 +2,14 @@
 title: VIA-metoder for å beregne og registrere prosjektfremdrift
 description: 'Beskriver de forskjellige VIA-metodene (varer i arbeid) du kan bruke til å bokføre, overvåke og beregne økonomiske opplysninger for prosjekter som pågår.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: 'work in process, work in progress, calculate project WIP'
-ms.search.form: 1010
-ms.date: 04/01/2021
 ms.author: bholtorf
+ms.reviewer: andreipa
+ms.topic: conceptual
+ms.search.keywords: 'work in process, work in progress, calculate project WIP'
+ms.search.form: '1010,'
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Forstå VIA-metoder i prosjektstyring
 

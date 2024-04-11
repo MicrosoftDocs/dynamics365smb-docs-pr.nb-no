@@ -3,9 +3,9 @@ title: 'Konfigurere prosjekter, priser og prosjektbokføringsgrupper'
 description: Beskriver hvordan du definerer generell informasjon om prosjekter.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.topic: how-to
-ms.date: 04/25/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
@@ -24,15 +24,33 @@ Angi ulike opplysninger for hvert prosjekt:
 
 ## Slik angir du generell informasjon for prosjekter
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektoppsett** og velg den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektoppsett**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!NOTE]
 > Vekslebryteren **Bruk forbrukskobling som standard** på siden **Prosjektoppsett** angir om prosjektposter er koblet til prosjektplanleggingslinjer som standard. Slå på vekslebryteren for å bruke denne innstillingen på alle nye prosjekter. Du kan aktivere eller deaktivere sporing av prosjektforbruk for et bestemt prosjekt ved slå av eller på vekslebryteren **Bruk forbrukskobling** på siden **Prosjektkort**.
 
+### Angi en standardplassering for prosjektvarer
+
+Du kan spare tid på dataregistrering ved å angi en standardplassering og -hylle for prosjekter på **Prosjektkort**-siden. Når du oppretter prosjektoppgaver, prosjektplanleggingslinjer og prosjektkladdelinjer for prosjektet, tilordnes standardplasseringen og -hyllen automatisk. Du kan imidlertid endre lokasjonskoden og hyllen på oppgaver og linjer om nødvendig.
+
+Hvis du definerer en **Til-prosjekthyllekode** på lokasjonen, fylles hyllekoden ut når du velger lokasjonskoden. Hvis lagerflyten krever lagerplukk, kan du også definere andre hyller som varer skal forbrukes fra.
+
+Disse feltene er standardverdiene når du oppretter prosjektaktiviteter. Eksisterende prosjektaktiviteter endres ikke.
+
+Det er et par ting du bør vite om bruk av standardplasseringer:
+
+* For prosjektoppgaver, hvis du definerer en **Til-prosjekthyllekode** på lokasjonen, blir hyllekoden tilordnet når du velger lokasjonskoden. Hvis lagerflyten krever lagerplukk, kan du også definere andre hyller som varer skal forbrukes fra.
+* For prosjektplanleggingslinjer er **Lokasjonskode** basert på verdien som velges på prosjektplanleggingslinjen når du velger en vare. Hvis det ikke er definert en hyllekode for prosjektoppgaven, velges hyllen fra standardhylleinnholdet. Du kan endre begge verdiene manuelt.
+* For prosjektkladdelinjer er **Lokasjonskode** basert på verdien som velges på prosjektkladdelinjen når du velger en vare. Hvis det ikke er definert en hyllekode for prosjektoppgaven, velges hyllen fra standardhylleinnholdet. Du kan endre begge verdiene manuelt.
+
+### Fakturere flere kunder for prosjektoppgaver 
+
+Når prosjekter involverer flere kunder, kan det være utfordrende å fakturere de riktige kundene for de riktige oppgavene. [!INCLUDE [prod_short](includes/prod_short.md)] gjør fakturering mindre komplisert ved at du angir faktura til- og salg til-kunder på hver prosjektoppgavelinje, slik at du kan generere fakturaer automatisk for de riktige kundene. Hvis du vil lære mer om hvordan du fakturerer flere kunder, kan du gå til [Fakturere én eller flere kunder for prosjektoppgaver](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
+
 ### Slik konfigurerer du sporing av prosjektforbruk
 
-Når du arbeider på et prosjekt, vil du kanskje vite hvordan forbruket forløper seg i forhold til planen. Du kan utforske forbruket ved å opprette en kobling mellom jobbplanleggingslinjene og det faktiske forbruket. Med koblingen kan du holde oversikt over kostnadene og forstå hvor mye arbeid som gjenstår. Som standard er prosjektplanleggingslinjetypen **Budsjett**, men bruk av linjetypen **Både Budsjett og Fakturerbar** har liknende effekter.
+Når du arbeider på et prosjekt, vil du kanskje vite hvordan forbruket forløper seg i forhold til planen. Du kan utforske forbruket ved å opprette en kobling mellom prosjektplanleggingslinjene og det faktiske forbruket. Med koblingen kan du holde oversikt over kostnadene og forstå hvor mye arbeid som gjenstår. Som standard er prosjektplanleggingslinjetypen **Budsjett**, men bruk av linjetypen **Både Budsjett og Fakturerbar** har liknende effekter.
 
 Etter at du har konfigurert forbrukssporing ved å slå på vekslebryteren **Bruk forbrukskobling som standard**, kan du se gjennom informasjon om prosjektplanleggingslinjen. Du kan for eksempel definere antallet for ressursen, varen eller finanskontoen. Du kan også angi antallet du vil overføre til prosjektkladden. Feltet **Restantall** på prosjektplanleggingslinjen viser hva som gjenstår å overføres og bokføres til prosjektkladden.
 
@@ -44,17 +62,17 @@ Etter at du har konfigurert forbrukssporing ved å slå på vekslebryteren **Bru
 > [!IMPORTANT]
 > Hvis du ikke angir en verdi i feltet **Linjetype** på prosjektkladdelinjen eller kjøpslinjen, opprettes det ingen prosjektplanleggingslinjer når du bokfører prosjektkladden eller kjøpsdokumentet.
 
-## Slik definerer du priser for ressurser, varer og finanskonti for jobber
+## Slik definerer du priser for ressurser, varer og finanskonti for prosjekter
 
 > [!NOTE]
 > I lanseringsbølge 2 for 2020 lanserte vi nye fremgangsmåter for å definere og håndtere priser og rabatter. Hvis du er en ny kunde, bruker du den nye opplevelsen. Hvis du er en eksisterende kunde, vil din bruk av den nye funksjonen avhenge av om administratoren har aktivert funksjonsoppdateringen **Ny salgsprisopplevelse** i **Funksjonsstyring**. Hvis du vil ha mer informasjon, kan du se [Aktivering av kommende funksjoner på forhånd](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
-Du kan definere priser for varene, ressursene og finanskontiene som er relatert til en jobb. 
+Du kan definere priser for varene, ressursene og finanskontiene som er relatert til et prosjekt. 
 
 #### [Nåværende opplevelse](#tab/current-experience)
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
-2. Velg jobben, og velg deretter handlingen **Ressurs**, **Vare** eller **Finanskonto**.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Prosjekt**, og velg deretter den relaterte koblingen.  
+2. Velg prosjektet, og velg deretter handlingen **Ressurs**, **Vare** eller **Finanskonto**.
 3. Fyll ut feltene etter behov på sidene **Ressurspriser for prosjekt**, **Varepriser for prosjekt** og **Finanskontopriser for prosjekt**.
 
 Når du velger en ressurs, en vare eller en finanskonto for et prosjekt, bruker [!INCLUDE [prod_short](includes/prod_short.md)] informasjon i de valgfrie feltene på prosjektplanleggingslinjene og i prosjektkladdene. Tabellen nedenfor forklarer hvordan.
@@ -62,19 +80,19 @@ Når du velger en ressurs, en vare eller en finanskonto for et prosjekt, bruker 
 |Kolonne 1  |Kolonne 2  |
 |---------|---------|
 |**Prosjektressurser**|Feltene **Prosjektoppgavenr.**, **Arbeidstype**, **Valutakode**, **Linjerabatt-%** og **Enhetskostfaktor**. Verdien i feltet **Salgspris** for ressursen brukes på prosjektplanleggingslinjer og i prosjektkladder når du angir en ressurs eller en ressurs som er tildelt til ressursgruppen. Denne prisen overstyrer priser angitt på siden **Ressurssalgspris/Ressursgruppepriser**.|
-|**Prosjektvarer**|Feltene **Prosjektoppgavenr.**, **Valutakode** og **Linjerabatt-%**. Verdien i feltet **Salgspris** for varen blir brukt på prosjektplanleggingslinjene og i prosjektkladder når du angir denne varen. Denne prisen overstyrer den vanlige kundeprisen (funksjonen for «beste pris») for varer. Hvis du vil bruke den vanlige kundeprisen, må du ikke angi prosjektvarepriser for prosjektet.|
-|**Finanskonti**|Informasjonen i feltene **Prosjektoppgavenr.**, **Arbeidstype**, **Valutakode**, **Linjerabatt-%** og **Enhetskost** blir brukt på prosjektplanleggingslinjene og i prosjektkladdene når denne finanskontoen angis og legges til i et prosjekt. N du velger en finanskonto, bruker prosjektplanleggingslinjer og prosjektkladder verdien i feltet **Salgspris** for finansprosjektutgiften.|
+|**Prosjektvarer**|Feltene **Prosjektoppgavenr.**, **Valutakode** og **Linjerabatt-%**. Verdien i feltet **Enhetspris** for varen blir brukt på prosjektplanleggingslinjene og i prosjektkladder når du angir denne varen. Denne prisen overstyrer den vanlige kundeprisen (funksjonen for «beste pris») for varer. Hvis du vil bruke den vanlige kundeprisen, må du ikke angi prosjektvarepriser for prosjektet.|
+|**Finanskonti**|Informasjonen i feltene **Prosjektoppgavenr.**, **Arbeidstype**, **Valutakode**, **Linjerabatt-%** og **Enhetskost** blir brukt på prosjektplanleggingslinjene og i prosjektkladdene når denne finanskontoen angis og legges til i et prosjekt. N du velger en finanskonto, bruker prosjektplanleggingslinjer og prosjektkladder verdien i feltet **Enhetspris** for finansprosjektutgiften.|
 
 #### [Ny opplevelse](#tab/new-experience)
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Prosjekter**, og velg deretter den relaterte koblingen.  
 2. Velg det aktuelle prosjektet, og velg deretter handlingen **Salgsprislister**.
 
 ---
 
-## Slik definerer du prosjektbokføringsgrupper
+## Slik setter du opp bokføringsgrupper for prosjekter
 
-Ett aspekt ved prosjektplanlegging er å bestemme hvilke bokføringskontoer som skal brukes for prosjektkostnader. Du må definere konti for bokføring for hver prosjektbokføringsgruppe for å kunne bokføre prosjekter. En bokføringsgruppe representerer en kobling mellom jobben og hvordan den skal behandles i finans. Når du oppretter en jobb, angir du en bokføringsgruppe, og hver oppgave du oppretter for prosjektet, knyttes som standard til denne bokføringsgruppen. Når du oppretter oppgaver, kan du imidlertid overstyre standardinnstillingen og velge en bokføringsgruppe som er mer hensiktsmessig.  
+Ett aspekt ved prosjektplanlegging er å bestemme hvilke bokføringskontoer som skal brukes for prosjektkostnader. Du må definere konti for bokføring for hver prosjektbokføringsgruppe for å kunne bokføre prosjekter. En bokføringsgruppe representerer en kobling mellom prosjektet og hvordan det skal behandles i finans. Når du oppretter et prosjekt, angir du en bokføringsgruppe, og hver oppgave du oppretter for prosjektet, knyttes som standard til denne bokføringsgruppen. Når du oppretter oppgaver, kan du imidlertid overstyre standardinnstillingen og velge en bokføringsgruppe som er mer hensiktsmessig.  
 
 > [!NOTE]  
 > Du må konfigurere kontoene i kontoplanen før du definerer bokføringsgrupper. Hvis du vil ha mer informasjon, kan du se [Definere eller endre kontoplanen](finance-setup-chart-accounts.md).  
@@ -109,6 +127,5 @@ Ett aspekt ved prosjektplanlegging er å bestemme hvilke bokføringskontoer som 
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

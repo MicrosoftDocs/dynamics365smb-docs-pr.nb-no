@@ -1,19 +1,20 @@
 ---
 title: Gjennomgang – beregne varer i arbeid for et prosjekt
-description: 'Prosjekter omfatter forbruk av ansattes arbeidstid, maskindriftstid, lagervarer og andre typer forbruk som må spores etter hvert som et prosjekt går fremover.'
+description: 'Lær hvordan du sporer forbruk av ansattes arbeidstid, maskindriftstid, lagervarer og andre typer forbruk etter hvert som et prosjekt går fremover.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: andreipa
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: null
 ms.date: 12/13/2023
-ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Gjennomgang: beregne varer i arbeid for et prosjekt
+# Gjennomgang: Beregne varer i arbeid for et prosjekt
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på de ulike kostnadene som er knyttet til ressursene i et bestemt prosjekt. Prosjekter omfatter forbruk av ansattes arbeidstid, maskindriftstid, lagervarer og andre typer forbruk som må spores etter hvert som et prosjekt går fremover. Hvis et prosjekt varer i en lang periode, vil du kanskje overføre disse kostene til en VIA-konto (varer i arbeid) i balansen mens prosjektet fullføres. Du kan deretter føre kost og salg i resultatregnskapskontiene når det blir aktuelt.  
+Med prosjekter kan du planlegge forbruket av selskapets ressurser og holde rede på de ulike kostnadene som er knyttet til ressursene i et bestemt prosjekt. Prosjekter omfatter forbruk av ansattes arbeidstid, maskindriftstid, lagervarer og andre typer forbruk som må spores etter hvert som et prosjekt går fremover. Hvis et prosjekt varer i en lang periode, vil du kanskje overføre disse kostene til en VIA-konto (varer i arbeid) i balansen mens prosjektet fullføres. Du kan deretter føre kost og salg i resultatregnskapskontiene når det blir aktuelt.  
 
 ## Om denne gjennomgangen
 
@@ -47,43 +48,43 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
  Tabellen nedenfor beskriver de tre alternativene.  
 
-|Felt|Beskrivelse|  
+|Felt|Description|  
 |-------------------------------------|---------------------------------------|  
-|**\<blank\>**|La stå tomt hvis jobb-aktiviteten er en del av en gruppe med aktiviteter.|  
+|**\<blank\>**|La stå tomt hvis prosjektoppgaven er en del av en gruppe med oppgaver.|  
 |**I alt**|Definerer området eller gruppen med aktiviteter som er inkludert i beregningen av VIA og føringer. Alle prosjektoppgaver med **Prosjektoppgavetype** satt til **Bokføring** i gruppen, tas med i VIA-summen, med mindre feltet **VIA-sum** er satt til **Utelatt**.|  
 |**Utelatt**|Gjelder bare for en oppgave der **Prosjektoppgavetype** er **Bokføring**. Oppgaven er ikke inkludert ved beregning av VIA og føring.|  
 
- I den følgende gjennomgangen bruker Tricia metoden Kostverdi, standarden i selskapet, til å beregne VIA. Tricia angir hvilken del av jobben som inkluderes i VIA-beregningen, ved å tildele VIA-sumverdier til forskjellige prosjektoppgavelinjer.  
+ I den følgende gjennomgangen bruker Tricia metoden Kostverdi, standarden i selskapet, til å beregne VIA. Tricia angir hvilken del av prosjektet som skal inkluderes i VIA-beregningen ved å tilordne VIA-sumverdier til forskjellige prosjektoppgavelinjer.  
 
 ### Slik beregner du VIA:  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
-2.  I **Prosjekter**-listen velger du **Klepp Datakontor A/s**-prosjektet, og velger deretter **Rediger**-handlingen. Dermed åpnes prosjektkortet i redigeringsmodus.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Prosjekt**, og velg deretter den relaterte koblingen.  
+2. I **Prosjekter**-listen velger du **Klepp Datakontor A/s**-prosjektet, og velger deretter **Rediger**-handlingen. Dermed åpnes prosjektkortet i redigeringsmodus.  
 
      VIA kan beregnes basert på Kostverdi, Salgsverdi, Løpende eller Ved avslutning. I dette eksemplet bruker CRONUS metoden Kostverdi.  
 
-3.  Velg **VIA-metode** på hurtigfanen **Bokføring**, og velg deretter **Kostverdi**.  
-4.  Velg **Prosjektoppgavelinjer**-handlingen og angi følgende verdier i **VIA-sum**-feltet.  
+3. Velg **VIA-metode** på hurtigfanen **Bokføring**, og velg deretter **Kostverdi**.  
+4. Velg **Prosjektoppgavelinjer**-handlingen og angi følgende verdier i **VIA-sum**-feltet.  
 
      Tabellen nedenfor beskriver verdiene.  
 
     |Prosjektoppgavenr.|Feltet VIA-sum|  
     |------------------|----------------------|  
     |1130|Utelatt|  
-    |1190|I alt|  
+    |1190|Sum|  
     |1210|Utelatt|  
     |1310|Utelatt|  
 
-5.  Velg **VIA**-handlingen, og velg deretter **Beregn VIA**-handlingen.  
-6.  Du kan velge prosjektet du vil beregne VIA for, på siden **Beregn VIA for prosjekt**. Velg **Klepp Datakontor A/S** i **Nr.**-feltet i hurtigfanen **Prosjekt** .  
-7.  I **Bokføringsdato**-feltet angir du en dato som er senere enn arbeidsdatoen.
-8.  Angi **1** i feltet **Bilagsnr.**. Dette oppretter et dokument som du kan referere til senere for sporing.  
+5. Velg **VIA**-handlingen, og velg deretter **Beregn VIA**-handlingen.  
+6. På siden **Beregn VIA for prosjekt** velger du et prosjekt du vil beregne VIA for. Velg **Klepp Datakontor A/S** i **Nr.**-feltet i hurtigfanen **Prosjekt** .  
+7. I **Bokføringsdato**-feltet angir du en dato som er senere enn arbeidsdatoen.
+8. Angi **1** i feltet **Bilagsnr.**. Dette oppretter et dokument som du kan referere til senere for sporing.  
 9. Velg **OK**-knappen for å kjøre kjørselen. Det vises en melding. Velg **OK**-knappen for å fortsette. Lukk siden **Prosjektoppgavelinjer**.  
 
     > [!NOTE]  
     >  Meldingen angir at advarsler er knyttet til VIA-beregningen. Du vil gå gjennom advarslene i neste prosedyre.  
 
-10. Utvid hurtigfanen **VIA og føring** på **Prosjekt**-kortet for å vise de beregnede verdiene. Du kan også se **VIA-bokføringsdato** og eventuelle verdier som er bokført i finans.  
+10. Utvid hurtigfanen **VIA og føring** på **Prosjektkort**-siden for å vise de beregnede verdiene. Du kan også se **VIA-bokføringsdato** og eventuelle verdier som er bokført i finans.  
 
  Legg merke til at verdien for **Ført kostbeløp** er 215,60 i kolonnen **Til bokføring**. Dette gjenspeiler de totale kostnadene for de to varene i gruppen med prosjektoppgavene 1110 – 1130. Det tredje elementet ble satt til **Utelatt**, og er derfor ikke inkludert i VIA-beregningen.  
 
@@ -97,15 +98,15 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
 ### Slik beregner du VIA på nytt:  
 
-1.  På **Prosjekt**-kortet velger du handlingen **VIA-poster** for å vise VIA-beregningen.  
+1. På **Prosjektkort**-siden velger du handlingen **VIA-poster** for å vise VIA-beregningen.  
 
      Siden **VIA-poster for prosjekt** viser VIA-postene som sist ble beregnet i et prosjekt, selv om VIA ennå ikke er bokført i Finans.  
 
-2.  Følg trinnene i fremgangsmåten som forklarer hvordan du beregner VIA, for å beregne VIA på nytt. Hver gang VIA beregnes, blir det opprettet en post på siden **VIA-poster for prosjekt**.  
-3.  Lukk siden.  
+2. Følg trinnene i fremgangsmåten som forklarer hvordan du beregner VIA, for å beregne VIA på nytt. Hver gang VIA beregnes, blir det opprettet en post på siden **VIA-poster for prosjekt**.  
+3. Lukk siden.  
 
 > [!NOTE]  
->  Varer i arbeid og føring blir bare beregnet. De bokføres ikke i finans. Hvis du vil gjøre det, må du kjøre kjørselen **Bokfør VIA i Finans** når du har beregnet VIA og føring.
+> VIA og føring beregnes, men bokføres ikke i Finans. Hvis du vil gjøre det, må du kjøre kjørselen **Bokfør VIA i Finans** etter at du har beregnet VIA og føring.
 
 ## Bokfør VIA i Finans
 
@@ -113,21 +114,21 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
 ### Slik bokfører du VIA i Finans  
 
-1.  Merk prosjektet **Klepp Datakontor A/S** i oversikten **Prosjekter**.  
-2.  Velg **VIA**-handlingen, og velg deretter **Bokfør VIA i Finans**-handlingen.  
-3.  Velg **Klepp Datakontor A/S** i feltet **Nr.** på hurtigfanen **Prosjekt** på siden **Bokfør VIA i Finans for prosjekt**. .  
-4.  Angi **1** i feltet **Bilagsnr. for tilbakeføring** i hurtigfanen **Alternativer**.  
-5.  Velg **OK**-knappen for å bokføre VIA til finans.  
-6.  Velg **OK**-knappen for å lukke bekreftelsessiden.  
+1. Merk prosjektet **Klepp Datakontor A/S** i oversikten **Prosjekter**.  
+2. Velg **VIA**-handlingen, og velg deretter **Bokfør VIA i Finans**-handlingen.  
+3. Velg **Klepp Datakontor A/S** i feltet **Nr.** på hurtigfanen **Prosjekter** i feltet **Bokfør VIA i Finans for prosjekt** .  
+4. Angi **1** i feltet **Bilagsnr. for tilbakeføring** i hurtigfanen **Alternativer**.  
+5. Velg **OK**-knappen for å bokføre VIA til finans.  
+6. Velg **OK**-knappen for å lukke bekreftelsessiden.  
 
      Når du har fullført bokføringen, kan du vise bokføringsopplysningene på siden **VIA-finansposter**.  
 
 7.  I **Prosjekter**-listen velger du **Klepp Datakontor A/s**-prosjektet, og velger deretter **VIA-finansposter**-handlingen.  
 
-     På siden **VIA-finansposter** for prosjekt kontrollerer du at VIA er bokført i Finans.  
+     På siden **VIA-finansposter for prosjekt** kontrollerer du at VIA er bokført i Finans.  
 
-8.  Lukk siden.  
-9. Åpne **Prosjekt**-kortet for prosjektet **Klepp Datakontor A/S**.  
+8. Lukk siden.  
+9. Åpne **Prosjektkort**-siden for prosjektet **Klepp Datakontor A/S**.  
 10. Legg merke til at **Ført finanskostbeløp** nå er fylt ut i kolonnen **Bokført** på hurtigfanen **VIA og føring**, noe som indikerer at VIA er bokført i finans.  
 11. Velg **OK**-knappen for å lukke kortet.  
 
@@ -137,14 +138,14 @@ Med jobber kan du planlegge forbruket av selskapets ressurser og holde rede på 
 
 ### Slik tilbakefører du en VIA-bokføring:  
 
-1.  Merk prosjektet **Klepp Datakontor A/S** i oversikten **Prosjekter**.  
-2.  Velg **VIA**-handlingen, og velg deretter **Bokfør VIA i Finans**-handlingen.  
-3.  Velg **Klepp Datakontor A/S** i feltet **Nr.** på hurtigfanen **Prosjekt** på siden **Bokfør VIA i Finans for prosjekt**. .  
-4.  Angi **1** i feltet **Bilagsnr. for tilbakeføring** i hurtigfanen **Alternativer**.  
-5.  Angi den opprinnelige bokføringsdatoen i **Bokføringsdato for tilbakeføring**. Det bør være den samme datoen som du brukte til å beregne VIA første gang.  
-6.  Merk av for **Bare tilbakefør**. Dermed tilbakeføres tidligere bokført VIA, men ny VIA bokføres i finans.  
-7.  Velg **OK**-knappen for å kjøre kjørselen, og velg deretter **OK**-knappen for å lukke bekreftelsessiden.  
-8.  Åpne **Prosjekt**-kortet for **Klepp Datakontor A/S**.  
+1. Merk prosjektet **Klepp Datakontor A/S** i oversikten **Prosjekter**.  
+2. Velg **VIA**-handlingen, og velg deretter **Bokfør VIA i Finans**-handlingen.  
+3. Velg **Klepp Datakontor A/S** i feltet **Nr.** på hurtigfanen **Prosjekter** i feltet **Bokfør VIA i Finans for prosjekt** .  
+4. Angi **1** i feltet **Bilagsnr. for tilbakeføring** i hurtigfanen **Alternativer**.  
+5. Angi den opprinnelige bokføringsdatoen i **Bokføringsdato for tilbakeføring**. Det bør være den samme datoen som du brukte til å beregne VIA første gang.  
+6. Merk av for **Bare tilbakefør**. Dermed tilbakeføres tidligere bokført VIA, men ny VIA bokføres i finans.  
+7. Velg **OK**-knappen for å kjøre kjørselen, og velg deretter **OK**-knappen for å lukke bekreftelsessiden.  
+8. Åpne **Prosjektkort**-siden for **Klepp Datakontor A/S**.  
 9. På hurtigfanen **VIA og føring** kontrollerer du at det ikke finnes noen bokførte VIA-poster.  
 10. Lukk denne siden.  
 11. Velg **Klepp**-prosjektet i **Prosjekter**-listen, velg **VIA**-handlingen, og velg deretter **VIA-finansposter**. Det er merket av for **Tilbakeført** på VIA-postene.  

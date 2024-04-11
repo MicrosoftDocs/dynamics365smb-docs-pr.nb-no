@@ -1,15 +1,15 @@
 ---
-title: Definere og fakturere salgsforskudd
+title: Konfigurer og fakturer salgsforskudd
 description: Forskuddsbetalinger er betalinger som faktureres og bokføres i en salgs- eller kjøpsforskuddsordre før endelig fakturering.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 12/03/2021
+ms.date: 01/29/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gjennomgang: konfigurere og fakturere salgsforskudd
+# Gjennomgang: Konfigurer og fakturer salgsforskudd
 
 Denne gjennomgangen tar deg gjennom prosessen med å definere og bruke forskuddsbetalinger i [!INCLUDE [prod_short](includes/prod_short.md)]. [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -17,7 +17,7 @@ Denne gjennomgangen tar deg gjennom prosessen med å definere og bruke forskudds
 
 Du kan for eksempel sende flere forskuddsfakturaer hvis flere varer blir lagt til i ordren.  
 
-## Denne gjennomgangen  
+## Om denne gjennomgangen  
 
 Denne gjennomgangen leder deg gjennom følgende scenarier:  
 
@@ -52,7 +52,7 @@ Denne gjennomgangen omfatter oppgaver for følgende roller:
 
  Magnus registrerer kundens betaling og utligner den mot fakturaene, og deretter sender han den endelige fakturaen.  
 
-## Definerer forskudd
+## Konfigurer forskudd
 
 Jenny konfigurerer systemet slik at det kan håndtere forskuddsbetalinger for kunder.  
 
@@ -171,7 +171,7 @@ Neste dag ringer kunden Heidi og endrer ordren. Kunden vil ha to av vare 1896-S.
 1. På siden **Ordre** velger du handlingen **Frigi** og deretter **Åpne på nytt**.  
 2. Angi **2** i **Antall**-feltet på linjen for vare **1896-S**.  
 
-    Velg **Statistikk** i handlingen **Rekkefølge**. Feltet **Forskuddsbeløp eks. mva** inneholder nå **768.04**, og feltet **Fakturert forskuddsbeløp eks. mva.** inneholder **417.76**. Disse verdiene viser at det er et ekstra forskuddsbetalingsbeløp som ennå ikke er fakturert.  
+    Velg **Statistikk** i handlingen **Rekkefølge**. Feltet **Forskuddsbeløp eksl. mva** inneholder nå **768,04**, og feltet **Fakturert forskuddsbeløp eks. mva.** inneholder **417,76**. Disse verdiene viser at det er et ekstra forskuddsbetalingsbeløp som ennå ikke er fakturert.  
 3. Hvis du vil bokføre en faktura for det ekstra forskuddsbetalingsbeløpet, velger du **Handlinger**, **Bokføring**, **Forskudd** og velger deretter **Bokfør og skriv ut forskuddsfaktura**
 4. Velg **Ja**-knappen for å bokføre fakturaen.  
 

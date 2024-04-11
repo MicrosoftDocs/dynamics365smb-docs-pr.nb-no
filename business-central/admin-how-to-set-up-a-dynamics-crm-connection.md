@@ -2,11 +2,12 @@
 title: Koble til Microsoft Dataverse (inneholder video)
 description: Konfigurer en kobling mellom Business Central og Dataverse. Selskaper oppretter vanligvis tilkoblingen for å integrere data med en annen Dynamics 365-forretningsapp.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.forms: '7200, 7201'
-ms.date: 09/28/2023
-ms.author: bholtorf
+ms.date: 02/28/2024
 ms.service: dynamics-365-business-central
 ---
 # Koble til Microsoft Dataverse
@@ -30,6 +31,12 @@ Før du oppretter tilkoblingen, er det noen få opplysninger du må ha klar:
 > [!Note]
 > Følgende trinn beskriver fremgangsmåten for [!INCLUDE[prod_short](includes/prod_short.md)] på nett.
 > Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt og ikke bruker Microsoft Entra-kontoen til å koble til [!INCLUDE [cds_long_md](includes/cds_long_md.md)], må du også angi brukernavn og passord for en brukerkonto for integrasjonen. Denne kontoen kalles kontoen for "integrasjonsbruker". Hvis du bruker en Microsoft Entra-konto, er ikke brukerkontoen for integrasjon nødvendig eller vist. Brukeren for integrasjon konfigureres automatisk og krever ikke en lisens.
+
+## Koble sammen Business Central- og Dataverse-miljøene
+
+Virksomheter ønsker å holde dataene sine trygge og sikre innenfor personverngrensen, og spesielt når forretningsstyringsprogrammet integreres med andre apper. Ved å koble sammen [!INCLUDE [prod_short](includes/prod_short.md)]- og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-miljøer vil du ikke bare oppnå disse hensynene, men også gi administratorene en enklere måte å opprette og vedlikeholde integreringene med andre Dynamics 365-apper på.
+
+I administrasjonssenteret for [!INCLUDE [prod_short](includes/prod_short.md)] kan du koble [!INCLUDE [prod_short](includes/prod_short.md)]-miljøet til [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-miljøet. [!INCLUDE [prod_short](includes/prod_short.md)] kan bruke informasjonen fra koblingen til å gjøre det enklere og sikrere å integrere med andre Dynamics 365-apper, for eksempel Sales og Field Service. Nettadressen for det koblede [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-miljøet er for eksempel tilgjengelig som standard på siden **Dataverse-tilkoblingsoppsett** og når du kjører den assisterte oppsettsveiledningen **Dataverse-tilkoblingsoppsett**.
 
 ## Tillate ulike valutaer
 

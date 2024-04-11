@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: client
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,7 +26,7 @@ Følgende fremgangsmåte er basert på et kundekort. Trinnene er de samme for en
 3. På siden **Kundekort** velger du handlingen **Slå sammen med**.
 4. På siden **Slå sammen duplikat** i feltet **Slå sammen med** velger du kunden som du mener er et duplikat av kunden du har åpnet, som er angitt i feltet **Gjeldende**.
 
-    Hurtigfanen **Felt** viser felt der verdiene er ulike for de to kundene. Dette betyr at hvis den valgte kunden virkelig er et duplikat, vil bare svært få felt være oppført, for eksempel skrivefeil og andre dataregistreringsfeil.
+    Hurtigfanen **Felt** viser felt der verdiene er ulike for de to kundene. Dette betyr at hvis den valgte kunden virkelig er et duplikat, vil bare få felter være oppført, for eksempel skrivefeil og andre dataregistreringsfeil.
 
     Hurtigfanen **Relaterte tabeller** inneholder en oversikt over tabeller der det finnes felt med en relasjon til begge kunder. Feltene **Gjeldende antall** og **Duplikatantall** viser hvor mange felt i de relaterte tabellene der **Nr.**-verdien for både den gjeldende og dupliserte kunder brukes. På siden **Slå sammen duplikat** er denne delen bare til informasjon, men hvis det oppstår flettekonflikter, løser du dem på siden **Slå sammen duplikate konflikter**. Se trinn 8 til 12.   
 

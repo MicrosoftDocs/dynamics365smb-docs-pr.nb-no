@@ -1,25 +1,26 @@
 ---
 title: Revaluere aktiva
-description: 'Finn ut hvordan du justerer verdien av aktiva, registrerer nye beløp som en nedskrivning eller oppskrivning, og bokfører flere anskaffelseskostnader.'
+description: 'Finn ut hvordan du justerer verdien av aktiva, registrerer nye beløp som en nedskrivning eller oppskrivning, og bokfører andre anskaffelseskostnader.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.form: '5628, 5629, 5633'
-ms.date: 04/01/2021
 ms.author: bholtorf
+ms.reviewer: bnielse
+ms.topic: conceptual
+ms.search.form: '5628, 5629, 5633'
+ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Revaluere aktiva
+# Revaluer aktiva
 
 Revaluering av aktiva kan bestå av oppskrivinger, nedskrivninger eller generelle verdijusteringer.
 
-Når verdien for et aktiva har økt, kan du bokføre en kladdelinje med et høyere beløp, en oppskriving, i avskrivningstablået. Det nye beløpet registreres som en oppskriving i henhold til bokføringsoppsettet for aktivaet.
+Når verdien for et aktiva øker, kan du bokføre en kladdelinje med en oppskriving, i avskrivningstablået. Det nye beløpet registreres som oppskriving i henhold til bokføringsoppsettet for aktivumet.
 
-Når verdien for et aktiva har sunket, kan du bokføre en kladdelinje med et lavere beløp, en nedskriving, i avskrivningstablået. Det nye beløpet registreres som en nedskriving i henhold til bokføringsoppsettet for aktivaet.
+Når verdien for et aktiva reduseres, kan du bokføre en kladdelinje med et lavere beløp, en nedskriving, i avskrivningstablået. Det nye beløpet registreres som en nedskriving i henhold til bokføringsoppsettet for aktivaet.
 
 Indeksregulering brukes til å justere flere aktivaverdier, for eksempel i henhold til generelle prisendringer. Du bruker kjørselen **Indeksreg. aktiva** til å endre forskjellige beløp, for eksempel nedskrivingsbeløp og oppskrivningsbeløp.
 
-## Slik bokfører du en oppskrivning fra aktivafinanskladden:
+## Slik bokfører du oppskrivning fra aktivafinanskladden
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.  
 2. Opprett en innledende kladdelinje, og fyll ut feltene etter behov.
@@ -57,11 +58,11 @@ Indeksregulering brukes til å justere flere aktivaverdier, for eksempel i henho
     > [!TIP]  
     >   Hvis indeksreguleringstallene bare er til simuleringsformål, kan du lagre dem i et spesielt avskrivningstablå som du oppretter. Disse postene har ingen innvirkning på de andre avskrivningstablåene.
 
-## Slik bokfører du flere anskaffelseskostnader:
+## Slik bokfører du andre anskaffelseskostnader
 
-Du kan bokføre tilleggsanskaffelseskostnader for aktiva på samme måte som når du bokfører den opprinnelige anskaffelseskosten: fra en kjøpsfaktura eller fra en aktivakladd. Hvis du vil ha mer informasjon, kan du se [Anskaffe aktiva](fa-how-acquire.md).  
+Du kan bokføre andre anskaffelseskostnader for aktiva fra en bestilling eller fra en aktivakladd på samme måte som når du bokfører den opprinnelige anskaffelseskosten. Hvis du vil ha mer informasjon, kan du se [Anskaffe aktiva](fa-how-acquire.md).  
 
-Hvis det allerede er beregnet avskrivning for et aktiva, merker du av for **Avskr.anskaffelseskost** slik at skrapverdien som er avskrevet proporsjonalt med beløpet som det tidligere anskaffede aktivaet allerede er avskrevet med, trekkes fra tilleggsanskaffelseskosten. Dette sikrer at avskrivningsperioden ikke endres.  
+Hvis det allerede er beregnet avskrivning for et aktiva, merker du av for **Avskr.anskaffelseskost** slik at skrapverdien som er avskrevet proporsjonalt med beløpet som det tidligere anskaffede aktivaet, trekkes fra den andre anskaffelseskosten. Denne metoden sikrer at avskrivningsperioden ikke endres.  
 
 Prosentsatsen for avskrivningen beregnes som:  
 
@@ -69,9 +70,9 @@ Prosentsatsen for avskrivningen beregnes som:
 
 *Avskrivningsbeløp = (P/100) x (tilleggsanskaffelseskost - skrapverdi)*  
 
-Husk å merke av for **Avskr. frem til aktivabokf.dato** på fakturaen, i aktivafinanskladden eller på aktivakladdelinjene, slik at avskrivning beregnes fra siste aktivabokføringsdato til bokføringsdatoen for tilleggsanskaffelseskosten.
+Husk å merke av for **Avskr. frem til aktivabokf.dato** på fakturaen, i aktivafinanskladden eller på aktivakladdelinjene, slik at avskrivning beregnes fra siste aktivabokføringsdato til bokføringsdatoen for den andre anskaffelseskosten.
 
-### Eksempel – bokføre tilleggsanskaffelseskostnader
+### Eksempel – bokfør andre anskaffelseskostnader
 
 Det kjøpes en maskin den 1. august 2000. Anskaffelseskosten er 4 800. Det skal foretas lineær avskrivning over fire år.
 
@@ -89,9 +90,9 @@ Hvis du merket av for **Avskr. frem til aktivabokf.dato** i fakturaen før bokf�
 
 Hvis du merket av for **Avskr.anskaffelseskost** i fakturaen før bokføring, foretas følgende beregning:  
 
-*Tilleggsanskaffelseskosten avskrives med ((150 x 100) / 4800) / 100 x 480 = 15*
+*Den andre anskaffelseskosten avskrives som ((150 x 100) / 4800) / 100 x 480 = 15*
 
-Avskrivningsgrunnlaget er nå *5280 = (4800 + 480)*, og akkumulert avskrivning er *165 = (100 + 50 + 15)* og tilsvarer 45 dagers avskrivning av total anskaffelseskost. Dette betyr at aktivaet er ferdig avskrevet innen den anslåtte levetiden på fire år.  
+Avskrivningsgrunnlaget er nå *5280 = (4800 + 480)*, og akkumulert avskrivning er *165 = (100 + 50 + 15)* og tilsvarer 45 dagers avskrivning av total anskaffelseskost. Denne beregningen betyr at aktivaet er ferdig avskrevet innen den anslåtte levetiden på fire år.  
 
 Når kjørselen **Beregn avskrivning** kjøres den 30.09.00, gjøres følgende beregning:  
 
@@ -103,7 +104,7 @@ Når kjørselen **Beregn avskrivning** kjøres den 30.09.00, gjøres følgende b
 
 *Samlet avskrivning = 165 + 55 = 220*  
 
-Hvis du ikke merket av for **Avskr. frem til aktivabokf.dato**, går aktivaet glipp av 15 dagers avskrivning, ettersom kjørselen **Beregn avskrivning** som ble kjørt den 30.09.00, beregner avskrivning fra 15.09.00 til 30.09.00. Dette betyr at når kjørselen **Beregn avskrivning** kjøres den 30.09.00, ser beregningen slik ut:  
+Hvis du ikke merket av for **Avskr. frem til aktivabokf.dato**, går aktivumet glipp av 15 dagers avskrivning, ettersom kjørselen **Beregn avskrivning** som ble kjørt den 30.09.00, beregner avskrivning fra 15.09.00 til 30.09.00. Dette betyr at når kjørselen **Beregn avskrivning** kjøres den 30.09.00, ser beregningen slik ut:  
 
 *Restlevetid er 3 år, 10 måneder og 15 dager = 1395 dager*  
 

@@ -1,6 +1,6 @@
 ---
-title: Definer ikke-fradragsberettiget mva.
-description: Denne artikkelen forklarer hvordan du konfigurerer ikke-fradragsberettiget mva. i Microsoft Dynamics 365 Business Central.
+title: Definer ikke-fradragsberettiget mva
+description: Denne artikkelen forklarer hvordan du konfigurerer ikke-fradragsberettiget mva i Microsoft Dynamics 365 Business Central.
 author: altotovi
 ms.author: altotovi
 ms.reviewer: null
@@ -12,21 +12,21 @@ ms.date: 04/26/2023
 ms.custom: bap-template
 ---
 
-# Definer ikke-fradragsberettiget mva.
+# Definer ikke-fradragsberettiget mva
 
-Ikke-fradragsberettiget merverdiavgift (mva.) er merverdiavgiften som skal betales av en kjøper, mens som ikke er fradragsberettiget fra innkjøper egen mva-gjeld. Selskaper kan vanligvis gjenopprette mva. på kjøp av varer og tjenester som er knyttet til forretningsaktivitetene. I enkelte situasjoner påløper det mva. som ikke er fradragsberettiget, for bedrifter. Disse situasjonene er vanligvis knyttet til de lokale bestemmelsene og kan variere blant land/områder. Modellen for bruk av ikke-fradragsberettiget eller delvis fradragsberettiget mva. er imidlertid lik. Du kan bruke forholdsmessig mva. til å beregne mva. når fradragsberettiget og ikke-fradragsberettiget mva. forekommer.
+Ikke-fradragsberettiget merverdiavgift (mva) er merverdiavgiften som skal betales av en kjøper, men som ikke er fradragsberettiget fra innkjøper egen mva-gjeld. Selskaper kan vanligvis gjenopprette mva. på kjøp av varer og tjenester som er knyttet til forretningsaktivitetene. I enkelte situasjoner påløper det mva. som ikke er fradragsberettiget, for bedrifter. Disse situasjonene er vanligvis knyttet til de lokale bestemmelsene og kan variere blant land/områder. Modellen for bruk av ikke-fradragsberettiget eller delvis fradragsberettiget mva. er imidlertid lik. Du kan bruke forholdsmessig mva. til å beregne mva. når fradragsberettiget og ikke-fradragsberettiget mva. forekommer.
 
 Vanligvis kan ikke mva. trekkes fra for enkelte kjøp på grunn av følgende faktorer:
 
-- **Typen varer eller tjenester som er kjøpt** – mva. er helt eller delvis ikke-fradragsberettiget av et punkt i loven om varer som biler, mobiltelefoner og mat som kjøpes på restauranter.
-- **Delvis fradragsberettiget proporsjonal mva.** – Mva. er proporsjonal i henhold til forholdet mellom salgsoperasjonene som mva. skyldes for, og alle operasjoner som er utført. Mva. som overskrider dette forholdet, kan ikke trekkes fra.
+- **Typen varer eller tjenester som er kjøpt** – mva. er helt eller delvis ikke-fradragsberettiget ifølge loven om varer som biler, mobiltelefoner og mat som kjøpes på restauranter.
+- **Delvis fradragsberettiget proporsjonal mva.** – Mva. er proporsjonal i henhold til forholdet mellom salgsoperasjonene som mva. skyldes for, og alle utførte operasjoner. Mva. som overskrider dette forholdet, kan ikke trekkes fra.
 
-Siden det kan være vanskelig å vite hvor og hvordan varen blir brukt, må du ta kontakt med lokale skattemyndigheter i landet/området for å finne ut om en angitt prosentandel mva. kan gå til fradrag basert på historiske data. 
+Siden det kan være vanskelig å vite hvor og hvordan en vare brukes, bør du kontakte de lokale skattemyndighetene i landet/området ditt. De kan hjelpe deg med å avgjøre om du kan trekke fra en bestemt prosentandel av mva., basert på historiske data.
 
 > [!IMPORTANT]
 > Denne globale funksjonen er tilgjengelig i alle land med aktivert mva. **unntatt for Belgia, Italia og Norge**. Disse lokaliseringene har allerede eksisterende lokal funksjon og vil oppgraderes senere. Ikke kjør denne funksjonen i disse landene, fordi oppgraderingsprosedyren finnes ikke.
 
-## Bruk ikke-fradragsberettiget mva.
+## Bruk ikke-fradragsberettiget mva
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 3.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-oppsett** og velg den relaterte koblingen.
 2. Merk av for **Aktiver ikke-fradragsberettiget mva.**.
@@ -34,9 +34,9 @@ Siden det kan være vanskelig å vite hvor og hvordan varen blir brukt, må du t
     > [!IMPORTANT]
     > Når du har aktivert ikke-fradragsberettiget mva., kan du ikke deaktivere den fordi funksjonen kan inkludere endringer i data og kan starte en oppgradering av noen databasetabeller. Microsoft anbefaler på det sterkeste at du først aktiverer og tester denne funksjonen i sandkassemiljøet før du aktiverer den i produksjonsmiljøet.
 
-3. Konfigurer hvordan systemet skal behandle ikke-fradragsberettigede mva-verdier.
+3. Konfigurer hvordan [!INCLUDE [prod_short](includes/prod_short.md)] skal behandle ikke-fradragsberettigede mva-verdier.
 
-    1. I felte **Bruk for varekostnad** angir du om ikke-fradragsberettiget mva. skal legges til i varekostnaden når du kjøper varer. Ellers vil ikke-fradragsberettiget mva. få innvirkning på varekostnaden, og hele beløpet registreres bare på finansnivå.
+    1. I feltet **Bruk for varekostnad** angir du om ikke-fradragsberettiget mva. skal legges til i varekostnaden når du kjøper varer. Ellers vil ikke-fradragsberettiget mva. få innvirkning på varekostnaden, og hele beløpet registreres bare på finansnivå.
     2. Velg avmerkingsboksen **Bruk for objektkostnad** for å legge til den ikke-fradragsberettigede mva. i objektkostnaden når du kjøper nye objekter. Ellers vil ikke-fradragsberettiget mva. få innvirkning på objektkostnaden, og hele beløpet registreres bare på finansnivå.
     3. Velg avmerkingsboksen **Bruk for prosjektkostnad** for å angi at ikke-fradragsberettiget mva. skal legges til i prosjektkostnaden når du kjøper varer for prosjektet. Ellers vil ikke-fradragsberettiget mva. få innvirkning på prosjektkostnaden, og hele beløpet registreres bare på finansnivå.
     4. Merk av for **Vis ikke-fradragsberettiget mva. i linjer** for å angi at ikke-fradragsberettiget mva. skal vises på dokumentlinjesider for enklere redigering av mva-beløp.
@@ -65,8 +65,8 @@ Siden det kan være vanskelig å vite hvor og hvordan varen blir brukt, må du t
 ## Se også
 
 [Økonomistyring](finance.md)  
-[Utformingsdetaljer: Ikke-fradragsberettiget mva.](design-details-nondeductible-vat.md)  
-[Bruk ikke-fradragsberettiget mva.](finance-how-use-non-deductible-vat.md)  
+[Utformingsdetaljer: Ikke-fradragsberettiget mva](design-details-nondeductible-vat.md)  
+[Bruk ikke-fradragsberettiget mva](finance-how-use-non-deductible-vat.md)  
 [Definer beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

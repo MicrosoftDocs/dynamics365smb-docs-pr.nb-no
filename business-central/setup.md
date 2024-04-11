@@ -30,7 +30,7 @@ i tillegg til veiledningene for assistert oppsett kan noe generell funksjonalite
 | Konfigurere regler og verdier som definerer selskapets innkjøpspolicyer, registrere nye leverandører og prioritere leverandørene for betalingsbehandling. |[Definere kjøp](purchasing-setup-purchasing.md) |
 | Konfigurere regler og verdier som definerer firmaets lager, sette opp steder Hvis du beholder lager i flere lagre og kategorisere elementer for å forbedre søk og sortering. |[Definere lager](inventory-setup-inventory.md) |
 |Angi standardrapporter som brukes med ulike dokumenttyper.|[Rapportvalg for dokumenter](across-report-selections.md)|
-| Konfigurer ressurser, timelister og jobber til å administrere prosjekter. |[Konfigurere prosjektstyring](projects-setup-projects.md) |
+| Konfigurer ressurser, timelister og prosjekter for å administrere prosjekter. |[Konfigurer prosjektstyring](projects-setup-projects.md) |
 | Konfigurere hvordan du forsikrer, vedlikeholder og avskrivner aktiva, og definer hvordan du registrerer kostnadene for aktiva i bedriftsbøkene. |[Definere aktiva](fa-setup.md) |
 |Definere generelle regler og verdier for lagerprosesser og den spesifikke håndteringen på hver lokasjon.|[Definer lagerstyring](warehouse-setup-warehouse.md)|
 |Klargjør produksjonsstykklister og ruter til å definere hvordan sluttvarer produseres, og klargjør produksjonsressurser eller arbeidssentre til å utføre de nødvendige operasjonene.|[Definere produksjon](production-configure-production-processes.md)|

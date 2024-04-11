@@ -3,21 +3,23 @@ title: Lukke resultatregnskapskonti
 description: Ved årsavslutning må du kjøre kjørselen Lukk resultatregnskapet for å lukke regnskapsperiodene som utgjør regnskapsåret.
 author: jswymer
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'year closing, close accounting period, close fiscal year, bank account detailed trial balance'
-ms.date: 06/25/2021
+ms.date: 02/22/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 # Lukking av resultatregnskapskonti
+
 Når et regnskapsår er over, må du lukke periodene som utgjør regnskapsåret. Hvis du vil gjøre dette, kjører du den satsvise jobben **Lukk resultatregnskapet**. Denne jobben overfører årets resultat til en konto i balansen og lukke resultatregnskapskontoene. Dette gjør du ved å opprette linjer i en kladd som du deretter kan bokføre.
 
 ## Kjøre den satsvise jobben Lukk resultatregnskapet
+
 1. Avslutte regnskapsåret. Regnskapsåret må avsluttes før den satsvise jobben kan kjøres. Hvis du vil ha mer informasjon, kan du se [Avslutte regnskapsperioder](year-close-account-periods.md).
 2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lukk resultatregnskap** og velg deretter den relaterte koblingen.
-3. Velg **OK** for å kjøre kjørselen.
+3. Velg **OK**-knappen for å kjøre kjørselen.
 
 ## Den satsvise jobben Lukk resultatregnskapet
+
 Kjørselen behandler alle finanskonti av typen Resultatregnskap og oppretter poster som utsletter deres respektive saldoer. Det vil si at hver post er summen av alle finansposter på kontoen i regnskapsåret. Disse nye postene plasseres i en kladd der du må angi en motkonto, konto for fri egenkapital, i balansen før du bokfører. Når du bokfører kladden, bokføres en post på hver resultatkonto slik at saldoen blir null og samtidig overføres årsresultatet til balansen.
 
 Du må bokføre kladden selv. Kjørselen bokfører ikke postene automatisk, med unntak av når en tilleggsrapporteringsvaluta brukes. Når en tilleggsrapporteringsvaluta brukes, bokfører den satsvise jobben poster direkte mot Finans.
@@ -29,8 +31,8 @@ Den satsvise jobben **Lukk resultatregnskapet** kan brukes flere ganger. Du kan 
 ## Se også
 
 [Avslutte tablåer](year-close-books.md)  
-[Bokføre avslutningsposten for årsslutt](year-how-post-year-end-close-entry.md)  
-[Arbeide med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md)  
+[Bokfør avslutningsposten for årsslutt](year-how-post-year-end-close-entry.md)  
+[Arbeid med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

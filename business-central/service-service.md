@@ -24,7 +24,7 @@ Det å kunne yte kontinuerlig service til kunder er viktig for alle bedrifter og
 
 I tillegg kan du standardisere koding, definere kontrakter, implementere et rabattprinsipp og opprette rutekart for servicepersonell.  
 
-Det er vanligvis to aspekter ved service: konfigurere og sette opp systemet, og bruke det til prissetting, kontrakter, ordrer, fordeling av servicepersonell, og jobbskjemaer.  
+Det er vanligvis to aspekter ved service: konfigurere og sette opp systemet, og bruke det til prissetting, kontrakter, ordrer, fordeling av servicepersonell, og prosjektplanlegging.  
 
 Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.   
 

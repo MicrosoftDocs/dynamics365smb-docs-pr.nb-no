@@ -62,7 +62,7 @@ For lokasjoner som bruker hyller, kan du forlenge flyten til prosjekter med **la
 > [!NOTE]
 > Muligheten til å plukke komponenter for prosjektplanleggingslinjer ble lagt til [!INCLUDE[d365fin](includes/d365fin_md.md)] i lanseringsbølge 2 i 2022. Hvis du starter å bruke funksjonen, må en administrator aktivere **Funksjonsoppdatering: Aktiver lager og lagerplugg fra prosjekter** på **Funksjonsstyring**-siden.
 >
-> [!INCLUDE[prod_short](includes/prod_short.md)] bruker verdien i **Restantall**-feltet på prosjektplanleggingslinjen når det opprettes lagerplukk. Hvis du vil bruke lagerplukk for prosjekter, må du aktivere **Bruk forbrukskobling** på siden **Jobbkort** for prosjektet. Dette gjør at du kan spore forbruk mot planen din. Hvis du ikke aktiverer/deaktiverer, vil restantallet være **0** og lagerplukkingen opprettes ikke. Finn ut mer under [Slik definerer du sporing av prosjektbruk](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-job-usage-tracking).
+> [!INCLUDE[prod_short](includes/prod_short.md)] bruker verdien i **Restantall**-feltet på prosjektplanleggingslinjen når det opprettes lagerplukk. Hvis du vil bruke lagerplukk for prosjekter, må du aktivere **Bruk forbrukskobling** på siden **Prosjektkort** for prosjektet. Dette gjør at du kan spore forbruk mot planen din. Hvis du ikke aktiverer/deaktiverer, vil restantallet være **0** og lagerplukkingen opprettes ikke. Finn ut mer under [Slik definerer du sporing av prosjektbruk](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-project-usage-tracking).
 
 ## Plukk eller flytt for produksjon, montering eller prosjekter i et enkelt lageroppsett
 

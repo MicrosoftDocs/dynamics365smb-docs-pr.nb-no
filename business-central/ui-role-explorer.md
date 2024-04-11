@@ -1,5 +1,5 @@
 ---
-title: Utforske og navigere sider per rolle
+title: Utforske og navigere sider og rapporter per rolle
 description: 'Du kan få en oversikt over alle forretningsfunksjonene som er tilgjengelige for din rolle, og for andre roller med rolleutforskeren.'
 author: jswymer
 ms.topic: conceptual
@@ -11,11 +11,11 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
 
-# Finne sider med rolleutforskeren
+# Finne sider og rapporter med rolleutforskeren
 
-Du kan få en oversikt over alle forretningsfunksjonene som er tilgjengelige for din rolle, og for andre roller hvis du går videre. I følgende dokumentasjon kalles denne funksjonsoversikten *rolleutforskeren*.
+Du kan få en oversikt over alle forretningsfunksjonene som er tilgjengelige for din rolle, og for andre roller hvis du går videre. I denne artikkelen omtales funksjonsoversikten som *rolleutforskeren*.
 
-Hvert element i rolleutforskeren er en handling som åpner en side. Du kan også bruke rolleutforskeren som en metode for å navigere i [!INCLUDE[prod_short](includes/prod_short.md)].
+Hvert element i rolleutforskeren er en handling som åpner en side eller rapport. Du kan også bruke rolleutforskeren som en metode for å navigere i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
@@ -28,9 +28,16 @@ Du kan åpne rolleutforskeren fra rollesenteret og alle listesider og fra **Fort
 
 Første gang du åpner rollesenteret, viser det koblinger til de fleste funksjonene som er tilgjengelige for din rolle.
 
+## Åpne rolleutforskeren filtrert for å vise rapporter 
+
+Du kan åpne rolleutforskeren i en visning som er filtrert, for å vise rapporter fra rollesenteret og alle listesider og fra **Fortell meg**-vinduet:
+
+- I rollesenteret eller på en listeside velger du **Alle rapporter**-koblingen på høyre side av navigasjonslinjen.
+- I **Fortell meg**-vinduet velger du handlingen **utforske rapporter** nederst.
+
 ## Naviger funksjoner
 
-Handlingene som åpner sider, er ordnet under noder som er oppkalt etter funksjonene eller modulene. Hver node kan skjules eller utvides enkeltvis, og du kan skjule/utvide alle noder samtidig.
+Handlingene som åpner sider eller rapporter, er ordnet under noder som er oppkalt etter funksjonene eller modulene. Du kan skjule eller utvide hver node enkeltvis eller alle noder samtidig.
 
 - Hvis du vil vise eller skjule en individuell node, velger du noden. Dette gjelder noder på øverste nivå og undernoder.
 - Hvis du vil vise/skjule alle noder på øverste nivå på siden, men beholde undernodene som de er, velger du **...** øverst og velger deretter **Vis** eller **Skjul**.
@@ -38,16 +45,16 @@ Handlingene som åpner sider, er ordnet under noder som er oppkalt etter funksjo
 
 ## Søk etter funksjoner
 
-Du kan raskt finne funksjoner ved å velge **Søk** og deretter skrive inn et ord eller uttrykk for funksjonen du prøver å finne. Rollesenteret vil merke all tilsvarende tekst. Hvis en funksjon er skjult fra visning i skjult node, markeres den skjulte noden med en prikk. 
+Du kan raskt finne funksjoner ved å velge **Søk** og deretter skrive inn et ord eller uttrykk for funksjonen du prøver å finne. Rollesenteret uthever all tilsvarende tekst. Hvis en funksjon er skjult i en skjult node, markeres den skjulte noden med en prikk. 
 
 ## Utforsk andre roller
 
-Du kan utforske andre roller enn dine egne ved å velge **Utforsk flere roller**. Rollesenteret viser hver rolle under sin egen overskrift, med koblinger til funksjonene i den. Du kan deretter navigere og finne funksjoner på samme måte som når du utforsker rollen.
+Du kan utforske andre roller enn dine egne ved å velge **Utforsk flere roller**. Rollesenteret viser hver rolle under sin egen overskrift, med koblinger til funksjonene i den. Du kan finne og gå til funksjoner på samme måte som når du utforsker rollen.
 
 > [!NOTE]
-> Du ser bare roller som er konfigurert for visning i rolleutforskeren. Så hvis du ikke ser en rolle du forventet å se, er den sannsynligvis ikke konfigurert for den. Hvis du vil ha mer informasjon, kan du se [Administrere profiler](admin-users-profiles-roles.md). 
+> Du har bare tilgang til roller som er konfigurert for visning i rolleutforskeren. Hvis en rolle ikke er tilgjengelig, er den sannsynligvis ikke konfigurert for dette. Hvis du vil ha mer informasjon, kan du se [Administrere profiler](admin-users-profiles-roles.md). 
 
-Når du utforsker andre roller, kan du også avgrense utforskeren ved hjelp av **Rapport og analyse**- og **Administrasjon**-handlinger øverst i rollesenteret.
+Når du utforsker andre roller, kan du også avgrense utforskeren ved hjelp av handlingene **Rapport og analyse** og **Administrasjon** øverst i rollesenteret.
 
 - **Rapport og analyse** viser bare funksjonene som er kategorisert som rapporterings- og analysefunksjoner.
 - **Administrasjon** viser bare funksjonene som er kategorisert som administrasjonsfunksjoner.
@@ -64,7 +71,7 @@ There a several actions along the top of the role explorer to help you locate fe
 |------|------|
 |**All**|Shows all features that are related to the role.|
 |**Find**|Lets you enter a word or phrase to quickly locate feature names that match.|
-|**Explore more roles**|All business features that are available for all roles including your own. When exploring all roles, the other actions work the same way, except for all roles shown. **NOTE:** You will only see roles that are set up to show in role explorer. For more information, see [Manage Profiles](admin-users-profiles-roles.md).  |
+|**Explore more roles**|All business features that are available for all roles including your own. When exploring all roles, the other actions work the same way, except for all roles shown. **NOTE:** You can only access roles that are set up to show in role explorer. For more information, see [Manage Profiles](admin-users-profiles-roles.md).  |
 |**Report & Analysis**|This action Shows only those features that are categorized as reports and analysis features.|
 |**Administration**|Shows only those features that are categorized as administration features.|
 
@@ -90,6 +97,7 @@ Handlingene som åpner sider, er ordnet under noder som er oppkalt etter funksjo
   - Velg **...** i øvre høyre hjørne, og velg deretter **Vis alle** eller **Skjul alle**.
 
 ## Se også
+
 [Finne sider og informasjon med Fortell meg](ui-search.md)  
 [Administrere profiler](admin-users-profiles-roles.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

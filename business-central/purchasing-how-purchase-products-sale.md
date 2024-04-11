@@ -1,12 +1,12 @@
 ---
-title: Kjøpe varer for salg
+title: Kjøpvarer for et salg
 description: Du kan opprette en faktura for en leverandør fra en salgsfaktura for å kjøpe produkter.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'supply planning, sales demand, replenish'
 ms.search.form: '50, 51, 56, 9308'
-ms.date: 04/01/2021
+ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -60,9 +60,9 @@ Hvis du vil opprette én kjøpsfaktura for én eller flere linjer i et salgsdoku
 
 ## Se også
 [Innkjøp](purchasing-manage-purchasing.md)  
-[Registrere kjøp](purchasing-how-record-purchases.md)  
-[Fakturere salg](sales-how-invoice-sales.md)  
-[Registrere nye leverandører](purchasing-how-register-new-vendors.md)  
+[Registrer kjøp](purchasing-how-record-purchases.md)  
+[Fakturer salg](sales-how-invoice-sales.md)  
+[Registrer nye leverandører](purchasing-how-register-new-vendors.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
 

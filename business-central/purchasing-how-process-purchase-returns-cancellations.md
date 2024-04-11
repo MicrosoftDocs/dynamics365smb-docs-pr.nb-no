@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'cancel, undo, correct'
 ms.search.form: '6640, 6643, 9307, 9309, 9308, 6652, 145, 147'
-ms.date: 04/01/2021
+ms.date: 03/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -143,7 +143,7 @@ Du kan bokføre denne reduserte kjøpskostnaden som et varegebyr i en kreditnota
 2. Velg handlingen **Ny** for å åpne en ny, tom kjøpskreditnota.  
 3. Fyll ut kreditnotahodet med opplysninger om leverandøren som sendte kjøpsrabatten til deg.  
 4. På hurtigfanen **Linjer**, i **Type**-feltet, velger du **Gebyr (vare)**.  
-5. I feltet **Nr.** -feltet velger du den aktuelle varegebyrverdien.  
+5. I **Nr.** -feltet velger du den aktuelle varegebyrverdien.  
 
     Det kan hende du vil opprette et eget varegebyrnummer for å dekke kjøpsrabatter.  
 6. I feltet **Antall** angir du **1**.  

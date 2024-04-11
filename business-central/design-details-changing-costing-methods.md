@@ -122,7 +122,7 @@ Når du oppretter monteringsordrer, bruker du opplysningene fra Vareopptellingsk
 |Felt  |Verdi å angi  |
 |---------|---------|
 |Type |Vare |
-|Nr. |Nummeret på den opprinnelige varen. |
+|Antall |Nummeret på den opprinnelige varen. |
 |Antall per |1 |
 |Variantkode |Det samme som i vareopptellingskladd. |
 |Lokasjonskode |Det samme som i vareopptellingskladd. |
@@ -153,7 +153,7 @@ Tabellen nedenfor viser funksjonsområder der det kan være restantall.
 |Planlegging |Bestillingsforslag, planleggingsforslag og ordreplanlegging |
 |Lager |Overføringsordrer, lagerleveringer, lagerjournaler og lagerplukkinger, plasseringer og flyttinger, interne plukkinger og plassering samt hylleopprettingsforslag |
 |Montering |Monteringsdokumenter, inkludert ordrer, returordrer og rammebestillinger |
-|Prosjekter |Prosjektplanleggingslinjer og prosjektkladdelinjer |
+|Prosjekter |prosjektplanleggingslinjer og prosjektkladdelinjer |
 |Tjeneste |Servicedokumenter og servicekontrakter |
 |Produksjon |Produksjonsordrer (planlagte, fast planlagte og frigitte) |
 

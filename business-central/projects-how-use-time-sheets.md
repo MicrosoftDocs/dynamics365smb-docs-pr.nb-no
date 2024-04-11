@@ -1,6 +1,6 @@
 ---
 title: Bruk timelister
-description: 'Finn ut hvordan du oppretter, sender inn, godkjenner og bokfører timelister for ressurser, jobber og tjenester.'
+description: 'Finn ut hvordan du oppretter, sender inn, godkjenner og bokfører timelister for ressurser, prosjekter og tjenester.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: ivkoleti
@@ -13,11 +13,11 @@ ms.custom: bap-template
 ---
 # Bruk timelister
 
-Denne artikkelen beskriver hvordan du bruker timelister i Business Central til å spore fravær og til å spore tid og ressurser som er brukt på et prosjekt. Sporing av tid hjelper deg med å identifisere problemer tidlig og unngå forsinkelser eller kostnadsoverskridelser. Timelister gjør det enkelt for en ressurs å rapportere tidsbruk for en enkeltperson eller en maskin, og at ledere kan se gjennom bruk og tilordning. 
+Denne artikkelen beskriver hvordan du bruker timelister i Business Central til å spore fravær og til å spore tid og ressurser som er brukt på et prosjekt. Sporing av tid hjelper deg med å identifisere problemer tidlig og unngå forsinkelser eller kostnadsoverskridelser. Timelister gjør det enkelt for en ressurs å rapportere tidsbruk for en enkeltperson eller en maskin, og at ledere kan se gjennom bruk og tilordning.
 
-Du kan kopiere og bruke prosjektplanleggingslinjer i en timeliste. Dermed trenger du bare å skrive inn informasjonen ett sted, og linjeinformasjonen er alltid riktig. Hvis du vil vite mer, går du til [Slik kopierer du prosjektplanleggingslinjer til en timeliste](#copy-job-planning-lines-to-a-time-sheet).
+Du kan kopiere og bruke prosjektplanleggingslinjer i en timeliste. Dermed trenger du bare å skrive inn informasjonen ett sted, og linjeinformasjonen er alltid riktig. Hvis du vil vite mer, går du til [Slik kopierer du prosjektplanleggingslinjer til en timeliste](#copy-project-planning-lines-to-a-time-sheet).
 
-Når du godkjenner timelisteoppføringer for et prosjekt, kan du bokføre dem til den relevante prosjekt- eller ressurskladden. Hvis du vil ha mer informasjon, kan du gå til [Slik bokfører du timelistelinjer i en prosjektkladd](#post-time-sheet-lines-in-a-job-journal) og [Slik bokfører du timelistelinjer i en ressurskladd](#post-time-sheet-lines-in-a-resource-journal).
+Når du godkjenner timelisteoppføringer for et prosjekt, kan du bokføre dem til den relevante prosjekt- eller ressurskladden. Hvis du vil ha mer informasjon, kan du gå til [Slik bokfører du timelistelinjer i en prosjektkladd](#post-time-sheet-lines-in-a-project-journal) og [Slik bokfører du timelistelinjer i en ressurskladd](#post-time-sheet-lines-in-a-resource-journal).
 
 Før du kan bruke timelister, må du definere generell informasjon og angi administrator og én eller flere godkjennere av timelister. Hvis du vil ha mer informasjon om hvordan du definerer timelister, går du til [Definer timelister](projects-how-setup-time-sheets.md).  
 
@@ -26,7 +26,7 @@ Før du kan bruke timelister, må du definere generell informasjon og angi admin
 
 ## Opprette timelister
 
-Du kan bruke siden **Opprett timelister** til å angi timelister for angitte tidsperioder eller uker. Deretter kan eieren av timelisten åpne den og registrere tid brukt på en oppgave. Du kan også [planlegge kjørselen til å kjøres autoamtisk](ui-work-report.md#ScheduleReport).  
+Du kan bruke siden **Opprett timelister** til å angi timelister for et angitt antall tidsperioder eller uker. Deretter kan eieren av timelisten åpne den og registrere tid som er brukt på en aktivitet. Du kan også [planlegge kjørselen til å kjøres autoamtisk](ui-work-report.md#ScheduleReport).  
 
 > [!IMPORTANT]
 > Du må ha tillatelser for å opprette timelister. Hvis du vil ha mer informasjon om tillatelser, går du til [Definere timelister](projects-how-setup-time-sheets.md).
@@ -49,7 +49,7 @@ Du kan vise timelistene som du opprettet, på siden **Timelister**. Hver time li
 | | Brukes til å legge til en merknad eller et merke i **Beskrivelse**-feltet for timelistelinjen. Du kan for eksempel bruke dette feltet til å kategorisere timelisteposter. Hvis du lar **Type**-feltet være tomt for en timelistelinje, kan du ikke kan angi tidsverdier i ukedagfeltene for denne linjen. |
 | Fravær | Brukes til å registrere fraværstiden i løpet av en arbeidsuke. Hvis du vil fylle ut informasjonen for linjen, kan du angi typen fravær i **Fraværsårsakskode**-feltet. |
 | Monteringsordre | Brukes til å registrere tid for monteringsordrer. En timelistelinje av denne typen opprettes mens du bokfører monteringsordrelinjene som ressursen er konfigurert til å bruke timelister for. Du kan ikke velge en linje av denne typen manuelt. |
-| Jobb | Brukes til å registrere tidsforbruk for et prosjekt. Hvis du vil fullføre informasjonen for linjen, angir du prosjektnummeret og prosjektoppgavenummeret som du vil registrere tid for. Du kan registrere tiden for linjer som du ikke har planlagt.|
+| Prosjekt | Brukes til å registrere tidsforbruk for et prosjekt. Hvis du vil fullføre informasjonen for linjen, angir du prosjektnummeret og prosjektoppgavenummeret som du vil registrere tid for. Du kan registrere tiden for linjer som du ikke har planlagt.|
 | Ressurs | Brukes til å registrere tidsforbruk for en ressurs. Hvis du vil fylle ut informasjonen for linjen, gir du en beskrivelse av arbeidet. |
 | Tjeneste | Brukes til å registrere tidsforbruk for en serviceordre eller servicekreditnota. |
 
@@ -78,7 +78,7 @@ Hvis timelisteinformasjon er den samme fra tidsperiode til tidsperiode, kan du k
 
 Linjene kopieres, inkludert detaljer som type og beskrivelse. Hvis linjen for eksempel er knyttet til et prosjekt, blir **Prosjektnr.** kopiert. Alle kopierte linjer har statusen **Åpen**. Du kan nå endre linjene etter behov.
 
-## Kopiere prosjektplanleggingslinjer til en timeliste
+## Kopier prosjektplanleggingslinjer til en timeliste
 
 Fremgangsmåten nedenfor beskriver hvordan du raskt legger til prosjektplanleggingslinjer i en timeliste.
 
@@ -161,14 +161,14 @@ Når du godkjenner eller avviser en timeliste, kan den ikke endres uten at den �
 3. På siden **Timeliste** velger du handlingen **Åpne på nytt**, og deretter velger du handlingen **Alle sendte linjer** for å åpne alle linjer på nytt, eller handlingen **Bare valgte linjer** for å åpne bare linjene som er valgt på siden **Timeliste**.
 4. Velg **OK**. Statusen for timelistelinjen eller -linjene endres til **Sendt**.  
 
-## Vise og godkjenne timelister etter prosjekt
+## Vis og godkjenn timelister etter prosjekt
 
 På et prosjekt kan du angi en person som er ansvarlig for prosjektet. Denne informasjonen er koblet til timeregistreringslinjer. Koblingen gir prosjektledere en liste over timelistene som skal godkjennes. Prosjektlederen for en prosjektgruppe kan for eksempel ha ansvaret for bestemte prosjekter i selskapet. I dette tilfellet bør lederen velges som **Ansvarlig person** på prosjektkortsiden. I denne visningen av timelisteinformasjon kan du se prosjektoppgaver som er knyttet til et prosjekt, og antall timer som er brukt.
 
 > [!NOTE]
-> For å kunne godkjenne timelister på siden **Timeliste for leder etter prosjekt** må du først velge et alternativ for **Timeliste etter jobbgodkjenning** på siden **Ressursoppsett**. Hvis du vil ha mer informasjon om hvordan du definerer godkjenninger for ressurser, går du til [Definer ressurser](projects-how-setup-resources.md).
+> For å kunne godkjenne timelister på siden **Timeliste for leder etter prosjekt** må du først velge et alternativ for **Timeliste etter prosjektgodkjenning** på siden **Ressursoppsett**. Hvis du vil ha mer informasjon om hvordan du definerer godkjenninger for ressurser, går du til [Definer ressurser](projects-how-setup-resources.md).
 
-### Slik godkjenner eller avviser du timelister etter prosjekt
+### Godkjenn eller avvis timelister etter prosjekt
 
 1. Skriv inn **Timeliste for leder etter prosjekt** i **Søk**-boksen, og velg deretter den relaterte koblingen. [!INCLUDE[prod_short](includes/prod_short.md)] viser en liste over timelistelinjer som er knyttet til prosjektene du har ansvar for.
 2. Velg handlingen **Godkjenn**, og velg deretter handlingen **Alle sendte linjer** for å godkjenne alle linjer, eller handlingen **Bare valgte linjer** for å godkjenne bare linjene som er valgt på siden **Timeliste**.
@@ -193,11 +193,11 @@ Når du har godkjent timelisteoppføringer for en ressurs, kan du bokføre dem t
 5. Velg handlingen **Bokfør**.  
 6. Hvis du vil bekrefte bokføringen, velger du handlingen **Poster**. Siden **Ressursposter** åpnes og viser resultatet av bokføringen av ressurskladden.
 
-## Slik bokfører du timelistelinjer i en prosjektkladd
+## Bokfør timelistelinjer i en prosjektkladd
 
 Når du har godkjent timelisteoppføringer for et prosjekt, kan du bokføre dem til den relevante prosjektkladden.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder** og velg den relaterte koblingen.  
 2. Velg handlingen **Foreslå linjer fra timelister**.  
 3. På siden **Foreslå prosjektkladdelinjer** fyller du ut feltene etter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)] 
 4. Velg **OK**-knappen. Det opprettes poster for bruk i prosjektkladden, der du kan endre informasjonen etter behov.  
@@ -227,6 +227,5 @@ Når du har bokført timelister, kan du arkivere dem for fremtidig referanse. Du
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

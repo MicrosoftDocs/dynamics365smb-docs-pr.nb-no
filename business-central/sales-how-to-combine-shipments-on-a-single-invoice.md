@@ -5,11 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 12/16/2021
+ms.date: 03/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Kombinere leveringer på én faktura
+# Kombiner leveringer på én faktura
 
 Hvis du vil fakturere mer enn én følgeseddel av gangen, kan du bruke funksjonen for samling av følgesedler.  
 
@@ -26,7 +26,7 @@ Før du kan opprette samlefakturaer, må du bokføre mer enn én følgeseddel fo
     - Du setter inn alle linjene ved å merke dem og velge **OK**.  
     - Du setter inn bestemte linjer ved å merke dem og velge **OK**. Du kan bruke CTRL-tasten for å velge flere linjer som ikke ligger inntil hverandre.  
 
-    Hvis du valgte en feil følgeseddellinje, eller du vil starte på nytt, kan du ganske enkelt slette linjene på fakturaen og kjøre funksjonen **Hent følgeseddellinjer** på nytt.  
+    Hvis du valgte en feil følgeseddellinje, eller du vil starte på nytt, kan du slette linjene på fakturaen og kjøre funksjonen **Hent følgeseddellinjer** på nytt.  
 7. Velg handlingen **Bokfør** for å bokføre fakturaen.  
 
 > [!TIP]  

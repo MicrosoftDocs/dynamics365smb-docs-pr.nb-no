@@ -1,12 +1,12 @@
 ---
-title: Motta og konvertere elektroniske dokumenter
-description: Dette emnet beskriver hvordan du mottar elektroniske dokumenter direkte fra handelspartnere eller fra en OCR-tjeneste.
+title: Motta og konverter elektroniske dokumenter
+description: Denne artikkelen beskriver hvordan du mottar elektroniske dokumenter direkte fra handelspartnere eller fra en OCR-tjeneste.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '189, 190, 191'
-ms.date: 06/23/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -59,7 +59,7 @@ Følgende prosedyre beskriver hvordan du mottar en leverandørfaktura og konvert
 
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Inngående dokumenter](across-income-documents.md)  
-[Konfigurere sending og mottak av elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
+[Konfigurer sending og mottak av elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)  
 [Utveksle data elektronisk](across-data-exchange.md)   
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  
 

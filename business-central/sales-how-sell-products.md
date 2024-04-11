@@ -7,7 +7,7 @@ ms.reviewer: soalex
 ms.topic: conceptual
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
-ms.date: 02/01/2024
+ms.date: 02/06/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
@@ -30,7 +30,7 @@ Du kan opprette direkte betalte ordrer for kunder som ikke er registrert ved å 
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
 2. Velg **Ny** for å opprette en ny post.
-3. I feltet **Kunde** angir du navnet på en eksisterende kunde.
+3. I feltet **Kundenavn** angir du navnet på en eksisterende kunde.
 
     Andre felter på siden **Ordre** fylles nå med standardinformasjon om den valgte kunden.  
 

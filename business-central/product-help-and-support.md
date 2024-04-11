@@ -6,7 +6,7 @@ ms.reviewer: na
 ms.topic: conceptual
 ms.search.form: HelpAndSupport
 ms.author: bholtorf
-ms.date: 09/28/2023
+ms.date: 02/27/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -17,9 +17,20 @@ ms.service: dynamics-365-business-central
 
 Organisasjoner som bruker [!INCLUDE[prod_long](includes/prod_long.md)], kan få teknisk støtte for eventuelle problemer de kan støte på. I denne artikkelen viser vi deg følgende informasjon og mange andre tips om hvordan du kan bruke [!INCLUDE[prod_short](includes/prod_short.md)]:
 
+- Lær hvordan din KI-drevne assistent [kan veilede og forklare](#chat-with-copilot)
 - Finn ut hvordan du [får fjernet blokkering](#in-product-tips)  
-- Finn ut hvor for å [finne ut mer](#help-pane)    
-- Finn ut hvordan du finner [den tekniske informasjonen](#help--support-page) du trenger for å sende inn en støtteforespørsel    
+- Finn ut hvor for å [finne ut mer](#help-pane)
+- Finn ut hvordan du finner [den tekniske informasjonen](#help--support-page) du trenger for å sende inn en støtteforespørsel
+
+## Nettprat med Copilot
+
+[!INCLUDE [online_only](includes/online_only.md)]
+
+Nettprat med Copilot er et KI-drevet verktøy som svarer på spørsmål og finner forretningsdata relatert til Business Central. Det er tilgjengelig fra enhver side ved å velge ![Viser ikonet for nettprat med Copilot](media/chat-copilot-icon.png) **Copilot**-ikonet øverst til høyre. [Finn ut mer om nettprat med Copilot](chat-with-copilot.md).
+
+### Hjelp med felter
+
+Copilot kan hjelpe deg med å forstå formålet med og typisk bruk av enkeltfelter. Når du velger **Spør Copilot** i et verktøytips for et felt, åpnes nettpraten med en Forklar-ledetekst for feltnavnet, og Copilot gir informasjon om det. Copilot lenker til artiklene det refereres til, så det er enkelt å verifisere beskrivelsen.
 
 ## Tips om produktkatalog
 
@@ -35,14 +46,9 @@ I [!INCLUDE [prod_short](includes/prod_short.md)] for du tilgang til siden Hjelp
 
 Følgende liste beskriver hvordan du får tilgang til hjelperuten og om det er lagt til kort i den:
 
-- Velg koblingen *Finn ut mer* på et verktøytips for et felt
-
-  Følgende kort legges til i hjelperuten:
-
-  - Feltets verktøytips
-- Velg koblingen *Finn ut mer* på et verktøytips for en handling
 - Velg Hjelp-menyelementet (spørsmålstegnet øverst til hjørne)
 - Bruk hurtigtasten <kbd>Ctrl</kbd>+<kbd>F1</kbd> fra hvor som helst
+- Velg koblingen *Finn ut mer* på et verktøytips for et felt, hvis tilgjengelig. *Finn ut mer*-koblingen er bare tilgjengelig i mobilappen eller i egendefinerte felter (det vil si felt fra ikke-Microsoft-utvidelser) i nettklienten.
 
 > [!TIP]
 > Når du velger en kobling, åpnes målartikkelen i en ny nettleserfane. Du kan velge å oppheve forankringen av nettleserfanen, slik at du kan vise relevant informasjon side om side med [!INCLUDE [prod_short](includes/prod_short.md)]. Ruten forblir åpen mens du navigerer gjennom [!INCLUDE [prod_short](includes/prod_short.md)], slik at innholdet du søker etter, forblir synlig.  

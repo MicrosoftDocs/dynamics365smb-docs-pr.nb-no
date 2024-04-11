@@ -1,12 +1,12 @@
 ---
 title: Synkroniser varer og lager
 description: Konfigurer og kjør synkroniseringer av varer mellom Shopify og Business Central
-ms.date: 11/17/2023
+ms.date: 02/28/2024
 ms.topic: article
 ms.search.form: '30116, 30117, 30126, 30127,'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.collection:
   - bap-ai-copilot
 ---
@@ -50,30 +50,8 @@ Først importerer du fra Shopify samtidig eller sammen med ordrer for å legge d
 |**SKU-skilletegn**|Bruk dette feltet med **SKU-tilordning** angitt til alternativet **[Varenr. + variantkode](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Definer et skilletegn som skal brukes til å dele SKU-en.<br>Hvis du oppretter varianten med SKU-en 1000/001 i Shopify, skriver du inn / i feltet **SKU-skilletegn** for å hente varenummeret i [!INCLUDE[prod_short](../includes/prod_short.md)] som 1000 og varevariantkoden som 001. Merk at hvis du oppretter varianten med lagerføringsenheten 1000/001/111 i Shopify, er varenummeret i [!INCLUDE[prod_short](../includes/prod_short.md)] 1000 og varevariantkoden 001. Delen 111 ignoreres. |
 |**Variantprefiks**|Bruk sammen med **SKU-tildeling** satt til **Variantkode** eller alternativene **Varenr. + variantkode** som en reservefunksjon når SKU-en som kommer fra Shopify, er tom.<br>Hvis du vil opprette varevarianten i [!INCLUDE[prod_short](../includes/prod_short.md)] automatisk, må du angi en verdi i **Kode**. Som standard brukes verdien som er definert i SKU-feltet som ble importert fra Shopify. Hvis SKU er tom, vil det imidlertid generere en kode som begynner med definert variantprefiks og 001.|
 |**Shopify kan oppdatere vare**|Velg dette alternativet hvis du vil oppdatere varer eller varianter automatisk.|
-
-### Effekten av SKU-er og strekkoder definert i Shopify-produkt på tildeling og oppretting av varer og varianter i Business Central
-
-Når produkter importeres fra Shopify til tabellene **Shopify-produkter** og **Shopify-varianter**, prøver [!INCLUDE[prod_short](../includes/prod_short.md)] å finne eksisterende poster.
-
-Tabellen nedenfor viser forskjellene mellom alternativene i feltet **SKU-tildeling**.
-
-|Alternativ|Innvirkning på tildeling|Innvirkning ved oppretting|
-|------|-----------------|------------------|
-|**Tom**|SKU-feltet brukes ikke i varetildelingsrutinen.|Ingen innvirkning på oppretting av varen.<br>Dette alternativet hindrer oppretting av varianter. Når det gjelder ordre, brukes bare hovedvare. En variant kan fremdeles tildeles manuelt på siden **Shopify-produkt**.|
-|**Varenr.**|Velg hvis SKU-feltet inneholder varenummeret|Ingen innvirkning på oppretting av en vare uten varianter. For en vare med varianter opprettes hver variant som en separat vare.<br>Hvis Shopify har et produkt med to varianter, og lagerføringsenhetene er 1000 og 2000 i [!INCLUDE[prod_short](../includes/prod_short.md)], opprettes to varer med tallene 1000 og 2000.|
-|**Variantkode**|SKU-feltet brukes ikke i varetildelingsrutinen.|Ingen innvirkning på oppretting av varen. Når det opprettes en varevariant, brukes verdien i SKU-feltet som en kode. Hvis SKU er tom, genereres det en kode ved hjelp av feltet **Variantprefiks**.|
-|**Varenr. + variantkode**|Velg dette hvis SKU-feltet inneholder et varenummer og varevariantkoden er atskilt med verdien som er definert i feltet felt **SKU-skilletegn**.|Når du oppretter en vare, blir den første delen av verdien i feltet SKU angitt som **Nr.**. Hvis SKU-feltet er tomt, genereres et varenummer med nummerserien definert i feltet **Varemalkode** eller **Varenr.** på siden **Lageroppsett**.<br>Når du oppretter en vare, bruker variantfunksjonen den andre delen av verdien i feltet SKU som **Kode**. Hvis SKU-feltet er tomt, genereres det en kode ved hjelp av feltet **Variantprefiks**.|
-|**Leverandørs varenr.**|Velg hvis SKU-feltet inneholder leverandørvarenummeret. I dette tilfellet blir ikke **Leverandørvarenr.** brukt på siden **Varekort**, i stedet brukes **Leverandørvarenr.** fra **Leverandørens varekatalog**. Hvis posten *Vareleverandørkatalog* inneholder en variantkode, brukes denne koden til å tildele Shopify-varianten.|Hvis det finnes en tilsvarende leverandør i [!INCLUDE[prod_short](../includes/prod_short.md)], blir lagerføringsenhetsverdien brukt som **Leverandørs varenr.** på siden **Varekort** og som **varereferanse** av *leverandørtypen*. <br>Forhindrer oppretting av varianter. Det er nyttig når du bare vil bruke hovedvare i ordren. Du kan fremdeles tildele en variant manuelt fra siden **Shopify-produkt**.|
-|**Strekkode**|Velg hvis SKU-feltet inneholder en strekkode. Det utføres et søk mellom **varereferanser** av *strekkodetypen*. Hvis varereferanseposten inneholder en variantkode, brukes denne variantkoden til å tildele Shopify-varianten.|Ingen innvirkning på oppretting av varen. <br>Forhindrer oppretting av varianter. Det er nyttig når du bare vil bruke hovedvare i ordren. Du kan fremdeles tildele en variant manuelt fra siden **Shopify-produkt**.|
-
-Tabellen nedenfor gir en oversikt over innvirkningen til feltet **Strekkode**.
-
-|Innvirkning på tildeling|Innvirkning ved oppretting|
-|-----------------|------------------|
-|Det utføres et søk mellom **varereferanser** som har en strekkodetype for verdien som er definert i **Strekkode**-feltet i Shopify. Hvis varereferanseposten inneholder en variantkode, brukes denne variantkoden til å tildele Shopify-varianten.|Strekkoden lagres som **varereferanse** for varen og varevarianten.|
-
-> [!NOTE]  
-> Du kan utløse tildeling av de valgte produktene/variantene ved å velge **Prøv søk etter produkttildeling** eller alle importerte ikke-tildelte produkter ved å velge **Prøv å finne tildelinger**.
+|**Enhet som variant**| Velg dette alternativet hvis du vil at alle målenheter for varer skal eksporteres som separate varianter. Legg til feltet via tilpasning. Finn ut mer i delen [Målenhet som variant](synchronize-items.md#unit-of-measure-as-variant).|
+|**Variantalternativnavn for enhet**| Bruk dette feltet med **Målenhet som variant** for å angi under hvilket alternativ du skal legge til varianter som representerer målenheter. Standardverdien er *Målenhet*. Legg til feltet via tilpasning.|
 
 ## Eksporter varer til Shopify
 
@@ -101,6 +79,37 @@ Du administrerer prosessen med å eksportere varer ved å bruke følgende innsti
 |**Lager sporet**| Velg hvordan systemet skal fylle ut feltet **Spor lager** for produkter som er eksportert til Shopify. Du kan oppdatere tilgjengelighetsinformasjon fra [!INCLUDE[prod_short](../includes/prod_short.md)] for produkter i Shopify der spor lager er aktivert. Finn ut mer i delen [Lager](synchronize-items.md#sync-inventory-to-shopify).|
 |**Standard lagerpolicy**|Velg *Avslå* for å unngå negativ beholdning på Shopify-siden. <br>Hvis **Kan oppdatere Shopify-produkter** er aktivert, overføres endringer i **Standard lagerpolicy**-feltet til Shopify etter neste synkronisering for alle produkter og varianter som er oppført på siden **Shopify-produkter** for valgt butikk.|
 |**Kan oppdatere Shopify-produkter**|Definer dette feltet hvis [!INCLUDE[prod_short](../includes/prod_short.md)] kan bare opprette varer eller kan oppdatere varer også. Velg dette alternativet hvis du planlegger å oppdatere produkter manuelt ved å bruke **Synkroniser produkt**-handlingen eller med jobbkøen for regelmessige oppdateringer etter første synkronisering er utløst av **Legg til vare**-handlingen. Husk å velge **Til Shopify** i feltet **Varesynkronisering**.<br>**Kan oppdatere Shopify-produkter** påvirker ikke synkronisering av priser, bilder eller lagernivåer, som konfigureres av uavhengige kontroller.<br>Hvis **Kan oppdatere Shopify-produkter** er aktivert, oppdateres følgende felter på Shopify-siden for produktet, og om nødvendig variantnivået: **Lagerføringsenhet**, **Strekkode**, **Vekt**. **Tittel**, **Produkttype**, **Leverandør**, **Beskrivelse** av produktet oppdateres også hvis de eksporterte verdiene ikke er tomme. Hvis du vil ha en beskrivelse av dette, må du aktivere en hvilken som helst av vekslebryterne og attributtene **Synkroniser utvidet tekst for vare**, **Synkroniser markedsføringstekst for vare** og **Synkroniser vareattributter**, utvidet tekst eller markedsføringstekst må ha verdier. Hvis produktet bruker varianter, blir varianten lagt til eller fjernet etter behov. <br>Hvis produktet på Shopify er konfigurert til å bruke en variantmatrise som kombinerer to eller flere alternativer, kan ikke Shopify-koblingen opprette en variant for produktet. I [!INCLUDE[prod_short](../includes/prod_short.md)] er det ingen måte å definere en alternativmatrise på, det er derfor koblingen bruker **variantkoden** som det eneste alternativet. Shopify forventer imidlertid flere alternativer og nekter å opprette en variant hvis informasjon om andre alternativer mangler. |
+|**Enhet som variant**| Velg dette alternativet hvis du vil at noen alternativer skal eksporteres som importert som målenheter i stedet for varianter. Legg til feltet via tilpasning. Finn ut mer i delen [Målenhet som variant](synchronize-items.md#unit-of-measure-as-variant).|
+|**Variantalternativnavn for enhet**| Bruk dette feltet med **Målenhet som variant** for å angi hvilket alternativ som inneholder varianter som representerer målenheter. Standardverdien er *Målenhet*. Legg til feltet via tilpasning.|
+
+> [!NOTE]
+> Når du vil eksportere mange varer og varianter, kan det være noen som er blokkert. Du kan ikke inkludere blokkerte varer og varianter i prisberegninger, så de eksporteres ikke. Connector hopper over disse elementene og variantene, så du trenger ikke å filtrere dem på forespørselssiden **Legg til vare i Shopify**.
+
+## Avanserte detaljer
+
+### Effekten av SKU-er og strekkoder definert i Shopify-produkt på tildeling og oppretting av varer og varianter i Business Central
+
+Når produkter importeres fra Shopify til tabellene **Shopify-produkter** og **Shopify-varianter**, prøver [!INCLUDE[prod_short](../includes/prod_short.md)] å finne eksisterende poster.
+
+Tabellen nedenfor viser forskjellene mellom alternativene i feltet **SKU-tildeling**.
+
+|Alternativ|Innvirkning på tildeling|Innvirkning ved oppretting|
+|------|-----------------|------------------|
+|**Tom**|SKU-feltet brukes ikke i varetildelingsrutinen.|Ingen innvirkning på oppretting av varen.<br>Dette alternativet hindrer oppretting av varianter. Når det gjelder ordre, brukes bare hovedvare. En variant kan fremdeles tildeles manuelt på siden **Shopify-produkt**.|
+|**Varenr.**|Velg hvis SKU-feltet inneholder varenummeret|Ingen innvirkning på oppretting av en vare uten varianter. For en vare med varianter opprettes hver variant som en separat vare.<br>Hvis Shopify har et produkt med to varianter, og lagerføringsenhetene er 1000 og 2000 i [!INCLUDE[prod_short](../includes/prod_short.md)], opprettes to varer med tallene 1000 og 2000.|
+|**Variantkode**|SKU-feltet brukes ikke i varetildelingsrutinen.|Ingen innvirkning på oppretting av varen. Når det opprettes en varevariant, brukes verdien i SKU-feltet som en kode. Hvis SKU er tom, genereres det en kode ved hjelp av feltet **Variantprefiks**.|
+|**Varenr. + variantkode**|Velg dette hvis SKU-feltet inneholder et varenummer og varevariantkoden er atskilt med verdien som er definert i feltet felt **SKU-skilletegn**.|Når du oppretter en vare, blir den første delen av verdien i feltet SKU angitt som **Nr.**. Hvis SKU-feltet er tomt, genereres et varenummer med nummerserien definert i feltet **Varemalkode** eller **Varenr.** på siden **Lageroppsett**.<br>Når du oppretter en vare, bruker variantfunksjonen den andre delen av verdien i feltet SKU som **Kode**. Hvis SKU-feltet er tomt, genereres det en kode ved hjelp av feltet **Variantprefiks**.|
+|**Leverandørs varenr.**|Velg hvis SKU-feltet inneholder leverandørvarenummeret. I dette tilfellet blir ikke **Leverandørvarenr.** brukt på siden **Varekort**, i stedet brukes **Leverandørvarenr.** fra **Leverandørens varekatalog**. Hvis posten *Vareleverandørkatalog* inneholder en variantkode, brukes denne koden til å tildele Shopify-varianten.|Hvis det finnes en tilsvarende leverandør i [!INCLUDE[prod_short](../includes/prod_short.md)], blir lagerføringsenhetsverdien brukt som **Leverandørs varenr.** på siden **Varekort** og som **varereferanse** av *leverandørtypen*. <br>Forhindrer oppretting av varianter. Det er nyttig når du bare vil bruke hovedvare i ordren. Du kan fremdeles tildele en variant manuelt fra siden **Shopify-produkt**.|
+|**Strekkode**|Velg hvis SKU-feltet inneholder en strekkode. Det utføres et søk mellom **varereferanser** av *strekkodetypen*. Hvis varereferanseposten inneholder en variantkode, brukes denne variantkoden til å tildele Shopify-varianten.|Ingen innvirkning på oppretting av varen. <br>Forhindrer oppretting av varianter. Det er nyttig når du bare vil bruke hovedvare i ordren. Du kan fremdeles tildele en variant manuelt fra siden **Shopify-produkt**.|
+
+Tabellen nedenfor gir en oversikt over innvirkningen til feltet **Strekkode**.
+
+|Innvirkning på tildeling|Innvirkning ved oppretting|
+|-----------------|------------------|
+|Det utføres et søk mellom **varereferanser** som har en strekkodetype for verdien som er definert i **Strekkode**-feltet i Shopify. Hvis varereferanseposten inneholder en variantkode, brukes denne variantkoden til å tildele Shopify-varianten.|Strekkoden lagres som **varereferanse** for varen og varevarianten.|
+
+> [!NOTE]  
+> Du kan utløse tildeling av de valgte produktene/variantene ved å velge **Prøv søk etter produkttildeling** eller alle importerte ikke-tildelte produkter ved å velge **Prøv å finne tildelinger**.
 
 ### Oversikt over felttildeling
 
@@ -118,7 +127,7 @@ Du administrerer prosessen med å eksportere varer ved å bruke følgende innsti
 |Kostnad per vare|**Enhetskost**|**Enhetskost**. Enhetskosten importeres bare til nylig opprettede varer, og den blir ikke oppdatert i senere synkroniseringer.|
 |Lagerføringsenhet|Finn ut mer om SKUer under **SKU-tilording** i delen [Eksporter varer til Shopify](synchronize-items.md#export-items-to-shopify).|Finn ut mer om dette i delen [Effekten av SKU-er og strekkoder definert i Shopify-produkt på tildeling og oppretting av varer og varianter i Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
 |Strekkode|**Varereferanser** av strekkodetypen.|**Varereferanser** av strekkodetypen.|
-|Inventar vil bli lagerført på| Avhenger av Shopify-butikksteder. Hvis **Business Central-oppfyllelsestjenester** har **Standard**-feltet aktivert, lagerføres lager og sendes fra **Business Central-oppfyllelsestjenester**. Ellers brukes primær Shopify-lokasjon eller flere lokasjoner.| Ikke i bruk.|
+|Inventar vil bli lagerført på| Avhenger av Shopify-butikksteder. Hvis **Business Central-oppfyllelsestjenester** har feltet **Standard produktplassering** aktivert, lagerføres lager og sendes fra **Business Central-oppfyllelsestjenester**. Ellers brukes primær Shopify-lokasjon eller flere lokasjoner. Finn ut mer under [To tilnærminger for å administrere oppfyllelser](synchronize-items.md#two-approaches-to-manage-fulfillments)| Ikke i bruk.|
 |Spor antall|I henhold til feltet **Lager sporet** på siden **Shopify-butikkort**. Finn ut mer i delen [Lager](synchronize-items.md#sync-inventory-to-shopify). Brukes bare når du eksporterer et produkt for første gang.|Ikke i bruk.|
 |Fortsett å selge når tomt på lager|I henhold til **Standard lagerpolicy** på **Shopify-butikkortet**.|Ikke i bruk.|
 |Type|**Beskrivelse** av **Varekategorikode**. Hvis typen ikke er angitt i Shopify, blir den lagt til som en egendefinert type.|**Varekategorikode**. Tildeling etter beskrivelse.|
@@ -132,6 +141,23 @@ Du administrerer prosessen med å eksportere varer ved å bruke følgende innsti
 
 Gå gjennom de importerte kodene i **Koder**-faktaboksen på siden **Shopify-produkt**. Velg handlingen **Koder** på den samme siden for å redigere koder.
 Hvis alternativet **Til Shopify** er valgt i feltet **Synkroniser vare**, eksporteres tildelte koder til Shopify ved neste synkronisering.
+
+### Målenhet som variant
+
+Shopify støtter ikke flere målenheter. Hvis du vil selge samme produkt som for eksempel stykke og angi og bruke forskjellige priser eller rabatter, må du opprette målenhet som produktvarianter.
+Shopify Connector kan konfigureres til å eksportere enheter som varianter eller importere varianter som målenhet.
+
+Hvis du vil aktivere denne funksjonen, bruker du feltene **Målenhet som variant** og **Variantalternativnavn** i **Shopify-butikkort**. Felter er skjult som standard. Bruk tilpassing for å legge dem til på siden.
+
+**Merknader om Målenhet som variant**
+
+* Når produktet importeres til [!INCLUDE[prod_short](../includes/prod_short.md)], oppretter koblingen målenheter. Du må oppdatere **Antall per målenhet**.
+* Når du arbeider med en matrise av varianter, for eksempel Farge og Målenhet, og du vil importere produkter, må du angi *Varenr. + variantkode* i feltet **SKU-tilordning** og kontrollere at **SKU**-feltet i Shopify har den samme verdien for alle målenheter som inkluderer både varenummer og variantkode.
+* I [!INCLUDE[prod_short](../includes/prod_short.md)] beregnes tilgjengelighet per vare/varevariant og ikke per målenhet. Dette betyr at samme tilgjengelighet vil bli tilordnet hver variant som representerer målenhet (med hensyn til **Antall per målenhet**), noe som kan føre til tilfeller der tilgjengelig antall i Shopify ikke er nøyaktig. Eksempel: Vare som selges stykkevis og i en eske med seks. Beholdningen i [!INCLUDE[prod_short](../includes/prod_short.md)] er 6 stk. Vare eksportert til Shopify som produkt med to varianter. Når lagersynkronisering er utført, vil lagernivået i Shopify være 6 for varianten stk. og 1 for varianten boks. Kjøperen kan utforske bare butikken og se at produktet er tilgjengelig i begge alternativer og legge inn bestilling for 1 boks. Den neste kjøperen vil se at boks ikke er tilgjengelig, men det er fortsatt 6 stk. Dette vil bli løst etter neste lagersynkronisering.
+
+### Nettadresse og nettadresse for forhåndsvisning
+
+En vare som legges til i Shopify eller importeres fra Shopify, kan ha **nettadressen** eller **nettadressen for forhåndsvisning** fylt ut. Feltet **Nettadresse** er tomt hvis produktet ikke er publisert i nettbutikken, for eksempel fordi statusen er utkast. **Nettadressen** er tom hvis butikken er passordbeskyttet, for eksempel fordi dette er en utviklingsbutikk. I de fleste tilfeller kan du bruke **Nettadresse for forhåndsvisning** til å sjekke hvordan produktet vil se ut når det er publisert.
 
 ## Kjør varesynkronisering
 
@@ -162,10 +188,6 @@ Alternativt kan du synkronisere én vare ved å velge **Legg til Shopify**-handl
 Du kan også bruke handlingen **Synkroniser produkter** på siden **Shopify-produkter** eller søk etter den satsvise jobben **Synkroniser produkter**.
 
 Du kan planlegge at oppgaven skal utføres på en automatisk måte. Finn ut mer under [Planlegg gjentakende oppgaver](background.md#to-schedule-recurring-tasks).
-
-### Nettadresse og nettadresse for forhåndsvisning
-
-En vare som legges til i Shopify eller importeres fra Shopify, kan ha **nettadressen** eller **nettadressen for forhåndsvisning** fylt ut. Feltet **Nettadresse** er tomt hvis produktet ikke er publisert i nettbutikken, for eksempel fordi statusen er utkast. **Nettadressen** er tom hvis butikken er passordbeskyttet, for eksempel fordi dette er en utviklingsbutikk. I de fleste tilfeller kan du bruke **Nettadresse for forhåndsvisning** til å sjekke hvordan produktet vil se ut når det er publisert.
 
 ### Ad hoc-oppdateringer av Shopify-produkter
 
@@ -253,8 +275,7 @@ Lagersynkronisering kan konfigureres for allerede synkroniserte varer. Det finne
 4. Velg handlingen **Hent Shopify-lokasjoner** hvis du vil importere alle lokasjonene som er definert i Shopify. Du finner dem i innstillingene [**Lokasjoner**](https://www.shopify.com/admin/settings/locations) i **Shopify-administratoren**.
 5. I feltet **Lokasjonsfilter** legger du til lokasjoner hvis du bare vil ta med lager fra bestemte lokasjoner. Du kan skrive inn *ØST|VEST* for å gjøre lageret fra bare disse to lokasjonene tilgjengelig for salg via nettbutikken.
 6. Velg lagerberegningsmetoden som skal brukes for de valgte Shopify-lokasjonene.
-7. Aktiver **Standard** hvis du vil at lokasjon skal brukes til å opprette lagerposter og delta i lagersynkroniseringen. Aktiver **Standard** for **Business Central-oppfyllelsestjenester** for å opprette lageroppføring som representerer oppfyllelsestjeneste, ellers opprettes lageroppføring for primær Shopify-plassering og alle normale lokasjoner der **Standard** er aktivert.
-
+7. Aktiver **Standard produktplassering** hvis du vil at lokasjon skal brukes til å opprette lagerposter og delta i lagersynkroniseringen. 
 
 Du kan starte lagersynkronisering på de to måtene beskrevet nedenfor.
 
@@ -271,7 +292,7 @@ Du kan starte lagersynkronisering på de to måtene beskrevet nedenfor.
 
 ### Lagermerknader
 
-* Standard lagerberegningsmetode er **Beregnet disponibel saldo per dato**. Med utvidelsesmuligheter kan du legge til flere alternativer. Hvis du vil lære mer om utvidelse, kan du gå til [eksempler](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation). 
+* Det finnes to standard lagerberegningsmetoder: **Beregnet disponibel saldo per dato** og **Ledig lager (ikke reservert)**. Med utvidelsesmuligheter kan du legge til flere alternativer. Hvis du vil lære mer om utvidelse, kan du gå til [eksempler](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify#stock-calculation). 
 * Du kan kontrollere lagerinformasjonen mottatt fra Shopify på siden **Shopify-lagerfaktaboks**. I denne faktaboksen får du en oversikt over Shopify-lageret og det siste beregnede lageret i [!INCLUDE[prod_short](../includes/prod_short.md)]. Det finnes én post per lokasjon.
 * Hvis lagerinformasjonen i Shopify er forskjellig fra **Beregnet disponibel saldo** i [!INCLUDE[prod_short](../includes/prod_short.md)], blir lageret oppdatert i Shopify.
 * Når du legger til en ny lokasjon i Shopify, må du også legge til lagerposter for den. Shopify gjør ikke det automatisk for eksisterende produkter og varianter, og koblingen vil ikke synkronisere lagernivåer for slike varer på ny lokasjon. Hvis du vil ha mer informasjon, går du til [Tildel lager til lokasjoner](https://help.shopify.com/manual/locations/assigning-inventory-to-locations).
@@ -285,6 +306,51 @@ Det finnes 10 stykker av varen A tilgjengelig på lager og to utestående ordrer
 |------|-----------------|-----------------|
 |Tirsdag|9|Lager 10 minus ordre angitt til forsendelse på mandag|
 |Fredag|7|Lager 10 minus begge ordrer|
+
+### To tilnærminger for å administrere oppfyllelser
+
+Det finnes to måter å håndtere oppfyllelse på i Shopify:
+* Shopify "innebygd" oppfyllelse og lagersporing
+* Tredjeparts oppfyllelse og lagersporing
+
+Beholdningen for hvert produkt i Shopify kan enten lagerføres av Shopify eller av 3PL.
+
+Hvis du bruker Shopify-oppfyllelse, kan du også definere flere lokasjoner i Shopify. Når en ordre er opprettet, velger Shopify lokasjon basert på tilgjengelighet og prioritet. Du kan også spesifisere hvilke lokasjoner du planlegger å spore et spesifikt produkt, for eksempel aldri selge fra lokasjonen *Utstillingslokale*.
+
+Hvis du bruker 3PL, blir fysisk håndtering tatt hånd om av 3PL-leverandøren, så lokasjoner er ikke nødvendig. For 3PL blir SKU-feltet obligatorisk.
+
+Når du bestemmer deg for hvilken lokasjon du vil spore varen på, oppretter Shopify poster i **Lagernivåer**-tabellen, som kan oppdateres manuelt med lagertilgjengelighet.
+
+Connector støtter begge modusene. Det kan sende lager til flere Shopify-lokasjoner eller fungere som oppfyllelsestjeneste.
+
+Fra [!INCLUDE[prod_short](../includes/prod_short.md)]-perspektivet når du oppretter varen og vil sende den til Shopify, vil du også:
+* bruke veksleknappen **Standard produktplassering** for å spesifisere om denne varen skal oppfylles via Shopify-oppfyllelse eller 3PL. Du har alltid **Business Central-oppfyllelsestjenesten**, men det kan være flere oppfyllelsestjenester hvis flere apper installeres. Du kan aktivere **Standard produktplassering** bare i én oppføring hvis du vil bruke oppfyllelsestjenesten. 
+* bruk veksleknappen **Standard produktplassering** til å angi hvilke lokasjoner du vil bruke til å spore lagerbeholdning. Du kan slå på **Standard produktplassering** for flere lokasjoner der **Er oppfyllelsestjeneste** er deaktivert. Legg merke til at lagerbeholdningen alltid spores for primær lokasjon. 
+ 
+#### Hva er forskjellen?
+
+Shopify-oppfyllelse er nyttig når du bruker Shopify POS og det er flere fysiske butikker. Du vil at den ansatte i den fysiske butikken skal vite sin nåværende beholdning. I dette tilfellet oppretter du flere lokasjoner i Shopify, flere lokasjoner i [!INCLUDE[prod_short](../includes/prod_short.md)] og aktiverer **Standard produktplassering** for alle disse lokasjonene.  
+
+Hvis logistikk håndteres i [!INCLUDE[prod_short](../includes/prod_short.md)], som kan ha så mange lokasjoner som nødvendig som representerer distribusjonssentre, oppretter du ikke lokasjoner i Shopify. Shopify Connector oppretter Business Central-oppfyllelsestjenester automatisk, og du kan koble beholdning via lokasjonsfiltre fra flere lokasjoner til én oppfyllelsestjenestepost. Som et resultat er det i Shopify ingen informasjon om hvor varer sendes fra, det har bare informasjon om sporing. Mens i [!INCLUDE[prod_short](../includes/prod_short.md)] kan du velge basert på tilgjengelighet og nærhet til destinasjonen. 
+
+#### Eksempel på bruk av veksleknappen Standard produktplassering
+
+Når du har valgt handlingen **Hent Shopify-lokasjoner** på siden **Shopify-lokasjoner**, ser du følgende lokasjoner:
+
+|Name|Er oppfyllelsestjeneste|Er primær|
+|------|-----------------|-----------------|
+|Hoved| |**Ja**|
+|Sekundær| | |
+|Business Central-oppfyllelsestjeneste|**Ja**| |
+
+La oss se på virkningen av å aktivere veksleknappen Standard produktplassering:
+
+|Navn på lokasjoner der veksleknappen Standard produktplassering er slått på|Innvirkning på hvordan produktet opprettes i Shopify|
+|------|-----------------|
+|Hoved| Lagerbeholdningen vil bli lagerført på: Flere lokasjoner, Utvalgte lokasjoner: Hoved (primær) |
+|Hoved og Sekundær| Lagerbeholdningen vil bli lagerført på: Flere lokasjoner, Utvalgte lokasjoner: Hoved og Sekundær |
+|Business Central-oppfyllelsestjeneste|Lagerbeholdningen lagerføres på: Business Central-oppfyllelsestjeneste, Valgte lokasjoner: (App) Business Central-oppfyllingstjeneste|
+|Business Central-oppfyllelsestjeneste og Hoved| Feil: Du kan ikke bruke standard Shopify-lokasjoner med oppfyllelsestjenestelokasjoner|
 
 ## Se også
 

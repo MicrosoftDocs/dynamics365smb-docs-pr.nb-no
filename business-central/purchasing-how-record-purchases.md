@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: procurement
 ms.search.form: '50 ,51, 53, 56, 146, 147, 9307, 9309, 9306, 9308, 9310'
-ms.date: 12/19/2023
+ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -26,11 +26,11 @@ Når du mottar lagervarene eller den kjøpte tjenesten er fullført, kan du bokf
 Nedenfor ser du en beskrivelse av hvordan du oppretter en kjøpsfaktura. Trinnene for å opprette en bestilling ligner. Hovedforskjellen er at bestillinger har noen ekstra felter og handlinger for fysisk håndtering av varer.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
-2. I feltet **Leverandør** angir du navnet på en eksisterende leverandør.
+2. I feltet **Leverandørnavn** angir du navnet på en eksisterende leverandør.
 
     Andre felt på siden **Kjøpsfaktura** fylles nå med standardinformasjon for den valgte leverandøren. Hvis leverandøren ikke er registrert, følger du denne fremgangsmåten:
 
-    1. I feltet **Leverandør** angir du navnet på den nye leverandøren.
+    1. I feltet **Leverandørnavn** angir du navnet på den nye leverandøren.
     2. Velg **Ja** i dialogboksen for å registrere den nye leverandøren.
     3. Hvis du vil vite mer om hvordan du fyller ut leverandørkortet, kan du gå til [Registrer nye leverandører](purchasing-how-register-new-vendors.md).  
     4. Når du har fullført leverandørkortet, velger du **OK** for å gå tilbake til **Kjøpsfaktura**-siden.

@@ -1,15 +1,15 @@
 ---
-title: Beregne leveringsdato for salg
+title: Beregn leveringsdato for salg
 description: Programmet beregner automatisk datoen du må bestille en vare på for å ha den på lager på en bestemt dato og tilgjengelig for plukking.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 09/22/2022
+ms.date: 03/06/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Beregne leveringsdato for salg
+# Beregn leveringsdato for salg
 
 [!INCLUDE[prod_short](includes/prod_short.md)] beregner automatisk hvilken dato en vare på en ordrelinje tidligst kan leveres på.
 

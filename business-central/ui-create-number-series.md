@@ -6,18 +6,18 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'numbers, numbering'
 ms.search.form: '456, 457, 458, 459, 460, 461, 21, 22, 26, 27, 31'
-ms.date: 03/24/2022
+ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Opprette nummerserier
+# Opprett nummerserier
 
-For hvert selskap som opprettes, må du tilordne unike identifikasjonskoder til elementer som for eksempel hovedbokkontoer, kunde- og leverandørkontoer, fakturaer og andre dokumenter. Nummerering er ikke bare viktig for identifikasjonsformål. Med et godt utformet nummereringssystem er det enklere å styre og analysere selskapet, og antall feil som forekommer ved dataregistrering reduseres.
+For hvert selskap som opprettes, må du tilordne unike identifikasjonskoder til elementer som for eksempel hovedbokkontoer, kunde- og leverandørkontoer, fakturaer og andre dokumenter. Nummerering er ikke bare viktig for identifikasjonsformål. Med et godt utformet nummereringssystem er det enklere å styre og analysere selskapet, og det kan redusere feil ved dataregistrering.
 
 > [!Important]
 > Som standard er det ikke tillatt med mellomrom i nummerserier, fordi den nøyaktige historikken for finanstransaksjoner må være tilgjengelige for revisjon, i henhold til lovgivningen, og må derfor følge en ubrutt sekvens uten slettede numre.
-> 
-> Hvis du vil tillate hull i visse nummerserier, må du først rådføre deg med revisor eller regnskapssjefen for å være sikker på at du overholder de juridiske kravene i landet/regionen din. Hvis du vil ha mer informasjon, kan du se delen [Tomrom i nummerserier](#gaps-in-number-series).
+>
+> Hvis du vil tillate hull i visse nummerserier, må du rådføre deg med revisor eller regnskapssjefen for å være sikker på at du overholder de juridiske kravene i landet/regionen din. Hvis du vil ha mer informasjon, kan du se delen [Tomrom i nummerserier](#gaps-in-number-series).
 
 > [!NOTE]  
 > Vi anbefaler at du bruker de samme nummerseriekodene som er oppført på siden **Nummerserieliste** i demoselskapet CRONUS. Koder som *P-INV+* gir kanskje ikke umiddelbar mening for deg, men [!INCLUDE[prod_short](includes/prod_short.md)] har en rekke standardinnstillinger som avhenger av disse nummerseriekodene.
@@ -32,11 +32,12 @@ Du setter vanligvis opp i nummerserien automatisk skal sette inn neste nummer i 
 Hvis du vil bruke mer enn én nummerseriekode for én type hoveddata - det vil si hvis du for eksempel vil bruke ulike nummerserier for ulike varekategorier - kan du bruke nummerserieforbindelser.
 
 ## Tomrom i nummerserier
+
 Ikke alle poster du oppretter i [!INCLUDE[prod_short](includes/prod_short.md)], er finanstransaksjoner som må bruke sekvensiell nummerering. Kundekort, tilbud og lageraktiviteter er eksempler på poster som tilordnes et nummer fra en nummerserie, men som ikke er underlagt revisjon og/eller kan slettes. For slike nummerserier kan du merke av for **Tillat tomrom i nr.** på siden **Nr.serielinjer**. Denne innstillingen kan også endres etter at du har opprettet nummerserien. Hvis du vil ha mer informasjon, kan du se [Opprette en ny nummerserie](ui-create-number-series.md#to-create-a-new-number-series).
 
 ## Virkemåte for feltet Nr. på dokumenter og kort
 
-På salgs-, kjøps- og overføringsdokumenter og på alle kort kan **Nr.** feltet kan fylles ut automatisk fra en forhåndsdefinert nummerserie, eller du kan legge den til manuelt. Under visse omstendigheter er feltet **Ant.** er usynlig for å hindre deg i å redigere det.  
+På salgs-, kjøps-, overførings- og servicedokumenter og på alle kort kan **Nr.** feltet kan fylles ut automatisk fra en forhåndsdefinert nummerserie, eller du kan legge den til manuelt. Under visse omstendigheter er feltet **Ant.** er usynlig for å hindre deg i å redigere det.  
 
 **Nr.** -feltet kan fylles ut på tre måter:
 
@@ -45,16 +46,18 @@ På salgs-, kjøps- og overføringsdokumenter og på alle kort kan **Nr.** felte
     Selv om du definerer maler med forskjellige nummerserier for kunder, hvis nummerserien som er definert i siden **Salgsoppsett** er definert på denne måten, er feltet **Nr.** usynlig på kundekortet, uansett hvilken mal du bruker. Det samme gjelder andre typer kort og dokumenter.  
 
     > [!NOTE]  
-    > Hvis nummerserien ikke fungerer, for eksempel fordi den er tom for numre, vil feltet **Nr.** vises, og du kan angi et nummer manuelt eller løse problemene på siden **Nummerserie**.
+    > Hvis nummerserien ikke fungerer, for eksempel fordi den har nådd det siste tallet som er definert for området, vises feltet **Nr.**, slik at du kan angi et nummer manuelt. Du kan løse problemer på siden **Nr.serie**.
 
-2. Hvis det finnes flere nummerserier for dokumenttypen eller kortet, og det ikke er merket av for **Standardnr.** for den tilordnede nummerserien, er feltet **Nr.** synlig, og du kan slå opp **Nummerserie**-siden og velge nummerserien du vil bruke. Det neste nummeret i serien settes deretter inn i feltet **Nr.** .
+2. Hvis du har flere nummerserier for en dokumenttype eller et kort, og det ikke er merket av for **Standardnr.** for den tilordnede nummerserien, er feltet **Nr.** synlig, og du kan gå til **Nr.serie**-siden og velge nummerserien du vil bruke. Det neste nummeret i serien settes deretter inn i feltet **Nr.** .
 
-3. Hvis du ikke har definert en nummerserie for typen dokument eller kort, eller hvis det er merket av for **Manuelle nr.** for nummerserien, vises feltet **Nr.** og du må angi et nummer manuelt. Du kan angi opptil 20 tegn, både tall og bokstaver.
+3. Hvis du ikke har definert en nummerserie for en type dokument eller kort, eller hvis det er merket av for **Manuelle nr.** for nummerserien, vises feltet **Nr.** og du må angi et nummer manuelt. Du kan angi opptil 20 tegn, både tall og bokstaver.
 
-Når du åpner et nytt dokument eller kort som det finnes en nummerserie for, åpnes den aktuelle **Oppsett for nummerserie**-siden, slik at du kan definere en nummerserie for denne dokumenttypen eller dette kortet før du går videre med andre dataregistreringer.
+Når du åpner et nytt dokument eller kort som det finnes en nummerserie for, åpnes siden **Oppsett for nummerserie**, slik at du kan definere en nummerserie for denne dokumenttypen eller dette kortet og fortsette arbeidet.
 
 > [!NOTE]  
 > Hvis du vil aktivere manuell nummerering på for eksempel nye varekort som er opprettet med en dataoverføring som har skjult **Nr.** som standard, går du til siden **Lageroppsett** og velger **Varenr.**-feltet for å åpne og angi den relaterte nummerserien til **Manuelle nr.**.
+>
+> Det samme gjelder hvis du bruker serviceadministrasjonsfunksjoner. Du kan løse dette problemet ved å gå til siden **Serviceoppsett** og velge feltet **Servicevarenr.** for å sette nummerserien til **Manuelle nr.**
 
 ## Opprette en ny nummerserie
 
@@ -66,9 +69,9 @@ Når du åpner et nytt dokument eller kort som det finnes en nummerserie for, å
 6. Gjenta trinn 5 for så mange typer bruk av nummerserien du trenger. Feltet **Startdato** definerer hvilken nummerserielinje som er aktiv.  
 
 > [!TIP]
-> Hvis du vil tillate at brukere angir numre manuelt når de registrerer en ny kunde eller leverandør, kan du for eksempel velge feltet **Manuelle nr.** på selve nummerserien. Hvis du ikke vil tillate manuelt nummer, fjerner du merket i feltet.
+> Hvis du vil tillate at brukere angir numre manuelt når de registrerer en ny kunde eller leverandør, kan du for eksempel velge feltet **Manuelle nr.** på selve nummerserien. Hvis du vil forhindre manuell nummerering, fjerner du merket i feltet.
 
-Du kan knytte nummerserier til malene du har definert for de ulike typene kunder og leverandører som selger og innkjøpere oftest legger til i [!INCLUDE [prod_short](includes/prod_short.md)]. I dette tilfellet kan du definere de aktuelle nummerseriene, knytte dem til relasjoner og deretter legge til den første nummerserien i den relevante relasjonen på den relevante oppsettsiden. Når en bruker deretter oppretter en kunde, velger de den relevante malen, og den nye kunden får tildelt et nummer fra nummerserien som er definert for denne malen.  
+Du kan knytte nummerserier til malene du har definert for de ulike typene kunder og leverandører som selgere og innkjøpere oftest legger til . I dette tilfellet kan du definere de aktuelle nummerseriene, knytte dem til relasjoner og deretter legge til den første nummerserien i den relevante relasjonen på den relevante oppsettsiden. Når en bruker deretter oppretter en kunde, velger de den relevante malen, og den nye kunden får tildelt et nummer fra nummerserien som er definert for denne malen.  
 
 ## Slik oppretter du forbindelser mellom nummerserier
 

@@ -1,11 +1,14 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 02/09/2022
+ms.date: 03/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 Du kan bruke purringer til å minne kunder på forfalte beløp. Du kan også bruke purringer til å beregne renter eller gebyrer og inkludere dem i purringen.
+
+> [!TIP]
+> Informasjonen i denne artikkelen er nøyaktig, men den beskriver en for det meste manuell prosess. [!INCLUDE [prod_short](prod_short.md)] tilbyr verktøy du kan bruke til å automatisere prosessene for oppretting, utstedelse og sending av purringer. Automatisering av disse trinnene kan spare deg for mye tid brukt på innkrevinger. Hvis du vil vite mer, kan du gå til [Automatiser purringer i innkrevinger](../finance-automate-reminders.md).
 
 Du må definere purrebetingelser og tilordne dem til kunder før du kan opprette purringer. Hvis du vil ha mer informasjon, kan du se [Definer betingelser og grader for purringer](../finance-setup-reminders.md). [!INCLUDE [reminder-terms](reminder-terms.md)] Innholdet på siden **Rentenotabetingelser** fastsetter om det skal beregnes rente i purringen.  
 

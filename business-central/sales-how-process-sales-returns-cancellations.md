@@ -6,13 +6,13 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'undo, credit memo, return'
 ms.search.form: '44, 134, 143, 6629, 6630, 6633, 6662, 9302, 9304, Report_6646'
-ms.date: 09/27/2021
+ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Behandle ordrereturer eller annulleringer
 
-Hvis en kunde vil returnere varer eller bli refundert for varer eller tjenester du har solgt og mottatt betaling for, må du opprette og bokføre en salgskreditnota som angir den ønskede endringen. Hvis du vil ta med de riktige salgsfakturaopplysningene, kan du gjøre følgende:  
+Hvis en kunde vil returnere varer eller bli refundert for varer eller tjenester du har solgt og mottatt betaling for, må du opprette og bokføre en salgskreditnota som angir den ønskede endringen. Hvis du vil ta med de riktige salgsfakturaopplysningene, kan du utføre følgende oppgaver:  
 
 - Opprett salgskreditnotaen direkte fra den bokførte salgsfakturaen.
 - Opprett en ny salgskreditnota med kopiert fakturainformasjon.
@@ -72,7 +72,7 @@ Du kan bokføre den reduserte prisen som et varegebyr i en kreditnota eller en o
 2. Velg handlingen **Ny** for å åpne en ny, tom salgskreditnota.
 3. Fyll ut kreditnotahodet med aktuelle opplysninger om kunden du vil gi salgsrabatt til.  
 4. På hurtigfanen **Linjer**, i **Type**-feltet, velger du **Gebyr (vare)**.  
-5. I feltet **Nr.** -feltet velger du den aktuelle varegebyrverdien.  
+5. I **Nr.** -feltet velger du den aktuelle varegebyrverdien.  
      Det kan hende du vil opprette et eget varegebyrnummer for å dekke salgsrabatter.  
 6. I feltet **Antall** angir du **1**.  
 7. I feltet **Salgspris eks. mva** angir du beløpet i salgsrabatten.  

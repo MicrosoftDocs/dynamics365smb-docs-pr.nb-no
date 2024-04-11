@@ -5,7 +5,7 @@ author: jswymer
 ms.topic: overview
 ms.custom: bap-template
 ms.search.keywords: version
-ms.date: 12/13/2023
+ms.date: 03/11/2024
 ms.review: jswymer
 ms.author: jswymer
 ms.service: dynamics-365-business-central
@@ -35,7 +35,7 @@ Vi anbefaler at du bruker en stabil kanalversjon av en nettleser, da det er den 
 
 ## Outlook
 
-**Outlook-apper:** Hvis du vil bruke [!INCLUDE[prod_short](includes/prod_short.md)] Online som bedriftsinnboks i Outlook, må du ha Outlook 2019 eller nyere eller Outlook på nettet. Organisasjonen må også bruke Microsoft 365. Du kan ikke bruke [!INCLUDE[prod_short](includes/prod_short.md)] på nettet som bedriftsinnboks i Outlook hvis organisasjonen bruker Exchange Server lokalt. 
+**Outlook-apper:** Hvis du vil bruke [!INCLUDE[prod_short](includes/prod_short.md)] Online som bedriftsinnboks i Outlook, må du ha Outlook 2021 eller nyere eller Outlook på nettet. Organisasjonen må også bruke Microsoft 365. Du kan ikke bruke [!INCLUDE[prod_short](includes/prod_short.md)] på nettet som bedriftsinnboks i Outlook hvis organisasjonen bruker Exchange Server lokalt. 
 
 **Nettlesere:** Når du bruker [!INCLUDE[prod_short](includes/prod_short.md)] som innboks for virksomheten i Outlook i en nettleser, krever tillegget at datamaskinen kjører én av de oppførte støttede nettleserne som er oppført tidligere i denne artikkelen. 
 
@@ -51,7 +51,7 @@ Vi anbefaler at du bruker en stabil kanalversjon av en nettleser, da det er den 
 
 ## Excel
 
-**Rediger i Excel:** For å bruke Excel-tillegget for å gjøre endringer i Excel og sende endringene tilbake til [!INCLUDE[prod_short](includes/prod_short.md)], må du ha Excel 2019 eller senere. Hvis du vil ha mer informasjon, se [Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md).  
+**Rediger i Excel:** For å bruke Excel-tillegget for å gjøre endringer i Excel og sende endringene tilbake til [!INCLUDE[prod_short](includes/prod_short.md)], må du ha Excel 2021 eller senere. Hvis du vil ha mer informasjon, se [Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md).  
 
 ## <a name="TAC"></a> Bruk administrasjonssenteret for Business Central
 

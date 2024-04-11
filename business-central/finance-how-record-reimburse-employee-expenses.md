@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: reimbursement
 ms.search.form: '63, 234, 625, 5224, 5237, 5238, 5239, 5240'
-ms.date: 06/16/2021
+ms.date: 03/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -15,14 +15,17 @@ ms.service: dynamics-365-business-central
 [!INCLUDE[prod_short](includes/prod_short.md)] støtter transaksjoner for ansatte på lignende måte som for leverandører. Derfor finnes det bokføringsgrupper for de ansatte for å sikre at de ansattes finansposter bokføres til de relevante kontiene i Finans.
 
 > [!NOTE]  
-> Ansattes transaksjoner kan bare bokføres i den lokale valutaen. Refusjonsutbetalinger til de ansatte støtter ikke rabatter og betalingstoleranser.
+> Refusjonsutbetalinger til de ansatte støtter ikke rabatter og betalingstoleranser.
 
 Hvis ansatte bruker egne penger under forretningsaktiviteter, kan du bokføre utgifter til kontoen for den ansatte. Deretter kan du refundere den ansatte ved å foreta en betaling til den ansattes bankkonto, på samme måte som når du betaler leverandører.  
 
-> [!TIP]
-> Denne artikkelen forklarer hvordan du registrerer utgiftene i bøkene og hvordan du refunderer den ansatte. Organisasjonen kan ha en portal eller app der ansatte kan sende reiseregninger.
+Denne artikkelen forklarer hvordan du registrerer utgiftene i bøkene og hvordan du refunderer den ansatte. Organisasjonen kan ha en portal eller app der ansatte kan sende reiseregninger.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] er fleksibel nok til å dekke mange forskjellige rutiner. De nøyaktige kontonumrene som skal brukes, avhenger av organisasjonens konfigurasjon og prosesser.  
+
+Du kan bruke finanskladder for ansattkontoer til å registrere ansattes utgifter og refusjonstransaksjoner i utenlandsk valuta, og deretter enkelt spore beløpene og sammenligne dem med mottak. La kalkulatoren ligge i skrivebordsskuffen – Business Central kan justere valutakursen for deg. Når du bruker finanskladder til å bokføre transaksjoner for ansattkontoer, for eksempel når du refunderer utgifter, kan du bruke feltet **Valutakode** til å angi valutaen for transaksjonene. Ved å angi en valuta kan du bruke de samme funksjonene som når du registrerer transaksjoner i kunde- og leverandørpostene. Ansatte kan for eksempel registrere en utgift i euro, men få betalt i dollar.
+
+Hvis du vil sikre at valutakursen for beløpene er oppdatert, kan du justere de ansattes saldoer når du kjører satsjobben Valutakurs. Hvis du vil bruke valutakurstabellen, men gjøre opp ansattes saldoer i lokal valuta, kan du ekskludere ansattes kontoer når du justerer valutakursene.
 
 ## Slik registrerer du utgifter for en ansatt
 

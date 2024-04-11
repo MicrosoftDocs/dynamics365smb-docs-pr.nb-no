@@ -2,15 +2,15 @@
 title: Registrere og justere ressursforbruk og priser
 description: 'Beskriver hvordan du kan registrere ressursforbruket eller forbruket som er knyttet til et prosjekt, for å holde rede på og håndtere kostnader, priser og arbeidstyper.'
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.topic: how-to
 ms.search.keywords: 'project management, capacity, staff'
 ms.search.form: '201,206, 207, 271, 493'
-ms.date: 03/08/2023
+ms.date: 02/22/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Bruke ressurser for prosjekter
+# Bruk ressurser for prosjekter
 
 Du registrerer ressursforbruket i prosjektkladden for å holde oversikt over kostnader, priser og arbeidstypene som er knyttet til prosjekter. Hvis du vil ha mer informasjon, kan du se [Registrere forbruk for prosjekter](projects-how-record-job-usage.md).
 
@@ -25,7 +25,7 @@ Du kan tilordne ressurser til prosjekter ved å opprette prosjektplanleggingslin
 
 ## Slik registrerer du ressursforbruk for et prosjekt
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder** og velg den relaterte koblingen.
 2. Åpne en relevant prosjektkladd, og fyll deretter ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Når kladden er fullført, kan du velge handlingen **Bokfør**.
 
@@ -75,6 +75,5 @@ Hvis du allerede har definert alternative ressurspriser for noen ressurser, kan 
 [Innkjøp](purchasing-manage-purchasing.md)         
 [Salg](sales-manage-sales.md)     
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

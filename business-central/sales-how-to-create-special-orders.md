@@ -5,11 +5,11 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/23/2021
+ms.date: 02/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Opprette spesialbestillinger
+# Opprett spesialbestillinger
 
 Du kan opprette en spesialbestilling for en bestemt katalogvare som skal leveres til en bestemt kunde. Leverandøren din leverer varen til lageret ditt, og du kan deretter sende bare denne varen videre til kunden eller sammen med andre varer i en annen ordre.  
 
@@ -28,7 +28,7 @@ Før du kan bruke denne funksjonen, må du først konfigurere kunden, leverandø
 5. Velg **Spesialbestilling**-handlingen, og velg deretter **Hent ordre**-handlingen.  
 6.  Vis resultater der **Bilagsnr.** er ordrenummeret, på siden **Hent ordrer**. Velg **OK**-knappen. Det opprettes en bestillingsforslagslinje for varen.  
 7.  På bestillingsforslagslinjen velger du **Ny** i feltet **Handlingsmelding**.  
-8.  På siden **Best.forslag** velger du handlingen **Utfør handlingsmelding**. Siden **Utfør handlingsmeld. - forslag** åpnes. Velg **OK**.  
+8.  På siden **Bestillingsforslag** velger du handlingen **Utfør handlingsmelding**. Siden **Utfør handlingsmeld. - forslag** åpnes. Velg **OK**.  
 
     Det vises en melding om at bestillingene er opprettet. Velg **OK**-knappen.  
 

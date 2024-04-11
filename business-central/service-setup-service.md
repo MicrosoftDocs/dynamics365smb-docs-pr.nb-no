@@ -1,23 +1,23 @@
 ---
-title: Sette opp servicehåndtering | Microsoft-dokumentasjon
+title: Konfigurere servicehåndtering | Microsoft Docs
 description: Oversikt over oppgaver for oppsett av servicehåndtering som er tilpasset måten organisasjonene håndterer tjenestene på.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'service, service items, repairs, maintenance, fix'
-ms.date: 04/01/2021
+ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
 # Konfigurere servicehåndtering
-Før du kan begynne å bruke funksjonene for servicehåndtering i [!INCLUDE[prod_short](includes/prod_short.md)], er det et par ting du må konfigurere. Du kan for eksempel opprette koding for standard service-, symptom- og feilkoder og servicevarer og servicevaretyper som selskapets kundeservice trenger.  
+Før du kan begynne å bruke funksjonene for servicehåndtering i [!INCLUDE[prod_short](includes/prod_short.md)], er det et par ting du må konfigurere. Du kan for eksempel opprette koding for standard service-, symptom- og feilkoder og servicevarer og servicevaretyper basert på selskapets krav til kundeservice.  
 
 Når du setter opp servicehåndtering, må du fastsette hvilke servicetyper du vil tilby kundene, og planen for disse servicetypene. En service er en type arbeid som utføres av én eller flere ressurser, for en kunde. En service kan for eksempel være reparasjon av en datamaskin. En servicevare er utstyret eller varen som trenger service, for eksempel en datamaskin hos en bestemt kunde. Du kan definere servicetyper som en del av en gruppe relaterte reparasjons- eller vedlikeholdsvarer.  
   
 Når du definerer en service, kan du knytte den til kompetansen som kreves for å utføre servicen. Du kan også bidra til at servicerepresentanten jobber mer effektivt, ved å definere retningslinjer for sanntidsfeilsøking og tilordne typiske oppstartskostnader, for eksempel reiseutgifter eller andre gebyrer.  
 
-Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.  
+Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artiklene som beskriver dem.  
   
 | Til | Se |
 | --- | --- |
@@ -27,7 +27,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Konfigurer servicetilbud som selskapet leverer til kunder.|[Konfigurere servicetilbud](service-how-setup-service-offerings.md)|
 | Angi retningslinjer for feilsøking som kan hjelpe servicerepresentantene å levere raskere. |[Definere feilsøking](service-how-setup-troubleshooting.md) |
 | Definer ressurstildeling for å gjøre det enklere å tilordne riktig ressurs til en serviceoppgave. |[Definere ressurstildeling](service-how-setup-resource-allocation.md) |
-| Definer priser for tjenester, og definer flere servicekostnader som skal pålegges for serviceordrer. |[Definere priser og ekstra kostnader for servicer](service-how-setup-service-costs-pricing.md)|
+| Definer priser for tjenester, og definer flere servicekostnader som skal pålegges for serviceordrer. |[Konfigurer priser og ekstra kostnader for servicer](service-how-setup-service-costs-pricing.md)|
 | Sett opp ting slik at du kan spore ressurstimer og serviceordrestatus for å prognostisere arbeidsmengder og servicebehov.|[Konfigurere arbeidstimer og servicetimer](service-how-setup-work-service-hours.md)|
 | Definer alternativer for reparasjonsstatus slik at du kan overvåke fremdriften på reparasjonene. | [Definere statuser for serviceordrer og reparasjoner](service-order-repair-status.md)|
 | Definer et program for utlånsobjekter, slik at du kan låne ut en erstatning mens du arbeider på servicevare. |[Konfigurere et program for utlånsobjekter](service-how-setup-loaner-program.md) |

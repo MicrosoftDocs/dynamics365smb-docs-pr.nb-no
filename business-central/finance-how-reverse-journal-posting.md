@@ -28,7 +28,7 @@ Du kan tilbakeføre poster fra alle **Poster**-sider. Fremgangsmåten nedenfor e
 > [!NOTE]
 > Posten må stamme fra en kladdebokføring.
 >
-> Du kan heller ikke tilbakeføre poster som er bokført med informasjon fra en jobb, eller som har realisert agio og disagio i den samme transaksjonen.
+> Du kan heller ikke tilbakeføre poster som er bokført med informasjon fra et prosjekt, eller som har realisert agio og disagio i den samme transaksjonen.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Finansposter**, og velg deretter den relaterte koblingen.
 2. Velg posten du vil tilbakeføre, og velg deretter handlingen **Tilbakefør transaksjon**.

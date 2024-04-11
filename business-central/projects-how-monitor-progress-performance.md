@@ -1,17 +1,17 @@
 ---
-title: Overvåke prosjektfremdrift og -ytelse
+title: Overvåk prosjektfremdrift og -ytelse
 description: Beskriver hvordan du oppretter en varer i arbeid (via)-metode og beregner VIA for å beregne den økonomiske verdien av prosjekter mens de er fortløpende.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.topic: how-to
-ms.date: 03/28/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ms.search.keywords: 'project management, KPI, work in process, work in progress'
 ms.search.form: '89, 92, 1010'
 ms.service: dynamics-365-business-central
 ---
-# Overvåke prosjektfremdrift og -ytelse
+# Overvåk prosjektfremdrift og -ytelse
 
 Med varer i arbeid (VIA) kan du beregne den økonomiske verdien av pågående prosjekter i finans.
 
@@ -38,14 +38,14 @@ Opprett en VIA-metode for prosjekt som oppfyller behovene i organisasjonen, og a
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **VIA-metoder for prosjekt**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**, og fyll deretter ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 3. Lukk siden.   
-4. Hvis du bruke den nye metoden som standardmetode, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **prosjektoppsett** og velg den relaterte koblingen.  
+4. Hvis du bruke den nye metoden som standardmetode, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektoppsett** og velg den relaterte koblingen.  
 5. Velg metoden fra listen i feltet **Standard VIA-metode**.
 
 ## Definer en VIA-metode for et prosjekt
 
 Når du oppretter en nytt prosjekt, må du angi hvilken VIA-metode for prosjekt som gjelder. I noen tilfeller er VIA-metoden for prosjektet du bruker, allerede angitt som standard.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **prosjekter** og velg den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.
 2. Velg handlingen **Ny**. Finn ut mer under [Opprett prosjekter](projects-how-create-jobs.md).  
 3. På siden **Prosjektkort** i feltet **VIA-metode** velger du en VIA-metode fra listen. Hvis en standardmetode er definert, kan du velge et annet alternativ etter behov.  
 
@@ -66,13 +66,13 @@ Tabellen nedenfor beskriver de tre alternativene:
 
 | Felt | Description |
 |--|--|
-| **\<blank\>** | La stå tomt hvis jobb-aktiviteten er en del av en gruppe med oppgaver. |
+| **\<blank\>** | La stå tomt hvis prosjektoppgaven er en del av en gruppe med oppgaver. |
 | **I alt** | Definerer området eller gruppen med aktiviteter som er inkludert i beregningen av VIA og føringer. Alle prosjektoppgaver med **Prosjektoppgavetype** satt til **Bokføring** i gruppen, tas med i VIA-summen, med mindre oppgavens **VIA-sum**-felt er satt til **Utelatt**. |
 | **Utelatt** | Gjelder bare en oppgave med **prosjektoppgavetypen** **bokføring**, og da blir ikke oppgaven tatt med når VIA og føring beregnes. |
 
 I følgende eksempel er prosjektoppgaver delt inn i to VIA-sumgrupperinger, som viser hvordan feltet **VIA-sum** fungerer:
 
-|Prosjektoppgavenr.|Description|Prosjektoppgavetype|Feltet **VIA-sum**|  
+|Prosjektoppgavenr.|Beskrivelse|Prosjektoppgavetype|Feltet **VIA-sum**|  
 |------------------|----------------------|----------------------|----------------------|  
 |1 000|Forberedelse|Fra-sum|\<blank\>|
 |1010|.    Rengjøring|Bokføring|**Utelatt**|
@@ -104,7 +104,7 @@ Du kan fastsette VIA-beløpet som skal bokføres på balansekontoer for rapporte
 4. Velg **OK**-knappen.  
 
 > [!NOTE]  
->   Kjørselen beregner bare VIA, den bokfører den ikke i finans. Hvis du vil bokføre den, må du kjøre kjørselen **Bokfør VIA i Finans** etter at du har beregnet VIA. Finn ut mer i fremgangsmåten nedenfor.
+> Kjørselen beregner bare VIA, den bokfører den ikke i finans. Hvis du vil bokføre den, må du kjøre kjørselen **Bokfør VIA i Finans** etter at du har beregnet VIA. Finn ut mer i fremgangsmåten nedenfor.
 
 ## Bokfør VIA
 
@@ -116,16 +116,16 @@ Når du har beregnet VIA, kan du bokføre VIA i balansekontoer for rapporteringe
 
 ## Beregn og bokfør prosjektferdiggjørelsesposter
 
-Når du har fullført alle aktiviteter for et prosjekt, inkludert bokføring og fakturering, må du oppdatere prosjektet for å sette **Status** til **Ferdig**. Deretter må du reversere alle VIA-er som er bokført i finans.
+Når du har fullført alle aktiviteter for et prosjekt, inkludert bokføring og fakturering, må du oppdatere prosjektet for å sette statusen til **Ferdig**. Deretter må du reversere alle VIA-er som er bokført i finans.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **prosjekter** og velg den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
 2. Merk et åpent prosjekt, og velg handlingen **Rediger**.
 3. I feltet **Status** velger du **Fullført**.
-4. Følg hjelpetrinnene for å beregne og bokføre VIA. Alternativt følger du trinn 5 og 6 hvis du vil gjøre dette manuelt.  
+4. Følg hjelpetrinnene for å beregne og bokføre VIA, eller følg trinn 5 og 6 for å gjøre dette manuelt.  
 5. Velg handlingen **Beregn VIA**.
 6. På siden **Beregn VIA for prosjekt** fyller du ut feltene etter behov.  
 
-     VIA-postene for prosjekt du oppretter ved å kjøre kjørselen, vil ha en avmerking i **Prosjekt ferdig**-boksen for å angi at de er ferdiggjørelsesposter.  
+     VIA-postene for prosjekt som du oppretter ved å kjøre kjørselen, vil ha en avmerking i **Prosjekt ferdig**-boksen for å angi at de er ferdiggjørelsesposter.  
 7. Velg handlingen **Bokfør VIA i Finans for prosjekt**.
 8. Fyll ut feltene etter behov på siden **Bokfør VIA i Finans for prosjekt**.  
 

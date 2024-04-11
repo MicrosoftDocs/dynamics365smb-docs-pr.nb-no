@@ -5,14 +5,14 @@ author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
 ms.topic: conceptual
-ms.date: 09/25/2023
+ms.date: 03/14/2024
 ms.custom: bap-template
 ms.search.keywords: 'consolidation, subsidiaries, consolidate'
 ms.search.form: '1826, 1827'
 ms.service: dynamics-365-business-central
 ---
 
-# Konfigurere selskapskonsolidering
+# Konfigurer selskapskonsolidering
 
 Før du kan konsolidere finanspostene for to eller flere selskaper (datterselskaper) i et konsolidert selskap, må du klargjøre kontoplanen og konsolideringsselskapet.  
 
@@ -75,6 +75,19 @@ En stor del av oppsettet av konsernet er å angi hvordan enheten skal dele sine 
 > [!NOTE]
 > API-alternativet lar deg også dele økonomimoduloppføringer fra andre [!INCLUDE [prod_short](includes/prod_short.md)]-miljøer. Hvis du vil bruke API-alternativet, må brukeren som konfigurerer konsolideringen, ha tillatelse til å få tilgang til finansposter. Tillatelsessettene D365 Basic og D365 Read gir for eksempel tilgang.
 
+#### Konfigurer konsernvalutaer
+
+Når du kjører konsolidering for konsern som bruker en utenlandsk valuta, må du være spesielt oppmerksom på valutakursene som brukes i ulike deler av prosessen, og enda mer når du kjører konsolideringen på nytt. Dette gjør du ved å bruke siden **Konfigurer konsernvalutaer** til å holde oversikt over kursene på en enkel måte.
+
+Siden **Konfigurer konsernvalutaer** gir deg de siste kursene for gjennomsnittsvaluta, sluttkurs og siste sluttkurs. Du kan slå opp valutakursene i valutakurstabellen, noe som gjør det enklere å validere kurser. Du kan endre kursene for nåværende kjøring ved å angi verdiene eller kopiere dem fra tidligere kjøringer. Hvis du vil kopiere kursene, velger du **Velg blant tidligere konsolideringer**. Denne siden er spesielt nyttig når du vil kjøre en tidligere konsolidering på nytt, der du må bruke en tidligere sluttkurs. Dette er nødvendig for å revaluere balansepostene riktig. Siden **Velg blant tidligere konsolideringer** er også nyttig hvis du bare vil vise kursene som ble brukt, for eksempel når du feilsøker. Siden er filtrert etter kjøringer som inkluderte det valgte konsernet.
+
+Du starter satsjobben **Kjør konsolidering** fra listesiden **Konsern**. Du finner også siden **Konfigurer konsernvalutaer** ved å velge handlingen **Valutakurser**.
+
+> [!NOTE]
+> Sidene for valutakursoppsett for gjennomsnittskurs, sluttkurs og siste sluttkurs som for øyeblikket er tilgjengelige på kortet **Konsern**, blir avskrevet i en fremtidig versjon. Du kan imidlertid fortsatt opprettholde disse kursene hvis du har konsern som du importerer via filer.
+
+#### Opprett et konsern
+
 1. Logg deg på det konsoliderte selskapet.
 2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konsern**, og velg deretter den relaterte koblingen.  
 3. Velg **Ny**, og deretter fyller du ut de nødvendige feltene i hurtigfanene **Generelt** og **Finanskontoer**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -100,7 +113,7 @@ Hvis kontoplanen i konsernet er forskjellig fra det konsoliderte selskapet, må 
 
 ### <a name="exchrates"></a>Angi valutakurser for konsolideringer
 
-Hvis et konsern bruker en annen valuta enn det konsoliderte selskapet, må du angi valutakursmetoder for hver konto før du konsoliderer. For hver konto bestemmer innholdet i feltet **Kons. oversettelsesmetode** valutakursen. I det konsoliderte selskapet på hvert konsernkort angir du i **Valutakurstabell**-feltet om konsolidering skal bruke valutakurser fra konsernselskapet eller det konsoliderte selskapet. Hvis du bruker valutakurser fra det konsoliderte selskapet, kan du endre valutakursene for et konsern. For konserner, hvis feltet **Valutakurstabell** på konsernkortet inneholder **Lokal**, kan du endre valutakursen fra konsernkortet. Valutakurser kopieres fra **Valutakurs**-tabellen, men du kan endre dem før konsolidering.
+Hvis et konsern bruker en annen valuta enn det konsoliderte selskapet, må du angi valutakursmetoder for hver konto før du konsoliderer. For hver konto bestemmer innholdet i feltet **Kons. oversettelsesmetode** valutakursen. I det konsoliderte selskapet på hvert konsernkort angir du i feltet **Valutakurstabell** om konsolidering skal bruke valutakurser fra konsernselskapet eller det konsoliderte selskapet. Hvis du bruker valutakurser fra det konsoliderte selskapet, kan du endre valutakursene for et konsern. For konserner, hvis feltet **Valutakurstabell** på konsernkortet inneholder **Lokal**, kan du endre valutakursen fra konsernkortet. Valutakurser kopieres fra **Valutakurs**-tabellen, men du kan endre dem før konsolidering.
 
 Tabellen nedenfor beskriver valutakursmetodene du kan bruke for kontoer.
 
@@ -113,13 +126,11 @@ Tabellen nedenfor beskriver valutakursmetodene du kan bruke for kontoer.
 |Sammensatt kurs | Gjeldende periodebeløp omregnes med gjennomsnittskursen og legges til i den tidligere registrerte balansen i det konsoliderte selskapet. Du bruker vanligvis denne metoden for kontoer for fri egenkapital. Disse kontoene inkluderer beløp fra forskjellige perioder, så de inneholder beløp omregnet med forskjellige valutakurser.|
 |Egenkapitalkurs | Dette alternativet lingner på **Sammensatt**. Forskjellene bokføres på separate finanskonti.|
 
-Du kan angi valutakurser for konserner ved å gjøre følgende:
+Du kan angi valutakurser for et konsern ved å gjøre følgende:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Konsern**, og velg deretter den relaterte koblingen.  
-2. På siden **Konsernoversikt** velger du konsernet og velger deretter **Gjennomsnittskurs (manuell)**.  
-3. På siden **Endre valutakurs** har innholdet i feltet **Tilhørende valutakursbeløp** blitt kopiert fra **Valutakurs**-tabellen, men du kan endre det. Lukk siden.  
-4. Velg handlingen **Sluttkurs**.  
-5. I feltet **Tilhørende valutakursbeløp** angir du valutakursen.
+2. På siden **Konsernoversikt** velger du konsernet og velger deretter handlingen **Valutakurser**.  
+3. På siden **Konfigurer konsernvalutaer** fyller du ut feltene etter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
 ### <a name="dim"></a>Inkludere eller utelate dimensjoner
 

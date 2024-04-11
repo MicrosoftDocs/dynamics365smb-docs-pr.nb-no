@@ -1,16 +1,16 @@
 ---
-title: Kombinere mottak på én faktura
+title: Kombiner kvitteringer på én faktura
 description: 'Hvis du vil fakturere mer enn et kjøp om gangen, kan du bruke funksjonen Kombinere mottak.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.form: '136, 145, 146, 9308'
-ms.date: 08/03/2022
+ms.date: 03/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Kombinere mottak på én faktura
+# Kombiner kvitteringer på én faktura
 
 Hvis du vil fakturere mer enn et kjøp om gangen, kan du velge flere mottakslinjer på kjøpsfakturaen.  
 

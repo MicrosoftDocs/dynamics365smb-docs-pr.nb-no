@@ -132,9 +132,9 @@ I **Shopify-administrator** legger du merke til at ordren nå er merket som *Opp
 
 ### Scenario
 
-Etter en vellykket hurtigstart av den nye nettbutikken, vil du at de nå værende kundene skal besøke den og begynne å legge inn bestillinger. Avhengig av Shopify-planen og -prosessen kan du prøve B2B- og D2C-flyter.
+Etter en vellykket hurtigstart av den nye nettbutikken, vil du at de nå værende kundene skal besøke den og begynne å legge inn bestillinger. Avhengig av Shopify-planen og -prosessen kan du prøve B2B- og DTC-flyter.
 
-### D2C-trinn
+### DTC-trinn
 
 I [!INCLUDE[prod_short](../includes/prod_short.md)] gjør du følgende:
 

@@ -7,7 +7,7 @@ ms.devlang: al
 ms.search.keywords: 'recurring, invoicing, subscription, billing'
 ms.search.form: 283
 ms.reviewer: bholtorf
-ms.date: 04/01/2021
+ms.date: 03/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -18,7 +18,7 @@ Mange selskaper flytter fra en bedriftsomsetningsmodell der omsetningen foretas 
 
 ## Registrere omsetning med en gjentakende finanskladd
 
-En gjentakelseskladd er en finanskladd med spesifikke felt for håndtering av transaksjoner du bokfører ofte, med få eller ingen endringer, for eksempel leie, abonnementer, elektrisitet eller varme. Hvis du bruker disse feltene for gjentatte transaksjoner, kan du bokføre både faste og variable beløp. Når kladden er en gjentakelseskladd, trenger du bare å fylle ut feltene som skal bokføres jevnlig, én gang. Det vil si at kontiene, dimensjonene og dimensjonsverdiene og så videre som du angir, forblir i kladden etter bokføring. Hvis eventuelle justeringer er nødvendig, kan du gjøre det ved hver bokføring.
+En gjentakelseskladd er en finanskladd med spesifikke felt for håndtering av transaksjoner du bokfører ofte, med få eller ingen endringer, for eksempel leie, abonnementer, elektrisitet eller varme. Hvis du bruker disse feltene for gjentatte transaksjoner, kan du bokføre både faste og variable beløp. Når kladden er en gjentakelseskladd, trenger du bare å fylle ut feltene som skal bokføres jevnlig, én gang. Det vil si at kontoene, dimensjonene og dimensjonsverdiene og så videre som du angir, forblir i kladden etter bokføring. Hvis eventuelle justeringer er nødvendig, kan du gjøre det ved hver bokføring.
 
 ### Hvorfor bruke dette alternativet
 
@@ -30,7 +30,7 @@ Hvis du vil ha mer informasjon, kan du se [Arbeid med gjentakelseskladder](ui-wo
 
 ## Opprette flere fakturaer basert på en gjentakende prosjektkladd
 
-Den gjentakende prosjektkladden er et mer avansert alternativ til finanskladden. Du kan definere varer, ressurser og finanskonti, som skal gjentas for hvert prosjekt, og du angir hyppigheten for regelmessighet.  
+Den gjentakende prosjektkladden er et mer avansert alternativ til finanskladden. Du kan definere varer, ressurser og finanskontoer, som skal gjentas for hvert prosjekt, og du angir hyppigheten for regelmessighet.  
 
 Når du har bokført en gjentakende prosjektkladd, kan du opprette flere fakturaer med **Opprett salgsfaktura for prosjekt**. Du kan gå gjennom og bokføre opprettede fakturaer på **Salgsfakturaer**-siden.
 
@@ -40,7 +40,7 @@ Med dette alternativet følger du standard faktureringsprosedyre med alle fordel
 
 For hver ny kunde må du imidlertid opprette et nytt prosjekt og legge til linjer i gjentakelseskladden. 
 
-Hvis du vil ha mer informasjon, kan du se [Opprette prosjektkladdelinjer](projects-how-record-job-usage.md#to-create-job-journal-lines-manually) og [Opprette flere salgsfakturaer for prosjekt](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices).
+Hvis du vil ha mer informasjon, kan du se [Opprett prosjektkladdelinjer](projects-how-record-job-usage.md#to-create-project-journal-lines-manually) og [Opprett flere salgsfakturaer for prosjekt](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices).
 
 ## Opprette flere fakturaer basert på gjentakende salgslinjer
 
@@ -88,7 +88,7 @@ Hvis du vil ha mer informasjon, kan du se [Arbeide med rammeordrer](sales-how-to
 ### Gjentakelsesordrer (Norge)
 
 Du kan bruke gjentakelsesordrer til å opprette rammeordremaler slik at salgsordrer kan opprettes basert på datointervallene du definerer. Hvis du for eksempel leverer den samme salgsordren annenhver uke, kan du bruke en rammeordre til å opprette gjentakelsesordrer.
-Du kan bruke gjentakelsesordrer til å definere en rekke parametere som viser hvordan du oppretter ordrene. Disse gruppene knyttes til rammeordrer som skal opprettes jevnlig. For å opprette gjentakelsesordrer, må du kjøre prosessen med å opprette gjentakelsesordrer med jevne mellomrom. 
+Du kan bruke gjentakelsesordrer til å definere en rekke parametere som viser hvordan du oppretter ordrene. Disse gruppene knyttes til rammeordrer som skal opprettes jevnlig. For å opprette gjentakelsesordrer må du kjøre prosessen med å opprette gjentakelsesordrer med jevne mellomrom. 
 
 #### Hvorfor bruke dette alternativet
 
@@ -106,10 +106,10 @@ På [AppSource.microsoft.com](https://appsource.microsoft.com/) kan du få utvid
 
 [Datoformler](ui-enter-date-ranges.md#use-date-formulas)  
 [Arbeid med gjentakelseskladder](ui-work-general-journals.md#work-with-recurring-journals)  
-[Opprett prosjektkladdelinjer](projects-how-record-job-usage.md#to-create-job-journal-lines-manually)  
-[Opprette flere salgsfakturaer for prosjekt](projects-how-invoice-jobs.md#to-create-multiple-job-sales-invoices)  
+[Opprett prosjektkladdelinjer](projects-how-record-job-usage.md#to-create-project-journal-lines-manually)  
+[Opprett flere salgsfakturaer for prosjekt](projects-how-invoice-jobs.md#to-create-multiple-project-sales-invoices)  
 [Opprette gjentakende salgs- og kjøpslinjer](sales-how-work-standard-lines.md)  
-[Arbeide med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
+[Arbeid med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Fakturere flere servicekontrakter](service-how-create-invoices.md#to-invoice-several-service-contracts)  
 [Behovsprognoser og rammeordrer](design-details-central-concepts-of-the-planning-system.md#demand-forecasts-and-blanket-orders)  
 [Arbeide med rammeordrer](sales-how-to-create-blanket-sales-orders.md)  

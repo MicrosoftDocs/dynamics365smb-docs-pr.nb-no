@@ -1,6 +1,6 @@
 ---
-title: 'Utformingsdetljaer – Flyter for produksjon, montering og prosjekter'
-description: 'Finn ut om flytene mellom hyller for plukking av komponenter og plassering av sluttvarer for montering, produksjon eller jobbordrer.'
+title: 'Utformingsdetaljer – Flyter for produksjon, montering og prosjekter'
+description: 'Finn ut om flytene mellom hyller for plukking av komponenter og plassering av sluttvarer for montering, produksjon eller prosjektordrer.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
@@ -11,31 +11,31 @@ ms.custom: bap-template
 ---
 # Flyter for produksjon, montering og prosjekter
 
-Interne flyter, for eksempel plukkking av komponenter og plassering av sluttvarer for monterings-, jobb-og produksjonsordrer, ligner på inngående eller utgående flyter. Mange av prosessene kan se kjente ut. Denne artikkelen inneholder informasjon om hvordan du arbeider med interne lagerflyter med ulike typer kompleksitet.
+Interne flyter, for eksempel plukking av komponenter og plassering av sluttvarer for monterings-, prosjekt- og produksjonsordrer, ligner på inngående eller utgående flyter. Mange av prosessene kan anses som kjent. Denne artikkelen inneholder informasjon om hvordan du arbeider med interne lagerflyter med ulike typer kompleksitet.
 
 ## Oversikt over ulike konfigurasjonsalternativer
 
-Du kan konfigurere lagerfunksjoner på ulike måter. Det er viktig at alternativene du velger, forbedrer prosessene uten å forårsake indirekte kostnader. Følgende tabeller beskriver typiske konfigurasjoner for håndtering av fysiske varer for produksjon, jobber og monteringsordrer.
+Du kan konfigurere lagerfunksjoner på ulike måter. Det er viktig at alternativene du velger, forbedrer prosessene uten å forårsake indirekte kostnader. Følgende tabeller beskriver typiske konfigurasjoner for håndtering av fysiske varer for produksjon, prosjekter og monteringsordrer.
 
 ### Inngående flyt (plassering)
 
-|Kompleksitetsnivå|Beskrivelse|Innstillinger|Hyllekode|Inngående flyt av produksjonsordre|Inngående flyt av monteringsordre|Inngående flyt av jobber|  
+|Kompleksitetsnivå|Beskrivelse|Innstillinger|Hyllekode|Inngående flyt av produksjonsordre|Inngående flyt av monteringsordre|Inngående flyt for prosjekter|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
-|Ingen dedikert lageraktivitet.|Bokfør fra ordrer og kladder.||Valgfritt. Kontrollert av vekslebryteren **Hyllekode er obligatorisk**.|Produksjonskladd -> Ferdigmeldingskladd</br><br/> **Obs**: Du kan bokføre avgang ved hjelp av **Produksjonskladd**.|Monteringsordre|Plassering er ikke tilgjengelig for jobber|  
-|Grunnleggende|Ordre for ordre.|Plukk nødv. </br><br/> **Obs**: Selv om innstillingen kalles **Plassering nødv.**, kan du fremdeles bokføre avgang fra kildedokumenter på lokasjoner der du velger denne avmerkingsboksen. |Valgfritt. Kontrollert av vekslebryteren **Hyllekode er obligatorisk**.|Produksjonsordre-> Lagerplassering|Monteringsordre|Plassering er ikke tilgjengelig for jobber|
-|Avansert|Konsoliderte plasseringsaktiviteter for flere kildedokumenter.|Mottak nødv. + Plukk nødv.|Valgfritt. Kontrollert av vekslebryteren **Hyllekode er obligatorisk**.|Produksjonsordrer -> Ferdigmeldingskladd|Monteringsordrer-> interne flyttinger | Plassering er ikke tilgjengelig for jobber|
-|Avansert|Samme som over + lagerstyringsaktiviteter|Lagerstyring (avhengig av vekslebrytere blir aktivert automatisk)|Obligatorisk|Samme som ovenfor|Samme som ovenfor| Plassering er ikke tilgjengelig for jobber|
+|Ingen dedikert lageraktivitet.|Bokfør fra ordrer og kladder.||Valgfritt. Kontrollert av vekslebryteren **Hyllekode er obligatorisk**.|Produksjonskladd -> Ferdigmeldingskladd</br><br/> **Obs**: Du kan bokføre avgang ved hjelp av **Produksjonskladd**.|Monteringsordre|Plassering er ikke tilgjengelig for prosjekter|  
+|Grunnleggende|Ordre for ordre.|Plukk nødv. </br><br/> **Obs**: Selv om innstillingen kalles **Plassering nødv.**, kan du fremdeles bokføre avgang fra kildedokumenter på lokasjoner der du velger denne avmerkingsboksen. |Valgfritt. Kontrollert av vekslebryteren **Hyllekode er obligatorisk**.|Produksjonsordre-> Lagerplassering|Monteringsordre|Plassering er ikke tilgjengelig for prosjekter|
+|Avansert|Konsoliderte plasseringsaktiviteter for flere kildedokumenter.|Mottak nødv. + Plukk nødv.|Valgfritt. Kontrollert av vekslebryteren **Hyllekode er obligatorisk**.|Produksjonsordrer -> Ferdigmeldingskladd|Monteringsordrer-> interne flyttinger | Plassering er ikke tilgjengelig for prosjekter|
+|Avansert|Samme som over + lagerstyringsaktiviteter|Lagerstyring (avhengig av vekslebrytere blir aktivert automatisk)|Obligatorisk|Samme som ovenfor|Samme som ovenfor| Plassering er ikke tilgjengelig for prosjekter|
 
 Enkelte konfigurasjoner tillater ikke at du bruker egne lagerdokumenter til å registrere plasseringer. Hvis lokasjonen bruker hyller, kan du imidlertid bruke generelle flyttedokumenter til å flytte produserte eller monterte varer til lager. Finn ut mer under [Flytt varer internt i grunnleggende lageroppsett](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
 ### Utgående flyt (plukk)
 
-|Kompleksitetsnivå|Beskrivelse|Innstillinger|Hyllekode|Utgående flyt av produksjonsordre|Utgående flyt av monteringsordre|Utgående flyt av jobber|  
+|Kompleksitetsnivå|Beskrivelse|Innstillinger|Hyllekode|Utgående flyt av produksjonsordre|Utgående flyt av monteringsordre|Utgående flyt for prosjekter|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
-|Ingen dedikert lageraktivitet.|Bokfør fra ordrer og kladder.||Valgfritt. Kontrollert av vekslebryteren **Hyllekode er obligatorisk**.|Produksjonskladd -> Forbrukskladd </br><br/> **Obs**: Du kan bokføre forbruk ved hjelp av **Produksjonskladd**.|Monteringsordre|Jobb -> Prosjektkladd|  
-|Grunnleggende|Ordre for ordre.|Plukk nødv. </br><br/> **Obs**: Selv om innstillingen kalles **Plukk nødv.**, kan du fremdeles bokføre avgang fra kildedokumenter på lokasjoner der du velger denne avmerkingsboksen. <!-- ToDo Test prod output-->|Valgfritt. Kontrollert av vekslebryteren **Hyllekode er obligatorisk**.|Produksjonsordre-> Lagerplukk|Monteringsordre-> lagerflytting</br><br/>**Lagerflyttingen** kan bare brukes med hyller.|Jobb -> Lagerplukk|
-|Avansert|Konsoliderte plukkaktiviteter for flere kildedokumenter.|Forsendelse nødv. + Plukk nødv.|Valgfritt. Kontrollert av vekslebryteren Hyllekode er obligatorisk|Produksjonsordrer-> Lagerplukk-> Forbrukskladd |Monteringsordrer-> Lagerplukk| Jobber -> Lagerplukk -> Jobbkladd |
-|Avansert|Samme som over + lagerstyringsaktiviteter|Lagerstyring (avhengig av vekslebrytere blir aktivert automatisk)|Obligatorisk|Samme som ovenfor|Samme som ovenfor| Lagerstyring støttes ikke for jobber|
+|Ingen dedikert lageraktivitet.|Bokfør fra ordrer og kladder.||Valgfritt. Kontrollert av vekslebryteren **Hyllekode er obligatorisk**.|Produksjonskladd -> Forbrukskladd </br><br/> **Obs**: Du kan bokføre forbruk ved hjelp av **Produksjonskladd**.|Monteringsordre|Prosjekt -> Prosjektkladder|  
+|Grunnleggende|Ordre for ordre.|Plukk nødv. </br><br/> **Obs**: Selv om innstillingen kalles **Plukk nødv.**, kan du fremdeles bokføre avgang fra kildedokumenter på lokasjoner der du velger denne avmerkingsboksen. <!-- ToDo Test prod output-->|Valgfritt. Kontrollert av vekslebryteren **Hyllekode er obligatorisk**.|Produksjonsordre-> Lagerplukk|Monteringsordre-> lagerflytting</br><br/>**Lagerflyttingen** kan bare brukes med hyller.|Prosjekt -> Lagerplukk|
+|Avansert|Konsoliderte plukkaktiviteter for flere kildedokumenter.|Forsendelse nødv. + Plukk nødv.|Valgfritt. Kontrollert av vekslebryteren Hyllekode er obligatorisk|Produksjonsordrer-> Lagerplukk-> Forbrukskladd |Monteringsordrer-> Lagerplukk| Prosjekt(er) -> Lagerplukk -> Prosjektkladd |
+|Avansert|Samme som over + lagerstyringsaktiviteter|Lagerstyring (avhengig av vekslebrytere blir aktivert automatisk)|Obligatorisk|Samme som ovenfor|Samme som ovenfor| Lagerstyring støttes ikke for prosjekter|
 
 I likhet med inngående flyt tillater ikke enkelte konfigurasjoner at du bruker egne lagerdokumenter til å registrere plasseringer. Hvis lokasjonen bruker hyller, kan du bruke generelle flyttedokumenter til å flytte produserte eller monterte varer. Finn ut mer under [Flytt varer](warehouse-move-items.md).
 
@@ -44,8 +44,8 @@ I likhet med inngående flyt tillater ikke enkelte konfigurasjoner at du bruker 
 Selv om du ikke har egne lageraktiviteter, vil du sikkert likevel holde oversikt over ting som forbruk og produksjonsavgang. Følgende artikler inneholder informasjon om hvordan du behandler mottak for kildedokumenter.
 
 * [Registrere forbruk og avgang for én frigitt produksjonsordrelinje](production-how-to-register-consumption-and-output.md)
-* [Montere elementer](assembly-how-to-assemble-items.md)
-* [Registrer forbruk eller forbruk for prosjekter](projects-how-record-job-usage.md)
+* [Monter varer](assembly-how-to-assemble-items.md)
+* [Registrere forbruk eller bruk for prosjekter](projects-how-record-job-usage.md)
 
 ## Enkelt lageroppsett
 
@@ -83,7 +83,7 @@ For lokasjoner som bruker hyller:
 
 ### Flyter for prosjektstyring i et enkelt lageroppsett
 
-Bruk **lagerplukkdokumenter** til å plukke jobbkomponenter i flyten til prosjektstyring.
+Bruk **lagerplukkdokumenter** til å plukke prosjektkomponenter i flyten til prosjektstyring.
 
 For en lokasjon som bruker hyller definerer **Til-prosjekthyllekode**-feltet på lokasjonen standardflytene til prosjektstyring.
 

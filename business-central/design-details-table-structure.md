@@ -1,6 +1,6 @@
 ---
 title: Designdetaljer – Tabellstruktur | Microsoft-dokumentasjon
-description: 'For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet, er det viktig å forstå tabellstrukturen.'
+description: For å forstå hvordan lagring og bokføring av dimensjonsposter er omformet er det viktig å forstå tabellstrukturen.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
@@ -9,11 +9,13 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Designdetaljer: Tabellstruktur
-For å forstå hvordan dimensjonsoppføringer lagres og bokføres, er det viktig å forstå tabellstrukturen.  
+# Utformingsdetaljer: tabellstruktur
+
+For å forstå hvordan dimensjonsoppføringer lagres og bokføres er det viktig å forstå tabellstrukturen.  
 
 ## Tabell 480, Dimensjonssettpost  
-Du kan ikke endre denne tabellen. Når data er skrevet til tabellen, kan du slette eller redigere dem.
+
+Du kan ikke endre denne tabellen. Når data er skrevet til tabellen, kan du ikke slette eller redigere dem.
 
 |Feltnr.|Feltnavn|Datatype|Merknad|  
 |---------------|----------------|---------------|-------------|  
@@ -166,7 +168,7 @@ Felt 480 finnes i følgende buffertabeller.
 |Tabellnr.|Tabellnavn|  
 |---------------|----------------|  
 |49|**Fakturabokf.buffer**|  
-|212|**Bokføringsbuffer - prosjekt**|  
+|212|**Bokføringsbuffer – prosjekt**|  
 |372|**Betalingsbuffer**|  
 |382|**Buffer for KL-post**|  
 |461|**Fakturalinjebuffer for forskudd**|  

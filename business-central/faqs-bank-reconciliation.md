@@ -1,7 +1,7 @@
 ---
 title: Vanlige spørsmål om bankkontoavstemmingshjelp (forhåndsversjon) med Copilot
 description: 'Disse vanlige spørsmålene gir informasjon om KI-teknologien som brukes til å avstemme bankkontoer og kontoutdrag i Business Central. De omfatter viktige vurderinger og detaljer om hvordan kunstig intelligens brukes, hvordan den er testet og evaluert, og eventuelle spesifikke begrensninger.'
-ms.date: 11/07/2023
+ms.date: 03/27/2024
 ms.custom:
   - responsible-ai-faqs
 ms.topic: article
@@ -13,11 +13,13 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Vanlige spørsmål om bankkontoavstemmingshjelp (forhåndsversjon) med Copilot
+# Vanlige spørsmål om bankkontoavstemmingshjelp med Copilot
+
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
+
+Disse vanlige spørsmålene beskriver KI-effekten av Copilot-hjelp med bankkontoavstemming i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
-
-Disse vanlige spørsmålene beskriver KI-effekten av Copilot-hjelp med bankkontoavstemming i [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 ## Hva er bankkontoavstemmingshjelp?
 

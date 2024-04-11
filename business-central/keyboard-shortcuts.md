@@ -22,7 +22,6 @@ Hvis du vil ha en oversikt over de mest populære hurtigtastene, se [Tastatursna
 > [ ![Ikon for PDF-filen.](media/keyboard_shortcut_inline.png) ](media/keyboard-shortcuts-2023.pdf "Ikon som åpner en PDF-fil")
 
 
-
 ## Oversikt
 
 Hurtigtaster bedrer tilgjengeligheten og gjør det enklere og mer effektivt å navigere til ulike områder og elementer på en side. De fleste nettlesere støtter disse snarveiene. Virkemåten kan imidlertid være forskjellig.
@@ -194,12 +193,12 @@ Når du angir et datofelt, kan du angi datoen manuelt eller åpne en kalender (d
 |--------------------------------|----------|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd>|Åpne kalenderen hvis lukket. **Obs!** Dette fungerer ikke hvis datofeltet er i et rutenett der <kbd>CTRL</kbd>+<kbd>Home</kbd> hopper til den første raden.|
 |<kbd>Ctrl</kbd>+<kbd>Home</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Home</kbd>)|Flytte til gjeldende måned, gjeldende dag.|
-|<kbd>Ctrl</kbd>+<kbd>Pil venstre</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Pil venstre</kbd>)|Flytte til forrige dag.|
-|<kbd>Ctrl</kbd>+<kbd>Pil høyre</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Pil høyre</kbd>)|Flytte til neste dag.|
-|<kbd>Ctrl</kbd>+<kbd>Pil opp</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>Pil opp</kbd>)|Flytte til forrige uke, samme dag i uken.|
-|<kbd>Ctrl</kbd>+<kbd>pil ned</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>pil ned</kbd>)|Flytte til neste uke, samme dag i uken.|
+|<kbd>Pil venstre</kbd><br /><br />(<kbd>Pil venstre</kbd>)|Flytte til forrige dag.|
+|<kbd>Pil høyre</kbd><br /><br />(<kbd>Pil høyre</kbd>)|Flytte til neste dag.|
+|<kbd>Pil opp</kbd><br /><br />(<kbd>Pil opp</kbd>)|Flytte til forrige uke, samme dag i uken.|
+|<kbd>Pil ned</kbd><br /><br />(<kbd>Pil ned</kbd>)|Flytte til neste uke, samme dag i uken.|
 |<kbd>Angi</kbd>|Velge dato med fokus.|
-|<kbd>Ctrl</kbd>+<kbd>End</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>End</kbd>)|Lukke kalenderen og slette gjeldende dato.|
+|<kbd>End</kbd><br /><br />(<kbd>Cmd</kbd>+<kbd>End</kbd>)|Lukke kalenderen og slette gjeldende dato.|
 |<kbd>ESC</kbd>|Lukke kalenderen uten et valg, beholde gjeldende dato.|
 |<kbd>En side ned</kbd>|Flytte til neste måned.|
 |<kbd>PgUp</kbd>|Flytte til forrige måned.|  

@@ -1,7 +1,7 @@
 ---
 title: Vanlige spørsmål om ansvarlig kunstig intelligens for Dynamics 365 Business Central
 description: 'Vanlige spørsmål om ansvarlig kunstig intelligens gir informasjon om KI-teknologien som brukes i Business Central, sammen med viktige vurderinger og detaljer om hvordan kunstig intelligens brukes, hvordan den ble testet og evaluert, og eventuelle spesifikke begrensninger.'
-ms.date: 10/29/2023
+ms.date: 03/27/2024
 ms.custom:
   - responsible-ai-faqs
 ms.topic: article
@@ -18,5 +18,9 @@ ms.collection:
 
 [!INCLUDE[responsible-ai-features](includes/responsible-ai-features.md)]
 
+- [Analysehjelp (forhåndsversjon)](faqs-analysis-assist.md)
 - [Bankkontoavstemmingshjelp (forhåndsversjon)](faqs-bank-reconciliation.md)
+- [Nettprat med Copilot (forhåndsversjon)](faqs-chat-with-copilot.md)
 - [Forslag til markedsføringstekst](faqs-marketing-text.md)
+- [Salgslinjeforslag med Copilot (forhåndsversjon)](faq-sales-suggest-sales-lines-with-copilot.md)
+- [Tildel e-dokumenter til bestillingslinjer med Copilot (forhåndsversjon)](map-edocuments-with-copilot.md)

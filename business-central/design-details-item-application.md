@@ -133,7 +133,7 @@ Hvis brukeren ikke hadde ikke gjort fast utligning mellom kjøpskreditnotaen og 
 
 Følgende tabell viser resultatet i varens verdiposter hvis trinn 2 i forrige scenario utføres uten en fastsatt utligning.  
 
-|Bokføringsdato|Vareposttype|Verdisatt antall|Kostbeløp (faktisk)|Utligningsvarepost|Valuert av gj.sn.kost|Varepostnr.|Postnr.|  
+|Bokføringsdato|Vareposttype|Verdisatt antall|Kostbeløp (faktisk)||Valuert av gj.sn.kost|Varepostnr.|Oppføringsnr.|  
 |-------------------------------------|-----------------------------------------------|-----------------------------------------|------------------------------------------------|--------------------------------------------|-------------------------------------------------|-----------------------------------------------|----------------------------------|  
 |01.01.20|Kjøp|1|200.00||Nei|1|1|  
 |01.01.20|Kjøp|1|1000.00||Nei|2|2|  

@@ -2,20 +2,20 @@
 title: Registrer nye kunder ved å opprette et kundekort (inneholder video)
 description: Beskriver hvordan du oppretter et kundekort for å registrere informasjon om hver nye kunde eller klient du selger til.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
+ms.author: bholtorf
+ms.reviewer: ivkoleti
+ms.topic: how-to
 ms.search.keywords: 'client, customer, credit'
 ms.search.form: '7, 21, 22, 33, 42, 43, 367, 368, 369, 461, 512, 785, 1330, 1380, 1381, 1382, 1627, 2107, 7177, 9080, 9081, 9084, 9301, 9305'
-ms.date: 11/01/2023
-ms.author: bholtorf
+ms.date: 02/26/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Registrer nye kunder
 
 Kunder er kilden til inntektene. Du må registrere gver kunde du selger til, som et kundekort. Kundekort inneholder informasjonen som er nødvendig for å selge produkter til kunden. Finn ut mer under [Fakturer salg](sales-how-invoice-sales.md) og [Registrer nye varer](inventory-how-register-new-items.md).  
 
 Før du kan registrere nye kunder, må du definere forskjellige salgskoder du kan velge fra når du fyller ut kundekort. Finn ut mer under [Definer salg](sales-setup-sales.md).
-
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3PZsM]
 
@@ -80,6 +80,14 @@ Du kan velge å ikke motta advarsler når kundens kredittgrense er overskredet, 
     |**Kredittgrense**|Verdien i feltet **Kredittgrense** på kundekortet sammenlignes med kundens saldo, og det vises en advarsel hvis kundens saldo overskrider dette beløpet.|
     |**Forfalt beløp**|Feltet **Forfalt beløp** er merket av på kundekortet, og det vises en advarsel hvis kunden har en forfalt saldo.|
     |**Ingen advarsel**|Det vises ingen kredittadvarsler om kundens status.|
+
+## Tilordne en selger
+
+Du kan tilordne selgere til kundens leveringsadresse i stedet for faktureringsadressen, slik at salgsrapportene gjenspeiler den virkelige geografiske fordelingen av salget. Tilordning av en selger til en kundes lever til-adresse gir deg mer presis innsikt og optimaliserer ressursallokeringen.
+
+Tilordne en selger på **Kunde**-kortsiden ved å velge **Kunde** og deretter **Lever til-adresser** for å åpne listesiden **Lever til-adresser**. Velg **Administrer** og deretter **Rediger** for å åpne kortsiden **Lever til-adresse**. Skriv inn eller velg en **Selgerkode** for å velge selgeren.
+
+Når du velger alternativet **Alternativ leveringsadresse** som en **Lever til**-lokasjon i et salgsdokument, blir **Selgerkode** oppdatert for å samsvare med selgeren fra **Lever til**- i stedet for **Fakturer til**-adressen. 
 
 ## Se også
 

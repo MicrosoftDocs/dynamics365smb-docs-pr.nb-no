@@ -1,15 +1,15 @@
 ---
-title: Definere og bruke en arbeidsflyt for kjøpsgodkjenning
+title: Definer og bruk en arbeidsflyt for kjøpsgodkjenning
 description: Denne gjennomgangen tar deg gjennom alle trinnene for å konfigurere og bruke en arbeidsflyt for bestillingsgodkjenning i Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 09/13/2022
+ms.date: 03/11/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gjennomgang: Definere og bruke en arbeidsflyt for kjøpsgodkjenning
+# Gjennomgang: Konfigurer og bruk en arbeidsflyt for kjøpsgodkjenning
 
 Du kan automatisere prosessen med å godkjenne nye eller endrede poster, for eksempel dokumenter, kladdelinjer og kundekort, ved å opprette arbeidsflyter med trinnene for godkjenninger som er aktuelle.
 
@@ -40,7 +40,7 @@ For å teste godkjenningsarbeidsflyten logger Stig seg på [!INCLUDE[prod_short]
 
 Før du kan definere godkjenningsbrukere og varslingsmetode, må du kontrollere at disse brukerne finnes i [!INCLUDE[prod_short](includes/prod_short.md)]: én bruker representerer Charlotte. Den andre brukeren, deg selv, representerer Stig. Finn ut mer under [Opprette brukere i henhold til lisenser](ui-how-users-permissions.md).
 
-### Definere godkjenningsbrukere
+### Konfigurer godkjenningsbrukere
 
 Når du er logget på som deg selv, definer Alicia som godkjenningsbruker med deg selv om godkjenner. Sett opp godkjenningsrettigheter og angi hvordan og når du blir varslet om forespørsler om godkjenning.  
 
@@ -59,7 +59,7 @@ Når du er logget på som deg selv, definer Alicia som godkjenningsbruker med de
     |DU||Valgt|
     |CHARLOTTE|DU||
 
-### Definer varsler
+### Konfigurer varslinger
 
 I denne gjennomgangen varsles brukeren med et internt varsel om forespørsler som må godkjennes. Godkjenningsvarsler kan også være sendt via e-post, og du kan legge til et trinn for arbeidsflytsvar som varsler avsenderen når en forespørsel godkjennes eller avslås. Finn ut mer under [Angi når og hvor du kan motta arbeidsflytvarsler](across-how-to-specify-when-and-how-to-receive-notifications.md).
 
@@ -71,7 +71,7 @@ I denne gjennomgangen varsles brukeren med et internt varsel om forespørsler so
 4. På siden **Oppsett av varsling** velger du handlingen **Tidsplan for varsling**.  
 5. Velg **Umiddelbart** i **Gjentakelse**-feltet på siden **Tidsplan for varsling**.  
 
-## Opprette arbeidsflyten for godkjenning
+## Opprett arbeidsflyten for godkjenning
 
 Opprett arbeidsflyten for godkjenning av innkjøp ved å kopiere trinnene fra malen **Arbeidsflyt for bestillingsgodkjenning**. La de eksisterende trinnene i arbeidsflyten forblir uendret, og aktiver deretter arbeidsflyten.  
 

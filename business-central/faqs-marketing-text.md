@@ -80,7 +80,7 @@ For at Microsoft skal kunne beskytte tjenesten og kundene, er det ikke mulig å 
 
 Funksjonen for markedsføringstekstforslag samler inn minimumsdataene som kreves av Business Central for å tilby tjenesten. Hvis du vil ha mer informasjon, kan du se [Dynamics 365-vilkår for Azure OpenAI-drevne funksjoner](https://go.microsoft.com/fwlink/?linkid=2236010).
 
-Funksjonen samler også inn data fra tilbakemeldingen brukeren kan gi ved hjelp av ikonene liker (tommel opp) eller misliker (tommel ned) øverst på **Copilot**-siden . Dataene er anonyme og inkluderer valgene liker eller misliker, misliker-grunnen hvis oppgitt, og Copit-funksjonen tilbakemeldingen gjelder. Vi bruker disse dataene til å evaluere og forbedre kvaliteten på funksjonen.
+Funksjonen samler også inn data fra tilbakemeldingen brukeren kan gi ved hjelp av ikonene liker (tommel opp) eller misliker (tommel ned) øverst på **Copilot**-siden . Dataene er anonyme og inkluderer valgene liker eller misliker, misliker-grunnen hvis oppgitt, og Copilot-funksjonen tilbakemeldingen gjelder. Vi bruker disse dataene til å evaluere og forbedre kvaliteten på funksjonen.
 
 ## Hva er begrensningene for [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]? Hvordan kan brukere minimere virkningen av [!INCLUDE[feature-marketing-text-suggestions](includes/feature-marketing-text-suggestions.md)]-begrensninger når de bruker systemet?
 
@@ -88,7 +88,6 @@ Funksjonen samler også inn data fra tilbakemeldingen brukeren kan gi ved hjelp 
 - [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
 
   Unøyaktige svar kan bli gitt når brukere samhandle med systemet på andre språk enn de støttede språkene. Det kan også genereres unøyaktig tekst når brukerens språk og primære dataspråk i databasen [!INCLUDE[prod_short](includes/prod_short.md)] ikke er identiske.
-
 
 ## Hvilke driftsfaktorer og innstillinger gjør at det går an å bruke systemet på en effektiv og ansvarlig måte?
 

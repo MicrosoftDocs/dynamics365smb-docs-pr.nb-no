@@ -25,7 +25,7 @@ ms.service: dynamics-365-business-central
 |Administrere salgsprosesser og informasjon, for eksempel tilbud, ordrer, returer og kunder, og foreta direkte levering.|[Salg](sales-manage-sales.md)|
 |Administrere innkjøpsprosesser og informasjon, for eksempel fakturaer, salgsordrer, returer og leverandørkontoer, og kjøpe varer fra salgsdokumenter. |[Innkjøp](purchasing-manage-purchasing.md)|
 |Registrere nye lager- eller servicetypevarer, kategorisere varer for enkelt søk, justere lagernivåer og utføre vanlige lageretterkalkuleringsoppgaver.|[Lager](inventory-manage-inventory.md)|
-|Opprette jobber og planlegge ressurser for prosjekter, administrere jobbudsjetter, overvåke fremdrift og spore maskin- og ansattimer.|[Prosjektstyring](projects-manage-projects.md)|
+|Opprett prosjekter og planlegg ressurser for prosjekter, administrere prosjektbudsjetter, overvåk fremdrift og spor maskin- og ansattimer.|[Prosjektstyring](projects-manage-projects.md)|
 |Organisere dine aktiva, sikre riktig periodisk avskrivning og holde oversikt over vedlikeholdskostnader.|[Aktiva](fa-manage.md)|
 |Behandle og støtte salgsinnsatsen din og fokusere samhandlingen på foretrukne kunder og kontakter.|[Forbindelser](marketing-relationship-management.md)|
 |Holde detaljerte poster for ansatte, og registrere fravær for analyseformål. |[Personal](hr-manage-human-resources.md)|

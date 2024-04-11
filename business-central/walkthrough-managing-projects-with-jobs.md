@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
-I denne gjennomgangen får du en innføring i prosjektstyringsfunksjoner i prosjekter. Prosjeker brukes til å estimere forbruket av selskapets ressurser og til å holde rede på de ulike kostbeløpene som er knyttet til ressursene i et bestemt prosjekt. Prosjekter omfatter forbruk av ansattes arbeidstid, maskindriftstid, lagervarer og andre typer forbruk som det kan hende du vil spore etter som et prosjekt går fremover.  
+I denne gjennomgangen får du en innføring i prosjektstyringsfunksjoner. Prosjekter brukes til å estimere forbruket av selskapets ressurser og til å holde rede på de ulike kostbeløpene som er knyttet til ressursene i et bestemt prosjekt. Prosjekter omfatter forbruk av ansattes arbeidstid, maskindriftstid, lagervarer og andre typer forbruk som det kan hende du vil spore etter som et prosjekt går fremover.  
 
  Denne gjennomgangen tar for seg oppsett av et nytt prosjekt i tillegg til noen vanlige oppgaver, for eksempel håndtering av faste priser, betaling i avdrag, bokføring av fakturaer fra prosjekter og kopiering av prosjekter.  
 
@@ -21,17 +21,17 @@ I denne gjennomgangen får du en innføring i prosjektstyringsfunksjoner i prosj
 
  Denne gjennomgangen viser følgende oppgaver:  
 
-### Konfigurere et prosjekt
+### Definere et prosjekt
 
  Opprettelse av et prosjekt blir enkelt når du har definert budsjettstrukturen for prosjekter. Denne gjennomgangen omhandler følgende prosedyrer:  
 
-- Opprette prosjektoppgavelinjer og planleggingslinjer.  
-- Opprette prosjektspesifikke priser for varer, ressurser og finanskonti.  
-- Fakturering fra et prosjekt  
+- Opprett prosjektoppgavelinjer og planleggingslinjer.  
+- Opprett prosjektspesifikke priser for varer, ressurser og finanskonti.  
+- Fakturering fra et prosjekt.  
 
 ### Håndtere faste priser
 
- I prosjektmodulen kan du håndtere faste priser og priser på tjenester og varer som er avtalt med kunder på forhånd. I denne gjennomgangen kan du gjøre følgende:  
+ Du kan håndtere faste priser og priser på tjenester og varer som er avtalt med kunder på forhånd. I denne gjennomgangen kan du gjøre følgende:  
 
 - Vise hvordan kontraktverdier og fakturaverdier fastsettes.  
 - Tillate ekstra arbeid i estimatet som ikke er fakturert.  
@@ -40,8 +40,8 @@ I denne gjennomgangen får du en innføring i prosjektstyringsfunksjoner i prosj
 
  Denne delen av gjennomgangen fokuserer på hvordan du kopierer deler av et prosjekt eller hele prosjektet for å redusere manuell registrering av data og forbedre korrektheten. Det inkluderer følgende:  
 
-- Kopiering av deler av et prosjekt til et nytt prosjekt  
-- Kopiering av prosjektspesifikke priser  
+- Kopiering av deler av et prosjekt til et nytt prosjekt.  
+- Kopiering av prosjektspesifikke priser.  
 - Kopiering av planleggingslinjer  
 
 ### Foreta betaling i avdrag
@@ -68,9 +68,9 @@ I denne gjennomgangen får du en innføring i prosjektstyringsfunksjoner i prosj
 
 ## Hovedscenario
 
-Denne gjennomgangen fokuserer på CRONUS, et design- og konsulentfirma som designer og innreder nye infrastrukturer, for eksempel konferanserom og kontorer, med møbler, tilbehør og reoler. Mesteparten av arbeidet er prosjektorientert. Prakash, prosjektleder hos CRONUS, bruker prosjekter til å få en oversikt over alle pågående prosjekter som CRONUS har startet, samt ferdige prosjekter. Prakash er den som vanligvis utarbeider avtaler med kunder og registrerer kjernen av prosjektet, som er oppgave- og planleggingslinjer samt priser, i [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash synes det er enkelt å opprette, vedlikeholde og gå gjennom informasjon. Florian liker også hvordan [!INCLUDE[prod_short](includes/prod_short.md)] gjør det mulig å kopiere prosjekter og betale i avdrag.
+Denne gjennomgangen fokuserer på CRONUS, et design- og konsulentfirma som designer og innreder nye infrastrukturer, for eksempel konferanserom og kontorer, med møbler, tilbehør og reoler. Mesteparten av arbeidet er prosjektorientert. Prakash, prosjektleder hos CRONUS, bruker prosjekter til å få en oversikt over alle pågående oppgaver som CRONUS har startet, samt ferdige oppgaver. Prakash er den som vanligvis utarbeider avtaler med kunder og registrerer kjernen av prosjektet, som er oppgave- og planleggingslinjer samt priser, i [!INCLUDE[prod_short](includes/prod_short.md)]. Prakash synes det er enkelt å opprette, vedlikeholde og gå gjennom informasjon. Prakash liker også hvordan [!INCLUDE[prod_short](includes/prod_short.md)] gjør det mulig å kopiere prosjekter og betale i avdrag.
 
- Marie, som er medlem i prosjektgruppen og rapporterer til Florian, har ansvaret for den daglige overvåkingen av prosjektet. Tricia registrerer sitt eget arbeid i tillegg til arbeidet utført av teknikere i hver oppgave, registrerer varene de har brukt, og påløpte kostbeløp.  
+ Tricia, som er medlem i prosjektgruppen og rapporterer til Florian, har ansvaret for den daglige overvåkingen av prosjektet. Tricia registrerer sitt eget arbeid i tillegg til arbeidet utført av teknikere i hver oppgave, registrerer varene de har brukt, og påløpte kostbeløp.  
 
 ## Klargjøre eksempeldata
 
@@ -78,16 +78,16 @@ Denne gjennomgangen fokuserer på CRONUS, et design- og konsulentfirma som desig
 
 ### Slik klargjør du eksempeldataene:  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ressurser** og velg den relaterte koblingen.  
-2.  Velg **Ny**-handlingen for å opprette et nytt ressurskort.  
-3.  Skriv inn følgende informasjon på hurtigfanen **Generelt**:  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ressurser** og velg den relaterte koblingen.  
+2. Velg **Ny**-handlingen for å opprette et nytt ressurskort.  
+3. Skriv inn følgende informasjon på hurtigfanen **Generelt**:  
 
     - **Nr.**: **Marie**  
     - **Navn**: **Marie**  
     - **Skriv inn**: **person**  
 
-4.  Velg feltet **Lagerenhet**, og velg **Ny**-handlingen for å åpne siden **Ressursenhet**. Velg **Time** i **Kode**-feltet.  
-5.  Skriv inn følgende informasjon på hurtigfanen **Fakturering**:  
+4. Velg feltet **Lagerenhet**, og velg **Ny**-handlingen for å åpne siden **Ressursenhet**. Velg **Time** i **Kode**-feltet.  
+5. Skriv inn følgende informasjon på hurtigfanen **Fakturering**:  
 
     - **Direkte enhetskost**: **5**  
     - **Indirekte kost-%**: **4**  
@@ -101,74 +101,74 @@ I neste fremgangsmåte kan du opprette en prosjektkladd for Tricia for å bokfø
 
 ### Slik oppretter du en prosjektkladd  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
-2.  Velg **Bunkenavn**-feltet på **Prosjektkladd**-siden. Siden **Prosjektkladder** åpnes.  
-3.  Velg **Ny**-handlingen for å opprette en ny linje med følgende informasjon:  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder** og velg den relaterte koblingen.  
+2. Velg **Bunkenavn**-feltet på **Prosjektkladd**-siden. Siden **Prosjektkladder** åpnes.  
+3. Velg **Ny**-handlingen for å opprette en ny linje med følgende informasjon:  
 
     - **Navn**: **Marie**  
     - **Beskrivelse**: **Marie**  
     - **Nr.serie**: **PKLD-GEN**  
 
-4.  Velg **OK**-knappen for å lagre endringene.
+4. Velg **OK**-knappen for å lagre endringene.
 
-## Konfigurere et prosjekt
+## Definere et prosjekt
 
  I dette scenariet har CRONUS fått i oppdrag av en kunde, Progressive Home Furnishings, å designe et konferanserom og en spisesal. Kunden er basert i USA, og prosjektet krever spesialprogramvare. Prosjektlederen inngår en avtale med kunden og oppretter et prosjekt som er i tråd med avtalen.  
 
-### Slik konfigurerer du et prosjekt:  
+### Slik definerer du et prosjekt  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
-2.  Velg **Ny**-handlingen for å opprette et nytt kort.  
-3.  Skriv inn følgende informasjon på hurtigfanen **Generelt**:  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Prosjekter**, og velg deretter den relaterte koblingen.  
+2. Velg **Ny**-handlingen for å opprette et nytt kort.  
+3. Skriv inn følgende informasjon på hurtigfanen **Generelt**:  
 
     - **Beskrivelse**: **Rådgivning om oppsett av konferanserom**  
     - **Faktura til-kundenr.**: **01445544**  
 
-4.  Skriv inn følgende informasjon på hurtigfanen **Bokføring**:  
+4. Skriv inn følgende informasjon på hurtigfanen **Bokføring**:  
 
     - **Status**: **Planlegging**  
-    - **Bokføringsgruppe - prosjekt**: **Definere**  
+    - **Prosjektbokføringsgruppe**: **Definere**  
     - **VIA-metode**: **Kostverdi**  
 
-5.  Skriv inn dagens dato i feltene **Sluttdato** og **Startdato** på hurtigfanen **Varighet**. Disse datoene er til hjelp ved valutaomregning når prosjektet faktureres.  
-6.  På hurtigfanen **Utenrikshandel** setter du valutakoden til **USD**. Hvis du velger USD i feltet **Valutakode for faktura**, faktureres prosjektet i amerikanske dollar og planlegges bare i den lokale valutaen til CRONUS.  
+5. Skriv inn dagens dato i feltene **Sluttdato** og **Startdato** på hurtigfanen **Varighet**. Disse datoene er til hjelp ved valutaomregning når prosjektet faktureres.  
+6. På hurtigfanen **Utenrikshandel** setter du valutakoden til **USD**. Hvis du velger USD i feltet **Valutakode for faktura**, faktureres prosjektet i amerikanske dollar og planlegges bare i den lokale valutaen til CRONUS.  
 
- Du kan tilpasse prissettingen for kunder per prosjekt, avhengig av avtalene du har definert. I neste fremgangsmåte angir prosjektlederen en kostpris for Maries tid, angir pris for programvaren som kreves, og legger til i reisekostnadene at kunden har godtatt å betale.  
+ +Du kan tilpasse prissettingen for kunder per prosjekt, avhengig av avtalene du har definert. I neste fremgangsmåte angir prosjektlederen en kostpris for Maries tid, angir pris for programvaren som kreves, og legger til i reisekostnadene at kunden har godtatt å betale.  
 
 ### Slik tilpasser du prising:  
 
-1.  Velg **Ressurs**-handlingen på prosjektkortet.  
-2.  Skriv inn følgende informasjon på siden **Ressurspriser for prosjekt**:  
+1. Fra **Prosjektkort**, velg **Ressurs**-handlingen.  
+2. Skriv inn følgende informasjon på siden **Ressurspriser for prosjekt**:  
 
     - **Kode**: **Marie**  
     - **Enhetspris**: **20**  
 
-3.  Lukk siden.  
-4.  Velg handlingen **Vare**.  
-5.  Angi følgende informasjon og tilpasset pris på siden **Varepriser for prosjekt**:  
+3. Lukk siden.  
+4. Velg handlingen **Vare**.  
+5. Angi følgende informasjon og tilpasset pris på siden **Varepriser for prosjekt**:  
 
-    1.  **Varenr.**: **80201 (Grafikkprogram)**  
-    2.  **Enhetspris**: **200**  
+    1. **Varenr.**: **80201 (Grafikkprogram)**  
+    2. **Enhetspris**: **200**  
 
-6.  Lukk siden.  
-7.  Velg **Finanskonto**-handlingen.  
-8.  På siden **Finanskontopriser for prosjekt** skriver du inn følgende informasjon og reisekostnadene, som kunden har godtatt å betale kost pluss 25 prosent for:  
+6. Lukk siden.  
+7. Velg **Finanskonto**-handlingen.  
+8. På siden **Finanskontopriser for prosjekt** skriver du inn følgende informasjon og reisekostnadene, som kunden har godtatt å betale kost pluss 25 prosent for:  
 
-    1.  **Finanskonto**: **8430 (Reise)**  
-    2.  **Enhetskostfaktor**: **1,25**  
+    1. **Finanskonto**: **8430 (Reise)**  
+    2. **Enhetskostfaktor**: **1,25**  
 
 9. Lukk siden.  
 
  De siste trinnene for konfigurasjon av et prosjekt er å legge til prosjektoppgavene og planleggingslinjene som inngår i hver oppgave. Planleggingslinjene fastsetter hva som faktureres til kunden.  
 
-### Slik legger du til prosjektoppgaver:  
+### Slik legger du til prosjektoppgaver  
 
 1.  På **Prosjekt**-kortet for det nye prosjektet velger du **Prosjektoppgavelinjer**-handlingen.  
 2.  Tabellen nedenfor beskriver informasjonen som du bør angi i feltene.  
 
-    |Prosjektoppgavenr.|Beskrivelse|Prosjektoppgavetype|  
+    |Prosjektoppgavenr.|Description|Prosjektoppgavetype|  
     |------------------|---------------------------------------|-------------------|  
-    |1000|Konsultasjon om oppsett av rom|Fra-sum|  
+    |1 000|Konsultasjon om oppsett av rom|Fra-sum|  
     |1010|Konsultasjonsmøte med kunden|Konto|  
     |1020|Utvikling|Konto|  
     |1090|Konsultasjon totalt|Til-sum|  
@@ -189,7 +189,7 @@ I neste fremgangsmåte kan du opprette en prosjektkladd for Tricia for å bokfø
 
 2. Opprett planleggingslinjer med følgende informasjon:  
 
-    | Linje | Linjetype | Planleggingsdato  | Type        | Nr.   | Antall | Enhetspris |
+    | Linje | Linjetype | Planleggingsdato  | Type        | Antall   | Antall | Enhetspris |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Både Budsjett og Fakturerbar | (dagens dato) | Ressurs | Marie | 40        |     |
     | 2    | Både Budsjett og Fakturerbar | (dagens dato) | Ressurs | Egil | 40        |     |
@@ -198,7 +198,7 @@ I neste fremgangsmåte kan du opprette en prosjektkladd for Tricia for å bokfø
      Lukk siden. Totalene oppdateres på siden **Prosjektoppgavelinjer**.  
 3. Velg linje 1020 og velg deretter handlingen **Prosjektplanleggingslinjer**. Angi følgende informasjon:  
 
-    | Linje | Linjetype | Planleggingsdato  | Type        | Nr.   | Antall | Enhetspris |
+    | Linje | Linjetype | Planleggingsdato  | Type        | Antall   | Antall | Enhetspris |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Både Budsjett og Fakturerbar | (dagens dato) | Ressurs | Marie | 80        |     |
     | 2    | Både Budsjett og Fakturerbar | (dagens dato) | Vare | 80201 (grafikkprogram) | 1 |     |
@@ -207,18 +207,18 @@ I neste fremgangsmåte kan du opprette en prosjektkladd for Tricia for å bokfø
 
 ## Beregne gjenstående forbruk
 
- Tricia, medlemmet i prosjektgruppen, har arbeidet på prosjektet en stund og vil registrere timene og forbruket på prosjektet. Tricia har ikke arbeidet flere timer enn det som ble avtalt med kunden på forhånd. Tricia bruker kjørselen **Beregn gjenstående forbruk** til å beregne gjenstående forbruk for prosjektet i en prosjektkladd. For hver oppgave beregner kjørselen differansen mellom planlagt forbruk av varer, ressurser og finansutgifter og det faktiske forbruket som er bokført i prosjektposter. Det gjenstående forbruket vises deretter i prosjektkladden, som hun kan bokføre det fra.  
+ Tricia, medlemmet i prosjektgruppen, har arbeidet på prosjektet en stund og vil registrere timene og forbruket. Tricia har ikke arbeidet flere timer enn det som ble avtalt med kunden på forhånd. Tricia bruker kjørselen **Beregn gjenstående forbruk** til å beregne gjenstående forbruk i en prosjektkladd. For hver oppgave beregner kjørselen differansen mellom planlagt forbruk av varer, ressurser og finansutgifter og det faktiske forbruket som er bokført i prosjektposter. Det gjenstående forbruket vises deretter i prosjektkladden, som hun kan bokføre det fra.  
 
 ### Slik beregner du gjenstående forbruk:  
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
-2.  Åpne oversikten **Prosjektkladd** i **Bunkenavn**-feltet på siden **Prosjektkladd**. Velg prosjektkladden **Marie**.  
-3.  Velg handlingen **Beregn gjenstående forbruk**.  
-4.  Velg **Prosjektnr.**-feltet på hurtigfanen **Prosjektoppgave** på siden **Beregn gjenstående forbruk for prosjekt**, og velg det aktuelle prosjektnummeret, for eksempel J00010.  
-5.  Skriv inn **J00001** i feltet **Bilagsnr.** på hurtigfanen **Alternativer**. Dette gjør det enklere å spore bokføringen senere.  
-6.  Angi dagens dato som bokføringsdato.  
-7.  Velg **OK**-knappen. Dermed genereres prosjektkladdelinjer som hentes fra planleggingslinjene som Florian opprettet for prosjektet.  
-8.  Velg **OK**-knappen på bekreftelsessiden. De genererte linjene legges til i prosjektkladden.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder** og velg den relaterte koblingen.  
+2. Åpne oversikten **Prosjektkladd** i **Bunkenavn**-feltet på siden **Prosjektkladd**. Velg prosjektkladden **Tricia**.  
+3. Velg handlingen **Beregn gjenstående forbruk**.  
+4. På siden **Beregn gjenstående forbruk for prosjekt**, på hurtigfanen **Prosjektoppgave**, velg feltet **Prosjektnr.** og det aktuelle prosjektnummeret, vanligvis J00010.  
+5. Skriv inn **J00001** i feltet **Bilagsnr.** på hurtigfanen **Alternativer**. Dette gjør det enklere å spore bokføringen senere.  
+6. Angi dagens dato som bokføringsdato.  
+7. Velg **OK**-knappen. Dermed genereres prosjektkladdelinjer basert på planleggingslinjene som Prakash opprettet.  
+8. Velg **OK**-knappen på bekreftelsessiden. De genererte linjene legges til i prosjektkladden.  
 9. Kontroller at alle bilagsnumrene er J00001, og velg deretter **Bokfør**-handlingen. Velg **Ja** for å bekrefte bokføringen.  
 
 Linjene er nå bokført.  
@@ -231,7 +231,7 @@ Linjene er nå bokført.
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
 2.  Velg prosjektet du opprettet tidligere, og velg handlingen **Opprett salgsfaktura for prosjekt**.  
-3.  På hurtigfanen **Prosjektoppgave** tømmer du eventuelle filtre på **Prosjektoppgavenr.** for å fakturere prosjektet. Velg det aktuelle prosjektet i **Prosjektnr.**-feltet.  
+3.  På hurtigfanen **Prosjektoppgave** tømmer du eventuelle filtre på **Prosjektoppgavenr.** for å fakturere prosjektet. I feltet **Prosjektnr.** velger du det aktuelle prosjektet.  
 4.  Fyll ut bokføringsdatoen og definer om du vil opprette én faktura per oppgave eller én enkelt faktura for alle oppgaver, på hurtigfanen **Alternativer**.  
 5.  Velg **OK**-knappen for å opprette fakturaen, og velg deretter **OK**-knappen på bekreftelsessiden.  
 
@@ -267,11 +267,11 @@ Linjene er nå bokført.
 2. Velg **Tremøbler AS**-prosjektnummeret og velg deretter **Prosjektoppgavelinjer**-handlingen.  
 3. Velg linje 1120, og høyreklikk beløpet i feltet **Budsjett (kostbeløp)** og velg **Drilldown**.  
 
-     Ved å gå gjennom planleggingslisten er det bestemt at Prakash også trenger Tricia i 30 timer på dette trinnet i prosjektet. Prakash avtaler en fast pris med kunden.  
+     Ved å gå gjennom prosjektplanleggingslinjene er det bestemt at Prakash også trenger Tricia i 30 timer på dette trinnet i prosjektet. Prakash avtaler en fast pris med kunden.  
 
 4. På siden **Prosjektoppgavelinjer** velger du linje 1120, og deretter velger du handlingen **Prosjektplanleggingslinjer**. Opprett en planleggingslinje med følgende informasjon:  
 
-    | Linje | Linjetype | Type        | Nr.   | Antall |
+    | Linje | Linjetype | Type        | Antall   | Antall |
     |------|-----------|-------------|-------|----------|
     | 1    | Både Budsjett og Fakturerbar  | Ressurs | Marie | 30 |
 
@@ -281,9 +281,9 @@ Linjene er nå bokført.
 
 Etter at Tricia er lagt til i estimatet for denne oppgavelinjen, arbeider hun 25 timer på prosjektet og angir disse timene i prosjektkladden.  
 
-### Slik angir du timer i prosjektkladden:  
+### Slik angir du timer i en prosjektkladd  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder** og velg den relaterte koblingen.  
 2. Skriv inn følgende informasjon på en ny linje:  
 
     - **Linjetype**: **(tom)**  
@@ -342,7 +342,7 @@ Florian har inngått en avtale med en kunde, Møbelhandleren A/S, om å foreta o
 
 På siden **Kopier prosjekt** kan du velge prosjektet og oppgavelinjene du vil kopiere. Du kan også kopiere kildeprosjektposter, som gjør at det blir opprettet planleggingslinjer basert på faktisk forbruk, eller du kan kopiere planleggingslinjer fra kildeprosjektet, slik at de opprinnelige planleggingslinjene blir kopiert til det nye prosjektet. Du kan deretter velge hvilken planleggingslinjetype eller postlinjetype du vil ha med, og velge bare den som er relevant for det nye prosjektet. Til slutt kan du velge prosjektet du vil kopiere til, og angi om priser og antall også skal kopieres.  
 
-### Slik kopierer du et prosjekt:  
+### Slik kopierer du et prosjekt  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
 2. Velg **Ny**-handlingen for å opprette et nytt prosjekt. Angi følgende informasjon:  
@@ -380,7 +380,7 @@ CRONUS har nettopp fått et stort prosjekt som kommer til å ta et år å fullf�
 4. I hurtigfanen **Bokføring** i feltet **Bokføringsgruppe - vare** velger du **Tjenester**. Lukk siden.  
 5. Velg **Nr. 40255 Prosjektbetaling** på siden **Kontoplan**, og velg deretter **Innrykk kontoplan**-handlingen. Velg **Ja** for å bekrefte.  
 
-Fremgangsmåtene nedenfor viser hvordan du oppretter en ny jobb, angir prissetting og deretter definerer betaling i avdrag. Du kan opprette spesifikke linjer som er reservert for betalingen i avdrag, på prosjektoppgavelinjene. Alt fullført arbeid på prosjektet som legges til estimatet, angis på forbrukslinjene. Linjetypen er **Fakturerbar** for hver betalingsoppgavelinje på planleggingslinjene, som betyr at kunden blir fakturert. Angi en ny linje for avdraget. Du kan angi informasjonen for varene og ressursene som er brukt i dette prosjektet, på forbruksoppgavelinjen. Dermed økes estimatet, for eksempel ansattes arbeidstid og antallet varer som er brukt i prosjektet.  
+Fremgangsmåtene nedenfor viser hvordan du oppretter en ny jobb, angir prissetting og deretter definerer betaling i avdrag. Du kan opprette spesifikke prosjektlinjer som er reservert for betalingen i avdrag, på prosjektoppgavelinjene. Alt fullført arbeid på prosjektet som legges til estimatet, angis på forbrukslinjene. Linjetypen er **Fakturerbar** for hver betalingsoppgavelinje på planleggingslinjene, som betyr at kunden blir fakturert. Angi en ny linje for avdraget. Du kan angi informasjonen for varene og ressursene som er brukt i dette prosjektet, på forbruksoppgavelinjen. Dermed økes estimatet, for eksempel ansattes arbeidstid og antallet varer som er brukt i prosjektet.  
 
 ### Slik foretar du betaling i avdrag:  
 
@@ -389,10 +389,10 @@ Fremgangsmåtene nedenfor viser hvordan du oppretter en ny jobb, angir prissetti
 
     - **Beskrivelse**: **Ny innredning av resepsjon**  
     - **Faktura til-kundenr.**: **30000**  
-    - **Bokføringsgruppe - prosjekt**: **Definere**  
+    - **Prosjektbokføringsgruppe**: **Definere**  
     - **VIA-metode**: **Kostverdi**  
 
-3. På jobbkortet velger du handlingen **Priser**, og deretter velger du handlingen **Ressurs**. Angi følgende informasjon:  
+3. På prosjektkortet velger du handlingen **Priser**, og deretter velger du handlingen **Ressurs**. Angi følgende informasjon:  
 
     - **Kode**: **Marie**  
     - **Enhetspris**: **10**  
@@ -401,18 +401,18 @@ Fremgangsmåtene nedenfor viser hvordan du oppretter en ny jobb, angir prissetti
 
 4. I delen **Oppgaver** på kortet **Jobb** legger du til prosjektoppgavelinjer som beskrevet i tabellen nedenfor:  
 
-    | Linje | Prosjektoppgavenr. | Beskrivelse          | Prosjektoppgavetype |
+    | Linje | Prosjektoppgavenr. | Description          | Prosjektoppgavetype |
     |------|--------------|----------------------|---------------|
-    | 1    | 1000         | Betalingsavdrag | Bokføring       |
-    | 2    | 2000         | Bruk                | Konto       |
+    | 1    | 1 000         | Betalingsavdrag | Bokføring       |
+    | 2    | 2000         | Bruk                | Bokføring       |
     | 3    | 3 000         | Betaling - Halvveis     | Konto       |
-    | 4    | 4000         | Betaling - fullføring | Konto       |
+    | 4    | 4000         | Betaling - fullføring | Bokføring       |
 
 5. Velg oppgave 1000, og velg deretter handlingen **Prosjektplanleggingslinjer**.  
 
 6. Opprett en planleggingslinje med følgende informasjon:  
 
-    | Linje | Linjetype | Planleggingsdato  | Type        | Nr.   | Antall | Enhetspris |
+    | Linje | Linjetype | Planleggingsdato  | Type        | Antall   | Antall | Enhetspris |
     |------|-----------|----------------|-------------|-------|----------|------------|
     | 1    | Fakturerbar  | (dagens dato) | Finanskonto | 40255 | 1        | 5000       |
 
@@ -422,10 +422,10 @@ Fremgangsmåtene nedenfor viser hvordan du oppretter en ny jobb, angir prissetti
 
 8. Opprett en planleggingslinje med følgende informasjon:
 
-    | Linje | Linjetype | Planleggingsdato  | Type     | Nr.    | Antall |
+    | Linje | Linjetype | Planleggingsdato  | Type     | Antall    | Antall |
     |------|-----------|----------------|----------|--------|----------|
     | 1    | Budsjett    | (dagens dato) | Ressurs | Marie | 120      |
-    | 2    | Budsjett    | (dagens dato) | Vare     | 70104  | 10       |
+    | 2    | Budsjett    | (dagens dato) | Element     | 70104  | 10       |
 
      Lukk siden. På siden **Prosjektoppgavelinjer** kan du se at estimatbeløpene har blitt oppdatert.  
 
@@ -433,7 +433,7 @@ Fremgangsmåtene nedenfor viser hvordan du oppretter en ny jobb, angir prissetti
 
 10. Opprett en planleggingslinje med følgende informasjon:
 
-    | Linje | Linjetype | Planleggingsdato   | Type        | Nr.   | Antall | Enhetspris |
+    | Linje | Linjetype | Planleggingsdato   | Type        | Antall   | Antall | Enhetspris |
     |------|-----------|-----------------|-------------|-------|----------|------------|
     | 1    | Fakturerbar  | (en fremtidig dato) | Finanskonto | 40255 | 1        | 5000       |
 

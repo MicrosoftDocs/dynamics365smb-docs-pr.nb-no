@@ -9,9 +9,9 @@ ms.topic: conceptual
 ms.date: 01/25/2023
 ms.custom: bap-template
 ---
-# Designdetaljer: Sentrale begreper for planleggingssystemet
+# Utformingsdetaljer: Sentrale begreper for planleggingssystemet
 
-Planleggingsfunksjonene er i en kjørsel som først velger de aktuelle varene og perioden som skal planlegges. Deretter kaller kjørselen en kodeenhet som beregner en forsyningsplan, i henhold til varens lavnivåkode (stykklisteplassering). Kodeenheten balansene tilbud-etterspørsel-sett og foreslår handlinger som brukeren skal utføres. De foreslåtte handlingene vises som linjer i planleggingsforslaget eller bestillingsforslaget.  
+Planleggingsfunksjonene er i et satsprosjekt som først velger de aktuelle varene og perioden som skal planlegges. Deretter kaller kjørselen en kodeenhet som beregner en forsyningsplan, i henhold til varens lavnivåkode (stykklisteplassering). Kodeenheten balansene tilbud-etterspørsel-sett og foreslår handlinger som brukeren skal utføres. De foreslåtte handlingene vises som linjer i planleggingsforslaget eller bestillingsforslaget.  
 
 ![Innhold på Planleggingsforslag-siden.](media/design_details_central_concepts_of_the_planning_system_planning_worksheets.png "Innhold på Planleggingsforslag-siden")  
 
@@ -75,7 +75,7 @@ Når du har kjørt planleggingen, inneholder ikke tabellen Handlingsmeldingspost
 
 ## Rekkefølge og prioritet i planlegging
 
-Sekvensen på beregningene i planen er viktig for å få jobben gjort innen rimelig tid. Prioriteringen av krav og ressurser spiller også en viktig rolle for å få de beste resultatene.  
+Sekvensen på beregningene i planen er viktig for å få prosjektet gjort innen rimelig tid. Prioriteringen av krav og ressurser spiller også en viktig rolle for å få de beste resultatene.  
 
 Planleggingssystemet drives av behov. Varer på høyt nivå må planlegges før vare på lavt nivå, fordi de kan generere ekstra behov for varene på lavere nivå. Planlegg for eksempel detaljhandelslokasjoner før distribusjonssentre fordi detaljhandelslokasjonen kan inneholde behov fra distribusjonssenteret. På et detaljert balansenivå hvis en frigitt forsyningsordre kan dekke en ordre, skal ikke systemet opprette en ny forsyningsordre. En forsyning med et bestemt partinummer skal ikke tildeles for å dekke et generelt behov hvis et annen behov krever dette bestemte partiet.  
 
@@ -267,7 +267,7 @@ Hvis feltet ikke er valgt, vil den satsvise jobben **Beregn plan** fortsette til
 
 ## Planleggingsfleksibilitet
 
-Det er ikke alltid praktisk å planlegge en eksisterende forsyningsordre. Når for eksempel produksjonen har startet eller du leier inn ekstra personer på en bestemt dag for å gjøre jobben. For å angi om planleggingssystemet kan endre en ordre, har alle forsyningsordrelinjer et **Planleggingsfleksibilitet**-felt med to alternativer: **Ubegrenset** eller **Ingen**. Hvis feltet er satt til **Ingen**, vil ikke planleggingssystemet prøve å endre forsyningsordrelinjen.  
+Det er ikke alltid praktisk å planlegge en eksisterende forsyningsordre. Når for eksempel produksjonen har startet eller du leier inn ekstra personer på en bestemt dag for å gjøre prosjektet. For å angi om planleggingssystemet kan endre en ordre, har alle forsyningsordrelinjer et **Planleggingsfleksibilitet**-felt med to alternativer: **Ubegrenset** eller **Ingen**. Hvis feltet er satt til **Ingen**, vil ikke planleggingssystemet prøve å endre forsyningsordrelinjen.  
 
 Du kan manuelt velge et alternativ i feltet, men i enkelte tilfeller angis det imidlertid automatisk av [!INCLUDE [prod_short](includes/prod_short.md)]. Det at du manuelt kan angi planleggingsfleksibiliteten er viktig fordi det gjør det enkelt å tilpasse bruk av funksjonen til ulike arbeidsflyter og saker. Hvis du vil finne ut mer om hvordan dette feltet, kan du gå til [Utformingsdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md).  
 

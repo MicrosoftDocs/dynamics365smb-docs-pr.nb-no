@@ -7,7 +7,7 @@ ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.forms: '498, 497'
-ms.date: 09/19/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -18,7 +18,7 @@ Du kan reservere varer for ordrer, bestillinger, serviceordrer, monteringsordrer
 Hver linje du åpner for å reservere varer på **Reservasjon**-siden, viser informasjon om én type linje (salg, kjøp eller kladd) eller lagerpost. Linjene beskriver hvor mange varer som kan reserveres fra hver linje- eller posttype.
 
 > [!TIP]
-> Basert på antallet du har reservert på lageret, viser [!INCLUDE [prod_short](includes/prod_short.md)] en status i dokumentene, slik at du raskt blir klar over neste trinn. For eksempel for å angi at du kan levere en ordre eller begynne å arbeide med en prosjekt, montering eller produksjonsordre. Statusen bidrar også til å redusere risikoen for utilsiktede delvise forsendelser eller forsinkelser på grunn av manglende lager for produksjons- og monteringsordrer.
+> Basert på antallet du har reservert på lageret, viser [!INCLUDE [prod_short](includes/prod_short.md)] en status i dokumentene, slik at du raskt blir klar over neste trinn. For eksempel for å angi at du kan levere en ordre eller begynne å arbeide med et prosjekt, en montering eller en produksjonsordre. Statusen bidrar også til å redusere risikoen for utilsiktede delvise forsendelser eller forsinkelser på grunn av manglende lager for produksjons- og monteringsordrer.
 >
 > Feltet **Reservert fra lager** kan hjelpe deg med å forstå om du kan levere eller plukke for en bestemt ordre eller ordrelinje. For linjer er feltet Reservert fra lager tilgjengelig i faktabokser. Hvis du vil ha tilgang til informasjonen for hele ordren, er feltet på **Statistikk**-siden.
 
@@ -79,13 +79,13 @@ Bruk siden **Reservasjonsforslag** til å reservere og fordele innkommende varer
 2. Velg handlingen **Hent behov**, og angi deretter typen behov du vil reservere fra tilgjengelig lager.
 3. Fyll ut filtrene etter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 4. Valgfritt: Hvis du vil fordele varene med en gang, velger du handlingen **Tildel**.
-5. På siden **Fordelingspolicy** velger du en policy for hvert trinn
+5. På siden **Fordelingspolicy** velger du en policy for hvert trinn.
 
    |Fordelingspolicy  |Description  |
    |---------|---------|
    |Grunnleggende     | Fordeler lager til et behov hvis det ikke er noen konflikter og behovet kan dekkes fullt ut. Du har for eksempel ordre A med antallet 10 og et prosjekt med et antall på 7. Hvis du har 20 på lager, får begge kravene full mengde. Hvis lager er 12, tildeles ingen aksjer. Du må tildele antallet manuelt.        |
    |Lik    | Distribuerer tilgjengelig lager etter behov likt. Du har for eksempel en ordre med antallet 10 og et prosjekt med et antall på 7. Hvis lagernivået ditt er 20, vil begge kravene få fullt antall. Hvis aksjen din er 12, vil begge kravene få 6.        |
-   |Etter kundeprioritet|Utrulling basert på feltet Prioritet på kundekortet. I tilfeller med utilstrekkelige mengder vil systemet prioritere å forsyne kunder med høyeste prioritet.|
+   |Etter kundeprioritet|Distribusjon basert på **Prioritet**-feltet på **Kundekort**-siden. Når det gjelder lave lagerantall, forsyner Business Central kunder med høyeste prioritet først.|
 
 6. Hvis du vil reservere alle linjer der **Godta** er aktivert, velger du handlingen **Reserver**.
     

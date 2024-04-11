@@ -107,7 +107,7 @@ Oppretting av nye flytprosesser eller endring og administrering av eksisterende 
 Disse oppgavene gjøres vanligvis av en administrator eller superbruker. Oppgavene krever omfattende kunnskap om forretningsprosessene i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se følgende artikler i Hjelp for utviklere og IT-eksperter for Business Central:
 
 - [Power Automate-integrasjon](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-overview)
-- [Opprette automatiserte flyter](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows) (dekker også godkjenningsflyter)
+- [Opprette automatiserte flyter](/dynamics365/business-central/dev-itpro/powerplatform/automate-workflows) (dekker også godkjenningsflyter)
 - [Opprett direkteflyter](/dynamics365/business-central/dev-itpro/powerplatform/instant-flows)
 - [Administrer Power Automate-flyter](/dynamics365/business-central/dev-itpro/powerplatform/manage-power-automate-flows)
 <!-- 

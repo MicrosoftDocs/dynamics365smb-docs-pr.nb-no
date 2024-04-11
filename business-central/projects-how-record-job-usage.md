@@ -3,13 +3,13 @@ title: Registrere forbruk eller forbruk av prosjektressurser og -varer
 description: Denne artikkelen beskriver hvordan du registrerer forbruket av varer eller ressurser på prosjekter i prosjektstyring.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bholtorf
+ms.reviewer: andreipa
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 03/08/2023
+ms.date: 02/22/2024
 ms.custom: bap-template
 ---
-# Registrere forbruk eller forbruk for prosjekter
+# Registrere forbruk eller bruk for prosjekter
 
 På siden **Prosjektkort** kan du åpne siden **Prosjektplanleggingslinjer** for å se gjennom og registrere bruk på forskjellige deler av prosjektet. Denne informasjonen oppdateres automatisk når du endrer og overfører informasjon mellom prosjekter og prosjektkladder eller prosjektfakturaer. Dette krever at du har slår på **Bruk forbrukskobling som standard** på siden **Prosjektoppsett**. Finn ut mer under [Definer prosjekter](projects-how-setup-jobs.md).  
 
@@ -19,7 +19,7 @@ De følgende fremgangsmåtene viser hvordan du registrerer faktiske (budsjettert
 
 ## Slik registrerer du forbruk for en prosjektplanleggingslinje av typen Budsjett
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Prosjekter**, og velg deretter den relaterte koblingen.  
 2. Velg prosjektet, og velg deretter handlingen **Prosjektplanleggingslinjer**. 
 3. Velg en prosjektplanleggingslinje av typen **Budsjett** eller **Både Budsjett og fakturerbar** som du vil registrere forbruk for.   
 
@@ -42,9 +42,9 @@ De følgende fremgangsmåtene viser hvordan du registrerer faktiske (budsjettert
 9. På siden **Prosjektplanleggingslinjer** går du gjennom det registrerte forbruket ved å kontrollere feltene **Antall**, **Restantall** og **Ant. som skal overføres til kladd**.  
 10. Gjenta trinn 3 til 8 for å registrere ekstra forbruk.  
 
-## Slik oppretter du prosjektkladdelinjer manuelt:
+## Slik oppretter du prosjektkladdelinjer manuelt
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder** og velg den relaterte koblingen.  
 2. Velg et navn for den relevante prosjektkladden i feltet **Bunkenavn**.  
 3. Angi bilagsnummer, prosjektnummer, prosjektoppgavenummer, type og antall for typen som forbrukes, på en ny linje.  
 4. Når prosjektkladdelinjene er fullført, kan du velge handlingen **Bokfør**.  
@@ -60,7 +60,7 @@ Dermed kan du spore og sammenligne opprinnelige estimater med faktiske resultate
 > [!NOTE]  
 > Vareposter oppretter vareposter og reduserer lagerantallet. Kjørselen **Bokfør lagerkost i Finans** overfører kosten fra lager til Finans. For ressurser opprettes ressursposter.  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder** og velg den relaterte koblingen.  
 2. Velg en journal for det aktuelle prosjektet, og velg deretter handlingen **Beregn gjenstående forbruk**.  
 3. På siden **Beregn gjenstående forbruk for prosjekt** skriver du inn dokumentnummeret og bokføringsdatoen som skal settes inn i kladden, og deretter velger du **OK**-knappen.  
 4. Oppdater journalen med eventuelle endringer som kreves.  
@@ -68,13 +68,11 @@ Dermed kan du spore og sammenligne opprinnelige estimater med faktiske resultate
 
 ## Opprett lager- og lagerplukkdokumenter for et prosjekt
 
-Hvis du vil opprette lager- og lagerplukkdokumenter for prosjekter, må administratoren aktivere **Funksjonsoppdatering: Aktiver lager og lagerplugg fra prosjekter** på **Funksjonsstyring**-siden.
-
-Funksjonen legger til handlingene **Opprett lagerplukk** og **Opprett lagerplukk** i **prosjektkortet**. Når du skal opprette eller registrere et plukkdokument, bruker du handlingene **Plassering/plukklinjer/flyttingslinjer** eller **Registrerte plukklinjer**. Finn ut mer under [Flyter for produksjon, montering og prosjekter](design-details-internal-warehouse-flows.md).
+Bruk handlingene **Opprett beholdningsplukk** og **Opprett lagerplukk** på **Prosjektkort**-siden. Når du skal opprette eller registrere et plukkdokument, bruker du handlingene **Plassering/plukklinjer/flyttingslinjer** eller **Registrerte plukklinjer**. Finn ut mer under [Flyter for produksjon, montering og prosjekter](design-details-internal-warehouse-flows.md).
 
 Du kan bruke handlingene under følgende betingelser:
 
-* **Statusen** for jobben er **åpen**.
+* **Statusen** for prosjektet er **åpen**.
 * **Linjetypen** på prosjektplanleggingslinjen er **Budsjettert** eller både **Budsjettert og fakturerbart**.
 * **Typen** prosjektplanleggingslinje er **vare**.
 * **Plukk nødv.** må være aktivert for den tilknyttede lokasjonen.
@@ -90,9 +88,9 @@ Du kan bruke handlingene under følgende betingelser:
 Etter at du har bokført prosjektkladdelinjer kan du vise planleggingslinjene som er knyttet til prosjektpostene som er bokført.
 
 > [!NOTE]  
-> Dette krever at det er merket av for **Bruk forbrukskobling** for prosjektet. Hvis du vil ha mer informasjon, kan du se [Konfigurere prosjekter](projects-how-setup-jobs.md).  
+> Dette krever at det er merket av for **Bruk forbrukskobling** for prosjektet. Hvis du vil ha mer informasjon, kan du se [Definer prosjekter](projects-how-setup-jobs.md).  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder** og velg den relaterte koblingen.  
 2. Velg en kladd for det aktuelle prosjektet, og velg deretter handlingen **Poster**.  
 3. På siden **Prosjektposter** velger du handlingen **Vis koblede prosjektplanleggingslinjer**.
 
@@ -103,6 +101,5 @@ Etter at du har bokført prosjektkladdelinjer kan du vise planleggingslinjene so
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Salg](sales-manage-sales.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

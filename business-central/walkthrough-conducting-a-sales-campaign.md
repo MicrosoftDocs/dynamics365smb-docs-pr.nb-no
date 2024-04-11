@@ -1,15 +1,15 @@
 ---
-title: 'Gjennomgang: kjøre en salgskampanje'
+title: Gjennomgang av kjøring av en salgskampanje
 description: Denne gjennomgangen gir en detaljert oversikt over alle oppgavene som gjelder når du utfører en salgskampanje i Business Central.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/24/2021
+ms.date: 01/31/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gjennomgang: kjøre en salgskampanje
+# Gjennomgang av kjøring av en salgskampanje
 
 En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter. En viktig del av å lage en kampanje er å velge målgruppen for kampanjen. I [!INCLUDE[prod_short](includes/prod_short.md)] kan du opprette et segment eller en gruppe kontakter ved å bruke filtre, for dette formålet.  
 
@@ -17,7 +17,7 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 
  Du kan bruke funksjonene for kampanje og segment samt de automatiserte prosessene i dem til å planlegge, organisere og holde rede på markedsføringsaktivitetene. Dette øker mulighetene for å få nye kunder og beholde eksisterende kunder.  
 
-## Denne gjennomgangen
+## Om denne gjennomgangen
 
  Denne gjennomgangen viser fremgangsmåten for oppfølging av en varemesse og utvalg av potensielle kunder (kontakter) i en oppfølgingskampanje.  
 
@@ -47,7 +47,7 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 
  Markedsføringsmedarbeideren i markedsføringsavdelingen håndterer produksjon, distribusjon og plassering av markedsføringsmateriell.  
 
- Selskapet har nettopp lansert et nytt produkt de kaller Rome Guest Chair. Produktet ble nylig presentert på en varemesse, Office Futurus. Mange kunder viste stor interesse for produktet, og som en del av et salgsfremmende tiltak får kunder Rome Guest Chair til en egen kampanjepris når de kjøper den i løpet av en kampanjeperiode.  
+ Selskapet har lansert et nytt produkt de kaller Rome Guest Chair. Produktet ble nylig presentert på en varemesse, Office Futurus. Mange kunder viste stor interesse for produktet, og som en del av et salgsfremmende tiltak får kunder Rome Guest Chair til en egen kampanjepris når de kjøper den i løpet av en kampanjeperiode.  
 
  En av oppgavene til markedsføringsmedarbeideren etter varemessen er å registrere alle potensielle kunder som kontakter.  
 
@@ -71,7 +71,7 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 
  Markedsføringssjefen oppretter et segment for å velge kontaktene de vil kommunisere med.  
  
- Når du oppretter et segment, kan du bruke en rekke kriterier til å velge hvilke kontakter som skal være mål for segmentet. Du kan for eksempel velge kontaktpersoner som arbeider hos en kunde eller en potensiell kunde, og som er innkjøpsansvarlige i selskapet. Du bruker filtre til å legge til kontakter i henhold til kriteriene som passer best til formålene. Du kan for eksempel filtrere etter ansvarsområdet til kontaktpersonen eller forretningsforbindelsen eller bransjen til kontaktselskapet. I denne gjennomgangen bruker vi **Ansvarsområde**-filteret til å velge kontakter.
+ Når du oppretter et segment, kan du bruke diverse kriterier til å velge hvilke kontakter som skal være mål for segmentet. Du kan for eksempel velge kontaktpersoner som arbeider hos en kunde eller en potensiell kunde, og som er innkjøpsansvarlige i selskapet. Du bruker filtre til å legge til kontakter i henhold til kriteriene som passer best til formålene. Du kan for eksempel filtrere etter ansvarsområdet til kontaktpersonen eller forretningsforbindelsen eller bransjen til kontaktselskapet. I denne gjennomgangen bruker vi **Ansvarsområde**-filteret til å velge kontakter.
 
 ### Slik oppretter du et segment med de relevante kontaktene:  
 
@@ -115,7 +115,7 @@ En kampanje er en hvilken som helst type aktivitet som omfatter flere kontakter.
 1. Velg **Segment**-handlingen på siden **Segment**.
 2. Velg handlingen **Gå tilbake**.
 
-Kontaktene du nettopp fjernet, legges til i listen over kontakter på nytt.
+Kontaktene du fjernet, legges til i listen over kontakter på nytt.
 
 ## Knytte et segment til en kampanje
 
@@ -143,7 +143,7 @@ Markedsføringssjefen bestemmer seg for at den reduserte listen er den endelige 
 2. På hurtigfanen **Samhandling**, under **Samhandlingsmal – kode**, velger du malen Forretningsbrev, kode **FORR.** og velger **Ja**.
 3. Velg feltet **Språkkode (standard)** for å åpne siden **Samhandlingsspråk for segment**. Velg en **språkkode** og deretter **OK**-knappen.
 4. Kontroller at **Korrespondansetypen (standard)** er satt til **Brev**.
-5. Merk av boksen **Ellipse** i feltet **Vedlegg**. Dette åpner dialogboksen Importer vedlegg.
+5. Merk av i boksen **Ellipse** i feltet **Vedlegg**. Dette åpner dialogboksen Importer vedlegg.
     1. Velg knappen **Velg** for å velge filen.
     1. Finn filen, og velg **Åpne**-knappen for å legge den ved.
 6. I feltet **Emne (standard)** angir du følgende eksempeltekst: **Takk for at du besøkte varemessen**. Velg <kbd>Tab</kbd>-tasten for å gå ut av feltet, og velg **Ja**-knappen.
@@ -172,7 +172,7 @@ Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/searc
 
  Brevene sendes automatisk via e-post og segmentet loggføres. Siden segmentet er loggført, finnes det ikke lenger i listen over segmenter. Det er lagret i listen over loggførte segmenter. Hvis du vil listen, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Loggførte segmenter**, og velg deretter den relaterte koblingen.  
 
-## Registrere kampanjerespons
+## Registrer kampanjerespons
 
  De potensielle kundene svarer på brevet i løpet av de neste par ukene. Markedsføringssjefen ønsker å holde rede på disse svarene og registrerer dem.  
 

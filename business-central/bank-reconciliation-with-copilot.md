@@ -8,15 +8,17 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 10/25/2023
+ms.date: 03/27/2024
 ms.custom: bap-template
 ---
 
 # Avstemme bankkontoer med Copilot (forhåndsversjon)
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE[preview-banner](includes/preview-banner.md)]
 
 Denne artikkelen forklarer hvordan du bruker bankkontoavstemmingshjelpen til å avstemme banktransaksjoner med poster i Business Central.
+
+[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
 ## Om bankkontoavstemmingshjelpen
 
@@ -25,7 +27,7 @@ Bankkontoavstemmingshjelpen er et sett med KI-drevne funksjoner som hjelper deg 
 - Forbedret samsvaring av transaksjoner med poster
 
    Du er kanskje allerede kjent med handlingen **Avstem automatisk** på siden **Bankkontoavstemming** som automatisk avstemmer de flere transaksjoner med poster. Vi kaller denne operasjonen *autoavstem*. Selv om autoavstem fungerer bra, kan algoritmene den bruker, noen ganger resultere i mange uavstemte transaksjoner. Copilot bruker KI-teknologi til å inspisere gjenværende transaksjoner og identifisere flere treff basert på datoer, beløp og beskrivelser. Hvis for eksempel flere fakturaer ble betalt som ett engangsbeløp av en kunde, avstemmer Copilot den ene bankkontoutdragslinjen med flere fakturaposter.
-   
+
    Gå til [Avstemme bankkontoer med Copilot](#reconcile-bank-accounts-with-copilot).
 
 - Foreslåtte finanskontoer
@@ -34,11 +36,9 @@ Bankkontoavstemmingshjelpen er et sett med KI-drevne funksjoner som hjelper deg 
   
    Gå til [Overføre banktransaksjoner uten samsvar til foreslåtte finanskonti](#transfer-unmatched-bank-transactions-to-suggested-general-ledger-accounts).
 
-
-   
 ## Forutsetninger
 
-- Bankkontoavstemmingshjelpen aktiveres og startes. Denne oppgaven utføres av en administrator. [Finn ut mer om aktivering av Copilot- og KI-funksjoner](enable-ai.md).
+- Bankkontoavstemmingshjelpen aktiveres. Denne oppgaven utføres av en administrator. [Finn ut mer om konfigurering av Copilot- og KI-funksjoner](enable-ai.md).
 - Bankkonti i Business Central som du vil avstemme, er koblet til en nettbankkonto eller konfigurert med importformat for bankkontoutdrag. 
 - Du er kjent med bankkontoavstemming i Business Central, som beskrevet i [Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md). 
 

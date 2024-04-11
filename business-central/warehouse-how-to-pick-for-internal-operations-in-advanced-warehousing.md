@@ -21,7 +21,7 @@ Når lokasjonen er satt opp til å bruke plukkbehandling og lagerleveringsbehand
 
 Du kan ikke opprette et lagerplukkdokument fra bunnen av. Plukk er en del av en arbeidsflyt der en person som behandler en ordre, oppretter dem på en push-måte, eller den lageransatte oppretter dem på en pull-måte:
 
-- På en push-måte, der du bruker **Opprett Plukk**-handlingen på siden **Produksjonsordre**,  **Monteringsordre**, siden **Prosjektkort**. Velg linjene som skal plukkes, og klargjør plukkingene ved å angi hvilke hyller det skal tas fra og hvilke det skal plasseres i, og hvor mange enheter som skal håndteres. Hyllene kan være forhåndsdefinert for lagerlokasjonen eller ressursen.
+- På en push-måte, der du bruker **Opprett Plukk**-handlingen på siden **Produksjonsordre**, **Monteringsordre**, siden **Prosjektkort**. Velg linjene som skal plukkes, og klargjør plukkingene ved å angi hvilke hyller det skal tas fra og hvilke det skal plasseres i, og hvor mange enheter som skal håndteres. Hyllene kan være forhåndsdefinert for lagerlokasjonen eller ressursen.
 - I en pull-måte, der du frigir **produksjonsordre**, **monteringsordre**, **prosjektkort** til lager og gjør varene tilgjengelige for plukking. Deretter på siden **Plukkforslag** kan lageransatte bruke handlingen **Hent lagerdokumenter** til å hente tildelte plukkinger.
 
 Når du skal plukke eller flytte komponenter for kildedokumenter på en pull-måte, må du frigi kildedokumentet for å gjøre det klart for plukking. Frigi kildedokumenter for interne operasjoner på følgende måter.  
@@ -138,8 +138,8 @@ Bruk **lagerplukkdokumenter** til å plukke jobbkomponenter i flyten til prosjek
     Du kan nå samle varene i det tilsvarende området og bokføre bruken eller forbruket av de plukkede komponentene ved å bokføre forbrukskladd, monteringsrekkefølge eller prosjektkladd. Følgende artikler gir mer informasjon:
 
     * [Registrere forbruk og avgang for én frigitt produksjonsordrelinje](production-how-to-register-consumption-and-output.md)
-    * [Montere elementer](assembly-how-to-assemble-items.md)
-    * [Registrer forbruk eller forbruk for prosjekter](projects-how-record-job-usage.md)
+    * [Monter varer](assembly-how-to-assemble-items.md)
+    * [Registrere forbruk eller bruk for prosjekter](projects-how-record-job-usage.md)
 
 ## Trekk produksjonskomponenter i et avansert lageroppsett
 

@@ -1,18 +1,18 @@
 ---
-title: Gi salgstilbud
+title: Lag tilbud
 description: Les om hvordan du oppretter et tilbud eller et tilbudsforespørselsdokument for å registrere tilbudet til en kunde eller et kundeemne og selge produkter under visse betingelser.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: rfq
 ms.search.form: '41, 9300'
-ms.date: 07/12/2021
+ms.date: 02/05/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gi salgstilbud
+# Lag tilbud
 
-Du kan opprette et tilbud for å registrere tilbudet til en kunde eller et kundeemne om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser. Du kan sende tilbudet til kunden for å formidle tilbudet. Du kan sende dokumentet i e-post som et PDF-vedlegg. Du kan også få brødteksten i e-posten forhåndsutfylt med et sammendrag av tilbudet. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md).
+Du kan opprette et tilbud for å registrere tilbudet til en kunde eller et kundeemne om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser. Du kan sende tilbudet til kunden for å formidle tilbudet. Du kan sende dokumentet i e-post som et PDF-vedlegg. Du kan også få brødteksten i e-posten forhåndsutfylt med et sammendrag av tilbudet. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md#to-send-documents-by-email).
 
 Mens du forhandler med kunden eller kundeemnet, kan du endre og sende tilbudet på nytt så ofte som nødvendig. Når kunden godkjenner tilbudet, kan du konvertere tilbudet til en salgsfaktura eller ordre som du behandler salget i. Hvis du vil ha mer informasjon, kan du se [Fakturere salg](sales-how-invoice-sales.md) eller [Selge produkter](sales-how-sell-products.md).
 
@@ -73,7 +73,7 @@ I de fleste tilfeller sender du tilbud til kundeemner. Du har ofte en kontaktper
     > For at **Gyldig til-dato for tilbud** skal fylles ut automatisk med et bestemt antall dager etter oppretting av tilbud, kan du fylle ut feltet **Beregning av tilbudets gyldighet** på siden **Salg**.
 
 10. Når tilbudslinjene er fullført, kan du velge handlingen **Send via e-post**.
-11. På siden **Send e-post** fyller du ut resten av feltene, og gå gjennom det innebygde tilbudet. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md).
+11. På siden **Send e-post** fyller du ut resten av feltene, og gå gjennom det innebygde tilbudet. Hvis du vil ha mer informasjon, kan du se [Sende dokumenter i e-post](ui-how-send-documents-email.md#to-send-documents-by-email).
 12. Hvis kontakten godtar tilbudet, velger du **Lag ordre**-handlingen.  
 
     Hvis organisasjonen foretrekker det, kan du også velge handlingen **Lag faktura**.  
@@ -95,7 +95,7 @@ Konverteringen fjerner tilbudet fra databasen. Det opprettes en salgsfaktura ell
 
 [Salg](sales-manage-sales.md)  
 [Sette opp salg](sales-setup-sales.md)  
-[Send dokumenter via e-post](ui-how-send-documents-email.md)  
+[Send dokumenter via e-post](ui-how-send-documents-email.md#to-send-documents-by-email)  
 [Arkiver dokumenter](across-how-to-archive-documents.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 

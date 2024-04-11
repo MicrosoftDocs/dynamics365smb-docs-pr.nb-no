@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.reviewer: bholtorf
 ms.search.form: '130, 142, 1350'
-ms.date: 04/01/2021
+ms.date: 02/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -36,13 +36,13 @@ For hver ordrelinje opprettes det en varepost i tabellen **Varepost** (hvis salg
 
 Du kan enten bokføre eller bokføre og sende. Hvis du velger å bokføre og sende, genereres en PDF-fil som du deretter kan sende. Du kan også velge funksjonen **Massebokfør** for å bokføre flere bestillinger samtidig. Hvis du vil ha mer informasjon, se [Bokføre flere dokumenter samtidig](ui-batch-posting.md).
 
-## Vise poster
+## Vis poster
 
 Når bokføringen er utført, fjernes de bokførte salgslinjene fra bestillingen. En melding viser når bokføringen er gjennomført. Etter dette vil du kunne se de bokførte postene på de forskjellige sidene som inneholder bokførte poster, for eksempel sidene **Kundeposter**, **Finansposter**, **Vareposter**, **Bokførte følgesedler** og **Bokført salgsfaktura**.  
 
 I de fleste tilfeller kan du åpne poster fra det berørte kortet eller dokumentet. På siden **Kundekort** velger du for eksempel handlingen **Poster**.
 
-## Redigere poster
+## Rediger poster
 
 Du kan redigere bestemte felt på bokførte kjøpsdokumenter, for eksempel **Pakkesporingsnr.** -feltet. Hvis du vil ha mer informasjon, kan du se [Redigere bokførte dokumenter](across-edit-posted-document.md). Hvis du vil ha mer kritiske felt som påvirker revisjonssporingen, må du tilbakeføre eller angre bokføringen. Hvis du vil ha mer informasjon, kan du se [Tilbakeføre kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md).
 
@@ -50,7 +50,7 @@ Du kan redigere bestemte felt på bokførte kjøpsdokumenter, for eksempel **Pak
 
 [Salg](sales-manage-sales.md)  
 [Bokfør flere dokumenter samtidig](ui-batch-posting.md)  
-[Redigere bokførte dokumenter](across-edit-posted-document.md)  
+[Rediger bokførte dokumenter](across-edit-posted-document.md)  
 [Sende dokumenter i e-post](ui-how-send-documents-email.md)  
 [Korrigere eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md)  
 [Finne sider og informasjon med Fortell meg](ui-search.md)  

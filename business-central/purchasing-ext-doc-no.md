@@ -5,7 +5,7 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 05/27/2021
+ms.date: 04/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
@@ -17,7 +17,7 @@ Du kan også angi eksterne dokumentnumre i salgsdokumenter. Hvis du vil ha mer i
 
 ## Se også
 
-[Angi eksterne dokumentnumre](across-enter-external-document-numbers.md)  
+[Angi eksternt dokumentnumre](across-enter-external-document-numbers.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Eksterne dokumentnumre i salgsdokumenter](sales-how-invoice-sales.md#external-document-numbers)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)  

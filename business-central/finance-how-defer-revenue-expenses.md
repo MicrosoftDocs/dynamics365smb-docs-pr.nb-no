@@ -1,21 +1,24 @@
 ---
-title: Periodisere inntekter og utgifter
-description: 'Hvis du vil føre inntekter og utgifter i perioder da transaksjonen ikke ble bokført i, kan du automatisk periodisere eller utsette dem etter en angitt tidsplan.'
+title: Periodiser inntekter og utgifter
+description: 'Finn ut hvordan du automatisk periodiserer eller utsetter inntekter og utgifter i perioder da transaksjonen ikke ble bokført i, eller utsetter dem etter en angitt tidsplan.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bnielse
-ms.topic: conceptual
+ms.topic: how-to
 ms.search.keywords: postpone
 ms.search.form: '1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707'
-ms.date: 12/06/2023
+ms.date: 03/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Periodisere inntekter og utgifter
+# Periodiser inntekter og utgifter
 
-Hvis du føre inn en inntekt eller en utgift i en annen periode enn perioden som transaksjonen ble bokført, kan du bruke funksjonaliteten til å periodisere automatisk inntekter og utgifter etter en angitt tidsplan.
+Hvis du føre inn en inntekt eller en utgift i en annen periode enn perioden som transaksjonen ble bokført, kan du periodisere inntekter og utgifter automatisk etter en angitt tidsplan.
 
 Hvis du vil fordele inntekter eller utgifter på de aktuelle regnskapsperiodene, konfigurerer du en periodiseringsmal for ressursen, varen eller finanskontoen, som det vil bli bokført inntekt eller utgift for. Når du bokfører det aktuelle salgs- eller kjøpsdokumentet, periodiseres inntekter eller utgifter til de aktuelle regnskapsperiodene i henhold til en tidsplan for periodisering som styres av innstillingene i malen for periodisering og bokføringsdatoen.
+
+> [!NOTE]
+> Salgs- og kjøpskladder validerer kildesporet. Valideringen krever at kildekoden for henholdsvis salgs- og salgskladder og kjøps- og kjøpskladder ikke er identiske når du bruker utsettelser. Hvis den er konfigurert til å være identisk, kan du omgå denne begrensningen ved å opprette en mal og sats som bruker en annen kildekode.
 
 ## Slik definerer du finanskonti for periodisering
 

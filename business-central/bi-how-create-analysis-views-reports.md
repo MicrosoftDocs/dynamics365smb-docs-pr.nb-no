@@ -1,24 +1,24 @@
 ---
-title: Opprette analyserapporter
+title: Opprett analyserapporter
 description: 'Beskriver hvordan du oppretter nye analyserapporter for salg, kjøp og beholdning, og definerer analysemaler.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '555, 556, 557, 558, 9372, 9370, 9371'
-ms.date: 09/22/2022
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Opprette analyserapporter
+# Opprett analyserapporter
 
 Salgssjefer må analysere omsetning, bruttofortjeneste og andre viktige salgsytelsesindikatorer regelmessig. Innkjøpere er mer interessert i dynamikken rundt innkjøpsvolum, leverandørenes ytelse og kjøpspriser. Logistikk-/lagersjefer trenger derimot opplysninger om vareomsetning, analyse av lagerflytting og statistikk for lagerverdi. Derfor finnes det ingen analyserapport som passer for alt.
 
-Du kan tilpasse analyserapportene basert på poster med de bokførte transaksjonene, for eksempel salg, kjøp, overføring og lagerjusteringer. I en tilpassbar rapport kan kildedataene, som utledes fra varepostene (med tilknyttede verdiposter), kombineres, sammenlignes og presenteres på relevante, brukerdefinerte måter. På denne måten er analyserapporten svært lik en pivottabellrapport i Microsoft Excel.  
+Du kan tilpasse analyserapportene basert på poster med de bokførte transaksjonene, for eksempel salg, kjøp, overføring og lagerjusteringer. I en tilpassbar rapport kan kildedataene, som utledes fra varepostene (med tilknyttede verdiposter), kombineres, sammenlignes og presenteres på relevante, brukerdefinerte måter. På denne måten er analyserapporten lik en pivottabellrapport i Microsoft Excel.  
 
 Du kan for eksempel opprette en personlig rapport som fokuserer på nøkkelkontiene når det gjelder total produktomsetning i beløp og solgte verdier, bruttofortjeneste og bruttofortjenesteprosent i løpet av denne måneden. Deretter kan du få den til å sammenligne disse tallene med resultatene fra tidligere måneder eller den samme måneden i fjor, og beregne avvik. Alt dette kan gjøres i én og samme visning, med muligheten til å navigere til årsaken til identifiserte problemområder og til og med velge rullegardin for å vise detaljer helt ned til nivået for enkelttransaksjoner.  
 
-Analyserapporten består av objektene du vil analysere (for eksempel kunder, kundegrupper, selgere og så videre, representert som linjer) og analyseparameterne, det vil si hvordan du vil analysere objektet (som beregning av fortjeneste, periodevise sammenligninger av salgsbeløp og -volum, eller periodevise sammenligninger av faktiske og budsjetterte tall, representert som kolonner). 
+Analyserapporten består av objektene du vil analysere (f.eks. kunder, kundegrupper, selgere og så videre, representert som linjer) og analyseparameterne, det vil si hvordan du vil analysere objektet (som beregning av fortjeneste, periodevise sammenligninger av salgsbeløp og -volum, eller periodevise sammenligninger av faktiske og budsjetterte tall, representert som kolonner). 
 
 I tillegg til analyserapporter kan du opprette og vise lignende informasjon i analysevisninger (basert på dimensjonene). Lær mer på [Analysere data etter dimensjoner](bi-how-analyze-data-dimension.md).
 
@@ -60,7 +60,7 @@ Du kan for eksempel definere en gruppe med linje- og flere grupper med kolonneop
 
 Følgende fremgangsmåte er basert på salgsanalysevisninger. Fremgangsmåten er lignende for kjøps- og lageranalysevisninger.
 
-En analysekolonnemal som består av et sett med linjer, som representerer en analysekolonne du vil ha i analyserapporten. For å kunne definere en kolonne må du tilordne en analysetypekode til en linje. Denne analysetypekoden bestemmer typen kildedata i varepostene som analysen baseres på. Kildedata kan inkludere kostnader, salgsbeløp eller antall, og deres tilknyttede verdiposter. Du kan definere så mange kolonnemaler du vil og deretter bruke dem til å opprette nye analyserapporter.    
+En analysekolonnemal som består av et sett med linjer, som representerer en analysekolonne du vil ha i analyserapporten. For å kunne definere en kolonne må du tildele en analysetypekode til en linje. Denne analysetypekoden bestemmer typen kildedata i varepostene som analysen baseres på. Kildedata kan inkludere kostnader, salgsbeløp eller antall, og deres tilknyttede verdiposter. Du kan definere så mange kolonnemaler du vil og deretter bruke dem til å opprette nye analyserapporter.    
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgskolonnemaler**, og velg deretter den relaterte koblingen.  
 2. Velg den første tomme linjen, og fyll deretter ut feltene etter behov.

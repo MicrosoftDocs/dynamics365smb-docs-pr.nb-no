@@ -5,16 +5,16 @@ author: brentholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.search.keywords: 'shipping advice, partial shipments, partial deliveries, trade, customer sales order'
-ms.date: 08/12/2022
+ms.date: 02/14/2024
 ms.author: bholtorf
 ---
 # Behandle delleveringer
 
 I en dellevering leveres ikke hele ordren samtidig. I en ordre på 100 enheter sender du for eksempel 40 enheter omgående og 60 senere. Det er ingen begrensninger på antall leveringer for en ordre.
 
-Før du kan bruke delleveringer i [!INCLUDE [prod_short](includes/prod_short.md)], må du imidlertid angi at kunden godtar delleveringer ved å angi feltet **Leveringsønske** på siden **Kundekort**. Hvis kunden vanligvis bare godtar fullstendige leveringer, men deretter ber om en dellevering for en bestemt ordre, kan du endre feltet **Leveringsønske** før bokføring.
+Før du kan bruke delleveringer i [!INCLUDE [prod_short](includes/prod_short.md)], må du imidlertid angi at kunden godtar delleveringer ved å angi feltet **Leveringsønske** på siden **Kundekort**. Hvis kunden bare godtar fullstendige leveringer, men deretter ber om en dellevering for en bestemt ordre, kan du endre feltet **Leveringsønske** før bokføring.
 
-Som standard angir [!INCLUDE [prod_short](includes/prod_short.md)] feltet på siden **Kundekort** som **Delvis**, slik at delleveranser kan brukes. Hvis feltet imidlertid har blitt justert til å angi **Komplett**, er feltet **Levere (antall)** sperret i ordrer for den kunden.
+Som standard angir [!INCLUDE [prod_short](includes/prod_short.md)] feltet på siden **Kundekort** som **Delvis**, slik at delleveranser kan brukes. Hvis feltet imidlertid er justert til å angi **Komplett**, vises feltet **Levere (antall)** som sperret i ordrer for den kunden.
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 

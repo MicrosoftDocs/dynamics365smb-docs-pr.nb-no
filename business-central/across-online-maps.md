@@ -16,7 +16,7 @@ Du kan hente et kart fra den nettbaserte karttjenesten som viser adressen og pla
 * Kundekort
 * Leverandørkort
 * Ressurskort
-* Jobbkort
+* Prosjektkort
 * Bankkort
 * Kontaktkort
 * Ansattkort

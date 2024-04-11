@@ -25,23 +25,26 @@ Med Shopify-koblingen kan virksomheter koble Shopify-butikkene sammen med [!INCL
 - Støtte for mer enn én Shopify-butikk
   - Hver butikk har sitt eget oppsett, inkludert en samling produkter og lokasjoner som brukes til å beregne lager og prislister.  
 - Toveissynkronisering av varer eller produkter
-  - Koblingen synkroniserer bilder, varevarianter, strekkoder, leverandørvarenumre, utvidede tekster og koder.  
+  - Koblingen synkroniserer bilder, varevarianter, strekkoder, leverandørvarenumre, utvidede tekster, markedsføringstekster og koder.  
   - Eksporter vareattributter til Shopify.  
-  - Bruk valgte kundeprisgrupper og rabatter til å definere priser som er eksportert til Shopify.  
-  - Angi om varer kan opprettes automatisk, eller bare tillat oppdateringer av eksisterende produkter.  
+  - Bruk valgte kundeprisgrupper og rabatter til å definere priser som er eksportert til Shopify.
+  - Definer priser og rabatter for produktkataloger knyttet til B2B-selskaper.
+  - Angi om varer kan opprettes automatisk, eller bare tillat oppdateringer av eksisterende produkter.
 - Synkronisering av lagernivåer
   - Velg noen av eller alle de tilgjengelige lokasjonene i [!INCLUDE [prod_short](../includes/prod_short.md)].  
   - Oppdater lagernivåer på flere lokasjoner i Shopify.  
-- Toveissynkronisering av kunder
+- Toveissynkronisering av kunder og selskaper
   - Kartlegg kunder smart per telefon og e-post.  
   - Bruk land-/områdespesifikke maler når du oppretter kunder, noe som bidrar til å sikre at avgiftsinnstillingene er riktige.  
 - Importer ordrer fra Shopify
-  - Ta med ordrer som er opprettet i ulike salgskanaler, for eksempel nettbutikk eller **Shopify-salgssted**.
+  - Ta med ordrer som er opprettet i ulike salgskanaler, for eksempel nettbutikk, **Shopify-salgssted** eller **B2B**.
   - Leveringskostnader, gavekort, tips, leverings- og betalingsmåter, transaksjoner og risiko for svindel.  
   - Under import kan du automatisk opprette kunder i [!INCLUDE [prod_short](../includes/prod_short.md)] eller velge å håndtere kundene i Shopify.  
   - Motta utbetalingsopplysninger fra Shopify Payments.
 - Spor oppfyllelsesinformasjon
-  - Du kan eventuelt velge å overføre varesporingsinformasjon fra [!INCLUDE [prod_short](../includes/prod_short.md)] til Shopify.  
+  - Du kan eventuelt velge å overføre varesporingsinformasjon fra [!INCLUDE [prod_short](../includes/prod_short.md)] til Shopify.
+- Hodeløs integrasjon
+  - Aktiver automatisk synkronisering av produkter, lager, ordrer, oppfyllelser og mer.
 
 ## Hvorfor har Microsoft og Shopify laget dette partnerskapet?
 
@@ -52,6 +55,8 @@ Med Shopify-koblingen kan virksomheter koble Shopify-butikkene sammen med [!INCL
 Denne funksjonen er bare tilgjengelig for nettversjonen av [!INCLUDE[prod_short](../includes/prod_short.md)], fra og med versjon 20.1. Den er ikke tilgjengelig for lokale distribusjoner. Koblingen er forhåndsinstallert for nye miljøer. Organisasjoner med eksisterende miljøer kan laste ned og installere koblingen fra AppSource. Organisasjonen må ha både en [!INCLUDE [prod_short](../includes/prod_short.md)]-lisens og en Shopify-lisens for å kunne bruke koblingen. Hvis du vil finne ut mer om støttede land/områder, språk og utgaver av [!INCLUDE[prod_short](../includes/prod_short.md)], går du til [Shopify-kobling i AppSource](https://go.microsoft.com/fwlink/?linkid=2196238).
 
 Shopify-koblingen fungerer ikke for [innebygd app](/dynamics365/business-central/dev-itpro/deployment/embed-app-overview), der nettadressen for klienten har formatet `https://[application name].bc.dynamics.com`.
+
+Shopify-koblingen fungerer ikke med andre produkter i Dynamics 365-porteføljen.
 
 ## Hva slags støtte tilbys for Shopify-koblingen?
 
@@ -69,8 +74,6 @@ Du kan også utforske [Ekspertmarkedsplassen](https://experts.shopify.com/) for 
 
 ## Funksjoner som for øyeblikket ikke støttes, men som vi sporer og kan vurdere å legge til
 
-- B2B-funksjoner, inkludert selskaper, prislister for selskap og betalingsbetingelser
-  - Utvidet støtte for B2B vil være tilgjengelig i lanseringsbølge 1 i 2024. Hvis du vil ha mer informasjon, kan du se [Koble Business Central sammen med Shopify B2B](/dynamics365/release-plan/2023wave2/smb/dynamics365-business-central/connect-business-central-shopify-b2b)
 - Markeder
   - Flere oversettelser av hoveddataene. Du kan velge ett språk som skal brukes ved eksport av produktinformasjon.
   - Priser per land/område. Det finnes én pris liste for den valgte valutaen. Shopify håndterer konverteringen til andre valutaer.
@@ -78,7 +81,7 @@ Du kan også utforske [Ekspertmarkedsplassen](https://experts.shopify.com/) for 
 
 ## Kan Shopify-koblingen utvides?
 
-Ja, Shopify-koblingenen kan utvides. Kontroller GitHub for å få tilgang til [oversikten over utvidelsespunkter](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) og se nærmere på [eksempler](https://github.com/microsoft/ALAppExtensions/blob/main/Apps/W1/Shopify/extensibility_examples.md).
+Ja, Shopify-koblingenen kan utvides. Kontroller GitHub for å få tilgang til [oversikten over utvidelsespunkter](https://github.com/microsoft/ALAppExtensions/tree/main/Apps/W1/Shopify) og se nærmere på [eksempler](/dynamics365/business-central/dev-itpro/developer/devenv-extending-shopify).
 
 ## Er Shopify-koblingen åpen for bidrag?
 

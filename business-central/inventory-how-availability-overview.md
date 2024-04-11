@@ -7,11 +7,11 @@ ms.topic: overview
 ms.devlang: al
 ms.search.keywords: stock
 ms.search.form: '908, 909, 925, 926, 504, 501, 500, 499, 99000896, 342, 515, 5417, 5415, 5871, 5530, 492, 157, 5540, 5416, 5414, 1872, 1873, 99000902, 353, 491, 9231, 5390'
-ms.date: 09/21/2022
+ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Vise tilgjengeligheten av varer
+# Vis tilgjengeligheten av varer
 
 Fra konteksten for en forretningsoppgave kan du få avansert informasjon om når og hvor en vare er tilgjengelig, for eksempel når du snakker med en kunde om en leveringsdato.
 
@@ -127,7 +127,7 @@ Siden **Montering – tilgjengelighet** viser detaljerte tilgjengelighetsinforma
 
 - Automatisk fra en ordrelinje i monter til ordre-scenarier når du angir et antall som forårsaker et problem med komponenttilgjengelighet.
 - Automatisk fra et monteringsordrehode når du angir en verdi i Antall-feltet som forårsaker et problem med komponenttilgjengelighet.
-- Manuelt når du åpner den fra en monteringsordre. I fanebladet Handlinger, under Funksjoner klikker du Vis tilgjengelighet.
+- Manuelt når du åpner den fra en monteringsordre. I fanebladet Handlinger, under Funksjoner velger du Vis tilgjengelighet.
 
 Hurtigfanen **Detaljer** viser detaljert tilgjengelighetsinformasjon for monteringsvaren, inkludert hvor mange av antallet i monteringsordren som kan monteres innen forfallsdato basert på tilgjengeligheten av de nødvendige komponentene. Dette vises i feltet Kan montere på hurtigfanen Detaljer.
 
