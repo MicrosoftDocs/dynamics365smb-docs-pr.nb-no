@@ -12,7 +12,7 @@ ms.collection: bap-ai-copilot
 ms.custom: responsible-ai-faqs
 ---
 
-# Vanlige spørsmål om salgslinjeforslag med Copilot (forhåndsversjon)
+# <a name="faq-for-sales-line-suggestions-with-copilot-preview"></a>Vanlige spørsmål om salgslinjeforslag med Copilot (forhåndsversjon)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -20,11 +20,11 @@ Disse vanlige spørsmålene beskriver virkningen av kunstig intelligens for funk
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## Hva er salgslinjeforslag med Copilot?
+## <a name="what-is-sales-line-suggestions-with-copilot"></a>Hva er salgslinjeforslag med Copilot?
 
 Salgslinjeforslag med Copilot kan hjelpe deg med å opprette linjer i salgsdokumenter, for eksempel tilbud, ordrer og fakturaer, basert på strukturerte inndata eller naturlig språk. Funksjonen er ikke en generell chat, men en svært spesifikk og integrert opplevelse som du kan bruke i salgsdokumenter. Funksjonen tilbyr to forskjellige kompetanser som hjelper deg med å finne data om individuelle produkter eller de fullstendige dokumentene.
 
-## Hva er mulighetene for salgslinjeforslag med Copilot?
+## <a name="what-are-capabilities-of-sales-line-suggestions-with-copilot"></a>Hva er mulighetene for salgslinjeforslag med Copilot?
 
 * Finn produkter
 
@@ -34,7 +34,7 @@ Salgslinjeforslag med Copilot kan hjelpe deg med å opprette linjer i salgsdokum
 
   Folk gjentar ofte en tidligere ordre, eller i det minste bruker den som utgangspunkt. Men det kan være vanskelig å finne riktig ordre i en bunke med ordrer. Du husker kanskje litt av ordre-ID-en, som kan være et selskapsnummer eller et referansenummer som er mottatt fra en kunde. Du kan bruke ledetekster som *Trenger siste faktura fra april*, og dette bør hjelpe deg med å finne en bestilling raskere.
 
-## Hva er den tiltenkte bruken av salgslinjeforslag med Copilot?
+## <a name="what-is-the-intended-use-of-sales-line-suggestions-with-copilot"></a>Hva er den tiltenkte bruken av salgslinjeforslag med Copilot?
 
 * Finn produkter
 
@@ -59,13 +59,13 @@ Salgslinjeforslag med Copilot kan hjelpe deg med å opprette linjer i salgsdokum
   * *Hent produkter fra bestilling 103031*
   * *Trenger produkter fra siste faktura i august*
 
-## Hvordan ble salgslinjeforslag med Copilot evaluert? Hvilke målinger brukes til å måle ytelse?
+## <a name="how-was-sales-line-suggestions-with-copilot-evaluated-what-metrics-are-used-to-measure-performance"></a>Hvordan ble salgslinjeforslag med Copilot evaluert? Hvilke målinger brukes til å måle ytelse?
 
 Funksjonen gjennomgikk omfattende testing der mange spørringer på amerikansk engelsk representerer både typisk bruk og bruk av dårlige aktører. Testingen var basert på [!INCLUDE [prod_short](includes/prod_short.md)]s demonstrasjonsdata og en stor merket produktkatalog tilgjengelig som åpen kildekode.
 
 Denne funksjonen er bygget i samsvar med Microsoft-standarden for ansvarlig kunstig intelligens. [Finn ut mer om ansvarlig kunstig intelligens fra Microsoft](https://aka.ms/RAI).
 
-## Hva er begrensningene til salgslinjeforslag med Copilot? Hvordan kan brukere minimere virkningen av begrensningene for salgslinjeforslag med Copilot når de bruker systemet?
+## <a name="what-are-the-limitations-of-sales-line-suggestions-with-copilot-how-can-users-minimize-the-impact-of-the-sales-line-suggestions-with-copilot-limitations-when-using-the-system"></a>Hva er begrensningene til salgslinjeforslag med Copilot? Hvordan kan brukere minimere virkningen av begrensningene for salgslinjeforslag med Copilot når de bruker systemet?
 
 * Finn produkter
   
@@ -113,15 +113,15 @@ Når det gjelder produkter, viser tabellen nedenfor tabellene og feltene som Cop
 
   Copilot returnerer ikke alle linjer av typen Vare. Bare varenumre, variantkoder og antall overføres. Antall fra kildedokumentet konverteres til **salgsenheten**.
 
-## I hvilke geografiske områder og på hvilke språk er salgslinjeforslag tilgjengelig?
+## <a name="in-which-geographies-and-languages-is-sales-lines-suggestions-available"></a>I hvilke geografiske områder og på hvilke språk er salgslinjeforslag tilgjengelig?
 
 Med unntak av Canada er denne funksjonen tilgjengelig for alle lokaliseringer for land-/områdemiljøer og på alle språk som støttes. På grunn av begrenset språkstøtte er ikke funksjonen i utgangspunktet tilgjengelig for kanadiske kunder fordi den ikke oppfyller regelverket for språkoverholdelse. Hvis denne funksjonen skal være tilgjengelig for kundemiljøer i land/områder der Azure OpenAI-tjenesten ikke er tatt i bruk, må administratorer først samtykke til å tillate flytting av dataene over grenser for at [!INCLUDE [prod_short](includes/prod_short.md)] skal koble til Azure OpenAI-tjenesten.  
 
-## Hvilke driftsfaktorer og innstillinger gjør at det går an å bruke funksjonen på en effektiv og ansvarlig måte?
+## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-feature"></a>Hvilke driftsfaktorer og innstillinger gjør at det går an å bruke funksjonen på en effektiv og ansvarlig måte?
 
 KI-drevne forslag kan noen ganger være feil eller ufullstendige. Du bør alltid vurdere nøyaktigheten av Copilots forslag før du velger om du vil beholde dem. Copilots forslag lagres ikke i [!INCLUDE [prod_short](includes/prod_short.md)]-databasen før du velger **Behold det**-knappen og avslutter Copilot-vinduet. Du kan redigere og korrigere eventuelle forslag før du velger å beholde dem, eller etter at de er satt inn i et salgsdokument.
 
-### Hva forventes av administratorer og sluttbrukere når de bruker salgslinjeforslag?
+### <a name="what-is-expected-of-administrators-and-end-users-when-using-sales-lines-suggestions"></a>Hva forventes av administratorer og sluttbrukere når de bruker salgslinjeforslag?
 
 Hver enkelt bruker velger om de vil bruke **salgslinjeforslag** eller ikke. Selv når funksjonen er aktivert av administratorer og tilgjengelig, kan du fortsatt velge å bruke den alltid, noen ganger eller aldri.  
 
@@ -131,15 +131,15 @@ Det er administratorene som avgjør om Copilot-funksjoner i [!INCLUDE [prod_shor
 > - Vi støtter ikke denne funksjonen i [!INCLUDE [prod_short](includes/prod_short.md)] lokalt eller i privat sky.
 > - Partnere kan ikke utvide denne funksjonen. Dette betyr at partnerutviklere ikke kan endre, erstatte eller utvide den.
 
-## Er Copilot den eneste måten å opprette salgslinjer på?  
+## <a name="is-copilot-the-only-means-to-create-sales-lines"></a>Er Copilot den eneste måten å opprette salgslinjer på?
 
 Nei, bruk av Copilot er valgfritt. [!INCLUDE [prod_short](includes/prod_short.md)] tilbyr ikke-KI-drevne måter å sette inn salgslinjer eller kopiere dokumenter på. Organisasjoner kan bruke begge tilnærmingene samtidig.  
 
-## Hvordan gir jeg tilbakemelding om KI-generert innhold?  
+## <a name="how-do-i-give-feedback-about-ai-generated-content"></a>Hvordan gir jeg tilbakemelding om KI-generert innhold?
 
 Hver gang Copilot gir forslag, kan du gi tilbakemelding til Microsoft direkte fra Copilot-vinduet, ved hjelp av Liker- og Liker ikke-kontrollene. Din tilbakemelding er anonym, og vi bruker disse dataene til å forbedre kvaliteten på tjenesten.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Foreslå linjer i ordrer med Copilot](sales-suggest-sales-lines-with-copilot.md)  
 [Konfigurer Copilot- og KI-funksjoner](enable-ai.md)  

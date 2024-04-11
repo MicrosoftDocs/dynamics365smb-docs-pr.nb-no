@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Definer ressurser for prosjekter
+# <a name="set-up-resources-for-projects"></a>Definer ressurser for prosjekter
 
 For å behandle ressursaktiviteter på riktig måte må du definere ressursene og de relaterte kostnadene og prisene. De prosjektrelaterte prisene, rabattene og kostfaktorreglene er definert på prosjektkortet. Du kan angi kostnadene og prisene for individuelle ressurser, ressursgrupper eller alle tilgjengelige ressurser for firmaet.
 
@@ -25,7 +25,7 @@ Du angir standardbeløpet per time når ressursen opprettes. Hvis du for eksempe
 >  
 > Hvis du bokfører konserninterne transaksjoner, selv om du kan gi en ressurs til en linje på en salgsordre, hvis du konverterer salgsordren til en bestilling på mottakersiden, inkluderes ikke ressursen. Hvis du vil bruke ressurser i konserninterne transaksjoner, bruker du feltet **Finanskontonr. for KI-partnerkjøp** på ressurskortet for å angi hvilken konto utgiftene skal bokføres til.
 
-## Slik konfigurerer du en ressurs
+## <a name="to-set-up-a-resource"></a>Slik konfigurerer du en ressurs
 
 Opprette et kort for hver ressurs du vil bruke i prosjekter.
 
@@ -33,7 +33,7 @@ Opprette et kort for hver ressurs du vil bruke i prosjekter.
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Slik definerer du en ressursgruppe
+## <a name="to-set-up-a-resource-group"></a>Slik definerer du en ressursgruppe
 
 Du kan kombinere flere ressurser i én ressursgruppe. Alle kapasiteter og budsjetter for ressursgrupper akkumuleres fra de enkelte ressursene. Det er også mulig å angi kapasiteter for ressursgrupper, enten uavhengig av akkumulerte verdier eller i tillegg til disse.
 
@@ -41,7 +41,7 @@ Du kan kombinere flere ressurser i én ressursgruppe. Alle kapasiteter og budsje
 2. Velg handlingen **Ny**.
 3. Fyll ut feltene etter behov.
 
-## Angi kapasiteten til en ressurs
+## <a name="to-set-capacity-for-a-resource"></a>Angi kapasiteten til en ressurs
 
 Hvis du vil beregne hvor mye tid en ressurs kan bruke på prosjekter, må deres kapasitet først defineres som tilgjengelig tid per periode i arbeidskalenderen. Dette oppsettet brukes når du fyller ut prosjektplanleggingslinjer som inneholder ressursen. Hvis du vil ha mer informasjon, kan du se [Opprette prosjekter](projects-how-create-jobs.md).
 
@@ -54,7 +54,7 @@ Hvis du vil beregne hvor mye tid en ressurs kan bruke på prosjekter, må deres 
 7. Velg handlingen **Oppdater kapasitet**. Siden **Ressurskapasitet** oppdateres med den angitte kapasiteten.
 8. Lukk siden.
 
-## Slik definerer du alternative ressurskostpriser
+## <a name="to-set-up-alternate-resource-costs"></a>Slik definerer du alternative ressurskostpriser
 
 I tillegg til kostprisen som er angitt på ressurskortet, kan du definere alternative kostpriser for hver ressurs. Hvis du for eksempel betaler ansatte en høyere timesats for overtid, kan du definere en ressurskostpris for overtidssatsen. Den alternative kostprisen du definerer for ressursen, overstyrer kostprisen på ressurskortet når du bruker ressursen i ressurskladden.
 
@@ -65,7 +65,7 @@ I tillegg til kostprisen som er angitt på ressurskortet, kan du definere altern
 
 **Merk**. Hvis du vil definere ressurskostpriser som skal gjelde for alle ressurser og ressursgrupper, åpner du siden **Ressurskostpriser** og fyller ut feltene.
 
-## Slik definerer du alternative ressurspriser
+## <a name="to-set-up-alternate-resource-prices"></a>Slik definerer du alternative ressurspriser
 
 I tillegg til prisen som er angitt på ressurskortet, kan du definere alternative priser for hver ressurs. Disse alternative prisene kan være betinget. De kan være avhengig av at ressursen brukes med et bestemt prosjekt eller arbeidstype.
 
@@ -74,7 +74,7 @@ I tillegg til prisen som er angitt på ressurskortet, kan du definere alternativ
 3. På siden **Ressurspriser** fyller du ut feltene på en linje etter behov.
 4. Gjenta trinn 3 for hvert alternativ ressurspris du vil definere.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurer prosjektstyring](projects-setup-projects.md)  
 [Prosjektstyring](projects-manage-projects.md)  

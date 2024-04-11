@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Om produksjonsordrer
+# <a name="about-production-orders"></a>Om produksjonsordrer
 
 Produksjonsordrer brukes til å håndtere konverteringen av kjøpt materiale til produserte varer. Produksjonsordrer dirigerer arbeid gjennom ulike arbeidssentre eller produksjonsressurser i produksjonen.  
 
@@ -32,7 +32,7 @@ Produksjonsordrer er utgangspunkt for:
 - styring av gjeldende produksjon  
 - sporing av ferdig produksjon  
 
-## Oppretting av produksjonsordrer  
+## <a name="production-order-creation"></a>Oppretting av produksjonsordrer
 
 Du kan opprette produksjonsordrer manuelt etter hvert som det er behov for dem, på **Produksjonsordre**-siden, eller generere dem fra siden **Salgsordreplanlegging** eller **Ordreplanlegging**. Du kan også opprette flere ordrer på **Planleggingsforslag**-siden.  
 
@@ -44,7 +44,7 @@ Du kan oroduksjonsordrer ved å bruke informasjon fra:
 - Produksjonsressurser  
 - Arbeidssentre  
 
-## Begrensninger på oppretting av produksjonsordrer  
+## <a name="limitations-on-creating-production-orders"></a>Begrensninger på oppretting av produksjonsordrer
 
 Produksjonsordrer blir automatisk reservert og sporet til kilden når:  
 
@@ -57,18 +57,18 @@ Hvis du vil ha mer informasjon, kan du se [Spore relasjoner mellom behov og fors
 
 Produksjonsordrer som opprettes på andre måter, blir ikke automatisk reservert og sporet.
 
-## Produksjonsordrestatus  
+## <a name="production-order-status"></a>Produksjonsordrestatus
 
 Statusen for produksjonsordren styrer hvordan produksjonsordren skal fungere i programmet. Ordrestatysen styrer produksjonsformen og -innholdet. Produksjonsordrene vises på forskjellige sider i henhold til statusen. Du kan ikke endre statusen for en produksjonsordre manuelt. Du må bruke funksjonen **Endre status** i den individuelle produksjonsordren eller på siden **Endre produksjonsordrestatus**.  
 
-### Simulert produksjonsordre  
+### <a name="simulated-production-order"></a>Simulert produksjonsordre
 
 En simulert produksjonsordre er unik, basert på følgende egenskaper:  
 
 - Som navnet antyder, er dette en simulering du kan bruke til tilbud og kostnader. For eksempel når avdelingen for forskning og utvikling ønsker å få et kostnadsoverslag for en foreslått vare. En simulert produksjonsordre fungerer som et eksempel på en produksjonsordre.  
 - De påvirker ikke planleggingen av ordrer. Planlegging (MPS og MRP) verken tar hensyn til eller påvirkes av simulerte produksjonsordrer. En simulert produksjonsordre kan heller ikke brukes som en mal siden den forsvinner når du endrer statusen til den.  
 
-### Planlagt produksjonsordre  
+### <a name="planned-production-order"></a>Planlagt produksjonsordre
 
 En planlagt produksjonsordre er unik på grunn av følgende egenskaper:  
 
@@ -78,7 +78,7 @@ En planlagt produksjonsordre er unik på grunn av følgende egenskaper:
 - Når de genereres i planleggingen, blir resultatet en foreslått "planlagt ordrefrigivelse" som inkluderer antall, frigivelsesdato og forfallsdato. Logikken i planleggingssystemet er basert på etterfyllingssystemet, gjenbestillingsprinsippene og ordremodifikatorene som oppstår i nettobehovsplanleggingen.  
 - Hvis du vil vise innvirkningen deres, kan du undersøke belastningen på hvert arbeidssenter eller hver produksjonsressurs i den planlagte produksjonsordrens rute.  
 
-### Fast planlagt produksjonsordre  
+### <a name="firm-planned-production-order"></a>Fast planlagt produksjonsordre
 
 En fast planlagt produksjonsordre er unik på grunn av følgende egenskaper:  
 
@@ -88,7 +88,7 @@ En fast planlagt produksjonsordre er unik på grunn av følgende egenskaper:
 - Når de genereres i planleggingen, blir resultatet en foreslått "planlagt ordrefrigivelse" som inkluderer antall, frigivelsesdato og forfallsdato. Logikken i planleggingssystemet er basert på etterfyllingssystemet, gjenbestillingsprinsippene og ordremodifikatorene som oppstår i nettobehovsplanleggingen.  
 - Hvis du vil vise innvirkningen deres, kan du undersøke belastningen på hvert arbeidssenter eller hver produksjonsressurs i den fast planlagte produksjonsordrens rute.  
 
-### Frigitt produksjonsordre  
+### <a name="released-production-order"></a>Frigitt produksjonsordre
 
 Den frigitte produksjonsordren er unik, basert på følgende egenskaper:  
 
@@ -97,7 +97,7 @@ Den frigitte produksjonsordren er unik, basert på følgende egenskaper:
 - I et produser-til-ordre-miljø er det ikke uvanlig å opprette en frigitt produksjonsordre like etter posten for ordren.  
 - Faktisk materialforbruk og produktavgang kan registreres manuelt i en frigitt produksjonsordre. I tillegg oppstår automatisk lagertrekk for forbruk og produktavgang bare for frigitte produksjonsordrer.  
 
-### Ferdig produksjonsordre  
+### <a name="finished-production-order"></a>Ferdig produksjonsordre
 
 En ferdig produksjonsordre er unik, basert på følgende egenskaper:  
 
@@ -106,7 +106,7 @@ En ferdig produksjonsordre er unik, basert på følgende egenskaper:
 - Ferdige produksjonsordrer brukes til statistisk rapportering og bidrar til funksjonen for tilbakesporing til for eksempel ordrer, produksjonsordrer eller bestillinger. Funksjonen for tilbakesporing til en ferdig produksjonsordre gir deg muligheten til å gå gjennom den detaljerte historikken.  
 - Ferdige produksjonsordrer kan aldri endres.  
 
-## Produksjonsordreutførelse  
+## <a name="production-order-execution"></a>Produksjonsordreutførelse
 
 Når du har opprettet og planlagt en produksjonsordre, må den frigis til produksjonen for å bli utført. Under utførelse av ordren, registrerer du:  
 
@@ -116,7 +116,7 @@ Når du har opprettet og planlagt en produksjonsordre, må den frigis til produk
 
 Du kan registrere denne informasjonen manuelt eller gjennom automatisk rapportering. Metoden avhenger av oppsettet i feltet Trekkmetode for varen og arbeidssenteret.  
 
-### Materialforbruk  
+### <a name="material-consumption"></a>Materialforbruk
 
 [!INCLUDE [prod_short](includes/prod_short.md)] inneholder ulike alternativer for hvordan materialforbruk registreres. Materialforbruk kan for eksempel registreres manuelt, noe som kan være aktuelt hvis komponenter erstattes regelmessig eller vrakmengden er større enn forventet.  
 
@@ -133,7 +133,7 @@ Forbruksrapportering bakover rapporterer det faktiske antallet av alt materiale 
 
 Når produksjonsordren fornyes, kopieres trekkmetoden fra varekortet. Siden trekkmetoden for hver produksjonsordrekomponent kontrollerer hvordan og når forbruket registreres, er det viktig å være oppmerksom på at du kan endre trekkmetoden for bestemte varer direkte i produksjonsordren. Hvis du vil ha mer informasjon, kan du se [Lagertrekke komponenter i henhold til operasjonsavgang](production-how-to-flush-components-according-to-operation-output.md).
 
-### Produksjonsavgang  
+### <a name="production-output"></a>Produksjonsavgang
 
 [!INCLUDE [prod_short](includes/prod_short.md)] gir deg muligheten til å spore hvor lenge det arbeides på en produksjonsordre, i tillegg til å registrere antallet som produseres. Denne informasjonen kan hjelpe deg med å fastsette produksjonskosten mer nøyaktig. Produsenter som bruker et standardkostsystem, vil kanskje registrere faktisk informasjon for å bidra til utvikling av bedre standarder.  
 
@@ -145,13 +145,13 @@ Fremovermetoden registrerer forventet avgang (og tid), som registreres automatis
 
 Bakover-metoden bokfører den forventede avgangen (og tiden), som registreres automatisk når en produksjonsordre er ferdig. Rutekoblingskoder er ikke en faktor i lagertrekk bakover for avgangen.  
 
-### Bokføre forbruk og avgang  
+### <a name="posting-consumption-and-output"></a>Bokføre forbruk og avgang
 
 Du kan bruke en hvilken som helst kombinasjon av automatisk lagertrekk og manuelt registrert informasjon for både forbruk og avgang. Det kan for eksempel være aktuelt å utføre automatisk lagertrekk fremover for komponenter, men fortsatt bruke en forbrukskladd til å registrere vrak. Likeledes kan det være aktuelt å registrere avgang automatisk, men bruke en ferdigmeldingskladd til å registrere vrak for den overordnede varen eller ekstra tid som er brukt på ordren.  
 
 Hvis du registrerer forbruk og avgang manuelt, må du til slutt avgjøre hvilken rekkefølge du skal registrere denne informasjonen i. Du kan registrere forbruk først og bruke en kortfattet metode til å registrere informasjonen som er basert på forventet avgangsantall. Eller du kan registrere avgang først ved å bruke **Utfold rute**-funksjonen. Du kan da registrere forbruk basert på faktisk avgangsantall.  
 
-### Produksjonskladd  
+### <a name="production-journal"></a>Produksjonskladd
 
 I [produksjonskladden](production-how-to-register-consumption-and-output.md) kombineres funksjonene i forbrukskladden og ferdigmeldingskladden i én kladd, som du har direkte tilgang til fra den frigitte produksjonsordren.  
 
@@ -178,7 +178,7 @@ Produksjonskladder er imidlertid forskjellige fra forbruks- og avgangskladdene p
 
 I produksjonskladden bokføres forbruksantall som negative vareposter, avgangsantall som positive poster og tidsforbruk som kapasitetsposter.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Produksjon](production-manage-manufacturing.md)
 [Definere produksjon](production-configure-production-processes.md)  

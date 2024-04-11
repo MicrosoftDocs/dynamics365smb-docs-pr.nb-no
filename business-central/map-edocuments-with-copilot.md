@@ -12,7 +12,7 @@ ms.date: 02/23/2024
 ms.custom: bap-template
 ---
 
-# Tildel e-dokumenter til bestillingslinjer med Copilot (forhåndsversjon)
+# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>Tildel e-dokumenter til bestillingslinjer med Copilot (forhåndsversjon)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -33,17 +33,17 @@ Du kan nå oppdatere en eksisterende bestilling i Business Central med informasj
 > - AI-generated content may be incorrect.-->
 
 
-## Identifiser bestillinger
+## <a name="identify-purchase-orders"></a>Identifiser bestillinger
 
 Først kan du identifisere bestillingene som du kan samsvare automatisk.
 
-## Tildel linjer
+## <a name="map-lines"></a>Tildel linjer
 
 Copilot hjelper deg med å samsvare e-fakturalinjer med bestillingslinjer automatisk, og tilbyr ekstra samsvarende intelligens for å forbedre treffene.
 
 Når de er samsvart og tilordnet, oppdaterer Business Central den samsvarende bestillingen med relevant mottaksinformasjon for å sikre at de riktige antallene mottas på bestillingslinjene.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversikt over e-dokumenter](finance-edocuments-overview.md)  
 [Bruk e-dokumenter ved salg og kjøp](finance-how-use-edocuments.md)  
