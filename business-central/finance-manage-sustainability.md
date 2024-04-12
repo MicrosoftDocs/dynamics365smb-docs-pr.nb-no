@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Oversikt over bærekraftsbehandling
+# <a name="sustainability-management-overview"></a>Oversikt over bærekraftsbehandling
 
 >[!IMPORTANT]
 >Denne funksjonen vil være tilgjengelig i Business Central fra **lanseringsbølge 1 i 2024**, og alle referansekoblinger aktiveres når de er tilgjengelige.
@@ -43,7 +43,7 @@ Se følgende artikler for å komme i gang med bærekraftsbehandling.
 |Slik registrerer du utslipp | Bruk denne artikkelen til å lære hvordan du arbeider med alle typer bærekrafttidskladder. |
 
 
-## Se også  
+## <a name="see-also"></a>Se også
 [Finans](finance.md)    
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 
