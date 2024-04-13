@@ -471,6 +471,8 @@ ms.service: dynamics-365-business-central
 
 ### Finansrapportering (implementering av regnskap og KPI-er)
 #### [Klargjør finansrapportering](bi-how-work-account-schedule.md)
+#### [Raddefinisjoner i finansrapportering](bi-row-definitions.md)
+#### [Kolonnedefinisjoner i finansrapportering](bi-column-definitions.md)
 #### [Gjennomgang: Bruk finansrapportering til å lage kontantstrømprognoser](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)
 #### [Konfigurer og publiser en KPI-nettjeneste basert på finansrapportering](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Analyser data med statistiske kontoer](bi-use-statistical-accounts.md)
@@ -1049,6 +1051,7 @@ ms.service: dynamics-365-business-central
 
 ### Island
 #### [Lokale funksjoner i islandsk versjon](LocalFunctionality/Iceland/iceland-local-functionality.md)
+#### [Oppsett av W1-kjerneapp for Island](LocalFunctionality/Iceland/iceland-global-core-app.md)
 #### Mva.
 ##### [Skriv ut mva-oversiktsinformasjon på dokumenter](LocalFunctionality/Iceland/how-to-print-vat-summary-information-on-documents.md)  
 ##### [Spesielle utdata og rapporter for skattemyndighetene](LocalFunctionality/Iceland/special-data-output-and-reports-for-the-tax-authority.md)
@@ -1057,6 +1060,7 @@ ms.service: dynamics-365-business-central
 #### Generelt  
 ##### [Tildel IRS-numre til kontoplanen](LocalFunctionality/Iceland/how-to-map-irs-numbers-to-chart-of-accounts.md)  
 ##### [Slett bokførte fakturaer og kreditnotaer](LocalFunctionality/Iceland/deleting-posted-invoices-and-credit-memos.md)  
+##### [Registreringsnummer i den islandske lokaliseringen](LocalFunctionality/Iceland/use-registration-no.md)
 
 ### India
 #### [Oversikt](LocalFunctionality/India/india-local-functionality.md)
