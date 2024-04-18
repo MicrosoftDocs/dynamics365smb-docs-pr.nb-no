@@ -11,7 +11,7 @@ ms.search.keywords: 'company, setup wizard'
 ms.search.form: '1803, 9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 9006, 9007, 9010, 9016, 9017'
 ms.service: dynamics-365-business-central
 ---
-# Opprett nye selskaper i [!INCLUDE[prod_short](includes/prod_short.md)]
+# <a name="create-new-companies-in-"></a>Opprett nye selskaper i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kalles beholderen for forretningsdataene som hører til en konsern eller juridisk enhet et *selskap*. Når du registrerer deg for [!INCLUDE[prod_short](includes/prod_short.md)], får du et demoselskap og et tomt selskap, *Mitt selskap*. Bytte mellom selskaper er enkelt: simpelthen gå til **Mine innstillinger**, og bytt til det andre selskapet. Du kan også opprette nye selskaper i [!INCLUDE[prod_short](includes/prod_short.md)], avhengig av forretningsbehovene.  
 
@@ -22,7 +22,7 @@ Når du oppretter et nytt selskap, gir en guide for assistert oppsett deg det gr
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## Velg riktig mal
+## <a name="choose-the-right-template"></a>Velg riktig mal
 
 Hvis du vil legge til et selskap til din [!INCLUDE[prod_short](includes/prod_short.md)], kan du bruke den assisterte oppsettsveiledningen **Opprett nytt selskap** for å komme i gang. Oppsettsveiledningen er tilgjengelig fra **Selskaper**-siden og fra oppslaget i **Selskap**-feltet på siden **Mine innstillinger**.  
 
@@ -45,7 +45,7 @@ Du kan opprette så mange nye selskaper under 30 dagers prøveperioden, men de e
 
 Administratoren kan finne ut mer om prøveversjoner og abonnementer [her](/dynamics365/business-central/dev-itpro/administration/trials-subscriptions).  
 
-## Kopier et selskap
+## <a name="copy-a-company"></a>Kopier et selskap
 
 På siden **Selskaper** kan du bruke **Kopier**-handlingen til å opprette et annet selskap basert på innholdet i et eksisterende selskap. Kopiering av et selskap er nyttig når du vil teste et selskap uten å forstyrre produksjonsdata.
 
@@ -56,7 +56,7 @@ På siden **Selskaper** kan du bruke **Kopier**-handlingen til å opprette et an
 
 [!INCLUDE [dataverse-copy-company](includes/dataverse-copy-company.md)]
 
-## Konfigurer selskapet
+## <a name="set-up-the-company"></a>Konfigurer selskapet
 
 Når du logger deg på et nytt selskap, hjelper veiledningen for assistert oppsett **Selskapsoppsett** deg med å komme i gang. Veiledningen ber om informasjon om selskapet, for eksempel adressen, bankdetaljer og lagerkostmetoden. Denne informasjonen danner grunnlaget for mange områder i [!INCLUDE[prod_short](includes/prod_short.md)], slik at du ikke trenger å definere dem manuelt.  
 
@@ -64,24 +64,24 @@ Når du logger deg på et nytt selskap, hjelper veiledningen for assistert oppse
 
 Når det grunnleggende er på plass, kan du definere de gjenstående kjerneområdene. Deretter er du klar til å legge til forretningsdataene, for eksempel kunder og leverandører. Hvis du vil ha mer informasjon, kan du se [Konfigurer [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md).  
 
-## Selskaper og miljøer
+## <a name="companies-and-environments"></a>Selskaper og miljøer
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
 Hvis du vil ha mer informasjon, kan du se [Bytte til et annet selskap eller miljø](ui-organization-switch.md). Hvis du vil ha mer informasjon om miljøer, kan du se [Forstå infrastrukturen til Business Central Online](/dynamics365/business-central/dev-itpro/administration/tenant-environment-topology) (bare på engelsk).  
 
-## Endre et selskaps navn
+## <a name="changing-a-companys-name"></a>Endre et selskaps navn
 
 Når du har opprettet et selskap, kan du ikke endre navnet på det. Du kan imidlertid endre **visningsnavnet**, som er tekst som vises for selskapet i programmet.  
 
 > [!TIP]
 > Du kan gi et selskap nytt navn hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt.
 
-## Legg til Contoso Coffee
+## <a name="add-contoso-coffee"></a>Legg til Contoso Coffee
 
 Contoso Coffee-appen tilbyr demonstrasjonsdata som kan hjelpe deg med å finne avanserte funksjoner i [!INCLUDE [prod_short](includes/prod_short.md)]. Finn appen i AppSource, og installer den i et tomt selskap, for eksempel et selskap i et sandkassemiljø. Hvis du vil ha mer informasjon, kan du se [Innføring i demodata for Contoso Coffee](contoso-coffee/contoso-coffee-intro.md).  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Tilpasse Business Central](ui-customizing-overview.md)  
 [Konfigurere [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  
