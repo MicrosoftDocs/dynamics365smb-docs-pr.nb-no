@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
 ms.search.form: '359, 360, 6103, 6133'
-ms.date: 10/05/2023
+ms.date: 03/29/2023
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
@@ -21,7 +21,7 @@ ms.service: dynamics-365-business-central
 
 Det første trinnet i konfigurasjonen av elektroniske dokumenter (e-dokumenter) er å konfigurere tjenesten for e-dokumenter, der du konfigurerer den fullstendige virkemåten til systemet når det gjelder kommunikasjon med e-dokumenter.
 
-## Konfigurere e-dokumenttjenesten
+## Konfigurer e-dokumenttjenesten
 
 Følg disse trinnene for å konfigurere e-dokumenttjenesten.
 
@@ -73,7 +73,7 @@ Hvis du ikke bruker **Datautvekslingsdefinisjon**-formatet, kan du opprette og k
 
 ### Støttede dokumenttyper 
 
-Støttede dokumenttyper er basert på det valgte **dokumentformatet**. Hvis du vil sjekke hvilke dokumenttyper som støttes, kjører du handlingen **Støttede dokumenttyper** på siden **E-dokumenttjeneste**. **Støttede dokumenttyper for e-dokumenttjeneste** åpnes og i kolonnen **Kildedokumenttype** finner du alle de støttede dokumenttypene.  
+Støttede dokumenttyper er basert på det valgte **dokumentformatet**. Hvis du vil sjekke hvilke dokumenttyper som støttes, velger du handlingen **Støttede dokumenttyper** på siden **E-dokumenttjeneste**. **Støttede dokumenttyper for e-dokumenttjeneste** åpnes og i kolonnen **Kildedokumenttype** kan du velge ulike dokumenttyper for å gjøre dem støttet for formatet du planlegger å bruke. Pass på at du ikke bruker dokumenttypen hvis dokumentet ikke er valgt på denne siden.   
 
 ## Konfigurere en profil for dokumentsending
 
@@ -104,7 +104,7 @@ Følg disse trinnene for å konfigurere arbeidsflyten som brukes i e-dokumentfun
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Arbeidsflytmaler**, og velg deretter den relaterte koblingen.
 2. Hvis du ikke finner **vMaler for e-dokumentarbeidsflyt** på siden **Arbeidsflytmaler** , velger du **Tilbakestill Microsoft-maler**. **Maler for e-dokumentarbeidsflyt** skal da vises. Lukk siden.
 3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Arbeidsflyter**, og velg deretter den relaterte koblingen.
-4. Kjør handlingen **Ny arbeidsflyt fra mal** for å velge en mal for e-dokumentprosessen. De tilgjengelige malene er **Send til én tjeneste** og **Send til flere tjenester**.
+4. Velg handlingen **Ny arbeidsflyt fra mal** for å velge en mal for e-dokumentprosessen. De tilgjengelige malene er **Send til én tjeneste** og **Send til flere tjenester**.
 5. Velg **OK** for å fullføre arbeidsflytoppsettet.
 6. I feltet **Så svar** velger du **Send e-dokument ved hjelp av installasjonsprogrammet** for å konfigurere arbeidsflytsvarene.
 7. Velg e-dokumenttjenesten du opprettet som et alternativ, velg **OK**, og aktiver deretter arbeidsflyten.
@@ -122,13 +122,28 @@ E-dokumenter kan være underlagt ulike lokale lover som er knyttet til perioden 
 
 Hvis du vil konfigurere e-dokumentrelaterte oppbevaringspolicyer, gjør du følgende.
 
-1. Kjør handlingen **Oppbevaringspolicy** på siden **E-dokumenttjenester**.
+1. Velg handlingen **Oppbevaringspolicy** på siden **E-dokumenttjenester**.
 2. Når handlingen er fullført, velger du en av følgende oppbevaringspolicyer for å konfigurere:
 
     - E-dokumentlogg
     - Logg for e-dokumentintegrering
     - Tildelingslogg for e-dokument
     - Datalager for e-dokument
+
+## Demonstrasjonsdata for e-dokumenter  
+
+> [!NOTE]
+> Fra Business Central, versjon 24.0 er det mulig å definere demodata for e-dokumenter.
+
+For å kunne tilby enklere måter å teste og demonstrere funksjonene i **e-dokumenter** opprettet Microsoft en ny demomodul for elektroniske dokumenter. Følg fremgangsmåten for å aktivere denne modulen:  
+
+1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Demoverktøy for Contoso**, og velg deretter den relaterte koblingen.  
+2.  Før du aktiverer **Contoso-modulen for e-dokument**, må du på grunn av avhengigheter ha aktivert følgende moduler: **Fellesmodul** og **Lagermodul**. 
+3.  Når du har aktivert disse modulene, velger du **Contoso-modulen for e-dokumenter**, og deretter velger du handlingen **Generer**. 
+4.  Følg fremgangsmåten.  
+5.  Lukk siden.   
+
+Når du har en aktivert modul, har du opprettet nye demovarer, importert seks elektroniske dokumenter (basert på Peppol BIS 3) og allerede konfigurert **E-dokumenttjeneste** med opprettede arbeidsflytprosesser.  
 
 ## Se også
 

@@ -2,23 +2,24 @@
 title: Konfigurere arbeidsflytbrukere
 description: 'Før du kan opprette arbeidsflyter, må du definere brukerne som deltar i dem på siden Brukeroppsett for godkjenning.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: ivkoleti
 ms.topic: how-to
-ms.devlang: al
 ms.search.keywords: 'reject, delegate, request'
 ms.search.form: '1533,'
-ms.date: 05/31/2023
-ms.author: bholtorf
+ms.date: 04/04/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="set-up-a-sequence-of-workflow-users"></a>Definer en sekvens med arbeidsflytbrukere
+# Definer en sekvens med arbeidsflytbrukere
 
-Før du kan opprette godkjenningsarbeidsflyter, må du definere brukerne som skal sende inn forespørsler og godkjennerne. Du kan for eksempel angi hvem som skal varsles om å utføre en handling på et arbeidsflyttrinn. Du setter opp arbeidsflytdeltakere på side **Brukeroppsett for godkjenning**. Finn ut mer under [Definer godkjenningsbrukere](across-how-to-set-up-approval-users.md).
+Før du kan opprette godkjenningsarbeidsflyter, må du definere brukerne som kan sende inn forespørsler og godkjennerne. Du kan for eksempel angi hvem som varsles om å utføre en handling på et arbeidsflyttrinn. Du setter opp arbeidsflytdeltakere på side **Brukeroppsett for godkjenning**. Finn ut mer under [Definer godkjenningsbrukere](across-how-to-set-up-approval-users.md).
 
 På siden **Brukergrupper for arbeidsflyt** kan du angi hvor en deltaker skal engasjere seg i en godkjenningsarbeidsflyt ved å angi et nummer i feltet **Serienr.** . Du kan for eksempel angi at brukere skal inngå i en sekvensiell rekkefølge, for eksempel en kjede med godkjennere. Du kan også angi en flat liste over godkjennere ved å skrive inn samme nummer. I det siste tilfellet må bare én av godkjennerne godkjenne en forespørsel.
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
-## <a name="to-set-up-a-workflow-user-group"></a>Slik konfigurerer du en arbeidsflytbrukergruppe
+## Slik konfigurerer du en arbeidsflytbrukergruppe
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Arbeidsflytbrukergrupper**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Siden **Brukergruppe for arbeidsflyt** åpnes.  
@@ -28,12 +29,14 @@ På siden **Brukergrupper for arbeidsflyt** kan du angi hvor en deltaker skal en
 
    |Felt|Description|
    |-----|-----------|
-   |**Brukernavn**|Angi brukeren som skal inngå i en arbeidsflyt.<br /><br /> Brukeren må finnes på siden **Brukeroppsett**. Finn ut mer under [Tildel tillatelser til brukere og grupper](ui-define-granular-permissions.md).|
-   |**Sekvensnummer**|Angi rekkefølgen som arbeidsflytbrukeren deltar i en arbeidsflyt i forhold til andre brukere. Dette feltet kan angi for eksempel når brukeren godkjenner i forhold til andre godkjennere ved å konfigurere **Brukergruppe for arbeidsflyt**-alternativet i **Godkjennertype**-feltet på relaterte arbeidsflytsvar.| 
+   |**Brukernavn**|Angi brukeren som inngår i en arbeidsflyt.<br /><br /> Brukeren må finnes på siden **Brukeroppsett**. Finn ut mer under [Tildel tillatelser til brukere og grupper](ui-define-granular-permissions.md).|
+   |**Sekvensnummer**|Angi rekkefølgen som arbeidsflytbrukeren deltar i en arbeidsflyt i forhold til andre brukere. Dette feltet kan angi for eksempel når brukeren godkjenner i forhold til andre godkjennere ved å konfigurere **Brukergruppe for arbeidsflyt**-alternativet i **Godkjennertype**-feltet på relaterte arbeidsflytsvar.|
 
+   > [!NOTE]
+   > Sekvensnumre er vanligvis sekvensielle for brukere i en arbeidsflytbrukergruppe. Flere brukere kan imidlertid ha samme sekvensnummer. Når det er tilfelle, må bare én av brukerne godkjenne en forespørsel før arbeidsflyten går til neste trinn. Hvis for eksempel bruker A og bruker B begge er nummer to i sekvensen, går arbeidsflyten til trinn tre når enten bruker A eller bruker B godkjenner forespørselen.
 6. Gjenta trinn 5 for å legge til flere arbeidsflytbrukere for arbeidsflytbrukergruppen.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurer godkjenningsbrukere](across-how-to-set-up-approval-users.md)  
 [Konfigurer godkjenningsarbeidsflyter](across-set-up-workflows.md)  

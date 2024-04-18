@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: bnielse
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 01/25/2023
+ms.date: 04/05/2024
 ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
@@ -20,6 +20,39 @@ Når du har satt opp synkronisering av hoveddata og synkroniserer for første ga
 Noen ganger går ting imidlertid galt, og det kan være situasjoner du må behandle eller undersøke. Hvis for eksempel andre endrer samme oppføring i både kildeselskapet og et datterselskap, vil synkroniseringen mislykkes, slik at du kan angi endringen som er riktig. Kildeselskapet kan eventuelt installere en utvidelse som endrer skjemaet for en av tabellene som synkroniseres, ved å legge til et felt eller to. Hvis du vil synkronisere de nye feltene i datterselskapene, må du installere de samme utvidelsene og oppdatere tabellskjemaene i oppsettet.
 
 Denne artikkelen beskriver verktøyene du kan bruke slik at synkroniseringen går problemfritt.
+
+## Overskriv lokale endringer
+
+Du kan bruke avmerkingsboksen **Overskriv lokal endring** i feltene og tabellene du synkroniserer, for å tillate at data fra kildeselskapet overskriver data i datterselskapet.
+
+> [!NOTE]
+> Du kan ikke aktivere synkronisering av et felt og tillate at datterselskapet skriver verdier i det uavhengig av kildeselskapet. Du må enten deaktivere synkronisering for feltet eller tillate kildeselskapet å overskrive lokale endringer.
+
+## Oppdater tabellskjemaer
+
+Hvis kildeselskapet endrer en tabell, for eksempel ved å legge til et felt som du vil synkronisere, må datterselskaper oppdatere felttildelingene sine. På siden **Synkroniseringsfelter** bruker du handlingen **Oppdater felter**.
+
+## Aktiver eller deaktiver kobling mellom oppføringer
+
+Hvis du vil starte eller stoppe kobling på bestemte oppføringer i en tabell, velger du feltene på siden **Synkroniseringsfelter** og deretter bruke enten handlingen **Aktiver** eller **Deaktiver**.
+
+> [!TIP]
+> En rask måte å aktivere eller deaktivere flere felter samtidig på er å velge dem i listen og deretter bruke handlingene **Aktiver** eller **Deaktiver**.
+
+## Kjør en full synkronisering
+
+Handlingen **Kjør full synkronisering** planlegger en synkronisering for alle tabellpostene i kildeselskapet og synkroniserer alle postene betingelsesløst. Ny synkronisering er for eksempel nyttig hvis du aktiverer et ekstra felt i en synkroniseringstabell eller legger til et ekstra felt ved hjelp av handlingen **Oppdater felt**. Handlingen synkroniserer dataene i disse feltene med tilbakevirkende kraft.
+
+## Synkroniser endrede oppføringer
+
+Hvis du endrer en innstilling for en tabell eller et felt i et datterselskap, må du oppdatere synkroniseringen. Hvis du vil oppdatere synkroniseringen, bruker du handlingen **Synkroniser endrede poster** på siden **Synkroniseringstabeller**.
+
+Handlingen **Synkroniser endrede poster** planlegger en synkronisering av følgende tabellposter:
+
+* Poster som ikke ble synkronisert i siste forsøk.
+* Poster som ble endret i kildeselskapet etter siste planlagte synkronisering. Du kan se gjennom siste planlagte synkroniseringstidspunkt på siden **Synkroniseringstabeller** i feltet **Synkroniser endringer siden**.
+
+Handlingen fungerer på samme måte som en planlagt synkronisering, og du kan bruke den som en måte å synkronisere på utenfor tidsplanen. Hvis du for eksempel merker av **Overskriv lokal endring** i et felt for å tillate data fra kildeselskapet å overskrive lokale endringer, oppdaterer handlingen disse dataene. Du kan også vente til neste planlagte synkronisering skjer.
 
 ## Undersøk statusen til synkroniseringen
 
@@ -38,20 +71,12 @@ Tabellen nedenfor beskriver handlingene.
 > [!NOTE]
 > Hvis du finner en feil på siden **Synkroniseringsjobber for integrering** som du ikke kan løse selv, er det nyttig å oppgi feilmelding og kallstakkinformasjon hvis du kontakter partneren eller Microsoft for kundestøtte.
 
-## Synkroniser endrede oppføringer
+## Rydd opp i gamle oppføringer
 
-Hvis du endrer en innstilling for en tabell eller et felt i et datterselskap, må du oppdatere synkroniseringen. Hvis du for eksempel merker av **Overskriv lokal endring** i et felt for å tillate data fra kildeselskapet å overskrive lokale endringer. Hvis du vil oppdatere synkroniseringen, bruker du handlingen **Synkroniser endrede poster** på siden **Synkroniseringstabeller**.
+Antall poster i synkroniseringsloggen blir stort over tid, så det kan være lurt å gjøre litt rydding for å fjerne unødvendige oppføringer. For å gjøre det enklere å rydde opp i gamle oppføringer gir siden **Synkroniseringsjobber for integrering** følgende handlinger:
 
-## Oppdater tabellskjemaer
-
-Hvis kildeselskapet endrer en tabell, for eksempel ved å legge til et felt som du vil synkronisere, må datterselskaper oppdatere felttildelingene sine. På siden **Synkroniseringsfelter** bruker du handlingen **Oppdater felter**. 
-
-## Aktiver eller deaktiver kobling mellom oppføringer
-
-Hvis du vil starte eller stoppe kobling på bestemte oppføringer i en tabell, velger du feltene på siden **Synkroniseringsfelter** og deretter bruke enten handlingen **Aktiver** eller **Deaktiver**. 
-
-> [!TIP]
-> En rask måte å aktivere eller deaktivere flere felter samtidig på er å velge dem i listen og deretter bruke handlingene **Aktiver** eller **Deaktiver**.
+* **Slett poster eldre enn sju dager**
+* **Slett alle poster**
 
 ## Legg til utvidelser
 
@@ -59,13 +84,6 @@ Hvis kildeselskapet installerer en ny utvidelse, må datterselskapet også insta
 
 > [!NOTE]
 > Enkelte tabeller henter data fra relaterte tabeller. Hvis du legger til en filtype som ikke inkluderer relaterte tabeller, vil ikke feltene i tabellene være tilgjengelige. Kontroller at du har lagt til alle relaterte tabeller.
-
-## Rydd opp i gamle oppføringer
-
-Antall poster i synkroniseringsloggen blir stort over tid, så det kan være lurt å gjøre litt rydding for å fjerne unødvendige oppføringer. For å gjøre det enklere å rydde opp i gamle oppføringer gir siden **Synkroniseringsjobber for integrering** følgende handlinger:
-
-* **Slett poster eldre enn sju dager**
-* **Slett alle poster**
 
 <!--
 ## Recreate a deleted job queue entry
