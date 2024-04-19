@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Konfigurere e-dokumenter
+# <a name="set-up-e-documents"></a>Konfigurere e-dokumenter
 
 > [!IMPORTANT]
 > Kjernemodulen for e-dokumenter er et rammeverk. Som standard finnes det ikke noe felt for **Tjenesteintegrering**. Hvis du finner **Dokumentformat**-alternativene som standard, må du være oppmerksom på at de tilbys som et eksempel, og at lokalisering må gi et detaljert format. Disse detaljene er en del av lokaliseringsapper, fordi de er spesifikke for lokale krav.
@@ -21,7 +21,7 @@ ms.service: dynamics-365-business-central
 
 Det første trinnet i konfigurasjonen av elektroniske dokumenter (e-dokumenter) er å konfigurere tjenesten for e-dokumenter, der du konfigurerer den fullstendige virkemåten til systemet når det gjelder kommunikasjon med e-dokumenter.
 
-## Konfigurer e-dokumenttjenesten
+## <a name="set-up-the-e-document-service"></a>Konfigurer e-dokumenttjenesten
 
 Følg disse trinnene for å konfigurere e-dokumenttjenesten.
 
@@ -71,11 +71,11 @@ Hvis du har konfigurert formatet **Datautvekslingsdefinisjon** i lokaliseringen,
 
 Hvis du ikke bruker **Datautvekslingsdefinisjon**-formatet, kan du opprette og konfigurere formater ved å bruke [grensesnittet](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments). Juster informasjonen på linjene **Eksporter tildeling** og **Importer tildeling**, der du kan finne tabellene og feltene som skal konfigureres transformasjonsregler. I dette tilfellet må du legge til et nytt alternativ i **Dokumentformat**-feltet som er relatert til formatet ditt.  
 
-### Støttede dokumenttyper 
+### <a name="supported-document-types"></a>Støttede dokumenttyper
 
 Støttede dokumenttyper er basert på det valgte **dokumentformatet**. Hvis du vil sjekke hvilke dokumenttyper som støttes, velger du handlingen **Støttede dokumenttyper** på siden **E-dokumenttjeneste**. **Støttede dokumenttyper for e-dokumenttjeneste** åpnes og i kolonnen **Kildedokumenttype** kan du velge ulike dokumenttyper for å gjøre dem støttet for formatet du planlegger å bruke. Pass på at du ikke bruker dokumenttypen hvis dokumentet ikke er valgt på denne siden.   
 
-## Konfigurere en profil for dokumentsending
+## <a name="set-up-a-document-sending-profile"></a>Konfigurere en profil for dokumentsending
 
 Du kan definere en foretrukket metode for å sende salgsdokumenter for hver kunde. På denne måten trenger du ikke å velge et sendealternativ hver gang du velger handlingen **Bokfør og send**. På siden **Profiler for dokumentsending** definerer du ulike sendingsprofiler som velger blant dem i feltet **Profil for dokumentsending** på et kundekort. Du kan merke av for **Standard** for å angi at profilen for en dokumentsending er standardprofilen for alle kunder, bortsett fra kunder der feltet **Profil for dokumentsending** er satt til en annen sendingsprofil.
 
@@ -97,7 +97,7 @@ Følg disse trinnene for å sette opp en dokumentsendingsprofil.
     > [!NOTE]
     > Hvis du velger **Utvidet e-dokumenttjenesteflyt** i feltet **Elektronisk dokument** , må du allerede ha arbeidsflyten konfigurert for e-dokumentene.
 
-## Konfigurere arbeidsflyten
+## <a name="set-up-the-workflow"></a>Konfigurere arbeidsflyten
 
 Følg disse trinnene for å konfigurere arbeidsflyten som brukes i e-dokumentfunksjonalitet.
 
@@ -116,7 +116,7 @@ For å bruke flere arbeidsflytprosesser må du konfigurere dem gjennom profilene
 
 Når du konfigurerer arbeidsflyten på **Arbeidsflyt**-siden, peker du på **On Condition**-feltet på **Arbeidsflyttrinn**-hurtigfanen. På **Hendelsesbetingelser**-siden i **Filter**-feltet velger du profilen for dokumentsending som du vil bruke.
 
-## Konfigurere en oppbevaringspolicy for e-dokumenter
+## <a name="set-up-a-retention-policy-for-e-documents"></a>Konfigurere en oppbevaringspolicy for e-dokumenter
 
 E-dokumenter kan være underlagt ulike lokale lover som er knyttet til perioden som e-dokumentene oppbevares. Derfor har vi lagt til et oppsett for oppbevaringspolicy for all viktig informasjon som er knyttet til e-dokumenter. Administratorer kan definere oppbevaringspolicyer som angir hvor ofte Dynamics 365 Business Central sletter utdaterte poster som er relatert til e-dokumenter. Hvis du vil finne ut mer om oppbevaringspolicyer, kan du se [Definer oppbevaringspolicyer](admin-data-retention-policies.md).
 
@@ -130,7 +130,7 @@ Hvis du vil konfigurere e-dokumentrelaterte oppbevaringspolicyer, gjør du følg
     - Tildelingslogg for e-dokument
     - Datalager for e-dokument
 
-## Demonstrasjonsdata for e-dokumenter  
+## <a name="e-documents-demo-data"></a>Demonstrasjonsdata for e-dokumenter
 
 > [!NOTE]
 > Fra Business Central, versjon 24.0 er det mulig å definere demodata for e-dokumenter.
@@ -145,7 +145,7 @@ For å kunne tilby enklere måter å teste og demonstrere funksjonene i **e-doku
 
 Når du har en aktivert modul, har du opprettet nye demovarer, importert seks elektroniske dokumenter (basert på Peppol BIS 3) og allerede konfigurert **E-dokumenttjeneste** med opprettede arbeidsflytprosesser.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere e-dokumenter i Business Central](finance-how-use-edocuments.md)  
 [Utvide e-dokumenter i Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
