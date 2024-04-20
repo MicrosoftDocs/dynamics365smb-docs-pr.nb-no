@@ -6,16 +6,16 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice'
 ms.search.form: null
-ms.date: 01/16/2024
+ms.date: 04/10/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="e-documents-overview"></a>Oversikt over e-dokumenter
+# Oversikt over e-dokumenter
 
 Elektroniske dokumenter (e-dokumenter) er ryggraden i moderne forretningstransaksjoner. De omfatter viktige dokumenter, for eksempel fakturaer og kvitteringer i begge retninger (levering og mottak). De legger også til funksjoner for dokumentstatusrelaterte meldinger mellom tilgangspunkter.
 
-Vår forpliktelse til å forbedre forretningsprosessene dine førte til utviklingen av en banebrytende app som er dedikert til e-dokumenter i Microsoft Dynamics 365 Business Central. Denne appen fungerer som en robust plattform for effektiv administrasjon av e-dokumenter.
+Vår forpliktelse til å forbedre forretningsprosessene dine førte til utviklingen av en banebrytende app som fokuserer på e-dokumenter i Microsoft Dynamics 365 Business Central. Denne appen fungerer som en robust plattform for effektiv administrasjon av e-dokumenter.
 
 > [!NOTE]
 > Hvis du vil bruke disse funksjonene, installerer du appen E-dokumentkjerne i miljøet ditt.  
@@ -27,14 +27,16 @@ Dokumentasjonen forklarer e-dokumenter i detalj. Den viser funksjonene i appen o
 | Artikkel | Description | 
 |---------|-------------|
 | [Konfigurere e-dokumenter](finance-how-setup-edocuments.md) | Lær hvordan du konfigurerer funksjoner for e-dokumenter, inkludert tjenester, arbeidsflyt, sending av profiler og oppbevaringspolicyer. |
-| [Bruk e-dokumenter ved salg og kjøp](finance-how-use-edocuments.md) | Lær hvordan du bruker funksjoner for e-dokumenter som er knyttet til salgs- og kjøpsfakturaer, statuser, logger og handlingsmeldinger.| 
+| [Bruk e-dokumenter i salg](finance-how-use-edocuments.md) | Lær hvordan du bruker funksjoner for e-dokumenter for salgsfakturaer, statuser, logger og handlingsmeldinger.| 
+| [Bruk e-dokumenter ved kjøp](finance-how-use-edocuments-purchase.md) | Lær hvordan du bruker funksjoner for e-dokumenter for kjøpsfakturaer og bestillinger, statuser, logger og handlingsmeldinger.|
 | [Utvid funksjonaliteten for e-dokumenter](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments) | Lær hvordan du utvider funksjonaliteten for e-dokumenter med spesifikke lokale krav eller bransjekrav ved å opprette flere apper på toppen av denne. |
 | [Angi koblingen E-dokumenter med eksterne endepunkter](finance-how-setup-edocuments-external.md) | Lær hvordan du bruker eksterne tilgangspunkter for automatisering ved levering og mottak av e-dokumenter. |
 | [Utveksle data elektronisk](across-data-exchange.md) | Lær hvordan du bruker rammeverket for datautveksling til å utveksle data i forretningsdokumenter som bankfiler og valutakurser. | 
+| [Tildel e-dokumenter til bestillingslinjer med Copilot (forhåndsversjon)](map-edocuments-with-copilot.md) | Lær hvordan du bruker Copilot til å forbedre effektiviteten når du arbeider med e-dokumenter. |
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Økonomistyring](finance.md)  
-[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Økonomistyring](finance.md)    
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

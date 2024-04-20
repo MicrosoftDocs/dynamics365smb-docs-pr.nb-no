@@ -5,13 +5,13 @@ author: jswymer
 ms.topic: overview
 ms.service: dynamics-365-business-central
 ms.search.keywords: 'privacy, trial, Microsoft services'
-ms.date: 12/12/2023
+ms.date: 04/14/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.collection:
   - bap-ai-copilot
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Prøvefunksjoner som kobles til andre Microsoft-tjenester
+# Prøvefunksjoner som kobles til andre Microsoft-tjenester 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] er en omfattende løsning for forretningsstyring som er dypt integrert med Microsoft 365-produktivitetsapper og Power Platform. Prøveversjonen av Business Central kan kobles til mange ulike Microsoft-tjenester som du først må konfigurere og aktivere. For å få mest mulig ut av prøveversjonen er noen av disse funksjonene automatisk aktivert. Selv om tilkoblingen fra [!INCLUDE[prod_short](includes/prod_short.md)] er aktivert, er ikke disse tjenestene inkludert i prøveversjonen, og de må kjøpes separat med mindre du allerede har gjort det.
 
@@ -22,7 +22,7 @@ Tabellen nedenfor angir tilkoblingene til Microsoft-tjenester som aktiveres auto
 |Microsoft Teams|Ja|Nei|**Del til Teams**-handling på **Vare**-kortet |[Administrere Teams-integrering med Business Central](admin-teams-integration.md)|  
 |Microsoft OneDrive for Business|Ja|Nei|**Åpne i OneDrive**-handling på **varevedlegg** |[Administrer OneDrive-integrering med Business Central](admin-onedrive-integration.md#configure-onedrive-using-onedrive-setup)|  
 | Microsoft Power Automate |Ja|Nei|**Automatiser**-handlinger på **Vare**-kortet |[Konfigurer Power Automate-integrering](/dynamics365/business-central/dev-itpro/powerplatform/power-automate-setup)|
-| Microsoft Azure OpenAI Automate |Ja |Nei|**Copilot (forhåndsversjon)** |[Konfigurer varemarkedsføringstekst drevet av kunstig intelligens med Copilot](enable-ai.md)|
+| Microsoft Azure OpenAI Service |Ja |Nei|**Copilot** |[Konfigurer varemarkedsføringstekst drevet av kunstig intelligens med Copilot](enable-ai.md)|
 
 > [!NOTE]
 > Ved hjelp av funksjoner som kobles til disse tjenestene: 

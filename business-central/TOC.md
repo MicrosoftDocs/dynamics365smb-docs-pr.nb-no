@@ -573,6 +573,7 @@ ms.service: dynamics-365-business-central
 ### [Forstå VIA-metoder](projects-understanding-wip.md)
 ### [Overvåk prosjektfremdrift og -ytelse](projects-how-monitor-progress-performance.md)
 ### [Fakturer prosjekter](projects-how-invoice-jobs.md)
+### [Monter til prosjekt](projects-assemble-to-project.md)
 
 ## Aktiva
 ### [Oversikt over aktiva](fa-manage.md)

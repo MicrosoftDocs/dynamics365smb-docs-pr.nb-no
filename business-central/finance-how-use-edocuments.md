@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, electronic invoice, e-document, e-invoice, sales, deliver'
 ms.search.form: '42, 43, 132, 6103, 6133, 6121, 9301, 9305'
-ms.date: 03/29/2024
+ms.date: 04/10/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="use-e-documents-in-the-sales-process"></a>Bruk e-dokumenter i salgsprosessen
+# Bruk e-dokumenter i salgsprosessen
 
 Du kan bruke konfigurerte elektroniske dokumenter (e-dokumenter) med salgsdokumentene.
 
@@ -25,22 +25,22 @@ Du kan bruke følgende salgsdokumenter med e-dokumentfunksjonalitet:
 - Rentenotaer
 - Purringer
 
-## <a name="e-documents-in-sales"></a>E-dokumenter i salg
+## E-dokumenter i salg  
 
 Hvis du vil opprette og sende en e-faktura til en kunde, må du opprette og bokføre salgsfakturaen. Hvis du vil lære mer om standardprosessen, kan du se [Fakturer salg](sales-how-invoice-sales.md).
 
-Når du har bokført salgsdokumentet, åpner du siden **Bokført salgsfaktura** for å komme til siden **E-dokument** .
+Når du har bokført salgsdokumentet, åpner du siden **Bokført salgsfakturaer** for å komme til siden **E-dokumenter**.
 
-### <a name="view-e-documents"></a>Vise e-dokumenter
+### Vise e-dokumenter   
 
 Hvis du vil vise eksisterende e-dokumenter, gjør du følgende.
 
-1. På siden **Bokført salgsfaktura** velger du **E-dokument** \> **Åpne e-dokument**.
-2. På siden **E-dokument** kan du vise grunnleggende informasjon om den bokførte fakturaen.
+1. På siden **Bokført salgsfakturaer** velger du **E-dokument** og deretter **Åpne e-dokument**.
+2. På siden **E-dokumenter** kan du vise grunnleggende informasjon om den bokførte fakturaen.
 3. Feltet **Post** viser dokumentnummeret til det bokførte salgsfakturaen. Velg koblingen for å åpne dokumentet.
 4. I feltet **Status for elektronisk dokument** kan du vise dokumentets sanntidsstatus og plasseringen i prosesspipelinen. Hvis dokumentet er bokført, er statusen **Behandlet**.
 
-### <a name="e-document-statuses-and-logs"></a>E-dokumentstatuser og -logger
+### E-dokumentstatuser og -logger 
 
 Hvis du vil ha mer informasjon om servicestatusnivået for e-dokumentet, kan du se hurtigfanen **Status for e-dokumenttjeneste**. På linjene viser systemet én eller flere tjenester som dokumentet har brukt. I det vanligste scenariet bruker hvert dokument bare én tjeneste. Et dokument kan imidlertid bruke flere tjenester.
 
@@ -56,7 +56,7 @@ Hvis du vil ha mer innsikt, velger du posten med statusen **Eksportert**, og der
 
 Hvis du vil vise kommunikasjonen mellom deg selv og tjenesten du sender dokumentet til, bruker du feltet **Kommunikasjonslogger**. Åpne siden **E-dokumentkommunikasjonslogger** for å vise detaljer om forespørselen og årsaksmeldingen med den tjenesten.
 
-Hvis det er et problem med tjenesteleverandøren, og dokumentet ikke kan sendes, kan du se etter følgende indikatorer på siden **E-dokument**:
+Hvis det er et problem med tjenesteleverandøren, og dokumentet ikke kan sendes, kan du se etter følgende indikatorer på siden **E-dokumenter**:
 
 - Feltet **Status for elektronisk dokument** i hodet viser statusen **Feil**.
 - Feltet **E-dokumentstatus** på hurtigfanen **Status for e-dokumenttjeneste** viser statusen for **Sendingsfeil**.
@@ -64,7 +64,7 @@ Hvis det er et problem med tjenesteleverandøren, og dokumentet ikke kan sendes,
 
 Når problemet er løst, kjører du handlingene **Send dokument** manuelt. Hvis du trenger forskjellige handlinger, for eksempel **Gjenopprettet dokument**, **Kanseller dokument** eller **Få godkjenning**, kan du kjøre dem.
 
-## <a name="overview-of-e-document-statuses"></a>Oversikt over e-dokumentstatuser
+## Oversikt over e-dokumentstatuser
 
 Hvis du vil ha en bedre oversikt over alle e-dokumenter i selskapet, kan du velge rollesenteret **Regnskapsfører** der det finnes e-dokumentstatuser. Der kan du finne e-dokumentaktiviteter som har følgende statuser:
 
@@ -75,13 +75,14 @@ Hvis du vil ha en bedre oversikt over alle e-dokumenter i selskapet, kan du velg
     - Feil
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Konfigurere e-dokumenter i Business Central](finance-how-setup-edocuments.md)  
-[Utvide e-dokumenter i Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)  
-[Økonomistyring](finance.md)  
-[Fakturer salg](sales-how-invoice-sales.md)  
-[Registrere kjøp med kjøpsfakturaer og ordrer](purchasing-how-record-purchases.md)  
-[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+[Slik konfigurerer e-dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)]](finance-how-setup-edocuments.md)    
+[Slik bruker du e-dokumenter i kjøp](finance-how-use-edocuments-purchase.md)  
+[Slik utvider du e-dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)    
+[Økonomistyring](finance.md)    
+[Fakturere salg](sales-how-invoice-sales.md)    
+[Registrere kjøp med kjøpsfakturaer og ordrer](purchasing-how-record-purchases.md)    
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

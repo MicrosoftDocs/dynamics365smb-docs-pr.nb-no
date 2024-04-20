@@ -127,11 +127,42 @@ Du kan bruke en finansrapport til å opprette en oppgave som sammenligner finans
 
 Du kan nå kopiere og lime inn budsjettoppgaven i et regneark.  
 
+## Integrer finansrapporter med Excel
+
+Du kan integrere en finansrapport med en Excel-arbeidsbokmal, justere oppsettet etter behov og deretter oppdatere Excel-malen med data fra [!INCLUDE[prod_short](includes/prod_short.md)]. Denne integrasjonen gjør det for eksempel enklere å generere månedlige og årlige regnskap i et format som fungerer for deg.
+
+### Konfigurer Excel-integrering for en finansrapport (opprett en Excel-mal)
+
+Hvis du vil konfigurere Excel-integrering for en finansrapport, gjør du følgende for å opprette en Excel-mal for en rapport.
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 4.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansrapporter**, og velg deretter den relaterte koblingen.
+1. På siden for **Finansrapporter** velger du finansrapporten for å aktivere med Excel, og deretter velger du handlingen **Eksporter til Excel**.
+1. Velg handlingen **Opprett nytt dokument**. Denne handlingen laster ned en Excel-malarbeidsbok med ett forslag oppkalt etter rapportnavnet.
+1. Kopier forslaget og gi det nytt navn til **Data**.
+1. Gi nytt navn til rapportforslaget slik du vil ha det.
+1. Merk alle cellene som viser data fra finansrapporten (inkludert kolonne- og radoverskrifter), i rapportforslaget. Finn **Tall**-menyen på **Hjem**-båndet, og velg **Generelt** som format.
+1. Merk cellen lengst til venstre i området med data fra finansrapporten, og angi en referanse til den tilsvarende cellen i dataregnearket. Dra formelen til høyre for å utvide den til alle cellene i den første raden, og dra deretter raden nedover for å dekke alle radene i finansrapporten.
+1. Skjul **dataregnearket**.
+1. Formater rapportforslaget etter behov.
+1. Lagre arbeidsboken på OneDrive eller et lignende sted der filen sikkerhetskopieres og versjonskontrolleres.
+1. Lukk arbeidsboken.
+
+### Kjør en finansrapport med en Excel-mal
+
+Hvis du vil kjøre en finansrapport med en Excel-mal, gjør du følgende:
+
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 4.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansrapporter**, og velg deretter den relaterte koblingen.
+1. På siden for **Finansrapporter** velger du finansrapporten for å aktivere med Excel, og deretter velger du handlingen **Eksporter til Excel**.
+1. Velg handlingen **Oppdater kopi av eksisterende dokument**.
+1. Last opp Excel-malen (lukk Excel-arbeidsboken før du laster den opp).
+1. Velg dataregnearket på siden **Oppslag av navn/verdi**.
+1. [!INCLUDE[prod_short](includes/prod_short.md)] kjører finansrapporten og slår resultatdataene sammen med Excel-malen.
+
 ## Skrive ut og lagre finansrapporter
 
 Du kan skrive ut finansrapporter ved hjelp av enhetens utskriftstjenester. [!INCLUDE[prod_short](includes/prod_short.md)] gir også mulighetene til å lagre rapporter som Excel-arbeidsbøker, Word-dokumenter, PDF- og XML-filer.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 4.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansrapporter**, og velg deretter den relaterte koblingen.
+1. Velg ![Lyspære som åpner funksjonen Fortell meg 4.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansrapporter**, og velg deretter den relaterte koblingen.
 1. På siden for **Finansrapporter** velger du rapporten som skal skrives ut, og deretter velger du **Skriv ut**-handlingen.
 1. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 1. I **Skriver**-feltet velger du enheten som rapporten sendes til.
@@ -147,6 +178,7 @@ Du kan lagre en finansrapport i filformater som PDF, XML, Word eller Excel. [!IN
 1. Angi rapporten i henhold til dette, og velg deretter handlingen **Send til**.
 1. Velg filformatet eller **Planlegg**-handling, og velg **OK**.
 1. Hvis du vil generere en planlagt eller gjentakende finansrapport, fyller du ut feltene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)].<br><br>For regelmessige finansrapporter angir du feltene **Tidligste startdato/-klokkeslett** og **Utløpsdato/-klokkeslett** med første og siste dato for å generere finansrapporten. Du kan også velge hvilke dager rapporten skal genereres, ved å sette feltet **Datoformel for neste kjøring** etter formatet forklart i delen [Bruk datoformler](ui-enter-date-ranges.md#use-date-formulas).
+
 
 ## Anbefalte fremgangsmåter for arbeid med finansrapportdefinisjoner
 
@@ -165,7 +197,7 @@ Du kan importere og eksportere finansrapportdefinisjoner som RapidStart-konfigur
 
 Hvis du vil importere eller eksportere finansrapportdefinisjoner, gjør du følgende:
 
-1. Velg ![Lyspære som åpner funksjonen Fortell meg 4.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansrapporter**, og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 4.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansrapporter**, og velg deretter den relaterte koblingen.
 1. Velg regnskapsrapporten, og velg deretter **Importer finansrapport** eller **Eksporter finansrapport**, avhengig av hva du vil gjøre.
 
 Hvis du vil lære mer om hvordan du importerer eller eksporterer rad- eller kolonnedefinisjoner for finansrapporter, kan du gå til følgende artikler: 

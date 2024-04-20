@@ -103,7 +103,7 @@ Spørring: `How does I save my filterrings to do them later?`
 
 I dette eksemplet kan du be Copilot om veiledning om hvordan du utfører en oppgave i Business Central. Copilot kan vanligvis forstå hensikten med spørsmålet ditt, selv om det er noen grammatiske feil, stavefeil eller forkortelser.
 
-Spørring: `Provide feedback on answers`
+## Gi tilbakemelding på svar
 
 Du kan rangere svarene du får fra Copilot ved å bruke liker-knappen (tommel opp) for god vurdering, eller liker ikke-knappen (tommel ned) for en dårlig vurdering. Når du velger Liker ikke-knappen, kan du velge en årsak, inkludert unøyaktig, upassende eller annet. Denne informasjonen kan hjelpe oss med å forbedre forslagene.
 

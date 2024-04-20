@@ -7,17 +7,17 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'access, right, security, permissions'
 ms.search.form: '1, 119, 8930, 9800, 9807, 9808, 9830, 9831, 9802, 9855, 9862'
-ms.date: 11/29/2023
+ms.date: 04/15/2024
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="control-access-to-business-central-using-security-groups"></a>Styr tilgang til Business Central ved å bruke sikkerhetsgrupper
+# Styr tilgang til Business Central ved å bruke sikkerhetsgrupper
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Sikkerhetsgrupper gjør det enklere for administratorer å håndtere brukertillatelser. For nettversjonen av [!INCLUDE [prod_short](includes/prod_short.md)] kan de for eksempel brukes på nytt på tvers av Dynamics 365-programmer, som SharePoint Online, CRM Online og [!INCLUDE [prod_short](includes/prod_short.md)]. Administratorer legger til tillatelser i [!INCLUDE [prod_short](includes/prod_short.md)]-sikkerhetsgruppene, og når de legger til brukere i gruppen, gjelder tillatelsene for alle medlemmer. En administrator kan for eksempel opprette en [!INCLUDE [prod_short](includes/prod_short.md)]-sikkerhetsgruppe som gir selgere muligheten til å opprette og bokføre ordrer. Eller du kan la innkjøpere gjøre det samme for bestillinger.
 
-## <a name="business-central-online-and-on-premises"></a>Business Central Online og lokal
+## Business Central Online og lokal
 
 Du kan bruke sikkerhetsgrupper for nettversjonene og de lokale versjonene av [!INCLUDE [prod_short](includes/prod_short.md)]. Opprett grupper på en av følgende måter, avhengig av versjonen:
 
@@ -29,7 +29,7 @@ Etterpå oppretter du en tilsvarende sikkerhetsgruppe i [!INCLUDE [prod_short](i
 > [!NOTE]
 > Hvis du har definert en spesiell type bruker med en Windows-gruppelisenstype i en lokal versjon av [!INCLUDE [prod_short](includes/prod_short.md)] som er eldre enn lanseringsbølge 1 i 2023, konverterer [!INCLUDE [prod_short](includes/prod_short.md)] brukeren til en sikkerhetsgruppe når du oppgraderer. Den nye sikkerhetsgruppen har samme navn som navnet på Windows-gruppen. Sikkerhetsgruppen gir deg bedre oversikt over gruppemedlemmene og de effektive tillatelsene.
 
-## <a name="add-a-security-group-in-business-central"></a>Legg til en sikkerhetsgruppe i Business Central
+## Legg til en sikkerhetsgruppe i Business Central
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Sikkerhetsgrupper**, og velg deretter den relaterte koblingen.
 1. Velg **Opprett** for å opprette en gruppe.
@@ -41,28 +41,29 @@ Etterpå oppretter du en tilsvarende sikkerhetsgruppe i [!INCLUDE [prod_short](i
 > [!NOTE]
 > Brukerne vises bare på **Medlemmer**-kortet i faktaboksen eller siden **Sikkerhetsgruppemedlemmer** hvis de er lagt til som brukere i [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil finne ut mer om å legge til brukere, går du til [Slik legger du til brukere eller oppdaterer brukerinformasjon og lisenstildelinger i Business Central](ui-how-users-permissions.md#adduser).  
 
-### <a name="assign-permissions-to-a-security-group"></a>Tildel tillatelser til en sikkerhetsgruppe
+### Tildel tillatelser til en sikkerhetsgruppe
 
 1. På siden **Sikkerhetsgrupper** velger du gruppen og deretter handlingen **Tillatelser**.
 1. Tildel tillatelser på følgende måter:
 
     * Hvis du vil tildele tillatelsessett enkeltvis, velger du tillatelsene som skal tildeles, i feltet **Tillatelsessett**.
-    * Hvis du vil tildele flere tillatelsessett, velger du handlingen **Velg tillatelsessett**, og deretter velger du settene som skal tildeles.
+    * Hvis du vil tildele flere tillatelsessett, velger du handlingen **Legg til flere**, og deretter velger du settene som skal tildeles.
+1. Hvis du vil at tillatelsessettene skal gjelde bare for et bestemt selskap, setter du **Selskap**-kolonnen til dette selskapet. Hvis du vil at tillatelsessettet skal gjelde for alle selskaper, lar du kolonnen **Selskap** stå tomt. [Finn ut mer](ui-define-granular-permissions.md#control-access-to-specific-companies).
 
-## <a name="review-the-permissions-in-a-security-group"></a>Gå gjennom tillatelsene i en sikkerhetsgruppe
+## Gå gjennom tillatelsene i en sikkerhetsgruppe
 
 På siden **Sikkerhetsgrupper** viser faktaboksen **tillatelsessettene** som er tildelt gruppen. Alle brukerne som er oppført på **Medlemmer**-kortet, har disse tillatelsene. Handlingen **Tillatelsessett etter sikkerhetsgruppe** gir en mer detaljert visning. Der kan du også utforske de enkelte tillatelsene i hver sikkerhetsgruppe.
 
 Tillatelser er også tilgjengelige på **Brukere**-siden. Faktaboksen viser kortene **Tillatelsessett fra sikkerhetsgrupper** og **Medlemskap** for den valgte brukeren.
 
-## <a name="security-groups-and-user-groups"></a>Sikkerhetsgrupper og brukergrupper
+## Sikkerhetsgrupper og brukergrupper
 
 > [!NOTE]
 > Brukergrupper vil ikke lenger være tilgjengelige i en fremtidig versjon.
 
 Sikkerhetsgrupper ligner veldig på brukergruppene som for øyeblikket er tilgjengelige. Brukergrupper er imidlertid bare relevante for [!INCLUDE [prod_short](includes/prod_short.md)]. Sikkerhetsgrupper er basert på grupper i Microsoft Entra ID eller Windows Active Directory, avhengig av om du bruker nettversjonen eller den lokale versjonen av [!INCLUDE [prod_short](includes/prod_short.md)]. Grupper er nyttige for administratorer fordi de kan bruke dem med andre Dynamics 365-apper. Hvis selgere for eksempel bruker [!INCLUDE [prod_short](includes/prod_short.md)]og SharePoint, trenger ikke administratorer å opprette gruppen og medlemmene på nytt.
 
-### <a name="optional-convert-user-groups-to-permission-sets"></a>Valgfritt: Konverter brukergrupper til tillatelsessett
+### Valgfritt: Konverter brukergrupper til tillatelsessett
 
 I lanseringsbølge 1 i 2023 og nyere kan du konvertere brukergrupper til tillatelsessett i leieren. Tillatelsessettene har samme funksjonalitet som brukergrupper. Her er noen eksempler:
 
@@ -76,7 +77,7 @@ Bruk den assisterte oppsettsveiledningen **Brukergruppeoverføring** til å konv
 |Tildel til bruker     | Tildel tillatelsene i brukergrupper direkte til brukerne som ble tildelt til gruppen, og fjern brukergruppetildelingene.        |
 |Konverter til et tillatelsessett     | Opprett en ny tillatelse for tillatelsene i hver brukergruppe. Det nye tillatelsessettet tildeles alle medlemmene i hver brukergruppe.          |
 
-### <a name="license-configurations-still-apply"></a>Lisenskonfigurasjoner gjelder fortsatt
+### Lisenskonfigurasjoner gjelder fortsatt
 
 Du kan konfigurere tillatelser i [!INCLUDE [prod_short](includes/prod_short.md)] basert på lisenser. Disse tillatelsene tildeles direkte til nye brukere. Disse konfigurasjonene gjelder fortsatt, selv om du begynner å bruke sikkerhetsgrupper.
 
@@ -84,7 +85,7 @@ Hvis du vil bruke sikkerhetsgrupper utelukkende, anbefaler vi at du fjerner lise
 
 Du kan fjerne lisenskonfigurasjoner på siden **Lisenskonfigurasjon**. Velg en lisens, og slett deretter alle tillatelsessett som er tildelt til den.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opprett brukere i henhold til lisenser](ui-how-users-permissions.md)  
 [Konfigurer Business Central-tilgang i Teams med Microsoft 365-lisenser](admin-access-with-m365-license-setup.md)  

@@ -36,10 +36,10 @@ Hvis du vil ha mer informasjon, kan du se [Delegert administratortilgang til Bus
 
 |Hvis du vil  |Se  |
 |---------|---------|
-|For å gjøre det enklere å behandle tillatelser for flere brukere, kan du organisere dem i sikkerhetsgrupper og dermed tilordne eller endre ett tillatelsessett for mange brukere i én handling.| [Slik behandler du tillatelser ved hjelp av brukergrupper](#to-manage-permissions-through-user-groups) |
-|Slik behandler du tillatelsessett for bestemte brukere | [Slik tilordner du tillatelsessett til brukere](#to-assign-permission-sets-to-users) |
-|Slik lærer du hvordan du definerer et tillatelsessett|[Slik oppretter du et tillatelsessett](#to-create-a-permission-set)|
-|Slik viser eller feilsøker du en brukers tillatelser|[For å få en oversikt over en brukers tillatelser](#to-get-an-overview-of-a-users-permissions)|
+|For å gjøre det enklere å behandle tillatelser for flere brukere, kan du organisere dem i sikkerhetsgrupper og dermed tilordne eller endre ett tillatelsessett for mange brukere i én handling.| [Administrer tillatelser ved hjelp av brukergrupper](#manage-permissions-through-user-groups) |
+|Slik behandler du tillatelsessett for bestemte brukere | [Tildel tillatelsessett til brukere](#assign-permission-sets-to-users) |
+|Slik lærer du hvordan du definerer et tillatelsessett|[Opprett et tillatelsessett](#create-a-permission-set)|
+|Slik viser eller feilsøker du en brukers tillatelser|[Få en oversikt over en brukers tillatelser](#get-an-overview-of-a-users-permissions)|
 |Slik lærer du om sikkerhet på postnivå|[Sikkerhetsfiltre begrenser brukerens tilgang til bestemte poster i en tabell](#security-filters-limit-a-users-access-to-specific-records-in-a-table)|
 
 > [!NOTE]
@@ -47,7 +47,7 @@ Hvis du vil ha mer informasjon, kan du se [Delegert administratortilgang til Bus
 >
 > Du kan også definere funksjonene som er tilgjengelige for brukere i brukergrensesnittet, og hvordan de samhandler med dem gjennom sider. Dette gjør du gjennom profiler som du tilordner til ulike typer brukere i henhold til jobbrolle eller avdeling. Hvis du vil ha mer informasjon, kan du se [Administrere profiler](admin-users-profiles-roles.md) og [Tilpasse [!INCLUDE[prod_short](includes/prod_short.md)]](ui-customizing-overview.md).
 
-## Slik oppretter du et tillatelsessett
+## Opprett et tillatelsessett
 
 > [!NOTE]
 > I lanseringsbølge 2 i 2022 gjorde vi det enklere å legge til tillatelser i tillatelsessett. I stedet for å legge til tillatelser enkeltvis, kan du legge til hele tillatelsessett. Om nødvendig kan du utelate individuelle tillatelser. Hvis du vil ha mer informasjon, kan du se [Slik legger du til andre tillatelsessett](#to-add-other-permission-sets). For å gjøre dette mulig erstattet vi siden Tillatelsessett med en ny side. Nøkkelforskjellene er de nye rutene **Tillatelsessett** og **Resultater** og faktaboksen **Inkluderte tillatelser**. Hvis du vil fortsette å bruke den erstattede siden Tillatelser, velger du handlingen **Tillatelser (eldre)** på siden **Tillatelsessett**.
@@ -116,7 +116,7 @@ Når du utelater et tillatelsessett, ekskluderes alle tillatelsene i settet. [!I
 2. Beregn hele listen over utelatte tillatelser
 3. Fjern utelatte tillatelser fra listen over inkluderte tillatelser (fjerning av en indirekte tillatelse er det samme som Reduser til Indirekte)
 
-## Slik kopiere du et tillatelsessett
+## Kopier et tillatelsessett
 
 Opprett et nytt tillatelsessett ved å kopiere et annet. Det nye settet vil inneholde alle tillatelser og tillatelsessett fra settet du har kopiert. Hvordan tillatelsene og tillatelsessettene ordnes i det nye tillatelsessettet, er avhengig av valget i **Kopier operasjon**-feltet. Tabellen nedenfor beskriver alternativene.
 
@@ -134,7 +134,7 @@ Opprett et nytt tillatelsessett ved å kopiere et annet. Det nye settet vil inne
 > [!NOTE]
 > Varslingen krever at varslingen **Opprinnelig systemtillatelsessett er endret** er aktivert på siden **Mine varslinger**.
 
-## Slik oppretter eller endrer du tillatelser ved å angi registrere handlingene
+## Opprett eller endre tillatelser ved å angi registrere handlingene
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Tillatelsessett** og velger den relaterte koblingen.
 
@@ -171,11 +171,11 @@ I miljøer med mange leietakere importeres et tillatelsessett til en spesiell le
 
 Tillatelsessettene importeres.
 
-## Slik fjerner du foreldede tillatelser fra alle tillatelsessett
+## Fjern foreldede tillatelser fra alle tillatelsessett
 
 På siden **Tillatelsessett** velger du handlingen **fjern foreldede tillatelsessett**.
 
-## Slik definerer du tidsbegrensninger for brukere
+## Definer tidsbegrensninger for brukere
 
 Administratorer kan definere tidsperioder som de bestemte brukerne kan bokføre. Administratorer kan også angi om system logger hvor lang tid brukere er logget på. Administratorer kan også tildele ansvarssentre til brukere. Hvis du vil ha mer informasjon, kan du se [Arbeide med ansvarssentre](inventory-responsibility-centers.md).
 
@@ -184,7 +184,15 @@ Administratorer kan definere tidsperioder som de bestemte brukerne kan bokføre.
 3. I feltet **Bruker-ID** angir du ID-en for en bruker eller velger feltet for å vise alle gjeldende Windows-brukere i systemet.
 4. Fyll ut feltene etter behov.
 
-## Slik behandler du tillatelser ved hjelp av brukergrupper
+## Kontroller tilgangen til bestemte selskaper
+
+Når du har flere selskaper i Business Central, må du ta ekstra hensyn for å behandle tillatelser på tvers av selskaper. Du vil kanskje ikke at brukerne skal ha identiske tilgangsrettigheter til alle selskaper. I stedet må du kanskje gi brukere tillatelser basert på selskapstilknytninger. Når du tildeler tillatelsessett til enkeltbrukere eller sikkerhetsgrupper, har du for å støtte dette scenarioet muligheten til å velge et bestemt selskap som tillatelsessettet gjelder for. Selskapet er ikke eksplisitt angitt i tillatelsessettet, men i stedet når tillatelsessettet er tildelt brukeren eller sikkerhetsgruppen.
+
+Hvis du ikke angir selskapet når du tildeler et tillatelsessett, gjelder tillatelsessettet for alle selskaper. Hvis du vil at et tillatelsessett skal gjelde for mer enn ett selskap, men ikke alle selskaper, legger du til tillatelsessettet spesifikt for hvert selskap separat.
+
+Finn ut hvordan under [Tildel tillatelsessett til brukere](#assign-permission-sets-to-users) eller [Tildel tillatelsessett til en sikkerhetsgruppe](ui-security-groups.md#assign-permissions-to-a-security-group).
+
+## Administrer tillatelser ved hjelp av brukergrupper
 
 Brukergrupper hjelper deg med å håndtere tillatelsessett i hele selskapet. [!INCLUDE [prod_short](includes/prod_short.md)] online inneholder standard brukergrupper som tildeler brukere automatisk basert på lisensen. Du kan legge til brukere manuelt i en brukergruppe, og du kan opprette nye brukergrupper som kopier av eksisterende filer.  
 
@@ -227,7 +235,7 @@ Den nye brukergruppen legges til på **Brukergrupper**-siden. Fortsett med å le
 3. Velg handlingen **Brukertillatelsessett** for å åpne siden **Brukertillatelsessett**.
 4. På siden **Brukertillatelsessett** fyller du ut feltene etter behov på en ny linje.
 
-### Slik tilordner du et tillatelsessett på siden **Tillatelsessett etter brukergruppe**
+### Slik tilordner du et tillatelsessett på siden Tillatelsessett etter brukergruppe
 
 Fremgangsmåten nedenfor beskriver hvordan du kan tildele tillatelsessett til en brukergruppe på siden **Tillatelsessett etter brukergruppe**.
 
@@ -238,11 +246,11 @@ Fremgangsmåten nedenfor beskriver hvordan du kan tildele tillatelsessett til en
 
 Du kan også tildele tillatelsessett direkte til en bruker.
 
-## Slik tilordner du tillatelsessett til brukere
+## Tildel tillatelsessett til brukere
 
 Et tillatelsessett er en samling tillatelser for bestemte databaseobjekter. Alle brukere må være tilordnet ett eller flere tillatelsessett før de kan åpne [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-En [!INCLUDE[prod_short](includes/prod_short.md)]-løsning inneholder forhåndsdefinerte tillatelsessett som legges til av Microsoft eller løsningsleverandøren. Du kan også legge til nye tillatelsessett som er skreddersydd for å dekke behovene i organisasjonen. Hvis du vil ha mer informasjon, kan du se delen [Slik oppretter du et tillatelsessett](#to-create-a-permission-set).
+En [!INCLUDE[prod_short](includes/prod_short.md)]-løsning inneholder forhåndsdefinerte tillatelsessett som legges til av Microsoft eller løsningsleverandøren. Du kan også legge til nye tillatelsessett som er skreddersydd for å dekke behovene i organisasjonen. Hvis du vil ha mer informasjon, kan du se delen [Opprett et tillatelsessett](#create-a-permission-set).
 
 > [!NOTE]
 > Hvis du ikke vil begrense brukerens tilgang mer enn det som allerede er definert av lisensen, kan du tilordne et spesielt tillatelsessett som kalles SUPER for brukeren. Dette tillatelsessettet sikrer at brukeren har tilgang til alle objektene som er angitt i lisensen.
@@ -257,22 +265,26 @@ Du kan tilordne tillatelsessett til brukere på to måter:
 ### Slik tilordner du et tillatelsesett på et brukerkort
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukere**, og velg deretter den relaterte koblingen.
-2. Velg brukeren du vil tilordne tillatelse til.
-Eventuelle tillatelsessett som allerede er tilordnet til brukeren, vises i faktaboksen **Tillatelsessett**.
-3. Velg handlingen **Rediger** for å åpne **Brukerkort**-siden.
-4. På hurtigfanen **Brukertillatelsessett** fyller du ut feltene etter behov på en ny linje. Hvis du vil ha mer informasjon, kan du se [Slik oppretter eller redigerer du et tillatelsessett](ui-define-granular-permissions.md#to-create-a-permission-set).
+1. Velg brukeren du vil tilordne tillatelse til.
 
-   Bruk **Selskap**-feltet for å bruke tillatelsessett på et bestemt selskap. Hvis du lar feltet stå tomt, gjelder det for alle selskaper.
+   Eventuelle tillatelsessett som allerede er tilordnet til brukeren, vises i faktaboksen **Tillatelsessett**.
+1. Velg handlingen **Rediger** for å åpne **Brukerkort**-siden.
+1. På hurtigfanen **Brukertillatelsessett** fyller du ut feltene etter behov på en ny linje. Hvis du vil ha mer informasjon, kan du se [Opprett eller rediger et tillatelsessett](ui-define-granular-permissions.md#create-a-permission-set).
+
+   Hvis du vil at tillatelsessettet skal gjelde for et bestemt selskap, setter du **Selskap**-feltet til dette selskapet. Hvis du vil at tillatelsessettet skal gjelde for alle selskaper, lar du feltet **Selskap** stå tomt. [Finn ut mer](#control-access-to-specific-companies).
 
 ## Slik tilordner du et tillatelsessett på siden Tillatelsessett etter bruker
 
+Denne metoden gjør det enklere for deg å tildele ulike tillatelsessett til flere brukere. 
+
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Brukere**, og velg deretter den relaterte koblingen.
-2. På siden **Brukere** velger du handlingen **Tillatelsessett etter bruker**.
-3. På siden **Tillatelsessett etter bruker** merker du av for **[brukernavn]** for en linje for det aktuelle tillatelsessettet for å tildele settet til brukeren.
+1. På siden **Brukere** velger du handlingen **Tillatelsessett etter bruker**.
+1. Hvis du vil at tillatelsessettene skal gjelde bare for et bestemt selskap, setter du **Selskapsnavn**-feltet til dette selskapet. Hvis du vil at tillatelsessettet skal gjelde for alle selskaper, lar du feltet **Selskapsnavn** stå tomt. [Finn ut mer](#control-access-to-specific-companies).
+1. På siden **Tillatelsessett etter bruker** merker du av for **[brukernavn]** for en linje for det aktuelle tillatelsessettet for å tildele settet til brukeren.
 
     Merk av for **Alle brukere** for å tildele tillatelsessettet til alle brukere.
 
-## For å få en oversikt over en brukers tillatelser
+## Få en oversikt over en brukers tillatelser
 
 Du kan vise andre brukeres gyldige tillatelser bare hvis du tilordner til tillatelsessettet SUPER eller SECURITY. 
 
@@ -293,7 +305,7 @@ Siden **Gjeldende tillatelser** inneholder tilleggsinformasjon om kilden til hve
     >
     > Rader for kilderettighet er hentet fra abonnementslisensen. Tillatelsesverdiene for rettigheten overstyrer verdier i andre tillatelsessett hvis de har en høyere rangering. En verdi i et ikke-berettiget tillatelsessett som har en høyere rangering enn den relaterte verdien i berettigelsen, vil stå i parenteser for å angi at den ikke er gyldig, siden den er overstyrt av berettigelsen.
     >
-    > For en forklaring av rangering kan du se [Slik oppretter du et tillatelsessett](ui-define-granular-permissions.md#to-create-a-permission-set).  
+    > For en forklaring av rangering kan du se [Opprett et tillatelsessett](ui-define-granular-permissions.md#create-a-permission-set).  
 
 4. Hvis du vil redigere et tillatelsessett, går du til delen **Etter tillatelsessett** og linjen for et relevant tillatelsessett av typen **Brukerdefinerte** og velger ett av de fem tilgangstypefeltene og en annen verdi.
 
@@ -306,7 +318,8 @@ Siden **Gjeldende tillatelser** inneholder tilleggsinformasjon om kilden til hve
 
 For sikkerhet på postnivå i [!INCLUDE[prod_short](includes/prod_short.md)] bruker du sikkerhetsfiltrene til å begrense en brukers tilgang til data i en tabell. Du oppretter sikkerhetsfiltre på tabelldata. Et sikkerhetsfilter beskriver et sett med poster i en tablle som en bruker har tilgang til. Du kan for eksempel angi at en bruker bare kan lese poster som inneholder informasjon om en bestemt kunde. På denne måten har ikke brukeren tilgang til postene som inneholder informasjon om andre kunder. Hvis du vil ha mer informasjon, kan du se [Bruk sikkerhetsfiltre](/dynamics365/business-central/dev-itpro/security/security-filters) i administrasjonsinnholdet.
 
-## Vise telemetri ved tillatelsesendringer
+
+## Vis telemetri ved tillatelsesendringer
 
 Du kan konfigurere at [!INCLUDE[prod_short](includes/prod_short.md)] skal sende endringer som er gjort i tillatelsen, til en Application Insights-ressurs i Microsoft Azure. Deretter kan du bruke Azure Monitor til å opprette rapporter og konfigurere varsler for de innsamlede dataene. Hvis du vil ha mer informasjon, kan du se følgende artikler i Hjelp for utviklere og administratorer for [!INCLUDE[prod_short](includes/prod_short.md)]:
 

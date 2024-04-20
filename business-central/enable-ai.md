@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 02/27/2024
+ms.date: 04/16/2024
 ms.custom: bap-template
 ms.search.form: 7775
 ms.collection:
@@ -35,12 +35,12 @@ Denne artikkelen forklarer hvordan du kontrollerer Copilot og andre KI-funksjone
 
   In 2023 release wave 2, both the marketing text suggestions and bank account reconciliation assist features are included under **Feature Management**. [Learn more](#enable-feature-in-feature-management)-->
 
-Hvis et av disse kravene ikke er oppfylt, er ikke funksjonen tilgjengelig for bruk.-->
+Hvis et av disse kravene ikke er oppfylt, er ikke funksjonen tilgjengelig for bruk.
 
 ## Forutsetninger
 
-- Du bruker Business Central Online <!--[preview version](ai-preview-getstarted.md) of Business Central that's enabled for Copilot.-->
-- Du har administrator- eller supertillatelser i Business Central.  <!--For more information, go to [Configure AI-powered item marketing text with Copilot](enable-ai.md).-->
+- Du bruker Business Central Online.
+- Du er en [administrator](#requirements-for-being-an-administrator) i Business Central.
 
 ## Tillat dataflytting på tvers av geografiske områder
 
@@ -116,21 +116,37 @@ Tabellen nedenfor viser tillatelsene som kreves for å bruke Copilot-funksjoner 
 
 |Copilot-funksjoner|Nødvendige tillatelser|
 |-|-|
-|Analysehjelp|**DATAANALYSE - EXEC**-tillatelsessettet eller utførelsestillatelse på systemobjektet 9640 **Tillat dataanalysemodus**. Dette er de samme tillatelsene som kreves for å få tilgang til analysemodus.|
+|Analysehjelp|**DATAANALYSE - EXEC**-tillatelsessettet eller utførelsestillatelse på systemobjektet 9640 **Tillat dataanalysemodus**. Disse tillatelsene er de samme tillatelsene som kreves for å få tilgang til analysemodus.|
 |Bankkontoavstemmingshjelp|Tillatelse på side 7250 **Bankkontoavstemming, KI-forslag** og side 7252 **Overfør til finanskonto, KI-forslag**.|
 |Nettprat |Det er ingen tillatelser eller tillatelsessett som styrer tilgangen til nettprat på per bruker-basis. Hvis nettprat er aktivert, er det tilgjengelig for alle brukere.|
+|Tildel e-dokumenter |Tillatelse på side 6166 **Copilot-spørring for e-dokumentbestilling**|
 |Forslag til markedsføringstekst |Tillatelse på side 5836 **Copilot-markedsføringstekst**|
+|Salgslinjeforslag |Tillatelse på side 7275 **KI-forslag for salgslinjer** og side 7276 **KI-forslagserst. for salgslinje**|
 
-Hvis du vil gi eller nekte tilgang til spesifikke kopilot- og KI-funksjoner som ikke er fra Microsoft, kan du se dokumentasjonen eller utgiveren av funksjonen for å identifisere hvilke tillatelser som kreves.
+Hvis du vil gi eller nekte tilgang til spesifikke kopilot- og KI-funksjoner som ikke er fra Microsoft, kan du se funksjonens dokumentasjon eller utgiver for å identifisere de nødvendige tillatelsene.
+
+## Krav for å være administrator
+
+Du må ha SUPER-tillatelser i Business Central-brukerkontoen eller en av følgende Business Central-lisenser:
+
+- Delegert administrator
+- Delegert brukerstøtte
+- Global administrator
+- BC-administrator
+- D365-administrator
+
+Business Central tilbyr ennå ikke detaljerte tillatelser på objektnivå, slik at bare bestemte administratorer kan konfigurere Copilot.
 
 ## Neste trinn
 
 Når du har aktivert og samtykket til funksjonene, er du klar til å prøve dem. Gå til:
 
-- [Legg til markedsføringstekst i varer](item-marketing-text.md)
-- [Analyser data i analysemodus med Copilot](analysis-assist.md)  
+- [Legge til markedsføringstekst i elementer med Copilot](item-marketing-text.md)
+- [Analyser listedata med hjelp fra Copilot](analysis-assist.md)  
 - [Nettprat med Copilot](chat-with-copilot.md)
-- [Avstemme ved hjelp av avstemmingshjelpen](bank-reconciliation-with-copilot.md)
+- [Tildel e-dokumenter til bestillingslinjer med Copilot](map-edocuments-with-copilot.md)
+- [Avstem bankkontoer med Copilot](bank-reconciliation-with-copilot.md)
+- [Foreslå linjer i ordrer med Copilot](sales-suggest-sales-lines-with-copilot.md)  
 
 ## Se også
 
@@ -138,5 +154,8 @@ Når du har aktivert og samtykket til funksjonene, er du klar til å prøve dem.
 [Vanlige spørsmål om analysehjelp](faqs-analysis-assist.md)  
 [Vanlige spørsmål om bankkontoavstemmingshjelp](faqs-bank-reconciliation.md)  
 [Vanlige spørsmål om nettprat med Copilot](faqs-chat-with-copilot.md)  
+[Vanlige spørsmål om tildelinger av e-dokumenter med bestillinger](faqs-map-edocuments.md)  
 [Vanlige spørsmål om forslag til markedsføringstekst](faqs-marketing-text.md)  
+[Vanlige spørsmål om salgslinjeforslag](faq-sales-suggest-sales-lines-with-copilot.md)  
+
 [Oversikt over forslag til markedsføringstekst](ai-overview.md)  

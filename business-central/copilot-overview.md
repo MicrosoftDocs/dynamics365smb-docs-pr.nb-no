@@ -8,7 +8,7 @@ ms.topic: overview
 ms.collection:
   - bap-ai-copilot
   - get-started
-ms.date: 03/27/2024
+ms.date: 04/16/2024
 ms.custom: bap-template
 ---
 
@@ -24,7 +24,7 @@ Microsoft Copilot er den KI-drevne assistenten som hjelper til med å stimulere 
 
 Copilot inkluderer et stadig voksende sett med funksjoner som hjelper brukere i ulike roller og oppgaver. Du kan lese om Copilot og andre KI-funksjoner i Business Central på [aka.ms/BCAI](https://aka.ms/BCAI). 
 
-## Er Copilot gratis? 
+## Er Copilot gratis?
 
 For øyeblikket er Copilot i Business Central inkludert i Business Central-lisensen uten ekstra kostnad. Dette utelukker ikke at retningslinjer for rimelig bruk, kvoter eller priser kan bli innført på et senere tidspunkt.
 
@@ -39,6 +39,10 @@ Business Central tilbyr mange KI-drevne funksjoner. Noen funksjoner, for eksempe
 ## Er Copilot i Business Central tilgjengelig globalt? 
 
 Copilot inkluderer et stadig voksende sett med funksjoner som hjelper brukere i ulike roller og oppgaver. Hver Copilot-funksjon definerer sin egen liste over støttede områder og støttede språk. Selv om de fleste funksjonene sannsynligvis bare vil være tilgjengelige på engelsk, ønsker vi å gi tilgang til flere språk og områder over tid. Du finner en oversikt over Copilot-språkene og -områdene som er tilgjengelige for forretningsprogrammer, på [https://dynamics.microsoft.com/availability-reports/copilotreport](https://dynamics.microsoft.com/availability-reports/copilotreport).
+
+## Er Copilot klar over miljøtilpasningene mine?
+
+Noen, men ikke alle Copilot-funksjoner kan fungere med egendefinerte sider og tabeller. Du kan for eksempel bruke [analysehjelp](analysis-assist.md) på egendefinerte lister eller [nettprate med Copilot](chat-with-copilot.md) for å finne poster i egendefinerte tabeller. Hvis du vil vite hvilke Copilot-funksjoner som fungerer med tilpasninger, kan du se artiklene for hver funksjon.
 
 ## Kan jeg utvikle mine egne kopiloter for Business Central?
 
