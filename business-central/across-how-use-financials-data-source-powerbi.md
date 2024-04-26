@@ -148,7 +148,7 @@ Du kan sende rapporter til kolleger og andre på et par ulike måter:
 
 ## <a name="fixing-problems"></a>Løse problemer
 
-### <a name="cannot-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>«Kan ikke sette inn en post. Nåværende tilkoblingshensikt er skrivebeskyttet.» feil under tilkobling til egendefinert API-side
+### <a name="cant-insert-a-record-current-connection-intent-is-read-only-error-connecting-to-custom-api-page"></a>«Kan ikke sette inn en post. Nåværende tilkoblingshensikt er skrivebeskyttet.» feil under tilkobling til egendefinert API-side
 
 > **GJELDER:** Business Central Online
 
