@@ -68,7 +68,7 @@ Deretter oppretter du en ordre med et antall på 12 på lokasjon VEST. Planleggi
 > [!NOTE]  
 > Hvis du viser lokasjonsbaserte prognoser isolert, kan det hende at den samlede prognosen ikke er representativ.
 
-### <a name="do-not-use-forecast-by-locations"></a>Ikke bruk prognose etter lokasjoner
+### <a name="if-you-dont-use-forecast-by-locations"></a>Ikke bruk prognose etter lokasjoner
 
 Hvis du deaktiverer vekslebryteren **Bruk prognose etter lokasjon**, vil [!INCLUDE[prod_short](includes/prod_short.md)] ignorere lokasjonskodene som er angitt for hver enkelt behovsprognose, og samle prognoser til en prognose for tomme lokasjoner.  
 

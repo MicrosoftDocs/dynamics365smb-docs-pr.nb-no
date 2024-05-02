@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Administrer aktiva
+# <a name="manage-fixed-assets"></a>Administrer aktiva
 
 Aktivafunksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] gir en oversikt over hvilke aktiva du har, og hjelper deg med å utføre riktig periodisk avskrivning. De hjelper deg dessuten med å styre vedlikeholdskostnadene, håndtere forsikringspoliser, bokføre aktivatransaksjoner og generere forskjellige rapporter og statistikker.
 
-## Videooversikt
+## <a name="video-overview"></a>Videooversikt
 
 Følgende video dekker det grunnleggende ved aktiva:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Oversikt over aktiva
+## <a name="fixed-assets-overview"></a>Oversikt over aktiva
 
 For hvert enkelt aktiva må du definere et kort som inneholder opplysninger om aktivaet. Du kan definere bygninger eller produksjonsutstyr som hovedaktiva i en komponentoversikt, og du kan gruppere dem på forskjellige måter, som etter klasse, avdeling eller lokasjon. Deretter kan du begynne å kjøpe, vedlikeholde og selge aktiva. Du kan også definere budsjetterte aktiva. Med budsjettering kan du ta med forventede anskaffelser og salg i rapporter.
 
@@ -46,7 +46,7 @@ Du kan knytte hvert aktiva til en eller flere forsikringspoliser og kontrollere 
 > [!NOTE]  
 > Du kan registrere aktivatransaksjoner på siden **Aktivafinanskladd** eller **Aktivakladd**, avhengig av om transaksjonene er for finansiell rapportering eller intern håndtering. Hjelp for aktiva beskriver bare hvordan du bruker **Aktiva finanskladd**-siden. Hvis du vil ha mer informasjon, kan du se [Definere avskriving av aktiva](fa-how-setup-depreciation.md).
 
-## Slik bruker du aktiva
+## <a name="how-to-use-fixed-assets"></a>Slik bruker du aktiva
 
 Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artiklene som beskriver dem.
 
@@ -64,7 +64,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 | Administrere aktivabudsjetter, og budsjettere anskaffelseskostnader, salg av aktiva og avskrivninger. |[Administrer budsjetter for aktiva](fa-how-manage-budgets.md) |
 | Finn ut mer om innebygde rapporterings- og analysefunksjoner for aktiva. | [Rapporter og analyse av aktiva](fa-reports.md) |
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Definer aktiva](fa-setup.md)  
 [Oversikt over finans](finance.md)  

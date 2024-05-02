@@ -9,7 +9,7 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="accounts-payable-reports-and-analytics-in-business-central"></a>Leverandørrapporter og analyser av aktiva i Business Central
+# <a name="accounts-payable-reports-and-analytics"></a>Leverandørrapporter og analyser av aktiva i Business Central
 
 For å hjelpe deg med å administrere leverandører i [!INCLUDE [prod_short](includes/prod_short.md)] er standardrapporter og analyse innebygd. Det flytter seg utenfor tradisjonelle rapporteringsbegrensninger for å hjelpe deg med å utforme forskjellige typer rapporter effektivt.  
 

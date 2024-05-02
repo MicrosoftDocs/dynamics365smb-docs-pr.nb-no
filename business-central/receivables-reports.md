@@ -9,7 +9,7 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="accounts-receivable-reports-and-analytics-in-business-central"></a>Kunderapporter og analyser av aktiva i Business Central
+# <a name="accounts-receivable-reports-and-analytics"></a>Kunderapporter og analyser av aktiva i Business Central
 
 For å hjelpe deg med å administrere kunder i [!INCLUDE [prod_short](includes/prod_short.md)] er standardrapporter og analyse innebygd. Det flytter seg utenfor tradisjonelle rapporteringsbegrensninger for å hjelpe deg med å utforme forskjellige typer rapporter effektivt.  
 
