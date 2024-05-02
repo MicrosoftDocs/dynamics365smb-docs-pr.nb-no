@@ -11,11 +11,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="analytics-business-intelligence-and-reporting-overview"></a>Oversikt over analyse, forretningsanalyse og rapportering
+# Oversikt over analyse, forretningsanalyse og rapportering
 
 Små og mellomstore selskaper svarer på innebygd analyse og rapporteringsfunksjonene de kan bruke med en gang til å holde oversikt over virksomheten. [!INCLUDE[prod_short](includes/prod_short.md)] gir rapporter og analyseverktøy som dekker grunnleggende og komplekse forretningsprosesser for slike organisasjoner. Du kan også utføre ad hoc-analyse direkte fra startsiden.  
 
-## <a name="analytics-needs-in-organizations"></a>Analysebehov i organisasjoner
+## Analysebehov i organisasjoner
 
 Når du tenker på analysebehov i organisasjoner, kan det hjelpe å bruke en mental modell basert på identitetene beskrevet på et høyt nivå og de forskjellige analysebehovene.
 
@@ -34,7 +34,7 @@ Bruk delene nedenfor til å lære mer om hvordan du kan bruke data fra [!INCLUDE
 - Ad hoc-analyse
 - Rapporter
 
-## <a name="using-financial-reports-to-produce-financial-statements-and-kpis"></a>Bruk Finansrapporter til å produsere årsregnskap og ytelsesindikatorer
+## Bruk Finansrapporter til å produsere årsregnskap og ytelsesindikatorer
 
 Finansrapporter-funksjonen gir deg innsikt i finansdataene som er lagret i kontoplanen. Du kan konfigurere finansrapporter til å analysere tall på finanskontoer og sammenligner finansposter med budsjettposter.
 
@@ -44,7 +44,7 @@ Dimensjoner spiller en viktig rolle i forretningsanalyse. En dimensjon er data d
 
 Hvis du vil lære mer om årsregnskap og KPI-er, kan du gå til [Bruk Financial Reporting til å produsere årsregnskap og ytelsesindikatorer](bi.md).
 
-## <a name="using-key-performance-indicators-to-meet-your-business-goals"></a>Bruk ytelsesindikatorer til å oppfylle forretningsmålene
+## Bruk ytelsesindikatorer til å oppfylle forretningsmålene
 
 En ytelsesindikator er en målbar verdi som viser hvor effektivt du når målene dine. Tenk på ytelsesindikatorer som selskapets målstyring, en måte å måle om du når målene dine eller ikke.
 
@@ -59,7 +59,7 @@ Identifisering og sporing av ytelsesindikatorer forteller deg om virksomheten er
 
 For mer informasjon om ytelsesindikatorer, gå til [Bruk ytelsesindikatorer til å oppfylle forretningsmålene](./analytics-about-kpis.md)
 
-## <a name="ad-hoc-data-analysis"></a>Analyse av ad hoc-data
+## Analyse av ad hoc-data
 
 Noen ganger vil du kanskje bare sjekke om tallene er riktig lagt sammen, raskt bekrefte eller avkrefte en hypotese om virksomheten, eller kanskje se etter uregelmessigheter i dine økonomiske data. For ad hoc-analyser har du kanskje ikke en innebygd rapport som hjelper deg med å svare på spørsmålene dine. Bruk disse to funksjonene for ad hoc-analyser:
 
@@ -79,7 +79,7 @@ På samme måte kan du bruke handlingen **Åpne i Excel** til å åpne en listes
 
 Hvis du vil vite mer om ad hoc-analyser, kan du gå til [Analyse av ad hoc-data](reports-adhoc-analysis.md).
 
-## <a name="reports"></a>Rapporter
+## Rapporter
 
 En rapport i [!INCLUDE[prod_short](includes/prod_short.md)] samler informasjon basert på et angitt sett med kriterier. Rapporter organiserer og presenterer informasjonen i et leservennlig format som du kan bruke i Excel, skrive ut eller lagre som en fil.  
 
@@ -105,7 +105,7 @@ Tabellen nedenfor inneholder artikler om hvordan du bruker innebygde rapporter i
 | Finn ut mer om hvilke innebygde rapporter som er tilgjengelige i [!INCLUDE[prod_short](includes/prod_short.md)]. |[Oversikt over rapporter](reports-available-reports.md)| 
 | Bruk Rapportutforsker til å se alle innebygde rapporter. | [Utforsk rapporter per rolle](ui-role-explorer.md) |
 
-## <a name="external-business-intelligence-and-reporting-tools"></a>Eksterne verktøy for forretningsanalyse og rapportering
+## Eksterne verktøy for forretningsanalyse og rapportering
 
 Hvis du foretrekker å bruke forretningsanalyseverktøy som ikke er innebygd i [!INCLUDE[prod_short](includes/prod_short.md)], inneholder tabellen nedenfor koblinger til veiledning om verktøy og måter å bruke eksterne verktøy på.
 
@@ -117,7 +117,7 @@ Hvis du foretrekker å bruke forretningsanalyseverktøy som ikke er innebygd i [
 | Analyser Business Central-data med Microsoft Fabric| [Innføring i Microsoft Fabric og Business Central](admin-fabric.md) |
 | Les data fra Business Central ved hjelp av API-er | [Business Central API v2.0](/dynamics365/business-central/dev-itpro/api-reference/v2.0/) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bruk finansrapportering til å produsere årsregnskap og ytelsesindikatorer](bi.md)  
 [Bruk ytelsesindikatorer (KPI-er) til å oppfylle forretningsmålene](analytics-about-kpis.md)  

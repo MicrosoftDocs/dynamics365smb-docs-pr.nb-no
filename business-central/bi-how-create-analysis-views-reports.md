@@ -10,7 +10,7 @@ ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-analysis-reports"></a>Opprett analyserapporter
+# Opprett analyserapporter
 
 Salgssjefer må analysere omsetning, bruttofortjeneste og andre viktige salgsytelsesindikatorer regelmessig. Innkjøpere er mer interessert i dynamikken rundt innkjøpsvolum, leverandørenes ytelse og kjøpspriser. Logistikk-/lagersjefer trenger derimot opplysninger om vareomsetning, analyse av lagerflytting og statistikk for lagerverdi. Derfor finnes det ingen analyserapport som passer for alt.
 
@@ -22,7 +22,7 @@ Analyserapporten består av objektene du vil analysere (f.eks. kunder, kundegrup
 
 I tillegg til analyserapporter kan du opprette og vise lignende informasjon i analysevisninger (basert på dimensjonene). Lær mer på [Analysere data etter dimensjoner](bi-how-analyze-data-dimension.md).
 
-## <a name="example"></a>Eksempel
+## Eksempel
 
 Du kan opprette disse linjene (objektene du vil analysere):  
 
@@ -36,7 +36,7 @@ Deretter kan du opprette disse kolonnene (hvordan du vil analysere objektene):
 - Salg forrige måned  
 - Salg i prosent forrige måned  
 
-## <a name="setting-up-line-and-column-layouts"></a>Definere linje- og kolonneoppsett
+## Definere linje- og kolonneoppsett
 
 På **Analyserapport**-siden kan du vise forskjellige linje- og kolonneoppsett som du definerer på:
 
@@ -56,7 +56,7 @@ Basert på linjene og kolonnene du har definert, vil [!INCLUDE[prod_short](inclu
 
 Du kan for eksempel definere en gruppe med linje- og flere grupper med kolonneoppsett for å vise henholdsvis månedlige og årlige rapporter.
 
-## <a name="set-up-analysis-column-templates"></a>Definere en analysekolonnemaler
+## Definere en analysekolonnemaler
 
 Følgende fremgangsmåte er basert på salgsanalysevisninger. Fremgangsmåten er lignende for kjøps- og lageranalysevisninger.
 
@@ -69,15 +69,15 @@ En analysekolonnemal som består av et sett med linjer, som representerer en ana
 
     > [!NOTE]  
     > For å kunne definere en kolonne må du fylle ut feltet **Analysetypekode** for alle kolonnetyper med unntak av **Formel**. Definer analysetypekoder på **Analysetyper**-siden.  
-    
-    I **Posttype**-feltet kopieres også de faktiske tallene fra vareposten hvis du velger **Vareposter**. Hvis du velger **Varebudsjettposter**, kopieres budsjetterte tall fra budsjettet.  
+    >
+    > I **Posttype**-feltet kopieres også de faktiske tallene fra vareposten hvis du velger **Vareposter**. Hvis du velger **Varebudsjettposter**, kopieres budsjetterte tall fra budsjettet.  
 5. Velg **OK** for å lagre endringene.  
 
-## <a name="set-up-analysis-line-templates"></a>Definere analyselinjemaler
+## Definere analyselinjemaler
 
 Følgende fremgangsmåte er basert på analyserapporter for salg. Fremgangsmåten er lignende for kjøps- og lageranalyserapporter.
 
-En analyselinjemal som består av et sett med linjer, som representerer en analyselinje du vil ha i analyserapporten. En linje kan angi én eller flere varer, kunder, leverandører eller grupper. Du kan også opprette en formel på en linje for å summere de andre linjene. Du kan definere så mange linjemaler du vil og deretter bruke dem til å opprette nye analyserapporter.   
+En analyselinjemal som består av et sett med linjer, som representerer en analyselinje du vil ha i analyserapporten. En linje kan angi én eller flere varer, kunder, leverandører eller grupper. Du kan også opprette en formel på en linje for å summere de andre linjene. Du kan definere så mange linjemaler du vil og deretter bruke dem til å opprette nye analyserapporter.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgslinjemaler**, og velg deretter den relaterte koblingen.  
 2. Velg den første tomme linjen, og fyll deretter ut feltene etter behov.
@@ -87,7 +87,7 @@ En analyselinjemal som består av et sett med linjer, som representerer en analy
 > [!NOTE]  
 > Hvis du vil opprette mange individuelle linjer for hver vare, kunde og så videre, kan du velge riktig innsettingsalternativ for å fylle ut alle de relevante feltene på linjen. Hvis du må, kan du deretter redigere linjene manuelt. Når du skal sette inn linjer, velger du handlingen **Sett inn elementer** eller **Sett inn varegrupper**.  
 
-## <a name="create-a-new-sales-analysis-report"></a>Opprette en ny salgsanalyserapport
+## Opprette en ny salgsanalyserapport
 
 Følgende fremgangsmåte er basert på analyserapporter for salg. Fremgangsmåten er lignende for kjøps- og lageranalyserapporter.
 
@@ -102,7 +102,7 @@ Med analyserapporter kan du analysere dynamikken for salg i forhold til viktige 
 > [!NOTE]  
 > Det er valgfritt å bygge kombinasjoner av linje- og kolonnemaler for å opprette rapporter og tilordne dem unike navn. Hvis du gjør dette trenger du ikke å velge linje- og kolonnemaler på siden **Salgsanalyserapport**. Når du har valgt et rapportnavn, kan du endre linje- og kolonnemaler uavhengig av hverandre og deretter velge rapportnavnet på nytt for å gjenopprette den opprinnelige kombinasjonen.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finansforretningsanalyse](bi.md)  
 [Finans](finance.md)  
