@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="built-in-finance-reports-in-business-central"></a>Bygg inn finansrapporter i Business Central
+# Bygg inn finansrapporter i Business Central
 
 [!INCLUDE [prod_short](includes/prod_short.md)] inkluderer flere innebygde rapporter, sporingsfunksjoner og verktøy som hjelper revisorer eller kontrollører som er ansvarlige for rapportering til økonomiavdelingen. 
 
@@ -19,7 +19,7 @@ ms.service: dynamics-365-business-central
 [!INCLUDE [finance_reports](includes/finance-reports-include.md)]
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opprett kostbudsjetter](finance-create-cost-budgets.md)  
 [Rapporter mva. til skattemyndighetene](finance-how-report-vat.md)  
