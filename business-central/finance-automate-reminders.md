@@ -11,7 +11,7 @@ ms.date: 03/12/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Automatiser purringer i innkrevinger
+# <a name="automate-reminders-in-collections"></a>Automatiser purringer i innkrevinger
 
 Gjør innkrevingene mer effektive ved å automatisere prosessen for å opprette, utstede og sende purringer til kundene. Automatisering kan redusere tiden du bruker på innkrevinger betydelig, gi bedre oversikt over prosessen og gi deg full kontroll over hvert trinn.
 
@@ -19,7 +19,7 @@ På siden **Automatisering av purring** definerer du de enkelte handlingene (tri
 
 Automatisering skjer gjennom en prosjektkøoppføring. Når du definerer en automatisering, bruker du feltet **Frekvens** til å angi hvordan og når den skal kjøres. Hvis du velger **Manuelt**, kjører automatiseringen én gang når du bruker **Start**-handlingen. Du kan også velge **Ukentlig**, **Månedlig** eller **Egendefinert** for å angi en mer detaljert frekvens. Hvis du velger **Egendefinert**, må du angi en dataformel. Hvis du vil lære mer om hvordan du angir en datoformel, kan du gå til [Bruk datoformler](ui-enter-date-ranges.md#use-date-formulas). Når du velger et annet alternativ enn **Manuelt**, kjøres automatiseringen til du stanser den midlertidig for å sette den på vent. Hvis du vil være enda mer spesifikt om når den kjører, bruker du handlingen **Prosjektkøposter** til å åpne siden **Prosjektkøposter** og justere gjentakelsen, for eksempel til daglig eller en bestemt ukedag.
 
-## Automatiser purreflyten
+## <a name="automate-the-reminders-flow"></a>Automatiser purreflyten
 
 Delene nedenfor beskriver hvordan du konfigurerer purringer som skal opprettes, utstedes og sendes automatisk.
 
@@ -31,22 +31,22 @@ Delene nedenfor beskriver hvordan du konfigurerer purringer som skal opprettes, 
 1. Avhengig av hvilken type handling automatiseringen utfører, fyller du ut feltene etter behov på oppsettssiden. Hvis du vil vite mer om innstillingene, kan du gå til [Innstillinger for purrehandlinger](#settings-for-reminder-actions).
 1. Når du har definert handlingene for automatiseringen, kan du bruke handlingene **Flytt opp** og **Flytt ned** til å justere rekkefølgen de kjøres i.
 
-## Innstillinger for purrehandlinger
+## <a name="settings-for-reminder-actions"></a>Innstillinger for purrehandlinger
 
 Oppsettinnstillingene er forskjellige for handlingene Opprett, Utsted og Send purring. De følgende delene handler om hvordan du bruker dem.
 
-### Opprett
+### <a name="create"></a>Opprett
 
 * Angi høyeste nivå på alle linjer for purring.  
 * Opprett purringer for poster som er på vent. Denne innstillingen er for eksempel nyttig hvis du er i en pågående tvist med en kunde og vil at vedkommende skal se helheten.
 * Opprett purringer for alle ubetalte fakturaer, ikke bare de som er forfalt. Rapporten viser forfalte fakturaer og fakturaer som bare er ubetalt, men ikke forfalt, i separate deler.
 * Angi filtre for å gjøre purringen mer spesifikk.
 
-### Utsted
+### <a name="issue"></a>Utsted
 
 Når du utsteder en purring, oppretter du poster i kundeposten som inneholder bokføringsdatoen og avgiftsdatoen. Bruk innstillingene på siden **Oppsett for Utsted purringer** til å angi om informasjonen i den utstedte purringen skal erstattes med informasjonen fra den opprettede purringen. Hvis du for eksempel opprettet purringen i går og utstedte den i dag, flyttes forfallsdatoen én dag.
 
-### Send
+### <a name="send"></a>Send
 
 > [!NOTE]
 > Send-automatiseringen krever at du har konfigurert e-post i [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon om hvordan du konfigurerer e-post, går du til [Konfigurer e-post](admin-how-setup-email.md).
@@ -59,19 +59,19 @@ Bruk innstillingene på siden **Oppsett for Send purringer** til å kontrollere 
 * Innstillinger for hva som skal tas med i purringen.
 * Innstillinger for sporing av purringer du sender ved å opprette samhandlinger, om du skriver ut eller sender purringen via e-post, og om du bare vil legge ved forfalte fakturaer, alle fakturaer eller ingen fakturaer. 
 
-## Få tilgang til loggen for en purring
+## <a name="access-the-history-of-a-reminder"></a>Få tilgang til loggen for en purring
 
 [!INCLUDE [prod_short](includes/prod_short.md)] holder rede på hver gang en automatisering kjøres. Du får tilgang til loggen ved å velge handlingen **Loggposter**. Du kan også bruke handlingen **Utstedte purringer** for å få tilgang til en liste over purringene du har utstedt.
 
-## Håndter feil
+## <a name="handle-errors"></a>Håndter feil
 
 På hurtigfanen **Handlinger** kan du for hver handling angi om du vil at automatiseringen skal stoppe hvis handlingen inneholder en feil. Hvis du gjør det, behandler ikke automatiseringen handlingene som kommer etterpå. Hvis du vil aktivere eller deaktivere denne funksjonen, bruker du handlingene **Angi stopp ved feil** eller **Fjern stopp ved feil**.
 
-## Endre handlingsinnstillinger for en automatisering
+## <a name="change-action-settings-for-an-automation"></a>Endre handlingsinnstillinger for en automatisering
 
 Du kan når som helst endre innstillingene for en automatisering. Velg **Oppsett** på hurtigfanen **Handlinger**, og utfør deretter endringene.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurer purringsbetingelser og -grader](finance-setup-reminders.md)  
 [Send purringer om utestående saldoer](receivables-send-reminders.md)  
