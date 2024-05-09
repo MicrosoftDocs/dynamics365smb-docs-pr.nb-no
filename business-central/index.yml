@@ -9,7 +9,7 @@ metadata:
   ms.service: dynamics-365-business-central
   author: jswymer
   ms.author: jswymer
-  ms.date: 06/16/2023
+  ms.date: 04/11/2024
   hide_bc: true
 highlightedContent:
   items:
@@ -71,6 +71,14 @@ additionalContent:
               url: /dynamics365/business-central/across-onedrive-overview
     - title: Administrer og utvikle
       items:
+        - title: Copilot- og KI-funksjoner
+          links:
+            - text: Konfigurer Copilot- og KI-funksjoner
+              url: /dynamics365/business-central/enable-ai
+            - text: Utvid Copilot i Business Central
+              url: /dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page
+            - text: Funksjoner og vanlige spørsmål om ansvarlig kunstig intelligens
+              url: /dynamics365/business-central/responsible-ai-overview
         - title: Administrer brukertilgang
           links:
             - text: Opprett brukere
@@ -133,6 +141,20 @@ additionalContent:
               url: /dynamics365/business-central/dev-itpro/api-reference/v2.0/
     - title: Vær produktiv
       items:
+        - title: Copilot
+          links:
+            - text: Analyser listedata
+              url: /dynamics365/business-central/analysis-assist
+            - text: Nettprat med Copilot
+              url: /dynamics365/business-central/chat-with-copilot
+            - text: Få forslag til markedsføringstekst
+              url: /dynamics365/business-central/ai-overview
+            - text: Samsvar e-dokumenter
+              url: /dynamics365/business-central/map-edocuments-with-copilot
+            - text: Avstem bankkontoer
+              url: /dynamics365/business-central/bank-reconciliation-with-copilot
+            - text: Foreslå salgslinjer
+              url: /dynamics365/business-central/sales-suggest-sales-lines-with-copilot
         - title: Arbeidsområdeinnstillinger
           links:
             - text: 'Språk, område, arbeidsdato, tidssone med mer'
@@ -153,7 +175,7 @@ additionalContent:
               url: /dynamics365/business-central/across-share-onedrive
             - text: Samarbeid i Excel
               url: /dynamics365/business-central/across-work-with-excel
-        - title: 'Forretningsanalyse, rapportering og dataanalyse'
+        - title: 'BI, rapportering og dataanalyse'
           links:
             - text: Oversikt
               url: /dynamics365/business-central/reports-bi-reporting
@@ -165,7 +187,9 @@ additionalContent:
               url: /dynamics365/business-central/analysis-mode
             - text: Analyser rapportdata med Excel
               url: /dynamics365/business-central/report-analyze-excel
-        - title: Generelle forretningsfunksjoner
+    - title: Gjør forretninger
+      items:
+        - title: Generelt
           links:
             - text: Finanskladder
               url: /dynamics365/business-central/ui-work-general-journals
@@ -175,8 +199,6 @@ additionalContent:
               url: /dynamics365/business-central/admin-job-queues-schedule-tasks
             - text: Inngående dokumenter
               url: /dynamics365/business-central/across-income-documents
-    - title: Gjør forretninger
-      items:
         - title: Finans
           links:
             - text: Oversikt

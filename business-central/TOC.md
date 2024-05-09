@@ -408,7 +408,8 @@ ms.service: dynamics-365-business-central
 #### [Bokfør avslutningsposten for årsslutt](year-how-post-year-end-close-entry.md)
 
 ### Arbeid med kontoplanen og finans
-#### [Forstå finans og kontoplanen](finance-general-ledger.md)
+#### [Forstå finans](finance-general-ledger.md)
+#### [Forstå kontoplanen](finance-chart-of-accounts.md)
 #### [Gå gjennom kontoer](finance-review-accounts.md)
 #### [Revaluer finanskontosaldoer](finance-revalue-account-balances.md)
 #### [Bokfør transaksjoner direkte i finans](finance-how-post-transactions-directly.md)
@@ -477,7 +478,6 @@ ms.service: dynamics-365-business-central
 #### [Konfigurer og publiser en KPI-nettjeneste basert på finansrapportering](bi-how-to-set-up-and-publish-kpi-web-services-based-on-account-schedules.md)
 #### [Analyser data med statistiske kontoer](bi-use-statistical-accounts.md)
 #### [Analyser data etter dimensjoner](bi-how-analyze-data-dimension.md)
-#### [Opprett analyserapporter](bi-how-create-analysis-views-reports.md)
 
 <!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
 
@@ -495,7 +495,12 @@ ms.service: dynamics-365-business-central
 
 ## Salg
 ### [Oversikt over salg](sales-manage-sales.md)
-### [Salgsrapporter](sales-reports.md)
+### Salgsanalyse 
+#### [Oversikt over salgsanalyse](sales-analytics-overview.md)
+#### [Opprett salgsanalyserapporter](bi-how-create-analysis-views-reports.md)
+#### [Ad hoc-analyse av salgsdata](ad-hoc-analysis-sales.md)
+#### [Innebygde salgsrapporter](sales-reports.md)
+
 ### [Gjennomgang: Kjør en salgskampanje](walkthrough-conducting-a-sales-campaign.md)
 ### [Gjennomgang: Konfigurer og fakturer utgående forskuddsbetalinger](walkthrough-setting-up-and-invoicing-sales-prepayments.md)
 ### [Registrer nye kunder](sales-how-register-new-customers.md)
@@ -522,7 +527,10 @@ ms.service: dynamics-365-business-central
 
 ## Kjøp
 ### [Oversikt over kjøp](purchasing-manage-purchasing.md)
-### [Kjøpsrapporter](purchase-reports.md)
+### Kjøpsanalyse 
+#### [Oversikt over kjøpsanalyse](purchasing-analytics-overview.md)
+#### [Ad hoc-analyse av kjøpsdata](ad-hoc-analysis-purchasing.md)
+#### [Innebygde kjøpsrapporter](purchase-reports.md)
 ### [Gjennomgang: Konfigurer og bruk en arbeidsflyt for kjøpsgodkjenning](walkthrough-setting-up-and-using-a-purchase-approval-workflow.md)
 ### [Registrer kjøp](purchasing-how-record-purchases.md)
 ### [Be om tilbud](purchasing-how-request-quotes.md)
@@ -577,9 +585,18 @@ ms.service: dynamics-365-business-central
 
 ## Aktiva
 ### [Oversikt over aktiva](fa-manage.md)
+### Analyse av aktiva
+#### [Oversikt over analyse av aktiva](fa-analytics-overview.md)
+#### Innebygde verktøy for analyse av aktiva
+##### [Overvåk vedlikeholdskostnader](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Overvåk forsikringsdekning](fa-how-insure.md#to-monitor-insurance-coverage)
+##### [Vis endrede avskrivningstablåverdier](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
+##### [Vis avhendingsposter](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
+##### [Vis forventede avhendingsverdier](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+#### [Innebygde aktivarapporter](fa-reports.md)
 ### [Konfigurer aktiva](fa-setup.md)
 ### [Avskrivningsmetoder](fa-depreciation-methods.md)
-### [Rapporter og analyse av aktiva](fa-reports.md)
+### [Administrer budsjetter for aktiva](fa-how-manage-budgets.md)
 ### [Anskaff aktiva](fa-how-acquire.md)
 ### [Vedlikehold aktiva](fa-how-maintain.md)
 ### [Forsikre aktiva](fa-how-insure.md)
@@ -587,8 +604,8 @@ ms.service: dynamics-365-business-central
 ### [Revaluer aktiva](fa-how-revalue.md)
 ### [Avskriv eller amortiser aktiva](fa-how-depreciate-amortize.md)
 ### [Avhend eller trekk tilbake aktiva](fa-how-dispose-retire.md)
-### [Administrer budsjetter for aktiva](fa-how-manage-budgets.md)
 ### [Feilsøk aktivaposter](fa-troubleshooting-fa-ledger-entries.md)
+
 
 ## Forbindelser
 ### [Oversikt over forbindelser](marketing-relationship-management.md)
@@ -1758,7 +1775,7 @@ ms.service: dynamics-365-business-central
 ###### [Opprett rapporter for å vise listedata](across-how-use-powerbi-reports-factbox.md)
 ##### Forretningsbruker
 ###### [Arbeid med Power BI-rapporter i Business Central](across-working-with-powerbi.md)
-###### [Arbeid med Business Central-data i Power BI](across-working-with-business-central-in-powerbi.md)
+###### [Koble deg til Power BI fra Business Central On-Premises](across-working-with-business-central-in-powerbi.md)
 ###### [Bruk Business Central-appene i Power BI](across-powerbi-business-central-apps.md)
 ##### [Vanlige spørsmål](power-bi-faq.md)
 #### Bruk Power Automate med Business Central
@@ -1787,6 +1804,20 @@ ms.service: dynamics-365-business-central
 ## [Oversikt over analyse](reports-bi-reporting.md)
 ## [Bruk ytelsesindikatorer (KPI-er) til å oppfylle forretningsmålene](./analytics-about-kpis.md)
 ## [Bruk finansrapportering](bi-how-work-account-schedule.md)
+
+## Analyse av ad hoc-data
+### [Oversikt](reports-adhoc-analysis.md)
+### [Sorter, søk og filtrer](ui-enter-criteria-filters.md)
+### [Vanlige spørsmål om søk og filtrer](ui-search-filter-faq.yml)
+### [Analyser sidedata i Excel](across-work-with-excel.md)
+### [Analyser rapportdata med Excel](report-analyze-excel.md)
+### [Analyser liste- og spørringsdata med analysemodus](analysis-mode.md)
+
+## Innebygd analyseverktøy
+### [Oversikt](reports-built-in-analytics.md)
+### [Arbeid med Power BI-rapporter](across-working-with-powerbi.md)
+### [Intelligent innsikt (lokalt)](about-intelligent-cloud.md)
+### [Telemetri for rapportbruk](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
 
 ## Bruk rapporter i daglig arbeid
 ### [Oversikt](reports-use-reports.md)
@@ -1857,33 +1888,6 @@ ms.service: dynamics-365-business-central
 #### [Oversikt over servicetilbud](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Oversikt over bokført servicedokument](service-service-posting.md#to-view-information-about-a-posted-service-document)
 
-## Analyse av ad hoc-data
-### [Oversikt](reports-adhoc-analysis.md)
-### [Sorter, søk og filtrer](ui-enter-criteria-filters.md)
-### [Vanlige spørsmål om søk og filtrer](ui-search-filter-faq.yml)
-### [Analyser sidedata i Excel](across-work-with-excel.md)
-### [Analyser rapportdata med Excel](report-analyze-excel.md)
-### [Analyser liste- og spørringsdata med analysemodus](analysis-mode.md)
-### [Finansforretningsanalyse](bi.md)
-
-## Innebygd analyse 
-### [Oversikt](reports-built-in-analytics.md)
-### [Intelligent innsikt](about-intelligent-cloud.md)
-### [Arbeid med Power BI-rapporter](across-working-with-powerbi.md)
-### [Finansforretningsanalyse](bi.md)
-### [Analyser årsregnskaper med Excel](finance-analyze-excel.md)
-### [Konsolider finansdata fra flere selskaper](finance-consolidated-company-reporting.md)
-### [Telemetri for rapportbruk](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
-
-
-## Analyser data i Business Intelligence Tools
-### [Oversikt](reports-external-analysis.md)
-### [Microsoft Fabric og Business Central](admin-fabric.md)
-### [Bruk Power BI med Business Central](admin-powerbi.md)
-### [Analyser årsregnskaper med Excel](finance-analyze-excel.md)
-### [Trekk ut data til datalagre eller datasjøer](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
-### [Les data med Business Central-API-en](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
 ## Utvikle rapporter
 ### [Oversikt](reports-develop-reports.md)
 ### Utvikle rapportoppsett
@@ -1901,6 +1905,16 @@ ms.service: dynamics-365-business-central
 ### Utvikle rapportdatasett
 #### [Veiledning for rapportutvikling](/dynamics365/business-central/dev-itpro/developer/devenv-reports)
 #### [Veiledning for justering av rapportytelse](/dynamics365/business-central/dev-itpro/performance/performance-developer#writing-efficient-reports)
+
+## Analyser data i Business Intelligence Tools
+### [Oversikt](reports-external-analysis.md)
+### [Microsoft Fabric og Business Central](admin-fabric.md)
+### [Bruk Power BI med Business Central](admin-powerbi.md)
+### [Analyser årsregnskaper med Excel](finance-analyze-excel.md)
+### [Trekk ut data til datalagre eller datasjøer](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
+### [Les data med Business Central-API-en](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
+
+
 
 # Sikkerhet, personvern og samsvar
 ## Sikkerhet og beskyttelse

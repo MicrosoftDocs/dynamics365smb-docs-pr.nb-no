@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="use-e-documents-in-the-purchases-process"></a>Bruk e-dokumenter i kjøpsprosessen
+# Bruk e-dokumenter i kjøpsprosessen
 
 Du kan bruke konfigurerte elektroniske dokumenter (e-dokumenter) med kjøpsdokumentene.
 
@@ -25,11 +25,11 @@ Du kan bruke følgende kjøpsdokumenter med e-dokumentfunksjonalitet:
 > [!NOTE]
 > Fra [!INCLUDE[prod_short](includes/prod_short.md)], versjon 24.0 er det mulig å koble **bestillinger** til de mottatte **e-dokumentene**.  
 
-## <a name="e-documents-in-purchases"></a>E-dokumenter ved kjøp
+## E-dokumenter ved kjøp
 
 Mottak av elektroniske kjøpsdokumenter i Dynamics 365 Business Central kan utføres som en kjørsel eller manuelt.  
 
-### <a name="how-to-set-up-vendors-to-work-with-different-purchase-documents"></a>Slik konfigurerer du leverandører til å arbeide med ulike kjøpsdokumenter
+### Slik konfigurerer du leverandører til å arbeide med ulike kjøpsdokumenter  
 
 Følg fremgangsmåte for å konfigurere leverandører til å fungere riktig med innkommende elektroniske fakturaer: 
 
@@ -46,9 +46,9 @@ Følg fremgangsmåte for å konfigurere leverandører til å fungere riktig med 
 4. Velg et av alternativene du vil bruke for den valgte leverandøren. 
 5. Lukk siden.   
 
-### <a name="to-work-with-purchase-invoices"></a>Slik arbeider du med kjøpsfakturaer
+### Slik arbeider du med kjøpsfakturaer  
 
-#### <a name="run-the-batch-job"></a>Kjør kjørselen
+#### Kjør kjørselen  
 
 > [!NOTE]
 > Denne kjørselen er for automatisk innsamling av innkommende fakturaer. Den kan bare fungere i et land eller område der funksjonaliteten finnes.  
@@ -76,7 +76,7 @@ Det er to vanlige feil:
 
 Når du har rettet feilene og advarslene, kan du angi manuelt når systemet skal opprette en kjøpsfaktura basert på oppsettet ditt ved å velge **Opprett dokument**.   
 
-#### <a name="manually-import-invoices"></a>Importere fakturaer manuelt
+#### Importere fakturaer manuelt  
 
 Hvis du vil importere eksterne e-dokumenter manuelt, følger du denne fremgangsmåten:
 
@@ -87,9 +87,9 @@ Hvis du vil importere eksterne e-dokumenter manuelt, følger du denne fremgangsm
 5. Når du er ferdig med å løse problemene, velger du **Opprett dokument** i gruppen **Importer manuelt**.  
 6. Når dokumentet er opprettet i [!INCLUDE[prod_short](includes/prod_short.md)], endres ikke måten du viser det på, når du bruker en satsjobb. 
 
-### <a name="e-documents-with-purchase-orders"></a>E-dokumenter med bestillinger
+### E-dokumenter med bestillinger  
 
-#### <a name="to-link-purchase-orders-with-the-received-e-documents"></a>Slik kobler du bestillinger til mottatte e-dokumenter
+#### Slik kobler du bestillinger til mottatte e-dokumenter
 
 Hvis **leverandøren** har konfigurert feltet **Motta e-dokument til** til å fungere med **bestillinger**, gjøres følgende når det elektroniske dokumentet er opprettet i [!INCLUDE[prod_short](includes/prod_short.md)] (manuelt eller fra eksternt endepunkt): [!INCLUDE[prod_short](includes/prod_short.md)] gjør følgende:  
 
@@ -97,7 +97,7 @@ Hvis **leverandøren** har konfigurert feltet **Motta e-dokument til** til å fu
 2. Hvis **bestillingen** for denne bestemte leverandøren finnes, men det ikke finnes et bestillingsnummer i **e-dokumentfilen** for mottak, tilbyr [!INCLUDE[prod_short](includes/prod_short.md)] følgende muligheter for å velge en av eksisterende bestillinger når og hvis du lastet opp dette dokumentet manuelt, noe som åpner listen **Bestillinger** bare for leverandøren du fikk **e-dokumentet** av, der du må velge **bestillingen** du vil bruke, og velge **OK**. Hvis du ikke valgte riktig **bestilling** eller du fikk **e-dokumentet** automatisk fra eksternt endepunkt ved hjelp av **prosjektkøen**, kobles ikke det nye **e-dokumentet** til noe kjøpsdokument, og **dokumentstatusen** blir **Feil**, og **e-dokumentstatusen** på undersiden **Servicestatus** blir **Feil ved behandling av importert dokument**. Når du skal fullføre tilknytningen til **bestillingen**, velger du handlingen **Oppdater bestillingskobling** og velger en av de eksisterende bestillingene for denne leverandøren. 
 3. Hvis **bestillingen** for denne bestemte leverandøren ikke eksisterer i når det nye **e-dokumentet** opprettes, oppretter [!INCLUDE[prod_short](includes/prod_short.md)] en y **bestilling** med samme opprettingsmodell som allerede finnes for nye **kjøpsfakturaer**. **Dokumentstatusen** for dette **e-dokumentet** er **Behandles**, og **e-dokumentstatusen** på undersiden **Tjenestestatus** blir **Importert dokument er opprettet**. Denne koblingen vil være synlig i **Dokument**-feltet i dette spesifikke **e-dokumentet**.   
 
-#### <a name="matching-lines-from-received-e-document-with-purchase-order"></a>Avstemming av linjer fra mottatt e-dokument med bestilling
+#### Avstemming av linjer fra mottatt e-dokument med bestilling  
 
 Du kan avstemme mottatte elektroniske dokumenter med bestillingslinjer fra to forskjellige steder, fra **E-dokument**-siden eller fra **Bestilling**-siden. Den enkleste måten å finne de allerede tilknyttede **bestillingene** på, er å bruke flisen **Koblede bestillinger** som en del av **e-dokumentaktiviteter**. Du finner alle ikke-koblede dokumenter ved hjelp av flisen **Venter på e-fakturaer,** der du har en liste over **e-dokumenter** du må se gjennom.  
 
@@ -107,7 +107,7 @@ Du kan avstemme mottatte elektroniske dokumenter med bestillingslinjer fra to fo
 > [!NOTE]
 > Hvis mva-prosenten er forskjellig mellom det inngående dokumentet og selskapets mva-prosent, kan ikke avstemte dokumenter brukes i et miljø med flere land.  
 
-##### <a name="matching-lines-from-purchase-order"></a>Avstemming av linjer fra bestilling
+##### Avstemming av linjer fra bestilling  
 
 Du kan avstemme linjene fra **bestillingslisten** eller fra en av de åpnede **bestillingene**. Hvis du vil starte dette, bruker du utføre følgende fremgangsmåte:  
 
@@ -157,7 +157,7 @@ Hvis du vil legge til litt toleranse og tillate forskjellen mellom linjene i **E
 3. Dette oppsettet gjelder for alle avstemte linjer, men igjen vurderes toleranse for totalbeløpet, som for **Direkte enhetskost**, sammen med utlignet **linjerabattprosent**.  
 4. Lukk siden.   
 
-##### <a name="matching-lines-from-e-document"></a>Slik avstemmer du linjer fra e-dokument
+##### Slik avstemmer du linjer fra e-dokument  
 
 Du kan avstemme linjene på **E-dokument**-siden. Hvis du vil starte dette, bruker du utføre følgende fremgangsmåte:  
 
@@ -166,7 +166,7 @@ Du kan avstemme linjene på **E-dokument**-siden. Hvis du vil starte dette, bruk
 3. Velg handlingen **Avstem bestilling** for å åpne siden **Bestillingssamsvar**.  
 4. Gjenta dem samme fremgangsmåten som du brukte da du startet avstemming fra bestillinger.
 
-### <a name="e-document-matching-assistance-copilot"></a>Kopiloten Samsvarshjelp for e-dokument
+### Kopiloten Samsvarshjelp for e-dokument  
 
 > [!NOTE]
 > Kopiloten **Samsvarshjelp for e-dokument** har for øyeblikket statusen Produksjonsklar forhåndsversjon, og den er tilgjengelig globalt bortsett fra i Canada. Den fungerer imidlertid bare på engelsk. 
@@ -174,7 +174,7 @@ Du kan avstemme linjene på **E-dokument**-siden. Hvis du vil starte dette, bruk
 > [!NOTE]
 > Copilot er assistenten med kunstig intelligens som hjelper personer i hele organisasjonen med å frigjøre kreativiteten og automatisere kjedelige oppgaver. Kopiloten **Samsvarshjelp for e-dokument** hjelper brukere med å enkelt avstemme mottatte elektroniske fakturaer med eksisterende bestillingslinjer, ved hjelp av den store språkmodellen for å avstemme linjer mellom to forskjellige dokumenter. 
 
-#### <a name="to-activate-the-copilot"></a>Slik aktiverer du kopiloten
+#### Slik aktiverer du kopiloten  
 
 Hvis du ikke aktiverte kopiloten **Samsvarshjelp for e-dokument**, må du gjøre det manuelt. Følg fremgangsmåten for å aktivere kopiloten **Samsvarshjelp for e-dokument**: 
 
@@ -183,7 +183,7 @@ Hvis du ikke aktiverte kopiloten **Samsvarshjelp for e-dokument**, må du gjøre
 
 Når Copilot er aktivert, kan du begynne å bruke den.
 
-#### <a name="use-the-e-document-matching-assistance-copilot"></a>Bruk kopiloten Samsvarshjelp for e-dokument
+#### Bruk kopiloten Samsvarshjelp for e-dokument 
 
 Hvis Copilot er aktivert, vil eksisterende handlinger **Tildel e-dokumentlinjer** på bestillinger og **Avstem bestilling** på **E-dokument**-siden få forskjellige ikoner, som symboliserer KI-funksjonalitet. Du kan kjøre disse handlingene (helt det samme som i tidligere eksempler fra listen over bestillinger), fra en av **bestillingene** eller fra **e-dokumentet**. Alle trinn for kjøring er de samme, men når du kjører denne handlingen, blir resultatet annerledes, og du må følge følgende fremgangsmåte:  
 
@@ -228,7 +228,7 @@ Hvis Copilot er aktivert, vil eksisterende handlinger **Tildel e-dokumentlinjer*
 > [!NOTE]
 > Pris-/kostanalyse, og kontrollen for tilgjengelig antall er en del av forhåndsbehandlingsaktiviteten.   
 
-## <a name="overview-of-e-document-statuses"></a>Oversikt over e-dokumentstatuser
+## Oversikt over e-dokumentstatuser
 
 Hvis du vil ha en bedre oversikt over alle e-dokumenter i selskapet, kan du velge rollesenteret **Regnskapsfører** der det finnes e-dokumentstatuser. Der kan du finne e-dokumentaktiviteter som har følgende statuser:
 
@@ -239,7 +239,7 @@ Hvis du vil ha en bedre oversikt over alle e-dokumenter i selskapet, kan du velg
     - Feil
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Slik konfigurerer e-dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)]](finance-how-setup-edocuments.md)    
 [Slik bruker du e-dokumenter i salgsprosessen](finance-how-use-edocuments.md)   
