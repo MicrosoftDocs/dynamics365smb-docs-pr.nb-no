@@ -7,7 +7,7 @@ metadata:
   ms.reviewer: bholtorf
   ms.search.keywords: 'keyboarding, productivity, how do i, filter pane'
   ms.search.form: TellMe
-  ms.date: 04/01/2021
+  ms.date: 04/19/2024
   ms.author: bholtorf
   ms.service: dynamics-365-business-central
 title: Vanlige spørsmål om søk og filtrering
@@ -60,7 +60,7 @@ sections:
       - question: |
           Vil Microsoft utvide filtreringsruteopplevelsen?
         answer: |
-          Hos Microsoft hører vi konstant på tilbakemelding fra våre mange brukere og agerer på de mest populære forslagene. Hvis du er interessert i å utvide filtreringsturen til flere formfaktorer og flere typer oversikter eller har en god idé om hvordan du kan forbedre den, kan du legge til en idé eller stemme på eksisterende idéer på [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas).
+          Hos Microsoft hører vi konstant på tilbakemelding fra våre mange brukere og agerer på de mest populære forslagene. Hvis du er interessert i å utvide filtreringsturen til flere formfaktorer og flere typer oversikter eller har et godt forslag om hvordan du kan forbedre den, kan du legge til et forslag eller stemme på eksisterende forslag på [aka.ms/BusinessCentralIdeas](https://aka.ms/businesscentralideas).
       - question: |
           Hvordan endrer jeg utdataene for desimalskilletegnet på det numeriske tastaturet?
         answer: |

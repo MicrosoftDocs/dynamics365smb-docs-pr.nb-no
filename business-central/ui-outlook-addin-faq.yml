@@ -27,7 +27,11 @@ sections:
         answer: |
           Ja. Som administrator, utvikler eller partner kan du endre og bygge dine egne tilleggsmanifester. En måte er å laste ned Contact Insights-manifestet fra hvert miljø som brukerne vil koble til. Deretter endrer du kodene `<Id>` og `<DisplayName>` for å tillate at flere versjoner av tillegget kan installeres. Med disse endringene kan brukeren ha flere Business Central-tillegg installert, som hvert peker til eget miljø.
 
-          ![Flere Business Central-tillegg for Outlook.](media/outlook-multiple-addins.png) 
+          ![Flere Business Central-tillegg for Outlook.](media/outlook-multiple-addins.png)
+      - question: |
+          Outlook-tilleggsprogrammet forteller meg at siden ikke støttes. Hvorfor?
+        answer: |
+          Noen funksjoner i Business Central krever betydelig arbeidsområde for å gi en flott opplevelse og er ikke tilgjengelige når du bruker Outlook-tilleggsprogramruten. Trinnvise veivisersider er for eksempel ikke tilgjengelige i ruten. For å overvinne dette kan du sette siden i et eget vindu i tilleggsprogrammet ved å bruke handlingen Eget vindu. Det egne vinduet kan strekkes til alle størrelser, inkludert utvidelse for å fylle skjermen.
 additionalContent: |
 
   ## Se også

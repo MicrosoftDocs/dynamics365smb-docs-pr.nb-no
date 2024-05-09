@@ -1,16 +1,16 @@
 ---
-title: Plukke varer for lagerlevering
+title: Plukk varer for lagerlevering
 description: Lær mer om å bruke lagerplukkdokumenter til å opprette og behandle plukkinformasjon før du bokfører en lagerlevering.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: andreipa
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 09/11/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.search.forms: '7335, 7339, 7345,'
 ---
-# <a name="pick-items-for-warehouse-shipment"></a>Plukke varer for lagerlevering
+# Plukk varer for lagerlevering
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] plukker og leverer du varer ved å bruke en av fire metoder, som beskrevet i tabellen nedenfor.
 
@@ -39,11 +39,11 @@ Du kan ikke opprette et lagerplukkdokument fra bunnen av. Plukk er en del av en 
 >  
 > Hvis du vil finne ut mer plukking av komponenter for monteringsordrer, inkludert situasjoner der monteringsvarer ikke er knyttet til salgsforsendelse, går du til [Plukk for produksjon, montering eller prosjekter i avanserte lageroppsett](warehouse-how-to-pick-for-internal-operations-in-advanced-warehousing.md).  
 
-## <a name="check-whether-items-are-available-for-picking"></a>Kontrollere om varene er tilgjengelige for plukking
+## Kontrollere om varene er tilgjengelige for plukking
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Slik oppretter du plukkdokumenter i bulk med plukkforslaget
+## Slik oppretter du plukkdokumenter i bulk med plukkforslaget
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Plukkforslag**, og velg deretter den relaterte koblingen.  
 
@@ -93,7 +93,7 @@ Du kan ikke opprette et lagerplukkdokument fra bunnen av. Plukk er en del av en 
 
 8. Velg **OK**. [!INCLUDE [prod_short](includes/prod_short.md)] oppretter plukkingen i henhold til valgene dine.  
 
-## <a name="to-pick-items-for-a-warehouse-shipment"></a>Plukke varer for en lagerlevering
+## Plukke varer for en lagerlevering
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerplukk** og velg den relaterte koblingen.  
 
@@ -110,12 +110,20 @@ Du kan ikke opprette et lagerplukkdokument fra bunnen av. Plukk er en del av en 
 
     > [!NOTE]
     > Hvis du må plukke eller plassere varene for én linje i mer enn én hylle, for eksempel fordi den angitte hyllen er full, bruker du handlingen **Del linje** i hurtigfanen **Linjer**. Handlingen oppretter en linje der restantallet skal håndteres.
+        
+    Du kan sortere plukklinjene etter ulike kriterier, for eksempel etter vare, hyllenummer eller forfallsdato. Sortering kan bidra til å optimalisere plasseringsprosessen, for eksempel:
+
+    * Hvis Hent- og Plasser-linjene for hver leveringslinje ikke følger umiddelbart etter hverandre, og du vil at de skal gjøre det, kan du sortere linjene ved å velge **Vare** i feltet **Sorteringsmetode**.  
+    * Hvis hylleprioritering gjenspeiler det fysiske oppsettet av lageret, kan du bruke sorteringsmetoden **hylleprioriteringen** til å organisere arbeidet etter hyllelokasjoner.
+
+  > [!NOTE]  
+  > Linjer sorteres i stigende rekkefølge etter det valgte kriteriet. Hvis du sorterer etter dokument, utføres sorteringen først etter dokumenttype basert på feltet **Kildedokument for lageraktivitet**. Hvis du sorterer etter levering, gjøres sorteringen først etter måltype basert på feltet **Lagermåltype**.
 
 4. Når du har utført plukkingen og plassert varene i leveringsområdet eller leveringshyllen, velger du **Registrer plukk**-handlingen.  
 
 Du kan nå hente varene til leveringssonen og bokføre leveringen, inkludert det relaterte kildedokumentet, på siden **Lagerlevering**. Finn ut mer under [Lever varer](warehouse-how-ship-items.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 - [Oversikt over lagerstyring](design-details-warehouse-management.md)
 - [Håndtere lager](inventory-manage-inventory.md)  

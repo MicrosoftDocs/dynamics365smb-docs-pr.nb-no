@@ -1,17 +1,17 @@
 ---
-title: Arbeide med dimensjoner for å spore og analysere data
+title: Arbeid med dimensjoner for å spore og analysere data
 description: 'Bruk dimensjoner til å kategorisere poster, for eksempel etter avdeling eller prosjekt, slik at det er enklere å spore og analysere data slik at du kan ta gode forretningsbeslutninger.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 01/27/2023
+ms.date: 04/26/2024
 ms.custom: bap-template
 ms.search.keywords: 'analysis, history, track, business intelligence'
 ms.search.form: '408, 479, 480, 481, 484, 536, 537, 538, 539, 540, 541, 542, 543, 544, 545, 548, 560, 562, 564, 567, 568, 577, 578, 580, 699, 1343, 2580, 2581, 2582, 2583, 2584, 2585, 2586, 2587, 2588, 2590, 2591, 2592, 2593, 9083, 9233, 9251, 9252, 9253'
 ---
-# <a name="work-with-dimensions"></a>Arbeid med dimensjoner
+# Arbeid med dimensjoner
 
 Dimensjoner er attributter og verdier som kategoriserer poster slik at du kan spore og analysere dem på dokumenter, for eksempel ordrer. Dimensjoner kan for eksempel angi hvilket prosjekt eller hvilken avdeling en post kommer fra.  
 
@@ -24,7 +24,7 @@ Et annet eksempel er å definere en dimensjon som kalles *Avdeling* og deretter 
 * Hvem som solgte den.
 * Hvilken kunde som kjøpte produktet.
 
-## <a name="analyzing-by-dimensions"></a>Analysere etter dimensjoner
+## Analysere etter dimensjoner
 
 Dimensjoner spiller en viktig rolle i forretningsintelligens, for eksempel når du definerer analysevisninger. Lær mer på [Analysere data etter dimensjoner](bi-how-analyze-data-dimension.md).
 
@@ -34,13 +34,13 @@ Dimensjoner spiller en viktig rolle i forretningsintelligens, for eksempel når 
 > [!NOTE]
 > Analysevisninger bruker ofte data fra dimensjoner. Hvis du oppdager at en feil dimensjon er blitt brukt i bokførte finansposter, kan du korrigere dimensjonsverdiene og oppdatere analysevisningene. Dette bidrar til at finansrapporter og analyser holdes nøyaktige. Se mer på [Feilsøke og korrigere dimensjoner](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## <a name="dimension-sets"></a>Dimensjonssett
+## Dimensjonssett
 
 Et dimensjonssett er en unik kombinasjon av dimensjonsverdier. De lagres som dimensjonssettposter i databasen. Hver dimensjonssettpost representerer én enkelt dimensjonsverdi. I tillegg identifiseres hvert dimensjonssett og dimensjonssettoppføring i det, med en felles dimensjonssett-ID.  
 
 Når du oppretter en kladdelinje, et dokumenthode eller en dokumentlinje, kan du angi en kombinasjon av dimensjonsverdier. I stedet for at hver dimensjonsverdi lagres eksplisitt i databasen, tilordnes en dimensjonssett-ID til kladdelinjen, dokumenthodet eller dokumentlinjen for å angi dimensjonssettet.  
 
-## <a name="setting-up-dimensions"></a>Opprette dimensjoner
+## Opprette dimensjoner
 
 Du kan definere dimensjonene og dimensjonsverdiene for å kategorisere i kladder og dokumenter, for eksempel salgsordrer og bestillinger. Du definerer dimensjoner på **Dimensjoner**-siden der du oppretter én linje for hver dimensjon, som *Prosjekt*, *Avdeling*, *Område* og *Selger*.
 
@@ -54,7 +54,7 @@ Når dimensjoner og verdier settes opp, kan du definere globale dimensjoner og s
 > [!NOTE]
 > Når du har brukt en ny dimensjon i en post, for eksempel en linje eller ny post, kan du ikke slette dimensjonen, selv om du ikke bokfører posten. Dette skyldes at [!INCLUDE[prod_short](includes/prod_short.md)] umiddelbart oppretter et dimensjonssett for linjen eller posten. Lær mer i delen [Dimensjonssett](finance-dimensions.md#dimension-sets).
 
-### <a name="to-set-up-default-dimensions-for-customers-vendors-and-other-accounts"></a>Definere standarddimensjoner for kunder, leverandører og andre kontoer
+### Definere standarddimensjoner for kunder, leverandører og andre kontoer
 
 Du kan tilordne en standarddimensjon for en spesifikk konto. Dimensjonen kopieres til kladden eller bilaget når du angi nummeret på en linje, men du kan slette eller endre koden på linjen, hvis aktuelt. Du kan også kreve en dimensjon for postering av en oppføring i en bestemt type konto. > 
 
@@ -91,7 +91,7 @@ Du kan tilordne en standarddimensjon for en spesifikk konto. Dimensjonen kopiere
 > [!NOTE]  
 > Hvis en konto må ha en annen dimensjon enn standarddimensjonen som er tilordnet kontotypen, må du opprette en standarddimensjon for denne kontoen. Standarddimensjonen for kontoen erstatter da standarddimensjonen for kontotypen.  
 
-### <a name="to-set-up-default-dimension-priorities"></a>Slik setter du opp standard dimensjonsprioriteringer
+### Slik setter du opp standard dimensjonsprioriteringer
 
 Ulike kontotyper, for eksempel en kundekonto og en varekonto, kan ha ulike standarddimensjoner. Følgelig kan en post ha mer enn én foreslått standarddimensjon. For å unngå en slik konflikt, kan du sette opp prioriteringsregler for de ulike kildene.
 
@@ -103,7 +103,7 @@ Ulike kontotyper, for eksempel en kundekonto og en varekonto, kan ha ulike stand
 > [!IMPORTANT]  
 > Hvis du definerer to tabeller med samme prioritet for samme kildespor, velger [!INCLUDE[prod_short](includes/prod_short.md)] alltid tabellen med lavest tabell-ID.  
 
-### <a name="to-set-up-dimension-combinations"></a>Slik definerer du dimensjonskombinasjoner
+### Slik definerer du dimensjonskombinasjoner
 
 For å unngå å bokføre poster med mostridende eller uaktuelle dimensjoner, kan du sperre eller begrense bestemte kombinasjoner av to dimensjoner. Hvis en dimensjonskombinasjon sperres, kan du ikke bokføre begge dimensjoner på samme post uansett hva dimensjonsverdiene er. En dimensjonskombinasjon derimot lar deg bokføre begge dimensjonene på samme post, men bare for bestemte kombinasjoner av dimensjonsverdier.
 
@@ -126,7 +126,7 @@ For å unngå å bokføre poster med mostridende eller uaktuelle dimensjoner, ka
 >
 > Hvis du vil vise navnet på dimensjonene i stedet for koden, velger du feltet **Vis kolonnenavn**.
 
-### <a name="to-set-up-global-and-shortcut-dimensions"></a>Definere globale dimensjoner og snarveisdimensjoner
+### Definere globale dimensjoner og snarveisdimensjoner
 
 Globale dimensjoner og snarveisdimensjoner kan brukes som filtre overalt i [!INCLUDE[prod_short](includes/prod_short.md)], inkludert i rapporter, kjørsler, finanspostsider og analysevisninger. Globale dimensjoner og snarveisdimensjoner kan settes inn direkte uten først å åpne **Dimensjoner** først. På kladdelinjer og dokumentlinjer kan du velge globale dimensjoner og snarveisdimensjoner i et felt på linjen. Du kan også definere to globale dimensjoner og åtte snarveisdimensjoner. Velg dimensjonene du bruker mest.
 
@@ -141,7 +141,7 @@ Globale dimensjoner og snarveisdimensjoner kan brukes som filtre overalt i [!INC
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansoppsett**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene på hurtigfanen **Dimensjoner**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-#### <a name="to-change-global-dimensions"></a>Endre globale dimensjoner
+#### Endre globale dimensjoner
 
 Når du endrer en global dimensjon eller snarveisdimensjon, oppdateres alle poster med dimensjonen. Denne prosessen kan ta tid, og det kan påvirke ytelsen, to forskjellige moduser oppgir for å tilpasse prosessen til størrelsen på databasen.  
 
@@ -163,7 +163,7 @@ Når du endrer en global dimensjon eller snarveisdimensjon, oppdateres alle post
 6. Logg av [!INCLUDE[prod_short](includes/prod_short.md)], og logg deretter på igjen.
 7. Velg **Start**-handlingen for å starte parallell behandling av dimensjonsendringene.
 
-### <a name="example-of-dimension-setup"></a>Eksempel på dimensjonsoppsett
+### Eksempel på dimensjonsoppsett
 
 La oss si at selskapet ønsker å spore transaksjoner som er basert på organisasjonsstruktur og geografiske steder. Hvis du vil gjøre dette, kan du definere to dimensjoner på **Dimensjoner**-siden:
 
@@ -204,7 +204,7 @@ For **AVDELING** legger du til følgende dimensjonsverdier:
 
 Med dette satt opp kan du deretter legge til de to dimensjonene som to globale dimensjoner på **Finansoppsett**-siden. Dette betyr at du kan bruke OMRÅDE og AVDELING som filtre for finansposter og alle rapporter. Begge de globale dimensjonene blir også automatisk tilgjengelige til å brukes på postlinjer, i dokumenthoder og som snarveisdimensjoner.
 
-## <a name="getting-an-overview-of-dimensions-used-multiple-times"></a>Få en oversikt over dimensjoner som brukes flere ganger
+## Få en oversikt over dimensjoner som brukes flere ganger
 
 Siden **Standarddimensjoner – flere** angir hvordan en kontogruppe bruker dimensjoner og dimensjonsverdier. Du kan definere dette ved å utheve flere konti, angi standard dimensjoner og dimensjons verdier for dem. Deretter foreslår programmet disse dimensjonene og dimensjonsverdiene når én av disse kontiene brukes, for eksempel på en kladdelinje. Dette gjør det lettere for brukeren å bokføre poster, siden dimensjonsfeltene fylles ut automatisk. Legg imidlertid også merke til at dimensjonsverdiene som foreslås, kan endres på for eksempel kladdelinjer.
 
@@ -216,7 +216,7 @@ Siden **Standarddimensjoner – flere** inneholder følgende felt:
 |**Dimensjonsverdikode**|Viser enten en enkelt dimensjonsverdi eller betingelsen (Konflikt). Hvis en dimensjonsverdi vises i feltet, har alle uthevede konti samme standarddimensjonsverdi for en dimensjon. Hvis betingelsen (Konflikt) vises i feltet, har ikke alle de uthevede kontiene samme standarddimensjonsverdi for en dimensjon. Når du velger feltet **Dimensjonskode**, vil du se en oversikt over alle tilgjengelige dimensjonsverdier for en dimensjon. Hvis du velger en dimensjonsverdi, defineres den som en standarddimensjonsverdi for alle uthevede konti.|
 |**Verdibokføring**|Viser enten en enkelt regel for verdibokføring eller betingelsen (Konflikt). Hvis en verdibokføringsregel vises i feltet, har alle konti som er merket samme verdibokføringsregel for en dimensjonsverdi. Hvis betingelsen (Konflikt) vises i feltet, har ikke alle de merkede kontiene samme verdibokføringsregel for en dimensjonsverdi. Ved å velge feltet **Verdibokføring** vil du se en liste over verdibokføringsregler for en dimensjon. Hvis du velger en verdibokføringsregel, brukes den på alle uthevede kontoer.|
 
-## <a name="use-dimensions"></a>Bruke dimensjoner
+## Bruke dimensjoner
 
 I et dokument, for eksempel en ordre, kan du legge til dimensjonsinformasjon om én enkelt dokumentlinje og selve dokumentet. På siden **Ordre** kan du for eksempel angi dimensjonsverdier for de to første snarveisdimensjonene direkte på de enkelte salgslinjene, og du kan legge til mer dimensjonsinformasjon hvis du velger knappen **Dimensjoner**.  
 
@@ -224,7 +224,7 @@ Hvis du i stedet arbeider i en kladd, kan du legge til dimensjonsinformasjon i e
 
 Du kan også definere standarddimensjoner for konti eller kontotyper, slik at dimensjoner og dimensjonsverdier fylles ut automatisk.
 
-### <a name="to-view-global-dimensions-in-ledger-entry-pages"></a>Slik viser du globale dimensjoner på postsider:
+### Slik viser du globale dimensjoner på postsider:
 
 Globale dimensjoner er alltid definerteog navngitt i henhold til selskap. Du viser de globale dimensjonene for selskapet ditt ved å åpne **Finansoppsett**-siden.
 
@@ -238,7 +238,7 @@ På en postside kan du se om det finnes globale dimensjoner for postene. De to g
 > [!NOTE]  
 > Siden **Postdimensjoner** viser alle dimensjonene for én post om gangen. Når du blar gjennom postene, vil du se at innholdet endres på siden **Postdimensjoner** fortløpende.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Forretningsintelligens](bi.md)  
 [Finans](finance.md)  

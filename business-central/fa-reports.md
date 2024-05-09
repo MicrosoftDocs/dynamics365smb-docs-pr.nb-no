@@ -9,21 +9,17 @@ ms.date: 07/13/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="fixed-assets-reports-and-analytics-in-business-central"></a>Rapporter og analyser av aktiva i Business Central
+# Rapporter og analyser av aktiva i Business Central
 
 For å hjelpe deg med å administrere aktiva i [!INCLUDE [prod_short](includes/prod_short.md)] er standardrapporter og analyse innebygd. Det flytter seg utenfor tradisjonelle rapporteringsbegrensninger for å hjelpe deg med å utforme forskjellige typer rapporter effektivt.  
 
-## <a name="reports"></a>Rapporter
+## Rapporter
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md)  
-[Arbeid med dimensjoner](finance-dimensions.md)  
+[Oversikt over aktivaanalyse](fa-analytics-overview.md)   
 [Administrer aktiva](fa-manage.md)  
-[Oversikt over lokal funksjonalitet](about-localization.md)  
-[Regnskapsføreropplevelser i [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

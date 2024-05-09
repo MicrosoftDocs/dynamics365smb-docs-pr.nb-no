@@ -6,43 +6,46 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'analysis, history, track'
 ms.search.form: '18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158'
-ms.date: 12/19/2023
+ms.date: 04/19/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Forstå Finans og kontoplanen
 
-Økonomimodulen lagrer dine økonomiske data, og kontoplanen viser kontoene som alle finansposter bokføres til. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en standard kontoplan som er klar til å støtte forretningsvirksomheten din.
+Økonomimodulen lagrer dine økonomiske data, og kontoplanen viser kontoene som du bokfører finansposter til. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en standard kontoplan som er klar til å støtte forretningsvirksomheten din.
 
 ## Finansoppsett og generelt bokføringsoppsett
 
 Oppsettet av finans er i kjernen av økonomiske prosesser fordi den definerer hvordan du kan legge inn data. Spesielt to sider spiller en viktig del av konfigurasjonen av økonomiprosessene:  
 
-* Siden **Finansoppsett**
+* **Finansoppsett**
+* **Generelt bokføringsoppsett**
 
-  På siden **Finansoppsett** angir du hvordan du håndterer bestemte regnskapssaker i firmaet, for eksempel:  
+### Siden **Finansoppsett**
 
-  * Detaljopplysninger om fakturaavrunding  
-  * Adresseformater  
-  * Finansrapportering
+Bruk siden **Finansoppsett** til å angi hvordan du håndterer bestemte regnskapssaker i firmaet, for eksempel:  
 
-  > [!TIP]
-  > Siden **Finansoppsett** inneholder generelle felt og felt som er spesifikke for ditt land eller din region. Hvis du ikke er sikker på betydningen av et felt, foreslår vi at du arbeider med regnskapsføreren for å finne ut om det er av relevans for organisasjonen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
+* Detaljopplysninger om fakturaavrunding  
+* Adresseformater  
+* Finansrapportering
 
-  Åpne siden [her](https://businesscentral.dynamics.com/?page=118).
-  
-* Siden **Generelt bokføringsoppsett**
+> [!TIP]
+> Siden **Finansoppsett** inneholder generelle felter og felter som er spesifikke for landet eller området ditt. Hvis du ikke er sikker på betydningen av et felt, foreslår vi at du arbeider med regnskapsføreren for å finne ut om det er av relevans for organisasjonen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-  På siden **Generelt bokføringsoppsett** angir du hvordan du vil definere kombinasjoner av firma- og varebokføringsgrupper. Bokføringsgrupper tilordner enheter som kunder, leverandører, varer, ressurser og salgs- og kjøpsdokumenter til finanskonti. Fyll ut en linje for hver kombinasjon av firma- og varebokføringsgrupper. Men du kan også åpne hver linje i et eget bokføringsoppsettskort. Finn ut mer under [Oppsett av bokføringsgrupper](finance-posting-groups.md).  
+Hvis du vil åpne siden nå, bruker du følgende kobling [Finansoppsett](https://businesscentral.dynamics.com/?page=118).
 
-  > [!TIP]
-  > Hvis du ikke kan se feltene du leter etter, på siden **Generelt bokføringsoppsett**, bruker du det vannrette rullefeltet nederst på siden til å bla til høyre.  
+### Siden **Generelt bokføringsoppsett**
 
-  Åpne siden [her](https://businesscentral.dynamics.com/?page=314).
+Bruk siden **Generelt bokføringsoppsett** til å konfigurere kombinasjoner av firma- og varebokføringsgrupper. Bokføringsgrupper tilordner enheter som kunder, leverandører, varer, ressurser og salgs- og kjøpsdokumenter til finanskonti. Fyll ut en linje for hver kombinasjon av firma- og varebokføringsgrupper. Men du kan også åpne hver linje i et eget bokføringsoppsettskort. Finn ut mer under [Oppsett av bokføringsgrupper](finance-posting-groups.md).  
+
+> [!TIP]
+> Hvis du ikke kan se feltene du leter etter, på siden **Generelt bokføringsoppsett**, bruker du det vannrette rullefeltet nederst på siden til å bla til høyre.  
+
+Hvis du vil åpne siden nå, bruker du følgende kobling [Generelt bokføringsoppsett](https://businesscentral.dynamics.com/?page=314).
 
 ## Kontoplanen
 
-Kontoplanen viser alle finanskontoer. Fra kontoplanen kan du gjøre ting som:  
+Siden **Kontoplanen** viser alle finanskontoer. Fra kontoplanen kan du gjøre ting som:  
 
 * Vise rapporter som viser finansposter og saldoer.  
 * Lukke resultatregnskapet.  
@@ -50,7 +53,7 @@ Kontoplanen viser alle finanskontoer. Fra kontoplanen kan du gjøre ting som:
 * Vise en liste over bokføringsgrupper for kontoen.
 * Vise separate debet- og kreditsaldoer for én konto.
 
-Du kan legge til, endre eller slette finanskontoer. For å unngå avvik kan du imidlertid ikke slette en finanskonto hvis dataene fra den er brukt i kontoplanen. I tillegg kan du fra lanseringsbølge 2 for 2022 også blokkere utilsiktet sletting av kontoer i sensitive perioder. Finn ut mer i delen [Sletting av konti](finance-setup-chart-accounts.md#delete-accounts).  
+Hvis du vil finne ut mer, kan du gå til [Forstå kontoplanen](finance-chart-of-accounts.md).
 
 ## Kontokategorier
 
@@ -64,7 +67,7 @@ Du kan definere om spesifikke typer rapporter må inkluderes i bestemte typer ra
 
 ### Eksempel
 
-Standard saldoutdrag har for eksempel en underkategori for *kontanter* under *gjeldende aktiva*. Hvis du vil at saldoutdraget skal ta hensyn til håndkasse og sjekker, så du utfører følgende trinn:
+Standard saldoutdrag har for eksempel en underkategori for *kontanter* under *gjeldende aktiva*. Hvis du vil at saldoutdraget skal ta hensyn til håndkasse og sjekker, utfører du følgende trinn:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Finanskontokategorier**, og velg deretter den relaterte koblingen.
    1. Alternativet kan du [åpne siden her](https://businesscentral.dynamics.com/?page=790).
@@ -81,7 +84,7 @@ Standard saldoutdrag har for eksempel en underkategori for *kontanter* under *gj
    3. Velg handlingen **Flytt ned**.
    4. Velg handlingen **Rykk inn** for å rykke inn under under kategorien **Kontant**.
 
-Når du velger handlingen **Generer finansrapporter**, eller neste gang rapporten genereres, vil saldoutdraget vise følgende linjer:
+Når du velger handlingen **Generer finansrapporter**, eller neste gang rapporten genereres, viser saldoutdraget følgende linjer:
 
 * Total saldo på kontanter.
 * Linjer med saldoer for håndkasse og sjekkkontoen.  
@@ -89,17 +92,20 @@ Når du velger handlingen **Generer finansrapporter**, eller neste gang rapporte
 > [!NOTE]
 > Hvis du oppretter en finanskonto uten å tildele en kontokategori, tildeler [!INCLUDE[prod_short](includes/prod_short.md)] automatisk kontokategorien fra finanskontoen rett over kontoen i kontoplanen når du tildeler kontoen til en bokføringsgruppe. Hvis du vil ta med den nye kontoen i finansrapportene, må du imidlertid velge handlingen **Generer finansrapporter** på siden **Finanskontokategorier**. Du kan også åpne siden Finanskontokort, angi kontokategorien og deretter generere finansrapporten på nytt.
 
-## Få en rask oversikt
+## Tilgang til å opprette og redigere finanskontoer og kontokategorier
 
-**Kontoplan**-siden viser konti i en hierarkisk liste som gir rask tilgang til viktig informasjon for hver konto. Listen er imidlertid statisk, og hvis du har mange kontoer, må du kanskje rulle for å vise ulike kontoer. Hvis du bare vil ha en rask oversikt over det grunnleggende, for eksempel bevegelser og saldoer, er siden **Kontoplanoversikt** et nyttig alternativ. Kolonneoppsettet på siden er nå det samme som du finner på siden **Kontoplaner** (men med færre kolonner), slik at du ikke trenger å justere deg selv. Du kan vise eller skjule de hierarkiske nivåene for å få en tett visning. For at det skal bli enkelt å bytte mellom sidene er siden **Kontoplanoversikt** tilgjengelig fra **Kontoplan**-siden.
+I en liten organisasjon, for eksempel CRONUS-demoselskapet, kan de fleste brukere redigere finansposter som finanskontoer, kontokategorier og kontoplanen, unntatt brukere med en gruppemedlemslisens. Større organisasjoner bruker vanligvis roller og tillatelser til å begrense redigering av disse enhetene. Hvis du er administrator eller har rollen som *Forretningssjef* eller *Regnskapsfører*, kan du kontrollere brukertillatelsene for å gi de riktige personene tilgang til relevante tabeller. Hvis du vil ha mer informasjon, kan du gå til [Få en oversikt over en brukers tillatelser](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
 
-## Tilgang til å opprette og redigere konti og kontokategorier
+## Bruk dimensjoner til å forenkle kontoplanen
 
-I en liten organisasjon, for eksempel CRONUS-demoselskapet, kan de fleste brukere redigere kontoplanen, unntatt brukere med en gruppemedlemslisens. Større organisasjoner bruker vanligvis roller og tillatelser til å begrense redigering av kontoplanene. Hvis du er administrator eller har rollen som *Forretningssjef* eller *Regnskapsfører*, kan du kontrollere brukertillatelsene for å gi de riktige personene tilgang til relevante tabeller. Hvis du vil ha mer informasjon, kan du se delen [Få en oversikt over en brukers tillatelser](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
+Dimensjoner er attributter og verdier som kategoriserer poster slik at du kan spore og analysere dem på dokumenter, for eksempel ordrer. Dimensjoner kan for eksempel angi hvilket prosjekt eller hvilken avdeling en post kommer fra. I stedet for å opprette separate finanskonti for hver avdeling og hvert prosjekt, kan du for eksempel bruke dimensjoner som grunnlag for analyse og unngå å måtte opprette en komplisert kontoplan.
+
+Hvis du vil finne ut mer om dimensjoner, kan du gå til [Definer standarddimensjoner for kunder, leverandører og andre kontoer](finance-dimensions.md#to-set-up-default-dimensions-for-customers-vendors-and-other-accounts).
 
 ## Se også
 
-[Definer eller endre kontoplanen](finance-setup-chart-accounts.md)  
+[Forstå kontoplanen](finance-chart-of-accounts.md)  
+[Arbeid med dimensjoner](finance-dimensions.md)  
 [Tildel tillatelser til brukere og grupper](ui-define-granular-permissions.md)  
 [Forretningsintelligens](bi.md)  
 [Finans](finance.md)  

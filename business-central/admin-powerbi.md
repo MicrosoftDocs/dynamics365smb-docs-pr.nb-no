@@ -6,12 +6,12 @@ ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.search.form: '6316, 6317'
 ms.reviewer: jswymer
-ms.date: 09/28/2023
+ms.date: 04/24/2024
 ms.author: jswymer
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="introduction-to-business-central-and-power-bi"></a>Innføring i [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI
+# Innføring i Business Central og Power BI
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -19,13 +19,13 @@ Det er enkelt å få innsikt i [!INCLUDE[prod_short](includes/prod_short.md)]-da
 
 ![Power BI og Business Central.](media/power-bi-intro.png)
 
-## <a name="what-you-can-do-with-power-bi-and-business-central"></a>Det du kan gjøre med Power BI og [!INCLUDE[prod_short](includes/prod_short.md)]
+## Hva du kan gjøre med Power BI og Business Central
 
 Det finnes ulike funksjoner for å arbeide med [!INCLUDE[prod_short](includes/prod_short.md)] og Power BI. Du kan gjøre enkelte ting fra Power BI, mens andre ting gjør du fra [!INCLUDE[prod_short](includes/prod_short.md)]. I tillegg er noen funksjoner bare tilgjengelige i [!INCLUDE[prod_short](includes/prod_short.md)] Online, ikke i den lokale versjonen. Du får en oversikt i tabellen nedenfor.
 
 |Funksjon|Description|Online|Lokal|Finn ut mer|
 |-------|-----------|--------------|-----------|----------------|
-|Vis [!INCLUDE[prod_short](includes/prod_short.md)] data i Power BI.|Du kan vise dataene fra [!INCLUDE[prod_short](includes/prod_short.md)] i rapporter i Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] Online omfatter noen forhåndsdefinerte Power BI-rapporter. Det kan også hende at organisasjonen har gjort enkelte egendefinerte rapporter tilgjengelige for deg.|![Fungerer online.](media/check.png)|![Fungerer lokalt](media/check.png)|[Her ...](across-working-with-business-central-in-powerbi.md)|
+|Vis [!INCLUDE[prod_short](includes/prod_short.md)] data i Power BI.|Du kan vise dataene fra [!INCLUDE[prod_short](includes/prod_short.md)] i rapporter i Power BI. [!INCLUDE[prod_short](includes/prod_short.md)] Online omfatter noen forhåndsdefinerte Power BI-rapporter. Det kan også hende at organisasjonen har gjort enkelte egendefinerte rapporter tilgjengelige for deg.|![Fungerer online.](media/check.png)|![Fungerer lokalt](media/check.png)|[Her ...](across-working-with-powerbi.md)|
 |Vis Power BI-rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]-klienten.| Power BI-rapporter som viser [!INCLUDE[prod_short](includes/prod_short.md)]-data, kan bygges inn direkte i deler på [!INCLUDE[prod_short](includes/prod_short.md)]-sider. Du kan bytte del for å vise enhver rapport som er gjort tilgjengelig for deg. |![fungerer online.](media/check.png)|![Fungerer lokalt](media/check.png)<sup>[*](#onprem)</sup>|[Her ...](across-working-with-powerbi.md).|
 |Opprett rapporter og instrumentbord i Power BI som viser [!INCLUDE[prod_short](includes/prod_short.md)]-dataene.|Bruk Power BI Desktop til å opprette egne rapporter og instrumentbord. Du kan publisere rapportene til din egen Power BI-tjeneste eller dele dem med andre i organisasjonen.|![Fungerer online.](media/check.png)|![fungerer lokalt](media/check.png)|[Her ...](across-how-use-financials-data-source-powerbi.md)|
 |[!INCLUDE[prod_short](includes/prod_short.md)]-apper i Power BI| [!INCLUDE[prod_short](includes/prod_short.md)] publiserer tre apper for Power BI på Microsoft AppSource. Disse appene oppretter detaljerte rapporter og instrumentbord i Power BI-tjenesten for å vise [!INCLUDE[prod_short](includes/prod_short.md)]-data. Tilgjengelige apper omfatter følgende: <ul><li>[!INCLUDE [prod_long](includes/prod_long.md)] – CRM </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Finance </li><li>[!INCLUDE [prod_long](includes/prod_long.md)] – Sales </li></ul>  |![Fungerer online.](media/check.png)||[Her ...](across-powerbi-business-central-apps.md)|
@@ -33,7 +33,7 @@ Det finnes ulike funksjoner for å arbeide med [!INCLUDE[prod_short](includes/pr
 
 <a name="onprem"><sup>*</sup></a> Denne funksjonen krever et registrert program for Business Central i Microsoft Azure. Hvis du vil ha mer informasjon, kan du se [Registrer Business Central lokalt i Microsoft Entra ID for integrering med andre tjenester](/dynamics365/business-central/dev-itpro/administration/register-app-azure).
 
-## <a name="get-ready-to-use-power-bi"></a>Gjør deg klar til å bruke Power BI
+## Gjør deg klar til å bruke Power BI
 
 Det er noen få oppgaver du må gjøre før du kan begynne å bruke Power BI med [!INCLUDE[prod_short](includes/prod_short.md)]. <!-- Some of the tasks are typically only done by administrators or super users.--> Oppgavene avhenger av din rolle i organisasjonen, og hva du vil gjøre med Power BI:
 
@@ -46,9 +46,9 @@ Det er noen få oppgaver du må gjøre før du kan begynne å bruke Power BI med
 |Få deg en Power BI-konto.|![enda en ny hake.](media/check.png)|![det er en hake](media/check.png)|![igjen en hake](media/check.png)|Gå til [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Du registrerer deg for en konto ved å bruke e-postadressen og passordet for jobben din. <br /><br/>Registreringen krever at du har en lisens, men i de fleste tilfeller skal du allerede ha en gratis lisens. Hvis du vil ha mer informasjon, kan du se [Power BI-lisens](admin-powerbi-setup.md#license).|
 |Skaff deg Power BI Desktop|||![igjen en hake.](media/check.png)|Hvis du vil laste ned, går du til [Power BI Desktop](https://powerbi.microsoft.com/desktop/). Hvis du vil ha mer informasjon, kan du se [Få Power BI Desktop](/power-bi/fundamentals/desktop-get-the-desktop).
 |Eksponer Business Central-data til Power BI||![det er en hake.](media/check.png)|![igjen en hake](media/check.png)|[Eksponer data gjennom API-sider eller OData-nettjenester](admin-powerbi-setup.md#exposedata)
-|Aktiver Power BI-integrering<br />(bare lokalt)||![det er en hake.](media/check.png)||[Konfigurer Business Central lokalt for Power BI-integrering](admin-powerbi-setup.md#setup)|
+|Aktiver Power BI-integrering<br />(bare lokalt)||![det er en hake.](media/check.png)||[Konfigurer Business Central lokalt for Power BI-integrering](across-working-with-business-central-in-powerbi.md#setup)|
 
-## <a name="track-your-business-kpis-with-power-bi-metrics"></a>Spor forretnings-KPI-ene med Power BI-måleverdier
+## Spor forretnings-KPI-ene med Power BI-måleverdier
 
 Hvis du bruker Power BI på [!INCLUDE[prod_short](includes/prod_short.md)]-data, er det enkelt å spore KPI-er eller mål som er viktige for deg. 
 
@@ -68,12 +68,12 @@ Finn ut mer om Power BI-måleverdier under [Kom i gang med måleverdier i Power 
 > [!NOTE]
 > Fra og med lanseringsbølge 2 for 2023 for Business Central er det mulig å bygge inn målstyringer fra Power BI-måledata i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="next-steps"></a>Neste trinn
+## Neste trinn
 
 - Hvis du er administrator som må konfigurere Power BI i [!INCLUDE[prod_short](includes/prod_short.md)], går du til [Aktiver Power BI-integrering](admin-powerbi-setup.md).
 - Hvis Power BI allerede er definert og du vil prøve funksjonene, går du til [Arbeid med Power BI-rapporter i Business Central](across-working-with-powerbi.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Forretningsintelligens](bi.md)  
 [Konfigurer [!INCLUDE[prod_short](includes/prod_short.md)]](setup.md)  

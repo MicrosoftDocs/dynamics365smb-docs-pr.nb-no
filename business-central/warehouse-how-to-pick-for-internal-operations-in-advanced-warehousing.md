@@ -6,7 +6,7 @@ ms.author: bholtorf
 ms.reviewer: andreipa
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 12/13/2023
+ms.date: 04/23/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -133,6 +133,14 @@ Bruk **lagerplukkdokumenter** til å plukke jobbkomponenter i flyten til prosjek
     > [!NOTE]
     > Hvis du må plukke eller plassere varene for én linje i mer enn én hylle, for eksempel fordi den angitte hyllen er full, bruker du handlingen **Del linje** i hurtigfanen **Linjer**. Handlingen oppretter en linje der restantallet skal håndteres.
 
+      Du kan sortere plukklinjene etter ulike kriterier, for eksempel etter vare, hyllenummer eller forfallsdato. Sortering kan bidra til å optimalisere plasseringsprosessen, for eksempel:
+
+    * Hvis Hent- og Plasser-linjene for hver leveringslinje ikke følger umiddelbart etter hverandre, og du vil at de skal gjøre det, kan du sortere linjene ved å velge **Vare** i feltet **Sorteringsmetode**.  
+    * Hvis hylleprioritering gjenspeiler det fysiske oppsettet av lageret, kan du bruke sorteringsmetoden **hylleprioriteringen** til å organisere arbeidet etter hyllelokasjoner.
+
+  > [!NOTE]  
+  > Linjer sorteres i stigende rekkefølge etter det valgte kriteriet. Hvis du sorterer etter dokument, utføres sorteringen først etter dokumenttype basert på feltet **Kildedokument for lageraktivitet**. Hvis du sorterer etter levering, gjøres sorteringen først etter måltype basert på feltet **Lagermåltype**.
+
 4. Når du har plukket og plassert varene i produksjons-, monterings- eller prosjektområdet eller -hyllen, velger du **Registrer plukk**-handlingen.  
 
     Du kan nå samle varene i det tilsvarende området og bokføre bruken eller forbruket av de plukkede komponentene ved å bokføre forbrukskladd, monteringsrekkefølge eller prosjektkladd. Følgende artikler gir mer informasjon:
@@ -171,6 +179,14 @@ Fremgangsmåten nedenfor beskriver handlingene ulike personer gjør og det relat
 Illustrasjonen nedenfor viser når **Hyllekode**-feltet i komponentoversikten fylles i henhold til lokasjonsoppsettet eller oppsettet for produksjonsressurs/arbeidssenter.  
 
 :::image type="content" source="media/binflow.png" alt-text="Oversikt over når og hvordan Hyllekode-feltet fylles ut.":::
+
+## Produser til ordre-produksjonskomponenter i et avansert lageroppsett
+
+I scenarioer der en produsert vare består av råvarer og halvfabrikata med produksjonspolicyen satt til **Produser på ordre**, blir lagerplukkingen for de halvferdige komponentene lagt til i den samme produksjonsordren med feltet **Planleggingsnivåkode** fylt ut. Det forventes at de halvferdige varene er tilgjengelige for forbruk umiddelbart og ikke krever plukking, slik at de ikke inkluderes i plukkdokumentet. De opprettede lagerplukkene inkluderer bare råvarer for produsert vare og halvfabrikata.
+
+Hvis halvfabrikata imidlertid er tilgjengelig på lager, foreslår planleggingssystemet at du forbruker disse i stedet for å produsere hele antallet. En produsert vare krever for eksempel fem halvfabrikata, mens tre allerede er på lager. I dette tilfellet er fem halvfabrikata oppført i produksjonsordrekomponentene, men bare to produseres i samme produksjonsordre som en separat produksjonsordrelinje.
+Et slikt oppsett er ikke kompatibelt med lagerplukk, og avhengig av frekvensen må du enten endre produksjonspolicyen for halvfabrikata til **Produser til lager** eller dele produksjonsordrekomponentlinjen manuelt når du skal plukke de halvfabrikata som ble produsert tidligere.
+
 
 ## Se også
 

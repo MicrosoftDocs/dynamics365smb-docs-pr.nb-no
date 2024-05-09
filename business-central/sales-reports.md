@@ -20,14 +20,16 @@ Salgsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gjør det mu
 
 Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilstanden i virksomheten din:
 
-* [Opprette analyserapporter](bi-how-create-analysis-views-reports.md)  
+* [Opprett analyserapporter](bi-how-create-analysis-views-reports.md)  
 * [Vis tilgjengeligheten av varer](inventory-how-availability-overview.md)
 
 
 ## Se også
 
+[Oversikt over salgsanalyse](sales-analytics-overview.md)   
+[Ad hoc-analyse av salgsdata](ad-hoc-analysis-sales.md)    
 [Sette opp salg](sales-setup-sales.md)  
 [Salg](sales-manage-sales.md)  
-[Reservere varer](inventory-how-to-reserve-items.md)
+[Reserver varer](inventory-how-to-reserve-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

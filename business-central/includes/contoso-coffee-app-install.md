@@ -12,4 +12,4 @@ For å kunne bruke Contoso Coffee-data må du installere to apper i det aktuelle
 - **Demodatasett for Contoso Coffee (land-ID)**  
     Denne appen legger til landspesifikt innhold oppå basisprogrammet.
 <br><br>
-Legg til appene i et tomt selskap i et betalt abonnement eller som en del av en prøveversjon. Opprett for eksempel et nytt selskap uten eksempeldata fra den assisterte veiledningen **Opprett nytt selskap** som du kan åpne fra **Selskaper**-oversikten. Deretter legger du til appene fra [markedsplassen](../ui-extensions-install-uninstall.md#install), hvis de ikke allerede er oppført på siden **Utvidelsesbehandling**-side.  
+Legg til appene i et selskap i et betalt abonnement eller som en del av en prøveversjon. Legg til appene fra [markedsplassen](../ui-extensions-install-uninstall.md#install), hvis de ikke allerede er oppført på siden **Utvidelsesbehandling**-side.

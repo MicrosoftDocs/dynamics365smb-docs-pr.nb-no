@@ -53,20 +53,22 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 | Til  | Se |
 | --- | --- |
 | Konfigurer forutsetning for å bruke aktivafunksjonen (definere standardverdier, aktivaregnskap, bokføringsgrupper, fordelingsnøkler, kladder og bokføringstyper). | [Definer aktiva](fa-setup.md)|
-| Opprette aktiva, tilordne avskrivningsmetoder, bokføre anskaffelser, skrapverdier og skrive ut aktivaoversikter. |[Anskaffe aktiva](fa-how-acquire.md) |
+| Administrere aktivabudsjetter, og budsjettere anskaffelseskostnader, salg av aktiva og avskrivninger. |[Administrer budsjetter for aktiva](fa-how-manage-budgets.md) |
+| Opprette aktiva, tilordne avskrivningsmetoder, bokføre anskaffelser, skrapverdier og skrive ut aktivaoversikter. |[Anskaff aktiva](fa-how-acquire.md) |
+| Lær mer om ulike avskrivningsmetoder for aktiva. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
+| Beregne avskrivning, bokføre avskrivning og analysere avskrivning i aktivarapporter. |[Avskriv eller amortiser aktiva](fa-how-depreciate-amortize.md) |
+| Finn ut mer om innebygde rapporterings- og analysefunksjoner for aktiva. | [Oversikt over aktivaanalyse](fa-analytics-overview.md) |
 | Registrere servicebesøk, bokføre vedlikeholdskostnader og overvåke vedlikeholdskostnader. |[Vedlikehold aktiva](fa-how-maintain.md) |
 | Oppdatere forsikringsopplysninger, bokføre anskaffelseskostnader til forsikringspoliser, endre forsikringsdekningen, vise forsikringsstatistikk og vise forsikringspoliser. |[Forsikre aktiva](fa-how-insure.md) |
 | Klassifisere aktiva på nytt, overføre aktiva til ulike lokasjoner, og dele opp eller knytte sammen aktiva. |[Overføre, dele opp eller kombinere aktiva](fa-how-trans-split-combine.md) |
-| Justere verdier for aktiva og bokføre oppskrivnings- og nedskrivningstransaksjoner. |[Revaluere aktiva](fa-how-revalue.md) |
-| Beregne avskrivning, bokføre avskrivning og analysere avskrivning i aktivarapporter. |[Avskriv eller amortiser aktiva](fa-how-depreciate-amortize.md) |
-| Lær mer om ulike avskrivningsmetoder for aktiva. |[Avskrivningsmetoder](fa-depreciation-methods.md) |
-| Bokføre salgstransaksjoner, vise salgsposter og bokføre delvise salg. |[Avhending eller tilbaketrekking av aktiva](fa-how-dispose-retire.md) |
-| Administrere aktivabudsjetter, og budsjettere anskaffelseskostnader, salg av aktiva og avskrivninger. |[Administrer budsjetter for aktiva](fa-how-manage-budgets.md) |
-| Finn ut mer om innebygde rapporterings- og analysefunksjoner for aktiva. | [Rapporter og analyse av aktiva](fa-reports.md) |
+| Justere verdier for aktiva og bokføre oppskrivnings- og nedskrivningstransaksjoner. |[Revaluer aktiva](fa-how-revalue.md) |
+| Bokføre salgstransaksjoner, vise salgsposter og bokføre delvise salg. |[Avhend eller tilbaketrekk aktiva](fa-how-dispose-retire.md) |
+
 
 ## Se også
 
 [Definer aktiva](fa-setup.md)  
+[Oversikt over aktivaanalyse](fa-analytics-overview.md)   
 [Oversikt over finans](finance.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

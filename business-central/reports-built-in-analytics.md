@@ -2,28 +2,25 @@
 title: Innebygd analyse
 description: Gir en oversikt over alle funksjonene som støtter analyseoppgaver i Business Central-produktet.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: feature overview
-ms.date: 02/03/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: feature overview
+ms.date: 04/30/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="built-in-analytics"></a>Innebygd analyse
+# Innebygd analyse
 
-[!INCLUDE[prod_short](includes/prod_short.md)] inneholder noen funksjoner som gjør det mulig å analysere data i et oppsamlet skjema. Denne funksjonaliteten er nyttig hvis du for eksempel vil spore ytelsesindikatorer eller analysere regnskapsoppgjør i Microsft Excel. Nedenfor finner du koblinger som hjelper deg å lære hvordan du bruke den.
+[!INCLUDE[prod_short](includes/prod_short.md)] inneholder funksjoner som gjør det mulig å analysere data i et oppsamlet skjema. Du kan for eksempel bruke disse funksjonene til å spore ytelsesindikatorer (KPI-er) for økonomien eller analysere regnskapsoppgjør i Microsoft Excel. Tabellen nedenfor inneholder koblinger til artikler som kan hjelpe deg med å lære hvordan du bruker den innebygde analysen.
 
 | Til | Se |
 | --- | --- |
-|Få oversikt over nøkkelindikatorer som kontanttilgjengelighet, salgsfortjeneste, nettoinntekt eller lagerverdi | [Intelligent innsikt](about-intelligent-cloud.md) |
 |Analyser data med innebygde Power BI-rapporter. | [Arbeid med Power BI-rapporter](across-working-with-powerbi.md) |
-|Analyser finansdata i sanntid ved hjelp av finansrapporter og analysevisninger.| [Økonomisk analyse](bi.md) |
-|Analyser årsregnskaper med Excel | [Analyser årsregnskaper med Excel](finance-analyze-excel.md) |
-|Analyser finansdata på tvers av flere selskaper | [Konsolider finansdata fra flere selskaper](finance-consolidated-company-reporting.md) |
 |Få innsikt i hvilke rapporter brukere bruker| [Telemetri for rapportbruk](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Oversikt over Business Intelligence og rapportering](reports-use-reports.md)
+[Oversikt over analyse](reports-bi-reporting.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
