@@ -11,7 +11,7 @@ ms.search.form: '7351,'
 ms.service: dynamics-365-business-central
 ---
 
-# Flytt varer i avanserte lageroppsett som bruker lagerstyring
+# <a name="move-items-in-advanced-warehouse-configurations-that-use-directed-put-away-and-pick"></a>Flytt varer i avanserte lageroppsett som bruker lagerstyring
 
 Du kan flytte varer mellom hyller uten behov fra et kildedokument. Det kan for eksempel være at du vil gjøre dette som en del av følgende aktiviteter:
 
@@ -37,9 +37,9 @@ Sidene **Flytteforslag**, **Internt lagerplukk** og **Intern lagerplassering** f
 * Plassering bruker plasseringer maler
 * Plukk bruker hylleprioritering og tilgjengelighet
 
-## Lagerflytteforslag
+## <a name="warehouse-movement-worksheet"></a>Lagerflytteforslag
 
-### Flytte varer med lagerflytteforslaget
+### <a name="to-move-items-with-the-warehouse-movement-worksheet"></a>Flytte varer med lagerflytteforslaget
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Flytteforslag**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene på forslagslinjene manuelt, eller bruk en av følgende handlinger til å fylle ut linjene automatisk:
@@ -56,7 +56,7 @@ Sidene **Flytteforslag**, **Internt lagerplukk** og **Intern lagerplassering** f
 
 3. Velg **Opprett flytting**-handling for å opprette flyttingen. Når flyttingen er fullført, kan du registrere den på nytt.  
 
-### Slik registrerer du lagerflyttingen
+### <a name="to-register-the-warehouse-movement"></a>Slik registrerer du lagerflyttingen
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Flyttinger**, og velg deretter den relaterte koblingen.  
 2. Åpne flyttedokuementet du vil registrere.  
@@ -72,9 +72,9 @@ Sidene **Flytteforslag**, **Internt lagerplukk** og **Intern lagerplassering** f
 > [!NOTE]  
 > For lokasjoner som bruker lagerstyring, kan du ikke manuelt flytte varer i hyller av typen **MOTTA** fordi de ennå ikke anses som tilgjengelig lager. Du må plassere varene i disse hyllene før de er tilgjengelige for flytting.
 
-## Internt plukk  
+## <a name="internal-pick"></a>Internt plukk
 
-### Opprette en intern plukking  
+### <a name="to-create-an-internal-pick"></a>Opprette en intern plukking
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Intern plukk**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.
@@ -83,7 +83,7 @@ Sidene **Flytteforslag**, **Internt lagerplukk** og **Intern lagerplassering** f
 5. Velg handlingen **Opprett plukk**. En plukkinstruksjon er nå klar til utføring av en lageransatt. Du kan også velge **Frigi**-handlingen og opprette lagerplukk ved hjelp av **Plukkforslag**-siden. Hvis du vil ha mer informasjon om plukkforslag, går du til [Opprett plukkdokumenter i bulk med plukkforslaget](warehouse-how-to-pick-items-for-warehouse-shipment.md#to-create-pick-documents-in-bulk-with-the-pick-worksheet).
 6. Når plukkingen er fullført, kan du registrere den på nytt.  
 
-### Slik registrerer du lagerplukk
+### <a name="to-register-the-warehouse-pick"></a>Slik registrerer du lagerplukk
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Plukking** og velger den relaterte koblingen.  
 
@@ -95,9 +95,9 @@ Sidene **Flytteforslag**, **Internt lagerplukk** og **Intern lagerplassering** f
 
 4. Når du har utført plukkingen og plassert varene i leveringsområdet eller leveringshyllen, velger du **Registrer plukk**-handlingen.  
 
-## Intern plassering  
+## <a name="internal-put-away"></a>Intern plassering
 
-### Opprette en intern plassering  
+### <a name="to-create-an-internal-put-away"></a>Opprette en intern plassering
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Interne lagerplasseringer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.
@@ -111,7 +111,7 @@ Sidene **Flytteforslag**, **Internt lagerplukk** og **Intern lagerplassering** f
 6. Velg handlingen **Opprett plassering**. En plasseringsinstruksjon er nå klar for en lageransatt. Du kan også velge **Frigi**-handlingen og opprette lagerplasseringer ved hjelp av siden **Plasseringsforslag**. Hvis du vil ha mer informasjon om plasseringsforslag, går du til [Opprett plasseringsdokumenter i bulk med plasseringsforslaget](warehouse-how-to-put-items-away-with-warehouse-put-aways.md#to-create-put-away-documents-in-bulk-with-the-put-away-worksheet).
 6. Når plasseringen er fullført, kan du registrere den på nytt.  
 
-### Slik registrerer du lagerplasseringen
+### <a name="to-register-the-warehouse-put-away"></a>Slik registrerer du lagerplasseringen
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Plasseringer** og velg den relaterte koblingen.
 2. Åpne lagerplasseringen som er klar til å håndtere.  
@@ -134,7 +134,7 @@ Sidene **Flytteforslag**, **Internt lagerplukk** og **Intern lagerplassering** f
 
 5. Når du har plassert alle varene i hyller i henhold til instruksjonen, velger du handlingen **Registrer plassering**.  
 
-## Slik registrerer du en flytting som allerede har skjedd
+## <a name="to-register-a-movement-that-has-already-happened"></a>Slik registrerer du en flytting som allerede har skjedd
 
 Hvis du må registrere at varer allerede er flyttet til andre hyller uten plassering, plukking eller flytting, kan du bruke siden **Lagervarereklassifiseringskladd** for å registrere flyttingen.
 
@@ -142,7 +142,7 @@ Hvis du må registrere at varer allerede er flyttet til andre hyller uten plasse
 2. Fyll ut feltene **Varenr.**, **Fra sone-kode**, **Fra hylle-kode**, **Til sone-kode**, **Til hylle-kode**.  
 3. Velg handlingen **Registrer**.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  
