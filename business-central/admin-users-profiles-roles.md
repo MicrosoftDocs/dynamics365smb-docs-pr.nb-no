@@ -6,11 +6,11 @@ ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
-ms.date: 01/11/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
-ms.search.form: 9171
+ms.search.form: '9171,'
 ---
-# <a name="manage-user-profiles"></a>Administrer brukerprofiler
+# Administrer brukerprofiler
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -34,11 +34,11 @@ Hvis du vil ha mer informasjon om brukerinnstillinger og rollesentre, se [Endre 
 
 Før du kan administrere brukernes profiler må brukerne opprettes og legges til ved hjelp av administrasjonssenteret for Microsoft 365. Deretter kan du tilordne tillatelser til hver bruker eller brukergruppe. Tillatelser definerer hvilke funksjoner brukere kan få tilgang til. Hvis du vil ha mer informasjon om tillatelsesinnstillinger, kan du se [Tildel tillatelser til brukere og grupper](ui-define-granular-permissions.md)
 
-## <a name="page-customization"></a>Sidetilpasning
+## Sidetilpasning
 
 Du kan tilpasse sideoppsett for en profil, slik at alle brukerne som er tilordnet profilen, ser de tilpassede sidene. Som administrator kan du tilpasse sider ved å bruke samme funksjonalitet som brukere gjør når de tilpasser. Hvis du vil ha mer informasjon om hvordan du tilpasser sideoppsett, kan du se [Tilpass sider for profiler](ui-personalization-manage.md).
 
-## <a name="to-create-a-profile"></a>Slik oppretter du en profil
+## Slik oppretter du en profil
 
 Hvis du ikke kan kopiere en eksisterende profil, kan du opprette en ny manuelt.
 
@@ -49,7 +49,7 @@ Hvis du ikke kan kopiere en eksisterende profil, kan du opprette en ny manuelt.
 > [!TIP]
 > Hvis du vil at en bestemt profil skal være tilgjengelig bare for svært spesifikke brukere, kan du sette **Beskrivelse**-feltet til `Navigation menu only.`. På denne måten utelates profilen fra listen over tilgjengelige roller i **Mine innstillinger**.
 
-## <a name="to-copy-a-profile"></a>Kopiere en profil
+## Kopiere en profil
 
 Hvis du vil spare tid, kan du opprette en ny profil ved å kopiere en eksisterende. Kopier en som har lignende innstillinger som den du vil opprette.
 
@@ -59,14 +59,14 @@ Når du kopierer en profil, kopieres alle de involverte sidetilpassingene i till
 2. Fyll ut feltene **Profil-ID** og **Visningsnavn**, og velg deretter **OK**.
 3. Åpne siden **Profiler (roller)**, åpne det nylig opprettede profilkortet, og rediger deretter andre felt etter behov.
 
-## <a name="to-edit-a-profile"></a>Redigere en profil
+## Redigere en profil
 
 Du kan redigere en profil ved å endre feltene på siden **Profiler (roller)**. Endringene vil imidlertid ikke være synlige for brukeren som har tildelt profilen, før de logges av og igjen.
 
 > [!Caution]
 > Ikke gi nytt navn til en profil mens brukere tilordnet profilen er logget på, siden brukere kan oppleve at produktet fryser og må startes på nytt.
 
-## <a name="to-assign-a-profile-to-a-user"></a>Tilordne en profil til en bruker
+## Tilordne en profil til en bruker
 
 Brukere kan tildele seg selv en rolle (som representerer en profil) ved å velge feltet **Rolle** på siden **Mine innstillinger**. Som administrator kan du gjøre det samme på siden **Profiler (roller)**.
 
@@ -76,7 +76,7 @@ Brukere kan tildele seg selv en rolle (som representerer en profil) ved å velge
 
 Hvis du tilordner en annen profil til en bruker, beholdes eventuelle tilpasninger som er gjort av brukeren med den forrige profilen.
 
-## <a name="to-define-user-settings-for-a-profile"></a>Definere brukerinnstillinger for en profil
+## Definere brukerinnstillinger for en profil
 
 På siden **Mine innstillinger** kan brukerne definere grunnleggende virkemåte for kontoen, for eksempel Rollesenteret, språket og hvilke meldinger de får. Hvis du vil ha mer informasjon om brukerinnstillinger, kan du se [Endre grunnleggende innstillinger](ui-change-basic-settings.md).
 
@@ -87,7 +87,7 @@ Som administrator kan du definere innstillinger for en profil. Innstillingene gj
 3. Åpne siden **Brukertilpasninger**, åpne kortet for brukeren du vil endre innstillinger for.
 4. På siden **Brukertilpasningskort** redigerer du feltene etter behov.
 
-## <a name="to-activate-a-profile"></a>Aktivere en profil
+## Aktivere en profil
 
 Når du oppretter en profil, kan du definere om, hvor og hvordan profilen og den tilhørende informasjonen er tilgjengelig for brukerne.
 
@@ -98,7 +98,7 @@ På siden **Profiler (roller)** merker du av for følgende avmerkingsbokser:
 * **Deaktiver tilpasning** for å angi om brukere av den relaterte rollen kan tilpasse arbeidsområdet sitt.
 * **Vis i Rolletforsker** for å angi om handlinger til forretningsfunksjoner som er inkludert i profilen, vises i utvidet visning av rolleutforskeren, en funksjonsoversikt. Hvis du vil ha mer informasjon om rolleutforskeren, kan du se [Finn sider med rolleutforskeren](ui-role-explorer.md).
 
-## <a name="to-export-profiles"></a>Slik eksporterer du profiler
+## Slik eksporterer du profiler
 
 Du kan eksportere profiler fra [!INCLUDE[prod_short](includes/prod_short.md)] og bruke dem på nytt i en annen leier. Profilene eksportere til en ZIP-fil som inneholder AL-filene (programspråk). Du kan gjenbruke AL-filene for å utvikle utvidelser. Hvis du vil ha mer informasjon om å eksportere profiler, kan du se [Bruk klienten til å opprette profiler og sidetilpasninger](/dynamics365/business-central/dev-itpro/developer/devenv-design-profiles-using-client).
 
@@ -106,7 +106,7 @@ Du kan eksportere profiler fra [!INCLUDE[prod_short](includes/prod_short.md)] og
 
     Denne handlingen eksporterer en zip-fil som inneholder AL-filene for alle profiler.
 
-## <a name="to-import-profiles"></a>Slik importerer du profiler
+## Slik importerer du profiler
 
 Du kan importere profiler som er eksportert fra Business Central. Trinnene er mer eller mindre enn de motsatte av trinnene for å eksportere profiler.
 
@@ -118,7 +118,7 @@ Du kan importere profiler som er eksportert fra Business Central. Trinnene er me
 
     Denne handlingen importerer en zip-fil som inneholder AL-filene for de valgte profilene.
 
-## <a name="to-delete-a-profile"></a>Slette en profil
+## Slette en profil
 
 Du kan slette en profil ved å velge **Slett**-handlingen på siden **Profiler (roller)**. Følgende begrensninger gjelder imidlertid:
 
@@ -126,7 +126,7 @@ Du kan slette en profil ved å velge **Slett**-handlingen på siden **Profiler (
 * Du kan ikke slette profiler som stammer fra utvidelser. Filtypen må først avinstalleres.
 * Du kan bare slette én profil om gangen.
 
-## <a name="to-delete-all-personalizations-made-by-a-user"></a>Slette alle tilpasninger som er gjort av brukeren
+## Slette alle tilpasninger som er gjort av brukeren
 
 Du kan slette alle endringene en bruker gjør på sidene. Dette kan være nyttig å slette endringer hvis for eksempel en ansatt endrer rolle og ikke lenger trenger dem. Profilen definerer sideoppsettet, og slettinger gjenoppretter det til denne definisjonen.
 
@@ -141,7 +141,7 @@ Brukeren vil se endringene neste gang vedkommende logger på.
 
 Du kan også slette alle sidetilpasninger for en profil. Hvis du vil ha mer informasjon, se [Slette alle tilpasninger for en profil](ui-personalization-manage.md#delete-all-customizations-for-a-profile).
 
-## <a name="to-delete-personalizations-for-specific-pages"></a>Slette tilpasninger for bestemte sider
+## Slette tilpasninger for bestemte sider
 
 Du kan slette tilpasninger som én eller flere brukere gjør på bestemte sider. Sletting av tilpasninger kan være nyttige hvis en forretningsprosessendring betyr at en personalisering ikke lenger kan brukes. Slettinger gjenoppretter sideoppsettet tilbake til det som profilen definerer.
 
@@ -157,13 +157,13 @@ Brukeren vil se endringene neste gang vedkommende logger på.
 
 Du kan også slette individuelle sidetilpasninger for en profil. Hvis du vil ha mer informasjon, se [Slette tilpasninger for en bestemt side for en profil](ui-personalization-manage.md#delete-customization-for-specific-pages-for-a-profile).
 
-## <a name="managing-user-sessions"></a>Behandle brukerøkter
+## Behandle brukerøkter
 
 Du kan som administrator for [!INCLUDE[prod_short](includes/prod_short.md)] online behandle brukerøkter i administrasjonssenteret. Hvis du vil ha mer informasjon, kan du se [Behandle økter][def] i administrasjonsinnholdet.  
 
 For lokal [!INCLUDE[prod_short](includes/prod_short.md)] kan du for eksempel behandle økter som bruker SQL Server Management Studio. Hvis du vil ha mer informasjon, kan du se [teknisk dokumentasjon for SQL Server](/sql/sql-server).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tildel tillatelser til brukere og grupper](ui-define-granular-permissions.md)  
 [Tilpass sider for profiler](ui-personalization-manage.md)  
