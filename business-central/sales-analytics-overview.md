@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="sales-analytics"></a>Salgsanalyse
+# Salgsanalyse
 
 Virksomheter registrerer mye data under daglige aktiviteter som støtter forretningsanalyse (BI) for salgssjefer:
 
@@ -32,7 +32,7 @@ Hver av disse funksjonene har sine fordeler og ulemper, avhengig av typen dataan
 
 Denne artikkelen innfører hvordan du kan bruke disse analysefunksjonene til å få salgsinnsikt.
 
-## <a name="analytics-needs-in-sales"></a>Analysebehov i salg
+## Analysebehov i salg
 
 Når du tenker på analysebehovet i salgsadministrasjon, kan det hjelpe å bruke en identitetsbasert modell basert som beskriver forskjellige analysebehov på et høyt nivå.
 
@@ -49,14 +49,14 @@ Personer i ulike roller har ulike behov når det gjelder data, og de bruker data
 |Kundeansvarlig / selger | Detaljerte data     | Innebygde driftsrapporter <br> Oppgavedata på skjermen |
 
 <!-- 
-## <a name="sales-kpis"></a>Sales KPIs
+## Sales KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In sales management, people often use the following KPIs to monitor their organization's sales performance:
 
 - TODO  
 -->
 
-## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-sales"></a>Bruk finansrapportering til å produsere årsregnskap og ytelsesindikatorer knyttet til salg
+## Bruk finansrapportering til å produsere årsregnskap og ytelsesindikatorer knyttet til salg
 
 Funksjonen **Finansrapportering** gir deg innsikt i finansdataene som vises i kontoplanen. Du kan konfigurere finansrapporter til å analysere tall på finanskontoer og sammenligner finansposter med budsjettposter. Spesielt for salgsadministrasjon kan du definere finansrapporter på finanskontoene du bruker til å spore salgsbokføringer.
 
@@ -64,13 +64,13 @@ Dimensjoner spiller en viktig rolle i forretningsanalyse. En dimensjon er data d
 
 Hvis du vil finne ut mer om finansrapporter, kan du gå til [Klargjør finansrapporter med finansdata og kontokategorier](bi-how-work-account-schedule.md).
 
-## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-sales"></a>Finansrapportering mellom forretningsenheter eller juridiske enheter knyttet til salg
+## Finansrapportering mellom forretningsenheter eller juridiske enheter knyttet til salg
 
 Noen organisasjoner bruker [!INCLUDE [prod_short](includes/prod_short.md)] i flere konsern eller juridiske enheter. Andre bruker [!INCLUDE [prod_short](includes/prod_short.md)] i datterselskaper som rapporterer til overordnede organisasjoner. [!INCLUDE [prod_short](includes/prod_short.md)] gir regnskapsførere verktøy som hjelper dem med å overføre finansposter fra to eller flere selskaper (datterselskaper) til et konsolidert selskap. Spesielt for salgsadministrasjon vil du kanskje konsolidere finansposter for salgskontoene for å kunne spore salgsytelsesindikatorer på tvers av konsern eller juridiske enheter.
 
 Hvis du vil finne ut mer, kan du gå til [Selskapskonsolidering](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-sales-data"></a>Ad hoc-analyse av salgsdata
+## Ad hoc-analyse av salgsdata
 
 Noen ganger trenger du bare å sjekke om tallene summeres riktig, eller raskt bekrefte en tall. Følgende funksjoner er gode for ad hoc-analyser:
 
@@ -90,7 +90,7 @@ På samme måte kan du bruke handlingen **Åpne i Excel** til å åpne en listes
 
 Hvis du vil vite mer om hvordan du utfører ad hoc-analyse av salgsdata, kan du gå til [Ad hoc-analyse av salgsdata](ad-hoc-analysis-sales.md). 
 
-## <a name="built-in-reports-for-sales"></a>Innebygde rapporter for salg
+## Innebygde rapporter for salg
 
 [!INCLUDE [prod_short](includes/prod_short.md)] inneholder flere innebygde rapporter, sporingsfunksjoner og verktøy som hjelper salgsorganisasjoner med å rapportere om dataene sine.
 
@@ -105,7 +105,7 @@ De innebygde rapportene kommer i to smaker:
 
 Hvis du vil vite mer om rapporter som er relevante for salg, kan du gå til [Innebygde salgsrapporter](sales-reports.md).
 
-## <a name="on-screen-sales-analytics"></a>Salgsanalyse på skjermen
+## Salgsanalyse på skjermen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] har flere sider som gir deg salgsoversikter og oppgaver å gjøre. Her er noen eksempler for å komme i gang:
 
@@ -117,7 +117,7 @@ Hvis du vil vite mer om rapporter som er relevante for salg, kan du gå til [Inn
 - [Beregn leveringsdatoer for ordrer](sales-date-calculation-for-sales.md)
 - [Spor pakker](sales-how-track-packages.md)
 
-### <a name="show-sales-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Vis salgsrelaterte finansposter og -saldoer fra siden Kontoplan
+### Vis salgsrelaterte finansposter og -saldoer fra siden Kontoplan
 
 Siden Kontoplan viser alle finanskontoer med aggregerte numre på hva som er bokført i finans. Fra denne siden kan du gjøre ting som:  
 
@@ -131,7 +131,7 @@ Spesielt for salg kan du opprette en visning på Kontoplan-siden som bare viser 
 
 Hvis du vil finne ut mer, kan du gå til [Forstå kontoplanen](finance-general-ledger.md#the-chart-of-accounts)
 
-### <a name="analyze-data-by-dimensions-related-to-sales"></a>Analyser data etter dimensjoner (relatert til salg)
+### Analyser data etter dimensjoner (relatert til salg)
 
 Dimensjoner er attributter og verdier som kategoriserer poster slik at du kan spore og analysere dem på dokumenter, for eksempel ordrer. Dimensjoner kan for eksempel angi hvilket prosjekt eller hvilken avdeling en post kommer fra.  
 
@@ -139,7 +139,7 @@ I stedet for å opprette separate finanskontoer for hver avdeling og hvert prosj
 
 Hvis du finne ut mer, går du til [Analyser data etter dimensjoner](bi-how-analyze-data-dimension.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Selskapskonsolidering](finance-consolidated-company-reporting.md)   
 [Klargjør finansrapporter med finansdata og kontokategorier](bi-how-work-account-schedule.md)  
