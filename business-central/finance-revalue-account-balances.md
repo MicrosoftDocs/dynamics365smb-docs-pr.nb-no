@@ -11,11 +11,11 @@ ms.search.form: null
 ms.service: dynamics-365-business-central
 ---
 
-# Revaluer finanskontosaldoer
+# <a name="revalue-general-ledger-account-balances"></a>Revaluer finanskontosaldoer
 
 Hvis du bruker finanskontoer til å registrere balanseposter i utenlandsk valuta, bør du revaluere kontosaldoene før du produserer regnskapsoppgjør. Valutakurser endres ofte, og revaluering bidrar til å gjøre regnskapene mer nøyaktige.
 
-## Konfigurer revalueringer
+## <a name="set-up-revaluations"></a>Konfigurer revalueringer
 
 Du definerer hver konto du vil ta med i revalueringene, på siden **Finanskort**. Du kan velge om du vil bokføre revalueringsjusteringer på realiserte eller urealiserte gevinst-/tapskontoer. Bokføring av gevinst og tap under en valutakursjustering følger vanlig bokføringsrutine. Du gjør det for eksempel for hvert oppsett på siden **Valutaer**. Hvis du vil vite mer om valutakursjusteringer, kan du gå til [Oppdater valutakurser](finance-how-update-currencies.md).
 
@@ -26,7 +26,7 @@ Du kan minimere feil ved å sette opp en validering for valutaene du vil tillate
 * Samme valuta
 * Lokal valuta
 
-## Kjør en revaluering
+## <a name="run-a-revaluation"></a>Kjør en revaluering
 
 Hvis du vil revaluere beløpene i utenlandsk valuta i lokal valuta for finanskontosaldoer, bruker du handlingen **Revaluering av finansvaluta** på siden **Kontoplan** for å starte en satsjobb. Satsjobben oppretter justeringsposter i kladden du velger. Når du bokfører postene, justerer du saldoen i lokal valuta for kontoen. Finanskontosaldoer som alltid vises i lokal valuta, gjenspeiler nå endringer i valutaene som postene ble bokført i. Denne revalueringen gjør det mulig å produsere et mer nøyaktig regnskap med mindre anstrengelse.
 
@@ -38,7 +38,7 @@ Hvis du bruker en tilleggsrapporteringsvaluta, har revalueringspostene for finan
 > [!NOTE]
 > Revaluering gir ikke mulighet til å utligne eller oppheve utligning av poster, slik du kan med kunde- og leverandørposter. Justeringer skjer på saldo per valuta-basis.
 
-## Revaluer kontoer kontra valutakursjusteringer for kunde og leverandør
+## <a name="revaluate-accounts-vs-customer-and-vendor-exchange-rate-adjustments"></a>Revaluer kontoer kontra valutakursjusteringer for kunde og leverandør
 
 Revaluering forenkler oppgaven med å justere finanskontosaldoer. Funksjonen evaluerer saldoen per valuta per finanskonto omtrent på samme måte som du gjør for justeringer av finanskontoer som er knyttet til bankkontoer. Hvis du bruker en finanskonto til å spore flere aktiva, bør du vurdere å bruke en leverandør eller kundekonto i stedet.
 
@@ -56,7 +56,7 @@ Denne forskjellen er viktig når du vurderer om finansrevaluering er den riktige
 > [!TIP]
 > Vi anbefaler at du spør regnskapsføreren eller revisoren om hvilken type konto som er best for din virksomhet. Det kan også være en app for [!INCLUDE [prod_short](includes/prod_short.md)] på [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=dynamics-365-business-central) som passer dine forretningsscenarioer.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Gå gjennom beløp i finanskontoer](finance-review-accounts.md)  
 [Forstå Finans og kontoplanen](finance-general-ledger.md)  
