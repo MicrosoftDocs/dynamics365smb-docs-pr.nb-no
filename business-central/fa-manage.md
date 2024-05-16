@@ -12,17 +12,17 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Administrer aktiva
+# <a name="manage-fixed-assets"></a>Administrer aktiva
 
 Aktivafunksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] gir en oversikt over hvilke aktiva du har, og sørger for at avskrivningen er korrekt. De hjelper deg dessuten med å holde styr på vedlikeholdskostnadene, håndtere forsikringspoliser, bokføre aktivatransaksjoner og generere forskjellige rapporter og statistikker.
 
-## Videooversikt
+## <a name="video-overview"></a>Videooversikt
 
 Følgende video dekker det grunnleggende ved aktiva:
 
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4AegS?rel=0]
 
-## Første oppsett av aktiva
+## <a name="initial-setup-of-fixed-assets"></a>Første oppsett av aktiva
 
 Før du kan administrere aktiva, må du fullføre følgende oppsett:
 
@@ -34,7 +34,7 @@ Før du kan administrere aktiva, må du fullføre følgende oppsett:
 
 Hvis du vil finne ut mer, går du til [Definer aktiva](fa-setup.md).
 
-## Analyse av aktiva
+## <a name="fixed-assets-analytics"></a>Analyse av aktiva
 
 Denne delen beskriver analyseverktøyene du kan bruke til å få innsikt i data om aktivaene dine..
 
@@ -48,7 +48,7 @@ Denne delen beskriver analyseverktøyene du kan bruke til å få innsikt i data 
 | Vise salgsposter. | [Vis avhendingsposter](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Vis forventede salgsverdier. | [Vis forventede avhendingsverdier](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Registrere aktiva
+## <a name="register-fixed-assets"></a>Registrere aktiva
 
 For hvert enkelt aktiva må du definere et kort som inneholder opplysninger om dem. Du kan for eksempel definere bygninger eller produksjonsutstyr som hovedaktivaer i en komponentoversikt. Du kan gruppere aktiva på forskjellige måter, for eksempel etter klasse, avdeling eller lokasjon. Deretter kan du kjøpe, vedlikeholde og selge aktiva. Du kan også definere budsjetterte aktiva. Med budsjettering kan du ta med forventede anskaffelser og salg i rapporter.
 
@@ -57,7 +57,7 @@ For hvert enkelt aktiva må du definere et kort som inneholder opplysninger om d
 | Administrere aktivabudsjetter, og budsjettere anskaffelseskostnader, salg av aktiva og avskrivninger. |[Administrer budsjetter for aktiva](fa-how-manage-budgets.md) |
 | Opprette aktiva, tilordne avskrivningsmetoder, bokføre anskaffelser, skrapverdier og skrive ut aktivaoversikter. |[Anskaff aktiva](fa-how-acquire.md) |
 
-## Konfigurer avskrivninger for aktivaene
+## <a name="set-up-depreciations-for-your-fixed-assets"></a>Konfigurer avskrivninger for aktivaene
 
 Hvis du vil spore aktivaavskrivninger og andre finansielle transaksjoner for aktiva, definerer du et eller flere avskrivningstablåer for hver. Det er noen trinn for å avskrive aktivaer:
 
@@ -74,7 +74,7 @@ Hvis du vil spore aktivaavskrivninger og andre finansielle transaksjoner for akt
 | Vis endrede avskrivningstablåverdier. | [Vis endrede avskrivningstablåverdier](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification) |
 | Registrer aktivatransaksjoner manuelt på siden **Aktivafinanskladd** eller **Aktivakladd**, avhengig av om transaksjonene er for finansiell rapportering eller intern håndtering. | [Konfigurer aktivumavskrivninger](fa-how-setup-depreciation.md) |
 
-## Vedlikehold og forsikring av anleggsmidler
+## <a name="fixed-assets-maintenance-and-insurance"></a>Vedlikehold og forsikring av anleggsmidler
 
 Du kan registrere vedlikeholdskostnader og dato for neste service for hver aktiva. Sporing av vedlikeholdsutgifter kan være viktig for budsjettering og avgjørelser om utskiftning av aktiva. Du kan knytte hvert aktiva til en eller flere forsikringspoliser og kontrollere at polisepremiene samsvarer med verdien av aktivaene.
 
@@ -85,7 +85,7 @@ Du kan registrere vedlikeholdskostnader og dato for neste service for hver aktiv
 | Oppdatere forsikringsopplysninger, bokføre anskaffelseskostnader til forsikringspoliser, endre forsikringsdekningen, vise forsikringsstatistikk og vise forsikringspoliser. |[Forsikre aktiva](fa-how-insure.md) |
 | Overvåk forsikringsdekning. | [Overvåk forsikringsdekning](fa-how-insure.md#to-monitor-insurance-coverage) |
 
-## Reklassifisere, overføre, dele opp / kombinere, justere verdi, nedskrive og avhende aktiva
+## <a name="reclassify-transfer-split-upcombine-adjust-value-write-down-and-dispose-fixed-assets"></a>Reklassifisere, overføre, dele opp / kombinere, justere verdi, nedskrive og avhende aktiva
 
 | Til  | Se |
 | --- | --- |
@@ -95,7 +95,7 @@ Du kan registrere vedlikeholdskostnader og dato for neste service for hver aktiv
 | Vis salgsposter. | [Vis avhendingsposter](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Vis forventede salgsverdier. | [Vis forventede avhendingsverdier](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Definer aktiva](fa-setup.md)  
 [Oversikt over aktivaanalyse](fa-analytics-overview.md)  
