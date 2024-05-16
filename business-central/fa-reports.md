@@ -17,9 +17,15 @@ For å hjelpe deg med å administrere aktiva i [!INCLUDE [prod_short](includes/p
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
 
+## Utforske finansrapporter med Rapportutforsker
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
+
+
 ## Se også
 
+[Ad hoc-analyse av aktivadata](ad-hoc-analysis-fa.md)     
 [Oversikt over aktivaanalyse](fa-analytics-overview.md)   
+[Oversikt over økonomisk analyse](bi.md)   
 [Administrer aktiva](fa-manage.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

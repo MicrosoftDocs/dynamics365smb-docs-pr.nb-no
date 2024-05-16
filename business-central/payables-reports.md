@@ -12,18 +12,21 @@ ms.service: dynamics-365-business-central
 ---
 # Rapporter og analyse av leverandørgjeld
 
-For å hjelpe deg med å administrere leverandører i [!INCLUDE [prod_short](includes/prod_short.md)] er standardrapporter og analyse innebygd. Det flytter seg utenfor tradisjonelle rapporteringsbegrensninger for å hjelpe deg med å utforme forskjellige typer rapporter effektivt.  
+[!INCLUDE [prod_short](includes/prod_short.md)] har innebygde rapporter og analyser som hjelper deg med å administrere leverandører. Verktøyene strekker seg utenfor tradisjonelle rapporteringsbegrensninger og gjør det enkelt for deg å utforme forskjellige typer rapporter effektivt.  
 
 ## Rapporter
+
 [!INCLUDE [payables_reports](includes/payables-reports-include.md)]
+
+## Utforske finansrapporter med Rapportutforsker
+
+[!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 ## Se også
 
-[Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md)  
-[Arbeid med dimensjoner](finance-dimensions.md)  
-[Administrer aktiva](fa-manage.md)  
-[Oversikt over lokal funksjonalitet](about-localization.md)  
+[Ad hoc-analyse på finansdata](ad-hoc-analysis-finance.md)  
+[Økonomisk analyse](bi.md)  
+[Kjøpsanalyse](purchasing-analytics-overview.md)  
 [Regnskapsføreropplevelser i [!INCLUDE[prod_long](includes/prod_long.md)]](finance-accounting.md)  
-
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

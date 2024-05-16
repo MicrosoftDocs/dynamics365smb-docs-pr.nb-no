@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ---
 # Kjøpsrapportering og analyser
 
-Kjøpsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gjør det mulig for innkjøps- og forretningsfolk å få innsikt og statistikk om gjeldende og tidligere kjøpsaktiviteter.  
+Kjøpsrapportering gir innkjøps- og forretningsfolk innsikt og statistikk om gjeldende og tidligere kjøpsaktiviteter.  
 
 ## Rapporter
 
@@ -20,13 +20,25 @@ Kjøpsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gjør det m
 
 ## Oppgaver
 
-Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilstanden i virksomheten din:
+Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilstanden for innkjøp.
 
-* [Opprette analyserapporter](bi-how-create-analysis-views-reports.md)  
-* [Vis tilgjengeligheten av varer](inventory-how-availability-overview.md)  
+- [Vis tilgjengeligheten av varer](inventory-how-availability-overview.md)  
+- [Beregn datoer for kjøp](purchasing-date-calculation-for-purchases.md)
+- [Vis kjøpsposter](purchasing-how-record-purchases.md#viewing-ledger-entries)
+
+## Utforske kjøpsrapporter med Rapportutforsker
+
+Hvis du vil ha en oversikt over rapportene som er tilgjengelige for innkjøp, velger du **Alle rapporter** på startsiden. Denne handlingen åpner rolleutforskeren, som er filtrert etter funksjonene i alternativet **Rapport og analyse**. Under overskriften **Kjøp** velger du **Utforsk**.
+
+:::image type="content" source="media/report-explorer-purchasing.png" alt-text="Eksempel på rapporter i XXX-rollesenteret." lightbox="media/report-explorer-purchasing.png":::
+
+Hvis du vil finne ut mer, kan du gå til [Finn rapporter med rolleutforskeren](ui-role-explorer.md). 
 
 ## Se også
+
+[Ad hoc-analyse av kjøpsdata](ad-hoc-analysis-purchasing.md)  
+[Oversikt over kjøpsanalyse](purchasing-analytics-overview.md)   
 [Definere kjøp](purchasing-setup-purchasing.md)  
-[Innkjøp](purchasing-manage-purchasing.md)  
+[Oversikt over kjøp](purchasing-manage-purchasing.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -24,6 +24,16 @@ Hvis du vil ha bedre oversikt over varene og hjelp til å finne dem, kan du kate
 
 Planlegging for varer for å oppfylle behovet dekkes som en del av funksjonaliteten for forsyningsplanlegging. Finn ut mer under [Planlegging](production-planning.md).  
 
+## Lageranalyse
+
+Denne delen beskriver analyseverktøyene du kan bruke til å få innsikt i lagerdata.
+
+| Til ... | Se |
+| --- | --- |
+| Finn ut mer om muligheter for analyse av lagerdata. | [Oversikt over salgsanalyse](inventory-analytics-overview.md) |
+| Utfør ad hoc-analyse av lagerdata direkte på listesider og spørringer. | [Ad hoc-analyse av lagerdata](ad-hoc-analysis-inventory.md) |
+| Utforsk innebygde lagerrapporter. | [Innebygd beholdnings- og lagerrapporter](inventory-WMS-reports.md) |
+
 ## Lageravstemming
 
 Når du bokfører lagertransaksjoner, for eksempel følgesedler, kjøpsfakturaer eller lagerjusteringer, registreres endringene i varekostnader i vareverdipostene. For å gjenspeile endringen i lagerverdien i regnskapet, blir lagerkost automatisk bokført til de relaterte lagerkontoene i Finans. For hver lagertransaksjon du bokfører, bokføres de aktuelle verdiene i lagerkontoen, justeringskontoen og vareforbrukskontoen i Finans. Finn ut mer under [Avstem lagerkost med finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md).

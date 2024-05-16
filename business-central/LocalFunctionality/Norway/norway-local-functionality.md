@@ -5,19 +5,19 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 02/05/2024
+ms.date: 04/25/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="norway-local-functionality"></a>Funksjonalitet som er spesifikk for norske brukere
+# Funksjonalitet som er spesifikk for norske brukere
 
 Artiklene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Funksjonstilgjengelighet
+## Funksjonstilgjengelighet
 
 * MVA
     * [Administrere SAF-T (norsk standard revisjonsfil – avgift)](ui-extensions-setup-and-generate-saf-t-files-no.md) **Tilgjengelig nå**
-    * [Norsk mva-rapportering](norwegian-vat-reporting.md) **Tilgjengelig nå**
+    * [Norsk mva-rapportering - ny ID-porten systemoppdatering](norwegian-vat-reporting.md) **Tilgjengelig nå**
     * [Norske mva-koder](norwegian-vat-codes.md) **Tilgjengelig nå**  
     * [Bruke én mva-kode i kladder](how-to-use-one-vat-code-in-journals.md) **Tilgjengelig nå**
     * [Forholdsmessig MVA](proportional-vat.md) **Tilgjengelig nå**
@@ -74,15 +74,14 @@ Artiklene nedenfor beskriver den lokale funksjonaliteten som er unik i den norsk
  [Recurring Orders](recurring-orders.md)  
  -->
  
-## <a name="future-legislation-requirements-being-investigated"></a>Framtidige krav til lovgivning undersøkes
+## Framtidige krav til lovgivning undersøkes 
 
-* Overfør norsk elektronisk mva-innsendingsløsning til det nye systemet ID-porten **Planlagt for 23.5** 
 * Nyutformet og oppgradert ikke-fradragsberettiget mva. **Planlagt for lanseringsbølge 2 i 2024**   
 
 Hvis du vet om kommende forskriftsmessige funksjoner, kan du sende et [varsel om forskriftmessig funksjon](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbeid med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

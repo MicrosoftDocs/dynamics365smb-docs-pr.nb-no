@@ -22,21 +22,66 @@ Produkter kan være både varer og tjenester. Hvis du vil ha mer informasjon, ka
 
 Du kan inkludere en godkjenningsarbeidsflyt for alle innkjøpsprosesser, for eksempel hvis du vil kreve at store innkjøp godkjennes av regnskapssjefen. Hvis du vil ha mer informasjon, kan du se [Bruke godkjenningsarbeidsflyter](across-how-use-approval-workflows.md).
 
-Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artiklene som beskriver dem.
+Delen nedenfor beskriver en sekvens av oppgaver og har koblinger til artiklene som beskriver dem.
+
+## Kom i gang med kjøpsfunksjoner
+
+Før du kjøper varer, må du angi hvordan du vil håndtere selskapets kjøpsprosesser.
+
+|Til ...| Se |
+|---|---|
+| Konfigurere reglene og verdiene som definerer selskapets innkjøpspolicyer. | [Konfigurer kjøp](purchasing-setup-purchasing.md) |
+| Registrer hver leverandør du kjøper fra, med et leverandørkort. | [Registrer nye leverandører](purchasing-how-register-new-vendors.md) |
+
+## Kjøpsanalyse
+
+Denne delen beskriver analyseverktøyene du kan bruke til å få innsikt i kjøpsprosessene.
+
+| Til ... | Se |
+| --- | --- |
+| Finn ut mer om muligheter for analyse av kjøpsdata. | [Oversikt over kjøpsanalyse](purchasing-analytics-overview.md) |
+| Utfør ad hoc-analyse av kjøpsdata direkte på listesider og spørringer. | [Ad hoc-analyse av kjøpsdata](ad-hoc-analysis-purchasing.md) |
+| Utforsk innebygde kjøpsrapporter. | [Innebygde kjøpsrapporter](purchase-reports.md) |
+
+## Gi tilbud for å bestille til kjøpsfaktura
+
+Tabellen nedenfor beskriver hvordan du bruker enkle kjøpsprosesser.
 
 | Til | Se |
 | --- | --- |
-| Opprett en kjøpsfaktura for å registrere avtalen med en leverandør om å kjøpe produkter på bestemte leverings- og betalingsbetingelser. |[Registrere kjøp](purchasing-how-record-purchases.md) |
 |Opprett en forespørsel for å gjenspeile en forespørsel om tilbud fra leverandøren, som du senere kan konvertere til en bestilling.|[Be om tilbud](purchasing-how-request-quotes.md)|
-| Opprett en kjøpsfaktura for alle eller merkede linjer i en salgsfaktura. |[Kjøpe varer for salg](purchasing-how-purchase-products-sale.md) |
+| Opprett en kjøpsfaktura for alle eller merkede linjer i en salgsfaktura. |[Kjøpvarer for et salg](purchasing-how-purchase-products-sale.md) |
+| Opprett en kjøpsfaktura for å registrere avtalen med en leverandør om å kjøpe produkter på bestemte leverings- og betalingsbetingelser. |[Registrer kjøp](purchasing-how-record-purchases.md) |
+| Lære hvordan [!INCLUDE[prod_short](includes/prod_short.md)] beregner når du må bestille en vare for å motta den på en bestemt dato.|[Beregn dato for kjøp](purchasing-date-calculation-for-purchases.md)|
 |Forstå hva som skjer når du bokfører kjøpsdokumenter.|[Bokføre kjøp](ui-post-purchases.md)|
+
+Hvis du trenger mer komplekse kjøpsprosesser, inneholder tabellen nedenfor artikler som forklarer hva du kan gjøre med [!INCLUDE[prod_short](includes/prod_short.md)].
+
+| Til | Se |
+| --- | --- |
 | Utfør en handling på en ubetalt bokført kjøpsfaktura for å opprette en kreditnota automatisk og enten annullere kjøpsfakturaen eller opprette den på nytt, slik at du kan foreta korrigeringer. |[Korrigere eller annullere ubetalte salgsfakturaer](purchasing-how-correct-cancel-unpaid-purchase-invoices.md) |
 | Opprett en kjøpskreditnota for å tilbakestille en bestemt bokført kjøpsfaktura for å vise hvilke produkter du vil returnere til leverandøren, og hvilket betalingsbeløp du vil kreve inn. |[Behandle bestillingsreturer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md) |
-|Forbered fakturering av flere mottak fra samme leverandør én gang ved å kombinere mottakene på en faktura.|[Kombinere mottak på én faktura](purchasing-how-to-combine-receipts.md)|
-|Konverter for eksempel elektroniske fakturaer fra leverandører til kjøpsfakturaer i Business Central.|[Motta og konvertere elektroniske dokumenter](purchasing-how-to-receive-and-convert-electronic-documents.md)|
-| Lære hvordan [!INCLUDE[prod_short](includes/prod_short.md)] beregner når du må bestille en vare for å motta den på en bestemt dato.|[Beregne dato for kjøp](purchasing-date-calculation-for-purchases.md)|
-|Løs forvirring når det finnes to eller flere poster for samme leverandør.|[Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)|
 |Håndter forpliktelsen din til en leverandør om å kjøpe store antall levert i flere forsendelser over tid.|[Arbeid med rammebestillinger](sales-how-to-create-blanket-sales-orders.md)|
+
+
+## Kansellerte bestillinger, refusjoner og returer
+
+Tabellen nedenfor beskriver hvordan du håndterer kansellerte bestillinger, refusjoner og returer av varer du kjøper.
+
+| Til | Se |
+| --- | --- |
+|Forbered fakturering av flere mottak fra samme leverandør én gang ved å kombinere mottakene på en faktura.|[Kombinere mottak på én faktura](purchasing-how-to-combine-receipts.md)|
+|Konverter for eksempel elektroniske fakturaer fra leverandører til kjøpsfakturaer i Business Central.|[Motta og konverter elektroniske dokumenter](purchasing-how-to-receive-and-convert-electronic-documents.md)|
+
+
+## Andre salgsprosesser
+
+Tabellen nedenfor beskriver hvordan du håndterer andre kjøpsprosesser.
+
+| Til | Se |
+| --- | --- |
+|Løs forvirring når det finnes to eller flere poster for samme leverandør.|[Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)|
+
 
 ## Eksterne dokumentnumre
 
@@ -46,8 +91,8 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 
 [Definere kjøp](purchasing-setup-purchasing.md)  
 [Registrer nye leverandører](purchasing-how-register-new-vendors.md)  
+[Oversikt over kjøpsanalyse](purchasing-analytics-overview.md)   
 [Administrere skyldige beløp](payables-manage-payables.md)  
-[Administrere prosjekter](projects-manage-projects.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Generelle forretningsfunksjoner](ui-across-business-areas.md)
 

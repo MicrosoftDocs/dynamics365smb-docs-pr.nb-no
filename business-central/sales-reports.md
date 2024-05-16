@@ -5,31 +5,42 @@ author: brentholtorf
 ms.topic: conceptual
 ms.search.keywords: reporting
 ms.search.form: 'Report_107, Report_111, Report_112, Report_113, Report_119, Report_121, Report_129, Report_209, Report_708, Report_713, Report_718, Report_813, Report_7313'
-ms.date: 01/29/2024
+ms.date: 05/03/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 # Salgsrapporter og analyser i Business Central
 
-Salgsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gjør det mulig for selgere og forretningsfolk å få innsikt og statistikk om gjeldende og tidligere salgsaktiviteter.  
+Salgsrapportering gjør det mulig for selgere og forretningsfolk å få innsikt og statistikk om gjeldende og tidligere salgsaktiviteter.  
 
 ## Rapporter
+
 [!INCLUDE [sales_reports](includes/sales-reports-include.md)]
 
 ## Oppgaver
 
-Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilstanden i virksomheten din:
+Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilstanden til salget ditt:
 
 * [Opprett analyserapporter](bi-how-create-analysis-views-reports.md)  
 * [Vis tilgjengeligheten av varer](inventory-how-availability-overview.md)
+* [Status for rammeordre](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
+* [Pakkesporing](sales-how-track-packages.md)
+* [Vis ikke-bokførte og bokførte rammeordrelinjer](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
 
+## Utforske salgsrapporter med Rapportutforsker
+
+Hvis du vil ha en oversikt over rapportene som er tilgjengelige for salg, velger du **Alle rapporter** på startsiden. Denne handlingen åpner rolleutforskeren, som er filtrert etter funksjonene i alternativet **Rapport og analyse**. Under overskriften **Salg og markedsføring** velger du **Utforsk**.
+
+:::image type="content" source="media/report-explorer-sales.png" alt-text="Eksempel på rapporter i finansrollesenteret." lightbox="media/report-explorer-sales.png":::
+
+Hvis du vil finne ut mer, kan du gå til [Finn rapporter med rolleutforskeren](ui-role-explorer.md).
 
 ## Se også
 
-[Oversikt over salgsanalyse](sales-analytics-overview.md)   
 [Ad hoc-analyse av salgsdata](ad-hoc-analysis-sales.md)    
+[Oversikt over salgsanalyse](sales-analytics-overview.md)   
 [Sette opp salg](sales-setup-sales.md)  
-[Salg](sales-manage-sales.md)  
+[Oversikt over salg](sales-manage-sales.md)  
 [Reserver varer](inventory-how-to-reserve-items.md)
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

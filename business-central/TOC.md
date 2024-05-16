@@ -173,7 +173,7 @@ ms.service: dynamics-365-business-central
 #### [Planlegg en rapport som skal kjøres](ui-work-report.md#ScheduleReport)
 #### [Administrer lagrede innstillinger](reports-saving-reusing-settings.md)
 #### [Vis testrapporter før bokføring](ui-how-view-test-reports-posting.md)
-#### [Kjør satsvise jobber og XML-porter](ui-how-run-batch-jobs.md)
+#### [Kjør satsjobber og XML-porter](ui-how-run-batch-jobs.md)
 ### Endre utseendet til eksterne dokumenter
 #### [Om rapport- og dokumentoppsett](ui-manage-report-layouts.md)
 #### [Kom i gang med å opprette oppsett](ui-get-started-layouts.md)
@@ -449,9 +449,16 @@ ms.service: dynamics-365-business-central
 ### Konfigurer og bruk e-dokumenter
 #### [Oversikt over e-dokumenter](finance-edocuments-overview.md)
 #### [Konfigurer e-dokumenter](finance-how-setup-edocuments.md)
-#### [Bruk e-dokumenter ved salg og kjøp](finance-how-use-edocuments.md)
-#### [Angi koblingen E-dokumenter med eksterne endepunkter](finance-how-setup-edocuments-external.md)
+#### [Bruk e-dokumenter i salg](finance-how-use-edocuments.md)
+#### [Bruk e-dokumenter i kjøp](finance-how-use-edocuments-purchase.md)
+#### [Angi koblingen for e-dokumenter med eksterne endepunkter](finance-how-setup-edocuments-external.md)
 #### [Utvid funksjonaliteten for e-dokumenter](/dynamics365/business-central/dev-itpro/developer/devenv-extend-edocuments)
+
+### Bærekraftsadministrasjon
+#### [Oversikt over bærekraftsadministrasjon](finance-manage-sustainability.md)
+#### [Bærekraftsoppsett](finance-sustainability-setup.md)
+#### [Bærekraftskontoplan og -post](finance-sustainability-accounts-ledger.md)
+#### [Slik registrerer du klimagassutslipp](finance-sustainability-journal.md)
 
 ### [Organisasjoner med flere lokasjoner og internasjonale organisasjoner](finance-multi-site-organizations.md)
 #### Konsolider finansdata fra flere selskaper
@@ -479,7 +486,7 @@ ms.service: dynamics-365-business-central
 #### [Analyser data med statistiske kontoer](bi-use-statistical-accounts.md)
 #### [Analyser data etter dimensjoner](bi-how-analyze-data-dimension.md)
 
-<!-- ### [Ad-hoc analysis on finance data](ad-hoc-analysis-finance.md) -->
+### [Ad hoc-analyse på finansdata](ad-hoc-analysis-finance.md)
 
 ### Innebygde finansanalyseverktøy
 #### [Analyser finansdata fra kontoplanen](finance-general-ledger.md)
@@ -549,7 +556,10 @@ ms.service: dynamics-365-business-central
 
 ## Lager
 ### [Oversikt over lager](inventory-manage-inventory.md)
-### [Beholdning og lagerrapporter](inventory-WMS-reports.md)
+### Lageranalyse 
+#### [Oversikt over lageranalyse](inventory-analytics-overview.md)
+#### [Ad hoc-analyse av lagerdata](ad-hoc-analysis-inventory.md)
+#### [Innebygd beholdnings- og lagerrapporter](inventory-WMS-reports.md)
 ### [Registrer nye varer](inventory-how-register-new-items.md)
 ### [Arbeid med stykklister](inventory-how-work-BOMs.md)
 ### [Kategoriser varer](inventory-how-categorize-items.md)
@@ -585,8 +595,10 @@ ms.service: dynamics-365-business-central
 
 ## Aktiva
 ### [Oversikt over aktiva](fa-manage.md)
+
 ### Analyse av aktiva
 #### [Oversikt over analyse av aktiva](fa-analytics-overview.md)
+#### [Ad hoc-analyse av aktivadata](ad-hoc-analysis-fa.md)
 #### Innebygde verktøy for analyse av aktiva
 ##### [Overvåk vedlikeholdskostnader](fa-how-maintain.md#to-monitor-maintenance-costs)
 ##### [Overvåk forsikringsdekning](fa-how-insure.md#to-monitor-insurance-coverage)
@@ -594,6 +606,7 @@ ms.service: dynamics-365-business-central
 ##### [Vis avhendingsposter](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 ##### [Vis forventede avhendingsverdier](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 #### [Innebygde aktivarapporter](fa-reports.md)
+
 ### [Konfigurer aktiva](fa-setup.md)
 ### [Avskrivningsmetoder](fa-depreciation-methods.md)
 ### [Administrer budsjetter for aktiva](fa-how-manage-budgets.md)
@@ -776,6 +789,7 @@ ms.service: dynamics-365-business-central
 <!--LF-->
 ## Lokale funksjoner
 ### [Oversikt over lokale funksjoner](about-localization.md)
+### [Utvikling av validerte lokaliseringsapper](about-validated-localization-apps.md)
 
 ### Australia
 #### [Oversikt over australsk versjon](LocalFunctionality/Australia/australia-local-functionality.md)
@@ -1567,7 +1581,11 @@ ms.service: dynamics-365-business-central
 #### [Lokale funksjoner i amerikansk versjon](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Avgift
 ##### [Grunnleggende avgiftsoppsett](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Rapportering av mva. i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)  
+##### [Rapportering av mva. i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Innføring i IRS 1099-skjemaene og tilhørende funksjonalitet](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
+##### [Konfigurer og bruk IRS 1099-skjemaet for versjon 24 (lanseringsbølge 1 i 2024)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
+#### [Bruk IRS 1099-skjemaene](LocalFunctionality/UnitedStates/how-to-1099-use.md)
+#### [Send inn og rapporter IRS 1099-skjemaene](LocalFunctionality/UnitedStates/how-to-1099-report.md)       
 ##### [Konfigurer og bruk IRS 1099-skjemaet](LocalFunctionality/UnitedStates/set-up-use-irs1099-form.md)
 ##### [Endringer og detaljer for forskriftsmessig 1099-format](LocalFunctionality/UnitedStates/tax-1099-changes.md)  
 ##### [Konfigurer og bruk IRS 1096-skjemaet](LocalFunctionality/UnitedStates/set-up-use-irs1096-form.md)
@@ -1802,8 +1820,14 @@ ms.service: dynamics-365-business-central
 # Analyse, forretningsanalyse og rapportering 
 
 ## [Oversikt over analyse](reports-bi-reporting.md)
-## [Bruk ytelsesindikatorer (KPI-er) til å oppfylle forretningsmålene](./analytics-about-kpis.md)
-## [Bruk finansrapportering](bi-how-work-account-schedule.md)
+## [Analyse etter funksjonsområde](analytics-by-functional-area.md)
+
+## Nøkkelindikatorer, instrumentbord og finansrapporter
+### [Bruk nøkkelindikatorer (KPI-er) til å oppfylle forretningsmålene](analytics-about-kpis.md)
+### [Innføring i Business Central og Power BI](admin-powerbi.md)
+### [Arbeid med Power BI-rapporter](across-working-with-powerbi.md)
+### [Spor nøkkelindikatorer med Power BI-måleverdier](track-kpis-with-power-bi-metrics.md)
+### [Bruk finansrapportering](bi-how-work-account-schedule.md)
 
 ## Analyse av ad hoc-data
 ### [Oversikt](reports-adhoc-analysis.md)
@@ -1812,12 +1836,7 @@ ms.service: dynamics-365-business-central
 ### [Analyser sidedata i Excel](across-work-with-excel.md)
 ### [Analyser rapportdata med Excel](report-analyze-excel.md)
 ### [Analyser liste- og spørringsdata med analysemodus](analysis-mode.md)
-
-## Innebygd analyseverktøy
-### [Oversikt](reports-built-in-analytics.md)
-### [Arbeid med Power BI-rapporter](across-working-with-powerbi.md)
-### [Intelligent innsikt (lokalt)](about-intelligent-cloud.md)
-### [Telemetri for rapportbruk](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+### [Ad hoc-dataanalyse etter funksjonsområde](ad-hoc-data-analysis-by-functional-area.md)
 
 ## Bruk rapporter i daglig arbeid
 ### [Oversikt](reports-use-reports.md)
@@ -1834,44 +1853,21 @@ ms.service: dynamics-365-business-central
 ## Innebygde rapporter
 ### [Oversikt over rapporter](reports-available-reports.md)
 ### Finans
-#### [Finansforretningsanalyse](bi.md)
-#### [Analyser årsregnskaper med Excel](finance-analyze-excel.md)
+#### [Klargjør finansrapportering](bi-how-work-account-schedule.md)
 #### [Hovedfinansrapporter](finance-reports.md)
 #### [Rapporter om utestående fordringer](receivables-reports.md)
 #### [Rapporter om leverandørgjeld](payables-reports.md)
-#### [Kontantstrømanalyse](finance-setup-cash-flow-analyses.md)
-#### [Konsolider finansdata fra flere selskaper](finance-consolidated-company-reporting.md)
 
-### Salg
-#### [Salgsrapporter](sales-reports.md)
-#### [Status for rammeordre](sales-how-to-create-blanket-sales-orders.md#to-view-the-status-of-a-blanket-sales-order)
-#### [Pakkesporing](sales-how-track-packages.md)
-#### [Vis ikke-bokførte og bokførte rammeordrelinjer](sales-how-to-create-blanket-sales-orders.md#to-view-unposted-and-posted-blanket-sales-order-lines)
-
-### Kjøp
-#### [Kjøpsrapporter](purchase-reports.md)
-#### [Vis kjøpsposter](purchasing-how-record-purchases.md#viewing-ledger-entries)
-
-### Beholdning og lager
-#### [Beholdning og lagerrapporter](inventory-wms-reports.md)
-#### [Varedisposisjon](inventory-how-availability-overview.md)
-#### [Spor varer med serie-, parti- og pakkenumre](inventory-how-work-item-tracking.md)
-#### [Spor varesporede varer](inventory-how-to-trace-item-tracked-items.md)
-#### [Revider avstemmingen mellom lagerposten og finans](finance-how-to-post-inventory-costs-to-the-general-ledger.md#to-audit-the-reconciliation-between-the-inventory-ledger-and-the-general-ledger)
-#### [Vis kryssoverførte varer i et leverings- eller plukkforslag](warehouse-how-to-cross-dock-items.md#to-view-cross-docked-items-in-a-shipment-or-pick-worksheet)
+### [Salgsrapporter](sales-reports.md)
+### [Kjøpsrapporter](purchase-reports.md)
+### [Beholdning og lagerrapporter](inventory-wms-reports.md)
 
 ### Prosjekt
 #### [Prosjektrapporter](project-reports.md)
 #### [Vis prosjektforbruksestimater](projects-how-record-job-usage.md#to-view-project-usage-estimates-and-post-updates)
 #### [Overvåk prosjektfremdrift og -ytelse](projects-how-monitor-progress-performance.md)
 
-### Aktiva
-#### [Aktivarapporter](fa-reports.md)
-#### [Overvåk vedlikeholdskostnader](fa-how-maintain.md#to-monitor-maintenance-costs)
-#### [Overvåk forsikringsdekning](fa-how-insure.md#to-monitor-insurance-coverage)
-#### [Vis endrede avskrivningstablåverdier](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
-#### [Vis avhendingsposter](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
-#### [Vis forventede avhendingsverdier](fa-how-manage-budgets.md#to-view-projected-disposal-values)
+### [Aktivarapporter](fa-reports.md)
 
 ### Monteringsstyring
 #### [Monteringsstyringsrapporter](assembly-reports.md)
@@ -1887,6 +1883,9 @@ ms.service: dynamics-365-business-central
 #### [Oversikt over serviceordrer](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Oversikt over servicetilbud](service-how-to-allocate-resources.md#to-see-an-overview-of-service-orders-and-service-quotes)
 #### [Oversikt over bokført servicedokument](service-service-posting.md#to-view-information-about-a-posted-service-document)
+
+### [Telemetri for rapportbruk](/dynamics365/business-central/dev-itpro/administration/telemetry-reports-trace)
+
 
 ## Utvikle rapporter
 ### [Oversikt](reports-develop-reports.md)
@@ -1909,11 +1908,9 @@ ms.service: dynamics-365-business-central
 ## Analyser data i Business Intelligence Tools
 ### [Oversikt](reports-external-analysis.md)
 ### [Microsoft Fabric og Business Central](admin-fabric.md)
-### [Bruk Power BI med Business Central](admin-powerbi.md)
-### [Analyser årsregnskaper med Excel](finance-analyze-excel.md)
 ### [Trekk ut data til datalagre eller datasjøer](/dynamics365/business-central/dev-itpro/performance/performance-developer#efficient-extracts-to-data-lakes-or-data-warehouses)
 ### [Les data med Business Central-API-en](/dynamics365/business-central/dev-itpro/api-reference/v2.0/)
-
+### [Intelligent innsikt (lokalt)](about-intelligent-cloud.md)
 
 
 # Sikkerhet, personvern og samsvar

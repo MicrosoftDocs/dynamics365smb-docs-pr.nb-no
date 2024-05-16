@@ -44,8 +44,20 @@ Når du har installert appen, kan du bruke handlingen **Skriv ut etikett** til �
 > [!NOTE]
 > Noen skrivere og strekkode/QR-kodeformater krever en spesifikk implementering. Du må kanskje laste opp en annen Word-mal eller klone rapporten for å opprette din egen tilpassede versjon.
 
+
+## Utforske lagerrapporter med Rapportutforsker
+
+Hvis du vil ha en oversikt over rapportene som er tilgjengelige for lager, velger du **Alle rapporter** på startsiden. Denne handlingen åpner rolleutforskeren, som er filtrert etter funksjonene i alternativet **Rapport og analyse**. Under overskriften **Salg og markedsføring** velger du **Utforsk**.
+
+:::image type="content" source="media/report-explorer-sales.png" alt-text="Eksempel på rapporter i finansrollesenteret." lightbox="media/report-explorer-sales.png":::
+
+Hvis du vil finne ut mer, kan du gå til [Finn rapporter med rolleutforskeren](ui-role-explorer.md).
+
+
 ## Se også
 
+[Ad hoc-analyse av lagerdata](ad-hoc-analysis-inventory.md)  
+[Oversikt over lageranalyse](inventory-analytics-overview.md)   
 [Definere lager](inventory-setup-inventory.md)  
 [Lager](inventory-manage-inventory.md)  
 [Definer lagerstyring](warehouse-setup-warehouse.md)  

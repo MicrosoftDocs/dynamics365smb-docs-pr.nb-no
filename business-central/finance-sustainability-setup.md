@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD'
 ms.search.form: null
-ms.date: 04/02/2024
+ms.date: 04/24/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-setup"></a>Bærekraftsoppsett
+# Bærekraftsoppsett  
 
 Hvis bærekraftmodulen skal fungere skikkelig, må du først sette opp noen grunnleggende kontroller og instruksjoner knyttet til hele funksjonaliteten.  
 
@@ -28,6 +28,10 @@ Følg denne fremgangsmåten for å sette opp en bærekraftmodul:
 | **Ansvarssenter obligatorisk** | Angir om ansvarssenter er obligatorisk, da ansvarssenteret kan brukes som et anlegg for måling av anleggsbaserte utslipp. Du kan bruke dette feltet i kladder uten å konfigurere dette, men du kan velge det hvis du vil tvinge brukere til å fylle ut feltet før bokføring. |
 | **Blokker endring av beregningsgrunnlag hvis det finnes poster** | Angir om endringen av beregningsgrunnlaget i kontokategorien er sperret på tidspunktet for bærekraftsposten, noe som betyr at denne formelen allerede er brukt. |
 | **Aktiver bakgrunnsfeilkontroll** | Angir om bakgrunnsfeilkontroll av bærekraftskladdelinjer er aktivert. |
+
+> [!NOTE]
+> Når du har aktivert eller deaktivert **Bakgrunnsfeilkontroll** i journaler, må du logge på på nytt før du starter det nye oppsettet.
+ 
 
 3.  På hurtigfanen **Beregninger** konfigurerer du obligatoriske felter relatert til formlene som brukes til å beregne utslipp:  
 
@@ -49,12 +53,12 @@ Følg denne fremgangsmåten for å sette opp en bærekraftmodul:
 >[!NOTE]
 > I versjon 24.0 støtter ikke [!INCLUDE[prod_short](includes/prod_short.md)] rapportering til noen myndighet. Felt som er relatert til konfigurasjon i hurtigfanen **Rapportering**, blir brukt for fremtidige rapporteringsfunksjoner, men det kan også brukes av partnere i lokaliserte versjoner.
 
-## <a name="see-also"></a>Se også
-[Finans](finance.md)    
-[Oversikt over bærekraftsbehandling](finance-manage-sustainability.md)
-[Bærekraftskontoplan og finans](finance-sustainability-accounts-ledger.md)
-[Slik registrerer du utslipp](finance-sustainability-journal.md)
-[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Se også  
+[Finans](finance.md)  
+[Oversikt over bærekraftsbehandling](finance-manage-sustainability.md)    
+[Bærekraftskontoplan og finans](finance-sustainability-accounts-ledger.md)    
+[Slik registrerer du utslipp](finance-sustainability-journal.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
