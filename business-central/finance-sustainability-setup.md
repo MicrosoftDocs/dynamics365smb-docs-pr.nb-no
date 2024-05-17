@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Bærekraftsoppsett  
+# <a name="sustainability-setup"></a>Bærekraftsoppsett
 
 Hvis bærekraftmodulen skal fungere skikkelig, må du først sette opp noen grunnleggende kontroller og instruksjoner knyttet til hele funksjonaliteten.  
 
@@ -53,7 +53,7 @@ Følg denne fremgangsmåten for å sette opp en bærekraftmodul:
 >[!NOTE]
 > I versjon 24.0 støtter ikke [!INCLUDE[prod_short](includes/prod_short.md)] rapportering til noen myndighet. Felt som er relatert til konfigurasjon i hurtigfanen **Rapportering**, blir brukt for fremtidige rapporteringsfunksjoner, men det kan også brukes av partnere i lokaliserte versjoner.
 
-## Se også  
+## <a name="see-also"></a>Se også
 [Finans](finance.md)  
 [Oversikt over bærekraftsbehandling](finance-manage-sustainability.md)    
 [Bærekraftskontoplan og finans](finance-sustainability-accounts-ledger.md)    
