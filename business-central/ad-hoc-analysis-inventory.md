@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analysis-of-inventory-data"></a>Ad-hoc-analyse av lagerdata
+# Ad-hoc-analyse av lagerdata
 
 Denne artikkelen forklarer hvordan du bruker funksjonen **Dataanlyse** til å analysere lagerdata direkte fra listesider og spørringer. Du trenger ikke å kjøre en rapport eller bytte til et annet program, for eksempel Excel. Funksjonen gir en interaktiv og allsidig måte å beregne, summere og undersøke data på. I stedet for å kjøre rapporter ved hjelp av alternativer og filtre, kan du legge til flere faner som representerer forskjellige oppgaver eller visninger på dataene. Noen eksempler er "utgående lager" eller "toppselgere, eller andre visninger du kan tenke deg. Hvis du vil lære mer om hvordan du bruker funksjonen **Dataanalyse**, kan du gå til [Analyser liste- og spørringsdata med analysemodus](analysis-mode.md).
 
@@ -20,7 +20,7 @@ Bruk følgende listesider til ad hoc-analyse av lagerprosesser:
 
 - [Vareposter](https://businesscentral.dynamics.com/?page=38)
 
-## <a name="inventory-ad-hoc-analysis-scenarios"></a>Scenarioer for ad hoc-analyse for lager
+## Scenarioer for ad hoc-analyse for lager
 
 Bruk **Dataanalyse**-funksjonen for rask faktasjekking og ad hoc-analyse:
 
@@ -38,7 +38,7 @@ Avsnittene nedenfor inneholder eksempler på lagerscenarioer i [!INCLUDE [prod_s
 | Lagergjennomstrømning | Få oversikt over kjøp og salg på lageret etter måned eller kvartal. | [Vareposter](https://businesscentral.dynamics.com/?page=38) | **Bokføringsdato (år)**, **Bokføringsdato**, **Varenr.**, **Antall**, **Salgsbeløp**, **Kostbeløp (faktisk)** og **Bokføringsdato (måned)** |
 | [Lagerflyttinger] | Få oversikt over hvordan varer i lageret flyttes mellom lokasjoner. | [Vareposter](https://businesscentral.dynamics.com/?page=38) | **Lokasjonskode**, **Antall**, **Bokføringsdato**, **Varenr.** |
 
-## <a name="example-inventory-on-hand"></a>Eksempel: Lagerbeholdning
+## Eksempel: Lagerbeholdning
 
 Hvis du vil analysere varer i lagerbeholdningen som er på lager, gjør du følgende:
 
@@ -54,7 +54,7 @@ Bildet nedenfor viser resultatet av denne fremgangsmåten.
 
 :::image type="content" source="media/data-analysis-inventory-on-hand.png" alt-text="Eksempel på hvordan du utfører en lagerdataanalyse." lightbox="media/data-analysis-inventory-on-hand.png":::
 
-## <a name="example-track-expiring-or-old-stock"></a>Eksempel: spor utløpende eller gammelt lager
+## Eksempel: spor utløpende eller gammelt lager
 
 Følg disse trinnene for å analysere varer på lageret ditt som har vært på lager lenge og ikke selger godt.
 
@@ -69,7 +69,7 @@ Bildet nedenfor viser resultatet av denne fremgangsmåten.
 
 :::image type="content" source="media/data-analysis-inventory-dead-stock.png" alt-text="Eksempel på hvordan du utfører dataanalyse på varelager som ikke kan selges, på siden Vareposter." lightbox="media/data-analysis-inventory-dead-stock.png":::
 
-## <a name="example-returned-items-by-return-reason"></a>Eksempel: returnerte varer etter returårsak
+## Eksempel: returnerte varer etter returårsak
 
 Hvis du vil analysere returnerte varer sortert etter årsakene til returen, gjør du følgende:
 
@@ -83,7 +83,7 @@ Hvis du vil analysere returnerte varer sortert etter årsakene til returen, gjø
 1. Legg til eventuelle andre felt du vil ha med i analysen , og aktiver dem i **Kolonner**-området. Du kan for eksempel legge til feltene **Bokføringsdato**, **Bilagstype**, **Varenr.** og  **Bilagsnr.**.
 1. Endre navnet på analysefanen til **Returnerte varer etter returårsak** eller noe som beskriver denne analysen.  
 
-## <a name="example-inventory-throughput"></a>Eksempel: lagergjennomstrømning
+## Eksempel: lagergjennomstrømning
 
 1. Åpne [Vareposter](https://businesscentral.dynamics.com/?page=38)-listen og velg :::image type="content" source="media/analysis-mode-icon.png" alt-text="Gå inn i analysemodus."::: for å aktivere analysemodus.
 1. Gå til **Kolonner**-menyen og fjern alle kolonner (merk av i boksen ved siden av **Søk**-feltet til høyre).
@@ -93,7 +93,7 @@ Hvis du vil analysere returnerte varer sortert etter årsakene til returen, gjø
 1. Dra feltet **Bokføringsdato (måned)** til **Kolonnegrupper**-området.
 1. Endre navnet på analysefanen til **Lagergjennomstrømning etter måned** eller noe som beskriver denne analysen.  
 
-## <a name="inventory-movements"></a>Lagerflyttinger
+## Lagerflyttinger
 
 Hvis du vil spore lagerflyttinger mellom lokasjoner, gjør du følgende:
 
@@ -107,7 +107,7 @@ Hvis du vil spore lagerflyttinger mellom lokasjoner, gjør du følgende:
    > [!TIP]
    > Hvis du legger til feltet Bokføringsdato, kan du også spore bevegelser over tid.
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-inventory"></a>Datagrunnlag for ad hoc-analyse på lager
+## Datagrunnlag for ad hoc-analyse på lager
 
 Når du posterer en salgsordre, oppdaterer [!INCLUDE [prod_short](includes/prod_short.md)] kundens konto, finans og varepostene.
 
@@ -117,7 +117,7 @@ Når du bokfører et kjøpsdokument, oppdaterer [!INCLUDE [prod_short](includes/
 
 - For hver bestillingslinje opprettes poster i **Varepost**-tabellen (hvis bestillingslinjen er av typen Vare). I tillegg registreres alltid kjøpsdokumenter i tabellene **Mottakshode** og **Kjøpsfakturahode**. Hvis du vil finne ut mer, går du til [Bokføring av kjøp](purchasing-how-record-purchases.md#posting-purchases).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Analyser liste- og spørringsdata med analysemodus](analysis-mode.md)  
 [Oversikt over lageranalyse](inventory-analytics-overview.md)  
