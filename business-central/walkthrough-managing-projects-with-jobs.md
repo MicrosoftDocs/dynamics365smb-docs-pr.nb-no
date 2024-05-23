@@ -36,7 +36,7 @@ I denne gjennomgangen får du en innføring i prosjektstyringsfunksjoner. Prosje
 - Vise hvordan kontraktverdier og fakturaverdier fastsettes.  
 - Tillate ekstra arbeid i estimatet som ikke er fakturert.  
 
-### <a name="copying-a-job"></a>Kopiere et prosjekt
+### <a name="copying-a-project"></a>Kopiere et prosjekt
 
  Denne delen av gjennomgangen fokuserer på hvordan du kopierer deler av et prosjekt eller hele prosjektet for å redusere manuell registrering av data og forbedre korrektheten. Det inkluderer følgende:  
 
@@ -223,11 +223,11 @@ I neste fremgangsmåte kan du opprette en prosjektkladd for Tricia for å bokfø
 
 Linjene er nå bokført.  
 
-## <a name="creating-and-posting-a-job-sales-invoice"></a>Opprette og bokføre en salgsfaktura for prosjekt
+## <a name="creating-and-posting-a-project-sales-invoice"></a>Opprette og bokføre en salgsfaktura for prosjekt
 
  Marie kan deretter opprette en ny faktura for hele prosjektet eller for deler av et prosjekt. Tricia kan også knytte fakturaen til en annen faktura for samme kunde og samme prosjekt. I dette tilfellet fakturerer Tricia for hele prosjektet siden det nå er fullført.  
 
-### <a name="to-create-a-job-sales-invoice"></a>Slik oppretter du en salgsfaktura for prosjekt:
+### <a name="to-create-a-project-sales-invoice"></a>Slik oppretter du en salgsfaktura for prosjekt:
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
 2.  Velg prosjektet du opprettet tidligere, og velg handlingen **Opprett salgsfaktura for prosjekt**.  
@@ -261,7 +261,7 @@ Linjene er nå bokført.
 
  CRONUS har fått i oppdrag å sette opp konferanserom. Som prosjektleder trenger Prakash en god oversikt over oppgavene som kreves i prosjektet, sammen med de tilknyttede budsjetterte og påløpte kostbeløpene for hver oppgave. I tillegg vil Prakash vite salgsbeløpet for prosjektet og beløpet som er fakturert hittil. De har inngått en avtale med kunden når det gjelder fast pris for prosjektet.  
 
-### <a name="to-manage-fixed-pricing-in-jobs"></a>Slik håndterer du faste priser i prosjekter
+### <a name="to-manage-fixed-pricing-in-projects"></a>Slik håndterer du faste priser i prosjekter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjekter** og velg den relaterte koblingen.  
 2. Velg **Tremøbler AS**-prosjektnummeret og velg deretter **Prosjektoppgavelinjer**-handlingen.  

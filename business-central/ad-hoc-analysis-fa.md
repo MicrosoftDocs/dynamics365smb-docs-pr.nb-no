@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Ad hoc-analyse av aktivadata
+# <a name="ad-hoc-analysis-of-fixed-assets-data"></a>Ad hoc-analyse av aktivadata
 
 Denne artikkelen forklarer hvordan du bruker funksjonen **Dataanlyse** til å analysere aktiva direkte fra listesider og spørringer. Du trenger ikke å kjøre en rapport eller bytte til et annet program, for eksempel Excel. Funksjonen gir en interaktiv og allsidig måte å beregne, summere og undersøke data på. I stedet for å kjøre rapporter ved hjelp av alternativer og filtre, kan du legge til flere faner som representerer forskjellige oppgaver eller visninger på dataene. Noen eksempler er Totale eiendeler, Avskrivning over tid eller andre visninger du kan forestille deg. Hvis du vil lære mer om hvordan du bruker funksjonen **Dataanalyse**, kan du gå til [Analyser liste- og spørringsdata med analysemodus](analysis-mode.md).
 
@@ -21,7 +21,7 @@ Bruk følgende listesider til å starte ad hoc-analyse av aktivaprosesser:
 - [Aktivaposter](https://businesscentral.dynamics.com/?page=5604)
 - [Finansposter](https://businesscentral.dynamics.com/?page=20)
 
-## Scenarioer med ad hoc-analyse av aktiva
+## <a name="fixed-assets-ad-hoc-analysis-scenarios"></a>Scenarioer med ad hoc-analyse av aktiva
 
 Bruk **Dataanalyse**-funksjonen for rask faktasjekking og ad hoc-analyse:
 
@@ -37,7 +37,7 @@ Avsnittene nedenfor inneholder eksempler på aktivascenarioer i [!INCLUDE [prod_
 | [Aktivaverdiendringer over tid](#example-asset-value-changes-over-time) | Spor aktivaverdiendringer over tid. | [Aktivaposter](https://businesscentral.dynamics.com/?page=5604) | **Aktivabokføringstype**, **Aktivabokføringsdato** og **Beløp** |
 |[Aktivaavskrivninger over tid](#example-fixed-asset-depreciations-over-time) | Spor avskrivning over tid, både på tvers av alle aktiva og på ett enkelt aktiva. | [Aktivaposter](https://businesscentral.dynamics.com/?page=5604) | **Avskrivningstablå**, **Aktivanr.**, **Aktivabokføringsår**, **Aktivabokføringsmåned**, **Beløp** og **Aktivabokføringstype** |
 
-### Eksempel: gjeldende verdi for aktiva
+### <a name="example-fixed-assets-current-value"></a>Eksempel: gjeldende verdi for aktiva
 
 Hvis du vil spore verdien av ett eller flere aktiva, gjør du følgende:
 
@@ -52,7 +52,7 @@ Bildet nedenfor viser resultatet av denne fremgangsmåten.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png" alt-text="Eksempel på hvordan du utfører dataanalyse på siden Aktivaposter for å se verdien av et aktiva." lightbox="media/data-analysis-fa-ledger-entries-asset-overview-current-value.png":::
 
-### Eksempel: spor aktivaverdiendringer over tid
+### <a name="example-asset-value-changes-over-time"></a>Eksempel: spor aktivaverdiendringer over tid
 
 Hvis du vil spore aktivaverdiendringer over tid, gjør du følgende:
 
@@ -68,7 +68,7 @@ Bildet nedenfor viser resultatet av denne fremgangsmåten.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png" alt-text="Eksempel på hvordan du utfører dataanalyse på siden Aktivaposter for å se aktivaverdiendringer over tid." lightbox="media/data-analysis-fa-ledger-entries-asset-changes-over-time.png":::
 
-### Eksempel: aktivaavskrivninger over tid
+### <a name="example-fixed-asset-depreciations-over-time"></a>Eksempel: aktivaavskrivninger over tid
 
 Hvis du vil spore avskrivningen av ett eller flere aktiva, gjør du følgende:
 
@@ -85,17 +85,17 @@ Bildet nedenfor viser resultatet av denne fremgangsmåten.
 
 :::image type="content" source="media/data-analysis-fa-ledger-entries-depreciation-by-asset.png" alt-text="Eksempel på hvordan du utfører dataanalyse på siden Aktivaposter for å se avskrivning over tid." lightbox="media/data-analysis-fa-ledger-entries-depreciation-by-asset.png":::
 
-## Datagrunnlag for ad hoc-analyse av aktiva
+## <a name="data-foundation-for-ad-hoc-analysis-on-fixed-assets"></a>Datagrunnlag for ad hoc-analyse av aktiva
 
 Når du bokfører aktivakladder, oppretter [!INCLUDE [prod_short](includes/prod_short.md)] poster i tabellen **Aktivapost**. Derfor utføres ad hoc-analyse av aktiva vanligvis på siden [Aktivaposter](https://businesscentral.dynamics.com/?page=5604).
 
-## Bidragsytere
+## <a name="contributors"></a>Bidragsytere
 
 *Microsoft vedlikeholder denne artikkelen. Deler av eksemplene er opprinnelig skrevet av følgende bidragsyter.*
 
 * [Aldona Stec](https://www.linkedin.com/in/aldona-stec-25283bb1) | [!INCLUDE[prod_short](includes/prod_short.md)]-konsulent
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Analyser liste- og spørringsdata med analysemodus](analysis-mode.md)  
 [Oversikt over analyse av aktiva](fa-analytics-overview.md)  
