@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="inventory-analytics"></a>Lageranalyse
+# Lageranalyse
 
 Virksomheter registrerer mye data under daglige aktiviteter som støtter forretningsanalyse (BI) for lagerledere:
 
@@ -31,7 +31,7 @@ Hver av disse funksjonene har sine fordeler og ulemper, avhengig av typen dataan
 
 Denne artikkelen viser hvordan du kan bruke disse analysefunksjonene for å få innsikt i lageret.
 
-## <a name="analytics-needs-in-inventory"></a>Analysebehov i lageret
+## Analysebehov i lageret
 
 Når du tenker på analysebehovet i lageradministrasjon, kan det hjelpe å bruke en identitetsbasert modell basert som beskriver forskjellige analysebehov på et høyt nivå.
 
@@ -48,14 +48,14 @@ Personer i ulike roller har ulike behov når det gjelder data, og de bruker data
 |Lagermedarbeider   | Detaljerte data     | Innebygde driftsrapporter, oppgavedata på skjermen |
 
 <!-- 
-## <a name="inventory-kpis"></a>Inventory KPIs
+## Inventory KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In inventory management, people often use the following KPIs to monitor their organization's sales performance:
 
 - TODO  
 -->
 
-## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-inventory"></a>Bruk finansrapportering til å produsere årsregnskap og ytelsesindikatorer knyttet til lager
+## Bruk finansrapportering til å produsere årsregnskap og ytelsesindikatorer knyttet til lager
 
 Funksjonen **Finansrapportering** gir deg innsikt i finansdataene som vises i kontoplanen. Du kan konfigurere finansrapporter til å analysere tall på finanskontoer og sammenligner finansposter med budsjettposter. Spesielt for lagerstyringen kan du definere finansrapporter på finanskontoene du bruker til å spore lagerbokføringer.
 
@@ -63,13 +63,13 @@ Dimensjoner spiller en viktig rolle i forretningsanalyse. En dimensjon er data d
 
 Hvis du vil finne ut mer om finansrapporter, kan du gå til [Klargjør finansrapporter med finansdata og kontokategorier](bi-how-work-account-schedule.md).
 
-## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-inventory"></a>Finansrapportering mellom forretningsenheter eller juridiske enheter (knyttet til lager)
+## Finansrapportering mellom forretningsenheter eller juridiske enheter (knyttet til lager)
 
 Noen organisasjoner bruker [!INCLUDE [prod_short](includes/prod_short.md)] i flere konsern eller juridiske enheter. Andre bruker [!INCLUDE [prod_short](includes/prod_short.md)] i datterselskaper som rapporterer til overordnede organisasjoner. [!INCLUDE [prod_short](includes/prod_short.md)] gir regnskapsførere verktøy som hjelper dem med å overføre finansposter fra to eller flere selskaper (datterselskaper) til et konsolidert selskap. Spesielt for lagerstyringen vil du kanskje konsolidere finansposter for lagerkontoene for å kunne spore salgsytelsesindikatorer på tvers av konsern eller juridiske enheter.
 
 Hvis du vil finne ut mer, kan du gå til [Selskapskonsolidering](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-inventory-data"></a>Ad-hoc-analyse av lagerdata
+## Ad-hoc-analyse av lagerdata
 
 Noen ganger trenger du bare å sjekke om tallene summeres riktig, eller raskt bekrefte en tall. Følgende funksjoner er gode for ad hoc-analyser:
 
@@ -89,7 +89,7 @@ På samme måte kan du bruke handlingen **Åpne i Excel** til å åpne en listes
 
 Hvis du vil vite mer om hvordan du utfører ad hoc-analyse av lagerdata, kan du gå til [Ad hoc-analyse av lagerdata](ad-hoc-analysis-inventory.md).
 
-## <a name="built-in-reports-for-inventory"></a>Innebygde rapporter for lager
+## Innebygde rapporter for lager
 
 [!INCLUDE [prod_short](includes/prod_short.md)] inneholder flere innebygde rapporter, sporingsfunksjoner og verktøy som hjelper lagerorganisasjoner med å rapportere om dataene sine.
 
@@ -104,7 +104,7 @@ Hvis du vil ha en oversikt over tilgjengelige rapporter, velger du **Alle rappor
 
 Hvis du vil vite mer om rapporter som er relevante for lager, kan du gå til [Innebygde lagerrapporter](inventory-WMS-reports.md).
 
-## <a name="on-screen-inventory-analytics"></a>Lageranalyse på skjermen
+## Lageranalyse på skjermen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] har flere sider som gir deg lageroversikter og oppgaver å gjøre. Her er noen eksempler for å komme i gang:
 
@@ -120,7 +120,7 @@ Salgsmodulen inkluderer også analysesider relatert til lager:
 - [Beregn leveringsdatoer for ordrer](sales-date-calculation-for-sales.md)
 - [Spor pakker](sales-how-track-packages.md)
 
-### <a name="show-inventory-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Vis lager relaterte finansposter og -saldoer fra siden Kontoplan
+### Vis lager relaterte finansposter og -saldoer fra siden Kontoplan
 
 Siden **Kontoplan** viser alle finanskontoer med aggregerte numre på hva som er bokført i finans. Fra denne siden kan du gjøre ting som:  
 
@@ -134,7 +134,7 @@ Spesielt for lagerstyringen kan du opprette en visning på Kontoplan-siden som b
 
 Hvis du vil finne ut mer, kan du gå til [Forstå kontoplanen](finance-general-ledger.md#the-chart-of-accounts)
 
-### <a name="analyze-inventory-data-by-dimensions"></a>Analysere lagerdata etter dimensjoner
+### Analysere lagerdata etter dimensjoner
 
 Dimensjoner er attributter og verdier som kategoriserer poster slik at du kan spore og analysere dem på dokumenter, for eksempel ordrer. Dimensjoner kan for eksempel angi hvilket prosjekt eller hvilken avdeling en post kommer fra.  
 
@@ -142,7 +142,7 @@ I stedet for å opprette separate finanskontoer for hver avdeling og hvert prosj
 
 Hvis du finne ut mer, går du til [Analyser data etter dimensjoner](bi-how-analyze-data-dimension.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Selskapskonsolidering](finance-consolidated-company-reporting.md)   
 [Klargjør finansrapporter med finansdata og kontokategorier](bi-how-work-account-schedule.md)  

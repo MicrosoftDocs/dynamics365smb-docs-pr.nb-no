@@ -3,21 +3,21 @@ title: Konfigurer selskaper for å synkronisere hoveddata
 description: Lær hvordan du definerer et eller flere selskaper for å synkronisere hoveddata.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 01/25/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
 
-# <a name="get-ready-to-synchronize-master-data"></a>Gjør deg klar til å synkronisere hoveddata
+# Gjør deg klar til å synkronisere hoveddata
 
 Når to eller flere selskaper bruker noen av de samme hoveddataene, kan du synkronisere dataene i stedet for å legge dem til manuelt i hvert selskap. Synkronisering av data er for eksempel nyttig når du definerer nye datterselskaper.
 
 Hoveddata omfatter innstillinger og ikke-transaksjonelle opplysninger om forretningsenheter. Det kan for eksempel være kunder, leverandører, varer og ansatte. Dataene gir kontekst for forretningstransaksjoner. Dette er noen få eksempler på hoveddata for en kunde:
 
-* Name
+* Navn
 * Identifikasjonsnummer
 * Adresse
 * Betalingsbetingelser
@@ -25,14 +25,14 @@ Hoveddata omfatter innstillinger og ikke-transaksjonelle opplysninger om forretn
 
 Du kan konfigurere synkronisering i datterselskapene. Ved å bruke en pull-modell trekker datterselskaper dataene fra kildeselskapet de trenger for å gjøre forretninger med dem. Når du har definert synkronisering og synkronisert data for første gang, er du klar. Prosjektkøposter oppdaterer koblede poster i datterselskaper når noen endrer data i kildeselskapet.
 
-## <a name="uni-directional-synchronization-only"></a>Bare enveissynkronisering
+## Bare enveissynkronisering
 
 Du kan bare synkronisere data fra kildeselskapet til datterselskapene på en pull-måte. Datterselskaper kan ikke pushe data til kildefirmaet.
 
 > [!NOTE]
 > Selv om det er mulig, anbefaler vi ikke at du oppretter toveissynkronisering. Det vil si å synkronisere data fra kildeselskapet til datterselskapene og fra datterselskapene til kildeselskapet. Synkronisering av data i begge retninger kan føre til konflikter eller uønskede overskrivinger.
 
-## <a name="before-you-start"></a>Før du begynner
+## Før du begynner
 
 Følgende er kravene for å konfigurere synkronisering.
 
@@ -42,7 +42,7 @@ Følgende er kravene for å konfigurere synkronisering.
 > [!NOTE]
 > Med Team Member- og Intern administrator-lisensen kan du få tilgang til dem, men ikke endre poster, slik at de ikke kan brukes til å konfigurere synkroniseringen. Delegert administrator-lisensen lar deg ikke planlegge bakgrunnsoppgaver, slik at du ikke kan fullføre oppsettet.
 
-## <a name="specify-the-source-company"></a>Angi kildeselskapet
+## Angi kildeselskapet
 
 De første trinnene er å angi hvilket selskap som skal være datakilden, og aktivere synkronisering. Datterselskaper henter data fra kildefirmaet.
 
@@ -56,7 +56,7 @@ De første trinnene er å angi hvilket selskap som skal være datakilden, og akt
 
 Neste trinn er å aktivere tabeller og felter for synkronisering.
 
-## <a name="enable-or-disable-tables-and-fields"></a>Aktiver eller deaktiver tabeller og felter
+## Aktiver eller deaktiver tabeller og felter
 
 Hvis du vil spare tid, gir [!INCLUDE [prod_short](includes/prod_short.md)] en liste over tabeller som virksomheter synkroniserer ofte. Noen tabeller er aktivert for synkronisering som standard. Du kan endre, deaktivere eller slette dem etter behov. Som en ekstra tidsbesparelse er noen felter i tabellene allerede deaktivert, fordi de sannsynligvis ikke er relevante for datterselskapet.
 
@@ -78,7 +78,7 @@ Hvis du vil spare tid, gir [!INCLUDE [prod_short](includes/prod_short.md)] en li
 > [!TIP]
 > En rask måte å aktivere eller deaktivere flere felter samtidig på er å velge dem i listen og deretter bruke handlingene **Aktiver** eller **Deaktiver**.
 
-### <a name="use-match-based-coupling"></a>Bruk treffbasert kobling
+### Bruk treffbasert kobling
 
 Du kan angi hvilke data som skal synkroniseres for en tabell, ved å samsvare poster basert på kriterier. På siden **Oppsett av hoveddatabehandling** velger du handlingen **Treffbasert kobling** for å åpne siden **Velg koblingskriterier**. Du kan definere følgende kriterier for samsvaret:
 
@@ -87,7 +87,7 @@ Du kan angi hvilke data som skal synkroniseres for en tabell, ved å samsvare po
 * Feltene som brukes til å samsvare poster, og om samsvaret skiller mellom store og små bokstaver.
 * Prioriter rekkefølgen du søker etter poster i, ved å angi en samsvarsprioritet. [!INCLUDE [prod_short](includes/prod_short.md)] vil søke etter samsvar i stigende rekkefølge basert på samsvarsprioritet. En tom verdi er lik prioritet 0, som er den høyeste prioriteten. Felter som har prioriteten 0, vurderes først.
 
-## <a name="synchronize-for-the-first-time"></a>Synkroniser for første gang
+## Synkroniser for første gang
 
 Når du er klar, velger du handlingen **Start første synkronisering** på siden **Oppsett av hoveddatabehandling**. Velg synkroniseringstypen du vil bruke for hver tabell, på siden **Innledende synkronisering av hoveddata**.
 
@@ -106,9 +106,9 @@ Mens synkroniseringen kjører, viser kolonnen **Prosjektstatus** på siden **Inn
 
 Hvis du vil ha tilgang til detaljer, for eksempel antall poster som er satt inn eller endret, velger du verdien i kolonnen **Prosjektstatus** for å åpne siden **Vis – integreringssynkroniseringsjobber**. For poster som ble satt inn, kan du velge tallet i kolonnen **Satt inn** for å få tilgang til flere detaljer om de nye postene.
 
-## <a name="add-or-delete-tables-from-the-synchronization-tables-list"></a>Legg til eller slett tabeller i listen over synkroniseringstabeller
+## Legg til eller slett tabeller i listen over synkroniseringstabeller
 
-### <a name="add-a-table"></a>Legg til en tabell
+### Legg til en tabell
 
 > [!IMPORTANT]
 > Tabeller som inneholder transaksjonsdata, er tilgjengelige i oversikten, for eksempel tabeller som inneholder poster, bør du ikke velge dem. Synkronisering fungerer bare for tabeller som inneholder ikke-transaksjonsbaserte data.
@@ -117,7 +117,7 @@ Hvis du vil ha tilgang til detaljer, for eksempel antall poster som er satt inn 
 1. Velg **Opprett** og velg tabellen du vil legge til.
 1. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip_md](../archive/SetupAndAdministration/includes/tooltip-inline-tip_md.md)]
 
-### <a name="delete-a-table"></a>Slett en tabell
+### Slett en tabell
 
 > [!NOTE]
 > Hvis du sletter en post i kildeselskapet, slettes den ikke også i datterselskapet. Dette bidrar til å hindre uønsket tap av data. Datterselskapet kan selv bestemme om de vil slette tabellen.
@@ -125,10 +125,10 @@ Hvis du vil ha tilgang til detaljer, for eksempel antall poster som er satt inn 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Synkroniseringstabeller**, og velg deretter den relaterte koblingen.
 1. Velg handlingen **Slett**.
 
-## <a name="use-export-and-import-to-share-a-synchronization-setup"></a>Bruk eksport og import til å dele et synkroniseringsoppsett
+## Bruk eksport og import til å dele et synkroniseringsoppsett
 
 Hvis du definerer flere datterselskaper som bruker samme eller lignende synkroniseringsinnstillinger, er det en tidssparer. Definer ett datterselskap og eksporter deretter oppsettet til en XML-fil. Filen inneholder hele oppsettet, inkludert tabell- og felttildelinger og filterkriterier. Deretter kan du importere filen til neste datterselskap. Hvis du vil importere eller eksportere et oppsett, bruker du handlingene **Importer** eller **Eksporter** på siden **Oppsett av hoveddatabehandling**.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrer hoveddatasynkronisering](admin-sync-master-data.md)

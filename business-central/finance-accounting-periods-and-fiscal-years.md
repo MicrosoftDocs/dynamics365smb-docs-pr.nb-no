@@ -1,15 +1,16 @@
 ---
-title: Arbeide med regnskapsperioder og regnskapsår
+title: Arbeid med regnskapsperioder og regnskapsår
 description: Lær hvordan du arbeider med regnskapsperioder for å definere når bedriften rapporterer økonomiske resultater.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.form: 100
-ms.date: 08/25/2022
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.form: '100,'
+ms.date: 05/07/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="work-with-accounting-periods-and-fiscal-years"></a>Arbeid med regnskapsperioder og regnskapsår
+# Arbeid med regnskapsperioder og regnskapsår
 
 Regnskapsperioder, som også kalles rapporteringsperioder, er tidsperioder som en bedrift eller organisasjon rapporterer økonomiske resultater for, for eksempel ved å generere resultatregnskapet eller balansen. Vanligvis viser regnskapsperioder til selskapets regnskapsår, som kan inneholde flere regnskapsperioder, for eksempel måneder eller kvartal.
 
@@ -19,11 +20,11 @@ For mange selskaper kan ikke regnskapsåret justeres med kalenderåret, for ekse
 
 Du kan bruke regnskapsperioder i rapportering, for eksempel når du går gjennom bokførte poster på siden **Saldo/Budsjett** der rapporteringsintervallet kan angis. Ett av alternativene du kan angi er å rapportere etter regnskapsperiode. Du kan også lage en finansrapport som sammenligner resultater for ulike regnskapsperioder.
 
-## <a name="creating-a-new-fiscal-year"></a>Opprette et nytt regnskapsår
+## Opprette et nytt regnskapsår
 
 Du kan masseopprette regnskapsperioder ved å bruke kjørselen **Opprett regnskapsår** eller gjøre det manuelt.
 
-### <a name="how-to-create-accounting-periods-in-bulk"></a>Slik masseoppretter du regnskapsperioder
+### Slik masseoppretter du regnskapsperioder
 
 Bruk **Opprett regnskapsår**-kjørselen til å dele et regnskapsår inn i like lange perioder.  
 
@@ -34,7 +35,7 @@ Bruk **Opprett regnskapsår**-kjørselen til å dele et regnskapsår inn i like 
 5. I feltet **Periodelengde** angir du en varighet for hver periode. Varighetsidentifikatorer inkluderer 1M for én måned, 1K for ett kvartal og 1Å for ett år.  
 6. Velg **OK**.  
 
-### <a name="how-to-create-accounting-periods-manually"></a>Slik oppretter du regnskapsperioder manuelt
+### Slik oppretter du regnskapsperioder manuelt
 
 Hvis regnskapsperiodene i regnskapsåret har forskjellig varighet, som 4-4-5-kalenderen i detaljhandel, kan du opprette det manuelt.  
   
@@ -43,7 +44,7 @@ Hvis regnskapsperiodene i regnskapsåret har forskjellig varighet, som 4-4-5-kal
 3. Merk av for **Nytt regnskapsår** for å angi at dette er den første perioden i året. [!INCLUDE[prod_short](includes/prod_short.md)] bruker denne perioden for å finne ut hvilke perioder som skal lukkes ved årsslutt.
 4. Gjenta trinn 2 og 3 for hver gjenværende periode.  
 
-## <a name="closing-a-fiscal-year"></a>Lukke et regnskapsår
+## Lukke et regnskapsår
 
 Lukking av regnskapsåret er en av oppgavene for lukking av tablåene. Når du har lukket regnskapsåret, er det merket av for **Lukket** og **Dato låst** for alle periodene i året. Du kan ikke åpne et år på nytt eller fjerne avmerkingene.
 
@@ -53,11 +54,11 @@ Lukking av regnskapsåret er en av oppgavene for lukking av tablåene. Når du h
 1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport") og angi **Regnskapsperioder**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Lukk år**.  
 
-## <a name="posting-entries-to-a-closed-fiscal-year"></a>Bokføre poster til et lukket regnskapsår
+## Bokføre poster til et lukket regnskapsår
 
 Selv om et regnskapsår er avsluttet, kan du bokføre finansposter i det. Når du gjør dette, blir postene merket som bokført i et avsluttet regnskapsår, og det merkes av for feltet **Etterpost**. Som standard vises ikke avmerkingsboksen på siden, men du kan legge den til. Neste trinn er å lukke resultatregnskapskontoene og overføre årsresultatene til en konto i balansen. Gjenta disse trinnene hver gang du bokfører poster til et lukket regnskapsår.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Lukke tablåene](year-close-books.md)  
 [Avslutte år og perioder](year-close-years-periods.md)  

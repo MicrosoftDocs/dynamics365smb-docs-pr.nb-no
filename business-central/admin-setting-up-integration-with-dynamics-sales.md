@@ -3,18 +3,18 @@ title: Sette opp brukerkontoer for integrasjon med Microsoft Dataverse | Microso
 description: 'Lær hvordan du definerer brukerkontoene som appene bruker til å utveksle data, og som brukes til å få tilgang til og synkronisere data i appene.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: ivkoleti
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: null
 ms.date: 01/12/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# <a name="setting-up-user-accounts-for-integrating-with-microsoft-dataverse-via-data-sync"></a>Sette opp brukerkontoer for integrasjon med Microsoft Dataverse via datasynkronisering
+# Sette opp brukerkontoer for integrasjon med Microsoft Dataverse via datasynkronisering
 
 Denne artikkelen gir en oversikt over hvordan du definerer brukerkontoene som er nødvendige for å integrere [!INCLUDE[prod_short](includes/cds_long_md.md)] med [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="set-up-the-administrator-user-account"></a>Sette opp administratorbrukerkontoen
+## Sette opp administratorbrukerkontoen
 
 Når du skal definere tilkoblingen mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[prod_short](includes/cds_long_md.md)], må du logge deg på [!INCLUDE[prod_short](includes/prod_short.md)] med en brukerkonto som er tildelt lisensen [!INCLUDE[prod_short](includes/prod_short.md)] Essential eller [!INCLUDE[prod_short](includes/prod_short.md)] Premium. Vi bruker denne kontoen én gang til å installere og konfigurere noen nødvendige komponenter.
 
@@ -23,7 +23,7 @@ Når du skal definere tilkoblingen mellom [!INCLUDE[prod_short](includes/prod_sh
 >
 > Når tilkoblingsoppsettet er fullført, kan du fjerne denne [!INCLUDE[prod_short](includes/cds_long_md.md)]-brukeren. Integrasjonen fortsetter å bruke brukerkontoen som automatisk er opprettet spesielt for integrasjonen.
 
-## <a name="permissions-and-security-roles-for-user-accounts-in-"></a>Tillatelser og sikkerhetsroller for brukerkontoer i [!INCLUDE[prod_short](includes/cds_long_md.md)]
+## Tillatelser og sikkerhetsroller for brukerkontoer i [!INCLUDE[prod_short](includes/cds_long_md.md)]
 
 Baseintegrasjonsløsningen oppretter følgende rolle i [!INCLUDE [cds_long_md](includes/cds_long_md.md)] for integreringen:
 
@@ -37,10 +37,10 @@ Når du installerer den grunnleggende løsningen, konfigurerer den tillatelser f
 <!--
 The following tables list the minimum permissions for the user accounts in [!INCLUDE[prod_short](includes/cds_long_md.md)].
 
-### <a name="minimum-permissions-for-the-administrator"></a>Minimum Permissions for the Administrator
+### Minimum Permissions for the Administrator
 The following table displays the minimum permissions on each tab for each security role that is required for the administrator user.
 
-##### <a name="customization"></a>Customization
+##### Customization
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Model Driven App|Global|||Read|
@@ -52,17 +52,17 @@ The following table displays the minimum permissions on each tab for each securi
 |SDK Message Proessing Step Image|Global|Read|Read|Read|
 |System From|Global|||Write|
 
-##### <a name="custom-entities"></a>Custom Entities
+##### Custom Entities
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2020|
 |----|----|-----|----|----|
 |Business Central Account Statistics|Global|Read|Read|Read|
 |Business Central Connection|Global|Create, Read, Write, Delete|Create, Read, Write, Delete|Create, Read, Write, Delete|
 |Post Configuration|Global|||Write|
 
-### <a name="minimum-permissions-for-automatically-created--integration-application-user"></a>Minimum Permissions for automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user
+### Minimum Permissions for automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user
 The following table displays the minimum permissions on each tab for each security role that is required for the automatically created [!INCLUDE[prod_short](includes/prod_short.md)] Integration application user.
 
-##### <a name="core-records"></a>Core Records
+##### Core Records
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Account|Global|Create, Read, Write, Append, Append To, Assign|Create, Read, Write, Append, Append To, Assign|Create, Read, Write, Append, Append To, Assign|
@@ -74,7 +74,7 @@ The following table displays the minimum permissions on each tab for each securi
 |Post|Global|||Create, Read, Append To|
 |User Entity UI|User|Create, Read, Write|Create, Read, Write|Create, Read, Write|
 
-##### <a name="sales"></a>Sales
+##### Sales
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Invoice|Global|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|Create, Read, Write, Append, Append To|
@@ -85,12 +85,12 @@ The following table displays the minimum permissions on each tab for each securi
 |Property Option Set Item|Global|Read|Read|Read|
 |Quote|Global|Read|Read|Read|
 
-##### <a name="service"></a>Service
+##### Service
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Case|Global|Read|Read|Read|
 
-##### <a name="business-management"></a>Business Management
+##### Business Management
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Currency|Global|Create, Read, Write|Create, Read, Write|Create, Read, Write|
@@ -100,7 +100,7 @@ The following table displays the minimum permissions on each tab for each securi
 |User Settings|Global|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|Create, Read, Write, Delete, Append To|
 |Act on Behalf of Another User|Global|Yes|Yes|Yes|
 
-##### <a name="customization-1"></a>Customization
+##### Customization
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Field|Global||Read|Read|
@@ -110,16 +110,16 @@ The following table displays the minimum permissions on each tab for each securi
 |SDK Message Processing Step|Global|Read|Read|Read|
 |Web Resource|Global|Read|Read|Read|
 
-##### <a name="custom-entities-1"></a>Custom Entities
+##### Custom Entities
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
 |Dynamics 365 Business Central Connection|Global|Read|Read|Read|
 
-### <a name="product-availability-user"></a>Product Availability User
+### Product Availability User
 You can allow sales people to view inventory levels for the items they sell by granting them the permissions described in the following table.
 
-##### <a name="custom-entities-2"></a>Custom Entities
+##### Custom Entities
 |Security Role|Access Level|Dynamics NAV 2018 and Earlier|Business Central <br> October 2018|Business Central <br> April 2019|
 |----|----|-----|----|----|
 |Dynamics 365 Business Central Account Statistics|Global|Create, Read, Write, Append To|Create, Read, Write, Append To|Create, Read, Write, Append To|
@@ -127,7 +127,7 @@ You can allow sales people to view inventory levels for the items they sell by g
 
 -->
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Integrere med Microsoft Dataverse](admin-common-data-service.md)  
 [Integrere med Dynamics 365 Sales](admin-prepare-dynamics-365-for-sales-for-integration.md)  

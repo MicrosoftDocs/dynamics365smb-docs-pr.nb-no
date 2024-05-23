@@ -1,129 +1,133 @@
 ---
-title: Bærekraftskontoplan og finans
+title: Bærekraftskontoplan og -post
 description: 'Finn ut hvordan du administrerer bærekraftskontoplan, kategorier og underkategorier og detaljer om bærekraftsposter.'
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'Sustainability, ESG, emission, GHG, CSRD, CoA, Chart, Account, Ledger'
 ms.search.form: '6210, 6213, 6214, 6220'
-ms.date: 04/02/2024
+ms.date: 05/07/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="chart-of-sustainability-accounts-and-ledger"></a>Bærekraftskontoplan og finans
+# Bærekraftskontoplan og finans
 
-## <a name="chart-of-sustainability-accounts"></a>Bærekraftskontoplan
+## Bærekraftskontoplan
 
-**Bærekraftskontoplanen** danner den grunnleggende strukturerte listen som brukes til å registrere alle utslippsdata. Den fungerer som et rammeverk som kategoriserer og organiserer bærekraftskontoer basert på attributter, for eksempel område eller andre grupperinger. Hver konto er vanligvis tildelt en unik kode eller et nummer for enkel referanse og sporing, etter samme struktur som en tradisjonell **kontoplan**, men tilpasset spesielt for overvåking av bærekraftrelaterte data og beregninger i en organisasjon. 
- 
-Brukere kan legge til **kontokategorier** og **underkategorier** for å definere hvordan systemet oppfører seg, ved å velge dedikerte utslipp for sporing, utslippsfaktorer, formler og lignende konfigurasjoner.  
+Bærekraftskontoplanen danner den grunnleggende strukturerte listen som brukes til å registrere alle utslippsdata. Den fungerer som et rammeverk som kategoriserer og organiserer bærekraftskontoer basert på attributtene, for eksempel området eller andre grupperinger. Hver konto får vanligvis tilordnet en unik kode eller et unikt nummer for enkel referanse og sporing. Den har samme struktur som en tradisjonell kontoplan, men er spesialtilpasset for å overvåke bærekraftrelaterte data og måleverdier i en organisasjon.
 
->[!NOTE]
->Hvis du vil bli kjent med områdene, basert på standardene for klimagass, er det tre utslippsområder:  
->- **Utslipp i område 1**: inkluderer utslipp som slippes ut fra stasjonær og mobil forbrenning samt fra utilsiktede flyktige utslipp. 
->- **Utslipp i område 2**: inkluderer indirekte utslipp fra produksjonen av energi som kjøpes fra strømleverandører. 
->- **Utslipp i område 3**: inkluderer et bredt spekter av utslipp, fra kjøpte varer og tjenester og kapitalvarer, brensel- og energirelaterte aktiviteter, oppstrøms og nedstrøms transport, generert avfall, forretningsreiser og pendling for ansatte osv. 
+Brukere kan legge til kategorier og underkategorier for bærekraftskonto for å definere hvordan systemet skal fungere. De kan dermed velge dedikerte utslipp de vil spore, utslippsfaktorer, formler og lignende konfigurasjoner.
 
-Fra **bærekraftskontoplanen** kan du gjøre ting som:  
+> [!NOTE]
+> Det finnes tre utslippsområder basert på standardene for klimagass:
+>
+> - **Utslipp i område 1** omfatter utslipp fra stasjonær og mobil forbrenning og fra utilsiktede flyktige utslipp.
+> - **Utslipp i område 2** omfatter indirekte utslipp fra produksjonen av energi som kjøpes fra strømleverandører.
+> - **Utslipp i område 3** omfatter et bredt spekter av utslipp, fra kjøpte varer og tjenester og kapitalvarer, via drivstoff- og energirelaterte aktiviteter, oppstrøms og nedstrøms transport, generert avfall, forretningsreiser og til pendling for ansatte og så videre.
 
--   Vise rapporter som viser bærekraftsposter og saldoer. 
--   Åpne **bærekraftskontokortet** for å legge til eller endre innstillinger.  
--   Se kategorien og underkategorien for den aktuelle kontoen.   
--   Vis separate saldoer for hvert av utslippene for én konto. 
--   Legg til en eller flere **dimensjoner** i hver av kontoene, og angi dimensjonsfilter. 
-    
-Du kan legge til, endre eller slette **bærekraftskontoer**. Hvis du vil unngå avvik kan du imidlertid ikke slette en **bærekraftkonto** hvis det er en eller flere poster knyttet til denne kontoen.  
+Du kan gjøre følgende fra bærekraftskontoplanen:
 
-### <a name="add-or-change-accounts"></a>Legg til eller endre kontoer
+- Vise rapporter som viser bærekraftsposter og saldoer.
+- Åpne bærekraftskontokortet for å legge til eller endre innstillinger.
+- Vis kategorien og underkategorien for kontoen. 
+- Vis separate saldoer for hvert utslipp for én konto.
+- Legg til én eller flere dimensjoner i hver konto, og angi dimensjonsfiltre.
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 3.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bærekraftskontoplan** og velg deretter den relaterte koblingen. 
-2. På siden **Bærekraftskontoplan** kan du åpne **bærekraftskontoen** og legge til eller endre innstillinger. Hold markøren over et felt for å lese en kort beskrivelse. 
+Du kan legge til, endre eller slette bærekraftskontoer. For å unngå avvik kan du imidlertid ikke slette en bærekraftskonto hvis en eller flere poster er knyttet til den.
 
-Når det gjelder konti av typen **Total** må du fylle ut feltet **Sammentelling**. På konti av typen **Til-sum**, fylles dette feltet ut automatisk av funksjonen Innrykking. Når du har definert alle kontoene, velger du handlingen **Innrykk bærekraftskontoplan** for å gjøre det.  
+### Legg til eller endre kontoer
 
->[!IMPORTANT]
->Hvis du har angitt definisjoner i feltet **Sammentelling** for konti av typen **Til-sum** før du utfører innrykkingen, må du skrive dem inn på nytt fordi funksjonen overskriver verdiene i alle **Til-sum**-feltene.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 3.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bærekraftskontoplan** og velg deretter den relaterte koblingen.
+2. På siden **Bærekraftskontoplan** kan du åpne hver bærekraftskonto og deretter legge til eller endre innstillinger. Hold markøren over et felt for å lese en kort beskrivelse.
 
-### <a name="delete-accounts"></a>Slett kontoer
+Når det gjelder kontoer av typen **Total** må du angi feltet **Sammentelling**.
 
-Du kan slette en **bærekraftskonto**. Før du sletter den, må du imidlertid være sikker på at det er en eller flere poster knyttet til denne kontoen, siden Business Central vil hindre deg i å slette en **bærekraftskonto** i denne situasjonen.  
+Når det gjelder kontoer av typen **Til-sum**, angir innrykksfunksjonen **Sammentelling**-feltet automatisk. Etter at du har definert alle kontoene, velger du handlingen **Rykk inn bærekraftskontoplan** for å kjøre innrykksfunksjonen og angi **Sammentelling**-feltet.
 
-## <a name="account-categories"></a>Kontokategorier
+> [!IMPORTANT]
+> Innrykksfunksjonen skriver over verdien i alle felter for **Til-sum**-kontoer. Hvis du angav definisjoner i **Sammentelling**-feltet for **Til-sum**-kontoer før du kjørte innrykksfunksjonen, må du derfor angi dem på nytt etter at du har kjørt den.
 
-Brukere må legge til **bærekraftskontokategorien** i hver av **bærekraftskontoene** for å definere hvordan systemet oppfører seg, velge utslippsområde, dedikerte utslipp for sporing, formler og lignende konfigurasjoner.  
+### Slett kontoer
 
-Hvis du vil se gjennom **bærekraftskontokategorier**, følger du denne fremgangsmåten: 
+Du kan slette en bærekraftskonto. Du må imidlertid først kontrollere at ingen poster er knyttet til den. Business Central forhindrer deg fra å slette en bærekraftskonto hvis en eller flere poster er knyttet til den.
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 3.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bærekraftskontokategorier** og velg deretter den relaterte koblingen. 
-2.  På siden **Bærekraftskontokategorier** kan du redigere den eksisterende listen eller opprette en ny kategori. Hvis du vil opprette en ny kategori, velger du handlingen **Opprett**.  
-3.  Fyll ut feltene **Kode** og **Beskrivelse**.   
-4.  Definer feltet **Utslippsområde** og velg et av områdealternativene .  
-5.  Velg gassutslippene du vil spore. For øyeblikket kan du bruke et av alternativene: **CO2**, **CH4** eller **N2O**. Du kan velge hvilken som helst kombinasjon du vil spore, men du må ha minst ett utslipp for sporing.  
-6.  I feltet **Beregningsgrunnlag** kan du velge en hvilken som helst formel du vil bruke, i tilfelle du ikke vet den nøyaktige utslippsmengden. Her kan du angi beregningsgrunnlaget (formelen) for utslippsberegningen. Du kan velge et av følgende alternativer: **Brensel/elektrisitet**, **Avstand**, **Installasjon** eller **Egendefinert**. 
-7.  Hvis du velger **egendefinert** formel, kan du konfigurere egendefinert beskrivelse i feltet **Egendefinert verdi**.  
+## Kontokategorier
 
->[!NOTE]
->Hvis dette settet med tilbudte formler i **Beregningsgrunnlag**-feltet ikke er nok, kan du utvide dette feltet og legge til flere beregninger i systemet som skal brukes i **bærekraftkladdene**.  
+Brukere må legge til en kategori i hver bærekraftskonto for å definere hvordan systemet skal fungere. De kan velge utslippsområder, dedikerte utslipp de vil spore, formler og lignende konfigurasjoner.
 
-Hvis du bruker **beregningsgrunnlaget** (formler), er det en forklaring, hvordan systemet vil beregne basert på alternativet du har valgt (**EF** er **utslippsfaktoren** som du kan konfigurere på siden **Underkategori for bærekraftskonto**): 
+Hvis du vil se gjennom bærekraftskontokategorier, følger du denne fremgangsmåten:
 
-|  Utslippstype  |  Beregningsgrunnlag  |  Formel         | Merknad      |
-|------------|--------------|------------------------------|---------------------------------|
-| **OMRÅDE 1**  |
-| Stasjonær forbrenning | Drivstoff/elektrisitet | Utslipp = Drivstoff * EF | _dvs. drivstoff = mengde drivstoff brukt til kjeler, varmeovner, termiske oksidasjonsmidler ..._ |
-| Mobil forbrenning | Drivstoff/elektrisitet | Utslipp = Drivstoff * EF | _dvs. drivstoff = mengde drivstoff brukt for kjøretøy på vei eller utenfor vei, jernbane ..._ |
-|  |  |  Utslipp = Avstand * EF | _dvs. avstand = kjørelengde for kjøretøy på vei eller utenfor vei, jernbane ..._ |
-| Flyktige utslipp | Installasjon | Utslipp = Installasjonsmultiplikator * Egendefinert mengde / 100 * Tidsfaktor | _dvs. egendefinert mengde = monteringstap, årlig lekkasjerate ..._ |
-| **OMRÅDE 2**  |
-| Kraftleverandører | Drivstoff/elektrisitet | Utslipp = elektrisitet * EF | _dvs. drivstoff/elektrisitet = elektrisitetsmengde, dampmengde, varmeenhet ..._ |
-|  | Egendefinert | Utslipp = egendefinert mengde * EF | _dvs. egendefinert beløp = termisk enhet, tonntime..._ |
-| **OMRÅDE 3**  |
-| Kjøpte varer og tjenester, og kapitalvarer | Egendefinert | Utslipp = egendefinert mengde * EF | _dvs. egendefinert mengde = kostnad (finans) ..._ |
-| Oppstrøms transport og distribusjon | Avstand | Utslipp = Avstand * EF |  |
-|  | Avstand | Utslipp = Avstand * Multiplikator * EF | _Multiplikator = Tonn last_ |
-| Nedstrøms transport og distribusjon | Avstand | Utslipp = Avstand * EF |  |
-|  | Avstand | Utslipp = Avstand * Multiplikator * EF | _Multiplikator = Tonn last_ |
-| Avfall generert i drift og sluttbehandling av solgte produkter | Egendefinert | Utslipp = egendefinert mengde * EF | _dvs. egendefinert mengde = avfall_ |
-| Forretningsreiser og pendling for ansatte | Avstand | Utslipp = Avstand * EF | _dvs. avstand = kjørelengde av brukt firmabil, leiebil, tog, fly ..._ |
-|  | Egendefinert | Utslipp = egendefinert mengde * EF | _dvs. egendefinert beløp = hotellopphold ..._ |
-|  | Drivstoff/elektrisitet | Utslipp = Drivstoff * EF | _dvs. drivstoff = Mengde drivstoff brukt i firmabilen, leiebil ..._ |
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 3.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bærekraftskontokategorier** og velg deretter den relaterte koblingen.
+2. På siden **Bærekraftskontokategorier** kan du redigere den eksisterende listen eller opprette en ny kategori. Hvis du vil opprette en ny kategori, velger du handlingen **Ny**.
+3. Angi feltene **Kode** og **Beskrivelse**.
+4. Velg et av områdealternativene i feltet **Utslippsområde**.
+5. Velg gassutslippene du vil spore. For øyeblikket er følgende alternativer tilgjengelige: **CO2**, **CH4** og **N2O**. Du kan velge enhver kombinasjon du vil spore, men du må velge minst ett utslipp.
+6. Du kan velge beregningsgrunnlaget (formelen) du vil bruke i utslippsberegninger, i feltet **Beregningsgrunnlag**, hvis du ikke vet den nøyaktige utslippsmengden. Du kan velge et av følgende alternativer: **Drivstoff/elektrisitet**, **Avstand**, **Installasjon** eller **Egendefinert**.
 
-## <a name="account-subcategories"></a>Kontounderkategori
+    > [!NOTE]
+    > Hvis settet med tilgjengelige formler i feltet **Beregningsgrunnlag** ikke er nok, kan du utvide feltet og legge til flere beregninger i systemet du vil bruke i bærekraftkladdene.
 
-Brukerne må legge til **underkategorien for bærekraftskonto** i hver av **bærekraftskontoene** for å definere utslippsfaktorer som skal brukes i formlene, men den er basert på valget for utslippssporing i **Bærekraftskontokategori**.  
+7. Hvis du valgte **Egendefinert** i feltet **Beregningsgrunnlag**, kan du konfigurere en egendefinert beskrivelse i feltet **Egendefinert verdi**.
 
-Hvis du vil se gjennom **Underkategorier for bærekraftskonto**, følger du denne fremgangsmåten:  
+Hvis du angir feltet **Beregningsgrunnlag**, forklarer tabellen nedenfor hvordan systemet beregner utslipp basert på alternativet du valgte. (I denne tabellen representerer *EF* representerer **Utslippsfaktor**-verdien du kan konfigurere på siden **Underkategori for bærekraftskonto**.)
 
-1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 3.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Underkategorier for bærekraftskonto** og velg deretter den relaterte koblingen. 
-2.  På siden **Underkategorier for bærekraftskonto** kan du redigere den eksisterende listen eller opprette en ny kategori. Hvis du vil opprette en ny kategori, velger du handlingen **Opprett**.  
-3.  Fyll ut feltene **Kode** og **Beskrivelse**.   
-4.  Basert på gassutslippene du vil spore i **bærekraftskontokategorien** og koble denne underkategorien til, kan du også fylle ut en eller flere utslippsfaktorer: 
+| Utslippstype | Beregningsgrunnlag | Formel | Merknad |
+|---------------|------------------------|---------|---------|
+| **Område 1** | | | |
+| Stasjonær forbrenning | Drivstoff/elektrisitet | *Utslipp* = *Drivstoff* &times; *EF* | *Drivstoff* = mengde drivstoff som brukes til kjeler, varmeovner, termiske oksidanter og så videre |
+| Mobil forbrenning | Drivstoff/elektrisitet | *Utslipp* = *Drivstoff* &times; *EF* | *Drivstoff* = mengde drivstoff som brukes til kjøretøy på vei eller utenfor vei, jernbane og så videre |
+| | | *Utslipp* = *Avstand* &times; *EF* | *Avstand* = Kjørelengde for kjøretøy på vei eller utenfor vei, jernbane og så videre |
+| Flyktige utslipp | Installasjon | *Utslipp* = *Installasjonsmultiplikator* &times; *Egendefinert mengde* &divide; 100 &times; *Tidsfaktor* | *Egendefinert mengde* = monteringstap, årlig lekkasjerate og så videre |
+| **Område 2** | | | |
+| Kraftleverandører | Drivstoff/elektrisitet | *Utslipp* = *Elektrisitet* &times; *EF* | *Drivstoff/elektrisitet* = Elektrisitetsmengde, dampmengde, varmeenhet og så videre |
+| | Egendefinert | *Utslipp* = *Egendefinert mengde* &times; *EF* | *Egendefinert mengde* = termisk enhet, tonntime og så videre |
+| **Område 3** | | | |
+| Kjøpte varer og tjenester, og kapitalvarer | Egendefinert | *Utslipp* = *Egendefinert mengde* &times; *EF* | *Egendefinert mengde* = kostnad (finans) og så videre |
+| Oppstrøms transport og distribusjon | Avstand | *Utslipp* = *Avstand* &times; *EF* | |
+| | Avstand | *Utslipp* = *Avstand* &times; *Multiplikator* &times; *EF* | *Multiplikator* = Tonn last |
+| Nedstrøms transport og distribusjon | Avstand | *Utslipp* = *Avstand* &times; *EF* | |
+| | Avstand | *Utslipp* = *Avstand* &times; *Multiplikator* &times; *EF* | *Multiplikator* = Tonn last |
+| Avfall generert i drift og sluttbehandling av solgte produkter | Egendefinert | *Utslipp* = *Egendefinert mengde* &times; *EF* | *Egendefinert mengde* = avfall |
+| Forretningsreiser og pendling for ansatte | Avstand | *Utslipp* = *Avstand* &times; *EF* | *Avstand* = kjørelengde av brukt firmabil, leiebil, tog, fly og så videre |
+| | Egendefinert | *Utslipp* = *Egendefinert mengde* &times; *EF* | *Egendefinert beløp* = hotellopphold |
+| | Drivstoff/elektrisitet | *Utslipp* = *Drivstoff* &times; *EF* | *Drivstoff* = Mengde drivstoff brukt i firmabilen, leiebil og så videre |
 
-   - **Utslippsfaktor CO2** – Angir utslippsfaktoren for CO2-utslipp.  
-   - **Utslippsfaktor CH4** – Angir utslippsfaktoren for CH4-utslipp. 
-   - **Utslippsfaktor N2O** – Angir utslippsfaktoren for N2O-utslipp.  
+## Kontounderkategori
 
-5.  Hvis denne underkategorien er relatert til fornybar energi, velger du feltet **Fornybar energi**.   
+Brukere må legge til en underkategori i hver bærekraftskonto. Denne underkategorien definerer utslippsfaktorene som brukes i formlene, basert på valget for utslippssporing i kategorien i bærekraftskontoen.
 
->[!NOTE]
->Feltene **Importer data** og **Importer fra** er ment for potensiell integrering med eksterne systemer som brukes til å samle inn utslippsfaktorer, men i **lanseringsbølge 1 i 2024** kan de ikke brukes som en funksjon som standard.  
+Hvis du vil se gjennom underkategorier i bærekraftskonto, følger du denne fremgangsmåten:
 
-## <a name="sustainability-ledger-entries"></a>Bærekraftsposter
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 3.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Underkategorier for bærekraftskonto** og velg deretter den relaterte koblingen. 
+2. På siden **Underkategorier for bærekraftskonto** kan du redigere den eksisterende listen eller opprette en ny kategori. Hvis du vil opprette en ny kategori, velger du handlingen **Ny**.
+3. Angi feltene **Kode** og **Beskrivelse**.
+4. Basert på gassutslippene du vil spore i kategorien i bærekraftskontoen og koble denne underkategorien til, kan du også angi en eller flere utslippsfaktorer: 
 
-**Bærekraftspost** lagrer historikken til alle bokførte bærekraftstransaksjoner, og organiserer alle utslippsdata i henhold til **bærekraftskontoplanen**. Når en bruker bokfører **bærekraftskladden**, blir alle viktige data registrert der. Alle aktive rapporter genereres basert på **bærekraftspostene**.   
+    - **Utslippsfaktor CO2** – Utslippsfaktoren for utslipp av karbondioksid (CO<sub>2</sub>).
+    - **Utslippsfaktor CH4** – Utslippsfaktoren for metanutslipp (CH<sub>4</sub>).
+    - **Utslippsfaktor N2O** – Utslippsfaktoren for utslipp av lystgass (N<sub>2</sub>O).
 
-Brukeren kan åpne denne posten for én bestemt konto ved hjelp av handlingen **Poster** fra siden **Bærekraftskontoplan**, eller for å åpne alle postene, velge ikonet ![Lyspære som åpner funksjonen Fortell meg 3.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skrive inn **Bærekraftsposter** og velge den relaterte koblingen. Hold markøren over et felt for å lese en kort beskrivelse.  
+5. Hvis underkategorien er relatert til fornybar energi, velger du feltet **Fornybar energi**.
 
->[!IMPORTANT]
->Når du har bokført dataene dine i bærekraftsposten, kan du ikke slette dem. Hvis du har gjort en feil, kan du bokføre den tilbakeførte transaksjonen med de samme detaljene, men ved å bruke negativt fortegn for beløp.  
+> [!NOTE]
+> Feltene **Importer data** og **Importer fra** er ment for potensiell integrering med eksterne systemer som brukes til å samle inn utslippsfaktorer. Disse feltene kan imidlertid som standard ikke brukes som en funksjon i **lanseringsbølge 1 i 2024**.
 
-## <a name="see-also"></a>Se også
-[Finans](finance.md)    
-[Oversikt over bærekraftsbehandling](finance-manage-sustainability.md)
-[Bærekraftsoppsett](finance-sustainability-setup.md)
-[Slik registrerer du utslipp](finance-sustainability-journal.md)
-[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+## Bærekraftsposter
 
+Bærekraftspost lagrer historikken for alle bokførte bærekraftstransaksjoner og organiserer alle utslippsdata i henhold til bærekraftskontoplanen. Når en bruker bokfører bærekraftskladden, registreres alle viktige data der. Alle aktive rapporter genereres basert på bærekraftspostene.
+
+Hvis du vil åpne denne posten for en bestemt konto, bruker du handlingen **Poster** på siden **Bærekraftskontoplan**. Hvis du vil åpne alle postene, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg 3.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skrive inn **Bærekraftsposter** og velge den relaterte koblingen. Hold musepekeren over et felt for å lese en kort beskrivelse.
+
+> [!IMPORTANT]
+> Etter at du har bokført dataene i bærekraftsposten, kan du ikke slette den. Hvis du har gjort en feil, kan du bokføre en tilbakeføringstransaksjon som har de samme detaljene, men bruker negativt fortegn for mengden.
+
+## Se også
+
+[Finans](finance.md)  
+[Oversikt over bærekraftsadministrasjon](finance-manage-sustainability.md)  
+[Bærekraftsoppsett](finance-sustainability-setup.md)  
+[Slik registrerer du utslipp](finance-sustainability-journal.md)  
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

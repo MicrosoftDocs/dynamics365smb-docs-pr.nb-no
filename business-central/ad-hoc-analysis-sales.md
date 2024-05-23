@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analysis-of-sales-data"></a>Ad hoc-analyse av salgsdata
+# Ad hoc-analyse av salgsdata
 
 Denne artikkelen forklarer hvordan du bruker funksjonen **Dataanlyse** til å analysere salgsdata direkte fra listesider og spørringer. Du trenger ikke å kjøre en rapport eller bytte til et annet program, for eksempel Excel. Funksjonen gir en interaktiv og allsidig måte å beregne, summere og undersøke data på. I stedet for å kjøre rapporter ved hjelp av alternativer og filtre, kan du legge til flere faner som representerer forskjellige oppgaver eller visninger på dataene. Noen eksempler er Mine kunder eller Salgsstatistikk, eller andre visninger du kan tenke deg. Hvis du vil lære mer om hvordan du bruker funksjonen **Dataanalyse**, kan du gå til [Analyser liste- og spørringsdata med analysemodus](analysis-mode.md).
 
@@ -25,7 +25,7 @@ Bruk følgende listesider til ad hoc-analyse av salgsprosesser:
 - Bokførte salgsfakturaer
 - Ordrereturer
 
-## <a name="sales-ad-hoc-analysis-scenarios"></a>Scenarioer for ad hoc-analyse for salg
+## Scenarioer for ad hoc-analyse for salg
 
 Bruk **Dataanalyse**-funksjonen for rask faktasjekking og ad hoc-analyse:
 
@@ -41,7 +41,7 @@ Avsnittene nedenfor inneholder eksempler på salgsscenarioer i [!INCLUDE [prod_s
 | [Salg (Kundesalg etter volum)](#example-sales-customer-sales-by-volume) | Få en oversikt over kundene som kjøper mest, eller kundene som skylder mest. | [Kundeposter](https://businesscentral.dynamics.com/?page=25) | **Kundenavn**, **Dokumentnr.**, **Beløp** og **Restbeløp**. |
 | [Finans (kunde)](#example-finance-accounts-receivables) | Se hva kundene dine skylder deg, for eksempel inndelt i tidsintervaller for når beløp forfaller. | [Kundeposter](https://businesscentral.dynamics.com/?page=25) | **Kundenavn**, **Forfallsdato** og **Restbeløp**. |
 
-## <a name="example-sales-expected-sales-volume"></a>Eksempel: Salg (forventet salgsvolum)
+## Eksempel: Salg (forventet salgsvolum)
 
 Hvis du vil analysere forventet salgsvolum og salgsbeløp for ordrer som ikke er levert, for hver kunde etter år eller måned, gjør du følgende:
 
@@ -54,7 +54,7 @@ Hvis du vil analysere forventet salgsvolum og salgsbeløp for ordrer som ikke er
 1. Hvis du vil utføre analysen for et gitt år eller kvartal, bruker du et filter på menyen **Flere filtre**. Menyen er til høyre på siden, rett under **Kolonner**-menyen.
 1. Endre navnet på analysefanen til **Forventet salgsvolum** eller noe som beskriver denne analysen for deg.
 
-## <a name="example-sales-customer-sales-by-volume"></a>Eksempel: Salg (Kundesalg etter volum)
+## Eksempel: Salg (Kundesalg etter volum)
 
 Hvis du vil produsere en rapport over kundene som kjøper mest, eller som skylder mest, følger du denne fremgangsmåten:
 
@@ -69,7 +69,7 @@ Bildet nedenfor viser resultatet av denne fremgangsmåten.
 
 :::image type="content" source="media/data-analysis-customer-ledger-entries.png" alt-text="Eksempel på hvordan du utfører dataanalyse på siden Kundeposter." lightbox="media/data-analysis-customer-ledger-entries.png":::
 
-## <a name="example-finance-accounts-receivables"></a>Eksempel: Finans (kunde)
+## Eksempel: Finans (kunde)
 
 Hvis du vil se hva kundene dine skylder deg, kanskje inndelt i tidsintervaller for når beløp forfaller, følger du denne fremgangsmåten:
 
@@ -81,7 +81,7 @@ Hvis du vil se hva kundene dine skylder deg, kanskje inndelt i tidsintervaller f
 1. Hvis du vil utføre analysen for et gitt år eller kvartal, bruker du et filter på menyen **Flere filtre**. Menyen er til høyre på siden, rett under **Kolonner**-menyen.
 1. Endre navnet på analysefanen til **Aldersfordelte kontoer etter måned** eller noe som beskriver denne analysen for deg.
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-sales"></a>Datagrunnlag for ad hoc-analyse av salg
+## Datagrunnlag for ad hoc-analyse av salg
 
 Når du har angitt informasjon på en ordre og legger til alle ordrelinjene, kan du bokføre ordren. Bokføring oppretter en levering og en faktura. [!INCLUDE [prod_short](includes/prod_short.md)] oppdaterer kundens konto, finanspost og vareposter:
 
@@ -90,7 +90,7 @@ Når du har angitt informasjon på en ordre og legger til alle ordrelinjene, kan
 
 Hvis du vil vite mer om bokføring av salg, kan du gå til [Bokføring av salg](ui-post-sales.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bokføre salg](ui-post-sales.md)  
 [Analyser liste- og spørringsdata med analysemodus](analysis-mode.md)  

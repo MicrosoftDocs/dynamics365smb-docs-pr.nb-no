@@ -3,7 +3,7 @@ title: Definere prosesser for servicehåndtering
 description: Lær hvordan du konfigurerer prosesser som sørger for at kundene dine er tilfreds med servicen.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.search.keywords: 'service, number sequences, setup, warnings, fee, contracts, warranties'
 ms.date: 02/27/2024
@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="configure-service-management-processes"></a>Konfigurere prosesser for servicehåndtering
+# Konfigurere prosesser for servicehåndtering
 
 Her er noen eksempler på innstillinger du kan bruke i servicehåndteringsprosessene:  
   
@@ -21,12 +21,12 @@ Her er noen eksempler på innstillinger du kan bruke i servicehåndteringsproses
 * Innstillinger for kontrakter, for eksempel maksimalt antall dager du kan bruke for kontraktserviceordrer, om det skal brukes årsakskoder når en kontrakt avbrytes, standardtekster for beskrivelser og kontraktverdier.  
 * Nummerserier for servicerelaterte dokumenter og varer.  
 
-## <a name="to-enter-general-and-mandatory-settings"></a>Slik angir du generelle og obligatoriske innstillinger
+## Slik angir du generelle og obligatoriske innstillinger
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Serviceoppsett**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## <a name="set-up-service-invoice-posting-policies-for-users"></a>Definer bokføringspolicyer for servicefakturaer for brukere
+## Definer bokføringspolicyer for servicefakturaer for brukere
 
 Selskaper har ofte unike prosesser for fakturaer og leveringer. Prosesser kan for eksempel variere fra én person som bokfører alt i en serviceordre, til flere ansatte, som hver for seg arbeider med sine egne sider.
 
@@ -55,7 +55,7 @@ Tabellen nedenfor beskriver innvirkningene på de ulike dokumentene.
 > [!NOTE]
 > Når du bokfører servicefakturaer og kreditnotaer, har du ingen bokføringsalternativer. Dokumentene bokfører alltid fysiske og økonomiske transaksjoner sammen. Du kan ikke delvis bokføre servicefakturaer og kreditnotaer.
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Konfigurer feilrapportering](service-how-setup-fault-reporting.md)  
 [Konfigurer ressurstildeling](service-how-setup-resource-allocation.md)  

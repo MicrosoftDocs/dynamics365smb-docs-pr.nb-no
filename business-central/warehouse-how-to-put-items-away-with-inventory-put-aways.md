@@ -3,14 +3,14 @@ title: Plassere varer med lagerplasseringer
 description: Finn ut hvordan du bruker lagerplasseringsdokumenter til å registrere og bokføre plasserings- og mottaksopplysninger.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.date: 09/19/2023
 ms.custom: bap-template
 ms.search.forms: '7375,'
 ---
-# <a name="put-items-away-with-inventory-put-aways"></a>Plassere varer med lagerplasseringer
+# Plassere varer med lagerplasseringer
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] mottar du varer og plasserer dem ved å bruke en av fire metoder, som beskrevet i tabellen nedenfor.
 
@@ -36,29 +36,29 @@ Du kan opprette lagerplassering på tre måter:
 * Opprett lagerplasseringer for flere kildedokumenter samtidig, ved hjelp av en kjørsel.  
 * Opprett plasseringen i to trinn, ved først å frigi kildedokumentet for å gjøre varene tilgjengelig for plassering. Du kan opprette lagerplasseringen basert på kildedokumentet ved å bruke siden **Lagerplassering**.  
 
-## <a name="to-create-an-inventory-put-away-from-the-source-document"></a>Slik oppretter du en lagerplassering fra kildedokumentet
+## Slik oppretter du en lagerplassering fra kildedokumentet
 
 1. I kildedokumentet, som kan være en bestilling, ordreretur eller inngående overføringsordre, velger du handlingen **Opprett lagerplassering/-plukking**.  
 2. Merk av for **Opprett lagerplassering**.
 3. Velg **OK**. En ny lagerplassering er opprettet.
 
-## <a name="to-create-multiple-inventory-put-aways-with-a-batch-job"></a>Slik oppretter du flere lagerplasseringer med en kjørsel:
+## Slik oppretter du flere lagerplasseringer med en kjørsel:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Opprett plassering/plukk/flytting for lager**, og velg deretter den relaterte koblingen. 
 2. På hurtigfanen **Lagerforespørsel** bruker du filtrene **Kildedokumentet** og **Kildenr.** for å filtrere etter bestemte dokumenttyper eller dokumentnummerintervaller. Du kan for eksempel bare opprette plasseringer for bestillinger.
 3. Merk av for **Opprett lagerplassering** på hurtigfanen **Alternativer**.
 4. Velg **OK**-knappen. De angitte lagerplasseringene blir opprettet.
 
-## <a name="to-create-the-put-away-in-two-steps"></a>Slik oppretter du plasseringen i to trinn
+## Slik oppretter du plasseringen i to trinn
 
-### <a name="to-request-an-inventory-put-away-by-releasing-the-source-document"></a>Be om en lagerplassering ved å frigi kildedokumentet
+### Be om en lagerplassering ved å frigi kildedokumentet
 
 Når du frigir bestillinger, ordrereturer og inngående overføringsordrer, blir varene på ordrene tilgjengelige for plassering. Trinnene nedenfor beskriver hvordan du gjør varene i en bestilling klar til å plasseres.  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bestillinger**, og velg deretter den relaterte koblingen.
 2. Velg bestillingen som skal frigis, og velg deretter **Frigi**-handlingen.  
 
-### <a name="to-create-an-inventory-put-away-based-on-the-source-document"></a>Slik oppretter du en lagerplassering basert på kildedokumentet
+### Slik oppretter du en lagerplassering basert på kildedokumentet
 
 En lageransatt kan opprette en ny lagerplassering basert på det frigitte kildedokumentet.
 
@@ -69,7 +69,7 @@ En lageransatt kan opprette en ny lagerplassering basert på det frigitte kilded
 5. Du kan også velge handlingen **Hent kildedokument** for å velge dokumentet fra en liste over inngående kildedokumenter som er klare for plassering på lokasjonen.  
 6. Velg **OK**-knappen for å fylle ut plasseringslinjene i henhold til det valgte kildedokumentet.  
 
-## <a name="to-record-the-inventory-put-away"></a>Slik registrerer du lagerplasseringen
+## Slik registrerer du lagerplasseringen
 
 1. Åpne et tidligere opprettet plasseringsdokument på siden **Lagerplasseringer**.  
 2. I **Hyllekode**-feltet på plasseringslinjene foreslås hyllene der varene må plasseres, basert på varenes standardhylle. Du kan endre hyllen ved behov.  
@@ -83,7 +83,7 @@ En lageransatt kan opprette en ny lagerplassering basert på det frigitte kilded
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

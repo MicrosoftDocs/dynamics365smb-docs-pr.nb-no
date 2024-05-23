@@ -3,7 +3,7 @@ title: Opprett en kundeordre og selg produkter
 description: Beskriver hvordan du oppretter en ordre for å registrere avtalen med en kunde om å selge eller handle med produkter i samsvar med bestemte betingelser.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: soalex
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'trade, partial deliveries, customer sales order, shipping advice, partial shipments,'
 ms.search.form: '42, 48, 9305'
@@ -11,7 +11,7 @@ ms.date: 02/06/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="sell-products-with-a-customer-sales-order"></a>Selg produkter med en kundeordre
+# Selg produkter med en kundeordre
 
 Denne artikkelen gir veiledning om når du skal bruke en kundeordre i tillegg til en faktura. Hvis salgsprosessen krever at du bare sende deler av et ordre, kanskje fordi det fullstendige antallet ikke er tilgjengelig samtidig, må du behandle salget ved å lage en ordre.
 
@@ -23,7 +23,7 @@ I forretningsmiljøer der kunden betaler umiddelbart, for eksempel via PayPal el
 
 Du kan opprette direkte betalte ordrer for kunder som ikke er registrert ved å definere et kontant kundekort, som du velger på ordren. Finn ut mer under [Definer kontantkunder](finance-how-to-set-up-cash-customers.md).
 
-## <a name="create-a-sales-order"></a>Opprett en ordre
+## Opprett en ordre
 
 > [!NOTE]  
 > Følgende fremgangsmåte forutsetter at kunden allerede er konfigurert. Hvis du vil ha instruksjoner om hvordan du gjør dette, kan du se [Registrer nye kunder](sales-how-register-new-customers.md).
@@ -87,17 +87,17 @@ Dialogboksen **Bokfør og send bekreftelse** viser kundens foretrukne metode for
 
 Beslektet element og kundeposter opprettes nå i systemet, og ordren skrives ut som et PDF-dokument. Når ordren er fullstendig bokført, fjernes fra listen over ordrer og erstattes med nye dokumenter i listen over bokførte salgsfakturaer og oversikten over følgesedler.  
 
-## <a name="external-document-number"></a>Eksternt dokumentnummer
+## Eksternt dokumentnummer
 
 [!INCLUDE [ext-doc-no-sales](includes/ext-doc-no-sales.md)]
 
-## <a name="working-with-amount-fields"></a>Arbeide med beløpsfelter
+## Arbeide med beløpsfelter
 
 Verdiene i felter som viser beløp, kan være positive eller negative avhengig av om verdien representerer en kredit eller en debet. Denne videoen viser hvordan du arbeider med felter som viser beløp.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1h96P]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Fakturer salg](sales-how-invoice-sales.md)  
 [Bokføre salg](ui-post-sales.md)  

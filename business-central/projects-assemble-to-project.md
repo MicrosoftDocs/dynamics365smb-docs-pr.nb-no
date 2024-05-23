@@ -3,7 +3,7 @@ title: Monter til prosjekt
 description: Lær hvordan du bruker monter-til-ordre for prosjekt.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: andreipa
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'project management, task'
 ms.search.form: '88, 275, 276, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1020'
@@ -11,7 +11,7 @@ ms.date: 08/03/2022
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="assemble-to-project"></a>Monter til prosjekt
+# Monter til prosjekt
 
 Monter til prosjekt hjelper deg med å forbedre lagerstyringen ved å montere til ordre bare når det er nødvendig.
 
@@ -19,7 +19,7 @@ Når du velger en monter-til-ordre-vare på en prosjektplanleggingslinje, oppret
 
 Monteringsordrer er reservert for prosjekter, og [!INCLUDE [prod_short](includes/prod_short.md)] synkroniserer varesporing mellom prosjektplanleggingslinjer og monteringsordren.
 
-## <a name="integrate-with-warehouse-management"></a>Integrer med lagerstyring
+## Integrer med lagerstyring
 
 Monter til prosjekt integreres med lagerstyringsfunksjoner for å gjøre montering og levering enklere. Prosessen bidrar også til å sikre at flyten fra prosjektmontering til levering kjører problemfritt i interne lagerprosesser. Hvis du vil lære mer om interne lagerflyter for prosjekter, kan du gå til [Flyter for produksjon, montering og prosjekter](design-details-internal-warehouse-flows.md#flows-to-and-from-assembly-in-a-basic-warehouse-configuration).
 
@@ -31,7 +31,7 @@ Tabellen nedenfor beskriver lagerkonfigurasjonene som monter-til-ordre støtter
 |**Beholdningsplukk**|Bruk beholdningsplukk til å bokføre fullstendig eller delvis forbruk. Produksjon og forbruk av komponenter bokføres automatisk for monteringsordren.          |
 |**Lagerplukk**|Opprett og registrer lagerplukk for komponenter, og bruk deretter en prosjektkladd til å bokføre forbruk. [!INCLUDE [prod_short](includes/prod_short.md)] verifiserer om de forbrukte monteringskomponentene ble plukket. Produksjon og forbruk av komponenter bokføres automatisk for monteringsordren.         |
 
-## <a name="known-limitations"></a>Kjente begrensninger
+## Kjente begrensninger
 
 Denne delen beskriver kjente begrensninger for monter til prosjekt.
 
@@ -42,7 +42,7 @@ Denne delen beskriver kjente begrensninger for monter til prosjekt.
 * Du kan ikke angi et negativt antall i feltet **Antall som skal monteres til ordre**.
 * Du kan ikke angre en montering.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Prosjektstyring](projects-manage-projects.md)  
 [Monteringsstyring](assembly-assemble-items.md)  

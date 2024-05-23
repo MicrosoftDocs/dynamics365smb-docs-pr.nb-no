@@ -3,13 +3,13 @@ title: Angre en bokføring ved å bokføre en tilbakeføringspost
 description: 'Hvis du finner en feil i en bokført finanskladd, kan du bruke handlingen Tilbakefør transaksjon til å angre bokføringen med et riktig revisjonsspor.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
-ms.date: 03/28/2023
+ms.date: 05/07/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Tilbakeføre kladdebokføringer og angre mottak/leveringer
+# Tilbakefør kladdebokføringer og angre mottak/leveringer
 
 Tilbakeførte kladdebokføringer er nyttige for eksempel for å korrigere feil og for å tømme en gammel avsetningspost før du skriver inn en ny. En tilbakeføringspost er det samme som originalposen, men med motsatt rekkefølge i **Beløp**-feltet. Tilbakeføringsposten må ha samme dokumentnummer og bokføringsdato som originalposten. Når du har tilbakeført en post, må du lage den riktige posten.
 
@@ -27,8 +27,6 @@ Du kan tilbakeføre poster fra alle **Poster**-sider. Fremgangsmåten nedenfor e
 
 > [!NOTE]
 > Posten må stamme fra en kladdebokføring.
->
-> Du kan heller ikke tilbakeføre poster som er bokført med informasjon fra et prosjekt, eller som har realisert agio og disagio i den samme transaksjonen.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Finansposter**, og velg deretter den relaterte koblingen.
 2. Velg posten du vil tilbakeføre, og velg deretter handlingen **Tilbakefør transaksjon**.
@@ -84,10 +82,21 @@ Trinnene er de samme for bokførte retursedler.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
+## Tilbakefør en kunde- og leverandørpost med en realisert resultatpost
+
+Du kan bruke handlingen **Tilbakefør transaksjon** til å tilbakeføre betalinger som ble utlignet mot poster som stammet fra utenlandsk valuta, og ble justert ved hjelp av kjørselen Valutakursjustering. Funksjonen fungerer for både kjøp og salg.
+
+Følgende er et enkelt scenario som viser hvordan den fungerer:
+
+1. Bokfør en salgsfaktura for en kunde som bruker utenlandsk valuta.
+2. Juster valutakursen for denne valutaen.
+3. Bokfør en betaling som utlignes mot fakturaen.
+4. Opphev utligning og tilbakefør betalingstransaksjonen, for eksempel fra **Kundeposter**-siden.
+
 ## Se også
 
 [Angre monteringsbokføring](assembly-how-to-undo-assembly-posting.md)  
-[Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md)  
+[Bokfør transaksjoner direkte i finans](finance-how-post-transactions-directly.md)  
 [Arbeid med finanskladder](ui-work-general-journals.md)  
 [Finans](finance.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
