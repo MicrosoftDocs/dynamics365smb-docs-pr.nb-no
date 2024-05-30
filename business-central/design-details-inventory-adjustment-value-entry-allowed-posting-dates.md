@@ -26,7 +26,7 @@ Denne feilmeldingen angir at brukeren ikke kan bokføre poster for den aktuelle 
 
 Brukeren i dette tilfellet har et tillatt bokføringstidsrom fra 11. september til 30. september, og kan dermed ikke bokføre justeringsverdiposten med bokføringsdato 10. september.  
 
-### <a name="overview-of-involved-posting-date-setup"></a>Oversikt over involvert oppsett for bokføringsdato
+### <a name="overview-of-the-posting-date-setup"></a>Oversikt over involvert oppsett for bokføringsdato
 
 #### <a name="inventory-periods"></a>Lagerperioder
 

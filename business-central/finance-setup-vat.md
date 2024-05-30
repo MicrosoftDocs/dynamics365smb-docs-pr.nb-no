@@ -142,7 +142,7 @@ Slik begrenser du bokføringer for en bestemt bruker:
 3. Angi mva-datoen det kan bokføres fra, i feltet **Tillat bokføring fra**. Bokføring av et dokument eller en kladd med en mva-dato før denne datoen, er ikke tillatt.
 4. Angi mva-datoen det kan bokføres til, i feltet **Tillat bokføring til**. Bokføring av et dokument eller en kladd med en mva-dato etter denne datoen, er ikke tillatt.
 
-## <a name="set-up-vat-registration-numbers-for-your-country-or-region"></a>Definere organisasjonsnumre for landet eller området ditt
+## <a name="set-up-vat-registration-numbers-for-your-countryregion"></a>Definere organisasjonsnumre for landet eller området ditt
 
 Du kan definere formater for organisasjonsnumre som brukes i land og områder som du handler med, for å sikre at det angis gyldige organisasjonsnumre. [!INCLUDE[prod_short](includes/prod_short.md)] viser en feilmelding hvis noen gjør en feil eller bruker et format som er feil for landet eller området.
 
@@ -232,7 +232,7 @@ De følgende delene beskriver hvordan du tilordner du mva-bokføringsgrupper til
     * På kortet **Ressurs** utvider du hurtigfanen **Fakturering**.  
 3. Velg mva-bokføringsgruppen for vare.  
 
-## <a name="set-up-clauses-to-explain-vat-exemption-or-non-standard-vat-rates"></a>Definere setninger for å forklare mva-fritak eller ikke-standard mva-satser
+## <a name="set-up-clauses-to-explain-vat-exemption-or-nonstandard-vat-rates"></a>Definere setninger for å forklare mva-fritak eller ikke-standard mva-satser
 
 Du kan definere en mva-setningsdel til å beskrive informasjon om hvilken type mva som brukes. Informasjonen kan være nødvendig ifølge bestemmelser fra myndighetene. Når du har definert en mva-setning, og knyttet den til et mva-bokføringsoppsett, vises mva-setningen på utskrevne salgsdokumenter som bruker gruppen for mva-bokføringsoppsett.
 
@@ -293,7 +293,7 @@ Følg disse trinnene for å opprette koder for import-mva:
 5. I feltet **Mva-beregningstype** velger du **Full mva**.  
 6. I feltet **Inngående mva-konto** angir du hvilken finanskonto som skal brukes til å bokføre import-mva. Alle andre kontoer er valgfrie.  
 
-## <a name="use-reverse-charge-vat-for-trade-between-eu-countries-or-regions"></a>Bruk snudd avregning for handel mellom EU-land eller -områder
+## <a name="use-reverse-charge-vat-for-trade-between-eu-countriesregions"></a>Bruk snudd avregning for handel mellom EU-land eller -områder
 
 Enkelte selskaper må bruke snudd avregning ved handel med andre selskaper. Denne regelen gjelder for eksempel for kjøp fra EU-land og -regioner og salg til EU-land og -regioner.  
 
@@ -303,7 +303,7 @@ Enkelte selskaper må bruke snudd avregning ved handel med andre selskaper. Denn
 > [!TIP]  
 > Du kan kontrollere at et selskap er registrert som mva-pliktig i et annet EU-land/-område, ved hjelp av tjenesten for validering av EU-organisasjonsnummer. Tjenesten er tilgjengelig gratis i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Bekrefte organisasjonsnumre](finance-how-validate-vat-registration-number.md).
 
-### <a name="sales-to-eu-countries-or-regions"></a>Salg til EU-land eller -regioner
+### <a name="sales-to-eu-countriesregions"></a>Salg til EU-land eller -regioner
 
 Mva beregnes ikke på salg til mva-pliktige selskaper i andre EU-land/-områder. Du må rapportere verdien av slike salg til EU-land/-regioner separat i mva-oppgaven.  
 
