@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="classifying-data-sensitivity-fields"></a>Felter for å klassifisere datasensitivitet
+# Felter for å klassifisere datasensitivitet
 
 Hvis du vil klassifisere feltene som inneholder sensitive opplysninger eller personopplysninger, kan en Microsoft-partner angi ```DataClassification```-egenskapen for felt. Dette krever tilgang til databasetabellene via utviklingsmiljø eller ved å kjøre et Windows PowerShell-skript. Hvis du vil ha mer informasjon, kan du se [Klassifisere data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data).  
 
@@ -29,7 +29,7 @@ Tabellen nedenfor beskriver nivåene for datasensitivitet som du kan tilordne.
 |Konfidensielt | Forretningsdata du bruker for regnskap eller andre forretningsformål og ikke vil vise til andre enheter. Dette kan for eksempel inneholde finansposter.|
 |Normal | Generelle data som ikke tilhører andre kategorier.|
 
-## <a name="how-do-i-classify-my-data"></a>Hvordan klassifiserer jeg dataene?
+## Hvordan klassifiserer jeg dataene?
 
 Klassifisering av sensitiviteten til av ett og ett felt for et stort antall felt ville tatt lang tid. For å bidra til å øke hastigheten på prosessen kan vi tilby verktøy du kan bruke til masseklassifisering av sensitiviteten til felt og deretter finjustere klassifiseringer for spesifikke felt. Du finner verktøy på siden Dataklassifiseringsforslag, som er tilgjengelig i rollesenteret for på Administrasjon av brukere, brukergrupper og tillatelser. Du må være en systemansvarlig for å bruke forslaget.
  
@@ -45,7 +45,7 @@ Siden Dataklassifiseringsforslag lar deg for eksempel gjøre følgende:
 > [!Tip]  
 > Vi har definert eksempler på sensitivitetsklassifiseringer for tabellene og feltene i demonstrasjonsselskapet Cronus. Du kan bruke disse klassifiseringer som inspirasjon når du klassifisere dine egne tabeller og felt.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 <!-- [Classifying Data](/dynamics365/business-central/dev-itpro/developer/devenv-classifying-data) -->
 [!INCLUDE[footer-include](includes/footer-banner.md)]

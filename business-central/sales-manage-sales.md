@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sales"></a>Salg
+# Salg
 
 Du kan opprette en salgsfaktura eller ordre for å registrere avtalen med en kunde om å selge bestemte produkter på bestemte leverings- og betalingsbetingelser.
 
@@ -34,7 +34,7 @@ For alle salgsprosesser kan du innlemme en godkjenningsarbeidsflyt. En godkjenni
 
 Delen nedenfor beskriver en sekvens av oppgaver og har koblinger til artiklene som beskriver dem.
 
-## <a name="get-started-with-sales-capabilities"></a>Kom i gang med salgsfunksjoner
+## Kom i gang med salgsfunksjoner
 
 Før du selger må du angi hvordan du vil håndtere selskapets salgsprosesser.
 
@@ -43,7 +43,7 @@ Før du selger må du angi hvordan du vil håndtere selskapets salgsprosesser.
 | Opprett et kundekort for hver kunde du selger til.|[Registrer nye kunder](sales-how-register-new-customers.md) |
 | Definer hvordan du utfører salg, for eksempel priser og rabatter, kundepris og rabattgrupper, selgere, leveringsmåter og agenter. | [Konfigurer salg](sales-setup-sales.md) |
 
-## <a name="sales-analytics"></a>Salgsanalyse
+## Salgsanalyse
 
 Denne delen beskriver analyseverktøyene du kan bruke til å få innsikt i salgsdata.
 
@@ -53,7 +53,7 @@ Denne delen beskriver analyseverktøyene du kan bruke til å få innsikt i salgs
 | Utfør ad hoc-analyse av salgsdata direkte på listesider og spørringer. | [Opprett salgsanalyserapporter](bi-how-create-analysis-views-reports.md) |
 | Utforsk innebygde salgsrapporter. | [Innebygde salgsrapporter](sales-reports.md) |
 
-## <a name="quote-to-order-to-sales-invoice"></a>Gi tilbud for å bestille til salgsfaktura
+## Gi tilbud for å bestille til salgsfaktura
 
 Tabellen nedenfor beskriver hvordan du bruker enkle salgsprosesser.
 
@@ -74,7 +74,7 @@ Hvis du trenger mer komplekse salgsprosesser, inneholder tabellen nedenfor artik
 |Fakturer en kunde én gang for flere leveringer ved å kombinere følgesedler på én faktura.|[Kombiner leveringer på én faktura](sales-how-to-combine-shipments-on-a-single-invoice.md)|
 |Selg monteringsvarer som ikke er tilgjengelige for øyeblikket, ved å opprette koblet monteringsordre. Monteringsordren kan levere hele eller deler av antallet i ordren.|[Selg varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md)|
 
-## <a name="pick-and-ship"></a>Plukk og lever
+## Plukk og lever
 
 Tabellen nedenfor beskriver hvordan du plukker varer til en ordre og sender dem til kunden.
 
@@ -86,7 +86,7 @@ Tabellen nedenfor beskriver hvordan du plukker varer til en ordre og sender dem 
 |Informer kundene om ordreleveringsdatoer ved å beregne første mulige forsendelsesdato eller tilgjengelig for ordre-datoen.|[Beregn ordrebekreftelsesdatoer](sales-how-to-calculate-order-promising-dates.md)|
 | Lær hvordan du sporer en pakke fra en bokført følgeseddel. | [Spor pakker](sales-how-track-packages.md) |
 
-## <a name="canceled-orders-refunds-and-returns"></a>Kansellerte bestillinger, refusjoner og returer
+## Kansellerte bestillinger, refusjoner og returer
 
 Tabellen nedenfor beskriver hvordan du håndterer kansellerte bestillinger, refusjoner og returer av varer.
 
@@ -95,7 +95,7 @@ Tabellen nedenfor beskriver hvordan du håndterer kansellerte bestillinger, refu
 | Utfør en handling på en ubetalt bokført salgsfaktura for å opprette en kreditnota automatisk og enten annullere salgsfakturaen eller opprette den på nytt, slik at du kan foreta korrigeringer. |[Korrigere eller annullere ubetalte salgsfakturaer](sales-how-correct-cancel-sales-invoice.md) |
 | Opprett en salgskreditnota for å tilbakestille en bestemt bokført salgsfaktura for å vise produktene kunden returnerer, og refusjonsbeløpet. |[Behandle ordrereturer eller annulleringer](sales-how-process-sales-returns-cancellations.md) |
 
-## <a name="other-processes-in-sales"></a>Andre salgsprosesser
+## Andre salgsprosesser
 
 Tabellen nedenfor beskriver hvordan du håndterer andre salgsprosesser.
 
@@ -103,7 +103,7 @@ Tabellen nedenfor beskriver hvordan du håndterer andre salgsprosesser.
 | --- | --- |
 |Løs forvirring når det finnes to eller flere poster for samme kunde.|[Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Sette opp salg](sales-setup-sales.md)  
 [Registrer nye kunder](sales-how-register-new-customers.md)  
