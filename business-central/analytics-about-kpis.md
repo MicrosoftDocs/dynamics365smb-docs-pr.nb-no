@@ -10,11 +10,11 @@ ms.author: kepontop
 ms.service: dynamics-365-business-central
 ---
 
-# Bruk ytelsesindikatorer for å nå forretningsmålene dine
+# <a name="using-key-performance-indicators-kpis-to-meet-your-business-goals"></a>Bruk ytelsesindikatorer for å nå forretningsmålene dine
 
 En ytelsesindikator er en målbar verdi som viser hvor effektivt du når målene dine. Tenk på ytelsesindikatorer som selskapets målstyring, en måte å måle om du når målene dine eller ikke.
 
-## Hvorfor ytelsesindikatorer er viktige
+## <a name="why-kpis-matter"></a>Hvorfor ytelsesindikatorer er viktige
 
 Identifisering og sporing av ytelsesindikatorer forteller deg om virksomheten er på rett vei, eller om du bør endre kurs for å unngå å miste verdifull tid og penger. Når ytelsesindikatorer brukes riktig, er de kraftige verktøy som hjelper deg med følgende:
 
@@ -25,7 +25,7 @@ Identifisering og sporing av ytelsesindikatorer forteller deg om virksomheten er
 - Motiver teammedlemmer.
 - Ta bedre beslutninger, raskere.
 
-## Kom i gang med å identifisere ytelsesindikatorene
+## <a name="get-started-identifying-your-kpis"></a>Kom i gang med å identifisere ytelsesindikatorene
 
 Så hvordan begynner du å identifisere ytelsesindikatorene som er viktige for virksomheten? Start med å klargjøre de strategiske målene – samlet eller etter avdeling.
 
@@ -35,7 +35,7 @@ Deretter identifiserer du ytelsesindikatormålene du arbeider mot, og hvordan de
 
 Snakk med teamet ditt og oppmuntre til åpen dialog om ytelsesindikatorene og målene deres. Er de for aggressive? For enkle? Mål bør være utfordrende, men hvis de er for urealistiske eller er helt avhengige av måleverdier som teamet ditt ikke kontrollerer, er det være lurt å se på dem igjen. Du kan også utforske aktivitetene og taktikkene selskapet bruker til å nå disse målene. Til slutt bør du ta deg tid til å evaluere hvor du er i dag – dette vil være ytelsesindikatorutgangspunktet ditt.
 
-## Bli kjent med de ulike typene ytelsesindikatorer
+## <a name="get-to-know-the-different-types-of-kpis"></a>Bli kjent med de ulike typene ytelsesindikatorer
 
 Det blir enklere å identifisere hvilke ytelsesindikatorer du bør spore, når du har en bedre forståelse av typene ytelsesindikatorer som oftest brukes til å måle fremdrift.
 
@@ -47,7 +47,7 @@ Det blir enklere å identifisere hvilke ytelsesindikatorer du bør spore, når d
 
 For hver ytelsesindikator du velger å spore, tildeler du en eier og blir enig om sporingsfrekvens. Uansett hvilke ytelsesindikatorer du bestemmer deg for å spore, er bruk av en ytelsesindikatorplattform eller et verktøy nøkkelen til å samarbeide med teamet om ytelsesindikatordefinisjoner. Ved å definere hver ytelsesindikatorene samlet og deretter registrere kontekstuelle data og samle dem i én enkelt visning, muliggjør du handlinger i sanntid.
 
-## Ytelsesindikatorrapportering
+## <a name="kpi-reporting"></a>Ytelsesindikatorrapportering
 
 Ytelsesindikatorrapporter tar informasjonen som presenteres på instrumentbordet for ytelsesindikatorer til et nytt nivå. De går dypere inn i dataene for å hente ut mer detaljert innsikt og analyse.
 
@@ -68,7 +68,7 @@ Andre hensyn du må ta når du oppretter ytelsesindikatorrapportene, omfatter f�
 - Presentere bare de relevante ytelsesindikatorene slik at du ikke overbelaster rapporten med ytelsesindikatorer som ikke tildeles tilbake til rapporteringen – målene.
 - Sørg for at rapporteringen er tydelig, lett å forstå og handlingsbar for den tiltenkte målgruppen.
 
-## Verktøy for implementering av ytelsesindikatorer
+## <a name="tools-for-implementing-kpis"></a>Verktøy for implementering av ytelsesindikatorer
 
 Tabellen nedenfor inneholder artikler om hvordan du bruker verktøy for forretningsanalyse og rapportering med [!INCLUDE[prod_short](includes/prod_short.md)]-data til å implementere ytelsesindikatorer.
 
@@ -79,7 +79,7 @@ Tabellen nedenfor inneholder artikler om hvordan du bruker verktøy for forretni
 | [Analyser årsregnskaper med Microsoft Excel](finance-analyze-excel.md) |
 | Integrer eksterne forretningsanalyseverktøy med [!INCLUDE[prod_short](includes/prod_short.md)].| [Eksterne forretningsanalyseverktøy](reports-external-analysis.md) |
 
-## Anbefalte fremgangsmåter for ytelsesindikatorer
+## <a name="kpi-best-practices"></a>Anbefalte fremgangsmåter for ytelsesindikatorer
 
 For å hjelpe deg med å utnytte kraften i ytelsesindikatorer har vi samlet noen tips for å hjelpe deg i gang.
 
@@ -96,7 +96,7 @@ Overvåking av ytelsesindikatorer:
 - Bestem en frekvens for overvåking og handling basert på ytelsesindikatorer. Overvåkes instrumentbord for ytelsesindikatorer daglig eller ukentlig? Kommer handlinger først etter rapportering, eller er interessenter eller teammedlemmer bemyndiget til å justere taktikk underveis?
 - Sørg for at du har enkel og komplett databeskyttelse for datainstrumentbord, med kontroller for deling utenfor organisasjonen.
 
-## Vanlige ytelsesindikatorfeil
+## <a name="common-kpi-mistakes"></a>Vanlige ytelsesindikatorfeil
 
 Unngå disse vanlige ytelsesindikatorfeilene:
 
@@ -106,7 +106,7 @@ Unngå disse vanlige ytelsesindikatorfeilene:
 - Sporing av ytelsesindikatorer uten eiere. Ansvarlighet er viktig, ikke bare for resultatene, men også for prosessen. Hver ytelsesindikator bør ha en eier som er ansvarlig for overvåking, rapportering, analyse og handling.
 - Unnlater å gjøre noe med ytelsesindikatorene. Enten du når målene dine eller ligger etter, er ytelsesindikatorer verktøy som hjelper deg med å ta bedre beslutninger. Så ikke spor bare for sporingens skyld – ta grep.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversikt over analyse](reports-bi-reporting.md)  
 [Bruk finansrapportering til å produsere årsregnskap og ytelsesindikatorer](bi.md)  

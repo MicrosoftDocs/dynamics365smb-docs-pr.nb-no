@@ -9,7 +9,7 @@ ms.date: 06/24/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Gjennomgang: Mottak og plassering i avansert lageroppsett
+# <a name="walkthrough-receiving-and-putting-away-in-advanced-warehouse-configurations"></a>Gjennomgang: Mottak og plassering i avansert lageroppsett
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
@@ -26,7 +26,7 @@ Finn ut mer under [Inngående lagerflyt](design-details-inbound-warehouse-flow.m
 
 Følgende gjennomgangen demonstrerer metoden D i forrige tabell.  
 
-## Denne gjennomgangen
+## <a name="about-this-walkthrough"></a>Denne gjennomgangen
 
 I avanserte lageroppsett hvor lokasjonen er definert for å kreve mottaksbehandling, i tillegg til plasseringsbehandling, bruker du siden **Lagermottak** til å registrere og bokføre mottaket av varer på flere inngående ordrer. Når lagermottaket bokføres, opprettes det ett eller flere lagerplasseringsdokumenter for å instruere lageransatte til å ta de mottatte varene og plassere dem på angitte steder i henhold til hylleoppsett eller i andre hyller. Varenes bestemte plasseringer registreres når plasseringen registreres. Det inngående kildedokument kan være en bestilling, en ordreretur, en inngående overføringsordre eller monterings- eller produksjonsordre med avgang som er klar til plassering. Hvis mottaket er opprettet fra en inngående ordre, kan det hentes ett inngående kildedokument for mottaket. Ved hjelp av denne metoden kan du registrere mange varer som kommer fra ulike inngående ordrer med én bekreftelse.  
 
@@ -37,7 +37,7 @@ Denne gjennomgangen viser følgende oppgaver:
 -   Opprett og bokfør et lagermottaksdokument for flere bestillingslinjer fra bestemte leverandører.  
 -   Registrere en lagerplassering for de mottatte varene.  
 
-## Roller
+## <a name="roles"></a>Roller
 
 Denne gjennomgangen viser oppgaver som utføres av følgende brukerroller:  
 
@@ -46,7 +46,7 @@ Denne gjennomgangen viser oppgaver som utføres av følgende brukerroller:
 -   Mottakspersonale  
 -   Lagermedarbeider  
 
-## Forutsetninger
+## <a name="prerequisites"></a>Forutsetninger
 
 For å fullføre denne gjennomgangen må du gjøre følgende:  
 
@@ -58,15 +58,15 @@ For å fullføre denne gjennomgangen må du gjøre følgende:
 3.  Skriv inn KR.SAND i **Lokasjonskode**-feltet.  
 4.  Velg **Standard**- feltet.  
 
-## Hovedscenario
+## <a name="story"></a>Hovedscenario
 
 Ellen, lagerlederen hos CRONUS, oppretter to bestillinger for tilbehørsvarer fra leverandørene 10000 og 20000 som skal leveres til lageret KR.SAND. Når leveringene ankommer lageret, bruker Sammy, som er ansvarlig for mottak av varer fra leverandør 10000 og 20000, et filter til å opprette mottakslinjer for bestillinger som kommer fra de to leverandørene. Sammy bokfører varene som mottatt på lageret i ett lagermottak og gjør varene tilgjengelig for salg eller andre behov. Lagermedarbeideren Joakim tar elementene fra mottakshyllen og plasserer dem. John plasserer alle enhetene i standardhyllene deres, bortsett fra 40 av 100 mottatte hengsler som plasseres i monteringsavdelingen ved å dele plasseringslinjen. Når John registrerer plasseringen, oppdateres hylleinnholdet og varene gjøres tilgjengelig for plukking fra lageret.  
 
-## Se gjennom lokasjonsoppsettet KR.SAND
+## <a name="reviewing-the-white-location-setup"></a>Se gjennom lokasjonsoppsettet KR.SAND
 
 Oppsettet av siden **Lokasjonskort** definerer selskapets lagerflyter.  
 
-### Slik går du gjennom lokasjonsoppsettet  
+### <a name="to-review-the-location-setup"></a>Slik går du gjennom lokasjonsoppsettet
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2.  Åpne lokasjonskortet KR.SANd.  
@@ -78,11 +78,11 @@ Oppsettet av siden **Lokasjonskort** definerer selskapets lagerflyter.
 
 Dette betyr at når du oppretter et lagermottak, kopieres denne hyllekoden til hodet av lagermottaksdokumentet som standard og til linjene for de resulterende lagerplasseringene.  
 
-## Opprette bestillingene
+## <a name="creating-the-purchase-orders"></a>Opprette bestillingene
 
 Bestillinger er den vanligste typen inngående kildedokument.  
 
-### Slik oppretter du bestillinger  
+### <a name="to-create-the-purchase-orders"></a>Slik oppretter du bestillinger
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bestillinger**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
@@ -111,11 +111,11 @@ Bestillinger er den vanligste typen inngående kildedokument.
 
     Leveringer av varer fra leverandørene 10000 og 20000 har kommet til lageret KR.SAND, og Sammy begynner å behandle kjøpsmottakene.  
 
-## Motta varene
+## <a name="receiving-the-items"></a>Motta varene
 
 På siden **Lagermottak** kan du håndtere flere inngående ordrer for kildedokumenter, for eksempel en bestilling.  
 
-### Slik mottar du varer  
+### <a name="to-receive-the-items"></a>Slik mottar du varer
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagermottak** og velg den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
 3.  Skriv inn KR.SAND i **Lokasjonskode**-feltet.  
@@ -130,12 +130,12 @@ På siden **Lagermottak** kan du håndtere flere inngående ordrer for kildedoku
 
     Det opprettes positive vareposter som gjenspeiler de bokførte kjøpsmottakene for tilbehør fra leverandør 10000 og 20000, og elementene er klare til å bli plassert i lageret fra mottakshyllen.  
 
-## Plassere varene
+## <a name="putting-the-items-away"></a>Plassere varene
 
 På siden **Plassering** kan du håndtere plasseringer for et bestemt lagermottaksdokumentet som dekker flere kildedokumenter. Som for alle lageraktivitetsdokumenter er hvert element på lagerplasseringen er representert ved en Hent-linje og en Plasser-linje. I den følgende fremgangsmåten er hyllekoden på Hent-linjene den standard mottakshyllen på lokasjonen KR.SAND, W-08-0001.  
 
 
-### Slik plasserer du varene  
+### <a name="to-put-the-items-away"></a>Slik plasserer du varene
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Plasseringer** og velg den relaterte koblingen.  
 2.  Velg det eneste lagerplasseringsdokumentet i listen, og deretter **Rediger**-handlingen.  
 
@@ -156,7 +156,7 @@ På siden **Plassering** kan du håndtere plasseringer for et bestemt lagermotta
 
     Mottatt tilbehør er nå plassert i varens standardhyller og 40 hengsler plasseres i monteringsavdelingen. De mottatte varene er nå tilgjengelig for plukking til interne behov, for eksempel monteringsordrer, eller til eksterne behov, for eksempel følgesedler.  
 
-## Se også  
+## <a name="see-also"></a>Se også
  [Plassere varer med lagerplasseringer](warehouse-how-to-put-items-away-with-warehouse-put-aways.md)   
  [Flytte varer i avanserte lageroppsett](warehouse-how-to-move-items-in-advanced-warehousing.md)   
  [Designdetaljer: Inngående lagerflyt](design-details-inbound-warehouse-flow.md)   

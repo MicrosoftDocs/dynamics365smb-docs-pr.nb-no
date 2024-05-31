@@ -11,13 +11,13 @@ ms.custom: bap-template
 ms.search.keywords: 'License, access, Microsoft 365, collaborate, collaboration, Teams, Microsoft Teams'
 ms.search.form: '9061,'
 ---
-# Konfigurer Business Central-tilgang i Teams med Microsoft 365-lisenser
+# <a name="set-up-business-central-access-in-teams-with-microsoft-365-licenses"></a>Konfigurer Business Central-tilgang i Teams med Microsoft 365-lisenser
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Administratorer må fullføre flere aktiviteter før brukerne kan få tilgang til [!INCLUDE [prod_short](includes/prod_short.md)] med Microsoft 365-lisensen. Trinnene nedenfor representerer minimumsoppsettet som kreves for å starte. Hvis du vil vite mer om tilgang med Microsoft 365-lisenser, går du til [Business Central-tilgang med Microsoft 365-lisenser](admin-access-with-m365-license.md).
 
-## Retningslinjer
+## <a name="guidelines"></a>Retningslinjer
 
 Konfigurering av tilgang med Microsoft 365-lisenser omfatter følgende oppgaver:
 
@@ -38,7 +38,7 @@ Konfigurering av tilgang med Microsoft 365-lisenser omfatter følgende oppgaver:
 > 2. Gå til delen **Gjør mer med Business Central** på siden **Assistert oppsett**, og velg **Tilgang med Microsoft 365-lisenser**.
 > 3. Følg instruksjonene.  
 
-## Konfigurer tillatelser
+## <a name="configure-permissions"></a>Konfigurer tillatelser
 
 [!INCLUDE [prod_short](includes/prod_short.md)] er sikret etter utforming og minimerer risikoen ved å gi ingen tillatelser til Microsoft 365-brukere som standard. Administratorer må konfigurere objekttillatelser som bestemmer hvilke tabeller, sider og rapporter som kan åpnes i Teams med bare en Microsoft 365-lisens. Disse tillatelsene er starttillatelsene som tildeles når en bruker logger seg på for første gang med Microsoft 365-lisensen. 
 
@@ -61,7 +61,7 @@ Når du arbeider med flere miljøer, må lisenskonfigurasjonen brukes for hvert 
 
 Finn ut mer under [Tildel tillatelser til brukere og grupper](ui-define-granular-permissions.md) og [Opprett tillatelsessett](/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-composing)
 
-## Aktiver tilgang med Microsoft 365-lisenser
+## <a name="enable-access-with-microsoft-365-licenses"></a>Aktiver tilgang med Microsoft 365-lisenser
 
 Tilgang med Microsoft 365-lisenser er som standard deaktivert. Tilgang må aktiveres for hvert miljø uavhengig, noe som gir administratorer mulighet til å styre og tillate utrulling på tvers av organisasjonen. Du aktiverer tilgang ved hjelp av [!INCLUDE [prod_short](includes/prod_short.md)]-administrasjonssenteret: 
 
@@ -71,13 +71,13 @@ Tilgang med Microsoft 365-lisenser er som standard deaktivert. Tilgang må aktiv
 4. I ruten **Microsoft 365-lisenser** slår du på bryteren. 
 5. Velg **Lagre** når du er ferdig og godta bekreftelsen. Endringene trer i kraft umiddelbart.
 
-## Velg hvem som får tilgang ved hjelp av sikkerhetsgruppe
+## <a name="choose-who-gets-access-by-using-security-group"></a>Velg hvem som får tilgang ved hjelp av sikkerhetsgruppe
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 I Business Central-administrasjonssenteret kan et miljø tildeles til en eller flere sikkerhetsgrupper for å kontrollere tilgang. Du kan tildele en Microsoft Entra-gruppe til miljøet. Ved å tildele en Microsoft Entra-gruppe til et miljø får bare direkte og indirekte medlemmer i gruppen tilgang til miljøet. Indirekte medlemmer er brukere i en annen gruppe, som selv er medlem av gruppen som er tildelt til miljøet. Selv om alle lisensierte brukere i Microsoft Entra ID blir lagt til i miljøet når det synkroniseres med Microsoft 365, kan bare gruppemedlemmer logge seg på. Hvis du vil ha mer informasjon, kan du gå til [Administrer tilgang med Microsoft Entra-grupper](/dynamics365/business-central/dev-itpro/administration/tenant-admin-center-manage-access#manage-access-using-azure-active-directory-groups) i hjelpen for utviklere og IT-eksperter.
 
-## Distribuer Business Central-appen for Teams
+## <a name="deploy-the-business-central-app-for-teams"></a>Distribuer Business Central-appen for Teams
 
 Hvis [!INCLUDE [prod_short](includes/prod_short.md)]-lisensinnehavere skal dele data i Teams og for Microsoft 365-lisensinnehavere å få tilgang til disse dataene, må [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Teams være installert. Selv om brukerne kan installere appen selv, anbefales det at administratorer bruker sentralisert distribusjon. Med sentralisert distribusjon kan du rulle ut appen til en større målgruppe på tvers av organisasjonen og minimere individuell brukerinnsats. 
 
@@ -89,7 +89,7 @@ Hvis du vil finne ut mer om hvordan du kan distribuere [!INCLUDE [prod_short](in
 > [!TIP]
 > Ser du etter en raskere måte å komme i gang på når du prøver denne funksjonen? Testbrukere kan installere appen på [aka.ms/BCgetTeamsApp](https://aka.ms/BCgetTeamsApp).
 
-## Test oppsettet
+## <a name="test-your-setup"></a>Test oppsettet
 
 Hvis du vil kontrollere at oppsettet er klart for produksjon, kan du bruke følgende fremgangsmåte til å påse at alt fungerer som det skal.
 
@@ -113,7 +113,7 @@ Hvis du vil kontrollere at oppsettet er klart for produksjon, kan du bruke følg
 > [!TIP]
 > Noe gikk galt. Sjekk [Feilsøk tilgang med Microsoft 365-lisenser](admin-access-with-m365-license-troubleshooting.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversikt over Business Central-tilgang med Microsoft 365-lisenser](admin-access-with-m365-license.md#minimum-requirements)  
 [Feilsøk tilgang med Microsoft 365-lisenser](admin-access-with-m365-license-troubleshooting.md)  

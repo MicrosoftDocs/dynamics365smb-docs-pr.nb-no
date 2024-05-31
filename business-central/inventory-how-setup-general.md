@@ -10,11 +10,11 @@ ms.date: 07/28/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Definere generell informasjon om lagerbeholdning
+# <a name="set-up-general-inventory-information"></a>Definere generell informasjon om lagerbeholdning
 
 Du angir det generelle lageroppsettet på siden **Lageroppsett**.
 
-## Slik definerer du generell informasjon om lagerbeholdning
+## <a name="to-set-up-general-inventory-information"></a>Slik definerer du generell informasjon om lagerbeholdning
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lageroppsett** og velg den relaterte koblingen.
 2. På siden **Lageroppsett** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ Hvis du vil at inngående lagerhåndteringstid skal tas med i beregningen av ord
 >
 > Alternativt kan du justere kostnader manuelt ved jevne mellomrom med kjørselen Juster kostverdi – vareposter. Du kan også deaktivere automatisk kostbokføring eller sette feltet **Automatisk kostjustering** til *Aldri*. I begge tilfeller vises et varsel der du kan starte en veiledning for assistert installasjon for å planlegge oppgaver for jobbkøen. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Definere lager](inventory-setup-inventory.md)  
 [Designdetaljer: Lagermetoder](design-details-costing-methods.md)  

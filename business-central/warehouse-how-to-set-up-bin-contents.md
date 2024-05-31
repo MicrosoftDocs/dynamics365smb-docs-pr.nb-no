@@ -9,11 +9,11 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Opprette hylleinnhold
+# <a name="create-bin-contents"></a>Opprette hylleinnhold
 
 Etter at du har definert hyllene, kan du definere hylleinnholdet. Du kan med andre ord definere hvilke varer du vil lagre i en gitt hylle, og angi regler som skal styre fylling av hyllen med en bestemt vare. Du kan gjøre dette manuelt på siden **Hylleinnhold** eller automatisk med **Opprett hylleinnholdforslag**-siden.
 
-## Slik oppretter du hylleinnhold manuelt:
+## <a name="to-create-bin-content-manually"></a>Slik oppretter du hylleinnhold manuelt:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lokasjoner**, og velg deretter den relaterte koblingen.  
 2. Velg lokasjonen der du vil opprette hylleinnhold, og velg deretter **Hyller**-handlingen.  
@@ -30,7 +30,7 @@ Hvis du velger feltet **Fast**, gir du varen fast plass i hyllen, som betyr at [
 > [!NOTE]  
 > Du kan sette opp flere hylleinnhold samtidig på siden **Hylleinnholdopprett. - forslag**.  
 
-## Slik oppretter du hylleinnhold med et forslag:
+## <a name="to-create-bin-content-with-a-worksheet"></a>Slik oppretter du hylleinnhold med et forslag:
 
 Når du har opprettet hyllene, kan du opprette det hylleinnholdet du ønsker for hver hylle i opprettingsforslaget for hylleinnhold.
 
@@ -48,7 +48,7 @@ Når du har opprettet hyllene, kan du opprette det hylleinnholdet du ønsker for
 
 I dette forslaget kan du arbeide med flere hylleinnholdslinjer for flere hyller og dermed få god oversikt over hva du legger i ulike hyller i en gitt sone, passasje eller reol.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Rask start for forretningsintelligens
+# <a name="business-intelligence-quick-start"></a>Rask start for forretningsintelligens
 
 Det å kunne samle og analysere stadig økende mengder data på en praktisk måte er en viktig del av forretninger i dag. [!INCLUDE[prod_short](includes/prod_short.md)] tilbyr mange verktøy for forretningsanalyse – både innebygd og integrert med andre tjenester – for å hjelpe selskapet i beslutningsprosessen.
 
@@ -28,7 +28,7 @@ Ulike roller i organisasjoner har ofte foretrukne måter å konsumere og analyse
 
 Hvis du vil finne ut mer om analyse, kan du gå til Oversikt-oversikt i [Analytics](reports-bi-reporting.md).
 
-## Analyse etter funksjonsområde
+## <a name="analytics-by-functional-area"></a>Analyse etter funksjonsområde
 
 I tabellen nedenfor finner du koblinger til artikler som beskriver hvordan du arbeider med analyse i bestemte funksjonsområder [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -39,7 +39,7 @@ I tabellen nedenfor finner du koblinger til artikler som beskriver hvordan du ar
 | Kjøp | [Kjøpsanalyse](purchasing-analytics-overview.md) |
 | Aktivaadministrasjon | [Analyse av aktiva](fa-analytics-overview.md) |
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversikt over analyse](reports-bi-reporting.md)  
 [Hurtigstartveiledning for Business Central](quick-start-business-central.md)  

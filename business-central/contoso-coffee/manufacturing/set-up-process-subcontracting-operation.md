@@ -8,17 +8,17 @@ author: brentholtorf
 ms.author: bholtorf
 ---
 
-# Definer og behandle en underleveranseoperasjon
+# <a name="set-up-and-process-a-subcontracting-operation"></a>Definer og behandle en underleveranseoperasjon
 
 I denne artikkelen tar vi deg gjennom trinnene for å bruke Contoso Coffee-demodataene i underleveranse.
 
-## Scenario
+## <a name="scenario"></a>Scenario
 
 Du er produksjonsplanleggeren hos Contoso Coffee. På grunn av kapasitetsbegrensninger planlegger du å bruke en underleverandør til å produsere varen **SP-SCM1009, Airpot**.
 
 Her oppretter du en ny frigitt produksjonsordre for tolv enheter av vare SP-SCM1009, Airpot, ved hjelp av Rute - SP-SCM1009-SUB-2. Bruk underleveranseforslaget til å generere en bestilling for produksjonen, og deretter full fører du operasjonen ved å motta og fakturere bestillingen.
 
-## Trinn
+## <a name="steps"></a>Trinn
 
 1. Opprett en ny frigitt produksjonsordre for tolv enheter av varen SP-SCM1009, Airpot.
 
@@ -73,6 +73,6 @@ Her oppretter du en ny frigitt produksjonsordre for tolv enheter av vare SP-SCM1
 
 Avgangen til vare SP-SCM1009 Airpot er nå registrert.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Innføring i demodata for Contoso Coffee](../contoso-coffee-intro.md)  

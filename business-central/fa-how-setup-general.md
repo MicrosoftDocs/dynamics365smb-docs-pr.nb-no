@@ -11,18 +11,18 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Konfigurer generell aktivainformasjon
+# <a name="set-up-general-fixed-assets-information"></a>Konfigurer generell aktivainformasjon
 
 Før du kan administrere aktiva, må du definere standard finanskontoer, fordelingsnøkler og kladdemaler samt partier for å bokføre og klassifisere aktiva på nytt. Du kan også definere et klassifiseringshierarki (klasser og underklasser) for å strukturere ressursene og, om nødvendig, definere lokasjonene der du lagrer ressurser.
 
-## Slik definerer du generelle virkemåte for aktivafunksjonalitet
+## <a name="to-set-up-general-behavior-for-fixed-assets-functionality"></a>Slik definerer du generelle virkemåte for aktivafunksjonalitet
 
 Definer den generelle virkemåten til aktivafunksjonaliteten og bilagsnummerserien på siden **Aktivaoppsett**.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Aktivaoppsett** og velger den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Slik definerer du bokføringsgrupper for aktiva:
+## <a name="to-set-up-fixed-asset-posting-groups"></a>Slik definerer du bokføringsgrupper for aktiva:
 
 Bruk bokføringsgrupper for å definere aktivagrupper. Poster for disse bokføringsgruppene bokføres på de samme finanskontoene.
 
@@ -36,7 +36,7 @@ Bruk bokføringsgrupper for å definere aktivagrupper. Poster for disse bokføri
 
 Hvis du vil ha mer informasjon om hvordan du bruker handlingen **Sett inn aktivamotkonto** på aktivafinanskladdelinjer, kan du se [Revaluer aktiva](fa-how-revalue.md).
 
-## Slik definerer du aktivakladdemaler:
+## <a name="to-set-up-fixed-asset-journal-templates"></a>Slik definerer du aktivakladdemaler:
 
 En mal er et forhåndsdefinert oppsett for en kladd. Malen inneholder opplysninger om sporingskoder, rapporter og nummerserier. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
 
@@ -45,25 +45,25 @@ En mal er et forhåndsdefinert oppsett for en kladd. Malen inneholder opplysning
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Aktivakladdemaler**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
 
-## Slik definerer du aktivaklasser og -underklassekoder
+## <a name="to-set-up-fixed-asset-class-and-subclass-codes"></a>Slik definerer du aktivaklasser og -underklassekoder
 
 I aktiva kan du definere et klassifiseringshierarki som kan brukes til å gruppere aktiva. Hierarkiet har to nivåer: klasser og underklasser.
 
-### Aktivaklassekoder
+### <a name="fixed-asset-class-codes"></a>Aktivaklassekoder
 
 Aktivaklasser er postene på øverste nivå i klassifiseringshierarkiet der du grupperer aktiva. Bruk for eksempel klasser til å dele aktiva i materielle eller immaterielle aktiva. Du må opprette minst én aktivaklasse i oppsettet.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivaklasser**, og velg deretter den relaterte koblingen.
 2. Angi koder og navn for aktivaklassene du vil opprette.
 
-### Koder for aktivaunderklasse
+### <a name="fixed-asset-subclass-codes"></a>Koder for aktivaunderklasse
 
 Aktivaunderklasser er postene på andre nivå i klassifiseringshierarkiet der du grupperer aktiva. Hver underklasse peker på en klasse på øverste nivå. Bruk aktivaunderklassekodene til å gruppere aktiva i mer bestemte kategorier, for eksempel bygninger, kjøretøy, møbler eller maskiner. Du må opprette minst én aktivaunderklasse i oppsettet.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivaunderklasser**, og velg deretter den relaterte koblingen.
 2. Angi koder og navn for aktivaunderklassene du vil opprette.
 
-## Begynn å registrere aktiva
+## <a name="start-to-register-assets"></a>Begynn å registrere aktiva
 
 Hvis du bruker aktiva i [!INCLUDE[prod_short](includes/prod_short.md)] for første gang, må du først definere modulen Finans før du kan definere aktiva. Hvordan du gjør det, avhenger av om du integrerer aktiva med finans.  
 
@@ -87,14 +87,14 @@ Bruk følgende fremgangsmåte hvis aktivatransaksjoner skal bokføres i Finans.
 
 Hvis ikke aktivaene er integrert med finans, hopper du over trinn seks og åtte.
 
-## Slik definerer du aktivalokasjonskoder (valgfritt)
+## <a name="to-set-up-fixed-asset-location-codes-optional"></a>Slik definerer du aktivalokasjonskoder (valgfritt)
 
 Aktivalokasjonskoder definerer identifikatorer for hvor aktiva kan finnes, for eksempel salgsavdeling, resepsjon, administrasjon, produksjon eller lager. Du kan bruke dem til å registrere lokasjonen til et aktivum. Denne informasjonen er nyttig for forsikrings- og lagerformål.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivalokasjoner**, og velg deretter den relaterte koblingen.
 2. Angi koder og navn for aktivalokasjonene du vil opprette.
 
-## Slik definerer du aktivafordelingsnøkler (valgfritt)
+## <a name="to-set-up-fixed-asset-allocation-keys-optional"></a>Slik definerer du aktivafordelingsnøkler (valgfritt)
 
 Bruk fordelingsnøkler til å fordele transaksjoner til ulike avdelinger eller prosjekter. Du kan for eksempel definere en fordelingsnøkkel som fordeler kjøretøyavskrivningskostnader med 35 prosent til administrasjonsavdelingen og 65 prosent til salgsavdelingen. Hvis du vil ha mer informasjon, kan du se [Fordele kostnader og inntekter](year-allocate-costs-income.md).
 
@@ -105,7 +105,7 @@ Fordelingsnøkler gjelder for aktivaklasser, ikke for individuelle aktiva.
 3. På siden **Aktiva - fordelinger** fyller du ut feltene etter behov.
 4. Gjenta trinn 2 og 3 for bokføringstypene du vil definere fordelingsnøkler for.
 
-## Slik definerer du aktivakladder (valgfritt)
+## <a name="to-set-up-fixed-asset-journal-batches-optional"></a>Slik definerer du aktivakladder (valgfritt)
 
 Du kan definere flere kladder, som vil si individuelle kladder for hver enkelt kladdemal. Ansatte kan for eksempel ha egne kladder der initialene til de ansatte brukes som kladdenavn. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
 
@@ -113,14 +113,14 @@ Du kan definere flere kladder, som vil si individuelle kladder for hver enkelt k
 2. Velg den aktuelle kladdemalen, og velg deretter **Kladder**-handlingen.
 3. På siden **Aktivakladder** fyller du ut feltene etter behov.
 
-## Slik definerer du aktivareklassifiseringskladdemaler (valgfritt)
+## <a name="to-set-up-fixed-asset-reclassification-journal-templates-optional"></a>Slik definerer du aktivareklassifiseringskladdemaler (valgfritt)
 
 Bruk dedikerte reklassifiseringskladder til å overføre, dele opp og knytte sammen aktiva. [!INCLUDE[prod_short](includes/prod_short.md)] oppretter automatisk en aktivareklassifiseringskladdemal første gang du åpner siden **Aktivareklass.kladd**, men du kan definere andre reklassifiseringskladdemaler. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kladdemaler for aktivareklassifisering**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov.
 
-## Slik definerer du aktivareklassifiseringskladder (valgfritt)
+## <a name="to-set-up-fixed-asset-reclassification-journal-batches-optional"></a>Slik definerer du aktivareklassifiseringskladder (valgfritt)
 
 Du kan definere flere kladder, som vil si individuelle kladder for hver reklassifiseringskladd. Ansatte kan for eksempel ha egne kladder for reklassifisering der initialene til den ansatte brukes som reklassifiseringskladdenavn. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
 
@@ -128,7 +128,7 @@ Du kan definere flere kladder, som vil si individuelle kladder for hver reklassi
 2. Velg den aktuelle kladdemalen, og velg deretter **Kladder**-handlingen.
 3. På siden **Aktivareklass.kladder** fyller du ut feltene etter behov.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Definer aktiva](fa-setup.md)  
 [Oversikt over aktiva](fa-manage.md)  

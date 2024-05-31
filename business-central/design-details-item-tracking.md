@@ -9,12 +9,12 @@ ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Designdetaljer: Varesporing
+# <a name="design-details-item-tracking"></a>Designdetaljer: Varesporing
 Etter hvert som flyt av varer i dagens forsyningskjede blir mer og mer komplisert, er muligheten til å holde oversikt over varer stadig viktigere for involverte selskaper. Overvåking av en vares transaksjonsflyt er et juridisk krav i bransjer for medisinske og kjemiske produkter, men andre bedrifter vil kanskje også overvåke produkter med garantier eller utløpsdatoer av med hensyn til kundeservice.  
 
 Et varesporingssystem skal gi et selskap enkel håndtering av serie- og partinumre, og vurdering av hver unike vare: når og hvor mottatt, lagerplassering, når og hvor solgt. [!INCLUDE[prod_short](includes/prod_short.md)] har gradvis utvidet sin dekning av dette forretningsbehovet, og inneholder i dag generelle funksjoner og en solid kjerne som danner grunnlaget for utvikling av utvidelser.  
 
-## I denne delen  
+## <a name="in-this-section"></a>I denne delen
 [Designdetaljer: Varesporingsutforming](design-details-item-tracking-design.md)  
 [Designdetaljer: Bokføringsstruktur for varesporing](design-details-item-tracking-posting-structure.md)  
 [Utformingsdetaljer: Aktive kontra historiske varesporingsposter](design-details-active-versus-historic-item-tracking-entries.md)  
@@ -24,7 +24,7 @@ Et varesporingssystem skal gi et selskap enkel håndtering av serie- og partinum
 [Designdetaljer: Varesporing og reservasjoner](design-details-item-tracking-and-reservations.md)  
 [Designdetaljer: Varesporing på lageret](design-details-item-tracking-in-the-warehouse.md)
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Arbeide med serie-, parti- og pakkenumre](inventory-how-work-item-tracking.md)  
 

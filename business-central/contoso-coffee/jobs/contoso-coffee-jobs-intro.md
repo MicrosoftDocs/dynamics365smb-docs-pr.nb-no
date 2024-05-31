@@ -9,7 +9,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Innføring i Contoso Coffee-jobber og -prosjektstyring
+# <a name="introduction-to-contoso-coffee-jobs-and-project-management"></a>Innføring i Contoso Coffee-jobber og -prosjektstyring
 
 Contoso Coffee er et fiktivt selskap som produserer forbrukerkaffemaskiner og kommersielle kaffemaskiner. **Contoso Coffee**-appene for Business Central legger til demonstrasjonsdata som du kan bruke til å lære hvordan du bruker jobb- og prosjektstyringsfunksjonene i Business Central.
 
@@ -22,7 +22,7 @@ Denne appen inneholder flere elementer som brukes til hovedgjennomgangene:
 > Før du kjører noen av scenarioene for Contoso Coffee, må du bokføre eventuelle varekladdelinjer med åpningssaldoer. Hvis du vil ha flere krav, kan du se [Konfigurer Contoso Coffee-data](#set-up-contoso-coffee-jobs-and-project-management-data).
 >
 > 
-## Sette opp Contoso Coffee-jobber og prosjektstyringsdata
+## <a name="set-up-contoso-coffee-jobs-and-project-management-data"></a>Sette opp Contoso Coffee-jobber og prosjektstyringsdata
 
 [!INCLUDE [contoso-coffee-app-install](../../includes/contoso-coffee-app-install.md)]
 
@@ -47,4 +47,4 @@ Når de relevante appene er installert, går du til [Prosjektdemodata for Contos
 
 Når du er klar, velger du **Opprett demonstrasjonsdata**-handling. Det tar noen minutter å legge til dataene i den underliggende databasen, men da er du klar til å kjøre de ulike scenarioene.  
 
-## Se også
+## <a name="see-also"></a>Se også
