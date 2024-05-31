@@ -11,17 +11,17 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="configure-api-templates"></a>Konfigurer API-maler
+# Konfigurer API-maler
 
 API-biblioteket for [!INCLUDE[prod_short_md](includes/prod_short.md)] gir en forenklet visning av de underliggende enhetene. Alle egenskapene i programmet vises ikke via det tilknyttede API-et. På **API-oppsett**-siden kan du definere maler som brukes til å fylle ut tomme egenskaper på en enhet når du oppretter en POST-handling gjennom API-et. 
 
 Hvis for eksempel en konfigurasjonsmal er definert for vareenheten, når en ny varepost opprettes gjennom vare-API-et, blir egenskaper for den nye varen som ikke er definert i API-kallet, fylt ut fra den valgte malen. Hvis for eksempel ingen verdi er definert for **Bokføringsgruppe - vare**-feltet gjennom API-et, men en verdi er definert i den valgte malen, brukes bokføringsgruppeverdien som er definert i malen, for den nye varen. 
 
-## <a name="setting-up-the-entity-template"></a>Definere enhetsmalen
+## Definere enhetsmalen
 
 Hvis du vil bruke maler med API-biblioteket, må du først konfigurere og definere egenskaper for malene. Du kan sette opp malene på siden **Konfigurasjonsmaler**. Hvis du vil ha mer informasjon, kan du se [Overfør lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) (bare på engelsk) i administrasjonsinnholdet.  
 
-## <a name="assign-the-template-to-an-api"></a>Tilordne malen til et API
+## Tilordne malen til et API
 
 Hvis du vil tilordne en mal til et API, må du gå gjennom fremgangsmåten nedenfor.
 
@@ -44,7 +44,7 @@ Hvis du vil tilordne en mal til et API, må du gå gjennom fremgangsmåten neden
 
     Den definerte malen brukes på en ny post som er opprettet gjennom API-et, hvis, og bare hvis, betingelsene som er definert i **Betingelser**-feltet er oppfylt av verdiene som allerede er definert for den nye forekomsten av enheten.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [API-dokumentasjon](/dynamics-nav/fin-graph)  
 [Utvikle Connect Apps for [!INCLUDE[prod_short_md](includes/prod_short.md)]](/dynamics365/business-central/dev-itpro/developer/devenv-develop-connect-apps)  

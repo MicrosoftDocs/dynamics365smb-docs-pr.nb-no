@@ -9,7 +9,7 @@ ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="design-details-reconciliation-with-the-general-ledger"></a>Designdetaljer: Avstemming med konti i Finans
+# Designdetaljer: Avstemming med konti i Finans
 Når du bokfører lagertransaksjoner, for eksempel følgesedler, produksjonsavgang eller nedjusteringer, registreres endringene i antall og verdi på lageret i henholdsvis varepostene og verdipostene. Det neste trinnet i denne fremgangsmåten er å bokføre lagerverdier i lagerkontiene i Finans.  
 
 Det er to måter å avstemme lagerposten med Finans på:  
@@ -17,22 +17,22 @@ Det er to måter å avstemme lagerposten med Finans på:
 * Manuelt, ved å kjøre kjørselen **Bokfør lagerkost i Finans**.  
 * Automatisk, hver gang du bokfører en lagertransaksjon.  
 
-## <a name="post-inventory-cost-to-gl-batch-job"></a>Kjørselen Bokfør lagerkost i Finans
+## Kjørselen Bokfør lagerkost i Finans  
 Når du kjører kjørselen **Bokfør lagerkost i Finans**, opprettes finansposter basert på verdiposter. Du kan summere finansposter for hver verdipost eller opprette finansposter for hver kombinasjon av bokføringsdato, lokasjonskode, lagerbokføringsgruppe, firmabokføringsgruppe og varebokføringsgruppe.  
 
 Bokføringsdatoene for finanspostene settes til bokføringsdatoen for den tilsvarende verdiposten, unntatt når verdiposten er i en lukket regnskapsperiode. I slike tilfeller blir verdiposten hoppet over, og du må endre i finansoppsettet eller brukeroppsett for å aktivere bokføring i datointervallet.  
 
 Når du kjører kjørselen **Bokfør lagerkost i Finans**, får du kanskje feil på grunn av manglende oppsett eller inkompatibelt dimensjonsoppsett. Hvis det oppstår feil i dimensjonsoppsettet, overstyrer kjørselen disse feilene og bruker dimensjonene til verdiposten. Når det gjelder andre feil, bokfører ikke kjørselen verdipostene, og det vises en oversikt over dem på slutten av rapporten i en del med overskriften **Poster som er hoppet over**. Hvis du vil bokføre disse postene, må du først rette feilene. Hvis du vil ha en oversikt over feil før du kjører den satsvise jobben, kan du kjøre rapporten **Bokfør lagerkost i Finans - test**. Denne rapporten viser en oversikt over alle feilene som oppstår under en kontrollbokføring. Du kan rette feilene og deretter kjøre kjørselen for lagerkost uten å hoppe over noen poster.  
 
-## <a name="automatic-cost-posting"></a>Automatisk kostbokføring
+## Automatisk kostbokføring  
 Du kan konfigurere kostbokføring i finans slik at den kjører automatisk når du bokfører en lagertransaksjon, ved å merke av for **Automatisk kostbokføring** på **Lageroppsett**-siden. Bokføringsdatoen for finansposten er den samme som bokføringsdatoen for vareposten.  
 
-## <a name="account-types"></a>Kontotyper
+## Kontotyper  
 Under avstemming bokføres lagerverdier i lagerkontoen i balansen. Den samme beløpet, men med motsatt fortegn, bokføres på den aktuelle motkontoen. Motkontoen er vanligvis en resultatregnskapskonto. Når du imidlertid bokfører direktekostnader knyttet til forbruk eller avgang, er motkontoen en balansekonto. Typen varepost og verdipost fastsetter hvilken finanskonto det skal bokføres i.  
 
 Posttypen angir hvilken finanskonto det skal bokføres i. Dette fastsettes enten av fortegnet til antallet i vareposten eller det verdisatte antallet i vareposten siden antallene alltid har samme fortegn. En salgspost med et positivt antall beskriver for eksempel en lagerreduksjon forårsaket av et salg, og en salgspost med et negativt antall beskriver en lagerøkning forårsaket av en ordreretur.  
 
-### <a name="example"></a>Eksempel
+### Eksempel  
 Følgende eksempel viser en sykkelkjede som produseres fra ledd som kjøpes. Dette eksemplet viser hvordan de ulike finanskontotypene brukes i et typisk scenario.  
 
 Det er merket av for **Bokf. av forventet kost i Finans** på **Lageroppsett**-siden, og følgende oppsett er definert.  
@@ -60,7 +60,7 @@ Tabellen nedenfor viser hvordan arbeidssenteret er definert på arbeidssenterkor
 |**Direkte enhetskost**|LV 2,00|  
 |**Indirekte kostprosent**|10|  
 
-##### <a name="scenario"></a>Scenario
+##### Scenario  
 1. Brukeren kjøper 150 ledd og bokfører bestillingen som mottatt. (Kjøp)  
 2. Brukeren bokfører bestillingen som fakturert. Dermed opprettes et beløp for indirekte kostnader på LV 3,00 som skal tildeles, og et avviksbeløp på LV 18,00. (Kjøp)  
 
@@ -109,7 +109,7 @@ Tabellen nedenfor viser hvordan arbeidssenteret er definert på arbeidssenterkor
 
 Hvis du vil ha mer informasjon om relasjonen mellom kontotyper og ulike typer verdier, kan du se [Designdetaljer: Konti i Finans](design-details-accounts-in-the-general-ledger.md).  
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)   
 [Designdetaljer: Bokføre forventet kost](design-details-expected-cost-posting.md)   
 [Designdetaljer: Kostjustering](design-details-cost-adjustment.md)

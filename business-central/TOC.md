@@ -611,11 +611,11 @@ ms.service: dynamics-365-business-central
 ### [Avskrivningsmetoder](fa-depreciation-methods.md)
 ### [Administrer budsjetter for aktiva](fa-how-manage-budgets.md)
 ### [Anskaff aktiva](fa-how-acquire.md)
+### [Avskriv eller amortiser aktiva](fa-how-depreciate-amortize.md)
 ### [Vedlikehold aktiva](fa-how-maintain.md)
 ### [Forsikre aktiva](fa-how-insure.md)
 ### [Overfør, del opp eller kombiner aktiva](fa-how-trans-split-combine.md)
 ### [Revaluer aktiva](fa-how-revalue.md)
-### [Avskriv eller amortiser aktiva](fa-how-depreciate-amortize.md)
 ### [Avhend eller trekk tilbake aktiva](fa-how-dispose-retire.md)
 ### [Feilsøk aktivaposter](fa-troubleshooting-fa-ledger-entries.md)
 

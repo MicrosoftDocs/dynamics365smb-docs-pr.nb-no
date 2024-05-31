@@ -14,7 +14,33 @@ ms.custom: bap-template
 
 # Administrer aktiva
 
-Aktivafunksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] gir en oversikt over hvilke aktiva du har, og sørger for at avskrivningen er korrekt. De hjelper deg dessuten med å holde styr på vedlikeholdskostnadene, håndtere forsikringspoliser, bokføre aktivatransaksjoner og generere forskjellige rapporter og statistikker.
+Aktivafunksjonene i [!INCLUDE[prod_short](includes/prod_short.md)] gir en oversikt over hvilke aktiva du har, og sørger for at avskrivningen er korrekt. Det hjelper deg også med å spore vedlikeholdskostnader, administrere forsikringspoliser, bokføre aktivatransaksjoner og generere ulike rapporter og statistikker.
+
+## Hva er et aktiva?
+
+Aktiva er forskjellige fra andre varer på lageret. Et anleggsmiddel, også kjent som en kapitaleiendel, er et konkret stykke eiendom, anlegg eller utstyr (PP &E) som du eier eller administrerer med forventning om at det vil fortsette å bidra til å generere inntekt. Et aktiva er fast når det er en vare som bedriften din ikke vil bruke, selge eller konvertere til kontanter i løpet av neste kalenderår. Anleggsmidler er forskjellige fra omløpsmidler, som er i kontanter eller planlagt å bli konvertert til kontanter i løpet av de neste 12 månedene. Aktiva er også forskjellige fra lagerbeholdningen, fordi beholdningen vanligvis forbrukes i løpet av kort tid.
+
+## Typer av anleggsmidler
+
+Bedrifter investerer vanligvis i noen få typer anleggsmidler. Noen eksempler er:
+
+- Bygninger og anlegg
+- Datautstyr og programvare
+- Møbler og inventar
+- Maskin
+- Kjøretøy
+
+## Forstå aktivaregnskap
+
+Anleggsregnskap betyr å holde presise økonomiske poster om kapitalen din. Disse postene inneholder detaljer om de fem stadiene i et aktivums livssyklus. Etter det første kjøpet omfatter livssyklusen til hvert aktiva minst tre av følgende faser:
+
+- Anskaffelse: Du legger til et nytt innholdselement i bøkene dine.
+- Avskrivning: Du registrerer det periodiske verdifallet for et aktiva, som du bruker en avskrivningsmetode til å beregne. Hvis du vil vite mer, kan du gå til [Beregning av aktivaavskrivning](LocalFunctionality/India/FA_Depreciation.md).
+- Revaluering: Du registrerer en vurdering av den nåværende virkelige markedsverdien av en eiendel. Hvis du vil vite mer, kan du gå til [Revaluere aktiva](fa-how-revalue.md).
+- Forringelse: Du registrerer en verdireduksjon på grunn av hendelser eller omstendigheter.
+- Avhending: Du selger, vraker eller på annen måte avhender en eiendel ved slutten av levetiden.
+
+Revisjoner er også inkludert i de detaljerte kontrollene av selskapets regnskapsmateriale etter at du har lukket bøkene for regnskapsåret. Enten internt eller eksternt, revisjoner er der du kan legge merke til inkonsekvenser eller forskjeller mellom notatene dine og den faktiske tilstanden til eiendelene dine. Revisjoner fremmer åpenhet i eiendeler og regnskap hvis du taper mer penger enn forventet.
 
 ## Videooversikt
 
@@ -61,7 +87,7 @@ For hvert enkelt aktiva må du definere et kort som inneholder opplysninger om d
 
 Hvis du vil spore aktivaavskrivninger og andre finansielle transaksjoner for aktiva, definerer du et eller flere avskrivningstablåer for hver. Det er noen trinn for å avskrive aktivaer:
 
-1. Kjør en rapport for å beregne periodisk avskrivning.
+1. Kjør en rapport som beregner periodiske avskrivninger.
 1. Fyll ut en kladd med de resulterende postene.
 1. Bokfør kladden.
 
@@ -95,10 +121,19 @@ Du kan registrere vedlikeholdskostnader og dato for neste service for hver aktiv
 | Vis salgsposter. | [Vis avhendingsposter](fa-how-dispose-retire.md#to-view-disposal-ledger-entries) |
 | Vis forventede salgsverdier. | [Vis forventede avhendingsverdier](fa-how-manage-budgets.md#to-view-projected-disposal-values) |
 
+## Tips for å forbedre aktivaregnskapet
+
+Det er et par ting du kan implementere i regnskapsstrategien for aktiva som kan bidra til å sikre at du maksimerer inntektene.
+
+- Opprett en terskel for store bokstaver. Når du kjøper en vare, må du fastsette et fast beløp for store og små bokstaver. Beløpet bidrar til å sikre at regnskapsbøkene dine er konsistente, og gjør det lettere for deg og teamet ditt å oppdage regnskapsfeil.
+- Evaluer utstyrets livssyklus på nytt. Det er viktig å beregne hvor lenge du kan bruke aktivaene til det opprinnelige formålet. Siden regnskap og avskrivning er avhengig av nøyaktige livssyklusestimater, bør du evaluere på nytt når det er nødvendig, fordi det kan endres over tid.
+- Merk ressursene dine. Det er viktig å spore og merke eiendelene dine gjennom hele livssyklusen fordi mange faktorer kan påvirke verdien. Merking bidrar til å spore varene gjennom fasene av livssyklusen, og bidrar til å forhindre tyveri, eliminere feilplassering og støtte økonomisk statistikk.
+- Automatiser innsikt med programvare for aktivaregnskap. Automatisering av manuelle aktiviteter for å spore dataene dine med programvare for aktivaregnskap gjør det enklere å fullføre prosesser. Passordbeskyttelse kan bare bidra til å gi tilgang til de som trenger det og er opplært til det.
+
 ## Se også
 
 [Definer aktiva](fa-setup.md)  
-[Oversikt over aktivaanalyse](fa-analytics-overview.md)  
+[Oversikt over analyse av aktiva](fa-analytics-overview.md)  
 [Oversikt over finans](finance.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

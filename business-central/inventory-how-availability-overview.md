@@ -11,7 +11,7 @@ ms.date: 04/08/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="view-the-availability-of-items"></a>Vis tilgjengeligheten av varer
+# Vis tilgjengeligheten av varer
 
 Fra konteksten for en forretningsoppgave kan du få avansert informasjon om når og hvor en vare er tilgjengelig, for eksempel når du snakker med en kunde om en leveringsdato.
 
@@ -33,7 +33,7 @@ I [!INCLUDE[prod_short](includes/prod_short.md)] vises tilgjengelighetstallene v
 > [!NOTE]  
 >   Fremgangsmåtene nedenfor viser hvordan du viser avansert informasjon om tilgjengelighet fra varelisten og varekortet. Du har også tilgang til informasjon fra salgsdokumentlinjer for varen på linjen. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).
 
-## <a name="to-view-the-availability-of-an-item-according-to-when-it-will-be-received-or-shipped"></a>Slik viser du tilgjengeligheten for en vare i henhold til når den blir mottatt eller levert
+## Slik viser du tilgjengeligheten for en vare i henhold til når den blir mottatt eller levert
 
 Du viser tilgjengeligheten for en vare i henhold til planlagte varetransaksjoner på siden **Tilgjengelighet per hendelse**.
 
@@ -44,7 +44,7 @@ Du viser tilgjengeligheten for en vare i henhold til planlagte varetransaksjoner
     Siden **Varetilgjengelighet per hendelse** viser hvordan lagerantall for varen vil utvikle seg over tid i henhold til planlagte hendelser for levering og mottak. Siden gir en konsentrert visning som viser én linje med akkumulert informasjon per tidsintervall hvor lagerantallet endres. Tidsintervaller som det ikke har oppstått noen hendelser i, vises ikke. Du kan utvide hver linje for å vise detaljer om hendelsen eller hendelsene som forårsaket det akkumulerte antallet på linjen.
 4. Velg verdien i feltet **Beregnet disponibel beholdning** for å vise vareposter eller åpne dokumenter som utgjør verdien.
 
-## <a name="to-view-the-availability-of-an-item-in-different-periods"></a>Slik viser du tilgjengeligheten for en vare i forskjellige perioder
+## Slik viser du tilgjengeligheten for en vare i forskjellige perioder
 
 Du viser tilgjengeligheten for en vare over tid for bestemte tidsperioder på siden **Varetilgjengelighet per periode**.
 
@@ -55,7 +55,7 @@ Du viser tilgjengeligheten for en vare over tid for bestemte tidsperioder på si
     Siden **Varetilgjengelighet per periode** viser hvordan lagerantallet for varen vil utvikler seg over tid, vist for en periode som du velger, for eksempel dag, uke eller kvartal.
 4. Velg verdien i feltet **Beregnet disponibel beholdning** for å vise vareposter eller åpne dokumenter som utgjør verdien.
 
-## <a name="to-view-the-availability-of-an-item-at-the-locations-where-its-stored"></a>Slik viser du tilgjengeligheten for en vare på lokasjonene der den er lagret
+## Slik viser du tilgjengeligheten for en vare på lokasjonene der den er lagret
 
 Du viser tilgjengeligheten for en vare på de forskjellige lokasjonene der den er lagret, på siden **Varetilgjengelighet per lokasjon**.
 
@@ -67,7 +67,7 @@ Du viser tilgjengeligheten for en vare på de forskjellige lokasjonene der den e
 4. Velg verdien i feltet **Disponibel beholdning** for å vise vareposter som utgjør verdien.
 5. Velg verdien i feltet **Beregnet disponibel beholdning** for å vise vareposter eller åpne dokumenter som utgjør verdien.
 
-## <a name="to-view-the-availability-of-all-items-by-the-location-where-theyre-stored"></a>Slik viser du tilgjengeligheten for alle varer på lokasjonen der de er lagret
+## Slik viser du tilgjengeligheten for alle varer på lokasjonen der de er lagret
 
 Du kan vise tilgjengeligheten til alle varer på tvers av alle lokasjoner på siden **Varer per lokasjon**.
 
@@ -77,7 +77,7 @@ Du kan vise tilgjengeligheten til alle varer på tvers av alle lokasjoner på si
     Siden **Varer per lokasjon** vises for alle varer hvor mange som er tilgjengelig på hver lokasjon.
 3. Velg verdien i feltet **Disponibel beholdning** for å vise vareposter som utgjør verdien.
 
-## <a name="to-view-the-availability-of-an-item-by-its-use-in-assembly-or-production-boms"></a>Vise tilgjengeligheten til en vare etter bruk i monterings- eller produksjonsstykklister
+## Vise tilgjengeligheten til en vare etter bruk i monterings- eller produksjonsstykklister
 
 Hvis en vare er en del av monterings- eller produksjonsstykklister, enten som en overordnet vare eller som en komponent, kan du se hvor mange enheter av varen som er påkrevd på siden **Varetilgjengelighet per stykklistenivå**. Siden viser hvor mange enheter av en overordnet vare du kan lage basert på tilgjengeligheten av underordnede varer på underliggende linjer. Varene som har en monterings- eller produksjonsstykkliste, vises på siden som en linje som kan skjules. Du kan utvide denne linjen for å se de underliggende komponentene og delmonteringer på lavere nivå med sine egne stykklister.
 
@@ -90,7 +90,7 @@ På hver linje på siden for både overordnede og underordnede varer angir følg
 |**Kan lage overordnet**|Viser hvor mange enheter av en hvilken som helst delmontering i toppvaren du kan lage. Feltet angir hvor mange umiddelbare overordnede enheter du kan montere. Verdien er basert på tilgjengeligheten av varen på linjen.|
 |**Kan lage toppvare**|Viser hvor mange enheter av toppvaren du kan lage. Feltet angir hvor mange enheter av stykklistevaren på øverste linje som du kan montere. Verdien er basert på tilgjengeligheten av varen på linjen.|
 
-### <a name="to-view-the-availability-of-an-item-according-to-demand-for-its-parent"></a>Slik viser du tilgjengeligheten for en vare i henhold til behov for den overordnede
+### Slik viser du tilgjengeligheten for en vare i henhold til behov for den overordnede
 
 Siden **Varetilgjengelighet per stykklistenivå** viser informasjon for varen på kortet eller dokumentlinjen som siden er åpnet for. Varen vises alltid på øverste linje. Du kan vise informasjon for andre varer eller for alle varer ved å endre verdien i feltet **Varefilter**.
 
@@ -99,14 +99,14 @@ Siden **Varetilgjengelighet per stykklistenivå** viser informasjon for varen p�
 
 Feltet **Flaskehals** angir hvilken vare i stykklistestrukturen som hindrer deg i å opprette et større antall enn antallet som vises i feltet **Kan lage toppvare**. Flaskehalsen kan for eksempel være en innkjøpt komponent med forventet mottaksdato som er for sen til å lage ekstra enheter av toppvaren etter datoen i feltet **Trengs innen dato**.
 
-## <a name="to-view-the-availability-of-an-item-by-its-units-of-measure"></a>Slik viser du tilgjengeligheten for en vare ved hjelp av måleenheten
+## Slik viser du tilgjengeligheten for en vare ved hjelp av måleenheten
 
 Siden **Varedisposisjon etter måleenhet** viser tilgjengeligheten av en vare i måleenheten som den er lagret i.
 
 > [!NOTE]  
 > Hvis du vil beholde denne informasjonen nøyaktig, må du konvertere måleenheten for varen. Hvis du for eksempel kjøper en vare i én enhet, for eksempel bokser, og du selger varer i en annen enhet, for eksempel stykker, må du bruke en varekladd til å konvertere enhetene, eller pakke ut varer. Du kan bruke en nedjusterings varekladdelinje til å redusere lageret i kjøpsenheten, for eksempel bokser og en oppjustering for å øke lager beholdningen i salgsenheten, for eksempel stykker. 
 
-## <a name="to-view-the-availability-of-an-item-by-its-variants"></a>Slik viser du tilgjengeligheten for en vare ved hjelp av varianter
+## Slik viser du tilgjengeligheten for en vare ved hjelp av varianter
 
 Siden **Disponibelt per variant** viser faktisk og beregnet tilgjengelighet for en vare gruppert i henhold til variantkode.
 
@@ -121,7 +121,7 @@ Siden **Disponibelt per variant** viser faktisk og beregnet tilgjengelighet for 
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
 
-## <a name="assembly-availability-page"></a>Siden Montering – tilgjengelighet
+## Siden Montering – tilgjengelighet
 
 Siden **Montering – tilgjengelighet** viser detaljerte tilgjengelighetsinformasjon for monteringsvaren. Det åpnes:
 
@@ -137,7 +137,7 @@ Hurtigfanen **Linjer** viser detaljert informasjon om tilgjengelighet for monter
 
 Hvis én eller flere monteringskomponenter ikke er tilgjengelige, gjenspeiles dette i **Kan montere**-feltet på den aktuelle linjen som et lavere antall enn antallet i **Restantall**-feltet på hurtigfanen **Detaljer**.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Håndtere lager](inventory-manage-inventory.md)  
 [Monteringsstyring](assembly-assemble-items.md)  

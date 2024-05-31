@@ -22,7 +22,7 @@ Bruk følgende listesider til å starte ad hoc-analyse av finansprosesser:
 - [Kundeposter](https://businesscentral.dynamics.com/?page=25)
 - [Leverandørposter](https://businesscentral.dynamics.com/?page=29)
 
-## Scenarioer for ad hoc-analyse for finans
+## Ad-hoc-analysescenarier i finans
 
 Bruk **Dataanalyse**-funksjonen for rask faktasjekking og ad hoc-analyse:
 
@@ -34,12 +34,13 @@ Avsnittene nedenfor inneholder eksempler på finansscenarioer i [!INCLUDE [prod_
 
 | Område | Til ... | Åpne denne siden i analysemodus | Bruk disse feltene |
 | ---- | ----- | ------------------------------- |------------------- |
-| [Finans (kunde)](#example-finance-accounts-receivables) | Se hva kundene dine skylder deg, for eksempel inndelt i tidsintervaller for når beløp forfaller. | [Kundeposter](https://businesscentral.dynamics.com/?page=25) | **Kundenavn**, **Forfallsdato** og **Restbeløp** |
+|[Eksempel: Finans (kundefordringer)](#example-finance-accounts-receivable) | Se hva kundene dine skylder deg, for eksempel inndelt i tidsintervaller for når beløp forfaller. | [Kundeposter](https://businesscentral.dynamics.com/?page=25) | **Kundenavn**, **Forfallsdato** og **Restbeløp** |
 | [Finans (leverandør)](#example-finance-accounts-payable) | Se hva du skylder leverandørene, kanskje inndelt i tidsintervaller for når beløp forfaller. | [Leverandørposter](https://businesscentral.dynamics.com/?page=29) | **Leverandørnavn**, **Dokumenttype**, **Dokumentnr.**, **Forfallsdato (år)**, **Forfallsdato (måned)** og **Restbeløp**. |
+| [Finans (salgsfakturaer etter finanskonto)](#example-finance-sales-invoices-by-gl-account) | Se hvordan salgsfakturaene distribueres over finanskonti fra kontoplanen, for eksempel inndelt i tidsintervaller for når beløp ble bokført. | [Finansposter](https://businesscentral.dynamics.com/?page=20) | **Finanskontonavn**, **Kildespor**, **Finanskontonavn**, **Finanskontonr.**, **Debetbeløp**, **Kreditbeløp**, **Bokføringsdato år**, **Bokføringsdato, Kvartal** og **Bokføringsdato Måned** |
 | [Finans (resultatregnskap)](#example-finance-income-statement) | Se inntekten over inntektskontoene fra kontoplanen, for eksempel inndelt i tidsintervaller for når beløpene ble bokført. | [Finansposter](https://businesscentral.dynamics.com/?page=20) | **Finanskontonr.**, **Bokføringsdato** og **Beløp**. |
 | [Finans (objekter totalt)](#example-finance-total-assets) | Se objektene over objektkontoene fra kontoplanen, for eksempel inndelt i tidsintervaller for når beløpene ble bokført. | [Finansposter](https://businesscentral.dynamics.com/?page=20) | **Finanskontonr.**, **Bokføringsdato** og **Beløp**. |
 
-### Eksempel: Finans (kunde)
+### Eksempel: Finans (kundefordringer)
 
 Hvis du vil se hva kundene dine skylder deg, kanskje inndelt i tidsintervaller for når beløp forfaller, følger du denne fremgangsmåten:
 
@@ -67,12 +68,32 @@ Bildet nedenfor viser resultatet av denne fremgangsmåten.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Eksempel på hvordan du utfører dataanalyse på siden Kundeposter." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
+### Eksempel: Finans (salgsfakturaer etter finanskonto)
+
+Hvis du vil se hvordan salgsfakturaene fordeler seg over finanskonti fra kontoplanen, for eksempel inndelt i tidsintervaller for når beløp ble bokført, gjør du følgende:
+
+1.  [Åpne siden Finansposter](https://businesscentral.dynamics.com/?page=20) .
+1. Legg til feltene **Finanskontonavn** og **Kildekode** ved å tilpasse siden. På **Innstillinger**-menyen velger du **Tilpass**.
+1. Avslutt tilpasningsmodus.
+1. Velg :::image type="content" source="media/analysis-mode-icon.png" alt-text="Gå inn i analysemodus."::: for å aktivere analysemodus.
+1. På **menyen Analysefiltre** setter du et filter i **feltet Kildespor** til **SALG**. Hvis du har tilpasninger som legger til andre verdier, kan du legge til disse også.
+1. På **Kolonner**-menyen fjerner du alle kolonner (merk av i boksen ved siden av **Søk**-feltet).
+1. Aktiver vekslebryteren **Pivot-modus** (over **Søk**-feltet til høyre).
+1. Dra **finanskontonavnet** og **finanskontonummeret.** -felt til Radgrupper-området **·** .
+1. Dra feltene Debetbeløp og Kreditbeløp **til Verdier-området**  **.**  **·** 
+1. Dra feltene **Bokføringsdato, År**, **Bokføringsdato, Kvartal** og **Bokføringsdato måned** til **Kolonneetiketter-området** .
+1. Endre navnet på analysefanen til **Fakturaoppdeling etter konto**, eller noe som beskriver denne analysen.
+
+Bildet nedenfor viser resultatet av denne fremgangsmåten.
+
+:::image type="content" source="media/data-analysis-gl-entries-invoices.png" alt-text="Eksempel på hvordan du utfører dataanalyse på siden Finansposter (for å forstå salgsbokføringer)." lightbox="media/data-analysis-gl-entries-invoices.png":::
+
 ### Eksempel: Finans (resultatregnskap)
 
 Hvis du vil se inntekten over inntektskontoene fra kontoplanen, inndelt i tidsintervaller for når beløpene ble bokført, følg disse trinnene:
 
 1. Åpne [Finansposter](https://businesscentral.dynamics.com/?page=20)-listen og velg :::image type="content" source="media/analysis-mode-icon.png" alt-text="Gå inn i analysemodus."::: for å aktivere analysemodus.
-1. Gå til **Kolonner**-menyen og fjern alle kolonner (merk av i boksen ved siden av **Søk**-feltet ).
+1. Gå til **Kolonner**-menyen og fjern alle kolonner (merk av i boksen ved siden av **Søk**-feltet til høyre).
 1. Aktiver vekslebryteren **Pivot-modus** (over **Søk**-feltet til høyre).
 1. Dra **Finanskontonr.**-feltet til **Radgrupper**-området og dra **Beløp** til **Verdier**-området.
 1. Dra feltet **Bokføringsdato (måned)** til **Kolonneetiketter**-området.
@@ -113,7 +134,7 @@ Du kan lære mer ved å gå til følgende artikler:
 [Analyser liste- og spørringsdata med analysemodus](analysis-mode.md)  
 [Oversikt over økonomisk analyse](bi.md)  
 [Oversikt over analyse, forretningsanalyse og rapportering](reports-bi-reporting.md)  
-[Finansoversikt](finance.md)   
+[Oversikt over finans](finance.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]  

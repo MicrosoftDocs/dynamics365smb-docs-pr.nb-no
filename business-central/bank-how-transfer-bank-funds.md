@@ -10,11 +10,11 @@ ms.date: 04/29/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="transfer-bank-funds"></a>Overføre bankkapital
+# Overføre bankkapital
 
 Noen ganger har du behov for å overføre av et beløp fra én konto til en annen i [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil gjøre dette, må du bokføre transaksjonen på **Finanskladd**-siden. Oppgaven varierer avhengig av om bankkontoene bruker samme valuta eller forskjellige valutaer.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-the-same-currency-code"></a>Bokføre en overføring mellom bankkonti med samme valutakode
+## Bokføre en overføring mellom bankkonti med samme valutakode
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finanskladd** og velg den relaterte koblingen.
 2. På en av kladdelinjene fyller du ut feltet **Bokføringsdato** og **Bilagsnr.**.
@@ -27,7 +27,7 @@ Noen ganger har du behov for å overføre av et beløp fra én konto til en anne
 7. I feltet **Motkontonr.** velger du bankkontoen du vil overføre midler til.
 8. Bokfør kladden.
 
-## <a name="to-post-a-transfer-between-bank-accounts-with-different-currency-codes"></a>Slik bokfører du en overføring mellom bankkonti med ulike valutakoder
+## Slik bokfører du en overføring mellom bankkonti med ulike valutakoder
 
 Hvis du vil overføre midler mellom bankkonti som bruker forskjellige valutaer, må du bokføre to linjer i finanskladden.
 
@@ -64,7 +64,7 @@ Hvis du vil overføre midler mellom bankkonti som bruker forskjellige valutaer, 
     > Et beløp uten et fortegn er et debetbeløp, og et beløp med et minustegn er et kreditbeløp.
 10. Bokfør kladden.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Avstemme bankkonter](bank-manage-bank-accounts.md)  
 [Konfigurere banktjenester](bank-setup-banking.md)  

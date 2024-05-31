@@ -19,11 +19,11 @@ Tabellen nedenfor viser forskjellige måter som du kan angi datoer og klokkeslet
 |1.12.22 5|01-12-22 05:00:00|
 |1.12.22|01-12-22 00:00:00|
 |11 12|11.nneværende måned.inneværende år 12.00.00|
-|1112 12|11.12.inneværende år 12.00.00|
-|d eller i dag|dagens dato 00:00:00|
-|d klokkeslett|dagens dato og klokkeslett|
-|d 10.30|dagens dato 10:30:00|
-|d 3.3.3|dagens dato 03.03.03|
+|1112 12|11-12 - inneværende år 12.00.00|
+|t eller i dag|dagens dato 00:00:00|
+|klokkeslett|dagens dato og klokkeslett|
+|k 10.30|dagens dato 10:30:00|
+|k 3.3.3|dagens dato 03.03.03|
 |a eller arbeidsdag|arbeidsdatoen 00.00.00|
 |m eller mandag|mandag i inneværende uke 00.00.00|
 |ti eller tirsdag|tirsdag i inneværende uke 00:00:00|

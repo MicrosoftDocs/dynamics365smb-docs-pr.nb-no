@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.search.form: '7335, 7337, 7339, 7340, 7341, 7362, 9008'
 ms.service: dynamics-365-business-central
 ---
-# <a name="walkthrough-picking-and-shipping-in-basic-warehouse-configurations"></a>Gjennomgang: Plukking og levering i enkle lageroppsett
+# Gjennomgang: Plukking og levering i enkle lageroppsett
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] plukker og leverer du varer ved å bruke en av fire metoder, som beskrevet i tabellen nedenfor.
 
@@ -25,7 +25,7 @@ Finn ut mer under [Utgående lagerflyt](design-details-outbound-warehouse-flow.m
 
 Følgende gjennomgangen demonstrerer metoden B i forrige tabell.  
 
-## <a name="about-this-walkthrough"></a>Denne gjennomgangen
+## Denne gjennomgangen
 
 I grunnleggende lageroppsett hvor lokasjonen er definert til å kreve plukkbehandling, men ikke leveringsbehandling, bruker du siden **Lagerplukk** til å registrere og bokføre plukkings- og leveringsopplysninger for de utgående kildedokumentene. Det utgående kildedokumentet kan være en ordre, en bestillingsretur, en utgående overføringsordre eller en produksjonsordre med komponentbehov.  
 
@@ -37,7 +37,7 @@ Denne gjennomgangen viser følgende oppgaver:
 - Opprette et lagerplukk basert på et frigitt kildedokument.  
 - Registrerer lagerflyttingen fra lageret og bokfører samtidig følgeseddelen for salgsordrekilden.  
 
-## <a name="roles"></a>Roller
+## Roller
 
 Denne gjennomgangen viser oppgaver som utføres av følgende brukerroller:  
 
@@ -52,33 +52,33 @@ To complete this walkthrough, you will need:
 - For [!INCLUDE[prod_short](includes/prod_short.md)] online, a company based on the **Advanced Evaluation - Complete Sample Data** option in a sandbox environment. For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, CRONUS installed.
  -->
 
-## <a name="story"></a>Hovedscenario
+## Hovedscenario
 
 Ellen, lagersjefen på CRONUS, setter opp SØR-lageret for grunnleggende plukkhåndtering der lagermedarbeidere behandler utgående ordrer individuelt. Ordrebehandleren Heidi oppretter en ordre for 30 enheter av varen 1928-S som skal leveres til kunde 10000 fra SØR-lageret. John, lagermedarbeideren, må kontrollere at forsendelsen klargjøres og leveres til kunden. John behandler alle involverte oppgaver på siden **Lagerplukk**, som peker automatisk til hyllene der 1928-S er lagret.
 
 [!INCLUDE[set_up_location.md](includes/set_up_location.md)]
 
-### <a name="setting-up-the-bin-codes"></a>Definere hyllekodene
+### Definere hyllekodene
 
 Når lokasjonen er definert, må du legge til to hyller.
 
-#### <a name="to-setup-the-bin-codes"></a>Slik definerer du hyllekodene
+#### Slik definerer du hyllekodene
 
 1. Velg handlingen **Hyller**.
 2. Opprett to hyller med kodene *S-01-0001* og *S-01-0002*.
 
-### <a name="making-yourself-a-warehouse-employee-at-location-south"></a>Opprette deg selv som en lageransatt på lokasjon SØR
+### Opprette deg selv som en lageransatt på lokasjon SØR
 
 For å kunne bruke denne funksjonaliteten må du legge deg selv til på lokasjonen som en lagerarbeider. 
 
-#### <a name="to-make-yourself-a-warehouse-employee"></a>Slik oppretter du deg selv som en lageransatt
+#### Slik oppretter du deg selv som en lageransatt
 
   1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg første.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lageransatte**, og velg deretter den relaterte koblingen.  
   2. Velg feltet **Bruker-ID**, og velg din egen brukerkonto på siden **Lageransatte**.
   3. Velg SØR i feltet **Lokasjonskode**.  
   4. Velg feltet **Standard**, og velg deretter **Ja**-knappen.  
 
-### <a name="making-item-1928-s-available"></a>Gjøre vare 1928-S tilgjengelig
+### Gjøre vare 1928-S tilgjengelig
 
 For å gjøre varen 1928-S tilgjengelig på SØR-plasseringen følger du denne fremgangsmåten:  
 
@@ -95,11 +95,11 @@ For å gjøre varen 1928-S tilgjengelig på SØR-plasseringen følger du denne f
   3. Velg **Handlinger**, **Bokføring** og deretter **Bokfør**.  
   4. Velg **Ja**-knappen.  
 
-## <a name="creating-the-sales-order"></a>Opprette ordren
+## Opprette ordren
 
 Salgsordrer er den vanligste typen av utgående kildedokumenter.  
 
-### <a name="to-create-the-sales-order"></a>Slik oppretter du ordren
+### Slik oppretter du ordren
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg tredje.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
@@ -115,11 +115,11 @@ Salgsordrer er den vanligste typen av utgående kildedokumenter.
 
     John fortsetter å plukke og leverer solgte varer.  
 
-## <a name="picking-and-shipping-items"></a>Plukke og levere varer
+## Plukke og levere varer
 
 På siden **Lagerplukk** kan du håndtere alle utgående lageraktiviteter for et bestemt kildedokument, for eksempel en ordre. [!INCLUDE[tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 
-### <a name="to-pick-and-ship-items"></a>Slik plukker og leverer du varer:
+### Slik plukker og leverer du varer:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg fjerde.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerplukk**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
@@ -136,7 +136,7 @@ På siden **Lagerplukk** kan du håndtere alle utgående lageraktiviteter for et
 
     30 Amsterdam-lamper er nå registrert som plukket fra hyllene S-01-0001 og S-01-0002, og det opprettes en negativ varepost som gjenspeiler den bokførte følgeseddelen.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Plukk varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md)  
 [Plukk varer for lagerlevering](warehouse-how-to-pick-items-for-warehouse-shipment.md)  

@@ -10,7 +10,7 @@ ms.date: 01/25/2023
 ms.custom: bap-template
 ms.search.forms: '931, 7377'
 ---
-# <a name="pick-items-with-inventory-picks"></a>Plukke varer med lagerplukk
+# Plukke varer med lagerplukk
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] plukker og leverer du varer ved å bruke en av fire metoder, som beskrevet i tabellen nedenfor.
 
@@ -42,29 +42,29 @@ Du kan opprette lagerplukk på tre måter:
 
 Lagerplukket kan så opprettes fra siden **Lagerplukk** basert på kildedokumentet.  
 
-## <a name="to-create-an-inventory-pick-from-the-source-document"></a>Slik oppretter du et lagerplukk fra kildedokumentet
+## Slik oppretter du et lagerplukk fra kildedokumentet
 
 1. I kildedokumentet, som kan være en ordre, bestillingsretur, eller utgående overføringsordre, velger du handlingen **Opprett lagerplassering/-plukking**.
 2. Merk av for **Opprett lagerplukking**.  
 3. Velg **OK**. Et nytt lagerplukk opprettes.
 
-## <a name="to-create-multiple-inventory-picks-with-a-batch-job"></a>Slik oppretter du flere lagerplukk med en kjørsel:
+## Slik oppretter du flere lagerplukk med en kjørsel:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Opprett plassering/plukk/flytting for lager**, og velg deretter den relaterte koblingen.  
 2. På hurtigfanen **Lagerforespørsel** bruker du filtrene **Kildedokumentet** og **Kildenr.** for å filtrere etter bestemte dokumenttyper eller dokumentnummerintervaller. Du kan for eksempel bare opprette plukk for ordrer.  
 3. Merk av for **Opprett lagerplukking** på hurtigfanen **Alternativer**.
 4. Velg **OK**-knappen.
 
-## <a name="to-create-the-pick-in-two-steps"></a>Slik oppretter du plukking i to trinn
+## Slik oppretter du plukking i to trinn
 
-### <a name="to-request-an-inventory-pick-by-releasing-the-source-document"></a>Be om et lagerplukk ved å frigi kildedokumentet
+### Be om et lagerplukk ved å frigi kildedokumentet
 
 Når det gjelder ordrer, bestillingsreturer og utgående overføringsordrer, oppretter du lagerforespørselen ved å frigi ordren. Ved å frigi ordren blir varene tilgjengelig for plukking.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Ordrer**, og velg deretter den relaterte koblingen.
 2. Velg ordren som skal frigis, og velg deretter **Frigi**-handlingen.
 
-### <a name="to-create-an-inventory-pick-based-on-the-source-document"></a>Slik oppretter du et lagerplukk basert på kildedokumentet:
+### Slik oppretter du et lagerplukk basert på kildedokumentet:
 
 Når en ordre er frigitt, kan den ansatte opprette et lagerplukk.
 
@@ -75,7 +75,7 @@ Når en ordre er frigitt, kan den ansatte opprette et lagerplukk.
 5. Du kan også velge handlingen **Hent kildedokument** for å opprette en liste over utgående kildedokumenter som er klare for plukking på lokasjonen.  
 6. Velg **OK**-knappen for å fylle ut plukklinjene i henhold til de valgte kildedokumentene.  
 
-## <a name="to-record-inventory-picks"></a>Slik registrerer du lagerplukk
+## Slik registrerer du lagerplukk
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Lagerplukk**, og velg deretter den relaterte koblingen.  
 2. I **Hyllekode**-feltet på plukklinjene foreslås hyllen som varene skal plukkes fra, per varens standardhylle. Du kan endre hylle på denne siden hvis det er nødvendig.  
@@ -90,7 +90,7 @@ Når en ordre er frigitt, kan den ansatte opprette et lagerplukk.
 
     [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## <a name="handling-assemble-to-order-items-with-inventory-picks"></a>Håndter montere-til-ordre-varer med lagerplukk
+## Håndter montere-til-ordre-varer med lagerplukk
 
 Du kan også bruke **Lagerplukk**-siden til å plukke og levere for salg der varer må monteres før de kan leveres. Finn ut mer under [Selge varer som er montert til ordre](assembly-how-to-sell-items-assembled-to-order.md).
 
@@ -120,7 +120,7 @@ I scenarioer der en del av antallet monteres og en annen del plukkes, opprettes 
 > [!NOTE]  
 > Hvis varer monteres til ordre, opprett lagerplukkingen for den koblede ordren en lagerflytting for alle monteringskomponentene.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)  

@@ -9,7 +9,7 @@ ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="merge-duplicate-records"></a>Slå sammen dupliserte poster
+# Slå sammen dupliserte poster
 
 Siden ulike brukere oppretter nye kunde-, leverandør- eller kontaktkort over tid eller de nye postene opprettes automatisk under overføringen, kan en kunde, leverandør eller kontakt være representert i systemet med mer enn én post. I så fall kan du bruke siden **Slå sammen duplikat** fra kortet til posten du vil beholde. Siden siden gir deg en oversikt over dupliserte feltverdier og inneholder funksjoner for å velge hvilke verdier du vil beholde eller forkaste når du slår sammen to poster til én.
 
@@ -55,7 +55,7 @@ Følgende fremgangsmåte er basert på et kundekort. Trinnene er de samme for en
 > [!NOTE]
 > For kontakter kan du bruke funksjonaliteten for å finne duplikate kontakter før du bruker siden **Slå sammen duplikat**. Hvis du vil ha mer informasjon, se [Søke etter duplikatkontakter](marketing-setup-contacts.md#searching-for-duplicate-contacts).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Salg](sales-manage-sales.md)  
 [Konfigurer kontakter](marketing-setup-contacts.md)  

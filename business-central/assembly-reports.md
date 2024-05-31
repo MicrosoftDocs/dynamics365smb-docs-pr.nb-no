@@ -9,21 +9,21 @@ ms.date: 06/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="assembly-reports-and-analytics-in-business-central"></a>Monteringsrapporter og analyser i Business Central
+# Monteringsrapporter og analyser i Business Central
 
 Monteringsrapportering i [!INCLUDE [prod_short](includes/prod_short.md)] gjør det mulig for produksjons- og forretningsfolk å få innsikt og statistikk om gjeldende og tidligere monteringsaktiviteter.  
 
-## <a name="reports"></a>Rapporter
+## Rapporter
 
 [!INCLUDE [assembly_reports](includes/assembly-reports-include.md)]
 
-## <a name="tasks"></a>Oppgaver
+## Oppgaver
 
 Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilstanden i virksomheten din:
 
 * [Vis tilgjengeligheten av varer](inventory-how-availability-overview.md)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Monteringsstyring](assembly-assemble-items.md)  
 [Arbeid med monteringsstykklister](assembly-how-work-assembly-boms.md)  

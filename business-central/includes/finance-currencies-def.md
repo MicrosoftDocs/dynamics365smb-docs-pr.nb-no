@@ -7,8 +7,8 @@ ms.service: dynamics-365-business-central
 ---
 Du må definere en kode for hver valuta du bruker, hvis du gjør følgende:
 
-- Kjøper eller selger i andre valutaer enn lokal valuta (LV).  
-- Registrerer finanstransaksjoner både i LV og en tilleggsrapporteringsvaluta.  
+- Kjøper eller selger i andre valutaer enn NOK.  
+- Registrerer finanstransaksjoner både i NOK og en tilleggsrapporteringsvaluta.  
 
 Når du har definert kodene, tilordner du den aktuelle koden til hver bankkonto med utenlandsk valuta, og tilordner deretter en standard valutakode til utenlandske kunde- og leverandørkontoer.
 
