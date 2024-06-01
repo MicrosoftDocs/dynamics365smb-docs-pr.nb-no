@@ -9,11 +9,11 @@ ms.date: 09/27/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="customizing-business-central-online-using-apps"></a>Tilpasse Business Central Online med apper
+# Tilpasse Business Central Online med apper
 
 Du kan endre [!INCLUDE[prod_short](includes/prod_short.md)] Online ved å installere apper som for eksempel legger til funksjonalitet, endrer virkemåte eller gir deg tilgang til nye elektroniske tjenester. Disse appene kalles også *utvidelser* fordi de *utvider* [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="manage-apps"></a>Administrer apper
+## Administrer apper
 
 [!INCLUDE [2023rw1-sec-group-short](includes/2023rw1-sec-group-short.md)]
 
@@ -50,7 +50,7 @@ Noen apper leveres av Microsoft, og andre apper leveres av [andre selskaper](ui-
 > [!NOTE]  
 > Du kan holde øye med nye apper fra Microsoft og andre leverandører på [AppSource.microsoft.com](https://appsource.microsoft.com/marketplace/apps?product=dynamics-365%3Bdynamics-365-business-central&page=1).
 
-## <a name="apps-and-data-transfer"></a>Apper og dataoverføring
+## Apper og dataoverføring
 
 siden følgende apper kommuniserer med andre tjenester, kan de overføre data fra det geografiske området for [!INCLUDE[prod_short](includes/prod_short.md)]-miljøet:
 
@@ -70,7 +70,7 @@ Dette gjelder også for enkelte funksjoner i basisprogrammet, for eksempel følg
 * Online Map
 * EU-mva.-reg.nr. Tjeneste
 
-## <a name="connect-your-business"></a>Koble til virksomheten
+## Koble til virksomheten
 
 Fra og med lanseringsbølge 2 i 2022 kan nettbaserte miljøer for [!INCLUDE [prod_short](includes/prod_short.md)] vise en eller flere apper på sidene **Tilkoblingsapper** og **Bankapper**. Disse appene kan koble virksomheten til eksterne tjenester som øker produktiviteten ved å automatisere prosesser. Du kan for eksempel koble til banker og automatisk importere banktransaksjoner. Appene er enkle å installere og konfigurere direkte fra denne siden. Velg en app for å lære mer om funksjoner og priser.  
 
@@ -81,14 +81,14 @@ Vis listen over foreslåtte apper ved å velge handlingen **Tilkoblingsapper** p
 
 Denne eksterne tjenesten vil generere en liste over relevante apper basert på ditt land eller område
 
-## <a name="recommended-apps"></a>Anbefalte apper
+## Anbefalte apper
 
 Microsoft-partnere og -forhandlere kan opprette en app som de kan bruke til å kompilere lister over apper de ofte anbefaler til kundene sine. Hvis de gjør det og har distribuert appen til leietakeren din, er appene tilgjengelige på siden **Anbefalte apper**. Der kan du lese om hver app og avgjøre om du vil installere dem.
 
 > [!NOTE]
 > Hvis du er en Microsoft-partner eller -forhandler, og du er interessert i å tilby en liste over anbefalte apper, kan du se [Anbefale apper fra AppSource](/dynamics365/business-central/dev-itpro/administration/recommend-apps) i administrasjonsinnholdet.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Installer og avinstaller apper](ui-extensions-install-uninstall.md)  
 [Tilpass Business Central](ui-customizing-overview.md)  
