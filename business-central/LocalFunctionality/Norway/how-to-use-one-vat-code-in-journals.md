@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Bruk én mva-kode i kladder i Norge
+# <a name="use-one-vat-code-in-journals-in-norway"></a>Bruk én mva-kode i kladder i Norge
 
 I Norge kan du bruke funksjonen for én mva-kode i en kladd, slik at du kan bokføre mva ved hjelp av ett enkelt felt, **Mva-kode**. Når én mva-kode er konfigurert, er dette en rask måte å fylle ut mva-felt som brukes ofte.  
 
@@ -18,7 +18,7 @@ For å angi mva-koden for bestillinger og ordrer, må de tilsvarende mva-bokfør
 
 Mva-satsen beregnes fra kombinasjonen av mva-firmabokføringsgrupper, kjøperinformasjon og mva-varebokføringsgrupper.  
 
-## Slik oppretter du en mva-kode:  
+## <a name="to-create-a-vat-code"></a>Slik oppretter du en mva-kode:
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-koder** og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
@@ -27,7 +27,7 @@ Mva-satsen beregnes fra kombinasjonen av mva-firmabokføringsgrupper, kjøperinf
 
 Fremgangsmåten nedenfor beskriver mva-bokføringsoppsettet.  
 
-## Slik definerer du mva-bokføring:  
+## <a name="to-set-up-vat-posting"></a>Slik definerer du mva-bokføring:
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.  
 2.  Velg handlingen **Ny**.  
@@ -51,7 +51,7 @@ For eksempel: mva-satsen som er bokført i kladden, defineres av oppsettet du ha
 >   
 >  Det gjøres ingen endringer i bokføringen.  
 
-## Se også  
+## <a name="see-also"></a>Se også
  [Norske mva-koder](norwegian-vat-codes.md)
 
 

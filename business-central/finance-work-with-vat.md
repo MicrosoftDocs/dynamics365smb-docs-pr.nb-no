@@ -10,7 +10,7 @@ ms.date: 06/16/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Arbeid med mva. på kjøp og salg
+# <a name="work-with-vat-on-sales-and-purchases"></a>Arbeid med mva. på kjøp og salg
 
 Hvis landet eller området krever at du beregner og rapporterer merverdiavgift (mva.) i salgs- og kjøpstransaksjoner, kan du definere [!INCLUDE[prod_short](includes/prod_short.md)] for å beregne mva. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md).
 
@@ -19,7 +19,7 @@ Det er imidlertid enkelte mva-relaterte oppgaver som du kan gjøre manuelt. For 
 > [!TIP]
 > Du kan la [!INCLUDE[prod_short](includes/prod_short.md)] bekrefte organisasjonsnumre og andre selskapsopplysninger når du oppretter eller oppdaterer dokumenter. Hvis du vil ha mer informasjon, kan du se [Validering av organisasjonsnumre](finance-how-validate-vat-registration-number.md).
 
-## Beregne og vise mva-beløp i salgs- og kjøpsdokumenter  
+## <a name="calculating-and-displaying-vat-amounts-on-sales-and-purchase-documents"></a>Beregne og vise mva-beløp i salgs- og kjøpsdokumenter
 
 Når du velger et varenummer i **Nr.**- feltet på et salgs- eller kjøpsdokument, fyller [!INCLUDE[prod_short](includes/prod_short.md)] ut feltene **Enhetspris** og **Linjebeløp**. Salgsprisen kommer fra **varekortet** eller fra salgsprisene som er tillatt for varen og kunden. [!INCLUDE[prod_short](includes/prod_short.md)] beregner linjebeløpet bare når du angir en mengde for linjen.  
 
@@ -27,7 +27,7 @@ Hvis du vil at enhetsprisene og linjebeløpene skal inkludere mva., for eksempel
 
 Du kan beregne og vise mva-beløp i salgs- og kjøpsdokumenter på forskjellig måte, avhengig av hvilken type kunde eller leverandør du handler med. Du kan også endre det beregnede mva-beløpet manuelt, slik at det for eksempel samsvarer mva-beløpet beregnet av leverandøren på en gitt transaksjon.
 
-### Inkluder eller ekskluder mva. i priser og linjebeløp
+### <a name="including-or-excluding-vat-in-prices-and-line-amounts"></a>Inkluder eller ekskluder mva. i priser og linjebeløp
 
 Hvis du merker av for **Priser inkl. mva.** i et salgsdokument, oppdateres feltene **Enhetspris** og **Linjebeløp** slik at de inkluderer mva. Som standard er ikke mva. inkludert i disse feltene. Navnene på feltene gjenspeiler om priser er inkludert mva.  
 
@@ -42,7 +42,7 @@ Tabellen nedenfor inneholder en oversikt over hvordan salgsprisbeløpene beregne
 |Aktivert|Ikke aktivert|Mva-beløpet i **Enhetspris**-feltet på **varekortet** beregnes ved hjelp av mva-prosenten som er knyttet til kombinasjonen av mva-bokføringsgruppe for firma (pris) og mva-bokføringsgruppe for vare. **Salgsprisen** på varekortet, redusert med mva-beløpet, angis deretter i feltet **Salgspris Ekskl. mva.** på salgslinjene. Hvis du vil ha mer informasjon, kan du se [Bruk mva-bokføringsgrupper for firma og kundeprisgrupper](finance-work-with-vat.md#using-vat-business-posting-groups-and-customer-price-groups).|  
 |Aktivert|Aktivert|**Salgsprisen** på varekortet kopieres til feltet **Salgspris Inkl. mva.** på salgslinjene.|
 
-#### Bruk mva-bokføringsgrupper for firma og kundeprisgrupper 
+#### <a name="using-vat-business-posting-groups-and-customer-price-groups"></a>Bruk mva-bokføringsgrupper for firma og kundeprisgrupper
 
 Hvis du vil at priser skal inkludere mva., kan du bruke mva-bokføringsgrupper for firma til å beregne beløpet på bakgrunn av mva-bokføringsoppsettet for gruppen. Hvis du vil ha mer informasjon, kan du se [Definer mva-bokføringsgrupper](finance-setup-vat.md#set-up-vat-business-posting-groups).
 
@@ -56,13 +56,13 @@ Avhengig av hva du vil gjøre, kan du tildele en mva-bokføringsgruppe for firma
 > [!NOTE]
 > Hvis du ikke angir en gruppe i feltet **Mva-bokføringsgruppe for firma (pris)**, er ikke mva. inkludert i priser.
 
-#### Eksempler
+#### <a name="examples"></a>Eksempler
 
 Faktorer som landet eller området du selger til, eller bransjetypen du selger til, kan påvirke det mva-beløpet du må ta med i beregningen. En restaurant kan for eksempel ta 6 % mva for måltider som spise inne, og 17 % for takeaway. For å gjøre det må du opprette en mva-bokføringsgruppe for firma (pris) for internt og en for takeaway.
 
-## Arbeid med mva-dato
+## <a name="working-with-vat-date"></a>Arbeid med mva-dato
 
-### Mva-dato i dokumenter
+### <a name="vat-date-in-documents"></a>Mva-dato i dokumenter
 
 Når du oppretter nye salgs- eller kjøpsdokumenter, er **mva-datoen** være basert på innstillingen i feltet **Standard mva-dato** på siden **Finansoppsett**. Denne standardverdien kan være den samme som **bokføringsdato** eller **dokumentdato**. Hvis du trenger en annen mva-dato, kan du endre verdien i feltet **Mva-dato** manuelt. Når du bokfører dokumentet, vises **mva-datoen** i bokføringsdokumentet og på mva- og finansposter.
 
@@ -78,7 +78,7 @@ Når du oppretter nye salgs- eller kjøpsdokumenter, er **mva-datoen** være bas
 > [!NOTE]
 > Hvis du lar **mva-datoen** være tom, bruker [!INCLUDE [prod_short](includes/prod_short.md)] standardoppsettet fra **Standard mva-dato** i **Finansoppsettet** som en **mva-dato** i den bokførte transaksjonen.  
 
-### Endre mva-dato i bokførte poster
+### <a name="modifying-the-vat-date-in-posted-entries"></a>Endre mva-dato i bokførte poster
 
 Om nødvendig kan du endremva-datoen for bokførte dokumenter. Hvis du vil endre datoen i feltet **Mva-dato** for bokførte dokumenter, må du følge denne fremgangsmåten:
 
@@ -93,7 +93,7 @@ Om nødvendig kan du endremva-datoen for bokførte dokumenter. Hvis du vil endre
 > [!NOTE]
 > Hvis dokumentet har mer enn én **mva-post**, trenger du bare å endre verdien i feltet **Mva-dato** i én post som er knyttet til dokumentet. For å holde poster konsekvente endrer [!INCLUDE[prod_short](includes/prod_short.md)] automatisk mva-datoen i mva-poster som er knyttet til denne transaksjonen. [!INCLUDE [prod_short](includes/prod_short.md)] oppdaterer **mva-datoen** i andre tabeller (finansposter og dokumenter), men bare knyttet til denne transaksjonen.  
 
-## Korrigere mva-beløp manuelt i salgs- og kjøpsdokumenter  
+## <a name="correcting-vat-amounts-manually-on-sales-and-purchase-documents"></a>Korrigere mva-beløp manuelt i salgs- og kjøpsdokumenter
 
 Du kan korrigere mva-poster som er bokført slik at du kan endre de samlede inngående eller utgående mva-beløpene uten å endre mva-basen. Hvis du for eksempel mottar en faktura fra en leverandør med feil mva-beløp.  
 
@@ -101,13 +101,13 @@ Selv om du kan ha satt opp én eller flere kombinasjoner for å håndtere import
 
 Når kontantrabatten er tildelt, kan du tilbakestille den delen av kontantrabatten som gjelder mva-beløpet hvis det er beregnet en kontantrabatt på bakgrunn av et fakturabeløp med mva. Merk at du må aktivere feltet **Juster for kontantrabatt** både i finansoppsettet generelt og i mva-bokføringsoppsettet for en bestemt kombinasjon av mva-firmabokføringsgrupper og mva-varebokføringsgrupper.  
 
-### Slik oppretter du et system for manuell mva-post i salgsdokumenter
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-sales-documents"></a>Slik oppretter du et system for manuell mva-post i salgsdokumenter
 Nedenfor ser du hvordan du aktiverer manuelle mva-endringer på salgsdokumenter. Trinnene ligner på siden **Kjøpsoppsett**.
 
 1. På siden **Finansoppsett** angir du **Maks. tillatte mva-differanse** mellom beløpet som beregnes i programmet, og det manuelle beløpet.  
 2. Merk av for **Tillat mva-differanse** på siden **Salgsoppsett**.  
 
-### Slik justerer du mva for et salgsdokument
+### <a name="to-adjust-vat-for-a-sales-document"></a>Slik justerer du mva for et salgsdokument
 
 1. Åpne den aktuelle ordren.  
 2. Velg handlingen **Statistikk**.  
@@ -117,16 +117,16 @@ Nedenfor ser du hvordan du aktiverer manuelle mva-endringer på salgsdokumenter.
 > [!NOTE]  
 > Det totale mva-beløpet for fakturaen, gruppert etter mva-type, vises på linjene. Du kan justere beløpet manuelt i **Mva-beløp**-feltet på linjene for hver mva-type. Når du endrer **Mva-beløp**-feltet, kontrolleres det at du ikke har endret mva med mer enn beløpet du har angitt som tillatt maksimumsdifferanse. Hvis beløpet er utenfor området for **Maks. tillatte mva-differanse**, vises det en advarsel som angir den maksimale differansen som er tillatt. Du kan ikke fortsette før beløpet er justert innenfor de godkjente parametrene. Klikk **OK** og angi et annet **mva-beløp** som er innenfor det tillatte området. Hvis mva-differansen er lik eller lavere enn tillatt maksimum, deles mva proporsjonelt mellom dokumentlinjene som har samme mva-type.  
 
-## Beregne mva manuelt ved hjelp av kladder  
+## <a name="calculating-vat-manually-using-journals"></a>Beregne mva manuelt ved hjelp av kladder
 Du kan også justere mva-beløper i finanskladder, salgskladder og kjøpskladder. Dette kan for eksempel være nødvendig når du angir en leverandørfaktura i kladden og det er en differanse mellom mva-beløpet som er beregnet i [!INCLUDE[prod_short](includes/prod_short.md)], og mva-beløpet på leverandørfakturaen du har mottatt.  
 
-### Slik konfigurerer du systemet for manuell mva-post i en finanskladd.
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-general-journals"></a>Slik konfigurerer du systemet for manuell mva-post i en finanskladd.
 Du må utføre følgende trinn før du angir mva manuelt i en finanskladd.  
 
 1. På siden **Finansoppsett** angir du **Maks. tillatte mva-differanse** mellom beløpet som beregnes i programmet, og det manuelle beløpet.  
 2. På siden **Finanskladdemaler** merker du av for **Tillat mva-differanse** for den relevante kladden.  
 
-### Slik konfigurerer du systemet for manuell mva-post i salgs- og kjøpskladder
+### <a name="to-set-the-system-up-for-manual-vat-entry-in-a-sales-and-purchase-journals"></a>Slik konfigurerer du systemet for manuell mva-post i salgs- og kjøpskladder
 
 Du må utføre følgende trinn før du angir mva manuelt i en salgs- eller kjøpskladd.
 
@@ -137,10 +137,10 @@ Du må utføre følgende trinn før du angir mva manuelt i en salgs- eller kjøp
 > [!NOTE]  
 > Hvis differansen er større, vises en advarsel som angir maksimalt differansen som er tillatt. Hvis du vil fortsette, må du justere beløpet. Velg **OK** og angi deretter et beløp som er innenfor det tillatte området. Hvis mva-differansen er lik eller lavere enn tillatt maksimumsdifferanse, viser [!INCLUDE[prod_short](includes/prod_short.md)] differansen i feltet **Mva-differanse**.  
 
-## Bokføre import-mva med kjøpsfakturaer
+## <a name="posting-import-vat-with-purchase-invoices"></a>Bokføre import-mva med kjøpsfakturaer
 I stedet for å bruke kladder til å bokføre en viktig mva-faktura, kan du bruke en kjøpsfaktura.  
 
-### Slik definerer du kjøp for bokføring av fakturaer med import-mva.:
+### <a name="to-set-up-purchasing-for-posting-import-vat-invoices"></a>Slik definerer du kjøp for bokføring av fakturaer med import-mva.:
 
 1. Opprett et leverandørkort for importmyndigheten som sender deg fakturaen for import-mva. **Bokføringsgruppe - firma** og **Mva-bokføringsgruppe - firma** må være definert på samme måte som finanskontoen for import-mva.  
 2. Opprett en **Bokføringsgruppe - vare** for import-mva, og definer en **Std. mva-bokf.gruppe - vare** for import-mva for den tilknyttede **Bokføringsgruppe - vare**.  
@@ -150,7 +150,7 @@ I stedet for å bruke kladder til å bokføre en viktig mva-faktura, kan du bruk
 6. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.  
 7. Opprett en kombinasjon av **Bokføringsgruppe - firma** for mva-myndighetene og **Bokføringsgruppe - vare** for import-mva.. For denne nye kombinasjonen velger du finanskontoen for import-mva i **Innkjøpskonto**-feltet.  
 
-### Slik oppretter du en ny faktura for importmyndighetsleverandøren når du har fullført oppsettet  
+### <a name="to-create-a-new-invoice-for-the-import-authority-vendor-once-you-have-completed-the-setup"></a>Slik oppretter du en ny faktura for importmyndighetsleverandøren når du har fullført oppsettet
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kjøpsfakturaer**, og velg deretter den relaterte koblingen.  
 2. Opprett en ny kjøpsfaktura.  
@@ -160,11 +160,11 @@ I stedet for å bruke kladder til å bokføre en viktig mva-faktura, kan du bruk
 6. Angi mva-beløpet i feltet **Direkte enhetskost eks. mva**.  
 7. Bokfør fakturaen.  
 
-## Behandle leveringsbekreftelser
+## <a name="processing-certificates-of-supply"></a>Behandle leveringsbekreftelser
 
 Når du selger varer til en kunde i et annet EU-land, må du sende kunden en leveringsbekreftelse som kunden må signere og returnere til deg. Følgende prosedyrer er for behandling av leveringsbekreftelser for følgesedler, men de samme trinnene gjelder for servicefølgesedler for varer og returforsendelser til leverandører.  
 
-### Slik viser du detaljer om leveringsbekreftelser  
+### <a name="to-view-certificate-of-supply-details"></a>Slik viser du detaljer om leveringsbekreftelser
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokførte salgsforsendelser**, og velg deretter den relaterte koblingen.  
 2. Velg den aktuelle følgeseddelen til en kunde i et annet EU-land eller en annen EU-region.  
 3. Velg **Detaljer om mottaksdeklarasjon**.  
@@ -183,7 +183,7 @@ Når du selger varer til en kunde i et annet EU-land, må du sende kunden en lev
 > [!Note]  
 >  Du kan forhåndsvise eller skrive ut dokumentet. Når du velger **Skriv ut leveringsbekreftelse** og skriver ut dokumentet, blir det merket av for **Skrevet ut** automatisk. Hvis den ikke allerede er angitt, oppdateres statusen for bekreftelsen til **Påkrevd**. Om nødvendig inkluderer du den utskrevne bekreftelsen med leveringen.  
 
-### Slik skriver du ut en leveringsbekreftelse
+### <a name="to-print-a-certificate-of-supply"></a>Slik skriver du ut en leveringsbekreftelse
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokførte salgsforsendelser**, og velg deretter den relaterte koblingen.  
 2. Velg den aktuelle følgeseddelen til en kunde i et annet EU-land eller en annen EU-region.  
@@ -202,7 +202,7 @@ Når du selger varer til en kunde i et annet EU-land, må du sende kunden en lev
 
 8. Send den utskrevne leveringsbekreftelsen til kunden for signatur.  
 
-### Oppdatere statusen til en leveringsbekreftelse for en levering  
+### <a name="to-update-the-status-of-a-certificate-of-supply-for-a-shipment"></a>Oppdatere statusen til en leveringsbekreftelse for en levering
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokførte salgsforsendelser**, og velg deretter den relaterte koblingen.  
 2. Velg den aktuelle følgeseddelen til en kunde i et annet EU-land eller en annen EU-region.  
@@ -216,7 +216,7 @@ Når du selger varer til en kunde i et annet EU-land, må du sende kunden en lev
 
 Hvis du vil vise en gruppe av bekreftelser, kan du starte fra **Leveringsbekreftelser**-siden og deretter oppdatere informasjon om status for utestående bekreftelser når du får dem tilbake fra kundene. Dette kan være nyttig når du vil søke etter alle bekreftelser som har en bestemt status, for eksempel **Påkrevd**, som du vil oppdatere til statusen **Ikke mottatt**.  
 
-### Oppdatere statusen til en gruppe av leveringsbekreftelser  
+### <a name="to-update-the-status-of-a-group-of-certificates-of-supply"></a>Oppdatere statusen til en gruppe av leveringsbekreftelser
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mottaksdeklarasjoner** og velg den relaterte koblingen.  
 2. Filtrer **Status**-feltet til ønsket verdi for å opprette listen over bekreftelsene du vil håndtere.  
@@ -233,7 +233,7 @@ Hvis du vil vise en gruppe av bekreftelser, kan du starte fra **Leveringsbekreft
 > * Opprette en leveringsbekreftelse manuelt  
 > * Slik skriver du ut en leveringsbekreftelse.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Definere beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md)  
 [Rapportere mva til skattemyndighetene](finance-how-report-vat.md)  

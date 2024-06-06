@@ -12,7 +12,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Konfigurer Copilot- og KI-funksjoner 
+# <a name="configure-copilot-and-ai-capabilities"></a>Konfigurer Copilot- og KI-funksjoner
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
@@ -37,12 +37,12 @@ Denne artikkelen forklarer hvordan du kontrollerer Copilot og andre KI-funksjone
 
 Hvis et av disse kravene ikke er oppfylt, er ikke funksjonen tilgjengelig for bruk.
 
-## Forutsetninger
+## <a name="prerequisites"></a>Forutsetninger
 
 - Du bruker Business Central Online.
 - Du er en [administrator](#requirements-for-being-an-administrator) i Business Central.
 
-## Tillat dataflytting på tvers av geografiske områder
+## <a name="allow-data-movement-across-geographies"></a>Tillat dataflytting på tvers av geografiske områder
 
 Denne oppgaven gjelder bare hvis bryteren **Tillat dataflytting** vises nær toppen av siden **Copilot og KI-funksjoner**. Hvis koblingen **Hvordan styrer jeg kopilotdataene mine?** vises i stedet for **Tillat dataflytting**-bryteren, hopper du over dette trinnet.
 
@@ -79,7 +79,7 @@ Meanwhile, customers with environments outside the United States can use Copilot
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
 
-## Aktivere funksjoner
+## <a name="activate-features"></a>Aktivere funksjoner
 
 Alle Copilot- og KI-funksjoner er aktive som standard når de gjøres tilgjengelige i forhåndsversjon eller blir tilgjengelige. Ved hjelp av siden **Copilot og KI-funksjoner** kan du deaktivere eller aktivere på nytt enkeltfunksjoner for alle brukere.
 
@@ -95,7 +95,7 @@ Alle Copilot- og KI-funksjoner er aktive som standard når de gjøres tilgjengel
 <!-- don't review 
 
 <!-- For 2024 there are no AI features governed by **Feature Management**, so this section is not shown
-## Enable feature in Feature Management
+## <a name="enable-feature-in-feature-management"></a>Enable feature in Feature Management
 
 When individual Copilot capabilities are released in Business Central minor updates, these capabilities are optional until the next major update. **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like marketing text suggestions. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -108,7 +108,7 @@ When individual Copilot capabilities are released in Business Central minor upda
 
    For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).-->
 
-## Gi brukertilgang
+## <a name="granting-user-access"></a>Gi brukertilgang
 
 Copilot- og KI-funksjoner kan tilby funksjonalitet beregnet for alle brukere på tvers av organisasjonen eller for spesifikke brukerroller. De fleste Copilot- og KI-funksjonene tilbyr tilgangskontroll ved å bruke tillatelser og tillatelsessett i Business Centrals tillatelsesstyringssystem. [Finn ut mer om tillatelser og tillatelsessett](ui-define-granular-permissions.md).
 
@@ -125,7 +125,7 @@ Tabellen nedenfor viser tillatelsene som kreves for å bruke Copilot-funksjoner 
 
 Hvis du vil gi eller nekte tilgang til spesifikke kopilot- og KI-funksjoner som ikke er fra Microsoft, kan du se funksjonens dokumentasjon eller utgiver for å identifisere de nødvendige tillatelsene.
 
-## Krav for å være administrator
+## <a name="requirements-for-being-an-administrator"></a>Krav for å være administrator
 
 Du må ha SUPER-tillatelser i Business Central-brukerkontoen eller en av følgende Business Central-lisenser:
 
@@ -137,7 +137,7 @@ Du må ha SUPER-tillatelser i Business Central-brukerkontoen eller en av følgen
 
 Business Central tilbyr ennå ikke detaljerte tillatelser på objektnivå, slik at bare bestemte administratorer kan konfigurere Copilot.
 
-## Neste trinn
+## <a name="next-steps"></a>Neste trinn
 
 Når du har aktivert og samtykket til funksjonene, er du klar til å prøve dem. Gå til:
 
@@ -148,7 +148,7 @@ Når du har aktivert og samtykket til funksjonene, er du klar til å prøve dem.
 - [Avstem bankkontoer med Copilot](bank-reconciliation-with-copilot.md)
 - [Foreslå linjer i ordrer med Copilot](sales-suggest-sales-lines-with-copilot.md)  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Feilsøk Copilot- og KI-funksjoner](ai-copilot-troubleshooting.md)  
 [Vanlige spørsmål om analysehjelp](faqs-analysis-assist.md)  

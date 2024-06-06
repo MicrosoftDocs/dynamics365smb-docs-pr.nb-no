@@ -10,11 +10,11 @@ ms.date: 02/14/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Opprett gjentakende salg
+# <a name="create-recurring-sales"></a>Opprett gjentakende salg
 
 Hvis du ofte må opprette salgslinjer med lignende informasjon, kan du definere standardlinjer du deretter kan sette inn på gjentakende salgsdokumenter, for eksempel for gjentakende etterfyllingsordrer.  
 
-## Konfigurer gjentakende salgslinjer
+## <a name="set-up-recurring-sales-lines"></a>Konfigurer gjentakende salgslinjer
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Gjentakende salgslinjer**, og velg deretter den relaterte koblingen.  
 2. På siden **Gjentakende salgslinjer** velger du handlingen **Ny**.  
@@ -26,7 +26,7 @@ Hvis du ofte må opprette salgslinjer med lignende informasjon, kan du definere 
 
 [!INCLUDE [line-no-info](includes/line-no-info.md)]
 
-## Tildel gjentakende salgslinjer til kunder
+## <a name="assign-recurring-sales-lines-to-a-customer"></a>Tildel gjentakende salgslinjer til kunder
 
 Tilordne én eller flere gjentakende salgslinjer til en kunde, slik at de kan settes inn i salgsdokumenter for kunden.
 
@@ -48,7 +48,7 @@ Tilordne én eller flere gjentakende salgslinjer til en kunde, slik at de kan se
 |**Automatisk**|Hvis det finnes flere gjentakende salgslinjer for kunden, får du melding om hvor du kan velge en som kan settes inn. Hvis det bare finnes én gjentakende salgslinje, settes den inn automatisk.<br /><br />Dette bare fungerer hvis det nye dokumentet ble opprettet fra en dokumentliste, for eksempel ved å velge **Ny**-handlingen på **Ordrer**-siden. Den fungerer imidlertid ikke hvis dokumentet ble opprettet fra for eksempel et kundekort.|
 |**Be alltid om bekreftelse**|Det vises en melding, og alle gjentakende salgslinjer vises slik at du kan velge én.
 
-## Sett inn gjentakende salgslinjer i en salgsfaktura
+## <a name="insert-recurring-sales-lines-on-a-sales-invoice"></a>Sett inn gjentakende salgslinjer i en salgsfaktura
 
 Hvis det finnes gjentakende salgslinjer for kunden, kan du sette dem inn eller få dem satt inn, på alle typer salgsdokumenter, for eksempel en salgsfaktura. Hvis du har aktivert alternativene for **Be alltid om bekreftelse** mens du tildeler gjentakende salgslinjer til kunder, blir du informert om det finnes gjentakende salgslinjer.
 
@@ -58,7 +58,7 @@ Hvis det finnes gjentakende salgslinjer for kunden, kan du sette dem inn eller f
 4. På siden **Gjentakende salgslinjer** velger du oppslagsknappen i **Kode**-feltet, og deretter velger du et sett med standard salgslinjer.
 5. Velg **OK** for å sette inn de standard salgslinjene på fakturaen, der du kan bruke informasjonen på nytt som den er eller redigere den.
 
-## Opprett flere salgsfakturaer basert på gjentakende salgslinjer
+## <a name="create-multiple-sales-invoices-based-on-recurring-sales-lines"></a>Opprett flere salgsfakturaer basert på gjentakende salgslinjer
 
 Du kan bruke kjørselen **Opprett gjentakende salgsfakturaer** til å opprette salgsfakturaer i henhold til standard salgslinjer som er tilordnet til kundene, og med bokføringsdatoer innenfor gyldig-fra- og gyldig til-datoer du angir på standardsalgslinjene.
 
@@ -69,7 +69,7 @@ Du kan bruke kjørselen **Opprett gjentakende salgsfakturaer** til å opprette s
 
 Salgsfakturaer blir opprettet for kunder med angitt standard kundesalgskode og eventuell angitt avtalegiroinformasjon, for bokføring på den angitte datoen.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Salg](sales-manage-sales.md)  
 [Konfigurer salg](sales-setup-sales.md)  

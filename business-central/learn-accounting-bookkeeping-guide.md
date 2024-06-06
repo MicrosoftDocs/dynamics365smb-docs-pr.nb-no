@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# Regnskap og bokføring
+# <a name="accounting-and-bookkeeping"></a>Regnskap og bokføring
 
 Regnskap er en kritisk funksjon i alle ressursplanleggingsløsninger, og også i de fleste virksomheter. Regnskap representerer prosessen med å registrere og katalogisere selskapets økonomiske transaksjoner, og deretter hente, måle, oppsummere og presentere resultatene ved å bruke forskjellige rapporter som ofte kreves av lokale lover. Det primære målet ved denne prosessen er å hjelpe selskapets administrasjon med å forstå økonomien i regnskapet og måle resultatene av de økonomiske aktivitetene i selskapet.
 
@@ -99,7 +99,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og tilbyr koblinger til artik
 | Aktiver global finansrapportering til internasjonale regnskapsorganisasjoner med eXtensible Business Reporting Language-standarden (XBRL). | [Opprette rapporter med XBRL](bi-create-reports-with-xbrl.md) |
 | Endre tilgangsformålet for databasen i rapporter, sider av typen API, og spørringer for å bidra til å redusere belastningen og forbedre ytelsen. | [Administrer databasetilgangsform](admin-data-access-intent.md) |
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurere finans](finance-setup-finance.md)  
 [Salg](sales-manage-sales.md)  

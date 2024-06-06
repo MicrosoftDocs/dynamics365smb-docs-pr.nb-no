@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Utformingsdetaljer: Endre lagermetode for varer
+# <a name="design-details-change-the-costing-method-for-items"></a>Utformingsdetaljer: Endre lagermetode for varer
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du ikke endre lagermetode for en vare etter at du har tatt med varen i en transaksjon. Etter at du for eksempel har kjøpt eller solgt varen. Hvis en feil lagermetode ble tilordnet varen eller varene, kan det være at du ikke oppdager problemet før du har gjort finansrapporteringen.
 
@@ -23,7 +23,7 @@ Dette emnet beskriver hvordan du løser dette problemet. Den anbefalte fremgangs
 > [!TIP]
 > Vi anbefaler at du starter konverteringsprosessen med én enkelt vare eller et lite sett med varer for å bli kjent med prosessen.
 
-## Om lagermetoder
+## <a name="about-costing-methods"></a>Om lagermetoder
 
 Lagermetoder styrer kostnadsberegninger når varer kjøpes, mottas på lager og selges. Lagermetoder påvirker tidsberegningen av beløp som er registrert i vareforbruk og som påvirker bruttofortjenesten. Dette er flyten som beregner vareforbruk. Solgte varers kost (vareforbruk) og inntekt brukes til å fastsette bruttofortjenesten på følgende måte:
 
@@ -39,7 +39,7 @@ Når du definerer lagervarer, må du tilordne en lagermetode. Metoden kan varier
 
 Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Kostmetoder](design-details-costing-methods.md).
 
-## Bruk monteringsordrer til å endre tilordninger for lagermetode
+## <a name="use-assembly-orders-to-change-costing-method-assignments"></a>Bruk monteringsordrer til å endre tilordninger for lagermetode
 
 Denne delen beskriver følgende fremgangsmåte for å endre lagermetoden som er tilordnet en vare:
 
@@ -52,21 +52,21 @@ Denne delen beskriver følgende fremgangsmåte for å endre lagermetoden som er 
 7. Håndter lagerantall som er tildelt behov.
 8. Sperre den opprinnelige varen for ytterligere bruk.  
 
-### Definere standard lagermetode
+### <a name="define-a-default-costing-method"></a>Definere standard lagermetode
 
 For å unngå fremtidige feil kan du angi en standard lagermetode for nye varer. Når noen oppretter en ny vare, foreslår [!INCLUDE[prod_short](includes/prod_short.md)] denne standard lagermetoden. Du angir standardmetoden i feltet **Standard lagermetode** på **Lageroppsett**-siden. 
 
-### Identifisere varene lagermetoden skal endres for, og nummerere dem på nytt
+### <a name="identify-the-items-to-change-the-costing-method-for-and-renumber-them"></a>Identifisere varene lagermetoden skal endres for, og nummerere dem på nytt
 
 Du vil kanskje gi de nye varene de samme numrene som de erstatter. Dette gjør du ved å endre numrene på de eksisterende varene. Hvis det eksisterende varenummeret for eksempel er "P1000", kan det du endrer det til "X-P1000". Dette er en manuell endring du må foreta for hver vare.
 
-### Opprette nye varer med den gamle nummereringsplanen, og kopiere hoveddata i en bunke
+### <a name="create-new-items-with-the-old-numbering-scheme-and-copy-the-master-data-in-a-batch"></a>Opprette nye varer med den gamle nummereringsplanen, og kopiere hoveddata i en bunke
 
 Opprett de nye varene med gjeldende nummeroppsett. Med unntak av **Lagermetode**-feltet, skal de nye varene inneholde de samme hoveddataene som de eksisterende varene. Hvis du vil overføre hoveddata for varen og relaterte data fra andre funksjoner, bruker du **Kopier vare**-handlingen på **Varekort**-siden. Hvis du vil ha mer informasjon, se [Kopiere eksisterende varer for å opprette nye varer](inventory-how-copy-items.md).
 
 Når du har opprettet de nye varene og overført hoveddata, tilordner du den riktige lagermetoden.
 
-### Kopiere relaterte hoveddata manuelt fra den opprinnelige varen til den nye varen
+### <a name="manually-copy-related-master-data-from-the-original-item-to-the-new-item"></a>Kopiere relaterte hoveddata manuelt fra den opprinnelige varen til den nye varen
 
 Hvis du vil gjøre slik at de nye varene kan brukes, må du kopiere noen hoveddata manuelt fra andre områder, som beskrevet i tabellen nedenfor.
 
@@ -88,7 +88,7 @@ Hvis du vil gjøre slik at de nye varene kan brukes, må du kopiere noen hovedda
 > [!IMPORTANT]
 > Hvis den nye lagermetoden er standard, må du angi en verdi i feltet **Kostpris (standard)** på **Varekort**-siden. Du kan bruke siden **Standardkost - forslag** til å definere kostandeler i henhold til dette. Hvis du vil ha mer informasjon, kan du se [Oppdatere standardkost](finance-how-to-update-standard-costs.md).
 
-### Fastsette lagerantallet som skal konverteres fra den opprinnelige varen til den nye varen
+### <a name="determine-the-inventory-quantity-to-convert-from-the-original-item-to-the-new-item"></a>Fastsette lagerantallet som skal konverteres fra den opprinnelige varen til den nye varen
 
 > [!NOTE]
 > Dette trinnet tar ikke hensyn til antall som er inkludert i ikke-leverte ordrer. Hvis du vil ha mer informasjon, kan du se [Håndter lagerantall som er tildelt behov](design-details-changing-costing-methods.md#handle-inventory-quantities-that-are-allocated-to-demand). 
@@ -100,13 +100,13 @@ Bruk en vareopptellingskladd til å lage en liste over antallene på lageret. Av
 
 Begge kladdene kan beregne lagerantallet for varen, inkludert lokasjon, variant, hylle og lagringslokasjon. Hvis du vil ha mer informasjon, se [Telle, justere og reklassifisere lagerbeholdning ved hjelp av kladder](inventory-how-count-adjust-reclassify.md)
 
-### Overføre lageret til den nye varen
+### <a name="transfer-the-inventory-to-the-new-item"></a>Overføre lageret til den nye varen
 
 Opprett og bokfør monteringsordrer for å overføre kost og lagerantall fra den opprinnelige varen til den nye varen. Monteringsordrer kan konvertere én vare til en annen samtidig som kostnadene beholdes. Dette sikrer at nettosummene for lagerkontoen og vareforbruk ikke berøres (bortsett fra når den nye lagermetoden er standard, der kostnader distribueres til avvikskontoer). Hvis du vil ha mer informasjon, se [Monteringsstyring](assembly-assemble-items.md).
 
 Når du oppretter monteringsordrer, bruker du opplysningene fra Vareopptellingskladder eller Lager opptellingskladd. Tabellene nedenfor beskriver informasjonen i rapportene som kan registreres i hodet og på linjene i monteringsordren.
 
-#### Overskrift
+#### <a name="header"></a>Overskrift
 
 |Felt  |Verdi å angi  |
 |---------|---------|
@@ -117,7 +117,7 @@ Når du oppretter monteringsordrer, bruker du opplysningene fra Vareopptellingsk
 |Enhetskode |Det samme som i vareopptellingskladd. |
 |Hyllekode |Det samme som i vareopptellingskladd. |
 
-#### Linjer
+#### <a name="lines"></a>Linjer
 
 |Felt  |Verdi å angi  |
 |---------|---------|
@@ -134,7 +134,7 @@ Når du oppretter monteringsordrer, bruker du opplysningene fra Vareopptellingsk
 > [!NOTE]
 > For en lagerlokasjon må du kanskje opprette plukk før du kan bokføre monteringsordren. Du undersøker dette ved å gå gjennom oppsettet for plukking på **Lokasjonskort**-siden. Hvis du vil ha mer informasjon, kan du se [Definere varer og lokasjoner for lagerstyring](warehouse-how-to-set-up-items-for-directed-put-away-and-pick.md).
 
-### Håndtere lagerantall som er tildelt behov
+### <a name="handle-inventory-quantities-that-are-allocated-to-demand"></a>Håndtere lagerantall som er tildelt behov
 
 Ideelt sett vil lageret for den opprinnelige varen gå til null etter at du har overført lagerantallene. Det kan imidlertid finnes åpne ordrer, forslag og kladder (se tabellen nedenfor) som fortsatt krever et antall av den opprinnelige varen. Antallet kan også sperres med en reservasjon eller varesporing.
 
@@ -157,11 +157,11 @@ Tabellen nedenfor viser funksjonsområder der det kan være restantall.
 |Tjeneste |Servicedokumenter og servicekontrakter |
 |Produksjon |Produksjonsordrer (planlagte, fast planlagte og frigitte) |
 
-### Sperre den opprinnelige varen for ytterligere bruk
+### <a name="block-the-original-item-from-further-use"></a>Sperre den opprinnelige varen for ytterligere bruk
 
 Når beholdningen for den opprinnelige varen er null, kan du sperre varen for å hindre at det blir brukt i nye transaksjoner. Du sperrer varen ved å aktivere **Sperret** på **Varekort**-siden. Hvis du vil ha mer informasjon, kan du se [Sperre varer fra salg eller kjøp](inventory-how-block-items.md).
 
-## Sammendrag
+## <a name="summary"></a>Sammendrag
 
 Endring av lagermetoden for varer som er brukt i transaksjoner, er en prosess og ikke en standardhandling i [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan bruke fremgangsmåtene som er beskrevet i dette emnet, som en mal for prosessen.
 
@@ -172,7 +172,7 @@ Vi anbefaler følgende:
 1. Vurdere gjennomførbarheten for prosessen ved å ta én, eller kanskje noen få, representative varer gjennom hele prosessen.
 2. Vurder å kontakte en erfaren partner som kan hjelpe deg med prosessen.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Designdetaljer: Kostmetoder](design-details-costing-methods.md)  
 [Oversikt](design-details-inventory-costing.md)

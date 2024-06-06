@@ -12,7 +12,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Vanlige spørsmål om ansvarlig kunstig intelligens for Dynamics 365 Business Central
+# <a name="responsible-ai-faqs-for-dynamics-365-business-central"></a>Vanlige spørsmål om ansvarlig kunstig intelligens for Dynamics 365 Business Central
 
 [!INCLUDE[responsible-ai-features-intro](includes/responsible-ai-intro.md)]
 

@@ -10,10 +10,10 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Legge til kontakter i segmenter
+# <a name="adding-contacts-to-segments"></a>Legge til kontakter i segmenter
 Etter at du har opprettet et segment og angitt grunnleggende opplysninger om segmentet, kan det være du vil legge til kontakter i segmentet. Dette kan du gjøre ved å fylle ut linjene manuelt på siden **Segment**, men det enkleste og raskeste er å bruke handlingen **Legg til kontakter**.
 
-## Slik legger du til en kontakt i et segment:
+## <a name="to-add-a-contact-to-a-segment"></a>Slik legger du til en kontakt i et segment:
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Segmenter**, og velg deretter den relaterte koblingen.  
 2. Velg segmentet, og velg deretter handlingen **Legg til kontakter**. Siden for kjørselen **Legg til kontakter** åpnes.
 3. I inndelingen **Kontakt** definerer du filtre for å angi opplysningene du vil velge kontakter etter.
@@ -22,7 +22,7 @@ Hvis du vil angi flere filtre, gjentar du denne fremgangsmåten på hver av de r
 
 Klikk handlingen **Gå tilbake** hvis du har lagt til kontakter ved en feiltakelse og vil gå ett trinn tilbake.
 
-## Fornye antall kontakter
+## <a name="to-refine-the-number-of-contacts"></a>Fornye antall kontakter
 Etter at du har angitt hvilke kontakter du vil ha med i et segment, kan det være at du vil fjerne noen av dem. Du kan manuelt fjerne kontakter fra linjene på siden **Segment**, men det enkleste og raskeste er å bruke handlingen **Forny kontakter**.
 
 1. Åpne segmentet.
@@ -34,7 +34,7 @@ Du kan fornye et segment så mange ganger du vil. Klikk **Gå tilbake** hvis du 
 
 Du finner en oversikt over hvilke segmentkriterier du har brukt, ved å velge feltet **Ant. kriteriehandlinger** i inndelingen **Generelt**.
 
-## Redusere antall kontakter
+## <a name="to-reduce-the-number-of-contacts"></a>Redusere antall kontakter
 Etter at du har angitt hvilke kontakter du vil ha med i et segment, kan det være at du vil fjerne noen av dem. Dette kan du gjøre ved å fjerne dem manuelt fra linjene på Segment-siden, men det enkleste og raskeste er å bruke funksjonen Reduser kontakter til å angi hvilke kontakter som skal fjernes, og bruke funksjonen Forny kontakter til å angi hvilke kontakter som skal beholdes.
 
 1. Åpne segmentet.
@@ -44,7 +44,7 @@ Etter at du har angitt hvilke kontakter du vil ha med i et segment, kan det vær
 
 Du kan redusere et segment så mange ganger du vil. Velg handlingen **Gå tilbake** hvis du har fornyet segmentet ved en feiltakelse og vil gå ett trinn tilbake.
 
-## Se også
+## <a name="see-also"></a>Se også
 [Opprette et segment](marketing-how-create-segment.md)   
 [Håndtere segmenter](marketing-segments.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  
