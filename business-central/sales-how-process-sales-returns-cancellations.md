@@ -10,7 +10,7 @@ ms.date: 02/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="process-sales-returns-or-cancellations"></a>Behandle ordrereturer eller annulleringer
+# Behandle ordrereturer eller annulleringer
 
 Hvis en kunde vil returnere varer eller bli refundert for varer eller tjenester du har solgt og mottatt betaling for, må du opprette og bokføre en salgskreditnota som angir den ønskede endringen. Hvis du vil ta med de riktige salgsfakturaopplysningene, kan du utføre følgende oppgaver:  
 
@@ -29,7 +29,7 @@ Bokføringen av kreditnotaen tilbakefører også eventuelle varegebyr som var ti
 > [!NOTE]
 > Bokføringsaspekter ved ordrereturer, for eksempel betaling til kunder som refusjoner, anses som bokføringsarbeid og er ikke beskrevet her. Hvis du vil ha mer informasjon, kan du se [Administrere skyldige beløp](payables-manage-payables.md).
 
-## <a name="to-create-a-sales-credit-memo-from-a-posted-sales-invoice"></a>Opprette en ny salgskreditnota fra en bokført salgsfaktura
+## Opprette en ny salgskreditnota fra en bokført salgsfaktura  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bokførte salgsfakturaer**, og velg deretter den relaterte koblingen.  
 2. På siden **Bokførte salgsfakturaer** velger du den bokførte salgsfakturaen som du vil tilbakeføre, velg handlingen **Avbryt** og deretter velger du **Opprett korrigerende kreditnota**.
@@ -52,7 +52,7 @@ Dialogboksen **Bokfør og send bekreftelse** åpnes, og viser den foretrukne sen
 
 De bokførte salgsdokumentene som du utlignet kreditnotaen mot, tilbakeføres, og en refusjonsbetaling kan opprettes for kunden. Salgskreditnotaen fjernes og erstattes med et nytt dokument i listen over bokførte salgskreditnotaer.
 
-## <a name="to-create-a-sales-credit-memo-by-copying-a-posted-sales-invoice"></a>Opprette en salgskreditnota ved å kopiere en bokført salgsfaktura
+## Opprette en salgskreditnota ved å kopiere en bokført salgsfaktura
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgskreditnotaer**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny** for å åpne en ny, tom salgskreditnota.
@@ -64,7 +64,7 @@ De bokførte salgsdokumentene som du utlignet kreditnotaen mot, tilbakeføres, o
 8. Velg **OK**. De kopierte fakturalinjene settes inn i salgskreditnotaen.
 9. Fullfør salgskreditnotaen som forklart i [Opprette en salgskreditnota fra en bokført salgsfaktura](sales-how-process-sales-returns-cancellations.md#to-create-a-sales-credit-memo-from-a-posted-sales-invoice).
 
-## <a name="to-create-a-sales-allowance"></a>Slik oppretter du en salgsrabatt
+## Slik oppretter du en salgsrabatt
 Du kan sende en kunde en kreditnota med prisreduksjon hvis kunden har mottatt ukurante varer eller har mottatt varene for sent.  
 Du kan bokføre den reduserte prisen som et varegebyr i en kreditnota eller en ordreretur, og knytte den til den bokførte følgeseddelen. Det følgende beskriver den for en salgskreditnota, men de samme trinnene gjelder en ordreretur.
 
@@ -80,7 +80,7 @@ Du kan bokføre den reduserte prisen som et varegebyr i en kreditnota eller en o
 
 Når du bokfører ordrereturen, legges salgsrabatten til i det aktuelle salgsbeløpet. Dermed kan du opprettholde en nøyaktig lagerverdisetting.
 
-## <a name="to-combine-return-receipts"></a>Slå sammen retursedler
+## Slå sammen retursedler
 Du kan slå sammen retursedler hvis kunden returnerer flere varer som dekkes av ulike ordrereturer.  
 
 Når du mottar varene på lageret, bokfører du de aktuelle ordrereturene som mottatt. Dette oppretter bokførte returmottak.  
@@ -89,7 +89,7 @@ Når du er klar til å fakturere denne kunden, kan du i stedet for å fakturere 
 
 Du kombinerer retursedler ved å merke av for **Opprett samlefaktura** på siden **Kundekort**.  
 
-### <a name="to-manually-combine-return-receipts"></a>Slik slår du sammen retursedler manuelt
+### Slik slår du sammen retursedler manuelt  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgskreditnotaer**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.
@@ -103,7 +103,7 @@ Du kombinerer retursedler ved å merke av for **Opprett samlefaktura** på siden
 6.  Hvis du valgte en feil følgeseddellinje, eller du vil starte på nytt, kan du ganske enkelt slette linjene på kreditnotaen og kjøre funksjonen **Hent returseddellinjer** på nytt.  
 7.  Bokfør fakturaen.  
 
-### <a name="to-automatically-combine-return-receipts"></a>Slik slår du sammen retursedler automatisk:
+### Slik slår du sammen retursedler automatisk:
 
 Du kan slå sammen retursedler automatisk og velge å bokføre kreditnotaene automatisk ved hjelp av funksjonen **Slå sammen retursedler**.  
 
@@ -112,7 +112,7 @@ Du kan slå sammen retursedler automatisk og velge å bokføre kreditnotaene aut
 3. Merk av for **Bokfør kreditnotaer**. Hvis ikke må du manuelt bokføre de endelige kjøpskreditnotaene.
 4. Velg **OK**.  
 
-### <a name="to-remove-a-received-and-invoiced-return-order"></a>Slik fjerner du mottatte og fakturerte ordrereturer
+### Slik fjerner du mottatte og fakturerte ordrereturer
 
 Når du fakturerer retursedler på denne måten, eksisterer fortsatt ordrereturene som retursedlene ble bokført fra, selv om de er fullstendig mottatt og fakturert.  
 
@@ -124,7 +124,7 @@ Når retursedler slås sammen på en kreditnota og bokføres, opprettes en bokf�
 
 Du kan også slette individuelle ordrereturer manuelt.  
 
-## <a name="inventory-costing"></a>Beholdning og kostberegning
+## Beholdning og kostberegning
 
 For å beholde riktig lagerverdi vil du vanligvis sette returnerte varene tilbake i lageret med enhetskosten som de er solgt på, ikke på gjeldende enhetskost. Dette kalles opprinnelig kostpris.
 
@@ -139,7 +139,7 @@ For å tilordne opprinnelig kostpris manuelt, må du velge feltet **Utlignet fra
 
 Hvis du vil ha mer informasjon, kan du se [Kostberegning for beholdning](design-details-inventory-costing.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Salg](sales-manage-sales.md)  
 [Sette opp salg](sales-setup-sales.md)  

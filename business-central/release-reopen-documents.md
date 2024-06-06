@@ -10,11 +10,11 @@ ms.custom: bap-template
 author: jswymer
 ---
 
-# <a name="release-and-reopen-sales-and-purchase-documents"></a>Frigi og åpne salgs- og kjøpsdokumenter på nytt
+# Frigi og åpne salgs- og kjøpsdokumenter på nytt
 
 I denne artikkelen lærer du hvordan du frigir eller åpner salgs- og kjøpsdokumenter på nytt, for eksempel en ordre, en faktura og et tilbud. Du frigir salgs- og kjøpsdokumenter for å flytte dem til neste behandlingsfase før de bokføres. Når en ordre frigis, tas den med i alle tilgjengelighetsberegninger fra den forventede mottaksdatoen for varene.
 
-## <a name="release-a-sales-or-purchase-document"></a>Frigi et salgs- eller kjøpsdokument
+## Frigi et salgs- eller kjøpsdokument
 
 1. Åpne dokumentet du vil frigi, slik:
 
@@ -25,7 +25,7 @@ I denne artikkelen lærer du hvordan du frigir eller åpner salgs- og kjøpsdoku
 
    Feltet **Status** endres til **Frigitt**.
 
-## <a name="reopen-a-sales-or-purchase-document"></a>Åpne et salgs- eller kjøpsdokument på nytt
+## Åpne et salgs- eller kjøpsdokument på nytt
 
 Du kan foreta endringer i et frigitt salgs- og kjøpsdokument ved å åpne det på nytt.
 
@@ -43,7 +43,7 @@ Du kan nå endre dokumentet før du frigir det på nytt.
 > [!NOTE]
 > På dokumentlinjer som allerede er håndtert i lageret, er den eneste endringen du kan gjøre, å endre antallet.
 
-## <a name="see-also"></a>Se også
+## Se også
   
 [Salg](sales-manage-sales.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  

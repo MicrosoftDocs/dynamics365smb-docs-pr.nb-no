@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="sustainability-management-overview"></a>Oversikt over bærekraftsadministrasjon
+# Oversikt over bærekraftsadministrasjon
 
 > [!IMPORTANT]
 > Denne funksjonen blir tilgjengelig i Business Central fra **lanseringsbølge 1 i 2024**. Alle referansekoblinger aktiveres etter at de er tilgjengelige.
@@ -42,7 +42,7 @@ Bruk følgende artikler for å komme i gang med bærekraftsadministrasjon.
 | [Bærekraftskontoplan og -post](finance-sustainability-accounts-ledger.md) | Denne artikkelen inneholder informasjon om hvordan du konfigurerer bærekraftskontoplan, kontokategorier og underkategorier riktig, og hvordan du analyserer informasjon i bærekraftsposter. |
 | [Registrer bærekraftsposter](finance-sustainability-journal.md) | Bruk denne artikkelen til å lære hvordan du arbeider med alle typer bærekraftskladder. |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bærekraftsoppsett](finance-sustainability-setup.md)  
 [Bærekraftskontoplan og finans](finance-sustainability-accounts-ledger.md)  

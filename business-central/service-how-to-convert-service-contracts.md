@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="convert-service-contracts-that-include-vat-amounts"></a>Konverter servicekontrakter som inkluderer mva-beløp
+# Konverter servicekontrakter som inkluderer mva-beløp
 
 Siden verktøyet for endring av mva-sats ikke kan konverteres til servicekontrakter, må du konvertere disse kontraktene manuelt. Denne artikkelen beskriver flere alternative metoder som du kan bruke for servicekontraktkonvertering.  
 
@@ -22,7 +22,7 @@ Siden verktøyet for endring av mva-sats ikke kan konverteres til servicekontrak
 > [!NOTE]  
 > I dette eksemplet må du endre arbeidsdatoen til 01.01.2017.  
 
-## <a name="to-correct-an-invoice-for-a-prepaid-service-contract"></a>Slik retter du opp en faktura for en forhåndsbetalt servicekontrakt:
+## Slik retter du opp en faktura for en forhåndsbetalt servicekontrakt:  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kontrakthåndtering**, og velg deretter den relaterte koblingen.  
 2. Velg **Servicekontrakter** under **Oversikter**.  
@@ -35,14 +35,14 @@ Siden verktøyet for endring av mva-sats ikke kan konverteres til servicekontrak
 > [!NOTE]  
 > Ikke endre fakturaen som ikke er bokført. Siden servicepostene opprettes når fakturaen opprettes, vil ikke en endring i den ikke-bokførte fakturaen endre de allerede opprettede servicepostene. Mva-postene opprettes imidlertid når fakturaen er bokført. Dette lar deg endre varebokføringsgruppen og GSP-varebokføringsgruppen på den ikke-bokførte servicefakturaen.  
 
-### <a name="to-create-a-credit-memo-for-vat-difference"></a>Slik oppretter du en kreditnota for mva-differanse:
+### Slik oppretter du en kreditnota for mva-differanse: 
  
 Følgende fremgangsmåte beskriver hvordan du oppretter en kreditnota som bare inneholder mva-differansen for den allerede fakturerte perioden som starter **01.07.2017**. I dette eksemplet bokføres mva-beløpet bare i Økonomistyring-modulen, ikke i Service-modulen. Mva-postene som er knyttet til serviceposten, blir ikke korrigert.  
 
 1. Opprett en ny finanskonto for mva-differansen. Denne kontoen brukes til direkte bokføring av mva-korrigering.  
 2. Legg til en ny linje i mva-bokføringsoppsettet.  
 
-## <a name="to-create-contract-expiration-dates-in-contract-lines"></a>Slik oppretter du kontraktutløpsdatoer i kontraktlinjer:
+## Slik oppretter du kontraktutløpsdatoer i kontraktlinjer:  
 
 Følgende fremgangsmåte beskriver hvordan du oppretter nye kontrakter ved å arbeide med kontraktenes utløpsdatoer på servicekontraktlinjer.  
 
@@ -50,7 +50,7 @@ Følgende fremgangsmåte beskriver hvordan du oppretter nye kontrakter ved å ar
 2. Velg handlingen **Opprett kreditnota** for å automatisk opprette en kreditnota for juli 2017 til desember 2017.  
 3. Siden kontrakten er utløpt, må du opprette en ny kontrakt for perioden med den nye mva-satsen for 1. juli 2017 til 31. desember 2017.  
 
-### <a name="to-create-a-new-credit-memo"></a>Slik oppretter du en ny kreditnota
+### Slik oppretter du en ny kreditnota  
 
 Følgende fremgangsmåte beskriver hvordan du oppretter en ny kreditnota ved hjelp av kjørselen **Hent forh.bet. kontraktposter**. Poster som du ikke vil rette fra januar 2017 til juni 2017, blir slettet.  
 
@@ -61,7 +61,7 @@ Følgende fremgangsmåte beskriver hvordan du oppretter en ny kreditnota ved hje
 5. Velg handlingen **Hent forh.bet. kontraktposter**.  
 6. Når konverteringen er fullført, vil MVA-poster og serviceposter være riktige.  
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Arbeid med servicekontrakter og servicekontrakttilbud](service-how-to-create-service-contracts-and-service-contract-quotes.md)  
 [Finans](finance.md)  

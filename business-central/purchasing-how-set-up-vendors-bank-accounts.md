@@ -7,18 +7,18 @@ ms.topic: article
 ms.date: 07/04/2022
 ms.author: bholtorf
 ---
-# <a name="set-up-vendor-bank-accounts"></a>Konfigurer leverandørbankkontoer
+# Konfigurer leverandørbankkontoer
 
 På samme måte som du kan bruke bankkontoopplysninger på [!INCLUDE [prod_short](includes/prod_short.md)] til å holde oversikt over selskapets banktransaksjoner, kan du også angi bankdetaljer for leverandører. Bankkontodata for leverandører kan for eksempel forenkle betaling til leverandører når de kombineres med funksjonen [AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md) eller [Eksporter betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md).
 
-## <a name="add-or-edit-a-vendor-bank-account"></a>Legg til eller rediger en leverandørbankkonto
+## Legg til eller rediger en leverandørbankkonto
 
 [!INCLUDE [purchase-vendor-bank-account](includes/purchase-vendor-bank-account.md)]
 
 > [!TIP]
 > Du kan definere flere leverandørbankkontoer på siden **Liste over leverandørbankkonto**.
 
-## <a name="set-up-a-preferred-vendor-bank-account"></a>Konfigurer en foretrukket leverandørbankkonto
+## Konfigurer en foretrukket leverandørbankkonto
 
 Hvis en leverandør har en eller flere bankkontoer og du vil angi et foretrukket alternativ for betalingskladdelinjene, følger du denne fremgangsmåten:
 
@@ -26,7 +26,7 @@ Hvis en leverandør har en eller flere bankkontoer og du vil angi et foretrukket
 2. Åpne kortet for leverandøren.
 3. Velg standard leverandørbankkonto i feltet **Foretrukket bankkontokode** på hurtigfanen **Betalinger**.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Definere kjøp](purchasing-setup-purchasing.md)  
 [Registrer nye leverandører](purchasing-how-register-new-vendors.md)  
