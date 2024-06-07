@@ -12,7 +12,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="faq-for-mapping-e-documents-with-purchase-orders-using-copilot-preview"></a>Vanlige spørsmål om å tildele e-dokumenter med bestillinger ved hjelp av Copilot (forhåndsversjon)
+# Vanlige spørsmål om å tildele e-dokumenter med bestillinger ved hjelp av Copilot (forhåndsversjon)
 
 [!INCLUDE[preview-banner](includes/preview-banner.md)]
 
@@ -20,7 +20,7 @@ Disse vanlige spørsmålene beskriver virkningen av kunstig intelligens for funk
 
 [!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
 
-## <a name="what-is-e-documents-matching-assistance"></a>Hva er samsvarshjelp for e-dokument?
+## Hva er samsvarshjelp for e-dokument?
 
 Elektroniske dokumenter (e-dokumenter) fungerer som grunnlaget for moderne forretningstransaksjoner. De representerer viktig papirarbeid som fakturaer og kvitteringer som flyter i begge retninger gjennom levering og mottak. Du kan generere og overføre elektroniske fakturaer digitalt i et strukturert format som forenkler automatisert fakturabehandling. Håndtering av innkommende digitale fakturaer kan imidlertid være mer komplisert for leverandørteam.  
 
@@ -30,7 +30,7 @@ Historisk sett kunne [!INCLUDE [prod_short](includes/prod_short.md)] generere ny
 
 **Samsvarshjelp for e-dokumenter** bruker generativ kunstig intelligens til å effektivisere denne prosessen ved å automatisere analysen av eksterne elektroniske fakturaer. Funksjonen gjør det mulig for regnskapsførere å be Copilot om å samsvare linjer på innkommende elektroniske fakturaer med linjer på bestillinger i [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="what-are-capabilities-of-the-e-documents-matching-assistance"></a>Hva er funksjonene i samsvarshjelpen for e-dokumenter?
+## Hva er funksjonene i samsvarshjelpen for e-dokumenter?
 
 Copilot gir hjelp drevet av kunstig intelligens for å samsvare mottatt digital faktura med eksisterende bestillinger i [!INCLUDE [prod_short](includes/prod_short.md)]. Copilot samsvarer linjer basert på følgende:
 
@@ -43,11 +43,11 @@ Copilot identifiserer lignende beskrivelser hvis de har riktig enhet og priser, 
 
 Copilot kobler ikke til endepunkttjenesten for e-dokumenter for å hente eller sende digitale bilag. Denne oppgaven er helt innenfor din kontroll og er en forutsetning for å kunne bruke Copilots hjelp. Dette gjelder uavhengig av om de digitale dokumentene legges til i [!INCLUDE [prod_short](includes/prod_short.md)] ved hjelp av en tilkobling til en endepunktstjeneste eller angis manuelt.  
 
-## <a name="what-is-the-intended-use-of-the-e-documents-matching-assistance"></a>Hva er den tiltenkte bruken av samsvarshjelp for e-dokumenter?
+## Hva er den tiltenkte bruken av samsvarshjelp for e-dokumenter?  
 
 Målet med funksjonen **Samsvarshjelp for e-dokumenter** er å hjelpe leverandørteamet med å samsvare eksisterende bestillinger med innkommende elektroniske fakturaer. Mye av denne aktiviteten dreier seg om strengsamsvar. [!INCLUDE [prod_short](includes/prod_short.md)] tilbyr en funksjon som automatiserer noe av denne aktiviteten, og store språkmodeller har blitt identifisert som en mulighet til å supplere denne funksjonen og ytterligere redusere manuell innsats.  
 
-## <a name="how-was-e-documents-matching-assistance-evaluated-what-metrics-are-used-to-measure-performance"></a>Hvordan ble samsvarshjelp for e-dokumenter evaluert? Hvilke målinger brukes til å måle ytelse?
+## Hvordan ble samsvarshjelp for e-dokumenter evaluert? Hvilke målinger brukes til å måle ytelse?
 
 Denne funksjonen ble testet ved hjelp av kombinasjoner av følgende informasjon:
 
@@ -60,13 +60,13 @@ Denne funksjonen ble testet ved hjelp av kombinasjoner av følgende informasjon:
 
 Testdata representerer både typisk bruk og bruk av dårlige aktører. Ytelsen ble målt sammenlignet med manuelt samsvar av de samme dataene i elektroniske fakturaer og bestillinger.
 
-## <a name="what-are-the-limitations-of-e-documents-matching-assistance-how-can-users-minimize-the-impact-of-the-e-documents-matching-assistance-limitations-when-using-the-system"></a>Hva er begrensningene til samsvarshjelpen for e-dokumenter? Hvordan kan brukere minimere virkningen av begrensninger for samsvarshjelp for e-dokumenter når de bruker systemet?
+## Hva er begrensningene til samsvarshjelpen for e-dokumenter? Hvordan kan brukere minimere virkningen av begrensninger for samsvarshjelp for e-dokumenter når de bruker systemet?
 
 **Samsvarshjelp for e-dokumenter** fungerer best når eksterne varebeskrivelser (e-faktura) og interne varebeskrivelser ([!INCLUDE [prod_short](includes/prod_short.md)]) og enheter er på samme språk. Blandede språk eller blandet språk i varebeskrivelser resulterer ofte i færre treff og forslag.  
 
 Foreslått samsvar mellom varer fra e-fakturaer og varer i bestillinger fungerer best på engelsk. Selv om du kan bruke denne funksjonen på alle språk som [!INCLUDE [prod_short](includes/prod_short.md)] støtter, kan du oppleve færre varetreff på andre språk.
 
-## <a name="in-which-geographies-and-languages-is-e-documents-matching-assistance-available"></a>I hvilke geografiske områder og på hvilke språk er samsvarshjelp for e-dokumenter tilgjengelig?
+## I hvilke geografiske områder og på hvilke språk er samsvarshjelp for e-dokumenter tilgjengelig? 
 
 Denne funksjonen er tilgjengelig for alle land-/områdemiljøer og på alle brukerspråk med unntak av Canada. På grunn av begrenset språkstøtte er funksjonen i utgangspunktet ikke tilgjengelig for kanadiske kunder fordi den ikke oppfyller regelverket for språkoverholdelse. 
 
@@ -74,11 +74,11 @@ For kundemiljøer i land/områder der Azure OpenAI-tjenesten ikke er tatt i bruk
 
 Hvis du vil ha mer informasjon om språk, kan du gå til [Hva er begrensningene for samsvarshjelp for e-dokumenter? Hvordan kan brukere minimere virkningen av begrensningene for samsvarshjelp for e-dokumenter når de bruker systemet?](#what-are-the-limitations-of-e-documents-matching-assistance-how-can-users-minimize-the-impact-of-the-e-documents-matching-assistance-limitations-when-using-the-system).   
 
-## <a name="what-operational-factors-and-settings-allow-for-effective-and-responsible-use-of-the-feature"></a>Hvilke driftsfaktorer og innstillinger gjør at det går an å bruke funksjonen på en effektiv og ansvarlig måte?
+## Hvilke driftsfaktorer og innstillinger gjør at det går an å bruke funksjonen på en effektiv og ansvarlig måte?
 
 Copilot supplerer tildelingsalgoritmen som [!INCLUDE [prod_short](includes/prod_short.md)] allerede gir og tildeler linjene som algoritmen ikke gjorde.
 
-### <a name="what-is-expected-of-end-users-while-using-e-documents-matching-assistance"></a>Hva forventes av sluttbrukere når de bruker samsvarshjelp for e-dokumenter?
+### Hva forventes av sluttbrukere når de bruker samsvarshjelp for e-dokumenter?
 
 <!--Not sure that this is the right content for this section. Seems like it belongs more in the overview article because it's more related to how to use the feature-->
 
@@ -95,7 +95,7 @@ Du kan bruke **Samsvarshjelp for e-dokumenter** til å tildele linjer basert på
 
 Copilots treff kan være feil eller ufullstendige. Du bør alltid vurdere nøyaktigheten før du velger å beholde dem. Copilots treff og forslag lagres i [!INCLUDE [prod_short](includes/prod_short.md)] når du velger **Behold det** og avslutter Copilot. Du kan redigere og korrigere eventuelle treff eller forslag før du velger å beholde dem. 
 
-### <a name="what-is-expected-of-administrators-and-end-users-when-operating-e-documents-matching-assistance"></a>Hva forventes av administratorer og sluttbrukere når de bruker samsvarshjelp for e-dokumenter?
+### Hva forventes av administratorer og sluttbrukere når de bruker samsvarshjelp for e-dokumenter?
 
 Sluttbrukere, for eksempel regnskapsførere eller andre som mottar e-fakturaer, bør alltid vurdere nøyaktigheten av samsvar og forslag fra Copilot før de velger å beholde dem. Vi anbefaler at du ser gjennom bestillingslinjene for å kontrollere nøyaktigheten og finne eventuelle avvik. Du bestemmer selv om du vil bruke **samsvarshjelpen for e-dokumenter**. Selv når **samsvarshjelpen for e-dokumenter** er aktivert av administratorer og tilgjengelig, kan du fortsatt velge å bruke den alltid, noen ganger eller aldri.  
 
@@ -105,15 +105,15 @@ Det er administratorene som avgjør om Copilot i [!INCLUDE [prod_short](includes
 > - Vi støtter ikke funksjonen for [!INCLUDE [prod_short](includes/prod_short.md)] lokalt eller i private skyer.
 > - Partnere kan ikke utvide denne funksjonen. Partnerutviklere kan ikke endre, erstatte eller utvide denne funksjonen. 
 
-## <a name="is-copilot-the-only-way-to-match-e-documents-to-purchase-orders"></a>Er Copilot den eneste måten å samsvare e-dokumenter med bestillinger på?
+## Er Copilot den eneste måten å samsvare e-dokumenter med bestillinger på?  
 
 Nei, det er opp til deg om du bruker Copilot. [!INCLUDE [prod_short](includes/prod_short.md)] tilbyr ikke-KI-drevne metoder for å samsvare varer fra mottatt elektronisk faktura med varer i bestillinger i [!INCLUDE [prod_short](includes/prod_short.md)]. Organisasjoner kan også bruke begge tilnærmingene samtidig.  
 
-## <a name="how-do-i-give-feedback-about-ai-generated-content"></a>Hvordan gir jeg tilbakemelding om KI-generert innhold?
+## Hvordan gir jeg tilbakemelding om KI-generert innhold?  
 
 Hver gang Copilot gir treff eller forslag, kan du gi tilbakemelding til Microsoft direkte fra Copilot-vinduet, ved hjelp av Liker- og Liker ikke-kontrollene. Din tilbakemelding er anonym, og vi bruker disse dataene til å forbedre kvaliteten på tjenesten.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversikt over e-dokumenter](finance-edocuments-overview.md)
 [Tildel e-dokumenter til bestillingslinjer med Copilot](map-edocuments-with-copilot.md)

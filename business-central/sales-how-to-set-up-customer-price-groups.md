@@ -10,17 +10,17 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="set-up-customer-price-groups"></a>Definer kundeprisgrupper
+# Definer kundeprisgrupper
   
 Salgsprisene kan gjøres avhengig av kundegruppene du selger til. Disse gruppene kalles kundeprisgrupper.
 
 Før du definerer kundeprisgrupper, må du bestemme hvor mange grupper du vil ha, og hvilke kunder som skal tilhøre de enkelte gruppene.  
 
-## <a name="how-to-create-sales-prices-for-a-group-of-customers"></a>Opprett salgspriser for en kundegruppe
+## Opprett salgspriser for en kundegruppe  
 
 Når det er nådd enighet om den prisen som kundegruppen skal betale for bestemte varer, registrerer du hva som er avtalt for de enkelte varene på linjene på **Salgspris**-siden.
 
-### <a name="to-create-sales-prices-for-a-group-of-customers"></a>Slik oppretter du salgspriser for en kundegruppe
+### Slik oppretter du salgspriser for en kundegruppe
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kundeprisgrupper**, og velg deretter den relaterte koblingen.  
 
@@ -42,11 +42,11 @@ Når det er nådd enighet om den prisen som kundegruppen skal betale for bestemt
 
 Gjenta trinnene 4 til 8 for hver vare du vil opprette en salgspris for.
 
-## <a name="how-to-enter-customer-price-group-codes-on-customer-cards"></a>Angi kundeprisgruppekoder på kundekort
+## Angi kundeprisgruppekoder på kundekort  
 
 Når du har definert kundeprisgruppene, kan du angi kundeprisgruppekodene på kundekortene.
 
-### <a name="to-enter-customer-price-group-codes-on-a-customer-card"></a>Slik angir du kundeprisgruppekoder på et kundekort
+### Slik angir du kundeprisgruppekoder på et kundekort  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.  
 
@@ -55,7 +55,7 @@ Når du har definert kundeprisgruppene, kan du angi kundeprisgruppekodene på ku
 3. Velg koden **Kundeprisgruppe** i feltet **Kundeprisgruppe** på hurtigfanen **Fakturering**.  
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Salg](sales-manage-sales.md)  
 [Sette opp salg](sales-setup-sales.md)  

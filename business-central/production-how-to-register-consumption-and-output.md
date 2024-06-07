@@ -9,7 +9,7 @@ ms.date: 03/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="register-consumption-and-output-for-one-released-production-order-line"></a>Registrere forbruk og avgang for én frigitt produksjonsordrelinje
+# Registrere forbruk og avgang for én frigitt produksjonsordrelinje
 
 Denne oppgaven utføres på **Produksjonskladd**-siden. Kladden kombinerer funksjonene fra separate forbrukskladder og ferdigmeldingskladder i én kladd. Den kombinerte kladden åpnes direkte fra en frigitt produksjonsordre. Hovedformålet er manuell bokføring av komponentforbruk, antall produserte sluttvarer og tiden som brukes på operasjoner. Verdiene bokføres i poster under den frigitte produksjonsordren. Forbruksantall bokføres som negative vareposter, avgangsantall bokføres som positive poster, og tidsforbruk bokføres som kapasitetsposter. Slike bokførte verdier kan også vises nederst i kladden som faktisk antall.  
 
@@ -19,7 +19,7 @@ Denne oppgaven utføres på **Produksjonskladd**-siden. Kladden kombinerer funks
 > [!NOTE]  
 > Komponenter uten rutekoblingskoder står oppført først i kladden.  
 
-## <a name="to-register-consumption-and-output"></a>Slik registrerer du forbruk og avgang
+## Slik registrerer du forbruk og avgang  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Frigitte produksjonsordrer** og velg den relaterte koblingen.  
 2. Åpne en frigitt produksjonsordrelinje som er klar for registrering. På hurtigfanen **Linjer** velger du **Linje**-handlingen, og deretter velger du handlingen **Produksjonskladd**.  
@@ -60,7 +60,7 @@ Denne oppgaven utføres på **Produksjonskladd**-siden. Kladden kombinerer funks
 > [!WARNING]  
 > Siden **Produksjonskladd** kan ikke brukes av to brukere samtidig. Dette betyr at hvis Bruker 2 åpner siden og skriver inn data når Bruker 1 allerede jobber på siden, kan Bruker 2 miste data når Bruker 1 lukker siden.  
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Produksjon](production-manage-manufacturing.md)  
 [Definere produksjon](production-configure-production-processes.md)  

@@ -10,13 +10,13 @@ ms.date: 12/13/2023
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="walkthrough-calculating-work-in-process-for-a-project"></a>Gjennomgang: Beregne varer i arbeid for et prosjekt
+# Gjennomgang: Beregne varer i arbeid for et prosjekt
 
 <!-- [!INCLUDE[complete_sample_data](includes/complete_sample_data.md)]   -->
 
 Med prosjekter kan du planlegge forbruket av selskapets ressurser og holde rede på de ulike kostnadene som er knyttet til ressursene i et bestemt prosjekt. Prosjekter omfatter forbruk av ansattes arbeidstid, maskindriftstid, lagervarer og andre typer forbruk som må spores etter hvert som et prosjekt går fremover. Hvis et prosjekt varer i en lang periode, vil du kanskje overføre disse kostene til en VIA-konto (varer i arbeid) i balansen mens prosjektet fullføres. Du kan deretter føre kost og salg i resultatregnskapskontiene når det blir aktuelt.  
 
-## <a name="about-this-walkthrough"></a>Om denne gjennomgangen
+## Om denne gjennomgangen
 
  Denne gjennomgangen tar for seg følgende oppgaver:  
 
@@ -28,19 +28,19 @@ Med prosjekter kan du planlegge forbruket av selskapets ressurser og holde rede 
 
  I hvert trinn av fremgangsmåten blir verdien av prosjekttransaksjonene beregnet, og deretter blir de flyttet til Finans. Beregnings- og bokføringstrinnene atskilles for å gjøre det enklere å se gjennom dataene og foreta endringer før bokføring i Finans. Derfor bør du sørge for at all informasjon er riktig etter at du har kjørt beregningskjørslene, og før du kjører bokføringskjørslene.  
 
-## <a name="roles"></a>Roller
+## Roller
 
  I denne gjennomgangen brukes Marie (medlem i prosjektgruppen) som rollefiguren.  
 
-## <a name="prerequisites"></a>Forutsetninger
+## Forutsetninger
 
  Før du kan utføre oppgavene i gjennomgangen, må [!INCLUDE[prod_short](includes/prod_short.md)] være installert på datamaskinen.  
 
-## <a name="story"></a>Hovedscenario
+## Hovedscenario
 
  Denne gjennomgangen fokuserer på CRONUS Norge AS, et design- og konsulentfirma som designer og innreder nye infrastrukturer, for eksempel konferanserom og kontorer, med møbler, tilbehør og reoler. Mesteparten av arbeidet i CRONUS er prosjektorientert og Marie, et prosjektgruppemedlem, bruker prosjekter til å ha oversikt over hvert pågående prosjekt som CRONUS har startet, og også prosjekter som er fullført. Noen av prosjektene kan være lange og kan kjøre over måneder. Marie kan bruke en VIA-konto til å registrere varer i arbeid og spore kostnadene i hele prosjektet.  
 
-## <a name="calculating-wip"></a>Beregne VIA
+## Beregne VIA
 
  CRONUS har tatt på seg et langvarig prosjekt som nå har strukket seg over rapporteringsperioder. Tricia, et medlem i prosjektgruppen, beregner varene i arbeid (VIA) for å sikre at regnskapet for selskapet er nøyaktig.  
 
@@ -56,7 +56,7 @@ Med prosjekter kan du planlegge forbruket av selskapets ressurser og holde rede 
 
  I den følgende gjennomgangen bruker Tricia metoden Kostverdi, standarden i selskapet, til å beregne VIA. Tricia angir hvilken del av prosjektet som skal inkluderes i VIA-beregningen ved å tilordne VIA-sumverdier til forskjellige prosjektoppgavelinjer.  
 
-### <a name="to-calculate-wip"></a>Slik beregner du VIA:
+### Slik beregner du VIA:  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Prosjekt**, og velg deretter den relaterte koblingen.  
 2. I **Prosjekter**-listen velger du **Klepp Datakontor A/s**-prosjektet, og velger deretter **Rediger**-handlingen. Dermed åpnes prosjektkortet i redigeringsmodus.  
@@ -88,7 +88,7 @@ Med prosjekter kan du planlegge forbruket av selskapets ressurser og holde rede 
 
  Legg merke til at verdien for **Ført kostbeløp** er 215,60 i kolonnen **Til bokføring**. Dette gjenspeiler de totale kostnadene for de to varene i gruppen med prosjektoppgavene 1110 – 1130. Det tredje elementet ble satt til **Utelatt**, og er derfor ikke inkludert i VIA-beregningen.  
 
-### <a name="to-review-wip-warnings"></a>Se gjennom VIA-advarsler
+### Se gjennom VIA-advarsler  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **VIA-cockpit for prosjekt**, og velg deretter den relaterte koblingen.  
 2.  Velg prosjektet **Klepp Datakontor A/S**, og velg deretter handlingen **Vis advarsler**.  
@@ -96,7 +96,7 @@ Med prosjekter kan du planlegge forbruket av selskapets ressurser og holde rede 
 
  Etter denne regnskapsperioden må Marie beregne VIA på nytt for å ta med ferdig arbeid hittil.  
 
-### <a name="to-recalculate-wip"></a>Slik beregner du VIA på nytt:
+### Slik beregner du VIA på nytt:  
 
 1. På **Prosjektkort**-siden velger du handlingen **VIA-poster** for å vise VIA-beregningen.  
 
@@ -108,11 +108,11 @@ Med prosjekter kan du planlegge forbruket av selskapets ressurser og holde rede 
 > [!NOTE]  
 > VIA og føring beregnes, men bokføres ikke i Finans. Hvis du vil gjøre det, må du kjøre kjørselen **Bokfør VIA i Finans** etter at du har beregnet VIA og føring.
 
-## <a name="posting-wip-to-general-ledger"></a>Bokfør VIA i Finans
+## Bokfør VIA i Finans
 
  Nå som Tricia har beregnet VIA for dette prosjektet, kan hun bokføre VIA i Finans.  
 
-### <a name="to-post-wip-to-general-ledger"></a>Slik bokfører du VIA i Finans
+### Slik bokfører du VIA i Finans  
 
 1. Merk prosjektet **Klepp Datakontor A/S** i oversikten **Prosjekter**.  
 2. Velg **VIA**-handlingen, og velg deretter **Bokfør VIA i Finans**-handlingen.  
@@ -132,11 +132,11 @@ Med prosjekter kan du planlegge forbruket av selskapets ressurser og holde rede 
 10. Legg merke til at **Ført finanskostbeløp** nå er fylt ut i kolonnen **Bokført** på hurtigfanen **VIA og føring**, noe som indikerer at VIA er bokført i finans.  
 11. Velg **OK**-knappen for å lukke kortet.  
 
-## <a name="reversing-a-wip-posting"></a>Tilbakefør en VIA-bokføring
+## Tilbakefør en VIA-bokføring
 
  Marie fastslår at prosjektoppgavene som ble utelatt fra beregningen av VIA, skulle ha vært beregnet i VIA. Tricia kan tilbakeføre feil bokføringer uten å måtte bokføre nye VIA-bokføringer.  
 
-### <a name="to-reverse-a-wip-posting"></a>Slik tilbakefører du en VIA-bokføring:
+### Slik tilbakefører du en VIA-bokføring:  
 
 1. Merk prosjektet **Klepp Datakontor A/S** i oversikten **Prosjekter**.  
 2. Velg **VIA**-handlingen, og velg deretter **Bokfør VIA i Finans**-handlingen.  
@@ -155,11 +155,11 @@ Med prosjekter kan du planlegge forbruket av selskapets ressurser og holde rede 
     > [!NOTE]  
     >  Anta at Marie har beregnet og bokført VIA for et prosjekt med feil datoer. Når hun følger metoden som ble diskutert tidligere, kan Tricia tilbakeføre uriktige bokføringer, rette datoene og bokføre i Finans på nytt.  
 
-## <a name="next-steps"></a>Neste trinn
+## Neste trinn
 
  Denne gjennomgangen har vist deg trinnene for å beregne VIA i [!INCLUDE[prod_short](includes/prod_short.md)]. På større prosjekter kan det være praktisk å overføre kost til en VIA-kontoen mens prosjektet fullføres. Denne gjennomgangen har vist deg hvordan du utelater oppgavelinjer fra en beregning. Det viser deg også når du vil måtte beregne på nytt. Til slutt viser denne gjennomgangen hvordan du bokfører VIA til finans. Et eksempel på hvordan du tilbakefører en VIA-bokføring til finans, er også inkludert.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
  [Gjennomgang av forretningsprosesser](walkthrough-business-process-walkthroughs.md)  
  [Gjennomgang: prosjektstyring](walkthrough-managing-projects-with-jobs.md)  

@@ -9,7 +9,7 @@ ms.search.form: null
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="posting-documents-and-journals"></a>Bokføre dokumenter og kladder
+# Bokføre dokumenter og kladder
 
 Bokføring representerer regnskapshandlingen for registrering av forretningstransaksjoner i de ulike selskapspostene.
 
@@ -26,7 +26,7 @@ Tabellen nedenfor beskriver relaterte oppgaver, og du finner koblinger til emnen
 | Forhåndsvis postene som blir opprettet når du bokfører, på en side. |[Forhåndsvise bokføringsresultater](ui-how-preview-post-results.md) |
 | Forhåndsvis i en rapport postene som blir opprettet når du bokfører. |[Vise testrapporter før bokføring](ui-how-view-test-reports-posting.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Redigere bokførte dokumenter](across-edit-posted-document.md)  
 [Finn relaterte poster for dokumenter](ui-find-entries.md)  

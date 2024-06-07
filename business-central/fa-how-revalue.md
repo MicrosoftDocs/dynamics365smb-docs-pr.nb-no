@@ -10,7 +10,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="revalue-fixed-assets"></a>Revaluer aktiva
+# Revaluer aktiva
 
 Revaluering av aktiva kan bestå av oppskrivinger, nedskrivninger eller generelle verdijusteringer.
 
@@ -20,7 +20,7 @@ Når verdien for et aktiva reduseres, kan du bokføre en kladdelinje med et lave
 
 Indeksregulering brukes til å justere flere aktivaverdier, for eksempel i henhold til generelle prisendringer. Du bruker kjørselen **Indeksreg. aktiva** til å endre forskjellige beløp, for eksempel nedskrivingsbeløp og oppskrivningsbeløp.
 
-## <a name="to-post-appreciation-from-the-fixed-asset-gl-journal"></a>Slik bokfører du oppskrivning fra aktivafinanskladden
+## Slik bokfører du oppskrivning fra aktivafinanskladden
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.  
 2. Opprett en innledende kladdelinje, og fyll ut feltene etter behov.
@@ -31,7 +31,7 @@ Indeksregulering brukes til å justere flere aktivaverdier, for eksempel i henho
     >   Trinn 4 fungerer bare hvis du har definert følgende: På siden **Kort for bokf.grp.- aktiva** for bokføringsgruppen for aktivumet, inneholder **Konto for oppskrivning**-feltet finansdebetkontoen og feltet **Motkonto for oppskrivning** inneholder finanskontoen du vil bokføre motposter for oppskrivning til. Hvis du vil ha mer informasjon, kan du se [Slik definerer du bokføringsgrupper for aktiva](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).  
 5. Velg handlingen **Bokfør**.
 
-## <a name="to-post-a-write-down-from-the-fixed-asset-gl-journal"></a>Slik bokfører du en nedskrivning fra aktivafinanskladden:
+## Slik bokfører du en nedskrivning fra aktivafinanskladden:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktivafinanskladder**, og velg deretter den relaterte koblingen.  
 2. Opprett en innledende kladdelinje, og fyll ut feltene etter behov.
@@ -42,7 +42,7 @@ Indeksregulering brukes til å justere flere aktivaverdier, for eksempel i henho
     >   Trinn 4 fungerer bare hvis du har definert følgende: På siden **Kort for bokf.grp.- aktiva** for bokføringsgruppen for aktivumet, inneholder **Nedskrivingskonto**-feltet finanskreditkontoen og feltet **Konto for nedskrivningskostn.** inneholder finansdebetkontoen du vil bokføre motposter for nedskrivning til. Hvis du vil ha mer informasjon, kan du se [Slik definerer du bokføringsgrupper for aktiva](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 5. Velg handlingen **Bokfør**.
 
-## <a name="to-perform-general-revaluation-of-fixed-assets"></a>Slik utfører du generell revaluering av aktiva:
+## Slik utfører du generell revaluering av aktiva:
 
 Indeksregulering brukes til å justere flere aktivaverdier, for eksempel i henhold til generelle prisendringer. Du bruker kjørselen **Indeksreg. aktiva** til å endre forskjellige beløp, for eksempel nedskrivingsbeløp og oppskrivningsbeløp. **Tillat indeksreg.** på **Avskrivningstablå**-siden må merkes av.
 
@@ -58,7 +58,7 @@ Indeksregulering brukes til å justere flere aktivaverdier, for eksempel i henho
     > [!TIP]  
     >   Hvis indeksreguleringstallene bare er til simuleringsformål, kan du lagre dem i et spesielt avskrivningstablå som du oppretter. Disse postene har ingen innvirkning på de andre avskrivningstablåene.
 
-## <a name="to-post-other-acquisition-costs"></a>Slik bokfører du andre anskaffelseskostnader
+## Slik bokfører du andre anskaffelseskostnader
 
 Du kan bokføre andre anskaffelseskostnader for aktiva fra en bestilling eller fra en aktivakladd på samme måte som når du bokfører den opprinnelige anskaffelseskosten. Hvis du vil ha mer informasjon, kan du se [Anskaffe aktiva](fa-how-acquire.md).  
 
@@ -72,7 +72,7 @@ Prosentsatsen for avskrivningen beregnes som:
 
 Husk å merke av for **Avskr. frem til aktivabokf.dato** på fakturaen, i aktivafinanskladden eller på aktivakladdelinjene, slik at avskrivning beregnes fra siste aktivabokføringsdato til bokføringsdatoen for den andre anskaffelseskosten.
 
-### <a name="example---posting-other-acquisition-costs"></a>Eksempel – bokfør andre anskaffelseskostnader
+### Eksempel – bokfør andre anskaffelseskostnader
 
 Det kjøpes en maskin den 1. august 2000. Anskaffelseskosten er 4 800. Det skal foretas lineær avskrivning over fire år.
 
@@ -114,7 +114,7 @@ Hvis du ikke merket av for **Avskr. frem til aktivabokf.dato**, går aktivumet g
 
 *Samlet avskrivning = 100 + 15 + 55,54 = 170,54*
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Aktiva](fa-manage.md)  
 [Definer aktiva](fa-setup.md)  

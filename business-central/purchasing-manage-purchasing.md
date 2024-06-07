@@ -10,7 +10,7 @@ ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="purchasing"></a>Kjøp
+# Kjøp
 
 Du kan opprette en kjøpsfaktura eller bestilling for å registrere kjøpskostnader og spore leverandørgjeld. Hvis du vil kontrollere en beholdning, brukes kjøpsfakturaer også til å oppdatere lagernivåer dynamisk, slik at du kan redusere lagerkostnadene og gi bedre kundeservice. Kjøpskostnadene, inkludert tjenesteutgifter samt lagerverdier som er resultat av bokføring av kjøpsfakturaer, bidrar til fortjenestetall og andre økonomiske KPIer i rollesenteret.
 
@@ -24,7 +24,7 @@ Du kan inkludere en godkjenningsarbeidsflyt for alle innkjøpsprosesser, for eks
 
 Delen nedenfor beskriver en sekvens av oppgaver og har koblinger til artiklene som beskriver dem.
 
-## <a name="get-started-with-purchase-capabilities"></a>Kom i gang med kjøpsfunksjoner
+## Kom i gang med kjøpsfunksjoner
 
 Før du kjøper varer, må du angi hvordan du vil håndtere selskapets kjøpsprosesser.
 
@@ -33,7 +33,7 @@ Før du kjøper varer, må du angi hvordan du vil håndtere selskapets kjøpspro
 | Konfigurere reglene og verdiene som definerer selskapets innkjøpspolicyer. | [Konfigurer kjøp](purchasing-setup-purchasing.md) |
 | Registrer hver leverandør du kjøper fra, med et leverandørkort. | [Registrer nye leverandører](purchasing-how-register-new-vendors.md) |
 
-## <a name="purchase-analytics"></a>Kjøpsanalyse
+## Kjøpsanalyse
 
 Denne delen beskriver analyseverktøyene du kan bruke til å få innsikt i kjøpsprosessene.
 
@@ -43,7 +43,7 @@ Denne delen beskriver analyseverktøyene du kan bruke til å få innsikt i kjøp
 | Utfør ad hoc-analyse av kjøpsdata direkte på listesider og spørringer. | [Ad hoc-analyse av kjøpsdata](ad-hoc-analysis-purchasing.md) |
 | Utforsk innebygde kjøpsrapporter. | [Innebygde kjøpsrapporter](purchase-reports.md) |
 
-## <a name="quote-to-order-to-purchase-invoice"></a>Gi tilbud for å bestille til kjøpsfaktura
+## Gi tilbud for å bestille til kjøpsfaktura
 
 Tabellen nedenfor beskriver hvordan du bruker enkle kjøpsprosesser.
 
@@ -64,7 +64,7 @@ Hvis du trenger mer komplekse kjøpsprosesser, inneholder tabellen nedenfor arti
 |Håndter forpliktelsen din til en leverandør om å kjøpe store antall levert i flere forsendelser over tid.|[Arbeid med rammebestillinger](sales-how-to-create-blanket-sales-orders.md)|
 
 
-## <a name="canceled-orders-refunds-and-returns"></a>Kansellerte bestillinger, refusjoner og returer
+## Kansellerte bestillinger, refusjoner og returer
 
 Tabellen nedenfor beskriver hvordan du håndterer kansellerte bestillinger, refusjoner og returer av varer du kjøper.
 
@@ -74,7 +74,7 @@ Tabellen nedenfor beskriver hvordan du håndterer kansellerte bestillinger, refu
 |Konverter for eksempel elektroniske fakturaer fra leverandører til kjøpsfakturaer i Business Central.|[Motta og konverter elektroniske dokumenter](purchasing-how-to-receive-and-convert-electronic-documents.md)|
 
 
-## <a name="other-processes-in-sales"></a>Andre salgsprosesser
+## Andre salgsprosesser
 
 Tabellen nedenfor beskriver hvordan du håndterer andre kjøpsprosesser.
 
@@ -83,11 +83,11 @@ Tabellen nedenfor beskriver hvordan du håndterer andre kjøpsprosesser.
 |Løs forvirring når det finnes to eller flere poster for samme leverandør.|[Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md)|
 
 
-## <a name="external-document-numbers"></a>Eksterne dokumentnumre
+## Eksterne dokumentnumre
 
 [!INCLUDE [ext-doc-no-purch](includes/ext-doc-no-purch.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Definere kjøp](purchasing-setup-purchasing.md)  
 [Registrer nye leverandører](purchasing-how-register-new-vendors.md)  

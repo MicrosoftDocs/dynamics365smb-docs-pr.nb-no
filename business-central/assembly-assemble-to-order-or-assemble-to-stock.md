@@ -11,14 +11,14 @@ ms.search.keywords: 'kit, kitting'
 ms.search.form: '900, 901, 902, 903, 904, 907, 910, 916, 920, 921, 922, 923, 940, 941, 942, 930, 931, 932, 914, 915, 905'
 ms.service: dynamics-365-business-central
 ---
-# <a name="understanding-assemble-to-order-and-assemble-to-stock"></a>Forstå montere til ordre og montere til lager
+# Forstå montere til ordre og montere til lager
 
 [!INCLUDE [prod_short](includes/prod_short.md)] lar deg forsyne monteringsvarer på følgende måter:
 
 * Monter til ordre  
 * Monter til lager  
 
-## <a name="assemble-to-order"></a>Monter til ordre
+## Monter til ordre
 
 Bruk monter-til-ordreprosessen for varer du ikke vil lagre. Det kan for eksempel være av følgende årsaker:
 
@@ -44,7 +44,7 @@ Når du angir en monter til ordrevare på en ordrelinje, blir en monteringsordre
 
 Hvis du vil angi at en vare er monter-til-ordre, i feltet **Monteringspolicy** på siden **Varekort** for varen, velger du **Monter-til-ordre**.  
 
-## <a name="assemble-to-stock"></a>Monter til lager
+## Monter til lager
 
 Bruk monter-til-lagerprosessen for varer som du monterer og lagrer for fremtidige salg. Monter-til-lager-varer er standardvarer, for eksempel pakkede pakker som du ikke kan tilpasse. Du kan også bruke disse varene som delmonteringskomponenter. Varene plukkes og behandles som enkeltvarer og behandles som ferdige produksjonsvarer. Hvis du vil finne ut mer om monteringsvarer, går du til [Monter varer](assembly-how-to-assemble-items.md).  
 
@@ -55,7 +55,7 @@ Når du angir en montere-til-lager-vare på en salgslinje, behandles varen på s
 
 Hvis du vil angi at en vare er monter-til-lager, i feltet **Monteringspolicy** på siden **Varekort** for varen, velger du **Monter-til-lager**.  
 
-## <a name="combination-scenarios"></a>Kombinasjonsscenarioer
+## Kombinasjonsscenarioer
 
 Når monter-til-ordre og lagerantall kombineres på en ordre, må monter-til-ordre-antall leveres først.  
 
@@ -97,7 +97,7 @@ Basert på dette eksempelet ovenfor kan du endre feltet **Antall å montere** so
 * Minimumsantallet du kan angi, er 1. Du må montere minst én enhet for å kunne selge fire enheter, forutsatt at de gjenværende tre er tilgjengelig i lageret.  
 * Maksimumsantallet du kan angi, er 4. Denne grensen sikrer at du ikke monterer mer av varen enn du trenger for salget.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Monteringsstyring](assembly-assemble-items.md)  
 [Arbeid med monteringsstykklister](assembly-how-work-assembly-boms.md)  

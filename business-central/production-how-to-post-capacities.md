@@ -9,11 +9,11 @@ ms.date: 03/08/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="post-capacities"></a>Bokføre kapasiteter
+# Bokføre kapasiteter
 
 I kapasitetskladden bokfører du brukte kapasiteter som ikke er tilordnet produksjonsordren. Vedlikeholdsarbeid må for eksempel tilordnes kapasitet, men ikke en produksjonsordre.  
 
-## <a name="to-post-capacities"></a>Slik bokfører du kapasiteter
+## Slik bokfører du kapasiteter  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kapasitetskladder** og velg den relaterte koblingen.  
 2. Fyll ut feltene **Bokføringsdato** og **Bilagsnr.**.  
@@ -24,7 +24,7 @@ I kapasitetskladden bokfører du brukte kapasiteter som ikke er tilordnet produk
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="to-view-work-center-ledger-entries"></a>Slik viser du arbeidssenterposter:
+## Slik viser du arbeidssenterposter:  
 
 På sidene **Arbeidssenterkort** og **Maskinsenterkort** kan du vise bokførte kapasiteter som et resultat av ferdige produksjonsordrer.    
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Arbeidssentre**, og velg deretter den relaterte koblingen.  
@@ -32,7 +32,7 @@ På sidene **Arbeidssenterkort** og **Maskinsenterkort** kan du vise bokførte k
 
     **Kapasitetsposter**-siden viser de bokførte postene fra arbeidssenteret i den rekkefølgen de ble bokført.   
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Produksjon](production-manage-manufacturing.md)  
 [Definere produksjon](production-configure-production-processes.md)  

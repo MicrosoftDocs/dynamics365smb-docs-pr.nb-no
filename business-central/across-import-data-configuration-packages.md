@@ -10,7 +10,7 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="import-business-data-from-other-finance-systems"></a>Importer forretningsdata fra andre økonomisystemer
+# Importer forretningsdata fra andre økonomisystemer
 
 Når du registrerer deg for [!INCLUDE[prod_short](includes/prod_short.md)], kan du velge å opprette et tomt firma, slik at du kan laste opp dine egne data og teste det nye [!INCLUDE[prod_short](includes/prod_short.md)]-firmaet. Avhengig av økonomiløsning som selskapet ditt bruker i dag, kan du overføre informasjon om kunder, leverandører, lager og bankkonti.  
 
@@ -21,11 +21,11 @@ Fra Rollesenteret kan du starte en assistert oppsettsveiledning som hjelper deg 
 > [!TIP]  
 > Vi anbefaler at du bruker veivisere for datamigrering til å importere data fra Dynamics GP, Dynamics NAV eller QuickBooks. Hvis du vil ha mer informasjon, kan du se [Overfør lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrasjonsinnholdet eller [Datamigrering for QuickBooks](ui-extensions-quickbooks-data-migration.md).
 
-## <a name="work-with-data-in-excel"></a>Arbeid med data i Excel
+## Arbeid med data i Excel
 
 Du kan bruke Excel-tillegget til klargjøre eksisterende innhold for bruk i [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Vise og redigere i Excel fra Business Central](across-work-with-excel.md).  
 
-## <a name="import-data-from-configuration-packages"></a>Importer data fra konfigurasjonspakker
+## Importer data fra konfigurasjonspakker
 
 For større implementeringsarbeid kan du konfigurere løsningsspesifikke konfigurasjonspakker. Hvis du vil ha mer informasjon, kan du se [Konfigurer firmakonfigurasjonspakker](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages) (bare på engelsk) i utvikler- og administrasjonsinnholdet.  
 
@@ -42,7 +42,7 @@ Når du eksporterer standard konfigurasjonspakke til Excel, inneholder generert 
 > [!NOTE]
 > Felt av typen blob kan ikke eksporteres/importeres i Excel.
 
-### <a name="tables-in-the-default-configuration-package"></a>Tabeller i standard konfigurasjonspakke
+### Tabeller i standard konfigurasjonspakke
 
 Standard konfigurasjonspakke støtter følgende tabeller:
 
@@ -73,7 +73,7 @@ Standard konfigurasjonspakke støtter følgende tabeller:
 - Salgspris
 - Kjøpspris
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Overføre lokale data til Business Central Online (bare på engelsk)](/dynamics365/business-central/dev-itpro/administration/migrate-data)  
 [Konfigurer selskapskonfigurasjonspakker](/dynamics365/business-central/dev-itpro/administration/set-up-standard-company-configuration-packages)  

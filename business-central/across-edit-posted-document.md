@@ -11,7 +11,7 @@ ms.date: 06/10/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="edit-posted-documents"></a>Redigere bokførte dokumenter
+# Redigere bokførte dokumenter
 
 Noen ganger må du oppdatere et bokført dokument fordi informasjon som er relevant for dokumentet, er endret. I et bokført salgsdokument kan dette for eksempel være transportørens pakkesporingsnummer. På et bokført kjøpsdokument kan dette være en betalingsreferansetekst.
 
@@ -31,7 +31,7 @@ Følgende tilleggsdokumenter kan redigeres i de utvalgte landene eller områdene
 - RU: Bokført salgskreditnota
 - IT: bokført overføringsseddel, bokført servicefølgeseddel
 
-## <a name="to-edit-a-posted-sales-shipment"></a>Slik redigerer du en bokført følgeseddel
+## Slik redigerer du en bokført følgeseddel
 
 Nedenfor finner du informasjon om hvordan du redigerer en bokført følgeseddel. Trinnene er de samme for de andre dokumentene som støttes.
 
@@ -42,7 +42,7 @@ Nedenfor finner du informasjon om hvordan du redigerer en bokført følgeseddel.
 
 Den bokførte følgeseddelen oppdateres.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)  
 [Finn relaterte poster for dokumenter](ui-find-entries.md)  

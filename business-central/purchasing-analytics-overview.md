@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="analytics-in-purchasing"></a>Analyse i kjøp
+# Analyse i kjøp
 
 Virksomheter registrerer mye data under daglige aktiviteter som støtter forretningsanalyse (BI) for kjøpssjefer:
 
@@ -30,7 +30,7 @@ Hver av disse funksjonene har fordeler og ulemper, avhengig av typen dataanalyse
 
 Denne artikkelen innfører hvordan du kan bruke disse analysefunksjonene for å få kjøpsinnsikt.
 
-## <a name="analytics-needs-in-purchasing"></a>Analysebehov i kjøp
+## Analysebehov i kjøp
 
 Når du tenker på analysebehovet i kjøp, kan det hjelpe å bruke en identitetsbasert modell basert som beskriver forskjellige analysebehov på et høyt nivå.
 
@@ -47,14 +47,14 @@ Personer i ulike roller har ulike behov når det gjelder data, og de bruker data
 |Innkjøpssjef / Innkjøper | Detaljerte data     | Innebygde driftsrapporter <br> Oppgavedata på skjermen |
 
 <!-- 
-## <a name="purchasing-kpis"></a>Purchasing KPIs
+## Purchasing KPIs
 
 A key performance indicator (KPI) is a measurable value that shows how effectively you’re meeting your goals. In purchasing management, people often use the following KPIs to monitor their organization's purchasing performance:
 
 - TODO  
 -->
 
-## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-purchasing"></a>Bruk finansrapportering til å produsere årsregnskap og ytelsesindikatorer (knyttet til kjøp)
+## Bruk finansrapportering til å produsere årsregnskap og ytelsesindikatorer (knyttet til kjøp)
 
 Funksjonen **Finansrapportering** gir deg innsikt i finansdataene som vises i kontoplanen. Du kan konfigurere finansrapporter til å analysere tall på finanskontoer og sammenligner finansposter med budsjettposter. Spesielt for kjøp kan du definere finansrapporter på finanskontoene du bruker til å spore kjøpsbokføringer.
 
@@ -62,13 +62,13 @@ Dimensjoner spiller en viktig rolle i forretningsanalyse. En dimensjon er data d
 
 Hvis du vil finne ut mer om finansrapporter, kan du gå til [Klargjør finansrapporter med finansdata og kontokategorier](bi-how-work-account-schedule.md).
 
-## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-purchasing"></a>Finansrapportering mellom forretningsenheter eller juridiske enheter (knyttet til kjøp)
+## Finansrapportering mellom forretningsenheter eller juridiske enheter (knyttet til kjøp)
 
 Noen organisasjoner bruker [!INCLUDE [prod_short](includes/prod_short.md)] i flere konsern eller juridiske enheter. Andre bruker [!INCLUDE [prod_short](includes/prod_short.md)] i datterselskaper som rapporterer til overordnede organisasjoner. [!INCLUDE [prod_short](includes/prod_short.md)] gir regnskapsførere verktøy som hjelper dem med å overføre finansposter fra to eller flere selskaper (datterselskaper) til et konsolidert selskap. Spesielt for innkjøpsadministrasjon vil du kanskje konsolidere finansposter for innkjøpskontoene for å spore salgsytelsesindikatorer på tvers av konsern eller juridiske enheter.
 
 Hvis du vil finne ut mer, kan du gå til [Selskapskonsolidering](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-purchasing-data"></a>Ad hoc-analyse av kjøpsdata
+## Ad hoc-analyse av kjøpsdata
 
 Noen ganger trenger du bare å sjekke om tallene summeres riktig, eller raskt bekrefte en tall. Følgende funksjoner er gode for ad hoc-analyser:
 
@@ -88,7 +88,7 @@ På samme måte kan du bruke handlingen **Åpne i Excel** til å åpne en listes
 
 Hvis du vil vite mer om hvordan du utfører ad hoc-analyse av kjøpsdata, kan du gå til [Ad hoc-analyse av kjøpsdata](ad-hoc-analysis-purchasing.md).
 
-## <a name="built-in-reports-for-purchasing"></a>Innebygde rapporter for kjøp
+## Innebygde rapporter for kjøp
 
 [!INCLUDE [prod_short](includes/prod_short.md)] inneholder flere innebygde rapporter, sporingsfunksjoner og verktøy som hjelper innkjøpsorganisasjoner med å rapportere om dataene sine.
 
@@ -103,7 +103,7 @@ Hvis du vil ha en oversikt over tilgjengelige rapporter, velger du **Alle rappor
 
 Hvis du vil vite mer om rapporter som er relevante for kjøp, kan du gå til [Innebygde kjøpsrapporter](purchase-reports.md).
 
-## <a name="on-screen-purchasing-analytics"></a>Kjøpsanalyse på skjermen
+## Kjøpsanalyse på skjermen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] har flere sider som gir deg kjøpsoversikter og oppgaver å gjøre. Her er et eksempel for å komme i gang:
 
@@ -112,7 +112,7 @@ Hvis du vil vite mer om rapporter som er relevante for kjøp, kan du gå til [In
 - [Vis kjøpsposter](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
 
-### <a name="show-purchasing-related-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Vis kjøpsrelaterte finansposter og -saldoer fra siden Kontoplan
+### Vis kjøpsrelaterte finansposter og -saldoer fra siden Kontoplan
 
 Siden Kontoplan viser alle finanskontoer med aggregerte numre på hva som er bokført i finans. Fra denne siden kan du gjøre ting som:  
 
@@ -126,7 +126,7 @@ Spesielt for kjøp kan du opprette en visning på Kontoplan-siden som bare viser
 
 Hvis du vil finne ut mer, kan du gå til [Forstå kontoplanen](finance-general-ledger.md#the-chart-of-accounts)
 
-### <a name="analyze-data-by-dimensions-related-to-purchasing"></a>Analyser data etter dimensjoner (relatert til kjøp)
+### Analyser data etter dimensjoner (relatert til kjøp)
 
 Dimensjoner er attributter og verdier som kategoriserer poster slik at du kan spore og analysere dem på dokumenter, for eksempel bestillinger. Dimensjoner kan for eksempel angi hvilket prosjekt eller hvilken avdeling en post kommer fra.  
 
@@ -134,7 +134,7 @@ I stedet for å opprette separate finanskontoer for hver avdeling og hvert prosj
 
 Hvis du finne ut mer, går du til [Analyser data etter dimensjoner](bi-how-analyze-data-dimension.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Selskapskonsolidering](finance-consolidated-company-reporting.md)  
 [Klargjør finansrapporter med finansdata og kontokategorier](bi-how-work-account-schedule.md)  

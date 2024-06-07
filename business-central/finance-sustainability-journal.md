@@ -11,17 +11,17 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="record-sustainability-entries"></a>Registrer bærekraftsposter
+# Registrer bærekraftsposter
 
 Den eneste måten å registrere klimagassutslipp i bærekraftsposten på for øyeblikket er å bruke bærekraftskladder.
 
-## <a name="sustainability-journals"></a>Bærekraftskladder
+## Bærekraftskladder
 
 Bærekraftskladder er utformet for å spore og registrere bærekraftrelaterte aktiviteter ved hjelp av samme brukeropplevelse som andre kladder i Business Central. Brukere som har den nødvendige informasjonen, kan legge inn utslipp i en kladd manuelt. Hvis de mangler informasjonen, kan de bruke innebygde formler til å beregne utslipp nøyaktig basert på spesifikke kjente parametere som svarer til ulike typer kilder og kontoer.
 
 Informasjonen du angir i en kladd, er midlertidig og kan endres mens den fortsatt er i denne kladden. Når du bokfører kladden, overføres informasjonen til bærekraftsposter på individuelle bærekraftskontoer, der de ikke kan endres. Du kan imidlertid bokføre tilbakeførings- eller korrigeringsposter.
 
-### <a name="use-journal-templates-and-batches"></a>Bruk kladder og kladdemaler
+### Bruk kladder og kladdemaler
 
 Det finnes som standard to bærekraftkladdemaler: standardmalen og den gjentakende malen.
 
@@ -30,13 +30,13 @@ Du kan definere dine egne personlige kladder som en kladd for hver enkelt kladde
 > [!TIP]
 > Hvis du har mange linjer, kan du bidra til å redusere risikoen for feil ved å ha en kladd for hver utslippstype. Du kan alternativt bruke felleskladden for alle utslippstyper.
 
-### <a name="validate-sustainability-journals"></a>Valider bærekraftskladder
+### Valider bærekraftskladder
 
 Du kan aktivere en bakgrunnskontroll på siden **Bærekraftsoppsett** for å forhindre bokføringsforsinkelser. Hvis det oppstår feil mens du arbeider med bærekraftskladden, varsler valideringen deg og forhindrer deg fra å bokføre kladden.
 
 Når du aktiverer valideringen, viser faktaboksen **Kladdkontroll** feil på nåværende linje og i hele kladden. Valideringen forekommer når du laster inn en kladd, og når du velger en annen kladdelinje. Flisen **Totalt antall problemer** i faktaboksen viser totalt antall problemer som [!INCLUDE [prod_short](includes/prod_short.md)] har funnet. Du kan velge flisen for å åpne en oversikt over problemene.
 
-### <a name="work-with-sustainability-journals"></a>Arbeid med bærekraftskladder
+### Arbeid med bærekraftskladder
 
 Følg denne fremgangsmåten for å begynne å arbeide med bærekraftskladder:
 
@@ -57,7 +57,7 @@ Følg denne fremgangsmåten for å begynne å arbeide med bærekraftskladder:
 
 Hvis formelen er basert på alternativet **Beregn fra økonomimodul** i bærekraftskontokategorien, må du bruke handlingen **Samle inn beløp fra finansposter** før du bokfører kladden, for å beregne utslipp basert på denne datakilden. Hvis du har gjort endringer i utslippsfaktorene etter at du fylte ut kladdelinjene, må du i tillegg velge handlingen **Beregn på nytt** for å få riktig beløp i kladden.
 
-### <a name="recurring-journals"></a>Gjentakelseskladder
+### Gjentakelseskladder
 
 En gjentakelseskladd er en bærekraftskladd som har spesifikke felter for håndtering av transaksjoner du bokfører ofte, med få eller ingen endringer. Eksempler omfatter bærekraftstransaksjoner som elektrisitet eller varme eller andre lignende transaksjoner. Du kan bruke gjentakelseskladder til å bokføre faste og variable beløp.
 
@@ -69,7 +69,7 @@ Feltet **Gjentakelsesintervall** er også viktig og må angis. Det er et datofor
 
 Feltet **Utløpsdato** angir datoen når linjen skal bokføres for siste gang. Linjen tas ikke med i bokføringen etter denne datoen. Fordelen med å bruke feltet **Utløpsdato** er at linjen ikke slettes fra kladden med en gang. Du kan angi en senere dato slik at du kan bruke linjen i fremtiden. Hvis feltet er tomt, bokføres linjen hver gang du bokfører, helt til den slettes fra kladden.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finans](finance.md)  
 [Oversikt over bærekraftsadministrasjon](finance-manage-sustainability.md)  

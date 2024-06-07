@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="basic-reports-and-documents-output-quick-start"></a>Grunnleggende rapporter og dokumenter gir rask start
+# Grunnleggende rapporter og dokumenter gir rask start
 
 For å tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] til bedriftens behov kan du angi og bruke rapporter og egendefinerte dokumenter som er egnet for forretningens prosesser og visuell identitet.
 
-## <a name="add-your-company-logo-to-documents"></a>Legg til selskapslogoen på dokumenter
+## Legg til selskapslogoen på dokumenter
 
 [!INCLUDE[prod_short](includes/prod_short.md)] har maler angitt til å bruke selskapets logo for å spare tid på å tilpasse dokumenter som fakturaer, ordrer og oppgaver.
 
@@ -26,7 +26,7 @@ For å tilpasse [!INCLUDE[prod_short](includes/prod_short.md)] til bedriftens be
 
 Når bildet vises i **Bilde-feltet, kan du lukke siden Selskapsopplysninger**  **·** .
 
-## <a name="run-reports"></a>Kjør rapporter
+## Kjør rapporter
 
 Rapporter organiserer informasjon fra ulike kilder i [!INCLUDE[prod_short](includes/prod_short.md)] og presenterer den på en lesbar måte som lett kan skrives ut eller deles. Rapporter kan finnes på sidene de er kontekstmessig tilknyttet. **Varer**-siden viser for eksempel rapporter som er knyttet til lagernivåer, kjøp, salg og annet.
 
@@ -38,7 +38,7 @@ Rapporter organiserer informasjon fra ulike kilder i [!INCLUDE[prod_short](inclu
 
 Lær mer om filtrering av data, planlegging av rapporter med mer under [Kjør og skriv ut rapporter](ui-work-report.md).
 
-## <a name="save-reports-as-pdf-excel-or-word-documents"></a>Lagre rapporter som PDF-, Excel- eller Word-dokumenter
+## Lagre rapporter som PDF-, Excel- eller Word-dokumenter
 
 Du kan raskt dele rapporter ved å lagre [!INCLUDE[prod_short](includes/prod_short.md)]-rapporter direkte i PDF-, Microsoft Excel- eller Microsoft Word-dokumenter.
 
@@ -47,7 +47,7 @@ Du kan raskt dele rapporter ved å lagre [!INCLUDE[prod_short](includes/prod_sho
 3. Velg filtypen, og velg deretter **OK**.
 r Den genererte rapportfilen lagres automatisk i nettleseren nedlastingsmappe.
 
-### <a name="change-report-and-document-layouts"></a>Endre rapport- og dokumentoppsett
+### Endre rapport- og dokumentoppsett
 
 [!INCLUDE[prod_short](includes/prod_short.md)] leveres med mange innebygde oppsett for rapporter og andre genererte dokumenter, for eksempel salgsfakturaer. Du kan bruke programmer som Microsoft Word eller Excel til å redigere oppsettsmalene for dokumenter og rapporter, som beskrevet i følgende eksempel:
 
@@ -64,7 +64,7 @@ r Den genererte rapportfilen lagres automatisk i nettleseren nedlastingsmappe.
 
 Lær mer om hvordan du tilpasser rapporter og dokumenter til forretningsbehov i [Rapport- og dokumentoppsett](ui-manage-report-layouts.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bruk rapporter i daglig arbeid](reports-use-reports.md)  
 [Tilgjengelige rapporter i [!INCLUDE[prod_short](includes/prod_short.md)]](reports-available-reports.md)  

@@ -10,14 +10,14 @@ ms.date: 03/23/2022
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# <a name="get-started-creating-report-layouts"></a>Kom i gang med å opprette rapportoppsett
+# Kom i gang med å opprette rapportoppsett
 
 Business Central leveres med mange innebygde oppsett som du kan bruke i rapportene. Andre oppsett kan ha blitt lagt til som en del av andre utvidelser. Men det er også mulig å opprette dine egne rapporter enten fra grunnen av eller basert på et eksisterende oppsett.
 
 > [!IMPORTANT]
 > Du kan også bruke rapportoppsett til å legge til innhold i e-postmeldinger. Rapportoppsett kan for eksempel spare tid og bidra til å sikre konsekvens ved å bruke det samme innholdet på nytt når du kommuniserer med kundene. Hvis du vil bruke egendefinerte rapportoppsett med e-post, må filtypen for oppsettet være Word. Du kan ikke bruke filtypen RDLC. Hvis du vil ha mer informasjon, kan du se [Definer gjenbrukbare e-tekster og oppsett](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## <a name="overview"></a>Oversikt
+## Oversikt
 
 Når du arbeider med rapportoppsett, hjelper det å tenke på oppsettet som en fil som er importert og tildelt en rapport. Uavhengig av type oppsett er måten du administrerer oppsett for Business Central på, den samme. Vanligvis arbeider du på siden **Rapportoppsett**. Hovedforskjellen er hvordan du utformer oppsettet, som gjøres ved hjelp av approgramvaren som er laget i utformingen, for eksempel Word, Excel eller SQL Server Report Builder.
 
@@ -33,7 +33,7 @@ Med dette konseptet i tankene. Det finnes hovedsakelig tre eller fire oppgaver i
 >
 > Hvis du vil vite mer om forskjellen mellom utvidelsesoppsett og brukerdefinerte oppsett, kan du se [Oppsettskilde](ui-manage-report-layouts.md#layout-sources).
 
-## <a name="get-started"></a>Kom i gang
+## Kom i gang
 
 Avhengig av hva situasjonen er, varierer de faktiske aktivitetene. Bruk følgende tabell for å komme i gang.
 
@@ -46,7 +46,7 @@ Avhengig av hva situasjonen er, varierer de faktiske aktivitetene. Bruk følgend
 |Bytt det gjeldende oppsettet som brukes av en rapport, til et annet oppsett|[Definer oppsettet som brukes av en rapport](ui-set-report-layout.md)|
 |Endre navn og beskrivelse for et oppsett|[Gi et oppsett nytt navn](#rename)|
 
-## <a name="decide-what-type-of-layout-you-want"></a><a name="decide"></a>Bestem hvilken type oppsett du vil bruke
+## <a name="decide"></a>Bestem hvilken type oppsett du vil bruke
 
 Det første når du oppretter et oppsett, er å bestemme hvilken [type oppsett](ui-manage-report-layouts.md#layout-types) du vil bruke. Du kan velge enten Word, Excel eller RDLC. Oppsettstypen varierer avhengig av hvordan du vil at den genererte rapporten skal se ut. Det avhenger dessuten av hva slags programvare du trenger for å opprette oppsett, for eksempel Word, Excel og SQL Server Report Builder.
 
@@ -65,7 +65,7 @@ Det første når du oppretter et oppsett, er å bestemme hvilken [type oppsett](
 
 * Generelle utformingskonsepter for Word og RDLC oppsett er like. Hver type har imidlertid visse utformingsfunksjoner som påvirker hvordan den genererte rapporten vises i [!INCLUDE[prod_short](includes/prod_short.md)]. Den samme rapporten kan gi ulike utseender ved å bruke Word-oppsettet sammenlignet med RDLC-oppsettet.
 
-## <a name="create-a-new-layout"></a><a name="create"></a>Opprett et nytt oppsett
+## <a name="create"></a>Opprett et nytt oppsett
 
 Du kan opprette et nytt oppsett for et eksisterende oppsett på to måter. En måte er å lagre det eksisterende oppsettet på en kopi. Den andre måten er å eksportere det eksisterende oppsettet.
 
@@ -126,7 +126,7 @@ Hvis du vil se hvordan rapporten ser ut med det nye oppsettet, velger du oppsett
 
 ---
 
-## <a name="modify-a-layout"></a><a name="modify"></a>Endre et oppsett
+## <a name="modify"></a>Endre et oppsett
 
 Følg denne fremgangsmåten for å endre et eksisterende brukerdefinert oppsett.
 
@@ -155,7 +155,7 @@ Følg denne fremgangsmåten for å endre et eksisterende brukerdefinert oppsett.
    Den valgte filen lastes opp til oppsettet, og du går tilbake til siden **Rapportoppsett**.
 7. Hvis du vil se hvordan rapporten ser ut med det nye oppsettet, velger du oppsettet i listen, og deretter velger du **Kjør rapport**.
 
-## <a name="replace-a-layout"></a><a name="replace"></a>Erstatt et oppsett
+## <a name="replace"></a>Erstatt et oppsett
 
 Følg denne fremgangsmåten hvis du vil erstatte den eksisterende, brukerdefinerte oppsettsfilen med en ny fil.
 
@@ -167,7 +167,7 @@ Følg denne fremgangsmåten hvis du vil erstatte den eksisterende, brukerdefiner
    Den valgte filen lastes opp til oppsettet, og du går tilbake til siden **Rapportoppsett**.
 5. Hvis du vil se hvordan rapporten ser ut med det nye oppsettet, velger du oppsettet i listen, og deretter velger du **Kjør rapport**.
 
-## <a name="rename-a-layout"></a><a name="rename"></a>Gi et oppsett nytt navn
+## <a name="rename"></a>Gi et oppsett nytt navn
 
 Følg denne fremgangsmåten hvis du vil endre navnet og beskrivelsen for et brukerdefinert oppsett.
 
@@ -178,7 +178,7 @@ Følg denne fremgangsmåten hvis du vil endre navnet og beskrivelsen for et bruk
     > Du kan finne oppsettet ved å bruke **søkefeltet**, **filtreringsruten** og kolonnesorteringen.
 3. Endre **oppsettsnavnet** og velg deretter **OK**.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  
 [Arbeid med Word-oppsett](ui-how-add-fields-word-report-layout.md)  

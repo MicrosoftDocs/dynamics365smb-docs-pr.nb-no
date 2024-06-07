@@ -10,11 +10,11 @@ ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="get-the-business-central-desktop-app"></a>Skaff deg skrivebordsappen Business Central
+# Skaff deg skrivebordsappen Business Central
 
 Hvis du har en Windows- eller macOS-datamaskin, kan du installere en [!INCLUDE [prod_short](includes/prod_short.md)]-app på skrivebordet. Appen fungerer med lokale og nettbaserte versjoner av [!INCLUDE [prod_short](includes/prod_short.md)].
 
-## <a name="why-use-the-app"></a>Hvorfor bruke appen?
+## Hvorfor bruke appen?
 
 [!INCLUDE [prod_short](includes/prod_short.md)]-appen ligner på nettklienten, men den gir deg noen fordeler som:
 
@@ -25,11 +25,11 @@ Hvis du har en Windows- eller macOS-datamaskin, kan du installere en [!INCLUDE [
 
      Når du åpner appen for et bestemt miljø, inkluderes miljønavnet i vindustittelen. Når du arbeider på tvers av flere [!INCLUDE[prod_short](includes/prod_short.md)]-miljøer, vises hvert appvindu separat. Navnet gjør det enklere for deg å se hvilket vindu som er tilknyttet hvert miljø.
 
-## <a name="install-the-app-for--online"></a>Installer appen for nettversjonen av [!INCLUDE [prod_short](includes/prod_short.md)]
+## Installer appen for nettversjonen av [!INCLUDE [prod_short](includes/prod_short.md)]
 
 Du kan installere appen for [!INCLUDE [prod_short](includes/prod_short.md)] på nettet på to måter. Du kan installere det direkte fra nettleseren eller fra Microsoft store. Det er den samme appen uavhengig av hvor du laster den ned fra. Forskjellen er at når du installerer fra nettleseren, kan du installere appen for hvert miljø når det er mer enn ett.
 
-### <a name="from-microsoft-store"></a>Fra Microsoft Store
+### Fra Microsoft Store
 
 1. Gå til [Microsoft Store](https://go.microsoft.com/fwlink/?linkid=2182870).
 2. Velg **Last ned** > **Installer**. 
@@ -37,7 +37,7 @@ Du kan installere appen for [!INCLUDE [prod_short](includes/prod_short.md)] på 
 
 Neste gang du vil åpne appen, ser du etter den på **Start**-menyen.
 
-### <a name="from-the-browser"></a>Fra nettleseren
+### Fra nettleseren
 
 1. Åpne [!INCLUDE[prod_short](includes/prod_short.md)]-nettklienten i Microsoft Edge eller Google Chrome.
 
@@ -57,13 +57,13 @@ Neste gang du vil åpne appen, ser du etter den på **Start**-menyen.
 
 Når appen er installert, vises den i **Start**-menyen. Hvis du har valgt et bestemt miljø for appen, legges miljønavnet til i navnet på appen på **Start**-menyen.
 
-## <a name="install-the-app-for--on-premises"></a>Installer appen for [!INCLUDE [prod_short](includes/prod_short.md)] lokalt
+## Installer appen for [!INCLUDE [prod_short](includes/prod_short.md)] lokalt
 
 Installasjon av skrivebordsappen når du bruker [!INCLUDE [prod_short](includes/prod_short.md)] lokalt gjøres direkte fra nettleseren som er [beskrevet ovenfor](#from-the-browser). Hvis du bare har én leietaker, åpner du bare [!INCLUDE [prod_short](includes/prod_short.md)] i nettleseren og velger enten ![Ikon for å installere en app i Edge.](media/ui-edge-install-app-icon.png) **Appen er tilgjengelig. Installer Business Central** eller ![Ikon for å installere en app i Chrome.](media/ui-chrome-install-app-icon.png) **Installer Business Central** som vist ovenfor.
 
 Forskjellen er når du har flere leietakere. I motsetning til [!INCLUDE[prod_short](includes/prod_short.md)] online, der du kan installere appen for ulike miljøer, kan du bare installere appen for én leietaker. Før du installerer appen når du har flere leietakere, må du derfor bytte til riktig leietaker. Når du har installert appen, åpner den leietakeren direkte.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Vanlige spørsmål om mobilapper](ui-mobile-faq.yml)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  

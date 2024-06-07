@@ -9,7 +9,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="set-up-document-printing"></a>Definere dokumentutskrift
+# Definere dokumentutskrift
 I [!INCLUDE[prod_short](../../includes/prod_short.md)] kan du skrive ut salgsrapportene som bruker de nødvendige girospesifikasjonene, ved bruk av forskjellige papirtyper og -skuffer.  
 
 Du må vurdere hvordan skriveren og skriverdriveren tolker denne informasjonen når du bruker skuffnumre og papirkilder for norske salgsdokumenter. Du må kanskje angi andre skuffnumre for din spesifikke skriver.  
@@ -31,7 +31,7 @@ Den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)] inn
 |1|Standard [!INCLUDE[prod_short](../../includes/prod_short.md)]-dokumenter. Ingen giroinformasjon skrives ut.|  
 |2|Giroen skrives ut på hver side. Den siste siden skriver ut girosummen.|  
 
-## <a name="to-set-up-paper-trays"></a>Slik definerer du papirskuffer:
+## Slik definerer du papirskuffer:  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Skrivervalg**, og velg deretter den relaterte koblingen.  
 2.  Velg rapporten.  
@@ -46,7 +46,7 @@ Den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)] inn
 
 6.  Velg **OK**.  
 
-## <a name="see-also"></a>Se også
+## Se også  
   [Norsk giro og OCR-B-skrift](norwegian-giro-and-ocr-b-font.md)   
  [Opprette KID-numre på salgsdokumenter](how-to-set-up-kid-numbers-on-sales-documents.md)
 
