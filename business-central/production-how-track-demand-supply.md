@@ -9,13 +9,13 @@ ms.date: 06/25/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Spore relasjoner mellom behov og forsyning
+# <a name="track-relations-between-demand-and-supply"></a>Spore relasjoner mellom behov og forsyning
 
 Fra ethvert forsynings- eller behovsdokument i det såkalte ordrenettverket kan du spore ordrebehovet (sporet antall), prognosen, rammebestillingen eller planleggingsparameteren (ikke-sporet antall) som har forårsaket den aktuelle planleggingslinjen.
 
 Planleggingsforslagene gir også støtteinformasjon for planlegging for ikke-ordreenheter for å hjelpe planleggeren med å opprette en optimal forsyningsplan. Hvis du vil ha mer informasjon, kan du se [Ikke-sporet planleggingselement](production-how-track-demand-supply.md#untracked-planning-elements).
 
-## Spore tilknyttede varer
+## <a name="to-track-linked-items"></a>Spore tilknyttede varer
 Sporing viser hvordan ordrer, produksjonsordrer og bestillinger er knyttet til produksjonsordrer gjennom planleggings- og reservasjonssystemer.
 
 Nedenfor beskrives hvordan du kan spore tilknyttede varer på en fast planlagt produksjonsordre. Fremgangsmåten er lik for alle andre ordretyper og fra planleggingsforslagslinjer.
@@ -26,7 +26,7 @@ Nedenfor beskrives hvordan du kan spore tilknyttede varer på en fast planlagt p
 
 Linjene i **Sporing**-vinduet viser hvilke dokumenter som er knyttet til den aktuelle produksjonsordrelinjen.
 
-## Ikke-sporede planleggingselementer
+## <a name="untracked-planning-elements"></a>Ikke-sporede planleggingselementer
 Siden **Ikke-sporede planleggingselementer** åpnes når du velger feltet **Ikke-sporet antall** på siden **Ordreplanlegging**. Det har to formål:
 
 1. Inneholde informasjon om ikke-sporede antall som vises når brukeren slår opp ikke-sporede antall fra Sporing-siden.
@@ -45,7 +45,7 @@ Siden inneholder poster som gjør rede for et ikke-sporet overskuddsantall i ord
 - Bestillingsfaktor
 - Avdemping (% av partistr.)
 
-## Se også  
+## <a name="see-also"></a>Se også
 [Planlegging](production-planning.md)   
 [Definere produksjon](production-configure-production-processes.md)  
 [Produksjon](production-manage-manufacturing.md)    

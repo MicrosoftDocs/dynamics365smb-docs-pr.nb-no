@@ -11,7 +11,7 @@ ms.search.keywords: project management
 ms.search.form: '211, 463, 1012'
 ms.service: dynamics-365-business-central
 ---
-# Konfigurere prosjekter, priser og prosjektbokføringsgrupper
+# <a name="set-up-projects-prices-and-project-posting-groups"></a>Konfigurere prosjekter, priser og prosjektbokføringsgrupper
 
 Som prosjektleder kan du sette opp prosjekter som definerer alle prosjekter du administrerer i [!INCLUDE[prod_short](includes/prod_short.md)]. Bruk siden **Prosjektoppsett** til å definere hvordan du skal bruke prosjektfunksjoner.
 
@@ -22,7 +22,7 @@ Angi ulike opplysninger for hvert prosjekt:
 * Finanskontoer for prosjekt
 * Prosjektbokføringsgrupper (obligatorisk)
 
-## Slik angir du generell informasjon for prosjekter
+## <a name="to-set-general-information-for-projects"></a>Slik angir du generell informasjon for prosjekter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektoppsett**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -30,7 +30,7 @@ Angi ulike opplysninger for hvert prosjekt:
 > [!NOTE]
 > Vekslebryteren **Bruk forbrukskobling som standard** på siden **Prosjektoppsett** angir om prosjektposter er koblet til prosjektplanleggingslinjer som standard. Slå på vekslebryteren for å bruke denne innstillingen på alle nye prosjekter. Du kan aktivere eller deaktivere sporing av prosjektforbruk for et bestemt prosjekt ved slå av eller på vekslebryteren **Bruk forbrukskobling** på siden **Prosjektkort**.
 
-### Angi en standardplassering for prosjektvarer
+### <a name="specify-a-default-location-for-project-items"></a>Angi en standardplassering for prosjektvarer
 
 Du kan spare tid på dataregistrering ved å angi en standardplassering og -hylle for prosjekter på **Prosjektkort**-siden. Når du oppretter prosjektoppgaver, prosjektplanleggingslinjer og prosjektkladdelinjer for prosjektet, tilordnes standardplasseringen og -hyllen automatisk. Du kan imidlertid endre lokasjonskoden og hyllen på oppgaver og linjer om nødvendig.
 
@@ -44,11 +44,11 @@ Det er et par ting du bør vite om bruk av standardplasseringer:
 * For prosjektplanleggingslinjer er **Lokasjonskode** basert på verdien som velges på prosjektplanleggingslinjen når du velger en vare. Hvis det ikke er definert en hyllekode for prosjektoppgaven, velges hyllen fra standardhylleinnholdet. Du kan endre begge verdiene manuelt.
 * For prosjektkladdelinjer er **Lokasjonskode** basert på verdien som velges på prosjektkladdelinjen når du velger en vare. Hvis det ikke er definert en hyllekode for prosjektoppgaven, velges hyllen fra standardhylleinnholdet. Du kan endre begge verdiene manuelt.
 
-### Fakturere flere kunder for prosjektoppgaver 
+### <a name="invoice-multiple-customers-for-project-tasks"></a>Fakturere flere kunder for prosjektoppgaver
 
 Når prosjekter involverer flere kunder, kan det være utfordrende å fakturere de riktige kundene for de riktige oppgavene. [!INCLUDE [prod_short](includes/prod_short.md)] gjør fakturering mindre komplisert ved at du angir faktura til- og salg til-kunder på hver prosjektoppgavelinje, slik at du kan generere fakturaer automatisk for de riktige kundene. Hvis du vil lære mer om hvordan du fakturerer flere kunder, kan du gå til [Fakturere én eller flere kunder for prosjektoppgaver](projects-how-create-jobs.md#invoice-one-or-more-customers-for-project-tasks).
 
-### Slik konfigurerer du sporing av prosjektforbruk
+### <a name="to-set-up-project-usage-tracking"></a>Slik konfigurerer du sporing av prosjektforbruk
 
 Når du arbeider på et prosjekt, vil du kanskje vite hvordan forbruket forløper seg i forhold til planen. Du kan utforske forbruket ved å opprette en kobling mellom prosjektplanleggingslinjene og det faktiske forbruket. Med koblingen kan du holde oversikt over kostnadene og forstå hvor mye arbeid som gjenstår. Som standard er prosjektplanleggingslinjetypen **Budsjett**, men bruk av linjetypen **Både Budsjett og Fakturerbar** har liknende effekter.
 
@@ -62,7 +62,7 @@ Etter at du har konfigurert forbrukssporing ved å slå på vekslebryteren **Bru
 > [!IMPORTANT]
 > Hvis du ikke angir en verdi i feltet **Linjetype** på prosjektkladdelinjen eller kjøpslinjen, opprettes det ingen prosjektplanleggingslinjer når du bokfører prosjektkladden eller kjøpsdokumentet.
 
-## Slik definerer du priser for ressurser, varer og finanskonti for prosjekter
+## <a name="to-set-up-prices-for-resources-items-and-general-ledger-accounts-for-projects"></a>Slik definerer du priser for ressurser, varer og finanskonti for prosjekter
 
 > [!NOTE]
 > I lanseringsbølge 2 for 2020 lanserte vi nye fremgangsmåter for å definere og håndtere priser og rabatter. Hvis du er en ny kunde, bruker du den nye opplevelsen. Hvis du er en eksisterende kunde, vil din bruk av den nye funksjonen avhenge av om administratoren har aktivert funksjonsoppdateringen **Ny salgsprisopplevelse** i **Funksjonsstyring**. Hvis du vil ha mer informasjon, kan du se [Aktivering av kommende funksjoner på forhånd](/dynamics365/business-central/dev-itpro/administration/feature-management).
@@ -90,7 +90,7 @@ Når du velger en ressurs, en vare eller en finanskonto for et prosjekt, bruker 
 
 ---
 
-## Slik setter du opp bokføringsgrupper for prosjekter
+## <a name="to-set-up-project-posting-groups"></a>Slik setter du opp bokføringsgrupper for prosjekter
 
 Ett aspekt ved prosjektplanlegging er å bestemme hvilke bokføringskontoer som skal brukes for prosjektkostnader. Du må definere konti for bokføring for hver prosjektbokføringsgruppe for å kunne bokføre prosjekter. En bokføringsgruppe representerer en kobling mellom prosjektet og hvordan det skal behandles i finans. Når du oppretter et prosjekt, angir du en bokføringsgruppe, og hver oppgave du oppretter for prosjektet, knyttes som standard til denne bokføringsgruppen. Når du oppretter oppgaver, kan du imidlertid overstyre standardinnstillingen og velge en bokføringsgruppe som er mer hensiktsmessig.  
 
@@ -118,7 +118,7 @@ Ett aspekt ved prosjektplanlegging er å bestemme hvilke bokføringskontoer som 
 | **Konto for ført kost** |Utgiftskontoen som inneholder de førte kostbeløpene for prosjektet. Dette er som regel en debitutgiftskonto. | Ført kostnad|
 | **Konto for ført salg** |Inntektskontoen som inneholder ført inntekt for prosjektet. Dette er som regel en kreditinntektskonto. | Ført salg|
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurer prosjektstyring](projects-setup-projects.md)  
 [Video: Opprett et prosjekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

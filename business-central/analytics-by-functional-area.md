@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Analyse etter funksjonsområde
+# <a name="analytics-by-functional-area"></a>Analyse etter funksjonsområde
 
 Det generelle innholdet om analyse er også tilgjengelig i spesifikke versjoner for mange av funksjonsområdene i [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
@@ -24,7 +24,7 @@ Det generelle innholdet om analyse er også tilgjengelig i spesifikke versjoner 
 | Aktivaadministrasjon | [Analyse av aktiva](fa-analytics-overview.md) |
 
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversikt over analyse](reports-bi-reporting.md)  
 

@@ -10,7 +10,7 @@ ms.reviewer: bholtorf
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Kjøre full planlegging, MPS eller MRP
+# <a name="run-full-planning-mps-or-mrp"></a>Kjøre full planlegging, MPS eller MRP
 
 Uttrykket «kjøre planleggingsforslaget» eller «kjøre MRP» henviser til beregningen av hovedproduksjonsplanen og materialbehovene. Beregningen er basert på faktisk og forutsagt behov. Planleggingssystemet kan beregne enten MPS (Master Production Schedule) eller MRP (Material Requirements Planning) ved forespørsel, eller begge samtidig.  
 
@@ -23,7 +23,7 @@ Du kan spore koblingene som planleggingen oppretter mellom etterspørsel og fors
 
 Riktige planleggingsresultater er avhengig av definisjonene i varekort, monteringsstykklister, produksjonsstykklister og ruter.  
 
-## Metoder for å generere en plan  
+## <a name="methods-for-generating-a-plan"></a>Metoder for å generere en plan
 
 - **Beregn replanlegging**: Behandle eller regenerer materialplanen. Denne prosessen starter ved å slette alle planlagte forsyningsordrer som er lastet inn. Alle varer i databasen planlegges på nytt.  
 - **Beregn bevegelsesplan**: Behandle en bevegelsesplan. Varer behandles i bevegelsesplanlegging fra to typer endringer:  
@@ -38,7 +38,7 @@ Med hver planlagte metode genererer [!INCLUDE[prod_short](includes/prod_short.md
 >
 > Du kan kjøre planen Hent handlingsmeldinger mellom regenerative kjøringer og nettoendringsplanleggingskjøringer for å få en umiddelbar oversikt over effekten av planendringer. Det er imidlertid ikke ment å erstatte de fullstendige regenerative eller nettoendringsplanleggingsprosessene.  
 
-## Slik beregner du planleggingsforslaget
+## <a name="to-calculate-the-planning-worksheet"></a>Slik beregner du planleggingsforslaget
   
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Planleggingsforslag**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Beregn replanlegging** for å åpne siden **Beregn Plan**.  
@@ -58,7 +58,7 @@ Med hver planlagte metode genererer [!INCLUDE[prod_short](includes/prod_short.md
 4. På hurtigfanen **Vare** angir du filtre for å kjøre planleggingen basert på varen, varebeskrivelsen eller lokasjonen.  
 5. Velg **OK**-knappen. Satsjobben kjøres og planleggingslinjene legges til i planleggingsforslaget.  
 
-## Utføre handlingsmeldinger
+## <a name="to-perform-action-messages"></a>Utføre handlingsmeldinger
   
 1. På siden **Planleggingsforslag** velger du handlingen **Utfør handlingsmelding**.  
 2. På hurtigfanen **Alternativer** angir du hvordan forsyningene skal opprettes. Fyll ut feltene som beskrevet i tabellen nedenfor.  
@@ -77,7 +77,7 @@ Med hver planlagte metode genererer [!INCLUDE[prod_short](includes/prod_short.md
 
 Kjørselen sletter linjene i planleggingsforslaget etter at handlingsmeldingen er utført. De andre linjene beholdes i planleggingsforslaget til de godtas eller slettes. Du kan også slette linjene manuelt.  
 
-## Handlingsmeldinger
+## <a name="action-messages"></a>Handlingsmeldinger
   
 Handlingsmeldinger utstedes av sporingssystemet når balanse er uoppnåelig i det eksisterende ordrenettverket. Meldingene kan ses på som forslag om å behandle endringer som gjenoppretter balanse mellom forsyning og behov.  
 
@@ -100,7 +100,7 @@ Som følge av at forholdet mellom forsyning og behov ikke er i balanse, generere
 |**Tidsplan. på nytt og endre ant.**|Hvis både datoene og antallene i en ordreendring, må du endre planer med hensyn til begge deler. Handlingsmeldingssystemet samler begge handlingene i én melding, **Tidsplanl. på nytt og endre ant.**, for å sikre at balansen i ordrenettverket gjenopprettes.|  
 |**Kanseller**|Hvis et behov som har blitt dekket på en ordre-til-ordre-basis, slettes, genereres en handlingsmelding om å kansellere den aktuelle forsyningsordren. Hvis forholdet ikke er et ordre-til-ordre-forhold, genereres en handlingsmelding om å endre for å redusere forsyningen. Hvis det på grunn av andre faktorer, for eksempel lagerjusteringer, ikke er behov for en forsyningsordre når du genererer handlingsmeldingen, foreslår [!INCLUDE[prod_short](includes/prod_short.md)] handlingsmeldingen **Avbryt** i forslaget.|  
 
-## Se også  
+## <a name="see-also"></a>Se også
 
 [Planlegging](production-planning.md)  
 [Definere produksjon](production-configure-production-processes.md)  

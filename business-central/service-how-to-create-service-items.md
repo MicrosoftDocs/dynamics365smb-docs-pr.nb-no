@@ -10,18 +10,18 @@ ms.date: 03/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Opprett servicevarer
+# <a name="create-service-items"></a>Opprett servicevarer
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] refererer betegnelsen "servicevare" til utstyr eller varer som trenger service. Når du oppretter en serviceordre, kan du angi varene som trenger service. I ordren kan du knytte en servicevare til en vare på lageret eller i en servicevaregruppe.
 
 Når du mottar en vare som trenger service, kan du registrere den som en servicevare. Det er flere måter å gjøre dette på. Du kan for eksempel oppretter en servicevare på siden **Servicevarer** eller som en del av en annen prosess, for eksempel når du arbeider med en serviceordre.
 
-## Slik oppretter du en servicevare
+## <a name="to-create-a-service-item"></a>Slik oppretter du en servicevare
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Servicevarer**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Slik oppretter du servicevarer i en serviceordre
+## <a name="to-create-service-items-within-a-service-order"></a>Slik oppretter du servicevarer i en serviceordre
 
 Når du mottar varer for service som du registrere som servicevarer, kan du opprette dem som servicevarer på sidene **Serviceordre** eller **Servicetilbud**.  
 
@@ -31,7 +31,7 @@ Når du mottar varer for service som du registrere som servicevarer, kan du oppr
 
     Et tall blir tilordnet til servicevaren, og et servicevarekort opprettes. Feltet **Servicevarenr.** fylles ut med nummeret på den nye servicevaren.
 
-## Slik oppretter du en servicevare når du leverer varer
+## <a name="to-create-a-service-item-when-shipping-items"></a>Slik oppretter du en servicevare når du leverer varer
 
 Når du leverer varer ved å bokføre ordrer eller salgsfakturaer, registreres de leverte varene automatisk som servicevarer hvis følgende betingelse gjelder: Varene må tilhøre en servicevaregruppe med en avmerking i **Opprett servicevare**-boksen. Hvis varene har serienumre registrert på siden Varesporingslinjer, kopieres denne informasjonen automatisk til **Serienr**-feltet på servicevarekortet når du oppretter servicevarer.  
 
@@ -48,7 +48,7 @@ Følgende fremgangsmåte viser hvordan du oppretter servicevarer når du leverer
 >
 > Hvis en vare er en stykklistevare og du ikke har utvidet stykklisten, opprettes det en servicevare for den basert på betingelsen for servicevaregruppen og eventuelt betingelsen for serienumre.  
 
-## Slik setter du inn et startgebyr for en servicevare
+## <a name="to-insert-a-starting-fee-for-a-service-item"></a>Slik setter du inn et startgebyr for en servicevare
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Serviceoppgaver**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Arbeidsordre**.
@@ -56,7 +56,7 @@ Følgende fremgangsmåte viser hvordan du oppretter servicevarer når du leverer
 
     En servicelinje av typen **Kostnad** settes inn med startgebyret. Startgebyret gjelder for den valgte servicevaren.
 
-## Blokker varer, varevarianter eller bestemte servicevarer
+## <a name="block-items-item-variants-or-specific-service-items"></a>Blokker varer, varevarianter eller bestemte servicevarer
 
 Du kan forhindre at varer, varevarianter eller servicevarer brukes i servicetransaksjoner, for eksempel servicekontrakter, serviceordrer og servicefakturaer. Dette kan være nyttig hvis du vil begrense tilgjengeligheten av enkelte varer eller servicevarer til serviceformål, for eksempel på grunn av avviklet støtte, begrenset lager eller kontraktsmessige avtaler.
 
@@ -79,7 +79,7 @@ Hvis du i tillegg har servicekontrakter, servicekontrakttilbud eller serviceordr
 - **Frigi til levering** eller **Bokfør** på siden **Serviceordre**.
 - **Bokfør** på siden **Servicefaktura**.
 
-### Blokker en servicevare
+### <a name="block-a-service-item"></a>Blokker en servicevare
 
 Hvis du vil blokkere en servicevare fra å bli brukt i servicetransaksjoner, går du til siden **Servicevarekort** og velger ett av følgende alternativer i **Sperret**-feltet:
 
@@ -107,14 +107,14 @@ Du kan også vise de blokkerte servicevarene ved å bruke et filter på følgend
 - Servicevarer – utgått garanti (rapport 5937)
 - Servicefortjeneste (servicevarer) (rapport 5938)
 
-### Dataoppgradering
+### <a name="data-upgrade"></a>Dataoppgradering
 
 Denne funksjonen krever ikke ekstra konfigurering. Hvis du imidlertid oppgraderer [!INCLUDE [prod_short](includes/prod_short.md)], må du være oppmerksom på følgende:
 
 - Hvis du har varer, varevarianter eller varemaler der bryteren **Sperret salg** er aktivert, aktiveres også feltet **Tjeneste sperret** for disse postene under oppgraderingen. Dette sikrer at den eksisterende logikken for sperret salg også gjelder for servicetransaksjoner.
 - Data oppgraderes bare hvis du har minst én servicevare i firmaet, noe som betyr at du bruker serviceadministrasjonsfunksjonaliteten og trenger dataoppgraderingen. Hvis du ikke har servicevarer, hoppes dataoppgraderingen over, og veksleknappen **Tjeneste sperret** er deaktivert som standard for alle varer, varevarianter og varemaler.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurer servicevarer og servicevarekomponenter](service-how-setup-service-items.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  

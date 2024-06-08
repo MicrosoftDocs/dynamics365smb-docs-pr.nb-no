@@ -10,10 +10,10 @@ ms.date: 06/29/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Bruke fordelingsnøkler i finanskladder
+# <a name="use-allocation-keys-in-general-journals"></a>Bruke fordelingsnøkler i finanskladder
 Du kan fordele en post i en finanskladd på flere forskjellige konti når du bokfører kladden. Fordelingen kan gjøres etter antall, prosent eller beløp.
 
-## Definere fordelingsnøkler
+## <a name="to-set-up-allocation-keys"></a>Definere fordelingsnøkler
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Gjentakende finanskladd** og velg den relaterte koblingen.
 2. Velg feltet **Bunkenavn** for å åpne siden **Finanskladder**.
 3. Du kan endre fordelinger på en eksisterende bunke i listen, eller du kan opprette en ny bunke med tildelinger.
@@ -28,13 +28,13 @@ Du kan fordele en post i en finanskladd på flere forskjellige konti når du bok
 10. Når du har angitt fordelingslinjene, velger du **OK** for å gå tilbake til siden **Gjentakende finanskladd**. Feltet **Fordelt beløp (USD)** fylles ut og samsvarer med **Beløp**-feltet.
 11. Bokfør kladden.
 
-## Slik endrer du en fordelingsnøkkel som allerede er definert
+## <a name="to-change-an-allocation-key-that-has-already-been-set-up"></a>Slik endrer du en fordelingsnøkkel som allerede er definert
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Gjentakende finanskladd** og velg den relaterte koblingen.
 2. Velg kladden med fordelingen, på siden **Finansgjentak.kladd**.
 3. Velg linjen med fordelingen, og velg deretter handlingen **Fordelinger**.
 4. Endre de relevante feltene, og velg deretter **OK**.
 
-## Se også
+## <a name="see-also"></a>Se også
 [Arbeid med finanskladder](ui-work-general-journals.md)  
 [Bokføre dokumenter og kladder](ui-post-documents-journals.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

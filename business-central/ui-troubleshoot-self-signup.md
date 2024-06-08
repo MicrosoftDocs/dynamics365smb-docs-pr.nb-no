@@ -8,15 +8,15 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# Feilsøke registrering for Self-Service
+# <a name="troubleshooting-self-service-sign-up"></a>Feilsøke registrering for Self-Service
 Registrering for [!INCLUDE[prod_short](includes/prod_short.md)] er enkelt og kan gjøres svært raskt. Du kan opprette en gratis konto selv om du er en eksisterende organisasjon. Denne artikkelen beskriver problemer som kan oppstå under registrering.
 
-## Hvilken e-postadresse kan jeg bruke med Business Central?
+## <a name="what-email-address-can-i-use-with-business-central"></a>Hvilken e-postadresse kan jeg bruke med Business Central?
 [!INCLUDE[prod_short](includes/prod_short.md)] krever at du bruker en e-postadresse for arbeid eller skole for å registrere deg. [!INCLUDE[prod_short](includes/prod_short.md)] støtter ikke e-postadressene levert av e-posttjenester for forbrukere eller telekommunikasjonsleverandører. Dette inkluderer outlook.com, hotmail.com, gmail.com og andre.
 
 Hvis du prøver å registrere deg med en personlig e-postadresse, får du en melding om å bruke en e-postadresse for arbeid eller skole.
 
-## Feilsøking
+## <a name="troubleshooting"></a>Feilsøking
 I mange tilfeller kan du registrere deg for [!INCLUDE[prod_short](includes/prod_short.md)] ved å følge registreringsprosessen nedenfor. Det er imidlertid flere grunner til hvorfor du ikke kanskje ikke kan fullføre registrering for Self-Service. Tabellen nedenfor viser en oversikt over noen av de vanligste årsakene som du ikke kanskje kan fullføre registreringen og metoder for midlertidig løsning av disse problemene.
 
 | Symptom/feilmelding | Årsak og løsning |
@@ -28,13 +28,13 @@ I mange tilfeller kan du registrere deg for [!INCLUDE[prod_short](includes/prod_
 | E-postadressen er ikke en Microsoft 365-ID. Du får en feilmelding som følgende, under registrering:<br /><br />**Vi finner deg ikke på contoso.com. Bruker du en annen ID på arbeid eller skole? Prøv å logge på med denne, og hvis det ikke fungerer, kan du kontakte IT-avdelingen.** |Organisasjonen din bruker ID-er til å logge på Microsoft 365 og andre Microsoft-tjenester, som er forskjellig fra e-postadressen din. E-postadressen din kan for eksempel være Nancy.Smith@contoso.com, men ID-en er nancys@contoso.com. Hvis du vil fullføre registreringen, kan du bruke ID-en som organisasjonen har tilordnet for å logge på Microsoft 365 eller andre Microsoft-tjenester. Hvis du ikke vet hva dette er, kontakter du systemansvarlig. Hvis du fremdeles ikke kan registrere deg og kan fullføre et mer avansert oppsett, kan du registrere for et nytt prøveabonnement for Microsoft 365 og bruke den e-postadressen til å registrere deg. |
 | Hvis Microsoft 365-kontoen er registrert i et land som støttes og du registrerer deg for [!INCLUDE[prod_short](includes/prod_short.md)] når du er i et annet land, vises en melding under registreringen:<br /><br />**Dette fungerte ikke. Vi støtter ikke landet eller området ennå.**| Organisasjonens Microsoft 365-abonnement er registrert i et bestemt land i administrasjonsportalen for Microsoft 365. Registreringsopplevelsen for [!INCLUDE[prod_short](includes/prod_short.md)] bruker språket og de nasjonale innstillingene som gjeldende nettleser bruker, og derfor kan du få du feilmelding selv om du er i et land som støttes. Be IT-ansvarlig om å kontrollere landet som er angitt i organisasjonsprofilen i [Microsoft 365-administrasjonsportalen](https://portal.office.com/adminportal/home#/companyprofile). Det kan hende du må bruke en annen konto for [!INCLUDE[prod_short](includes/prod_short.md)].|
 
-## Tilgjengelighet i området
+## <a name="regional-availability"></a>Tilgjengelighet i området
 
 [!INCLUDE[prod_short](includes/prod_short.md)] er tilgjengelig i flere land eller områder med lokalisering gitt av Microsoft eller en godkjent lokaliseringspartner. Hvis du vil se hele oversikten over støttede land og regioner, kan du se [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations?toc=/dynamics365/business-central/toc.json).  
 
 For en oversikt over markeder som støttes på tvers av Dynamics 365, kan du se [Internasjonal tilgjengelighet for Microsoft Dynamics 365](/dynamics365/get-started/availability). For en oversikt over lokal funksjonalitet i [!INCLUDE[prod_short](includes/prod_short.md)], se [Lokal funksjonalitet](about-localization.md)-målsiden.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Registrer deg for en Dynamics 365 Business Central-prøveversjon](trial-signup.md)  
 [Vanlige spørsmål om prøversjonen av Dynamics 365 Business Central](trial-faq.md)  

@@ -11,7 +11,7 @@ ms.date: 04/01/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ---
-# Håndtere salgsmuligheter
+# <a name="managing-sales-opportunities"></a>Håndtere salgsmuligheter
 Enhver innkommende interessent kan regnes som en salgsmulighet. Du kan opprette muligheter og tildele dem til en selger, slik at du kan holde oversikt over potensielt salg.
 
 Før du kan begynne å bruke administrasjon av muligheter, må du definere salgssykluser og salgssyklusfaser. Når du oppretter en salgsmulighet, bør du legge inn informasjon om kontakt, selger, salgssyklus og datoer, i tillegg til estimatene for salgsverdien for muligheten og sannsynligheten for at den blir vellykket.
@@ -24,7 +24,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Opprette salgsmuligheter fra kontaktene. |[Opprette salgsmuligheter](marketing-how-create-opportunities.md) |
 | Flytt en salgsmulighet gjennom salgssyklusen til fullføring. |[Behandle salgsmuligheter](marketing-processing-sales-opportunities.md) |
 
-## Se også
+## <a name="see-also"></a>Se også
 [Salg](sales-manage-sales.md)  
 [Opprette og administrere kontakter](marketing-contacts.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

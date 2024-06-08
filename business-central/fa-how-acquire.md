@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Anskaff aktiva
+# <a name="acquire-fixed-assets"></a>Anskaff aktiva
 
  **Bruk siden Aktivakort** til å angi opplysninger om et aktiva. Du kan definere bygninger eller produksjonsutstyr som hovedaktiva i en komponentoversikt, og du kan gruppere dem på forskjellige måter, som etter klasse, avdeling eller lokasjon. Du må definere og tilordne et avskrivningstablå til hvert aktiva før du kan anskaffe det.
 
@@ -19,7 +19,7 @@ Når du har definert et aktiva og tilordnet et avskrivningstablå, må du anskaf
 
 Bruk indeksregulering til å justere verdier for generelle endringer i prisnivået. Bruk kjørselen **Indeksreg. aktiva** til å beregne anskaffelseskostnader og erstatningskostnader.
 
-## Legge til et aktiva i listen over aktiva
+## <a name="add-a-fixed-asset-to-your-list-of-fixed-assets"></a>Legge til et aktiva i listen over aktiva
 
 Før du kan anskaffe et aktiva, må du legge det til i aktivalisten. Du kan legge til aktiva i listen på flere måter:
 
@@ -30,7 +30,7 @@ Før du kan anskaffe et aktiva, må du legge det til i aktivalisten. Du kan legg
 
 Når du har lagt til aktiva i listen, er neste trinn å anskaffe dem, slik at du kan bruke dem i transaksjoner. Finn ut mer på [Anskaffe et aktiva](#acquire-fixed-assets).
 
-### Legge til et aktiva på siden Aktivakort
+### <a name="add-a-fixed-asset-on-the-fixed-asset-card-page"></a>Legge til et aktiva på siden Aktivakort
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Aktiva**, og velg deretter den relaterte koblingen.  
 2. Velg **Ny**, og deretter fyller du ut feltene i **Generelt**-hurtigfanen etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -39,7 +39,7 @@ Når du har lagt til aktiva i listen, er neste trinn å anskaffe dem, slik at du
 
     Når du har fylt ut de nødvendige feltene, vises **vises Du er klar til å kjøpe aktivaet.** Varselet vises øverst på siden. Hvis du er klar til å anskaffe innholdselementet nå, velger du handlingen **Hent** . Følg trinnene på **siden Assistert aktivaanskaffelse** for å fullføre anskaffelsen. Hvis du ikke er klar, kan du alltid kjøpe eiendelen senere.
 
-### Bruke Rediger i Excel til å legge til aktiva
+### <a name="use-edit-in-excel-to-add-assets"></a>Bruke Rediger i Excel til å legge til aktiva
 
 Hvis du vil legge til mange aktiva, er Rediger i Excel et flott verktøy å bruke. Verktøyet laster ned den gjeldende aktivalisten i et regneark som inneholder de fleste feltene som er tilgjengelige på siden Aktivakort. Du kan fylle ut noen av eller alle feltene på raden for hvert innholdselement, og publisere endringene for å legge dem til i listen [!INCLUDE [prod_short](includes/prod_short.md)]. Hvis du ikke kan fylle ut alle obligatoriske felt, er det greit. Du kan oppdatere dem når [!INCLUDE [prod_short](includes/prod_short.md)] du er klar.
 
@@ -55,7 +55,7 @@ Hvis du vil legge til mange aktiva, er Rediger i Excel et flott verktøy å bruk
 
 4. Hvis du vil oppdatere [!INCLUDE [prod_short](includes/prod_short.md)], velger du **Microsoft Dynamics** Publiser **i** ruten.
 
-### Legge til et aktiva fra en bestilling eller faktura
+### <a name="add-a-fixed-asset-from-a-purchase-order-or-invoice"></a>Legge til et aktiva fra en bestilling eller faktura
 
 Trinnene nedenfor beskriver hvordan du legger til et aktiva fra en bestilling. Fremgangsmåten er den samme for en kjøpsfaktura.
 
@@ -66,7 +66,7 @@ Trinnene nedenfor beskriver hvordan du legger til et aktiva fra en bestilling. F
 5. I **Nr.** -feltet, velger du enten et eksisterende aktiva for å legge til en utgift, eller velger **Ny** for å legge til et nytt aktiva.
 6. Når du har angitt opplysningene for det nye aktivaet og bestillingen, velger du **Bokfør**.
 
-## Anskaffe et aktiva ved hjelp av en aktivafinanskladd
+## <a name="acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal"></a>Anskaffe et aktiva ved hjelp av en aktivafinanskladd
 
 Fremgangsmåten nedenfor beskriver hvordan du anskaffer ved å opprette og bokføre de nødvendige finanskladdelinjene for aktiva. Du kan også opprette og bokføre kladdelinjene manuelt. Hvis du vil ha mer informasjon, kan du gå til [Anskaffe et aktiva ved hjelp av en aktivafinanskladd](#acquire-a-fixed-asset-by-using-a-fixed-asset-gl-journal).
 
@@ -79,7 +79,7 @@ Fremgangsmåten nedenfor beskriver hvordan du anskaffer ved å opprette og bokf�
 
 Når du velger **Fullfør**, fylles feltet **Bokført verdi** ut på **siden Aktivakort**, som angir at aktivaet ble anskaffet til den angitte anskaffelseskosten.  
 
-## Slik bokfører du en aktivaanskaffelse manuelt med en aktivafinanskladd:
+## <a name="to-post-a-fixed-asset-acquisition-manually-with-a-fixed-asset-gl-journal"></a>Slik bokfører du en aktivaanskaffelse manuelt med en aktivafinanskladd:
 
 Følgende fremgangsmåte beskriver hvordan du anskaffer et aktiva manuelt ved å opprette og bokføre linjer på **Aktiva finanskladd**-siden. Du kan også anskaffe et aktiva automatisk på **siden Aktivakort** ved å velge **handlingen Hent aktiva** . Hvis du vil vite mer, kan du gå til [Anskaffe et aktiva](#acquire-fixed-assets).
 
@@ -94,7 +94,7 @@ Følgende fremgangsmåte beskriver hvordan du anskaffer et aktiva manuelt ved å
 > [!TIP]  
 > Hvis du fyller ut forsikringsnummeret **.**  [!INCLUDE[prod_short](includes/prod_short.md)] -feltet bokfører også anskaffelseskosten for aktivaet i forsikringsdekningsposten. Hvis du vil vite mer, kan du gå til [Forsikre aktiva](fa-how-insure.md).
 
-## Slik definerer du en komponentoversikt for et hovedaktiva:
+## <a name="to-set-up-a-component-list-for-a-main-asset"></a>Slik definerer du en komponentoversikt for et hovedaktiva:
 
 Du kan gruppere aktiva i hovedaktiva og komponenter i hovedaktivaene. Det kan for eksempel tenkes at du har en produksjonsmaskin som består av flere deler som du vil gruppere på denne måten.  
 
@@ -108,7 +108,7 @@ Du må definere hovedaktivaet og alle komponentene som individuelle aktiva. Når
 6. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Aktivaoppsett** og velger den relaterte koblingen.
 7. Aktiver veksleknappen **Tillat bokføring til hovedaktiva** .
 
-## Slik kansellerer du en anskaffelseskostbokføring for ett aktiva:
+## <a name="to-cancel-an-acquisition-cost-posting-for-one-fixed-asset"></a>Slik kansellerer du en anskaffelseskostbokføring for ett aktiva:
 
 Hvis du gjør en feil når du bokfører en anskaffelseskostnad, kan du fjerne posten via kjørselen **Kanseller aktivaposter** og deretter bokføre den riktige anskaffelsesposten. Feilaktige poster overføres til **Aktivafeilposter**-siden.
 
@@ -124,7 +124,7 @@ Hvis du for eksempel bokfører en anskaffelse med feil dato, må du korrigere de
 5. Velg **OK**-knappen for å kjøre kjørselen.
 6. Når feil post eller poster er kansellert, fortsetter du med å bokføre riktig anskaffelseskost.
 
-## Slik bokfører du skrapverdien sammen med anskaffelseskosten:
+## <a name="to-post-the-salvage-value-together-with-the-acquisition-cost"></a>Slik bokfører du skrapverdien sammen med anskaffelseskosten:
 
 Skrapverdien er restverdien for et aktiva som ikke lenger kan brukes. Du kan bokføre skrapverdien samtidig som du bokfører anskaffelseskosten. Hvis du vil ha mer informasjon, kan du gå til [Avskrive eller amortisere aktiva](fa-how-depreciate-amortize.md).
 
@@ -141,7 +141,7 @@ Du kan bokføre skrapverdien sammen med anskaffelseskosten fra en aktivakladd.
 > [!NOTE]
 > Hvis det finnes en skrapverdi for et aktiva, brukes denne verdien i avskrivningsbokføring i stedet for verdien i **feltet Slutt bokført verdi** på **siden Aktivaavskrivningstablå** . Hvis du vil vite mer, kan du gå til [Slik administrerer du den bokførte sluttverdien](fa-how-depreciate-amortize.md#to-manage-the-ending-book-value).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Aktiva](fa-manage.md)  
 [Definer aktiva](fa-setup.md)  

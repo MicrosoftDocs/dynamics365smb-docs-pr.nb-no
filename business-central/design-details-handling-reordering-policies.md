@@ -9,7 +9,7 @@ ms.date: 02/24/2023
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
-# Designdetaljer: Håndtere gjenbestillingsprinsipper
+# <a name="design-details-handling-reordering-policies"></a>Designdetaljer: Håndtere gjenbestillingsprinsipper
 
 Hvis du vil ta med en vare i forsyningsplanleggingen, må du angi et gjenbestillingsprinsipp på siden **Varekort**. Følgende gjenbestillingsprinsipper er tilgjengelige:  
 
@@ -20,36 +20,36 @@ Hvis du vil ta med en vare i forsyningsplanleggingen, må du angi et gjenbestill
 
 Prinsippene **Fast gjenbest.ant.** og **Maks.ant.** som er relatert til lagerplanlegging. Disse policyene finnes i tillegg til den trinn vise fordelingen av forsynings- og ordresporing.  
 
-## Rollen til gjenbestillingspunktet
+## <a name="the-role-of-the-reorder-point"></a>Rollen til gjenbestillingspunktet
 
 Et gjenbestillingspunkt representerer etterspørselen i løpet av leveringstiden. Når beholdningen er beregnet til å gå under lagernivået som defineres av gjenbestillingspunktet, er det på tide å bestille mer. Lageret reduseres gradvis til etterfyllingen ankommer. Den kan nå være null eller sikkerhetslagernivået. Planleggingssystemet foreslår en fremoverplanlagt forsyningsordre når den forventede beholdning blir lavere enn gjenbestillingspunktet.  
 
 Lagernivåer kan flyttes betydelig i tidsperioden. Derfor vil planleggingssystemet overvåke disponibel beholdning kontinuerlig.
 
-## Overvåking av forventet lagernivå og gjenbestillingspunkt
+## <a name="monitoring-the-projected-inventory-level-and-the-reorder-point"></a>Overvåking av forventet lagernivå og gjenbestillingspunkt
 
 Beholdning er en type forsyning, men for lagerplanlegging skiller planleggingssystemet mellom to lagernivåer:  
 
 * Beregnet beholdning  
 * Forventet disponibel beholdning  
 
-### Beregnet beholdning  
+### <a name="projected-inventory"></a>Beregnet beholdning
 
 Ved starten av planleggingsprosessen er anslått beholdning brutto lagerantall. Bruttoantallet inkluderer bokført og ikke-bokført forsyning og behov i fortiden. Dette antallet blir et anslått beholdningsnivå som bruttoantall fra fremtidige forsyninger og behov opprettholder. Fremtidig forsyning og behov blir innført langs tidslinjen, enten de reserveres eller fordeles på andre måter.  
 
 Planleggingssystemet bruker anslått lager til å overvåke gjenbestillingspunktet, og til å bestemme gjenbestillingsantallet når gjenbestillingsprinsippet **Maks.ant.** brukes.  
 
-### Forventet disponibel beholdning  
+### <a name="projected-available-inventory"></a>Forventet disponibel beholdning
 
 Forventet disponibelt beholdningen er beholdningen som er tilgjengelig for å oppfylle behovet på et gitt tidspunkt. Planleggingssystemet bruker forventet disponibel beholdning ved overvåking av sikkerhetslagernivået. Sikkerhetslager må alltid være tilgjengelig for uventet behov.  
 
-### Tidsperioder  
+### <a name="time-buckets"></a>Tidsperioder
 
 Forventet beholdning er viktig for å oppdaget når gjenbestillingspunktet nås eller overskrides og for å beregne riktig ordreantall gjenbestillingsprinsippet **Maks.ant.** brukes.  
 
 Forventet lagernivå beregnes ved starten av planleggingsperioden. Det er et bruttonivå som ikke tar hensyn til reservasjoner eller andre tildelinger. For å overvåke dette beholdningsnivået i løpet av planleggingssekvensen overvåker planleggingssystemet de aggregerte endringene gjennom en tidsperiode. Den perioden kalles en *tidsperiode*. Hvis du vil finne ut mer om tidsperioder, går du til [Rollen til tidsperioden](#the-role-of-the-time-bucket). Planleggingssystemet sikrer at tidsperioden er minst én dag. Én dag er minste tidsenhet for behovs- eller forsyningshendelser.  
 
-### Fastslå forventet beholdningsnivå  
+### <a name="determining-the-projected-inventory-level"></a>Fastslå forventet beholdningsnivå
 
 Følgende sekvens beskriver hvordan planleggingssystemet fastslår det forventede beholdningsnivået:  
 
@@ -78,7 +78,7 @@ Bildet nedenfor viser dette prinsippet.
 8. Planleggingssystemet legger til reduksjonspåminnelsen på -3 i det beregnede beholdningsnivået, enten A: +4 -3 = 1 eller B: +6 -3 = +3.  
 9. for A oppretter planleggingssystemet en fremoverplanlagt ordre på datoen **Da**. For B nås gjenbestillingspunktet, og det opprettes en ny ordre.
 
-## Rollen til tidsperioden
+## <a name="the-role-of-the-time-bucket"></a>Rollen til tidsperioden
 
 Formålet med tidsperioden er å samle inn behovshendelser i en tidsperiode for å opprette en felles forsyningsordre.  
 
@@ -92,7 +92,7 @@ Tidsperiodebegrepet gjenspeiler den manuelle fremgangsmåten for å kontrollere 
 
 Tidsperioder brukes ofte til å unngå en kaskadeeffekt. Det opprettes for eksempel en balansert rad av behov og forsyning der et tidlig behov blir avbrutt, eller det opprettes en ny. Resultatet blir at hver forsyningsordre (unntatt den siste) tidsplanlegges på nytt.
 
-## Hold deg under overflytnivået
+## <a name="stay-below-the-overflow-level"></a>Hold deg under overflytnivået
 
 Når gjenbestillingsprinsippene **Maks.ant.** og **Fast gjenbest.ant.** brukes, fokuserer planleggingssystemet bare på den beregnede beholdningen i den angitte tidsperioden. Det kan foreslå ekstra forsyning når negativt behov eller positive forsyningsendringer skjer utenfor tidsperioden. For ekstra forsyning beregner planleggingssystemet antallet du bør redusere forsyningen for. Dette antallet kalles "overflyt nivået." Overflyten er tilgjengelig som en planleggingslinje med handlingen **Endre ant. (reduksjon)** eller **Avbryt** og følgende advarsel:  
 
@@ -100,11 +100,11 @@ Når gjenbestillingsprinsippene **Maks.ant.** og **Fast gjenbest.ant.** brukes, 
 
 ![Lageroverflytnivå.](media/supplyplanning_2_overflow1_new.png "Lageroverflytnivå")  
 
-### Beregn overflytnivået  
+### <a name="calculating-the-overflow-level"></a>Beregn overflytnivået
 
 Overflytnivået beregnes på ulike måter avhengig av gjenbestillingsprinsippet.  
 
-#### Maks.ant.
+#### <a name="maximum-qty"></a>Maks.ant.
 
 Overflytnivå = maks. beholdning  
 
@@ -113,7 +113,7 @@ Overflytnivå = maks. beholdning
 >
 > overflytnivå = maksimum beholdning + minimum ordreantall.  
 
-#### Fast gjenbest.ant.  
+#### <a name="fixed-reorder-qty"></a>Fast gjenbest.ant.
 
 overflytnivå = gjenbestillingsantall + gjenbestillingspunkt  
 
@@ -122,15 +122,15 @@ overflytnivå = gjenbestillingsantall + gjenbestillingspunkt
 >
 > overflytnivå = gjenbestillingsantall + minimum gjenbestillingsantall  
 
-#### Bestillingsfaktor  
+#### <a name="order-multiple"></a>Bestillingsfaktor
 
 Hvis det finnes en bestillingsfaktor, justerer den overflytnivået for gjenbestillingsprinsippene Maks.ant og Fast gjenbest.ant.  
 
-### Opprett planleggingslinje med en overflytadvarsel  
+### <a name="creating-the-planning-line-with-an-overflow-warning"></a>Opprett planleggingslinje med en overflytadvarsel
 
 En planleggingslinje opprettes når en eksisterende forsyning fører til at den beregnede beholdningen blir høyere enn overflytnivået på slutten av en tidsperiode. For å advare om den ekstra forsyningen vises en advarsel på planleggingslinjen, feltet **Godta handlingsmelding** er ikke valgt og handlingsmeldingen er enten **Avbryt** eller **Endre ant.**  
 
-#### Beregn antall for planleggingslinjen  
+#### <a name="calculating-the-planning-line-quantity"></a>Beregn antall for planleggingslinjen
 
 Antallet på en planleggingslinje beregnes som følger:
 
@@ -139,12 +139,12 @@ antall for planleggingslinje = nåværende forsyningsantall - (beregnet beholdni
 > [!NOTE]  
 > For sAs med alle advarselslinjer blir alle maksimum og minimum ordreantall og bestillingsfaktor ignorert.  
 
-#### Angi handlingsmeldingstypen  
+#### <a name="defining-the-action-message-type"></a>Angi handlingsmeldingstypen
 
 * Hvis planleggingslinjeantall er større enn 0, er handlingsmeldingen **Endre ant.**  
 * Hvis planleggingslinjeantall er lik eller mindre enn 0, er handlingsmeldingen **Avbryt**  
 
-#### Skriv advarselsmeldingen  
+#### <a name="composing-the-warning-message"></a>Skriv advarselsmeldingen
 
 Hvis det oppstår overflyt, viser siden **Ikke-sporede planleggingselementer** en advarsel med følgende informasjon:  
 
@@ -154,11 +154,11 @@ Hvis det oppstår overflyt, viser siden **Ikke-sporede planleggingselementer** e
 
 Eksempel: "Den beregnede beholdningen 120 er høyere enn overflytnivået 60 den 28.01.23"  
 
-### Eksempelscenario  
+### <a name="example-scenario"></a>Eksempelscenario
 
 I dette scenariet endrer en kunde en ordre fra 70 til 40 enheter mellom to planleggingskjøringer. Overflytfunksjonen reduserer kjøpet som ble foreslått for det første salgsantallet.  
 
-#### Vareoppsett  
+#### <a name="item-setup"></a>Vareoppsett
 
 |Gjenbestillingsprinsipp|Maks.ant.|  
 |-----------------------|------------------|  
@@ -166,7 +166,7 @@ I dette scenariet endrer en kunde en ordre fra 70 til 40 enheter mellom to planl
 |Gjenbestillingspunkt|50|  
 |Lager|80|  
 
-#### Situasjonen før salgsreduksjon  
+#### <a name="situation-before-sales-decrease"></a>Situasjonen før salgsreduksjon
 
 |Hendelse|Endre ant.|Beregnet lager|  
 |-----------|-----------------|-------------------------|  
@@ -175,7 +175,7 @@ I dette scenariet endrer en kunde en ordre fra 70 til 40 enheter mellom to planl
 |Slutten av tidsperioden|Ingen|10|  
 |Foreslå ny bestilling|+90|100|  
 
-#### Situasjonen etter salgsreduksjon  
+#### <a name="situation-after-sales-decrease"></a>Situasjonen etter salgsreduksjon
 
 |Endre|Endre ant.|Beregnet lager|  
 |------------|-----------------|-------------------------|  
@@ -185,7 +185,7 @@ I dette scenariet endrer en kunde en ordre fra 70 til 40 enheter mellom to planl
 |Slutten av tidsperioden|Ingen|130|  
 |Foreslå å redusere bestilling<br><br> ordre fra 90 til 60|-30|100|  
 
-#### Resulterende planleggingslinjer  
+#### <a name="resulting-planning-lines"></a>Resulterende planleggingslinjer
 
 Systemet oppretter en advarselsplanleggingslinje (advarsel) for å redusere kjøpet med 30, fra 90 til 60, for å holde den beregnede beholdningen på 100 i henhold til overflytnivået.  
 
@@ -194,7 +194,7 @@ Systemet oppretter en advarselsplanleggingslinje (advarsel) for å redusere kjø
 > [!NOTE]  
 > Uten overflytsfunksjonen vises det ingen advarsel hvis det beregnede beholdningsnivået er over maksimum, som kan føre til en ekstra forsyning på 30.
 
-## Håndter forventet negativ lagerbeholdning
+## <a name="handling-projected-negative-inventory"></a>Håndter forventet negativ lagerbeholdning
 
 Gjenbestillingspunktet uttrykker forventet behov i løpet av leveringstiden for varen. Det forventede beholdningsnivået må være stort nok til å dekke behovet til den nye ordren mottas. I mellomtiden håndterer sikkerhetslageret svingninger i behovet opptil et servicenivåmål.  
 
@@ -228,11 +228,11 @@ I bildet nedenfor representerer forsyning D en kritisk bestilling for å justere
 
 Følgende del beskriver egenskapene til de fire gjenbestillingsprinsippene som støttes.
 
-## Gjenbestillingsprinsipper
+## <a name="reordering-policies"></a>Gjenbestillingsprinsipper
 
 Gjenbestillingsprinsipper angir hvor mye som skal bestilles når varen må etterfylles. Det finnes fire forskjellige gjenbestillingsprinsipper.  
 
-### Fast gjenbestillingsantall
+### <a name="fixed-reorder-quantity"></a>Fast gjenbestillingsantall
 
 Prinsippet Fast gjenbest.ant. brukes vanligvis til lagerplanlegging for varer med følgende egenskaper:
 
@@ -242,7 +242,7 @@ Prinsippet Fast gjenbest.ant. brukes vanligvis til lagerplanlegging for varer me
 
 Bruk dette prinsippet vanligvis i forbindelse med et gjenbestillingspunkt som gjenspeiler forventet behov i løpet av varens leveringstid.  
 
-#### Beregnet per tidsperiode  
+#### <a name="calculated-per-time-bucket"></a>Beregnet per tidsperiode
 
 Hvis du når eller krysser ved gjenbestillingspunktet i en tidsperiode (gjenbestillingssyklus), foreslår systemet to handlinger:
 
@@ -251,7 +251,7 @@ Hvis du når eller krysser ved gjenbestillingspunktet i en tidsperiode (gjenbest
 
 Tidsperiodebasert gjenbestillingspunkt reduserer antall forsyningsforslag. Den gjenspeiler en prosess med å kontrollere manuelt til faktisk innhold i hyller i lageret.  
 
-#### Oppretter bare nødvendig forsyning  
+#### <a name="creates-only-necessary-supply"></a>Oppretter bare nødvendig forsyning
 
 Før det foreslås en ny forsyningsordre for å oppfylle et gjenbestillingspunkt, kontrollerer planleggingssystemet følgende forsyning:
 
@@ -262,7 +262,7 @@ Systemet foreslår ikke en ny forsyningsordre hvis en forsyning bringer det bere
 
 Forsyningsordrer som utelukkende opprettes for å dekke et gjenbestillingspunkt, utelates fra forsyningsbalansering, og blir ikke endret etterpå. Hvis du vil sette opp en vare som har et gjenbestillingspunkt, kan du se gjennom de utestående forsyningsordrene manuelt eller endre gjenbestillingsprinsippet til **Parti for parti**. Systemet vil redusere eller avbryte ekstra forsyning.  
 
-#### Kombineres med ordreendringer  
+#### <a name="combines-with-order-modifiers"></a>Kombineres med ordreendringer
 
 Ordremodifikatorene Min. bestillingsantall, Maks. bestillingsantall og Bestillingsfaktor skal ikke spille en stor rolle når du bruker prinsippet Fast gjenbest.ant. Planleggingssystemet tar imidlertid dem med i betraktning:
 
@@ -270,27 +270,27 @@ Ordremodifikatorene Min. bestillingsantall, Maks. bestillingsantall og Bestillin
 * Øk ordren til det angitte minimumsordreantallet
 * Avrunder ordreantallet slik at det oppfyller en bestemt bestilling flere  
 
-#### Kombinerer med kalendere  
+#### <a name="combines-with-calendars"></a>Kombinerer med kalendere
 
 Før du foreslår en ny forsyningsordre for å oppfylle et gjenbestillingspunkt, kontrollerer planleggingssystemet om ordren er planlagt for en fridag. Den bruker de kalendere du angir i feltet **Hovedkalenderkode** på sidene **Selskapsopplysninger** og **Lokasjonskort**.  
 
 Hvis den planlagte datoen er en fridag, flytter planleggingssystemet ordren fremover til nærmeste arbeidsdag. Flytting av datoen kan føre til en ordre som oppfyller et gjenbestillingspunkt, men som ikke oppfyller et bestemt behov. For slike ubalanserte behov oppretter planleggingssystemet en ekstra forsyning.  
 
-#### Skal ikke brukes med prognoser  
+#### <a name="shouldnt-be-used-with-forecasts"></a>Skal ikke brukes med prognoser
 
 Siden det forventede behovet allerede er uttrykt i bestillingspunktnivået, er det ikke nødvendig å inkludere en prognose i planleggingen. Hvis det er relevant å basere planen på en prognose, må du bruke **Parti for parti**-prinsippet.  
 
-#### Må ikke brukes med reservasjoner  
+#### <a name="must-not-be-used-with-reservations"></a>Må ikke brukes med reservasjoner
 
 Hvis du har reservert et antall, for eksempel et antall på lager for fremtidig behov, forstyrrer du kanskje planleggingsgrunnlaget. Selv om det beregnede beholdningsnivået er akseptabelt i relasjon til gjenbestillingspunktet, er antallene kanskje ikke disponible. Systemet kan forsøke å kompensere ved å opprette unntaksordrer. Vi anbefaler imidlertid at **Reserver**-feltet er satt til **Aldri** på varer som er planlagt med et gjenbestillingspunkt.
 
-### Maksimumsantall
+### <a name="maximum-quantity"></a>Maksimumsantall
 
 Maksimumsantall-prinsippet er en måte å opprettholde beholdningen på ved hjelp av et gjenbestillingspunkt.  
 
 Alt for prinsippet Fast gjenbest.ant. gjelder også for dette prinsippet. Den eneste forskjellen er antallet i forsyningen som foreslås. Når du bruker prinsippet om maksimumsantall, defineres gjenbestillingsantallet dynamisk basert på det beregnede beholdningsnivået. Derfor er den vanligvis forskjellig fra ordre til ordre.  
 
-#### Beregn per tidsperiode
+#### <a name="calculate-per-time-bucket"></a>Beregn per tidsperiode
 
 Når gjenbestillingspunktet er nådd eller du skal krysse gjenbestillingspunktet, bestemmer systemet gjenbestillingsantallet på slutten av en tidsperiode. Det måler avstanden mellom nåværende beregnede beholdningsnivået og angitt maksimal lagerbeholdning for å fastslå antallet i ordren. Systemet kontrollerer deretter:
 
@@ -301,7 +301,7 @@ I så fall vil systemet redusere antallet i den nye forsyningsordren med antalle
 
 Hvis du ikke angir et maksimum lagerantall, sikrer planleggingssystemet at den forventede beholdningen når gjenbestillingsantallet.
 
-#### Kombiner med ordremodifikatorer
+#### <a name="combine-with-order-modifiers"></a>Kombiner med ordremodifikatorer
 
 Avhengig av oppsettet kan det være best å kombinere policyen for maksimumsantall med ordremodifikatorer: 
 
@@ -309,13 +309,13 @@ Avhengig av oppsettet kan det være best å kombinere policyen for maksimumsanta
 * Avrund antallet til et heltall med innkjøpsenhetens målenhet
 * Del antallet i partier som definert av maksimumsordreantallet  
 
-### Kombiner med kalendere
+### <a name="combine-with-calendars"></a>Kombiner med kalendere
 
 Før du foreslår en ny forsyningsordre for å oppfylle et gjenbestillingspunkt, kontrollerer planleggingssystemet om ordren er planlagt for en fridag. Den bruker de kalendere du angir i feltet **Hovedkalenderkode** på sidene **Selskapsopplysninger** og **Lokasjonskort**.  
 
 Hvis den planlagte datoen er en fridag, flytter planleggingssystemet ordren fremover til nærmeste arbeidsdag. Flytting av datoen kan føre til en ordre som oppfyller et gjenbestillingspunkt, men som ikke oppfyller et bestemt behov. For slike ubalanserte behov oppretter planleggingssystemet en ekstra forsyning.
 
-### Bestilling
+### <a name="order"></a>Bestilling
 
 I et produser-til-ordre-miljø blir en vare kjøpt eller produsert for å dekke et spesifikt behov. Ordregjenbestillingsprinsippet brukes vanligvis for varer med følgende egenskaper
 
@@ -331,11 +331,11 @@ I et produser-til-ordre-miljø blir en vare kjøpt eller produsert for å dekke 
 > [!TIP]
 > Hvis vareattributtene ikke varierer, kan det være best å bruke et Parti for parti-gjenbestillingsprinsipp. Resultatet blir at systemet bruker en endring i beholdningsnivået som ikke er planlagt, og akkumulerer bare ordrer med samme leveringsdato eller innenfor en angitt tidsperiode.  
 
-#### Odre-til-ordre-koblinger og tidligere forfallsdatoer
+#### <a name="order-to-order-links-and-past-due-dates"></a>Odre-til-ordre-koblinger og tidligere forfallsdatoer
 
 I motsetning til de fleste sett med forsyning/behov planlegger systemet fullstendig for koblede ordrer med forfallsdatoer som kommer før den planlagte startdatoen. Årsaken til dette unntaket er at bestemte sett med behov/forsyning må synkroniseres. Hvis du vil finne ut mer om den frosne sonen som gjelder de fleste behovs-/forsyningstyper, går du til [Håndtere ordrer før den planlagte startdatoen](design-details-balancing-demand-and-supply.md#process-orders-before-the-planning-start-date).
 
-### Parti for parti
+### <a name="lot-for-lot"></a>Parti for parti
 
 Parti for parti-prinsippet er den mest fleksible fordi systemet bare reagerer på faktisk behov på nytt. Det virker på forventet behov fra prognose og rammeordrer, og utligner ordreantallet på bakgrunn av behovet. Prinsippet er ment for varer der beholdningen kan godtas, men bør unngås.  
 
@@ -355,7 +355,7 @@ Ettersom forsyningsordreantallet er basert på det faktiske behovet, kan det væ
 * Øk ordren til et angitte minimumsordreantall
 * Reduser antallet til det angitte maks. bestillingsantallet (og opprett dermed to eller flere forsyninger for å nå det totale nødvendige ordreantallet)
 
-## Se også  
+## <a name="see-also"></a>Se også
 
 [Designdetaljer: Planleggingsparametere](design-details-planning-parameters.md)  
 [Designdetaljer: Tabell for planleggingstilordning](design-details-planning-assignment-table.md)  
