@@ -3,14 +3,14 @@ title: Administrer synkronisering av hoveddata
 description: Finn ut hvordan du administrerer synkronisering av hoveddata
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
 ms.date: 04/05/2024
 ms.custom: bap-template
 ms.search.form: '7230, 7233, 5338, 7236, 672, 7234'
 ---
-# <a name="manage-master-data-synchronization"></a>Administrer synkronisering av hoveddata
+# Administrer synkronisering av hoveddata
 
 Når du har satt opp synkronisering av hoveddata og synkroniserer for første gang, er poster i de valgte tabellene sammenkoblet, og en gjentakende jobbkøoppføring opprettes for hver tabell. Jobbkøoppføringene synkroniserer automatisk data i datterselskapene når noen foretar en endring i kildeselskapet. Hvis ikke trenger du ikke å gjøre noe.
 
@@ -21,29 +21,29 @@ Noen ganger går ting imidlertid galt, og det kan være situasjoner du må behan
 
 Denne artikkelen beskriver verktøyene du kan bruke slik at synkroniseringen går problemfritt.
 
-## <a name="overwrite-local-changes"></a>Overskriv lokale endringer
+## Overskriv lokale endringer
 
 Du kan bruke avmerkingsboksen **Overskriv lokal endring** i feltene og tabellene du synkroniserer, for å tillate at data fra kildeselskapet overskriver data i datterselskapet.
 
 > [!NOTE]
 > Du kan ikke aktivere synkronisering av et felt og tillate at datterselskapet skriver verdier i det uavhengig av kildeselskapet. Du må enten deaktivere synkronisering for feltet eller tillate kildeselskapet å overskrive lokale endringer.
 
-## <a name="update-table-schemas"></a>Oppdater tabellskjemaer
+## Oppdater tabellskjemaer
 
 Hvis kildeselskapet endrer en tabell, for eksempel ved å legge til et felt som du vil synkronisere, må datterselskaper oppdatere felttildelingene sine. På siden **Synkroniseringsfelter** bruker du handlingen **Oppdater felter**.
 
-## <a name="enable-or-disable-couplings-between-records"></a>Aktiver eller deaktiver kobling mellom oppføringer
+## Aktiver eller deaktiver kobling mellom oppføringer
 
 Hvis du vil starte eller stoppe kobling på bestemte oppføringer i en tabell, velger du feltene på siden **Synkroniseringsfelter** og deretter bruke enten handlingen **Aktiver** eller **Deaktiver**.
 
 > [!TIP]
 > En rask måte å aktivere eller deaktivere flere felter samtidig på er å velge dem i listen og deretter bruke handlingene **Aktiver** eller **Deaktiver**.
 
-## <a name="run-a-full-synchronization"></a>Kjør en full synkronisering
+## Kjør en full synkronisering
 
 Handlingen **Kjør full synkronisering** planlegger en synkronisering for alle tabellpostene i kildeselskapet og synkroniserer alle postene betingelsesløst. Ny synkronisering er for eksempel nyttig hvis du aktiverer et ekstra felt i en synkroniseringstabell eller legger til et ekstra felt ved hjelp av handlingen **Oppdater felt**. Handlingen synkroniserer dataene i disse feltene med tilbakevirkende kraft.
 
-## <a name="synchronize-modified-records"></a>Synkroniser endrede oppføringer
+## Synkroniser endrede oppføringer
 
 Hvis du endrer en innstilling for en tabell eller et felt i et datterselskap, må du oppdatere synkroniseringen. Hvis du vil oppdatere synkroniseringen, bruker du handlingen **Synkroniser endrede poster** på siden **Synkroniseringstabeller**.
 
@@ -54,7 +54,7 @@ Handlingen **Synkroniser endrede poster** planlegger en synkronisering av følge
 
 Handlingen fungerer på samme måte som en planlagt synkronisering, og du kan bruke den som en måte å synkronisere på utenfor tidsplanen. Hvis du for eksempel merker av **Overskriv lokal endring** i et felt for å tillate data fra kildeselskapet å overskrive lokale endringer, oppdaterer handlingen disse dataene. Du kan også vente til neste planlagte synkronisering skjer.
 
-## <a name="investigate-the-status-of-synchronization"></a>Undersøk statusen til synkroniseringen
+## Undersøk statusen til synkroniseringen
 
 Det finnes to handlinger på siden **Synkroniseringstabeller** som kan hjelpe deg med å overvåke synkroniseringen:
 
@@ -71,14 +71,14 @@ Tabellen nedenfor beskriver handlingene.
 > [!NOTE]
 > Hvis du finner en feil på siden **Synkroniseringsjobber for integrering** som du ikke kan løse selv, er det nyttig å oppgi feilmelding og kallstakkinformasjon hvis du kontakter partneren eller Microsoft for kundestøtte.
 
-## <a name="clean-up-old-entries"></a>Rydd opp i gamle oppføringer
+## Rydd opp i gamle oppføringer
 
 Antall poster i synkroniseringsloggen blir stort over tid, så det kan være lurt å gjøre litt rydding for å fjerne unødvendige oppføringer. For å gjøre det enklere å rydde opp i gamle oppføringer gir siden **Synkroniseringsjobber for integrering** følgende handlinger:
 
 * **Slett poster eldre enn sju dager**
 * **Slett alle poster**
 
-## <a name="adding-extensions"></a>Legg til utvidelser
+## Legg til utvidelser
 
 Hvis kildeselskapet installerer en ny utvidelse, må datterselskapet også installere den hvis de vil synkronisere data for den. Datterselskapet kan bruke handlingen **Oppdater felter** på siden **Synkroniseringsfelter** til å legge til tabellene fra utvidelsen i listen.
 
@@ -86,11 +86,11 @@ Hvis kildeselskapet installerer en ny utvidelse, må datterselskapet også insta
 > Enkelte tabeller henter data fra relaterte tabeller. Hvis du legger til en filtype som ikke inkluderer relaterte tabeller, vil ikke feltene i tabellene være tilgjengelige. Kontroller at du har lagt til alle relaterte tabeller.
 
 <!--
-## <a name="recreate-a-deleted-job-queue-entry"></a>Recreate a deleted job queue entry
+## Recreate a deleted job queue entry
 
 If the recurring job queue entry is deleted for a table, you can quickly recreate it. On the **Synchronization Tables** page, choose the **Use Default Synchronization Setup** action.
 -->
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Gjør deg klar til å synkronisere hoveddata](admin-set-up-data-sync.md)

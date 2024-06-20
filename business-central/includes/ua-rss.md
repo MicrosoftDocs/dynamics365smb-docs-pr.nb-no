@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 08/16/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Hvis du vil abonnere på en RSS-feed (Really Simple Syndication) over alle oppdateringer som er til innholdet i learn.microsoft.com for [!INCLUDE [prod_short](prod_short.md)], bruker du følgende kobling:
 

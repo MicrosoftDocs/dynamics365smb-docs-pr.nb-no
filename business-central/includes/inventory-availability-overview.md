@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 04/23/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Øk effektiviteten på lageret med nøyaktig sanntidsinformasjon om faktorer som kan påvirke tilgjengelige antall. Eksempel: 
@@ -26,11 +27,11 @@ Informasjonen respekterer også andre faktorer som påvirker tilgjengeligheten. 
 > [!NOTE]
 > Denne funksjonen krever at du aktiverer veksleknappen for **lagerstyring og plukk** for lokasjonene du bruker i plukkprosessen.
 
-### <a name="set-up-previews"></a>Definere forhåndsvisninger
+### Definere forhåndsvisninger
 
 Hvis du vil ha detaljer om hva som plukkes og hva som ikke plukkes, aktiverer du veksleknappen **Vis sammendrag (lagerstyring)** på forespørselssidene **Lagerkilde - opprett dokument** eller **Lagerlevering - opprett plukk**.
 
-### <a name="determine-the-quantity-you-can-pick"></a>Bestem antallet du kan plukke
+### Bestem antallet du kan plukke
 
 På linjer på siden **Opprett lagerplukksammendrag** viser feltet **Ant. som skal håndt. (l.enh)**  hvilke og hvor mange varer [!INCLUDE [prod_short](prod_short.md)] som prøvde å plukke. Faktaboksen **Sammendrag** inneholder flere detaljer.
 
@@ -57,7 +58,7 @@ Bildet nedenfor illustrerer det maksimale antallet som vurderes for plukking.
 |B     |Hyller med innhold av typen Plukk med sperret utgående flytting         |
 |O     |Andre hyller         |
 
-### <a name="reservations"></a>Reservasjoner
+### Reservasjoner
 
 Hvis det er reservasjoner for varen som plukkes, fortsetter beregningen. Tanken er at reservert behov har høyere prioritet enn ikke-reservert, noe som betyr at plukking for ikke-reservert behov ikke skal hindre plukking for reservert behov senere.
 
@@ -92,7 +93,7 @@ Følgende bildet illustrerer tildeling av tilgjengelig antall for reservert anta
 
 Selv om det er nok tilgjengelig antall på lageret til å oppfylle plukkingen fullstendig, fører det til at det totale reserverte antallet fordeles mot antallene i dedikerte eller blokkerte hyller, noe som forhindrer plukking for dette behovet. Fordi reservert behov har høyere prioritet, reduserer [!INCLUDE [prod_short](prod_short.md)] antallet som skal plukkes, for å hindre negativ innvirkning, for eksempel manglende evne til å plukke, på reservert behov.
 
-### <a name="other-details"></a>Annen informasjon
+### Annen informasjon
 
 Hvis varer krever varesporing, kan du også finne antallet i blokkerte partier eller serienumre, noe som fører til følgende reduksjoner:
 

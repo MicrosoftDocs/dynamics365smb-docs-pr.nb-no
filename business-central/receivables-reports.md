@@ -10,22 +10,22 @@ ms.search.form: 'Report_33, Report_101, Report_104, Report_109, Report_112, Repo
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="accounts-receivable-reports-and-analytics"></a>Rapporter og analyse av utestående fordringer
+# Rapporter og analyse av utestående fordringer
 
 For å hjelpe deg med å administrere kunder i [!INCLUDE [prod_short](includes/prod_short.md)] er standardrapporter og analyse innebygd. Det flytter seg utenfor tradisjonelle rapporteringsbegrensninger for å hjelpe deg med å utforme forskjellige typer rapporter effektivt.  
 
 
-## <a name="reports"></a>Rapporter
+## Rapporter
 
 [!INCLUDE [receivable_reports](includes/receivable-reports-include.md)]
 
 
-## <a name="explore-finance-reports-with-report-explorer"></a>Utforske finansrapporter med Rapportutforsker
+## Utforske finansrapporter med Rapportutforsker
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Hovedfinansrapporter](finance-reports.md)  
 [Ad hoc-analyse på finansdata](ad-hoc-analysis-finance.md)   

@@ -8,14 +8,15 @@ ms.search.form: '7312, 7313, 7314, 7321, 7322, 7323, 7329'
 ms.date: 10/04/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="set-up-put-away-templates"></a>Definere plasseringsmaler
+# Definere plasseringsmaler
 
 Med funksjonaliteten for lagerstyring foreslås den hyllen som passer best til varene på et hvilket som helst tidspunkt, i henhold til den plasseringsmalen du har definert for lageret, de hylleprioriteringene du har gitt til hyllene, og de minimums- og maksimumsantallene du har definert for faste hyller.  
 
 Du kan definere flere plasseringsmaler og velge én av dem som i hovedsak skal styre plasseringene i lageret. Du kan også velge en plasseringsmal for en hvilken som helst vare eller lagerføringsenhet som kan ha spesielle plasseringskrav.  
 
-## <a name="to-set-up-put-away-templates"></a>Slik setter du opp plasseringsmaler
+## Slik setter du opp plasseringsmaler
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Plasseringsmaler**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
@@ -30,7 +31,7 @@ Du kan definere flere plasseringsmaler og velge én av dem som i hovedsak skal s
 
 Du kan opprette forskjellige plasseringsmaler og deretter bruke dem slik det passer. Plasseringsmalen du har valgt for varen eller lagerføringsenheten, brukes først, hvis du har valgt en mal. Hvis disse feltene ikke er utfylt, brukes plasseringsmalen du valgte for lageret på hurtigfanen **Hylleprinsipp** på lokasjonskortet.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)
 [Lager](inventory-manage-inventory.md)                                

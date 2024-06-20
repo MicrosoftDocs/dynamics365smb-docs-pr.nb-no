@@ -8,9 +8,10 @@ ms.search.keywords: 'Teams, MS Teams, Microsoft Teams, Skype, Link, Microsoft 36
 ms.date: 09/19/2023
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
-# <a name="troubleshoot-microsoft-teams-integration-with-"></a>Feilsøke Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
+# Feilsøke Microsoft Teams-integrering med [!INCLUDE [prod_short](includes/prod_short.md)]
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -18,30 +19,30 @@ ms.service: dynamics-365-business-central
 
 Denne artikkelen inneholder informasjon om hvordan du kan identifisere og løse problemer som kan oppstå når du bruker Microsoft Teams sammen med [!INCLUDE [prod_short](includes/prod_short.md)], som en vanlig bruker eller administrator.
 
-## <a name="the-sign-in-link-doesnt-work"></a>Påloggingskoblingen fungerer ikke
+## Påloggingskoblingen fungerer ikke
 
 Hvis du prøver å logge på [!INCLUDE [prod_short.md](includes/prod_short.md)]-appen for Teams umiddelbart etter at du har installert appen, og påloggingskoblingen ikke tillater det, kan det være fordi appen ikke fullstendig er fullstendig installert. Du kan prøve å løse problemet ved å logge av Teams-klienten og deretter logge på igjen.
 
-## <a name="the-settings-page-is-empty"></a>Siden Innstillinger er derfor tom
+## Siden Innstillinger er derfor tom
 
 Du må først logge på for å komme til innstillingene. Hvis du vil logge på appen, må du enten lime inn en kobling til en [!INCLUDE [prod_short.md](includes/prod_short.md)]-oppføring eller prøve å søke etter kontakter. Begge disse handlingene leder deg gjennom en registreringsprosess, og deretter kan du bruke siden **Innstillinger**.
 
-## <a name="i-changed-company-but-it-didnt-seem-to-work"></a>Jeg endret selskap, men det ser ikke ut til å fungere
+## Jeg endret selskap, men det ser ikke ut til å fungere
 
 Når du har endret selskapet på siden **Innstillinger**, vil du kanskje legge merke til at rullegardinlisten i kommandoboksen angir at du fortsatt søker i det forrige selskapet. Dette problemet oppstår når du åpner siden **Innstillinger** direkte fra kommandoboksen. I dette tilfellet er selskapet endret, og du får faktisk søk i selskapet du byttet til. Problemet er at rullegardinlisten for kommandoen bare ikke har blitt oppdatert ennå. Lukk eller løsne [!INCLUDE [prod_short.md](includes/prod_short.md)] fra kommandoboksen, og åpner deretter appen på nytt for å sikre at rullegardinlisten reflekterer selskapet du søker etter, på riktig måte. 
 
 
 <!--When you change company from the **Settings** page that you reach from the command box, returning to the command box drop-down continues to show the previous company even though the company was successfully changed. For the drop-down accurately reflect the company you'll search in, you must close or unpin [!INCLUDE [prod_short.md](includes/prod_short.md)] from the command box and then find it again.-->
 
-## <a name="something-went-wrong-error-when-searching-for-contacts"></a>Feil meldingen "Noe gikk galt" under Søk etter kontakter
+## Feil meldingen "Noe gikk galt" under Søk etter kontakter
 
 Du kan oppleve denne feilen når du søker i et selskap som ikke er initialisert, eller som ikke svarer. Du kan for eksempel ikke søke i et nytt prøveselskap som ennå ikke har godtatt vilkårene for bruk. Du kan løse dette problemet ved å prøve å logge på [!INCLUDE [prod_short.md](includes/prod_short.md)]-webklienten og utføre eller forkaste eventuelle oppstartsdialogbokser som vises.
 
-## <a name="cannot-find-the-contactcontact-summary-api-error-when-searching-for-contacts"></a>Feilmeldingen «Finner ikke API-en for kontakten/kontaktsammendraget» når du søker etter kontakter
+## Feilmeldingen «Finner ikke API-en for kontakten/kontaktsammendraget» når du søker etter kontakter
 
 Dette problemet kan skyldes tilpassinger eller bransjeløsninger som påvirker eller endrer [!INCLUDE [prod_short.md](includes/prod_short.md)], eller at de ikke har en API for kontakt eller kontaktsammendrag. Hvis problemet vedvarer, kontakter du systemansvarlig eller kundestøttepartneren.
 
-## <a name="none-of-my-links-expand-into-a-card"></a>Ingen av koblingene utvides til et kort
+## Ingen av koblingene utvides til et kort 
 
 Her er noen ting du kan prøve hvis du får dette problemet:
 
@@ -62,7 +63,7 @@ Her er noen ting du kan prøve hvis du får dette problemet:
 
 4. Det kan også hende at organisasjonen din hindrer innliming av koblinger som utvides til kort. Kontakt administratoren for å forstå organisasjonspolicyene for Teams som kan gjelde for deg.
 
-## <a name="my-link-sometimes-doesnt-expand-into-a-card"></a>Koblingen utvides noen ganger ikke til et kort
+## Koblingen utvides noen ganger ikke til et kort 
 
 En kobling utvides ikke til et kort i følgende situasjoner:
 
@@ -84,7 +85,7 @@ Eksempel:
 
 Du finner tekniske detaljer om [!INCLUDE [prod_short](includes/prod_short.md)]-URL-adresser i [Nettklientens URL-adresse](/dynamics365/business-central/dev-itpro/developer/devenv-web-client-urls)i hjelpen for [!INCLUDE [prod_short](includes/prod_short.md)]-utviklere og IT-eksperter.
 
-## <a name="the-details-window-opens-but-shows-an-error-before-details-are-shown"></a>Detaljer-vinduet åpnes, men viser en feil før detaljene vises
+## Detaljer-vinduet åpnes, men viser en feil før detaljene vises
 
 Dette problemet kan skyldes et par ting: manglende tillatelser i [!INCLUDE [prod_short](includes/prod_short.md)] eller nettleserinnstillinger (når du bruker Teams i nettleseren).
 
@@ -102,7 +103,7 @@ Dette problemet kan skyldes et par ting: manglende tillatelser i [!INCLUDE [prod
 
     Hvis du vil ha mer informasjon om minimumskrav til nettlesere, kan du se [Minimumskrav for å bruke [!INCLUDE [prod_short](includes/prod_short.md)]](product-requirements.md#browsers) 
 
-## <a name="im-having-problems-with-the-camera-or-location-in-teams"></a>Jeg har problemer med kameraet eller plasseringen i Teams
+## Jeg har problemer med kameraet eller plasseringen i Teams
 
 Når du bruker [!INCLUDE [prod_short](includes/prod_short.md)]-funksjoner i detaljvinduet som krever tilgang til plasseringen eller enhetskameraet, må du først gi samtykke til at Teams får tilgang til disse enhetsegenskapene.  
 
@@ -116,7 +117,7 @@ Hvis du trenger hjelp til å endre disse innstillingene, kan du se at [Kameraet 
 
 Med noen nettlesere, som nye Microsoft Edge, kan du velge hvilket enhetskamera som skal brukes når enheten støtter flere kameraer. 
 
-## <a name="teams-displays-mixed-languages-for-my-cards-and-card-details"></a>Teams viser blandede språk for kort og kortdetaljer
+## Teams viser blandede språk for kort og kortdetaljer
 
 Hvis kort og kortdetaljer skal vise samme språk i Teams, må språket for Teams-klienten og språket du bruker i [!INCLUDE [prod_short](includes/prod_short.md)]-nettklienten, samsvare.
 
@@ -126,11 +127,11 @@ Hvis kort og kortdetaljer skal vise samme språk i Teams, må språket for Teams
 
 Hvis du vil ha mer informasjon om hvordan språk fungerer mellom Teams og [!INCLUDE [prod_short](includes/prod_short.md)], kan du se [Vanlige spørsmål om Teams](teams-faq.md#language).
 
-## <a name="i-edited-a-field-in-the-details-window-but-my-change-wasnt-saved"></a>Jeg redigerte et felt i detaljvinduet, men endringen ble ikke lagret
+## Jeg redigerte et felt i detaljvinduet, men endringen ble ikke lagret
 
 Endringer du gjør i et felt i detaljvinduene, lagres automatisk når du forlater feltet. Før du lukker vinduet etter at du har endret et felt, velger du <kbd>Tab</kbd>-tasten eller klikker/trykker utenfor feltet.
 
-## <a name="a-new-tile-appeared-in-the-app-launcher-how-do-i-remove-it"></a>En ny flis ble vist i appstarteren. Hvordan fjerner jeg den?
+## En ny flis ble vist i appstarteren. Hvordan fjerner jeg den?
 
 Når du viser appene på Office 365-hjemmesiden (https://home.office.com) eller i appstarteren, vises en ny flis med navnet "Business Central Teams Integration Service Connector" når du har installert [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Teams. Denne flisen har ingen verdi i seg selv, og kan trygt skjules.
 
@@ -144,19 +145,19 @@ Som en administrator, som har Microsoft Entra-administratorrettigheter, kan du s
 > [!NOTE]
 > Det tar en liten stund før endringen trer i kraft.
 
-## <a name="duplicate-text-in-the-share-to-teams-window"></a>Dupliser tekst i vinduet Del til Teams
+## Dupliser tekst i vinduet Del til Teams
 
 Når du limer inn tekst i meldingsboksen i vinduet **Del til Teams**, dupliseres teksten. Dette problemet er kjent for Microsoft og vil bli håndtert i en senere oppdatering. 
 
-## <a name="unable-to-sign-in-to-the-share-to-teams-window"></a>Kan ikke logge på vinduet Del til Teams
+## Kan ikke logge på vinduet Del til Teams 
 
 Dette problemet kan skyldes en rekke årsaker. Identiteten du bruker til å logge på, må for eksempel ha tilgang til Microsoft Teams, for eksempel via et Microsoft 365-abonnement.
 
-## <a name="my-cards-no-longer-have-a-popout-button"></a>Kortene mine har ikke lenger popout-knapp
+## Kortene mine har ikke lenger popout-knapp
 
 Fra april 2022 vil ikke koblinger fra kompakte kort i Teams lenger inneholde **Popout**- knappen. Hvis du vil åpne kortet i et eget vindu, velger du **Detaljer**-knappen, og deretter velger du **Åpne i nettleser** fra ellipsemenyen (**...**) i øvre høyre hjørne av vinduet.
 
-## <a name="cant-pin-a-card-to-tab"></a>Kan ikke feste et kort til fane
+## Kan ikke feste et kort til fane
 
 Det er to årsaker til dette problemet.
 
@@ -164,16 +165,16 @@ Det er to årsaker til dette problemet.
 
 - Kan ikke feste før du legger til den første Business Central-fanen. Dette problemet er kjent i Teams. 
 
-## <a name="someone-added-a-tab-but-the-tab-doesnt-show-up-for-me"></a>Noen har lagt til en fane, men jeg ser ikke fanen
+## Noen har lagt til en fane, men jeg ser ikke fanen
 
 Dette problemet skyldes at du ikke har installert BC-appen for Teams. Bare de med appen installert vil se Business Central-faner.
 
-## <a name="others-see-a-different-sorting-or-column-layout-than-what-the-tab-author-sees"></a>Andre ser forskjellige sorterings- eller kolonneoppsett enn det faneforfatteren ser
+## Andre ser forskjellige sorterings- eller kolonneoppsett enn det faneforfatteren ser
 
 Dette problemet skyldes sannsynligvis at du har delt en listevisning som er en personlig visning. I dette tilfellet arbeider du med administratoren for å opprette rollespesifikke listevisninger som dekker de forskjellige rollene i kanalen/nettpraten, eller oppretter denne visningen for hele organisasjonen, slik at alle kan få en konsekvent visning.
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversikt over [!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams-integrering](across-teams-overview.md)  
 [Installer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  

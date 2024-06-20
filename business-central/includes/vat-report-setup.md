@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 04/11/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 0.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett for mva-rapport**, og velg deretter den relaterte koblingen.  
 2. Hvis du vil at brukere skal kunne endre rapporten og sende den inn på nytt, velger du feltet **Tillat endring**.  

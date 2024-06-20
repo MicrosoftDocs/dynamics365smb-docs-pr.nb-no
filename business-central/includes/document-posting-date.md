@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 11/14/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Feltene **Bilagsdato** og **Bokføringsdato** på salgs- og kjøpsdokumenter kan hjelpe deg med å overholde regnskapsstandarder og få nøyaktige økonomiske beregninger. Feltene har ulike formål:

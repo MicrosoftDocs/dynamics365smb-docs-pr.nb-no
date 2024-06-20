@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/20/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 I kjøpsdokumenter og kladder kan du angi et dokumentnummer som viser til leverandørens nummereringssystem. Bruk dette feltet til å registrere nummeret som leverandøren har knyttet til ordren, fakturaen eller kreditnotaen. Du kan deretter bruke nummeret senere hvis du trenger å søke etter den bokførte oppføring ved hjelp av dette nummeret.

@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analyses-in-purchasing"></a>Ad hoc-analyser i innkjøp
+# Ad hoc-analyser i innkjøp
 
 Denne artikkelen forklarer hvordan du analyserer innkjøpsdata fra listesider og spørringer ved hjelp av funksjonen **Dataanalyse**. Funksjonen lar deg analysere data direkte fra siden, uten å måtte kjøre en rapport eller åpne et annet program, for eksempel Excel. Dataanalyse gir en interaktiv og allsidig måte å beregne, summere og undersøke data på. I stedet for å kjøre rapporter ved hjelp av alternativer og filtre, kan du legge til flere faner som representerer forskjellige oppgaver eller visninger på dataene. Noen eksempler er Mine leverandører eller Innkjøpsstatistikk, eller andre visninger du kan tenke deg. Hvis du vil lære mer om hvordan du bruker funksjonen **Dataanalyse**, kan du gå til [Analyser liste- og spørringsdata med analysemodus](analysis-mode.md).
 
@@ -24,7 +24,7 @@ Bruk følgende listesider til ad hoc-analyse av kjøpsprosesser:
 - [Leverandørposter](https://businesscentral.dynamics.com/?page=29)
 - [Finansposter](https://businesscentral.dynamics.com/?page=20)
 
-## <a name="ad-hoc-analysis-scenarios-for-purchasing"></a>Ad hoc-analysescenarioer for innkjøp
+## Ad hoc-analysescenarioer for innkjøp
 
 Bruk **Dataanalyse**-funksjonen for rask faktasjekking og ad hoc-analyse:
 
@@ -39,7 +39,7 @@ Avsnittene nedenfor inneholder eksempler på innkjøpsscenarioer i [!INCLUDE [pr
 | [Oversikt over GRNI](#example-goods-received-not-invoiced-grni-overview) | Få en oversikt over varer mottatt, ikke fakturert (GRNI) på tvers av leverandører. | [Kjøpslinjer](https://businesscentral.dynamics.com/?page=518) | **Type**, **Mottatt, ikke fakturert (beløp) (lokal valuta)** (filtrer etter disse feltene), **Leverandørnr.**, **Dokumentnr.**, **Nr**. og **Motatt ikke fakturert (beløp) (lokal valuta)** <br><br> **Obs!** Du må tilpasse siden for å legge til disse feltene. Hvis du vil finne ut mer, går du til [Tilpass arbeidsområdet](ui-personalization-user.md). | 
 | [Finans (leverandør)](#example-finance-accounts-payable) | Se hva du skylder leverandørene, kanskje inndelt i tidsintervaller for når beløp forfaller. | [Leverandørposter](https://businesscentral.dynamics.com/?page=29) | **Leverandørnavn**, **Dokumenttype**, **Dokumentnr.**, **Forfallsdato (år)**, **Forfallsdato (måned)** og **Restbeløp**. |
 
-## <a name="example-goods-received-not-invoiced-grni-overview"></a>Eksempel: Oversikt over mottatte varer, ikke fakturert (GRNI)
+## Eksempel: Oversikt over mottatte varer, ikke fakturert (GRNI)
 
 Hvis du vil opprette en oversikt over mottatte, ikke fakturerte varer (GRNI) på tvers av leverandører, gjør du følgende:
 
@@ -55,7 +55,7 @@ Hvis du vil opprette en oversikt over mottatte, ikke fakturerte varer (GRNI) på
 1. Hvis du vil utføre analysen for et gitt år eller kvartal, bruker du et filter på menyen **Analysefiltre**. Menyen er til høyre på siden, rett under **Kolonner**-menyen.
 1. Endre navnet på analysefanen til **Varer mottatt, ikke fakturert (GRNI)** eller noe som beskriver denne analysen.
 
-## <a name="example-finance-accounts-payable"></a>Eksempel: Finans (leverandør)
+## Eksempel: Finans (leverandør)
 
 Hvis du vil se du skylder leverandørene, kanskje inndelt i tidsintervaller for når beløp forfaller, følger du denne fremgangsmåten:
 
@@ -71,7 +71,7 @@ Bildet nedenfor viser resultatet av denne fremgangsmåten.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Eksempel på hvordan du utfører dataanalyse på siden Kundeposter." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-purchasing"></a>Datagrunnlag for ad hoc-analyse av innkjøp
+## Datagrunnlag for ad hoc-analyse av innkjøp
 
 Når bokfører et kjøpsdokument, oppdaterer [!INCLUDE [prod_short](includes/prod_short.md)] leverandørens konto, finans og vareposter, og ressursposter:
 
@@ -85,7 +85,7 @@ Når bokfører et kjøpsdokument, oppdaterer [!INCLUDE [prod_short](includes/pro
 
 Hvis du vil finne ut mer, går du til [Bokføring av kjøp](purchasing-how-record-purchases.md#posting-purchases).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bokføre kjøp](purchasing-how-record-purchases.md#posting-purchases)  
 [Analyser liste- og spørringsdata med analysemodus](analysis-mode.md)  

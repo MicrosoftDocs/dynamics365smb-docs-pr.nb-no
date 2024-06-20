@@ -3,20 +3,20 @@ title: Kolonnedefinisjoner i finansrapportering
 description: Beskriver hvordan kolonnedefinisjoner i finansrapportering fungerer.
 author: kennieNP
 ms.author: kepontop
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: how-to
 ms.date: 03/27/2024
 ms.custom: bap-template
 ms.search.keywords: 'bi, power BI, analysis, KPI, account schedule, financial report'
-ms.search.form: '103, 104, 108, 195, 196, 197, 198, 489, 490, 764, 765, 766'
+ms.search.form: '103, 104, 108, 195, 196, 197, 198, 488, 489, 490, 764, 765, 766'
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="column-definitions-in-financial-reporting"></a>Kolonnedefinisjoner i finansrapportering
+# Kolonnedefinisjoner i finansrapportering
 
 Bruk kolonnedefinisjoner til å angi kolonnene som skal inkluderes i en rapport. Du kan for eksempel utforme et rapportoppsett for å sammenligne bevegelse og saldo for samme periode i år og i fjor. Du kan ha opptil 15 kolonner i en kolonnedefinisjon. Flere kolonner er for eksempel nyttig for visning av budsjetter for tolv måneder, med en kolonne som viser totalen.
 
-## <a name="create-or-edit-a-column-definition"></a>Opprett eller rediger en kolonnedefinisjon
+## Opprett eller rediger en kolonnedefinisjon
 
 Følg denne fremgangsmåten for opprette eller redigere en kolonnedefinisjon.
 
@@ -28,7 +28,7 @@ Følg denne fremgangsmåten for opprette eller redigere en kolonnedefinisjon.
 1. Velg **OK**.
 1. Åpne siden **Finansrapport** med jevne mellomrom for å kontrollere at den nye kolonnedefinisjonen fungerer som forventet.
 
-## <a name="built-in-column-definitions"></a>Innebygde kolonnedefinisjoner
+## Innebygde kolonnedefinisjoner
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inneholder eksempler på kolonnedefinisjoner som kan hjelpe deg med å komme raskt i gang med å konfigurere finansrapporter som passer dine behov.
 
@@ -41,7 +41,7 @@ Følg denne fremgangsmåten for opprette eller redigere en kolonnedefinisjon.
 | TBA 4 | TBA 4 | TBA 4 |
 -->
 
-## <a name="example-create-a-column-definition-to-calculate-percentages"></a>Eksempel: Opprett en kolonnedefinisjon for å beregne prosentdeler
+## Eksempel: Opprett en kolonnedefinisjon for å beregne prosentdeler
 
 Du vil da kanskje ta med en kolonne i en finansrapport for å beregne prosentdeler av en sum. Hvis du for eksempel har rader som bryter ned salg etter dimensjon, vil du kanskje ta med en kolonne som angir hvor stor prosentdel av totalt salg i hver rad.
 
@@ -58,7 +58,7 @@ Du vil da kanskje ta med en kolonne i en finansrapport for å beregne prosentdel
     1. Skriv inn en formel for beløpet du vil beregne en prosent for, fulgt av prosenttegnet (%), i **Formel**-feltet. Så hvis kolonnenummeret N inneholder bevegelsen, angir du **N %**.  
 1. Gjenta trinn 4 til og med 7 for hver gruppe med rader du vil bryte ned i prosentdeler.
 
-## <a name="comparing-accounting-periods-using-period-formulas"></a>Sammenligne regnskapsperioder ved hjelp av periodeformler
+## Sammenligne regnskapsperioder ved hjelp av periodeformler
 
 Finansrapporten kan sammenligne resultatene av ulike regnskapsperioder, for eksempel inneværende måned og samme måned i fjor. Dette gjør du ved å åpne **Kolonnedefinisjon**-siden og tilpasse den ved å legge til feltet **Formel - periodesammenligning** som en kolonne. Finn ut mer under [Tilpass arbeidsområdet](ui-personalization-user.md). Deretter kan du sette dette feltet til en periodeformel.  
 
@@ -94,7 +94,7 @@ Lær mer på [Arbeid med kalenderdatoer og klokkeslett](ui-enter-date-ranges.md)
 
 [!INCLUDE [report-best-practices-column-defs](includes/report-best-practices-column-defs.md)]
 
-## <a name="import-or-export-financial-report-column-definitions"></a>Importer eller eksporter av kolonnedefinisjoner for finansrapport
+## Importer eller eksporter av kolonnedefinisjoner for finansrapport
 
 Fra og med lanseringsbølge 1 i 2024 (versjon 24.1) kan du importere og eksportere kolonnedefinisjoner for finansrapporter som RapidStart-konfigurasjonspakker. Konfigurasjonspakker er for eksempel nyttig for deling av informasjon med andre selskaper. Pakken opprettes i en .rapidstart-fil, som komprimerer innholdet.
 
@@ -106,7 +106,7 @@ Hvis du vil importere eller eksportere kolonnedefinisjoner for finansrapport, gj
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 4.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kolonnedefinisjoner**, og velg deretter den relaterte koblingen.
 1. Velg raddefinisjonen, og velg deretter **Importer kolonnedefinisjon** eller **Eksporter kolonnedefinisjon**, avhengig av hva du vil gjøre.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Raddefinisjoner i finansrapportering](bi-row-definitions.md)  
 [Klargjør finansrapportering](bi-how-work-account-schedule.md)  

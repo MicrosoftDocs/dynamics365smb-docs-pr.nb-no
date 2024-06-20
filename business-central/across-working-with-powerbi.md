@@ -8,12 +8,13 @@ ms.search.keywords: 'account schedule, analysis, reporting, financial report, bu
 ms.date: 04/24/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-# <a name="work-with-power-bi-reports-in-"></a>Arbeid med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
+# Arbeid med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)]
 
 I denne artikkelen får du grunnleggende informasjon om å arbeide med rapporter. Dette inkluderer visning av Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)] (inkludert målstyringer og instrumentbord) og redigering av Power BI-rapporter som bruker [!INCLUDE [prod_short](includes/prod_short.md)] som datakilde. Artikkelen tar for seg noen aspekter som hjelper deg å komme i gang som [!INCLUDE[prod_short](includes/prod_short.md)]-bruker. Når det gjelder generelle retningslinjer og instruksjoner for hvordan du bruker Power BI, kan du se [Power BI-dokumentasjon for forbrukere](/power-bi/consumer).
 
-## <a name="overview"></a>Oversikt
+## Oversikt
 
 Power BI-rapporter gir deg innsikt i [!INCLUDE[prod_short](includes/prod_short.md)]. Ulike sider i [!INCLUDE [prod_short](includes/prod_short.md)] inkluderer en Power BI-rapportdel som kan vise Power BI-rapporter. Rollesenteret er en vanlig side der du ser en Power BI-rapportdel. Noen listesider, for eksempel **Varer**, omfatter også en Power BI-del.
 
@@ -21,12 +22,12 @@ Power BI-rapporter gir deg innsikt i [!INCLUDE[prod_short](includes/prod_short.m
 
 ![Power BI-del i Business Central.](./media/power-bi-part.png)
 
-## <a name="get-started"></a>Kom i gang
+## Kom i gang
 
 > [!NOTE]
 > [!INCLUDE [prod_short](includes/prod_short.md)] Online er allerede konfigurert for integrering med Power BI.
 
-### <a name="sign-up-power-bi"></a>Registrer deg for Power BI
+### Registrer deg for Power BI
 
 Før du kan bruke Power BI med [!INCLUDE[prod_short](includes/prod_short.md)], må du registrere deg for Power BI-tjenesten. Hvis du ikke allerede har registrert deg, går du til [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Når du registrerer deg, bruker du e-postadressen og passordet for jobben din.
 
@@ -38,7 +39,7 @@ Med [!INCLUDE[prod_short](includes/prod_short.md)] Online får du automatisk et 
 
 [!INCLUDE[note-multicompany-reports](includes/note-multicompany-reports.md)]
 
-## <a name="connect-to-power-bi---one-time-only"></a><a name="connect"></a>Koble til Power BI – bare én gang
+## <a name="connect"></a>Koble til Power BI – bare én gang
 
 Når du logger på [!INCLUDE [prod_short](includes/prod_short.md)] første gang, ser du sannsynligvis en tom Power BI-del (som vist i forrige figur) på ulike sider. Det første du må gjøre, er å koble til Power BI-kontoen. Når du er tilkoblet, kan du se rapporter. Du trenger bare å utføre dette trinnet én gang.
 
@@ -62,23 +63,23 @@ Connecting to Power BI from [!INCLUDE [prod_short](includes/prod_short.md)] is s
 
 Once connected, you can select a report from the Power BI part on pages.-->
 
-## <a name="work-with-power-bi-reports"></a>Arbeid med Power BI-rapporter
+## Arbeid med Power BI-rapporter
 
-### <a name="get-the-latest-data"></a>Få de nyeste dataene
+### Få de nyeste dataene
 
 Hver Power BI-rapport er basert på et datasett som henter data fra [!INCLUDE[prod_short](includes/prod_short.md)]-kildene. Du må sørge for at dataene i Power BI-rapportene er oppdatert med dataene i [!INCLUDE[prod_short](includes/prod_short.md)]. Dette begrepet omtales som *oppdatering*.  Det kan hende at oppdatering ikke skjer automatisk, avhengig av hvordan organisasjonen har konfigurert Power BI. Du kan oppdatere data på to måter: manuelt eller ved å planlegge en oppdatering. Manuell oppdatering utføres etter behov. Planlagt oppdatering lar deg oppdatere automatisk ved angitte tidsintervaller.
 
-#### <a name="refresh-manually"></a>Oppdatere manuelt
+#### Oppdatere manuelt
 
 Fra Power BI på nettet velger du **Flere alternativer (...)** ved siden av datasettet under **Datasett** i navigasjonsruten, og velger deretter **Oppdater nå**.
 
-#### <a name="schedule-a-refresh"></a>Planlegge en oppdatering
+#### Planlegge en oppdatering
 
 Fra Power BI på nettet velger du Flere alternativer (...) ved siden av datasettet under Datasett i navigasjonsruten, og velg deretter **Planlegg oppdatering**. Fyll inn informasjonen under **Planlegg oppdatering**, og velg **Bruk**.
 
 Hvis du vil ha mer informasjon, kan du se [Konfigurere planlagt oppdatering](/power-bi/connect-data/refresh-scheduled-refresh)
 
-### <a name="show-reports-on-list-pages"></a>Vise rapporter på listesider
+### Vise rapporter på listesider
 
 [!INCLUDE[prod_long](includes/prod_long.md)] omfatter en Power BI-faktaboks på flere viktige listesider. Denne faktaboksen gir ytterligere innsikt i dataene i listen. Når du flytter mellom radene i listen, er oppdateres og filtreres rapporten for den valgte posten.
 
@@ -89,13 +90,13 @@ Hvis du vil vite hvordan du oppretter rapporter for listesider, kan du se [Oppre
 >
 > Hvis du har en eldre versjon av Business Central, går du til handlingslinjen, velge **Handlinger** > **Vis** > **Vis/Skjul Power BI-rapporter**.
 
-### <a name="switch-reports"></a>Bytte rapporter
+### Bytte rapporter
 
 En Power BI-del på en side kan vise enhver Power BI-rapport som er tilgjengelig for deg. Hvis du vil bytte til visning av en annen rapport, velger du **Velg rapport**-handlingen fra rullegardinkommandolisten øverst i delen.  
 
 Siden **Valg av Power BI-rapporter** viser en oversikt over alle Power BI-rapportene du har tilgang til. Denne listen er hentet fra alle dine egne arbeidsområder eller arbeidsområder som er delt med deg i Power BI-tjenesten. Velg **Aktiver**-boksen for hver rapport du vil vise på siden, og velg deretter **OK**. Du kommer tilbake til siden, og den siste rapporten du aktiverte, vises. Ved hjelp av rullegardinkommandolisten bruker du kommandoene **Forrige** og **Neste** til å navigere mellom rapporter.  
 
-### <a name="get-more-reports"></a>Hente flere rapporter
+### Hente flere rapporter
 
 Hvis du ikke ser noen rapporter på siden **Valg av Power BI-rapporter** eller ikke ser ønsket rapport, velger du **Hent rapporter**. Med denne handlingen kan du se etter rapporter fra to plasseringer: *Min organisasjon* eller *Tjenester*.
 
@@ -105,7 +106,7 @@ Hvis du ikke ser noen rapporter på siden **Valg av Power BI-rapporter** eller i
 > [!TIP]
 > Hvis du har Power BI Desktop, kan du også opprette nye Power BI-rapporter. Når disse rapportene er publisert på Power BI-arbeidsområdet, vises de deretter på siden **Valg av Power BI-rapporter**.  
 
-### <a name="manage-and-modify-reports"></a>Behandle og endre rapporter
+### Behandle og endre rapporter
 
 Du kan foreta endringer i en rapport i Power BI-delen. Endringene du foretar, publiseres deretter i Power BI-tjenesten. Hvis rapporten deles med andre brukere, ser de også endringene, med mindre du lagrer endringene i en ny rapport.
 
@@ -116,7 +117,7 @@ Når du går tilbake til rollesenteret, vises den oppdaterte rapporten. Hvis du 
 > [!NOTE]
 > Denne funksjonen er ikke tilgjengelig for [!INCLUDE [prod_short](includes/prod_short.md)] lokalt.
 
-### <a name="upload-reports"></a><a name="upload"></a>Laste opp rapporter
+### <a name="upload"></a>Laste opp rapporter
 
 Power BI-rapporter kan distribueres mellom brukere som PBIX-filer. Hvis du har PBIX-filer, kan du laste opp og dele dem med alle brukere av [!INCLUDE [prod_short](includes/prod_short.md)]. Rapportene deles i hvert selskap i [!INCLUDE [prod_short](includes/prod_short.md)].  
 
@@ -127,7 +128,7 @@ Når rapporten lastes opp til Power BI-arbeidsområdet ditt, lastes den også au
 > [!NOTE]
 > Du må ha SUPER-brukertillatelser i [!INCLUDE[prod_short](includes/prod_short.md)] for å kunne laste opp en rapport via [!INCLUDE[prod_short](includes/prod_short.md)]. Du trenger ingen spesiell tillatelse for å laste opp rapporter til arbeidsområdet via Power BI-tjenesten.
 
-## <a name="upload-reports-from-files"></a><a name="upload"></a>Laste opp rapporter fra filer
+## <a name="upload"></a>Laste opp rapporter fra filer
 
 Power BI-rapporter kan distribueres mellom brukere som PBIX-filer. Hvis du har en PBIX-fil, kan du laste opp filen til et arbeidsområde. Gjør følgende for å laste opp en rapport:
 
@@ -146,7 +147,7 @@ Hvis du vil ha mer informasjon, kan du se [Laste opp rapporten til tjenesten](/p
 > [!TIP]
 > Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] Online, kan du også laste opp en rapport fra [!INCLUDE[prod_short](includes/prod_short.md)]. Hvis du vil ha mer informasjon, kan du se [Arbeid med Power BI-rapporter i [!INCLUDE [prod_short](includes/prod_short.md)] – last opp rapporter](across-working-with-powerbi.md#upload).
 
-## <a name="share-reports-with-others"></a><a name="share"></a>Dele rapporter med andre
+## <a name="share"></a>Dele rapporter med andre
 
 Når rapporten er i arbeidsområdet ditt, kan du dele den med andre i organisasjonen.
 
@@ -155,23 +156,23 @@ Hvis du vil dele en rapport, velger du **Del** i en liste over rapporter eller i
 > [!NOTE]
 > Det kreves at både du og personene du deler rapporten med, har [Power BI Pro-lisens](/power-bi/service-features-license-type). Eller må innholdet være i en [Premium-kapasitet](/power-bi/service-premium-what-is). Hvis du vil ha mer informasjon, kan du se [Måter å dele arbeidet på i Power BI](/power-bi/service-how-to-collaborate-distribute-dashboards-reports).
 
-## <a name="fixing-problems"></a>Løse problemer
+## Løse problemer
 
 Hvis noe går galt, vil denne delen imidlertid gi en løsning for de vanligste problemene.  
 
-### <a name="you-dont-have-a-power-bi-account"></a>Du har ikke en Power BI-konto
+### Du har ikke en Power BI-konto
 
 En Power BI-konto er ikke opprettet. For å kunne få en gyldig Power BI-konto må du ha en lisens, og du må ha logget på Power BI tidligere for å opprette et Power BI-arbeidsområde.
 
-### <a name="message-there-are-no-enabled-reports-choose-select-report-to-see-a-list-of-reports-that-you-can-display"></a>Melding: Det finnes ingen aktiverte rapporter. Klikk Velg rapport for å se en liste over rapporter du kan vise.
+### Melding: Det finnes ingen aktiverte rapporter. Klikk Velg rapport for å se en liste over rapporter du kan vise.
 
 Denne meldingen vises hvis standardrapporten ikke kan distribueres til Power BI-arbeidsområdet. Eller den ble distribuert, men ikke oppdatert. Naviger til rapporten i Power BI-arbeidsområdet, velg **Datasett** og **Innstillinger**, og oppdater deretter legitimasjonen manuelt. Når datasettet er oppdatert, går du tilbake til [!INCLUDE[prod_short](includes/prod_short.md)] og velger rapporten fra **Velg rapporter**-siden manuelt.
 
-#### <a name="you-cant-see-a-report-on-the-select-report-page-on-a-list-page"></a>Du kan ikke se en rapport på Velg rapport-siden på en listeside
+#### Du kan ikke se en rapport på Velg rapport-siden på en listeside
 
 Dette skjer sannsynligvis fordi navnet på rapporten ikke inneholder navnet på listesiden. Fjern filteret for å få en fullstendig liste over tilgjengelige Power BI-rapporter.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Business Central og Power BI](admin-powerbi.md)    
 [Bygg Power BI-rapporter for å vise [!INCLUDE [prod_long](includes/prod_long.md)]-data](across-how-use-financials-data-source-powerbi.md)    

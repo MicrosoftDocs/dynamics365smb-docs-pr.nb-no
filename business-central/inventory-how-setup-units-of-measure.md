@@ -8,8 +8,9 @@ ms.search.keywords: UOM
 ms.date: 10/16/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="set-up-units-of-measure"></a>Definere enheter
+# Definere enheter
 
 Som en del av å definere [!INCLUDE [prod_short](includes/prod_short.md)] kan du definere generelle enheter på **Enheter**-siden. Når du deretter registrerer nye varer, angir du lagerenheten på **varekortet**. Du kan også legge til enheter senere.  
 
@@ -22,7 +23,7 @@ Hvis en vare lagerføres i én enhet, men produseres i en annen, opprettes en pr
 
 Et annet verktøy som gjør det enklere å arbeide med flere enheter for varer, er muligheten til å angi en avrundingspresisjon for lagerenheter. Ved å angi en avrundingspresisjon får du veiledning om hva noen skal angi for en gitt forretningsprosess, og bidrar til å redusere avrundingsproblemer. Når du bruker alternative enheter, bidrar verdien i feltet **Antall per enhet** til å beregne antallet i lagerenheten, noe som kan føre til avrundingsproblemer. La oss for eksempel anta at du mottar en boks som inneholder seks varer. Når boksen ankommer til lageret, oppdager du at én av de seks varene mangler. Du bestemmer deg for ikke å bokføre mottaket av én boks, men i stedet endre antallet mottatt til fem av seks stykker. Det vil føre til mottak av 4,99998 stykker, i stedet for fem. På siden **Enheter** kan du angi en verdi som konverterer antallet til et tall som er enklere å forstå, i feltet **Avrundingspresisjon for antall**. Hvis du fortsetter med eksemplet, setter vi inn **1** i feltet for å runde opp til fem stykker.
 
-## <a name="to-set-up-units-of-measure"></a>Slik definerer du enheter
+## Slik definerer du enheter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Enheter** og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**. Det settes inn en ny, tom linje.  
@@ -35,7 +36,7 @@ Et annet verktøy som gjør det enklere å arbeide med flere enheter for varer, 
 
 Når du registrerer en ny vare, kan du velge lagerenheten fra oversikten over enheter som du nå har definert. Du kan også definere flere enheter for en vare.  
 
-## <a name="to-set-up-multiple-item-units-of-measure"></a>Slik definerer du flere vareenheter
+## Slik definerer du flere vareenheter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Åpne varekortet som du vil definere alternative enheter for.
@@ -53,7 +54,7 @@ Når du registrerer en ny vare, kan du velge lagerenheten fra oversikten over en
 
 Du kan nå bruke de alternative enhetene på kjøps-, produksjons- og salgsdokumenter. Hvis du vil ha mer informasjon, kan du se [Angi en standardenhetskode for kjøpstransaksjoner](#to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions).  
 
-## <a name="to-set-up-unit-of-measure-translations"></a>Slik definerer du enhetsoversettelser
+## Slik definerer du enhetsoversettelser
 
 Når du selger varer til kunder i utlandet, kan du angi enheten på kundens språk. Dette kan du gjøre ved å angi oversettelser for enheter.
 
@@ -63,7 +64,7 @@ Når du selger varer til kunder i utlandet, kan du angi enheten på kundens spr�
 4. Angi den teksten i feltet **Beskrivelse**.
 5. Gjenta trinn 2 til 4 for enhetskodene og språkene du vil angi oversettelser for.
 
-## <a name="to-enter-a-default-unit-of-measure-code-for-sales-and-purchasing-transactions"></a>Angi en standardenhetskode for kjøpstransaksjoner
+## Angi en standardenhetskode for kjøpstransaksjoner
 
 Hvis du vanligvis kjøper eller selger i andre enheter enn lagerenhetene, kan du angi en separat enhet for innkjøp og salg. Hvis du vil gjøre dette, må du definere enheter på siden **Vareenheter**.
 
@@ -73,7 +74,7 @@ Hvis du vanligvis kjøper eller selger i andre enheter enn lagerenhetene, kan du
 4. For kjøp åpner du siden **Vareenheter** under **Kjøpsenhet** på hurtigfanen **Etterfylling**.
 5. Velg koden du vil definere som standardenhet for salg eller kjøp, og velg deretter **OK**-knappen.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbeide med produksjonsbunkeenhet](production-how-to-use-the-manufacturing-batch-unit-of-measure.md)  
 [Registrer nye varer](inventory-how-register-new-items.md)  

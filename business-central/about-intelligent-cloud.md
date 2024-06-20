@@ -12,13 +12,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="intelligent-insights-and-cloud-migration-on-premises-only"></a>Intelligent innsikt og skymigrering (bare lokalt)
+# Intelligent innsikt og skymigrering (bare lokalt)
 
 Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] på nettet, har du full tilgang til scenarioer som er basert på den intelligente skyen. Det kan for eksempel være ytelsesindikatorer som er basert på maskinlæring, eller når du viser dataene i Power BI.  
 
 Hvis du bruker [!INCLUDE [prod_short](includes/prod_short.md)] lokalt, har du imidlertid ikke tilgang til den samme innsikten. Hvis du ønsker å dra nytte av nettbaserte scenarioer, må du migrere til [!INCLUDE [prod_short](includes/prod_short.md)] Online. Hvis du vil ha mer informasjon, kan du se [Overføre lokale data til Business Central Online](/dynamics365/business-central/dev-itpro/administration/migrate-data) i administrasjonsinnholdet for [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-## <a name="viewing-insights-in--online"></a>Vise innsikt i [!INCLUDE[prod_short](includes/prod_short.md)] Online
+## Vise innsikt i [!INCLUDE[prod_short](includes/prod_short.md)] Online
 
 For et lokalt miljø der data ble overført til [!INCLUDE[prod_short](includes/prod_short.md)] på nettet, viser siden **Intelligent skyinnsikt** i det nettbaserte miljøet fire viktige interessepunkter for de fleste virksomheter:
 
@@ -34,7 +34,7 @@ Ved siden av KPI-diagrammene kan du få innsikt i potensielle problemområder, i
 
 Siden kobler også til Power BI for enda mer innsikt. Alternativt kan du koble til Azure AI for enda mer intelligent innsikt. Du finner mer informasjon under [Utvidelsen Salgs- og lagerprognose](ui-extensions-sales-forecast.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Velkommen til Business Central](welcome.md)  
 [Skyoverføringsutvidelser](ui-extensions-data-replication.md)  

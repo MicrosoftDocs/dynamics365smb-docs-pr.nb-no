@@ -9,8 +9,9 @@ ms.date: 02/22/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
+ms.reviewer: bholtorf
 ---
-# <a name="use-resources-for-projects"></a>Bruk ressurser for prosjekter
+# Bruk ressurser for prosjekter
 
 Du registrerer ressursforbruket i prosjektkladden for å holde oversikt over kostnader, priser og arbeidstypene som er knyttet til prosjekter. Hvis du vil ha mer informasjon, kan du se [Registrere forbruk for prosjekter](projects-how-record-job-usage.md).
 
@@ -19,11 +20,11 @@ Du registrerer ressursforbruket i prosjektkladden for å holde oversikt over kos
 
 Du kan også bokføre ressursforbruket i en ressurskladd. Poster som er bokført i en ressurskladd, har ingen innvirkning på Finans.
 
-## <a name="to-assign-resources-to-projects"></a>Slik tilordner du ressurser til prosjekter
+## Slik tilordner du ressurser til prosjekter
 
 Du kan tilordne ressurser til prosjekter ved å opprette prosjektplanleggingslinjer for prosjektet. Hvis du vil ha mer informasjon, kan du se [Opprette prosjekter](projects-how-create-jobs.md).
 
-## <a name="to-record-resource-usage-for-a-project"></a>Slik registrerer du ressursforbruk for et prosjekt
+## Slik registrerer du ressursforbruk for et prosjekt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Prosjektkladder** og velg den relaterte koblingen.
 2. Åpne en relevant prosjektkladd, og fyll deretter ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -31,7 +32,7 @@ Du kan tilordne ressurser til prosjekter ved å opprette prosjektplanleggingslin
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
-## <a name="to-adjust-resource-prices"></a>Slik justerer du ressurspriser
+## Slik justerer du ressurspriser
 
 Hvis du vil endre kost- eller salgspriser for en rekke ressurser, kan du bruke en kjørsel.  
 
@@ -41,7 +42,7 @@ Hvis du vil endre kost- eller salgspriser for en rekke ressurser, kan du bruke e
 > [!NOTE]  
 > Denne kjørselen verken oppretter eller justerer alternative kostnader eller priser for ressurser. Den endrer bare innholdet i feltet på ressurskortet for **Juster felt**-feltet som du valgte i kjørselen. Justeringen vil tre i kraft umiddelbart for ressurser, så kontroller justeringsfaktorene før du kjører den satsvise jobben.
 
-## <a name="to-get-resource-price-change-suggestions-based-on-existing-alternate-prices"></a>Slik får du forslag til ressursprisendringer på bakgrunn av eksisterende alternative priser
+## Slik får du forslag til ressursprisendringer på bakgrunn av eksisterende alternative priser
 
 Hvis du allerede har definert alternative ressurspriser for noen ressurser, kan du bruke en kjørsel til å definere flere alternative ressurspriser.
 
@@ -50,7 +51,7 @@ Hvis du allerede har definert alternative ressurspriser for noen ressurser, kan 
 3. Velg **OK**.  
 4. Når kjørselen er ferdig, viser siden **Ressursprisendringer** resultatene av kjørselen.
 
-## <a name="to-get-resource-price-change-suggestions-based-on-standard-prices"></a>Slik får du forslag til ressursprisendringer på bakgrunn av standardpriser
+## Slik får du forslag til ressursprisendringer på bakgrunn av standardpriser
 
 Hvis du vil definere flere alternative ressurspriser på bakgrunn av standardprisene på ressurskortene, kan du bruke en kjørsel.  
 
@@ -59,7 +60,7 @@ Hvis du vil definere flere alternative ressurspriser på bakgrunn av standardpri
 3. Velg **OK**.  
 4. Når kjørselen er ferdig, åpner du siden **Ressursprisendringer** for å se resultatene av kjørselen.
 
-## <a name="to-get-resource-price-change-suggestions-based-on-alternate-prices"></a>Slik får du forslag til ressursprisendringer på bakgrunn av alternative priser
+## Slik får du forslag til ressursprisendringer på bakgrunn av alternative priser
 
 Hvis du allerede har definert alternative ressurspriser for noen ressurser, kan du bruke en kjørsel til å definere flere alternative ressurspriser.
 
@@ -68,7 +69,7 @@ Hvis du allerede har definert alternative ressurspriser for noen ressurser, kan 
 3. Velg **OK**.  
 4. Når kjørselen er ferdig, åpner du siden **Ressursprisendringer** for å se resultatene av kjørselen.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Prosjektstyring](projects-manage-projects.md)  
 [Finans](finance.md)  

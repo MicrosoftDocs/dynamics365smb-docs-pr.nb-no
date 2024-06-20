@@ -8,12 +8,13 @@ ms.search.keywords: null
 ms.date: 06/15/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="design-details-integration-with-inventory"></a>Designdetaljer: Integrasjon med lagerbeholdning
+# Designdetaljer: Integrasjon med lagerbeholdning
 
 Lagerstyring og lagerfunksjoner samhandler med hverandre i vareopptelling og i lagerjustering.  
 
-## <a name="physical-inventory"></a>Vareopptelling
+## Vareopptelling  
 
 Siden **Lagervareopptellingskladd** brukes med siden **Vareopptellingskladd** for alle avanserte lagerlokasjoner. Lageret beregnes på hyllenivå, og den lageransatte får en listeutskrift. Listen viser hvilke varer som må telles i hvilke hyller.  
   
@@ -29,7 +30,7 @@ Når du bokfører vareopptellingskladden, oppdateres lageret og standard justeri
 
 [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
   
-## <a name="warehouse-adjustments-to-the-item-ledger"></a>Lagerjusteringer i vareposten
+## Lagerjusteringer i vareposten  
 
 Du bruker **Varekladd**-siden og funksjonen **Beregn lagerjustering** til å justere lagerbeholdningen i vareposten i samsvar med en justering som er gjort i vareantallet i en lagerhylle. Hvis du vil opprette en kobling mellom beholdningen og lageret, må du definere en standard justeringshylle per lokasjon.  
   
@@ -42,7 +43,7 @@ For å justere hylleinnholdet kan du bruke en lagervarekladd der du kan angi var
   
 Hvis du angir et positivt antall og bokfører linjen, økes beholdningen som er lagret på hyllen, og antallet i standard justeringshylle reduseres tilsvarende.  
   
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)  
 [Designdetaljer: Tilgjengelighet i lageret](design-details-availability-in-the-warehouse.md)  

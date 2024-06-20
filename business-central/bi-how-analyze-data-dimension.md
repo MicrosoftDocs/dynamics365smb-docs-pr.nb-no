@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="analyze-data-by-dimensions"></a>Analyser data etter dimensjoner
+# Analyser data etter dimensjoner
 
 I finansanalyse er en dimensjon data du kan legge til i en post som et slags merke for å gruppere oppføring med lignende egenskaper. Dimensjoner grupperer for eksempel ofte poster for kunder, områder, produkter og selgere. Gruppene lar deg enkelt hente data om dem for analyse. Du kan bruke dimensjoner på poster i kladder, dokumenter og budsjetter.
 
@@ -24,7 +24,7 @@ Hver dimensjon beskriver fokuset for analyse. Så en todimensjonal analyse er fo
 > [!NOTE]
 > Hvis du oppdager at en feil dimensjonsverdi ble brukt i bokførte finansposter, kan du korrigere den og oppdatere analysevisningene. Hvis du vil finne ut mer, kan du gå til [Feilsøk og korriger dimensjoner](finance-troubleshooting-correcting-dimensions.md#changing-dimension-assignments-after-posting).
 
-## <a name="set-up-an-analysis-view"></a>Sette opp en analysevisning
+## Sette opp en analysevisning
 
 En analyse per dimensjoner bruker et utvalg kombinasjoner av dimensjoner. Du lagrer, henter og oppdaterer dimensjonssettet ved å opprette et **Analysevisning**-kort.
 
@@ -34,7 +34,7 @@ En analyse per dimensjoner bruker et utvalg kombinasjoner av dimensjoner. Du lag
 4. Hvis du vil legge til flere dimensjonskoder i tillegg til de fire kodene i hurtigfanen **Dimensjoner**, velger du handlingen **Filtrer**, og deretter velger du **OK**.  
 5. Du oppdaterer visningen ved å velge handlingen **Oppdater**.
 
-## <a name="analyze-by-dimensions"></a>Analysere etter dimensjoner
+## Analysere etter dimensjoner
 
 Bruk analysevisningene du allerede har definert med matrisen **Analyse per dimensjon**, til å vise beløpene i Finans.
 
@@ -56,7 +56,7 @@ Bruk analysevisningene du allerede har definert med matrisen **Analyse per dimen
 > [!TIP]  
 > Du kan også endre visning ved å endre innholdet i feltene **Vis som linjer** og **Vis som kolonner**. Hvis du vil tilbakeføre en visningsinnstilling, velger du handlingen **Reverser linjer og kolonner**.
 
-## <a name="update-an-analysis-view"></a>Oppdatere en analysevisning
+## Oppdatere en analysevisning
 
 Beløpene på siden **Analyse per dimensjon** gir deg oversikt over selskapets status ved siste oppdatering. Hvis du vil ha nåværende tilstand, kjører du oppdateringshandlingen for å oppdatere analysevisningen.
 
@@ -74,7 +74,7 @@ Bruk følgende fremgangsmåte til å oppdatere en analysevisning fra siden **Ana
 > [!NOTE]  
 > Hvis du vil oppdatere noen av eller alle analysevisningene samtidig, bruker du satsjobben **Oppdater analysevisninger**.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finansforretningsanalyse](bi.md)  
 [Finans](finance.md)  

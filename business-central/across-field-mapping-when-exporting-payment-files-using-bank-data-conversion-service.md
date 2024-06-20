@@ -8,8 +8,9 @@ ms.search.keywords: null
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="field-mapping-when-exporting-payment-files-using-the-amc-banking-365-fundamentals-extension"></a>Felttilordning ved eksport av betalingsfiler ved hjelp av utvidelsen AMC Banking 365 Fundamentals
+# Felttilordning ved eksport av betalingsfiler ved hjelp av utvidelsen AMC Banking 365 Fundamentals
 Når du eksporterer betalingsfiler ved hjelp av utvidelsen AMC Banking 365 Fundamentals, eksponeres dataene du eksporterer, til tjenesteleverandøren. Tjenesteleverandøren er ansvarlig for personvernet vedrørende disse dataene. Hvis du vil ha mer informasjon om utvidelsen AMC Banking 365 Fundamentals, kan du se [Bruk utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md).  
 
 > [!CAUTION]  
@@ -62,7 +63,7 @@ Tabellen nedenfor inneholder en oversikt over feltene i [!INCLUDE[prod_short](in
 |Finanskladdenavn|Kladdenavn|Finanskladdelinje|Finanskladdenavnet som brukes for betalingslinjen|  
 |Navn på avsenderbank – datakonvertering|Banknavn – datakonvertering|Bankkonto|Navnet på avsenderbankkontoen som er forespurt av utvidelsen AMC Banking 365 Fundamentals og angitt på bankkortet|  
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Definere datautveksling](across-set-up-data-exchange.md)  
 [Utveksle data elektronisk](across-data-exchange.md)
 [Bruk utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)   

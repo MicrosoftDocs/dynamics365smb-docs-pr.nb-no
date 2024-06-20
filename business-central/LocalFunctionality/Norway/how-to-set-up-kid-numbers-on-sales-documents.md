@@ -9,11 +9,12 @@ ms.search.form: 456
 ms.date: 12/12/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="set-up-kid-numbers-on-sales-documents"></a>Konfigurer KID-numre på salgsdokumenter
+# Konfigurer KID-numre på salgsdokumenter
 Kunde-ID (KID) er et kundeidentifikasjonsnummer som inneholder en betalingsreferanse til leverandøren, og sikrer at betalingen bokføres riktig hos leverandøren. Du kan opprette KID-numre på salgsdokumenter for å identifisere bilags- og kundeinformasjon ved elektroniske banktransaksjoner.  
 
-## <a name="to-set-up-kid-numbers-on-sales-documents"></a>Slik oppretter du KID-numre på salgsdokumenter
+## Slik oppretter du KID-numre på salgsdokumenter  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgsoppsett**, og velg deretter den relaterte koblingen.  
 2.  I hurtigfanen **Dokumenter** fyller du ut feltene som beskrevet i tabellen nedenfor.  
@@ -28,7 +29,7 @@ Kunde-ID (KID) er et kundeidentifikasjonsnummer som inneholder en betalingsrefer
 
 3.  Velg **OK**-knappen.  
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Elektroniske banktjenester i Norge](electronic-banking-in-norway.md) 
 
 

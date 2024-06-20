@@ -9,8 +9,9 @@ ms.search.form: '9020, 9022, 9026, 9027, 9030, 9000, 9009, 9004, 9005, 9024, 900
 ms.date: 06/11/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="visit-our-video-library"></a>Gå til videobiblioteket vårt
+# Gå til videobiblioteket vårt
 
 Du fant dokumentasjonen vår. Men noen personer foretrekker å se på innholdet i stedet for å lese det. Derfor produserer vi korte og lettfordøyelige videoer. De fleste videoer er et tillegg til brukerhjelpen, og noen av dem kan ses på separat.  
 
@@ -23,7 +24,7 @@ Du kan også vise instruksjonsvideoene våre, i tillegg til mye annet innhold, p
 
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Dynamics 365-kanal på YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)  

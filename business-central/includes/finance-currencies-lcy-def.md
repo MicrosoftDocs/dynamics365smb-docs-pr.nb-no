@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/04/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Hvis selskapet opererer i mer enn ett land eller område, er det sannsynligvis viktig at du kan gjøre forretninger i mer enn én valuta. Du definerer den lokale valutaen på siden **Finansoppsett**. Etterpå vises den lokale valutaen som en tom valuta i dokumenter og transaksjoner. Når **Valuta**-feltet er tomt, er valutaen lokal valuta.
 

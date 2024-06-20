@@ -8,9 +8,10 @@ ms.search.keywords: 'accessibility, shortcuts, charts, tiles'
 ms.date: 04/29/2021
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
 
-# <a name="touch-and-pen-gestures-for-tablet-and-phones"></a>Berørings- og pennebevegelser for nettbrett og telefoner
+# Berørings- og pennebevegelser for nettbrett og telefoner 
 
 Denne artikkelen inneholder noen av spesialbevegelsene du kan bruke når du arbeider med [!INCLUDE[prod_short](includes/prod_short.md)] på et nettbrett eller en telefon.
 
@@ -29,7 +30,7 @@ Business Central built-in charts display useful information about business data 
 
 -->
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Hurtigreferanse for tastatursnarveier – bare PC](keyboard-shortcuts-cheatsheet.md)  
 [Hjelpefunksjoner](ui-accessibility.md)  

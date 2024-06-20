@@ -10,13 +10,13 @@ ms.search.forms: '7200, 7201'
 ms.date: 02/28/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="connect-to-microsoft-dataverse"></a>Koble til Microsoft Dataverse
+# Koble til Microsoft Dataverse
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Denne artikkelen beskriver hvordan du setter opp en tilkobling mellom [!INCLUDE[prod_short](includes/prod_short.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. Vanligvis oppretter selskaper tilkoblingen for å integrere og synkronisere data med en annen Dynamics 365-forretningsapp, for eksempel [!INCLUDE[crm_md](includes/crm_md.md)].  
 
-## <a name="before-you-start"></a>Før du begynner
+## Før du begynner
 
 Før du oppretter tilkoblingen, er det noen få opplysninger du må ha klar:  
 
@@ -32,13 +32,13 @@ Før du oppretter tilkoblingen, er det noen få opplysninger du må ha klar:
 > Følgende trinn beskriver fremgangsmåten for [!INCLUDE[prod_short](includes/prod_short.md)] på nett.
 > Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt og ikke bruker Microsoft Entra-kontoen til å koble til [!INCLUDE [cds_long_md](includes/cds_long_md.md)], må du også angi brukernavn og passord for en brukerkonto for integrasjonen. Denne kontoen kalles kontoen for "integrasjonsbruker". Hvis du bruker en Microsoft Entra-konto, er ikke brukerkontoen for integrasjon nødvendig eller vist. Brukeren for integrasjon konfigureres automatisk og krever ikke en lisens.
 
-## <a name="link-your-business-central-and-dataverse-environments"></a>Koble sammen Business Central- og Dataverse-miljøene
+## Koble sammen Business Central- og Dataverse-miljøene
 
 Virksomheter ønsker å holde dataene sine trygge og sikre innenfor personverngrensen, og spesielt når forretningsstyringsprogrammet integreres med andre apper. Ved å koble sammen [!INCLUDE [prod_short](includes/prod_short.md)]- og [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-miljøer vil du ikke bare oppnå disse hensynene, men også gi administratorene en enklere måte å opprette og vedlikeholde integreringene med andre Dynamics 365-apper på.
 
 I administrasjonssenteret for [!INCLUDE [prod_short](includes/prod_short.md)] kan du koble [!INCLUDE [prod_short](includes/prod_short.md)]-miljøet til [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-miljøet. [!INCLUDE [prod_short](includes/prod_short.md)] kan bruke informasjonen fra koblingen til å gjøre det enklere og sikrere å integrere med andre Dynamics 365-apper, for eksempel Sales og Field Service. Nettadressen for det koblede [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-miljøet er for eksempel tilgjengelig som standard på siden **Dataverse-tilkoblingsoppsett** og når du kjører den assisterte oppsettsveiledningen **Dataverse-tilkoblingsoppsett**.
 
-## <a name="allow-for-different-currencies"></a>Tillate ulike valutaer
+## Tillate ulike valutaer
 
 [!INCLUDE [prod_short](includes/prod_short.md)]-selskaper kan koble til et [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-miljø som har en standardvaluta som skiller seg fra den lokale valutaen.
 
@@ -61,7 +61,7 @@ Fordi valutasynkronisering er enveis, fra [!INCLUDE [prod_short](includes/prod_s
 * I [!INCLUDE [cds_long_md](includes/cds_long_md.md)] standardvalutaen konverteres beløp til [!INCLUDE [prod_short](includes/prod_short.md)] lokal valuta basert på den siste valutakursen som er synkronisert fra [!INCLUDE [prod_short](includes/prod_short.md)].
 * I [!INCLUDE [prod_short](includes/prod_short.md)] lokal valuta synkroniseres beløpene med [!INCLUDE [prod_short](includes/prod_short.md)] lokal valuta i en av de andre ikke-standardvalutaene i [!INCLUDE [cds_long_md](includes/cds_long_md.md)].
 
-## <a name="set-up-a-connection-to-"></a>Konfigurer en tilkobling til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+## Konfigurer en tilkobling til [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 For andre godkjenningstyper enn Microsoft 365-godkjenning definerer du en tilkobling til [!INCLUDE[cds_long_md](includes/cds_long_md.md)] på siden **Tilkoblingsoppsett for Dataverse**. For Microsoft 365-godkjenning anbefales det å bruke den assisterte oppsettsveiledningen for **Konfigurasjon for Dataverse-tilkobling**. Veiledningen gjør det enklere å opprette tilkoblingen og angi avanserte funksjoner, for eksempel eierskapsmodell og første synkronisering.  
 
@@ -74,7 +74,7 @@ For andre godkjenningstyper enn Microsoft 365-godkjenning definerer du en tilkob
 >
 > Ved å gi samtykke på vegne av organisasjonen, gir administrator det registrerte Azure-programmet som kalles [!INCLUDE[prod_short](includes/prod_short.md)]-integrering med [!INCLUDE[cds_long_md](includes/cds_long_md.md)], rett til å synkronisere data ved hjelp av automatisk opprettet legitimasjon for programbruker for [!INCLUDE[prod_short](includes/prod_short.md)]-integrering.
 
-### <a name="to-use-the-dataverse-connection-setup-assisted-setup-guide"></a>Slik bruker du den assisterte oppsettsveiledningen for Konfigurasjon for Dataverse-tilkobling
+### Slik bruker du den assisterte oppsettsveiledningen for Konfigurasjon for Dataverse-tilkobling
 
 Oppsettveiviseren for konfigurasjon av Dataverse-tilkobling kan gjøre det enklere å koble til programmene, og kan til og med hjelpe deg med å kjøre en innledende synkronisering. Hvis du velger å kjøre innledende synkronisering, vil [!INCLUDE[prod_short](includes/prod_short.md)] se gjennom dataene i begge programmene og gi anbefalinger for hvordan innledende synkronisering skal utføres. Tabellen nedenfor beskriver anbefalingene.
 
@@ -94,7 +94,7 @@ Oppsettveiviseren for konfigurasjon av Dataverse-tilkobling kan gjøre det enkle
 > [!NOTE]
 > Hvis du ikke blir bedt om å logge på med administratorkontoen, skyldes det trolig at popup-vinduer er blokkert. Hvis du vil logge på, må du tillate popup-vinduer fra `https://login.microsoftonline.com`.
 
-### <a name="to-create-or-maintain-the-connection-manually"></a>Opprette eller vedlikeholde tilkoblingen manuelt
+### Opprette eller vedlikeholde tilkoblingen manuelt
 
 Følgende fremgangsmåte beskriver hvordan du konfigurerer tilkoblingen manuelt på siden **Konfigurasjon for Dataverse-tilkobling**. Du håndterer integrasjonsinnstillinger på siden **Tilkoblingsoppsett for Dataverse**.
 
@@ -122,7 +122,7 @@ Følgende fremgangsmåte beskriver hvordan du konfigurerer tilkoblingen manuelt 
 5. Hvis [!INCLUDE[cds_long_md](includes/cds_long_md.md)]-synkronisering ikke allerede er satt opp, vil du bli spurt om du vil bruke standard synkroniseringsoppsett. Avhengig av om du vil beholde postene som er justert i [!INCLUDE[cds_long_md](includes/cds_long_md.md)] og [!INCLUDE[prod_short](includes/prod_short.md)], velger du **Ja** eller **Nei**.
 
 <!--
-## <a name="show-me-the-process"></a>Show Me the Process
+## Show Me the Process
 
 The following video shows the steps to connect [!INCLUDE[prod_short](includes/prod_short.md)] and [!INCLUDE[cds_long_md](includes/cds_long_md.md)]. <br>
   
@@ -130,7 +130,7 @@ The following video shows the steps to connect [!INCLUDE[prod_short](includes/pr
 
 -->
 
-## <a name="customize-the-match-based-coupling"></a>Tilpass samsvarsbasert kobling
+## Tilpass samsvarsbasert kobling
 
 Fra og med lanseringsbølge 2 for 2021 kan en administrator angi vilkår for å koble poster basert på samsvar. Du kan starte algoritmen for samsvarende poster fra følgende steder i [!INCLUDE [prod_short](includes/prod_short.md)]:
 
@@ -162,7 +162,7 @@ I alle tre tilfeller åpnes siden **Velg koblingskriterier**, slik at du kan def
 
 * Angi om det skal opprettes en ny enhetsforekomst i [!INCLUDE [cds_long_md](includes/cds_long_md.md)] i tilfelle det ikke finnes unikt, ikke-koblet samsvar ved å bruke samsvarskriteriene. Hvis du vil aktivere denne funksjonen, velger du **Opprett ny hvis det ikke finnes et samsvar**-handling.  
 
-### <a name="view-the-results-of-the-coupling-job"></a>Vis resultatene av koblingsjobben
+### Vis resultatene av koblingsjobben
 
 Hvis du vil vise resultatene av koblingsjobben, åpner du siden **Tilordninger for integreringstabell**, velger den relevante tilordningen, velger handlingen **Kobling** og velger handlingen **Logg for koblingsjobb for integrering**.  
 
@@ -189,7 +189,7 @@ Kobling kan vanligvis mislykkes av følgende årsaker:
 > [!TIP]
 > Hvis du vil ha hjelp til å få en oversikt over fremdriften til koblingen, viser feltet **Koblet til Dataverse**om en post er koblet til en [!INCLUDE [cds_long_md](includes/cds_long_md.md)]-enhet. Du kan bruke feltet **Koblet til Dataverse** til å filtrere listen over poster du synkroniserer.
 
-## <a name="upgrade-connections-from-business-central-online-to-use-certificate-based-authentication"></a>Oppgrader tilkoblinger fra Business Central Online for å bruke sertifikatbasert godkjenning
+## Oppgrader tilkoblinger fra Business Central Online for å bruke sertifikatbasert godkjenning
 
 > [!NOTE]
 > Denne delen er bare relevant for [!INCLUDE[prod_short](includes/prod_short.md)] online-leiere som kjører på Microsoft. Online-leietakere som kjører på ISV-er, og lokale installasjoner, påvirkes ikke.
@@ -198,7 +198,7 @@ I april 2022 avskriver [!INCLUDE[cds_long_md](includes/cds_long_md.md)] Office36
 
 For å unngå å forstyrrende integreringer _må du oppgradere_ tilkoblingen for å kunne bruke sertifikatbasert godkjenning. Selv om endringen er planlagt i mars 2022, anbefaler vi på det sterkeste at du oppgraderer så snart som mulig. Følgende trinn beskriver hvordan du oppgraderer til sertifikatbasert godkjenning. 
 
-### <a name="to-upgrade-your-business-central-online-connection-to-use-certificate-based-authentication"></a>Slik oppgraderer du tilkoblinger for Business Central online til å bruke sertifikatbasert godkjenning
+### Slik oppgraderer du tilkoblinger for Business Central online til å bruke sertifikatbasert godkjenning
 
 1. Avhengig av om du integrerer med Dynamics 365 Sales, gjør du et av følgende:
    * Hvis du gjør det, åpner du siden **Tilkoblingsoppsett for Microsoft Dynamics 365**.
@@ -209,13 +209,13 @@ For å unngå å forstyrrende integreringer _må du oppgradere_ tilkoblingen for
 > [!NOTE]
 > Du må gjenta disse trinnene i hvert [!INCLUDE[prod_short](includes/prod_short.md)]-miljø, for eksempel både produksjons- og sandkassemiljøer, og i hvert selskap der du er koblet til i [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 
-## <a name="connecting-on-premises-versions"></a>Koble til lokale versjoner
+## Koble til lokale versjoner
 
 Hvis du vil koble [!INCLUDE[prod_short](includes/prod_short.md)] lokalt til [!INCLUDE[cds_long_md](includes/cds_long_md.md)], må du angi informasjon på siden **Tilkoblingsoppsett for Dataverse**.
 
 Du må registrere et program i Microsoft Entra-ID for å koble til med en Microsoft Entra-konto. Du må oppgi program-ID-en, hemmeligheten for nøkkelhvelv og nettadressen som skal brukes. Nettadressen for omdirigering er forhåndsutfylt og skal fungere for de fleste installasjoner. Du må konfigurere installasjonen til å bruke HTTPS. Hvis du vil ha mer informasjon, kan du se [Konfigurere SSL for å sikre nettklienttilkoblingen for Business Central](/dynamics365/business-central/dev-itpro/deployment/configure-ssl-web-client-connection). Hvis du konfigurerer serveren slik at den har en annen hjemmeside, kan du endre nettadressen. Klienthemmeligheten vil bli lagret som en kryptert streng i databasen. 
 
-### <a name="to-register-an-application-in-microsoft-entra-id-for-connecting-from-business-central-to-dataverse"></a>Slik registrerer du et program i Microsoft Entra ID for tilkobling fra Business Central til Dataverse
+### Slik registrerer du et program i Microsoft Entra ID for tilkobling fra Business Central til Dataverse
 
 Fremgangsmåten nedenfor forutsetter at du bruker Microsoft Entra ID til å administrere identiteter og tilgang. Hvis du vil ha mer informasjon om hvordan du registrerer et program i Microsoft Entra ID, kan du se [Hurtigstart: Registrere et program i Microsoft Identity Platform](/azure/active-directory/develop/quickstart-register-app). 
 
@@ -238,12 +238,12 @@ Fremgangsmåten nedenfor forutsetter at du bruker Microsoft Entra ID til å admi
    > [!NOTE]
    > Hvis du ikke blir bedt om å logge på med administratorkontoen, skyldes det trolig at popup-vinduer er blokkert. Hvis du vil logge på, må du tillate popup-vinduer fra `https://login.microsoftonline.com`.
 
-### <a name="to-disconnect-from-"></a>For å koble fra [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
+### For å koble fra [!INCLUDE[cds_long_md](includes/cds_long_md.md)]
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Dataverse-tilkoblingsoppsett** og velger den relaterte koblingen.
 2. På siden **Konfigurasjon for Dataverse-tilkobling** deaktiverer du alternativet **Aktivert**.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Vise statusen for en synkronisering](admin-how-to-view-synchronization-status.md)  
 

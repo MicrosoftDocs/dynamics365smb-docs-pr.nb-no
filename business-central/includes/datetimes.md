@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Når du angir dato og klokkeslett, som er en dato og klokkeslett kombinert i ett felt, må du angi et mellomrom mellom datoen og klokkeslettet. Datodelen kan bare inneholde mellomrom i form av det offisielle datoskilletegnet i regioninnstillingene. Klokkeslettet kan inneholde mellomrom rundt AM/PM-indikatoren i relevante regionale innstillinger.
 

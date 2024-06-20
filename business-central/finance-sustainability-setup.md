@@ -9,9 +9,10 @@ ms.search.form: null
 ms.date: 05/08/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="sustainability-setup"></a>Bærekraftsoppsett
+# Bærekraftsoppsett
 
 Før bærekraftmodulen kan fungere som den skal, må du konfigurere noen grunnleggende kontroller og instruksjoner som er knyttet til hele funksjonaliteten.
 
@@ -52,7 +53,7 @@ Følg denne fremgangsmåten for å konfigurere en bærekraftmodul:
     | **Avrundingspresisjon for utslipp** | Angi størrelsen på intervallet som brukes under avrunding av utslippsmengder, når du rapporterer til myndigheter. |
     | **Avrundingstype for utslipp** | Angi hvordan programmet avrunder utslippsmengder når du rapporterer til myndigheter. Følgende alternativer er tilgjengelige: **Nærmeste**, **Opp** og **Ned**. |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finans](finance.md)  
 [Oversikt over bærekraftsadministrasjon](finance-manage-sustainability.md)  

@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 09/21/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 Når du åpner siden **Disponibelt per variant** fra en dokumentlinje, kan du sette inn en variant på dokumentlinjen ved å velge linjen med varianten du vil sette inn, og deretter velge OK-knappen. Hvis du bare har brukt siden til å vise tilgjengelighet og ikke vil sette inn en variant, må du lukke siden uten å velge OK-knappen.
 

@@ -3,7 +3,7 @@ title: Spor forretnings-KPI-ene med Power BI-måleverdier
 description: Få en oversikt over hvordan du bruker Power BI til å få forretningsanalyse og KPI-er fra Business Central-data.
 author: kennienp
 ms.author: kepontop
-ms.reviewer: jswymer
+ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: 'account schedule, analysis, reporting, financial report, business intelligence, KPI'
 ms.search.form: '6316, 6317'
@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="track-your-business-kpis-with-power-bi-metrics"></a>Spor forretnings-KPI-ene med Power BI-måleverdier
+# Spor forretnings-KPI-ene med Power BI-måleverdier
 
 Hvis du bruker Power BI på [!INCLUDE[prod_short](includes/prod_short.md)]-data, er det enkelt å spore KPI-er eller mål som er viktige for deg.
 
@@ -32,7 +32,7 @@ Finn ut mer om Power BI-måleverdier under [Kom i gang med måleverdier i Power 
 > [!NOTE]
 > Fra og med lanseringsbølge 2 for 2023 for Business Central er det mulig å bygge inn målstyringer fra Power BI-måledata i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bruk ytelsesindikatorer (KPI-er) til å oppfylle forretningsmålene](analytics-about-kpis.md)  
 [Innføring i Business Central og Power BI](admin-powerbi.md)  

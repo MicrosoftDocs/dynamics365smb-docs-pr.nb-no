@@ -9,13 +9,14 @@ ms.search.form: '10670, 10671, 10672, 10673, 10674, 10675, 10677, 10678, 10679, 
 ms.date: 09/18/2023
 ms.author: soalex
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
-# <a name="standard-audit-files---tax"></a>Standard revisjonsfiler – avgift
+# Standard revisjonsfiler – avgift
 
 Fra januar 2020 må selskaper i Norge rapportere finansdata og angi et sett med Standard revisjonsfiler – avgift (SAF-T) til de norske myndighetene på forespørsel. Med denne utvidelsen er det enkelt å sette opp, generere og eksportere Standard revisjonsfiler – avgift i [!INCLUDE[prod_short](../../includes/prod_short.md)]. De eksporterte SAF-T-filene vil automatisk bli komprimert som en zip-fil som er klar til å lastes opp av brukeren på webområdet til Skatteetaten, de norske skattemyndighetene.  
 
-## <a name="what-does-this-extension-handle"></a>Hva håndterer denne utvidelsen?
+## Hva håndterer denne utvidelsen?
 
 Denne utvidelsen gir følgende funksjoner:
 
@@ -24,7 +25,7 @@ Denne utvidelsen gir følgende funksjoner:
 * Styre i hvilket omfang dimensjoner eksporteres i SAF-T-filer.
 * Eksporter SAF-T-filer, enten direkte eller ved hjelp av jobbkøen. Ved hjelp av Jobbkø kan du planlegge at eksporten skal skje i rolige perioder, som er nyttig for potensielt store datasett.
 
-## <a name="setup-of-the-norwegian-saf-t-extension"></a>Oppsett av norsk SAF-T-utvidelse
+## Oppsett av norsk SAF-T-utvidelse
 
 Konfigurer SAF-utvidelsen ved hjelp av assistert oppsett, som gir en enkel, trinnvis veiledning for å komme i gang med SAF-T i [!INCLUDE[prod_short](../../includes/prod_short.md)]. Om nødvendig kan du kjøre guiden flere ganger til du er ferdig med oppsettet.
 
@@ -52,11 +53,11 @@ Konfigurer SAF-utvidelsen ved hjelp av assistert oppsett, som gir en enkel, trin
 > [!Note] 
 > Tilordningene er bundet til datointervallet du har angitt. Du kan opprette flere tilordninger for andre perioder uten å endre tilordningen du allerede har opprettet. Du kan også kopiere tilordninger fra tidligere oppgitte oppsett. Dette er for å sikre at du kan rapportere SAF-T for ulike perioder når du håndterer endringer i kontoplanen.
 
-## <a name="exporting-saf-t-files"></a>Eksportere SAF-T-filer
+## Eksportere SAF-T-filer
 
 Når du skal eksportere SAF-T-filer fra [!INCLUDE[prod_short](../../includes/prod_short.md)], må du først opprette og konfigurere en **SAF-T-eksport** for å definere tilordningsområdet. Du kan for eksempel definere en tilordning og eksportere hele 2019-året, og en annen tilordning for bare måneden april 2019 hvis du blir bedt om å oppgi disse dataene spesifikt.
 
-### <a name="to-create-an-export-of-saf-t-files"></a>Opprette eksport av SAF-T-filer
+### Opprette eksport av SAF-T-filer
 
 1. I [!INCLUDE[prod_short](../../includes/prod_short.md)] velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **SAF-T-eksporter**, og velg deretter **SAF-T-eksporter**.  
 2. På siden **SAF-T-eksporter** velger du **Opprett**.
@@ -67,7 +68,7 @@ Når du skal eksportere SAF-T-filer fra [!INCLUDE[prod_short](../../includes/pro
 5. Du kan kontrollere statusen for SAF-T-filgenerering ved å se på **Linjer**-delen nederst på siden. 
 6. Når alle filer er generert, velger **Last ned fil** for å laste ned en zip-fil som inneholder SAF-T-filene. Denne filen kan lastes opp til Skatteetaten.
 
-### <a name="saf-t-files-and-data-quality"></a>SAF-T-filer og datakvalitet
+### SAF-T-filer og datakvalitet
 
 Du kan konfigurere [!INCLUDE[prod_short](../../includes/prod_short.md)] med ekstra valideringskontroller for datakvalitet som bidrar til å sikre at SAF-filene kan valideres av Skatteetaten. SAF-T-filer kan for eksempel bare valideres når det finnes bestemt informasjon for relevante poster i [!INCLUDE[prod_short](../../includes/prod_short.md)]. For å sikre datakvaliteten for SAF-T kan du aktivere flere aktive kontroller i hurtigfanen **Datakvalitet** på siden **SAF-T-oppsett**. I tillegg bruker du handlingen **Datakontroll** til å kontrollere datakvaliteten før du eksporterer filen, på **SAF-T-eksport**-kortsiden.
 
@@ -91,7 +92,7 @@ Det er et par ting du kan gjøre for å forbedre ytelsen:
 
 Når det gjelder både Online og lokalt, kan du også bruke alternativet for å opprette flere ZIP-filer for svært store eksporter med mange transaksjoner. Dette er nyttig hvis enkeltfiler per måned er svært store, eller antallet filer per dato er for stort. Bruk dette alternativet når den ene store ZIP-filen ikke kan valideres på myndighetenes nettsted, for eksempel på grunn av størrelsen. Når du bruker denne funksjonen, deles eksporten inn i flere ZIP-filer, opptil 10 i samsvar med kravene som er angitt i den generelle SAF-T-dokumentasjonen. Siden **SAF-T-eksporterte filer** åpnes alltid når du bruker handlingen **Last ned fil**. Her kan du se hvor mange filer som ble generert, og laste dem ned én etter én.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Tilpasse [!INCLUDE[prod_short](../../includes/prod_short.md)] ved hjelp av utvidelser](../../ui-extensions.md)  
 [Bli klar til å gjøre forretninger](../../ui-get-ready-business.md)

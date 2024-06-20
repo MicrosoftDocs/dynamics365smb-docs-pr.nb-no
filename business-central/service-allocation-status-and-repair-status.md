@@ -8,11 +8,12 @@ ms.search.keywords: 'resources, allocation, status, repairs'
 ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="allocation-status-and-repair-status-of-service-items"></a>Tildelingsstatusen og reparasjonsstatusen til servicevarene
+# Tildelingsstatusen og reparasjonsstatusen til servicevarene
 Reparasjonsstatusen til servicevarer og tildelingsstatusen til tildelingsposter for servicevarene har en bestemt forbindelse i Service. Tildelingsstatusen endres når du endrer reparasjonsstatusen til servicevaren til **Ferdig** eller **Delvis vedlikeholdt**, og når du konverterer et servicetilbud til en serviceordre. Reparasjonsstatusen til servicevaren endres når du avbryter servicevaretildelingen eller tildeler servicevaren på nytt til en annen ressurs. Du kan vise reparasjonsstatusen til servicevarer på siden **Serviceoppgaver**, og du kan oppdatere reparasjonsstatusen i feltet **Reparasjonsstatuskode** på siden **Arbeidsordre**. Du kan vise tildelingsstatus i feltet **Status** på siden **Ressurstildelinger**.  
   
-## <a name="changing-repair-status"></a>Endre reparasjonsstatus
+## Endre reparasjonsstatus  
 Når du endrer reparasjonsstatusen til en servicevare på en servicevarelinje, søkes det etter en tilhørende tildelingspost for denne servicevaren med statusen **Aktiv**. Hvis det blir funnet en slik tildelingspost, oppdateres statusen på én av følgende måter:  
   
 * Hvis du endrer reparasjonsstatusen til **Ferdig**, endres tildelingsstatusen fra **Aktiv** til **Ferdig**.  
@@ -22,14 +23,14 @@ Når du endrer reparasjonsstatusen til en servicevare på en servicevarelinje, s
   
 Tildelingsstatusen gjenspeiler når vedlikeholdsprosessen er ferdig, eller når det er nødvendig med en annen ressurs for å fullføre servicen av servicevaren.  
   
-## <a name="converting-service-quotes-to-service-orders"></a>Konvertere servicetilbud til serviceordrer
+## Konvertere servicetilbud til serviceordrer  
 Når du konverterer et servicetilbud til en serviceordre, oppdateres serviceordren, servicevarene i ordren samt tilhørende tildelingsposter på følgende måter:  
   
 * Reparasjonsstatusen til servicevarene endres til **Første**.  
 * Serviceordrestatusen endres til **I kø**.  
 * Det søkes etter tildelingsposter for alle servicevarene i serviceordren, med status **Aktiv**. Hvis det blir funnet slike tildelingsposter, endres tildelingsstatusen fra **Aktiv** til **Ny tildeling nødvendig**.  
   
-## <a name="canceling-allocations"></a>Avbryte tildelinger
+## Avbryte tildelinger  
 Når du avbryter en tildeling for en servicevare, oppdaterer [!INCLUDE[prod_short](includes/prod_short.md)] tildelingsstatusen til den tilhørende tildelingsposten fra **Aktiv** til **Ny tildeling nødvendig**.
 
 Reparasjonsstatusen til servicevaren i tildelingsposten oppdateres på følgende måter:  
@@ -37,7 +38,7 @@ Reparasjonsstatusen til servicevaren i tildelingsposten oppdateres på følgende
 * Hvis reparasjonsstatusen er **Første**, endres reparasjonsstatusen til **Henvist** (ingen service er påbegynt).  
 * Hvis reparasjonsstatusen er **I arbeid**, endres reparasjonsstatusen til **Delvis vedlikeholdt** (deler av servicen er fullført).  
   
-## <a name="reallocating-an-active-allocation-entry"></a>Tildele en aktiv tildelingspost på nytt
+## Tildele en aktiv tildelingspost på nytt  
 Når du tildeler en servicevare på nytt i en tildelingspost som er **Aktiv**, oppdateres tildelingsposten på følgende måter:  
   
 * Hvis servicen ble startet mens tildelingen var **Aktiv** (det vil si hvis reparasjonsstatusen til servicevaren i posten var endret til **I arbeid**), endres tildelingsstatusen fra **Aktiv** til **Ferdig**.  
@@ -50,7 +51,7 @@ Reparasjonsstatusen til servicevaren i tildelingsposten oppdateres på samme må
   
 Det opprettes en ny tildelingspost som inneholder den nye ressursen, og som har statusen **Aktiv**.  
   
-## <a name="reallocating-a-service-item"></a>Tildele en servicevare på nytt
+## Tildele en servicevare på nytt  
 Når du tildeler en servicevare på nytt i en tildelingspost med statusen **Ny tildeling nødvendig**, oppdateres tildelingsposten på følgende måter:  
   
 * Hvis servicen ble startet mens tildelingen var **Aktiv** (det vil si hvis reparasjonsstatusen til servicevaren i posten var endret til **I arbeid**), endres tildelingsstatusen fra **Ny tildeling nødvendig** til **Ferdig**.  
@@ -58,7 +59,7 @@ Når du tildeler en servicevare på nytt i en tildelingspost med statusen **Ny t
   
 Det opprettes en ny tildelingspost som inneholder den nye ressursen, og som har statusen **Aktiv**.  
   
-## <a name="see-also"></a>Se også
+## Se også  
 [Definere ressurstildelinger](service-how-setup-resource-allocation.md)  
 [Tildele ressurser](service-how-to-allocate-resources.md)  
 

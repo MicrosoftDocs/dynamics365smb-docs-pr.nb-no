@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 05/31/2023
 ms.author: andreipa
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 For å kunne bruke Contoso Coffee-data må du installere to apper i det aktuelle selskapet i [!INCLUDE [prod_short](../includes/prod_short.md)]:  <br><br>

@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 03/21/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Tabellen nedenfor beskriver noen av nøkkelrapportene i beholdnings- og lagerstyring.

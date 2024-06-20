@@ -9,14 +9,15 @@ ms.search.form: 8645
 ms.date: 06/08/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="design-details-inventory-costing"></a>Designdetaljer: Kostberegning for beholdning
+# Designdetaljer: Kostberegning for beholdning
 
 Denne dokumentasjonen gir et detaljert teknisk innblikk i begrepene og prinsippene som brukes i funksjonene for kostberegning for beholdning i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Kostberegning for beholdning, også kalt kostnadsstyring, handler om å registrere og rapportere forretningsdriftskost.  
 
-## <a name="in-this-section"></a>I denne delen
+## I denne delen
 
 [Designdetaljer: Kostmetoder](design-details-costing-methods.md)  
 [Designdetaljer: Vareutligning](design-details-item-application.md)  

@@ -3,7 +3,7 @@ title: Definer aktiva
 description: 'Få informasjon om sekvensen av oppgaver du må gjøre for å definere aktiva, for eksempel maskiner eller bygninger.'
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bnielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'machinery, buildings'
 ms.search.form: '5607,'
@@ -11,7 +11,7 @@ ms.date: 03/25/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="setting-up-fixed-assets"></a>Definer aktiva
+# Definer aktiva
 
 Før du kan arbeide med aktiva, må du definere et par ting:  
 
@@ -26,7 +26,7 @@ Avsnittene i denne artikkelen inneholder flere opplysninger om hvordan du define
 
 Når du aktiverer et aktiva i delen **Finansintegrasjon** på siden **Avskrivningstablåkort**, brukes siden **Aktivafinanskladd** til å bokføre transaksjoner for aktiviteten.
 
-## <a name="required-setup-tasks"></a>Obligatoriske oppsettsoppgaver
+## Obligatoriske oppsettsoppgaver
 
 Tabellen nedenfor inneholder en rekke oppgaver for å definere aktiva og koblinger til relaterte artikler.
 
@@ -35,7 +35,7 @@ Tabellen nedenfor inneholder en rekke oppgaver for å definere aktiva og kobling
 | Definer standard finanskonti, fordelingsnøkler, kladdemaler og kladder for aktivabokføring, og definer aktivaklasser og underklasser, for eksempel materielle og immaterielle. |[Definere generell aktivainformasjon](fa-how-setup-general.md) |
 | Opprette avskrivningstablåer, definere diverse avskrivningsmetoder, integrere med Finans, og gjøre det mulig å duplisere poster i flere avskrivningstablåer. |[Konfigurer aktivumavskrivninger](fa-how-setup-depreciation.md) |
 
-## <a name="optional-setup-tasks-insurance-maintenance-and-user-defined-depreciation-methods"></a>Valgfrie oppsettsoppgaver (forsikring, vedlikehold og brukerdefinerte avskrivningsmetoder)
+## Valgfrie oppsettsoppgaver (forsikring, vedlikehold og brukerdefinerte avskrivningsmetoder)
 
 Tabellen nedenfor inneholder en rekke valgfrie oppgaver for å definere aktiva, for eksempel metoder for forsikring, vedlikehold og avskriving til relaterte artikler. 
 
@@ -45,7 +45,7 @@ Tabellen nedenfor inneholder en rekke valgfrie oppgaver for å definere aktiva, 
 | Aktivere vedlikehold av aktiva, definere generell vedlikeholdsinformasjon, definere kontoer for postering av vedlikehold, og definere typer av vedlikeholdsarbeid. |[Konfigurer aktivumvedlikehold](fa-how-setup-maintenance.md) |
 | Lær mer om hvordan du bruker avskrivningsmetoder. |[Konfigurer brukerdefinerte avskrivningsmetoder](fa-how-setup-user-defined-depreciation-method.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversikt over aktiva](fa-manage.md)  
 [Oversikt over aktivaanalyse](fa-analytics-overview.md)   

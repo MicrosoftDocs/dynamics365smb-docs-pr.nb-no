@@ -10,11 +10,11 @@ ms.date: 09/26/2022
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-bills-of-material"></a>Arbeide med stykklister
+# Arbeide med stykklister
 
 Du bruker stykklister til å strukturere overordnede varer som må monteres fra andre varer eller produseres av ressurser eller produksjonsressurser fra komponenter.
 
-## <a name="assembly-boms-or-production-boms"></a>Monteringsstykklister eller produksjonsstykklister
+## Monteringsstykklister eller produksjonsstykklister
 
 [!INCLUDE[prod_short](includes/prod_short.md)] støtter to ulike stykklistetyper:
 
@@ -35,7 +35,7 @@ Konseptet med ressurser i produksjon er mye mer avansert enn i monteringsstyring
 
 Både monteringsordrer og produksjonsordrer kan kobles direkte til salgsordrer. Du kan imidlertid bare bruke monteringsordrer til å tilpasse sluttvaren direkte for en kundeforespørsel med ordren.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbeid med monteringsstykklister](assembly-how-work-assembly-boms.md)  
 [Opprette produksjonsstykklister](production-how-to-create-production-boms.md)  
