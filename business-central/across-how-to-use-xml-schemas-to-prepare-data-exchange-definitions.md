@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Bruke XML-skjemaer til å klargjøre datautvekslingsdefinisjoner
+# <a name="use-xml-schemas-to-prepare-data-exchange-definitions"></a>Bruke XML-skjemaer til å klargjøre datautvekslingsdefinisjoner
 
 Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket for datautveksling [!INCLUDE[prod_short](includes/prod_short.md)] ved å bruke XML-skjemaer til å definere hvilke dataelementer du vil utveksle med [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan gjøre dette på siden **Visningsprogram for XML-skjema** ved å laste inn XML-skjemafilen, velge de aktuelle dataelementene og deretter initialisere en datautvekslingsdefinisjon.  
 
@@ -24,7 +24,7 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 
 - Slik genererer du en datautvekslingsdefinisjon som er basert på et XML-skjema:  
 
-## Slik laster du inn en XML-skjemafil:
+## <a name="to-load-an-xml-schema-file"></a>Slik laster du inn en XML-skjemafil:
 
 1. Kontroller at den aktuelle XML-skjemafilen er tilgjengelig. Filtypen er XSD.  
 
@@ -48,7 +48,7 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
     > [!NOTE]  
     >  Treet i det innlastede XML-skjemaet er skjult som standard. Du utvider hver node ved å velge **+**-knappen på noden. Hvis du vil utvide alle noder, velger du **Utvid alle** på båndet.  
 
-### Slik velger eller fjerner du noder i et XML-skjema:  
+### <a name="to-select-or-clear-nodes-in-an-xml-schema"></a>Slik velger eller fjerner du noder i et XML-skjema:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **XML-skjemavisning**, og velg deretter den relaterte koblingen.  
 
@@ -86,7 +86,7 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 
      **Valg**-feltet angir at noden har to eller flere likestilte noder som fungerer som alternativer.  
 
-### Slik genererer du en datautvekslingsdefinisjon som er basert på et XML-skjema:  
+### <a name="to-generate-a-data-exchange-definition-that-is-based-on-an-xml-schema"></a>Slik genererer du en datautvekslingsdefinisjon som er basert på et XML-skjema:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **XML-skjemaer**, og velg deretter den relaterte koblingen.  
 
@@ -104,7 +104,7 @@ Du kan gjøre det mulig å importere/eksportere data i XML-filer via rammeverket
 > [!NOTE]
 > I lanseringsbølge 1 for 2019 og tidligere versjoner kunne du generere en XMLport som var basert på skjemaet, og deretter importere den til løsningen. Denne støttes ikke lenger.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md)  
 [Eksportere betalinger til en bankfil](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

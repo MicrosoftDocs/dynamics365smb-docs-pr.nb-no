@@ -10,14 +10,14 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Definere kontakter
+# <a name="set-up-contacts"></a>Definere kontakter
 Når du oppretter kontakter, kan du legge inn spesifikk informasjon, for eksempel bransjen der kontakten hører til, og forretningsforholdet ditt med kontaktene.
 
 Før du oppretter kontakter og registrerer detaljer om forretningsforhold, må du sette opp de ulike kodene du vil bruke til å tilordne disse opplysningene til kontaktbedriftene og -personene. Koder kan settes opp for postgrupper, bransjegrupper, forretningsrelasjoner, webkilder, organisasjonsnivåer og ansvarsområder. Du kan konfigurere dette ved å velge **Ny**-handlingen når du slår opp i listene fra kontaktkortet.  
 
 Når disse opplysningene er satt opp, kan du opprette kontakter på en mye mer organisert måte, og du kan finne alle kontakter basert på en bestemt gruppe på en mer effektiv måte. Alle grupper i bedriften kan finne disse opplysningene, noe som gir mer vellykket kommunikasjon med kontaktene.
 
-##  Tilordne bransjegrupper til en kontakt
+## <a name="to-assign-industry-groups-to-a-contact"></a>Tilordne bransjegrupper til en kontakt
 Du bruker bransjegrupper for å angi hvilken bransje kontaktene tilhører, for eksempel detaljistbransjen eller bilbransjen.
 
 > [!NOTE]
@@ -35,7 +35,7 @@ Antallet bransjegrupper du har tilordnet kontakten, vises i feltet **Ant. bransj
 
 Når du har tilordnet bransjegrupper til kontaktene, kan du bruke disse opplysningene til å velge kontakter for segmentene. Hvis du vil ha mer informasjon, kan du se [Legge til kontakter i segmenter](marketing-add-contact-segment.md).
 
-##  Slik tilordner du postgrupper til en kontakt
+## <a name="to-assign-mailing-groups-to-a-contact"></a>Slik tilordner du postgrupper til en kontakt
 Du kan bruke postgrupper til å identifisere grupper av kontakter som du ønsker skal motta like opplysninger. Du kan for eksempel definere en postgruppe for kontaktene du vil sende en melding om kontorflytting til, eller en annen gruppe for sending av julegavene.
 
 Koden for postgruppen definerer typen eller kategori for gruppen, for eksempel FLYTTE for kontorflytting eller GAVE julegave. Du kan ha flere koder for bransjegruppe. Hvis du vil definere bransjegrupper, bruker du siden **Postgrupper**.
@@ -50,7 +50,7 @@ Antallet postgrupper du har tilordnet kontakten, vises i feltet **Ant. postgrupp
 
 Når du har tilordnet postgrupper til kontaktene, kan du bruke disse opplysningene til å velge kontakter for segmentene. Hvis du vil ha mer informasjon, kan du se [Legge til kontakter i segmenter](marketing-add-contact-segment.md).
 
-## Slik definerer du en kontakts alternative adresse
+## <a name="to-define-a-contacts-alternate-address"></a>Slik definerer du en kontakts alternative adresse
 Du kan tilordne en alternativ adresse hvis kontakten noen ganger for eksempel ønsker å motta post og informasjon til kontaktens sommerhus. Hvis du vil angi når hver enkelt adresse er gyldig, kan du også tilordne ett eller flere datointervall til hver alternative adresse du har angitt for kontaktene.
 
 1. Åpne det relevante kontaktkortet.
@@ -61,7 +61,7 @@ Du kan tilordne en alternativ adresse hvis kontakten noen ganger for eksempel ø
 
 Gjenta disse trinnene hvis du vil tilordne flere alternative adresser. For hver alternative adresse bør du angi ett eller flere datointervaller.
 
-## Slik tilordner du ansvarsområder til en kontakt
+## <a name="to-assign-job-responsibilities-to-a-contact"></a>Slik tilordner du ansvarsområder til en kontakt
 Du kan legge til informasjon om ansvarsområder for kontaktpersoner for å angi hva kontaktpersonen har ansvaret for i selskapet, for eksempel IT, ledelse eller produksjon. Du kan bruke denne informasjonen når du oppgir opplysninger om kontaktene.
 
 > [!NOTE]
@@ -79,7 +79,7 @@ Antallet ansvarsområder du har tilordnet kontakten, vises i feltet **Ant. ansva
 
 Når du har tilordnet ansvarsområder til kontaktene, kan du bruke disse opplysningene til å velge kontakter for segmentene. Hvis du vil ha mer informasjon, kan du se [Legge til kontakter i segmenter](marketing-add-contact-segment.md).
 
-## Slik tilordner du organisasjonsnivåer til en kontakt
+## <a name="to-assign-organizational-levels-to-a-contact"></a>Slik tilordner du organisasjonsnivåer til en kontakt
 Du kan bruke organisasjonsnivåer på kontaktene for å angi hvilken stilling de har i selskapet, for eksempel en stilling i toppledelsen. Du kan bruke denne informasjonen når du oppgir opplysninger om kontaktene.
 
 > [!NOTE]
@@ -94,7 +94,7 @@ Når du har tildelt organisasjonsnivåer til kontaktene, kan du bruke disse oppl
 
 Når du har tilordnet ansvarsområder til kontaktene, kan du bruke disse opplysningene til å velge kontakter for segmentene. Hvis du vil ha mer informasjon, kan du se [Legge til kontakter i segmenter](marketing-add-contact-segment.md).
 
-## Slik tilordner du webkilder til en kontakt
+## <a name="to-assign-web-sources-to-a-contact"></a>Slik tilordner du webkilder til en kontakt
 Du kan for eksempel bruke webkilder med kontaktselskaper for å identifisere søkemotorer og webområder på Internett, som du vil bruke til å søke etter informasjon om kontaktene. Når du tilordner webkilder, angir du hvilken søkemotor og søkeord programmet skal bruke for å finne de forespurte opplysningene.
 
 > [!NOTE]
@@ -109,7 +109,7 @@ Når du tilordner webkilder, angir du hvilken søkemotor og søkeord som program
 
 Gjenta disse trinnene hvis du vil tilordne flere webkilder.
 
-##  Tilordne forretningsforbindelser til en kontakt
+## <a name="to-assign-business-relations-to-a-contact"></a>Tilordne forretningsforbindelser til en kontakt
 Du kan bruke forretningsforbindelser blir brukt til å angi hvilket forretningsforhold du har til kontaktene, for eksempel prospekter, banker, konsulenter, serviceleverandører og så videre.
 
 > [!NOTE]
@@ -125,29 +125,29 @@ Antall forretningsforbindelser du har tilordnet kontakten, vises i feltet **Ant.
 
 Når du har tilordnet forretningsforbindelser til kontaktene, kan du bruke disse opplysningene til å velge kontakter for segmentene. Hvis du vil ha mer informasjon, kan du se [Legge til kontakter i segmenter](marketing-add-contact-segment.md).
 
-## Automatisk kopiere spesifikk informasjon fra kontaktselskapene til kontaktpersonene
+## <a name="automatically-copying-specific-information-from-contact-companies-to-contact-persons"></a>Automatisk kopiere spesifikk informasjon fra kontaktselskapene til kontaktpersonene
 Noen opplysninger om kontaktselskaper er identiske med opplysningene om kontaktpersonene som arbeider i disse selskapene, for eksempel opplysninger om adresse. På hurtigfanen **Arv** på siden **Markedsføringsoppsett** kan du angi hvilke felt på kontaktkortet for et firma som skal kopieres til kontaktkortet for en person hver gang du oppretter en kontaktperson for kontaktselskapet.
 
 Når du endrer ett av disse feltene på kortet for kontaktselskapet, oppdateres de samme feltene på kortet til kontaktpersonen med mindre du har endret feltet manuelt på dette kortet.
 
 Hvis du vil ha mer informasjon, kan du se [Opprette kontakter](marketing-create-contact-companies.md).
 
-## Bruk forhåndsdefinerte standarder på nye kontakter
+## <a name="use-predefined-defaults-on-new-contacts"></a>Bruk forhåndsdefinerte standarder på nye kontakter
 Du kan angi at hver gang du oppretter en ny kontakt, skal det automatisk tilordnes en bestemt språkkode, distriktskode, selgerkode og lands-/regionkode som standard. Du kan også angi en standard salgssykluskode som automatisk tilordnes hver nye salgsmulighet du oppretter. Du definere dette i **Standardverdier**-hurtigfanen på **Markedsføringsoppsett**-siden
 
 Arv av felt overskriver standardverdiene du har definert. Hvis du for eksempel har definert norsk som standardspråk, men ett av kontaktselskapene bruker tysk, tildeles automatisk tysk som språkkode for de kontaktpersonene som står registrert for dette selskapet.
 
-## Synkronisere kontakter med kunder, leverandører og bankkonti
+## <a name="synchronizing-contacts-with-customers-vendors-and-bank-accounts"></a>Synkronisere kontakter med kunder, leverandører og bankkonti
 Hvis du vil synkronisere kontaktkortet med en tilknyttet kunde, leverandør eller bankkontokortet, må du fylle ut det aktuelle feltet i inndelingen **Forr.forbindelseskode for** på **Samhandlinger**-hurtigfanen på **Markedsføringsoppsett**-siden.  
 
 Hvis du vil ha mer informasjon, kan du se [Synkronisere kontakter med kunder, leverandører og bankkonti](marketing-create-contact-companies.md#synchronizing-contacts-with-customers-vendors-employees-and-bank-accounts).
 
-## Søke etter duplikatkontakter
+## <a name="searching-for-duplicate-contacts"></a>Søke etter duplikatkontakter
 Du kan angi at programmet skal foreta automatisk søk etter duplikater hver gang du oppretter en kontakt, eller du kan velge å søke manuelt etter at du har opprettet kontakter. Du kan også angi at programmet skal oppdatere søkestrengene automatisk hver gang du endrer kontaktopplysninger eller oppretter en kontakt. Du kan selv bestemme søketreffprosenten, det vil si hvor høy prosentandel to kontakter må ha av like strenger før de betraktes som duplikater. Du definerer dette på **Duplikater**-hurtigfanen på **Markedsføringsoppsett**-siden.
 
 Når du har funnet en duplisert kontakt, kan du bruke siden **Slå sammen duplikat** til å flette det inn i en eksisterende kontaktpost som du vil beholde. Hvis du vil ha mer informasjon, se [Slå sammen dupliserte poster](sales-how-merge-duplicate-records.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 [Administrere kontakter](marketing-contacts.md)  
 [Opprette kontakter](marketing-create-contact-companies.md)  
 [Håndtere salgsmuligheter](marketing-manage-sales-opportunities.md)  

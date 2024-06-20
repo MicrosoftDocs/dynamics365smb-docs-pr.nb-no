@@ -10,12 +10,12 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Spor pakker
+# <a name="track-packages"></a>Spor pakker
 De fleste transportører har en nettjeneste der du kan spore status for pakkene mens de er i rute. Disse opplysningene kan være nyttige i mange forretningsprosesser, for eksempel når du gir kundeservice. Hvis du bruker en eller flere slike transportør, kan du angi noe grunnleggende informasjon om dem, og deretter bruke pakkesporingstjenesten direkte fra sidene Bokførte salgsforsendelser, Bokførte salgsfakturaer, Bokførte salgskreditnotaer og Bokført returseddel. Hvis du vil ha mer informasjon, kan du se [Definere transportører](sales-how-to-set-up-shipping-agents.md). 
 
 Følgende fremgangsmåte viser hvordan du sporer en pakke fra en bokført følgeseddel, men den samme fremgangsmåten gjelder når du skal spore en pakke fra sidene Bokført salgsfaktura, Bokført salgskreditnota og Bokført returseddel.  
 
-## Slik sporer du pakker
+## <a name="to-track-a-package"></a>Slik sporer du pakker
 
 > [!NOTE]
 > Følgende fremgangsmåte bruker den bokførte følgeseddelsiden som eksempel. Fremgangsmåten for å spore en pakke er de samme på sidene Bokførte salgsfakturaene, Bokførte salgskreditnotaer og Bokført returseddel.
@@ -26,7 +26,7 @@ Følgende fremgangsmåte viser hvordan du sporer en pakke fra en bokført følge
 4. Kontroller at den riktige transportøren og servicenivået er riktig, og lukk deretter siden.
 5. Velg handlingen **Spor pakke** for å åpne transportørens pakkesporingstjeneste.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurer transportører](sales-how-to-set-up-shipping-agents.md)  
 [Salg](sales-manage-sales.md)  

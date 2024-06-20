@@ -10,14 +10,14 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Bokføre vrak manuelt
+# <a name="post-scrap-manually"></a>Bokføre vrak manuelt
 
 Hvis det ikke produseres vrak i løpet av behandlingen, kan det angis i ferdigmeldingskladden.  
 
 > [!NOTE]
 > Vrakantallet øker ikke avgangsantallet.  
 
-## Slik bokfører du vrak manuelt
+## <a name="to-post-scrap-manually"></a>Slik bokfører du vrak manuelt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ferdigmeldingskladd** og velg den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
@@ -27,7 +27,7 @@ Hvis det ikke produseres vrak i løpet av behandlingen, kan det angis i ferdigme
 
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]    
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Produksjon](production-manage-manufacturing.md)
 [Definere produksjon](production-configure-production-processes.md)  

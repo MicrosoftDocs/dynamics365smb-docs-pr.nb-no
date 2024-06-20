@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Definere statuser for serviceordrer og reparasjoner
+# <a name="set-up-statuses-for-service-orders-and-repairs"></a>Definere statuser for serviceordrer og reparasjoner
 
 Du må definere ni alternativer for reparasjonsstatus som identifiserer fremdriften av reparasjon og vedlikehold på servicevarer i serviceordrer. Du må definerer minst ni alternativer for reparasjonsstatus som identifiserer situasjoner eller handlinger som er iverksatt under vedlikehold av servicevarer.  
 
@@ -20,7 +20,7 @@ Når du endrer reparasjonsstatusen til en servicevare i en serviceordre, oppdate
 
 Før du kan definere en reparasjonsstatus, må du definere servicestatusprioritet.
 
-## Slik definerer du servicestatusprioritet
+## <a name="to-set-up-service-status-priorities"></a>Slik definerer du servicestatusprioritet
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Serviceordrestatus**, og velg deretter den relaterte koblingen.  
 2. Velg serviceordrestatusen du vil angi en prioritet for.  
@@ -28,7 +28,7 @@ Før du kan definere en reparasjonsstatus, må du definere servicestatuspriorite
 
 Gjenta trinnene 2 og 3 til du har angitt prioriteten for hvert enkelt av de fire statusalternativene: **Venter**, **I arbeid**, **Ferdig** og **Avvent**.  
 
-## Slik definerer du reparasjonsstatus
+## <a name="to-set-up-a-repair-status"></a>Slik definerer du reparasjonsstatus
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Reparasjonsstatus** og velg deretter den relaterte koblingen.
 2. Opprett en ny reparasjonsstatus.  
@@ -41,7 +41,7 @@ Gjenta trinnene 2 og 3 til du har angitt prioriteten for hvert enkelt av de fire
 
 Gjenta disse trinnene for hvert enkelt alternativ for reparasjonsstatusen du vil opprette.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Serviceordrestatus og reparasjonsstatus](service-service-order-status-and-repair-status.md)  
 [Konfigurere servicehåndtering](service-setup-service.md)  

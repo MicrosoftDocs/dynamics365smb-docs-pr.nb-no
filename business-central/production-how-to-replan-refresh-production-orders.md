@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Planlegge på nytt eller fornye produksjonsordrer direkte
+# <a name="replan-or-refresh-production-orders-directly"></a>Planlegge på nytt eller fornye produksjonsordrer direkte
 
 Funksjonen **Planlegg på nytt** for produksjonsordrer brukes vanligvis etter at du har lagt til eller endret komponenter som utgjør underliggende produksjonsordrer. Funksjonen beregner endringer som utføres i komponenter og rutelinjer, og den inkluderer varer på lavere produksjonsstykklistenivåer. For disse varene genereres det kanskje nye produksjonsordrer.  
 
@@ -28,7 +28,7 @@ Du kan enten sette inn produksjonsordrelinjene manuelt, eller bruke funksjonen s
 > [!NOTE]
 > Hvis du bruker oppdateringsfunksjonen til å beregne produksjonsordrelinjer på nytt, slettes de gamle produksjonsordrelinjene og nye beregnes.  
 
-## Slik planlegger du en produksjonsordre på nytt
+## <a name="to-replan-a-production-order"></a>Slik planlegger du en produksjonsordre på nytt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Fast planlagte prod.ordrer** og velg den relaterte koblingen.  
 2. Åpne produksjonsordren du vil planlegge på nytt.  
@@ -57,7 +57,7 @@ Du kan enten sette inn produksjonsordrelinjene manuelt, eller bruke funksjonen s
 > [!NOTE]  
 > Endringer som er implementert ved hjelp av funksjonen **Planlegg på nytt**, vil etter stor sannsynlighet føre til endringer i produksjonsordrens kapasitetsbehov, og du må derfor kanskje tidsplanlegge operasjoner på nytt senere.  
 
-## Slik fornyer du en produksjonsordre
+## <a name="to-refresh-a-production-order"></a>Slik fornyer du en produksjonsordre
 
 Hvis du har endret produksjonsordrelinjer, komponenter eller rutelinjer, må du i tillegg fornye informasjonen i produksjonsordren. I fremgangsmåten nedenfor beregnes komponentene for en fast planlagt produksjonsordre. Trinnene er de samme for rutelinjer.
 
@@ -80,7 +80,7 @@ Hvis du har endret produksjonsordrelinjer, komponenter eller rutelinjer, må du 
 > [!NOTE]  
 > Når du beregner produksjonsordrekomponenter, slettes tidligere endringer i komponentene.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Planlegging](production-planning.md)  
 [Definere produksjon](production-configure-production-processes.md)  

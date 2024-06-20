@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Definere regler for automatisk utligning av betalinger
+# <a name="set-up-rules-for-automatic-application-of-payments"></a>Definere regler for automatisk utligning av betalinger
 
 På siden **Betalingsutligningsregler** definerer du regler for å styre hvordan betalingstekst (på banktransaksjoner) utlignes automatisk med teksten på relaterte åpne (ubetalte) fakturaer, kreditnotaer eller andre oppføringer når du bruker funksjonen **Utlign automatisk** på siden **Betalingsavstemmingskladd**. Hvis du vil ha mer informasjon, kan du se [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md).
 
@@ -29,7 +29,7 @@ I tillegg til søkekriteriene gjelder følgende med hensyn til fortegnet for bet
 - For negative beløp blir det først avstemt mot åpne poster som representerer kundefakturaer og deretter mot leverandørkreditnotaer.
 - For positive beløp blir det først avstemt mot åpne poster som representerer leverandørfakturaer og deretter mot kundekreditnotaer.
 
-## Slik definerer du en utligningsregel for betaling
+## <a name="to-set-up-a-payment-application-rule"></a>Slik definerer du en utligningsregel for betaling
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Betalingsutligningsregler** og velge den relaterte koblingen.
 2. Definer en ny eller redigert utligningsregel for betaling ved å fylle ut feltene på en linje, som beskrevet i tabellen nedenfor.
 
@@ -74,7 +74,7 @@ Tabellen nedenfor beskriver standardreglene for betalingsutligning i [!INCLUDE[p
 | Lav              | 4        | Nei                    | Nei                             | Ett treff                      |
 | Lav              | 5        | Nei                    | Nei                             | Flere treff               |
 
-## Se også
+## <a name="see-also"></a>Se også
 [Avstemme betalinger ved hjelp av automatisk utligning](receivables-how-reconcile-payments-auto-application.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  

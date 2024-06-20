@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# (Eldre) Definer oppsettet som brukes av en rapport
+# <a name="legacy-set-the-layout-used-by-a-report"></a>(Eldre) Definer oppsettet som brukes av en rapport
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -24,7 +24,7 @@ Når egendefinerte rapportoppsett er definert, kan du velge dem fra kunde- og le
 > [!TIP]  
 > Dokumentrapporter (ikke oversikter) som bruker et Word-rapportoppsett, er vanligvis raskere enn de som bruker et RDLC-rapportoppsett. Så hvis du kan velge mellom et Word- eller RDLC-rapportoppsett for en dokumentrapport, bør du bruke Word-rapportoppsettet for best ytelse.
 
-## Slik endrer du hvilket rapportoppsett som skal brukes i en rapport eller et dokument
+## <a name="to-change-which-report-layout-to-use-for-a-report-or-document"></a>Slik endrer du hvilket rapportoppsett som skal brukes i en rapport eller et dokument
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.
   
@@ -43,7 +43,7 @@ Når egendefinerte rapportoppsett er definert, kan du velge dem fra kunde- og le
 
 Hvis du valgte et innebygd RDLC- eller Word-rapportoppsett, kreves ingen ytterligere handling, og oppsettet brukes neste gang rapporten kjøres.
 
-## Slik endrer du det egendefinerte rapportoppsettet som skal brukes for et rapportoppsett
+## <a name="to-change-the-custom-layout-to-use-for-a-report-layout"></a>Slik endrer du det egendefinerte rapportoppsettet som skal brukes for et rapportoppsett
 
 Det kan også hende du vil endre det egendefinerte oppsettet som brukes. Hvis du vil ha mer informasjon, kan du se [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md).
 
@@ -56,7 +56,7 @@ Navnet på det valgte egendefinerte oppsettet vises nå i feltet **Beskrivelse a
 
 Nå kan du gå til kunde- og leverandørkortene for å angi hvilke oppsett som skal brukes for forskjellige dokumenter som du oppretter for den aktuelle kunden eller leverandøren, for eksempel ordrebekreftelser eller purringer. Hvis du vil ha mer informasjon, se [Definere dokumentoppsett for kunder og leverandører](ui-define-customer-vendor-document-layouts.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

@@ -11,7 +11,7 @@ ms.date: 02/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Opprett prosjekter
+# <a name="create-projects"></a>Opprett prosjekter
 
 Når du starter et nytt prosjekt, må du opprette et prosjektkort med integrerte prosjektoppgaver og prosjektplanleggingslinjer, strukturert i to lag.  
 
@@ -24,7 +24,7 @@ Lagstrukturen gjør det mulig å dele inn prosjektet i mindre oppgaver, slik at 
 > [!TIP]
 > Velg **Nytt prosjekt**-handlingen i rollesenteret **Prosjektleder** for å starte en assistert oppsettveiledning som veileder deg gjennom trinnene for å opprette et prosjekt med integrerte oppgaver og planleggingslinjer. Følgende prosedyre beskriver hvordan du utfører trinnene manuelt. <!-- For an example of how to create a project manually, go to [Video: How to create a project in Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw).-->
 
-## Fakturere én eller flere kunder for prosjektoppgaver
+## <a name="invoice-one-or-more-customers-for-project-tasks"></a>Fakturere én eller flere kunder for prosjektoppgaver
 
 Av og til er parten som mottar en tjeneste, forskjellig fra parten som betaler regningen. Noen ganger kan det også hende at du må fakturere flere kunder for oppgaver i prosjektet. På **Prosjektkort**-siden bruker du feltet **Faktureringsmåte for oppgave** til å angi om du fakturerer én kunde eller flere kunder.
 
@@ -36,7 +36,7 @@ Hvis du fakturerer flere kunder, kan du angi kunden som skal motta tjenesten, og
 * Legg til informasjon om eksterne referanser for å forenkle kommunikasjon med prosjektet.
 * Overskriv standard regnskapsbetingelsene for prosjektet.
 
-## Fakturere én kunde for flere prosjektoppgaver
+## <a name="invoice-one-customer-for-multiple-project-tasks"></a>Fakturere én kunde for flere prosjektoppgaver
 
 Du kan forenkle faktureringsprosessen ved å sende én faktura til en kunde for flere prosjekter. Legg til prosjektplanleggingslinjer fra flere prosjekter på en salgsfaktura på én gang. Denne prosessen ligner på oppretting av en salgsfaktura fra en prosjektplanleggingslinje og registrering av en verdi i feltet **Tilføy til salgsfakturanr.**
 
@@ -54,7 +54,7 @@ Gjenta disse trinnene hvis du vil legge til et annet sett med prosjektplanleggin
 > * Handlingen **Hent prosjektplanleggingslinjer** er ikke tilgjengelig i ordrer eller tilbud.
 > * Du kan ikke filtrere etter **Lever til-kode** eller **Kontaktnr.** -feltene.
 
-## Slik oppretter du et prosjektkort
+## <a name="to-create-a-project-card"></a>Slik oppretter du et prosjektkort
 
 Du oppretter et prosjektkort og deretter prosjektoppgavelinjer og prosjektplanleggingslinjer for prosjektet.
 
@@ -73,7 +73,7 @@ Du kan eventuelt merke handlinger på prosjektet som sperret, ved hjelp av felte
 |Bokføring    |Du kan arbeide med planleggingslinjer, men prosjektet er sperret for bokføring. Hvis du velger dette alternativet, kan du ikke bokføre forbruk eller salg i prosjektet.|
 |Alle  |Alle handlinger er sperret.|
 
-## Slik oppretter du oppgaver for et prosjekt
+## <a name="to-create-tasks-for-a-project"></a>Slik oppretter du oppgaver for et prosjekt
 
 En viktig del av å opprette et prosjekt er å angi de ulike oppgavene i prosjektet. Du angir oppgaver ved å opprette én linje per oppgave på hurtigfanen **Oppgaver** på siden **Prosjektkort**. Hvert prosjekt må ha minst én oppgave.
 
@@ -84,7 +84,7 @@ En viktig del av å opprette et prosjekt er å angi de ulike oppgavene i prosjek
 5. Gjenta trinn 3 og 4 for alle oppgavene som er nødvendige for prosjektet.
 6. Hvis du vil angi prosjektoppgavene med informasjon om andre prosjektoppgaver, kan du velge handlingen **Kopier prosjektoppgaver fra**, fylle ut feltene etter behov og deretter velge **OK**-knappen.
 
-## Slik oppretter du planleggingslinjer for et prosjekt
+## <a name="to-create-planning-lines-for-a-project"></a>Slik oppretter du planleggingslinjer for et prosjekt
 
 Du kan tilpasse dine nye prosjektoppgaver på prosjektplanleggingslinjer. En planleggingslinje kan registrere informasjonen du vil spore for et prosjekt. Du kan for eksempel spore hvilke ressurser prosjektet krever, eller hvilke varer som er nødvendige. Du har for eksempel en oppgave å få en kunde til å godkjenne et prosjekt. Du knytter oppgaven til planleggingslinjer for varer eller andre elementer, for eksempel møter med kunden og tildeling av en ressurs.  
 
@@ -105,7 +105,7 @@ En prosjektplanleggingslinje kan være én av følgende typer.
 4. På siden **Prosjektplanleggingslinjer** på en ny linje fyller du ut feltene etter behov.
 5. Gjenta trinn 3 og 4 for alle planleggingslinjene du trenger for prosjektoppgaven.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Prosjektstyring](projects-manage-projects.md)  
 [Video: Opprett et prosjekt i Dynamics 365 Business Central](https://www.youtube.com/watch?v=VqaPWr7BWmw)  

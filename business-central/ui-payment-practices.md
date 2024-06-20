@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.reviewer: bholtorf
 --- 
 
-# Betalingspraksisrapport  
+# <a name="payment-practices-report"></a>Betalingspraksisrapport
 
 Noen land/områder krever at selskaper rapporterer betalingstider for leverandørene sine, slik det er definert av lokale myndigheter. Denne rapporteringen kan være basert på ulike kilder og kan sortere leverandører basert på størrelse eller definerte betalingsbetingelser og gir rapportering for leverandører for følgende som kreves av lokale myndigheter:  
 
@@ -24,7 +24,7 @@ Brukere kan velge perioden de vil kjøre en beregning for, og finne detaljer bas
 > [!NOTE]
 > Denne rapporteringen er foreløpig påkrevd i noen land, men dette er en global funksjon og kan brukes overalt. For tiden må svenske selskaper med 250 eller flere ansatte hvert år rapportere til det svenske selskapsregistreringsverket hvilke betalingstider de har for kjøp fra selskaper som er mindre enn dem selv. Lignende handlinger finnes i Storbritannia, Australia og New Zealand.  
 
-## Generer rapporten 
+## <a name="generate-the-report"></a>Generer rapporten
 
 Bruk følgende fremgangsmåte for å kjøre rapporten **Betalingspraksiser**:
 
@@ -48,7 +48,7 @@ Bruk følgende fremgangsmåte for å kjøre rapporten **Betalingspraksiser**:
 6. Fra alle beregnede felter kan du gå dypere for å se hvordan dette resultatet er beregnet, ved å åpne siden **Liste over betalingspraksisdata**.
 7. Hvis du vil skrive ut dokumentet, kan du gjøre det ved å kjøre handlingen **Skriv ut**.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Finansrapporter](finance-reports.md)  
 [Analyser årsregnskap i Microsoft Excel](finance-analyze-excel.md)  

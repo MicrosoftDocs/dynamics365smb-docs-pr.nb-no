@@ -7,7 +7,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-### Tilbakeføre kladder for å korrigere feil
+### <a name="reversing-journals-to-correct-mistakes"></a>Tilbakeføre kladder for å korrigere feil
 
 Når du arbeider med kladder som har mange linjer, og noe går galt, er det viktig å ha en enkel måte å rette opp feil på. Siden **Bokført finanskladd** inneholder et par handlinger som kan hjelpe.
 

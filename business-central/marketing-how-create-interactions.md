@@ -11,13 +11,13 @@ ms.search.keywords: 'relationship, prospect'
 ms.search.forms: '5077, 5078, 5074, 5076, 5186, 5075, 5079'
 ms.service: dynamics-365-business-central
 ---
-# Opprett samhandlinger for kontakter og segmenter
+# <a name="create-interactions-on-contacts-and-segments"></a>Opprett samhandlinger for kontakter og segmenter
 
 Du kan opprette samhandlinger for å spore kommunikasjonen du har med én enkelt kontakt, eller med flere kontakter i segmentene. Hvis du vil gjøre det enkelt å opprette samhandlinger, har [!INCLUDE [prod_short](includes/prod_short.md)] den assisterte oppsettsveiledningen **Opprett samhandling** . Guiden hjelper deg med å fange opp viktige detaljer om interaksjonen.
 
 Før du kan opprette samhandlinger, må du imidlertid definere samhandlingsmaler. Hvis du vil lære mer om interaksjonsmaler, kan du gå til [Konfigurer samhandlingsmaler](marketing-interactions.md)
 
-## Opprette en samhandling med en kontakt
+## <a name="to-create-an-interaction-with-a-contact"></a>Opprette en samhandling med en kontakt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") -ikonet , angi du **Kontakter**, **Selger** eller **Samhandlingspost**, og velg den relaterte koblingen.
 2. Velg handlingen **Opprett samhandling**.
@@ -26,7 +26,7 @@ Før du kan opprette samhandlinger, må du imidlertid definere samhandlingsmaler
 > [!NOTE]  
 > Hvis du må stoppe før du har fullført samhandlingen, kan du velge **Avbryt** og deretter angi om du vil lagre innstillingene slik at du kan fortsette senere. Hvis du vil vite mer om utsatte samhandlinger, kan du gå til [Slik fullfører du konfigurasjonen av en utsatt samhandling](#to-finish-setting-up-a-postponed-interaction).
 
-## Opprette en samhandling på et segment
+## <a name="to-create-an-interaction-on-a-segment"></a>Opprette en samhandling på et segment
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Segmenter**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Opprett samhandling**.
@@ -41,12 +41,12 @@ Før du kan opprette samhandlinger, må du imidlertid definere samhandlingsmaler
 
 En samhandling registreres for hver kontakt i segmentet i tabellen **Samhandlingspost**, og segmentet loggføres. Du finner loggførte segmenter på siden **Loggførte segmenter**.
 
-## Slik fullfører du oppsett av en utsatt samhandling
+## <a name="to-finish-setting-up-a-postponed-interaction"></a>Slik fullfører du oppsett av en utsatt samhandling
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utsatte samhandlinger**, og velg deretter den relaterte koblingen.
 2. Velg samhandlingen du vil fullføre, og velg deretter handlingen **Fortsett**.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Registrere samhandlinger](marketing-interactions.md)  
 [Administrere kontakter](marketing-contacts.md)  

@@ -12,9 +12,9 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Bærekraftskontoplan og finans
+# <a name="chart-of-sustainability-accounts-and-ledger"></a>Bærekraftskontoplan og finans
 
-## Bærekraftskontoplan
+## <a name="chart-of-sustainability-accounts"></a>Bærekraftskontoplan
 
 Bærekraftskontoplanen danner den grunnleggende strukturerte listen som brukes til å registrere alle utslippsdata. Den fungerer som et rammeverk som kategoriserer og organiserer bærekraftskontoer basert på attributtene, for eksempel området eller andre grupperinger. Hver konto får vanligvis tilordnet en unik kode eller et unikt nummer for enkel referanse og sporing. Den har samme struktur som en tradisjonell kontoplan, men er spesialtilpasset for å overvåke bærekraftrelaterte data og måleverdier i en organisasjon.
 
@@ -37,7 +37,7 @@ Du kan gjøre følgende fra bærekraftskontoplanen:
 
 Du kan legge til, endre eller slette bærekraftskontoer. For å unngå avvik kan du imidlertid ikke slette en bærekraftskonto hvis en eller flere poster er knyttet til den.
 
-### Legg til eller endre kontoer
+### <a name="add-or-change-accounts"></a>Legg til eller endre kontoer
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 3.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bærekraftskontoplan** og velg deretter den relaterte koblingen.
 2. På siden **Bærekraftskontoplan** kan du åpne hver bærekraftskonto og deretter legge til eller endre innstillinger. Hold markøren over et felt for å lese en kort beskrivelse.
@@ -49,11 +49,11 @@ Når det gjelder kontoer av typen **Til-sum**, angir innrykksfunksjonen **Sammen
 > [!IMPORTANT]
 > Innrykksfunksjonen skriver over verdien i alle felter for **Til-sum**-kontoer. Hvis du angav definisjoner i **Sammentelling**-feltet for **Til-sum**-kontoer før du kjørte innrykksfunksjonen, må du derfor angi dem på nytt etter at du har kjørt den.
 
-### Slett kontoer
+### <a name="delete-accounts"></a>Slett kontoer
 
 Du kan slette en bærekraftskonto. Du må imidlertid først kontrollere at ingen poster er knyttet til den. Business Central forhindrer deg fra å slette en bærekraftskonto hvis en eller flere poster er knyttet til den.
 
-## Kontokategorier
+## <a name="account-categories"></a>Kontokategorier
 
 Brukere må legge til en kategori i hver bærekraftskonto for å definere hvordan systemet skal fungere. De kan velge utslippsområder, dedikerte utslipp de vil spore, formler og lignende konfigurasjoner.
 
@@ -94,7 +94,7 @@ Hvis du angir feltet **Beregningsgrunnlag**, forklarer tabellen nedenfor hvordan
 | | Egendefinert | *Utslipp* = *Egendefinert mengde* &times; *EF* | *Egendefinert beløp* = hotellopphold |
 | | Drivstoff/elektrisitet | *Utslipp* = *Drivstoff* &times; *EF* | *Drivstoff* = Mengde drivstoff brukt i firmabilen, leiebil og så videre |
 
-## Kontounderkategori
+## <a name="account-subcategories"></a>Kontounderkategori
 
 Brukere må legge til en underkategori i hver bærekraftskonto. Denne underkategorien definerer utslippsfaktorene som brukes i formlene, basert på valget for utslippssporing i kategorien i bærekraftskontoen.
 
@@ -114,7 +114,7 @@ Hvis du vil se gjennom underkategorier i bærekraftskonto, følger du denne frem
 > [!NOTE]
 > Feltene **Importer data** og **Importer fra** er ment for potensiell integrering med eksterne systemer som brukes til å samle inn utslippsfaktorer. Disse feltene kan imidlertid som standard ikke brukes som en funksjon i **lanseringsbølge 1 i 2024**.
 
-## Bærekraftsposter
+## <a name="sustainability-ledger-entries"></a>Bærekraftsposter
 
 Bærekraftspost lagrer historikken for alle bokførte bærekraftstransaksjoner og organiserer alle utslippsdata i henhold til bærekraftskontoplanen. Når en bruker bokfører bærekraftskladden, registreres alle viktige data der. Alle aktive rapporter genereres basert på bærekraftspostene.
 
@@ -123,7 +123,7 @@ Hvis du vil åpne denne posten for en bestemt konto, bruker du handlingen **Post
 > [!IMPORTANT]
 > Etter at du har bokført dataene i bærekraftsposten, kan du ikke slette den. Hvis du har gjort en feil, kan du bokføre en tilbakeføringstransaksjon som har de samme detaljene, men bruker negativt fortegn for mengden.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Finans](finance.md)  
 [Oversikt over bærekraftsadministrasjon](finance-manage-sustainability.md)  
