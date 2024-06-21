@@ -9,7 +9,7 @@ ms.date: 02/14/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# Behandle delleveringer
+# <a name="process-partial-shipments"></a>Behandle delleveringer
 
 I en dellevering leveres ikke hele ordren samtidig. I en ordre på 100 enheter sender du for eksempel 40 enheter omgående og 60 senere. Det er ingen begrensninger på antall leveringer for en ordre.
 
@@ -19,7 +19,7 @@ Som standard angir [!INCLUDE [prod_short](includes/prod_short.md)] feltet på si
 
 [!INCLUDE [order-ship-invoice_md](includes/order-ship-invoice.md)]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Selg produkter med en kundeordre](sales-how-sell-products.md)  
 [Levere varer](warehouse-how-ship-items.md)  

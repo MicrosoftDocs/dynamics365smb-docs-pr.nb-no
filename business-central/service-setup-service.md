@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Konfigurere servicehåndtering
+# <a name="setting-up-service-management"></a>Konfigurere servicehåndtering
 Før du kan begynne å bruke funksjonene for servicehåndtering i [!INCLUDE[prod_short](includes/prod_short.md)], er det et par ting du må konfigurere. Du kan for eksempel opprette koding for standard service-, symptom- og feilkoder og servicevarer og servicevaretyper basert på selskapets krav til kundeservice.  
 
 Når du setter opp servicehåndtering, må du fastsette hvilke servicetyper du vil tilby kundene, og planen for disse servicetypene. En service er en type arbeid som utføres av én eller flere ressurser, for en kunde. En service kan for eksempel være reparasjon av en datamaskin. En servicevare er utstyret eller varen som trenger service, for eksempel en datamaskin hos en bestemt kunde. Du kan definere servicetyper som en del av en gruppe relaterte reparasjons- eller vedlikeholdsvarer.  
@@ -35,7 +35,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 | Definer servicevarer og servicevarekomponenter. |[Definere servicevarer](service-how-setup-service-items.md) |
 | Lag et fundament for opprettelse av servicekontrakter og kontrakttilbud. |[Definere servicekontrakter](service-how-setup-service-contracts.md) |
 
-## Se også
+## <a name="see-also"></a>Se også
 [Servicebehandling](service-service.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 

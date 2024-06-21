@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Definere en tilleggsrapporteringsvaluta
+# <a name="set-up-an-additional-reporting-currency"></a>Definere en tilleggsrapporteringsvaluta
 
 Ettersom selskaper har drift i stadig flere land/områder, blir det også stadig viktigere at de kan vurdere og rapportere finansdata i mer enn én valuta.
 
@@ -25,7 +25,7 @@ Finans er definert til å bruke den lokale valutaen (LV), men du kan definere at
 >
 > Du har for eksempel et stort antall kunder i britiske pund (GBP), og du har definert tilleggsrapporteringsvalutaen (tilleggsvaluta) til å være GBP. I dette scenariet vil ikke beløp i kundemodulen som bruker GBP, bli justert for valutakursgevinst/-tap i tilleggsvaluta, bare beløp i kundemodulen som finnes i andre valutaer. Det betyr at hvis du bruker tilleggsvaluta til å rapportere regnskapsoppgjør, kan det føre til undervurdert eller overvurderte utestående saldoer for kortsiktige fordringer.
 
-## Vise rapporter og beløp i tilleggsrapporteringsvalutaen
+## <a name="displaying-reports-and-amounts-in-acy"></a>Vise rapporter og beløp i tilleggsrapporteringsvalutaen
 Bruk av en tilleggsrapporteringsvaluta kan hjelpe rapporteringsprosessen for et selskap i følgende tilfeller:
 
 - Selskaper som ikke holder til i EU-land/-regioner, men som har transaksjoner som i stor grad foregår med selskaper i EU-land/-regioner. I dette tilfellet ønsker ikke-EU-selskapet kanskje også å rapportere i euro, slik at økonomirapportene gir større mening for handelspartnerne i EU.
@@ -33,11 +33,11 @@ Bruk av en tilleggsrapporteringsvaluta kan hjelpe rapporteringsprosessen for et 
 
 Flere finansrapporter baserer seg på finansposter. Hvis du vil vise rapportdata i tilleggsrapporteringsvalutaen, merker du av for **Vis beløp i tilleggsrapp.valuta** på hurtigfanen **Alternativer** for den relevante finansrapporten.
 
-## Justere valutakurser
+## <a name="adjusting-exchange-rates"></a>Justere valutakurser
 
 Ettersom valutakursene varierer konstant, må tilleggsvalutaangivelser i systemet justeres jevnlig. Hvis disse justeringene ikke utføres, kan beløp som er regnet om fra utenlandske valutaer (eller tilleggsvalutaer) og bokført i lokal valuta i Finans, være villedende. I tillegg må daglige poster som bokføres før en daglig valutakurs angis i programmet, oppdateres etter at informasjonen om den daglige valutakursen er angitt. Satsjobben **Juster valutakurser** brukes til å justere valutakursene for bokførte kunde-, leverandør- og bankkontoposter. Den kan også oppdatere tilleggsrapporteringsvalutabeløp i finansposter. Hvis du vil ha mer informasjon, se [Oppdatere valutakurser](finance-how-update-currencies.md).
 
-## Definere en tilleggsrapporteringsvaluta
+## <a name="setting-up-an-acy"></a>Definere en tilleggsrapporteringsvaluta
 
 Følg disse trinnene for å definere tilleggsrapporteringsvalutaen:
 
@@ -46,7 +46,7 @@ Følg disse trinnene for å definere tilleggsrapporteringsvalutaen:
 - Angi metoden for valutakursjustering for mva-poster.  
 - Aktivere tilleggsrapporteringsvalutaen.  
 
-### Slik angir du finanskonti for bokføring av valutakursjusteringer  
+### <a name="to-specify-general-ledger-accounts-for-posting-exchange-rate-adjustments"></a>Slik angir du finanskonti for bokføring av valutakursjusteringer
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Valutaer** og velg den relaterte koblingen.  
 2. Fyll inn følgende felt for tilleggsrapporteringsvalutaen på **Valutaer**-siden.  
@@ -63,7 +63,7 @@ Følg disse trinnene for å definere tilleggsrapporteringsvalutaen:
 
 For hver finanskonto må du angi hvordan finansbeløp for den aktuelle kontoen skal justeres for valutakursendringer mellom lokal valuta og tilleggsrapporteringsvalutaen.  
 
-### Slik angir du metoden for valutakursjustering for alle finanskonti:
+### <a name="to-specify-the-exchange-rate-adjustment-method-for-all-general-ledger-accounts"></a>Slik angir du metoden for valutakursjustering for alle finanskonti:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kontoplan** og velger deretter den relaterte koblingen.  
 2. Velg den relevante kontoen på siden **Kontoplan**, og velg deretter handlingen **Rediger**.  
@@ -81,7 +81,7 @@ For hver finanskonto må du angi hvordan finansbeløp for den aktuelle kontoen s
 
 4.  Lukk **Finanskort**-siden.  
 
-### Slik angir du metode for valutakursjustering for mva-poster
+### <a name="to-specify-exchange-rate-adjustment-method-for-vat-entries"></a>Slik angir du metode for valutakursjustering for mva-poster
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
 2. På siden **Finansoppsett** velger du relevant metode i **Mva-valutakursjustering**-feltet.  
@@ -97,7 +97,7 @@ For hver finanskonto må du angi hvordan finansbeløp for den aktuelle kontoen s
     |**Juster beløp**|LV-beløpet er justert for eventuell agio og disagio. Agio eller disagio bokføres på finanskontoen i **Beløp**-feltet og på kontoene du har angitt for vinning eller tap i feltene **Kto. for real. agio - t.val.** og **Kto. for real. disagio - t.val** i **Valutaer**-siden.|  
     |**Juster tilleggsvaluta- beløp**|Tilleggsrapporteringsvalutaen justeres for eventuelle agio og disagio. Agio eller disagio bokføres på finanskontoen i feltet **Tilleggsvalutabeløp** og på kontoene du har angitt for vinning eller tap i feltene **Kto. for real. agio - t.val.** og **Kto. for real. disagio - t.val** på **Valutaer**-siden.|  
 
-### Slik aktiverer du tilleggsrapporteringsvalutaen  
+### <a name="to-activate-the-acy"></a>Slik aktiverer du tilleggsrapporteringsvalutaen
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finansoppsett**, og velg deretter den relaterte koblingen.  
 2. Velg feltet **Tilleggsrapporteringsvaluta** på siden **Finansoppsett** for å velge tilleggsvalutaen du vil rapportere i.  
 3. Når du forlater feltet, viser [!INCLUDE[prod_short](includes/prod_short.md)] en bekreftelsesmelding som beskriver virkningene av å aktivere tilleggsrapporteringsvalutaen.  
@@ -123,7 +123,7 @@ I tillegg vil alle fremtidige poster av samme type få beløpene registrert i b�
 > [!NOTE]  
 > Feltet **Tilleggsrapporteringsvaluta** vil først bli aktivert når du har valgt **OK** i kjørselen **Juster tilleggsrapp.valuta**.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oppdater valutakurser](finance-how-update-currencies.md)  
 [Lukk år og perioder](year-close-years-periods.md)  

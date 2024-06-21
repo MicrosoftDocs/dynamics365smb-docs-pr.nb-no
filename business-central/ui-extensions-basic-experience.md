@@ -12,7 +12,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Grunnleggende opplevelse-utvidelsen
+# <a name="the-basic-experience-extension"></a>Grunnleggende opplevelse-utvidelsen
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
@@ -23,7 +23,7 @@ Denne utvidelsen er beregnet for små bedrifter og kan støtte opptil tre bruker
 > [!NOTE]
 > Per nå er denne utvidelsen bare tilgjengelig til kunder i Danmark og Island.
 
-## Hva som er tilgjengelig
+## <a name="whats-available"></a>Hva som er tilgjengelig
 
 Tabellen nedenfor beskriver funksjonene som er tilgjengelige hvis du installerer den grunnleggende opplevelsesutvidelsen.
 
@@ -35,7 +35,7 @@ Tabellen nedenfor beskriver funksjonene som er tilgjengelige hvis du installerer
 |**Prosjektstyring** |Prosjekter, prosjektprising, timelister, tildeling, oppgaver, ressurser |
 |**Lager** |Grunnleggende lager, vareerstatninger, varekryssreferanse |
 
-## Komme i gang
+## <a name="getting-started"></a>Komme i gang
 
 Denne utvidelsen er litt annerledes enn de fleste, og du vil trenge hjelp fra en Microsoft-partner for å installere og konfigurere den. Slik at du vet hva du kan forvente, får du her en overordnet oversikt over hva Microsoft-partneren gjør.
 
@@ -46,11 +46,11 @@ Denne utvidelsen er litt annerledes enn de fleste, og du vil trenge hjelp fra en
 5. Legg til **Demo RapidStart**-pakken. <!--what does the package contain?-->
 6. Last ned og installer utvidelsen for grunnleggende opplevelse fra AppSource.
 
-## Overføring av data
+## <a name="migrating-data"></a>Overføring av data
 
 Ta med Dynamics C5-dataene dine. Når Microsoft-partneren har installert den grunnleggende opplevelsesutvidelsen, vil du ha et tomt selskap. En enkel måte å flytte dataene fra Dynamics C5 til grunnleggende opplevelse er å bruke dataoverføringsutvidelsen i C5, som er inkludert i [!INCLUDE[prod_short](includes/prod_short.md)]. Utvidelsen migrerer kunder, leverandører, varer og finanskontoer og tilhørende poster.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Utvidelsen C5-datamigrering](ui-extensions-c5-data-migration.md)  
 

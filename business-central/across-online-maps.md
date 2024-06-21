@@ -9,7 +9,7 @@ ms.date: 07/15/2022
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# Bruk Online Maps til å finne plasseringer og veibeskrivelser
+# <a name="use-online-maps-to-find-locations-and-directions"></a>Bruk Online Maps til å finne plasseringer og veibeskrivelser
 
 Du kan hente et kart fra den nettbaserte karttjenesten som viser adressen og plasseringen til en kunde eller leverandør eller generere veibeskrivelser til dem. Du kan få tilgang til **Online Map**-funksjonen på følgende kort i [!INCLUDE[prod_short](includes/prod_short.md)]:
 
@@ -26,14 +26,14 @@ Du kan hente et kart fra den nettbaserte karttjenesten som viser adressen og pla
 > [!NOTE]
 > Hvis det ikke er noen kode i feltet **Lands-/områdekode**, finner ikke Online Map veibeskrivelsen.
 
-## Finn en lokasjon i et Online Map
+## <a name="find-a-location-in-an-online-map"></a>Finn en lokasjon i et Online Map
 
 1. Åpne et av kortene som er oppført ovenfor.
 2. Velg **Online Map** eller **Vis på kart**-handlingen.
 3. Velg **Denne adressen**-feltet og deretter **OK**.
 4. Konfigurert Online Map åpnes med adresselokasjonen definert på kortet.
 
-## Få veibeskrivelser fra din plassering
+## <a name="get-route-directions-from-your-location"></a>Få veibeskrivelser fra din plassering
 
 1. Åpne et av kortene som er oppført ovenfor.
 2. Velg **Online Map** eller **Vis på kart**-handlingen.
@@ -43,7 +43,7 @@ Du kan hente et kart fra den nettbaserte karttjenesten som viser adressen og pla
 > [!NOTE]
 > Online Map åpnes i standardnettleseren eller standardappen, som kan be om tilgang til enhetens plasseringsdata.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurer Online Maps](across-online-maps-setup.md)  
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  

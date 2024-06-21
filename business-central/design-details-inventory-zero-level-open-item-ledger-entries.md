@@ -10,12 +10,12 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Designdetaljer: Kjent vareutligningsproblem
+# <a name="design-details-known-item-application-issue"></a>Designdetaljer: Kjent vareutligningsproblem
 Denne artikkelen beskriver et problem der lagernivået er null selv om det finnes åpne vareposter i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Artikkelen starter med å angi typiske symptomer på problemet, etterfulgt av grunnleggende informasjon om vareutligning for å støtte de angitte årsakene til dette problemet. På slutten av artikkelen er det en løsning for slike åpne vareposter.  
 
-## Symptomer på problemet  
+## <a name="symptoms-of-the-issue"></a>Symptomer på problemet
  Typiske symptomer på problemet med null lager selv om det finnes åpne vareposter, er følgende:  
 
 -   Følgende melding når du prøver å lukke en lagerperiode: Lagerperioden kan ikke lukkes, ettersom det finnes negativ beholdning for én eller flere varer.  
@@ -29,7 +29,7 @@ Artikkelen starter med å angi typiske symptomer på problemet, etterfulgt av gr
      |333|28.01.2018|Salg|Følgeseddel|102043|TEST|BLÅ|-1|-10|-1|-1|Ja|  
      |334|28.01.2018|Salg|Følgeseddel|102043|TEST|BLÅ|1|10|1|1|Ja|  
 
-## Grunnleggende om vareutligning  
+## <a name="basics-of-item-application"></a>Grunnleggende om vareutligning
  En vareutligningspost opprettes for hver lagertransaksjon for å knytte kostmottakeren til kostkilden slik at kostnaden kan overføres i henhold til lagermetoden. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Vareutligning](design-details-item-application.md).  
 
 -   For en inngående varepost opprettes vareutligningsposten når vareposten opprettes.  
@@ -42,7 +42,7 @@ Artikkelen starter med å angi typiske symptomer på problemet, etterfulgt av gr
 
 -   Kostutligning  
 
-### Antallsutligning  
+### <a name="quantity-application"></a>Antallsutligning
  Antallsutligning utføres for alle lagertransaksjoner og opprettes automatisk, eller manuelt i spesielle prosesser. Når det gjøres manuelt, blir antallsutligning referert til som fast utligning.  
 
  Diagrammet nedenfor viser hvordan antallsutligning utføres.  
@@ -54,7 +54,7 @@ Artikkelen starter med å angi typiske symptomer på problemet, etterfulgt av gr
 > [!NOTE]  
 >  Hvis den utgående vareposten er verdisatt ved gjennomsnittskost, er ikke den utlignede inngående vareposten den unike kostnadskilden. Den inngår bare i beregningen av gjennomsnittskosten for perioden.  
 
-### Kostutligning  
+### <a name="cost-application"></a>Kostutligning
 Kostutligning opprettes bare for innkommende transaksjoner når feltet **Utlignet fra-varepost** fylles ut for å angi en fast utligning. Dette skjer vanligvis i forbindelse med en salgskreditnota eller et scenario der levering angres. Kostutligningen sikrer at varen kommer inn på lageret igjen med samme kost som når den ble levert.  
 
 Diagrammet nedenfor viser hvordan kostutligning utføres.  
@@ -66,7 +66,7 @@ Diagrammet nedenfor viser hvordan kostutligning utføres.
 
  Legg merke til ovenfor at inngående varepost 3 (ordreretur) er en kostmottaker for den opprinnelige utgående vareposten 2 (salg).  
 
-## Bilde av en grunnleggende kostnadsflyt  
+## <a name="illustration-of-a-basic-cost-flow"></a>Bilde av en grunnleggende kostnadsflyt
  Anta en komplett kostnadsflyt der en vare mottas, leveres og faktureres, returneres med nøyaktig\-kostnadstilbakeføring, og leveres på nytt.  
 
  Diagrammet nedenfor viser kostnadsflyten.  
@@ -75,7 +75,7 @@ Diagrammet nedenfor viser hvordan kostutligning utføres.
 
  Legg merke til ovenfor at kostnaden overføres til varepost 2 (salg), deretter til varepost 3 (ordreretur), og til sist til varepost 4 (salg 2).  
 
-## Årsaker til problemet  
+## <a name="reasons-for-the-issue"></a>Årsaker til problemet
  Problemet med null lager selv om det finnes åpne vareposter, kan oppstå i følgende scenarioer:  
 
 -   Scenario 1: En følgeseddel og faktura bokføres selv om varen ikke er tilgjengelig. Bokføringen blir deretter tilbakeført med opprinnelig kostpris med en salgskreditnota.  
@@ -90,7 +90,7 @@ Diagrammet nedenfor viser hvordan kostutligning utføres.
 
  Varepost 2 (ordreretur) kan ikke både være en kostnadsmottaker for den opprinnelige vareposten og samtidig være leverandør for varer og deres kostnadskilde Derfor forblir den opprinnelige vareposten 1 (salg 1) åpen til en gyldig kilde vises.  
 
-## Identifisere problemet  
+## <a name="identifying-the-issue"></a>Identifisere problemet
  For å finne ut om åpne vareposter er opprettet, kan du gjøre som følger for det respektive scenarioet:  
 
  For scenario 1, identifiser problemet på følgende måte:  
@@ -130,7 +130,7 @@ Diagrammet nedenfor viser hvordan kostutligning utføres.
 
  Legg merke til ovenfor at den inngående vareposten 334 er utlignet mot utgående varepost 333.  
 
-## Løsning for problemet  
+## <a name="workaround-for-the-issue"></a>Løsning for problemet
  På **Varekladd**-siden bokfører du følgende linjer for den aktuelle varen:  
 
 -   En oppjustering for å lukke den åpne utgående vareposten.  
@@ -141,7 +141,7 @@ Diagrammet nedenfor viser hvordan kostutligning utføres.
 
  Resultatet er at beholdningen er null og alle vareposter lukkes.  
 
-## Se også  
+## <a name="see-also"></a>Se også
 [Designdetaljer: Vareutligning](design-details-item-application.md)   
 [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)  
 

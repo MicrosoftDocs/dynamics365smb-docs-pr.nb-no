@@ -11,11 +11,11 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ms.reviewer: bholtorf
 ---
-# Send purringer om utestående saldoer
+# <a name="send-reminders-of-outstanding-balances"></a>Send purringer om utestående saldoer
 
 [!INCLUDE [receivables-reminders](includes/receivables-reminders.md)]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Innkrev utestående saldoer](receivables-collect-outstanding-balances.md)  
 [Definer flere rentesatser for forsinket betaling](finance-how-to-set-up-multiple-interest-rates.md)  

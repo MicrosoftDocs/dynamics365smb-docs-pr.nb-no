@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Planlegge servicer
+# <a name="planning-services"></a>Planlegge servicer
 Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du definere standardoppgaver som er nødvendige for å oppfylle kundeservicekravene. For å gjøre dette må du fastsette hvilke tilbud av servicevarer som serviceorganisasjon støtter og til hvilken pris.   
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inneholder også neon statistikkverktøy du kan bruke til å bestemme hvor godt det går og finne områder der du kan forbedre deg.
@@ -25,7 +25,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Forstå forholdet mellom statusen til reparasjon og virkningen de har på tildelte ressurser, og omvendt.|[Forstå tildelingsstatus og reparasjonsstatus](service-allocation-status-and-repair-status.md)|  
 |Bruke statistikk til å analysere serviceprosesser. | [Vise servicestatistikk](service-service-statistics.md) |
 
-## Se også
+## <a name="see-also"></a>Se også
 [Oppfylle servicekontrakter](service-fulfill-service-contracts.md)  
 [Yte service](service-deliver-service.md)  
 [Definere priser og ekstra kostnader for servicer](service-how-setup-service-costs-pricing.md)  

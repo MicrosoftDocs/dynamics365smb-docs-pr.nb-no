@@ -11,11 +11,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Bytte til et annet selskap eller miljø
+# <a name="switching-to-another-company-or-environment"></a>Bytte til et annet selskap eller miljø
 
 [!INCLUDE [prod_short](includes/prod_short.md)] er tilgjengelig i mange forskjellige land/områder og støtter mange forskjellige typer organisasjoner. Organisasjonen kan velge å organisere arbeidet i [!INCLUDE [prod_short](includes/prod_short.md)] i flere *selskaper* og *miljøer*. Denne artikkelen hjelper deg med å forstå viktige forskjeller og hvordan du arbeider på tvers av dem.
 
-## Om selskaper og miljøer
+## <a name="about-companies-and-environments"></a>Om selskaper og miljøer
 
 [!INCLUDE [company_environment](includes/company_environment.md)]
 
@@ -27,7 +27,7 @@ ms.reviewer: bholtorf
 <!--
 [!INCLUDE [about-ui-learn](includes/about-ui-learn.md)]-->
 
-## Funksjoner for å bytte selskap eller miljø
+## <a name="features-for-switching-company-or-environment"></a>Funksjoner for å bytte selskap eller miljø
 
 Det finnes noen funksjoner du kan bruke til å bytte mellom selskap eller miljø mens du arbeider. Tabellen nedenfor sammenligner funksjonene i funksjonen, som forklares nærmere i delene nedenfor.
 
@@ -38,7 +38,7 @@ Det finnes noen funksjoner du kan bruke til å bytte mellom selskap eller miljø
 |[Mine innstillinger](#use-my-settings)|![avmerking](media/check.png "avmerking")|||![avmerking](media/check.png "avmerking")|
 |[Selskapssenter](#use-company-hub)|![avmerking](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")|![avmerking](media/check.png "avmerking")||
 
-## Bruk bytting av selskap
+## <a name="use-the-company-switcher"></a>Bruk bytting av selskap
 
 Bruk av bytting av selskap er sannsynligvis den raskeste og mest allsidige måten å bytte selskap på. Bytting av selskap er en rute som er lett tilgjengelig fra alle sider. Ruten gir en oversikt over alle selskapene i alle miljøer du har tilgang til, og lar deg bytte direkte til en av dem – enten i samme nettleserfane eller i en ny en. Det er spesielt nyttig når du arbeider i mange selskaper på tvers av forskjellige miljøer.
 
@@ -59,7 +59,7 @@ Bruk av bytting av selskap er sannsynligvis den raskeste og mest allsidige måte
 > [!TIP]
 > Velg <kbd>F5</kbd> for å oppdatere listen over miljøer og selskaper.
 
-## Bruk startprogrammet for appen
+## <a name="use-the-app-launcher"></a>Bruk startprogrammet for appen
 
 Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], er miljøene du har tilgang til, tilgjengelige i Microsoft 365.  
 
@@ -78,7 +78,7 @@ The following image shows tiles for accessing production and sandbox environment
 
 :::image type="content" source="media/app-picker-environments.png" alt-text="The Dynamics 365 Home page showing production and sandbox environments.":::
 -->
-## Bruk Mine innstillinger
+## <a name="use-my-settings"></a>Bruk Mine innstillinger
 
 Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], kan du raskt bytte til et annet selskap i samme miljø. Når du har byttet, blir selskapet du velger standardselskap og åpnes neste gang du logger på.
 
@@ -93,13 +93,13 @@ Når du er logget på [!INCLUDE[prod_short](includes/prod_short.md)], kan du ras
 > [!TIP]
 > En god måte å gå direkte til standardselskapet på når du logger på, og unngå å måtte angi et miljø, er å legge til nettadressen i listen over favoritter etter at du har logget på.
 
-## Bruk selskapssenter
+## <a name="use-company-hub"></a>Bruk selskapssenter
 
 *Selskapssenter* er et meget spesialisert rollesenter som gir en økonomisk oversikt over selskaper og miljøer. Selskapssenteret er tilgjengelig som en [utvidelse](ui-extensions-company-hub.md) og gir et instrumentbord med oppsummeringsdata for hvert selskap du har tilgang til. Startsiden viser finansielle KPI-er og en direkte kobling til de enkelte miljøene og selskapene. Hvis du vil ha mer informasjon, kan du se [Administrere arbeid på tvers av flere selskaper i selskapshuben](company-hub.md).
 
 [![Viser siden for selskapssenteret som viser alle selskaper.](media/company-hub.png)](media/company-hub.png#lightbox)  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Opprette nye seleskaper i [!INCLUDE[prod_short](includes/prod_short.md)]](about-new-company.md)  
 [Endre grunnleggende innstillinger](ui-change-basic-settings.md)  

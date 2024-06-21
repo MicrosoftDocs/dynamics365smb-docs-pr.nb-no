@@ -13,7 +13,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Utvidelsen Viktig forretningsinnsikt
+# <a name="the-essential-business-insights-extension"></a>Utvidelsen Viktig forretningsinnsikt
 
 UtvidelsenViktig forretningsinnsikt finner interessante forretningsfakta i selskapsdataene og viser dem som avisliknende overskrifter i rollesentre. Avhengig av hva utvidelsen finner i dataene, er innsikten fra forrige uke, forrige måned eller tre måneder fra dagens dato. Innsikten oppdateres hvert 10. minutt  
 
@@ -32,7 +32,7 @@ Tabellen nedenfor beskriver innsiktene som denne utvidelsen leverer for hver rol
 |Prosjektleder| Viser en hilsen og en kobling til produktinformasjon.|
 |Administrator| Viser en hilsen og en kobling til produktinformasjon.|
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Tilpass [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av utvidelser](ui-extensions.md)
 

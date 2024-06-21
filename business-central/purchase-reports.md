@@ -10,15 +10,15 @@ ms.search.form: 'Report_311, Report_312, Report_313, Report_320, Report_709, Rep
 ms.date: 04/26/2024
 ms.service: dynamics-365-business-central
 ---
-# Kjøpsrapportering og analyser
+# <a name="purchase-reporting-and-analytics"></a>Kjøpsrapportering og analyser
 
 Kjøpsrapportering gir innkjøps- og forretningsfolk innsikt og statistikk om gjeldende og tidligere kjøpsaktiviteter.  
 
-## Rapporter
+## <a name="reports"></a>Rapporter
 
 [!INCLUDE [purchase_reports](includes/purchase-reports-include.md)]
 
-## Oppgaver
+## <a name="tasks"></a>Oppgaver
 
 Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilstanden for innkjøp.
 
@@ -26,7 +26,7 @@ Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilst
 - [Beregn datoer for kjøp](purchasing-date-calculation-for-purchases.md)
 - [Vis kjøpsposter](purchasing-how-record-purchases.md#viewing-ledger-entries)
 
-## Utforske kjøpsrapporter med Rapportutforsker
+## <a name="explore-purchase-reports-with-report-explorer"></a>Utforske kjøpsrapporter med Rapportutforsker
 
 Hvis du vil ha en oversikt over rapportene som er tilgjengelige for innkjøp, velger du **Alle rapporter** på startsiden. Denne handlingen åpner rolleutforskeren, som er filtrert etter funksjonene i alternativet **Rapport og analyse**. Under overskriften **Kjøp** velger du **Utforsk**.
 
@@ -34,7 +34,7 @@ Hvis du vil ha en oversikt over rapportene som er tilgjengelige for innkjøp, ve
 
 Hvis du vil finne ut mer, kan du gå til [Finn rapporter med rolleutforskeren](ui-role-explorer.md). 
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Ad hoc-analyse av kjøpsdata](ad-hoc-analysis-purchasing.md)  
 [Oversikt over kjøpsanalyse](purchasing-analytics-overview.md)   

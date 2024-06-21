@@ -11,7 +11,7 @@ ms.date: 05/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Forsikre aktiva
+# <a name="insure-fixed-assets"></a>Forsikre aktiva
 
  **Bruk siden Forsikringskort** til å definere en forsikringspolise som dekker ett eller flere aktiva. Du kan tilordne ett aktiva til én forsikringspolise, eller flere aktiva til én forsikringspolise.
 
@@ -26,7 +26,7 @@ I tillegg kan du tilordne et aktiva til en forsikringspolise og opprette forsikr
 
 Når du har tilordnet et aktiva til en forsikringspolise, inneholder feltet **Forsikret** på aktivakortet Ja **.** Når du selger aktivaet, deaktiveres veksleknappen automatisk.
 
-## Slik oppetter eller endrer du et forsikringskort:
+## <a name="to-create-or-modify-an-insurance-card"></a>Slik oppetter eller endrer du et forsikringskort:
 
 Når du mottar opplysninger om endringer i dekningsbeløpet, må du angi de nye opplysningene på **Forsikringskort**-siden for å sikre at du foretar riktig analyse av forsikringspolisedekningen.  
 
@@ -34,7 +34,7 @@ Når du mottar opplysninger om endringer i dekningsbeløpet, må du angi de nye 
 2. Velg **Ny** for å opprette et nytt kort for en forsikringspolise. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 3. Velg eventuelt forsikringspolisen du vil endre, og velg deretter **Rediger**.
 
-## Slik tilordner du et aktiva til en forsikringspolise ved å bokføre fra forsikringskladden:
+## <a name="to-assign-a-fixed-asset-to-an-insurance-policy-by-posting-from-the-insurance-journal"></a>Slik tilordner du et aktiva til en forsikringspolise ved å bokføre fra forsikringskladden:
 
 Du tilordner et aktiva til en forsikringspolise ved å bokføre i forsikringsdekningsposten.  
 
@@ -48,7 +48,7 @@ Fremgangsmåten nedenfor forklarer hvordan du oppretter en forsikringskladdelinj
     > [!NOTE]  
     > Postene i forsikringskladden bokføres bare i forsikringsdekningsposten.  
 
-## Slik oppdaterer du forsikringsverdien for et aktiva:
+## <a name="to-update-the-insurance-value-of-a-fixed-asset"></a>Slik oppdaterer du forsikringsverdien for et aktiva:
 
 Du kan bruke kjørselen **Indeksreg. forsikring** til å oppdatere verdien av de dekkede aktivaene.  
 
@@ -63,19 +63,19 @@ Du kan bruke kjørselen **Indeksreg. forsikring** til å oppdatere verdien av de
 4. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Forsikringskladder**, og velg deretter den relaterte koblingen.  
 5. Åpne den aktuelle forsikringskladden, gå gjennom verdiene som er opprettet, og bokfør dem deretter i forsikringsdekningsposten.  
 
-## Slik kontrollerer du forsikringsdekningen:
+## <a name="to-monitor-insurance-coverage"></a>Slik kontrollerer du forsikringsdekningen:
 
 [!INCLUDE[prod_short](includes/prod_short.md)] tilbyr dedikerte rapporter og statistikksider for bruk i analyse av forsikringspoliser og om aktiva er over- eller underforsikret.  
 
-### Oversikt over forsikringspoliser
+### <a name="overview-of-insurance-policies"></a>Oversikt over forsikringspoliser
 
 For å få en oversikt over forsikringspolisene, forhåndsvis eller skriv ut rapporten **Forsikring - oversikt**. Rapporten viser alle policyene og de viktigste feltene fra forsikringskortene.  
 
-### Forsikring
+### <a name="insurance-coverage"></a>Forsikring
 
 Hvis du vil se hvilke forsikringspoliser som dekker hvert aktiva og med hvilket beløp, kan du forhåndsvise eller skrive ut rapporten **Forsikring – tot.verdi forsik.**.  
 
-#### Over-/underdekning
+#### <a name="overunder-coverage"></a>Over-/underdekning
 
 Du kan kontrollere om aktiva er over- eller underforsikret på følgende måter:  
 
@@ -84,18 +84,18 @@ Du kan kontrollere om aktiva er over- eller underforsikret på følgende måter:
 * **Over-/underdekning**-rapporten.  
 * **Forsikring - analyse**-rapporten.  
 
-### Uforsikrede aktiva
+### <a name="uninsured-fixed-assets"></a>Uforsikrede aktiva
 
 Hvis du vil kontrollere om du har glemt å tilordne et aktiva til en forsikringspolise, kan du skrive ut eller forhåndsvise rapporten Forsikring - aktiva ikke **forsikret** . Denne rapporten viser aktiva som det ikke bokføres beløp for i forsikringsdekningsposten.  
 
-## Slik viser du forsikringsdekningsposter
+## <a name="to-view-insurance-coverage-ledger-entries"></a>Slik viser du forsikringsdekningsposter
 
 Du kan vise postene du har opprettet i forsikringsdekningsposten.  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Forsikring**, og velg deretter den relaterte koblingen.  
 2. Velg den relevante forsikringspolisen, og velg deretter handlingen **Fors.dekningsposter**.  
 
-## Slik viser du den totale forsikringsverdien for aktiva:
+## <a name="to-view-the-total-insurance-value-of-fixed-assets"></a>Slik viser du den totale forsikringsverdien for aktiva:
 
 En matriseside viser forsikringsverdiene som er registrert for hver forsikringspolise for hvert aktiva som er et resultat av bokførte forsikringsrelaterte beløp.  
 
@@ -105,7 +105,7 @@ En matriseside viser forsikringsverdiene som er registrert for hver forsikringsp
 4. Velg handlingen **Vis matrise**.  
 5. Hvis du vil se de underliggende forsikringsdekningspostene, velger du en verdi i matrisen.  
 
-## Slik korrigerer du forsikringsdekningsposter
+## <a name="to-correct-insurance-coverage-entries"></a>Slik korrigerer du forsikringsdekningsposter
 
 Hvis et aktiva ble tilordnet feil forsikringspolise, kan du korrigere det ved å opprette to reklassifiseringsposter fra forsikringskladden.  
 
@@ -116,7 +116,7 @@ Hvis et aktiva ble tilordnet feil forsikringspolise, kan du korrigere det ved å
 
 Aktivaet fjernes fra feil forsikringspolise på andre linje. Aktivaet tilordnes riktig forsikringspolise på første linje i kladden.  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Aktiva](fa-manage.md)  
 [Definer aktiva](fa-setup.md)  

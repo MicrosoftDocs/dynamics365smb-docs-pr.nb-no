@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Sett opp leverandører for remittering i den norske versjonen
+# <a name="set-up-vendors-for-remittance-in-the-norwegian-version"></a>Sett opp leverandører for remittering i den norske versjonen
 
 [!INCLUDE[prod_short](../../includes/prod_short.md)] inkluderer forbedringer i den norske versjonen for automatisk betaling til leverandører. Dette reduserer sjansen for at feil skal oppstå på grunn av manuell registrering av data. Du må angi leverandørinformasjon for å betale leverandører ved hjelp av remitteringssystemet.  
 
-## Slik angir du en leverandør for remittering  
+## <a name="to-set-up-a-vendor-for-remittance"></a>Slik angir du en leverandør for remittering
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Leverandører** og velger den relaterte koblingen.  
 2.  Velg handlingen **Rediger**.  
@@ -86,7 +86,7 @@ ms.reviewer: bholtorf
 
 10. Velg **OK**.  
 
-## Se også  
+## <a name="see-also"></a>Se også
  [Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)   
  [Sette opp remitteringsavtaler](how-to-set-up-remittance-agreements.md)   
  [Opprette remitteringskontoer](how-to-create-remittance-accounts.md)   

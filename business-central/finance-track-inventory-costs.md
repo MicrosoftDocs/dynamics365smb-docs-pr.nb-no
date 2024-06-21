@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Spor varekostjusteringer
+# <a name="track-item-cost-adjustments"></a>Spor varekostjusteringer
 
 Det er viktig å holde varekost nøyaktig og forkorte tiden fra du bokfører en post til Finans gjenspeiler kostnaden. Du kan spore ytelsen til kostjusteringer for individuelle justeringskjøringer og varer. Hvis det oppstår feil, kan du identifisere de problematiske elementene og foreta korrigeringer. Du kan for eksempel utelate varene fra beregninger for å sikre at justeringer ikke avbrytes for andre varer. Du kan justere kostnader for enkeltvarer, eller du kan opprette bunker med varer og justere alle samtidig.
 
-## Begynne å spore kostnadsjusteringer
+## <a name="start-tracking-cost-adjustments"></a>Begynne å spore kostnadsjusteringer
 
 Det er enkelt å komme i gang. På siden **Lageroppsett** har feltet **Loggføring av kostjustering** noen alternativer:
 
@@ -29,11 +29,11 @@ Det er enkelt å komme i gang. På siden **Lageroppsett** har feltet **Loggføri
 
 Du må også definere jobbkøposten **Bokfør lagerkost i Finans (1002)**. Denne jobbkøposten justerer automatisk kostnader i henhold til en tidsplan. Hvis du vil finne ut mer om jobbkøposter, kan du gå til [Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).
 
-## Håndtere kostnadsjusteringer
+## <a name="manage-cost-adjustments"></a>Håndtere kostnadsjusteringer
 
 Bruk siden **Lagerkostjustering** til å administrere og overvåke kostnadsjusteringsprosessen. Denne siden viser varer sammen med deres kostnadsparametere og kostnadsjusteringsstatus. Du kan filtrere listen slik at den fokuserer på varer som krever justering eller som er utelatt fra kostnadsjusteringsprosessen.
 
-### Om varebunker
+### <a name="about-item-batches"></a>Om varebunker
 
 Du kan kjøre kostnadsjustering for flere varer ved å gruppere dem i bunker. Bunker gjør det enkelt å justere enkelte varer separat, for eksempel fordi det tar lengre tid å justere dem. Bunker kan også bidra til å identifisere varer som har problemer.
 
@@ -54,7 +54,7 @@ Når en kjøring for en bunke er ferdig, har bunken én av følgende statuser p�
 
 > [TIPS!] Hver bunke kjøres i en separat økt. Du kan overvåke fremdriften ved å bruke handlingen **Oppdater** .
 
-### Kjør kostjustering
+### <a name="run-cost-adjustment"></a>Kjør kostjustering
 
 Bruk siden **Lagerkostjustering** til å foreta justeringer.
 
@@ -69,7 +69,7 @@ Bruk siden **Lagerkostjustering** til å foreta justeringer.
     
     Hvis du vil lære mer om bunker, kan du gå til [Om varebunker](#about-item-batches).
 
-### Utforsk varedetaljer
+### <a name="explore-item-details"></a>Utforsk varedetaljer
 
 Bruk **Vare**-menyen til å få tilgang til informasjon om kostnadsjusteringer for en valgt vare.
 
@@ -78,24 +78,24 @@ Bruk **Vare**-menyen til å få tilgang til informasjon om kostnadsjusteringer f
 * **Utgangspunkter for kostjustering**: Åpne siden **Utgangspunkt for justering av gjennomsnittskost**, som du primært bruker til å beregne gjennomsnittskost. Siden viser kombinasjoner av varer, lokasjoner, varianter og verdisettingsdatoer som kostjusteringer kjøres eller må kjøres for.
 * **Kostjusteringsordrer**: Åpne siden **Lagerjusteringspost (ordre)**, der du justerer produksjons- og monteringsordrer. Den viser at ordrene er justert eller krever justering.
 
-### Vis resultatet
+### <a name="view-the-outcome"></a>Vis resultatet
 
 Bruk menyen **Logg per** til å vise resultatet av kostnadsjusteringer:
 
 * **Kjør**: Vis kostnadsjusteringslogger for hver kjøring. Loggen inneholder data om varefilteret, statusen (Vellykket/Mislyktes/Tidsavbrudd), startdato og sluttdato / klokkeslett, varigheten og kostnadsforskjellene som genereres av kjøringen.
 * **Vare**: Vis detaljert informasjon om justeringsprosessen for den valgte varen.
 
-### Inkludere eller utelate varer fra justeringer
+### <a name="include-or-exclude-items-from-adjustments"></a>Inkludere eller utelate varer fra justeringer
 
 Hvis én eller flere varer mislykkes, kan du utelate varene fra justeringskjøringen og deretter inkludere dem i senere kjøringer. Velg ett av følgende på **Funksjoner**-menyen:
 
 * **Utelat vare fra justering** og **Inkluder vare i justering**: Deaktiver midlertidig og aktiver deretter kostnadsjustering for en valgt vare på nytt. Kostjustering fortsetter å holde kostnadene nøyaktige for andre varer mens du undersøker et problem med en bestemt vare.
 
-## Bokfør justerte kostnader til Finans
+## <a name="post-adjusted-costs-to-the-general-ledger"></a>Bokfør justerte kostnader til Finans
 
 Vanligvis bokføres nye verdiposter i Finans i henhold til tidsplanen for jobbkøposten **Bokfør lagerkost i Finans (1002)**. Du kan imidlertid bokføre justeringer i Finans umiddelbart fra siden **Lagerkostjustering**. På **Funksjoner**-menyen velger du **Bokfør lagerkost i Finans**.
 
-## Feilsøking av kostnadsjusteringer
+## <a name="troubleshoot-cost-adjustments"></a>Feilsøking av kostnadsjusteringer
 
 Bruk følgende alternativer på **Diagnostikk**-menyen til å feilsøke kostsjusteringskjøringer.
 
@@ -105,7 +105,7 @@ Bruk følgende alternativer på **Diagnostikk**-menyen til å feilsøke kostsjus
 * **Rapport for gjenkjenning av kostberegningsproblemer**: Diagnostiser vanlige dataproblemer som forårsaker beregningsfeil i kostnadsberegningen. Den kontrollerer om varepostene, verdipostene, vareutligningspostene og kapasitetspostene er riktige.
 * **Slett varedata**: Fjern alle varerelaterte tabeller i databasen. Denne handlingen er bare tilgjengelig i sandkassemiljøer eller evalueringsselskaper.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Juster varekost](inventory-how-adjust-item-costs.md)  
 [Utformingsdetaljer: Kostnadsjustering](design-details-cost-adjustment.md)  

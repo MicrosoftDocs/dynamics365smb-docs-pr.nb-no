@@ -10,7 +10,7 @@ ms.date: 04/30/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Analyse av ad hoc-data
+# <a name="ad-hoc-data-analysis"></a>Analyse av ad hoc-data
 
 Noen ganger må du analysere data i [!INCLUDE[prod_short](includes/prod_short.md)] på en måte som standardrapportene ikke støtter. Disse analysene kalles ofte ad hoc-analyse. Tabellen nedenfor inneholder koblinger til artikler som kan hjelpe deg med å lære hvordan du gjør ad hoc-analyser.
 
@@ -21,14 +21,14 @@ Noen ganger må du analysere data i [!INCLUDE[prod_short](includes/prod_short.md
 | Vis og analyser data fra et rapportdatasett i Excel | [Analyser rapportdata med Excel og XML](report-analyze-excel.md) |
 | Analyser listedata direkte fra en side |[Analyser listedata ved hjelp av dataanalysemodus](analysis-mode.md)|
 
-## Ad hoc-dataanalyse etter funksjonsområde
+## <a name="ad-hoc-data-analysis-by-functional-area"></a>Ad hoc-dataanalyse etter funksjonsområde
 
 Det generelle innholdet om ad-hoc-dataanalyse er også tilgjengelig i spesifikke versjoner for mange av funksjonsområdene i [!INCLUDE[prod_short](includes/prod_short.md)]. 
 
 [!INCLUDE[ad-hoc-analysis-scenarios-table](includes/ad-hoc-analysis-scenarios-table.md)]
 
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversikt over Business Intelligence og rapportering](ui-work-report.md)
 

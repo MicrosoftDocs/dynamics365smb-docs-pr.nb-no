@@ -10,7 +10,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Gjennomgang av servicekontrakter for servicevarer
+# <a name="walkthrough-of-service-contracts-for-service-items"></a>Gjennomgang av servicekontrakter for servicevarer
 
 Denne gjennomgangen viser flere kjerneprosesser:
 
@@ -21,13 +21,13 @@ Denne gjennomgangen viser flere kjerneprosesser:
 - Fullføre tidsregistreringen for serviceordren
 - Bokføre og fakturere kontraktserviceordren
 
-## Opprett servicevarer
+## <a name="creation-of-service-items"></a>Opprett servicevarer
 
-### Scenario  
+### <a name="scenario"></a>Scenario
 
 Susan, ordrebehandleren, bokfører en ordre og selger en vare som er konfigurert til å generere en servicevare.  
 
-### Trinn
+### <a name="steps"></a>Trinn
 
 1. Kontroller at **Servicevaregruppe** er valgt for **Vare** .
    
@@ -41,13 +41,13 @@ Susan, ordrebehandleren, bokfører en ordre og selger en vare som er konfigurert
     2. Velg ordren for kunde 10000. Det eksterne ordrenr. er *SVC-1*.
     3. Velg **Bokfør**-handlingen for å sende varen til kunden.
 
-### Resultater
+### <a name="results"></a>Resultater
 
 - Det opprettes en servicevare for kunde 10000
 
-##  Fakturer en servicekontrakt
+## <a name="invoicing-a-service-contract"></a>Fakturer en servicekontrakt
 
-### Scenario
+### <a name="scenario-1"></a>Scenario
 
 Charles, servicelederen, oppretter deretter en servicekontrakt som skal faktureres for regelmessige vedlikeholdsbesøk.
 
@@ -70,18 +70,18 @@ Charles, servicelederen, oppretter deretter en servicekontrakt som skal fakturer
    1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Servicefakturaer**, og velg deretter den relaterte koblingen.
    2. Finn servicefakturaen, og velg **Bokfør**-handlingen.
 
-### Resultater
+### <a name="results-1"></a>Resultater
 
 - En signert servicekontrakt opprettes med vareposter
 - En bokført servicefaktura opprettes
 
-## Opprett en serviceordre for en servicekontrakt og tildel ressurser
+## <a name="create-a-service-order-for-a-service-contract-and-assign-resources"></a>Opprett en serviceordre for en servicekontrakt og tildel ressurser
 
-### Scenario  
+### <a name="scenario-2"></a>Scenario
 
 Charles, servicelederen, oppretter serviceordrene for vanlige vedlikeholdsordrer under servicekontrakten og ser deretter gjennom servicefordelingen for å tilordne dem.
 
-### Trinn
+### <a name="steps-1"></a>Trinn
 
 1. Kjør serviceordrene som skal oppfylle forpliktelsene i aktive servicekontrakter.
    1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Opprett kontraktserviceordrer**, og velg deretter den relaterte koblingen.
@@ -104,21 +104,21 @@ Charles, servicelederen, oppretter serviceordrene for vanlige vedlikeholdsordrer
     3. Tildelingen endres til statusen Aktiv.
     4. Oppdatering av servicefordeling viser **Ant. tildelinger** endret fra 0 til 1 for serviceordren.
 
-### Resultater
+### <a name="results-2"></a>Resultater
 
 - Serviceordrer opprettes for servicekontraktene
 - Serviceordrene tildeles til en ressurs for å fullføre arbeidet
 
-## Fullfør tidsregistreringen for serviceordren og bokføre serviceordren
+## <a name="complete-the-time-entry-for-the-service-order-and-post-the-service-order"></a>Fullfør tidsregistreringen for serviceordren og bokføre serviceordren
 
-### Scenario  
+### <a name="scenario-3"></a>Scenario
 
 Serviceteknikeren registrerer tiden direkte mot serviceordren og merker deretter ordren som ferdig.
 
 > [!NOTE]
 > Tidsoppføring for serviceordrer kan angis via timelister. For mer informasjon, se [lenke til timeliste hvis denne merknaden gir mening].
 
-### Trinn
+### <a name="steps-2"></a>Trinn
 
 1. Finn serviceordren, og angi klokkeslettet i servicelinjen
    1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Serviceordrer**, og velg deretter den relaterte koblingen.
@@ -133,11 +133,11 @@ Serviceteknikeren registrerer tiden direkte mot serviceordren og merker deretter
 2. På serviceordren bokfører du forbruket
    1. Velg handlingen **Bokfør** for å fullføre serviceordren, velg handlingen **Lever og forbruk**, og velg deretter knappen **OK**.
 
-### Resultater
+### <a name="results-3"></a>Resultater
 
 - Serviceposter opprettes knyttet til servicevaren, servicekontrakten og ressursen
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Innføring i demodata for Contoso Coffee](../../contoso-coffee/contoso-coffee-intro.md)  
 [Om produksjonsordrer](../../production-about-production-orders.md)

@@ -11,11 +11,11 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Registrere ansatte
+# <a name="register-employees"></a>Registrere ansatte
 
 Hvis du vil bruke Human Resources-funksjonaliteten, må du først legge til hver ansatt ved å fylle ut feltene på siden **Ansattkort**.
 
-## Legg til nye ansatte
+## <a name="adding-new-employees"></a>Legg til nye ansatte
 
 Du kan legge til nye ansatte manuelt ved å fylle ut feltene på siden **Ansattkort**, eller du kan bruke maler som inneholder forhåndsdefinert informasjon. Du kan for eksempel opprette maler for ulike typer ansattprofiler. Når du bruker maler, sparer du tid når du legger til nye ansatte og bidrar til å sikre at informasjonen er riktig hver gang. Hvis du oppretter maler for mer enn én ansattype, kan du velge hvilken mal du vil bruke når du legger til en ansatt. Hvis du oppretter bare én mal, brukes den for alle nye ansatte. Når du har opprettet en mal, kan du bruke handlingen **Bruk mal** til å bruke den på en eller flere utvalgte ansatte. Når du skal opprette en mal, fyller du ut informasjonen du vil bruke på nytt på siden Ansattkort, og deretter lagrer du den som en mal.
 
@@ -27,13 +27,13 @@ Du kan når som helst endre detaljene for en ansatt. Du forenkler personelloppga
 > [!NOTE]  
 > Du kan refundere ansatte for utgifter under forretningsaktiviteter. Til dette formålet må du fylle ut feltene på hurtigfanen **Betalinger** på siden **Ansattkort**. Hvis du vil ha mer informasjon, kan du se [Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md).
 
-## Slik konfigurerer du ansatte
+## <a name="to-set-up-an-employee"></a>Slik konfigurerer du ansatte
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ansatte**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
 3. På siden **Ansattkort** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Slik setter du inn et bilde av en ansatt
+## <a name="to-insert-a-picture-of-an-employee"></a>Slik setter du inn et bilde av en ansatt
 
 Hvis du har et bilde av en ansatt, kan du legge det inn på kortet til den ansatte.
 
@@ -46,7 +46,7 @@ Hvis du har et bilde av en ansatt, kan du legge det inn på kortet til den ansat
 
 Bildet settes inn i faktaboksen **Bilde av ansatt**.
 
-## Slik registrerer du informasjon om en ansatt
+## <a name="to-register-various-information-about-an-employee"></a>Slik registrerer du informasjon om en ansatt
 
 På ansattkortet kan du definere opplysninger, for eksempel fagforeningsmedlemskap, pårørende og kontrakter for den ansatte. I det følgende beskrives hvordan du definerer en alternativ adresse. Fremgangsmåten er lik for alle andre opplysninger som du kan definere fra et ansattkort.
 
@@ -58,7 +58,7 @@ Du kan bruke alternative adresser til å holde orden på hvor de ansatte til enh
 4. Fyll ut feltene etter behov på siden **Oversikt over alternativ adr.**.
 5. Gjenta trinn 4 for hver alternative adresse.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)  
 [Finans](finance.md)  

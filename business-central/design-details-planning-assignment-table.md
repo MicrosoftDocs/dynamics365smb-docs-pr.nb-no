@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Designdetaljer: Tabell for planleggingstilordning
+# <a name="design-details-planning-assignment-table"></a>Designdetaljer: Tabell for planleggingstilordning
 Det må planlegges for alle varer, men det er ingen grunn til å beregne en plan for en vare med mindre det er en endring i mønsteret for behov eller forsyning siden planen sist ble beregnet.  
 
 Hvis brukeren har angitt en ny ordre eller endret en eksisterende, er det grunn til å beregne planen på nytt. Andre årsaker inkluderer en endring i prognosen eller ønsket sikkerhetslagerantall. Endring av en stykkliste ved å legge til eller fjerne en komponent, vil mest sannsynlig indikerer en endring, men bare for komponentvaren.  
@@ -55,7 +55,7 @@ Følgende begrensninger gjelder ved beregning av MPS eller MRP:
 * MPS: Planleggingssystemet kontrollerer at varen har en behovsprognose eller en ordre. Hvis ikke, inkluderes ikke varen i planen.  
 * MRP: Hvis planleggingssystemet oppdager at varen etterfylles av en MPS-planleggingslinje eller MPS-forsyningsordre, blir varen utelatt fra planleggingen. Eventuelle behov fra aktuelle komponenter er imidlertid inkludert .  
 
-## Se også  
+## <a name="see-also"></a>Se også
 [Designdetaljer: Balansere behov og forsyning](design-details-balancing-demand-and-supply.md)   
 [Designdetaljer: Håndtere gjenbestillingsprinsipper](design-details-handling-reordering-policies.md)   
 [Designdetaljer: Overføringer i planlegging](design-details-transfers-in-planning.md)   
