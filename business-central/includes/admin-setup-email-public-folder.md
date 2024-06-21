@@ -17,7 +17,7 @@ Før du kan opprette e-postpålogging må du klargjøre Office 365 med [fellesma
 
 Følg fremgangsmåten nedenfor for å konfigurere Exchange Online, med koblinger til der du kan finne ut mer.
 
-### <a name="create-an-admin-role-group"></a>Opprett en administratorrollegruppe
+### Opprett en administratorrollegruppe
 
 Opprett en administratorrollegruppe for fellesmapper basert på informasjonen i følgende tabell:
 
@@ -29,7 +29,7 @@ Opprett en administratorrollegruppe for fellesmapper basert på informasjonen i 
 
 Hvis du vil ha mer informasjon, kan du se [Administrer rollegrupper i Exchange Online](/exchange/permissions-exo/role-groups).
 
-### <a name="create-a-new-public-folder-mailbox"></a>Opprett en ny postboks for fellesmapper
+### Opprett en ny postboks for fellesmapper
 
 Opprett en ny postboks for fellesmapper basert på informasjonen i følgende tabell:
 
@@ -39,7 +39,7 @@ Opprett en ny postboks for fellesmapper basert på informasjonen i følgende tab
 
 Hvis du vil ha mer informasjon, kan du se [Opprette en postboks for fellesmapper](/exchange/collaboration-exo/public-folders/create-public-folder-mailbox).
 
-### <a name="create-new-public-folders"></a>Opprette nye fellesmapper
+### Opprette nye fellesmapper
 
 1. Opprett en ny fellesmappe med navnet **Loggføring av e-post** i roten, slik at hele banen til mappen blir `\Email Logging\`.
 2. Opprett to undermapper slik at resultatet er følgende fullstendige baner til mappene:
@@ -49,23 +49,23 @@ Hvis du vil ha mer informasjon, kan du se [Opprette en postboks for fellesmapper
 
 Hvis du vil ha mer informasjon, kan du se [Opprett en fellesmappe](/exchange/collaboration-exo/public-folders/create-public-folder).
 
-### <a name="set-public-folder-ownership"></a>Angi eierskap for fellesmappe
+### Angi eierskap for fellesmappe
 
 Angi e-postloggingsbrukeren som eier av både fellesmapper, *Kø* og *Lagring*.
 
 Hvis du vil ha mer informasjon, kan du se [Tilordne tillatelser til fellesmapper](/exchange/collaboration-exo/public-folders/set-up-public-folders#step-3-assign-permissions-to-the-public-folder).
 
-### <a name="mail-enable-the-queue-public-folder"></a>Aktiver e-post for fellesmappen *Kø*
+### Aktiver e-post for fellesmappen *Kø*
 
   Hvis du vil ha mer informasjon, kan du se [Aktiver eller deaktiver e-post for en fellesmappe](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder).
 
-### <a name="mail-enable-sending-emails-to-the-queue-public-folder"></a>Aktiver sending av e-post til fellesmappen *Kø*
+### Aktiver sending av e-post til fellesmappen *Kø*
 
 Aktivere e-post for å sende e-post til fellesmappen *Kø* ved bruk av Outlook eller Exchange Management Shell.
 
 Hvis du vil ha mer informasjon, kan du se [Tillat at anonyme brukere kan sende e-post til en fellesmappe som e-post er aktivert for](/exchange/collaboration-exo/public-folders/enable-or-disable-mail-for-public-folder#allow-anonymous-users-to-send-email-to-a-mail-enabled-public-folder?preserve-view=true).
 
-### <a name="create-mail-flow-rules"></a>Opprett regler for e-postflyt
+### Opprett regler for e-postflyt
 
 Opprett to nye regler for e-postflyt basert på informasjonen i følgende tabell:
 

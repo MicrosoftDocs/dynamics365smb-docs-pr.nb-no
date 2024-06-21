@@ -11,14 +11,14 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="create-remittance-suggestions-in-the-norwegian-version"></a>Opprett remitteringsforslag i den norske versjonen
+# Opprett remitteringsforslag i den norske versjonen
 
 Du kan opprette et remitteringsforslag slik at betalingsforslag sendes til leverandører som skal motta remitteringsoppdrag. Én betalingstransaksjon per bokføringsdato overføres til banken for hver leverandør.  
 
 > [!NOTE]  
 >  Du kan unngå å opprette betalingsforslag for leverandører som remitteres når den ordinære leverandørforslagprosessen benyttes, ved å legge til et filter for **Remittering** på siden **Betalingsforslag - leverandør** og sette filteret til **Nei**.  
 
-## <a name="to-create-a-remittance-suggestion"></a>Slik oppretter du et remitteringsforslag:
+## Slik oppretter du et remitteringsforslag:  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladder** og velg den relaterte koblingen.  
 2.  Velg handlingen **Remitteringsforslag**.  
@@ -37,7 +37,7 @@ Du kan opprette et remitteringsforslag slik at betalingsforslag sendes til lever
 
 4.  Velg **OK**-knappen.  
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Elektroniske betalinger til leverandører i Norge](electronic-payments-to-vendors-in-norway.md)   
  [Sett opp remitteringsavtaler](how-to-set-up-remittance-agreements.md)   
  [Opprette remitteringskontoer](how-to-create-remittance-accounts.md)   

@@ -11,7 +11,7 @@ ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605,'
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-intercompany-transactions"></a>Behandle konserninterne transaksjoner
+# Behandle konserninterne transaksjoner
 
 Bedrifter med mer enn én juridisk enhet med separate regnskapsfunksjoner, kan dra nytte av konserninterne transaksjoner. Det kan for eksempel være nyttig for selskaper som har datterselskaper i flere internasjonale markeder eller områder. Eller en organisasjonen kan ha flere selskaper, men mangle samme antall regnskapsteam og administrative team. Med konserninterne transaksjoner kan du forenkle og tilpasse forretningsprosesser og transaksjoner mellom selskaper i det konserninterne partnerskapet.
 
@@ -24,7 +24,7 @@ Det er fire hovedfordeler med de konserninterne funksjonene:
 * Fullstendig sporing og full synlighet i forretningsaktiviteter og transaksjonslogger  
 * Effektive, kostnadsbesparende transaksjoner med partner- og datterselskaper  
 
-## <a name="streamline-the-flow-of-business-activities"></a>Effektiv flyt av forretningsaktiviteter
+## Effektiv flyt av forretningsaktiviteter  
 
 Med konserninterne transaksjoner kan du distribuere salgs- og kjøpsdokumenter og finansposter til alle satellittkontorer, salgskontorer eller datterselskaper. Distribusjon av transaksjoner sparer tid og øker effektiviteten i hele organisasjonen ved å redusere dataregistreringen. Det kutter ned på behovet for å sende, motta, skrive ut og arkivere salgs- og kjøpsdokumenter.  
 
@@ -69,7 +69,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 |Organisere og behandle inngående og utgående transaksjoner som du kan utveksle med de konserninterne partnerne.|[Administrere den konserninterne innboksen og utboksen](intercompany-how-manage-intercompany-inbox.md)|
 |Bruk konserninterne transaksjoner til å fordele kost mellom partnerselskaper.|[Fordel kost til konserninterne partnere](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  

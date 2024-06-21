@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="application-design-details"></a>Utformingsdetaljer for programmet
+# Utformingsdetaljer for programmet
 
 Artikkelen i denne delen innholdet omfatter detaljert teknisk informasjon om komplekse programfunksjoner i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -26,7 +26,7 @@ Innhold i designdetaljer er rettet mot implementerere, utviklere og superbrukere
 |Lær mer om historisk og gjeldende utformingen av varesporingsfunksjonalitet og hvordan den integreres med reservasjonssystemet, slik at serie-/partinumre inkluderes i tilgjengelighetsberegninger.|[Designdetaljer: Varesporing](design-details-item-tracking.md)|  
 |Finn ut mer om funksjonen for bokføring av finanskladdelinje.|[Utformingsdetaljer: Bokfør linje for finanskladd](design-details-general-journal-post-line.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Planlegging](production-planning.md)  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  

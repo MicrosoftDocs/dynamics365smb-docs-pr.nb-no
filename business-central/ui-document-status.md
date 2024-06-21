@@ -10,7 +10,7 @@ ms.date: 09/19/2022
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ---
-# <a name="status-field-on-documents"></a>Statusfelt i dokumenter
+# Statusfelt i dokumenter
 
 Når du oppretter et tilbud, en ordre eller en kreditnota, viser feltet **Status** i dokumenthodet standardstatusen **Åpen**.
 
@@ -23,11 +23,11 @@ Når du har fylt ut dokumentet, kan du frigi det. [!INCLUDE[prod_short](includes
 | Venter på godkjenning   | Dokumentet venter på godkjenning |
 | Venter på forskudd | Det er bokført en forskuddsfaktura for dokumentet. |
 
-## <a name="release-process"></a>Frigivelsesprosess
+## Frigivelsesprosess
 
 Du kan forenkle arbeidsflyten ved hjelp av frigivelsesprosessen. Den kan for eksempel hjelpe deg med å følge selskapets prosedyrer for godkjenninger eller for å starte lageraktiviteter.
 
-### <a name="approval-procedures"></a>Godkjenningsprosedyrer
+### Godkjenningsprosedyrer
 
 Selskapet kan ved hjelp av frigivelsesprosedyren vise at en annen bruker har godkjent dokumentet, eller at en ekstern kontakt kan oppfylle dokumentspesifikasjonene, som vist i eksemplene nedenfor.
 
@@ -37,11 +37,11 @@ Selskapet kan ved hjelp av frigivelsesprosedyren vise at en annen bruker har god
 
 Lær mer om godkjenningsarbeidsflyter under [Bruk arbeidsflyter](across-use-workflows.md).
 
-### <a name="warehouse-activities"></a>Lageraktiviteter
+### Lageraktiviteter
 
 Hvis ordrestatusen er **Åpen**, startes ikke leveringsforberedelsene på lageret, og det forventes ikke at varene skal mottas i en bestilling. Når du frigir ordren, angir du at den er klar, og at den kan inkluderes i lageraktivitetene.
 
-## <a name="reopen-a-released-order"></a>Åpne en frigitt ordre på nytt
+## Åpne en frigitt ordre på nytt
 
 Du kan foreta endringer i en ordre som er frigitt hvis du åpner den på nytt. Du kan imidlertid bare øke antallet linjer som allerede er behandlet av lageret.
 
@@ -52,7 +52,7 @@ Hvis du foretar endringer i en frigitt ordre, må du gi lageret beskjed om endri
 > [!NOTE]
 > Hvis du vil bokføre én åpen ordre eller kreditnota uten først å frigi den, frigir [!INCLUDE [prod_short](includes/prod_short.md)] dokumentet automatisk når du bokfører det. Hvis du bokfører ordrer eller kreditnotaer ved hjelp av funksjonen for **massebokføring**, kan du velge å bare bokføre de ordrene eller kreditnotaene du har frigitt.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Selg produkter med en kundeordre](sales-how-sell-products.md)  
 [Registrer kjøp med kjøpsfakturaer](purchasing-how-record-purchases.md)  

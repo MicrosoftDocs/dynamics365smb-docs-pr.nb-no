@@ -10,13 +10,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="set-up-incoming-documents"></a>Konfigurere inngående dokumenter
+# Konfigurere inngående dokumenter
 
 Hvis du oppretter finanskladdelinjer fra innkommende dokumentposter, må du angi hvilken kladdemal og kladd som skal brukes på siden **Oppsett for inngående dokumenter**.
 
 Når funksjonen for **innkommende dokumenter** er konfigurert, kan du bruke forskjellige funksjoner til å se gjennom utgiftskvitteringer, behandle OCR-oppgaver og konvertere innkommende dokumentfiler, manuelt eller automatisk, til de aktuelle dokumentene eller kladdelinjene. De eksterne filene kan tilknyttes på et hvilket som helst tidspunkt i prosessen, inkludert bokførte dokumenter og resulterende leverandør, kunde- og finansposter. Hvis du vil ha mer informasjon, kan du se [Opprett innkommende dokumentposter](across-how-create-income-document-records.md).
 
-## <a name="to-set-up-the-incoming-documents-feature"></a>Slik konfigurerer du funksjonen for inngående dokumenter:
+## Slik konfigurerer du funksjonen for inngående dokumenter:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Innkommende dokumentoppsett**, og velg deretter den relaterte koblingen.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -25,13 +25,13 @@ Som en del av oppsettet må du bestemme om du vil kreve godkjenning av innkommen
 
 Hvis du bruker en OCR-tjeneste til å konvertere PDF-eller bildefiler som representerer inn kommende dokumenter, [må du konfigurere det](#to-set-up-an-ocr-service). Hvis ikke kan du også hoppe over den delen.
 
-## <a name="to-set-up-approvers-of-incoming-document-records"></a>Slik definerer du godkjennere av inngående dokumentposter:
+## Slik definerer du godkjennere av inngående dokumentposter:
 
 Hvis du ikke vil at brukerne skal opprette fakturaer eller finanskladdelinjer fra innkommende dokumentposter med mindre dokumentene først er godkjent, må du definere en godkjenningsprosess for innkommende dokumenter. Godkjennere av innkommende dokumenter må konfigureres som brukere av arbeidsflyt for godkjenning.
 
 Før du kan opprette arbeidsflyter som omfatter godkjenningstrinn, må du definere arbeidsflytbrukerne som er involvert i godkjenningsprosessen. På siden **Brukeroppsett for godkjenning** angir du også beløpsgrenser for bestemte typer forespørsler og definerer stedfortredende godkjennere som godkjenningsforespørsler delegeres til når den opprinnelige godkjenneren er borte. Hvis du vil ha mer informasjon, kan du se [Konfigurere godkjenningsbrukere](across-how-to-set-up-approval-users.md).
 
-## <a name="to-set-up-an-ocr-service"></a>Slik definerer du en OCR-tjeneste:
+## Slik definerer du en OCR-tjeneste:
 
 Du kan aktivere PDF- og bildefiler i elektroniske dokumenter som du kan konvertere til fakturaer, kreditnotaer eller kladdelinjer, ved å definere OCR-funksjonen. Du kan også opprette poster manuelt for å representere de eksterne dokumentene.
 
@@ -43,7 +43,7 @@ Du kan aktivere PDF- og bildefiler i elektroniske dokumenter som du kan konverte
 
 Hvis du vil ha mer informasjon, kan du se [Bruke OCR til å konvertere PDF- og bildefiler til elektroniske dokumenter](across-how-use-ocr-pdf-images-files.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Inngående dokumenter](across-income-documents.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  

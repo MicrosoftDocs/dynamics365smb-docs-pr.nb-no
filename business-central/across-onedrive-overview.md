@@ -10,17 +10,17 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# <a name="business-central-and-onedrive-integration"></a>Business Central og OneDrive for Business-integrering
+# Business Central og OneDrive for Business-integrering
 
 OneDrive for Business er en skylagringstjeneste som er inkludert i Microsoft 365. [!INCLUDE[prod_short](includes/prod_short.md)] gjør det enkelt å lagre, behandle og dele filer med andre personer via OneDrive. Når en fil befinner seg i OneDrive, kan du se de omfattende samarbeidsopplevelsene fra nettversjonene av Microsoft-produkter, for eksempel Word, Excel og PowerPoint. Du kan for eksempel dele et Word-dokument, og deretter kan du og kollegene redigere det sammen i sanntid. Med OneDrive kan du også åpne andre filtyper, for eksempel PDF-filer. 
 
-## <a name="get-started-with-onedrive-features"></a>Kom i gang med OneDrive-funksjoner
+## Kom i gang med OneDrive-funksjoner
 
 Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] online, har vi allerede opprettet tilkoblingen mellom [!INCLUDE[prod_short](includes/prod_short.md)] online og OneDrive, slik at det er lett å komme i gang. Det eneste kravet er at brukerne har åpnet OneDrive minst én gang. Med [!INCLUDE[prod_short](includes/prod_short.md)] lokal må en administrator konfigurere tilkoblingen før du kan komme i gang. Lær mer på [Administrere OneDrive-integrering med Business Central](admin-onedrive-integration.md).
 
 <!-- We've created the connection between [!INCLUDE[prod_short](includes/prod_short.md)] online and OneDrive, so it's easy to get started. The only requirement is that users have opened OneDrive at least one time. -->
 
-### <a name="open-and-share-in-onedrive"></a>Åpne og dele i OneDrive
+### Åpne og dele i OneDrive
 
 På de fleste sider der filer er tilgjengelige, for eksempel rapportinnboksen eller filer som er knyttet til poster, finner du handlingene **Åpen i OneDrive** og **Del**.
 
@@ -34,7 +34,7 @@ På de fleste sider der filer er tilgjengelige, for eksempel rapportinnboksen el
 |Åpne i OneDrive|Kopier filen til en Business Central-mappe i OneDrive-filen, og åpne filen.|[Åpne i OneDrive](across-share-onedrive.md#open-in-onedrive) |
 |Andel|Kopier filen til OneDrive og del den med andre personer.|[Del i OneDrive](across-share-onedrive.md#share) |
 
-### <a name="save-excel-workbooks-and-report-files-in-onedrive"></a>Lagre Excel-arbeidsbøker og rapport filer i OneDrive
+### Lagre Excel-arbeidsbøker og rapport filer i OneDrive
 
 Når OneDrive-integrasjon er konfigurert, vil et par andre velkjente funksjoner automatisk bruke OneDrive til lagring av filer i stedet for å lagre filer på enheten:
 
@@ -56,7 +56,7 @@ The folder and its content are private until you decide to share them with other
 > [!NOTE]
 > Du kan også koble [!INCLUDE[prod_short](includes/prod_short.md)] on-premises til OneDrive. Det er imidlertid et par ting du kan gjøre for å gjøre det arbeidet. Hvis du vil ha mer informasjon, kan du se [Konfigurering av Business Central On-Premises](admin-onedrive-integration-onpremises.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere OneDrive-integrering med Business Central](admin-onedrive-integration.md)  
 [Åpne Business Central-filer i OneDrive](across-share-onedrive.md)  

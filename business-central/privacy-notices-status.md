@@ -12,15 +12,15 @@ ms.date: 07/21/2022
 ms.reviewer: bholtorf
 ---
 
-# <a name="privacy-notices-status-in-"></a>Status for personvernerklæringer i [!INCLUDE[prod_long](includes/prod_long.md)]
+# Status for personvernerklæringer i [!INCLUDE[prod_long](includes/prod_long.md)]
 
 Denne artikkelen drøfter hva en personvernerklæring er, og forklarer formålet med siden **Status for personvernerklæringer** i [!INCLUDE[prod_short](includes/prod_short.md)]. Du vil også lære hvordan administratorer kan bruke denne siden.
 
-## <a name="privacy-notice"></a>Personvernerklæring
+## Personvernerklæring
 
 En personvernerklæring angir datainnsamlingen, databehandlingen og datapersonvernerklæringene fulgt av organisasjonens databehandler. Det er et dokument som beskriver hvilke data som samles inn, og hvordan brukerens data behandles, hvordan de lagres og hvem som skal kontaktes hvis en bruker ønsker å stille et spørsmål om dataene sine. 
 
-## <a name="privacy-notices-status-page"></a>Siden Status for personvernerklæringer
+## Siden Status for personvernerklæringer
 
 Hvis brukerne vil integrere dataene med Microsoft Exchange, Microsoft OneDrive og Microsoft Teams i [!INCLUDE[prod_short](includes/prod_short.md)], må de godta personvernerklæringen for hver enhet. Eller en administrator kan godkjenne personvernerklæringene på deres vegne. Administratorer kan se statusen for personvernerklæringer på siden **Status for personvernerklæringer**. Du kan finne siden **Status for personvernerklæringer** i [!INCLUDE[prod_short](includes/prod_short.md)] ved å skrive inn navnet på siden i søkefeltet.  
 
@@ -36,7 +36,7 @@ På denne siden finner du en tabell med godkjenningsalternativer for alle tjenes
 > [!NOTE]
 > Du kan bare se statusen for personvernerklæringer på hovedsiden **Status for personvernerklæringer**. Hvis du vil redigere svarene, går du til **Rediger listen** på handlingslinjen på siden der alternativene nå er uthevet, og ikke nedtonet.
 
-## <a name="privacy-notice-approvals"></a>Godkjenninger av personvernerklæring
+## Godkjenninger av personvernerklæring
 
 Administratorer kan se individuelle godkjenninger og administrere dem på undersiden **Godkjenninger for personvernerklæring**. Gå til *handlingslinjen* på siden **Handlinger for personvernerklæringer**, under *Handlinger*, for å finne alternativet *Vis individuelle godkjenninger*. Dette alternativet går til siden **Godkjenninger for personvernerklæring**.<br>
 
@@ -50,7 +50,7 @@ På denne siden finner du en tabell med godkjenningsalternativer.
 | **Ikke godta** | Brukeren godkjenner ikke personvernerklæringen. |
 | **Brukernavn for godkjenner** | Den som godkjenner personvernerklæringen. |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Samsvarsoversikt  ](/dynamics365/business-central/compliance/compliance-overview)  
 [Svar på forespørsler om personopplysninger  ](/dynamics365/business-central/admin-responding-to-requests-about-personal-data)  

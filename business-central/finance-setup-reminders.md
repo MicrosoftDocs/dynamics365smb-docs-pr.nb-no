@@ -11,21 +11,21 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="set-up-reminder-terms-and-levels"></a>Konfigurer påminnelsesbetingelser og -nivåer
+# Konfigurer påminnelsesbetingelser og -nivåer
 
 Du kan bruke purringer til å informere kunder om forfalte beløp og be om betaling. [!INCLUDE [reminder-terms](includes/reminder-terms.md)]
 
 > [!TIP]
 > Når du har definert betingelser og nivåer for purringer, kan du inkludere dem i automatiserte prosesser for oppretting, utstedelse og sending av purringer. Hvis du vil vite mer om den automatiserte prosessen, kan du gå til [Automatiser purringer i innkrevinger](finance-automate-reminders.md).
 
-## <a name="reminder-terms"></a>Purrebetingelser
+## Purrebetingelser
 
 Hvis kunder har forfalte betalinger, må du angi når og hvordan du vil sende purring. I tillegg vil du kanskje belaste kundekontiene med renter eller gebyr. Du kan opprette så mange purrebetingelser du vil.  
 
 > [!NOTE]
 > Hvis du vil beregne rente på forfalte betalinger, kan du gjøre det når du oppretter purringer. Hvis du imidlertid bare vil beregne rente og informere kundene om dette uten å sende purringer, kan du bruke en [rentenota](finance-setup-finance-charges.md). Du finner mer informasjon under [Purringer](receivables-collect-outstanding-balances.md#reminders) eller [Rentenotaer](receivables-collect-outstanding-balances.md#finance-charges).
 
-### <a name="set-up-attachment-and-email-body-texts-for-communications"></a>Konfigurer tekst for vedlegg og brødtekst i e-post for kommunikasjon
+### Konfigurer tekst for vedlegg og brødtekst i e-post for kommunikasjon
 
 På siden **Oppsett av purrebetingelser** kan du definere vedleggstekst og standard e-postmeldinger som skal brukes enten for alle purrenivåer, eller opprette bestemte meldinger for hvert nivå. Meldingen du sender for første purrenivå, kan for eksempel ha en annen tone eller et annet innhold enn den andre eller tredje. Hvis du vil opprette tekster for vedlegg og e-postmeldinger for alle nivåer, velger du **Kundekommunikasjon** øverst på siden. Hvis du vil opprette meldinger for bestemte linjer, velger du en linje på hurtigfanen **Purregrad**, og deretter velger du handlingen **Kundekommunikasjon** på hurtigfanen.
 
@@ -36,19 +36,19 @@ Når du sender en e-post, er purringen en rapport du legger ved e-posten. Du def
 > [!NOTE]
 > Kommunikasjon via e-post direkte fra [!INCLUDE [prod_short](includes/prod_short.md)] krever at du er konfigurert til å gjøre det. Hvis du vil ha mer informasjon om hvordan du kobler sammen e-postkontoer med [!INCLUDE [prod_short](includes/prod_short.md)], går du til [Konfigurer e-post](admin-how-setup-email.md).
 
-### <a name="set-up-reminder-terms"></a>Definer purrebetingelser
+### Definer purrebetingelser
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Purrebetingelser**, og velg deretter den relaterte koblingen.  
 2. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]  
 3. Hvis du vil bruke flere kombinasjoner av purrebetingelser, definerer du en kode for hver kombinasjon.
 
-## <a name="reminder-levels"></a>Purregrader
+## Purregrader
 
 For hver purreperiode kan du definere et ubegrenset antall purrenivåer, selv om de fleste selskaper bare bruker to eller tre nivåer. Innstillingen fra grad 1 brukes første gang det opprettes en purring for en kunde. Når purringen utstedes, registreres gradnummeret i purrepostene som opprettes og kobles til de individuelle kundepostene. Hvis det er nødvendig å sende kunden en ny purring, kontrolleres alle purreposter som er koblet til åpne kundeposter, for å finne det høyeste gradnummeret. Betingelsene fra neste gradnummer vil deretter bli brukt i den nye purringen.
 
 Hvis du oppretter flere purringer enn du har definert grader for, brukes betingelsene for den høyeste graden. Du kan opprette så mange purringer som er tillatt i henhold til feltet **Høyeste purregrad** i purrebetingelsene.
 
-### <a name="to-set-up-reminder-levels"></a>Slik definerer du purregrader
+### Slik definerer du purregrader
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Purrebetingelser**, og velg deretter den relaterte koblingen.  
 2. På siden **Purrebetingelser** velger du linjen med betingelsene du vil definere grader for, og deretter velger du **Grader**.  
@@ -108,7 +108,7 @@ Hvis du oppretter flere purringer enn du har definert grader for, brukes betinge
 
 Når du har definert purrebetingelsene, kan du tilordne dem til kunder på Kundekort-sider. Hvis du vil ha mer informasjon, kan du se [Registrere nye kunder](sales-how-register-new-customers.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Innkreve utestående saldi](receivables-collect-outstanding-balances.md)  
 [Send purringer om utestående saldoer](receivables-send-reminders.md)  

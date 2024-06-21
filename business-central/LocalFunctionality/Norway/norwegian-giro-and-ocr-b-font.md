@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="norwegian-giro-and-ocr-b-font"></a>Norsk giro og OCR-B-skrift
+# Norsk giro og OCR-B-skrift
 En giro (General Interbank Recurring Order) er et betalingssystem som fungerer som en kredittoverføring.  
 
 Den siste linjen i giroen bruker OCR-B-skrift. Bankenes Betalingssentral (BBS) krever at dette brukes med optisk tegngjenkjenning (OCR) når du håndterer betalinger fra kunder. Hvis du vil ha mer informasjon, kan du se [Brukehåndbok Indbetalingstjeneste (NO).pdf](https://www.nets.eu/no-nb/SiteCollectionDocuments/Egiro/Brukehåndbok%20Innbetalingstjenestene%20(NO).pdf) på webområdet NETS.eu.  
@@ -19,7 +19,7 @@ OCR-B-10 BT-skriften er vanligvis tilgjengelig programvareleverandører. I [!INC
 
 Du kan bruke enhver OCR-B-skrift, men hvis du bruker andre skrifter, må en sertifisert Microsoft-partner oppdatere salgsdokumentene. Ta kontakt med din partner for mer informasjon.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

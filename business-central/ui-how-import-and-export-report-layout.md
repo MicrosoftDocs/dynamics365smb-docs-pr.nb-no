@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="legacy-import-and-export-custom-report-layouts"></a>(Eldre) Importere og eksportere en egendefinert rapportoppsett
+# (Eldre) Importere og eksportere en egendefinert rapportoppsett
 
 [!INCLUDE[legacy-custom-layouts](includes/legacy-custom-layouts.md)]
 
@@ -19,7 +19,7 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
 > [!IMPORTANT]  
 >  Du kan ikke importere eller eksportere innebygde rapportoppsett.  
 
-### <a name="to-export-a-report-layout-to-a-file"></a>Slik eksporterer du et rapportoppsett til en fil
+### Slik eksporterer du et rapportoppsett til en fil  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.  
 
@@ -29,7 +29,7 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
 
 4.  Velg **Lagre** i dialogboksen **Eksporter fil**, og lagre deretter filen et sted på datamaskinen eller nettverket.  
 
-### <a name="to-import-a-report-layout-file"></a>Slik importerer du en rapportoppsettfil
+### Slik importerer du en rapportoppsettfil  
 
 1.  Kontroller at den aktuelle filen som definerer rapportoppsettet, er tilgjengelig på datamaskinen eller nettverket.  
 
@@ -45,7 +45,7 @@ Du kan importere og eksportere et eksisterende egendefinert rapportoppsett som e
 
  Det opprinnelige egendefinerte rapportoppsettet erstattes med det importerte rapportoppsettet.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md)   
 [Administrer rapport- og dokumentoppsett](ui-manage-report-layouts.md)  

@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="ad-hoc-analysis-of-finance-data"></a>Ad hoc-analyse av finansdata
+# Ad hoc-analyse av finansdata
 
 Denne artikkelen forklarer hvordan du bruker funksjonen **Dataanlyse** til å analysere finansdata direkte fra listesider og spørringer. Du trenger ikke å kjøre en rapport eller bytte til et annet program, for eksempel Excel. Funksjonen gir en interaktiv og allsidig måte å beregne, summere og undersøke data på. I stedet for å kjøre rapporter ved hjelp av alternativer og filtre, kan du legge til flere faner som representerer forskjellige oppgaver eller visninger på dataene. Noen eksempler er "Totale eiendeler over tid", "Kundefordringer", "Leverandørgjeld" eller andre visninger du kan forestille deg. Hvis du vil lære mer om hvordan du bruker funksjonen **Dataanalyse**, kan du gå til [Analyser liste- og spørringsdata med analysemodus](analysis-mode.md).
 
@@ -22,7 +22,7 @@ Bruk følgende listesider til å starte ad hoc-analyse av finansprosesser:
 - [Kundeposter](https://businesscentral.dynamics.com/?page=25)
 - [Leverandørposter](https://businesscentral.dynamics.com/?page=29)
 
-## <a name="ad-hoc-analysis-scenarios-in-finance"></a>Ad-hoc-analysescenarier i finans
+## Ad-hoc-analysescenarier i finans
 
 Bruk **Dataanalyse**-funksjonen for rask faktasjekking og ad hoc-analyse:
 
@@ -40,7 +40,7 @@ Avsnittene nedenfor inneholder eksempler på finansscenarioer i [!INCLUDE [prod_
 | [Finans (resultatregnskap)](#example-finance-income-statement) | Se inntekten over inntektskontoene fra kontoplanen, for eksempel inndelt i tidsintervaller for når beløpene ble bokført. | [Finansposter](https://businesscentral.dynamics.com/?page=20) | **Finanskontonr.**, **Bokføringsdato** og **Beløp**. |
 | [Finans (objekter totalt)](#example-finance-total-assets) | Se objektene over objektkontoene fra kontoplanen, for eksempel inndelt i tidsintervaller for når beløpene ble bokført. | [Finansposter](https://businesscentral.dynamics.com/?page=20) | **Finanskontonr.**, **Bokføringsdato** og **Beløp**. |
 
-### <a name="example-finance-accounts-receivable"></a>Eksempel: Finans (kundefordringer)
+### Eksempel: Finans (kundefordringer)
 
 Hvis du vil se hva kundene dine skylder deg, kanskje inndelt i tidsintervaller for når beløp forfaller, følger du denne fremgangsmåten:
 
@@ -52,7 +52,7 @@ Hvis du vil se hva kundene dine skylder deg, kanskje inndelt i tidsintervaller f
 1. Hvis du vil utføre analysen for et gitt år eller kvartal, bruker du et filter på menyen **Analysefiltre** (under **Kolonner**-menyen til høyre).
 1. Endre navnet på analysefanen til **Aldersfordelte kontoer etter måned** eller noe som beskriver denne analysen.
 
-### <a name="example-finance-accounts-payable"></a>Eksempel: Finans (leverandør)
+### Eksempel: Finans (leverandør)
 
 Hvis du vil se du skylder leverandørene, kanskje inndelt i tidsintervaller for når beløp forfaller, følger du denne fremgangsmåten:
 
@@ -68,7 +68,7 @@ Bildet nedenfor viser resultatet av denne fremgangsmåten.
 
 :::image type="content" source="media/data-analysis-vendor-ledger-entries.png" alt-text="Eksempel på hvordan du utfører dataanalyse på siden Kundeposter." lightbox="media/data-analysis-vendor-ledger-entries.png":::
 
-### <a name="example-finance-sales-invoices-by-gl-account"></a>Eksempel: Finans (salgsfakturaer etter finanskonto)
+### Eksempel: Finans (salgsfakturaer etter finanskonto)
 
 Hvis du vil se hvordan salgsfakturaene fordeler seg over finanskonti fra kontoplanen, for eksempel inndelt i tidsintervaller for når beløp ble bokført, gjør du følgende:
 
@@ -88,7 +88,7 @@ Bildet nedenfor viser resultatet av denne fremgangsmåten.
 
 :::image type="content" source="media/data-analysis-gl-entries-invoices.png" alt-text="Eksempel på hvordan du utfører dataanalyse på siden Finansposter (for å forstå salgsbokføringer)." lightbox="media/data-analysis-gl-entries-invoices.png":::
 
-### <a name="example-finance-income-statement"></a>Eksempel: Finans (resultatregnskap)
+### Eksempel: Finans (resultatregnskap)
 
 Hvis du vil se inntekten over inntektskontoene fra kontoplanen, inndelt i tidsintervaller for når beløpene ble bokført, følg disse trinnene:
 
@@ -104,7 +104,7 @@ Hvis du vil se inntekten over inntektskontoene fra kontoplanen, inndelt i tidsin
 
 1. Endre navnet på analysefanen til **Inntekt etter måned** eller noe som beskriver denne analysen.
 
-### <a name="example-finance-total-assets"></a>Eksempel: Finans (objekter totalt)
+### Eksempel: Finans (objekter totalt)
 
 Hvis du vil se objektene over objektkontoene fra kontoplanen, inndelt i tidsintervaller for når beløpene ble bokført, gjør du følgende:
 
@@ -120,7 +120,7 @@ Hvis du vil se objektene over objektkontoene fra kontoplanen, inndelt i tidsinte
 
 1. Endre navnet på analysefanen til **Inntekt etter måned** eller noe som beskriver denne analysen.
 
-## <a name="data-foundation-for-ad-hoc-analysis-on-finance"></a>Datagrunnlag for ad hoc-analyse av finans
+## Datagrunnlag for ad hoc-analyse av finans
 
 Når du bokfører kladder, oppretter [!INCLUDE [prod_short](includes/prod_short.md)] poster i tabellen **Finanspost**. Derfor utføres ad hoc-analyse av generell finans vanligvis på siden [Finansposter](https://businesscentral.dynamics.com/?page=20). Når det gjelder kundefordringer og leverandørposter, kan du analysere henholdsvis [Kundeposter](https://businesscentral.dynamics.com/?page=25) og [Leverandørposter](https://businesscentral.dynamics.com/?page=29).
 
@@ -129,7 +129,7 @@ Du kan lære mer ved å gå til følgende artikler:
 - [Datagrunnlag for ad hoc-analyse av salg](ad-hoc-analysis-sales.md#data-foundation-for-ad-hoc-analysis-on-sales)
 - [Datagrunnlag for ad hoc-analyse av innkjøp](ad-hoc-analysis-purchasing.md#data-foundation-for-ad-hoc-analysis-on-purchasing)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Analyser liste- og spørringsdata med analysemodus](analysis-mode.md)  
 [Oversikt over økonomisk analyse](bi.md)  

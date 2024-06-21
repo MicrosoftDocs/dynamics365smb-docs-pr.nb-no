@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="use-reports-in-daily-work"></a>Bruk rapporter i daglig arbeid
+# Bruk rapporter i daglig arbeid
 
 En rapport i [!INCLUDE[prod_short](includes/prod_short.md)] samler informasjon basert på et angitt sett med kriterier. Den organiserer og presenterer informasjonen i et leservennlig format som du kan skrive ut eller lagre som en fil.  
 
@@ -25,7 +25,7 @@ En rapport i [!INCLUDE[prod_short](includes/prod_short.md)] samler informasjon b
 | Finn ut hvordan du endrer standardoppsettet for en rapport. | [Endre standard rapportoppsett](ui-how-change-layout-currently-used-report.md) |
 | Vis og analyser data fra et rapportdatasett i Microsoft Excel. | [Lagre rapportdatasett til Excel fra forespørselssiden](/dynamics365-release-plan/2021wave1/smb/dynamics365-business-central/save-report-dataset-excel-request-page) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oversikt over rapporter](reports-available-reports.md)  
 [Oversikt over Business Intelligence og rapportering](ui-work-report.md)  

@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Analysere kontantstrømmen i firmaet
+# Analysere kontantstrømmen i firmaet
 Diagrammer i rollesenteret regnskapsfører gir innsikt som kan hjelpe deg med å gjøre solid avgjørelser om hva du skal gjøre med din kontanter.  
 
 | Svare på spørsmål som disse | Bruk dette diagrammet |
@@ -36,13 +36,13 @@ Hvis du vil undersøke prognosen, i tillegg til prognosen oppføringer, kan du o
 * Trekker fra tilgodehavende og legger til skyldig beløp.  
 * Hopper over dupliserte salgsordrer og bestillinger.  
 
-## <a name="to-view-a-cash-flow-worksheet"></a>Slik viser du et forslag for kontantstrøm
+## Slik viser du et forslag for kontantstrøm
 
 1. Søk etter **Kontantstrømprognoser**, og velg deretter den relaterte koblingen.  
 2. Velg en kontantstrømprognose, og velg deretter den **Kontantstrømforslag**.  
 3. På siden **Kontantstrømforslag** velger du handlingen **Foreslå forslagslinjer**.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

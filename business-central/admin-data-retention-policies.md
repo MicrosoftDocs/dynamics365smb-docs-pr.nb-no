@@ -11,11 +11,11 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="define-retention-policies"></a>Definere oppbevaringspolicyer
+# Definere oppbevaringspolicyer
 
 Denne artikkelen beskriver hvordan administratorer kan definere oppbevaringspolicyer for å angi hvor ofte foreldede data skal slettes i tabeller som inneholder loggoppføringer og arkiverte poster. Hvis loggposter ryddes, kan det for eksempel bli enklere å arbeide med mer relevante dataene. Policyer kan slette data basert på en utløpsdato, eller du kan legge til filtre som bare inkluderer visse utløpte data.
 
-## <a name="required-setups-and-permissions"></a>Nødvendige konfigurasjoner og tillatelser
+## Nødvendige konfigurasjoner og tillatelser
 
 Før du kan opprette oppbevaringspolicyer, må du sette opp tabellene som skal inkluderes, og tidsperioder for å beholde data.
 
@@ -29,14 +29,14 @@ I tillegg må du ha **SUPER**-brukertillatelsene eller tillatelsessettet **Oppbe
 > [!NOTE]
 > Hvis du bruker [!INCLUDE[prod_short](includes/prod_short.md)] lokalt, og du vil prøve ut oppbevaringspolicyer i Cronus-demonstrasjonsdatabasen, er det noen ting du må gjøre. Demonstrasjonsselskapet inneholder ikke tabeller som du kan bruke med oppbevaringspolicyer, så du må legge dem til. Det gjør du ved å opprette et nytt, tomt selskap i demonstrasjonsdatabasen. I det nye selskapet importerer du RapidStart-konfigurasjonspakken for landet/området ditt som tilsvarer standard NAV17.0.W1.ENU.STANDARD.rapidstart-pakken. Oppsettsdataene for oppbevaringspolicyer vil være tilgjengelige i det nye selskapet.
 
-### <a name="create-retention-periods"></a>Opprett oppbevaringsperioder
+### Opprett oppbevaringsperioder
 
 Oppbevaringsperioder kan være så lang eller så kort du vil. Hvis du vil opprette oppbevaringsperioder, bruker du handlingen **Oppbevaringsperiode** på siden **Oppbevaringspolicyer**. Periodene du definerer, er tilgjengelige for alle policyer.
 
 > [!NOTE]
 > Av hensyn til samsvar har vi definert en minimums oppbevaringsperiode for noen tabeller. Hvis du angir en oppbevaringsperiode som er kortere enn minimumskravet, vises en melding med den obligatoriske perioden.
 
-### <a name="set-up-a-retention-policy"></a>Definere en oppbevaringspolicy
+### Definere en oppbevaringspolicy
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppbevaringspolicyer**, og velg deretter den relaterte koblingen.
 2. Velg tabellen du vil ta med i policyen, i **Tabell-ID**-feltet.
@@ -46,13 +46,13 @@ Oppbevaringsperioder kan være så lang eller så kort du vil. Hvis du vil oppre
    > [!NOTE]
    > Hver linje har sin egen oppbevaringsperiode. Hvis du angir forskjellige oppbevaringsperioder for de samme dataene, brukes den lengste perioden. I tillegg inneholder noen tabeller filtre som du ikke kan endre eller fjerne. For å gjøre det lettere å identifisere disse filtrene, vises de i en lysere fargeskrift.
 
-#### <a name="video-guidance"></a>Videoveiledning
+#### Videoveiledning
 
 Denne videoen gir et eksempel på hvordan du setter opp en oppbevaringspolicy.
 
 >[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1fLeJ]
 
-## <a name="apply-retention-policies"></a>Bruk oppbevaringspolicyer
+## Bruk oppbevaringspolicyer
 
 Du kan bruke en jobbkøpost til å bruke oppbevaringspolicyer for å slette data automatisk, eller du kan bruke policyer manuelt.
 
@@ -60,11 +60,11 @@ Hvis du vil bruke en oppbevaringspolicy automatisk, oppretter og aktiverer du ba
 
 Du kan bruke en policy manuelt ved hjelp av handlingen **Bruk manuelt** på siden **Oppbevaringspolicyer**. Hvis du alltid vil bruke en policy manuelt, slår du på **Manuell**. Jobbkøposten vil ikke ta hensyn til policyen når den kjøres.
 
-## <a name="view-retention-policy-log-entries"></a>Vis loggoppføringer for oppbevaringspolicy
+## Vis loggoppføringer for oppbevaringspolicy
 
 Du kan vise aktivitet som er knyttet til oppbevaringspolicyer, på siden **Oppbevaringspolicylogg**. Det opprettes for eksempel poster når en policy brukes, eller hvis det oppstod feil.
 
-## <a name="include-your-extension-in-a-retention-policy-requires-help-from-a-developer"></a>Inkluder utvidelsen i en oppbevaringspolicy (krever hjelp fra en utvikler)
+## Inkluder utvidelsen i en oppbevaringspolicy (krever hjelp fra en utvikler)
 
 Som standard dekker oppbevaringsretningslinjer bare [!INCLUDE[prod_short](includes/prod_short.md)] i listen vi tilbyr. Du kan fjerne standardtabeller fra listen, og du kan legge til tabeller som du eier. Det vil si at du ikke kan legge til en tabell du ikke har opprettet selv. Du kan for eksempel ikke legge til andre tabeller fra [!INCLUDE[prod_short](includes/prod_short.md)] eller fra en utvidelse du har kjøpt.
 
@@ -108,7 +108,7 @@ Følgende eksempel inneholder et obligatorisk filter.
 
 Når en utvikler har lagt til tabeller i listen, kan en administrator inkludere dem i en oppbevaringspolicy. 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Analysere sporingstelemetri for oppbevaringspolicy](/dynamics365/business-central/dev-itpro/administration/telemetry-retention-policy-trace)  
 [Revidere endringer i Business Central](across-log-changes.md)  

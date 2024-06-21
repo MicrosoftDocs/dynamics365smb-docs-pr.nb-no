@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="report-and-document-layouts-overview"></a>Oversikt over rapport- og dokumentoppsett
+# Oversikt over rapport- og dokumentoppsett
 
 Et rapportoppsett styrer innholdet og formatet for rapporten, blant annet hvilke datafelt i et rapportdatasett som skal vises i rapporten, hvordan de er ordnet, samt tekststil, bilder og mer. Fra [!INCLUDE[prod_short](includes/prod_short.md)] kan du endre oppsettet som skal brukes i en rapport, opprette nytt oppsett eller endre eksisterende oppsett.
 
@@ -19,7 +19,7 @@ Et rapportoppsett styrer innholdet og formatet for rapporten, blant annet hvilke
 
 Du kan også bruke rapportoppsett til å legge til innhold i e-postmeldinger. Rapportoppsett kan for eksempel spare tid og bidra til å sikre konsekvens ved å bruke det samme innholdet på nytt når du kommuniserer med kundene. Hvis du vil bruke egendefinerte rapportoppsett med e-post, må filtypen for oppsettet være Word. Du kan ikke bruke filtypen RDLC. Hvis du vil ha mer informasjon, kan du se [Definer gjenbrukbare e-tekster og oppsett](admin-how-setup-email.md#set-up-reusable-email-texts-and-layouts). 
 
-## <a name="introduction"></a>Introduksjon
+## Introduksjon
 
 Et rapportoppsett brukes især til å konfigurere følgende ting:
 
@@ -34,11 +34,11 @@ En rapport kan defineres med flere rapportoppsett, som du kan bytte mellom etter
 
 Det finnes to viktige sider ved rapportoppsett som påvirker hvordan du arbeider med dem: *oppsettstypen* og *oppsettskilden*. Oppsettstypen angir typen fil som oppsettet er basert på. Kildetypen angir oppsettets opprinnelse.
 
-## <a name="layout-types"></a>Oppsettstype
+## Oppsettstype
 
 Det finnes fire typer oppsett som du kan bruke i rapporter: Word, RDLC, Excel og eksternt.
 
-### <a name="word"></a>Word
+### Word
 
 Word-oppsett er basert på et Word-dokumenter (DOCX-filtypen). Oppsett for Word lar deg utforme rapportoppsett ved hjelp av Microsoft Word. Et oppsettet for Word bestemmer rapportens innhold – kontrollere hvordan innholdselementer ordnes og hvordan de ser ut. I et Word-oppsettdokument brukes vanligvis tabeller til å ordne innhold, der cellene kan inneholde datafelt, tekst eller bilder.
 
@@ -48,7 +48,7 @@ Word-oppsett er basert på et Word-dokumenter (DOCX-filtypen). Oppsett for Word 
 
 Hvis du vil ha mer informasjon, kan du se [Arbeid med Word-oppsett](ui-how-add-fields-word-report-layout.md).
 
-### <a name="excel"></a>Excel
+### Excel
 
 Oppsett for Excel er basert på Microsoft Excel-arbeidsbøker (XLSX-filtyper). De gjør det mulig å opprette rapporter ved hjelp av velkjente Excel-funksjoner for oppsummering, analyse og presentasjon av data med verktøy for eksempel formler, pivottabeller, pivotdiagrammer med mer.
 
@@ -56,7 +56,7 @@ Oppsett for Excel er basert på Microsoft Excel-arbeidsbøker (XLSX-filtyper). D
 
 Hvis du vil ha mer informasjon, kan du se [Arbeid med Excel-oppsett](ui-excel-report-layouts.md).
 
-### <a name="rdlc"></a>RDLC
+### RDLC
 
 RDLC-oppsett er basert på oppsettsfiler for rapportdefinisjon for klient (filtypen RDLC eller RDL). Disse oppsettene er opprettet og endret ved hjelp av SQL Server Report Builder eller Microsoft RDLC Report Designer. Utformingskonseptet for RDLC-oppsett ligner på Word-oppsett, der oppsettet bestemmer hvilke felter som skal vises, og hvordan de skal organiseres. Å utforme RDLC-oppsett er imidlertid en mer avansert oppgave enn å utforme Word-oppsett.
 
@@ -64,13 +64,13 @@ RDLC-oppsett er basert på oppsettsfiler for rapportdefinisjon for klient (filty
 
 Hvis du vil ha mer informasjon, kan du se [Arbeid med RDLC-oppsett](ui-rdlc-report-layouts.md).
 
-### <a name="external"></a>Eksternt
+### Eksternt
 
 En ekstern oppsettstype viser til en avansert type som er spesiallaget for bestemte rapporter. Rapportene og oppsettene leveres vanligvis av partnere, ikke Microsoft. Den faktiske filtypen for oppsettet vil variere avhengig av leverandøren.
 
 Hvis du vil ha mer informasjon, kan du se [Utvikle en egendefinert rapportgjengivelse](/dynamics365/business-central/dev-itpro/developer/devenv-report-custom-render).
 
-## <a name="layout-sources"></a>Oppsettskilder
+## Oppsettskilder
 
 I tillegg til typen er oppsett ytterligere inndelt i tre kategorier, basert på kilden eller opprinnelsen.
 
@@ -96,7 +96,7 @@ Hvis du vil ha mer informasjon om hvordan du avgjør hvilken type som er best, k
 > Det er viktig å huske at du ikke kan endre utvidelsesoppsett fra Business Central-klienten. Du kan for eksempel ikke endre oppsettsnavnet eller -typen, eller du kan laste opp og erstatte det med en annen versjon. Hvis du prøver, får du en feilmelding. Du må opprette et brukerdefinert eller egendefinert oppsett basert på utvidelsesoppsettet i stedet.
 
 <!--
-### <a name="built-in-and-custom-report-layouts"></a>Built-in and custom report layouts
+### Built-in and custom report layouts
 
 
 
@@ -116,7 +116,7 @@ Deciding on whether to use a Word, Excel, or RDLC layout type will depend on how
 For information about how to switch the layout currently used on a report, see [Set the Layout Used by a Report](ui-set-report-layout.md).
 
 -->
-## <a name="see-also"></a>Se også
+## Se også
 
 [Oppdater egendefinerte rapportoppsett](ui-update-report-layouts.md)  
 [Opprett og endre egendefinerte rapportoppsett](ui-how-create-custom-report-layout.md)  

@@ -11,15 +11,15 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="posting-date-on-adjustment-value-entry-compared-to-the-source-entry"></a>Bokføringsdato for justeringsverdipost sammenlignet med kildeposten
+# Bokføringsdato for justeringsverdipost sammenlignet med kildeposten
 
 Denne artikkelen sammenligner Bokføringsdato på verdipost for justering med bokføringsdatoen på posten som fører til kjøring av kjørselen Juster kostverdi – vareposter, særlig et revalueringsscenario og et varekostscenario.
 
 Kjørselen **Juster kostverdi – vareposter** behandler dataene, avhengig av scenarioet og konfigurasjonen av [!INCLUDE[prod_short](includes/prod_short.md)]. I dette avsnittet beskriver vi to separate prosesser, og for hver enkelt vi viser hvilke konsekvenser kjørselen Juster kostverdi – vareposter har på dataene.
 
-## <a name="revaluation-scenario"></a>Revalueringsscenario
+## Revalueringsscenario
 
-### <a name="prerequisites"></a>Forutsetninger
+### Forutsetninger  
 
 Skriv inn følgende verdier:
 
@@ -45,7 +45,7 @@ Skriv inn følgende verdier:
 
 - Bokf. tillatt til = tom  
 
-### <a name="to-test-the-scenario"></a>Slik tester du scenarioet
+### Slik tester du scenarioet
 
 Test dette scenarioet ved å utføre følgende trinn.
 
@@ -150,15 +150,15 @@ Justeringen foretatt for nedjusteringen i trinn 3 fører til diskusjon. Den best
 
 For å oppnå justering i desember for nedjusteringen i trinn 3, må feltet Bokf. tillatt fra i Finansoppsett angi en dato i desember.  
 
-### <a name="conclusion"></a>Konklusjon
+### Konklusjon
 
 Med erfaringen som fås i dette scenarioet, når du vurderer det mest egnede oppsettet for et tillatt bokføringsdatoområde for et selskap, må du huske på følgende. Så lenge du tillater at endringer i lagerverdien bokføres i en periode, for eksempel desember i dette tilfellet, skal oppsettet som selskapet bruker på tillatte bokføringsdatoområder, være justert med denne beslutningen. Bokf. tillatt fra i finansoppsettet, som angir 1. desember, ville tillatt at revalueringen i desember kunne overføres til påvirkede utgående poster i samme periode.  
 
 Brukergrupper som ikke kan bokføre i desember, men i januar, som sannsynligvis var ment å være begrenset av finansoppsettet i dette scenarioet, bør i stedet løses via brukeroppsettet.  
 
-## <a name="item-charge-scenario"></a>Varegebyrscenario
+## Varegebyrscenario  
 
-### <a name="prerequisites-1"></a>Forutsetninger
+### Forutsetninger  
 
 Skriv inn følgende verdier:
 
@@ -184,7 +184,7 @@ Skriv inn følgende verdier:
 
 - Bokf. tillatt til = tom  
 
-### <a name="to-test-the-scenario-1"></a>Slik tester du scenarioet
+### Slik tester du scenarioet  
 
 Test dette scenarioet ved å utføre følgende trinn:
 
@@ -350,7 +350,7 @@ Det er utfordrende å få lagerverdisettingsrapporten til å vise antall = 0 nå
 
 I dette scenarioet kunne ett alternativ ha vært å angi en dato i desember for noen flere dager i feltet Bokf. tillatt fra i Finansoppsett, og utsette bokføringen av det første varegebyret, slik at alle kostnader for forrige periode/regnskapsår føres for perioden de tilhører først, og kjøre kjørselen Juster kostverdi - vareposter, og deretter flytte den tillatte bokføringsdatoen til den nye perioden\/regnskapsåret. Det første varegebyret med bokføringsdato 2. januar kunne deretter bli bokført.  
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Designdetaljer: Bokføringsdato på verdiposten for justering](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)  

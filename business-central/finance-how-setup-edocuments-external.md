@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="set-the-e-documents-connector-with-external-endpoints"></a>Angi koblingen E-dokumenter med eksterne endepunkter
+# Angi koblingen E-dokumenter med eksterne endepunkter
 
 Denne artikkelen forklarer hvordan du konfigurerer funksjonalitet for e-dokumenter når den kobles til eksterne endepunkter.
 
 Før du bruker funksjonaliteten som er beskrevet i denne artikkelen, må du installere appen **Koblingen E-dokumenter med eksterne endepunkter** appen på toppen av den globale appen **E-dokumentkjerne**. Denne appen kan brukes til standardintegrering med de eksterne (tredjeparts) tilgangspunktene for å automatisere e-dokumentflyten. Fordi denne appen bare representerer noen av de valgte koblingene, er du ikke begrenset til eksisterende integreringer i den. De fleste av koblingene vil være tilgjengelige i AppSource i fremtiden.
 
-## <a name="set-up-the-connection"></a>Definer tilkoblingen
+## Definer tilkoblingen
 
 For å starte oppsettet følger du fremgangsmåten i [Appen E-dokumentkjerne](finance-how-setup-edocuments.md). Når du har fullført denne fremgangsmåten, går du tilbake til denne artikkelen og fullfører følgende fremgangsmåte:
 
@@ -45,7 +45,7 @@ For å starte oppsettet følger du fremgangsmåten i [Appen E-dokumentkjerne](fi
     > [!NOTE]
     > Spør tjenesteleverandøren om alle de tidligere detaljene for å opprette en forbindelse med tilgangspunktet.
 
-## <a name="set-up-company-information"></a>Konfigurer selskapsopplysninger
+## Konfigurer selskapsopplysninger
 
 Før du begynner å bruke e-dokumenter, må du oppdatere siden **Bedriftsinformasjon** ved å fullføre følgende trinn:
 
@@ -60,7 +60,7 @@ Før du begynner å bruke e-dokumenter, må du oppdatere siden **Bedriftsinforma
 
 3. Lukk siden.
 
-## <a name="set-up-customers-to-receive-e-documents"></a>Sett opp kunder til å motta e-dokumenter
+## Sett opp kunder til å motta e-dokumenter
 
 Følg følgende fremgangsmåte for å gjøre det mulig for kunder å motta e-dokumentene dine:
 
@@ -70,11 +70,11 @@ Følg følgende fremgangsmåte for å gjøre det mulig for kunder å motta e-dok
 4. Merk av feltet **Bruk GLN i elektroniske dokumenter** for å indikere om det globale lokasjonsnummeret (GLN) brukes som et partsidentifikasjonsnummer i elektroniske dokumenter.
 5. Lukk siden.
 
-## <a name="other-setup"></a>Andre oppsett
+## Andre oppsett
 
 Før du begynner å jobbe med e-dokumenter, setter du opp **e-dokumentarbeidsflytene** og **dokumentsendingsprofilene** til bruke arbeidsflytene dine. Etter at tjenesteforbindelsen er etablert, kan du begynne å bruke e-dokumentløsningen.
 
-## <a name="available-service-providers"></a>Tilgjengelige tjenesteleverandører
+## Tilgjengelige tjenesteleverandører
 
 Microsoft ønsker å oppmuntre tilgangspunktleverandører til å legge til koblingene sine på toppen av rammeverket **E-dokumentkjerne**.
 
@@ -82,7 +82,7 @@ For øyeblikket er Pagero den eneste tilgangspunktleverandøren som dekkes av de
 
 Vi oppdaterer denne listen etter hvert som vi får nye leverandører av tilgangspunkter for e-dokumentutveksling.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere e-dokumenter i Business Central](finance-how-setup-edocuments.md)  
 [Konfigurere e-dokumenter i Business Central](finance-how-use-edocuments.md)  

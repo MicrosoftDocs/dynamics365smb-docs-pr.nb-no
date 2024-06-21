@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="vat-management-overview"></a>Oversikt over mva-behandling
+# Oversikt over mva-behandling
 Merverdiavgift (mva.) er en indirekte avgift på forbruk av varer og tjenester. Mva. kreves i hver fase i forsyningskjeden der verdien legges fra den første produksjonen til salgsstedet. Se følgende emner for å komme i gang med mva-behandling.  
 
 |  Artikkel  |  Description  |  
@@ -29,7 +29,7 @@ Merverdiavgift (mva.) er en indirekte avgift på forbruk av varer og tjenester. 
 | [Valider organisasjonsnumre](finance-how-validate-vat-registration-number.md) | Denne artikkelen forklarer hvordan du bruker Business Central-validering for organisasjonsnumre og annen selskapsinformasjon for kontaktene, kundene og leverandørene, basert på EU-tjenesten VIES VAT Number Validation.|
 
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Finans](finance.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
 

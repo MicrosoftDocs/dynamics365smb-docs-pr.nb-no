@@ -10,7 +10,7 @@ ms.date: 04/01/2021
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
-# <a name="manage-human-resources"></a>Administrere personale
+# Administrere personale
 
 I [!INCLUDE[prod_short](includes/prod_short.md)] kan du holde detaljerte poster for ansatte. Du kan registrere og vedlikeholde informasjon som for eksempel kontrakter for ansatte, konfidensiell informasjon, kvalifikasjoner og kontakter for ansatte.
 
@@ -25,7 +25,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Registrer nye ansatte eller rediger poster for eksisterende ansatte, og tilknytt relatert informasjon, for eksempel kontrakter og artikler. |[Registrere ansatte](hr-how-register-employees.md) |
 | Registrer ansattes fravær og vis fraværsstatistikk med ulike filtre. |[Håndtere ansattes fravær](hr-how-manage-absence.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finans](finance.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  

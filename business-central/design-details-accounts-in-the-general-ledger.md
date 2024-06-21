@@ -10,11 +10,11 @@ ms.date: 02/20/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="design-details-accounts-in-the-general-ledger"></a>Utformingsdetaljer: Kontoer i Finans
+# Utformingsdetaljer: Kontoer i Finans
 
 Hvis du vil avstemme lager- og kapasitetsposter med Finans, bokføres de tilknyttede verdipostene på ulike konti i finans. Hvis du vil ha mer informasjon, se [Designdetaljer: Avstemming med konti i Finans](design-details-reconciliation-with-the-general-ledger.md).  
 
-## <a name="from-the-inventory-ledger"></a>Fra varepost
+## Fra varepost  
 
 Følgende tabell viser relasjonen mellom ulike typer verdiposter for beholdning og kontiene og motkontiene i finans.  
 
@@ -58,7 +58,7 @@ Følgende tabell viser relasjonen mellom ulike typer verdiposter for beholdning 
 |Monteringsavgang|Avvik|Indir. prod.kostnader|Nei|Lager|Avvik i indir. prod.kostn.|  
 |Monteringsavgang|Avrunding||Nei|Lager|Lagerjustering|  
 
-## <a name="from-the-capacity-ledger"></a>Fra kapasitetsposten
+## Fra kapasitetsposten  
 
  Følgende tabell viser relasjonen mellom ulike typer verdiposter for kapasitet og kontiene og motkontiene i finans. Kapasitetsposter representerer arbeidtidsforbruket under monterings- eller produksjonsarbeid.  
 
@@ -69,13 +69,13 @@ Følgende tabell viser relasjonen mellom ulike typer verdiposter for beholdning 
 |Produksjon|Produksjonsressurs/Arbeidssenter|Kjøpspris/prod.kost|VIA-konto|Utlignet kjøpspris/prod.kost|  
 |Produksjon|Produksjonsressurs/Arbeidssenter|Indirekte kost|VIA-konto|Utlignet indirekte kostnad|  
 
-## <a name="assembly-costs-are-always-actual"></a>Monteringskostnader er alltid faktiske
+## Monteringskostnader er alltid faktiske  
 
  Monteringsbokføringer vises ikke i midlertidige konti, som vist i tabellen ovenfor. Dette er fordi begrepet om varer i arbeid (VIA) ikke gjelder i bokføring av monteringsavgang, i motsetning til i bokføring av produksjonsavgang. Monteringskostnader bokføres bare som faktiske kostnader, aldri som forventede kostnader.  
 
  Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Bokføre monteringsordre](design-details-assembly-order-posting.md).  
 
-## <a name="calculating-the-amount-to-post-to-the-general-ledger"></a>Beregne beløpet som skal bokføres i Finans
+## Beregne beløpet som skal bokføres i Finans  
 
  Følgende felt i **Verdipost**-tabellen brukes til å beregne det forventede kostnadsbeløpet som bokføres i finans:  
 
@@ -91,7 +91,7 @@ Tabellen nedenfor viser hvordan beløpene som skal bokføres i finans, beregnes 
 |Faktisk kostnad|Kostbeløp (faktisk) – kost bokført til finans|  
 |Forventet kostnad|Kostbeløp (forventet) – Forventet kost bokført i Finans|  
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Utformingsdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)  
 [Utformingsdetaljer: Lagerbokføring](design-details-inventory-posting.md)  

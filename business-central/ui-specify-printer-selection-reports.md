@@ -11,14 +11,14 @@ ms.date: 06/13/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# <a name="specify-a-default-printer"></a><a name="default"></a>Angi en standardskriver
+# <a name="default"></a>Angi en standardskriver  
 
 Når skrivere er definert i Business Central, kan du angi hvilken skriver som skal brukes som standard. Det finnes noen andre måter å angi skrivere på som skal brukes som standard for rapporter og andre utskriftsjobber. En standardskriver er nyttig hvis du arbeider med forskjellige rapporter som krever ulike skrivere på grunn av sin plassering i firmaet eller utskriftsmulighetene.
 
 > [!IMPORTANT]
 > De eneste skriverne du kan angi som standard, er **Microsoft Print til PDF**- og skyskrivere som allerede er konfigurert for bruk i Business Central, for eksempel e-postskrivere og skrivere for Universell utskrift. Skybaserte skrivere konfigureres vanligvis av en administrator. Hvis du vil ha mer informasjon, kan du se [Skriveroppsett og -administrasjon](admin-printer-setup-overview.md).
 
-## <a name="set-a-printer-as-a-default-printer-for-all-print-jobs"></a>Angi en skriver som standardskriver for alle utskriftsjobber
+## Angi en skriver som standardskriver for alle utskriftsjobber
 
 Gjennom siden **Utskriftsbehandling** kan du konfigurere en skriver som standardskriver for alle utskriftsjobber. Du kan bare angi skriveren som standard for deg selv eller for alle brukere.
 
@@ -31,7 +31,7 @@ Gjennom siden **Utskriftsbehandling** kan du konfigurere en skriver som standard
 > [!NOTE]
 > Når du angir en standardskriver fra **Utskriftsbehandling**, legges det til en oppføring under **Skrivervalg**.
 
-## <a name="set-a-default-printer-for-specific-reports"></a>Angi en standardskriver for bestemte rapporter
+## Angi en standardskriver for bestemte rapporter
 
 På siden **Skrivervalg** kan du angi hvilken skriver en rapport skal bruke som standard. Standardskriveren er angitt på brukerkontobasis. Du kan angi en standardskriver for bare deg selv, en annen bruker eller alle brukere.
 
@@ -60,15 +60,15 @@ Du eller administratoren kan også bruke siden **Skrivervalg** til å definere a
 > [!NOTE]
 > Flere spesifikke skrivervalg har forrang over et mer generelt skrivervalg. Et skrivervalg som har verdier i feltene **Bruker-ID**, **Rapport-ID** og **Skrivernavn**, har for eksempel forrang over et skrivernavn som har tomme poster i feltene **Bruker-ID** eller **Rapport-ID**.
 
-## <a name="choosing-the-printer-when-running-a-report"></a>Velg skriveren når du kjører en rapport
+## Velg skriveren når du kjører en rapport
 
 I stedet for å bruke standardskriveren når du kjører en rapport, kan du overstyre denne innstillingen fra forespørselssiden. Velg ganske enkelt hvilken skriver du vil bruke til denne rapportgenereringen, på rullegardinmenyen **Skriver**.
 
-## <a name="sizing-print-jobs"></a>Endre størrelse på utskriftsjobber
+## Endre størrelse på utskriftsjobber
 
 Skyutskrifter er utformet for dokumenter med en fornuftig størrelse. De fleste skytjenester, inkludert PrintNode og HP ePrint, har en grense på 10 MB per jobb. Hvis du må skrive ut store rapporter, må du kanskje dele dem opp i flere utskrifter.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Utskriftsbehandling](admin-printer-setup-overview.md)  
 [Konfigurer skrivere for Universell utskrift](admin-printer-setup-universal-print.md)  

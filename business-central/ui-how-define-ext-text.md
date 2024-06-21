@@ -10,13 +10,13 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="add-extended-text"></a>Legge til utvidet tekst
+# Legge til utvidet tekst
 
 Du kan utvide beskrivelsen av varer, lagerføringsenheter, finanskonti og ressurser ved å legge til ekstra linjer som utvidet tekst. Du kan også definere betingelser for bruk av de ekstra linjene.  
 
 Delen nedenfor beskriver hvordan du legger til utvidet tekst i en beskrivelse av en vare. De samme trinnene gjelder også for lagerføringsenheter, finanskonti og ressurser.  
 
-## <a name="to-define-extended-text-for-an-description"></a>Slik definerer du utvidet tekst for en beskrivelse
+## Slik definerer du utvidet tekst for en beskrivelse
 
 1. Åpne kortet for en vare som du vil legge til utvidet tekst for, og velg deretter handlingen **Utvidet tekst**.
 2. Fyll ut feltene **Kode** og **Beskrivelse**.
@@ -29,12 +29,12 @@ Delen nedenfor beskriver hvordan du legger til utvidet tekst i en beskrivelse av
 
 Du kan nå legge til den utvidede teksten i dokumenter. Fremgangsmåten nedenfor forklarer hvordan du legger til utvidet tekst i en ordre, men den samme fremgangsmåten gjelder alle andre dokumenter du har angitt for den utvidede teksten.  
 
-## <a name="to-add-an-extended-item-text-on-a-sales-order-line"></a>Legge til teksten for utvidet vare på en ordrelinje
+## Legge til teksten for utvidet vare på en ordrelinje
 
 1. Åpne en ordre med en salgslinje for en vare som har utvidet tekst som er definert. Hvis du vil ha mer informasjon, kan du se [Selge produkter](sales-how-sell-products.md).
 2. Velg den aktuelle linjen og velg deretter **Sett inn utv. tekster**-handlingen.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Definere lager](inventory-setup-inventory.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

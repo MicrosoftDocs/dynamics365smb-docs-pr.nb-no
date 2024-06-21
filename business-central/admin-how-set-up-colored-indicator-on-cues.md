@@ -10,7 +10,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="set-up-a-colored-indicator-on-cues-for-the-company-or-individual-users"></a>Definere en farget indikator for bunke-ikoner for selskapet eller enkeltbrukere
+# Definere en farget indikator for bunke-ikoner for selskapet eller enkeltbrukere
 
 Som administrator kan du definere bunke-ikoner med en indikator som endrer farge basert på dataverdiene i bunke-ikonene. Du kan gjøre dette for bunke-ikoner som vises i rollesentrene for brukerne.  
 
@@ -20,7 +20,7 @@ Du bruker siden **Oppsett for bunke-ikon** til å definere indikatorer for alle 
 
 Hvis du vil definere indikatoren, kan du angi opptil to terskelverdier som definerer tre områder med dataverdier (lav, middels og høy) som du kan bruke en annen farge (eller stil) med.  
 
-### <a name="to-set-up-colored-indicators-on-cues"></a>Slik definerer du fargede indikatorer for bunke-ikoner
+### Slik definerer du fargede indikatorer for bunke-ikoner  
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Oppsett for bunke-ikon** og velger den relaterte koblingen.  
 
      Siden **Oppsett for bunke-ikon** vises. Siden viser indikatorer som er definert for bunker. Indikatorer som gjelder for alle brukere i firmaet, har et tomt **Brukernavn**-felt. Indikatorene som gjelder for en bestemt bruker, inkluderer brukernavnet i **Brukernavn**-feltet.  
@@ -57,7 +57,7 @@ Hvis du vil definere indikatoren, kan du angi opptil to terskelverdier som defin
     |**Tvetydig**|Gul|  
     |**Underordnet**|Grå|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

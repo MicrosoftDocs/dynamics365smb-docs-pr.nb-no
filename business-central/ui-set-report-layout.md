@@ -11,7 +11,7 @@ ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="set-the-layout-used-by-a-report"></a>Definer oppsettet som brukes av en rapport
+# Definer oppsettet som brukes av en rapport
 
 > **GJELDER:** Business Central online, Business Central on-premises (2022 lanseringsbølge 1 og senere). For tidligere versjoner går du [hit](ui-how-change-layout-currently-used-report.md).
 
@@ -19,7 +19,7 @@ Et rapportoppsett bestemmer utseendet på en rapport. Den kontrollerer hvilke da
 
 Når det er flere selskaper i programmet, blir oppsettene satt på per firma-basis. Slik at den samme rapporten i ett selskap kan ha et annet oppsett i et annet selskap.
 
-## <a name="get-started"></a>Kom i gang
+## Kom i gang
 
 Det finnes noen få måter å angi hvilket oppsett en rapport bruker. Du kan få fordeler på hver måte, avhengig av hva du er på jakt etter: 
 
@@ -36,12 +36,12 @@ Det finnes noen få måter å angi hvilket oppsett en rapport bruker. Du kan få
   > [!NOTE]
   > Du kan ikke bruke **Rapportoppsett**-siden for Word- og RDLC-oppsett som ble opprettet ved hjelp av den eldre funksjonen **Egendefinerte oppsett**. Du ser faktisk ikke at disse egendefinerte oppsettene vises på siden **Rapportoppsett**. For disse oppsettene kan du bare angi dem ved hjelp av siden **Valg av rapportoppsett**.
 
-## <a name="set-the-layout-from-the-report-layouts-page"></a>Angi oppsettet fra Rapportoppsett
+## Angi oppsettet fra Rapportoppsett
 
 [!INCLUDE[open-report-layouts-page](includes/open-report-layouts-page.md)]
 2. Finn oppsettet i listen, merk det, og velg deretter **Angi standard**-handling øverst på siden.
 
-## <a name="set-the-layout-from-report-layout-selection-page"></a>Angi oppsettet fra Valg av rapportoppsett-siden
+## Angi oppsettet fra Valg av rapportoppsett-siden
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Rapportoppsettsvalg**, og velg deretter den relaterte koblingen.
   
@@ -54,11 +54,11 @@ Det finnes noen få måter å angi hvilket oppsett en rapport bruker. Du kan få
 
 4. På siden **Rapportoppsett** velger du oppsett, og deretter velger du **OK**.
 
-## <a name="revert-to-the-original-default-layout"></a>Gå tilbake til det opprinnelige standardoppsettet
+## Gå tilbake til det opprinnelige standardoppsettet
 
 Rapporter er utformet for å bruke et oppsett som standard. Du kan gå tilbake til det opprinnelige standardoppsettet fra side for **Valg av rapportoppsett**. Bare merk rapporten, og velg deretter **Gjenopprett standardvalg**-handling øverst på siden.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Håndtere rapportoppsett](ui-manage-report-layouts.md)  
 [Arbeide med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

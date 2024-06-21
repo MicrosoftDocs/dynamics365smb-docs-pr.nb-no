@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="manage-saved-settings-for-reports-and-batch-jobs"></a>Behandle lagrede innstillinger for rapporter og satsvise jobber
+# Behandle lagrede innstillinger for rapporter og satsvise jobber
 
 Når en rapport skal kjøres, ser brukere vanligvis en side der de kan velge alternativer og angi filtre for å endre dataene som er inkludert i den genererte rapporten. Denne siden kalles *forespørselssiden*. En rapport kan inneholde en eller flere *lagrede innstillinger* som brukere kan bruke på rapporten fra forespørselssiden. *Lagrede innstillinger* er i hovedsak forhåndsdefinerte alternativer og filtre. Lagrede innstillinger er en rask, pålitelig og konsekvent metode for å generere rapporter som inneholder de riktige dataene. Hvis du vil ha mer informasjon, kan du se [Bruk lagrede innstillinger](ui-work-report.md#SavedSettings).
 
@@ -19,7 +19,7 @@ Når en rapport skal kjøres, ser brukere vanligvis en side der de kan velge alt
 
 Hvis du har riktige tillatelser, kan du vise, opprette og endre de lagrede innstillingene for alle rapporter for alle brukere i et selskap. Du kan tilordne lagrede innstillingene for en rapport til enkeltbrukere eller til alle brukerne i selskapet.
 
-## <a name="manage-saved-settings"></a>Administrere lagrede innstillinger
+## Administrere lagrede innstillinger
 
 Du kan administrere lagrede innstillinger på siden **Rapportinnstillinger**. Det er to måter å åpne en side på:
 
@@ -35,7 +35,7 @@ Du kan administrere lagrede innstillinger på siden **Rapportinnstillinger**. De
 >
 > I noen tilfeller kan imidlertid innstillingene ikke deles, og administratoren kan heller ikke endre dem. De fleste kjørslene støtter ikke delte innstillinger.  
 
-## <a name="create-or-modify-saved-settings-for-all-users"></a>Opprette eller endre lagrede innstillinger for alle brukere
+## Opprette eller endre lagrede innstillinger for alle brukere
 
 Fra siden **Rapportinnstillinger**-siden kan du:
 
@@ -49,7 +49,7 @@ Fra siden **Rapportinnstillinger**-siden kan du:
 > [!NOTE]
 > Funksjonen for å lagre innstillinger er bare tilgjengelig i rapporter der [SaveValues-egenskapen](/dynamics365/business-central/dev-itpro/developer/properties/devenv-savevalues-property) for forespørselssiden i rapporten er satt til **Ja**. **SaveValues**-egenskapen angis av utvikleren.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbeid med rapporter, satsvise jobber og XMLport-er](ui-work-report.md)  
 

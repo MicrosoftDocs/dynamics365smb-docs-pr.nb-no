@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="managing-interactions-with-your-contacts"></a>Administrere samhandlinger med kontaktene dine
+# Administrere samhandlinger med kontaktene dine
 I [!INCLUDE[prod_short](includes/prod_short.md)] betraktes all slags kommunikasjon mellom selskapet og kontaktene som samhandlinger. Kommunikasjon kan for eksempel være per e-post, brev, telefonsamtaler, møter og så videre.
 
 Du kan registrere alle samhandlingene med kontaktene, slik at du kan følge opp salgs- og markedsføringskampanjene som er rettet mot kontaktene, og forbedre fremtidige forretningssamhandlinger med dem.

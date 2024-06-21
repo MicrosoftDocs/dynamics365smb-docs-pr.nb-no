@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="recipient-reference-codes-in-the-norwegian-version"></a>Referansekoder for mottaker i den norske versjonen
+# Referansekoder for mottaker i den norske versjonen
 
 Mottakerreferansekoden bestemmer hvilken melding som skal sendes til mottakeren. Koden vises i remitteringskontoen, og brukes for leverandører som betales fra denne kontoen. Det kan opprettes en egen mottakerreferansekode for hver leverandør hvis den generelle referanseteksten ikke benyttes.  
 
@@ -32,7 +32,7 @@ Mottakerreferansekodene blir beskrevet i tabellen nedenfor.
 |**%10**|Forfallsdatoen fra leverandørposten.|  
 |**%11**|Kunde ID-nummeret fra leverandørposten.|  
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Konfigurer leverandører for remittering](how-to-set-up-vendors-for-remittance.md)
 
 

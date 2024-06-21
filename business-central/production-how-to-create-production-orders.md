@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="create-production-order-headers"></a>Opprette produksjonsordrehoder
+# Opprette produksjonsordrehoder
 
 Du kan opprette en produksjonsordre manuelt, og første trinn er å opprette et produksjonsordrehode.
 
@@ -18,7 +18,7 @@ Produksjonsordrer opprettes vanligvis automatisk etter en planleggingsfunksjonen
 
 I fremgangsmåten nedenfor opprettes det en fast planlagt produksjonsordre. Du kan også opprette produksjonsordrer med en annen status.  
 
-## <a name="to-create-a-production-order-header"></a>Slik oppretter du et produksjonsordrehode
+## Slik oppretter du et produksjonsordrehode
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Fast planlagte prod.ordrer** og velg den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
@@ -31,7 +31,7 @@ I fremgangsmåten nedenfor opprettes det en fast planlagt produksjonsordre. Du k
 
 Når produksjonskrav endres, for eksempel komponenter eller operasjoner, kan du raskt planlegge produksjonsordren på nytt. Hvis du vil ha mer informasjon, se [Planlegge på nytt eller fornye produksjonsordrer direkte](production-how-to-replan-refresh-production-orders.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Produksjon](production-manage-manufacturing.md)
 [Definere produksjon](production-configure-production-processes.md)  
