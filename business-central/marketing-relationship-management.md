@@ -11,7 +11,7 @@ ms.search.forms: '9076, 9026'
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Administrere forbindelser
+# <a name="managing-relationships"></a>Administrere forbindelser
 
 Funksjonen for forbindelser i [!INCLUDE[prod_short](includes/prod_short.md)] hjelper deg med å håndtere og støtte salgsfremstøt. Med disse funksjonene har du tilgang til komplette og nøyaktige opplysninger slik at du kan fokusere samhandlingen på foretrukne kunde-/kontaktsegmenter.
 

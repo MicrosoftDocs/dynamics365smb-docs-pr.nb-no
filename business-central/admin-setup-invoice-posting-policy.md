@@ -11,11 +11,11 @@ ms.search.forms: '119, 9807,'
 ms.service: dynamics-365-business-central
 ---
 
-# Definer en fakturabokføringspolicy for brukere
+# <a name="define-an-invoice-posting-policy-for-users"></a>Definer en fakturabokføringspolicy for brukere
 
 Selskaper har ofte unike prosesser for bokføring av salgs- og kjøpsfakturaer og leveringer. Prosesser kan for eksempel variere fra én person som bokfører alt i en bestilling, til flere ansatte. Du kan begrense brukere fra å bokføre fakturaer, eller kreve at fakturaer bokføres sammen med leveringer eller mottak.
 
-## Slik angir du en bokføringspolicy
+## <a name="to-specify-a-posting-policy"></a>Slik angir du en bokføringspolicy
 
 På siden **Brukeroppsett** i feltene **Bokføringspolicy for salgsfaktura** og **Bokføringspolicy for kjøpsfaktura**, velger du et av følgende alternativer:
 
@@ -23,7 +23,7 @@ På siden **Brukeroppsett** i feltene **Bokføringspolicy for salgsfaktura** og 
 * **Forbudt** – Hindre brukeren i å bokfører fakturaer. [!INCLUDE [prod_short](includes/prod_short.md)] viser en bekreftelsesdialogboks som bare inneholder alternativene **Lever** og **Motta**.
 * **Obligatorisk** – la brukeren bokføre fakturaer sammen med mottak eller leveringer. [!INCLUDE [prod_short](includes/prod_short.md)] viser en bekreftelsesdialog med alternativene **Lever og fakturer** eller **Motta og fakturer**.
 
-## Innvirkning på dokumenter
+## <a name="effect-on-documents"></a>Innvirkning på dokumenter
 
 Tabellen nedenfor beskriver hvordan fakturabokføringspolicyer påvirker dokumenter.
 
@@ -47,7 +47,7 @@ Tabellen nedenfor beskriver hvordan fakturabokføringspolicyer påvirker dokumen
    > [!Note]
    > Innstillingen påvirker ikke bokføring av finanskladdelinjer der du kan velge **Fakturer** i feltet **Dokumenttype**.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Fakturere salg](sales-how-invoice-sales.md)  
 [Registrere kjøp med kjøpsfakturaer og ordrer](purchasing-how-record-purchases.md)  

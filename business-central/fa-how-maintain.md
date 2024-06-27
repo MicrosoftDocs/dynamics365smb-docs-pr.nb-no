@@ -11,7 +11,7 @@ ms.date: 05/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Vedlikehold aktiva
+# <a name="maintain-fixed-assets"></a>Vedlikehold aktiva
 
 Vedlikeholdskostnader er driftsutgifter for tingene du gjør for å bevare tilstanden til dine faste aktiva. I motsetning til kapitalforbedringer øker ikke vedlikehold verdien av aktivaene dine.
 
@@ -24,7 +24,7 @@ Hver gang du sender et aktiva på service, registrerer du alle aktuelle opplysni
 
 Indeksregulering brukes til å justere verdier for generelle endringer i prisnivået. Bruk handlingen **Indeksreg. aktiva** til å beregne vedlikeholdskostnadene på nytt.
 
-## Registrer en vedlikeholdskostnad direkte på et anleggsmiddel
+## <a name="record-a-maintenance-cost-directly-on-a-fixed-asset"></a>Registrer en vedlikeholdskostnad direkte på et anleggsmiddel
 
 Hver gang det er utført vedlikehold for et aktivum, for eksempel et servicebesøk, kan du registrere dette på siden **Vedlikeholdsregistrering**.  
 
@@ -32,7 +32,7 @@ Hver gang det er utført vedlikehold for et aktivum, for eksempel et servicebes�
 2. Velg aktivaet du vil registrere vedlikehold for, og velg deretter **Vedlikeholdsregistrering**.
 3. På siden **Vedlikeholdsregistrering** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]  
 
-## Bokfør vedlikeholdskostnader fra en aktivafinanskladd
+## <a name="post-maintenance-costs-from-a-fixed-asset-gl-journal"></a>Bokfør vedlikeholdskostnader fra en aktivafinanskladd
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Avskrivningstablå – oversikt**, og velg deretter den relaterte koblingen.  
 2. Velg avskrivningstablået som er tilordnet til aktivaet, og velg deretter **Rediger**-handlingen.
@@ -46,7 +46,7 @@ Hver gang det er utført vedlikehold for et aktivum, for eksempel et servicebes�
     > Trinn 7 fungerer bare hvis du har definert følgende: På siden **Kort for bokf.grp.- aktiva** for bokføringsgruppen for aktivumet, inneholder **Vedlikeholdskonto**-feltet finansdebetkontoen og feltet **Motkonto for vedlikehold** inneholder finanskontoen du vil bokføre motposter for oppskrivning til. Hvis du vil ha mer informasjon, kan du se [Slik definerer du bokføringsgrupper for aktiva](fa-how-setup-general.md#to-set-up-fixed-asset-posting-groups).
 8. Velg handlingen **Bokfør**.
 
-## Registrer vedlikeholdskostnader fra en kjøpsfaktura
+## <a name="record-maintenance-cost-from-a-purchase-invoice"></a>Registrer vedlikeholdskostnader fra en kjøpsfaktura
 
 Trinnene nedenfor beskriver hvordan du registrerer vedlikeholdskostnader for et aktivum fra en kjøpsfaktura. Trinnene er de samme for bestillinger.
 
@@ -57,7 +57,7 @@ Trinnene nedenfor beskriver hvordan du registrerer vedlikeholdskostnader for et 
 5. I feltet **Aktivabokf.type** velger du **Vedlikehold**.
 6. Bokfør kjøpsfakturaen.
 
-## Følg opp på servicebesøk
+## <a name="follow-up-on-service-visits"></a>Følg opp på servicebesøk
 
 Du kan skrive ut rapporten **Vedlikehold - neste service** for å føre op aktivaene som er planlagt for service. Du kan også bruke denne rapporten når du vil oppdatere feltet **Neste servicedato** på aktivakortene.  
 
@@ -65,7 +65,7 @@ Du kan skrive ut rapporten **Vedlikehold - neste service** for å føre op aktiv
 2. Fyll ut feltene **Startdato** og **Sluttdato**.  
 3. Velg knappen **Skriv ut** eller **Forhåndsvisning**.
 
-## Overvåk vedlikeholdskostnader
+## <a name="monitor-maintenance-costs"></a>Overvåk vedlikeholdskostnader
 
 Du kan vise statistikk for å overvåke vedlikeholdskostnader.  
 
@@ -76,7 +76,7 @@ Du kan vise statistikk for å overvåke vedlikeholdskostnader.
 
 Bruk **Vedlikeholdsposter**-siden åpnes til å se postene som utgjør beløpet i **Vedlikehold**-feltet.
 
-## Vis eller skriv ut vedlikeholdskostnader for flere aktiva
+## <a name="view-or-print-maintenance-costs-for-multiple-fixed-assets"></a>Vis eller skriv ut vedlikeholdskostnader for flere aktiva
 
 I rapporten **Vedlikehold - analyse** kan du velge om du vil undersøke vedlikehold basert på én, to eller tre vedlikeholdskoder for en spesifikk dato eller periode. Rapporten kan vise summen for alle valgte aktiva eller summen for hvert aktiva.
 
@@ -84,7 +84,7 @@ I rapporten **Vedlikehold - analyse** kan du velge om du vil undersøke vedlikeh
 2. Fyll ut feltene etter behov.
 3. Velg knappen **Skriv ut** eller **Forhåndsvisning**.
 
-## Vis vedlikeholdsposter
+## <a name="view-maintenance-ledger-entries"></a>Vis vedlikeholdsposter
 
 Du kan også utforske vedlikeholdskostnadene ved å se på vedlikeholdspostene.  
 
@@ -92,7 +92,7 @@ Du kan også utforske vedlikeholdskostnadene ved å se på vedlikeholdspostene.
 2. Velg aktivaet du vil vise poster for, og velg deretter **Avskrivningstablåer**.
 3. På **Aktivaavskrivningstablå**-siden velger du det relevante aktivaavskrivningstablået, og velger deretter **Vedlikeholdsposter**-handlingen.
 
-## Vis eller skriv ut vedlikeholdsposter for flere aktiva
+## <a name="view-or-print-maintenance-ledger-entries-for-multiple-fixed-assets"></a>Vis eller skriv ut vedlikeholdsposter for flere aktiva
 
 I **Vedlikehold - detaljer**-rapporten kan du vise eller skrive ut vedlikeholdsposter for ett eller flere aktiva.  
 
@@ -100,7 +100,7 @@ I **Vedlikehold - detaljer**-rapporten kan du vise eller skrive ut vedlikeholdsp
 2. Fyll ut feltene etter behov.
 3. Velg knappen **Skriv ut** eller **Forhåndsvisning**.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Aktiva](fa-manage.md)  
 [Definer aktiva](fa-setup.md)  

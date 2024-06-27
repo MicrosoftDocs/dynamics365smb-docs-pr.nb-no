@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Samsvarsoversikt
+# <a name="compliance-overview"></a>Samsvarsoversikt
 
 Dette innholdet omfatter informasjon om samsvar i tilknytning til [!INCLUDE[prod_long](../includes/prod_long.md)].
 

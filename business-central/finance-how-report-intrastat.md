@@ -11,7 +11,7 @@ ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Arbeid med Intrastat-rapportering
+# <a name="work-with-intrastat-reporting"></a>Arbeid med Intrastat-rapportering
 
 Alle selskaper i EU må rapportere handel med andre EU-land/-regioner. Varebevegelsen må hver måned rapporteres til statistikkmyndighetene i landet/regionen du bor i, og rapporten må leveres til skattemyndighetene. Intrastat er et system for innsamling av handelsstatistikk for varer i disse landene/regionene. Du bruker **Intrastat-rapport** til å fylle ut periodisk Intrastat-rapportering (vanligvis månedlig), samle inn, registrere og rapportere varer i henhold til lokal statlig lovgivning.
 
@@ -27,7 +27,7 @@ Intrastat-rapportering er basert på standard EU-bestemmelser som gjelder for al
 >
 > Vi forventer at denne funksjonen er tilgjengelig fra november 2022 som en app på [AppSource](https://go.microsoft.com/fwlink/?linkid=2081646). Når du skal bruke det, må du først installere det på siden **Administrasjon av utvidelse**.
 
-## Fyll ut rapporten Intrastat
+## <a name="fill-in-the-intrastat-report"></a>Fyll ut rapporten Intrastat
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Intrastat-liste** og velger den relaterte koblingen.
 2. Velg **Ny** for å opprette en ny **Intrastat-rapport**.
@@ -43,7 +43,7 @@ Intrastat-rapportering er basert på standard EU-bestemmelser som gjelder for al
 
 Kjørselen henter alle varepostene i statistikkperioden og setter dem inn som linjer i **Intrastat-rapport**-linjene. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Endre rapporten Intrastat
+## <a name="modify-the-intrastat-report"></a>Endre rapporten Intrastat
 
 Om nødvendig kan du endre linjene, men når du endrer en verdi på linjen i Intrastat-rapporten, vil feltet **Korreksjon** automatisk merkes som **Ja**. Til slutt kan du legge til en ny linje manuelt hvis det er en årsak til det. Slik legger du til en ny linje manuelt:
 
@@ -56,13 +56,13 @@ Om nødvendig kan du endre linjene, men når du endrer en verdi på linjen i Int
 > [!NOTE]  
 > Når du manuelt legger til en ny linje i Intrastat-rapporten, må **Dato**-feltet på linjen være innenfor **Statistisk periode**-området du la til i hodet.
 
-## Validere Intrastat-linjer
+## <a name="validate-intrastat-lines"></a>Validere Intrastat-linjer
 
 Når du har fylt ut **Intrastatkladden**, kan du kjøre handlingen **Sjekklisterapport** for å være sikker på at at all informasjon i **Intrastat-rapport** er riktig. Obligatoriske felt du har angitt på siden Sjekkliste for Intrastat-rapport som mangler verdier, vises i faktaboksen **Feil og advarsler** på siden **Intrastat-rapport**.
 
 Kjør rapporten **Sjekkliste for Intrastat-rapport** for å kontrollere Intrastat-linjer før de eksporteres til det nødvendige formatet. Sjekken kjøres i **Intrastat-rapport**.
 
-## Omberegne vekt eller supplerende enhet
+## <a name="recalculating-weight-or-supplementary-unit-of-measure"></a>Omberegne vekt eller supplerende enhet
 
 Hvis du fikk feilmeldingen *Total vekt i Intrastat-rapportens linje kan ikke være tom*, er det sannsynlig at du ikke har satt feltet **Nettovekt** i den brukte kilden, varen eller aktivumet. I dette tilfellet kan du søke etter vare- eller aktivakortet og legge til den nødvendige verdien. Deretter trenger du bare å åpne **Intrastat-rapporten** på nytt og følge disse trinnene:
 
@@ -74,7 +74,7 @@ Hvis du fikk feilmeldingen *Total vekt i Intrastat-rapportens linje kan ikke væ
     3. **Begge** – for å beregne både **Total vekt** og **Tilleggsantall** basert på gjeldende informasjon om vare- og aktivakortet.
 3. Velg **OK** når du vil starte den satsvise jobben.
 
-## Rapportere Intrastat i en fil
+## <a name="report-intrastat-in-a-file"></a>Rapportere Intrastat i en fil
 
 Du kan sende Intrastat-rapporten som en fil basert på kravene til lokale myndigheter. Før du oppretter filen, må du kjøre **Sjekklisterapport** for å kontrollere om alle linjene inneholder alle nødvendige og gyldige opplysninger. Slik oppretter du en fil:
 
@@ -92,22 +92,22 @@ Når du har opprettet filen, vil [!INCLUDE[prod_short](includes/prod_short.md)] 
 > [!NOTE]  
 > Neste gang du oppretter en fil, vil feltene **Eksportdato** og **Eksporttidspunkt** bare vise informasjon om den siste filen du opprettet.
 
-## Intrastat-regler
+## <a name="intrastat-rules"></a>Intrastat-regler
 
-### Grupperingslinjer
+### <a name="grouping-lines"></a>Grupperingslinjer
 
 I **Intrastat-rapport**-linjer kan det ikke grupperes etter noen felter. Alle postene kopieres fra den opprinnelige kilden, slik at du raskt kan finne dem basert på kombinasjonen av **Kildetype** og **Kildeløpenr**.
 
 Gruppering som kreves av myndighetene, vil bli oppgitt i den eksporterte filen. Du må konfigurere denne i **Datautvekslingsdefinisjonen**, som kan konfigureres fullstendig. Finn ut mer under [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md).
 
-### Aktivarapportering
+### <a name="fixed-assets-reporting"></a>Aktivarapportering
 
 Aktiva vil bare bli vist på Intrastat-linjene hvis:
 
 * **Aktivabokf.type** i **Aktivapost**-feltet er **Anskaffelseskost** og hvis **Dokumenttype** er **Faktura** ved kjøp og
 * **Aktivabokf.type** i **Aktivapost**-feltet er **Overskudd ved salg** og hvis **Dokumenttype** er **Faktura** ved salg.
 
-### Status for Intrastat-rapport
+### <a name="intrastat-report-statuses"></a>Status for Intrastat-rapport
 
 Når du arbeider med **Intrastat-rapporten**, ser du et **Status**-felt i dokumenthodet. Du kan finne følgende status sammen med tilknyttede regler:
 
@@ -115,14 +115,14 @@ Når du arbeider med **Intrastat-rapporten**, ser du et **Status**-felt i dokume
 * **Utgitt**: [!INCLUDE[prod_short](includes/prod_short.md)] endrer automatisk statusen til *Frigitt* når du oppretter en fil. Fra dette tidspunktet kan du ikke endre **Intrastat-rapporten**. Hvis du må endre noe og en rapport på nytt, kan du bruke handlingen **Åpne på nytt** til å åpne Intrastat-rapporten på nytt. Når dokumentet er åpnet på nytt, kan du bruke **Frigi**-handlingen til å frigi dokumentet.
 * **Rapportert**: Angir om posten allerede er rapportert til skattemyndighetene. Dette er ikke en vanlig status, men et selvstendig felt, og selv om du åpnet Intrastat-rapporten på nytt, ville den fortsatt vise at filen allerede er opprettet for denne rapporten.
 
-### Lokasjoner i Intrastat-rapportering 
+### <a name="locations-in-intrastat-reporting"></a>Lokasjoner i Intrastat-rapportering
 
 [!INCLUDE[prod_short](includes/prod_short.md)] bruker alltid informasjonen i feltet **Lands-/områdekode** på siden **Lokasjonskort** som landet for **sending fra** eller for **mottak av** varer. Når denne informasjonen ikke finnes eller lokasjonen ikke ble brukt, bruker systemet informasjonen fra siden **Selskapsopplysninger**.   
 
 > [!NOTE]  
 > Hvis selskapet opererer fra mer enn ett land, fungerer ikke Intrastat-rapportering for alle land der lokasjoner er konfigurert. Rapporteringen er bare basert på hovedlandet, siden det for øyeblikket ikke er mulig å bruke rapportering i flere land.  
 
-### Trekanthandel i Intrastat
+### <a name="triangular-trade-in-intrastat"></a>Trekanthandel i Intrastat
 
 Trekanthandel innebærer handel mellom tre land eller områder der varer omgår rapporteringsselskapets land. I Business Central kan dette tilrettelegges ved hjelp av funksjonen [Direkte levering](sales-how-drop-shipment.md). Hvis du vil aktivere dette alternativet, aktiverer du feltet **Inkluder direkte levering** i **Oppsett for Intrastat-rapport**.  
 
@@ -140,7 +140,7 @@ Når du aktiverer dette alternativet, bruker systemet følgende regler, men bare
 | Land utenfor EU | EU-land som er forskjellig fra landet i **selskapsinformasjonen** | Ingen Intrastat-linjer |
 | Land utenfor EU | Land utenfor EU | Ingen Intrastat-linjer |   
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Konfigurer Intrastat-rapportering](finance-how-setup-report-intrastat.md)  
 [Økonomistyring](finance.md)  

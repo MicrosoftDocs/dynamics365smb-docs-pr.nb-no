@@ -10,19 +10,19 @@ ms.search.form: 'Report_5600, Report_5601, Report_5603, Report_5604, Report_5605
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Rapporter og analyser av aktiva i Business Central
+# <a name="fixed-assets-reports-and-analytics-in-business-central"></a>Rapporter og analyser av aktiva i Business Central
 
 For å hjelpe deg med å administrere aktiva i [!INCLUDE [prod_short](includes/prod_short.md)] er standardrapporter og analyse innebygd. Det flytter seg utenfor tradisjonelle rapporteringsbegrensninger for å hjelpe deg med å utforme forskjellige typer rapporter effektivt.  
 
-## Rapporter
+## <a name="reports"></a>Rapporter
 
 [!INCLUDE [fa_reports](includes/fa-reports-include.md)]
 
-## Utforske finansrapporter med Rapportutforsker
+## <a name="explore-finance-reports-with-report-explorer"></a>Utforske finansrapporter med Rapportutforsker
 
 [!INCLUDE [finance_reports_report_explorer](includes/finance-reports-report-explorer-include.md)]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Ad hoc-analyse av aktivadata](ad-hoc-analysis-fa.md)  
 [Oversikt over analyse av aktiva](fa-analytics-overview.md)  

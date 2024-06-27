@@ -10,7 +10,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Feilmeldingen «Bokføringsdatoen er ikke innenfor tillatte bokføringsdatoer»
+# <a name="error-message-posting-date-is-not-within-your-range-of-allowed-posting-dates"></a>Feilmeldingen «Bokføringsdatoen er ikke innenfor tillatte bokføringsdatoer»
 
 Når du bruker kjørselen **Juster kostverdi – vareposter**, kan du støte på følgende feilmelding:
 
@@ -18,7 +18,7 @@ Når du bruker kjørselen **Juster kostverdi – vareposter**, kan du støte på
 
 Denne meldingen angir at du ikke kan bokføre oppføringer for datoen du skrev inn. Du kan omgå dette problemet ved å endre brukeroppsettet.
 
-## Endre brukeroppsettet  
+## <a name="change-the-user-setup"></a>Endre brukeroppsettet
 
 |Bruker-ID  |Bokf. tillatt fra  | Bokf. tillatt til  |
 |---------|---------|--------|
@@ -26,9 +26,9 @@ Denne meldingen angir at du ikke kan bokføre oppføringer for datoen du skrev i
 
 I dette tilfellet kan du publisere i datoperioden fra 11. september til 30. september. Du kan imidlertid ikke bokføre justeringsverdiposten med 10. september som bokføringsdato.  
 
-### Oversikt over oppsettet for bokføringsdato
+### <a name="overview-of-the-posting-date-setup"></a>Oversikt over oppsettet for bokføringsdato
 
-#### Lagerperioder
+#### <a name="inventory-periods"></a>Lagerperioder
 
 |Sluttdato  |Name  |Lukkede  |
 |---------|---------|---------|
@@ -45,7 +45,7 @@ I dette tilfellet kan du publisere i datoperioden fra 11. september til 30. sept
 |2020-11-30     |November   2020   |         |
 |2020-12-31     |Desember   2020   |         |  
 
-#### Finansoppsett
+#### <a name="general-ledger-setup"></a>Finansoppsett
 
 |Felt|Verdi|
 |---------|---------|
@@ -54,7 +54,7 @@ I dette tilfellet kan du publisere i datoperioden fra 11. september til 30. sept
 |Registrer tid:       |         |
 |Lokalt adresseformat:|   Postnr.      |  
 
-#### Brukeroppsett
+#### <a name="user-setup"></a>Brukeroppsett
 
 |Bruker-ID  |Bokf. tillatt fra  | Bokf. tillatt til  |
 |---------|---------|--------|
@@ -62,7 +62,7 @@ I dette tilfellet kan du publisere i datoperioden fra 11. september til 30. sept
 
 Når du tilordner et større intervall, der du tillater bokføring på sidene **Lagerperiode** eller **Finansoppsett**, blir det mulig å unngå konflikten som forårsaker feilmeldingen. Det bredere området lar deg for eksempel bokføre justeringsverdiposten med 10. september som bokføringsdato.
   
-## Se også  
+## <a name="see-also"></a>Se også
 
 [Utformingsdetaljer: Bokføringsdato på justeringsverdipost](design-details-inventory-adjustment-value-entry-posting-date.md)  
 [Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)  

@@ -11,7 +11,7 @@ ms.search.form: '1290, 1291, 1293, 1294'
 ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
-# Utlign betalinger automatisk og avstem bankkontoer
+# <a name="applying-payments-automatically-and-reconciling-bank-accounts"></a>Utlign betalinger automatisk og avstem bankkontoer
 
 Du må regelmessig avstemme bankkontoene og samlekontoene for kunder og leverandører ved å utligne betalinger som er registrert på bankkontoen, mot de tilknyttede åpne (ubetalte) fakturaene og kreditnotaene eller andre åpne poster i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
@@ -38,7 +38,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 | Koble tekst på betalinger til bestemte kunde-, leverandør- eller finanskontoer for alltid å bokføre gjentakende innbetalinger eller utgifter på disse kontoene når det ikke finnes noen dokumenter å utligne dem på. |[Tilordne tekst på gjentakende betalinger til kontoer for automatisk avstemming](receivables-how-map-text-recurring-payments-accounts-auto-reconcilliation.md) |
 |Definer regler for å styre hvordan betalinger/banktransaksjoner skal utlignes automatisk mot de relaterte åpne finanspostene, når du bruker funksjonen **Utlign automatisk** på siden **Betalingsavstemmingskladd**.|[Definer regler for automatisk utligning av betalinger](receivables-how-set-up-payment-application-rules.md)|
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Avstem bankkontoer](bank-how-reconcile-bank-accounts-separately.md)  
 [Håndtere fordringer](receivables-manage-receivables.md)  

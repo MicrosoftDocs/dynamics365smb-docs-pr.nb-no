@@ -9,7 +9,7 @@ ms.search.form: '99000764, 99000765, 99000766, 99000767, 99000794, 99000796, 990
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# Opprett ruter
+# <a name="create-routings"></a>Opprett ruter
 
 Produksjonsselskaper bruker ruter til å visualisere og dirigere produksjonsprosessen.
 
@@ -22,7 +22,7 @@ Før du kan definere en rute, må følgende oppsett være på plass:
 - Varekort er opprettet for overordnede varer som inngår i produksjonen. Finn ut mer under [Registrer nye varer](inventory-how-register-new-items.md).
 - Produksjonsressurser er definert. Finn ut mer under [Konfigurere arbeidssentre og produksjonsressurser](production-how-to-set-up-work-and-machine-centers.md).
 
-## Slik oppretter du en rute
+## <a name="to-create-a-routing"></a>Slik oppretter du en rute
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Ruter**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
@@ -51,7 +51,7 @@ Før du kan definere en rute, må følgende oppsett være på plass:
 > [!NOTE]  
 > Husk også å beregne varens standardkost på nytt fra **Vare**-kortet: Velg handlingen **Produksjon**, handlingen **Beregn standardkost**, og velg deretter handlingen **Alle nivåer**.  
 
-## Slik oppretter du rutekoblinger
+## <a name="to-create-routing-links"></a>Slik oppretter du rutekoblinger
 
 Du kan opprette rutekoblinger til å koble komponenter til bestemte operasjoner for å kunne beholde forbindelsen selv om produksjonsstykklisten eller ruten endres. Rutekoblinger forenkler også trekk av komponenter i siste liten, nærmere bestemt når den spesifikke koblingsoperasjonen starter, og ikke når hele produksjonsordren frigis. Finn ut mer under [Lagertrekk komponenter i henhold til operasjonsavgang](production-how-to-flush-components-according-to-operation-output.md).  
 
@@ -85,7 +85,7 @@ En annen viktig fordel er at koblede komponenter og operasjoner vises i en logis
 
 De valgte komponentene kobles nå til de valgte operasjonene når du oppretter eller fornyer produksjonsordren ved hjelp av produksjonsstykklisten og ruten. Denne koblingen vises på siden **Prod.ordrekomponenter** under produksjonsordren. Du kan når som helst fjerne og legge til rutekoblingskodene.
 
-## Slik tilordner du personellet, verktøyene og kvalitetsmålene til ruteoperasjoner
+## <a name="to-assign-personnel-tools-and-quality-measures-to-routing-operations"></a>Slik tilordner du personellet, verktøyene og kvalitetsmålene til ruteoperasjoner
 
 Hvis du trenger personell med kvalifikasjoner, spesialkunnskap eller spesiell godkjenning for en operasjon, kan du tilordne dette personellet til operasjonen. Du kan dessuten tilordne verktøy og kvalitetskrav til operasjonen. Denne fremgangsmåten beskriver hvordan du tilordner personell. Fremgangsmåten er de samme som for andre typer informasjon om operasjoner.
 
@@ -95,7 +95,7 @@ Hvis du trenger personell med kvalifikasjoner, spesialkunnskap eller spesiell go
 4. Fyll ut feltene på **Rutepersonell**-siden.  
 5. Velg **OK**-knappen for å lukke siden. De angitte verdiene kopieres og tilordnes operasjonen.  
 
-## Slik oppretter du en ny versjon av en rute
+## <a name="to-create-a-new-version-of-a-routing"></a>Slik oppretter du en ny versjon av en rute
 
 Med versjonsprinsippet kan du håndtere flere versjoner av en rute. Strukturen i ruteversjonen tilsvarer strukturen i ruten som består av ruteversjonshodet og ruteversjonslinjene. Hovedforskjellen defineres av startdatoen.  
 
@@ -112,7 +112,7 @@ Med versjonsprinsippet kan du håndtere flere versjoner av en rute. Strukturen i
 
 7. Når du er ferdig med å konfigurere ruteversjonen, kan du angi **Status**-feltet til **Sertifisert**.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Opprett produksjonsstykklister](production-how-to-create-production-boms.md)  
 [Definere produksjon](production-configure-production-processes.md)  

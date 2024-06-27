@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Bruk varegebyr til å gjøre rede for ekstra handelskostnader
+# <a name="use-item-charges-to-account-for-additional-trade-costs"></a>Bruk varegebyr til å gjøre rede for ekstra handelskostnader
 
 For å sikre riktig verdisetting må lagervarene bære eventuelle ekstra kostnader, for eksempel frakt, fysisk håndtering, forsikring og transport, som du pådrar deg når du kjøper eller selger varer. Når det gjelder kjøp, består netto innkjøpspris for en vare av innkjøpsprisen fra leverandøren samt alle andre direkte varegebyr som kan tilordnes enkeltstående mottak eller returforsendelser. Når det gjelder salg, kan det være like viktig for selskapet ditt å være klar over kostnaden ved å levere solgte varer som netto innkjøpspris for kjøpte varer.
 
@@ -31,13 +31,13 @@ Du kan tilordne et varegebyr på to måter for både kjøps- og salgsdokumenter:
 > [!NOTE]  
 > Du kan tilordne varegebyr til ordrer, fakturaer og kreditnotaer både for kjøp og salg. De følgende fremgangsmåtene viser hvordan du arbeider med varegebyr for en kjøpsfaktura. Trinnene er lignende for alle andre kjøps- og salgsdokumenter.
 
-## Eksempel
+## <a name="example"></a>Eksempel
 
 Denne videoen viser hvordan du håndterer en ekstra leveringskostnad som del av lageretterkalkulering.
 <br><br>  
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4b0SB?rel=0]
 
-## Definere varegebyrnumre
+## <a name="to-set-up-item-charge-numbers"></a>Definere varegebyrnumre
 
 Du bruker varegebyrnumre til å skille mellom de ulike typene varegebyr.
 
@@ -45,7 +45,7 @@ Du bruker varegebyrnumre til å skille mellom de ulike typene varegebyr.
 2. Velg handlingen **Ny** på **Varegebyr**-siden for å opprette en ny linje.
 3. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Tilordne et varegebyr direkte til kjøpsfakturaen for varen
+## <a name="to-assign-an-item-charge-directly-to-the-purchase-invoice-for-the-item"></a>Tilordne et varegebyr direkte til kjøpsfakturaen for varen
 
 Hvis du vet varegebyret når du bokfører en kjøpsfaktura for varen, følger du denne fremgangsmåten.
 
@@ -69,7 +69,7 @@ Hvis varegebyret er fullstendig tilordnet, er verdien i feltet **Ant. som skal t
 
 Varegebyret er nå tilordnet til kjøpsfakturaen. Når du bokfører mottaket av kjøpsfakturaen, oppdateres varens lagerverdier med varegebyrkostnaden.  
 
-## Tilordne et varegebyr fra en separat faktura til kjøpsfakturaen for varen
+## <a name="to-assign-an-item-charge-from-a-separate-invoice-to-the-purchase-invoice-for-the-item"></a>Tilordne et varegebyr fra en separat faktura til kjøpsfakturaen for varen
 
 Hvis du mottar en faktura for varegebyret etter at du har bokført det opprinnelige kjøpsmottaket, følger du denne fremgangsmåten.
 
@@ -80,7 +80,7 @@ Hvis du mottar en faktura for varegebyret etter at du har bokført det opprinnel
 
 Varegebyret på den separate kjøpsfakturaen er nå tilordnet til varen på det bokførte kjøpsmottaket og oppdaterer derved lagerverdien for varen med varegebyrkostnaden.
 
-## Håndter varegebyrer for delvise mottak
+## <a name="handle-item-charges-for-partial-receipts"></a>Håndter varegebyrer for delvise mottak
 
 La oss undersøke et eksempel på hvordan varegebyr for et delvis mottak skal håndteres.
 
@@ -95,7 +95,7 @@ Hvis du vil håndtere varekostnaden for delvis mottak, angir du **0** i feltet *
 
 Når du er klar til å håndtere varen som mangler, oppdaterer du feltet **Antall som skal håndteres** og bokfører bestillingen.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Registrer kjøp](purchasing-how-record-purchases.md)  

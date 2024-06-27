@@ -10,7 +10,7 @@ ms.date: 06/16/2024
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# Servicesamsvar
+# <a name="service-compliance"></a>Servicesamsvar
 
 Dette innholdet omfatter informasjon om servicesamsvar i tilknytning til [!INCLUDE[prod_short](../includes/prod_short.md)] på nett.
 
@@ -20,11 +20,11 @@ Hvis du vil ha en detaljert liste over tilbud om skysamsvar for Business Central
 
 Hvis du vil se den komplette listen over samsvarstilbud fra Microsoft, kan du gå til [Microsoft Klareringssenter](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## Tjenestevilkår
+## <a name="service-terms"></a>Tjenestevilkår
 
 [!INCLUDE[service-terms](../includes/service-terms.md)]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Samsvar](compliance-overview.md)  
 [Programsamsvar](compliance-application-compliance.md)  

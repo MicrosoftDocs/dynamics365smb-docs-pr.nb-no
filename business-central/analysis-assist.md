@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
-# Analyser data i lister ved hjelp av Copilot (forhåndsversjon)
+# <a name="analyze-data-in-lists-with-help-from-copilot-preview"></a>Analyser data i lister ved hjelp av Copilot (forhåndsversjon)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -18,21 +18,21 @@ Denne artikkelen forklarer hvordan du bruker *analysehjelp* til å analysere dat
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Om analysehjelp
+## <a name="about-analysis-assist"></a>Om analysehjelp
 
 Analysehjelp er en Copilot for [analysemodusen](analysis-mode.md) på listesider i Business Central. Analysemodusen gir en interaktiv og allsidig måte å beregne, summere og undersøke data på. Hvis du vil analysere data i analysemodus, oppretter du en *analysefane* der du transformerer dataene for å vise de ønskede samlingene og sammendragene. Du kan for eksempel ordne felter i rader og kolonner, angi filtre, sortere kolonner og pivotere felter. Med analysehjelp oppnår du, i stedet for å gjøre denne oppgaven manuelt, mye av det samme – eller hvertfall som en start – ved å bruke ord. Ved å uttrykke strukturen du vil bruke på naturlig språk, for eksempel «sortere etter antall fra minste til største» eller «vis gjennomsnittskostnad per kategori», bruker analysehjelp kunstig intelligens til å generere et foreslått oppsett i en analysefane.
 
-## Tilgjengelige språk
+## <a name="available-languages"></a>Tilgjengelige språk
 
 [!INCLUDE[analysis-assist-language-support](includes/analysis-assist-language-support.md)]
 
-## Forutsetninger
+## <a name="prerequisites"></a>Forutsetninger
 
 - Analysehjelpfunksjonen er aktivert, og du får tillatelse til å bruke den. Denne oppgaven utføres vanligvis av en administrator. [Finn ut mer om å konfigurere Copilot- og KI-funksjoner](enable-ai.md).
 <!-- - The display language in Business Central is set to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn how to change the language](ui-change-basic-settings.md#language)-->
 <!-- - Your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).-->
 
-## Kom i gang
+## <a name="get-started"></a>Kom i gang
 
 1. Åpne listesiden som du vil analysere.
 
@@ -64,7 +64,7 @@ Analysehjelp er en Copilot for [analysemodusen](analysis-mode.md) på listesider
 
 1. Hvis du vil lagre analysefanen, velger du **Behold den**. Hvis du ikke vil lagre den, velger du **Forkast**.
 
-## Spørringstips og -eksempler
+## <a name="prompt-tips-and-examples"></a>Spørringstips og -eksempler
 
 Det er viktig å lage effektive spørringer for Copilot for å få nøyaktige og relevante analyseforslag. Det finnes også måter å minimere tekst du legger til i spørringer for å gjøre det raskere når du skriver. Her er noen tips og retningslinjer etterfulgt av noen eksempler:
 
@@ -76,7 +76,7 @@ Det er viktig å lage effektive spørringer for Copilot for å få nøyaktige og
 - Vanlige forkortelser er akseptable.
 - Bokstavstørrelse er ikke viktig.
 
-### Eksempler
+### <a name="examples"></a>Eksempler
 
 Disse følgende spørringseksemplene bruker analysehjelp i **elementlisten**. Varesiden inneholder tre felter som kan summeres for analyse: **Antall på lager**, **Enhetskost**, **Salgspris**.
 
@@ -92,7 +92,7 @@ Spørring: `Show total quantity per type per UoM`
 
 Denne spørringen oppretter en pivottabell i feltet **Antall på lager** per **lagerenhet** per **type**.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Vanlige spørsmål om ansvarlig kunstig intelligens for analysehjelp](faqs-analysis-assist.md)  
 [Analyse av ad hoc-data](reports-adhoc-analysis.md)  

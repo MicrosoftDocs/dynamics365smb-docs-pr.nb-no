@@ -10,21 +10,21 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# Bærekraftsrapporter og analyser i Business Central
+# <a name="sustainability-reports-and-analytics-in-business-central"></a>Bærekraftsrapporter og analyser i Business Central
 
 Bærekraftsrapportering gir finansfolk innsikt og statistikk om gjeldende og tidligere bærekraftsinvesteringer og utslipp.  
 
-## Rapporter
+## <a name="reports"></a>Rapporter
 
 [!INCLUDE [sustainability_reports](includes/sustainability-reports-include.md)]
 
-## Oppgaver
+## <a name="tasks"></a>Oppgaver
 
 Følgende artikler beskriver noen av de viktige oppgavene for å analysere tilstanden til bærekraftsinnsatsen din.
 
 * [Beregn utslipp basert på økonomimodul](finance-sustainability-journal.md)
 
-## Utforske bærekraftsrapporter med Rapportutforsker
+## <a name="explore-sustainability-reports-with-report-explorer"></a>Utforske bærekraftsrapporter med Rapportutforsker
 
 Hvis du vil ha en oversikt over rapportene som er tilgjengelige for bærekraft, velger du **Alle rapporter** på startsiden. Denne handlingen åpner rolleutforskeren, som er filtrert etter funksjonene i alternativet **Rapport og analyse**. Under overskriften **GJØREMÅL** velger du **Utforsk**.
 
@@ -34,7 +34,7 @@ Hvis du vil ha en oversikt over rapportene som er tilgjengelige for bærekraft, 
 
 Hvis du vil finne ut mer, kan du gå til [Finn rapporter med rolleutforskeren](ui-role-explorer.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Ad hoc-analyse av bærekraftsdata](ad-hoc-analysis-sustainability.md)   
 [Oversikt over bærekraftsadministrasjon](finance-manage-sustainability.md)   

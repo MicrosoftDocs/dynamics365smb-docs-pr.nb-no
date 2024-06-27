@@ -10,7 +10,7 @@ ms.date: 05/28/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Lag direkte levering
+# <a name="make-drop-shipments"></a>Lag direkte levering
 
 En direkte levering er levering av varer fra en av leverandørene dine, direkte til en av kundene dine.
 
@@ -19,7 +19,7 @@ Når en ordre er merket for direkte levering, og du oppretter en bestilling for 
   
 > [!Video https://www.microsoft.com/en-us/videoplayer/embed/RE4mOyM?rel=0]
 
-## Slik oppretter du en ordre med direkte levering:
+## <a name="to-create-a-sales-order-for-drop-shipment"></a>Slik oppretter du en ordre med direkte levering:
 
 Hvis du vil klargjøre en direkte levering, kan du opprette en ordre og vise på salgslinjen at salget krever direkte levering.
 
@@ -29,7 +29,7 @@ Hvis du vil klargjøre en direkte levering, kan du opprette en ordre og vise på
 > [!TIP]
 > Avmerkingsboksen for direkte levering og kjøpskode er som standard ikke tilgjengelig på linjene. Hvis de ikke er det, kan du legge dem til ved å tilpasse inndelingen på siden som inneholder linjene. Hvis du vil ha mer informasjon, kan du se [Tilpasse arbeidsområdet](ui-personalization-user.md).
 
-## Slik oppretter du bestillingen med direkte levering:
+## <a name="to-create-the-purchase-order-for-drop-shipment"></a>Slik oppretter du bestillingen med direkte levering:
 
 For å klargjøre en direkte levering angir du på bestilling at den må leveres til kunden, ikke til deg selv.
 
@@ -46,7 +46,7 @@ Nå kan du be leverandøren om å sende varene direkte til kunden. Du kan for ek
 
 Hvis leverandøren oppgir ekstra informasjon, for eksempel et sporingsnummer, kan du legge til informasjonen som en kommentar på en bestillingslinje. Hvis du vil legge til en kommentar på en linje, går du til **Type**-feltet, velger **Kommentar** og skriver inn informasjonen i **Beskrivelse**-feltet.  
 
-## Slik oppretter du flere bestillinger med direkte leveringer
+## <a name="to-create-multiple-purchase-orders-for-drop-shipments"></a>Slik oppretter du flere bestillinger med direkte leveringer
 
 Du kan også bruke bestillingsforslaget til å opprette bestillinger. Fordelen med å bruke bestillingsforslaget er at det kan opprette bestillinger for alle utestående direkte leveringer. Det betyr at du ikke trenger å opprette hver bestilling for seg.
 
@@ -56,11 +56,11 @@ Du kan også bruke bestillingsforslaget til å opprette bestillinger. Fordelen m
 4. Se gjennom bestillingslinjene, og velg leverandøren som leverer varene, i feltet **Leverandørnummer**.
 5. Velg handlingen **Utfør handlingsmelding** for å konvertere linjene til en bestilling.
 
-## Slik viser du den tilknyttede bestillingen fra ordren:
+## <a name="to-view-the-linked-purchase-order-from-the-sales-order"></a>Slik viser du den tilknyttede bestillingen fra ordren:
 
 Velg ordrelinjen med direkte levering, velg **Ordre**-handlingen, velg **Direkte levering**-handlingen, og velg deretter **Bestilling**-handlingen.
 
-## Bokføre en direkte levering
+## <a name="to-post-a-drop-shipment"></a>Bokføre en direkte levering
 
 Når leverandøren har levert varene, kan du bokføre ordren som levert. Du kan også bokføre bestillingen, men bare med **Motta**-alternativet til ordren er fakturert.
 
@@ -73,7 +73,7 @@ Når leverandøren har levert varene, kan du bokføre ordren som levert. Du kan 
 > [!TIP]
 > Ikke glem at du må bokføre bestillingsfakturaen.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Opprett spesialbestillinger](sales-how-to-create-special-orders.md)  
 [Kjøpvarer for et salg](purchasing-how-purchase-products-sale.md)  

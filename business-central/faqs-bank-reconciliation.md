@@ -13,7 +13,7 @@ ms.collection:
   - bap-ai-copilot
 ---
 
-# Vanlige spørsmål om bankkontoavstemmingshjelp med Copilot
+# <a name="faq-for-bank-account-reconciliation-assist-with-copilot-preview"></a>Vanlige spørsmål om bankkontoavstemmingshjelp med Copilot
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -21,7 +21,7 @@ Disse vanlige spørsmålene beskriver KI-effekten av Microsoft Copilot-hjelp med
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
-## Hva er bankkontoavstemmingshjelp?
+## <a name="what-is-bank-reconciliation-assist"></a>Hva er bankkontoavstemmingshjelp?
 
 Bankavstemming er en vanlig regnskapsoppgave der organisasjoner går gjennom bankkontoutdragene for å identifisere transaksjoner som skal registreres i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne oppgaven vil for eksempel bli brukt til å identifisere periodiske bankgebyrer eller små ansattutgifter.
 
@@ -29,7 +29,7 @@ Bankavstemming er vanligvis en prosess med flere trinn. Først importeres kontou
 
 Copilot i [!INCLUDE[prod_short](includes/prod_short.md)] reduserer manuelt arbeid ved å matche flere transaksjoner og foreslå finanskonti du kan bokføre til.
 
-## Hva er funksjonene til bankavstemmingshjelpen?
+## <a name="what-are-the-capabilities-of-bank-reconciliation-assist"></a>Hva er funksjonene til bankavstemmingshjelpen?
 
 Copilot gir KI-drevet assistanse med to forskjellige oppgaver:
 
@@ -43,21 +43,21 @@ Copilot gir KI-drevet assistanse med to forskjellige oppgaver:
 
 Copilot kobler seg ikke til banken din for å hente eller sende transaksjoner. Denne oppgaven forblir helt innenfor din kontroll. Den er en forutsetning for å begynne å bruke Copilot-assistansen, enten transaksjonene legges til [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av en digital bankforbindelse, importeres fra en bankkontoutdragsfil eller angis manuelt.
 
-## Hva er den tiltenkte bruken av bankavstemmingshjelp?
+## <a name="what-is-the-intended-use-of-bank-reconciliation-assist"></a>Hva er den tiltenkte bruken av bankavstemmingshjelp?
 
 Hjelp til bankkontoavstemming er utformet for å forbedre nøyaktigheten i postene ved å hjelpe kunder med å identifisere nye transaksjoner som de bør gjøre rede for i [!INCLUDE[prod_short](includes/prod_short.md)]. Det aktiviteten er ikke ment for å oppdage svindel eller identifisere om kunder har betalt i tide.
 
-## Hvordan ble bankavstemmingshjelp evaluert? Hvilke målinger brukes til å måle ytelse?
+## <a name="how-was-bank-reconciliation-assist-evaluated-what-metrics-are-used-to-measure-performance"></a>Hvordan ble bankavstemmingshjelp evaluert? Hvilke målinger brukes til å måle ytelse?
 
 Bankkontoavstemmingshjelpen ble testet ved hjelp av kombinasjoner av syntetiske banktransaksjonsdata og lignende finanskontoer og poster som dekker vanlige variasjoner og datagrenser for hvert felt og på forskjellige språk. Testdata representerer både typisk bruk og bruk av dårlige aktører. Ytelse ble målt i forhold til manuell avstemming av de samme dataene.
 
-## Hva er begrensningene til bankavstemmingshjelpen? Hvordan kan brukere minimere virkningen av disse begrensningene når de bruker systemet?
+## <a name="what-are-the-limitations-of-bank-reconciliation-assist-how-can-users-minimize-the-impact-of-these-limitations-when-they-use-the-system"></a>Hva er begrensningene til bankavstemmingshjelpen? Hvordan kan brukere minimere virkningen av disse begrensningene når de bruker systemet?
 
 Bankkontoavstemmingshjelp fungerer best når finanskontonavn, postbeskrivelser og banktransaksjonsbeskrivelser er på samme språk. Blandede språk eller blandet språk i transaksjonsbeskrivelser resulterer ofte i færre treff og forslag.
 
 Foreslåtte finanskonti fungerer best på ett av språkene som støttes (se neste del for en liste over språk). Brukere kan oppleve færre transaksjonstreff og færre foreslåtte finanskontoer på andre språk.
 
-## I hvilke geografiske områder og på hvilke språk er bankavstemmingshjelp tilgjengelig? 
+## <a name="in-which-geographies-and-languages-is-bank-reconciliation-assist-available"></a>I hvilke geografiske områder og på hvilke språk er bankavstemmingshjelp tilgjengelig?
 
 - Tilgjengelige geografiske områder
 
@@ -69,13 +69,13 @@ Foreslåtte finanskonti fungerer best på ett av språkene som støttes (se nest
 
 Hvis du vil ha mer informasjon om språk, kan du se forrige spørsmål om begrensninger.
 
-## Hva forventes av systembrukere når de bruker bankkontoavstemmingshjelpen?
+## <a name="what-is-expected-of-system-users-when-they-operate-bank-account-reconciliation-assist"></a>Hva forventes av systembrukere når de bruker bankkontoavstemmingshjelpen?
 
-### Under en bankkontoavstemming
+### <a name="during-bank-account-reconciliation"></a>Under en bankkontoavstemming
 
 KI-drevne treff og forslag kan noen ganger være feil eller ufullstendige. Brukere av bankkontoavstemmingshjelpen må gjennomgå nøyaktigheten av treffene og forslagene fra Copilot før de velger å beholde dem. Copilots treff og forslag lagres ikke i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen før du velger **Behold den**-knappen og lukker Copilot-vinduet. Du kan redigere og korrigere eventuelle treff eller forslag før du velger å beholde dem.
 
-### Etter at bankkontoavstemming er fullført
+### <a name="after-bank-account-reconciliation-is-completed"></a>Etter at bankkontoavstemming er fullført
 
 Vi anbefaler at brukerne også kontrollerer nøyaktigheten og retter opp eventuelle avvik etter at de har lukket Copilot-vinduet. Denne prosessen bør omfatte følgende aktiviteter:
 
@@ -84,20 +84,20 @@ Vi anbefaler at brukerne også kontrollerer nøyaktigheten og retter opp eventue
 - Åpne eventuelle bokførte avstemminger på nytt ved hjelp av **Angre**-funksjonen.
 - Korriger eventuelle feilaktige poster gjennom omvendt bokføring av poster.
 
-## Hva forventes av administratorer og systembrukere når de bruker bankkontoavstemmingshjelpen?
+## <a name="what-is-expected-of-administrators-and-system-users-when-they-operate-bank-account-reconciliation-assist"></a>Hva forventes av administratorer og systembrukere når de bruker bankkontoavstemmingshjelpen?
 
 Systembrukere, for eksempel regnskapsførere, kasserere eller andre som jobber med forretningsregnskap, bør alltid vurdere nøyaktigheten av samsvar og forslag fra Copilot før de velger å beholde dem. Etter avstemming med Copilot anbefaler vi at disse brukerne går gjennom avstemmingstestrapporten for å bekrefte nøyaktigheten og identifisere eventuelle avvik.
 
 Administratorer bør sørge for at de riktige regnskapsbrukerne har fått tilgang til denne funksjonen.
 
-## Er Copilot den eneste måten å fullføre bankkontoavstemming på?
+## <a name="is-copilot-the-only-means-of-completing-bank-account-reconciliation"></a>Er Copilot den eneste måten å fullføre bankkontoavstemming på?
 
 Nr. Bruk av Copilot er valgfritt. [!INCLUDE[prod_short](includes/prod_short.md)] tilbyr tradisjonelle, ikke-KI-drevne metoder for import av bankkontoutdrag, kjøring av forhåndsdefinerte samsvarsregler og manuell bruk av treff og bokføring på aktuelle finanskontoer. Både den tradisjonelle tilnærmingen og Copilot kan brukes samtidig i en organisasjon.
 
-## Hvordan gir jeg tilbakemelding om KI-generert innhold?
+## <a name="how-do-i-give-feedback-about-ai-generated-content"></a>Hvordan gir jeg tilbakemelding om KI-generert innhold?
 
 Hver gang Copilot gir treff eller forslag, kan du gi tilbakemelding til Microsoft direkte fra Copilot-vinduet, ved hjelp av Liker- (tommel opp) og Liker ikke-kontrollene (tommel ned). Din tilbakemelding er anonym, og vi bruker disse dataene til å forbedre kvaliteten på tjenesten.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Avstemme bankkontoer med Copilot (forhåndsversjon)](bank-reconciliation-with-copilot.md)

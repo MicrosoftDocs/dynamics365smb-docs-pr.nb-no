@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# Ad hoc-analyse av bærekraftsdata
+# <a name="ad-hoc-analysis-of-sustainability-data"></a>Ad hoc-analyse av bærekraftsdata
 
 Denne artikkelen forklarer hvordan du bruker funksjonen **Dataanlyse** til å analysere bærekraftsdata direkte fra listesider og spørringer. Du trenger ikke å kjøre en rapport eller bytte til et annet program, for eksempel Excel. Funksjonen gir en interaktiv og allsidig måte å beregne, summere og undersøke data på. I stedet for å kjøre rapporter ved hjelp av alternativer og filtre, kan du legge til flere faner som representerer forskjellige oppgaver eller visninger på dataene. Noen eksempler er "Utslippsoversikt" eller "Utslipp etter omfang", eller andre visninger du kan tenke deg. Hvis du vil lære mer om hvordan du bruker funksjonen **Dataanalyse**, kan du gå til [Analyser liste- og spørringsdata med analysemodus](analysis-mode.md).
 
@@ -20,7 +20,7 @@ Bruk følgende listesider til ad hoc-analyse av bærekraftsdata:
 
 - [Bærekraftsposter](https://businesscentral.dynamics.com/?page=6220)
 
-## Ad hoc-analysescenarioer for bærekraft
+## <a name="sustainability-ad-hoc-analysis-scenarios"></a>Ad hoc-analysescenarioer for bærekraft
 
 Bruk **Dataanalyse**-funksjonen for rask faktasjekking og ad hoc-analyse:
 
@@ -36,7 +36,7 @@ Avsnittene nedenfor inneholder eksempler på bærekraftscenarioer i [!INCLUDE [p
 | [Gjennomsnittlig utslipp etter kategori](#example-average-emissions-by-category) | Analyser dine gjennomsnittlige utslipp etter kategori. | [Bærekraftsposter](https://businesscentral.dynamics.com/?page=6220) | **Kontokategori**, **Kontonavn**, **Utslipp NH4**, **Utslipp CO2** og **Utslipp N2O**.|
 | [Utslipp etter omfang](#example-emissions-by-scope) | Analyser utslippene dine etter omfang. | [Bærekraftsposter](https://businesscentral.dynamics.com/?page=6220) | **Utslippsomfang**, **Kontokategori**, **Utslipp NH4**, **Utslipp CO2** og **Utslipp N2O**.|
 
-## Eksempel: Utslippsoversikt (sum etter kategori)
+## <a name="example-emission-overview-sum-by-category"></a>Eksempel: Utslippsoversikt (sum etter kategori)
 
 Hvis du vil analysere utslippene dine etter kategori, gjør du følgende:
 
@@ -51,7 +51,7 @@ Bildet nedenfor viser resultatet av denne fremgangsmåten.
 
 :::image type="content" source="media/data-analysis-sustainability-entries.png" alt-text="Eksempel 1 på hvordan du utfører dataanalyse på siden Bærekraftsposter." lightbox="media/data-analysis-sustainability-entries.png":::
 
-## Eksempel: Gjennomsnittlig utslipp etter kategori
+## <a name="example-average-emissions-by-category"></a>Eksempel: Gjennomsnittlig utslipp etter kategori
 
 Hvis du vil analysere dine gjennomsnittlige utslipp etter kategori, gjør du følgende:
 
@@ -67,7 +67,7 @@ Bildet nedenfor viser resultatet av denne fremgangsmåten.
 
 :::image type="content" source="media/data-analysis-sustainability-entries-avg.png" alt-text="Eksempel 2 på hvordan du utfører dataanalyse på siden Bærekraftsposter." lightbox="media/data-analysis-sustainability-entries-avg.png":::
 
-## Eksempel: Utslipp etter omfang
+## <a name="example-emissions-by-scope"></a>Eksempel: Utslipp etter omfang
 
 Hvis du vil analysere utslippene dine etter omfang, gjør du følgende:
 
@@ -82,13 +82,13 @@ Bildet nedenfor viser resultatet av denne fremgangsmåten.
 
 :::image type="content" source="media/data-analysis-sustainability-entries-scope.png" alt-text="Eksempel 3 på hvordan du utfører dataanalyse på siden Bærekraftsposter." lightbox="media/data-analysis-sustainability-entries-scope.png":::
 
-## Datagrunnlag for ad hoc-analyse av bærekraft
+## <a name="data-foundation-for-ad-hoc-analysis-on-sustainability"></a>Datagrunnlag for ad hoc-analyse av bærekraft
 
 Opplysningene du angir i en bærekraftskladd, er midlertidige og du kan endre dem mens de fortsatt befinner seg i kladden. Når du bokfører en bærekraftskladd, overføres informasjonen til bærekraftsposter på individuelle bærekraftskontoer, der du ikke kan endre dem. Du kan imidlertid bokføre tilbakeførings- eller korrigeringsposter. Listesiden [Bærekraftsposter](https://businesscentral.dynamics.com/?page=6220) er den viktigste datakilden for ad hoc-analyse av bærekraftsdata.
 
 Hvis du vil vite mer om hvordan du bokfører bærekraftsposter, kan du gå til [Registrer bærekraftsposter](finance-sustainability-journal.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Registrer bærekraftsposter](finance-sustainability-journal.md)  
 [Innebygde bærekraftsrapporter](sustainability-reports.md)   
