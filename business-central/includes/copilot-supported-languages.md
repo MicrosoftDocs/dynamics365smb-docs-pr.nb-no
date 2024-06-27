@@ -1,11 +1,12 @@
 ---
 author: jswymer
 ms.topic: include
-ms.date: 11/01/2023
+ms.date: 06/10/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
+ms.reviewer: jswymer
 ---
-Forslag til markedsføringstekst støttes bare på følgende språk og med følgende nasjonale innstillinger:
+Denne Copilot-funksjonen ble bare validert på følgende språk:
 
 |Språk|Nasjonale innstillinger|
 |-|-|
@@ -17,3 +18,5 @@ Forslag til markedsføringstekst støttes bare på følgende språk og med følg
 |Nederlandsk|nl-NL, nl-BE|
 |Italiensk|it-IT, it-CH|
 |Japansk|ja-JP|
+
+Selv om den kan brukes på andre språk, fungerer den kanskje ikke som tiltenkt. Språkkvaliteten kan variere basert på brukerens samhandling eller systeminnstillinger, noe som kan påvirke nøyaktigheten og brukeropplevelsen.

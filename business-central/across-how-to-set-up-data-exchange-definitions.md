@@ -1,15 +1,17 @@
 ---
-title: Definere hvordan data utveksles elektronisk
+title: Definer hvordan data utveksles elektronisk
 description: 'Definer hvordan Business Central utveksler data med eksterne filer, for eksempel elektroniske dokumenter, bankdata, varekataloger og så videre.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: null
 ms.search.form: '1210, 1211, 1213, 1214, 1215, 1216, 1217'
-ms.date: 11/03/2022
-ms.author: bholtorf
+ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="set-up-data-exchange-definitions"></a>Definere datautvekslingsdefinisjoner
+# Konfigurer datautvekslingsdefinisjoner
 
 Du kan opprette [!INCLUDE[prod_short](includes/prod_short.md)] for å utveksle data i bestemte tabeller med data i eksterne filer. Du kan for eksempel sende og motta elektroniske dokumenter, importere og eksportere bankdata eller andre data, for eksempel lønn, og varekataloger. Lær mer på [Utveksle data elektronisk](across-data-exchange.md).  
 
@@ -26,14 +28,14 @@ Denne artikkelen inneholder følgende fremgangsmåter:
 * Eksporter en datautvekslingsdefinisjon som en XML-fil som andre kan bruke.
 * Importer en XML-fil for en eksisterende datautvekslingsdefinisjon.
 
-## <a name="create-a-data-exchange-definition"></a>Opprette en datautvekslingsdefinisjon
+## Opprette en datautvekslingsdefinisjon
 
 Oppretting av en datautvekslingsdefinisjon omfatter to oppgaver:  
 
 1. På siden **Datautvekslingsdefinisjon** beskriver du formateringen for linjer og kolonner i filen. Lær mer i delen [Slik beskriver du formateringen av linjer og kolonner i filen](#formatlinescolumns).  
 2. På siden **Tilordning for datautveksling** tilordner du kolonner i datafilen til felt i [!INCLUDE[prod_short](includes/prod_short.md)]. Lær mer i delen [Slik tilordner du kolonner i datafilen til felt i [!INCLUDE[prod_short](includes/prod_short.md)]](#mapfields).  
 
-### <a name="to-describe-the-formatting-of-lines-and-columns-in-the-file"></a><a name=formatlinescolumns></a>Slik beskriver du formateringen av linjer og kolonner i filen
+### <a name=formatlinescolumns></a>Slik beskriver du formateringen av linjer og kolonner i filen
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Datautvekslingsdefinisjoner**, og velg deretter den tilknyttede koblingen.  
 2. Velg handlingen **Ny**.  
@@ -47,8 +49,8 @@ Oppretting av en datautvekslingsdefinisjon omfatter to oppgaver:
     |**Type**|Angi hvilken type forretningsvirksomhet datautvekslingsdefinisjonen brukes til, for eksempel **betalingseksport**.|  
     |**Kodeenhet for datahåndtering**|Angi kodeenheten som overfører data inn i og ut av tabeller i [!INCLUDE[prod_short](includes/prod_short.md)].|  
     |**Kodeenhet for validering**|Angi kodeenheten som brukes til å validere data mot forhåndsdefinerte forretningsregler.|  
-    |**Kodeenhet for lesing/skriving**|Angi kodeenheten som behandler importerte data før tilordning og eksporterte data etter tilordning.|  
-    |**XMLport for lesing/skriving**|Angir XMLport som en importert datafil eller tjeneste overføres via før tilordning, og som eksporterte data overføres via når de skrives til en datafil eller tjeneste etter tilordning.|  
+    |**Kodeenhet for lesing/skriving**|Angi kodeenheten som behandler importerte data før tilordning og eksporterte data etterpå.|  
+    |**XMLport for lesing/skriving**|Angi XMLport som en importert datafil eller tjeneste blir angitt via før tilordning, og der eksporterte data skrives til en datafil eller tjeneste via denne etterpå.|  
     |**Kodeenhet for ekstern datahåndtering**|Angi kodeenheten som overfører eksterne data inn i og ut av rammeverket for datautveksling.|  
     |**Kodeenhet for brukertilbakemelding**|Angi kodeenheten som inneholder ulike oppryddinger etter tilordning, for eksempel markerer linjene som eksporteres og sletter midlertidige poster.|  
     |**Filkoding**|Angi kodingen for filen. **Obs!** Dette feltet er bare relevant for import.|  
@@ -79,7 +81,7 @@ Oppretting av en datautvekslingsdefinisjon omfatter to oppgaver:
 
 5. Gjenta trinn 4 for å opprette en linje for hver fildatatype du vil eksportere.  
 
-     Fortsett med å beskrive formateringen av kolonner i datafilen ved å fylle ut feltene i hurtigfanen **Kolonnedefinisjoner** som beskrevet i tabellen nedenfor. Du kan bruke filstrukturen, for eksempel en XSD-fil, for datafilen til å forhåndsutfylle hurtigfanen med de aktuelle elementene. Lær mer på [Bruke XML-skjemaer til å klargjøre datautvekslingsdefinisjoner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).
+     Fortsett med å beskrive formateringen av kolonner i datafilen ved å fylle ut feltene i hurtigfanen **Kolonnedefinisjoner** som beskrevet i tabellen i trinn 8. Du kan bruke en strukturfil, for eksempel en XSD-fil, for datafilen til å forhåndsutfylle hurtigfanen med de aktuelle elementene. Lær mer på [Bruke XML-skjemaer til å klargjøre datautvekslingsdefinisjoner](across-how-to-use-xml-schemas-to-prepare-data-exchange-definitions.md).
 
 6. I hurtigfanen **Kolonnedefinisjoner** velger du handlingen **Hent filstruktur**.  
 7. På siden **Hent filstruktur** velger du den relaterte strukturfilen og velger deretter **OK**. Linjene i hurtigfanen **Kolonnedefinisjoner** fylles ut i henhold til strukturen til datafilen.  
@@ -91,7 +93,7 @@ Oppretting av en datautvekslingsdefinisjon omfatter to oppgaver:
     |**Navn**|Angi navnet på kolonnen.<br /><br /> For XML-filer kan du angi markeringen som merker dataene som skal utveksles.|  
     |**Datatype**|Angi om dataene som skal utveksles, er av typen **Tekst**, **Dato** eller **Desimal**.|  
     |**Dataformat**|Angi det eventuelle dataformatet. Eksempel: **dd.MM.åååå** hvis datatypen er **Dato**. **Obs!** For eksport angir du dataformatet i henhold til [!INCLUDE[prod_short](includes/prod_short.md)]. For import angir du dataformatet i henhold til .NET Framework. Finn ut mer på [Standard formatstrenger for dato og klokkeslett](/dotnet/standard/base-types/standard-date-and-time-format-strings).|  
-    |**Dataformateringskultur**|Angi det eventuelle regionale dataformatet. For eksempel **en-US** hvis datatypen er **Desimal**, for å sikre at komma brukes som skilletegn for .000, i henhold til formatet for USA. Finn ut mer på [Standard formatstrenger for dato og klokkeslett](/dotnet/standard/base-types/standard-date-and-time-format-strings). **Obs!** Dette feltet er bare relevant for import.|  
+    |**Dataformateringskultur**|Angi det eventuelle regionale dataformatet. For eksempel **en-US** hvis datatypen er **Desimal**, for å sikre at komma brukes som skilletegn for 0,000, i henhold til formatet for USA. Finn ut mer på [Standard formatstrenger for dato og klokkeslett](/dotnet/standard/base-types/standard-date-and-time-format-strings). **Obs!** Dette feltet er bare relevant for import.|  
     |**Lengde**|Angi lengden på linjen med fast bredde som inneholder kolonnen, hvis datafilen er av typen **Fast tekst**.|  
     |**Beskrivelse**|Angir en beskrivelse av kolonnen for informasjonsformål.|  
     |**Bane**|Angi posisjonen til elementet i det tilknyttede XML-skjemaet.|  
@@ -108,7 +110,7 @@ Det neste trinnet i å opprette en datautvekslingsdefinisjon er å bestemme hvil
 > [!NOTE]  
 > Den bestemte tilordningen avhenger av forretningsformålet med datafilen som skal utveksles, og av lokale variasjoner. Selv SEPA-bankstandarden har lokale variasjoner. [!INCLUDE[prod_short](includes/prod_short.md)] støtter import av SEPA CAMT-bankkontoutdragsfiler \-\-\-. Dette er angitt med **SEPA CAMT**-postkoden for datautvekslingsdefinisjon på siden **Datautvekslingsdefinisjoner**. For informasjon om spesifikk felttilordning av SEPA CAMT-støtten kan du se [Felttilordning ved import av SEPA CAMT-filer](across-field-mapping-when-importing-sepa-camt-files.md).  
 
-### <a name="to-map-columns-in-the-data-file-to-fields-in-"></a><a name=mapfields></a>Slik tilordner du kolonner i datafilen til felt i [!INCLUDE[prod_short](includes/prod_short.md)]
+### <a name=mapfields></a>Slik tilordner du kolonner i datafilen til felt i [!INCLUDE[prod_short](includes/prod_short.md)]
 
 > [!TIP]
 > Noen ganger er verdiene i feltene du vil tilordne, forskjellige. For eksempel, i én virksomhetapp er språkkoden for USA "U.S.", men i en annen er det "US". Det betyr at du må transformere verdien når du utveksler data. Dette skjer gjennom transformeringsregler som du definerer for feltene. Lær mer om [Transformasjonsregler](across-how-to-set-up-data-exchange-definitions.md#transformation-rules).
@@ -121,12 +123,12 @@ Du kan også gruppere etter et hvilket som helst felt, bruke nøkkelindeksen til
     |Felt|Beskrivelse|  
     |---------------------------------|---------------------------------------|  
     |**Tabell-ID**|Angi tabellen som inneholder feltene som data utveksles til eller fra i samsvar med tilordningen.|  
-    |**Bruk som foreløpig tabell**|Angi om tabellen du velger i feltet **Tabell-ID**, er en foreløpig tabell der de importerte dataene lagres før de tilordnes til måltabellen.<br /><br /> Du bruker vanligvis en midlertidig tabell når datautvekslingsdefinisjonen brukes til å importere og konvertere elektroniske dokumenter, for eksempel leverandørfakturaer til kjøpsfakturaer i [!INCLUDE[prod_short](includes/prod_short.md)]. Lær mer på [Utveksle data elektronisk](across-data-exchange.md).|  
+    |**Bruk som foreløpig tabell**|Angi om tabellen du velger i feltet **Tabell-ID**, er en foreløpig tabell der de importerte dataene lagres før de tilordnes til måltabellen.<br/><br/> Du bruker vanligvis en midlertidig tabell når datautvekslingsdefinisjonen importerer og konverterer elektroniske dokumenter i [!INCLUDE[prod_short](includes/prod_short.md)]. Det kan for eksempel være dokumenter som leverandørfakturaer til kjøpsfakturaer. Lær mer på [Utveksle data elektronisk](across-data-exchange.md).|  
     |**Navn**|Angi et navn for tilordningsoppsettet.|  
-    |**Nøkkelindeks**|Angir nøkkelindeksen for å sortere kildeoppføringene før eksport.|
+    |**Nøkkelindeks**|Angi nøkkelindeksen for å sortere kildeoppføringene før eksport.|
     |**Kodeenhet for forhåndstilordning**|Angi kodeenheten som klargjør tilordningen mellom felt i [!INCLUDE[prod_short](includes/prod_short.md)] og eksterne data.|  
     |**Kodeenhet for tilordning**|Angi kodeenheten som brukes til å tilordne de angitte kolonnene eller XML-dataelementene til felt i [!INCLUDE[prod_short](includes/prod_short.md)].|  
-    |**Kodeenhet for ettertilordning**|Angi kodeenheten som fullfører tilordningen mellom felt i [!INCLUDE[prod_short](includes/prod_short.md)] og eksterne data. **Obs!** Når utvidelsesfunksjonen for AMC Banking 365 Fundamentals brukes, konverterer kodeenheten eksporterte data fra [!INCLUDE[prod_short](includes/prod_short.md)] til et generelt format som er klart til eksport. For import konverterer kodeenheten eksterne data til et format som er klar for import til [!INCLUDE[prod_short](includes/prod_short.md)].|
+    |**Kodeenhet for ettertilordning**|Angi kodeenheten som fullfører tilordningen mellom felt i [!INCLUDE[prod_short](includes/prod_short.md)] og eksterne data. **Obs!** Når du bruker utvidelsesfunksjonen for AMC Banking 365 Fundamentals, konverterer kodeenheten eksporterte data fra [!INCLUDE[prod_short](includes/prod_short.md)] til et generelt format som er klart til eksport. For import konverterer kodeenheten eksterne data til et format som er klar for import til [!INCLUDE[prod_short](includes/prod_short.md)].|
 3. På hurtigfanen **Felttilordning** angir du hvilke kolonner som skal tilordnes felt i [!INCLUDE[prod_short](includes/prod_short.md)] ved å fylle ut feltene som beskrevet i tabellene nedenfor, avhengig av om feltet **Bruk som midlertidig tabell** var aktivert eller ikke.  
    * Når **Bruk som foreløpig tabell** er deaktivert:
 
@@ -137,9 +139,9 @@ Du kan også gruppere etter et hvilket som helst felt, bruke nøkkelindeksen til
      |**Felt-ID**|Angi hvilket felt kolonnen i feltet **Kolonnenr.** er tilordnet.<br /><br /> Du kan bare velge blant felt som finnes i tabellen du har angitt i **Tabell-ID**-feltet i hurtigfanen **Generelt**.|
      |**Felttittel**|Angi overskriften for feltet i den eksterne filen som er tilordnet til feltet i feltet **Måltabell-ID**, når du bruker en foreløpig tabell for dataimport.|
      |**Valgfritt**|Angi om tilordningen skal hoppes over hvis feltet er tomt. Hvis du ikke merker av for dette alternativet, vil det oppstå en eksportfeil hvis feltet er tomt.|  
-     |**Transformasjonsregel**|Angi regelen som omdanner importert tekst til en verdi som støttes, før den kan tilordnes til et angitt felt. Når du velger en verdi i dette feltet, blir den samme verdien angitt i feltet for **Transformeringsregel** i **Buffer for felttilordning for datautveksl.** -abellen, og vice versa. Se neste del hvis du vil ha mer informasjon om tilgjengelige transformeringsregler som kan brukes.|
-     |**Overskriv verdi**|Angi at den gjeldende verdien blir overskrevet av en ny verdi.|
-     |**Prioritet**|Angi rekkefølgen som felttilordningene må behandles i. Felttilordningen med det høyeste prioritetsnummeret, behandles først.|
+     |**Transformasjonsregel**|Angi regelen som omdanner importert tekst til en verdi som støttes, før den kan tilordnes til et angitt felt. Når du velger en verdi i dette feltet, blir den samme verdien angitt i feltet for **Transformeringsregel** i **Buffer for felttilordning for datautveksl.** -abellen, og vice versa. Hvis du vil vite mer om hvordan du bruker transformasjonsregler, kan du gå til [Transformasjonsregler](#transformation-rules).|
+     |**Overskriv verdi**|Angi at den nye verdien kan overskrive den gjeldende verdien.|
+     |**Prioritet**|Angi rekkefølgen som felttilordningene må behandles i. Felttilordningen med det høyeste prioritetsnummeret behandles først.|
      |**Multiplikator**|Angi en multiplikator som skal brukes på numeriske data, inkludert negative verdier.|
 
    * Når **Bruk som foreløpig tabell** er aktivert:
@@ -153,17 +155,17 @@ Du kan også gruppere etter et hvilket som helst felt, bruke nøkkelindeksen til
      |**Målfelt-ID**|Angi feltet i måltabellen som verdien i feltet **Kolonneoverskrift** blir tilordnet til når du bruker en foreløpig tabell for dataimport.|
      |**Felttittel**|Angi navnet på feltet i måltabellen som verdien i feltet **Kolonneoverskrift** blir tilordnet til når du bruker en foreløpig tabell for dataimport.|
      |**Bare valider**|Angi at element-til-felt-tilordningen ikke brukes til å konvertere data, men bare til å validere data.|
-     |**Transformasjonsregel**|Angi regelen som omdanner importert tekst til en verdi som støttes, før den kan tilordnes til et angitt felt. Når du velger en verdi i dette feltet, blir den samme verdien angitt i feltet for **Transformeringsregel** i **Buffer for felttilordning for datautveksl.** -abellen, og vice versa. Se neste del hvis du vil ha mer informasjon om tilgjengelige transformeringsregler som kan brukes.|
-     |**Prioritet**|Angi rekkefølgen som felttilordningene må behandles i. Felttilordningen med det høyeste prioritetsnummeret, behandles først.|
+     |**Transformasjonsregel**|Angi regelen som omdanner importert tekst til en verdi som støttes, før den kan tilordnes til et angitt felt. Når du velger en verdi i dette feltet, blir den samme verdien angitt i feltet for **Transformeringsregel** i **Buffer for felttilordning for datautveksl.** -tabellen, og vice versa. Hvis du vil vite mer om transformasjonsregler, kan du gå til [Transformasjonsregler](#transformation-rules).|
+     |**Prioritet**|Angi rekkefølgen som felttilordningene må behandles i. Felttilordningen med det høyeste prioritetsnummeret behandles først.|
 
 4. På hurtigfanen **Feltgruppering** angir du regler du vil bruke til å gruppere feltene når du oppretter filen, ved å fylle ut feltene som beskrevet i tabellen nedenfor.  
 
      |Felt|Description|  
      |--------------------------------- |---------------------------------------|  
-     |**Felt-ID**|Angir nummeret for feltet i den eksterne filen som brukes til gruppering, og dette feltet må angis av brukeren.|
+     |**Felt-ID**|Angi nummeret for feltet i den eksterne filen som brukes til gruppering, og dette feltet må angis av brukeren.|
      |**Felttittel**|Angir tittelen for feltet i den eksterne filen som brukes til gruppering.|
 
-## <a name="transformation-rules"></a>Transformasjonsregler
+## Transformasjonsregler
 
 Hvis verdiene i feltene du tilordner, er forskjellige, må du bruke transformeringsregler for datautvekslingsdefinisjoner for å gjøre dem like. Du definerer transformeringsregler for datautvekslingsdefinisjoner ved å åpne en eksisterende definisjon eller opprette en ny definisjon, og deretter, på hurtigfanen **Linjedefinisjoner**, velger du **Administrer**og deretter **Felttilordning**. Forhåndsdefinerte regler er angitt, men du kan også opprette dine egne. Tabellen nedenfor beskriver hvilke typer transformasjoner du kan utføre.
 
@@ -180,7 +182,7 @@ Hvis verdiene i feltene du tilordner, er forskjellige, må du bruke transformeri
 |**Datoformatering**|Angi hvordan datoer skal vises. Du kan for eksempel transformere DD-MM-ÅÅÅÅ til ÅÅÅÅ-MM-DD.|
 |**Desimalformatering**|Definer regler for desimalplassering og avrundingspresisjon.|
 |**Regulært uttrykk - Samsvar**|Bruk et regulært uttrykk for å finne én eller flere verdier. Denne regelen ligner på alternativene **Delstreng** og **Vanlig uttrykk - Erstatt**.|
-|**Egendefinert**|Denne transformasjonsregelen er et avansert alternativ som krever assistanse fra en utvikler. Det muliggjør en integreringshendelse som du kan abonnere på, hvis du vil bruke din egen transformeringskode. Hvis du er utvikler og vil bruke dette alternativet, kan du se delen nedenfor.|
+|**Egendefinert**|Denne transformasjonsregelen er et avansert alternativ som krever assistanse fra en utvikler. Det muliggjør en integreringshendelse som du kan abonnere på, hvis du vil bruke din egen transformeringskode. Hvis du er utvikler og vil bruke dette alternativet, kan du gå til [Tips for utviklere: eksempel på det egendefinerte alternativet](#tip-for-developers-example-of-the-custom-option).|
 |**Dato- og klokkeslettformatering**|Definer hvordan gjeldende dato og tidspunktet på dagen skal vises.|
 |**Feltoppslag**|Bruk felter fra forskjellige tabeller. Du må følge noen regler for å kunne bruke den. Først bruker du **Tabell-ID** til å angi ID-en for tabellen som inneholder posten for feltoppslaget. Deretter angir du ID-en til feltet som inneholder posten for feltoppslaget, i feltet **Kildefelt-ID**. Til slutt angir du ID-en til feltet for å finne posten for feltoppslaget, i feltet **Målfelt-ID**. Hvis du vil, kan du bruke feltet **Feltoppslagsregel** til å angi typen feltoppslag. Verdien fra **Målfelt-ID** brukes for **målfeltet**, selv om det er tomt. For feltet **Original hvis målet er tomt** brukes den opprinnelige verdien hvis målet er tomt.|
 |**Avrund**|Avrund verdien i dette feltet ved hjelp av noen tilleggsregler. I feltet **Presisjon** angir du en avrundingspresisjon. Deretter angir du avrundingsretningen i **Retning**-feltet.|
@@ -188,7 +190,7 @@ Hvis verdiene i feltene du tilordner, er forskjellige, må du bruke transformeri
 > [!NOTE]  
 > Lær mer om dato-og klokkeslettformatering på [Standard formatstrenger for dato og klokkeslett](/dotnet/standard/base-types/standard-date-and-time-format-strings).
 
-### <a name="tip-for-developers-example-of-the-custom-option"></a>Tips for utviklere: eksempel på det egendefinerte alternativet
+### Tips for utviklere: eksempel på det egendefinerte alternativet
 
 Følgende eksempel viser hvordan du implementerer din egen transformeringskode.
 
@@ -206,7 +208,7 @@ codeunit 60100 "Hello World"
 
 Når du har definert reglene, kan du teste dem. I hurtigfanen **Test** skriver du inn et eksempel på en verdi du vil transformere, og deretter kontrollerer du resultatene ved å velge **Oppdater**.
 
-## <a name="export-a-data-exchange-definition-as-an-xml-file-for-use-by-others"></a>Eksporter en datautvekslingsdefinisjon som en XML-fil som andre kan bruke
+## Eksporter en datautvekslingsdefinisjon som en XML-fil som andre kan bruke
 
 Når du har opprettet datautvekslingsdefinisjonen for en bestemt datafil, kan du eksportere datautvekslingsdefinisjonen som en XML-fil som du kan importere. Denne oppgaven er beskrevet i følgende fremgangsmåte.  
 
@@ -217,14 +219,14 @@ Når du har opprettet datautvekslingsdefinisjonen for en bestemt datafil, kan du
 
     Hvis en datautvekslingsdefinisjon allerede er opprettet, trenger du bare å importere XML-filen til rammeverket for datautveksling. Denne oppgaven er beskrevet i følgende fremgangsmåte.  
 
-## <a name="import-an-existing-data-exchange-definition"></a>Importere en eksisterende datautvekslingsdefinisjon
+## Importere en eksisterende datautvekslingsdefinisjon
 
 1. Lagre XML-filen som representerer datautvekslingsdefinisjonen, på en passende plassering.  
 2. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Datautvekslingsdefinisjoner**, og velg deretter den tilknyttede koblingen.  
 3. Velg **Importer datautvekslingsdefinisjon**.  
 4. Velg filen du lagret i trinn 1.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Definere datautveksling](across-set-up-data-exchange.md)  
 [Konfigurer sending og mottak av elektroniske dokumenter](across-how-to-set-up-electronic-document-sending-and-receiving.md)  

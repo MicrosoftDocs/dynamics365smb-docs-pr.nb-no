@@ -1,15 +1,16 @@
 ---
-title: Konfigurere godkjenningsbrukere
+title: Konfigurer godkjenningsbrukere
 description: 'Før du kan opprette arbeidsflyter som omfatter godkjenningstrinn, må du definere arbeidsflytbrukerne som er involvert i godkjenningsprosessen.'
 author: brentholtorf
-ms.topic: how-to
-ms.devlang: al
-ms.search.form: '663,'
-ms.date: 05/31/2023
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: how-to
+ms.search.form: '663,'
+ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="set-up-approval-users"></a>Konfigurer godkjenningsbrukere
+# Konfigurer godkjenningsbrukere
 
 Før du kan opprette arbeidsflyter som omfatter godkjenningstrinn, må du definere brukerne som er involvert i godkjenningsprosessene på siden **Brukeroppsett for godkjenning**. Du kan også angi beløpsgrenser for ulike typer forespørsler, definere erstatningsgodkjennere og definere meldinger.  
 
@@ -18,7 +19,7 @@ Når du har definert godkjenningsbrukere, kan du opprette arbeidsflytsvar for go
 > [!TIP]
 > Du kan kreve at flere godkjennere reagere på en godkjenningsforespørsel, ved å opprette en gruppe godkjennere på siden **Brukergruppe for arbeidsflyt**. Finn ut mer under [Definer brukergrupper for arbeidsflyt](across-how-to-set-up-workflow-users.md).  
 
-## <a name="to-set-up-an-approval-user"></a>Slik konfigurerer du godkjenningsbrukere
+## Slik konfigurerer du godkjenningsbrukere
 
 [!INCLUDE [workflow-requestor-approver](includes/workflow-requestor-approver.md)]
 
@@ -45,7 +46,7 @@ Når du har definert godkjenningsbrukere, kan du opprette arbeidsflytsvar for go
 
 Neste trinn er å angi hvordan du vil at [!INCLUDE [prod_short](includes/prod_short.md)] skal varsle personer om at en forespørsel venter på oppmerksomhet. Finn ut mer under [Konfigurering av godkjenningsarbeidsflytvarsler](across-setting-up-workflow-notifications.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurer arbeidsflytbrukere](across-how-to-set-up-workflow-users.md)  
 [Konfigurer arbeidsflytvarsler](across-setting-up-workflow-notifications.md)  

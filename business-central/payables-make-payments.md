@@ -2,27 +2,28 @@
 title: Oversikt over oppgaver for å behandle betalinger til leverandører
 description: 'Gir en oversikt over oppgavene for å behandle betalinger til leverandører eller kreditorer, inkludert bokføring av betalingslinjene og oversikt over forfalt saldo.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: overview
-ms.devlang: al
 ms.search.keywords: 'print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '254, 256, 1190, 1191, 1227, 1228, 1229'
-ms.date: 04/01/2021
-ms.author: bholtorf
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="making-payments"></a>Utføre betalinger
+# Utføre betalinger
 
-Når du foretar betalinger til leverandører eller kunder eller refusjoner til de ansatte, kan du bokføre de relaterte betalingslinjene på siden **Betalingskladd**. Utbetalingskladden er en finanskladd som er tilpasset for betalinger og inneholder en rekke effektive funksjoner, som for eksempel funksjonen **Betalingsforslag - leverandør** som finner leverandørbetalinger som har forfalt, og rapporten **Leverandør - forfallsoversikt** som viser en oversikt over forfalte leverandørbetalinger.  
+Du betaler leverandører eller kunder eller refusjoner til de ansatte ved å bokføre betalingslinjer på siden **Betalingskladd**. Utbetalingskladden er en finanskladd som er tilpasset for betalinger, med mange avanserte handlinger. Eksempler på dette er handlingen **Betalingsforslag – leverandør**, som finner leverandørbetalinger som har forfalt, og rapporten **Leverandør – forfallsoversikt**, som viser en oversikt over forfalte leverandørbetalinger.  
 
 Du kan begynne betalingsprosessen fra lister, kort og poster for leverandører, kunder og ansatte. Hver av disse sidene har en knapp som starter betalingsflyten og hjelper deg med å fylle ut utbetalingskladden.  
 
-Fra betalingskladden kan du skrive ut maskinelle sjekker eller registrere når sjekker skrives. Hvis du velger **Maskinell sjekk** i feltet **Bankbetalingstype**, må eventuelle linjer som representerer sjekker skrives ut før betalingskladden kan bokføres.
+Fra betalingskladden kan du skrive ut maskinelle sjekker eller registrere når sjekker skrives. Hvis du velger **Maskinell sjekk** i feltet **Bankbetalingstype**, må du skrive ut linjer som representerer sjekker, før du kan bokføre betalingskladden.
 
-Når betalingene er bokført, kan du eksportere dem til en bankfil for opplasting til banken for behandling.
+Når du har bokført betalingene, kan du eksportere dem til en bankfil som du kan laste opp til banken for behandling.
 
-Når betalingene er foretatt i banken, må du utligne dem på deres tilknyttede åpne leverandør- eller ansattposter. Du kan gjøre dette manuelt eller ved å importere en bankkontoutdragsfil og utligne betalingene automatisk. Hvis du vil ha mer informasjon, kan du se [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
+Når betalingene er foretatt i banken, må du utligne dem på deres tilknyttede åpne leverandør- eller ansattposter. Du kan utligne dem manuelt eller ved å importere en bankkontoutdragsfil og utligne betalingene automatisk. Hvis du vil ha mer informasjon, kan du se [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md).
 
-Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.
+Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artiklene som beskriver dem.
 
 | Til | Se |
 | --- | --- |
@@ -34,7 +35,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 | Betal leverandøren kontant eller med sjekk, og bokfør betalingen når du bokfører selve fakturaen. |[Gjøre opp kjøpsfakturaer omgående](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Du kan sørge for at at banken bare fjerner validerte sjekker og beløp ved å sende dem en fil som inneholder informasjon om leverandør, sjekk og betaling. |[Eksporter en Positive Pay-fil](finance-how-positive-pay.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  

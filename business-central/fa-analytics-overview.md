@@ -7,17 +7,17 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'bi, power BI, analysis, KPI'
 ms.search.form: '5601, 5600, 5615, 5616, 5617'
-ms.date: 04/27/2024
+ms.date: 05/22/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="fixed-assets-analytics"></a>Aktivaanalyse
+# Aktivaanalyse
 
 Virksomheter med aktiva registrerer mye data om dem under daglige aktiviteter. Disse dataene støtter verdifull forretningsintelligens (BI) for aktivaforvaltere:
 
 - Objektanskaffelse
-- Aktivaavskrivning
+- Objektavskrivning
 - Forsikring og vedlikehold
 - Objektbudsjetter
 
@@ -30,13 +30,13 @@ Virksomheter med aktiva registrerer mye data om dem under daglige aktiviteter. D
 - Innebygde aktivarapporter
 
 > [!NOTE]
-> Analyse for aktive er litt annerledes enn andre områder. Du må analysere data som allerede finnes, for eksempel anskaffelse av aktiva, avskrivning og forsikring, men også data om fremtidige (forventede) data, for eksempel avskrivninger og aktivapensjonering. For sistnevnte type analyse har [!INCLUDE[prod_short](includes/prod_short.md)] innebygde rapporter som kan beregne disse tallene.
+> Analyse for aktive er litt annerledes enn andre områder. Du må analysere data som allerede finnes, for eksempel objektanskaffelser, avskrivninger og forsikring, men også data om fremtiden (forventede data), for eksempel avskrivninger og objektavviklinger. For sistnevnte type analyse har [!INCLUDE[prod_short](includes/prod_short.md)] innebygde rapporter som kan beregne disse tallene.
 
 Hver funksjon har sine fordeler og ulemper, avhengig av typen dataanalyse og brukerens rolle. Hvis du vil finne ut mer, kan du gå til [Oversikt over analyse, forretningsanalyse og rapportering](reports-bi-reporting.md).
 
 I denne artikkelen beskriver vi hvordan du kan bruke disse analysefunksjonene til å få innsikt i aktivaene.
 
-## <a name="analytics-needs-in-asset-management"></a>Analysebehov i objektadministrasjon
+## Analysebehov i objektadministrasjon
 
 Når du tenker på analysebehovet i objektadministrasjon, kan det hjelpe å bruke en identitetsbasert modell basert som beskriver analysebehov på et høyt nivå.
 
@@ -52,14 +52,14 @@ Når det gjelder data, har personer i ulike roller ulike behov når det gjelder 
 |Aktivaadministrasjon/kontrollør   | Trender, sammendrag | Innebygde administrasjonsrapporter <br> Ad hoc-analyse      | 
 |Regnskapsfører                      | Detaljerte data     | Innebygde driftsrapporter <br> Oppgavedata på skjermen |
 
-## <a name="asset-management-kpis"></a>Ytelsesindikatorer for objektadministrasjon
+## Ytelsesindikatorer for objektadministrasjon
 
 En ytelsesindikator er en målbar verdi som viser hvor effektivt du når målene dine. I objektadministrasjon bruker person ofte følgende ytelsesindikatorer til å overvåke organisasjonens bruk av objekter:
 
 - Total aktivaomsetning
 - Avkastning på eiendeler
 
-## <a name="use-financial-reporting-to-produce-financial-statements-and-kpis-related-to-fixed-assets"></a>Bruk finansrapportering til å produsere årsregnskap og ytelsesindikatorer knyttet til aktiva
+## Bruk finansrapportering til å produsere årsregnskap og ytelsesindikatorer knyttet til aktiva
 
 Funksjonen **Finansrapportering** gir deg innsikt i finansdataene som vises i kontoplanen. Du kan konfigurere finansrapporter til å analysere tall på finanskontoer og sammenligner finansposter med budsjettposter. Spesielt for objektadministrasjon kan du definere finansrapporter på finanskontoene du bruker til å spore aktivabokføringer.
 
@@ -67,13 +67,13 @@ Dimensjoner spiller en viktig rolle i forretningsanalyse. En dimensjon er data d
 
 Hvis du vil finne ut mer om finansrapportering, kan du gå til [Klargjør finansrapporter med finansdata og kontokategorier](bi-how-work-account-schedule.md).
 
-## <a name="finance-reporting-across-business-units-or-legal-entities-related-to-fixed-assets"></a>Finansrapportering mellom forretningsenheter eller juridiske enheter (knyttet til aktiva)
+## Finansrapportering mellom forretningsenheter eller juridiske enheter (knyttet til aktiva)
 
 Noen organisasjoner bruker [!INCLUDE [prod_short](includes/prod_short.md)] i flere konsern eller juridiske enheter. Andre bruker [!INCLUDE [prod_short](includes/prod_short.md)] i datterselskaper rapporterer til overordnede organisasjoner. [!INCLUDE [prod_short](includes/prod_short.md)] gir regnskapsførere verktøy som hjelper dem med å overføre finansposter fra to eller flere selskaper (datterselskaper) til et konsolidert selskap. Spesielt for objektadministrasjon vil du kanskje konsolidere finansposter for aktivakontoene for å kunne spore aktivasytelsesindikatorer på tvers av konsern eller juridiske enheter.
 
 Hvis du vil finne ut mer, kan du gå til [Selskapskonsolidering](finance-consolidated-company-reporting.md).
 
-## <a name="ad-hoc-analysis-of-fixed-assets-data"></a>Ad hoc-analyse av aktivadata
+## Ad hoc-analyse av aktivadata
 
 Noen ganger trenger du bare å sjekke om tallene summeres riktig, eller raskt bekrefte en tall. Følgende funksjoner er gode for ad hoc-analyser:
 
@@ -94,7 +94,7 @@ På samme måte kan du bruke handlingen **Åpne i Excel** til å åpne en listes
 Hvis du vil ha mer informasjon om hvordan du utfører ad hoc-analyse på aktiva, kan du se [Ad hoc-analyse av aktivadata](ad-hoc-analysis-fa.md).
 
 
-## <a name="built-in-reports-for-fixed-assets"></a>Innebygde rapporter for aktiva
+## Innebygde rapporter for aktiva
 
 [!INCLUDE [prod_short](includes/prod_short.md)] inkluderer flere innebygde rapporter, sporingsfunksjoner og verktøy som hjelper revisorer eller kontrollører som rapporterer om aktiva.
 
@@ -109,18 +109,18 @@ Hvis du vil ha en oversikt over tilgjengelige rapporter, velger du **Alle rappor
 
 Hvis du vil ha mer informasjon om rapporter som er relevante for aktiva, kan du se [Innebygde aktivarapporter](fa-reports.md).
 
-## <a name="on-screen-fixed-assets-analytics"></a>Aktivaanalyse på skjermen
+## Aktivaanalyse på skjermen
 
 [!INCLUDE [prod_short](includes/prod_short.md)] har flere sider som gir deg aktivaoversikter og oppgaver å gjøre. Her er noen eksempler for å komme i gang:
 
 - [Beregn avskrivning, bokføre avskrivning og analysere avskrivning](fa-how-depreciate-amortize.md)
-- [Overvåk vedlikeholdskostnader](fa-how-maintain.md#to-monitor-maintenance-costs)
+- [Overvåk vedlikeholdskostnader](fa-how-maintain.md#monitor-maintenance-costs)
 - [Overvåk forsikringsdekning](fa-how-insure.md#to-monitor-insurance-coverage)
 - [Vis endrede avskrivningstablåverdier](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 - [Vis avhendingsposter](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
 - [Vis forventede avhendingsverdier](fa-how-manage-budgets.md#to-view-projected-disposal-values)
 
-### <a name="show-fixed-asset-general-ledger-entries-and-balances-from-the-chart-of-accounts-page"></a>Vis aktivaposter og -saldoer fra siden Kontoplan
+### Vis aktivaposter og -saldoer fra siden Kontoplan
 
 Siden Kontoplan viser alle finanskontoer med aggregerte numre i finans. Fra denne siden kan du gjøre ting som:  
 
@@ -134,7 +134,7 @@ Spesielt for aktiva kan du opprette en visning på Kontoplan-siden som bare vise
 
 Hvis du vil finne ut mer, kan du gå til [Forstå kontoplanen](finance-general-ledger.md#the-chart-of-accounts)
 
-### <a name="analyze-data-by-dimensions-related-to-fixed-assets"></a>Analyser data etter dimensjoner (relatert til aktiva)
+### Analyser data etter dimensjoner (relatert til aktiva)
 
 Dimensjoner er attributter og verdier som kategoriserer poster slik at du kan spore og analysere dem på dokumenter, for eksempel aktivakladder. Dimensjoner kan for eksempel angi avdelingen og stedet en post kommer fra.  
 
@@ -142,7 +142,7 @@ I stedet for å opprette separate finanskontoer for hver avdeling og hvert prosj
 
 Hvis du finne ut mer, går du til [Analyser data etter dimensjoner](bi-how-analyze-data-dimension.md)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Håndter finansrapportering mellom forretningsenheter eller juridiske enheter](finance-consolidated-company-reporting.md)  
 [Klargjør finansrapporter med finansdata og kontokategorier](bi-how-work-account-schedule.md)  

@@ -6,25 +6,25 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.reviewer: bholtorf
-ms.date: 06/14/2021
+ms.date: 06/16/2024
 ms.author: soalex
 ms.service: dynamics-365-business-central
 ---
-# <a name="service-compliance"></a>Servicesamsvar
+# Servicesamsvar
 
-Dette innholdet omfatter informasjon om servicesamsvar i tilknytning til [!INCLUDE[prod_short](../includes/prod_short.md)] på nett  
+Dette innholdet omfatter informasjon om servicesamsvar i tilknytning til [!INCLUDE[prod_short](../includes/prod_short.md)] på nett.
 
-Business Central er en skytjeneste med en global rekkevidde og skala som kjører på en av verden største hyperskalainfrastrukturer, Microsoft Azure, med datasentre i regioner over hele verden. Ved kjøring av en skytjeneste er det også behov for samsvar med visse standarder innen sikkerhet og samsvar, og fra et serviceperspektiv lever Business Central opp til de strenge kravene i flere ISO- og bransjebestemte sertifiseringer.
+Business Central er en skytjeneste med en global rekkevide og skala som kjører på en av verdens største hyperskalainfrastrukturer, Microsoft Azure, med datasentre i regioner over hele verden. Ved kjøring av en skytjeneste er det også behov for samsvar med visse standarder innen sikkerhet og samsvar, og fra et serviceperspektiv lever Business Central opp til de strenge kravene i flere ISO- og bransjebestemte sertifiseringer.
 
-Finner du en detaljert liste over [Skysamsvarstilbud for Business Central her](https://aka.ms/d365-compliance-list).
+Hvis du vil ha en detaljert liste over tilbud om skysamsvar for Business Central, kan du [laste ned dataarket for overholdelse av Microsoft Dynamics 365-skytjenesten](https://aka.ms/d365-compliance-list).
 
-Hvis du vil se den komplette listen over samsvarstilbud fra Microsoft, kan du se [Microsoft Klareringssenter](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
+Hvis du vil se den komplette listen over samsvarstilbud fra Microsoft, kan du gå til [Microsoft Klareringssenter](https://www.microsoft.com/trustcenter/compliance/complianceofferings).
 
-## <a name="service-terms"></a>Tjenestevilkår
+## Tjenestevilkår
 
-[!INCLUDE [service-terms](../includes/service-terms.md)]
+[!INCLUDE[service-terms](../includes/service-terms.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Samsvar](compliance-overview.md)  
 [Programsamsvar](compliance-application-compliance.md)  

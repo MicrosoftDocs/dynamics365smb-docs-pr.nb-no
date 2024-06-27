@@ -4,9 +4,11 @@ description: 'Finn ut mer om funksjoner og arbeidsscenarioer i Business Central 
 author: jswymer
 ms.topic: landing-page
 ms.devlang: al
-ms.date: 05/22/2023
+ms.date: 05/23/2024
 ms.author: jswymer
+ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 # Velkommen til [!INCLUDE[prod_long](includes/prod_long.md)]
 
@@ -69,19 +71,35 @@ Delene nedenfor peker til viktige artikler som kan hjelpe deg med å bli kjent m
 - [AL Development Environment](/dynamics365/business-central/dev-itpro/developer/devenv-reference-overview)
 - [Regler og retningslinjer for AL-kode](/dynamics365/business-central/dev-itpro/compliance/apptest-overview)
 
+## Copilot- og KI-innhold
+
+- [Oversikt](copilot-overview.md)
+- Funksjoner
+  - [Analyser data i lister med Copilot](analysis-assist.md)
+  - [Avstem bankkontoer med Copilot](bank-reconciliation-with-copilot.md)
+  - [Nettprat med Copilot](chat-with-copilot.md?toc=/dynamics365/business-central/toc.json)
+  - [Oversikt over forslag til markedsføringstekst](ai-overview.md)
+  - [Foreslå linjer i ordrer med Copilot](sales-suggest-sales-lines-with-copilot.md)
+  - [Tildel e-dokumenter til bestillingslinjer med Copilot](map-edocuments-with-copilot.md)
+- Administrasjon
+  - [Konfigurer Copilot- og KI-funksjoner](enable-ai.md)
+  - [Vanlige spørsmål om ansvarlig kunstig intelligens](responsible-ai-overview.md)
+- Utvikling
+  - [Utvid Copilot i Business Central](/dynamics365/business-central/dev-itpro/developer/ai-integration-landing-page)
+
 ## Microsoft Learn-opplæring
 
 Finn e-læringsinnhold for [!INCLUDE[prod_short](includes/prod_short.md)] på [Microsoft Learn-opplæring](/training/dynamics365/business-central?WT.mc_id=dyn365bc_landingpage-docs).
 
-Du kan også vise videoer med nye og vanlig brukte funksjoner i videobiblioteket. Se [Gå til videobiblioteket vårt](across-videos.md) for mer informasjon.  
+Du kan også vise videoer med nye og vanlig brukte funksjoner i videobiblioteket. Hvis du vil vite mer, kan du gå til [Besøk videobiblioteket](across-videos.md).  
 
 ## Grupperessurser
 
 - [Microsoft Dynamics 365 Business Central-fellesskapsforum](https://community.dynamics.com/forums/thread/?groupid=e78817ab-a926-4d31-96cc-aef040a4eb04)  
-- [Microsoft Dynamics 365 Business Central på Dynamics 365-bloggen](https://cloudblogs.microsoft.com/dynamics365/it/product/business-central/)  
+- [Microsoft Dynamics 365 Business Central på Dynamics 365-bloggen](https://www.microsoft.com/dynamics-365/blog/business-leader/product/dynamics-365-business-central/)  
 - [Microsoft Dynamics 365-lanseringsplaner](/dynamics365/release-plans/)  
-- [Microsoft Dynamics 365 Business Central-veikart](https://dynamics.microsoft.com/roadmap/business-central/)  
-- [Microsoft Partner Network \(krever Microsoft Partner Network-medlemskapskonto\)](https://mspartner.microsoft.com/en/us/windows/index.aspx)  
+- [Microsoft Dynamics 365 Business Central-lanseringsplanlegger](https://releaseplans.microsoft.com/?app=Business+Central&group=dynamics-365&subgroup=dynamics-365-business-central) 
+- [Microsoft Partner Network \(krever Microsoft Partner Network-medlemskapskonto\)](https://mspartner.microsoft.com)  
 
 ## Få varsel om endringer gjennom en RSS-feed
 
@@ -104,8 +122,8 @@ Du kan også vise videoer med nye og vanlig brukte funksjoner i videobiblioteket
 [Nyheter og endringer](/dynamics365/business-central/dev-itpro/whatsnew/overview)  
 [Hovedoppdateringer og mindre oppdateringer for Business Central online](/dynamics365/business-central/dev-itpro/administration/update-rollout-timeline)  
 [Dokumentasjon for Dynamics 365](/dynamics365/)  
-[Dynamics 365 Business Central på microsoft.com](https://dynamics.microsoft.com/business-central/overview/)  
-[Utforske Dynamics 365 Business Central-funksjoner](https://dynamics.microsoft.com/business-central/capabilities/)  
+[Dynamics 365 Business Central på microsoft.com](https://www.microsoft.com/dynamics-365/products/business-central/)  
+[Utforske Dynamics 365 Business Central-funksjoner](https://www.microsoft.com/en-us/dynamics-365/products/business-central#Features)  
 
 ## [!INCLUDE[prod_short](includes/free_trial_md.md)]
 

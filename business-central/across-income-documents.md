@@ -2,21 +2,21 @@
 title: Arbeid med innkommende dokumenter
 description: 'Du kan behandle innkommende eksterne forretningsdokumenter, for eksempel kvitteringer eller PDF-filer, behandle OCR-oppgaver og konvertere filer til elektroniske dokumenter og poster.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'electronic document, e-invoice, incoming document, OCR, ecommerce, document exchange, import invoice'
-ms.date: 06/14/2022
-ms.author: bholtorf
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
 ---
-# <a name="incoming-documents"></a>Inngående dokumenter
+# Inngående dokumenter
 
 Eksterne forretningsdokumenter kan komme til selskapet ditt som et e-postvedlegg eller en kopi som du skanner til fil. Dette scenarioet er vanlig for kjøp, hvor slike innkommende dokumentfiler representerer kvitteringer for utgifter eller små innkjøp.
 
 På siden **Inngående dokumenter** kan du bruke forskjellige funksjoner til å se gjennom utgiftskvitteringer, behandle OCR-oppgaver og konvertere inngående dokumentfiler, manuelt eller automatisk, til de aktuelle dokumentene eller kladdelinjene. De eksterne filene kan tilknyttes på et hvilket som helst tidspunkt i prosessen, inkludert bokførte dokumenter og resulterende leverandør, kunde- og finansposter.
 
-## <a name="usage-scenario"></a>Bruksscenario
+## Bruksscenario
 
 Du kan registrere filer eller papirkopier som er mottatt fra handelspartnerne, i [!INCLUDE[prod_short](includes/prod_short.md)] og opprette en dokumentpost. Det kan for eksempel være en kjøps- eller salgsfaktura, en kreditnota eller en kladdelinje.
 
@@ -30,11 +30,11 @@ Når du for eksempel mottar en faktura i PDF-format fra leverandøren, kan du se
 > [!TIP]
 > Opprett innkommende dokumentposter i [!INCLUDE[prod_short](includes/prod_short.md)] direkte fra e-poster sendt av leverandører ved hjelp av Outlook-tillegget. Hvis du vil ha mer informasjon, kan du se [Bruk Business Central som innboks for virksomheten i Outlook](work-outlook-addin.md).
 
-## <a name="incoming-document-features"></a>Funksjoner for innkommende dokument
+## Funksjoner for innkommende dokument
 
 Prosessen for inngående dokumenter kan bestå av følgende hovedaktiviteter:
 
-* Registrere de eksterne dokumentene i [!INCLUDE[prod_short](includes/prod_short.md)] ved å opprette linjer på siden **Inngående dokumenter** på én av følgende måter:
+* Registrere de eksterne dokumentene i [!INCLUDE[prod_short](includes/prod_short.md)] ved å opprette linjer på siden **Inngående dokumenter** på følgende måter:
   * Manuelt, fra en PC eller en mobilenhet, på en av følgende måter:
     * Bruk **Opprett fra fil**-knappen, last opp en fil, og fyll deretter ut aktuelle felter på siden **Innkommende dokument**.
     * Bruk **Ny**-knappen, og fyll deretter ut aktuelle felter på siden **Innkommende dokument**, og legg manuelt ved den relaterte filen.
@@ -57,7 +57,7 @@ Prosessen for inngående dokumenter kan bestå av følgende hovedaktiviteter:
 | Fra sidene **Kontoplan** og **Finansposter** bruker du søkefunksjonen til å finne finansposter for bokførte dokumenter som ikke har innkommende dokumentposter, og deretter sentralt koble eksisterende poster eller opprette nye med vedlagte dokumentfiler. |[Finne bokførte dokumenter uten innkommende dokumentposter](across-how-find-posted-documents-without-income-document-records.md) |
 | Få en bedre oversikt ved å sette inngående dokumentposter til *Behandlet* for å fjerne dem fra standardvisningen. |[Administrer mange inngående dokumentposter](across-how-manage-many-income-document-records.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Innkjøp](purchasing-manage-purchasing.md)  
 [Redigering av bokførte dokumenter](across-edit-posted-document.md)  

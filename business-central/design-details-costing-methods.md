@@ -1,15 +1,16 @@
 ---
-title: Designdetaljer Lagermetoder
+title: 'Designdetaljer: Kostmetoder'
 description: Dette emnet beskriver hvordan lagermetoden påvirker hvordan de faktiske og budsjetterte verdiene kapitaliseres og brukes i kostnadsberegningen.
 author: brentholtorf
-ms.topic: conceptual
-ms.devlang: al
-ms.search.keywords: null
-ms.date: 05/12/2023
 ms.author: bholtorf
+ms.reviewer: bholtorf
+ms.topic: conceptual
+ms.search.keywords: null
+ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# <a name="design-details-costing-methods"></a>Designdetaljer: Kostmetoder
+# Designdetaljer: Kostmetoder
 
 Lagermetoden avgjør om det er en faktisk eller en budsjettert verdi som kapitaliseres og brukes i kostnadsberegningen. Sammen med bokføringsdatoen og rekkefølgen påvirker lagermetoden også hvordan kostnadsflyten registreres.
 
@@ -20,17 +21,17 @@ Følgende metoder støttes i [!INCLUDE[prod_short](includes/prod_short.md)]:
 
 | Lagermetode | Beskrivelse | Når den brukes |
 |--|--|--|
-| FIFO | Enhetskosten for en vare er den faktiske verdien for alle mottak av varen, valgt av FIFO-regelen.<br /><br /> I lagerverdisetting antas det at de første varene som plasseres på lager, selges først. | I forretningsmiljøer der produktkost er stabil.<br /><br /> (Når prisene stiger, viser balansen større verdi. Dette betyr at skatteforpliktelser økes, men kredittverdigheten og mulighetene til å låne penger blir bedre.)<br /><br /> For varer med en begrenset holdbarhet, fordi de eldste varene må selges før de overskrider siste salgsdato. |
-| LIFO | Enhetskosten for en vare er den faktiske verdien for alle mottak av varen, valgt av LIFO-regelen.<br /><br /> I lagerverdisetting antas det at de siste varene som plasseres på lager, selges først. | Ikke tillatt i mange land/regioner, siden det kan brukes til å redusere fortjeneste.<br /><br /> (Når prisene stiger, reduseres verdien i resultatregnskapet. Dette betyr at skatteforpliktelser reduseres, men mulighetene til å låne penger blir mindre.) |
-| Gjennomsnitt | Enhetskosten for en vare beregnes som den gjennomsnittlige enhetskostnaden på hvert tidspunkt etter et kjøp.<br /><br /> For lagerverdi antas det at alle beholdninger selges samtidig. | I forretningsmiljøer der produktkost er ustabil.<br /><br /> Når beholdninger er stablet eller blandet sammen og ikke kan kan differensieres, for eksempel kjemikalier. |
-| Serienummer | Enhetskosten for en vare er den nøyaktige kosten da den bestemte enheten ble mottatt. | I produksjon av eller handel med lett gjenkjennelige varer med relativt høy enhetskost.<br /><br /> For varer som er underlagt regulering.<br /><br /> For varer med serienumre. |
+| FIFO | Enhetskosten for en vare er den faktiske verdien for alle mottak av varen, valgt av FIFO-regelen.<br /><br /> Lagerverdisetting antar at de første varene som plasseres på lager, selges først. | I forretningsmiljøer der produktkost er stabil.<br /><br /> (Når prisene stiger, viser balansen større verdi. Dette betyr at skatteforpliktelser økes, men kredittverdigheten og mulighetene til å låne penger blir bedre.)<br /><br /> For varer med en begrenset holdbarhet, fordi de eldste varene må selges før de overskrider siste salgsdato. |
+| LIFO | Enhetskosten for en vare er den faktiske verdien for alle mottak av varen, valgt av LIFO-regelen.<br /><br /> Lagerverdisetting antar at de siste varene som plasseres på lager, selges først. | Ikke tillatt i mange land/regioner, siden det kan brukes til å redusere fortjeneste.<br /><br /> (Når prisene stiger, reduseres verdien i resultatregnskapet. Dette betyr at skatteforpliktelser reduseres, men mulighetene til å låne penger blir mindre.) |
+| Gjennomsnitt | Enhetskosten for en vare beregnes som den gjennomsnittlige enhetskostnaden på hvert tidspunkt etter et kjøp.<br /><br /> Lagerverdisetting antar at alle beholdninger selges samtidig. | I forretningsmiljøer der produktkost er ustabil.<br /><br /> Når beholdninger er stablet eller blandet sammen og ikke kan kan differensieres, for eksempel kjemikalier. |
+| Bestemt | Enhetskosten for en vare er den nøyaktige kosten da den bestemte enheten ble mottatt. | I produksjon av eller handel med lett gjenkjennelige varer med relativt høy enhetskost.<br /><br /> For varer som er underlagt regulering.<br /><br /> For varer med serienumre. |
 | Standard | Enhetskosten for en vare er forhåndsinnstilt basert på estimert kostnad.<br /><br /> Når de faktiske kostnadene senere realiseres, må standardkosten justeres til faktisk kost gjennom avviksverdier. | Der kostnadskontroll er kritisk.<br /><br /> I gjentatt produksjon for å verdsette kostnadene for direkte materialer, direkte arbeid og indirekte produksjon.<br /><br /> Der det er disiplin og ansatte for å opprettholde standardene. |
 
 Bildet nedenfor viser hvordan kost flyter gjennom lageret for hver lagermetode.  
 
 ![Lagermetoder visualisert.](media/design_details_inventory_costing_7_costing_methods.png "Lagermetoder visualisert")  
 
-Lagermetodene varierer med hensyn til hvordan de verdisetter lagerreduksjoner og om de bruker faktiske kostnad eller standard kostnad som verdisettingsgrunnlag. Tabellen nedenfor forklarer de ulike egenskapene. (LIFO-metoden er utelukket fordi den er veldig lik FIFO-metoden.)  
+Lagermetodene varierer med hensyn til hvordan de verdisetter lagerreduksjoner og om de bruker faktiske kostnad eller standard kostnad som verdisettingsgrunnlag. Tabellen nedenfor forklarer de ulike egenskapene. (LIFO-metoden er utelukket fordi den er lik FIFO-metoden.)  
 <!--Old  table
 |Category|FIFO|Average|Standard|Specific|  
 |-|----------|-------------|--------------|--------------|  
@@ -46,9 +47,9 @@ Lagermetodene varierer med hensyn til hvordan de verdisetter lagerreduksjoner og
 |**FIFO**     |Lett å forstå|Utligning holder orden på **det gjenværende antallet**.<br /><br /> Justering videresender kostnader i henhold til antallsutligning. |Revaluerer bare fakturert antall.<br /><br /> Kan utføres per vare eller per varepost.<br /><br /> Kan utføres bakover i tid.|Hvis du tilbakedaterer en lagerreduksjon, brukes IKKE eksisterende oppføringer på nytt for å gi en riktig FIFO-kostnadsflyten.|
 |**Gjennomsnitt**     |Basert på periodealternativer: **Dag**/**Uke**/**Måned**/**Kvartal**/**Regnskapsperiode**.<br /><br /> Kan beregnes per vare eller per vare/lokasjon/variant.|Utligning holder orden på **det gjenværende antallet**.<br /><br /> Kostnader beregnes og videresendt på **verdisettingsdato**. |Revaluerer bare fakturert antall.<br /><br /> Kan bare utføres per vare.<br /><br /> Kan utføres bakover i tid. |Hvis du tilbakedaterer lagerøkning eller -reduksjon, blir gjennomsnittskost beregnet på nytt, og alle berørte poster blir justert.<br /><br /> Hvis du endrer periode- eller beregningstype, må alle berørte poster justeres.|
 |**Standard**     |Enkel å bruke, men krever kvalifisert vedlikehold.|Utligning holder orden på **det gjenværende antallet**.<br /><br /> Utligning er basert på FIFO.|Revaluerer fakturerte og ikke-fakturerte antall.<br /><br /> Kan utføres per vare eller per varepost.<br /><br /> Kan utføres bakover i tid.|Bruk **Standardforslag**-siden til å oppdatere og opprullere standardkostnader regelmessig.<br /><br /> Støttes IKKE per LFE.<br /><br /> Det finnes ingen historiske poster for standardkost.|
-|**Bestemt**     |Krever varesporing på både inngående og utgående transaksjon.<br /><br /> Brukes vanligvis for serialiserte varer.|Alle utligninger er faste.|Revaluerer bare fakturert antall.<br /><br /> Kan utføres per vare eller per varepost.<br /><br /> Kan utføres bakover i tid.|Du kan bruke spesifikk varesporing uten å bruke lagermetoden Serienummer. Dermed følger IKKE kostnadene partinummeret, men i stedet kostnadsforutsetningen i den valgte lagermetoden.|
+|**Bestemt**     |Krever varesporing på både inngående og utgående transaksjon.<br /><br /> Brukes vanligvis for serialiserte varer.|Alle utligninger er faste.|Revaluerer bare fakturert antall.<br /><br /> Kan utføres per vare eller per varepost.<br /><br /> Kan utføres bakover i tid.|Du kan bruke spesifikk varesporing uten å bruke lagermetoden Serienummer. Kostnadene følger ikke partinummeret, men i stedet kostnadsforutsetningen i den valgte lagermetoden.|
 
-## <a name="example"></a>Eksempel
+## Eksempel
 
 Denne delen inneholder eksempler på hvordan ulike lagermetoder påvirker lagerverdi.  
 
@@ -66,7 +67,7 @@ Tabellen nedenfor viser lagerøkningene og -reduksjonene som eksemplene er baser
 > [!NOTE]  
 > Det resulterende antallet på lageret er null. Lagerverdien må derfor være null, uavhengig av lagermetoden.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-increases"></a>Virkningen økes av lagermetoder på verdisetting av lagerbeholdning
+### Virkningen økes av lagermetoder på verdisetting av lagerbeholdning  
 
 Lagerøkninger verdisettes som varens anskaffelseskost for varer som bruker andre lagermetoder som verdisettingsgrunnlag (**FIFO**, **LIFO**, **Gjennomsnitt** eller **Spesifikk**).  
 
@@ -74,11 +75,11 @@ Lagerøkninger verdisettes som varens anskaffelseskost for varer som bruker andr
 
     Når det gjelder varer som bruker lagermetoden **Standard**, verdisettes lagerøkningene til varens gjeldende standardkost.  
 
-#### <a name="standard"></a>Standard
+#### Standard  
 
 Når det gjelder varer som bruker lagermetoden **Standard**, verdisettes lagerøkningene til varens gjeldende standardkost.  
 
-### <a name="effect-of-costing-methods-on-valuing-inventory-decreases"></a>Virkningen reduseres av lagermetoder på verdisetting av lagerbeholdning
+### Virkningen reduseres av lagermetoder på verdisetting av lagerbeholdning
 
 - **FIFO**  
 
@@ -146,7 +147,7 @@ Når det gjelder varer som bruker lagermetoden **Standard**, verdisettes lagerø
     |01.03.20|-1|-10,00|**1**|5|  
     |01.04.20|-1|-30,00|**3**|6|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Utformingsdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)  
 [Utformingsdetaljer: Avvik](design-details-variance.md)  
@@ -156,6 +157,5 @@ Når det gjelder varer som bruker lagermetoden **Standard**, verdisettes lagerø
 [Finans](finance.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 [Ordliste over termer i Dynamics 365-forretningsprosesser](/dynamics365/guidance/business-processes/glossary)  
-[Definer oversikt over produkt- og tjenestekostnader](/dynamics365/guidance/business-processes/product-service-define-cost-overview)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

@@ -8,16 +8,16 @@ ms.topic: how-to
 ms.collection:
   - get-started
   - bap-ai-copilot
-ms.date: 04/10/2024
+ms.date: 06/10/2024
 ms.custom: bap-template
 ---
 
 # Tildel e-dokumenter til bestillingslinjer med Copilot (forhåndsversjon)
 
-Etter hvert som innkjøpsprosessene blir mer digitale, spiller funksjonen for e-dokumenter i Business Central en nøkkelrolle i automatiseringen av mottak og behandling av leverandørfakturaer. Copilot kan hjelpe denne prosessen ved å forbedre tildelingen og samsvaret av leverandørfakturaer mot bestillinger. Dette reduserer tidkrevende oppgaver som normalt ville inkludere omfattende søk, oppslag og dataregistrering. Fordelen forsterkes av at leverandørfakturaer ofte ikke forholder seg nøyaktig til bestillinger, og i så fall er Copilot bedre posisjonert til å identifisere de tilsvarende innkjøpsordrene. Forbedrede samsvarsfunksjoner er spesielt til fordel for små og mellomstore organisasjoner som trenger effektiv dokumentsporing for bestillingslinjer. Copilot er den KI-drevne assistenten for arbeid som øker kreativiteten og forbedrer produktiviteten for Business Central-brukere.
+Etter hvert som innkjøpsprosessene blir mer digitale, spiller funksjonen for e-dokumenter i Business Central en nøkkelrolle i automatiseringen av mottak og behandling av leverandørfakturaer. Copilot kan hjelpe denne prosessen ved å forbedre tildelingen og samsvaret av leverandørfakturaer mot bestillinger. Denne assistansen reduserer tiden som brukes på oppgaver som normalt ville inkludere omfattende søk, oppslag og dataregistrering. En annen fordel er når leverandørfakturaer ikke er nøyaktig relatert til bestillinger. I så fall er Copilot godt posisjonert til å identifisere de tilsvarende bestillingene. Forbedrede samsvarsfunksjoner er spesielt til fordel for små og mellomstore organisasjoner som trenger effektiv dokumentsporing for bestillingslinjer. Copilot er den KI-drevne assistenten for arbeid som øker kreativiteten og forbedrer produktiviteten for Business Central-brukere.
 
 > [!IMPORTANT]
-> - Dette er en produksjonsklar evalueringsfunksjonalitet for produksjons- og sandkassemiljøer i alle landlokaliseringer, med unntak av Canada.
+> - Dette er en produksjonsklar evalueringsfunksjonalitet for produksjons- og sandkassemiljøer i alle landlokaliseringer<!-- with the exception of Canada -->.
 > - Produksjonsklare forhåndsversjoner er underlagt tilleggsvilkårene for bruk. Mer informasjon: [Tilleggsvilkår for bruk for prøveversjoner av Dynamics 365](https://go.microsoft.com/fwlink/?linkid=2105274)
 > - Innhold generert av kunstig intelligens kan være feil.
 
@@ -25,27 +25,26 @@ I den første utgivelsen appen for **e-dokumenter** introduserte vi grunnleggend
 
 Du kan nå oppdatere en eksisterende bestilling i Business Central med informasjonen som mottas i e-fakturaen.
 
-<!--
-> [!NOTE]
-> - This feature is available as a production-ready preview for production and sandbox environments in any country localization, with the exception of Canada. Production-ready previews are subject to supplemental terms of use. For more information, see [Supplemental terms of use for Dynamics 365 preview](https://go.microsoft.com/fwlink/?linkid=2105274).
-> - AI-generated content may be incorrect.-->
+## Tilgjengelige språk
 
-## Slik aktiverer du Copilot  
+[!INCLUDE[e-docs-matching-language-support](includes/e-docs-matching-language-support.md)]
+
+## Aktiver Copilot  
 
 Hvis du ikke aktiverte Copilot for **samsvarshjelp for e-dokument**, må du gjøre det manuelt. Følg denne fremgangsmåten for å aktivere kopiloten **Samsvarshjelp for e-dokument**: 
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Copilot og KI-funksjoner**, og velg deretter den relaterte koblingen. 
 2. Velg **Samsvarshjelp for e-dokument** i listen over funksjoner, og endre statusen til **Aktiv**.  
 
-Du kan begynne å bruke Copilot så snart den er aktivert. 
+Du kan begynne å bruke Copilot så snart du har aktivert den. 
 
 ## Identifiser bestillinger
 
-Først kan du identifisere bestillingene som du kan samsvare automatisk. Hvis **leverandøren** har konfigurert feltet **Motta e-dokument til** til å fungere med **bestillinger**, gjøres følgende når det elektroniske dokumentet er opprettet i [!INCLUDE[prod_short](includes/prod_short.md)] (manuelt eller fra et eksternt endepunkt): [!INCLUDE[prod_short](includes/prod_short.md)] gjør følgende:
+Først kan du identifisere bestillingene som du kan samsvare automatisk. Hvis **leverandøren** har konfigurert feltet **Motta e-dokument til** til å fungere med **bestillinger**, og når det elektroniske dokumentet er opprettet i [!INCLUDE[prod_short](includes/prod_short.md)] (manuelt eller fra et eksternt endepunkt), gjør [!INCLUDE[prod_short](includes/prod_short.md)] følgende:
 
-1. Hvis **bestillingen** for denne bestemte leverandøren *finnes, og det finnes et bestillingsnummer* i den mottatte **e-dokumentfilen**, kobler [!INCLUDE[prod_short](includes/prod_short.md)] dette **e-dokumentet** automatisk til den angitte **bestillingen**. **Dokumentstatusen** for dette **e-dokumentet** er **Pågår**, og **e-dokumentstatusen** på undersiden **Tjenestestatus** blir **Ordre koblet**.  
-Denne koblingen vil være synlig i **Dokument**-feltet i dette spesifikke **e-dokumentet**. Hvis du må endre **bestillingen** som er koblet automatisk, kan du gjøre det ved å bruke handlingen **Oppdater bestillingskobling** og deretter velge manuelt en av de eksisterende bestillingene for denne leverandøren. Du kan bare gjøre dette før du samsvarer linjene mellom **e-dokument** og **bestilling**.  
-2. Hvis **bestillingen** for denne bestemte leverandøren *finnes, men det ikke finnes et bestillingsnummer* i mottatt **e-dokumentfil**, hvis du lastet opp dette dokumentet manuelt, tillater [!INCLUDE[prod_short](includes/prod_short.md)] deg å velge fra en av de eksisterende bestillingene, noe som åpner listen **Bestillinger** fra ordrene du fikk fra leverandører som bare inneholder **e-dokumentet**, der du må velge **bestillingen** du vil bruke, og velge **OK**. Hvis du ikke velger riktig **bestilling** eller du fikk **e-dokumentet** automatisk fra et eksternt endepunkt ved hjelp av **prosjektkøen**, kobles ikke det nye **e-dokumentet** til noe kjøpsdokument, og **dokumentstatusen** vises som **Feil**, og **e-dokumentstatusen** på undersiden **Servicestatus** er **Feil ved behandling av importert dokument**. Når du skal fullføre tilknytningen til **bestillingen**, velger du handlingen **Oppdater bestillingskobling** og velger deretter en av de eksisterende bestillingene for denne leverandøren.  
+1. Hvis **bestillingen** for denne bestemte leverandøren *finnes, og det finnes et bestillingsnummer* i den mottatte **e-dokumentfilen**, kobler [!INCLUDE[prod_short](includes/prod_short.md)] dette **e-dokumentet** automatisk til den angitte **bestillingen**. **Dokumentstatusen** for dette **e-dokumentet** er **Pågår**, og **e-dokumentstatusen** på undersiden **Tjenestestatus** er **Ordre koblet**.  
+Denne koblingen er synlig i **Dokument**-feltet i dette spesifikke **e-dokumentet**. Hvis du må endre **bestillingen** som er koblet automatisk, kan du gjøre det ved å bruke handlingen **Oppdater bestillingskobling** og deretter velge manuelt en av de eksisterende bestillingene for denne leverandøren. Du kan bare gjøre dette før du samsvarer linjene mellom **e-dokument** og **bestilling**.  
+2. Hvis **bestillingen** for denne bestemte leverandøren *finnes, men det ikke finnes et bestillingsnummer* i mottatt **e-dokumentfil**, hvis du lastet opp dette dokumentet manuelt, tillater [!INCLUDE[prod_short](includes/prod_short.md)] deg å velge fra en av de eksisterende bestillingene, noe som åpner listen **Bestillinger** fra ordrene du fikk fra leverandører som bare inneholder **e-dokumentet**, der du må velge **bestillingen** du vil bruke, og velge **OK**. Hvis du ikke velger riktig **bestilling** eller du fikk **e-dokumentet** automatisk fra et eksternt endepunkt ved hjelp av **prosjektkøen**, kobles ikke det nye **e-dokumentet** til et kjøpsdokument, og **dokumentstatusen** vises som **Feil**, og **e-dokumentstatusen** på undersiden **Servicestatus** er **Feil ved behandling av importert dokument**. Når du skal fullføre tilknytningen til **bestillingen**, velger du handlingen **Oppdater bestillingskobling** og velger deretter en av de eksisterende bestillingene for denne leverandøren.  
 
 ## Tildel linjer
 
@@ -64,11 +63,11 @@ Når du vil kjøre samsvar fra bestillingen, velger du handlingen **Tildel e-dok
 2. Du kan legge merke til at **Samsvarshjelp for e-dokument med Copilot**-spørringen fungerer, og du har siden **Bestillingssamsvar** i bakgrunnen. Det betyr at den samme prosessen skjer, men med automatisk støtte fra **Copilot**, som kjører prosessen med avstemming i stedet for deg. 
 3. Etter noen sekunder vil **Samsvarshjelp for e-dokument med Copilot** foreslå linjer for avstemming med flere detaljer: 
 
-    1. I spørringshodet finner du følgende informasjon: 
+    1. I spørringshodet finner du følgende informasjon:   
 
     |Feltnavn |Description |
     |--------|-----------------|
-    |Automatisk avstemt | Angir antall avstemminger foreslått automatisk. Dette er basert på en strengsammenligning, og hvis det er 80 % eller mer overlappende beskrivelse, vil systemet avstemme disse beskrivelsene automatisk uten å bruke GPT-funksjoner. |
+    |Automatisk avstemt | Angir antall avstemminger foreslått automatisk. Dette antallet er basert på en strengsammenligning, og hvis det er 80 % eller mer overlappende beskrivelse, vil systemet avstemme disse beskrivelsene automatisk uten å bruke Copilot-funksjoner. |
     |Avstemt med Copilot | Angir antall treff foreslått av Copilot ved hjelp av både strengsammenligning og semantisk sammenligning. |
     |E-dokumentnr. | Angir det tilknyttede e-dokumentnummeret. |
     |Totalbeløp for faktura ekskl. mva. | Angir det totale fakturabeløpet ekskl. mva. |
@@ -81,10 +80,10 @@ Når du vil kjøre samsvar fra bestillingen, velger du handlingen **Tildel e-dok
     |--------|-----------------|
     |E-dokumentlinjenr. | Angir linjenummeret for e-dokumentet (kommer fra den opprinnelige e-dokumentfilen). |
     |Beskrivelse av e-dokumentlinje | Angir beskrivelsen av e-dokumentet (kommer fra den opprinnelige e-dokumentfilen). |
-    |Avstemt antall | Angir antallet som skal brukes på bestillingslinjen. |
+    |Avstemt antall | Angir antallet som brukes på bestillingslinjen. |
     |Tilbud | Angir handlingen som er foreslått av kunstig intelligens, og disse foreslåtte handlingene er knyttet til avstemming av bestillingslinjene. |
 
-    4. Alle fullstendig foreslåtte og avstemte linjer er merket med grønn farge. Hvis det er et problem, for eksempel en annen pris, men i den tillatte prisklassen, blir denne linjen være merket med gul farge, og hvis det er likhet mellom beskrivelsesfeltene, men prisforskjellen er større enn tillatt, blir denne linjen merket med rød farge. 
+    4. Alle fullstendig foreslåtte og avstemte linjer er merket med grønn farge. Hvis det er et problem, for eksempel en annen pris, men innenfor den tillatte prisklassen, er denne linjen merket med en gul farge. Hvis det er likhet mellom beskrivelsesfeltene, men prisforskjellen er større enn tillatt, er denne linjen merket med en rød farge.
     5. Hvis du ikke er fornøyd med noen forslag, kan du slette dem ved hjelp av handlingen **Slett linje**.  
     6. Hvis du vil se forslagssamsvar, kan du velge koblingen i **Forslag**-kolonnen for å åpne siden **Samsvarsdetaljer for e-dokument**. 
     7. På siden **Samsvarsdetaljer for e-dokument** kan du sammenligne detaljer fra **e-dokumenter** og **bestillingen** for å være sikker på det foreslåtte samsvaret før du bekrefter det. 

@@ -200,7 +200,7 @@ ms.service: dynamics-365-business-central
 #### [Berørings- og pennebevegelser](touch-gestures.md)
 ### [Feilsøk: Tilgang til kamera og plassering](ui-troubleshooting-camera-location.md)
 ### [Intelligent innsikt (bare på nettet)](about-intelligent-cloud.md)
-## Vanlige spørsmål
+## Feilsøking og vanlige spørsmål
 ### [Vanlige spørsmål](across-faq.yml)
 ### [Vanlige spørsmål om nettprat med Copilot (forhåndsversjon)](chat-with-copilot-faq.md)
 ### [Vanlige spørsmål om Fortell meg](ui-search-faq.md)
@@ -211,6 +211,7 @@ ms.service: dynamics-365-business-central
 ### [Vanlige spørsmål om Teams](teams-faq.md)
 ### [Vanlige spørsmål om elektronisk fakturering](faq-electronic-invoicing.yml)
 ### [Minstekrav](product-requirements.md)
+### [Feilsøking i Business Central](/troubleshoot/dynamics-365/business-central/welcome-business-central)
 
 ## Hjelp og støtte
 ### [Ressurser for hjelp og støtte](product-help-and-support.md)
@@ -459,6 +460,11 @@ ms.service: dynamics-365-business-central
 #### [Bærekraftsoppsett](finance-sustainability-setup.md)
 #### [Bærekraftskontoplan og -post](finance-sustainability-accounts-ledger.md)
 #### [Slik registrerer du klimagassutslipp](finance-sustainability-journal.md)
+#### Bærekraftsanalyse
+##### [Ad hoc-analyse av bærekraftsdata](ad-hoc-analysis-sustainability.md)
+##### [Innebygde bærekraftsrapporter](sustainability-reports.md)
+#### API-er for bærekraft
+##### [API for bærekraft](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json)
 
 ### [Organisasjoner med flere lokasjoner og internasjonale organisasjoner](finance-multi-site-organizations.md)
 #### Konsolider finansdata fra flere selskaper
@@ -600,7 +606,7 @@ ms.service: dynamics-365-business-central
 #### [Oversikt over analyse av aktiva](fa-analytics-overview.md)
 #### [Ad hoc-analyse av aktivadata](ad-hoc-analysis-fa.md)
 #### Innebygde verktøy for analyse av aktiva
-##### [Overvåk vedlikeholdskostnader](fa-how-maintain.md#to-monitor-maintenance-costs)
+##### [Overvåk vedlikeholdskostnader](fa-how-maintain.md#monitor-maintenance-costs)
 ##### [Overvåk forsikringsdekning](fa-how-insure.md#to-monitor-insurance-coverage)
 ##### [Vis endrede avskrivningstablåverdier](fa-how-trans-split-combine.md#to-view-changed-depreciation-book-values-due-to-fixed-asset-reclassification)
 ##### [Vis avhendingsposter](fa-how-dispose-retire.md#to-view-disposal-ledger-entries)
@@ -1857,6 +1863,7 @@ ms.service: dynamics-365-business-central
 #### [Hovedfinansrapporter](finance-reports.md)
 #### [Rapporter om utestående fordringer](receivables-reports.md)
 #### [Rapporter om leverandørgjeld](payables-reports.md)
+#### [Bærekraftsrapporter](sustainability-reports.md)
 
 ### [Salgsrapporter](sales-reports.md)
 ### [Kjøpsrapporter](purchase-reports.md)

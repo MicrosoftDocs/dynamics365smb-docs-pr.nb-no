@@ -1,60 +1,63 @@
 ---
-title: Opprette varekort for varer eller tjenester (inneholder video)
+title: Opprette varekort for varer eller tjenester
 description: Du oppretter varekort for tjenester som du selger som timer og for fysiske produkter. Eksempler er monteringsvarer og ferdige varer som du selger fra lageret.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.devlang: al
 ms.search.keywords: 'item, finished good, component, raw material, assembly item, item substitution'
 ms.search.form: '30, 5717, 31, 32, 346, 9091, 5718, 5716, 5720, 1384, 1383, 35, 5404, 1378, 5719'
-ms.date: 11/02/2022
-ms.author: bholtorf
+ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
-# Registrere nye varer
+# Registrer nye varer
 
-Varer, blant andre produkter, er grunnlaget for virksomheten din, varene eller tjenestene du handler med. Hver vare må være registrert som et varekort.
+Varer er varene eller tjenestene du kjøper, lagrer, selger, leverer og fører regnskap for. Bruk **Varekort**-siden til å registrere informasjon om følgende varetyper:
 
-Varekort inneholder informasjonen som er nødvendig for å kjøpe, lagre, selge, levere og gjøre rede for varer.
+* **Beholdning** angir at varen er en fysisk enhet som du administrerer og sporer på lageret.
+* **Ikke-beholdning** er fysiske enheter som du ikke administrerer eller sporer på lager.
+* **Servicevarer** er en arbeidstidsenhet som vanligvis brukes i servicebehandling.
 
-Varekortet kan være av typen **Lager**, **Service** eller **Ikke-lagervarer** for å angi om varen er en fysisk lagerenhet, en arbeidstidsenhet eller en fysisk enhet som ikke spores i lagerbeholdningen. Hvis du vil ha mer informasjon, kan du se [Om varetyper](inventory-about-item-types.md).
+Hvis du vil lære mer om disse typene varer, går du til [Om varetyper](inventory-about-item-types.md).
 
-En vare kan struktureres som en overordnet vare med underliggende underordnede varer i en stykkliste. Finn ut mer om monteringsstykklister og produksjonsstykklister i [Arbeid med stykklister](inventory-how-work-BOMs.md).
+> [!TIP]
+> Det finnes også katalogvarer, som ligner på ikke-lagervarer ved at de er varer du tilbyr til kunder, men ikke administrerer før du selger dem. Hvis du vil ha mer informasjon, kan du gå til [Arbeide med katalogvarer](inventory-how-work-nonstock-items.md).  
 
-Hvis du kjøper den samme varen fra flere leverandører, kan du knytte disse leverandørene til varekortet. Siden **Vare/leverandør-katalog** viser leverandørene slik at du enkelt kan velge en annen leverandør.
+## Primære og alternative leverandører
 
-*Katalogvarer* er varer som du tilbyr kunder, men som du ikke vil administrere i systemet før du begynner å selge dem. Katalogvarer er ikke vanlige varer av typen **Ikke-lagervarer**. Finn ut mer under [Arbeid med katalogvarer](inventory-how-work-nonstock-items.md).  
+Hvis du kjøper den samme varen fra flere leverandører, kan du knytte disse leverandørene til varen. Bruk handlingen **Leverandører** på **Varekort**-siden til å åpne siden **Vareleverandørkatalog**. Siden viser leverandørene du kjøper varen fra, slik at du enkelt kan opprette eller velge en alternativ leverandør når du oppretter en bestilling.
 
-> [!NOTE]  
-> Hvis det finnes varemaler for ulike varetyper, vises en siden når du oppretter et nytt kundekort der du kan velge en passende mal. Hvis det bare finnes én varemal, brukes alltid denne malen i nye varekort.
+## Bruk varemaler
 
-Fremgangsmåten nedenfor forklarer hvordan du oppretter et varekort fra grunnen av. Du kan også opprette nye varekort ved å kopiere eksisterende varekort. Hvis du vil ha mer informasjon, se [Kopiere eksisterende varer for å opprette nye varer](inventory-how-copy-items.md).  
+Hvis du vil bruke innstillinger på nytt for ulike typer varer når du oppretter nye varer, kan du lagre varer som varemaler. Med elementmaler kan du få fart på prosessen med å legge til nye varer og øke konsekvensen i varedataene. Når du registrerer en ny vare, vises en side der du kan velge en mal. Når du har valgt en mal, fylles innstillingene ut for deg for varen du oppretter. Hvis du bare har én varemal, bruker nye varer alltid denne malen. Hvis du vil lære hvordan du definerer en varemal, kan du gå til [Lagre et varekort som en varemal](#save-an-item-card-as-an-item-template).
 
-<br />
+## Inkluder varer i stykklister
 
-> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
+Du kan strukturere hierarkier som har en hovedvare med underliggende komponentvarer i monterings- og produksjonsstykklister. Hvis du vil ha mer informasjon om stykklister, går du til [Arbeid med stykklister](inventory-how-work-BOMs.md).
 
 ## Opprette et nytt varekort
+
+Videoen nedenfor viser hvordan du setter opp en vare på Varekort-siden. Du kan imidlertid også sette opp nye varer ved å kopiere eksisterende varer. Hvis du vil ha mer informasjon, kan du gå til [Kopier eksisterende varer for å opprette nye varer](inventory-how-copy-items.md).  
+
+> [!Video https://www.microsoft.com/videoplayer/embed/RE47eLx?rel=0]
 
 [!INCLUDE[create_new_item](includes/create_new_item.md)]
 
 > [!NOTE]
-> I feltet **Lagermetode** kan du definere hvordan varens enhetskost beregnes, ved å lage prognoser over vareflyten i selskapet. Fem lagermetoder er tilgjengelige, avhengig av varetypen. Hvis du vil ha mer informasjon, kan du se [Designdetaljer: Kostmetoder](design-details-costing-methods.md).
+> I feltet **Lagermetode** kan du definere hvordan varens enhetskost beregnes, ved å lage prognoser over vareflyten i selskapet. Fem lagermetoder er tilgjengelige, avhengig av varetypen. Hvis du vil lære mer om kostberegning, kan du gå til [Designdetaljer: Kostmetoder](design-details-costing-methods.md).
 >
-> Hvis du velger **Gjennomsnitt**, blir enhetskosten for en vare beregnet som den gjennomsnittlige enhetskosten på hvert tidspunkt etter et kjøp. Lageret verdisettes basert på antakelsen om at alle beholdninger selges samtidig. Med denne innstillingen kan feltet **Enhetskost** for å vise en historikk over transaksjoner som gjennomsnittskosten beregnes fra, på siden **Oversikt over beregning av gjennomsnittskost**.
+> Hvis du velger **Gjennomsnitt**, blir enhetskosten for en vare beregnet som den gjennomsnittlige enhetskosten på hvert tidspunkt etter et kjøp. Lageret verdisettes basert på antakelsen om at alle beholdninger selges samtidig. Med denne innstillingen kan du velge feltet **Enhetskost** på siden **Oversikt over beregning av gjennomsnittskost** for å vise transaksjonene som ble brukt til å beregne gjennomsnittskost.
 
-Du kan vise eller redigere spesialpriser eller rabatter som du gir, eller som leverandøren gir deg, for varen hvis bestemte kriterier oppfylles, for eksempel kunde, minimumsordreantall eller sluttdato. Dette gjør du ved å velge handlingene **Definer spesialpriser** eller **Definer spesialrabatter**. For eksempel vil hver rad på siden **Salgspriser** representere en spesialpris. Hver kolonne representerer et kriterium som må gjelde for å gi en kunde den spesialprisen du angir i feltet **Enhetspris** på siden **Salgspriser**. Hvis du vil ha mer informasjon, kan du se [Registrere avtaler om salgspris, rabatt og betaling](sales-how-record-sales-price-discount-payment-agreements.md) eller [Registrere spesielle kjøpspriser og rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md).
+Du kan bruke spesialpriser eller rabatter som du eller leverandøren gir for varen, basert på bestemte kriterier. Kriterier inkluderer for eksempel kunden, minste bestillingsantall eller sluttdato. Du kan sette opp spesialpriser ved å velge handlingene **Definer spesialpriser** eller **Definer spesialrabatter**. For eksempel vil hver rad på siden **Salgspriser** representere en spesialpris. Hver kolonne representerer et kriterium som må gjelde for å gi en kunde den spesialprisen du angir i feltet **Enhetspris** på siden **Salgspriser**. Hvis du vil ha mer informasjon om prising, kan du se [Registrere avtaler om salgspris, rabatt og betaling](sales-how-record-sales-price-discount-payment-agreements.md) eller [Registrere spesielle kjøpspriser og rabatter](purchasing-how-record-purchase-price-discount-payment-agreements.md).
 
-Varen er nå registrert, og varekortet er klart til å brukes på kjøps- og salgsdokumenter.
+### Lagre et varekort som en varemal
 
-Hvis du vil bruke dette varekortet som en mal når du oppretter nye varekort, kan du lagre det som en mal. Hvis du vil ha mer informasjon, kan du se følgende avsnitt:  
-
-### Lagre varekortet som en mal
-
-1. På siden **Varekort** velger du handlingen **Lagre som mal**. **Varemal**-siden åpnes og viser varekortet som en mal.
+1. På siden **Varekort** velger du handlingen **Lagre som mal**. **Varemal**-siden viser varekortet som en mal.
 2. Fyll ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
-3. Hvis du vil bruke dimensjoner i maler, velger du handlingen **Dimensjoner**. **Dimensjonsmaler**-siden åpnes med alle dimensjonskoder som er definert for varen.
-4. Rediger eller angi dimensjonskoder som skal gjelde nye varekort som opprettes ved hjelp av malen.
-5. Når du fullfører den nye varemalen, kan du velge **OK**-knappen.
+
+> [!TIP]
+> Du kan også gjenbruke dimensjoner for varer. Hvis du vil bruke dimensjoner i maler, velger du handlingen **Dimensjoner**. **Dimensjonsmaler**-siden viser dimensjonene som er definert for varen. Rediger eller legg til dimensjoner som gjelder for nye varer du oppretter fra malen.
 
 Varemalen legges til i listen over varemaler, slik at du kan bruke den til å opprette nye varekort.
 

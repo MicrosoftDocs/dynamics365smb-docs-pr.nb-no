@@ -1,5 +1,5 @@
 ---
-title: Vanlige spørsmål om bankkontoavstemmingshjelp (forhåndsversjon) med Copilot
+title: Vanlige spørsmål om bankkontoavstemmingshjelp med Copilot
 description: 'Disse vanlige spørsmålene gir informasjon om KI-teknologien som brukes til å avstemme bankkontoer og kontoutdrag i Business Central. De omfatter viktige vurderinger og detaljer om hvordan kunstig intelligens brukes, hvordan den er testet og evaluert, og eventuelle spesifikke begrensninger.'
 ms.date: 03/27/2024
 ms.custom:
@@ -15,85 +15,89 @@ ms.collection:
 
 # Vanlige spørsmål om bankkontoavstemmingshjelp med Copilot
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Disse vanlige spørsmålene beskriver KI-effekten av Copilot-hjelp med bankkontoavstemming i [!INCLUDE[prod_short](includes/prod_short.md)].
+Disse vanlige spørsmålene beskriver KI-effekten av Microsoft Copilot-hjelp med bankkontoavstemming i [!INCLUDE[prod_short](includes/prod_short.md)].
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Hva er bankkontoavstemmingshjelp?
 
-Bankavstemming er en vanlig regnskapsoppgave der organisasjoner går gjennom bankkontoutdragene for å identifisere transaksjoner som skal registreres i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne oppgaven vil for eksempel bli brukt til å identifisere periodiske bankgebyrer eller små ansattutgifter. Denne oppgaven er vanligvis en flertrinnsprosess, som starter med å importere bankkontoutdrag til [!INCLUDE[prod_short](includes/prod_short.md)], etterfulgt av samsvarende transaksjoner med poster, og bokføring av nye poster for å gjenspeile eventuelle gjenværende transaksjoner som ikke tidligere var kjent i postene. Copilot i [!INCLUDE[prod_short](includes/prod_short.md)] reduserer manuelt arbeid ved å matche flere transaksjoner og foreslå finanskonti du kan bokføre til. 
+Bankavstemming er en vanlig regnskapsoppgave der organisasjoner går gjennom bankkontoutdragene for å identifisere transaksjoner som skal registreres i [!INCLUDE[prod_short](includes/prod_short.md)]. Denne oppgaven vil for eksempel bli brukt til å identifisere periodiske bankgebyrer eller små ansattutgifter.
+
+Bankavstemming er vanligvis en prosess med flere trinn. Først importeres kontoutskrifter til [!INCLUDE[prod_short](includes/prod_short.md)]. Deretter avstemmes transaksjoner med poster. Til slutt bokføres nye poster for å gjenspeile eventuelle gjenværende transaksjoner som tidligere ikke var kjent for finansmodulene.
+
+Copilot i [!INCLUDE[prod_short](includes/prod_short.md)] reduserer manuelt arbeid ved å matche flere transaksjoner og foreslå finanskonti du kan bokføre til.
 
 ## Hva er funksjonene til bankavstemmingshjelpen?
 
-Copilot gir KI-drevet assistanse med to forskjellige oppgaver: 
+Copilot gir KI-drevet assistanse med to forskjellige oppgaver:
 
-- Forbedret samsvaring av transaksjoner med poster 
+- Forbedret samsvaring av transaksjoner med poster
 
-   [!INCLUDE[prod_short](includes/prod_short.md)] tilbyr automatiserte regler som automatisk samsvarer mange banktransaksjoner med poster. Disse reglene er imidlertid lite fleksible og resulterer ofte i mange transaksjoner uten samsvar som hver krever manuell inspeksjon og sammenligning. Copilot bruker KI-teknologi til å inspisere gjenværende transaksjoner og identifisere flere treff basert på datoer, beløp og beskrivelser. Hvis for eksempel flere fakturaer ble betalt som ett engangsbeløp av en kunde, avstemmer Copilot den ene bankkontoutdragslinjen med flere fakturaposter. 
- 
-- Foreslåtte finanskontoer 
+    [!INCLUDE[prod_short](includes/prod_short.md)] tilbyr automatiserte regler som automatisk samsvarer mange banktransaksjoner med poster. Disse reglene er imidlertid lite fleksible og resulterer ofte i mange transaksjoner uten samsvar som hver krever manuell inspeksjon og sammenligning. Copilot bruker KI-teknologi til å inspisere ikke-avstemte transaksjoner og identifisere flere treff basert på datoer, beløp og beskrivelser. Hvis for eksempel en kunde betalte flere fakturaer som ett engangsbeløp, avstemmer Copilot den ene bankkontoutdragslinjen med flere fakturaposter.
 
-   For gjenværende banktransaksjoner som ikke kunne samsvares med noen poster, bruker Copilot KI-teknologi til å sammenligne transaksjonsbeskrivelsen med finanskontonavn og foreslår den mest sannsynlige finanskontoen å bokføre til. Copilot kan for eksempel foreslå at transaksjonen med informasjonen «Drivstoffstopp 24» bokføres til «Transport»-kontoen. 
+- Foreslåtte finanskonti
 
-Copilot kobler seg ikke til banken din for å hente eller sende transaksjoner. Denne oppgaven er helt innenfor din kontroll og er en forutsetning for å begynne å bruke Copilot-assistansen, enten disse transaksjonene legges til [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av en digital bankforbindelse, importeres fra en bankkontoutdragsfil eller angis manuelt. 
+    For gjenværende banktransaksjoner som ikke kunne samsvares med noen poster, bruker Copilot KI-teknologi til å sammenligne transaksjonsbeskrivelsen med finanskontonavn og foreslår deretter den mest sannsynlige finanskontoen å bokføre til. Hvis transaksjoner uten avstemming har informasjonen *Drivstoffstopp 24*, kan Copilot foreslå at du bokfører dem på *Transport*-kontoen.
+
+Copilot kobler seg ikke til banken din for å hente eller sende transaksjoner. Denne oppgaven forblir helt innenfor din kontroll. Den er en forutsetning for å begynne å bruke Copilot-assistansen, enten transaksjonene legges til [!INCLUDE[prod_short](includes/prod_short.md)] ved hjelp av en digital bankforbindelse, importeres fra en bankkontoutdragsfil eller angis manuelt.
 
 ## Hva er den tiltenkte bruken av bankavstemmingshjelp?
 
-Hjelp til bankkontoavstemming er utformet for å bidra til å identifisere nye transaksjoner som kunder bør gjøre rede for [!INCLUDE[prod_short](includes/prod_short.md)], slik at de kan forbedre nøyaktigheten i postene. Denne aktiviteten er ikke ment for å oppdage svindel eller identifisere om kunder har betalt i tide.   
+Hjelp til bankkontoavstemming er utformet for å forbedre nøyaktigheten i postene ved å hjelpe kunder med å identifisere nye transaksjoner som de bør gjøre rede for i [!INCLUDE[prod_short](includes/prod_short.md)]. Det aktiviteten er ikke ment for å oppdage svindel eller identifisere om kunder har betalt i tide.
 
 ## Hvordan ble bankavstemmingshjelp evaluert? Hvilke målinger brukes til å måle ytelse?
 
-Denne funksjonaliteten ble testet ved hjelp av kombinasjoner av syntetiske banktransaksjonsdata og lignende finanskontoer og poster som dekker vanlige variasjoner og datagrenser for hvert felt og på forskjellige språk. Testdata representerer både typisk bruk og bruk av dårlige aktører. Ytelse ble målt i forhold til manuell avstemming av de samme dataene. 
+Bankkontoavstemmingshjelpen ble testet ved hjelp av kombinasjoner av syntetiske banktransaksjonsdata og lignende finanskontoer og poster som dekker vanlige variasjoner og datagrenser for hvert felt og på forskjellige språk. Testdata representerer både typisk bruk og bruk av dårlige aktører. Ytelse ble målt i forhold til manuell avstemming av de samme dataene.
 
-## Hva er begrensningene til bankavstemmingshjelpen? Hvordan kan brukere minimere virkningen av bankavstemmingsbegrensninger når de bruker systemet?
+## Hva er begrensningene til bankavstemmingshjelpen? Hvordan kan brukere minimere virkningen av disse begrensningene når de bruker systemet?
 
-Bankkontoavstemmingshjelp fungerer best når finanskontonavn, postbeskrivelser og banktransaksjonsbeskrivelser er på samme språk. Blandede språk eller blandet språk i transaksjonsbeskrivelser resulterer ofte i færre treff og forslag. 
+Bankkontoavstemmingshjelp fungerer best når finanskontonavn, postbeskrivelser og banktransaksjonsbeskrivelser er på samme språk. Blandede språk eller blandet språk i transaksjonsbeskrivelser resulterer ofte i færre treff og forslag.
 
-Foreslåtte finanskonti fungerer best på engelsk. Selv om denne funksjonen kan brukes på hvilket som helst av de tilgjengelige [!INCLUDE[prod_short](includes/prod_short.md)]-språkene, kan brukere oppleve færre transaksjonstreff og færre foreslåtte finanskontoer på andre språk. 
-<!--
+Foreslåtte finanskonti fungerer best på ett av språkene som støttes (se neste del for en liste over språk). Brukere kan oppleve færre transaksjonstreff og færre foreslåtte finanskontoer på andre språk.
 
-## What operational factors and settings allow for effective and responsible use of the feature?
-
-
--->
 ## I hvilke geografiske områder og på hvilke språk er bankavstemmingshjelp tilgjengelig? 
 
-Denne funksjonen er tilgjengelig for alle land-/områdemiljøer og på alle brukerspråk. For kundemiljøer i land/områder der Azure OpenAI-tjenesten ikke er tatt i bruk, må administratorer først samtykke til å tillate flytting av data over grenser for at [!INCLUDE[prod_short](includes/prod_short.md)] skal koble til Azure OpenAI-tjenesten og for at denne funksjonen skal være tilgjengelig. 
+- Tilgjengelige geografiske områder
 
-Hvis du vil ha mer informasjon om språk, kan du se forrige spørsmål om begrensninger.  
+  Bankkontoavstemmingshjelpen er tilgjengelig i alle støttede [land/områder i Business Central](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations). For kundemiljøer i land/områder der Azure OpenAI-tjenesten ikke er tatt i bruk, må administratorer samtykke til å tillate flytting av dataene over grenser for at [!INCLUDE [prod_short](includes/prod_short.md)] skal koble til Azure OpenAI-tjenesten. Finn ut mer på [Copilot-dataflytting på tvers av geografiske områder](ai-copilot-data-movement.md).
 
-## Hva forventes av sluttbrukere når de bruker bankkontoavstemmingshjelpen? 
+- Tilgjengelige språk
 
-### Under bruk av bankkontoavstemming 
+  [!INCLUDE[bank-recon-assist-language-support](includes/bank-recon-assist-language-support.md)]
 
-KI-drevne treff og forslag kan noen ganger være feil eller ufullstendige. Brukere av bankkontoavstemmingshjelpen må gjennomgå nøyaktigheten av treff og forslag fra Copilot før de velger å beholde dem. Copilots treff og forslag lagres ikke i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen før du velger Behold den-knappen og går ut av Copilot-vinduet. Du kan også redigere og korrigere eventuelle treff eller forslag før du velger å beholde det. 
+Hvis du vil ha mer informasjon om språk, kan du se forrige spørsmål om begrensninger.
 
-### Etter at bankkontoavstemming er fullført 
+## Hva forventes av systembrukere når de bruker bankkontoavstemmingshjelpen?
 
-Det anbefales at brukerne også kontrollerer nøyaktigheten og retter opp eventuelle avvik etter å ha gått ut av Copilot-vinduet, inkludert følgende aktiviteter: 
+### Under en bankkontoavstemming
 
-- Se gjennom avstemmingstestrapporten. 
-- Sørg for at organisasjonen har de riktige gjennomgangs- og revisjonsprosessene på plass. 
-- Åpne eventuelle bokførte avstemminger på nytt ved hjelp av Angre-funksjonen. 
-- Korriger eventuelle feilaktige poster gjennom omvendt bokføring av poster. 
+KI-drevne treff og forslag kan noen ganger være feil eller ufullstendige. Brukere av bankkontoavstemmingshjelpen må gjennomgå nøyaktigheten av treffene og forslagene fra Copilot før de velger å beholde dem. Copilots treff og forslag lagres ikke i [!INCLUDE[prod_short](includes/prod_short.md)]-databasen før du velger **Behold den**-knappen og lukker Copilot-vinduet. Du kan redigere og korrigere eventuelle treff eller forslag før du velger å beholde dem.
 
-## Hva forventes av administratorer og sluttbrukere når de bruker bankkontoavstemmingshjelpen? 
+### Etter at bankkontoavstemming er fullført
 
-Sluttbrukere, for eksempel regnskapsførere, kasserere eller andre som jobber med forretningsregnskap, bør alltid vurdere nøyaktigheten av samsvar og forslag fra Copilot før de velger å beholde dem. Når du har avstemt med Copilot, anbefaler vi at du går gjennom avstemmingstestrapporten for å bekrefte nøyaktigheten og identifisere eventuelle avvik. 
+Vi anbefaler at brukerne også kontrollerer nøyaktigheten og retter opp eventuelle avvik etter at de har lukket Copilot-vinduet. Denne prosessen bør omfatte følgende aktiviteter:
 
-Administratorer bør sørge for at de riktige regnskapsbrukerne har fått tilgang til denne funksjonen. 
+- Se gjennom avstemmingstestrapporten.
+- Sørg for at organisasjonen har de riktige gjennomgangs- og revisjonsprosessene på plass.
+- Åpne eventuelle bokførte avstemminger på nytt ved hjelp av **Angre**-funksjonen.
+- Korriger eventuelle feilaktige poster gjennom omvendt bokføring av poster.
 
-## Er Copilot den eneste måten å fullføre bankkontoavstemming på? 
+## Hva forventes av administratorer og systembrukere når de bruker bankkontoavstemmingshjelpen?
 
-Nei – bruk av Copilot er valgfritt. [!INCLUDE[prod_short](includes/prod_short.md)] tilbyr tradisjonelle, ikke-KI-drevne metoder for import av bankkontoutdrag, kjøring av forhåndsdefinerte samsvarsregler og manuell bruk av treff og bokføring på aktuelle finanskontoer. Både den tradisjonelle tilnærmingen og Copilot kan brukes samtidig i en organisasjon. 
+Systembrukere, for eksempel regnskapsførere, kasserere eller andre som jobber med forretningsregnskap, bør alltid vurdere nøyaktigheten av samsvar og forslag fra Copilot før de velger å beholde dem. Etter avstemming med Copilot anbefaler vi at disse brukerne går gjennom avstemmingstestrapporten for å bekrefte nøyaktigheten og identifisere eventuelle avvik.
+
+Administratorer bør sørge for at de riktige regnskapsbrukerne har fått tilgang til denne funksjonen.
+
+## Er Copilot den eneste måten å fullføre bankkontoavstemming på?
+
+Nr. Bruk av Copilot er valgfritt. [!INCLUDE[prod_short](includes/prod_short.md)] tilbyr tradisjonelle, ikke-KI-drevne metoder for import av bankkontoutdrag, kjøring av forhåndsdefinerte samsvarsregler og manuell bruk av treff og bokføring på aktuelle finanskontoer. Både den tradisjonelle tilnærmingen og Copilot kan brukes samtidig i en organisasjon.
 
 ## Hvordan gir jeg tilbakemelding om KI-generert innhold?
 
-Hver gang Copilot gir treff eller forslag, kan du gi tilbakemelding til Microsoft direkte fra Copilot-vinduet, ved hjelp av liker- og misliker-kontrollene. Din tilbakemelding er anonym, og vi bruker disse dataene til å forbedre kvaliteten på tjenesten.
-
+Hver gang Copilot gir treff eller forslag, kan du gi tilbakemelding til Microsoft direkte fra Copilot-vinduet, ved hjelp av Liker- (tommel opp) og Liker ikke-kontrollene (tommel ned). Din tilbakemelding er anonym, og vi bruker disse dataene til å forbedre kvaliteten på tjenesten.
 
 ## Se også
 
-[Avstemme bankkontoer ved hjelp av bankkontoavstemmingshjelpen (forhåndsversjon)](bank-reconciliation-with-copilot.md)
+[Avstemme bankkontoer med Copilot (forhåndsversjon)](bank-reconciliation-with-copilot.md)

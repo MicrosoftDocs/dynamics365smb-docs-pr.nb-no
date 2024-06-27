@@ -5,7 +5,7 @@ author: sorenfriisalexandersen
 ms.author: soalex
 ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 04/25/2023
+ms.date: 06/18/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
@@ -24,7 +24,7 @@ Hvis du utvikler [!INCLUDE [prod_short](../includes/prod_short.md)]-utvidelser, 
 
 ## Regnskapsprosesser og -kontroller til hjelp ved samsvar
 
-Selskaper står overfor økte økonomiske regnskaputfordringer hvert år. Avhengig av bransjen, markeder, geografisk plassering og økonomiske behov kan en organisasjon være underlagt lokale, vanlige regnskapsprinsipper (GAAP) og én eller flere av:
+Selskaper står overfor økte økonomiske regnskaputfordringer hvert år. Avhengig av bransjen, markeder, geografisk plassering og økonomiske behov kan en organisasjon være underlagt lokale, vanlige regnskapsprinsipper<!--note from editor: I assume that "local" means that you're not talking about the standard adopted by the SEC in the US. If this is true, you don't want to use the abbreviation because GAAP is an actual standard, which will need to be spelled out with title caps at first mention.--> og én eller flere av:
 
 - The Sarbanes-Oxley Act (SOX), en USA-lov vedtatt 2002 for å beskytte investorer ved å forbedre korrektheten og datapåliteligheten av firmafremleggelser.
 - Delen om de internasjonale økonomisk rapporteringsstandardene i EUs internasjonale regnskapsstandarder (IAS/IFRS), som trådte i kraft 2005 og angir internasjonale regnskapsstandarder for anerkjennelse, måling, konsolideringen og rapportering.
@@ -41,7 +41,7 @@ Samsvar avhenger ikke bare av nøyaktig informasjon og riktige regnskapsprosesse
 - Spore finansdata gjennom egendefinerte finansrapporter for kontantstrøm, inntekt, balanse, aktiva, finansieringsanalyse, viktige ytelsesindikatorer og mer.
 - Bidra til å beskytte nøyaktigheten med rollebasert sikkerhet og konfigurerbare programkontroller som hindrer ugyldig eller duplisert dataregistrering.
 - Raskt og enkelt generere finansrapporter i henhold til gjeldende lovmessige standarder.
-- Vedlikeholde omfattende revisjonsspor med funksjoner for å drille ned og rundt og endringslogger.
+- Vedlikeholde omfattende revisjonsspor med funksjoner for å drille ned og gjennom funksjonalitet og endringslogger.
 
 ## Få kontroll over viktige opplysninger, prosesser og rapporter
 
@@ -54,7 +54,7 @@ Integrert informasjon, justerte prosesser og lettvinte verktøy som kan hjelpe d
 ### Tilpasse finansrapporter til dine behov
 
 - Definer strukturen for selskapets kontoplan basert på forretningsmessige krav og gjeldende lovmessige standarder.
-- Opprett konti og håndter sammensatte prosesser som er knyttet til en rekke forretningsaktiviteter, inkludert lagerverdisettingen, fremmed valuta, segmentrapportering og avganger fra lokale GAAP-er.
+- Opprett konti og håndter sammensatte prosesser som er knyttet til en rekke forretningsaktiviteter, inkludert lagerverdisettingen, fremmed valuta, segmentrapportering og avganger fra lokale GAAP-er (vanlige regnskapsprinsipper).
 - Kontroller detaljnivået for hver registrerte transaksjon, og velg detaljert registrering for bestemte typer transaksjoner, for eksempel aktiva og leverandører.
 - Tilpass planberegninger og vis finansrapportering, eller eksporter informasjonen til Microsoft Excel for ytterligere analyse.
 
@@ -62,16 +62,16 @@ Integrert informasjon, justerte prosesser og lettvinte verktøy som kan hjelpe d
 
 - Konfigurer datafelt til å godta bare informasjon i riktig format, for eksempel riktig antall desimaler eller alfanumeriske uttrykk.
 - Sikre at informasjonen er komplett med programkontroller som krever at et leverandørfakturanummer må angis før en bestilling bokføres.
-- Reduser risikoen for unøyaktig informasjon eller ulovlig endring, og beskytt sensitive opplysninger med tilgang som er basert på en jobbrolle.
-- Hindre tilgang, gi skrivebeskyttet tilgang, eller aktiver brukere med full tilgang til å legge til, redigere eller slette informasjon.
+- Reduser risikoen for unøyaktig informasjon eller ulovlig endring, og beskytt sensitive opplysninger ved å begrense tilgang til opplysninger som er basert på en jobbrolle.
+- Hindre tilgang, gi skrivebeskyttet tilgang, eller aktiver full tilgang for brukere til å legge til, redigere eller slette informasjon.
 - Enkelt identifiser og løs avvik med en avstemmingsfunksjon som henter gjeldende bankkonto- og transaksjonsinformasjon og sammenligner den med finansposter.
 - Planlegg manuelle eller automatiske sikkerhetskopieringer for å beskytte informasjonen mot elektroniske feil.
 
 ### Overholde oppdagelsesforespørsler og rapporteringbehov raskt
 
 - Spar tid når du oppretter standardrapporter som bruker vanlige firmaparametere og -kriterier til å utføre vanlige rapporteringsbehov, fra ordresummeringer til eldre kortsiktige fordringer.
-- Utfør sammensatte gjennomganger med grunnleggende eller avanserte forretningsanalysefunksjoner.
-- Opprette egendefinerte rapporter med både innebygde verktøy og integrasjonen med Microsoft Power BI.
+- Utfør sammensatte gjennomganger ved å bruke grunnleggende eller avanserte forretningsanalysefunksjoner.
+- Opprette egendefinerte rapporter ved å bruke både innebygde verktøy og integrasjon med Microsoft Power BI.
 
 ### Sikre tydelige revisjonsspor
 
@@ -82,19 +82,19 @@ Integrert informasjon, justerte prosesser og lettvinte verktøy som kan hjelpe d
 
 ## Samsvar og lokal funksjonalitet
 
-Microsoft bygger lokaliserte versjoner av Business Central for et begrenset antall markeder. Disse lokaliseringene fokuserer først og fremst på lovmessige funksjoner i avgifts- og finansområder, men kan også omfatte andre deler av løsningen. Hvis du vil se hva som er bygd inn i Microsofts lokaliserte versjoner av Business Central, se **Lokal funksjonalitet** på menyen på denne websiden, og velg et land/område. Lære mer om [lokal funksjonalitet](../about-localization.md).  
+Microsoft bygger lokaliserte versjoner av Business Central for et begrenset antall markeder. Disse lokaliseringene fokuserer først og fremst på lovmessige funksjoner i avgifts- og finansområder, men kan også omfatte andre deler av løsningen. Hvis du vil se hva som er bygd inn i Microsofts lokaliserte versjoner av Business Central, se **Lokal funksjonalitet** på menyen på denne websiden, og velg et land/område. Lære mer om [lokal funksjonalitet](../about-localization.md). 
 
-> [!NOTE]  
-> **Sarbanes-Oxley: Validere data og prosesser**  
-> Sarbanes-Oxley-loven fastsetter standarder for alle styrer i USAs offenlige selskaper og offentlige regnskapsfirmaer, inkludert evaluering og utlevering av tilstrekkeligheten av selskapets interne kontroller for finansrapportering. Dokumentering og testing av kritiske manuelle og automatiserte kontroller utgjør en stor forpliktelse knyttet til tid og ressurser for selskaper. Business Central egner seg spesielt for datterselskaper i større organisasjoner og kan støtte små til mellomstore bedrifter slik at de overholder Sarbanes-Oxley.
+#### Sarbanes-Oxley: Validere data og prosesser
+ 
+Sarbanes-Oxley-loven fastsetter standarder for alle styrer i USAs offenlige selskaper og offentlige regnskapsfirmaer, inkludert evaluering og utlevering av tilstrekkeligheten av selskapets interne kontroller for finansrapportering. Dokumentering og testing av kritiske manuelle og automatiserte kontroller utgjør en stor forpliktelse knyttet til tid og ressurser for selskaper. Business Central egner seg spesielt for datterselskaper i større organisasjoner og kan støtte små til mellomstore bedrifter slik at de overholder Sarbanes-Oxley.
 
-> [!NOTE]  
-> **IAS/IFRS: Føring og mål av standarder**  
-> Avhengig av de gjeldende lokale regnskapsprinsippene (GAAP-er) som er i bruk, er en av de store førings- og målendringene for IAS/IFRS utvidet bruk av rettferdig verdi-prinsippene i stedet for historisk kost. [!INCLUDE [prod_short](../includes/prod_short.md)] hjelper selskaper med å beregne rettferdig-verdi- og nåverdi-konseptene, som fokuserer på gjeldende og forventede kontantflytstrømmer i stedet for historisk kjøpspris. På rapporteringssiden kan den gi segmentrapportering etter konsert og geografiske plassering.
+#### IAS/IFRS: Føring og mål av standarder
+  
+Avhengig av de gjeldende lokale regnskapsprinsippene (GAAP-er) som er i bruk, er en av de store førings- og målendringene for IAS/IFRS utvidet bruk av rettferdig verdi-prinsippene i stedet for historisk kost. [!INCLUDE [prod_short](../includes/prod_short.md)] hjelper selskaper med å beregne rettferdig-verdi- og nåverdi-konseptene, som fokuserer på gjeldende og forventede kontantflytstrømmer i stedet for historisk kjøpspris. På rapporteringssiden kan den gi segmentrapportering etter konsert og geografiske plassering.
 
-> [!NOTE]  
-> **Basel II: Implikasjoner for rapportering og analyse**  
-> Basel II, som er utviklet av Bank for International Settlements, sørger for sikkerheten i finanssystemet på tre viktige områder: minimum kapitalkrav, kontrollprosess med tilsyn og markedsdisiplin. Selv om overenskomsten gjelder finansinstitusjoner og ikke små og mellomstore selskaper, kan det hende at Basel II vil få innvirkning på disse organisasjonene i rapportering og analyse.
+#### Basel II: Implikasjoner for rapportering og analyse
+
+Basel II, som er utviklet av Bank for International Settlements, sørger for sikkerheten i finanssystemet på tre viktige områder: minimum kapitalkrav, kontrollprosess med tilsyn og markedsdisiplin. Selv om overenskomsten gjelder finansinstitusjoner og ikke små og mellomstore selskaper, kan det hende at Basel II vil få innvirkning på disse organisasjonene i rapportering og analyse.
 
 ## Se også
 
@@ -102,6 +102,6 @@ Microsoft bygger lokaliserte versjoner av Business Central for et begrenset anta
 [Servicesamsvar](compliance-service-compliance.md)  
 [Sertifiseringer](compliance-certifications.md)  
 
-## [!INCLUDE[prod_short](../includes/free_trial_md.md)]  
+## [!INCLUDE[free_trial_md](../includes/free_trial_md.md)]  
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE[footer-banner](../includes/footer-banner.md)]

@@ -1,22 +1,23 @@
 ---
 title: Kjøre oppgaver i bakgrunnen og gjentakende
 description: Konfigurer synkronisering av data mellom Business Central og Shopify i bakgrunnen.
-ms.date: 03/26/2024
+ms.date: 05/26/2024
 ms.topic: article
 ms.service: dynamics-365-business-central
-ms.reviewer: solsen
+ms.reviewer: bholtorf
 author: brentholtorf
 ms.author: bholtorf
+ms.custom: bap-template
 ---
 
-# <a name="run-tasks-in-the-background"></a>Kjør oppgaver i bakgrunnen
+# Kjør oppgaver i bakgrunnen
 
 Det er effektivt å kjøre enkelte oppgaver samtidig og på en automatisk måte. Du kan utføre slike oppgaver i bakgrunnen og kan også angi en tidsplan når du vil at disse oppgavene skal kjøres automatisk. To moduser er støttet for å kjøre oppgaver i bakgrunnen:
 
 - Manuelt utløste oppgaver planlegges umiddelbart via **prosjektkøposter**.
 - Regelmessige aktiviteter planlegges i **prosjektkøposter**.
 
-## <a name="run-tasks-in-the-background-for-a-specific-shop"></a>Kjør oppgaver i bakgrunnen for en bestemt butikk
+## Kjør oppgaver i bakgrunnen for en bestemt butikk
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Shopify-butikk**. Velg den relaterte koblingen.
 2. Velg butikken du vil kjøre synkronisering i bakgrunnen for, for å åpne siden **Shopify-butikkort**.
@@ -24,7 +25,7 @@ Det er effektivt å kjøre enkelte oppgaver samtidig og på en automatisk måte.
 
 Når synkroniseringshandlingen starter, blir du bedt om å vente i stedet for å kjøre en oppgave i forgrunnen. Når den fullføres, kan du fortsette til neste handling. Oppgaven er opprettet som **jobbkøpost** og starter umiddelbart.
 
-## <a name="to-schedule-recurring-tasks"></a>Slik planlegger du regelmessige oppgaver
+## Slik planlegger du regelmessige oppgaver
 
 Du kan planlegge at følgende regelmessige aktiviteter skal utføres på en automatisk måte. Finn ut mer om å planlegge oppgaver på [Prosjektkø](../admin-job-queues-schedule-tasks.md).
 
@@ -43,7 +44,9 @@ Du kan planlegge at følgende regelmessige aktiviteter skal utføres på en auto
 |**Synkroniser katalogpriser**|Rapport 30116 Shopify synkroniser katalogpriser (B2B)|
 
 > [!NOTE]
-> Noen elementer kan bli oppdatert av flere oppgaver. For eksempel når du importerer ordrer, avhengig av innstillingen på **Shopify-butikkortet**, kan systemet også importere og oppdatere kunde- eller produktdata. Husk å bruke den samme prosjektkøkategorien for å unngå konflikter.
+> Noen elementer kan bli oppdatert av flere oppgaver. For eksempel når du importerer ordrer, avhengig av innstillingen på siden **Shopify-butikkort**, kan systemet også importere og oppdatere kunde- eller produktdata. Husk å bruke den samme prosjektkøkategorien for å unngå konflikter.
+>
+> Bruk handlingen **Rapportforespørselsside** til å definere filtre. Du kan for eksempel angi at du bare importerer bestillinger når statusen er **Fullt betalt**.
 
 Andre oppgaver som kan være nyttige ved automatisering av ytterligere behandling av salgsdokumenter:
 
@@ -54,7 +57,7 @@ Du kan bruke feltet **Shopify-ordrenr.** til å identifisere salgsdokumenter som
 
 Hvis du vil lære mer om bokføring av ordrer i et parti, går du [Slik oppretter du en jobbkøpost for massebokføring av ordrer](../ui-batch-posting.md#to-create-a-job-queue-entry-for-batch-posting-of-sales-orders).
 
-## <a name="to-check-the-status-of-synchronization"></a>Slik kontrollerer du statusen til synkroniseringen
+## Slik kontrollerer du statusen til synkroniseringen
 
 I rollesenteret **Forretnings** inneholder delen **Shopify-aktiviteter** flere bunke-ikoner som kan hjelpe deg med å finne ut om det er problemer med Shopify-koblingen.
 
@@ -65,6 +68,6 @@ I rollesenteret **Forretnings** inneholder delen **Shopify-aktiviteter** flere b
 - **Forsendelsesfeil**: Shopify-koblingen kunne ikke synkronisere bokførte salgsforsendelser med Shopify.
 - **Synkroniseringsfeil**: Det er mislykkede prosjektkøoppføringer relatert til synkronisering med Shopify.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Kom i gang med Shopify-koblingen](get-started.md)  

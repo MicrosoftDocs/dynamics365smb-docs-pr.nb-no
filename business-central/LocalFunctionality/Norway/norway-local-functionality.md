@@ -5,16 +5,16 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 04/25/2024
+ms.date: 06/11/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="norway-local-functionality"></a>Funksjonalitet som er spesifikk for norske brukere
+# Funksjonalitet som er spesifikk for norske brukere
 
 Artiklene nedenfor beskriver den lokale funksjonaliteten som er unik i den norske versjonen av [!INCLUDE[prod_short](../../includes/prod_short.md)].  
 
-## <a name="feature-availability"></a>Funksjonstilgjengelighet
+## Funksjonstilgjengelighet
 
 * MVA
     * [Administrere SAF-T (norsk standard revisjonsfil – avgift)](ui-extensions-setup-and-generate-saf-t-files-no.md) **Tilgjengelig nå**
@@ -75,14 +75,16 @@ Artiklene nedenfor beskriver den lokale funksjonaliteten som er unik i den norsk
  [Recurring Orders](recurring-orders.md)  
  -->
  
-## <a name="future-legislation-requirements-being-investigated"></a>Framtidige krav til lovgivning undersøkes
+## Framtidige krav til lovgivning undersøkes 
 
-* Nyutformet og oppgradert ikke-fradragsberettiget mva. **Planlagt for lanseringsbølge 2 i 2024**   
+* SAF-T 1.3-format **planlagt for januar 2025**
+* Nyutformet og oppgradert ikke-fradragsberettiget mva. **Planlagt for lanseringsbølge 1 i 2025**
+* E-fakturering basert på nytt rammeverk for e-dokument som må undersøkes
 
 Hvis du vet om kommende forskriftsmessige funksjoner, kan du sende et [varsel om forskriftmessig funksjon](https://forms.office.com/pages/responsepage.aspx?id=v4j5cvGGr0GRqy180BHbRwkeauYiJKZOpJ0CtKuVmJlURURaMlQ4Rk05UFY4NkVEOTA0MUU5WThXSC4u).
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbeid med [!INCLUDE[prod_short](../../includes/prod_short.md)]](../../ui-work-product.md)  
 [Land-/områdetilgjengelighet og støttede oversettelser](/dynamics365/business-central/dev-itpro/compliance/apptest-countries-and-translations)  

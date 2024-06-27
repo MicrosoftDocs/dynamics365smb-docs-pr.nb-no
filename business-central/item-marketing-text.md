@@ -5,7 +5,7 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/06/2024
+ms.date: 06/10/2024
 ms.custom: bap-template
 ms.collection:
   - bap-ai-copilot
@@ -28,15 +28,13 @@ Med Copilot får du raskt et tekstforslag som genereres automatisk for deg. Teks
 
 Copilot er utformet for å spare tid og hjelpe deg med å skrive kreativ og engasjerende tekst som gjenspeiler varemerket ditt, og som er konsekvent på tvers av produktserien. Begynn med å generere et forslag, og endre den foreslåtte teksten etter behov.
 
+### Tilgjengelige språk
+
+[!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
+
 ### Forutsetninger
 
-- Funksjonen for forslag til markedsføringstekst er aktivert i miljøet ditt. Denne oppgaven utføres vanligvis av en administrator. Hvis du vil ha mer informasjon, kan du gå til [Konfigurer Copilot og KI-funksjoner](enable-ai.md).
-- Du bruker et av språkene som for øyeblikket støttes av tekstforslagene for markedsføring.
-
-  [!INCLUDE[copilot-supported-languages.md](includes/copilot-supported-languages.md)]
-
-  Hvis du vil endre språket, velger du **Innstillinger**-ikonet øverst til venstre ![Innstillinger](media/ui-experience/settings_icon_small.png "Innstillinger-ikon for rollesenter") > **Mine innstillinger** > **Språk**. Hvis du vil ha mer informasjon, kan du gå til [Endre grunnleggende innstillinger](ui-change-basic-settings.md#language).
-- Gå gjennom [vanlige spørsmål for markedsføringstekstforslag](faqs-marketing-text.md) for å finne ut hvordan kunstig intelligens brukes.
+Funksjonen for forslag til markedsføringstekst er aktivert i miljøet ditt. Denne oppgaven utføres vanligvis av en administrator. Hvis du vil ha mer informasjon, kan du gå til [Konfigurer Copilot og KI-funksjoner](enable-ai.md).
 
 ### Opprett første utkast med Copilot
 

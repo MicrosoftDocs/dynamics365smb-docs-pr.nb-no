@@ -1,11 +1,11 @@
 ---
-title: Bygge rapporter i Power BI Desktop for å vise Business Central-data | Microsoft Docs
+title: Bygge rapporter i Power BI Desktop for å vise Business Central-data
 description: 'Gjør dataene tilgjengelige som en datakilde i Power BI, og bygg kraftige rapporter om status for din bedrift.'
 author: jswymer
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'business intelligence, KPI, Odata, Power App, SOAP, analysis'
-ms.date: 01/22/2024
+ms.date: 06/12/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
@@ -15,21 +15,19 @@ ms.reviewer: jswymer
 
 Gjør [!INCLUDE[prod_long](includes/prod_long.md)]-dataene tilgjengelige som en datakilde i Power BI Desktop, og bygg kraftige rapporter om status for din bedrift.
 
-Denne artikkelen beskriver hvordan du kommer i gang med Power BI Desktop for å opprette rapporter som viser [!INCLUDE[prod_long](includes/prod_long.md)]-data.  Når du har opprettet rapporter, kan du publisere dem i Power BI-tjenesten eller dele dem med alle brukerne i organisasjonen. Når disse rapportene er i Power BI-tjenesten, kan brukerne som er konfigurert for den, vise rapportene i [!INCLUDE[prod_long](includes/prod_long.md)].
+Denne artikkelen beskriver hvordan du kommer i gang med Power BI Desktop for å opprette rapporter som viser [!INCLUDE[prod_long](includes/prod_long.md)]-data. Når du har opprettet rapporter, kan du publisere dem i Power BI-tjenesten eller dele dem med alle brukerne i organisasjonen. Når rapportene er i Power BI-tjenesten, kan brukerne som er konfigurert for den, vise rapportene i [!INCLUDE[prod_long](includes/prod_long.md)].
 
 ## Gjøre deg klar
 
 - Registrer deg for Power BI-tjenesten.
 
-  Hvis du ikke allerede har registrert deg, går du til [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Når du registrerer deg, bruker du e-postadressen og passordet for jobben din.
+  Hvis du ikke har registrert deg, går du til [https://powerbi.microsoft.com](https://powerbi.microsoft.com). Når du registrerer deg, bruker du e-postadressen og passordet for jobben din.
 
 - Last ned [Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 
   Power BI Desktop er et gratis program du kan installere på den lokale datamaskinen. Hvis du vil ha mer informasjon, kan du se [Hurtigstart: Koble til data i Power BI Desktop](/power-bi/desktop-quickstart-connect-to-data).
 
-- Kontroller at dataene du vil ha med i rapporten er tilgjengelig som en API-side eller er publisert som en nettjeneste.
-
-  Hvis du vil ha mer informasjon, kan du se [Eksponere data via API-sider eller OData-nettjenester](admin-powerbi-setup.md#exposedata).
+- Kontroller at dataene du vil ha med i rapporten er tilgjengelig som en API-side eller er publisert som en nettjeneste. Hvis du vil ha mer informasjon, kan du se [Eksponere data via API-sider eller OData-nettjenester](admin-powerbi-setup.md#exposedata).
 
 <!--- For [!INCLUDE[prod_short](includes/prod_short.md)] on-premises, get the following information:
 
@@ -62,7 +60,7 @@ Den første oppgaven i opprettelse av rapporter, er å legge til [!INCLUDE[prod_
 
 5. Logg på [!INCLUDE [prod_short](includes/prod_short.md)] (bare én gang).
 
-    Hvis du ikke er logget på [!INCLUDE [prod_short](includes/prod_short.md)] fra Power BI Desktop før, blir du bedt om å logge på.
+    Hvis du ikke er logget på [!INCLUDE [prod_short](includes/prod_short.md)] fra Power BI Desktop, blir du bedt om å logge på.
 
     - For [!INCLUDE [prod_short](includes/prod_short.md)] Online velger du **Logg på** og deretter den relevante kontoen. Bruk den samme kontoen du bruker til å logge på [!INCLUDE [prod_short](includes/prod_short.md)]. Velg **Koble til** når du er ferdig.
 
@@ -71,15 +69,15 @@ Den første oppgaven i opprettelse av rapporter, er å legge til [!INCLUDE[prod_
     > [!NOTE]  
     > Når du er koblet til [!INCLUDE[prod_short](includes/prod_short.md)], blir du ikke bedt på nytt om å logge på. [Hvordan endrer eller tømmer jeg kontoen jeg for øyeblikket bruker til koble til Business Central fra Power BI Desktop?](/dynamics365/business-central/power-bi-faq?tabs=designer#perms)
 
-6. Når du er tilkoblet, kontakter Power BI Business Central-tjenesten. **Navigatør**-vinduene vises og viser tilgjengelige datakilder for bygging av rapporter. Velg en mappe for å utvide den, og se de tilgjengelige datakildene. 
+6. Når du er tilkoblet, kontakter Power BI [!INCLUDE [prod_short](includes/prod_short.md)]-tjenesten. **Navigatør**-vinduet viser datakildene som er tilgjengelige for bygging av rapporter. Velg en mappe for å utvide den og se de tilgjengelige datakildene.
 
-   Disse datakildene representerer alle nettjenestene og API-sidene som er publisert for [!INCLUDE [prod_short](includes/prod_short.md)]. Datakildene er gruppert etter Business Central-miljøer og -selskaper. Med Business Central online har **navigatøren** følgende struktur:
+   Disse datakildene representerer alle nettjenestene og API-sidene som er publisert for [!INCLUDE [prod_short](includes/prod_short.md)], gruppert etter miljøer og selskaper. Med [!INCLUDE [prod_short](includes/prod_short.md)] online har **Navigatør** følgende struktur:
 
     - **Miljønavn**
       - **Selskapsnavn**
         - **Avanserte API-er**
 
-          Denne mappen viser avanserte API-sider som er publisert av Microsoft, som [Automatiserings-API-er for Business Central](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) og [tilpassede API-sider for Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Egendefinerte API-sider grupperes ytterligere i mapper etter [APIPublisher](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apigroup-property)-egenskaper for kildekoden for API-siden.
+          Denne mappen viser avanserte API-sider som er publisert av Microsoft, som [Automatiserings-API-er for Business Central](/dynamics365/business-central/dev-itpro/administration/itpro-introduction-to-automation-apis) og [tilpassede API-sider for Business Central](/dynamics365/business-central/dev-itpro/developer/devenv-develop-custom-api). Egendefinerte API-sider grupperes ytterligere i mapper i henhold til egenskapene [APIPublisher](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apipublisher-property)/[APIGroup](/dynamics365/business-central/dev-itpro/developer/properties/devenv-apigroup-property) for kildekoden for API-siden.
 
         - **Standard API-er v 2.0**
 
@@ -129,7 +127,7 @@ Etter at du har lastet ned [!INCLUDE [prod_short](includes/prod_short.md)]-rappo
 
 ## Publisere rapporter
 
-Når du har opprettet eller endret en rapport, kan du publisere den i Power BI-tjenesten og dele den med andre i organisasjonen. Når rapporten er publisert, vises den i Power BI. Rapporten blir også tilgjengelig for valg i [!INCLUDE[prod_short](includes/prod_short.md)].
+Når du har opprettet eller endret en rapport, kan du publisere den i Power BI-tjenesten og dele den med andre i organisasjonen. Når du har publisert en rapport, er den tilgjengelig i Power BI. Rapporten blir også tilgjengelig for valg i [!INCLUDE[prod_short](includes/prod_short.md)].
 
 Du publiserer en rapport ved å velge **Publiser** i **Hjem**-fanen på båndet eller **Fil**-menyen. Hvis du er logget på Power BI-tjenesten, publiseres rapporten til denne tjenesten. Hvis ikke blir du bedt om å logge på. 
 
@@ -148,19 +146,28 @@ Du kan sende rapporter til kolleger og andre på et par ulike måter:
 
     Hvis du har en Power BI Pro-lisens, kan du dele rapporten med andre direkte fra Power BI-tjenesten. Hvis du vil ha mer informasjon, kan du se [Power BI – dele et instrumentbord eller en rapport](/power-bi/collaborate-share/service-share-dashboards#share-a-dashboard-or-report).
 
+## Slik utvikler du Power BI-rapporter på tvers av firmaer eller miljøgrupper
+
+Alle [!INCLUDE[prod_short](includes/prod_short.md)] API-endepunktene har prefikset `https://api.businesscentral.dynamics.com/v2.0/<environment_name>/api/v2.0`, etterfulgt av `/companies({company_id})/accounts({id})` (her bruker vi API-en `accounts` som en illustrasjon). Du kan bruke denne strukturen til å opprette PowerQuery-spørringer som laster inn data for flere selskaper eller flere miljøer, hvis brukeren som leser data, har tilgang til dem.
+
+Hvis du vil konfigurere en spørring for å laste inn data for flere selskaper, gjør du følgende:
+
+1. Ta PowerQuery-spørringen som laster inn data for ett enkelt selskap. Konverter den til en egendefinert Power Query-funksjon som bruker selskaps-ID-en (eller kanskje miljønavnet) som parametere. Hvis du vil vite mer, kan du gå til [Bruke egendefinerte Power Query-funksjoner](/power-query/custom-function).
+1. Bruk nå den nye egendefinerte funksjonen i en PowerQuery-spørring, der du tilordner funksjonen over en liste over selskaper og deretter fletter datasettene ved hjelp av funksjonen [Table.Combine](/powerquery-m/table-combine) i Power Query.
+
 ## Løse problemer
 
 ### «Kan ikke sette inn en post. Nåværende tilkoblingshensikt er skrivebeskyttet.» feil under tilkobling til egendefinert API-side
 
 > **GJELDER:** Business Central Online
 
-Fra og med februar 2022 vil nye rapporter som bruker Business Central-data, bli koblet til en skrivebeskyttet replika av Business Central-databasen som standard. I sjeldne tilfeller, avhengig av sideutformingen, får du en feilmelding når du prøver å koble deg til og hente data fra siden.
+Fra og med februar 2022 blir nye rapporter som bruker [!INCLUDE [prod_short](includes/prod_short.md)]-data, koblet til en skrivebeskyttet replika av [!INCLUDE [prod_short](includes/prod_short.md)]-databasen som standard. I sjeldne tilfeller, avhengig av sideutformingen, kan du få en feilmelding når du prøver å koble deg til og hente data fra siden.
 
 1. Start Power BI Desktop.
 2. På båndet velger du **Hent data** > **Online Services**.
 3. I ruten **Online Services** velger du **Dynamics 365 Business Central** og deretter **Koble til**.
 4. Velg API-endepunktet du vil laste inn data fra, i vinduet **Navigatør**.
-5. I forhåndsvisningsruten til høyre vises følgende feilmelding:
+5. Forhåndsvisningsruten viser følgende feil:
 
    *Dynamics365BusinessCentral: forespørsel mislyktes: den eksterne serveren returnerte en feil: (400) Ugyldig forespørsel. (Kan ikke sette inn en post. Nåværende tilkoblingshensikt er skrivebeskyttet. CorrelationId: [...])".*
 

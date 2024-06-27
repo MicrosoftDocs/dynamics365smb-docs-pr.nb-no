@@ -4,6 +4,7 @@ ms.topic: include
 ms.date: 06/14/2023
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
 
 Når du har skrevet inn søkeordene, starter [!INCLUDE [prod_short](prod_short.md)] søket i bakgrunnen og går gjennom tabellene én om gangen. Søkeresultatene begynner å vises etter at hver tabell er fullført. Hvis du angir mer enn ett søkeord, vil resultatene bare inneholde oppføringer som har alle ordene i de valgte feltene.

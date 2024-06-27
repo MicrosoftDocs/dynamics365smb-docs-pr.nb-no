@@ -3,15 +3,15 @@ title: Behandle konserninterne transaksjoner
 description: Med de konserninterne funksjonene kan du forenkle forretningsprosesser og transaksjoner mellom selskaper i samme organisasjon.
 author: brentholtorf
 ms.author: bholtorf
-ms.reviewer: bhielse
+ms.reviewer: bholtorf
 ms.topic: conceptual
-ms.date: 02/06/2023
+ms.date: 05/24/2024
 ms.custom: bap-template
 ms.search.keywords: 'IC, group, consolidation, affiliate, subsidiary'
 ms.search.form: '605,'
 ms.service: dynamics-365-business-central
 ---
-# <a name="managing-intercompany-transactions"></a>Behandle konserninterne transaksjoner
+# Behandle konserninterne transaksjoner
 
 Bedrifter med mer enn én juridisk enhet med separate regnskapsfunksjoner, kan dra nytte av konserninterne transaksjoner. Det kan for eksempel være nyttig for selskaper som har datterselskaper i flere internasjonale markeder eller områder. Eller en organisasjonen kan ha flere selskaper, men mangle samme antall regnskapsteam og administrative team. Med konserninterne transaksjoner kan du forenkle og tilpasse forretningsprosesser og transaksjoner mellom selskaper i det konserninterne partnerskapet.
 
@@ -21,10 +21,10 @@ Det er fire hovedfordeler med de konserninterne funksjonene:
 
 * Økt produktivitet som et resultat av spart tid og forenklede transaksjoner  
 * Redusert antall feil med engangsregistrering av informasjon og systemomfattende, automatiske oppdateringer  
-* Fullstendig sporing og full synlighet i forretningsaktiviteter og transaksjonslogger  
-* Effektive, kostnadsbesparende transaksjoner med partner- og datterselskaper  
+* Gjennomsiktig sporing og full synlighet i forretningsaktiviteter og transaksjonslogger  
+* Effektive transaksjoner med partner- og datterselskaper  
 
-## <a name="streamline-the-flow-of-business-activities"></a>Effektiv flyt av forretningsaktiviteter
+## Effektiv flyt av forretningsaktiviteter  
 
 Med konserninterne transaksjoner kan du distribuere salgs- og kjøpsdokumenter og finansposter til alle satellittkontorer, salgskontorer eller datterselskaper. Distribusjon av transaksjoner sparer tid og øker effektiviteten i hele organisasjonen ved å redusere dataregistreringen. Det kutter ned på behovet for å sende, motta, skrive ut og arkivere salgs- og kjøpsdokumenter.  
 
@@ -34,7 +34,7 @@ Når du angir en transaksjon, trenger du ikke å angi kontoene som skal brukes. 
 
 Konsernintern fokuserer på salgs- og kjøpsdokumenter og finanskladdelinjer og tillater transaksjoner mellom flere [!INCLUDE [prod_short](includes/prod_short.md)]-databaser. Eksempel:
 
-* I forskjellige land/områder
+* Forskjellige land/områder
 * Flere valutaer
 * Ulike kontoplaner
 * Ulike dimensjoner
@@ -69,7 +69,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 |Organisere og behandle inngående og utgående transaksjoner som du kan utveksle med de konserninterne partnerne.|[Administrere den konserninterne innboksen og utboksen](intercompany-how-manage-intercompany-inbox.md)|
 |Bruk konserninterne transaksjoner til å fordele kost mellom partnerselskaper.|[Fordel kost til konserninterne partnere](intercompany-allocate-costs.md)|
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Finans](finance.md)  
 [Konfigurere finans](finance-setup-finance.md)  

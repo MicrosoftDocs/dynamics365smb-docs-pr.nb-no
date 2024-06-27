@@ -6,12 +6,12 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'SMTP, mail, Microsoft 365, Outlook'
 ms.search.form: '1831, 1832'
-ms.date: 04/27/2022
+ms.date: 06/14/2024
 ms.author: jswymer
 ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
-# <a name="get-the-business-central-add-in-for-outlook"></a>Hent Business Central-tillegget for Outlook
+# Hent Business Central-tillegget for Outlook
 
 Med [!INCLUDE[prod_short](includes/prod_short.md)] kan du behandle forretningssamhandlinger med kunder og leverandører direkte i Microsoft Outlook. Med [!INCLUDE[prod_short](includes/prod_short.md)] Outlook-tillegget ser du økonomiske data knyttet til kunder og leverandører. Du kan også opprette og sende økonomiske dokumenter, for eksempel tilbud og fakturaer.  
 
@@ -21,7 +21,7 @@ Du kan få tak i Business Central-tillegget for Outlook installert på to måter
 
 - Som en hvilken som helst bruker installerer du tillegget for eget bruk, hvis administratoren ikke allerede har distribuert det.
 
-## <a name="about-the-business-central-add-in-for-outlook"></a>Om Business Central-tillegget for Outlook
+## Om Business Central-tillegget for Outlook
 
 Business Central-tillegget for Outlook består av to mindre tillegg:
 
@@ -40,50 +40,51 @@ Hvert tillegg leveres som en XML-fil, kalt et *manifest*, som må installeres i 
 > [!IMPORTANT]
 > Arbeide med flere miljøer? Business Central-tillegget for Outlook er utviklet for å fungere med ett enkelt Business Central-miljø. Når tillegget er installert, inkluderes navnet på miljøet i manifestet for tillegget. Denne konfigurasjonen betyr at tilleggsprogrammet bare vil koble til miljøet det ble installert fra. Hvis du vil bruke tillegget med et annet miljø, åpner du miljøet og installerer tillegget på nytt.
 
-## <a name="deploy-the-add-in-by-using-centralized-deployment-as-an-admin"></a>Distribuer tillegget ved hjelp av sentralisert distribusjon som en administrator
+## Distribuer tillegget ved hjelp av sentralisert distribusjon som en administrator
 
 Sentralisert distribusjon er en funksjon i administrasjonssenteret for Microsoft 365 som du bruker til automatisk å installere tillegg i brukernes Office-apper, for eksempel Outlook. Det er den anbefalte måten administratorer kan distribuere for Office-tillegg til brukere og grupper i organisasjonen.
 
 > [!NOTE]
 > For Business Central on-premises kan du se [Konfigurer tillegget for Outlook-integrering med Business Central On-Premises](/dynamics365/business-central/dev-itpro/administration/setting-up-office-add-ins-outlook-inbox) i administrasjonsinnholdet (bare engelsk).
 
-### <a name="prerequisites"></a>Forutsetninger
+### Forutsetninger
 
 - Et Microsoft 365-abonnement  
 - Brukere er tilordnet en Microsoft 365-lisens  
 - Microsoft 365-kontoen har rollen *Global administrator* eller *Exchange-administrator*
 
-### <a name="deploy-the-add-in"></a>Distribuer tillegget
+### Distribuer tillegget
 
 1. I Business Central velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Assistert oppsett** og velger den relaterte koblingen.
-2. Velg **Outlook-tillegget Sentralisert distribusjon** for å starte veiledningen for assistert oppsett.
-3. Gå gjennom første side og velg **Neste** for å åpne siden for å laste ned tilleggene.
-4. I **Distribuer**-kolonnen merker du av for tilleggene du vil distribuere, og deretter klikker du på **Last ned og fortsett**.
+1. Velg **Outlook-tillegget Sentralisert distribusjon** for å starte veiledningen for assistert oppsett.
+1. Gå gjennom første side og velg **Neste** for å åpne siden for å laste ned tilleggene.
+1. I **Distribuer**-kolonnen merker du av for tilleggene du vil distribuere, og deretter klikker du på **Last ned og fortsett**.
 
     En fil med navnet *OutlookAddins.zip* lastes ned på enheten.
 
-5. På dette tidspunktet er du ferdig med arbeidet du må gjøre i Business Central, slik at du kan velge **Ferdig**.
+1. På dette tidspunktet er du ferdig med arbeidet du må gjøre i Business Central, slik at du kan velge **Ferdig**.
 
    >[!TIP]
    > Før du velger **Neste**, velger du **Gå til Microsoft 365 (åpnes i et nytt vindu)**-kobling for å åpne og logge på administrasjonssenteret for Microsoft 365 i et nytt nettleservindu. Du må likevel gå til administrasjonssenteret for Microsoft 365 i et senere trinn.
 
-6. Gå til mappen der OutlookAddins.zip ble lastet ned, og pakk ut filene **Kontaktinnsikt.xml** og **Dokumentvisning.xml** fra .zip-filen til en mappe du velger.
+1. Gå til mappen der OutlookAddins.zip ble lastet ned, og pakk ut filene **Kontaktinnsikt.xml** og **Dokumentvisning.xml** fra .zip-filen til en mappe du velger.
 
     Hvis du vil ha mer informasjon, kan du se [Pakk og pakk ut filer og mapper](https://support.microsoft.com/en-us/windows/zip-and-unzip-files-8d28fa72-f2f9-712f-67df-f80cf89fd4e5).
-7. Logg på administrasjonssenteret for Microsoft 365, og gå til [Integrerte apper](https://go.microsoft.com/fwlink/?linkid=2163967).
+1. Logg på administrasjonssenteret for Microsoft 365, og gå til [Integrerte apper](https://go.microsoft.com/fwlink/?linkid=2163967).
 
-8. Velg **Last opp egendefinerte apper**.
-9. På siden **Last opp apper som skal distribueres** velger du **Last opp manifestfil (XML) fra enhet** > **Velg fil**.
-10. Velg ett av tilleggsfilene du pakket ut tidligere, for eksempel **Kontaktinnsikt.xml**.
-11. Følg instruksjonene for å tilordne brukere og distribuere tillegget.
-12. Gjenta trinn 9 til 11 for den andre tilleggsfilen hvis du vil.
+1. Velg **Last opp egendefinerte apper**.
+1. På siden **Last opp apper som skal distribueres**, angir du **Apptype** til **Office-tillegg**.
+1. Velg **Last opp manifestfil (XML) fra enhet** > **Velg fil**.
+1. Velg en av tilleggsfilene du pakket ut tidligere, for eksempel **Context Insights.xml** eller **Documents.xml**.
+1. Følg instruksjonene for å tilordne brukere og distribuere tillegget.
+1. Gjenta trinn 9 til 11 for den andre tilleggsfilen hvis du vil.
 
 > [!IMPORTANT]
 > Det vises en grønn hake når tillegget er distribuert til administrasjonssenteret. Det kan imidlertid ta opptil 24 timer før brukere ser tillegget i Outlook-appen. Det kan også hende at brukerne må starte Outlook på nytt.
 
 Når du er ferdig, kan du alltids endre distribusjonen i Microsoft 365-administrasjonssenteret, for eksempel tilordne flere brukere. Hvis du vil ha mer informasjon om hvordan du distribuerer tillegg i administrasjonssenteret, kan du se [Distribuer tillegg i administrasjonssenteret](/microsoft-365/admin/manage/centralized-deployment-faq?view=o365-worldwide#how-do-you-target-add-in-user-assignments-with-centralized-deployment-&preserve-view=true).
 
-## <a name="install-the-add-in-for-your-own-use"></a><a name="install"></a>Installer tillegget for eget bruk
+## <a name="install"></a>Installer tillegget for eget bruk
 
 Hvis organisasjonen tillater det, kan du installere Business Central-tillegget bare for deg selv. Kontakt administratoren hvis du ikke er sikker.
 
@@ -94,7 +95,7 @@ Hvis organisasjonen tillater det, kan du installere Business Central-tillegget b
 
 Business Central kobles til e-postserveren og installerer tillegget i Outlook. Dette tar ikke lang tid. Du er nå klar til å begynne å bruke tillegget i Outlook.
 
-### <a name="for-business-central-on-premises"></a><a name="onprem"></a>For Business Central lokalt
+### <a name="onprem"></a>For Business Central lokalt
 
 Hvis du bruker Business Central on-premises, kan det være litt annerledes å installere tillegget.
 
@@ -116,7 +117,7 @@ Hvis du bruker Business Central on-premises, kan det være litt annerledes å in
 
 Du er nå klar til å begynne å bruke tillegget i Outlook.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Bli klar til å gjøre forretninger](ui-get-ready-business.md)  
 [Få Business Central på mobilenheten](install-mobile-app.md)  

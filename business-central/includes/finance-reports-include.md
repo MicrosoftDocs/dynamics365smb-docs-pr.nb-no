@@ -1,7 +1,7 @@
 ---
 author: brentholtorf
 ms.topic: include
-ms.date: 09/22/2022
+ms.date: 06/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
@@ -9,10 +9,10 @@ ms.reviewer: bholtorf
 
 Tabellen nedenfor beskriver noen av nøkkelfinansrapportene.
 
-| Rapporter | Description | ID | 
+| Rapporter | Description | ID |
 |--|--|--|
 | [Råbalanse](https://businesscentral.dynamics.com?report=6) | Viser kontoplanen med saldoer og bevegelser. Du kan for eksempel velge å se en råbalanse for bestemte dimensjoner eller bruke rapporten ved avslutting av en regnskapsperiode eller et regnskapsår. | 6 |
-| [Råbalanse etter periode](https://businesscentral.dynamics.com?report=38) | Viser inngående balanse etter finanskonto, bevegelsene i den valgte perioden (måned, kvartal eller år) samt den resulterende utgående balansen. <br>Tips: Kan brukes til å vise resultat med en totalsum for hver måned.| 38 |
+| [Råbalanse etter periode](https://businesscentral.dynamics.com?report=38) | Viser inngående balanse etter finanskonto, bevegelsene i den valgte perioden (måned, kvartal eller år) samt den resulterende utgående balansen. <br>Tips: Rapporten kan brukes til å vise resultat med en totalsum for hver måned.| 38 |
 | [Råbalanse/Budsjett](https://businesscentral.dynamics.com?report=9) | Viser en råbalanse sammenlignet med et budsjett. Du kan velge å se en råbalanse for bestemte dimensjoner. Bruk denne rapporten ved slutten av en regnskapsperiode eller et regnskapsår. | 9 |
 | [Detaljert råbalanse](https://businesscentral.dynamics.com?report=4) | Viser en detaljert råbalanse for bestemte finanskontoer. Du kan definere hvilke konti som skal være med i rapporten, ved å definere filtre. Bruk denne rapporten ved slutten av en regnskapsperiode eller et regnskapsår. | 4 |
 | [Råbalanse/fjorår](https://businesscentral.dynamics.com?report=7) | Viser en råbalanse sammenlignet med tall fra forrige år. Du kan velge å se en råbalanse for bestemte dimensjoner. Bruk denne rapporten ved slutten av en regnskapsperiode eller et regnskapsår. Med *forrige år* menes samme periode ett kalender år tidligere. | 7 | 

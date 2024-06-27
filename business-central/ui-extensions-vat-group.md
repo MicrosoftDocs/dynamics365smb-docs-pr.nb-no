@@ -7,30 +7,31 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'VAT, value added tax, report'
 ms.search.form: '4700, 4701, 4703, 4704, 4705, 4706, 4707, 4708, 4709,'
-ms.date: 12/12/2023
+ms.date: 06/03/2024
 ms.service: dynamics-365-business-central
+ms.custom: bap-template
 ---
 
-# <a name="the-vat-group-management-extension-for-the-united-kingdom"></a>Utvidelsen for mva-gruppestyring for Storbritannia
+# Utvidelsen for mva-gruppestyring for Storbritannia
 
 [!INCLUDE[azure-ad-to-microsoft-entra-id](~/../shared-content/shared/azure-ad-to-microsoft-entra-id.md)]
 
 Du kan koble sammen et eller flere selskaper i Storbritannia for å kombinere merverdiavgiftrapportering (mva.) under ett enkelt registreringsnummer. Denne typen oppsett kalles en *mva-gruppe*. Du kan samarbeide med gruppen som medlem eller grupperepresentant.
 
-## <a name="forming-a-vat-group"></a>Danne en mva-gruppe
+## Danne en mva-gruppe
 
 MVA-gruppemedlemmer og grupperepresentanten kan bruke den assisterte oppsettsveiledningen for **Konfigurer mva-gruppestyring** til å både definere samarbeidet med gruppen og opprette en forbindelse mellom deres [!INCLUDE[prod_short](includes/prod_short.md)]-leietakere. Gruppemedlemmene bruker denne tilkoblingen til å sende omsetningsoppgavene deres til grupperepresentanten. Grupperepresentanten bruker deretter én omsetningsoppgave til å sende gruppens mva. til skattemyndighetene.
 
 [!INCLUDE[prod_short](includes/prod_short.md)] støtter sendinger av omsetningsoppgaver internt i gruppen for selskaper som bruker den lokale eller nettbaserte versjonen av [!INCLUDE[prod_short](includes/prod_short.md)], i en hvilken som helst kombinasjon som påvirker kommunikasjonsoppsettet mellom virksomheter. Denne artikkelen beskriver ulike gruppeoppsett.
 
-### <a name="license-requirements"></a>Lisenskrav
+### Lisenskrav
 
 Deltakere i gruppen må være lisensierte for å bruke [!INCLUDE[prod_short](includes/prod_short.md)]. Du kan ikke bruke gjestekontoer i mva-grupper.
 
 * For å beregne og sende omsetningsoppgaver må brukeren være en fullstendig [!INCLUDE[prod_short](includes/prod_short.md)]-bruker.
 * Hvis du vil logge på og utføre grunnleggende oppgaver, for eksempel opprette kontoer, trenger du en lisens for [!INCLUDE[prod_long](includes/prod_long.md)] Team Member.
 
-## <a name="set-up-a-vat-group"></a>Konfigurer en mva-gruppe
+## Konfigurer en mva-gruppe
 
 Nedenfor er den anbefalte rekkefølgen av trinnene en administratorer bruker til å konfigurere en mva-gruppe:
 
@@ -45,7 +46,7 @@ Nedenfor er den anbefalte rekkefølgen av trinnene en administratorer bruker til
 > [!NOTE]
 > For å kunne koble til mva-grupperepresentanten må gruppemedlemmer ha en brukerkonto med tilgang til mva-grupperepresentantens [!INCLUDE[prod_short](includes/prod_short.md)]. Mva-grupperepresentanten må opprette minst én bruker for denne. Av sikkerhetsmessige årsaker anbefales det imidlertid at de oppretter en bruker for hvert enkelt mva-gruppemedlem, som kan være en systembrukerkonto som ikke er knyttet til en faktisk person. Pass på at du distribuerer brukerlegitimasjonen til mva-gruppemedlemmer på en sikker måte.
 
-### <a name="microsoft-entra-id-setup-for-group-members"></a>Microsoft Entra ID-konfigurasjon for gruppemedlemmer
+### Microsoft Entra ID-konfigurasjon for gruppemedlemmer
 
 Når mva-grupperepresentanten bruker [!INCLUDE[prod_short](includes/prod_short.md)] online eller lokalt, må mva-gruppemedlemmene bruke Microsoft Entra ID til å godkjenne brukere når de sender omsetningsoppgaver til mva-grupperepresentanten. For den lokale versjonen av [!INCLUDE[prod_short](includes/prod_short.md)] må medlemmer konfigurere enkel pålogging. Finn ut mer under [Konfigurer Microsoft Entra-godkjenning med WS-Federation](/dynamics365/business-central/dev-itpro/administration/authenticating-users-with-azure-active-directory?tabs=singletenant%2Cadmintool).
 
@@ -61,7 +62,7 @@ Når administrator for mva-gruppemedlem oppretter appregistreringen i Microsoft 
 * I delen **API-tillatelser** legger du til tillatelser til [!INCLUDE[prod_short](includes/prod_short.md)]. Aktiver delegert tilgang til **Financials.ReadWrite.All** og **user_impersonation**.
 * I **Oversikt**-delen, noter **ID for program (klient)**. Mva-gruppemedlemmene trenger ID-en når de konfigurerer tilkoblingen til grupperepresentanten.
 
-### <a name="group-api-setup"></a>API-oppsett for gruppe
+### API-oppsett for gruppe
 
 Mva-grupperepresentanten oppretter og forsyner en API til gruppemedlemmer. Medlemmene bruker denne API-en til å koble seg til representantens [!INCLUDE[prod_short](includes/prod_short.md)]-leietaker og sende omsetningsoppgaver. Mva-gruppemedlemmer bruker ofte [!INCLUDE[prod_short](includes/prod_short.md)] i separate Microsoft Entra-leietakere. Derfor trengs det oppsett for koble sammen mva-gruppemedlemmet og -representantens [!INCLUDE[prod_short](includes/prod_short.md)].
 
@@ -73,7 +74,7 @@ Mva-grupperepresentanten oppretter og forsyner en API til gruppemedlemmer. Medle
 1. Kopier **nettadressen** i delen **Detaljer**.
 1. Åpne Notepad og lim inn nettadressen. Bytt ut `https://businesscentral.dynamics.com` med `https://api.businesscentral.dynamics.com/v2.0`.
 
-## <a name="set-up-vat-group-members"></a>Konfigurer mva-gruppemedlemmer
+## Konfigurer mva-gruppemedlemmer
 
 Mva-gruppemedlemmer kobles til representanten ved å ringe en webtjeneste i leieren for mva-grupperepresentanten. Anroperen må godkjennes ved hjelp av OAuth2. Når utvidelsen for mva-gruppestyring er definert, blir medlemmene bedt om å godkjenne til mva-grupperepresentanten for å få og lagre et tilgangstoken. Dette tilgangstokenet brukes ved sending av omsetningsoppgaver til mva-grupperepresentanten.
 
@@ -97,14 +98,14 @@ Før mva-gruppemedlemmer starter oppsettet (oppført nedenfor), må de kontakte 
 
    Følg deretter fremgangsmåten i avsnittene [Mva-grupperepresentant bruker Business Central Online](ui-extensions-vat-group.md#vat-group-representative-uses-business-central-online) eller [Mva-grupperepresentant bruker Business Central On-Premises](ui-extensions-vat-group.md#vat-group-representative-uses-business-central-on-premises) nedenfor.
 
-### <a name="vat-group-representative-uses-business-central-online"></a>Mva-grupperepresentanten bruker Business Central Online
+### Mva-grupperepresentanten bruker Business Central Online
 
 1. Skriv inn brukerlegitimasjonen som ble levert av mva-grupperepresentanten, og legg til de nødvendige tillatelsene for å generere tilgangstokenet.
 2. Velg konfigurasjonen av mva-rapporten du bruker til å sende omsetningsoppgaver til skattemyndighetene i Storbritannia. 
 
 Når du har fullført oppsettet, oppretter [!INCLUDE[prod_short](includes/prod_short.md)] en ny konfigurasjon basert på dette alternativet slik at du kan sende omsetningsoppgaver til mva-grupperepresentanten.
 
-### <a name="vat-group-representative-uses-business-central-on-premises"></a>Mva-grupperepresentanten bruker Business Central On-Premises
+### Mva-grupperepresentanten bruker Business Central On-Premises
 
 1. Skriv inn bruker legitimasjonen fra mva-grupperepresentanten, og velg **Neste**.
 2. I feltet **Klient-ID** angir du klient-IDen fra appregistreringen i [Microsoft Entra ID-oppsett for gruppemedlemmer](#microsoft-entra-id-setup-for-group-members).
@@ -115,7 +116,7 @@ Når du har fullført oppsettet, oppretter [!INCLUDE[prod_short](includes/prod_s
 7. Velg **Neste** når du har angitt de ulike feltene, og bekreft deretter at godkjenningstilkoblingen genererer tilgangstokenet.
 8. Velg konfigurasjonen av mva-rapporten du bruker til å sende omsetningsoppgaver til skattemyndighetene i Storbritannia.
 
-## <a name="set-up-the-vat-group-representative"></a>Konfigurer mva-grupperepresentanten
+## Konfigurer mva-grupperepresentanten
 
 > [!NOTE]
 > For lokale versjoner støtter [!INCLUDE[prod_short](includes/prod_short.md)] bare én enkelt leierforekomst av grupperepresentanten.
@@ -136,7 +137,7 @@ Når du har fullført oppsettet, oppretter [!INCLUDE[prod_short](includes/prod_s
     3. I feltet **Selskap** angir du selskapet som gruppemedlemmet sender omsetningsoppgaver fra i [!INCLUDE[prod_short](includes/prod_short.md)], som **CRONUS UK Ltd**.
     4. Angi kontaktinformasjonen for selskapet.
 
-## <a name="use-the-vat-group-management-features"></a>Bruk funksjonene for mva-gruppestyring
+## Bruk funksjonene for mva-gruppestyring
 
 Mva-gruppemedlemmer bruker standardprosessene til å forberede omsetningsoppgaver. Den eneste forskjellen er at medlemmer må velge rapportversjonen **MVA-GRUPPE** på siden **Omsetningsoppgave** for å sende omsetningsoppgaven til mva-grupperepresentanten i stedet for myndighetene. Finn ut mer under [Om rapporten Omsetningsoppgave](finance-how-report-vat.md#vatreturn).
 
@@ -145,23 +146,23 @@ Mva-gruppemedlemmer bruker standardprosessene til å forberede omsetningsoppgave
 
 Følgende deler beskriver oppgavene som mva-grupperepresentanter må utføre for å sende gruppens omsetningsoppgave.
 
-### <a name="review-vat-member-submissions"></a>Se gjennom mva-medlemssendinger
+### Se gjennom mva-medlemssendinger
 
 Siden **Mva-gruppesendinger** viser omsetningsoppgavene som medlemmene har sendt. Siden fungerer som en kladd for sendingene før mva-grupperepresentanten inkluderer dem i en omsetningsoppgave for gruppen. Representanten kan åpne innsendingene for å kontrollere de enkelte boksene som inneholder beløpet rapportert av hvert mva-gruppemedlemmene.
 
 > [!TIP]
 > På siden **Mva-returperioder** viser feltet **Gruppemedlemssendinger** hvor mange returer medlemmer har sendt. Du sikrer at dette tallet er oppdatert ved å velge handlingen **Hent omsetningsoppgaver**.
 
-### <a name="create-a-group-vat-return"></a>Opprett en omsetningsoppgave for gruppe
+### Opprett en omsetningsoppgave for gruppe
 
 Hvis du vil rapportere mva for gruppen, oppretter du en omsetningsoppgave bare for selskapet ditt på siden **Omsetningsoppgaver**. Etterpå tar du med de siste mva-innsendingene fra mva-gruppemedlemmene ved å velge **Inkluder gruppe-mva**-handlingen.  
 
-Når grupperepresentanten har sendt inn gruppens omsetningsoppgave til myndighetene, kjører representanten vanligvis handlingen **Beregn og bokfør mva-oppgjør**. Handlingen lukker åpne mva-poster og overfører beløp til mva-oppgjørskontoen. Denne handlingen tar for øyeblikket ikke hensyn til gruppeinnsendingene. Bare mva-postene for mva-grupperepresentanten blir bokført. Innsendingsbeløpene for mva-gruppemedlemmer må bokføres til mva-oppgjørsbeløpet manuelt, slik at mva-oppgjørskontoen til mva-grupperepresentanten gjenspeiler gjelden for det som ble rapportert til myndighetene. Denne virkemåten endres i en kommende oppdatering av [!INCLUDE[prod_short](includes/prod_short.md)], slik at hele gruppens mva. (det totale beløpet på rapportlinjer i omsetningsoppgaven) blir utlignet.
+Når grupperepresentanten har sendt inn gruppens omsetningsoppgave til myndighetene, kjører representanten vanligvis handlingen **Beregn og bokfør mva-oppgjør**. Handlingen lukker åpne mva-poster og overfører beløp til mva-oppgjørskontoen. Denne handlingen tar for øyeblikket ikke hensyn til gruppeinnsendingene. Bare mva-postene for mva-grupperepresentanten blir bokført. Innsendingsbeløpene for mva-gruppemedlemmer må bokføres ved hjelp av handlingen **Bokfør mva-gruppeoppgjør** .
 
 > [!IMPORTANT]
 > Funksjonen for mva-gruppe støttes bare i de markeder der [!INCLUDE[prod_short](includes/prod_short.md)] bruker et mva-rammeverk som består av mva-returer og mva-returperioder. Du kan ikke bruke mva-grupper i markeder med andre implementeringer av lokal mva-rapportering, for eksempel Østerrike, Tyskland, Italia, Spania og Sveits.
 
-## <a name="issue-with-enabling-multifactor-authentication-mfa"></a>Problem med aktivering av flerfaktorautentisering (MFA)
+## Problem med aktivering av flerfaktorautentisering (MFA)
 
 Hvis du får en feilmelding relatert til autorisasjon under fornyelsen av **OAuth2-token** på siden **Mva-rapportoppsett** etter at du har aktivert MFA, følger du denne fremgangsmåten.  
 
@@ -173,7 +174,7 @@ Hvis du får en feilmelding relatert til autorisasjon under fornyelsen av **OAut
 
 Dette bør være et engangsoppsett etter at du har aktivert godkjenning med flere faktorer for brukeren som er valgt i **Mva-rapportoppsett**.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Lokal funksjonalitet for Storbritannia i den britiske versjonen](LocalFunctionality/unitedkingdom/united-kingdom-local-functionality.md)  
 [Making Tax Digital i Storbritannia](LocalFunctionality/UnitedKingdom/making-tax-digital-submit-vat-return.md)  

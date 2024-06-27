@@ -1,31 +1,29 @@
 ---
-title: Arbeide med monteringsstykklister
+title: Arbeid med monteringsstykklister
 description: Du oppretter en monteringsstykkliste for å spesifisere komponenter som kreves for å sette sammen varen som stykklisten representerer.
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'assembly bom, bills of material,'
 ms.search.form: '36, 5870, 5872, 5874'
-ms.date: 09/26/2022
-ms.author: bholtorf
+ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
-ms.reviewer: bholtorf
 ---
-# <a name="work-with-assembly-boms"></a>Arbeide med monteringsstykklister
+# Arbeid med monteringsstykklister
 
 Du bruker monteringsstykklister til å strukturere overordnede varer som må monteres fra komponenter med lite eller ingen bruk av ressurser. En monteringsstykkliste kan for eksempel brukes til å selge en overordnet vare som et sett som består av komponentelementer.
 
-Du bruker monteringsordrer for å produsere sluttvarer fra komponenter i en enkel prosess som kan utføres av én eller flere grunnleggende ressurser, som ikke er produksjonsressurser eller arbeidssentre, eller uten noen ressurser. En monteringsprosess kan for eksempel være å plukke to flasker vin og én kaffepose og deretter pakke dem som en gave.  
+Bruk monteringsordrer til å produsere fullførte varer fra komponenter i en prosess som kan utføres av én eller flere grunnleggende ressurser, som ikke er produksjonsressurser eller arbeidssentre, eller uten noen ressurser. En monteringsprosess kan for eksempel være å plukke to flasker vin og én kaffepose og deretter pakke dem som en gave.  
 
-En monteringsstykkliste er hoveddataene som definerer hvilke komponentvarer som inngår i en montert sluttvare, og hvilke ressurser som brukes til å montere monteringselementet. Når du angir en monteringsvare og et antall i hodet i en ny monteringsordre, fylles monteringsordrelinjene automatisk ut i henhold til monteringsstykklisten, med én monteringsordrelinje per komponent eller ressurs. Finn ut mer under [Monteringsstyring](assembly-assemble-items.md).
+En monteringsstykkliste er hoveddataene som definerer hvilke komponentvarer som inngår i en montert sluttvare, og hvilke ressurser som brukes til å montere monteringselementet. Når du angir en monteringsvare og et antall i en monteringsordre, fylles monteringsordrelinjene ut i henhold til monteringsstykklisten. Ordren har én monteringsordrelinje per komponent eller ressurs. Finn ut mer under [Monteringsstyring](assembly-assemble-items.md).
 
-[!INCLUDE[prod_short](includes/prod_short.md)] støtter også produksjonsstykklister. Produksjonsstykklistene skiller seg fra monteringsstykklister ved å involvere mer komplekse prosedyrer, inkludert ressursbruk, produksjonsruting og arbeidssentre eller produksjonsressurser. Finn ut mer om ulikhetene på [Arbeide med stykklister](inventory-how-work-BOMs.md) og [Opprette produksjonsstykklister](production-how-to-create-production-boms.md).
+[!INCLUDE[prod_short](includes/prod_short.md)] støtter også produksjonsstykklister. Produksjonsstykklistene skiller seg fra monteringsstykklister fordi de involverer mer komplekse prosedyrer, for eksempel ressursbruk, produksjonsruting og arbeidssentre eller produksjonsressurser. Finn ut mer om ulikhetene på [Arbeide med stykklister](inventory-how-work-BOMs.md) og [Opprette produksjonsstykklister](production-how-to-create-production-boms.md).
 
-## <a name="to-create-an-assembly-bom"></a>Slik oppretter du en monteringsstykkliste:
+## Slik oppretter du en monteringsstykkliste:
 
-Hvis du vil definere en overordnet vare som består av andre varer, og potensielt av ressursene som kreves for å sette sammen den overordnede varen, må du opprette en monteringsstykkliste.  
-
-Monteringsstykklister inneholder vanligvis varer, men kan også inneholde en eller flere ressurser som trengs for å sette monteringsvaren sammen.
+Hvis du vil definere en vare som består av andre varer, og kanskje ressursene som kreves for å montere varen, må du opprette en monteringsstykkliste.  
 
 Monteringsstykklister kan ha flere nivåer, noe som betyr at en komponent i monteringsstykklisten selv kan være en monteringsvare. I så fall skal **Monteringsstykkliste**-feltet på monteringsstykklistelinjen inneholde **Ja**.
 
@@ -33,7 +31,7 @@ Spesielle krav gjelder for varer i monteringsstykklister med hensyn til tilgjeng
 
 Oppretting av en monteringsstykkliste foregår i to trinn:
 
-- Definere en ny vare
+- Definere en ny vare.
 - Definere stykklistestrukturen for monteringsvaren.
 
 1. Definer en ny vare. Finn ut mer under [Registrer nye varer](inventory-how-register-new-items.md).
@@ -43,17 +41,17 @@ Oppretting av en monteringsstykkliste foregår i to trinn:
 3. Fyll ut feltene etter behov på siden **Monteringsstykkliste**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
 > [!TIP]
-> Monteringsvarer kan ha ulike varianter angitt i [!INCLUDE[prod_short](includes/prod_short.md)] på samme måte som et hvilket som helst annet element, slik at det er enklere å holde listen over tilgjengelige produkter kortere. Finn ut mer om funksjonen på [Behandle produktvarianter](inventory-item-variants.md).
+> Monteringsvarer kan ha ulike varianter, akkurat som andre varer, som hjelper deg med å holde listen over produkter kortere. Finn ut mer om funksjonen på [Behandle produktvarianter](inventory-item-variants.md).
 
-## <a name="to-edit-assembly-boms"></a>Slik redigerer du monteringsstykklister
+## Slik redigerer du monteringsstykklister
 
-Du kan når som helst redigere linjene i en monteringsstykkliste. Vær oppmerksom på at stykklisten kan være i bruk på pågående salg eller sammenstillinger av den overordnede, noe som kan påvirkes av endringen. Velg **Inngår i**-handlingen for å se hvilke varer den brukes i, og deretter om ordre-eller monteringsordrer kan påvirkes.
+Du kan når som helst redigere linjene i en monteringsstykkliste. Stykklisten kan imidlertid være i bruk av pågående salg eller monteringer av den overordnede stykklisten. Hvis du endrer stykklisten, kan det påvirke disse aktivitetene. Velg **Inngår i**-handlingen for å se varerne som bruker den, og om ordre-eller monteringsordrer kan påvirkes.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Velg **Ja** i kolonnen **Monteringsstykkliste**.
 3. På siden **Monteringsstykkliste** velger du **Rediger liste**-handlingen, og deretter endrer du felt etter behov.
 
-## <a name="to-view-components-and-resources-indented-according-to-the-bom-structure"></a>Vise komponentene og ressursene som er rykket inn i henhold til stykklistestrukturen
+## Vise komponentene og ressursene som er rykket inn i henhold til stykklistestrukturen
 
 Fra siden **Monteringsstykkliste** kan du åpne en egen side som viser komponentene og ressurser som er rykket inn, i henhold til deres stykklisteposisjon under monteringsvaren.
 
@@ -62,14 +60,14 @@ Fra siden **Monteringsstykkliste** kan du åpne en egen side som viser komponent
 3. På siden **Varekort** velger du **Montering** og velger deretter **Monteringsstykkliste**.
 4. På siden **Monteringsstykkliste** velger du handlingen **Vis stykkliste**.
 
-## <a name="to-replace-the-assembly-item-with-its-components-on-document-lines"></a>Slik erstatter du monteringsvaren med dens komponenter i dokumentlinjer
+## Slik erstatter du monteringsvaren med dens komponenter i dokumentlinjer
 
-Du kan bruke en spesiell funksjon erstatte linjen for varen samlingen med nye linjer for komponentene fra en salgs- og kjøpsdokument som inneholder en vare i produksjonen. Denne funksjonen er nyttig for eksempel hvis du vil selge komponentene som et sett med samlingen varen.
+Du kan bruke en spesiell handling til å erstatte linjen for varen samlingen med nye linjer for komponentene fra en salgs- og kjøpsdokument som inneholder en vare i produksjonen. Denne handlingen er nyttig for eksempel hvis du vil selge komponentene som et sett med samlingen varen.
 
 Handlingen **Utfold stykkliste** er også tilgjengelig på siden **Monteringsstykkliste** som en måte å vise underordnede monteringsvarer på en monteringsstykkliste på.
 
 > [!CAUTION]  
-> Når du har brukt funksjonen **Utfold Stykkliste**, er det ikke enkelt å angre den. Du må slette ordrelinjene som representerer komponentene og deretter skrive inn en ordrelinje for monteringsvaren på nytt.
+> Når du har brukt handlingen **Utfold Stykkliste**, er det ikke enkelt å angre den. Du må slette ordrelinjene for komponentene og deretter skrive inn en ordrelinje for monteringsvaren på nytt.
 
 Følgende fremgangsmåte er basert på en faktura. De samme trinnene gjelder for andre salgsdokumenter og på alle kjøpsdokumenter.
 
@@ -82,7 +80,7 @@ Alle feltene på salgsfakturalinjen for monteringsvaren er tomme med unntak av f
 > [!NOTE]
 > **Plukkliste etter ordre**-rapporten endres også for å vise bare komponentene. Dette betyr at en lagerarbeider som plukker den overordnede varen, monteringsvaren, ikke kan se den i plukklisten. Lær mer på [Skrive ut plukklisten](sales-how-print-picking-list.md).
 
-## <a name="to-calculate-the-standard-cost-of-an-assembly-item"></a>Slik beregner du standardkosten for en monteringsvare
+## Slik beregner du standardkosten for en monteringsvare
 
 Du beregner enhetskosten for en monteringsvare ved å opprullere enhetskosten for hver komponent og ressurs i varens monteringsstykkliste.
 
@@ -95,18 +93,18 @@ Enhetskosten for en monteringsstykkliste er alltid lik totalsummen for enhetskos
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. Åpne kortet for en monteringsvare. (Feltet **Monteringsstykkliste** på siden **Varer** inneholder **Ja**.)
-3. På siden **Varekort** velger du **Montering** og velger deretter **Monteringsstykkliste**.
+3. På siden **Varekort** velger du handlingen **Monteringsstykkliste**.
 4. På siden **Monteringsstykkliste** velger du **Beregn standardkost**.
 5. Velg ett av følgende alternativer, og velg deretter **OK**.
 
 |Alternativ |Description |
 |-------|------------|
 |**Øverste nivå**|Beregner monteringsvaren standardkostnad som den totale kostnaden for alle kjøpte eller monterte varer i monteringsstykklisten, uavhengig av eventuelle underliggende monteringsstykklister.|
-|**Alle nivåer**|Beregner monteringsvarens standardkost som summen av: 1) det beregnede kostbeløpet for alle underliggende monteringsstykklister i monteringsstykklisten. 2) kostnadene for alle innkjøpte varer på monteringsstykklisten.|
+|**Alle nivåer**|Beregner monteringsvarens standardkostnad som summen av:</br></br>* Den beregnede kostnaden for alle underliggende monteringsstykklister på monteringsstykklisten.</br>* Kostnadene for alle innkjøpte varer på monteringsstykklisten.|
 
 Kostnadene for varer som utgjør monteringsstykklisten kopieres fra komponentvarekortene. Hver varekostnad multipliseres med antallet, og kostbeløpet vises i feltet **Enhetskost** på varekortet.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Registrer nye varer](inventory-how-register-new-items.md)  
 [Administrer produktvarianter](inventory-item-variants.md)  

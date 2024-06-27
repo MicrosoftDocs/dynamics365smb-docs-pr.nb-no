@@ -5,37 +5,32 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 03/14/2024
+ms.date: 06/13/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ms.search.form: '456, 457, 458, 459, 460, 461, 16, 22, 25, 26, 27, 31, 143, 144, 9300, 9301, 9303, 9304, 9305, 9306, 9307, 9309, 9310, 9311'
 ---
 # Analyser data i lister ved hjelp av Copilot (forhåndsversjon)
 
-[!INCLUDE[preview-banner](includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Denne artikkelen forklarer hvordan du bruker *analysehjelp* til å analysere data på listesider.
 
-[!INCLUDE[production-ready-preview-dynamics365](includes/production-ready-preview-dynamics365.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Om analysehjelp
 
 Analysehjelp er en Copilot for [analysemodusen](analysis-mode.md) på listesider i Business Central. Analysemodusen gir en interaktiv og allsidig måte å beregne, summere og undersøke data på. Hvis du vil analysere data i analysemodus, oppretter du en *analysefane* der du transformerer dataene for å vise de ønskede samlingene og sammendragene. Du kan for eksempel ordne felter i rader og kolonner, angi filtre, sortere kolonner og pivotere felter. Med analysehjelp oppnår du, i stedet for å gjøre denne oppgaven manuelt, mye av det samme – eller hvertfall som en start – ved å bruke ord. Ved å uttrykke strukturen du vil bruke på naturlig språk, for eksempel «sortere etter antall fra minste til største» eller «vis gjennomsnittskostnad per kategori», bruker analysehjelp kunstig intelligens til å generere et foreslått oppsett i en analysefane.
 
+## Tilgjengelige språk
 
-<!-- 
+[!INCLUDE[analysis-assist-language-support](includes/analysis-assist-language-support.md)]
 
- However, the data analysis mode requires some understanding of how to structure fields to meet the desired aggregations and summarizations. It requires you to move fields around to the appropriate areas within analysis mode pane which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals. Analysis assist minimizes these requirments by enabling you to express the desired layout in words. , like "group which data rows and columns to display, specify filters, sorting, grouping, pivoting and totals
---> 
 ## Forutsetninger
 
 - Analysehjelpfunksjonen er aktivert, og du får tillatelse til å bruke den. Denne oppgaven utføres vanligvis av en administrator. [Finn ut mer om å konfigurere Copilot- og KI-funksjoner](enable-ai.md).
-- Visningsspråket i Business Central er satt til et av følgende nasjonale innstillinger på engelsk: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Finn ut mer om hvordan du endrer språket](ui-change-basic-settings.md#language).
-- Business Central-miljøet er i alle land/områder unntatt Canada (denne funksjonen er ennå ikke tilgjengelig i Canada).
-
-<!--
-> [!NOTE]
-> You may notice some list pages that don't include the **Analyze** switch for changing to the analysis mode. The reason is that developers can disable analysis mode on specific pages by using the [AnalysisModeEnabled property](/dynamics365/business-central/dev-itpro/developer/properties/devenv-analysismodeenabled-property) in AL.-->
+<!-- - The display language in Business Central is set to one the following English locales: en-AU, en-CA, en-GB, en-IE, en-IN, en-NZ, en-PH, en-SG, en-US, en-ZA. [Learn how to change the language](ui-change-basic-settings.md#language)-->
+<!-- - Your Business Central environment is in any country/region except Canada (this feature isn't yet available in Canada).-->
 
 ## Kom i gang
 
@@ -48,7 +43,7 @@ Analysehjelp er en Copilot for [analysemodusen](analysis-mode.md) på listesider
     - I handlingsraden øverst på siden velger du ![Viser kopilotikonet](media/copilot-icon.png) **Copilot** > **Analyser liste**.
     - I handlingsraden øverst på siden velger du ![Viser åpne analysemodus-ikonet](media/analysis-mode-icon.png) **Åpne analysemodus**, og velg ![Viser kopilotikonet](media/copilot-icon.png) **Copilot** > **Opprett ny analyse**.
 
-1. I vinduet **Analyser** med Copilot skriver du inn en beskrivelse av oppsettet du vil bruke. Denne beskrivelsen er kjent som en *spørring*.
+1. I vinduet **Analyser varer** med Copilot skriver du inn en beskrivelse av oppsettet du vil bruke. Denne beskrivelsen er kjent som en *spørring*.
 
     ![Viser analysehjelpen Copilot](media/analysis-assist.png)
 
@@ -61,7 +56,7 @@ Analysehjelp er en Copilot for [analysemodusen](analysis-mode.md) på listesider
    > [!NOTE]
    > Hvis du navigerer bort fra den nye analysefanen (f.eks. går til en annen analysefane eller -side) eller gjør oppsettendringer i fanen (f.eks. sorterer kolonner eller endrer innstillinger i fanene **Kolonner** og **Analysefiltre**), lagres den nye analysefanen automatisk, og Copilot lukkes.
 
-1. Hvis du vil endre den genererte analysen, kan du gjøre et av trinnene:
+1. Hvis du vil endre den genererte analysen, kan du utføre et av disse trinnene:
 
    - Hvis du vil bygge videre på de forrige instruksjonene, skriver du inn informasjonen i boksen **Legg til flere detaljer om analysen**, og deretter velger du pilen ![Vis justeringspilen](media/analysis-assist-adjust-button.png) **Juster**. Copilot husker de tidligere instruksjonene og bruker dem til å gjøre justeringer.
 
@@ -87,7 +82,7 @@ Disse følgende spørringseksemplene bruker analysehjelp i **elementlisten**. Va
 
 Spørring: `Show items by brand and unit of measure`
 
-Denne spørringen prøver å vise totaler for alle felter som kan legges sammen, gruppert etter merke og feltet **Lagerenhet**. Men i dette tilfellet samsvarer ikke «merke» med noe feltnavn, så Copilot finner sannsynligvis ikke et samsvarende felt, så det ber deg om å omformulere spørringen og prøve på nytt.
+Denne spørringen prøver å vise totaler for alle felter som kan legges sammen, gruppert etter merke og feltet **Lagerenhet**. Men i dette tilfellet samsvarer ikke «merke» med noe feltnavn, så Copilot finner sannsynligvis ikke et samsvarende felt. Det ber deg om å omformulere spørringen og prøve på nytt.
 
 Spørring: `Show items by type and uom`
 

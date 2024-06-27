@@ -5,12 +5,12 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '737, 738, 743, 10601, 10604, 10692 ,10696'
-ms.date: 04/30/2024
+ms.date: 06/12/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="norwegian-vat-reporting"></a>Norsk mva-rapportering
+# Norsk mva-rapportering
 
 > [!IMPORTANT]
 > ID-porten i Norge er endret. Microsoft oppdaterte norsk elektronisk mva-innsendingsløsning til det nye systemet ID-porten fra utgivelsen 23.5.
@@ -21,16 +21,16 @@ Denne artikkelen forklarer de vanlige trinnene du skal følge når du rapportere
 
 Denne artikkelen antar at du har definert mva-rapportering. Hvis du vil ha mer informasjon, kan du se [Definere beregninger og bokføringsmetoder for merverdiavgift](../../finance-setup-vat.md) og [Rapporter mva. til skattemyndigheter](../../finance-how-report-vat.md).
 
-## <a name="set-up-business-central-to-generate-and-submit-electronic-vat-returns"></a>Konfigurere Business Central for å generere og sende inn elektroniske mva-returer
+## Konfigurere Business Central for å generere og sende inn elektroniske mva-returer
 
 For å kunne sende omsetningsoppgaver til norske skattemyndigheter må en administrator opprette en tilkobling til ID-porten hos Digitaliseringsdirektoratet.  
 
 > [!TIP]
 > Vi anbefaler at du alltid bruker [!INCLUDE [prod_short](../../includes/prod_short.md)] i en nettleser til å konfigurere tilkoblingen til ID-porten.
 
-### <a name="register-your-company-with-id-porten"></a>Registrere selskapet i ID-porten
+### Registrere selskapet i ID-porten
 
-Hvis du vil registrere selskapet i ID-porten, følger du fremgangsmåten i [Samarbeidsportalen](https://samarbeid.digdir.no/id-porten/ta-i-bruk-id-porten/94). Legg merke til følgende informasjon etter at du har registrert deg. Du trenger denne når du bruker den assisterte oppsettsveiledningen til å autorisere [!INCLUDE[prod_short](../../includes/prod_short.md)] for tilgang til ID-porten.
+Hvis du vil registrere selskapet i ID-porten, følger du fremgangsmåten i [Samarbeidsportalen](https://samarbeid.digdir.no/id-porten/ta-i-bruk-id-porten/94). Legg merke til følgende informasjon etter at du har registrert deg. Du trenger denne senere når du bruker den assisterte oppsettsveiledningen til å autorisere [!INCLUDE[prod_short](../../includes/prod_short.md)] for tilgang til ID-porten.
 
 * Gyldige URI-er for omdirigering
 * Klient-ID
@@ -39,7 +39,7 @@ Hvis du vil registrere selskapet i ID-porten, følger du fremgangsmåten i [Sama
 > [!IMPORTANT]
 > Det er viktig å lagre klient-ID-en og klienthemmeligheten for integrasjonspunktet trygt.
 
-### <a name="set-up-the-integration-point"></a>Konfigurere integrasjonspunktet
+### Konfigurere integrasjonspunktet
 
 Når du har registrert selskapet i ID-porten, er neste trinn å opprette et integrasjonspunkt i selskapets konto i ID-porten. Hvis du vil ha mer informasjon, kan du se [integrasjonspunkt](https://docs.digdir.no/).
 
@@ -61,18 +61,18 @@ Når du har registrert selskapet i ID-porten, er neste trinn å opprette et inte
 | Applikasjonstype | Applikasjonen (eller klienttypen) er typen kjøretidsmiljø som klienten kjører under. OAuth2 kapittel 2.1 viser de tilgjengelige alternativene. Valget av klienttype er en sikkerhetsvurdering som kunden foretar. | Velg **web**. |
 | Gyldig(e) redirect uri-er | Denne parameteren gjelder bare for integrasjoner for personlig pålogging. Den angir URI-ene som klienten kan gå til etter pålogging. | URI-en er en kombinasjon av basis-URI-en og OAuthLanding.htm. Denne verdien varierer avhengig av om du bruker Business Central Online eller lokalt. Når det gjelder Online, bruker du følgende URI: `https://www.businesscentral.dynamics.com/OAuthLanding.htm`. Her er et eksempel på en URI for lokalt: `https://<hostname>/OAuthLanding.htm`. |
 | Gyldig(e) post logout redirect uri-er | Denne parameteren gjelder bare for integrasjoner for personlig pålogging. Den angir URI-ene som klienten kan gå til etter avlogging. | Angi `https://skatteetaten.no`. |
-| Frontchannel logout uri | URI-en som leverandøren sender en forespørsel til, ved avlogging som utløses av en annen klient i samme økt. Hvis du ikke angir denne parameteren, er det en risiko for at brukere forblir logget på tjenesten din etter at vedkommende har logget av ID-porten. | Verdien skal være tom. |
+| Frontchannel logout uri | URI-en som leverandøren sender en forespørsel til, ved avlogging som en annen klient utløser i samme økt. Hvis du ikke angir denne parameteren, er det en risiko for at brukere forblir logget på tjenesten din etter at vedkommende har logget av ID-porten. | Verdien skal være tom. |
 | Frontchannel logout krever sesjons-id | Denne parameteren gjelder bare for integrasjoner for personlig pålogging. Den er et flagg som fastsetter om parameterne for utsteder og økt-ID sendes sammen med **frontchannel_logout_uri**. | La denne avmerkingsboksen være tom. |
 | Tilbake-uri | Denne parameteren gjelder bare for integrasjoner for personlig pålogging. Den angir URI-en som brukeren sendes tilbake til når vedkommende avbryter pålogging. | Angi `https://skatteetaten.no`. |
 | PKCE | Denne parameteren angir kodeutfordringsmetoden. | Angi **S256** |
-| Authorization levetid (sekunder) | Levetiden til den registrerte autorisasjonen. I en OpenID Connect-kontekst blir denne autorisasjonen tilgang til «userinfo»-endepunktet. Verdien må angis i sekunder. | Angi **31536000** (= ett år). |
+| Authorization levetid (sekunder) | Levetiden til den registrerte autorisasjonen. I en OpenID Connect-kontekst gir denne autorisasjonen tilgang til «userinfo»-endepunktet. Verdien må angis i sekunder. | Angi **31536000** (= ett år). |
 | Access token levetid (sekunder) | Levetiden til det utstedte **access_token** i sekunder. | Angi **7200** (= to timer). |
 | Refresh token levetid (sekunder) | Levetiden til det utstedte **refresh_token** i sekunder. | Angi **0** (null). |
 | Refresh token type | <ul><li>**Engangs** – Du får et nytt **refresh_token** ved hver oppdatering av **access_token**.</li><li>**Gjenbrukbart** – En oppdatering av **access_token** endrer ikke **refresh_token**.</li></ul> | Angi **Engangs**. |
 
 :::image type="content" source="../../media/nor-vat-return-integration-point-new.png" alt-text="Innstillinger for integrasjonspunkt for norsk mva":::
 
-### <a name="set-up-electronic-vat-reporting"></a>Konfigurer elektronisk mva-rapportering
+### Konfigurer elektronisk mva-rapportering
 
 For å gjøre det enklere å konfigurere mva-rapportering har [!INCLUDE[prod_short](../../includes/prod_short.md)] den assisterte oppsettsveiledningen **Konfigurer en elektronisk mva-sending**. 
 
@@ -98,24 +98,27 @@ For å gjøre det enklere å konfigurere mva-rapportering har [!INCLUDE[prod_sho
     Tilordningen bestemmer hvordan du bokfører og sporer mva i [!INCLUDE[prod_short](../../includes/prod_short.md)]. Du kan tilordne mva-kodene til bruk for salg og kjøp.
 
 > [!NOTE]
-> I tillegg til innstillingene som er beskrevet ovenfor, oppretter vi automatisk en mva-rapportkonfigurasjon for å sende oppgaver og få svar. Du kan vise konfigurasjonen på siden **Konfigurasjon av mva-rapporter**.
+> I tillegg til innstillingene som er beskrevet tidligere, oppretter vi automatisk en mva-rapportkonfigurasjon for å sende oppgaver og få svar. Du kan vise konfigurasjonen på siden **Konfigurasjon av mva-rapporter**.
 
-#### <a name="electronic-vat-setup-for-existing-users"></a>Elektronisk mva-oppsett for eksisterende brukere
+#### Elektronisk mva-oppsett for eksisterende brukere  
 
 > [!IMPORTANT]
 > Hvis du er en eksisterende bruker, må du manuelt endre noe informasjon på siden **Elektronisk mva-oppsett**.  
 
-Følg fremgangsmåten for å oppdatere det elektroniske mva-oppsettet for bruk av det nye systemet ID-porten: 
+Følg fremgangsmåten for å oppdatere det elektroniske mva-oppsettet for bruk av det nye systemet ID-porten:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Elektronisk mva-oppsett**, og velg deretter den relaterte koblingen.
 2. Velg hurtigfanen **Generelt** på siden **Elektronisk mva-oppsett**, og oppdater deretter følgende verdier:
 
    1. I feltet **Nettadresse for godkjenning** angir du https://idporten.no 
-   2. I feltet **Nettadresse for pålogging** angir du https://login.idporten.no  
+   2. I feltet **Nettadresse for pålogging** angir du https://login.idporten.no
+
+   > [!NOTE]
+   > Du kan ikke åpne påloggingssiden fra et bokmerke eller en kobling.
 
 3. Lukk siden.
 
-### <a name="vat-report-setup"></a>Mva-rapportoppsett
+### Mva-rapportoppsett
 
 1. Hvis du konfigurerer en mva-rapport, velger du ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Oppsett for mva-rapport**, og velg deretter den relaterte koblingen.  
 2. På hurtigfanen **Generelt** for å la brukerne endre mva-rapporter som er sendt til skattemyndighetene, velger du **Tillat endring**-feltet.  
@@ -123,13 +126,13 @@ Følg fremgangsmåten for å oppdatere det elektroniske mva-oppsettet for bruk a
   Hvis feltet ikke er valgt, må brukere opprette en korrigerende eller supplerende mva-rapport i stedet.  
 3. På hurtigfanen **Generelt** velger du feltet **Mva-grunnlag** for rapporten hvis mva-grunnlaget skal beregnes og vises til brukeren i mva-rapportene.  
 4. På hurtigfanen **Generelt** merker du av for feltet **Mva-merknad for rapport** for å gjøre feltet **Mva-merknad** tilgjengelig for rapportering fra siden **Mva-retur**.  
-5. På hurtigfanen **Nummerering** angir du nummerseriene som blir brukt for standard mva-rapporter.  
+5. På hurtigfanen **Nummerering** angir du nummerseriene som skal brukes for standard mva-rapporter.  
 
-  Denne serien vil være standard nummerserie som brukes i alle mva-rapporter du oppretter.  
+  Dette er standard nummerserie som alle mva-rapporter bruker.  
 6. På hurtigfanene **Returperiode** og **Mva-gruppestyring** angir du relevant informasjon.  
 7. Velg **OK**-knappen.  
 
-## <a name="create-and-submit-a-vat-return"></a>Opprett og send en mva-retur
+## Opprett og send en mva-retur
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](../../media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Omsetningsoppgaver**, og velg deretter den relaterte koblingen.
 2. Velg handlingen **Ny**.
@@ -147,13 +150,13 @@ Følg fremgangsmåten for å oppdatere det elektroniske mva-oppsettet for bruk a
    > [!NOTE]
    > Hvis du har valgt alternativet **Rapporter mva-merknad** på siden **Mva-rapportoppsett**, er **Merknad**-feltet synlig og kan redigeres på siden **Mva-retur**. Brukerne kan angi fritekst der. Verdien i **Merknad**-feltet blir tatt med i meldingen som sendes.  
 
-## <a name="troubleshoot-your-connection-to-id-porten"></a>Feilsøk tilkoblingen til ID-porten
+## Feilsøk tilkoblingen til ID-porten
 
 Hvis du ikke får noe svar etter at du har sendt inn oppgaven, for eksempel innen 24 timer, kontakter du ID-porten og ber dem om bekrefte at de har mottatt oppgaven din. Hvis du vil hjelpe dem å identifisere oppgaven, kan du sende verdien fra feltet Meldings-ID. Feltet er skjult som standard, men du kan bruke sideinspeksjon til å hente verdien. Hvis du vil ha mer informasjon, kan du se [Kontrollere sider i Business Central](../../across-inspect-page.md).  
 
 Du kan også sende en kopi av XML-filene for innsendingen din og svaret du mottok. Du kan hente filene ved å velge handlingene **Last ned sendingsmelding** og **Last ned svarmelding** på siden **Omsetningsoppgave**.  
 
-## <a name="close-vat-periods"></a><a name="vat-periods"></a>Avslutt mva-perioder
+## <a name="vat-periods"></a>Avslutt mva-perioder
 
 Hvis du vil innrette etter juridiske krav, skal mva-perioder lukkes etter at du har utlignet. Vanligvis består et regnskapsår av seks mva-perioder, nummerert fra 1 til 6. Når mva. utlignes, lukkes perioden for ytterligere bokføring.  
 
@@ -162,11 +165,11 @@ Hvis du vil innrette etter juridiske krav, skal mva-perioder lukkes etter at du 
 
 Du kan vise informasjon om utlignede perioder på siden **Utlignet mva-periode**. De lukkede periodene opprettes med rapporten **Beregn og bokfør mva-oppgjør** når du bokfører mva. Hvis du vil bokføre i den lukkede mva-perioden, kan du åpne perioden på nytt ved å fjerne merket i feltet **Lukket**.  
 
-## <a name="tradesettlement-report"></a>Rapport for omsetningsoppgave
+## Rapport for omsetningsoppgave
 
 Før januar 2022 brukte du rapporten **Omsetningsoppgave** til å rapportere mva. Denne rapporten er ikke lenger beskrevet i denne artikkelen, men du kan lese om den i [Dynamics NAV 2016-dokumentasjonsarkivet](/previous-versions/dynamicsnav-2016/dn283106(v=nav.90)).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Norske mva-koder](norwegian-vat-codes.md)  
 [Forholdsmessig MVA](proportional-vat.md)  

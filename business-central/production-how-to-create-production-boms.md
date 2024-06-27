@@ -1,29 +1,30 @@
 ---
-title: Opprette produksjonsstykklister
+title: Opprett produksjonsstykklister
 description: 'Lær hvordan du oppretter en produksjonsstykkliste, nye versjoner av en produksjonsstykkliste, og hvordan du bruker antallsberegningsformelen.'
 author: brentholtorf
+ms.author: bholtorf
+ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'production bom, bills of material,'
 ms.search.form: '911, 912, 917, 9287, 99000786, 99000787, 99000788, 99000789, 99000795, 99000797, 99000800, 99000809, 99000811, 99000812, 99000818'
-ms.date: 06/22/2021
-ms.author: bholtorf
+ms.date: 05/29/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="create-production-boms"></a>Opprette produksjonsstykklister
+# Opprett produksjonsstykklister
 
-En produksjonsstykkliste inneholder hoveddata som beskriver komponenter og halvfabrikata som brukes i produksjonen av en overordnet vare. Når en produksjonsordre opprettes for den overordnede varen, styrer produksjonsstykklisten beregningen av materialbehovet slik det er representert på siden **Prod.ordrekomponenter**.
+En produksjonsstykkliste inneholder hoveddata som beskriver komponenter og halvfabrikata som brukes i produksjonen av en vare. Når du oppretter en produksjonsordre for en vare, styrer produksjonsstykklisten beregningen av materialbehovet slik det er representert på siden **Prod.ordrekomponenter**.
 
-[!INCLUDE[prod_short](includes/prod_short.md)] støtter også monteringsstykklister. Du bruker monteringsordrer for å produsere sluttvarer fra komponenter i en enkel prosess som kan utføres av én eller flere grunnleggende ressurser, som ikke er produksjonsressurser eller arbeidssentre, eller uten noen ressurser. En monteringsprosess kan for eksempel være å plukke to flasker vin og én kaffepose og deretter pakke dem som en gave. Hvis du vil ha mer informasjon, kan du se [Monteringsstykklister eller produksjonsstykklister](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
+[!INCLUDE[prod_short](includes/prod_short.md)] støtter også monteringsstykklister. Bruk monteringsordrer til å produsere sluttvarer fra komponenter i en prosess som kan utføres av én eller flere grunnleggende ressurser, som ikke er produksjonsressurser eller arbeidssentre. Eller en prosess som kan fullføres uten ressurser. En monteringsprosess kan for eksempel være å plukke to flasker vin og én kaffepose og deretter pakke dem som en gave. Hvis du vil ha mer informasjon, kan du se [Monteringsstykklister eller produksjonsstykklister](inventory-how-work-boms.md#assembly-boms-or-production-boms).  
 
 > [!TIP]
 > Appen **Contoso Coffee-demodata** omfatter demonstrasjonsprodukter for en rekke ulike produksjonsstykklistescenarioer som kan brukes i et testmiljø, inkludert under en prøveversjon. Lær hvordan du konfigurerer Contoso Coffee-data og finn gjennomganger for ulike scenarioer under [Innføring i Contoso Coffee-demodata](contoso-coffee/contoso-coffee-intro.md).
 
-Før du kan definere en rute, må følgende være på plass:  
+Før du kan definere en rute, må følgende oppsett være på plass:  
 
 - Varekort er opprettet for overordnede varer som inngår i produksjonen. Hvis du vil ha mer informasjon, kan du se [Registrere nye varer](inventory-how-register-new-items.md).
 - Produksjonsressurser er definert. Hvis du vil ha mer informasjon, kan du se [Konfigurere arbeidssentre og produksjonsressurser](production-how-to-set-up-work-and-machine-centers.md).
 
-## <a name="to-create-a-production-bom"></a>Slik oppretter du en produksjonsstykkliste
+## Slik oppretter du en produksjonsstykkliste
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Produksjonsstykklister**, og velg deretter den relaterte koblingen.  
 2. Velg handlingen **Ny**.  
@@ -47,16 +48,16 @@ Før du kan definere en rute, må følgende være på plass:
 > [!NOTE]  
 > [!INCLUDE [bom-standard-cost](includes/bom-standard-cost.md)] Hvis du vil beregne varens standardkost fra varekortet, velger du **Produksjon** og deretter **Beregn standardkost**.  
 
-## <a name="to-create-a-new-version-of-a-production-bom"></a>Slik oppretter du en ny versjon av en produksjonsstykkliste
+## Slik oppretter du en ny versjon av en produksjonsstykkliste
 
-Nye versjoner av produksjonsstykklister brukes for eksempel når en vare erstattes av en annen vare, eller når en kunde krever en spesialversjon av et produkt. Versjonsprinsippet gjør det mulig å håndtere flere versjoner av en produksjonsstykkliste. Strukturen i produksjonsstykklisteversjonen tilsvarer strukturen i produksjonsstykklistene. Hovedforskjellen ligger i versjonenes tidsgyldighet. Gyldigheten defineres av startdatoen.  
+Nye versjoner av produksjonsstykklister brukes for eksempel når en vare erstattes, eller når en kunde krever en spesialversjon av et produkt. Versjonsprinsippet gjør det mulig å håndtere flere versjoner av en produksjonsstykkliste. Strukturen i produksjonsstykklisteversjonen tilsvarer strukturen i produksjonsstykklistene. Hovedforskjellen ligger i versjonenes tidsgyldighet. Gyldigheten defineres av startdatoen.  
 
 Startdatoen angir starten på perioden som denne versjonen er gyldig i. I alle andre tilfeller er startdatoen et filterkriterium for beregninger og evalueringer. Stykklisteversjonen er gyldig til neste versjon blir gyldig.  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Produksjonsstykklister**, og velg deretter den relaterte koblingen.  
 2. Velg produksjonsstykklisten som skal kopieres, og velg deretter **Versjoner**-handlingen.  
 3. Velg handlingen **Ny**.  
-4. Fyll ut feltene etter behov.
+4. Fyll ut feltene etter behov. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 5. I feltet **Versjonskode** angir du versjonens unike identifikasjon. Alle kombinasjoner av tall og bokstaver er tillatt.  
 
     Den nye versjonen får automatisk statusen **Ny**.
@@ -71,13 +72,13 @@ Tidsgyldigheten for versjonen angis i feltet **Startdato**.
 >
 > Fantomproduksjonsstykklister skal strukturere produkter. Slike produksjonsstykklister fører aldri frem til ferdige produkter, men brukes bare til å bestemme det avhengige behovet. Fantomproduksjonsstykklister har ikke egne varehoveddata.
 
-## <a name="quantity-calculation-formula-on-production-boms"></a>Formelen for beregning av antallet på produksjonsstykklister
+## Formelen for beregning av antallet på produksjonsstykklister
 
 Antallet beregnes på bakgrunn av forskjellige dimensjoner som også er angitt på produksjonsstykklistelinjene. Dimensjonene viser til en ordreenhet av varen. Lengden, bredden, dybden og vekten kan angis som dimensjoner.  
 
 Kolonnene Beregningsformel, Lengde, Dybde, Høyde og Vekt vises ikke, fordi de bare brukes av noen brukere. Hvis du vil beregne antallet, må du først vise disse kolonnene.  
 
-Sammenhengen mellom de enkelte komponentene defineres av beregningsformelen. Følgende muligheter kan brukes som beregningsformel:  
+Sammenhengen mellom de enkelte komponentene defineres av beregningsformelen. Følgende alternativer kan brukes som beregningsformel:  
 
 - **Tom** - Det tas ikke hensyn til dimensjoner. (Antall = Antall per.)  
 - **Lengde** - Antall = Antall per * Lengde  
@@ -89,14 +90,16 @@ Sammenhengen mellom de enkelte komponentene defineres av beregningsformelen. Fø
 > [!NOTE]
 > Beregningsformelen **Fast antall** sørger for at forbruket av en komponent er den samme, uavhengig av svinn eller avgangsantallet. For produksjonsordrekomponenter, når feltet **Beregningsformel** er angitt til **Fast antall**, er feltet **Forventet antall** er alltid lik feltet **Antall per**. Svinnprosenten som er definert på samme linje, ignoreres. Fast antall blir respektert av rapporten **Tilgjengelighet etter stykkliste**. Rapporten vil vise varen som flaskehals hvis det tilgjengelige antallet er mindre enn antallet i feltet **Antall per overordnet**. Feltene **Kan lage overordnet** og **Kan lage toppvare** er alltid tomme uavhengig av tilgjengelighetsantallet. Fast antall er også inkludert i beregninger for standardkostnader. Partistørrelsen for den produserte varen påvirker kostnadene som er tildelt én vare.
 
-### <a name="example"></a>Eksempel
+### Eksempel
 
-En produksjonsstykkliste krever 70 metalldeler med dimensjonslengde = 0,20 m og bredde = 0,15 m. Verdiene angis slik: Beregningsformel = Lengde x Bredde, Lengde = 20, Bredde = 15, Antall per = 70. Antallet angis av Antall per x Lengde x Bredde, det vil si Antall = 70 x 0,20 m x 0,15 m = 2,1 m2.  
+En produksjonsstykkliste krever 70 metalldeler med dimensjonslengde = 0,20 m og bredde = 0,15 m. Angi verdiene slik: Beregningsformel = Lengde x Bredde, Lengde = 20, Bredde = 15, Antall per = 70.
 
-## <a name="see-also"></a>Se også
+Antall per x Lengde * Bredde, det vil si Antall = 70 x 0,20 m x 0,15 m = 2,1 m2, gir antallet.  
 
-[Opprette ruter](production-how-to-create-routings.md)  
-[Behandle produktvarianter](inventory-item-variants.md)  
+## Se også
+
+[Opprett ruter](production-how-to-create-routings.md)  
+[Administrer produktvarianter](inventory-item-variants.md)  
 [Gjennomgang: varianter](contoso-coffee/manufacturing/variants.md)  
 [Definere produksjon](production-configure-production-processes.md)  
 [Produksjon](production-manage-manufacturing.md)  

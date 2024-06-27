@@ -8,14 +8,15 @@ ms.search.keywords: null
 ms.date: 02/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
+ms.reviewer: bholtorf
 ---
-# <a name="print-the-picking-list"></a>Skriv ut plukklisten
+# Skriv ut plukklisten
 
 Du kan skrive ut en plukkliste for lager direkte fra en ordre og andre dokumenter som igangsetter leveringen av varer.
 
 Denne rapporten brukes vanligvis i selskaper uten egen funksjonalitet for lagerstyring, slik at en lagerarbeider kan vise eller skrive ut plukklisten fra det tilknyttede salgsdokumentet. I selskaper med høyere volum eller mer komplekse prosesser, planlegges levering og plukking og utføres i egne lagerdokumenter. Finn ut mer under [Utgående lagerflyt](design-details-outbound-warehouse-flow.md).
 
-## <a name="to-print-a-picking-list-from-a-sales-order"></a>Skrive ut en plukkliste fra en ordre
+## Skrive ut en plukkliste fra en ordre
 
 Følgende fremgangsmåte er basert på en ordre. Fremgangsmåten er de samme for alle andre dokumenter som kan brukes til å starte levering av varer, for eksempel en overføringsordre.
 
@@ -29,7 +30,7 @@ Du kan også lagre plukklisten som et dokument, for eksempel for å sende til no
 > [!NOTE]
 > Hvis du brukte **Utfold stykkliste**-funksjonen på ordren, vises bare komponentene for den tilknyttede monteringsvaren i rapporten. Finn ut mer under [Arbeid med stykklister](inventory-how-work-BOMs.md).
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Lager](inventory-manage-inventory.md)  
 [Utgående lagerflyt](design-details-outbound-warehouse-flow.md)
