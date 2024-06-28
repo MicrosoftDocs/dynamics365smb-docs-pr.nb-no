@@ -12,7 +12,7 @@ ms.date: 06/10/2024
 ms.custom: bap-template
 ---
 
-# Tildel e-dokumenter til bestillingslinjer med Copilot (forhåndsversjon)
+# <a name="map-e-documents-to-purchase-order-lines-with-copilot-preview"></a>Tildel e-dokumenter til bestillingslinjer med Copilot (forhåndsversjon)
 
 Etter hvert som innkjøpsprosessene blir mer digitale, spiller funksjonen for e-dokumenter i Business Central en nøkkelrolle i automatiseringen av mottak og behandling av leverandørfakturaer. Copilot kan hjelpe denne prosessen ved å forbedre tildelingen og samsvaret av leverandørfakturaer mot bestillinger. Denne assistansen reduserer tiden som brukes på oppgaver som normalt ville inkludere omfattende søk, oppslag og dataregistrering. En annen fordel er når leverandørfakturaer ikke er nøyaktig relatert til bestillinger. I så fall er Copilot godt posisjonert til å identifisere de tilsvarende bestillingene. Forbedrede samsvarsfunksjoner er spesielt til fordel for små og mellomstore organisasjoner som trenger effektiv dokumentsporing for bestillingslinjer. Copilot er den KI-drevne assistenten for arbeid som øker kreativiteten og forbedrer produktiviteten for Business Central-brukere.
 
@@ -25,11 +25,11 @@ I den første utgivelsen appen for **e-dokumenter** introduserte vi grunnleggend
 
 Du kan nå oppdatere en eksisterende bestilling i Business Central med informasjonen som mottas i e-fakturaen.
 
-## Tilgjengelige språk
+## <a name="available-languages"></a>Tilgjengelige språk
 
 [!INCLUDE[e-docs-matching-language-support](includes/e-docs-matching-language-support.md)]
 
-## Aktiver Copilot  
+## <a name="activate-copilot"></a>Aktiver Copilot
 
 Hvis du ikke aktiverte Copilot for **samsvarshjelp for e-dokument**, må du gjøre det manuelt. Følg denne fremgangsmåten for å aktivere kopiloten **Samsvarshjelp for e-dokument**: 
 
@@ -38,7 +38,7 @@ Hvis du ikke aktiverte Copilot for **samsvarshjelp for e-dokument**, må du gjø
 
 Du kan begynne å bruke Copilot så snart du har aktivert den. 
 
-## Identifiser bestillinger
+## <a name="identify-purchase-orders"></a>Identifiser bestillinger
 
 Først kan du identifisere bestillingene som du kan samsvare automatisk. Hvis **leverandøren** har konfigurert feltet **Motta e-dokument til** til å fungere med **bestillinger**, og når det elektroniske dokumentet er opprettet i [!INCLUDE[prod_short](includes/prod_short.md)] (manuelt eller fra et eksternt endepunkt), gjør [!INCLUDE[prod_short](includes/prod_short.md)] følgende:
 
@@ -46,7 +46,7 @@ Først kan du identifisere bestillingene som du kan samsvare automatisk. Hvis **
 Denne koblingen er synlig i **Dokument**-feltet i dette spesifikke **e-dokumentet**. Hvis du må endre **bestillingen** som er koblet automatisk, kan du gjøre det ved å bruke handlingen **Oppdater bestillingskobling** og deretter velge manuelt en av de eksisterende bestillingene for denne leverandøren. Du kan bare gjøre dette før du samsvarer linjene mellom **e-dokument** og **bestilling**.  
 2. Hvis **bestillingen** for denne bestemte leverandøren *finnes, men det ikke finnes et bestillingsnummer* i mottatt **e-dokumentfil**, hvis du lastet opp dette dokumentet manuelt, tillater [!INCLUDE[prod_short](includes/prod_short.md)] deg å velge fra en av de eksisterende bestillingene, noe som åpner listen **Bestillinger** fra ordrene du fikk fra leverandører som bare inneholder **e-dokumentet**, der du må velge **bestillingen** du vil bruke, og velge **OK**. Hvis du ikke velger riktig **bestilling** eller du fikk **e-dokumentet** automatisk fra et eksternt endepunkt ved hjelp av **prosjektkøen**, kobles ikke det nye **e-dokumentet** til et kjøpsdokument, og **dokumentstatusen** vises som **Feil**, og **e-dokumentstatusen** på undersiden **Servicestatus** er **Feil ved behandling av importert dokument**. Når du skal fullføre tilknytningen til **bestillingen**, velger du handlingen **Oppdater bestillingskobling** og velger deretter en av de eksisterende bestillingene for denne leverandøren.  
 
-## Tildel linjer
+## <a name="map-lines"></a>Tildel linjer
 
 Copilot hjelper deg med å samsvare e-fakturalinjer med bestillingslinjer automatisk, og tilbyr ekstra samsvarende intelligens for å forbedre treffene.
 
@@ -100,7 +100,7 @@ Når du vil kjøre samsvar fra bestillingen, velger du handlingen **Tildel e-dok
 > [!NOTE]
 > Pris-/kostanalyse, og kontrollen for tilgjengelig antall er en del av forhåndsbehandlingsaktiviteten. 
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Oversikt over e-dokumenter](finance-edocuments-overview.md)    
 [Bruk e-dokumenter i salg](finance-how-use-edocuments.md)    
