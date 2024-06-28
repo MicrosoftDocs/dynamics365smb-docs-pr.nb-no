@@ -8,10 +8,8 @@ ms.search.keywords: 'privacy, trial, Microsoft services'
 ms.date: 04/14/2024
 ms.author: jswymer
 ms.reviewer: jswymer
-ms.collection:
-  - bap-ai-copilot
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Prøvefunksjoner som kobles til andre Microsoft-tjenester
+# Prøvefunksjoner som kobles til andre Microsoft-tjenester 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] er en omfattende løsning for forretningsstyring som er dypt integrert med Microsoft 365-produktivitetsapper og Power Platform. Prøveversjonen av Business Central kan kobles til mange ulike Microsoft-tjenester som du først må konfigurere og aktivere. For å få mest mulig ut av prøveversjonen er noen av disse funksjonene automatisk aktivert. Selv om tilkoblingen fra [!INCLUDE[prod_short](includes/prod_short.md)] er aktivert, er ikke disse tjenestene inkludert i prøveversjonen, og de må kjøpes separat med mindre du allerede har gjort det.
 
