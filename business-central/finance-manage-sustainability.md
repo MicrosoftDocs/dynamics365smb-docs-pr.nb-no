@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Oversikt over bærekraftsadministrasjon
+# <a name="sustainability-management-overview"></a>Oversikt over bærekraftsadministrasjon
 
 > [!IMPORTANT]
 > Denne funksjonen blir tilgjengelig i Business Central fra **lanseringsbølge 1 i 2024**. Alle referansekoblinger aktiveres etter at de er tilgjengelige.
@@ -49,7 +49,7 @@ Bruk følgende artikler for å komme i gang med bærekraftsadministrasjon.
 | **Integreringer** |             |
 | [API for bærekraft](/dynamics365/business-central/dev-itpro/api-sustainability/sustainability-api?toc=/dynamics365/business-central/toc.json) | Bruk denne artikkelen til å finne ut hvordan du oppretter tilkoblede apper som etablerer en punkt-til-punkt-tilkobling mellom Business Central og bærekraftsløsninger eller -tjenester fra andre leverandører enn Microsoft ved hjelp av API-er. |
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Bærekraftsoppsett](finance-sustainability-setup.md)    
 [Bærekraftskontoplan og -post](finance-sustainability-accounts-ledger.md)    
