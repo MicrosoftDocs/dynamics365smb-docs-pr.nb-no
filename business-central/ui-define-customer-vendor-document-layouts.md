@@ -37,7 +37,7 @@ Hvis du ikke allerede har opprettet et egendefinert rapportoppsett for dokumentt
 3. På siden **Dokumentoppsett**, på linjen for et rapportoppsett som du vil bruke et egendefinert oppsett for, velger du feltet **Beskrivelse av egendefinert oppsett**.
 4. På siden **Egendefinerte rapportoppsett** velger du dokumentoppsettet du vil bruke for salgsdokumenttypen. Hvis du vil ha mer informasjon, kan du se [Opprette og endre et egendefinert rapportoppsett](ui-how-create-custom-report-layout.md).
 
-## <a name="to-specify-which-contact-will-receive-which-document-layout-for-a-customer"></a>Slik angir du hvilken kontakt som mottar et dokumentoppsett for en kunde
+## <a name="to-specify-which-contact-receives-which-document-layout-for-a-customer"></a>Slik angir du hvilken kontakt som mottar et dokumentoppsett for en kunde
 
 Hvis du vil spare tid når du sender dokumenter til kunde- og leverandørkontakter via e-post, angir du e-postadressene i dokumentoppsett. Du kan for eksempel alltid sende kundeutdrag til regnskapskontaktene og salgsordrene til innkjøperne, eller bestillinger til leverandørselgere.
 

@@ -25,7 +25,7 @@ Når betalinger er behandlet, som formidlet av banken din, kan du bokføre kvitt
 > [!NOTE]  
 > Hvis du vil innkreve betalinger ved hjelp av SEPA Direct Debit, må valutaen på salgsfakturaen være EURO.  
 
-## <a name="setting-up-sepa-direct-debit"></a>Definere SEPA Direct Debit
+## <a name="how-to-set-up-sepa-direct-debit"></a>Definere SEPA Direct Debit
 
 Fra siden **Direct Debit-oppkrevinger** kan du eksportere instruksjoner til den elektroniske banken for å utføre en direct debit-oppkreving fra kundens bankkonto til din bankkonto i samsvar med SEPA Direct Debit-formatet.
 
