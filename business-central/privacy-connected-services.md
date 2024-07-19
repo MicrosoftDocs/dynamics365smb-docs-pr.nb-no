@@ -9,7 +9,7 @@ ms.date: 04/14/2024
 ms.author: jswymer
 ms.reviewer: jswymer
 ---
-# <a name="trial-features-that-connect-to-other-microsoft-services"></a>Prøvefunksjoner som kobles til andre Microsoft-tjenester
+# Prøvefunksjoner som kobles til andre Microsoft-tjenester 
 
 [!INCLUDE[prod_long](includes/prod_long.md)] er en omfattende løsning for forretningsstyring som er dypt integrert med Microsoft 365-produktivitetsapper og Power Platform. Prøveversjonen av Business Central kan kobles til mange ulike Microsoft-tjenester som du først må konfigurere og aktivere. For å få mest mulig ut av prøveversjonen er noen av disse funksjonene automatisk aktivert. Selv om tilkoblingen fra [!INCLUDE[prod_short](includes/prod_short.md)] er aktivert, er ikke disse tjenestene inkludert i prøveversjonen, og de må kjøpes separat med mindre du allerede har gjort det.
 
@@ -28,7 +28,7 @@ Tabellen nedenfor angir tilkoblingene til Microsoft-tjenester som aktiveres auto
 > - Du samtykker i at dataene deles med denne Microsoft-tjenesten. Hvis organisasjonen har distribuert disse tjenestene i et annet land eller område, kan tilkobling til tjenesten føre til kryssing av datalagringsgrenser. Kontroller at du bekrefter organisasjonens policyer og krav til offentlig samsvar for datalagring før du går videre med å bruke disse funksjonene. 
 > - Du kan påvirke tjenester som ikke er prøveversjoner. Hvis disse tjenestene brukes i produksjonen av organisasjonen og ikke evalueres sammen med Business Central, kan andre brukere av disse tjenestene som ikke deltar i denne prøveversjonen av [!INCLUDE[prod_short](includes/prod_short.md)], bli påvirket.
 > - [!INCLUDE[prod_short](includes/prod_short.md)] kan også kobles til Microsoft-tjenester eller tredjepartstjenester, avhengig av tilpasningene og tilleggene du eller administratoren har installert i [!INCLUDE[prod_short](includes/prod_short.md)]-prøveversjonen. Hvis du vil ha informasjon om hvordan utvidelsene behandler dataene, kontakter du utvidelsesutvikleren eller følger personvernkoblingen for utvidelsen på AppSource.
-> - For funksjoner i forhåndsversjon må du samtykke i [vilkårene for forhåndsversjon](https://powerplatform.microsoft.com/en-us/legaldocs/supp-powerplatform-preview/?wt.mc_id=power-virtual-agents_inproduct).
+> - Når det gjelder funksjoner i forhåndsversjon, samtykker du i forhåndsversjon [vilkårene](https://go.microsoft.com/fwlink/?linkid=2189520).
 
 Personvern er viktig for oss. Hvis du vil finne ut mer om hvordan Microsoft håndterer opplysningene dine, kan du se [Microsofts personvernerklæring](https://go.microsoft.com/fwlink/?linkid=521839).
 
