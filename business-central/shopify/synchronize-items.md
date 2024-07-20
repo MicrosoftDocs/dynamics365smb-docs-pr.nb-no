@@ -7,15 +7,14 @@ ms.search.form: '30116, 30117, 30126, 30127,'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
-ms.collection:
-  - bap-ai-copilot
+ms.custom: bap-template
 ---
 
 # Synkroniser varer og lager
 
-**Varene** i [!INCLUDE[prod_short](../includes/prod_short.md)] tilsvarer *produktene* i Shopify, som inkluderer fysiske varer, digitale nedlastinger, tjenester og gavekort du selger. Det er to hovedgrunner til å synkronisere varer:
+**Varer** i [!INCLUDE[prod_short](../includes/prod_short.md)] tilsvarer **produkter** i Shopify. De er de fysiske varene, digitale nedlastingene, tjenestene og gavekortene du selger. Det er to hovedgrunner til å synkronisere varer:
 
-1. Databehandling skjer først og fremst i [!INCLUDE[prod_short](../includes/prod_short.md)]. Du må eksportere alle eller noen data derfra til Shopify og gjøre dem synlige. Du kan eksportere varenavn, beskrivelse, bilde, priser, tilgjengelighet, varianter, leverandørdetaljer og strekkode. Når du har eksportert, kan du se gjennom varene eller gjøre dem synlige umiddelbart.
+1. Når du primært håndterer data i [!INCLUDE[prod_short](../includes/prod_short.md)]. Du må eksportere alle eller noen data derfra til Shopify og gjøre dem synlige. Du kan eksportere varenavn, beskrivelse, bilde, priser, tilgjengelighet, varianter, leverandørdetaljer og strekkode. Når du har eksportert, kan du se gjennom varene eller gjøre dem synlige umiddelbart.
 2. Når en ordre fra Shopify importeres, er informasjonen om varer viktig for ytterligere behandling av dokumentbehandling i [!INCLUDE[prod_short](../includes/prod_short.md)].
 
 De to foregående scenarioene er alltid aktivert.
@@ -44,10 +43,10 @@ Først importerer du fra Shopify samtidig eller sammen med ordrer for å legge d
 
 |Felt|Beskrivelse|
 |------|-----------|
-|**Opprett ukjente varer automatisk**|Når Shopify-produkter og -varianter importeres til [!INCLUDE[prod_short](../includes/prod_short.md)], prøver [!INCLUDE[prod_short](../includes/prod_short.md)]-funksjonen alltid å finne tilsvarende post i varelisten. **SKU-tildeling** påvirker hvordan samsvaret utføres og oppretter en ny vare eller varevariant. Aktiver dette alternativet hvis du vil opprette en ny vare eller når det ikke finnes en samsvarende post. Den nye varen opprettes ved hjelp av importerte data og **varemalkode**. Hvis dette alternativet ikke er aktivert, må du opprette en vare manuelt og bruke **Produkttildeling**-handlingen på siden **Shopify-produkter**.|
+|**Opprett ukjente varer automatisk**|Når Shopify-produkter og -varianter importeres til [!INCLUDE[prod_short](../includes/prod_short.md)], prøver [!INCLUDE[prod_short](../includes/prod_short.md)]-funksjonen alltid å finne tilsvarende post i varelisten. **SKU-tildeling** påvirker hvordan samsvaret utføres og oppretter en ny vare eller varevariant. Aktiver dette alternativet hvis du vil opprette en ny vare eller når det ikke finnes en samsvarende post. Den nye varen opprettes ved hjelp av importerte data og **varemalkode**. Hvis dette alternativet ikke er aktivert, oppretter du en vare manuelt og bruker **Produkttildeling**-handlingen på siden **Shopify-produkter**.|
 |**Varemalkode**|Bruk dette feltet med vekslebryteren **Opprett ukjente varer automatisk**.<br>Velg malen du vil bruke for automatisk opprettede varer.|
 |**SKU-tilordning**|Velg hvordan du vil bruke **SKU**-verdien som er importert fra Shopify, under vare/variant-tildeling og -oppretting. Finn ut mer i delen [Effekten av SKU-er og strekkoder for Shopify-produkt på tildeling og oppretting av varer og varianter i Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).|
-|**SKU-skilletegn**|Bruk dette feltet med **SKU-tilordning** angitt til alternativet **[Varenr. + variantkode](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Definer et skilletegn som skal brukes til å dele SKU-en.<br>Hvis du oppretter varianten med SKU-en 1000/001 i Shopify, skriver du inn / i feltet **SKU-skilletegn** for å hente varenummeret i [!INCLUDE[prod_short](../includes/prod_short.md)] som 1000 og varevariantkoden som 001. Merk at hvis du oppretter varianten med lagerføringsenheten 1000/001/111 i Shopify, er varenummeret i [!INCLUDE[prod_short](../includes/prod_short.md)] 1000 og varevariantkoden 001. Delen 111 ignoreres. |
+|**SKU-skilletegn**|Bruk dette feltet med **SKU-tilordning** angitt til alternativet **[Varenr. + variantkode](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central)**.<br>Definer et skilletegn som skal brukes til å dele SKU-en.<br>Hvis du oppretter varianten med SKU-en 1000/001 i Shopify, skriver du inn / i feltet **SKU-skilletegn** for å hente varenummeret i [!INCLUDE[prod_short](../includes/prod_short.md)] som 1000 og varevariantkoden som 001. Hvis du oppretter varianten med lagerføringsenheten 1000/001/111 i Shopify, er varenummeret i [!INCLUDE[prod_short](../includes/prod_short.md)] 1000 og varevariantkoden 001. Delen 111 ignoreres. |
 |**Variantprefiks**|Bruk sammen med **SKU-tildeling** satt til **Variantkode** eller alternativene **Varenr. + variantkode** som en reservefunksjon når SKU-en som kommer fra Shopify, er tom.<br>Hvis du vil opprette varevarianten i [!INCLUDE[prod_short](../includes/prod_short.md)] automatisk, må du angi en verdi i **Kode**. Som standard brukes verdien som er definert i SKU-feltet som ble importert fra Shopify. Hvis SKU er tom, vil det imidlertid generere en kode som begynner med definert variantprefiks og 001.|
 |**Shopify kan oppdatere vare**|Velg dette alternativet hvis du vil oppdatere varer eller varianter automatisk.|
 |**Enhet som variant**| Velg dette alternativet hvis du vil at alle målenheter for varer skal eksporteres som separate varianter. Tilpass siden for å legge til feltet. Finn ut mer i delen [Målenhet som variant](synchronize-items.md#unit-of-measure-as-variant).|
@@ -62,6 +61,8 @@ Det er flere måter å eksportere varer til Shopify på:
 * Kjør varesynkronisering én gang eller flere ganger med automatisering.
 
 Uansett hvordan du eksporterer varer, blir spesifikk vareinformasjon overført til Shopify-produktlisten avhengig av ditt valg av innstillinger for varesynkronisering.
+
+Før en vare eksporteres til Shopify, kontrollerer koblingen om det allerede finnes en vare. Først sjekker den om det er et produkt eller en variant med strekkode, fordi det er definert i **Varereferanser**-oppføringen av en strekkodetype. Hvis feltet **SKU-tilordning** er fylt ut, kontrollerer koblingen om det er et produkt eller en variant med SKU-en fylt ut. Finn ut mer ved å gå til [Effekten av Shopify-produkt-SKU-er og strekkoder for på tildeling og oppretting av varer og varianter i Business Central](synchronize-items.md#effect-of-shopify-product-skus-and-barcodes-on-mapping-and-creating-items-and-variants-in-business-central).
 
 > [!IMPORTANT]
 > Produktet blir bare lagt til i salgskanalen **Nettbutikk**. Du må publisere produkter til andre salgskanaler, for eksempel Shopify-salgsstedet, fra Shopify.
@@ -117,7 +118,7 @@ Tabellen nedenfor gir en oversikt over innvirkningen til feltet **Strekkode**.
 |------|-----------------|-----------------|
 |Status|I henhold til feltet **Status for opprettede produkter** på **Shopify-butikkortet**. Finn ut mer i delen [Ad hoc-oppdateringer av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Ikke i bruk.|
 |Tittel | **Beskrivelse**. Hvis språkkoden er definert og en tilsvarende vareoversettelse eksisterer, blir vareoversettelse brukt i stedet for beskrivelse.|**Beskrivelse**|
-|Varianttittel | **Variantkode**.|**Beskrivelse** av variant|
+|Varianttittel | **Variantkode**.<br>Grunnen til bruken av **Kode** og ikke **Beskrivelse** er at Shopify krever unike varianttitler per produkt. I [!INCLUDE[prod_short](../includes/prod_short.md)] er **Kode** unik, mens **Beskrivelse** er ikke det. Ikke-unike beskrivelser vil føre til problemer under produkteksport.|**Beskrivelse** av variant|
 |Description|Kombinerer utvidede tekster, markedsføringstekst og attributter hvis du aktiverte tilsvarende vekslebrytere på Shopify-butikkortet. Overholder språkkode.|Ikke i bruk.|
 |SEO-sidetittel|Fast verdi: tom. Finn ut mer i delen [Ad hoc-oppdateringer av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Ikke i bruk.|
 |SEO-metabeskrivelse|Fast verdi: tom. Finn ut mer i delen [Ad hoc-oppdateringer av Shopify-produkter](synchronize-items.md#ad-hoc-updates-of-shopify-products).|Ikke i bruk.|
@@ -151,9 +152,9 @@ Hvis du vil aktivere denne funksjonen, bruker du feltene **Målenhet som variant
 
 **Merknader om Målenhet som variant**
 
-* Når produktet importeres til [!INCLUDE[prod_short](../includes/prod_short.md)], oppretter koblingen målenheter. Du må oppdatere **Antall per målenhet**.
-* Når du arbeider med en matrise av varianter, for eksempel Farge og Målenhet, og du vil importere produkter, må du angi *Varenr. + variantkode* i feltet **SKU-tilordning** og kontrollere at **SKU**-feltet i Shopify har den samme verdien for alle målenheter som inkluderer både varenummer og variantkode.
-* I [!INCLUDE[prod_short](../includes/prod_short.md)] beregnes tilgjengelighet per vare/varevariant og ikke per målenhet. Dette betyr at samme tilgjengelighet vil bli tilordnet hver variant som representerer målenhet (med hensyn til **Antall per målenhet**), noe som kan føre til tilfeller der tilgjengelig antall i Shopify ikke er nøyaktig. Eksempel: Vare som selges stykkevis og i en eske med seks. Beholdningen i [!INCLUDE[prod_short](../includes/prod_short.md)] er 6 stk. Vare eksportert til Shopify som produkt med to varianter. Når lagersynkronisering er utført, vil lagernivået i Shopify være 6 for varianten stk. og 1 for varianten boks. Kjøperen kan utforske bare butikken og se at produktet er tilgjengelig i begge alternativer og legge inn bestilling for 1 boks. Den neste kjøperen vil se at boks ikke er tilgjengelig, men det er fortsatt 6 stk. Dette vil bli løst etter neste lagersynkronisering.
+* Når du arbeider med en matrise av varianter, for eksempel Farge og Målenhet, og du vil importere produkter til [!INCLUDE[prod_short](../includes/prod_short.md)], må du angi *Varenr. + variantkode* i feltet **SKU-tilordning** og kontrollere at **SKU**-feltet i Shopify har den samme verdien for alle målenheter som inkluderer både varenummer og variantkode.
+* I [!INCLUDE[prod_short](../includes/prod_short.md)] beregnes tilgjengelighet per vare/varevariant og ikke per målenhet. Dette betyr at samme tilgjengelighet vil bli tilordnet hver variant som representerer målenhet (med hensyn til **Antall per målenhet**), noe som kan føre til tilfeller der tilgjengelig antall i Shopify ikke er nøyaktig. Eksempel: Vare som selges stykkevis og i en eske med seks. Beholdningen i [!INCLUDE[prod_short](../includes/prod_short.md)] er 6 stk. Vare eksportert til Shopify som Produkt med to varianter. Når lagersynkronisering er utført, vil lagernivået i Shopify være 6 for varianten stk. og 1 for varianten boks. Kjøperen kan utforske bare butikken og se at produktet er tilgjengelig i begge alternativer og legge inn bestilling for 1 boks. Den neste kjøperen vil se at boks ikke er tilgjengelig, men det er fortsatt 6 stk. Dette vil bli løst etter neste lagersynkronisering.
+* Du kan ikke legge til enhetsalternativet for eksisterende produkter med varianter (det spesifikke resultatet avhenger av en annen innstilling, for eksempel **SKU-tildeling**).
 
 ### Nettadresse og nettadresse for forhåndsvisning
 
@@ -306,6 +307,14 @@ Det finnes 10 stykker av varen A tilgjengelig på lager og to utestående ordrer
 |------|-----------------|-----------------|
 |Tirsdag|9|Lager 10 minus ordre angitt til forsendelse på mandag|
 |Fredag|7|Lager 10 minus begge ordrer|
+
+####  Eksempel på beregning av gratis beholdning (ikke reservert)
+
+Det finnes 10 stykker av varen A tilgjengelig på lager og tre utestående ordrer. Én ordre med antall *1* reservert fra varepost, én med antall *2* som ikke er reservert, og én med antall *3* reservert fra en bestilling. For denne metoden er ikke synkroniseringsdatoen viktig.
+
+|Verdi som brukes til å oppdatere lagernivå|Merknad|
+|-----------------|-----------------|
+|9|Beholdning 10 minus ordren med reservert beholdning fra varepost. Andre ordrer ignoreres.|
 
 ### To tilnærminger for å administrere oppfyllelser
 

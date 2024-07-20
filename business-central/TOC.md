@@ -2125,8 +2125,9 @@ ms.service: dynamics-365-business-central
 ## Tildel e-dokumenter (forhåndsversjon)
 ### [Tildel e-dokumenter til bestillingslinjer med Copilot](map-edocuments-with-copilot.md)
 ### [Vanlige spørsmål om å tildele e-dokumenter med bestillinger ved hjelp av Copilot](faqs-map-edocuments.md)
-# Ansvarlig kunstig intelligens
+# Ansvarlig KI
 ## [Oversikt](responsible-ai-overview.md)
+## [Vanlige spørsmål om datasikkerhet og personvern når Copilot brukes](/dynamics365/faqs-copilot-data-security-privacy?toc=/dynamics365/business-central/toc.json)
 ## [Vanlige spørsmål om analysehjelp (forhåndsversjon)](faqs-analysis-assist.md)
 ## [Vanlige spørsmål om bankkontoavstemmingshjelp (forhåndsversjon)](faqs-bank-reconciliation.md)
 ## [Vanlige spørsmål om nettprat med Copilot (forhåndsversjon)](faqs-chat-with-copilot.md)
