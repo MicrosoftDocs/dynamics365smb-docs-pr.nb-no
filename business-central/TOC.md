@@ -930,10 +930,11 @@ ms.service: dynamics-365-business-central
 ##### [Mva-kontrollrapport](LocalFunctionality/Czech/vat-control-report.md)
 ##### [Mva-rapporter](LocalFunctionality/Czech/vat-reports-cz.md)
 ##### [Mva-korrigering i lokal valuta](LocalFunctionality/Czech/how-to-setup-vat-correction-local-currency.md)
+##### [Ikke-fradragsberettiget mva.](LocalFunctionality/Czech/non-deductible-VAT.md)
 ##### [Intrastat](LocalFunctionality/Czech/intrastat.md)
 ##### [Intrastat for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-intrastat-localization-cz.md)
 #### Aktiva
-##### [Aktivalokalisering for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
+##### [Lokalisering av aktiva for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-fixed-asset-localization-cz.md)
 #### Banktjenester og betalinger
 ##### [Lokalisering av bankdokumenter for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-banking-documents-localization-cz.md)
 ##### [Lokalisering av kontant for tsjekkisk (utvidelse)](LocalFunctionality/Czech/ui-extensions-cash-desk-localization-cz.md)
@@ -1587,7 +1588,7 @@ ms.service: dynamics-365-business-central
 #### [Lokale funksjoner i amerikansk versjon](LocalFunctionality/UnitedStates/united-states-local-functionality.md)
 #### Avgift
 ##### [Grunnleggende avgiftsoppsett](LocalFunctionality/UnitedStates/us-tax-setup.md)  
-##### [Rapportering av mva. i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
+##### [Merverdiavgift i USA](LocalFunctionality/UnitedStates/us-sales-tax.md)
 ##### [Innføring i IRS 1099-skjemaene og tilhørende funksjonalitet](LocalFunctionality/UnitedStates/introduction-to-the-irs-forms.md)
 ##### [Konfigurer og bruk IRS 1099-skjemaet for versjon 24 (lanseringsbølge 1 i 2024)](LocalFunctionality/UnitedStates/set-up-use-irs1099-form-v24.md)
 #### [Bruk IRS 1099-skjemaene](LocalFunctionality/UnitedStates/how-to-1099-use.md)
