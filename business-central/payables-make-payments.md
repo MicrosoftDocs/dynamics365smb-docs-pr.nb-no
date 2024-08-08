@@ -11,7 +11,7 @@ ms.date: 05/24/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="making-payments"></a>Utføre betalinger
+# <a name="make-payments"></a>Utføre betalinger
 
 Du betaler leverandører eller kunder eller refusjoner til de ansatte ved å bokføre betalingslinjer på siden **Betalingskladd**. Utbetalingskladden er en finanskladd som er tilpasset for betalinger, med mange avanserte handlinger. Eksempler på dette er handlingen **Betalingsforslag – leverandør**, som finner leverandørbetalinger som har forfalt, og rapporten **Leverandør – forfallsoversikt**, som viser en oversikt over forfalte leverandørbetalinger.  
 

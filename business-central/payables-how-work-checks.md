@@ -50,7 +50,7 @@ Fullstendig utlignede leverandørposter og bankposter opprettes.
 > [!NOTE]  
 > Hvis du vil skrive ut og betale sjekker i flere valutaer fra forskjellige bankkonti, må du utføre kjørselen **Skriv ut sjekk** separat for hver enkelt valuta og angi riktig bankkonto.
 
-## <a name="to-cancel-printed-checks-that-are-not-posted"></a>Kansellere utskrevne sjekker som ikke er bokført
+## <a name="to-cancel-printed-checks-that-arent-posted"></a>Kansellere utskrevne sjekker som ikke er bokført
 
 Du kan kansellere ikke-bokførte sjekker etter at de er skrevet ut, ved hjelp av handlingen **Kanseller sjekk** på siden **Betalingskladd**.
 
