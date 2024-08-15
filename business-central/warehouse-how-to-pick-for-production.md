@@ -10,7 +10,7 @@ ms.date: 12/16/2022
 ms.custom: bap-template
 ms.search.forms: '9330, 931, 990008, 89, 900, 902'
 ---
-# <a name="pick-for-production-assembly-or-jobs-in-basic-warehouse-configurations"></a>Plukke for produksjon, montering eller jobber i enkle lageroppsett
+# <a name="pick-for-production-assembly-or-projects-in-basic-warehouse-configurations"></a>Plukke for produksjon, montering eller jobber i enkle lageroppsett
 
 Hvordan du plukker komponenter for produksjon, jobber eller monteringsordrer avhenger av hvordan lageret er definert som lokasjon. Finn ut mer under [Definer lagerstyring](warehouse-setup-warehouse.md).
 

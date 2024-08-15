@@ -22,7 +22,7 @@ Standardkost kan vedlikeholdes for varer som etterfylles gjennom kjøp, monterin
 |**Montering**|Direkte materialkostnader, direkte eller faste arbeidskostnader og indirekte kostnader.|  
 |**Prod.ordre**|Direkte materialkostnader, arbeidskostnader, underleverandørkostnader og indirekte kostnader.|  
 
-## <a name="setting-up-standard-costs"></a>Definere standardkostnader
+## <a name="set-up-standard-costs"></a>Definere standardkostnader
 
 Siden standardkostbeløpet for en produsert eller montert vare kan bestå av flere kostelementer, inkludert materialkost, kapasitetskost (arbeid) og direkte og indirekte underleverandørkost, må standardkost opprettes for hvert av disse elementene.  
 
@@ -88,7 +88,7 @@ Underleverandørkost er kost som er knyttet til tjenester som leveres av et sels
 
 Siden underleveranse er en utkontrahert kapasitet, definerer du kostnaden for både direkte og indirekte underleveransetjenester på arbeidssenterkortet som representerer underleveranseoperasjonen.  
 
-## <a name="updating-standard-costs"></a>Oppdatere standardkostnader
+## <a name="update-standard-costs"></a>Oppdatere standardkostnader
 
 Hvis du vil oppdatere eller beregne standardkost for monteringsvarer, bruker du funksjonen fra varekortet.  
 

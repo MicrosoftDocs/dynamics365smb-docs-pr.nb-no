@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="analyzing-cash-flow-in-your-company"></a>Analysere kontantstrømmen i firmaet
+# <a name="analyze-cash-flow-in-your-company"></a>Analysere kontantstrømmen i firmaet
 Diagrammer i rollesenteret regnskapsfører gir innsikt som kan hjelpe deg med å gjøre solid avgjørelser om hva du skal gjøre med din kontanter.  
 
 | Svare på spørsmål som disse | Bruk dette diagrammet |

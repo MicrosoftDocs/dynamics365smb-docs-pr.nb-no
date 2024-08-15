@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# Foreta betalinger med utvidelsen AMC banking 365 fundamentals eller SEPA-kredittoverføring
+# <a name="make-payments-with-the-amc-banking-365-fundamentals-extension-or-sepa-credit-transfer"></a>Foreta betalinger med utvidelsen AMC banking 365 fundamentals eller SEPA-kredittoverføring
 
 På **siden Utbetalingskladder** kan du behandle betalinger til leverandørene ved å eksportere en fil sammen med betalingsinformasjonen fra kladdelinjene. Du kan deretter laste opp filen til nettbanken der de relaterte pengeoverføringene behandles. [!INCLUDE[prod_short](includes/prod_short.md)] støtter SEPA-kredittoverføringsformatet, men i landet/området ditt kan andre formater for elektroniske betalinger være tilgjengelige.
 
@@ -23,11 +23,11 @@ På **siden Utbetalingskladder** kan du behandle betalinger til leverandørene v
 > [!NOTE]  
 > Når du har bekreftet at betalingene er behandlet av banken, kan du begynne å bokføre utbetalingskladdelinjene.  
 
-## Konfigurere AMC Banking 365 Fundamentals-utvidelsen
+## <a name="setting-up-the-amc-banking-365-fundamentals-extension"></a>Konfigurere AMC Banking 365 Fundamentals-utvidelsen
 
 Aktiver utvidelsen AMC Banking 365 Fundamentals for å konvertere en kontoutdragsfil til et format du kan importere, eller konvertere den eksporterte betalingsfilen til formatet som banken krever. Hvis du vil ha mer informasjon, kan du se [Bruk AMC Banking 365 Fundamentals-utvidelsen](ui-extensions-amc-banking.md).
 
-## Definere SEPA-kredittoverføring
+## <a name="setting-up-sepa-credit-transfer"></a>Definere SEPA-kredittoverføring
 
 Fra **siden Betalingskladder kan du eksportere betalinger** til en fil for opplasting til den elektroniske banken for behandling av de tilknyttede pengeoverføringene. [!INCLUDE[prod_short](includes/prod_short.md)] støtter SEPA-kredittoverføringsformatet, men i landet/området ditt kan andre formater for elektroniske betalinger være tilgjengelige.  
 
@@ -45,7 +45,7 @@ Før du kan behandle betalingen elektronisk ved å eksportere betalingsfiler i f
 > [!TIP]
 > Denne artikkelen gjelder den generelle versjonen av [!INCLUDE [prod_short](includes/prod_short.md)]. I ditt land eller din region kan flere nødvendige felt ha blitt lagt til på de ulike sidene. [!INCLUDE [tooltip-inline-tip_md](includes/tooltip-inline-tip_md.md)]
 
-### Slik oppretter du en bankkonto for SEPA-kredittoverføring:
+### <a name="to-set-up-a-bank-account-for-sepa-credit-transfer"></a>Slik oppretter du en bankkonto for SEPA-kredittoverføring:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Bankkontoer**, og velg deretter den relaterte koblingen.  
 2. Åpne kort til bankkontoen du vil eksportere betalingsfiler fra, i SEPA-kredittoverføringsformatet.  
@@ -56,7 +56,7 @@ Før du kan behandle betalingen elektronisk ved å eksportere betalingsfiler i f
     > [!NOTE]  
     > **EUR** må angis i **Valutakode**-feltet fordi SEPA-kredittoverføringer bare kan foretas i euro.  
 
-### Slik oppretter du et leverandørkort for SEPA-kredittoverføring:
+### <a name="to-set-up-a-vendor-card-for-sepa-credit-transfer"></a>Slik oppretter du et leverandørkort for SEPA-kredittoverføring:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Leverandører** og velger den relaterte koblingen.  
 2. Åpne kortet for leverandøren som du vil betale elektronisk, ved å eksportere betalingsfiler i formatet for SEPA-kredittoverføring.  
@@ -65,24 +65,24 @@ Før du kan behandle betalingen elektronisk ved å eksportere betalingsfiler i f
 
     Hvis du ennå ikke har definert en bank for denne leverandøren, kan du gjøre det nå. Hvis du vil ha mer informasjon, kan du se [Definere bankkonti for eksport av bankfiler](bank-how-setup-bank-accounts.md#to-set-up-vendor-bank-accounts-for-export-of-bank-files). Verdien i feltet **Foretrukket bankkonto** overføres til feltet **Mottakerbankkonto** på siden **Utbetalingskladd**.  
 
-### Slik definerer du utbetalingskladden for eksport av betalingsfiler:
+### <a name="to-set-the-payment-journal-up-to-export-payment-files"></a>Slik definerer du utbetalingskladden for eksport av betalingsfiler:
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladder** og velg den relaterte koblingen.  
 2. Velg rulle\-gardinknappen i **Bunkenavn**-feltet.  
 3. På siden **Finanskladder** velger du handlingen **Rediger liste**.  
 4. På linjen for betalingskladden du skal bruke til å eksportere betalinger, Velg du avmerkingsboksen **Tillat betalingseksport** .  
 
-### Slik knytter du datautvekslingsdefinisjon for én eller flere betalingstyper til de(n) aktuelle betalingsmåten(e):
+### <a name="to-connect-the-data-exchange-definition-for-one-or-more-payment-types-with-the-relevant-payment-method-or-methods"></a>Slik knytter du datautvekslingsdefinisjon for én eller flere betalingstyper til de(n) aktuelle betalingsmåten(e):
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Betalingsmåter**, og velg deretter den relaterte koblingen.  
 2. På siden **Betalingsmåter** velger du betalingsmåten som brukes til å eksportere betalinger fra, og deretter velger du feltet **Definisjon av betalingseksportlinje**.  
 3. På siden **Definisjoner av betalingseksportlinje** velger du koden du angav i **Kode**-feltet på hurtigfanen **Linjedefinisjoner** i trinn 4 i delen "Slik beskriver du formateringen av linjer og kolonner i filen" i fremgangsmåten [Definere datautvekslingsdefinisjoner](across-how-to-set-up-data-exchange-definitions.md).  
 
-## Klargjøre utbetalingskladden
+## <a name="preparing-the-payment-journal"></a>Klargjøre utbetalingskladden
 
 Fylle ut utbetalingskladden med linjer for utestående leverandørfordringer, med mulighet til å sette inn bokføringsdatoer basert på forfallsdatoen til de relaterte kjøpsdokumentene. Hvis du vil ha mer informasjon, kan du se [Administrere skyldige beløp](payables-manage-payables.md).
 
-## Eksportere betalinger til en bankfil
+## <a name="exporting-payments-to-a-bank-file"></a>Eksportere betalinger til en bankfil
 
 Når du er klar til å foreta utbetalinger til leverandørene eller refusjoner til de ansatte, kan du eksportere en fil med betalingsinformasjonen på linjene på **Betalingskladder-siden** . Du kan deretter laste opp filen til banken for å behandle de relaterte pengeoverføringene.
 
@@ -93,7 +93,7 @@ AMC Banking 365 Fundamentals-utvidelsen er tilgjengelig i den generelle versjone
 
 Du bruker siden **Kredittoverføringsregistre** til å vise betalingsfilene som er eksportert fra betalingskladden. Fra denne siden kan du også eksportere betalingsfiler på nytt ved tekniske feil eller endringer. Vær imidlertid oppmerksom på at eksporterte EFT-filer ikke vises på denne siden og ikke kan eksporteres på nytt.  
 
-### Slik eksporterer du betalinger til en bankfil:
+### <a name="to-export-payments-to-a-bank-file"></a>Slik eksporterer du betalinger til en bankfil:
 
 Nedenfor beskrives hvordan du betaler en leverandør med sjekk. Fremgangsmåten er lik refusjon til kunde med sjekk.
 
@@ -125,7 +125,7 @@ Nedenfor beskrives hvordan du betaler en leverandør med sjekk. Fremgangsmåten 
 
 Bankbetalingsfilen eksporteres til plasseringen du angir, og du kan deretter laste den opp til nettbankkontoen og foreta de faktiske betalingene. Deretter kan du bokføre den eksporterte betalingen journallinjer.
 
-### Planlegge når du bokfører eksporterte betalinger
+### <a name="to-plan-when-to-post-exported-payments"></a>Planlegge når du bokfører eksporterte betalinger
 
 Hvis du ikke vil bokføre en betalingskladdelinje for en eksportert betaling, for eksempel fordi du venter på bekreftelse på at transaksjonen er behandlet av banken, kan du bare slette kladdelinjen. Når du senere oppretter en utbetalingskladdelinje for å betale restbeløpet på fakturaen, viser feltet **Totalt eksportert beløp** hvor mye av betalingsbeløpet som allerede er eksportert. Du kan også finne detaljert informasjon om det eksporterte totalbeløpet ved å velge knappen **Poster i kredittoverføringsreg.** for å vise mer informasjon om eksporterte betalingsfiler.
 
@@ -136,7 +136,7 @@ Hvis du følger en prosess der du ikke bokfører betalinger før du har fått be
 
 Du kan vise informasjon om eksporterte betalinger ved å velge handlingen **Historikk for betalingseksport**.
 
-### Eksportere betalinger til en bankfil på nytt
+### <a name="to-re-export-payments-to-a-bank-file"></a>Eksportere betalinger til en bankfil på nytt
 
 Du kan eksportere betalingsfiler på nytt fra siden **Kredittoverføringsregistre**. Før du sletter eller bokfører betalingskladdelinjer, kan du også eksportere betalingsfilen på nytt fra **Betalingskladder-siden** ved å eksportere den på nytt. Hvis du sletter eller bokfører betalingskladdelinjene etter at du har eksportert, kan du eksportere den samme betalingsfilen på nytt fra **siden Kredittoverføringsjournaler** . Velg linjen for bunken med kredittoverføringer du vil eksportere på nytt, og bruk handlingen **Eksporter betalinger til fil på nytt**.
 
@@ -146,11 +146,11 @@ Du kan eksportere betalingsfiler på nytt fra siden **Kredittoverføringsregistr
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kredittoverføringsregistre**, og velg deretter den relaterte koblingen.
 2. Velg en betalingseksport som du vil eksportere på nytt, og velg deretter **Eksporter betaling til fil på nytt**.
 
-## Bokføring av betalinger
+## <a name="posting-the-payments"></a>Bokføring av betalinger
 
 Bokfør betalingene når den elektroniske betalingen er behandlet av banken. Hvis du vil ha mer informasjon, kan du se [Utføre betalinger](payables-make-payments.md).
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Bruk utvidelsen AMC Banking 365 Fundamentals](ui-extensions-amc-banking.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  

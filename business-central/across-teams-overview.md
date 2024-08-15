@@ -76,7 +76,7 @@ Hvis du vil ha mer informasjon, kan du se [Legg til en Business Central-fane i T
 3. Installer [!INCLUDE [prod_short](includes/prod_short.md)]-app i Teams. Se [Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md).
 4. Når appen er installert, kan du sette i gang. Se [Søke etter kunder, leverandører og andre kontakter fra Microsoft Teams](across-search-contacts-teams.md) og [Del oppføringer i Microsoft Teams](across-working-with-teams.md).
 
-## <a name="see-also"></a>Se også
+## <a name="related-information"></a>Se også
 
 [Vanlige spørsmål om Teams](teams-faq.md)  
 [Feilsøke Teams](admin-teams-troubleshooting.md)  

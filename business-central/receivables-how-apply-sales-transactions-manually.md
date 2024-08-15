@@ -11,7 +11,7 @@ ms.date: 06/21/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# Avstemme kundebetalinger med en innbetalingskladd eller fra kundeposter
+# <a name="reconcile-customer-payments-with-a-cash-receipt-journal-or-from-customer-ledger-entries"></a>Avstemme kundebetalinger med en innbetalingskladd eller fra kundeposter
 
 Når du mottar en kontant betaling fra en kunde eller gir en kontantrefusjon, kan du bruke betalingen eller refusjonen til å lukke åpne debet eller kredit. Du kan angi beløpet du vil utligne. Du kan for eksempel bruke akontobetalinger kundeposter. Det å lukke kundeposter holder kundestatistikk, kontoutdrag, rentenotaer osv. oppdatert.
 
@@ -31,7 +31,7 @@ Du kan utligne kundeposter på flere måter:
 > [!NOTE]  
 > Hvis feltet **Utligningsmetode** på kundekortet inneholder **Saldo**, utlignes betalinger automatisk mot den eldste åpne kreditposten, med mindre du ikke angir en post manuelt. Hvis utligningsmetoden er **Manuelt**, må du alltid utligne poster manuelt.
 
-## Fylle ut og bokføre en innbetalingskladd
+## <a name="to-fill-and-post-a-cash-receipt-journal"></a>Fylle ut og bokføre en innbetalingskladd
 
 En innbetalingskladd er en type finanskladd. Du kan bruke den til å bokføre transaksjoner til finans-, bank-, kunde-, leverandør- og aktivakontoer. Du kan utligne betalingen mot en eller flere debetposter når du bokfører betalingen. Du kan også utligne fra de bokførte postene senere.
 
@@ -54,7 +54,7 @@ En innbetalingskladd er en type finanskladd. Du kan bruke den til å bokføre tr
    2. I Motkontonr **.** -feltet, Velg kassakontoen for kontantbetalinger, eller den relevante bankkontoen for andre betalinger.
 10. Bokfør kladden.
 
-## Slik utligner du en betaling mot én kundepost
+## <a name="to-apply-a-payment-to-a-single-customer-ledger-entry"></a>Slik utligner du en betaling mot én kundepost
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Innbetalingskladd** og velg det tilknyttede opprette en kobling.
 2. Velg handlingen **Rediger kladd**.
@@ -70,7 +70,7 @@ En innbetalingskladd er en type finanskladd. Du kan bruke den til å bokføre tr
 10. Velg **OK**-knappen. Siden **Innbetalingskladd** viser nå posten i feltene **Utligningsbilagstype** og **Utligningsbilagsnr.**.
 11. Bokfør innbetalingskladden.
 
-## Slik utligner du en utbetaling mot flere kundeposter
+## <a name="to-apply-a-payment-to-multiple-customer-ledger-entries"></a>Slik utligner du en utbetaling mot flere kundeposter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Innbetalingskladd** og velg den relaterte koblingen.
 2. Velg handlingen **Rediger kladd**.
@@ -87,7 +87,7 @@ En innbetalingskladd er en type finanskladd. Du kan bruke den til å bokføre tr
 11. Velg **OK**.
 12. Bokfør innbetalingskladden.
 
-## Slik utligner du en kreditnota mot én kundepost
+## <a name="to-apply-a-credit-memo-to-a-single-customer-ledger-entry"></a>Slik utligner du en kreditnota mot én kundepost
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgskreditnotaer**, og velg deretter den relaterte koblingen.
 2. Åpne den aktuelle salgskreditnotaen.
@@ -98,7 +98,7 @@ En innbetalingskladd er en type finanskladd. Du kan bruke den til å bokføre tr
 5. Velg **OK**-knappen.  **Siden Salgskreditnota** viser nå posten du valgte i Utligningsbilagstype **og** **Utligningsbilagsnr.** Felt. Og beløpet på kreditnotaen som skal bokføres, utlignet for eventuelle betalingsrabatter.
 6. Bokfør kreditnotaen.
 
-## Slik utligner du en kreditnota mot flere kundeposter
+## <a name="to-apply-a-credit-memo-to-multiple-customer-ledger-entries"></a>Slik utligner du en kreditnota mot flere kundeposter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgskreditnotaer**, og velg deretter den relaterte koblingen.
 2. Åpne den aktuelle salgskreditnotaen.
@@ -110,7 +110,7 @@ En innbetalingskladd er en type finanskladd. Du kan bruke den til å bokføre tr
 6. Velg **OK**. Siden **Salgskreditnota** viser nå beløpet på kreditnotaen som skal bokføres, utlignet for eventuelle betalingsrabatter.
 7. Bokfør kreditnotaen.
 
-## Slik utligner du bokførte kundeposter
+## <a name="to-apply-posted-customer-ledger-entries"></a>Slik utligner du bokførte kundeposter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.
 2. Åpne kundekortet med postene du vil utligne.
@@ -131,7 +131,7 @@ I postoversikten er det ikke merket av for **Åpen** på linjen som inneholder p
 > [!NOTE]  
 > Når du har valgt en post på siden **Utlign kundeposter** eller flere poster ved å angi **Utlignings-ID**, inneholder feltet **Utlignet beløp** på kladdelinjen summen av de gjenstående beløpene for de bokførte postene du har valgt, hvis ikke feltet allerede inneholder verdier. Hvis du velger **Saldo** i feltet **Utligningsmetode** på kundekortet, utlignes inntreffer utligningen automatisk.
 
-## Slik utligner du kundeposter i forskjellige valutaer mot hverandre
+## <a name="to-apply-customer-ledger-entries-in-different-currencies-to-one-another"></a>Slik utligner du kundeposter i forskjellige valutaer mot hverandre
 
 Hvis du selger til en kunde i én valuta og mottar betaling i en annen valuta, kan du likevel utligne fakturaen mot betalingen.  
 
@@ -149,7 +149,7 @@ Utligning av kundeposter i forskjellige valutaer må være aktivert. Hvis du vil
 > [!IMPORTANT]  
 >   Når du utligner poster i ulike valutaer, konverteres postene til USD. Selv om valutakursene for de to valutaene er fast, for eksempel mellom USD og EUR, kan det oppstå et lite restbeløp når de omregnes til USD. Disse små restbeløpene bokføres som agio eller disagio for kontoen som er spesifisert i feltene **Konto for realisert agio** eller **Konto for realisert disagio** på siden **Valutaer**. Feltet **Beløp (USD)** justeres også i leverandørpostene.  
 
-## Korrigere en utligning av kundeposter
+## <a name="to-correct-an-application-of-customer-entries"></a>Korrigere en utligning av kundeposter
 Når du korrigerer en utligning, opprettes og bokføres korrigeringsposter for alle poster. Korrigeringspostene er de samme som originalene, men med motsatt rekkefølge i **Beløp**-feltet. Korrigeringspostene inkluderer alle finansposter som er avledet fra utligningen. Det kan for eksempel være kontantrabatt og valutagevinst/-tap. Postene som programmet lukket, åpnes på nytt.  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Kunder** og velger den relaterte koblingen.
@@ -163,7 +163,7 @@ Når du korrigerer en utligning, opprettes og bokføres korrigeringsposter for a
 > [!IMPORTANT]  
 >   Hvis en post er utlignet av mer enn én utligningspost, må du oppheve utligningen av den seneste utligningsposten først.  
 
-## Se også
+## <a name="see-also"></a>Se også
 [Håndtere fordringer](receivables-manage-receivables.md)  
 [Salg](sales-manage-sales.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

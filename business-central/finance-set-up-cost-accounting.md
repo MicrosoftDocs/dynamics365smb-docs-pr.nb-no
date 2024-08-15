@@ -10,7 +10,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-cost-accounting"></a>Definere kostregnskap
+# <a name="set-up-cost-accounting"></a>Definere kostregnskap
 
 Før du begynner å arbeide med kostregnskap, må du utføre konfigurasjonsprosedyrer.
 
@@ -24,7 +24,7 @@ Ved å gjøre dette oppretter du følgende regnskapsformel:
 
 Når du skriver ut rapporter for oversikten over kosttyper, diagrammet med kostsentre og diagrammet med kostobjekter, kan du analysere dette forholdet.
 
-## <a name="setting-up-cost-types"></a>Definere kosttyper
+## <a name="set-up-cost-types"></a>Definere kosttyper
 
 Diagrammet med kosttyper ligner på kontoplanen i finans. Du kan definere diagrammet med kosttyper på følgende måter:  
 

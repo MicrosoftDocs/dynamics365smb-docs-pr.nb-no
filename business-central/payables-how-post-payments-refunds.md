@@ -11,7 +11,7 @@ ms.search.form: '256, 233, 624, 1228'
 ms.date: 07/17/2024
 ms.service: dynamics-365-business-central
 ---
-# Registrere betalinger og refusjoner i utbetalingskladden
+# <a name="record-payments-and-refunds-in-the-payment-journal"></a>Registrere betalinger og refusjoner i utbetalingskladden
 
 På **siden Utbetalingskladder** registrerer du betalinger du gjør til leverandører, og refusjoner du gjør til kunder. Når du bokfører en utbetalingskladdelinje, registreres det betalte beløpet på den angitte bankkontoen. Deretter må du utføre trinnene for å foreta den faktiske pengeoverføringen fra den aktuelle bankkontoen.  
 
@@ -29,7 +29,7 @@ Utbetalingskladder er finanskladder som er tilpasset for betalinger. Du kan rask
 
     I tillegg til å registrere at betalingen er utført, kan du også bruke siden **Utbetalingskladd** for å legge ut betalingen for ytterligere behandling av banken. Hvis du vil ha mer informasjon, kan du gå til [Foreta sjekkbetalinger](payables-how-work-checks.md) og [Foreta elektroniske betalinger](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file).  
 
-## Foreta betalinger i utbetalingskladden
+## <a name="to-make-payments-in-the-payment-journal"></a>Foreta betalinger i utbetalingskladden
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Utbetalingskladder** og velg den relaterte koblingen.
 2. Åpne kladden som du bruker for betalinger.
@@ -40,7 +40,7 @@ Utbetalingskladder er finanskladder som er tilpasset for betalinger. Du kan rask
 5. Du kan også bruke handlingen **Betalingsforslag - leverandør**. Alle utligningsopplysninger og beløper angis også på kladdelinjene. Hvis du vil vite mer, kan du gå til [Betalingsforslag - leverandør](payables-how-suggest-vendor-payments.md).
 6. Når du har fullført alle utbetalingskladdelinjene, kan du velge handlingen **Bokfør**.
 
-## Slik utsteder du en refusjonssjekk
+## <a name="to-issue-a-refund-check"></a>Slik utsteder du en refusjonssjekk
 
 1. Velg ikonet ![lyspære som åpner Fortell meg-funksjonen](media/ui-search/search_small.png "Fortell hva du vil gjøre"), angi **Utbetalingskladder**, og velg deretter den relaterte koblingen.
 2. Velg **Refusjon** i **Bilagstype**-feltet.  
@@ -53,7 +53,7 @@ Utbetalingskladder er finanskladder som er tilpasset for betalinger. Du kan rask
 9. I **Utligningsbilagsnr.** -feltet velger du dokumentene som krever refusjon.  
 10. Når du har fullført alle utbetalingskladdelinjene, velger du handlingen **Bokfør/Skriv ut**, velger handlingen **Bokfør og skriv ut** og velger deretter **Ja**.  
   
-## Se også
+## <a name="see-also"></a>Se også
 
 [Foreta sjekkbetalinger](payables-how-work-checks.md)  
 [Utfør elektroniske betalinger](finance-make-payments-with-bank-data-conversion-service-or-sepa-credit-transfer.md#exporting-payments-to-a-bank-file)  

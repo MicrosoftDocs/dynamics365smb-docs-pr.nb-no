@@ -441,7 +441,7 @@ På dette tidspunktet er Del til Teams tilgjengelig på skrivebordsnettklienten,
 Du finner **handlingen Del til Teams** på **Del**-menyen på alle sider, for eksempel kort- og dokumentsider, liste- eller regnearksider, inkludert egendefinerte sider. Handlingen er ikke tilgjengelig i dialogbokser eller på sider vist som dialogbokser, for eksempel oppslagssider eller veivisere.
 
 ---
-## <a name="see-also"></a>Se også
+## <a name="related-information"></a>Se også
 
 [Oversikt over [!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams-integrering](across-teams-overview.md)  
 [Installer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  

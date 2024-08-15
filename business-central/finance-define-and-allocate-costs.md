@@ -28,7 +28,7 @@ For hvert fordelingsmål kan du definere et fordelingsgrunnlag. Fordelingsgrunnl
 
 Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.
 
-## <a name="setting-up-allocation-source-and-targets"></a>Definere fordelingskilde og -mål
+## <a name="set-up-allocation-source-and-targets"></a>Definere fordelingskilde og -mål
 
 Hver fordeling består av en fordelingskilde og ett eller flere fordelingsmål. Fordelingskilden fastsetter hvilke kostnader som blir fordelt. Fordelingsmålene fastsetter hvor kostnadene skal fordeles.  
 
@@ -50,11 +50,11 @@ Hver fordeling består av en fordelingskilde og ett eller flere fordelingsmål. 
 > [!NOTE]  
 > Merk av for **Blokkert** for å deaktivere tildelingsoppsettet.
 
-## <a name="setting-filters-for-dynamic-allocation-bases"></a>Angi filtre for dynamisk fordelingsgrunnlag
+## <a name="to-set-filters-for-dynamic-allocation-bases"></a>Angi filtre for dynamisk fordelingsgrunnlag
 
 Metoden for dynamisk fordeling er basert på verdier som kan endres. Eksempel: Antall ansatte i et kostsenter eller solgte varer av et kostobjekt i en bestemt tidsperiode. Det finnes ni forhåndsdefinerte fordelingsgrunnlag og tolv dynamiske datointervaller. Du angir ulike filtre basert på fordelingsgrunnlaget.  
 
-### <a name="setting-filters"></a>Angi filtre
+### <a name="set-filters"></a>Angi filtre
 
 Tabellen nedenfor viser hvilke filtre som kan brukes for ulike fordelingsgrunnlag og hvilke verdier som er gyldige i feltene **Nr.filter** og **Gruppefilter**. Velg <kbd>F1</kbd> i **Datofilterkode**-feltet for å lese detaljerte beskrivelser.  
 

@@ -33,7 +33,7 @@ Det første trinnet til å plassere avgang er å opprette den inngående lagerfo
 > [!NOTE]  
 > Du kan også opprette den inngående lagerforespørselen ved å velge feltet **Opprett inngående foresp.** når du fornyer produksjonsordren. Finn ut mer under [Oppdater eller planlegg produksjonsordrer på nytt](production-how-to-replan-refresh-production-orders.md)  
 
-### <a name="to-put-output-away-with-an-inventory-put-away"></a>Slik plasseres varer med lagerplassering
+### <a name="to-put-away-output-with-an-inventory-put-away"></a>Slik plasseres varer med lagerplassering
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Lagerplassering** og velg den relaterte koblingen.  
 2. Opprett en ny lagerplassering. Finn ut mer under [Plasser varer med lagerplasseringer](warehouse-how-to-put-items-away-with-inventory-put-aways.md).
@@ -49,7 +49,7 @@ Når du bokfører en lagerplassering, antas det at alle operasjonene bokføres i
 
 Hvis du bare trenger å bokføre oppsett eller kjøretid i den siste operasjonen, kan du sette avgangsantallet i den siste operasjonen til 0. Du kan velge ikke å bokføre den siste linjen i det hele tatt ved å slette den.
 
-## <a name="to-put-assembly-and-production-output-away-in-advanced-warehouse-configurations"></a>Slik plasserer du monterings- og produksavgang i avanserte lagerkonfigurasjoner
+## <a name="to-put-away-assembly-and-production-output-in-advanced-warehouse-configurations"></a>Slik plasserer du monterings- og produksavgang i avanserte lagerkonfigurasjoner
 
 Når du bokfører avgangen for produksjons- eller monteringsordrer i et lager som bruker lagerstrying, plasseres avgangen i hyllen som er definert i produksjons- eller monteringsordren. Finn ut mer om ulike måter å flytte varer på i lageret med avanserte oppsett, går du til [Flytt varer i avanserte lageroppsett](warehouse-how-to-move-items-in-advanced-warehousing.md#to-move-items-with-the-warehouse-movement-worksheet).
 

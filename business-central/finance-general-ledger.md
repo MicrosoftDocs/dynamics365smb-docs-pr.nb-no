@@ -11,7 +11,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="understanding-the-general-ledger-and-chart-of-accounts"></a>Forstå Finans og kontoplanen
+# <a name="understand-the-general-ledger-and-chart-of-accounts"></a>Forstå Finans og kontoplanen
 
 Økonomimodulen lagrer dine økonomiske data, og kontoplanen viser kontoene som du bokfører finansposter til. [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en standard kontoplan som er klar til å støtte forretningsvirksomheten din.
 

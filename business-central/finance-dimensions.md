@@ -24,7 +24,7 @@ Et annet eksempel er å definere en dimensjon som kalles *Avdeling* og deretter 
 * Hvem som solgte den.
 * Hvilken kunde som kjøpte produktet.
 
-## <a name="analyzing-by-dimensions"></a>Analysere etter dimensjoner
+## <a name="analyze-by-dimensions"></a>Analysere etter dimensjoner
 
 Dimensjoner spiller en viktig rolle i forretningsintelligens, for eksempel når du definerer analysevisninger. Lær mer på [Analysere data etter dimensjoner](bi-how-analyze-data-dimension.md).
 
@@ -40,7 +40,7 @@ Et dimensjonssett er en unik kombinasjon av dimensjonsverdier. De lagres som dim
 
 Når du oppretter en kladdelinje, et dokumenthode eller en dokumentlinje, kan du angi en kombinasjon av dimensjonsverdier. I stedet for at hver dimensjonsverdi lagres eksplisitt i databasen, tilordnes en dimensjonssett-ID til kladdelinjen, dokumenthodet eller dokumentlinjen for å angi dimensjonssettet.  
 
-## <a name="setting-up-dimensions"></a>Opprette dimensjoner
+## <a name="set-up-dimensions"></a>Opprette dimensjoner
 
 Du kan definere dimensjonene og dimensjonsverdiene for å kategorisere i kladder og dokumenter, for eksempel salgsordrer og bestillinger. Du definerer dimensjoner på **Dimensjoner**-siden der du oppretter én linje for hver dimensjon, som *Prosjekt*, *Avdeling*, *Område* og *Selger*.
 

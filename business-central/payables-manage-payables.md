@@ -12,7 +12,7 @@ ms.date: 07/12/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Administrere skyldige beløp
+# <a name="managing-payables"></a>Administrere skyldige beløp
 
 En stor del av håndtering av leverandørgjeld er å betale dine leverandører eller refundere de ansatte for utgifter. Du kan bruke funksjoner til å legge til betalingslinjer for forfalte kjøpsfakturaer på siden **Utbetalingskladd**. Du kan sende transaksjoner til banken din ved å eksportere flere betalingskladdelinjer til en fil og deretter laste opp filen til banken. Du kan også betale med sjekk, inkludert å overføre sjekker som elektroniske betalinger.
 
@@ -30,7 +30,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver i leverandørgjeld, og har ko
 |Sikre riktig lagerverdisetting ved å tilordne ekstra varekost, for eksempel frakt, fysisk håndtering, forsikring og transport, som du pådrar deg ved innkjøp.|[Bruke varegebyr til å gjøre rede for ekstra handelskostnader](payables-how-assign-item-charges.md)|
 |Refunder de ansatte for personlige utgifter under firmaaktiviteter ved å betale dem på deres bankkontoer.|[Registrer og refunder ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)|
 
-## Se også
+## <a name="see-also"></a>Se også
 [Innkjøp](purchasing-manage-purchasing.md)    
 [Håndtere fordringer](receivables-manage-receivables.md)    
 [Bruke varegebyrer til å ta høyde for ekstra handelskostnader](payables-how-assign-item-charges.md)    

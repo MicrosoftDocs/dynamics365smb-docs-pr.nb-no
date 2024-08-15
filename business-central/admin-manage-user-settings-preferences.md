@@ -65,7 +65,7 @@ Som administrator kan du få oversikt over individuelle endringer i [!INCLUDE [p
 <!-- >[!NOTE]
 > User personalizations do not have anything to do with the *personal* lightweight changes a user can make to the user experience.-->
 
-## <a name="to-review-or-delete-user-personalizations"></a>Slik går du gjennom eller sletter brukertilpassinger
+## <a name="review-or-delete-user-personalizations"></a>Slik går du gjennom eller sletter brukertilpassinger
 
 1. Velg ikonet ![Søk etter side eller rapport.](media/ui-search/search_small.png "Ikonet Søk etter side eller rapport") og angi **Tilpassede sider**, og velg deretter den relaterte koblingen.
 2. Dette viser listen over brukere og deres tilpassede sider. Hvis du vil fjerne en brukertilpassing, klikker du den aktuelle raden eller velger **Administrer**, og deretter velger du **Slett**.

@@ -9,7 +9,7 @@ ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="setting-up-inventory-valuation-and-costing"></a>Definere lagerverdisetting og kostberegning
+# <a name="set-up-inventory-valuation-and-costing"></a>Definere lagerverdisetting og kostberegning
 
 For å sikre at lagerkost registreres riktig, må du definere ulike felt og sider før du begynner å opprette varetransaksjoner. Vanligvis velger bedrifter en bestemt lagermetode og bruker den på lagervarer, for eksempel for å hjelpe dem med å spore verdien av varer på lager.  
 

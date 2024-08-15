@@ -28,7 +28,7 @@ Når du oppretter tilkoblingen mellom appene, definerer [!INCLUDE[prod_short](in
 >
 > Hvis du vil unngå lav ytelse, kan du aktivere eller deaktivere hendelsesbasert datasynkronisering for en tabell på siden **Tildelinger for integreringstabell**. Som standard er hendelsesbasert synkronisering aktivert, slik at eksisterende integrasjon ikke påvirkes. Systemansvarlig kan aktivere eller deaktivere den for bestemte tabeller.
 
-### <a name="additional-mappings"></a>Tilleggstildelinger
+### <a name="add-table-and-field-mappings-to-existing-integration-tables"></a>Tilleggstildelinger
 
 Betalingsbetingelser, leveringsmåter og transportører kan endres, og det kan være viktig å kunne justere dem. Hvis du aktiverer funksjonen **Funksjonsoppdatering: Tildel til alternativsett i Dataverse uten kode** på siden [Funksjonsstyring](https://businesscentral.dynamics.com/?page=2610), kan du manuelt legge til integreringstabelltildelinger for betalingsbetingelser (BETALINGSBETINGELSER), leveringsmåter (LEVERINGSMÅTE) og transportører (TRANSPORTØR). Denne tildelingen kan bidra til å sikre at policyene er de samme for disse oppsettene i [!INCLUDE[prod_short](includes/cds_long_md.md)] og [!INCLUDE[cds_long_md](includes/cds_long_md.md)].
 

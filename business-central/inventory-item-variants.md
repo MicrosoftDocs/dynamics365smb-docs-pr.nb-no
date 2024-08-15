@@ -11,18 +11,18 @@ ms.date: 06/13/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Administrer produktvarianter
+# <a name="manage-product-variants"></a>Administrer produktvarianter
 
 Varevarianter er en fin måte å holde listen over produkter på under kontroll. Du har for eksempel har et stort antall varer som nesten er identiske og som bare varierer i farge. Du kan definere hver variant som en separat vare. Men du kan også velge å definere én vare og angi de ulike fargene som varianter av varen.  
 
 > [!TIP]
 > Hvis du vil ha en praktisk innføring i å bruke varianter i produksjon, kan du se [Gjennomgang: Varianter](contoso-coffee/manufacturing/variants.md) for Contoso Coffee-demodata.  
 
-## Legg til varianter i en vare
+## <a name="add-variants-to-an-item"></a>Legg til varianter i en vare
 
 Det er enkelt nok å definere varianter for en vare.  
 
-### Slik legger du til varianter
+### <a name="to-add-variants"></a>Slik legger du til varianter
 
 1. Åpne [siden **Varelister**](https://businesscentral.dynamics.com/?page=31), åpne relevant vare.  
 2. Velg handlingen Relatert i Vare kort, velg **deretter Vare**  og deretter Varianter-handlingen **·** . **·** **·**   
@@ -30,11 +30,11 @@ Det er enkelt nok å definere varianter for en vare.
 
 Når du deretter oppretter et salgsdokument og legger til varen, kan du angi varianten av varen i feltet **Variantkode** . Det samme gjelder kjøpsdokumenter.  
 
-## Disponibelt per variant
+## <a name="item-availability-by-variant"></a>Disponibelt per variant
 
 [!INCLUDE [inventory_variant-availability](includes/inventory_variant-availability.md)]
 
-## Krev bruk av varianter
+## <a name="require-use-of-variants"></a>Krev bruk av varianter
 
 Fra og med lanseringsbølge 2 i 2022 kan administratorer kreve at brukere angir varianten i dokumenter og kladder for varer som har varianter. Når du skal aktivere funksjonen, går du til siden **Lageroppsett** og velger feltet **Variant obligatorisk hvis finnes**. Du kan overstyre denne globale innstillingen for bestemte varer.  
 
@@ -51,11 +51,11 @@ På varekort kan feltet **Variant obligatorisk hvis finnes** ha følgende altern
 
 Hvis funksjonen er slått på, kan du ikke bokføre en post hvis varianten ikke er angitt.
 
-## Kategorier, attributter og varianter
+## <a name="categories-attributes-and-variants"></a>Kategorier, attributter og varianter
 
 [!INCLUDE[inventory_variant](includes/inventory_variant.md)]
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Registrere nye varer](inventory-how-register-new-items.md)    
 [Definere generell lagerinformasjon](inventory-how-setup-general.md)    

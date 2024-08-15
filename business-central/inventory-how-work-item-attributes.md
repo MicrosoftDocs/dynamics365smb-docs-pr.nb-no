@@ -11,7 +11,7 @@ ms.search.forms: '7507, 7509, 7506, 7505, 7503, 7502, 7510, 7504, 7501, 7500, 91
 ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
-# Arbeid med vareattributter
+# <a name="work-with-item-attributes"></a>Arbeid med vareattributter
 
 Når en kunde sender en forespørsel om en vare, enten i korrespondanse eller i en integrert nettbutikk, kan kunden spørre om eller søke etter i henhold til egenskaper, for eksempel høyde og modellår. Hvis du vil levere denne kundeservicen, kan du tilordne varen attributtverdier av forskjellige typer, som deretter kan brukes ved søk etter varer.
 
@@ -20,7 +20,7 @@ Du kan også tilordne vareattributter til varekategorier, som deretter brukes p�
 > [!TIP]  
 > Hvis du legge ved bilder for varer, kan Image Analyzer-utvidelsen registrere attributter i bildet og foreslå attributtene, slik at du kan bestemme om du vil tilordne dem. Utvidelsen er klar til bruk. Du trenger bare å aktivere den. Hvis du vil ha mer informasjon, se [Image Analyzer-utvidelsen](ui-extensions-image-analyzer.md).
 
-## Opprett vareattributter
+## <a name="create-item-attributes"></a>Opprett vareattributter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Vareattributter** og velg den relaterte koblingen.
 2. På siden **Vareattributter** velger du handlingen **Ny**.
@@ -29,13 +29,13 @@ Du kan også tilordne vareattributter til varekategorier, som deretter brukes p�
 > [!NOTE]  
 > Hvis du velger **Alternativ** i **Type**-feltet, kan du velge handlingen **Verdier for vareattributt** for å opprette verdier for vareattributtet. Hvis du vil ha mer informasjon, kan du se [Slik oppretter du verdier for vareattributter av typen Alternativ](inventory-how-work-item-attributes.md#create-values-for-item-attributes-of-type-option).  
 
-## Opprett verdier for vareattributter av typen Alternativ
+## <a name="create-values-for-item-attributes-of-type-option"></a>Opprett verdier for vareattributter av typen Alternativ
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Vareattributter** og velg den relaterte koblingen.
 2. På siden **Vareattributter** velger du et vareattributt av typen **Alternativ** som du vil opprette verdier for, og deretter velger du handlingen **Verdier for vareattributt**.
 3. Fyll ut feltene etter behov på siden **Verdier for vareattributt**. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
 
-## Tildel vareattributter til varer
+## <a name="assign-item-attributes-to-items"></a>Tildel vareattributter til varer
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. På siden **Varer** velger du vareattributtet du vil tilordne vareattributter til, og deretter velger du handlingen **Attributter**.
@@ -45,7 +45,7 @@ Du kan også tilordne vareattributter til varekategorier, som deretter brukes p�
 6. For vareattributter av typen **Alternativ** velger du oppslagsknappen i **Verdi**-feltet og velger en verdi for vareattributtet. Du kan også velge **Ny**-handlingen for å opprette en ny vareattributtverdi først, som forklart under [Slik oppretter du verdier for vareattributter av typen Alternativ](inventory-how-work-item-attributes.md#assign-item-attributes-to-items).
 7. Gjenta trinn 4 til 6 for alle vareattributter du vil tilordne varen.
 
-## Tildel vareattributter til varekategorier
+## <a name="assign-item-attributes-to-item-categories"></a>Tildel vareattributter til varekategorier
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varekategorier** og velg den relaterte koblingen.
 2. På siden **Varekategorier** velger du varekategorien du vil tilordne vareattributter til, og deretter velger du handlingen **Rediger**.
@@ -57,7 +57,7 @@ Du kan også tilordne vareattributter til varekategorier, som deretter brukes p�
 > [!NOTE]  
 > Vareattributter for overordnede varekategorier arves til underordnede varekategorier. Dette angis av **Arvet fra**-feltet på **Attributter**-hurtigfanen. Hvis du vil ha mer informasjon, kan du se [Kategorisere varer](inventory-how-categorize-items.md).
 
-## Filtrer etter vareattributter
+## <a name="filter-by-item-attributes"></a>Filtrer etter vareattributter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varer** og velg den relaterte koblingen.
 2. På siden **Varer** velger du handlingen **Filtrer etter attributter**.
@@ -75,7 +75,7 @@ Du kan også tilordne vareattributter til varekategorier, som deretter brukes p�
 
 Varene på siden **Varer** er filtrert etter de angitte verdiene for vareattributt.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Kategorisere varer](inventory-how-categorize-items.md)    
 [Registrere nye varer](inventory-how-register-new-items.md)    

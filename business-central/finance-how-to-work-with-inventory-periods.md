@@ -28,7 +28,7 @@ De følgende delene handler om hvordan du kan:
 3. Angi den siste datoen i lagerperioden du vil definere, i **Sluttdato**-feltet. Når perioden er lukket, kan du ikke bokføre lagerendringer før denne datoen.  
 4. Skriv inn et beskrivende navn i **Navn**-feltet. Velg **OK**.  
 
-## <a name="closing-inventory-periods"></a>Lukke lagerperioder
+## <a name="to-close-inventory-periods"></a>Lukke lagerperioder
 
 **Lukket**-feltet angir om lagerperioden er lukket eller ikke for lagerverdiendringer. Du kan ikke redigere dette feltet.  
 

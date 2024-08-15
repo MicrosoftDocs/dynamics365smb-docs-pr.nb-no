@@ -174,7 +174,7 @@ Dette problemet skyldes at du ikke har installert BC-appen for Teams. Bare de me
 Dette problemet skyldes sannsynligvis at du har delt en listevisning som er en personlig visning. I dette tilfellet arbeider du med administratoren for å opprette rollespesifikke listevisninger som dekker de forskjellige rollene i kanalen/nettpraten, eller oppretter denne visningen for hele organisasjonen, slik at alle kan få en konsekvent visning.
 
 
-## <a name="see-also"></a>Se også
+## <a name="related-information"></a>Se også
 
 [Oversikt over [!INCLUDE [prod_short](includes/prod_short.md)] og Microsoft Teams-integrering](across-teams-overview.md)  
 [Installer [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md)  

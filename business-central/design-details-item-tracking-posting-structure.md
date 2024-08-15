@@ -25,13 +25,13 @@ Tabellen **Vareposttilknytning**, som brukes til å koble en bokført dokumentli
   
 Funksjonaliteten til det eksisterende **Postnr.**-feltet, som knytter en varepost til en bokført dokumentlinje, håndterer den vanlige én-til-én-relasjonen når ingen varesporingsnumre er på den bokførte dokumentlinjen. Hvis det finnes varesporingsnumre, vil **Løpenummer**-feltet forbli tomt, og en-til-mange-relasjonen behandles av tabellen **Vareposttilknytning**. Hvis den bokførte dokumentlinjen inneholder varesporingsnumre, men bare er knyttet til en enkelt varepost, vil **Løpenummer**-feltet håndterer tilknytningen, og ingen oppføringen blir opprettet i tabellen **Vareposttilknytning**.  
   
-## <a name="codeunits-80-and-90"></a>Kodeenhet 80 og 90
+## <a name="codeunits-80-sales-post--and-90-purch-post"></a>Kodeenhet 80 og 90
 For å få varepostene delt ved bokføring omsluttes koden i kodeenhet 80 og kodeenhet 90 med løkker som går gjennom globale, midlertidige postvariabler. Denne koden kaller kodeenhet 22 med en varekladdelinje. Disse variablene initialiseres når varesporingsnumre finnes for dokumentlinjen. Denne sløyfestrukturen brukes alltid for å holde koden enkel. Hvis det ikke finnes varesporingsnumre for dokumentlinjen, vil det settes inn en enkeltpost, og løkken kjøres bare én gang.  
   
 ## <a name="posting-the-item-journal"></a>Bokføre varekladden
 Varesporingsnumre overføres via reservasjonspostene som er knyttet til vareposten, og gjennomgang av varesporingsnumre foretas i kodeenhet 22. Dette konseptet fungerer på samme måte som når en varekladdelinje indirekte brukes til å bokføre et salg eller en bestilling som når en varekladdelinje brukes direkte. Når varekladden brukes direkte, peker feltet **Kilderad-ID** mot selve varekladdelinjen.  
   
-## <a name="code-unit-22"></a>Kodeenhet 22
+## <a name="code-unit-22--item-jnl-post-line"></a>Kodeenhet 22
 Kodeenhet 80 og 90 går gjennom kodeenhet 22-kall under fakturabokføring av varesporingsnumre og under fakturering av eksisterende leveringer og mottak.  
   
 Under antallsbokføring av varesporingsnumre, henter kodeenhet 22 varesporingsnumre fra postene i T337 som er knyttet til posteringen. Disse postene plasseres direkte på varekladdelinjen.  

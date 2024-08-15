@@ -11,7 +11,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-jobs-in-advanced-warehouse-configurations"></a>Plukk for produksjon, montering eller prosjekter i avanserte lageroppsett
+# <a name="pick-for-production-assembly-or-projects-in-advanced-warehouse-configurations"></a>Plukk for produksjon, montering eller prosjekter i avanserte lageroppsett
 
 Hvordan du plukker komponenter for produksjon, jobber eller monteringsordrer avhenger av hvordan lageret er definert som lokasjon. Finn ut mer under [Definer lagerstyring](warehouse-setup-warehouse.md).
 
@@ -113,7 +113,7 @@ Bruk **lagerplukkdokumenter** til å plukke jobbkomponenter i flyten til prosjek
 
 8. Velg **OK**-knappen.  
 
-## <a name="to-pick-items-for-a-productions-order-assembly-order-job"></a>Slik plukker du varer for produksjonsordre, monteringsordre, prosjekt
+## <a name="to-pick-items-for-a-production-order-assembly-order-or-project"></a>Slik plukker du varer for produksjonsordre, monteringsordre, prosjekt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Plukking** og velger den relaterte koblingen.  
 

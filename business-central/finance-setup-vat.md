@@ -62,7 +62,7 @@ Følg denne fremgangsmåten for å definere en standardverdi for en mva-dato:
 > [!NOTE]
 > **Standard mva-dato** er som standard **bokføringsdatoen**.
 
-### <a name="enabling-or-disabling-the-vat-date-feature"></a>Aktiver eller deaktiver funksjonen for mva-dato
+### <a name="enable-or-disable-the-vat-date-feature"></a>Aktiver eller deaktiver funksjonen for mva-dato
 
 Noen land/områder krever at bedrifter bruker en bestemt mva-dato, mens andre land/områder ikke gjør det. Noen land/områder krever også at selskaper endrer mva-datoen i bestemte situasjoner etter at de har bokført dokumenter, mens andre land/områder ikke tillater endringer i mva-datoer. Hvis du vil tillate forskjellige kontekster, kan du velge om du vil bruke denne funksjonaliteten og eventuelt i hvilken grad.
 

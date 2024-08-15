@@ -11,7 +11,7 @@ ms.date: 06/10/2024
 ms.service: dynamics-365-business-central
 ---
 
-# Konfigurer forskudd
+# <a name="set-up-prepayments"></a>Konfigurer forskudd
 
 Du bruker forskuddsbetalinger når:
 
@@ -36,7 +36,7 @@ Forskuddsbeløpet tilhører kjøperen til de mottar varene eller tjenestene. Du 
 
 [!INCLUDE[local-func-setup-link](includes/local-func-setup-link.md)]
 
-## Slik legger du til forskuddskonti til generelt bokføringsoppsett  
+## <a name="to-add-prepayment-accounts-to-the-general-posting-setup"></a>Slik legger du til forskuddskonti til generelt bokføringsoppsett
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Generelt bokføringsoppsett**, og velg deretter den relaterte koblingen.
 2. På siden **Generelt bokføringsoppsett** for de relevante linjene må du fylle ut følgende felt:  
@@ -46,7 +46,7 @@ Forskuddsbeløpet tilhører kjøperen til de mottar varene eller tjenestene. Du 
 
 Hvis du ikke allerede har definert finanskontoer for forskuddsbetalinger, kan du åpne siden **Finanskontooversikt** fra det relevante kontofeltet.  
 
-## Slik setter du opp nummerserie for forskuddsdokumenter  
+## <a name="to-set-up-number-series-for-prepayment-documents"></a>Slik setter du opp nummerserie for forskuddsdokumenter
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Salgsoppsett**, og velg deretter den relaterte koblingen.
 2. På siden **Salgsoppsett** i hurtifanen **Nummerserier** fyller du ut følgende felt:  
@@ -63,7 +63,7 @@ Hvis du ikke allerede har definert finanskontoer for forskuddsbetalinger, kan du
 > [!NOTE]  
 > Du kan bruke samme nummerserie for forskuddsfakturaer og vanlige fakturaer, eller du kan bruke forskjellige nummerserier. Hvis du bruker forskjellige serier, kan de ikke overlappe hverandre fordi ett og samme nummer kan ikke forekomme i begge seriene.  
 
-## Definere forskuddsprosenter for varer, kunder og leverandører
+## <a name="to-set-up-prepayment-percentages-for-items-customers-and-vendors"></a>Definere forskuddsprosenter for varer, kunder og leverandører
 
 For en vare kan du definere en standard forskuddsprosent for alle kunder, en bestemt kunde eller en kundeprisgruppe. Hvis du ikke vil bruke samme forskuddsprosent på alle kunder, må du angi hvilke kunder eller hvilke kundeprisgrupper forskuddsprosenten skal gjelde.
 
@@ -81,7 +81,7 @@ For en kunde eller leverandør kan du definere en standard forskuddsprosent for 
 > [!TIP]
 > Du kan også bruke siden **Forskuddsprosenter for salg** fra kunden eller leverandøren.
 
-### Slik bestemmes hvilken forskuddsprosent som har førsteprioritet  
+### <a name="to-determine-which-prepayment-percentage-has-first-priority"></a>Slik bestemmes hvilken forskuddsprosent som har førsteprioritet
 
 En ordre kan ha en forskuddsprosent på salgshodet og en annen prosent for varene på linjene. For å bestemme hvilken forskuddsprosent som gjelder for hver salgslinje, leter [!INCLUDE [prod_short](includes/prod_short.md)] etter og bruker den første standardprosentverdien i følgende rekkefølge:  
 
@@ -92,7 +92,7 @@ En ordre kan ha en forskuddsprosent på salgshodet og en annen prosent for varen
 
 Forskuddsprosenten på kundekortet gjelder med andre ord bare hvis det ikke er satt opp noen forskuddsprosent for varen. Hvis du imidlertid endrer innholdet i feltet **Forskuddsprosent** i salgs- eller bestillingshodet etter at du har opprettet linjene, oppdateres forskuddsprosenten på alle linjene. Oppdateringen gjør det enkelt å opprette en ordre med en fast forskuddsprosent uavhengig av prosenten som er satt opp for varene.
 
-## Slik frigir du ordrer automatisk når forskuddsbetalinger brukes
+## <a name="to-automatically-release-sales-orders-when-prepayments-are-applied"></a>Slik frigir du ordrer automatisk når forskuddsbetalinger brukes
 
 Du kan spare tid ved å opprette en jobbkøpost som automatisk frigir ordrer som krever forskuddsbetaling, etter at betalinger er utlignet. Når du automatiserer prosessen, sparer du trinnet ved å frigi ordren.
 
@@ -105,7 +105,7 @@ Du kan spare tid ved å opprette en jobbkøpost som automatisk frigir ordrer som
 3. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Jobbkøposter**, og velg deretter den relaterte koblingen.
 4. Konfigurer jobbkøposten **Oppdater ventende forskuddssalg**, for eksempel ved å bruke innstillingene i hurtigfanen **Regelmessighet** til å planlegge hvor ofte den skal kjøres. Hvis du vil ha mer informasjon, kan du se [Bruk jobbkøer til å planlegge oppgaver](admin-job-queues-schedule-tasks.md).
 
-## Se også  
+## <a name="see-also"></a>Se også
 
 [Fakturer forskuddsbetalinger](finance-invoice-prepayments.md)  
 [Gjennomgang: Konfigurer og fakturer salgsforskudd](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  

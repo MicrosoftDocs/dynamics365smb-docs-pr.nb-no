@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Fakturer forskuddsbetalinger
+# <a name="invoicing-prepayments"></a>Fakturer forskuddsbetalinger
 
 [!INCLUDE [prepayment_def](includes/prepayment_def.md)]
 
@@ -30,7 +30,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 |Opprette en ordre, justere forskuddsbeløpene og utstede en faktura for forskuddsbeløp.|[Opprette forskuddsfakturaer](finance-how-to-create-prepayment-invoices.md)|  
 |Utstede en ny forskuddsfaktura for tilleggsvarer eller for et nytt innskudd mot den opprinnelige ordren, eller utstede en kreditnota for forskudd.|[Korriger forskudd](finance-how-to-correct-prepayments.md)|  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Gjennomgang: Konfigurer og fakturer salgsforskudd](walkthrough-setting-up-and-invoicing-sales-prepayments.md)  
 [Finans](finance.md)  
