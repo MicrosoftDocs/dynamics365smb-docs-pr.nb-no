@@ -1,35 +1,35 @@
 ---
 title: Spore varesporede varer
-description: 'Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble mottatt, produsert eller returnert med funksjonene Varesporing og Finn enheter.'
+description: 'Du kan se hvor en varesporet vare ble brukt, inkludert hvordan og når den ble mottatt, produsert eller returnert med funksjonene Varesporing og Søk etter poster.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
 ms.search.forms: '6520,'
-ms.date: 06/16/2021
+ms.date: 05/16/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="trace-item-tracked-items"></a>Spore varesporede varer
+# Spore varesporede varer
 
 Du kan vise hvor en varesporet vare er brukt, inkludert hvordan og når den ble mottatt eller produsert, overført, solgt, forbrukt eller returnert. Du kan også finne alle gjeldende forekomster av et bestemt serie- eller partinummer i databasen. Dette gjør du ved hjelp av funksjonene Varesporing og [Søk etter poster](ui-find-entries.md).  
 
-Disse funksjonene kan være spesielt nyttige i kvalitetskontroll når du må finne ut hvilke kunder som mottok produkter fra et bestemt partinummer, eller når du må finne ut hvilket parti en defekt komponent kom fra.  
+Disse funksjonene kan være nyttige i kvalitetskontroll når du må finne ut hvilke kunder som mottok produkter med et bestemt partinummer, eller når du må finne ut hvilket parti en defekt komponent kom fra.  
 
  På siden **Varesporing** kan du spore fremover og bakover i en sekvens med bokførte lagertransaksjoner for serie- eller partinummeret.  
 
- Du kan ikke se transaksjonssekvensen på siden **Søk etter poster**, men du kan se alle postene for serie- eller partinummeret, både bokførte poster og åpne poster.  
+ På **siden Søk etter poster** kan du ikke se rekkefølgen av transaksjonene, men du kan se alle postene for serie- eller partinummeret, både bokførte poster og åpne poster.  
 
  De to funksjonene kan brukes i kombinasjon ved å overføre et sporet serie- eller partinummer på siden **Søk etter poster** hvis du vil fullføre et fullstendig sporingsscenario. <!-- For more information, see [Walkthrough: Tracing Serial-Lot Numbers](walkthrough-tracing-serial-lot-numbers.md).   -->
 
-## <a name="to-trace-item-tracked-items"></a>Slik sporer du varesporede varer
+## Slik sporer du varesporede varer  
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Varesporing** og velg den relaterte koblingen.  
 2.  Angi de bestemte varenumrene eller et filter på varenumrene du vil spore, i filterfeltene øverst på siden.  
 3.  Velg om du også vil vise hvor komponentene for varen kommer fra, i feltet **Vis komponenter**. Tabellen nedenfor beskriver alternativene.  
 
-    |Felt|Beskrivelse|  
+    |Felt|Description|  
     |----------------------------------|---------------------------------------|  
     |**Nei**|Ikke vis komponenter.|  
     |**Bare varesporet**|Bare vise komponenter som har parti- eller serienumre.|  
@@ -52,14 +52,14 @@ Disse funksjonene kan være spesielt nyttige i kvalitetskontroll når du må fin
 >   
 >  Når du skal søke etter varesporingslinjer der transaksjonsloggen allerede er sporet, velger du knappen **Gå til allerede sporet**. Den aktuelle varesporingslinjen velges, og alle underliggende linjer utvides.  
 
-## <a name="to-find-item-tracked-items-with-find-entries"></a>Slik søker du etter varesporede varer med Søk etter poster:
+## Slik søker du etter varesporede varer med Søk etter poster:  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Finn enheter**, og velg deretter den relaterte koblingen.  
-2. Velg **Handlinger** > **Finn etter** > **Finn etter varereferanse**.
+2. Velg **Søk etter elementreferanser**.
 3. I feltene **Serienr.** og **Partinr.** angir du varesporingsnumrene du vil spore.  
 4. Velg **Søk** for å finne alle forekomster av serie- eller partinummeret i databasen.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Lager](inventory-manage-inventory.md)  
 [Arbeide med serie-, parti- og pakkenumre](inventory-how-work-item-tracking.md)  

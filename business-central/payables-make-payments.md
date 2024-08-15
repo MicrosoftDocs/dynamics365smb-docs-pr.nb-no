@@ -7,11 +7,11 @@ ms.reviewer: bholtorf
 ms.topic: overview
 ms.search.keywords: 'print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '254, 256, 1190, 1191, 1227, 1228, 1229'
-ms.date: 05/24/2024
+ms.date: 07/15/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="make-payments"></a>Utføre betalinger
+# Foreta betalinger
 
 Du betaler leverandører eller kunder eller refusjoner til de ansatte ved å bokføre betalingslinjer på siden **Betalingskladd**. Utbetalingskladden er en finanskladd som er tilpasset for betalinger, med mange avanserte handlinger. Eksempler på dette er handlingen **Betalingsforslag – leverandør**, som finner leverandørbetalinger som har forfalt, og rapporten **Leverandør – forfallsoversikt**, som viser en oversikt over forfalte leverandørbetalinger.  
 
@@ -35,7 +35,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 | Betal leverandøren kontant eller med sjekk, og bokfør betalingen når du bokfører selve fakturaen. |[Gjøre opp kjøpsfakturaer omgående](finance-how-to-settle-purchase-invoices-promptly.md) |
 | Du kan sørge for at at banken bare fjerner validerte sjekker og beløp ved å sende dem en fil som inneholder informasjon om leverandør, sjekk og betaling. |[Eksporter en Positive Pay-fil](finance-how-positive-pay.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Administrere skyldige beløp](payables-manage-payables.md)  
 [Innkjøp](purchasing-manage-purchasing.md)  

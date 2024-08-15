@@ -7,11 +7,11 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'payment journal, print check, vendor payment, creditor, debt, balance due, AP'
 ms.search.form: '256, 404,'
-ms.date: 05/07/2024
+ms.date: 07/17/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
-# <a name="make-check-payments"></a>Foreta sjekkbetalinger
+# Foreta sjekkbetalinger
 
 Du kan utstede elektroniske og manuelle sjekker i [!INCLUDE[prod_short](includes/prod_short.md)]. Begge metodene bruker utbetalingskladden til å utstede sjekker til leverandører. Du kan også kansellere sjekker og vise sjekkposter.
 
@@ -20,7 +20,7 @@ Følgende fremgangsmåte viser hvordan du betaler en leverandør med maskinelle 
 Du kan betale med to typer sjekker. For begge disse typene må feltet **Motkontotype** eller **Kontotype** inneholde **Bankkonto**.
 
 - **Maskinell sjekk**: Velg dette alternativet hvis du vil at programmet skal opprette og senere skrive ut en sjekk på beløpet på betalingskladdelinjen. Du må skrive ut sjekkene før du kan bokføre kladdelinjene.
-- **Manuell sjekk**: Velg dette alternativet hvis du manuelt har skrevet en sjekk og vil at programmet skal opprette en tilhørende sjekkpost på dette beløpet. Når du bruker dette alternativet, kan du ikke skrive ut sjekken.
+- **Manuell sjekk**: Velg dette alternativet hvis du manuelt har skrevet en sjekk og vil at programmet skal opprette en tilhørende sjekkpost på dette beløpet. Ved å bruke dette alternativet kan du ikke skrive ut sjekken.
 
 > [!NOTE]  
 > For å være sikker på at banken bare innfrir validerte sjekker og beløp, kan du sende dem en fil som inneholder informasjon om leverandør, sjekk og betaling. Hvis du vil ha mer informasjon, kan du se [Eksportere en Positive Pay-fil](finance-how-positive-pay.md).
@@ -30,7 +30,7 @@ Du kan betale med to typer sjekker. For begge disse typene må feltet **Motkonto
 
 Du kan skrive ut opptil 10 fakturaer på en side for en blankett. Hvis en sjekk gjelder for flere enn 10 fakturaer, kansellerer vi sjekken på den første siden og skrive ut ordet KANSELLER på sjekken når du skriver ut blanketten. Vi skriver deretter ut resten av fakturaene og det totale sjekkbeløpet på den andre siden.
 
-## <a name="to-pay-a-vendor-invoice-with-a-computer-check"></a>Slik betaler du en leverandørfaktura med en maskinell sjekk
+## Slik betaler du en leverandørfaktura med en maskinell sjekk
 
 Nedenfor beskrives hvordan du betaler en leverandør med sjekk. Fremgangsmåten er lik refusjon til kunde med sjekk.
 
@@ -50,13 +50,13 @@ Fullstendig utlignede leverandørposter og bankposter opprettes.
 > [!NOTE]  
 > Hvis du vil skrive ut og betale sjekker i flere valutaer fra forskjellige bankkonti, må du utføre kjørselen **Skriv ut sjekk** separat for hver enkelt valuta og angi riktig bankkonto.
 
-## <a name="to-cancel-printed-checks-that-arent-posted"></a>Kansellere utskrevne sjekker som ikke er bokført
+## Slik annullerer du utskrevne sjekker som ikke er bokført:
 
 Du kan kansellere ikke-bokførte sjekker etter at de er skrevet ut, ved hjelp av handlingen **Kanseller sjekk** på siden **Betalingskladd**.
 
 1. På siden **Betalingskladd** velger du **Kanseller sjekk**, og deretter velger du hvilke sjekker som skal kanselleres.
 
-## <a name="to-void-checks"></a>Kansellere sjekker
+## Kansellere sjekker
 
 Når sjekkbetaliner er bokført, kan du bare kansellere (void) sjekker fra de resulterende bankpostene.
 
@@ -69,14 +69,14 @@ Når sjekkbetaliner er bokført, kan du bare kansellere (void) sjekker fra de re
 4. Merk av for **Kanseller sjekk**.
 5. Velg **OK**.
 
-## <a name="to-view-a-summary-of-posted-checks"></a>Slik viser du et sammendrag av bokførte sjekker
+## Slik viser du et sammendrag av bokførte sjekker
 
 Hvis du vil gå gjennom bokførte sjekker, for eksempel for å kontrollere flere sjekker som er betalt til én leverandør, kan du bruke rapporten **Bankkonto - sjekkopplysninger**.
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") angi **Bankkontoavstemming – sjekkopplysninger**, og velg deretter den relaterte koblingen.
 2. Angi filtre som er relevante, og velg deretter **Forhåndsvisning**-knappen.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Utføre betalinger](payables-make-payments.md)  
 [Administrere skyldige beløp](payables-manage-payables.md)  

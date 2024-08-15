@@ -11,11 +11,11 @@ ms.search.form: null
 ms.date: 06/06/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="work-with-bills-of-material"></a>Arbeid med stykklister
+# Arbeid med stykklister
 
 Du bruker stykklister til å strukturere overordnede varer som må monteres fra andre varer eller produseres av ressurser eller produksjonsressurser fra komponenter.
 
-## <a name="assembly-boms-or-production-boms"></a>Monteringsstykklister eller produksjonsstykklister
+## Monteringsstykklister eller produksjonsstykklister
 
 [!INCLUDE[prod_short](includes/prod_short.md)] støtter to ulike stykklistetyper:
 
@@ -24,7 +24,7 @@ Du bruker stykklister til å strukturere overordnede varer som må monteres fra 
 | [Monteringsstykklister](assembly-how-work-assembly-boms.md) | Lager/montering | Varer som består av andre varer, sammen med enkle eller ingen ressurser. |
 | [Prod.stykklister](production-how-to-create-production-boms.md) | Produksjon | Varer som består av ulike komponenter og halv fabrikater, produsert i et arbeidssenter eller en produksjonsressurs. |
 
-Bruk monteringsordrer til å produsere sluttvarer fra komponenter i en enkel prosess som kan utføres av én eller flere grunnleggende ressurser, som ikke er produksjonsressurser eller arbeidssentre, eller uten noen ressurser. En monteringsprosess kan for eksempel være å plukke to flasker vin og én kaffepose og deretter pakke dem som en gave.  
+Du bruker monteringsordrer til å lage sluttvarer fra komponenter i en enkel prosess som kan utføres av én eller flere grunnleggende ressurser, som ikke er maskin eller arbeidssentre, eller uten ressurser. En monteringsprosess kan for eksempel være å plukke to flasker vin og én kaffepose og deretter pakke dem som en gave.  
 
 En monteringsstykkliste er hoveddataene som definerer hvilke komponentvarer som inngår i en montert sluttvare, og hvilke ressurser som brukes til å montere monteringselementet. Når du angir en monteringsvare og et antall i hodet i en ny monteringsordre, fylles monteringsordrelinjene automatisk ut i henhold til monteringsstykklisten, med én monteringsordrelinje per komponent eller ressurs. Finn ut mer under [Monteringsstyring](assembly-assemble-items.md).
 
@@ -36,14 +36,14 @@ Konseptet med ressurser i produksjon er mye mer avansert enn i monteringsstyring
 
 Både monteringsordrer og produksjonsordrer kan kobles direkte til salgsordrer. Du kan imidlertid bare bruke monteringsordrer til å tilpasse sluttvaren direkte for en kundeforespørsel med ordren.
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Arbeid med monteringsstykklister](assembly-how-work-assembly-boms.md)  
-[Opprette produksjonsstykklister](production-how-to-create-production-boms.md)  
-[Registrere nye varer](inventory-how-register-new-items.md)  
-[Behandle produktvarianter](inventory-item-variants.md)  
-[Lager](inventory-manage-inventory.md)  
-[Produksjon](production-manage-manufacturing.md)  
-[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Arbeide med monteringsstykklister](assembly-how-work-assembly-boms.md)    
+[Opprette produksjonsstykklister](production-how-to-create-production-boms.md)    
+[Registrere nye varer](inventory-how-register-new-items.md)    
+[Administrer produktvarianter](inventory-item-variants.md)    
+[Lager](inventory-manage-inventory.md)    
+[Produksjon](production-manage-manufacturing.md)    
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

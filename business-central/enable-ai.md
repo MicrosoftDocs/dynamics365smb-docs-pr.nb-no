@@ -5,14 +5,14 @@ author: jswymer
 ms.author: jswymer
 ms.reviewer: jswymer
 ms.topic: how-to
-ms.date: 04/16/2024
+ms.date: 06/28/2024
 ms.custom: bap-template
 ms.search.form: 7775
 ms.collection:
   - bap-ai-copilot
 ---
 
-# <a name="configure-copilot-and-ai-capabilities"></a>Konfigurer Copilot- og KI-funksjoner
+# Konfigurer Copilot- og KI-funksjoner
 
 <!--[!INCLUDE[ai-preview](includes/ai-preview.md)]-->
 
@@ -39,12 +39,12 @@ Copilot er en systemfunksjon og en integrert del av Business Central. I likhet m
 
 Hvis et av disse kravene ikke er oppfylt, er ikke funksjonen tilgjengelig for bruk.
 
-## <a name="prerequisites"></a>Forutsetninger
+## Forutsetninger
 
 - Du bruker Business Central Online.
 - Du er en [administrator](#requirements-for-being-an-administrator) i Business Central.
 
-## <a name="allow-data-movement-across-geographies"></a>Tillat dataflytting på tvers av geografiske områder
+## Tillat dataflytting på tvers av geografiske områder
 
 Denne oppgaven gjelder bare hvis alternativet **Tillat dataflytting** vises nær toppen av siden **Copilot og KI-funksjoner**. Hvis koblingen **Hvordan styrer jeg kopilotdataene mine?** vises i stedet for alternativet **Tillat dataflytting**, hopper du over denne oppgaven.
 
@@ -84,7 +84,7 @@ Meanwhile, customers with environments outside the United States can use Copilot
 
 The information in the following table outlines the Azure OpenAI service that's used by the Copilot services based on the geography of their Dynamics 365 environment when they opt-in to share data.-->
 
-## <a name="activate-features"></a>Aktivere funksjoner
+## Aktivere funksjoner
 
 Alle Copilot- og KI-funksjoner er aktive som standard når de gjøres tilgjengelige i forhåndsversjon eller blir tilgjengelige. På siden **Copilot og KI-funksjoner** kan du deaktivere eller aktivere på nytt enkeltfunksjoner for alle brukere.
 
@@ -99,7 +99,7 @@ Alle Copilot- og KI-funksjoner er aktive som standard når de gjøres tilgjengel
 <!-- don't review 
 
 <!-- For 2024 there are no AI features governed by **Feature Management**, so this section is not shown
-## <a name="enable-feature-in-feature-management"></a>Enable feature in Feature Management
+## Enable feature in Feature Management
 
 When individual Copilot capabilities are released in Business Central minor updates, these capabilities are optional until the next major update. **Feature Management** is used to turn on or off features that are in preview, like bank reconciliation, and some features that are generally available, like marketing text suggestions. [Learn more about feature management](/dynamics365/business-central/dev-itpro/administration/feature-management).
 
@@ -112,7 +112,7 @@ When individual Copilot capabilities are released in Business Central minor upda
 
    For more information about feature management in general, go to [Feature Management](/dynamics365/business-central/dev-itpro/administration/feature-management).-->
 
-## <a name="granting-user-access"></a>Gi brukertilgang
+## Gi brukertilgang
 
 Copilot- og KI-funksjoner kan tilby funksjonalitet som er beregnet for alle brukere på tvers av organisasjonen eller for spesifikke brukerroller. De fleste Copilot- og KI-funksjonene tilbyr tilgangskontroll via tillatelser og tillatelsessett i Business Centrals tillatelsesstyringssystem. [Finn ut mer om tillatelser og tillatelsessett](ui-define-granular-permissions.md).
 
@@ -129,19 +129,19 @@ Tabellen nedenfor viser tillatelsene som kreves for å bruke Copilot-funksjoner 
 
 Hvis du vil gi eller nekte tilgang til spesifikke kopilot- og KI-funksjoner som ikke er fra Microsoft, kan du se funksjonens dokumentasjon eller utgiver for å identifisere de nødvendige tillatelsene.
 
-## <a name="requirements-for-being-an-administrator"></a>Krav for å være administrator
+## Krav for å være administrator
 
 Du må ha SUPER-tillatelser i Business Central-brukerkontoen eller en av følgende Business Central-lisenser:
 
-- Delegert administrator
-- Delegert brukerstøtte
-- Global administrator
-- BC-administrator
-- D365-administrator
+- Delegert administratoragent – partner
+- Delegert brukerstøtteagent – partner
+- Intern administrator
+- Intern BC-administrator
+- Dynamics 365-administrator
 
 Business Central tilbyr ennå ikke detaljerte tillatelser på objektnivå, slik at bare bestemte administratorer kan konfigurere Copilot.
 
-## <a name="next-steps"></a>Neste trinn
+## Neste trinn
 
 Når du har aktivert og samtykket til funksjonene, er du klar til å prøve dem. Gå til følgende artikler:
 
@@ -152,7 +152,7 @@ Når du har aktivert og samtykket til funksjonene, er du klar til å prøve dem.
 - [Avstem bankkontoer med Copilot](bank-reconciliation-with-copilot.md)
 - [Foreslå linjer i ordrer med Copilot](sales-suggest-sales-lines-with-copilot.md)
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Feilsøk Copilot- og KI-funksjoner](ai-copilot-troubleshooting.md)  
 [Vanlige spørsmål om analysehjelp](faqs-analysis-assist.md)  

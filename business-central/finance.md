@@ -1,5 +1,5 @@
 ---
-title: Økonomistyring
+title: Økonomistyring (inneholder Video)
 description: 'Finn ut hvordan Business Central støtter dine behov for økonomistyring, regnskap, revisjon og bokføring.'
 author: brentholtorf
 ms.author: bholtorf
@@ -7,26 +7,26 @@ ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: 'accounting, auditing, bookkeeping'
 ms.search.form: '1151, 1166, 9027, 9004'
-ms.date: 05/01/2024
+ms.date: 05/17/2024
 ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="financial-management"></a>Økonomistyring
+# Økonomistyring
 
 [!INCLUDE[prod_short](includes/prod_short.md)] inneholder en standardkonfigurasjon for de fleste finansielle prosesser, men du kan endre den slik at den passer til din virksomhet. Finn ut mer under [Konfigurer finans](finance-setup-finance.md).
 
 Standardkonfigurasjonen inneholder kontoplaner og standard bokføringsgrupper, som gjør prosessen ved å tilordne standard bokføringsfinanskonti til kunder, leverandører og varer mer effektiv.  
 
-Delene nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.  
+De følgende delene beskriver en oppgavesekvens med koblinger til artiklene som beskriver dem.  
 
-## <a name="take-a-video-tour"></a>Få en videoinnføring
+## Få en videoinnføring
 
 Denne videoen introduserer noen av nøkkelfunksjonene for økonomistyring. <br><br>  
 
 > [!Video https://www.microsoft.com/videoplayer/embed/RE4Fss4?rel=0]
 
-## <a name="get-started-with-finance-capabilities"></a>Kom i gang med økonomifunksjoner
+## Kom i gang med økonomifunksjoner
 
 Før du kan begynne å drive selskapet, må du angi hvordan du vil administrere selskaptes økonomiprosesser.
 
@@ -35,7 +35,7 @@ Før du kan begynne å drive selskapet, må du angi hvordan du vil administrere 
 | Endre standardkonfigurasjonen for [!INCLUDE[prod_short](includes/prod_short.md)] for de fleste økonomiprosesser til å passe din virksomhet. | [Konfigurere finans](finance-setup-finance.md) | 
 | Finn ut mer om finans og kontoplanen |[Forstå Finans og kontoplanen](finance-general-ledger.md) |
 
-## <a name="accounting"></a>Regnskap
+## Regnskap
 
 Denne delen beskriver noen av regnskapsverktøyene du bruker til å registrere finanstransaksjoner, slik at de oppfyller dine krav til registrering, rapportering og ledelsesøkonomi.
 
@@ -49,7 +49,7 @@ Denne delen beskriver noen av regnskapsverktøyene du bruker til å registrere f
 | Finn ut mer om de tilgjengelige alternativene for å automatisere sending av abonnementsfakturaer til kundene og registrere gjentakelsesomsetning. |[Arbeid med gjentakelsesomsetning](finance-recurring-invoicing.md)|
 |Bokfør ansattutgifter for arbeidsrelaterte oppgaver og foreta refusjoner direkte til de ansattes bankkontoer.|[Registrer og refunder ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)|
 
-## <a name="financial-analytics"></a>Økonomisk analyse
+## Økonomisk analyse
 
 Denne delen beskriver analyseverktøyene du kan bruke til å få innsikt i finansdata.
 
@@ -67,7 +67,7 @@ Denne delen beskriver analyseverktøyene du kan bruke til å få innsikt i finan
 | Utforsk innebygde nøkkelrapporter for utestående fordringer. | [Innebygde rapporter om utestående fordringer](receivables-reports.md)
 | Utforsk innebygde rapporter om leverandørgjeld. | [Innebygde rapporter om leverandørgjeld](payables-reports.md)
 
-## <a name="vat-and-taxes"></a>Mva. og avgifter
+## Mva. og avgifter
 
 Det er enkelt å jobbe med mva. i [!INCLUDE[prod_short](includes/prod_short.md)], og du kan enten bruke et manuelt eller automatisk oppsett. Disse artiklene inneholder informasjon om hvordan du oppfyller land-/områdespesifikke forskrifter.
 
@@ -77,7 +77,7 @@ Det er enkelt å jobbe med mva. i [!INCLUDE[prod_short](includes/prod_short.md)]
 |Klargjør en rapport med oversikt over mva fra salg, og send inn rapporten til skattemyndighetene i EU. | [Rapporter mva til skattemyndighetene](finance-how-report-vat.md)|
 |Konverter servicekontrakter til å endre mva-satsen manuelt.|[Konverter servicekontrakter som inkluderer mva-beløp](service-how-to-convert-service-contracts.md)|
 
-## <a name="manage-receivables-and-payables"></a>Administrer fordringer og skyldige beløp
+## Administrer fordringer og skyldige beløp
 
 Kjernen i finans er sentrert rundt å håndtere fordringer og skyldige beløp, registrere transaksjoner, avstemme bankkontoer, betale leverandører, motta kundebetalinger, refundere ansatte for utgifter og så videre. Denne delen inneholder koblinger til kjernekonseptene.
 
@@ -88,7 +88,7 @@ Kjernen i finans er sentrert rundt å håndtere fordringer og skyldige beløp, r
 |Be kundene om å sende betaling før du leverer til dem, eller send betaling til leverandører før de leverer til deg.|[Fakturere forskuddsbetalinger](finance-invoice-prepayments.md)|
 | Avstem og overføre penger mellom kontoer. |[Avstemme bankkonter](bank-manage-bank-accounts.md) |
 
-## <a name="manage-multiple-companies"></a>Administrer flere selskaper
+## Administrer flere selskaper
 
 [!INCLUDE [prod_short](includes/prod_short.md)] gir små og mellom store bedrifter en forretningsadministrasjonsløsning som er enkel å bruke og kan opprettholdes med lave eierkostnader.
 
@@ -98,7 +98,7 @@ Kjernen i finans er sentrert rundt å håndtere fordringer og skyldige beløp, r
 |Kombinere finansposter fra flere selskaper i ett virtuelt konsolidert selskap for finansanalyse.|[Konsolider finansielle data fra flere selskaper](finance-consolidated-company-reporting.md)|
 | Samarbeid tettere med relaterte selskaper som du har tilgang til, og for å få informasjon om viktige interessepunktdata (nøkkelindikatorer). | [Administrere arbeid på tvers av flere selskaper i selskapshuben](company-hub.md)|
 
-## <a name="period-end-reporting-and-related-tasks"></a>Rapportering ved periodeslutt og relaterte oppgaver
+## Rapportering ved periodeslutt og relaterte oppgaver
 
 Ved slutten av hver regnskapsperiode eller ved slutten av regnskapsåret er det en rekke administrative oppgaver som må utføres. Du vil for eksempel sannsynligvis sørge for at alle dokumenter og kladder er bokført, sørge for at valutadataene er oppdatert, lukke tablåene og så videre. De faktiske oppgavene avhenger av firmaet.
 
@@ -108,7 +108,7 @@ Ved slutten av hver regnskapsperiode eller ved slutten av regnskapsåret er det 
 | Importere lønnstransaksjoner fra lønnssystemet til Finans. |[Importer lønnstransaksjoner](finance-how-import-payroll-transactions.md)|
 |Lær hvordan du bruker rollesenteret for regnskapsførere, kommuniserer en ekstern regnskapsfører, og bruk selskapssenteret til å håndtere kontoer for flere klienter.|[Regnskapsføreropplevelser i Business Central ](finance-accounting.md)| 
 
-## <a name="managerial-accounting"></a>Ledelsesøkonomi
+## Ledelsesøkonomi
 
 Som forretningsleder eller -kontroller er det viktig at du kan klargjøre og analysere forretningsdataene du trenger for å ta informerte beslutninger. Artiklene i tabellen nedenfor hjelper deg med å klargjøre data. Hvis du vil finne ut mer om analyse, kan du gå til [Oversikt over forretningsanalyse og rapportering](reports-bi-reporting.md).
 
@@ -119,13 +119,13 @@ Som forretningsleder eller -kontroller er det viktig at du kan klargjøre og ana
 |Følg en ende-til-ende-prosess som beskriver hvordan du bruker finansrapporter til å lage kontantstrømprognoser.|[Gjennomgang: Lage kontantstrømprognoser ved å bruke finansrapporter](walkthrough-making-cash-flow-forecasts-by-using-account-schedules.md)|
 | Arbeid med årsregnskap og økonomiske oversikter i Microsoft Excel. |[Analysere årsregnskap i Excel](finance-analyze-excel.md) |
 
-## <a name="free-e-learning-modules"></a>E-læringsmoduler
+## E-læringsmoduler
 
 Vil du finne ut mer om [!INCLUDE[prod_short](includes/prod_short.md)] i ditt eget tempo? 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere finans](finance-setup-finance.md)  
 [Arbeid med salgsmodulen](sales-manage-sales.md)  

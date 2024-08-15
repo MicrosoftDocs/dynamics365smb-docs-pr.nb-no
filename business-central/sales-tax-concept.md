@@ -1,18 +1,18 @@
 ---
-title: Merverdiavgift i standardversjonen
+title: Mva i standardversjonen
 description: 'Finn ut om hvordan basisversjonen av Business Central støtter merverdiavgift, og få en beskrivelse av det grunnleggende konseptet.'
 author: altotovi
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'tax, posting, sales tax'
 ms.search.form: '10, 315, 466, 467, 468, 469, 10015, 10016, 10101'
-ms.date: 07/21/2022
+ms.date: 07/11/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="sales-tax-in-the-default-version-of-business-central"></a>Merverdiavgift i standardversjonen av Business Central
+# Mva. i standardversjonen av Business Central
 
 **Merverdiavgift** er en avgift som gjelder kjøp av varer og tjenester for forbrukere og salg av varer og tjenester for bedrifter. Merverdiavgiften skal ideelt gjelde alle endelig forbruk med få unntak. Unntak i det endelige forbruket avhenger av lokale myndigheter, men er vanligvis det en bedrift-til-firma-transaksjon som er unntatt merverdiavgift.  
 
@@ -23,11 +23,11 @@ Vanligvis gjelder merverdiavgift detaljhandelssalg av varer og tjenester og er e
 > [!IMPORTANT]
 > Selv om merverdiavgift er tilgjengelig i standardversjonen, støtter Microsoft bruken av merverdiavgift bare i USA og Canada.
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Rapporter merverdiavgift i USA](localfunctionality/UnitedStates/us-sales-tax.md)  
-[Rapporter merverdiavgift i Canada](localfunctionality/canada/ca-sales-tax.md)  
-[Økonomistyring](finance.md)
-[Rapporter mva. til skattemyndigheter](finance-how-report-vat.md)
+[Rapportere merverdiavgift i USA](localfunctionality/UnitedStates/us-sales-tax.md)    
+[Rapporter merverdiavgift i Canada](localfunctionality/canada/ca-sales-tax.md)    
+[Økonomistyring](finance.md)  
+[Rapporter mva. til skattemyndighetene](finance-how-report-vat.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]
