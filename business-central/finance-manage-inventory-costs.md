@@ -5,17 +5,18 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/16/2021
+ms.date: 07/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="managing-inventory-costs"></a>Administrere lagerkostnader
-Kostnadsstyring, også kalt "kostredegjøring", handler om å registrere og rapportere kostnader ved forretningsdrift. Det inkluderer rapportering av produksjonskost og lagerkost, det vil si verdien av varene.   
+
+# Administrere lagerkostnader
+Kostnadsstyring, også kalt "kostnadsberegning", er opptatt av å registrere og rapportere forretningsdriftskostnader. Det inkluderer rapportering av produksjonskost og lagerkost, det vil si verdien av varene.   
 
 Sentrale prinsipper å forstå er at lagermetoder definerer hvordan varer verdsettes når de forlater lageret, at kostjustering oppdaterer solgte varers kost med relatert kjøpskost bokført etter salget, og at lagerverdier må bokføres til dedikerte finanskonti ved regelmessige intervaller.
 
-Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.
+Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artiklene som beskriver dem.
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
@@ -33,7 +34,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene 
 |Utføre kontroll- og rapporteringsoppgaver ved periodeslutt, for eksempel beregne lagerverdien og bokføre kost til Finans.|[Rapporter kostnader og avstem med Finans](/dynamics365/business-central/finance-how-to-post-inventory-costs-to-the-general-ledger)|
 |Finn ut hvordan du kan bruke jobbkøen til å flytte aktivitetene for å justere lagerkost eller avstemme den sammen med Finans til bakgrunnen.|[Juster og avstem lagerkost med finans med jobbkø](finance-manage-inventory-costs.md)|
 
-## <a name="see-also"></a>Se også
+## Se også  
  [Finans](finance.md)  
  [Lager](inventory-manage-inventory.md)   
  [Salg](sales-manage-sales.md)   

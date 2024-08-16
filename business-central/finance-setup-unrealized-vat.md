@@ -1,22 +1,22 @@
 ---
-title: Definer urealisert merverdiavgift
+title: Definere urealisert merverdiavgift
 description: 'Hvis du bruker kontantbasert regnskap, kan du angi hvordan urealisert MVA for salg og innkjøp skal håndteres.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'cash, VAT, unrealized, cash-based'
 ms.search.form: '118, 472, 473'
-ms.date: 04/01/2021
+ms.date: 08/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="set-up-unrealized-vat-for-cash-based-accounting"></a>Definere urealisert merverdiavgift for kontantbasert regnskap
+# Definere urealisert mva for kontantbasert regnskap
 
-Hvis du bruker metoder for kontantbasert regnskap, kan du definere [!INCLUDE[prod_short](includes/prod_short.md)] for å håndtere urealisert MVA.
+Hvis du bruker kontantbaserte regnskapsmetoder, kan du definere [!INCLUDE[prod_short](includes/prod_short.md)] for å håndtere urealisert mva.
 
-## <a name="to-use-general-ledger-accounts-for-unrealized-vat"></a>Slik bruker du finanskonti for urealisert MVA
+## Slik bruker du finanskonti for urealisert MVA
 
 Du kan beregne og bokføre mva-beløp til en midlertidig finanskonto når fakturaen bokføres, og deretter bokføre den til den riktige finanskontoen og inkludere den i mva-oppgaver når den faktiske betalingen av fakturaen bokføres. Før du kan gjøre dette, må du fullføre [mva.-bokføringsoppsettet](finance-setup-vat.md).
 
@@ -31,7 +31,7 @@ Hvis du vil bruke konti for urealisert MVA, gjør du følgende:
 | Alternativ | Beskrivelse |
 | --- | --- |
 | Tom | Velg dette alternativet hvis du ikke vil bruke funksjonen for urealisert MVA. |
-| Prosent | Betalinger dekker både MVA og fakturabeløpet i forhold til prosenten av den totale fakturaen. Det betalte MVA-beløpet blir overført fra konto for urealisert MVA til kontoen for realisert MVA. |
+| Prosent | Betalingen dekker både mva. og fakturabeløpet i forhold til betalingens prosent av det resterende fakturabeløpet. Det betalte MVA-beløpet blir overført fra konto for urealisert MVA til kontoen for realisert MVA. |
 | Første | Betalinger dekker mva først og deretter fakturabeløp. I dette feltet vil beløpet som er overført fra den urealiserte mva-kontoen til mva-kontoen, være likt betalingsbeløpet til hele mva. er betalt. |
 | Siste | Betalinger dekker fakturabeløpet først og deretter mva. I dette tilfellet blir ingen beløp overført fra kontoen for urealisert mva. til mva-kontoen før det totale fakturabeløpet, eksklusive MVA, er betalt. |
 | Først (fullt betalt) | Betalinger dekker MVA først (som alternativet _Først_), men ingen beløp vil bli overført til MVA-kontoen før hele MVA-beløpet er betalt. |
@@ -46,7 +46,7 @@ Hvis du vil bruke konti for urealisert MVA, gjør du følgende:
 > [!NOTE]  
 > Mva-beløpet bokføres på denne kontoen, der det blir værende til kundens betaling er bokført. Beløpet overføres deretter til finanskontoen for inngående mva.
 
-## <a name="see-also"></a>Se også
-[Definer beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md)
+## Se også
+[Definer beregninger og bokføringsmetoder for merverdiavgift](finance-setup-vat.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

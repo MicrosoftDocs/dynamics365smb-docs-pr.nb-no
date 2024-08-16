@@ -6,12 +6,13 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: reimbursement
 ms.search.form: '63, 234, 625, 5224, 5237, 5238, 5239, 5240'
-ms.date: 03/13/2024
+ms.date: 08/07/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="record-and-reimburse-employees-expenses"></a>Registrere og refundere ansattes utgifter
+
+# Registrere og refundere ansattes utgifter
 
 [!INCLUDE[prod_short](includes/prod_short.md)] støtter transaksjoner for ansatte på lignende måte som for leverandører. Derfor finnes det bokføringsgrupper for de ansatte for å sikre at de ansattes finansposter bokføres til de relevante kontiene i Finans.
 
@@ -20,7 +21,7 @@ ms.reviewer: bholtorf
 
 Hvis ansatte bruker egne penger under forretningsaktiviteter, kan du bokføre utgifter til kontoen for den ansatte. Deretter kan du refundere den ansatte ved å foreta en betaling til den ansattes bankkonto, på samme måte som når du betaler leverandører.  
 
-Denne artikkelen forklarer hvordan du registrerer utgiftene i bøkene og hvordan du refunderer den ansatte. Organisasjonen kan ha en portal eller app der ansatte kan sende reiseregninger.
+Denne artikkelen forklarer hvordan du registrerer utgiftene i bøkene og hvordan du refunderer den ansatte. Organisasjonen kan ha en portal eller app der ansatte kan sende reiseregningene sine.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] er fleksibel nok til å dekke mange forskjellige rutiner. De nøyaktige kontonumrene som skal brukes, avhenger av organisasjonens konfigurasjon og prosesser.  
 
@@ -28,7 +29,7 @@ Du kan bruke finanskladder for ansattkontoer til å registrere ansattes utgifter
 
 Hvis du vil sikre at valutakursen for beløpene er oppdatert, kan du justere de ansattes saldoer når du kjører satsjobben Valutakurs. Hvis du vil bruke valutakurstabellen, men gjøre opp ansattes saldoer i lokal valuta, kan du ekskludere ansattes kontoer når du justerer valutakursene.
 
-## <a name="to-record-an-employees-expense"></a>Slik registrerer du utgifter for en ansatt
+## Slik registrerer du utgifter for en ansatt
 
 Du bokfører utgifter for de ansatte på siden **Finanskladd**.
 
@@ -44,7 +45,7 @@ Du bokfører utgifter for de ansatte på siden **Finanskladd**.
     > Hvis du vil angi flere utgiftslinjer ovenfor én motkontolinje for den ansattes bankkonto, merker du av for **Foreslå motkontobeløp** på linjen for kladden på siden **Finanskladder**. Deretter fylles **Beløp**-feltet på motkontolinjen automatisk ut med verdien som kreves for å balansere utgiftene.
 5. Velg **Bokfør**-handlingen for å registrere utgifter på kontoen for den ansatte.
 
-## <a name="to-reimburse-an-employee"></a>Slik refunderer du en ansatt
+## Slik refunderer du en ansatt
 
 Du refunderer ansatte ved bokføring av betalinger til deres bankkontoer på siden **Utbetalingskladd**.  
 
@@ -54,17 +55,17 @@ Du refunderer ansatte ved bokføring av betalinger til deres bankkontoer på sid
 4. Du kan også velge handlingen **Betalingsforslag - ansatt** for å automatisk sette inn kladdelinjer for ventende refusjoner for ansatte.
 5. Velg handlingen **Bokfør** for å registrere refusjonen.  
 
-## <a name="to-reconcile-reimbursements-with-employee-ledger-entries"></a>Slik avstemmer du refusjoner med finansposter for ansatte
+## Slik avstemmer du refusjoner med finansposter for ansatte
 
-Du utligner ansattes utbetalinger til de relaterte åpne finanspostene for de ansatte på samme måte som for leverandørbetalinger, for eksempel på siden **Betalingsavstemmingskladd**, basert på de relaterte bankkontoutdragspostene. Hvis du vil ha mer informasjon, kan du se [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md). Du kan også utligne manuelt på siden **Ansattposter**. Hvis du vil ha mer informasjon, kan du se relatert [Avstemme leverandørbetalinger med utbetalingskladd eller fra leverandørposter](payables-how-apply-purchase-transactions-manually.md).  
+Du utligner ansattes betalinger mot deres tilknyttede åpne ansattposter på samme måte som for leverandørbetalinger, for eksempel på **siden Betalingsavstemmingskladder**, basert på de tilknyttede bankkontoutdragspostene. Hvis du vil ha mer informasjon, kan du se [Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md). Du kan også utligne manuelt på siden **Ansattposter**. Hvis du vil ha mer informasjon, kan du se relatert [Avstemme leverandørbetalinger med utbetalingskladd eller fra leverandørposter](payables-how-apply-purchase-transactions-manually.md).  
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md)  
-[Arbeid med finanskladder](ui-work-general-journals.md)  
-[Tilbakefør kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)  
-[Finans](finance.md)  
-[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md)    
+[Arbeide med finanskladder](ui-work-general-journals.md)    
+[Reversere kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)    
+[Finans](finance.md)    
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

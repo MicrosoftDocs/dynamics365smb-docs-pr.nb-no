@@ -1,17 +1,18 @@
 ---
-title: Håndtere bankkonti
+title: Administrere bankkonti
 description: Du må regelmessig avstemme bankposter med de relaterte banktransaksjonene i bankkontiene.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: reconcile
 ms.search.form: '377, 378, 165, 1284'
-ms.date: 10/04/2023
+ms.date: 07/24/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="manage-and-reconcile-your-bank-accounts"></a>Administrer og avstem bankkontiene
+
+# Administrere og avstemme bankkontoene dine
 
 En bankavstemming bør fullføres med jevne mellomrom for alle bankkontoene for å sikre at firmaets kontantposter er riktige. Dette gjør du ved å sammenligne og utligne poster i de interne bankkontoene med banktransaksjoner i banken, og deretter bokføre saldoene på de interne bankkontoene for å gjøre totaler tilgjengelige for finansledere. Bankavstemming er også en praktisk måte å oppdage og løse manglende betalinger og bokføringsfeil.
 
@@ -20,11 +21,11 @@ Du kan utføre oppgaven på **Bankkontoavstemming**-siden der du avstemmer banke
 > [!NOTE]  
 > I nord-amerikanske versjoner kan du også utføre bankavstemming på **Bankavstemmingsforslag**-siden, som er mer egnet for sjekker og innskudd, men tilbyr ikke import av filer med bankkontoutdrag. Hvis du vil bruke denne siden i stedet for **Bankkontoavstemming**-siden, fjerner du avmerkingen for feltet **Bankavstemming med automatisk samsvar** på siden **Finansoppsett**. Hvis du vil ha mer informasjon, kan du se delen [Avstemme bankkontoer](LocalFunctionality/UnitedStates/how-to-reconcile-bank-accounts.md) under lokal funksjonalitet for USA.
 
-Før du kan administrere bankkontoer i [!INCLUDE[prod_short](includes/prod_short.md)], må du definere hver bankkonto som et bankkort. I tillegg må du definere elektroniske tjenester som du kan bruke for import av bankutdrag og eksport av betalingsfil. Hvis du vil ha mer informasjon, kan du se [Konfigurere banktjenester](bank-setup-banking.md).
+Før du kan administrere bankkontiene innenfor [!INCLUDE[prod_short](includes/prod_short.md)], må du definere hver bankkonto som en bankkonto kort. I tillegg må du definere elektroniske tjenester som du kan bruke for import av bankutdrag og eksport av betalingsfil. Hvis du vil ha mer informasjon, kan du se [Konfigurere banktjenester](bank-setup-banking.md).
 
-Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene som beskriver dem.
+Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artiklene som beskriver dem.
 
-| Hvis du vil | Se |
+| Til | Se |
 | --- | --- |
 | Du avstemmer bankkontoer som en separat oppgave på siden **Bankkontoavstemming**. |[Avstemme bankkontoer](bank-how-reconcile-bank-accounts-separately.md) |
 | Avstemme bankkonti i forbindelse med betalingsbehandling på siden **Betalingsavstemmingskladd**. |[Utligne betalinger automatisk og avstemme bankkonti](receivables-apply-payments-auto-reconcile-bank-accounts.md) |
@@ -32,7 +33,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver og har koblinger til emnene s
 > [!TIP]
 > Bruk bankavstemming til å kontrollere at bøkene er oppdaterte, og ikke bokføre avstemmingen før du er fornøyd med den.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere banktjenester](bank-setup-banking.md)  
 [Avstem bankkontoer](bank-how-reconcile-bank-accounts-separately.md)  

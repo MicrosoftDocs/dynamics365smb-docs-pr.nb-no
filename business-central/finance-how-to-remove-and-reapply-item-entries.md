@@ -1,16 +1,17 @@
 ---
-title: Fjern vareposter og utligne dem på nytt
+title: Fjerne vareposter og utligne dem på nytt
 description: Du kan vise og manuelt endre bestemte vareutligningsposter som opprettes automatisk under lagertransaksjoner.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '506, 521, 9125'
-ms.date: 04/01/2021
+ms.date: 07/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="remove-and-reapply-item-ledger-entries"></a>Fjerne varefinansposter og utligne dem på nytt
+
+# Fjerne vareposter og utligne vareposter på nytt
 På siden **Utligningsforslag** kan du vise og manuelt endre bestemte vareutligningsposter som opprettes automatisk under lagertransaksjoner.  
 
 Når du bokfører en transaksjon der varer går inn på eller ut av lageret, blir det opprettet en vareutligning mellom hver lagerøkning og lagerreduksjon. Disse utligningene fastsetter kostflyten fra varene som mottas på lageret, til kosten for varer som går ut av lageret. På grunn av måten som enhetskostbeløpet beregnes på, kan en feil vareutligning føre til en skjev gjennomsnittskost og en skjev enhetskost. Hvis du vil ha mer informasjon, kan du se Designdetaljer: Vareutligning.
@@ -23,7 +24,7 @@ Følgende scenarier kan kreve at du må angre en utligning eller utligne varepos
 
 Hvis det er mulig, bruker du et dokument til å utligne en varepost på nytt. Hvis du for eksempel må opprette en bestillingsretur for en vare som et salg allerede er utlignet mot, kan du utligne på nytt ved ganske enkelt å opprette og bokføre bestillingsreturdokumentet ved å bruke den riktige utligningen i feltet **Utligningsvarepost** på bestillingsreturlinjen. Du kan bruke funksjonen **Hent bokførte dokumentlinjer som skal tilbakeføres** eller **Kopier fra dokument** i bestillingsreturdokumentet for å gjøre dette enklere. Når du bokfører dokumentet, utlignes vareposten automatisk på nytt. Hvis du vil ha mer informasjon, kan du se [Behandle bestillingsreturer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md).
 
-Hvis du ikke kan bruke et dokument til å utligne på nytt, for eksempel når du må korrigere en fast utligning, bruker du siden **Utligningsforslag** til å korrigere en utligning.
+Hvis du ikke kan bruke et dokument til å utligne på nytt, for eksempel når du må rette en fast utligning, bruker du Søknadsforslag-siden **til** å rette opp et program.
 
 > [!Warning]  
 > Det er viktig å være oppmerksom på følgende når du arbeider med utligningsforslaget:
@@ -33,7 +34,7 @@ Hvis du ikke kan bruke et dokument til å utligne på nytt, for eksempel når du
     - Du kan fjerne utligninger fra flere enn én post om gangen i utligningsforslaget. Siden utligning av poster påvirker settet med poster som er tilgjengelige for utligning, kan du imidlertid ikke opprette en utligning for flere enn én post om gangen.
     - Utligningsforslaget kan ikke opprette en utligning i følgende situasjon: Hvis det ikke er et stort nok antall på lager til å utligne, kan ikke utligningsforslaget opprette en utligning når du prøver å utligne en lagerreduksjonspost uten varesporingsinformasjon mot en lagerøkningspost med varesporingsinformasjon.
 
-## <a name="to-remove-an-item-application-by-using-the-application-worksheet"></a>Slik fjerner du en vareutligning med utligningsforslaget
+## Slik fjerner du en vareutligning med utligningsforslaget
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 1.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Utligningsforslag**, og velg deretter den relaterte koblingen.  
 2.  Siden **Utligningsforslag** åpnes med eksisterende vareposter for alle varer.  
@@ -43,14 +44,14 @@ Hvis du ikke kan bruke et dokument til å utligne på nytt, for eksempel når du
 6.  Velg handlingen **Fjern utligning**. Dermed fjernes vareutligningsposten som forbinder de to varepostene, og den flyttes til siden **Vis utlignede poster – Poster som skal utlignes**.  
 7.  Lukk siden **Vis utlignede poster – Utlignede poster**.  
 
- **Restantall**-feltet for de to varepostene økes med antallet som utligningen er opphevet for. Den fjernede vareposten er nå tilgjengelig for ny utligning på siden **Vis utlignede poster – Poster som skal utlignes**.  
+  **Feltet Restantall** for de to varepostene økes med antallet som utligningen er opphevet for. Den fjernede vareposten er nå tilgjengelig for ny utligning på siden **Vis utlignede poster – Poster som skal utlignes**.  
 
 > [!IMPORTANT]  
 >  Du bør ikke la utligningen av utligningsposter være opphevet i lange tidsperioder, fordi andre brukere ikke kan behandle de berørte varene før du utligner utligningspostene på nytt eller lukker siden **Utligningsforslag**. Følgende feilmelding vises hvis du prøver å utføre handlinger som involverer en manuelt opphevet utligningspost:  
 >   
 >  **Du kan ikke utføre denne handlingen ettersom utligningen av poster for varen \<item\> er opphevet i Utligningsforslag av brukeren \<user\>.**  
 
-## <a name="to-reapply-an-item-application-by-using-the-application-worksheet"></a>Slik bruker du en vareutligning på nytt med utligningsforslaget
+## Slik bruker du en vareutligning på nytt med utligningsforslaget
 
 1.  Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 2.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Utligningsforslag**, og velg deretter den relaterte koblingen.  
 2.  Siden **Utligningsforslag** åpnes med eksisterende vareposter for alle varer.  
@@ -67,13 +68,13 @@ Hvis du ikke kan bruke et dokument til å utligne på nytt, for eksempel når du
     >  Hvis du har valg å opprette en utligning som hadde forårsaket en uendelig sløyfe i kostjusteringsprosessen, opprettes ikke utligningen du foreslo. Dette kan skje når de opprinnelige postene opprettet negativ beholdning. Utligningen er ikke gjort. Du må derfor velge en annen post for utligningen.  
 6.  Hvis du angir **Alltid** i feltet **Automatisk kostjustering** i **lageroppsettet**, kjører programmet automatisk kjørselen for kostjustering etter at du har opprettet en ny utligning. Ellers starter du kjørselen **Juster kostverdi - vareposter** for å sikre at all kost er oppdatert.  
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Lukke åpne vareposter som er resultat av fast utligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)  
- [Behandle bestillingsreturer eller annulleringer](purchasing-how-process-purchase-returns-cancellations.md)  
+[Lukke åpne vareposter som er et resultat av fast utligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)    
+ [Behandle bestillingsreturer eller kanselleringer](purchasing-how-process-purchase-returns-cancellations.md)    
  [Administrere lagerkostnader](finance-manage-inventory-costs.md)   
- [Designdetaljer: Vareutligning](design-details-item-application.md)  
- [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)
+ [Designdetaljer: Vareapplikasjon](design-details-item-application.md)    
+ [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

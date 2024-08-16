@@ -5,13 +5,13 @@ author: kennienp
 ms.topic: conceptual
 ms.search.keywords: 'analysis, history, track'
 ms.search.form: '18, 20, 37, 65, 99, 312, 314, 313, 395, 552, 569, 570, 634, 790, 791, 1158'
-ms.date: 04/17/2024
+ms.date: 08/06/2024
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="understanding-the-chart-of-accounts"></a>Forstå kontoplanen
+# Forstå kontoplanen
 
 En kontoplan fungerer som en omfattende katalog over finanskontoer og tilhørende referansenumre. En kontoplan består vanligvis av to hovedkontokategorier:
 
@@ -39,7 +39,7 @@ Sammensetningen av selskapets kontoplan er en strategisk beslutning som tas av l
 * Et teknologiselskap kan fokusere på immaterielle objekter som patenter og programvare.
 * Et produksjonsanlegg sporer aktiva og forsyninger.
 
-## <a name="the-chart-of-accounts-page"></a>Siden Kontoplan
+## Siden Kontoplan
 
 Kontoplanen viser alle finanskontoer. Fra kontoplanen kan du gjøre ting som:  
 
@@ -51,11 +51,11 @@ Kontoplanen viser alle finanskontoer. Fra kontoplanen kan du gjøre ting som:
 
 Du kan legge til, endre eller slette finanskontoer. For å unngå avvik kan du imidlertid ikke slette en finanskonto hvis dataene fra den er brukt i kontoplanen. Du kan også blokkere uttilsiktet sletting av kontoer i sensitive perioder. Hvis du vil finne ut mer om hvordan du beskytter kontoer mot sletting, kan du gå til [Slett kontoer](finance-setup-chart-accounts.md#delete-accounts).  
 
-## <a name="the-code-hierarchy-in-gl-accounts"></a>Kodehierarkiet i finanskontoer
+## Kodehierarkiet i finanskontoer
 
 Selskaper oppretter vanligvis en hierarkisk struktur i finanskontokoder for å gjenspeile hvor de hører hjemme i kontoplanen. I noen implementeringer angir for eksempel finanskontokoder som begynner med **1**, objektkontoer, mens finanskontokoder som begynner med 3, angir egenkapitalkontoer. I noen områder er det lokale forskrifter for bruk av en standard kontoplan. Hvis du vil hjelpe brukerne med å forstå dette hierarkiet uten å måtte kjenne til den interne kodestrukturen, kan du definere overskrifter og delsummer i kontoplanen som kapsler inn disse interne strukturene.
 
-## <a name="designing-your-chart-of-accounts"></a>Utform kontoplanen
+## Utform kontoplanen
 
 Hver linje i kontoplanen er en finanskonto av en av disse typene:
 
@@ -70,17 +70,17 @@ En minimalistisk kontoplan kan bestå av bare linjer med bokføringskontoer. Du 
 > [!TIP]
 > Hvis du bruker andre kontotyper enn **Bokføring** i kontoplanen, kan du definere forskjellige visninger for å vise de rå bokføringskontoene uten kontotypene for rapporteringstype for sammentelling og overskrifter. Eksempel: Vis bare bokføringskontoer og Skjul blokkerte kontoer.
 
-## <a name="use-dimensions-to-simplify-your-chart-of-accounts"></a>Bruk dimensjoner til å forenkle kontoplanen
+## Bruk dimensjoner til å forenkle kontoplanen
 
 Dimensjoner er attributter og verdier som kategoriserer poster slik at du kan spore og analysere dem på dokumenter, for eksempel ordrer. Dimensjoner kan for eksempel angi hvilket prosjekt eller hvilken avdeling en post kommer fra. I stedet for å opprette separate finanskonti for hver avdeling og hvert prosjekt, kan du for eksempel bruke dimensjoner som grunnlag for analyse og unngå å måtte opprette en komplisert kontoplan.
 
 Hvis du vil ha mer informasjon om dimensjoner, kan du gå til [Arbeide med dimensjoner](finance-dimensions.md).
 
-## <a name="get-a-quick-overview-of-your-finances"></a>Få en rask oversikt over økonomien din
+## Få en rask oversikt over økonomien din
 
 **Kontoplan**-siden viser konti i en hierarkisk liste som gir rask tilgang til viktig informasjon for hver konto. Listen er imidlertid statisk, og hvis du har mange kontoer, må du kanskje rulle for å vise ulike kontoer. Hvis du bare vil ha en rask oversikt over det grunnleggende, for eksempel bevegelser og saldoer, er siden **Kontoplanoversikt** et nyttig alternativ. Kolonneoppsettet på siden er det samme som siden **Kontoplaner** (men med færre kolonner), slik at den er enklere å forstå. Du kan vise eller skjule de hierarkiske nivåene. For at det skal bli enkelt å bytte mellom sidene er siden **Kontoplanoversikt** tilgjengelig fra **Kontoplan**-siden.
 
-## <a name="access-to-create-and-edit-the-chart-of-accounts"></a>Tilgang til å opprette og redigere kontoplanen
+## Tilgang til å opprette og redigere kontoplanen
 
 I en liten organisasjon, for eksempel CRONUS-demoselskapet, kan de fleste brukere redigere kontoplanen, unntatt brukere med en gruppemedlemslisens. Større organisasjoner bruker vanligvis roller og tillatelser til å begrense redigering av kontoplanene. Hvis du er administrator eller har rollen som Forretningssjef eller Regnskapsfører, kan du kontrollere brukertillatelsene for å gi de riktige personene tilgang til relevante tabeller. Hvis du vil ha mer informasjon, kan du gå til [Få en oversikt over en brukers tillatelser](ui-define-granular-permissions.md#get-an-overview-of-a-users-permissions).  
 
@@ -95,7 +95,7 @@ Here are some examples of such standards that have been implemented in localized
 * [Standard chart of accounts in Denmark](localfunctionality/denmark/how-to-set-up-standard-coa.md)
 -->
 
-## <a name="chart-of-accounts-best-practices"></a>Anbefalte fremgangsmåter for kontoplan
+## Anbefalte fremgangsmåter for kontoplan
 
 Her er noen anbefalte fremgangsmåter du kan vurdere når du utvikler og vedlikeholder kontoplanene:
 
@@ -105,11 +105,11 @@ Her er noen anbefalte fremgangsmåter du kan vurdere når du utvikler og vedlike
 * Bruk dimensjoner til å forenkle kontoplanen. Ikke ha spesifikke finanskontoer for hvert produkt eller hver avdeling.
 * Legg til nye finanskontoer etter hvert som de kommer inn, men fjern kontoer fra kontoplanen bare i perioden slutten av finansperioden.
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Definer eller endre kontoplanen](finance-setup-chart-accounts.md)  
-[Forstå finansregnskapet](finance-general-ledger.md)
-[Økonomisk analyse](bi.md)  
-[Oversikt over finans](finance.md)  
+[Definere eller endre kontoplanen](finance-setup-chart-accounts.md)    
+[Forstå finans](finance-general-ledger.md)  
+[Finansiell analyse](bi.md)    
+[Oversikt over finans](finance.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

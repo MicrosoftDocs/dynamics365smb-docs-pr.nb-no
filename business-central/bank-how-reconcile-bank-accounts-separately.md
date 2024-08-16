@@ -1,15 +1,16 @@
 ---
-title: Avstemme bankkontoer
+title: Avstem bankkontoer
 description: Lære hvordan du avstemmer transaksjoner i Business Central med transaksjoner i oppgaver fra banken.
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.service: dynamics-365-business-central
 ms.topic: conceptual
-ms.date: 10/24/2023
+ms.date: 07/24/2024
 ms.custom: bap-template
 ---
-# <a name="reconcile-bank-accounts"></a>Avstemme bankkontoer
+
+# Avstem bankkontoer
 
 Bankavstemming bidrar til å sikre at innholdet i bøkene dine samsvarer med oppgaver du mottar fra banken. Bankkontoavstemming sammenligner og samstemmer poster i bankkontiene du har definert i [!INCLUDE[prod_short](includes/prod_short.md)], med banktransaksjoner hos banken. Avstemming kan deretter bokføre saldoene på bankkontiene i [!INCLUDE[prod_short](includes/prod_short.md)] for å gjøre dem tilgjengelige for finansledere. Bankavstemming er også en praktisk måte å oppdage og løse manglende betalinger og bokføringsfeil.
 
@@ -22,7 +23,7 @@ Du kan imidlertid avstemme bankkontoer på siden **Betalingsavstemmingskladd** n
 
 Linjene på siden **Bankkontoavstemming** er delt i to ruter. Ruten **Bankkontoutdragslinjer** viser importerte banktransaksjoner eller poster med utestående betalinger. Ruten **Bankkontoposter** viser postene i den interne bankkontoen.
 
-## <a name="about-bank-reconciliation"></a>Om bankavstemming
+## Om bankavstemming 
 
 Avstemming av transaksjoner i oppgaver fra banken med bankposter i [!INCLUDE[prod_short](includes/prod_short.md)] kalles *avstemming*. Det finnes tre måter å avstemme transaksjoner med bankposter på:
 
@@ -40,7 +41,7 @@ Det er merket av for **Utlignet** på linjer der postene som er utlignet. Hvis d
 
 Når verdien i feltet **Total saldo** i ruten **Bankkontoutdragslinjer** er lik totalverdien i feltet **Saldo som skal avstemmes** pluss feltet **Saldo ved forrige utdrag** i ruten **Bankkontoposter**, kan du velge handlingen **Bokfør**. Bankkontoposter som ikke samsvarer, blir værende på siden, som angir avvik du må løse for å avstemme bankkontoen.
 
-Alle linjer som ikke kan sammenlignes, angitt med en verdi i **Differanse**-feltet, blir værende på siden **Bankkontoavstemming** etter bokføring. De representerer en form for avvik som du må løse før du kan fullføre bankkontoavstemmingen. Tabellen nedenfor beskriver noen vanlige forretningssituasjoner som kan forårsake forskjeller.
+Eventuelle linjer som ikke kan samsvar, angitt av en verdi i Differanse-feltet **·**, forblir på **siden Bankkontoavstemming** etter bokføring. De representerer en form for avvik som du må løse før du kan fullføre bankkontoavstemmingen. Tabellen nedenfor beskriver noen vanlige forretningssituasjoner som kan forårsake forskjeller.
 
 | Differanse | Årsak | Løsning |
 |------------|--------|------------|
@@ -55,7 +56,7 @@ Du kan fylle ut ruten **Bankkontoutdragslinjer** på siden **Bankkontoavstemming
 * Automatisk, ved hjelp av funksjonen **Importer bankkontoutdrag** for å fylle ut ruten **Bankkontoutdragslinjer** med banktransaksjoner i henhold til en importert fil eller strøm oppgitt av banken.
 * Manuelt, ved hjelp av funksjonen **Foreslå linjer**, for å fulle ut ruten **Bankkontoutdragslinjer** i henhold til fakturaer i [!INCLUDE[prod_short](includes/prod_short.md)] som har utestående betalinger.
 
-## <a name="add-bank-statement-lines-by-importing-a-bank-statement"></a>Legge til bankavstemmingslinjer ved å importere et bankkontoutdrag
+## Legge til bankavstemmingslinjer ved å importere et bankkontoutdrag
 
 Ruten **Bankkontoutdragslinjer** fylles ut med banktransaksjoner i henhold til en importert fil eller strøm fra banken.
 
@@ -72,7 +73,7 @@ For å kunne importere bankkontoutdrag som bankfeeder, må du sette opp tjeneste
 6. Hvis du har en fil for bankkontoutdrag, velger handlingen **Importer bankkontoutdrag**.
 7. Finn filen, og velg deretter **Åpne**-knappen for å importere banktransaksjonene til ruten **Bankkontoutdragslinjer** på siden **Bankkontoavstemming**.
 
-## <a name="to-fill-in-bank-reconciliation-lines-with-the-suggest-lines-action"></a>Slik fyller du bankavstemmingslinjer med handlingen Foreslå linjer
+## Slik fyller du bankavstemmingslinjer med handlingen Foreslå linjer
 
 Ruten **Bankkontoutdragslinjer** fylles ut i henhold til fakturaer i [!INCLUDE[prod_short](includes/prod_short.md)] som har utestående betalinger.  
 
@@ -86,7 +87,7 @@ Ruten **Bankkontoutdragslinjer** fylles ut i henhold til fakturaer i [!INCLUDE[p
 4. Hvis du ikke vil at bankkontoposten skal inneholde ikke-samsvarende åpne tilbakeførte poster, velger du **Utelat tilbakeførte poster**. Som standard inkluderer listen over bankkontoposter tilbakeførte poster inntil kontoutdragsdatoen.
 5. Velg **OK**-knappen.
 
-## <a name="match-bank-statement-lines-with-bank-account-ledger-entries-automatically"></a>Avstemme bankkontoutdragslinjer med bankkontoposter automatisk
+## Avstemme bankkontoutdragslinjer med bankkontoposter automatisk
 
 Siden **Bankkontoavstemming** inneholder automatisk samsvarsfunksjonalitet basert på samsvar av tekst på en bankkontoutdragslinje (venstre rute) med tekst på én eller flere bankkontoposter (høyre rute). Du kan overskrive foreslått automatisk samsvar, og du kan velge ikke å bruke automatisk samsvar i det hele tatt. Hvis du vil ha mer informasjon, kan du se [Avstemme bankkontoutdragslinjer med bankkontoposter manuelt](#match-bank-statement-lines-with-bank-account-ledger-entries-manually).
 
@@ -104,7 +105,7 @@ Du kan undersøke grunnlaget for avstemming ved å bruke handlingen **Avstemming
 > [!TIP]
 > Du kan bruke en blanding av manuell og automatisk avstemming. Hvis du har avstemt poster manuelt, vil ikke automatisk avstemming overskrive valgene dine.
 
-## <a name="match-bank-statement-lines-with-bank-account-ledger-entries-manually"></a>Avstemme bankkontoutdragslinjer med bankkontoposter manuelt
+## Avstemme bankkontoutdragslinjer med bankkontoposter manuelt
 
 > [!TIP]
 > Når du skal tilordne linjer og poster manuelt, kan handlingene **Vis alle**, **Vis tilbakeførte poster**, **Skjul tilbakeførte poster** og **Vis ikke-avstemt** gjøre det enklere å få en oversikt. Som standard inneholder ikke bankkontopostene ikke-samsvarende tilbakeførte poster. Hvis du vil inkludere disse postene i oversikten og tilordne dem manuelt, velger du handlingen **Vis tilbakeførte poster**. Hvis du velger å skjule tilbakeførte poster etter at du har gjort ett eller flere samsvar, vises de samsvarende postene fremdeles.
@@ -129,12 +130,12 @@ Du kan undersøke grunnlaget for avstemming ved å bruke handlingen **Avstemming
 > [!TIP]
 > Hvis du vil fjerne en avstemming, merker du bankkontoutdragslinjen og deretter velger du handlingen **Fjern avstemming**. Hvis du har tilordnet flere bankkontoutdragslinjer til en post og du må fjerne en eller flere av avstemte linjer, fjernes alle de manuelle postene for posten når du velger **Fjern avstemming**.
 
-## <a name="validate-your-bank-reconciliation"></a>Validere bankavstemmingen
+## Validere bankavstemmingen
 
 Hvis du vil dobbeltsjekke bankkontoavstemmingen før du bokfører den, bruker du handlingen **Test rapport** for å forhåndsvise avstemmingen. Følgende rapport er tilgjengelig i følgende kontekster:
 
 * Når du forbereder en bankavstemming på siden **Bankkontoavstemming**.
-* Når du avstemmer bankkonti på siden **Betalingsavstemmingskladder**.
+* Når du avstemmer betalinger på **siden Betalingsavstemmingskladd** .
 
 Linjer som ikke kan samsvare, forblir på siden **Bankkontoavstemming** etter bokføring. Disse linjene inneholder en verdi i feltet **Differanse**. Differansen representerer et avvik som du må løse før du kan fullføre bankkontoavstemmingen. Tabellen nedenfor beskriver noen vanlige forretningssituasjoner som kan forårsake forskjeller.
 
@@ -156,7 +157,7 @@ Tabellen nedenfor beskriver felter i testrapporten som kan hjelpe deg med å ful
 |Utdragsdato| Datoen som er angitt i feltet **Utdragsdato** på siden **Bankkontoavstemming**.|
 |Saldo ved forrige utdrag|Saldoen som er angitt i feltet **Saldo ved forrige utdrag** på siden **Bankkontoavstemming**. Dette fylles ut automatisk fra den siste avstemmingen for samme bankkonto. Verdien er null hvis dette er din første bankkontoavstemming.|
 |Utdrag – sluttsaldo|Saldoen som er angitt i feltet **Utdrag – sluttsaldo** på siden **Bankkontoavstemming**. |
-|Finanskontonummer <*nummer*> Saldo på <*dato*> | Saldoen på finanskontoen på utdragets sluttdato. Dette er den ufiltrerte saldoen per denne datoen. Hvis banken bruker den lokale valutaen, bør denne saldoen være den samme som bankkontosaldoen (vist til høyre i rapporttoppteksten) når du har samsvart med alle utdragslinjene. En tom **()** i navnet på dette feltet betyr at banken bruker lokal valuta.<br><br>Et avvik i dette og de forrige feltene kan indikere at du har bokført direkte til finanskontoen, eller at du bruker samme finanskonto for flere banker, noe som ikke anbefales. Bankene er knyttet til økonomimodulen gjennom bankkontobokføringsgruppen som er angitt for kontoen.<br><br>Testrapporten viser en advarsel hvis du har direkte bokføringer, selv om saldoen for bokføringen er null. Direkte bokføringer som ikke er balansert, fører ofte til akkumulerte differanser for fremtidige bankavstemminger. Du bør kontrollere finanssaldoen og finanspostene før du bokfører bankavstemmingen. Hvis du vil vite mer om direkte bokføring, kan du gå til [Unngå direkte bokføring](#avoid-direct-posting).|
+|Finanskontonummer <*nummer*> Saldo på <*dato*> | Saldoen på finanskontoen på utdragets sluttdato. Dette er den ufiltrerte saldoen per denne datoen. Hvis banken bruker den lokale valutaen, bør denne saldoen være den samme som bankkontosaldoen (vist til høyre i rapporttoppteksten) når du har samsvart med alle utdragslinjene. En tom **()** i navnet på dette feltet betyr at banken bruker lokal valuta.<br><br>Et avvik i dette og de forrige feltene kan indikere at du har bokført direkte til finanskontoen, eller at du bruker samme finanskonto for flere banker, noe som ikke anbefales. Bankene er knyttet til økonomimodulen gjennom bankkontobokføringsgruppen som er angitt for kontoen.<br><br>Testrapporten viser en advarsel hvis du har direkte bokføringer, selv om saldoen for bokføringen er null. Direkte bokføringer som ikke er i balanse, fører ofte til akkumulerte differanser for fremtidige bankavstemminger. Du bør kontrollere finanssaldoen og finanspostene før du bokfører bankavstemmingen. Hvis du vil vite mer om direkte bokføring, kan du gå til [Unngå direkte bokføring](#avoid-direct-posting).|
 |Finanskontonummer <*nummer*> Saldo (<*lokal valuta*>) på <*dato*>| Saldoen på finanskontoen på utdragets sluttdato i lokal valuta. Saldoen konverteres til bankkontoens valuta ved hjelp av valutakursen som var gyldig på utdragets sluttdato. Dette er den ufiltrerte saldoen per denne datoen. Du sammenligner dette med **Finanskontonummer <* nummer *> Saldo på <* dato*>*-felt hvis banken bruker utenlandsk valuta. Verdien i finanskontonummer <* nummer *> Saldo på <* dato*>-feltet for lokal valuta kan variere noe fordi valutakonvertering kan føre til små differanser. Bankens saldo bør være svært nær denne saldoen.  |
 |Bankkontosaldo på <*dato*>| Saldoen på bankkontoen på utdragets sluttdato.|
 |Differansesum    | Summen av differansene for utdragslinjene. Hvis du vil ha tilgang til detaljene, aktiverer du veksleknappen **Skriv ut utestående transaksjoner** når du angir vilkår for rapporten. En differanse er en bankkontoutdragslinje som ikke samsvarer fullstendig med én eller flere bankposter. Du kan ikke bokføre en bankkontoavstemming som har differanser. Du kan bokføre en bankavstemming som inneholder bankposter som ikke samsvarer med utdragslinjer. Denne verdien vises i feltet **Utestående banktransaksjoner** og i en egen del hvis du aktiverer veksleknappen Skriv ut utestående transaksjoner.      |
@@ -172,14 +173,14 @@ Tabellen nedenfor beskriver felter i testrapporten som kan hjelpe deg med å ful
 >
 > Du kan bruke verdien til å sammenligne med kontoutskriften.
 
-## <a name="to-create-missing-ledger-entries-to-match-bank-statement-lines"></a>Opprette manglende poster for utligning av bankkontoutdragslinjer
+## Opprette manglende poster for utligning av bankkontoutdragslinjer
 
 Noen ganger inneholder et bankkontoutdrag et rente- eller gebyrbeløp. Slike bankkontoutdragslinjer kan ikke utlignes fordi det ikke finnes noen relaterte poster i [!INCLUDE[prod_short](includes/prod_short.md)]. Du må deretter bokfører en kladdelinje for hver transaksjon for å opprette en relatert post som den kan utlignes mot.
 
 1. På siden **Bankkontoavstemming** velger du handlingen **Overfør til finanskladd**.  
 2. På siden **Overfør bankavst. til finans** angir du hvilken finanskladd du vil bruke, og velger deretter **OK**-knappen.
 
-    Siden **Finanskladd** åpnes med nye kladdelinjer for bankerkontoutdragslinjer som mangler poster.
+     **Siden Finanskladder åpnes med nye kladdelinjer for eventuelle bankkontoutdragslinjer** som mangler poster.
 3. Fyll ut kladdelinjen med informasjon, for eksempel motkonto. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).  
 4. Hvis du vil se gjennom resultatet av bokføringen før du bokfører, velger du handlingen **Testrapport**, og deretter velger du et alternativ for tilgang til rapporten. **Bankkontoutdrag**-rapporten viser de samme feltene som ved overskriften i **Bankkontoavstemming**-siden.
 5. Velg handlingen **Bokfør**.
@@ -188,11 +189,11 @@ Noen ganger inneholder et bankkontoutdrag et rente- eller gebyrbeløp. Slike ban
 6. Oppdater eller åpne siden **Bankkontoavstemming**. Den nye posten vises i ruten **Bankkontoposter**.
 7. Utligne bankkontoutdragslinjen med bankkontopost, enten manuelt eller automatisk.
 
-## <a name="find-outstanding-transactions-in-previous-periods"></a>Finne utestående transaksjoner for tidligere perioder
+## Finne utestående transaksjoner for tidligere perioder
 
 Du kan bruke rapporten Bankkontoutdrag til å finne utestående transaksjoner i tidligere perioder. Utestående transaksjoner ble åpnet før utdragsdatoen og er ikke lukket, eller ble lukket etter at bankavstemmingen ble bokført.
 
-Når du kjører rapporten Bankkontoutdrag fra siden Bankkontoutdrag, kan du aktivere funksjonen for **Utestående poster**, og rapporten vil inkludere en inndeling som viser utestående poster.
+Når du kjører rapporten Bankkontoutdrag fra **siden Bankkontoutdragsoversikt**, kan du aktivere veksleknappen **Utestående poster**, og rapporten vil inneholde en del som viser utestående poster.
 
 **Eksempel** Vi har bankkontoposter A, B og C i bankkontoen vår for august måned. Når vi avstemmer vår bankkonto i august, finner vi en bankkontoutdragslinje som samsvarer med post A, men ingen for B og C. Derfor bokfører vi avstemmingen med post A avstemt og B og C som utestående poster.
 
@@ -200,31 +201,31 @@ I september mottar vi en betaling for post B og fastsetter for å avstemme bankk
 
 Hvis vi skriver ut rapporten for august, har vi utestående transaksjoner til våre B- og C-oppføringer, selv om vi lukket post B i september.
 
-## <a name="undo-a-bank-account-reconciliation"></a>Angre en bankkontoavstemming
+## Angre en bankkontoavstemming
 
-Hvis du oppdager en feil i en bokført bankavstemming, kan du ved hjelp av **Angre**-handlingen på **Bankkontoutdragsliste**-siden rette den opp. Når du angrer en bokført bankavstemming, flyttes postene til **Bankavstemming**-siden og merkes som **Åpne**, og det betyr at de ikke er avstemt. Deretter kan du korrigere bankavstemmingen og bokføre den på nytt.
+Hvis du oppdager en feil i en bokført bankavstemming, kan du ved hjelp av **Angre**-handlingen på **Bankkontoutdragsliste**-siden rette den opp. Når du angrer en bokført bankavstemming, flyttes postene til **siden Bankkontoavstemming** og merkes som Åpne **, noe som** betyr at de ikke avstemmes. Deretter kan du korrigere bankavstemmingen og bokføre den på nytt.
 
 > [!NOTE]
 > Hvis du vil bruke Angre-funksjonen for bokførte bankavstemminger og bankkontoutdrag i Nord-Amerika, må du aktivere **Bankavstemming med automatisk samsvar** på **Finansoppsett**-siden. Angre-funksjonen er ikke tilgjengelig for bankkontoutdrag som er bokført fra bankavstemmingsforslag.
 
-### <a name="reusing-the-bank-statement-number"></a>Bruke bankkontoutdragsnummeret på nytt
+### Bruke bankkontoutdragsnummeret på nytt
 
 Bankkontoutdragsnummeret som brukes for den nye bankavstemmingen, hentes fra bankkontoen, som er Saldo ved forrige utdrag. Du kan endre disse verdiene før du starter en ny bankavstemming. Når du oppretter en ny bankavstemming, kontrollerer imidlertid [!INCLUDE[d365fin](includes/d365fin_md.md)] om utdragsnummeret allerede er tilordnet et bokført bankkontoutdrag. Hvis nummeret er i bruk, men du vil at det nye bankkontoutdraget skal bruke det i stedet, kan du bruke handlingen **Endre utdragsnummer** på siden **Bankkontoavstemming**.
 
-### <a name="examples"></a>Eksempler
+### Eksempler
 
 Nedenfor følger noen få eksempler på hvordan du kan rette opp en feil i en bokført bankavstemming med eller uten å bruke det samme kontoutdragsnummeret.
 
-#### <a name="example-1"></a>Eksempel 1
+#### Eksempel 1
 
-Du gjorde bankavstemminger for januar, februar og mars. Bankkontoutdragsnummeret er 100 for mars. Senere oppdager du at mars bare tok med poster frem til 30. Dette betyr at det mangler poster for 31. Du må derfor gjøre om bankavstemmingen for mars. I dette tilfellet åpner du siden **Bankkontoutdrag**, velger utdraget for mars, og deretter velger du **Angre**. 
+Du gjorde bankavstemminger for januar, februar og mars. Bankkontoutdragsnummeret er 100 for mars. Senere oppdager du at mars bare tok med poster frem til 30. Dette betyr at det mangler poster for 31. Du må derfor gjøre om bankavstemmingen for mars. I dette tilfellet åpner **vi siden Bankkontoutdragsoversikt**, velger kontoutdraget for mars og velger **deretter Angre**. 
 
 Den nye bankavstemmingen får kontoutdragsnummer 101. Hvis du vil tilordne nummeret 100 på nytt, velger du **Endre utdragsnummer** og angir **100**. 
 
 > [!TIP]
 > Husk å angi den aktuelle sluttdatoen for utdraget (i dette eksemplet er det 31. mars), og rediger feltet **Saldo ved forrige utdrag**. 
 
-#### <a name="example-2"></a>Eksempel 2
+#### Eksempel 2
 
 Du gjorde bankavstemminger for januar, februar, juni og juli. Du oppdager at februar var feil. La oss anta at den har utdragsnummer 100. Som i eksempel 1 bruker du handlingene Angre og Endre utdragsnummer til å endre kontoutdragsnummeret, som i eksempel 1 ovenfor, og du kan nå gjøre om bankavstemmingen for februar.  
 
@@ -239,20 +240,20 @@ Hvis den neste bankavstemmingen er for august, kan du vurdere å endre verdiene 
 >
 > Saldo ved forrige utdrag beholdes på bankkontoen for å redusere feil ved bankavstemming, men den kan også redigeres, slik at du kan gjøre bankavstemmingene i den rekkefølgen du ønsker. Dette betyr også at hvis du angrer et bankkontoutdrag, kan det hende at den nye sluttsaldoen ikke er saldoen ved siste utdrag på neste bankutdrag. Det finnes ingen funksjon som gjør at du kan flytte en saldo fremover til alle påfølgende bankkontoutdrag, så vær klar over dette når du bruker Angre.  
 
-## <a name="avoid-direct-posting"></a>Unngå direkte bokføring
+## Unngå direkte bokføring
 
 Ikke bruk en finanskonto som tillater direkte bokføring i bankkontobokføringsgruppen. Direkte bokføring vil bryte forbindelsen mellom bankkontoposten og finanskontoposten. Når du avstemmer bankkontoen, tas ikke postene som er bokført direkte til finanskontoen, og det er vanskelig å fullføre avstemmingen.
 
 Denne feilen oppstår ofte når du angir en startsaldo for en bankkonto. Det er viktig at du ikke bokfører åpningssaldoen direkte i finans. Poster på finanskontoen som bokføres direkte på finanskontoen, forårsaker problemer. Disse postene kan for eksempel hindre deg i å avstemme bankkontoen. Når det gjelder bankkonti i fremmed valuta, kan postene føre til at differansene akkumuleres etter at du har bokført flere bankavstemminger, på grunn av valutakursjusteringer. Ofte bokfører du åpningssaldoen direkte til bankkontoen, og beløpet ender deretter opp i finanskontoen. Alternativt kan du tilbakeføre det senere mot finanskontoen som du bruker til å balansere den åpne finanssaldoen. I begge tilfeller må du balansere eventuell direkte bokføring til finanskontoen før du starter den første bankavstemmingen, og spesielt hvis bankkontoen er i en utenlandsk valuta.
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Avstemme bankkonter](bank-manage-bank-accounts.md)  
-[Avstemme bankkonti ved hjelp av bankavstemmingshjelp (forhåndsversjon)](bank-reconciliation-with-copilot.md)
-[Utligne betalinger automatisk og avstemme bankkontoer](receivables-apply-payments-auto-reconcile-bank-accounts.md)  
-[Konfigurere banktjenester](bank-setup-banking.md)  
-[Definere regler for automatisk utligning av betalinger](receivables-how-set-up-payment-application-rules.md)  
-[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
+[Avstemme bankkontoer](bank-manage-bank-accounts.md)    
+[Avstemme bankkontoer ved hjelp av bankkontoavstemmingshjelpen (forhåndsversjon)](bank-reconciliation-with-copilot.md)  
+[Utligne betalinger automatisk og avstemme bankkontoer](receivables-apply-payments-auto-reconcile-bank-accounts.md)    
+[Sette opp banktjenester](bank-setup-banking.md)    
+[Definere regler for automatisk utligning av betalinger](receivables-how-set-up-payment-application-rules.md)    
+[Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

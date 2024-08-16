@@ -6,13 +6,13 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '50, 51, 52, 187, 317'
 ms.search.keywords: 'EU3P, EU 3-P, EU 3-Party'
-ms.date: 07/05/2024
+ms.date: 08/12/2024
 ms.author: altotovi
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="eu-third-party-purchase-transactions"></a>Tredjeparts kjøpstransaksjoner for EU
+# Tredjeparts kjøpstransaksjoner for EU
 
 Tredjepartshandel for EU skjer når du mottar en kjøpsfaktura fra en kunde i et EU-land/-område, og produktene sendes til et annet EU-land/-område uten at du må angi bostedsland. Transaksjonsbeløpet kan identifiseres og rapporteres separat for å overholde noen EU-lands/-områders mva-rapportering (merverdiavgift) og VIES-krav (VAT Information Exchange System). Microsoft Dynamics 365 Business Central gjør det mulig å definere kjøpstransaksjoner som tredjepartshandel i EU. Bokførte tredjepartstransaksjoner for EU kan filtreres i mva-oppgaver og utelates fra beløpet i kolonnen **Salg til kunde** i rapporten **EU-mva. – brukes ikke i Norge**.
 
@@ -25,21 +25,21 @@ Selv om funksjonen er forhåndsinstallert som en utvidelse, er den ikke aktivert
 > [!NOTE]
 > Hvis du bruker den tyske eller italienske lokaliseringen, kan du ikke aktivere denne appen fordi den ikke er kompatibel med bestemte mva-funksjoner i disse lokaliseringene.  
 
-## <a name="enable-eu-third-party-trade-functionality-for-a-purchase"></a>Aktiver tredjepartshandelsfunksjonalitet for EU for et kjøp
+## Aktiver tredjepartshandelsfunksjonalitet for EU for et kjøp
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-oppsett** og velg den relaterte koblingen.
 2. Merk av for **Aktiver trekanthandel** på siden **Mva-oppsett**.
 
-## <a name="use-eu-third-party-trade-functionality"></a>Bruk funksjonalitet for trekanthandel
+## Bruk funksjonalitet for trekanthandel
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Kjøpsfaktura** (eller et annet kjøpsdokument), og velg deretter den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Kjøpsfakturaer**  (eller et annet kjøpsdokument), og Velg deretter den relaterte opprette en kobling.
 2. Velg en eksisterende kjøpsfaktura, eller velg **Ny** for å opprette en ny.
 3. På hurtigfanen **Fakturadetaljer** merker du av for **Trekanthandel**.
 4. Velg **OK**.
 
-## <a name="include-or-exclude-eu-third-party-trade-records-on-the-vat-statement"></a>Ta med eller utelat poster for trekanthandel i mva-oppgaven
+## Ta med eller utelat poster for trekanthandel i mva-oppgaven
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **Mva-oppgave** og velg den relaterte koblingen.
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") , angi **mva-oppgaver**, og Velg deretter de relaterte opprette en kobling.
 2. På siden **Mva-oppgave** velger du et av følgende alternativer for å vise poster for trekanthandel ved hjelp av feltet **Filter for trekanthandel**.
 
     | Alternativ | Description |
@@ -48,9 +48,8 @@ Selv om funksjonen er forhåndsinstallert som en utvidelse, er den ikke aktivert
     | Trekanthandel | Vis bare poster der feltet **Trekanthandel** i dokumenter ble merket. |
     | Ikke trekanthandel | Vis bare poster der feltet **Trekanthandel** i dokumenter ikke ble merket. |
 
-
-## <a name="see-also"></a>Se også
-[Økonomistyring](finance.md)  
-[Arbeid med Business Central](ui-work-product.md)
+## Se også
+[Økonomistyring](finance.md)    
+[Arbeid med Business Central](ui-work-product.md)    
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

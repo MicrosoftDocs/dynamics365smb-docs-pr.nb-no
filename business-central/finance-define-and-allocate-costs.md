@@ -5,12 +5,13 @@ author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.form: '1102, 1105, 1106, 1107, 1109, 1114'
-ms.date: 04/01/2021
+ms.date: 07/26/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="defining-and-allocating-costs"></a>Definere og fordele kostnader
+
+# Definere og fordele kostnader
 
 Kostfordelinger flytter kostnader og inntekter mellom kosttyper, kostsentre og kostobjekter. Du kan definere så mange fordelinger som du trenger. Hver fordeling består av:  
 
@@ -26,13 +27,13 @@ For hvert fordelingsmål kan du definere et fordelingsgrunnlag. Fordelingsgrunnl
 - Statiske fordelingsgrunnlag er basert på en bestemt verdi, for eksempel kvadratmeter eller et fastsatt fordelingsforhold, for eksempel 5:2:4.  
 - Grunnlaget for dynamisk fordeling avhenger av verdier som kan endres, for eksempel antall ansatte i et kostsenter eller salgsinntekten av et kostobjekt i løpet av en bestemt tidsperiode.  
 
-Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.
+Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artiklene som beskriver dem.
 
-## <a name="set-up-allocation-source-and-targets"></a>Definere fordelingskilde og -mål
+## Definere fordelingskilde og mål
 
 Hver fordeling består av en fordelingskilde og ett eller flere fordelingsmål. Fordelingskilden fastsetter hvilke kostnader som blir fordelt. Fordelingsmålene fastsetter hvor kostnadene skal fordeles.  
 
-### <a name="to-set-up-cost-allocations"></a>Definere kostfordelinger
+### Definere kostfordelinger
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kostfordeling**, og velg deretter den relaterte koblingen.  
 2. På siden **Kostfordeling** velger du **Rediger**.  
@@ -50,11 +51,11 @@ Hver fordeling består av en fordelingskilde og ett eller flere fordelingsmål. 
 > [!NOTE]  
 > Merk av for **Blokkert** for å deaktivere tildelingsoppsettet.
 
-## <a name="to-set-filters-for-dynamic-allocation-bases"></a>Angi filtre for dynamisk fordelingsgrunnlag
+## Slik angir du filtre for dynamiske fordelingsgrunnlag:
 
 Metoden for dynamisk fordeling er basert på verdier som kan endres. Eksempel: Antall ansatte i et kostsenter eller solgte varer av et kostobjekt i en bestemt tidsperiode. Det finnes ni forhåndsdefinerte fordelingsgrunnlag og tolv dynamiske datointervaller. Du angir ulike filtre basert på fordelingsgrunnlaget.  
 
-### <a name="set-filters"></a>Angi filtre
+### Angi filtre
 
 Tabellen nedenfor viser hvilke filtre som kan brukes for ulike fordelingsgrunnlag og hvilke verdier som er gyldige i feltene **Nr.filter** og **Gruppefilter**. Velg <kbd>F1</kbd> i **Datofilterkode**-feltet for å lese detaljerte beskrivelser.  
 
@@ -68,18 +69,18 @@ Tabellen nedenfor viser hvilke filtre som kan brukes for ulike fordelingsgrunnla
 |Solgte varer (antall)|Varenr.|Ja|Ja|Ja|Bokføringsgruppe - lager|  
 |Kjøpte varer (antall)|Varenr.|Ja|Ja|Ja|Bokføringsgruppe - lager|  
 |Solgte varer (beløp)|Varenr.|Ja|Ja|Ja|Bokføringsgruppe - lager|  
-|Kjøpte varer (beløp)|Varenr.|Ja|Ja|Ja|Bokføringsgruppe - lager|
+|Kjøpte varer (beløp)|Varenr.|Ja|Ja|Ja|Bokføringsgruppe – lager|
 
-## <a name="scenario-1-defining-static-allocations-based-on-allocation-ratio"></a>Scenario 1: Definere statiske fordelinger basert på fordelingsgrad
+## Scenario 1: Definere statiske fordelinger basert på fordelingsforhold
 
 Statisk fordelingsmetode er basert på en bestemt verdi, for eksempel kvadratmeteren som brukes, eller et fastsatt fordelingsforhold, for eksempel 5:2:4.  
 
-Dette emnet beskriver hvordan du definerer tre nye kostobjekter for fordelingsmål for PROD-kostsenteret for fordelingskilden ved hjelp av det fastsatte fordelingsforholdet på 5:2:4. De tre målkostobjektene er TILBEHØR, MALING og ARMATUR.  
+Denne artikkelen beskriver hvordan du definerer tre nye fordelingsmålkostobjekter for tildelingskilden PROD-kostsenter ved hjelp av det etablerte fordelingsforholdet 5:2:4. De tre målkostobjektene er TILBEHØR, MALING og ARMATUR.  
 
 > [!NOTE]  
 > I eksempelet brukes demodataene i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="to-define-the-allocation-source-prod-cost-center-on-the-general-fasttab"></a>Slik definerer du PROD-kostsenteret for fordelingskilden i hurtigfanen Generelt:
+### Slik definerer du PROD-kostsenteret for fordelingskilden i hurtigfanen Generelt:  
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kostfordeling**, og velg deretter den relaterte koblingen.  
 2. På siden **Kostfordeling** velger du **Ny**.  
@@ -89,7 +90,7 @@ Dette emnet beskriver hvordan du definerer tre nye kostobjekter for fordelingsm�
 6. Angi **PROD** i feltet **Kostsenterkode**-feltet.  
 7. I feltet **Krediter til kosttype** skriver du inn kosttypen **9903**.  
 
-### <a name="to-define-the-allocation-target-cost-objects-on-the-lines-fasttab"></a>Slik definerer du kostobjekter for fordelingsmålene i hurtigfanen Linjer:
+### Slik definerer du kostobjekter for fordelingsmålene i hurtigfanen Linjer:  
 
 1. På den første fakturalinjen i feltet **Målkosttype** angir du **9903**.  
 2. På den første fakturalinjen i feltet **Målkostobjekt** angir du **TILBEHØR**.  
@@ -110,16 +111,16 @@ Dette emnet beskriver hvordan du definerer tre nye kostobjekter for fordelingsm�
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] beregner automatisk **Prosent**-feltet ved å bruke en prosentsats som er avhengige av alle de tre fordelingsforholdene som er angitt i **Del**-feltet for alle de tre linjene.
 
-## <a name="scenario-2-defining-dynamic-allocations-based-on-items-sold"></a>Scenario 2: Definere dynamiske fordelinger basert på solgte varer
+## Scenario 2: Definere dynamiske fordelinger basert på Solgte varer
 
 Dette emnet viser et eksempel på hvordan du kan definere fordelinger ved hjelp av metoden dynamisk tildeling. I eksemplet endrer du dynamisk fordeling av kostnadene for SALG-kostsenteret slik at det støtter det nye kostobjektet IT-UTSTYR. IT-UTSTYR-pakker har varenumre i området fra 8904-W til 8924-W. Du kan bruke salgstall for fjoråret til å beregne andelen. Tildelingen er bokført til hjelpekosttype 9903.  
 
 > [!NOTE]  
 > I eksempelet brukes demodataene i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
-### <a name="to-define-dynamic-allocations-based-on-items-sold-in-the-previous-year"></a>Slik definerer du dynamisk fordelinger basert på varer solgt i fjoråret:
+### Slik definerer du dynamisk fordelinger basert på varer solgt i fjoråret:  
 
-1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kostfordelinger**, og velg deretter den relaterte koblingen.  
+1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Kostfordeling**, og velg deretter den relaterte koblingen.  
 2. På siden **Kostfordeling** velger du **Ny**.  
 3. Velg <kbd>Enter</kbd> eller angi en ID i **ID**-feltet.  
 4. I feltet **Grad** angir du **1**.  
@@ -137,7 +138,7 @@ Dette emnet viser et eksempel på hvordan du kan definere fordelinger ved hjelp 
 > [!IMPORTANT]  
 > [!INCLUDE[prod_short](includes/prod_short.md)] bruker forrige års salgstall til å beregne en andel av 1596,50 LV med 100 prosent for IT-UTSTYR-pakker. Dette betyr at alle varene som er solgt det siste året vil bli fordelt til kostobjektet IT-UTSTYR.
 
-## <a name="see-also"></a>Se også
+## Se også
 
  [Definer kostregnskap](finance-set-up-cost-accounting.md)  
  [Overfør og bokfør kostnadsposter](finance-transfer-and-post-cost-entries.md)  

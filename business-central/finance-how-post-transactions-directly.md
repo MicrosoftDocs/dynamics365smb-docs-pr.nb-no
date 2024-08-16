@@ -8,10 +8,11 @@ ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'direct posting, general ledger'
 ms.search.form: '39, 251'
-ms.date: 06/13/2024
+ms.date: 08/06/2024
 ms.service: dynamics-365-business-central
 ---
-# <a name="post-transactions-directly-to-the-general-ledger"></a>Bokfør transaksjoner direkte i finans
+
+# Bokfør transaksjoner direkte i finans
 
 Du bruker finanskladder til å bokføre finanstransaksjoner direkte på finanskonti og andre konti, for eksempel bank-, kunde-, leverandør- og ansattkonti.  
 
@@ -21,7 +22,7 @@ Finanskladder bokfører finanstransaksjoner direkte på finanskonti og andre kon
 
 Poster du bokfører med dokumenter, krever en kreditnotaprosess. Du kan imidlertid reversere poster du bokfører med finanskladden. Hvis du vil ha mer informasjon, kan du se [Tilbakeføre kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md).
 
-## <a name="to-post-a-transaction-directly-to-a-general-ledger-account"></a>Bokføre en transaksjon direkte på en finanskonto
+## Bokføre en transaksjon direkte på en finanskonto
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Finanskladder**, og velg deretter den relaterte koblingen.
 2. Åpne finanskladden. Hvis du vil ha mer informasjon, kan du se [Arbeide med finanskladder](ui-work-general-journals.md).
@@ -35,12 +36,12 @@ Poster du bokfører med dokumenter, krever en kreditnotaprosess. Du kan imidlert
     > Hvis du for eksempel vil angi flere transaksjonslinjer før en motkontolinje for én bankkonto, merker du av for **Foreslå motkontobeløp** på linjen for kladden på siden **Finanskladder**. **Beløp**-feltet på motkontolinjen fylles automatisk ut med verdien som kreves for å balansere transaksjonene.
 5. Velg handlingen **Bokfør** for å registrere transaksjonene på bestemte finanskonti.
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Arbeid med finanskladder](ui-work-general-journals.md)  
-[Registrer og refunder ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)  
-[Tilbakeføre kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)  
-[Finans](finance.md)  
+[Arbeide med finanskladder](ui-work-general-journals.md)    
+[Registrere og refundere ansattes utgifter](finance-how-record-reimburse-employee-expenses.md)    
+[Reversere kladdebokføringer og angre mottak/leveringer](finance-how-reverse-journal-posting.md)    
+[Finans](finance.md)    
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)  
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

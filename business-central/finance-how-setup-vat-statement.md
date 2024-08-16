@@ -1,21 +1,22 @@
 ---
 title: Definere en mva-oppgave
-description: Dette emnet forklarer hvordan du definerer en mva-oppgavemal og mva-oppgavenavn for å oppfylle krav fra skattemyndighetene.
+description: I denne artikkelen forklarer vi hvordan du definerer en mva-oppgavemal og mva-oppgavenavn for å oppfylle endrede krav fra skattemyndighetene.
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: 'VAT, posting, tax, value-added tax'
 ms.search.form: '317, 318, 320, 474'
-ms.date: 06/16/2021
+ms.date: 08/13/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="set-up-vat-statement-templates-and-vat-statement-names"></a>Definer mva-oppgavemaler og mva-oppgavenavn
 
-Skattemyndighetene kan endre, og endrer, kravene sine for bokføring av mva. Mva-oppgavemaler og mva-oppgavenavn kan hjelpe deg med å forberede kommende endringer og få en jevn overgang til de nye kravene. Du kan bruke mva-oppgavemalen til å definere forskjellige rapporter når du velger å skrive ut oppgaven. Hver mva-oppgavemal kan ha flere mva-oppgavenavn som i sin tur definerer beregningene, og du kan opprette et nytt mva-oppgavenavn når behovene endres. Ett navn beregner for eksempel mva for inneværende år basert på gjeldende krav, og en annen beregner mva basert på kravene for neste år. Navn er også for eksempel en metode for å beholde historikken over mva-oppgaveformater, slik at du kan gå tilbake og se hvordan du beregnet mva i tidligere år.
+# Definere mva-oppgavemaler og mva-oppgavenavn
 
-## <a name="to-define-a-vat-statement"></a>Slik definerer du en mva-oppgave
+Skattemyndighetene kan endre, og endrer, kravene sine for bokføring av mva. Mva-oppgavemaler og mva-oppgavenavn kan hjelpe deg med å forberede kommende endringer og få en jevn overgang til de nye kravene. Du kan bruke mva-oppgavemaler til å definere forskjellige rapporter når du velger å skrive ut oppgaven. Hver mva-oppgavemal kan ha flere mva-oppgavenavn, som i sin tur definerer beregningene, og du kan opprette et nytt mva-oppgavenavn når behovet endres. Ett navn beregner for eksempel mva for inneværende år basert på gjeldende krav, og en annen beregner mva basert på kravene for neste år. Navn er også for eksempel en metode for å beholde historikken over mva-oppgaveformater, slik at du kan gå tilbake og se hvordan du beregnet mva i tidligere år.
+
+## Slik definerer du en mva-oppgave
 
 Mva-oppgaver lar deg beregne mva-oppgjørsbeløpet for en bestemt periode, for eksempel et kvartal.
 
@@ -27,7 +28,7 @@ Mva-oppgaver lar deg beregne mva-oppgjørsbeløpet for en bestemt periode, for e
 > Du kan filtrere informasjonen som oppgaven inneholder, avhengig av hva du valgte i **Type**-feltet. **Kontosammentelling** er nyttig hvis du vil ha mva fra en bestemt konto.
 **Mva-postsammentelling** får mva fra konti som er knyttet til det delene i feltene **Gen. Posting Type**, **Mva-bokf.gruppe - firma**, og/eller **Mva-bokføringsgruppe - vare**. **Radsammentelling** lar deg angi en verdi eller hurtigfilterkriterier i feltet **Radsammentelling**. Hvis du vil ha mer informasjon, kan du se [Søke etter, filtrere og sortere data](ui-enter-criteria-filters.md). **Beskrivelse** brukes ofte for å legge til en merknad til utdraget. Du kan for eksempel bruke den som en overskrift når du har brukt radsammentelling.
 
-## <a name="to-preview-the-vat-statement"></a>Forhåndsvise mva-oppgaven
+## Forhåndsvise mva-oppgaven
 
 Når du har definert en mva-oppgave, kan du forhåndsvise den for å sikre at den oppfyller dine behov.
 > [!Tip]
@@ -37,15 +38,15 @@ Når du har definert en mva-oppgave, kan du forhåndsvise den for å sikre at de
 2. Angi et datofilter for å begrense oppgaven til en bestemt periode. Hvis du vil ha mer informasjon om hvordan du tilpasser siden for å vise datofilteret, kan du se [Søke etter, filtrere og sortere data](ui-enter-criteria-filters.md).
 3. Du kan velge ulike alternativer for å angi hvilken type mva-poster som inkluderes i oppgaven.
 4. På linjene hvor **Type**-feltet inneholder **Mva-postsammentelling**, kan du se en oversikt over mva-poster ved å velge beløpet i **Kolonnebeløp**-feltet.
-5. Du kan bruke tilpasning til å vise flere felt på linjene. Det kan for eksempel være urealisert grunnlagsbeløp og urealisert mva-beløp hvis du bruker urealisert mva.
+5. Du kan bruke tilpasning til å vise flere felt på linjene. For eksempel Urealisert grunnlagsbeløp og Urealisert mva-beløp, hvis du bruker urealisert mva.
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Konfigurer merverdiavgift](finance-setup-vat.md)  
-[Definere urealisert merverdiavgift](finance-setup-unrealized-vat.md)  
-[Rapportere mva til skattemyndighetene](finance-how-report-vat.md)  
-[Arbeide med mva på kjøp og salg](finance-work-with-vat.md)  
-[Lokal funksjonalitet i Business Central](about-localization.md)
+[Definere merverdiavgift](finance-setup-vat.md)    
+[Oppsett av urealisert merverdiavgift](finance-setup-unrealized-vat.md)    
+[Rapportere mva til en skattemyndighet](finance-how-report-vat.md)    
+[Arbeide med mva på kjøp og salg](finance-work-with-vat.md)    
+[Lokal funksjonalitet i Business Central](about-localization.md)  
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

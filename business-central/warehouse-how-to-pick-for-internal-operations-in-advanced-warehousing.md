@@ -1,23 +1,27 @@
 ---
 title: Plukk for interne operasjoner i avansert lageroppsett
-description: 'Hvis lokasjonene bruker plukking og levering, plukker du komponenter for produksjons-, monterings- og prosjektaktiviteter på siden Lagerplukking.'
+description: 'Hvis lokasjonene bruker plukking og levering, kan du plukke komponenter for produksjons-, monterings- og prosjektaktiviteter på Lagerplukk-siden.'
 author: brentholtorf
 ms.author: bholtorf
 ms.reviewer: bholtorf
 ms.topic: conceptual
 ms.search.keywords: null
-ms.date: 04/23/2024
+ms.date: 08/12/2024
 ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# <a name="pick-for-production-assembly-or-projects-in-advanced-warehouse-configurations"></a>Plukk for produksjon, montering eller prosjekter i avanserte lageroppsett
+# Plukke for produksjon, montering eller prosjekter i avanserte lagerkonfigurasjoner
 
-Hvordan du plukker komponenter for produksjon, jobber eller monteringsordrer avhenger av hvordan lageret er definert som lokasjon. Finn ut mer under [Definer lagerstyring](warehouse-setup-warehouse.md).
+Hvordan du plukker komponenter for produksjons-, prosjekt- eller monteringsordrer, avhenger av hvordan lageret er definert som lokasjon. Finn ut mer under [Definer lagerstyring](warehouse-setup-warehouse.md).
 
-I et avansert lageroppsett for utgående flyt (plukk) slår du på **Plukk nødv.** **Levering nødv.** på siden **Lokasjonskort** for lokasjonen.
+Bruk følgende innstillinger på **Lokasjon kort**  siden for lokasjonen i en avansert lagerkonfigurasjon for den utgående flyten (plukk):
 
-Når lokasjonen er satt opp til å bruke plukkbehandling og lagerleveringsbehandling, kan du bruke plukkdokumentene til å opprette og behandle plukkopplysningene før du bokfører forbruket eller forbruk av komponenter.  
+* Produksjon, i **prod. forbruk whse. Håndteringsfelt**, Velg **Lagerplukk (valgfritt)**  eller **Lagerplukk (obligatorisk)**.
+* Montering, i **Asm. Forbruk Whse. Håndteringsfelt**, Velg **Lagerplukk (valgfritt)**  eller **Lagerplukk (obligatorisk).**
+* Prosjektstyring, i Prosjektforbruk **whse. Håndteringsfelt**, Velg **Lagerplukk (valgfritt)**  eller **Lagerplukk (obligatorisk).**
+
+Når lokasjonen er definert til å kreve plukkbehandling, bruker du plukkdokumenter til å opprette og behandle plukkinformasjon før du bokfører forbruk eller forbruk av komponenter.  
 
 Du kan ikke opprette et lagerplukkdokument fra bunnen av. Plukk er en del av en arbeidsflyt der en person som behandler en ordre, oppretter dem på en push-måte, eller den lageransatte oppretter dem på en pull-måte:
 
@@ -30,9 +34,9 @@ Når du skal plukke eller flytte komponenter for kildedokumenter på en pull-må
 |---------------------|--------------------|  
 |Produksjonsordre|Endre ordrestatusen til Frigitt eller Opprett en frigitt produksjonsordre med en gang.|  
 |Monteringsordre|Endre status til Frigitt.|
-|Prosjekter | Endre status til Åpen eller opprett jobb med statusen Åpen med en gang.|  
+|Prosjekter | Endre status til Åpne eller opprett prosjekt med statusen Åpne med en gang.|  
 
-## <a name="production"></a>Produksjon
+## Produksjon
 
 Bruk **Lagerplukkdokumenter** for plukking av produksjonskomponenter i flyten til produksjon.
 
@@ -41,32 +45,29 @@ For en lokasjon som bruker hyller til å flytte varer for åpne produksjonshylle
 * For en lokasjon som bruker lagerstyring, følger du fremgangsmåten i artikkelen [Flytt varer i avanserte lageroppsett](warehouse-how-to-move-items-in-advanced-warehousing.md).
 * For andre lokasjoner følger du fremgangsmåten i artikkelen [Flytt varer internt i grunnleggende lageroppsett](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-## <a name="assembly"></a>Montering
+## Montering  
 
 Bruk **lagerplukkingsdokumenter** til å flytte monteringskomponenter til monteringsområdet.
 
 [!INCLUDE [prod_short](includes/prod_short.md)] støtter monter-til-lager- og monter-til-ordre-typer for monteringsflyter. Hvis du vil lære mer om monter-til-ordre i utgående lagerflyt, kan du gå til [Hndtering av monter-til-ordre-varer i lagerleveringer](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-## <a name="project-management"></a>Prosjektstyring
+## Prosjektstyring  
 
-Bruk **lagerplukkdokumenter** til å plukke jobbkomponenter i flyten til prosjektstyring.
+Bruk **Lagerplukk-dokumenter** til å plukke prosjektkomponenter i flyten til prosjektstyring.
 
 > [!NOTE]
-> Muligheten til å plukke komponenter for prosjektplanleggingslinjer ble lagt til [!INCLUDE[d365fin](includes/d365fin_md.md)] i lanseringsbølge 2 i 2022. Hvis du starter å bruke funksjonen, må en administrator aktivere **Funksjonsoppdatering: Aktiver lager og lagerplugg fra prosjekter** på **Funksjonsstyring**-siden.
->
-> Prosjekter støtter ikke avanserte oppsett der alternativet for **Lagerstyring** er aktivert.
+> Project støtter ikke avanserte konfigurasjoner der veksleknappen **Direkte plukking og plassering** er aktivert.
 
-## <a name="check-whether-items-are-available-for-picking"></a>Kontrollere om varene er tilgjengelige for plukking
+## Kontrollere om varene er tilgjengelige for plukking
 
 [!INCLUDE [inventory-availability-overview](includes/inventory-availability-overview.md)]
 
-## <a name="to-create-pick-documents-in-bulk-with-the-pick-worksheet"></a>Slik oppretter du plukkdokumenter i bulk med plukkforslaget
+## Slik oppretter du plukkdokumenter i bulk med plukkforslaget
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Plukkforslag**, og velg deretter den relaterte koblingen.  
-
 2. Velg handlingen **Hent lagerdokumenter**.  
 
-    Oversikten viser den frigitte produksjonen, prosjektene, monteringsordrene som er videresendt til plukkfunksjonen. Ordrene omfatter de det allerede er opprettet plukkinstruksjoner for. Dokumenter med plukklinjer som er plukket og registrert, vises ikke i denne oversikten.  
+    Listen viser frigitte produksjons-, prosjekt- og monteringsordrer som er videresendt til plukkfunksjonen. Ordrene inkluderer ordrene som det allerede er opprettet plukkinstruksjoner for. Dokumenter med plukklinjer som er plukket og registrert, vises ikke i denne oversikten.  
 3. Velg ordrene du vil forberede plukking for.
 
     > [!NOTE]  
@@ -93,17 +94,17 @@ Bruk **lagerplukkdokumenter** til å plukke jobbkomponenter i flyten til prosjek
     |Alternativ|Beskrivelse|
     |-|-|
     |Per lager Dokument|Oppretter separate plukkdokumenter for forslagslinjer med samme lagerkildedokumentet.|
-    |Per kund/levrd/lok|Oppretter separate plukkdokumenter for hver kunde (prosjekter)|
+    |Per kund/levrd/lok|Oppretter separate plukkdokumenter for hver kunde (prosjekt)|
     |Per vare|Oppretter separate plukkdokumenter for hver vare i plukkforslaget.|
     |Per fra-sone|Oppretter separate plukkdokumenter for hver sone du plukker varene fra.|
     |Per hylle|Oppretter separate plukkdokumenter for hver hylle du plukker varene fra.|
     |Per forfallsdato|Oppretter separate plukkdokumenter for kildedokumenter som har samme forfallsdato.|
 
-    Angi hvordan du oppretter plukkdokumentene ved å velge blant følgende alternativer.  
+    Bruk følgende alternativer til å angi hvordan du oppretter plukkdokumentene.  
 
-    |Alternativ|Beskrivelse|
+    |Alternativ|Description|
     |-|-|
-    |Maks Antall plukklinjer|Oppretter plukkdokumenter som ikke har flere enn det angitte antallet linjer i hvert dokument.|
+    |Maks Nr. plukklinjer|Oppretter plukkdokumenter som ikke har flere enn det angitte antallet linjer i hvert dokument.|
     |Maks Antall plukkildedok.|Oppretter plukkdokumenter som dekker opp til det angitte antallet kildedokumenter.|
     |Tilordnet bruker-ID|Oppretter plukkdokumenter bare for forslagslinjer som er tilordnet til den valgte lageransatte.|
     |Sorteringsmetode for plukklinjer|Velg fra de tilgjengelige alternativene for å sortere linjene plukkdokumentet som er opprettet.|
@@ -113,7 +114,7 @@ Bruk **lagerplukkdokumenter** til å plukke jobbkomponenter i flyten til prosjek
 
 8. Velg **OK**-knappen.  
 
-## <a name="to-pick-items-for-a-production-order-assembly-order-or-project"></a>Slik plukker du varer for produksjonsordre, monteringsordre, prosjekt
+## Slik plukker du varer til en produksjonsordre, en monteringsordre eller et prosjekt
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angir **Plukking** og velger den relaterte koblingen.  
 
@@ -123,7 +124,7 @@ Bruk **lagerplukkdokumenter** til å plukke jobbkomponenter i flyten til prosjek
 
     Hvis lageret er definert slik at hyller brukes, brukes varenes standardhyller til å foreslå hvor du skal ta varene fra. Instruksjonene inneholder minst to separate linjer for handlingene Hent og Plasser.  
 
-    Operasjonsområder, for eksempel produksjonsutførelse, kan ha en standardhylle for komponentene de trenger. Hvis dette er tilfellet, legges standard hyllekode til i lagerplukkdokumentet for å angi hvor varene skal plasseres. Hvis du vil ha mer informasjon, kan du se verktøytipsene for feltene **Til-hyllekode for produksjon** eller **Til-hyllekode for montering**, **Til-hyllekode for prosjekt**.
+    Operasjonsområder, for eksempel produksjonsutførelse, kan ha en standardhylle for komponentene de trenger. Hvis dette er tilfellet, legges standard hyllekode til i lagerplukkdokumentet for å angi hvor varene skal plasseres. Hvis du vil ha mer informasjon, kan du se verktøytipsene for feltene **Hyllekode** for Til-produksjon, **Hyllekode** for Til-montering, **Hyllekode** for Til-prosjekt.
 
     Hvis lageret er definert slik at lagerstyring brukes, brukes hylleprioriteringen til å beregne de beste hyllene å plukke fra. Disse hyllene foreslås på plukklinjene. Instruksjonene inneholder minst to separate linjer for handlingene Hent og Plasser.  
 
@@ -141,7 +142,7 @@ Bruk **lagerplukkdokumenter** til å plukke jobbkomponenter i flyten til prosjek
   > [!NOTE]  
   > Linjer sorteres i stigende rekkefølge etter det valgte kriteriet. Hvis du sorterer etter dokument, utføres sorteringen først etter dokumenttype basert på feltet **Kildedokument for lageraktivitet**. Hvis du sorterer etter levering, gjøres sorteringen først etter måltype basert på feltet **Lagermåltype**.
 
-4. Når du har plukket og plassert varene i produksjons-, monterings- eller prosjektområdet eller -hyllen, velger du **Registrer plukk**-handlingen.  
+4. Når du har plukket og plassert varene i produksjons-, monterings- eller prosjektområdet eller hyllen, velger du handlingen **Registrer plukk** .  
 
     Du kan nå samle varene i det tilsvarende området og bokføre bruken eller forbruket av de plukkede komponentene ved å bokføre forbrukskladd, monteringsrekkefølge eller prosjektkladd. Følgende artikler gir mer informasjon:
 
@@ -149,7 +150,7 @@ Bruk **lagerplukkdokumenter** til å plukke jobbkomponenter i flyten til prosjek
     * [Monter varer](assembly-how-to-assemble-items.md)
     * [Registrere forbruk eller bruk for prosjekter](projects-how-record-job-usage.md)
 
-## <a name="flushing-production-components-in-an-advanced-warehouse-configuration"></a>Trekk produksjonskomponenter i et avansert lageroppsett
+## Trekk produksjonskomponenter i et avansert lageroppsett
 
 Trekkmetodene påvirker flyten av komponenter i produksjon. Finn ut mer under [Lagertrekk komponenter i henhold til operasjonsavgang](production-how-to-flush-components-according-to-operation-output.md). Avhengig av den valgte trekkmetoden kan du plukke komponenter for produksjon på følgende måter:
 
@@ -157,7 +158,7 @@ Trekkmetodene påvirker flyten av komponenter i produksjon. Finn ut mer under [L
 * Bruk et **lagerplukkdokument** til å registrere plukkingen for varer som bruker trekkmetoden **Plukk + fremover**, **Plukk + bakover**. Forbruk av komponentene utføres automatisk enten når du endrer statusen for produksjonsordren, eller ved å starte eller avslutte en operasjon. Alle obligatoriske komponenter må være tilgjengelig. Ellers stoppes bokføring av trukket forbruk for komponenten.
 * Bruk et **lagerflyttingsdokument** uten referanse til et kildedokument eller andre måter å registrere flytting av komponenter som bruker trekkmetoden **Fremover** eller **Bakover**. Komponenter forbrukes automatisk enten når du endrer statusen for produksjonsordren, eller ved å starte eller avslutte en operasjon. Alle obligatoriske komponenter må være tilgjengelig. Ellers stoppes bokføring av trukket forbruk for komponenten. Finn ut mer under [Flytt varer](warehouse-move-items.md).
 
-### <a name="example"></a>Eksempel
+### Eksempel
 
 Du har en produksjonsordre for 15 STK av varen SP-SCM1004. Noen av varene på komponentoversikten må trekkes manuelt i en forbrukskladd. Andre varer kan plukkes og trekkes automatisk ved hjelp av trekkmetoden **Plukk + bakover**.  
 
@@ -180,7 +181,7 @@ Illustrasjonen nedenfor viser når **Hyllekode**-feltet i komponentoversikten fy
 
 :::image type="content" source="media/binflow.png" alt-text="Oversikt over når og hvordan Hyllekode-feltet fylles ut.":::
 
-## <a name="make-to-order-mto-production-components-in-an-advanced-warehouse-configuration"></a>Produser til ordre-produksjonskomponenter i et avansert lageroppsett
+## Produser til ordre-produksjonskomponenter i et avansert lageroppsett
 
 I scenarioer der en produsert vare består av råvarer og halvfabrikata med produksjonspolicyen satt til **Produser på ordre**, blir lagerplukkingen for de halvferdige komponentene lagt til i den samme produksjonsordren med feltet **Planleggingsnivåkode** fylt ut. Det forventes at de halvferdige varene er tilgjengelige for forbruk umiddelbart og ikke krever plukking, slik at de ikke inkluderes i plukkdokumentet. De opprettede lagerplukkene inkluderer bare råvarer for produsert vare og halvfabrikata.
 
@@ -188,7 +189,7 @@ Hvis halvfabrikata imidlertid er tilgjengelig på lager, foreslår planleggingss
 Et slikt oppsett er ikke kompatibelt med lagerplukk, og avhengig av frekvensen må du enten endre produksjonspolicyen for halvfabrikata til **Produser til lager** eller dele produksjonsordrekomponentlinjen manuelt når du skal plukke de halvfabrikata som ble produsert tidligere.
 
 
-## <a name="see-also"></a>Se også
+## Se også
 
 - [Håndtere lager](inventory-manage-inventory.md)  
 - [Definer lagerstyring](warehouse-setup-warehouse.md)  

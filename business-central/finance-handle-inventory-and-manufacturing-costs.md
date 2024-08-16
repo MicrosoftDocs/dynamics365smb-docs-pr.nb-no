@@ -1,22 +1,23 @@
 ---
-title: Håndtere lager- og produksjonskost
-description: 'Lær hvordan en rekke felter, sider og rapporter er rettet mot brukere som direkte eller indirekte administrerer kostnadene for varer eller operasjoner.'
+title: Håndtere lager- og produksjonskostnader
+description: 'Lær hvor mange felt, sider og rapporter som er rettet mot brukere som direkte eller indirekte håndterer kostnadene for varer eller operasjoner.'
 author: brentholtorf
 ms.topic: conceptual
 ms.devlang: al
 ms.search.keywords: null
-ms.date: 06/16/2021
+ms.date: 07/30/2024
 ms.author: bholtorf
 ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
-# <a name="handling-inventory-and-manufacturing-costs"></a>Håndtere lager- og produksjonskost
 
-Selv om mange av funksjonene for kostredegjøring er uttrykt i underliggende prosesser uten brukerhandling, for eksempel postutligning og automatisk kostjustering, er mange felt, sider og rapporter rettet inn mot brukere som direkte eller indirekte håndterer vare- eller driftskost.  
+# Håndtere lager- og produksjonskostnader
+
+Selv om mye av funksjonene for kostregnskap er uttrykt i underliggende prosesser uten brukermedvirkning, for eksempel postutligning og automatisk kostjustering, er mange felt, sider og rapporter rettet mot brukere som direkte eller indirekte håndterer vare- eller driftskostnader.  
 
  Tilordning av varegebyrer til kjøpsdokumenter er et eksempel på en indirekte kostredegjørelsesoppgave. Oppdatering av enhetskost for en monterings- eller produksjonsstykklistevare er et eksempel på en mer direkte kostredegjørelsesoppgave.  
 
- Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til emnene som beskriver dem.   
+ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artiklene som beskriver dem.   
 
 |**Hvis du vil**|**Se**|  
 |------------|-------------|  
@@ -29,10 +30,10 @@ Selv om mange av funksjonene for kostredegjøring er uttrykt i underliggende pro
 |Manuelt angre en vareutligning eller utligne vareposter som er opprettet i programmet, på nytt.|[Fjerne varefinansposter og utligne dem på nytt](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Bruk feltet **Utlignet fra-post** i varekladden til å opprette en fast utligning manuelt mellom en inngående transaksjon og den opprinnelige utgående transaksjonen.|[Lukk åpne vareposter som er resultat av fast utligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
-[Administrere lagerkostnader](finance-manage-inventory-costs.md)
-[Designdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)
+[Administrere lagerkost](finance-manage-inventory-costs.md)    
+[Utformingsdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)    
 
 
 [!INCLUDE[footer-include](includes/footer-banner.md)]

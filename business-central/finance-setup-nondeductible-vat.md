@@ -7,12 +7,12 @@ ms.service: dynamics-365-business-central
 ms.topic: how-to
 ms.search.keywords: 'VAT, non-deductible, setup'
 ms.search.form: '187, 472, 473'
-ms.date: 04/26/2023
+ms.date: 08/13/2024
 ms.custom: bap-template
 ms.reviewer: bholtorf
 ---
 
-# <a name="set-up-nondeductible-vat"></a>Definer ikke-fradragsberettiget mva
+# Definer ikke-fradragsberettiget mva
 
 Ikke-fradragsberettiget merverdiavgift (mva) er merverdiavgiften som skal betales av en kjøper, men som ikke er fradragsberettiget fra innkjøper egen mva-gjeld. Selskaper kan vanligvis gjenopprette mva. på kjøp av varer og tjenester som er knyttet til forretningsaktivitetene. I enkelte situasjoner påløper det mva. som ikke er fradragsberettiget, for bedrifter. Disse situasjonene er vanligvis knyttet til de lokale bestemmelsene og kan variere blant land/områder. Modellen for bruk av ikke-fradragsberettiget eller delvis fradragsberettiget mva. er imidlertid lik. Du kan bruke forholdsmessig mva. til å beregne mva. når fradragsberettiget og ikke-fradragsberettiget mva. forekommer.
 
@@ -26,7 +26,7 @@ Siden det kan være vanskelig å vite hvor og hvordan en vare brukes, bør du ko
 > [!IMPORTANT]
 > Denne globale funksjonen er tilgjengelig i alle land med aktivert mva. **unntatt for Belgia, Italia og Norge**. Disse lokaliseringene har allerede eksisterende lokal funksjon og vil oppgraderes senere. Ikke kjør denne funksjonen i disse landene, fordi oppgraderingsprosedyren finnes ikke.
 
-## <a name="use-nondeductible-vat"></a>Bruk ikke-fradragsberettiget mva
+## Bruk ikke-fradragsberettiget mva
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 3.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-oppsett** og velg den relaterte koblingen.
 2. Merk av for **Aktiver ikke-fradragsberettiget mva.**.
@@ -41,16 +41,16 @@ Siden det kan være vanskelig å vite hvor og hvordan en vare brukes, bør du ko
     3. Velg avmerkingsboksen **Bruk for prosjektkostnad** for å angi at ikke-fradragsberettiget mva. skal legges til i prosjektkostnaden når du kjøper varer for prosjektet. Ellers vil ikke-fradragsberettiget mva. få innvirkning på prosjektkostnaden, og hele beløpet registreres bare på finansnivå.
     4. Merk av for **Vis ikke-fradragsberettiget mva. i linjer** for å angi at ikke-fradragsberettiget mva. skal vises på dokumentlinjesider for enklere redigering av mva-beløp.
 
-## <a name="use-the-nondeductible-vat-percentage"></a>Bruk den ikke-fradragsberettigede mva-prosenten
+## Bruk den ikke-fradragsberettigede mva-prosenten
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg 3.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Mva-bokføringsoppsett**, og velg deretter den relaterte koblingen.
 2. På siden **Mva-bokføringsoppsett** angir du feltene som beskrevet i tabellen nedenfor.
 
     | Felt | Description |
     |-------|-------------|
-    | Tillat ikke-fradragsberettiget mva. | Angi om ikke-fradragsberettiget mva. vurderes for nåværende kombinasjon av mva-firmabokføringsgruppe og mva-produktbokføringsgruppe. |
-    | Ikke-fradragsberettiget mva-prosent | Angi prosentandelen av transaksjonsbeløpet som mva. ikke brukes på. |
-    | Ikke-fradragsberettiget inngående mva-konto | Angi kontoen som er knyttet til mva-beløpet som ikke er fratrukket på grunn av typen varer eller tjenester som er kjøpt. |
+    | **Tillat ikke-fradragsberettiget mva.** | Angi om ikke-fradragsberettiget mva. vurderes for nåværende kombinasjon av mva-firmabokføringsgruppe og mva-produktbokføringsgruppe. |
+    | **ikke-fradragsberettiget mva. %** | Angi prosentandelen av transaksjonsbeløpet som mva. ikke brukes på. |
+    | **Ikke-fradragsberettiget inngående mva-konto** | Angi kontoen som er knyttet til mva-beløpet som ikke er fratrukket på grunn av typen varer eller tjenester som er kjøpt. |
 
     > [!NOTE]
     > Hvis du vil ha finansposter som bruker den dedikerte kontoen i stedet for salgs-/kjøpskontoen, kan du enten la feltet **Ikke-fradragsberettiget mva-konto** være tomt eller angi feltet **Finanskonto**.
@@ -62,7 +62,7 @@ Siden det kan være vanskelig å vite hvor og hvordan en vare brukes, bør du ko
 >
 > Ikke bruk den samme **mva-type** for både normal mva. der feltet **Ikke-fradragsberettiget mva-prosent** er satt til **0** (null) og normal mva., der feltet **Ikke-fradragsberettiget mva-prosent** er satt til en verdi som ikke er null. Ellers beregnes ikke det totale mva-beløpet som ikke er fradragsberettiget mva., på riktig måte.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Økonomistyring](finance.md)  
 [Utformingsdetaljer: Ikke-fradragsberettiget mva](design-details-nondeductible-vat.md)  
