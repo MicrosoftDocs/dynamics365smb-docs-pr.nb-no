@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.service: dynamics-365-business-central
 ---
 
-# Tilbakefør kladdebokføringer og angre mottak/leveringer
+# <a name="reverse-journal-postings-and-undo-receiptsshipments"></a>Tilbakefør kladdebokføringer og angre mottak/leveringer
 
 Tilbakeførte kladdebokføringer er nyttige for eksempel for å korrigere feil og for å tømme en gammel avsetningspost før du skriver inn en ny. En tilbakeføringspost er det samme som originalposen, men med motsatt rekkefølge i **Beløp**-feltet. Tilbakeføringsposten må ha samme dokumentnummer og bokføringsdato som originalposten. Når du har tilbakeført en post, må du lage den riktige posten.
 
@@ -22,7 +22,7 @@ Hvis du har bokfør feil negativt antall, for eksempel en bestilling med galt va
 
 Hvis du har bokført feil positivt antall, for eksempel en følgeseddelen eller bestillingsreturforsendelse med galt vareantall, som sendt, men ikke fakturert, kan du angre bokføringen.
 
-## Tilbakeføre kladdebokføring av en finanspost
+## <a name="to-reverse-the-journal-posting-of-a-general-ledger-entry"></a>Tilbakeføre kladdebokføring av en finanspost
 
 Du kan tilbakeføre poster fra alle **Poster**-sider. Fremgangsmåten nedenfor er basert på siden **Finansposter**.
 
@@ -34,7 +34,7 @@ Du kan tilbakeføre poster fra alle **Poster**-sider. Fremgangsmåten nedenfor e
 3. Velg handlingen **Tilbakeføre** på siden **Tilbakefør transaksjonsposter**.
 4. Velg **Ja** for å bekrefte tilbakeføringen.
 
-## Bokføre en negativ post  
+## <a name="to-post-a-negative-entry"></a>Bokføre en negativ post
 
 Bruk **Korreksjon**-feltet til å bokføre en negativ debet i stedet for en kredit, eller til å bokfører en negativ kredit i stedet for en debet på kontoen. Feltet er som standard tilgjengelig i alle kladder. Feltet **Debetbeløp** og **Kreditbeløp** omfatter den opprinnelige posten og den korrigert posten. Disse feltene har ingen innvirkning på kontoens saldo.  
 
@@ -44,7 +44,7 @@ Bruk **Korreksjon**-feltet til å bokføre en negativ debet i stedet for en kred
 4. På kladdelinjen som du vil aktivere for negative poster merker du av for **Korreksjon**.  
 5. Hvis du vil bokføre kladden, velger du **Bokfør** og deretter **Ja**.
 
-## Slik angrer du et antall på bokførte kjøpsmottak  
+## <a name="to-undo-a-quantity-on-a-posted-purchase-receipt"></a>Slik angrer du et antall på bokførte kjøpsmottak
 
 Nedenfor beskrives hvordan du angrer et bokført mottak av varer eller ressurser. Trinnene er de samme for bokførte leveringer.
 
@@ -57,7 +57,7 @@ Det legges til en korrigeringslinje under den valgte mottakslinjen. Hvis antalle
 
 Feltene **Mottatt (antall)** og **Mott. antall (ufakt.)** på den tilknyttede bestillingen blir satt til null.
 
-## Slik angrer du og gjør om en antallsbokføring på en bokført returforsendelse
+## <a name="to-undo-and-then-redo-a-quantity-posting-on-a-posted-return-shipment"></a>Slik angrer du og gjør om en antallsbokføring på en bokført returforsendelse
 
 Følgende trinn beskriver hvordan du kan:
 
@@ -83,7 +83,7 @@ Trinnene er de samme for bokførte retursedler.
 
 [!INCLUDE [rev-general-journal](includes/rev-general-journal.md)]
 
-## Tilbakefør en kunde- og leverandørpost med en realisert resultatpost
+## <a name="reverse-a-customer-and-vendor-ledger-entry-with-a-realized-gain-or-loss-entry"></a>Tilbakefør en kunde- og leverandørpost med en realisert resultatpost
 
 Du kan bruke handlingen **Tilbakefør transaksjon** til å tilbakeføre betalinger som ble utlignet mot poster som stammet fra utenlandsk valuta, og ble justert ved hjelp av kjørselen Valutakursjustering. Funksjonen fungerer for både kjøp og salg.
 
@@ -94,7 +94,7 @@ Følgende er et enkelt scenario som viser hvordan den fungerer:
 3. Bokfør en betaling som utlignes mot fakturaen.
 4. Opphev utligning og tilbakefør betalingstransaksjonen, for eksempel fra **Kundeposter**-siden.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Angre monteringsbokføring](assembly-how-to-undo-assembly-posting.md)    
 [Bokføre transaksjoner direkte i Finans](finance-how-post-transactions-directly.md)    

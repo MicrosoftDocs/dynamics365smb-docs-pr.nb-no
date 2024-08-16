@@ -10,7 +10,7 @@ ms.date: 08/12/2024
 ms.custom: bap-template
 ms.search.forms: '9330, 931, 990008, 89, 900, 902'
 ---
-# Plukke for produksjon, montering eller prosjekter i grunnleggende lagerkonfigurasjoner
+# <a name="pick-for-production-assembly-or-projects-in-basic-warehouse-configurations"></a>Plukke for produksjon, montering eller prosjekter i grunnleggende lagerkonfigurasjoner
 
 Hvordan du plukker komponenter for produksjons-, prosjekt- eller monteringsordrer, avhenger av hvordan lageret er definert som lokasjon. Finn ut mer under [Definer lagerstyring](warehouse-setup-warehouse.md).
 
@@ -25,14 +25,14 @@ Bruk følgende dokumenter for interne operasjoner:
 * Lagerplukk
 * Flytting av lager
 
-## Lagerplukk
+## <a name="inventory-picks"></a>Lagerplukk
 
 * Når du registrerer en lagerplukking for en intern operasjon, for eksempel produksjon eller et prosjekt, bokføres forbruket av de plukkede komponentene samtidig.
 
 * Vekslebryteren **Hylle obligatorisk** på siden **Lokasjonskort** er valgfri.
 * Når du bruker lagerplukk, definerer feltet **Hyllekode** på en produksjonsordrekomponentlinje eller prosjektplanleggingslinjer *Hent*-hyllen. Komponenter reduseres i Hent-hyllen når du bokfører forbruk.
 
-## Lagerflyttinger
+## <a name="inventory-movements"></a>Lagerflyttinger
 
 * Lagerflyttinger krever at du aktivere **Hylle obligatorisk** på siden **Lokasjonskort** for lokasjonen.
 * Lagerflyttinger fungerer bare med produksjonsordrekomponentlinjer og monteringsordrelinjer.
@@ -40,13 +40,13 @@ Bruk følgende dokumenter for interne operasjoner:
 * Når du bruker lagerflyttinger, definerer feltet **Hyllekode** på en produksjonsordrekomponentlinjer *Plasser*-hyllen i operasjonsområdet. Plasser-hyllen er der lageransatte må plassere komponentene.
 * Registrer forbruket av de plukkede komponentene separat ved å bokføre en forbrukskladd eller en monteringsordre.
 
-### Produksjon
+### <a name="production"></a>Produksjon
 
 Bruk **lagerplukkdokumenter** for plukking av produksjonskomponenter i flyten til produksjon.
 
 For en lokasjon som bruker hyller, kan du forlenge flyten til produksjon ved å bruke **lagerflyttingsdokumenter**. Lagerflytteringer er spesielt nyttige for komponenttrekk. Hvis du vil ha mer informasjon om hvordan komponentforbruk er trekkes fra hyller til produksjon eller åpne produksjonshyller, kan du gå til [Trekk produksjonskomponenter i et enkelt lageroppsett](#flushing-production-components-in-a-basic-warehouse-configuration).
 
-### Montering  
+### <a name="assembly"></a>Montering
 
 Bruk **lagerflyttingsdokumenter** til å flytte monteringskomponenter til monteringsområdet.
 
@@ -55,7 +55,7 @@ Bruk **lagerflyttingsdokumenter** til å flytte monteringskomponenter til monter
 
 [!INCLUDE [prod_short](includes/prod_short.md)] støtter monter-til-lager- og monter-til-ordre-typer for monteringsflyter. Hvis du vil lære mer om monter-til-ordre i utgående lagerflyt, kan du gå til [Håndtering av monter-til-ordre-varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-### Prosjektstyring  
+### <a name="project-management"></a>Prosjektstyring
 
 Bruk **lagerplukkdokumenter** til å plukke prosjektkomponenter i flyten til prosjektstyring.
 
@@ -64,7 +64,7 @@ For lokasjoner som bruker hyller, kan du utvide flyten til å projisere med **la
 > [!NOTE]
 > [!INCLUDE[prod_short](includes/prod_short.md)] bruker verdien i **Restantall**-feltet på prosjektplanleggingslinjen når det opprettes lagerplukk. Hvis du vil bruke lagerplukk for prosjekter, må du aktivere veksleknappen **Bruk forbruk opprette en kobling**  på **siden Prosjekt kort**  for prosjektene. Dette gjør at du kan spore forbruk mot planen din. Hvis du ikke aktiverer/deaktiverer, vil restantallet være **0** og lagerplukkingen opprettes ikke. Finn ut mer under [Slik definerer du sporing av prosjektbruk](projects-how-setup-jobs.md?tabs=current-experience#to-set-up-project-usage-tracking).
 
-## Plukk eller flytt for produksjon, montering eller prosjekter i et enkelt lageroppsett
+## <a name="pick-or-move-for-production-assembly-and-projects-in-a-basic-warehouse-configuration"></a>Plukk eller flytt for produksjon, montering eller prosjekter i et enkelt lageroppsett
 
 Du kan opprette lagerplukk eller lagerflytting på tre måter:  
 
@@ -72,26 +72,26 @@ Du kan opprette lagerplukk eller lagerflytting på tre måter:
 * For flere kildedokumenter samtidig ved å bruke en satsvis jobb.  
 * I to trinn. Frigi kildedokumentet for å gjøre kildedokumentet klart for plukking. Opprett lagerplukk eller -flytting fra dokumeneter for **lagerplukk** eller **lagerflytting**. Lagerplukk eller -flytting er basert på kildedokumentet.  
 
-### Slik oppretter du et lagerplukk fra kildedokumentet
+### <a name="to-create-an-inventory-pick-from-the-source-document"></a>Slik oppretter du et lagerplukk fra kildedokumentet
 
 1. I kildedokumentet, som kan være en produksjonsordre eller et prosjekt, velger du **handlingen Opprett lagerplassering/-plukking** .  
 2. Merk av for **Opprett lagerplukking**.
 3. Velg **OK**-knappen.
 
-### Slik oppretter du en lagerflytting fra kildedokumentet
+### <a name="to-create-an-inventory-movement-from-the-source-document"></a>Slik oppretter du en lagerflytting fra kildedokumentet
 
 1. I kildedokumentet, som kan være en produksjonsordre, en monteringsordre eller et prosjekt, velger du **handlingen Opprett lagerplassering/-plukking** .  
 2. Merk av for **Opprett lagerflytting**.
 3. Velg **OK**-knappen.
 
-### Slik oppretter du flere lagerplukk eller -flyttinger med en kjørsel
+### <a name="to-create-multiple-inventory-picks-or-movements-with-a-batch-job"></a>Slik oppretter du flere lagerplukk eller -flyttinger med en kjørsel
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriv inn **Opprett plassering/plukk/flytting for lager**, og velg deretter den relaterte koblingen.  
 2. På hurtigfanen **Lagerforespørsel** bruker du filtrene **Kildedokumentet** og **Kildenr.** for å filtrere etter dokumenttyper eller dokumentnummerintervaller. Du kan for eksempel bare opprette plukk for produksjonsordrer.
 3. På hurtigfanen **Alternativer** slår du vekslebryterne **Opprett lagerplassering** eller **Opprett lagerflytting**.
 4. Velg **OK**-knappen.
 
-### Slik oppretter du lagerplukk eller -flyttinger i to trinn
+### <a name="to-create-inventory-picks-or-movements-in-two-steps"></a>Slik oppretter du lagerplukk eller -flyttinger i to trinn
 
 Når du skal plukke eller flytte komponenter for kildedokumenter i to trinn, må du frigi kildedokumentet for å gjøre det klart for plukking. Frigi kildedokumenter for interne operasjoner på følgende måter.  
 
@@ -113,7 +113,7 @@ En lageransatt som er tildelt til plukkende varer, kan opprette et lagerplasseri
 5. Du kan også velge handlingen **Hent kildedokument** for å velge dokumentet fra en liste over inngående kildedokumenter som er klare for plukking på lokasjonen.  
 6. Velg **OK**-knappen for å fylle ut plukk- eller flyttelinjene i henhold til det valgte kildedokumentet.  
 
-## Slik registrerer du lagerplukk
+## <a name="to-record-the-inventory-pick"></a>Slik registrerer du lagerplukk
 
 1. Åpne dokumentet du vil registrere et plukk for, på siden **Lagerplukk**.  
 2. I **Hyllekode**-feltet på plukklinjene må hyllen der varene skal plukkes fra, være hyllen der varen er tilgjengelig. Du kan endre hyllen ved behov.
@@ -129,7 +129,7 @@ Følgende skjer under bokføringsprosessen:
 
 [!INCLUDE [preview-posting-warehouse](includes/preview-posting-warehouse.md)]
 
-## Slik registrerer du lagerflyttingen
+## <a name="to-record-the-inventory-movement"></a>Slik registrerer du lagerflyttingen
 
 1. Åpne dokumentet du vil registrere en flytting for, på siden **Lagerflytting**.  
 2. I **Hyllekode**-feltet på flyttelinjene foreslås hyllen det skal plukkes fra, basert på varens standardhylle og tilgjengelighet. Du kan endre hyllen ved behov.  
@@ -145,7 +145,7 @@ Følgende skjer under bokføringsprosessen:
 >[!NOTE]
 > I motsetning til når du flytter komponenter lagerplukkinger, bokføres ikke forbruk når du registrerer en lagerflytting. Du registrerer forbruk som et separat trinn ved å bokføre kildedokumentet.
 
-## Trekk produksjonskomponenter i et grunnleggende lageroppsett
+## <a name="flushing-production-components-in-a-basic-warehouse-configuration"></a>Trekk produksjonskomponenter i et grunnleggende lageroppsett
 
 Trekkmetodene påvirker flyten av komponenter i produksjon. Finn ut mer under [Lagertrekk komponenter i henhold til operasjonsavgang](production-how-to-flush-components-according-to-operation-output.md). Avhengig av trekkmetoden du valgte, kan du plukke komponenter for produksjon på følgende måter:
 
@@ -154,7 +154,7 @@ Trekkmetodene påvirker flyten av komponenter i produksjon. Finn ut mer under [L
 * Bruk et **lagerflyttingsdokument** med en referanse til et kildedokument til å registrere plukk for komponenter som bruker trekkmetoden **Plukk + fremover**, **Plukk + bakover**. Forbruk av komponentene utføres automatisk enten når du endrer statusen for produksjonsordren, eller ved å starte eller avslutte en operasjon. Alle obligatoriske komponenter må være tilgjengelig. Ellers stoppes bokføring av trukket forbruk for komponenten.
 * Bruk et **lagerflyttingsdokument** uten referanse til et kildedokument eller andre måter å registrere flytting av komponenter som bruker trekkmetoden **Fremover** eller **Bakover**. Forbruk av komponentene utføres automatisk enten når du endrer statusen for produksjonsordren, eller ved å starte eller avslutte en operasjon. Alle obligatoriske komponenter må være tilgjengelig. Ellers stoppes bokføring av trukket forbruk for komponenten. Finn ut mer under [Flytt varer internt i grunnleggende lageroppsett](warehouse-how-to-move-items-ad-hoc-in-basic-warehousing.md).
 
-### Eksempel
+### <a name="example"></a>Eksempel
 
 Du har en produksjonsordre for 15 STK av varen SP-SCM1004. Noen av varene i komponentoversikten må trekkes manuelt i en forbrukskladd, og andre varer kan plukkes og trekkes automatisk ved hjelp av trekkmetoden **Plukk + Bakover**.  
 
@@ -174,7 +174,7 @@ Fremgangsmåten nedenfor gir et eksempel på handlingene ulike personer gjør og
 
 :::image type="content" source="media/binflow.png" alt-text="Oversikt over når og hvordan Hyllekode-feltet fylles ut.":::
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Lager](inventory-manage-inventory.md)  
 [Definer lagerstyring](warehouse-setup-warehouse.md)  

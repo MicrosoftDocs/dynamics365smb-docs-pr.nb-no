@@ -12,14 +12,14 @@ ms.search.forms: '5746, 5745, 5759, 5753, 5743, 5758, 5752, 5744, 5749, 5740, 57
 ms.service: dynamics-365-business-central
 ---
 
-# Overfør lager mellom lokasjoner
+# <a name="transfer-inventory-between-locations"></a>Overfør lager mellom lokasjoner
 
 Du kan overføre lagervarer mellom lokasjoner ved å opprette overføringsordrer. Du kan også bruke varereklassifiseringskladden.
 
 > [!NOTE]
 > Hvis du vil overføre varer, må du definere lokasjoner og overføringsruter. Hvis du vil vite mer om hvordan du konfigurerer steder, kan du gå til [Konfigurere steder](inventory-how-setup-locations.md). Du kan ikke bruke overføringsordrer for *tomme* lokasjoner.
 
-## Overføringsordrer
+## <a name="transfer-orders"></a>Overføringsordrer
 
 Du kan levere en utgående overføring fra en lokasjon og mottar en inngående overføring ved destinasjonen. Du kan:
 
@@ -28,7 +28,7 @@ Du kan levere en utgående overføring fra en lokasjon og mottar en inngående o
 * Bruk forskjellige lagerfunksjoner for inngående og utgående lokasjoner.
 * Med enkelte begrensninger kan du bruke overføringsordrer for direkte overføringer.
 
-## Varereklassifiseringskladder
+## <a name="item-reclassification-journals"></a>Varereklassifiseringskladder
 
 Du kan også bruke siden **Varereklassifiseringskladder** til følgende:
 
@@ -39,7 +39,7 @@ Du kan også bruke siden **Varereklassifiseringskladder** til følgende:
 * Reklassifiser varer fra en tom lokasjon til en faktisk lokasjon.
 * Opprett lagerposter hvis du ikke administrerer lageraktiviteter.
 
-## Slik overfører du varer med en overføringsordre
+## <a name="to-transfer-items-with-a-transfer-order"></a>Slik overfører du varer med en overføringsordre
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Overføringsordrer**, og velg deretter den relaterte koblingen.
 2. På siden **Overføringsordrer** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -64,7 +64,7 @@ Du kan også bruke siden **Varereklassifiseringskladder** til følgende:
     Som lagermedarbeider på overfør fra-lokasjonen, kan du fortsette å motta varene. Overføringsordrelinjene er de samme som når de sendes, og kan ikke redigeres.
 5. Velg **Bokfør**-handlingen, velg **Motta**-alternativet, og velg deretter **OK**-knappen.
 
-### Angre en overføringslevering
+### <a name="undo-a-transfer-shipment"></a>Angre en overføringslevering
 
 Hvis du finner en feil i et antall i en bokført overføringsordre er det enkelt å korrigere antallet så lenge leveringen ikke er mottatt. På **siden Bokført overføringsseddel** oppretter handlingen **Angre forsendelse** korrigerende linjer på følgende måte:
 
@@ -76,7 +76,7 @@ Hvis antallet som er levert i en lagerlevering, opprettes det en korreksjonslinj
 
 Du fullfører korrigeringen ved å åpne overføringsordren på nytt, angi riktig antall og deretter bokføre ordren. Hvis du bruker lagerlevering til å levere ordren, oppretter og bokfører du en ny lagerlevering.
 
-### Bokfør flere overføringsordrer samtidig
+### <a name="post-multiple-transfer-orders-in-a-batch"></a>Bokfør flere overføringsordrer samtidig
 
 Fremgangsmåten nedenfor forklarer hvordan du massebokfører overføringsordrer.
 
@@ -96,7 +96,7 @@ Fremgangsmåten nedenfor forklarer hvordan du massebokfører overføringsordrer.
     > [!NOTE]
     > Bokføring av flere dokumenter kan ta litt tid og blokkere andre brukere. Vurder å aktivere bokføring i bakgrunnen. Hvis du vil ha mer informasjon, kan du se [Bruke jobbkøer til å planlegge oppgaver](/dynamics365/business-central/admin-job-queues-schedule-tasks).
 
-### Planlegg en jobbkøoppføring for å bokføre flere dokumenter samtidig
+### <a name="schedule-a-job-queue-entry-to-post-multiple-documents-in-a-batch"></a>Planlegg en jobbkøoppføring for å bokføre flere dokumenter samtidig
 
 Du kan også bruke jobbkøen til å planlegge at bokføring skal skje på et tidspunkt som passer for organisasjonen. Det kan for eksempel være fornuftig for virksomheten å kjøre visse rutiner etter at det meste av dagens dataregistrering er gjort for dagen.
 
@@ -116,7 +116,7 @@ Følgende fremgangsmåte viser hvordan du konfigurerer rapporten **Massebokfør 
 8. I feltet **Starttidspunkt** angir du **16:00**.
 9. Velg **Sett status til Klar**-handlingen.
 
-### Sammenligning av ulike innstillinger for overføringsordrer
+### <a name="comparison-of-different-settings-for-transfer-orders"></a>Sammenligning av ulike innstillinger for overføringsordrer
 
 Du kan bokføre overføringsordrer i forskjellige moduser, med eller uten transittlokasjon. Deaktiver veksleknappen Direkte overføring **, og Velg den midlertidige lokasjonen** i feltet I transitt-kode **på siden Overføringsordre**  **.**  Når du bokfører leveringen av en overføringsordre som bruker transittlokasjonen, er ikke varene på linjen lenger tilgjengelige på en av lokasjonene dine fordi de er i transitt. Direkte bokføring sikrer at et sted i transitt ikke brukes, og at forsendelsen og mottaket behandles samtidig. Den nøyaktige virkemåten til direkte bokføring kan være forskjellig basert på verdien som er valgt i **feltet Bokføring** av direkte overføring på **siden Lageroppsett** .
 
@@ -153,7 +153,7 @@ Uansett metode utføres forsendelses- og mottakstransaksjonene. Du kan for eksem
 
 Hvis du vil ha mer informasjon om lagerhåndtering, kan du se [Oversikt](design-details-warehouse-management.md) over lagerstyring.
 
-## Slik overfører du varer med varereklassifiseringskladden
+## <a name="to-transfer-items-with-the-item-reclassification-journal"></a>Slik overfører du varer med varereklassifiseringskladden
 
 1. Velg ikonet ![Lyspære som åpner funksjonen Fortell meg.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og angi **Vareoverføringskladder** og velg den relaterte koblingen.
 2. På siden **Vareoverføringskladder** fyller du ut feltene etter behov. [!INCLUDE[tooltip-inline-tip](includes/tooltip-inline-tip_md.md)]
@@ -167,7 +167,7 @@ Hvis du vil ha mer informasjon om lagerhåndtering, kan du se [Oversikt](design-
     [!INCLUDE [preview-posting-inventory](includes/preview-posting-inventory.md)]
 
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Håndtere lager](inventory-manage-inventory.md)  
 [Konfigurer lokasjoner](inventory-how-setup-locations.md)  

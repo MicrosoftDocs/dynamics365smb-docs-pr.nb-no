@@ -12,12 +12,12 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Lukker bøkene
+# <a name="closing-the-books"></a>Lukker bøkene
 Når du har kontrollert at alle kontiene er oppdatert og har fordelt kost og inntekt, kan du lukke tablåene for et regnskapsår eller en periode.
 
 Du trenger ikke å avslutte et år, men hvis du gjør det, blir det enklere å arbeide i systemet, ettersom du kan dra nytte av de praktiske filtreringsalternativene. Du trenger heller ikke å bekymre deg om å miste detaljer i transaksjoner når du avslutter, ettersom alle detaljer beholdes, selv etter at du har avsluttet året.
 
-## Avslutning av bokprosess
+## <a name="closing-book-process"></a>Avslutning av bokprosess
 Prosessen for å avslutte tablået omfatter disse hovedoppgaver:
 
 1. Avslutte regnskapsperioden.
@@ -39,7 +39,7 @@ Prosessen for å avslutte tablået omfatter disse hovedoppgaver:
 
     Hvis du vil ha mer informasjon, kan du se [Bokføre avslutningspost for årets slutt](year-how-post-year-end-close-entry.md).
 
-## Dette skjer når du avslutter
+## <a name="what-happens-when-you-close"></a>Dette skjer når du avslutter
 
 Når du avslutter ved utgangen av året, flyttes egenkapitalen fra beregnet egenkapital til kontoen for fri egenkapital. Regnskapsåret merkes også som avsluttet, og alle etterfølgende poster for det avsluttede året merkes som etterposter.
 
@@ -47,7 +47,7 @@ Deretter genereres det en avslutningspost, men posten bokføres ikke automatisk.
 
 Du kan bokføre i et tidligere regnskapsår, selv etter at resultatkontoene er avsluttet, hvis du kjører kjørselen Lukk resultatregnskapet på nytt etterpå.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Arbeide med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md)    
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
