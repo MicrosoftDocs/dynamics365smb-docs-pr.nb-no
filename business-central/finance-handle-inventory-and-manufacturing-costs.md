@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# Håndtere lager- og produksjonskostnader
+# <a name="handling-inventory-and-manufacturing-costs"></a>Håndtere lager- og produksjonskostnader
 
 Selv om mye av funksjonene for kostregnskap er uttrykt i underliggende prosesser uten brukermedvirkning, for eksempel postutligning og automatisk kostjustering, er mange felt, sider og rapporter rettet mot brukere som direkte eller indirekte håndterer vare- eller driftskostnader.  
 
@@ -30,7 +30,7 @@ Selv om mye av funksjonene for kostregnskap er uttrykt i underliggende prosesser
 |Manuelt angre en vareutligning eller utligne vareposter som er opprettet i programmet, på nytt.|[Fjerne varefinansposter og utligne dem på nytt](finance-how-to-remove-and-reapply-item-entries.md)|  
 |Bruk feltet **Utlignet fra-post** i varekladden til å opprette en fast utligning manuelt mellom en inngående transaksjon og den opprinnelige utgående transaksjonen.|[Lukk åpne vareposter som er resultat av fast utligning i varekladden](finance-how-to-close-open-item-ledger-entries-resulting-from-fixed-application-in-the-item-journal.md)|  
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Administrere lagerkost](finance-manage-inventory-costs.md)    
 [Utformingsdetaljer: Kostberegning for beholdning](design-details-inventory-costing.md)    

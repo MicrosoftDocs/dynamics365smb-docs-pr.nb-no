@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: jswymer
 ---
 
-# Utarbeide avsluttende uttalelser
+# <a name="preparing-closing-statements"></a>Utarbeide avsluttende uttalelser
 
 [!INCLUDE [prod_short](includes/prod_short.md)] Tilbyr standardrapporter som kan hjelpe deg med å samle inn informasjonen du trenger for å klargjøre selskapets sluttoppgaver. Tabellen nedenfor beskriver rapportene.  
 
@@ -27,7 +27,7 @@ ms.reviewer: jswymer
 
 Du finner en rapport ved å velge lyspæren ![som åpner Fortell meg det-funksjonen.](media/ui-search/search_small.png "Fortell hva du vil gjøre") og skriver inn navnet slik det vises i tabellen, og deretter velger du den relaterte koblingen.
 
-## Se også
+## <a name="see-also"></a>Se også
 
 [Avslutningsår og perioder](year-close-years-periods.md)    
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)    
