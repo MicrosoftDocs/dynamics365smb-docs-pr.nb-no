@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="creating-cost-budgets"></a>Opprette kostnadsbudsjetter
+# Opprette kostnadsbudsjetter
 
 Budsjettering i kostregnskap ligner budsjettering i finans. Et kostnadsbudsjett opprettes basert på kostnadstyper på samme måte som et finansbudsjett opprettes basert på finanskontoer.  
 
@@ -27,7 +27,7 @@ Du kan bruke følgende sider til å opprette og analysere kostbudsjetter. Velg i
 |Se kostbudsjettjournaler og kostbudsjettposter.|Siden **Kostbudsjettjournaler**|  
 |Skrive ut budsjettsammenligninger ved hjelp av ulike rapporter.|Rapporten **Kostregnskap – saldo/budsjett**<br /><br /> Rapporten **Kostregnskap – utdrag/budsjett**<br /><br /> Rapporten **Kostbudsjett etter kostsenter**<br /><br /> Rapporten **Kostbudsjett etter kostobjekt**|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Gjør rede for kostnader](finance-manage-cost-accounting.md)  
 [Opprett finansbudsjetter](finance-how-create-budgets.md)  

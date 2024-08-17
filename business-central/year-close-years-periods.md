@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.custom: bap-template
 ---
 
-# <a name="closing-years-and-periods"></a>Lukk år og perioder
+# Lukk år og perioder
 
 På slutten av et regnskapsår er Der mange administrative oppgaver du må utføre, for eksempel å sørge for at alle dokumenter og kladder er bokført, sikre at valutadata er oppdaterte, lukke tablåene og mer. De faktiske oppgavene avhenger av firmaet.
 
@@ -30,7 +30,7 @@ Tabellen nedenfor inneholder en oversikt over oppgaver som du vanligvis utfører
 | Skrive ut rapporter som kan hjelpe deg med å opprette årsregnskap. |[Forberede avslutningsoppgaver](year-prepare-close-statement.md) |
 | Avslutte regnskapsperioder og regnskapsår, overføre resultatregnskapssaldoer til balansekonti og bokføre avslutningsposten ved årsslutt. |[Avslutte tablåer](year-close-books.md) |
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Arbeid med regnskapsperioder og regnskapsår](finance-accounting-periods-and-fiscal-years.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

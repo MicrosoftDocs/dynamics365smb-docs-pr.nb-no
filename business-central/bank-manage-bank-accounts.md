@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="manage-and-reconcile-your-bank-accounts"></a>Administrere og avstemme bankkontoene dine
+# Administrere og avstemme bankkontoene dine
 
 En bankavstemming bør fullføres med jevne mellomrom for alle bankkontoene for å sikre at firmaets kontantposter er riktige. Dette gjør du ved å sammenligne og utligne poster i de interne bankkontoene med banktransaksjoner i banken, og deretter bokføre saldoene på de interne bankkontoene for å gjøre totaler tilgjengelige for finansledere. Bankavstemming er også en praktisk måte å oppdage og løse manglende betalinger og bokføringsfeil.
 
@@ -33,7 +33,7 @@ Tabellen nedenfor beskriver en sekvens av oppgaver, og har koblinger til artikle
 > [!TIP]
 > Bruk bankavstemming til å kontrollere at bøkene er oppdaterte, og ikke bokføre avstemmingen før du er fornøyd med den.
 
-## <a name="see-also"></a>Se også
+## Se også
 
 [Konfigurere banktjenester](bank-setup-banking.md)  
 [Avstem bankkontoer](bank-how-reconcile-bank-accounts-separately.md)  

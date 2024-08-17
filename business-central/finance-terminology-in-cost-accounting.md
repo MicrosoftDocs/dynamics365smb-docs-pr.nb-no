@@ -12,11 +12,11 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="terminology-in-cost-accounting"></a>Terminologi i kostnadsregnskap
+# Terminologi i kostnadsregnskap
 
 Denne artikkelen definerer nøkkelbegrepene som brukes i kostregnskap.  
 
-## <a name="key-terms"></a>Sentrale begreper
+## Sentrale begreper
 
  Følgende tabell inneholder definisjoner på de viktigste begrepene i kostregnskap.  
 
@@ -44,7 +44,7 @@ Denne artikkelen definerer nøkkelbegrepene som brukes i kostregnskap.
 |Variabel kostnad|Variable kostnader er utgifter som endres i forhold til aktiviteten i en virksomhet. Variable kostnader er summen av grensekostnader over alle enheter som er produsert. Faste og variable kostnader utgjør de to komponentene i totale kostnader.|  
 |Variant|En variant brukes som en valgfri brukerdefinert etikett for tildelinger. Formålet med etiketten er å filtrere grupper av tildeling.|  
 
-## <a name="see-also"></a>Se også
+## Se også
 
  [Om kostnadsregnskap](finance-about-cost-accounting.md)  
  [Gjør rede for kostnader](finance-manage-cost-accounting.md)  

@@ -12,7 +12,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="accounting-for-costs"></a>Gjør rede for kostnader
+# Gjør rede for kostnader
 Kostregnskap brukes til å hjelpe deg med å forstå kostnadene ved å drive et selskap. Hvis du vil komme i gang med kostregnskap, kan du se følgende artikler.  
 
 |Til|Se|  
@@ -25,7 +25,7 @@ Kostregnskap brukes til å hjelpe deg med å forstå kostnadene ved å drive et 
 |Lær prosessene for oppretting av kostbudsjetter.|[Opprette kostbudsjetter](finance-create-cost-budgets.md)|
 |Annullere kostbudsjettoppføringer fra kostbudsjettjournalen.|[Slett kostbudsjettposter](finance-how-to-delete-cost-budget-entries.md)|
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Finans](finance.md)  
 [Administrere lagerkostnader](finance-manage-inventory-costs.md)  
 [Arbeid med [!INCLUDE[prod_short](includes/prod_short.md)]](ui-work-product.md)

@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="design-details-reservation-order-tracking-and-action-messaging"></a>Designdetaljer: reservasjon, ordresporing og handlingsmeldinger
+# Designdetaljer: reservasjon, ordresporing og handlingsmeldinger
 
 Det omfattende reservasjonssystemet inkluderer de sammenhengende og parallelle funksjonene i ordresporing og handlingsmeldinger.  
 
@@ -30,13 +30,13 @@ Reservasjonssystemet fungerer sammen med planleggingssystemet ved å opprette ha
 > [!INCLUDE [locations-cronus](includes/locations-cronus.md)]
 -->
 
-## <a name="reservation"></a>Reservasjon
+## Reservasjon  
 
  En reservasjon er en fast kobling som knytter sammen et bestemt behov og en bestemt forsyning. Denne koblingen påvirker den påfølgende lagertransaksjonen direkte og sikrer riktig utligning av vareposter for kostnadsformål. En reservasjon overstyrer standard lagermetode for en vare. Hvis du vil ha mer informasjon, kan du gå til [Utformingsdetaljer: Varesporing](design-details-item-tracking.md).  
 
   **Reservasjon-siden** er tilgjengelig fra alle ordrelinjer av både behovs- og forsyningstyper. På denne siden kan brukeren angi hvilken behovs- eller forsyningspost det skal opprettes en reservasjon opprette en kobling mot. Reservasjonen består av to poster med samme postnummer. Én post har et minustegn og peker til behovet. Den andre posten har et positivt fortegn og peker mot forsyningen. Disse postene lagres i tabellen *Reservasjonspost* med statusverdien *Reservasjon*. Brukeren kan vise alle reservasjonene på **Reservasjonsposter**-siden.  
 
-### <a name="offsetting-in-reservations"></a>Forskyvning i reservasjoner
+### Forskyvning i reservasjoner  
 
  Reservasjoner foretas mot disponibelt vareantall. Disponibelt beregnes i hovedsak slik:  
 
@@ -59,7 +59,7 @@ Reservasjonssystemet fungerer sammen med planleggingssystemet ved å opprette ha
 
  Hvis du vil ha mer informasjon, kan du gå til [Utformingsdetaljer: Tilgjengelighet på lageret](design-details-availability-in-the-warehouse.md).  
 
-### <a name="manual-reservation"></a>Manuell reservasjon
+### Manuell reservasjon  
 
 Når en bruker oppretter en reservasjon med hensikt, får brukeren fullt eierskap over og ansvar for disse varene. Dette betyr at brukeren også må endre eller kansellere reservasjonen manuelt. Slike manuelle endringer kan føre til automatisk endring av de involverte reservasjonene.  
 
@@ -75,7 +75,7 @@ Tabellen nedenfor viser når og hvilke endringer som kan oppstå:
 > [!NOTE]  
 > Funksjonen for sen binding kan også brukes til å endre reservasjoner uten å informere brukeren, ved å stokke om på ikke-spesifikke reservasjoner av serie- eller partinumre. Hvis du vil ha mer informasjon, kan du gå til [Utformingsdetaljer: Varesporing og reservasjoner](design-details-item-tracking-and-reservations.md).  
 
-### <a name="automatic-reservations"></a>Automatiske reservasjoner
+### Automatiske reservasjoner  
 
 Varen kort kan defineres til automatisk å reservere varer basert på behov, for eksempel ordrer. I slike tilfeller utførers en reservasjon mot beholdning, bestillinger, monteringsordrer og produksjonsordrer. Det gis en advarsel hvis forsyningen ikke er tilstrekkelig.  
 
@@ -97,7 +97,7 @@ Automatiske reservasjoner som opprettes under den planlagte kjøringen, håndter
 
 - De inkluderes og kan endres i etterfølgende planleggingskjøringer, i motsetning til manuelt reserverte varer.  
 
-## <a name="order-tracking"></a>Sporing
+## Sporing  
 
 Sporing lar planleggeren opprettholde en gyldig leveringsplan ved å gi en oversikt over motregning mellom behov og forsyning i ordrenettverket. Sporingspostene fungerer som grunnlaget for opprettelse av dynamiske handlingsmeldinger og planleggingslinjeforslag under planleggingskjøringer.  
 
@@ -107,7 +107,7 @@ Sporing lar planleggeren opprettholde en gyldig leveringsplan ved å gi en overs
 > [!NOTE]  
 > Ordresporingspolicyen og funksjonen Hent handlingsmeldinger er ikke integrert med prosjekter. Dette betyr at behov som er knyttet til et prosjekt, ikke spores automatisk. Siden det ikke spores, kan det føre til at bruken av en eksisterende etterfylling med prosjektinformasjon spores til et annet behov, for eksempel en ordre. Følgelig kan du støte på en situasjon der informasjonen din om tilgjengelig beholdning ikke er synkronisert.  
 
-### <a name="the-order-network"></a>Ordrenettverket
+### Ordrenettverket  
 
 Ordresporingssystemet er basert på prinsippet om at ordrenettverket alltid må være balansert, slik at hvert behov som kommer inn i systemet, kompenseres av en tilsvarende forsyning og omvendt. Systemet sørger for dette ved å identifisere logiske koblinger mellom alle behovs- og forsyningsposter i ordrenettverket.  
 
@@ -115,7 +115,7 @@ Dette prinsippet betyr at en endring i behov fører til en tilsvarende ubalanse 
 
 For å øke gjennomsiktigheten til beregninger i planleggingssystemet, vises ikke-sporede antall på siden **Ikke-sporede planleggingselementer**. Disse antallene representerer differansen i antall mellom kjent behov og foreslått forsyning. Hver linje på siden refererer til årsaken for det overflødige antallet , for eksempel **Rammebestilling**, **Sikkerhetslagernivå**, **Fast gjenbest.ant**, **Minimum bestillingsantall**, **Avrunding** eller **Avdemping**.  
 
-### <a name="offsetting-in-order-tracking"></a>Forskyvning i sporing
+### Forskyvning i sporing  
 
 I motsetning til reservasjoner som bare kan utføres mot tilgjengelig antall, er sporing mulig mot alle ordrenettverksenheter som er en del av beregningen av planleggingssystemet beregning av nettobehov. Nettobehovet beregnes som følger:  
 
@@ -124,7 +124,7 @@ I motsetning til reservasjoner som bare kan utføres mot tilgjengelig antall, er
 > [!NOTE]  
 > Behov som er knyttet til prognoser eller planleggingsparametere blir ikke sporet.  
 
-### <a name="example-order-tracking-in-sales-production-and-transfers"></a>Eksempel: Sporing i salg, produksjon og overføringer
+### Eksempel: Sporing i salg, produksjon og overføringer  
 
 Følgende scenario viser hvilke ordresporingsposter som opprettes i tabellen *Reservasjonspost* som følge av ulike endringer i ordrenettverket.  
 
@@ -156,14 +156,14 @@ Følgende ordresporingsposter finnes i tabellen *Reservasjonspost*, basert på d
 |10|Ja|PRODUSERT VARE|VEST|100|Reservasjon|Produsert vare|-|5406|101004|Ordre-til-ordre|
 
 
-#### <a name="entry-numbers-8-and-9"></a>Løpenumre 8 og 9
+#### Løpenumre 8 og 9  
 
 For komponentbehovet for henholdsvis LOTA og LOTB opprettes sporingskoblinger fra behovet i tabell 5407, *Prod.ordrekomponent*, til forsyningen i tabell 32, *Varepost*.  **Feltet Reservasjonsstatus** inneholder *Sporing* for å angi at disse postene er dynamiske sporingskoblinger mellom tilbud og etterspørsel.  
 
 > [!NOTE]  
 > Partiet **nr.** -feltet er tomt på behovslinjene fordi partinumrene ikke er angitt på komponentlinjene i den frigitte produksjonsordren.  
 
-#### <a name="entry-number-10"></a>Løpenummer 10
+#### Løpenummer 10  
 
 Fra salgsbehovet i tabell 37 *Salgslinjer* opprettes det en ordresporings opprette en kobling til forsyningen i tabell 5406,Prod.ordrelinje *·*. Reservasjonsstatus-feltet inneholder Reservasjon **, og** Binding-feltet *inneholder* Ordre-til-ordre **.**  *·* Dette skyldes at den frigitte produksjonsordren ble generert spesifikt for ordren og må forbli koblet, i motsetning til sporingskoblinger med reservasjonsstatusen Sporing, som opprettes og endres dynamisk. Hvis du vil ha mer informasjon, kan du [gå til delen Automatiske reservasjoner](#automatic-reservations) i denne artikkelen.  
 
@@ -187,13 +187,13 @@ Fra salgsbehovet i tabell 37 *Salgslinjer* opprettes det en ordresporings oppret
 |15|Ja|KOMPONENT|UT. LOGG.|70|Overskudd|Komponent|LOTB|32|-|-| 
 |16|Ja|KOMPONENT|UT. LOGG.|30|Overskudd|Komponent|LOTA|32|-|-| 
 
-#### <a name="entry-numbers-8-and-9-1"></a>Løpenumre 8 og 9
+#### Løpenumre 8 og 9  
 
 Ordresporingspostene for de to partiene for komponenten som gjenspeiler behovet i tabell 5407, er endret fra reservasjonsstatusen *Sporing til* Overskudd *·*. Årsaken er at forsyningene som var knyttet til tidligere, i tabell 32, brukes ved forsendelsen av overføringsordren.  
 
 Ekte overskudd, som i dette tilfellet gjenspeiler overflødige forsyning eller behov som forblir ikke-sporet. Det er en indikasjon på en ubalanse i ordrenettverket, som genererer en handlingsmelding fra planleggingssystemet med mindre det løses dynamisk.  
 
-#### <a name="entry-numbers-12-to-16"></a>Løpenumre 12 til 16
+#### Løpenumre 12 til 16  
 
 Fordi de to partiene av komponenten er bokført på overføringsordren som levert, men ikke mottatt, er alle relaterte positive ordresporingsposter av reservasjonstypen *Overskudd*, noe som indikerer at de ikke er allokert til noen behov. For hvert partinummer er én post relatert til tabell 5741, *overføringslinje*, og én post er relatert til vareposten på transittlokasjonen der varene nå finnes.  
 
@@ -231,13 +231,13 @@ Nå finnes følgende ordresporingsposter i tabellen *Reservasjonspost* .
 |22|-|KOMPONENT|VEST|-30|Sporing|Komponent|LOTA|5407|1001004|-| 
 |22|Ja|KOMPONENT|VEST|30|Sporing|Komponent|LOTA|32|-|-| 
 
-#### <a name="entry-numbers-21-and-22"></a>Løpenumre 21 og 22
+#### Løpenumre 21 og 22  
 
 Siden komponentbehovet ble endret til *WEST-lokasjon*, og forsyningen er tilgjengelig som vareposter på *WEST-lokasjonen*, blir alle ordresporingsposter for de to partinumrene nå fullstendig sporet, angitt av reservasjonsstatusen *Sporing*.  
 
 Partiet **nr.** -feltet er nå fylt ut i ordresporingsposten for tabell 5407 fordi partinumrene ble tilordnet produksjonsordrekomponentlinjene.  
 
-## <a name="action-messaging"></a>Handlingsmeldinger
+## Handlingsmeldinger  
 
 Når sporingssystemet oppdager en ubalanse i ordrenettverket, oppretter det automatisk en handlingsmelding for å varsle brukeren. Handlingsmeldinger er systemgenererte oppfordringer til brukerhandling som spesifiserer detaljene i ubalansen og forslag til hvordan du gjenoppretter balansen i ordrenettverket. De vises som planleggingslinjer på **siden Planleggingsforslag når du velger** handlingen Hent **handlingsmeldinger** . I tillegg genereres handlingsmeldinger på planleggingslinjer under planleggingskjøringen for å gjenspeile planleggingssystemets forslag til å gjenopprette balansen i ordrenettverket. I begge tilfeller kjøres forslagene på ordrenettverket når du velger **handlingen Utfør handlingsmelding** .  
 
@@ -265,11 +265,11 @@ Et åpent behov passerer gjennom listen og forskyver tilgjengelig forsyning på 
 
 Hvis det oppstår en reduksjon i behovsmengden, prøve sporingssystemet å løse ubalansen ved å utføre de forrige kontrollene i omvendt rekkefølge. Dette betyr at eksisterende handlingsmeldinger om nødvendig kan endres eller til og med slettes. Sporingssystemet viser alltid det endelige resultatet av beregningene for brukeren.  
 
-## <a name="order-tracking-and-planning"></a>Sporing og planlegging
+## Sporing og planlegging  
 
 Når planleggingssystemet kjører, sletter det alle eksisterende sporingsposter og handlingsmeldingsposter og gjenoppretter dem som planleggingslinjeforslag i samsvar med par med forsyning/behov og prioriteter. Når planleggingskjøringen er ferdig, er ordrenettverket i balanse.  
 
-### <a name="planning-system-versus-order-tracking-and-action-messaging"></a>Planleggingssystem kontra sporing og handlingsmeldinger
+### Planleggingssystem kontra sporing og handlingsmeldinger  
 
  Følgende sammenligning viser forskjellene mellom metodene som brukes av planleggingssystemet til å opprette forslag til planleggingslinjer, og metodene som brukes av sporingssystemet til å opprette sporingsposter og handlingsmeldinger.  
 
@@ -283,7 +283,7 @@ Når planleggingssystemet kjører, sletter det alle eksisterende sporingsposter 
 
 - Planleggingssystemet oppretter koblinger i en brukeraktivert satsvis modus når det balanserer behov og forsyning, mens sporing oppretter koblingene automatisk og dynamisk mens brukeren registrerer ordrer.  
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Utformingsdetaljer: Sentrale begreper for planleggingssystemet](design-details-central-concepts-of-the-planning-system.md)  
 [Designdetaljer: Forsyningsplanlegging](design-details-supply-planning.md)

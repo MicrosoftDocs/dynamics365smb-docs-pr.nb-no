@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 08/12/2024
 ms.custom: bap-template
 ---
-# <a name="flows-for-production-assembly-and-projects"></a>Flyter for produksjon, montering og prosjekter
+# Flyter for produksjon, montering og prosjekter
 
 Interne flyter, for eksempel plukking av komponenter og plassering av sluttvarer for monterings-, prosjekt- og produksjonsordrer, ligner på inngående eller utgående flyter. Mange av prosessene kan virke kjente. Denne artikkelen inneholder informasjon om hvordan du arbeider med interne lagerflyter med ulike typer kompleksitet.
 
-## <a name="overview-of-different-configuration-options"></a>Oversikt over ulike konfigurasjonsalternativer
+## Oversikt over ulike konfigurasjonsalternativer
 
 Du kan konfigurere lagerfunksjoner på ulike måter. Det er viktig at alternativene du velger, forbedrer prosessene uten å forårsake indirekte kostnader. Følgende tabeller beskriver typiske konfigurasjoner for håndtering av fysiske varer for produksjon, prosjekter og monteringsordrer.
 
-### <a name="inbound-flow-put-away"></a>Inngående flyt (plassering)
+### Inngående flyt (plassering)
 
 |Kompleksitetsnivå|Beskrivelse|Innstillinger|Hyllekode|Inngående flyt av produksjonsordre|Inngående flyt av monteringsordre|Inngående flyt for prosjekter|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
@@ -28,7 +28,7 @@ Du kan konfigurere lagerfunksjoner på ulike måter. Det er viktig at alternativ
 
 Noen konfigurasjoner lar deg ikke bruke dedikerte lagerdokumenter til å registrere plasseringer. Hvis lokasjonen bruker hyller, kan du imidlertid bruke generelle flyttedokumenter til å flytte produserte eller monterte varer til lager. Finn ut mer under [Flytt varer](warehouse-move-items.md).
 
-### <a name="outbound-flow-pick"></a>Utgående flyt (plukk)
+### Utgående flyt (plukk)
 
 |Kompleksitetsnivå|Description|Innstillinger|Hyllekode|Utgående flyt av produksjonsordre|Utgående flyt av monteringsordre|Utgående flyt for prosjekter|  
 |---|----------------|----------|---------|------------------|------------------|------------------|
@@ -37,7 +37,7 @@ Noen konfigurasjoner lar deg ikke bruke dedikerte lagerdokumenter til å registr
 |Avansert|Konsoliderte plukkaktiviteter for flere kildedokumenter.|Produksjon, Montering, Prosjekter: Plukk|Valgfritt. Kontrollert av vekslebryteren Hyllekode er obligatorisk|Produksjonsordrer-> Lagerplukk-> Forbrukskladd |Monteringsordrer-> Lagerplukk| Prosjekt(er) -> Lagerplukk -> Prosjektkladd |
 |Avansert|Samme som over + lagerstyringsaktiviteter|Lagerstyring (avhengig av vekslebrytere aktiveres automatisk)|Obligatorisk|Samme som ovenfor|Samme som ovenfor| Direkte plukking og plassering støttes ikke for prosjekter|
 
-## <a name="warehouses-without-dedicated-warehouse-activity"></a>Lagre uten fast lageraktivitet
+## Lagre uten fast lageraktivitet
 
 Selv om du ikke bruker dedikerte lageraktiviteter, vil du kanskje spore ting som forbruk og produksjonsavgang. Følgende artikler inneholder informasjon om hvordan du behandler mottak for kildedokumenter.
 
@@ -45,9 +45,9 @@ Selv om du ikke bruker dedikerte lageraktiviteter, vil du kanskje spore ting som
 * [Monter varer](assembly-how-to-assemble-items.md)
 * [Registrere forbruk eller bruk for prosjekter](projects-how-record-job-usage.md)
 
-## <a name="basic-warehouse-configuration"></a>Enkelt lageroppsett
+## Enkelt lageroppsett
 
-### <a name="flows-to-and-from-production-in-a-basic-warehouse-configuration"></a>Flyter til og fra produksjon i et enkelt lageroppsett
+### Flyter til og fra produksjon i et enkelt lageroppsett  
 
 De inngående og utgående flytene i et enkelt lageroppsett omfatter følgende innstillinger på siden **Lokasjonskort** for lokasjonen:
 
@@ -64,7 +64,7 @@ For lokasjoner som bruker hyller, er lagerflyttingsdokumenter spesielt nyttige f
 * Feltene **Til-Hyllekode for produksjon**, **Fra-Hyllekode for produksjon** og **Åpen prod.hyllekode** på lokasjon eller produksjonsressurs/arbeidssenter definerer standardflyter til og fra produksjonsområder.
 * Behandle flyttingen av produserte varer på siden **Intern flytting** uten tilknytning til en produksjonsordre.
 
-### <a name="flows-to-and-from-assembly-in-a-basic-warehouse-configuration"></a>Flyter til og fra montering i et enkelt lageroppsett
+### Flyter til og fra montering i et enkelt lageroppsett  
 
 Den utgående flyten i en grunnleggende lagerkonfigurasjon omfatter følgende innstillinger for lokasjonen **på Lokasjon kort-siden** :
 
@@ -83,7 +83,7 @@ For lokasjoner som bruker hyller:
 
 [!INCLUDE [prod_short](includes/prod_short.md)] støtter monter-til-lager- og monter-til-ordre-flyter. Finn ut mer under [Forstå montere til ordre og montere til lager](assembly-assemble-to-order-or-assemble-to-stock.md#understanding-assemble-to-order-and-assemble-to-stock). I forbindelse med lagerstyring er monter-til-lager en del av den interne lagerflyten, og monter-til-ordre er i den utgående lagerflyten. Finn ut mer under [Håndter montere-til-ordre-varer med lagerplukk](warehouse-how-to-pick-items-with-inventory-picks.md#handling-assemble-to-order-items-with-inventory-picks).
 
-### <a name="flows-for-project-management-in-a-basic-warehouse-configuration"></a>Flyter for prosjektstyring i et enkelt lageroppsett
+### Flyter for prosjektstyring i et enkelt lageroppsett
 
 Den utgående flyten i en grunnleggende lagerkonfigurasjon omfatter følgende innstillinger for lokasjonen **på Lokasjon kort-siden** :
 
@@ -93,9 +93,9 @@ Bruk **lagerplukkdokumenter** til å plukke prosjektkomponenter i flyten til pro
 
 For en lokasjon som bruker hyller definerer **Til-prosjekthyllekode**-feltet på lokasjonen standardflytene til prosjektstyring.
 
-## <a name="advanced-warehouse-configurations"></a>Avanserte lageroppsett
+## Avanserte lageroppsett  
 
-### <a name="flows-to-and-from-production-in-advanced-warehouse-configurations"></a>Flyter til og fra produksjon i avanserte lageroppsett
+### Flyter til og fra produksjon i avanserte lageroppsett
 
 Den utgående flyten i en avansert lagerkonfigurasjon omfatter følgende innstillinger på **Lokasjon kort-siden**  for lokasjonen:
 
@@ -112,7 +112,7 @@ For lokasjoner som bruker hyller:
 * Feltene **Til-Hyllekode for produksjon**, **Fra-Hyllekode for produksjon** og **Åpen prod.hyllekode** på lokasjon eller produksjonsressurs/arbeidssenter definerer standardflyter til og fra produksjonsområder. 
 * Behandle flyttingen av produserte varer på sidene **Flytteforslag** eller **Intern plassering** uten tilknytning til en produksjonsordre.
 
-### <a name="flows-to-and-from-assembly-in-advanced-warehouse-configurations"></a>Flyter til og fra montering i avanserte lageroppsett
+### Flyter til og fra montering i avanserte lageroppsett
 
 Den utgående flyten i en avansert lagerkonfigurasjon omfatter følgende innstillinger på **Lokasjon kort-siden**  for lokasjonen:
 
@@ -132,7 +132,7 @@ For lokasjoner som bruker hyller:
 
 Monter-til-lager en del av den interne lagerflyten, og monter-til-ordre er i den utgående lagerflyten. Finn ut mer under [Håndtere montere-til-ordre-varer i lagerleveringer](warehouse-how-ship-items.md#handling-assemble-to-order-items-in-warehouse-shipments).
 
-### <a name="flows-to-project-management-in-advanced-warehouse-configurations"></a>Flyter til prosjektstyring i avanserte lageroppsett
+### Flyter til prosjektstyring i avanserte lageroppsett
 
 Den utgående flyten i en avansert lagerkonfigurasjon omfatter følgende innstillinger på **Lokasjon kort-siden**  for lokasjonen:
 
@@ -142,7 +142,7 @@ Bruk **lagerplukkdokumentene** og siden **Plukkforslag** til å plukke komponent
 
 For lokasjoner som bruker hyller definerer **Til-prosjekthyllekode**-feltet på lokasjonen standardflytene til prosjektområdet.
 
-## <a name="see-also"></a>Se også
+## Se også  
 
 [Oversikt over lagerstyring](design-details-warehouse-management.md)
 

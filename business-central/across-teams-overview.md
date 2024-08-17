@@ -11,7 +11,7 @@ ms.date: 09/22/2022
 ms.custom: bap-template
 ---
 
-# <a name="business-central-and-microsoft-teams-integration"></a>Business Central og Microsoft Teams-integrering
+# Business Central og Microsoft Teams-integrering
 
 [!INCLUDE [online_only](includes/online_only.md)]
 
@@ -19,11 +19,11 @@ ms.custom: bap-template
 
 Appen er tilgjengelig på Teams-markedsplassen, og du kan bruke den med Teams-skrivebordet, mobilappen eller Internett.
 
-## <a name="features-overview"></a>Oversikt over funksjoner
+## Oversikt over funksjoner
 
 [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Teams har følgende funksjoner.
 
-### <a name="look-up-details-of-customers-vendors-and-other-contacts"></a>Slå opp opplysninger om kunder, leverandører og andre kontakter
+### Slå opp opplysninger om kunder, leverandører og andre kontakter
 
 Uansett hvor du er i Teams kan du slå opp detaljer om kunder, leverandører og andre [!INCLUDE [prod_short](includes/prod_short.md)]-kontakter. Med denne funksjonen kan du ikke bare vise generell informasjon om kontakter, men gir også tilgang til samhandlingslogg, relaterte dokumenter med mer.
 
@@ -35,7 +35,7 @@ Du kan også dele kontaktopplysninger i en samtale. Deretter har deltakerne tilg
 
 Hvis du vil ha mer informasjon, kan du se [Søke etter kontakter fra Microsoft Teams](across-search-contacts-teams.md).
 
-### <a name="share-records-in-conversations"></a>Dele poster i diskusjoner
+### Dele poster i diskusjoner
 
 Kopier en kobling til en Business Central-oppføring, og lim den inn i en Teams-samtale for å dele med kollegene dine. Appen utvider deretter koblingen til et kompakt, interaktivt kort som viser informasjon om posten.
 
@@ -45,7 +45,7 @@ Når du er i samtalen, kan du og kollegaene dine vise flere detaljer om posten, 
 
 Hvis du vil ha mer informasjon, kan du se [Del oppføringer i Microsoft Teams](across-working-with-teams.md).
 
-### <a name="share-links-from-pages-in-business-central-to-teams"></a>Del koblinger fra sider i Business Central til Teams
+### Del koblinger fra sider i Business Central til Teams
 
 Fra de fleste samlings- og detaljsidene i Business Central kan du bruke handlingen **Del til Teams** fra ikonet ![!Del-menyikon på sider.](media/share-icon.png "Del-menyen som vises på et kort.") til å skrive inn en melding, velge mottakere, for eksempel gruppemedlemmer, grupper eller kanaler og sende meldingen med en kobling og til Business Central-siden.
 
@@ -55,7 +55,7 @@ Fra de fleste samlings- og detaljsidene i Business Central kan du bruke handling
 
 Hvis du vil ha mer informasjon, kan du se [Del oppføringer og sidekoblinger i Microsoft Teams](across-working-with-teams.md#share-link).
 
-### <a name="add-a-business-central-tab-to-teams-channel-or-chat"></a>Legg til en Business Central-fane i Teams-kanal eller -nettprat
+### Legg til en Business Central-fane i Teams-kanal eller -nettprat
 
 Med Business Central-appen for Teams har installert kan du legge til en fane i en kanal eller nettprat med Business Central-data fra lister og kortsider.
 
@@ -63,7 +63,7 @@ Med Business Central-appen for Teams har installert kan du legge til en fane i e
 
 Hvis du vil ha mer informasjon, kan du se [Legg til en Business Central-fane i Teams](across-teams-tab.md).
 
-## <a name="get-started"></a>Kom i gang
+## Kom i gang
 
 1. En brukerkonto for [!INCLUDE [prod_short](includes/prod_short.md)] Online er nødvendig for [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Teams.
 
@@ -76,7 +76,7 @@ Hvis du vil ha mer informasjon, kan du se [Legg til en Business Central-fane i T
 3. Installer [!INCLUDE [prod_short](includes/prod_short.md)]-app i Teams. Se [Installere [!INCLUDE [prod_short](includes/prod_short.md)]-appen for Microsoft Teams](across-install-app-for-teams.md).
 4. Når appen er installert, kan du sette i gang. Se [Søke etter kunder, leverandører og andre kontakter fra Microsoft Teams](across-search-contacts-teams.md) og [Del oppføringer i Microsoft Teams](across-working-with-teams.md).
 
-## <a name="related-information"></a>Se også
+## Se også
 
 [Vanlige spørsmål om Teams](teams-faq.md)  
 [Feilsøke Teams](admin-teams-troubleshooting.md)  

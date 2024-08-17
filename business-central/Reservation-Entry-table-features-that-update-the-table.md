@@ -11,7 +11,7 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="reservation-entry-table---introduction"></a>Tabell for reservasjonsinngang - Introduksjon
+# Tabell for reservasjonsinngang - Introduksjon
 
 Denne tekniske hvitboken gir veiledning for å hjelpe deg med å forstå og feilsøke problemer med datainkonsekvens i tabellen *Reservasjonspost* (tabell 337) i [!INCLUDE[prod_short](includes/prod_short.md)]. Den første delen er en innføring i funksjonene som genererer eller endrer data i denne tabellen. Den dekker også flere felt i tabellen *Reservasjonspost* som er verdt å peke på i forbindelse med disse funksjonene. Den andre delen viser hvordan poster i tabellen *Reservasjonspost* genereres, slettes eller endres når overføringsordrer behandles eller planleggingsfunksjoner utføres.
 
@@ -28,9 +28,9 @@ Generelt sett avhenger dataene som genereres i tabellen *Reservasjonspost*, av h
 - Planleggingsparametere for varen eller lagerføringsenheten kort
 - Varesporingskode
 
-## <a name="features-that-update-the-reservation-entry-table"></a>Funksjoner som oppdaterer tabellen Reservasjonspost
+## Funksjoner som oppdaterer tabellen Reservasjonspost
 
-### <a name="order-tracking-policy"></a>Sporingspolicy for bestillinger
+### Sporingspolicy for bestillinger
 
  **Hvis feltet Sporingsprinsipp** for en vare er satt til Ingen, [!INCLUDE[prod_short](includes/prod_short.md)]  vil det aldri opprette reservasjonsposter i *tabellen Reservasjonspost*, med mindre Nettoendringsplan eller Replanlegging, Reservasjon eller Varesporing utføres. Uten ordresporing aktivert kan du i tillegg ha reservasjonsposter når du bruker policyene Produksjon til ordre eller Montering til ordre.
 
@@ -51,7 +51,7 @@ Ved å sette **feltet Sporingsprinsipp** for varen til Bare sporing, kan en slut
 > [!NOTE]  
 > Sporingsfunksjonalitet erstatter ikke planleggingsfunksjonalitet, som vurderer alle varer, behov og forsyninger sammen for å få til optimale planleggingsforslag for å optimalisere kundeservicenivåer og balansere lagernivåer.
 
-### <a name="reservation-policy"></a>Reservasjon politikk
+### Reservasjon politikk
 
 En reservasjon består av to poster *i tabellen Reservasjonsoppføring* med reservasjonsstatusen **Reservasjon**, som deler samme løpenummer. Én post har Positiv-feltet aktivert og peker på forsyningen. Den andre posten har Positiv-feltet **ikke** aktivert og peker på behovet. Feltene **Kildetype**, **Kilderef.nr.** og **Kilde-ID** markerer reservasjonen opprette en kobling mellom behov og forsyning.
 
@@ -122,7 +122,7 @@ Anta at varen av forretningsmessige årsaker trenger varen mer presserende på d
 
 Dette avslutter demonstrasjonen av samspillet mellom bruk av automatiske reservasjoner og ordresporing. Eksemplene viser også hva som skjer når du endrer forfallsdatoer, og feilmeldingen som utløses når Der er en reservasjonskonflikt.
 
-### <a name="planning-calculated"></a>Beregnet planlegging
+### Beregnet planlegging
 
 Planlegging utført ved hjelp av ordreplanlegging, bestillingsforslaget eller planleggingsforslaget vil generere poster i tabellen *Reservasjonspost* med Reservasjonsstatus-feltet **satt** til Sporing, Reservasjon eller Overskudd. Der skal alltid være et matchende par med samme løpenr. med positiv og negativ verdi i **Antall (basis)** -feltet når statusen er Sporing eller Reservasjon.  **Kildetype-feltet** vil være behovstypen, det vil si tabell 37 for det negative antallet og en planleggingstabell, for eksempel tabell 246, for det positive antallet.  **Kilde-ID-feltet** vil være PLANLEGGING.
 
@@ -145,7 +145,7 @@ Disse postene genereres under planleggingskjøringen og forklarer hvor det ikke-
 
  *I tabellen Reservasjonspost*, som i ordrene Kjøp, Overføring og Produksjon, er Der feltet **Planleggingsfleksibilitet** . Dette alternativfeltet angir om forsyningen som representeres av disse forsyningsordrene, vurderes av planleggingssystemet ved beregning av handlingsmeldinger. Hvis feltet inneholder alternativet Ubegrenset, tar planleggingssystemet med linjen når handlingsmeldinger beregnes. Hvis feltet inneholder alternativet Ingen, er linjen fast og uforanderlig, og planleggingssystemet tar ikke med linjen når handlingsmeldinger beregnes. Funksjonen administreres i tabellen *Reservasjonspost* av feltet med samme navn.
 
-### <a name="reordering-and-manufacturing-policy"></a>Gjenbestillings- og produksjonspolicy
+### Gjenbestillings- og produksjonspolicy
 
 Hvis en planleggingsfunksjon utføres for en vare som er angitt med gjenbestillingspolicyen satt til Bestilling, [!INCLUDE[prod_short](includes/prod_short.md)]  opprettes poster *i tabellen Reservasjonspost* med reservasjonsstatusen Reservasjon i stedet for Sporing.
 
@@ -153,7 +153,7 @@ Feltene **Kildetype** og **Kilde-ID** behandler andre gjenbestillingspolicyer p�
 
  **Feltet Bundet** fylles ut for å kontrollere forsyningsordrer som er knyttet til et bestemt behov, for eksempel produksjonsordrer som er opprettet direkte fra en ordre. Feltet viser Ordre-til-ordre når posten er knyttet spesifikt til et behov eller en forsyning (Automatisk reservasjon). Behovet kan være relatert til salgs- eller komponentbehov.
 
-### <a name="item-tracking-and-prospect-reservation-entry"></a>Varesporing og reservasjonspost for prospekter
+### Varesporing og reservasjonspost for prospekter
 
 Reservasjonsstatusen Prospect kan opprettes i [!INCLUDE[prod_short](includes/prod_short.md)] tabellen *Reservasjonspost* når du ikke bruker noen ordrenettverksenheter, det vil si Ordresporing. På en forbrukskladdelinje tilordner du for eksempel varesporing til komponenten. Hvis varen allerede er sporet av bestillingen, [!INCLUDE[prod_short](includes/prod_short.md)]  kan det imidlertid hende at det opprettes flere reservasjonsposter for prospekt. Dette er demonstrert i EKSEMPEL 2 knyttet til overføringsordrer i den andre delen av dette dokumentet.
 
@@ -167,15 +167,15 @@ Siden varepostene inneholder varesporingsinformasjonen, reserverer reservasjonen
 
 Hvis du vil ha mer informasjon, kan du lese de [!INCLUDE[prod_short](includes/prod_short.md)] tekniske hvitbøkene som er oppført i tilleggsressursene på slutten av dette dokumentet.
 
-### <a name="source-subtype-suppressed-action-msg-action-message-adjustment-and-disallow-cancellation-fields"></a>Feltene Kildeundertype, Undertrykt handlingsmelding, Justering av handlingsmelding og Ikke tillat annullering
+### Feltene Kildeundertype, Undertrykt handlingsmelding, Justering av handlingsmelding og Ikke tillat annullering
 
 Feltene Kildeundertype **,** Undertrykt handlingsmelding **,** Justering **av handlingsmelding og** Ikke tillat annullering **i tabellen** Reservasjonspost *er beskrevet i denne* delen. Scenarier er gitt for å demonstrere bruken av feltene **Undertrykt handlingsmelding**, **Justering** av handlingsmelding og **Ikke tillat annullering** . Feltet **Justering** av handlingsmelding brukes til funksjonen for sporingspolicy Sporing og handlingsmelding.  **Feltet Ikke tillat annullering** brukes for funksjonen Montering på bestilling i [!INCLUDE[prod_short](includes/prod_short.md)] 2013.
 
-#### <a name="source-subtype"></a>Kildeundertype
+#### Kildeundertype
 
  **Feltet Kildeundertype** angir hvilken kildeundertype reservasjonsposten er knyttet til. Hvis posten er knyttet til en kjøps- eller salgslinje, kopieres feltet fra **feltet Bilagstype** på linjen. Hvis den er knyttet til en kladdelinje, kopieres feltet fra **feltet Posttype** på kladdelinjen.
 
-#### <a name="suppressed-action-msg"></a>Utelatt handlingsmelding
+#### Utelatt handlingsmelding
 
 Den **undertrykte handlingsmeldingen.** -feltet registrerer når en eksisterende forsyning allerede er delvis behandlet, for eksempel når en bestilling allerede er delvis mottatt, eller når en produksjonsordre har forbruk bokført mot seg.
 
@@ -208,7 +208,7 @@ Post nr. 28 i tabell 337 har reservasjonsstatus Sporing for å samsvare med den 
 
 Postnr. 30 er den eksisterende bestillingen som er delvis mottatt med antall 2. Som et resultat **er Reservasjonsstatus-feltet** Overskudd, og [!INCLUDE[prod_short](includes/prod_short.md)] setter **feltet Antall (basis)** til *8*  (gjenværende saldo) og Melding om **undertrykt handling.** -feltet er aktivert.
 
-#### <a name="action-message-adjustment"></a>Justering av handlingsmelding
+#### Justering av handlingsmelding
 
  **Feltet Justering** av handlingsmelding viser endringen på forsyningssiden i ordresporingen som oppstår når du godtar de tilhørende handlingsmeldingene. En verdi vises bare Her når funksjonene for både ordresporing og handlingsmeldinger er aktive (sporingspolicyen er satt til Sporing &; Handlingsmelding.). Verdien beregnes på bakgrunn av dataene i tabellen *Handlingsmeldingspost* (tabell 99000849). Følgende eksempel fungerer som en illustrasjon:
 1. Åpne vare 80002. Angi følgende felt:
@@ -224,7 +224,7 @@ Statusinformasjonen i tabell 337 er vist i illustrasjonen nedenfor.
 6. Post nr. 34 har feltet **Tiltaksmelding Justering** i tabell 337 aktivert for 5 enheter med reservasjonsstatus Overskudd. Da ordren ble økt til trinn 5, [!INCLUDE[prod_short](includes/prod_short.md)]  opprettet denne reservasjonen fordi mer forsyning er nødvendig.
 7.  **Åpne Planleggingsforslag-siden, og** velg **Hent handlingsmeldinger** i **Prosess-gruppen i kategorien Hjem**  **·**. [!INCLUDE[prod_short](includes/prod_short.md)] vil foreslå å øke bestillingsantallet fra 100 til 105.
 
-#### <a name="disallow-cancellation"></a>Ikke tillat annullering
+#### Ikke tillat annullering
 
 Feltet **Ikke tillat annullering** angir at reservasjonsposten representerer opprette en kobling mellom en ordrelinje og en monteringsordre. Du kan ikke slette denne reservasjonen fordi den er nødvendig for å opprettholde synkroniseringen som skjer når en vare settes sammen på bestilling. Følgende eksempel fungerer som en illustrasjon:
 
@@ -253,7 +253,7 @@ Entry No. 82 har Reservation Status Surplus som 9 enheter av Assemble Comp på l
 
 Entry No. 86 har bindende ordre-til-bestilling med reservasjonsstatus reservasjon. I **tillegg er feltet Ikke tillat annullering** aktivert ettersom monteringspolicyen er satt som Sett sammen på bestilling for vare Monterings-FG. Til slutt settes feltet **Planleggingsfleksibilitet** til Ingen, siden [!INCLUDE[prod_short](includes/prod_short.md)] planleggingslogikken ikke kan slette reservasjonen.
 
-#### <a name="quantity-available-to-pick-and-reservations"></a>Antall tilgjengelig for plukking og reservasjoner
+#### Antall tilgjengelig for plukking og reservasjoner
 
 Det **reserverte plukk- og leveringsantall.** Feltet i tabell 337 som finnes i versjoner før [!INCLUDE[prod_short](includes/prod_short.md)] 2013, kontrollerer varetilgjengeligheten i et administrert lager. I alle installasjoner av [!INCLUDE[prod_short](includes/prod_short.md)] lagerstyring finnes vareantall både som lagerposter og vareposter. Disse to oppføringstypene inneholder forskjellig informasjon om hvor varene finnes, og om de er tilgjengelige. Lagerposter angir disposisjonen til en vare etter hylle og hylletype, som kalles hylleinnhold. Vareposter angir varens tilgjengelighet ved reservasjon til utgående dokumenter. Det finnes en spesiell funksjonalitet i plukkalgoritmen for å beregne antallet som er tilgjengelig for plukking når hylleinnhold kombineres med reservasjoner. Plukkalgoritmen trekker fra antall som er reservert for andre utgående dokumenter, antall i eksisterende plukkdokumenter og antall som er plukket, men ennå ikke levert eller forbrukt. Resultatet vises i **feltet Disponibelt antall som skal plukkes** på **siden Plukkforslag**, der feltet beregnes dynamisk. Verdien beregnes også når en bruker oppretter lagerplukk direkte fra utgående dokumenter, for eksempel ordrer, produksjonsforbruk eller utgående overføringer.
 
@@ -301,9 +301,9 @@ Når plasseringen registreres i trinn 7, kan du opprette lagerplukket i trinn 11
 
 Illustrasjonen nedenfor er hentet fra [!INCLUDE[prod_short](includes/prod_short.md)] 2009 R2.
 
-## <a name="illustrations-using-transfer-orders-and-planning"></a>Illustrasjoner ved hjelp av overføringsordrer og planlegging
+## Illustrasjoner ved hjelp av overføringsordrer og planlegging
 
-### <a name="transfer-orders"></a>Overføringsordrer
+### Overføringsordrer
 
 Når du bruker overføringsordrer og varen er levert, men ikke fullstendig mottatt, får du reservasjonsstatusen Overskudd i *tabellen Reservasjonspost* . Lokasjonskoden vil være overfør til-lokasjonen.
 
@@ -313,7 +313,7 @@ Når ordresporing er aktivert og Der ikke er behov (ordre eller forbruk), [!INCL
 
 Dette er demonstrert i det første eksemplet.
 
-#### <a name="example-1"></a>Eksempel 1
+#### Eksempel 1
 
 1. Åpne elementene 80003 og 80004, og sett feltet **Sporingsprinsipp** til *Bare* sporing. La de andre feltene være standard.
 2. Åpne en varekladd og øk beholdningen av disse varene til antall 10 hver mot lokasjonen RØD, og bokfør kladdelinjene.
@@ -342,7 +342,7 @@ Forklaringen for følgende felt mot reservasjonspost 43 er som følger:
 |**Kildetype**|Varepost-tabell 32.|  
 |**Kilde: ref. nr.**|Det åpne varepostnummeret 322.|
 
-#### <a name="example-2"></a>Eksempel 2
+#### Eksempel 2
 
 Det neste eksemplet illustrerer hva som skjer når en komponent overføres mellom lokasjoner, men samtidig spores mellom et behovsbehov og tilgjengelig forsyning. Komponentene overføres fra lokasjonen RED til BLUE, som skal forbrukes på en frigitt produksjonsordre. Komponenten bruker Sporing, Ordreplanlegging og Varesporing.
 
@@ -378,7 +378,7 @@ Produsert vare henter utdataene mot lokasjonen BLÅ.
 
 Statusinformasjonen i tabell 337 er vist i illustrasjonen nedenfor.
 
-##### <a name="reservation-entries-with-numbers-55-and-56"></a>Reservasjonsposter med nummer 55 og 56
+##### Reservasjonsposter med nummer 55 og 56
 
 For komponentbehovet for henholdsvis parti A og parti B opprettes sporingskoblinger fra behovet i tabell 5407 (Prod.ordrekomponent) til forsyningen i tabell 32, Varepost.  **Feltet Reservasjonsstatus** inneholder Sporing for alle fire postene for å angi at disse dynamiske sporingskoblingene mellom tilbud og etterspørsel.
 
@@ -387,7 +387,7 @@ Behovet i tabell 5407, Prod.ordrekomponent, er knyttet til kilde-IDen til den fr
 > [!NOTE]  
 > **Partinr.**-feltet er tomt på behovslinjene fordi partinumrene ikke er angitt på komponentlinjene i den frigitte produksjonsordren.
 
-##### <a name="reservation-entry-with-number-57"></a>Reservasjonsinngang med nummer 57
+##### Reservasjonsinngang med nummer 57
 
 Fra salgsbehovet i tabell 37, Salgslinje, opprettes det en opprette en kobling for sporing av ordre til forsyningen i tabell 5406, Prod.ordrelinje. Reservasjonsstatus-feltet **inneholder** Reservasjon, og **Binding-feltet** inneholder Ordre-til-ordre. Dette skyldes at den frigitte produksjonsordren ble generert spesifikt for ordren og må forbli koblet i motsetning til sporingskoblinger med reservasjonsstatusen Sporing, som opprettes og endres dynamisk.
 
@@ -405,11 +405,11 @@ Bokfør det totale utestående antallet som KUN levert.
 
 Statusinformasjonen i tabell 337 er vist i illustrasjonen nedenfor.
 
-##### <a name="reservation-entries-with-number-55-and-56"></a>Reservasjonsposter med nummer 55 og 56
+##### Reservasjonsposter med nummer 55 og 56
 
 Ordresporingspostene for de to partiene for komponenten som gjenspeiler behovet i tabell 5407, er endret fra reservasjonsstatusen Sporing til Overskudd. Årsaken er at forsyningene som de var knyttet til før i tabell 32, er brukt av leveringen av overføringsordren. Ekte overskudd, som i dette tilfellet gjenspeiler overflødige forsyning eller behov som forblir ikke-sporet. Det er en indikasjon på ubalanse i ordrenettverket, som vil generere en handlingsmelding fra planleggingssystemet med mindre det løses dynamisk.
 
-##### <a name="reservation-entry-numbers-59-to-63"></a>Reservasjon Entry Numbers 59 til 63
+##### Reservasjon Entry Numbers 59 til 63
 
 Fordi de to partiene av komponenten er bokført på overføringsordren som levert, men ikke mottatt, er alle relaterte positive ordresporingsposter av reservasjonstypen Overskudd, noe som indikerer at de ikke er allokert til noen behov. For hvert partinummer er én post relatert til tabell 5741, Overføringslinje, og én post er relatert til vareposten på transittlokasjonen der varene nå finnes.
 
@@ -434,21 +434,21 @@ Lukk Varesporing-skjemaet.
 
 Statusinformasjonen i tabell 337 er vist i illustrasjonen nedenfor.
 
-##### <a name="reservation-entries-with-numbers-68-and-69"></a>Reservasjonsposter med nummer 68 og 69
+##### Reservasjonsposter med nummer 68 og 69
 
 Siden komponentbehovet er endret til BLÅ-lokasjonen, og forsyningen er tilgjengelig som vareposter på BLÅ-lokasjonen, blir alle ordresporingsposter for de to partinumrene nå fullstendig sporet, angitt av reservasjonsstatusen Sporing. Partinumrene fylles ikke ut på partinummeret **.** i forhold til behovet i tabell 5406, **Prod.ordrelinje**, siden vi ikke angav partinumre for komponenten i den frigitte produksjonsordren.
 
-##### <a name="reservation-entries-with-numbers-70-and-71"></a>Reservasjonsposter med nummer 70 og 71
+##### Reservasjonsposter med nummer 70 og 71
 
 Poster med reservasjonsstatus Prospekt er generert i tabell 337. Årsaken er at begge partinumrene er tilordnet mot komponenten i forbrukskladden, men kladden er ikke bokført.
 
 Dette fullfører delen hvordan ordresporingsposter i tabellen **Reservasjonspost** genereres, endres og slettes ved bruk av flere funksjoner i kombinasjon med overføringsordrer.
 
-### <a name="planning-calculated-1"></a>Beregnet planlegging
+### Beregnet planlegging
 
 Når du bruker planleggingsfunksjoner, det vil si Bestillingsforslag **,** Planleggingsforslag **eller** Ordreplanlegging **, kan reservasjonsposter i** Reservasjonspost-tabell **337 endres eller legges til, avhengig av planleggingsforslaget gitt av logikken i** . [!INCLUDE[prod_short](includes/prod_short.md)] Eksempel 3 bruker **gjenbestillingsprinsipprekkefølge** med **produksjonspolicy** Produser til-ordre for en produsert vare. Komponenten bruker **gjenbestillingsprinsippet**, Fast gjenbestillingsantall.
 
-#### <a name="example-3"></a>Eksempel 3
+#### Eksempel 3
 
 1. I **produksjonsoppsettet**  er kort **er Komponent ved lokasjon** RØD fra forrige eksempel.
 2. Opprett nytt overordnet Vare 70061. Angi følgende felt:
@@ -497,17 +497,17 @@ Statusinformasjonen i tabell 337 er vist i illustrasjonen nedenfor.
 
 Behovet på 40 enheter mot feltet **Kilde-ID** er ordrenummer 1005 og Kildetype er *Salgslinjetabell* 37. Reservasjonsposten er i tråd med planleggingsforslaget, Kilderef. nr. 10000, Kilde-ID er PLANLEGGING, og Kildetype er *Rekvisisjonslinjetabell* 246. Så Der er en balanse mellom behovet fra ordren og forsyningen som er foreslått av planleggingsmotoren.
 
-##### <a name="reservation-entry-numbers-73-and-74"></a>Reservasjon Entry nummer 73 og 74
+##### Reservasjon Entry nummer 73 og 74
 
 Når du kjører kjørselen Beregn plan, genereres de neste fire postene med reservasjonsstatusen Sporing på grunn av innstillingen av gjenbestillingspolicyen Fast gjenbestillingsantall for komponenten. Den nødvendige forsyningen for komponentvare 70062 etterfylles av planleggingsforslagene som er gitt, Kilderef. nr. 20000 og 30000, med Kilde-ID satt til PLANLEGGING og Kildetype fra *Bestillingsforslagslinjetabell* 246. Komponentbehovet opprettes for å dekke behovet mot overordnet vare 70061 for totalt antall (grunntall) 40. Som et resultat av dette behovet er feltet **Kildeprod.ordrelinje** 10000, med Kildetype tabellen *Komponentbehov* 99000829.
 
 Reservasjonsstatusen er ikke Overskudd, ettersom det finnes ordresporing mellom behovet for overordnet vare 70061 og forsyningen av komponentvare 70062.
 
-##### <a name="reservation-entry-numbers-75-and-76"></a>Reservasjon Entry nummer 75 og 76
+##### Reservasjon Entry nummer 75 og 76
 
 De to siste postene har reservasjonsstatusen Overskudd, siden dette er ikke-sporede antall som genereres i planleggingsforslaget i forbindelse med gjenbestillingsparameterne Gjenbestillingspunkt og Gjenbestillingsantall.
 
-## <a name="see-also"></a>Se også
+## Se også  
 [Utformingsdetaljer: Varesporingsutforming](design-details-item-tracking-design.md)  
 [Utformingsdetaljer: Balanser tilbud og etterspørsel](design-details-balancing-demand-and-supply.md)  
 [Designdetaljer: Reservasjon, ordresporing og handlingsmeldinger](design-details-reservation-order-tracking-and-action-messaging.md)   

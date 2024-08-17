@@ -12,13 +12,13 @@ ms.service: dynamics-365-business-central
 ms.reviewer: bholtorf
 ---
 
-# <a name="design-details-inventory-costing"></a>Utformingsdetaljer: Kostberegning for lager
+# Utformingsdetaljer: Kostberegning for lager
 
 Denne dokumentasjonen gir et detaljert teknisk innblikk i begrepene og prinsippene som brukes i funksjonene for kostberegning for beholdning i [!INCLUDE[prod_short](includes/prod_short.md)].  
 
 Kostberegning for beholdning, også kalt kostnadsstyring, handler om å registrere og rapportere forretningsdriftskost.  
 
-## <a name="in-this-section"></a>I denne delen
+## I denne delen
 
 [Utformingsdetaljer: Lagermetoder](design-details-costing-methods.md)  
 [Utformingsdetaljer: Vareutligning](design-details-item-application.md)  
